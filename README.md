@@ -20,7 +20,7 @@ This repository contains the official OpenUI5 documentation from the OpenUI5 Dem
 
     The `docs` folder contains an enriched markdown export of the official OpenUI5 documentation from the [OpenUI5 Demo Kit](https://openui5.hana.ondemand.com/#/topic). This is already quite usable to browse the documentation and find topics you want to improve.
 
-  * **[OpenUI5 Markdown Documentation](https://github.wdf.sap.corp/pages/uics-innersource/openui5-docs/) (docsify)**
+  * **[OpenUI5 Markdown Documentation](https://sap.github.io/openui5-docs/) (docsify)**
 
     This is a shinier version of the markdown documentation with better search options powered by [docsify](https://docsify.js.org/) - Made with ❤️. The contents of the raw version and the docsified version are the same.
 

@@ -2,7 +2,7 @@
 
 Did you spot an error in the documentation? Do you think something is missing or should be explained differently? Do you have a great idea for new content? This is the place to share your thoughts and ideas with us!
 
-You can add **content requests** by creating a [GitHub issue](https://github.wdf.sap.corp/UICS-Consumption/UI5-docs/issues). If you want to propose changes, updates, or corrections to the documentation content, please create a **pull request**.
+You can add **content requests** by creating a [GitHub issue](https://github.com/SAP/openui5-docs/issues). If you want to propose changes, updates, or corrections to the documentation content, please create a **pull request**.
 
 **You are welcome to:**
 
