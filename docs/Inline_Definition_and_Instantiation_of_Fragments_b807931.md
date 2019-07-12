@@ -1,0 +1,52 @@
+| loio |
+| -----|
+| b807931a353649859a92f7c7bf1111e3 |
+
+<div id="loio">
+
+view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b807931a353649859a92f7c7bf1111e3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3)</div>
+<!-- loiob807931a353649859a92f7c7bf1111e3 -->
+
+## Inline Definition and Instantiation of Fragments
+
+Instead of defining fragments externally in a separate file, they can also be defined inline and can be instantiated immediately.
+
+The content definition and also the instantiation syntax are just the same compared to an instantiation in a program. However, instead of the "fragmentName" the "fragmentContent" needs to be given. This feature can both be used for prototyping or for dynamic fragment composition or for loading fragment content from sources which are not accessible by the normal module loading mechanism. In general, inline definition of fragments plays only a minor role.
+
+JS fragment definitions can be done both inline and within a separate file without any changes. Example inline definitions of XML and HTML fragments are displayed in the following code examples:
+
+***
+
+### Example of an Inline XML Fragment
+
+```lang-xml
+// define the XML fragment as a string (or load it from anywhere)
+var myXml = '<Panel xmlns="sap.m" text="Hello World"><Button text="Hello World"></Button></Panel>';
+
+// use this XML string as "fragmentContent"
+var oFragment = sap.ui.xmlfragment({fragmentContent:myXml}); // oFragment is now the Panel Control
+
+// put the Fragment content into the document
+oFragment.placeAt('content');
+```
+
+***
+
+### Example of an Inline HTML Fragment
+
+```lang-html
+// define the HTML fragment as a string (or load it from anywhere)
+var myHtml = '<div data-sap-ui-type="sap.m.Button" data-text="Hello World"></div>';
+
+// use this HTML string as "fragmentContent"
+var oFragment = sap.ui.htmlfragment({fragmentContent:myHtml}); // oFragment is now the Button Control
+
+// put the Fragment content into the document
+oFragment.placeAt('content');
+```
+
+**Related information**  
+
+
+[Programmatically Instantiating JS Fragments](Programmatically_Instantiating_JS_Fragments_3cff5d0.md)
+

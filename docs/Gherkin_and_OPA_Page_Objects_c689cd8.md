@@ -1,0 +1,46 @@
+| loio |
+| -----|
+| c689cd83e2524251a75d694b09263d07 |
+
+<div id="loio">
+
+view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c689cd83e2524251a75d694b09263d07.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07)</div>
+<!-- loioc689cd83e2524251a75d694b09263d07 -->
+
+## Gherkin and OPA Page Objects
+
+Gherkin is compatible with the concept of OPA5 page objects.
+
+OPA5 page objects are a method for architecting integration testing to make test components more intuitive and reusable. For more information about OPA page objects, see [Structuring OPA Tests With Page Objects](Structuring_OPA_Tests_With_Page_Objects_f2f843d.md).
+
+> Note:
+> You can find a sample implementation in the *Samples* in the Demo Kit at [Using Gherkin with OPA5 Page Objects](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithPageObjects/preview).
+> 
+> 
+
+To make Gherkin work with page objects, you should load your OPA5 page objects in the HTML bootstrap file, as shown in the sample. The only adaptation you need to make when starting the Gherkin testing is to add the parameter `generateMissingSteps` when calling `opa5TestHarness.test`:
+
+```lang-js
+opa5TestHarness.test({
+  featurePath: "GherkinWithPageObjects/Requirements1",
+  generateMissingSteps: true
+});
+
+```
+
+This signals to Gherkin that if it cannot find a matching step definition in the steps file then it should try to use an OPA5 page object call instead. In the example above, no steps file is specified, which means that Gherkin will expect to make a page object call for each test step. You could also take a hybrid approach where each test step in the feature file either matches a Gherkin step definition or executes an OPA5 page object call. In addition, you can combine OPA5 page object calls with a Gherkin data table or scenario outline to achieve powerful results \(you can see both options in the sample\). Here is a sample feature file scenario that takes advantage of page objects:
+
+```nocode
+Scenario: Page 1 journey
+  When on the overview: I press on "Go to Page 1"
+  Then on page 1: I should see the page 1 text
+
+```
+
+Use the Gherkin console logs to help you debug your OPA5 page object calls.
+
+> Note:
+> Chaining OPA5 page objects, for example, `When.onTheOverview.iPressOnGoToPage1().and.onPage1.iShouldSeeThePage1Text()` is currently **not** supported in Gherkin feature files.
+> 
+> 
+
