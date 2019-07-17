@@ -1,4 +1,4 @@
-![openui5](../media/openui5.png)
+![openui5](../media/ui5.png)
 
 # OpenUI5: UI Development Toolkit for HTML5
 
