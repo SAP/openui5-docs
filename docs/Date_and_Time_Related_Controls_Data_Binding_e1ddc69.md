@@ -64,9 +64,13 @@ According to the `OData Version 2.0` specification, the following date and time 
 #### Binding of date values to `DatePicker`
 
 ```lang-xml
-<DatePicker displayFormat="short"
-            value="{ path: 'EntryDate', type: 'sap.ui.model.odata.type.DateTime', formatOptions: { displayFormat: 'Date'} }"/>
-
+<DatePicker value="{
+  path: 'EntryDate',
+  type: 'sap.ui.model.odata.type.DateTime',
+  constraints: {
+    displayFormat: 'Date'
+  }
+}" />
 ```
 
 If you have date values at the backend, you should bind them as shown in the sample above. When exposing its database field \(`EntryDate`\) via `OData`, date values can be exposed both as `Edm.DateTime` and `Edm.DateTimeOffset`. The syntax for binding the `DatePicker` value property is the same in both cases.
