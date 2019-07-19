@@ -1,4 +1,4 @@
-![UI5-docs](openui5.png)
+![UI5-docs](../media/openui5.png)
 
 **OpenUI5 Markdown Documentation**
 
