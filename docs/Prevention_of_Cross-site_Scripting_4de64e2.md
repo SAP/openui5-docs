@@ -1,11 +1,12 @@
+<!-- loio4de64e2e191f4a7297d4fd2d1e233a2d -->
+
 | loio |
 | -----|
 | 4de64e2e191f4a7297d4fd2d1e233a2d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4de64e2e191f4a7297d4fd2d1e233a2d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4de64e2e191f4a7297d4fd2d1e233a2d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4de64e2e191f4a7297d4fd2d1e233a2d)</div>
-<!-- loio4de64e2e191f4a7297d4fd2d1e233a2d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4de64e2e191f4a7297d4fd2d1e233a2d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4de64e2e191f4a7297d4fd2d1e233a2d)</div>
 
 ## Prevention of Cross-site Scripting
 

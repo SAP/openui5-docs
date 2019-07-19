@@ -1,11 +1,12 @@
+<!-- loio4f1c1075d88c41a5904389fa12b28f6b -->
+
 | loio |
 | -----|
 | 4f1c1075d88c41a5904389fa12b28f6b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4f1c1075d88c41a5904389fa12b28f6b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b)</div>
-<!-- loio4f1c1075d88c41a5904389fa12b28f6b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b)</div>
 
 ## URL Helper
 
@@ -17,21 +18,21 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 
 -   Trigger telephone application
 
-    ```lang-js
+    ``` js
     
     sap.m.URLHelper.triggerTel( [Telephone Number] ); //Telephone number is optional
     ```
 
 -   Trigger text messaging application
 
-    ```lang-js
+    ``` js
     
     sap.m.URLHelper.triggerSms( [Telephone Number] ); //Telephone number is optional
     ```
 
 -   Trigger e-mail application
 
-    ```lang-js
+    ``` js
     
     sap.m.URLHelper.triggerEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] ); 
     // All parameters are optional
@@ -39,7 +40,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 
 -   Redirect To custom URL
 
-    ```lang-js
+    ``` js
     
     sap.m.URLHelper.redirect( URL ); 
     //URL is required and can be used for custom protocols (e.g http, ftp, ...)
@@ -63,7 +64,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 > 
 > -   If you just want to get a URI back without a redirect, you can use normalize methods which have the same parameter as trigger methods, for example:
 > 
->     ```lang-js
+>     ``` js
 >     
 >     /*
 >      * These methods do not redirect but return URI scheme back as string.

@@ -1,11 +1,12 @@
+<!-- loio8956f0a223284d729900ebad4ca88356 -->
+
 | loio |
 | -----|
 | 8956f0a223284d729900ebad4ca88356 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8956f0a223284d729900ebad4ca88356.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356)</div>
-<!-- loio8956f0a223284d729900ebad4ca88356 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356)</div>
 
 ## Message Model
 

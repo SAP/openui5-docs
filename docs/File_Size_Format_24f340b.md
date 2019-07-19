@@ -1,11 +1,12 @@
+<!-- loio24f340bdd59e4428aab30a20d14e2ebc -->
+
 | loio |
 | -----|
 | 24f340bdd59e4428aab30a20d14e2ebc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/24f340bdd59e4428aab30a20d14e2ebc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc)</div>
-<!-- loio24f340bdd59e4428aab30a20d14e2ebc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc)</div>
 
 ## File Size Format
 
@@ -17,7 +18,7 @@ The `sap.ui.core.format.FileSizeFormat` class can be used to format a number int
 
 The instantiation of `sap.ui.core.format.FileSizeFormat` is done by calling the `getter` defined on the `FileSizeFormat` \(and not by calling the constructor\):
 
-```lang-js
+``` js
 var oFileSizeFormat = sap.ui.core.format.FileSizeFormat.getInstance();
 ```
 
@@ -27,7 +28,7 @@ var oFileSizeFormat = sap.ui.core.format.FileSizeFormat.getInstance();
 
 `binaryFilesize`: if this is set to `true`, base `2` is used which means 1 Kilobyte = 1024 Byte. Otherwise base 10 is used which means 1 Kilobyte = 1000 Byte. The default value is `false`.
 
-```lang-js
+``` js
 var oFileSizeFormat =  sap.ui.core.format.FileSizeFormat.getInstance({
     binaryFilesize: true,
     decimals: 2
@@ -48,7 +49,7 @@ oFileSizeFormat.format(1023); //returns 1.02 KB because it's bigger than 1 KB (1
 
 `FileSizeFormat` can also parse a string which contains both number and unit of a number which represents the same amount of size in unit byte.
 
-```lang-js
+``` js
 var oFileSizeFormat =  sap.ui.core.format.FileSizeFormat.getInstance();
  
 oFileSizeFormat.parse("1.23 MiB"); //returns 1289748.48

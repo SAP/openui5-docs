@@ -1,11 +1,12 @@
+<!-- loioc689cd83e2524251a75d694b09263d07 -->
+
 | loio |
 | -----|
 | c689cd83e2524251a75d694b09263d07 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c689cd83e2524251a75d694b09263d07.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07)</div>
-<!-- loioc689cd83e2524251a75d694b09263d07 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c689cd83e2524251a75d694b09263d07)</div>
 
 ## Gherkin and OPA Page Objects
 
@@ -20,7 +21,7 @@ OPA5 page objects are a method for architecting integration testing to make test
 
 To make Gherkin work with page objects, you should load your OPA5 page objects in the HTML bootstrap file, as shown in the sample. The only adaptation you need to make when starting the Gherkin testing is to add the parameter `generateMissingSteps` when calling `opa5TestHarness.test`:
 
-```lang-js
+``` js
 opa5TestHarness.test({
   featurePath: "GherkinWithPageObjects/Requirements1",
   generateMissingSteps: true

@@ -1,11 +1,12 @@
+<!-- loioaa93e1c6953a41b48cd912a7331eadee -->
+
 | loio |
 | -----|
 | aa93e1c6953a41b48cd912a7331eadee |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/aa93e1c6953a41b48cd912a7331eadee.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/aa93e1c6953a41b48cd912a7331eadee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/aa93e1c6953a41b48cd912a7331eadee)</div>
-<!-- loioaa93e1c6953a41b48cd912a7331eadee -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/aa93e1c6953a41b48cd912a7331eadee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/aa93e1c6953a41b48cd912a7331eadee)</div>
 
 ## View Modification
 
@@ -15,7 +16,7 @@ The view modification is currently restricted to the `visible` property of contr
 
 View modification is available for XML views, JS views and HTML views. Below is an example that explains how a view modification works. The first code snippet describes the `Sub3.view.xml` view in the delivered standard application.
 
-```lang-js
+``` js
 <mvc:View xmlns="sap." xmlns:mvc="sap.ui.core.mvc">
     <TextView text="SAP View 'Sub3' - the text after this one is hidden by customizing: "></TextView>
     <TextView id="someCustomizableTextControl" text="This text is made invisible by customization"></TextView>  
@@ -24,7 +25,7 @@ View modification is available for XML views, JS views and HTML views. Below is 
 
 The following code snippet describes the extensions for the control `someCustomizableTextControl` with the `visible` property set to `false`.
 
-```lang-js
+``` js
 extensions: {  
     "sap.ui.viewModifications": {
         "samples.components.ext.sap.Sub3": {

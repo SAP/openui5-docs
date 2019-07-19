@@ -1,11 +1,12 @@
+<!-- loio4cde849dc18949b69bbe152a0aaa19c6 -->
+
 | loio |
 | -----|
 | 4cde849dc18949b69bbe152a0aaa19c6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4cde849dc18949b69bbe152a0aaa19c6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6)</div>
-<!-- loio4cde849dc18949b69bbe152a0aaa19c6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6)</div>
 
 ## Step 1: No Data Binding
 
@@ -61,7 +62,7 @@ Create a new folder `webapp` which will contain all sources of the app that we w
 
 ### webapp/index.js \(New\)
 
-```lang-js
+``` js
 sap.ui.require([
 	"sap/m/Text"
 ], function (Text) {

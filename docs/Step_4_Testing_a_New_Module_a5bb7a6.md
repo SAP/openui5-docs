@@ -1,11 +1,12 @@
+<!-- loioa5bb7a6d736f41c8ac1c1ef0b2d40676 -->
+
 | loio |
 | -----|
 | a5bb7a6d736f41c8ac1c1ef0b2d40676 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a5bb7a6d736f41c8ac1c1ef0b2d40676.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
-<!-- loioa5bb7a6d736f41c8ac1c1ef0b2d40676 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
 
 ## Step 4: Testing a New Module
 

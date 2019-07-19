@@ -1,11 +1,12 @@
+<!-- loio8ef57cfd37b44f089f7e3b52d56597eb -->
+
 | loio |
 | -----|
 | 8ef57cfd37b44f089f7e3b52d56597eb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8ef57cfd37b44f089f7e3b52d56597eb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
-<!-- loio8ef57cfd37b44f089f7e3b52d56597eb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
 
 ## Step 33: Routing Back and History
 

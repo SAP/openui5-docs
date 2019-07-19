@@ -1,11 +1,12 @@
+<!-- loio1a010d3b92c34226a96f202ec27e9217 -->
+
 | loio |
 | -----|
 | 1a010d3b92c34226a96f202ec27e9217 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1a010d3b92c34226a96f202ec27e9217.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1a010d3b92c34226a96f202ec27e9217) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1a010d3b92c34226a96f202ec27e9217)</div>
-<!-- loio1a010d3b92c34226a96f202ec27e9217 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1a010d3b92c34226a96f202ec27e9217) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1a010d3b92c34226a96f202ec27e9217)</div>
 
 ## Binding Events
 

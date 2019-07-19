@@ -1,11 +1,12 @@
+<!-- loio66670b0aab3948469d5cc8276113e9ea -->
+
 | loio |
 | -----|
 | 66670b0aab3948469d5cc8276113e9ea |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/66670b0aab3948469d5cc8276113e9ea.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea)</div>
-<!-- loio66670b0aab3948469d5cc8276113e9ea -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea)</div>
 
 ## Step 4: Add a *Back* Button to *Not Found* Page
 

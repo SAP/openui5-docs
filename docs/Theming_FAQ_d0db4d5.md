@@ -1,11 +1,12 @@
+<!-- loiod0db4d538edb43bca893acd4d6814a40 -->
+
 | loio |
 | -----|
 | d0db4d538edb43bca893acd4d6814a40 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d0db4d538edb43bca893acd4d6814a40.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d0db4d538edb43bca893acd4d6814a40) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d0db4d538edb43bca893acd4d6814a40)</div>
-<!-- loiod0db4d538edb43bca893acd4d6814a40 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d0db4d538edb43bca893acd4d6814a40) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d0db4d538edb43bca893acd4d6814a40)</div>
 
 ## Theming FAQ
 

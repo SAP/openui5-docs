@@ -1,11 +1,12 @@
+<!-- loioe7027747b8ef4ef483cadeeec4cffb1e -->
+
 | loio |
 | -----|
 | e7027747b8ef4ef483cadeeec4cffb1e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e7027747b8ef4ef483cadeeec4cffb1e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e7027747b8ef4ef483cadeeec4cffb1e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e7027747b8ef4ef483cadeeec4cffb1e)</div>
-<!-- loioe7027747b8ef4ef483cadeeec4cffb1e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e7027747b8ef4ef483cadeeec4cffb1e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e7027747b8ef4ef483cadeeec4cffb1e)</div>
 
 ## Dependent Facets
 
@@ -19,7 +20,7 @@ In this example, only products from the selected category are displayed.
 
 ![](loio1f47e6058f5747b687d1822040e46b1f_LowRes.png)
 
-```lang-js
+``` js
 
 var oCategoriesModel = new sap.ui.model.odata.v2.ODataModel("/uilib-sample/proxy/http/services.odata.org/V3/Northwind/Northwind.svc");
 

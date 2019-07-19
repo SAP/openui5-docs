@@ -1,11 +1,12 @@
+<!-- loiob2f563900ed2492b9b9003560e00ea9d -->
+
 | loio |
 | -----|
 | b2f563900ed2492b9b9003560e00ea9d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b2f563900ed2492b9b9003560e00ea9d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b2f563900ed2492b9b9003560e00ea9d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b2f563900ed2492b9b9003560e00ea9d)</div>
-<!-- loiob2f563900ed2492b9b9003560e00ea9d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b2f563900ed2492b9b9003560e00ea9d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b2f563900ed2492b9b9003560e00ea9d)</div>
 
 ## Git Guidelines
 
@@ -63,7 +64,7 @@ The data section consists of name-value pairs:
 
 ***
 
-```lang-html
+``` html
 [FIX] sap.m.Popover: scrolling is removed after Popover is rerendered
 
 - this was caused by the special treatment in dealing with rerendering

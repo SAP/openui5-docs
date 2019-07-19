@@ -1,11 +1,12 @@
+<!-- copy82b4c217d78448159bdf9ac1047865b1 -->
+
 | loio |
 | -----|
 | 82b4c217d78448159bdf9ac1047865b1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/82b4c217d78448159bdf9ac1047865b1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1)</div>
-<!-- copy82b4c217d78448159bdf9ac1047865b1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1)</div>
 
 ## Content or Control Is Not Visible
 

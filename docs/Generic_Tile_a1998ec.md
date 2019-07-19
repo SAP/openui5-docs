@@ -1,11 +1,12 @@
+<!-- loioa1998ecc0853481891f8bc81cf900c9a -->
+
 | loio |
 | -----|
 | a1998ecc0853481891f8bc81cf900c9a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a1998ecc0853481891f8bc81cf900c9a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
-<!-- loioa1998ecc0853481891f8bc81cf900c9a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
 
 ## Generic Tile
 

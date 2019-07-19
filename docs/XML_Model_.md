@@ -1,11 +1,12 @@
+<!-- loioa53e71d85fae4d0887a8b58431197a27 -->
+
 | loio |
 | -----|
 | a53e71d85fae4d0887a8b58431197a27 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a53e71d85fae4d0887a8b58431197a27.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27)</div>
-<!-- loioa53e71d85fae4d0887a8b58431197a27 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27)</div>
 
 ## XML Model
 
@@ -13,25 +14,25 @@ The XML model allows to bind controls to XML data. It is a client-side model int
 
 To instantiate the model, use the following code:
 
-```lang-js
+``` js
 var oModel = new sap.ui.model.xml.XMLModel();
 ```
 
 The XML model allows to bind controls to XML data. It is a client-side model intended for small data sets, which are completely available on the client. The XML model does not contain mechanisms for server-based paging or loading of deltas. It supports two-way binding.
 
-```lang-js
+``` js
 oModel.setData(oXMLDocument);
 ```
 
 To create inline XML data or to get XML data as a string, the XML model provides a `setXML` method. This method takes XML in text format and uses the browser's XML parser to create a document.
 
-```lang-js
+``` js
 oModel.setXML("<?xml version=\"1.0\"?><some><xml>data</xml></some>");
 ```
 
 Usually, you load your data from the server using an HTTP-based service, so the `loadData` method provides an easy way to load XML data from the given URL:
 
-```lang-js
+``` js
 oModel.loadData("data.xml");
 ```
 
@@ -52,7 +53,7 @@ If you use an XML model for data binding, sorting and filtering is implemented i
 
 The `fnTest` method of the Filter gets the value to test as the only parameter and returns, whether the row with the given value should be filtered or not. To implement a filter, use the following code :
 
-```lang-js
+``` js
 var oFilter = new sap.ui.model.Filter("property");
 oFilter.fnFilter = function(value) {
     return (value > 100);
@@ -61,7 +62,7 @@ oFilter.fnFilter = function(value) {
 
 The `fnCompare` method of the Sorter gets the two values to compare as parameters and returns -1, 0 or 1, dependent which of the two values should be ordered before the other. To implement a sorter, use the following code:
 
-```lang-js
+``` js
 var oSorter = new sap.ui.model.Sorter("property");
 oSorter.fnCompare = function(value1, value2) {
     if (value1 < value2) return -1;
@@ -82,7 +83,7 @@ For this purpose, you must declare namespaces using the `setNameSpace` method. T
 
 Assumed this sample XML document:
 
-```lang-xml
+``` xml
 
 <data xmlns="http://tempuri.org/base" xmlns:ext="http://tempuri.org/ext">
      <ext:entry id="0" value="foo" />
@@ -92,7 +93,7 @@ Assumed this sample XML document:
 
 The namespaces must be declared in the JavaScript like this, to be able to bind to them:
 
-```lang-js
+``` js
 
 var oModel = new sap.ui.model.xml.XMLModel(oXMLDoc);
 oModel.setNameSpace("http://tempuri.org/base");
@@ -115,7 +116,7 @@ For attributes, a special selector using the "@" character exists and "text\(\)"
 > 
 > 
 
-```lang-xml
+``` xml
 
 <companies>
   <company name="Treefish Inc">

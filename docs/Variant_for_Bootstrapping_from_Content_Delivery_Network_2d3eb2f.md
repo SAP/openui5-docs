@@ -1,11 +1,12 @@
+<!-- loio2d3eb2f322ea4a82983c1c62a33ec4ae -->
+
 | loio |
 | -----|
 | 2d3eb2f322ea4a82983c1c62a33ec4ae |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2d3eb2f322ea4a82983c1c62a33ec4ae.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
-<!-- loio2d3eb2f322ea4a82983c1c62a33ec4ae -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
 
 ## Variant for Bootstrapping from Content Delivery Network
 
@@ -24,7 +25,7 @@ Check the available versions with the respective maintenance status at [https://
 
 You can refer to a specific version by using a versioned URL as in the example below:
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
     src="https://openui5.hana.ondemand.com/**1.42.6**/resources/sap-ui-core.js"
@@ -47,7 +48,7 @@ The default version of our libraries has the generic URL [https://openui5.hana.o
 > 
 > If you want to use the default version, you can use the following bootstrap script:
 > 
-> ```lang-html
+> ``` html
 > <script id="sap-ui-bootstrap"
 >     type="text/javascript"
 >     src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"

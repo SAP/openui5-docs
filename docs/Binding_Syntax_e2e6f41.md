@@ -1,11 +1,12 @@
+<!-- loioe2e6f4127fe4450ab3cf1339c42ee832 -->
+
 | loio |
 | -----|
 | e2e6f4127fe4450ab3cf1339c42ee832 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e2e6f4127fe4450ab3cf1339c42ee832.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
-<!-- loioe2e6f4127fe4450ab3cf1339c42ee832 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
 
 ## Binding Syntax
 
@@ -29,7 +30,7 @@ When defining a binding path for a control, a binding context is created which c
 
 To reference model data in a view , you can use the simple binding syntax "`{*/path/to/data*}`":
 
-```lang-xml
+``` xml
 <Input value="{/firstName}"/>
 ```
 
@@ -37,13 +38,13 @@ You can add other properties like formatters or data types:
 
 -   Data type:
 
-```lang-xml
+``` xml
 <Input value="{path: '/firstName', type: 'sap.ui.model.type.String'}"/>
 ```
 
 -   Formatter:
 
-```lang-xml
+``` xml
 <Input value="{path: '/firstName', formatter:'my.globalFormatter'}"/>
 ```
 
@@ -60,7 +61,7 @@ For more information about data types and formatters, see [Formatting, Parsing, 
 
 If a control requires data from multiple different model properties, you use a `parts` array of `path`s to define composite binding paths:
 
-```lang-xml
+``` xml
 <TextField value="{
 	parts: [
 		{path:'birthday/day'},
@@ -81,7 +82,7 @@ For more information, see [Composite Binding](Composite_Binding_a2fe8e7.md) and 
 
 Expression binding is a simple way to calculate values directly in the view. For example, if you want to change the color of the price depending on whether it is above or below some threshold. With expression binding you don't have to declare a separate formatter:
 
-```lang-xml
+``` xml
 <ObjectStatus state=="{= ${products>UnitPrice}  > ${/priceThreshold} ? 'Error' : 'Success' }"/>
 ```
 
@@ -95,7 +96,7 @@ For more information, see [Expression Binding](Expression_Binding_daf6852.md).
 
 With metadata binding, you can bind properties of a control to the corresponding property that is defined in the metadata of an OData service:
 
-```lang-xml
+``` xml
 <Input maxLength="{/#Company/ZipCode/@maxLength}"/>
 ```
 

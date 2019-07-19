@@ -1,11 +1,12 @@
+<!-- loio408b40efed3c416681e1bd8cdd8910d4 -->
+
 | loio |
 | -----|
 | 408b40efed3c416681e1bd8cdd8910d4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/408b40efed3c416681e1bd8cdd8910d4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4)</div>
-<!-- loio408b40efed3c416681e1bd8cdd8910d4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4)</div>
 
 ## Performance: Speed Up Your App
 
@@ -50,7 +51,7 @@ The most important setting is `data-sap-ui-async="true"`. This enables the runti
 
 `index.html` file:
 
-```lang-html
+``` html
 ...
 <script
 	id="sap-ui-bootstrap"
@@ -70,7 +71,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 > 
 > 
 
-```lang-html
+``` html
 <script>
 	sap.ui.getCore().attachInit(function() {
 		sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {

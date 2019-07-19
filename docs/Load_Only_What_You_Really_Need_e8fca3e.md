@@ -1,11 +1,12 @@
+<!-- loioe8fca3e4c68a4f289660299d806ba99e -->
+
 | loio |
 | -----|
 | e8fca3e4c68a4f289660299d806ba99e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e8fca3e4c68a4f289660299d806ba99e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e8fca3e4c68a4f289660299d806ba99e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e8fca3e4c68a4f289660299d806ba99e)</div>
-<!-- loioe8fca3e4c68a4f289660299d806ba99e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e8fca3e4c68a4f289660299d806ba99e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e8fca3e4c68a4f289660299d806ba99e)</div>
 
 ## Load Only What You Really Need
 
@@ -19,7 +20,7 @@ The amount of resources and data that your app loads will directly affect the pe
 
 A library preload file, the library styles and text translations are loaded for every library you define in the application descriptor or the OpenUI5 bootstrap. Always define libraries in the manifest and remove all libraries that you do not intend to use in your code.
 
-```lang-json
+``` json
 "sap.ui5": {
 	"dependencies": {
 		"minUI5Version": "1.60.0",
@@ -46,7 +47,7 @@ In the JavaScript files of your app, define all dependencies to OpenUI5 framewor
 
 The UI5 Build and Development tooling can then create a "cleaned-up" version of your app that only contains the resources you really need. The so-called application preload will greatly speed up the initial load time of your app.
 
-```lang-json
+``` json
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",

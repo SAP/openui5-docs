@@ -1,11 +1,12 @@
+<!-- loio0c5dc937271f4f56b5e7d54676199860 -->
+
 | loio |
 | -----|
 | 0c5dc937271f4f56b5e7d54676199860 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0c5dc937271f4f56b5e7d54676199860.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0c5dc937271f4f56b5e7d54676199860) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0c5dc937271f4f56b5e7d54676199860)</div>
-<!-- loio0c5dc937271f4f56b5e7d54676199860 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0c5dc937271f4f56b5e7d54676199860) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0c5dc937271f4f56b5e7d54676199860)</div>
 
 ## Step 1 \(Option 1\): Creating the Initial App with an App Template in SAP Web IDE
 

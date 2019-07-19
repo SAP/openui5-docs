@@ -1,11 +1,12 @@
+<!-- loio13e6f3bfc54c4bd7952403e20ff447e7 -->
+
 | loio |
 | -----|
 | 13e6f3bfc54c4bd7952403e20ff447e7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/13e6f3bfc54c4bd7952403e20ff447e7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7)</div>
-<!-- loio13e6f3bfc54c4bd7952403e20ff447e7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7)</div>
 
 ## How to Use Densities for Controls
 
@@ -26,7 +27,7 @@ As dialogs and other popups are located at the root of the HTML document, you al
 
 XML view definition - Example:
 
-```lang-xml
+``` xml
 <mvc:View class="sapUiSizeCompact" xmlns=....>
    ...
 </mvc:View>
@@ -34,7 +35,7 @@ XML view definition - Example:
 
 JS view definition - Example:
 
-```lang-js
+``` js
 createContent: function(oController) {
    ...
    this.addStyleClass("sapUiSizeCompact"); // make everything inside this View appear in Compact density
@@ -44,7 +45,7 @@ createContent: function(oController) {
 
 JavaScript opening a dialog - Example:
 
-```lang-js
+``` js
 // "Dialog" required from module "sap/m/Dialog"
 var myDialog = new Dialog({.....}).addStyleClass("sapUiSizeCompact");
 myDialog.open();
@@ -52,7 +53,7 @@ myDialog.open();
 
 JavaScript instantiating a view - Example:
 
-```lang-js
+``` js
 // "View" required from module "sap/ui/core/mvc/View"
 View.create({ ... }).then(function(oView) {
     oView.addStyleClass("sapUiSizeCompact");
@@ -62,7 +63,7 @@ View.create({ ... }).then(function(oView) {
 > Note:
 > It is also possible to apply the relevant density only under certain circumstances, for example, for devices that do **not** support touch interaction. In this case, add the class dynamically to the UI instead of statically. You can do this, for example, in the view controller:
 > 
-> ```lang-js
+> ``` js
 > sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/Device'], function(Controller, Device) {
 >     return Controller.extend("sap.my.controller", {
 >             onInit: function() {
@@ -84,7 +85,7 @@ As the check depends on several factors, you may not want to repeat the same log
 
 As dialogs are rendered in a different part of the HTML tree, they do **not** automatically inherit the density. To decide if you set the relevant density for a dialog, either perform the same check as for the view or use the convenience function `syncStyleClass` from `sap/ui/core/syncStyleClass`. This convenience function synchronizes a style class between elements. The function accepts the following parameters: Name of the style class, source element, and destination element. The following code snippet shows an example:
 
-```lang-xml
+``` xml
 <mvc:View
     controllerName="mycontroller"
     xmlns:mvc="sap.ui.core.mvc"
@@ -93,7 +94,7 @@ As dialogs are rendered in a different part of the HTML tree, they do **not** au
 </mvc:View>
 ```
 
-```lang-xml
+``` xml
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
     <Dialog title="Alert" type="Message">
         <Text text="Lorem ipsum dolor sit amet" />
@@ -104,7 +105,7 @@ As dialogs are rendered in a different part of the HTML tree, they do **not** au
 </core:FragmentDefinition>
 ```
 
-```lang-js
+``` js
 sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/Fragment", "sap/ui/core/syncStyleClass"], function(Controller, Fragment, syncStyleClass) {
     return Controller.extend("mycontroller", {
         onOpenDialog: function (oEvent) {
@@ -140,7 +141,7 @@ When calling `syncStyleClass` from `sap/ui/core/syncStyleClass`, the source elem
 
 To determine if the relevant style class is set anywhere above a certain HTML element, you can use the `closest` function from jQuery as shown in the following example:
 
-```lang-js
+``` js
 // "Button" required from module "sap/m/Button"
 // "Dialog" required from module "sap/m/Dialog"
 var btn = new Button({

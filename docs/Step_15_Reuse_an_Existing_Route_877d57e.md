@@ -1,11 +1,12 @@
+<!-- loio877d57e3b5654b19a2d2e5190dc43b0d -->
+
 | loio |
 | -----|
 | 877d57e3b5654b19a2d2e5190dc43b0d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/877d57e3b5654b19a2d2e5190dc43b0d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
-<!-- loio877d57e3b5654b19a2d2e5190dc43b0d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
 
 ## Step 15: Reuse an Existing Route
 

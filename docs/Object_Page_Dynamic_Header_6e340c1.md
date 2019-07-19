@@ -1,11 +1,12 @@
+<!-- loio6e340c119ddd4c778b315f65a0432420 -->
+
 | loio |
 | -----|
 | 6e340c119ddd4c778b315f65a0432420 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6e340c119ddd4c778b315f65a0432420.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420)</div>
-<!-- loio6e340c119ddd4c778b315f65a0432420 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420)</div>
 
 ## Object Page Dynamic Header
 

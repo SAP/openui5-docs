@@ -1,11 +1,12 @@
+<!-- loioa460a7348a6c431a8bd967ab9fb8d918 -->
+
 | loio |
 | -----|
 | a460a7348a6c431a8bd967ab9fb8d918 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a460a7348a6c431a8bd967ab9fb8d918.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a460a7348a6c431a8bd967ab9fb8d918) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a460a7348a6c431a8bd967ab9fb8d918)</div>
-<!-- loioa460a7348a6c431a8bd967ab9fb8d918 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a460a7348a6c431a8bd967ab9fb8d918) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a460a7348a6c431a8bd967ab9fb8d918)</div>
 
 ## App Templates: Kick Start Your App Development
 

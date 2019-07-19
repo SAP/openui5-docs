@@ -1,11 +1,12 @@
+<!-- loio003f755d46d34dd1bbce9ffe08c8d46a -->
+
 | loio |
 | -----|
 | 003f755d46d34dd1bbce9ffe08c8d46a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/003f755d46d34dd1bbce9ffe08c8d46a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/003f755d46d34dd1bbce9ffe08c8d46a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/003f755d46d34dd1bbce9ffe08c8d46a)</div>
-<!-- loio003f755d46d34dd1bbce9ffe08c8d46a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/003f755d46d34dd1bbce9ffe08c8d46a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/003f755d46d34dd1bbce9ffe08c8d46a)</div>
 
 ## Folder Structure: Where to Put Your Files
 

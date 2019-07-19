@@ -1,11 +1,12 @@
+<!-- loio6322164936f047de941ec522b95d7b70 -->
+
 | loio |
 | -----|
 | 6322164936f047de941ec522b95d7b70 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6322164936f047de941ec522b95d7b70.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70)</div>
-<!-- loio6322164936f047de941ec522b95d7b70 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70)</div>
 
 ## Hyphenation for Text Controls
 
@@ -45,7 +46,7 @@ All three controls have a `wrapping` property that determines text wrapping. By 
 
 Example:
 
-```lang-js
+``` js
 new sap.m.Label({
   text: "Liquiditätspositionshierarchie Datenänderungsbelege",
   wrapping: true,
@@ -66,7 +67,7 @@ As the `sap.ui.core.hyphenation.Hyphenation` class is a singleton, an instance s
 
 Example:
 
-```lang-js
+``` js
 var oHyphenationApi = sap.ui.core.hyphenation.Hyphenation.getInstance();
 if (!oHyphenationApi.canUseNativeHyphenation("en")) {
   oHyphenationApi.initialize("en").then(function() {
@@ -85,7 +86,7 @@ By default, the text controls load any required third-party resources at a later
 
 Example:
 
-```lang-js
+``` js
 sap.ui.core.hyphenation.Hyphenation.getInstance()
   .initialize()
   .then(function() {

@@ -1,11 +1,12 @@
+<!-- loio448c6418153149a79c8ff4370808f9c1 -->
+
 | loio |
 | -----|
 | 448c6418153149a79c8ff4370808f9c1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/448c6418153149a79c8ff4370808f9c1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1)</div>
-<!-- loio448c6418153149a79c8ff4370808f9c1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1)</div>
 
 ## Dialogs and other Popups as Fragments
 

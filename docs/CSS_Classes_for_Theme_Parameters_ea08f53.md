@@ -1,11 +1,12 @@
+<!-- loioea08f53503da42c19afd342f4b0c9ec7 -->
+
 | loio |
 | -----|
 | ea08f53503da42c19afd342f4b0c9ec7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ea08f53503da42c19afd342f4b0c9ec7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7)</div>
-<!-- loioea08f53503da42c19afd342f4b0c9ec7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7)</div>
 
 ## CSS Classes for Theme Parameters
 
@@ -56,14 +57,14 @@ Nevertheless, if there is an obvious default CSS property, such as the \(text\) 
 
 If an application is using OpenUI5, and a theme is loaded into the page, any custom content like plain HTML, HTML inside HTML controls or HTML/XML views, or HTML rendered by custom/notepad controls can use theming if the respective generic CSS classes are added. If custom HTML should have the font color as defined in the current theme, the application writes:
 
-```lang-html
+``` html
 
 <span class="sapThemeText">some custom text in custom HTML</span>
 ```
 
 Whenever the theme is switched or the theme designer is used to modify the standard text color, this span automatically gets the new text color. The same is valid if a custom/notepad control is created. Just make sure the control writes the respective CSS class, for example, by calling `oRm.addClass("sapThemeText");`:
 
-```lang-js
+``` js
 
 // the part creating the HTML:
 renderer : function(oRm, oControl) { 

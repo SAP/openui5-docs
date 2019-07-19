@@ -1,11 +1,12 @@
+<!-- loio5cb1169c748b4da58a9c981fb0b491c7 -->
+
 | loio |
 | -----|
 | 5cb1169c748b4da58a9c981fb0b491c7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5cb1169c748b4da58a9c981fb0b491c7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5cb1169c748b4da58a9c981fb0b491c7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5cb1169c748b4da58a9c981fb0b491c7)</div>
-<!-- loio5cb1169c748b4da58a9c981fb0b491c7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5cb1169c748b4da58a9c981fb0b491c7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5cb1169c748b4da58a9c981fb0b491c7)</div>
 
 ## Busy Indication
 

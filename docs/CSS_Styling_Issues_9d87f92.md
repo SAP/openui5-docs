@@ -1,11 +1,12 @@
+<!-- loio9d87f925dfbb4e99b9e2963693aa00ef -->
+
 | loio |
 | -----|
 | 9d87f925dfbb4e99b9e2963693aa00ef |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9d87f925dfbb4e99b9e2963693aa00ef.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef)</div>
-<!-- loio9d87f925dfbb4e99b9e2963693aa00ef -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef)</div>
 
 ## CSS Styling Issues
 
@@ -58,6 +59,7 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_ehh_rkk_jq"/>
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__2"/>
@@ -79,10 +81,7 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_mdl_qcq_jq"/>
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-html
+			<td> ``` html
 div {
 	width: 120px;
 }
@@ -100,6 +99,7 @@ div {
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__3"/>
@@ -142,6 +142,7 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_lzk_5dq_jq"/>
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__4"/>
@@ -184,6 +185,7 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_j2n_l2q_jq"/>
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__5"/>
@@ -218,6 +220,7 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_twd_s2q_jq"/>
 			<td>Add the CSS classes `sapThemeTextInverted` and `sapThemeHighlight-asBackgroundColor` to your custom HTML element.</td>
 	</tbody>
 </table>
+
 See also: [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
 
 ***
@@ -243,18 +246,12 @@ Examples<a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_qsf_kfq_jq"/>
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("background-color", sColor);
 ```
 			</td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("border-color", sColor);
 ```
@@ -262,5 +259,6 @@ $(oSomeDomElement).css("border-color", sColor);
 		</tr>
 	</tbody>
 </table>
+
 See also: [Namespace sap.ui.core.theming.Parameters](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.theming.Parameters.html).
 

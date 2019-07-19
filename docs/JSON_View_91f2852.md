@@ -1,11 +1,12 @@
+<!-- loio91f285256f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f285256f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f285256f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f285256f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f285256f4d1014b6dd926db0e91070)</div>
-<!-- loio91f285256f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f285256f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f285256f4d1014b6dd926db0e91070)</div>
 
 ## JSON View
 
@@ -15,7 +16,7 @@ For the file `resources/sap/hcm/Address.view.json`, the view name is `sap.hcm.Ad
 
 The file looks as follows:
 
-```lang-js
+``` js
 { 
    "Type":"sap.ui.core.mvc.JSONView",
    "controllerName":"sap.hcm.Address",
@@ -57,7 +58,7 @@ In JSON views, event handlers are bound as attributes with the attribute name as
 
 The following declaration causes `controller.doSomething()` to be executed when the button is pressed:
 
-```lang-js
+``` js
 ...
    {
       "Type":"sap.m.Button",
@@ -83,7 +84,7 @@ MY_TEXT=Hello World
 ```
 
 > Note:
-> ```lang-js
+> ``` js
 > {   "Type": "sap.ui.core.JSONView",
 >     "controllerName":"my.own.views.test",
 >     "resourceBundleName":"myBundle",

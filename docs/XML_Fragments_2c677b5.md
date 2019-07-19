@@ -1,11 +1,12 @@
+<!-- loio2c677b574ea2486a8d5f5414d15e21c5 -->
+
 | loio |
 | -----|
 | 2c677b574ea2486a8d5f5414d15e21c5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2c677b574ea2486a8d5f5414d15e21c5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5)</div>
-<!-- loio2c677b574ea2486a8d5f5414d15e21c5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5)</div>
 
 ## XML Fragments
 
@@ -13,7 +14,7 @@ XML fragments are similar to XML view, but have no <View\> tag as root element. 
 
 You define a simple XML fragment as shown in the following code snippet:
 
-```lang-xml
+``` xml
 <Button xmlns="sap.m" id="btnInFragment" text="Hello
     World"/>
 ```
@@ -22,7 +23,7 @@ This simple UI definition can, for instance, be located in a file named `…/my/
 
 A slightly more complex XML fragment can be defined as follows:
 
-```lang-xml
+``` xml
 <VBox xmlns="sap.m">
 		<Label text="My Label inside an XML fragment"/>
 		<Button id="btnInFragment" text="Hello World" press="doSomething"/>

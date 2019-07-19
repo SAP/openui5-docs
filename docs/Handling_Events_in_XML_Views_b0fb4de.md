@@ -1,11 +1,12 @@
+<!-- loiob0fb4de7364f4bcbb053a99aa645affe -->
+
 | loio |
 | -----|
 | b0fb4de7364f4bcbb053a99aa645affe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b0fb4de7364f4bcbb053a99aa645affe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
-<!-- loiob0fb4de7364f4bcbb053a99aa645affe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
 
 ## Handling Events in XML Views
 
@@ -52,7 +53,7 @@ As long as no event handler parameters are specified and regardless of where the
 
 Therefore, the following declaration is equivalent to a call of `controller.doSomething()` when the button is pressed:
 
-```lang-xml
+``` xml
 
 <Button text="Press Me" press=".doSomething"/>
 

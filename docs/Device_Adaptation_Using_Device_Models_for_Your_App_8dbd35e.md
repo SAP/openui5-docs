@@ -1,11 +1,12 @@
+<!-- loio8dbd35e1577b445d8077b2bc6ad8b958 -->
+
 | loio |
 | -----|
 | 8dbd35e1577b445d8077b2bc6ad8b958 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8dbd35e1577b445d8077b2bc6ad8b958.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
-<!-- loio8dbd35e1577b445d8077b2bc6ad8b958 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
 
 ## Device Adaptation: Using Device Models for Your App
 
@@ -41,7 +42,7 @@ This instantiates a named JSONModel \(`"device"`\) which contains all of the pro
 
 `Master.view.xml`
 
-```lang-xml
+``` xml
 
 <Page showNavButton="{device>/system/phone}" />
 ...
@@ -52,7 +53,7 @@ If you want to negate a value of the device model or make a simple case decision
 
 `Master.view.xml`
 
-```lang-xml
+``` xml
 
 <SearchField showRefreshButton="{= !${device>/support/touch} }" />
 ```

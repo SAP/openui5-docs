@@ -1,11 +1,12 @@
+<!-- loiod8374d578a4c4f9498f9f14a6672c8bb -->
+
 | loio |
 | -----|
 | d8374d578a4c4f9498f9f14a6672c8bb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d8374d578a4c4f9498f9f14a6672c8bb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d8374d578a4c4f9498f9f14a6672c8bb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d8374d578a4c4f9498f9f14a6672c8bb)</div>
-<!-- loiod8374d578a4c4f9498f9f14a6672c8bb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d8374d578a4c4f9498f9f14a6672c8bb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d8374d578a4c4f9498f9f14a6672c8bb)</div>
 
 ## sap.tnt
 

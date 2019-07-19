@@ -1,11 +1,12 @@
+<!-- loioa87ca843bcee469f82a9072927a7dcdb -->
+
 | loio |
 | -----|
 | a87ca843bcee469f82a9072927a7dcdb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a87ca843bcee469f82a9072927a7dcdb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb)</div>
-<!-- loioa87ca843bcee469f82a9072927a7dcdb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb)</div>
 
 ## Deprecated Themes and Libraries
 

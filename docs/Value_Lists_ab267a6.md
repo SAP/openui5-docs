@@ -1,11 +1,12 @@
+<!-- loioab267a6b958e46a28f3437154b2a1b2f -->
+
 | loio |
 | -----|
 | ab267a6b958e46a28f3437154b2a1b2f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ab267a6b958e46a28f3437154b2a1b2f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
-<!-- loioab267a6b958e46a28f3437154b2a1b2f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
 
 ## Value Lists
 

@@ -1,11 +1,12 @@
+<!-- loiob2825eabd7bb43d79b475fee4194c609 -->
+
 | loio |
 | -----|
 | b2825eabd7bb43d79b475fee4194c609 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b2825eabd7bb43d79b475fee4194c609.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609)</div>
-<!-- loiob2825eabd7bb43d79b475fee4194c609 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609)</div>
 
 ## Interaction Tracking for Performance Measurement
 
@@ -23,7 +24,7 @@ You can use `Interaction.filter` from module **sap/ui/performance/trace/Interact
 
 ### Example of an Interaction Measurement
 
-```lang-js
+``` js
 InteractionMeasurement = {
     event: "click",               // event which triggered interaction
     trigger: "Button1",           // control which triggered interaction
@@ -180,6 +181,7 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 ### Calculation of Times

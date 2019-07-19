@@ -1,11 +1,12 @@
+<!-- loio91f19f036f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f19f036f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f19f036f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f19f036f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f19f036f4d1014b6dd926db0e91070)</div>
-<!-- loio91f19f036f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f19f036f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f19f036f4d1014b6dd926db0e91070)</div>
 
 ## Implementing Focus Handling
 
@@ -40,7 +41,7 @@ The base class for elements \(`Element.js`\) provides the following four methods
 
 In the following example, the control would usually set the focus on the second child node of its root node. In this case, simply override the `getFocusDomRef()` method:
 
-```lang-js
+``` js
 
 sap.m.<SampleControl>.getFocusDomRef = function() {
    return this.getDomRef().firstChild.nextSibling;
@@ -49,7 +50,7 @@ sap.m.<SampleControl>.getFocusDomRef = function() {
 
 Another control generally sets the focus back to the element that previously had the focus. Therefore, it overrides the methods `getFocusInfo` and `applyFocusInfo`.
 
-```lang-js
+``` js
 
 sap.m.<SampleControl>.getFocusInfo = function() {
    return {id:this.getId(),idx:this.<myFocusElementIndex>};

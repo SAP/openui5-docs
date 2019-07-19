@@ -1,11 +1,12 @@
+<!-- loio3d85d5eec1594be0a71236d5e61f89aa -->
+
 | loio |
 | -----|
 | 3d85d5eec1594be0a71236d5e61f89aa |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3d85d5eec1594be0a71236d5e61f89aa.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa)</div>
-<!-- loio3d85d5eec1594be0a71236d5e61f89aa -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa)</div>
 
 ## XML View Cache
 
@@ -51,7 +52,7 @@ The XML view has to be loaded asynchronously.
 
 If you want to keep things simple, you can use the following cache configuration:
 
-```lang-xml
+``` xml
 var sCalculatedCacheKey = oKeyProvider.getCacheKey();
 sap.ui.xmlview({
 	async: true,
@@ -66,7 +67,7 @@ sap.ui.xmlview({
 
 If you want to pass on multiple keys, for example strings or promises that resolve with a string, you use the following syntax:
 
-```lang-xml
+``` xml
 var pCalculatedCacheKey = oKeyProvider1.getCacheKeyPromise();
 var sAnotherKey = oKeyProvider2.getCacheKey(); 
 sap.ui.xmlview({
@@ -91,7 +92,7 @@ sap.ui.xmlview({
 
 If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.View.Preprocessor.html). 
 
-```lang-xml
+``` xml
 // Example preprocessor implementation
 sap.ui.define(['jquery.sap.global', 'sap/ui/base/Object'],
 	function(jQuery, BaseObject) {

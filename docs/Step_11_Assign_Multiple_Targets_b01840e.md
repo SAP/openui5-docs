@@ -1,11 +1,12 @@
+<!-- loiob01840ec42ef48e6bfd2bc12612f501f -->
+
 | loio |
 | -----|
 | b01840ec42ef48e6bfd2bc12612f501f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b01840ec42ef48e6bfd2bc12612f501f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
-<!-- loiob01840ec42ef48e6bfd2bc12612f501f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
 
 ## Step 11: Assign Multiple Targets
 

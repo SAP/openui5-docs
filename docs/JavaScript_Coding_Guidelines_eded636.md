@@ -1,11 +1,12 @@
+<!-- loioeded636b85584cd586b1fe231d2b5dac -->
+
 | loio |
 | -----|
 | eded636b85584cd586b1fe231d2b5dac |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/eded636b85584cd586b1fe231d2b5dac.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac)</div>
-<!-- loioeded636b85584cd586b1fe231d2b5dac -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac)</div>
 
 ## JavaScript Coding Guidelines
 
@@ -44,7 +45,7 @@ For any code becoming part of OpenUI5, an ESLint check needs to run successfully
 
 -   The code should therefore look like this:
 
-    ```lang-js
+    ``` js
     
     function outer(c, d) {
             var e = c * d;

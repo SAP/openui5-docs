@@ -1,11 +1,12 @@
+<!-- loiof86dbe9d7f7d48dea5286003b1322165 -->
+
 | loio |
 | -----|
 | f86dbe9d7f7d48dea5286003b1322165 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f86dbe9d7f7d48dea5286003b1322165.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165)</div>
-<!-- loiof86dbe9d7f7d48dea5286003b1322165 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165)</div>
 
 ## Image
 
@@ -45,7 +46,7 @@ The `sap.m.Image` control automatically chooses the right density, depending on 
 
 Assume the following controls are displayed on a device with high-density screen \(`window.devicePixelRatio` is 2\):
 
-```lang-js
+``` js
 
 new sap.m.Image({ 
 	    densityAware: false, // tell the image control that there are no different optimized image variants

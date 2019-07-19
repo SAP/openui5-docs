@@ -1,11 +1,12 @@
+<!-- loio4cfa60872dca462cb87148ccd0d948ee -->
+
 | loio |
 | -----|
 | 4cfa60872dca462cb87148ccd0d948ee |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4cfa60872dca462cb87148ccd0d948ee.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)</div>
-<!-- loio4cfa60872dca462cb87148ccd0d948ee -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)</div>
 
 ## Step 9: Component Configuration
 
@@ -109,7 +110,7 @@ In the `init` function we instantiate our data model and the `i18n` model like w
 
 ### webapp/controller/App.controller.js
 
-```lang-js
+``` js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"

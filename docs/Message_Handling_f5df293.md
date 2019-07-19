@@ -1,11 +1,12 @@
+<!-- loiof5df293b96dc41699b8b357e9bcf7ed6 -->
+
 | loio |
 | -----|
 | f5df293b96dc41699b8b357e9bcf7ed6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f5df293b96dc41699b8b357e9bcf7ed6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5df293b96dc41699b8b357e9bcf7ed6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5df293b96dc41699b8b357e9bcf7ed6)</div>
-<!-- loiof5df293b96dc41699b8b357e9bcf7ed6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5df293b96dc41699b8b357e9bcf7ed6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5df293b96dc41699b8b357e9bcf7ed6)</div>
 
 ## Message Handling
 
@@ -38,7 +39,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   As `MessageBox` is a static class, a `jQuery.sap.require("sap.m.MessageBox");` statement must be explicitly executed before the class can be used.
 
 > Note:
-> ```lang-js
+> ``` js
 > 	// load MessageBox asynchronously
 > 	sap.ui.require(['sap/m/MessageBox'], function(MessageBox) {
 > 	
@@ -66,7 +67,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   You can open a message toast easily with the `sap.m.MessageToast` API.
 
 > Note:
-> ```lang-js
+> ``` js
 > 	// add MessageToast as import
 > 	sap.ui.define([..., 'sap/m/MessageTost', ...], function(..., MessageToast, ...) {
 > 

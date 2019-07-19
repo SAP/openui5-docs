@@ -1,17 +1,18 @@
+<!-- loio9a6100ba15564561b5439b7e7ba554a9 -->
+
 | loio |
 | -----|
 | 9a6100ba15564561b5439b7e7ba554a9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9a6100ba15564561b5439b7e7ba554a9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9a6100ba15564561b5439b7e7ba554a9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9a6100ba15564561b5439b7e7ba554a9)</div>
-<!-- loio9a6100ba15564561b5439b7e7ba554a9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9a6100ba15564561b5439b7e7ba554a9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9a6100ba15564561b5439b7e7ba554a9)</div>
 
 ## Creating a Simple Square Control
 
 Example of a simple `Square` control that is rendered as a red square with text inside that pops up an alert when clicked
 
-```lang-js
+``` js
 
 sap.ui.core.Control.extend("Square", { // call the new Control type "Square" and let it inherit
                                          // from sap.ui.core.Control
@@ -78,7 +79,7 @@ To add a grey background, a red border and some alignment information, use the f
 
 This custom control can now be used like any OpenUI5 control:
 
-```lang-js
+``` js
 
 var myControl = new my.Square({text:"Hello", size: "100px"});
 myControl.placeAt("content");

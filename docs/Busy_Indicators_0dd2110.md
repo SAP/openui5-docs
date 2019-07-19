@@ -1,11 +1,12 @@
+<!-- loio0dd211065c714c0d8a35cecb5fea8557 -->
+
 | loio |
 | -----|
 | 0dd211065c714c0d8a35cecb5fea8557 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0dd211065c714c0d8a35cecb5fea8557.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
-<!-- loio0dd211065c714c0d8a35cecb5fea8557 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
 
 ## Busy Indicators
 
@@ -34,7 +35,7 @@ sap.ui.core.BusyIndicator.show(*HIGHLIGHT START*<number>*HIGHLIGHT END*);
 
 To release the UI again, the busy indication must be hidden again. This function call hides the busy indication immediately:
 
-```lang-js
+``` js
 sap.ui.core.BusyIndicator.hide();
 ```
 
@@ -82,7 +83,7 @@ The following code shows how you define the default state of a control as `busy`
 
 To release the control's busy state again, the same API can be used. This has to be done by the application after some data has been loaded, for example with the following command:
 
-```lang-js
+``` js
 oMyListBox.setBusy(false);
 ```
 

@@ -1,11 +1,12 @@
+<!-- loio2da220ff496c4b0f9ce29208cbd089f3 -->
+
 | loio |
 | -----|
 | 2da220ff496c4b0f9ce29208cbd089f3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2da220ff496c4b0f9ce29208cbd089f3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
-<!-- loio2da220ff496c4b0f9ce29208cbd089f3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
 
 ## Step 5: Adding Actions to the Worklist
 

@@ -1,11 +1,12 @@
+<!-- loio1b6dcd39a6a74f528b27ddb22f15af0d -->
+
 | loio |
 | -----|
 | 1b6dcd39a6a74f528b27ddb22f15af0d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1b6dcd39a6a74f528b27ddb22f15af0d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1b6dcd39a6a74f528b27ddb22f15af0d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1b6dcd39a6a74f528b27ddb22f15af0d)</div>
-<!-- loio1b6dcd39a6a74f528b27ddb22f15af0d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1b6dcd39a6a74f528b27ddb22f15af0d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1b6dcd39a6a74f528b27ddb22f15af0d)</div>
 
 ## Navigation and Routing
 

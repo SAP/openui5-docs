@@ -1,11 +1,12 @@
+<!-- loio64a5e1775bf04d4883db18c9de7d83bd -->
+
 | loio |
 | -----|
 | 64a5e1775bf04d4883db18c9de7d83bd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/64a5e1775bf04d4883db18c9de7d83bd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
-<!-- loio64a5e1775bf04d4883db18c9de7d83bd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
 
 ## Aggregation Forwarding
 
@@ -62,7 +63,7 @@ When such a forwarding definition is done, OpenUI5 moves all aggregated child co
 
 Here is an example that demonstrates aggregation forwarding: The new `FilterableList` control is supposed to display a list of items with an input field above the list. The list items are filtered while the user is entering the input. This `FilterableList` control can be implemented as a composite control, using the `sap.m.List` and `sap.m.Input` controls as inner controls to take advantage of their existing implementation, design, and set of features. Application developers using `FilterableList` cannot change all attributesof the inner `List` control. However, they should be able to provide the actual list items. Hence, the new `FilterableList` composite control has an `items` aggregation and forwards all items to the inner `sap.m.List` control, so, for example, the layouting, events, and selection can be handled there.
 
-```lang-js
+``` js
 
 aggregations: {
 	 // The items forwarded from the FilterableList to the internal sap.m.List
@@ -75,7 +76,7 @@ aggregations: {
 
 Another example would be a new `ButtonList` control that is supposed to contain and display an arbitrary number of `sap.m.Button` controls in a grid. Hence it has a `buttons` aggregation. For this control, control-specific HTML could be written that provides screen-size-dependent CSS for a proper grid layout of the buttons. However, this effort can be avoided, and a `sap.ui.layout.Grid` control used internally instead to do the layouting. The buttons given to the `ButtonList` control then need to be forwarded to the `content` aggregation of the `Grid` control.
 
-```lang-js
+``` js
 
 aggregations: {
 	 // The items forwarded from the ButtonList to the internal sap.ui.layout.Grid
@@ -117,7 +118,7 @@ sap.ui.define([
 
 In this case, the fragment definition XML file looks like this:
 
-```lang-xml
+``` xml
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
     <m:VBox id="myInternalVBox"/>
 </core:FragmentDefinition>

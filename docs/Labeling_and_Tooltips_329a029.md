@@ -1,11 +1,12 @@
+<!-- loio329a029f39e249a1bf89e3ffc006c8e1 -->
+
 | loio |
 | -----|
 | 329a029f39e249a1bf89e3ffc006c8e1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/329a029f39e249a1bf89e3ffc006c8e1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1)</div>
-<!-- loio329a029f39e249a1bf89e3ffc006c8e1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1)</div>
 
 ## Labeling and Tooltips
 
@@ -132,6 +133,7 @@ Rules and Guidelines for Labeling and Tooltips<a name="loio329a029f39e249a1bf89e
 		</tr>
 	</tbody>
 </table>
+
 > Note:
 > If you want to enlarge the size of the standard tooltips, you need to change the system font size. Tooltips are rendered by the browser using native window API and thus their size cannot be influenced by the OpenUI5 framework.
 > 

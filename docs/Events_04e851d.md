@@ -1,11 +1,12 @@
+<!-- loio04e851db01024fc69e7a78f13e83b661 -->
+
 | loio |
 | -----|
 | 04e851db01024fc69e7a78f13e83b661 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/04e851db01024fc69e7a78f13e83b661.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04e851db01024fc69e7a78f13e83b661) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04e851db01024fc69e7a78f13e83b661)</div>
-<!-- loio04e851db01024fc69e7a78f13e83b661 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04e851db01024fc69e7a78f13e83b661) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04e851db01024fc69e7a78f13e83b661)</div>
 
 ## Events
 
@@ -13,7 +14,7 @@ This sections shows an example of a `press`event.
 
 You can enhance the XML composite control created in the first step by adding a button. It's as simple as doing it in an XML view.
 
-```lang-xml
+``` xml
 
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
     <m:HBox>
@@ -33,7 +34,7 @@ Sample UI<a name="loio04e851db01024fc69e7a78f13e83b661__fig_a2f_mmj_d1b"/>
 
 To handle the `press` event of the new button in the interface, first define the handler in the XML file, and then add a method in the JS file:
 
-```lang-xml
+``` xml
 
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
     <m:HBox>
@@ -43,7 +44,7 @@ To handle the `press` event of the new button in the interface, first define the
 </core:FragmentDefinition>
 ```
 
-```lang-js
+``` js
 
 ...
     var SimpleText = XMLComposite.extend("fragments.SimpleText", {

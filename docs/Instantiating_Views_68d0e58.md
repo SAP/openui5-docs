@@ -1,11 +1,12 @@
+<!-- loio68d0e58857a647d49470d9f92dd859bd -->
+
 | loio |
 | -----|
 | 68d0e58857a647d49470d9f92dd859bd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/68d0e58857a647d49470d9f92dd859bd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd)</div>
-<!-- loio68d0e58857a647d49470d9f92dd859bd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd)</div>
 
 ## Instantiating Views
 
@@ -39,7 +40,7 @@ With the asynchronous loading of views, the instance is not fully available at t
 > 
 > 
 
-```lang-js
+``` js
 // "View" required from "sap/ui/core/mvc/View"
 // "coreLibrary" required from "sap/ui/core/library"
 // "my.own.controller" was defined earlier
@@ -64,7 +65,7 @@ View.create({
 
 The following code snippet creates a view instance, loads the view source, places the instance to the `uiArea`, and renders it later on.
 
-```lang-js
+``` js
 var oController = sap.ui.controller("my.own.controller");
 var oView = sap.ui.view({
     viewName: "my.own.view",
@@ -85,14 +86,14 @@ var oView = sap.ui.view({
 
 The following code snippet shows how to do a lazy loading for XML views:
 
-```lang-xml
+``` xml
 <!-- File: view/CustomView.view.xml -->
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <Text text="Custom View loaded ..."/>
 </mvc:View>
 ```
 
-```lang-js
+``` js
 // File: controller/MainController.controller.js
 sap.ui.require(["sap/ui/core/mvc/XMLView", "sap/ui/core/mvc/Controller"], function(XMLView, Controller) {
 	return Controller.extend("samples.controller.MainController", {

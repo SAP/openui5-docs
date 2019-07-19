@@ -1,11 +1,12 @@
+<!-- loiofe7a158313af4590ad60f844e5b43b80 -->
+
 | loio |
 | -----|
 | fe7a158313af4590ad60f844e5b43b80 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fe7a158313af4590ad60f844e5b43b80.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe7a158313af4590ad60f844e5b43b80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe7a158313af4590ad60f844e5b43b80)</div>
-<!-- loiofe7a158313af4590ad60f844e5b43b80 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe7a158313af4590ad60f844e5b43b80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe7a158313af4590ad60f844e5b43b80)</div>
 
 ## Continuous Integration: Ensure Code Quality
 

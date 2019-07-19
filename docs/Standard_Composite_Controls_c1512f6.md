@@ -1,11 +1,12 @@
+<!-- loioc1512f6ce1454ff1913e3857bad56392 -->
+
 | loio |
 | -----|
 | c1512f6ce1454ff1913e3857bad56392 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c1512f6ce1454ff1913e3857bad56392.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c1512f6ce1454ff1913e3857bad56392) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c1512f6ce1454ff1913e3857bad56392)</div>
-<!-- loioc1512f6ce1454ff1913e3857bad56392 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c1512f6ce1454ff1913e3857bad56392) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c1512f6ce1454ff1913e3857bad56392)</div>
 
 ## Standard Composite Controls
 
@@ -32,7 +33,7 @@ To create a composite control, you start with crafting its API including propert
 
 As any other control, you can describe composite controls via the JavaScript control definition API, see [Developing Controls](Developing_Controls_8dcab00.md) and the following example.
 
-```lang-js
+``` js
 sap.ui.core.Control.extend("SearchField", {
   metadata : {
     properties : {
@@ -65,7 +66,7 @@ The `init` function contains the composite's parts and stores references to them
 
 If you have to assign IDs to the composite parts, then you should create those IDs by concatenating the main control ID \(ID of your composite instance\) with a single dash \(`-`\) and an additional ID for the part like in the following example:
 
-```lang-js
+``` js
 mySearchField-input
 mySearchField-btn
 ```
@@ -79,7 +80,7 @@ To avoid conflicts with the internal IDs of parts, the part ID \(`input` or `btn
 
 During the `init` function, the settings of the composite only have their default values. If the application developer has provided some values to the constructor, these values will only be set later on. It is, therefore, crucial for the correct behavior of your composite control that you implement one of the synchronization mechanisms described below.
 
-```lang-js
+``` js
 /**
  * Initialization hook... creating composite parts
  */
@@ -105,7 +106,7 @@ SearchField.prototype.init = function(){
 
 You can use the `exit` function to clean up your control when it is destroyed. You do not need to destroy the inner controls. This is done automatically by the framework because the inner controls are kept in hidden aggregations.
 
-```lang-js
+``` js
 /**
  * Clean-up hook... destroying composite parts.
  */
@@ -127,7 +128,7 @@ Note how the input's change event is used to update the composite's value proper
 > 
 > 
 
-```lang-js
+``` js
 /**
  * Propagate value to input.
  */
@@ -145,7 +146,7 @@ Propagating the API settings to the parts is usually not as straightforward as s
 
 You can use markup for layouting in the renderer implementation. But at the heart of it, you simply delegate \(via the render manager\) to the composite parts' renderers. This is where you really benefit from re-using other controls with non-trivial renderers. If you have chosen the `updateAllParts` approach to keep the composite API settings and the settings of the parts in sync, make sure that you call `updateAllParts` before the real rendering starts.
 
-```lang-js
+``` js
 SearchFieldRenderer.render = function(oRenderManager, oSearchField) {
   // oSearchField.updateAllParts(); // called depending on your 'sync' approach
   oRenderManager.write("<div"); 

@@ -1,11 +1,12 @@
+<!-- loio9f4d62c6648a423d85aaf2bfc2c7ddfe -->
+
 | loio |
 | -----|
 | 9f4d62c6648a423d85aaf2bfc2c7ddfe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9f4d62c6648a423d85aaf2bfc2c7ddfe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
-<!-- loio9f4d62c6648a423d85aaf2bfc2c7ddfe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
 
 ## Logging and Tracing
 

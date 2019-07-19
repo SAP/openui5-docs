@@ -1,11 +1,12 @@
+<!-- loioc71f6df62dae47ca8284310a6f5fc80a -->
+
 | loio |
 | -----|
 | c71f6df62dae47ca8284310a6f5fc80a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c71f6df62dae47ca8284310a6f5fc80a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
-<!-- loioc71f6df62dae47ca8284310a6f5fc80a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
 
 ## Using Container Content Padding CSS Classes
 
@@ -46,7 +47,7 @@ The following list shows examples of controls that support container content pad
 
 ***
 
-```lang-xml
+``` xml
 
 <Page class=”sapUiResponsivePadding”>
 ```

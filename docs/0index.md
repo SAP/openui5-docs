@@ -6,8 +6,8 @@ OpenUI5 Version for the OpenUI5 Demo Kit
 
 -   [OpenUI5: UI Development Toolkit for HTML5](OpenUI5_UI_DevelopmentToolkit_for_HTML5_95d113b.md)
     -   [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md)
+        -   [What's New in OpenUI5 1.69](What's_New_in_OpenUI51.69_41203fd.md)
         -   [What's New in OpenUI5 1.68](What's_New_in_OpenUI51.68_5531aef.md)
-        -   [What's New in OpenUI5 1.67](What's_New_in_OpenUI5_1.67__0968958.md)
     -   [Read Me First](Read_Me_First_167193c.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
         -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)

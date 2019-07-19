@@ -1,11 +1,12 @@
+<!-- loioef2af4957fae469e9203e98006d3ee75 -->
+
 | loio |
 | -----|
 | ef2af4957fae469e9203e98006d3ee75 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ef2af4957fae469e9203e98006d3ee75.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75)</div>
-<!-- loioef2af4957fae469e9203e98006d3ee75 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75)</div>
 
 ## Step 5: Batch Groups
 

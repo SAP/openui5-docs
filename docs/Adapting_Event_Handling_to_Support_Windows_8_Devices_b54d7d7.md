@@ -1,11 +1,12 @@
+<!-- loiob54d7d73eff245d3ab91b96e21177ebf -->
+
 | loio |
 | -----|
 | b54d7d73eff245d3ab91b96e21177ebf |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b54d7d73eff245d3ab91b96e21177ebf.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf)</div>
-<!-- loiob54d7d73eff245d3ab91b96e21177ebf -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf)</div>
 
 ## Adapting Event Handling to Support Windows 8 Devices
 
@@ -17,7 +18,7 @@ In addition, emulated mouse events shouldn't be handled otherwise the event hand
 
 In most of the cases, the event handler was bound by checking if touch is supported, like the code below:
 
-```lang-js
+``` js
 // "Device" required from module "sap/ui/Device"
 jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(oEvent) {
     ......
@@ -28,7 +29,7 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 
     -   When using jQuery:
 
-        ```lang-js
+        ``` js
         
         jQuery(document).on("touchmove mousemove", function(oEvent) {
             if (oEvent.isMarked("delayedMouseEvent")) {
@@ -42,7 +43,7 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 
     -   When using native browser event listeners:
 
-        ```lang-js
+        ``` js
         
         var fnHandler = function (oEvent ) { if (oEvent . _sapui_delayedMouseEvent ) { // Suppress the emulated mouse event from touch interface
          return ; } ...... };
@@ -63,7 +64,7 @@ We have also adapted some controls within `sap.m` for Windows 8 support. Let's t
 
 **Before the adaptation, code was:**
 
-```lang-js
+``` js
 // "RatingIndicator" defined in module "sap/m/RatingIndicator"
 // "Device" required from module "sap/ui/Device"
 RatingIndicator.prototype.ontouchstart = function(oEvent) {
@@ -113,7 +114,7 @@ RatingIndicator.prototype._ontouchend = function(oEvent) {
 
 **After the code adaptation:**
 
-```lang-js
+``` js
 // "RatingIndicator" defined in module "sap/m/RatingIndicator"
 // "Device" required from module "sap/ui/Device"
 RatingIndicator.prototype.ontouchstart = function (oEvent) {

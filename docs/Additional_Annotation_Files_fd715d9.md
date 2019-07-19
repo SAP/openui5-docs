@@ -1,11 +1,12 @@
+<!-- loiofd715d97ebf842739697c9a0f276f0c0 -->
+
 | loio |
 | -----|
 | fd715d97ebf842739697c9a0f276f0c0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fd715d97ebf842739697c9a0f276f0c0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0)</div>
-<!-- loiofd715d97ebf842739697c9a0f276f0c0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0)</div>
 
 ## Additional Annotation Files
 
@@ -17,7 +18,7 @@ The format of the annotation file has to be the same as the metadata file of the
 
 Annotation files are specified in `manifest.json` as follows:
 
-```lang-js
+``` js
 
 "dataSources" : {
     "default" : {
@@ -41,7 +42,7 @@ Annotation terms are not merged, but replaced as a whole \(“PUT” semantics\)
 
 The annotation term is specified in the service metadata document:
 
-```lang-js
+``` js
 
 <Annotations Target="GWSAMPLE_BASIC.GWSAMPLE_BASIC_Entities/BusinessPartnerSet">
     <Annotation Term="Org.OData.Capabilities.V1.SortRestrictions">
@@ -58,7 +59,7 @@ The annotation term is specified in the service metadata document:
 
 If an additional property needs to be added, the term has to be repeated in the annotation file:
 
-```lang-js
+``` js
 
 <Annotations Target="GWSAMPLE_BASIC.GWSAMPLE_BASIC_Entities/BusinessPartnerSet">
     <Annotation Term="Org.OData.Capabilities.V1.SortRestrictions">

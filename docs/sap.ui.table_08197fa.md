@@ -1,11 +1,12 @@
+<!-- loio08197fa68e4f479cbe30f639cc1cd22c -->
+
 | loio |
 | -----|
 | 08197fa68e4f479cbe30f639cc1cd22c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/08197fa68e4f479cbe30f639cc1cd22c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
-<!-- loio08197fa68e4f479cbe30f639cc1cd22c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
 
 ## sap.ui.table
 

@@ -1,11 +1,12 @@
+<!-- loioec79a5d5918f4f7f9cbc2150e66778cc -->
+
 | loio |
 | -----|
 | ec79a5d5918f4f7f9cbc2150e66778cc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ec79a5d5918f4f7f9cbc2150e66778cc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
-<!-- loioec79a5d5918f4f7f9cbc2150e66778cc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
 
 ## Sorting, Grouping, and Filtering for List Binding
 
@@ -17,7 +18,7 @@ view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad
 
 To provide initial **sorting and grouping** in an XML view, proceed as follows:
 
-```lang-xml
+``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -41,7 +42,7 @@ The `this` context of a group header factory function is generally set to the co
 
 The list uses a sorter which sorts the list of companies in ascending order by the `county` column. It also groups its rows using the App.controller’s `getCounty` method to provide the captions and the `getGroupHeader` function to provide non-standard group header controls, as shown here:
 
-```lang-js
+``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
@@ -73,7 +74,7 @@ As you can see, `getCounty` generates the group caption, which in this case is t
 
 The following XML snippet provides initial filtering:
 
-```lang-xml
+``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -98,7 +99,7 @@ As shown below, initial sorting, grouping and filtering can of course also be pr
 
 You can define a sorter and/or filters:
 
-```lang-js
+``` js
 sap.ui.define([
     "sap/ui/model/Sorter",
     "sap/ui/model/Filter"
@@ -125,7 +126,7 @@ var oFilterCity = new Filter("city",
 
 You can pass sorters and filters to the list binding:
 
-```lang-js
+``` js
 
 var oList = new sap.m.List({
 	items: {path: "/companies", template: oItemTemplate, 
@@ -144,7 +145,7 @@ You can also use the other list binding possibilities \(for example `bindAggrega
 
 You can sort or filter data manually after the list binding is complete by getting the corresponding binding and calling the sort/filter function:
 
-```lang-js
+``` js
 // manual sorting
 oList.getBinding("items").sort(oSorter);
 
@@ -167,7 +168,7 @@ For more information about the various sorting and filter methods and operators,
 
 Complex syntax can be used to add filters and sorters for list binding. One or multiple objects can be defined.
 
-```lang-js
+``` js
 
 <table:Table rows="{
     path: '/table', 

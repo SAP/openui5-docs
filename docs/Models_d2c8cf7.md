@@ -1,11 +1,12 @@
+<!-- copyd2c8cf7ae19d447aad5b5ce40e3b14e3 -->
+
 | loio |
 | -----|
 | d2c8cf7ae19d447aad5b5ce40e3b14e3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d2c8cf7ae19d447aad5b5ce40e3b14e3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3)</div>
-<!-- copyd2c8cf7ae19d447aad5b5ce40e3b14e3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3)</div>
 
 ## Models
 

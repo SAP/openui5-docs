@@ -1,11 +1,12 @@
+<!-- loio3cff5d0fa6754c0d9fdacd80653b81fb -->
+
 | loio |
 | -----|
 | 3cff5d0fa6754c0d9fdacd80653b81fb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3cff5d0fa6754c0d9fdacd80653b81fb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3cff5d0fa6754c0d9fdacd80653b81fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3cff5d0fa6754c0d9fdacd80653b81fb)</div>
-<!-- loio3cff5d0fa6754c0d9fdacd80653b81fb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3cff5d0fa6754c0d9fdacd80653b81fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3cff5d0fa6754c0d9fdacd80653b81fb)</div>
 
 ## Programmatically Instantiating JS Fragments
 
@@ -15,7 +16,7 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 
 To give an example of a programmatic instantiation of a JS fragment, you first have to define one. The following code presents an example definition:
 
-```lang-js
+``` js
 sap.ui.jsfragment ( "my.useful.UiPartX",{ 
 	createContent: function (oController ) {
         var oButton  = new sap.m.Button({ 
@@ -29,7 +30,7 @@ sap.ui.jsfragment ( "my.useful.UiPartX",{
 
 This fragment can be instantiated from a controller as follows:
 
-```lang-js
+``` js
 
 var myButton = sap.ui.jsfragment("my.useful.UiPartX",this); // assuming "this" is the controller
 ```
@@ -38,14 +39,14 @@ This button can now be used as if it had been created in a standard way. Note ho
 
 For fragments that are used several times, an ID for the fragment can be given optionally, see [Unique IDs](Unique_IDs_5da591c.md):
 
-```lang-js
+``` js
 
 var myButton = sap.ui.jsfragment("someId", "my.useful.UiPartX", this); // assuming "this" is the Controller
 ```
 
 Within a JS view's **createContent\(\)** method the fragment content could be included like this:
 
-```lang-js
+``` js
 ... 
 	createContent: function (oController ) {
 		var hLayout = new sap.m.HBox (); 

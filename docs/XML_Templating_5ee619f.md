@@ -1,11 +1,12 @@
+<!-- loio5ee619fc1370463ea674ee04b65ed83b -->
+
 | loio |
 | -----|
 | 5ee619fc1370463ea674ee04b65ed83b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5ee619fc1370463ea674ee04b65ed83b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5ee619fc1370463ea674ee04b65ed83b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5ee619fc1370463ea674ee04b65ed83b)</div>
-<!-- loio5ee619fc1370463ea674ee04b65ed83b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5ee619fc1370463ea674ee04b65ed83b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5ee619fc1370463ea674ee04b65ed83b)</div>
 
 ## XML Templating
 
@@ -52,7 +53,7 @@ In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the correspond
 
 ### Calling the XML Preprocessor
 
-```lang-js
+``` js
 1   View.create({
 2      async : true,
 3      models : oModel,
@@ -112,7 +113,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 > 
 > 
 
-```lang-js
+``` js
 1   /*!
 2    * ${copyright}
 3    */
@@ -175,7 +176,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 60  });
 ```
 
-```lang-xml
+``` xml
 1   <mvc:View
 2       xmlns="sap.m"
 3       xmlns:core="sap.ui.core"
@@ -207,7 +208,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 29  </mvc:View>
 ```
 
-```lang-xml
+``` xml
 1   <core:FragmentDefinition
 2       xmlns="sap.m"
 3       xmlns:core="sap.ui.core"
@@ -228,7 +229,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 The result is equivalent to the following handwritten XML view. Any references to the meta model are gone. Type information has been inserted into the bindings and an `"odata.concat"` expression for `badge>MainInfo/Value` has been processed by `sap.ui.model.odata.AnnotationHelper.format`, concatenating the company name and legal form.
 
-```lang-xml
+``` xml
 <mvc:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc">
   <form:SimpleForm>
     <form:title>

@@ -1,11 +1,12 @@
+<!-- loio1da158152f644ba1ad408a3e982fd3df -->
+
 | loio |
 | -----|
 | 1da158152f644ba1ad408a3e982fd3df |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1da158152f644ba1ad408a3e982fd3df.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df)</div>
-<!-- loio1da158152f644ba1ad408a3e982fd3df -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df)</div>
 
 ## Lists
 
@@ -99,7 +100,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `text` feature, which enables you to set a center aligned text. This is a simple list item for triggering actions. The following code snippet shows an example:
 
-    ```lang-js
+    ``` js
     
       <List headerText="Actions">
         <ActionListItem text="Reject" />
@@ -112,7 +113,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `label` feature to set a label and the `value` feature to set a value. The following code snippet shows an example:
 
-    ```lang-js
+    ``` js
     
       <DisplayListItem
         label="Name"
@@ -124,7 +125,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `label` feature to set a label and the `content` feature that can be aggregated with controls, for example a radio button or a search control. The following code snippet shows an example:
 
-    ```lang-js
+    ``` js
     
       <List>
         <InputListItem label="WLAN">
@@ -149,7 +150,7 @@ The following types are available for list items:
     -   `icon`: The icon is displayed on the left hand side of the list item and can be shown with or without an inset.
      `label` feature to set a label and the `content` feature that can be aggregated with controls, for example a radio button or a search control. The following code snippet shows an example:
 
-    ```lang-js
+    ``` js
     
     <List headerText="Products"
         items="{/ProductCollection}">
@@ -164,7 +165,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the option to aggregate content. You can use the `CustomListItem` for all list items that are not available in OpenUI5 standard, build your own content, and aggregate it.
 
-    ```lang-js
+    ``` js
     
     <CustomListItem type="Inactive">
         <Label text="A first custom list item ..."  class="content"/>

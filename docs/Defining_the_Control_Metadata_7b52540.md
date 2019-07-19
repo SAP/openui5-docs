@@ -1,11 +1,12 @@
+<!-- loio7b52540d9d8c4e00b9723151622bbb64 -->
+
 | loio |
 | -----|
 | 7b52540d9d8c4e00b9723151622bbb64 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7b52540d9d8c4e00b9723151622bbb64.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
-<!-- loio7b52540d9d8c4e00b9723151622bbb64 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
 
 ## Defining the Control Metadata
 
@@ -31,7 +32,7 @@ The control metadata is defined as follows:
 
     It is defined by its name only.
 
-    ```lang-js
+    ``` js
     events: {
        "logout": {}
     }
@@ -41,7 +42,7 @@ The control metadata is defined as follows:
 
     A control can enable events to be interrupted by the application. A tab control, for example, can enable the application to cancel a `close` event by setting the `allowPreventDefault` property of the event to `true` and checking the return value after firing the event:
 
-    ```lang-js
+    ``` js
     events: {
        "close": {allowPreventDefault : true}  
     }
@@ -65,7 +66,7 @@ The control metadata is defined as follows:
 
     One example:
 
-    ```lang-js
+    ``` js
     aggregations: {
        "acceptButton" : "sap.m.Button", // if only type is given, no object is required
        "content" : {singularName: "content"},    // default type is "sap.ui.core.Control", 
@@ -79,7 +80,7 @@ The control metadata is defined as follows:
 
     If you want to mark one aggregation as default aggregation in order to be able to omit the aggregation tag in XML views, you can do this by setting the `defaultAggregation` property to the name of the aggregation as shown in the following code snippet:
 
-    ```lang-js
+    ``` js
     aggregations: {
        "content": {singularName: "content"} // default type is "sap.ui.core.Control", multiple is "true"
     

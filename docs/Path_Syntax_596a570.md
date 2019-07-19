@@ -1,11 +1,12 @@
+<!-- loio596a57003cda4201a0f381eaa8b96291 -->
+
 | loio |
 | -----|
 | 596a57003cda4201a0f381eaa8b96291 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/596a57003cda4201a0f381eaa8b96291.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/596a57003cda4201a0f381eaa8b96291) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/596a57003cda4201a0f381eaa8b96291)</div>
-<!-- loio596a57003cda4201a0f381eaa8b96291 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/596a57003cda4201a0f381eaa8b96291) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/596a57003cda4201a0f381eaa8b96291)</div>
 
 ## Path Syntax
 

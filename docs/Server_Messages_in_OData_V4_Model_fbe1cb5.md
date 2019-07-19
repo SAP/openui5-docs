@@ -1,11 +1,12 @@
+<!-- loiofbe1cb5613cf4a40a841750bf813238e -->
+
 | loio |
 | -----|
 | fbe1cb5613cf4a40a841750bf813238e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fbe1cb5613cf4a40a841750bf813238e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e)</div>
-<!-- loiofbe1cb5613cf4a40a841750bf813238e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e)</div>
 
 ## Server Messages in OData V4 Model
 
@@ -82,7 +83,7 @@ sap-messages:[
 
 Bound messages are related to OData entities and are modeled as OData resources. An OData entity contains its bound messages as collection valued property of the complex type specified in the description of `com.sap.vocabularies.Common.v1.Messages`. Thus, bound messages are transported in the HTTP body. The target property specifies to which property the message is bound. The application needs to specify in the`$select` binding parameter whether messages should be returned by the server, or not.
 
-```lang-js
+``` js
 1  <ComplexType Name="<name of message type>">
 2      <Property Name="code" Type="Edm.String" Nullable="false" />
 3      <Property Name="message" Type="Edm.String" Nullable="false" />

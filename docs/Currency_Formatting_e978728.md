@@ -1,11 +1,12 @@
+<!-- loioe978728a6ef6490c971248948f9101e0 -->
+
 | loio |
 | -----|
 | e978728a6ef6490c971248948f9101e0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e978728a6ef6490c971248948f9101e0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0)</div>
-<!-- loioe978728a6ef6490c971248948f9101e0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0)</div>
 
 ## Currency Formatting
 
@@ -36,7 +37,7 @@ The `NumberFormat.getCurrencyInstance()` function accepts two arguments:
 
 The following example shows how you create a simple currency formatter instance:
 
-```lang-js
+``` js
 // create a simple currency formatting instance, without any additional options
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
    var oCurrencyFormat = NumberFormat.getCurrencyInstance();
@@ -56,7 +57,7 @@ For more information, see [getCurrencyInstance](https://openui5.hana.ondemand.co
 
 The currency formatter instance allows you to combine a number value with a localized currency string.
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
    var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 
@@ -72,7 +73,7 @@ For more information, see [format](https://openui5.hana.ondemand.com/#/api/sap.u
 
 The `'parse'` function turns a string containing a number and a currency code \(EUR, USD\) or symbol \(€, $\) back into its raw parts: the number value and the currency code. The results are returned in an array.
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
    var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 
@@ -95,7 +96,7 @@ The following formatting options for currency formatting are available:
 
 Let's try out these format options and create a currency formatter that is able to format currency values with symbols:
 
-```lang-js
+``` js
 var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
     currencyCode: false
 });
@@ -123,7 +124,7 @@ The currency `NumberFormat` instance allows you to specify custom currencies whi
 
 The following example shows how this is done for a specific instance:
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
     var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
         customCurrencies: {
@@ -140,7 +141,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 
 If you want to define a custom currency that falls back on the currency symbol of an already existing currency, you can configure a respective currency code \(also called ISO code\):
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
     var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
         currencyCode: false,
@@ -162,7 +163,7 @@ This also means that custom currencies defined via the configuration are not tak
 
 In the following example, the currency instance from above is used. Formatting and parsing the currency 'Bitcoin' works fine, but the instance does not know about the currency 'EUR' because of the exclusivity of the custom currencies:
 
-```lang-js
+``` js
 // formatting/parsing Bitcoin is fine
  oCurrencyFormat.format(9001.987654, "Bitcoin");  // 9.001,98765 Bitcoin
  oCurrencyFormat.parse("12 Bitcoin"); // [12, "Bitcoin"];
@@ -181,7 +182,7 @@ You can also add custom currencies via the formatting settings in the core confi
 
 Adding a currency with a key which is already available in the CLDR will overwrite the CLDR currency. By this, you can overdefine single currencies, in case the CLDR provided formatting is not sufficient.
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
     sap.ui.getCore().getConfiguration().getFormatSettings().addCustomCurrencies({
 	     "MyCoin": {

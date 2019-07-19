@@ -1,11 +1,12 @@
+<!-- loio276f001c5a934f6e8faedee6ea22aba1 -->
+
 | loio |
 | -----|
 | 276f001c5a934f6e8faedee6ea22aba1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/276f001c5a934f6e8faedee6ea22aba1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
-<!-- loio276f001c5a934f6e8faedee6ea22aba1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
 
 ## Step 11: Using the Flexible Column Layout Semantic Helper
 

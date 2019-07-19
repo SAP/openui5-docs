@@ -1,11 +1,12 @@
+<!-- loio5eb6f63e0cc547d0bdc934d3652fdc9b -->
+
 | loio |
 | -----|
 | 5eb6f63e0cc547d0bdc934d3652fdc9b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5eb6f63e0cc547d0bdc934d3652fdc9b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
-<!-- loio5eb6f63e0cc547d0bdc934d3652fdc9b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
 
 ## Creating Tables
 
@@ -22,7 +23,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 2.  Sure, we have more properties to make it responsive and to change the design of a column, but we will explain this later. Now, let's see how we can define a right aligned column header:
 
-    ```lang-js
+    ``` js
     
     <Table>
         <columns>
@@ -41,7 +42,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 3.  To build a Table, you have to define table rows. For this purpose you use `ColumnListItems`. `ColumnListItems` have a cell aggregation \(one to many\) which defines cells in one row according to the column definition. Let's build a real table example to understand it better. Here is the implementation:
 
-    ```lang-js
+    ``` js
     
     <Table>
         <columns>

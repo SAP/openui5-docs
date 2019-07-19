@@ -1,11 +1,12 @@
+<!-- loiof1ee7a8b2102415bb0d34268046cd3ea -->
+
 | loio |
 | -----|
 | f1ee7a8b2102415bb0d34268046cd3ea |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f1ee7a8b2102415bb0d34268046cd3ea.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f1ee7a8b2102415bb0d34268046cd3ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f1ee7a8b2102415bb0d34268046cd3ea)</div>
-<!-- loiof1ee7a8b2102415bb0d34268046cd3ea -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f1ee7a8b2102415bb0d34268046cd3ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f1ee7a8b2102415bb0d34268046cd3ea)</div>
 
 ## Using Data Binding for Data Export
 
@@ -13,7 +14,7 @@ Data binding supports the export of data in a specific format so that the data c
 
 To export data, load the necessary modules as shown in the following example:
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/core/util/Export", "sap/ui/core/util/ExportTypeCSV"], function(Export, ExportTypeCSV) {
     // ...
 });
@@ -21,7 +22,7 @@ sap.ui.require(["sap/ui/core/util/Export", "sap/ui/core/util/ExportTypeCSV"], fu
 
 The following code snippet uses a JSON model as basis for the export. You can also use other models, such as the OData model.
 
-```lang-js
+``` js
 
 // "JSONModel" required from module "sap/ui/model/json/JSONModel"
 var oModel = JSONModel([
@@ -51,7 +52,7 @@ var oModel = JSONModel([
 
 In the next step, create the data export object and pass the required information for the export to the object:
 
-```lang-js
+``` js
 
 // "Export" required from module "sap/ui/core/util/Export"
 var oExport = new Export({
@@ -95,7 +96,7 @@ var oExport = new Export({
 
 The export class provides a generate method that triggers the generation process and returns a jQuery Promise object. The done handler is called when the generation process has finished. If you use the OData model, this happens asynchronously. The always handler is also called when the generation has failed. When the generation has finished and the export object is no longer needed, destroy the export object.
 
-```lang-js
+``` js
 
 oExport.generate().done(function(sContent) {
     console.log(sContent);
@@ -118,7 +119,7 @@ Kenya;Dewit
 
 You can directly save the file by triggering a download. This calls the generate method internally and uses the file util class \(`sap/ui/core/util/File`\) to trigger the download.
 
-```lang-js
+``` js
 
 oExport.saveFile().always(function() {
     this.destroy();
@@ -137,7 +138,7 @@ You can use the CSV export type out of the box, or define other export types. Th
 > 
 > 
 
-```lang-js
+``` js
 
 // "ExportType" required from module "sap/ui/core/util/ExportType"
 // "encodeXML" required from module "sap/base/security/encodeXML"
@@ -200,7 +201,7 @@ ExportType.extend("my.own.ExportType", {
 
 It is also possible to pass `customData` to the cell template. This can be used to provide additional metadata to the `ExportType` \(see example code above\).
 
-```lang-js
+``` js
 
 // column definitions with column name, binding info for the content and additional custom data
 columns: [
@@ -234,7 +235,7 @@ columns: [
 
 **Model Data**
 
-```lang-js
+``` js
 
 // "JSONModel" required from module "sap/ui/model/json/JSONModel"
 var oModel = new JSONModel([
@@ -269,7 +270,7 @@ var oModel = new JSONModel([
 
 **Output**
 
-```lang-xml
+``` xml
 
 <columns>
     <column>First name</column>
@@ -318,7 +319,7 @@ var oModel = new JSONModel([
 
 The `exportData` method creates an export instance and fills the rows and columns with the table's rows/column definition, if not defined otherwise. This also includes filters and sorters that have been applied to the columns.
 
-```lang-js
+``` js
 
 // "ExportTypeCSV" required from module "sap/ui/core/util/ExportTypeCSV"
 

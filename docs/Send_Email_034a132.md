@@ -1,11 +1,12 @@
+<!-- loio034a132eef6e447a887d246a4635626d -->
+
 | loio |
 | -----|
 | 034a132eef6e447a887d246a4635626d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/034a132eef6e447a887d246a4635626d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/034a132eef6e447a887d246a4635626d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/034a132eef6e447a887d246a4635626d)</div>
-<!-- loio034a132eef6e447a887d246a4635626d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/034a132eef6e447a887d246a4635626d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/034a132eef6e447a887d246a4635626d)</div>
 
 ## Send Email
 

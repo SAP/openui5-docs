@@ -1,11 +1,12 @@
+<!-- loio76e789ea418a48a1a27916b63a30fb72 -->
+
 | loio |
 | -----|
 | 76e789ea418a48a1a27916b63a30fb72 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/76e789ea418a48a1a27916b63a30fb72.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/76e789ea418a48a1a27916b63a30fb72) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/76e789ea418a48a1a27916b63a30fb72)</div>
-<!-- loio76e789ea418a48a1a27916b63a30fb72 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/76e789ea418a48a1a27916b63a30fb72) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/76e789ea418a48a1a27916b63a30fb72)</div>
 
 ## Step 5: UI5 Inspector
 

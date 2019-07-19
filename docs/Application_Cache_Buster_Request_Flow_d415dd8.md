@@ -1,11 +1,12 @@
+<!-- loiod415dd8911a645759373dc1a70b93f3d -->
+
 | loio |
 | -----|
 | d415dd8911a645759373dc1a70b93f3d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d415dd8911a645759373dc1a70b93f3d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d415dd8911a645759373dc1a70b93f3d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d415dd8911a645759373dc1a70b93f3d)</div>
-<!-- loiod415dd8911a645759373dc1a70b93f3d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d415dd8911a645759373dc1a70b93f3d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d415dd8911a645759373dc1a70b93f3d)</div>
 
 ## Application Cache Buster: Request Flow
 

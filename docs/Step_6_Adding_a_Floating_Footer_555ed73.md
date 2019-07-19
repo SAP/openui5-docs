@@ -1,11 +1,12 @@
+<!-- loio555ed73903b34c70a23ba13af1a5d71e -->
+
 | loio |
 | -----|
 | 555ed73903b34c70a23ba13af1a5d71e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/555ed73903b34c70a23ba13af1a5d71e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
-<!-- loio555ed73903b34c70a23ba13af1a5d71e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
 
 ## Step 6: Adding a Floating Footer
 

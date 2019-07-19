@@ -1,11 +1,12 @@
+<!-- loio8e618a8d93cb4f92adc911b96047eb8d -->
+
 | loio |
 | -----|
 | 8e618a8d93cb4f92adc911b96047eb8d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8e618a8d93cb4f92adc911b96047eb8d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d)</div>
-<!-- loio8e618a8d93cb4f92adc911b96047eb8d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d)</div>
 
 ## Unit Formatting
 

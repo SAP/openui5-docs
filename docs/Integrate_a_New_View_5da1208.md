@@ -1,11 +1,12 @@
+<!-- loio5da1208e40364ff59ce12fb50a067c45 -->
+
 | loio |
 | -----|
 | 5da1208e40364ff59ce12fb50a067c45 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5da1208e40364ff59ce12fb50a067c45.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5da1208e40364ff59ce12fb50a067c45) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5da1208e40364ff59ce12fb50a067c45)</div>
-<!-- loio5da1208e40364ff59ce12fb50a067c45 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5da1208e40364ff59ce12fb50a067c45) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5da1208e40364ff59ce12fb50a067c45)</div>
 
 ## Integrate a New View
 
@@ -22,7 +23,7 @@ If you create a new view for an existing SAPUI5 application project, the view ne
 
     For XML view type:
 
-    ```lang-xml
+    ``` xml
     <mvc:View controllerName="sap.hcm.Address" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
        <Panel>
           <mvc:JSView id="myJSView" viewName="sap.hcm.Bankaccount" />
@@ -32,7 +33,7 @@ If you create a new view for an existing SAPUI5 application project, the view ne
 
     For HTML views, the nested view looks as follows:
 
-    ```lang-html
+    ``` html
     <template data-controller-name= "example.mvc.test" >
     
       <div data-sap-ui-type= "sap.ui.core.mvc.HTMLView" id= "MyHTMLView" data-view-name= "example.mvc.test2" ></div>

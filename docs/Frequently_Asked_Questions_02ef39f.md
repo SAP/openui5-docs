@@ -1,11 +1,12 @@
+<!-- loio02ef39f70a244c7cb0cb4d65be6ae396 -->
+
 | loio |
 | -----|
 | 02ef39f70a244c7cb0cb4d65be6ae396 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/02ef39f70a244c7cb0cb4d65be6ae396.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/02ef39f70a244c7cb0cb4d65be6ae396) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/02ef39f70a244c7cb0cb4d65be6ae396)</div>
-<!-- loio02ef39f70a244c7cb0cb4d65be6ae396 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/02ef39f70a244c7cb0cb4d65be6ae396) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/02ef39f70a244c7cb0cb4d65be6ae396)</div>
 
 ## Frequently Asked Questions
 
@@ -22,14 +23,14 @@ There are two situations where you might have trouble with timeouts:
 
 When loading the app, the OPA5 command can accept a parameterdefining the number of seconds to wait for the application to load.
 
-```lang-js
+``` js
 var opa5 = new Opa5();
 opa5.iStartMyAppInAFrame("path/to/your/app.html", 30); // wait time in seconds
 ```
 
 When trying to find OpenUI5 controls in the app, you can add the following settings to cause OPA5 to wait a different amount of time for a control to become available on the screen. You also need to set the QUnit timeout \(to a time equal to or greater than the OPA5 setting\), otherwise QUnit might give up early:
 
-```lang-js
+``` js
 sap.ui.test.Opa.config.timeout = 20; // wait time in seconds
 QUnit.config.testTimeout = 20000; // wait time in milliseconds
 ```

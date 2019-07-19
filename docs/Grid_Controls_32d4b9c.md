@@ -1,11 +1,12 @@
+<!-- loio32d4b9c2b981425dbc374d3e9d5d0c2e -->
+
 | loio |
 | -----|
 | 32d4b9c2b981425dbc374d3e9d5d0c2e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/32d4b9c2b981425dbc374d3e9d5d0c2e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
-<!-- loio32d4b9c2b981425dbc374d3e9d5d0c2e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
 
 ## Grid Controls
 

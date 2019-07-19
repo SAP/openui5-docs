@@ -1,11 +1,12 @@
+<!-- loiofc2c35880ccf4282a6baf8ab861bc10e -->
+
 | loio |
 | -----|
 | fc2c35880ccf4282a6baf8ab861bc10e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fc2c35880ccf4282a6baf8ab861bc10e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fc2c35880ccf4282a6baf8ab861bc10e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fc2c35880ccf4282a6baf8ab861bc10e)</div>
-<!-- loiofc2c35880ccf4282a6baf8ab861bc10e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fc2c35880ccf4282a6baf8ab861bc10e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fc2c35880ccf4282a6baf8ab861bc10e)</div>
 
 ## Step 1 \(Result\): The Initial App
 

@@ -1,11 +1,12 @@
+<!-- loio08d220676c1c4de38fa8bbc515e2477f -->
+
 | loio |
 | -----|
 | 08d220676c1c4de38fa8bbc515e2477f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/08d220676c1c4de38fa8bbc515e2477f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08d220676c1c4de38fa8bbc515e2477f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08d220676c1c4de38fa8bbc515e2477f)</div>
-<!-- loio08d220676c1c4de38fa8bbc515e2477f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08d220676c1c4de38fa8bbc515e2477f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08d220676c1c4de38fa8bbc515e2477f)</div>
 
 ## HTML Fragments
 
@@ -13,7 +14,7 @@ HTML fragments have a similar syntax as HTML views, but without the `<template>`
 
 You can define a simple HTML fragment like this:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.m.Button" data-press="doSomething" data-text="Hello
         World"></div>

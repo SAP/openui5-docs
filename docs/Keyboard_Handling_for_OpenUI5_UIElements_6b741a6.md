@@ -1,11 +1,12 @@
+<!-- loio6b741a6133284bd78e897cef8b75f6d9 -->
+
 | loio |
 | -----|
 | 6b741a6133284bd78e897cef8b75f6d9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6b741a6133284bd78e897cef8b75f6d9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9)</div>
-<!-- loio6b741a6133284bd78e897cef8b75f6d9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9)</div>
 
 ## Keyboard Handling for OpenUI5 UI Elements
 
@@ -91,6 +92,7 @@ Main Keyboard Combinations<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u
 		</tr>
 	</tbody>
 </table>
+
 Additional Keyboard Combinations for Specific UI elements<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_zld_4rl_yq"/>
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
@@ -144,3 +146,4 @@ Additional Keyboard Combinations for Specific UI elements<a name="loio6b741a6133
 		</tr>
 	</tbody>
 </table>
+

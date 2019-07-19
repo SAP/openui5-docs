@@ -1,11 +1,12 @@
+<!-- loio87aac894a40640f89920d7b2a414499b -->
+
 | loio |
 | -----|
 | 87aac894a40640f89920d7b2a414499b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/87aac894a40640f89920d7b2a414499b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/87aac894a40640f89920d7b2a414499b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/87aac894a40640f89920d7b2a414499b)</div>
-<!-- loio87aac894a40640f89920d7b2a414499b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/87aac894a40640f89920d7b2a414499b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/87aac894a40640f89920d7b2a414499b)</div>
 
 ## OData V4 Metadata JSON Format
 
@@ -52,7 +53,7 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`:
 
-```lang-js
+``` js
 
 {
   "$Version" : "<3.1.1 Edmx Version>",
@@ -268,10 +269,7 @@ Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_
 		</tr>
 		<tr>
 			<td>14.5.4 Expression `Cast` </td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 {
 "$Cast" : <value>,
 "$isCollection" : true, // omit in case of default value: false
@@ -296,10 +294,7 @@ lang-js
 		</tr>
 		<tr>
 			<td>14.5.7 Expression `IsOf` </td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 {
 "$IsOf" : <value>,
 "$isCollection" : true, // omit in case of default value: false
@@ -340,10 +335,7 @@ lang-js
 		</tr>
 		<tr>
 			<td>14.5.14 Expression `Record` </td>
-			<td>The record itself is a map: 
-
-```
-lang-js
+			<td>The record itself is a map: ``` js
 {
   "$Type" : "<14.5.14.1 Record Type>",
   "<14.5.14.2.1 PropertyValue Property>" : <value>,
@@ -358,6 +350,7 @@ lang-js
 		</tr>
 	</tbody>
 </table>
+
 **Related information**  
 
 

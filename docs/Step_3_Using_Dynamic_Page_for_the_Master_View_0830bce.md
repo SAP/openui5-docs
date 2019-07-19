@@ -1,11 +1,12 @@
+<!-- loio0830bce271bf42d98c2740bed43d435d -->
+
 | loio |
 | -----|
 | 0830bce271bf42d98c2740bed43d435d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0830bce271bf42d98c2740bed43d435d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d)</div>
-<!-- loio0830bce271bf42d98c2740bed43d435d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d)</div>
 
 ## Step 3: Using Dynamic Page for the Master View
 

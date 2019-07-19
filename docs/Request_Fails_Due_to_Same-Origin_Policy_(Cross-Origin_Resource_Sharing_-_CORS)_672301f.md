@@ -1,11 +1,12 @@
+<!-- copy672301f4f47640a8b2bc817d2ce0f512 -->
+
 | loio |
 | -----|
 | 672301f4f47640a8b2bc817d2ce0f512 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/672301f4f47640a8b2bc817d2ce0f512.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/672301f4f47640a8b2bc817d2ce0f512) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/672301f4f47640a8b2bc817d2ce0f512)</div>
-<!-- copy672301f4f47640a8b2bc817d2ce0f512 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/672301f4f47640a8b2bc817d2ce0f512) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/672301f4f47640a8b2bc817d2ce0f512)</div>
 
 ## Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)
 

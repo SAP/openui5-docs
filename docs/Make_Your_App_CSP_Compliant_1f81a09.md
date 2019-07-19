@@ -1,11 +1,12 @@
+<!-- loio1f81a093a9f3433983dcb2ebe11cd4cd -->
+
 | loio |
 | -----|
 | 1f81a093a9f3433983dcb2ebe11cd4cd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1f81a093a9f3433983dcb2ebe11cd4cd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1f81a093a9f3433983dcb2ebe11cd4cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1f81a093a9f3433983dcb2ebe11cd4cd)</div>
-<!-- loio1f81a093a9f3433983dcb2ebe11cd4cd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1f81a093a9f3433983dcb2ebe11cd4cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1f81a093a9f3433983dcb2ebe11cd4cd)</div>
 
 ## Make Your App CSP Compliant
 
@@ -21,7 +22,7 @@ It's strongly recommended that you make your OpenUI5 applications CSP compliant 
 
 Don't use directly executable code in your HTML files, because this makes them vulnerable. Instead, enable the `ComponentSupport` module in the bootstrapping script. Then, declare your desired component in the body via a `div` tag. This will instantiate the component when the `onInit` is executed.
 
-```lang-html
+``` html
 ...
 <script id="sap-ui-bootstrap"
 	src="resources/sap-ui-core.js"
@@ -47,7 +48,7 @@ Because the HTML files in your test folder do not directly open your application
 
 New script file:
 
-```lang-js
+``` js
 window.suite = function() {
 	"use strict";
 
@@ -64,7 +65,7 @@ window.suite = function() {
 
 HTML file:
 
-```lang-html
+``` html
 <head>
 	...
 	<script src="testsuite.qunit.js" data-sap-ui-testsuite></script>

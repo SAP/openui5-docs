@@ -1,11 +1,12 @@
+<!-- loio91f08de06f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f08de06f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f08de06f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070)</div>
-<!-- loio91f08de06f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070)</div>
 
 ## Configuration of the OpenUI5 Runtime
 
@@ -15,7 +16,7 @@ When the OpenUI5 bootstrap script is included in a page, the OpenUI5 runtime wil
 
 So a typical bootstrap script looks like this:
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
             type="text/javascript"
             src="resources/sap-ui-core.js"
@@ -85,7 +86,7 @@ You can use this attribute instead of attaching individual options with individu
 > 
 > 
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
 	type="text/javascript"
 	src="resources/sap-ui-core.js"
@@ -112,7 +113,7 @@ As the configuration is evaluated during bootstrap, the configuration object mus
 
 The following code snippet shows an example for an inline script tag:
 
-```lang-html
+``` html
 <script type="text/javascript">
             window["sap-ui-config"] = {
 			theme : "sap_belize",

@@ -1,11 +1,12 @@
+<!-- loiofde40159afce478eb488ee4d0f9ebb99 -->
+
 | loio |
 | -----|
 | fde40159afce478eb488ee4d0f9ebb99 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fde40159afce478eb488ee4d0f9ebb99.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
-<!-- loiofde40159afce478eb488ee4d0f9ebb99 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
 
 ## Scrolling: Pull to Refresh
 
@@ -15,7 +16,7 @@ To implement it, create a `PullToRefresh` control and put it as the first contro
 
 Example:
 
-```lang-js
+``` js
 
 var pullToRefresh = new sap.m.PullToRefresh({ description: getLastUpdatedTime(), refresh: function(){
     pullToRefresh.setDescription("loading from server..."); 

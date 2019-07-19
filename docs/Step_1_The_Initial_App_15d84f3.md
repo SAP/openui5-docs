@@ -1,11 +1,12 @@
+<!-- loio15d84f36c0594cb2b3295aa1f55cb961 -->
+
 | loio |
 | -----|
 | 15d84f36c0594cb2b3295aa1f55cb961 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/15d84f36c0594cb2b3295aa1f55cb961.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961)</div>
-<!-- loio15d84f36c0594cb2b3295aa1f55cb961 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961)</div>
 
 ## Step 1: The Initial App
 
@@ -65,7 +66,7 @@ This file defines the home page of the app. It contains the bootstrap script and
 
 The `manifest.json` descriptor file contains the app configuration. In the `sap.app` section, the OData V4 service is configured as the default service:
 
-```lang-json
+``` json
 "dataSources": {
 	"default": {
 		"uri": "https://services.odata.org/TripPinRESTierService/(S(id))/",

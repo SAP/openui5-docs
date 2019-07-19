@@ -1,11 +1,12 @@
+<!-- loioa77f2d29299247f8a3e30226507b1765 -->
+
 | loio |
 | -----|
 | a77f2d29299247f8a3e30226507b1765 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a77f2d29299247f8a3e30226507b1765.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a77f2d29299247f8a3e30226507b1765) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a77f2d29299247f8a3e30226507b1765)</div>
-<!-- loioa77f2d29299247f8a3e30226507b1765 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a77f2d29299247f8a3e30226507b1765) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a77f2d29299247f8a3e30226507b1765)</div>
 
 ## Worklist Template
 

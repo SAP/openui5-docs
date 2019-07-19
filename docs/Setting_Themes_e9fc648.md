@@ -1,11 +1,12 @@
+<!-- loioe9fc648661d84ed89360bbec3ae02611 -->
+
 | loio |
 | -----|
 | e9fc648661d84ed89360bbec3ae02611 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e9fc648661d84ed89360bbec3ae02611.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611)</div>
-<!-- loioe9fc648661d84ed89360bbec3ae02611 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611)</div>
 
 ## Setting Themes
 
@@ -13,7 +14,7 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
 -   The initial theme can be hardcoded in the application \(in the script tag of the bootstrap loading OpenUI5\) or in a JS configuration object defined before OpenUI5 is loaded, for example:
 
-```lang-js
+``` js
 <script id="sap-ui-bootstrap" 
 	type="text/javascript"
 	src="......../sap-ui-core.js"
@@ -66,7 +67,7 @@ To load an external custom theme, you set this theme either by static declaring 
 
 -   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
 
-```lang-js
+``` js
 
 <script id="sap-ui-bootstrap" 
 	type="text/javascript"
@@ -83,7 +84,7 @@ http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~clie
 
 -   Use the global configuration object. Insert the following before the bootstrap `script` tag:
 
-```lang-js
+``` js
 <script type="text/javascript">
 window["sap-ui-config"] = {
 	themeRoots : {
@@ -107,7 +108,7 @@ window["sap-ui-config"] = {
 
 Whenever the theme is switched, an event is fired indicating that a theme switch has been triggered. If you want your application to react on this event, you can attach a handler to it:
 
-```lang-js
+``` js
 
 sap.ui.getCore().attachThemeChanged(function(){
 	myFunction();

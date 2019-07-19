@@ -1,11 +1,12 @@
+<!-- loio9164ba7047b74a25a19baf9c5bb986ae -->
+
 | loio |
 | -----|
 | 9164ba7047b74a25a19baf9c5bb986ae |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9164ba7047b74a25a19baf9c5bb986ae.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
-<!-- loio9164ba7047b74a25a19baf9c5bb986ae -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
 
 ## Growing Feature for Table and List
 
@@ -34,7 +35,7 @@ The growing-related properties of `sap.m.ListBase` are:
 
 To enable data for a table to be fetched on demand like this, you just need to set the values for these properties appropriately on your table control. For example, adding the highlighted lines as shown in the following code will cause five items to be displayed in the table initially along with a *More* button \(this is the default text used if you don't set a different text using the `growingTriggerText` property\), as shown below the code:
 
-```lang-js
+``` js
 
  <List
     items="{/ProductCollection}"
@@ -56,7 +57,7 @@ To enable data for a table to be fetched on demand like this, you just need to s
 
 If you want the user to have to scroll down to see more items \(by setting the `growingScrollToLoad` property to true\), you must ensure that the control is within a container that has a scroll feature, such as an `sap.m.Page` in an `sap.m.App` control, like this:
 
-```lang-js
+``` js
 
 <App>
    <Page title="Table Events">

@@ -1,11 +1,12 @@
+<!-- loio08608efbe1864607a80fb7c41a9645e5 -->
+
 | loio |
 | -----|
 | 08608efbe1864607a80fb7c41a9645e5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/08608efbe1864607a80fb7c41a9645e5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08608efbe1864607a80fb7c41a9645e5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08608efbe1864607a80fb7c41a9645e5)</div>
-<!-- loio08608efbe1864607a80fb7c41a9645e5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08608efbe1864607a80fb7c41a9645e5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08608efbe1864607a80fb7c41a9645e5)</div>
 
 ## Example: Component Configuration
 
@@ -15,7 +16,7 @@ The configuration is stored in the component.js file of the custom application. 
 
 The following code snippet shows an example of a configuration structure.
 
-```lang-js
+``` js
 
 some.sap.Component.extend("some.customer.Component", {
     

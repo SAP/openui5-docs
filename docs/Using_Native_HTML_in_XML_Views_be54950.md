@@ -1,11 +1,12 @@
+<!-- loiobe54950cae1041f59d4aa97a6bade2d8 -->
+
 | loio |
 | -----|
 | be54950cae1041f59d4aa97a6bade2d8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/be54950cae1041f59d4aa97a6bade2d8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/be54950cae1041f59d4aa97a6bade2d8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/be54950cae1041f59d4aa97a6bade2d8)</div>
-<!-- loiobe54950cae1041f59d4aa97a6bade2d8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/be54950cae1041f59d4aa97a6bade2d8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/be54950cae1041f59d4aa97a6bade2d8)</div>
 
 ## Using Native HTML in XML Views
 
@@ -31,7 +32,7 @@ When mixing XHTML and OpenUI5 controls, observe the following rules:
 
 1.  To mix OpenUI5 controls with native XHTML, you only need the XHTML namespace to use \(X\)HTML:
 
-    ```lang-xml
+    ``` xml
     <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
                xmlns:html="http://www.w3.org/1999/xhtml">
        <Panel>

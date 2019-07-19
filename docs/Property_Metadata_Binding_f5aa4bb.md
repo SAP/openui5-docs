@@ -1,11 +1,12 @@
+<!-- loiof5aa4bb75c20445194494b264d3b3cd2 -->
+
 | loio |
 | -----|
 | f5aa4bb75c20445194494b264d3b3cd2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f5aa4bb75c20445194494b264d3b3cd2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5aa4bb75c20445194494b264d3b3cd2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5aa4bb75c20445194494b264d3b3cd2)</div>
-<!-- loiof5aa4bb75c20445194494b264d3b3cd2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5aa4bb75c20445194494b264d3b3cd2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5aa4bb75c20445194494b264d3b3cd2)</div>
 
 ## Property Metadata Binding
 
@@ -23,7 +24,7 @@ The binding must know the metadata part of the binding expression. The path to m
 
     Example:
 
-    ```lang-js
+    ``` js
     
     var myLabel = new sap.m.Label({text:"{/#Company/CompanyName/@sap:label}"});
     ```
@@ -34,7 +35,7 @@ The binding must know the metadata part of the binding expression. The path to m
 
     Example:
 
-    ```lang-js
+    ``` js
     
     var myLabel = new sap.m.Label({text:"{/Companies(1)/CompanyCode/#@sap:label}"});
     var myLabel2 = new sap.m.Label({text:"{City/#@sap:label}"});

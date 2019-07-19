@@ -1,11 +1,12 @@
+<!-- loio516e477e7e0b4e188b19a406e7528c1e -->
+
 | loio |
 | -----|
 | 516e477e7e0b4e188b19a406e7528c1e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/516e477e7e0b4e188b19a406e7528c1e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e)</div>
-<!-- loio516e477e7e0b4e188b19a406e7528c1e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e)</div>
 
 ## Methods and Events for Navigation
 
@@ -32,7 +33,7 @@ The method uses the following parameters:
 -   `replace` \(default: `false`\) to define whether the hash should be replaced \(no new browser history entry\) or set \(browser history entry\)
 
 
-```lang-js
+``` js
 sap.ui.require([
     "sap/ui/core/UIComponent", ...
 ], function(UIComponent, ...) {
@@ -80,7 +81,7 @@ If you want to only react to specific routes, check if the `name` parameter matc
 -   `config` of the route
 
 
-```lang-js
+``` js
 sap.ui.controller("MyApp.View1", {
     onInit: function() {
         var oRouter = this.getOwnerComponent().getRouter();

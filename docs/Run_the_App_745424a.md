@@ -1,11 +1,12 @@
+<!-- loio745424aed0154817a5c7317b0270b833 -->
+
 | loio |
 | -----|
 | 745424aed0154817a5c7317b0270b833 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/745424aed0154817a5c7317b0270b833.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/745424aed0154817a5c7317b0270b833) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/745424aed0154817a5c7317b0270b833)</div>
-<!-- loio745424aed0154817a5c7317b0270b833 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/745424aed0154817a5c7317b0270b833) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/745424aed0154817a5c7317b0270b833)</div>
 
 ## Run the App
 

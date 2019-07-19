@@ -1,11 +1,12 @@
+<!-- loiod2ce3f51e5e34198b0c1a7f6ddd98def -->
+
 | loio |
 | -----|
 | d2ce3f51e5e34198b0c1a7f6ddd98def |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d2ce3f51e5e34198b0c1a7f6ddd98def.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2ce3f51e5e34198b0c1a7f6ddd98def) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2ce3f51e5e34198b0c1a7f6ddd98def)</div>
-<!-- loiod2ce3f51e5e34198b0c1a7f6ddd98def -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2ce3f51e5e34198b0c1a7f6ddd98def) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2ce3f51e5e34198b0c1a7f6ddd98def)</div>
 
 ## Sorting
 

@@ -1,11 +1,12 @@
+<!-- loioa2c67acd17a948ee89344676762e0c2a -->
+
 | loio |
 | -----|
 | a2c67acd17a948ee89344676762e0c2a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a2c67acd17a948ee89344676762e0c2a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a2c67acd17a948ee89344676762e0c2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a2c67acd17a948ee89344676762e0c2a)</div>
-<!-- loioa2c67acd17a948ee89344676762e0c2a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a2c67acd17a948ee89344676762e0c2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a2c67acd17a948ee89344676762e0c2a)</div>
 
 ## Creating Themable User Interfaces
 
@@ -48,7 +49,7 @@ For example, if you hard-coded the font color to black, this color cannot be adj
 -   To ensure theme-dependent styling, only use basic theme parameters.
 -   Read appropriate parameter values via API and set the elements' CSS properties rather than hard-coding colors or borrowing arbitrary style classes from control sets:
 
-    ```lang-js
+    ``` js
     sap.ui.require(["sap/ui/core/theming/Parameters"], function(Parameters){
         var myColor = Parameters.get("sapUiDarkBG");
     });

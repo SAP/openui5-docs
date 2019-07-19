@@ -1,11 +1,12 @@
+<!-- loioee37fc7138b843c0a66700f0aeaba3fe -->
+
 | loio |
 | -----|
 | ee37fc7138b843c0a66700f0aeaba3fe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ee37fc7138b843c0a66700f0aeaba3fe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe)</div>
-<!-- loioee37fc7138b843c0a66700f0aeaba3fe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe)</div>
 
 ## General Recommendations
 

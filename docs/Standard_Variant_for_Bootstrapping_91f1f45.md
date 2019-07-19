@@ -1,11 +1,12 @@
+<!-- loio91f1f4536f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f1f4536f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f1f4536f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f1f4536f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f1f4536f4d1014b6dd926db0e91070)</div>
-<!-- loio91f1f4536f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f1f4536f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f1f4536f4d1014b6dd926db0e91070)</div>
 
 ## Standard Variant for Bootstrapping
 
@@ -26,7 +27,7 @@ The library preload file `library-preload.js` contains all modules of a certain 
 
 By setting the `async=true` configuration parameter, the module loader loads the modules and preload files asynchronously. You can enable it in an existing application by specifying the `sap-ui-async` configuration parameter in the start URL, or by adding the `data-sap-ui-async` attribute to the bootstrap tag:
 
-```lang-js
+``` js
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
@@ -65,7 +66,7 @@ Alternatively, you can influence the loading behavior of the preload files witho
 
 You can easily check this with an existing application by specifying the `sap-ui-preload=<mode>` parameter in the start URL or by adding the `data-sap-ui-preload` attribute to the bootstrap tag:
 
-```lang-js
+``` js
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"

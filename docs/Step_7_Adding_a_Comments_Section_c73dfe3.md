@@ -1,11 +1,12 @@
+<!-- loioc73dfe312f104664954749c5c36faf27 -->
+
 | loio |
 | -----|
 | c73dfe312f104664954749c5c36faf27 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c73dfe312f104664954749c5c36faf27.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27)</div>
-<!-- loioc73dfe312f104664954749c5c36faf27 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27)</div>
 
 ## Step 7: Adding a Comments Section
 

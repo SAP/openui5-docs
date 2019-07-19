@@ -1,11 +1,12 @@
+<!-- loio25ab54b0113c4914999c43d07d3b71fe -->
+
 | loio |
 | -----|
 | 25ab54b0113c4914999c43d07d3b71fe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/25ab54b0113c4914999c43d07d3b71fe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/25ab54b0113c4914999c43d07d3b71fe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/25ab54b0113c4914999c43d07d3b71fe)</div>
-<!-- loio25ab54b0113c4914999c43d07d3b71fe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/25ab54b0113c4914999c43d07d3b71fe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/25ab54b0113c4914999c43d07d3b71fe)</div>
 
 ## Examples for Data Binding in Different View Types
 
@@ -17,7 +18,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 ### XML View \(Recommended\)
 
-```lang-js
+``` js
 
 <mvc:View controllerName="testdata.complexsyntax" xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc" xmlns="sap.ui.commons" xmlns:table="sap.ui.table"
@@ -54,7 +55,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 ### HTML View
 
-```lang-js
+``` js
 
 <template data-controller-name="testdata.complexsyntax">
     <div>
@@ -89,7 +90,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 A JS view is not declarative view, but you may use the same syntax as in XML- and HTMLView, just do not forget to pass a controller instance as a parameter:
 
-```lang-js
+``` js
 
 sap.ui.jsview("testdata.complexsyntax", {
     

@@ -1,11 +1,12 @@
+<!-- loiob8561ff6f4c34c85a91ed06d20814cd3 -->
+
 | loio |
 | -----|
 | b8561ff6f4c34c85a91ed06d20814cd3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b8561ff6f4c34c85a91ed06d20814cd3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
-<!-- loiob8561ff6f4c34c85a91ed06d20814cd3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
 
 ## Step 9: Allow Bookmarkable Tabs with Optional Query Parameters
 

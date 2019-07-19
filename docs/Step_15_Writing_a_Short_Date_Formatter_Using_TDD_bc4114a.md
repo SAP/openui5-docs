@@ -1,11 +1,12 @@
+<!-- loiobc4114a88e4d4ac1a0f53b2a7a92b226 -->
+
 | loio |
 | -----|
 | bc4114a88e4d4ac1a0f53b2a7a92b226 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/bc4114a88e4d4ac1a0f53b2a7a92b226.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
-<!-- loiobc4114a88e4d4ac1a0f53b2a7a92b226 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
 
 ## Step 15: Writing a Short Date Formatter Using TDD
 

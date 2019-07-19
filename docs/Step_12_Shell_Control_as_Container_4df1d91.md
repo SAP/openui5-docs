@@ -1,11 +1,12 @@
+<!-- loio4df1d914e52d4b1aa0805eb01522537e -->
+
 | loio |
 | -----|
 | 4df1d914e52d4b1aa0805eb01522537e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4df1d914e52d4b1aa0805eb01522537e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e)</div>
-<!-- loio4df1d914e52d4b1aa0805eb01522537e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e)</div>
 
 ## Step 12: Shell Control as Container
 

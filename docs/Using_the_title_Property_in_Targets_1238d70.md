@@ -1,11 +1,12 @@
+<!-- loio1238d706b130433c9bd6b85cfb77cece -->
+
 | loio |
 | -----|
 | 1238d706b130433c9bd6b85cfb77cece |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1238d706b130433c9bd6b85cfb77cece.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece)</div>
-<!-- loio1238d706b130433c9bd6b85cfb77cece -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece)</div>
 
 ## Using the title Property in Targets
 
@@ -101,7 +102,7 @@ A route can display multiple targets and you can use the `titleTarget` option in
 
 To receive a notification when the title is changed, you can register to the `titleChanged` event on the `Router` instance. The `titleChanged` event is then fired when a target with a set `title` options displayed, or the title of a displayed target is changed \(for example, because the binding context changes\).
 
-```lang-js
+``` js
 oRouter.attachTitleChanged(function(oEvent) {
     var sTitle = oEvent.getParameter("title"),
         aHistory = oEvent.getParameter("history");

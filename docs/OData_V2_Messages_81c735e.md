@@ -1,11 +1,12 @@
+<!-- loio81c735e69d354de98b0bd139e4bd4e10 -->
+
 | loio |
 | -----|
 | 81c735e69d354de98b0bd139e4bd4e10 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/81c735e69d354de98b0bd139e4bd4e10.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
-<!-- loio81c735e69d354de98b0bd139e4bd4e10 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
 
 ## OData V2 Messages
 
@@ -31,7 +32,7 @@ OData V2 messages are kept until a message from the server for the same path arr
 
 To create messages manually that are handled like OData messages, use `model` as message processor as follows:
 
-```lang-js
+``` js
 // oMyModel is defined elsewhere...
 // "Input" required from module "sap/m/Input"
 // "TypeFloat" required from module "sap/ui/model/type/Float"
@@ -96,7 +97,7 @@ Mulitple OData changes that are part of the same change set are send as batch re
 
 If one change operation fails, the back end rolls back all operations of the change set, but returns only a single message, for example:
 
-```lang-js
+``` js
 {
   "code": "MYCODE/111",
   "message": "Invalid input!",
@@ -120,7 +121,7 @@ This leads to two UI message objects with the following message targets:
 
 The OData service error response can also contain multiple inner-errors to deliever more than one error message to the front end. The inner-error messages should generally be used to describe the problem in more detail, for example
 
-```lang-js
+``` js
 {
   "code": "MYCODE/111",
   "message": "Failed operations!",

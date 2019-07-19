@@ -1,11 +1,12 @@
+<!-- loiod1b26a248c0a47f6a96849236250dc90 -->
+
 | loio |
 | -----|
 | d1b26a248c0a47f6a96849236250dc90 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d1b26a248c0a47f6a96849236250dc90.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90)</div>
-<!-- loiod1b26a248c0a47f6a96849236250dc90 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90)</div>
 
 ## Checking the Operating System your Application is Running on
 

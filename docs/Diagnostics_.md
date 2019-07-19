@@ -1,11 +1,12 @@
+<!-- loio6ec18e80b0ce47f290bc2645b0cc86e6 -->
+
 | loio |
 | -----|
 | 6ec18e80b0ce47f290bc2645b0cc86e6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6ec18e80b0ce47f290bc2645b0cc86e6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6ec18e80b0ce47f290bc2645b0cc86e6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6ec18e80b0ce47f290bc2645b0cc86e6)</div>
-<!-- loio6ec18e80b0ce47f290bc2645b0cc86e6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6ec18e80b0ce47f290bc2645b0cc86e6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6ec18e80b0ce47f290bc2645b0cc86e6)</div>
 
 ## Diagnostics
 
@@ -242,6 +243,7 @@ Similar to the *Control Tree* section of *Diagnostics*, you can change those val
 ![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)</td>
 	</tbody>
 </table>
+
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio2e698c47a18e4303af9c6e59b6dd69b5__loio2e698c47a18e4303af9c6e59b6dd69b5"/>
 
 <!-- loio2e698c47a18e4303af9c6e59b6dd69b5 -->

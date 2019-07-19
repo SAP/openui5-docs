@@ -1,11 +1,12 @@
+<!-- loio121b8e6337d147af9819129e428f1f75 -->
+
 | loio |
 | -----|
 | 121b8e6337d147af9819129e428f1f75 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/121b8e6337d147af9819129e428f1f75.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/121b8e6337d147af9819129e428f1f75) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/121b8e6337d147af9819129e428f1f75)</div>
-<!-- loio121b8e6337d147af9819129e428f1f75 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/121b8e6337d147af9819129e428f1f75) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/121b8e6337d147af9819129e428f1f75)</div>
 
 ## Controller
 
@@ -13,7 +14,7 @@ A controller contains methods that define how models and views interact.
 
 You define a simple controller as follows:
 
-```lang-js
+``` js
 sap.ui.controller("sap.hcm.Address", {
    // controller logic goes here
 });
@@ -51,7 +52,7 @@ OpenUI5 provides the following lifecycle hooks:
 > 
 
 > Note:
-> ```lang-js
+> ``` js
 > 
 > sap.ui.controller("sap.hcm.Address", {
 >    onInit: function() {
@@ -71,7 +72,7 @@ OpenUI5 provides the following lifecycle hooks:
 In addition to lifecycle hooks, a controller can define additional methods that serve as event handlers or additional functionality offered by the controller.
 
 > Note:
-> ```lang-js
+> ``` js
 > 
 > sap.ui.controller("sap.hcm.Address", {
 >    increaseCounter: function() {
@@ -104,7 +105,7 @@ The following sample code shows how to define an extension to an existing contro
 > Note:
 > Sample controller extension:
 > 
-> ```lang-js
+> ``` js
 > sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/mvc/OverrideExecution'], function (Controller, OverrideExecution) {
 >     "use strict";
 >     return Controller.extend("sap.hcm.Address", {

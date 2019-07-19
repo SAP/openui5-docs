@@ -1,11 +1,12 @@
+<!-- loio148892ff9aea4a18b912829791e38f3e -->
+
 | loio |
 | -----|
 | 148892ff9aea4a18b912829791e38f3e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/148892ff9aea4a18b912829791e38f3e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e)</div>
-<!-- loio148892ff9aea4a18b912829791e38f3e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e)</div>
 
 ## Tables: Which One Should I Choose?
 

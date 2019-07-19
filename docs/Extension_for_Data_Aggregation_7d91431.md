@@ -1,11 +1,12 @@
+<!-- loio7d914317c0b64c23824bf932cc8a4ae1 -->
+
 | loio |
 | -----|
 | 7d914317c0b64c23824bf932cc8a4ae1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7d914317c0b64c23824bf932cc8a4ae1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1)</div>
-<!-- loio7d914317c0b64c23824bf932cc8a4ae1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1)</div>
 
 ## Extension for Data Aggregation
 
@@ -22,7 +23,7 @@ Two scenarios are supported:
     					    **Example XML View With Grand Total**
     
     
-    					    ```lang-js
+    					    ``` js
         <table:Table fixedRowCount="1"
          rows="{
           path : '/BusinessPartners',

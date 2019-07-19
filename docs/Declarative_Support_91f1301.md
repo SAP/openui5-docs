@@ -1,11 +1,12 @@
+<!-- loio91f130196f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f130196f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f130196f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f130196f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f130196f4d1014b6dd926db0e91070)</div>
-<!-- loio91f130196f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f130196f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f130196f4d1014b6dd926db0e91070)</div>
 
 ## Declarative Support
 
@@ -25,7 +26,7 @@ The following sections provide an overview of the declarative support and introd
 
 The following example shows the concept by combining a `sap.m.input` with a `sap.m.Button` control. When you click the button, the value of the text field is displayed in an alert box:
 
-```lang-html
+``` html
 <!Doctype HTML>
 <html>
 <head>

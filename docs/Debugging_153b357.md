@@ -1,11 +1,12 @@
+<!-- loio153b357ccff14715af9973de9a045e38 -->
+
 | loio |
 | -----|
 | 153b357ccff14715af9973de9a045e38 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/153b357ccff14715af9973de9a045e38.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/153b357ccff14715af9973de9a045e38) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/153b357ccff14715af9973de9a045e38)</div>
-<!-- loio153b357ccff14715af9973de9a045e38 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/153b357ccff14715af9973de9a045e38) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/153b357ccff14715af9973de9a045e38)</div>
 
 ## Debugging
 
@@ -44,7 +45,7 @@ Each debug line looks as follows:
 
 Example:
 
-```lang-xml
+``` xml
 			
 1  [ 0] Start processing Element sap.ui.core.mvc.XMLView#__xmlview5 (sap.ui.core.sample.ViewTemplate.scenario.Detail) -  sap.ui.core.util.XMLPreprocessor
 2  [ 0] meta = /dataServices/schema/0/entityContainer/0/entitySet/0 -  sap.ui.core.util.XMLPreprocessor

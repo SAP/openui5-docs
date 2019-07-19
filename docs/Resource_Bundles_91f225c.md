@@ -1,11 +1,12 @@
+<!-- loio91f225ce6f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f225ce6f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f225ce6f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f225ce6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f225ce6f4d1014b6dd926db0e91070)</div>
-<!-- loio91f225ce6f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f225ce6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f225ce6f4d1014b6dd926db0e91070)</div>
 
 ## Resource Bundles
 
@@ -30,7 +31,7 @@ To enable proper translation, you classify the texts with additional information
 
 A `properties` file can, for example, look like this
 
-```lang-prefs
+``` prefs
 # SAPUI5 TRANSLATION-KEY <GUID>
 #XMSG: A message to greet the world
 helloWorld=Hello World
@@ -46,7 +47,7 @@ welcome=Welcome {0}
 > 
 > To load this bundle, you add the following code to the `createContent` function of your view:
 > 
-> ```lang-js
+> ``` js
 > // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 > // load the resource bundle
 > var oBundle = ResourceBundle.create({

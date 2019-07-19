@@ -1,11 +1,12 @@
+<!-- loioe5ee491f69224f038a0c147480dbd436 -->
+
 | loio |
 | -----|
 | e5ee491f69224f038a0c147480dbd436 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e5ee491f69224f038a0c147480dbd436.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436)</div>
-<!-- loioe5ee491f69224f038a0c147480dbd436 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436)</div>
 
 ## Step 8: Enhancing the Detail Page
 

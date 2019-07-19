@@ -1,11 +1,12 @@
+<!-- loiob1fbe1a22f8d4a5bbb601591e27b68d1 -->
+
 | loio |
 | -----|
 | b1fbe1a22f8d4a5bbb601591e27b68d1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b1fbe1a22f8d4a5bbb601591e27b68d1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b1fbe1a22f8d4a5bbb601591e27b68d1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b1fbe1a22f8d4a5bbb601591e27b68d1)</div>
-<!-- loiob1fbe1a22f8d4a5bbb601591e27b68d1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b1fbe1a22f8d4a5bbb601591e27b68d1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b1fbe1a22f8d4a5bbb601591e27b68d1)</div>
 
 ## App Development Using OpenUI5
 
@@ -45,7 +46,7 @@ If you don't want to download the files and don't want to include them in your d
 
 You can also use the node package manager \(npm\) to develop your applications. For this, you need to add the OpenUI5 dependencies to your package.json file:
 
-```lang-js
+``` js
 {
   ...
   "dependencies": {

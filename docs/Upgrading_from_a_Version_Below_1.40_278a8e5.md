@@ -1,11 +1,12 @@
+<!-- loio278a8e56ab234fa29f6e46b877628ebe -->
+
 | loio |
 | -----|
 | 278a8e56ab234fa29f6e46b877628ebe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/278a8e56ab234fa29f6e46b877628ebe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/278a8e56ab234fa29f6e46b877628ebe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/278a8e56ab234fa29f6e46b877628ebe)</div>
-<!-- loio278a8e56ab234fa29f6e46b877628ebe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/278a8e56ab234fa29f6e46b877628ebe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/278a8e56ab234fa29f6e46b877628ebe)</div>
 
 ## Upgrading from a Version Below 1.40
 

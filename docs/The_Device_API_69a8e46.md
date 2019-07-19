@@ -1,11 +1,12 @@
+<!-- loio69a8e469fbde46e7b8916250080effbd -->
+
 | loio |
 | -----|
 | 69a8e469fbde46e7b8916250080effbd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/69a8e469fbde46e7b8916250080effbd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd)</div>
-<!-- loio69a8e469fbde46e7b8916250080effbd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd)</div>
 
 ## The Device API
 
@@ -20,7 +21,7 @@ For example, the `sap.ui.Device.orientation` object holds the current orientatio
 
 If you want to register a handler for a particular event like a resize or an orientation change, for example, you can do so easily by attaching to such an event:
 
-```lang-js
+``` js
 
 sap.ui.Device.orientationChange.attachHandler(function(){
 	alert("orientation changed");
@@ -62,7 +63,7 @@ The following ranges are available by default:
 
 You can use any of the available range sets to attach to a particular width interval change, like in this example here:
 
-```lang-js
+``` js
 
 // attach to event
 sap.ui.Device.media.attachHandler(fnSizeChanged, null, sap.ui.Device.media.RANGESETS.SAP_STANDARD);

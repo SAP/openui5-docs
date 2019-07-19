@@ -1,11 +1,12 @@
+<!-- loio91f21f176f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f21f176f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f21f176f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f21f176f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f21f176f4d1014b6dd926db0e91070)</div>
-<!-- loio91f21f176f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f21f176f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f21f176f4d1014b6dd926db0e91070)</div>
 
 ## Identifying the Language Code / Locale
 
@@ -78,7 +79,7 @@ OpenUI5 has the notion of a current language. It is determined during the OpenUI
 
 After the bootstrap, the language can be changed by calling `sap.ui.getCore().setLanguage(…)`. A call to this method does not guarantee that all already existing translatable texts will be adapted. You use the configuration API to retrieve the resulting current language as follows:
 
-```lang-js
+``` js
 
 var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 ```

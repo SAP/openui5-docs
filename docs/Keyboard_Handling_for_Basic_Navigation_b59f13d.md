@@ -1,11 +1,12 @@
+<!-- loiob59f13d3586c4196b28e92683e9dff19 -->
+
 | loio |
 | -----|
 | b59f13d3586c4196b28e92683e9dff19 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b59f13d3586c4196b28e92683e9dff19.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b59f13d3586c4196b28e92683e9dff19) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b59f13d3586c4196b28e92683e9dff19)</div>
-<!-- loiob59f13d3586c4196b28e92683e9dff19 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b59f13d3586c4196b28e92683e9dff19) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b59f13d3586c4196b28e92683e9dff19)</div>
 
 ## Keyboard Handling for Basic Navigation
 

@@ -1,11 +1,12 @@
+<!-- loio22f175e7084247bc896c15280af9d1dc -->
+
 | loio |
 | -----|
 | 22f175e7084247bc896c15280af9d1dc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/22f175e7084247bc896c15280af9d1dc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc)</div>
-<!-- loio22f175e7084247bc896c15280af9d1dc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc)</div>
 
 ## Getting Started with OPA5
 
@@ -21,7 +22,7 @@ This simulates the behaviour of many OpenUI5 apps: Depending on user actions and
 
 First, we create a very simple view with an invisible button with *Press me* as the button text:
 
-```lang-xml
+``` xml
 
 <mvc:View controllerName="view.Main"
   xmlns="sap.m"
@@ -39,7 +40,7 @@ First, we create a very simple view with an invisible button with *Press me* as 
 
 We display the button in the controller after 0 to 10 seconds. On press, we change the text.
 
-```lang-js
+``` js
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
     "use strict";
     return Controller.extend("view.Main", {
@@ -73,7 +74,7 @@ Now how can we test this app without having to do a lot of mocking or writing of
 
 When we write tests, we try to write it in a way that everyone can immediately understand what is done and tested with this test:
 
-```lang-js
+``` js
 sap.ui.require([
   "sap/ui/test/Opa5",
     "sap/ui/test/opaQUnit",
@@ -108,7 +109,7 @@ Let's start by defining arrangements. In the following example, we assume that t
 
 We define a relative path pointing to the `index.html` of our application under `test ../index.html - ../`. This means that you go up one directory relative to the current directory:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 var arrangements = new Opa5({
     iStartMyApp : function () {
@@ -125,7 +126,7 @@ This is simple because we already programmed our app and just need to start it. 
 
 We now give OPA the ID and the `viewName` of the control we are looking for. OPA waits until the element is present in the respective view. OPA checks whether it is visible. After OPA has found the button, it invokes the `Press` action. If no button is found, we specify an error message so we know which `waitFor` went wrong.
 
-```lang-js
+``` js
 var actions = new Opa5({
     iPressOnTheButton : function () {
         return this.waitFor({
@@ -145,7 +146,7 @@ var actions = new Opa5({
 
 After clicking the button, we want to check if the text has changed. For this, we can use matchers to check if the button we are searching for matches our conditions. We want to be sure that the text property of the button is equal to "I got pressed".
 
-```lang-js
+``` js
 var assertions = new Opa5({
     theButtonShouldHaveADifferentText : function () {
         return this.waitFor({
@@ -170,7 +171,7 @@ var assertions = new Opa5({
 
 We have now defined all statements and must now add them to the `OpaConfig` as follows:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 Opa5.extendConfig({
     arrangements : arrangements,
@@ -197,7 +198,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 You can use a UIComponent to run your OPA5 tests. To do this, you have to call the `iStartMyUIComponent` function on the OPA5 instance with an object that contains at least the name of your UIComponent \(see API documentation about **sap/ui/component** for all possible parameters\), for example:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 new Opa5().iStartMyUIComponent({
     componentConfig: {
@@ -209,7 +210,7 @@ new Opa5().iStartMyUIComponent({
 
 Your UIComponent will now run in the same window as your OPA5 Tests. In addition, you can append a new hash value to the browser URL, for example:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 new Opa5().iStartMyUIComponent({
     componentConfig: {
@@ -229,7 +230,7 @@ This is very helpful if you want to start your tests with a specific target.
 > Note:
 > Please note that OPA5 tests can only run for a single UIComponent. You first have to tear down the current UIComponent before starting an OPA5 test for another UIComponent, for example:
 > 
-> ```lang-js
+> ``` js
 > // "Opa5" required from "sap/ui/test/Opa5"
 > new Opa5().iTeardownMyApp();
 > // or
@@ -244,20 +245,20 @@ This is very helpful if you want to start your tests with a specific target.
 
 You can run the app being tested in an iFrame. You can start only one iFrame at a time. An error will be thrown if you try to start an iFrame when one is already launched or if you try to teardown the iFrame before it is started. If an iFrame element is already present on the page, it will be used. The iFrame and test window must be in the same domain. For example, if you have the `test.html` file next to the `index.html` file, you can start your app with the following code:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 Opa5().iStartMyAppInAFrame("index.html?responderOn=true");
 ```
 
 The OPA iFrame launcher overwrites the iFrame's history API so we can later change the iFrame's hash, and pass parameters to the app. In Internet Explorer, the history behaves differently if an iFrame was added with JavaScript, this is why you should add the frame directly to the HTML of your test page:
 
-```lang-js
+``` js
 <iframe id="OpaFrame" src="index.html?responderOn=true" style="width:100%; height:100%"></iframe>
 ```
 
 You can remove the iFrame using one of the following methods:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 new Opa5().iTeardownMyApp();
 // or
@@ -274,7 +275,7 @@ OpenUI5 and OPA code \(for example, autoWaiter, UI5 plugin, QUnitUtils\) is inje
 
 OPA provides several getters that give access to certain properties of the context in which the app is loaded. By default, the getters return the test window's objects but if an iFrame is used, they will return the iFrame's objects. You need to keep the context in mind if you want to manipulate app data in your test:
 
-```lang-js
+``` js
 // "Opa5" required from "sap/ui/test/Opa5"
 
 // returns the body of the app window wrapped in a jQuery object

@@ -1,11 +1,12 @@
+<!-- loiod12d2ee6a5454d799358d425f9e7c4db -->
+
 | loio |
 | -----|
 | d12d2ee6a5454d799358d425f9e7c4db |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d12d2ee6a5454d799358d425f9e7c4db.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)</div>
-<!-- loiod12d2ee6a5454d799358d425f9e7c4db -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)</div>
 
 ## Step 34: Custom Controls
 

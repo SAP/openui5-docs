@@ -1,11 +1,12 @@
+<!-- loioa254991b7bb040059a95b6a7f551ee51 -->
+
 | loio |
 | -----|
 | a254991b7bb040059a95b6a7f551ee51 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a254991b7bb040059a95b6a7f551ee51.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a254991b7bb040059a95b6a7f551ee51) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a254991b7bb040059a95b6a7f551ee51)</div>
-<!-- loioa254991b7bb040059a95b6a7f551ee51 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a254991b7bb040059a95b6a7f551ee51) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a254991b7bb040059a95b6a7f551ee51)</div>
 
 ## Control Structure
 

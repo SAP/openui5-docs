@@ -1,11 +1,12 @@
+<!-- loioe8e5af5b73b04b7bb93d90b90d1fb03f -->
+
 | loio |
 | -----|
 | e8e5af5b73b04b7bb93d90b90d1fb03f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e8e5af5b73b04b7bb93d90b90d1fb03f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e8e5af5b73b04b7bb93d90b90d1fb03f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e8e5af5b73b04b7bb93d90b90d1fb03f)</div>
-<!-- loioe8e5af5b73b04b7bb93d90b90d1fb03f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e8e5af5b73b04b7bb93d90b90d1fb03f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e8e5af5b73b04b7bb93d90b90d1fb03f)</div>
 
 ## Example of a Simple XML Composite Control
 
@@ -18,7 +19,7 @@ This section shows you an example of a simple XML composite control.
 
 Here is an example of a simple XML composite control, with the following JS part:
 
-```lang-js
+``` js
 sap.ui.define([
     'sap/ui/core/XMLComposite'], 
     function( XMLComposite ) {
@@ -36,7 +37,7 @@ sap.ui.define([
 
 And here comes the visual part, the fragment definition XML file:
 
-```lang-xml
+``` xml
 
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
         <m:Text text="{$this>/text}" />
@@ -47,7 +48,7 @@ There is no specific `renderer` method; the rendering is handled generically by 
 
 If you want to use this XML composite control, you can set up a page like this:
 
-```lang-html
+``` html
 
 <!DOCTYPE HTML>
 <html>

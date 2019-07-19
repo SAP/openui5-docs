@@ -1,11 +1,12 @@
+<!-- loioa4afb138acf64a61a038aa5b91a4f082 -->
+
 | loio |
 | -----|
 | a4afb138acf64a61a038aa5b91a4f082 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a4afb138acf64a61a038aa5b91a4f082.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082)</div>
-<!-- loioa4afb138acf64a61a038aa5b91a4f082 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082)</div>
 
 ## App and Nav Container
 

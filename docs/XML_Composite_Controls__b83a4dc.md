@@ -1,11 +1,12 @@
+<!-- loiob83a4dcb7d0e46969027345b8d32fd44 -->
+
 | loio |
 | -----|
 | b83a4dcb7d0e46969027345b8d32fd44 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b83a4dcb7d0e46969027345b8d32fd44.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b83a4dcb7d0e46969027345b8d32fd44) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b83a4dcb7d0e46969027345b8d32fd44)</div>
-<!-- loiob83a4dcb7d0e46969027345b8d32fd44 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b83a4dcb7d0e46969027345b8d32fd44) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b83a4dcb7d0e46969027345b8d32fd44)</div>
 
 ## XML Composite Controls
 

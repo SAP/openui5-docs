@@ -1,11 +1,12 @@
+<!-- loio17b87fbafb5a4474982760d2a3a73e69 -->
+
 | loio |
 | -----|
 | 17b87fbafb5a4474982760d2a3a73e69 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/17b87fbafb5a4474982760d2a3a73e69.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
-<!-- loio17b87fbafb5a4474982760d2a3a73e69 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
 
 ## Step 13: Margins and Paddings
 

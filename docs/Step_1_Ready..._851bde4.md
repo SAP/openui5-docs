@@ -1,11 +1,12 @@
+<!-- loio851bde42e4e1410c96abbe402fa9128c -->
+
 | loio |
 | -----|
 | 851bde42e4e1410c96abbe402fa9128c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/851bde42e4e1410c96abbe402fa9128c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)</div>
-<!-- loio851bde42e4e1410c96abbe402fa9128c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)</div>
 
 ## Step 1: Ready...
 

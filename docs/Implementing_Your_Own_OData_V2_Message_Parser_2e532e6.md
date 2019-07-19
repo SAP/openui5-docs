@@ -1,11 +1,12 @@
+<!-- loio2e532e6288854e5897a819a2ab6cc910 -->
+
 | loio |
 | -----|
 | 2e532e6288854e5897a819a2ab6cc910 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2e532e6288854e5897a819a2ab6cc910.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910)</div>
-<!-- loio2e532e6288854e5897a819a2ab6cc910 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910)</div>
 
 ## Implementing Your Own OData V2 Message Parser
 
@@ -15,7 +16,7 @@ If you have your own service implementation, for example, a JSON-based back end 
 
 The main task of the message parser is to retrieve the messages from the back end response and then calculate the message delta that is handed over to the message processor by means of the two parameters `oldMessages` and `newMessages` of the `messageChange` event. The `oldMessages` parameter specifies the messages that are to be removed, and the `newMessages` parameter specifies the messages that are to be added.
 
-```lang-js
+``` js
 this.getProcessor().fireMessageChange({
     oldMessages: aRemovedMessages,
     newMessages: aNewMessages

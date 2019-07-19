@@ -1,11 +1,12 @@
+<!-- loioca6a310c4b4b401c8ee0545995f2c6fb -->
+
 | loio |
 | -----|
 | ca6a310c4b4b401c8ee0545995f2c6fb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ca6a310c4b4b401c8ee0545995f2c6fb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ca6a310c4b4b401c8ee0545995f2c6fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ca6a310c4b4b401c8ee0545995f2c6fb)</div>
-<!-- loioca6a310c4b4b401c8ee0545995f2c6fb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ca6a310c4b4b401c8ee0545995f2c6fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ca6a310c4b4b401c8ee0545995f2c6fb)</div>
 
 ## List Controls
 
@@ -85,3 +86,4 @@ List controls are used to store entities
 		</tr>
 	</tbody>
 </table>
+

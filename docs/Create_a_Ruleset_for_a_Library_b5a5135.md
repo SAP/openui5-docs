@@ -1,11 +1,12 @@
+<!-- loiob5a51358b3574aea9143fa50ae4e0e2a -->
+
 | loio |
 | -----|
 | b5a51358b3574aea9143fa50ae4e0e2a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b5a51358b3574aea9143fa50ae4e0e2a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b5a51358b3574aea9143fa50ae4e0e2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b5a51358b3574aea9143fa50ae4e0e2a)</div>
-<!-- loiob5a51358b3574aea9143fa50ae4e0e2a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b5a51358b3574aea9143fa50ae4e0e2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b5a51358b3574aea9143fa50ae4e0e2a)</div>
 
 ## Create a Ruleset for a Library
 
@@ -84,7 +85,7 @@ Once you choose the correct location for the `library.support.js`, the next step
 
 Here is an example of how to add and use the `SupportLib`:
 
-```lang-js
+``` js
 sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
   function(jQuery, SupportLib) {
     "use strict";
@@ -144,7 +145,7 @@ This is an example of a `library.support.js` before the split:
 
 ***
 
-```lang-js
+``` js
 sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
   function(jQuery, SupportLib) {
     "use strict";
@@ -172,7 +173,7 @@ In this example there are three rules - one for button and two for label. Splitt
 
     `Button.support.js`:
 
-    ```lang-js
+    ``` js
     sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
       function(jQuery, SupportLib) {
         "use strict";
@@ -185,7 +186,7 @@ In this example there are three rules - one for button and two for label. Splitt
 
     `Label.support.js:`
 
-    ```lang-js
+    ``` js
     sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
       function(jQuery, SupportLib) {
         "use strict";
@@ -205,7 +206,7 @@ In this example there are three rules - one for button and two for label. Splitt
 
 2.  Require the newly created files in `library.support.js`:
 
-    ```lang-js
+    ``` js
     sap.ui.define(["jquery.sap.global", "sap/ui/support/library",
         "./Button.support", "./Label.support"
       ],

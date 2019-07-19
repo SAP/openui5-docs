@@ -1,11 +1,12 @@
+<!-- loio91f0a8dc6f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f0a8dc6f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f0a8dc6f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0a8dc6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0a8dc6f4d1014b6dd926db0e91070)</div>
-<!-- loio91f0a8dc6f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0a8dc6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0a8dc6f4d1014b6dd926db0e91070)</div>
 
 ## Adding Method Implementations
 
@@ -34,7 +35,7 @@ The following method names have a specific meaning and should be used accordingl
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
 > 
-> ```lang-js
+> ``` js
 > 
 > sap.ui.somelib.SomeControl.extend("my.OwnControl", {
 >        ...

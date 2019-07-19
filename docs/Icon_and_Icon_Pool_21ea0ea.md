@@ -1,11 +1,12 @@
+<!-- loio21ea0ea94614480d9a910b2e93431291 -->
+
 | loio |
 | -----|
 | 21ea0ea94614480d9a910b2e93431291 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/21ea0ea94614480d9a910b2e93431291.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291)</div>
-<!-- loio21ea0ea94614480d9a910b2e93431291 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291)</div>
 
 ## Icon and Icon Pool
 
@@ -45,7 +46,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 > Note:
 > The `sap.tnt` library provides an extra icon set. The `sap/tnt/themes/base/fonts` folder contains `SAP-icons-TNT.woff` and `SAP-icons-TNT.woff2` as well as the `SAP-icons-TNT.json` JSON file, which contains the mapping of the icon name and the icon's hex code:
 > 
-> ```lang-js
+> ``` js
 > {
 >   "technicalsystem": "e000",
 >   "systemjava": "e001",
@@ -65,7 +66,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 
 The JSON file has the same name as the `woff` and `woff2` files, so it is not necessary to set `metadataURI`. To register the icon in the `IconPool`, use the following code. Note that in the example the metadata is not loaded until one icon from this icon set is used because `lazy` is set to true.
 
-```lang-js
+``` js
 // "IconPool" required from module "sap/ui/core/IconPool"
 IconPool.registerFont({
     collectionName: "tnt",
@@ -83,7 +84,7 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
 
 -   Call `IconPool.getIconURI` with the `iconName` property:
 
-    ```lang-js
+    ``` js
     
     // "IconPool" required from module "sap/ui/core/IconPool"
     var sURI = IconPool.getIconURI("accidental-leave"); //please change the parameter to the name of your desired icon
@@ -107,7 +108,7 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
 
 The following code snippet shows how the sap.m.Dialog control that already supported image URI has been adapted to also support icon URI. `IconPool.createControlByURI` returns an instance of `Icon` if `sURI` is an icon URI. Otherwise, the second parameter is called as a constructor method to create an instance. The `sURI` is set for the `src` property of the instance.
 
-```lang-js
+``` js
     // "IconPool" required from module "sap/ui/core/IconPool"
     // "Image" required from module "sap/m/Image"
     // "Device" required from module "sap/ui/Device"
@@ -133,7 +134,7 @@ If the `img` tag is rendered directly in the control, and not by creating an ima
 
 Font face is inserted into the style sheet dynamically when `Icon` or `writeIcon` are used for the first time. If the special character needs to be written into the CSS to show the icon in a control, call the `IconPool.insertFontFaceStyle` function to insert the built in font face in your CSS. This is shown in the following code snippet:
 
-```lang-js
+``` js
 
     // "IconPool" required from module "sap/ui/core/IconPool"
     IconPool.insertFontFaceStyle();

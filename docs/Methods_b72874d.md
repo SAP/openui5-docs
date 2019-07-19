@@ -1,11 +1,12 @@
+<!-- loiob72874dbc4ef41c0ba75a1ae523d795c -->
+
 | loio |
 | -----|
 | b72874dbc4ef41c0ba75a1ae523d795c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b72874dbc4ef41c0ba75a1ae523d795c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b72874dbc4ef41c0ba75a1ae523d795c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b72874dbc4ef41c0ba75a1ae523d795c)</div>
-<!-- loiob72874dbc4ef41c0ba75a1ae523d795c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b72874dbc4ef41c0ba75a1ae523d795c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b72874dbc4ef41c0ba75a1ae523d795c)</div>
 
 ## Methods
 
@@ -16,7 +17,7 @@ view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad
 
 The following example shows a delete scenario:
 
-```lang-js
+``` js
 
 tap : function(e) {
    var oList = this.getView().byId("myList"); // get the list using its Id

@@ -1,11 +1,12 @@
+<!-- loiocd80a8bca4ac450b86547d78f0653330 -->
+
 | loio |
 | -----|
 | cd80a8bca4ac450b86547d78f0653330 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cd80a8bca4ac450b86547d78f0653330.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330)</div>
-<!-- loiocd80a8bca4ac450b86547d78f0653330 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330)</div>
 
 ## PDF Viewer
 

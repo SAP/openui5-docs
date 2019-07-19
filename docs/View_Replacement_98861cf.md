@@ -1,11 +1,12 @@
+<!-- loio98861cf90b874e3394b666cfb347ff0b -->
+
 | loio |
 | -----|
 | 98861cf90b874e3394b666cfb347ff0b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/98861cf90b874e3394b666cfb347ff0b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/98861cf90b874e3394b666cfb347ff0b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/98861cf90b874e3394b666cfb347ff0b)</div>
-<!-- loio98861cf90b874e3394b666cfb347ff0b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/98861cf90b874e3394b666cfb347ff0b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/98861cf90b874e3394b666cfb347ff0b)</div>
 
 ## View Replacement
 
@@ -15,7 +16,7 @@ If the extension points provided for view extension are not sufficient to meet t
 
 The following view is delivered in the standard application:
 
-```lang-js
+``` js
 
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <TextView text="SAP View 'Sub1' - this one should have been replaced by the customer View"></TextView>  
@@ -25,7 +26,7 @@ The following view is delivered in the standard application:
 
 This is the custom view to replace the standard view:
 
-```lang-js
+``` js
 
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <TextView text="Custom View 'Sub1' - this one replaces the original SAP View 'Sub1'"></TextView>    
@@ -34,7 +35,7 @@ This is the custom view to replace the standard view:
 
 The following extension replaces the custom view with the view in the standard application
 
-```lang-js
+``` js
 
 extensions: {
     .....some more content

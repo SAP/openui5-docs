@@ -1,11 +1,12 @@
+<!-- loio777168ffe8324873973151dae2356d1c -->
+
 | loio |
 | -----|
 | 777168ffe8324873973151dae2356d1c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/777168ffe8324873973151dae2356d1c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c)</div>
-<!-- loio777168ffe8324873973151dae2356d1c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c)</div>
 
 ## Using Predefined CSS Margin Classes
 
@@ -83,16 +84,17 @@ If your application is supposed to run on smartphone, tablet and desktop, it may
 
 ![](loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png) 
 			</td>
-```
-<Panel *HIGHLIGHT START*width="auto"*HIGHLIGHT END* class="sapUiLargeMarginBegin
-      sapUiLargeMarginBottom">
-```
+		</tr>
+		<tr>
+			<td>Larger than 1023px \(large desktops\): For these, **sapUiResponsiveMargin** will provide 16px \(1 rem\) top and bottom margin as well as a 32px \(2 rem\) left and right margin, as shown in the screenshot.</td>
+			<td>  
 
 ![](loiof76b0b343adf440684fcd968861fba01_LowRes.png) 
 			</td>
 		</tr>
 	</tbody>
 </table>
+
 The following exceptions to these rules exist:
 
 -   When your **sapUiResponsiveMargin** control is placed within a **sap.m.SplitApp** master view, it will always be provided with a 16px bottom margin and nothing else. Here, the thresholds mentioned above do not affect your control.
@@ -105,7 +107,7 @@ The following exceptions to these rules exist:
 When applying classes with horizontal margins to a control, such as **sapUiSmallMargin** or **sapUiSmallMarginBegin**, for example, make sure that your control does not have a 100% width. If your control has a **width** property \(which most controls have\), set the width value to **auto**, for example:
 
 ```
-<Panel **width="auto"** class="sapUiLargeMarginBegin
+<Panel *HIGHLIGHT START*width="auto"*HIGHLIGHT END* class="sapUiLargeMarginBegin
       sapUiLargeMarginBottom">
 ```
 
@@ -117,7 +119,7 @@ If your control does **not** have a **width** property but still has a default w
 
 To apply the classes described here in your code, simply add a **class** attribute and the margin class to the respective control tag in your declarative xml views. If you need to add several classes at once \(which may be the case if you are using single-sided margins\), separate them by a space. Here’s a sample snippet containing a panel and an **IconTabBar**:
 
-```lang-xml
+``` xml
 
 <mvc:View
       height="100%"

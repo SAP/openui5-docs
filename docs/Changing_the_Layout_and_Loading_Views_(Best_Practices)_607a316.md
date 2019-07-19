@@ -1,11 +1,12 @@
+<!-- loio607a316ea4cd47c893d69ef111428e9d -->
+
 | loio |
 | -----|
 | 607a316ea4cd47c893d69ef111428e9d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/607a316ea4cd47c893d69ef111428e9d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/607a316ea4cd47c893d69ef111428e9d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/607a316ea4cd47c893d69ef111428e9d)</div>
-<!-- loio607a316ea4cd47c893d69ef111428e9d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/607a316ea4cd47c893d69ef111428e9d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/607a316ea4cd47c893d69ef111428e9d)</div>
 
 ## Changing the Layout and Loading Views \(Best Practices\)
 

@@ -1,11 +1,12 @@
+<!-- loio1ab4f62de6ab467096a2a98b363a1373 -->
+
 | loio |
 | -----|
 | 1ab4f62de6ab467096a2a98b363a1373 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1ab4f62de6ab467096a2a98b363a1373.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ab4f62de6ab467096a2a98b363a1373) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ab4f62de6ab467096a2a98b363a1373)</div>
-<!-- loio1ab4f62de6ab467096a2a98b363a1373 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ab4f62de6ab467096a2a98b363a1373) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ab4f62de6ab467096a2a98b363a1373)</div>
 
 ## Parameters
 
@@ -44,7 +45,7 @@ The query option `$count` must be specified as a boolean value with `true` or `f
 
 **Example: Binding with parameters in JavaScript**
 
-```lang-js
+``` js
 
 oView.byId("SalesOrderTable").bindItems({
     path : "/SalesOrderList",
@@ -65,7 +66,7 @@ oView.byId("SalesOrderTable").bindItems({
 
 **Example: Binding with parameters in an XML view \(`$select` and `$expand` values as string\)**
 
-```lang-js
+``` js
 
 <Table growing="true" growingThreshold="5" id="SalesOrders"
     items="{
@@ -82,7 +83,7 @@ oView.byId("SalesOrderTable").bindItems({
 
 **Example: Binding with parameters in an XML view \(`$select` and `$expand` values as object\)**
 
-```lang-js
+``` js
 
 <Table growing="true" growingThreshold="5" id="SalesOrders"
     items="{
@@ -109,7 +110,7 @@ The parameters are changed according to the given map of parameters: Parameters 
 
 **Example: Change binding parameters in JavaScript**
 
-```lang-js
+``` js
 
 oView.byId("SalesOrderTable").getBinding("items").changeParameters({
     "$search" : '"mountain bike"',

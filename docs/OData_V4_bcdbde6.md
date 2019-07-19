@@ -1,11 +1,12 @@
+<!-- loiobcdbde6911bd4fc68fd435cf8e306ed0 -->
+
 | loio |
 | -----|
 | bcdbde6911bd4fc68fd435cf8e306ed0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/bcdbde6911bd4fc68fd435cf8e306ed0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0)</div>
-<!-- loiobcdbde6911bd4fc68fd435cf8e306ed0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0)</div>
 
 ## OData V4
 

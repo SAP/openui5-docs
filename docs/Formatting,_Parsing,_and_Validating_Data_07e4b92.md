@@ -1,11 +1,12 @@
+<!-- loio07e4b920f5734fd78fdaa236f26236d8 -->
+
 | loio |
 | -----|
 | 07e4b920f5734fd78fdaa236f26236d8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/07e4b920f5734fd78fdaa236f26236d8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
-<!-- loio07e4b920f5734fd78fdaa236f26236d8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
 
 ## Formatting, Parsing, and Validating Data
 
@@ -39,7 +40,7 @@ If an error occurs during formatting or parsing, the following exception occurs:
 
 A simple formatter can be defined directly in the controller. For example, you can format name data with the first letter in upper case:
 
-```lang-js
+``` js
 myFormatter: function(sName) {
     return sName.charAt(0).toUpperCase() + sName.slice(1);
 }

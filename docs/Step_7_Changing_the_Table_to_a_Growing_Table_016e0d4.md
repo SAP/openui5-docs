@@ -1,11 +1,12 @@
+<!-- loio016e0d44f8ff47d2bdf4fdad9b7bf7cd -->
+
 | loio |
 | -----|
 | 016e0d44f8ff47d2bdf4fdad9b7bf7cd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/016e0d44f8ff47d2bdf4fdad9b7bf7cd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd)</div>
-<!-- loio016e0d44f8ff47d2bdf4fdad9b7bf7cd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd)</div>
 
 ## Step 7: Changing the Table to a Growing Table
 

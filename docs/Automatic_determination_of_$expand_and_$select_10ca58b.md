@@ -1,11 +1,12 @@
+<!-- loio10ca58b701414f7f93cd97156f898f80 -->
+
 | loio |
 | -----|
 | 10ca58b701414f7f93cd97156f898f80 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/10ca58b701414f7f93cd97156f898f80.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80)</div>
-<!-- loio10ca58b701414f7f93cd97156f898f80 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80)</div>
 
 ## Automatic determination of $expand and $select
 
@@ -33,7 +34,7 @@ The list binding for the table in the following sample leads to the following re
 
 `SalesOrderList?$select=BuyerName,LifecycleStatus,Note,SalesOrderID&$expand=SO_2_BP($select=BusinessPartnerID,CompanyName)`
 
-```lang-xml
+``` xml
 <Table items="{/SalesOrderList}"
   ...
   <items>

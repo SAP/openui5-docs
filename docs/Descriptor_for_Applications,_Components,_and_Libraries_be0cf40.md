@@ -1,11 +1,12 @@
+<!-- loiobe0cf40f61184b358b5faedaec98b2da -->
+
 | loio |
 | -----|
 | be0cf40f61184b358b5faedaec98b2da |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/be0cf40f61184b358b5faedaec98b2da.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da)</div>
-<!-- loiobe0cf40f61184b358b5faedaec98b2da -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da)</div>
 
 ## Descriptor for Applications, Components, and Libraries
 
@@ -55,7 +56,7 @@ The `manifest` option allows to configure when and from where the descriptor is 
 
 -   Default, equivalent to setting `manifest` to `true`.
 
-    ```lang-js
+    ``` js
     // "Component" required from module "sap/ui/core/Component"
     // load manifest.json from default location and evaluate it before creating an instance of the component 
     Component.create({
@@ -65,7 +66,7 @@ The `manifest` option allows to configure when and from where the descriptor is 
 
 -   Specify an alternative URL as parameter for `manifest` for the component factory function:
 
-    ```lang-js
+    ``` js
     // "Component" required from module "sap/ui/core/Component"
     // load via manifest URL
     Component.create({
@@ -76,7 +77,7 @@ The `manifest` option allows to configure when and from where the descriptor is 
 
 -   Suppress loading the manifest by setting the `manifest` flag to `false`, for example, when a legacy component does not have one:
 
-    ```lang-js
+    ``` js
     // "Component" required from module "sap/ui/core/Component"
     // load component without loading a manifest first
     Component.create({
@@ -318,6 +319,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### `sap.ui`
@@ -371,6 +373,7 @@ Attributes in the mandatory `sap.ui` namespace <a name="loiobe0cf40f61184b358b5f
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### `sap.ui5`
@@ -510,6 +513,7 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### `sap.platform.abap`
@@ -978,7 +982,7 @@ The following namespaces are in responsibility of the corresponding teams:
 
 The component declares the existence of the application descriptor by specifying `manifest: "json"` in the component metadata. Setting this flag makes the component load the `manifest.json` file and read the relevant entries for OpenUI5. This metadata is used to define the dependencies that need to be loaded in order to start the component. The following code snippet shows how to add the manifest link:
 
-```lang-js
+``` js
 sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 	
 	return UIComponent.extend("sap.samples.Component", {
@@ -996,7 +1000,7 @@ sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 
 At runtime, the `manifest.json` content can be accessed from the component via the component metadata:
 
-```lang-js
+``` js
 // get the component class
 sap.ui.require(['sap/samples/Component'], function(SampleComponent) {
 

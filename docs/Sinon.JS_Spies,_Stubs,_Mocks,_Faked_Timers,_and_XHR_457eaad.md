@@ -1,11 +1,12 @@
+<!-- loio457eaada68a24187858fd5e8b21a4892 -->
+
 | loio |
 | -----|
 | 457eaada68a24187858fd5e8b21a4892 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/457eaada68a24187858fd5e8b21a4892.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892)</div>
-<!-- loio457eaada68a24187858fd5e8b21a4892 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892)</div>
 
 ## Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR
 
@@ -13,7 +14,7 @@ By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers
 
 All you have to do is add a sinon section to the test suite configuration as shown below:
 
-```lang-js
+``` js
 sap.ui.define(function() {
 	"use strict";
  
@@ -42,7 +43,7 @@ The following examples show you the basic way in which Sinon.JS can be used. The
 
 A simple spy test:
 
-```lang-js
+``` js
 /*global QUnit sinon */
 sap.ui.define(["sap/m/Button"], function(Button) {
 	 "use strict";
@@ -63,7 +64,7 @@ sap.ui.define(["sap/m/Button"], function(Button) {
 
 A simple stub test:
 
-```lang-js
+``` js
 /*global QUnit sinon */
 sap.ui.define([], function() {
  	"use strict";
@@ -83,7 +84,7 @@ sap.ui.define([], function() {
 
 A simple mock test:
 
-```lang-js
+``` js
 /*global QUnit sinon */
 sap.ui.define([], function() {
 	 "use strict";
@@ -106,7 +107,7 @@ sap.ui.define([], function() {
 
 A simple faked timer test:
 
-```lang-js
+``` js
 /*global QUnit sinon */
 sap.ui.define([], function() {
  	"use strict";
@@ -125,7 +126,7 @@ sap.ui.define([], function() {
 
 A simple faked XHR test:
 
-```lang-js
+``` js
 /*global QUnit sinon */
 sap.ui.define([], function() {
 	"use strict";

@@ -1,11 +1,12 @@
+<!-- loio1dfab2e19fc0479d9dfcefc28d3642f1 -->
+
 | loio |
 | -----|
 | 1dfab2e19fc0479d9dfcefc28d3642f1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1dfab2e19fc0479d9dfcefc28d3642f1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1dfab2e19fc0479d9dfcefc28d3642f1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1dfab2e19fc0479d9dfcefc28d3642f1)</div>
-<!-- loio1dfab2e19fc0479d9dfcefc28d3642f1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1dfab2e19fc0479d9dfcefc28d3642f1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1dfab2e19fc0479d9dfcefc28d3642f1)</div>
 
 ## Multiple Module Locations
 
@@ -25,7 +26,7 @@ sap.ui.loader.config({
 
 Thus, it is possible to redirect the request for the application-specific modules to the corresponding web application:
 
-```lang-js
+``` js
 			
 	<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js" ></script>
 

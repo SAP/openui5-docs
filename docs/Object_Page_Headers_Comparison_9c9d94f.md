@@ -1,11 +1,12 @@
+<!-- loio9c9d94fd28284539a9a5a57e9caf82a8 -->
+
 | loio |
 | -----|
 | 9c9d94fd28284539a9a5a57e9caf82a8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9c9d94fd28284539a9a5a57e9caf82a8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8)</div>
-<!-- loio9c9d94fd28284539a9a5a57e9caf82a8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8)</div>
 
 ## Object Page Headers Comparison
 

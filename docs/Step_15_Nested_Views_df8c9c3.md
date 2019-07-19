@@ -1,11 +1,12 @@
+<!-- loiodf8c9c3d79b54c928855162bafcd88ee -->
+
 | loio |
 | -----|
 | df8c9c3d79b54c928855162bafcd88ee |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/df8c9c3d79b54c928855162bafcd88ee.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
-<!-- loiodf8c9c3d79b54c928855162bafcd88ee -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
 
 ## Step 15: Nested Views
 
@@ -112,7 +113,7 @@ To have a reusable asset, the method `onShowHello` is also moved from the app co
 
 ### webapp/controller/App.controller.js
 
-```lang-js
+``` js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {

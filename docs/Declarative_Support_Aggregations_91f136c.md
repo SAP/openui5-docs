@@ -1,11 +1,12 @@
+<!-- loio91f136c76f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f136c76f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f136c76f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f136c76f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f136c76f4d1014b6dd926db0e91070)</div>
-<!-- loio91f136c76f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f136c76f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f136c76f4d1014b6dd926db0e91070)</div>
 
 ## Declarative Support: Aggregations
 
@@ -13,7 +14,7 @@ Aggregation support is required to allow nested controls for layout containers a
 
 OpenUI5 uses the control's default aggregation as default. If, for example, the panel control has the default aggregation content, all child elements of the `data-sap-ui-type="sap.ui.commons.Panel"` element are added to this aggregation:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.Panel">
     <div data-sap-ui-type="sap.ui.commons.Button" data-text="My Button 1"></div>
@@ -27,7 +28,7 @@ The markup in the example above generates an instance of the `sap.ui.commons.Pan
 
 You can also explicitly declare an aggregation. In general, an explicit aggregation is expressed with a meta HTML tag between the parent controls HTML tag and the HTML tags of the children. The following code adds four buttons explicitly to the "content" aggregation of the declared panel:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.Panel">
   <div data-sap-ui-aggregation="content">
@@ -41,7 +42,7 @@ You can also explicitly declare an aggregation. In general, an explicit aggregat
 
 For aggregations with the cardinality "0..1" the `"data-sap-ui-aggregation"` attribute can be written directly to the control tag:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.Panel">
   <div data-sap-ui-aggregation="title" div data-sap-ui-type="sap.ui.commons.Title" data-text="My Panel"></div>
@@ -56,7 +57,7 @@ data-sap-ui-default-aggregation="title"
 
 With this, all children which are not included in the `data-sap-ui-aggregation` meta tag are added to the default aggregation. This is shown in the following example:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.Panel" data-sap-ui-default-aggregation="title">
   <div data-sap-ui-type="sap.ui.commons.Title" text="My Panel"></div>
@@ -69,7 +70,7 @@ With this, all children which are not included in the `data-sap-ui-aggregation` 
 
 You can now apply this to the `MatrixLayout` as follows:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.layout.MatrixLayout" data-layout-fixed="false">
   <div data-sap-ui-type="sap.ui.commons.layout.MatrixLayoutRow">
@@ -85,7 +86,7 @@ You can now apply this to the `MatrixLayout` as follows:
 
 Or you can add `ListItems` to a `ComboBox`:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.ui.commons.ComboBox" data-value="Item 1">
   <div data-sap-ui-type="sap.ui.core.ListItem" data-text="Item 1"></div>

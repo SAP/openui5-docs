@@ -1,11 +1,12 @@
+<!-- loio491bd9c70b9f4c4d913c8c7b4a970833 -->
+
 | loio |
 | -----|
 | 491bd9c70b9f4c4d913c8c7b4a970833 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/491bd9c70b9f4c4d913c8c7b4a970833.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
-<!-- loio491bd9c70b9f4c4d913c8c7b4a970833 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
 
 ## Legacy Factories Replacement
 
@@ -352,3 +353,4 @@ sap.ui.require(['sap/ui/core/VersionInfo'], function(VersionInfo){
 		</tr>
 	</tbody>
 </table>
+

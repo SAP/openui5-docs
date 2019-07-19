@@ -1,11 +1,12 @@
+<!-- loiod12024e38385472a89c1ad204e1edb48 -->
+
 | loio |
 | -----|
 | d12024e38385472a89c1ad204e1edb48 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d12024e38385472a89c1ad204e1edb48.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d12024e38385472a89c1ad204e1edb48) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d12024e38385472a89c1ad204e1edb48)</div>
-<!-- loiod12024e38385472a89c1ad204e1edb48 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d12024e38385472a89c1ad204e1edb48) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d12024e38385472a89c1ad204e1edb48)</div>
 
 ## Loading a Module
 
@@ -23,7 +24,7 @@ If the arguments of the `sap.ui.require` call consist of an array of one or more
 
 The corresponding modules are loaded and the callback function is called asynchronously once all required modules are loaded.
 
-```lang-js
+``` js
 // the callback function will be executed once the JSONModel, and the UIComponent modules are loaded
 sap.ui.require(['sap/ui/model/json/JSONModel', 'sap/ui/core/UIComponent'], function(JSONModel, UIComponent) {
  
@@ -51,7 +52,7 @@ If the module is not yet loaded or it is not a OpenUI5 module \(third-party modu
 
 By using `sap.ui.require`, you can synchronously access modules without triggering a loading request in case the module is not present.
 
-```lang-js
+``` js
 // If JSONModel class is loaded, it is returned. If the module is not loaded yet, there will be no additional loading request.
 // The variable JSONModel might be undefined after making this call.
 var JSONModel = sap.ui.require("sap/ui/model/json/JSONModel");
@@ -91,7 +92,7 @@ The `sap.ui.require` function can not only be used to load modules, but also to 
 
 The return value of the following function call is either a reference on the already loaded module or `undefined`. If `undefined` is returned, the module was not loaded yet and the `sap.ui.require` call without a callback function will not trigger a load.
 
-```lang-js
+``` js
 var ModuleInQuestion = sap.ui.require("name/of/module/in/Question");
 ```
 
@@ -103,7 +104,7 @@ var ModuleInQuestion = sap.ui.require("name/of/module/in/Question");
 
 Since the above `sap.ui.require` call retrieves a module reference, you can use the reference not only to instantiate instances of classes but also to perform JavaScript instanceof checks.
 
-```lang-js
+``` js
 sap.ui.define(['sap/ui/core/mvc/View', 'sap/ui/core/Fragment'], function(View, Fragment) {
     ...
     if (oControl instanceof View) {
@@ -124,7 +125,7 @@ To perform an `instanceof` check, the respective class does not need to be loade
 
 The `lazyInstanceOf` convenience function makes sure that the `instanceof` check is performed against a function and not `undefined`, in case the module or class was not loaded yet.
 
-```lang-js
+``` js
 
 function lazyInstanceof(obj, module) {
     var FNClass = sap.ui.require(module);

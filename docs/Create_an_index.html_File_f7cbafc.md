@@ -1,11 +1,12 @@
+<!-- loiof7cbafc9a76140ec8fc55b51a63cf467 -->
+
 | loio |
 | -----|
 | f7cbafc9a76140ec8fc55b51a63cf467 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f7cbafc9a76140ec8fc55b51a63cf467.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
-<!-- loiof7cbafc9a76140ec8fc55b51a63cf467 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
 
 ## Create an index.html File
 
@@ -17,7 +18,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 
     **index.html**
 
-    ```lang-html
+    ``` html
     <!DOCTYPE html>
     <html>
     	<head>
@@ -44,7 +45,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 
     **main.js**
 
-    ```lang-js
+    ``` js
     sap.ui.define(['sap/m/Text'], function(Text) {
         new Text({
             text: "OpenUI5 is loaded successfully!"

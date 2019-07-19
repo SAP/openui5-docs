@@ -1,11 +1,12 @@
+<!-- loio3a9babace121497abea8f0ea66e156d9 -->
+
 | loio |
 | -----|
 | 3a9babace121497abea8f0ea66e156d9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3a9babace121497abea8f0ea66e156d9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9)</div>
-<!-- loio3a9babace121497abea8f0ea66e156d9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9)</div>
 
 ## Creating a Descriptor File for Existing Apps
 
@@ -141,7 +142,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     If applicable, replace the `<start_url>` placeholder with the start URL of your app, for example `index.html`. If no start URL is shipped, remove the `"start_url"` section in the `manifest.json` file.
 
-    ```lang-js
+    ``` js
     {
         "start_url": "index.html",
         ...
@@ -157,7 +158,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     To fill the ID and version information, open the `Component.js` file of your app and add the ID / namespace and version information:
 
-    ```lang-js
+    ``` js
     
     jQuery.sap.declare\("cust.emp.myleaverequests.Component"\);
     ... 
@@ -175,7 +176,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `sap.app/id` and `sap.app/applicationVersion/version` in the `manifest.json` file**:
 
-    ```lang-js
+    ``` js
     "sap.app": {
         "_version": "1.1.0",
         ...
@@ -191,7 +192,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     You find the respective information in the `Component.js` file under `resourceBundle` for the `i18n` attribute, and under `titleResource` for the `title` attribute:
 
-    ```lang-js
+    ``` js
     "config" : {
         "titleResource": "app.Identity",
         "resourceBundle": "i18n/i18n.properties",
@@ -206,7 +207,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `sap.app/i18n` and `sap.app/title` in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.app": {
         "_version": "1.1.0",
         ...
@@ -222,7 +223,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `sap.app/tags/keywords` in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.app": {
         "_version": "1.1.0",
         ... 
@@ -240,7 +241,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Open the `Component.js` file of your app to see the data source under `serviceUrl`, see the following example for `name`, `serviceUrl` and mock data URL in `Component.js`:
 
-        ```lang-js
+        ``` js
         metadata : {
             ...
             "config" : {
@@ -267,7 +268,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `dataSources` with alias and URI in the `sap.app` namespace of the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.app": {
         "_version": "1.1.0",
         ...       
@@ -287,7 +288,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `icons` in the `Component.js` file:**
 
-    ```lang-js
+    ``` js
     "config" : {
         ...
         "icon": "sap-icon://Fiori2/F0394",
@@ -309,7 +310,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `icons` in the `sap.ui` namespace of the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui": {
         "_version": "1.1.0",
         ...
@@ -331,7 +332,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `deviceTypes` and `supportedThemes` in the `sap.ui` namespace in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui": {
         "_version": "1.1.0",
         ...       
@@ -352,7 +353,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `includes` in the `Component.js` file**
 
-    ```lang-js
+    ``` js
     "includes": ["css/shopStyles.css", "myfile.js"],
     ```
 
@@ -369,7 +370,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `resources` attribute in the `sap.ui` namespace in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...
@@ -395,7 +396,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `dependencies` in the `Component.js` file**
 
-    ```lang-js
+    ``` js
     "dependencies": {
         "libs": [
             "sap.m",
@@ -414,7 +415,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `dependencies` in the `sap.ui5` namespace in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...
@@ -444,7 +445,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `model` creation in `Component.js`:**
 
-    ```lang-js
+    ``` js
     init : function() {
         ...
         // set i18n model
@@ -470,7 +471,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: Models in the `sap.ui5` namespace in the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...
@@ -493,7 +494,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `rootView`, `handleValidation`, `config`, `routing` in `sap.ui5` namespace of the `manifest.json` file:**
 
-    ```lang-js
+    ``` js
         ...
         "rootView": "myRootView",
         "handleValidation": true,
@@ -511,7 +512,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `rootView`, `handleValidation`, `config` and `routing` in the `sap.ui5` namespace of the `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...
@@ -531,7 +532,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     Open the `Component.js` file of your app to see the component which your app extends:
 
-    ```lang-js
+    ``` js
     
     hcm.emp.myleaverequests.Component.extend\("cust.emp.myleaverequests.Component", \{
     ```
@@ -540,7 +541,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `extends/component` in `sap.ui5` namespace in `manifest.json` file**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...
@@ -558,7 +559,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `contentDensities` in `sap.ui5` namespace of the `manifest.json` file:**
 
-    ```lang-js
+    ``` js
     "sap.ui5": {
         "_version": "1.1.0",
         ...       
@@ -581,7 +582,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `Component.js` before making changes**
 
-    ```lang-js
+    ``` js
     
     jQuery.sap.declare\("cust.emp.myleaverequests.Component"\);
     
@@ -647,7 +648,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `Component.js` after making changes**
 
-    ```lang-js
+    ``` js
     
     jQuery.sap.declare\("cust.emp.myleaverequests.Component"\);
     //jQuery.sap.require\("cust.emp.myleaverequests.Configuration"\);
@@ -665,7 +666,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: Data source reference in `Component.js` file before making changes**
 
-    ```lang-js
+    ``` js
     metadata : {
         ...
         "config" : {
@@ -695,7 +696,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: Data source reference in `Component.js` file after making changes**
 
-    ```lang-js
+    ``` js
     metadata : {
         "manifest": "json",
         ...           
@@ -711,7 +712,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     **Example: `Component.js` file before making changes**
 
-    ```lang-js
+    ``` js
     init : function() {
         ...
         // set i18n model

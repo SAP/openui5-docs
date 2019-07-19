@@ -1,11 +1,12 @@
+<!-- loio89de2f43b91d470daa8121a0b4ba35cc -->
+
 | loio |
 | -----|
 | 89de2f43b91d470daa8121a0b4ba35cc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/89de2f43b91d470daa8121a0b4ba35cc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/89de2f43b91d470daa8121a0b4ba35cc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/89de2f43b91d470daa8121a0b4ba35cc)</div>
-<!-- loio89de2f43b91d470daa8121a0b4ba35cc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/89de2f43b91d470daa8121a0b4ba35cc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/89de2f43b91d470daa8121a0b4ba35cc)</div>
 
 ## Navigation
 
@@ -23,7 +24,7 @@ The two main views *Master* and *Object* each have a route and two targets confi
 
 Here is a sample implementation for navigating from the *Master* to the *Object* page. The below**\_showDetail** method is called by the **selectionChange** event handler of the **sap.m.List** control. We need to change the layout parameter of the **sap.f.FlexibleColumnLayout** to **TwoColumnsMidExpanded** and navigate to the **object** route. Then, we extract the current ID of the object pressed by using its binding context. We supply this parameter to the mandatory **objectId** parameter and pass it to the **navTo** function, as described in the [sap.ui.core.routing.Routing\#navTo](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router/methods/navTo) section of the *API Reference* in the Demo Kit and shown here:
 
-```lang-js
+``` js
 ...
 /**
   * Shows the selected item on the detail page
@@ -77,7 +78,7 @@ If you have the following URL, no route will match: `index.html/#/thisIsInvalid`
 
 The code sample below shows the relevant parts of the configuration. In addition, we set the layout property for the **sap.f.FlexibleColumnLayout** to **OneColumn** in the controller of the *notFound* page so that only a single column is displayed in this case. For a full implementation of a *not found* page, see [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md).
 
-```lang-js
+``` js
 "routing": {
     "config": {
     …
@@ -102,7 +103,7 @@ The code sample below shows the relevant parts of the configuration. In addition
 
 If the object route matches – an ID is passed \(for example `#/Objects/1337`\) but the back end does not contain an object with the ID `1337`, then you need to display the *detailObjectNotFound* page. This is achieved by listening to the “change” event of a binding. Inside this, you check if there is no data and tell the router to display the *detailObjectNotFound* target, as shown in the sample code below:
 
-```lang-js
+``` js
 // inside of a controller
 this.getView().bindElement({
     path: "/Objects/1337",

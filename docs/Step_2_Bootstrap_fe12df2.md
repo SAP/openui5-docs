@@ -1,11 +1,12 @@
+<!-- loiofe12df2e338e43598977d09f3d191b7b -->
+
 | loio |
 | -----|
 | fe12df2e338e43598977d09f3d191b7b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fe12df2e338e43598977d09f3d191b7b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b)</div>
-<!-- loiofe12df2e338e43598977d09f3d191b7b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b)</div>
 
 ## Step 2: Bootstrap
 
@@ -93,7 +94,7 @@ In this step, we load the OpenUI5 framework from our local webserver and initial
 
 ### webapp/index.js \(New\)
 
-```lang-js
+``` js
 sap.ui.define([
 
 ], function () {

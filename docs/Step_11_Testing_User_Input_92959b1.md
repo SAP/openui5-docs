@@ -1,11 +1,12 @@
+<!-- loio92959b10ecf14582b65eaadb40571156 -->
+
 | loio |
 | -----|
 | 92959b10ecf14582b65eaadb40571156 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/92959b10ecf14582b65eaadb40571156.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156)</div>
-<!-- loio92959b10ecf14582b65eaadb40571156 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156)</div>
 
 ## Step 11: Testing User Input
 

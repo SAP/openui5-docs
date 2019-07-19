@@ -1,11 +1,12 @@
+<!-- loiof5e4fe68e6ea4774b049962498f0e101 -->
+
 | loio |
 | -----|
 | f5e4fe68e6ea4774b049962498f0e101 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f5e4fe68e6ea4774b049962498f0e101.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5e4fe68e6ea4774b049962498f0e101) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5e4fe68e6ea4774b049962498f0e101)</div>
-<!-- loiof5e4fe68e6ea4774b049962498f0e101 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5e4fe68e6ea4774b049962498f0e101) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5e4fe68e6ea4774b049962498f0e101)</div>
 
 ## Test a Rule
 

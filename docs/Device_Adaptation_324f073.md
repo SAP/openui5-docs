@@ -1,11 +1,12 @@
+<!-- loio324f0734dd3e467f874328f40353bfa5 -->
+
 | loio |
 | -----|
 | 324f0734dd3e467f874328f40353bfa5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/324f0734dd3e467f874328f40353bfa5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/324f0734dd3e467f874328f40353bfa5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/324f0734dd3e467f874328f40353bfa5)</div>
-<!-- loio324f0734dd3e467f874328f40353bfa5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/324f0734dd3e467f874328f40353bfa5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/324f0734dd3e467f874328f40353bfa5)</div>
 
 ## Device Adaptation
 

@@ -1,11 +1,12 @@
+<!-- loioa3ab54ecf7ac493b91904beb2095d208 -->
+
 | loio |
 | -----|
 | a3ab54ecf7ac493b91904beb2095d208 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a3ab54ecf7ac493b91904beb2095d208.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208)</div>
-<!-- loioa3ab54ecf7ac493b91904beb2095d208 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208)</div>
 
 ## Demo Apps
 

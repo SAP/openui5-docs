@@ -1,11 +1,12 @@
+<!-- loiodf86bfbeab0645e5b764ffa488ed57dc -->
+
 | loio |
 | -----|
 | df86bfbeab0645e5b764ffa488ed57dc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/df86bfbeab0645e5b764ffa488ed57dc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
-<!-- loiodf86bfbeab0645e5b764ffa488ed57dc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
 
 ## Step 8: Translatable Texts
 

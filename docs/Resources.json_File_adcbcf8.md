@@ -1,11 +1,12 @@
+<!-- loioadcbcf8b50924556ab3f321fcd9353ea -->
+
 | loio |
 | -----|
 | adcbcf8b50924556ab3f321fcd9353ea |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/adcbcf8b50924556ab3f321fcd9353ea.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea)</div>
-<!-- loioadcbcf8b50924556ab3f321fcd9353ea -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea)</div>
 
 ## Resources.json File
 
@@ -31,7 +32,7 @@ The list of resources is stored in an array in the `resources` property of the t
 
 ***
 
-```lang-js
+``` js
 
 {
     "resources":[

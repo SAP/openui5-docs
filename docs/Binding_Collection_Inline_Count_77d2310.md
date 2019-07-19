@@ -1,11 +1,12 @@
+<!-- loio77d2310b637b490495d78b393ed6aa64 -->
+
 | loio |
 | -----|
 | 77d2310b637b490495d78b393ed6aa64 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/77d2310b637b490495d78b393ed6aa64.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64)</div>
-<!-- loio77d2310b637b490495d78b393ed6aa64 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64)</div>
 
 ## Binding Collection Inline Count
 
@@ -13,7 +14,7 @@ The OData V4 model allows for binding the inline count of the entity collection 
 
 **Example: Table with title bound to `$count`**
 
-```lang-js
+``` js
 
 <Table id="SalesOrders"
     items="{
@@ -38,7 +39,7 @@ The `ODataListBinding` provides a header context which holds header information 
 
 **Example: Setting the header context for a property binding to $count**
 
-```lang-js
+``` js
 
 setHeaderContext : function () {
     var oView = this.getView();

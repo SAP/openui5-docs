@@ -1,11 +1,12 @@
+<!-- loioe6cd5476193f48d1a273de990276c9bc -->
+
 | loio |
 | -----|
 | e6cd5476193f48d1a273de990276c9bc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e6cd5476193f48d1a273de990276c9bc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e6cd5476193f48d1a273de990276c9bc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e6cd5476193f48d1a273de990276c9bc)</div>
-<!-- loioe6cd5476193f48d1a273de990276c9bc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e6cd5476193f48d1a273de990276c9bc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e6cd5476193f48d1a273de990276c9bc)</div>
 
 ## Keyboard Usage of ARIA Role Mapped Controls
 

@@ -1,11 +1,12 @@
+<!-- loio2d3f5fb63a2f4090942375df80abc39f -->
+
 | loio |
 | -----|
 | 2d3f5fb63a2f4090942375df80abc39f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2d3f5fb63a2f4090942375df80abc39f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d3f5fb63a2f4090942375df80abc39f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d3f5fb63a2f4090942375df80abc39f)</div>
-<!-- loio2d3f5fb63a2f4090942375df80abc39f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d3f5fb63a2f4090942375df80abc39f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d3f5fb63a2f4090942375df80abc39f)</div>
 
 ## Use a SimpleProxyServlet for Testing to Avoid Cross-domain Requests
 
@@ -23,7 +24,7 @@ If you are testing locally in your Java Eclipse environment and you want to acce
 
 Ideally, all OData service URLs should be in one file to make the exchange easier - either in the `index.html`, or in one separate .js file that needs to be included. The application is responsible for exchanging the URLs before checking in and after checking out to the SAPUI5 Repository. You can also use the helper function `getServiceUrl`, for which the application is responsible as well. See the following example:
 
-```lang-java
+``` java
 <script>
 //var serviceUrl = "/mypath/myservice";       //url when running on the ABAP system
 //var serviceUrl = "proxy/mypath/myservice";  //url when running locally in Eclipse
@@ -59,7 +60,7 @@ The proxy URL that is used in the coding looks like this: *proxy/<service url\>*
 
 Open the `web.xml` file located in the `<WebContent folder name>/WEB-INF` folder, and configure the parameter `com.sap.ui5.proxy.REMOTE_LOCATION` of the `SimpleProxyServlet` where the placeholders `{protocol}`, `{host name}`, and `{port number}` have to be exchanged by the real protocol, host name and port number:
 
-```lang-xml
+``` xml
   <servlet>
     <servlet-name>SimpleProxyServlet</servlet-name>
     <servlet-class>com.sap.ui5.proxy.SimpleProxyServlet</servlet-class>

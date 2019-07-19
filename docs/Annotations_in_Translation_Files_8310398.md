@@ -1,11 +1,12 @@
+<!-- loio831039835e7c4da3a8a0b49567573afe -->
+
 | loio |
 | -----|
 | 831039835e7c4da3a8a0b49567573afe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/831039835e7c4da3a8a0b49567573afe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe)</div>
-<!-- loio831039835e7c4da3a8a0b49567573afe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe)</div>
 
 ## Annotations in Translation Files
 
@@ -13,7 +14,7 @@ All strings for translation have to be annotated to provide more context for tra
 
 The following comment types exist:
 
-```lang-prefs
+``` prefs
 
 #<SAP-Text-Type>
 #<SAP-Text-Type>:<Note for translator>
@@ -103,7 +104,7 @@ Y Text Types<a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>
 
 ### Properties File
 
-```lang-prefs
+``` prefs
 
 #XMSG: a random text used for demonstration purposes, the meaning is not related to any other content in the UI
 HelloWorld=Hello world!

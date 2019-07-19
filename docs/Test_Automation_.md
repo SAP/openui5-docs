@@ -1,11 +1,12 @@
+<!-- loioae448243822448d8ba04b4784f4b09a0 -->
+
 | loio |
 | -----|
 | ae448243822448d8ba04b4784f4b09a0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ae448243822448d8ba04b4784f4b09a0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0)</div>
-<!-- loioae448243822448d8ba04b4784f4b09a0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0)</div>
 
 ## Test Automation
 
@@ -84,7 +85,7 @@ npm init --yes
 
 6.  Create a `karma.conf.js` file in your working directory with the following content:
 
-    ```lang-js
+    ``` js
     module.exports = function(config) {
       config.set({
     
@@ -148,7 +149,7 @@ You can use Headless Chrome standalone, but also with Karma. To launch Karma wit
 
 2.  Define the browser environment for running karma. For this, update the `config` object in `karma.conf.js` as follows:
 
-    ```lang-js
+    ``` js
     module.exports = function(config) {
       config.set({
         [...]
@@ -167,7 +168,7 @@ You can use Headless Chrome standalone, but also with Karma. To launch Karma wit
 
 You can launch karma also with a specific config file. It might make sense, for example, to define a config file \(default: `karma.conf.js`\) for the local environment, and one config file, for example `karma-ci.conf.js` for the CI scenario. To launch karma with a different config file, add the file name as third parameter as follows:
 
-```lang-js
+``` js
 karma start karma-ci.conf.js
 ```
 

@@ -1,11 +1,12 @@
+<!-- loio5709e73d51f2401a9a5a89d8f5479132 -->
+
 | loio |
 | -----|
 | 5709e73d51f2401a9a5a89d8f5479132 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5709e73d51f2401a9a5a89d8f5479132.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5709e73d51f2401a9a5a89d8f5479132) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5709e73d51f2401a9a5a89d8f5479132)</div>
-<!-- loio5709e73d51f2401a9a5a89d8f5479132 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5709e73d51f2401a9a5a89d8f5479132) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5709e73d51f2401a9a5a89d8f5479132)</div>
 
 ## Dialog Controls
 
@@ -147,3 +148,4 @@ Screen Reader Behavior in Dialog Controls<a name="loio5709e73d51f2401a9a5a89d8f5
 		</tr>
 	</tbody>
 </table>
+

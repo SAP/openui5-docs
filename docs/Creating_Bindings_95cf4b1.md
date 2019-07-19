@@ -1,11 +1,12 @@
+<!-- loio95cf4b16762a465b9237b18d033f0cd2 -->
+
 | loio |
 | -----|
 | 95cf4b16762a465b9237b18d033f0cd2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/95cf4b16762a465b9237b18d033f0cd2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
-<!-- loio95cf4b16762a465b9237b18d033f0cd2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
 
 ## Creating Bindings
 
@@ -18,7 +19,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
     > Note:
     > Note that binding expressions can be complex so that they can take additional properties to specify the binding further in addition to the path:
     > 
-    > ```lang-js
+    > ``` js
     > 
     > oForm.bindElement({path : "/SalesOrderList('0500000000')", parameters : {$expand : "SO_2_SOITEM", ...}, events : {dataReceived : '.onDataEvents', ...}});
     > ```
@@ -31,7 +32,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
 
 -   Declaring a binding for a control property in an XML view such as the following:
 
-```lang-xml
+``` xml
 
 <Table items="{path : '/SalesOrderList', parameters : { $expand : 'SO_2_BP', $filter : 'BuyerName ge \'M\'', ...}, events : {dataReceived : '.onDataEvents', ... } }">
 ```

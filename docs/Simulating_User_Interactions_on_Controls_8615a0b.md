@@ -1,11 +1,12 @@
+<!-- loio8615a0b9088645ae936dbb8bbce5d01d -->
+
 | loio |
 | -----|
 | 8615a0b9088645ae936dbb8bbce5d01d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8615a0b9088645ae936dbb8bbce5d01d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
-<!-- loio8615a0b9088645ae936dbb8bbce5d01d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
 
 ## Simulating User Interactions on Controls
 
@@ -19,7 +20,7 @@ We recommend that you use actions and not success functions for user interaction
 
 In this example we trigger a `press` event on a button, using the `waitFor` function of OPA5, and the `Press` action. Note that the action has access to the located button implicitly.
 
-```lang-js
+``` js
 oOpa.waitFor({
     id: "myButton",
     actions: new Press()
@@ -32,7 +33,7 @@ oOpa.waitFor({
 
 Here's an example showing how to choose an item from `sap.m.Select` or `sap.m.ComboBox`, using the `waitFor` function of OPA5, and the `Press` action:
 
-```lang-js
+``` js
 sap.ui.require([
     "sap/ui/test/opaQUnit",
     "sap/ui/test/actions/Press",
@@ -75,7 +76,7 @@ Use the `EnterText` action when you want to enter text in a form control.
 
 In this example, the text of an `sap.m.Input` is changed twice. First, "Hello " is entered as value. Then, with the second action, "World" is added. As a result, the value of the input is "Hello World".
 
-```lang-js
+``` js
 oOpa.waitFor({
     id: "myInput",
     actions: [
@@ -89,7 +90,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 -   Use the `clearTextFirst` property to empty the existing value before entering new text. This example changes a control value to "Hello" and then to "World" with two consecutive actions:
 
-    ```lang-js
+    ``` js
     actions: [
         new EnterText({ text: "Hello" }), // changes Input value to "Hello"
         new EnterText({ text: "World", clearTextFirst: true }) // changes Input value to "World"
@@ -98,7 +99,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 -   Use the `keepFocus` property to preserve the focus on the input after the action completes. This is useful if the control has enabled suggestions that have to remain open after the text is entered. After the text is entered, you can perform another OPA5 search for the suggestion control and select it using a `Press` action.
 
-    ```lang-js
+    ``` js
     // Show the suggestion list with filter "Jo"
     oOpa.waitFor({
         id: "formInput",
@@ -170,7 +171,7 @@ iClickOnTableItemByFieldValue: function () {
 
 Since OPA5 uses JavaScript for its execution, you cannot use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions very easily. Just provide an inline function as shown here:
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/test/opaQUnit", "sap/ui/test/matchers/Properties"], function (opaTest, Properties) {
 
     opaTest("Should simulate press on the delete button", function (Given, When, Then) {

@@ -1,11 +1,12 @@
+<!-- loio8a0d4efa29d44ef39219c18d832012da -->
+
 | loio |
 | -----|
 | 8a0d4efa29d44ef39219c18d832012da |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8a0d4efa29d44ef39219c18d832012da.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8a0d4efa29d44ef39219c18d832012da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8a0d4efa29d44ef39219c18d832012da)</div>
-<!-- loio8a0d4efa29d44ef39219c18d832012da -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8a0d4efa29d44ef39219c18d832012da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8a0d4efa29d44ef39219c18d832012da)</div>
 
 ## Keyboard Handling for Item Selection
 

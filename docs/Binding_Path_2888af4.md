@@ -1,11 +1,12 @@
+<!-- loio2888af49635949eca14fa326d04833b9 -->
+
 | loio |
 | -----|
 | 2888af49635949eca14fa326d04833b9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2888af49635949eca14fa326d04833b9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2888af49635949eca14fa326d04833b9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2888af49635949eca14fa326d04833b9)</div>
-<!-- loio2888af49635949eca14fa326d04833b9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2888af49635949eca14fa326d04833b9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2888af49635949eca14fa326d04833b9)</div>
 
 ## Binding Path
 
@@ -17,7 +18,7 @@ A binding path can either be absolute or relative: Absolute binding paths start 
 
 When you use multiple models, specify the model name within the binding path to address the correct model. The same applies for setting a binding context for such a model. The binding path must start with the model name followed by a '\>' as shown in the following example for setting a binding context.
 
-```lang-js
+``` js
 oControl.setBindingContext(oContext );
 oControl.setBindingContext(oContext,"myModelName");
 ```

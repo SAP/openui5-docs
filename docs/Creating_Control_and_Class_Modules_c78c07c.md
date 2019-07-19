@@ -1,11 +1,12 @@
+<!-- loioc78c07c094e04ccfaab659378a1707c7 -->
+
 | loio |
 | -----|
 | c78c07c094e04ccfaab659378a1707c7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c78c07c094e04ccfaab659378a1707c7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c78c07c094e04ccfaab659378a1707c7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c78c07c094e04ccfaab659378a1707c7)</div>
-<!-- loioc78c07c094e04ccfaab659378a1707c7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c78c07c094e04ccfaab659378a1707c7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c78c07c094e04ccfaab659378a1707c7)</div>
 
 ## Creating Control and Class Modules
 
@@ -40,7 +41,7 @@ JSDoc for the class should use the `@alias` tag to make sure that the variable i
 
 The `extend` function makes sure that the respective namespace is created:
 
-```lang-js
+``` js
 sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (BaseObject, JSONModel) {
   
     var Foo = BaseObject.extend("foo.bar.MyClass", /** @lends foo.bar.MyClass */ {

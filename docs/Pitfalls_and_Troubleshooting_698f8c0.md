@@ -1,11 +1,12 @@
+<!-- loio698f8c0a889f48d3a8b7fbcd26779be2 -->
+
 | loio |
 | -----|
 | 698f8c0a889f48d3a8b7fbcd26779be2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/698f8c0a889f48d3a8b7fbcd26779be2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/698f8c0a889f48d3a8b7fbcd26779be2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/698f8c0a889f48d3a8b7fbcd26779be2)</div>
-<!-- loio698f8c0a889f48d3a8b7fbcd26779be2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/698f8c0a889f48d3a8b7fbcd26779be2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/698f8c0a889f48d3a8b7fbcd26779be2)</div>
 
 ## Pitfalls and Troubleshooting
 
@@ -97,7 +98,7 @@ If you are using an IFrame to launch your application, Internet Explorer is more
 
 If you require `sinon-qunit.js`, it overwrites the browser functions `setTimeout` and `setInterval`. OPA needs these functions and without them, the tests will not start. You can either set the `fakeTimers` to false in your test setup, or maybe consider not using sinon together with OPA.
 
-```lang-js
+``` js
 module("Opatests", {
     beforeEach : function () {
         sinon.config.useFakeTimers = false;

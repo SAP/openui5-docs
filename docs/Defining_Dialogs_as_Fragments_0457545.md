@@ -1,11 +1,12 @@
+<!-- loio04575456e15e426d81054805990c7a53 -->
+
 | loio |
 | -----|
 | 04575456e15e426d81054805990c7a53 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/04575456e15e426d81054805990c7a53.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04575456e15e426d81054805990c7a53) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04575456e15e426d81054805990c7a53)</div>
-<!-- loio04575456e15e426d81054805990c7a53 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04575456e15e426d81054805990c7a53) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04575456e15e426d81054805990c7a53)</div>
 
 ## Defining Dialogs as Fragments
 
@@ -17,7 +18,7 @@ To use fragments for defining popups, just let the root control of the fragment 
 
 The following shows an XML fragment dialog example:
 
-```lang-xml
+``` xml
 <Dialog xmlns="sap.m" title="XML Fragment Dialog">
     <TextView text="{/dialogText}" />
     <buttons>
@@ -30,7 +31,7 @@ Other fragment types are used the same way to define, for instance, a dialog as 
 
 For example, in JS fragments, the `createContent()` method returns a dialog control:
 
-```lang-js
+``` js
 
 sap.ui.jsfragment("testdata.fragments.JSFragmentDialog", {
     createContent: function(oController) {

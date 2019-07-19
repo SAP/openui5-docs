@@ -1,11 +1,12 @@
+<!-- loiof51dbb78e7d5448e838cdc04bdf65403 -->
+
 | loio |
 | -----|
 | f51dbb78e7d5448e838cdc04bdf65403 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f51dbb78e7d5448e838cdc04bdf65403.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
-<!-- loiof51dbb78e7d5448e838cdc04bdf65403 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
 
 ## Stable IDs: All You Need to Know
 
@@ -19,7 +20,7 @@ Stable IDs are IDs for controls, elements, or components that you set yourself i
 
 If you don't define IDs, OpenUI5 generates them dynamically. These IDs are not static and might differ from program run to program run. For example, the page and table in the following XML view could have the generated IDs `__page0` and `__table0` at runtime:
 
-```lang-xml
+``` xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -65,7 +66,7 @@ The standard use case is that you use stable IDs for the view that the router na
 
 Example:
 
-    ```lang-js
+    ``` js
 {
 "sap.ui5": {
 	"rootView": {
@@ -95,7 +96,7 @@ If you embed your view, set its ID \(such as `myEmbeddedView`\).
 
 Example:
 
-    ```lang-xml
+    ``` xml
 <mvc:View xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page id="page">
@@ -111,7 +112,7 @@ If you create the view programmatically, provide the ID as one of the parameters
 
 Example:
 
-    ```lang-js
+    ``` js
 // "XMLView" required from module "sap/ui/core/mvc/XMLView"
 XMLView.create({
 	id: <component>.createId("myProgrammaticView"),
@@ -141,7 +142,7 @@ The XML view prefixes the control IDs \(only the defined IDs, not the automatica
 
 If the following XML view is instantiated using the ID `myView`, the contained page and table would have the IDs `myView--page` and `myView--table` at runtime:
 
-    ```lang-js
+    ``` js
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Page id="page">
 		<content>
@@ -157,7 +158,7 @@ If the following XML view is instantiated using the ID `myView`, the contained p
 
 For JavaScript views and JavaScript-generated controls you must use the `createID` method of the view or component. Here's how it could look like when you're creating a control directly in the control code:
 
-    ```lang-xml
+    ``` xml
 // "Button" required from module "sap/m/Button"
 new Button({
 	id : oView.createId("ConfirmButton"),
@@ -173,7 +174,7 @@ new Button({
  > Note:
  > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
- For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself. Example: ```lang-js
+ For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself. Example: ``` js
 // "Shell" required from module "sap/m/Shell"
 new Shell({
 ```
@@ -184,7 +185,7 @@ new Shell({
 > 
 
  |
-| *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* |If you want to add an embedded component with a stable ID, you have to add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file: ```lang-json
+| *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* |If you want to add an embedded component with a stable ID, you have to add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file: ``` json
 "sap.ui5": {
    "componentUsages": {
       "reuseName": {
@@ -197,15 +198,15 @@ new Shell({
 }
 
 ```
-   "componentUsages": {
-      "reuseName": {
-         "name": "embeddedComponent.name",
          "settings": {
             "id": "embeddedComponentID"
          }
       }
    }
 }
+
+```
+
 ```
 
  > Note:
@@ -214,21 +215,15 @@ new Shell({
 > 
 
  |
-| *HIGHLIGHT START*XML fragments*HIGHLIGHT END* |If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ```lang-js
+| *HIGHLIGHT START*XML fragments*HIGHLIGHT END* |If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ``` js
 // "Fragment" required from module "sap/ui/core/Fragment"
 Fragment.load({
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
 });
 ```
-			</td>
-		</tr>
-		<tr>
 			<td> **XML fragments** </td>
-			<td>If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: 
-
-```
-lang-js// "Fragment" required from module "sap/ui/core/Fragment"
+			<td>If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ``` js// "Fragment" required from module "sap/ui/core/Fragment"
 Fragment.load({
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
@@ -238,6 +233,7 @@ Fragment.load({
 		</tr>
 	</tbody>
 </table>
+
 > Note:
 > If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. For this reason, the IDs, which are part of the public API of the app, must be kept stable over the life cycle of the app.
 > 

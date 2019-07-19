@@ -1,11 +1,12 @@
+<!-- loioe54f729da8e3405fae5e4fe8ae7784c1 -->
+
 | loio |
 | -----|
 | e54f729da8e3405fae5e4fe8ae7784c1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e54f729da8e3405fae5e4fe8ae7784c1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1)</div>
-<!-- loioe54f729da8e3405fae5e4fe8ae7784c1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1)</div>
 
 ## Content Densities
 

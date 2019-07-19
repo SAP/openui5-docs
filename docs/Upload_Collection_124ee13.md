@@ -1,11 +1,12 @@
+<!-- loio124ee13b03664b14b455630fb8171996 -->
+
 | loio |
 | -----|
 | 124ee13b03664b14b455630fb8171996 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/124ee13b03664b14b455630fb8171996.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996)</div>
-<!-- loio124ee13b03664b14b455630fb8171996 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996)</div>
 
 ## Upload Collection
 

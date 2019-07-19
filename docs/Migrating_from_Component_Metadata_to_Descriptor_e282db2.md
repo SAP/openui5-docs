@@ -1,11 +1,12 @@
+<!-- loioe282db2865e94f69972c407469b801e9 -->
+
 | loio |
 | -----|
 | e282db2865e94f69972c407469b801e9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e282db2865e94f69972c407469b801e9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e282db2865e94f69972c407469b801e9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e282db2865e94f69972c407469b801e9)</div>
-<!-- loioe282db2865e94f69972c407469b801e9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e282db2865e94f69972c407469b801e9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e282db2865e94f69972c407469b801e9)</div>
 
 ## Migrating from Component Metadata to Descriptor
 
@@ -40,7 +41,7 @@ Libraries and components are objects and not arrays. For the descriptor part, we
 
 **Metadata** 
 
-```lang-js
+``` js
 
 "dependencies": {
     "ui5version": "1.30.0",
@@ -54,7 +55,7 @@ Libraries and components are objects and not arrays. For the descriptor part, we
 
 **Descriptor**
 
-```lang-js
+``` js
 
 "dependencies": {
     "minUI5Version": "1.30.0",
@@ -76,14 +77,14 @@ Includes are renamed to resources and are objects and not an array.
 
 **Metadata**
 
-```lang-js
+``` js
 
 "includes": ["script.js", "style.css"]
 ```
 
 **Descriptor**
 
-```lang-js
+``` js
 
 "resources": {
     "js": [

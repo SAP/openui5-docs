@@ -1,11 +1,12 @@
+<!-- loio4a97a07ec8f5441d901994d82eaab1f5 -->
+
 | loio |
 | -----|
 | 4a97a07ec8f5441d901994d82eaab1f5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4a97a07ec8f5441d901994d82eaab1f5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5)</div>
-<!-- loio4a97a07ec8f5441d901994d82eaab1f5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5)</div>
 
 ## Semantic Page \(sap.m\)
 
@@ -88,7 +89,7 @@ In the `sap.m` library, the semantic page controls are`sap.m.semantic.Fullscreen
 
 For split-screen \(Master-Detail\) scenarios, apps should use `sap.m.semantic.MasterPage` together with `sap.m.semantic.DetailPage`:
 
-```lang-xml
+``` xml
 <mvc:View
 height="100%"
 xmlns:mvc="sap.ui.core.mvc"
@@ -114,7 +115,7 @@ displayBlock="true">
 
 For fullscreen scenarios \(where the page should always take the entire screen\), apps should use `sap.m.semantic.FullscreenPage`:
 
-```lang-xml
+``` xml
 <mvc:View
 height="100%"
 xmlns:mvc="sap.ui.core.mvc"
@@ -141,7 +142,7 @@ The three semantic pages inherit from the abstract `sap.m.semantic.SemanticPage`
 
 For example, as the master part usually contains a list of items to be selected, so `sap.m.semantic.MasterPage` supports semantic controls for common operations on a list of items, such as sort, filter, group and multiselect:
 
-```lang-xml
+``` xml
 ...
 <SplitContainer>
 <masterPages>
@@ -175,7 +176,7 @@ For example, as the master part usually contains a list of items to be selected,
 
 The `DetailPage` usually displays extended information for the item that was selected in the master part, therefore the `sap.m.semantic.DetailPage` also supports controls for operations like editing and sharing:
 
-```lang-xml
+``` xml
 ...
 <SplitContainer>
        <masterPages>
@@ -206,7 +207,7 @@ The `DetailPage` usually displays extended information for the item that was sel
 
 #### Adding custom \(non-semantic\) content:
 
-```lang-xml
+``` xml
 ...
 <semantic:FullscreenPage title="FullScreen Page Title"
                             showNavButton="true"

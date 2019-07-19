@@ -1,11 +1,12 @@
+<!-- loio592f36fd077b45349a67dcb3efb46ab1 -->
+
 | loio |
 | -----|
 | 592f36fd077b45349a67dcb3efb46ab1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/592f36fd077b45349a67dcb3efb46ab1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)</div>
-<!-- loio592f36fd077b45349a67dcb3efb46ab1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)</div>
 
 ## Quick Start
 

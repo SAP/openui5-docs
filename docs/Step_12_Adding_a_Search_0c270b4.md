@@ -1,11 +1,12 @@
+<!-- loio0c270b45dd904429ba634656e3a37a73 -->
+
 | loio |
 | -----|
 | 0c270b45dd904429ba634656e3a37a73 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0c270b45dd904429ba634656e3a37a73.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73)</div>
-<!-- loio0c270b45dd904429ba634656e3a37a73 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73)</div>
 
 ## Step 12: Adding a Search
 

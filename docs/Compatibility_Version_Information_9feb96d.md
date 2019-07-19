@@ -1,11 +1,12 @@
+<!-- loio9feb96da02c2429bb1afcf6534d77c79 -->
+
 | loio |
 | -----|
 | 9feb96da02c2429bb1afcf6534d77c79 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9feb96da02c2429bb1afcf6534d77c79.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9feb96da02c2429bb1afcf6534d77c79) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9feb96da02c2429bb1afcf6534d77c79)</div>
-<!-- loio9feb96da02c2429bb1afcf6534d77c79 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9feb96da02c2429bb1afcf6534d77c79) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9feb96da02c2429bb1afcf6534d77c79)</div>
 
 ## Compatibility Version Information
 
@@ -28,7 +29,7 @@ The compatibility version configuration works as follows:
 -   A version flag is introduced if a feature change is incompatible.
 -   The version flag has to be defined in the OpenUI5 bootstrap tag either globally \(`data-sap-ui-compatVersion` or individually for each feature \(for example `data-sap-ui-compatVersion-xyz`\). Example with `compatVersion "1.18"`
 
-    ```lang-html
+    ``` html
     <script id="sap-ui-bootstrap" 
             type="text/javascript"
             src="resources/sap-ui-core.js"

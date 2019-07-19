@@ -1,11 +1,12 @@
+<!-- loio24a9e0e2424245e4873c0f29f00144f4 -->
+
 | loio |
 | -----|
 | 24a9e0e2424245e4873c0f29f00144f4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/24a9e0e2424245e4873c0f29f00144f4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4)</div>
-<!-- loio24a9e0e2424245e4873c0f29f00144f4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4)</div>
 
 ## Layout Arrows
 

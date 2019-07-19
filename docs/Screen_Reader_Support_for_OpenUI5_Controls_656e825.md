@@ -1,11 +1,12 @@
+<!-- loio656e825c5f1548e6b1d0acb5586f2a2a -->
+
 | loio |
 | -----|
 | 656e825c5f1548e6b1d0acb5586f2a2a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/656e825c5f1548e6b1d0acb5586f2a2a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/656e825c5f1548e6b1d0acb5586f2a2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/656e825c5f1548e6b1d0acb5586f2a2a)</div>
-<!-- loio656e825c5f1548e6b1d0acb5586f2a2a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/656e825c5f1548e6b1d0acb5586f2a2a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/656e825c5f1548e6b1d0acb5586f2a2a)</div>
 
 ## Screen Reader Support for OpenUI5 Controls
 

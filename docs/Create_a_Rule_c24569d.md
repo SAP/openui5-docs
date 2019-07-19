@@ -1,11 +1,12 @@
+<!-- loioc24569de859446819798c5dc53ac604d -->
+
 | loio |
 | -----|
 | c24569de859446819798c5dc53ac604d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c24569de859446819798c5dc53ac604d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d)</div>
-<!-- loioc24569de859446819798c5dc53ac604d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d)</div>
 
 ## Create a Rule
 
@@ -100,7 +101,7 @@ The check function has three main and one optional parameters. The main ones are
 
     Here is an example of a check function that checks all Input controls which are part of the public aggregation and have no parent set:
 
-    ```lang-js
+    ``` js
     
     function(issueManager, oCoreFacade, oScope) {
       var mElements = oScope.getElements({
@@ -129,7 +130,7 @@ The check function has three main and one optional parameters. The main ones are
 
     Here is an async rule code example:
 
-    ```lang-js
+    ``` js
     function(issueManager, oCoreFacade, oScope, fnResolve) {
       // Some async operation
       setTimeout(function () {

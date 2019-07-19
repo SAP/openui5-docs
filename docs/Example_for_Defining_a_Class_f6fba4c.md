@@ -1,17 +1,18 @@
+<!-- loiof6fba4c6e1cb49c7b355319ac9c8d1cd -->
+
 | loio |
 | -----|
 | f6fba4c6e1cb49c7b355319ac9c8d1cd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f6fba4c6e1cb49c7b355319ac9c8d1cd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd)</div>
-<!-- loiof6fba4c6e1cb49c7b355319ac9c8d1cd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd)</div>
 
 ## Example for Defining a Class
 
 Full example of a class definition, including JSDoc
 
-```lang-js
+``` js
 sap.ui.define(["jQuery.sap.global", "sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (jQuery, BaseObject, JSONModel) {
  
     // declare and document the constructor function
@@ -108,7 +109,7 @@ sap.ui.define(["jQuery.sap.global", "sap/ui/base/Object", "sap/ui/model/json/JSO
 
 ### Virtual Methods
 
-```lang-js
+``` js
 /**
  * A 'virtual' method, that doesn't exist in this class but should be declared
  * in subclasses.

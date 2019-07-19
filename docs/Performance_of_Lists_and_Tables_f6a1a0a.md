@@ -1,11 +1,12 @@
+<!-- loiof6a1a0ad49ca4d9facac222c4d372726 -->
+
 | loio |
 | -----|
 | f6a1a0ad49ca4d9facac222c4d372726 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f6a1a0ad49ca4d9facac222c4d372726.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726)</div>
-<!-- loiof6a1a0ad49ca4d9facac222c4d372726 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726)</div>
 
 ## Performance of Lists and Tables
 

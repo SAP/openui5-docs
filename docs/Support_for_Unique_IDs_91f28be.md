@@ -1,11 +1,12 @@
+<!-- loio91f28be26f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f28be26f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f28be26f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f28be26f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f28be26f4d1014b6dd926db0e91070)</div>
-<!-- loio91f28be26f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f28be26f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f28be26f4d1014b6dd926db0e91070)</div>
 
 ## Support for Unique IDs
 
@@ -17,14 +18,14 @@ If you want to modify the control with the ID `<ID>`, you can call the `byId(<ID
 
 The following view defines a button with the stable ID `aButton` \(in the `ButtonView`\):
 
-```lang-html
+``` html
 <mvc:View viewName="sap.hcm.ButtonView" controllerName="sap.hcm.myController" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
       <Button id="aButton" text="Click me"/><mvc:View>
 ```
 
 The following view defines a view embedding the same view several times \(`ContainerView`\):
 
-```lang-html
+``` html
 <mvc:View viewName="sap.hcm.ContainerView" controllerName="sap.hcm.Address" xmlns="sap.ui.commons" xmlns:core="sap.ui.core"
            xmlns:html="http://www.w3.org/1999/xhtml">
       <mvc:View id="ButtonView1" viewName="sap.hcm.ButtonView"/>
@@ -34,7 +35,7 @@ The following view defines a view embedding the same view several times \(`Conta
 
 The view is created as follows:
 
-```lang-js
+``` js
 ...
    // "View" required from module "sap/ui/core/mvc/View"
    View.create().then(function(oView) {/* code */});
@@ -51,7 +52,7 @@ Both child view IDs have the prefix `myContainerView--`:
 
 To get one of the child views, use the following code: [Essentials](Essentials_ec699e0.md)
 
-```lang-js
+``` js
 ...
 var oButtonView1 = oView.byId("ButtonView1");
 ...
@@ -65,7 +66,7 @@ The button view has the following IDs:
 
 To get the button control, use the following code:
 
-```lang-js
+``` js
 ...
    var oButton = oButtonView1.byId("aButton");
 ...

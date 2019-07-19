@@ -1,11 +1,12 @@
+<!-- loio59b772bfac5241b89c16b12395c1116c -->
+
 | loio |
 | -----|
 | 59b772bfac5241b89c16b12395c1116c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/59b772bfac5241b89c16b12395c1116c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c)</div>
-<!-- loio59b772bfac5241b89c16b12395c1116c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c)</div>
 
 ## Step 1: Setting Up the Initial App
 

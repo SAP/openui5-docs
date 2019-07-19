@@ -1,11 +1,12 @@
+<!-- loio7e7cd0aed8bd469cbdd9b46035046dd8 -->
+
 | loio |
 | -----|
 | 7e7cd0aed8bd469cbdd9b46035046dd8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7e7cd0aed8bd469cbdd9b46035046dd8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7e7cd0aed8bd469cbdd9b46035046dd8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7e7cd0aed8bd469cbdd9b46035046dd8)</div>
-<!-- loio7e7cd0aed8bd469cbdd9b46035046dd8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7e7cd0aed8bd469cbdd9b46035046dd8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7e7cd0aed8bd469cbdd9b46035046dd8)</div>
 
 ## API Properties for Right-to-Left Support in Text-Displaying Controls
 
@@ -44,7 +45,7 @@ The examples below illustrate the default behavior of numeric data in an RTL pag
 
 After setting the `textDirection` and `textAlign` properties of the control \(inherited from `sap.m.InputBase`\), the numeric data is displayed in LTR mode, despite the RTL page context. When in LTR mode, the default text alignment \(**begin**\) is kept, which differs from the page text alignment. Because of this, we should use `textAlign: end` as the control doesn’t force the alignment of the text. Here is how this looks in an `sap.m.Input` control:
 
-```lang-js
+``` js
 
 sap.m.Input ({
      value: "(+359) 111 222 333 + (Some) text", 
@@ -59,7 +60,7 @@ And here is how it looks on the screen:
 
 This second example shows the behavior of a control that enforces correct text alignment - `sap.m.DisplayListItem`. In this case, you don't need to set the `textAlign` property.
 
-```lang-js
+``` js
 
 new sap.m.DisplayListItem({
      label: "Phone Correct", 

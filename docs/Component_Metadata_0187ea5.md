@@ -1,11 +1,12 @@
+<!-- loio0187ea5e2eff4166b0453b9dcc8fc64f -->
+
 | loio |
 | -----|
 | 0187ea5e2eff4166b0453b9dcc8fc64f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0187ea5e2eff4166b0453b9dcc8fc64f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0187ea5e2eff4166b0453b9dcc8fc64f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0187ea5e2eff4166b0453b9dcc8fc64f)</div>
-<!-- loio0187ea5e2eff4166b0453b9dcc8fc64f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0187ea5e2eff4166b0453b9dcc8fc64f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0187ea5e2eff4166b0453b9dcc8fc64f)</div>
 
 ## Component Metadata
 
@@ -14,7 +15,7 @@ The component class provides specific metadata for components by extending the `
 > Note:
 > With the introduction of the descriptor for applications, components, and libraries, we recommend to migrate the component metadata to the descriptor. The descriptor is inspired by W3C’s Web Application Manifest and provides comprehensive information for applications, components and libraries. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). The metadata property `manifest` must be set to `json` to indicate that the `manifest.json` file should be loaded and used:
 > 
-> ```lang-js
+> ``` js
 > 
 > sap.ui.core.Component.extend("some.sample.Component", {
 >     "metadata": {
@@ -69,7 +70,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
 Example for metadata in `Component.js`:
 
-```lang-js
+``` js
 
 sap.ui.core.Component.extend("some.sample.Component", {
     "metadata": {
@@ -122,7 +123,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
 Example for UI component metadata:
 
-```lang-js
+``` js
 
 sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
     "metadata": {
@@ -142,7 +143,7 @@ sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
 
 You can add a properties section to the metadata for all properties that can adopt different values during runtime. The getters and setters for these properties are generated automatically, but you can overwrite them if you require additional functionality. The following example contains two properties at the end of the metadata section.
 
-```lang-js
+``` js
 
 sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
     "metadata": {

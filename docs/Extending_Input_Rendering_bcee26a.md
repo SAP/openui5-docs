@@ -1,11 +1,12 @@
+<!-- loiobcee26a4801748f39bf5698d83d903aa -->
+
 | loio |
 | -----|
 | bcee26a4801748f39bf5698d83d903aa |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/bcee26a4801748f39bf5698d83d903aa.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bcee26a4801748f39bf5698d83d903aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bcee26a4801748f39bf5698d83d903aa)</div>
-<!-- loiobcee26a4801748f39bf5698d83d903aa -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bcee26a4801748f39bf5698d83d903aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bcee26a4801748f39bf5698d83d903aa)</div>
 
 ## Extending Input Rendering
 
@@ -15,7 +16,7 @@ The following code snippet creates a control type that inherits from `sap.m.Inpu
 
 The control API and the `render` method can be inherited as it is and the `renderInnerAttributes` method of the `InputRenderer` is overwritten:
 
-```lang-js
+``` js
   
 sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInput" 
 								// and let it inherit from sap.m.Input
@@ -37,7 +38,7 @@ sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInp
 
 The `HighlightInput` control can be used in an application in the same way as `Input`:
 
-```lang-js
+``` js
 
 var myControl = new HighlightInput({value:"Highlighted editing"});
 myControl.placeAt("content");

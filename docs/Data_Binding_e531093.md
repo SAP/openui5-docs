@@ -1,11 +1,12 @@
+<!-- loioe5310932a71f42daa41f3a6143efca9c -->
+
 | loio |
 | -----|
 | e5310932a71f42daa41f3a6143efca9c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e5310932a71f42daa41f3a6143efca9c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)</div>
-<!-- loioe5310932a71f42daa41f3a6143efca9c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)</div>
 
 ## Data Binding
 
