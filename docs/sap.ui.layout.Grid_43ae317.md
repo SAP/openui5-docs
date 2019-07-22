@@ -87,17 +87,17 @@ In addition to individual span and indentation, there is a large number of prope
 </l:Grid>
 ```
 
- |XL container/screen size \(one item spans over 3 columns\)![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)L container/screen size \(one item spans over 4 columns\)![](loio946464afb7da47d689a69896b96af818_LowRes.png)M container/screen size \(one item spans over 6 columns\)![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)S container/screen size \(one item spans over 12 columns\)![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)|
-| ``` xml
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th> </th>
+			<th>XL container/screen size \(one item spans over 3 columns\)![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)L container/screen size \(one item spans over 4 columns\)![](loio946464afb7da47d689a69896b96af818_LowRes.png)M container/screen size \(one item spans over 6 columns\)![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)S container/screen size \(one item spans over 12 columns\)![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)</th>
+		</tr>
+	</thead>
+	<tbody>
 <l:Grid
-		defaultSpan="*HIGHLIGHT START*XL3*HIGHLIGHT END* L4 M6 S12"
-		defaultIndent="*HIGHLIGHT START*XL1*HIGHLIGHT END* L1 M1 S1">
-	<Image src="/item1.png" width="100%"></Image>
-	<Image src="/item2.png" width="100%"></Image>
-	<Image src="/item3.png" width="100%"></Image>
-	<Image src="/item4.png" width="100%"></Image>
-</l:Grid>
-```
 		defaultSpan="**XL3** L4 M6 S12"
 		defaultIndent="**XL1** L1 M1 S1">
 	<Image src="/item1.png" width="100%"></Image>

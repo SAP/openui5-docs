@@ -59,9 +59,7 @@ The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocomple
 
 Here is an example of custom autocompletion:
 
-```
-
-				``` js
+``` js
 codeEditor.addCustomCompleter({
       getCompletions: function(callback, context) {
           // callback is provided to us by ACE so we can execute it as shown
@@ -114,7 +112,5 @@ codeEditor.addCustomCompleter({
 
 ```
 
-
 			
-```
 

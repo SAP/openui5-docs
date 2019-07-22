@@ -207,21 +207,21 @@ new Shell({
 
 ```
 
+ Now you can use the re-use entry name defining the component container in XML, the re-use entry name could be used.: ``` xml
+<core:ComponentContainer
+   usage="reuseName"
+   async="true"
+   id="embeddedComponentContainerID"
+   propagateModel="true" //to propagate models from the application component
+/>
+
 ```
 
  > Note:
-> In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
-> 
-> 
-
- |
-| *HIGHLIGHT START*XML fragments*HIGHLIGHT END* |If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({
-	id: this.getView().getId(),
-	name: "my.fragment.SampleFragment"
-});
-```
+ > In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
+			</td>
+		</tr>
+		<tr>
 			<td> **XML fragments** </td>
 			<td>If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ``` js// "Fragment" required from module "sap/ui/core/Fragment"
 Fragment.load({
