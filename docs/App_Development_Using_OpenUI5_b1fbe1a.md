@@ -34,7 +34,7 @@ If you don't want to download the files and don't want to include them in your d
 > Note:
 > You can find a list of all available OpenUI5 versions here: [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
 > 
-> Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the *Preview* version, you are very welcome to send us your feedback!
+> Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the [*Nightly*](https://openui5nightly.hana.ondemand.com) version, you are very welcome to send us your feedback!
 > 
 > 
 
