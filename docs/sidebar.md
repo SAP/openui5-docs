@@ -233,6 +233,7 @@
                     -   [Handling Events in XML Views](Handling_Events_in_XML_Views_b0fb4de.md)
                     -   [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md)
                     -   [XML View Cache](XML_View_Cache_3d85d5e.md)
+                    -   [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md)
                 -   [JSON View](JSON_View_91f2852.md)
                 -   [JS View](JS_View_91f262e.md)
                 -   [HTML View](HTML_View_9756f47.md)
