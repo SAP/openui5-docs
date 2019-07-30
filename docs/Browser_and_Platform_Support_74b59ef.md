@@ -65,24 +65,24 @@ When creating support incidents, make sure that the device you refer to belongs 
 
 |Platform|Device|End of Support Date|
 |--------|------|-------------------|
-|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 7|16 September 2019|
-|Apple iPhone 8|22 September 2020|
-|Apple iPhone X|3 November 2020|
-|Apple iPhone XS|21 September 2021|
-|Apple iPhone XR|26 October 2021|
-|Apple iPad \(2017\)|24 March 2020|
-|Apple iPad Pro \(2nd\)|13 June 2020|
-|Apple iPad \(2018\)|27 March 2021|
-|Apple iPad Pro \(3rd\)|30 October 2021|
-|Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S8 & S8+|21 April 2020|
-|Samsung Galaxy S9 & S9+|16 March 2021|
-|Samsung Galaxy S10 & S10+ & S10e|8 March 2022|
-|Samsung Galaxy Tab S3|24 March 2020|
-|Samsung Galaxy Tab S4|1 August 2021|
-|Samsung Galaxy Tab S5e|15 February 2022|
-|Windows OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.|Microsoft Surface Pro \(2017\)|15 June 2020|
-|Microsoft Surface Pro with LTE Advanced|6 March 2021|
-|Microsoft Surface Pro 6|16 October 2021|
+|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 7|September 2019|
+|Apple iPhone 8|September 2020|
+|Apple iPhone X|November 2020|
+|Apple iPhone XS|September 2021|
+|Apple iPhone XR|October 2021|
+|Apple iPad \(2017\)|March 2020|
+|Apple iPad Pro \(2nd\)|June 2020|
+|Apple iPad \(2018\)|March 2021|
+|Apple iPad Pro \(3rd\)|October 2021|
+|Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S8, S8+|April 2020|
+|Samsung Galaxy S9, S9+|March 2021|
+|Samsung Galaxy S10, S10+, S10e|March 2022|
+|Samsung Galaxy Tab S3|March 2020|
+|Samsung Galaxy Tab S4|August 2021|
+|Samsung Galaxy Tab S5e|February 2022|
+|Windows OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.|Microsoft Surface Pro \(2017\)|June 2020|
+|Microsoft Surface Pro with LTE Advanced|March 2021|
+|Microsoft Surface Pro 6|October 2021|
 
 ***
 
