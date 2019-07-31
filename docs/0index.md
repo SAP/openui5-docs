@@ -135,7 +135,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md)
             -   [Step 8: Navigate with Flip Transition](Step_8_Navigate_with_Flip_Transition_3e5f6f3.md)
             -   [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md)
-            -   [Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md)
+            -   [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md)
             -   [Step 11: Assign Multiple Targets](Step_11_Assign_Multiple_Targets_b01840e.md)
             -   [Step 12: Make a Search Bookmarkable](Step_12_Make_a_Search_Bookmarkable_e85da53.md)
             -   [Step 13: Make Table Sorting Bookmarkable](Step_13_Make_Table_Sorting_Bookmarkable_3975987.md)
