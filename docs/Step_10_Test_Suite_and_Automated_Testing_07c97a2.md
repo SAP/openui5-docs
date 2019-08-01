@@ -1,11 +1,12 @@
+<!-- loio07c97a2e497d443eb6fa74bb9445ab9c -->
+
 | loio |
 | -----|
 | 07c97a2e497d443eb6fa74bb9445ab9c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/07c97a2e497d443eb6fa74bb9445ab9c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c)</div>
-<!-- loio07c97a2e497d443eb6fa74bb9445ab9c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c)</div>
 
 ## Step 10: Test Suite and Automated Testing
 

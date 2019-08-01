@@ -1,11 +1,12 @@
+<!-- loio57ccd7d7103640e3a187ed55e1d2c163 -->
+
 | loio |
 | -----|
 | 57ccd7d7103640e3a187ed55e1d2c163 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/57ccd7d7103640e3a187ed55e1d2c163.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/57ccd7d7103640e3a187ed55e1d2c163) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/57ccd7d7103640e3a187ed55e1d2c163)</div>
-<!-- loio57ccd7d7103640e3a187ed55e1d2c163 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/57ccd7d7103640e3a187ed55e1d2c163) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/57ccd7d7103640e3a187ed55e1d2c163)</div>
 
 ## Support Assistant
 

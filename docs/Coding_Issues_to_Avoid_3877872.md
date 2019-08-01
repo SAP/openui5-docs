@@ -1,11 +1,12 @@
+<!-- loio387787232c214b42954f18c93a28560a -->
+
 | loio |
 | -----|
 | 387787232c214b42954f18c93a28560a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/387787232c214b42954f18c93a28560a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/387787232c214b42954f18c93a28560a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/387787232c214b42954f18c93a28560a)</div>
-<!-- loio387787232c214b42954f18c93a28560a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/387787232c214b42954f18c93a28560a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/387787232c214b42954f18c93a28560a)</div>
 
 ## Coding Issues to Avoid
 

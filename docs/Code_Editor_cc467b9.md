@@ -1,11 +1,12 @@
+<!-- loiocc467b9a1c574410ac4a08a5dc2f55a2 -->
+
 | loio |
 | -----|
 | cc467b9a1c574410ac4a08a5dc2f55a2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cc467b9a1c574410ac4a08a5dc2f55a2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cc467b9a1c574410ac4a08a5dc2f55a2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cc467b9a1c574410ac4a08a5dc2f55a2)</div>
-<!-- loiocc467b9a1c574410ac4a08a5dc2f55a2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cc467b9a1c574410ac4a08a5dc2f55a2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cc467b9a1c574410ac4a08a5dc2f55a2)</div>
 
 ## Code Editor
 
@@ -58,9 +59,7 @@ The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocomple
 
 Here is an example of custom autocompletion:
 
-```
-
-				```lang-js
+``` js
 codeEditor.addCustomCompleter({
       getCompletions: function(callback, context) {
           // callback is provided to us by ACE so we can execute it as shown
@@ -113,7 +112,5 @@ codeEditor.addCustomCompleter({
 
 ```
 
-
 			
-```
 

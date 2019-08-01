@@ -1,11 +1,12 @@
+<!-- loiof10bf709b05f4adea8f8b8ad9a840247 -->
+
 | loio |
 | -----|
 | f10bf709b05f4adea8f8b8ad9a840247 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f10bf709b05f4adea8f8b8ad9a840247.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247)</div>
-<!-- loiof10bf709b05f4adea8f8b8ad9a840247 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247)</div>
 
 ## IDs of Fragments in Views
 

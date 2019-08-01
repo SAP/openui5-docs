@@ -1,11 +1,12 @@
+<!-- loio295e44b2d0144318bcb7bdd56bfa5189 -->
+
 | loio |
 | -----|
 | 295e44b2d0144318bcb7bdd56bfa5189 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/295e44b2d0144318bcb7bdd56bfa5189.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189)</div>
-<!-- loio295e44b2d0144318bcb7bdd56bfa5189 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189)</div>
 
 ## List, List Item, and Table
 

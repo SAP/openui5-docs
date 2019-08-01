@@ -1,11 +1,12 @@
+<!-- loioa04b0d10fb494d1cb722b9e341b584ba -->
+
 | loio |
 | -----|
 | a04b0d10fb494d1cb722b9e341b584ba |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a04b0d10fb494d1cb722b9e341b584ba.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a04b0d10fb494d1cb722b9e341b584ba) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a04b0d10fb494d1cb722b9e341b584ba)</div>
-<!-- loioa04b0d10fb494d1cb722b9e341b584ba -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a04b0d10fb494d1cb722b9e341b584ba) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a04b0d10fb494d1cb722b9e341b584ba)</div>
 
 ## Bootstrapping: Loading and Initializing
 
@@ -20,7 +21,7 @@ You can use the OpenUI5 bootstrap script in your page to initialize OpenUI5 runt
 
 The following code snippet shows a typical bootstrap script tag:
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap" 
      type="text/javascript"
      src="resources/sap-ui-core.js"
@@ -87,3 +88,4 @@ OpenUI5 provides several bootstrap files for different use cases. The following 
 		</tr>
 	</tbody>
 </table>
+

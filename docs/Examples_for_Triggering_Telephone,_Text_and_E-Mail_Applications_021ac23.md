@@ -1,11 +1,12 @@
+<!-- loio021ac23c547c48f087adfef85aca8413 -->
+
 | loio |
 | -----|
 | 021ac23c547c48f087adfef85aca8413 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/021ac23c547c48f087adfef85aca8413.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413)</div>
-<!-- loio021ac23c547c48f087adfef85aca8413 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413)</div>
 
 ## Examples for Triggering Telephone, Text and E-Mail Applications
 
@@ -13,7 +14,7 @@ Code samples for triggering telephone, text and e-mail applications.
 
 Sample data used in the examples:
 
-```lang-js
+``` js
 
 var person = {
     name : "John Smith",
@@ -35,7 +36,7 @@ You can trigger an external application at any time, but it is usually triggered
 
 The following button can be used to place a call.
 
-```lang-js
+``` js
 
 new sap.m.Button({
     text : person.tel,
@@ -54,7 +55,7 @@ new sap.m.Button({
 
 The following code snippet gives an example for triggering an e-mail application. You can also set the subject and message of the e-mail application:
 
-```lang-js
+``` js
 
 new sap.m.Image({
     src : "images/website.png", /* Depends where your images are located */
@@ -72,7 +73,7 @@ new sap.m.Image({
 
 `DisplayListItem` with active feedback is the most popular use case for the following example.
 
-```lang-js
+``` js
 
 new sap.m.DisplayListItem({
     label : "Sms",
@@ -86,7 +87,7 @@ new sap.m.DisplayListItem({
 
 To use any other control inside the list, use `InputListItem`:
 
-```lang-js
+``` js
 
 new sap.m.InputListItem({
     label : "Website",

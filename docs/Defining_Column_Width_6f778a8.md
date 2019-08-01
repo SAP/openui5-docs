@@ -1,11 +1,12 @@
+<!-- loio6f778a805bc3453dbb66e246d8271839 -->
+
 | loio |
 | -----|
 | 6f778a805bc3453dbb66e246d8271839 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6f778a805bc3453dbb66e246d8271839.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839)</div>
-<!-- loio6f778a805bc3453dbb66e246d8271839 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839)</div>
 
 ## Defining Column Width
 

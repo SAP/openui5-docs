@@ -1,11 +1,12 @@
+<!-- loiod1ffe611194b4c7891772b0cce84648e -->
+
 | loio |
 | -----|
 | d1ffe611194b4c7891772b0cce84648e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d1ffe611194b4c7891772b0cce84648e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e)</div>
-<!-- loiod1ffe611194b4c7891772b0cce84648e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e)</div>
 
 ## Step 5: Using Object Page Layout as a Detail Page
 

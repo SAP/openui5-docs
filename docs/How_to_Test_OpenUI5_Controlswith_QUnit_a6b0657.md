@@ -1,11 +1,12 @@
+<!-- loioa6b0657d226343da81ad96632cd1bd83 -->
+
 | loio |
 | -----|
 | a6b0657d226343da81ad96632cd1bd83 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a6b0657d226343da81ad96632cd1bd83.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a6b0657d226343da81ad96632cd1bd83) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a6b0657d226343da81ad96632cd1bd83)</div>
-<!-- loioa6b0657d226343da81ad96632cd1bd83 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a6b0657d226343da81ad96632cd1bd83) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a6b0657d226343da81ad96632cd1bd83)</div>
 
 ## How to Test OpenUI5 Controls with QUnit
 
@@ -46,7 +47,7 @@ Internally, we use three templates for testing. The one shown below is the gener
 
 Use the following pattern to structure your tests. If everyone sticks to this same pattern, you will be able to read your colleagues' tests very quickly:
 
-```lang-js
+``` js
 
 QUnit.test("Should do Something", function (assert) { 
     // Arrange
@@ -141,7 +142,7 @@ The call to this function synchronizes the changes of your control with the DOM.
 
 You can use the following template to make sure that you don't forget to destroy your control:
 
-```lang-js
+``` js
 QUnit.test("Should do Something", function(assert) {
     // Arrange
         var oContructor = {

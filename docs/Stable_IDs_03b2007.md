@@ -1,11 +1,12 @@
+<!-- loio03b20076e8c64e5fb72c79445017d92b -->
+
 | loio |
 | -----|
 | 03b20076e8c64e5fb72c79445017d92b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/03b20076e8c64e5fb72c79445017d92b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/03b20076e8c64e5fb72c79445017d92b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/03b20076e8c64e5fb72c79445017d92b)</div>
-<!-- loio03b20076e8c64e5fb72c79445017d92b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/03b20076e8c64e5fb72c79445017d92b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/03b20076e8c64e5fb72c79445017d92b)</div>
 
 ## Stable IDs
 

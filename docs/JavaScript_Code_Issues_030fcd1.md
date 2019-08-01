@@ -1,11 +1,12 @@
+<!-- loio030fcd14963048218488048f407f8f34 -->
+
 | loio |
 | -----|
 | 030fcd14963048218488048f407f8f34 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/030fcd14963048218488048f407f8f34.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34)</div>
-<!-- loio030fcd14963048218488048f407f8f34 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34)</div>
 
 ## JavaScript Code Issues
 
@@ -80,6 +81,7 @@ sap.ui.define(['sap/m/Input'], function(Input) {
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### Exceptions
@@ -158,19 +160,13 @@ Examples<a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 oControl.onAfterRendering = function() {
        // do something
 };
 ```
 			</td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 oControl.addEventDelegate({
     onAfterRendering:function() {
         // do something
@@ -183,6 +179,7 @@ oControl.addEventDelegate({
 			<td>`oControl.prototype.setText = function(){ ... };`</td>
 	</tbody>
 </table>
+
 See also: [sap.ui.core.Element - addEventDelegate](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/addEventDelegate).
 
 ***
@@ -211,10 +208,7 @@ Examples<a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>
 	<tbody>
 		<tr>
 			<td>`oControl.$().find(".sapMLabel")[0].innerHTML = "reallybad";`</td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 oControl.addEventDelegate({
 	"onAfterRendering": function() {
 		var $label = oControl.$().find(".sapMLabel");
@@ -231,6 +225,7 @@ oControl.addEventDelegate({
 			<td>`oControl.$().find(".sapMLabel").remove();`</td>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio030fcd14963048218488048f407f8f34__5"/>
@@ -243,7 +238,7 @@ If you are creating event handlers in custom controls, you can use listen to DOM
 
 Good example for arbitrary events:
 
-```lang-js
+``` js
 
 oControl.attachBrowserEvent("mousemove", function() {
 	// do something
@@ -252,7 +247,7 @@ oControl.attachBrowserEvent("mousemove", function() {
 
 Good example for wide but limited selection of browser events:
 
-```lang-js
+``` js
 
 oControl.addEventDelegate({
         onmouseover:function() {
@@ -286,20 +281,14 @@ Examples<a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 createContent: function(oController) {
 	var btn = new sap.m.Button("myBtn", {text: "Hello"});
 	return btn;
 }
 ```
 			</td>
-			<td> 
-
-```
-lang-js
+			<td> ``` js
 createContent: function(oController) {
 	var btn = new sap.m.Button(this.createId("myBtn"), {text: "Hello"});
 	return btn;
@@ -309,6 +298,7 @@ createContent: function(oController) {
 		</tr>
 	</tbody>
 </table>
+
 See also: [sap.ui.core.mvc.View - createId](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/createId).
 
 ***
@@ -384,22 +374,17 @@ Examples<a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-jsjQuery.ajax("someData.json");
+			<td> ``` jsjQuery.ajax("someData.json");
 setTimeout(fnProcessResults, 300);
 ```
 			</td>
-			<td> 
-
-```
-lang-jsjQuery.ajax("someData.json").done(fnProcessResults);
+			<td> ``` jsjQuery.ajax("someData.json").done(fnProcessResults);
 ```
 			</td>
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loio030fcd14963048218488048f407f8f34__12"/>

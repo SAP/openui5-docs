@@ -1,11 +1,12 @@
+<!-- loio2e61ab6c68a2480eb666c1927a707658 -->
+
 | loio |
 | -----|
 | 2e61ab6c68a2480eb666c1927a707658 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2e61ab6c68a2480eb666c1927a707658.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658)</div>
-<!-- loio2e61ab6c68a2480eb666c1927a707658 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658)</div>
 
 ## Object Page Layout
 
@@ -63,7 +64,7 @@ XML view:
 
 JavaScript view:
 
-```lang-js
+``` js
 // Create a header title, set the objectTitle property and add some action buttons
 var oHeaderTitle = new sap.uxap.ObjectPageHeader();
 oHeaderTitle.setObjectTitle("John Smith");
@@ -120,7 +121,7 @@ XML view:
 
 JavaScript view:
 
-```lang-js
+``` js
 var oSubSection1 = new sap.uxap.ObjectPageSubSection({title:"sub payroll title"});
     var oSection1 = new sap.uxap.ObjectPageSection({title:"Payroll"});
     oSection1.addSubSection(oSubSection1);

@@ -1,11 +1,12 @@
+<!-- loioc6e0122ca9874844a214018bec02e74a -->
+
 | loio |
 | -----|
 | c6e0122ca9874844a214018bec02e74a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c6e0122ca9874844a214018bec02e74a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6e0122ca9874844a214018bec02e74a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6e0122ca9874844a214018bec02e74a)</div>
-<!-- loioc6e0122ca9874844a214018bec02e74a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6e0122ca9874844a214018bec02e74a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6e0122ca9874844a214018bec02e74a)</div>
 
 ## Properties and Property Bindings
 

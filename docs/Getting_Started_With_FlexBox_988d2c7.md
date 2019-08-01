@@ -1,11 +1,12 @@
+<!-- loio988d2c7652684dea98f9d6dbc94000c0 -->
+
 | loio |
 | -----|
 | 988d2c7652684dea98f9d6dbc94000c0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/988d2c7652684dea98f9d6dbc94000c0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/988d2c7652684dea98f9d6dbc94000c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/988d2c7652684dea98f9d6dbc94000c0)</div>
-<!-- loio988d2c7652684dea98f9d6dbc94000c0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/988d2c7652684dea98f9d6dbc94000c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/988d2c7652684dea98f9d6dbc94000c0)</div>
 
 ## Getting Started With FlexBox
 
@@ -15,7 +16,7 @@ You can either use the `addItem` method \(see option 1\), or the `items` aggrega
 
 Option 1
 
-```lang-js
+``` js
 
 var oMyFlexbox = new sap.m.FlexBox();
 oMyFlexbox.addItem( new sap.m.Button({text: "Button 1"}) );
@@ -24,7 +25,7 @@ oMyFlexbox.addItem( new sap.m.Button({text: "Button 2"}) );
 
 Option 2
 
-```lang-js
+``` js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -46,7 +47,7 @@ The following figure gives an example how the result looks like if used inside a
 
 Some properties that affect the layout need to be set in the `FlexBox` control. Other properties can be attached to the controls which are placed inside the `FlexBox` by means of the `layoutData` aggregation. The layout direction, for example is set in the `FlexBox` as follows:
 
-```lang-js
+``` js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -61,7 +62,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 The order is attached to the button inside a `FlexItemData` object as follows:
 
-```lang-js
+``` js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -83,7 +84,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 The controls that you place in the `FlexBox` control are each wrapped in a `DIV` or `LI` element, depending on the `renderType` property. All elements are placed inside another `DIV` or `UL` container, again depending on the `renderType`. If you use `Bare` as `renderType`, elements will be rendered without a wrapping HTML tag. The outermost element represents the so-called *flex container* while its child elements are *flex items*. The HTML structure resulting from all of the examples above looks as follows:
 
-```lang-html
+``` html
 
 <div class="sapMFlexBox">
 

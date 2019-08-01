@@ -1,11 +1,12 @@
+<!-- loio4da72985139b4b83b5f1c1e0c0d2ed5a -->
+
 | loio |
 | -----|
 | 4da72985139b4b83b5f1c1e0c0d2ed5a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4da72985139b4b83b5f1c1e0c0d2ed5a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)</div>
-<!-- loio4da72985139b4b83b5f1c1e0c0d2ed5a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)</div>
 
 ## Step 16: Dialogs and Fragments
 

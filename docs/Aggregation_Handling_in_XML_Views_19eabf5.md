@@ -1,11 +1,12 @@
+<!-- loio19eabf5b13214f27b929b9473df3195b -->
+
 | loio |
 | -----|
 | 19eabf5b13214f27b929b9473df3195b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/19eabf5b13214f27b929b9473df3195b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b)</div>
-<!-- loio19eabf5b13214f27b929b9473df3195b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b)</div>
 
 ## Aggregation Handling in XML Views
 
@@ -36,7 +37,7 @@ Some controls have more than one content area, for example the shell control tha
 
 You fill aggregations as shown in the following example. The namespace of the parent control tag and the aggregation tag must be the same.
 
-```lang-xml
+``` xml
 
 <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
    <Panel>

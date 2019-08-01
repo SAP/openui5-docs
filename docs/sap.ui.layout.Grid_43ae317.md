@@ -1,11 +1,12 @@
+<!-- loio43ae317cf39640a88bc8be979d2671df -->
+
 | loio |
 | -----|
 | 43ae317cf39640a88bc8be979d2671df |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/43ae317cf39640a88bc8be979d2671df.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df)</div>
-<!-- loio43ae317cf39640a88bc8be979d2671df -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df)</div>
 
 ## sap.ui.layout.Grid
 
@@ -61,6 +62,7 @@ You can use the `sap.ui.layout.Grid` on its own or in combination with the `sap.
 			<td>Defines the number of columns with which each item is indented for the different screen/container sizes \(XL, L, M, and S\). Each item can be indented with several grid columns \(from 0 to 11\).</td>
 	</tbody>
 </table>
+
 More properties are available for defining the horizontal and vertical spacing between the grid items, setting a specific width, defining the position for the grid as a whole, and so on.For more information, see the available properties in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid/controlProperties).
 
 ***
@@ -72,19 +74,19 @@ To achieve a layout where the individual grid items have a different configurati
 In addition to individual span and indentation, there is a large number of properties that allow for setting the visibility of items and adding line breaks.For more information, see the available properties in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.GridData/controlProperties).
 
 ***
-```
 
- |XL container/screen size \(one item spans over 3 columns\)![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)L container/screen size \(one item spans over 4 columns\)![](loio946464afb7da47d689a69896b96af818_LowRes.png)M container/screen size \(one item spans over 6 columns\)![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)S container/screen size \(one item spans over 12 columns\)![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)|
-| ```lang-xml
+#### Examples
+
+| ``` xml
 <l:Grid
-		defaultSpan="*HIGHLIGHT START*XL3*HIGHLIGHT END* L4 M6 S12"
-		defaultIndent="*HIGHLIGHT START*XL1*HIGHLIGHT END* L1 M1 S1">
+		defaultSpan="**XL3 L4 M6 S12**">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%"></Image>
 	<Image src="/item3.png" width="100%"></Image>
 	<Image src="/item4.png" width="100%"></Image>
 </l:Grid>
 ```
+
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
@@ -108,10 +110,7 @@ In addition to individual span and indentation, there is a large number of prope
 			<td>XL container/screen size \(items are indented with 1 column\)
 
 ![](loiod86735c6b14d4e6c89b0c6313680351a_LowRes.png)</td>
-			<td> 
-
-```
-lang-xml<l:Grid
+			<td> ``` xml<l:Grid
 		defaultSpan="XL3 L4 M6 S6">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%">
@@ -133,6 +132,7 @@ lang-xml<l:Grid
 ![](loio147f0975ec374b01ab642678664fc206_LowRes.png)</td>
 	</tbody>
 </table>
+
 **Related information**  
 
 

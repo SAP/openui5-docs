@@ -1,11 +1,12 @@
+<!-- loioce4b180d97064ad088a901b53ed48b21 -->
+
 | loio |
 | -----|
 | ce4b180d97064ad088a901b53ed48b21 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ce4b180d97064ad088a901b53ed48b21.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21)</div>
-<!-- loioce4b180d97064ad088a901b53ed48b21 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21)</div>
 
 ## Cookbook for OPA5
 
@@ -17,7 +18,7 @@ Advanced topics and best practices for OPA tests.
 
 If you skip all parameters except for the `success` parameter, you can execute your code after the other `waitFors` are done. Since there is no `check` function, OPA runs directly to `success`.
 
-```lang-js
+``` js
 
 iChangeTheHashToTheThirdProduct : function () {
         return this.waitFor({
@@ -39,7 +40,7 @@ To check special conditions, for example, how one control relates to another con
 -   Storing the control in the OPA context: Use this option if you have to pass the parameter, for example, across some page objects.
 
 
-```lang-js
+``` js
 
 iDoSomething: function () {
         var oControl;
@@ -73,7 +74,7 @@ iDoSomething: function () {
 
 As of version 1.48, you can easily specify URL parameters that are relevant for the application being tested. Simply place them in the `appParams` object under `Opa5.extendConfig()`. Only primitive types are supported. The provided object is serialized to URL search string and all parameters are available to the application being tested.
 
-```lang-js
+``` js
 Opa5.extendConfig({
     appParams: {
         "key": "value"
@@ -174,7 +175,7 @@ If a test has to be adapted after recent changes, you have to disable it tempora
 
 Example:
 
-```lang-js
+``` js
 oOpa.waitFor({
     success: function () {
         Opa5.assert.ok(false, "Should not report test that needs adaptation");

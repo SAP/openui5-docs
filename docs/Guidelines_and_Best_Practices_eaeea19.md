@@ -1,11 +1,12 @@
+<!-- loioeaeea19a991d46f29e6d8d8827317d0e -->
+
 | loio |
 | -----|
 | eaeea19a991d46f29e6d8d8827317d0e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/eaeea19a991d46f29e6d8d8827317d0e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eaeea19a991d46f29e6d8d8827317d0e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eaeea19a991d46f29e6d8d8827317d0e)</div>
-<!-- loioeaeea19a991d46f29e6d8d8827317d0e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eaeea19a991d46f29e6d8d8827317d0e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eaeea19a991d46f29e6d8d8827317d0e)</div>
 
 ## Guidelines and Best Practices
 
@@ -134,6 +135,7 @@ The following table contains guidelines and examples on how to set the rule prop
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 <a name="loioeaeea19a991d46f29e6d8d8827317d0e__section_qpw_fn5_tz"/>

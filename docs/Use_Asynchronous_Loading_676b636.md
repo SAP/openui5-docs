@@ -1,11 +1,12 @@
+<!-- loio676b636446c94eada183b1218a824717 -->
+
 | loio |
 | -----|
 | 676b636446c94eada183b1218a824717 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/676b636446c94eada183b1218a824717.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717)</div>
-<!-- loio676b636446c94eada183b1218a824717 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717)</div>
 
 ## Use Asynchronous Loading
 
@@ -21,7 +22,7 @@ As OpenUI5 is evolving, the loading processes in the background were significant
 
 Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. This loads the modules for all declared libraries asynchronously. If you have other HTML files in your app, you should to this there as well.
 
-```lang-html
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +45,7 @@ Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. 
 
 To also load all application-specific configuration settings asynchronously, set the `async` property in the metadata of the `manifest.json` file to `true`.
 
-```lang-js
+``` js
 "sap.ui5": {
 		"rootView": {
 			"viewName": "sap.ui.demo.worklist.view.App",

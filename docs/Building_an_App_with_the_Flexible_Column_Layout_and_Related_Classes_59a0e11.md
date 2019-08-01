@@ -1,11 +1,12 @@
+<!-- loio59a0e11712e84a648bb990a1dba76bc7 -->
+
 | loio |
 | -----|
 | 59a0e11712e84a648bb990a1dba76bc7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/59a0e11712e84a648bb990a1dba76bc7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/59a0e11712e84a648bb990a1dba76bc7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/59a0e11712e84a648bb990a1dba76bc7)</div>
-<!-- loio59a0e11712e84a648bb990a1dba76bc7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/59a0e11712e84a648bb990a1dba76bc7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/59a0e11712e84a648bb990a1dba76bc7)</div>
 
 ## Building an App with the Flexible Column Layout and Related Classes
 

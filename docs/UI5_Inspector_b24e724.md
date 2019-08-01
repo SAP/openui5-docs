@@ -1,11 +1,12 @@
+<!-- loiob24e72443eb34d0fb7bf6940f2d697eb -->
+
 | loio |
 | -----|
 | b24e72443eb34d0fb7bf6940f2d697eb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b24e72443eb34d0fb7bf6940f2d697eb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b24e72443eb34d0fb7bf6940f2d697eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b24e72443eb34d0fb7bf6940f2d697eb)</div>
-<!-- loiob24e72443eb34d0fb7bf6940f2d697eb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b24e72443eb34d0fb7bf6940f2d697eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b24e72443eb34d0fb7bf6940f2d697eb)</div>
 
 ## UI5 Inspector
 

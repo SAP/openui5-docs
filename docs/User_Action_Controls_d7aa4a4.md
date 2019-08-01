@@ -1,11 +1,12 @@
+<!-- loiod7aa4a4e98b24181b7f013bea33a8df9 -->
+
 | loio |
 | -----|
 | d7aa4a4e98b24181b7f013bea33a8df9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d7aa4a4e98b24181b7f013bea33a8df9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d7aa4a4e98b24181b7f013bea33a8df9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d7aa4a4e98b24181b7f013bea33a8df9)</div>
-<!-- loiod7aa4a4e98b24181b7f013bea33a8df9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d7aa4a4e98b24181b7f013bea33a8df9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d7aa4a4e98b24181b7f013bea33a8df9)</div>
 
 ## User Action Controls
 
@@ -93,3 +94,4 @@ Screen Reader Behavior in Input Controls<a name="loiod7aa4a4e98b24181b7f013bea33
 		</tr>
 	</tbody>
 </table>
+

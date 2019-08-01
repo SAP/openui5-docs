@@ -1,11 +1,12 @@
+<!-- loioa075ed88ef324261bca41813a6ac4a1c -->
+
 | loio |
 | -----|
 | a075ed88ef324261bca41813a6ac4a1c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a075ed88ef324261bca41813a6ac4a1c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c)</div>
-<!-- loioa075ed88ef324261bca41813a6ac4a1c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c)</div>
 
 ## Legacy jQuery.sap Replacement
 
@@ -1039,6 +1040,7 @@ sap.ui.require.toUrl("some/path/to/resource.json");
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### Replacement with Native Browser APIs
@@ -1226,6 +1228,7 @@ window.devicePixelRatio >= 2
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 #### jQuery Extensions Dependencies

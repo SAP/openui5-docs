@@ -1,11 +1,12 @@
+<!-- loio782aac08f2de4003a2fcbdd39d27f374 -->
+
 | loio |
 | -----|
 | 782aac08f2de4003a2fcbdd39d27f374 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/782aac08f2de4003a2fcbdd39d27f374.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
-<!-- loio782aac08f2de4003a2fcbdd39d27f374 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
 
 ## Step 6: Navigate to Routes with Hard-Coded Patterns
 

@@ -1,11 +1,12 @@
+<!-- loiof5f6a475d58a4b39923465221b485d6c -->
+
 | loio |
 | -----|
 | f5f6a475d58a4b39923465221b485d6c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f5f6a475d58a4b39923465221b485d6c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5f6a475d58a4b39923465221b485d6c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5f6a475d58a4b39923465221b485d6c)</div>
-<!-- loiof5f6a475d58a4b39923465221b485d6c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5f6a475d58a4b39923465221b485d6c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5f6a475d58a4b39923465221b485d6c)</div>
 
 ## Scrolling: Implementation Details
 
@@ -37,7 +38,7 @@ A custom control that needs to provide a scrollable area for its content should 
 
 Example:
 
-```lang-js
+``` js
 
 myCustomScroller.prototype.onAfterRendering = function() {
   if(!this._oScroller){

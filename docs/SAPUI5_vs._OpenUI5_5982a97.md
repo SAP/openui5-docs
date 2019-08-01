@@ -1,11 +1,12 @@
+<!-- loio5982a9734748474aa8d4af9c3d8f31c0 -->
+
 | loio |
 | -----|
 | 5982a9734748474aa8d4af9c3d8f31c0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5982a9734748474aa8d4af9c3d8f31c0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
-<!-- loio5982a9734748474aa8d4af9c3d8f31c0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
 
 ## SAPUI5 vs. OpenUI5
 

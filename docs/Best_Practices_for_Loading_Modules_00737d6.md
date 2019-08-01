@@ -1,11 +1,12 @@
+<!-- loio00737d6c1b864dc3ab72ef56611491c4 -->
+
 | loio |
 | -----|
 | 00737d6c1b864dc3ab72ef56611491c4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/00737d6c1b864dc3ab72ef56611491c4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/00737d6c1b864dc3ab72ef56611491c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/00737d6c1b864dc3ab72ef56611491c4)</div>
-<!-- loio00737d6c1b864dc3ab72ef56611491c4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/00737d6c1b864dc3ab72ef56611491c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/00737d6c1b864dc3ab72ef56611491c4)</div>
 
 ## Best Practices for Loading Modules
 
@@ -30,7 +31,7 @@ Every OpenUI5 module file must contain exactly one unnamed module definition on 
 
 `myLib/MyModuleA.js`
 
-```lang-js
+``` js
 sap.ui.define(function(){
     ...
 });
@@ -49,7 +50,7 @@ A module must always be addressed with the unique module name. The module name i
 
 `myLib/MyModuleB.js`
 
-```lang-js
+``` js
 sap.ui.define(["myLib/MyModuleA"], function(MyModuleA){  
     ...  
 });

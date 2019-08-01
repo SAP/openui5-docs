@@ -1,11 +1,12 @@
+<!-- loio78880c09a1954a02b49c21357d45c91f -->
+
 | loio |
 | -----|
 | 78880c09a1954a02b49c21357d45c91f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/78880c09a1954a02b49c21357d45c91f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f)</div>
-<!-- loio78880c09a1954a02b49c21357d45c91f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f)</div>
 
 ## Performance Measurement Using sap/ui/performance/Measurement Module
 
@@ -43,7 +44,7 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 
 -   Create a measurement in your code with:
 
-```lang-js
+``` js
 // "Log" required from module "sap/base/Log"
 // "Measurement" required from module "sap/ui/performance/Measurement"
 Measurement.setActive(true);

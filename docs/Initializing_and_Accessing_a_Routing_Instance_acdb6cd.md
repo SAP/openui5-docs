@@ -1,11 +1,12 @@
+<!-- loioacdb6cd408ec4b9eb5e1fe45e607abdd -->
+
 | loio |
 | -----|
 | acdb6cd408ec4b9eb5e1fe45e607abdd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/acdb6cd408ec4b9eb5e1fe45e607abdd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/acdb6cd408ec4b9eb5e1fe45e607abdd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/acdb6cd408ec4b9eb5e1fe45e607abdd)</div>
-<!-- loioacdb6cd408ec4b9eb5e1fe45e607abdd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/acdb6cd408ec4b9eb5e1fe45e607abdd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/acdb6cd408ec4b9eb5e1fe45e607abdd)</div>
 
 ## Initializing and Accessing a Routing Instance
 
@@ -47,7 +48,7 @@ The router instance is automatically destroyed when the component is destroyed.
 
 To access the router and to use its functions, use the `getRouter()` function or the static `getRouterFor` function of the UI component. You can pass either a controller, or a view:
 
-```lang-js
+``` js
 
 var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 ```

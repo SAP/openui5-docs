@@ -1,11 +1,12 @@
+<!-- loio84ec82e7498345ccbfcd754d4578313b -->
+
 | loio |
 | -----|
 | 84ec82e7498345ccbfcd754d4578313b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/84ec82e7498345ccbfcd754d4578313b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b)</div>
-<!-- loio84ec82e7498345ccbfcd754d4578313b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b)</div>
 
 ## Sliders
 

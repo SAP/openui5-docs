@@ -1,11 +1,12 @@
+<!-- loiod935dbf196d34997bf1ac42ac3e81579 -->
+
 | loio |
 | -----|
 | d935dbf196d34997bf1ac42ac3e81579 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d935dbf196d34997bf1ac42ac3e81579.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579)</div>
-<!-- loiod935dbf196d34997bf1ac42ac3e81579 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579)</div>
 
 ## Step 37: Content Density
 

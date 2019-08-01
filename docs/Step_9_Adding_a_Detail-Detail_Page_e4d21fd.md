@@ -1,11 +1,12 @@
+<!-- loioe4d21fd03edb49da82cbaab9dbd274e8 -->
+
 | loio |
 | -----|
 | e4d21fd03edb49da82cbaab9dbd274e8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e4d21fd03edb49da82cbaab9dbd274e8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8)</div>
-<!-- loioe4d21fd03edb49da82cbaab9dbd274e8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8)</div>
 
 ## Step 9: Adding a Detail-Detail Page
 

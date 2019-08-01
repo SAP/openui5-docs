@@ -1,11 +1,12 @@
+<!-- loio46c1ca4eb2804af6bfa371ad51c9b887 -->
+
 | loio |
 | -----|
 | 46c1ca4eb2804af6bfa371ad51c9b887 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/46c1ca4eb2804af6bfa371ad51c9b887.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
-<!-- loio46c1ca4eb2804af6bfa371ad51c9b887 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
 
 ## Step 3: Handling Custom URL Parameters
 

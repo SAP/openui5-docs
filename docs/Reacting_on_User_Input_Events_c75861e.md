@@ -1,11 +1,12 @@
+<!-- loioc75861e33942410d9ac77322763db203 -->
+
 | loio |
 | -----|
 | c75861e33942410d9ac77322763db203 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c75861e33942410d9ac77322763db203.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203)</div>
-<!-- loioc75861e33942410d9ac77322763db203 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203)</div>
 
 ## Reacting on User Input Events
 

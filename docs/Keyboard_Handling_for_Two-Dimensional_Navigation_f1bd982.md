@@ -1,11 +1,12 @@
+<!-- loiof1bd982c780445c6ae2ccdf2b3f478da -->
+
 | loio |
 | -----|
 | f1bd982c780445c6ae2ccdf2b3f478da |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f1bd982c780445c6ae2ccdf2b3f478da.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da)</div>
-<!-- loiof1bd982c780445c6ae2ccdf2b3f478da -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da)</div>
 
 ## Keyboard Handling for Two-Dimensional Navigation
 
@@ -87,3 +88,4 @@ The following keys and key combinations are used for navigation in two-dimension
 		</tr>
 	</tbody>
 </table>
+

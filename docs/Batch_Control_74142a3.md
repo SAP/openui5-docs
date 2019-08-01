@@ -1,11 +1,12 @@
+<!-- loio74142a38e3d4467c8d6a70b28764048f -->
+
 | loio |
 | -----|
 | 74142a38e3d4467c8d6a70b28764048f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/74142a38e3d4467c8d6a70b28764048f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f)</div>
-<!-- loio74142a38e3d4467c8d6a70b28764048f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f)</div>
 
 ## Batch Control
 
@@ -52,7 +53,7 @@ Code example: Updates for the sales order note through two-way binding will use 
 
 **Batch group usage for binding created via JavaScript:**
 
-```lang-js
+``` js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({serviceUrl : "/myService/", synchronizationMode : "None"}),
@@ -65,7 +66,7 @@ XML view sample: Declares controls which create the context binding \(in the `Si
 
 **Batch group usage for bindings created via XML view:**
 
-```lang-xml
+``` xml
 
 <form:SimpleForm binding="{path : '/SalesOrderList(SalesOrderID=\'42\')', parameters : {$$updateGroupId : 'myGroup'}}" editable="true" ...>
     <Label labelFor="Note" text="Note" /> 
@@ -106,7 +107,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 #### Example: View
 
-```lang-js
+``` js
 
 <Toolbar design="Transparent">
     <content>
@@ -126,7 +127,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 #### Example: Controller
 
-```lang-js
+``` js
 onCancelSalesOrder : function (oEvent) {
     this.getView().getModel().resetChanges("SalesOrderUpdateGroup");
 },

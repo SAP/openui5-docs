@@ -1,11 +1,12 @@
+<!-- loio8f93bf2b2b13402e9f035128ce8b495f -->
+
 | loio |
 | -----|
 | 8f93bf2b2b13402e9f035128ce8b495f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8f93bf2b2b13402e9f035128ce8b495f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
-<!-- loio8f93bf2b2b13402e9f035128ce8b495f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
 
 ## Step 10: Descriptor for Applications
 

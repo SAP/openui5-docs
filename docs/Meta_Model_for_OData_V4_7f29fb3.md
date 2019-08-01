@@ -1,11 +1,12 @@
+<!-- loio7f29fb3ce5964d8090038a9d3cdf5060 -->
+
 | loio |
 | -----|
 | 7f29fb3ce5964d8090038a9d3cdf5060 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7f29fb3ce5964d8090038a9d3cdf5060.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
-<!-- loio7f29fb3ce5964d8090038a9d3cdf5060 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
 
 ## Meta Model for OData V4
 
@@ -60,7 +61,7 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 **Example of an OData V4 XML template:**
 
-```lang-xml
+``` xml
 <mvc:View
         template:require="{AnnotationHelper : 'sap/ui/model/odata/v4/AnnotationHelper'}"
         xmlns="sap.m"
@@ -147,7 +148,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
 -   [`getValueListType`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ValueListType.html). It can be called directly on a property:
 
-    ```lang-xml
+    ``` xml
     
     <template:with path="/BusinessPartnerList/Role" var="property">
         <template:if test="{= ${property>@@AnnotationHelper.getValueListType} === 'Fixed'}">
@@ -159,7 +160,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
 Alternatively it can be called on an annotation holding an `[edm:Path](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752658)` to a property when it is called in the context of an entity type. This is typically the case when iterating over a `com.sap.vocabularies.UI.v1.LineItem` annotation of an entity type and asking for value help on the data fields. See the example regarding `LineItem` of `BusinessPartnerList` \(the relevant parts are repeated here\):
 
-```lang-xml
+``` xml
 
 <template:with path="meta>/BusinessPartnerList/" var="entityType">
   <template:with path="entityType>@com.sap.vocabularies.UI.v1.LineItem" var="lineItem">

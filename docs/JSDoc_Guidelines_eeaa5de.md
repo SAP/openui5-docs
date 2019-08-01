@@ -1,11 +1,12 @@
+<!-- loioeeaa5de14e5f4fc1ac796bc0c1ada5fb -->
+
 | loio |
 | -----|
 | eeaa5de14e5f4fc1ac796bc0c1ada5fb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/eeaa5de14e5f4fc1ac796bc0c1ada5fb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eeaa5de14e5f4fc1ac796bc0c1ada5fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eeaa5de14e5f4fc1ac796bc0c1ada5fb)</div>
-<!-- loioeeaa5de14e5f4fc1ac796bc0c1ada5fb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eeaa5de14e5f4fc1ac796bc0c1ada5fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eeaa5de14e5f4fc1ac796bc0c1ada5fb)</div>
 
 ## JSDoc Guidelines
 
@@ -153,10 +154,7 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 		<tr>
 			<td>@param</td>
 			<td>Adds parameters</td>
-			<td> 
-
-```
-lang-js/**
+			<td> ``` js/**
  * ...
  * @param {string} statement The SQL statement to be prepared
  * ...
@@ -214,10 +212,7 @@ lang-js/**
 		<tr>
 			<td>@example</td>
 			<td>Inserts a code sample after the comment</td>
-			<td> 
-
-```
-lang-js/**
+			<td> ``` js/**
  * ...
  * @example
  * var id = myjob.schedules.add({
@@ -230,6 +225,7 @@ lang-js/**
 			<td>The code sample is inserted automatically with <pre\>. It is always inserted right after the comment. To insert an example somewhere else, for example, in the middle of a comment, use <pre\>. You can add a header for the example by using <caption\>.</td>
 	</tbody>
 </table>
+
 ***
 
 #### Tips for Using Block Tags

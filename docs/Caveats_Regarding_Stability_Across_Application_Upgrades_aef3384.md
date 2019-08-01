@@ -1,11 +1,12 @@
+<!-- loioaef3384510724522a07df94ec90d1351 -->
+
 | loio |
 | -----|
 | aef3384510724522a07df94ec90d1351 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/aef3384510724522a07df94ec90d1351.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/aef3384510724522a07df94ec90d1351) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/aef3384510724522a07df94ec90d1351)</div>
-<!-- loioaef3384510724522a07df94ec90d1351 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/aef3384510724522a07df94ec90d1351) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/aef3384510724522a07df94ec90d1351)</div>
 
 ## Caveats Regarding Stability Across Application Upgrades
 

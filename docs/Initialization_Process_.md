@@ -1,11 +1,12 @@
+<!-- loio91f2c9076f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f2c9076f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f2c9076f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070)</div>
-<!-- loio91f2c9076f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070)</div>
 
 ## Initialization Process
 
@@ -36,7 +37,7 @@ The initialization of the OpenUI5 runtime comprises the following steps:
 
 The optimal point in time to execute or start an application is after the framework has been initialized. You can use the `attachInit` function to determine this point in time: The callback of the [`attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized.
 
-```lang-js
+``` js
 sap.ui.getCore().attachInit(function(){
     // application can be started
 });

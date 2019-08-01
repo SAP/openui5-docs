@@ -1,11 +1,12 @@
+<!-- loioddbceecd7d3d42eea9cf78a820a238fb -->
+
 | loio |
 | -----|
 | ddbceecd7d3d42eea9cf78a820a238fb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ddbceecd7d3d42eea9cf78a820a238fb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)</div>
-<!-- loioddbceecd7d3d42eea9cf78a820a238fb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)</div>
 
 ## Step 3: Controls
 

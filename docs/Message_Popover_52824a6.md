@@ -1,11 +1,12 @@
+<!-- loio52824a6c316a413dbd7bd5f29522dce2 -->
+
 | loio |
 | -----|
 | 52824a6c316a413dbd7bd5f29522dce2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/52824a6c316a413dbd7bd5f29522dce2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/52824a6c316a413dbd7bd5f29522dce2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/52824a6c316a413dbd7bd5f29522dce2)</div>
-<!-- loio52824a6c316a413dbd7bd5f29522dce2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/52824a6c316a413dbd7bd5f29522dce2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/52824a6c316a413dbd7bd5f29522dce2)</div>
 
 ## Message Popover
 
@@ -46,7 +47,7 @@ The `MessagePopover` control allows app developers to provide a long-text descri
 
 Sometimes, you may need to validate all links by default. You can do this with the following function property:
 
-```lang-js
+``` js
 
 asyncURLHandler: function(config){
 	config.promise.resolve({

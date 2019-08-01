@@ -1,11 +1,12 @@
+<!-- loio2abc8ffc18b34c6b991165fc017b87a9 -->
+
 | loio |
 | -----|
 | 2abc8ffc18b34c6b991165fc017b87a9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2abc8ffc18b34c6b991165fc017b87a9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2abc8ffc18b34c6b991165fc017b87a9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2abc8ffc18b34c6b991165fc017b87a9)</div>
-<!-- loio2abc8ffc18b34c6b991165fc017b87a9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2abc8ffc18b34c6b991165fc017b87a9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2abc8ffc18b34c6b991165fc017b87a9)</div>
 
 ## Aggregations
 
@@ -13,7 +14,7 @@ This sections shows you a use case for aggregations in the XML composite control
 
 If you would like to define an aggregation within a control used in the XML composite control, you proceed as usual:
 
-```lang-js
+``` js
 sap.ui.define([
     'sap/ui/core/XMLComposite'], 
     function( XMLComposite ) {
@@ -34,7 +35,7 @@ sap.ui.define([
 
 For this use case, the fragment definition XML file might now look like this:
 
-```lang-xml
+``` xml
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
     <m:VBox items="{$this>/texts}">
         <m:Text text="{$this>text}" />
@@ -46,7 +47,7 @@ In the `items` template of the `VBox` \(in our case an `sap.m.Text`\), we bind t
 
 You can see an example of how you can use the XML composite control in the following HTML file:
 
-```lang-html
+``` html
 //add the TextList and place it in the page
 var oTextList = new fragments.TextList();
 oTextList.addText(new sap.ui.core.Item({text: "Text Item 1"}));

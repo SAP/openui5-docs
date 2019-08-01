@@ -1,11 +1,12 @@
+<!-- loioea4e8def934e447a961fb92841d6c025 -->
+
 | loio |
 | -----|
 | ea4e8def934e447a961fb92841d6c025 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ea4e8def934e447a961fb92841d6c025.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ea4e8def934e447a961fb92841d6c025) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ea4e8def934e447a961fb92841d6c025)</div>
-<!-- loioea4e8def934e447a961fb92841d6c025 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ea4e8def934e447a961fb92841d6c025) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ea4e8def934e447a961fb92841d6c025)</div>
 
 ## Model Instantiation
 
@@ -21,7 +22,7 @@ The templates instantiate the service and resource model automatically using the
 
 An external service is defined in the `dataSources` section of the `sap.app` namespace. In the example shown below, we configure an OData V2 model and the alias `"mainService"` in the `manifest.json` descriptor file:
 
-```lang-js
+``` js
 
 {
 	…
@@ -52,7 +53,7 @@ An external service is defined in the `dataSources` section of the `sap.app` nam
 
 In the models section of the `sap.ui5` namespace we define two models that will be instantiated automatically. The resource model is a named model \( i18n \) and the OData model is the default model so it has no name. The OData model also receives additional URL parameters via the `metadataUrlParams`. The parameters `sap-server`, `sap-client`, and `sap-language` are passed to the service automatically by OpenUI5, as shown in the following `manifest.json` code snippet:
 
-```lang-js
+``` js
 
 {
 	…

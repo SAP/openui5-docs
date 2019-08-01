@@ -1,11 +1,12 @@
+<!-- loio9373793b290d429ba1bc6aea1ce5482f -->
+
 | loio |
 | -----|
 | 9373793b290d429ba1bc6aea1ce5482f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9373793b290d429ba1bc6aea1ce5482f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
-<!-- loio9373793b290d429ba1bc6aea1ce5482f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
 
 ## Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models
 

@@ -1,11 +1,12 @@
+<!-- loio615d9e4aaa34447fbd4aa5f19dfde9b8 -->
+
 | loio |
 | -----|
 | 615d9e4aaa34447fbd4aa5f19dfde9b8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/615d9e4aaa34447fbd4aa5f19dfde9b8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/615d9e4aaa34447fbd4aa5f19dfde9b8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/615d9e4aaa34447fbd4aa5f19dfde9b8)</div>
-<!-- loio615d9e4aaa34447fbd4aa5f19dfde9b8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/615d9e4aaa34447fbd4aa5f19dfde9b8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/615d9e4aaa34447fbd4aa5f19dfde9b8)</div>
 
 ## Troubleshooting
 
@@ -55,6 +56,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 		</tr>
 	</tbody>
 </table>
+
 Performance Measurement Tools<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>
 
 |Tool|Use Case Examples|

@@ -1,11 +1,12 @@
+<!-- loio50079678e0cc4c8298f764580fc223d3 -->
+
 | loio |
 | -----|
 | 50079678e0cc4c8298f764580fc223d3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/50079678e0cc4c8298f764580fc223d3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50079678e0cc4c8298f764580fc223d3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50079678e0cc4c8298f764580fc223d3)</div>
-<!-- loio50079678e0cc4c8298f764580fc223d3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50079678e0cc4c8298f764580fc223d3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50079678e0cc4c8298f764580fc223d3)</div>
 
 ## Troubleshooting Common RTL Issues
 
@@ -76,3 +77,4 @@ RTL Issues and Solutions<a name="loio50079678e0cc4c8298f764580fc223d3__table_d53
 		</tr>
 	</tbody>
 </table>
+

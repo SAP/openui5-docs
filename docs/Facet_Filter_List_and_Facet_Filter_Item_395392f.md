@@ -1,11 +1,12 @@
+<!-- loio395392f30f2a4c4d80d110d5f923da77 -->
+
 | loio |
 | -----|
 | 395392f30f2a4c4d80d110d5f923da77 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/395392f30f2a4c4d80d110d5f923da77.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/395392f30f2a4c4d80d110d5f923da77) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/395392f30f2a4c4d80d110d5f923da77)</div>
-<!-- loio395392f30f2a4c4d80d110d5f923da77 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/395392f30f2a4c4d80d110d5f923da77) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/395392f30f2a4c4d80d110d5f923da77)</div>
 
 ## Facet Filter List and Facet Filter Item
 
@@ -58,7 +59,7 @@ The following example shows how you use the controls. To build the face filter i
 
 ![](loio118e5d5c01ed49ccbf00c174e87c416a_LowRes.png)
 
-```lang-js
+``` js
     
 var oFacetFilter = new sap.m.FacetFilter({ // define FacetFilter Control
         lists : [ new sap.m.FacetFilterList({ // city facet

@@ -1,11 +1,12 @@
+<!-- loiofcf5e9b5068f4e008779e520e546604b -->
+
 | loio |
 | -----|
 | fcf5e9b5068f4e008779e520e546604b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fcf5e9b5068f4e008779e520e546604b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fcf5e9b5068f4e008779e520e546604b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fcf5e9b5068f4e008779e520e546604b)</div>
-<!-- loiofcf5e9b5068f4e008779e520e546604b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fcf5e9b5068f4e008779e520e546604b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fcf5e9b5068f4e008779e520e546604b)</div>
 
 ## Use JavaScript and XML Templates
 

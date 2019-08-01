@@ -5,11 +5,11 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.69": {
+						"link": "What's_New_in_OpenUI51.69_41203fd.md"
+					},
 					"What's New in OpenUI5 1.68": {
 						"link": "What's_New_in_OpenUI51.68_5531aef.md"
-					},
-					"What's New in OpenUI5 1.67": {
-						"link": "What's_New_in_OpenUI5_1.67__0968958.md"
 					}
 				}
 			},
@@ -422,7 +422,7 @@
 							"Step 9: Allow Bookmarkable Tabs with Optional Query Parameters": {
 								"link": "Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md"
 							},
-							"Step 10: Implement Lazy Loading": {
+							"Step 10: Implement \"Lazy Loading\"": {
 								"link": "Step_10_Implement_Lazy_Loading_cdab0a1.md"
 							},
 							"Step 11: Assign Multiple Targets": {
@@ -763,6 +763,9 @@
 											},
 											"XML View Cache": {
 												"link": "XML_View_Cache_3d85d5e.md"
+											},
+											"Require Modules in XML View and Fragment": {
+												"link": "Require_Modules_in_XML_View_and_Fragment_b11d853.md"
 											}
 										}
 									},

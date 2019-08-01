@@ -1,11 +1,12 @@
+<!-- loio9c22d2ada0414d97837b845e1e85ab86 -->
+
 | loio |
 | -----|
 | 9c22d2ada0414d97837b845e1e85ab86 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9c22d2ada0414d97837b845e1e85ab86.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86)</div>
-<!-- loio9c22d2ada0414d97837b845e1e85ab86 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86)</div>
 
 ## Extensions for OPA5
 
@@ -46,7 +47,7 @@ For more information, see the *API Reference*: [ `Opa5.extendConfig()`](https://
 
 Custom extension class:
 
-```lang-js
+``` js
 sap.ui.define([
   'sap/ui/test/OpaExtension'
 ], function(OpaExtension) {
@@ -94,7 +95,7 @@ sap.ui.define([
 
 Activate this extension and provide some URI parameters to the application:
 
-```lang-js
+``` js
 Opa5.extendConfig({
   extensions: ["sap/ui/test/sample/CustomOpaExtension"],
   appParams: {
@@ -105,7 +106,7 @@ Opa5.extendConfig({
 
 Call the custom extension from the test:
 
-```lang-js
+``` js
 Opa5.createPageObjects({
   onMyView : {
     viewName : "MyView",

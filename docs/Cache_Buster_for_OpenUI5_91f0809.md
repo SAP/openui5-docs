@@ -1,11 +1,12 @@
+<!-- loio91f080966f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f080966f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f080966f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f080966f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f080966f4d1014b6dd926db0e91070)</div>
-<!-- loio91f080966f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f080966f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f080966f4d1014b6dd926db0e91070)</div>
 
 ## Cache Buster for OpenUI5
 
@@ -40,7 +41,7 @@ The bootstrap JavaScript will be included via the URL `resources/sap-ui-cachebus
 
 The basic mechanism is implemented in the `ResourceServlet`. For the request to the bootstrap JavaScript it now serves a JavaScript file with the following content:
 
-```lang-js
+``` js
 (function() {
   var sTimeStamp = '~20120716-0201~';
   var sScriptPath = 'sap\x2dui\x2dcore.js';

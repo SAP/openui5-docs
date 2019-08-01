@@ -1,11 +1,12 @@
+<!-- loiof2f843d375384d56bbf955a80ee66ab6 -->
+
 | loio |
 | -----|
 | f2f843d375384d56bbf955a80ee66ab6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f2f843d375384d56bbf955a80ee66ab6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
-<!-- loiof2f843d375384d56bbf955a80ee66ab6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
 
 ## Structuring OPA Tests With Page Objects
 
@@ -19,7 +20,7 @@ You can also share utility functionality between page objects. Simulating clicks
 
 OPA5 provides a static method to create page objects, see the OPA [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples) in the Demo Kit.
 
-```lang-js
+``` js
 
 Opa5.createPageObjects({
 
@@ -53,7 +54,7 @@ Opa5.createPageObjects({
 
 The method in your test finds all actions at the `Given` and `When` object, the assertions will be at the `Then` object. Everything is prefixed with the page object name.
 
-```lang-js
+``` js
 
 When.inThe<Page Object>.<iDoSomething>();
 

@@ -1,11 +1,12 @@
+<!-- loio5531aef1adc8462392a5b8fe1178606e -->
+
 | loio |
 | -----|
 | 5531aef1adc8462392a5b8fe1178606e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5531aef1adc8462392a5b8fe1178606e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e)</div>
-<!-- loio5531aef1adc8462392a5b8fe1178606e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e)</div>
 
 ## What's New in OpenUI5 1.68
 

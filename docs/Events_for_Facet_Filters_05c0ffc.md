@@ -1,11 +1,12 @@
+<!-- loio05c0ffca736f4336ae135ca108a07234 -->
+
 | loio |
 | -----|
 | 05c0ffca736f4336ae135ca108a07234 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/05c0ffca736f4336ae135ca108a07234.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/05c0ffca736f4336ae135ca108a07234) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/05c0ffca736f4336ae135ca108a07234)</div>
-<!-- loio05c0ffca736f4336ae135ca108a07234 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/05c0ffca736f4336ae135ca108a07234) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/05c0ffca736f4336ae135ca108a07234)</div>
 
 ## Events for Facet Filters
 

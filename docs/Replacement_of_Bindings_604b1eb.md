@@ -1,11 +1,12 @@
+<!-- loio604b1eb50e47483ebaf97a27fb065e95 -->
+
 | loio |
 | -----|
 | 604b1eb50e47483ebaf97a27fb065e95 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/604b1eb50e47483ebaf97a27fb065e95.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
-<!-- loio604b1eb50e47483ebaf97a27fb065e95 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
 
 ## Replacement of Bindings
 
@@ -17,7 +18,7 @@ Formatters for labels are usually not needed. Instead, pointing to `'badge>MainI
 
 The following example shows a template with binding:
 
-```lang-xml
+``` xml
 
 <Label text="{path: 'badge>MainInfo/Label', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}"/>
 <Text text="{path: 'field>Value', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}" />
@@ -25,7 +26,7 @@ The following example shows a template with binding:
 
 At the time the binding is resolved, `field>Value` refers to `meta>/dataServices/schema/0/entityType/0/com.sap.vocabularies.UI.v1.Badge/MainInfo/Value`. In the resulting `XML DOM`, the references to the meta model are gone and the type information including the constraints is inserted in the binding. This is shown in the following example:
 
-```lang-xml
+``` xml
 
 <Label text="Phone"/>
 <Text text="{path : 'PhoneNumber', type : 'sap.ui.model.odata.type.String', constraints : {'maxLength':'30'}}" />
@@ -40,7 +41,7 @@ You can also write your own custom formatter functions. For information how you 
 
 The following code snippet shows a composite binding example. It assumes that the structure of the meta model that is used corresponds to the structure in the example and that `title>` refers to the header info's title property \(line 2 in the code snippet\):
 
-```lang-js
+``` js
                     
 1   "com.sap.vocabularies.UI.v1.HeaderInfo": {
 2       "Title": {
@@ -63,7 +64,7 @@ The following code snippet shows a formatter function that can be used in compos
 
 The following code snippet shows an example formatter function.
 
-```lang-js
+``` js
 
 1   /*
 2    * Custom formatter function for complex bindings to demonstrate access to ith part of binding.
@@ -130,7 +131,7 @@ The delegation to `sap.ui.model.odata.AnnotationHelper#format` provides the raw 
 
 The example formatter has the following output:
 
-```lang-js
+``` js
 
 <Text text="[Customer]: {CustomerName}"/>
 <Text text="[Customer] {CustomerName}"/>

@@ -1,11 +1,12 @@
+<!-- loio58cf64cbb951496a99ac94e01a0905b2 -->
+
 | loio |
 | -----|
 | 58cf64cbb951496a99ac94e01a0905b2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/58cf64cbb951496a99ac94e01a0905b2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2)</div>
-<!-- loio58cf64cbb951496a99ac94e01a0905b2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2)</div>
 
 ## with
 
@@ -24,7 +25,7 @@ If you omit the "var" attribute, the same model name will be reused; for example
 
 ### "with" Template
 
-```lang-xml
+``` xml
 
 <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
     <!-- ... -->
@@ -55,7 +56,7 @@ It returns a path inside the meta model which refers to the corresponding proper
 
 ### "with" Template Including Annotation Helper
 
-```lang-xml
+``` xml
 
 <template:with path="meta>Value" helper="sap.ui.model.odata.AnnotationHelper.resolvePath" var="target">
   <template:if test="{= {target>sap:semantics} === 'email'}" >

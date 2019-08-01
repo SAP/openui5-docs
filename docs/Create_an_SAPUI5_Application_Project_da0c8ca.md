@@ -1,11 +1,12 @@
+<!-- loioda0c8ca95ba447f2970cdba2aef7639b -->
+
 | loio |
 | -----|
 | da0c8ca95ba447f2970cdba2aef7639b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/da0c8ca95ba447f2970cdba2aef7639b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/da0c8ca95ba447f2970cdba2aef7639b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/da0c8ca95ba447f2970cdba2aef7639b)</div>
-<!-- loioda0c8ca95ba447f2970cdba2aef7639b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/da0c8ca95ba447f2970cdba2aef7639b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/da0c8ca95ba447f2970cdba2aef7639b)</div>
 
 ## Create an SAPUI5 Application Project
 

@@ -1,11 +1,12 @@
+<!-- loio48b81b967af34ad08f1f88c962b4740a -->
+
 | loio |
 | -----|
 | 48b81b967af34ad08f1f88c962b4740a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/48b81b967af34ad08f1f88c962b4740a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a)</div>
-<!-- loio48b81b967af34ad08f1f88c962b4740a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a)</div>
 
 ## Preprocessing XML Views
 

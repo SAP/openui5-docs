@@ -1,11 +1,12 @@
+<!-- loio27ce0e4987cd426f8fa3e60836316428 -->
+
 | loio |
 | -----|
 | 27ce0e4987cd426f8fa3e60836316428 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/27ce0e4987cd426f8fa3e60836316428.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/27ce0e4987cd426f8fa3e60836316428) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/27ce0e4987cd426f8fa3e60836316428)</div>
-<!-- loio27ce0e4987cd426f8fa3e60836316428 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/27ce0e4987cd426f8fa3e60836316428) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/27ce0e4987cd426f8fa3e60836316428)</div>
 
 ## Component.js File
 

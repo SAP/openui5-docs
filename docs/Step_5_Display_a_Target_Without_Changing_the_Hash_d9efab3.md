@@ -1,11 +1,12 @@
+<!-- loiod9efab307ecc42b180b12cc8956e22d7 -->
+
 | loio |
 | -----|
 | d9efab307ecc42b180b12cc8956e22d7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d9efab307ecc42b180b12cc8956e22d7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
-<!-- loiod9efab307ecc42b180b12cc8956e22d7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
 
 ## Step 5: Display a Target Without Changing the Hash
 
@@ -152,7 +153,7 @@ Similar to OpenUI5 controls, targets define API methods and events that can be a
 
 ### webapp/i18n/i18n.properties
 
-```lang-prefs
+``` prefs
 ...
 DisplayNotFound=Display Not Found
 ```

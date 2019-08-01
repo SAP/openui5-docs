@@ -1,11 +1,12 @@
+<!-- loio8fbf4e728bd146fcb2053aeb6ca741f9 -->
+
 | loio |
 | -----|
 | 8fbf4e728bd146fcb2053aeb6ca741f9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8fbf4e728bd146fcb2053aeb6ca741f9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8fbf4e728bd146fcb2053aeb6ca741f9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8fbf4e728bd146fcb2053aeb6ca741f9)</div>
-<!-- loio8fbf4e728bd146fcb2053aeb6ca741f9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8fbf4e728bd146fcb2053aeb6ca741f9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8fbf4e728bd146fcb2053aeb6ca741f9)</div>
 
 ## Providing Hooks in the Standard Controller
 
@@ -29,7 +30,7 @@ By receiving the data object `oSomeData` from the server, the application enable
 
 Code of the standard controller:
 
-```lang-js
+``` js
 
 // ...data object oSomeData has been received, possibly from an Ajax response...
    if (this.onDataReceived) {         // check whether any extension has implemented the hook...
@@ -40,7 +41,7 @@ Code of the standard controller:
 
 Code of the custom controller:
 
-```lang-js
+``` js
 
 sap.ui.controller("customer.xy.Sub2ControllerExtension", {
    onDataReceived: function(oData){ // oSomeData will be passed in

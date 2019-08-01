@@ -1,11 +1,12 @@
+<!-- loiobd039ed5f99e4d3f8d020b0da62f9d85 -->
+
 | loio |
 | -----|
 | bd039ed5f99e4d3f8d020b0da62f9d85 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/bd039ed5f99e4d3f8d020b0da62f9d85.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
-<!-- loiobd039ed5f99e4d3f8d020b0da62f9d85 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
 
 ## The library.js File
 
@@ -17,7 +18,7 @@ The library style sheet file \(`library.css`\) contains all styles relevant for 
 
 In a `library.js` file, the call to `sap.ui.getCore().initLibraries()` takes care of creating the namespace object of the library, exports it under its global name and returns the namespace to the caller. In the `library.js` module, you don’t need to write types or helpers to the global name, but can use the returned namespace like this:
 
-```lang-js
+``` js
 sap.ui.define(function() {
  
     “use strict”;
@@ -52,7 +53,7 @@ sap.ui.define(function() {
 
 We recommend to add all simple types of a library to the `library.js` module. Other modules that need to work with such types can simply include the respective library as a module dependency:
 
-```lang-js
+``` js
 // requiring a library
 sap.ui.require(["sap/ui/core/library"], function(library) {
     var sAlign = library.HorizontalAlign.Begin;
@@ -76,7 +77,7 @@ The default values, however, should be referenced via the correct type value fro
 
 Define the `library.js` as static dependency and use it as a local variable for convenience:
 
-```lang-js
+``` js
 sap.ui.define(["sap/ui/core/Control", "./library"], function(Control, library) {
     // shortcut on Enum
     var SizeMode = library.SizeMode;

@@ -1,11 +1,12 @@
+<!-- loioe9fc648661d84ed89360bbec3ae02611 -->
+
 | loio |
 | -----|
 | e9fc648661d84ed89360bbec3ae02611 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e9fc648661d84ed89360bbec3ae02611.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611)</div>
-<!-- loioe9fc648661d84ed89360bbec3ae02611 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611)</div>
 
 ## Setting Themes
 
@@ -13,10 +14,10 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
 -   The initial theme can be hardcoded in the application \(in the script tag of the bootstrap loading OpenUI5\) or in a JS configuration object defined before OpenUI5 is loaded, for example:
 
-```lang-js
+``` html
 <script id="sap-ui-bootstrap" 
 	type="text/javascript"
-	src="......../sap-ui-core.js"
+	src="resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
 </script>
 ```
@@ -27,7 +28,7 @@ This setting has the lowest priority.
 
     If you use the UI theme designer to define your own custom theme, you can append the location of the custom theme as a server-relative path to the `sap-ui-theme` parameter, separated by an `@` sign:
 
-    ```
+    ``` html
     http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~client-111
     ```
 
@@ -66,11 +67,10 @@ To load an external custom theme, you set this theme either by static declaring 
 
 -   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
 
-```lang-js
-
+``` html
 <script id="sap-ui-bootstrap" 
 	type="text/javascript"
-	src="......../sap-ui-core.js"
+	src="resources/sap-ui-core.js"
 	data-sap-ui-theme-roots='{"my_theme" : "http://themes.org/ui5"}'>
 </script>
 ```
@@ -83,7 +83,7 @@ http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~clie
 
 -   Use the global configuration object. Insert the following before the bootstrap `script` tag:
 
-```lang-js
+``` html
 <script type="text/javascript">
 window["sap-ui-config"] = {
 	themeRoots : {
@@ -103,11 +103,31 @@ window["sap-ui-config"] = {
 
 ***
 
+<a name="loioe9fc648661d84ed89360bbec3ae02611__section_u3q_gpj_43b"/>
+
+### Theme Origin Whitelist
+
+When configuring a theme with a `themeRoot` URL via the `sap-ui-theme`/`sap-theme` URL parameter, security restrictions apply. Absolute URLs to a different origin than the current page are stripped off by default. The path segment will be resolved relative to the current page origin.
+
+In order to allow certain origins, according to RFC 6454, to be used via the URL parameter, a `<meta>` tag can be added to the `<head>` of the page:
+
+`<meta name="sap-allowedThemeOrigins" content="https://example.com">`
+
+This allows to load a theme from `https://example.com`, that is provided via the URL parameter:
+
+`https://myserver.com/sap/myapp/?sap-theme=my_theme@https://example.com/custom-themes/`
+
+Origins provided in the `<meta>` tag must contain the same protocol, host and port as the origin provided in the URL parameter. Multiple allowed origins can be separated with a comma.
+
+A general wildcard \(\*\) can also be used to allow all origins. However this should only be used in combination with additional security mechanisms such as CSP style-src directives. Wildcards to allow sub-domains are not supported.
+
+***
+
 ### Listening to the `ThemeChanged` Event
 
 Whenever the theme is switched, an event is fired indicating that a theme switch has been triggered. If you want your application to react on this event, you can attach a handler to it:
 
-```lang-js
+``` js
 
 sap.ui.getCore().attachThemeChanged(function(){
 	myFunction();

@@ -1,11 +1,12 @@
+<!-- loio3169195311f84bdcb63703c1de84b14e -->
+
 | loio |
 | -----|
 | 3169195311f84bdcb63703c1de84b14e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3169195311f84bdcb63703c1de84b14e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e)</div>
-<!-- loio3169195311f84bdcb63703c1de84b14e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e)</div>
 
 ## Best Practices for ARIA Labeling
 

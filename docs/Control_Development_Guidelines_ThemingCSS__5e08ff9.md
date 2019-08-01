@@ -1,11 +1,12 @@
+<!-- loio5e08ff90b7434990bcb459513d8c52c4 -->
+
 | loio |
 | -----|
 | 5e08ff90b7434990bcb459513d8c52c4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5e08ff90b7434990bcb459513d8c52c4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5e08ff90b7434990bcb459513d8c52c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5e08ff90b7434990bcb459513d8c52c4)</div>
-<!-- loio5e08ff90b7434990bcb459513d8c52c4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5e08ff90b7434990bcb459513d8c52c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5e08ff90b7434990bcb459513d8c52c4)</div>
 
 ## Control Development Guidelines: Theming/CSS
 

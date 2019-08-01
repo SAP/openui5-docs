@@ -1,11 +1,12 @@
+<!-- loiob6ab31cb81bd443996cde2f91d203072 -->
+
 | loio |
 | -----|
 | b6ab31cb81bd443996cde2f91d203072 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b6ab31cb81bd443996cde2f91d203072.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072)</div>
-<!-- loiob6ab31cb81bd443996cde2f91d203072 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072)</div>
 
 ## Events Fired on the Pages
 
@@ -35,7 +36,7 @@ You can destroy the hidden page, and the now active page can start its activity.
 
 You can use the `addEventDelegate` function to register to these events. This function is available on every control.
 
-```lang-js
+``` js
 
 page1.addEventDelegate({
    onBeforeShow: function(evt) {

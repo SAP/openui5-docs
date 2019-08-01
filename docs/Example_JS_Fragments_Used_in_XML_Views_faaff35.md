@@ -1,11 +1,12 @@
+<!-- loiofaaff35246414793b061f0244fb67338 -->
+
 | loio |
 | -----|
 | faaff35246414793b061f0244fb67338 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/faaff35246414793b061f0244fb67338.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338)</div>
-<!-- loiofaaff35246414793b061f0244fb67338 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338)</div>
 
 ## Example: JS Fragments Used in XML Views
 
@@ -13,7 +14,7 @@ Example of a JS fragment used in an XML view
 
 The example uses different combinations. Make sure that the `sap-ui-core.js` script location points to an existing OpenUI5 installation.
 
-```lang-html
+``` html
 <!DOCTYPE html>
 <html>
 	<head>

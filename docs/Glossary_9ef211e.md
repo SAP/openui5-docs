@@ -1,11 +1,12 @@
+<!-- loio9ef211e569ed4f819af904ba360ea7f6 -->
+
 | loio |
 | -----|
 | 9ef211e569ed4f819af904ba360ea7f6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9ef211e569ed4f819af904ba360ea7f6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6)</div>
-<!-- loio9ef211e569ed4f819af904ba360ea7f6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6)</div>
 
 ## Glossary
 

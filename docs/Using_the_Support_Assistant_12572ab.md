@@ -1,11 +1,12 @@
+<!-- loio12572abbd4ad49eba37f2cdb23692093 -->
+
 | loio |
 | -----|
 | 12572abbd4ad49eba37f2cdb23692093 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/12572abbd4ad49eba37f2cdb23692093.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/12572abbd4ad49eba37f2cdb23692093) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/12572abbd4ad49eba37f2cdb23692093)</div>
-<!-- loio12572abbd4ad49eba37f2cdb23692093 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/12572abbd4ad49eba37f2cdb23692093) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/12572abbd4ad49eba37f2cdb23692093)</div>
 
 ## Using the Support Assistant
 

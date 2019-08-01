@@ -1,11 +1,12 @@
+<!-- loio128214a9b2754b15aec5e365780b03fd -->
+
 | loio |
 | -----|
 | 128214a9b2754b15aec5e365780b03fd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/128214a9b2754b15aec5e365780b03fd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)</div>
-<!-- loio128214a9b2754b15aec5e365780b03fd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)</div>
 
 ## Step 2: Steady...
 

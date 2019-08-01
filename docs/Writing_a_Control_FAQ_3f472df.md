@@ -1,11 +1,12 @@
+<!-- loio3f472df7cb364ab48541566d5cb1821e -->
+
 | loio |
 | -----|
 | 3f472df7cb364ab48541566d5cb1821e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3f472df7cb364ab48541566d5cb1821e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3f472df7cb364ab48541566d5cb1821e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3f472df7cb364ab48541566d5cb1821e)</div>
-<!-- loio3f472df7cb364ab48541566d5cb1821e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3f472df7cb364ab48541566d5cb1821e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3f472df7cb364ab48541566d5cb1821e)</div>
 
 ## Writing a Control: FAQ
 
@@ -33,7 +34,7 @@ Whenever the control state changes because, for example, a property is changed, 
 
 If you call the property setter in your own code, like `this.setText("xy")`, you can instead use the generic setter defined in `Element.js` which also has the optional parameter `"bSuppressRerendering": this.setProperty("text", "xy", true)`. If the property change is done from the application, but you still want to avoid rerendering, for example, because you only need to toggle one CSS class or because the control DOM elements may not be removed and replaced, you need to overwrite the generated setter method. The generated method looks like this:
 
-```lang-js
+``` js
 sap.m.Button.prototype.setText = function(sText) {
 	this.setProperty("text", sText);
 };
@@ -41,7 +42,7 @@ sap.m.Button.prototype.setText = function(sText) {
 
 You also need to add the flag in your overwriting implementation:
 
-```lang-js
+``` js
 sap.m.Button.prototype.setText = function(sText) {
 	this.setProperty("text", sText, true);
 };

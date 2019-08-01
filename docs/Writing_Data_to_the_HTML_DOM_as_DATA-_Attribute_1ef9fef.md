@@ -1,11 +1,12 @@
+<!-- loio1ef9fefa2a574735957dcf52502ab8d0 -->
+
 | loio |
 | -----|
 | 1ef9fefa2a574735957dcf52502ab8d0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1ef9fefa2a574735957dcf52502ab8d0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ef9fefa2a574735957dcf52502ab8d0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ef9fefa2a574735957dcf52502ab8d0)</div>
-<!-- loio1ef9fefa2a574735957dcf52502ab8d0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ef9fefa2a574735957dcf52502ab8d0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ef9fefa2a574735957dcf52502ab8d0)</div>
 
 ## Writing Data to the HTML DOM as DATA-\* Attribute
 
@@ -31,7 +32,7 @@ For this, the key has to be a valid HTML ID and the value has to be a string; ot
 
 In JavaScript, you can set the flag as shown in the following code snippet:
 
-```lang-js
+``` js
 
 myButton.data("mydata", "Hello", true); // attach some data to the Button and mark it as
           "write to HTML"
@@ -39,7 +40,7 @@ myButton.data("mydata", "Hello", true); // attach some data to the Button and ma
 
 To set the `writeToDom` flag in XML views, the aggregation has to be written in expanded notation:
 
-```lang-xml
+``` xml
 
 <Button ... >
   <customData>
@@ -56,7 +57,7 @@ This results in the following HTML:
 
 This is done similarly in HTML views:
 
-```lang-html
+``` html
 
 <div data-sap-ui-type="sap.m.Button" data-text="This button has custom data written to the DOM">
    <div data-sap-ui-aggregation="customData">

@@ -1,11 +1,12 @@
+<!-- loio7cdee404cac441888539ed7bfe076e57 -->
+
 | loio |
 | -----|
 | 7cdee404cac441888539ed7bfe076e57 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7cdee404cac441888539ed7bfe076e57.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7cdee404cac441888539ed7bfe076e57) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7cdee404cac441888539ed7bfe076e57)</div>
-<!-- loio7cdee404cac441888539ed7bfe076e57 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7cdee404cac441888539ed7bfe076e57) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7cdee404cac441888539ed7bfe076e57)</div>
 
 ## Testing
 

@@ -1,11 +1,12 @@
+<!-- loio70ef981d350a495b940640801701c409 -->
+
 | loio |
 | -----|
 | 70ef981d350a495b940640801701c409 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/70ef981d350a495b940640801701c409.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)</div>
-<!-- loio70ef981d350a495b940640801701c409 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)</div>
 
 ## Step 7: JSON Model
 

@@ -1,11 +1,12 @@
+<!-- loio7701636d088147569d99b4f08d418bd9 -->
+
 | loio |
 | -----|
 | 7701636d088147569d99b4f08d418bd9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7701636d088147569d99b4f08d418bd9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9)</div>
-<!-- loio7701636d088147569d99b4f08d418bd9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9)</div>
 
 ## Descriptor for Components \(Inside Libraries\)
 
@@ -66,7 +67,7 @@ SAPUI5 determines the library name by analyzing the component namespace \(packag
 
 Example:
 
-```lang-js
+``` js
 
 sap.ui.core.UIComponent.extend("com.sap.fancylibrary.sub.CompLib.Component", {
     metadata : {

@@ -1,11 +1,12 @@
+<!-- loio28b59ca857044a7890a22aec8cf1fee9 -->
+
 | loio |
 | -----|
 | 28b59ca857044a7890a22aec8cf1fee9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/28b59ca857044a7890a22aec8cf1fee9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9)</div>
-<!-- loio28b59ca857044a7890a22aec8cf1fee9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9)</div>
 
 ## App Overview: The Basic Files of Your App
 

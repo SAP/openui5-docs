@@ -1,11 +1,12 @@
+<!-- loio39759878ae4f48dcad0cf34da1d299f0 -->
+
 | loio |
 | -----|
 | 39759878ae4f48dcad0cf34da1d299f0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/39759878ae4f48dcad0cf34da1d299f0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/39759878ae4f48dcad0cf34da1d299f0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/39759878ae4f48dcad0cf34da1d299f0)</div>
-<!-- loio39759878ae4f48dcad0cf34da1d299f0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/39759878ae4f48dcad0cf34da1d299f0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/39759878ae4f48dcad0cf34da1d299f0)</div>
 
 ## Step 13: Make Table Sorting Bookmarkable
 

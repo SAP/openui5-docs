@@ -1,11 +1,12 @@
+<!-- loiob807931a353649859a92f7c7bf1111e3 -->
+
 | loio |
 | -----|
 | b807931a353649859a92f7c7bf1111e3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b807931a353649859a92f7c7bf1111e3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3)</div>
-<!-- loiob807931a353649859a92f7c7bf1111e3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b807931a353649859a92f7c7bf1111e3)</div>
 
 ## Inline Definition and Instantiation of Fragments
 
@@ -19,7 +20,7 @@ JS fragment definitions can be done both inline and within a separate file witho
 
 ### Example of an Inline XML Fragment
 
-```lang-xml
+``` xml
 // define the XML fragment as a string (or load it from anywhere)
 var myXml = '<Panel xmlns="sap.m" text="Hello World"><Button text="Hello World"></Button></Panel>';
 
@@ -34,7 +35,7 @@ oFragment.placeAt('content');
 
 ### Example of an Inline HTML Fragment
 
-```lang-html
+``` html
 // define the HTML fragment as a string (or load it from anywhere)
 var myHtml = '<div data-sap-ui-type="sap.m.Button" data-text="Hello World"></div>';
 

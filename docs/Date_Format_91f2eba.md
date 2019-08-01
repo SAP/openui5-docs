@@ -1,11 +1,12 @@
+<!-- loio91f2eba36f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f2eba36f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f2eba36f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070)</div>
-<!-- loio91f2eba36f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070)</div>
 
 ## Date Format
 
@@ -17,7 +18,7 @@ The `sap.ui.core.format.DateFormat` class can be used to parse a string represen
 
 You instantiate of `sap.ui.core.format.DateFormat` by calling the `getter` defined on the `DateFormat` \(and not by calling the constructor\):
 
-```lang-js
+``` js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance();
 // or
 var oDateTimeFormat = sap.ui.core.format.DateFormat.getDateTimeInstance();
@@ -41,7 +42,7 @@ The format string does contain pattern symbols \(e.g. `yMMMd` or `Hms`\) and wil
 
 The symbols must be in canonical order, that is: Era \(`G`\), Year \(`y`/`Y`\), Quarter \(`q`/`Q`\), Month \(`M`/`L`\), Week \(`w`/`W`\), Day-Of-Week \(`E`/`c`\), Day \(`d`/`D`\), Hour \(`h`/`H`/`k`/`K`\), Minute \(`m`\), Second \(`s`\), Timezone \(`z`/`Z`/`v`/`V`/`O`/`X`/`x`\).
 
-```lang-js
+``` js
 var oFormat = sap.ui.core.format.DateFormat.getInstance({
 	format: "yMMMd"
 });
@@ -51,7 +52,7 @@ oFormat.format(new Date()); //string in locale de "29. Jan. 2017"; string in loc
 
 `pattern`: A date pattern in LDML date format notation. The date is formatted based on the given pattern.
 
-```lang-js
+``` js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     pattern: "EEE, MMM d, yyyy"
 });
@@ -131,7 +132,7 @@ Relative format on "day"' level is only supported by the date instance but not t
 
 If the format option is set with necessary symbols, the `DateFormat` displays the fields which have the same value between the two dates only once in the result string. For example, the interval "Jan 10, 2008 - Jan 12, 2008" will be formatted as "Jan 10-12, 2008". Otherwise the two given dates are formatted separately and concatenated with locale-dependent pattern.
 
-```lang-js
+``` js
 var oFormat = sap.ui.core.format.DateFormat.getInstance({
 	format: "yMMMd",
 	interval: true
@@ -149,7 +150,7 @@ oFormat.format([oDate1, oDate2]);
 
 `strictParsing`: If this is set to `true`, the `date` string is validated during parsing. If it doesn't pass the validation, `null` is returned.
 
-```lang-js
+``` js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     relative: true
 });

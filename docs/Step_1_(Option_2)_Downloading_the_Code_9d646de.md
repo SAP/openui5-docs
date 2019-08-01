@@ -1,11 +1,12 @@
+<!-- loio9d646de79e3a46ee8143a4b21b332e5e -->
+
 | loio |
 | -----|
 | 9d646de79e3a46ee8143a4b21b332e5e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9d646de79e3a46ee8143a4b21b332e5e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9d646de79e3a46ee8143a4b21b332e5e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9d646de79e3a46ee8143a4b21b332e5e)</div>
-<!-- loio9d646de79e3a46ee8143a4b21b332e5e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9d646de79e3a46ee8143a4b21b332e5e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9d646de79e3a46ee8143a4b21b332e5e)</div>
 
 ## Step 1 \(Option 2\): Downloading the Code
 

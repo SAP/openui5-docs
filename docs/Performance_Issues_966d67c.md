@@ -1,11 +1,12 @@
+<!-- loio966d67c8cc5046419d1b35556cd9e447 -->
+
 | loio |
 | -----|
 | 966d67c8cc5046419d1b35556cd9e447 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/966d67c8cc5046419d1b35556cd9e447.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/966d67c8cc5046419d1b35556cd9e447) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/966d67c8cc5046419d1b35556cd9e447)</div>
-<!-- loio966d67c8cc5046419d1b35556cd9e447 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/966d67c8cc5046419d1b35556cd9e447) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/966d67c8cc5046419d1b35556cd9e447)</div>
 
 ## Performance Issues
 
@@ -30,7 +31,7 @@ The following XML view is easy to handle, but leads to suboptimal performance wh
 
 View:
 
-```lang-xml
+``` xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller">
 	<Page>
                         
@@ -50,7 +51,7 @@ View:
 
 Controller code:
 
-```lang-js
+``` js
 toEditMode: function() {
 	this.byId("displayPanel").setVisible(false);
 	this.byId("editPanel").setVisible(true);
@@ -61,7 +62,7 @@ The following code is better in terms of initial performance because the second 
 
 View:
 
-```lang-xml
+``` xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller">
 	<Page>
             
@@ -77,7 +78,7 @@ View:
 
 Additional fragment named `EditPanel.fragment.xml` for content that is initially hidden:
 
-```lang-xml
+``` xml
 <Panel xmlns="sap.m" id="editPanel" headerText="Edit Data" visible="false">
 	<Table...>
 </Panel>
@@ -85,7 +86,7 @@ Additional fragment named `EditPanel.fragment.xml` for content that is initially
 
 Controller code:
 
-```lang-js
+``` js
 toEditMode: function() {
 	this.byId("displayPanel").setVisible(false);
                   
@@ -103,7 +104,7 @@ toEditMode: function() {
 
 In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller’s `onInit()` method decides which fragment to instantiate and display initially:
 
-```lang-js
+``` js
 onInit: function() {
 	var oPanel;
 	if (bEditMode) { 

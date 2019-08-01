@@ -1,11 +1,12 @@
+<!-- loiod3234bc1b7b64af99a3d6990039f7eed -->
+
 | loio |
 | -----|
 | d3234bc1b7b64af99a3d6990039f7eed |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d3234bc1b7b64af99a3d6990039f7eed.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed)</div>
-<!-- loiod3234bc1b7b64af99a3d6990039f7eed -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed)</div>
 
 ## Table Design
 
@@ -17,7 +18,7 @@ The table design in OpenUI5 can be changed by using various table and column fea
 
 When displaying information in a pop-in, the information, typically a column header and the column \(cell\) content, can be displayed in an `Inline` or in a `Block` display style. The difference between these two can be seen in the following example.
 
-```lang-js
+``` js
 
    <columns>
       <Column
@@ -75,7 +76,7 @@ Duplicate values will only be merged if they are adjacent. This means that you s
 
 Here's an example of how to use the `mergeDuplicates` feature. We'll set up a table of sales data and display the data in a table, merging any duplicate regions. When the *Mix Up* button is pressed to lightly shuffle the `salesFigures` array of objects, you will see that only adjacent duplicates are merged. Press the *Sort* button again to see the ideal merging.
 
-```lang-js
+``` js
 
 <Table
     headerText="Products"
@@ -163,7 +164,7 @@ You just need to note the ID of the `sap.m.List` or `sap.m.Table` control \(in t
 
 It's also possible to highlight table columns by using the `styleClass` property of the `sap.m.Column` control. The value of this property is applied as a class to the whole column \(header, cells and footer\) and can be used in the following way: specify a class name for the `styleClass` property of your column, and set the style as you wish:
 
-```lang-js
+``` js
 
 <style>
 #products .MyPrice {

@@ -1,11 +1,12 @@
+<!-- loio91f17d636f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f17d636f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f17d636f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f17d636f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f17d636f4d1014b6dd926db0e91070)</div>
-<!-- loio91f17d636f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f17d636f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f17d636f4d1014b6dd926db0e91070)</div>
 
 ## Enabling Declarative Support
 
@@ -19,7 +20,7 @@ data-sap-ui-modules="sap.ui.core.plugin.DeclarativeSupport"
 
 OpenUI5 then requires \(loads\) the plugin `sap.ui.core.plugin.DeclarativeSupport`. When started, the plugin parses and enhances special HTML tags in the HTML document. The complete bootstrap script tag for OpenUI5 \(based on a CDN version\) looks as follows:
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
   type="text/javascript"
   src="resources/sap-ui-core.js"

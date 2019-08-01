@@ -1,11 +1,12 @@
+<!-- loiocdab0a1123514cc08cf2c8deb22f312e -->
+
 | loio |
 | -----|
 | cdab0a1123514cc08cf2c8deb22f312e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cdab0a1123514cc08cf2c8deb22f312e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
-<!-- loiocdab0a1123514cc08cf2c8deb22f312e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
 
 ## Step 10: Implement "Lazy Loading"
 

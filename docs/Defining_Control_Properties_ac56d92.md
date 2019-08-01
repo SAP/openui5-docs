@@ -1,17 +1,18 @@
+<!-- loioac56d92162ed47ff858fdf1ce26c18c4 -->
+
 | loio |
 | -----|
 | ac56d92162ed47ff858fdf1ce26c18c4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ac56d92162ed47ff858fdf1ce26c18c4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4)</div>
-<!-- loioac56d92162ed47ff858fdf1ce26c18c4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4)</div>
 
 ## Defining Control Properties
 
 Control properties are defined as follows:
 
-```lang-js
+``` js
 properties: {
    "title" : "string",                         // a simple string property, default value is undefined
    "buttonText" : {defaultValue: "Search"},    // when no type is given, the type is string
@@ -22,7 +23,7 @@ properties: {
 
 After the property is defined, the control automatically has the `setShowLogoutButton` and `getShowLogoutButton` methods for storing data. It is possible to assign custom definitions to these methods by overriding them and calling the generic property methods `setProperty` and `getProperty`:
 
-```lang-js
+``` js
 MyControl.prototype.setShowLogoutButton = function(show) {
 	// …here anything in addition to the default handling can be done…
 	// then do the default handling:
@@ -73,7 +74,7 @@ var fooType = DataType.createType('foo', {
 
 This was an early design decision in OpenUI5 and framework code relies on it. That code might fail for enumerations that don’t obey these restrictions.
 
- To reference an `enum` type in a property definition, its global name must be used \(like `sap.m.ValueColor` in the example below\). . Example: ```lang-js
+ To reference an `enum` type in a property definition, its global name must be used \(like `sap.m.ValueColor` in the example below\). . Example: ``` js
 /**
 * Enumeration of possible value color settings.
 *

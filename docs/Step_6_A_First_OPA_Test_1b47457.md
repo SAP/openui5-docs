@@ -1,11 +1,12 @@
+<!-- loio1b47457cbe4941ee926317d827517acb -->
+
 | loio |
 | -----|
 | 1b47457cbe4941ee926317d827517acb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1b47457cbe4941ee926317d827517acb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb)</div>
-<!-- loio1b47457cbe4941ee926317d827517acb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb)</div>
 
 ## Step 6: A First OPA Test
 

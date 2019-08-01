@@ -1,11 +1,12 @@
+<!-- loio1c60212834c049ed9f65d743dfeb3d9a -->
+
 | loio |
 | -----|
 | 1c60212834c049ed9f65d743dfeb3d9a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1c60212834c049ed9f65d743dfeb3d9a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
-<!-- loio1c60212834c049ed9f65d743dfeb3d9a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
 
 ## Table Personalization
 
@@ -56,7 +57,7 @@ As an application developer, you most likely want to use a table personalization
 
 Here is an example of how a table personalization controller can be used, assuming you are running in the context of the unified shell, which provides backend services such as persistence.
 
-```lang-js
+``` js
 
 // Create a persistence key
 var oPersId = {container: "mycontainer-1", item: "myitem-1"};

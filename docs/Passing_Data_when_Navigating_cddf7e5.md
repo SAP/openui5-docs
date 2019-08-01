@@ -1,11 +1,12 @@
+<!-- loiocddf7e54277446a4a35c9fd9285da009 -->
+
 | loio |
 | -----|
 | cddf7e54277446a4a35c9fd9285da009 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cddf7e54277446a4a35c9fd9285da009.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009)</div>
-<!-- loiocddf7e54277446a4a35c9fd9285da009 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009)</div>
 
 ## Passing Data when Navigating
 
@@ -15,7 +16,7 @@ This object is then available in the page events, for example `beforeShow` and `
 
 Example:
 
-```lang-js
+``` js
 
 app.to("detailPage", {id:"42"}); // trigger navigation and hand over a data object
                                  // this data object could also be a binding context when dealing with data binding

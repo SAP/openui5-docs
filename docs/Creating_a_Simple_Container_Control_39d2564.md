@@ -1,17 +1,18 @@
+<!-- loio39d25641086c42aaa745028e15562ba8 -->
+
 | loio |
 | -----|
 | 39d25641086c42aaa745028e15562ba8 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/39d25641086c42aaa745028e15562ba8.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8)</div>
-<!-- loio39d25641086c42aaa745028e15562ba8 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8)</div>
 
 ## Creating a Simple Container Control
 
 Example of a container control with arbitrary child controls that are rendered in a row and a colored box around each child
 
-```lang-js
+``` js
 sap.ui.core.Control.extend("ColorBoxContainer", { // call the new Control type "ColorBoxContainer"
     // and let it inherit from sap.ui.core.Control
 
@@ -61,7 +62,7 @@ As the control itself has no appearance, no additional CSS is required.
 
 You can use this container control like any OpenUI5 container:
 
-```lang-js
+``` js
 var oButton = new sap.m.Button({text:'Hello World'});
 var oInput = new sap.m.Input({placeholder:'edit text here'});
 

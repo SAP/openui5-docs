@@ -1,11 +1,12 @@
+<!-- loioabd4d7c7548d4c29ab8364d3904a6d74 -->
+
 | loio |
 | -----|
 | abd4d7c7548d4c29ab8364d3904a6d74 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/abd4d7c7548d4c29ab8364d3904a6d74.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/abd4d7c7548d4c29ab8364d3904a6d74) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/abd4d7c7548d4c29ab8364d3904a6d74)</div>
-<!-- loioabd4d7c7548d4c29ab8364d3904a6d74 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/abd4d7c7548d4c29ab8364d3904a6d74) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/abd4d7c7548d4c29ab8364d3904a6d74)</div>
 
 ## Changes Compared to OData V2 Model
 
@@ -66,6 +67,7 @@ These differences will therefore remain even after all features have been implem
 		</tr>
 	</tbody>
 </table>
+
 **Related information**  
 
 

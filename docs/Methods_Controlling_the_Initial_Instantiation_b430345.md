@@ -1,11 +1,12 @@
+<!-- loiob430345887f1419fba50320b57c1bdf9 -->
+
 | loio |
 | -----|
 | b430345887f1419fba50320b57c1bdf9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b430345887f1419fba50320b57c1bdf9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9)</div>
-<!-- loiob430345887f1419fba50320b57c1bdf9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9)</div>
 
 ## Methods Controlling the Initial Instantiation
 
@@ -23,7 +24,7 @@ You can use the following methods:
 
     Alternatively, you can overwrite this method and programmatically create the root control:
 
-    ```lang-js
+    ``` js
     sap.ui.define(["sap/ui/core/UIComponent", "sap/m/Label"], function(UIComponent, Label) {
         return UIComponent.extend("my.app.Component", {
             metadata: {

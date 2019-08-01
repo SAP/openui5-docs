@@ -1,11 +1,12 @@
+<!-- loio81c68e4654994da5935add669e48f20c -->
+
 | loio |
 | -----|
 | 81c68e4654994da5935add669e48f20c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/81c68e4654994da5935add669e48f20c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/81c68e4654994da5935add669e48f20c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/81c68e4654994da5935add669e48f20c)</div>
-<!-- loio81c68e4654994da5935add669e48f20c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/81c68e4654994da5935add669e48f20c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/81c68e4654994da5935add669e48f20c)</div>
 
 ## Keyboard Handling for Triggering Actions on Item Level
 
@@ -36,6 +37,7 @@ The following keys and key combinations are used for triggering events of clicka
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 Use the following keys to trigger additional actions \(if supported\):

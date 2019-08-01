@@ -1,11 +1,12 @@
+<!-- loiob0b14bf4dcdb476fb0d63877c1beff7c -->
+
 | loio |
 | -----|
 | b0b14bf4dcdb476fb0d63877c1beff7c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b0b14bf4dcdb476fb0d63877c1beff7c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c)</div>
-<!-- loiob0b14bf4dcdb476fb0d63877c1beff7c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c)</div>
 
 ## Controller Replacement
 
@@ -15,7 +16,7 @@ For a view replacement, you can either use the standard controller of the replac
 
 An extension option is available that allows to replace an original controller without replacing its view. This is especially useful for typed controllers, that is, controllers that have been defined with the `extend` syntax:
 
-```lang-js
+``` js
 sap.ui.define([
     "sap/ui/core/mvc/Controller"
 ], function(Controller) {
@@ -34,7 +35,7 @@ sap.ui.define([
 
 To replace the controller of the standard application with the custom controller, use the following extension configuration:
 
-```lang-js
+``` js
 extensions: { 
     "sap.ui.controllerReplacements": {
         "samples.components.ext.sap.Main": "samples.components.ext.customer.CustomMain"
@@ -45,7 +46,7 @@ extensions: {
 > Note:
 > Typed controllers cannot be extended by using the controller extension configuration \(`sap.ui.controllerExtensions`\). Instead, you use the controller replacement configuration \(`sap.ui.controllerReplacements`\) to extend a typed controller with the `extend` syntax and call the original methods in the custom implementation:
 > 
-> ```lang-js
+> ``` js
 > sap.ui.define([
 >     "samples/components/ext/customer/CustomMain"
 > ], function(CustomController) {

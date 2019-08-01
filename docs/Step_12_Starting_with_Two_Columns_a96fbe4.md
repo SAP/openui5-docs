@@ -1,11 +1,12 @@
+<!-- loioa96fbe44ae6544589a096041f99d38c2 -->
+
 | loio |
 | -----|
 | a96fbe44ae6544589a096041f99d38c2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a96fbe44ae6544589a096041f99d38c2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2)</div>
-<!-- loioa96fbe44ae6544589a096041f99d38c2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2)</div>
 
 ## Step 12: Starting with Two Columns
 

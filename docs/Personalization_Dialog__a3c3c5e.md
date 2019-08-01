@@ -1,11 +1,12 @@
+<!-- loioa3c3c5eb54bc4cc38e6cfbd8e90c6a01 -->
+
 | loio |
 | -----|
 | a3c3c5eb54bc4cc38e6cfbd8e90c6a01 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a3c3c5eb54bc4cc38e6cfbd8e90c6a01.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01)</div>
-<!-- loioa3c3c5eb54bc4cc38e6cfbd8e90c6a01 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01)</div>
 
 ## Personalization Dialog
 

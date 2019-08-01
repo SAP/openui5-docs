@@ -1,11 +1,12 @@
+<!-- loioe1ddc69c01474faf830a522db8c9238a -->
+
 | loio |
 | -----|
 | e1ddc69c01474faf830a522db8c9238a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e1ddc69c01474faf830a522db8c9238a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a)</div>
-<!-- loioe1ddc69c01474faf830a522db8c9238a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a)</div>
 
 ## Date and Time Related Controls: Data Binding
 
@@ -40,7 +41,7 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 1.  With a dedicated `Edm.Time`:
 
-```lang-xml
+``` xml
 <TimePicker displayFormat="short"
             value="{ path: 'EntryTime', type: 'sap.ui.model.odata.type.Time'}"/>
 
@@ -50,7 +51,7 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 2.  As a string:
 
-```lang-xml
+``` xml
 <TimePicker value="{EntryTimeString}" valueFormat="HH:mm:ss"/>
 ```
 
@@ -63,13 +64,14 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 #### Binding of date values to `DatePicker`
 
-```lang-xml
+
+``` xml
 <DatePicker value="{
-  path: 'EntryDate',
-  type: 'sap.ui.model.odata.type.DateTime',
-  constraints: {
-    displayFormat: 'Date'
-  }
+	path: 'EntryDate',
+	type: 'sap.ui.model.odata.type.DateTime',
+	constraints: {
+		displayFormat: 'Date'
+	}
 }" />
 ```
 
@@ -81,7 +83,7 @@ Above you can see an example of the `displayFormat` constraint. It specifies if 
 
 #### Binding of date and time values to `DateTimePicker`
 
-```lang-xml
+``` xml
 <DateTimePicker
         value="{ path: 'EntryDateTime', type: 'sap.ui.model.odata.type.DateTime' }"/>
 
@@ -100,7 +102,7 @@ In this example, the binding type specifies that the backend data will be interp
 
 1.  With a dedicated EDM type \(`Edm.DateTime`, `Edm.DateTimeOffset`\):
 
-```lang-xml
+``` xml
 <DateRangeSelection value="{parts: [{path: 'EntryDate'}, {path: 'EntryDateTimeOffset'}], type: 'sap.ui.model.type.DateInterval',
 formatOptions: { UTC: true, format: 'yMd' }}" />
 ```
@@ -111,7 +113,7 @@ formatOptions: { UTC: true, format: 'yMd' }}" />
 
     If you have the date range provided with a single date formatted string field in the backend \(for example, July 29, 2015 - July 31, 2015\), use the value property in the following way:
 
-    ```lang-xml
+    ``` xml
     <DateRangeSelection
             value="{path: 'EntryDateRange', valueFormat: 'MMM d, y’}"/>
     

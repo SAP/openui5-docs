@@ -1,11 +1,12 @@
+<!-- loio0ec25a16ec9c4e86a1a0d03f1b01e25e -->
+
 | loio |
 | -----|
 | 0ec25a16ec9c4e86a1a0d03f1b01e25e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0ec25a16ec9c4e86a1a0d03f1b01e25e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e)</div>
-<!-- loio0ec25a16ec9c4e86a1a0d03f1b01e25e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e)</div>
 
 ## Feed Input
 

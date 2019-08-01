@@ -1,11 +1,12 @@
+<!-- loio0ddcc60b05ee40dea1a3be09e8fee8f7 -->
+
 | loio |
 | -----|
 | 0ddcc60b05ee40dea1a3be09e8fee8f7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0ddcc60b05ee40dea1a3be09e8fee8f7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0ddcc60b05ee40dea1a3be09e8fee8f7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0ddcc60b05ee40dea1a3be09e8fee8f7)</div>
-<!-- loio0ddcc60b05ee40dea1a3be09e8fee8f7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0ddcc60b05ee40dea1a3be09e8fee8f7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0ddcc60b05ee40dea1a3be09e8fee8f7)</div>
 
 ## Cookbook for Testing Controls with QUnit
 
@@ -17,7 +18,7 @@ You can use a factory function. To keep this pointer and have a descriptive mess
 
 Internally, we prefer to pass an object to the test for retrieving the values - it makes the test cases readable.
 
-```lang-js
+``` js
 // "Bar" required from module "sap/m/Bar"
 // "Core" required from module "sap/ui/core/Core"
 function renderBarInPageTestCase(sTestName, oOptions) {
@@ -66,7 +67,7 @@ renderBarInPageTestCase("Should render the header context", {
 
 You cannot test for event parameters in OpenUI5 so you have to record them. Nevertheless, you can still use Sinon to retain the spy's call counting capabilities. Here is a working example for this:
 
-```lang-js
+``` js
 // "HashChanger" required from module "sap/ui/core/routing/HashChanger"
 QUnit.test("Should set the Hash", function(assert) { 
     //Arrange
@@ -105,7 +106,7 @@ When testing user interactions, you can use `sap.ui.test.qunit` to trigger event
 
 Here is an example for when a user presses *Esc* on the select:
 
-```lang-js
+``` js
 // "Item" required from module "sap/ui/core/Item"
 // "Select" required from module "sap/m/Select"
 // "KeyCodes" required from module "sap/ui/events/KeyCodes"
@@ -158,7 +159,7 @@ In this example, you will test to see whether the control fails to rerender. The
 
 To test this, we add an `eventDelegate` to see how often the rendering function is called. We need to make sure that we apply the changes after setting the property because we want OpenUI5 to render synchronously:
 
-```lang-js
+``` js
 // "Label" required from module "sap/m/Label"
 // "Core" required from module "sap/ui/core/Core"
 QUnit.test("Should supress rerendering when tooltip is set", function(assert) { 
@@ -199,7 +200,7 @@ When testing with models, you need to make sure that you also setup/destroy your
 
 An example for setting up the mock server is shown below:
 
-```lang-js
+``` js
 
 // "MockServer" required from module "sap/ui/app/MockServer"
 
@@ -237,7 +238,7 @@ When using the mock server, you can use async tests since calling respond each t
 
 After setting up the mock server, we set up the model as follows:
 
-```lang-js
+``` js
 
 // "ODataModel" required from module "sap/ui/model/v2/ODataModel"
 // "jQuery" required from module "sap/ui/thirdparty/jquery"
@@ -274,7 +275,7 @@ You can now bind your model against your control and test whatever you want.
 
 We use `clock.tick` to trigger the server response. If you didn't do this, the text of the label would still be empty:
 
-```lang-js
+``` js
 // "Label" required from module "sap/m/Label"
 // "Core" required from module "sap/ui/core/Core"
 

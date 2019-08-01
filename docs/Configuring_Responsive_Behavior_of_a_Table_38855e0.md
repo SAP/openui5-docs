@@ -1,11 +1,12 @@
+<!-- loio38855e06486f4910bfa6f4485f7c2bac -->
+
 | loio |
 | -----|
 | 38855e06486f4910bfa6f4485f7c2bac |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/38855e06486f4910bfa6f4485f7c2bac.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
-<!-- loio38855e06486f4910bfa6f4485f7c2bac -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
 
 ## Configuring Responsive Behavior of a Table
 

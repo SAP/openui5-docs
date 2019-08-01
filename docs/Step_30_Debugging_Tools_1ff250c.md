@@ -1,11 +1,12 @@
+<!-- loio1ff250c2038849f5991209f7e6c36f1f -->
+
 | loio |
 | -----|
 | 1ff250c2038849f5991209f7e6c36f1f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1ff250c2038849f5991209f7e6c36f1f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
-<!-- loio1ff250c2038849f5991209f7e6c36f1f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
 
 ## Step 30: Debugging Tools
 

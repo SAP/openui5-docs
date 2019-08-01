@@ -1,11 +1,12 @@
+<!-- loio91f393916f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f393916f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f393916f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f393916f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f393916f4d1014b6dd926db0e91070)</div>
-<!-- loio91f393916f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f393916f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f393916f4d1014b6dd926db0e91070)</div>
 
 ## Writing a Control Renderer
 
@@ -21,7 +22,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing properties:
 
-    ```lang-js
+    ``` js
     
     // var oValue = oControl.get<Property>();
     // for example for the 'text'-property
@@ -30,7 +31,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing 1..1 aggregations
 
-    ```lang-js
+    ``` js
     
     // var oAggregation = oControl.get<Aggregation>();
     // for example for content-aggregation
@@ -39,7 +40,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing 1..n aggregrations:
 
-    ```lang-js
+    ``` js
     
     // var aAggregations = oControl.get<Aggregation>s();
     // for example for rows-aggregation
@@ -48,7 +49,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing associations:
 
-    ```lang-js
+    ``` js
     
     // var sAssociatedControlId = oControl.get<Association>();
     // for example labelFor-association

@@ -1,11 +1,12 @@
+<!-- loio13ced9493472408999143bc99bbb73b9 -->
+
 | loio |
 | -----|
 | 13ced9493472408999143bc99bbb73b9 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/13ced9493472408999143bc99bbb73b9.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/13ced9493472408999143bc99bbb73b9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/13ced9493472408999143bc99bbb73b9)</div>
-<!-- loio13ced9493472408999143bc99bbb73b9 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/13ced9493472408999143bc99bbb73b9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/13ced9493472408999143bc99bbb73b9)</div>
 
 ## App Development Using SAP Web IDE
 

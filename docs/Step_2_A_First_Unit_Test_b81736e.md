@@ -1,11 +1,12 @@
+<!-- loiob81736e0fcb246efb3b0cf0ca422f8fd -->
+
 | loio |
 | -----|
 | b81736e0fcb246efb3b0cf0ca422f8fd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b81736e0fcb246efb3b0cf0ca422f8fd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
-<!-- loiob81736e0fcb246efb3b0cf0ca422f8fd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
 
 ## Step 2: A First Unit Test
 

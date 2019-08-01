@@ -1,11 +1,12 @@
+<!-- loio62d9c4d8f5ad49aa914624af9551beb7 -->
+
 | loio |
 | -----|
 | 62d9c4d8f5ad49aa914624af9551beb7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/62d9c4d8f5ad49aa914624af9551beb7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7)</div>
-<!-- loio62d9c4d8f5ad49aa914624af9551beb7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7)</div>
 
 ## Frame Options
 
@@ -73,13 +74,14 @@ With `frameOptionsConfig` the following additional configuration options can be 
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 ### Example: `deny`
 
 If the application is not intended to run in a frame, set `frameOptions` to `deny`:
 
-```lang-html
+``` html
 <script id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'
     data-sap-ui-frameOptions='deny'>
@@ -92,7 +94,7 @@ If the application is not intended to run in a frame, set `frameOptions` to `den
 
 To restrict the embedding to same-origin domains, set `frameOptions` to `trusted`. The `callback` in the following code sample is called with a boolean as success state and can be used to implement an application-specific behavior.
 
-```lang-html
+``` html
 
 <script>
 window["sap-ui-config"] = {
@@ -119,7 +121,7 @@ window["sap-ui-config"] = {
 
 To allow that the OpenUI5 application is embedded in cross-origin domains, configure a whitelist service. The whitelist service checks whether the application can run in the parent origin, or not.
 
-```lang-html
+``` html
 <script>
 window["sap-ui-config"] = {
     whitelistService: 'url/to/whitelist/service',
@@ -146,7 +148,7 @@ window["sap-ui-config"] = {
 
 Alternatively, a `<meta>` tag can be used to configure the `whitelistService` and set the `frameOptions` to `trusted`. This only applies if the `whitelistService` or `frameOptions` configuration is not set in the OpenUI5 configuration.
 
-```lang-html
+``` html
 <meta name="sap.whitelistService" content="url/to/whitelist/service" />
 <script  id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'>

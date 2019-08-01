@@ -1,11 +1,12 @@
+<!-- loio8521ad1955f340f9a6207d615c88d7fd -->
+
 | loio |
 | -----|
 | 8521ad1955f340f9a6207d615c88d7fd |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8521ad1955f340f9a6207d615c88d7fd.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
-<!-- loio8521ad1955f340f9a6207d615c88d7fd -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
 
 ## Descriptor Dependencies to Libraries and Components
 

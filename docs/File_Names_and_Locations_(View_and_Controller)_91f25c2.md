@@ -1,11 +1,12 @@
+<!-- loio91f25c2d6f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f25c2d6f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f25c2d6f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f25c2d6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f25c2d6f4d1014b6dd926db0e91070)</div>
-<!-- loio91f25c2d6f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f25c2d6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f25c2d6f4d1014b6dd926db0e91070)</div>
 
 ## File Names and Locations \(View and Controller\)
 
@@ -15,7 +16,7 @@ By default, all files have to be located in a subfolder of the `resources` folde
 
 The following example assumes that your views and controllers are located on your local machine where the OpenUI5 runtime is loaded from another machine. When you instantiate a view or a controller, OpenUI5 runtime loads them in relation to the `resources` folder of the machine where OpenUI5 runtime was loaded. To inform OpenUI5 runtime that your views and controllers are located on your local machine, use the following code:
 
-```lang-js
+``` js
 sap.ui.loader.config({
   paths: {
     "<moduleNamePrefix>": sUrl
@@ -25,7 +26,7 @@ sap.ui.loader.config({
 
 If your files are located at `http://<localhost:8080>/<myapp>/`, for example, you can use `sap.ui.loader.config` as follows:
 
-```lang-js
+``` js
 sap.ui.loader.config({
   paths: {
     "my/app": "./myapp"

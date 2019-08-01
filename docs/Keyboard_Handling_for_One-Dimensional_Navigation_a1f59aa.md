@@ -1,11 +1,12 @@
+<!-- loioa1f59aa4a100410d8eb0c3f298da1462 -->
+
 | loio |
 | -----|
 | a1f59aa4a100410d8eb0c3f298da1462 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a1f59aa4a100410d8eb0c3f298da1462.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a1f59aa4a100410d8eb0c3f298da1462) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a1f59aa4a100410d8eb0c3f298da1462)</div>
-<!-- loioa1f59aa4a100410d8eb0c3f298da1462 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a1f59aa4a100410d8eb0c3f298da1462) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a1f59aa4a100410d8eb0c3f298da1462)</div>
 
 ## Keyboard Handling for One-Dimensional Navigation
 
@@ -55,3 +56,4 @@ The following keys and key combinations are used for navigation in one-dimension
 		</tr>
 	</tbody>
 </table>
+

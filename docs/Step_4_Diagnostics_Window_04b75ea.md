@@ -1,11 +1,12 @@
+<!-- loio04b75eae78ef4bae9b40cd7540ae8bdc -->
+
 | loio |
 | -----|
 | 04b75eae78ef4bae9b40cd7540ae8bdc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/04b75eae78ef4bae9b40cd7540ae8bdc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
-<!-- loio04b75eae78ef4bae9b40cd7540ae8bdc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
 
 ## Step 4: Diagnostics Window
 

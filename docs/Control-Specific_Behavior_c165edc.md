@@ -1,11 +1,12 @@
+<!-- loioc165edc0499f4e919a5d4421d8a9acdb -->
+
 | loio |
 | -----|
 | c165edc0499f4e919a5d4421d8a9acdb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c165edc0499f4e919a5d4421d8a9acdb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c165edc0499f4e919a5d4421d8a9acdb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c165edc0499f4e919a5d4421d8a9acdb)</div>
-<!-- loioc165edc0499f4e919a5d4421d8a9acdb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c165edc0499f4e919a5d4421d8a9acdb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c165edc0499f4e919a5d4421d8a9acdb)</div>
 
 ## Control-Specific Behavior
 

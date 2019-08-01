@@ -1,11 +1,12 @@
+<!-- loioc27d49caa48e424eb75391ae85da2134 -->
+
 | loio |
 | -----|
 | c27d49caa48e424eb75391ae85da2134 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c27d49caa48e424eb75391ae85da2134.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c27d49caa48e424eb75391ae85da2134) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c27d49caa48e424eb75391ae85da2134)</div>
-<!-- loioc27d49caa48e424eb75391ae85da2134 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c27d49caa48e424eb75391ae85da2134) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c27d49caa48e424eb75391ae85da2134)</div>
 
 ## Preprocessing Instructions
 

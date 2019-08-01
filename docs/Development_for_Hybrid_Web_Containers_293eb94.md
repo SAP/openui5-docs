@@ -1,11 +1,12 @@
+<!-- loio293eb945f0e945aaa776812481b4c533 -->
+
 | loio |
 | -----|
 | 293eb945f0e945aaa776812481b4c533 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/293eb945f0e945aaa776812481b4c533.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/293eb945f0e945aaa776812481b4c533) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/293eb945f0e945aaa776812481b4c533)</div>
-<!-- loio293eb945f0e945aaa776812481b4c533 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/293eb945f0e945aaa776812481b4c533) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/293eb945f0e945aaa776812481b4c533)</div>
 
 ## Development for Hybrid Web Containers
 
@@ -76,7 +77,7 @@ The OData model in OpenUI5 uses AJAX requests internally and the OData model ini
 
 Example:
 
-```lang-html
+``` html
 <script>
 <!-- put the following code in the beginning of the application code -->
 function appReady(){

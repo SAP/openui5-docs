@@ -1,11 +1,12 @@
+<!-- loio50897decc9504b2a875fb41d89fd254a -->
+
 | loio |
 | -----|
 | 50897decc9504b2a875fb41d89fd254a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/50897decc9504b2a875fb41d89fd254a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a)</div>
-<!-- loio50897decc9504b2a875fb41d89fd254a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a)</div>
 
 ## Step 2: Creating a Mock Server to Simulate Data
 
@@ -31,7 +32,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 2](ht
 
 ### webapp/test/mockServer.html
 
-```lang-html
+``` html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -71,7 +72,7 @@ We use this file to run our app in test mode with mock data. The new artifact `i
 
 ### webapp/test/initMockServer.js
 
-```lang-js
+``` js
 sap.ui.define([
 	"sap/ui/demo/MockServer/localService/mockserver"
 ], function (mockserver) {
@@ -91,7 +92,7 @@ We load a dependency to a file called `mockserver.js` that is located in the `we
 
 ### webapp/localService/metadata.xml
 
-```lang-xml
+``` xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <edmx:Edmx Version="1.0"
     xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">

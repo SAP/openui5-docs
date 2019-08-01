@@ -1,11 +1,12 @@
+<!-- loiode713373c4ef4e53b5717c59ed2c8d64 -->
+
 | loio |
 | -----|
 | de713373c4ef4e53b5717c59ed2c8d64 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/de713373c4ef4e53b5717c59ed2c8d64.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
-<!-- loiode713373c4ef4e53b5717c59ed2c8d64 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
 
 ## sap.uxap
 

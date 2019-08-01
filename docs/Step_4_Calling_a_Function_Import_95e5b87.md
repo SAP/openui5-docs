@@ -1,11 +1,12 @@
+<!-- loio95e5b87804ef4059bb68dd511666d4e3 -->
+
 | loio |
 | -----|
 | 95e5b87804ef4059bb68dd511666d4e3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/95e5b87804ef4059bb68dd511666d4e3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3)</div>
-<!-- loio95e5b87804ef4059bb68dd511666d4e3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3)</div>
 
 ## Step 4: Calling a Function Import
 
@@ -31,7 +32,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 4](ht
 
 ### webapp/localService/metadata.xml
 
-```lang-xml
+``` xml
 ... 
       <EntityContainer Name="NerdMeetups" m:IsDefaultEntityContainer="true">
         <EntitySet Name="Meetups" EntityType="NerdMeetup.Models.Meetup" />

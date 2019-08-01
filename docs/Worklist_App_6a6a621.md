@@ -1,11 +1,12 @@
+<!-- loio6a6a621c978145ad9eef2b221d2cf21d -->
+
 | loio |
 | -----|
 | 6a6a621c978145ad9eef2b221d2cf21d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6a6a621c978145ad9eef2b221d2cf21d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d)</div>
-<!-- loio6a6a621c978145ad9eef2b221d2cf21d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d)</div>
 
 ## Worklist App
 

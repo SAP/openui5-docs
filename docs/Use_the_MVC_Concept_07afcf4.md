@@ -1,11 +1,12 @@
+<!-- loio07afcf400eb344c2916e4eb3a400ff7b -->
+
 | loio |
 | -----|
 | 07afcf400eb344c2916e4eb3a400ff7b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/07afcf400eb344c2916e4eb3a400ff7b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b)</div>
-<!-- loio07afcf400eb344c2916e4eb3a400ff7b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b)</div>
 
 ## Use the MVC Concept
 

@@ -1,11 +1,12 @@
+<!-- loioa7932a791adc4a58ae4693400801ea5f -->
+
 | loio |
 | -----|
 | a7932a791adc4a58ae4693400801ea5f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a7932a791adc4a58ae4693400801ea5f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f)</div>
-<!-- loioa7932a791adc4a58ae4693400801ea5f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f)</div>
 
 ## Step 16: Handle Invalid Hashes by Listening to Bypassed Events
 

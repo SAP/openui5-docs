@@ -1,11 +1,12 @@
+<!-- loio05a9c69666074a2f831816534c32db9e -->
+
 | loio |
 | -----|
 | 05a9c69666074a2f831816534c32db9e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/05a9c69666074a2f831816534c32db9e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/05a9c69666074a2f831816534c32db9e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/05a9c69666074a2f831816534c32db9e)</div>
-<!-- loio05a9c69666074a2f831816534c32db9e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/05a9c69666074a2f831816534c32db9e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/05a9c69666074a2f831816534c32db9e)</div>
 
 ## Running an App in the Application Preview
 
@@ -31,7 +32,7 @@ You access the application preview using the Web App Preview, provided with the 
     > Note:
     > Before you deploy an application that has been created by using the Eclipse application development tool on a Java server, remove the mapping to the test resources in the `web.xml` file in the `<WebContent folder name>/WEB-INF` folder of the application. Test resources should only be used during testing. Remove or comment the following lines out:
     > 
-    > ```lang-xml
+    > ``` xml
     >    <servlet-mapping>
     >       <servlet-name>ResourceServlet</servlet-name>
     >       <url-pattern>/test-resources/*</url-pattern>

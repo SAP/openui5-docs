@@ -1,11 +1,12 @@
+<!-- loio2abdefbe3c184d79b46cbeb0f22d764d -->
+
 | loio |
 | -----|
 | 2abdefbe3c184d79b46cbeb0f22d764d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2abdefbe3c184d79b46cbeb0f22d764d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d)</div>
-<!-- loio2abdefbe3c184d79b46cbeb0f22d764d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d)</div>
 
 ## Flexible Column Layout
 

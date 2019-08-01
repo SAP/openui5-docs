@@ -1,11 +1,12 @@
+<!-- loio91f1dd0c6f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f1dd0c6f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f1dd0c6f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f1dd0c6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f1dd0c6f4d1014b6dd926db0e91070)</div>
-<!-- loio91f1dd0c6f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f1dd0c6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f1dd0c6f4d1014b6dd926db0e91070)</div>
 
 ## noJQuery Variant for Bootstrapping
 
@@ -13,7 +14,7 @@ The noJQuery variant supports bootstrapping for an application that already inte
 
 In this variant, you include the `resources/sap-ui-core-noJQuery.js` file in your HTML page. Make sure that jQuery and `jquery-ui-position` have been loaded beforehand. The following code snippet shows an example:
 
-```lang-html
+``` html
 
     <!-- include some jQuery version -->
     <script src="my-jQuery-min.js" ></script>

@@ -1,11 +1,12 @@
+<!-- loioa110f762148a4933a33d30751a37a743 -->
+
 | loio |
 | -----|
 | a110f762148a4933a33d30751a37a743 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a110f762148a4933a33d30751a37a743.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743)</div>
-<!-- loioa110f762148a4933a33d30751a37a743 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743)</div>
 
 ## Migration Information for Upgrading the Descriptor File
 
@@ -181,5 +182,6 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		</tr>
 	</tbody>
 </table>
+
 \* Available as of descriptor version \(OpenUI5 version\)
 

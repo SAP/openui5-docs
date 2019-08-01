@@ -1,11 +1,12 @@
+<!-- loio284a036c8ff943238fb65bf5a2676fb7 -->
+
 | loio |
 | -----|
 | 284a036c8ff943238fb65bf5a2676fb7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/284a036c8ff943238fb65bf5a2676fb7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
-<!-- loio284a036c8ff943238fb65bf5a2676fb7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
 
 ## Step 15: Aggregation Binding Using a Factory Function
 
@@ -166,7 +167,7 @@ The XML fragment defines a `StandardListItem` that is used if the stock level is
 
 ### webapp/view/ProductExtended.fragment.xml \(new\)
 
-```lang-xml
+``` xml
 <core:FragmentDefinition
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core">

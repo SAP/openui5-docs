@@ -1,11 +1,12 @@
+<!-- loiof08f29636be1472dac8f35fe7918ee08 -->
+
 | loio |
 | -----|
 | f08f29636be1472dac8f35fe7918ee08 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f08f29636be1472dac8f35fe7918ee08.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f08f29636be1472dac8f35fe7918ee08) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f08f29636be1472dac8f35fe7918ee08)</div>
-<!-- loiof08f29636be1472dac8f35fe7918ee08 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f08f29636be1472dac8f35fe7918ee08) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f08f29636be1472dac8f35fe7918ee08)</div>
 
 ## Visual Degradations
 
@@ -52,6 +53,7 @@ maxLines Visual Degradations<a name="loiof08f29636be1472dac8f35fe7918ee08__table
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 ### placeholder Property in sap.m.Input and sap.m.TextArea
@@ -97,6 +99,7 @@ placeholder Property in sap.m.Input<a name="loiof08f29636be1472dac8f35fe7918ee08
 		</tr>
 	</tbody>
 </table>
+
 Whereas `sap.m.Input` contains just a single line placeholder, `sap.m.TextArea` is a multiline control, meaning it brings with it different issues to the ones listed above. These issues are different depending on the browser and are listed below.
 
 placeholder Property in sap.m.TextArea<a name="loiof08f29636be1472dac8f35fe7918ee08__table_jhl_ykn_pp"/>
@@ -136,6 +139,7 @@ placeholder Property in sap.m.TextArea<a name="loiof08f29636be1472dac8f35fe7918e
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 ### Issues Affecting sap.m.TextArea on iOS Devices

@@ -1,11 +1,12 @@
+<!-- loio4d1b9d44941f483f9b7f579873d38685 -->
+
 | loio |
 | -----|
 | 4d1b9d44941f483f9b7f579873d38685 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4d1b9d44941f483f9b7f579873d38685.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4d1b9d44941f483f9b7f579873d38685) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4d1b9d44941f483f9b7f579873d38685)</div>
-<!-- loio4d1b9d44941f483f9b7f579873d38685 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4d1b9d44941f483f9b7f579873d38685) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4d1b9d44941f483f9b7f579873d38685)</div>
 
 ## Currencies and Units
 
@@ -23,7 +24,7 @@ For amounts or measures, you may sometimes need different currencies or units th
 
 **Code list annotations for currency codes and measures in "metadata.xml"**
 
-```lang-xml
+``` xml
 <EntityType Name="Product">
     ...
    <Property Name="WeightMeasure" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="variable" />
@@ -94,7 +95,7 @@ The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is int
 
 **Example for the metadata of a code list service**
 
-```lang-xml
+``` xml
 ...
   <EntityType Name="Currency">
     <Key>
@@ -153,7 +154,7 @@ With the metadata above, you can use the data types `sap.ui.model.odata.type.Cur
 
 **Example how to use currency and unit types in a freestyle application**
 
-```lang-js
+``` js
 ...
 <Input value="{mode:'TwoWay', parts:['WeightMeasure', 'WeightUnit', {mode:'OneTime', path:'/##@@requestUnitsOfMeasure', targetType:'any'}], type:'sap.ui.model.odata.type.Unit'}"/>
 ...
@@ -167,7 +168,7 @@ If you use XML templating, you can use `sap.ui.model.odata.v4.AnnotationHelper.f
 
 **Additional annotations when using XML templating**
 
-```lang-xml
+``` xml
 <!-- used in view template -->
 <Annotations Target="SAP__self.Product">
    <Annotation Term="com.sap.vocabularies.UI.v1.LineItem">
@@ -191,7 +192,7 @@ You can now use `sap.ui.model.odata.v4.AnnotationHelper.format` in the XML templ
 
 **How to use `AnnotationHelper.format` with currencies or units**
 
-```lang-xml
+``` xml
 <template:alias name="format" value="sap.ui.model.odata.v4.AnnotationHelper.format">
 <template:alias name="label" value="sap.ui.model.odata.v4.AnnotationHelper.label">
 <VBox>
@@ -218,7 +219,7 @@ You can now use `sap.ui.model.odata.v4.AnnotationHelper.format` in the XML templ
 
 **Example: Templating output**
 
-```lang-xml
+``` xml
 <VBox>
     <Table items="{/ProductList}">
       <columns>

@@ -1,11 +1,12 @@
+<!-- loiof5b050131a934a2ea6ea4c88aa09fce0 -->
+
 | loio |
 | -----|
 | f5b050131a934a2ea6ea4c88aa09fce0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f5b050131a934a2ea6ea4c88aa09fce0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5b050131a934a2ea6ea4c88aa09fce0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5b050131a934a2ea6ea4c88aa09fce0)</div>
-<!-- loiof5b050131a934a2ea6ea4c88aa09fce0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f5b050131a934a2ea6ea4c88aa09fce0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f5b050131a934a2ea6ea4c88aa09fce0)</div>
 
 ## Container Controls
 
@@ -85,3 +86,4 @@ OpenUI5 container controls do not directly interact with the application user. S
 		</tr>
 	</tbody>
 </table>
+

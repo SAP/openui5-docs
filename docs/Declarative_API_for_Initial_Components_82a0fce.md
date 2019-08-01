@@ -1,11 +1,12 @@
+<!-- loio82a0fcecc3cb427c91469bc537ebdddf -->
+
 | loio |
 | -----|
 | 82a0fcecc3cb427c91469bc537ebdddf |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/82a0fcecc3cb427c91469bc537ebdddf.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf)</div>
-<!-- loio82a0fcecc3cb427c91469bc537ebdddf -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf)</div>
 
 ## Declarative API for Initial Components
 
@@ -15,14 +16,14 @@ With the declarative API it is possible to define the initially started componen
 
 To define the initial component in a declarative way, use the `ComponentSupport` module. This module reads the DOM and searches for HTML elements containing a custom data attribute which is used to place the component at the right position:
 
-```lang-html
+``` html
 <div data-sap-ui-component data-name="my.component"></div>
 <div data-sap-ui-component data-name="my.component2"></div>
 ```
 
 This feature is not active by default, but must be enabled inside the bootstrap:
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
     data-sap-ui-async="true"
@@ -38,7 +39,7 @@ In some cases, the component initialisation must wait until all pre-required mod
 
 **index.html**
 
-```lang-html
+``` html
 <script id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
     data-sap-ui-async="true"
@@ -52,7 +53,7 @@ The custom module can load dependencies and execute code before activating the `
 
 **sap/ui/demo/bootstrap.js**
 
-```lang-js
+``` js
 1   sap.ui.define(["sap/ui/demo/MyModule"], function(MyModule) {
 2
 3          // Execute code which need to be executed before component initialization

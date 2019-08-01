@@ -1,11 +1,12 @@
+<!-- loio8d7b2868b8d8441a803a3223754d72fc -->
+
 | loio |
 | -----|
 | 8d7b2868b8d8441a803a3223754d72fc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8d7b2868b8d8441a803a3223754d72fc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8d7b2868b8d8441a803a3223754d72fc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8d7b2868b8d8441a803a3223754d72fc)</div>
-<!-- loio8d7b2868b8d8441a803a3223754d72fc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8d7b2868b8d8441a803a3223754d72fc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8d7b2868b8d8441a803a3223754d72fc)</div>
 
 ## Right-to-Left Support
 

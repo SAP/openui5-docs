@@ -1,11 +1,12 @@
+<!-- loio35b8a947b95344958b776699c116ad12 -->
+
 | loio |
 | -----|
 | 35b8a947b95344958b776699c116ad12 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/35b8a947b95344958b776699c116ad12.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12)</div>
-<!-- loio35b8a947b95344958b776699c116ad12 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12)</div>
 
 ## List and Table Events
 
@@ -24,7 +25,7 @@ All of these events are handled in the same way: an event is fired, and the even
 
 To use these events, you can simply define handlers for them, as shown below:
 
-```lang-js
+``` js
 
 <Table
    delete="deleteHandler"
@@ -38,7 +39,7 @@ To use these events, you can simply define handlers for them, as shown below:
 
 An example for `delete` would look like this:
 
-```lang-js
+``` js
 <List
       id="list"
       mode="Delete"
@@ -54,7 +55,7 @@ An example for `delete` would look like this:
 
 An example for `selectionChange` would look like this:
 
-```lang-js
+``` js
 <List
       id="idList"
       items="{/ProductCollection}"

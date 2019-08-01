@@ -1,11 +1,12 @@
+<!-- loiodaf6852a04b44d118963968a1239d2c0 -->
+
 | loio |
 | -----|
 | daf6852a04b44d118963968a1239d2c0 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/daf6852a04b44d118963968a1239d2c0.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0)</div>
-<!-- loiodaf6852a04b44d118963968a1239d2c0 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0)</div>
 
 ## Expression Binding
 
@@ -43,13 +44,13 @@ The syntax of the `*expression*` is similar to JavaScript syntax, but you can on
 > Note:
 > Expression binding can also be used with JavaScript. For example:
 > 
-> ```lang-js
+> ``` js
 > new Text({"visible" : "{= ${status} === 'critical' && ${amount} > 10000 }"});
 > ```
 > 
 > or
 > 
-> ```lang-js
+> ``` js
 > new Icon({color : "'{= encodeURIComponent(${/ID}) }'"});
 > ```
 > 
@@ -144,6 +145,7 @@ To embed a path containing a closing curly brace into an expression binding, use
 		</tr>
 	</tbody>
 </table>
+
 ***
 
 ### Simple Example
@@ -161,7 +163,7 @@ The application version without expression binding consists of the XML view \(`s
 
 XML view \(`sample.App.view.xml`\)
 
-```lang-xml
+``` xml
 
 <mvc:View controllerName="sample.App" xmlns="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 ...
@@ -174,7 +176,7 @@ XML view \(`sample.App.view.xml`\)
 
 Controller \(`sample.App.controller.js`\)
 
-```lang-xml
+``` xml
 
 ...
 myFormatter: function(sStatus) {
@@ -186,7 +188,7 @@ myFormatter: function(sStatus) {
 
 When using expression binding, however, you only need the XML view without controller logic \(`sample.App.view.xml`\):
 
-```lang-xml
+``` xml
 
 <mvc:View controllerName="sample.app" xmlns="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 ...
@@ -221,68 +223,68 @@ With the expression syntax sketched above it is possible to create more complex 
 
 Examples for more complex expressions:
 
-```lang-xml
+``` xml
 
 <!-- Set to visible if the status is critical and the amount 
 is above the threshold (note escaping of &&). -->
 visible="{= ${status} === 'critical' &amp;&amp; ${amount} > 10000 }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Text for amount level using language-dependent texts 
 from the resource model. -->
 text="{= ${/amount} > 10000 ? ${i18n>/high} : ${i18n>/normal} }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Set to visible if the rating is VIP, ignoring case 
 or if the order amount is greater than 10,000. -->
 visible="{= ${/rating}.toUpperCase() === 'VIP' || ${/orderAmount} > 10000 }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Set to visible if the rating contains VIP, ignoring
  the case. -->
 visible={= RegExp('vip', 'i').test(${/rating}) }
 ```
 
-```lang-xml
+``` xml
 
 <!-- Text is maximum of three values. -->
 text="{= Math.max(${/value1}, ${/value2}, ${/value3}) }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Control is enabled only if the order status is set. --> 
 enabled="{= ${/orderStatus} !== null }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Set text to the second string 'middle', access second 
 element in the array generated via 'split'. -->
 text="{= 'small@middle@long'.split('@')[1] }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Concatenate literal strings and expression bindings 
 or bindings. -->
 text="Hello {=${gender}==='male' ? 'Mr.' : 'Mrs.'} {lastName}"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Control such as a button in the toolbar of a table is 
 enabled only if there are items in the table. -->
 enabled="{= ${/items}.length>0 }"
 ```
 
-```lang-xml
+``` xml
 
 <!-- Set text by using a composite binding that combines
 several values in a formatter defined by a parameterized

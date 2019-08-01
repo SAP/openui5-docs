@@ -1,11 +1,12 @@
+<!-- loio708002929ea548fd9433954a9275eb5f -->
+
 | loio |
 | -----|
 | 708002929ea548fd9433954a9275eb5f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/708002929ea548fd9433954a9275eb5f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/708002929ea548fd9433954a9275eb5f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/708002929ea548fd9433954a9275eb5f)</div>
-<!-- loio708002929ea548fd9433954a9275eb5f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/708002929ea548fd9433954a9275eb5f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/708002929ea548fd9433954a9275eb5f)</div>
 
 ## Creating a QUnit Test Page
 
@@ -30,7 +31,7 @@ You can use the file template shown below. This code snippet shows a basic QUnit
 
 Each test file represents a UI5 module.
 
-```lang-js
+``` js
 /*global QUnit */
 sap.ui.define([], function() {
 	   "use strict";
@@ -54,7 +55,7 @@ This QUnit test file does not include the OpenUI5 bootstrap \(`sap-ui-core.js`\)
 
 Write your test code \(like in the following example\) into the template introduced in the previous section:
 
-```lang-js
+``` js
 /*global QUnit */
 sap.ui.define(["sap/m/Button", "sap/ui/qunit/QUnitUtils", "sap/ui/qunit/utils/createAndAppendDiv"], function(Button, QUnitUtils, createAndAppendDiv) {
 	"use strict";

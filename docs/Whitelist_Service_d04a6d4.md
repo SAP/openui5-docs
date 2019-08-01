@@ -1,11 +1,12 @@
+<!-- loiod04a6d41480c4396af16b5d2b25509ec -->
+
 | loio |
 | -----|
 | d04a6d41480c4396af16b5d2b25509ec |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d04a6d41480c4396af16b5d2b25509ec.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec)</div>
-<!-- loiod04a6d41480c4396af16b5d2b25509ec -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec)</div>
 
 ## Whitelist Service
 
@@ -19,7 +20,7 @@ GET url/to/whitelist/service?parentOrigin=https://parent.domain.com
 
 The service responds to the request with a valid JSON:
 
-```lang-js
+``` js
 
 {
     "version" : "1.0",

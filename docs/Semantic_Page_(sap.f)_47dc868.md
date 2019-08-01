@@ -1,11 +1,12 @@
+<!-- loio47dc86847f7a426a8e557167cf523bda -->
+
 | loio |
 | -----|
 | 47dc86847f7a426a8e557167cf523bda |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/47dc86847f7a426a8e557167cf523bda.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda)</div>
-<!-- loio47dc86847f7a426a8e557167cf523bda -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda)</div>
 
 ## Semantic Page \(sap.f\)
 
@@ -124,7 +125,7 @@ The left side contains the `messagesIndicator`, and the right side - `draftIndic
 
 Definition in an XML view:
 
-```lang-xml
+``` xml
 <core:View
 		xmlns:semantic="sap.f.semantic"
 			controllerName="mycompany.myController"
@@ -137,7 +138,7 @@ Definition in an XML view:
 
 Definition in JavaScript:
 
-```lang-js
+``` js
 var oSemanticPage = new sap.f.semantic.SemanticPage("mySemanticPage");
 oView.addContent(oSemanticPage);
 ```
@@ -148,7 +149,7 @@ oView.addContent(oSemanticPage);
 
 Adding semantic content:
 
-```lang-xml
+``` xml
 <mvc:View
    height="100%"
    xmlns:mvc="sap.ui.core.mvc"
@@ -177,7 +178,7 @@ Adding semantic content:
 
 Adding custom \(non-semantic\) content
 
-```lang-xml
+``` xml
 <mvc:View
    height="100%"
    xmlns:mvc="sap.ui.core.mvc"

@@ -1,17 +1,18 @@
+<!-- loioccfe35638f1d46e2bbcf06fa60ccc6ef -->
+
 | loio |
 | -----|
 | ccfe35638f1d46e2bbcf06fa60ccc6ef |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ccfe35638f1d46e2bbcf06fa60ccc6ef.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ccfe35638f1d46e2bbcf06fa60ccc6ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ccfe35638f1d46e2bbcf06fa60ccc6ef)</div>
-<!-- loioccfe35638f1d46e2bbcf06fa60ccc6ef -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ccfe35638f1d46e2bbcf06fa60ccc6ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ccfe35638f1d46e2bbcf06fa60ccc6ef)</div>
 
 ## ESLint Configuration File
 
 Content of the ESLint configuration file
 
-```lang-js
+``` js
 
 {
 	"env": {

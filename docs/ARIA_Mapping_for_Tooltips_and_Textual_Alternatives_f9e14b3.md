@@ -1,11 +1,12 @@
+<!-- loiof9e14b33a62d48ca82a3a9134258ade5 -->
+
 | loio |
 | -----|
 | f9e14b33a62d48ca82a3a9134258ade5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/f9e14b33a62d48ca82a3a9134258ade5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5)</div>
-<!-- loiof9e14b33a62d48ca82a3a9134258ade5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5)</div>
 
 ## ARIA Mapping for Tooltips and Textual Alternatives
 

@@ -1,11 +1,12 @@
+<!-- loio07d2bdc3ad0e4c62b14123e6f80dca56 -->
+
 | loio |
 | -----|
 | 07d2bdc3ad0e4c62b14123e6f80dca56 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/07d2bdc3ad0e4c62b14123e6f80dca56.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07d2bdc3ad0e4c62b14123e6f80dca56) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07d2bdc3ad0e4c62b14123e6f80dca56)</div>
-<!-- loio07d2bdc3ad0e4c62b14123e6f80dca56 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07d2bdc3ad0e4c62b14123e6f80dca56) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07d2bdc3ad0e4c62b14123e6f80dca56)</div>
 
 ## Add a Control to Your View
 
@@ -15,7 +16,7 @@ In your SAPUI5 application project, the first step to build your application is 
 
     -   In a `JS view` add the following to the `createContent` function
 
-        ```lang-js
+        ``` js
         var aControls = [];
                var oButton = new sap.ui.commons.Button({
                  id : this.createId("MyButton"),
@@ -27,7 +28,7 @@ In your SAPUI5 application project, the first step to build your application is 
 
     -   In an HTML view add the following to the `template` tag:
 
-        ```lang-html
+        ``` html
         <div data-sap-ui-type="sap.ui.commons.Button" id="MyButton"
           data-text="Hello HTML View" data-press="doIt">
         </div>   
@@ -36,14 +37,14 @@ In your SAPUI5 application project, the first step to build your application is 
 
     -   In an XML view add the following coding to the `core` tag
 
-        ```lang-xml
+        ``` xml
         <Button id="MyButton" text="Hello XML View" press="doIt"/>
         
         ```
 
     -   In a JSON view add the following to the `content` function
 
-        ```lang-js
+        ``` js
         "Type":"sap.ui.commons.Button",
               "id":"MyButton",
               "text":"Hello JSON View",

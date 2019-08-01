@@ -1,11 +1,12 @@
+<!-- loio10b14c7284ba48a185ae2046db470706 -->
+
 | loio |
 | -----|
 | 10b14c7284ba48a185ae2046db470706 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/10b14c7284ba48a185ae2046db470706.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706)</div>
-<!-- loio10b14c7284ba48a185ae2046db470706 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706)</div>
 
 ## Defining Groups for Fast Navigation \(*F6*\)
 
@@ -24,7 +25,7 @@ Basically, an *F6* group is defined via the attribute `data-sap-ui-fastnavgroup=
 
 This is the preferred option and can be used for many use cases. If a control or an element with a DOM representation wants to define an F6 group on its root element, use the `CustomData` mechanism in the `init` function of the control or element to set the attribute.
 
-```lang-js
+``` js
 init = function(){
   //...
   this.data("sap-ui-fastnavgroup", "true", true/*Write into DOM*/);
@@ -41,7 +42,7 @@ The `RenderManager` writes the attribute automatically during rendering when the
 
 During rendering of a control, the attribute can also be written to any arbitrary DOM element of the control.
 
-```lang-js
+``` js
 
 render = function(oRenderManager, oControl){
   //...
@@ -66,7 +67,7 @@ It may be necessary that a control has to provide a custom fast navigation handl
 
 To implement custom fast navigation handling, start with flagging the control as a custom handling area:
 
-```lang-js
+``` js
 render = function(oRenderManager, oControl){
   //...
   oRenderManager.writeControlData(oControl);
@@ -80,7 +81,7 @@ To implement the custom *F6* behavior within the control \(d\), use the event ha
 
 The interesting point is the collaboration \(b, c\) between the control and the central fast navigation handling.
 
-```lang-js
+``` js
 onsapskipforward = function(oEvent){ //F6
   var oTarget = findNextDomRefToFocus(oEvent.target); //Search for the next DOM element within the control which should be focused.
   if(!oTarget){
@@ -116,7 +117,7 @@ If the focus resides outside the control and the central fast navigation handlin
 
 If `preventDefault` is called on `BeforeFastNavigationFocus`, setting the focus on the target by the central handling is skipped.
 
-```lang-js
+``` js
 onBeforeFastNavigationFocus = function(oEvent) {
   var oTarget;
   if (jQuery.contains(this.getDomRef(), oEvent.source)) {

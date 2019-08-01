@@ -1,11 +1,12 @@
+<!-- loio3b9f760da5b64adf8db7f95247879086 -->
+
 | loio |
 | -----|
 | 3b9f760da5b64adf8db7f95247879086 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3b9f760da5b64adf8db7f95247879086.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086)</div>
-<!-- loio3b9f760da5b64adf8db7f95247879086 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086)</div>
 
 ## Types of Layout
 
@@ -102,6 +103,7 @@ The table below shows how each of the 9 layout types affects the column visibili
 		</tr>
 	</tbody>
 </table>
+
 For each value of the layout property, the `FlexibleColumnLayout` displays a different combination of columns, based on the available control width \(or screen width, if the control takes up the whole screen\).
 
 |Control size|Columns|

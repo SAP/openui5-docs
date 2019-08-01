@@ -1,11 +1,12 @@
+<!-- loio20737a4c64f448d2af9b9745fbe5d762 -->
+
 | loio |
 | -----|
 | 20737a4c64f448d2af9b9745fbe5d762 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/20737a4c64f448d2af9b9745fbe5d762.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/20737a4c64f448d2af9b9745fbe5d762) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/20737a4c64f448d2af9b9745fbe5d762)</div>
-<!-- loio20737a4c64f448d2af9b9745fbe5d762 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/20737a4c64f448d2af9b9745fbe5d762) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/20737a4c64f448d2af9b9745fbe5d762)</div>
 
 ## Code Coverage
 
@@ -17,7 +18,7 @@ At test execution time, Gherkin offers the option *Enable coverage* at the top l
 
 Gherkin calculates code coverage for any JavaScript file that is loaded after the test harness. This may cause some system libraries to appear in the results. You can specify which files to calculate code coverage for by adding code to your HTML bootstrap file \(after loading OpenUI5, but before running your tests\), as follows.
 
-```lang-html
+``` html
 <script
   src="path/to/resources/sap/ui/qunit/qunit-coverage.js"
   data-sap-ui-cover-only="GherkinWithOPA5/"

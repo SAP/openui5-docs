@@ -1,11 +1,12 @@
+<!-- loio04eb5203d1c649b796fab12a09e600ef -->
+
 | loio |
 | -----|
 | 04eb5203d1c649b796fab12a09e600ef |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/04eb5203d1c649b796fab12a09e600ef.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04eb5203d1c649b796fab12a09e600ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04eb5203d1c649b796fab12a09e600ef)</div>
-<!-- loio04eb5203d1c649b796fab12a09e600ef -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04eb5203d1c649b796fab12a09e600ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04eb5203d1c649b796fab12a09e600ef)</div>
 
 ## Options for Further Adaptation
 
@@ -59,7 +60,7 @@ To read more detailed documentation about margins and padding classes, see [Usin
 
 It is easy to add your own device-dependent or screen-size-dependent custom CSS by prefixing your selectors with the classes that come from the device API \(for more information about the device API, see the link below under *Related Information*\). Whenever you need to set a particular style on, say, a small screen like a phone only, you can do so by picking the **sapUiMedia-Std-Phone** CSS class as part of your selector. For example, a particular style for phone only could look like this:
 
-```lang-js
+``` js
 
 .sapUiMedia-Std-Phone .yourSelector{
 	Style-applied-to-phone-only: someValue;
@@ -77,7 +78,7 @@ Additionally, the information regarding which device you are currently on is ava
 
 This means you can provide style for the phone use case using CSS cascades as follows:
 
-```lang-js
+``` js
 
 .sap-phone .myControl {
       font-size: small;

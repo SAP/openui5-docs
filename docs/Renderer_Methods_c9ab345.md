@@ -1,11 +1,12 @@
+<!-- loioc9ab34570cc14ea5ab72a6d1a4a03e3f -->
+
 | loio |
 | -----|
 | c9ab34570cc14ea5ab72a6d1a4a03e3f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c9ab34570cc14ea5ab72a6d1a4a03e3f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
-<!-- loioc9ab34570cc14ea5ab72a6d1a4a03e3f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
 
 ## Renderer Methods
 
@@ -13,7 +14,7 @@ The `renderer` method is responsible for creating the HTML structure for the con
 
 The `renderer` method is a static method, so no `this` keyword is available, but a control instance and a `RenderManager` instance are given to the method. The `RenderManager` collects and concatenates string fragments and places them in the DOM at the appropriate position.
 
-```lang-js
+``` js
 renderer: function(oRM, oControl) {
    oRM.write("<div>", oControl.getText(), "</div>");
 }
@@ -23,7 +24,7 @@ A control must have exactly one HTML element as a root node, additional elements
 
 A new renderer type inherits from the renderer of the parent control. If a control extends, for example, the `InputBase` control, the function is added to a class that inherits from `sap.m.InputBaseRenderer` and can access the respective functions.
 
-```lang-js
+``` js
 sap.ui.define(['sap/ui/core/Renderer', 'sap/m/InputBaseRenderer'],
                 function(Renderer, InputBaseRenderer) {
                 "use strict";
@@ -40,7 +41,7 @@ sap.ui.define(['sap/ui/core/Renderer', 'sap/m/InputBaseRenderer'],
 
 If an existing renderer is used without modification, you can use the name of the respective renderer class:
 
-```lang-js
+``` js
 renderer: "sap.m.ButtonRenderer"
 ```
 
@@ -48,7 +49,7 @@ A control renderer can also override or implement methods from the renderer supe
 
 This is shown in the following example. Note that the methods need to be packed together into an object to indicate that they all go into the control renderer. The main rendering method is called `render`. The `this` keyword refers to the control renderer type and is used to access the other methods:
 
-```lang-js
+``` js
 
 renderer: {
 

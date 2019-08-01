@@ -1,11 +1,12 @@
+<!-- loio2680aa9b16c14a00b01261d04babbb39 -->
+
 | loio |
 | -----|
 | 2680aa9b16c14a00b01261d04babbb39 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2680aa9b16c14a00b01261d04babbb39.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)</div>
-<!-- loio2680aa9b16c14a00b01261d04babbb39 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)</div>
 
 ## Step 1: Hello World!
 

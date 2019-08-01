@@ -1,11 +1,12 @@
+<!-- loioa3465c8d71b449dba23d557cb2c413aa -->
+
 | loio |
 | -----|
 | a3465c8d71b449dba23d557cb2c413aa |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a3465c8d71b449dba23d557cb2c413aa.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa)</div>
-<!-- loioa3465c8d71b449dba23d557cb2c413aa -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa)</div>
 
 ## Text Size and Fonts
 

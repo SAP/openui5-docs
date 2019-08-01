@@ -1,11 +1,12 @@
+<!-- loio7cdff73f308b4b10bdf7d83b7aba72e7 -->
+
 | loio |
 | -----|
 | 7cdff73f308b4b10bdf7d83b7aba72e7 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7cdff73f308b4b10bdf7d83b7aba72e7.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7)</div>
-<!-- loio7cdff73f308b4b10bdf7d83b7aba72e7 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7)</div>
 
 ## Extended Change Detection
 
@@ -77,19 +78,13 @@ If a control you want to use in your app to visualize list entries supports exte
 	</thead>
 	<tbody>
 		<tr>
-			<td> 
-
-```
-lang-jsoControl.bindItems({
+			<td> ``` jsoControl.bindItems({
   path: "/listData",
   key: "id"
 });
 ```
 			</td>
-			<td> 
-
-```
-lang-jsoControl.bindItems({
+			<td> ``` jsoControl.bindItems({
   path: "/listData",
   key: function(oContext) {
     return oContext.getProperty("user") + oContext.getProperty("timestamp"); 
@@ -100,6 +95,7 @@ lang-jsoControl.bindItems({
 		</tr>
 	</tbody>
 </table>
+
 
 ***
 

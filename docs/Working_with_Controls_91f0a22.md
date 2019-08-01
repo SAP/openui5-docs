@@ -1,11 +1,12 @@
+<!-- loio91f0a22d6f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f0a22d6f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f0a22d6f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0a22d6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0a22d6f4d1014b6dd926db0e91070)</div>
-<!-- loio91f0a22d6f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0a22d6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0a22d6f4d1014b6dd926db0e91070)</div>
 
 ## Working with Controls
 
@@ -55,7 +56,7 @@ In OpenUI5, control constructors accept the following arguments in the specified
 
 The following code snippet shows an example of a constructor that is called to create a new text control saying "Hello World" with the specified tooltip and width:
 
-```lang-js
+``` js
 // required from sap/m/Text
 var oText = new Text("testText",
 {text : "Hello World", tooltip: "This is an example tooltip", width: "100px"});
@@ -63,7 +64,7 @@ var oText = new Text("testText",
 
 The above example is an abbreviated version of the following code snippet with a detailed list of statements, which is alternatively supported:
 
-```lang-js
+``` js
 // required from sap/m/Text
 var oText = new Text("testText"); 
 oText.setText("Hello World");

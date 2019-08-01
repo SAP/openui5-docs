@@ -1,11 +1,12 @@
+<!-- loio902313063d6f45aeaa3388cc4c13c34e -->
+
 | loio |
 | -----|
 | 902313063d6f45aeaa3388cc4c13c34e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/902313063d6f45aeaa3388cc4c13c34e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/902313063d6f45aeaa3388cc4c13c34e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/902313063d6f45aeaa3388cc4c13c34e)</div>
-<!-- loio902313063d6f45aeaa3388cc4c13c34e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/902313063d6f45aeaa3388cc4c13c34e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/902313063d6f45aeaa3388cc4c13c34e)</div>
 
 ## Routing Configuration
 
@@ -138,7 +139,7 @@ The `owner` parameter defines the owner of all views that are created by the rou
 
 ***
 
-```lang-js
+``` js
 {
     metadata: {
         routing: {

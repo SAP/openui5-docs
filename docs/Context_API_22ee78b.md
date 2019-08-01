@@ -1,11 +1,12 @@
+<!-- loio22ee78b422614b40ad4c1938dc23d967 -->
+
 | loio |
 | -----|
 | 22ee78b422614b40ad4c1938dc23d967 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/22ee78b422614b40ad4c1938dc23d967.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967)</div>
-<!-- loio22ee78b422614b40ad4c1938dc23d967 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967)</div>
 
 ## Context API
 
@@ -25,7 +26,7 @@ The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Con
 > 
 > 
 
-```lang-js
+``` js
 
 // assume oEvent is an event fired when a button is pressed in an item of a table bound to /SalesOrderList
 sOrderID = oEvent.getSource().getBindingContext().getProperty("SalesOrderID"); // the SalesOrderID in the same item

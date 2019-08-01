@@ -1,11 +1,12 @@
+<!-- loio0715706772ed43f389d2ab9b381ef8ec -->
+
 | loio |
 | -----|
 | 0715706772ed43f389d2ab9b381ef8ec |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0715706772ed43f389d2ab9b381ef8ec.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0715706772ed43f389d2ab9b381ef8ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0715706772ed43f389d2ab9b381ef8ec)</div>
-<!-- loio0715706772ed43f389d2ab9b381ef8ec -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0715706772ed43f389d2ab9b381ef8ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0715706772ed43f389d2ab9b381ef8ec)</div>
 
 ## IDs in Declarative XML or HTML Fragments
 
@@ -13,7 +14,7 @@ If a fragment with a control ID is instantiated twice without giving an ID, a du
 
 Given the following XML fragment example:
 
-```lang-xml
+``` xml
 <HBox xmlns="sap.m">
    <Button                    text="Hello World" />
    <Button id="btnInFragment" text="Hello World" />
@@ -24,13 +25,13 @@ The first button will always have a generated ID, as, for instance, `__button2`.
 
 The second button will either have the ID `btnInFragment`, in case the fragment is instantiated without giving an ID. This approach is easy to use, but implies the risk of ID collisions when instantiated multiple times:
 
-```lang-js
+``` js
 sap.ui.htmlfragment("my.useful.UiPartZ"); // Button ID will not be prefixed
 ```
 
 The other possible ID of the second button is `myFragment--btnInFragment`, in case the fragment is instantiated giving the ID `myFragment`. You should not rely on the exact syntax of this prefixing.
 
-```lang-js
+``` js
 sap.ui.htmlfragment("myFragment", "my.useful.UiPartZ");
 ```
 

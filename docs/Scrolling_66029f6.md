@@ -1,11 +1,12 @@
+<!-- loio66029f6f5a554a4eb700676bec1460dc -->
+
 | loio |
 | -----|
 | 66029f6f5a554a4eb700676bec1460dc |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/66029f6f5a554a4eb700676bec1460dc.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/66029f6f5a554a4eb700676bec1460dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/66029f6f5a554a4eb700676bec1460dc)</div>
-<!-- loio66029f6f5a554a4eb700676bec1460dc -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/66029f6f5a554a4eb700676bec1460dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/66029f6f5a554a4eb700676bec1460dc)</div>
 
 ## Scrolling
 

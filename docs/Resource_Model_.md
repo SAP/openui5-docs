@@ -1,11 +1,12 @@
+<!-- loio91f122a36f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f122a36f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f122a36f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070)</div>
-<!-- loio91f122a36f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070)</div>
 
 ## Resource Model
 
@@ -15,7 +16,7 @@ A resource model is instantiated with a `bundleName` or a `bundleURL`. The bundl
 
 In this resource model implementation you cannot pass parameters to your texts within the resource bundle. If you have to pass parameters, you must do this on your own. Therefore, you can load the bundle yourself or retrieve it from the model.
 
-```lang-js
+``` js
 var myBundle = oModel.getResourceBundle();
 ```
 
@@ -49,7 +50,7 @@ The binding path syntax for the resource model only contains a flat list of prop
 
 The following example shows a simple resource model that illustrates the possible binding paths: Resource bundle content:
 
-```lang-js
+``` js
 
 CLOSE_BUTTON_TEXT=Close
 OPEN_BUTTON_TEXT=Open
@@ -58,7 +59,7 @@ CANCEL_BUTTON_TEXT=Cancel
 
 Binding paths within the model:
 
-```lang-js
+``` js
 
 CLOSE_BUTTON_TEXT
 OPEN_BUTTON_TEXT
@@ -79,7 +80,7 @@ The `ResourceModel` required for binding these texts is created during view inst
 
 2.  To bind this resource bundle content in XML views, insert the following code:
 
-```lang-xml
+``` xml
 <core:View resourceBundleName="myBundle"
            resourceBundleAlias="i18n" 
            controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:core="sap.ui.core"

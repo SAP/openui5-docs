@@ -1,11 +1,12 @@
+<!-- loio9bf4dce43b7943d0909cd6c58a933589 -->
+
 | loio |
 | -----|
 | 9bf4dce43b7943d0909cd6c58a933589 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9bf4dce43b7943d0909cd6c58a933589.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589)</div>
-<!-- loio9bf4dce43b7943d0909cd6c58a933589 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589)</div>
 
 ## Step 29: Integration Test with OPA
 
@@ -204,7 +205,7 @@ Then we load the basic QUnit functionality via script tags from OpenUI5 so that 
 
 ### webapp/test/integration/opaTests.qunit.js \(New\)
 
-```lang-js
+``` js
 /* global QUnit */
 
 QUnit.config.autostart = false;

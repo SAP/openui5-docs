@@ -1,11 +1,12 @@
+<!-- loio91f385926f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f385926f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f385926f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070)</div>
-<!-- loio91f385926f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070)</div>
 
 ## Use of Localized Texts in Applications
 
@@ -21,7 +22,7 @@ You can use the JavaScript module `sap/base/i18n/ResourceBundle` to access local
 
 You can then use the `ResourceBundle.create` function to load the resource bundle from the given URL that is the bundle name, and for a provided locale. When no locale is specified, the default locale \(en\) is used. The following code snippet shows the use of the `ResourceBundle.create` function to return a Promise which resolves with a `sap/base/i18n/ResourceBundle`:
 
-```lang-js
+``` js
 // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 ResourceBundle.create({
     url : sUrl, 
@@ -36,7 +37,7 @@ For more information, see `ResourceBundle` in the API Reference.
 
 The resource bundle `sap/base/i18n/ResourceBundle` provides access to the localized texts that are contained in the resource bundle. You can use the `getText` method to access the texts in the loaded bundle by means of their key. This is shown in the following code snippet:
 
-```lang-js
+``` js
 var sText = oBundle.getText(sKey);	
 ```
 
@@ -52,7 +53,7 @@ For a localized Web page you need the .html page itself and the .properties file
 
 The resource bundle `i18n.properties` is the English fallback version, which is the default version.
 
-```lang-prefs
+``` prefs
 welcome=Welcome {0}. Please enter a new contact:
 lastname=Last Name:
 firstname=First Name:
@@ -63,7 +64,7 @@ city=City:
 
 The resource bundle `i18n_de.properties` contains the texts in German. The following code snippet shows the content of this file:
 
-```lang-prefs
+``` prefs
 welcome=Willkommen {0}. Bitte geben Sie einen neuen Kontakt ein:
 lastname=Nachname:
 firstname=Vorname:
@@ -74,7 +75,7 @@ city=Ort:
 
 The localization test page uses these texts to display a welcome message and a form to enter the address of a person. The coding of the test page looks as follows:
 
-```lang-js
+``` js
 // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 // "MatrixLayout" required from module "sap/ui/commons/layout/MatrixLayout"
 // "Label" required from module "sap/ui/commons/Label"
@@ -128,7 +129,7 @@ With regard to localization, the code above defines the following procedure:
 You can also use data binding to access localized texts. The `ResourceModel` is a wrapper for resource bundles that exposes the localized texts as a model for data binding. You use the `ResourceModel` to bind texts for control properties to language dependent resource bundle properties. You can instantiate the `ResourceModel` either with `bundleName` \(name of a resource bundle that equals a OpenUI5 module name within the define/require concept\), or a `bundleUrl`, which points to a resource bundle. When you use the bundle name, make sure that the file has a `.properties` suffix. If no `locale` is defined, the current language is used.
 
 > Note:
-> ```lang-js
+> ``` js
 > // "ResourceModel" required from module "sap/ui/model/resource/ResourceModel"
 > // "Button" required from module "sap/ui/commons/Button"
 >  var oModel = new ResourceModel({
@@ -150,7 +151,7 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 > Note:
 > The current data binding implementation does not allow to pass parameters to your texts in the resource bundle. If you have to pass parameters, you must do this on your own. You can, however, access the resource bundle directly from the model instead of loading it:
 > 
-> ```lang-js
+> ``` js
 > oModel.getResourceBundle().then(function(oBundleInstance) {
 >     ...
 > });

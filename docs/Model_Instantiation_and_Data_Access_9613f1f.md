@@ -1,11 +1,12 @@
+<!-- loio9613f1f2d88747cab21896f7216afdac -->
+
 | loio |
 | -----|
 | 9613f1f2d88747cab21896f7216afdac |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9613f1f2d88747cab21896f7216afdac.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9613f1f2d88747cab21896f7216afdac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9613f1f2d88747cab21896f7216afdac)</div>
-<!-- loio9613f1f2d88747cab21896f7216afdac -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9613f1f2d88747cab21896f7216afdac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9613f1f2d88747cab21896f7216afdac)</div>
 
 ## Model Instantiation and Data Access
 
@@ -17,7 +18,7 @@ When creating an OData V4 model instance, the only parameter you actually need i
 
 **OData V4 model instantiation:**
 
-```lang-js
+``` js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -40,7 +41,7 @@ An OData service accepts query options placed in the service URL query part, as 
 
 **OData V4 model instantiation with service URL parameters:**
 
-```lang-js
+``` js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -62,7 +63,7 @@ The following code instantiates a model that bundles all update requests in the 
 
 **OData V4 model with `updateGroupId`:**
 
-```lang-js
+``` js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -79,7 +80,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
 
-```lang-js
+``` js
 
 {
     "sap.app" : {

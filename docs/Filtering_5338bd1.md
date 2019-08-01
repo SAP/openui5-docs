@@ -1,11 +1,12 @@
+<!-- loio5338bd1f9afb45fb8b2af957c3530e8f -->
+
 | loio |
 | -----|
 | 5338bd1f9afb45fb8b2af957c3530e8f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5338bd1f9afb45fb8b2af957c3530e8f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5338bd1f9afb45fb8b2af957c3530e8f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5338bd1f9afb45fb8b2af957c3530e8f)</div>
-<!-- loio5338bd1f9afb45fb8b2af957c3530e8f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5338bd1f9afb45fb8b2af957c3530e8f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5338bd1f9afb45fb8b2af957c3530e8f)</div>
 
 ## Filtering
 
@@ -20,7 +21,7 @@ To use server side filtering, set the operation mode to [sap.ui.model.odata.Oper
 
  **Example: Operation mode set in `manifest.json` for the model** 
 
-```lang-js
+``` js
 
 "models" : {
     "" : {
@@ -35,7 +36,7 @@ To use server side filtering, set the operation mode to [sap.ui.model.odata.Oper
 
 **Example: Operation mode set as binding parameter for a specific list binding**
 
-```lang-js
+``` js
 
 <Table growing="true" growingThreshold="5" id="Equipments"
     items="{
@@ -59,7 +60,7 @@ The `ODataListBinding` combines the dynamic filter and static filter with a logi
 
 **Examle: Dynamic and static filters**
 
-```lang-js
+``` js
 
 <Table growing="true" growingThreshold="5" id="Equipments"
     items="{

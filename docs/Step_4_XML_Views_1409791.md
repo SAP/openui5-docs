@@ -1,11 +1,12 @@
+<!-- loio1409791afe4747319a3b23a1e2fc7064 -->
+
 | loio |
 | -----|
 | 1409791afe4747319a3b23a1e2fc7064 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/1409791afe4747319a3b23a1e2fc7064.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064)</div>
-<!-- loio1409791afe4747319a3b23a1e2fc7064 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064)</div>
 
 ## Step 4: XML Views
 
@@ -30,7 +31,7 @@ The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes
 
 You can view and download all files at [Walkthrough - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.04/preview).
 
-```lang-xml
+``` xml
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">

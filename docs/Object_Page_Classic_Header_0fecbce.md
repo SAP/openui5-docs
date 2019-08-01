@@ -1,11 +1,12 @@
+<!-- loio0fecbce45e39406aa939bd25e89823f4 -->
+
 | loio |
 | -----|
 | 0fecbce45e39406aa939bd25e89823f4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0fecbce45e39406aa939bd25e89823f4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4)</div>
-<!-- loio0fecbce45e39406aa939bd25e89823f4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4)</div>
 
 ## Object Page Classic Header
 

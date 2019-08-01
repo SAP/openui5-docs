@@ -1,11 +1,12 @@
+<!-- loio5b0775397e394b1fb973fa207554003e -->
+
 | loio |
 | -----|
 | 5b0775397e394b1fb973fa207554003e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5b0775397e394b1fb973fa207554003e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e)</div>
-<!-- loio5b0775397e394b1fb973fa207554003e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e)</div>
 
 ## Field Groups
 

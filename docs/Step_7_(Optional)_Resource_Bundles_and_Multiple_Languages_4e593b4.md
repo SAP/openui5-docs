@@ -1,11 +1,12 @@
+<!-- loio4e593b44e78a431e8b21be6b3915fb55 -->
+
 | loio |
 | -----|
 | 4e593b44e78a431e8b21be6b3915fb55 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4e593b44e78a431e8b21be6b3915fb55.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
-<!-- loio4e593b44e78a431e8b21be6b3915fb55 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
 
 ## Step 7: \(Optional\) Resource Bundles and Multiple Languages
 

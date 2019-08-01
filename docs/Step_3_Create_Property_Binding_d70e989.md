@@ -1,11 +1,12 @@
+<!-- loiod70e9894c09b4c27a98d4850d4e90f2c -->
+
 | loio |
 | -----|
 | d70e9894c09b4c27a98d4850d4e90f2c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d70e9894c09b4c27a98d4850d4e90f2c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
-<!-- loiod70e9894c09b4c27a98d4850d4e90f2c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
 
 ## Step 3: Create Property Binding
 

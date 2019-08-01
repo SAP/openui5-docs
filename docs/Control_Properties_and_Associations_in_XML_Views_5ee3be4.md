@@ -1,11 +1,12 @@
+<!-- loio5ee3be4727864bb08b991414e0428e38 -->
+
 | loio |
 | -----|
 | 5ee3be4727864bb08b991414e0428e38 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5ee3be4727864bb08b991414e0428e38.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5ee3be4727864bb08b991414e0428e38) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5ee3be4727864bb08b991414e0428e38)</div>
-<!-- loio5ee3be4727864bb08b991414e0428e38 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5ee3be4727864bb08b991414e0428e38) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5ee3be4727864bb08b991414e0428e38)</div>
 
 ## Control Properties and Associations in XML Views
 

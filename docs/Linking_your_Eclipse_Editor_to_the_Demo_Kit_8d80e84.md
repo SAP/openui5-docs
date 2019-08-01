@@ -1,11 +1,12 @@
+<!-- loio8d80e84366a84bbbada83163ea700eb4 -->
+
 | loio |
 | -----|
 | 8d80e84366a84bbbada83163ea700eb4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/8d80e84366a84bbbada83163ea700eb4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8d80e84366a84bbbada83163ea700eb4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8d80e84366a84bbbada83163ea700eb4)</div>
-<!-- loio8d80e84366a84bbbada83163ea700eb4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8d80e84366a84bbbada83163ea700eb4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8d80e84366a84bbbada83163ea700eb4)</div>
 
 ## Linking your Eclipse Editor to the Demo Kit
 

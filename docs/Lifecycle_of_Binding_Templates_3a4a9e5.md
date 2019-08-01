@@ -1,11 +1,12 @@
+<!-- loio3a4a9e562988456c9be0ef883ae7da50 -->
+
 | loio |
 | -----|
 | 3a4a9e562988456c9be0ef883ae7da50 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3a4a9e562988456c9be0ef883ae7da50.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a4a9e562988456c9be0ef883ae7da50) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a4a9e562988456c9be0ef883ae7da50)</div>
-<!-- loio3a4a9e562988456c9be0ef883ae7da50 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a4a9e562988456c9be0ef883ae7da50) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a4a9e562988456c9be0ef883ae7da50)</div>
 
 ## Lifecycle of Binding Templates
 

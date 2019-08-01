@@ -1,11 +1,12 @@
+<!-- loio354f98ed2b514ba9960556333428d35e -->
+
 | loio |
 | -----|
 | 354f98ed2b514ba9960556333428d35e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/354f98ed2b514ba9960556333428d35e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)</div>
-<!-- loio354f98ed2b514ba9960556333428d35e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)</div>
 
 ## Step 17: Fragment Callbacks
 

@@ -1,11 +1,12 @@
+<!-- loiob54f7895b7594c61a83fa7257fa9d13f -->
+
 | loio |
 | -----|
 | b54f7895b7594c61a83fa7257fa9d13f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b54f7895b7594c61a83fa7257fa9d13f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f)</div>
-<!-- loiob54f7895b7594c61a83fa7257fa9d13f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f)</div>
 
 ## OData Operations
 
@@ -17,7 +18,7 @@ The OData V4 model supports OData operations \(`ActionImport`, `FunctionImport`,
 
 You gain access to a `FunctionImport` by binding it to a view element. If there are no parameters and there is no need to control the point in time when the function is called, you can simply bind the OData path like this:
 
-```lang-js
+``` js
 <Text text="{path: '/GetNumberOfAvailableItems()', type: 'sap.ui.model.odata.type.Int16'}"/>
 ```
 
@@ -35,7 +36,7 @@ If the operation binding defers operation execution, you need to call its `execu
 
 **View:**
 
-```lang-xml
+``` xml
 <Form id="getNextAvailableItem" binding="{/GetNextAvailableItem(...)}">
     <Label text="Description"/>
     <Text text="{Description}"/>
@@ -45,7 +46,7 @@ If the operation binding defers operation execution, you need to call its `execu
 
 **Controller:**
 
-```lang-js
+``` js
 onGetNextAvailableItem : function (oEvent) {
     this.getView().byId("getNextAvailableItem").getObjectBinding().execute();
 }
@@ -57,7 +58,7 @@ If the function returns a primitive value or a collection, the binding for the r
 
 **View:**
 
-```lang-xml
+``` xml
 <Form id="getNumberOfAvailableItems" binding="{/GetNumberOfAvailableItems(...)}">
     <Label text="Number of available items:"/>
     <Text text="{value}"/>
@@ -87,7 +88,7 @@ Action bindings must be deferred, otherwise the application cannot control when 
 
 **View:**
 
-```lang-xml
+``` xml
 <Form id="Submit" binding="{/Submit(...)}">
     <Button text="Submit the action" press="onSubmit"/>
 </Form>
@@ -105,7 +106,7 @@ Operation parameters can be set by calling the function `setParameter` on the op
 
 **Controller:**
 
-```lang-js
+``` js
 onSubmit : function (oEvent) {
     this.getView().byId("Submit").getObjectBinding().setParameter("Comment", sComment).execute();
 }
@@ -121,7 +122,7 @@ Bound actions or functions are controlled in the same way as unbound operations;
 
 To call actions or functions bound to a single entity, entity property, or navigation property use a relative binding. The following sample calls the "invoice created" action on the sales order selected in the corresponding table:
 
-```lang-js
+``` js
 var oModel = this.getView().getModel(),
     oTable = this.getView().byId("SalesOrders"),
     oSalesOrderContext = oTable.getSelectedItem().getBindingContext(),
@@ -142,7 +143,7 @@ oAction.execute().then(
 
 To call actions or functions bound to a collection specified by an OData entity set, you can create a context binding with an absolute path, or with a relative path for the operation \(for example `name.space.DestroyOutdated(...)"`\) and the header context of a list binding as parent context. The following sample shows a button press event handler which calls the `destroy outdated` action on the `LeaveRequests` entity set.
 
-```lang-js
+``` js
 var oModel = this.getView().getModel();
  
 oModel.bindContext("/LeaveRequests/name.space.DestroyOutdated(...)").execute();
@@ -150,7 +151,7 @@ oModel.bindContext("/LeaveRequests/name.space.DestroyOutdated(...)").execute();
 
 The same example with a relative binding and the header context of the list binding as parent context:
 
-```lang-js
+``` js
 var oModel = this.getView().getModel(),
     // assume there is a table with ID "leaveRequests" and its items aggregation bound to "/LeaveRequests"
     oListBinding = this.byId("leaveRequests").getBinding("items"),

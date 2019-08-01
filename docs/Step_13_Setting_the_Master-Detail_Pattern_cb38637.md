@@ -1,11 +1,12 @@
+<!-- loiocb3863746ea14d3698a8b6cc2c62832d -->
+
 | loio |
 | -----|
 | cb3863746ea14d3698a8b6cc2c62832d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cb3863746ea14d3698a8b6cc2c62832d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
-<!-- loiocb3863746ea14d3698a8b6cc2c62832d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
 
 ## Step 13: Setting the Master-Detail Pattern
 

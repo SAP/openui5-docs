@@ -1,11 +1,12 @@
+<!-- loio6e9c6bd2054c4425b7f15cac31aa675c -->
+
 | loio |
 | -----|
 | 6e9c6bd2054c4425b7f15cac31aa675c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6e9c6bd2054c4425b7f15cac31aa675c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
-<!-- loio6e9c6bd2054c4425b7f15cac31aa675c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
 
 ## Step 14: Adding Tabs
 

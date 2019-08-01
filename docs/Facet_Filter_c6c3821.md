@@ -1,11 +1,12 @@
+<!-- loioc6c38217a4a64001a22ad76cdfa97fae -->
+
 | loio |
 | -----|
 | c6c38217a4a64001a22ad76cdfa97fae |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c6c38217a4a64001a22ad76cdfa97fae.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6c38217a4a64001a22ad76cdfa97fae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6c38217a4a64001a22ad76cdfa97fae)</div>
-<!-- loioc6c38217a4a64001a22ad76cdfa97fae -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6c38217a4a64001a22ad76cdfa97fae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6c38217a4a64001a22ad76cdfa97fae)</div>
 
 ## Facet Filter
 

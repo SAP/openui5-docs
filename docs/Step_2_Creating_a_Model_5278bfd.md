@@ -1,11 +1,12 @@
+<!-- loio5278bfd38f3940b192df0e39f2fb33b3 -->
+
 | loio |
 | -----|
 | 5278bfd38f3940b192df0e39f2fb33b3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5278bfd38f3940b192df0e39f2fb33b3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
-<!-- loio5278bfd38f3940b192df0e39f2fb33b3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
 
 ## Step 2: Creating a Model
 

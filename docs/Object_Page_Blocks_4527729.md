@@ -1,11 +1,12 @@
+<!-- loio4527729576cb4a4888275b6935aad03a -->
+
 | loio |
 | -----|
 | 4527729576cb4a4888275b6935aad03a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4527729576cb4a4888275b6935aad03a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a)</div>
-<!-- loio4527729576cb4a4888275b6935aad03a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a)</div>
 
 ## Object Page Blocks
 
@@ -21,7 +22,7 @@ Object Page content grouped in Blocks<a name="loio4527729576cb4a4888275b6935aad0
 
 To add blocks, use the `blocks` aggregation of `sap.uxap.ObjectPageSubSection`:
 
-```lang-xml
+``` xml
  <ObjectPageLayout id="ObjectPageLayout" subSectionLayout="titleOnTop">
         <sections>
             <ObjectPageSection title="Payroll" >
@@ -54,7 +55,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 
 -   Extend `sap.uxap.BlockBase`
 
-    ```lang-js
+    ``` js
     **sap.uxap.BlockBase.extend**("<BlockName>", {
             metadata: {
              }
@@ -63,7 +64,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 
 -   Support the modes described in `sap.uxap.ObjectPageSubSectionMode.type` - `Collapsed` and `Expanded`. For each mode, declare its associated view. It is recommended you use the XML view if no templating is needed:
 
-    ```lang-js
+    ``` js
     sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
                 views: {
@@ -93,13 +94,13 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 > 
 > One *Employee* model for the employee entity:
 > 
-> ```lang-xml
+> ``` xml
 > <Text text="{Employee>FirstName}"></Text>
 > ```
 > 
 > One *Goals* model for the goal collections:
 > 
-> ```lang-xml
+> ``` xml
 > <List items="{Goals>}">
 > ```
 > 
@@ -110,7 +111,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 > Note:
 > An app wants to use the *Employee Goals* blocks described above. These are therefore embedded into a page that has a model named `ApplicationModel`, in which `Goals` are a navigation property of employees:
 > 
-> ```lang-xml
+> ``` xml
 > <EmployeeGoals>
 >     <mappings>
 >         <uxap:ModelMapping externalModelName="ApplicationModel" externalPath="/Employee('121')" internalModelName="Employee" />
@@ -121,7 +122,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 > 
 > A second app uses the same blocks, but in its service, `Goals` and `Employees` are unrelated entities:
 > 
-> ```lang-xml
+> ``` xml
 > <EmployeeGoals>
 >     <mappings>
 >         <uxap:ModelMapping externalModelName="ApplicationModel2" externalPath="/Employee('121')" internalModelName="Employee" />

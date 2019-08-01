@@ -1,11 +1,12 @@
+<!-- loioc44813ddee80464985d62c1f852b4a17 -->
+
 | loio |
 | -----|
 | c44813ddee80464985d62c1f852b4a17 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c44813ddee80464985d62c1f852b4a17.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c44813ddee80464985d62c1f852b4a17) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c44813ddee80464985d62c1f852b4a17)</div>
-<!-- loioc44813ddee80464985d62c1f852b4a17 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c44813ddee80464985d62c1f852b4a17) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c44813ddee80464985d62c1f852b4a17)</div>
 
 ## Supportability
 
@@ -17,7 +18,7 @@ In case of problems or errors in the custom application, several options exist t
 
 If a customized application does not run properly, you can disable the customizing. In a support case, for example, you can set a breakpoint early in the `sap-ui-core.js` and then execute the following code in the browser developer tool console:
 
-```lang-js
+``` js
  
   window["sap-ui-config"] = window["sap-ui-config"] ||{};
   window["sap-ui-config"]["xx-disableCustomizing"] = true;
@@ -34,7 +35,7 @@ If a customized application does not run properly, you can disable the customizi
 
 The console log contains information about the processing of customizing or extensibility information. Depending on the importance of the respective information, different log levels are used. To enable a certain log level, execute the following code in the browser console:
 
-```lang-js
+``` js
 
 // "Log" required from module "sap/base/Log"
 Log.setLevel(Log.Level.INFO)
@@ -59,7 +60,7 @@ Certain information is only logged when an additional URL parameter is used, bec
 
 To dump the complete extensibility data, use the following command in the browser console:
 
-```lang-js
+``` js
 
 sap.ui.require(["sap/ui/core/CustomizingConfiguration"], function(CustomizingConfiguration) {
   CustomizingConfiguration.log()

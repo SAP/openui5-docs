@@ -1,11 +1,12 @@
+<!-- loioc4b2a32bb72f483faa173e890e48d812 -->
+
 | loio |
 | -----|
 | c4b2a32bb72f483faa173e890e48d812 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c4b2a32bb72f483faa173e890e48d812.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)</div>
-<!-- loioc4b2a32bb72f483faa173e890e48d812 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)</div>
 
 ## Step 25: Sorting and Grouping
 

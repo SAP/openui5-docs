@@ -1,11 +1,12 @@
+<!-- loio346599f0890d4dfaaa11c6b4ffa96312 -->
+
 | loio |
 | -----|
 | 346599f0890d4dfaaa11c6b4ffa96312 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/346599f0890d4dfaaa11c6b4ffa96312.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312)</div>
-<!-- loio346599f0890d4dfaaa11c6b4ffa96312 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312)</div>
 
 ## Using and Nesting Components
 
@@ -27,7 +28,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously before creating the container:
 
-```lang-js
+``` js
 	// "Component" required from module "sap/ui/core/Component"
 	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
 	Component.load({
@@ -42,7 +43,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously while creating the container:
 
-```lang-js
+``` js
 	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
 	// "coreLibrary" required from module "sap/ui/core/library"
 	var oContainer = new ComponentContainer({
@@ -55,7 +56,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
 
-```lang-js
+``` js
 	// "Component" required from module "sap/ui/core/Component"
 	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
 	Component.load({
@@ -70,7 +71,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously with "manifest first" mode by specifying the component name:
 
-```lang-js
+``` js
 	var oContainer = new sap.ui.core.ComponentContainer({
 		name: "samples.components.sample",
 		manifest: true,
@@ -95,7 +96,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 -   Loading the component asynchronously before creating the container:
 
-```lang-js
+``` js
 	// "Component" required from module "sap/ui/core/Component"
 	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
 	Component.load({
@@ -111,7 +112,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 -   Loading the component asynchronously when creating the container:
 
-```lang-js
+``` js
 	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
 	// "coreLibrary" required from module "sap/ui/core/library"
 	var oContainer = new ComponentContainer({
@@ -134,7 +135,7 @@ Here you use the `lifecycle` property to make sure that the component is destroy
 
 To be able to reuse a component, the component has to be declared in the `componentUsages` section of the `manifest.json` descriptor file as follows:
 
-```lang-json
+``` json
 "sap.ui5": {
   "componentUsages": {
     "myreuse": {
@@ -173,7 +174,7 @@ To instantiate the reuse component in the current component, you use an instance
 
 -   Example for simplified usage \(Async\):
 
-```lang-js
+``` js
 this.createComponent("myreuse").then(function(oComponent) {
   // ...
 });
@@ -181,7 +182,7 @@ this.createComponent("myreuse").then(function(oComponent) {
 
 -   Example for simplified usage \(Sync, but not recommended\):
 
-```lang-js
+``` js
 var oComponent = this.createComponent({ 
   usage: "myreuse"
   settings: {},
@@ -192,7 +193,7 @@ var oComponent = this.createComponent({
 
 -   Example for extended usage:
 
-```lang-js
+``` js
 var oComponentPromise = this.createComponent({
   usage: "myreuse"
   settings: {},
@@ -208,7 +209,7 @@ var oComponentPromise = this.createComponent({
 
 You can also declare a reuse component directly, for example, in your JavaScript or XML code. In an XML view, the local service factory can only be used via the `ComponentContainer` that has a superordinate component.
 
-```lang-xml
+``` xml
 <View ...>
   <ComponentContainer usage="myreuse" async="true"></ComponentContainer>
 </View>
@@ -296,6 +297,7 @@ createContent: function() {
 		</tr>
 	</tbody>
 </table>
+
 **Related information**  
 
 

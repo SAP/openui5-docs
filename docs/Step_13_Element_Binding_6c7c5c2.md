@@ -1,11 +1,12 @@
+<!-- loio6c7c5c266b534e7ea9a28f861dc515f5 -->
+
 | loio |
 | -----|
 | 6c7c5c266b534e7ea9a28f861dc515f5 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6c7c5c266b534e7ea9a28f861dc515f5.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
-<!-- loio6c7c5c266b534e7ea9a28f861dc515f5 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
 
 ## Step 13: Element Binding
 

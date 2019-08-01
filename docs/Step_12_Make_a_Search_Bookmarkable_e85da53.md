@@ -1,11 +1,12 @@
+<!-- loioe85da535ea19430a90c381f3c2bd748e -->
+
 | loio |
 | -----|
 | e85da535ea19430a90c381f3c2bd748e |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e85da535ea19430a90c381f3c2bd748e.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e)</div>
-<!-- loioe85da535ea19430a90c381f3c2bd748e -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e)</div>
 
 ## Step 12: Make a Search Bookmarkable
 

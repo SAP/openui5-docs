@@ -1,11 +1,12 @@
+<!-- loio4363b3fe3561414ca1b030afc8cd30ce -->
+
 | loio |
 | -----|
 | 4363b3fe3561414ca1b030afc8cd30ce |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4363b3fe3561414ca1b030afc8cd30ce.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
-<!-- loio4363b3fe3561414ca1b030afc8cd30ce -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
 
 ## Troubleshooting for Loading Modules
 
@@ -29,7 +30,7 @@ The following example shows how it must *not* be done: The library file structur
 
 `myLib/myAdditionalPathSegment/MyModule.js`
 
-```lang-js
+``` js
 // CAUTION: BAD EXAMPLE - DON'T DO THIS
 sap.ui.define("myLib.MyModule", [], function(){
     ...
@@ -46,7 +47,7 @@ If you have more than one `sap.ui.define` call in a JavaScript file, the module 
 
 `myModule.js`
 
-```lang-js
+``` js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -73,7 +74,7 @@ Conditional module definitions should *not* be used because of the following rea
 
 `myModule.js`
 
-```lang-js
+``` js
 // BAD EXAMPLE - DON'T DO THIS
 if (myProperty){
     sap.ui.define([], function(){
@@ -96,7 +97,7 @@ Using deprecated APIs is not recommended and mixing old and new loader APIs is e
 
 `myLib/MyModule.js`
 
-```lang-js
+``` js
 // BAD EXAMPLE - DON'T DO THIS
 jQuery.sap.declare("myLib.myModule");
 sap.ui.define([], function(){
@@ -131,7 +132,7 @@ It is unclear how modules that are defined via inline scripts can by addresses b
 
 `startMyApp.html`
 
-```lang-html
+``` html
 <!-- BAD EXAMPLE - DON'T DO THIS -->
 <html>
 ...  
@@ -161,7 +162,7 @@ Never do a synchronous access to the export of a module definition because the m
 
 `myLib/MyModule.js`
 
-```lang-js
+``` js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -183,7 +184,7 @@ Similar to the synchronous access of a module's export value, you also must omit
 
 `myLib/MyModule.js`
 
-```lang-js
+``` js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -209,7 +210,7 @@ Addressing a module inconsistently can cause various side-effects. If the server
 
 `myView.xml`
 
-```lang-xml
+``` xml
 <!-- BAD EXAMPLE - DON'T DO THIS -->
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m">
     ...
@@ -221,7 +222,7 @@ Addressing a module inconsistently can cause various side-effects. If the server
 
 `myModule.js`
 
-```lang-js
+``` js
 ...
     // BAD EXAMPLE - DON'T DO THIS
     sap.ui.require(['sap/m/button'], function(){
@@ -243,7 +244,7 @@ Example: The `myModule` module is loaded via a script tag. Instead, use a `sap.u
 
 `startMyApp.js`
 
-```lang-html
+``` html
 <html>
 ...
     <script src="https://myhost/mypath/myModule.js"></script>

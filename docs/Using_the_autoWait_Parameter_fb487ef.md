@@ -1,11 +1,12 @@
+<!-- loiofb487ef0f9bf41a3afdbd0cc97368873 -->
+
 | loio |
 | -----|
 | fb487ef0f9bf41a3afdbd0cc97368873 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fb487ef0f9bf41a3afdbd0cc97368873.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
-<!-- loiofb487ef0f9bf41a3afdbd0cc97368873 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
 
 ## Using the `autoWait` Parameter
 
@@ -48,7 +49,7 @@ If you decide to follow the best practices and to enable `autoWait`, we recommen
 
 Example:
 
-```lang-js
+``` js
 // in QUnit start page, before all OPA tests
 Opa5.extendConfig({
     autoWait: true
@@ -87,7 +88,7 @@ Despite the increase, there are still some tests that timeout. The timeout usual
 
 As of version 1.54, the optional use of `autoWait` after launcher initialization is allowed to make sure that the app is loaded before the first test step. It is disabled by default for backward compatibility as some tests check for busy indicators on app start. You can use the option with both app launchers, for example:
 
-```lang-js
+``` js
 Given.iStartMyAppInAFrame({
     source: "applicationUnderTest/index.html",
     autoWait: true
@@ -108,7 +109,7 @@ As of version 1.54, there is an `asyncPolling` parameter that overcomes this pro
 
 The suggested approach is to set `asyncPolling` as default for all `waitFor` statements:
 
-```lang-js
+``` js
 // in QUnit start page, before all OPA tests
 Opa5.extendConfig({
     autoWait: true,
@@ -120,7 +121,7 @@ Setting `asyncPolling` on existing tests may cause a failure because of the more
 
 Same parameter can be set for individual `waitFor` statements:
 
-```lang-js
+``` js
 // in an OPA test
 oOpa.waitFor({
     id: "controlId",

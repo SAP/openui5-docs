@@ -1,11 +1,12 @@
+<!-- loiob8c4e534cdb440e9a5bbff86f9572bd6 -->
+
 | loio |
 | -----|
 | b8c4e534cdb440e9a5bbff86f9572bd6 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b8c4e534cdb440e9a5bbff86f9572bd6.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6)</div>
-<!-- loiob8c4e534cdb440e9a5bbff86f9572bd6 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6)</div>
 
 ## Step 11: Validation Using the Message Manager
 

@@ -1,18 +1,19 @@
+<!-- loio9756f4745c0548ba9fea24ad2c0799c3 -->
+
 | loio |
 | -----|
 | 9756f4745c0548ba9fea24ad2c0799c3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/9756f4745c0548ba9fea24ad2c0799c3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9756f4745c0548ba9fea24ad2c0799c3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9756f4745c0548ba9fea24ad2c0799c3)</div>
-<!-- loio9756f4745c0548ba9fea24ad2c0799c3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9756f4745c0548ba9fea24ad2c0799c3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9756f4745c0548ba9fea24ad2c0799c3)</div>
 
 ## HTML View
 
 An HTML View is defined by declarative HTML. Like the declarative support, the HTML view supports embedded HTML. The view file ends with `view.html`, for example `myview.view.html`.
 
 > Note:
-> ```lang-html
+> ``` html
 >   <template data-controller-name="example.mvc.test">
 >    Hello
 >   <h1>Title</h1>

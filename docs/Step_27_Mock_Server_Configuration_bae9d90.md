@@ -1,11 +1,12 @@
+<!-- loiobae9d90d2e9c4206889368f04edab508 -->
+
 | loio |
 | -----|
 | bae9d90d2e9c4206889368f04edab508 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/bae9d90d2e9c4206889368f04edab508.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)</div>
-<!-- loiobae9d90d2e9c4206889368f04edab508 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)</div>
 
 ## Step 27: Mock Server Configuration
 
@@ -43,7 +44,7 @@ The new `localService` folder contains a `metadata.xml` service description file
 
 ### webapp/test/mockServer.html \(New\)
 
-```lang-html
+``` html
 <!DOCTYPE html>
 <html>
 <head>

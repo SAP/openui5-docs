@@ -1,11 +1,12 @@
+<!-- loio69d3cbd4150c4ffb884e788f7f60fd93 -->
+
 | loio |
 | -----|
 | 69d3cbd4150c4ffb884e788f7f60fd93 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/69d3cbd4150c4ffb884e788f7f60fd93.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
-<!-- loio69d3cbd4150c4ffb884e788f7f60fd93 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
 
 ## Mock Server
 

@@ -1,11 +1,12 @@
+<!-- loioa9c949cd49a148b38228110540667930 -->
+
 | loio |
 | -----|
 | a9c949cd49a148b38228110540667930 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a9c949cd49a148b38228110540667930.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a9c949cd49a148b38228110540667930) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a9c949cd49a148b38228110540667930)</div>
-<!-- loioa9c949cd49a148b38228110540667930 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a9c949cd49a148b38228110540667930) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a9c949cd49a148b38228110540667930)</div>
 
 ## Executing a QUnit Test
 
@@ -17,7 +18,7 @@ For running QUnit tests, you need a QUnit TestSuite which configures the environ
 
 1.  Create a file named `testsuite.qunit.html`:
 
-    ```lang-html
+    ``` html
     	<!DOCTYPE html>
     	<html>
     		<head>
@@ -40,7 +41,7 @@ The QUnit test starter is configured with one configuration file per QUnit TestS
 
 The configuration object is an object with the following top level properties:
 
-```lang-js
+``` js
 sap.ui.define(function() {
 	"use strict";
 
@@ -135,7 +136,7 @@ The `testsuite.qunit.html` must be re-written to use the above mentioned `create
 
 `testsuite.qunit.html`
 
-```lang-html
+``` html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -200,7 +201,7 @@ The following requirements that are optional:
 
 Both, the defaults and the individual test configurations have the same structure, which is documented in the following code snippet. The snippet also shows the internal defaults of the test starter. They are used as a fallback for options that are not defined in the configuration file \(neither defaults, nor individual tests\).
 
-```lang-js
+``` js
 {
 	/*
 	 * ID(s) of the module(s) to load.

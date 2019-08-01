@@ -1,11 +1,12 @@
+<!-- loio0404f90ff7394aa08c8420995bfdd9ed -->
+
 | loio |
 | -----|
 | 0404f90ff7394aa08c8420995bfdd9ed |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0404f90ff7394aa08c8420995bfdd9ed.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0404f90ff7394aa08c8420995bfdd9ed) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0404f90ff7394aa08c8420995bfdd9ed)</div>
-<!-- loio0404f90ff7394aa08c8420995bfdd9ed -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0404f90ff7394aa08c8420995bfdd9ed) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0404f90ff7394aa08c8420995bfdd9ed)</div>
 
 ## App Development Using SAPUI5 Tools for Eclipse
 

@@ -1,11 +1,12 @@
+<!-- loio7ef32428dc7c4c048a8d7e8de0a556fb -->
+
 | loio |
 | -----|
 | 7ef32428dc7c4c048a8d7e8de0a556fb |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7ef32428dc7c4c048a8d7e8de0a556fb.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb)</div>
-<!-- loio7ef32428dc7c4c048a8d7e8de0a556fb -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb)</div>
 
 ## Code Coverage Measurement
 
@@ -17,7 +18,7 @@ You can measure the code coverage for your test inside the `Control.qunit.html` 
 
 With the following line you enable `Blanket.js` to measure the code coverage:
 
-```lang-html
+``` html
 <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"></script>
 ```
 
@@ -64,7 +65,7 @@ If you want to limit the test run, you can use the following code:
 
 Inside your test page, you can add these lines before running the tests:
 
-```lang-js
+``` js
 sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
     // code
 });

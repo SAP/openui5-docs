@@ -1,11 +1,12 @@
+<!-- loio4b0c51965ebd40059daf3419ba35f694 -->
+
 | loio |
 | -----|
 | 4b0c51965ebd40059daf3419ba35f694 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/4b0c51965ebd40059daf3419ba35f694.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694)</div>
-<!-- loio4b0c51965ebd40059daf3419ba35f694 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694)</div>
 
 ## Basic Example How to Use Gherkin
 
@@ -76,7 +77,7 @@ To actually execute the test, we need to create an HTML bootstrap test runner fi
 
 Here is a stub `Steps.js` file, without any step definitions, to get you started. You need to adjust the path and file name in the call to `extend` to match your scenario:
 
-```lang-js
+``` js
 sap.ui.define([
   "jquery.sap.global",
   "sap/ui/test/gherkin/StepDefinitions",
@@ -111,7 +112,7 @@ Our examples all use the nightly OpenUI5 build.
 
 Here is a sample HTML bootstrap file for Gherkin. In this example, the feature file is named `Requirements.feature` and the steps file is named `Steps.js`. Both are located in the same directory as your HTML bootstrap. You will need to adjust the OpenUI5 `src` \(if you don't want to use the suggested build\), OpenUI5 resourceroots, and the feature and steps file names to match your scenario and your app:
 
-```lang-html
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -166,7 +167,7 @@ To verify the feature file, we will implement a steps file, which to recap is bo
 
 In the `Steps` file, inside the `init` method, add the following code:
 
-```lang-js
+``` js
 this.register(/^I have started the app$/i, function() {
   Opa5.assert.ok(false, 'This test will fail!');
 });
@@ -196,7 +197,7 @@ In step 2, notice how the text "This test will fail!" is copied from the steps f
 
 Let's write a bit more test code. To make a test useful, it will need to load your app and verify its properties. We will use OPA5 for this purpose. Replace the code inside your steps file's `init` method with the following code:
 
-```lang-js
+``` js
 var oOpa5 = new Opa5();
 
 this.register(/^I have started the app$/i, function() {
@@ -236,7 +237,7 @@ To make the "I can see the life saving button" test pass, you need to implement 
 
 Here is a simple stub for a test Web site \(you may need to update the bootstrap source\):
 
-```lang-html
+``` html
 <html>
   <head>
     <title>Using Gherkin with OPA5 Website</title>
@@ -259,7 +260,7 @@ Here is a simple stub for a test Web site \(you may need to update the bootstrap
 
 Here's some simple code for an app:
 
-```lang-js
+``` js
 sap.ui.getCore().attachInit(function() {
   "use strict";
 

@@ -1,11 +1,12 @@
+<!-- loiocf3c57c89ef0491793d1ce327ab4f9b2 -->
+
 | loio |
 | -----|
 | cf3c57c89ef0491793d1ce327ab4f9b2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/cf3c57c89ef0491793d1ce327ab4f9b2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2)</div>
-<!-- loiocf3c57c89ef0491793d1ce327ab4f9b2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2)</div>
 
 ## Step 2: Enable Routing
 
@@ -148,7 +149,7 @@ We override the `init` function and call the parent’s `init` function first. W
 
 ### webapp/view/App.view.xml
 
-```lang-xml
+``` xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.App"
 	xmlns="sap.m"

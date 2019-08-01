@@ -1,0 +1,81 @@
+<!-- loiob11d853a8e784db6b2d210ef57b0f7d7 -->
+
+| loio |
+| -----|
+| b11d853a8e784db6b2d210ef57b0f7d7 |
+
+<div id="loio">
+
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b11d853a8e784db6b2d210ef57b0f7d7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b11d853a8e784db6b2d210ef57b0f7d7)</div>
+
+## Require Modules in XML View and Fragment
+
+Modules can be required in XML views and assigned to aliases which can be used as variables in properties, event handlers, and bindings.
+
+The `require` attribute with namespace URI `sap.ui.core` can be used to define the module aliases and paths. In the following sections we assume that the namespace prefix `core` is used to define the URI `sap.ui.core` which makes the attribute to be written as `core:require`. This attribute can be used at every element of an XML view or fragment. You can specify a list of required modules as Unified Resource Names, similar to `sap.ui.require`, and assign aliases to them using a JSON-like syntax. The aliases can then be used to access the modules' static functions. The alias is valid for the current view or fragment and works for all elements contained in the element which defines `core:require`.
+
+> Note:
+> The modules defined in the `core:require` attribute are loaded first before the element with `core:require` is processed.
+> 
+> 
+
+> Note:
+> When you use the view in combination with fragments, keep in mind that the alias does not work in embedded fragments. In this case, define a separate `core:require` for the fragments.
+> 
+> 
+
+***
+
+<a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_msm_sk3_43b"/>
+
+### Example With Event Handler
+
+You can use the XML `require` to reference static functions of a module which can serve as event handlers. This works with static strings as well as with any model data. For a description how this is done, see [Handling Events in XML Views](Handling_Events_in_XML_Views_b0fb4de.md). As the `Box` module is defined on the root element, it can be used in the whole view.
+
+``` xml
+<mvc:View controllerName="some.Controller" xmlns="sap.m"
+      xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+      core:require="{Box:'sap/m/MessageBox'}">
+   <Panel>
+      <Image src="http://www.sap.com/global/ui/images/global/sap-logo.png"/>
+      <Button text="Press Me!" press="Box.show('Hello!')/>
+   </Panel>
+</mvc:View>
+```
+
+> Note:
+> `$controller`, `$event`, `$parameters`, and `$source` are reserved keywords for resolving an event handler. Avoid using these keywords as aliases for the required modules with `core:require`.
+> 
+> 
+
+***
+
+<a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_zxd_xk3_43b"/>
+
+### Example With Data Binding
+
+You can also use the `require` module with data binding. Formatters and factory functions can be defined with the `require` modules, as well as expression bindings. The following code extract also shows, that the `Factory` module, which is defined on the List element, can only be used there, and not in sibling or parent controls:
+
+``` xml
+<mvc:View controllerName="some.Controller" xmlns="sap.m"
+      xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+      core:require="{Util:'some/Util'}">
+  <Panel>
+      <Image src="http://www.sap.com/global/ui/images/global/sap-logo.png"/>
+      <Text text="{formatter: 'Util.format', path: '/text'}"/>
+      <List core:require="{
+              Factory:'some/Factory'
+          }" id="list" items="{path:'/items', factory:'Factory.createItem'}">
+      </List>
+   </Panel>
+</mvc:View>
+```
+
+***
+
+<a name="loiob11d853a8e784db6b2d210ef57b0f7d7__section_jnp_zk3_43b"/>
+
+### `core:require` in Fragments
+
+`core:require` can be used in fragments and set on every element, including `FragmentDefinition`. When a view with a fragment is preprocessed, the `FragmentDefinition` node is **not** part of the resulting view and this is why `core:require` on `FragmentDefinition` does not work as expected. Therefore, `core:require` works on all elements in fragment other than the `FragmentDefinition` node when the view which contains the fragment is preprocessed. For more information, see [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md).
+

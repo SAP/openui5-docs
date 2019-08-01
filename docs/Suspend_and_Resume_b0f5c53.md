@@ -1,11 +1,12 @@
+<!-- loiob0f5c531e5034a27952cc748954cbe39 -->
+
 | loio |
 | -----|
 | b0f5c531e5034a27952cc748954cbe39 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b0f5c531e5034a27952cc748954cbe39.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0f5c531e5034a27952cc748954cbe39) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0f5c531e5034a27952cc748954cbe39)</div>
-<!-- loiob0f5c531e5034a27952cc748954cbe39 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0f5c531e5034a27952cc748954cbe39) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0f5c531e5034a27952cc748954cbe39)</div>
 
 ## Suspend and Resume
 

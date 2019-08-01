@@ -1,11 +1,12 @@
+<!-- loioc6da1a56c2a14742b785c7bd5ca4205b -->
+
 | loio |
 | -----|
 | c6da1a56c2a14742b785c7bd5ca4205b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c6da1a56c2a14742b785c7bd5ca4205b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
-<!-- loioc6da1a56c2a14742b785c7bd5ca4205b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
 
 ## Router
 
@@ -24,9 +25,8 @@ The `sap.f.routing.Router` has the following main differences to the `sap.m.rout
 -   The `sap.f.routing.Router` view loading is exclusively asynchronous.
 
 
+**A sample route of a `sap.f.routing.Router`-based app:**
 ```
-A sample route of a `sap.f.routing.Router`-based
-			app:```
 {
    "pattern": "itemInfo",
    "name": "itemInfo",
@@ -40,11 +40,8 @@ A sample route of a `sap.f.routing.Router`-based
 ```
 
 
+**A sample of its targets definition:**
 ```
-
-```
-A sample of its targets
-			definition:```
 "targets": {
    "master": {
       "viewName": "Master",
@@ -62,8 +59,6 @@ A sample of its targets
 
 ```
 
-
-```
 
 If the route is matched, the router will first apply the `layout` property to the `sap.f.FlexibleColumnLayout` root control, and will then start loading the views asynchronously in its aggregations \(and will navigate to each of them in the respective column\).
 

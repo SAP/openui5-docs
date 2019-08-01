@@ -1,11 +1,12 @@
+<!-- loioac5751f89cb142b7a6d53eaf8a0f6339 -->
+
 | loio |
 | -----|
 | ac5751f89cb142b7a6d53eaf8a0f6339 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ac5751f89cb142b7a6d53eaf8a0f6339.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339)</div>
-<!-- loioac5751f89cb142b7a6d53eaf8a0f6339 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339)</div>
 
 ## alias
 
@@ -19,7 +20,7 @@ A proper relative name must be used. This proper name must not contain or consis
 
 ### "alias" Template
 
-```lang-xml
+``` xml
 <template:alias name="AH" value="sap.ui.model.odata.AnnotationHelper">
   <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
     <form:SimpleForm>

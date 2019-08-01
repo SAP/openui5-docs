@@ -1,11 +1,12 @@
+<!-- loioebcf60c3b0e24c348b88603bbb8eb16c -->
+
 | loio |
 | -----|
 | ebcf60c3b0e24c348b88603bbb8eb16c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ebcf60c3b0e24c348b88603bbb8eb16c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ebcf60c3b0e24c348b88603bbb8eb16c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ebcf60c3b0e24c348b88603bbb8eb16c)</div>
-<!-- loioebcf60c3b0e24c348b88603bbb8eb16c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ebcf60c3b0e24c348b88603bbb8eb16c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ebcf60c3b0e24c348b88603bbb8eb16c)</div>
 
 ## Logging
 
@@ -18,7 +19,7 @@ Most error messages are sufficient to figure out what has gone wrong, for exampl
 > 
 > Check the bootstrap in the HTML file:
 > 
-> ```lang-html
+> ``` html
 > <!DOCTYPE html>
 > <html>
 >   <head>

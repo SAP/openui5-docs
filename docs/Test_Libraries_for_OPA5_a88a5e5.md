@@ -1,11 +1,12 @@
+<!-- loioa88a5e5529e54b3aa703a0b2a36cf7be -->
+
 | loio |
 | -----|
 | a88a5e5529e54b3aa703a0b2a36cf7be |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a88a5e5529e54b3aa703a0b2a36cf7be.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
-<!-- loioa88a5e5529e54b3aa703a0b2a36cf7be -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
 
 ## Test Libraries for OPA5
 
@@ -53,7 +54,7 @@ There are 3 simple steps to start using a test library:
 
 3.  Require the test library modules in your test files:
 
-    ```lang-js
+    ``` js
     sap.ui.require([
         "sap/ui/test/Opa5",
         "my/awesome/testlibrary/integration/testLibrary/ExampleList/pages/ExampleList"
@@ -79,7 +80,7 @@ You can directly consume page objects defined by the test library. We recommend 
 
 Here is an example, assuming that the page object `onTheListPage` is defined by a test library:
 
-```lang-js
+``` js
 Then.onTheListPage.iSearchForItem();
 ```
 
@@ -91,7 +92,7 @@ If a test library has exposed utilities, you can use them in your own page objec
 
 1.  Configure the test library:
 
-    ```lang-js
+    ``` js
     Opa5.extendConfig({
         testLibs: {
             myAwesomeTestLibrary: {...}
@@ -103,7 +104,7 @@ If a test library has exposed utilities, you can use them in your own page objec
 
     The utilities will be available on the page object instance under a property matching the name of the test library:
 
-    ```lang-js
+    ``` js
     Opa5.createPageObjects({
         onTheListPage: {
             viewName: "myTestView",
@@ -128,7 +129,7 @@ Global statements set by a test library are defined and used in the same way as 
 
 Here is an example, assuming that the action `iSetupTheApp` is added by a test library:
 
-```lang-js
+``` js
 Given.iSetupTheApp();
 ```
 
@@ -163,7 +164,7 @@ We recommend you use the page objects pattern described in [Structuring OPA Test
 
 Use this pattern for interactions that always involve a single page:
 
-```lang-js
+``` js
 Opa5.createPageObjects({
     onTheListPage: {
         viewName: "myTestView",
@@ -184,7 +185,7 @@ Define utility functions when you need to expose functionality that will be used
 
 A common use case is the interaction with a single control:
 
-```lang-js
+``` js
 Opa5.extendConfig({
     testLibBase: {
         myAwesomeTestLibrary: {
@@ -206,7 +207,7 @@ Extending OPA5 configuration from within the test library has an effect on the a
 
 Use this pattern when you need to expose functionality relevant to the the entire app, such as setup and teardown:
 
-```lang-js
+``` js
 var Common = Opa5.extend("testLibrary.pageObjects.Common", {
     iSetupTheApp: function () {
         // do some setup actions

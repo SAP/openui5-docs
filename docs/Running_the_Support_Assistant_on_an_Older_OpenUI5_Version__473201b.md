@@ -1,11 +1,12 @@
+<!-- loio473201b547734e0eb66612df5bae8553 -->
+
 | loio |
 | -----|
 | 473201b547734e0eb66612df5bae8553 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/473201b547734e0eb66612df5bae8553.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/473201b547734e0eb66612df5bae8553) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/473201b547734e0eb66612df5bae8553)</div>
-<!-- loio473201b547734e0eb66612df5bae8553 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/473201b547734e0eb66612df5bae8553) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/473201b547734e0eb66612df5bae8553)</div>
 
 ## Running the Support Assistant on an Older OpenUI5 Version
 

@@ -1,11 +1,12 @@
+<!-- loio3b9d9f84930d43df90ad0789d99bd4a3 -->
+
 | loio |
 | -----|
 | 3b9d9f84930d43df90ad0789d99bd4a3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3b9d9f84930d43df90ad0789d99bd4a3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
-<!-- loio3b9d9f84930d43df90ad0789d99bd4a3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
 
 ## Step 11: Pages and Panels
 

@@ -1,11 +1,12 @@
+<!-- loio5b46b03f024542ba802d99d67bc1a3f4 -->
+
 | loio |
 | -----|
 | 5b46b03f024542ba802d99d67bc1a3f4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/5b46b03f024542ba802d99d67bc1a3f4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4)</div>
-<!-- loio5b46b03f024542ba802d99d67bc1a3f4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4)</div>
 
 ## Cards
 
@@ -113,6 +114,7 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 		</tr>
 	</tbody>
 </table>
+
 Limitations:  
  1\) The analytical card is using `sap.viz.ui5.controls.VizFrame` charts which are part of SAPUI5 and are not available in OpenUI5.  
  2\) The timeline card is using the `sap.suite.ui.commons.Timeline` control which is part of SAPUI5 and is not available in OpenUI5.
@@ -141,7 +143,7 @@ Considering the general purpose of the cards \(to represent most important asset
 
 Example:
 
-```lang-xml
+``` xml
 <f:Card
 	class="sapUiMediumMargin"
 	width="300px">

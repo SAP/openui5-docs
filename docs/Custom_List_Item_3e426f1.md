@@ -1,11 +1,12 @@
+<!-- loio3e426f159c7a4ab5ae660aba288c94d2 -->
+
 | loio |
 | -----|
 | 3e426f159c7a4ab5ae660aba288c94d2 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3e426f159c7a4ab5ae660aba288c94d2.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2)</div>
-<!-- loio3e426f159c7a4ab5ae660aba288c94d2 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2)</div>
 
 ## Custom List Item
 
@@ -50,7 +51,7 @@ The dotted area is the area in which the content of a list item is placed. If yo
 
 As mentioned above, you can either use `sap.m.CustomListItem` directly by adding any content via content aggregation, or you can create your own control that inherits from `sap.m.CustomListItem` if you need a more sophisticated list item featuring your own properties, styling, and complex layout. Below is an example showing how you can use the `sap.m.CustomListItem` together with `sap.m` controls.
 
-```lang-xml
+``` xml
 
 <List headerText="Custom Content" mode="Delete" items="{path: '/ProductCollection'}" >
 	<CustomListItem>
@@ -71,7 +72,7 @@ The example above creates an attachment list item that displays an attachment ti
 
 The following example shows how to use a notepad control as a reusable control in an `sap.m.CustomListItem`. It assumes you want to build a product list item that shows an image of the product and displays its details:
 
-```lang-js
+``` js
 sap.ui.define(["jQuery.sap.global", "sap/ui/core/Control", "sap/m/Image"], function (jQuery, Control, Image) {
     var ListItemContent = Control.extend("my.control.ListItemContent", {
         metadata: {
@@ -126,7 +127,7 @@ sap.ui.define(["jQuery.sap.global", "sap/ui/core/Control", "sap/m/Image"], funct
 
 After we've created this notepad control above, we consume it in the `sap.m.CustomListItem` as a content aggregation, as shown here:
 
-```lang-js
+``` js
 
 var oCustomListItem = new sap.m.CustomListItem({ content: [new my.control.ListItemContent({
     //usual control setup

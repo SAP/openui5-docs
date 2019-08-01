@@ -1,11 +1,12 @@
+<!-- loiofccfb2eb41414f0792c165e69a878717 -->
+
 | loio |
 | -----|
 | fccfb2eb41414f0792c165e69a878717 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fccfb2eb41414f0792c165e69a878717.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717)</div>
-<!-- loiofccfb2eb41414f0792c165e69a878717 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717)</div>
 
 ## Initialization and Read Requests
 
@@ -99,7 +100,7 @@ An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/
 > Note:
 > refresh with allow removal
 > 
-> ```lang-js
+> ``` js
 > oAction.execute("confirmSalesOrderActionGroup").then(function () {
 >     oConfirmedSalesOrderContext.refresh(undefined, true); // bAllowRemoval = true
 > });
@@ -111,7 +112,7 @@ For details, see [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/
 
 **Example: Absolute and relative bindings created by an XML view**
 
-```lang-js
+``` js
 
 <Table items="{
  path : '/SalesOrderList',
@@ -162,7 +163,7 @@ You can use `##` in a property binding's path to branch from data into metadata.
 
 **Example: Determine label from the corresponding annotation for property `GrossAmount`**
 
-```lang-js
+``` js
 
 <SimpleForm binding="{/SalesOrderList('42')}">
 	<Label text="{GrossAmount##@com.sap.vocabularies.Common.v1.Label}" />
@@ -184,7 +185,7 @@ A property binding can have an object value, if the target type specified in the
 
 **Example: Using the controller method `'formatPhoneNumbersAsCSV'` to show a comma-separated list of phone numbers for business partner contacts**
 
-```lang-js
+``` js
 <SimpleForm binding="{/BusinessPartnerList('42')}">
 	<Label text="Phone number list" />
 	<Text text="{path : 'BP_2_CONTACT', mode : 'OneTime', targetType : 'any', formatter : '.formatPhoneNumbersAsCSV'}" />
@@ -205,7 +206,7 @@ Editing properties of an entity sometimes causes side effects on other propertie
 
 You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects when implicit loading is switched off via the binding-specific parameter `$$patchWithoutSideEffects`. This method must only be called on the bound context of a context binding, or on the return value context of an operation binding. Collection-valued navigation properites are fully supported, so an efficient request is sent instead of a simple refresh. The event `validateFieldGroup` provides a suitable point in time to request side effects after a certain group of fields has been changed. The annotation `com.sap.vocabularies.Common.v1.SideEffects` describes side effects and the API strikes a balance between the generic use based on this annotation and specific hard-coded uses. When requested from the V4 OData meta model, the annotations value looks as follows:
 
-```lang-json
+``` json
 {
     "SourceEntities" : [{
         "$NavigationPropertyPath" : ""

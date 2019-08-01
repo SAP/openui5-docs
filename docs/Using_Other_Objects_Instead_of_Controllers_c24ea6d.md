@@ -1,11 +1,12 @@
+<!-- loioc24ea6d4d2a34792a7ea241128ad8550 -->
+
 | loio |
 | -----|
 | c24ea6d4d2a34792a7ea241128ad8550 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/c24ea6d4d2a34792a7ea241128ad8550.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c24ea6d4d2a34792a7ea241128ad8550) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c24ea6d4d2a34792a7ea241128ad8550)</div>
-<!-- loioc24ea6d4d2a34792a7ea241128ad8550 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c24ea6d4d2a34792a7ea241128ad8550) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c24ea6d4d2a34792a7ea241128ad8550)</div>
 
 ## Using Other Objects Instead of Controllers
 
@@ -17,7 +18,7 @@ The oController object given when instantiating a fragment does not need to be a
 
 The following example of an HTML fragment can be used in an environment where no MVC is used.
 
-```lang-js
+``` js
 
 var oDummyController = { 
 	doSomething: function() { 

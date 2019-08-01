@@ -1,11 +1,12 @@
+<!-- loio91f2f2866f4d1014b6dd926db0e91070 -->
+
 | loio |
 | -----|
 | 91f2f2866f4d1014b6dd926db0e91070 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/91f2f2866f4d1014b6dd926db0e91070.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070)</div>
-<!-- loio91f2f2866f4d1014b6dd926db0e91070 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070)</div>
 
 ## Number Format
 
@@ -30,7 +31,7 @@ There are four types of formatters defined in `NumberFormat`:
 
 The instantiation of `sap.ui.core.format.NumberFormat` is done by calling `getter` defined on `NumberFormat` \(and not by using the constructor\).
 
-```lang-js
+``` js
 var oIntegerFormat = sap.ui.core.format.NumberFormat.getIntegerInstance();
 // or
 var oFloatFormat = sap.ui.core.format.NumberFormat.getFloatInstance();
@@ -65,7 +66,7 @@ All parameters have their default value defined in the current locale. Therefore
 -   `shortDecimals`: number of decimal digits in the shortifed number when parameter `style` is set to `short` or `long`. If this isn't set, the parameter `decimal` is used instead.
 
 
-```lang-js
+``` js
 // Locale object is created and set to the format in order to have a user locale independent formatter.
 // In most of the cases, this locale object isn't needed.
 var oLocale = new sap.ui.core.Locale("en-US");
@@ -82,7 +83,7 @@ oFloatFormat.format(1234.567); // returns 1,234.567
 oFloatFormat.format(123456.56789); // returns ??,???.5679
 ```
 
-```lang-js
+``` js
 // Locale object is created and set to the format in order to have a user locale independent formatter.
 // In most of the cases, this locale object isn't needed.
 var oLocale = new sap.ui.core.Locale("en-US");
@@ -171,7 +172,7 @@ To control the start the starting point of numbers which should be displyed in c
 
 A formatted number which contains a locale-dependent grouping separator, decimal point, or percentage sign can be parsed into a number object using `sap.ui.core.format.NumberFormat`. Those number string may not be correctly parsed by using `parseInt` or `parseFloat` in JavaScript.
 
-```lang-js
+``` js
 // Locale object is created and set to the format in order to have a user locale independent formatter.
 // In most of the cases, this locale object isn't needed.
 var oLocale = new sap.ui.core.Locale("en-US");

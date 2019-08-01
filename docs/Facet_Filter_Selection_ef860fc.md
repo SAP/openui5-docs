@@ -1,11 +1,12 @@
+<!-- loioef860fc989764439957c6446ecebd7ec -->
+
 | loio |
 | -----|
 | ef860fc989764439957c6446ecebd7ec |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/ef860fc989764439957c6446ecebd7ec.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec)</div>
-<!-- loioef860fc989764439957c6446ecebd7ec -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec)</div>
 
 ## Facet Filter Selection
 
@@ -21,7 +22,7 @@ An application can support the personalization of settings and allow the user to
 
 ![](loioce923dff09294b65b51609d2ec1f1718_LowRes.png)
 
-```lang-js
+``` js
 
 var oDataModel = new sap.ui.model.odata.v2.ODataModel("/uilib-sample/proxy/http/services.odata.org/V3/Northwind/Northwind.svc");
 

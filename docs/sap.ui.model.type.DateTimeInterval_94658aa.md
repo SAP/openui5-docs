@@ -1,11 +1,12 @@
+<!-- loio94658aa4cfbe4fdfbd0981d78f6d9b3d -->
+
 | loio |
 | -----|
 | 94658aa4cfbe4fdfbd0981d78f6d9b3d |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/94658aa4cfbe4fdfbd0981d78f6d9b3d.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d)</div>
-<!-- loio94658aa4cfbe4fdfbd0981d78f6d9b3d -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d)</div>
 
 ## sap.ui.model.type.DateTimeInterval
 

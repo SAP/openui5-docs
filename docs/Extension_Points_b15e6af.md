@@ -1,11 +1,12 @@
+<!-- loiob15e6afc5ae74227a661dc6ff104bf80 -->
+
 | loio |
 | -----|
 | b15e6afc5ae74227a661dc6ff104bf80 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b15e6afc5ae74227a661dc6ff104bf80.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b15e6afc5ae74227a661dc6ff104bf80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b15e6afc5ae74227a661dc6ff104bf80)</div>
-<!-- loiob15e6afc5ae74227a661dc6ff104bf80 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b15e6afc5ae74227a661dc6ff104bf80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b15e6afc5ae74227a661dc6ff104bf80)</div>
 
 ## Extension Points
 
@@ -13,7 +14,7 @@ Extension points can be used in XML templating to extend the standard with custo
 
 The extension point has a default content which is used unless the extension point is replaced via customizing. The extension point name can result from a binding, including an expression binding which evaluates to a constant. If the extension point is to be replaced by an XML fragment, the extension point element is replaced by the fragment's XML DOM and preprocessing takes place on the DOM as well. All currently available variable names and aliases are inherited into the fragment as usual. You get the same debug output as for fragment instructions, and you see the customized fragment name there.
 
-```lang-xml
+``` xml
 
 <!-- expression binding just to showcase dynamic names -->
 <core:ExtensionPoint name="{:= 'HeaderInfo' }">

@@ -1,11 +1,12 @@
+<!-- loiod23e2cf618a44382a203691e8a0baef4 -->
+
 | loio |
 | -----|
 | d23e2cf618a44382a203691e8a0baef4 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/d23e2cf618a44382a203691e8a0baef4.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d23e2cf618a44382a203691e8a0baef4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d23e2cf618a44382a203691e8a0baef4)</div>
-<!-- loiod23e2cf618a44382a203691e8a0baef4 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d23e2cf618a44382a203691e8a0baef4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d23e2cf618a44382a203691e8a0baef4)</div>
 
 ## Fast Navigation
 
@@ -21,13 +22,13 @@ As described, some larger controls or containers already define `F6` groups. If 
 
 Coding Example:
 
-```lang-js
+``` js
 oControl.data("sap-ui-fastnavgroup", "false", true/*Write into DOM*/);
 ```
 
 XML View Example:
 
-```lang-xml
+``` xml
 <mvc:View
   xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"
@@ -53,13 +54,13 @@ The same way it is possible to make a control or element to be an `F6` group. Ho
 
 Coding Example:
 
-```lang-js
+``` js
 oControl.data("sap-ui-fastnavgroup", "true", true/*Write into DOM*/);
 ```
 
 XML View Example:
 
-```lang-xml
+``` xml
 <mvc:View
   xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"

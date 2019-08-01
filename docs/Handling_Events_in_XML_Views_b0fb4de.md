@@ -1,11 +1,12 @@
+<!-- loiob0fb4de7364f4bcbb053a99aa645affe -->
+
 | loio |
 | -----|
 | b0fb4de7364f4bcbb053a99aa645affe |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/b0fb4de7364f4bcbb053a99aa645affe.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
-<!-- loiob0fb4de7364f4bcbb053a99aa645affe -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
 
 ## Handling Events in XML Views
 
@@ -19,24 +20,27 @@ XML views use event handlers as attributes: The attribute name is the event name
 
 Depending on the syntax of its name, the event handler will be looked up by this name in different locations:
 
--   Names starting with a dot \('.'\) are always assumed to represent a method in the controller. They are resolved by removing the leading dot and reading the property with the resulting name from the controller instance. These names are 'relative' to the view/controller. For example, `press=".myLocalHandler"` is resolved by `attachPress(oController["myLocalHandler"], oController);`
+-   Names starting with a dot \('.'\) are always assumed to represent a method in the controller. They are resolved by removing the leading dot and reading the property with the resulting name from the controller instance. These names are relative to the view/controller. For example, `press=".myLocalHandler"` is resolved by `attachPress(oController["myLocalHandler"], oController);`
 
     > Note:
     > This syntax is by intention consistent to the complex binding syntax for formatter functions.
     > 
     > 
 
--   Names containing a dot at a later position are assumed to represent global functions and are resolved by calling `ObjectPath.get` with the full name. For example, name `press= "some.global.handler"` is resolved by calling `attachPress(ObjectPath.get("some.global.handler"), oController);`
+-   Names defined in a `core:require` statement can be used to access static functions of the required modules. For example, `press= "Util.handler"` sets the static `handler` function of the required `Util` module as press handler for the respective control. For more information, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
 
--   Names without dot are interpreted as a relative name; if nothing is found, they are interpreted as an absolute name. This variant is only supported for backward compatibility. Example:
+-   Names containing a dot at a later position are assumed to represent:
 
-    ```
-    press: "myHandler" --> if ( oController["myHandler"] ) {
-      attachPress(oController["myHandler"], oController);
-    } else {
-      attachPress(ObjectPath.get("myHandler"), oController);
-    }
-    ```
+    -   Static functions from the modules which are loaded through the XML view required modules \(See [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md)\)
+
+    -   Global functions if the function cannot be resolved within the XML view require modules and are resolved by calling `ObjectPath.get` with the full name. For example, `name press= "some.global.handler"` is resolved by calling `attachPress(ObjectPath.get("some.global.handler"), oController);`.
+
+        > Note:
+        > The use of globals is not recommended and they should be replaced, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
+        > 
+        > 
+
+-   Names without dot are interpreted as a relative name; if nothing is found, they are interpreted as an absolute name. This variant is only supported for backward compatibility.
 
 
 > Note:
@@ -52,18 +56,18 @@ As long as no event handler parameters are specified and regardless of where the
 
 Therefore, the following declaration is equivalent to a call of `controller.doSomething()` when the button is pressed:
 
-```lang-xml
+``` xml
 
 <Button text="Press Me" press=".doSomething"/>
 
 ```
 
-However, once event parameters are specified using the syntax described below, the `this` context is always the object on which the handler function is defined. For controller methods, the controller remains the `this` context, but for methods on global objects, that object is used as `this` context. In case the controller is still required in such global handler functions, it can be explicitly passed as `$controller` parameter \(see the section below\). Functions defined directly on the `window` object have an undefined `this` context.
+However, once event parameters are specified using the syntax described below, the `this` context is always the object on which the handler function is defined. For controller methods, the controller remains the `this` context, but for methods defined in the XML view required modules or on global objects, that owner object is used as `this` context. In case the controller is still required in such global handler functions, it can be explicitly passed as `$controller` parameter \(see the *Passing Parameters* section below\). Functions defined directly on the XML view required modules or on the `window` object have an undefined `this` context.
 
 By invoking the special JavaScript function .`call(...)` on your event handler function, you can also provide a different `this` context. For example, you can still have the controller as `this` in an event handler in a global helper object, even when you pass parameters, by doing:
 
 ```
-<Button text="Press Me" press="some.Helper.doSomething.call($controller, 'Hello World')"/>
+<Button core:require="{Helper:'path/to/Helper'}" text="Press Me" press="Helper.doSomething.call($controller, 'Hello World')"/>
 ```
 
 ***

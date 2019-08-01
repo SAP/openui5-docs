@@ -1,11 +1,12 @@
+<!-- loio55db2bc60d694d1eacab4d4410f5dc46 -->
+
 | loio |
 | -----|
 | 55db2bc60d694d1eacab4d4410f5dc46 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/55db2bc60d694d1eacab4d4410f5dc46.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46)</div>
-<!-- loio55db2bc60d694d1eacab4d4410f5dc46 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46)</div>
 
 ## An Empty Page Comes Up
 

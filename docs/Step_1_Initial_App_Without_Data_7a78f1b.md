@@ -1,11 +1,12 @@
+<!-- loio7a78f1b707c248fd9ec53dcb5f10814c -->
+
 | loio |
 | -----|
 | 7a78f1b707c248fd9ec53dcb5f10814c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/7a78f1b707c248fd9ec53dcb5f10814c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c)</div>
-<!-- loio7a78f1b707c248fd9ec53dcb5f10814c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c)</div>
 
 ## Step 1: Initial App Without Data
 

@@ -1,11 +1,12 @@
+<!-- loio84100bcfd5b34f62858bdd6f67976b4a -->
+
 | loio |
 | -----|
 | 84100bcfd5b34f62858bdd6f67976b4a |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/84100bcfd5b34f62858bdd6f67976b4a.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
-<!-- loio84100bcfd5b34f62858bdd6f67976b4a -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
 
 ## Step 3: Extending the Worklist Table
 

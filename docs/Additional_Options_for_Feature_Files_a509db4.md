@@ -1,11 +1,12 @@
+<!-- loioa509db45afbe42678f33f5b07f4cc35b -->
+
 | loio |
 | -----|
 | a509db45afbe42678f33f5b07f4cc35b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/a509db45afbe42678f33f5b07f4cc35b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b)</div>
-<!-- loioa509db45afbe42678f33f5b07f4cc35b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b)</div>
 
 ## Additional Options for Feature Files
 
@@ -101,7 +102,7 @@ To write a steps file for the this feature file you might have to write four sep
 
 How does this work in real JavaScript code? When you write the regular expression for the step definition, you can use a regular expression concept called "capturing groups" to specify arguments to extract from the natural language of the test step. If you've never worked with regular expressions before, it can take some getting used to, but it's a really powerful tool that is worth learning. The capturing groups are passed to the test function as parameters \(of type `string`\) that you can name whatever you want. Continuing the example above, here are the step definitions that you could write:
 
-```lang-js
+``` js
 this.register(
   /^I click on the life saving button (\d+) times?$/i,
   function(sNumTimes) {}
@@ -121,7 +122,7 @@ this.register(
 
 Here are a few regular expression concepts that are especially useful in Gherkin:
 
-```lang-js
+``` js
 (.*?) – captures any text into a parameter
 (\d+) – captures any number into a parameter
 \s* - matches 0 or more spaces
@@ -136,7 +137,7 @@ s? – matches the character "s" if it's there (replace "s" with any character)
 > 
 > If your regular expression contains multiple parameters, then they will be passed to the test function in the same order as they appear in the regular expression.
 > 
-> ```lang-js
+> ``` js
 > this.register(
 >   /^I click (\d+) times and see (.*?) at the end of the list$/i,
 >   function(sNumTimes, sName) {}
@@ -163,7 +164,7 @@ Trying to implement the step definitions might be a bit challenging because in t
 
 In Gherkin, the JavaScript `this` variable is unique for each scenario. Any variables assigned to one step definition can be used in subsequent step definitions within the same scenario. Each new scenario in the feature starts with a new `this` object. As a result, we could implement the previous feature file's step definitions in the following manner:
 
-```lang-js
+``` js
 this.register(/^I have a (.*?) in front of me$/i, function(coffeeType) {
   this.coffeeType = coffeeType;
 });
@@ -189,7 +190,7 @@ To use QUnit for automated testing, it is necessary to use QUnit's built-in asse
 
 Gherkin makes the `assert` object available to you in two different ways, depending on whether you are using OPA5 or not. If you are using pure QUnit \(no OPA5\), then you can access the QUnit assert object inside of a step definition with `this.assert`.
 
-```lang-js
+``` js
 this.register(/^I have launched my wombat$/i, function() {
   this.assert.strictEqual(this.myWombat.state, "launched");
 });
@@ -197,7 +198,7 @@ this.register(/^I have launched my wombat$/i, function() {
 
 If you are using OPA5, then OPA5 makes the QUnit `assert` object available to you inside a step definition via `Opa5.assert`:
 
-```lang-js
+``` js
 this.register(/^My wombat is currently in orbit$/i, function() {
   Opa5.assert.strictEqual(this.myWombat.state, "orbit");
 });
@@ -221,7 +222,7 @@ Scenario: lots of data
 
 In the steps file, if a data table is included in the test scenario then an extra parameter is passed at the end of the step definition function \(after any step arguments that appear in the regular expression\).
 
-```lang-js
+``` js
 this.register(
   /^I see the following (.*?):$/i,
   function(sAnimalType, aDataTable) {}
@@ -258,7 +259,7 @@ Scenario: lots of data
 
 Both test steps will provide the following runtime value for `aDataTable`:
 
-```lang-js
+``` js
 ["Alice", "Bob", "Charlie"]
 ```
 
@@ -291,7 +292,7 @@ this.register(
 
 In the above steps code, we ask the `dataTableUtils` to use camel case when setting the names of the object attributes. \(For those unfamiliar with coding conventions, camel case transforms the string "Hello World" into `helloWorld`.\) At runtime, the variable `aData` is assigned the following value:
 
-```lang-js
+``` js
  [
   {
     ageInMonths: "24"
@@ -316,7 +317,7 @@ In this `toTable` format, the data is now easier to work with. There are other t
 
 If you have specialized normalization needs, you can also create your own normalization function. This is a function that accepts a single string parameter and returns a string. You could, for example, pass your custom normalization function into a `toTable` call like this:
 
-```lang-js
+``` js
 var aData = dataTableUtils.toTable(aRawData, function(s) {
   return dataTableUtils.normalization.camelCase(s).replace("role", "job");
 });

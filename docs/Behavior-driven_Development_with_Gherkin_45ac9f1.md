@@ -1,11 +1,12 @@
+<!-- loio45ac9f19d9414b30b121c6e00f57433c -->
+
 | loio |
 | -----|
 | 45ac9f19d9414b30b121c6e00f57433c |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/45ac9f19d9414b30b121c6e00f57433c.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c)</div>
-<!-- loio45ac9f19d9414b30b121c6e00f57433c -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c)</div>
 
 ## Behavior-driven Development with Gherkin
 
@@ -55,7 +56,7 @@ The Gherkin library contains the following parts:
 
     Translates the feature file into something a computer can understand and execute. The steps file also contains the tests to be executed to ensure that the software behaves according to its specification. The main elements of a steps file are called **step definitions**.
 
-    ```lang-js
+    ``` js
     this.register(/^I protect my skin$/i, function() {
       this.assert.assertEqual(this.mySkin, 'protected');
     });

@@ -1,11 +1,12 @@
+<!-- loio6d6b5bda5727419eadcc9cbac1f6e6a1 -->
+
 | loio |
 | -----|
 | 6d6b5bda5727419eadcc9cbac1f6e6a1 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/6d6b5bda5727419eadcc9cbac1f6e6a1.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6d6b5bda5727419eadcc9cbac1f6e6a1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6d6b5bda5727419eadcc9cbac1f6e6a1)</div>
-<!-- loio6d6b5bda5727419eadcc9cbac1f6e6a1 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6d6b5bda5727419eadcc9cbac1f6e6a1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6d6b5bda5727419eadcc9cbac1f6e6a1)</div>
 
 ## init\(\) Method
 
@@ -20,7 +21,7 @@ If the `init()` method is implemented, OpenUI5 invokes the method for each contr
 
 The `init` method is considered a private method that must only be called by the OpenUI5 core.
 
-```lang-js
+``` js
    init: function() {
 
       this._bSearchHasBeenTriggered = false;
@@ -35,7 +36,7 @@ The `init` method is considered a private method that must only be called by the
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
 > 
-> ```lang-js
+> ``` js
 > 
 > sap.ui.somelib.SomeControl.extend("my.OwnControl", {
 >        ...

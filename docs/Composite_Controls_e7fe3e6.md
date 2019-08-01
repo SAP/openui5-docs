@@ -1,11 +1,12 @@
+<!-- loioe7fe3e60481240518d7e9e25ea7eaa6f -->
+
 | loio |
 | -----|
 | e7fe3e60481240518d7e9e25ea7eaa6f |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/e7fe3e60481240518d7e9e25ea7eaa6f.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e7fe3e60481240518d7e9e25ea7eaa6f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e7fe3e60481240518d7e9e25ea7eaa6f)</div>
-<!-- loioe7fe3e60481240518d7e9e25ea7eaa6f -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e7fe3e60481240518d7e9e25ea7eaa6f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e7fe3e60481240518d7e9e25ea7eaa6f)</div>
 
 ## Composite Controls
 

@@ -1,11 +1,12 @@
+<!-- loiofb19f501b16e4e4991eb6a017770945b -->
+
 | loio |
 | -----|
 | fb19f501b16e4e4991eb6a017770945b |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/fb19f501b16e4e4991eb6a017770945b.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b)</div>
-<!-- loiofb19f501b16e4e4991eb6a017770945b -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b)</div>
 
 ## Enabling Routing in Nested Components
 
@@ -23,7 +24,7 @@ To build a hierarchy among the routers from multiple components, the child compo
 
 A target in OpenUI5 routing can load either a view or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md):
 
-```lang-json
+``` json
 {
     "sap.ui5": {
         "componentUsages": {

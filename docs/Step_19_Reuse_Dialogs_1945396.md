@@ -1,11 +1,12 @@
+<!-- loio19453962b8074b7399372c65cbe05370 -->
+
 | loio |
 | -----|
 | 19453962b8074b7399372c65cbe05370 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/19453962b8074b7399372c65cbe05370.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370)</div>
-<!-- loio19453962b8074b7399372c65cbe05370 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370)</div>
 
 ## Step 19: Reuse Dialogs
 

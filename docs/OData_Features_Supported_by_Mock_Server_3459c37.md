@@ -1,11 +1,12 @@
+<!-- loio3459c372aaaa4c31ab87bb0e174adcc3 -->
+
 | loio |
 | -----|
 | 3459c372aaaa4c31ab87bb0e174adcc3 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/3459c372aaaa4c31ab87bb0e174adcc3.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3)</div>
-<!-- loio3459c372aaaa4c31ab87bb0e174adcc3 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3)</div>
 
 ## OData Features Supported by Mock Server
 

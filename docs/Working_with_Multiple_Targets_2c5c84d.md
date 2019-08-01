@@ -1,11 +1,12 @@
+<!-- loio2c5c84d207d246bc9f733f29df1ff892 -->
+
 | loio |
 | -----|
 | 2c5c84d207d246bc9f733f29df1ff892 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/2c5c84d207d246bc9f733f29df1ff892.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2c5c84d207d246bc9f733f29df1ff892) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2c5c84d207d246bc9f733f29df1ff892)</div>
-<!-- loio2c5c84d207d246bc9f733f29df1ff892 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2c5c84d207d246bc9f733f29df1ff892) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2c5c84d207d246bc9f733f29df1ff892)</div>
 
 ## Working with Multiple Targets
 
