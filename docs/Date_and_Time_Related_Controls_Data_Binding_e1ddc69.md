@@ -64,7 +64,6 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 #### Binding of date values to `DatePicker`
 
-
 ``` xml
 <DatePicker value="{
 	path: 'EntryDate',
