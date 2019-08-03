@@ -28,7 +28,7 @@ The **sap\_hcb** theme is deprecated as of version 1.48. It is replaced by the *
 
 #### sap\_bluecrystal
 
-The **sap\_bluecrystal** theme is only supported until version 1.38. It is replaced by **sap\_belize** as the default theme for OpenUI5 applications.
+The **sap\_bluecrystal** theme is no longer supported as of version 1.40. It is replaced by **sap\_belize** as the default theme for OpenUI5 applications.
 
 Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or higher.
 
