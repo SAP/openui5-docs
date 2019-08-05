@@ -26,7 +26,7 @@ sap.ui.loader.config({
 
 Thus, it is possible to redirect the request for the application-specific modules to the corresponding web application:
 
-``` js
+``` html
 			
 	<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js" ></script>
 

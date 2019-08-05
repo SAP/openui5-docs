@@ -98,7 +98,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
 To use the feature in your OpenUI5 application, set the configuration flag `bindingSyntax` in the bootstrap as follows:
 
-``` js
+``` html
 
 <script id="sap-ui-bootstrap"
       ...

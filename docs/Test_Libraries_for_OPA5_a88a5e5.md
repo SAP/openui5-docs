@@ -28,7 +28,7 @@ There are 3 simple steps to start using a test library:
 
     For example, the app `my.application` has a dependency on the test library `my.awesome.testlibrary` and its test resources are built into the directory `test-resources`.
 
-    ```
+    ``` html
     <script id="sap-ui-bootstrap"
         src="../../resources/sap-ui-core.js"
         data-sap-ui-resourceroots='**\{

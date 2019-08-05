@@ -33,6 +33,8 @@ When opening or closing a dialog or navigating between pages, the focus should s
 > 
 > 
 
+For more information, see [sap.ui.core.Element/methods/focus](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/focus) API documentation in the Demo Kit.
+
 ***
 
 #### Initial focus position

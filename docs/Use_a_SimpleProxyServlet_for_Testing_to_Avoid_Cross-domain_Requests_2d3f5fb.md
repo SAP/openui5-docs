@@ -24,7 +24,7 @@ If you are testing locally in your Java Eclipse environment and you want to acce
 
 Ideally, all OData service URLs should be in one file to make the exchange easier - either in the `index.html`, or in one separate .js file that needs to be included. The application is responsible for exchanging the URLs before checking in and after checking out to the SAPUI5 Repository. You can also use the helper function `getServiceUrl`, for which the application is responsible as well. See the following example:
 
-``` java
+``` html
 <script>
 //var serviceUrl = "/mypath/myservice";       //url when running on the ABAP system
 //var serviceUrl = "proxy/mypath/myservice";  //url when running locally in Eclipse

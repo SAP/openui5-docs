@@ -31,7 +31,7 @@ Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. 
 	<script
 		id="sap-ui-bootstrap"
 		...
-		data-sap-ui-async="true"
+		data-sap-ui-async="true">
 	</script>
 ...
 ```

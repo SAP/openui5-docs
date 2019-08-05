@@ -18,7 +18,7 @@ You define which theme is used by your app either in the bootstrap, by using a U
 <script id="sap-ui-bootstrap" 
 	type="text/javascript"
 	src="resources/sap-ui-core.js"
-	data-sap-ui-theme="sap_belize"
+	data-sap-ui-theme="sap_belize">
 </script>
 ```
 
