@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Require Modules in XML View and Fragment
 
-Modules can be required in XML views and assigned to aliases which can be used as variables in properties, event handlers, and bindings.
+Modules can be required in XML views and fragments and assigned to aliases which can be used as variables in properties, event handlers, and bindings.
 
 The `require` attribute with namespace URI `sap.ui.core` can be used to define the module aliases and paths. In the following sections we assume that the namespace prefix `core` is used to define the URI `sap.ui.core` which makes the attribute to be written as `core:require`. This attribute can be used at every element of an XML view or fragment. You can specify a list of required modules as Unified Resource Names, similar to `sap.ui.require`, and assign aliases to them using a JSON-like syntax.
 

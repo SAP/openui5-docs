@@ -191,7 +191,7 @@ The table shows the supported severity values and their mapping to the specific 
 
 ### Accessing the Original Message
 
-The attribute `technicalDetails.originalMessage` of the message in the message model allows you to access the original message from the back-end. The attribute is currently only available for messages from error responses and unbound messages of success responses.
+The attribute `technicalDetails.originalMessage` of the message in the message model allows you to access the original message from the back-end.
 
 **Related information**  
 
