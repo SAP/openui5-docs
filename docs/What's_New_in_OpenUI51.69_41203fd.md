@@ -33,7 +33,7 @@ With this release OpenUI5 is upgraded from version 1.68 to 1.69.
 
 -   You can now use the Partner attribute of navigation properties to automatically shorten paths by removing Partner :n and :1 navigation properties that are adjacent in the path. This allows to access already available data in parent bindings.
 
--   The `caseSensitive` flag is now supported for `sap.ui.model.Filter`. Note that if case insensitive filtering is requested, the OData function `tolower` is used for all operands.
+-   The `caseSensitive` flag is now supported for `sap.ui.model.Filter`. Note that if case-insensitive filtering is requested, the OData function `tolower` is used for all operands.
 
 -   To asynchronously access data in controller code through bindings, you can now use the `sap.ui.model.odata.v4.ODataContextBinding.requestObject` and `sap.ui.model.odata.v4.ODataPropertyBinding.requestValue` functions.
 
@@ -66,15 +66,4 @@ With this release OpenUI5 is upgraded from version 1.68 to 1.69.
 | **`sap.m.SinglePlanningCalendar`** A new *Month* view is now available for the control. It displays a calendar month that always starts from the first week of the month. To set it up, use the new `sap.m.SinglePlanningCalendarMonthView` class in the `views` aggregation of the `SinglePlanningCalendar` control.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendar). |
 | **`sap.ui.table.plugins.MultiSelectionPlugin`** The plugin for the `sap.ui.table.AnalyticalTable`, the `sap.ui.table.Table`, and the `sap.ui.table.TreeTable` tables now offers various selection modes for applications \(new `selectionMode` property\), for example, the selection of single or multiple rows. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin). |
 | **`sap.ui.unified.Calendar`** We have implemented year range in the `Calendar` control to help the user navigate quickly to a year that is outside the visible range. When the year button is selected, there's an additional year range button that enables the interaction.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.unified.Calendar). |
-
-***
-
-<a name="loio41203fd3272b479d8c665357e3b21a43__section_g3r_bf5_zcb"/>
-
-### SAP Fiori Elements
-
- <a name="loio41203fd3272b479d8c665357e3b21a43__table_fm5_dvq_mfb"/>
-
-| |
-|--|
 
