@@ -93,7 +93,7 @@ With regard to the renderer, the following guidelines apply:
 
 -   Unknown strings, such as values coming from string properties, need to be escaped before writing to HTML; this avoids security risks via XSS attacks.
 
--   Use `RenderManager.writeEscaped(…)`, or the function provided by `sap/base/security/encodeXML`.
+-   Use `RenderManager.writeEscaped(…)`, or the function provided by module `sap/base/security/encodeXML`.
 
 -   Container controls such as `Panel` or `Page`, as opposed to layout controls with a generic "content" aggregation, should render the children directly next to each other with no additional HTML or layout applied.
 
