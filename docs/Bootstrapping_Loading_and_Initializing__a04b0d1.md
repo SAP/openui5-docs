@@ -55,7 +55,7 @@ OpenUI5 provides several bootstrap files for different use cases. The following 
 		</tr>
 		<tr>
 			<td>Content Delivery Network \(CDN\)</td>
-			<td>You can access the libraries externally from a CDN. For more information see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).</td>
+			<td>You can access the libraries externally from a CDN. For more information see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).</td>
 		</tr>
 		<tr>
 			<td>`sap-ui-core-nojQuery.js`</td>

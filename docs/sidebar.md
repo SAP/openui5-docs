@@ -194,7 +194,6 @@
     -   [Essentials](Essentials_ec699e0.md)
         -   [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
             -   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)
-            -   [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
             -   [noJQuery Variant for Bootstrapping](noJQuery_Variant_for_Bootstrapping_91f1dd0.md)
             -   [Initialization Process](Initialization_Process_.md#loio91f2c9076f4d1014b6dd926db0e91070)
                 -   [Loading of Additional Resources During Bootstrap](Initialization_Process_.md#loiobf10bd41ac8f49048a1ccb743fbfbb8a)

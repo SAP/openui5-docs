@@ -59,7 +59,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.
 > 
-> For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+> For more information, see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
 > 
 > 
 

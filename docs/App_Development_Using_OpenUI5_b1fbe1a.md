@@ -29,7 +29,7 @@ The default way of downloading and installing OpenUI5 is to get the runtime from
 
 ### Using OpenUI5 Sources from a Content Delivery Network
 
-If you don't want to download the files and don't want to include them in your deployment, you can use the online version of OpenUI5. For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+If you don't want to download the files and don't want to include them in your deployment, you can use the online version of OpenUI5. For more information, see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
 
 > Note:
 > You can find a list of all available OpenUI5 versions here: [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).

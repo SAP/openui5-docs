@@ -69,7 +69,7 @@ Technically, you can switch between OpenUI5 and SAPUI5 \(providing you have the 
 
 Just check first which SAPUI5 version you need, because the version numbers of OpenUI5 and SAPUI5 might differ on patch level \(last number\). You can find this information in the technical information dialog \(* Ctrl Alt Shift P *\).
 
-If you're using the content delivery network, you can simply replace the bootstrapping reference to `https://openui5.hana.ondemand.com/<1.xx.yy>/` with a reference to `https://openui5.hana.ondemand.com/<1.xx.zz>/`. For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+If you're using the content delivery network, you can simply replace the bootstrapping reference to `https://openui5.hana.ondemand.com/<1.xx.yy>/` with a reference to `https://openui5.hana.ondemand.com/<1.xx.zz>/`. For more information, see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
 
 For all other cases, replace the runtime. Since the technical names \(of controls, libraries, etc.\) and APIs are the same in both OpenUI5 and SAPUI5, the code will still work and you can start enhancing it directly.
 
