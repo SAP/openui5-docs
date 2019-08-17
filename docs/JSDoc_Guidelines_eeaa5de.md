@@ -70,6 +70,11 @@ A documentation comment should provide the following content:
 -   Don’t use a period inside a summary sentence. For example, don’t use “e.g.”, but write “for example” instead. Otherwise the summary sentence will be cut off.
 
 
+> Note:
+> You can also create links to external sources. The source should comply with standard legal requirements. The required icons are added to the link as described in the Demo Kit under *Terms of Use* \> *Disclaimer*. For more information about creating links, see the explanations below \(@see and \{@link\}\).
+> 
+> 
+
 ***
 
 #### Recommendations for Writing Descriptions
@@ -78,7 +83,7 @@ A documentation comment should provide the following content:
 
 -   Make sure you spell acronyms correctly, for example, ID, JSON, URL.
 
--   In the summary sentence, omit clauses like "This class" or "This method".
+-   In the summary sentence, omit repetitive clauses like "This class" or "This method".
 
 -   For actions, start directly with an appropriate verb in the third person: Adds, allocates, constructs, converts, deallocates, destroys, gets, provides, reads, removes, represents, returns, sets, saves, and so on.
 

@@ -97,7 +97,7 @@ In **JavaScript** views or controllers, you use a JS object instead of a string 
 
 ``` js
 // "Input" required from module "sap/m/Input"
-// "BindingMode" reqzured from module "sap/ui/model/BindingMode"
+// "BindingMode" required from module "sap/ui/model/BindingMode"
 
 var oInput = new Input ({
     value: {
