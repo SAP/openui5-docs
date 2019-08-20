@@ -28,7 +28,7 @@ If you create a new view for an existing SAPUI5 application project, the view ne
        <Panel>
           <mvc:JSView id="myJSView" viewName="sap.hcm.Bankaccount" />
        </Panel>
-    <core:View>
+    </core:View>
     ```
 
     For HTML views, the nested view looks as follows:
