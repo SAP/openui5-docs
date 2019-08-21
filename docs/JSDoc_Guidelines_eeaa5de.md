@@ -71,7 +71,7 @@ A documentation comment should provide the following content:
 
 
 > Note:
-> You can also create links to external sources. The source should comply with standard legal requirements. The required icons are added to the link as described in the Demo Kit under *Terms of Use* \> *Disclaimer*. For more information about creating links, see the explanations below \(@see and \{@link\}\).
+> You can create links to external sources. The source should comply with standard legal requirements. The required icons are added to the link as described in the Demo Kit under *Terms of Use* \> *Disclaimer*. For more information about creating links, see the explanations below \(@see and \{@link\}\).
 > 
 > 
 
