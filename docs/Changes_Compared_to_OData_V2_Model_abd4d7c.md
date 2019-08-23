@@ -51,7 +51,7 @@ These differences will therefore remain even after all features have been implem
 		</tr>
 		<tr>
 			<td>No CRUD methods on model: Model does not support the methods `create`, `read`, `remove`, `update`.</td>
-			<td>Simplification: `read`, `update`, `create` and `remove` operations are available implicitly via the bindings. Bindings can also be used without controls. It is not possible to trigger requests for specific OData URLs.</td>
+			<td>Simplification: `read`, `update`, `create` and `remove` operations are available implicitly via the bindings. Bindings can also be used without controls. It is not possible to trigger requests for specific OData URLs. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).</td>
 		</tr>
 		<tr>
 			<td>No metadata access via model: Model does not support methods `getServiceAnnotations`, `getServiceMetadata`, `refreshMetadata` as well as methods corresponding to the events `metadataFailed`, `metadataLoaded`.</td>

@@ -312,6 +312,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                         -   [Binding Modes](Binding_Modes_e37a0c3.md)
                         -   [Suspend and Resume](Suspend_and_Resume_b0f5c53.md)
                         -   [Context API](Context_API_22ee78b.md)
+                        -   [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md)
                         -   [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md)
                     -   [Binding Events](Binding_Events_1a010d3.md)
                     -   [Filtering](Filtering_5338bd1.md)

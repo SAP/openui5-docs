@@ -1005,6 +1005,9 @@
 													"Context API": {
 														"link": "Context_API_22ee78b.md"
 													},
+													"Accessing Data in Controller Code": {
+														"link": "Accessing_Data_in_Controller_Code_17b30ac.md"
+													},
 													"Automatic determination of $expand and $select": {
 														"link": "Automatic_determination_of_$expand_and_$select_10ca58b.md"
 													}
