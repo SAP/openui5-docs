@@ -28,7 +28,9 @@ Here are some general principles for writing comments:
 
 -   Document at least public and protected methods with JSDoc, mark them as `@public` or `@protected`.
 
-    If you also document private methods with JSDoc, mark them as `@private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this. `@protected` is not clearly defined for a JavaScript environment. In OpenUI5 it denotes a method that is not meant to be used by applications, but might be used outside the relevant class or subclasses, but only in closely related classes.
+    If you also document private methods with JSDoc, mark them as `@private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this. `@protected` is not clearly defined for a JavaScript environment. In OpenUI5, it denotes a method that is not meant to be used by applications. It might be used outside the relevant class or subclasses, but only in closely related classes.
+
+    To specify explicit classes that are allowed to use a class or function, mark them as `@private` followed by `@ui5-restricted <modulenames>`, which will override the latter and make sure that the JSDoc cannot generate this content.
 
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
 
@@ -182,7 +184,7 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 		</tr>
 		<tr>
 			<td>@author</td>
-			<td>Adds the name of the developer responsible for code</td>
+			<td>Adds the name of the developer responsible for the code</td>
 			<td> `@author Max Mustermann` </td>
 			<td>This is an optional tag that is not displayed in JSDoc. If you need to use the version tag, use $\{version\} so you don't have to update this manually for each new version.</td>
 		</tr>

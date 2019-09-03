@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In the OData V4 model, bindings are used to access and modify backend data also if the data is accessed or modified in controller code.
 
-You can create bindings that are independent of controls using the factory methods [sap.ui.model.odata.v4.ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindContext)., [sap.ui.model.odata.v4.ODataModel.bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindList)., and [sap.ui.model.odata.v4.ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindProperty)..
+You can create bindings that are independent of controls using the factory methods [sap.ui.model.odata.v4.ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindContext), [sap.ui.model.odata.v4.ODataModel.bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindList), and [sap.ui.model.odata.v4.ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindProperty).
 
 ***
 
@@ -68,7 +68,7 @@ var oList = oModel.bindList("/SalesOrderList"),
 
 ### Single Entities
 
-A context binding is obtained either with [sap.ui.model.odata.v4.ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindContext)., or by getting an existing context binding from the control tree. Data can be accessed through the bound context, see [sap.ui.model.odata.v4.ODataContextBinding.getBoundContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding.getBoundContext).. Using `sap.ui.model.odata.v4.ODataContextBinding.requestObject` is a short cut for `oBinding.getBoundContext().requestObject()`. sap.ui.model.odata.v4.Context.setProperty is used to modify data.
+A context binding is obtained either with [sap.ui.model.odata.v4.ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindContext), or by getting an existing context binding from the control tree. Data can be accessed through the bound context, see [sap.ui.model.odata.v4.ODataContextBinding.getBoundContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding.getBoundContext). Using `sap.ui.model.odata.v4.ODataContextBinding.requestObject` is a short cut for `oBinding.getBoundContext().requestObject()`. sap.ui.model.odata.v4.Context.setProperty is used to modify data.
 
 > Note:
 > Relative bindings need to be resolved meaning that a context must have been set before data access is possible.
@@ -91,7 +91,7 @@ oContextBinding.requestObject("Note").then(function (sNote) {
 
 ### Single Properties
 
-The access to single properties may either be done using a context binding as described above in the *Single Entities* section, or by using a property binding. The property binding is obtained with [sap.ui.model.odata.v4.ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindProperty)., or by getting an existing property binding bound to a control. The value can be requested using [sap.ui.model.odata.v4.ODataPropertyBinding.requestValue](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding.requestValue).. A synchronous access is possible with sap.ui.model.odata.v4.ODataPropertyBinding.getValue, if the value is already available.
+The access to single properties may either be done using a context binding as described above in the *Single Entities* section, or by using a property binding. The property binding is obtained with [sap.ui.model.odata.v4.ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel.bindProperty), or by getting an existing property binding bound to a control. The value can be requested using [sap.ui.model.odata.v4.ODataPropertyBinding.requestValue](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding.requestValue). A synchronous access is possible with sap.ui.model.odata.v4.ODataPropertyBinding.getValue, if the value is already available.
 
 The value of a property binding can be modified using `sap.ui.model.odata.v4.ODataPropertyBinding.setValue`.
 

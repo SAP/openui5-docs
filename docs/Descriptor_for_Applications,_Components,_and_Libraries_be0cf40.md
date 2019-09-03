@@ -511,6 +511,13 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 			<td> `flexEnabled` </td>
 			<td>Determines whether the app is enabled for adaptation flex enabled \(for example, using stable IDs\); possible values are `true`, `false` or `undefined` \(default\)</td>
 		</tr>
+		<tr>
+			<td> `commands` </td>
+			<td>Specifies provided commands with a unique key/alias. Contains:
+
+ -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
+			</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -578,7 +585,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.15.0",
+    "_version": "1.16.0",
  
     "start_url": "index.html",
  
@@ -892,9 +899,14 @@ Current version of the `manifest.json`
         },
         "library": {
             "i18n": true
-        \}
         },
-        
+                "flexEnabled": true,
+        "commands": {
+            "Save": {
+                "shortcut": "Ctrl+S"
+            }
+        }
+	    },
  
     "sap.platform.abap": {
         "uri": "/sap/bc/ui5_ui5/sap/appName",

@@ -29,7 +29,7 @@ The `require` attribute with namespace URI `sap.ui.core` can be used to define t
 > 
 > 
 
-`core:require` can only handle static imports which require the module path to be defined by using a string literal. It is not possible to use a binding or an expression for defining the module path. As `core:require` is not interpreted as a binding expression, it is not necessarz to escape the curly braces in `core:require` which is different than in the other attributes.
+`core:require` can only handle static imports which require the module path to be defined by using a string literal. It is not possible to use a binding or an expression for defining the module path. As `core:require` is not interpreted as a binding expression, it is not necessary to escape the curly braces in `core:require` which is different than in the other attributes.
 
 The aliases can then be used to access the modules' static functions. The alias is valid for the element where the alias is defined and the subtree of that element.
 

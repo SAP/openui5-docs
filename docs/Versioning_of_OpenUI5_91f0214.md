@@ -60,7 +60,7 @@ In the version overview at [https://openui5.hana.ondemand.com/versionoverview.ht
 
 ### Availability of Multiple Versions on the Akamai Content Delivery Network
 
-All OpenUI5 resources are available on the content delivery network Akamai. There, you can also find multiple OpenUI5 versions, and you can use them in your code as described in [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
+All OpenUI5 resources are available on the content delivery network Akamai. There, you can also find multiple OpenUI5 versions, and you can use them in your code as described in [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
 Check the available versions with respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
 

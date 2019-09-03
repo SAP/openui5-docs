@@ -20,7 +20,7 @@ As OpenUI5 evolves over time, some of the UI controls are replaced by others, or
 
 #### sap\_hcb
 
-The **sap\_hcb** theme is deprecated as of version 1.48. It is replaced by the **sap\_belize\_hcb** theme.
+The **sap\_hcb** theme is deprecated as of version 1.48. It has been replaced by the **sap\_belize\_hcb** theme.
 
 **sap\_hcb** is the High Contrast Black theme used for the already deprecated **sap\_goldreflection** and **sap\_bluecrystal** themes. For **sap\_belize** and **sap\_belize\_plus** there are two high contrast themes available: **sap\_belize\_hcb** \(High Contrast Black\) and **sap\_belize\_hcw** \(High Contrast White\).
 
@@ -28,7 +28,7 @@ The **sap\_hcb** theme is deprecated as of version 1.48. It is replaced by the *
 
 #### sap\_bluecrystal
 
-The **sap\_bluecrystal** theme is no longer supported as of version 1.40. It is replaced by **sap\_belize** as the default theme for OpenUI5 applications.
+The **sap\_bluecrystal** theme is no longer supported as of version 1.40. It has been replaced by **sap\_belize** as the default theme for OpenUI5 applications.
 
 Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or higher.
 
@@ -36,19 +36,19 @@ Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or hi
 
 #### sap\_ux
 
-The **sap\_ux** theme is only supported until version 1.38. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated.This theme has been removed with OpenUI5 version 1.48.
+The **sap\_ux** theme is no longer supported as of version 1.40. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated.This theme has been removed with OpenUI5 version 1.48.
 
 ***
 
 #### sap\_platinum
 
-The **sap\_platinum** theme is only supported until version 1.38. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
+The **sap\_platinum** theme is no longer supported as of version 1.40. This was one of the very first OpenUI5 themes and is only implemented by a small subset of the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
 
 ***
 
 #### sap\_goldreflection
 
-The **sap\_goldreflection** theme is only supported until version 1.38. This was one of the first OpenUI5 themes and is only implemented by the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
+The **sap\_goldreflection** theme is no longer supported as of version 1.40. This was one of the first OpenUI5 themes and is only implemented by the **sap.ui.commons** and **sap.ui.ux3** controls, which are also deprecated. This theme has been removed with OpenUI5 version 1.48.
 
 ***
 

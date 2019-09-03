@@ -87,5 +87,5 @@ Supported densities are 1.5 and 2. The following example shows a set of images w
 
 [API Reference: `sap.m.Image`](https://openui5.hana.ondemand.com/#/api/sap.m.Image)
 
-[Samples: `sap.m.Image`](https://openui5.hana.ondemand.com/#/entity/sap.m.Image)
+[Samples: `sap.m.Image`](https://openui5.hana.ondemand.com/#/entity/sap.m.Image/sample/sap.m.sample.Image)
 

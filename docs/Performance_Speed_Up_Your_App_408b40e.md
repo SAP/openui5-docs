@@ -135,7 +135,7 @@ For more information, see [Descriptor for Applications, Components, and Librarie
 
 Especially if you're running your app in the cloud, you benefit from the global distribution of servers.
 
-For more information, see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
+For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
 ***
 

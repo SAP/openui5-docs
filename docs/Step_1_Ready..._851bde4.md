@@ -69,7 +69,7 @@ The `index` module that we load with the `onInit` parameter will hold the applic
 The `body` tag is defined with the `sapUiBody` class and the `content` ID. This is where we will add the content of the app in the next steps.
 
 > Note:
-> For more information about bootstrapping from the CDN, see [2d3eb2f322ea4a82983c1c62a33ec4ae.md](_2d3eb2f.md).
+> For more information about bootstrapping from the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 > 
 > 
 
@@ -147,5 +147,5 @@ Now open the `index.html` file in your browser. When the button is pressed, a me
 
 [Create a neo-app.json Project Configuration File](Create_a_neo-app.json_Project_Configuration_File_28fa753.md)
 
-[](_2d3eb2f.md)
+[Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
 

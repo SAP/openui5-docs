@@ -58,7 +58,12 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 <a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_fc4_4w5_1bb"/>
 
-### Here's how you set IDs manually to keep them stable
+### How to Set IDs Manually to Keep Them Stable
+
+> Note:
+> Using the rule *Stable control IDs are required for SAPUI5 flexibility services* in the Support Assistant, you can check whether all controls use stable IDs. For more information, see [How to Check If All Your IDs Are Stable](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck).
+> 
+> 
 
 |**Views**| -   Views in the descriptor for applications, components, and libraries
 
@@ -243,7 +248,7 @@ Fragment.load({
 
 <a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_lvk_cqp_3z"/>
 
-### How to name stable IDs
+### How to Name Stable IDs
 
 Choose names for your stable IDs that describe the semantics of your views and controls, such as *page* or *table*.
 
@@ -264,4 +269,28 @@ If you build an app using the following stable IDs for the component and the vie
 | `objectHeader` | `myProducts---product--objectHeader` |
 
 For more information about the SAP Fiori Worklist Application template, see [Worklist Template](Worklist_Template_a77f2d2.md).
+
+***
+
+<a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck"/>
+
+### How to Check If All Your IDs Are Stable
+
+With the Support Assistant, you can analyze whether there are any issues with the stable IDs used in your app. Here's how you can check this:
+
+1.  Open your app in a browser.
+2.  Choose * CTRL SHIFT ALT P * to start the Support Assistant.
+3.  In the *Technical Information Dialog*, choose *Activate Support Assistant*.
+4.  In the table on the left, deselect all rules.
+5.  Click on the *Rules* column.
+6.  Filter for `stable` and choose *Enter*.
+7.  Select the *Stable control IDs are required for SAPUI5 flexibility services* rule.
+8.  Choose *Analyze*.
+
+If any generated IDs are found, replace them with stable IDs as described above.
+
+**Related information**  
+
+
+[Support Assistant](Support_Assistant_57ccd7d.md)
 
