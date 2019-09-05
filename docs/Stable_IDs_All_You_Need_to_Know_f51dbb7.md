@@ -56,7 +56,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 ***
 
-<a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_fc4_4w5_1bb"/>
+<a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_setstableid"/>
 
 ### How to Set IDs Manually to Keep Them Stable
 
@@ -184,7 +184,7 @@ new Button({
 new Shell({
 ```
 
-> Note:
+ > Note:
 > Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ComponentContainer.html).
 > 
 > 
@@ -287,7 +287,7 @@ With the Support Assistant, you can analyze whether there are any issues with th
 7.  Select the *Stable control IDs are required for SAPUI5 flexibility services* rule.
 8.  Choose *Analyze*.
 
-If any generated IDs are found, replace them with stable IDs as described above.
+If any generated IDs are found, set the IDs for these controls manually as described [here](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_setstableid).
 
 **Related information**  
 
