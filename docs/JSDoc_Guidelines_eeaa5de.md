@@ -30,7 +30,7 @@ Here are some general principles for writing comments:
 
     If you also document private methods with JSDoc, mark them as `@private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this. `@protected` is not clearly defined for a JavaScript environment. In OpenUI5, it denotes a method that is not meant to be used by applications. It might be used outside the relevant class or subclasses, but only in closely related classes.
 
-    To explicitly specify what is allowed to use a class or function, mark them as `@private` followed by `@ui5-restricted <modulenames>`, with a comma-separated list of the modules that have access to this class or function. `@ui5-restricted` will override `@private` and make sure that the JSDoc toolkit cannot generate this content.
+    To explicitly specify which modules are allowed to use a class or function, mark the latter as `@private` followed by `@ui5-restricted <modulenames>`, with a comma-separated list of the modules that have access to this class or function.
 
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
 
