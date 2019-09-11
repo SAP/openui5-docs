@@ -18,7 +18,7 @@ With this release OpenUI5 is upgraded from version 1.69 to 1.70.
 
 ### New Controls
 
-|`**sap.f.GridListItem**`We have introduced a new control - `GridListItem`, to be used in the default `items` aggregation of `sap.f.GridList`. It consists of a header toolbar and content. ![](loiod3ef93c51b5f4f1aa04445fae8755995_HiRes.png) 
+|`**sap.f.GridListItem**`We have introduced a new control `GridListItem` to be used in the default `items` aggregation of `sap.f.GridList`. It consists of a header toolbar and content. ![](loiod3ef93c51b5f4f1aa04445fae8755995_HiRes.png) 
 
 Note that even though the `content` aggregation can be used for any control, complex responsive layout controls, such as `Table` and `Form`, should not be used.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridListItem) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList/sample/sap.f.sample.GridListModes).|
 
@@ -55,8 +55,6 @@ Note that even though the `content` aggregation can be used for any control, com
 			<td> `**sap.m.SelectDialog**`
 
  -   We have introduced a new `clearButtonPressed` parameter for the `search` event of the control. The parameter is set to `true` when the *Clear* button of the search field is pressed.
- -   We have updated the behavior of the `sap.m.SelectDialog` when the single selection mode has the `rememberSelections` property set to `true`. Now the user can close the `SelectDialog` by pressing the already selected item from a single selection dialog. This means that the users no longer need to press *Cancel* if they have opened the `SelectDialog` for a second time to check what was previously selected.
-
  -   We have introduced the `resizable` and `draggable` properties for the control. If the `resizable` property is set to `true`, `SelectDialog` has a resize handler in its bottom-right corner. If the `draggable` property is set to `true`, the control can be dragged by its header. Both properties are available in desktop mode only.
 
 
