@@ -91,28 +91,28 @@ To migrate the simple replacements, add the new module dependency and replace th
 			<td> `jQuery.sap.log.getLog` </td>
 			<td> `sap/base/Log` </td>
 			<td>Method changed</td>
-			<td> `Log.getLogEntries` </td>
-		</tr>
-		<tr>
-			<td> `jQuery.sap.log.getLogEntries` </td>
-			<td> `sap/base/Log` </td>
-			<td>Simple replacement</td>
-			<td> `Log.getLogEntries` </td>
-		</tr>
-		<tr>
-			<td> `jQuery.sap.log.getLogger` </td>
-			<td> `sap/base/Log` </td>
-			<td>Simple replacement</td>
-			<td> `Log.getLogger` </td>
-		</tr>
-		<tr>
-			<td> `jQuery.sap.log.info` </td>
-			<td> `sap/base/Log` </td>
-			<td>Simple replacement</td>
-			<td> `Log.info` </td>
-		</tr>
-		<tr>
-			<td> `jQuery.sap.log.isLoggable` </td>
+```
+
+ > Note:
+> *HIGHLIGHT START*`jQuery.sap.extend` vs. `jQuery.extend`*HIGHLIGHT END*
+> 
+> The use of `jQuery.sap.extend()` is the same as `jQuery.extend()`, but arguments that are `null` or `undefined` are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
+> 
+> *HIGHLIGHT START*`Object.assign`*HIGHLIGHT END*
+> 
+> The `Object.assign()` method only copies enumerable and own properties, but does not copy properties on the prototype chain and non-enumerable properties.
+> 
+> Considering this, `Object.assign()` might be a suitable replacement for `jQuery.sap.extend` for a shallow copy.
+> 
+> `null` and `undefined` arguments are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
+> 
+> 
+
+ |
+| `jQuery.sap.now` | `sap/base/util/now` |Simple Replacement| `now` |
+| `jQuery.sap.getObject` | `sap/base/util/ObjectPath` |Complex Replacement| ```
+ObjectPath.get("some.object.path", "someProperty");
+```
 			<td> `sap/base/Log` </td>
 			<td>Simple replacement</td>
 			<td> `Log.isLoggable` </td>
@@ -325,17 +325,27 @@ To migrate the simple replacements, add the new module dependency and replace th
 // Shallow
 jQuery.sap.extend({}, sContent);
 
-//Deep
+// Deep
 jQuery.sap.extend(true, {}, sContent)
 ```
 
  New: ```
-//Shallow
-Object.assign({}, sContent);
-
-//Deep
-merge({}, sContent);
+// Shallow
+//
+// No actual replacement for shallow copies available!
+// For shallow copies you may use Object.assign(), but please consider that Object.assign()
+// only copies enumerable and own properties and is unable to copy properties on the prototype
+// and non-enumerable properties.
+// Deep
 ```
+
+ > Note:
+ > **`jQuery.sap.extend` vs. `jQuery.extend`**
+ > The use of `jQuery.sap.extend()` is the same as `jQuery.extend()`, but arguments that are `null` or `undefined` are **not** ignored.
+ > **`Object.assign`**
+ > The `Object.assign()` method only copies enumerable and own properties, but does not copy properties on the prototype chain and non-enumerable properties.
+ > Considering this, `Object.assign()` might be a suitable replacement for `jQuery.sap.extend` for a shallow copy.
+ > `null` and `undefined` arguments are **not** ignored.
 			</td>
 		</tr>
 		<tr>

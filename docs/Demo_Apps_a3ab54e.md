@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.
 
-You can try and download the apps at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html).
+You can open the apps directly at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html). You can also download the source files there to have a look at the code.
 
 We have the following categories of demo apps:
 

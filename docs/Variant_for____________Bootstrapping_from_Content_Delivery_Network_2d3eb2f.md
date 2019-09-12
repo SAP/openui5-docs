@@ -17,7 +17,7 @@ OpenUI5 can either be loaded locally with a relative path from an SAP Web server
 > 
 > 
 
-To access your OpenUI5 libraries from a Content Delivery Network \(CDN\) instead of your local MIME respository, you need to configure the CDN as an external location in the Customizing of your backend system.
+To access your OpenUI5 libraries from a Content Delivery Network \(CDN\) instead of your local MIME respository, you need to configure your custom CDN of choice as an external location in the Customizing of your backend system.
 
 For more information, see the documentation for the Customizing activity *Configure SAPUI5 Bootstrapping* in Customizing under *SAP NetWeaver* \> *UI Technologies* \> *SAPUI5*.
 

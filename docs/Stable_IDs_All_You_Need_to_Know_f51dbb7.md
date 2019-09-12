@@ -190,7 +190,19 @@ new Shell({
 > 
 
  |
-| *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* |If you want to add an embedded component with a stable ID, you have to add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file: ``` json
+| *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* | If you want to add an embedded component with a stable ID, you have two options:
+
+1.  Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
+
+    ``` json
+			</td>
+		</tr>
+		<tr>
+			<td> **Embedded Components** </td>
+			<td> If you want to add an embedded component with a stable ID, you have two options:
+1.  Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
+
+    ``` json
 "sap.ui5": {
    "componentUsages": {
       "reuseName": {
@@ -202,17 +214,11 @@ new Shell({
    }
 }
 
-```
-         "settings": {
-            "id": "embeddedComponentID"
-         }
-      }
-   }
-}
+    ```
 
-```
+Now you can use the re-use entry name defining the component container in XML, the re-use entry name could be used:
 
- Now you can use the re-use entry name defining the component container in XML, the re-use entry name could be used.: ``` xml
+    ``` xml
 <core:ComponentContainer
    usage="reuseName"
    async="true"
@@ -220,7 +226,33 @@ new Shell({
    propagateModel="true" //to propagate models from the application component
 />
 
-```
+    ```
+
+2.  Add an embedded component independent from the manifest and mention the correct namespace using the `name` property. Also, when instantiating the component, make sure that the `id` property is set during component instance creation:
+
+    ``` xml
+<core:ComponentContainer
+   name = "embeddedComponent.name"
+   async="true"
+   id="embeddedComponentContainerID"
+   propagateModel="true" //to propagate models from the application component
+/>
+
+    ```
+
+Inside the embedded component's `constructor()` \(namespace `embeddedComponent.name`\) :
+
+    ```
+[...]
+constructor: function() {
+                    arguments[0].id = "embeddedComponentID";
+                    UIComponent.prototype.contructor.apply(this, arguments);
+}
+[...]
+    ```
+
+Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
+
 
  > Note:
  > In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
