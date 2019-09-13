@@ -1,6 +1,5 @@
 -   [OpenUI5: UI Development Toolkit for HTML5](OpenUI5_UI_DevelopmentToolkit_for_HTML5_95d113b.md)
     -   [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md)
-        -   [What's New in OpenUI5 1.71](What's_New_in_OpenUI51.71_609fd01.md)
         -   [What's New in OpenUI5 1.70](What's_New_in_OpenUI51.70_4e89fee.md)
     -   [Read Me First](Read_Me_First_167193c.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
