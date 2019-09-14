@@ -192,7 +192,7 @@ new Shell({
  |
 | *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* | If you want to add an embedded component with a stable ID, you have two options:
 
-1.  Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
+1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
 			</td>
@@ -200,7 +200,7 @@ new Shell({
 		<tr>
 			<td> **Embedded Components** </td>
 			<td> If you want to add an embedded component with a stable ID, you have two options:
-1.  Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
+1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
 "sap.ui5": {
@@ -216,7 +216,7 @@ new Shell({
 
     ```
 
-Now you can use the re-use entry name defining the component container in XML, the re-use entry name could be used:
+Now you can use the re-use entry name defining the component container in XML:
 
     ``` xml
 <core:ComponentContainer
@@ -228,7 +228,7 @@ Now you can use the re-use entry name defining the component container in XML, t
 
     ```
 
-2.  Add an embedded component independent from the manifest and mention the correct namespace using the `name` property. Also, when instantiating the component, make sure that the `id` property is set during component instance creation:
+2.  Option: Add an embedded component independently from the manifest and mention the correct namespace using the `name` property. Also, when instantiating the component, make sure that the `id` property is set during component instance creation:
 
     ``` xml
 <core:ComponentContainer
@@ -240,7 +240,7 @@ Now you can use the re-use entry name defining the component container in XML, t
 
     ```
 
-Inside the embedded component's `constructor()` \(namespace `embeddedComponent.name`\) :
+Inside the embedded component's `constructor()` \(with the `embeddedComponent.name` namespace\) add :
 
     ```
 [...]
