@@ -14,9 +14,9 @@ You can identify performance issues in your application by tracking the interact
 
 Interaction in this context means a closed step in a sequence of actions that a user performs on the UI, for example, everything that happens between two clicks on two different buttons.
 
-To **start** interaction tracking, use `Interaction.setActive\(true\)` from module **sap/ui/performance/trace/Interaction**. To map the interaction data to the data of **sap/ui/performance/Measurement**, you have to explicitly set `sap-ui-measure=true`.
+To **start** interaction tracking, use `Interaction.setActive(true)` from module **sap/ui/performance/trace/Interaction**. To map the interaction data to the data of **sap/ui/performance/Measurement**, you have to explicitly set `sap-ui-measure=true`.
 
-To **retrieve** the result of the interaction measurement, use `Interaction.getAll\(\)` from module **sap/ui/performance/trace/Interaction**. This returns an array of all interactions that occurred and their measurement.
+To **retrieve** the result of the interaction measurement, use `Interaction.getAll()` from module **sap/ui/performance/trace/Interaction**. This returns an array of all interactions that occurred and their measurement.
 
 You can use `Interaction.filter` from module **sap/ui/performance/trace/Interaction** to filter the interaction measurements according to a filter function \(`fnFilter`\).
 
@@ -26,9 +26,9 @@ You can use `Interaction.filter` from module **sap/ui/performance/trace/Interact
 
 ``` js
 InteractionMeasurement = {
-    event: "click",               // event which triggered interaction
-    trigger: "Button1",           // control which triggered interaction
-    component: "my.Component",    // component or app identifier
+    event: "click",             // event which triggered interaction
+    trigger: "Button1",         // control which triggered interaction
+    component: "my.Component",  // component or app identifier
     start : 0,                  // interaction start
     end: 0,                     // interaction end
     navigation: 0,              // sum over all navigation times on the critical path

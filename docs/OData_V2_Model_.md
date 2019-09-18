@@ -183,7 +183,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
 
 The binding path syntax for OData models matches the URL path relative to the service URL used in OData to access specific entities or entity sets.
 
-You access the data provided by the OData model according to the structure of the OData service as defined in the metadata of a service. URL parameters, such as filters, cannot be added to a binding path. A binding path can be absolute or relative. Absolute binding paths are resolved immediately. A relative path can only be resolved if it can be automatically converted into an absolute binding path. If, for example, a property is bound to a relative path and the parent control is then bound to an absolute path, the relative property path can e resolved to an absolute path.
+You access the data provided by the OData model according to the structure of the OData service as defined in the metadata of a service. URL parameters, such as filters, cannot be added to a binding path. A binding path can be absolute or relative. Absolute binding paths are resolved immediately. A relative path can only be resolved if it can be automatically converted into an absolute binding path. If, for example, a property is bound to a relative path and the parent control is then bound to an absolute path, the relative property path can be resolved to an absolute path.
 
 ***
 
