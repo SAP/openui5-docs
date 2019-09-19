@@ -2274,8 +2274,8 @@
 					"Grid Controls": {
 						"link": "Grid_Controls_32d4b9c.md",
 						"items": {
-							"sap.f.GridContainer \\(Experimental\\)": {
-								"link": "sap.f.GridContainer_(Experimental)_cca5ee5.md"
+							"sap.f.GridContainer": {
+								"link": "sap.f.GridContainer_cca5ee5.md"
 							},
 							"sap.f.GridList": {
 								"link": "sap.f.GridList_2fc256b.md"

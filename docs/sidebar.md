@@ -675,7 +675,7 @@
         -   [Cards](Cards_5b46b03.md)
         -   [Date and Time Related Controls: Data Binding](Date_and_Time_Related_Controls_Data_Binding_e1ddc69.md)
         -   [Grid Controls](Grid_Controls_32d4b9c.md)
-            -   [sap.f.GridContainer \(Experimental\)](sap.f.GridContainer_(Experimental)_cca5ee5.md)
+            -   [sap.f.GridContainer](sap.f.GridContainer_cca5ee5.md)
             -   [sap.f.GridList](sap.f.GridList_2fc256b.md)
             -   [sap.ui.layout.cssgrid.CSSGrid](sap.ui.layout.cssgrid.CSSGrid_d6fc40b.md)
             -   [sap.ui.layout.Grid](sap.ui.layout.Grid_43ae317.md)

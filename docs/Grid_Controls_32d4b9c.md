@@ -87,9 +87,9 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 [Samples: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.Grid)
 
-[API Reference: `sap.f.GridContainer` \(Experimental\)](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer)
+[API Reference: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer)
 
-[Samples: `sap.f.GridContainer` \(Experimental\)](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer)
+[Samples: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer)
 
 [API Reference: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/api/sap.f.GridList)
 

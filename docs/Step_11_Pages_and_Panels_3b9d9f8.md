@@ -87,12 +87,6 @@ helloPanelTitle=Hello World*HIGHLIGHT END*
 
 We add new key/value pairs to our text bundle for the start page title and the panel title.
 
-***
-
-### Conventions
-
--   Do not make implicit use of default aggregations but always declare the aggregation names explicitly in the view. In the example above, the `content` aggregation could also be omitted as the `Panel` control declares it as a default, but it makes the view harder to read.
-
 **Related information**  
 
 
