@@ -32,6 +32,11 @@ Here are some general principles for writing comments:
 
     To explicitly specify which modules are allowed to use a class or function, mark the latter as `@private` followed by `@ui5-restricted <modulenames>`, with a comma-separated list of the modules that have access to this class or function.
 
+    > Note:
+    > To ensure that external JSDoc generators can also produce proper documentation, `@private` must be used first followed by `@ui5-restricted`. `@ui5-restricted` overrules `@private`, if it can be interpreted by the generator.
+    > 
+    > 
+
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
 
 -   Use `@namespace` for static helper classes that only provide static methods.
