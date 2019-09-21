@@ -34,7 +34,7 @@ init = function(){
 
 ```
 
-The `RenderManager` writes the attribute automatically during rendering when the `writeControlData` or `writeElementData` is called. The application can also change the custom data if desired.
+The `RenderManager` writes the attribute automatically during rendering when the `openStart` method is called \(new rendering API\) or when the `writeControlData` or `writeElementData` is called \(legacy rendering API\). The application can also change the custom data if desired.
 
 ***
 
@@ -44,9 +44,10 @@ During rendering of a control, the attribute can also be written to any arbitrar
 
 ``` js
 
-render = function(oRenderManager, oControl){
+// assuming a renderer that uses the new rendering API
+render = function(oRm, oControl){
   //...
-  oRenderManager.writeAttribute("data-sap-ui-fastnavgroup", "true");
+  oRm.attr("data-sap-ui-fastnavgroup", "true");
   //...
 };
 
@@ -68,10 +69,10 @@ It may be necessary that a control has to provide a custom fast navigation handl
 To implement custom fast navigation handling, start with flagging the control as a custom handling area:
 
 ``` js
-render = function(oRenderManager, oControl){
+render = function(oRm, oControl){
   //...
-  oRenderManager.writeControlData(oControl);
-  oRenderManager.writeAttribute("data-sap-ui-customfastnavgroup", "true"); //Attribute must be on the root element of the control.
+  oRm.openStart("div", oControl);
+  oRm.attr("data-sap-ui-customfastnavgroup", "true"); //Attribute must be on the root element of the control.
   //...
 };
 
@@ -88,7 +89,7 @@ onsapskipforward = function(oEvent){ //F6
     //target is in the last group -> focus should jump to the first group after the control (done by the central handling, preventDefault not called)
   }else{
     oEvent.preventDefault();
-    jQuery.sap.focus(oTarget);
+    oTarget.focus();
   }
 };
 

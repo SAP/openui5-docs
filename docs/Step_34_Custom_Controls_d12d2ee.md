@@ -137,16 +137,14 @@ sap.ui.define([
 				value: this.getValue()
 			});
 		},*HIGHLIGHT END*
-		renderer : function (oRM, oControl) {*HIGHLIGHT START*
-			oRM.write("<div");
-			oRM.writeControlData(oControl);
-			oRM.addClass("myAppDemoWTProductRating");
-			oRM.writeClasses();
-			oRM.write(">");
-			oRM.renderControl(oControl.getAggregation("_rating"));
-			oRM.renderControl(oControl.getAggregation("_label"));
-			oRM.renderControl(oControl.getAggregation("_button"));
-			oRM.write("</div>");*HIGHLIGHT END*
+		renderer : function (oRm, oControl) {*HIGHLIGHT START*
+			oRm.openStart("div", oControl);
+			oRm.class("myAppDemoWTProductRating");
+			oRm.openEnd();
+			oRm.renderControl(oControl.getAggregation("_rating"));
+			oRm.renderControl(oControl.getAggregation("_label"));
+			oRm.renderControl(oControl.getAggregation("_button"));
+			oRm.close("div");*HIGHLIGHT END*
 		}
 	});
 });

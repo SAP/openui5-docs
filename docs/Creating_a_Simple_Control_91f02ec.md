@@ -15,8 +15,9 @@ Example of a simple control with a `name` property
 The control is used to render the text "Hello <name\>":
 
 ``` js
+// "Control" required from "sap/ui/core/Control"
 
-sap.ui.core.Control.extend("my.Hello", {      // call the new Control type "my.Hello" 
+Control.extend("my.Hello", {                  // call the new Control type "my.Hello" 
                                               // and let it inherit from sap.ui.core.Control
     metadata : {                              // the Control API
         properties : {
@@ -25,18 +26,16 @@ sap.ui.core.Control.extend("my.Hello", {      // call the new Control type "my.H
         }
     },
 
-    renderer : function(oRm, oControl) {      // the part creating the HTML
-        oRm.write("<span>Hello ");
-        oRm.writeEscaped(oControl.getName()); // write the Control property 'name', with XSS protection
-        oRm.write("</span>");
+    renderer : {
+        apiVersion: 2,                        // see 'Renderer Methods' for an explanation of this flag
+        render: function(oRm, oControl) {     // the part creating the HTML
+            oRm.openStart("span", oControl).openEnd();
+            oRm.text("Hello " + oControl.getName()); // write the Control property 'name', with automatic XSS protection
+            oRm.close("span");
+        }
     }
 });
 ```
-
-> Note:
-> In this example, `writeControlData(oControl)` and `writeClasses()` are not called inside the root HTML element of the control to keep the example simple. In productive controls this needs to be done.
-> 
-> 
 
 The new control is ready for use now. To instantiate and display the control, use the following code:
 

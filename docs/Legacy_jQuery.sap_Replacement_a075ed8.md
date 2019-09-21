@@ -90,7 +90,6 @@ To migrate the simple replacements, add the new module dependency and replace th
 		<tr>
 			<td> `jQuery.sap.log.getLog` </td>
 			<td> `sap/base/Log` </td>
-			<td>Method changed</td>
 ```
 
  > Note:
@@ -113,6 +112,7 @@ To migrate the simple replacements, add the new module dependency and replace th
 | `jQuery.sap.getObject` | `sap/base/util/ObjectPath` |Complex Replacement| ```
 ObjectPath.get("some.object.path", "someProperty");
 ```
+			<td> `jQuery.sap.log.isLoggable` </td>
 			<td> `sap/base/Log` </td>
 			<td>Simple replacement</td>
 			<td> `Log.isLoggable` </td>
@@ -332,11 +332,10 @@ jQuery.sap.extend(true, {}, sContent)
  New: ```
 // Shallow
 //
-// No actual replacement for shallow copies available!
-// For shallow copies you may use Object.assign(), but please consider that Object.assign()
-// only copies enumerable and own properties and is unable to copy properties on the prototype
-// and non-enumerable properties.
+// No actual replacement for shallow copies available, see the note below for more info.
+
 // Deep
+merge({}, sContent);
 ```
 
  > Note:
