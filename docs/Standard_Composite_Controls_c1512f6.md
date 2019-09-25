@@ -34,7 +34,8 @@ To create a composite control, you start with crafting its API including propert
 As any other control, you can describe composite controls via the JavaScript control definition API, see [Developing Controls](Developing_Controls_8dcab00.md) and the following example.
 
 ``` js
-sap.ui.core.Control.extend("SearchField", {
+// "Control" required from "sap/ui/core/Control"
+var SearchField = Control.extend("SearchField", {
   metadata : {
     properties : {
        "value" : "string"
@@ -81,17 +82,19 @@ To avoid conflicts with the internal IDs of parts, the part ID \(`input` or `btn
 During the `init` function, the settings of the composite only have their default values. If the application developer has provided some values to the constructor, these values will only be set later on. It is, therefore, crucial for the correct behavior of your composite control that you implement one of the synchronization mechanisms described below.
 
 ``` js
+// "Button" required from "sap/m/Button"
+// "Input" required from "sap/m/Input"
 /**
  * Initialization hook... creating composite parts
  */
 SearchField.prototype.init = function(){
   var that = this;
-  this.setAggregation("_input", new sap.m.Input({
+  this.setAggregation("_input", new Input({
     change: function(oEvent){
       that.setProperty("value", oEvent.getParameter("Value"), true /*no re-rendering needed, change originates in HTML*/); //see section Properties for explanation
     }
   }));
-  this.setAggregation("_btn", new sap.m.Button({
+  this.setAggregation("_btn", new Button({
     text: "Search",
     press: function(){
       that.fireSearch();
@@ -147,16 +150,14 @@ Propagating the API settings to the parts is usually not as straightforward as s
 You can use markup for layouting in the renderer implementation. But at the heart of it, you simply delegate \(via the render manager\) to the composite parts' renderers. This is where you really benefit from re-using other controls with non-trivial renderers. If you have chosen the `updateAllParts` approach to keep the composite API settings and the settings of the parts in sync, make sure that you call `updateAllParts` before the real rendering starts.
 
 ``` js
-SearchFieldRenderer.render = function(oRenderManager, oSearchField) {
+SearchFieldRenderer.render = function(oRm, oSearchField) {
   // oSearchField.updateAllParts(); // called depending on your 'sync' approach
-  oRenderManager.write("<div"); 
-  oRenderManager.writeControlData(oSearchField);
-  oRenderManager.addClass("SearchField"); 
-  oRenderManager.writeClasses();
-  oRenderManager.write(">");
-  oRenderManager.renderControl(oSearchField.getAggregation("_input"));
-  oRenderManager.renderControl(oSearchField.getAggregation("_btn"));
-  oRenderManager.write("</div>");
+  oRm.openStart("div", oSearchField); 
+  oRm.class("SearchField"); 
+  oRm.openEnd();
+  oRm.renderControl(oSearchField.getAggregation("_input"));
+  oRm.renderControl(oSearchField.getAggregation("_btn"));
+  oRm.close("div");
 };
 ```
 

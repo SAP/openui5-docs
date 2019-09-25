@@ -32,7 +32,7 @@ To resolve this problem, you can use CSS classes. There is a number of predefine
 The most straightforward example is the theme parameter `@sapUiText`. The theme parameter is mainly used for text colors, so the custom CSS rule sets the `color` property. Every parameter `sapUiXY` can be provided as a CSS class `sapThemeXY`. This suggests it is a theme color, and `sapTheme` is a new and reserved prefix for CSS classes.
 
 ```
-
+CSS
 .sapThemeText {
    color: @sapUiText;
 }
@@ -41,7 +41,7 @@ The most straightforward example is the theme parameter `@sapUiText`. The theme 
 This solution is not sufficient if the same color is used for borders, for example. To support this, the color is defined for each CSS color parameter: Once as a text color, once as a background color, once as a border color, and so on. The styled CSS property name is part of the CSS class name, as a suffix:
 
 ```
-
+CSS
 .sapThemeText-asColor {
    color: @sapUiText;
 }
@@ -67,18 +67,15 @@ Whenever the theme is switched or the theme designer is used to modify the stand
 ``` js
 
 // the part creating the HTML:
-renderer : function(oRm, oControl) { 
-    oRm.write("<div"); 
-    oRm.writeControlData(oControl); 
-    oRm.addStyle("width", oControl.getSize());  
-    oRm.addStyle("height", oControl.getSize());
-    oRm.writeStyles();
-    oRm.addClass("mySquare");       
-    oRm.addClass("sapThemeText");  // here the CSS class is added which makes the text color depend on the current theme
-    oRm.writeClasses();             
-    oRm.write(">");
-    oRm.writeEscaped(oControl.getText()); 
-    oRm.write("</div>");
+render : function(oRm, oControl) { 
+oRm.openStart("div", oControl); 
+    oRm.style("width", oControl.getSize());  
+    oRm.style("height", oControl.getSize());
+    oRm.class("mySquare");       
+    oRm.class("sapThemeText");  // here the CSS class is added which makes the text color depend on the current theme
+    oRm.openEnd();
+    oRm.text(oControl.getText()); 
+    oRm.close("div");
 },
 
 ```

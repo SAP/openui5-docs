@@ -73,8 +73,8 @@ The example above creates an attachment list item that displays an attachment ti
 The following example shows how to use a notepad control as a reusable control in an `sap.m.CustomListItem`. It assumes you want to build a product list item that shows an image of the product and displays its details:
 
 ``` js
-sap.ui.define(["jQuery.sap.global", "sap/ui/core/Control", "sap/m/Image"], function (jQuery, Control, Image) {
-    var ListItemContent = Control.extend("my.control.ListItemContent", {
+sap.ui.define(["sap/ui/core/Control", "sap/m/Image"], function (Control, Image) {
+    var MyListItemContent = Control.extend("my.control.ListItemContent", {
         metadata: {
             properties : {
                 "name": {type: "string", defaultValue: ""},
@@ -90,37 +90,36 @@ sap.ui.define(["jQuery.sap.global", "sap/ui/core/Control", "sap/m/Image"], funct
         init: function(){
             this._image = new Image({src:"<myImageSrc>"}).addStyleClass("myImageCSS").setParent(this);
         },
-        renderer: function(oRm, oControl) {
-            oRm.write("<div class='listItemCSS'");
-            oRm.writeControlData(oControl);
-            oRm.write(">");
-                oRm.renderControl(oControl._image);
-                oRm.write("<div class='descCSS'>");
-                oRm.writeEscaped(oControl.getDescription());
-                oRm.write("</div>");
-                oRm.write("<div class='priceCSS'>");
-                oRm.writeEscaped(oControl.getPrice());
-                oRm.write("</div>");
-                oRm.write("<div class='curCSS'>");
-                oRm.writeEscaped(oControl.getCurrency());
-                oRm.write("</div>");
-                oRm.write("<div class='nameCSS'>");
-                oRm.writeEscaped(oControl.getName());
-                oRm.write("</div>");
-                oRm.write("</div>");
-            oRm.write("</div>");
+ renderer: {
+            apiVersion: 2,  // see 'Renderer Methods' for an explanation of this flag
+            render: function(oRm, oControl) {
+                oRm.openStart("div", oControl);
+                oRm.class("listItemCSS");
+                oRm.openEnd();
+                    oRm.renderControl(oControl._image);
+                    oRm.openStart("div").class("descCSS").openEnd();
+                    oRm.text(oControl.getDescription());
+                    oRm.close("div");
+                    oRm.openStart("div").class("priceCSS").openEnd();
+                    oRm.text(oControl.getPrice());
+                    oRm.close("div");
+                    oRm.openStart("div").class("curCSS").openEnd();
+                    oRm.text(oControl.getCurrency());
+                    oRm.close("div");
+                    oRm.openStart("div").class("nameCSS").openEnd();
+                    oRm.text(oControl.getName());
+                    oRm.close("div");
+                oRm.close("div");
+            }
         }
     });
-    //example how to avoid rerendering of text, when the name property is changed
-    ListItemContent.prototype.setName = function(sText){
-        this.setProperty("name", sText, true);
-        return this;
-    };
-    //example how to use events
+
+    //example how to react on browser events and convert them to control events
     ListItemContent.prototype.ontap = function(){
-            //your own tap logic
+        //your own tap logic
         this.fireMyTap({});
     };
+
     return ListItemContent;
 });
 ```
@@ -128,8 +127,8 @@ sap.ui.define(["jQuery.sap.global", "sap/ui/core/Control", "sap/m/Image"], funct
 After we've created this notepad control above, we consume it in the `sap.m.CustomListItem` as a content aggregation, as shown here:
 
 ``` js
-
-var oCustomListItem = new sap.m.CustomListItem({ content: [new my.control.ListItemContent({
+// "CustomListItem" required from "sap/m/CustomListItem"
+var oCustomListItem = new CustomListItem({content: [new MyListItemContent({
     //usual control setup
 })]});
 ```
