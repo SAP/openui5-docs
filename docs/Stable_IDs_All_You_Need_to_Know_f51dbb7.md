@@ -36,10 +36,6 @@ If you don't define IDs, OpenUI5 generates them dynamically. These IDs are not s
 
 The generated IDs change whenever the control structure of the app changes. The sequence of instantiation also plays a role: If there are two views with unstable IDs in the app, depending on the order the views are opened, they get the generated IDs `__view0` and `__view1`. This is an issue for the following features that require stable IDs:
 
--   SAPUI5 flexibility
-
-    Allows you to adapt apps based on your requirements, for example, by creating variants or changing the user interface at runtime. Stable IDs are used to identify the controls that are to be adapted.
-
 -   Automated tests
 
     To check the behavior of apps at runtime, these tests find controls by searching for stable IDs. If you use OPA in OpenUI5, you're able to find controls via other criteria like control type, display name and others. For more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md).

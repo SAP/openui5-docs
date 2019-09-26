@@ -32,7 +32,7 @@ To resolve this problem, you can use CSS classes. There is a number of predefine
 The most straightforward example is the theme parameter `@sapUiText`. The theme parameter is mainly used for text colors, so the custom CSS rule sets the `color` property. Every parameter `sapUiXY` can be provided as a CSS class `sapThemeXY`. This suggests it is a theme color, and `sapTheme` is a new and reserved prefix for CSS classes.
 
 ```
-CSS
+   CSS
 .sapThemeText {
    color: @sapUiText;
 }
@@ -41,7 +41,7 @@ CSS
 This solution is not sufficient if the same color is used for borders, for example. To support this, the color is defined for each CSS color parameter: Once as a text color, once as a background color, once as a border color, and so on. The styled CSS property name is part of the CSS class name, as a suffix:
 
 ```
-CSS
+   CSS
 .sapThemeText-asColor {
    color: @sapUiText;
 }
