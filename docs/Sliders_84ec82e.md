@@ -43,7 +43,9 @@ Both versions of the control support features for tickmarks, labels and advanced
 In the background, the sliders operate on floats, but some usecases may require that the range consists of other values, for example dates. In order to properly match your values to floats, you need to add custom scale and implement the `Iscale` interface.
 
 ```
-var CustomScale = sap.ui.core.Element.extend("sap.xx.custom.CustomScale", {
+js
+// "Element" required from "sap/ui/core/Element"
+var CustomScale = Element.extend("sap.xx.custom.CustomScale", {
 				interfaces: [
 					"sap.m.IScale"
 				],
@@ -67,15 +69,19 @@ This way you have full control over the labels, their placement, density, and te
 This custom scale is then passed to the control.
 
 ```
-var oSlider = new sap.m.Slider({
+js
+// "Slider" required from "sap/m/Slider"
+// "CustomScale" required from "sap/xx/custom/CustomScale"
+// "CustomTooltip" required from "sap/xx/custom/CustomTooltip"
+var oSlider = new Slider({
 				min: 0,
 				max: 30,
 				value: 15,
 				width: "80%",
 				enableTickmarks: true,
 				showAdvancedTooltip: true,
-				*HIGHLIGHT START*scale: new sap.xx.custom.CustomScale()*HIGHLIGHT END*,
-				customTooltips: [new sap.xx.custom.CustomTooltip()]
+				*HIGHLIGHT START*scale: new CustomScale()*HIGHLIGHT END*,
+				customTooltips: [new CustomTooltip()]
 			})
 ```
 
@@ -94,11 +100,11 @@ renderTooltipContent: function (oRm, oControl) {
 
 							// you can write any DOM here - render controls or anything you want
 							// (inline elements are not recommended as you need to style them on your own)
-							oRm.write("<div");
-							oRm.writeAttribute("id", oControl.getId() + "-inner");
-							oRm.addClass("sapCustomSliderTooltip");
-							oRm.writeClasses();
-							oRm.write(">");
+							oRm.openStart("div");
+							oRm.attr("id", oControl.getId() + "-inner");
+							oRm.class("sapCustomSliderTooltip");
+							oRm.openEnd();
+							oRm.close("div")
 ```
 
 ***
