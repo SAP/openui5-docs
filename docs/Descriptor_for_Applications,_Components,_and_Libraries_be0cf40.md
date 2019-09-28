@@ -41,6 +41,8 @@ AppDescriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedaec
 |Version 14|\>=1.61|1.13.0|
 |Version 15|\>=1.62|1.14.0|
 |Version 16|\>=1.66|1.15.0|
+|Version 17|\>=1.70|1.16.0|
+|Version 18|\>=1.71|1.17.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -585,7 +587,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.16.0",
+    "_version": "1.17.0",
  
     "start_url": "index.html",
  

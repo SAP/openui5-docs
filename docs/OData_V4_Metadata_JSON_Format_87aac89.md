@@ -34,7 +34,7 @@ A "17.5 **TargetPath**" used as "13.4.1 Attribute Path" or "13.5.3/13.6.3 Attrib
 
 Each annotation specifies a value. Accordingly, `$DefaultValue` has been omitted for the time being.
 
-Normalization: For all EDM elements which allow both inline annotations and external targeting, only external targeting is used. This affects edm:ActionImport, edm:ComplexType, edm:EntityContainer, edm:EntitySet, edm:EntityType, edm:EnumType, edm:FunctionImport, edm:Member, edm:Singleton, edm:Term, edm:TypeDefinition, edm:NavigationProperty, edm:Property. This cannot be done for edm:Action, edm:Function, edm:Parameter because external targeting applies to all overloads while inline annotations apply to individual overloads. The goal is to reduce cases that contain a mixture of inline annotations and external targeting to the bare minimum.
+Normalization: For all EDM elements which allow both inline annotations and external targeting, only external targeting is used. This affects edm:ActionImport, edm:ComplexType, edm:EntityContainer, edm:EntitySet, edm:EntityType, edm:EnumType, edm:FunctionImport, edm:Member, edm:Singleton, edm:Term, edm:TypeDefinition, edm:NavigationProperty, edm:Property. The goal is to reduce cases that contain a mixture of inline annotations and external targeting to the bare minimum.
 
 We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <value>` syntax for inline annotations in the following cases to avoid explicit object representations:
 
@@ -144,11 +144,11 @@ The following JSON file represents the metadata document which corresponds to `G
     "$Unicode" : false, // omit in case of default value: true
     "$SRID" : "<11.1.3 SRID>" // optional
   },
-  "<5.1.1 Schema Namespace>.<12.1.1 Action Name>" : [{ "@..." : <value>,
+  "<5.1.1 Schema Namespace>.<12.1.1 Action Name>" : [{
     "$kind" : "Action",
     "$IsBound" : true, // omit in case of default value: false
     "$EntitySetPath" : "<12.1.3 Action EntitySetPath>", // optional
-    "$Parameter" : [{ "@..." : <value>
+    "$Parameter" : [{
       "$Name" : "<12.4.1 Parameter Name>",
       "$isCollection" : true, // omit in case of default value: false
       "$Type" : "<12.4.2 Parameter Type>",
@@ -158,7 +158,7 @@ The following JSON file represents the metadata document which corresponds to `G
       "$Scale" : <12.4.4 Scale> | "variable", // optional, number or fixed string
       "$SRID" : "<12.4.4 SRID>" // optional
     }, ...], // optional
-    "$ReturnType" : { "@..." : <value>,
+    "$ReturnType" : {
       "$isCollection" : true, // omit in case of default value: false
       "$Type" : "<12.3.1 ReturnType Type>",
       "$Nullable" : false, // omit in case of default value: true
@@ -168,7 +168,7 @@ The following JSON file represents the metadata document which corresponds to `G
       "$SRID" : "<11.1.3 SRID>" // optional
     } // optional
   }, ...],
-  "<5.1.1 Schema Namespace>.<12.2.1 Function Name>" : [{ "@..." : <value>,
+  "<5.1.1 Schema Namespace>.<12.2.1 Function Name>" : [{
     "$kind" : "Function",
     "$IsBound" : true, // omit in case of default value: false
     "$IsComposable" : true, // omit in case of default value: false

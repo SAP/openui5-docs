@@ -120,6 +120,48 @@ The OData V4 model only supports data access using bindings. It does not provide
 
 OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V4 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
+***
+
+<a name="loio9613f1f2d88747cab21896f7216afdac__section_oyf_bpb_fjb"/>
+
+### Set HTTP Header Fields
+
+You can set headers for HTTP requests sent by the OData V4 model: This is possible statically by adding them to the `manifest.json`, or dynamically with the method [ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel). These headers are applied to data and metadata requests sent by the model. The `ODataModel` propagates its HTTP headers to value list models created via [ODataMetaModel\#createValueListInfo](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel); when changing HTTP headers for the model, however, these changes are not applied to existing value list models: If value list models require the new headers, you have to additionally call `ODataModel#changeHttpHeaders` for each of them. For details, see [ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel).
+
+Sample: Set HTTP header `custom` in manifest.json:
+
+``` js
+{
+    "sap.app" : {
+        "dataSources" : {
+            "default" : {
+                "uri" : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/",
+                "type" : "OData",
+                "settings" : {
+                    "odataVersion" : "4.0"
+                }
+            }
+        }
+    },
+    "sap.ui5" : {
+        "models" : {
+            "" : {
+                "dataSource" : "default",
+                "settings" : {
+                    "autoExpandSelect" : true,
+                    "httpHeaders" : {
+                        "custom" : "foo"
+                    },
+                    "synchronizationMode" : "None",
+                     
+                }
+            }
+        }
+    }
+}
+
+```
+
 **Related information**  
 
 
