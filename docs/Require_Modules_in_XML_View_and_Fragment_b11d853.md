@@ -91,5 +91,19 @@ You can also use the `require` module with data binding. Formatters and factory 
 
 ### `core:require` in Fragments
 
-`core:require` can be used in fragments and set on every element, including `FragmentDefinition`. When a view with a fragment is preprocessed, the `FragmentDefinition` node is **not** part of the resulting view and this is why `core:require` on `FragmentDefinition` does not work as expected. Therefore, `core:require` works on all elements in fragment other than the `FragmentDefinition` node when the view which contains the fragment is preprocessed. For more information, see [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md).
+`core:require` can be used in fragments and set on every element, including `FragmentDefinition`. However, `core:require` on `FragmentDefinition` node doesn't have any effect when:
+ * The view where a fragment is used is preprocessed. For more information about `preprocessing`, see [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md).
+ * A fragment is defined inline within a View.
 
+``` xml
+<mvc:View controllerName="some.Controller" xmlns="sap.m"
+      xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+  <FragmentDefinition>
+      <!-- core:require can't be defined on the above FragmentDefinition -->
+      ...
+  </FragmentDefinition>
+  ...
+</mvc:View>
+```
+
+`core:require` doesn't work as expected in both of the above use cases because the `FragmentDefinition` node is **not** part of the resulting view. Therefore the module information which is defined in the `core:require` on `FragmentDefinition` node isn't available for its child nodes.
