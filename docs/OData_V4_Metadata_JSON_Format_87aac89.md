@@ -34,7 +34,7 @@ A "17.5 **TargetPath**" used as "13.4.1 Attribute Path" or "13.5.3/13.6.3 Attrib
 
 Each annotation specifies a value. Accordingly, `$DefaultValue` has been omitted for the time being.
 
-Normalization: For all EDM elements which allow both inline annotations and external targeting, only external targeting is used. This affects edm:ActionImport, edm:ComplexType, edm:EntityContainer, edm:EntitySet, edm:EntityType, edm:EnumType, edm:FunctionImport, edm:Member, edm:Singleton, edm:Term, edm:TypeDefinition, edm:NavigationProperty, edm:Property. The goal is to reduce cases that contain a mixture of inline annotations and external targeting to the bare minimum.
+Normalization: For all EDM elements which allow both inline annotations and external targeting, only external targeting is used. This affects edm:ActionImport, edm:ComplexType, edm:EntityContainer, edm:EntitySet, edm:EntityType, edm:EnumType, edm:FunctionImport, edm:Member, edm:Singleton, edm:Term, edm:TypeDefinition, edm:NavigationProperty, edm:Property. The goal is to reduce cases that contain a mixture of inline annotations and external targeting to the bare minimum. The goal is to reduce cases that contain a mixture of inline annotations and external targeting to the bare minimum. External targeting is possible for edm:Action, edm:Function, edm:Parameter, and edm:ReturnType via 4.01 style annotation targets, either in a way that applies to all overloads of the action or function or all parameters of that name across all overloads, or in a way that identifies a single overload.
 
 We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <value>` syntax for inline annotations in the following cases to avoid explicit object representations:
 
