@@ -101,7 +101,6 @@ renderTooltipContent: function (oRm, oControl) {
 							// you can write any DOM here - render controls or anything you want
 							// (inline elements are not recommended as you need to style them on your own)
 							oRm.openStart("div", oControl.getId() + "-inner");
-							oRm.attr("id", oControl.getId() + "-inner");
 							oRm.class("sapCustomSliderTooltip");
 							oRm.openEnd();
 							oRm.close("div")
