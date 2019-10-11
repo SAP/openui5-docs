@@ -65,6 +65,11 @@ When the formatter is defined in the controller, you can use it, for example, in
 > 
 > 
 
+> Note:
+> The automatic type determination for OData V4 interacts with `targetType` and can, thus, influence a formatter’s input values. For more information on type determination in OData V4, see [Type Determination](Type_Determination_53cdd55.md).
+> 
+> 
+
 ***
 
 <a name="loio07e4b920f5734fd78fdaa236f26236d8__section_a5r_sb5_xcb"/>
@@ -108,6 +113,11 @@ For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`
 These types support OData V2 and V4 including relevant property facets as constraints. The OData types represent the OData EDM primitive types. For more information, see [Primitive Data Types in the OData documentation](http://www.odata.org/documentation/odata-version-2-0/overview/).
 
 For a complete list of all OData types, see [API Reference: `sap.ui.model.odata.type`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type). 
+
+> Note:
+> Also see the information on automatic type determination in OData V4 under [Type Determination](Type_Determination_53cdd55.md).
+> 
+> 
 
 ***
 
