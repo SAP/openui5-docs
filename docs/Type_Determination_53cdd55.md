@@ -28,3 +28,14 @@ Currently, the types "Edm.Boolean", "Edm.Byte", "Edm.Date", "Edm.DateTimeOffset"
 
 For more information, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type) and [sap.ui.model.odata.type.Raw](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type.Raw) API documentation in the Demo Kit.
 
+> Note:
+> By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', formatter : '.isOverdue'}">`. This leads to errors because type determination adds the correct type for the `DeliveryDate` property which is `DateTimeOffset` and cannot format its value as a boolean value. In such cases, use `targetType : 'any'` as follows:
+> 
+> ``` js
+> <Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', targetType : 'any', formatter : '.isOverdue'}">
+> ```
+> 
+> In rare cases, you might also want to specify a different `targetType`, for example `string`, `boolean`, `int`, or `float`. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.types) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
+> 
+> 
+

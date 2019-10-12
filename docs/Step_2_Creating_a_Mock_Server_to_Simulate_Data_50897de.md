@@ -174,8 +174,9 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([
-	"sap/ui/core/util/MockServer"
-], function(MockServer) {
+	"sap/ui/core/util/MockServer",
+	"sap.base.log"
+], function(MockServer, Log) {
 	"use strict";
 
 	return {
@@ -200,7 +201,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 			// start
 			oMockServer.start();
 
-			jQuery.sap.log.info("Running the app with mock data");
+			Log.info("Running the app with mock data");
 		}
 
 	};
