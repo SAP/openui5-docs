@@ -24,7 +24,7 @@ The following predefined view types are available:
 
 
 > Note:
-> We recommend to use XML views, because XML views force a clear separation of the UI definition from the application logic \(which has to be implemented in the controller\). This makes the code is better readable and easier to support.
+> We recommend to use XML views, because XML views force a clear separation of the UI definition from the application logic \(which has to be implemented in the controller\). This makes the code more readable and easier to support.
 > 
 > Therefore, we concentrate on XML views and only provide examples for XML views throughout this documentation.
 > 
@@ -33,5 +33,5 @@ The following predefined view types are available:
 **Related information**  
 
 
-[API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.View.html)
+[API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View)
 

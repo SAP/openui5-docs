@@ -181,7 +181,7 @@ sap.ui.require(['sap/base/i18n/ResourceBundle'], function(Resource){
     ResourceBundle.create({
 
         url: "mybundle.properties",
-	   asynch: true
+	   async: true
 
     }).then(function(oResource) { ... });
 
