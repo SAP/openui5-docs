@@ -192,5 +192,70 @@ To run an ESLint check, navigate to the root directory of the repository and exe
 npm run lint
 ```
 
-Convenient, automated test execution is not yet possible with the UI5 Tooling.
+***
+
+<a name="loioee8726adfdb34d748ed199f0275472f8__section_vqb_p1w_jjb"/>
+
+### Running Tests
+
+Tests can be executed automatically with the Karma Test-Runner.
+
+To run tests of a library, the `--lib` needs to be passed. The `<library-name>` corresponds to the folder within `./src/`, e.g. `sap.m`.
+
+``` js
+npm run karma -- --lib=<library-name>
+```
+
+This executes all tests of that library in watch mode, which will automatically re-run tests in case of file changes.
+
+**Example** 
+
+``` js
+npm run karma -- --lib=sap.m
+```
+
+***
+
+#### Running a Specific Test
+
+Instead of executing all tests of a library, you can also only run one test or a testsuite.
+
+To find the URL, open `http://localhost:8080/test.html` and search for the test. Copy the URL and remove the origin part \(`http://localhost:8080/`\), so that it starts with `resources` or `test-resources`.
+
+``` js
+npm run karma -- --lib=<library-name> --ui5.testpage="<testpage-url>"
+```
+
+> Note:
+> The corresponding `--lib` option still needs to be provided accordingly.
+> 
+> 
+
+**Example**
+
+```
+npm run karma -- --lib=sap.m --ui5.testpage="resources/sap/ui/test/starter/Test.qunit.html?testsuite=test-resources/sap/m/qunit/testsuite.mobile.qunit&test=Button"
+```
+
+***
+
+#### Coverage
+
+You enable coverage reporting by additionally passing the `--coverage` option:
+
+``` js
+npm run karma -- --lib=<library-name> --coverage
+```
+
+***
+
+#### Continuous integration \(CI\)
+
+You enable the continuous integration mode by additionally passing the `--ci` option. This enables Chrome headless and disables the watch mode, so the execution stops after all tests have been executed:
+
+``` js
+npm run karma -- --lib=<library-name> --ci
+```
+
+You can combine the options `--ci` and `--coverage`.
 
