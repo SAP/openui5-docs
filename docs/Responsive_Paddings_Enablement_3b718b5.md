@@ -17,13 +17,17 @@ Apply responsive paddings over separate parts of the controls.
 > 
 > 
 
-As a control developer you can apply responsive paddings over separate parts of the controls, when using the SAP Quartz theme. The `sap.ui.core.util.ResponsivePaddingsEnablement` allows the breakpoints and layout paddings to be determined by the container's width.
-
 ***
 
 <a name="loio3b718b5372fa457c92cf5087a673e953__section_d2f_1pv_jjb"/>
 
-### Implementation
+### Usage
+
+As a control developer you can apply responsive paddings over separate parts of the controls, when using the SAP Quartz theme. The `sap.ui.core.util.ResponsivePaddingsEnablement` allows the breakpoints and layout paddings to be determined by the container's width.
+
+***
+
+#### How to Enable Responsive Paddings
 
 Here is an example how to implement the utility when developing a control:
 
@@ -43,17 +47,25 @@ As the example demonstrates, there are two ways to select an element:
 To call the utility, when initializing the control use:
 
 ```
-MyCustomControl._initResponsivePaddings-Enablement()
+MyCustomControl._initResponsivePaddingsEnablement()
 ```
 
-Based on the container’s size one of the following classes is added and the corresponding left, right paddings are applied:
+***
 
-|Container size \(pixels\)|Class|Padding left/right applied|
-|-------------------------|-----|--------------------------|
-|=< 600|sapM-Std-PaddingS|1rem|
+#### Applied Paddings
+
+Based on the container’s size one of the following classes is added, and the corresponding padding-left and padding-right are applied:
+
+|Container size \(pixels\)|Class|Padding-Left and Padding-Right Applied|
+|-------------------------|-----|--------------------------------------|
+|<= 600|sapM-Std-PaddingS|1rem|
 |\>600|sapM-Std-PaddingM|2rem|
 |\>1024|sapM-Std-PaddingL|2rem|
 |\>1440|sapM-Std-PaddingXL|3rem|
+
+***
+
+#### Supported Controls
 
 The following list shows examples of controls that support the responsive paddings:
 
@@ -73,5 +85,5 @@ To enable this concept and add responsive paddings to an element of the controls
 <Page class="sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer sapUiResponsivePadding--floatingFooter">
 ```
 
-For a detailed example, see the For more information, see the [Samples for `sap.m.Page`](https://openui5.hana.ondemand.com/#/entity/sap.m.Page). 
+For a detailed example, see the [Samples for `sap.m.Page`](https://openui5.hana.ondemand.com/#/entity/sap.m.Page). 
 
