@@ -374,14 +374,14 @@ The `refresh` function refreshes all data within an OData model. Each binding re
 
 ## Batch Processing
 
-The `v2.ODataModel` supports batch processing \(`$batch`\) in two different ways:
+The [`v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel) supports batch processing \(`$batch`\) in two different ways:
 
 -   Default: All requests in a thread are collected and bundled in batch requests, meaning that request is sent in a timeout immediately after the current call stack is finished. This includes all manual CRUD requests as well as requests triggered by a binding.
 
 -   Deferred: The requests are stored and can be submitted with a manual `submitChanges()` call by the application. This also includes all manual CRUD requests as well as requests triggered by a binding.
 
 
-The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`. For more information, see the API reference.
+The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`.
 
 You can use the `setDeferredGroups()` method to set a subset of previously defined groups to deferred.
 
