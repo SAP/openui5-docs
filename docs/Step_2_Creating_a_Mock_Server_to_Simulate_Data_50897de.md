@@ -175,7 +175,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 ``` js
 *HIGHLIGHT START*sap.ui.define([
 	"sap/ui/core/util/MockServer",
-	"sap.base.log"
+	"sap/base/Log"
 ], function(MockServer, Log) {
 	"use strict";
 
