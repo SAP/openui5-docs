@@ -10,10 +10,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## OpenUI5: UI Development Toolkit for HTML5
 
-Create apps with rich user interfaces for modern web business applications, responsive across browsers and devices, based on HTML5. \(Documentation version 1.72.0\)
+Create apps with rich user interfaces for modern web business applications, responsive across browsers and devices, based on HTML5. \(Documentation version 1.73.0\)
 
 > Note:
->  The documentation development of OpenUI5 1.72 is still in progress for this patch \(1.72.0\), so there may be information missing. 
+>  The documentation development of OpenUI5 1.73 is still in progress for this patch \(1.73.0\), so there may be information missing. 
 > 
 > 
 
