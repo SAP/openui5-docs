@@ -403,6 +403,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Routing and Navigation](Routing_and_Navigation_3d18f20.md)
             -   [Routing Configuration](Routing_Configuration_9023130.md)
             -   [Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md)
+            -   [Navigate with Nested Components](Navigate_with_Nested_Components_8e9d6e4.md)
             -   [Initializing and Accessing a Routing Instance](Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md)
             -   [Working with Multiple Targets](Working_with_Multiple_Targets_2c5c84d.md)
             -   [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md)

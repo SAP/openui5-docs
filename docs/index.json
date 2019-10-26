@@ -1316,6 +1316,9 @@
 							"Methods and Events for Navigation": {
 								"link": "Methods_and_Events_for_Navigation_516e477.md"
 							},
+							"Navigate with Nested Components": {
+								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
+							},
 							"Initializing and Accessing a Routing Instance": {
 								"link": "Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md"
 							},
