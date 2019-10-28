@@ -23,7 +23,7 @@ Apply responsive paddings over separate parts of the controls.
 
 ### Usage
 
-As a control developer you can apply responsive paddings over separate parts of the controls, when using the SAP Quartz theme. The `sap.ui.core.util.ResponsivePaddingsEnablement` allows the breakpoints and layout paddings to be determined by the container's width.
+As a control developer you can enable application developers to apply responsive paddings over separate parts of the controls, when using the SAP Quartz theme. The `sap.ui.core.util.ResponsivePaddingsEnablement` allows the breakpoints and layout paddings to be determined by the container's width.
 
 ***
 
@@ -49,6 +49,8 @@ To call the utility, when initializing the control use:
 ```
 MyCustomControl._initResponsivePaddingsEnablement()
 ```
+
+As a result, application developers will be able to use classes, such as `sapUiResponsivePadding— header` and `sapUiResponsivePadding—content`, to enable the paddings on the respective element.
 
 ***
 
