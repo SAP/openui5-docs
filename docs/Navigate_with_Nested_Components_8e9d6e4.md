@@ -10,28 +10,32 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Navigate with Nested Components
 
-To navigate with nested components, call `sap.ui.core.routing.Router.prototype.navTo` with the following parameters:
+The `navTo` method in the `sap.ui.core.routing.Router` class enables you to define a set of parameters to navigate to a specific route.
+
+To use the `navTo` method for navigation with nested components, you need to call the method with the following information:
 
 -   Name of the route
 
 -   Parameters for the route
 
--   Information for router\(s\) in nested component\(s\) \(optional\)
+-   Target information for the route name and the parameters in the nested comoinents \(optional\)
 
--   Replace the current browser hash or create a new hash entry \(optional\)
+-   Information, whether the current browser hash is replaced or a or a new hash entry is set \(optional\)
 
+
+For more information, [`sap.ui.core.routing.Router.navTo`](https://openui5.hana.ondemand.com//#/api/sap.ui.core.routing.Router/methods/navTo) in the API Reference.
 
 The call triggers the following actions in the given order:
 
-1.  The new hash is composed by replacing the variable placeholders in the route's pattern with the given parameters. When you give information for a router in nested components in the call, the targets with type `Component` are loaded to compose the hash parts of these `Component` targets.
+1.  For the new hash, the variable placeholders in the route's pattern are replaced with the given parameters. If the method is called with information for a router in nested components, the targets with type `Component` are loaded to compose the hash parts of these `Component` targets.
 
-2.  The hash is set to the browser.
+2.  The new hash is set to the browser.
 
 3.  The browser fires a `hashchange` event.
 
 4.  The router processes the event and propagates the event along the hierarchy which was built while loading the nested components.
 
-5.  Each router checks its own hash part and informs the matched route. The matched route displays the targets which are configured to this route.
+5.  Each router checks its own hash part and informs the matched route. The matched route displays the targets which are configured for this route.
 
 6.  Each targets loads its `View` or `Component` and adds it to the configured `controlAggregation` of the `controlId` container.
 
@@ -42,11 +46,11 @@ The call triggers the following actions in the given order:
 
 <a name="loio8e9d6e4df5464eb5a6e40696c4d2ccd6__section_jnj_rgx_mjb"/>
 
-### Passing Information to Nested Router\(s\) With `navTo`
+### Using `navTo` for Passing Information to a Nested Router
 
-You can pass information to the `navTo` call about the route name and route parameters for the nested router\(s\) via the `oComponentTargetInfo` parameter. By this, the router\(s\) in nested component\(s\) can show the targets which are configured to one specific route instead of giving the router an empty hash as default. This parameter contains key value pairs in which the key is the name of a `Component` target and the value contains at least the route name `route` which should be matched within the router of this component and the parameters `parameters` for this route. If this route in nested component has again `Component` target\(s\), the property `componentTargetInfo` can be used to specify the route information for its `Component` target. The value of the `componentTargetInfo` property shares the same structure as the third parameter `oComponentTargetInfo` of the `navTo` method.
+For passing information about the route name and parameters for a nested router, you use the `oComponentTargetInfo` parameter of the `navTo` method. By this, the router in nested components can show the targets which are configured to one specific route instead of giving the router an empty hash as default. This `oComponentTargetInfo` parameter contains key value pairs with the name of a `Component` target the key and at least the route name `route` as value. The route name should be matched within the router of this component and the parameters for this route. If this route has again `Component` targets, the property `componentTargetInfo` can be used to specify the route information. The value of the `componentTargetInfo` property has the same structure as the `oComponentTargetInfo` parameter of the `navTo` method.
 
-For example, the top level router has a "home" route which displays two `Component` targets:
+The following example shows a top level router with a "home" route with two `Component` targets:
 
 -   `Component` target `childComp1` with the following two defined routes:
 
