@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.72": {
+						"link": "What's_New_in_OpenUI51.72_25e5326.md"
+					},
 					"What's New in OpenUI5 1.71": {
 						"link": "What's_New_in_OpenUI51.71_609fd01.md"
 					}
@@ -1316,9 +1319,6 @@
 							"Methods and Events for Navigation": {
 								"link": "Methods_and_Events_for_Navigation_516e477.md"
 							},
-							"Navigate with Nested Components": {
-								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
-							},
 							"Initializing and Accessing a Routing Instance": {
 								"link": "Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md"
 							},
@@ -1330,6 +1330,9 @@
 							},
 							"Enabling Routing in Nested Components": {
 								"link": "Enabling_Routing_in_Nested_Components_fb19f50.md"
+							},
+							"Navigate with Nested Components": {
+								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
 							}
 						}
 					},
