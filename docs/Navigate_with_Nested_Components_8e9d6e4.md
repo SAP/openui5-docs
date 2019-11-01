@@ -18,7 +18,7 @@ To use the `navTo` method for navigation with nested components, you need to cal
 
 -   Parameters for the route
 
--   Target information for the route name and the parameters in the nested comoinents \(optional\)
+-   Target information for the route name and the parameters in the nested components \(optional\)
 
 -   Information, whether the current browser hash is replaced or a or a new hash entry is set \(optional\)
 
@@ -48,7 +48,7 @@ The call triggers the following actions in the given order:
 
 ### Using `navTo` for Passing Information to a Nested Router
 
-For passing information about the route name and parameters for a nested router, you use the `oComponentTargetInfo` parameter of the `navTo` method. By this, the router in nested components can show the targets which are configured to one specific route instead of giving the router an empty hash as default. This `oComponentTargetInfo` parameter contains key value pairs with the name of a `Component` target as key and the value must be an object which has at least the route name in the `route` property. The route name should be matched within the router of this component with the parameters for this route. If this route has again `Component` targets, the property `componentTargetInfo` can be used to specify the route information. The value of the `componentTargetInfo` property has the same structure as the `oComponentTargetInfo` parameter of the `navTo` method.
+For passing information about the route name and parameters for a nested router, you use the `oComponentTargetInfo` parameter of the `navTo` method. By this, the router in nested components can show the targets which are configured to one specific route instead of giving the router an empty hash as default. This `oComponentTargetInfo` parameter contains key-value pairs with the name of a `Component` target as the key, and the value must be an object which has at least the route name in the `route` property. The route name should be matched within the router of this component with the parameters for this route. If this route has again `Component` targets, the property `componentTargetInfo` can be used to specify the route information. The value of the `componentTargetInfo` property has the same structure as the `oComponentTargetInfo` parameter of the `navTo` method.
 
 The following example shows a top level router with a "home" route with two `Component` targets:
 
