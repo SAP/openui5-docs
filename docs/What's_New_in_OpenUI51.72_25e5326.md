@@ -24,7 +24,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 > 
 
  |
-|**Responsive Paddings Enablement**We have introduced the `sap.ui.core.util.ResponsivePaddingsEnablement` utility for applying responsive paddings over separate parts of the controls, when using the SAP Quartz theme. The breakpoints and layout paddings can now be determined by the container's width, and not by the screen size. We have introduced responsive paddings to the `sap.m.Page`,`sap.m.Popover`, and `sap.m.Wizard` controls.For more information, see [Enabling Responsive Paddings](Enabling_Responsive_Paddings_3b718b5.md).|
+|**Responsive Paddings Enablement**We have introduced the `sap.ui.core.util.ResponsivePaddingsEnablement` utility for applying responsive paddings over separate parts of the controls, when using the SAP Quartz themes. The breakpoints and layout paddings can now be determined by the container's width, and not by the screen size. We have introduced responsive paddings to the `sap.m.Page`,`sap.m.Popover`, and `sap.m.Wizard` controls.For more information, see [Enabling Responsive Paddings](Enabling_Responsive_Paddings_3b718b5.md).|
 
 ***
 
@@ -56,7 +56,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
  For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).</td>
 		</tr>
 		<tr>
-			<td> **Title Alignment Changes for SAP Quartz Theme** A new title alignment has been introduced for the SAP Quartz theme. The title of the affected control is aligned to the start position \(left or right depending on the text directionality\). Affected Controls:
+			<td> **Title Alignment Changes for SAP Quartz Themes** A new title alignment has been introduced for the SAP Quartz themes. The title of the affected control is aligned to the start position \(left or right depending on the text directionality\). Affected Controls:
  -   `sap.m.BusyDialog`
  -   `sap.m.Dialog`
  -   `sap.m.MessageBox`
