@@ -5,8 +5,8 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
-					"What's New in OpenUI5 1.70": {
-						"link": "What's_New_in_OpenUI51.70_4e89fee.md"
+					"What's New in OpenUI5 1.72": {
+						"link": "What's_New_in_OpenUI51.72_25e5326.md"
 					}
 				}
 			},
@@ -1249,7 +1249,12 @@
 								"link": "Using_Predefined_CSS_Margin_Classes_777168f.md"
 							},
 							"Using Container Content Padding CSS Classes": {
-								"link": "Using_Container_Content_Padding_CSS_Classes_c71f6df.md"
+								"link": "Using_Container_Content_Padding_CSS_Classes_c71f6df.md",
+								"items": {
+									"Enabling Responsive Paddings": {
+										"link": "Enabling_Responsive_Paddings_3b718b5.md"
+									}
+								}
 							},
 							"Field Groups": {
 								"link": "Field_Groups_5b07753.md"
@@ -1322,6 +1327,9 @@
 							},
 							"Enabling Routing in Nested Components": {
 								"link": "Enabling_Routing_in_Nested_Components_fb19f50.md"
+							},
+							"Navigate with Nested Components": {
+								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
 							}
 						}
 					},

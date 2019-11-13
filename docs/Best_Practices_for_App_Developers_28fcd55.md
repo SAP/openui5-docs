@@ -14,7 +14,7 @@ In this section, we have compiled a set of best practice recommendations to help
 
 ***
 
-The best pratices articles are built around the key concepts below. Where applicable, we show hands-on examples and refer you to our tutorials as well as to our the detailed documentation.
+The best practices articles are built around the key concepts below. Where applicable, we show hands-on examples and refer you to our tutorials as well as to our the detailed documentation.
 
 ***
 

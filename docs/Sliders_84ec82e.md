@@ -43,7 +43,7 @@ Both versions of the control support features for tickmarks, labels and advanced
 In the background, the sliders operate on floats, but some usecases may require that the range consists of other values, for example dates. In order to properly match your values to floats, you need to add custom scale and implement the `Iscale` interface.
 
 ```
-js
+
 // "Element" required from "sap/ui/core/Element"
 var CustomScale = Element.extend("sap.xx.custom.CustomScale", {
 				interfaces: [
@@ -69,7 +69,7 @@ This way you have full control over the labels, their placement, density, and te
 This custom scale is then passed to the control.
 
 ```
-js
+
 // "Slider" required from "sap/m/Slider"
 // "CustomScale" required from "sap/xx/custom/CustomScale"
 // "CustomTooltip" required from "sap/xx/custom/CustomTooltip"
@@ -80,7 +80,7 @@ var oSlider = new Slider({
 				width: "80%",
 				enableTickmarks: true,
 				showAdvancedTooltip: true,
-				*HIGHLIGHT START*scale: new CustomScale()*HIGHLIGHT END*,
+				*HIGHLIGHT START*scale: new CustomScale(),*HIGHLIGHT END*
 				customTooltips: [new CustomTooltip()]
 			})
 ```
@@ -100,8 +100,7 @@ renderTooltipContent: function (oRm, oControl) {
 
 							// you can write any DOM here - render controls or anything you want
 							// (inline elements are not recommended as you need to style them on your own)
-							oRm.openStart("div");
-							oRm.attr("id", oControl.getId() + "-inner");
+							oRm.openStart("div", oControl.getId() + "-inner");
 							oRm.class("sapCustomSliderTooltip");
 							oRm.openEnd();
 							oRm.close("div")

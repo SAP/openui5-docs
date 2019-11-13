@@ -30,6 +30,8 @@ The method uses the following parameters:
 
 -   route `parameters`
 
+-   route information for the `Component` target\(s\), see [Navigate with Nested Components](Navigate_with_Nested_Components_8e9d6e4.md).
+
 -   `replace` \(default: `false`\) to define whether the hash should be replaced \(no new browser history entry\) or set \(browser history entry\)
 
 

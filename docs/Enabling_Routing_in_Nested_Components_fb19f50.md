@@ -20,9 +20,9 @@ Using components as targets in routing presents another challenge: When multiple
 
 ### Configure a Component as Routing Target
 
-To build a hierarchy among the routers from multiple components, the child components must be loaded from the router in the top level component.
+A target in OpenUI5 routing can load either a view, or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md).
 
-A target in OpenUI5 routing can load either a view or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md):
+Loading a child component with a type `Component` target in a router builds up a hierarchy between this router and the router in the child component.
 
 ``` json
 {
@@ -152,12 +152,4 @@ Instead of assigning the "target" option in a route with the name of a target wh
     }
 }
 ```
-
-***
-
-<a name="loiofb19f501b16e4e4991eb6a017770945b__section_cxd_wcl_ngb"/>
-
-### Navigate with Nested Component
-
-You can call method `navTo` on `Router` to change the browser hash which in turn makes another route to match and the target\(s\) of that route is loaded, instantiated and placed into the configured container. When the component where the browser hash change is triggered has child component\(s\) loaded from its router, the new navigation resets the hash segments that belong to its child component\(s\). Even when it navigates to the same route with different data, the hash segments of its child component\(s\) are reset because these hash segments are connected to the previous state of the route which needs to be reset once the state is changed.
 

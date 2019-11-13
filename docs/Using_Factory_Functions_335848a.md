@@ -64,7 +64,7 @@ sap.ui.define([
 					});
 				
 				case "boolean":
-					return new Checkbox(sId, {
+					return new CheckBox(sId, {
 						checked: {
 							path: "revenue"
 						}
@@ -98,7 +98,7 @@ oVerticalLayout.bindAggregation("content", "/companies", function (sId, oContext
 				});
 				
 			case "boolean":
-				return new sap.m.Checkbox(sId, {
+				return new sap.m.CheckBox(sId, {
 					checked: {
 						path: "revenue"
 					}

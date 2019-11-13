@@ -84,11 +84,11 @@ We create an empty hull for our formatter implementation first so that we can in
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([
-	"./model/DateFormatter"
+	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
 	QUnit.module("DateFormatter");
-	QUnit.test("initial", function() {
-		ok(new DateFormatter());
+	QUnit.test("initial", function(assert) {
+		assert.ok(new DateFormatter());
 	});
 });*HIGHLIGHT END*
 ```
@@ -101,7 +101,7 @@ And we create our test that checks if there is a `DateFormatter` object. Now we 
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter"
+	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
 	QUnit.module("DateFormatter");
 	*HIGHLIGHT START*QUnit.test("Should return empty string if no date is given", function(assert) {
@@ -120,8 +120,8 @@ Now we implement a test for the API of the format function. We assume it will ha
 
 ``` js
 sap.ui.define([
-	"sap/ui/base/Object"],
-	function(Object) {
+	"sap/ui/base/Object"
+], function(Object) {
 		return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
 			*HIGHLIGHT START*format: function() {
 				return "";
@@ -139,8 +139,9 @@ Now we fix our test again by returning the expected string.
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter"
-], function(DateFormatter) {
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
+	"sap/ui/core/Locale"
+], function(DateFormatter, Locale) {
 	QUnit.module("DateFormatter");
 	QUnit.test("Should return empty string if no date is given", function(assert) {
 		var oFormatter = new DateFormatter({
@@ -205,8 +206,9 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter"
-], function(DateFormatter) {
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
+	"sap/ui/core/Locale"
+], function(DateFormatter, Locale) {
 	*HIGHLIGHT START*var oFormatter = null;*HIGHLIGHT END*
 	QUnit.module("DateFormatter"*HIGHLIGHT START*, {
 		beforeEach: function() {
@@ -237,7 +239,7 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter"
+	"sap/ui/demo/bulletinboard/model/DateFormatter"
 	*HIGHLIGHT START*"sap/ui/core/Locale"*HIGHLIGHT END*
 ], function(DateFormatter*HIGHLIGHT START*, Locale*HIGHLIGHT END*) {
 	var oFormatter = null;
@@ -307,9 +309,9 @@ In the implementation we add a calculation for determining how many days passed.
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter",
-	"sap/ui/core/Locale" ],
-function(DateFormatter, Locale) {
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
+	"sap/ui/core/Locale"
+], function(DateFormatter, Locale) {
 	var oFormatter = null;
 	...
 	*HIGHLIGHT START*QUnit.test("Should return day of the week if date < 7 days ago", function(assert) {
@@ -365,9 +367,9 @@ Now we define a new format in our constructor, the `weekdayFormat`. In the forma
 
 ``` js
 sap.ui.define([
-	"./model/DateFormatter",
-	"sap/ui/core/Locale" ],
-function(DateFormatter, Locale) {
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
+	"sap/ui/core/Locale"
+], function(DateFormatter, Locale) {
 	var oFormatter = null;
 	...
 	*HIGHLIGHT START*QUnit.test("Should return date w/o time if date > 7 days ago", function(assert) {

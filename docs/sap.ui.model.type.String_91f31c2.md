@@ -41,3 +41,5 @@ The `String` type supports the following validation constraints:
 -   `equals` \(expects a string\)
 -   `search` \(expects a regular expression\)
 
+For more information, see API Reference: [`sap.ui.model.type.String`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.String).
+

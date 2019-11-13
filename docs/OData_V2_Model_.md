@@ -63,8 +63,9 @@ The only mandatory parameter when creating an `ODataModel` instance is the servi
 ***
 
 ``` js
-var oModel = new sap.ui.model.odata.v2.ODataModel("http://services.odata.org/Northwind/Northwind.svc/");
-var oModel = new sap.ui.model.odata.v2.ODataModel({serviceUrl: "http://services.odata.org/Northwind/Northwind.svc"});
+// "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+var oModel = new ODataModel("http://services.odata.org/Northwind/Northwind.svc/");
+var oModel = new ODataModel({serviceUrl: "http://services.odata.org/Northwind/Northwind.svc"});
 ```
 
 When creating an `ODataModel` instance, a request is sent to retrieve the service metadata:
@@ -108,7 +109,8 @@ There are different ways to add URL parameters to the requests:
 -   Appending parameters to the service URL:
 
     ``` js
-    var oModel = new sap.ui.model.odata.v2.ODataModel("http://myserver/MyService.svc/?myParam=value&myParam2=value");
+    // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+    var oModel = new ODataModel("http://myserver/MyService.svc/?myParam=value&myParam2=value");
     ```
 
     These parameters will be included in every request sent to the OData server.
@@ -118,7 +120,8 @@ There are different ways to add URL parameters to the requests:
     You can pass URL parameters that are used for `$metadata` requests only \(`metadataUrlParams`\) as well as URL parameters that are included only in data requests \(`serviceUrlParams`\). The parameters are passed as maps:
 
     ``` js
-    var oModel = new sap.ui.model.odata.v2.ODataModel({ 
+    // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+    var oModel = new ODataModel({ 
         serviceUrl: "http://services.odata.org/Northwind/Northwind.svc",    
         serviceUrlParams: {
             myParam: "value1",
@@ -371,16 +374,16 @@ The `refresh` function refreshes all data within an OData model. Each binding re
 
 ## Batch Processing
 
-The `v2.ODataModel` supports batch processing \(`$batch`\) in two different ways:
+The [`v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel) supports batch processing \(`$batch`\) in two different ways:
 
 -   Default: All requests in a thread are collected and bundled in batch requests, meaning that request is sent in a timeout immediately after the current call stack is finished. This includes all manual CRUD requests as well as requests triggered by a binding.
 
 -   Deferred: The requests are stored and can be submitted with a manual `submitChanges()` call by the application. This also includes all manual CRUD requests as well as requests triggered by a binding.
 
 
-The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`. For more information, see the API reference.
+The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`.
 
-You can use the `setDeferredGroups()` method to set a previously defined subset of groups to deferred.
+You can use the `setDeferredGroups()` method to set a subset of previously defined groups to deferred.
 
 > Note:
 > The same is also valid for `setChangeGroups()` and `getChangeGroups()`.
@@ -390,10 +393,11 @@ You can use the `setDeferredGroups()` method to set a previously defined subset 
 All requests belonging to the `group` are then stored in a request queue. The deferred batch group must then be submitted manually by means of the `submitChanges()` method. If you do **not** specify a batch group ID when calling `submitChanges`, all deferred batch groups are submitted.
 
 > Note:
-> Set a subset of groups to deferred
+> Set a subset of groups to deferred:
 > 
 > ``` js
-> var oModel = new sap.ui.model.odata.v2.ODataModel(myServiceUrl);
+> // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+> var oModel = new ODataModel(myServiceUrl);
 > ```
 > 
 > Pass the `groupId` to a binding:
@@ -426,7 +430,7 @@ All requests belonging to the `group` are then stored in a request queue. The de
 > Submit all deferred groups:
 > 
 > ``` js
-> oModel.submitChanges({aDeferredGroups, success: mySuccessHandler, error: myErrorHandler});
+> oModel.submitChanges({success: mySuccessHandler, error: myErrorHandler});
 > ```
 > 
 > 
@@ -449,7 +453,8 @@ To submit the changes, use `submitChanges()`. The data changes are made on a dat
 You can collect the changes for different entities or types in different batch groups. To configure this, use the `setChangeGroups()` method of the model:
 
 ``` js
-var oModel = new sap.ui.model.odata.v2.ODataModel(myServiceUrl);
+// "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+var oModel = new ODataModel(myServiceUrl);
 oModel.setDeferredGroups(["myGroupId", "myGroupId2"]);
 oModel.setChangeGroups({
     "EntityTypeName": {
@@ -473,7 +478,8 @@ To collect the changes for all entity types in the same batch group, use '\*’ 
 Reset changes:
 
 ``` js
-var oModel = new sap.ui.model.odata.v2.ODataModel(myServiceUrl);
+// "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
+var oModel = new ODataModel(myServiceUrl);
 //do a change
 oModel.setProperty("/myEntity(0)", oValue);
 

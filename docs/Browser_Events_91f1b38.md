@@ -45,7 +45,7 @@ MyControl.prototype.handleClick = function(oEvent) {
 }
 ```
 
-Instead of explicitly registering for browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls. For more information about these event types, see the [API Reference](https://openui5.hana.ondemand.com/#/api/module:sap/ui/events/ControlEvents). If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.bind()`.
+Instead of explicitly registering for browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls. For more information about these event types, see the [ `sap.ui.events.ControlEvents`](https://openui5.hana.ondemand.com/#/api/sap.ui.events) in the API Reference. If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.bind()`.
 
 The event handler implementation requires less code, reduces the number of event handler registrations in the DOM and also reduces the number of event handler registrations and deregistrations that are executed on every rerendering action. On the other hand, this option is only available for specific events.
 
