@@ -70,7 +70,7 @@ You can use the following kinds of patterns:
 
 -   **Route with query parameter**:
 
-    The query parameter allows you to pass on queries with any parameter. A query parameter starts with `?`, and you can either define it as mandatory \(`product/{?query}`\) or optional \(`product/:?query:`\).
+    The query parameter allows you to pass on queries with any parameter. A query parameter starts with `?`, and you can either define it as mandatory \(`product{?query}`\) or optional \(`product:?query:`\).
 
     The matched value will be converted into an object saved with the parameter name as the key when passed to the event handler.
 
