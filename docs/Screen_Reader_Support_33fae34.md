@@ -155,20 +155,20 @@ The labelling on the empty option will be read by the screen reader and the end-
 
 #### List with info toolbar
 
-When using the `List` control with visible non-active info toolbar with plain text content, you need to associate the `aria-labelledby` of the list with the text content of the `infoToolbar` aggregation. This must be included in the app logic since the framework is not aware of the content.
+When using the `List` control with visible non-active info toolbar with plain text content, you need to associate the `aria-labelledby` of the list with the text content of the `infoToolbar` aggregation.
 
 > Note:
 > ```
 > ...
->                 <List ariaLabelledBy="textInInfoToolbarId">
->                                 <infoToolbar>
->                                                <OverflowToolbar active="false">
->                                                                <Label id="textInInfoToolbarId" text="Announce this text when the first list item is focused" />
->                                                </OverflowToolbar>
->                                 </infoToolbar>
->                                 <items>
-> 							...
->                 </List>
+>          <List ariaLabelledBy="textInInfoToolbarId">
+>                          <infoToolbar>
+>                                         <OverflowToolbar active="false">
+>                                                         <Label id="textInInfoToolbarId" text="Announce this text when the first list item is focused" />
+>                                         </OverflowToolbar>
+>                          </infoToolbar>
+>                          <items>
+> 					  ...
+>          </List>
 > ...
 > ```
 > 

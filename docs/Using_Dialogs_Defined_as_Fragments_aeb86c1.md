@@ -30,7 +30,7 @@ Note that any global model is available for data binding within this dialog. Als
 Fragment.load({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
 	oDialog.setModel(this.getView().getModel());
 	oDialog.open();
-});
+}.bind(this));
 ```
 
 Alternatively, the special aggregation `dependents` of `sap.ui.core.Element` can be used to connect the dialog to the lifecycle management and data binding of the view:
@@ -40,6 +40,6 @@ Alternatively, the special aggregation `dependents` of `sap.ui.core.Element` can
 Fragment.load({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
 	this.getView().addDependent(oDialog);
 	oDialog.open();
-});
+}.bind(this));
 ```
 
