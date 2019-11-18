@@ -17,9 +17,43 @@ OpenUI5 can either be loaded locally with a relative path from an SAP Web server
 > 
 > 
 
-To access your OpenUI5 libraries from a Content Delivery Network \(CDN\) instead of your local MIME respository, you need to configure your custom CDN of choice as an external location in the Customizing of your backend system.
+***
 
-For more information, see the documentation for the Customizing activity *Configure SAPUI5 Bootstrapping* in Customizing under *SAP NetWeaver* \> *UI Technologies* \> *SAPUI5*.
+### Specific Version
+
+Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html). You can refer to a specific version by using a versioned URL as in the example below:
+
+``` html
+<script id="sap-ui-bootstrap"
+    type="text/javascript"
+    src="https://openui5.hana.ondemand.com/**1.42.6**/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_belize"
+    data-sap-ui-libs="sap.m"></script>
+
+
+```
+
+The first segment of the URL after the host name is used to specify a concrete version.
+
+***
+
+### Default Version
+
+> Note:
+> The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
+> 
+> The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
+> 
+> ``` html
+> <script id="sap-ui-bootstrap"
+>     type="text/javascript"
+>     src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+>     data-sap-ui-theme="sap_belize"
+>     data-sap-ui-libs="sap.m"></script>
+> 
+> ```
+> 
+> 
 
 **Related information**  
 
