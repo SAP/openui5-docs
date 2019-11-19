@@ -160,15 +160,15 @@ When using the `List` control with visible non-active info toolbar with plain te
 > Note:
 > ```
 > ...
->          <List ariaLabelledBy="textInInfoToolbarId">
->                          <infoToolbar>
->                                         <OverflowToolbar active="false">
->                                                         <Label id="textInInfoToolbarId" text="Announce this text when the first list item is focused" />
->                                         </OverflowToolbar>
->                          </infoToolbar>
->                          <items>
-> 					  ...
->          </List>
+> <List ariaLabelledBy="textInInfoToolbarId">
+>                 <infoToolbar>
+>                                <OverflowToolbar active="false">
+>                                                <Label id="textInInfoToolbarId" text="Announce this text when the first list item is focused" />
+>                                </OverflowToolbar>
+>                 </infoToolbar>
+>                 <items>
+> 			  ...
+> </List>
 > ...
 > ```
 > 

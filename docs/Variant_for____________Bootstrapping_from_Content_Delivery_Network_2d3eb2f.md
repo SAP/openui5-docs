@@ -55,6 +55,17 @@ The first segment of the URL after the host name is used to specify a concrete v
 > 
 > 
 
+***
+
+### Cache Control
+
+The cache control is different for dynamic and static resources. If you refer to the latest maintenance version \(dynamic\), you have a maximum cache age of one week, if you refer to a specific \(static\) version, you have a maximum cache age of 10 years. In both cases, cross-origin resource sharing \(CORS\) headers are set, so that you can consume resources from the central location without any proxy in between.
+
+> Note:
+> The Cache Buster is only needed if you consume OpenUI5 without a concrete version in the URL. When you consume OpenUI5 with the concrete version in the URL, this is not needed, as the content served by that unique URLs will never change and can be cached forever.
+> 
+> 
+
 **Related information**  
 
 
