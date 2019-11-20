@@ -75,7 +75,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 23: Custom Formatters](Step_23_Custom_Formatters_0f8626e.md)
             -   [Step 24: Filtering](Step_24_Filtering_5295470.md)
             -   [Step 25: Sorting and Grouping](Step_25_Sorting_and_Grouping_c4b2a32.md)
-            -   [Step 26: \(Optional\) Remote OData Service](Step_26_(Optional)_Remote_OData_Service_4406244.md)
+            -   [Step 26: Remote OData Service](Step_26_Remote_OData_Service_4406244.md)
             -   [Step 27: Mock Server Configuration](Step_27_Mock_Server_Configuration_bae9d90.md)
             -   [Step 28: Unit Test with QUnit](Step_28_Unit_Test_with_QUnit_e1ce1de.md)
             -   [Step 29: Integration Test with OPA](Step_29_Integration_Test_with_OPA_9bf4dce.md)

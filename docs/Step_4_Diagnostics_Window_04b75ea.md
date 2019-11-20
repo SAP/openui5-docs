@@ -41,12 +41,10 @@ Let's say that you are facing a performance issue in your app, so let's check so
 
 1.  Expand the *Technical Information* section and scroll down to view the loaded libraries.
 
-2.  Check if there are unused libraries. You can see that the example app loads the `sap.ui.layout` library even though the `layout` control is not used.
+2.  If you spot any libraries that you originally defined, but you don't actually use, remove them from the `manifest.json` file in your development environment to prevent them from loading. In this case, you can see that the example app loads the `sap.ui.layout` library, even though the `layout` control is not used.
 
-3.  To improve performance, remove the library from the `manifest.json` file in your development environment.
-
-4.  Scroll to the *Configuration \(bootstrap\)* section. You see that the `preload` method is set to synchronous processing.
-5.  To improve performance, set the bootstrap parameter `data-sap-ui-async` to `true` in the `index.html` file.
+3.  Scroll to the *Configuration \(bootstrap\)* section. You see that the `preload` method is set to synchronous processing.
+4.  To improve performance, set the bootstrap parameter `data-sap-ui-async` to `true` in the `index.html` file.
 
 ``` html
 <!DOCTYPE HTML>

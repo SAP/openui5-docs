@@ -120,7 +120,7 @@ We add a status using the `firstStatus` aggregation to our `ObjectListItem` that
 
 ***
 
-### webapp/i18n/i18.properties
+### webapp/i18n/i18n.properties
 
 ``` prefs
 # App Descriptor
