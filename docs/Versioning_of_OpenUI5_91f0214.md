@@ -62,7 +62,7 @@ In the version overview at [https://openui5.hana.ondemand.com/versionoverview.ht
 
 All OpenUI5 resources are available on the content delivery network Akamai. There, you can also find multiple OpenUI5 versions.
 
-Check the available versions with respective maintenance status at .
+Check the available versions with respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
 
 ***
 
