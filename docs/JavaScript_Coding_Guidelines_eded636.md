@@ -65,8 +65,6 @@ For any code becoming part of OpenUI5, an ESLint check needs to run successfully
     
     ```
 
--   You can use the Eclipse default settings for the JavaScript editor, but make sure tabs are used for indentation.
-
 
 ***
 

@@ -31,7 +31,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 ### Single View Block Creation
 
--   Create the block folder in the source control of the app.
+-   Create the block folder in the sources of the app.
 
 -   Add a `BlockName.js` file, which extends `sap.uxap.BlockBase`.
 
@@ -58,7 +58,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 ### Multiple View Block Creation
 
--   Create the block folder in the source code structure of the app.
+-   Create the block folder in the sources of the app.
 
 -   Add a `BlockName.js` file, which extends `sap.uxap.BlockBase`.
 
@@ -80,7 +80,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 ### Free Form Block Creation
 
--   Create the block folder in the source control of the app.
+-   Create the block folder in the sources of the app.
 
 -   Add a `BlockName.js` file, which extends `sap.uxap.BlockBase`.
 
@@ -90,5 +90,5 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 **Related information**  
 
 
-[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.BlockBase.html)
+[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#/api/sap.uxap.BlockBase)
 

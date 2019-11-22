@@ -43,7 +43,7 @@ If you stick to these rules, you will find it much easier to refactor/maintain y
 
 ### Arrange Act Assert Pattern
 
-Internally, we use three templates for testing. The one shown below is the general control template. If you are using Eclipse, a description of how you can import the templates is included at the end of this section.
+Internally, we use three templates for testing. The one shown below is the general control template.
 
 Use the following pattern to structure your tests. If everyone sticks to this same pattern, you will be able to read your colleagues' tests very quickly:
 
@@ -190,32 +190,4 @@ An example of this is shown in the cookbook below \(events\).
 #### I've set a property on my control: Why aren't the changes in the DOM?
 
 The most likely reason for this is that `sap.ui.getCore().applyChanges()` was not called. OpenUI5 does not render synchronously, but calling this function will render immediately.
-
-***
-
-### Importing the Templates
-
-If you are using Eclipse, to import the templates start by calling up *Preferences* as shown below:
-
- ![](loiof4fca357881049c093221d6bd3cf28f5_LowRes.jpg) 
-
-Make sure that you have added the JavaScript Editor to the *File Associations* under *General* \> *Editors* \> *File Associations*:
-
- ![](loio05510f4e61d94b069b5f4c90a893e6cb_LowRes.jpg) 
-
-You can do this by choosing the *File Associations* link on the *Editors* start page, then selecting *\*.html* from the top list and adding *JavaScript Editor* as an associated editor:
-
- ![](loio9f1653e06f06468cbfa817d78222faf6_LowRes.jpg) 
-
-While still in the *Preferences*, navigate to *JavaScript* \> *Editor* \> *Templates* and choose *Import...*:
-
- ![](loio54a76dee6b284beb85e80a18c44a8411_LowRes.jpg) 
-
-After doing this, you test press * Ctrl Space * in your js/html files and start writing your test.
-
-The following templates are available:
-
--   Test - for general classes
--   TestControl - for control tests without rendering
--   TestRendering - for control tests with rendering
 

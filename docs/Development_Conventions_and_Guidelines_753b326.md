@@ -29,11 +29,9 @@ The following list gives some general guidelines to be adhered to when developin
 
 -   Use Unix line endings \(LF-only\).
 
-    In Eclipse, this is configured in *Preferences* \> *General* \> *Workspace* \> *New Text File Line Delimiter*.
-
 -   Text files must be UTF-8 encoded \(HANA\); only `*.properties` and `*.hdbtextbundle` files must be ISO8859-1 encoded as defined in the corresponding standard.
 
-    This is the status quo. As this causes issues, it may be subject to change. In Eclipse, this is configured in *Preferences* \> *General* \> *Workspace* \> *Text File Encoding*.
+    This is the status quo. As this causes issues, it may be subject to change..
 
 -   An 80-character line length guideline does **not** exist.
 

@@ -16,7 +16,7 @@ The following guidelines and recommendations apply:
 
 -   To make issues with mixed tabs/spaces and windows-style linebreaks visible immediately, we recommend to configure your JavaScript editor to display whitespace and linebreak characters.
 
--   We also recommend to configure the code formatter of your code editor accordingly. The default formatter for JavaScript in Eclipse is already pretty ok.
+-   We also recommend to configure the code formatter of your code editor accordingly.
 
 -   Do **not** use the auto formatter to format entire files. The auto formatter handles many lines and makes it more difficult to find out who actually wrote the code.
 
