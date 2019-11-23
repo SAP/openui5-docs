@@ -180,25 +180,25 @@ this.createComponent("myreuse").then(function(oComponent) {
 });
 ```
 
--   Example for simplified usage \(Sync, but not recommended\):
-
-``` js
-var oComponent = this.createComponent({ 
-  usage: "myreuse"
-  settings: {},
-  componentData: {},
-  async: false 
-});
-```
-
--   Example for extended usage:
+-   Example for extended usage \(Async\):
 
 ``` js
 var oComponentPromise = this.createComponent({
   usage: "myreuse"
   settings: {},
   componentData: {},
-  async: true 
+  async: true
+});
+```
+
+-   Example for extended usage \*\*\\\(Sync, but not recommended\\\)\*\*:
+
+``` js
+var oComponent = this.createComponent({ 
+  usage: "myreuse"
+  settings: {},
+  componentData: {},
+  async: false
 });
 ```
 

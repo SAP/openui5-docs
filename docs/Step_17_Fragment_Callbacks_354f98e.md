@@ -118,11 +118,11 @@ showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 homePageTitle=Walkthrough
 helloPanelTitle=Hello World
-*HIGHLIGHT START*openDialogButtonText=Say Hello With Dialog
-dialogCloseButtonText=Ok*HIGHLIGHT END*
+openDialogButtonText=Say Hello With Dialog
+*HIGHLIGHT START*dialogCloseButtonText=Ok*HIGHLIGHT END*
 ```
 
-The text bundle is extended by two new texts for the open button and the dialog’s close button.
+The text bundle is extended by the new text for the dialog’s close button.
 
 **Related information**  
 

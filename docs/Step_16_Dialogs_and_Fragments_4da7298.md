@@ -155,6 +155,27 @@ We add the dialog as "dependent" on the view to be connected to the lifecycle of
 -   Private functions and variables should always start with an underscore.
 
 
+***
+
+<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_d5m_ypr_r2b"/>
+
+### webapp/i18n/i18n.properties
+
+``` prefs
+# App Descriptor
+appTitle=Hello World
+appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+
+# Hello Panel
+showHelloButtonText=Say Hello
+helloMsg=Hello {0}
+homePageTitle=Walkthrough
+helloPanelTitle=Hello World
+*HIGHLIGHT START*openDialogButtonText=Say Hello With Dialog*HIGHLIGHT END*
+```
+
+We add a new text for the open button to the text bundle.
+
 **Related information**  
 
 

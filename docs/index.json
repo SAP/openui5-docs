@@ -614,6 +614,9 @@
 							},
 							"Is Your Application Ready for Asynchronous Loading?": {
 								"link": "Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md"
+							},
+							"Make Your App Performant": {
+								"link": "Make_Your_App_Performant_9c6400e.md"
 							}
 						}
 					}
@@ -1588,7 +1591,7 @@
 								"link": "Keyboard_Handling_for_OpenUI5_UIElements_6b741a6.md"
 							},
 							"Screen Reader Support for OpenUI5 Controls": {
-								"link": "Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md"
+								"link": "Screen_Reader_Support_for__Controls_8c46d6a.md"
 							},
 							"High Contrast Themes for OpenUI5 Controls": {
 								"link": "High_Contrast_Themes_for_OpenUI5Controls_cfcbde2.md"
@@ -1639,7 +1642,7 @@
 								"link": "Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9",
 								"items": {
 									"Loading Debug Sources": {
-										"link": "Technical_Information_Dialog_.md#copyda1306a437244116b156c4428b3c5b5f"
+										"link": "#copyda1306a437244116b156c4428b3c5b5f"
 									},
 									"Technical Information Dialog on Mobile Devices": {
 										"link": "Technical_Information_Dialog_.md#loiob5dcf47c7d4a4228ab40d77f835648e3"
@@ -1656,16 +1659,16 @@
 										"link": "Diagnostics_.md#loio790defe9ff8643bf8629c8567270e290"
 									},
 									"Breakpoints on the Object Level": {
-										"link": "Diagnostics_.md#copyee6f8f5a976347cb9426bdf5e689bc11"
+										"link": "#copyee6f8f5a976347cb9426bdf5e689bc11"
 									},
 									"Debugging": {
 										"link": "Diagnostics_.md#loio7f4327d5aa274efda0c275d091c9d2f9"
 									},
-									"Switching the OpenUI5 Version": {
-										"link": "Diagnostics_.md#copyf96072c32f20456b9d20da049800b515"
+									"Switching the Version": {
+										"link": "#copyf96072c32f20456b9d20da049800b515"
 									},
 									"Breakpoints on the Class Level": {
-										"link": "Diagnostics_.md#copy75d0c576f8e04a6aa3067ede31ebf8d4"
+										"link": "#copy75d0c576f8e04a6aa3067ede31ebf8d4"
 									},
 									"XML View and Templating Support Tools": {
 										"link": "Diagnostics_.md#loio1ecb6b9f3d044e7d8f5136447bd6d39e"

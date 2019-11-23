@@ -24,7 +24,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 |Cozy density| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 |Summarized cell| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 |Hierarchical data| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Large number of rows \(\> 100\)<sup>2</sup> | ![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
+|Large number of rows \(\> 200\)<sup>2</sup> | ![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 |Grouping| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 |Freeze columns| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 |Horizontal scrolling| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
@@ -36,7 +36,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 
 1\) `Text`, `Label`, `ObjectStatus`, `Icon`, `Button`, `Input`, `DatePicker`, `Select`, `ComboBox`, `MultiComboBox`, `CheckBox`, `Link`, `Currency`, `RatingIndicator`, `ProgressIndicator`; To keep the control height always stable, the `wrapping` and `renderWhitespace` properties in the `sap.m.Text` control, for example, must be set to `false`. For more information, search for cell level in the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-2\) To show more than 100 items in`sap.m.table`, use the growing mode. This feature allows you to show only a limited number of items at one point in time, which improves the performance. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. To optimize perfomance, we recommend to show no more than 200 items at once. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure there are suitable filters available for the user.
+2\) To show more than 200 items in `sap.m.table`, use the growing mode. This feature allows you to show only a limited number of items at one point in time, which improves the performance. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. To optimize perfomance, we recommend to show no more than 200 items at once. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure there are suitable filters available for the user.
 
 > Note:
 > The limits mentioned are only recommendations. For a specific app context, the actual number of manageable items might be higher or lower.
@@ -47,7 +47,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 > 
 > -   The number of columns that are visible
 > 
-> -   The complexity of the cell content and/or the page \(for example, multiple pages in a flexible column layout, or how much binding is done\)
+> -   The complexity of the cell content and/or the page \(for example, multiple pages in a flexible column layout, or depending on how much binding is done\)
 > 
 > -   The browser being used
 > 
