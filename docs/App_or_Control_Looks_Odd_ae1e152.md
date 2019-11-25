@@ -39,12 +39,12 @@ To solve the issue, you have the following options:
 
 -   Check if you have used a custom CSS in your app.
 
-    If you have used a custom CSS, it is probably interfering with the styling in the standard  theming libraries.
+    If you have used a custom CSS, it is probably interfering with the styling in the standard OpenUI5 theming libraries.
 
     Use the developer tools of your browser to inspect the element that has the wrong styling. In the HTML tab, you can usually see which styles are applied to a DOM element. If you have styles in the list that are added by your app, disable these styles in the debugger to see whether this solves the problem.
 
     > Note:
-    > -specific CSS classes and IDs all have an `sapUi` prefix, for example, `sapUiButton`.
+    > OpenUI5-specific CSS classes and IDs all have an `sapUi` prefix, for example, `sapUiButton`.
     > 
     > 
 

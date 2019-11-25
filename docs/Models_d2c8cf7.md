@@ -22,7 +22,7 @@ A model in the Model View Controller concept holds the data and provides methods
 -   [OData V2 Model](OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2)
 -   [OData V4 Model](OData_V4_Model_5de13cf.md)
 
- provides the following predefined models:
+OpenUI5 provides the following predefined models:
 
 -   **OData model**: Enables binding of controls to data from OData services. The OData model supports two-way, one-way and one-time binding modes. However, two-way binding is currently only supported for properties, and not for aggregations.
 

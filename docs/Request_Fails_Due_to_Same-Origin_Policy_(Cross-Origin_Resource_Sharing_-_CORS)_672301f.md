@@ -55,7 +55,7 @@ To solve the issue, you have the following options:
 
 ### SAP Web IDE: Configure a destination
 
- and the  offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app at `<protocol>://<domain>/destinations/northwind/*`. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
+SAP Web IDE and the SAP Cloud Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app at `<protocol>://<domain>/destinations/northwind/*`. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
 
 ***
 
@@ -66,13 +66,13 @@ To solve the issue, you have the following options:
 | `/destinations/northwind/V2/Northwind/Northwind.svc/$metadata` | `https://services.odata.org/V2/Northwind/Northwind.svc/$metadata` |
 | `/destinations/northwind/V2/Northwind/Northwind.svc/Invoices` | `https://services.odata.org/V2/Northwind/Northwind.svc/Invoices` |
 
-The destination itself is configured inside the  Cockpit. For more information, see [Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md).
+The destination itself is configured inside the SAP Cloud Platform Cockpit. For more information, see [Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md).
 
 ***
 
 #### neo-app.json
 
-For , a `neo-app.json` file is needed to make sure that the destination and resource mapping are available in the app. It has to be located in the root folder \(`webapp`\), on the same level as the `user.project.json` file that is automatically created.
+For SAP Web IDE, a `neo-app.json` file is needed to make sure that the destination and resource mapping are available in the app. It has to be located in the root folder \(`webapp`\), on the same level as the `user.project.json` file that is automatically created.
 
 If it does not exist yet, create a `neo-app.json` file and reference the Northwind destination there. Just copy the content of the code into that file and try to run the app again.
 
@@ -92,7 +92,7 @@ If it does not exist yet, create a `neo-app.json` file and reference the Northwi
 ```
 
 > Note:
-> If the file already exists, for example, because you already created it to map the  resources, just append the destination to the existing `route` definitions.
+> If the file already exists, for example, because you already created it to map the OpenUI5 resources, just append the destination to the existing `route` definitions.
 > 
 > 
 
@@ -127,7 +127,7 @@ In the `manifest.json` descriptor file of your app, you can now change the data 
 }
 ```
 
-After this change, you can run the app in  without disabling the same-origin policy of your browser. The destination now manages the connection to the remote service.
+After this change, you can run the app in SAP Web IDE without disabling the same-origin policy of your browser. The destination now manages the connection to the remote service.
 
 ***
 
