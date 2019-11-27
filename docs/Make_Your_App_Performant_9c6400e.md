@@ -10,18 +10,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Make Your App Performant
 
-Checklist for reporters of performance issues to follow, enabling them to either resolve issues themselves, or at least provide a pre-analysis when requesting support.
+In case of performance issues, follow this checklist to see if you can resolve them yourself, or at least provide a pre-analysis when requesting support.
 
 Steps to check:
 
-***
-
-<a name="loio9c6400eb7dc145b78e94a81e6e390780__section_fww_3ft_5jb"/>
-
-### Steps to check:
-
 -   Use the UI5 Support Assistant to check for known issues: [Support Assistant](Support_Assistant_57ccd7d.md)
-
 -   Use the content delivery network network \(CDN / AKAMAI\) to reduce latency effects: [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
 -   Make sure that library preloads are active: XXXXXXXXXXXXXXXXXXXXXXXXXXX
 -   Ensure that library preloads and modules are loaded asynchronously: [Use Asynchronous Loading](Use_Asynchronous_Loading_676b636.md)
@@ -34,4 +27,6 @@ Steps to check:
 -   Render pages while waiting for the response of network requests \(reduce idle times\): XXXXXXXXXXXXX
 -   Ensure that OData V2 metadata caching is enabled: XXXXXXXXXXXXX
 -   Cache XML Preprocessor results: XXXXXXXXXXXXXXXXXXXX
+
+Blog: SAPUI5 Application Startup Performance - Troubleshooting
 

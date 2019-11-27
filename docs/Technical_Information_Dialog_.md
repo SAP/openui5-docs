@@ -35,7 +35,7 @@ You can download the technical information, so that you can attach it to a ticke
 
 ## Loading Debug Sources
 
-For performance reasons, the  files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
+For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
 For debugging, you first have to load the *Debug Sources*. You have the following options:
 
@@ -55,9 +55,9 @@ If you only want to load the debug sources for **specific packages**, you have t
     For more information, see [Technical Information Dialog](Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9).
 
 
-After reloading the page, in the *Network* tab of the browser’s developer tools you can see that the controls and framework assets are now loaded individually and have a `-dbg` suffix. These are the source code files that include comments, the uncompressed code of the app, and the  artifacts.
+After reloading the page, in the *Network* tab of the browser’s developer tools you can see that the controls and framework assets are now loaded individually and have a `-dbg` suffix. These are the source code files that include comments, the uncompressed code of the app, and the OpenUI5 artifacts.
 
-Choose * Ctrl O * \(Windows\) or * Command O * \(macOS\) and type the name of an  artifact to view its source code in debug mode.
+Choose * Ctrl O * \(Windows\) or * Command O * \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
 
 > Note:
 > Turning on debug sources also increases the log level. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).

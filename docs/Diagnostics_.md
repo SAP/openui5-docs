@@ -131,19 +131,19 @@ The *Diagnostics* window provides you with the following features that help you 
 
 <!-- copyf96072c32f20456b9d20da049800b515 -->
 
-## Switching the  Version
+## Switching the OpenUI5 Version
 
 ***
 
 Open the *Diagnostics* window with the shortcut *CTRLSHIFTALTS*.
 
-At the top of the *Debugging* view, you can configure a custom URL from which the application should load  the next time that the app opens.
+At the top of the *Debugging* view, you can configure a custom URL from which the application should load OpenUI5 the next time that the app opens.
 
-Either select a known  installation from the dropdown box, or enter a different URL that points to the `sap-ui-core.js` file within a complete  runtime.
+Either select a known OpenUI5 installation from the dropdown box, or enter a different URL that points to the `sap-ui-core.js` file within a complete OpenUI5 runtime.
 
-Once you have entered the URL, press *Activate Reboot URL*. When you then reload the application page, the application loads  from the alternative URL. This only happens for the next single reboot; after that,  is loaded again from the standard URL referenced within the app.
+Once you have entered the URL, press *Activate Reboot URL*. When you then reload the application page, the application loads OpenUI5 from the alternative URL. This only happens for the next single reboot; after that, OpenUI5 is loaded again from the standard URL referenced within the app.
 
-This feature can be used to test an application against a newer or older version of  as part of compatibility testing, or for verifying a bug fix or regression.
+This feature can be used to test an application against a newer or older version of OpenUI5 as part of compatibility testing, or for verifying a bug fix or regression.
 
 ![](loio64d3bfdd0f784ae68030208523452899_LowRes.png)
 
