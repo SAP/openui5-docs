@@ -84,54 +84,6 @@
 									}
 								}
 							},
-							"App Development Using SAPUI5 Tools for Eclipse": {
-								"link": "App_Development_Using_SAPUI5_Toolsfor_Eclipse_0404f90.md",
-								"items": {
-									"Installing SAPUI5 Tools for Eclipse": {
-										"link": "Installing_SAPUI5_Tools_forEclipse_f25b203.md"
-									},
-									"Using SAPUI5 Tools for Eclipse": {
-										"link": "Using_SAPUI5_Tools_forEclipse_510d6ee.md",
-										"items": {
-											"Create an SAPUI5 Application Project": {
-												"link": "Create_an_SAPUI5_Application_Project_da0c8ca.md"
-											},
-											"Add a Control to Your View": {
-												"link": "Add_a_Control_to_Your_View_07d2bdc.md"
-											},
-											"Implement a Method in the Controller": {
-												"link": "Implement_a_Method_in_the_Controller_10c6b87.md"
-											},
-											"Create an Additional View": {
-												"link": "Create_an_Additional_View_727bc3f.md"
-											},
-											"Integrate a New View": {
-												"link": "Integrate_a_New_View_5da1208.md"
-											},
-											"JavaScript Code Completion": {
-												"link": "JavaScript_Code_Completion_85ce1ed.md"
-											},
-											"Linking your Eclipse Editor to the Demo Kit": {
-												"link": "Linking_your_Eclipse_Editor_to_the_Demo_Kit_8d80e84.md"
-											},
-											"Use JavaScript and XML Templates": {
-												"link": "Use_JavaScript_and_XML_Templates_fcf5e9b.md"
-											},
-											"SAPUI5 Snippets": {
-												"link": "SAPUI5_Snippets_b43514f.md"
-											},
-											"Running an App in the Application Preview": {
-												"link": "Running_an_App_in_the_Application_Preview_05a9c69.md",
-												"items": {
-													"Use a SimpleProxyServlet for Testing to Avoid Cross-domain Requests": {
-														"link": "Use_a_SimpleProxyServlet_for_Testing_to_Avoid_Cross-domain_Requests_2d3f5fb.md"
-													}
-												}
-											}
-										}
-									}
-								}
-							},
 							"Developing OpenUI5": {
 								"link": "Developing_OpenUI5_ee8726a.md"
 							},

@@ -20,6 +20,5 @@ Depending on your use case, you can choose one of the following development envi
 
 -   [App Development Using SAP Web IDE](App_Development_Using_SAP_Web_IDE_13ced94.md)
 -   [App Development Using OpenUI5](App_Development_Using_OpenUI5_b1fbe1a.md)
--   [App Development Using SAPUI5 Tools for Eclipse](App_Development_Using_SAPUI5_Toolsfor_Eclipse_0404f90.md)
 -   [Developing OpenUI5](Developing_OpenUI5_ee8726a.md)
 

@@ -102,6 +102,63 @@ You append "\(...\)" even though the action's resource URL does not contain them
 
 ### Operation Parameters
 
+You can use the parameters of a deferred operation binding inside an XML view without the need to use an additional UI model.
+
+The parameters are addressed by the path prefix "$Parameter". This can either be done by binding each parameter to the path prefix "$Parameter" \(Option 1\) or by having an outer binding with a "$Parameter" path \(Option 2\).
+
+> Note:
+> The path "$Parameter" must not be added directly to the path of a deferred operation binding. A deferred operation binding is identified by an ellipsis at the end of the path.
+> 
+> 
+
+This is how to bind each parameter individually:
+
+**View:**
+
+> Note:
+> Binding parameters to a dialog \(Option 1\)
+> 
+> ``` xml
+> <Dialog binding="{/ChangeTeamBudgetByID(...)}" id="operation1" title ="Change Team Budget">
+>     <buttons>
+>         ...         
+>     </buttons>
+>     <form:SimpleForm>
+>         <Label text="TeamID" />
+>         <Input value="{$Parameter/TeamID}" />
+>         <Label text="Budget" />
+>         <Input value="{$Parameter/Budget}" />
+>     </form:SimpleForm>
+> </Dialog>
+> ```
+> 
+> 
+
+Alternatively, you may bind the entire form to the `$Parameter` context:
+
+**View:**
+
+> Note:
+> Binding parameters to a dialog \(Option 2\)
+> 
+> ``` xml
+> <Dialog binding="{/ChangeTeamBudgetByID(...)}" id="operation2" title="Change Team Budget">
+>     <buttons>
+>         ...         
+>     </buttons>
+>     <form:SimpleForm binding="{$Parameter}">
+>         <Label text="TeamID" />
+>         <Input value="{TeamID}" />
+>         <Label text="Budget" />
+>         <Input value="{Budget}" />
+>     </form:SimpleForm>
+> </Dialog>
+> ```
+> 
+> 
+
+In either case, the values of the parameters are set using the model binding of the control, with no need to write any application code.
+
 Operation parameters can be set by calling the function `setParameter` on the operation binding, as shown in this example:
 
 **Controller:**
@@ -111,6 +168,36 @@ onSubmit : function (oEvent) {
     this.getView().byId("Submit").getObjectBinding().setParameter("Comment", sComment).execute();
 }
 ```
+
+The API method `getParameterContext` can be used to access parameters in controller code, see also [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md)
+
+The example below demonstrates how a budget may be modified depending on the `TeamID`:
+
+**Controller:**
+
+> Note:
+> Reading parameter values using the parameter context
+> 
+> ``` js
+> adaptBudgetToTeam : function (){
+>     var oDialog = this.oView.byId("operation2"); // the second dialog in the paragraph before
+>         oParameterContext = oDialog.getObjectBinding().getParameterContext();
+>  
+>  
+>     if (oParameterContext.getProperty("TeamID') === "STARTUP") {
+>         oParameterContext.setProperty("Budget", 555.55);
+>     else {
+>         oParameterContext.setProperty("Budget", 123.45);
+>     }
+> }
+> ```
+> 
+> 
+
+> Note:
+> The parameter context is only defined if the operation binding is resolved.
+> 
+> 
 
 ***
 

@@ -31,7 +31,7 @@ oOpa.waitFor({
 
 ### Choosing an Item from `sap.m.Select`
 
-Here's an example showing how to choose an item from `sap.m.Select` or `sap.m.ComboBox`, using the `waitFor` function of OPA5, and the `Press` action:
+Here's an example showing how to choose an item from `sap.m.Select`, using the `waitFor` function of OPA5, and the `Press` action:
 
 ``` js
 sap.ui.require([
@@ -67,6 +67,8 @@ sap.ui.require([
 
 });
 ```
+
+For `sap.m.Combobox`, use `controlType: "sap.m.StandardListItem"`.
 
 ***
 

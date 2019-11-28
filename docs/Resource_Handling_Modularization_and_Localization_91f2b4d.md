@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Resource Handling: Modularization and Localization
 
-The handling of resources in OpenUI5 is divided in a client-side and a server-side part. The two parts are complementary and do not depend on each other.
+The handling of resources in OpenUI5 is divided in a client-side and a server-side part. The two parts are complementary and don’t depend on each other.
 
 The server-side resource handling is an optional component to improve the client-server interaction by providing a server-side locale fallback instead of a client-side fallback with multiple requests. The server-side resource handling is mainly used in Eclipse to support the modularized development of OpenUI5 applications and libraries.
 
@@ -18,7 +18,7 @@ The server-side resource handling is an optional component to improve the client
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_866E1131207A4BD98456A7C2E53F12D3"/>
 
-### Client-side Resource Handling
+### Client-Side Resource Handling
 
 OpenUI5 provides the following mechanism for handling resources on the client:
 
@@ -33,9 +33,9 @@ In both cases, OpenUI5 loads additional resources from a server. This server can
 
 <a name="loio91f2b4d66f4d1014b6dd926db0e91070__section_6913A7D3F65341FBA039B6231078E45C"/>
 
-### Server-side Resource Handling
+### Server-Side Resource Handling
 
-For the Java server and the integration into Eclipse, OpenUI5 provides a resource handler to improve the interaction between client and server, for example by providing a server-side locale fallback for the language to avoid multiple requests to get the correct language. It is also used to support modularized development of OpenUI5 applications and libraries. The Java resource handler is aligned with the concept of the JavaServer Faces.
+For the Java server and the integration into Eclipse, OpenUI5 provides a resource handler to improve the interaction between client and server, for example by providing a server-side locale fallback for the language to avoid multiple requests to get the correct language. It’s also used to support modularized development of OpenUI5 applications and libraries. The Java resource handler is aligned with the concept of the JavaServer Faces.
 
 -   The default implementation must support packaging resources in the web application root under the path `resources/<resourceIdentifier>` relative to the web app root.
 
@@ -50,18 +50,18 @@ The OpenUI5 resource handler extends this concept to support standard and test-r
 
 -    `test-resources/**` 
 
-    Test resources are resources which are samples and only relevant for testing purposes e.g. the content of the OpenUI5 test suite.
+    Test resources are resources that are samples and only relevant for testing purposes, for example, the content of the OpenUI5 test suite.
 
 
 The resource handler in OpenUI5 provides the following additional features:
 
 -   Theme fallback:
 
-    If resources are not available for a theme, the resource handler automatically checks the base theme for such resources and returns them instead of a 404 error message.
+    If resources aren’t available for a theme, the resource handler automatically checks the base theme for such resources and returns them instead of a 404 error message.
 
 -   Resource bundle fallback:
 
-    This fallback is similar to the client-side mechanism for loading resource bundles, but it negotiates the request on the server and returns the best found resource bundle instead of issueing a 404 error, for example:
+    This fallback is similar to the client-side mechanism for loading resource bundles, but it negotiates the request on the server and returns the best found resource bundle instead of issuing a 404 error, for example:
 
     `messagebundle_en_US.properties > messagebundle_en.properties > messagebundle.properties` 
 
@@ -115,17 +115,17 @@ Before you use it, make sure that the `ResourceServlet` is available in the clas
 
 ### Configuration
 
-The resource handler is configured via context parameters which are defined in the `web.xml`. The following table gives an overview about configuration parameters:
+The resource handler is configured via context parameters, which are defined in the `web.xml`. The following table gives an overview about configuration parameters:
 
 |Key|Description|
 |---|-----------|
 |`com.sap.ui5.resource.USE_CACHE`|Flag for resource cache enabling; default: `true`|
-|`com.sap.ui5.resource.MAX_AGE`|Specifies the maximum age of resources in millis; default: `604800000` = 1 week|
+|`com.sap.ui5.resource.MAX_AGE`|Specifies the maximum age of resources in milliseconds; default: `604800000` = 1 week|
 |`com.sap.ui5.resource.ACCEPTED_ORIGINS`|List of accepted origins, for example `*`, `*mycompany.corp`, or `server.mycompany.corp`; default: empty|
 |`com.sap.ui5.resource.DEV_MODE`|Flag development mode enabling; default: `false`|
 |`com.sap.ui5.resource.TEMPLATE_PATH`|Specifies path to template for resource listing; default: `/templates/listing.html`|
 |`com.sap.ui5.resource.VERBOSE`|Specifies verbosity of the resource handler; default: `false`|
-|`com.sap.ui5.resource.REMOTE_LOCATION`|Specifies the location that is used to proxy requests to resources that are not available locally; default: empty|
+|`com.sap.ui5.resource.REMOTE_LOCATION`|Specifies the location that is used to proxy requests to resources that aren’t available locally; default: empty|
 |`com.sap.ui5.resource.PREFER_REMOTE_LOCATION`|Flag to resolve the resource from the remote location before fallback to classpath; default: `false`|
 |`com.sap.ui5.resource.USE_SERVER_CACHE`|Flag to enable caching of any resources in resource servlet; default: `true` \(default in dev mode: `false`|
 
@@ -137,7 +137,7 @@ Configuration parameters are added as context parameters to the web.xml.
 
 ### Development Mode
 
-When starting to develop OpenUI5 controls and modules being located inside the servlet paths `resources/` or `test-resources/` it makes the development process easier to disable the caching of such resources as well as to enable the resource browsing. To activate the development mode, add the following context parameter:
+When you're starting to develop OpenUI5 controls and modules being located inside the servlet paths `resources/` or `test-resources/`, it makes the development process easier to disable the caching of such resources as well as to enable the resource browsing. To activate the development mode, add the following context parameter:
 
 ``` xml
   <!-- BEGIN: DEV MODE -->
@@ -176,13 +176,13 @@ You can use the `ResourceServlet` to tunnel/proxy requests to another server tha
 
 This dispatches the requests from `resources/sap/m/Button.js` to `http://%server%:%port%/sapui5/resources/sap/m/Button.js`.
 
-If you are located behind a proxy and the remote location is outside your local network you can configure the proxy settings via the standard Java Networking and Proxy configurations by setting the system properties \(for HTTP\): `http.proxyHost`, `http.proxyPort`, `http.nonProxyHosts`, or \(for HTTPS\) `https.proxyHost`, `https.proxyPort`, `https.nonProxyHosts` of your Java runtime environment.
+If you are located behind a proxy and the remote location is outside your localnetwork, you can configure the proxy settings via the standard Java Networking and Proxy configurations by setting the system properties \(for HTTP\): `http.proxyHost`, `http.proxyPort`, `http.nonProxyHosts`, or \(for HTTPS\) `https.proxyHost`, `https.proxyPort`, `https.nonProxyHosts` of your Java runtime environment.
 
-In general for the resources returned from the proxy the `ResourceServlet` is enabling caching. By default, it uses the configured `com.sap.ui5.resource.MAX_AGE` to avoid too much load on the `ResourceServlet`.
+In general, for the resources returned from the proxy the `ResourceServlet` is enabling caching. By default, it uses the configured `com.sap.ui5.resource.MAX_AGE` to avoid too much load on the `ResourceServlet`.
 
 **Verify that a Resource was Retrieved from Remote Location**
 
-When in development mode it is possible to verify that a resource was retrieved from the desired remote location by checking the response header of the respective request. In this case the response header has an entry *x-sap-ResourceUrl = remote resource URL*, for example:
+When in development mode, it’s possible to verify that a resource was retrieved from the desired remote location by checking the response header of the respective request. In this case, the response header has an entry `x-sap-ResourceUrl = remote resource URL`, for example:
 
 ```
 x-sap-ResourceUrl = http://%server%:%port%/sap/public/bc/ui5_ui5/resources/sap-ui-core.js
@@ -218,7 +218,7 @@ Store the resources as follows:
         **/**
     ```
 
-    For custom JAR files you need to apply to this on your own.
+    For custom JAR files, you need to apply to this on your own.
 
 
 ***
@@ -229,9 +229,9 @@ Store the resources as follows:
 
 When you run OpenUI5 as an OSGi web bundle and reference the UI libraries as OSGi bundles, you need to determine the OpenUI5 OSGi bundles:
 
--   Extend the `ResourceServlet` in the OSGi servlet container by using an OSGi fragment that is responsible to add the OSGi flavor for the determination of UI libaries. Now the `ResourceServlet` is aware of the OSGi bundles and can search within the OSGi servlet container for UI libraries.
+-   Extend the `ResourceServlet` in the OSGi servlet container by using an OSGi fragment that is responsible to add the OSGi flavor for the determination of UI libraries. Now, the `ResourceServlet` is aware of the OSGi bundles and can search within the OSGi servlet container for UI libraries.
 
--   The `OSGiResourceServlet` uses the following entry in the `MANIFEST.MF` of the UI library's JAR files to determin the relevant UI libraries:
+-   The `OSGiResourceServlet` uses the following entry in the `MANIFEST.MF` of the UI library's JAR files to determine the relevant UI libraries:
 
     ```
     x-sap-ui5-ContentTypes: UILibrary

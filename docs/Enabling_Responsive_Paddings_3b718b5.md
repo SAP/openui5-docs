@@ -73,12 +73,13 @@ The following list shows the controls that support responsive paddings:
 
 -   `sap.m.Page`
 -   `sap.m.Popover`
+-   `sap.m.Dialog`
 -   `sap.m.Wizard`
 
 To enable this concept and to add responsive paddings to an element of the controls, add the following classes to the controls, depending on your use case:
 
-|`sap.m.Page`|`sap.m.Popover`|`sap.m.Wizard`|
-|------------|---------------|--------------|
+|`sap.m.Page`|`sap.m.Popover`, `sap.m.Dialog`|`sap.m.Wizard`|
+|------------|-------------------------------|--------------|
 | `sapUiResponsivePadding—header` `sapUiResponsivePadding—subHeader` `sapUiResponsivePadding—content` `sapUiResponsivePadding—footer` `sapUiResponsivePadding—floatingFooter` | `sapUiResponsivePadding—header` `sapUiResponsivePadding—subHeader` `sapUiResponsivePadding—content` `sapUiResponsivePadding—footer` | `sapUiResponsivePadding—header` `sapUiResponsivePadding—content` |
 
 ***
