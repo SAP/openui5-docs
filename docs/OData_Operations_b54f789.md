@@ -102,7 +102,7 @@ You append "\(...\)" even though the action's resource URL does not contain them
 
 ### Operation Parameters
 
-You can use the parameters of a deferred operation binding inside an XML view without the need to use an additional UI model.
+You can use the parameters of a deferred operation binding inside an XML view.
 
 The parameters are addressed by the path prefix "$Parameter". This can either be done by binding each parameter to the path prefix "$Parameter" \(Option 1\) or by having an outer binding with a "$Parameter" path \(Option 2\).
 
@@ -159,7 +159,7 @@ Alternatively, you may bind the entire form to the `$Parameter` context:
 
 In either case, the values of the parameters are set using the model binding of the control, with no need to write any application code.
 
-Operation parameters can be set by calling the function `setParameter` on the operation binding, as shown in this example:
+Alternatively, operation parameters can be set by calling the function `setParameter` on the operation binding, as shown in this example:
 
 **Controller:**
 
