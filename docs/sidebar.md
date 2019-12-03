@@ -432,6 +432,7 @@
                 -   [Extensions for OPA5](Extensions_for_OPA5_9c22d2a.md)
                 -   [Test Libraries for OPA5](Test_Libraries_for_OPA5_a88a5e5.md)
                 -   [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md)
+                -   [Using OpaBuilder](Using_OpaBuilder_952e2c7.md)
                 -   [Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md)
             -   [Mock Server](Mock_Server_69d3cbd.md)
                 -   [OData Features Supported by Mock Server](OData_Features_Supported_by_Mock_Server_3459c37.md)
