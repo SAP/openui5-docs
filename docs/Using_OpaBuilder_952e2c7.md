@@ -272,32 +272,31 @@ OpaBuilder.create(oOpa)
 
 When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. For example, when a test fails if no control is found that matches the conditions can become a challenge if the existence of the control being tested is not guaranteed.
 
-> Note:
-> Let's have an interaction that selects all items of a list that aren't selected yet.
-> 
-> ``` js
-> OpaBuilder.create(oOpa)
->     .hasType("sap.m.CustomListItem")
->     .hasProperties({ selected: false })
->     .doPress()
->     .description("Selecting unselected items")
->     .execute();
-> ```
-> 
-> This is fine as long as there is at least one unselected list item. When all items are already selected, the test fails undesirably. Here, the `doConditional` function comes in handy:
-> 
-> ``` js
-> OpaBuilder.create(oOpa)
->     .hasType("sap.m.CustomListItem")
->     .doConditional(
->         OpaBuilder.Matchers.properties({ selected: false }), 
->         OpaBuilder.Actions.press()
->     )
->     .description("Selecting unselected items")
->     .execute();
-> ```
-> 
-> 
+**Example**:
+
+Let's have an interaction that selects all items of a list that aren't selected yet.
+
+``` js
+OpaBuilder.create(oOpa)
+    .hasType("sap.m.CustomListItem")
+    .hasProperties({ selected: false })
+    .doPress()
+    .description("Selecting unselected items")
+    .execute();
+```
+
+This is fine as long as there is at least one unselected list item. When all items are already selected, the test fails undesirably. Here, the `doConditional` function comes in handy:
+
+``` js
+OpaBuilder.create(oOpa)
+    .hasType("sap.m.CustomListItem")
+    .doConditional(
+        OpaBuilder.Matchers.properties({ selected: false }), 
+        OpaBuilder.Actions.press()
+    )
+    .description("Selecting unselected items")
+    .execute();
+```
 
 ***
 

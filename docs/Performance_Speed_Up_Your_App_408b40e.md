@@ -16,7 +16,7 @@ OpenUI5 apps are basically JavaScript files sent to a client by a server and int
 
 ***
 
-### Configuration
+### Use Asynchronous Loading
 
 Issues with configuration are often caused by an old bootstrap or wrong usage of the activated features. Here's an example of what a bootstrap should look like for an up-to-date OpenUI5 app:
 
@@ -38,14 +38,10 @@ Issues with configuration are often caused by an old bootstrap or wrong usage of
 > 
 > 
 
-***
-
-#### Use asynchronous loading
-
 The most important setting is `data-sap-ui-async="true"`. This enables the runtime to load all the modules and preload files for all declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
 
 > Note:
-> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md).
+> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md). The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading.
 > 
 > 
 
@@ -53,7 +49,7 @@ The most important setting is `data-sap-ui-async="true"`. This enables the runti
 
 ``` html
 ...
-<script
+<scriptr
 	id="sap-ui-bootstrap"
 	src="/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"

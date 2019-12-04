@@ -54,7 +54,7 @@ When opening dialogs or new pages, the focus should be on the first focusable el
 
 #### Don't interfere with existing accessibility features
 
-Overriding code, for example the keyboard tab order, will impact the correct handling and may break the accessibility of the whole application.
+Overriding code, for example the keyboard tab order or OpenUI5 key handlers, will impact the correct handling and may break the accessibility of the whole application.
 
 ***
 
