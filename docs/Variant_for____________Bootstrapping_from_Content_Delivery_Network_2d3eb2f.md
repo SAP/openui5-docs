@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Variant for Bootstrapping from Content Delivery Network
 
-OpenUI5 can either be loaded locally with a relative path from an SAP Web server or externally from a Content Delivery Network \(CDN\).
+OpenUI5 can either be loaded locally with a relative path from an SAP Web server or externally from a Content Delivery Network \(CDN\). 
 
 > Note:
 > Loading OpenUI5 from a CDN improves your app performance: You can load from a server that \(in most cases\) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.
@@ -22,8 +22,6 @@ OpenUI5 can either be loaded locally with a relative path from an SAP Web server
 <a name="loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_ekc_ct3_vjb"/>
 
 ### Bootstrapping From OpenUI5 CDN
-
-SAPUI5 application hosted on SAP Cloud Platform are allowed to leverage the SAPUI5 CDN to retrieve the SAPUI5 distribution layer artifacts.
 
 ***
 

@@ -53,7 +53,7 @@ return OpaBuilder.create(oOpa)
     .execute();
 ```
 
-For more information, see [`OpaBuilder.build`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/build), [`OpaBuilder.execute`, and](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/execute)[`OpaBuilder.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/sap.ui.test.OpaBuilder.create).
+For more information, see [`OpaBuilder.build`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/build), [`OpaBuilder.execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/execute), and [`OpaBuilder.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/sap.ui.test.OpaBuilder.create).
 
 ***
 
@@ -131,11 +131,11 @@ When.waitFor({
 ```
 
 > Note:
-> This example is for showcasing the usage of a custom action. The best practice that we recommend is to use only **Press** and **EnterText** actions when simulating user interactions.
+> This example is for showcasing the usage of a custom action. The best practice that we recommend is to use only `Press` and `EnterText` actions when simulating user interactions.
 > 
 > 
 
-Besides having user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the **matchers** property, this part could directly be rewritten as:
+Besides having user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the `matchers` property, this part could directly be rewritten as:
 
 ``` js
 ...
@@ -270,7 +270,7 @@ OpaBuilder.create(oOpa)
 
 #### Conditional Actions
 
-When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. For example, when a test fails if no control is found that matches the conditions can become a challenge if the existence of the control being tested is not guaranteed.
+When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions, which becomes a challenge if the existence of the control being tested is not guaranteed.
 
 **Example**:
 

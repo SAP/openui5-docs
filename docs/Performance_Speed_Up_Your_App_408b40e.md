@@ -41,11 +41,11 @@ Issues with configuration are often caused by an old bootstrap or wrong usage of
 The most important setting is `data-sap-ui-async="true"`. This enables the runtime to load all the modules and preload files for all declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
 
 > Note:
-> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md). The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading.
+> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md). The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading. For further information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 > 
 > 
 
-`index.html` file:
+The `index.html` file:
 
 ``` html
 ...
@@ -95,9 +95,39 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 ***
 
-#### Use the `manifest.json` descriptor file instead of the bootstrap to define dependencies
+#### Make sure that all resources are available to avoid 404 errors
 
-Don't specify a link to the CSS in the bootstrap of your app, use the `manifest.json` descriptor file instead.
+For example, make sure that you provide i18n files for all languages in which your app is used.
+
+***
+
+#### Use "manifest first" to load the component
+
+Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
+
+***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_kn2_ryd_yjb"/>
+
+### Make Use of Asynchronous Module Loading \(AMD Style\)
+
+If modules follow the synchronous module defintion \(AMD\) standard and the bootstrap flag `data-sap-ui-async` is set to `true`, custom scripts and other modules can also be loaded asynchronously when the preload is not available. It will help you in the future to enable asynchronous loading of individual modules combined with the usage of HTTP/2 or AMD-based packagers. It also ensures proper dependency tracking between modules.
+
+But it isn't enough to write AMD modules. You also need to prevent access to OpenUI5 classes via global names. Do not use `new sap.m.Button()`, but require the `Button` and call the constructor via the local AMD reference.
+
+For more information, see the [API Reference for `sap.ui.define`](https://openui5.hana.ondemand.com/api/sap.ui#methods/sap.ui.define) in the Demo Kit.
+
+Avoid usages of `sap.ui.requireSync` and `jQuery.sap.require` whenever possible! To enable modules to load asynchronously, please use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
+
+Please follow the guide [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
+
+***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_b1w_xyd_yjb"/>
+
+### Use the `manifest.json` Descriptor File instead of the Bootstrap to define Dependencies
+
+Don't specify a link to the CSS in the bootstrap of your app; use the `manifest.json` descriptor file instead.
 
 We recommend using the `manifest.json` application descriptor file to declare dependencies, because this way you can benefit from the preload features of the component factory, which shortens the loading times.
 
@@ -109,7 +139,8 @@ If you want to make additional libraries generally known in your app, without di
 "sap.ui5": {
 	"rootView": {
 		"viewName": "app.view.Main",
-		"type": "XML"
+		"type": "XML",
+		"async": true
 	},
 	"dependencies": {
 		"minUI5Version": "1.30.0",
@@ -127,23 +158,13 @@ For more information, see [Descriptor for Applications, Components, and Librarie
 
 ***
 
-#### Load OpenUI5 from the content delivery network \(CDN\)
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_nmt_4k2_yjb"/>
 
-Especially if you're running your app in the cloud, you benefit from the global distribution of servers.
+### Load OpenUI5 from the Content Delivery Network \(CDN\)
+
+In order to ensure that all static SAPUI5 resources are served with the lowest possible latency in SAP Cloud Platform scenarios, you can load the resources from the Content Delivery Network \(CDN\) cached by AKAMAI. Especially if you're running your app in the cloud, you benefit from the global distribution of servers. For other scenarios, it is possible to configure a custom CDN of choice as an external location.
 
 For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
-
-***
-
-#### Make sure that all resources are available to avoid 404 errors
-
-For example, make sure that you provide i18n files for all languages in which your app is used.
-
-***
-
-#### Use "manifest first" to load the component
-
-Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
 ***
 
