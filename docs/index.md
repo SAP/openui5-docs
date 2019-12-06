@@ -510,6 +510,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                     -   [Test a Rule](Test_a_Rule_f5e4fe6.md)
                     -   [Common Rule Patterns](Common_Rule_Patterns_3fc1412.md)
                     -   [Guidelines and Best Practices](Guidelines_and_Best_Practices_eaeea19.md)
+            -   [Test Recorder](Test_Recorder_2535ef9.md)
             -   [UI5 Inspector](UI5_Inspector_b24e724.md)
             -   [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
             -   [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md)
