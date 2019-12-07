@@ -16,6 +16,8 @@ OpenUI5 apps are basically JavaScript files sent to a client by a server and int
 
 ***
 
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_AsyncLoading"/>
+
 ### Use Asynchronous Loading
 
 Configuration issues are often caused by an old bootstrap or a wrong usage of the activated features. Here's an example of what a bootstrap should look like for an up-to-date OpenUI5 app:
@@ -111,7 +113,7 @@ Please follow the guide [Best Practices for Loading Modules](Best_Practices_for_
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_b1w_xyd_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestJson"/>
 
 ### Use the `manifest.json` Descriptor File instead of the Bootstrap to define Dependencies
 
@@ -146,7 +148,7 @@ For more information, see [Descriptor for Applications, Components, and Librarie
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_nmt_4k2_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_LoadFromCDN"/>
 
 ### Load OpenUI5 from the Content Delivery Network \(CDN\)
 
@@ -156,7 +158,7 @@ For more information, see [Variant for Bootstrapping from Content Delivery Netwo
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_fz4_s3j_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_Resources404"/>
 
 ### Ensure that all Resources are Available to Avoid 404 Errors
 
@@ -164,7 +166,7 @@ Provide i18n files for all languages used in your application. See: [Identifying
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_pnz_njj_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestFirst"/>
 
 ### Use "manifest first" to load the Component
 
@@ -180,7 +182,7 @@ Component.create({
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ylv_mgk_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads"/>
 
 ### Ensure that Library Preloads are Enabled
 
@@ -194,7 +196,7 @@ In some cases it may happen that preloads are disabled:
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_g1s_phk_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ComponentPreload"/>
 
 ### Ensure that Application Resources are Loaded with a Component Preload
 
@@ -209,13 +211,15 @@ If you are using reuse-components, the related files could be bundled inside a l
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_n4c_c1l_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_RoutingConfigured"/>
 
 ### Ensure the Routing is Configured to load Targets Asynchronously
 
 Please check the [Routing Configuration](Routing_Configuration_9023130.md) of the application's `manifest.json` for an `async=true` setting to configure the targets for asynchronous loading.
 
 ***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_NetworkRequests"/>
 
 ### Check Network Requests
 
@@ -252,11 +256,11 @@ If you're using SAP Web IDE, refer to [Application Build](https://help.hana.onde
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_qnz_zdl_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateJquery"/>
 
 ### Migrate `jquery.sap.*` Modules to their Modularised Variants
 
-Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you are still using the `jquery.sap.*` variants, a so called "stubbing layer" loads the old modules synchronously!
+Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you are still using the `jquery.sap.*` variants, a so-called "stubbing layer" loads the old modules synchronously!
 
 You can find a list of all relevant modules in [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md).
 
@@ -269,7 +273,7 @@ The usages can either be replaced manually or by the the [UI5 Migration Tool](ht
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_hyp_rll_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateFactories"/>
 
 ### Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants
 
@@ -279,7 +283,7 @@ Please visit the overview [Legacy Factories Replacement](Legacy_Factories_Replac
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ry5_hml_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ModelPreload"/>
 
 ### Use the OData V2 Model Preload
 
@@ -298,11 +302,11 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_nd3_ynl_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MetadataCaching"/>
 
 ### Use OData V2 Metadata Caching
 
-To ensure fast loading times for **SAP Fiori applications started from the Fiori Launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check in developer tools of your browser \(e.g. the *Network* tab in the Google Chrome developer tools\) if the token is appended to the request URL.
+To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check in developer tools of your browser \(e.g. the *Network* tab in the Google Chrome developer tools\) if the token is appended to the request URL.
 
 > Note:
 > This feature is only supported by OData V2 for SAP Fiori applications.
@@ -311,14 +315,14 @@ To ensure fast loading times for **SAP Fiori applications started from the Fiori
 
 For more information, please check:
 
--   [876e43a272cc45cb82dea640edff0ab2.md]()
+-   [Cache Buster for OData Metadata of SAP Fiori Apps](https://help.sap.com/viewer/a7b390faab1140c087b8926571e942b7/7.52.0/en-US/876e43a272cc45cb82dea640edff0ab2.html)
 
--   [2439967f0c284f6caf05e4323dd9292e.md]()
+-   [Scheduling Update of OData Metadata Caching](https://help.sap.com/viewer/a7b390faab1140c087b8926571e942b7/7.52.0/en-US/2439967f0c284f6caf05e4323dd9292e.html)
 
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_pzx_vpl_yjb"/>
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ListsTables"/>
 
 ### Check Lists and Tables
 
@@ -331,6 +335,8 @@ The performance limits of your browser are reached differently depending on the 
 For further information, please check [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
 
 ***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_OptimizeCode"/>
 
 ### Further Code Optimization
 
