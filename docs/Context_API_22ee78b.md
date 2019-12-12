@@ -18,6 +18,22 @@ The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Con
 
 -   `getIndex` to return the context's list index provided the context has been created by an `ODataListBinding`
 
+-   `created` to wait for creation of a new entity
+
+-   `delete` to delete an entity
+
+-   `getCanonicalPath, requestCanonicalPath` to determine the "canonical path" of an entity
+
+-   `hasPendingChanges` to test for pending changes
+
+-   `isTransient` to test whether a new entity exists on the client-side only
+
+-   `refresh` to refresh an entity
+
+-   `requestSideEffects` to load side effects of a previous PATCH
+
+-   `setProperty` for asynchronously setting a property value. This is even possible without reading data first, in which case `If-Match : *` is used. You can also set a property without sending a PATCH request by using `null` as a group ID, but only if data has been read before.
+
 
 > Note:
 > For `getObject` and `requestObject`, the data is cloned if the given path points to a non-primitive type. This ensures that internal OData model values cannot be modified.

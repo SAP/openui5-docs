@@ -7,6 +7,83 @@
 				"items": {
 					"What's New in OpenUI5 1.73": {
 						"link": "What's_New_in_OpenUI51.73_7b82664.md"
+					},
+					"Previous Versions": {
+						"link": "Previous_Versions_6660a59.md",
+						"items": {
+							"What's New in OpenUI5 1.72": {
+								"link": "What's_New_in_OpenUI51.72_25e5326.md"
+							},
+							"What's New in OpenUI5 1.71": {
+								"link": "What's_New_in_OpenUI51.71_609fd01.md"
+							},
+							"What's New in OpenUI5 1.70": {
+								"link": "What's_New_in_OpenUI51.70_4e89fee.md"
+							},
+							"What's New in OpenUI5 1.69": {
+								"link": "What's_New_in_OpenUI51.69_41203fd.md"
+							},
+							"What's New in OpenUI5 1.68": {
+								"link": "What's_New_in_OpenUI51.68_5531aef.md"
+							},
+							"What's New in OpenUI5 1.67": {
+								"link": "What's_New_in_OpenUI5_1.67__0968958.md"
+							},
+							"What's New in OpenUI5 1.66": {
+								"link": "What's_New_in_OpenUI5_1.66__ebe7fda.md"
+							},
+							"What's New in OpenUI5 1.65": {
+								"link": "What's_New_in_OpenUI51.65_9d2b189.md"
+							},
+							"What's New in OpenUI5 1.64": {
+								"link": "What's_New_in_OpenUI5_1.64__1975e30.md"
+							},
+							"What's New in OpenUI5 1.63": {
+								"link": "What's_New_in_OpenUI5_1.63__77e1dcc.md"
+							},
+							"What's New in OpenUI5 1.62": {
+								"link": "What's_New_in_OpenUI5_1.62__27eea38.md"
+							},
+							"What's New in OpenUI5 1.61": {
+								"link": "What's_New_in_OpenUI51.61_de4d50b.md"
+							},
+							"What's New in OpenUI5 1.60": {
+								"link": "What's_New_in_OpenUI51.60_2a70354.md"
+							},
+							"What's New in OpenUI5 1.58": {
+								"link": "What's_New_in_OpenUI51.58_b28edde.md"
+							},
+							"What's New in OpenUI5 1.56": {
+								"link": "What's_New_in_OpenUI51.56_53b4b5e.md"
+							},
+							"What's New in OpenUI5 1.54": {
+								"link": "What's_New_in_OpenUI51.54_f29023e.md"
+							},
+							"What's New in OpenUI5 1.52": {
+								"link": "What's_New_in_OpenUI5________1.52_a09dd79.md"
+							},
+							"What's New in OpenUI5 1.50": {
+								"link": "What's_New_in_OpenUI51.50_a844984.md"
+							},
+							"What's New in OpenUI5 1.48": {
+								"link": "What's_New_in_OpenUI51.48_2818f80.md"
+							},
+							"What's New in OpenUI5 1.46": {
+								"link": "What's_New_in_OpenUI51.46_4cf0986.md"
+							},
+							"What's New in OpenUI5 1.44": {
+								"link": "What's_New_in_OpenUI51.44_05ce1dc.md"
+							},
+							"What's New in OpenUI5 1.42": {
+								"link": "What's_New_in_OpenUI51.42_4768f1a.md"
+							},
+							"What's New in OpenUI5 1.40": {
+								"link": "What's_New_in_OpenUI51.40_e659bd2.md"
+							},
+							"What's New in OpenUI5 1.38": {
+								"link": "What's_New_in_OpenUI51.38_.md#loio6a875f998994489483e8085705347d72"
+							}
+						}
 					}
 				}
 			},

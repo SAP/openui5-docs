@@ -36,8 +36,3 @@ Follow this guide for a quick step-by-step performance check for your applicatio
 
 Blog: SAPUI5 Application Startup Performance - Troubleshooting
 
-**Related information**  
-
-
-
-

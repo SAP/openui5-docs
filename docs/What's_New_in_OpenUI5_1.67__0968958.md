@@ -1,11 +1,12 @@
+<!-- loio0968958c4143469d941dbe3b59e06142 -->
+
 | loio |
 | -----|
 | 0968958c4143469d941dbe3b59e06142 |
 
 <div id="loio">
 
-view on: [help.sap.com](https://help.sap.com/viewer/DRAFT/3237636b137e43519a20ad5513c49ccb/latest/en-US/0968958c4143469d941dbe3b59e06142.html) | [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0968958c4143469d941dbe3b59e06142) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0968958c4143469d941dbe3b59e06142)</div>
-<!-- loio0968958c4143469d941dbe3b59e06142 -->
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0968958c4143469d941dbe3b59e06142) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0968958c4143469d941dbe3b59e06142)</div>
 
 ## What's New in OpenUI5 1.67
 
@@ -72,3 +73,4 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 			<td> **`sap.uxap.ObjectPageLayout`** The control header can now be snapped \(collapsed\) and no scroll bar is displayed. This behavior happens when there is only one section with only one subsection and the subsection is marked with the `sapUxAPObjectPageSubSectionFitContainer` CSS class to expand to the full height of the sections container.</td>
 	</tbody>
 </table>
+

@@ -14,7 +14,7 @@ Write tests by leveraging the builder pattern to create OPA5 descriptors.
 
 `sap.ui.test.OpaBuilder` is available as of version 1.74.
 
-The main benefit for developers is having a function driven API at hand, which is supports and promotes a clean test definition and execution.
+The main benefit for developers is having a function-driven API at hand, which supports and promotes a clean test definition and execution.
 
 In [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md), we provided some examples on how to interact with controls. Let's have a look at some by implementing them using `OpaBuilder`.
 
@@ -24,7 +24,7 @@ In [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Co
 
 ### Simulating a `press` Event
 
-The `waitFor` options for this straight-forward example are as follows:
+The `waitFor` options for this straightforward example are as follows:
 
 ``` js
 return oOpa.waitFor({
@@ -33,7 +33,7 @@ return oOpa.waitFor({
 });
 ```
 
-When using `OpaBuilder`, it looks like this:
+When you use `OpaBuilder`, it looks like this:
 
 ``` js
 return oOpa.waitFor(
@@ -44,7 +44,7 @@ return oOpa.waitFor(
 );
 ```
 
-The result of the `OpaBuilder.build` method is the configuration object for the `Opa5.waitFor` method and commonly used just as such, so `OpaBuilder` comes with a convenient `OpaBuilder.execute()` method. The required `Opa5` instance can be provided as parameter to the `execute` function or by using the `constructor` or `create` method. Taking this into account, the previous example can also be written like this:
+The result of the `OpaBuilder.build` method is the configuration object for the `Opa5.waitFor` method. Because it's commonly used just as such, `OpaBuilder` comes with a convenient `OpaBuilder.execute()` method. The required `Opa5` instance can be provided as a parameter to the `execute` function, or you can use the `constructor` or `create` method. Taking this into account, the previous example can also be written like this:
 
 ``` js
 return OpaBuilder.create(oOpa)
@@ -61,7 +61,7 @@ For more information, see [`OpaBuilder.build`](https://openui5.hana.ondemand.com
 
 ### Complex Interaction with Child Elements
 
-Assuming we want to show the suggestion list with filter "Jo", the `waitFor` definition could be this:
+Let's assume we want to show the suggestion list with a filter for "Jo". The `waitFor` definition could look like this:
 
 ``` js
 oOpa.waitFor({
@@ -87,7 +87,7 @@ oOpa.waitFor({
 
 `OpaBuilder` comes with convenient functions to operate on aggregations and child elements: `OpaBuilder.doOnAggregation` and `OpaBuilder.doOnChildren`.
 
-While `doOnAggregation` requires the aggregation name of the defined control and only operates on those OpenUI5 aggregation items, `doOnChildren` is meant for addressing any control that is a child within the control hierarchy. Internally, the `sap.ui.test.Matchers.Ancestor` matcher is used as well, but the definition is simplified:
+While `doOnAggregation` requires the aggregation name of the defined control and only operates on those OpenUI5 aggregation items, `doOnChildren` addresses any control that is a child within the control hierarchy. Internally, the `sap.ui.test.Matchers.Ancestor` matcher is used as well, but the definition is simplified:
 
 ``` js
 OpaBuilder.create(oOpa)
@@ -131,11 +131,11 @@ When.waitFor({
 ```
 
 > Note:
-> This example is for showcasing the usage of a custom action. The best practice that we recommend is to use only `Press` and `EnterText` actions when simulating user interactions.
+> This example showcases the usage of a custom action. The best practice that we recommend is to use only `Press` and `EnterText` actions when simulating user interactions.
 > 
 > 
 
-Besides having user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the `matchers` property, this part could directly be rewritten as:
+Besides user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the `matchers` property, this part could directly be rewritten as:
 
 ``` js
 ...
@@ -166,7 +166,7 @@ OpaBuilder.create(When)
     .execute();
 ```
 
-While `matchers` and `actions` can be an array of functions, the more seldom used `check` and `success` properties must be a single function. Nevertheless, due to the builder pattern those functions can be chained as well:
+While `matchers` and `actions` can be an array of functions, the more seldom used `check` and `success` properties must be a single function. Nevertheless, due to the builder pattern, those functions can be chained as well:
 
 ``` js
 OpaBuilder.create()
@@ -200,13 +200,13 @@ OpaBuilder.create()
 
 ### Additional Features
 
-While `OpaBuilder` itself cannot extend the features provided by `Opa5.waitFor`, it comes with some convenient methods to support test definition. Besides the already mentioned child element support, method chaining, and most commonly used matchers and actions as predefined functions, there are some less-obvious features.
+While `OpaBuilder` itself cannot extend the features provided by `Opa5.waitFor`, it comes with some convenient methods to support test definition. Besides the already mentioned child element support, method chaining, and most commonly used matchers and actions as predefined functions, there are some less obvious features.
 
 ***
 
 #### Generated Error Message
 
-If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`, which consists of the `controlType` and `id` properties as well as hinting the count of additional matchers. A generated `errorMessage` can look like this:
+If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`. The message consists of the `controlType` and `id` properties as well as well as the number of any additional matchers. A generated `errorMessage` can look like this:
 
 ``` js
 sap.m.Button#myButton with 1 additional matcher(s) not found
@@ -216,7 +216,7 @@ sap.m.Button#myButton with 1 additional matcher(s) not found
 
 #### Success Message and Description
 
-When defining an OPA5 test without an assertion, there's no output on success. Most often, such an output is useful for longer journeys, so the `OpaBuilder.success` method also accepts a string argument, generating a simple truthy assertion with the provided message as a success function:
+When defining an OPA5 test without an assertion, there's no output on success. Most often, such an output is useful for longer journeys, so the `OpaBuilder.success` method also accepts a string argument. This generates a simple truthy assertion with the provided message as a success function:
 
 ``` js
 success: function (vControls) {
@@ -241,7 +241,7 @@ Pressing 'Cancel' button - FAILURE
 
 #### Aggregation Matcher
 
-A common use case of tests is finding and operating on a control that has one or more aggregation items that fulfill certain conditions. While there are already some predefined matchers for aggregations in place, `OpaBuilder` comes with the generic `hasAggregation` and the most commonly used `hasAggregationProperties` methods. The `vMatchers` parameter of `hasAggregation` can be any matcher method \(or matcher chain\) that is executed against the items of the defined aggregation of the matching control.
+A common use case of tests is finding and operating on a control with one or more aggregation items that fulfill certain conditions. While there are already some predefined matchers for aggregations in place, `OpaBuilder` comes with the generic `hasAggregation` and the most commonly used `hasAggregationProperties` methods. The `vMatchers` parameter of `hasAggregation` can be any matcher method \(or matcher chain\) that is executed against the items of the defined aggregation of the matching control.
 
 ``` js
 OpaBuilder.create(oOpa)
@@ -270,7 +270,7 @@ OpaBuilder.create(oOpa)
 
 #### Conditional Actions
 
-When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions, which becomes a challenge if the existence of the control being tested is not guaranteed.
+When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions. This could be a challenge if the existence of the control being tested is not guaranteed.
 
 **Example**:
 
@@ -304,7 +304,7 @@ OpaBuilder.create(oOpa)
 
 As already seen in the last example, `OpaBuilder` has two static members: `OpaBuilder.Matchers` and `OpaBuilder.Actions`. While there's no issue in using any matchers from `sap.ui.test.Matchers` in the `OpaBuilder` definition, the goal of the two members is to provide the most commonly used matchers and actions to be directly accessed when working with `OpaBuilder` without explicitly requiring them in the test class.
 
-`OpaBuilder.Actions` contains both `sap.ui.test.Actions.Press` and `sap.ui.test.Actions.EnterText`, while `OpaBuilder.Matchers` does **not** contain every predefined matcher in `sap.ui.test.Matchers`, but still provides some additional ones as described in the API.
+`OpaBuilder.Actions` contains both `sap.ui.test.Actions.Press` and `sap.ui.test.Actions.EnterText`. `OpaBuilder.Matchers` does **not** contain every predefined matcher in `sap.ui.test.Matchers`, but still provides some additional ones as described in the API.
 
 ***
 
