@@ -1,12 +1,12 @@
-<!-- loio2535ef9272064cb6bd6b44e5402d531d -->
+<!-- copydac59fadd5f9419d986f74ba602c6d29 -->
 
 | loio |
 | -----|
-| 2535ef9272064cb6bd6b44e5402d531d |
+| dac59fadd5f9419d986f74ba602c6d29 |
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2535ef9272064cb6bd6b44e5402d531d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2535ef9272064cb6bd6b44e5402d531d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/dac59fadd5f9419d986f74ba602c6d29) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/dac59fadd5f9419d986f74ba602c6d29)</div>
 
 ## Test Recorder
 
@@ -16,7 +16,7 @@ Test Recorder is part of the OpenUI5 framework and is available in all browsers.
 
 ***
 
-<a name="loio2535ef9272064cb6bd6b44e5402d531d__section_wxk_d2w_zjb"/>
+<a name="copydac59fadd5f9419d986f74ba602c6d29__section_wxk_d2w_zjb"/>
 
 ### Getting Started
 
@@ -37,7 +37,7 @@ From the navigation actions at the top bar of the Test Recorder, you can minimiz
 
 ***
 
-<a name="loio2535ef9272064cb6bd6b44e5402d531d__section_vyg_n5d_1kb"/>
+<a name="copydac59fadd5f9419d986f74ba602c6d29__section_vyg_n5d_1kb"/>
 
 ### Control Tree and Common Information
 
@@ -69,7 +69,7 @@ There are three general types of information, relevant to testing, that you can 
 
 ***
 
-<a name="loio2535ef9272064cb6bd6b44e5402d531d__section_c2d_ts3_1kb"/>
+<a name="copydac59fadd5f9419d986f74ba602c6d29__section_c2d_ts3_1kb"/>
 
 ### Actions
 
@@ -88,7 +88,7 @@ To perform an action from the app page, right-click on any control and select th
 
 ***
 
-<a name="loio2535ef9272064cb6bd6b44e5402d531d__section_dwd_ts3_1kb"/>
+<a name="copydac59fadd5f9419d986f74ba602c6d29__section_dwd_ts3_1kb"/>
 
 ### Snippets
 

@@ -1574,6 +1574,9 @@
 										"link": "Frequently_Asked_Questions_02ef39f.md"
 									}
 								}
+							},
+							"Test Recorder": {
+								"link": "Test_Recorder_2535ef9.md"
 							}
 						}
 					},
@@ -1765,7 +1768,7 @@
 								}
 							},
 							"Test Recorder": {
-								"link": "Test_Recorder_2535ef9.md"
+								"link": "Test_Recorder_dac59fa.md"
 							},
 							"UI5 Inspector": {
 								"link": "UI5_Inspector_b24e724.md"

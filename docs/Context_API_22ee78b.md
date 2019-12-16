@@ -10,29 +10,29 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Context API
 
-The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Context` objects which enhance `sap.ui.model.Context` and provide the following methods:
+The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Context` objects, which enhance `sap.ui.model.Context` and provide the following methods:
 
--   `getObject` or `getProperty` for synchronous and `requestObject` or `requestProperty` for asynchronous access to values; the methods to access a property can provide the value in internal or external format
+-   `getObject` or `getProperty` provide synchronous and `requestObject` or `requestProperty` provide asynchronous access to values; the methods to access a property can provide the value in internal or external format
 
--   `getBinding` to retrieve the binding which created the context
+-   `getBinding` retrieves the binding which created the context
 
--   `getIndex` to return the context's list index provided the context has been created by an `ODataListBinding`
+-   `getIndex` returns the context's list index provided the context has been created by an `ODataListBinding`
 
--   `created` to wait for creation of a new entity
+-   `created` returns a promise that resolves after the successful creation of the new entity in the back end
 
--   `delete` to delete an entity
+-   `delete` deletes an entity
 
--   `getCanonicalPath, requestCanonicalPath` to determine the "canonical path" of an entity
+-   `getCanonicalPath, requestCanonicalPath` determines the "canonical path" of an entity
 
--   `hasPendingChanges` to test for pending changes
+-   `hasPendingChanges` tests for pending changes
 
--   `isTransient` to test whether a new entity exists on the client-side only
+-   `isTransient` tests whether a new entity exists on the client-side only
 
--   `refresh` to refresh an entity
+-   `refresh` refreshes an entity
 
--   `requestSideEffects` to load side effects of a previous PATCH
+-   `requestSideEffects` loads the side effects of a PATCH
 
--   `setProperty` for asynchronously setting a property value. This is even possible without reading data first, in which case `If-Match : *` is used. You can also set a property without sending a PATCH request by using `null` as a group ID, but only if data has been read before.
+-   `setProperty` asynchronously sets a property value. This is even possible without reading data first, in which case `If-Match : *` is used. You can also set a property without sending a PATCH request by using `null` as a group ID, but only if data has been read before.
 
 
 > Note:
