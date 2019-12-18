@@ -462,7 +462,7 @@ oModel.setChangeGroups({
         [changeSetId: "ID",]
         [single: true/false,]
     }
-)};
+});
 oModel.submitChanges({groupId: "myGroupId", success: mySuccessHandler, error: myErrorHandler});
 ```
 
