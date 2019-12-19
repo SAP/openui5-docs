@@ -459,8 +459,8 @@ oModel.setDeferredGroups(["myGroupId", "myGroupId2"]);
 oModel.setChangeGroups({
     "EntityTypeName": {
         groupId: "myGroupId",  
-        [changeSetId: "ID",]
-        [single: true/false,]
+        changeSetId: "ID",/*optional*/
+        single: true, /*optional, can be true or false*/
     }
 });
 oModel.submitChanges({groupId: "myGroupId", success: mySuccessHandler, error: myErrorHandler});

@@ -206,7 +206,7 @@ While `OpaBuilder` itself cannot extend the features provided by `Opa5.waitFor`,
 
 #### Generated Error Message
 
-If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`. The message consists of the `controlType` and `id` properties as well as well as the number of any additional matchers. A generated `errorMessage` can look like this:
+If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`. The message consists of the `controlType` and `id` properties as well as the number of any additional matchers. A generated `errorMessage` can look like this:
 
 ``` js
 sap.m.Button#myButton with 1 additional matcher(s) not found
@@ -262,7 +262,7 @@ OpaBuilder.create(oOpa)
 ```
 
 > Note:
-> Defining two `hasAggregation` matchers can also match two different aggregation items. To ensure that one item fulfills all criteria, an all criteria-matcher should be defined in the same `hasAggregation` call.
+> Defining two `hasAggregation` matchers can also match two different aggregation items. To ensure that one item fulfills all criteria, an all-criteria-matcher should be defined in the same `hasAggregation` call.
 > 
 > 
 
@@ -270,7 +270,7 @@ OpaBuilder.create(oOpa)
 
 #### Conditional Actions
 
-When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions. This could be a challenge if the existence of the control being tested is not guaranteed.
+When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions. This could be a challenge if the control being tested is not guaranteed to exist.
 
 **Example**:
 
@@ -285,7 +285,7 @@ OpaBuilder.create(oOpa)
     .execute();
 ```
 
-This is fine as long as there is at least one unselected list item. When all items are already selected, the test fails undesirably. Here, the `doConditional` function comes in handy:
+This is fine as long as there is at least one unselected list item. When all items are already selected, the test fails, which is not what we want. Here, the `doConditional` function comes in handy:
 
 ``` js
 OpaBuilder.create(oOpa)
@@ -304,7 +304,7 @@ OpaBuilder.create(oOpa)
 
 As already seen in the last example, `OpaBuilder` has two static members: `OpaBuilder.Matchers` and `OpaBuilder.Actions`. While there's no issue in using any matchers from `sap.ui.test.Matchers` in the `OpaBuilder` definition, the goal of the two members is to provide the most commonly used matchers and actions to be directly accessed when working with `OpaBuilder` without explicitly requiring them in the test class.
 
-`OpaBuilder.Actions` contains both `sap.ui.test.Actions.Press` and `sap.ui.test.Actions.EnterText`. `OpaBuilder.Matchers` does **not** contain every predefined matcher in `sap.ui.test.Matchers`, but still provides some additional ones as described in the API.
+`OpaBuilder.Actions` contains both `sap.ui.test.Actions.Press` and `sap.ui.test.Actions.EnterText`, while `OpaBuilder.Matchers` does **not** contain every predefined matcher in `sap.ui.test.Matchers`, but still provides some additional ones as described in the API.
 
 ***
 
