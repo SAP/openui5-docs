@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The Test Recorder tool supports app developers to write integration and system tests.
 
-Test Recorder is part of the OpenUI5 framework and is available in all browsers. You can use the tool in any existing OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. Test Recorder is aligned with the two official OpenUI5 testing tools - OPA5 and UIVeri5.
+Test Recorder is part of the OpenUI5 framework and is available in all browsers. As of version 1.74, you can use the tool in any OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. Test Recorder is aligned with the two official OpenUI5 testing tools - OPA5 and UIVeri5.
 
 ***
 
@@ -60,7 +60,7 @@ There are three general types of information, relevant to testing, that you can 
 
 
 > Note:
-> -   The IDs can be generated \(not stable\) and therefore not suitable for tests.
+> -   The IDs can be generated \(not stable\) and therefore not suitable for tests. You can recognize unstable IDs by the double underscore they start with.
 > 
 > -   Many controls can have the same property or binding values and therefore, when you use them in a control locator, the test finds multiple controls. This is a valid scenario but it’s always more reliable to locate only one control with a highly specific locator.
 > 
@@ -85,6 +85,11 @@ You can perform the following actions on controls, either from the *Control Tree
 To perform an action from the *Control Tree*, right click and use the context menu for *Press* and *Enter Text*, or simply select the desired element for *Highlight* \(the respective control in the rendered UI gets highlighted\).
 
 To perform an action from the app page, right-click on any control and select the desired action from the context menu \(the respective control in the *Control Tree* gets highlighted\).
+
+> Note:
+> A *Press* or *Enter Text* action snippet is generated irrespective of whether the control accepts such interactions. Keep in mind that such snippet is not suitable for tests.
+> 
+> 
 
 ***
 
