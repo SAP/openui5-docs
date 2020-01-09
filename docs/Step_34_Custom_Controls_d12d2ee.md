@@ -242,7 +242,7 @@ sap.ui.define([
 		_onObjectMatched: function (oEvent) {
 *HIGHLIGHT START*			this.byId("rating").reset();*HIGHLIGHT END*
 			this.getView().bindElement({
-				path: "/" + oEvent.getParameter("arguments").invoicePath,
+				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
 				model: "invoice"
 			});
 		},

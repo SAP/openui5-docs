@@ -114,7 +114,7 @@ sap.ui.define([
 			*HIGHLIGHT START*var oItem = oEvent.getSource();*HIGHLIGHT END*
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.navTo("detail"*HIGHLIGHT START*, {
-				invoicePath: oItem.getBindingContext("invoice").getPath().substr(1)
+				invoicePath: window.encodeURIComponent(oItem.getBindingContext("invoice").getPath().substr(1))
 			}*HIGHLIGHT END*);
 		}
 	});
@@ -144,7 +144,7 @@ To identify the object that we selected, we would typically use the key of the i
 		},
 		_onObjectMatched: function (oEvent) {
 			this.getView().bindElement({
-				path: "/" + oEvent.getParameter("arguments").invoicePath,
+				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
 				model: "invoice"
 			});
 		}
