@@ -54,12 +54,10 @@ You can view and download all files at [OData V4 - Step 6](https://openui5.hana.
 			this.getView().setModel(oViewModel, "appView");
 			this.getView().setModel(oMessageModel, "message");
 
-		},
-...
-
 			oMessageModelBinding.attachChange(this.onMessageBindingChange, this);
-			this._bTechnicalErrors = false;var oMessageManager = sap.ui.getCore().getMessageManager(),
-				oMessageModel = oMessageManager.getMessageModel(),*HIGHLIGHT END*
+			this._bTechnicalErrors = false;*HIGHLIGHT END*
+},
+...
 ```
 
 We change the `onInit` method: The `appView` model receives two additional properties, which we will use to control whether certain controls in the view are enabled or visible during user entries. We also make the `MessageModel` available to the view and add a `ListBinding`. When the OData service reports errors while writing data, the OData Model adds them to the `MessageModel` as technical messages. Therefore we apply a filter to the `ListBinding`. We register our own handler to the `change` event of that `ListBinding` in order to capture any errors.

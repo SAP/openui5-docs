@@ -98,6 +98,11 @@ The `manifest` option allows to configure when and from where the descriptor is 
 
 ### Descriptor Content
 
+> Note:
+> You can find an example `manifest.json` file with sample code for the descriptor content [here](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_example).
+> 
+> 
+
 The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, `sap.ui5`, `sap.platform.abap`, `sap.platform.hcp` and `sap.fiori`. The following tables show the application-specific attributes provided by the respective namespaces:
 
 ***
@@ -579,6 +584,8 @@ Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b
 
 
 ***
+
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_example"/>
 
 ### Example
 

@@ -164,7 +164,7 @@ To get more insight into the client-server communication, we open the *Console* 
 > 
 > If you want to switch to the real service, do the following:
 > 
-> 1.  In the `index.html` file, remove the line `"mockserver.start();"`.
+> 1.  In the `index.html` file, remove the line `data-sap-ui-oninit="module:sap/ui/core/tutorial/odatav4/initMockServer"`.
 > 
 > 2.  Check the URI of the default data source in the `manifest.json` file. Depending on the environment, change it to something that avoids cross-origin resource sharing \(CORS\) problems. For more information, see [Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md)
 > 
