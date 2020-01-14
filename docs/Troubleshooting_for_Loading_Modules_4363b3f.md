@@ -140,7 +140,7 @@ It is unclear how modules that are defined via inline scripts can by addresses b
         //Boot UI5  
     </script>  
     <script>  
-        //Defintion for Module A  
+        //Definition for Module A  
         sap.ui.define(function(){  
             ...  
         });  

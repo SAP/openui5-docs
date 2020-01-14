@@ -14,7 +14,7 @@ Find a collection of information that helps you to find out if your application 
 
 Applications benefit from the configuration of the OpenUI5 module loader to work asynchronously. However, if an application or library is not yet fully compatible with asynchronous loading, you may encounter issues. To avoid running into these issues, the following list provides information that helps you to find out whether your application needs to be adapted to enable asynchronous loading. The list is not exhaustive, but points to additional information and should give you a good start in getting your applications ready for asynchronous loading.
 
--   For asynchronous loading, your application modules have to facilitate the concept for defining and handling of modules in OpenUI5 that is aligned with the asynchronous module defintion \(AMD\) standard. For an overview, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
+-   For asynchronous loading, your application modules have to facilitate the concept for defining and handling of modules in OpenUI5 that is aligned with the asynchronous module definition \(AMD\) standard. For an overview, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 
 -   Existing applications may still use synchronous variants of factory methods. To make your application ready for asynchronous loading, you need to use asynchronous variants of factory methods instead. For information how you can replace the synchronous variants with asynchronous variants, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
