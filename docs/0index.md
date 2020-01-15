@@ -207,7 +207,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
             -   [Use Asynchronous Loading](Use_Asynchronous_Loading_676b636.md)
             -   [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
-            -   [Make Your App Performant](Make_Your_App_Performant_9c6400e.md)
+            -   [Performance Checklist](Performance_Checklist_9c6400e.md)
     -   [Essentials](Essentials_ec699e0.md)
         -   [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
             -   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)

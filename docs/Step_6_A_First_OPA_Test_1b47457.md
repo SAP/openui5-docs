@@ -51,6 +51,11 @@ For structuring integration tests with OPA we use "journeys". A test journey con
 
 The journey uses another structuring element of OPA called "page object" that encapsulates actions and assertions needed to describe the journey. Typically those are related to a view in the app but there can also be stand-alone pages for browsers or common functionality.
 
+> Note:
+> When you first start writing tests, you may find it difficult to figure out the correct control locators. The *Test Recorder* tool can suggest a solution in the form of a code snippet. For most controls, it can find a combination of matchers, that match a single control. Then, all you need to do is copy the code snippet to your OPA5 page object. For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
+> 
+> 
+
 ***
 
 ### webapp/test/integration/WorklistJourney.js
@@ -232,7 +237,11 @@ Now run the `webapp/test/integration/opaTests.qunit.html` file and make sure tha
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
 
-[API Reference: `sap.ui.test.matchers`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.matchers.html)
+[Test Recorder](Test_Recorder_2535ef9.md)
 
-[API Overview and Samples: `sap.ui.test.Opa5` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples)
+[API Reference: `sap.ui.test.matchers`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.matchers)
+
+[API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5)
+
+[Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5)
 

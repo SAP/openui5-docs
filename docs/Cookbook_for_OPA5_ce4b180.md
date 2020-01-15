@@ -108,7 +108,7 @@ A message toast is a small, non-disruptive popup for displaying information or s
 
 To ensure stable execution of OPA5 tests which manipulate `messageToast` elements, it is recommended to set explicitly `autoWait` parameter to `false` only for the affected `waitFor` methods, as shown by the following example:
 
-```
+``` js
 this.waitFor({
         ...
         autoWait: false,
@@ -121,7 +121,7 @@ To retrieve a message toast control and manipulate it accordingly, use standard 
 
 Example:
 
-```
+``` js
 iShouldSeeMessageToastAppearance: function () {
                      return this.waitFor({
                         // Turn off autoWait
@@ -161,11 +161,13 @@ A common scenario is asserting the busy state of a control. Testing whether a co
 
 ***
 
-### Working with responsive toolbars
-A responsive toolbar may have overflowing content, depending on the screen size.
-This content will be moved to a popover which is open by pressing a toggle button in the toolbar.
-A toggle button will be shown only when there is overflowing content. This is a problem for tests because they should only try to press the button when it's visible and interactable. One way to solve this is to always start the application under test with with a fixed screen size. Another way is to first look for any toggle button - with no restriction on visibility, and then press on it only if it exists:
-```javascript
+<a name="loioce4b180d97064ad088a901b53ed48b21__section_tbb_f1q_jkb"/>
+
+### Working with Responsive Toolbars
+
+A responsive toolbar can have overflowing content depending on the screen size. This content is moved to a popover, which can be opened by pressing a toggle button in the toolbar. A toggle button is displayed only when there's overflowing content. This is a problem for tests because they must only try to press the button when it's visible and interactable. One way to solve this is to always start the application being tested with a fixed screen size. Another way is to first look for toggle button with no visibility restrictions and then press on it only if it exists:
+
+``` js
 this.waitFor({
     id: sToolbarId, // find the toolbar
     success: function (oToolbar) {
