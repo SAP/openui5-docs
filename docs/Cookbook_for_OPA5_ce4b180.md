@@ -128,7 +128,7 @@ iShouldSeeMessageToastAppearance: function () {
                         autoWait: false,
                         check: function () {
                             // Locate the message toast using its class name in a jQuery function
-                            return $(".sapMMessageToast") .length > 0;
+                            return Opa5.getJQuery()(".sapMMessageToast").length > 0;
                         },
                         success: function () {
                             Opa5.assert.ok(true, "The message toast was shown");
@@ -158,6 +158,35 @@ The following table is a cheatsheet with the values for each OPA5 rule and the o
 |X|X|true|X|
 
 A common scenario is asserting the busy state of a control. Testing whether a control is not busy is meaningless when `autoWait` is globally enabled. An example of testing for busyness with enabled `autoWait` can be found in the [OPA5 Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
+
+***
+
+### Working with responsive toolbars
+A responsive toolbar may have overflowing content, depending on the screen size.
+This content will be moved to a popover which is open by pressing a toggle button in the toolbar.
+A toggle button will be shown only when there is overflowing content. This is a problem for tests because they should only try to press the button when it's visible and interactable. One way to solve this is to always start the application under test with with a fixed screen size. Another way is to first look for any toggle button - with no restriction on visibility, and then press on it only if it exists:
+```javascript
+this.waitFor({
+    id: sToolbarId, // find the toolbar
+    success: function (oToolbar) {
+        this.waitFor({
+        controlType: "sap.m.ToggleButton",
+        visible: false, // look for ANY toggle button in the toolbar
+        matchers: new Ancestor(oToolbar),
+        success: function (aToggleButton) {
+            if (aToggleButton[0].$().length) {
+                // if the button exists, press on it
+                this.waitFor({
+                    controlType: "sap.m.ToggleButton",
+                    matchers: new Ancestor(oToolbar),
+                    actions: new Press()
+                });
+            } else {
+            Opa5.assert.ok(true, "The toggle button is not present");
+        }
+    }
+});
+```
 
 ***
 
