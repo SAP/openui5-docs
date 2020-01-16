@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Using and Nesting Components
 
-You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. You can use reuse components to nest components in other components.
+You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
 
 ***
 
@@ -18,13 +18,27 @@ You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere
 
 ### Component Containers
 
-To render UI components, you must wrap them in a `ComponentContainer`. You **cannot** use the `placeAt` method to place UI components directly in a page. A component container carries specific settings and also contains the lifecycle methods of a regular control, such as the `onBeforeRendering` and `onAfterRendering` methods. The lifecycle methods of the `ComponentContainer` are forwarded to the corresponding methods of the nested component.
+To render UI components, you must wrap them in a `sap/ui/core/ComponentContainer`. You **cannot** use the `placeAt` method to place UI components directly in a page. A `ComponentContainer` carries specific settings and also contains the lifecycle methods of a regular control, such as the `onBeforeRendering` and `onAfterRendering` methods. The lifecycle methods of the `ComponentContainer` are forwarded to the corresponding methods of the nested component.
 
 The `ComponentContainer` separates the application and the nested component. The control tree and data binding of the inner component are decoupled from the outer component.
 
 If you want to share data with the inner component, you can use the `propagateModel` property on the `ComponentContainer` to forward models and binding contexts to the inner component.
 
 You load and create a `UIComponent` in one of the following ways:
+
+-   Load the component asynchronously in "manifest first" mode by specifying the component name:
+
+``` js
+	
+	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
+	var oContainer = new sap.ui.core.ComponentContainer({
+		name: "samples.components.sample",
+		manifest: true,
+		async: true
+	});
+	oContainer.placeAt("target");
+	
+```
 
 -   Load the component asynchronously before creating the container:
 
@@ -39,19 +53,6 @@ You load and create a `UIComponent` in one of the following ways:
 		});
 		oContainer.placeAt("target");
 	});
-```
-
--   Load the component asynchronously while creating the container:
-
-``` js
-	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-	// "coreLibrary" required from module "sap/ui/core/library"
-	var oContainer = new ComponentContainer({
-		name: "samples.components.sample",
-		lifecycle: coreLibrary.ComponentLifecycle.Container,
-		async: true
-	});
-	oContainer.placeAt("target");
 ```
 
 -   Load the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
@@ -69,20 +70,9 @@ You load and create a `UIComponent` in one of the following ways:
 	});
 ```
 
--   Load the component asynchronously with "manifest first" mode by specifying the component name:
-
-``` js
-	var oContainer = new sap.ui.core.ComponentContainer({
-		name: "samples.components.sample",
-		manifest: true,
-		async: true
-	});
-	oContainer.placeAt("target");
-```
-
 
 > Note:
-> You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component.
+> You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component. See [ `ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer%23controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
 > 
 > 
 
@@ -92,7 +82,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 You may want to load components from a location that is different from the location where the OpenUI5 libraries are located or a location that is not registered as a resource root in the OpenUI5 bootstrap.
 
-You can do so by defining the URL of the additional components as a setting for the component factory or the component container:
+You can do so by defining the URL of the additional components as a setting for the component factory or the component container.
 
 -   Loading the component asynchronously before creating the container:
 
@@ -101,7 +91,7 @@ You can do so by defining the URL of the additional components as a setting for 
 	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
 	Component.load({
 		name: "samples.components.sample",
-		url: "./"
+		url: "./myComponents"
 	}).then(function(oComponent) {
 		var oContainer = new ComponentContainer({
 			component: oComponent
@@ -119,7 +109,7 @@ You can do so by defining the URL of the additional components as a setting for 
 		name: "samples.components.sample",
 		lifecycle: coreLibrary.ComponentLifecycle.Container,
 		async: true,
-		url: "./"
+		url: "./myComponents"
 	});
 	oContainer.placeAt("target");
 ```
@@ -188,17 +178,6 @@ var oComponentPromise = this.createComponent({
   settings: {},
   componentData: {},
   async: true
-});
-```
-
--   Example for extended usage \*\*\\\(Sync, but not recommended\\\)\*\*:
-
-``` js
-var oComponent = this.createComponent({ 
-  usage: "myreuse"
-  settings: {},
-  componentData: {},
-  async: false
 });
 ```
 
