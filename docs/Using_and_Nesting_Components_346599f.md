@@ -72,7 +72,9 @@ You load and create a `UIComponent` in one of the following ways:
 
 
 > Note:
-> You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component. See [ `ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer%23controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
+> You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component.
+> 
+> See [ `ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer%23controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
 > 
 > 
 

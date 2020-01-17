@@ -16,7 +16,7 @@ The declarative API enables you to define the initially started component direct
 
 <a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_p1l_4by_jkb"/>
 
-### The `ComponentSupport`Module
+### Using the `ComponentSupport`Module
 
 With the declarative `sap/ui/core/ComponentSupport` API it is possible to define the initially started component directly in the HTML markup instead of the imperative way using JavaScript. The declarative `ComponentSupport` is not activated by default, but must be enabled via the bootstrap:
 
@@ -61,19 +61,34 @@ As HTML is case-insensitive, in order to define a property with upper-case chara
 
 ```
 
-The `ComponentSupport` module enforces asynchronous module loading of the component with "manifest first". This means, that the `manifest.json` file is loaded before evaluating the component to optimize loading behavior. For details, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+***
 
-In some cases, the component initialisation must wait until all pre-required modules have been loaded. If this is the case, the `ComponentSupport` module needs to be executed later and you have to replace the `onInit` module execution in the bootstrap with a custom module:
+#### Asynchronouos loading with `ComponentSupport`
 
-**index.html**
+The `ComponentSupport` module enforces asynchronous module loading of the component with "manifest first". This means, that the `manifest.json` file is loaded before evaluating the component to optimize loading behavior. In this way libraries and other dependencies can be loaded asynchronously and in parallel. To achieve this, the following settings for the ComponentContainer are applied by default:
+
+-   `async` \{\*boolean\*\} \(forced to `true`\)
+-   `manifest` \{\*boolean|string\*\} \(forced to `true` if no string is provided to ensure manifest first\)
+-   `lifecycle` \{\*sap.ui.core.ComponentLifecycle\*\} \(defaults to `Container`\)
+-   `autoPrefixId` \{\*boolean\*\} \(defaults to `true`\)
+
+For details on the manifest, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+
+See also [ `ComponentSupport`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/core/ComponentSupport) and [ `ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer) for more information. 
+
+***
+
+<a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_zmp_rwc_kkb"/>
+
+### Delay the Initial Component Instantiation
+
+In some cases, the component initialisation must wait until all pre-required modules have been loaded. If this is the case, the `ComponentSupport` module needs to be executed later, and you have to replace the `onInit` module execution in the bootstrap with a custom module:
 
 ``` html
+<!-- index.html -->
 <script id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
-    data-sap-ui-async="true"
-    data-sap-ui-theme="sap_belize"
- 
-    data-sap-ui-onInit="module:sap/ui/demo/bootstrap"> <!-- Execute custom module on init -->
+    data-sap-ui-onInit="module:sap/ui/demo/myBootstrap"> <!-- Execute custom module on init -->
 </script>
 ```
 

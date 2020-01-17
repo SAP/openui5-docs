@@ -18,21 +18,20 @@ OpenUI5 apps are basically JavaScript files sent to a client by a server and int
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_AsyncLoading"/>
 
-### Use Asynchronous Loading
+### Enable Asynchronous Loading in the Bootstrap
 
 Configuration issues are often caused by an old bootstrap or a wrong usage of the activated features. Here's an example of what a bootstrap should look like for an up-to-date OpenUI5 app:
 
 ``` html
-<script id="sap-ui-bootstrap"
-	src="openui5/resources/sap-ui-core.js"
-	data-sap-ui-libs="sap.m"
+<script 
+    id="sap-ui-bootstrap"
+	src="/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
-	data-sap-ui-bindingSyntax="complex"
 	data-sap-ui-compatVersion="edge"
 	*HIGHLIGHT START*data-sap-ui-async="true"*HIGHLIGHT END*
-	data-sap-ui-resourceroots='{
-		"your.app": "yourDir/"
-}'>
+	data-sap-ui-onInit="module:my/app/main"
+    data-sap-ui-resourceroots='{"my.app": "./"}'
+>
 ```
 
 > Note:
@@ -40,27 +39,14 @@ Configuration issues are often caused by an old bootstrap or a wrong usage of th
 > 
 > 
 
-The most important setting is `data-sap-ui-async="true"`. This enables the runtime to load all the modules and preload files for all declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
+The most important setting is `data-sap-ui-async="true"`. It enables the runtime to load all the modules and preload files for declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
+
+The attribute `data-sap-ui-onInit` defines the module `my.app.Main`, which will be loaded initially.
 
 > Note:
 > The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md) The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading. For further information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 > 
 > 
-
-The `index.html` file:
-
-``` html
-...
-<scriptr
-	id="sap-ui-bootstrap"
-	src="/resources/sap-ui-core.js"
-	data-sap-ui-theme="sap_belize"
-	data-sap-ui-compatVersion="edge"
-	data-sap-ui-async="true"
-	data-sap-ui-onInit="module:my/app/main"
-	data-sap-ui-resourceRoots='{"my.app": "./"}'
-></script>
-```
 
 If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet.
 
@@ -73,7 +59,6 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 <script>
 	sap.ui.getCore().attachInit(function() {
 		sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {
-
 			new ComponentContainer({
 				name: "your.component",
 				manifest: true,
@@ -83,10 +68,8 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 					// do something with the component instance
 				}
 			}).placeAt("content");
-			
 		});
 	});
-		
 </script>
 ```
 
@@ -94,6 +77,8 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 > Applications without a descriptor file can declare additional dependencies explicitly via the bootstrap parameter `data-sap-ui-libs`. If those dependencies are not listed, such as transitive dependencies that are inherited from a listed library, OpenUI5 will load them automatically, but then has to first read the configured libraries and find out about these dependencies. This can take time as the application might benefit less from parallel loading.
 > 
 > 
+
+Additional Information
 
 ***
 
