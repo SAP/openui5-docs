@@ -34,26 +34,21 @@ Configuration issues are often caused by an old bootstrap or a wrong usage of th
 >
 ```
 
-> Note:
-> For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md).
-> 
-> 
-
 The most important setting is `data-sap-ui-async="true"`. It enables the runtime to load all the modules and preload files for declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
 
 The attribute `data-sap-ui-onInit` defines the module `my.app.Main`, which will be loaded initially.
 
 > Note:
-> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues, or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md) The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading. For further information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
+> Please note that bootstrap configuration-related changes can only be done by standalone applications and when the bootstrap is under control of the developer. The bootstrap of applications from a Fiori Launchpad is managed by the Launchpad.
+> 
+> 
+
+> Note:
+> The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md) The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading. For further information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 > 
 > 
 
 If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet.
-
-> Note:
-> We recommend that you do **not** use this anymore, because inline scripting is not CSP compliant.
-> 
-> 
 
 ``` html
 <script>
@@ -74,11 +69,54 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 ```
 
 > Note:
+> Please note that this variant with inline scripting is not CSP-compliant. It is better to create a module with `sap.ui.define` which contains the startup code and load it via
+> 
+> `data-sap-ui-onInit="module:my/app/main"` \(this usually also requires also a declaration of `data-sap-ui-resourceroots`, e.g.: `data-sap-ui-resourceroots='{"my.app": "./"}` \).
+> 
+> 
+
+> Note:
 > Applications without a descriptor file can declare additional dependencies explicitly via the bootstrap parameter `data-sap-ui-libs`. If those dependencies are not listed, such as transitive dependencies that are inherited from a listed library, OpenUI5 will load them automatically, but then has to first read the configured libraries and find out about these dependencies. This can take time as the application might benefit less from parallel loading.
 > 
 > 
 
-Additional Information
+**Additional Information:**
+
+-   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md).
+-   Walkthrough tutorial, [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md)
+-   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
+-   [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
+
+***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_RoutingConfigured"/>
+
+### Ensure the Root View and Routing is configured to Load Targets Asynchronously
+
+Please check the `rootView` [Routing Configuration](Routing_Configuration_9023130.md) of the application's `manifest.json` for an `async=true` setting. This enables the root view to load asynchronously.
+
+To configure the targets for asynchronous loading, please also check the [Routing Configuration](Routing_Configuration_9023130.md) for the `async=true` setting.
+
+``` json
+"sap.ui5": {
+	"rootView": {
+        "viewName": "sap.ui.demo.walkthrough.view.App",
+        "type": "XML",
+        "id": "app",
+         *HIGHLIGHT START*"async": true*HIGHLIGHT END*
+    },
+    "routing": {
+        "config": {
+            "routerClass": "sap.m.routing.Router",
+            "viewType": "XML",
+            "viewPath": "sap.ui.demo.walkthrough.view",
+            "controlId": "app",
+            "controlAggregation": "pages",
+            *HIGHLIGHT START*"async": true*HIGHLIGHT END*
+        }
+    },
+...
+```
 
 ***
 
@@ -193,14 +231,6 @@ If you are using reuse-components, the related files could be bundled inside a l
 > If the component preload does not exist, the bundle needs to be created, for example by using the [UI5 Build Tooling](https://github.com/SAP/ui5-tooling).
 > 
 > 
-
-***
-
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_RoutingConfigured"/>
-
-### Ensure the Routing is Configured to load Targets Asynchronously
-
-Please check the [Routing Configuration](Routing_Configuration_9023130.md) of the application's `manifest.json` for an `async=true` setting to configure the targets for asynchronous loading.
 
 ***
 

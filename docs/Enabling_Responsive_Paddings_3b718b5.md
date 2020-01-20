@@ -69,18 +69,22 @@ Based on the container’s size, one of the following classes is added, and the 
 
 #### Supported Controls
 
-The following list shows the controls that support responsive paddings:
+The following table shows the controls that support responsive paddings. To enable this concept and to add responsive paddings to an element of the controls, add the corresponding classes to the controls, depending on your use case:
 
--   `sap.m.Page`
--   `sap.m.Popover`
--   `sap.m.Dialog`
--   `sap.m.Wizard`
+|Supported Controls| `sapUiResponsivePadding—header` | `sapUiResponsivePadding—subHeader` | `sapUiResponsivePadding—content` | `sapUiResponsivePadding—footer` | `sapUiResponsivePadding—floatingFooter` |
+|------------------|---------------------------------|------------------------------------|----------------------------------|---------------------------------|-----------------------------------------|
+| `sap.m.Dialog` \(`sap.m.MessageBox`, `sap.m.SelectDialog`, `sap.m.TableSelectDialog`\)| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+| `sap.m.IconTabBar` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+| `sap.m.ObjectHeader` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+| `sap.m.Page` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
+| `sap.m.Popover` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+| `sap.m.TabContainer` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+| `sap.m.Wizard` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 
-To enable this concept and to add responsive paddings to an element of the controls, add the following classes to the controls, depending on your use case:
-
-|`sap.m.Page`|`sap.m.Popover`, `sap.m.Dialog`|`sap.m.Wizard`|
-|------------|-------------------------------|--------------|
-| `sapUiResponsivePadding—header` `sapUiResponsivePadding—subHeader` `sapUiResponsivePadding—content` `sapUiResponsivePadding—footer` `sapUiResponsivePadding—floatingFooter` | `sapUiResponsivePadding—header` `sapUiResponsivePadding—subHeader` `sapUiResponsivePadding—content` `sapUiResponsivePadding—footer` | `sapUiResponsivePadding—header` `sapUiResponsivePadding—content` |
+> Note:
+> If nessecary, you can further align controls by using the available set of predefined CSS margin classes. For example, you can add negative margins to an element on its left and right sides. For more information, see [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md).
+> 
+> 
 
 ***
 

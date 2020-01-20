@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Test Recorder
 
-The Test Recorder tool supports app developers to write integration and system tests.
+The Test Recorder tool supports app developers who write integration and system tests.
 
-Test Recorder is part of the OpenUI5 framework and is available in all browsers. As of version 1.74, you can use the tool in any OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. Test Recorder is aligned with the two official OpenUI5 testing tools - OPA5 and UIVeri5.
+The Test Recorder is part of the OpenUI5 framework and is available in all browsers. As of version 1.74, you can use the tool in any OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. The Test Recorder is aligned with the two official OpenUI5 testing tools – OPA5 and UIVeri5.
 
 ***
 
@@ -22,18 +22,18 @@ Test Recorder is part of the OpenUI5 framework and is available in all browsers.
 
 There are two ways to open the Test Recorder:
 
--   In a separate window - press * CTRL SHIFT ALT T *
+-   In a separate window: Press * CTRL SHIFT ALT T *
 
--   In an IFrame - press * CTRL SHIFT ALT P * to display the *Technical Information Dialog* and then choose *Activate Test Recorder*
+-   In an IFrame: Press * CTRL SHIFT ALT P * to display the *Technical Information Dialog* and then choose *Activate Test Recorder*
 
      ![](loio1e0b9fe13e6d44589301c80d5e5b07bb_HiRes.png) 
 
 
-The main sections of the tool are *Control Tree*, *Snippet*, and *Common Information*.
+The main sections of the tool are *Control Tree*, *Snippet*, and *Common Info*.
 
- ![](loio3f710a0fdb474393a605873c009f01cf_HiRes.png) 
+ ![](loio6316f778d71648d1ae5f8f05033346b2_HiRes.gif) 
 
-From the navigation actions at the top bar of the Test Recorder, you can minimize, resize, switch between IFrame and window modes, and close the Test Recorder.
+From the navigation actions at the top bar of the Test Recorder, you can minimize, resize, open it in a new window, or close the tool.
 
 ***
 
@@ -43,26 +43,26 @@ From the navigation actions at the top bar of the Test Recorder, you can minimiz
 
 In the *Control Tree* section, you can see the DOM structure of the current app page. When navigating to another page or view, the tree is automatically updated.
 
-You can display more information in the *Control Tree* by selecting the *Namespaces* and *Attributes* checkboxes. Entering text in the *Search* field, highlights all elements that \(partially\) match by namespace, control name, or attribute values.
+You can display more information in the *Control Tree* by selecting the *Namespaces* and *Attributes* checkboxes. Entering text in the *Search* field highlights all elements that \(partially\) match by namespace, control name, or attribute values.
 
 > Note:
-> Elements in the *Control Tree* get highlighted if there's a match by namespace or attribute value even when the *Namespaces* and *Attributes* checkboxes are not selected and the information isn't displayed.
+> Elements in the *Control Tree* get highlighted if there's a match by namespace or attribute value even when the *Namespaces* and *Attributes* checkboxes aren't selected and the information isn't visible.
 > 
 > 
 
-There are three general types of information, relevant to testing, that you can gather for any control:
+There are three general types of testing-relevant information that you can gather for any control:
 
--   Order in the rendered control tree, type and ID – displayed in the *Control Tree* section. To see the control type, select the *Namespace* checkbox. To see the ID, select the *Attributes* checkbox.
+-   Position in the rendered control tree, type and ID – displayed in the *Control Tree* section. To see the control type, select the *Namespace* checkbox. To see the ID, select the *Attributes* checkbox.
 
--   Properties \(either own or inherited\) – displayed in the *Common Information* section under the *Properties* tab.
+-   Properties \(either own or inherited\) – displayed in the *Common Info* section on the *Properties* tab.
 
--   Bindings \(binding context, properties, and aggregations\) – displayed in the *Common Information* section under the *Bindings* tab.
+-   Bindings \(binding context, properties, and aggregations\) – displayed in the *Common Info* section on the *Bindings* tab.
 
 
 > Note:
-> -   The IDs can be generated \(not stable\) and therefore not suitable for tests. You can recognize unstable IDs by the double underscore they start with.
+> -   If an ID is not stable \(because it was generated automatically\), it's not suitable for tests. Unstable IDs start with a double underscore.
 > 
-> -   Many controls can have the same property or binding values and therefore, when you use them in a control locator, the test finds multiple controls. This is a valid scenario but it’s always more reliable to locate only one control with a highly specific locator.
+> -   Many controls can have the same property or binding values. Therefore, when you use them in a control locator, the test finds multiple controls. This is a valid scenario, but it’s always more reliable to locate only one control with a highly specific locator.
 > 
 > 
 > 
@@ -82,12 +82,12 @@ You can perform the following actions on controls, either from the *Control Tree
 -   **Enter Text:** Generates a code snippet for entering text into the control.
 
 
-To perform an action from the *Control Tree*, right click and use the context menu for *Press* and *Enter Text*, or simply select the desired element for *Highlight* \(the respective control in the rendered UI gets highlighted\).
+To perform an action from the *Control Tree*, right-click and choose *Press* or *Enter Text* in the context menu. If you want to *highlight* the respective control in the rendered UI, simply select the desired element in the tree.
 
-To perform an action from the app page, right-click on any control and select the desired action from the context menu \(the respective control in the *Control Tree* gets highlighted\).
+To perform an action from the app page, right-click on any control and select the desired action from the context menu \(the respective control is highlighted in the *Control Tree*\).
 
 > Note:
-> A *Press* or *Enter Text* action snippet is generated irrespective of whether the control accepts such interactions. Keep in mind that such snippet is not suitable for tests.
+> A *Press* or *Enter Text* action snippet is generated irrespective of whether the control accepts such interactions. Keep in mind that such a snippet is not suitable for tests.
 > 
 > 
 
@@ -99,14 +99,14 @@ To perform an action from the app page, right-click on any control and select th
 
 The code snippets generated by the Test Recorder usually contain a function invocation that locates one control on the app page. The function receives one argument – a control locator. The control location is a JSON object containing a specific combination of conditions and matchers.
 
-The code snippet can be directly copied and pasted into your test code and is already aligned with the supported tools for testing - *OPA5* and *UIVeri5*. To choose the tool for which to generate a code snippet, select an option from the *Dialect* dropdown menu. The *raw selector* option gives you just the control locator with no function invocations.
-
- ![](loio6316f778d71648d1ae5f8f05033346b2_HiRes.gif) 
+The code snippet can be directly copied and pasted into your test code and is already aligned with the supported tools for testing – *OPA5* and *UIVeri5*. To choose the tool for which to generate a code snippet, select an option from the *Dialect* dropdown menu. The *raw selector* option gives you just the control locator with no function invocations.
 
 **Related information**  
 
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
+
+[Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md)
 
 [API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5)
 
