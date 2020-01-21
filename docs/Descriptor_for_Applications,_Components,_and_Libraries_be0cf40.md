@@ -594,7 +594,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.17.0",
+    "_version": "1.18.0",
  
     "start_url": "index.html",
  
