@@ -82,9 +82,9 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 **Additional Information:**
 
--   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md).
+-   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
 -   Walkthrough tutorial, [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md)
--   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
+-   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)
 -   [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
 
 ***
@@ -93,7 +93,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 ### Ensure that Root View and Routing are configured to Load Targets Asynchronously
 
-Please check the `rootView` [Routing Configuration](Routing_Configuration_9023130.md) of the application's `manifest.json` for an `async=true` setting. This enables the root view to load asynchronously.
+Please check the `rootView` of the application's `manifest.json` file for an `async=true` setting. This enables the root view to load asynchronously.
 
 To configure the targets for asynchronous loading, please also check the [Routing Configuration](Routing_Configuration_9023130.md) for the `async=true` setting.
 
@@ -308,7 +308,7 @@ The usages can either be replaced manually or by the the [UI5 Migration Tool](ht
 
 Check if the application is using synchronous UI5 factories and use the asynchronous variants, which are available for Components, Resource Bundles, Controllers, Views and Fragments.
 
-Please visit the overview [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md)
+Please visit the overview [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
 ***
 
@@ -327,7 +327,7 @@ Components can preload models for which modules are already loaded; otherwise a 
 ...
 ```
 
-For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md)
+For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md).
 
 ***
 
@@ -379,7 +379,7 @@ The performance limits are reached differently depending on the used browser, op
 
 You can further optimize your code by doing the following:
 
--   Use asynchronous view loading as described here: [Instantiating Views](Instantiating_Views_68d0e58.md)
+-   Use asynchronous view loading as described here: [Instantiating Views](Instantiating_Views_68d0e58.md).
 
 -   Use the OData V4 model, which has an improved performance over the OData V2 model.
 
