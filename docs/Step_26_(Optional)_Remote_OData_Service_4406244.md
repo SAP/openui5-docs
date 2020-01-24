@@ -93,7 +93,7 @@ Violations of the same-origin policy in Google Chrome<a name="loio44062441f3bd4c
 
  ![](loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome") 
 
-Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development enviroment you have different options to overcome this limitation:
+Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development environment you have different options to overcome this limitation:
 
 -   [SAP Web IDE: Configure a destination](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md#loio5bb388fc289d44dca886c8fa25da466e__UsingHelperService)
 -   [Local Development: Configure a local proxy \(CORS anywhere\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md#loio5bb388fc289d44dca886c8fa25da466e__CORSAnywhere)
