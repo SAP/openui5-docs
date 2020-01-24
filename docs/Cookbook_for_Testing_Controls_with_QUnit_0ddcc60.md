@@ -162,7 +162,7 @@ To test this, we add an `eventDelegate` to see how often the rendering function 
 ``` js
 // "Label" required from module "sap/m/Label"
 // "Core" required from module "sap/ui/core/Core"
-QUnit.test("Should supress rerendering when tooltip is set", function(assert) { 
+QUnit.test("Should suppress rerendering when tooltip is set", function(assert) { 
     // Arrange
     var oContructor = {
         tooltip : "foo"
