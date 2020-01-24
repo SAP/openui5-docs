@@ -24,22 +24,22 @@ Configuration issues are often caused by an old bootstrap or a wrong usage of th
 
 ``` html
 <script 
-    id="sap-ui-bootstrap"
+	id="sap-ui-bootstrap"
 	src="/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
 	data-sap-ui-compatVersion="edge"
 	*HIGHLIGHT START*data-sap-ui-async="true"*HIGHLIGHT END*
 	data-sap-ui-onInit="module:my/app/main"
-    data-sap-ui-resourceroots='{"my.app": "./"}'
+	data-sap-ui-resourceroots='{"my.app": "./"}'
 >
 ```
 
-The most important setting is `data-sap-ui-async="true"`. It enables the runtime to load all the modules and preload files for declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI thread.
+The most important setting is `data-sap-ui-async="true"`. It enables the runtime to load all the modules and preload files for declared libraries asynchronously, if an asynchronous API is used. Setting `async=true` leverages the browser's capabilities to execute multiple requests in parallel, without blocking the UI.
 
 The attribute `data-sap-ui-onInit` defines the module `my.app.Main`, which will be loaded initially.
 
 > Note:
-> Please note that bootstrap configuration-related changes can only be done by standalone applications and when the bootstrap is under control of the developer. The bootstrap of applications from a Fiori Launchpad is managed by the Launchpad.
+> Configuration of the bootstrap can only be done for standalone applications and when the bootstrap is under control of the developer. The bootstrap of applications from a Fiori Launchpad is managed by the Launchpad.
 > 
 > 
 
@@ -48,7 +48,7 @@ The attribute `data-sap-ui-onInit` defines the module `my.app.Main`, which will 
 > 
 > 
 
-If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet.
+If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet:
 
 ``` html
 <script>
@@ -69,9 +69,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 ```
 
 > Note:
-> Please note that this variant with inline scripting is not CSP-compliant. It is better to create a module with `sap.ui.define` which contains the startup code and load it via
-> 
-> `data-sap-ui-onInit="module:my/app/main"` \(this usually also requires also a declaration of `data-sap-ui-resourceroots`, e.g.: `data-sap-ui-resourceroots='{"my.app": "./"}` \).
+> Please note that this variant with inline scripting is not CSP-compliant. It is better to create a module with `sap.ui.define` which contains the startup code and load it via `data-sap-ui-onInit="module:my/app/main"` \( this usually also requires a declaration of `data-sap-ui-resourceroots`, e.g.: `data-sap-ui-resourceroots='{"my.app": "./"}` \).
 > 
 > 
 
@@ -91,11 +89,11 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_RoutingConfigured"/>
 
-### Ensure that Root View and Routing are configured to Load Targets Asynchronously
+### Ensure that Root View and Routing are Configured to Load Targets Asynchronously
 
-Please check the `rootView` of the application's `manifest.json` file for an `async=true` setting. This enables the root view to load asynchronously.
+Please check the `rootView` of the application's `manifest.json` file for an `async=true` parameter. This allows the root view to be loaded asynchronously.
 
-To configure the targets for asynchronous loading, please also check the [Routing Configuration](Routing_Configuration_9023130.md) for the `async=true` setting.
+To configure the targets for asynchronous loading, please also check the [Routing Configuration](Routing_Configuration_9023130.md) for the `async=true` parameter.
 
 ``` json
 "sap.ui5": {
@@ -128,21 +126,21 @@ To configure the targets for asynchronous loading, please also check the [Routin
 
 ### Make Use of Asynchronous Module Loading \(AMD Style\)
 
-If modules follow the asynchronous module definition \(AMD\) standard and the bootstrap flag `data-sap-ui-async` is set to `true`, custom scripts and other modules can also be loaded asynchronously when the preload is not available. It will help you in the future to enable asynchronous loading of individual modules combined with the usage of HTTP/2 or AMD-based module bundlers. It also ensures proper dependency tracking between modules.
+If modules follow the Asynchronous Module Definition \(AMD\) standard and the bootstrap flag `data-sap-ui-async` is set to `true`, custom scripts and other modules can also be loaded asynchronously when a preload is not available. It will help you in the future to enable asynchronous loading of individual modules combined with the usage of HTTP/2 or AMD-based module bundlers. It also ensures proper dependency tracking between modules.
 
-But it isn't enough to write AMD modules. You also need to prevent access to OpenUI5 classes via global names. Do not use a global namespace like `new sap.m.Button()`, but require the `Button` and call the constructor via the local AMD reference.
+But it isn't enough to write AMD modules. You also need to prevent access to OpenUI5 classes via global names. For instance, do not use global namespaces like `new sap.m.Button()` but require the `Button` and call its constructor via the local AMD reference instead.
 
-For more information, see the [API Reference for `sap.ui.define`](https://openui5.hana.ondemand.com/api/sap.ui#methods/sap.ui.define) in the Demo Kit.
+ For more information, see the [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define). 
 
-Always avoid usages of `sap.ui.requireSync` and `jQuery.sap.require` ! To enable modules to load asynchronously, please use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
+Always avoid usages of `sap.ui.requireSync` and `jQuery.sap.require` ! In order to enable modules to load asynchronously, use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
 
-Follow the guide [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
+Please follow the [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 
 ***
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestJson"/>
 
-### Use the `manifest.json` Descriptor File instead of the Bootstrap to define Dependencies
+### Use `manifest.json` Instead of the Bootstrap to Define Dependencies
 
 Don't specify a link to the CSS in the bootstrap of your app; use the `manifest.json` descriptor file instead.
 
@@ -150,18 +148,16 @@ Please use the `manifest.json` application descriptor file to declare dependenci
 
 -   In the manifest, the dependency information is reusable; it works when the app runs standalone and when it is embedded in the Fiori Launchpad or some other launcher.
 -   Moving the dependencies to the manifest loads them later and can therefore make the first rendering happen earlier. Obviously, that first rendering cannot come from the component then.
--   Design-time tools or runtime back-end services \(e.g. AppIndex in ABAP systems\) can use the manifest entries to determine the transitive closure of dependencies and thereby further optimise the parallel loading of dependencies.
+-   Design-time tools or runtime back-end services \(e.g. AppIndex in ABAP systems\) can use the manifest entries to determine the transitive closure of dependencies and thereby further optimise the parallel loading of dependencies. If the dependencies are maintained in the bootstrap, developers can do this by hand, but will have to update the information on each version upgrade.
 
-If the dependencies are maintained in the bootstrap, developers can do this by hand, but will have to update the information on each version upgrade.
+Make sure that you don't load too many dependencies. In most apps it's enough to load the libraries `sap.ui.core` and `sap.m` by default, and add additional libraries only when needed.
 
-Make sure that you don't load too many dependencies. In most apps, it's enough to load the `sap.ui.core` and the `sap.m` library by default and add additional libraries only when needed.
-
-If you want to make additional libraries generally known in your app, without directly loading them during the app start, you can add them to the dependency declaration in the `manifest.json` file with the `lazy` loading option, which makes sure that the libraries are only loaded when they are needed:
+If you want to make additional libraries generally known in your app, without directly loading them during the app start, you can add them to the dependency declaration in the `manifest.json` file with the `lazy` loading option. This makes sure that the libraries are only loaded when they are needed:
 
 ``` json
 "sap.ui5": {
 	"dependencies": {
-		"minUI5Version": "1.60.0",
+		"minUI5Version": "1.70.0",
 		"libs": {
 			"sap.ui.core": {},
 			"sap.m": {},
@@ -172,9 +168,9 @@ If you want to make additional libraries generally known in your app, without di
 ...
 ```
 
-If a library preload contains reuse-components and this preload is configured to be loaded lazily \(`"lazy": true`\) in the dependencies of the `manifest.json` file, the library is not available upon creation of the related component.
+If a library preload contains reuse components and this preload is configured to be loaded lazily \(via `"lazy": true` in the dependencies of the `manifest.json`\), the library is not available upon creation of the related component.
 
-In this case it is required to use `sap.ui.getCore().loadLibrary("my.library")` before creating the component \(e.g with `Component.create({ name: "my.component" })` or component usage `myComponent.createComponent("myUsage")`\).
+In this case you need to use `sap.ui.getCore().loadLibrary("my.library")` before creating the component \(e.g with `Component.create({ name: "my.component" })` or component usage `myComponent.createComponent("myUsage")`\).
 
 An indicator that a component is inside a library is the existence of an entry `sap.app/embeddedBy` in its `manifest.json` file.
 
@@ -206,7 +202,7 @@ Provide i18n files for all languages used in your application. See: [Identifying
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestFirst"/>
 
-### Use "manifest first" to load the Component
+### Use "manifest first" to Load the Component
 
 Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
@@ -224,11 +220,11 @@ Component.create({
 
 ### Ensure that Library Preloads are Enabled
 
-If the library preloads are disabled or not found, every module is loaded separately by a request of its own. Depending on the server and network infrastructure, this can take a lot of time. Except for debugging reasons, it is always recommended to make sure library preloads are used. Fortunately, the library preloads are active by default if the files are present.
+If the library preloads are disabled or not found, every module is loaded separately by an own request. Depending on the server and network infrastructure, this can take a lot of time. Except for debugging reasons, it is always recommended to make sure library preloads are used. Fortunately, the library preloads are active by default if the files are present.
 
 In some cases it may happen that preloads are disabled:
 
--   The `data-sap-ui-preload` bootstrap attribute is empty or set to an invalid value. The attribute is optional and only necessary if the the loading behaviour \(sync / async\) needs to be overwritten manually.
+-   The `data-sap-ui-preload` bootstrap attribute is empty or set to an invalid value. The attribute is optional and only necessary if the loading behavior \(sync / async\) needs to be overwritten manually.
 
 -   Debug sources are enabled in the bootstrap \(`data-sap-ui-debug=true`\) or via the URL \(`sap-ui-debug=true`\).
 
@@ -238,10 +234,10 @@ In some cases it may happen that preloads are disabled:
 
 ### Ensure that Application Resources are Loaded as Component Preload
 
-Application modules \(e.g. components, controllers, views or resource bundles\) should be loaded asynchronously via the component preload file. Please check \(e.g. via the *Network* tab in the Google Chrome developer tools\) if a component preload \(`component-preload.js`\) is missing. If the application is not configured to load modules asynchronously, required application files may be loaded synchronously.
+Application modules \(e.g. components, controllers, views or resource bundles\) should be loaded asynchronously via the component preload file. Check \(e.g. via the Network tab in the Google Chrome developer tools\) if a component preload \(`Component-preload.js`\) is missing. If the application is not configured to load modules asynchronously, required application files may be loaded synchronously.
 
 > Note:
-> If the component preload does not exist, the bundle needs to be created, for example by using the [UI5 Build Tooling](https://github.com/SAP/ui5-tooling).
+> If a component preload does not exist yet, the bundle needs to be created. For example, you may use the [UI5 Build Tooling](https://github.com/SAP/ui5-tooling).
 > 
 > 
 
@@ -251,7 +247,7 @@ Application modules \(e.g. components, controllers, views or resource bundles\) 
 
 ### Check the Network Requests
 
-To quickly check the network load caused by your app, look at your browser's developer tools, for example the *Network* tab in the Google Chrome developer tools \(*F12*\). You'll see an overview of all requests being sent. Possible issues here may be:
+To quickly check the network load caused by your app, look at your browser's developer tools, for example the Network tab in the Google Chrome developer tools \(*F12*\). You'll see an overview of all requests being sent. Possible issues here may be:
 
 ***
 
@@ -289,14 +285,14 @@ If you're using SAP Web IDE, refer to [Application Build](https://help.hana.onde
 
 ### Migrate `jquery.sap.*` Modules to their Modularised Variants
 
-Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you are still using the `jquery.sap.*` variants, a so-called "stubbing layer" loads the old modules synchronously!
+Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you are still using the `jquery.sap.*` variants, a so-called "stubbing layer" may load the old module synchronously!
 
-You can find a list of all relevant modules in [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md).
+You can find a list of modules in the [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md) documentation.
 
-The usages can either be replaced manually or by the the [UI5 Migration Tool](https://github.com/SAP/ui5-migration)
+The usages can either be replaced manually or by the [UI5 Migration Tool](https://github.com/SAP/ui5-migration).
 
 > Note:
-> Please make sure to declare the required modules in `sap.ui.define` or `sap.ui.require` to ensure that they load asynchronously.
+> Please make sure to declare the required modules in `sap.ui.define` or `sap.ui.require` to ensure that they get loaded asynchronously.
 > 
 > 
 
@@ -306,9 +302,7 @@ The usages can either be replaced manually or by the the [UI5 Migration Tool](ht
 
 ### Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants
 
-Check if the application is using synchronous UI5 factories and use the asynchronous variants, which are available for Components, Resource Bundles, Controllers, Views and Fragments.
-
-Please visit the overview [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
+Check if the application uses synchronous UI5 factories. Many asynchronous variants are available, e.g. for Components, Resource Bundles, Controllers, Views and Fragments. Please visit the following overview:[Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
 ***
 
@@ -335,7 +329,7 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 ### Use OData V2 Metadata Caching
 
-To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check in developer tools of your browser \(e.g. the *Network* tab in the Google Chrome developer tools\) if the token is appended to the request URL.
+To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check via the developer tools of your browser \(e.g. the Network tab in the Google Chrome developer tools\) if the token has been appended to the request URL.
 
 > Note:
 > This feature is only supported by OData V2 for SAP Fiori applications.
@@ -362,7 +356,7 @@ To ensure fast loading times for **SAP Fiori applications started from the SAP F
 
 The performance limits are reached differently depending on the used browser, operating system and hardware. Therefore, it is important to be mindful about the amount of controls and data bindings. This applies especially to lists and their variants \(e.g. `sap.m.Table` or `sap.ui.table.Table`\):
 
--   If a table needs to display more than 100 rows, please use `sap.ui.table.Table` instead of `sap.m.Table` The reason for this is that `sap.m.Table` keeps every loaded row in memory, even if not visible after scrolling. Please also see [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md) to choose the right table for your requirements.
+-   If a table needs to display more than 100 rows, please use `sap.ui.table.Table` instead of `sap.m.Table` The reason for this is that `sap.m.Table` keeps every loaded row in memory, even if not visible after scrolling. To choose the right table variant for your requirements, check out the documentation about [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
 -   If the table rows contain multiple controls and/or custom-data fields, please check if they are required, or if another control can replace them. For example, another list like a ComboBox inside of a table cell may create many controls for every row, which can be very expensive.
 -   Check tables for hidden columns and load only the visible ones, if possible.
 
@@ -395,8 +389,8 @@ You can further optimize your code by doing the following:
 
 -   Don't use visibility for lazy instantiation. For more information, see [Performance Issues: Don't use visibility for lazy instantiation](Performance_Issues_966d67c.md#loio966d67c8cc5046419d1b35556cd9e447__1).
 
--   Please ensure the application does not block the rendering while waiting for back-end requests to respond. Waiting for data before rendering anything is not the favoured user experience. It is recommended to load data asynchronously and already render the page while the request is pending. Mostly, the requests won't fail, and if they do, it is better to show an error or to navigate to an error page.
--   If a `XML Preprocessor` is used, we recommend to use the [XML View Cache](XML_View_Cache_3d85d5e.md). If configured in the XML View and a properly implemented key provider \(for invalidation\), it is able to cache already processed XML View Preprocessor results.
+-   Please ensure the application does not block the rendering while waiting for back-end requests to respond. Waiting for data before rendering anything is not the favored user experience. It is recommended to load data asynchronously and already render the page while the request is pending. Mostly, the requests won't fail, and if they do, it is better to show an error or to navigate to an error page.
+-   If an `XML Preprocessor` is used, we recommend to use the [XML View Cache](XML_View_Cache_3d85d5e.md). If configured in the XML View and with a properly implemented key provider \(for invalidation\), it is able to cache already processed XML View Preprocessor results.
 
 **Related information**  
 
