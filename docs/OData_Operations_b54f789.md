@@ -76,7 +76,7 @@ If the function returns a primitive value or a collection, the binding for the r
 </VBox>
 ```
 
-`execute` returns a promise which is resolved if the operation was successful and rejected with an error if this was not the case. Note that the promise is **not** fufilled with the action's result: Use dependent bindings to access the result.
+`execute` returns a promise which is resolved if the operation was successful and rejected with an error if this was not the case. Note that the promise is **not** fulfilled with the action's result: Use dependent bindings to access the result.
 
 `refresh` is silently ignored on a deferred function binding as long as it has not yet been executed. Afterwards, a `refresh` calls the function again.
 
