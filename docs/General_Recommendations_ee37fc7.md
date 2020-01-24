@@ -39,7 +39,7 @@ For more information, see [sap.ui.core.Element/methods/focus](https://openui5.ha
 
 #### Initial focus position
 
-Within an application, the inital focus should be placed on the element that is most likely to be edited or interacted with first \(for example, mandatory fields on a form\).
+Within an application, the initial focus should be placed on the element that is most likely to be edited or interacted with first \(for example, mandatory fields on a form\).
 
 When opening dialogs or new pages, the focus should be on the first focusable element inside the content area.
 
