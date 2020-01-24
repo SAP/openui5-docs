@@ -24,7 +24,7 @@ The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom e
 
 -   **`onAfterInit()`** - called after the application is fully loaded. The test will wait for the returned promise to resolve before starting. This is a good place for extension initialization.
 
--   **`onBeforeExit()`** - called after the test is finished but before the application is discarded. The aplication shutdown will wait for the returned promise to resolve. This is the place to clean up the extension.
+-   **`onBeforeExit()`** - called after the test is finished but before the application is discarded. The application shutdown will wait for the returned promise to resolve. This is the place to clean up the extension.
 
 -   **`getAssertions()`** - called after extension initialization but before the test has started. It should return a map of assertion names and assertion functions. This map is merged in the default QUnit assertion object. The assertion function is called in the context of the application being tested and should return a promise that resolves with `QUnit.pushResult` object. The promise should be resolved for both passing and failing assertion and rejected only if the assertion evaluation fails. The assertion function could interact with the application under test and the test will wait for the returned promise to resolve before continuing. From the point of the view of the test, this assertion is consistent with the classical synchronous QUnit assertions. For more information, see [https://api.qunitjs.com/assert/pushResult](https://api.qunitjs.com/assert/pushResult).
 
