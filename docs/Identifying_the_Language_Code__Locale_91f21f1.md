@@ -87,7 +87,7 @@ var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage).
 
 > Note:
-> The syntax of the returned value depends on the syntax used for configuration. If the information source is one of the browser language properties, the returned language most likely is in BCP-47 format. If it is configured as a URL parameter, the user might have choosen the JDK Locale syntax.
+> The syntax of the returned value depends on the syntax used for configuration. If the information source is one of the browser language properties, the returned language most likely is in BCP-47 format. If it is configured as a URL parameter, the user might have chosen the JDK Locale syntax.
 > 
 > 
 

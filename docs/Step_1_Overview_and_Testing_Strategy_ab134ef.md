@@ -104,7 +104,7 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
     -   **Separation of concerns \(MVC\)**
 
-        All artifacts are located in either the `model`, `view`, or `controller` folder of the app. The app’s component and its descriptor configure which of those MVC artifacts to load. This configuration controlls the navigation flow of the app.
+        All artifacts are located in either the `model`, `view`, or `controller` folder of the app. The app’s component and its descriptor configure which of those MVC artifacts to load. This configuration controls the navigation flow of the app.
 
     -   **Separation of productive and nonproductive code**
 

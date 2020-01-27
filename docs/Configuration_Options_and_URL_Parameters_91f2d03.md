@@ -218,7 +218,7 @@ Example: `sap/ui/model/*` matches all files directly contained in the model pack
 		</tr>
 		<tr>
 			<td>`uidPrefix`</td>
-			<td>Type: `string` Default value: '--' URL: No Modifiable at runtime: No Prefix to be used for automatically generated control IDs; must be choosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.</td>
+			<td>Type: `string` Default value: '--' URL: No Modifiable at runtime: No Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.</td>
 		</tr>
 		<tr>
 			<td>`versionedLibCss`</td>

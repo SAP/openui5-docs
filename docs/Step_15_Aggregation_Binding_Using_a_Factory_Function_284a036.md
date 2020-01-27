@@ -99,7 +99,7 @@ sap.ui.define([
 *HIGHLIGHT START*		productListFactory : function(sId, oContext) {
 			var oUIControl;
 
-			// Decide based on the data which dependant to clone
+			// Decide based on the data which dependent to clone
 			if (oContext.getProperty("UnitsInStock") === 0 && oContext.getProperty("Discontinued")) {
 				// The item is discontinued, so use a StandardListItem
 				oUIControl = this.byId("productSimple").clone(sId);

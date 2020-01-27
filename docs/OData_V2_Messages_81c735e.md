@@ -74,7 +74,7 @@ For other back-end service types, an application can implement its own parser, s
 
 ### OData V2 Message Parser
 
-The `ODataMessageParser` is created automatically for all `v2.ODataModel` instances and parses all responses from the server. The `ODataModel` implements the message processor interface and is used to propagate the messages to the message manager. In case of an error response, the response body is parsed for error messages. In case of a sucessful response, the "sap-message" header is parsed as a JSON-formatted error object. The name of the header field can be changed by calling the `setHeaderField()` method on the `ODataMessageParser`.
+The `ODataMessageParser` is created automatically for all `v2.ODataModel` instances and parses all responses from the server. The `ODataModel` implements the message processor interface and is used to propagate the messages to the message manager. In case of an error response, the response body is parsed for error messages. In case of a successful response, the "sap-message" header is parsed as a JSON-formatted error object. The name of the header field can be changed by calling the `setHeaderField()` method on the `ODataMessageParser`.
 
 ***
 
