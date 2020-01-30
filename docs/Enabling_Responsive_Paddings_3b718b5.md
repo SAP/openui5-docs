@@ -23,34 +23,7 @@ Apply responsive paddings over separate parts of the controls.
 
 ### Usage
 
-As a control developer, you can enable application developers to apply responsive paddings over separate parts of the controls. If you implement `sap.ui.core.util.ResponsivePaddingsEnablement`, the breakpoints and layout paddings are determined by the container's width.
-
-***
-
-#### How to Enable Responsive Paddings
-
-Here is an example of how to implement the utility when you are developing a control:
-
-```
-ResponsivePaddingsEnablement.call(MyCustomControl.prototype, {
-					header: {suffix: "-myCustomControlHeader"},
-					content: {selector: ".myCustomControlContent"}
-					});
-				
-```
-
-As the example demonstrates, there are two ways to select an element:
-
--   Using suffix: This enables you to select an element by its ID.
--   Using selector: This covers all possible CSS selections.
-
-To call the utility, when initializing the control, use:
-
-```
-MyCustomControl._initResponsivePaddingsEnablement()
-```
-
-As a result, application developers will be able to use classes, such as `sapUiResponsivePadding—header` and `sapUiResponsivePadding—content`, to enable the paddings on the respective element.
+Application developers can now apply responsive paddings over separate parts of the controls and align the space distribution properly, according to the width of the control \(and not the whole screen\). This can be done by using a set of classes, which are available for the different controls.
 
 ***
 
@@ -93,4 +66,35 @@ The following table shows the controls that support responsive paddings. To enab
 ```
 
 For a detailed example, see the [Samples for `sap.m.Page`](https://openui5.hana.ondemand.com/#/entity/sap.m.Page). 
+
+***
+
+***
+
+#### How to Enable Responsive Paddings
+
+As a control developer, you can enable application developers to apply responsive paddings, by implementing the `sap.ui.core.util.ResponsivePaddingsEnablement` utility.
+
+Here is an example:
+
+```
+ResponsivePaddingsEnablement.call(MyCustomControl.prototype, {
+					header: {suffix: "-myCustomControlHeader"},
+					content: {selector: ".myCustomControlContent"}
+					});
+				
+```
+
+As the example demonstrates, there are two ways to select an element:
+
+-   Using suffix: This enables you to select an element by its ID.
+-   Using selector: This covers all possible CSS selections.
+
+To call the utility, when initializing the control, use:
+
+```
+MyCustomControl._initResponsivePaddingsEnablement()
+```
+
+As a result, application developers will be able to use classes, such as `sapUiResponsivePadding—header` and `sapUiResponsivePadding—content`, to enable the paddings on the respective element.
 
