@@ -297,13 +297,13 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
             -   `filter`: Represents the filter only if the input parameter matches the filter; with a mandatory `value` and `format` attribute \("plain", "regexp", "reference"\)
 
-            -   `defaultValue`: Specifies the default value; has mandatory attributes `value` \(depending on the format this is a verbatim default value\) and `format` \("plain", "reference"\)
+            -   `defaultValue`: Specifies the default value; has mandatory attributes `value` \(depending on the format this is a verbatim default value\) and `format` \("plain", "reference"\). If the `format` is "reference", the syntax for the `value` is as follows: `"UserDefault.<parameterName\>"` for single-value parameters, `"UserDefault.extended.<parameterName\>"` for sets of values and value ranges, or `"User.env.<parameterName\>"` for supported user-specific settings.
 
             -   `renameTo`: Used for parameter mapping to specify the parameter name in legacy ABAP applications, for example, `RF05L_BUKRS` for the `CompanyCode` parameter
 
             -   `launcherValue`: Represents a value to be used when creating an tile intent for this inbound with value and format \("plain", "array"\)
 
-         -   `additionalParameters` \(mandatory\): Indicates, how additional parameters to the declared signature are handeled; values can be, for example, "ignored", "notallowed", "allowed"
+         -   `additionalParameters` \(mandatory\): Indicates how additional parameters to the declared signature are handled; values can be, for example, "ignored", "notallowed", "allowed"
 
  -   `outbounds`: Specifies outbounds with a unique key or alias containing:
 
@@ -594,7 +594,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.17.0",
+    "_version": "1.18.0",
  
     "start_url": "index.html",
  

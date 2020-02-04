@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Keyboard Handling for Two-Dimensional Navigation
 
-The following keys and key combinations are used for navigation in two-dimensional item containers \(for example, calenders and tables\).
+The following keys and key combinations are used for navigation in two-dimensional item containers \(for example, calendars and tables\).
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

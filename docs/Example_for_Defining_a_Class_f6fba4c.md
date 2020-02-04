@@ -91,7 +91,7 @@ sap.ui.define(["jQuery.sap.global", "sap/ui/base/Object", "sap/ui/model/json/JSO
        * So we explicitly declare this as a private member:
        *
        * Additionally, using an underscore prefix prevents this method
-       * from beeing added to the public facade.
+       * from being added to the public facade.
        *
        * @private
        */

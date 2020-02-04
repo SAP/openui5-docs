@@ -5,12 +5,15 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
-					"What's New in OpenUI5 1.73": {
-						"link": "What's_New_in_OpenUI51.73_7b82664.md"
+					"What's New in OpenUI5 1.74": {
+						"link": "What's_New_in_OpenUI51.74_21fc6cb.md"
 					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.73": {
+								"link": "What's_New_in_OpenUI51.73_7b82664.md"
+							},
 							"What's New in OpenUI5 1.72": {
 								"link": "What's_New_in_OpenUI51.72_25e5326.md"
 							},
