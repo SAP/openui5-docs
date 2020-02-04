@@ -20,7 +20,7 @@ As OpenUI5 is evolving, the loading processes in the background were significant
 
 ### Use a Bootstrapping Tag in HTML Files
 
-Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. This loads the modules for all declared libraries asynchronously. If you have other HTML files in your app, you should to this there as well.
+Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. This loads the modules for all declared libraries asynchronously. If you have other HTML files in your app, you should do this there as well.
 
 ``` html
 <!DOCTYPE html>

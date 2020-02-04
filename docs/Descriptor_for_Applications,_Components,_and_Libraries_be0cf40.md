@@ -297,7 +297,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
             -   `filter`: Represents the filter only if the input parameter matches the filter; with a mandatory `value` and `format` attribute \("plain", "regexp", "reference"\)
 
-            -   `defaultValue`: Specifies the default value; has mandatory attributes `value` \(depending on the format this is a verbatim default value\) and `format` \("plain", "reference"\). If the `format` is "reference", the syntax for `value` is as follows: `UserDefault.<parameterName\>` or `UserDefault.extended.<parameterName\>` for sets of values and value ranges.
+            -   `defaultValue`: Specifies the default value; has mandatory attributes `value` \(depending on the format this is a verbatim default value\) and `format` \("plain", "reference"\). If the `format` is "reference", the syntax for the `value` is as follows: `"UserDefault.<parameterName\>"` for single-value parameters, `"UserDefault.extended.<parameterName\>"` for sets of values and value ranges, or `"User.env.<parameterName\>"` for supported user-specific settings.
 
             -   `renameTo`: Used for parameter mapping to specify the parameter name in legacy ABAP applications, for example, `RF05L_BUKRS` for the `CompanyCode` parameter
 
