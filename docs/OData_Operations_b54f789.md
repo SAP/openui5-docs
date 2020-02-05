@@ -104,14 +104,14 @@ You append "\(...\)" even though the action's resource URL does not contain them
 
 You can use the parameters of a deferred operation binding inside an XML view.
 
-The parameters are addressed by the path prefix "$Parameter". This can either be done by binding each parameter to the path prefix "$Parameter" \(Option 1\) or by having an outer binding with a "$Parameter" path \(Option 2\).
+The parameters are addressed by the path prefix "$Parameter". This can either be done by binding each control property via the path prefix "$Parameter" \(Option 1\) or by having an outer binding with a "$Parameter" path \(Option 2\).
 
 > Note:
 > The path "$Parameter" must not be added directly to the path of a deferred operation binding. A deferred operation binding is identified by an ellipsis at the end of the path.
 > 
 > 
 
-This is how to bind each parameter individually:
+This is how to bind each property without a "$Parameter" context:
 
 **View:**
 
