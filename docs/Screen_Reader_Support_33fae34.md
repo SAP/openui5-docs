@@ -144,7 +144,7 @@ When using the `Input` control, always provide a label \(make sure it is connect
 
 In some cases, you may need to provide an empty option in a drop-down field such as `Select`. This way you want to indicate that none of the items in the drop-down is applicable, or offer the empty option as a way to clear the selection. In this case, you should properly label the empty option with *\(None\)* and not leave it blank.
 
-The labeling on the empty option will be read by the screen reader and the end-user will be correctly informed about the semantics of the empty option.
+The labeling on the empty option will be read by the screen reader and the end user will be correctly informed about the semantics of the empty option.
 
 > Note:
 > The empty label *\(None\)* should always be the first item in the drop-down.
@@ -178,16 +178,16 @@ When using the `List` control with visible non-active info toolbar with plain te
 
 #### Provide additional information when there are changes in the screen
 
-Make sure to provide additional information to the user, when changes in the screen are expected. You can use one of the following informative techniques:
+Make sure to provide additional information to the user, when changes in the screen are done, based on user interaction. You can use one of the following informative techniques:
 
--   Include additional text description in the button or search field. For example: Search results will be placed in the area below.
+-   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` API for the control triggering the update \(Button, Search Field, or other interactive control\). For example: When search results will be placed in the area below, you can add a text describing how/where the users can locate the results.
 
--   Include additional text description on the parent control. For example: For master detail – for the list of the left side, results will be presented on the right side.
+-   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you can add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
 -   When something is opening on the screen – move the focus there. For example, in the case that a dialog is being opened.
 
 > Note:
-> For controls that are toggling regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved.
+> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved.
 > 
 > 
 

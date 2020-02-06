@@ -33,10 +33,10 @@ Based on the container’s size, one of the following classes is added, and the 
 
 |Container Size \(pixels\)|Class|Padding-Left and Padding-Right Applied|
 |-------------------------|-----|--------------------------------------|
-|<= 600|sapUi-Std-PaddingS|1rem|
-|\>600|sapUi-Std-PaddingM|2rem|
-|\>1024|sapUi-Std-PaddingL|2rem|
-|\>1440|sapUi-Std-PaddingXL|3rem|
+|<= 600|sapUI-Std-PaddingS|1rem|
+|\>600|sapUI-Std-PaddingM|2rem|
+|\>1024|sapUI-Std-PaddingL|2rem|
+|\>1440|sapUI-Std-PaddingXL|3rem|
 
 ***
 
@@ -44,8 +44,8 @@ Based on the container’s size, one of the following classes is added, and the 
 
 The following table shows the controls that support responsive paddings. To enable this concept and to add responsive paddings to an element of the controls, add the corresponding classes to the controls, depending on your use case:
 
-|Supported Controls| `sapUiResponsivePadding—header` | `sapUiResponsivePadding—subHeader` | `sapUiResponsivePadding—content` | `sapUiResponsivePadding—footer` | `sapUiResponsivePadding—floatingFooter` |
-|------------------|---------------------------------|------------------------------------|----------------------------------|---------------------------------|-----------------------------------------|
+|Supported Controls| `sapUiResponsivePadding--header` | `sapUiResponsivePadding--subHeader` | `sapUiResponsivePadding--content` | `sapUiResponsivePadding--footer` | `sapUiResponsivePadding--floatingFooter` |
+|------------------|----------------------------------|-------------------------------------|-----------------------------------|----------------------------------|------------------------------------------|
 | `sap.m.Dialog` \(`sap.m.MessageBox`, `sap.m.SelectDialog`, `sap.m.TableSelectDialog`\)| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 | `sap.m.IconTabBar` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 | `sap.m.ObjectHeader` | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
@@ -96,5 +96,5 @@ To call the utility, when initializing the control, use:
 MyCustomControl._initResponsivePaddingsEnablement()
 ```
 
-As a result, application developers will be able to use classes, such as `sapUiResponsivePadding—header` and `sapUiResponsivePadding—content`, to enable the paddings on the respective element.
+As a result, application developers will be able to use classes, such as `sapUiResponsivePadding—header` and `sapUiResponsivePadding--content`, to enable the paddings on the respective element.
 
