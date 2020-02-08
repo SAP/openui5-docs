@@ -60,15 +60,14 @@ sap.ui.define([
 		
 		getGroupHeader: function(oGroup) {
 			return new GroupHeaderListItem({
-				title : oGroup.key,
-				upperCase : false
+				title : oGroup.key
 			}
 		);
 	},   
 });
 ```
 
-As you can see, `getCounty` generates the group caption, which in this case is the county of the current companies. `getGroupHeader` serves as a group header factory function: use this if you would like to use non-standard group headers. In our example, we would like the group header caption not to be upper case \(which is the default\). After sorting and grouping, the company list looks like this:
+As you can see, `getCounty` generates the group caption, which in this case is the county of the current companies. `getGroupHeader` serves as a group header factory function. After sorting and grouping, the company list looks like this:
 
  ![](loiocdd09735362d4227809f3028201a1bba_LowRes.png) 
 
