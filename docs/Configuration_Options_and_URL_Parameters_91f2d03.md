@@ -99,7 +99,7 @@ Example: `sap/ui/model/*` matches all files directly contained in the model pack
 
 
  > Note:
- > You can also select the debug sources in the technical information dialog. For more information, see [Technical Information Dialog](Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9).
+ > You can also select the debug sources in the technical information dialog. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 			</td>
 		</tr>
 		<tr>

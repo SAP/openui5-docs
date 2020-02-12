@@ -126,5 +126,5 @@ You could use multiple model instances by using different model names. The model
 **Related information**  
 
 
-[Resource Model](Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
 

@@ -136,7 +136,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 **Related information**  
 
 
-[Resource Model](Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
 
 [API Reference: `jQuery.sap.util.ResourceBundle`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.util.ResourceBundle.html)
 

@@ -33,7 +33,7 @@ You can view and download all files at [Walkthrough - Step 2](https://openui5.ha
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.
 > 
-> For more information about the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+> For more information about the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 > 
 > In case you are using SAP Web IDE, you can right-click the project and select *New* \> *HTML5 Application Descriptor* to make the `/resources…` reference work. This creates the `neo-app.json` file, which configures a URL mapping for this path.
 > 
@@ -111,13 +111,13 @@ Now, we create a new `index.js` script that will contain the application logic f
 **Related information**  
 
 
-[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
+[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)
 
 [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)
 
 [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md)
 
-[Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
+[Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
 
 [https://jquery.org/](https://jquery.org/)
 

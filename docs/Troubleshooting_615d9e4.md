@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 This section describes the various tools that are available for troubleshooting apps developed with OpenUI5
 
-The first place to check for errors is the developer tools that are provided by the various browsers. They can help you examine the details of the current web page and provide you with debugging tools. For more information on how to debug OpenUI5 apps, see [Debugging](Debugging_.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab) and [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
+The first place to check for errors is the developer tools that are provided by the various browsers. They can help you examine the details of the current web page and provide you with debugging tools. For more information on how to debug OpenUI5 apps, see [Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab) and [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 
      
 
@@ -32,7 +32,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 	</thead>
 	<tbody>
 		<tr>
-			<td> [Technical Information Dialog](Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9) </td>
+			<td> [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) </td>
 			<td>Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.</td>
 			<td> * CTRL SHIFT ALT P * Gesture on mobile device:
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
@@ -45,7 +45,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 			<td>From the *Technical Information* dialog or with the URL parameter `sap-ui-support=true` </td>
 		</tr>
 		<tr>
-			<td> [Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) </td>
+			<td> [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) </td>
 			<td>Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.</td>
 			<td> * CTRL SHIFT ALT S * </td>
 		</tr>

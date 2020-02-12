@@ -275,7 +275,7 @@ Overall, XML templating is based on:
 **Related information**  
 
 
-[Meta Model for OData V2](OData_V2_Model_.md#loio341823349ed04df1813197f2a0d71db2)
+[Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2)
 
 [Expression Binding](Expression_Binding_daf6852.md)
 

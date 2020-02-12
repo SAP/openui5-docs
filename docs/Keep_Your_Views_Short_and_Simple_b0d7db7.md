@@ -106,7 +106,7 @@ Things may get a little messy as your app is growing with your requirements. The
 
 -   Find out more:
 
--   [XML Composite Controls](XML_Composite_Controls__b83a4dc.md)
+-   [XML Composite Controls](XML_Composite_Controls_b83a4dc.md)
 
 -   [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
 

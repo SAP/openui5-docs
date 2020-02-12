@@ -39,13 +39,13 @@ Binding path examples:
 **Related information**  
 
 
-[OData V2 Model](OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2)
+[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 
 [OData V4 Model: Bindings](Bindings_54e0ddf.md)
 
-[Binding Path Syntax for JSON Models](JSON_Model_.md#loiod52e364907f94a3caeb4f5e5ad0cf302)
+[Binding Path Syntax for JSON Models](JSON_Model_96804e3.md#loiod52e364907f94a3caeb4f5e5ad0cf302)
 
-[Binding Path Syntax for XML Models](XML_Model_.md#loiob8a2c24356c443228f7819d45697a2b8)
+[Binding Path Syntax for XML Models](XML_Model_a53e71d.md#loiob8a2c24356c443228f7819d45697a2b8)
 
-[Binding Path Syntax for Resource Models](Resource_Model_.md#loiof05c6f2cf18241cbbb2b126989108765)
+[Binding Path Syntax for Resource Models](Resource_Model_91f122a.md#loiof05c6f2cf18241cbbb2b126989108765)
 

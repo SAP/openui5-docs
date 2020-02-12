@@ -27,7 +27,7 @@ You can use a local test runner, such as Selenium or Karma, that automatically e
 
 [Tutorial: Testing](Testing_291c912.md)
 
-[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality__fe7a158.md)
+[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
 
 [Selenium Home Page](http://docs.seleniumhq.org/)
 

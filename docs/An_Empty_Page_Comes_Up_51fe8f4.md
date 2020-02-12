@@ -59,7 +59,7 @@ If you are running the code in SAP Web IDE, you have to configure the `neo-app.j
 
 Other development environments might need the resources to be copied to the server and referenced relatively to the app \(see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)\).
 
-Alternatively, you can use the CDN version \(see [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)\).
+Alternatively, you can use the CDN version \(see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)\).
 
 ***
 

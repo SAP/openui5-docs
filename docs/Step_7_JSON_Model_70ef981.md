@@ -143,7 +143,7 @@ The binding of the value attribute is a simple binding example that contains onl
 
 [Data Binding](Data_Binding_68b9644.md)
 
-[JSON Model](JSON_Model_.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
 
 [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
 

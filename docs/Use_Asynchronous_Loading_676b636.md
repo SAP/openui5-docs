@@ -37,7 +37,7 @@ Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. 
 ```
 
 -   Learn how: Walkthrough Tutorial [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md)
--   Find out more: [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
+-   Find out more: [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)
 
 ***
 

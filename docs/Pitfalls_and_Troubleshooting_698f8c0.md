@@ -16,7 +16,7 @@ Tips and tricks if OPA isn't behaving or reacting the way you expect it to.
 
 ### Why Can't OPA Find the Control I'm Looking For?
 
-OPA checks many conditions before it passes a control to your matchers/actions/success functions. If your control doesn't match these conditions, you're not able to set a breakpoint. For such instances, OPA logs lots of information into the browser's console if you turn on the OpenUI5 debug mode. You can either use the `sap-ui-debug=true` URL parameter or the OpenUI5 [Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6). The diagnostics can also be helpful to see the state of your UI.
+OPA checks many conditions before it passes a control to your matchers/actions/success functions. If your control doesn't match these conditions, you're not able to set a breakpoint. For such instances, OPA logs lots of information into the browser's console if you turn on the OpenUI5 debug mode. You can either use the `sap-ui-debug=true` URL parameter or the OpenUI5 [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6). The diagnostics can also be helpful to see the state of your UI.
 
 After turning on the debug mode, you can have a look at the log and also filter it by looking for `opa` or `matchers`.
 
@@ -151,5 +151,5 @@ oOpa.waitFor({
 
 [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md)
 
-[Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)
+[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)
 

@@ -156,5 +156,5 @@ panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText=Data Binding Grundlagen
 **Related information**  
 
 
-[JSON Model](JSON_Model_.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
 

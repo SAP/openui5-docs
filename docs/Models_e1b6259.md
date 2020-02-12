@@ -16,10 +16,10 @@ A model in the Model View Controller concept holds the data and provides methods
 
 ![](loioa99f15722c0a4520b7809c3951362896_LowRes.png)
 
--   [JSON Model](JSON_Model_.md#loio96804e3315ff440aa0a50fd290805116)
--   [XML Model](XML_Model_.md#loioa53e71d85fae4d0887a8b58431197a27)
--   [Resource Model](Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070)
--   [OData V2 Model](OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2)
+-   [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
+-   [XML Model](XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27)
+-   [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+-   [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 -   [OData V4 Model](OData_V4_Model_5de13cf.md)
 
 OpenUI5 provides the following predefined models:

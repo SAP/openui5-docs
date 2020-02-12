@@ -26,7 +26,7 @@ So a typical bootstrap script looks like this:
 </script>
 ```
 
-For more information see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md).
+For more information see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md).
 
 You can use the following ways to provide configuration information.
 

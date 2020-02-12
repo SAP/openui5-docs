@@ -245,7 +245,7 @@ sap.ui.require(["sap/ui/support/RuleAnalyzer"],
 **Related information**  
 
 
-[Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests__cfabbd4.md)
+[Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md)
 
 [API Reference: `sap.ui.support`](https://openui5.hana.ondemand.com/#/api/sap.ui.support)
 

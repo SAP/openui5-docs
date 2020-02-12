@@ -116,7 +116,7 @@ assert(aValues.length === 10, "There are 10 values stored in the array")
 **Related information**  
 
 
-[Debugging](Debugging_.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
+[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
 
 [Troubleshooting Tutorial Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md)
 

@@ -61,7 +61,7 @@ welcome=Welcome {0}
 **Related information**  
 
 
-[Resource Model](Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
 
 [API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
 

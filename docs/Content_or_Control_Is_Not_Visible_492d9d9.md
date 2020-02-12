@@ -39,7 +39,7 @@ First, you should check if your control was rendered properly by using the devel
 
 #### Wrong binding
 
-If you bound your control to a source, for example, an image control, the binding may not be resolved properly. This can be caused by minor mistakes such as typos. We recommend using *Diagnostics* to debug your bindings. For more information, see [Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
+If you bound your control to a source, for example, an image control, the binding may not be resolved properly. This can be caused by minor mistakes such as typos. We recommend using *Diagnostics* to debug your bindings. For more information, see [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
 In the *Diagnostics* window, you can check whether you used a relative binding instead of an absolute one or vice versa.
 

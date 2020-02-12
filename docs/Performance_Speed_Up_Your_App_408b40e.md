@@ -80,7 +80,7 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 
 **Additional Information:**
 
--   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
+-   For more information about bootstrap attributes, see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)
 -   Walkthrough tutorial, [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md)
 -   [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)
 -   [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
@@ -188,7 +188,7 @@ In order to ensure that all static SAPUI5 resources are served with the lowest p
 
 **Additional Information:**
 
--   [Variant for Bootstrapping from Content Delivery Network](Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
+-   [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
 
 ***
 
@@ -381,9 +381,9 @@ You can further optimize your code by doing the following:
 
     For a quick start, follow the [OData V4](OData_V4_bcdbde6.md) tutorial.
 
--   If you use data binding with an OData V2 service as a back end, you should consider switching your OData model to our more updated OData V2 model. For more information, see [OData V2 Model](OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2).
+-   If you use data binding with an OData V2 service as a back end, you should consider switching your OData model to our more updated OData V2 model. For more information, see [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2).
 
--   Optimize dependent bindings as described here: [Optimizing Dependent Bindings](OData_V2_Model_.md#loio62149734b5c24507868e722fe87a75db).
+-   Optimize dependent bindings as described here: [Optimizing Dependent Bindings](OData_V2_Model_6c47b2b.md#loio62149734b5c24507868e722fe87a75db).
 
 -   Avoid the usage of `setTimeout()` calls with values greater than `0`. This usually indicates an anti-pattern in application code that is used as a workaround and should be avoided. For more information, see also [JavaScript Code Issues: Don't use timeouts](JavaScript_Code_Issues_030fcd1.md#loio030fcd14963048218488048f407f8f34__11).
 

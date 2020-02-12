@@ -37,7 +37,7 @@ OData as a RESTful protocol provides a specified and a generalized way to access
 **Related information**  
 
 
-[OData V2 Model](OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2)
+[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 
 [API Reference: `sap.ui.table`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.table.html)
 

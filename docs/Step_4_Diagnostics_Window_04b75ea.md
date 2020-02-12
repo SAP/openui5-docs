@@ -121,5 +121,5 @@ If you find a bug in your application, you can easily check whether it has alrea
 
 ### More Features
 
-More features are waiting for you to discover in the *Diagnostics* window. For more information, see [Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
+More features are waiting for you to discover in the *Diagnostics* window. For more information, see [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 

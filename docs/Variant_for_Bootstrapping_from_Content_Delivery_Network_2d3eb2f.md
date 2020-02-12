@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Variant for Bootstrapping from Content Delivery Network
 
-OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network \(CDN\).
+OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network \(CDN\). 
 
 > Note:
 > Loading OpenUI5 from a CDN improves your app performance: You can load from a server that \(in most cases\) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.
@@ -19,11 +19,15 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 ***
 
-### Specific Version
+<a name="loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_ekc_ct3_vjb"/>
 
-Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
+### Bootstrapping From OpenUI5 CDN
 
-You can refer to a specific version by using a versioned URL as in the example below:
+***
+
+#### Specific Version
+
+Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html). You can refer to a specific version by using a versioned URL as in the example below:
 
 ``` html
 <script id="sap-ui-bootstrap"
@@ -39,14 +43,12 @@ The first segment of the URL after the host name is used to specify a concrete v
 
 ***
 
-### Default Version
-
-The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\).
+#### Default Version
 
 > Note:
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
 > 
-> If you want to use the default version, you can use the following bootstrap script:
+> The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
 > 
 > ``` html
 > <script id="sap-ui-bootstrap"
@@ -61,7 +63,7 @@ The default version of our libraries has the generic URL [https://openui5.hana.o
 
 ***
 
-### Cache Control
+#### Cache Control
 
 The cache control is different for dynamic and static resources. If you refer to the latest maintenance version \(dynamic\), you have a maximum cache age of one week, if you refer to a specific \(static\) version, you have a maximum cache age of 10 years. In both cases, cross-origin resource sharing \(CORS\) headers are set, so that you can consume resources from the central location without any proxy in between.
 
@@ -72,6 +74,8 @@ The cache control is different for dynamic and static resources. If you refer to
 
 **Related information**  
 
+
+[Multi-Version Availability of SAPUI5](https://blogs.sap.com/2015/07/30/multi-version-availability-of-sapui5)
 
 [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
 

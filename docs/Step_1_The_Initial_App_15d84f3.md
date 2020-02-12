@@ -101,7 +101,7 @@ In this tutorial, we only use the entity type `Person` of the *TripPin* service.
 
 [*OData* Reference Services including *TripPin*](http://www.odata.org/odata-services/)
 
-[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing__a04b0d1.md)
+[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)
 
 [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
 

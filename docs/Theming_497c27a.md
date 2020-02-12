@@ -49,7 +49,7 @@ For all these options, the CSS developer might reduce the styling effort and foc
 
 -   To ensure that your OpenUI5 application's OpenUI5 theme can be adapted easily, you should follow some recommendations.
 
-    For more information, see [Creating Themable User Interfaces](CreatingThemableUser_Interfaces_a2c67ac.md).
+    For more information, see [Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md).
 
 -   To ensure that your custom content fits the colors of the OpenUI5 theme used, you can use specific CSS classes.
 

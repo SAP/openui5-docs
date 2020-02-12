@@ -145,7 +145,7 @@ The actual color now depends on the selected theme which ensures that the color 
 
 [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md)
 
-[Creating Themable User Interfaces](CreatingThemableUser_Interfaces_a2c67ac.md)
+[Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md)
 
 [Compatibility Rules](Compatibility_Rules_91f0873.md)
 

@@ -120,5 +120,5 @@ The *Technical Information Dialog* also includes links to *Diagnostics* and *Sup
 **Related information**  
 
 
-[Technical Information Dialog](Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9)
+[Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9)
 

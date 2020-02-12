@@ -56,7 +56,7 @@ You can also start the Support Assistant from the Technical Information Dialog.
 2.  Choose *Activate Support Assistant*.
 
 
-Starting the Support Assistant from here allows you to run it with a different OpenUI5 version. You can find more details on this topic in [Running the Support Assistant on an Older OpenUI5 Version](Running_the_Support_Assistant_on_an_Older_OpenUI5_Version__473201b.md).
+Starting the Support Assistant from here allows you to run it with a different OpenUI5 version. You can find more details on this topic in [Running the Support Assistant on an Older OpenUI5 Version](Running_the_Support_Assistant_on_an_Older_OpenUI5_Version_473201b.md).
 
 Selecting *Rules* will show you the available rulesets. You can then select your rules and start the analysis of the app.
 

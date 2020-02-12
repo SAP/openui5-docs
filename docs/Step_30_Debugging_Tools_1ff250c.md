@@ -118,9 +118,9 @@ If you're stuck and need help for some development task, you can also post a que
 **Related information**  
 
 
-[Debugging](Debugging_.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
+[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
 
-[Diagnostics](Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)
+[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)
 
-[Technical Information Dialog](Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9)
+[Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9)
 

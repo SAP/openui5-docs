@@ -1,90 +1,90 @@
 {
 	"OpenUI5: UI Development Toolkit for HTML5": {
-		"link": "OpenUI5_UI_DevelopmentToolkit_for_HTML5_95d113b.md",
+		"link": "OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md",
 		"items": {
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
 					"What's New in OpenUI5 1.74": {
-						"link": "What's_New_in_OpenUI51.74_21fc6cb.md"
+						"link": "What's_New_in_OpenUI5_1.74_21fc6cb.md"
 					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
 							"What's New in OpenUI5 1.73": {
-								"link": "What's_New_in_OpenUI51.73_7b82664.md"
+								"link": "What's_New_in_OpenUI5_1.73_7b82664.md"
 							},
 							"What's New in OpenUI5 1.72": {
-								"link": "What's_New_in_OpenUI51.72_25e5326.md"
+								"link": "What's_New_in_OpenUI5_1.72_25e5326.md"
 							},
 							"What's New in OpenUI5 1.71": {
-								"link": "What's_New_in_OpenUI51.71_609fd01.md"
+								"link": "What's_New_in_OpenUI5_1.71_609fd01.md"
 							},
 							"What's New in OpenUI5 1.70": {
-								"link": "What's_New_in_OpenUI51.70_4e89fee.md"
+								"link": "What's_New_in_OpenUI5_1.70_4e89fee.md"
 							},
 							"What's New in OpenUI5 1.69": {
-								"link": "What's_New_in_OpenUI51.69_41203fd.md"
+								"link": "What's_New_in_OpenUI5_1.69_41203fd.md"
 							},
 							"What's New in OpenUI5 1.68": {
-								"link": "What's_New_in_OpenUI51.68_5531aef.md"
+								"link": "What's_New_in_OpenUI5_1.68_5531aef.md"
 							},
 							"What's New in OpenUI5 1.67": {
-								"link": "What's_New_in_OpenUI5_1.67__0968958.md"
+								"link": "What's_New_in_OpenUI5_1.67_0968958.md"
 							},
 							"What's New in OpenUI5 1.66": {
-								"link": "What's_New_in_OpenUI5_1.66__ebe7fda.md"
+								"link": "What's_New_in_OpenUI5_1.66_ebe7fda.md"
 							},
 							"What's New in OpenUI5 1.65": {
-								"link": "What's_New_in_OpenUI51.65_9d2b189.md"
+								"link": "What's_New_in_OpenUI5_1.65_9d2b189.md"
 							},
 							"What's New in OpenUI5 1.64": {
-								"link": "What's_New_in_OpenUI5_1.64__1975e30.md"
+								"link": "What's_New_in_OpenUI5_1.64_1975e30.md"
 							},
 							"What's New in OpenUI5 1.63": {
-								"link": "What's_New_in_OpenUI5_1.63__77e1dcc.md"
+								"link": "What's_New_in_OpenUI5_1.63_77e1dcc.md"
 							},
 							"What's New in OpenUI5 1.62": {
-								"link": "What's_New_in_OpenUI5_1.62__27eea38.md"
+								"link": "What's_New_in_OpenUI5_1.62_27eea38.md"
 							},
 							"What's New in OpenUI5 1.61": {
-								"link": "What's_New_in_OpenUI51.61_de4d50b.md"
+								"link": "What's_New_in_OpenUI5_1.61_de4d50b.md"
 							},
 							"What's New in OpenUI5 1.60": {
-								"link": "What's_New_in_OpenUI51.60_2a70354.md"
+								"link": "What's_New_in_OpenUI5_1.60_2a70354.md"
 							},
 							"What's New in OpenUI5 1.58": {
-								"link": "What's_New_in_OpenUI51.58_b28edde.md"
+								"link": "What's_New_in_OpenUI5_1.58_b28edde.md"
 							},
 							"What's New in OpenUI5 1.56": {
-								"link": "What's_New_in_OpenUI51.56_53b4b5e.md"
+								"link": "What's_New_in_OpenUI5_1.56_53b4b5e.md"
 							},
 							"What's New in OpenUI5 1.54": {
-								"link": "What's_New_in_OpenUI51.54_f29023e.md"
+								"link": "What's_New_in_OpenUI5_1.54_f29023e.md"
 							},
 							"What's New in OpenUI5 1.52": {
-								"link": "What's_New_in_OpenUI5________1.52_a09dd79.md"
+								"link": "What's_New_in_OpenUI5_1.52_a09dd79.md"
 							},
 							"What's New in OpenUI5 1.50": {
-								"link": "What's_New_in_OpenUI51.50_a844984.md"
+								"link": "What's_New_in_OpenUI5_1.50_a844984.md"
 							},
 							"What's New in OpenUI5 1.48": {
-								"link": "What's_New_in_OpenUI51.48_2818f80.md"
+								"link": "What's_New_in_OpenUI5_1.48_2818f80.md"
 							},
 							"What's New in OpenUI5 1.46": {
-								"link": "What's_New_in_OpenUI51.46_4cf0986.md"
+								"link": "What's_New_in_OpenUI5_1.46_4cf0986.md"
 							},
 							"What's New in OpenUI5 1.44": {
-								"link": "What's_New_in_OpenUI51.44_05ce1dc.md"
+								"link": "What's_New_in_OpenUI5_1.44_05ce1dc.md"
 							},
 							"What's New in OpenUI5 1.42": {
-								"link": "What's_New_in_OpenUI51.42_4768f1a.md"
+								"link": "What's_New_in_OpenUI5_1.42_4768f1a.md"
 							},
 							"What's New in OpenUI5 1.40": {
-								"link": "What's_New_in_OpenUI51.40_e659bd2.md"
+								"link": "What's_New_in_OpenUI5_1.40_e659bd2.md"
 							},
 							"What's New in OpenUI5 1.38": {
-								"link": "What's_New_in_OpenUI51.38_.md#loio6a875f998994489483e8085705347d72"
+								"link": "What's_New_in_OpenUI5_1.38_6a875f9.md#loio6a875f998994489483e8085705347d72"
 							}
 						}
 					}
@@ -428,7 +428,7 @@
 								"link": "Step_1_Set_Up_the_Initial_App_df245bd.md"
 							},
 							"Step 2: Enable Routing": {
-								"link": "Step_2_Enable_Routing__cf3c57c.md"
+								"link": "Step_2_Enable_Routing_cf3c57c.md"
 							},
 							"Step 3: Catch Invalid Hashes": {
 								"link": "Step_3_Catch_Invalid_Hashes_e047e05.md"
@@ -470,7 +470,7 @@
 								"link": "Step_15_Reuse_an_Existing_Route_877d57e.md"
 							},
 							"Step 16: Handle Invalid Hashes by Listening to Bypassed Events": {
-								"link": "Step_16_Handle_Invalid_Hashes_by_Listening_to_Bypassed_Events__a7932a7.md"
+								"link": "Step_16_Handle_Invalid_Hashes_by_Listening_to_Bypassed_Events_a7932a7.md"
 							},
 							"Step 17: Listen to Matched Events of Any Route": {
 								"link": "Step_17_Listen_to_Matched_Events_of_Any_Route_4a063b8.md"
@@ -658,25 +658,25 @@
 				"link": "Essentials_ec699e0.md",
 				"items": {
 					"Bootstrapping: Loading and Initializing": {
-						"link": "Bootstrapping_Loading_and_Initializing__a04b0d1.md",
+						"link": "Bootstrapping_Loading_and_Initializing_a04b0d1.md",
 						"items": {
 							"Standard Variant for Bootstrapping": {
 								"link": "Standard_Variant_for_Bootstrapping_91f1f45.md"
 							},
 							"Variant for Bootstrapping from Content Delivery Network": {
-								"link": "Variant_for____________Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md"
+								"link": "Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md"
 							},
 							"noJQuery Variant for Bootstrapping": {
 								"link": "noJQuery_Variant_for_Bootstrapping_91f1dd0.md"
 							},
 							"Initialization Process": {
-								"link": "Initialization_Process_.md#loio91f2c9076f4d1014b6dd926db0e91070",
+								"link": "Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070",
 								"items": {
 									"Loading of Additional Resources During Bootstrap": {
-										"link": "Initialization_Process_.md#loiobf10bd41ac8f49048a1ccb743fbfbb8a"
+										"link": "Initialization_Process_91f2c90.md#loiobf10bd41ac8f49048a1ccb743fbfbb8a"
 									},
 									"Dynamic Loading of Libraries": {
-										"link": "Initialization_Process_.md#loiobbce44f06ddc48fda7aeb44eae52ebbc"
+										"link": "Initialization_Process_91f2c90.md#loiobbce44f06ddc48fda7aeb44eae52ebbc"
 									}
 								}
 							},
@@ -720,7 +720,7 @@
 										"link": "Handling_IDs_in_UI_Components_562803c.md"
 									},
 									"Advanced Concepts for OpenUI5 Components": {
-										"link": "Advanced_Concepts_for_OpenUI5Components_ecbc417.md"
+										"link": "Advanced_Concepts_for_OpenUI5_Components_ecbc417.md"
 									}
 								}
 							},
@@ -946,61 +946,61 @@
 								"link": "Models_e1b6259.md",
 								"items": {
 									"OData V2 Model": {
-										"link": "OData_V2_Model_.md#loio6c47b2b39db9404582994070ec3d57a2",
+										"link": "OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2",
 										"items": {
 											"Creating the Model Instance": {
-												"link": "OData_V2_Model_.md#loio218afa0780da42fd982b72e992fb57d2"
+												"link": "OData_V2_Model_6c47b2b.md#loio218afa0780da42fd982b72e992fb57d2"
 											},
 											"Service Metadata": {
-												"link": "OData_V2_Model_.md#loio71a3ae02691147abaf6d78a553d50161"
+												"link": "OData_V2_Model_6c47b2b.md#loio71a3ae02691147abaf6d78a553d50161"
 											},
 											"Adding Additional URL Parameters": {
-												"link": "OData_V2_Model_.md#loio82afe9152177428290cc9d5dbd90e245"
+												"link": "OData_V2_Model_6c47b2b.md#loio82afe9152177428290cc9d5dbd90e245"
 											},
 											"Custom HTTP Headers": {
-												"link": "OData_V2_Model_.md#loio7370a173015e49929e011d6ab6b4885c"
+												"link": "OData_V2_Model_6c47b2b.md#loio7370a173015e49929e011d6ab6b4885c"
 											},
 											"Addressing Entities: Binding Path Syntax": {
-												"link": "OData_V2_Model_.md#loioc4be40ce21ff4d0485b1d8f8114f7426"
+												"link": "OData_V2_Model_6c47b2b.md#loioc4be40ce21ff4d0485b1d8f8114f7426"
 											},
 											"Accessing Data from an OData Model": {
-												"link": "OData_V2_Model_.md#loioadd47c3966dd40489e952bb4f5f74a7c"
+												"link": "OData_V2_Model_6c47b2b.md#loioadd47c3966dd40489e952bb4f5f74a7c"
 											},
 											"Creating Entities": {
-												"link": "OData_V2_Model_.md#loio4c4cd99af9b14e08bb72470cc7cabff4"
+												"link": "OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4"
 											},
 											"CRUD Operations": {
-												"link": "OData_V2_Model_.md#loioff667e12b8714f3595e68f3e7c0e7a14"
+												"link": "OData_V2_Model_6c47b2b.md#loioff667e12b8714f3595e68f3e7c0e7a14"
 											},
 											"Concurrency Control and ETags": {
-												"link": "OData_V2_Model_.md#loio94e302455f8044e79de759c86bb295a2"
+												"link": "OData_V2_Model_6c47b2b.md#loio94e302455f8044e79de759c86bb295a2"
 											},
 											"XSRF Token": {
-												"link": "OData_V2_Model_.md#loio30362c1cafd244dd86752e28993bbcdd"
+												"link": "OData_V2_Model_6c47b2b.md#loio30362c1cafd244dd86752e28993bbcdd"
 											},
 											"Refreshing the Model": {
-												"link": "OData_V2_Model_.md#loio66a130fa4d10411b8fc90df00185554b"
+												"link": "OData_V2_Model_6c47b2b.md#loio66a130fa4d10411b8fc90df00185554b"
 											},
 											"Batch Processing": {
-												"link": "OData_V2_Model_.md#loio8a6ae1d390534d05a560bf350af59c29"
+												"link": "OData_V2_Model_6c47b2b.md#loio8a6ae1d390534d05a560bf350af59c29"
 											},
 											"Two-Way Binding": {
-												"link": "OData_V2_Model_.md#loio42b3ca19a47d49a3b4ba5f34ca0d1f7e"
+												"link": "OData_V2_Model_6c47b2b.md#loio42b3ca19a47d49a3b4ba5f34ca0d1f7e"
 											},
 											"Binding-specific Parameters": {
-												"link": "OData_V2_Model_.md#loiobf1fc3b4c9ab4bbc845a3f0e0940c004"
+												"link": "OData_V2_Model_6c47b2b.md#loiobf1fc3b4c9ab4bbc845a3f0e0940c004"
 											},
 											"Optimizing Dependent Bindings": {
-												"link": "OData_V2_Model_.md#loio62149734b5c24507868e722fe87a75db"
+												"link": "OData_V2_Model_6c47b2b.md#loio62149734b5c24507868e722fe87a75db"
 											},
 											"Function Import": {
-												"link": "OData_V2_Model_.md#loio6cb8d585ed594ee4b447b5b560f292a4"
+												"link": "OData_V2_Model_6c47b2b.md#loio6cb8d585ed594ee4b447b5b560f292a4"
 											},
 											"Language": {
-												"link": "OData_V2_Model_.md#loioc40fc72612754bad877f374bdeb0f893"
+												"link": "OData_V2_Model_6c47b2b.md#loioc40fc72612754bad877f374bdeb0f893"
 											},
 											"Meta Model for OData V2": {
-												"link": "OData_V2_Model_.md#loio341823349ed04df1813197f2a0d71db2"
+												"link": "OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2"
 											}
 										}
 									},
@@ -1107,38 +1107,38 @@
 										}
 									},
 									"JSON Model": {
-										"link": "JSON_Model_.md#loio96804e3315ff440aa0a50fd290805116",
+										"link": "JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116",
 										"items": {
 											"Sorting and Filtering in JSON Models": {
-												"link": "JSON_Model_.md#loio50357d719b35439984348080bcbb14a4"
+												"link": "JSON_Model_96804e3.md#loio50357d719b35439984348080bcbb14a4"
 											},
 											"Binding Path Syntax for JSON Models": {
-												"link": "JSON_Model_.md#loiod52e364907f94a3caeb4f5e5ad0cf302"
+												"link": "JSON_Model_96804e3.md#loiod52e364907f94a3caeb4f5e5ad0cf302"
 											}
 										}
 									},
 									"XML Model": {
-										"link": "XML_Model_.md#loioa53e71d85fae4d0887a8b58431197a27",
+										"link": "XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27",
 										"items": {
 											"Sorting and Filtering in XML Models": {
-												"link": "XML_Model_.md#loioab8ed73c5bbd4a2b9c9840401ebf25cf"
+												"link": "XML_Model_a53e71d.md#loioab8ed73c5bbd4a2b9c9840401ebf25cf"
 											},
 											"XML Namespace Support": {
-												"link": "XML_Model_.md#loio8674a69845c846d3bd68b60685bb5683"
+												"link": "XML_Model_a53e71d.md#loio8674a69845c846d3bd68b60685bb5683"
 											},
 											"Binding Path Syntax for XML Models": {
-												"link": "XML_Model_.md#loiob8a2c24356c443228f7819d45697a2b8"
+												"link": "XML_Model_a53e71d.md#loiob8a2c24356c443228f7819d45697a2b8"
 											}
 										}
 									},
 									"Resource Model": {
-										"link": "Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070",
+										"link": "Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070",
 										"items": {
 											"Binding Path Syntax for Resource Models": {
-												"link": "Resource_Model_.md#loiof05c6f2cf18241cbbb2b126989108765"
+												"link": "Resource_Model_91f122a.md#loiof05c6f2cf18241cbbb2b126989108765"
 											},
 											"Binding Texts to a Resource Bundle": {
-												"link": "Resource_Model_.md#loio7341396326c34631813c805d44058b05"
+												"link": "Resource_Model_91f122a.md#loio7341396326c34631813c805d44058b05"
 											}
 										}
 									},
@@ -1478,7 +1478,7 @@
 										"link": "Sinon.JS_Spies,_Stubs,_Mocks,_Faked_Timers,_and_XHR_457eaad.md"
 									},
 									"How to Test OpenUI5 Controls with QUnit": {
-										"link": "How_to_Test_OpenUI5_Controlswith_QUnit_a6b0657.md",
+										"link": "How_to_Test_OpenUI5_Controls_with_QUnit_a6b0657.md",
 										"items": {
 											"Cookbook for Testing Controls with QUnit": {
 												"link": "Cookbook_for_Testing_Controls_with_QUnit_0ddcc60.md"
@@ -1537,16 +1537,16 @@
 								}
 							},
 							"Test Automation": {
-								"link": "Test_Automation_.md#loioae448243822448d8ba04b4784f4b09a0",
+								"link": "Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0",
 								"items": {
 									"Installing Karma for Automated Testing": {
-										"link": "Test_Automation_.md#loioa182676ed3714bd5b4f011eb29076f6c"
+										"link": "Test_Automation_ae44824.md#loioa182676ed3714bd5b4f011eb29076f6c"
 									},
 									"Continuous Integration With Headless Chrome": {
-										"link": "Test_Automation_.md#loio8c27b0ab239242c69f181208c9b8fb1d"
+										"link": "Test_Automation_ae44824.md#loio8c27b0ab239242c69f181208c9b8fb1d"
 									},
 									"Code Coverage with Istanbul and OPA5": {
-										"link": "Test_Automation_.md#loio1851a066b0e34d84ae00f887445239e5"
+										"link": "Test_Automation_ae44824.md#loio1851a066b0e34d84ae00f887445239e5"
 									}
 								}
 							},
@@ -1593,7 +1593,7 @@
 								"link": "Enhanced_Theming_Concepts_45df6df.md"
 							},
 							"Creating Themable User Interfaces": {
-								"link": "CreatingThemableUser_Interfaces_a2c67ac.md"
+								"link": "Creating_Themable_User_Interfaces_a2c67ac.md"
 							},
 							"CSS Classes for Theme Parameters": {
 								"link": "CSS_Classes_for_Theme_Parameters_ea08f53.md",
@@ -1626,13 +1626,13 @@
 						"link": "Accessibility_322f55d.md",
 						"items": {
 							"Keyboard Handling for OpenUI5 UI Elements": {
-								"link": "Keyboard_Handling_for_OpenUI5_UIElements_6b741a6.md"
+								"link": "Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md"
 							},
 							"Screen Reader Support for OpenUI5 Controls": {
 								"link": "Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md"
 							},
 							"High Contrast Themes for OpenUI5 Controls": {
-								"link": "High_Contrast_Themes_for_OpenUI5Controls_cfcbde2.md"
+								"link": "High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md"
 							}
 						}
 					},
@@ -1640,10 +1640,10 @@
 						"link": "Drag_and_Drop_3ddb6cd.md",
 						"items": {
 							"Drag-and-Drop Configuration": {
-								"link": "Drag-and-Drop_Configuration__56007f4.md"
+								"link": "Drag-and-Drop_Configuration_56007f4.md"
 							},
 							"Drag-and-Drop Metadata": {
-								"link": "Drag-and-Drop_Metadata__da7f3fc.md"
+								"link": "Drag-and-Drop_Metadata_da7f3fc.md"
 							},
 							"Drag-and-Drop Limitations": {
 								"link": "Drag-and-Drop_Limitations_81e3f38.md"
@@ -1654,22 +1654,22 @@
 						"link": "Troubleshooting_615d9e4.md",
 						"items": {
 							"Debugging": {
-								"link": "Debugging_.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab",
+								"link": "Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab",
 								"items": {
 									"Loading Debug Sources": {
-										"link": "Debugging_.md#loio1ed4b5f9f18848b1badee9b72d4ac261"
+										"link": "Debugging_c9b0f8c.md#loio1ed4b5f9f18848b1badee9b72d4ac261"
 									},
 									"Switching the OpenUI5 Version": {
-										"link": "Debugging_.md#loioc57cb1c50c584fb1930d8da5f709b3ba"
+										"link": "Debugging_c9b0f8c.md#loioc57cb1c50c584fb1930d8da5f709b3ba"
 									},
 									"Setting Breakpoints": {
-										"link": "Debugging_.md#loio9d57287c155741e7ad15f42736605ffa"
+										"link": "Debugging_c9b0f8c.md#loio9d57287c155741e7ad15f42736605ffa"
 									},
 									"Breakpoints on the Class Level": {
-										"link": "Debugging_.md#loio549150aa11cf432780c1801a6e2dc3c4"
+										"link": "Debugging_c9b0f8c.md#loio549150aa11cf432780c1801a6e2dc3c4"
 									},
 									"Breakpoints on the Object Level": {
-										"link": "Debugging_.md#loiob691c4e7e970484991007a4e30fcd6d0"
+										"link": "Debugging_c9b0f8c.md#loiob691c4e7e970484991007a4e30fcd6d0"
 									}
 								}
 							},
@@ -1677,42 +1677,42 @@
 								"link": "Logging_and_Tracing_9f4d62c.md"
 							},
 							"Technical Information Dialog": {
-								"link": "Technical_Information_Dialog_.md#loio616a3ef07f554e20a3adf749c11f64e9",
+								"link": "Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9",
 								"items": {
 									"Loading Debug Sources": {
-										"link": "Technical_Information_Dialog_.md#copyda1306a437244116b156c4428b3c5b5f"
+										"link": "Technical_Information_Dialog_616a3ef.md#copyda1306a437244116b156c4428b3c5b5f"
 									},
 									"Technical Information Dialog on Mobile Devices": {
-										"link": "Technical_Information_Dialog_.md#loiob5dcf47c7d4a4228ab40d77f835648e3"
+										"link": "Technical_Information_Dialog_616a3ef.md#loiob5dcf47c7d4a4228ab40d77f835648e3"
 									}
 								}
 							},
 							"Diagnostics": {
-								"link": "Diagnostics_.md#loio6ec18e80b0ce47f290bc2645b0cc86e6",
+								"link": "Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6",
 								"items": {
 									"Technical Information": {
-										"link": "Diagnostics_.md#loio452944574e64438fbe07276b3b4d4673"
+										"link": "Diagnostics_6ec18e8.md#loio452944574e64438fbe07276b3b4d4673"
 									},
 									"Control Tree": {
-										"link": "Diagnostics_.md#loio790defe9ff8643bf8629c8567270e290"
+										"link": "Diagnostics_6ec18e8.md#loio790defe9ff8643bf8629c8567270e290"
 									},
 									"Breakpoints on the Object Level": {
-										"link": "Diagnostics_.md#copyee6f8f5a976347cb9426bdf5e689bc11"
+										"link": "Diagnostics_6ec18e8.md#copyee6f8f5a976347cb9426bdf5e689bc11"
 									},
 									"Debugging": {
-										"link": "Diagnostics_.md#loio7f4327d5aa274efda0c275d091c9d2f9"
+										"link": "Diagnostics_6ec18e8.md#loio7f4327d5aa274efda0c275d091c9d2f9"
 									},
 									"Switching the OpenUI5 Version": {
-										"link": "Diagnostics_.md#copyf96072c32f20456b9d20da049800b515"
+										"link": "Diagnostics_6ec18e8.md#copyf96072c32f20456b9d20da049800b515"
 									},
 									"Breakpoints on the Class Level": {
-										"link": "Diagnostics_.md#copy75d0c576f8e04a6aa3067ede31ebf8d4"
+										"link": "Diagnostics_6ec18e8.md#copy75d0c576f8e04a6aa3067ede31ebf8d4"
 									},
 									"XML View and Templating Support Tools": {
-										"link": "Diagnostics_.md#loio1ecb6b9f3d044e7d8f5136447bd6d39e"
+										"link": "Diagnostics_6ec18e8.md#loio1ecb6b9f3d044e7d8f5136447bd6d39e"
 									},
 									"Visualizing User Interaction": {
-										"link": "Diagnostics_.md#loio2e698c47a18e4303af9c6e59b6dd69b5"
+										"link": "Diagnostics_6ec18e8.md#loio2e698c47a18e4303af9c6e59b6dd69b5"
 									}
 								}
 							},
@@ -1735,13 +1735,13 @@
 												"link": "Analysis_Report_29bcdec.md"
 											},
 											"Integrating the Rules in OPA Tests": {
-												"link": "Integrating_the_Rules_in_OPA_Tests__cfabbd4.md"
+												"link": "Integrating_the_Rules_in_OPA_Tests_cfabbd4.md"
 											},
 											"Support Assistant API": {
 												"link": "Support_Assistant_API_a34eb58.md"
 											},
 											"Running the Support Assistant on an Older OpenUI5 Version": {
-												"link": "Running_the_Support_Assistant_on_an_Older_OpenUI5_Version__473201b.md"
+												"link": "Running_the_Support_Assistant_on_an_Older_OpenUI5_Version_473201b.md"
 											},
 											"Troubleshooting the Support Assistant": {
 												"link": "Troubleshooting_the_Support_Assistant_64bdd33.md"
@@ -1807,7 +1807,7 @@
 				"link": "Developing_Apps_23cfd95.md",
 				"items": {
 					"Continuous Integration: Ensure Code Quality": {
-						"link": "Continuous_Integration_Ensure_Code_Quality__fe7a158.md"
+						"link": "Continuous_Integration_Ensure_Code_Quality_fe7a158.md"
 					},
 					"App Templates: Kick Start Your App Development": {
 						"link": "App_Templates_Kick_Start_Your_App_Development_a460a73.md",
@@ -1908,7 +1908,7 @@
 						}
 					},
 					"Securing Apps": {
-						"link": "Securing__Apps_91f3d87.md",
+						"link": "Securing_Apps_91f3d87.md",
 						"items": {
 							"Browser Security": {
 								"link": "Browser_Security_91f3b66.md"
@@ -2067,7 +2067,7 @@
 								"link": "OpenUI5_Control_Development_Guidelines_4549da6.md",
 								"items": {
 									"Control Development Guidelines: Theming/CSS": {
-										"link": "Control_Development_Guidelines_ThemingCSS__5e08ff9.md"
+										"link": "Control_Development_Guidelines_ThemingCSS_5e08ff9.md"
 									}
 								}
 							},
@@ -2234,7 +2234,7 @@
 								"link": "Standard_Composite_Controls_c1512f6.md"
 							},
 							"XML Composite Controls": {
-								"link": "XML_Composite_Controls__b83a4dc.md",
+								"link": "XML_Composite_Controls_b83a4dc.md",
 								"items": {
 									"Example of a Simple XML Composite Control": {
 										"link": "Example_of_a_Simple_XML_Composite_Control_e8e5af5.md"
@@ -2256,7 +2256,7 @@
 						}
 					},
 					"Accessibility Aspects": {
-						"link": "_Accessibility_Aspects_694b356.md",
+						"link": "Accessibility_Aspects_694b356.md",
 						"items": {
 							"Keyboard Handling for OpenUI5 Controls for Developers": {
 								"link": "Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md",
@@ -2534,7 +2534,7 @@
 								"link": "PDF_Viewer_cd80a8b.md"
 							},
 							"Personalization Dialog": {
-								"link": "Personalization_Dialog__a3c3c5e.md"
+								"link": "Personalization_Dialog_a3c3c5e.md"
 							},
 							"Scrolling": {
 								"link": "Scrolling_66029f6.md",

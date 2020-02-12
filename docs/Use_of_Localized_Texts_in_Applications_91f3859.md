@@ -166,5 +166,5 @@ For a complete overview of available methods and parameters, see [`ResourceModel
 **Related information**  
 
 
-[Resource Model](Resource_Model_.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
 
