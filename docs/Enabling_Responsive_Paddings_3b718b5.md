@@ -33,10 +33,10 @@ Based on the container’s size, one of the following classes is added, and the 
 
 |Container Size \(pixels\)|Class|Padding-Left and Padding-Right Applied|
 |-------------------------|-----|--------------------------------------|
-|<= 600|sapUI-Std-PaddingS|1rem|
-|\>600|sapUI-Std-PaddingM|2rem|
-|\>1024|sapUI-Std-PaddingL|2rem|
-|\>1440|sapUI-Std-PaddingXL|3rem|
+|<= 600|sapUi-Std-PaddingS|1rem|
+|\>600|sapUi-Std-PaddingM|2rem|
+|\>1024|sapUi-Std-PaddingL|2rem|
+|\>1440|sapUi-Std-PaddingXL|3rem|
 
 ***
 
