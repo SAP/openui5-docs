@@ -104,7 +104,7 @@ sap.ui.define([
 	function (Opa5,
 			  AggregationLengthEquals,
 			  I18NText,
-			  BindingPath,
+*HIGHLIGHT START*			  BindingPath,*HIGHLIGHT END*
 			  Press) {
 		"use strict";
 
