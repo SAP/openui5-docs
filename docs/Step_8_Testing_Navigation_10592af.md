@@ -145,7 +145,6 @@ Now that we have written our spec how the navigation to the *Post* page is plann
 		var sViewName = "Post";
 		Opa5.createPageObjects({
 			onThePostPage: {
-				baseClass: Common,
 				actions: {
 					iPressTheBackButton: function () {
 						return this.waitFor({
@@ -220,7 +219,6 @@ After going back, we want to move forwards again, but we need to check if the ba
 	"use strict";
 		Opa5.createPageObjects({
 			onTheBrowser: {
-				baseClass: Common,
 				actions: {
 					iPressOnTheForwardButton: function () {
 						return this.waitFor({
