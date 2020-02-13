@@ -205,6 +205,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md)
             -   [Use the MVC Concept](Use_the_MVC_Concept_07afcf4.md)
             -   [Keep Your Views Short and Simple](Keep_Your_Views_Short_and_Simple_b0d7db7.md)
+            -   [Use Stable IDs](Use_Stable_IDs_79e910e.md)
             -   [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
             -   [Use Asynchronous Loading](Use_Asynchronous_Loading_676b636.md)
             -   [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
