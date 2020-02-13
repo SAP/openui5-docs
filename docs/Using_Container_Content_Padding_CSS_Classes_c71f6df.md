@@ -49,7 +49,7 @@ The following list shows examples of controls that support container content pad
 
 ``` xml
 
-<Page class=”sapUiResponsivePadding”>
+<Page class="sapUiResponsiveContentPadding">
 ```
 
 ***
