@@ -182,12 +182,12 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` API for the control triggering the update \(Button, Search Field, or other interactive control\). For example: When search results will be placed in the area below, you can add a text describing how/where the users can locate the results.
 
--   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you can add additional text describing that upon selection in the list, the details will be loaded in the details panel.
+-   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
--   When something is opening on the screen – move the focus there. For example, in the case that a dialog is being opened.
+-   When something is opening on the screen, you can move the focus there, if it is necessary depending on the use case. For example, in the case that a dialog is being opened.
 
 > Note:
-> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved.
+> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, where appropriate.
 > 
 > 
 
