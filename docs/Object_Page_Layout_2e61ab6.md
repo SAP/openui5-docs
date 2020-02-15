@@ -199,7 +199,7 @@ The following additional rules are internally applied to display the contents of
 
 4.  If the `ObjectPageLayout` contains only one section, no anchor bar is displayed.
 
-5.  If there are more than one section, the first one will not have a title.
+5.  If there are more than one sections, the first one will not have a title.
 
 
 ***
