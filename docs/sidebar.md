@@ -39,7 +39,7 @@
             -   [Upgrading from a Version Below 1.38](Upgrading_from_a_Version_Below_1.38_c1025c2.md)
         -   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
         -   [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
-    -   [Get Started: Setup and Tutorials](Get_Started_Setup_and_Tutorials_8b49fc1.md)
+    -   [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)
         -   [Development Environment](Development_Environment_7bb04e0.md)
             -   [App Development Using OpenUI5](App_Development_Using_OpenUI5_b1fbe1a.md)
             -   [App Development Using SAP Web IDE](App_Development_Using_SAP_Web_IDE_13ced94.md)

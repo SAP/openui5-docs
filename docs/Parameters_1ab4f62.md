@@ -20,6 +20,8 @@ When creating a binding, you can provide a parameter map which can contain the f
 
 -   `$$groupId` and `$$updateGroupId`: see [Batch Control](Batch_Control_74142a3.md)
 
+-   `$$noPatch`: In a property binding, set to `true` to prevent changes of the value to appear in back-end requests.
+
 -   `$$operationMode`: see [Filtering](Filtering_5338bd1.md) and [Sorting](Sorting_d2ce3f5.md)
 
 -   `$$ownRequest`: Set to `true` to ensure the binding uses an own service request to read data. All values other than `true` lead to an error.
@@ -34,7 +36,7 @@ The binding's OData query options are combined with the query options passed to 
 
 The query option `$count` must be specified as a boolean value with `true` or `false`. All other query options can be specified with a string value. In addition to strings, the following alternatives are possible:
 
--   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties.
+-   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties. Normally, these items point to direct parts of the query result without further expanding into related entities. However, further options are available with [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
 
 -   `$expand` can be an object where each object property corresponds to an expand item: the key is the complete expand path. The value can be set as follows:
 

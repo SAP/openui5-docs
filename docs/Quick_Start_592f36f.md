@@ -37,7 +37,7 @@ Ready...Steady...Go!<a name="loio592f36fd077b45349a67dcb3efb46ab1__fig_vf2_vfl_4
 **Related information**  
 
 
-[Get Started: Setup and Tutorials](Get_Started_Setup_and_Tutorials_8b49fc1.md)
+[Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)
 
 [Development Environment](Development_Environment_7bb04e0.md)
 

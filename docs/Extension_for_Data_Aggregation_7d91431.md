@@ -87,3 +87,11 @@ Two scenarios are supported:
 > 
 > 
 
+***
+
+<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_igs_pyd_tkb"/>
+
+### Filtering
+
+Filters are provided to the list binding as described in [Filtering](Filtering_5338bd1.md). The `Filter` objects are analyzed automatically to perform the filtering before the aggregation where possible using the `filter()` transformation. The remaining filters, including the provided `$filter` parameter of the binding, are applied after the aggregation either via the system query option `$filter` or within the system query option `$apply`, using again the `filter()` transformation.
+

@@ -18,7 +18,7 @@ We have the following categories of demo apps:
 
 -   Showcase apps that show you how to use specific controls or features
 
--   Apps that are created with our tutorials \(see [Get Started: Setup and Tutorials](Get_Started_Setup_and_Tutorials_8b49fc1.md)\)
+-   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\)
 
 -   Template apps \(see [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)\)
 

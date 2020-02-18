@@ -19,7 +19,7 @@ With automatic determination of `$expand` and `$select` \("auto-$expand/$select"
 
 You switch on auto-$expand/$select by setting the flag `autoExpandSelect` during [model construction](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
 
-It is still possible to specify `$expand` and `$select` in the binding parameters. This is useful if you need to access properties which are not bound on the UI. When auto-$expand/$select is switched on, it is not possible to change `$expand` and `$select` via the binding's [changeParameters](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/changeParameters) API. You don't have specify **key properties** in the binding's `$select` parameter if they aren't bound on the UI. These are selected automatically because keys are required in many scenarios, for example, to compute the edit-URL to update an entity.
+It is still possible to specify `$expand` and `$select` in the binding parameters. This is useful if you need to access properties which are not bound on the UI. When auto-$expand/$select is switched on, you may add any path to a simple or structured property to `$select`, even if this path contains navigation properties. The binding converts this `$select` to a `$expand` if necessary. It is not possible to change `$expand` and `$select` via the binding's [changeParameters](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/changeParameters) API. You don't have specify **key properties** in the binding's `$select` parameter if they aren't bound on the UI. These are selected automatically because keys are required in many scenarios, for example, to compute the edit-URL to update an entity.
 
 In auto-$expand/$select mode, a parent binding aggregates the binding paths and query options of its child bindings in its `$select` and `$expand` options, so that they do not send own data services requests. This aggregation is only possible in the following cases:
 
@@ -53,4 +53,10 @@ If you use a list binding with factory function with auto-$expand/$select, you n
 > During automatic determination of `$expand` and `$select` the factory function is called with a "virtual" context, that returns `undefined` for `[getProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getProperty)` calls.
 > 
 > 
+
+For auto-$expand/$select the model metadata must be analyzed before sending the request. This allows further optimization of the request, also enabling access to the parent entity by reducing partner navigation properties in the path.
+
+**Example:** A view shows a sales order together with its line items, with a line item binding that is relative to the sales order binding. Any property binding relative to the line item can then access a property of the sales order without causing a `$expand`. This even works if the property is needed only after the sales order data has been requested. This feature can be used to control the visibility or editability of a line item property based on the state of the sales order, or for value help at the line item.
+
+This path reduction of partner navigation properties is also performed in `sap.ui.model.odata.v4.Context#requestSideEffects`, so that side effects on the sales order can be requested via the context of a line item.
 
