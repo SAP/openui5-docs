@@ -32,7 +32,7 @@ For example, if you hard-coded the font color to black, this color cannot be adj
     -   We will not change the naming for these parameters.
     -   The contrast ratio between foreground- colors like text and the related background will remain stable.
 -   Always choose parameters that fit best from a semantic perspective, do **not** choose them based on their color value.
--   This set is available across the predefined themes `sap_fiori_3`, `sap_belize`, `sap_belize_plus`, `sap_fiori_3_hcw`, and `sap_fiori_3_hcb` and should be handled with care. You should test your implementations for all themes to ensure the results are as expected.
+-   This set is available across the predefined themes `sap_fiori_3_dark`, `sap_fiori_3`, `sap_belize`, `sap_belize_plus`, `sap_fiori_3_hcw`, and `sap_fiori_3_hcb` and should be handled with care. You should test your implementations for all themes to ensure the results are as expected.
 
     > Note:
     > This approach can only cover the most common use cases. In addition, be aware that due to parameter value changes with future versions of OpenUI5 it might be necessary to rework your applications even when using the “stable” theme parameters described here.

@@ -94,7 +94,7 @@ sap.ui.define([
 			oCtx = oItem.getBindingContext();
 			this.getRouter().navTo("employeeResume",{
 				employeeId : oCtx.getProperty("EmployeeID"),
-				query : {
+				"?query" : {
 					tab : "Info"
 				}
 			});

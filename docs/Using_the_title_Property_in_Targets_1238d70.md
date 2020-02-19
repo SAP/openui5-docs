@@ -14,11 +14,6 @@ Routing in OpenUI5 allows you to define titles declaratively in the configuratio
 
 When a new target that has the `title` property defined is displayed, or the title of the current target changes, the `titleChanged` event is fired. The event contains the current title and the history of previously displayed titles. You can use this event to update the title of your app.
 
-> Note:
-> The `title` property is only supported by the targets which have the type set to "View". If a target loads a component, its `title` property is **not** supported. The `titleChanged` event may still be fired on the router of the loaded component, and you need to register a event handler on the nested router to get notified by the `titleChanged` events which are fired within the nested router.
-> 
-> 
-
 ***
 
 ### Examples for setting the title in `Target`
@@ -35,7 +30,6 @@ When a new target that has the `title` property defined is displayed, or the tit
         "products": {
             "type": "View",
             "path": "shop.products",
-            "name": "Products",
             *HIGHLIGHT START*"title": "Products Overview"
 *HIGHLIGHT END*
         }
@@ -56,8 +50,31 @@ When a new target that has the `title` property defined is displayed, or the tit
         "product": {
             "type": "View",
             "path": "shop.products",
-            "name": "Product",
             *HIGHLIGHT START*"title": "{ parts: ['helperModel>/PRODUCTS_TITLE', 'myModel>productName'], formatter: '.myFormatterFunction' }"*HIGHLIGHT END*
+        }
+    },
+    ...
+}
+```
+
+The `title` property can also be defined on a "Component" type target. When it is set with a binding syntax, the binding is resolved in the context of the root view of the component that is loaded by this target. The router of the loaded component may also have `title` property defined on its own target\(s\) and eventually fire its own `titleChanged` event once a target is displayed inside the loaded component. UI5 provides a way to propagate the `titleChanged` event from a "Component" target to its owner router in order to let the event be consumed at one central place \(and not at any available router\). For detailed information, see [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md).
+
+``` js
+{
+    ...,
+    "routes": [{
+        "pattern": "attachment/{id}",
+        "name": "Attachment",
+        "target": {
+          "name": "attachment",
+          "prefix": "atch"
+        }
+    }],
+    "targets": {
+        "attachment": {
+            "type": "Component",
+            "usage": "productComponent",
+            *HIGHLIGHT START*"title": "Attachment"*HIGHLIGHT END*
         }
     },
     ...

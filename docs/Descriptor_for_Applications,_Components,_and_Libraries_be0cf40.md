@@ -559,8 +559,8 @@ Attributes in the `sap.fiori` namespace<a name="loiobe0cf40f61184b358b5faedaec98
 
 |Attribute|Description|
 |---------|-----------|
-| `registrationIds` |Array of registration IDs, for example, the Fiori IDs for Fiori apps|
-| `archeType` |Mandatory arche type of the app, possible values `transactional`, `analytical`, `factsheet`, `reusecomponent`, `fpmwebdynpro`, `designstudio` |
+| `registrationIds` |Array of registration IDs, for example, the Fiori IDs for SAP Fiori apps|
+| `archeType` |Mandatory archetype of the app, possible values `transactional`, `analytical`, `factsheet`, `reusecomponent`, `fpmwebdynpro`, `designstudio` |
 
 ***
 
@@ -594,7 +594,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.18.0",
+    "_version": "1.19.0",
  
     "start_url": "index.html",
  
@@ -957,16 +957,17 @@ Current version of the `manifest.json`
     "sap.cloud": {},
     "sap.integration": {},
     "sap.card": {},
-\}
+    "sap.platform.mobilecards": {}
+}
 ```
 
-The following namespaces are in responsibility of the corresponding teams:
+For the following namespaces, the indicated teams are responsible:
 
 -   sap.mobile - in Mobile responsibility
 
 -   sap.flp - in SAP Fiori Launchpad responsibility
 
--   sap.ui.generic.app - in SAP Fiori elements responsibility
+-   sap.ui.generic.app - in SAP Fiori Elements responsibility
 
 -   sap.ovp - in Overview Page responsibility
 
@@ -978,9 +979,9 @@ The following namespaces are in responsibility of the corresponding teams:
 
 -   sap.cloud.portal - in SAP Cloud Portal responsibility
 
--   sap.apf - in analysis path framework responsibility
+-   sap.apf - in Analysis Path Framework responsibility
 
--   sap.platform.cf - in cloud foundry/xsa responsibility
+-   sap.platform.cf - in Cloud Foundry/XSA responsibility
 
 -   sap.map - in SAP Visual Business responsibility
 
@@ -995,6 +996,8 @@ The following namespaces are in responsibility of the corresponding teams:
 -   sap.cloud - for SAP Cloud Platform specific attributes
 
 -   sap.card - in SAPUI5 responsibility
+
+-   sap.platform.mobilecards - in Mobile Cards responsibility
 
 
 ***

@@ -217,6 +217,10 @@ Example: `sap/ui/model/*` matches all files directly contained in the model pack
 			<td>Type: `boolean` Default value: `false` URL: No Modifiable at runtime: No If set to `true`, this configuration parameter activates an overlay div that contains a trace.</td>
 		</tr>
 		<tr>
+			<td>`trailingCurrencyCode`</td>
+			<td>Type: `boolean` Default value: `true` URL: Yes Modifiable at runtime: No By default the currency codes are shown after the amount. If set to `false`, the currency code will be shown as configured by the locale-specific patterns of the Common Locale Data Repository \(CLDR\).</td>
+		</tr>
+		<tr>
 			<td>`uidPrefix`</td>
 			<td>Type: `string` Default value: '--' URL: No Modifiable at runtime: No Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.</td>
 		</tr>

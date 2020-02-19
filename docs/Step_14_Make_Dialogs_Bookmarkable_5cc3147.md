@@ -56,23 +56,25 @@ sap.ui.define([
 		_onRouteMatched : function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
-			this._oRouterArgs.query = this._oRouterArgs["?query"] || {};
-			delete this._oRouterArgs["?query"];
-			if (this._oRouterArgs.query) {
-				// search/filter via URL hash
-				this._applySearchFilter(this._oRouterArgs.query.search);
-				// sorting via URL hash
-				this._applySorter(this._oRouterArgs.query.sortField, this._oRouterArgs.query.sortDescending);
+			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
+			var oQueryParameter = this._oRouterArgs["?query"];
+
+			// search/filter via URL hash
+			this._applySearchFilter(oQueryParameter.search);
+
+			// sorting via URL hash
+			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);
+
 				*HIGHLIGHT START*// show dialog via URL hash
-				if (!!this._oRouterArgs.query.showDialog) {
+				if (oQueryParameter.showDialog) {
 					this._oVSD.open();
 				}*HIGHLIGHT END*
-			}
+			
 		},
 		onSortButtonPressed : function (oEvent) {
 			*HIGHLIGHT START*var oRouter = this.getRouter();
-			this._oRouterArgs.query.showDialog = 1;
-			oRouter.navTo("employeeOverview",this._oRouterArgs);
+			this._oRouterArgs["?query"].showDialog = 1;
+			oRouter.navTo("employeeOverview", this._oRouterArgs);
 *HIGHLIGHT END*
 		},
 		...
@@ -81,14 +83,14 @@ sap.ui.define([
 			this._oVSD = new sap.m.ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {
 					var oSortItem = oEvent.getParameter("sortItem");
-					this._oRouterArgs.query.sortField = oSortItem.getKey();
-					this._oRouterArgs.query.sortDescending = oEvent.getParameter("sortDescending");
-					delete this._oRouterArgs.query.showDialog;
-					oRouter.navTo("employeeOverview",this._oRouterArgs, true /*without history*/);
+					this._oRouterArgs["?query"].sortField = oSortItem.getKey();
+					this._oRouterArgs["?query"].sortDescending = oEvent.getParameter("sortDescending");
+					delete this._oRouterArgs["?query"].showDialog;
+					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);
 				}.bind(this)*HIGHLIGHT START*,
 				cancel : function (oEvent){
 					delete this._oRouterArgs.query.showDialog;
-					oRouter.navTo("employeeOverview",this._oRouterArgs, true /*without history*/);
+					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);
 				}.bind(this)*HIGHLIGHT END*
 			});
 			...
@@ -98,9 +100,9 @@ sap.ui.define([
 });
 ```
 
-Once again we will update the `EmployeeOverviewContent` controller to add support for the bookmarking of our sorting dialog. We decide to choose a query parameter `showDialog` that controls if the dialog is opened directly when we navigate to the page with a deep link. Therefore, we extend the matched event handler for the `employeeOverview` route. If the query parameter `showDialog` is set to `1` \(note the implicit conversion to a `Boolean` type for the check\) we open the dialog. We only have to make sure that the dialog does not get closed again by the router as this behavior is the default when navigating. Therefore, we call `oEvent.preventDefault()` to tell the router that we want to keep the dialog open.
+Once again we will update the `EmployeeOverviewContent` controller to add support for the bookmarking of our sorting dialog. We decide to choose a query parameter `showDialog` that controls if the dialog is opened directly when we navigate to the page with a deep link. Therefore, we extend the matched event handler for the `employeeOverview` route. If the query parameter `showDialog` is set to `1`, we open the dialog. We only have to make sure that the dialog does not get closed again by the router as this behavior is the default when navigating.
 
-Next we change the `press` handler of the sort button. In the `onSortButtonPressed` function we set `this._oRouterArgs.query.showDialog = 1` and call `navTo()` to let the router do the job instead of directly opening the dialog. Finally, we delete `this._oRouterArgs.query.showDialog` before calling `navTo()` in the `confirm` and `cancel` event handlers of the `ViewSettingsDialog`. This is important to make sure that the dialog does not open again by the matched handler.
+Next we change the `press` handler of the sort button. In the `onSortButtonPressed` function we set `this._oRouterArgs["?query"].showDialog = 1` and call `navTo()` to let the router do the job instead of directly opening the dialog. Finally, we delete `this._oRouterArgs["?query"].showDialog` before calling `navTo()` in the `confirm` and `cancel` event handlers of the `ViewSettingsDialog`. This is important to make sure that the dialog does not open again by the matched handler.
 
 We are now done with this step. Try to access the following pages:
 

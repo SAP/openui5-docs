@@ -20,13 +20,13 @@ One use case for data formatting is the ability to format and parse numbers incl
 
 ### Available Functions for Currency Formatting
 
-You use the `NumberFormat.getCurrencyInstance()` factory function for creating a currency format instance. On this instance, you can call the `format` and `parse` functions.
+Use the `NumberFormat.getCurrencyInstance()` factory function for creating a currency format instance. On this instance, you can call the `format` and `parse` functions.
 
 ***
 
 #### Creating a Currency Format Instance
 
-The `NumberFormat.getCurrencyInstance()` function accepts two arguments:
+The `sap.ui.core.format.NumberFormat.getCurrencyInstance()` function accepts two arguments:
 
 -   The first argument, `oFormatOptions`, is a set of format options that determines the output formatting. The format option `'decimals'`, for example, defines the number of decimal digits of the formatted value.
 
@@ -58,11 +58,10 @@ For more information, see [getCurrencyInstance](https://openui5.hana.ondemand.co
 The currency formatter instance allows you to combine a number value with a localized currency string.
 
 ``` js
-sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
-   var oCurrencyFormat = NumberFormat.getCurrencyInstance();
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 
-   oCurrencyFormat.format(12345.678, "EUR"); // output: EUR 12,345.68
-});
+oCurrencyFormat.format(12345.678, "EUR"); // output: EUR 12,345.68
 ```
 
 For more information, see [format](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/format)
@@ -74,11 +73,11 @@ For more information, see [format](https://openui5.hana.ondemand.com/#/api/sap.u
 The `'parse'` function turns a string containing a number and a currency code \(EUR, USD\) or symbol \(€, $\) back into its raw parts: the number value and the currency code. The results are returned in an array.
 
 ``` js
-sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
-   var oCurrencyFormat = NumberFormat.getCurrencyInstance();
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 
-   oCurrencyFormat.parse("EUR 12,345.678"); // output: [12345.678, "EUR"]
-});
+oCurrencyFormat.parse("EUR 12,345.678"); // output: [12345.678, "EUR"]
+
 ```
 
 For more information, see [parse](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/parse)
@@ -91,13 +90,16 @@ The following formatting options for currency formatting are available:
 
 -   `currencyCode` defines whether the code or the symbol is used when `showMeasure` is set to true.
 
+-   `trailingCurrencyCode` defines whether the currency codes are always shown after the amount, independent of the locale.
+
 -   `currencyContext` defines the pattern that is used for formatting a currency number. It can be set to standard \(default\) or accounting.
 
 
 Let's try out these format options and create a currency formatter that is able to format currency values with symbols:
 
 ``` js
-var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oCurrencyFormat = NumberFormat.getCurrencyInstance({
     currencyCode: false
 });
 
@@ -120,41 +122,39 @@ As mentioned above, the Common Locale Data Repository \(CLDR\) provides patterns
 
 #### Custom Currencies Configuration on Currency Format Instances
 
-The currency `NumberFormat` instance allows you to specify custom currencies which can be used for formatting and parsing. All you have to do is to add your custom currencies as an additional format option in the `NumberFormat.getCurrencyInstance()` factory.
+The currency `NumberFormat` instance allows you to specify custom currencies which can be used for formatting and parsing. All you have to do is to add your custom currencies as an additional format option in the `sap.ui.core.format.NumberFormat.getCurrencyInstance()` factory.
 
 The following example shows how this is done for a specific instance:
 
 ``` js
-sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
-    var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
-        customCurrencies: {
-            "Bitcoin": {
-                decimals: 5
-            }
-        }
-    });
-
-    oCurrencyFormat.format(10.1234567, "Bitcoin"); // 10,12346 Bitcoin
-    oCurrencyFormat.parse("12 Bitcoin"); // [12, "Bitcoin"];
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oCurrencyFormat = NumberFormat.getCurrencyInstance({
+    customCurrencies: {
+        "Bitcoin": {
+            decimals: 5
+         }
+     }
 });
+
+oCurrencyFormat.format(10.1234567, "Bitcoin"); // 10,12346 Bitcoin
+oCurrencyFormat.parse("12 Bitcoin"); // [12, "Bitcoin"];
 ```
 
 If you want to define a custom currency that falls back on the currency symbol of an already existing currency, you can configure a respective currency code \(also called ISO code\):
 
 ``` js
-sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
-    var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance({
-        currencyCode: false,
-        customCurrencies: {
-            "MyEuro": {
-                decimals: 5,
-                isoCode: "EUR"
-            }
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oCurrencyFormat = NumberFormat.getCurrencyInstance({
+    currencyCode: false,
+    customCurrencies: {
+        "MyEuro": {
+            decimals: 5,
+            isoCode: "EUR"
         }
-    });
-
-    oCurrencyFormat.format(10.1234567, "MyEuro"); // €10.12346
+    }
 });
+
+oCurrencyFormat.format(10.1234567, "MyEuro"); // €10.12346
 ```
 
 The custom currencies defined on the `NumberFormat` instance are exclusive to this instance, meaning that no other instances are affected. In addition, once you define custom currencies for an instance, only those currencies are formatted and parsed by that instance.
@@ -165,11 +165,11 @@ In the following example, the currency instance from above is used. Formatting a
 
 ``` js
 // formatting/parsing Bitcoin is fine
- oCurrencyFormat.format(9001.987654, "Bitcoin");  // 9.001,98765 Bitcoin
- oCurrencyFormat.parse("12 Bitcoin"); // [12, "Bitcoin"];
+oCurrencyFormat.format(9001.987654, "Bitcoin");  // 9.001,98765 Bitcoin
+oCurrencyFormat.parse("12 Bitcoin"); // [12, "Bitcoin"];
 
- // formatting/parsing EUR does not work
- oCurrencyFormat.format(1.21, "EUR"); // "": results in an empty string, as the currency is unknown
+// formatting/parsing EUR does not work
+oCurrencyFormat.format(1.21, "EUR"); // "": results in an empty string, as the currency is unknown
 ```
 
 If you need both, CLDR predefined currencies and custom currencies, you create two separate number format instances, or use the second approach to define custom currencies as described in the next section.
@@ -183,8 +183,8 @@ You can also add custom currencies via the formatting settings in the core confi
 Adding a currency with a key which is already available in the CLDR will overwrite the CLDR currency. By this, you can overdefine single currencies, in case the CLDR provided formatting is not sufficient.
 
 ``` js
-sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
-    sap.ui.getCore().getConfiguration().getFormatSettings().addCustomCurrencies({
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+sap.ui.getCore().getConfiguration().getFormatSettings().addCustomCurrencies({
 	     "MyCoin": {
             "symbol": "MC"
         },
@@ -194,21 +194,20 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
         "USD": { // overwrite of an existing CLDR currency
             "digits": 5
         }
-    });
-
-
-    var oCurrencyFormat = NumberFormat.getCurrencyInstance();
-
-    // formatting a custom currency
-    oCurrencyFormat.format(12, "MyCoin"); // 12,00 MyCoin
-
-
-    // formatting and existing CLDR currency
-    oCurrencyFormat.format(5, "EUR"); // 5,00 EUR
-
-
-    // formatting an existing CLDR currency
-    oCurrencyFormat.format(12, "USD"); // 12,00000 USD // Default decimal setting would have been two
 });
+
+
+var oCurrencyFormat = NumberFormat.getCurrencyInstance();
+
+// formatting a custom currency
+oCurrencyFormat.format(12, "MyCoin"); // 12,00 MyCoin
+
+
+// formatting an existing CLDR currency
+oCurrencyFormat.format(5, "EUR"); // 5,00 EUR
+
+
+// formatting an existing CLDR currency
+oCurrencyFormat.format(12, "USD"); // 12,00000 USD // Default decimal setting would have been two
 ```
 

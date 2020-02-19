@@ -82,7 +82,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 }
 ```
 
-Up until now, you could only navigate to an employee’s resume with the deep link `webapp/index.html#/employees/3/resume`. This will always select the first tab as implemented by the `IconTabBar` control. In order to open the page directly with a specific tab selected and to make the tabs bookmarkable, we add the `query` parameter to the URL pattern.
+Up until now, you could only navigate to an employee’s resume with the deep link `webapp/index.html#/employees/3/resume`. This will always select the first tab as implemented by the `IconTabBar` control. In order to open the page directly with a specific tab selected and to make the tabs bookmarkable, we add the `?query` parameter to the URL pattern.
 
 This allows URLs like `webapp/index.html#/employees/3/resume?tab=Projects` where the query parameter defines which tab shall be displayed. We change the pattern of the `employeeResume` route to `employees/{employeeId}/resume:?query:`. The new part `:?query:` allows to pass on queries with any parameters, for example, the hash `/#/employees/3/resume?tab=Projects` or `/#/employees/3/resume?tab=Projects&action=edit` matches the pattern and can be processed in the matched event.
 
@@ -175,10 +175,10 @@ sap.ui.define([
 				// the default query param should be visible at all time
 				this.getRouter().navTo("employeeResume", {
 					employeeId : oArgs.employeeId,
-					query: {
+					"?query": {
 						tab : _aValidTabKeys[0]
 					}
-				},true /*no history*/);
+				}, true /*no history*/);
 			}
 *HIGHLIGHT END*
 		},
@@ -192,7 +192,7 @@ sap.ui.define([
 			var oCtx = this.getView().getBindingContext();
 			this.getRouter().navTo("employeeResume", {
 				employeeId : oCtx.getProperty("EmployeeID"),
-				query: {
+				"?query": {
 					tab : oEvent.getParameter("selectedKey")
 				}
 			}, true /*without history*/);

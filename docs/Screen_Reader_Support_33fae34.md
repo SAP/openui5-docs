@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Screen Reader Support
 
-OpenUI5 application developers need to be aware of how the screen reader reads out the contents of the UI. Labels, headings and descriptions help you describe the contents and visual elements of an application.
+OpenUI5 application developers need to be aware of how the screen reader reads out the contents of the UI. Labels, headings, and descriptions help you describe the contents and visual elements of an application.
 
 ***
 
@@ -28,7 +28,7 @@ The screen reader software gets the information about the page directly from the
 
 #### Use titles for complex components
 
-Complex controls like pages, panels and tables need a title to summarize the contents they hold. If you use the standalone `Title` control, make sure that it is associated with the element that needs the title.
+Complex controls like pages, panels, and tables need a title to summarize the contents they hold. If you use the standalone `Title` control, make sure that it is associated with the element that needs the title.
 
 > Note:
 > ```
@@ -184,10 +184,10 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
--   When something is opening on the screen, you can move the focus there, if it is necessary depending on the use case. For example, in the case that a dialog is being opened.
+-   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the master-detail pattern when the user needs to browse the available items, the focus should stay in the master list area. And in cases when the user has selected an item from the master list and needs to perform an action, the focus should move to the details area.
 
 > Note:
-> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, where appropriate.
+> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
 > 
 > 
 

@@ -36,7 +36,7 @@ The binding's OData query options are combined with the query options passed to 
 
 The query option `$count` must be specified as a boolean value with `true` or `false`. All other query options can be specified with a string value. In addition to strings, the following alternatives are possible:
 
--   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties. Normally, these items point to direct parts of the query result without further expanding into related entities. However, further options are available with [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+-   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties. Normally, these items point to direct parts of the query result without further expanding into related entities.Further options are available with [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
 
 -   `$expand` can be an object where each object property corresponds to an expand item: the key is the complete expand path. The value can be set as follows:
 

@@ -133,14 +133,10 @@ sap.ui.define([
 *HIGHLIGHT START*		_onRouteMatched : function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
-			this._oRouterArgs.query = this._oRouterArgs["?query"] || {};
-
-			if (this._oRouterArgs.query) {
+			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
 
 				// search/filter via URL hash
-				this._applySearchFilter(this._oRouterArgs.query.search);
-
-			}
+				this._applySearchFilter(this._oRouterArgs["?query"].search);
 		},
 *HIGHLIGHT END*
 
@@ -151,17 +147,17 @@ sap.ui.define([
 		onSearchEmployeesTable : function (oEvent) {
 *HIGHLIGHT START*			var oRouter = this.getRouter();
 			// update the hash with the current search term
-			this._oRouterArgs.query.search = oEvent.getSource().getValue();
-			oRouter.navTo("employeeOverview",this._oRouterArgs, true /*no history*/);*HIGHLIGHT END*
+			this._oRouterArgs["?query"].search = oEvent.getSource().getValue();
+			oRouter.navTo("employeeOverview", this._oRouterArgs, true /*no history*/);*HIGHLIGHT END*
 		},
 		...
 	});
 });
 ```
 
-Now we handle the optional query parameter from the `employeeOverview` route in our `EmployeeOverviewContent` controller. First we change the `onInit` function by adding an event listener for the matched event of the `employeeOverview` route. Then we buffer the current router arguments as received from the event. If a query is available, the result from `oEvent.getParameter("arguments")` will contain a `?query` property with an object of all URL parameters specified, otherwise it is undefined. For an easier access and to always initialize the query, we save the `?query` object containing all query parameters to `this._oRouterArgs.query` and delete the duplicate at `this._oRouterArgs["?query"]`. If we have a search term query at the `search` key we continue and call `this._applySearchFilter(this._oRouterArgs.query.search)` to trigger a search based on the search query parameter from the URL.
+Now we handle the optional query parameter from the `employeeOverview` route in our `EmployeeOverviewContent` controller. First we change the `onInit` function by adding an event listener for the matched event of the `employeeOverview` route. Then we buffer the current router arguments as received from the event. If a query is available, the result from `oEvent.getParameter("arguments")` will contain a `?query` property with an object of all URL parameters specified, otherwise it is undefined. If no query parameter is defined, we always initialize the query and save it to `this._oRouterArgs["?query"]`. If we have a search term query at the `search` key we continue and call `this._applySearchFilter(this._oRouterArgs["?query"].search)` to trigger a search based on the search query parameter from the URL.
 
-Storing the `arguments` objects internally in the controller is important, because we will use the current arguments when calling `navTo()` in the search event handler `onSearchEmployeesTable` and pass on the arguments with the updated search term. We keep the URL and the UI in sync by navigating to the current target again with the current value of the search field from the event’s source. The search value is stored in `this._oRouterArgs.query.search` together with the other query parameters and it is passed directly to the router again
+Storing the `arguments` objects internally in the controller is important, because we will use the current arguments when calling `navTo()` in the search event handler `onSearchEmployeesTable` and pass on the arguments with the updated search term. We keep the URL and the UI in sync by navigating to the current target again with the current value of the search field from the event’s source. The search value is stored in `this._oRouterArgs["?query"].search` together with the other query parameters and it is passed directly to the router again
 
 That’s it, now our search is bookmarkable and reflected in the URL. Try to access the following pages in your browser:
 

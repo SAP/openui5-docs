@@ -56,14 +56,15 @@ sap.ui.define([
 		_onRouteMatched : function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
-			this._oRouterArgs.query = this._oRouterArgs["?query"] || {};
-			delete this._oRouterArgs["?query"];
-			if (this._oRouterArgs.query) {
-				// search/filter via URL hash
-				this._applySearchFilter(this._oRouterArgs.query.search);
+			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
+			var oQueryParameter = this._oRouterArgs["?query"];
+
+			// search/filter via URL hash
+			this._applySearchFilter(oQueryParameter.search);
+
 				*HIGHLIGHT START*// sorting via URL hash
-				this._applySorter(this._oRouterArgs.query.sortField, this._oRouterArgs.query.sortDescending);*HIGHLIGHT END*
-			}
+				this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);*HIGHLIGHT END*
+			
 		},
 		...
 		_initViewSettingsDialog : function () {
@@ -71,9 +72,9 @@ sap.ui.define([
 			this._oVSD = new sap.m.ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {
 					var oSortItem = oEvent.getParameter("sortItem");
-					*HIGHLIGHT START*this._oRouterArgs.query.sortField = oSortItem.getKey();
-					this._oRouterArgs.query.sortDescending = oEvent.getParameter("sortDescending");
-					oRouter.navTo("employeeOverview",this._oRouterArgs, true /*without history*/);*HIGHLIGHT END*
+					*HIGHLIGHT START*this._oRouterArgs["?query"].sortField = oSortItem.getKey();
+					this._oRouterArgs["?query"].sortDescending = oEvent.getParameter("sortDescending");
+					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);*HIGHLIGHT END*
 				}.bind(this) 
 			});
 			...
@@ -83,9 +84,9 @@ sap.ui.define([
 });
 ```
 
-We enhance the `EmployeeOverviewContent` controller further to add support for bookmarking the table’s sorting options. We expect two query parameters `sortField` and `sortDescending` from the URL for configuring the sorting of the table. In the matched handler of the route `employeeOverview` we add an additional call to `this._applySorter(this._oRouterArgs.query.sortField, this._oRouterArgs.query.sortDescending)`. This triggers the sorting action based on the two query parameters `sortField` and `sortDescending` from the URL.
+We enhance the `EmployeeOverviewContent` controller further to add support for bookmarking the table’s sorting options. We expect two query parameters `sortField` and `sortDescending` from the URL for configuring the sorting of the table. In the matched handler of the route `employeeOverview`, we store the query parameter in the `oQueryParameter` variable and add an additional call to `this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending)` . This triggers the sorting action based on the two query parameters `sortField` and `sortDescending` from the URL.
 
-Next we change the `confirm` event handlers of our `ViewSettingsDialog`. The `confirm` handler updates the current router arguments with the parameters from the event accordingly. Then we call `oRouter.navTo("employeeOverview",this._oRouterArgs, true)` with the updated router arguments to persist the new sorting parameters in the URL. Both the previous arguments \(i.e. `search`\) and the new arguments for the sorting will then be handled by the matched event handler for the `employeeOverview` route.
+Next we change the `confirm` event handlers of our `ViewSettingsDialog`. The `confirm` handler updates the current router arguments with the parameters from the event accordingly. Then we call `oRouter.navTo("employeeOverview", this._oRouterArgs, true)` with the updated router arguments to persist the new sorting parameters in the URL. Both the previous arguments \(i.e. `search`\) and the new arguments for the sorting will then be handled by the matched event handler for the `employeeOverview` route.
 
 Congratulations! Even the sorting options of the table can now be bookmarked. Try to access the following pages:
 
