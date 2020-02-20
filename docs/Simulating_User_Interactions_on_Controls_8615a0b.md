@@ -188,6 +188,42 @@ iClickOnTableItemByFieldValue: function () {
 
 ***
 
+### Simulating drag and drop
+
+As of v1.76 you can use the new `sap.ui.test.actions.Drag` and `sap.ui.test.actions.Drop` actions. First, locate a control to drag and use the `Drag` action with it. Then, locate the control on which you wish to drop the first control, and use the `Drop` action with it. The `Drop` action accepts several optional parameters to specify the drop target:
+- Use `idSuffix` to set an exact DOM element within the control tree
+- Use `aggregationName` to set the target to be the DOM element for this aggregation
+- Use `before` or `after` to choose whether the dragged control should be dropped before or after the drop target.
+The following example rearranges items in a list:
+
+    ```js
+    // Find the item to drag
+    oOpa.waitFor({
+        controlType: "sap.m.StandardListItem",
+        matchers: new BindingPath({
+            path: "/ProductCollection/1"
+        }),
+        // Start the dragging
+        actions: new Drag()
+    });
+    
+    // Find another item on which to drop the dragged item
+    oOpa.waitFor({
+        controlType: "sap.m.StandardListItem",
+        matchers: new BindingPath({
+            path: "/ProductCollection/5"
+        }),
+        // Finish dragging and drop the item right before this one.
+        // In the end, the item with binding context path "/ProductCollection/1" should appear right on top of the item with
+        // binding context path "/ProductCollection/5"
+        actions: new Drop({
+            before: true
+        })
+    });
+    ```
+
+***
+
 ### Writing Your Own Action
 
 Since OPA5 uses JavaScript for its execution, you cannot use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions very easily. Just provide an inline function as shown here:
