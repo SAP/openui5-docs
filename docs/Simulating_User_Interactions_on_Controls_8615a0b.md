@@ -126,7 +126,26 @@ There are a couple of modifiers to the `EnterText` action:
         }
     });
     ```
+    
+- Use the `pressEnterKey` property to add an `enter` key to the end of the input. This should trigger the change event for the input and the input will remain focused. Use this when focusing out of the input will produce unwanted results. For example, focusing out of inputs in a popup will result in the popup closing only in some browsers which leads to inconsistent test results.
 
+    ``` js
+    oOpa.waitFor({
+        controlType: "sap.m.Input",
+        searchOpenDialogs: true,
+        actions: new EnterText({
+            text: "test",
+            pressEnterKey: true
+        })
+    });
+    oOpa.waitFor({
+        controlType: "sap.m.Popover",
+        searchOpenDialogs: true,
+        success: function (aPopover) {
+            Opa5.assert.ok(aPopover[0].isOpen(), "Popover should remain open on any browser");
+        }
+    });
+    ```
 
 ***
 
