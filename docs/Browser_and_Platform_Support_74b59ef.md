@@ -36,18 +36,19 @@ The following tables give a general overview of the browsers, platforms, and ref
 > 
 > 
 
-|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge|Google Chrome|Mozilla Firefox|SAP Fiori Client|
-|--------|---------------|----------------|------|--------|-----------------|--------------|-------------|---------------|----------------|
-|Windows|Desktop|Windows 7, 8.1|-|-|Version 11<sup>2</sup>|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>1</sup>|-|
+|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(Chromium\)|Microsoft Edge \(EdgeHTML\)<sup>1</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
+|--------|---------------|----------------|------|--------|-----------------|---------------------------|---------------------------------------|-------------|---------------|----------------|
+|Windows|Desktop|Windows 8.1|-|-|Version 11<sup>3</sup>|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>2</sup>|-|
 |Windows 10|-|Latest version|Latest 2 versions|-|
-|Touch<sup>3</sup>|Windows 10|-|Latest version|Version 11<sup>2</sup>|Latest 2 versions|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
-|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|Latest version<sup>3</sup>|-|-|
-|iOS|Phone and Tablet<sup>3</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|Latest version|
-|Android|Phone and Tablet<sup>3</sup>|As of version 5|-|-|-|-|Latest version|-|Latest version|
+|Touch<sup>4</sup>|Windows 10|-|Latest version|Version 11<sup>3</sup>|Latest 2 versions|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
+|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|Latest version<sup>4</sup>|-|-|
+|iOS|Phone and Tablet<sup>4</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|Latest version|
+|Android|Phone and Tablet<sup>4</sup>|As of version 5|-|-|-|-|Latest version|-|Latest version|
 
-1\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
- 2\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
- 3\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+1\) The next stable OpenUI5 release that comes after OpenUI5 1.71 will be the last OpenUI5 release to support Microsoft Edge \(EdgeHTML\).  
+ 2\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
+ 3\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
+ 4\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***

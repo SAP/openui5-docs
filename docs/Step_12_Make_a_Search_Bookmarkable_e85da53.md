@@ -130,13 +130,13 @@ sap.ui.define([
 
 		},
 
-*HIGHLIGHT START*		_onRouteMatched : function (oEvent) {
+*HIGHLIGHT START*		_onRouteMatched: function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
 
-				// search/filter via URL hash
-				this._applySearchFilter(this._oRouterArgs["?query"].search);
+			// search/filter via URL hash
+			this._applySearchFilter(this._oRouterArgs["?query"].search);
 		},
 *HIGHLIGHT END*
 

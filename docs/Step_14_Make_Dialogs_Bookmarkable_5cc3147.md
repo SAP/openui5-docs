@@ -53,7 +53,7 @@ sap.ui.define([
 		onInit: function () {
 			...
 		},
-		_onRouteMatched : function (oEvent) {
+		_onRouteMatched: function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
@@ -65,20 +65,20 @@ sap.ui.define([
 			// sorting via URL hash
 			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);
 
-				*HIGHLIGHT START*// show dialog via URL hash
-				if (oQueryParameter.showDialog) {
-					this._oVSD.open();
-				}*HIGHLIGHT END*
+			*HIGHLIGHT START*// show dialog via URL hash
+			if (oQueryParameter.showDialog) {
+				this._oVSD.open();
+			}*HIGHLIGHT END*
 			
 		},
-		onSortButtonPressed : function (oEvent) {
+		onSortButtonPressed: function (oEvent) {
 			*HIGHLIGHT START*var oRouter = this.getRouter();
 			this._oRouterArgs["?query"].showDialog = 1;
 			oRouter.navTo("employeeOverview", this._oRouterArgs);
 *HIGHLIGHT END*
 		},
 		...
-		_initViewSettingsDialog : function () {
+		_initViewSettingsDialog: function () {
 			var oRouter = this.getRouter();
 			this._oVSD = new sap.m.ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {
@@ -88,7 +88,7 @@ sap.ui.define([
 					delete this._oRouterArgs["?query"].showDialog;
 					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);
 				}.bind(this)*HIGHLIGHT START*,
-				cancel : function (oEvent){
+				cancel: function (oEvent){
 					delete this._oRouterArgs.query.showDialog;
 					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);
 				}.bind(this)*HIGHLIGHT END*

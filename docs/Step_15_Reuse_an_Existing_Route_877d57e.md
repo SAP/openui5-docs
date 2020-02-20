@@ -82,20 +82,20 @@ sap.ui.define([
 	"use strict";
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.overview.EmployeeOverviewContent", {
 		...
-		_syncViewSettingsDialogSorter : function (sSortField, bSortDescending) {
+		_syncViewSettingsDialogSorter: function (sSortField, bSortDescending) {
 			// the possible keys are: "EmployeeID" | "FirstName" | "LastName"
 			// Note: no input validation is implemented here
 			this._oVSD.setSelectedSortItem(sSortField);
 			this._oVSD.setSortDescending(bSortDescending);
 		}*HIGHLIGHT START*,
-		onItemPressed : function (oEvent) {
+		onItemPressed: function (oEvent) {
 			var oItem, oCtx, oRouter;
 			oItem = oEvent.getParameter("listItem");
 			oCtx = oItem.getBindingContext();
 			this.getRouter().navTo("employeeResume",{
 				employeeId : oCtx.getProperty("EmployeeID"),
-				"?query" : {
-					tab : "Info"
+				"?query": {
+					tab: "Info"
 				}
 			});
 		}*HIGHLIGHT END*

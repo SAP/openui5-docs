@@ -86,7 +86,7 @@ Up until now, you could only navigate to an employee’s resume with the deep li
 
 This allows URLs like `webapp/index.html#/employees/3/resume?tab=Projects` where the query parameter defines which tab shall be displayed. We change the pattern of the `employeeResume` route to `employees/{employeeId}/resume:?query:`. The new part `:?query:` allows to pass on queries with any parameters, for example, the hash `/#/employees/3/resume?tab=Projects` or `/#/employees/3/resume?tab=Projects&action=edit` matches the pattern and can be processed in the matched event.
 
-The `:?query:` parameter starts and ends with `:`; this means that it is optional. If you want to make it mandatory, you can use the `{?query}` syntax \(everything in between `{}` is considered as being mandatory\).
+The `:?query:` parameter starts and ends with "`:`", which means that it is optional. If you want to make it mandatory, you can use the `{?query}` syntax \(everything in between `{}` is considered as being mandatory\).
 
 ***
 
@@ -152,13 +152,13 @@ sap.ui.define([
 *HIGHLIGHT END*
 			oRouter.getRoute("employeeResume").attachMatched(this._onRouteMatched, this);
 		},
-		_onRouteMatched : function (oEvent) {
+		_onRouteMatched: function (oEvent) {
 			var oArgs, oView*HIGHLIGHT START*, oQuery*HIGHLIGHT END*;
 			oArgs = oEvent.getParameter("arguments");
 			oView = this.getView();
 			oView.bindElement({
-				path : "/Employees(" + oArgs.employeeId + ")",
-				events : {
+				path: "/Employees(" + oArgs.employeeId + ")",
+				events: {
 					change: this._onBindingChange.bind(this),
 					dataRequested: function (oEvent) {
 						oView.setBusy(true);
@@ -174,26 +174,26 @@ sap.ui.define([
 			} else {
 				// the default query param should be visible at all time
 				this.getRouter().navTo("employeeResume", {
-					employeeId : oArgs.employeeId,
+					employeeId: oArgs.employeeId,
 					"?query": {
-						tab : _aValidTabKeys[0]
+						tab: _aValidTabKeys[0]
 					}
 				}, true /*no history*/);
 			}
 *HIGHLIGHT END*
 		},
-		_onBindingChange : function (oEvent) {
+		_onBindingChange: function (oEvent) {
 			// No data for the binding
 			if (!this.getView().getBindingContext()) {
 				this.getRouter().getTargets().display("notFound");
 			}
 		}*HIGHLIGHT START*,
-		onTabSelect : function (oEvent){
+		onTabSelect: function (oEvent){
 			var oCtx = this.getView().getBindingContext();
 			this.getRouter().navTo("employeeResume", {
-				employeeId : oCtx.getProperty("EmployeeID"),
+				employeeId: oCtx.getProperty("EmployeeID"),
 				"?query": {
-					tab : oEvent.getParameter("selectedKey")
+					tab: oEvent.getParameter("selectedKey")
 				}
 			}, true /*without history*/);
 		}
@@ -208,7 +208,7 @@ A dependency to `sap/ui/model/json/JSONModel` is added to the controller. Now, w
 
 In the `_onRouteMatched` event handler, we add the `oQuery` variable to store a reference to the query object from the router. This allows a more comfortable access to the query object.
 
-In case a query object is passed on and the `tab` parameter has a valid value, we display the specific tab by updating the property `/selectedTabKey` in the view model. As the `selectedKey` property of the `IconTabBar` is bound to `{view>/selectedTabKey}` the corresponding tab is selected.
+In case a query object is passed on and the `tab` parameter has a valid value, we display the specific tab by updating the property `selectedTabKey` in the view model. As the `selectedKey` property of the `IconTabBar` is bound to `{view>/selectedTabKey}` the corresponding tab is selected.
 
 The `else` case is called when either no or an invalid tab parameter is specified. We navigate to the *Info* tab to make sure that the tab parameter is reflected in the URL at all times. The actual requirements of your app might differ, feel free to change it accordingly...
 

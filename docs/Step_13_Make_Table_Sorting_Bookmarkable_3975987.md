@@ -53,7 +53,7 @@ sap.ui.define([
 		onInit: function () {
 			...
 		},
-		_onRouteMatched : function (oEvent) {
+		_onRouteMatched: function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
@@ -62,12 +62,12 @@ sap.ui.define([
 			// search/filter via URL hash
 			this._applySearchFilter(oQueryParameter.search);
 
-				*HIGHLIGHT START*// sorting via URL hash
-				this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);*HIGHLIGHT END*
+			*HIGHLIGHT START*// sorting via URL hash
+			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);*HIGHLIGHT END*
 			
 		},
 		...
-		_initViewSettingsDialog : function () {
+		_initViewSettingsDialog: function () {
 			var oRouter = this.getRouter();
 			this._oVSD = new sap.m.ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {

@@ -18,9 +18,9 @@ The following sections give an overview of the known degradations.
 
 ### sap.m.Text - maxLines \(property\), sap.m.Text - text \(property\), sap.m.ObjectListItem - title \(property\), sap.m.ObjectHeader - title \(property\)
 
-The visual aid for indicating multiline overflow is an ellipsis at the end of a line. This ellipsis is displayed if the text string exceeds the maximum number of lines displayed on screen. Depending on the line-clamping support offered by your browser, this visual aid may not be displayed at all, meaning the text is simply truncated without any visual indication that it is incomplete. The table below outlines which browsers fail to support the multiline ellipsis handling of the `maxLines` property, and also shows examples of each visual degradation along with what the display should look like in each case:
+The visual aid for indicating multiline overflow is an ellipsis at the end of a line. This ellipsis is displayed if the text string exceeds the maximum number of lines displayed on screen. Depending on the line-clamping support offered by your browser, this visual aid may not be displayed at all, meaning the text is simply truncated without any visual indication that it is incomplete. The table below outlines which browsers fail to support the multiline ellipsis handling of the `maxLines` property, and also shows examples the visual degradation along with what the display should look like when it is supported:
 
-maxLines Visual Degradations<a name="loiof08f29636be1472dac8f35fe7918ee08__table_db3_rnj_cp"/>
+maxLines Visual Degradations<a name="loiof08f29636be1472dac8f35fe7918ee08__table_epw_lwr_tkb"/>
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -34,21 +34,16 @@ maxLines Visual Degradations<a name="loiof08f29636be1472dac8f35fe7918ee08__table
 	<tbody>
 		<tr>
 			<td>Google Chrome</td>
-			<td>Mozilla Firefox</td>
-			<td>Internet Explorer 10</td>
+			<td>Internet Explorer 11</td>
 		</tr>
 		<tr>
 			<td>  
 
-![](loio811e9b66afdd429383f5e7486b74b2f1_LowRes.png) 
+![](loio811e9b66afdd429383f5e7486b74b2f1_HiRes.png) 
 			</td>
 			<td>  
 
-![](loio367464c5a12f4165b20f609d3481dee3_LowRes.png) 
-			</td>
-			<td>  
-
-![](loiod6f168b8cc5d44a8b864b5f98b7cacb0_LowRes.png) 
+![](loiod6f168b8cc5d44a8b864b5f98b7cacb0_HiRes.png) 
 			</td>
 		</tr>
 	</tbody>
@@ -123,7 +118,7 @@ placeholder Property in sap.m.TextArea<a name="loiof08f29636be1472dac8f35fe7918e
 		</tr>
 		<tr>
 			<td>Internet Explorer Version 11</td>
-			<td>This version does not use the native placeholder property, instead it uses the placeholder version developed by SAP. This browser displays multiple lines along with a scrollbar. 
+			<td>Internet Explorer 11 supports the native placeholder property and displays multiple lines along with a scrollbar. 
 
 ![](loioe5b44ac2447145f9ac2ee6181b929679_LowRes.png) 
  > Note:
@@ -139,22 +134,4 @@ placeholder Property in sap.m.TextArea<a name="loiof08f29636be1472dac8f35fe7918e
 		</tr>
 	</tbody>
 </table>
-
-***
-
-### Issues Affecting sap.m.TextArea on iOS Devices
-
-> Note:
-> There are several issues affecting iOS devices \(as of version iOS 5\), which are often mistakenly identified as errors relating to `sap.m.TextArea` rendering. These are **not** visual degradations relating to `sap.m`. These rendering errors are inherent to the iOS operating system as of version 5, and also occur even when OpenUI5 is not used at all, as shown in the examples below.
-> 
-> |Problem|Description|
-> |-------|-----------|
-> |  ![](loio0dbed89c0b074d8fa6e6e35aa903375e_LowRes.png) 
-> 
->  |When the text entered inside a text box is long and does not fit into the fixed visible text area, the cursor then appears outside of the visible text box, as shown in the graphic.|
-> |  ![](loio15435c46aa41495581ac02ab893cc28a_LowRes.png) 
-> 
->  |When choosing *Select All* to copy the contents of a text box on an iOS device, the selection marked in blue continues outside the boundaries of the visible text area, as shown in the graphic.|
-> 
-> 
 
