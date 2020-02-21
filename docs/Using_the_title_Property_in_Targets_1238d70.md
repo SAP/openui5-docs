@@ -57,7 +57,7 @@ When a new target that has the `title` property defined is displayed, or the tit
 }
 ```
 
-The `title` property can also be defined on a "Component" type target. When it is set with a binding syntax, the binding is resolved in the context of the root view of the component that is loaded by this target. The router of the loaded component may also have `title` property defined on its own target\(s\) and eventually fire its own `titleChanged` event once a target is displayed inside the loaded component. UI5 provides a way to propagate the `titleChanged` event from a "Component" target to its owner router in order to let the event be consumed at one central place \(and not at any available router\). For detailed information, see [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md).
+The `title` property can also be defined on a "Component" type target. When it is set with a binding syntax, the binding is resolved in the context of the root view of the component that is loaded by this target. The router of the loaded component may also have `title` property defined on its own target\(s\) and eventually fire its own `titleChanged` event once a target is displayed inside the loaded component. UI5 provides a way to propagate the `titleChanged` event from a "Component" target to its owner router in order to let the event be consumed at one central place \(and not at any available router\). For detailed information, see [Propagate `titleChanged` Event from the Nested Component to the Parent Component](Enabling_Routing_in_Nested_Components_fb19f50.md#loiofb19f501b16e4e4991eb6a017770945b__section_PropagateTitleChanged).
 
 ``` js
 {

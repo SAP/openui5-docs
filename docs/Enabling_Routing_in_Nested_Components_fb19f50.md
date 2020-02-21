@@ -41,7 +41,7 @@ Loading a child component with a type `Component` target in a router builds up a
 
 Use the following configuration to load the component from the target:
 
--   `type`: Set the `type` to "Component"; this loads and instantiates the `Component.js` that is available under `componentUsages`.
+-   `type`: Set the `type` to `Component`; this loads and instantiates the `Component.js` that is available under `componentUsages`.
 
 -   `usage`: Use the key of the component usage as used in the the `componentUsages` section of the parent component's `manifest.json`.
 
@@ -103,7 +103,7 @@ Use the following configuration to load the component from the target:
 
 The hash from every router needs to be persisted in the browser hash. To identify the ownership of the hash segments from the browser hash, a prefix needs to be assigned to the component which is loaded by a `Target`. The prefix can be defined in the `Route` where the `Target` is used.
 
-Instead of assigning the "target" option in a route with the name of a target which is going to be displayed once the route's pattern is matched, an object is assigned which also contains the prefix of the hash for this component besides the name of the target. The loaded component from the target has its own hash segment which begins with the given prefix and can change the hash by using method `navTo` on `Router` in the same way as it is done in the top level component.
+Instead of assigning the `target` option in a route with the name of a target which is going to be displayed once the route's pattern is matched, an object is assigned which also contains the prefix of the hash for this component besides the name of the target. The loaded component from the target has its own hash segment which begins with the given prefix and can change the hash by using method `navTo` on `Router` in the same way as it is done in the top level component.
 
 ``` json
 {
@@ -155,13 +155,13 @@ Instead of assigning the "target" option in a route with the name of a target wh
 
 ***
 
-<a name="loiofb19f501b16e4e4991eb6a017770945b__section_m25_sql_tkb"/>
+<a name="loiofb19f501b16e4e4991eb6a017770945b__section_PropagateTitleChanged"/>
 
 ### Propagate `titleChanged` Event from the Nested Component to the Parent Component
 
-When the nested component "myreuse" has routing enabled, the router instance within the "myreuse" component fires on its own a `titleChanged` event once the displayed target has the `title` property defined. It is easier for an application to react to a `titleChanged` event if any `titleChanged` event\(s\) fired in the nested component\(s\) can be propagated to the router in the root component. To enable this, the property `propagateTitle` can be set in two ways:
+When the nested component `myreuse` has routing enabled, the router instance within the `myreuse` component fires on its own a `titleChanged` event once the displayed target has the `title` property defined. It is easier for an application to react to a `titleChanged` event if any `titleChanged` event\(s\) fired in the nested component\(s\) can be propagated to the router in the root component. To enable this, the property `propagateTitle` can be set in two ways:
 
--   in the "target" object of a route to enable the title propagation for this "Component" target.
+-   in the `target` object of a route to enable the title propagation for this `Component` target.
 -   in the `config` section of the routing configuration to enable the title propagation for all "Component" targets.
 
 If `propagateTitle` is not set, no `titleChanged` event will be propagated from the nested component.
@@ -188,7 +188,7 @@ If `propagateTitle` is not set, no `titleChanged` event will be propagated from 
                     "name": "attachment",
                     "prefix": "atch",
 
-*HIGHLIGHT START*                             "propagateTitle": true     *HIGHLIGHT END*
+*HIGHLIGHT START*            "propagateTitle": true     *HIGHLIGHT END*
                 }
             }],
             "targets": {
