@@ -14,13 +14,6 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
 ***
 
-<a name="loiodc3d3ce46105441db5543049fb1c11e7__section_yxw_pxt_zcb"/>
-
-### New Features
-
-
-***
-
 <a name="loiodc3d3ce46105441db5543049fb1c11e7__section_qwl_pb5_zcb"/>
 
 ### Improved Features
