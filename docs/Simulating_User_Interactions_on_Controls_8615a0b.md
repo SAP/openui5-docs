@@ -126,7 +126,26 @@ There are a couple of modifiers to the `EnterText` action:
         }
     });
     ```
+    
+- Use the `pressEnterKey` property to add an `enter` key to the end of the input. This should trigger the change event for the input and the input will remain focused. Use this when focusing out of the input will produce unwanted results. For example, focusing out of inputs in a popup will result in the popup closing only in some browsers which leads to inconsistent test results.
 
+    ``` js
+    oOpa.waitFor({
+        controlType: "sap.m.Input",
+        searchOpenDialogs: true,
+        actions: new EnterText({
+            text: "test",
+            pressEnterKey: true
+        })
+    });
+    oOpa.waitFor({
+        controlType: "sap.m.Popover",
+        searchOpenDialogs: true,
+        success: function (aPopover) {
+            Opa5.assert.ok(aPopover[0].isOpen(), "Popover should remain open on any browser");
+        }
+    });
+    ```
 
 ***
 
@@ -166,6 +185,42 @@ iClickOnTableItemByFieldValue: function () {
                      });
                 }
 ```
+
+***
+
+### Simulating drag and drop
+
+As of v1.76 you can use the new `sap.ui.test.actions.Drag` and `sap.ui.test.actions.Drop` actions. First, locate a control to drag and use the `Drag` action with it. Then, locate the control on which you wish to drop the first control, and use the `Drop` action with it. The `Drop` action accepts several optional parameters to specify the drop target:
+- Use `idSuffix` to set an exact DOM element within the control tree
+- Use `aggregationName` to set the target to be the DOM element for this aggregation
+- Use `before` or `after` to choose whether the dragged control should be dropped before or after the drop target.
+The following example rearranges items in a list:
+
+    ```js
+    // Find the item to drag
+    oOpa.waitFor({
+        controlType: "sap.m.StandardListItem",
+        matchers: new BindingPath({
+            path: "/ProductCollection/1"
+        }),
+        // Start the dragging
+        actions: new Drag()
+    });
+    
+    // Find another item on which to drop the dragged item
+    oOpa.waitFor({
+        controlType: "sap.m.StandardListItem",
+        matchers: new BindingPath({
+            path: "/ProductCollection/5"
+        }),
+        // Finish dragging and drop the item right before this one.
+        // In the end, the item with binding context path "/ProductCollection/1" should appear right on top of the item with
+        // binding context path "/ProductCollection/5"
+        actions: new Drop({
+            before: true
+        })
+    });
+    ```
 
 ***
 
