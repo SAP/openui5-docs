@@ -10,15 +10,15 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Simulating User Interactions on Controls
 
-OPA5 has a built-in actions parameter that can be used for simulating events. If you use an action, OPA5 will make sure that the UI is in a state that allows the action to be executed.
+OPA5 has a built-in actions parameter that can be used for simulating events. If you use an action, OPA5 makes sure that the UI is in a state that allows the action to be executed.
 
-We recommend that you use actions and not success functions for user interactions as using success functions will not execute the checks on the UI. You can use multiple actions on one control and you can mix built-in actions with custom actions.
+We recommend that you use actions and not success functions for user interactions as using success functions doesn't execute the checks on the UI. You can use multiple actions on one control and you can mix built-in actions with custom actions.
 
 ***
 
 ### Simulating a `press` Event
 
-In this example we trigger a `press` event on a button, using the `waitFor` function of OPA5, and the `Press` action. Note that the action has access to the located button implicitly.
+In this example, we trigger a `press` event on a button, using the `waitFor` function of OPA5, and the `Press` action. Note that the action has access to the located button implicitly.
 
 ``` js
 oOpa.waitFor({
@@ -126,8 +126,8 @@ There are a couple of modifiers to the `EnterText` action:
         }
     });
     ```
-    
-- Use the `pressEnterKey` property to add an `enter` key to the end of the input. This should trigger the change event for the input and the input will remain focused. Use this when focusing out of the input will produce unwanted results. For example, focusing out of inputs in a popup will result in the popup closing only in some browsers which leads to inconsistent test results.
+
+-   Use the `pressEnterKey` property to add an `enter` key to the end of the input. This triggers the `change` event for the input and the input remains focused. If you use this when focusing out of the input results in unwanted results. For example, focusing out of inputs in a popup results in the popup closing only in some browsers, which leads to inconsistent test results.
 
     ``` js
     oOpa.waitFor({
@@ -147,13 +147,14 @@ There are a couple of modifiers to the `EnterText` action:
     });
     ```
 
+
 ***
 
 <a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_tmf_bpm_2cb"/>
 
 ### Table Interaction
 
-A Table consists of columns \(`sap.m.Column`\) and rows. The rows, defined as `sap.m.ColumnListItems`, consist of cells. In order to utilize a stable locator which is not expected to change frequently, you can use a field/value combination to retrieve and interact with table items.
+A Table consists of columns \(`sap.m.Column`\) and rows. The rows, defined as `sap.m.ColumnListItems`, consist of cells. In order to use a stable locator, which isn’t expected to change frequently, you can use a field/value combination to retrieve and interact with table items.
 
 The following example simulates a click on an item in a table. The name of the field can be found in the $metadata file of your OData service.
 
@@ -188,45 +189,54 @@ iClickOnTableItemByFieldValue: function () {
 
 ***
 
-### Simulating drag and drop
+<a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_qn2_rhr_vkb"/>
 
-As of v1.76 you can use the new `sap.ui.test.actions.Drag` and `sap.ui.test.actions.Drop` actions. First, locate a control to drag and use the `Drag` action with it. Then, locate the control on which you wish to drop the first control, and use the `Drop` action with it. The `Drop` action accepts several optional parameters to specify the drop target:
-- Use `idSuffix` to set an exact DOM element within the control tree
-- Use `aggregationName` to set the target to be the DOM element for this aggregation
-- Use `before` or `after` to choose whether the dragged control should be dropped before or after the drop target.
+### Simulating Drag and Drop
+
+As of version 1.76, you can use the `sap.ui.test.actions.Drag` and `sap.ui.test.actions.Drop` actions.
+
+First, locate a control to drag and use the `Drag` action with it. Then, locate the control on which you wish to drop the first control, and use the `Drop` action with it. The `Drop` action accepts several optional parameters to specify the drop target:
+
+-   Use `idSuffix` to set an exact DOM element within the control tree
+
+-   Use `aggregationName` to set the target to be the DOM element for this aggregation
+
+-   Use `before` or `after` to choose whether the dragged control should be dropped before or after the drop target.
+
+
 The following example rearranges items in a list:
 
-    ```js
-    // Find the item to drag
-    oOpa.waitFor({
-        controlType: "sap.m.StandardListItem",
-        matchers: new BindingPath({
-            path: "/ProductCollection/1"
-        }),
-        // Start the dragging
-        actions: new Drag()
-    });
-    
-    // Find another item on which to drop the dragged item
-    oOpa.waitFor({
-        controlType: "sap.m.StandardListItem",
-        matchers: new BindingPath({
-            path: "/ProductCollection/5"
-        }),
-        // Finish dragging and drop the item right before this one.
-        // In the end, the item with binding context path "/ProductCollection/1" should appear right on top of the item with
-        // binding context path "/ProductCollection/5"
-        actions: new Drop({
-            before: true
-        })
-    });
-    ```
+``` js
+// Find the item to drag
+oOpa.waitFor({
+    controlType: "sap.m.StandardListItem",
+    matchers: new BindingPath({
+        path: "/ProductCollection/1"
+    }),
+    // Start the dragging
+    actions: new Drag()
+});
+
+// Find another item on which to drop the dragged item
+oOpa.waitFor({
+    controlType: "sap.m.StandardListItem",
+    matchers: new BindingPath({
+        path: "/ProductCollection/5"
+    }),
+    // Finish dragging and drop the item right before this one.
+    // In the end, the item with binding context path "/ProductCollection/1" should appear right on top of the item with
+    // binding context path "/ProductCollection/5"
+    actions: new Drop({
+        before: true
+    })
+});
+```
 
 ***
 
 ### Writing Your Own Action
 
-Since OPA5 uses JavaScript for its execution, you cannot use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions very easily. Just provide an inline function as shown here:
+Since OPA5 uses JavaScript for its execution, you can’t use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions easily. Just provide an inline function as shown here:
 
 ``` js
 sap.ui.require(["sap/ui/test/opaQUnit", "sap/ui/test/matchers/Properties"], function (opaTest, Properties) {

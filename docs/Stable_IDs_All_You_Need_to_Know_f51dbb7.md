@@ -166,6 +166,10 @@ new Button({
 	text : "Confirm"
 });
     ```
+
+ -   Binding templates
+
+Also use stable IDs in binding templates, because the SAPUI5 flexibility tooling allows changes on the binding templates. The cloned controls will be prefixed, but you have to make sure to clean them up. The simplest way to do this is setting the `templateShareable` property to `false` \(for more information, see [Lifecycle of Binding Templates](Lifecycle_of_Binding_Templates_3a4a9e5.md)\). If the template has to be shareable and you cannot clean it up, you should at least prevent flexibility changes on the binding template using the `not-adaptable` or `not-adaptable-tree` flags described here: [Restrict adaptation for certain controls](#loiode9fd55c69af4b46863f5d26b5d796c4__section_restrictadaptation).
 			</td>
 		</tr>
 		<tr>
