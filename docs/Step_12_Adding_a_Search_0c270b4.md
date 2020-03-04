@@ -70,11 +70,11 @@ sap.ui.define([
 	'sap/ui/model/json/JSONModel',
 	'../model/formatter',
 	'../model/FlaggedType',
+	'sap/m/library',
 *HIGHLIGHT START*	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator",
+	"sap/ui/model/FilterOperator"
 *HIGHLIGHT END*
-	'sap/m/library'
-], function (BaseController, JSONModel, formatter, FlaggedType*HIGHLIGHT START*, Filter, FilterOperator*HIGHLIGHT END*, mobileLibrary) {
+], function (BaseController, JSONModel, formatter, FlaggedType, mobileLibrary*HIGHLIGHT START*, Filter, FilterOperator*HIGHLIGHT END*) {
 	"use strict";
 ...
 		onUpdateFinished: function (oEvent) {

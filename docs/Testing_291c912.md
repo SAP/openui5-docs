@@ -41,7 +41,7 @@ If you want to automate the test execution using a test runner, you can set this
 > Note:
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
-> You can view and download the files for all steps in the Demo Kit at [Testing Apps](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.tutorial.testing/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/test.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the files for all steps in the Demo Kit at [Testing Apps](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.tutorial.testing/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/test.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries. In SAP Web IDE, this can be done by adding a neo-app.json file (from a WEB IDE template project) and changing the source path from "../../../../../../../../../../resources/sap/ui/..." to "../../resources/sap/ui/..." in both `unitTests.qunit.html` and `opaTest.qunit.html` files.
 > 
 > For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\):
 > 

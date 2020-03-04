@@ -128,7 +128,7 @@ sap.ui.define([
 		function (Opa5,
 			  AggregationLengthEquals,
 			  I18NText,
-			  Press) {
+*HIGHLIGHT START*			  Press) {*HIGHLIGHT END*
 		"use strict";
 
 		var sViewName = "Worklist",
