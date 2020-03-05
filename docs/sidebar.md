@@ -646,7 +646,7 @@
             -   [Windows 8 Support](Windows_8_Support_1f9de72.md)
                 -   [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md)
                 -   [Adapting Event Handling to Support Windows 8 Devices](Adapting_Event_Handling_to_Support_Windows_8_Devices_b54d7d7.md)
-            -   [Renderer Methods](Renderer_Methods_c9ab345.md)
+            -   [Renderer Object](Renderer_Object_c9ab345.md)
         -   [Device-specific Behavior of Controls](Device-specific_Behavior_of_Controls_a53ec81.md)
         -   [Examples for Creating and Extending Controls](Examples_for_Creating_and_Extending_Controls_91f1845.md)
             -   [Creating a Simple Control](Creating_a_Simple_Control_91f02ec.md)
