@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## URL Whitelist Filtering
 
-The OpenUI5 framework provides a client-side API to manage a white list for URLs. This whitelist can be used to validate arbitrary URLs if they are permitted or not.
+The OpenUI5 framework provides a client-side API to manage a whitelist for URLs. This whitelist can be used to validate arbitrary URLs.
 
 Internal examples of how controls can use this feature are those controls which accept arbitrary HTML content like `sap.ui.core.HTML`. This control uses the URL white list when a check \(sanitization\) is performed on the content. URLs inside their content are then automatically removed, except if they are listed in the URL whitelist. The option to sanitize the value can be enabled or disabled in the respective control properly via the `HTML.sanitizeContent` property. For the HTML control it is disabled by default. When adding a path to the white list be aware to add a "/" at the start of the path if necessary, so "/index.epx" would be the correct entry instead of "index.epx". The last example below shows this.
 
@@ -22,26 +22,27 @@ Internal examples of how controls can use this feature are those controls which 
 
 The whitelist can be maintained with the following API:
 
--    `jQuery.sap.addUrlWhitelist` 
+-    `sap/base/security/URLWhitelist.add` 
 
--   `jQuery.sap.clearUrlWhitelist` 
+-   `sap/base/security/URLWhitelist.clear` 
 
--   `jQuery.sap.getUrlWhitelist` 
+-   `sap/base/security/URLWhitelist.delete` 
 
--    `jQuery.sap.removeUrlWhitelist` 
+-    `sap/base/security/URLWhitelist.entries` 
 
 
-Here is an example how valid URLs can be added to the white list:
+Here is an example how valid URLs can be added to the whitelist:
 
 ``` js
-// jQuery.sap.addUrlWhitelist(/* protocol */ undefined, /* host */ undefined, /* port */ undefined, /* path */ undefined);
+// `URLWhitelist` required from module `sap/base/security/URLWhitelist`
 
+URLWhitelist.add(undefined, "www.sap.com");
 
-jQuery.sap.addUrlWhitelist(undefined, "www.sap.com");
+URLWhitelist.add("https", "sdn.sap.com");
 
-jQuery.sap.addUrlWhitelist("https", "sdn.sap.com");
+URLWhitelist.add(undefined, "sap.de", "1080");
 
-jQuery.sap.addUrlWhitelist(undefined, "sap.de", "1080");
+URLWhitelist.add("https", "community.sap.de", undefined, "/topics");
 ```
 
 ***
@@ -50,19 +51,25 @@ jQuery.sap.addUrlWhitelist(undefined, "sap.de", "1080");
 
 ### Validating a URL
 
-A URL can be validated by using the following API: `jQuerysapvalidateUrl`.
+A URL can be validated by using the following API: `sap/base/security/URLWhitelist.validate`.
 
-Here is an example how a given URL is validated against the before maintained white list:
+Here is an example how a given URL is validated against the above-mentioned white list:
 
 ``` js
-jQuery.sap.validateUrl("http://www.sap.com"); // => true
+// `URLWhitelist` required from module `sap/base/security/URLWhitelist`
 
-jQuery.sap.validateUrl("http://sdn.sap.com"); // => false (wrong protocol)
+URLWhitelist.validate("http://www.sap.com"); // => true
 
-jQuery.sap.validateUrl("https://sdn.sap.com"); // => true
+URLWhitelist.validate("http://sdn.sap.com"); // => false (wrong protocol)
 
-jQuery.sap.validateUrl("ftp://sap.de:1080/anyftpfolder"); // => true
+URLWhitelist.validate("https://sdn.sap.com"); // => true
+
+URLWhitelist.validate("ftp://sap.de:1080/anyftppath"); // => true
+
+URLWhitelist.validate("https://community.sap.de/anypath"); // => false (wrong path)
+
+URLWhitelist.validate("https://community.sap.de/topics"); // => true
 ```
 
-If no whitelist is maintained the URL validity check also basically checks the URL for being defined in a valid format.
+If no whitelist is maintained, the URL validity check also basically checks the URL for being defined in a valid format.
 

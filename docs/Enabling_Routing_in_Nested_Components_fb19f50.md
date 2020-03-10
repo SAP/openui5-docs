@@ -14,6 +14,11 @@ Every OpenUI5 component can define routing configuration in its manifest and a U
 
 Using components as targets in routing presents another challenge: When multiple components with their own routing configuration are used in an application, their router instances listen to the browser's `hashChange` event simultaneously and may do concurrent changes to the hash. This can lead to conflicts, hence, the hash access has to be coordinated. Therefore, some additional configuration has to be made for these nested components to ensure everything is running stable.
 
+> Note:
+> Using routing with nested components requires asynchronous routing in **all** used components. The routers of all components have to enable asynchronous routing in their configuration. For more information, see [Routing Configuration](Routing_Configuration_9023130.md).
+> 
+> 
+
 ***
 
 <a name="loiofb19f501b16e4e4991eb6a017770945b__section_ovn_4cl_ngb"/>
