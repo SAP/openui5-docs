@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The OpenUI5 framework provides a client-side API to manage a whitelist for URLs. This whitelist can be used to validate arbitrary URLs.
 
-Internal examples of how controls can use this feature are those controls which accept arbitrary HTML content like `sap.ui.core.HTML`. This control uses the URL white list when a check \(sanitization\) is performed on the content. URLs inside their content are then automatically removed, except if they are listed in the URL whitelist. The option to sanitize the value can be enabled or disabled in the respective control properly via the `HTML.sanitizeContent` property. For the HTML control it is disabled by default. When adding a path to the white list be aware to add a "/" at the start of the path if necessary, so "/index.epx" would be the correct entry instead of "index.epx". The last example below shows this.
+Internal examples of controls that use this feature are controls which accept arbitrary HTML content, such as `sap.ui.core.HTML`. This control uses the URL whitelist to perform a check \(sanitization\) on the content. URLs inside their content are then automatically removed, unless they are listed on the URL whitelist. The option to sanitize the content can be enabled or disabled in the respective control via the property `HTML.sanitizeContent`. For the HTML control it is disabled by default. When adding a path to the whitelist, make sure to add "/" as path prefix if necessary, for example "/index.epx" instead of "index.epx". The last example below shows this.
 
 ***
 
@@ -53,7 +53,7 @@ URLWhitelist.add("https", "community.sap.de", undefined, "/topics");
 
 A URL can be validated by using the following API: `sap/base/security/URLWhitelist.validate`.
 
-Here is an example how a given URL is validated against the above-mentioned white list:
+Here is an example how a given URL is validated against the above-mentioned whitelist:
 
 ``` js
 // `URLWhitelist` required from module `sap/base/security/URLWhitelist`
