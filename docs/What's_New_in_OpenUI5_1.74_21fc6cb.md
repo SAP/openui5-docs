@@ -48,7 +48,7 @@ With this release OpenUI5 is upgraded from version 1.73 to 1.74.
  For more information, see [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md)and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.StandardMargins/sample/sap.m.sample.StandardNegativeMarginsTwoSided).</td>
 		</tr>
 		<tr>
-			<td> **Responsive Padding Enablement** We've introduced responsive paddings to the `sap.m.IconTabBar`, `sap.m.ObjectHeader`, and `sap.m.TabContainer` controls. For more information, see [Enabling Responsive Paddings](Enabling_Responsive_Paddings_3b718b5.md).</td>
+			<td> **Responsive Padding Enablement** We've introduced responsive paddings to the `sap.m.IconTabBar`, `sap.m.ObjectHeader`, and `sap.m.TabContainer` controls. For more information, see [Enabling Responsive Paddings According to the Width of the Control](Enabling_Responsive_Paddings_According_to_the_Width_of_the_Control_3b718b5.md).</td>
 			<td> **OpenUI5 OData V4 Model** The new version of the OpenUI5 OData V4 model introduces the following features:
 
  -   The `autoExpandSelect:true` model setting has been enhanced for property bindings that are added later.

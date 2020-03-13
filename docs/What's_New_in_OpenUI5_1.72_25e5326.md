@@ -24,7 +24,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 > 
 
  |
-|**Responsive Paddings Enablement**We have introduced the `sap.ui.core.util.ResponsivePaddingsEnablement` utility for applying responsive paddings over separate parts of the controls, when using the SAP Quartz themes. The breakpoints and layout paddings can now be determined by the container's width, and not by the screen size. We have introduced responsive paddings to the `sap.m.Page`,`sap.m.Popover`, and `sap.m.Wizard` controls.For more information, see [Enabling Responsive Paddings](Enabling_Responsive_Paddings_3b718b5.md).|
+|**Responsive Paddings Enablement**We have introduced the `sap.ui.core.util.ResponsivePaddingsEnablement` utility for applying responsive paddings over separate parts of the controls, when using the SAP Quartz themes. The breakpoints and layout paddings can now be determined by the container's width, and not by the screen size. We have introduced responsive paddings to the `sap.m.Page`,`sap.m.Popover`, and `sap.m.Wizard` controls.For more information, see [Enabling Responsive Paddings According to the Width of the Control](Enabling_Responsive_Paddings_According_to_the_Width_of_the_Control_3b718b5.md).|
 
 ***
 

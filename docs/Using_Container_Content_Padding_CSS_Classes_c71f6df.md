@@ -25,24 +25,25 @@ The effects of these paddings will be different depending on the container that 
 
 -   If the container is defining a padding on its content area by default, then setting **sapUiNoContentPadding** in the application code will remove the padding and thus not display any space between the container layout and the content controls.
 -   If the container is defining no padding on its content by default, then setting **sapUiContentPadding** will add 1rem \(16px\) of padding around the content area to layout the content controls.
--   Setting **sapUiResponsiveContentPadding** on the container control will add a padding based on the user’s screen size. On small screen devices such as smartphones, or when the browser window is resized to a small size, no padding is displayed. On medium screen sizes and applications that are using a **SplitApp**, the control will get 1rem \(16px\) of padding. Finally, on large screen sizes in full-screen mode, the container control will get 2rem \(32px\) of padding to the left and right and 1rem \(16px\) of padding at the top and bottom.
+-   Setting **sapUiResponsiveContentPadding** on the container control will add a padding based on the user’s screen size. On small screen devices such as smartphones, or when the browser window is resized to a small size, no padding is displayed. On medium screen sizes and applications, the control will get 1rem \(16px\) of padding. Finally, on large screen sizes in full-screen mode, the container control will get 2rem \(32px\) of padding to the left and right and 1rem \(16px\) of padding at the top and bottom.
 
 The following list shows examples of controls that support container content padding CSS classes:
 
   2.  **sap.f.DynamicPage**
  4.  **sap.m.Carousel**
  6.  **sap.m.Dialog**
- 8.  **sap.m.IconTabBar**
- 10. **sap.m.List**
- 12. **sap.m.Page**
- 14. **sap.m.Panel**
- 16. **sap.m.Popover**
- 18. **sap.m.ScrollContainer**
- 20. **sap.m.Table**
- 22. **sap.ui.layout.BlockLayoutCell**
- 24. **sap.ui.layout.DynamicSideContent**
- 26. **sap.ui.layout.HorizontalLayout**
- 28. **sap.ui.layout.VerticalLayout**
+ 8.  **sap.m.FlexBox**
+ 10. **sap.m.IconTabBar**
+ 12. **sap.m.List**
+ 14. **sap.m.Page**
+ 16. **sap.m.Panel**
+ 18. **sap.m.Popover**
+ 20. **sap.m.ScrollContainer**
+ 22. **sap.m.Table**
+ 24. **sap.ui.layout.BlockLayoutCell**
+ 26. **sap.ui.layout.DynamicSideContent**
+ 28. **sap.ui.layout.HorizontalLayout**
+ 30. **sap.ui.layout.VerticalLayout**
   
 
 ***

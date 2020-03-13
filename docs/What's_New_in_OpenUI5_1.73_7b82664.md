@@ -68,7 +68,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 		</tr>
 		<tr>
 			<td>**`sap.m.ComboBox`, `sap.m.MultiComboBox`**We have updated the behavior of the `showItems` method. When the control's picker is opened, the dropdown arrow is not in pressed state, as it was previously. Now, pressing the dropdown arrow for the first time opens the control's picker with all items, and with the second press the picker is closed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBoxBase).</td>
-			<td>**`sap.m.Dialog`**We have enabled responsive padding support. Application developers can now configure `sap.m.Dialog` and enable its responsive padding in the SAP Fiori 3 themes. For more information, see [Enabling Responsive Paddings](Enabling_Responsive_Paddings_3b718b5.md).</td>
+			<td>**`sap.m.Dialog`**We have enabled responsive padding support. Application developers can now configure `sap.m.Dialog` and enable its responsive padding in the SAP Fiori 3 themes. For more information, see [Enabling Responsive Paddings According to the Width of the Control](Enabling_Responsive_Paddings_According_to_the_Width_of_the_Control_3b718b5.md).</td>
 			<td>**`sap.m.Input`**A `change` event is now fired when the browser autofill fills an input.
  > Note:
  > If `showValueHelp` or `showSuggestion` are set to `true`, the native browser autofill will not fire a `change` event.
