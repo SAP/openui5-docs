@@ -393,7 +393,7 @@
                 -   [Writing Data to the HTML DOM as DATA-\* Attribute](Writing_Data_to_the_HTML_DOM_as_DATA-_Attribute_1ef9fef.md)
             -   [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md)
             -   [Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md)
-                -   [Enabling Responsive Paddings According to the Width of the Control](Enabling_Responsive_Paddings_According_to_the_Width_of_the_Control_3b718b5.md)
+                -   [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md)
             -   [Field Groups](Field_Groups_5b07753.md)
         -   [Declarative Support](Declarative_Support_91f1301.md)
             -   [Enabling Declarative Support](Enabling_Declarative_Support_91f17d6.md)

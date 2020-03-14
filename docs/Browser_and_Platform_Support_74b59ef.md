@@ -45,7 +45,7 @@ The following tables give a general overview of the browsers, platforms, and ref
 |iOS|Phone and Tablet<sup>5</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
 |Android|Phone and Tablet<sup>5</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
 
-1\) The next stable OpenUI5 release that comes after OpenUI5 1.71 will be the last OpenUI5 release to support Microsoft Edge \(EdgeHTML\).  
+1\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\).  
  2\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
  3\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
  4\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  

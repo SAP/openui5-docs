@@ -14,6 +14,14 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
 ***
 
+<a name="loiodc3d3ce46105441db5543049fb1c11e7__section_yxw_pxt_zcb"/>
+
+### New Features
+
+|**Browser and Platform Support**OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support the EdgeHTML version. For more information, see [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md).|
+
+***
+
 <a name="loiodc3d3ce46105441db5543049fb1c11e7__section_qwl_pb5_zcb"/>
 
 ### Improved Features
@@ -23,7 +31,7 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 <table>
 	<thead>
 		<tr>
-			<th> **Card Explorer** We have introduced a schema validation feature in our samples in the Card Explorer. With this option, developers can see a more detailed report for mistakes inside the card manifest. Things like wrong names of properties, bad property types or bad structures are easily spotted.For more information, explore the samples in [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/exploreOverview/types). </th>
+			<th> **Card Explorer** We have introduced a schema validation feature in our samples in the Card Explorer. With this option, developers can see a more detailed report for mistakes inside the card manifest. Things like wrong names of properties, bad property types or bad structures are easily spotted.For more information, explore the samples in [https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html\#/exploreOverview/types](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/exploreOverview/types). </th>
 		<tr>
 			<td> **OpenUI5 OData V2 Messages** With the new version of the OpenUI5 OData V2 model, the target of server messages is shortened by removing associated pairs of navigation properties. For example, a `/SalesOrderSet('1')/ToLineItems(SalesOrderID='1',ItemPosition='10')/ToHeader/GrossAmount` message target gets reduced to `/SalesOrderSet('1')/GrossAmount` if the `ToLineItems` and `ToHeader` navigation properties have the same relationship in the service metadata. If the second navigation property references a collection, the message target path is reduced only if the referenced entity is the same as without the navigation.</td>
 			<td> **OpenUI5 OData V4 Model** The new version of the OpenUI5 OData V4 model introduces the following features:
@@ -54,7 +62,7 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 <table>
 	<thead>
 		<tr>
-			<th> **`sap.m.InitialPagePattern`** We have introduced the initial page floorplan as a Demo Kit sample. The floorplan allows users to navigate to a single object to view or edit it. The interaction point on the screen is a single input field and it relies on assisted input to direct the user to the object in as few steps as possible \(using features such as value help and live search\). For more information, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/initial-page-floorplan/)and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.InitialPagePattern/sample/sap.m.sample.InitialPagePattern). </th>
+			<th> **`sap.m.InitialPagePattern`** We have introduced the initial page floorplan as a Demo Kit sample. The floorplan allows users to navigate to a single object to view or edit it. The interaction point on the screen is a single input field and it relies on assisted input to direct the user to the object in as few steps as possible \(using features such as value help and live search\). For more information, see the [CardSAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/initial-page-floorplan/)and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.InitialPagePattern/sample/sap.m.sample.InitialPagePattern). </th>
 		<tr>
 			<td>**`sap.m.MessageBox`**We have introduced a new `emphasizedAction` property. This allows developers to specify which button in the dialog will receive the type `Emphasized`. If `emphasizedAction` is empty with no actions provided, the default value applies. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessageBox) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.MessageBox).</td>
 			<td>**`sap.m.ObjectStatus`**We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors were added to the palette as numbers 6, 7, and 8. These colors enable developers to represent statuses that don't require a meaning in the sense of good-bad, but should be visually distinguishable. For example, statuses such as Updated, New, or Active. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectStatus) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectStatus/sample/sap.m.sample.ObjectStatus).</td>

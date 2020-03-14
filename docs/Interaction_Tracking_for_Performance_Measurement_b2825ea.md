@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Interaction Tracking for Performance Measurement
 
-You can identify performance issues in your application by tracking the interaction that is performed on the UI.
+You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.
 
-Interaction in this context means a closed step in a sequence of actions that a user performs on the UI, for example, everything that happens between two clicks on two different buttons.
+Interaction in this context means a closed step in a sequence of actions that a user performs on the UI, for example, everything that happens between two clicks on two different buttons. The interaction tracking considers XHRs, loadings triggered via script tags and rendering aspects.
 
 To **start** interaction tracking, use `Interaction.setActive(true)` from module **sap/ui/performance/trace/Interaction**. To map the interaction data to the data of **sap/ui/performance/Measurement**, you have to explicitly set `sap-ui-measure=true`.
 
@@ -26,32 +26,31 @@ You can use `Interaction.filter` from module **sap/ui/performance/trace/Interact
 
 ``` js
 InteractionMeasurement = {
-    event: "click",             // event which triggered interaction
-    trigger: "Button1",         // control which triggered interaction
+    id: uid()                   // interaction ID
+    event: "click",             // event which triggered interaction - default is startup interaction
+    trigger: "Button1",         // element ID
     component: "my.Component",  // component or app identifier
     start : 0,                  // interaction start
     end: 0,                     // interaction end
-    navigation: 0,              // sum over all navigation times on the critical path
-    roundtrip: 0,               // time from first request sent to last received response end
+    navigation: 0,              // sum over all navigation times
+    roundtrip: 0,               // time from first request sent to last received response end - without gaps and ignored overlap
     processing: 0,              // client processing time
     duration: 0,                // interaction duration
-    requests: [],               // Performance API requests during interaction
+    requests: [],               // all requests (XHRs) that occured during the interaction
     measurements: [],           // sap/ui/performance/Measurement measurements
     sapStatistics: [],          // SAP Statistics for OData
     requestTime: 0,             // sum over all requests in the interaction
-    networkTime: 0,             // request time minus server time from the header
+    networkTime: 0,             // request time minus server time from the sap-perf-fesrec header
     bytesSent: 0,               // sum over all requests bytes
     bytesReceived: 0,           // sum over all response bytes
-    requestCompression: false,  // true if all responses have been sent gzipped
-    busyIndication: 0           // summed GlobalBusyIndicator duration during this interaction
+    requestCompression: false,  // true if all responses have been sent gzipped - default is undefined
+    busyIndication: 0           // summed BusyIndicator duration during this interaction
 }
 ```
 
 ***
 
 ### Properties of Interaction Measurements
-
-Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c609__table_wx1_pdf_mv"/>
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -64,6 +63,11 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td> `id` </td>
+			<td> `sap/base/util/uid` </td>
+			<td>Interaction ID</td>
+		</tr>
 		<tr>
 			<td> `event` </td>
 			<td> `String` </td>
@@ -102,17 +106,19 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 			<td>ID of the app or name of the Component that contains the triggering element</td>
 		</tr>
 		<tr>
+			<td> `appVersion` </td>
+			<td> `String` </td>
+			<td>Application version as from App Descriptor</td>
+		</tr>
+		<tr>
 			<td> `start` </td>
 			<td> `Number` </td>
-			<td>Time stamp when interaction was started \(in ms\)</td>
+			<td>Interaction start; always triggered by user interaction. From that point in time \(timestamp\), all information about request timings, rendering, etc. is collected.</td>
 		</tr>
 		<tr>
 			<td> `end` </td>
 			<td> `Number` </td>
-			<td> Time stamp when interaction has been finalized \(in ms\)
- > Note:
- > This is not always the start time plus the duration. The duration is determined depending on the heuristic determination of the processing time.
-			</td>
+			<td>Interaction end; defined as start time plus duration.</td>
 		</tr>
 		<tr>
 			<td> `navigation` </td>
@@ -127,12 +133,12 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 		<tr>
 			<td> `processing` </td>
 			<td> `Number` </td>
-			<td>JavaScript processing time of an interaction. This is the time consumed when no requests are active. Although we also have JavaScript being processed while asynchronous requests are active, we only consider those to be relevant \(in ms\)</td>
+			<td>The client processing time \(in ms\) of an interaction, calculated by subtracting the navigation time for all requests and the sum of roundtrip times from the total processing duration.</td>
 		</tr>
 		<tr>
 			<td> `duration` </td>
 			<td> `Number` </td>
-			<td>If a processing time could be determined duration is navigation plus roundtrip plus processing time. Otherwise it is navigation time plus roundtrip time, or end time minutes start time if network requests last longer than the actual interaction \(in ms\)</td>
+			<td>The duration time \(in ms\) of an interaction including navigation and request times, calculated by subtracting the interaction start time from the interaction end time.</td>
 		</tr>
 		<tr>
 			<td> `requests` </td>
@@ -157,7 +163,7 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 		<tr>
 			<td> `networkTime` </td>
 			<td> `Number` </td>
-			<td>Average latency of the requests that occurred during the interaction, calculated using the `sap-perf-fesrec` header that is sent \(if available\) by the back end with each response \(in ms\)</td>
+			<td>Average network time per request \(in ms\) that occurred during the interaction. Calculated using the `sap-perf-fesrec` header sent by the back end with each response; a network time of zero results if no header is available.</td>
 		</tr>
 		<tr>
 			<td> `bytesSent` </td>
@@ -177,7 +183,7 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 		<tr>
 			<td> `busyDuration` </td>
 			<td> `Number` </td>
-			<td>Time how long a `GlobalBusyIndicator` was rendered and hence blocking the UI during an interaction</td>
+			<td>Time during which a `BusyIndicator` was rendered and hence blocking the UI during an interaction</td>
 		</tr>
 	</tbody>
 </table>
@@ -191,7 +197,7 @@ Properties of Interaction Measurements<a name="loiob2825eabd7bb43d79b475fee4194c
 **Related information**  
 
 
-[API Reference: `jQuery.sap.measure`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.measure)
+[API Reference: `sap/ui/performance/Measurement`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/performance/Measurement)
 
 [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
 
