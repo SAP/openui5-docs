@@ -25,7 +25,7 @@ Moreover, common security mechanisms, which are usually taken for granted, like 
 OpenUI5 is not bound to any server implementation or server-side programming language and can, thus, be used with SAP NetWeaver AS for ABAP, Java, HANA XS Engine, or any standard web server. Therefore, the corresponding Security Guides also apply to OpenUI5.
 
 > Note:
-> We highly recommend that you implement SAP Note [1582870](https://launchpad.support.sap.com/#/notes/1582870) for ABAP XSS escaping support.
+> We highly recommend that you implement SAP Note [1582870](https://launchpad.support.sap.com/#/notes/1582870) for ABAP XSS escaping support, in case you are running on SAP\_BASIS lower than 730.
 > 
 > 
 
