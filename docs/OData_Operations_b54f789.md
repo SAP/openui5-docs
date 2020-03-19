@@ -257,6 +257,25 @@ oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).execute();
 > 
 > 
 
+For operations bound to an entity, it is possible to address properties of the entity through the operation's binding parameter.
+
+For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity type with the binding parameter `_it`. Properties of the current sales order can be addressed with a property binding having a path that starts with the binding parameter name `_it`.
+
+> Note:
+> Addressing properties of the binding parameter
+> 
+> ``` xml
+> 
+> <Dialog binding="{name.space.CreateInvoice(...)}" id="operation" title="Address Note property of the sales order">
+>     <form:SimpleForm binding="{$Parameter}">
+>         <Label text="Note" />
+>         <Input value="{_it/Note}" />
+>     </form:SimpleForm>
+> </Dialog>
+> ```
+> 
+> 
+
 ***
 
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_osx_m5l_gdb"/>

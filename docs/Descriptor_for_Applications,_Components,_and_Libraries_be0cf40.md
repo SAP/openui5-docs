@@ -43,6 +43,9 @@ AppDescriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedaec
 |Version 16|\>=1.66|1.15.0|
 |Version 17|\>=1.70|1.16.0|
 |Version 18|\>=1.71|1.17.0|
+|Version 19|\>=1.74| |
+|Version 20|\>=1.75| |
+|Version 21|\>=1.76| |
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -594,7 +597,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.19.0",
+    "_version": "1.20.0",
  
     "start_url": "index.html",
  
@@ -827,7 +830,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.66.0",
+            "minUI5Version": "1.76.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
@@ -957,7 +960,8 @@ Current version of the `manifest.json`
     "sap.cloud": {},
     "sap.integration": {},
     "sap.card": {},
-    "sap.platform.mobilecards": {}
+    "sap.platform.mobilecards": {},
+        "sap.widget": {}
 }
 ```
 
