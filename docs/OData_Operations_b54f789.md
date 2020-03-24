@@ -54,7 +54,7 @@ onGetNextAvailableItem : function (oEvent) {
 
 In the above example, the function import is bound to a form \(which has an ID that we need later\). The text field showing a property of the result is a child of this form. It has a relative binding to the property `"Description"`.
 
-If the function returns a primitive value or a collection, the binding for the result must be `"{value}"` as shown in the 2 examples below:
+If the function returns a primitive value or a collection, the binding for the result must be `"{value}"` as shown in the two examples below:
 
 **View:**
 
