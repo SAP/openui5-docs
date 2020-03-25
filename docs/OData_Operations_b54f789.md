@@ -157,7 +157,7 @@ Alternatively, you may bind the entire form to the `$Parameter` context:
 > 
 > 
 
-In either case, the values of the parameters are set using the model binding of the control, with no need to write any application code.
+In either case, the values of the parameters are set using the context binding of the control, with no need to write any application code.
 
 Alternatively, operation parameters can be set by calling the function `setParameter` on the operation binding, as shown in this example:
 
