@@ -64,7 +64,7 @@ For troubleshooting information with regard to addressing modules, see [What is 
 
 ### How to Structure a Project
 
-The entry point of an OpenUI5 application is often a module that is used to instantiate an OpenUI5 component. This central module is considered as single node of a graph and all dependent modules as well as their dependencies are nodes which must be connected by directed edges: the graph must fulfill the requirements of a directed acyclic graph \(DAG\).
+The entry point of an OpenUI5 application is often a module that is used to instatiate a OpenUI5 component. This central module is considered as single node of a graph and all dependent modules as well as their dependencies are nodes which must be connected by directed edges: the graph must fulfill the requirements of a directed acyclic graph \(DAG\).
 
 **Example**: All modules are evaluated in a clearly defined order. The evaluation starts with module D, then module C and module B, and ends with module A.
 
