@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 This section provides best practices for OpenUI5 module loading patterns.
 
-These best practices are especially important when you switch from the synchronuous variant of the OpenUI5 module loader to the asynchronous variant. Patterns that may have worked in synchronuous module loading may lead to applications that cannot start in asynchonuous module loading.
+These best practices are especially important when you switch from the synchronous variant of the OpenUI5 module loader to the asynchronous variant. Patterns that may have worked in synchronous module loading may lead to applications that can’t start in asynchronous module loading.
 
 > Note:
 > Use the `async` configuration parameter to enable asynchronous module loading via the bootstrap. For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
@@ -64,7 +64,7 @@ For troubleshooting information with regard to addressing modules, see [What is 
 
 ### How to Structure a Project
 
-The entry point of an OpenUI5 application is often a module that is used to instatiate a OpenUI5 component. This central module is considered as single node of a graph and all dependent modules as well as their dependencies are nodes which must be connected by directed edges: the graph must fulfill the requirements of a directed acyclic graph \(DAG\).
+The entry point of an OpenUI5 application is often a module that is used to instantiate a OpenUI5 component. This central module is considered as single node of a graph and all dependent modules as well as their dependencies are nodes that must be connected by directed edges: the graph must fulfill the requirements of a directed acyclic graph \(DAG\).
 
 **Example**: All modules are evaluated in a clearly defined order. The evaluation starts with module D, then module C and module B, and ends with module A.
 
