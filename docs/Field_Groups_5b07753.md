@@ -76,7 +76,6 @@ Similar to the above you can use the `byFieldGroupId` method of `sap.ui.Core` to
 ```
 var aAllControlsWithFieldGroupId = sap.ui.getCore().byFieldGroupId();              //all where fieldGroupId is not empty 
 var aMyGroupControls             = sap.ui.getCore().byFieldGroupId("MyGroup");     //exact matches to myGroup 
-var aNotGrouped                  = sap.ui.getCore().byFieldGroupId([]);            //exact empty array (default value of fieldGroupIds)
 ```
 
 ***
