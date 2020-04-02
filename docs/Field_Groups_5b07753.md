@@ -71,11 +71,12 @@ var aAllControlsWithFieldGroupId = myVerticalLayout.getControlsByFieldGroupId();
 var aMyGroupControls             = myVerticalLayout.getControlsByFieldGroupId("myGroup");     //exact matches to myGroup
 ```
 
-Similar to the above you can use the `byFieldGroupId` method of `sap.ui.Core` to all controls with certain field group IDs.
+Similar to the above you can use the `byFieldGroupId` method of `sap.ui.Core` to find/retrieve all controls with certain field group IDs.
 
 ```
 var aAllControlsWithFieldGroupId = sap.ui.getCore().byFieldGroupId();              //all where fieldGroupId is not empty 
 var aMyGroupControls             = sap.ui.getCore().byFieldGroupId("MyGroup");     //exact matches to myGroup 
+
 ```
 
 ***
