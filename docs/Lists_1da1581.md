@@ -134,7 +134,7 @@ The following types are available for list items:
         <InputListItem label="Price (EUR)">
           <Input
             placeholder="Price"
-            value="799">
+            value="799"
             type="Number" />
         </InputListItem>
     </List>
@@ -177,8 +177,8 @@ The following types are available for list items:
 
 ***
 
-### API References
+### API Reference
 
--   [sap.m.List](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.List.html)
--   [sap.m.ListItemBase](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.ListItemBase.html)
+-   [sap.m.List](https://openui5.hana.ondemand.com/#/api/sap.m.List)
+-   [sap.m.ListItemBase](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase)
 

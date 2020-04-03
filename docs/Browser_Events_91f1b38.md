@@ -58,5 +58,5 @@ MyControl.prototype.onclick = function(oEvent) {
 }
 ```
 
-OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.bind()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [jQuery.sap.PseudoEvents](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.PseudoEvents.html).
+OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.bind()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [sap.ui.events.PseudoEvents.events](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events) in the API Reference.
 
