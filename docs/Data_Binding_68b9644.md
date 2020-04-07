@@ -46,7 +46,7 @@ In the view, you bind data by specifying the **binding path** for a control. You
 
 ***
 
-<a name="loio68b9644a253741e8a4b9e4279a35c247__section_emw_hxq_5cb"/>
+<a name="loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes"/>
 
 ### Binding Modes: One-time Binding, One-way Binding, and Two-way Binding
 

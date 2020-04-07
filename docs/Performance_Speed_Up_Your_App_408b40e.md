@@ -263,7 +263,7 @@ You can use the [UI5 Build Tooling](https://github.com/SAP/ui5-tooling) to bundl
 
 If you're using OpenUI5 apps with grunt as a web server, you can use the `openui5_preload` task; for more information see [Optimizing OpenUI5/SAPUI5 Apps](http://scn.sap.com/community/developer-center/front-end/blog/2015/02/18/optimizing-openui5-apps) in the SAPUI5 Developer Center on SAP SCN.
 
-If you're using SAP Web IDE, refer to [Application Build](https://help.hana.ondemand.com/webide/frameset.htm?dfb26ef028624cf486a8bbb0bfd459ff.html) in the SAP Web IDE documentation.
+If you're using SAP Web IDE, refer to [Application Build](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html) in the SAP Web IDE documentation.
 
 ***
 
