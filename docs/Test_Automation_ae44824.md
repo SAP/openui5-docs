@@ -35,11 +35,11 @@ Initial setup of the application testing environment with Karma.
 
 ***
 
-You have installed *Node.js* in version 8.5 or higher and *npm*.
+You have installed the *current* or *LTS* version of *Node.js* from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-1.  Install *Karma* globally via *npm* so that you can run *Karma* by typing the `karma` command in your command-line interface \(CLI\).
+1.  Install the *Karma CLI* globally via *npm* so that you can run *Karma* by typing the `karma` command in the command-line interface \(CLI\).
 
-    For more information, see the [Karma Installation Guide on GitHub](http://karma-runner.github.io/1.0/intro/installation.html).
+    For more information, see the [Karma Installation Guide on GitHub](http://karma-runner.github.io/latest/intro/installation.html).
 
     Use the following command:
 
@@ -65,7 +65,7 @@ npm init --yes
     npm install --save-dev karma
     ```
 
-4.  Install the *Karma UI5 plugin* locally on your working directory.
+4.  Install the *Karma UI5 plugin* locally in your working directory.
 
     Use the following command:
 
