@@ -22,7 +22,7 @@ Navigation can be triggered by method `navTo` on `Router` with changing the hash
 
 #### `navTo` method
 
-Use this method to navigate to the given route and fill the hash with the corresponding data. It the route contains a target, the target is displayed. The listener callbacks of controllers listening to this route are provided with data. When changing the hash, all listeners to this hash are informed.
+Use this method to navigate to the given route and fill the hash with the corresponding data. If the route contains a target, the target is displayed. The listener callbacks of controllers listening to this route are provided with data. When changing the hash, all listeners to this hash are informed.
 
 The method uses the following parameters:
 

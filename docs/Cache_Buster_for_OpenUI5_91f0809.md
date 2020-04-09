@@ -67,7 +67,7 @@ This script basically ensures that the global OpenUI5 configuration variable \(`
 
 ```
 Date: Mon, 16 Jul 2012 05:17:54 GMT
-Expires: Thu, 14 Jul 2022 05:17:54 GMT
+Expires: Sun, 14 Jul 2013 05:17:54 GMT
 Cache-Control: max-age=315360000, public
 ```
 
@@ -83,7 +83,7 @@ When using the cache buster mechanism, the first request must never be cached be
 
 -   `resources/sap-ui-cachebuster/sap-ui-core.js` =\> NO\_CACHE
 
--   `resources/~201106210204~/sap-ui-core.js` =\>CACHE
+-   `resources/~201207160201~/sap-ui-core.js` =\>CACHE
 
 
 ***

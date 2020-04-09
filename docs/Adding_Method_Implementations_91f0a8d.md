@@ -16,7 +16,7 @@ The following restrictions apply with regard to the method names:
 
 -   Do not use names of methods that are or will be provided by a superclass. Due to inheritance, your implementation would overwrite the implementation of the superclass.
 
--   Names starting with `set...`/`get...`/`insert...`/`add...`/`remove...`/`indexOf...`/`destroy...` shall not be used because they may collide with setters/getters for properties or aggregations that are defned explicitely or by a superclass.
+-   Names starting with `set...`/`get...`/`insert...`/`add...`/`remove...`/`indexOf...`/`destroy...` shall not be used because they may collide with setters/getters for properties or aggregations that are defined explicitely or by a superclass.
 
 -   Names starting with `attach...`/`detach...`/`fire` may collide with methods created for events.
 

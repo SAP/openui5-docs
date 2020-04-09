@@ -18,10 +18,10 @@ In the XML view below, for example, three extension points are defined: `extensi
 
 ``` js
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
-    <core:ExtensionPoint name="extension1" />
+    <core:ExtensionPoint name="extension1">
     <TextView text="SAP View 'Sub2' - this one is extended by the customer and there should be a button after this text"></TextView>    
-    <core:ExtensionPoint name="extension2" />   
-    <core:ExtensionPoint name="extension3" />   
+    <core:ExtensionPoint name="extension2">   
+    <core:ExtensionPoint name="extension3">   
 </mvc:View>
 
 ```
@@ -78,8 +78,8 @@ Applications can also use extension points to provide default content, which is 
 ``` js
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <ListBox items="{/names}">
-        <core:ExtensionPoint name="extension1" />
-            <ListItem text="{firstName} />
+        <core:ExtensionPoint name="extension1">
+            <ListItem text="{firstName}>
         </core:ExtensionPoint>
     </ListBox>  
 </mvc:View>

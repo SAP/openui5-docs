@@ -20,7 +20,7 @@ The binding must know the metadata part of the binding expression. The path to m
 
 -   Absolute bindings
 
-    An absolute binding path starts with the entity name followed by the property name. Property attributes can be accessed with `@` + `propertyName`, nodes can be accesses with the node name only.
+    An absolute binding path starts with the entity name followed by the property name. Property attributes can be accessed with `@` + **property attribute**, while nodes can be accessed with the node name only.
 
     Example:
 
