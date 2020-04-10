@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Descriptor for Applications, Components, and Libraries
 
-The descriptor for applications, components, and libraries is inspired by the Web Application Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable and easy-to-access location for storing metadata associated with an application, an application component, or a library.
+The descriptor for applications, components, and libraries \(in short: app descriptor\) is inspired by the Web Application Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 
-The data is stored in json format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
+The data is stored in JSON format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
 
 ***
 
@@ -20,12 +20,12 @@ The data is stored in json format in the `manifest.json` file. The developer cre
 
 ### General Information
 
-Every new version of OpenUI5 implies a new version of the app descriptor. In the following table you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
+Every new version of OpenUI5 implies a new version of the app descriptor. In the following table, you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
 
-AppDescriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_lqj_xgh_1cb"/>
+App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_lqj_xgh_1cb"/>
 
-|AppDescriptor Release| OpenUI5 Version|\_version|
-|---------------------|----------------|---------|
+|App Descriptor Release| OpenUI5 Version|\_version|
+|----------------------|----------------|---------|
 |Version 2|\>=1.30|1.1.0|
 |Version 3|\>=1.32|1.2.0|
 |Version 4|\>=1.34|1.3.0|
@@ -46,6 +46,7 @@ AppDescriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedaec
 |Version 19|\>=1.74| |
 |Version 20|\>=1.75| |
 |Version 21|\>=1.76| |
+|Version 22|\>=1.77| |
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -156,11 +157,15 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 		</tr>
 		<tr>
 			<td> `i18n` </td>
-			<td>Relative URL to the properties file that contains the text symbols for the descriptor; default: `"i18n/i18n.properties"`
+			<td>The i18n property is an **optional** attribute and contains one of the following:
 
+ -   A URL string to the properties file that contains the text symbols for the descriptor; the URL is interpreted relative to the `manifest`.
  > Note:
  > The path to the i18n file must not exceed 100 characters.
-			</td>
+
+ -   An object that has been defined as described in [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md).
+
+ If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.</td>
 		</tr>
 		<tr>
 			<td> `applicationVersion` </td>
@@ -210,11 +215,12 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 			<td> `dataSources` </td>
 			<td> Unique key/alias for specifying the used data sources; contains the following information:
  -   `uri`: Mandatory relative URL in the component; takes `embeddedBy` into account, if filled, or the server absolute of the data source, for example `"/sap/opu/odata/snce/PO_S_SRV;v=2/"` 
- -   `type`: OData `(default)or ODataAnnotation or INA or XML or JSON`
+ -   `type`: `OData` \(default\) or `ODataAnnotation`, or `INA`, or `XML`, or `JSON`, or `FHIR`
+ -   `customType` \(As of 1.77\): `true`/`false`; if `true`, there is no validation on the `type` attribute
  -   `settings`: Data source type-specific attributes \(key, value pairs\), which are:
      -   `odataVersion`: 2.0 \(default\), 4.0
-     -   `localUri`: Relative URL to local metadata document or annotation uri
-     -   `annotations`: Array of annotations which references an existing data source of type "ODataAnnotation" under **sap.app/dataSources**
+     -   `localUri`: Relative URL to local metadata document or annotation URI
+     -   `annotations`: Array of annotations which references an existing data source of type `ODataAnnotation` under `sap.app/dataSources`
 
      -   `maxAge`: Indicates the number of seconds the client is willing to accept with regard to the age of the data that is requested
 			</td>
@@ -308,17 +314,21 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
          -   `additionalParameters` \(mandatory\): Indicates how additional parameters to the declared signature are handled; values can be, for example, "ignored", "notallowed", "allowed"
 
- -   `outbounds`: Specifies outbounds with a unique key or alias containing:
+ -   `outbounds`: Specifies outbounds with a unique key or alias to describe intents that can be triggered from the application to navigate containing:
 
-     -   `semanticObject` \(mandatory\)
+     -   `semanticObject` \(mandatory\); represents a business entity \(such as 'Employee'\)
 
-     -   `action` \(mandatory\)
+     -   `action` \(mandatory\); represents the action to perform on the business entity \(such as 'display'\)
 
-     -   `parameters`: Specifies the parameter name
+     -   `parameters` of navigation intents: Specifies the parameter name
 
-         -   `value`: Represents a value to be used in the outbound; with `value` \(verbatim value for format "plain", or not supplied, or a binding reference for format "binding"\) and `format` \(indicates how value is to be interpreted, "plain", "binding"\)
+         -   `value`: parameters of navigation intents generated or triggered by the application, with:
 
-         -   `required`: Indicator whether paramter is required \(`true`, `false`\)
+ -   a `value`; verbatim value \(when '`plain`' format is used\), or a pattern \(when '`regexp`' format is used\), or a value coming from a UI5 model \(when '`binding`' format is used\), or a User Default reference \(when '`reference`' format is used\) and a
+			</td>
+			<td>-   `format`; indicates how `value` is to be interpreted: '`plain`' \('`value`' is taken as a literal string value\); '`reference`' \('`value`' is a reference to a parameter maintained in the SAP Fiori launchpad \(such as '`UserDefault.CostCenter`'; the parameter value is used on the outbound intent parameter\);</td>
+ '`regexp`' \('`value`' matches the specified pattern; '`binding`' \('`value`' is a binding path; the value from the model at the specified binding path will be used on the outbound intent parameter\)
+         -   `required`: Indicator whether parameter is required \(`true`, `false`\)
 
      -   `additionalParameters`: Indicates whether additional context parameters are to be used:
 
@@ -446,7 +456,7 @@ Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b
  > -   [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor)
  > For ResourceModel constructor see:
  > -   [sap.ui.model.resource.ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel/constructor)
- > The attribute `enhanceWith` can be specified with **bundleUrl**, **bundleUrlRelativeTo** \(default: `component` or `manifest`\) or **bundleName** to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with.
+ > The attribute `enhanceWith` can be specified with **bundleUrl**, **bundleUrlRelativeTo** \(either `component` \(default\) or `manifest`\) or **bundleName** to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md).
 
  -   `dataSource`: String of key or alias from `sap.app dataSources` to reference an existing data source; the `type`, `uri` and `settings` properties are set according to the data source's `type`, `uri` and `settings` \(if not already defined\). If the type under `sap.app dataSources` is `OData`, an OData Model V2 is created automatically. If you need an OData Model V1, specify the `type` as well.
  -   `preload`: Optional; Boolean with `true`, `false` \(default\)
@@ -597,7 +607,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.20.0",
+    "_version": "1.21.0",
  
     "start_url": "index.html",
  
@@ -737,7 +747,8 @@ Current version of the `manifest.json`
                                     "format": "regexp"
                                 }
                             }
-                        }
+                        },
+                        "additionalParameters": "allowed"
                     }
                 },
                 "contactDisplayAlt": {
@@ -764,7 +775,8 @@ Current version of the `manifest.json`
                                 },
                                 "required": true
                             }
-                        }
+                        },
+                        "additionalParameters": "allowed"
                     }
                 }
             },
@@ -830,7 +842,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.76.0",
+            "minUI5Version": "1.77.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
@@ -977,7 +989,7 @@ For the following namespaces, the indicated teams are responsible:
 
 -   sap.ui.smartbusiness.app - in Smart Business responsibility
 
--   sap.wda - in Web Dypro ABAP responsibility
+-   sap.wda - in Web Dynpro ABAP responsibility
 
 -   sap.gui - in SAP GUI responsibility
 
