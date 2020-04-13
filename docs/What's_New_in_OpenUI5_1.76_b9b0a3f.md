@@ -18,7 +18,7 @@ With this release OpenUI5 is upgraded from version 1.75 to 1.76.
 
 ### New Features
 
-|**`Team Calendar`**We have enabled custom colors to be used with the `specialDates` aggregation in `sap.m.PlanningCalendar`, `sap.m.SinglePlanningCalendar`, and `sap.ui.unified.Calendar` controls. This enhancement harmonizes with the `legend` aggregation where custom colors were already available. It is implemented with the new `color` property of type `sap.ui.core.CSSColor` in the `sap.ui.unified.DateTypeRange` control. Find it in the [Demo Apps](https://openui5.hana.ondemand.com/#demoapps).|
+|**`Team Calendar`**We have added a new demo application - the Team Calendar. It demonstrates the integration between `sap.m.PlanningCalendar` and `sap.m.SinglePlanningCalendar` controls, sharing the same data source. The Team Calendar can be used as a starting point for building a fully functional complex application. Find it in the [Demo Apps](https://openui5.hana.ondemand.com/#demoapps).|
 
 ***
 
