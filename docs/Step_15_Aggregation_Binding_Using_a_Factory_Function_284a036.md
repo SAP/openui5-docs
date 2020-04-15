@@ -33,7 +33,10 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 ### webapp/view/App.view.xml
 
 ``` xml
-... 
+...
+<mvc:View controllerName="sap.ui.demo.db.controller.App" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+		 *HIGHLIGHT START*xmlns:core="sap.ui.core"*HIGHLIGHT END*>
+...
 	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 *HIGHLIGHT START*			<List
@@ -52,6 +55,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 		</content>
 	</Panel>
 ...
+</mvc:View>
 ```
 
 The `List` XML element that previously held the product list is now reduced simply to a named, but otherwise empty placeholder. Without a factory function to populate it, this `List` would always remain empty.
