@@ -33,7 +33,6 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 |Supported controls|Supports all kinds of controls inside a line item|Supports a limited set of controls<sup>1</sup> |Supports a limited set of controls<sup>1</sup> |Supports a limited set of controls<sup>1</sup> |
 |Row-based| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 |Column-based| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|OData-based|Requires manual modifications|Requires manual modifications|Requires manual modifications|Requires manual modifications|
 
 1\) `Text`, `Label`, `ObjectStatus`, `Icon`, `Button`, `Input`, `DatePicker`, `Select`, `ComboBox`, `MultiComboBox`, `CheckBox`, `Link`, `Currency`, `RatingIndicator`, `ProgressIndicator`; To keep the control height always stable, the `wrapping` and `renderWhitespace` properties in the `sap.m.Text` control, for example, must be set to `false`. For more information, search for cell level in the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 

@@ -163,7 +163,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
  > Note:
  > The path to the i18n file must not exceed 100 characters.
 
- -   An object that has been defined as described in [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md).
+ -   An object that has been defined as described in [Terminologies](Terminologies_eba8d25.md).
 
  If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.</td>
 		</tr>
@@ -456,7 +456,7 @@ Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b
  > -   [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor)
  > For ResourceModel constructor see:
  > -   [sap.ui.model.resource.ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel/constructor)
- > The attribute `enhanceWith` can be specified with **bundleUrl**, **bundleUrlRelativeTo** \(either `component` \(default\) or `manifest`\) or **bundleName** to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md).
+ > The attribute `enhanceWith` can be specified with **bundleUrl**, **bundleUrlRelativeTo** \(either `component` \(default\) or `manifest`\) or **bundleName** to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
 
  -   `dataSource`: String of key or alias from `sap.app dataSources` to reference an existing data source; the `type`, `uri` and `settings` properties are set according to the data source's `type`, `uri` and `settings` \(if not already defined\). If the type under `sap.app dataSources` is `OData`, an OData Model V2 is created automatically. If you need an OData Model V1, specify the `type` as well.
  -   `preload`: Optional; Boolean with `true`, `false` \(default\)

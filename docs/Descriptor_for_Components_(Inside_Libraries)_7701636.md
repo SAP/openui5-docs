@@ -18,7 +18,7 @@ Attributes in the `sap.app` namespace<a name="loio7701636d088147569d99b4f08d418b
 |---------|-------|
 | `id` |Mandatory|
 | `type` |With value `component`; mandatory|
-| `i18n` |Optional attribute: A URL string to the properties file that contains the text symbols for the descriptor; the URL is interpreted relative to the `manifest`. Alternatively, an object defined as described in [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md). If the manifest contains placeholders in `{{...}}` syntax but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.|
+| `i18n` |Optional attribute: A URL string to the properties file that contains the text symbols for the descriptor; the URL is interpreted relative to the `manifest`. Alternatively, an object defined as described in [Terminologies](Terminologies_eba8d25.md). If the manifest contains placeholders in `{{...}}` syntax but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.|
 | `embeddedBy` |Mandatory, for example, `"../"` |
 | `title` |Mandatory|
 | `subTitle` | |

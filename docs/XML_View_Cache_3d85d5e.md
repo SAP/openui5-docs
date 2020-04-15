@@ -39,10 +39,15 @@ The following data changes are handled automatically by OpenUI5:
 
 This feature is only enabled for the following browsers:
 
--   Google Chrome as of version 49 for desktop
+-   Google Chrome as of Version 49 for desktop
 
--   Internet Explorer as of version 11 for desktop
+-   Google Chrome as of Version 80 for Android phone/tablet
+-   Microsoft Edge \(Chromium\) for desktop
+-   Mozilla Firefox as of Version 74 for Microsoft Windows desktop
+-   Internet Explorer as of Version 11 for desktop
 
+-   Safari as of Version 13 for desktop
+-   Safari as of Version 13 for iOS phone/tablet
 
 The XML view has to be loaded asynchronously.
 

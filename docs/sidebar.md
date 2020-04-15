@@ -490,7 +490,7 @@
             -   [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)
             -   [Resource Bundles](Resource_Bundles_91f225c.md)
             -   [Use of Localized Texts in Applications](Use_of_Localized_Texts_in_Applications_91f3859.md)
-            -   [Terminologies in UI5](Terminologies_in_UI5_eba8d25.md)
+            -   [Terminologies](Terminologies_eba8d25.md)
         -   [Accessibility](Accessibility_322f55d.md)
             -   [Keyboard Handling for OpenUI5 UI Elements](Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md)
             -   [Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md)
