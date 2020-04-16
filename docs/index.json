@@ -1626,6 +1626,9 @@
 							"Resource Bundles": {
 								"link": "Resource_Bundles_91f225c.md"
 							},
+							"Supported Locales and Fallback": {
+								"link": "Supported_Locales_and_Fallback_ec753bc.md"
+							},
 							"Use of Localized Texts in Applications": {
 								"link": "Use_of_Localized_Texts_in_Applications_91f3859.md"
 							},

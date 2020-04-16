@@ -27,7 +27,9 @@ You can then use the `ResourceBundle.create` function to load the resource bundl
 ResourceBundle.create({
     url : sUrl, 
     locale: sLocale,
-    async: true
+    async: true,
+    supportedLocales: aSupportedLocales,
+    fallbackLocale: sFallbackLocale
 }).then(function(oBundle) {
     // code
 });
@@ -73,7 +75,9 @@ zip=PLZ:
 city=Ort:
 ```
 
-The localization test page uses these texts to display a welcome message and a form to enter the address of a person. The coding of the test page looks as follows:
+The localization test page uses these texts to display a welcome message and a form to enter the address of a person.
+
+The coding of the test page looks as follows:
 
 ``` js
 // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
@@ -82,7 +86,12 @@ The localization test page uses these texts to display a welcome message and a f
 // "TextField" required from module "sap/ui/commons/TextField"
 // "TextView" required from module "sap/ui/commons/TextView"
 var sLocale = sap.ui.getCore().getConfiguration().getLanguage();
-ResourceBundle.create({url : "res/i18n.properties", locale: sLocale}).then(function(oBundle) {
+ResourceBundle.create({
+	url : "res/i18n.properties", 
+	locale: sLocale,
+	supportedLocales: ["", "de"],
+	fallbackLocale: ""
+}).then(function(oBundle) {
     var oMatrixLayout = new MatrixLayout();
     oMatrixLayout.setLayoutFixed(false);
     oMatrixLayout.createRow(
@@ -133,9 +142,11 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 > // "ResourceModel" required from module "sap/ui/model/resource/ResourceModel"
 > // "Button" required from module "sap/ui/commons/Button"
 >  var oModel = new ResourceModel({
->    bundleName:"myBundle",
->    bundleLocale:"en",
->    async: true
+> 	bundleName:"myBundle",
+> 	bundleLocale:"en",
+> 	async: true,
+> 	supportedLocales: ["en"],
+> 	fallbackLocale: "en"
 >  });
 >  var oControl = new Button({
 >     id : "myButton",
@@ -149,10 +160,13 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 > 
 
 > Note:
-> The current data binding implementation does not allow to pass parameters to your texts in the resource bundle. If you have to pass parameters, you must do this on your own. You can, however, access the resource bundle directly from the model instead of loading it:
+> The current data binding implementation does not allow to pass parameters to your texts in the resource bundle.
+> 
+> If you have to pass parameters, you must do this on your own. You can, however, access the resource bundle directly from the model instead of loading it:
 > 
 > ``` js
-> oModel.getResourceBundle().then(function(oBundleInstance) {
+> oModel.getResourceBundle().then(function(oBundle){
+> 	var sText = oBundle.getText("welcome", ["Administrator"]);
 >     ...
 > });
 > ```

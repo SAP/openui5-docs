@@ -17,13 +17,13 @@ Resource bundles are a collection of `*.properties` files. All files are named w
 When a localized text is needed, the application uses the OpenUI5 APIs to load the properties file that matches the current language best. The same applies to any other localized data that can be represented as a string, for example, a date formatter string. To retrieve a text from the properties file, the application uses the \(language-independent\) key. If no text can be found for this key, the next best matching file is loaded and checked for the text. Finally, if no file matches, the raw file is loaded and checked.
 
 > Note:
-> The resource bundle `sap.ui.commons.message_bundle` consists of the following individual files:
+> The resource bundle `myapp.i18n.messagebundle` consists of the following individual files:
 > 
-> -   `sap.ui.commons.message_bundle.properties`: Contains the raw texts form the developer, determines the set of keys
-> -   `sap.ui.commons.message_bundle_en.properties`: Contains English texts \(without a specific country\)
-> -   `sap.ui.commons.message_bundle_en_US.properties`: Contains texts in American English
-> -   `sap.ui.commons.message_bundle_en_UK.properties`: Contains texts in British English
-> -   `sap.ui.commons.message_bundle_de.properties`: Contains texts in German
+> -   `sap.ui.commons.messagebundle.properties`: Contains the raw texts from the developer, determines the set of keys
+> -   `sap.ui.commons.messagebundle_en.properties`: Contains English texts \(without a specific country\)
+> -   `sap.ui.commons.messagebundle_en_US.properties`: Contains texts in American English
+> -   `sap.ui.commons.messagebundle_en_UK.properties`: Contains texts in British English
+> -   `sap.ui.commons.messagebundle_de.properties`: Contains texts in German
 > 
 > 
 
@@ -43,6 +43,25 @@ welcome=Welcome {0}
 ```
 
 > Note:
+> To consume a properties files using a resource bundle, you can use the following snippet:
+> 
+> ``` js
+> // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
+> // load the resource bundle
+> ResourceBundle.create({
+> 	url : "myapp/i18n/messagebundle.properties",
+> 	supportedLocales: ["en_US", "en_GB", "en", "de", ""],
+> 	fallbackLocale: "en",
+> 	async: true
+> }).then(function(oBundle){
+>    oBundle.getText("buttonSave");
+>    oBundle.getText("welcome", ["Administrator"]);
+> });
+> ```
+> 
+> 
+
+> Note:
 > If you are using OpenUI5 in SAP HANA, resource bundles files must have the extension `*.hdbtextbundle` instead of `*.properties`.
 > 
 > To load this bundle, you add the following code to the `createContent` function of your view:
@@ -50,9 +69,13 @@ welcome=Welcome {0}
 > ``` js
 > // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 > // load the resource bundle
-> var oBundle = ResourceBundle.create({
->   // specify url of the .hdbtextbundle
->   url : "i18n/messagebundle.hdbtextbundle"
+> ResourceBundle.create({
+> // specify url of the .hdbtextbundle
+> 	url : "myapp/i18n/messagebundle.hdbtextbundle";
+> 	async: true
+> }).then(function(oBundle){
+> 	oBundle.getText("buttonSave");
+> 	oBundle.getText("welcome", ["Administrator"]);
 > });
 > ```
 > 
