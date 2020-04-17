@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Supported Locales and Fallback
 
-A list of supported locales can be created to restrict the number of locales for which resource bundles may be requested. These can be configured in a fallback chain, for which a custom fallback locale can be provided.
+A list of supported locales can be created to restrict the number of locales for which resource bundles may be requested. These can be configured for a fallback chain, for which a custom fallback locale can be provided.
 
 The localization configuration can be provided in the `manifest.json` file. It can either be configured using the `i18n` property in the `sap.app` section or in the `sap.ui5` section via the `models` configuration.
 
@@ -33,7 +33,7 @@ Sample configuration in `sap.ui5`:
 ...
 ```
 
-In this example a resource model with identifier `"i18n"` and resource root bundle name `"myapp.i18n.i18n"` has been defined. This bundleName then resolves to a resource bundle root URL, e.g. `"myapp/i18n/i18n.properties"`. Depending on the locale fallback chain, locales are applied to the resource bundle root URL in order to load the specific bundles and the requested translation for text keys, e.g. `"myapp/i18n/i18n_de.properties"`.
+In this example a resource model with identifier `"i18n"` and resource root bundle name `"myapp.i18n.i18n"` has been defined. This `bundleName` then resolves to a resource bundle root URL, e.g. `"myapp/i18n/i18n.properties"`. Depending on the locale fallback chain, locales are applied to the resource bundle root URL in order to load the specific bundles and the requested translation for text keys, e.g. `"myapp/i18n/i18n_de.properties"`.
 
 ***
 

@@ -16,7 +16,7 @@ This section provides information for the initial setup, development workflow, a
 
 ### Setting Up the OpenUI5 Development Environment
 
-OpenUI5 content is developed in an environment based on Node.js. UI5 Tooling is used as development server and build tool.
+OpenUI5 content is developed in an environment based on Node.js. [UI5 Tooling](https://sap.github.io/ui5-tooling/) is used as development server and build tool.
 
 ***
 
@@ -24,7 +24,7 @@ OpenUI5 content is developed in an environment based on Node.js. UI5 Tooling is 
 
 The basic setup allows you to start a server for the OpenUI5 project in an easy way:
 
-1.  Install Node.js. This also includes npm, the node package manager.
+1.  Install [Node.js](http://nodejs.org/). This also includes npm, the node package manager.
 
 2.  Clone the OpenUI5 Git repository. You can download and install Git from [http://git-scm.com/download](http://git-scm.com/download):
 
@@ -77,9 +77,9 @@ The following server configuration is available:
 
 #### Advanced Setup
 
-The basic setup described above uses a custom setup focused on starting the UI5 server for the OpenUI5 TestSuite project in an easy way.
+The basic setup described above uses a custom setup focused on starting the [UI5 server](https://sap.github.io/ui5-tooling/pages/Server/) for the OpenUI5 TestSuite project in an easy way.
 
-The advanced setup allows you to use the UI5 CLI and all of its features. The use of Yarn is required in this setup, as npm cannot handle workspaces yet.
+The advanced setup allows you to use the [UI5 CLI](https://sap.github.io/ui5-tooling/pages/CLI/) and all of its features. The use of Yarn is required in this setup, as npm cannot handle workspaces yet.
 
 Use the advanced setup if you plan to do any of the following:
 
@@ -92,9 +92,9 @@ Use the advanced setup if you plan to do any of the following:
 
 For the advanced setup, proceed as follows:
 
-1.  Install the UI5 Tooling CLI globally, see[UI5 Tooling: Installing the UI5 CLI](https://github.com/SAP/ui5-tooling#installing-the-ui5-cli).
+1.  Install the UI5 Tooling CLI globally, see[UI5 Tooling: Installing the UI5 CLI](https://sap.github.io/ui5-tooling/pages/CLI/).
 
-2.  Install Yarn. See [FAQ: What's the thing with Yarn?](https://github.com/SAP/ui5-tooling#whats-the-thing-with-yarn).
+2.  Install Yarn. See [FAQ: What's the thing with Yarn?](https://sap.github.io/ui5-tooling/pages/FAQ/#whats-the-thing-with-yarn).
 
 3.  In the OpenUI5 repository root directory, install all dependencies using Yarn. This also links all OpenUI5 libraries between each other.
 
@@ -110,7 +110,7 @@ For the advanced setup, proceed as follows:
     ```
 
 
-You can now use the UI5 CLI in any of your local OpenUI5 libraries. Whenever you make changes to your OpenUI5 repository's `node_modules` directory \(e.g. by executing `npm install`\), you may need to recreate the links between the OpenUI5 libraries. You can always do this by executing `yarn` in the OpenUI5 root directory.
+You can now use the UI5 CLI in any of your local OpenUI5 libraries. For details, check the [UI5 CLI documentation](https://github.com/SAP/ui5-cli). Whenever you make changes to your OpenUI5 repository's `node_modules` directory \(e.g. by executing `npm install`\), you may need to recreate the links between the OpenUI5 libraries. You can always do this by executing `yarn` in the OpenUI5 root directory.
 
 ***
 

@@ -25,6 +25,11 @@ The default way of downloading and installing OpenUI5 is to get the runtime from
 3.  In your app’s main HTML file, load OpenUI5 by referring to the `resources/sap-ui-core.js` file that was contained in the ZIP file. \(See [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).\)
 
 
+> Note:
+> Alternatively, we recommend that you familiarize yourselves with our [UI5 Tooling](https://sap.github.io/ui5-tooling/), which is an open and modular toolchain leveraging **node.js** and a command-line interface. For more information about this powerful yet easy-to-use development environment, see [Getting Started](https://sap.github.io/ui5-tooling/pages/GettingStarted/).
+> 
+> 
+
 ***
 
 ### Using OpenUI5 Sources from a Content Delivery Network
