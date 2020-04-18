@@ -45,7 +45,7 @@ The locales are resolved using a locale fallback chain. Each fallback is checked
 
 1.  determine the input language, e.g. `"de_CH"`. For more information, see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md).
 
-2.  remove the region postfix from the locale, e.g.`"de_CH"` -\> `"de"`
+2.  remove the region suffix from the locale code, e.g.`"de_CH"` -\> `"de"`
 
 3.  use the `fallbackLocale` configured, e.g. `"en"` \(defaults to `"en"`\)
 

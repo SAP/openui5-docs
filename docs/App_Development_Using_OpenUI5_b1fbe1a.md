@@ -26,7 +26,7 @@ The default way of downloading and installing OpenUI5 is to get the runtime from
 
 
 > Note:
-> Alternatively, we recommend that you familiarize yourselves with our [UI5 Tooling](https://sap.github.io/ui5-tooling/), which is an open and modular toolchain leveraging **node.js** and a command-line interface. For more information about this powerful yet easy-to-use development environment, see [Getting Started](https://sap.github.io/ui5-tooling/pages/GettingStarted/).
+> Alternatively, we recommend that you familiarize yourself with [UI5 Tooling](https://sap.github.io/ui5-tooling/), which is an open and modular toolchain leveraging **node.js** and a command-line interface. For more information about this powerful yet easy-to-use development environment, see [Getting Started](https://sap.github.io/ui5-tooling/pages/GettingStarted/).
 > 
 > 
 
