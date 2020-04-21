@@ -70,9 +70,9 @@ Navigation events<a name="loio516e477e7e0b4e188b19a406e7528c1e__fig_srm_3dn_1w"/
 
 ***
 
-#### Events `attachRouteMatched` on `Router` and `attachMatched` on `Route`
+#### Events `RouteMatched` on `Router` and `matched` on `Route`
 
-These events are fired when a hash matches a route or a pattern. The `routeMatched` event is fired if a pattern of any route in the routing configuration is matched. The matched event is fired for a specific route.
+These events are fired when a hash matches a route or a pattern. The `routeMatched` event is fired if a pattern of any route in the routing configuration is matched. The `matched` event is fired for a specific route.
 
 If you want to only react to specific routes, check if the `name` parameter matches the route that you want to listen to. The events have the following parameters:
 
@@ -82,6 +82,8 @@ If you want to only react to specific routes, check if the `name` parameter matc
 
 -   `config` of the route
 
+
+The methods `attachRouteMatched` and `attachMatched` can be used to attach an event listener to these events.
 
 ``` js
 sap.ui.controller("MyApp.View1", {

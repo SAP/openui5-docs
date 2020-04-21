@@ -22,18 +22,18 @@ This chapter describes a concept for dynamically adapting applications for diffe
 
 A terminology, such as "Travel" or "Sports", is a set of resource bundles / .properties files for an application-specific scenario that the developer can activate by configuring it as described below.
 
-The following table shows the configuration options which can be specified in the descriptor file `manifest.json` of your application or component. The configuration can be placed under either the `sap.app/i18n` or the `sap.ui5/models` section for models of type `sap.ui.model.resource.ResourceModel`.
+The following table shows the configuration options that can be specified in the `manifest.json` descriptor file of your application or component. The configuration can be placed under either the `sap.app/i18n` or the `sap.ui5/models` section for models of type `sap.ui.model.resource.ResourceModel`.
 
 Configuration Options for Terminologies<a name="loioeba8d25a31ef416ead876e091e67824e__table_ConfigOptions"/>
 
 |Property|Type|Description|
 |--------|----|-----------|
-| `bundleName` | `String` |UI5 module name in dot notation referring to the main `.properties` file.|
+| `bundleName` | `String` | OpenUI5 module name in dot notation referring to the main `.properties` file.|
 | `bundleUrl` | `String` |URL pointing to the `.properties` file of the main bundle.|
 | `bundleUrlRelativeTo` | `String` |The bundle URL can be resolved relative to either `manifest` \(default\) or `component`.|
-| `supportedLocales` | `String[]` |An array containing a list of supported locales, e.g. `en_GB`, `en-GB` or `en`. It is recommended to make use of this option in order to optimize the **loading performance** of resource bundles. It controls the language fallback chain and prevents unnecessary and potentially failing requests, as the available language-specific resource bundles are already known.|
+| `supportedLocales` | `String[]` |An array containing a list of supported locales, for example`en_GB`, `en-GB`, or `en`. It is recommended to make use of this option in order to optimize the **loading performance** of resource bundles. It controls the language fallback chain and prevents unnecessary and potentially failing requests, as the available language-specific resource bundles are already known.|
 | `fallbackLocale` | `String` |The fallback locale in case the user's locale is not present in the list of supported locales or the required text can't be found in any other resource bundle. Furthermore, the given fallback locale must be listed in the `supportedLocales`.|
-| `terminologies` | `Object` |A key-value map on which the name of a terminology is specified as key and a configuration object as value. The configuration object must be specified with either`bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.|
+| `terminologies` | `Object` |A key-value map in which the name of a terminology is specified as a key and a configuration object as a value. The configuration object must be specified with either `bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.|
 | `enhanceWith` | `Object[]` |List of additional resource bundle configurations to enhance the main bundle. Each entry can have the same properties as described in this table, **except another `enhanceWith`**.|
 
 > Note:
@@ -42,7 +42,7 @@ Configuration Options for Terminologies<a name="loioeba8d25a31ef416ead876e091e67
 > 
 
 > Note:
-> Certain ABAP systems implement their own language fallback mechanism, which might lead to unwanted results if using terminologies. For example, a request of a French resource bundle file \(e.g. `../i18n_fr.properties`\) might be answered with English content in case there is no available French version in the back end.
+> Certain ABAP systems implement their own language fallback mechanism, which might lead to unwanted results if you're using terminologies. For example, a request of a French resource bundle file \(such as `../i18n_fr.properties`\) might be answered with English content in case there is no available French version in the back end.
 > 
 > To prevent this behavior, you need to explicitly set the `supportedLocales` option to the actual valid set of supported languages for the back end.
 > 
@@ -52,9 +52,9 @@ Configuration Options for Terminologies<a name="loioeba8d25a31ef416ead876e091e67
 
 The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
 
-The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html) demo application in the Demokit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies`sports`, `travel` and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
+The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html) demo application in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
 
-The second bundle with bundleUrl `reuse/appvar2/i18n/i18n.properties` does not derive directly from the main resource bundle as you might think, but from the first enhancement. The list of resource bundle configurations provided with the `enhanceWith` attribute can be seen as an incremental list of derivations for resource bundles that starts from the main bundle. If there was a third enhancing bundle, it would derive from the second bundle, which in turn derives from the first enhancement, and so on:
+The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does not derive directly from the main resource bundle as you might think, but from the first enhancement. The list of resource bundle configurations provided with the `enhanceWith` attribute can be seen as an incremental list of derivations for resource bundles that starts from the main bundle. If there was a third enhancing bundle, it would derive from the second bundle, which in turn derives from the first enhancement, and so on:
 
 ``` json
 
@@ -125,15 +125,15 @@ The second bundle with bundleUrl `reuse/appvar2/i18n/i18n.properties` does not d
 
 There are three ways to specify which terminologies should be activated in your application. A list of active terminologies must be provided in each case. Attention must be paid to the order in which the active terminologies are given. The terminology with the highest priority comes first.
 
-The list of active terminologies can be any subset of the terminologies defined in the `manifest.json`. For example, only `travel` could be activated from the available terminologies `sports`, `travel` and `services` that are defined in the manifest. In case terminologies are provided for which no content is available, nothing will happen.
+The list of active terminologies can be any subset of the terminologies defined in the `manifest.json`. For example, only `travel` could be activated from the available terminologies `sports`, `travel`, and `services` that are defined in the manifest. In case terminologies are provided for which no content is available, nothing will happen.
 
-In the examples below, the terminology `travel` has the highest priority as it is given as the first argument in this list \[ `travel`, `services`\]. According to this list and the configuration above, the `appvar2` bundle \("travel-bicycles"\) overrides/enhances the content of the `appvar1` bundle \("travel-vehicles"\), the `i18n.terminologies.travel.properties` file and the main resource bundle including the `services` bundle.
+In the examples below, the terminology `travel` has the highest priority as it is given as the first argument in this list \[ `travel`, `services`\]. According to this list and the configuration above, the `appvar2` bundle \("travel-bicycles"\) overrides/enhances the content of the `appvar1` bundle \("travel-vehicles"\), the `i18n.terminologies.travel.properties` file, and the main resource bundle including the `services` bundle.
 
 ***
 
 #### Activate Terminologies via the API
 
-The most relevant option is to pass the list of active terminologies as an array of strings to the factory functions of the `sap.ui.core.Component`. In case of nested components the active terminologies will be inherited from the owner component.
+The most relevant option is to pass the list of active terminologies as an array of strings to the factory functions of the `sap.ui.core.Component`. In case of nested components, the active terminologies will be inherited from the owner component.
 
  For more information and additional usage instructions, see the [API Reference: `sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create). 
 

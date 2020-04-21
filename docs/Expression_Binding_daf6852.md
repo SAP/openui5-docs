@@ -199,7 +199,7 @@ When using expression binding, however, you only need the XML view without contr
 ```
 
 > Note:
-> Some symbols need to be escaped in XML views, for example `&&` needs to be escaped with `&amp;&amp`.
+> Some symbols need to be escaped in XML views, for example `&&` needs to be escaped with `&amp;&amp;`
 > 
 > 
 

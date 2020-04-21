@@ -181,29 +181,29 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 		</tr>
 		<tr>
 			<td> `title` </td>
-			<td>Mandatory attribute: The entry is language-dependent and specified via `{{…}}` syntax</td>
+			<td>Mandatory attribute: Either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
 		</tr>
 		<tr>
 			<td> `subTitle` </td>
-			<td>Language-dependent entry for a subtitle; specified via `{{...}}` syntax</td>
+			<td>Subtitle; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
 		</tr>
 		<tr>
 			<td> `shortTitle` </td>
-			<td>Short version of the title. Language-dependent entry has to be specified via `{{...}}` syntax</td>
+			<td>Short version of the title; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
 		</tr>
 		<tr>
 			<td> `info` </td>
-			<td>Needed for CDM \(Common Data Model\) conversion of tiles. Language-dependent entry has to be specified via `{{...}}` syntax</td>
+			<td>Needed for CDM \(Common Data Model\) conversion of tiles; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
 		</tr>
 		<tr>
 			<td> `description` </td>
-			<td>Description; language-dependent entry that is specified via `{{…}}` syntax</td>
+			<td>Description; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
 		</tr>
 		<tr>
 			<td> `tags` </td>
 			<td>Contains the following:
 
- -   An array of language-dependent **`keywords`** that are specified via `{{…}}` syntax, for example `"keywords": ["{{keyWord1}}","{{keyWord2}}"]`.
+ -   An array of **`keywords`**; either text or a language-dependent entry to be specified via `{{…}}` syntax, for example `"keywords": ["{{keyWord1}}","{{keyWord2}}"]`.
  -   An array of **`technicalAttributes`** \(general technical attributes, for example, technical catalog, upper case and language-independent attributes\).
 			</td>
 		</tr>
