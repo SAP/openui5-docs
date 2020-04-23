@@ -39,13 +39,11 @@ Let’s say, we have the following JSON data:
 To define property binding in the control declaration in the **XML view**, just include the binding path within curly brackets \(see also [Binding Path](Binding_Path_2888af4.md)\):
 
 ``` xml
-<mvc:View
+<mvc:View 
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Input
-		value="{/company/name}"
-	/>
+	<Input value="{/company/name}"/>
 </mvc:View>
 ```
 
@@ -65,14 +63,14 @@ If you are working with **XML views**, make sure that you've turned on complex b
 ``` html
 
 <script
-       id="sap-ui-bootstrap"
-  	src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-  	data-sap-ui-theme="sap_belize"
- 	*HIGHLIGHT START*data-sap-ui-bindingSyntax="complex"*HIGHLIGHT END*
-  	data-sap-ui-async="true"
-  	data-sap-ui-onInit="module:sap/ui/sample/main"
-       data-sap-ui-resourceRoots='{"sap.ui.sample": "./"}'
-></script>
+	id="sap-ui-bootstrap"
+	src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+	data-sap-ui-theme="sap_belize"
+	*HIGHLIGHT START*data-sap-ui-bindingSyntax="complex"*HIGHLIGHT END*
+	data-sap-ui-async="true"
+	data-sap-ui-onInit="module:sap/ui/sample/main"
+	data-sap-ui-resourceRoots='{"sap.ui.sample": "./"}'>
+</script>
 ```
 
 You can also use `data-sap-ui-compatVersion="edge"` to enable complex bindings.
@@ -88,8 +86,7 @@ You can then set the `bindingMode` or other additional properties like this:
 		value="{
 			path:'/company/name', 
 			mode: 'sap.ui.model.BindingMode.OneWay' 
-		}"
-	/>  
+		}"/>
 </mvc:View>
 ```
 
@@ -100,7 +97,7 @@ In **JavaScript** views or controllers, you use a JS object instead of a string 
 // "BindingMode" required from module "sap/ui/model/BindingMode"
 
 var oInput = new Input ({
-    value: {
+	value: {
 		path: "/company/name",
 		mode: BindingMode.OneWay
 	}
@@ -186,9 +183,10 @@ The `this` context of a formatter function is generally set to the control \(or 
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Input
-		value="{ path:'/company/revenue',
-		formatter: '*HIGHLIGHT START*.*HIGHLIGHT END*roundToMillion'}"
-	/>
+		value="{ 
+			path:'/company/revenue',
+			formatter: '*HIGHLIGHT START*.*HIGHLIGHT END*roundToMillion'
+		}"/>
 </mvc:View>
 ```
 
@@ -241,8 +239,10 @@ Here’s how you can use these types in an XML view:
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Input
-		value="{ path:'/company/revenue',
-		type: 'sap.ui.model.type.Integer'}"/>
+		value="{ 
+			path:'/company/revenue',
+			type: 'sap.ui.model.type.Integer'
+		}"/>
 </mvc:View>
 
 ```
@@ -255,13 +255,14 @@ You can also provide parameter values for some of the simple types in your XML v
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Input
-      value="{ path:'/company/revenue', 
-           type: 'sap.ui.model.type.Float',
-           formatOptions: {
-                   minFractionDigits: 2,
-                   maxFractionDigits: 2
-           }
-      }"/>
+	value="{ 
+		path:'/company/revenue', 
+		type: 'sap.ui.model.type.Float',
+		formatOptions: {
+			minFractionDigits: 2,
+			maxFractionDigits: 2
+		}
+	}"/>
 </mvc:View>
 ```
 
@@ -275,13 +276,13 @@ Using JavaScript, you can define a type to be used for a property binding by pas
 oTextField.bindProperty("value", "/company/name", new sap.ui.model.type.String());
 
 oControl = new sap.m.Input({
-    value: {
-        path:"/company/revenue",
-        type: new TypeFloat({
-            minFractionDigits: 2,
-            maxFractionDigits: 2
-        })
-    }
+	value: {
+		path:"/company/revenue",
+		type: new TypeFloat({
+			minFractionDigits: 2,
+			maxFractionDigits: 2
+		})
+	}
 })
 ```
 
@@ -319,12 +320,11 @@ You can use your custom types in XML views or JavaScript in the same way as you 
    controllerName="sap.ui.sample.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   
    <Input
-      value="{ path:'/company/zip',
-      type: 'sap.ui.sample.Zipcode'
+      value="{
+		path:'/company/zip',
+		type: 'sap.ui.sample.Zipcode'
      }"/>
-
 </mvc:View>
 ```
 

@@ -43,10 +43,10 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 16|\>=1.66|1.15.0|
 |Version 17|\>=1.70|1.16.0|
 |Version 18|\>=1.71|1.17.0|
-|Version 19|\>=1.74| |
-|Version 20|\>=1.75| |
-|Version 21|\>=1.76| |
-|Version 22|\>=1.77| |
+|Version 19|\>=1.74|1.18.0|
+|Version 20|\>=1.75|1.19.0|
+|Version 21|\>=1.76|1.20.0|
+|Version 22|\>=1.77|1.21.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 

@@ -148,7 +148,7 @@ For more information, see [Descriptor for Applications, Components, and Librarie
 
 If you want to exchange the reuse component, for example, to extend an app, you simple exchange the reuse component in the `manifest.json` descriptor file.
 
-Reuse components that are embedded by a library must have an explicit entry in the `manifest.json` in the `sap.app/embeddedBy` section:
+A reuse of components can be achieved by their inclusion into a library that is used by various applications. Reuse components that are embedded by a library must have an explicit entry in the `manifest.json` in the `sap.app/embeddedBy` section:
 
 ```
 "sap.app": {
