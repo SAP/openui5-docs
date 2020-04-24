@@ -19,8 +19,8 @@ When defining a binding path for a control, a binding context is created which c
 ![](loio493c875d822445458e0b56e0cc6451b2_LowRes.png)
 
 -   [Views](Views_91f27e3.md)
--   [Binding Path](Binding_Path_2888af4.md)
 -   [Models](Models_e1b6259.md)
+-   [Binding Path](Binding_Path_2888af4.md)
 
 ***
 

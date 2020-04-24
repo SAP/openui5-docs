@@ -257,8 +257,6 @@
                 -   [View Cloning](View_Cloning_a575619.md)
             -   [Controller](Controller_121b8e6.md)
                 -   [Using Controller Extension](Using_Controller_Extension_21515f0.md)
-            -   [File Names and Locations \(View and Controller\)](File_Names_and_Locations_(View_and_Controller)_91f25c2.md)
-            -   [Typed Views and Controllers](Typed_Views_and_Controllers_91f2702.md)
             -   [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)
         -   [Data Binding](Data_Binding_68b9644.md)
             -   [Binding Types](Binding_Types_91f0d8a.md)

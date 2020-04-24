@@ -25,14 +25,14 @@ Let’s say, we have the following JSON data:
 
 ``` json
 {
-"company" : {
+	"company" : {
 		"name"  : "Acme Inc.",
 		"street": "23 Franklin St.",
 		"city"  : "Claremont",
 		"state" : "New Hampshire",
 		"zip"   : "03301",
 		"revenue": "1833990"
-	      }
+	}
 }
 ```
 
