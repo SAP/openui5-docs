@@ -106,7 +106,7 @@ Language-specific text stored in resource models obeys the Java convention for i
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Panel headerText="*HIGHLIGHT START*i18n>*HIGHLIGHT END*panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel headerText="{*HIGHLIGHT START*i18n>*HIGHLIGHT END*panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 			<Label text="*HIGHLIGHT START*{i18n>firstName}*HIGHLIGHT END*" class="sapUiSmallMargin"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
