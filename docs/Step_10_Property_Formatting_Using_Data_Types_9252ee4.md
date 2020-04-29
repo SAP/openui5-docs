@@ -52,7 +52,7 @@ sap.ui.require([
 				zip: "69190",
 				country: "Germany"
 			}*HIGHLIGHT START*,
-			"salesToDate" : 12345.6789,
+			"salesAmount" : 12345.6789,
 			"currencyCode" : "EUR"
 *HIGHLIGHT END*
 		});
@@ -113,7 +113,7 @@ We create two new model properties `salesToDate` and `currencyCode`.
 					<Input width="200px" enabled="{/enabled}" description="{/currencyCode}"
 						value="{
 							parts: [
-								{path: '/salesToDate'},
+								{path: '/salesAmount'},
 								{path: '/currencyCode'}
 							],
 							type: 'sap.ui.model.type.Currency',
@@ -138,7 +138,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Enabled
 address=Address
-*HIGHLIGHT START*salesToDate=Sales to Date*HIGHLIGHT END*...
+*HIGHLIGHT START*salesAmount=Sales to Date*HIGHLIGHT END*...
 ```
 
 ***
@@ -151,7 +151,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Aktiviert
 address=Adresse
-*HIGHLIGHT START*salesToDate=Verk\\u00e4ufe bis zum heutigen Datum*HIGHLIGHT END*
+*HIGHLIGHT START*salesAmount=Verk\\u00e4ufe bis zum heutigen Datum*HIGHLIGHT END*
 ...
 ```
 
