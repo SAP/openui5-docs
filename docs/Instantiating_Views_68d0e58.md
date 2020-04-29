@@ -18,7 +18,7 @@ To pass the required information for the instantiation, use an object with the f
 
 -   `viewName`: View name corresponding to the module concept
 
--   `viewContent`: Only relevant for XML views and JSON views. Defines the XML or JSON string representation of the view definition. If `viewName` and `viewContent` are given, the `viewName` property is used to load the view definition.
+-   `definition`: Only relevant for XML views, HTML views and JSON views. Defines the XML, HTML or JSON string representation of the view definition. If `viewName` and `definition` are given, the `viewName` property is used to load the view definition.
 
 -   `Controller`: Any controller instance; the given controller instance overrides the controller defined in the view definition
 

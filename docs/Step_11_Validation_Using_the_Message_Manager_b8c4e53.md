@@ -68,7 +68,7 @@ sap.ui.require([
 		// Display the XML view called "App"
 *HIGHLIGHT START*		var oView *HIGHLIGHT END*= new XMLView({
 			viewName: "sap.ui.demo.db.view.App"
-		});
+		}).placeAt("content");
 
 *HIGHLIGHT START*		// Register the view with the message manager
 		sap.ui.getCore().getMessageManager().registerObject(oView, true);
