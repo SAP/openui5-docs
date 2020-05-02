@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 10: Property Formatting Using Data Types
 
-OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date` and `Float`. These data types can then be applied to controls in order to ensure that the value presented on the screen is formatted correctly, and, if the field is open for input, that the value entered by the user adheres to the requirements of that data type. We will now add a new field called *Sales to Date* of type `Currency`.
+OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date` and `Float`. These data types can then be applied to controls in order to ensure that the value presented on the screen is formatted correctly, and, if the field is open for input, that the value entered by the user adheres to the requirements of that data type. We will now add a new field called *Sales Amount* of type `Currency`.
 
 ***
 
@@ -18,9 +18,9 @@ OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date
 
    
   
-New *Sales to Date* input field <a name="loio9252ee4015f24fc49c71c295394d1b8d__fig_r1j_pst_mr"/>
+New *Sales Amount* input field <a name="loio9252ee4015f24fc49c71c295394d1b8d__fig_r1j_pst_mr"/>
 
- ![](loiod15f8bc61efe47d9af2afdeea943cd9c_HiRes.png "New Sales to Date input field ") 
+ ![](loiod15f8bc61efe47d9af2afdeea943cd9c_HiRes.png "New Sales Amount input field ") 
 
 ***
 
@@ -52,8 +52,8 @@ sap.ui.require([
 				zip: "69190",
 				country: "Germany"
 			}*HIGHLIGHT START*,
-			"salesToDate" : 12345.6789,
-			"currencyCode" : "EUR"
+			salesAmount: 12345.6789,
+			currencyCode: "EUR"
 *HIGHLIGHT END*
 		});
 
@@ -75,7 +75,7 @@ sap.ui.require([
 
 ```
 
-We create two new model properties `salesToDate` and `currencyCode`.
+We create two new model properties `salesAmount` and `currencyCode`.
 
 ***
 
@@ -109,11 +109,11 @@ We create two new model properties `salesToDate` and `currencyCode`.
 						text="{i18n>sendEmail}"/>
 *HIGHLIGHT START*				</l:VerticalLayout>
 				<l:VerticalLayout>
-					<Label text="{i18n>salesToDate}:" class="sapUiSmallMargin"/>
+					<Label text="{i18n>salesAmount}:" class="sapUiSmallMargin"/>
 					<Input width="200px" enabled="{/enabled}" description="{/currencyCode}"
 						value="{
 							parts: [
-								{path: '/salesToDate'},
+								{path: '/salesAmount'},
 								{path: '/currencyCode'}
 							],
 							type: 'sap.ui.model.type.Currency',
@@ -126,7 +126,7 @@ We create two new model properties `salesToDate` and `currencyCode`.
 </mvc:View>
 ```
 
-A new pair of `Label` and `Input` elements have been created for the `salesToDate` model property. The description property of the `Input` element has been bound to the `currencyCode` model property. The value property of the `Input` element has been bound to the model properties `salesToDate` and `currencyCode`. The `{showMeasure: false}` parameter switches off the display of the currency symbol within the input field itself. This is not needed because it is being displayed using the `Input` element's description property.
+A new pair of `Label` and `Input` elements have been created for the `salesAmount` model property. The description property of the `Input` element has been bound to the `currencyCode` model property. The value property of the `Input` element has been bound to the model properties `salesAmount` and `currencyCode`. The `{showMeasure: false}` parameter switches off the display of the currency symbol within the input field itself. This is not needed because it is being displayed using the `Input` element's description property.
 
 ***
 
@@ -138,7 +138,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Enabled
 address=Address
-*HIGHLIGHT START*salesToDate=Sales to Date*HIGHLIGHT END*...
+*HIGHLIGHT START*salesAmount=Sales Amount*HIGHLIGHT END*...
 ```
 
 ***
@@ -151,7 +151,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Aktiviert
 address=Adresse
-*HIGHLIGHT START*salesToDate=Verk\\u00e4ufe bis zum heutigen Datum*HIGHLIGHT END*
+*HIGHLIGHT START*salesAmount=Verk\\u00e4ufe bis zum heutigen Datum*HIGHLIGHT END*
 ...
 ```
 

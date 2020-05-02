@@ -106,9 +106,9 @@ sap.ui.require([
 				zip: "69190",
 				country: "Germany"
 			},
-			"salesToDate": 12345.6789,
-*HIGHLIGHT START*			"priceThreshold": 20,*HIGHLIGHT END*
-			"currencyCode": "EUR"
+			salesAmount: 12345.6789,
+*HIGHLIGHT START*			priceThreshold: 20,*HIGHLIGHT END*
+			currencyCode: "EUR"
 		});
 
 		// Assign the model object to the SAPUI5 core
@@ -123,7 +123,7 @@ sap.ui.require([
 		// Display the XML view called "App"
 		var oView = new XMLView({
 			viewName: "sap.ui.demo.db.view.App"
-		}).placeAt("content");
+		});
 
 		// Register the view with the message manager
 		sap.ui.getCore().getMessageManager().registerObject(oView, true);

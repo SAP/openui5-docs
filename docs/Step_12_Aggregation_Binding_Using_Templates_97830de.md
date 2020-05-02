@@ -64,8 +64,8 @@ sap.ui.require([
 				zip: "69190",
 				country: "Germany"
 			},
-			"salesToDate": 12345.6789,
-			"currencyCode": "EUR"
+			salesAmount: 12345.6789,
+			currencyCode: "EUR"
 		});
 
 		// Assign the model object to the SAPUI5 core
@@ -101,7 +101,7 @@ sap.ui.require([
 					<Input width="200px" enabled="{/enabled}" description="{/currencyCode}"
 						value="{
 							parts: [
-								{path: '/salesToDate'},
+								{path: '/salesAmount'},
 								{path: '/currencyCode'}
 							],
 							type: 'sap.ui.model.type.Currency',

@@ -52,8 +52,8 @@ sap.ui.require([
 				zip: "69190",
 				country: "Germany"
 			},
-			"salesToDate": 12345.6789,
-			"currencyCode": "EUR"
+			salesAmount: 12345.6789,
+			currencyCode: "EUR"
 		});
 
 		// Assign the model object to the SAPUI5 core
@@ -68,7 +68,7 @@ sap.ui.require([
 		// Display the XML view called "App"
 *HIGHLIGHT START*		var oView *HIGHLIGHT END*= new XMLView({
 			viewName: "sap.ui.demo.db.view.App"
-		}).placeAt("content");
+		});
 
 *HIGHLIGHT START*		// Register the view with the message manager
 		sap.ui.getCore().getMessageManager().registerObject(oView, true);
@@ -90,7 +90,7 @@ The changes to the coding are minimal:
 -   Once registered, the XML view is then inserted into the DOM as before.
 
 
-You can now enter a non-numeric value into the *Sales To Date* field and either press *Enter* or move the focus to a different UI control. This action triggers either the `onenter` or `onchange` event and then OpenUI5 executes the validation function belonging to the `sap.ui.model.type.Currency` data type.
+You can now enter a non-numeric value into the *Sales Amount* field and either press *Enter* or move the focus to a different UI control. This action triggers either the `onenter` or `onchange` event and then OpenUI5 executes the validation function belonging to the `sap.ui.model.type.Currency` data type.
 
 Now that the view has been registered with the `MessageManager`, any validation error messages will be picked up by the `MessageManager`, which in turn checks its list of registered objects and then passes the error message back to the correct view for display.
 
