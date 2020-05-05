@@ -27,9 +27,9 @@ The following table provides an overview of the two main types of card controls 
 Overview of Cards and Supported Features<a name="loio5b46b03f024542ba802d99d67bc1a3f4__table_uzb_zmy_vs"/>
 
 | **Feature Supported** |\(Integration Card\) **`[sap.ui.integration.widgets.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card)`** |\(Freestyle Card\) **`[sap.f.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card)`** |
-|Analytical, List, Object, Table, and Timeline cards|Component card|
+|Adaptive, Analytical, List, Object, Table, and Timeline cards|Component card|
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-|---------------------------------------------------|--------------|
+|-------------------------------------------------------------|--------------|
 | **Fiori 3 card UX** | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 | **Cross product integration** | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 | **Cross HTML product integration** | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
@@ -87,6 +87,10 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td>Adaptive card \(Experimental\)</td>
+			<td>Used to visualize and reuse cards that are created using the Microsoft Adaptive Cards specification and manifest.</td>
+		</tr>
 		<tr>
 			<td>Analytical card<sup>1</sup></td>
 			<td>Used for data visualization. Typically, it is defined by a numeric header and analytical data content. For example, chart types, such as line chart, donut chart, \(stacked\) column chart, \(stacked\) bar chart. For more information on the analytical card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/analytical-card/).</td>

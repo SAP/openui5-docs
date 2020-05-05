@@ -112,7 +112,7 @@ The code sample below shows the parts of a [Descriptor for Applications, Compone
 
 ### Data Access
 
-The OData V4 model only supports data access using bindings. It does not provide any direct access to the data. For more information, see [Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md). One exception is [sap.ui.model.odata.v4.Context\#setProperty](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.model.odata.v4.Context/methods/setProperty). It allows to update a property without using a property binding, even without reading the data first.
+The OData V4 model only supports data access using bindings. It does not provide any direct access to the data. For more information, see [Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md). One exception is [sap.ui.model.odata.v4.Context\#setProperty](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.model.odata.v4.Context/methods/setProperty). It allows to update a property without using a property binding, even without reading the data first. You can create bindings that are independent of controls. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).
 
 ***
 

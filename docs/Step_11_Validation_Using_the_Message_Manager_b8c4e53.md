@@ -20,7 +20,7 @@ So far, we have created a currency field that can format itself correctly. The c
   
 A message appears<a name="loiob8c4e534cdb440e9a5bbff86f9572bd6__fig_r1j_pst_mr"/>
 
- ![](loio418c4f74dae54878bda198882046a455_HiRes.png "A message appears") 
+ ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears") 
 
 ***
 

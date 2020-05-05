@@ -36,20 +36,21 @@ The following tables give a general overview of the browsers, platforms, and ref
 > 
 > 
 
-|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(EdgeHTML\)<sup>1</sup>|Microsoft Edge \(Chromium\)<sup>2</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
+|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(EdgeHTML\)<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
 |--------|---------------|----------------|------|--------|-----------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
-|Windows|Desktop|Windows 8.1|-|-|Version 11<sup>4</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>3</sup>|-|
+|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
 |Windows 10|-|Latest version|Latest 2 versions|Latest version|-|
-|Touch<sup>5</sup>|Windows 10|-|Latest version|Version 11<sup>4</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
-|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>5</sup>|-|-|
-|iOS|Phone and Tablet<sup>5</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
-|Android|Phone and Tablet<sup>5</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
+|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
+|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>6</sup>|-|-|
+|iOS|Phone and Tablet<sup>6</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
+|Android|Phone and Tablet<sup>6</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
 
-1\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\).  
- 2\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
- 3\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
- 4\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
- 5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
+ 2\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\).  
+ 3\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
+ 4\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
+ 5\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
+ 6\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***
@@ -99,7 +100,7 @@ When creating support incidents, make sure that the device you refer to belongs 
 
     -   Internet Explorer 11 \(IE11\) provides specific document and enterprise modes for compatibility reasons. OpenUI5 supports only the IE11 document mode. For backward compatibility, IE11 allows to enable a special enterprise mode that can simulate either an IE8 or IE7 within an IE11, which is NOT supported for OpenUI5 apps. This functionality should be used only for critical apps that require an older browser version to run. For more information, see "[Fix web compatibility issues using document modes and the Enterprise Mode site list](https://technet.microsoft.com/itpro/internet-explorer/ie11-deploy-guide/fix-compat-issues-with-doc-modes-and-enterprise-mode-site-list)" in the Microsoft Windows IT Center.
 
-    -   The PhantomJS browser is not supported. If you are using it for testing purposes, make sure that you use version 2.x or higher. Otherwise you may get an error message, such as "TypeError: 'undefined' is not a function \(evaluating 'f.bind\(null,undefined\)'\)\(line 146\)".
+    -   The PhantomJS browser is not supported.
 
     -   `sap.ui.core`, `sap.ui.layout`, `sap.ui.unified` are basic libraries, supporting all platforms or browsers that are supported by any of the other libraries.
 

@@ -106,60 +106,56 @@ sap.ui.getCore().loadLibrary("sap.suite.ui.commons", { async: true }).then(...);
 
 **Scenario 2:** Standalone component
 
-In this scenario, you only maintain a dependency to the component. The component preload is available for this scenario:
+In this scenario, you only need to maintain a dependency to the component via the `sap.ui5/componentUsages` section of your component's`manifest.json` file. You have two ways to configure reuse components:
 
--   To benefit from the asynchronous components preload, add the mandatory components to `sap.ui5/dependencies/components`
+-   Add the **mandatory** components to `sap.ui5/componentUsages`. The declared components will be preloaded asynchronously by default.
 
--   Add the **optional** components to `sap.ui5/dependencies/components` and flag them as `lazy`.
+-   Add the **optional** components to `sap.ui5/componentUsages` **and** flag them as `lazy`. They will not be preloaded, but can still be loaded and instantiated at a later time.
 
 
 For applications and components, modify the `manifest.json` as follows:
 
-```
+``` json
 "sap.ui5": {
-    ...
-    "dependencies": {
-      ...
-      "libs": {
-        ...
-      },
-      "components": {
-        "samples.components.sample": {},
-        "samples.components.samplelazy": {
-          "lazy": true
-        }
-        ...
-      }
-    },
-    ...
+	...
+	"componentUsages": {
+		"myReuseComponent": {
+			"name": "sap.reuse.component",
+			"lazy": true
+		}
+	},
+	...
+}
+```
+
+For loading and instantiating \(lazy\) standalone components, use the `createComponent` factory functions provided on instances of the `sap.ui.core.Component` class:
+
+``` js
+// this = an instance of sap.ui.core.Component
+
+// Asynchronously (default) creates a new component instance.
+// The given name parameter has to correspond to an entry in the "sap.ui5/componentUsages" section of the manifest.json.
+
+var oReuseComponentPromise = this.createComponent("myReuseComponent");
+
 
 ```
 
-For loading/instantiating the lazy standalone components, use the component factory functions:
+The full list of options for the `createComponent` factory method can be found in the [API Reference: `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/createComponent). 
 
-```
-// "Component" required from module "sap/ui/core/Component"
-
-// Asynchronously loads a component class without instantiating it.
-Component.load({
-  name: "..."
-}).then(function(ComponentClass) {
-  ...
-});
-
-// Asynchronously creates a new component instance from the given configuration.
-// If necessary the component class is loaded.
-Component.create({
-  name: "..."
-}).then(function(oComponentInstance) {
-  ...
-});
-```
+> Note:
+> As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
+> 
+> For more information, see: [Using and Nesting Components](Using_and_Nesting_Components_346599f.md). This includes information how to migrate your component declarations from the old `sap.ui5/dependencies/components` section to the modern `sap.ui5/componentUsages` section of your `manifest.json`.
+> 
+> 
 
 **Related information**  
 
 
-[loadLibrary](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/loadLibrary.html)
+[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
 
-[Component](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/overview.html)
+[API Reference: `loadLibrary`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core%23methods/loadLibrary)
+
+[API Reference: `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component)
 

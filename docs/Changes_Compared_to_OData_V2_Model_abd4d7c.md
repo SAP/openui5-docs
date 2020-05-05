@@ -65,6 +65,26 @@ These differences will therefore remain even after all features have been implem
  > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this. You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.AnnotationHelper.html).
 			</td>
 		</tr>
+		<tr>
+			<td>The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly.</td>
+			<td>For more information, see [Type Determination](Type_Determination_53cdd55.md).
+
+ > Note:
+ > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', formatter : '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType : 'any'` as follows:
+ > ``` xml
+ > <Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', targetType : 'any', formatter : '.isOverdue'}">
+ > ```
+
+ > Note:
+ > A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
+ > ``` xml
+ > <SimpleForm binding="{/BusinessPartnerList('42')}">
+ >   <Label text="Phone number list" />
+ >   <Text text="{path : 'BP_2_CONTACT', mode : 'OneTime', targetType : 'any', formatter : '.formatPhoneNumbersAsCSV'}" />
+ > </SimpleForm>
+ > ```
+			</td>
+		</tr>
 	</tbody>
 </table>
 
