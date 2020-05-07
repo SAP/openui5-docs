@@ -279,13 +279,6 @@ text="Hello {=${gender}==='male' ? 'Mr.' : 'Mrs.'} {lastName}"
 
 ``` xml
 
-<!-- Control such as a button in the toolbar of a table is 
-enabled only if there are items in the table. -->
-enabled="{= ${/items}.length>0 }"
-```
-
-``` xml
-
 <!-- Set text by using a composite binding that combines
 several values in a formatter defined by a parameterized
 entry of an i18n language resource. -->

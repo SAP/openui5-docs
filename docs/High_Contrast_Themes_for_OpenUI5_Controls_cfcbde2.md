@@ -62,7 +62,7 @@ You can switch on the High Contrast White theme by appending the `sap-ui-theme=s
 > 
 
 > Note:
-> Have in mind that OpenUI5 is not optimised for the high contrast mode of Windows. You will have to enable the HCB or HCW theme as described above.
+> Have in mind that OpenUI5 is not optimised for the high contrast mode of Windows. You will have to enable the HCB or HCW theme as described above. Оccasionally, if you have enabled both the Windows contrast setting and the OpenUI5 high contrast theme, this may cause conflicts and deficiencies in the theme can occur. In such cases, please switch off the Windows setting.
 > 
 > 
 

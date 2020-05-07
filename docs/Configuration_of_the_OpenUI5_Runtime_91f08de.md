@@ -10,11 +10,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Configuration of the OpenUI5 Runtime
 
-OpenUI5 provides several options for the configuration of the OpenUI5 runtime, such as runtime default values and script tag attributes.
+OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.
 
-When the OpenUI5 bootstrap script is included in a page, the OpenUI5 runtime will automatically be initialized as soon as the script is loaded and executed by the browser. For simple use cases and for a default OpenUI5 installation, this should already be sufficient to build and run UIs. The only additional information that usually is specified, is the set of libraries and the theme that is used.
+When the OpenUI5 bootstrap script is included in a page, the OpenUI5 runtime will automatically be initialized as soon as the script is loaded and executed by the browser. For simple use cases and for a default OpenUI5 installation, this should already be sufficient to build and run UI5 applications. The only additional information that usually needs to be specified is the set of libraries and the theme to be used.
 
-So a typical bootstrap script looks like this:
+A typical bootstrap script looks like this:
 
 ``` html
 <script id="sap-ui-bootstrap"
@@ -28,21 +28,127 @@ So a typical bootstrap script looks like this:
 
 For more information see [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md).
 
-You can use the following ways to provide configuration information.
+You can provide additional configuration information in the following ways:
 
 ***
 
-### Default Values
+<a name="loio91f08de06f4d1014b6dd926db0e91070__section_j1g_zkg_plb"/>
 
-The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, you don't specify it.
+### Available Configuration Options
+
+UI5 supports 7 different possibilities to provide values for the available configuration parameters. Options 2 to 5 are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
+
+1.  Effective framework default values
+2.  Server-wide defaults, read from `sap-ui-config.json`
+
+    This option is activated by setting `window["sap-ui-config"]` to an arbitrary string value.
+
+3.  Properties of the Global Configuration Object `window["sap-ui-config"]`
+4.  A configuration string in the `data-sap-ui-config` attribute of the bootstrap tag
+5.  Individual `data-sap-ui-xyz` attributes of the bootstrap tag
+6.  URL parameters
+
+    > Note:
+    > Additional `<meta>` tags are evaluated after URL parameters, if not stated otherwise. Please see the overall list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for the parameters which can be defined via `<meta>` tags.
+    > 
+    > 
+
+7.  Setters in this Configuration Object \(only for some parameters\)
+
+Please have a look at the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for a description of each configuration option, including the available ways to set input values. The following subsections will describe these possibilities in more detail.
 
 ***
 
-### Individual Script Tag Attributes
+<a name="loio91f08de06f4d1014b6dd926db0e91070__section_z1g_zkg_plb"/>
 
-For each configuration option, you can have one attribute in the bootstrap script tag.
+### Setting Configuration Values
 
-The attributes have to provide the following information:
+***
+
+#### \[1\] Effective Default Values
+
+The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, simply don't specify it.
+
+The effective default values can be found either in the API reference or in the de
+
+***
+
+#### \[2\] `sap-ui-config.json` \(deprecated\)
+
+This option is activated by setting `window["sap-ui-config"]` to an arbitrary string value.
+
+> Note:
+> The usage of a `sap-ui-config.json` file is deprecated. Please use one of the other available configuration options.
+> 
+> 
+
+***
+
+#### \[3\] Global Configuration Object
+
+The Global Configuration Object is a property in the global `window` object with property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
+
+To avoid conflicts with typical JavaScript coding, the name of the `window` property is not a valid JavaScript identifier. The name structure is chosen to avoid conflicts with SAP objects. To define the object, quotes must be used. If a configuration option has a name that is not a valid JavaScript identifier or that is a reserved token in JavaScript, the property name in the configuration object must be quoted. Currently, such a configuration option does **not** exist.
+
+As the configuration is evaluated during bootstrap, the configuration object must be created **before** OpenUI5 is bootstrapped. Otherwise, the contained configuration cannot be evaluated. As a consequence, using the global configuration object requires another script tag in front of the bootstrap script tag. It is up to the application whether it uses an inline script tag or a separate JavaScript file, which is loaded via a script tag, for this purpose. If you use a dedicated file, it may require more work initially, but offers the following advantages:
+
+-   Several pages can share the file and, thus, use the same configuration.
+
+-   The Content Security Policy \(CSP\) mechanism as introduced, for example, by Firefox 4.0 and others requires the use of a file.
+
+
+The following code snippet shows an example for an inline script tag:
+
+``` html
+<script type="text/javascript">
+            window["sap-ui-config"] = {
+			theme : "sap_belize",
+			libs : "sap.m",
+            };
+</script>
+<script id="sap-ui-bootstrap" 
+            src="resources/sap-ui-core.js">
+</script>
+```
+
+This option requires an additional script or script tag, but it offers the following advantages:
+
+-   Possibility to share configuration between pages
+
+-   Can be used in environments where the scrip tag cannot be influenced, for example, because it is created out of some configuration, like in some mashup frameworks
+
+-   Allows to provide configuration before the core boots
+
+
+***
+
+#### \[4\] Configuration String in the `data-sap-ui-config` Attribute
+
+The bootstrap attribute `data-sap-ui-config` enables you to provide a single attribute with the configuration information for the OpenUI5 runtime.
+
+You can use this attribute instead of attaching individual options with individual configuration attributes to the script tag. Its content is similar to the Global Configuration Object but without the enclosing parentheses: It is a comma-separated list of key-value pairs.
+
+> Note:
+> The usual HTML escape mechanisms must be used if the value contains specific HTML characters \(<, \>, &\) or the quote character that is used to enclose the attribute value.
+> 
+> 
+
+``` html
+<script id="sap-ui-bootstrap"
+	type="text/javascript"
+	src="resources/sap-ui-core.js"
+	data-sap-ui-config="
+		theme:'sap_belize',
+		libs:'sap.m'
+	">
+</script>
+```
+
+***
+
+#### \[5\] Individual Script Tag Attributes
+
+For each configuration option, you can have one attribute in the bootstrap script tag. These attributes must provide the following information:
 
 -   Attribute name
 
@@ -66,78 +172,15 @@ The attributes have to provide the following information:
 
     |Type|Notation/Values|
     |----|---------------|
-    |`string`|String; escaped according to the HTML conventions|
     |`boolean`|`true` and `x` are both accepted as true values \(case-insensitive\), all others are false. We recommend to use `false` for false values|
     |`int`|Any integer value|
-    |`string array`|Comma-separated list of values; comma is not supported in the values \(no escaping\)|
+    |`string array`|Comma-separated list of values; commas within a string are not supported \(no escaping\)|
     |map from string to string|JavaScript object literal \(preferably JSON syntax\)|
 
 
 ***
 
-### Single and Complex Configuration Attributes
-
-The attribute `data-sap-ui-config` makes it possible to provide a single attribute with the configuration information for the OpenUI5 runtime.
-
-You can use this attribute instead of attaching individual options with individual configuration attributes to the script tag. Its content is similar to the global configuration object, but without the enclosing parenthesis: It is a comma separated list of key-value pairs.
-
-> Note:
-> The usual HTML escape mechanisms must be used if the value contains specific HTML characters \(<, \>, &\) or the quote character that is used to enclose the attribute value.
-> 
-> 
-
-``` html
-<script id="sap-ui-bootstrap"
-	type="text/javascript"
-	src="resources/sap-ui-core.js"
-	data-sap-ui-config="theme:'sap_belize',
-	libs:'sap.m'"
-	>
-</script>
-```
-
-***
-
-### Global Configuration Objects
-
-The global configuration object is a property in the global `window` object with property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
-
-To avoid conflicts with typical JavaScript coding, the name of the `window` property is not a valid JavaScript identifier. The name structure is chosen to avoid conflicts with SAP objects. To define the object, quotes must be used. If a configuration option has a name that is not a valid JavaScript identifier or that is a reserved token in JavaScript, the property name in the configuration object must be quoted. Currently, such a configuration option does **not** exist.
-
-As the configuration is evaluated during bootstrap, the configuration object must be created **before** OpenUI5 is bootstrapped. Otherwise, the contained configuration cannot be evaluated. As a consequence, using the global configuration object requires another script tag in front of the bootstrap script tag. It is up to the application whether it uses an inline script tag or a separate JavaScript file, which is loaded via a script tag, for this purpose. If you use a dedicated file, it may require more work initially, but offers the following advantages:
-
--   Several pages can share the file and, thus, use the same configuration.
-
--   The Content Security Policy \(CSP\) mechanism as introduced, for example, by Firefox 4.0 and others requires the use of a file.
-
-
-The following code snippet shows an example for an inline script tag:
-
-``` html
-<script type="text/javascript">
-            window["sap-ui-config"] = {
-			theme : "sap_belize",
-			libs : "sap.m",
-            };
-</script>
-<script id="sap-ui-bootstrap" 
-            src="resources/sap-ui-core.js"
-		>
-</script>
-```
-
-This option requires an additional script or script tag, but it offers the following advantages:
-
--   Possibility to share configuration between pages
-
--   Can be used in environments where the scrip tag cannot be influenced, for example, because it is created out of some configuration, like in some mashup frameworks
-
--   Allows to provide configuration before the core boots
-
-
-***
-
-### URL Parameters
+#### \[6\] URL Parameters
 
 Configuration parameters can be added to the URL of an app.
 
@@ -154,22 +197,11 @@ For security reasons, only some configuration options can be set via URL paramet
 
 ***
 
-### Runtime Configuration Object
+#### \[7\] Runtime Configuration Object
 
-The runtime configuration object enables you to modify a limited set of configuration options at runtime.
+The Runtime Configuration Object enables you to modify a limited set of configuration options at runtime.
 
 The configuration options above are evaluated during the OpenUI5 runtime boots. After that, all changes to these parameters are ignored. To read the final configuration result, you can use the `sap.ui.getCore().getConfiguration()` method.
 
-The same object also provides set methods for a very limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent \(and so far only\) example for such a configuration option is the theme.
-
-***
-
-### Order of Significance
-
-1.  Attributes of the DOM reference override the system defaults.
-
-2.  URL parameters override the DOM attributes; empty URL parameters reset the parameter to its system default.
-
-3.  If you call setters at runtime, any previous settings calculated during object creation are overwritten with the new value.
-
+The same object also provides `set` methods for a very limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent \(and so far only\) example for such a configuration option is the`theme`.
 

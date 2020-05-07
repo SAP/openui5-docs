@@ -72,15 +72,27 @@ These differences will therefore remain even after all features have been implem
  > Note:
  > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', formatter : '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType : 'any'` as follows:
  > ``` xml
- > <Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', targetType : 'any', formatter : '.isOverdue'}">
+ > <Icon 
+ > 	src="sap-icon://message-warning" 
+ > 	visible="{
+ > 		path : 'DeliveryDate', 
+ > 		targetType : 'any', 
+ > 		formatter : '.isOverdue'
+ > 	}"/>
  > ```
 
  > Note:
  > A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
  > ``` xml
  > <SimpleForm binding="{/BusinessPartnerList('42')}">
- >   <Label text="Phone number list" />
- >   <Text text="{path : 'BP_2_CONTACT', mode : 'OneTime', targetType : 'any', formatter : '.formatPhoneNumbersAsCSV'}" />
+ > 	<Label text="Phone number list"/>
+ > 	<Text
+ > 		text="{
+ > 			path : 'BP_2_CONTACT', 
+ > 			mode : 'OneTime', 
+ > 			targetType : 'any', 
+ > 			formatter : '.formatPhoneNumbersAsCSV'
+ > 		}"/>
  > </SimpleForm>
  > ```
 			</td>
