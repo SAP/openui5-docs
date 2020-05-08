@@ -104,7 +104,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 ```
 
  |
-| `sapui5/routing/config/async` |V4 \(1.34\)|General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do *HIGHLIGHT START*not*HIGHLIGHT END* rely on any sync-execution depending event-orders.| ```
+| `sap.ui5/routing/config/async` |V4 \(1.34\)|General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do *HIGHLIGHT START*not*HIGHLIGHT END* rely on any sync-execution depending event-orders.| ```
 "sap.ui5": {
    "_version": "1.2.0",
    ...
@@ -145,7 +145,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			</td>
 		</tr>
 		<tr>
-			<td> `sapui5/routing/config/async` </td>
+			<td> `sap.ui5/routing/config/async` </td>
 			<td>V4 \(1.34\)</td>
 			<td>General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do **not** rely on any sync-execution depending event-orders.</td>
 			<td> 
@@ -180,6 +180,71 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 ```
 			</td>
 		</tr>
+		<tr>
+			<td> `sap.ui5/routing/routes/target` </td>
+			<td>V6 \(1.42\)</td>
+			<td>Allows to define titles declaratively in the configuration \(`title` under `targets/<target>` and `titleTarget` under `routes/<route>`\), see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) </td>
+			<td> 
+
+```
+{
+	...,
+	"routes": [{
+		"pattern": "product/{id}/parts",
+		"name": "ProductParts",
+			"target": ["product", "productParts"],
+		"titleTarget": "productParts"
+
+	}],
+	"targets": {
+		"product": {
+			"viewPath": "shop.products",
+			"viewName": "Product",
+			"title": "Product"
+		},
+		"productParts": {
+			"viewPath": "shop.products",
+			"viewName": "Product",
+			"title": "Product Parts"
+		}
+	},
+	...
+}
+```
+			</td>
+		</tr>
+		<tr>
+			<td> `sap.ui5/componentUsages` </td>
+			<td>V8 \(1.48\)</td>
+			<td>Specifies the used components with the a unique key/alias. Contains the following:
+
+ -   `name`: Mandatory name of the reuse component
+ -   `settings`: Settings of the component
+
+ -   `componentData`: Component data of the component
+
+ -   `lazy`: Indicates whether the component usage should be lazily loaded. Default value: `true`
+			</td>
+			<td> For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md) </td>
+ 
+
+```
+{
+...
+	"componentUsages": {
+		"myusage": {
+			"name": "my.used",
+			"settings": {},
+			"componentData": {}
+		}
+	},
+...
+}
+```
+			</td>
+		</tr>
+		<tr>
+			<td>V10 \(1.52\)</td>
 	</tbody>
 </table>
 
