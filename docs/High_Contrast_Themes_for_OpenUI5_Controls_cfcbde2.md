@@ -39,12 +39,12 @@ Currently, the following libraries support the high contrast themes:
 
 ### Switching on the HCB theme
 
-You can switch on the High Contrast Black theme by appending the `sap-ui-theme=sap_belize_hcb` URL parameter as in the following example.
+You can switch on the High Contrast Black theme by appending the `sap_fiori_3_hcb` URL parameter as in the following example.
 
 > Note:
 > HCB Theme Enablement
 > 
-> `http://<hostname>:<port>...?<parameter>=<value>&...&**sap-ui-theme=sap\_belize\_hcb**`
+> `http://<hostname>:<port>...?<parameter>=<value>&...&**sap\_fiori\_3\_hcb**`
 > 
 > 
 
@@ -52,12 +52,12 @@ You can switch on the High Contrast Black theme by appending the `sap-ui-theme=s
 
 ### Switching on the HCW theme
 
-You can switch on the High Contrast White theme by appending the `sap-ui-theme=sap_belize_hcw` URL parameter as in the following example.
+You can switch on the High Contrast White theme by appending the `sap_fiori_3_hcw` URL parameter as in the following example.
 
 > Note:
 > HCW Theme Enablement
 > 
-> `http://<hostname>:<port>...?<parameter>=<value>&...&**sap-ui-theme=sap\_belize\_hcw**`
+> `http://<hostname>:<port>...?<parameter>=<value>&...&**sap\_fiori\_3\_hcw**`
 > 
 > 
 
