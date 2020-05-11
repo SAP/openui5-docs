@@ -66,3 +66,8 @@ You can switch on the High Contrast White theme by appending the `sap_fiori_3_hc
 > 
 > 
 
+**Related information**  
+
+
+[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
+
