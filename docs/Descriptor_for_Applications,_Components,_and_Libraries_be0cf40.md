@@ -529,7 +529,7 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 		</tr>
 		<tr>
 			<td> `flexEnabled` </td>
-			<td>Determines whether the app is enabled for adaptation flex enabled \(for example, using stable IDs\); possible values are `true`, `false` or `undefined` \(default\)</td>
+			<td>Indicates whether the app is enabled for adaptation via SAPUI5 flexibility \(for example, using stable IDs\); possible values are `true`, `false` or `undefined` \(default\)</td>
 		</tr>
 		<tr>
 			<td> `commands` </td>
@@ -537,6 +537,10 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
  -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
 			</td>
+		</tr>
+		<tr>
+			<td> `flexExtensionPointEnabled` </td>
+			<td>Indicates whether SAPUI5 flexibility extension points are enabled for the corresponding application variant; possible values are: `true`, `false`; filled automatically during app variant merge.</td>
 		</tr>
 	</tbody>
 </table>
@@ -607,7 +611,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.21.0",
+    "_version": "1.22.0",
  
     "start_url": "index.html",
  
@@ -842,7 +846,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.77.0",
+            "minUI5Version": "1.78.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
@@ -925,6 +929,7 @@ Current version of the `manifest.json`
             "i18n": true
         },
                 "flexEnabled": true,
+                "flexExtensionPointEnabled": true,
         "commands": {
             "Save": {
                 "shortcut": "Ctrl+S"
