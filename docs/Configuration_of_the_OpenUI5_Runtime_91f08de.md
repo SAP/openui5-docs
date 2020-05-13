@@ -36,14 +36,14 @@ You can provide additional configuration information in the following ways:
 
 ### Available Configuration Options
 
-UI5 supports 7 different possibilities to provide values for the available configuration parameters. Options 2 to 5 are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
+UI5 supports 7 different possibilities to provide values for the available configuration parameters. Options 2 to 5 require you to provide them **before** the application boots up \(in pre-boot\). They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
 
 1.  Effective framework default values
 2.  Server-wide defaults, read from `sap-ui-config.json`
 
     This option is activated by setting `window["sap-ui-config"]` to an arbitrary string value.
 
-3.  Properties of the Global Configuration Object `window["sap-ui-config"]`
+3.  Properties of the global configuration object `window["sap-ui-config"]`
 4.  A configuration string in the `data-sap-ui-config` attribute of the bootstrap tag
 5.  Individual `data-sap-ui-xyz` attributes of the bootstrap tag
 6.  URL parameters
@@ -86,7 +86,7 @@ This option is activated by setting `window["sap-ui-config"]` to an arbitrary st
 
 #### \[3\] Global Configuration Object
 
-The Global Configuration Object is a property in the global `window` object with property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
+The global configuration object is a property in the global `window` object with property name `sap-ui-config`. The property must be a simple object, where each property represents the configuration option of the corresponding name.
 
 To avoid conflicts with typical JavaScript coding, the name of the `window` property is not a valid JavaScript identifier. The name structure is chosen to avoid conflicts with SAP objects. To define the object, quotes must be used. If a configuration option has a name that is not a valid JavaScript identifier or that is a reserved token in JavaScript, the property name in the configuration object must be quoted. Currently, such a configuration option does **not** exist.
 
@@ -199,9 +199,9 @@ For security reasons, only some configuration options can be set via URL paramet
 
 #### \[7\] Setters on the `sap.ui.core.Configuration` class
 
-The Runtime Configuration Object enables you to modify a limited set of configuration options at runtime.
-
 The configuration options above are evaluated during the OpenUI5 runtime boots. After that, all changes to these parameters are ignored. To read the final configuration result, you can use the `sap.ui.getCore().getConfiguration()` method.
 
-The same object also provides `set` methods on the `sap.ui.core.Configuration` class for a very limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent \(and so far only\) example for such a configuration option is the `theme`.
+The `sap.ui.core.Configuration` class allows you to modify a limited set of configuration options at runtime.
+
+This class also provides `set` methods on the `sap.ui.core.Configuration` class for a very limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent \(and so far only\) example for such a configuration option is the `theme`.
 
