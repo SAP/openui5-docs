@@ -208,31 +208,27 @@ They can be configured in Section `sap.ui5` under `models`:
 ``` json
 "sap.ui5": {
 	"models": {
-        "i18n": {
-            "type": "sap.ui.model.resource.ResourceModel",
-            "settings": {
-                "bundleName": "sap.ui.demo.todo.i18n.i18n",
-                "supportedLocales": ["en", "de"],
-                "fallbackLocale": "en"
-            }
-        }
-    }
-  }
+		"i18n": {
+			"type": "sap.ui.model.resource.ResourceModel",
+			"settings": {
+				"bundleName": "sap.ui.demo.todo.i18n.i18n",
+				"supportedLocales": ["en", "de"],
+				"fallbackLocale": "en"
+			}
+		}
+	}
 }
 ```
 
 With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of `sap.app`:
 
 ``` json
-
-{
-  "sap.app": {
-    "i18n": {
-        "bundleUrl": "i18n/i18n.properties",
-        "supportedLocales": ["en", "de"],
-        "fallbackLocale": "en"
-    }
-  }
+"sap.app": {
+	"i18n": {
+		"bundleUrl": "i18n/i18n.properties",
+		"supportedLocales": ["en", "de"],
+		"fallbackLocale": "en"
+	}
 }
 ```
 

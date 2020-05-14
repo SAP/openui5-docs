@@ -203,5 +203,5 @@ The configuration options above are evaluated during the OpenUI5 runtime boots. 
 
 The `sap.ui.core.Configuration` class allows you to modify a limited set of configuration options at runtime.
 
-This class also provides `set` methods on the `sap.ui.core.Configuration` class for a very limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent \(and so far only\) example for such a configuration option is the `theme`.
+This class also provides `set` methods on the `sap.ui.core.Configuration` class for a limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent example for such a configuration option is the `theme`.
 
