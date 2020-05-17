@@ -661,7 +661,6 @@
             -   [Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md)
         -   [Implementing Animation Modes](Implementing_Animation_Modes_76b7d50.md)
         -   [Implementing Focus Handling](Implementing_Focus_Handling_91f19f0.md)
-            -   [Convenience Functionality](Convenience_Functionality_1f2d73b.md)
         -   [Item Navigation - Supporting Keyboard Handling in List-like Controls](Item_Navigation_-_Supporting_Keyboard_Handling_in_List-like_Controls_91f2032.md)
             -   [Integrating Item Navigation](Integrating_Item_Navigation_7e24524.md)
         -   [Right-to-Left Support in Controls](Right-to-Left_Support_in_Controls_91f2c24.md)

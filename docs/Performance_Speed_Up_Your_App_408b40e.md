@@ -203,7 +203,13 @@ Languages can be configured in your manifest since UI5 version 1.77. The manifes
 -   The `supportedLocales` should contain all languages for which you have i18n files. e.g. a file named `i18n_en.properties` has the locale `en`.
 -   The `fallbackLocale` is the locale loaded before falling back to the root bundle.
 
-They can be configured in Section `sap.ui5` under `models`:
+**Example:** If the following language files exist:
+
+-   `i18n_en.properties` \(English version, `"en"`\)
+-   `i18n_de.properties` \(German version, `"de"`\)
+-   `i18n.properties` \(root bundle, `""`\)
+
+they can be configured in your `manifest.json` in Section `sap.ui5` under `models`:
 
 ``` json
 "sap.ui5": {
@@ -212,7 +218,7 @@ They can be configured in Section `sap.ui5` under `models`:
 			"type": "sap.ui.model.resource.ResourceModel",
 			"settings": {
 				"bundleName": "sap.ui.demo.todo.i18n.i18n",
-				"supportedLocales": ["en", "de"],
+				"supportedLocales": ["en", "de", ""],
 				"fallbackLocale": "en"
 			}
 		}
@@ -220,13 +226,13 @@ They can be configured in Section `sap.ui5` under `models`:
 }
 ```
 
-With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of `sap.app`:
+With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of `sap.app` in your `manifest.json`:
 
 ``` json
 "sap.app": {
 	"i18n": {
 		"bundleUrl": "i18n/i18n.properties",
-		"supportedLocales": ["en", "de"],
+		"supportedLocales": ["en", "de", ""],
 		"fallbackLocale": "en"
 	}
 }

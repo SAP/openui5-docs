@@ -2210,12 +2210,7 @@
 						"link": "Implementing_Animation_Modes_76b7d50.md"
 					},
 					"Implementing Focus Handling": {
-						"link": "Implementing_Focus_Handling_91f19f0.md",
-						"items": {
-							"Convenience Functionality": {
-								"link": "Convenience_Functionality_1f2d73b.md"
-							}
-						}
+						"link": "Implementing_Focus_Handling_91f19f0.md"
 					},
 					"Item Navigation - Supporting Keyboard Handling in List-like Controls": {
 						"link": "Item_Navigation_-_Supporting_Keyboard_Handling_in_List-like_Controls_91f2032.md",

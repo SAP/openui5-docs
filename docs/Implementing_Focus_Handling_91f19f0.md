@@ -69,10 +69,7 @@ sap.m.<SampleControl>.applyFocusInfo = function(oFocusInfo) {
 
 ### API Reference
 
-[sap.ui.core.Element](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Element.html).
+[sap.ui.core.Element](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Element.html)
 
-**Related information**  
-
-
-[Convenience Functionality](Convenience_Functionality_1f2d73b.md)
+[getCurrentFocusedControlId](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getCurrentFocusedControlId)
 
