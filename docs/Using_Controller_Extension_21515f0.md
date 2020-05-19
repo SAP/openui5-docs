@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Using Controller Extension
 
-Controller extensions allow you to add functionality to existing applications. This can be used for extensibility purposes, for example a customer extending SAP-delivered applications, or as a reusable part that is added to the original application.
+Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.
 
 ***
 
