@@ -39,8 +39,8 @@ The following tables give a general overview of the browsers, platforms, and ref
 |Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(EdgeHTML\)<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
 |--------|---------------|----------------|------|--------|-----------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
 |Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
-|Windows 10|-|Latest version|Latest 2 versions|Latest version|-|
-|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
+|Windows<sup>1</sup>|Desktop|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
+|Windows<sup>1</sup>|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
 |macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>6</sup>|-|-|
 |iOS|Phone and Tablet<sup>6</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
 |Android|Phone and Tablet<sup>6</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
@@ -66,9 +66,13 @@ When creating support incidents, make sure that the device you refer to belongs 
 > 
 > 
 
-|Platform|Device|End of Support Date|
-|--------|------|-------------------|
-|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 8|September 2020|
+**iOS**
+
+SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
+
+|Device|End of Support Date|
+|------|-------------------|
+|Apple iPhone 8|September 2020|
 |Apple iPhone X|November 2020|
 |Apple iPhone XS|September 2021|
 |Apple iPhone XR|October 2021|
@@ -80,14 +84,28 @@ When creating support incidents, make sure that the device you refer to belongs 
 |Apple iPad Air \(3rd\)|March 2022|
 |Apple iPad Mini \(5th\)|March 2022|
 |Apple iPad \(7th\)|September 2022|
-|Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S8|April 2020|
+
+**Android**
+
+Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
+
+|Device|End of Support Date|
+|------|-------------------|
+|Samsung Galaxy S8|April 2020|
 |Samsung Galaxy S9|March 2021|
 |Samsung Galaxy S10|March 2022|
 |Samsung Galaxy Tab S3|March 2020|
 |Samsung Galaxy Tab S4|August 2021|
 |Samsung Galaxy Tab S5e|April 2022|
 |Samsung Galaxy Tab S6|August 2022|
-|Windows OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.|Microsoft Surface Pro \(2017\)|June 2020|
+
+**Windows**
+
+OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.
+
+|Device|End of Support Date|
+|------|-------------------|
+|Microsoft Surface Pro \(2017\)|June 2020|
 |Microsoft Surface Pro 6|October 2021|
 |Microsoft Surface Pro 7|October 2022|
 |Microsoft Surface Pro X|November 2022|
