@@ -74,11 +74,18 @@ myCustomScroller.prototype.exit = function() {
 
 ### Interaction with the scroll containers
 
-There are cases, when an embedded control controls scrolling of the parent container, if required. These are
+There are cases, when an embedded control controls scrolling of the parent container, if required:
 
--   a `sap.m.ScrollContainer` inside a `sap.m.Page` may block parent scrolling, if it scrolls in the same direction itself;
--   a `sap.m.TextArea` control in edit mode blocks parent scrolling, so that the user can scroll text contents during input;
--   a `sap.m.GrowingList` control scrolls parent container to update positions of visible items after the new items have been loaded from the server.
+-   `sap.m.ScrollContainer` inside `sap.m.Page` may block parent scrolling, if it scrolls in the same direction itself
+-   `sap.m.TextArea` in edit mode blocks parent scrolling, so that the user can scroll text contents during input
+-   `sap.m.GrowingList` scrolls parent container to update positions of visible items after the new items have been loaded from the server
 
-When using a `sap.m.FlexBox` with `fitContainer:true` or `sap.m.TileContainer` inside a page, the `enableScrolling` property of the page needs to be set to false for the FlexBox or TileContainer to fit the viewport.
+When using `sap.m.FlexBox` with `fitContainer:true` or `sap.m.TileContainer` inside a page, the `enableScrolling` property of the page needs to be set to `false` for the `FlexBox` or `TileContainer` to fit the viewport.
+
+> Note:
+> The scrollbar changes its size and position on scrolling when the lazy loading mechanism is used. This behavior is expected as the scrollbar is dynamically resized when more content is rendered at the moment of scrolling.
+> 
+> For example, when you open a page that uses lazy loading, only the blocks in the visible area of the screen are displayed. So, the more you scroll, the more content is being rendered, which leads to a smaller size of the scrollbar. For more information on lazy loading, see [Object Page Layout](Object_Page_Layout_2e61ab6.md).
+> 
+> 
 

@@ -61,7 +61,7 @@ The files are loaded in the following sequence:
 
 2.  Library style sheet file `/<context-path>/resources/<library-name>/themes/<theme-name>/library.css`
 
-    OpenUI5A standard CSS file that contains all styles relevant for this library. For application development tools, this file is generated automatically during the build.
+    A standard CSS file that contains all styles relevant for this library. For application development tools, this file is generated automatically during the build.
 
 
  <a name="loio91f2c9076f4d1014b6dd926db0e91070 loiobbce44f06ddc48fda7aeb44eae52ebbc__loiobbce44f06ddc48fda7aeb44eae52ebbc"/>

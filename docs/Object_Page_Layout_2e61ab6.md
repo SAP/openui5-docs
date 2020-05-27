@@ -140,8 +140,8 @@ The `subSectionLayout` property provides information on how all the underlying s
   
 Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_c2l_fcr_ncb"/>
 
- ![](loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on
-					Top") 
+ ![](loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+					Displayed on Top") 
 
 Additionally, a second layout named `titleOnLeft` arranges the blocks content from the second column, leaving the first one for section and subsection titles only.
 
@@ -149,8 +149,8 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
   
 Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_s45_fcr_ncb"/>
 
- ![](loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the
-					Left") 
+ ![](loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+					Displayed on the Left") 
 
 Here is how this property is set in the XML view:
 
@@ -206,17 +206,73 @@ The following additional rules are internally applied to display the contents of
 
 <a name="loio2e61ab6c68a2480eb666c1927a707658__section_q1l_f2r_ncb"/>
 
-### Lazy Loading
+### Lazy Loading OpenUI5
 
-The lazy loading mechanism allows you to load data only when the blocks are inside or near the visible area on the screen. This way, you avoid sending too many requests from the start of the page loading.
-
-If you want to use lazy loading, all your blocks must be based on `BlockBase`, otherwise they are loaded as normal OpenUI5 components.
+The lazy loading mechanism allows you to load data only when the subsection blocks are inside or near the visible area on the screen. This way, you avoid sending too many requests from the start of the page loading.
 
 Lazy loading is disabled by default. To enable it, set the `enableLazyLoading` property to `true`:
 
 ``` js
 <ObjectPageLayout id="ObjectPageLayout" *HIGHLIGHT START*enableLazyLoading="true"*HIGHLIGHT END*>
 ```
+
+Next, you have to complete the setup of the blocks. There are two ways to setup lazy loading on the subsection blocks.. For the first one, all your subsection blocks must be based on `BlockBase`, otherwise they are loaded as normal OpenUI5 components. The second one is stashed-based and the content of subsection blocks must we wrapped inside an `ObjectPageLazyLoader`.
+
+Setting up lazy loading with `BlockBase`:
+
+1.  Set the `enableLazyLoading` property to `true`.
+
+2.  Each subsection block has modes and a view associated to each mode. At rendering time, the view associated to the mode is rendered.
+
+3.  Extend `sap.uxap.BlockBase`:
+
+``` js
+*HIGHLIGHT START*sap.uxap.BlockBase.extend*HIGHLIGHT END*("<BlockName>", {
+        metadata: {
+         }
+     });
+```
+
+4.  For each mode, declare its associated view:
+
+``` js
+sap.uxap.BlockBase.extend("<BlockName>", {
+        metadata: {
+            views: {
+                *HIGHLIGHT START*Collapsed: {
+                    viewName: "<collapsedViewName>",
+                    type: "XML"
+                },
+                Expanded: {
+                    viewName: "<expendedViewName>",
+                    type: "XML"
+*HIGHLIGHT END*
+                }
+            }
+         }
+     });
+```
+
+
+Setting up stashed-based lazy loading:
+
+1.  Set the `enableLazyLoading` property to `true`.
+
+2.  Subsection block content must be wrapped inside `ObjectpageLazyLoader`.
+
+3.  The `stashed` property of `ObjectpageLazyLoader` must be set to `true`:
+
+``` js
+<ObjectPageLazyLoader stashed=”true” id=”SectionStashed”>
+```
+
+
+This will unstash the content automatically as the user scrolls.
+
+> Note:
+> Subsections are required to have an ID when used with `ObjectPageLazyLoader`, otherwise the content doesn't become unstashed.
+> 
+> 
 
 The `ObjectPageLayout` control ensures that only the visible blocks and those adjacent to them have loaded their data, but not the entire page. As the user scrolls or navigates within the page, new data is requested as needed.
 
@@ -238,11 +294,11 @@ The `ObjectPageLayout` control ensures that only the visible blocks and those ad
 
 [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md)
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout)
 
-[API Reference: `sap.uxap.ObjectPageSection`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageSection.html)
+[API Reference: `sap.uxap.ObjectPageSection`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageSection)
 
-[API Reference: `sap.uxap.ObjectPageSubSection`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageSubSection.html)
+[API Reference: `sap.uxap.ObjectPageSubSection`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageSubSection)
 
-[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.BlockBase.html)
+[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#/api/sap.uxap.BlockBase)
 

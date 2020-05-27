@@ -141,7 +141,7 @@ var oReuseComponentPromise = this.createComponent("myReuseComponent");
 
 ```
 
-The full list of options for the `createComponent` factory method can be found in the [API Reference.](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/createComponent). 
+The full list of options for the `createComponent` factory method can be found in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/createComponent). 
 
 > Note:
 > As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
