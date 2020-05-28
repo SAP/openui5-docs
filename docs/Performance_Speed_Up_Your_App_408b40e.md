@@ -207,7 +207,6 @@ Languages can be configured in your manifest since UI5 version 1.77. The manifes
 
 -   `i18n_en.properties` \(English version, `"en"`\)
 -   `i18n_de.properties` \(German version, `"de"`\)
--   `i18n.properties` \(root bundle, `""`\)
 
 they can be configured in your `manifest.json` in Section `sap.ui5` under `models`:
 
@@ -218,7 +217,7 @@ they can be configured in your `manifest.json` in Section `sap.ui5` under `model
 			"type": "sap.ui.model.resource.ResourceModel",
 			"settings": {
 				"bundleName": "sap.ui.demo.todo.i18n.i18n",
-				"supportedLocales": ["en", "de", ""],
+				"supportedLocales": ["en", "de"],
 				"fallbackLocale": "en"
 			}
 		}
@@ -232,7 +231,7 @@ With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of
 "sap.app": {
 	"i18n": {
 		"bundleUrl": "i18n/i18n.properties",
-		"supportedLocales": ["en", "de", ""],
+		"supportedLocales": ["en", "de"],
 		"fallbackLocale": "en"
 	}
 }
