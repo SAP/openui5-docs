@@ -45,6 +45,16 @@ Before enabling the preload for the V2 ODataModel, make sure that you listen pro
 Listen properly to metadata loaded by using the Promise:
 
 ```
-oModel.metadataLoaded().then(function() {  /* TODO: add the event handling here! */  });
+var oModel  = this.oModel, // v2.ODataModel
+	that = this;
+oModel.metadataLoaded(true).then(
+	function () {
+		// model is ready now
+		oModel.createKey("PERSON", {"ID" : 4711, "TASK_GUID": "myguid"});
+	},
+	function () {
+		// Display error information so that the user knows that the application does not work.
+		that.navigateToErrorPage();
+	});
 ```
 

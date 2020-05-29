@@ -12,11 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The OData V4 model supports server messages sent via an OData V4 service.
 
-> Note:
-> This feature is experimental. For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md).
-> 
-> 
-
 Messages transported via an OData V4 service response are parsed and reported to the message model `sap.ui.model.message.MessageModel`. An application can retrieve the messages and display them in a suitable control, for example in `sap.m.MessageView`.
 
 End user messages contain the following information:
