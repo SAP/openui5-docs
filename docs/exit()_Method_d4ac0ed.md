@@ -24,12 +24,14 @@ If the `exit()` method is implemented, OpenUI5 core invokes the method for each 
 > sap.ui.somelib.SomeControl.extend("my.OwnControl", {
 >        ...
 >        exit: function() {
->              //... do any further initialization of your subclass...
+>              //... do any further cleanups of your subclass, e.g. detach events ...
+>              this.$().unbind("click", this.handleClick);
 > 
->              if (sap.ui.somelib.SomeControl.prototype.init) { // check whether superclass implements the method
->                     sap.ui.somelib.SomeControl.prototype.exit.apply(this, arguments); // call the method with the original arguments
+>              if (SomeControl.prototype.exit) { // check whether superclass implements the method
+>                     SomeControl.prototype.exit.apply(this, arguments); // call the method with the original arguments
 >              }
 >        } 
+> }
 > ```
 > 
 > 

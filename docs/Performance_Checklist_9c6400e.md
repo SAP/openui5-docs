@@ -20,7 +20,7 @@ In addition to applying best practices, always stay up to date with the framewor
 4.  [Make Use of Asynchronous Module Loading \(AMD Style\)](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_AsyncModuleLoading)
 5.  [Use `manifest.json` instead of the Bootstrap to define Dependencies](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestJson)
 6.  [Load OpenUI5 from the Content Delivery Network \(CDN\)](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LoadFromCDN)
-7.  [Ensure that all Resources are Available to Avoid 404 Errors](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_Resources404)
+7.  [Ensure that all Resources are Properly Configured to Avoid 404 Errors](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_Resources404)
 8.  [Use "manifest first" to load the Component](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ManifestFirst)
 9.  [Ensure that Library Preloads are Enabled](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads)
 10. [Ensure that Application Resources are Loaded as Component Preload](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ComponentPreload)

@@ -194,11 +194,11 @@ In order to ensure that all static SAPUI5 resources are served with the lowest p
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_Resources404"/>
 
-### Ensure that all Resources are Available to Avoid 404 Errors
+### Ensure that all Resources are Properly Configured to Avoid 404 Errors
 
-Provide i18n files for **all** languages used in your application.
+Languages can be configured in your manifest since UI5 version 1.77.
 
-Languages can be configured in your manifest since UI5 version 1.77. The manifest configuration for i18n has now the option to provide the `supportedLocales` and the `fallbackLocale`:
+The manifest configuration for i18n has now the option to provide the `supportedLocales` and the `fallbackLocale`:
 
 -   The `supportedLocales` should contain all languages for which you have i18n files. e.g. a file named `i18n_en.properties` has the locale `en`.
 -   The `fallbackLocale` is the locale loaded before falling back to the root bundle.

@@ -14,13 +14,13 @@ The `preload` flag enables a preload mode for a model, thus improving the startu
 
 The `preload` flag is located in `manifest.json` under `sap.ui5/models`:
 
-```
+``` json
 "sap.ui5": {
-  ...
-  "models": {
-      "mymodel": {
-          "preload": true,
-          ...
+    ...
+    "models": {
+        "mymodel": {
+            "preload": true,
+            ...
 ```
 
 The flag is not active by default, as there are some prerequisites:
@@ -44,17 +44,18 @@ Before enabling the preload for the V2 ODataModel, make sure that you listen pro
 
 Listen properly to metadata loaded by using the Promise:
 
-```
+``` js
+
 var oModel  = this.oModel, // v2.ODataModel
-	that = this;
+    that = this;
 oModel.metadataLoaded(true).then(
-	function () {
-		// model is ready now
-		oModel.createKey("PERSON", {"ID" : 4711, "TASK_GUID": "myguid"});
-	},
-	function () {
-		// Display error information so that the user knows that the application does not work.
-		that.navigateToErrorPage();
-	});
+    function () {
+        // model is ready now
+        oModel.createKey("PERSON", {"ID" : 4711, "TASK_GUID": "myguid"});
+    },
+    function () {
+        // Display error information so that the user knows that the application does not work.
+        that.navigateToErrorPage();
+    });
 ```
 
