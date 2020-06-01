@@ -18,13 +18,13 @@ The `ObjectPageLayout` control provides a layout that allows apps to easily disp
 
 ### Overview
 
-The `ObjectPageLayout` layout is composed of a header \(title and content\), an optional anchor bar and block content wrapped in sections and subsections that structure the information.
+The `ObjectPageLayout` layout is composed of a header \(title and content\), an optional anchor bar, and block content wrapped in sections and subsections that structure the information.
 
    
   
-`ObjectPageLayout` main structure<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>
+`ObjectPageLayout` Main Structure<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>
 
- ![](loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout main structure") 
+ ![](loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure") 
 
 ***
 
@@ -87,9 +87,9 @@ The content of the page that appears below the header is composed of blocks stru
 
    
   
-Blocks structured into sections and subsections<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>
+Blocks Structured into Sections and Subsections<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>
 
- ![](loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks structured into sections and subsections") 
+ ![](loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections") 
 
 The blocks hold the actual app content, while the purpose of the sections and subsections is to define grouping.
 
@@ -191,15 +191,15 @@ The *See more* button is only displayed for subsections that contain one of the 
 
 The following additional rules are internally applied to display the contents of the `ObjectPageLayout` correctly. Each rule is applied to the output of the preceding rule.
 
-1.  If the subsection content is empty \(contains no blocks\), it is not displayed \(no anchor is displayed for that subsection in the anchor bar and no title is displayed in the page body\).
+1.  If the subsection content is empty \(contains no blocks\), it isn’t displayed \(no anchor is displayed for that subsection in the anchor bar and no title is displayed in the page body\).
 
-2.  If the section content is empty \(contains no subsections\), it is not displayed \(no anchor is displayed for that section in the anchor bar and no title is displayed in the page body\).
+2.  If the section content is empty \(contains no subsections\), it isn’t displayed \(no anchor is displayed for that section in the anchor bar and no title is displayed in the page body\).
 
 3.  If a section without a title contains only one subsection with a title, the section gets the title of the subsection \(`SectionTitle`=`SubsectionTitle` and `SubsectionTitle`=`NULL`\).
 
 4.  If the `ObjectPageLayout` contains only one section, no anchor bar is displayed.
 
-5.  If there are more than one sections, the first one will not have a title.
+5.  If there are more than one sections, the first one doesn't have a title.
 
 
 ***
@@ -216,7 +216,7 @@ Lazy loading is disabled by default. To enable it, set the `enableLazyLoading` p
 <ObjectPageLayout id="ObjectPageLayout" *HIGHLIGHT START*enableLazyLoading="true"*HIGHLIGHT END*>
 ```
 
-Next, you have to complete the setup of the blocks. There are two ways to setup lazy loading on the subsection blocks.. For the first one, all your subsection blocks must be based on `BlockBase`, otherwise they are loaded as normal OpenUI5 components. The second one is stashed-based and the content of subsection blocks must we wrapped inside an `ObjectPageLazyLoader`.
+Next, you have to complete the setup of the blocks. There are two ways to set up lazy loading on the subsection blocks. For the first one, all your subsection blocks must be based on `BlockBase`, otherwise they’re loaded as normal OpenUI5 components. The second one is stashed-based and the content of subsection blocks must we wrapped inside an `ObjectPageLazyLoader`.
 
 Setting up lazy loading with `BlockBase`:
 
@@ -267,17 +267,17 @@ Setting up stashed-based lazy loading:
 ```
 
 
-This will unstash the content automatically as the user scrolls.
+This unstashes the content automatically as the user scrolls.
 
 > Note:
 > Subsections are required to have an ID when used with `ObjectPageLazyLoader`, otherwise the content doesn't become unstashed.
 > 
 > 
 
-The `ObjectPageLayout` control ensures that only the visible blocks and those adjacent to them have loaded their data, but not the entire page. As the user scrolls or navigates within the page, new data is requested as needed.
+The `ObjectPageLayout` control ensures that only the visible blocks and those next to them have loaded their data, but not the entire page. As the user scrolls or navigates within the page, new data is requested as needed.
 
 > Note:
-> Setting `enableLazyLoading` to `true` after the `ObjectPageLayout` has been instantiated does not work, as all bindings will have been resolved by then.
+> Setting `enableLazyLoading` to `true` after the `ObjectPageLayout` has been instantiated doesn’t work, as all bindings are resolved by then.
 > 
 > 
 
