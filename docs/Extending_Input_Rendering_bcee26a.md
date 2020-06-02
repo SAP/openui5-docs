@@ -19,7 +19,7 @@ The control API and the `render` method can be inherited as it is and the `rende
 ``` js
   
 sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInput" 
-                                      // and let it inherit from sap.m.Input
+								// and let it inherit from sap.m.Input
 
 			renderer: {
 				// note that no render() function is given here. The Input's render() function is used. 
@@ -27,10 +27,10 @@ sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInp
 
 				writeInnerAttributes : function(oRm, oInput) {
 					sap.m.InputRenderer.writeInnerAttributes.apply(this, arguments); // the default method should be called
-					                                                                 // this will make sure that all default input attributes will be there
+																		 // this will make sure that all default input attributes will be there
 
 					oRm.addStyle('background-color', '#ffff00');  // this change could also be done with plain CSS. 
-					                                              // But you get the idea...
+														  // But you get the idea...
 					  }
 				  }
 			  });
