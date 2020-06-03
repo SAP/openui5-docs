@@ -22,9 +22,9 @@ The Test Recorder is part of the OpenUI5 framework and is available in all brows
 
 There are two ways to open the Test Recorder:
 
--   In a separate window: Press * CTRL SHIFT ALT T *
+-   In a separate window: Press * CTRL SHIFT ALT T * \(on Windows and Linux\) or * CTRL SHIFT OPTION T * \(on macOS\)
 
--   In an IFrame: Press * CTRL SHIFT ALT P * to display the *Technical Information Dialog* and then choose *Activate Test Recorder*
+-   In an IFrame: Press * CTRL SHIFT ALT P * \(on Windows and Linux\) or * CTRL SHIFT OPTION P * \(on macOS\) to display the *Technical Information Dialog* and then choose *Activate Test Recorder*
 
      ![](loio1e0b9fe13e6d44589301c80d5e5b07bb_HiRes.png) 
 

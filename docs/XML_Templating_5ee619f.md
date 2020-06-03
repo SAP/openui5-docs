@@ -15,7 +15,7 @@ The XML templating concept enables you to use an XML view as a template. This te
 The label texts and binding paths in the example below come from SAP Annotations for OData Version 2.0 \([http://www.sap.com/Protocols/SAPData](http://www.sap.com/Protocols/SAPData)\) such as `sap:semantics`, and from OData Version 4.0 annotations such as `com.sap.vocabularies.UI.v1.Badge`. Much more complex tasks than shown in this simple example are possible.
 
 > Note:
-> HTML templating is no longer supported as of version 1.56.
+> HTML templating is no longer supported as of Version 1.56.
 > 
 > 
 
@@ -24,7 +24,13 @@ The transformation happens if a preprocessor for XML is called when the view is 
 If the view is loaded asynchronously, fragments and required modules are loaded asynchronously, too.
 
 > Note:
-> XML templating is not directly supported with routing, that is, there is no way to declare that the XML Preprocessor should run on the target view of a route. Instead, you should define a JavaScript view as the route's target and use that view's `createContent` method to create an XML view with templating. In case you need access to models \(which are not yet available in that hook\), you should return some dummy content first \(for instance sap.m.HBox\), register to the view's modelContextChange event and create the inner view in that event's handler, finally adding it to the dummy content.
+> XML templating is not directly supported with routing, that is, there is no way to declare that the XML Preprocessor should run on the target view of a route. Instead, you should define a JavaScript view as the route's target and use that view's `createContent` method to create an XML view with templating.
+> 
+> As of Version 1.56 `sap.ui.core.mvc.JSView.create` is introduced to load and create view instances asynchronously. To define JavaScript views, the synchronous method `sap.ui.jsview` still has to be used, however. In this use case`sap.ui.core.mvc.JSView.create` cannot be used.
+> 
+>  For more information, see the API References: [`sap.ui.core.mvc.JSView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.JSView%23methods/sap.ui.core.mvc.JSView.create) and [`sap.ui.jsview`](https://openui5.hana.ondemand.com/#/api/sap.ui%23methods/sap.ui.jsview). 
+> 
+> In case you need access to models \(which are not yet available in that hook\), you should return some dummy content first \(for instance sap.m.HBox\), register to the view's modelContextChange event and create the inner view in that event's handler, finally adding it to the dummy content.
 > 
 > JavaScript Target View For Routing
 > 

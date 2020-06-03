@@ -34,7 +34,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 		<tr>
 			<td> [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) </td>
 			<td>Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.</td>
-			<td> * CTRL SHIFT ALT P * Gesture on mobile device:
+			<td> * CTRL SHIFT ALT P * \(on Windows and Linux\) or * CTRL SHIFT OPTION P * \(on macOS\) Gesture on mobile device:
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two fingers on the screen.
 			</td>
@@ -47,7 +47,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 		<tr>
 			<td> [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) </td>
 			<td>Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.</td>
-			<td> * CTRL SHIFT ALT S * </td>
+			<td> * CTRL SHIFT ALT S * \(on Windows and Linux\) or * CTRL SHIFT OPTION S * \(on macOS\)</td>
 		</tr>
 		<tr>
 			<td> [UI5 Inspector](UI5_Inspector_b24e724.md) </td>

@@ -16,29 +16,37 @@ The file calls the `sap.ui.getCore().initLibrary` method with an object that des
 
 The library style sheet file \(`library.css`\) contains all styles relevant for this library. For libraries that have been developed with the SAPUI5 application development tools, this file is also generated automatically during the build.
 
-In a `library.js` file, the call to `sap.ui.getCore().initLibraries()` takes care of creating the namespace object of the library, exports it under its global name and returns the namespace to the caller. In the `library.js` module, you don’t need to write types or helpers to the global name, but can use the returned namespace like this:
+In a `library.js` file, the call to `sap.ui.getCore().initLibraries()` takes care of creating the namespace object of the library and exports it under its global name. Afterwards, you can use this global name to write types or helpers:
 
 ``` js
 sap.ui.define(function() {
  
-    “use strict”;
+	"use strict";
+
+	// initialize the library with global name "my.lib"
+	sap.ui.getCore().initLibrary({
+		name: "my.lib",
+		...
+	});	
  
-    /**
-     * @alias my.lib
-     */
-    var oThisLibrary = sap.ui.getCore().initLibrary({…});
+	/**
+	* The "my.lib" library
+	* @namespace
+	* @alias my.lib
+	*/
+	var oThisLibrary = my.lib;
  
-    /**
-    * An addition to mylib. If you used the @alias tag above, JSDoc will recognize this as my.lib.ValueColor.
-    * @ui5-metamodel The UI5 metamodel restoration logic also can handle this kind of definition and will create an enumeration type
-    *         my/lib/ValueColor.type. The name of the variable (<code>thisLibrary</code>) is not mandatory, just an example.
-     */
-    oThisLibrary.ValueColor = {
-        Color1: …
-    };
+	/**
+	* An addition to mylib. If you used the @alias tag above, JSDoc will recognize this as my.lib.ValueColor.
+	* @ui5-metamodel The UI5 metamodel restoration logic also can handle this kind of definition and will create an enumeration type
+	*         my/lib/ValueColor.type. The name of the variable (<code>thisLibrary</code>) is not mandatory, just an example.
+	*/
+	oThisLibrary.ValueColor = {
+		Color1: …
+	};
  
-    // don’t forget to return the value
-    return oThisLibrary;
+	// don’t forget to return the value
+	return oThisLibrary;
  
 });
 ```

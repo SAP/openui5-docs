@@ -23,7 +23,7 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 > Note:
 > Depending on which SAP Web IDE version you are using, you might have to configure the project to run against the "snapshot" version of OpenUI5, otherwise the application will be launched with the OpenUI5 release that is delivered with SAP Web IDE. This is usually the latest version that is released publicly to customers.
 > 
-> You can check which version of OpenUI5 is loaded by opening the OpenUI5 debugging tools with * CTRL SHIFT ALT P *. If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
+> You can check which version of OpenUI5 is loaded by opening the OpenUI5 debugging tools with * CTRL SHIFT ALT P * \(on Windows or Linux\) or * CTRL SHIFT OPTION P * \(on macOS\). If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
 > 
 > 
 

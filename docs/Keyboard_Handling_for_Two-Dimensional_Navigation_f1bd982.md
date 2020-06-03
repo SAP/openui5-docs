@@ -55,7 +55,7 @@ The following keys and key combinations are used for navigation in two-dimension
  If there are less items available than page size, move focus to the first item. If focus is on the last item, do nothing.</td>
 		</tr>
 		<tr>
-			<td>* ALT PAGE UP *</td>
+			<td>* ALT PAGE UP * \(on Windows and Linux\) or * OPTION PAGE UP * \(on macOS\)</td>
 			<td> If focus is on an item, move focus **left** by page size.
  > Note:
  > Page size can be set by apps; default page size is 5 columns.
@@ -63,7 +63,7 @@ The following keys and key combinations are used for navigation in two-dimension
  If there are less items available than page size, move focus to the first item. If focus is on the first item, do nothing.</td>
 		</tr>
 		<tr>
-			<td>* ALT PAGE DOWN *</td>
+			<td>* ALT PAGE DOWN * \(on Windows and Linux\) or * OPTION PAGE DOWN * \(on macOS\)</td>
 			<td> If focus is on an item, move focus **right** by page size.
  > Note:
  > Page size can be set by apps; default page size is 5 columns.

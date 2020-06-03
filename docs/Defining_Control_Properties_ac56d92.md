@@ -14,10 +14,10 @@ Control properties are defined as follows:
 
 ``` js
 properties: {
-   "title" : "string",                         // a simple string property, default value is undefined
-   "buttonText" : {defaultValue: "Search"},    // when no type is given, the type is string
-   "showLogoutButton" : {type : "boolean", defaultValue : true},   // a boolean property where a default value is given
-   "width" : {type : "sap.ui.core.CSSSize", defaultValue : "50px"} // a CSS size property where a default value is given
+   title : "string",                         // a simple string property, default value is undefined
+   buttonText : {defaultValue: "Search"},    // when no type is given, the type is string
+   showLogoutButton : {type : "boolean", defaultValue : true},   // a boolean property where a default value is given
+   width : {type : "sap.ui.core.CSSSize", defaultValue : "50px"} // a CSS size property where a default value is given
 }
 ```
 
@@ -74,7 +74,7 @@ var fooType = DataType.createType('foo', {
 
 This was an early design decision in OpenUI5 and framework code relies on it. That code might fail for enumerations that don’t obey these restrictions.
 
- To reference an `enum` type in a property definition, its global name must be used \(like `sap.m.ValueColor` in the example below\). . Example: ``` js
+ To reference an `enum` type in a property definition, its global name must be used \(like `sap.m.ValueColor` in the example below\). Example for creating an enumeration: ``` js
 /**
 * Enumeration of possible value color settings.
 *
@@ -94,10 +94,25 @@ sap.m.ValueColor = {
 
 ```
 
- |
-|array| You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension, for example:
+ Example for defining a property using an enumeration: ``` js
 
--   `int[]` is a one-dimensional array of integers
+properties: {
+	myProperty : {type: "sap.m.ValueColor", defaultValue: "Neutral"}
+}
+
+```
+
+ |
+|array|You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension. Example: ``` js
+
+properties: {
+	myProperty1 : "int[]",
+	myProperty2 : "int[][]"
+}
+
+```
+
+ -   `int[]` is a one-dimensional array of integers
 
 -   `int[][]` is a two-dimensional array of integers \(or more precisely an array of integer arrays\)
 
