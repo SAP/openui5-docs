@@ -595,7 +595,7 @@ Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b
 
 #### `_version`
 
--   On root level \(no namespace\) Describes the descriptor format version \(mandatory\). Needs to be updated when migrating to a new descriptor format version, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
+-   On root level \(no namespace\): Describes the descriptor format version \(mandatory\). Needs to be updated when migrating to a new descriptor format version, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
 
 -   Inside namespace: Describes the namespace format version \(optional from version 1.38 on\)
 
