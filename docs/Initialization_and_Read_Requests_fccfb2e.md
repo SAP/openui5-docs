@@ -227,3 +227,30 @@ The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single arr
 
 The binding-specific parameter `$$patchWithoutSideEffects` can be set on context bindings and list bindings. If the parameter is not specified in a relative binding, the parameter value from the parent binding is used.
 
+***
+
+<a name="loiofccfb2eb41414f0792c165e69a878717__section_uz4_fzq_xlb"/>
+
+### Paging
+
+The OData V4 model automatically determines the system query options `$top` and `$skip` based on the data range requested by the control or the application. In the example below, the resulting first request is `GET People('angelhuffman')/Friends?$expand=Friends&$skip=0&$top=107`. The value for `$top` is calculated from the length of the requested data \(7\) plus the prefetch size provided by the control \(100\). Note that adding `$top` and`$skip` for a nested collection is not supported.
+
+``` xml
+
+<table:Table id="PeopleTable" width="auto" title="People" visibleRowCount="7"
+        rows="{
+            path:'/People(\'angelhuffman\')/Friends',
+            parameters: {
+                $expand:'Friends'
+            }
+        }">
+ 
+    <table:columns>
+    ...
+    </table:columns>
+</table:Table>
+
+```
+
+An additional paging mechanism is Server-Driven Paging, for which the server returns only a part of the requested data in order to limit the response size. This mechanism is supported by the OData V4 model since SAPUI5 1.72. The model will provide the data retrieved with the response to the control or application. A follow-up request is not triggered automatically, but only once the control or application request additional data from the model.
+

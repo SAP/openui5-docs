@@ -38,15 +38,15 @@ The `init` method is considered a private method that must only be called by the
 > 
 > ``` js
 > 
-> sap.ui.somelib.SomeControl.extend("my.OwnControl", {
+> SomeControl.extend("my.OwnControl", {
 >        ...
 >        init: function() {
->              if (sap.ui.somelib.SomeControl.prototype.init) { // check whether superclass implements the method
->                     sap.ui.somelib.SomeControl.prototype.init.apply(this, arguments); // call the method with the original arguments
+>              if (SomeControl.prototype.init) { // check whether superclass implements the method
+>                     SomeControl.prototype.init.apply(this, arguments); // call the method with the original arguments
 >              }
 > 
 >              //... do any further initialization of your subclass, e.g. 
->              this.$().bind("click", this.handleClick.bind(this));
+>              this.$().on("click", this.handleClick.bind(this));
 >        } 
 >        ...
 > }
