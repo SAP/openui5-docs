@@ -79,7 +79,7 @@ Rules and Guidelines for Labeling and Tooltips<a name="loio329a029f39e249a1bf89e
 
  > Note:
  > ```
- > <Button icon="sap-icon://action" press="onPress" alt="An action button" ariaLabelledBy="actionButtonLabel"/>
+ > <Button icon="sap-icon://action" press="onPress" tooltip="Action Name" ariaLabelledBy="actionButtonLabel"/>
  > ```
 			</td>
 		</tr>

@@ -46,7 +46,7 @@ The `init` method is considered a private method that must only be called by the
 >              }
 > 
 >              //... do any further initialization of your subclass, e.g. 
->              this.$().on("click", this.handleClick.bind(this));
+>              this.$().on("click", this.handleClick);
 >        } 
 >        ...
 > }
