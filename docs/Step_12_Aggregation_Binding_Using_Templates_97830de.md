@@ -98,7 +98,7 @@ sap.ui.require([
 
 ``` xml
 ...
-					<Input width="200px" enabled="{/enabled}" description="{/currencyCode}"
+					<Input description="{/currencyCode}" enabled="{/enabled}" id="salesAmount"
 						value="{
 							parts: [
 								{path: '/salesAmount'},
@@ -106,41 +106,39 @@ sap.ui.require([
 							],
 							type: 'sap.ui.model.type.Currency',
 							formatOptions: {showMeasure: false}
-						}"/>
+						}" width="200px"/>
 				</l:VerticalLayout>
 			</l:HorizontalLayout>
 		</content>
 	</Panel>
 *HIGHLIGHT START*	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<List headerText="{i18n>productListTitle}" items="{products>/Products}">
-				<items>
-					<ObjectListItem title="{products>ProductName}"
-						number="{
-							parts: [
-								{path: 'products>UnitPrice'},
-								{path: '/currencyCode'}
-							],
-							type: 'sap.ui.model.type.Currency',
-							formatOptions: { showMeasure: false }
-						}"
-						numberUnit="{/currencyCode}">
-						<attributes>
-							<ObjectAttribute text="{products>QuantityPerUnit}"/>
-							<ObjectAttribute title="{i18n>stockValue}"
-								text="{
-									parts: [
-										{path: 'products>UnitPrice'},
-										{path: 'products>UnitsInStock'},
-										{path: '/currencyCode'}
-									],
-									formatter: '.formatStockValue'
-								}"/>
-						</attributes>
-					</ObjectListItem>
-				</items>
-			</List>
-		</content>
+		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
+			<items>
+				<ObjectListItem title="{products>ProductName}"
+					number="{
+						parts: [
+							{path: 'products>UnitPrice'},
+							{path: '/currencyCode'}
+						],
+						type: 'sap.ui.model.type.Currency',
+						formatOptions: { showMeasure: false }
+					}"
+					numberUnit="{/currencyCode}">
+					<attributes>
+						<ObjectAttribute text="{products>QuantityPerUnit}"/>
+						<ObjectAttribute title="{i18n>stockValue}"
+							text="{
+								parts: [
+									{path: 'products>UnitPrice'},
+									{path: 'products>UnitsInStock'},
+									{path: '/currencyCode'}
+								],
+								formatter: '.formatStockValue'
+							}"/>
+					</attributes>
+				</ObjectListItem>
+			</items>
+		</List>
 	</Panel>*HIGHLIGHT END*
 ...
 ```

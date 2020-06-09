@@ -84,22 +84,24 @@ We create two new model properties `salesAmount` and `currencyCode`.
 ``` xml
 ...
 	<Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<Label text="{i18n>firstName}" class="sapUiSmallMargin"/>
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="{i18n>firstName}"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="{i18n>lastName}" class="sapUiSmallMargin"/>
+			<Label text="{i18n>lastName}"/>
 			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<CheckBox selected="{/enabled}" text="Enabled"/>
-		</content>
+			<Label text="{i18n>enabled}"/>
+			<CheckBox selected="{/enabled}"/>
+		</form:SimpleForm>
 	</Panel>
 	<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 			<l:HorizontalLayout>
 				<l:VerticalLayout>
-					<Label class="sapUiSmallMargin" text="{i18n>address}:"/>
-					<FormattedText class="sapUiSmallMarginBegin sapUiSmallMarginBottom" htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}" width="200px"/>
-					<Link class="sapUiSmallMarginBegin"
-						href="{
+					<Label labelFor="address" text="{i18n>address}:"/>
+					<FormattedText class="sapUiSmallMarginBottom"
+						htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}"
+						id="address" width="200px"/>
+					<Link href="{
 							parts: [
 								'/firstName',
 								'/lastName'
@@ -107,10 +109,10 @@ We create two new model properties `salesAmount` and `currencyCode`.
 							formatter: '.formatMail'
 						}"
 						text="{i18n>sendEmail}"/>
-*HIGHLIGHT START*				</l:VerticalLayout>
-				<l:VerticalLayout>
-					<Label text="{i18n>salesAmount}:" class="sapUiSmallMargin"/>
-					<Input width="200px" enabled="{/enabled}" description="{/currencyCode}"
+				</l:VerticalLayout>
+*HIGHLIGHT START*				<l:VerticalLayout>
+					<Label labelFor="salesAmount" text="{i18n>salesAmount}:"/>
+					<Input description="{/currencyCode}" enabled="{/enabled}" id="salesAmount"
 						value="{
 							parts: [
 								{path: '/salesAmount'},
@@ -118,7 +120,7 @@ We create two new model properties `salesAmount` and `currencyCode`.
 							],
 							type: 'sap.ui.model.type.Currency',
 							formatOptions: {showMeasure: false}
-						}"/>
+						}" width="200px"/>
 				</l:VerticalLayout>*HIGHLIGHT END*
 			</l:HorizontalLayout>
 		</content>

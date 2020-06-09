@@ -37,40 +37,37 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 14](
 		</content>
 	</Panel>
 	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<List headerText="{i18n>productListTitle}" items="{products>/Products}">
-				<items>
-					<ObjectListItem
-						press=".onItemSelected"
-						type="Active"
-						title="{products>ProductName}"
-						number="{
-							parts: [
-								{path: 'products>UnitPrice'},
-								{path: '/currencyCode'}
-							],
-							type: 'sap.ui.model.type.Currency',
-							formatOptions: { showMeasure: false }
-						}"
-						numberUnit="{/currencyCode}"
-*HIGHLIGHT START*						numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }">
-*HIGHLIGHT END*
-						<attributes>
-							<ObjectAttribute text="{products>QuantityPerUnit}"/>
-							<ObjectAttribute title="{i18n>stockValue}"
-								text="{
-									parts: [
-										{path: 'products>UnitPrice'},
-										{path: 'products>UnitsInStock'},
-										{path: '/currencyCode'}
-									],
-									formatter: '.formatStockValue'
-								}"/>
-						</attributes>
-					</ObjectListItem>
-				</items>
-			</List>
-		</content>
+		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
+			<items>
+				<ObjectListItem
+					press=".onItemSelected"
+					type="Active"
+					title="{products>ProductName}"
+					number="{
+						parts: [
+							{path: 'products>UnitPrice'},
+							{path: '/currencyCode'}
+						],
+						type: 'sap.ui.model.type.Currency',
+						formatOptions: { showMeasure: false }
+					}"
+					numberUnit="{/currencyCode}"
+*HIGHLIGHT START*					numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }">*HIGHLIGHT END*
+					<attributes>
+						<ObjectAttribute text="{products>QuantityPerUnit}"/>
+						<ObjectAttribute title="{i18n>stockValue}"
+							text="{
+								parts: [
+									{path: 'products>UnitPrice'},
+									{path: 'products>UnitsInStock'},
+									{path: '/currencyCode'}
+								],
+								formatter: '.formatStockValue'
+							}"/>
+					</attributes>
+				</ObjectListItem>
+			</items>
+		</List>
 	</Panel>
 ...
 ```

@@ -34,29 +34,27 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 
 ``` xml
 
-<mvc:View	
-	controllerName="sap.ui.demo.db.controller.App" 
-	xmlns="sap.m" 
-	xmlns:l="sap.ui.layout" 
-	xmlns:mvc="sap.ui.core.mvc"
-	*HIGHLIGHT START*xmlns:core="sap.ui.core"*HIGHLIGHT END*>
+<mvc:View
+	controllerName="sap.ui.demo.db.controller.App"
+	xmlns="sap.m"
+	*HIGHLIGHT START*xmlns:core="sap.ui.core"*HIGHLIGHT END*
+	xmlns:form="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
 ...
 	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-*HIGHLIGHT START*			<List
-				id="ProductList"
-				headerText="{i18n>productListTitle}"
-				items="{
-					path: 'products>/Products',
-					factory: '.productListFactory'
-				}">
-				<dependents>
-					<core:Fragment fragmentName="sap.ui.demo.db.view.ProductSimple" type="XML"/>
-					<core:Fragment fragmentName="sap.ui.demo.db.view.ProductExtended" type="XML"/>
-				</dependents>
-			</List>
-*HIGHLIGHT END*
-		</content>
+*HIGHLIGHT START*		<List
+			id="ProductList"
+			headerText="{i18n>productListTitle}"
+			items="{
+				path: 'products>/Products',
+				factory: '.productListFactory'
+			}">
+			<dependents>
+				<core:Fragment fragmentName="sap.ui.demo.db.view.ProductSimple" type="XML"/>
+				<core:Fragment fragmentName="sap.ui.demo.db.view.ProductExtended" type="XML"/>
+			</dependents>
+		</List>*HIGHLIGHT END*
 	</Panel>
 ...
 </mvc:View>

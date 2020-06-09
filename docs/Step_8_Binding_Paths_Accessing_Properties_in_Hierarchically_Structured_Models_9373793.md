@@ -82,22 +82,27 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 ``` xml
 <mvc:View
 	xmlns="sap.m"
-	*HIGHLIGHT START*xmlns:l="sap.ui.layout"*HIGHLIGHT END*
+	*HIGHLIGHT START*xmlns:form="sap.ui.layout.form"*HIGHLIGHT END*
+	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Panel headerText="{i18n>panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<Label text="{i18n>firstName}" class="sapUiSmallMargin"/>
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="{i18n>firstName}"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="{i18n>lastName}" class="sapUiSmallMargin"/>
+			<Label text="{i18n>lastName}"/>
 			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<CheckBox selected="{/enabled}" text="Enabled"/>
-		</content>
+			<Label text="{i18n>enabled}"/>
+			<CheckBox selected="{/enabled}"/>
+		</form:SimpleForm>
 	</Panel>
 	*HIGHLIGHT START*<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 			<l:VerticalLayout>
-				<Label class="sapUiSmallMargin" text="{i18n>address}:"/>
-				<FormattedText class="sapUiSmallMarginBegin sapUiSmallMarginBottom" htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}" width="200px"/>
+				<Label labelFor="address" text="{i18n>address}:"/>
+				<FormattedText class="sapUiSmallMarginBottom"
+					htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}"
+					id="address" 
+					width="200px"/>
 			</l:VerticalLayout>
 		</content>
 	</Panel>*HIGHLIGHT END*

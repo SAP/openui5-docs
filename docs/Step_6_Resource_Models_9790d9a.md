@@ -105,18 +105,19 @@ Language-specific text stored in resource models obeys the Java convention for i
 ``` xml
 <mvc:View
 	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Panel headerText="{*HIGHLIGHT START*i18n>*HIGHLIGHT END*panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<Label text="*HIGHLIGHT START*{i18n>firstName}*HIGHLIGHT END*" class="sapUiSmallMargin"/>
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="*HIGHLIGHT START*{i18n>firstName}*HIGHLIGHT END*"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="*HIGHLIGHT START*{i18n>lastName}*HIGHLIGHT END*" class="sapUiSmallMargin"/>
+			<Label text="*HIGHLIGHT START*{i18n>lastName}*HIGHLIGHT END*"/>
 			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<CheckBox selected="{/enabled}" text="*HIGHLIGHT START*{i18n>enabled}*HIGHLIGHT END*"/>
-		</content>
+			<Label text="*HIGHLIGHT START*{i18n>enabled}*HIGHLIGHT END*"/>
+			<CheckBox selected="{/enabled}"/>
+		</form:SimpleForm>
 	</Panel>
 </mvc:View>
-
 ```
 
 Modify the data binding for the panel header and the labels in `App.view.xml` to include the model name. Notice that a "greater than" character separates the model name and the property name, and that i18n property names **must not** start with a slash character.

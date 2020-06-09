@@ -20,7 +20,7 @@ The reason we have resource bundles is to allow an app to run in multiple langua
   
 German version of our UI<a name="loio4e593b44e78a431e8b21be6b3915fb55__fig_r1j_pst_mr"/>
 
- ![](loiod96cdf993b9f4344822d61d2a81d11ab_HiRes.png "German version of our UI") 
+ ![](loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI") 
 
 ***
 

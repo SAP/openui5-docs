@@ -70,30 +70,33 @@ In the `formatMail` function, we use the **sap.m.URLHelper.normalizeEmail** func
 <mvc:View
 *HIGHLIGHT START*	controllerName="sap.ui.demo.db.controller.App"*HIGHLIGHT END*
 	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
-		<content>
-			<Label text="{i18n>firstName}" class="sapUiSmallMargin"/>
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="{i18n>firstName}"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="{i18n>lastName}" class="sapUiSmallMargin"/>
+			<Label text="{i18n>lastName}"/>
 			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<CheckBox selected="{/enabled}" text="Enabled"/>
-		</content>
+			<Label text="{i18n>enabled}"/>
+			<CheckBox selected="{/enabled}"/>
+		</form:SimpleForm>
 	</Panel>
 	<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 			<l:VerticalLayout>
-				<Label class="sapUiSmallMargin" text="{i18n>address}:"/>
-				<FormattedText class="*HIGHLIGHT START*sapUiSmallMarginBegin sapUiSmallMarginBottom*HIGHLIGHT END*" htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}" width="200px"/>
-*HIGHLIGHT START*				<Link class="sapUiSmallMarginBegin"
-					href="{
-							parts: [
-								'/firstName',
-								'/lastName'
-							],
-							formatter: '.formatMail'
-						}"
+				<Label labelFor="address" text="{i18n>address}:"/>
+				<FormattedText class="*HIGHLIGHT START*sapUiSmallMarginBottom*HIGHLIGHT END*"
+					htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}"
+					id="address" width="200px"/>
+*HIGHLIGHT START*				<Link href="{
+						parts: [
+							'/firstName',
+							'/lastName'
+						],
+						formatter: '.formatMail'
+					}"
 					text="{i18n>sendEmail}"/>*HIGHLIGHT END*
 			</l:VerticalLayout>
 		</content>

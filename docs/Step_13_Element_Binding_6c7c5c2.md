@@ -34,58 +34,58 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
 
 ``` xml
 ...
-        </items>
-      </List>
-    </content>
-  </Panel>
-*HIGHLIGHT START*  <Panel id="productDetailsPanel" headerText="{i18n>panel4HeaderText}" class="sapUiResponsiveMargin" width="auto">
-    <l:Grid defaultSpan="L3 M6 S12" containerQuery="true">
-        <Label text="{i18n>ProductID}:" />
-        <Input value="{products>ProductID}" />
-        
-        <Label text="{i18n>ProductName}:" />
-        <Input value="{products>ProductName}" />
+			</items>
+		</List>
+	</Panel>
+*HIGHLIGHT START*	<Panel id="productDetailsPanel" headerText="{i18n>panel4HeaderText}" class="sapUiResponsiveMargin" width="auto">
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="{i18n>ProductID}"/>
+			<Input value="{products>ProductID}"/>
 
-        <Label text="{i18n>QuantityPerUnit}:" />
-        <Input value="{products>QuantityPerUnit}" />
-        
-        <Label text="{i18n>UnitPrice}:" />
-        <Input value="{products>UnitPrice}" />
-        
-        <Label text="{i18n>UnitsInStock}:" />
-        <Input value="{products>UnitsInStock}" />
-        
-        <Label text="{i18n>Discontinued}:" />
-        <CheckBox selected="{products>Discontinued}" />
-    </l:Grid>    
-  </Panel>*HIGHLIGHT END*
+			<Label text="{i18n>ProductName}"/>
+			<Input value="{products>ProductName}"/>
+
+			<Label text="{i18n>QuantityPerUnit}"/>
+			<Input value="{products>QuantityPerUnit}"/>
+
+			<Label text="{i18n>UnitPrice}"/>
+			<Input value="{products>UnitPrice}"/>
+
+			<Label text="{i18n>UnitsInStock}"/>
+			<Input value="{products>UnitsInStock}"/>
+
+			<Label text="{i18n>Discontinued}"/>
+			<CheckBox selected="{products>Discontinued}"/>
+		</form:SimpleForm>
+	</Panel>*HIGHLIGHT END*
 </mvc:View>
-
 ```
 
-Now we have an empty form. In order to fill this form with data, we will bind the whole panel to the path of the element which we clicked in the list. We need to add a `press`-event handler to the items in the list.
+Now we have an empty form. In order to fill this form with data, we will bind the whole panel to the path of the element which we clicked in the list. We need to add a `press`-event handler to the items in the list:
 
 ***
 
-### webapp/view/App.views.xml
+### webapp/view/App.view.xml
 
 ``` xml
 ...
-  <Panel headerText="{i18n>panel4HeaderText}" class="sapUiResponsiveMargin" width="auto">
-    <content>
-      <List headerText="{i18n>productListTitle}" items="{products>/Products}">
-        <items>
-          <ObjectListItem 
-              *HIGHLIGHT START*press=".onItemSelected"
-		    type="Active"*HIGHLIGHT END*
-              title="{products>ProductName}"
-              number="{ parts: [{path: 'products>UnitPrice'},
-                                {path: '/currencyCode'}],
-                        type: 'sap.ui.model.type.Currency',
-                        formatOptions: { showMeasure: false }
-                      }"
-              numberUnit="{/currencyCode}">
-              <attributes>
+  	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
+		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
+			<items>
+				<ObjectListItem
+					*HIGHLIGHT START*press=".onItemSelected"
+					type="Active"*HIGHLIGHT END*
+					title="{products>ProductName}"
+					number="{
+						parts: [
+							{path: 'products>UnitPrice'},
+							{path: '/currencyCode'}
+						],
+						type: 'sap.ui.model.type.Currency',
+						formatOptions: { showMeasure: false }
+					}"
+					numberUnit="{/currencyCode}">
+					<attributes>
 ... 
 ```
 

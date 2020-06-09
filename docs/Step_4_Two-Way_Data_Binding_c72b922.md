@@ -33,16 +33,20 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 4](h
 ### webapp/view/App.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-  <Panel headerText="{/panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
-    <content>
-      <Label text="First Name" class="sapUiSmallMargin" />
-      <Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}" />
-      <Label text="Last Name" class="sapUiSmallMargin" />
-      <Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}" />
-      <CheckBox selected="{/enabled}" text="Enabled" />
-    </content>
-  </Panel>
+*HIGHLIGHT START*<mvc:View
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Panel headerText="{/panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
+		<form:SimpleForm editable="true" layout="ColumnLayout">
+			<Label text="First Name"/>
+			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
+			<Label text="Last Name"/>
+			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
+			<Label text="Enabled"/>
+			<CheckBox selected="{/enabled}"/>
+		</form:SimpleForm>
+	</Panel>
 </mvc:View>*HIGHLIGHT END*
 ```
 
