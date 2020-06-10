@@ -28,7 +28,7 @@ The component class provides specific metadata for components by extending the `
 > 
 > 
 
-The metadata defined in `Component.js` is common for faceless components and UI components. The following parameters are available:
+The metadata defined in `Component.js` is common for components. The following parameters are available:
 
 -   `manifest`: Specifies if your component uses the descriptor
 
@@ -129,7 +129,7 @@ sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
     "metadata": {
         "publicMethods": [ "render" ],
         "aggregations": {
-            "rootControl": { 
+            "rootControl": {
                 "type": "sap.ui.core.Control", multiple: false, visibility: "hidden"
             }
         }

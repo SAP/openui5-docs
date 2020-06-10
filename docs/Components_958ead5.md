@@ -23,14 +23,14 @@ OpenUI5 provides the following two types of components:
 
 -   Faceless components \(class: `sap.ui.core.Component`\)
 
-    Faceless components do **not** have a user interface and are used, for example, for a service that delivers data from a back-end system.
+    Faceless components do **not** have a user interface and are used for coding where no UI elements are needed. Please consider that a faceless component can't be added to a `ComponentContainer`. For more information, see the API Reference: [`sap.ui.core.ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer%23associations).
 
 -   UI components \(class: `sap.ui.core.UIComponent`\)
 
     UI components extend components and add rendering functionality to the component. They represent a screen area or element on the user interface, for example, a button or a shell, along with the respective settings and metadata. `sap.ui.core.UIComponent` extends `sap.ui.core.Component` and adds rendering functionality to the component.
 
 
-The `sap.ui.core.Component` class is the base class for UI and faceless components and provides the metadata for both types of components. To extend the functionality, components can inherit from their base class or from another component.
+The `sap.ui.core.Component` class is the base class and provides the metadata for both types of components. To extend the functionality, components can inherit from their base class or from another component.
 
 Components are loaded and created via the component factory function `sap.ui.component`. You can either pass the name of the component or the URL of the descriptor file \(`manifest.json`\) to load it via the descriptor, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst). We recommend loading the component using the descriptor \(if available\) - it improves performance during the initial load since the loading process can be parallelized and optimized.
 

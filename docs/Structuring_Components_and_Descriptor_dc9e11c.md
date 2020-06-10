@@ -10,5 +10,5 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Structuring: Components and Descriptor
 
-OpenUI5 provides faceless components for services that deliver data from the back end system, and UI components that extend components and add rendering functionality. The descriptor provides a central, machine-readable and easy-to-access location for storing metadata associated with an application, an application component, or a library.
+OpenUI5 provides Components as independent and reusable parts of UI5 applications. They facilitate the encapsulation of closely related parts of an application, thus enabling developers to structure and maintain their applications more easily.
 
