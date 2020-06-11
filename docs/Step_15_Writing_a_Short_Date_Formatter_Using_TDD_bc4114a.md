@@ -139,8 +139,8 @@ Now we fix our test again by returning the expected string.
 
 ``` js
 sap.ui.define([
-	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
+	"sap/ui/demo/bulletinboard/model/DateFormatter"*HIGHLIGHT START*,
+	"sap/ui/core/Locale"*HIGHLIGHT END*
 ], function(DateFormatter, Locale) {
 	QUnit.module("DateFormatter");
 	QUnit.test("Should return empty string if no date is given", function(assert) {
