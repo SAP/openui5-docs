@@ -14,10 +14,10 @@ Control properties are defined as follows:
 
 ``` js
 properties: {
-   title : "string",                         // a simple string property, default value is undefined
-   buttonText : {defaultValue: "Search"},    // when no type is given, the type is string
-   showLogoutButton : {type : "boolean", defaultValue : true},   // a boolean property where a default value is given
-   width : {type : "sap.ui.core.CSSSize", defaultValue : "50px"} // a CSS size property where a default value is given
+    title : "string",                         // a simple string property, default value is undefined
+    buttonText : {defaultValue: "Search"},    // when no type is given, the type is string
+    showLogoutButton : {type : "boolean", defaultValue : true},   // a boolean property where a default value is given
+    width : {type : "sap.ui.core.CSSSize", defaultValue : "50px"} // a CSS size property where a default value is given
 }
 ```
 
@@ -25,10 +25,8 @@ After the property is defined, the control automatically has the `setShowLogoutB
 
 ``` js
 MyControl.prototype.setShowLogoutButton = function(show) {
-	// …here anything in addition to the default handling can be done…
-	// then do the default handling:
-	this.setProperty("showLogoutButton", show); // this validates and stores the new value
-	return this; // return "this" to allow method chaining
+    this.setProperty("showLogoutButton", show); // this validates and stores the new value
+    return this; // return "this" to allow method chaining
 };
 
 ```
@@ -44,7 +42,7 @@ Built-in Types<a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_gkp_kb2_2y"/>
 | `boolean` |Can either be `true` or `false`. Properties of that type should not be set to `undefined` or `null`. The default value is `false`.|
 | `int` |JavaScript primitive values of type `number` and that don’t have a fractional part. To keep the implementation efficient, the constraint is not enforced. Declaring a property as type `int` is rather for information reasons. The corresponding object expects any given value to be an integer value. The default value of the type is the number `0`.|
 | `float` |JavaScript primitive values of type `number` that can have a fractional part. It is named `float` instead of `number` to differentiate it from type `int` . The default value is the number `0`.|
-| `string` |JavaScript string literal \(`typeof value === ‚string’`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.|
+| `string` |JavaScript string literal \(`typeof value === "string"`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.|
 | `object` |Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`. Don't mix this type up with the `any` type! \(Sorry, we maybe should have named it „`serializable`“ or „`JSON`“ or something like that, to make this more clear...\).|
 | `any` |Any valid Javascript value \(including primitives, objects, functions, regular expressions, and native objects\). The support in serialized formats is quite limited. Valid JSON strings will be deserialized to an object. The default value is `null`.|
 | `function` |Can be any JavaScript function. Note that properties of this type currently can't be used in serialized formats like XMLViews. If an XMLView needs to set a value for a control property of type function, it has to set the value in its controller code \(e.g. in the `onInit` hook\).|
@@ -83,13 +81,13 @@ This was an early design decision in OpenUI5 and framework code relies on it. Th
 */
 sap.m.ValueColor = {
 
-	/**
-	* Neutral value color.
-	* @public
-	*/
-	Neutral : "Neutral",
+    /**
+    * Neutral value color.
+    * @public
+    */
+    Neutral : "Neutral",
 
-	[…]
+    …
 };
 
 ```
@@ -97,7 +95,7 @@ sap.m.ValueColor = {
  Example for defining a property using an enumeration: ``` js
 
 properties: {
-	myProperty : {type: "sap.m.ValueColor", defaultValue: "Neutral"}
+    myProperty : {type: "sap.m.ValueColor", defaultValue: "Neutral"}
 }
 
 ```
@@ -106,8 +104,8 @@ properties: {
 |array|You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension. Example: ``` js
 
 properties: {
-	myProperty1 : "int[]",
-	myProperty2 : "int[][]"
+    myProperty1 : "int[]",
+    myProperty2 : "int[][]"
 }
 
 ```

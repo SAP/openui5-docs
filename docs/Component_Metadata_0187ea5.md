@@ -147,14 +147,12 @@ You can add a properties section to the metadata for all properties that can ado
 
 sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
     "metadata": {
-   	"abstract": true,
-   	"version": "1.0",
-
-[… omitting some lines to make the example shorter]
-
+        "abstract": true,
+        "version": "1.0",
+...
         "properties": {
-		  "appTitle": {
-          	 "name":"appTitle",
+            "appTitle": {
+                "name":"appTitle",
                 "type":"string",
                 "defaultValue":"Default Value that will be replaced with something meaningful through the setter for this property"
             },
@@ -163,8 +161,8 @@ sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
                 "type":"string",
                 "defaultValue":"Some text"
             }
-	    }
-	}
+        }
+    }
 });
 ```
 
