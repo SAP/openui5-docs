@@ -157,7 +157,7 @@ sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
                 "defaultValue":"Default Value that will be replaced with something meaningful through the setter for this property"
             },
             "someOtherProp": {
-          	 "name":"myProperty",
+                "name":"myProperty",
                 "type":"string",
                 "defaultValue":"Some text"
             }
