@@ -57,8 +57,6 @@ With this release OpenUI5 is upgraded from version 1.78 to 1.79.
 			<td>**`sap.ui.integration.widgets.Card`**-   We have introduced the Extension JavaScript module \(experimental\), which enables developers to extend the built-in capabilities of the card. You can use it to specify custom logic for fetching data, define custom data formatters, or add custom actions to the card. For more information, see the [Card Extension](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/extension) section and the [Card Extension Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension) in the Card Explorer. -   The dynamic filtering feature \(experimental\) is now available, which allows developers to define custom filters in the manifest of the card. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/filtering) in the Card Explorer.
 			</td>
 		</tr>
-		<tr>
-			<td> **`sap.ui.richtexteditor.RichTextEditor`** We have updated the `sap.ui.richtexteditor.RichTextEditor` and respectively the TinyMCE library from version 4.7.13 to the latest currently available 4.9.10, in order to be in sync with the latest fixes and updates.</td>
 	</tbody>
 </table>
 
