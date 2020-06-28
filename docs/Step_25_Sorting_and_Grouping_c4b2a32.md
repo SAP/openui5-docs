@@ -94,7 +94,7 @@ xmlns:mvc="sap.ui.core.mvc">
 
 We modify the view and add a different sorter, or better; we change the sorter and set the attribute `group` to true. We also specify the path to the `ShipperName` data field. This groups the invoice items by the shipping company.
 
-As with the sorter, no further action is required. The list and the data binding features of OpenUI5 will do the trick to display group headers automatically and categorize the items in the groups. We could define a custom grouping function if we wanted by setting the `groupHeaderFactory` property, but the result looks already fine.
+As with the sorter, no further action is required. The list and the data binding features of OpenUI5 will do the trick to display group headers automatically and categorize the items in the groups. We could define a custom group header factory if we wanted by setting the `groupHeaderFactory` property, but the result looks already fine.
 
 **Related information**  
 
