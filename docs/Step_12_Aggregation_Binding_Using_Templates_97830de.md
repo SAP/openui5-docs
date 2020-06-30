@@ -72,10 +72,12 @@ sap.ui.require([
 		sap.ui.getCore().setModel(oModel);
 
 		var oResourceBundle = new ResourceModel({
-			bundleName: "sap.ui.demo.db.i18n.i18n"
+			bundleName: "sap.ui.demo.db.i18n.i18n",
+			supportedLocales: ["", "de"],
+			fallbackLocale: ""
 		});
 
-		sap.ui.getCore().setModel(oResourceBundle, "i18n");
+		sap.ui.getCore().setModel(oResourceModel, "i18n");
 
 		// Create the XML view called "App"
 		var oView = new XMLView({

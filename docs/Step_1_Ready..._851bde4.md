@@ -43,7 +43,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 	<meta charset="utf-8">
 	<title>Quickstart Tutorial</title>
 	<script id="sap-ui-bootstrap"
-		src="../../../../../../../../resources/sap-ui-core.js"
+		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-resourceroots='{"Quickstart": "./"}'

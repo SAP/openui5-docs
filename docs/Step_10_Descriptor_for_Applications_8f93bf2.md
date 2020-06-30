@@ -78,7 +78,9 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 	  "i18n": {
 		"type": "sap.ui.model.resource.ResourceModel",
 		"settings": {
-		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
+		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+		  "supportedLocales": [""],
+		  "fallbackLocale": ""
 		}
 	  }
 	}

@@ -65,7 +65,9 @@ In the models section of the `sap.ui5` namespace we define two models that will 
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.demo.masterdetail.i18n.i18n"
+					"bundleName": "sap.ui.demo.masterdetail.i18n.i18n",
+					"supportedLocales": [""],
+					"fallbackLocale": ""
 				}
 			},
 			"": {

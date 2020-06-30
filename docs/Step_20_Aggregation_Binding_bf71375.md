@@ -91,7 +91,9 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 	  "i18n": {
 		"type": "sap.ui.model.resource.ResourceModel",
 		"settings": {
-		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n"
+		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+		  "supportedLocales": [""],
+		  "fallbackLocale": ""
 		}
 	  }*HIGHLIGHT START*,
 	  "invoice": {
