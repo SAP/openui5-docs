@@ -112,7 +112,7 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
 In the XML view, we use data binding to connect the button text to the `showHelloButtonText` property in the `i18n` model. A resource bundle is a flat structure, therefore the preceding slash \(/\) can be omitted for the path.
 
 > Note:
-> The description text is not completely localized in this example for illustration purposes. To be on the safe side, we would have to use a similar mechanism as in the controller to use a string from the resource bundle and replace parts of it. This can be done with the `jQuery.sap.formatMessage` formatter.
+> The description text is not completely localized in this example for illustration purposes. To be on the safe side, we would have to use a similar mechanism as in the controller to use a string from the resource bundle and replace parts of it. This can be done with the `sap.base.strings.formatMessage` formatter.
 > 
 > Furthermore, `i18n` files only impact client-side application texts. Texts that are loaded from back-end systems can appear in all languages that are supported by the back-end system.
 > 
@@ -140,7 +140,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
 
-[API Reference: `jQuery.sap.util.ResourceBundle`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.util.ResourceBundle.html)
+[API Reference: `sap/base/i18n/ResourceBundle`](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
 
 [API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
 

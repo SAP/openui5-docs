@@ -180,5 +180,5 @@ If you want to dive deeper into specific topics, you can use the other tutorials
 
 [API Reference: `sap.ui.Device`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.html)
 
-[API Reference: `jQuery.sap.syncStyleClass`](https://openui5.hana.ondemand.com/#/api/jQuery.sap/methods/jQuery.sap.syncStyleClass)
+[API Reference: `sap.ui.core.syncStyleClass`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/core/syncStyleClass)
 

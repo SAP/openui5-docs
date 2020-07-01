@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The enhanced concept for application cache buster takes care about most of the URLs in a general way.
 
-The first iteration of the Application Cache Buster only supports files which have been loaded via `jQuery.ajax`. The enhanced concept supports the transformation of URLs for `jQuery.sap.includeScript`, `jQuery.sap.includeStyleSheet`, and properties of the type `sap.ui.core/URI`. Additionally the enhanced concept allows to register components or base URLs which are considered by the Application Cache Buster. This base URL is used to load the index file with the timestamp information.
+The first iteration of the Application Cache Buster only supports files which have been loaded via `jQuery.ajax`. The enhanced concept supports the transformation of URLs for `sap.ui.dom.includeScript`, `sap.ui.dom.includeStyleSheet`, and properties of the type `sap.ui.core/URI`. Additionally the enhanced concept allows to register components or base URLs which are considered by the Application Cache Buster. This base URL is used to load the index file with the timestamp information.
 
 ***
 

@@ -99,8 +99,8 @@ If you want to implement a preprocessor that has influence on the creation of vi
 
 ``` xml
 // Example preprocessor implementation
-sap.ui.define(['jquery.sap.global', 'sap/ui/base/Object'],
-	function(jQuery, BaseObject) {
+sap.ui.define(['sap/ui/base/Object'],
+	function(BaseObject) {
 		'use strict';
 
 		var TestPreprocessor = BaseObject.extend("smy.TestPreprocessor", {});

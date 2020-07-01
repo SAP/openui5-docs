@@ -43,7 +43,7 @@ The difference between the state when the list was initially loaded and the curr
 > | **Difference** |
 > | `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` |
 > 
-> The algorithm is implemented in the utility method `jQuery.sap.arraySymbolDiff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
+> The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 > 
 > 
 

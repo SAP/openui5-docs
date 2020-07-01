@@ -15,41 +15,35 @@ Mock Data can be used when you start the development of an app as well as for te
 To switch to mock mode, set the URL parameter `responderOn` to `true`. We recommend to provide one check for this parameter in the app in a central place, for example in the `model.Config` object in the `model` folder.
 
 ```
-jQuery.sap.declare("model.Config");
-
-model.Config = {};
-
-(function () {
-    
-    // The "reponder" URL parameter defines if the app shall run with mock data
-    var responderOn = jQuery.sap.getUriParameters().get("responderOn");
-    
-    // set the flag for later usage
-    model.Config.isMock = ("true" === responderOn);
-}
-)();
-
+// module:model/Config
+sap.ui.define(["sap/base/util/UriParameters"], function(UriParameters) {
+    return {
+        isMock: ("true" === UriParameters.fromUrl(window.location.href).get("responderOn"));
+    }
+});
 ```
 
 To run your app with mock data, you can use the mock server. The mock server intercepts HTTP calls to the server and produces a faked output to the client. This is transparent to your data binding and the use of OData model and feels like a real server. You start the mock server when you intialize your app as follows:
 
 ```
-sap.ui.app.Application.extend("Application", {
-    
-    init : function () {
-        
-        ...
-        
-        // start mock server
-        if (model.Config.isMock) {
-            jQuery.sap.require("sap.ui.core.util.MockServer");
-            var oMockServer = new sap.ui.core.util.MockServer({
-                rootUri: model.Config.getServiceUrl();
-            });
-            oMockServer.simulate("model/metadata.xml", "model/");
-            oMockServer.start();
+sap.ui.define([
+    "model/Config",
+    "sap/ui/app/Application",
+    "sap/ui/core/util/MockServer"], function(ModelConfig, BaseApplication, MockServer) {
+    return BaseApplication.extend("Application", {
+        init : function () {
+            ...
+            // start mock server
+            if (ModelConfig.isMock) {
+                var oMockServer = new MockServer({
+                    rootUri: ModelConfig.getServiceUrl();
+                });
+                oMockServer.simulate("model/metadata.xml", "model/");
+                oMockServer.start();
+            }
         }
-
+    }
+});
 ```
 
 The mock server needs a metadata XML file that describes the data structure of your service. You can obtain this by opening the OData service root URL in a browser with the suffix "$metadata" appended. Copy the resulting XML file into the model folder of your application.

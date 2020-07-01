@@ -51,7 +51,7 @@ The following method names have a specific meaning and should be used accordingl
 > 
 
 > Note:
-> When you modify the HTML of a control using the code in the control behavior file, make sure to escape any unchecked data you write with `jQuery.sap.encodeHTML(...)` to prevent cross-site-scripting issues. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
+> When you modify the HTML of a control using the code in the control behavior file, make sure to escape any unchecked data you write with `sap.base.security.encodeXML(...)` to prevent cross-site-scripting issues. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
 > 
 > 
 

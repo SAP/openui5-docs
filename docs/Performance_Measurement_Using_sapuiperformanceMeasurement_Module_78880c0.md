@@ -19,7 +19,7 @@ You can measure the categories that are used by the OpenUI5 core classes as list
 |Category|Description|
 |--------|-----------|
 | `javascript` \(default\)|Default measurement category if no category is provided|
-| `require` |Identifies the duration of `jQuery.sap.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class|
+| `require` |Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class|
 | `xmlhttprequest` |Identifies the duration of an `jQuery.ajax` call|
 | `render` |Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class With the `render` category there comes an additional set of categories to distinguish between different phases of rendering|
 | `control` |Identifies the duration for HTML rendering provided with the `ControlRender.render` method|
