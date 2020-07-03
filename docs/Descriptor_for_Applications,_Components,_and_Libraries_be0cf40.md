@@ -611,7 +611,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.23.0",
+    "_version": "1.24.0",
  
     "start_url": "index.html",
  
@@ -846,7 +846,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.79.0",
+            "minUI5Version": "1.80.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
