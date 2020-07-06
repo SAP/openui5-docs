@@ -115,6 +115,7 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 		}'
 		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/index">
 	</script>
+	<script src="index.js"></script>
 </head>
 <body class="sapUiBody" id="content">
 </body>
