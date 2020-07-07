@@ -1057,6 +1057,9 @@
 													},
 													"Automatic determination of $expand and $select": {
 														"link": "Automatic_determination_of_$expand_and_$select_10ca58b.md"
+													},
+													"Data Reuse": {
+														"link": "Data_Reuse_648e360.md"
 													}
 												}
 											},

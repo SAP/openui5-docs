@@ -93,6 +93,8 @@ There are two options to place the `ValueList` annotation:
 **Related information**  
 
 
+[Data Reuse](Data_Reuse_648e360.md)
+
 [OData 4.0 Vocabularies - SAP Common \> ValueListType](https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common#ValueListType)
 
 [OData 4.0 Vocabularies - SAP Common \> ValueListMappingType](https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common#ValueListMappingType)

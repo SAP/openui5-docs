@@ -325,6 +325,7 @@
                         -   [Context API](Context_API_22ee78b.md)
                         -   [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md)
                         -   [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md)
+                        -   [Data Reuse](Data_Reuse_648e360.md)
                     -   [Binding Events](Binding_Events_1a010d3.md)
                     -   [Filtering](Filtering_5338bd1.md)
                     -   [Sorting](Sorting_d2ce3f5.md)

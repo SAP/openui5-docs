@@ -34,18 +34,9 @@ By default, the OData V4 model collects all requests made to the OData service i
 
 ***
 
-### Binding Caches
+### Data Reuse
 
-Absolute bindings and also relative bindings, which fulfill certain conditions, have a cache that is used for their data. Once data is read, all value requests \(e.g. those made by dependent relative bindings\) are served by this cached data. `ODataListBinding` additionally supports paging. For more information about this, see [Bindings](Bindings_54e0ddf.md).
-
-Calling `refresh` on an absolute binding clears its cache as well as the caches of its relative child bindings. Calling `refresh` on the model refreshes all bindings that have been created by that model.
-
-> Note:
-> Relative bindings have an own cache store cache by context. When you change the context of the relative binding and then switch back to the previous context, the latter context change will not lead to a data request as the cache holding this data is reused. This is useful for master-detail scenarios where selection in the master leads to setting the corresponding context in the relative binding for the detail. Entries in the master that have already been selected won't lead to a data request.
-> 
-> **Note:** For the above mechanism to work, you must not recreate a relative binding as you then lose the cache for the previously selected contexts. Keep the binding and just set its context.
-> 
-> 
+The reuse of data in different bindings may help to avoid unnecessary requests. The available options are described in detail in the chapter [Data Reuse](Data_Reuse_648e360.md).
 
 ***
 

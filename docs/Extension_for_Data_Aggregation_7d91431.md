@@ -67,7 +67,9 @@ Two scenarios are supported:
     				
     ```
 
--   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the `groupable` and `aggregatable` properties. Only the first node of the first level can be expanded. Paging is not supported. Group levels cannot be combined with filtering or with the system query option `$count : true`.
+-   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the `groupable` and `aggregatable` properties. To achieve this, specify the names of the group levels in the `groupLevel` property of `$$aggregation`.
+
+    Collapse is not yet implemented. Group levels cannot be combined with filtering or with the system query option `$count : true`.
 
 
 > Note:
