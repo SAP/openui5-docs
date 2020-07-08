@@ -47,6 +47,9 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 20|\>=1.75|1.19.0|
 |Version 21|\>=1.76|1.20.0|
 |Version 22|\>=1.77|1.21.0|
+|Version 23|\>=1.78| |
+|Version 24|\>=1.79| |
+|Version 25|\>=1.80| |
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 

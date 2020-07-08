@@ -164,10 +164,10 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     sap.ui.require\(\[
         "cust/emp/myleaverequests/Configuration", 
         "hcm/emp/myleaverequests/Component"\], function\(Configuration, ComponentBase\) \{
-        ComponentBase.extend("cust.emp.myleaverequests.Component", { 
-        metadata :  {
-            "name" : "My Leave Requests",
-            "version" : "1.2.6"
+        ComponentBase.extend\("cust.emp.myleaverequests.Component", \{ 
+            metadata :  {
+                "name" : "My Leave Requests",
+                "version" : "1.2.6"
         
     });
     ```
@@ -656,12 +656,12 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     
     sap.ui.define\("cust.emp.myleaverequests.Component"\);
     //sap.ui.require\("cust.emp.myleaverequests.Configuration"\);
-    sap.ui.require(["hcm/emp/myleaverequests/Component"], function(ComponentBase) { 
+    sap.ui.require\(\["hcm/emp/myleaverequests/Component"\], function\(ComponentBase\) \{
     
-    ComponentBase.extend\("cust.emp.myleaverequests.Component", \{
-        metadata : \{
-            "manifest": "json",
-            ...
+        ComponentBase.extend\("cust.emp.myleaverequests.Component", \{
+            metadata : \{
+                "manifest": "json",
+                ...
     
     \}\);
     ```
