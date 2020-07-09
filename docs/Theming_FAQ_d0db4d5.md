@@ -46,7 +46,7 @@ However, it is important to understand the precedence rules of CSS: The order of
 
 For example, if one rule says `button {color:red;}` to make all button texts red, and a second rule says `div > button {color:green;}` to make all button texts, which are direct children of a `<div>` element, green, the second rule always wins because it is more specific. The order of appearance in the DOM does not matter in this case. It would only matter if both rules started with an equal selector, such as `button{color:***}`.
 
-The order of loading is completely irrelevant, only the position in the DOM counts in this case. If you load OpenUI5 without a `<script>` tag in the `<head>`, or if you do not specify all used control libraries in the `<script>` tag, but loaded some of them later on when the body was already loaded, you can still make sure a custom CSS appears further down in the DOM by loading it with `jQuery.sap.includeStyleSheet(stylesheetUrl[, id])`**after** loading OpenUI5 or the dynamically loaded control library.
+The order of loading is completely irrelevant, only the position in the DOM counts in this case. If you load OpenUI5 without a `<script>` tag in the `<head>`, or if you do not specify all used control libraries in the `<script>` tag, but loaded some of them later on when the body was already loaded, you can still make sure a custom CSS appears further down in the DOM by loading it with `sap.ui.dom.includeStyleSheet(stylesheetUrl[, id])`**after** loading OpenUI5 or the dynamically loaded control library.
 
 **Related Information**
 

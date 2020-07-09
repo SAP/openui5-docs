@@ -86,8 +86,8 @@ Once you choose the correct location for the `library.support.js`, the next step
 Here is an example of how to add and use the `SupportLib`:
 
 ``` js
-sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
-  function(jQuery, SupportLib) {
+sap.ui.define(["sap/ui/support/library"],
+  function(SupportLib) {
     "use strict";
     var rule1 = {
       ...
@@ -146,8 +146,8 @@ This is an example of a `library.support.js` before the split:
 ***
 
 ``` js
-sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
-  function(jQuery, SupportLib) {
+sap.ui.define(["sap/ui/support/library"],
+  function(SupportLib) {
     "use strict";
     var buttonRule = {…};
 
@@ -174,8 +174,8 @@ In this example there are three rules - one for button and two for label. Splitt
     `Button.support.js`:
 
     ``` js
-    sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
-      function(jQuery, SupportLib) {
+    sap.ui.define(["sap/ui/support/library"],
+      function(SupportLib) {
         "use strict";
         var buttonRule = {…};
     
@@ -187,8 +187,8 @@ In this example there are three rules - one for button and two for label. Splitt
     `Label.support.js:`
 
     ``` js
-    sap.ui.define(["jquery.sap.global", "sap/ui/support/library"],
-      function(jQuery, SupportLib) {
+    sap.ui.define(["sap/ui/support/library"],
+      function(SupportLib) {
         "use strict";
         var labelRule1 = {…};
     
@@ -207,10 +207,10 @@ In this example there are three rules - one for button and two for label. Splitt
 2.  Require the newly created files in `library.support.js`:
 
     ``` js
-    sap.ui.define(["jquery.sap.global", "sap/ui/support/library",
+    sap.ui.define(["sap/ui/support/library",
         "./Button.support", "./Label.support"
       ],
-      function(jQuery, SupportLib, ButtonSupport,
+      function(SupportLib, ButtonSupport,
         LabelSupport) {
         "use strict";
     

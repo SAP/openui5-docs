@@ -83,7 +83,7 @@ sap.ui.define([
   "sap/ui/test/gherkin/StepDefinitions",
   "sap/ui/test/Opa5",
   "sap/ui/test/gherkin/dataTableUtils"
-], function($, StepDefinitions, Opa5, dataTableUtils) {
+], function(StepDefinitions, Opa5, dataTableUtils) {
   "use strict";
 
   return StepDefinitions.extend("GherkinWithOPA5.Steps", {
@@ -131,7 +131,7 @@ Here is a sample HTML bootstrap file for Gherkin. In this example, the feature f
         "jquery.sap.global",
         "sap/ui/test/gherkin/opa5TestHarness",
         "GherkinWithOPA5/Steps"
-      ], function($, opa5TestHarness, Steps) {
+      ], function(opa5TestHarness, Steps) {
         "use strict";
 
         opa5TestHarness.test({

@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 Full example of a class definition, including JSDoc
 
 ``` js
-sap.ui.define(["jQuery.sap.global", "sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (jQuery, BaseObject, JSONModel) {
+sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (BaseObject, JSONModel) {
  
     // declare and document the constructor function
  

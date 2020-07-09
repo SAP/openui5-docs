@@ -36,7 +36,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   Use a message dialog if the message is important and must be acknowledged by the user.
 -   The easiest way of showing a message dialog is to use the `sap.m.MessageBox`.
 -   If you want full control of the content you can also use `sap.m.Dialog` control and set the type to `sap.m.DialogType.Message`.
--   As `MessageBox` is a static class, a `jQuery.sap.require("sap.m.MessageBox");` statement must be explicitly executed before the class can be used.
+-   As `MessageBox` is a static class, a `sap.ui.require("sap.m.MessageBox");` statement must be explicitly executed before the class can be used.
 
 > Note:
 > ``` js

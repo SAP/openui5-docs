@@ -42,7 +42,7 @@ Example:
 
 myCustomScroller.prototype.onAfterRendering = function() {
   if(!this._oScroller){
-    jQuery.sap.require("sap.ui.core.delegate.ScrollEnablement");
+    sap.ui.require("sap/ui/core/delegate/ScrollEnablement");
     // attach a scroller to the scrollable container DOM element
     this._oScroller = new sap.ui.core.delegate.ScrollEnablement(this, this._scrollContainerId, {
       horizontal: false,

@@ -206,9 +206,8 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
     sap.ui.define([
     	"sap/ui/core/mvc/Controller",
     	'sap/m/MessageToast',
-    	**'sap/ui/ux3/NavigationBar'**,
-    	'jquery.sap.global'
-    ], function(Controller, MessageToast, **NavigationBar,** jQuery) {
+    	**'sap/ui/ux3/NavigationBar'**
+    ], function(Controller, MessageToast, **NavigationBar**) {
     ...
     ```
 
