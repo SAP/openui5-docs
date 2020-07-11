@@ -20,7 +20,7 @@ The OData V4 model keeps data with respect to bindings. This allows different vi
 
 ### Relative Bindings
 
-An OData V4 binding may or may not trigger own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not raise its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a V4 context, `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the binding parameter `$$noPatch` of the OData V4 property binding.
+An OData V4 binding may or may not trigger own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not raise its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a V4 context, `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the `$$noPatch` binding parameter of the OData V4 property binding.
 
 The following example shows a typical master-detail scenario with a list of objects and the details of the selected object:
 
