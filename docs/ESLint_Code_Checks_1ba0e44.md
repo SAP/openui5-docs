@@ -98,9 +98,8 @@ Strict Mode<a name="loio1ba0e44f1036439b95f25527664f14f7__table_vxj_v3n_np"/>
 
 |Rule|ESLint defaul|Core|
 |----|-------------|----|
-|`global-strict`|off|**error**|
 |`no-extra-strict`|error|error|
-|`strict`|error|**warning**|
+|`strict`|error|error|
 
 Variables<a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>
 
@@ -156,11 +155,11 @@ Stylistic<a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>
 |`quote-props`|off|off| |
 |`semi`|error|error| |
 |`sort-vars`|off|off| |
-|`space-after-keywords`|off|**error**|`always`|
+|`keyword-spacing`|error|error|`“after”: true`|
 |`space-in-brackets`|off|off| |
 |`space-infix-ops`|error|error| |
 |`space-return-throw-case`|error|error| |
-|`space-unary-word-ops`|off|**error**| |
+|`space-unary-ops`|error|error| |
 |`max-nested-callbacks`|off|**warning**|`3`|
 |`one-var`|off|off| |
 |`wrap-regex`|off|off| |

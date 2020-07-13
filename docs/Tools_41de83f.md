@@ -25,5 +25,5 @@ The following guidelines and recommendations apply:
 
 ### ESLint
 
-OpenUI5 contains a mandatory ruleset for ESLint. For a complete list of rules and settings, see [ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md). For the ESLint configuration file, see [ESLint Configuration File](ESLint_Configuration_File_ccfe356.md).
+OpenUI5 contains a mandatory ruleset for ESLint \(v.7.0.0\). For a complete list of rules and settings, see [ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md). For the ESLint configuration file, see [ESLint Configuration File](ESLint_Configuration_File_ccfe356.md).
 

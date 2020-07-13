@@ -26,7 +26,6 @@ Content of the ESLint configuration file
 		"block-scoped-var": 1,
 		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
 		"consistent-this": 2,
-		"global-strict": 2,
 		"no-div-regex": 2,
 		"no-floating-decimal": 2,
 		"no-self-compare": 2,
@@ -34,8 +33,8 @@ Content of the ESLint configuration file
 		"no-nested-ternary": 2,
 		"no-unused-vars": [2, {"vars":"all", "args":"none"}],
 		"radix": 2,
-		"space-after-keywords": [2, "always"],
-		"space-unary-word-ops": 2,
+		„keyword-spacing”: [2, {“after”: true}],
+		"space-unary-ops": 2,
 		"wrap-iife": [2, "any"],
 
 		"camelcase": 1,
@@ -50,7 +49,7 @@ Content of the ESLint configuration file
 		"no-unused-expressions": 1,
 		"no-use-before-define": [1, "nofunc"],
 		"no-warning-comments": 1,
-		"strict": 1,
+		"strict": 2,
 		"valid-jsdoc": [1, {
 			"requireReturn": false
 		}],
