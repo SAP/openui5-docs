@@ -176,28 +176,11 @@ karma start karma-ci.conf.js
 
 <!-- loio1851a066b0e34d84ae00f887445239e5 -->
 
-## Code Coverage with Istanbul and OPA5
+## Code Coverage
 
-To measure the code coverage, you can use the *Istanbul Code Coverage* plugin for *Karma*. Since the *Istanbul* plugin cannot retrieve results from within iFrames, you may run into problems if you use OPA5 tests.
+To measure the code coverage, you can use the [*Coverage* plugin](https://github.com/karma-runner/karma-coverage) for *Karma*.
 
-To get correct code coverage results for OPA5 tests, you need to execute them inside the component containers instead of iFrames. This will also speed up the execution time of your OPA5 tests.
+In case your application is started within a frame \(`iStartMyAppInAFrame`\) you need to enable iframe coverage reporting. See the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#configureiframecoverage) for details.
 
-> Note:
-> With component containers, you lose the isolation of your single tests. Also, the `index.html` file of your app is no longer executed \(only the `Component.js` file is needed\).
-> 
-> 
-
-To execute the tests inside a component container, replace `iStartMyAppInAFrame()` with `iStartMyUIComponent()` and `iTeardownMyAppFrame()` with `iTeardownMyApp()` in all your OPA5 tests.
-
-> Note:
-> Currently, this does not work for apps that are created for the SAP Fiori launchpad \(FLP\).
-> 
-> 
-
-For more information, see the [API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html).
-
-**Related information**  
-
-
-[*Istanbul Code Coverage* Home Page](https://istanbul.js.org/)
+For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html). 
 

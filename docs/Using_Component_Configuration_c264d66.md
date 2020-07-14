@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 supports the extension of a base controller by merging the delivered standard controller with a custom controller on JavaScript object level.
 
+OpenUI5 supports two different extension variants. The latest and recommended variant is called [Controller Extension](Using_Controller_Extension_21515f0.md). The old variant, called **Component Configuration** is described in the following section / subsections.
+
 The OpenUI5 controller extension concept does **not** use inheritance. Instead, methods of the custom controller override standard methods with the same name. The following controller lifecycle methods are, however, an exception to this rule: `onInit`, `onExit`, `onBeforeRendering`, `onAfterRendering`. For these methods, the controller methods of your custom application are called either after \(for `onInit` and `onAfterRendering`\), or before \(for `onExit` and `onBeforeRendering`\) the standard lifecycle methods.
 
 The following examples show how controller extension concept in OpenUI5 works. The following code snippet shows the standard controller `Main.controller.js` of the delivered standard application:
@@ -24,32 +26,32 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
             console.log("samples.components.ext.sap.Main - onInit");
         },
 
-            doSomething: function() {
+        doSomething: function() {
             alert("this is an original standard action");
         },
 
-            doSomeStandardAction: function() {
+        doSomeStandardAction: function() {
             alert("this is another original standard action");
         }
     });
 });
 ```
 
-The following code snippet represents the custom controller `CustomMain.controller.js`:
+The controller extension must not be typed as a controller, but as a plain object. If you prefer to use typed controllers, you can follow the [Controller Replacement](Controller_Replacement_b0b14bf.md) approach. The following code snippet represents the custom controller `CustomMain.controller.js`:
 
 ``` js
-sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
+sap.ui.define([], function() {
     "use strict";
-    return Controller.extend("samples.components.ext.customer.CustomMain", {
+    return {
        onInit : function () {
             console.log("samples.components.ext.customer.CustomMain - onInit");
         },
 
-            doSomething: function() {
+        doSomething: function() {
             alert("this is a customer action");
         },
 
-            doSomeCustomAction: function() {
+        doSomeCustomAction: function() {
             alert("this is another customer action");
         }
     });

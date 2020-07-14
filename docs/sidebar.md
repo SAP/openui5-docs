@@ -472,7 +472,7 @@
             -   [Test Automation](Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0)
                 -   [Installing Karma for Automated Testing](Test_Automation_ae44824.md#loioa182676ed3714bd5b4f011eb29076f6c)
                 -   [Continuous Integration With Headless Chrome](Test_Automation_ae44824.md#loio8c27b0ab239242c69f181208c9b8fb1d)
-                -   [Code Coverage with Istanbul and OPA5](Test_Automation_ae44824.md#loio1851a066b0e34d84ae00f887445239e5)
+                -   [Code Coverage](Test_Automation_ae44824.md#loio1851a066b0e34d84ae00f887445239e5)
             -   [Behavior-driven Development with Gherkin](Behavior-driven_Development_with_Gherkin_45ac9f1.md)
                 -   [Feature Files](Feature_Files_9113397.md)
                     -   [Additional Options for Feature Files](Additional_Options_for_Feature_Files_a509db4.md)

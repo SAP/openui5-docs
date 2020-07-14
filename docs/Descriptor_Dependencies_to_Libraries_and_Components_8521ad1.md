@@ -88,6 +88,8 @@ sap.ui.getCore().initLibrary({
 
 ***
 
+<a name="loio8521ad1955f340f9a6207d615c88d7fd__section_qkj_sdf_3mb"/>
+
 ### Dependencies to Components
 
 **Scenario 1:** UI library contains multiple components
@@ -143,12 +145,13 @@ var oReuseComponentPromise = this.createComponent("myReuseComponent");
 
 The full list of options for the `createComponent` factory method can be found in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/createComponent). 
 
-> Note:
-> As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
-> 
-> For more information, see: [Using and Nesting Components](Using_and_Nesting_Components_346599f.md). This includes information how to migrate your component declarations from the old `sap.ui5/dependencies/components` section to the modern `sap.ui5/componentUsages` section of your `manifest.json`.
-> 
-> 
+***
+
+#### Nested components
+
+As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and indicate whether the component should be loaded lazily or not. The declaration of the component as a separate dependency is not recommended and should be avoided in this case.
+
+For more information, see: [Using and Nesting Components](Using_and_Nesting_Components_346599f.md) and [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md). These section include information how to migrate your component declarations from the old `sap.ui5/dependencies/components` section to the modern `sap.ui5/componentUsages` section of your `manifest.json` and enable routing in nested components.
 
 **Related information**  
 

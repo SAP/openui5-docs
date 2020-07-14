@@ -33,10 +33,9 @@ Content of the ESLint configuration file
 		"no-nested-ternary": 2,
 		"no-unused-vars": [2, {"vars":"all", "args":"none"}],
 		"radix": 2,
-		„keyword-spacing”: [2, {“after”: true}],
+		"keyword-spacing": [2, {“after”: true}],
 		"space-unary-ops": 2,
 		"wrap-iife": [2, "any"],
-
 		"camelcase": 1,
 		"consistent-return": 1,
 		"max-nested-callbacks": [1, 3],
