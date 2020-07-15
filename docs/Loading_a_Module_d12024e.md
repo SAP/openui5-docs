@@ -117,11 +117,24 @@ sap.ui.define(['sap/ui/core/mvc/View', 'sap/ui/core/Fragment'], function(View, F
 
 ***
 
-#### `instanceof` Checks for Dynamically Required Modules
+#### Checks for Dynamically Required Modules
 
-You can use the following approach to make sure your `instanceof` check is valid without the need to actually load the module.
+You can use one of the following approaches to perform a type check on your module:
 
-To perform an `instanceof` check, the respective class does not need to be loaded. If the class module is not loaded, there can never be an instance of that class. The `sap.ui.require` call returns `undefined` in case the module is not loaded.
+If the module is a descendant of `sap.ui.base.Object`, the object method `isA` can be used. With this approach the respective class does not need to be loaded. Furthermore, it is possible to check multiple classes by passing the respective class names as an array to the `isA` method. In scenarios where it's unproven that the module is a descendant of `sap.ui.base.Object`, the static method `sap.ui.base.Object.isA` can be used, which checks for descendance from `sap.ui.base.Object`.
+
+``` js
+sap.ui.define(['sap/ui/base/Object'], function(Object) {
+    ...
+    if (oControl.isA('sap.ui.core.mvc.View')) {
+        ...
+    } else if (Object.isA(oControl, ['sap.ui.core.Fragement', 'sap.ui.core.Control'])) {
+        ...
+    }
+});
+```
+
+If it's proven that the respective class is not a descendant of `sap.ui.base.Object`, the `instanceof` approach can be enhanced. To perform an `instanceof` check, the respective class does not need to be loaded. If the class module is not loaded, there can never be an instance of that class. The `sap.ui.require` call returns `undefined` in case the module is not loaded.
 
 The `lazyInstanceOf` convenience function makes sure that the `instanceof` check is performed against a function and not `undefined`, in case the module or class was not loaded yet.
 
@@ -132,9 +145,7 @@ function lazyInstanceof(obj, module) {
     return typeof FNClass === 'function' ? obj instanceof FNClass : false;
 }
   
-if (lazyInstanceof(oControl, "sap/ui/core/mvc/View")) {
-                …
-} else if (lazyInstanceof(oControl, "sap/ui/core/Fragment")) {
+if (lazyInstanceof(oControl, 'sap/ui/base/DataType')) {
                 …
 }
 ```

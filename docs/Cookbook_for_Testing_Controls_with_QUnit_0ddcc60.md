@@ -114,7 +114,7 @@ Here is an example for when a user presses *Esc* on the select:
 // "QUnitUtils" required from module "sap/ui/qunit/QUnitUtils"
 QUnit.test("Should close the popup menu if it is open and you press escape", function(assert) {
     // Arrange
-    var oContstructor = {
+    var oConstructor = {
         items: [
         new Item({
             key: "0",
@@ -129,7 +129,7 @@ QUnit.test("Should close the popup menu if it is open and you press escape", fun
     };
 
     // System under test
-    var oSelect = new Select(oContstructor);
+    var oSelect = new Select(oConstructor);
 
     oSelect.placeAt("select-content");
     Core.applyChanges();
@@ -164,13 +164,13 @@ To test this, we add an `eventDelegate` to see how often the rendering function 
 // "Core" required from module "sap/ui/core/Core"
 QUnit.test("Should suppress rerendering when tooltip is set", function(assert) { 
     // Arrange
-    var oContructor = {
+    var oConstructor = {
         tooltip : "foo"
         };
     var oRerenderingSpy = this.spy();
 
     // System under Test
-    var oLabel = new Label(oContructor);
+    var oLabel = new Label(oConstructor);
     oLabel.placeAt("qunit-fixture");
     Core.applyChanges();
 

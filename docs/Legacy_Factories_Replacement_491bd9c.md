@@ -250,6 +250,34 @@ sap.ui.require(['sap/ui/core/mvc/XMLView'], function(XMLView){
 			</td>
 		</tr>
 		<tr>
+			<td> 
+
+```
+
+var oView = sap.ui.jsview({
+								
+    viewName: "my.View"
+								
+});
+
+```
+			</td>
+			<td> `JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used. 
+
+```
+
+sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
+								
+    JSView.create({ 
+								
+        viewName: "my.View"
+								
+    }).then(function(oView) { ... });
+
+```
+			</td>
+		</tr>
+		<tr>
 			<td>Controllers</td>
 			<td> 
 
@@ -277,7 +305,7 @@ sap.ui.require(['sap/ui/core/mvc/Controller'], function(Controller){
 			<td> 
 
 ```
-var oView = sap.ui.extensionpoint( ... );
+var aControls = sap.ui.extensionpoint( ... );
 ```
 			</td>
 			<td> 
@@ -301,7 +329,7 @@ sap.ui.require(['sap/ui/core/ExtensionPoint'], function(ExtensionPoint){
 
 ```
 
-var oView = sap.ui.fragment({ 
+var aControls = sap.ui.fragment({ 
 
     name: "my.fragment",
 
@@ -333,7 +361,7 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 			<td> 
 
 ```
-var oView = sap.ui.getVersionInfo();
+var oVersionInfo = sap.ui.getVersionInfo();
 ```
 			</td>
 			<td> 

@@ -19,7 +19,7 @@ For views there is a conflict between this basic, generic approach and the way h
 Cloned in a generic way are the following settings:
 
 -   any models that have been set \(`setModel()`\)
--   registered control event listeners \(`attachSomeEvent`\)
+-   registered control event listeners, e.g. `attachPress`, `attachChange`, `attachSubmit`, ...
 -   registered browser event listeners \(`attachBrowserEvent`\)
 -   bindings \(`bindProperty`, `bindAggregation`\)
 

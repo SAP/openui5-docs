@@ -12,12 +12,12 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The *Technical Information* dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the *Technical Information* dialog to enable debug resources and open additional support tools to debug your app.
 
-To open the technical information dialog from within a supported desktop browser, use the following shortcut: *CTRLSHIFTALTP*.
+To open the technical information dialog from within a supported desktop browser, use the following shortcut:
 
-> Note:
-> To enter the shortcut, the left *ALT* key must be used.
-> 
-> 
+-   On Windows or Linux: * CTRL SHIFT ALT P *
+-   On macOS: * CTRL SHIFT Option */* ALT P *
+
+The left *ALT* or *Option* key must be used.
 
 ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 

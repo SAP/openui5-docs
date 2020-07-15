@@ -77,7 +77,7 @@ Use the following configuration to load the component from the target:
             "targets": {
                 "attachment": {
                     "type": "Component",
-*HIGHLIGHT START*                    "usage": "myresue",
+*HIGHLIGHT START*                    "usage": "myreuse",
 *HIGHLIGHT END*
                     "options": {
                         // optional
