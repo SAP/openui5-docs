@@ -16,7 +16,7 @@ OpenUI5 modules such as classes, components, and controls, should use a consiste
 
 ### Naming Conventions
 
-A namespace should be lowercase and each word should be separated by a dot \(\`.\`\), like the Java package notation. The class name should be camelcase, starting with a capital letter.
+A namespace should be lowercase and each word should be separated by a dot \(`.`\), like the Java package notation. The class name should be camelcase starting with a capital letter.
 
 The namespace gets attached to the [global window object](https://developer.mozilla.org/en-US/docs/Web/API/Window). Therefore, its first segment must not match any global properties, such as "name", "location", "top", "self", ...
 

@@ -117,7 +117,9 @@ sap.ui.define(['sap/ui/core/mvc/View', 'sap/ui/core/Fragment'], function(View, F
 
 ***
 
-#### Checks for Dynamically Required Modules
+<a name="loiod12024e38385472a89c1ad204e1edb48__section_f3y_tnt_3mb"/>
+
+### Checks for Dynamically Required Modules
 
 You can use one of the following approaches to perform a type check on your module:
 

@@ -16,8 +16,6 @@ Navigation with the keyboard and screen reader have to both work properly at the
 
 ### Attribute Mapping
 
-The ARIA `role=application` is added to the body of each page by OpenUI5 Core to ensure that the page can be properly navigated using the keyboard. If this is not the case, the OpenUI5 JavaScript key handler code may get overridden by the screen reader and this will hinder keyboard handling.
-
 The mapping of HTML attributes to ARIA attributes is described in the following table:Attribute Mapping<a name="loio3e9c0104db864fbabc9fc786cbdf76a4__table_i55_wg4_ds"/>
 
 |HTML Attribute|ARIA Attribute|
