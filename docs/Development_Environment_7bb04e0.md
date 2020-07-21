@@ -14,13 +14,7 @@ This part of the documentation gives you guidance on the most common and recomme
 
 ***
 
-Depending on your use case, you can choose one of the following development environments.
-
-***
-
-#### SAP Business Application Studio
-
-SAP Business Application Studio is a new SAP Cloud Platform service in SAP Cloud Foundry which offers a modular development environment tailored for efficient development of business applications. It provides a tailored-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, such as OpenUI5 apps.
+Depending on your use case, the following environments might be interesting for you:
 
 ***
 
@@ -33,6 +27,12 @@ SAP Web IDE is a web-based development environment that is optimized for develop
 -   Develop and extend SAP Fiori apps
 -   Develop mobile hybrid applications
 -   Extend SAP Web IDE with plug-ins and templates
+
+***
+
+#### SAP Business Application Studio
+
+SAP Business Application Studio is a new SAP Cloud Platform service in SAP Cloud Foundry which offers a modular development environment tailored for efficient development of business applications. It provides a tailored-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, such as OpenUI5 apps.
 
 ***
 
