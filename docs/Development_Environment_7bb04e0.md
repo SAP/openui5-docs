@@ -30,12 +30,6 @@ SAP Web IDE is a web-based development environment that is optimized for develop
 
 ***
 
-#### SAP Business Application Studio
-
-SAP Business Application Studio is a new SAP Cloud Platform service in SAP Cloud Foundry which offers a modular development environment tailored for efficient development of business applications. It provides a tailored-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, such as OpenUI5 apps.
-
-***
-
 #### OpenUI5
 
 When you develop apps using OpenUI5, you can use the development environment \(editor and web server\) of your choice. You can either download all of the sources or refer to the online version of OpenUI5.
