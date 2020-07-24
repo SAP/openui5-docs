@@ -35,3 +35,60 @@ Using the service, you have to specify the message to be announced by the screen
 
 Keep in mind that according to the ARIA standard, the live regions should be presented on page load and should be empty. Thus, we recommend to instantiate `sap.ui.core.InvisibleMessage` via `sap.ui.core.InvisibleMessage.getInstance()` as early as possible in the application logic – with the Component initialization, with the main Controller initialization, after Core initialization, ect. Therefore the `sap.ui.core.InvisibleMessage` should be instantiated before the rest of the DOM tree \(controls\) get rendered, preferably in the `onBeforeRendering()`method of the control. Then, you should specify the text, that has to be announced by the screen reader, and the live region’s mode using the announce method.
 
+***
+
+<a name="loiob9a7d6f607f049988797b68b65e60901__section_p2p_cz1_lmb"/>
+
+### Example with dynamically generated `sap.m.MessageStrip`
+
+You must implement `sap.ui.core.InvisibleMessage` when using dynamically generated `sap.m.MessageStrip` in order to achieve the standardized best accessibility practices. It will allow screen readers to announce the `sap.m.MessageStrip` text to the users in real-time, when it appears on the screen.
+
+```
+sap.ui.define([
+	'sap/ui/core/mvc/Controller',
+	'sap/m/MessageStrip',
+	'sap/ui/core/InvisibleMessage',
+	'sap/ui/core/library'
+], function(Controller, MessageStrip, InvisibleMessage, library) {
+	"use strict";
+
+	var InvisibleMessageMode = library.InvisibleMessageMode;
+
+	return Controller.extend("sap.m.sample.DynamicMessageStripGenerator.C", {
+        onInit: function () {
+            // Instantiate the Invisible Message service
+            this.oInvisibleMessage = InvisibleMessage.getInstance();
+        },
+
+        showMessageStrip: function () {
+            var oMessageStrip = sap.ui.getCore().byId("msgStrip");
+
+            if (oMessageStrip) {
+                oMessageStrip.destroy();
+            }
+            this._generateMessageStrip();
+        },
+
+        _generateMessageStrip: function () {
+            var aTypes = ["Information", "Warning", "Error", "Success"],
+
+            sText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+
+            sType = aTypes[Math.round(Math.random() * 3)],
+            oVC = this.byId("oVerticalContent"),
+            oMsgStrip = new MessageStrip("msgStrip", {
+                text: sText,
+                showCloseButton: !(Math.round(Math.random())),
+                showIcon: !(Math.round(Math.random())),
+                type: sType
+            });
+            // Announce the generated message and its type via the Invisible Message service
+            this.oInvisibleMessage.announce("New Information Bar of type " + sType + " " + sText, InvisibleMessageMode.Assertive);
+
+            oVC.addContent(oMsgStrip);
+        }
+	});
+});
+
+```
+

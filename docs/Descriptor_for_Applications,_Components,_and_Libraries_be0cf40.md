@@ -47,9 +47,9 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 20|\>=1.75|1.19.0|
 |Version 21|\>=1.76|1.20.0|
 |Version 22|\>=1.77|1.21.0|
-|Version 23|\>=1.78| |
-|Version 24|\>=1.79| |
-|Version 25|\>=1.80| |
+|Version 23|\>=1.78|1.22.0|
+|Version 24|\>=1.79|1.23.0|
+|Version 25|\>=1.80|1.24.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -59,7 +59,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 ### Manifest First Function
 
-The component factory function [`Component.create`](https://openui5.hana.ondemand.com/1.62.0/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
+The component factory function [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
 The `manifest` option allows to configure when and from where the descriptor is loaded:
 
@@ -110,7 +110,7 @@ The `manifest` option allows to configure when and from where the descriptor is 
 > 
 > 
 
-The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, `sap.ui5`, `sap.platform.abap`, `sap.platform.hcp` and `sap.fiori`. The following tables show the application-specific attributes provided by the respective namespaces:
+The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, and `sap.ui5` . The following tables show the application-specific attributes provided by the respective namespaces:
 
 ***
 
@@ -163,8 +163,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 			<td>The i18n property is an **optional** attribute and contains one of the following:
 
  -   A URL string to the properties file that contains the text symbols for the descriptor; the URL is interpreted relative to the `manifest`.
- > Note:
- > The path to the i18n file must not exceed 100 characters.
+ 
 
  -   An object that has been defined as described in [Terminologies](Terminologies_eba8d25.md).
 
@@ -211,10 +210,6 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 			</td>
 		</tr>
 		<tr>
-			<td> `ach` </td>
-			<td>Application component hierarchy \(SAP's component names for bug reports\); attribute is mandatory for SAP apps, but is not used so far for apps developed outside SAP</td>
-		</tr>
-		<tr>
 			<td> `dataSources` </td>
 			<td> Unique key/alias for specifying the used data sources; contains the following information:
  -   `uri`: Mandatory relative URL in the component; takes `embeddedBy` into account, if filled, or the server absolute of the data source, for example `"/sap/opu/odata/snce/PO_S_SRV;v=2/"` 
@@ -252,92 +247,6 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
  -   `version`: Required if the open source component is part of the app; not required if the open source component is part of the SAPUI5 dist layer
 
  -   `packagedWithMySelf`: Indicates if the open source component is part of the app \(`true`\) or not \(`false`\)
-			</td>
-		</tr>
-		<tr>
-			<td> `provider` </td>
-			<td>Name of the provider that owns the application. Current supported enum value is **sfsf**.</td>
-		</tr>
-		<tr>
-			<td> `crossNavigation` </td>
-			<td>Cross-navigation for specifying inbounds and outbounds
-
- -   `scopes`: Scope of a site
-`sapSite`
-
- -   `inbounds`: Unique key or alias to specify inbounds \(mandatory\); contains:
-
-     -   `semanticObject` \(mandatory\)
-
-     -   `action` \(mandatory\)
-
-     -   `icon`: Used to overwrite `sap.ui/icons/icon`
-
-     -   `title`: Used to overwrite `sap.app/title` \(language-dependent entry to be specified via \{\{...\}\} syntax\)
-
-     -   `subTitle`: Used to overwrite `sap.app/subTitle` \(language-dependent entry to be specified via \{\{...\}\} syntax\)
-
-     -   `shortTitle`: Used to overwrite `sap.app/shortTitle` \(language-dependent entry to be specified via \{\{...\}\} syntax\)
-
-     -   `info`: Language-dependent entry to be specified via \{\{...\}\} syntax
-
-     -   `displayMode`: <`ContentMode` or `HeaderMode`\> Display mode for an inbound which specifies what kind of tile is displayed. A static tile can be displayed in content mode or header mode. The tile in header mode is a text only tile without an icon which allows longer title and subtitle.
-
-     -   `hideLauncher` \(`true`/`false`\): Indicates that an inbound must not be represented as a tile/link
-
-     -   `indicatorDataSource`; specifies the data source; contains:
-
-         -   `dataSource`: reference to `sap.app/dataSources` \(mandatory\)
-
-         -   `path`: Relative path to `sap.app/dataSources uri` \(mandatory\)
-
-         -   `refresh`: Defines the refresh interval
-
-     -   `deviceTypes`: Contains objects with device types on which the app is running; if empty, use the default from `sap.ui/deviceTypes`; the following device types can be defined \(`true`/`false`\):
-
-         -   `desktop`
-
-         -   `tablet`
-
-         -   `phone`
-
-     -   `signature`: Specifies the signature; contains:
-
-         -   `parameters` \(mandatory\): Contains parameter names with the following information:
-
-            -   `required` \(`true`/`false`\)
-
-            -   `filter`: Represents the filter only if the input parameter matches the filter; with a mandatory `value` and `format` attribute \("plain", "regexp", "reference"\)
-
-            -   `defaultValue`: Specifies the default value; has mandatory attributes `value` \(depending on the format this is a verbatim default value\) and `format` \("plain", "reference"\). If the `format` is "reference", the syntax for the `value` is as follows: `"UserDefault.<parameterName\>"` for single-value parameters, `"UserDefault.extended.<parameterName\>"` for sets of values and value ranges, or `"User.env.<parameterName\>"` for supported user-specific settings.
-
-            -   `renameTo`: Used for parameter mapping to specify the parameter name in legacy ABAP applications, for example, `RF05L_BUKRS` for the `CompanyCode` parameter
-
-            -   `launcherValue`: Represents a value to be used when creating an tile intent for this inbound with value and format \("plain", "array"\)
-
-         -   `additionalParameters` \(mandatory\): Indicates how additional parameters to the declared signature are handled; values can be, for example, "ignored", "notallowed", "allowed"
-
- -   `outbounds`: Specifies outbounds with a unique key or alias to describe intents that can be triggered from the application to navigate containing:
-
-     -   `semanticObject` \(mandatory\); represents a business entity \(such as 'Employee'\)
-
-     -   `action` \(mandatory\); represents the action to perform on the business entity \(such as 'display'\)
-
-     -   `parameters` of navigation intents: Specifies the parameter name
-
-         -   `value`: parameters of navigation intents generated or triggered by the application, with:
-
- -   a `value`; verbatim value \(when '`plain`' format is used\), or a pattern \(when '`regexp`' format is used\), or a value coming from a UI5 model \(when '`binding`' format is used\), or a User Default reference \(when '`reference`' format is used\) and a
-			</td>
-			<td>-   `format`; indicates how `value` is to be interpreted: '`plain`' \('`value`' is taken as a literal string value\); '`reference`' \('`value`' is a reference to a parameter maintained in the SAP Fiori launchpad \(such as '`UserDefault.CostCenter`'; the parameter value is used on the outbound intent parameter\);</td>
- '`regexp`' \('`value`' matches the specified pattern; '`binding`' \('`value`' is a binding path; the value from the model at the specified binding path will be used on the outbound intent parameter\)
-         -   `required`: Indicator whether parameter is required \(`true`, `false`\)
-
-     -   `additionalParameters`: Indicates whether additional context parameters are to be used:
-
-         -   `ignored`: Parameters are not used
-
-         -   `allowed`: Parameters are passed on to application
 			</td>
 		</tr>
 	</tbody>
@@ -385,10 +294,6 @@ Attributes in the mandatory `sap.ui` namespace <a name="loiobe0cf40f61184b358b5f
  -   `tablet`: Indicator for whether tablet devices are supported, `true` \(default\),`false`
  -   `phone`: Indicator for whether phone devices are supported, `true` \(default\),`false`
 			</td>
-		</tr>
-		<tr>
-			<td> `supportedThemes` </td>
-			<td>Optional; array of supported SAP themes, such as `sap_hcb`, `sap_belize` </td>
 		</tr>
 		<tr>
 			<td> `fullWidth` </td>
@@ -520,19 +425,11 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 			<td>Name of the OpenUI5 component</td>
 		</tr>
 		<tr>
-			<td> `appVariantIdHierarchy` </td>
-			<td>Needed for an app variant scenario to reference UI flex changes from layers below. An array of `appVariantId` hierarchy with origin layer and version, calculated attribute and filled automatically during variant merge.</td>
-		</tr>
-		<tr>
 			<td> `i18n` </td>
-			<td> Determines if the library contains a i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource could be defined.
+			<td> Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
  > Note:
- > If your SAP Fiori library benefits from the new attribute `sap.ui5/library/i18n`, adoption is recommended. This is only the case if the main resource bundle \(properties file\) used by the SAP Fiori Library is different than the default name **messagebundle.properties**
+ > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
 			</td>
-		</tr>
-		<tr>
-			<td> `flexEnabled` </td>
-			<td>Indicates whether the app is enabled for adaptation via SAPUI5 flexibility \(for example, using stable IDs\); possible values are `true`, `false` or `undefined` \(default\)</td>
 		</tr>
 		<tr>
 			<td> `commands` </td>
@@ -541,46 +438,8 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
  -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
 			</td>
 		</tr>
-		<tr>
-			<td> `flexExtensionPointEnabled` </td>
-			<td>Indicates whether SAPUI5 flexibility extension points are enabled for the corresponding application variant; possible values are: `true`, `false`; filled automatically during app variant merge.</td>
-		</tr>
 	</tbody>
 </table>
-
-***
-
-#### `sap.platform.abap`
-
-Attributes in the `sap.platform.abap` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_tdx_sdt_tr"/>
-
-|Attribute|Description|
-|---------|-----------|
-| `uri` |Specifies the app's URI in the ABAP system, for example `/sap/bc/ui5_ui5/sap/appName`; filled during deployment.|
-
-***
-
-#### `sap.platform.hcp`
-
-Attributes in the `sap.platform.hcp` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_h5d_c2t_tr"/>
-
-|Attribute|Description|
-|---------|-----------|
-| `uri` |Specifies the URI inside the SAP Cloud Platform HTML5 application; filled during deployment, default is ""|
-| `providerAccount` |Specifies the name of the provider account; filled during deployment|
-| `appName` |Specifies the name of the deployed HTML5 application; filled during deployment|
-| `appVersion` |Specifies the version of the deployed HTML5 application; filled during deployment|
-
-***
-
-#### `sap.fiori`
-
-Attributes in the `sap.fiori` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_h31_l2t_tr"/>
-
-|Attribute|Description|
-|---------|-----------|
-| `registrationIds` |Array of registration IDs, for example, the Fiori IDs for SAP Fiori apps|
-| `archeType` |Mandatory archetype of the app, possible values `transactional`, `analytical`, `factsheet`, `reusecomponent`, `fpmwebdynpro`, `designstudio` |
 
 ***
 
@@ -636,7 +495,6 @@ Current version of the `manifest.json`
             "keywords": ["{{keyWord1}}", "{{keyWord2}}"],
             "technicalAttributes": ["ATTRIBUTE1", "ATTRIBUTE2"]
         },
-        "ach": "PA-FIO",
         "dataSources": {
             "equipment": {
                 "uri": "/sap/opu/odata/snce/PO_S_SRV;v=2/",
@@ -672,151 +530,151 @@ Current version of the `manifest.json`
             "name": "D3.js",
             "packagedWithMySelf": false
         }],
-        "crossNavigation": {
-            "scopes": {
-                "sapSite": {
+        "crossNavigation": \{
+            "scopes": \{
+                "sapSite": \{
                     "value": "123"
-                }
-            },
-            "inbounds": {
-                "contactCreate": {
+                \}
+            \},
+            "inbounds": \{
+                "contactCreate": \{
                     "semanticObject": "Contact",
                     "action": "create",
                     "icon": "sap-icon://add-contact",
-                    "title": "{{title}}",
-                    "subTitle": "{{subtitle}}",
-                    "shortTitle": "{{shorttitle}}",
-                    "info": "{{info}}",
+                    "title": "\{\{title\}\}",
+                    "subTitle": "\{\{subtitle\}\}",
+                    "shortTitle": "\{\{shorttitle\}\}",
+                    "info": "\{\{info\}\}",
                     "displayMode": "HeaderMode",
-                    "indicatorDataSource": {
+                    "indicatorDataSource": \{
                         "dataSource": "equipment",
                         "path": "TaskListSet/$count",
                         "refresh": 5
-                    },
-                    "deviceTypes": {
+                    \},
+                    "deviceTypes": \{
                         "desktop": true,
                         "tablet": true,
                         "phone": false
-                    },
-                    "signature": {
-                        "parameters": {
-                            "id": {
+                    \},
+                    "signature": \{
+                        "parameters": \{
+                            "id": \{
                                 "required": true
-                            },
-                            "ContactName": {
-                                "defaultValue": {
+                            \},
+                            "ContactName": \{
+                                "defaultValue": \{
                                     "value": "anonymous"
-                                },
+                                \},
                                 "required": false,
                                 "renameTo": "NAME2"
-                            },
-                            "Gender": {
-                                "filter": {
-                                    "value": "(male)|(female)",
+                            \},
+                            "Gender": \{
+                                "filter": \{
+                                    "value": "\(male\)|\(female\)",
                                     "format": "regexp"
-                                },
+                                \},
                                 "required": true,
                                 "renameTo": "SEX",
-                                "launcherValue": {
+                                "launcherValue": \{
                                     "value": "female",
                                     "format": "plain"
-                                }
-                            }
-                        },
+                                \}
+                            \}
+                        \},
                         "additionalParameters": "ignored"
-                    }
-                },
-                "contactDisplay": {
+                    \}
+                \},
+                "contactDisplay": \{
                     "semanticObject": "Contact",
                     "action": "display",
-                    "signature": {
-                        "parameters": {
-                            "id": {
+                    "signature": \{
+                        "parameters": \{
+                            "id": \{
                                 "required": true
-                            },
-                            "Language": {
-                                "filter": {
+                            \},
+                            "Language": \{
+                                "filter": \{
                                     "value": "EN"
-                                },
+                                \},
                                 "required": true
-                            },
-                            "SomeValue": {
-                                "filter": {
+                            \},
+                            "SomeValue": \{
+                                "filter": \{
                                     "value": "4711"
-                                }
-                            },
-                            "GLAccount": {
-                                "defaultValue": {
+                                \}
+                            \},
+                            "GLAccount": \{
+                                "defaultValue": \{
                                     "value": "1000"
-                                },
-                                "filter": {
-                                    "value": "(1000)|(2000)",
+                                \},
+                                "filter": \{
+                                    "value": "\(1000\)|\(2000\)",
                                     "format": "regexp"
-                                }
-                            }
-                        },
+                                \}
+                            \}
+                        \},
                         "additionalParameters": "allowed"
-                    }
-                },
-                "contactDisplayAlt": {
+                    \}
+                \},
+                "contactDisplayAlt": \{
                     "semanticObject": "Contact",
                     "action": "display",
                     "hideLauncher": true,
-                    "signature": {
-                        "parameters": {
-                            "GLAccount": {
-                                "defaultValue": {
+                    "signature": \{
+                        "parameters": \{
+                            "GLAccount": \{
+                                "defaultValue": \{
                                     "value": "UserDefault.GLAccount",
                                     "format": "reference"
-                                },
-                                "filter": {
-                                    "value": "\\d+",
+                                \},
+                                "filter": \{
+                                    "value": "\\\\d+",
                                     "format": "regexp"
-                                },
+                                \},
                                 "required": true
-                            },
-                            "SomePar": {
-                                "filter": {
+                            \},
+                            "SomePar": \{
+                                "filter": \{
                                     "value": "UserDefault.CostCenter",
                                     "format": "reference"
-                                },
+                                \},
                                 "required": true
-                            }
-                        },
+                            \}
+                        \},
                         "additionalParameters": "allowed"
-                    }
-                }
-            },
-            "outbounds": {
-                "addressDisplay": {
+                    \}
+                \}
+            \},
+            "outbounds": \{
+                "addressDisplay": \{
                     "semanticObject": "Address",
                     "action": "display",
                     "additionalParameters": "ignored",
-                    "parameters": {
-                        "CompanyName": {
-                            "value": {
+                    "parameters": \{
+                        "CompanyName": \{
+                            "value": \{
                                 "value": "companyName",
                                 "format": "plain"
-                            },
+                            \},
                             "required": true
-                        }
-                    }
-                },
-                "companyDisplay": {
+                        \}
+                    \}
+                \},
+                "companyDisplay": \{
                     "semanticObject": "Company",
                     "action": "display",
                     "additionalParameters": "allowed",
-                    "parameters": {
-                        "CompanyName": {
-                            "value": {
+                    "parameters": \{
+                        "CompanyName": \{
+                            "value": \{
                                 "value": "companyName",
                                 "format": "plain"
-                            },
+                            \},
                             "required": true
-                        }
-                    }
-                }
-            }
+                        \}
+                    \}
+                \}
+        }
         }
     },
  
@@ -919,15 +777,15 @@ Current version of the `manifest.json`
         "componentName": "sap.fiori.appName",
         "autoPrefixId": true,
         "appVariantId": "hcm.leaverequest.oil",
-        "appVariantIdHierarchy": [
-            {"layer": "VENDOR", "appVariantId": "abc", "version": "1.0.0"}
-        ],
-        "services": {
-            "myLocalServiceAlias": {
+        "appVariantIdHierarchy": \[
+            \{"layer": "VENDOR", "appVariantId": "abc", "version": "1.0.0"\}
+        \],
+        "services": \{
+            "myLocalServiceAlias": \{
                 "factoryName": "sap.ushell.LaunchPadService",
                 "optional": true
-            }
-        },
+            \}
+        \},
         "library": {
             "i18n": true
         },
@@ -940,88 +798,17 @@ Current version of the `manifest.json`
         }
 	    },
  
-    "sap.platform.abap": {
-        "uri": "/sap/bc/ui5_ui5/sap/appName",
-        "uriNwbc": ""
-    },
  
-    "sap.platform.hcp": {
-        "uri": "",
-        "uriNwbc": "",
-        "providerAccount": "fiori",
-        "appName": "sapfioriappName",
-        "appVersion": "1.0.0",
-        "multiVersionApp": true
-    },
- 
-    "sap.fiori": {
-        "registrationIds": [
-            "F1234"
-        ],
-        "archeType": "transactional"
-    },
- 
-    "sap.mobile": {},
-    "sap.flp": {},
-    "sap.ui.generic.app": {},
-    "sap.ovp": {},
-    "sap.ui.smartbusiness.app": {},
-    "sap.wda": {},
-    "sap.gui": {},
-    "sap.cloud.portal": {},
-    "sap.apf": {},
-    "sap.platform.cf": {},
-    "sap.copilot": {},
-    "sap.map": {},
     "sap.fe": {},
-    "sap.url": {},
-    "sap.platform.sfsf": {},
-    "sap.wcf": {},
-    "sap.cloud": {},
-    "sap.integration": {},
-    "sap.card": {},
-    "sap.platform.mobilecards": {},
-        "sap.widget": {}
+    "sap.card": {}
 }
 ```
 
 For the following namespaces, the indicated teams are responsible:
 
--   sap.mobile - in Mobile responsibility
-
--   sap.flp - in SAP Fiori Launchpad responsibility
-
--   sap.ui.generic.app - in SAP Fiori Elements responsibility
-
--   sap.ovp - in Overview Page responsibility
-
--   sap.ui.smartbusiness.app - in Smart Business responsibility
-
--   sap.wda - in Web Dynpro ABAP responsibility
-
--   sap.gui - in SAP GUI responsibility
-
--   sap.cloud.portal - in SAP Cloud Portal responsibility
-
--   sap.apf - in Analysis Path Framework responsibility
-
--   sap.platform.cf - in Cloud Foundry/XSA responsibility
-
--   sap.map - in SAP Visual Business responsibility
-
 -   sap.fe - in SAP Fiori Elements responsibility
 
--   sap.url - in SAP Fiori Launchpad responsibility
-
--   sap.platform.sfsf - for SAP SuccessFactors specific attributes
-
--   sap.wcf - for WCF Application specific attributes
-
--   sap.cloud - for SAP Cloud Platform specific attributes
-
 -   sap.card - in SAPUI5 responsibility
-
--   sap.platform.mobilecards - in Mobile Cards responsibility
 
 
 ***
