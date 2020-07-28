@@ -103,6 +103,77 @@ The `manifest` option allows to configure when and from where the descriptor is 
 
 ***
 
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb"/>
+
+### Special `ui5://` URLs
+
+Inside the app descriptor you can use special URLs prefixed with `ui5://`. These URLs will be resolved automatically during component startup before any models are created.
+
+The `ui5://` URLs have the following properties:
+
+-   Only absolute URLs are allowed, e.g. `ui5://my/path/to/sample`, but not `ui5:my/app/path`.
+-   All URL prefixes to be used inside a `ui5://` URL must be registered on the UI5 loader beforehand \(see the example below\).
+-   `sap.ui5/resourceRoots` can be part of a `ui5://` URL.
+-   The component factory [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
+
+***
+
+#### Example
+
+One common use case is the resolution of local annotation files. By default the local annotation files are resolved relative to the manifest. When using a `ui5://` URL, you can enforce a different resolution, e.g. to a server-absolute URL.
+
+In this sample we make sure that the component location is registered as a path on the UI5 loader. Additionally, we assume that the host system is`http://localhost:8080` :
+
+``` js
+sap.ui.loader.config({
+    paths: {
+        "my/url/prefix": "this/url/is/reachable"
+    }
+})
+```
+
+The following snippet shows a sample annotation file configuration in the `sap.app/dataSources` section of the app descriptor:
+
+``` json
+{
+    ...
+    "sap.app": {
+         "dataSources": {
+             "OData": {
+                "uri": "/path/to/odata/service",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0",
+                    "annotations": ["annotations"]
+                    ...
+                }
+            },
+            ...
+            "annotations": {
+                "uri": "ui5://my/url/prefix/annotations.xml",
+                "type": "ODataAnnotation"
+            }
+            ...
+         }
+    }
+    ...
+}
+```
+
+During startup of the respective component the resolution of the `ui5://` URL for the sample annotation will look like this:
+
+``` html
+ui5://my/url/prefix/annotations.xml
+```
+
+is resolved to:
+
+``` html
+http://localhost:8080/this/url/is/reachable/annotations.xml
+```
+
+***
+
 ### Descriptor Content
 
 > Note:

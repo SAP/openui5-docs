@@ -149,3 +149,42 @@ If you render the icon span directly in your control, or use icon font in your C
 
 If you use the icon by creating an instance of `Icon` within your control, however, use the CSS class `sapUiIcon` to add a new style to the icon. To avoid influencing the style of icons used elsewhere, wrap the icon CSS class with your control's root DOM class.
 
+***
+
+<a name="loio21ea0ea94614480d9a910b2e93431291__section_whp_y2l_mmb"/>
+
+### Consuming SAP Icon Font in a Non-UI5 Environment
+
+You can consume the predefined `SAP-icons` icon font also in an environment where UI5 isn't available. An integration could look like the following:
+
+-   Load the font-face declaration for the UI5 icon font in your HTML page:
+
+    ``` html
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://openui5.hana.ondemand.com/resources/sap/ui/core/themes/base/SAP-icons.css"
+    >
+    ```
+
+-   Find the icon that fits your need via the [UI5 Icon Explorer Tool](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
+-   Use a CSS class with the character escape of the icon's unicode identifier and assign it to a "span" element:
+
+    ``` html
+    <html>
+    	<head>
+    		<style>
+    			.laptop::before {
+    				font-family: SAP-icons;
+    				content: "\e027";
+    			}
+    		</style>
+    	</head>
+    
+    	<body>
+    		<span class="laptop"></span>
+    	</body>
+    </html>
+    ```
+
+
