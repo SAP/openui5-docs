@@ -15,9 +15,13 @@ A controller contains methods that define how models and views interact.
 You define a simple controller as follows:
 
 ``` js
-sap.ui.controller("sap.hcm.Address", {
-   // controller logic goes here
-});
+sap.ui.define([
+    "sap/ui/core/mvc/Controller"
+], function(Controller) {
+    "use strict";
+    return Controller.extend("sap.hcm.Address", {
+        // controller logic goes here
+    });
 ```
 
 The string in quotes specifies the controller name. The controller file's name should be named as the string in the quotes, `Address.controller.js`.
@@ -53,12 +57,15 @@ OpenUI5 provides the following lifecycle hooks:
 
 > Note:
 > ``` js
-> 
-> sap.ui.controller("sap.hcm.Address", {
->    onInit: function() {
->       this.counter = 0;
->    }
-> });
+> sap.ui.define([
+>     "sap/ui/core/mvc/Controller"
+> ], function(Controller) {
+>     "use strict";
+>     return Controller.extend("sap.hcm.Address", {
+>         onInit: function() {
+>             this.counter = 0;
+>         }
+>     });
 > ```
 > 
 > 
@@ -73,12 +80,15 @@ In addition to lifecycle hooks, a controller can define additional methods that 
 
 > Note:
 > ``` js
-> 
-> sap.ui.controller("sap.hcm.Address", {
->    increaseCounter: function() {
->       this.counter++;
->    }
-> });
+> sap.ui.define([
+>     "sap/ui/core/mvc/Controller"
+> ], function(Controller) {
+>     "use strict";
+>     return Controller.extend("sap.hcm.Address", {
+>         increaseCounter: function() {
+>             this.counter++;
+>         }
+>     });
 > ```
 > 
 > 

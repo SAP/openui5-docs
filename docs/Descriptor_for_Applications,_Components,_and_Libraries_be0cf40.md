@@ -111,10 +111,10 @@ Inside the app descriptor you can use special URLs prefixed with `ui5://`. These
 
 The `ui5://` URLs have the following properties:
 
--   Only absolute URLs are allowed, e.g. `ui5://my/path/to/sample`, but not `ui5:my/app/path`.
--   All URL prefixes to be used inside a `ui5://` URL must be registered on the UI5 loader beforehand \(see the example below\).
--   `sap.ui5/resourceRoots` can be part of a `ui5://` URL.
--   The component factory [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
+-   only absolute URLs are allowed, e.g. `ui5://my/path/to/sample`, but not `ui5:my/app/path`,
+-   all URL prefixes to be used inside a `ui5://` URL must be registered on the UI5 loader beforehand \(see the example below\),
+-   `sap.ui5/resourceRoots` can be part of a `ui5://` URL,
+-   the component factory [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
 
 ***
 
