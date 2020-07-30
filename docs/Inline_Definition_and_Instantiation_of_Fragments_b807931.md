@@ -25,10 +25,15 @@ JS fragment definitions can be done both inline and within a separate file witho
 var myXml = '<Panel xmlns="sap.m" text="Hello World"><Button text="Hello World"></Button></Panel>';
 
 // use this XML string as "fragmentContent"
-var oFragment = sap.ui.xmlfragment({fragmentContent:myXml}); // oFragment is now the Panel Control
-
-// put the Fragment content into the document
-oFragment.placeAt('content');
+sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
+    Fragment.load({
+        type: "XML",
+        definition: myXml
+    }).then(function(oFragment){
+        // put the Fragment content into the document
+        oFragment.placeAt('content');
+    });
+});
 ```
 
 ***
@@ -40,10 +45,15 @@ oFragment.placeAt('content');
 var myHtml = '<div data-sap-ui-type="sap.m.Button" data-text="Hello World"></div>';
 
 // use this HTML string as "fragmentContent"
-var oFragment = sap.ui.htmlfragment({fragmentContent:myHtml}); // oFragment is now the Button Control
-
-// put the Fragment content into the document
-oFragment.placeAt('content');
+sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
+    Fragment.load({
+        type: "HTML",
+        definition: myHtml
+    }).then(function(oFragment){
+        // put the Fragment content into the document
+        oFragment.placeAt('content');
+    });
+});
 ```
 
 **Related information**  

@@ -52,10 +52,18 @@ View:
 Controller code:
 
 ``` js
-toEditMode: function() {
-	this.byId("displayPanel").setVisible(false);
-	this.byId("editPanel").setVisible(true);
-}
+sap.ui.define([
+	"sap/ui/core/mvc/Controller",
+	"sap/ui/core/Fragment"
+], function (Controller, Fragment) {
+	"use strict";
+	return Controller.extend("my.own.controller", {
+		toEditMode: function() {
+			this.byId("displayPanel").setVisible(false);
+			this.byId("editPanel").setVisible(true);
+		}
+	});
+});
 ```
 
 The following code is better in terms of initial performance because the second table is created lazily when the user switches to edit mode.
@@ -87,33 +95,40 @@ Additional fragment named `EditPanel.fragment.xml` for content that is initially
 Controller code:
 
 ``` js
-toEditMode: function() {
-	this.byId("displayPanel").setVisible(false);
-                  
-	var oEditPanel = this.byId("editPanel");
-	if (!oEditPanel) { // load and instantiate the edit panel lazily
-		// instantiate the Fragment:
-		// giving the View ID as ID will prefix the IDs in the Fragment and allows using this.byId(…) in the Controller
-		// giving “this” (the Controller) allows using controller methods from within the Fragment
-		oEditPanel = sap.ui.xmlfragment(this.getView().getId(), "myApp.EditPanel", this); 
-		this.byId("myPage").insertContent(oEditPanel, 0); // for sake of simplicity inserts at position 0
-	}
-	oEditPanel.setVisible(true);
-}
+	...
+	toEditMode: function() {
+		this.byId("displayPanel").setVisible(false);
+		var oEditPanel = this.byId("editPanel");
+		if (!oEditPanel) { // load and instantiate the edit panel lazily
+			// instantiate the Fragment:
+			// giving the View ID as ID will prefix the IDs in the Fragment and allows using this.byId(…) in the Controller
+			// giving “this” (the Controller) allows using controller methods from within the Fragment
+			Fragment.load({
+				name: "myApp.EditPanel",
+				id: this.getView().getId(),
+				type: "XML",
+				controller: this
+			}).then(function (oFragment) {
+				this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
+			});
+		}
+		oEditPanel.setVisible(true);
+	...
 ```
 
 In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller’s `onInit()` method decides which fragment to instantiate and display initially:
 
 ``` js
-onInit: function() {
-	var oPanel;
-	if (bEditMode) { 
-		oPanel = sap.ui.xmlfragment("myApp.EditPanel");
-	} else {
-		oPanel = sap.ui.xmlfragment("myApp.DisplayPanel");
-	}
-	this.byId("myPage").insertContent(oPanel, 0);
-}
+...
+	toEditMode: function () {...},
+	onInit: function () {
+		Fragment.load({
+			name: bEditMode ? "myApp.EditPanel" : "myApp.DisplayPanel",
+			type: "XML"
+		}).then(function (oFragment) {
+			this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
+		});
+	...
 ```
 
 > Note:

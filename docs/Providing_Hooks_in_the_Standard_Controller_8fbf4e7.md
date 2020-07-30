@@ -42,21 +42,22 @@ Code of the standard controller:
 Code of the custom controller:
 
 ``` js
-
-sap.ui.controller("customer.xy.Sub2ControllerExtension", {
-   onDataReceived: function(oData){ // oSomeData will be passed in
-      if (oData && oData.status === "important") {
-         oData.message = oData.message + "!!!"; // modify some part of the data object, adding exclamation marks to a message text
-      }
-   } // no need to return anything as in this example the original object is modified
+sap.ui.define("customer.xy.Sub2ControllerExtension", [], function () {
+   "use strict";
+   return {
+      onDataReceived: function(oData){ // oSomeData will be passed in
+         if (oData && oData.status === "important") {
+            oData.message = oData.message + "!!!"; // modify some part of the data object, adding exclamation marks to a message text
+         }
+      } // no need to return anything as in this example the original object is modified
+   };
 });
-
 ```
 
 > Note:
 > This only works for one extension layer as the most specific or last extension overrides any other hook implementations. To allow multi-layer extensions, we recommend that middle-layer extensions provide and document their own hook functions.
 > 
-> This also requires flat, non-inherited controllers defined with the `sap.ui.controller(...)` function used as extension controller, and not with typed controllers.
+> This also requires flat, non-inherited controllers defined as a module used as extension controller, and not with typed controllers.
 > 
 > 
 

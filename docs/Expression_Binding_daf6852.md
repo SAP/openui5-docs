@@ -301,14 +301,17 @@ errorMsg=Message is too short
 </mvc:View>
 
 <!-- Controller -->
-sap.ui.define(["sap/base/strings/formatMessage"], function(formatMessage) {
-   sap.ui.controller("sample.App", {
-      onInit: function() {
-         ...
-      },
-      formatMessage : formatMessage,
-      ...
-   });
+sap.ui.define([
+    "sap/ui/core/mvc/Controller",
+    "sap/base/strings/formatMessage"
+], function(Controller, formatMessage) {
+    return Controller.extend("sample.App", {
+        onInit: function() {
+        ...
+        },
+        formatMessage : formatMessage,
+        ...
+    });
 });
 ```
 

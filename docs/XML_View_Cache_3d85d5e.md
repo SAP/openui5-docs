@@ -59,14 +59,18 @@ If you want to keep things simple, you can use the following cache configuration
 
 ``` xml
 var sCalculatedCacheKey = oKeyProvider.getCacheKey();
-sap.ui.xmlview({
-	async: true,
-	id: "cacheableView",
-	viewName: "my.cacheableView",
-	cache: {
-		// one key is mandatory
-		keys:[sCalculatedCacheKey]
-	}
+
+sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
+	XMLView.create({
+		id: "cacheableView",
+		viewName: "my.cacheableView",
+		cache: {
+			// one key is mandatory
+			keys:[sCalculatedCacheKey]
+		}
+	}).then(function (oXmlView) {
+		// ...
+	});
 });
 ```
 
@@ -74,18 +78,22 @@ If you want to pass on multiple keys, for example strings or promises that resol
 
 ``` xml
 var pCalculatedCacheKey = oKeyProvider1.getCacheKeyPromise();
-var sAnotherKey = oKeyProvider2.getCacheKey(); 
-sap.ui.xmlview({
-	async: true,
-	id: "cacheableView",
-	viewName: "my.cacheableView",
-	cache: {
-		keys: [
-		// several key providers, at least one
-		pCalculatedCacheKeyPromise,
-		sAnotherKey
-		]
-	}
+var sAnotherKey = oKeyProvider2.getCacheKey();
+
+sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
+	XMLView.create({
+		id: "cacheableView",
+		viewName: "my.cacheableView",
+		cache: {
+			keys: [
+			// several key providers, at least one
+			pCalculatedCacheKeyPromise,
+			sAnotherKey
+			]
+		}
+	}).then(function (oXmlView) {
+		// ...
+	});
 });
 ```
 

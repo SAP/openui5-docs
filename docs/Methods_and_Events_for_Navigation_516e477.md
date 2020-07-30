@@ -37,9 +37,11 @@ The method uses the following parameters:
 
 ``` js
 sap.ui.require([
+    "sap/ui/core/mvc/Controller",
     "sap/ui/core/UIComponent", ...
 ], function(UIComponent, ...) {
-    sap.ui.controller("MyApp.View2", {
+    "use strict";
+    return Controller.extend("MyApp.View2",
         anyEvent: function() {
             var oRouter = this.getOwnerComponent().getRouter();
             oRouter.navTo("product", {
@@ -86,19 +88,24 @@ If you want to only react to specific routes, check if the `name` parameter matc
 The methods `attachRouteMatched` and `attachMatched` can be used to attach an event listener to these events.
 
 ``` js
-sap.ui.controller("MyApp.View1", {
-    onInit: function() {
-        var oRouter = this.getOwnerComponent().getRouter();
-        oRouter.getRoute("view1").attachMatched(function(oEvent) {
-            this._selectItemWithId(oEvent.getParameter("arguments").id);
-        }, this);
-    },
+sap.ui.require([
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/core/UIComponent", ...
+], function(UIComponent, ...) {
+    "use strict";
+    return Controller.extend("MyApp.View1", {
+        onInit: function() {
+            var oRouter = this.getOwnerComponent().getRouter();
+            oRouter.getRoute("view1").attachMatched(function(oEvent) {
+                this._selectItemWithId(oEvent.getParameter("arguments").id);
+            }, this);
+        },
     
-    _selectItemWithId : function(id) {
-        //implementation
-    }
-}
-
+        _selectItemWithId : function(id) {
+            //implementation
+        }
+    });
+});
 ```
 
 ***

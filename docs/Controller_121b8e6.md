@@ -22,6 +22,7 @@ sap.ui.define([
     return Controller.extend("sap.hcm.Address", {
         // controller logic goes here
     });
+});
 ```
 
 The string in quotes specifies the controller name. The controller file's name should be named as the string in the quotes, `Address.controller.js`.
@@ -66,6 +67,7 @@ OpenUI5 provides the following lifecycle hooks:
 >             this.counter = 0;
 >         }
 >     });
+> });
 > ```
 > 
 > 
@@ -89,6 +91,7 @@ In addition to lifecycle hooks, a controller can define additional methods that 
 >             this.counter++;
 >         }
 >     });
+> });
 > ```
 > 
 > 

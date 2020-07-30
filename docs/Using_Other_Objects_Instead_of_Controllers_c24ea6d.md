@@ -26,7 +26,15 @@ var oDummyController = {
 	} 
 };
 
-var myButton  = sap.ui.htmlfragment( "my.useful.UiPartZ", oDummyController); 
 // this specific fragment needs a controller and gets a dummy controller here. 
+sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
+    Fragment.load({
+		name: "my.useful.UiPartZ",
+        type: "HTML",
+        controller: oDummyController
+    }).then(function(oButton){
+        // ...
+    });
+});
 ```
 

@@ -26,13 +26,28 @@ The first button will always have a generated ID, as, for instance, `__button2`.
 The second button will either have the ID `btnInFragment`, in case the fragment is instantiated without giving an ID. This approach is easy to use, but implies the risk of ID collisions when instantiated multiple times:
 
 ``` js
-sap.ui.htmlfragment("my.useful.UiPartZ"); // Button ID will not be prefixed
+sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
+   Fragment.load({
+      name: "my.useful.UiPartZ",
+      type: "HTML"
+   }).then(function(oFragment){
+      // ...
+   }); // Button ID will not be prefixed
+});
 ```
 
 The other possible ID of the second button is `myFragment--btnInFragment`, in case the fragment is instantiated giving the ID `myFragment`. You should not rely on the exact syntax of this prefixing.
 
 ``` js
-sap.ui.htmlfragment("myFragment", "my.useful.UiPartZ");
+sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
+   Fragment.load({
+      name: "my.useful.UiPartZ",
+      id: "myFragment",
+      type: "HTML"
+   }).then(function(oFragment){
+      // ...
+   });
+});
 ```
 
 It is, however, possible that a containing view may add its prefix. For more information, see [IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md).

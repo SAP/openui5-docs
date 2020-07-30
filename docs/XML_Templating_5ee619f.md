@@ -33,19 +33,23 @@ If the view is loaded asynchronously, fragments and required modules are loaded 
 > JavaScript Target View For Routing
 > 
 > ```
-> sap.ui.jsview("some.package.RouteTargetView", {
->     createContent : function () {
->         return sap.ui.view({
->             async : true,
->             preprocessors : {
->                 xml : {
->                     // ...
->                 }
->             },
->             type : sap.ui.core.mvc.ViewType.XML,
->             viewName : "some.package.TemplateView"
->         });
->     }
+> sap.ui.define(["sap/ui/core/mvc/XMLView"], function (XMLView) {
+> 
+>      sap.ui.jsview("some.package.RouteTargetView", {
+>          createContent : function () {
+>              return XMLView.create({
+>                  preprocessors : {
+>                      xml : {
+>                          // ...
+>                      }
+>                  },
+>                  viewName : "some.package.TemplateView"
+>              }).then(function (oView) {
+>                  // return View content
+>                  return oView;
+>              });
+>          }
+>      });
 > });
 > ```
 > 
@@ -59,24 +63,23 @@ In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the correspond
 
 ``` js
 1   View.create({
-2      async : true,
-3      models : oModel,
-4      preprocessors : {
-5         xml : {
-6            bindingContexts : {
-7               meta : oMetaModel.getMetaContext(sPath)
-8            },
-9            models : {
-10              meta : oMetaModel
-11           }
-12        }
-13     },
-14     type : ViewType.XML,
-15     viewName : "sap.ui.core.sample.ViewTemplate.tiny.Template"
-16  }).then(function (oTemplateView) {
-17     oTemplateView.bindElement(sPath);
-18     ...
-19  }
+2      models : oModel,
+3      preprocessors : {
+4         xml : {
+5            bindingContexts : {
+6               meta : oMetaModel.getMetaContext(sPath)
+7            },
+8            models : {
+9              meta : oMetaModel
+10           }
+11        }
+12     },
+13     type : ViewType.XML,
+14     viewName : "sap.ui.core.sample.ViewTemplate.tiny.Template"
+15  }).then(function (oTemplateView) {
+16     oTemplateView.bindElement(sPath);
+17     ...
+18  }
 ```
 
 ***
