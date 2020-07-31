@@ -14,9 +14,14 @@ OpenUI5 supports the extension of a base controller by merging the delivered sta
 
 OpenUI5 supports two different extension variants. The latest and recommended variant is called [Controller Extension](Using_Controller_Extension_21515f0.md). The old variant, called **Component Configuration** is described in the following section / subsections.
 
-The OpenUI5 controller extension concept does **not** use inheritance. Instead, methods of the custom controller override standard methods with the same name. The following controller lifecycle methods are, however, an exception to this rule: `onInit`, `onExit`, `onBeforeRendering`, `onAfterRendering`. For these methods, the controller methods of your custom application are called either after \(for `onInit` and `onAfterRendering`\), or before \(for `onExit` and `onBeforeRendering`\) the standard lifecycle methods.
+The OpenUI5 Component Configuration concept does not support hierarchical inheritance of methods within a chain of controllers. Instead, methods of the custom controller override any methods of the standard controller with the same name. The following controller lifecycle methods are, however, an exception to this rule: `onInit`, `onExit`, `onBeforeRendering`, `onAfterRendering`. For these methods, the controller methods of your custom application are called either after \(for `onInit` and `onAfterRendering`\), or before \(for `onExit` and `onBeforeRendering`\) the standard lifecycle methods.
 
-The following examples show how controller extension concept in OpenUI5 works. The following code snippet shows the standard controller `Main.controller.js` of the delivered standard application:
+> Note:
+> When using the OpenUI5 Component Configuration concept, only the standard controller can be extended, but a custom controller can **not** be extended again. Only one level of controller extension is allowed; nested controller extension is not supported. We recommend using the more recent [Controller Extension](Using_Controller_Extension_21515f0.md) approach for such a use case.
+> 
+> 
+
+The following examples show how the Component Configuration concept in OpenUI5 works. The following code snippet shows the standard controller `Main.controller.js` of the delivered standard application:
 
 ``` js
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
@@ -83,6 +88,4 @@ The `doSomething` method of the new controller overwrites the `doSomething` meth
 The `doSomeStandardAction` method remains available without changes, as no method with the same name exists in the new controller.
 
 The `doSomeCustomAction` method is additionally available and you can use it, for example, in a view extension.
-
-The controller extensions are applied to all controllers with the specified name within the customized component, regardless of whether the controller is instantiated explicitly or belongs to a view.
 
