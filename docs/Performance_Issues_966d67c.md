@@ -113,13 +113,14 @@ Controller code:
 			});
 		}
 		oEditPanel.setVisible(true);
+	}
 	...
 ```
 
 In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller’s `onInit()` method decides which fragment to instantiate and display initially:
 
 ``` js
-...
+	...
 	toEditMode: function () {...},
 	onInit: function () {
 		Fragment.load({
@@ -128,6 +129,7 @@ In other scenarios, at the time of developing you may not know which UI part is 
 		}).then(function (oFragment) {
 			this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
 		});
+	}
 	...
 ```
 

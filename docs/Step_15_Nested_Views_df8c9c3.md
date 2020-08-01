@@ -69,7 +69,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
          <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
-            class="myAppDemoWT myCustomButton"/>
+            class="myCustomButton"/>
          <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"

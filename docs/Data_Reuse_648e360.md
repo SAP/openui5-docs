@@ -20,7 +20,7 @@ The OData V4 model keeps data with respect to bindings. This allows different vi
 
 ### Relative Bindings
 
-An OData V4 binding may or may not trigger own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not raise its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a V4 context, `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the `$$noPatch` binding parameter of the OData V4 property binding.
+An OData V4 binding may or may not trigger own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not send its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the `$$noPatch` binding parameter of the OData V4 property binding.
 
 The following example shows a typical master-detail scenario with a list of objects and the details of the selected object:
 
@@ -49,11 +49,11 @@ As we are using the model feature `autoExpandSelect`, we are getting a tailored 
 
 `GET SalesOrderList?$select=Currency,GrossAmount,SalesOrderID&$expand=SO_2_BP($select=BusinessPartnerID,CompanyName)&$skip=0&$top=100`
 
-Upon selection of an object in the list, the row context is used as the binding context for the detail section. Note that this row context will always be a V4 context, `sap.ui.model.odata.v4.Context`. Setting the binding context resolves the context binding of the detail section. Missing properties are requested with the following request. Note that properties already present in the list are not requested again.
+Upon selection of an object in the list, the row context is used as the binding context for the detail section. Note that this row context will always be a V4 context, `sap.ui.model.odata.v4.Context`. Setting the binding context resolves the property bindings of the detail section. Missing properties are requested with the following request. Note that properties already available are not requested again.
 
 `GET SalesOrderList('0500000001')?$select=NetAmount,Note`
 
-Editing of any properties shown in the list, as well as the details section in either place, will automatically be reflected in the other place as well.
+Editing any properties shown in the list or the detail section will automatically be reflected in the other place as well.
 
 ***
 
@@ -67,7 +67,7 @@ The data of the returned entity is synchronized into the binding parameter of th
 
     For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding%23methods/execute). 
 
--   The returned entity has the same key as the binding parameter.
+-   The returned entity has the same key predicate as the binding parameter.
 
 
 ***
@@ -86,7 +86,7 @@ The same data needs to be requested only once for use cases like value help cont
 For this, you may use the `$$sharedRequest` binding parameter for all the list bindings that do not need to request the data individually.
 
 > Note:
-> These bindings have to be immutable.
+> A binding becomes read-only by using the `$$sharedRequest` parameter.
 > 
 > 
 
@@ -111,5 +111,5 @@ For this, you may use the `$$sharedRequest` binding parameter for all the list b
 ...
 ```
 
-The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](Value_Lists_ab267a6.md) models.
+The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](Value_Lists_ab267a6.md) models. Note that you can also set the `$$sharedRequest` parameter on the model, which means that all list bindings created within this model receive `$$sharedRequest=true` by default. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel#Constructor`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23constructor). 
 

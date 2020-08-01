@@ -24,7 +24,7 @@ You can create bindings that are independent of controls using the factory metho
 
 -   `requestObject`: Returns a promise on the value for the given path relative to the context.
 
--   `requestProperty`: Returns a promise on the property value for the given path relative to the context.
+-   `requestProperty`: Returns a promise on the property value\(s\) for the given path\(s\) relative to the context. The value\(s\) will be requested from the back end if necessary.
 
 -   `getObject`: Returns the value for the given path relative to this context
 
