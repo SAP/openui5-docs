@@ -221,12 +221,12 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 			<td> `type` </td>
 			<td>Possible values:
 
- -   `application`
- -   `component`
+ -   `application`: use if your `manifest.json` describes a **UI5 application**. For an example how to use a `manifest.json` for UI5 applications, see [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
+ -   `component`: use if your `manifest.json` describes a **reuse component** that is used in several apps. For further reuse component-specific configuration options, see [Descriptor for Components \(Inside Libraries\)](Descriptor_for_Components_(Inside_Libraries)_7701636.md).
 
- -   `library`
+ -   `library`: use if your `manifest.json` describes a **UI5 library**. For further library-specific configuration options, see [Descriptor for Libraries](Descriptor_for_Libraries_b229914.md).
 
- -   `card`
+ -   `card`: use if your `manifest.json` describes a **UI5 card**. For further card-specific configuration options, see[Integration Cards](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/overview/introduction).
 			</td>
 		</tr>
 		<tr>
