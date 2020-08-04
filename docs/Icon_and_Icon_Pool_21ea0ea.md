@@ -168,7 +168,7 @@ You can consume the predefined `SAP-icons` icon font also in an environment wher
     			rel="stylesheet"
     			type="text/css"
     			href="https://openui5.hana.ondemand.com/resources/sap/ui/core/themes/base/SAP-icons.css"
-    			>
+    		>
     		<style>
     			.laptop::before {
     				font-family: SAP-icons;

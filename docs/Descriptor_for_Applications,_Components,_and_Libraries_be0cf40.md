@@ -50,6 +50,7 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 23|\>=1.78|1.22.0|
 |Version 24|\>=1.79|1.23.0|
 |Version 25|\>=1.80|1.24.0|
+|Version 26|\>=1.81|1.25.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -544,7 +545,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.24.0",
+    "_version": "1.25.0",
  
     "start_url": "index.html",
  
@@ -634,7 +635,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.80.0",
+            "minUI5Version": "1.81.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
