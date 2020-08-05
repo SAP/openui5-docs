@@ -113,3 +113,32 @@ For this, you may use the `$$sharedRequest` binding parameter for all the list b
 
 The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](Value_Lists_ab267a6.md) models. Note that you can also set the `$$sharedRequest` parameter on the model, which means that all list bindings created within this model receive `$$sharedRequest=true` by default. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel#Constructor`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23constructor). 
 
+***
+
+<a name="loio648e360fa22d46248ca783dc6eb44531__section_f2s_pqp_4mb"/>
+
+### Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection
+
+If, due to filtering or sorting of the list, the entity shown in the detail view is no longer part of the list, then the context pointing to this entity is destroyed. As a consequence, its data also vanishes inside the detail view. To prevent this drawback, `sap.ui.model.odata.v4.Context#setKeepAlive` can be used. This method allows you to extend the lifetime of a context, so that the context does not get destroyed when the corresponding entity is no longer part of the list.
+
+**Example:**
+
+``` js
+...
+ 
+// Optional: First remove the keep-alive setting for the previous context of the detail view
+oOldContext = oView.getBindingContext();
+if (oOldContext) {
+    oOldContext.setKeepAlive(false);
+}
+ 
+// Share data between collection and view for a selected context, e.g. the second context
+oNewContext = oTable.getItems()[1].getBindingContext();
+oView.setBindingContext(oNewContext);
+ 
+// Mandatory: Prevent destruction of the new context using the keep-alive setting
+oNewContext.setKeepAlive(true);
+```
+
+The data of the kept-alive context shown in list and detail view will be in sync, even if the kept-alive context is not shown in the list and loaded again later.
+

@@ -85,7 +85,7 @@ sap.ui.core.Component.extend("some.sample.Component", {
 });
 ```
 
-In addition to the common metadata for components, the `UIComponent` class provides the following metadata for UI compnents:
+In addition to the common metadata for components, the `UIComponent` class provides the following metadata for UI components:
 
 -   `publicMethods`: Definition of public methods for your component
 

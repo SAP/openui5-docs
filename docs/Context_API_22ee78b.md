@@ -26,11 +26,15 @@ The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Con
 
 -   `hasPendingChanges` tests for pending changes
 
+-   `isKeepAlive` returns the context's `KeepAlive` attribute
+
 -   `isTransient` tests whether a new entity exists on the client-side only
 
 -   `refresh` refreshes an entity
 
 -   `requestSideEffects` loads the side effects of a PATCH
+
+-   `setKeepAlive` sets the context's `KeepAlive` attribute. If `true`, the context is kept alive even when it is removed from its binding's collection, for example if a filter is applied and the entity represented by this context does not match the filter criteria.
 
 -   `setProperty` asynchronously sets a property value. This is even possible without reading data first, in which case `If-Match : *` is used. You can also set a property without sending a PATCH request by using `null` as a group ID, but only if data has been read before.
 
