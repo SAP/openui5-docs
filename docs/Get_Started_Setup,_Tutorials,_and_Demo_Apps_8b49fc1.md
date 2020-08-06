@@ -20,7 +20,7 @@ Set up your development environment and go through our tutorials. They introduce
 
 -   You should be familiar with JavaScript.
 
--   Set up your development environment: Get OpenUI5 and place it in a location, which can be accessed in the resources folder \(not necessary for SAP Web IDE\). For more information, see [Development Environment](Development_Environment_7bb04e0.md).
+-   Set up your [Development Environment](Development_Environment_7bb04e0.md).
 
 -   Set up a folder where you would place the application content. We will refer to this folder as the “app folder”.
 

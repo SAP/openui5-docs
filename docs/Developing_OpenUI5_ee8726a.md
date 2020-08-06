@@ -110,7 +110,7 @@ For the advanced setup, proceed as follows:
     ```
 
 
-You can now use the UI5 CLI in any of your local OpenUI5 libraries. For details, check the [UI5 CLI documentation](https://github.com/SAP/ui5-cli).
+You can now use the UI5 CLI in any of your local OpenUI5 libraries. For details, check the [UI5 CLI documentation](https://sap.github.io/ui5-tooling/pages/CLI/).
 
 Whenever you make changes to your OpenUI5 repository's `node_modules` directory \(e.g. by executing `npm install`\), you may need to recreate the links between the OpenUI5 libraries. You can always do this by executing `yarn` in the OpenUI5 root directory.
 

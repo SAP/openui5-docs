@@ -14,13 +14,13 @@ Versioning and maintenance strategy for OpenUI5.
 
 ***
 
-OpenUI5 uses a 3-digit version identifier, for example 1.71.18 The digits have the following meaning:
+OpenUI5 uses a 3-digit version identifier, for example 1.71.22 The digits have the following meaning:
 
 -   The first digit \(1\) specifies the release number \(major version\).
 -   The second digit \(71\) specifies the version number \(minor version\).
--   The third digit \(18\) specifies the patch number.
+-   The third digit \(22\) specifies the patch number.
 
-To view the documentation for a specific version, check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.71.18/`.
+To view the documentation for a specific version, check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.71.22/`.
 
 To get an overview of the new features of each version, see [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
 

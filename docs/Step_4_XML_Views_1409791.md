@@ -87,7 +87,7 @@ We replace the instantiation of the `sap.m.Text` control by our new `App` XML vi
 > Note:
 > From this step onwards, it is necessary to run the app on a Web server. We structure the app with multiple files that are loaded from the local file system. Without a Web server, this is prevented by the browser due to security reasons. If the error message "sap is not defined" appears in the developer tools of the browser, you need to check the `resource` path in the bootstrap.
 > 
-> You can find more information about how to install a Web server for your particular environment at [Development Environment](Development_Environment_7bb04e0.md).
+> Instead of installing a Web server you could use [UI5 Tooling](https://sap.github.io/ui5-tooling/) to start a local development server. See[Development Environment](Development_Environment_7bb04e0.md) for more information.
 > 
 > 
 

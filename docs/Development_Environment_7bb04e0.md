@@ -18,6 +18,14 @@ Depending on your use case, the following environments might be interesting for 
 
 ***
 
+#### UI5 Tooling
+
+[UI5 Tooling](https://sap.github.io/ui5-tooling/) is an open and modular toolchain to develop state-of-the-art OpenUI5 applications. As a modern build and development environment it comes with a [command line interface \(CLI\)](https://sap.github.io/ui5-tooling/pages/cli/), leverages Node.js and npm, and is being further advanced as an open-source project.
+
+Follow the concise [Getting Started](https://sap.github.io/ui5-tooling/pages/gettingstarted/) documentation for initial project setup.
+
+***
+
 #### SAP Web IDE
 
 SAP Web IDE is a web-based development environment that is optimized for developing complex OpenUI5 apps using the latest innovations, developing and extending SAP Fiori apps, developing mobile hybrid apps, and extending SAP Web IDE with plug-ins and templates. Use cases:
@@ -30,13 +38,5 @@ SAP Web IDE is a web-based development environment that is optimized for develop
 
 ***
 
-#### OpenUI5
-
-When you develop apps using OpenUI5, you can use the development environment \(editor and web server\) of your choice. You can either download all of the sources or refer to the online version of OpenUI5.
-
-***
-
-#### Node.js
-
-You can use Node.js to modify OpenUI5.
+#### Other Tools
 

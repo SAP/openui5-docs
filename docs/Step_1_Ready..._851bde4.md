@@ -56,7 +56,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 </html>*HIGHLIGHT END*
 ```
 
-In your development environment \(SAP Web IDE is recommended\), create the folder `webapp`. In this folder, create an `index.html` file, and paste the above code to this file.
+In your development environment, create the folder `webapp`. In this folder, create an `index.html` file, and paste the above code to this file.
 
 With the `script` tag, we load and initialize OpenUI5 with typical bootstrap parameters. We define, for example, a theme, control libraries, as well as performance and compatibility flags.
 

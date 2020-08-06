@@ -23,7 +23,7 @@ In the following section, we describe the setup with *Karma*, but you can of cou
 
 [*Karma* Home Page](https://karma-runner.github.io/)
 
-[`karma-ui5` on GitHub](https://help.sap.com/viewer/disclaimer-for-links?q=https%3A%2F%2Fgithub.com%2FSAP%2Fkarma-openui5)
+[`karma-ui5` on GitHub](https://github.com/SAP/karma-openui5/)
 
  <a name="loioae448243822448d8ba04b4784f4b09a0 loioa182676ed3714bd5b4f011eb29076f6c__loioa182676ed3714bd5b4f011eb29076f6c"/>
 

@@ -45,7 +45,7 @@ A library preload file, the library styles and text translations are loaded for 
 
 In the JavaScript files of your app, define all dependencies to OpenUI5 framework classes and app resources via `sap.ui.define`. If you have unused dependencies, you should remove them right away.
 
-The UI5 Build and Development tooling can then create a "cleaned-up" version of your app that only contains the resources you really need. The so-called application preload will greatly speed up the initial load time of your app.
+The UI5 Tooling can then create a "cleaned-up" version of your app that only contains the resources you really need. The so-called application preload will greatly speed up the initial load time of your app.
 
 ``` json
 sap.ui.define([
