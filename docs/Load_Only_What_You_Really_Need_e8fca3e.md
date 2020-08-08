@@ -60,7 +60,7 @@ sap.ui.define([
 -   Find out more:
     -   [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html)
-    -   [https://github.com/SAP/ui5-tooling](https://github.com/SAP/ui5-tooling)
+    -   [UI5 Tooling](https://sap.github.io/ui5-tooling/)
 
 ***
 

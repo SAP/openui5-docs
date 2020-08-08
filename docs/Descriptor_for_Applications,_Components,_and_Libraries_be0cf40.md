@@ -212,7 +212,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 	<tbody>
 		<tr>
 			<td> `id` </td>
-			<td>Mandatory attribute: Unique identifier of the app, which must correspond to the component name
+			<td>A mandatory attribute that represents the namespace of the project. It has to be unique in the environment of your UI5 projects. All artefacts which are associated with your project have to be included in this namespace to be available, e.g. Controller, Views, etc.
 
  > Note:
  > The ID must not exceed 70 characters. It must be unique and must correspond to the component name.
