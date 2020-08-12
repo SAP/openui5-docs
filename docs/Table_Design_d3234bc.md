@@ -122,7 +122,7 @@ Here's an example of how to use the `mergeDuplicates` feature. We'll set up a ta
     </columns>
     <ColumnListItem>
       <Text text="{SupplierName}" />
-      <ObjectIdentifier title="{Name}" text="{ProductId}" class="sapMTableContentMargin" />
+      <ObjectIdentifier title="{Name}" text="{ProductId}" class="sapUiTinyMarginTopBottom" />
       <Text text="{Width} x {Depth} x {Height} {DimUnit}" />
       <ObjectNumber
         number="{WeightMeasure}" unit="{WeightUnit}"

@@ -19,6 +19,7 @@ With this release OpenUI5 is upgraded from version 1.80 to 1.81.
 ### New Features
 
 | **Consuming SAP Icon Font in a Non-UI5 Environment** You can now consume the predefined `SAP-icons` icon font in an environment where OpenUI5 isn't available. An example for integration is given [here](Icon_and_Icon_Pool_21ea0ea.md#loio21ea0ea94614480d9a910b2e93431291__section_whp_y2l_mmb).|
+| **Incompatible jQuery Security Fix** We have added a jQuery security fix to OpenUI5, which may introduce incompatibilities to existing application or library code. For checking and, if required, fixing your applications and libraries, see [these instructions]().|
 | **Special URL Prefixes in App Descriptor** Inside the app descriptor, you can now use special URLs prefixed with `ui5://`. These URLs are resolved automatically during component startup, before any models are created. One common use case is the resolution of local annotation files. By default the local annotation files are resolved relative to the manifest. When using a `ui5://` URL, you can enforce a different resolution, for example to a server-absolute URL. Find more details about the usage of such URL prefixes and an example in the [documentation](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_rmc_3xj_mmb).|
 
 ***

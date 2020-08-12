@@ -212,7 +212,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 	<tbody>
 		<tr>
 			<td> `id` </td>
-			<td>A mandatory attribute that represents the namespace of the project. It has to be unique in the environment of your UI5 projects. All artefacts which are associated with your project have to be included in this namespace to be available, e.g. Controller, Views, etc.
+			<td>A mandatory attribute that represents the namespace of the project. It has to be provided in dot notation and must be unique in the environment of your UI5 projects. All artefacts which are associated with your project have to be included in this namespace to be available, e.g. Controller, Views, etc. For example, an `id` might look like `mycompany.mynamespace1.mynamespace2`. The directory structure is separated by dots, so your artefacts have to be stored in the following folder structure: `mycompany/mynamespace1/mynamespace2`. In case of `sap.app/type=application`, the `sap.app/id` corresponds to the `id` of the UI5 component.
 
  > Note:
  > The ID must not exceed 70 characters. It must be unique and must correspond to the component name.
@@ -494,7 +494,7 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 		</tr>
 		<tr>
 			<td> `componentName` </td>
-			<td>Name of the OpenUI5 component</td>
+			<td>An optional attribute that only has to be provided if your project is a variant of an existing application. In this case the `componentName` has to contain the `sap.app/id` of the existing application which is the basis of your variant.</td>
 		</tr>
 		<tr>
 			<td> `i18n` </td>

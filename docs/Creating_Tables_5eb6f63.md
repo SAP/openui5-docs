@@ -64,7 +64,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
               <ObjectIdentifier
                 title="{Name}"
                 text="{ProductId}"
-                class="sapMTableContentMargin" />
+                class="sapUiTinyMarginTopBottom" />
               <Text
                 text="{SupplierName}" />
             </cells>
