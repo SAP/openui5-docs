@@ -28,7 +28,7 @@ In addition to applying best practices, always stay up to date with the framewor
 12. [Migrate `jquery.sap.*` Modules to their Modularised Variants](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateJquery)
 13. [Migrate Synchronous Variants of UI5 Factories to Asynchronous Variants](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_MigrateFactories)
 14. [Use the OData V2 Model Preload](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ModelPreload) 
-15. [Use OData V2 Metadata Caching](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_MetadataCaching)
+15. [Use OData Metadata Caching](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_MetadataCaching)
 16. [Check Lists and Tables](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_ListsTables)
 17. [Further Optimize your Code](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_OptimizeCode)
 

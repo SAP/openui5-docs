@@ -371,14 +371,9 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_MetadataCaching"/>
 
-### Use OData V2 Metadata Caching
+### Use OData Metadata Caching
 
 To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check via the developer tools of your browser \(e.g. the Network tab in the Google Chrome developer tools\) if the token has been appended to the request URL.
-
-> Note:
-> This feature is only supported by OData V2 for SAP Fiori applications.
-> 
-> 
 
 > Note:
 > Please consider switching to the [OData V4 Model](OData_V4_Model_5de13cf.md) for improved performance.
