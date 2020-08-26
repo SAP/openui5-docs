@@ -32,7 +32,7 @@ Check the available versions with the respective maintenance status at [https://
 ``` html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://openui5.hana.ondemand.com/**1.82.0**/resources/sap-ui-core.js"
+    src="https://openui5.hana.ondemand.com/**1.83.0**/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_belize"
     data-sap-ui-libs="sap.m"></script>
 
