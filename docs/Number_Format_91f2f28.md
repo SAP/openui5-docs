@@ -32,20 +32,20 @@ There are four types of formatters defined in `NumberFormat`:
 The instantiation of `sap.ui.core.format.NumberFormat` is done by calling `getter` defined on `NumberFormat` \(and not by using the constructor\).
 
 ``` js
-var oIntegerFormat = sap.ui.core.format.NumberFormat.getIntegerInstance();
-// or
-var oFloatFormat = sap.ui.core.format.NumberFormat.getFloatInstance();
-// or
-var oPercentFormat = sap.ui.core.format.NumberFormat.getPercentInstance();
-// or
-var oCurrencyFormat = sap.ui.core.format.NumberFormat.getCurrencyInstance();
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oIntegerFormat = NumberFormat.getIntegerInstance();
+var oFloatFormat = NumberFormat.getFloatInstance();
+var oPercentFormat = NumberFormat.getPercentInstance();
+var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 ```
 
 ***
 
 ### Parameters
 
-All parameters have their default value defined in the current locale. Therefore, if no parameter is given when instantiating the formatter instance, it fetches the parameters from the current locale. All parameters can be overwritten by giving a format option object in the `getter` of the formatter. There are a bunch of parameter defined for the four types of formatters. Most of them are shared among the types and the rest are specifically defined for a certain kind of formatter.
+All parameters have their default value defined in the current locale. Therefore, if no parameter is given when instantiating the formatter instance, it fetches the parameters from the current locale. The samples here assume that the current locale is `en-US`.
+
+All parameters can be overwritten by giving a format option object in the `getter` of the formatter. There are a bunch of parameters defined for the four types of formatters. Most of them are shared among the types and the rest are specifically defined for a certain kind of formatter.
 
 ***
 
@@ -67,9 +67,6 @@ All parameters have their default value defined in the current locale. Therefore
 
 
 ``` js
-// Locale object is created and set to the format in order to have a user locale independent formatter.
-// In most of the cases, this locale object isn't needed.
-var oLocale = new sap.ui.core.Locale("en-US");
 var oFormatOptions = {
     minIntegerDigits: 3,
     maxIntegerDigits: 5,
@@ -77,25 +74,24 @@ var oFormatOptions = {
     maxFractionDigits: 4
 };
 
-var oFloatFormat = sap.ui.core.format.NumberFormat.getFloatInstance(oFormatOptions, oLocale);
-oFloatFormat.format(1.1); // returns 001.10
-oFloatFormat.format(1234.567); // returns 1,234.567
-oFloatFormat.format(123456.56789); // returns ??,???.5679
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oFloatFormat = NumberFormat.getFloatInstance(oFormatOptions);
+oFloatFormat.format(1.1); // returns "001.10"
+oFloatFormat.format(1234.567); // returns "1,234.567"
+oFloatFormat.format(123456.56789); // returns "??,???.5679"
 ```
 
 ``` js
-// Locale object is created and set to the format in order to have a user locale independent formatter.
-// In most of the cases, this locale object isn't needed.
-var oLocale = new sap.ui.core.Locale("en-US");
 var oFormatOptions = {
     style: "short",
     decimals: 1,
     shortDecimals: 2
 };
 
-var oFloatFormat = sap.ui.core.format.NumberFormat.getFloatInstance(oFormatOptions, oLocale);
-oFloatFormat.format(1234.56); // returns 1.23K (shortified number takes the shortDecimals parameter)
-oFloatFormat.format(123.456); // returns 123.5 (non-shortified number takes the decimals parameter)
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oFloatFormat = NumberFormat.getFloatInstance(oFormatOptions);
+oFloatFormat.format(1234.56); // returns "1.23K" (shortified number takes the shortDecimals parameter)
+oFloatFormat.format(123.456); // returns "123.5" (non-shortified number takes the decimals parameter)
 ```
 
 ***
@@ -161,26 +157,20 @@ To control the start the starting point of numbers which should be displyed in c
     |-2.25|-2.3|-2.2|-2.2|-2.3|-2.3|-2.2|-2.2|-2.3|
     |-2.29|-2.3|-2.2|-2.2|-2.3|-2.3|-2.3|-2.3|-2.3|
 
-
 ***
 
 ### Parsing
 
-***
-
-#### Parsing a number
-
 A formatted number which contains a locale-dependent grouping separator, decimal point, or percentage sign can be parsed into a number object using `sap.ui.core.format.NumberFormat`. Those number string may not be correctly parsed by using `parseInt` or `parseFloat` in JavaScript.
 
 ``` js
-// Locale object is created and set to the format in order to have a user locale independent formatter.
-// In most of the cases, this locale object isn't needed.
-var oLocale = new sap.ui.core.Locale("en-US");
-var oFloatFormat = sap.ui.core.format.NumberFormat.getFloatInstance(oLocale);
-
+// "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
+var oFloatFormat = NumberFormat.getFloatInstance();
 oFloatFormat.parse("1,234.567"); // returns 1234.567
 oFloatFormat.parse("12.34%"); // returns 0.1234
 ```
+
+***
 
 **Related information**  
 
