@@ -23,7 +23,7 @@ The following keys and key combinations are used for triggering events of clicka
 	</thead>
 	<tbody>
 		<tr>
-			<td>*SPACE*</td>
+			<td>*Spacebar*</td>
 			<td>If items are **not selectable** and focus is on an item, trigger the item event.
 
  > Note:
@@ -32,7 +32,7 @@ The following keys and key combinations are used for triggering events of clicka
  If items are selectable, select/deselect the item.</td>
 		</tr>
 		<tr>
-			<td>*ENTER*</td>
+			<td>*Enter*</td>
 			<td>If focus is on an item, trigger the item event immediately after the key press.</td>
 		</tr>
 	</tbody>
@@ -44,6 +44,6 @@ Use the following keys to trigger additional actions \(if supported\):
 
 |Key combination|Behavior|
 |---------------|--------|
-|*DELETE*|If deletion of items supported: If focus is on an item, delete the item. Move focus to the next item. If the deleted item is the last item, move focus to the previous item. If the deleted item is the last remaining item, move focus to the next control in the tab order.|
+|*Delete*|If deletion of items supported: If focus is on an item, delete the item. Move focus to the next item. If the deleted item is the last item, move focus to the previous item. If the deleted item is the last remaining item, move focus to the next control in the tab order.|
 |*F2*|If *Detail* of items is supported: If focus is on an item, trigger the click event for the *Detail* button.|
 

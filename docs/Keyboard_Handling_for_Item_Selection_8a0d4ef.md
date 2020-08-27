@@ -18,7 +18,7 @@ The following keys and key combinations are used for selecting one or multiple i
 
 |Key combination|Behavior|
 |---------------|--------|
-|*SPACE*|If focus is on an item, select the item and deselect all others.|
+|*Spacebar*|If focus is on an item, select the item and deselect all others.|
 
 ***
 
@@ -26,10 +26,10 @@ The following keys and key combinations are used for selecting one or multiple i
 
 |Key combination|Behavior|
 |---------------|--------|
-|*SPACE*|If focus is on an item, select the item and deselect all others.|
-|*CTRLSPACE*|If focus is on an item, select the item in addition to an existing selection..|
-|*SHIFTSPACE*|If focus is on an item, select all items from the previous selected item to the now focused item \(included\). Previous selection: all kinds of selection except *SHIFT**SPACE* selections|
-|*SHIFTUP*|If focus is on an item, change selection state \(selected/ not selected\) to the item above.|
-|*SHIFTDOWN*|If focus is on an item, change selection state \(selected/ not selected\) to the item below.|
-|*CTRLA*|Selects all items which the user can reach in the current view by scrolling or paging. If all items are selected, deselect all items.|
+|*Spacebar*|If focus is on an item, select the item and deselect all others.|
+|* Ctrl Spacebar *|If focus is on an item, select the item in addition to an existing selection..|
+|* Shift Spacebar *|If focus is on an item, select all items from the previous selected item to the now focused item \(included\). Previous selection: all kinds of selection except *Shift**Spacebar* selections|
+|* Shift Up arrow *|If focus is on an item, change selection state \(selected/ not selected\) to the item above.|
+|* Shift Down arrow *|If focus is on an item, change selection state \(selected/ not selected\) to the item below.|
+|* Ctrl A *|Selects all items which the user can reach in the current view by scrolling or paging. If all items are selected, deselect all items.|
 

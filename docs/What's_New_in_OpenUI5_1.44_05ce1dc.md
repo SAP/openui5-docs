@@ -140,7 +140,7 @@ The **Demo Kit** now has the following new features:
 
 -   *Deprecated Since* information is now available in the API descriptions so that it is easier to identify the version when deprecation took place.
 
--   Downloaded samples that contain external \(utility\) resources can now be easily imported with less additional effort, for example, into SAP Web IDE .
+-   Downloaded samples that contain external \(utility\) resources can now be easily imported with less additional effort, for example, into SAP Web IDE 
 
 -   The search feature in the *Icon Explorer* has been improved to find icons not only by name but also by metadata keywords.
 

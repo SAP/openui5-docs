@@ -137,7 +137,7 @@ After this change, you can run the app in SAP Web IDE without disabling the same
 
 A proxy is simply a service end point on the same domain of your app to overcome the restrictions. It receives requests from the app, forwards them to another server, and finally returns the corresponding response from the remote service.
 
-Follow the below steps to configure such a proxy in your poject.
+Follow the below steps to configure such a proxy in your project.
 
 Prerequisites: NodeJS is installed on your machine.
 

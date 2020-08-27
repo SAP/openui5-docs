@@ -51,6 +51,7 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 24|\>=1.79|1.23.0|
 |Version 25|\>=1.80|1.24.0|
 |Version 26|\>=1.81|1.25.0|
+|Version 27|\>=1.82| |
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -328,7 +329,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
 #### `sap.ui`
 
-Attributes in the mandatory `sap.ui` namespace <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>
+Attributes in the mandatory `sap.ui` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -545,7 +546,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.25.0",
+    "_version": "1.26.0",
  
     "start_url": "index.html",
  
@@ -635,7 +636,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.81.0",
+            "minUI5Version": "1.82.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
