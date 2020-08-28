@@ -213,6 +213,8 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 						  Unicode="true"/>
 				<Property Name="Quantity" Type="Edm.Int16" Nullable="false"/>
 				<Property Name="ExtendedPrice" Type="Edm.Decimal" Precision="19" Scale="4"/>
+				<Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="1" FixedLength="false"
+							Unicode="true"/>
 			</EntityType>
 		</Schema>
 		<Schema Namespace="ODataWebV2.Northwind.Model" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
