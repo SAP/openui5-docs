@@ -39,14 +39,14 @@ The following tables give a general overview of the browsers, platforms, and ref
 |Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(EdgeHTML\)<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
 |--------|---------------|----------------|------|--------|-----------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
 |Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
-|Windows<sup>1</sup>|Desktop|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
-|Windows<sup>1</sup>|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
+|Windows 10|-|Latest version|Latest 2 versions|Latest version|-|
+|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
 |macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>6</sup>|-|-|
 |iOS|Phone and Tablet<sup>6</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
 |Android|Phone and Tablet<sup>6</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
- 2\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\).  
+ 2\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\). Microsoft Edge \(EdgeHTML\) support stops on all OpenUI5 releases on March 9, 2021 \(official end of support by Microsoft\).  
  3\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
  4\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
  5\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
@@ -66,47 +66,29 @@ When creating support incidents, make sure that the device you refer to belongs 
 > 
 > 
 
-**iOS**
-
-SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
-
-|Device|End of Support Date|
-|------|-------------------|
-|Apple iPhone 8|September 2020|
+|Platform|Device|End of Support Date|
+|--------|------|-------------------|
+|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 8|September 2020|
 |Apple iPhone X|November 2020|
 |Apple iPhone XS|September 2021|
 |Apple iPhone XR|October 2021|
 |Apple iPhone 11|September 2022|
-|Apple iPad \(5th\)|March 2020|
-|Apple iPad Pro \(2nd\)|June 2020|
+|Apple iPhone SE \(2nd\)|April 2023|
 |Apple iPad \(6th\)|March 2021|
 |Apple iPad Pro \(3rd\)|October 2021|
 |Apple iPad Air \(3rd\)|March 2022|
 |Apple iPad Mini \(5th\)|March 2022|
 |Apple iPad \(7th\)|September 2022|
-
-**Android**
-
-Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
-
-|Device|End of Support Date|
-|------|-------------------|
-|Samsung Galaxy S8|April 2020|
-|Samsung Galaxy S9|March 2021|
+|Apple iPad Pro \(4th\)|March 2023|
+|Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S9|March 2021|
 |Samsung Galaxy S10|March 2022|
-|Samsung Galaxy Tab S3|March 2020|
+|Samsung Galaxy S20|March 2023|
 |Samsung Galaxy Tab S4|August 2021|
 |Samsung Galaxy Tab S5e|April 2022|
 |Samsung Galaxy Tab S6|August 2022|
-
-**Windows**
-
-OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.
-
-|Device|End of Support Date|
-|------|-------------------|
-|Microsoft Surface Pro \(2017\)|June 2020|
-|Microsoft Surface Pro 6|October 2021|
+|Samsung Galaxy Tab S6 Lite|July 2023|
+|Samsung Galaxy Tab S7|August 2023|
+|Windows OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.|Microsoft Surface Pro 6|October 2021|
 |Microsoft Surface Pro 7|October 2022|
 |Microsoft Surface Pro X|November 2022|
 

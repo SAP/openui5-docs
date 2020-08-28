@@ -137,6 +137,9 @@
 					"Upgrading": {
 						"link": "Upgrading_9638e4f.md",
 						"items": {
+							"Upgrading from a Version Below 1.82": {
+								"link": "Upgrading_from_a_Version_Below_1.82_147eef9.md"
+							},
 							"Upgrading from a Version Below 1.40": {
 								"link": "Upgrading_from_a_Version_Below_1.40_278a8e5.md"
 							},
@@ -760,8 +763,8 @@
 									"Descriptor for Components \\(Inside Libraries\\)": {
 										"link": "Descriptor_for_Components_(Inside_Libraries)_7701636.md"
 									},
-									"Resources.json File": {
-										"link": "Resources.json_File_adcbcf8.md"
+									"The resources.json File": {
+										"link": "The_resources.json_File_adcbcf8.md"
 									},
 									"Creating a Descriptor File for Existing Apps": {
 										"link": "Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md",

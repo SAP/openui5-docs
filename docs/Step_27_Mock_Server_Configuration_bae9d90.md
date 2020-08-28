@@ -199,7 +199,7 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 ``` xml
 *HIGHLIGHT START*<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
 	<edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0"
-					   xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
 		<Schema Namespace="NorthwindModel" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
 			<EntityType Name="Invoice">
 				<Key>
@@ -208,9 +208,9 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 					<PropertyRef Name="ShipperName"/>
 				</Key>
 				<Property Name="ShipperName" Type="Edm.String" Nullable="false" MaxLength="40" FixedLength="false"
-						  Unicode="true"/>
+							Unicode="true"/>
 				<Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" FixedLength="false"
-						  Unicode="true"/>
+							Unicode="true"/>
 				<Property Name="Quantity" Type="Edm.Int16" Nullable="false"/>
 				<Property Name="ExtendedPrice" Type="Edm.Decimal" Precision="19" Scale="4"/>
 				<Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="1" FixedLength="false"
@@ -219,12 +219,13 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 		</Schema>
 		<Schema Namespace="ODataWebV2.Northwind.Model" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
 			<EntityContainer Name="NorthwindEntities" m:IsDefaultEntityContainer="true" p6:LazyLoadingEnabled="true"
-							 xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+					xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
 				<EntitySet Name="Invoices" EntityType="NorthwindModel.Invoice"/>
 			</EntityContainer>
 		</Schema>
 	</edmx:DataServices>
-</edmx:Edmx>*HIGHLIGHT END*
+</edmx:Edmx>
+*HIGHLIGHT END*
 ```
 
 The metadata file contains information about the service interface and does not need to be written manually. It can be accessed directly from the “real” service by calling the service URL and adding `$metadata` at the end \(e.g. in our case `http://services.odata.org/V2/Northwind/Northwind.svc/$metadata`\). The mock server will read this file to simulate the real OData service, and will return the results from our local source files in the proper format so that it can be consumed by the app \(either in XML or in JSON format\).
