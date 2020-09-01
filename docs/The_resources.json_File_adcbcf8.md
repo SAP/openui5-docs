@@ -28,7 +28,7 @@ The list of resources is stored in an array in the `resources` property of the t
 | `name` | `string` |![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)|The relative path of the resource as accessible in a server. The path is relative to the location of the `resources.json` file, for example `Component.js`.|
 | `size` | `number` |![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)|The size in bytes of the resource.|
 | `condRequired` | `string[]` | |A list of conditional dependencies of this resource. These dependencies can be required during execution of this resource.|
-| `designtime` | `boolean` | |When set to `true`, the resource is considered a designtime resource. The OpenUI5 build derives the flag from the naming convention \(could be `/designtime/`,`.designtime.js`, `.control`, `.interface`, `.type`, `.less`,`library.templates.xml`, `library.dependencies.xml` or `library.dependencies.json`\).|
+| `designtime` | `boolean` | |When set to `true`, the resource is considered a designtime resource. The OpenUI5 build derives the flag from the naming convention \(could be `/designtime/`, `.designtime.js`, `.control`, `.interface`, `.type`, `.less`, `library.templates.xml`, `library.dependencies.xml`, or `library.dependencies.json`\).|
 | `dynRequired` | `boolean` | |When set to `true`, the resource has dynamic dependencies. The name of this dependency could not be resolved during build time.|
 | `exposedGlobalNames` | `string[]` | |A list of variables which are exposed to the global JS scope.|
 | `format` | `string` | |Defines the format of this resource; `raw` means that it is not a UI5 module.|
@@ -87,6 +87,7 @@ The list of resources is stored in an array in the `resources` property of the t
         },
         {
             "name": "DynamicSideContentRenderer-dbg.js",
+            "module": "application/mine/DynamicSideContentRenderer.js",
             "isDebug":true,
             "size": 110,
             "required": [
@@ -132,7 +133,7 @@ The list of resources is stored in an array in the `resources` property of the t
         }
  
         ...
- 		{
+        {
             "name": "plugin/LessSupport-dbg.js",
             "module": "sap/ui/core/plugin/LessSupport.js",
             "condRequired": [
@@ -144,15 +145,15 @@ The list of resources is stored in an array in the `resources` property of the t
             "format": "raw",
             "isDebug": true,
             "size": 18494
-		}
+        }
 
         ...
 
-		{
+        {
             "name": "resources.json",
             "dynRequired": true,
             "size": 1000000
-		}
+        }
     ]
 }
 ```
