@@ -22,7 +22,7 @@ OpenUI5 ships with third-party libraries. jQuery is mandatory as OpenUI5 is base
 
 jQuery does not have any security-related documentation on their site, but they are known to be aware of security and usually reacting quickly in case security issues are found within their library.
 
-OpenUI5 includes different versions of jQuery together with their own libraries, so also has the possibility to add custom security fixes to jQuery, if necessary.
+OpenUI5 includes jQuery together with their own libraries, so also has the possibility to add custom security fixes to jQuery, if necessary.
 
 ***
 

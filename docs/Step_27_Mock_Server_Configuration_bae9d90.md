@@ -30,11 +30,114 @@ The list of invoices is now served by the Mock Server<a name="loiobae9d90d2e9c42
 
 You can view and download all files at [Walkthrough - Step 27](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.27/preview).
 
-   
-  
-Folder Structure for this Step<a name="loiobae9d90d2e9c4206889368f04edab508__fig_dhm_tbp_ns"/>
+Folder structure for this step:
 
- ![](loio7a5e2b02d72d40d388f5e601d7de74df_HiRes.png "Folder Structure for this Step") 
+`  
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  webapp`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  controller`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  css`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  i18n`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  localService`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockdata`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  metadata.xml`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockserver.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  model`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  test`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockServer.html`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  view`  
+ `      
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Component.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  index.html`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  manifest.json`  
+ 
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 

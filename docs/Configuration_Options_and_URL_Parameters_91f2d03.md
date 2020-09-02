@@ -225,6 +225,22 @@ Example: `sap/ui/model/*` matches all files directly contained in the model pack
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
 		</tr>
 		<tr>
+			<td>`excludeJQueryCompat`</td>
+			<td>Type: `boolean` Default value: `false` A compatibility layer restores several incompatibly changed APIs in jQuery v3 back to their old behavior in jQuery v2. It may be excluded via this setting. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md).</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
+		</tr>
+		<tr>
 			<td>`formatLocale`</td>
 			<td>Type: `string </td>
 			<td> sap.ui.core.Locale` Default value: `null` This configuration parameter defines the locale used for formatting purposes; the default values for the locale are derived from the language.</td>

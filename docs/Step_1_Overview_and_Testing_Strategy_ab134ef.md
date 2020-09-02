@@ -35,13 +35,233 @@ To set up your project for this tutorial, download the files for *Step 1* from t
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 
-After downloading *Step 1*, you should have the following files:
+After downloading *Step 1*, you should have the following files and folder structure:
 
-   
-  
-Folder structure with downloaded files<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_xvp_11y_2t"/>
-
- ![](loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files") 
+`  
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  webapp`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  controller`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  App.controller.js`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  BaseController.js`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Worklist.controller.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  i18n`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  i18n.properties`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  localService`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockdata`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Posts.json`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  metadata.xml`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockserver.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  model`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  formatter.js`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  models.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  test`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  integration`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  arrangements`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  pages`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  AllJourneys.js`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  opaTests.qunit.html`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  WorklistJourney.js`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  unit`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  model`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  AllTests.js`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  unitTests.qunit.html`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockServer.html`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  view`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  App.view.xml`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Worklist.view.xml`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Component.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  manifest.json`  
+ 
 
 ***
 

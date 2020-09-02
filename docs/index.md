@@ -44,6 +44,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
         -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
             -   [Visual Degradations](Visual_Degradations_f08f296.md)
+            -   [Keyboard Shortcuts](Keyboard_Shortcuts_154844c.md)
         -   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
         -   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
         -   [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)

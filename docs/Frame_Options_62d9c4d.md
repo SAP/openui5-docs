@@ -18,7 +18,7 @@ OpenUI5 provides the following configuration options for `frameOptions`:
 |----|-------|-----------|
 |allow|X|Allows to be embedded from all origins|
 |deny| |Denies to be embedded from all origins|
-|trusted| |Allows to be embedded from trusted origins according to the same-origin policiy and to be embedded to origins allowed by the whitelist service|
+|trusted| |Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the whitelist service|
 
 With `frameOptionsConfig` the following additional configuration options can be set:
 

@@ -35,11 +35,121 @@ A unit test for our formatters is now available<a name="loioe1ce1de315994a02bf16
 
 You can view and download all files at [Walkthrough - Step 28](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.28/preview).
 
-   
-  
-Folder Structure for this Step<a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_lbx_wcp_ns"/>
+Folder structure for this step:
 
- ![](loio1b5613ac3ab94757af2c7823039222a9_HiRes.png "Folder Structure for this Step") 
+`  
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  webapp`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  controller`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  css`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  i18n`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  localService`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  model`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  test`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  unit`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  model`  
+ `              
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  formatter.js`  
+ `           
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  unitTests.qunit.html`  
+ `        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  mockServer.html`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  view`  
+ `      
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  Component.js`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  index.html`  
+ `     
+                                       
+                                       
+                                       
+                                       
+                                       
+                                  manifest.json`  
+ 
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
