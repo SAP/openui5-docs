@@ -81,7 +81,7 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 </mvc:View>
 ```
 
-We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use `'invoice>Ex**T**endedPrice'`. Now we call the app and notice that the price is actually missing. By pressing * CTRL ALT SHIFT S * \(on Windows and Linux\) or * CTRL OPTION SHIFT S * \(on macOS\) we open the OpenUI5 support diagnostics tool and check the app.
+We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use `'invoice>Ex**T**endedPrice'`. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) * Ctrl Shift Alt */* Option S * we open the OpenUI5 support diagnostics tool and check the app.
 
 > Note:
 > If you use the Google Chrome browser, you can install the *UI5 Inspector* plugin. With this plugin, you can easily debug your - or OpenUI5-based apps. For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
@@ -94,7 +94,7 @@ A hierarchical tree of OpenUI5 controls is shown on the left and the properties 
 
 Sometimes errors are not as easy to spot and you actually need to debug the JavaScript code with the tools of the browser. For performance reasons, the OpenUI5 files are shipped in a minified version, this means that all possible variable names are shortened and comments are removed.
 
-This makes debugging harder because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing * CTRL ALT SHIFT P * \(on Windows and Linux\) or * CTRL OPTION SHIFT P * \(on macOS\) and select *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files with the `–dbg` suffix are loaded. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
+This makes debugging harder because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing * Ctrl Shift Alt */* Option P * and selecting *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files with the `–dbg` suffix are loaded. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
 
    
   

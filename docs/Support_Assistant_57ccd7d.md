@@ -51,7 +51,7 @@ Support Assistant Toolbar <a name="loio57ccd7d7103640e3a187ed55e1d2c163__fig_c11
 
 You can also start the Support Assistant from the Technical Information Dialog.
 
-1.  Open the Technical Information Dialog by using the following shortcut: * CTRL SHIFT ALT P * \(on Windows and Linux\) or * CTRL SHIFT OPTION P * \(on macOS\).
+1.  Open the Technical Information Dialog by using the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */* Option P * 
 
 2.  Choose *Activate Support Assistant*.
 

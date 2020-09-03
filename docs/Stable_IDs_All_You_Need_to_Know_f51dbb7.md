@@ -307,7 +307,7 @@ For more information about the SAP Fiori Worklist Application template, see [Wor
 With the Support Assistant, you can analyze whether there are any issues with the stable IDs used in your app. Here's how you can check this:
 
 1.  Open your app in a browser.
-2.  Choose * CTRL SHIFT ALT P * \(on Windows and Linux\) or * CTRL SHIFT OPTION P * \(on macOS\) to start the Support Assistant.
+2.  Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) * Ctrl Shift Alt */* Option P * to start the Support Assistant.
 3.  In the *Technical Information Dialog*, choose *Activate Support Assistant*.
 4.  In the table on the left, deselect all rules.
 5.  Click on the *Rules* column.

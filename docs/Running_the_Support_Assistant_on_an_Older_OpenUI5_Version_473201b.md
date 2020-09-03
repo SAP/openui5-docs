@@ -16,7 +16,7 @@ In some cases you may want to run the Support Assistant against a different vers
 
 The minimum OpenUI5 version in which the Support Assistant is available is 1.44.17.
 
-1.  Open the *Technical Information Dialog* using the shortcut * CTRL SHIFT ALT P * \(on Windows and Linux\) or * CTRL SHIFT OPTION P * \(on macOS\).
+1.  Open the *Technical Information Dialog* using the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) * Ctrl Shift Alt */* Option P *.
 
 2.  Choose the settings button for the Support Assistant \(![](loio4c9d605dc8cf4457b478b618d6824b0f_HiRes.png)\).
 
