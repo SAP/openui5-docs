@@ -82,7 +82,7 @@ After this step your project structure will look like this:
                                        
                                        
                                   App.view.xml`  
- `      
+ `     
                                        
                                        
                                        
