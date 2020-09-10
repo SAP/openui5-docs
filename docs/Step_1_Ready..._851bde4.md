@@ -102,50 +102,10 @@ We load two UI controls - a button and a message toast - and place the button in
 
 Now open the `index.html` file in your browser. When the button is pressed, a message toast with the "Hello World" message is shown at the bottom of the screen.
 
-***
-
-<a name="loio851bde42e4e1410c96abbe402fa9128c__section_ghq_k4d_b3b"/>
-
-### neo-app.json \(new, optional\)
-
-> Note:
-> This file is necessary if you use SAP Web IDE as your development environment. It contains all project settings and is located in the root folder of your project. This file is **not** part of the downloadable code in the Demo Kit, so just copy the content from here.
-> 
-> 
-
-``` json
-*HIGHLIGHT START*{
-  "welcomeFile": "/webapp/index.html",
-  "routes": [
-    {
-      "path": "/resources",
-      "target": {
-        "type": "application",
-        "name": "sapui5preview",
-        "entryPath": "/resources"
-      },
-      "description": "SAPUI5 Resources"
-    },
-    {
-      "path": "/resources",
-      "target": {
-        "type": "service",
-        "name": "sapui5",
-        "entryPath": "/resources"
-      },
-      "description": "SAPUI5 Resources"
-    }
-  ],
-  "sendWelcomeFileRedirect": true
-}*HIGHLIGHT END*
-```
-
 **Related information**  
 
 
 [Development Environment](Development_Environment_7bb04e0.md)
-
-[Create a neo-app.json Project Configuration File](Create_a_neo-app.json_Project_Configuration_File_28fa753.md)
 
 [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
 

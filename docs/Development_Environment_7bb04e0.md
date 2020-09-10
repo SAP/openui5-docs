@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Development Environment
 
-This part of the documentation gives you guidance on the most common and recommended use cases of the installation, configuration, and setup of the OpenUI5 development environment.
+This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.
 
 ***
 
@@ -26,17 +26,15 @@ Follow the concise [Getting Started](https://sap.github.io/ui5-tooling/pages/get
 
 ***
 
-#### SAP Web IDE
+#### SAP Business Application Studio
 
-SAP Web IDE is a web-based development environment that is optimized for developing complex OpenUI5 apps using the latest innovations, developing and extending SAP Fiori apps, developing mobile hybrid apps, and extending SAP Web IDE with plug-ins and templates. Use cases:
+SAP Business Application Studio is an SAP Cloud Platform service in the Cloud Foundry environment which offers a modular development environment tailored for efficient development of business applications. It provides a tailor-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, including OpenUI5 apps.
 
--   Develop complex apps using the latest OpenUI5 innovations
-
--   Develop and extend SAP Fiori apps
--   Develop mobile hybrid applications
--   Extend SAP Web IDE with plug-ins and templates
+See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md) for more information.
 
 ***
 
-#### Other Tools
+#### Other Environments
+
+In general, you can use the JavaScript IDE of your choice. Some use cases as well as some former development environments are described in [Other Environments](Other_Environments_f0898e6.md).
 

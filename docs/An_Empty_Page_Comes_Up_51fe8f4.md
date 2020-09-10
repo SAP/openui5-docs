@@ -55,8 +55,6 @@ This can happen for one of the following reasons:
 
 Have a look at the `resource` path in the bootstrap of the HTML page you are trying to open. The path to the file `sap-ui-core.js` is probably incorrect and needs to point to the path where the OpenUI5 resources are located \(typically globally under `/resources` or locally under `resources`\).
 
-If you are running the code in SAP Web IDE, you have to configure the `neo-app.json` project descriptor \(see [Create a neo-app.json Project Configuration File](Create_a_neo-app.json_Project_Configuration_File_28fa753.md)\).
-
 Other development environments might need the resources to be copied to the server and referenced relatively to the app \(see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)\).
 
 Alternatively, you can use the CDN version \(see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)\).

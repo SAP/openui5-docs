@@ -1,0 +1,44 @@
+<!-- loio6bbad66475d040f39df6fbbaabe6f40f -->
+
+| loio |
+| -----|
+| 6bbad66475d040f39df6fbbaabe6f40f |
+
+<div id="loio">
+
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f)</div>
+
+## App Development Using SAP Business Application Studio
+
+Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop state-of-the-art UI5 apps.
+
+SAP Business Application Studio is an SAP Cloud Platform service in the Cloud Foundry environment. It is built on open-source and leading industry standards and supports a modular approach to developing different kinds of apps.
+
+For a general overview and more information about the capabilities of SAP Business Application Studio, refer to the official [SAP Business Application Studio product page](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US).
+
+***
+
+<a name="loio6bbad66475d040f39df6fbbaabe6f40f__section_chw_xrb_vmb"/>
+
+### -Specific Features \(Selection\)
+
+***
+
+<a name="loio6bbad66475d040f39df6fbbaabe6f40f__section_v1r_lcs_ymb"/>
+
+### How to get access to SAP Business Application Studio
+
+If you do not have existing access to SAP Business Application Studio, you can get a fully-functional SAP Cloud Platform trial account. From there, you can access and use SAP Business Application Studio.
+
+1.  [Get a Free Trial Account on SAP Cloud Platform](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+2.  [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html)\#
+3.  [Create a Dev Space for SAP Fiori Apps](https://developers.sap.com/tutorials/appstudio-devspace-fiori-create.html)
+4.  [Create a Destination within the Cloud Foundry Environment](https://developers.sap.com/tutorials/cp-cf-create-destination.html)
+
+    Optional. This will create a destination within the SAP Cloud Platform Cloud Foundry environment so that you can access the free Northwind OData services. You need this to get sample data for some of our [Tutorials](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)
+
+5.  [Create an Empty SAPUI5 Project](https://developers.sap.com/tutorials/sapui5-101-create-project.html)
+
+    With this step, you set up an empty freestyle app project.
+
+

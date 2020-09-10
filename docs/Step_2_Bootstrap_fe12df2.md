@@ -35,8 +35,6 @@ You can view and download all files at [Walkthrough - Step 2](https://openui5.ha
 > 
 > For more information about the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 > 
-> In case you are using SAP Web IDE, you can right-click the project and select *New* \> *HTML5 Application Descriptor* to make the `/resources…` reference work. This creates the `neo-app.json` file, which configures a URL mapping for this path.
-> 
 > 
 
 ***
