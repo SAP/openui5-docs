@@ -10,3 +10,5 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Other Environments
 
+This section contains information about other as well as former OpenUI5 development environments ans scenarios.
+

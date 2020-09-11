@@ -72,6 +72,21 @@ Some incompatible changes that are introduced with jQuery 3.5.1 aren't restored 
 | **`jQuery.data`** in case the key contains a dash "-"|see [https://jquery.com/upgrade-guide/3.0/\#data](https://jquery.com/upgrade-guide/3.0/#data) |see [https://jquery.com/upgrade-guide/3.0/\#data](https://jquery.com/upgrade-guide/3.0/#data) |
 | **`jQuery.fn.selector`** unreliable pseudo-selector has been removed|concatenates the selector property after further tree traversal calls, for example `jQuery.fn.filter` \(see [https://api.jquery.com/category/traversing/tree-traversal/](https://api.jquery.com/category/traversing/tree-traversal/)\)|according to jQuery documentation, it was never reliable and thus removed with 3.0: [https://api.jquery.com/selector/](https://api.jquery.com/selector/)|
 | **`jQuery.easing.*`** see [https://jquery.com/upgrade-guide/3.0/\#deprecated-additional-easing-function-parameters](https://jquery.com/upgrade-guide/3.0/#deprecated-additional-easing-function-parameters) |function accepts multiple arguments|function accepts only one argument|
+| **`jQuery.fn.[append|prepend]`** [jQuery Issue \#3976](https://github.com/jquery/jquery/issues/3976) see also the table below|automatically add a `<tbody>` element to a `<table>` element, if none is present|adding elements to a table does **not** create an additional `<tbody>` element|
+| **`jQuery.fn.[after|append|before|html|prepend|replaceWith]`** **`jQuery.parseHTML`** [jQuery Pull Request \#4642](https://github.com/jquery/jquery/pull/4642) see also the table below|some jQuery APIs in certain contexts call the `htmlPrefilter()` method, which replaces self-closing HTML tags with properly closed HTML elements \(e.g. <div/\> is replaced by <div\></div\>\)|the `htmlPrefilter()` method returns the passed string unmodified|
+
+***
+
+#### Changes in behavior for OpenUI5 versions above 1.81
+
+Due to the above-mentioned jQuery incompatibilities, OpenUI5 behaves differently in certain cases after the jQuery update.
+
+The following table describes these behavior changes and gives recommendations how to handle them:
+
+|Changed Behavior|in OpenUI5 < 1.82|in OpenUI5 \>= 1.82|Recommendation|
+|----------------|-----------------|-------------------|--------------|
+| **Automatic creation of `<tbody>` elements** see also the table above| OpenUI5 Controls using a string-based rendering approach in their renderer modules implicitly use jQuery APIs to create the DOM elements. Whenever you flush a `<tr>` element into a `<table>` element without an already existing `<tbody>` element, the UI5 Core RenderManager implicitly creates a `<tbody>` element.|flushing a `<tr>` element into a `<table>` element from within a string-based OpenUI5 control renderer does **not** automatically create a `<tbody>` element|If your application or control code depends on a `<tbody>` element being present in the DOM, you should add it manually to your rendering code and your CSS styling rules. Adding the `<tbody>` element in this way is backward-compatible to older OpenUI5 and jQuery versions.|
+| **Self-Closing HTML Tags** see also the table above|OpenUI5 uses a UI5-specific jQuery 2.2.3 variant. Formerly, its internal `htmlPrefilter()` method used to replace self-closing HTML tags with properly closed HTML elements \(e.g. <div/\> was replaced by <div\></div\>\).Since jQuery 3.5.0, this replacement is no longer done. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place. The custom jQuery 2.2.3 variant used in OpenUI5 also implements this change, because self-closing HTML tags for non-void HTML elements are not valid in HTML5.The updated jQuery 2.2.3 variant is contained in the following OpenUI5 versions:1.38.47 or higher 1.52.45 or higher 1.60.29 or higher 1.71.23 or higher 1.78.5 or higher 1.80.2 or higher 1.81.0 or higher 1.38.47 or higher 1.52.43 or higher 1.60.28 or higher 1.71.20 or higher 1.78.4 or higher 1.80.1 or higher 1.81.0 or higher|jQuery no longer closes self-closing tags for non-void HTML elements in the `htmlPrefilter()` method. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place.|You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions](). Properly closing non-void HTML elements in this way is backward-compatible to older OpenUI5 and jQuery versions.|
 
 ***
 
@@ -79,7 +94,7 @@ Some incompatible changes that are introduced with jQuery 3.5.1 aren't restored 
 
 At the time of writing, the following jQuery issues have been identified. They have been fixed in the jQuery variant `sap/ui/thirdparty/jquery.js` shipped with OpenUI5 1.82 and later:
 
--   [jQuery Issue \#4382](https://github.com/jquery/jquery/issues/4382):
+-   [jQuery Issue \#4382: Bug with focus\(\) method in a specific case in 3.4.0](https://github.com/jquery/jquery/issues/4382).
 
     Introduced with jQuery 3.4.0, this causes several tests to fail.
 
@@ -87,11 +102,11 @@ At the time of writing, the following jQuery issues have been identified. They h
 
     At the time of writing, it's not clear whether and when the fix will be downported to the jQuery 3.x code line.
 
--   [jQuery Issue \#4417](https://github.com/jquery/jquery/issues/4417):
+-   [jQuery Issue \#4417: Exception when element is removed on blur](https://github.com/jquery/jquery/issues/4417).
 
     At the time of writing, the bug is still open in jQuery's Github repository. Once the bug has been fixed, the in-place patch in our framework's jQuery variant will be deleted.
 
--   [jQuery Issue \#4431](https://github.com/jquery/jquery/issues/4431):
+-   [jQuery Issue \#4431: Position\(\) calculated incorrectly for elements inside a table](https://github.com/jquery/jquery/issues/4431).
 
     jQuery wrongly calculates the offsetParent. The `offsetParent` property of `HTMLElement` returns a`<td>`, `<th>`, `<table>` ancestor even when the ancestor element has a `static` CSS position.
 

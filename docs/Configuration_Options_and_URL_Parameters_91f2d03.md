@@ -1117,6 +1117,22 @@ Any other value will be ignored. The default is `both` for all libraries.
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
 		</tr>
 		<tr>
+			<td>`xx-self-closing-check`</td>
+			<td>Type: `boolean` Default value: `false` Only useful for development / support: Issues a warning if a non-void HTML element is written in self-closing syntax. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md).</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
+		</tr>
+		<tr>
 			<td>`xx-suppressDeactivationOfControllerCode`</td>
 			<td>Type: `boolean` Default value: `false` </td>
 			<td>
