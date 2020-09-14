@@ -83,10 +83,46 @@ Due to the above-mentioned jQuery incompatibilities, OpenUI5 behaves differently
 
 The following table describes these behavior changes and gives recommendations how to handle them:
 
-|Changed Behavior|in OpenUI5 < 1.82|in OpenUI5 \>= 1.82|Recommendation|
-|----------------|-----------------|-------------------|--------------|
-| **Automatic creation of `<tbody>` elements** see also the table above| OpenUI5 Controls using a string-based rendering approach in their renderer modules implicitly use jQuery APIs to create the DOM elements. Whenever you flush a `<tr>` element into a `<table>` element without an already existing `<tbody>` element, the UI5 Core RenderManager implicitly creates a `<tbody>` element.|flushing a `<tr>` element into a `<table>` element from within a string-based OpenUI5 control renderer does **not** automatically create a `<tbody>` element|If your application or control code depends on a `<tbody>` element being present in the DOM, you should add it manually to your rendering code and your CSS styling rules. Adding the `<tbody>` element in this way is backward-compatible to older OpenUI5 and jQuery versions.|
-| **Self-Closing HTML Tags** see also the table above|OpenUI5 uses a UI5-specific jQuery 2.2.3 variant. Formerly, its internal `htmlPrefilter()` method used to replace self-closing HTML tags with properly closed HTML elements \(e.g. <div/\> was replaced by <div\></div\>\).Since jQuery 3.5.0, this replacement is no longer done. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place. The custom jQuery 2.2.3 variant used in OpenUI5 also implements this change, because self-closing HTML tags for non-void HTML elements are not valid in HTML5.The updated jQuery 2.2.3 variant is contained in the following OpenUI5 versions:1.38.47 or higher 1.52.45 or higher 1.60.29 or higher 1.71.23 or higher 1.78.5 or higher 1.80.2 or higher 1.81.0 or higher 1.38.47 or higher 1.52.43 or higher 1.60.28 or higher 1.71.20 or higher 1.78.4 or higher 1.80.1 or higher 1.81.0 or higher|jQuery no longer closes self-closing tags for non-void HTML elements in the `htmlPrefilter()` method. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place.|You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions](). Properly closing non-void HTML elements in this way is backward-compatible to older OpenUI5 and jQuery versions.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Changed Behavior</th>
+			<th>in OpenUI5 < 1.82</th>
+			<th>in OpenUI5 \>= 1.82</th>
+			<th>Recommendation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> **Automatic creation of `<tbody>` elements** see also the table above</td>
+			<td> OpenUI5 Controls using a string-based rendering approach in their renderer modules implicitly use jQuery APIs to create the DOM elements. Whenever you flush a `<tr>` element into a `<table>` element without an already existing `<tbody>` element, the UI5 Core RenderManager implicitly creates a `<tbody>` element.</td>
+			<td>flushing a `<tr>` element into a `<table>` element from within a string-based OpenUI5 control renderer does **not** automatically create a `<tbody>` element</td>
+			<td>If your application or control code depends on a `<tbody>` element being present in the DOM, you should add it manually to your rendering code and your CSS styling rules. Adding the `<tbody>` element in this way is backward-compatible to older OpenUI5 and jQuery versions.</td>
+		</tr>
+		<tr>
+			<td> **Self-Closing HTML Tags** see also the table above</td>
+			<td> OpenUI5 uses a UI5-specific jQuery 2.2.3 variant. Formerly, its internal `htmlPrefilter()` method used to replace self-closing HTML tags with properly closed HTML elements \(e.g. <div/\> was replaced by <div\></div\>\). Since jQuery 3.5.0, this replacement is no longer done. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place. The custom jQuery 2.2.3 variant used in OpenUI5 also implements this change, because self-closing HTML tags for non-void HTML elements are not valid in HTML5. The updated jQuery 2.2.3 variant is contained in the following OpenUI5 versions:
+
+ -   1.38.47 or higher
+ -   1.52.43 or higher
+
+ -   1.60.28 or higher
+
+ -   1.71.20 or higher
+
+ -   1.78.4 or higher
+
+ -   1.80.1 or higher
+
+ -   1.81.0 or higher
+			</td>
+			<td>jQuery no longer closes self-closing tags for non-void HTML elements in the `htmlPrefilter()` method. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place.</td>
+			<td>You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions](). Properly closing non-void HTML elements in this way is backward-compatible to older OpenUI5 and jQuery versions.</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
