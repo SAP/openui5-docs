@@ -4,6 +4,8 @@
 
 Your place to contribute to the OpenUI5 documentation
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/openui5-docs)](https://api.reuse.software/info/github.com/SAP/openui5-docs)
+
 ## Introduction
 
 This repository contains the official OpenUI5 documentation from the OpenUI5 Demo Kit as markdown files. You have the chance to comment on and contribute to the documentation to improve it for the OpenUI5 community.
