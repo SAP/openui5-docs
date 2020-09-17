@@ -80,6 +80,8 @@ When creating support incidents, make sure that the device you refer to belongs 
 |Apple iPad Mini \(5th\)|March 2022|
 |Apple iPad \(7th\)|September 2022|
 |Apple iPad Pro \(4th\)|March 2023|
+|Apple iPad \(8th\)|September 2023|
+|Apple iPad Air \(4th\)|October 2023|
 |Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S9|March 2021|
 |Samsung Galaxy S10|March 2022|
 |Samsung Galaxy S20|March 2023|
