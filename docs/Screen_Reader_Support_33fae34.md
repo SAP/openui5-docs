@@ -73,6 +73,17 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 
 ***
 
+#### Roles and attributes
+
+Use the specific roles and attributes:
+
+-   `aria-details` for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
+
+-   `aria-haspopup` for the `sap.m.Button` and `sap.m.Toolbar` controls. It’s used for indicating the availability and type of interactive popup element, such as menu or dialog that can be triggered by the control.
+
+
+***
+
 #### Titles in headings
 
 For headings \(table toolbar, page header, form toolbar, panel toolbar\) the text should be in a `sap.m.Title` control \(make sure that it is associated with the element that needs the title and, if not, add the reference using `aria-labelledby`\).
