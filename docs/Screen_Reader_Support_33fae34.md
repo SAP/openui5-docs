@@ -73,13 +73,13 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 
 ***
 
-#### Roles and attributes
+#### APIs in the controls based on ARIA 1.1 specifications
 
 Use the specific roles and attributes:
 
--   `aria-details` for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
+-   `ariaDetails` association, which sets the `aria-details` attribute for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
 
--   `aria-haspopup` for the `sap.m.Button` and `sap.m.Toolbar` controls. It’s used for indicating the availability and type of interactive popup element, such as menu or dialog that can be triggered by the control.
+-   `ariaHasPopup` property which sets the `aria-haspopup` attribute for `sap.m.Button` and `sap.m.Toolbar` \(when active\). It’s used for indicating the availability and type of interactive popup element, such as menu or dialog that can be triggered by the control.
 
 
 ***
