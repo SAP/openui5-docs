@@ -59,10 +59,10 @@ These differences will therefore remain even after all features have been implem
 		</tr>
 		<tr>
 			<td> [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is not supported for OData V4.</td>
-			<td>Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html).
+			<td>Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html). You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper.html).
 
  > Note:
- > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this. You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.AnnotationHelper.html).
+ > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this.
 			</td>
 		</tr>
 		<tr>

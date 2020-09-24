@@ -33,7 +33,7 @@ A group ID has one of the following [submit modes](https://openui5.hana.ondemand
 
 -   `sap.ui.model.odata.v4.SubmitMode.Auto` - Requests associated with the group ID are sent in a batch request which is triggered automatically before rendering.
 
--   `sap.ui.model.odata.v4.SubmitMode.Direct` - Requests associated with the group ID are sent directly without batch.
+-   `sap.ui.model.odata.v4.SubmitMode.Direct` - Requests associated with the group ID are sent directly without batch. Note that some features of the OData V4 model rely on the correct order of request processing in the back end. This is only guaranteed for requests made in batch requests.
 
 
 The following group IDs are possible:
