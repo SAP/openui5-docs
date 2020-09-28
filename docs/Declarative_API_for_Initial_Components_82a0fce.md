@@ -16,7 +16,7 @@ The declarative API enables you to define the initially started component direct
 
 <a name="loio82a0fcecc3cb427c91469bc537ebdddf__section_p1l_4by_jkb"/>
 
-### Using the `ComponentSupport`Module
+### Using the `ComponentSupport` Module
 
 With the declarative `sap/ui/core/ComponentSupport` API it is possible to define the initially started component directly in the HTML markup instead of the imperative way using JavaScript. The declarative `ComponentSupport` is not activated by default, but must be enabled via the bootstrap:
 
@@ -53,13 +53,16 @@ This module scans the DOM for HTML elements containing a special data attribute 
 
 ### Declarative Configuration of `ComponentContainer`
 
-As HTML is case-insensitive, in order to define a property with upper-case characters, you have to "escape" them with the hyphen character. This is similar to CSS attributes. In the following sample the `handleValidation` argument of the `ComponentContainer` constructor is used:
-
-``` html
-
-<div data-sap-ui-component ... data-handle-validation="true" ...></div>
-
-```
+> Note:
+> As HTML is case-insensitive, in order to define a property with upper-case characters you have to "escape" them with the hyphen character. This is similar to CSS attributes. In the following sample the `handleValidation` argument of the `ComponentContainer` constructor is used:
+> 
+> ``` html
+> 
+> <div data-sap-ui-component ... data-handle-validation="true" ...></div>
+> 
+> ```
+> 
+> 
 
 ***
 

@@ -73,9 +73,9 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 
 ***
 
-#### APIs in the controls based on ARIA 1.1 specifications
+#### APIs in the controls
 
-Use the specific roles and attributes:
+Use the specific roles and attributes, based on ARIA 1.1 specifications:
 
 -   `ariaDetails` association, which sets the `aria-details` attribute for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
 

@@ -57,7 +57,7 @@ The following buttons are available in the dialog:
 
     All changes made by the end user in the dialog that is currently open are rejected.
 
--   *Restore*
+-   *Reset*
 
     Personalization dialog remains open.
 
