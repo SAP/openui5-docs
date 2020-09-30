@@ -60,49 +60,7 @@ The basic OpenUI5 app<a name="loio59b772bfac5241b89c16b12395c1116c__fig_r1j_pst_
 
     A new folder **`sap.ui.demo.fiori2.01`** is now available in your local workspace. It contains the following files and folders of the initial app:
 
-    `  
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      Workspace`  
-     `     
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      sap.f.tutorial.fiori2.01`  
-     `        
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      webapp`  
-     `           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      Component.js`  
-     `           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      index.html`  
-     `           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                      manifest.json`  
-     
+    ![](loiobc4395be3fd64b8aa49058340e92a192_HiRes.png)
 
 6.  Run the app by selecting the *webapp* folder and then *Run* \> *Run as* \> *Web Application*. Keep in mind that there is no content yet and the app appears as an empty page.
 

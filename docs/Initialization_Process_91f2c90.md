@@ -35,15 +35,54 @@ The initialization of the OpenUI5 runtime comprises the following steps:
 
 ### Initialization Readiness
 
-The optimal point in time to execute or start an application is after the framework has been initialized. You can use the `attachInit` function to determine this point in time: The callback of the [`attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized.
+The optimal point in time to execute or start an application is after the framework has been initialized. There are three ways to hook yourself into this timeframe. The following list describes these initialization readiness hooks in detail and gives you examples when to use them. Depending on your use case you might prefer one way over another.
+
+***
+
+#### `ComponentSupport` module
+
+The most sophisticated way to execute code after the framework has been initialized is to use `sap.ui.core.ComponentSupport`. This option is viable for scenarios in which you want to use an `sap.ui.core.UIComponent` as the entry point of your application.
+
+`ComponentSupport` allows you to declaratively define one or more `sap.ui.core.UIComponent` instances in your HTML file and takes care of creating the necessary `sap.ui.core.ComponentContainer` for you.
+
+For a detailed usage guide, please see the [`ComponentSupport` documentation](Declarative_API_for_Initial_Components_82a0fce.md).
+
+***
+
+#### Standalone `data-sap-ui-oninit` module
+
+Besides using `sap.ui.core.ComponentSupport`, you can also define a data attribute called `data-sap-ui-oninit` on the OpenUI5 bootstrap script element.
+
+This attribute should reference a valid OpenUI5 module as shown in the snippet below. In this sample you can also see how to use the `data-sap-ui-resourceroots` as part of your init module path.
+
+``` html
+<script id="sap-ui-bootstrap"
+        src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+       ...
+        data-sap-ui-resourceroots='{"Startup": "./some/folder"}'
+        data-sap-ui-oninit="module:Startup/my/module"
+       ...
+        data-sap-ui-async="true">
+</script>
+```
+
+The OpenUI5 core will make sure that the `data-sap-ui-oninit` module is loaded and executed at the correct point in time after the initialization process of the framework. Inside this module you can then execute additional application code, e.g. create a new XML View instance.
+
+Additionally, a dedicated `oninit` module allows for better [CSP compliance](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) depending on your requirements, since no additional inline `<script>` tag is needed.
+
+Please also have a look at our tutorial section, including the [Quick Start](Quick_Start_592f36f.md) tutorial for a broader sample.
+
+***
+
+#### `attachInit` function
+
+The callback of the [`attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
 
 ``` js
 sap.ui.getCore().attachInit(function(){
     // application can be started
 });
 ```
-
-As an alternative, you can also use a bootstrap module, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 
  <a name="loio91f2c9076f4d1014b6dd926db0e91070 loiobf10bd41ac8f49048a1ccb743fbfbb8a__loiobf10bd41ac8f49048a1ccb743fbfbb8a"/>
 

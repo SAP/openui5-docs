@@ -186,7 +186,15 @@ The table shows the supported severity values and their mapping to the specific 
 
 ### Accessing the Original Message
 
-The attribute `technicalDetails.originalMessage` of the message in the message model allows you to access the original message from the back-end.
+The attribute `technicalDetails.originalMessage` of the message in the message model allows you to access the original message from the back end.
+
+***
+
+<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_httpStatus"/>
+
+### Accessing the HTTP Status Code
+
+The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed. In case of a 412 status code, additionally `technicalDetails.isConcurrentModification` is set to `true` and  [sap.ui.model.odata.v4.Context\#delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) flags an error instance used to reject its returned promise.
 
 **Related information**  
 
