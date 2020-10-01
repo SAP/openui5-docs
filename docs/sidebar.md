@@ -1,5 +1,6 @@
 -   [OpenUI5: UI Development Toolkit for HTML5](OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md)
     -   [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md)
+        -   [What's New in OpenUI5 1.83](What's_New_in_OpenUI5_1.83_cc98dee.md)
         -   [What's New in OpenUI5 1.82](What's_New_in_OpenUI5_1.82_f081cf0.md)
         -   [Previous Versions](Previous_Versions_6660a59.md)
             -   [What's New in OpenUI5 1.81](What's_New_in_OpenUI5_1.81_f71563c.md)

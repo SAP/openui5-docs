@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.83": {
+						"link": "What's_New_in_OpenUI5_1.83_cc98dee.md"
+					},
 					"What's New in OpenUI5 1.82": {
 						"link": "What's_New_in_OpenUI5_1.82_f081cf0.md"
 					},

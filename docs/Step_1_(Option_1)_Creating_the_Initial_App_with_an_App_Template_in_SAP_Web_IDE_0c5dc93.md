@@ -95,7 +95,7 @@ The worklist app<a name="loio0c5dc937271f4f56b5e7d54676199860__fig_ohj_bqh_b5"/>
       
     Folder structure of the initial project<a name="loio0c5dc937271f4f56b5e7d54676199860__fig_j5n_pzh_b5"/>
 
-     ![](loio7f6899e87d8240d5bd3fc8594e148714_LowRes.png "Folder structure of the initial project") 
+     ![](loio7f6899e87d8240d5bd3fc8594e148714_HiRes.png "Folder structure of the initial project") 
 
     > Note:
     > The auto-generated files `Gruntfile.js`, `package-lock.json`, and `package.json` are only necessary for working with SAP Web IDE or a local IDE. They are not included in case you download the example code from the *Samples*.

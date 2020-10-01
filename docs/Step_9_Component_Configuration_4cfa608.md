@@ -29,76 +29,13 @@ An input field and a description displaying the value of the input field \(No vi
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.09/preview).
+You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.09/preview).  
+  
+Folder Structure for this Step<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>
 
-After this step your project structure will look like this:
+ ![](loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
 
-`  
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  webapp`  
- `     
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  controller`  
- `        
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  App.controller.js`  
- `     
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  i18n`  
- `        
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  i18n.properties`  
- `     
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  view`  
- `        
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  App.view.xml`  
- `     
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  Component.js`  
- `     
-                                       
-                                       
-                                       
-                                       
-                                       
-                                  index.html`  
- 
-
-We will create the `Component.js` file now and modify the related files in the app.
+After this step your project structure will look like the figure above. We will create the `Component.js` file now and modify the related files in the app.
 
 ***
 

@@ -194,7 +194,7 @@ The attribute `technicalDetails.originalMessage` of the message in the message m
 
 ### Accessing the HTTP Status Code
 
-The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed. In case of a 412 status code, additionally `technicalDetails.isConcurrentModification` is set to `true` and  [sap.ui.model.odata.v4.Context\#delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) flags an error instance used to reject its returned promise.
+The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed. In case of a 412 status code, additionally `technicalDetails.isConcurrentModification` is set to `true`, as in the case of  [sap.ui.model.odata.v4.Context\#delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete), which also uses this flag for the error instance that is used to reject its returned promise.
 
 **Related information**  
 
