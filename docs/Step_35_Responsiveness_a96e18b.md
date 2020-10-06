@@ -140,7 +140,7 @@ Instead of the `ObjectListItem` that we had before, we will now split the inform
 
 -   **Name**
 
-    A `sap.m.ObjectIdentifier` controls that specifies the name.
+    A `sap.m.ObjectIdentifier` control that specifies the name.
 
 -   **Status**
 

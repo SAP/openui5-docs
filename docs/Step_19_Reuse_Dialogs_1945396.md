@@ -22,10 +22,9 @@ In this step, we implement the solution to this problem: We expand our reuse con
 
    
   
-The dialog is now opened by the component \(no visual changes to last step\)<a name="loio19453962b8074b7399372c65cbe05370__fig_r1j_pst_mr"/>
+The dialog is now opened by the component<a name="loio19453962b8074b7399372c65cbe05370__fig_r1j_pst_mr"/>
 
- ![](loio6fbc14686a044570be0b7654e683cd56_HiRes.png "The dialog is now opened by the component (no visual changes to last
-					step)") 
+ ![](loio6fbc14686a044570be0b7654e683cd56_HiRes.png "The dialog is now opened by the component") 
 
 ***
 

@@ -72,7 +72,7 @@ sap.ui.define([
    "use strict";
    return UIComponent.extend(*HIGHLIGHT START*"sap.ui.demo.walkthrough.Component*HIGHLIGHT END*", {
       *HIGHLIGHT START*metadata : {
-         rootView: {
+         "rootView": {
             "viewName": "sap.ui.demo.walkthrough.view.App",
             "type": "XML",
             "async": true,

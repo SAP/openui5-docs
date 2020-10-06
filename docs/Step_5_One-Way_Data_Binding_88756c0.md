@@ -35,9 +35,9 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 5](h
 ``` js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/core/mvc/XMLView",
-	"sap/ui/model/BindingMode"
-], function (JSONModel, XMLView, BindingMode) {
+	"sap/ui/core/mvc/XMLView"*HIGHLIGHT START*,
+	"sap/ui/model/BindingMode"*HIGHLIGHT END*
+], function (JSONModel, XMLView*HIGHLIGHT START*, BindingMode*HIGHLIGHT END*) {
 	"use strict";
 
 	// Attach an anonymous function to the SAPUI5 'init' event
