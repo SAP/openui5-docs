@@ -116,6 +116,9 @@ For more complex bindings we cannot use the simple binding syntax with the curly
 
 
 > Note:
+> When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use data types \(which will be explained in the following steps\).
+> 
+> 
 
 ***
 
@@ -127,9 +130,7 @@ For more complex bindings we cannot use the simple binding syntax with the curly
 panel1HeaderText=Data Binding Basics 
 panel2HeaderText=Address Details
 
-When using formatter functions, the binding is automatically switched to
-					"one-way". So you can’t use a formatter function for "two-way" scenarios, but
-					you can use data types (which will be explained in the following steps).*HIGHLIGHT START*# E-mail
+*HIGHLIGHT START*# E-mail
 sendEmail=Send Mail
 mailSubject=Hi {0}!
 mailBody=How are you?*HIGHLIGHT END*

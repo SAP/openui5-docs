@@ -45,6 +45,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='{"sap.ui.demo.db": "./"}'
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true">
 	</script>
