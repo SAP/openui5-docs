@@ -102,6 +102,6 @@ If you load data from an external server or service using AJAX, the external dom
 
 -   iOS
 
-    The restriction in webview in iOS still exists and you need to add the domain that is visited using AJAX to a whitelist file to bypass the restriction. For detailed information about the whitelist file, see the PhoneGap documentation on the PhoneGap website.
+    The restriction in webview in iOS still exists and you need to add the domain that is visited using AJAX to an allowlist file to bypass the restriction. For detailed information about the allowlist file, see the PhoneGap documentation on the PhoneGap website.
 
 

@@ -29,33 +29,44 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 ***
 
-#### Browser and Platform Support Matrix
+<a name="loio74b59efa0eef48988d3b716bd0ecc933__section_bgw_kns_hnb"/>
 
-> Note:
-> OpenUI5 plans to end the support for Microsoft Internet Explorer 11 as future direction \(end of 2021 or later\).
-> 
-> 
+### Browser and Platform Support Matrix
 
-|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer|Microsoft Edge \(EdgeHTML\)<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
-|--------|---------------|----------------|------|--------|-----------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
-|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)<sup>4</sup>|-|
+|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer<sup>2</sup>|Microsoft Edge \(EdgeHTML\)<sup>3</sup>|Microsoft Edge \(Chromium\)<sup>4</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
+|--------|---------------|----------------|------|--------|-----------------------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
+|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)|-|
 |Windows 10|-|Latest version|Latest 2 versions|Latest version|-|
-|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|Latest version|
+|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version|
 |macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>6</sup>|-|-|
 |iOS|Phone and Tablet<sup>6</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
 |Android|Phone and Tablet<sup>6</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
- 2\) The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support Microsoft Edge \(EdgeHTML\). Microsoft Edge \(EdgeHTML\) support stops on all OpenUI5 releases on March 9, 2021 \(official end of support by Microsoft\).  
- 3\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
- 4\) In regards to handling touch events, there are some issues with Windows 8. For more information, see [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md).  
+ 2\) OpenUI5 support for Microsoft Internet Explorer will end soon. For more information, see section [End of Support for Microsoft Internet Explorer 11](Browser_and_Platform_Support_74b59ef.md#loio74b59efa0eef48988d3b716bd0ecc933__MS_IE).  
+ 3\) OpenUI5 version 1.84 is the last release of OpenUI5 that supports Microsoft Edge \(EdgeHTML\).  
+ 4\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
  5\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
  6\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***
 
-#### Supported Reference Devices
+<a name="loio74b59efa0eef48988d3b716bd0ecc933__MS_IE"/>
+
+### End of Support for Microsoft Internet Explorer 11
+
+OpenUI5 version 1.84 is the last long-term maintenance release of OpenUI5 that still supports Microsoft Internet Explorer 11. Support for Microsoft Internet Explorer 11 will be dropped with one of the monthly shipments before the next long-term maintenance release. This will be announced accordingly in the [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md) section.
+
+All current mid- and long-term maintenance OpenUI5 releases will continue to support Internet Explorer 11 as long as they are in maintenance. Legacy web applications that use active browser plugins requiring Microsoft Internet Explorer 11 cannot run embedded inside an SAP Fiori launchpad that depends on an OpenUI5 version released after support ended. OpenUI5 applications that are integrated in SAP GUI for Windows through the SAP HTML control also use the Microsoft Internet Explorer control. Alternatives for this Microsoft Internet Explorer control are presently under investigation.
+
+In case you still need Microsoft Internet Explorer 11 for some legacy applications, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to Microsoft Internet Explorer 11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
+
+***
+
+<a name="loio74b59efa0eef48988d3b716bd0ecc933__section_n3t_dns_hnb"/>
+
+### Supported Reference Devices
 
 For mobile operating systems, support is restricted to specific reference devices.
 

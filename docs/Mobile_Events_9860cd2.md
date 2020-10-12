@@ -48,11 +48,11 @@ For more information, see [jQuery mobile](http://api.jquerymobile.com/).
 
 ***
 
-### Windows 8
+### Devices Supporting both Mouse and Touch Input
 
-With Microsoft Windows 8, new devices are also introduced that allow user interaction with both mouse and touch. To be able to react to both kind of events, some new functionality was introduced.
+A number of devices allow user interaction by both mouse and touch input. To be able to react to both kind of events, some additional functionality has been introduced.
 
-For more information, see [Windows 8 Support](Windows_8_Support_1f9de72.md)
+For more information, see [Devices Supporting both Mouse and Touch Input](Devices_Supporting_both_Mouse_and_Touch_Input_1f9de72.md)
 
 ***
 

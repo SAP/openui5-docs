@@ -181,7 +181,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openu
 
 ### Property Binding With an Object Value
 
-A property binding can have an object value, if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. In case it points to metadata, the binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://openui5.hana.ondemand.com/#/api/sap.ui.model.BindingMode)
+A property binding can have an object value, if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. The binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://openui5.hana.ondemand.com/#/api/sap.ui.model.BindingMode), unless the binding is for an action advertisement.
 
 **Example: Using the controller method `'formatPhoneNumbersAsCSV'` to show a comma-separated list of phone numbers for business partner contacts**
 
@@ -191,8 +191,6 @@ A property binding can have an object value, if the target type specified in the
 	<Text text="{path : 'BP_2_CONTACT', mode : 'OneTime', targetType : 'any', formatter : '.formatPhoneNumbersAsCSV'}" />
 </SimpleForm>
 ```
-
-For details,
 
 For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
 
