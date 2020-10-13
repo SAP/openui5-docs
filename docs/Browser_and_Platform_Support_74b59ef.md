@@ -44,7 +44,7 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
  2\) OpenUI5 support for Microsoft Internet Explorer will end soon. For more information, see section [End of Support for Microsoft Internet Explorer 11](Browser_and_Platform_Support_74b59ef.md#loio74b59efa0eef48988d3b716bd0ecc933__MS_IE).  
- 3\) OpenUI5 version 1.84 is the last release of OpenUI5 that supports Microsoft Edge \(EdgeHTML\).  
+ 3\) OpenUI5 version 1.84 is the last release of OpenUI5 that supports Microsoft Edge \(EdgeHTML\). Microsoft Edge \(EdgeHTML\) support stops on all OpenUI5 releases on March 9, 2021 \(official end of support by Microsoft\).  
  4\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
  5\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
  6\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
