@@ -105,7 +105,7 @@ window["sap-ui-config"] = {
 
 <a name="loioe9fc648661d84ed89360bbec3ae02611__section_u3q_gpj_43b"/>
 
-### Theme Origin Whitelist
+### Theme Origin Allowlist
 
 When configuring a theme with a `themeRoot` URL via the `sap-ui-theme`/`sap-theme` URL parameter, security restrictions apply. Absolute URLs to a different origin than the current page are stripped off by default. The path segment will be resolved relative to the current page origin.
 

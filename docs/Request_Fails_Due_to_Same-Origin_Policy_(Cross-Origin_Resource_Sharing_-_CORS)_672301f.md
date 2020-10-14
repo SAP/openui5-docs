@@ -188,7 +188,7 @@ To use a service in the `local ui5 application` we have to change the `uri` in t
 > 
 > 
 
-For more information on CORS Anywhere, see [https://www.npmjs.com/package/cors-anywhere](https://www.npmjs.com/package/cors-anywhere)
+For more information on CORS Anywhere, see [https://www.npmjs.com/package/cors-anywhere](https://www.npmjs.com/package/cors-anywhere).
 
 ***
 
@@ -196,7 +196,7 @@ For more information on CORS Anywhere, see [https://www.npmjs.com/package/cors-a
 
 ### Workaround: Disable the same-origin policy in the browser \(not recommended, only for testing\)
 
-. It runs a local proxyIn Google Chrome, you can easily disable the same-origin policy of Chrome by running Chrome with the following command: `[your-path-to-chrome-installation-dir]\chrome.exe --disable-web-security --user-data-dir`. Make sure that all instances of Chrome are closed before you run the command. This allows all web sites to break out of the same-origin policy and connect to the remote service directly.
+In Google Chrome, you can easily disable the same-origin policy of Chrome by running Chrome with the following command: `[your-path-to-chrome-installation-dir]\chrome.exe --disable-web-security --user-data-dir`. Make sure that all instances of Chrome are closed before you run the command. This allows all web sites to break out of the same-origin policy and connect to the remote service directly.
 
 > Note:
 > **This approach is not recommended for productive apps. Running Chrome this way for surfing on the internet poses a security risk.** However, it allows you to avoid the need of setting up a proxy at development time or for testing purposes.

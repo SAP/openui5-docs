@@ -665,7 +665,6 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Browser Events](Browser_Events_91f1b38.md)
             -   [Mobile Events](Mobile_Events_9860cd2.md)
             -   [Devices Supporting both Mouse and Touch Input](Devices_Supporting_both_Mouse_and_Touch_Input_1f9de72.md)
-                -   [Windows 8 Support - Known Issues](Windows_8_Support_-_Known_Issues_8168059.md)
                 -   [Adapting Event Handling for Devices Supporting both Mouse and Touch Input](Adapting_Event_Handling_for_Devices_Supporting_both_Mouse_and_Touch_Input_b54d7d7.md)
             -   [Renderer Object](Renderer_Object_c9ab345.md)
         -   [Device-specific Behavior of Controls](Device-specific_Behavior_of_Controls_a53ec81.md)

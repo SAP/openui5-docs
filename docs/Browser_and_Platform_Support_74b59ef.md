@@ -58,7 +58,7 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 OpenUI5 version 1.84 is the last long-term maintenance release of OpenUI5 that still supports Microsoft Internet Explorer 11. Support for Microsoft Internet Explorer 11 will be dropped with one of the monthly shipments before the next long-term maintenance release. This will be announced accordingly in the [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md) section.
 
-All current mid- and long-term maintenance OpenUI5 releases will continue to support Internet Explorer 11 as long as they are in maintenance. Legacy web applications that use active browser plugins requiring Microsoft Internet Explorer 11 cannot run embedded inside an SAP Fiori launchpad that depends on an OpenUI5 version released after support ended. OpenUI5 applications that are integrated in SAP GUI for Windows through the SAP HTML control also use the Microsoft Internet Explorer control. Alternatives for this Microsoft Internet Explorer control are presently under investigation.
+All current mid- and long-term maintenance OpenUI5 releases will continue to support Internet Explorer 11 as long as they are in maintenance.
 
 In case you still need Microsoft Internet Explorer 11 for some legacy applications, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to Microsoft Internet Explorer 11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
 

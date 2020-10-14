@@ -38,7 +38,7 @@ PDF Viewer Example<a name="loiocd80a8bca4ac450b86547d78f0653330__fig_epr_skx_31b
 
 -   You can specify the source of the PDF document that you want to display using the `source` property that points to a PDF file path. This property can be set to a relative or an absolute path.
 
-    Optionally, you can set the `source` property to a data URI or a blob URL in all major web browsers except Internet Explorer and Microsoft Edge. If you want to use a data URI or a blob URL, you need to make sure that this data URI or blob URL is whitelisted in advance.For more information, see [URL Whitelist Filtering](URL_Whitelist_Filtering_91f3768.md).
+    Optionally, you can set the `source` property to a data URI or a blob URL in all major web browsers except Internet Explorer and Microsoft Edge. If you want to use a data URI or a blob URL, you need to make sure that this data URI or blob URL has been validated in advance.For more information, see [URL Whitelist Filtering](URL_Whitelist_Filtering_91f3768.md).
 
 
 **Content Caching**
