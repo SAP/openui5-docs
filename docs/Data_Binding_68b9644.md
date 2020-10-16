@@ -56,6 +56,15 @@ The binding mode defines how the data sources are bound. OpenUI5 provides the fo
 
 -   Two-way binding means a binding from the model to the view and from the view to the model, changes in the model and in the view fire events that automatically trigger updates all corresponding bindings and the view and model
 
+    > Note:
+    > Two-way binding is currently only supported for property bindings. For other binding types, such as list bindings, the creation or deletion of entities depends on the specific model.
+    > 
+    > **Example:** For list bindings the OData V4 model provides the sap.ui.model.odata.v4.ODataListBinding\#create method for creating a new entity, and the sap.ui.model.odata.v4.Context\#delete method to delete an entity in a list.
+    > 
+    > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
+    > 
+    > 
+
 -   One-time binding means from model to view once.
 
 
