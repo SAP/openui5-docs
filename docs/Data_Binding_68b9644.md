@@ -26,21 +26,21 @@ Depending on which external data source you use, you can choose between differen
 
 There are also internal data sources that are defined in the app for specific purposes. For those, an app contains the following models:
 
--   The **resource model** is used to communication with the resource bundle that contains translatable texts in multiple languages
+-   The **resource model** is used in communication with the resource bundle that contains translatable texts in multiple languages.
 
--   The **device model** is provided by the framework and defines device-specific settings
+-   The **device model** is provided by the framework and defines device-specific settings.
 
 -   **View models** can be, for example, JSON models that communicate with a corresponding JSON object. JSON data can also be edited in the app, but they are not stored - as soon as you refresh the browser or restart the app, the changes are reset.
 
 
 Most of the models are client-side models. This means that all data is initially loaded to the model when the app is started. All actions performed on the data are only executed on the client, and only sent back to the data source when this is triggered by the app. Client-side models are therefore only recommended for small data sets.
 
-The OData models \(V2 and V4\) are server-side models, which means that data is only requested on demand from the back end. Filtering, sorting, and paging actions are performed on the server. This means, for example, that you don't have to load a complete table on the UI to be able to sort the entries.
+The OData models \(V2 and V4\) are server-side models, which means that data is provided by a back-end system on demand. Filtering, sorting, and paging actions are performed on the server. This means, for example, that you don't have to load a complete table on the UI to be able to sort the entries.
 
 In the view, you bind data by specifying the **binding path** for a control. You can use **data types** and **formatters** to validate and format the data on the UI.
 
 > Note:
-> To learn more about data binding use the tutorial: [Data Binding](Data_Binding_e531093.md)
+> To learn more about data binding, take this tutorial: [Data Binding](Data_Binding_e531093.md)
 > 
 > 
 
@@ -48,13 +48,13 @@ In the view, you bind data by specifying the **binding path** for a control. You
 
 <a name="loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes"/>
 
-### Binding Modes: One-time Binding, One-way Binding, and Two-way Binding
+### Binding Modes: One-way Binding, Two-way Binding, and One-time Binding
 
-The binding mode defines how the data sources are bound. OpenUI5 provides the following binding modes:
+The binding mode defines how the data sources are bound to the UI. OpenUI5 provides the following binding modes:
 
--   One-way binding means a binding from the model to the view; value changes in the model update all corresponding bindings and the view
+-   **One-way binding** means a binding from the model to the view. Any value changes in the model update all corresponding bindings and the view.
 
--   Two-way binding means a binding from the model to the view and from the view to the model, changes in the model and in the view fire events that automatically trigger updates all corresponding bindings and the view and model
+-   **Two-way binding** means a binding from the model to the view and from the view to the model. Any changes in the model or the view fire events that automatically trigger updates of all corresponding bindings and both the view and the model.
 
     > Note:
     > Two-way binding is currently only supported for property bindings. For other binding types, such as list bindings, the creation or deletion of entities depends on the specific model.
@@ -65,10 +65,10 @@ The binding mode defines how the data sources are bound. OpenUI5 provides the fo
     > 
     > 
 
--   One-time binding means from model to view once.
+-   **One-time binding** means from model to view once.
 
 
-The following table shows which binding modes the respective binding models support:
+The following table shows which binding modes are supported by the respective data models within OpenUI5:
 
 |Model|One-time|One-way|Two-way|
 |-----|--------|-------|-------|
@@ -80,5 +80,5 @@ The following table shows which binding modes the respective binding models supp
 |XML model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)|
 |Resource model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)| ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 
-For more information, see [API Reference: `sap.ui.model.BindingMode`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.BindingMode.html). 
+For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.BindingMode.html). 
 
