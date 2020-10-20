@@ -33,14 +33,14 @@ There are also internal data sources that are defined in the app for specific pu
 -   **View models** can be, for example, JSON models that communicate with a corresponding JSON object. JSON data can also be edited in the app, but they are not stored - as soon as you refresh the browser or restart the app, the changes are reset.
 
 
-Most of the models are client-side models. This means that all data is initially loaded to the model when the app is started. All actions performed on the data are only executed on the client, and only sent back to the data source when this is triggered by the app. Client-side models are therefore only recommended for small data sets.
+Most of the models are client-side models. This means that all data is initially loaded to the model when the app is started. All actions performed on the data are only executed on the client, and are only sent back to the data source when this is triggered by the app. Client-side models are therefore only recommended for small data sets.
 
 The OData models \(V2 and V4\) are server-side models, which means that data is provided by a back-end system on demand. Filtering, sorting, and paging actions are performed on the server. This means, for example, that you don't have to load a complete table on the UI to be able to sort the entries.
 
 In the view, you bind data by specifying the **binding path** for a control. You can use **data types** and **formatters** to validate and format the data on the UI.
 
 > Note:
-> To learn more about data binding, take this tutorial: [Data Binding](Data_Binding_e531093.md)
+> To learn more about data binding, take this tutorial: [Data Binding](Data_Binding_e531093.md).
 > 
 > 
 
@@ -59,7 +59,7 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
     > Note:
     > Two-way binding is currently only supported for property bindings. For other binding types, such as list bindings, the creation or deletion of entities depends on the specific model.
     > 
-    > **Example:** For list bindings the OData V4 model provides the sap.ui.model.odata.v4.ODataListBinding\#create method for creating a new entity, and the sap.ui.model.odata.v4.Context\#delete method to delete an entity in a list.
+    > **Example:** For list bindings the OData V4 model provides the [`sap.ui.model.odata.v4.ODataListBinding#create` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) for creating a new entity, and the [`sap.ui.model.odata.v4.Context#delete` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) to delete an entity in a list. 
     > 
     > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
     > 
