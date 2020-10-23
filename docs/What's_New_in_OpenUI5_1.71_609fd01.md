@@ -14,6 +14,19 @@ With this release OpenUI5 is upgraded from version 1.70 to 1.71.
 
 ***
 
+<a name="loio609fd015eaf64bd2a4a5c0331590eb4c__section_yxw_pxt_zcb"/>
+
+### New Features
+
+| **New SAP Quartz Dark Theme Available** A new theme *SAP Quartz Dark* \(theme ID: `sap_fiori_3_dark`\) has been introduced with version 1.71.27. The theme is provided as an additional theme in OpenUI5. > Note:
+> This theme will have the status 'experimental' until testing is complete.
+> 
+> 
+
+ |
+
+***
+
 <a name="loio609fd015eaf64bd2a4a5c0331590eb4c__section_qwl_pb5_zcb"/>
 
 ### Improved Features

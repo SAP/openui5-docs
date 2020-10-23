@@ -27,6 +27,11 @@ Using components as targets in routing presents another challenge: When multiple
 
 A target in OpenUI5 routing can load either a view, or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md).
 
+> Note:
+> If the configuration for a target can only be added at runtime, OpenUI5 provides APIs to add a target dynamically at runtime. For more information, see [Navigate with Dynamic Targets](Navigate_with_Dynamic_Targets_856d6c6.md).
+> 
+> 
+
 Loading a child component with a type `Component` target in a router builds up a hierarchy between this router and the router in the child component.
 
 ``` json

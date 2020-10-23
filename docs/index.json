@@ -1413,6 +1413,9 @@
 							},
 							"Navigate with Nested Components": {
 								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
+							},
+							"Navigate with Dynamic Targets": {
+								"link": "Navigate_with_Dynamic_Targets_856d6c6.md"
 							}
 						}
 					},
@@ -1982,11 +1985,11 @@
 							"Cross-Site Scripting": {
 								"link": "Cross-Site_Scripting_91f0bd3.md"
 							},
-							"URL Whitelist Filtering": {
-								"link": "URL_Whitelist_Filtering_91f3768.md"
+							"URL List Validation": {
+								"link": "URL_List_Validation_91f3768.md"
 							},
-							"Whitelist Service": {
-								"link": "Whitelist_Service_d04a6d4.md"
+							"Allowlist Service": {
+								"link": "Allowlist_Service_d04a6d4.md"
 							},
 							"Frame Options": {
 								"link": "Frame_Options_62d9c4d.md"

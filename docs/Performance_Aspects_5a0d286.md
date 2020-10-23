@@ -42,19 +42,19 @@ The reuse of data in different bindings may help to avoid unnecessary requests. 
 
 <a name="loio5a0d286c5606424b8e0d663c87445733__section_uhx_xn4_cdb"/>
 
-### Early requests for metadata and security token
+### Early Requests for Metadata and Security Token
 
-The requests for the service's root `$metadata` document and annotation files and for the security token may be on the "critical execution path": By default, these requests are sent lazily when the OpenUI5 application starts, for example. only when the corresponding information is needed. This delays application startup until these requests have returned.
+The requests for the service's root `$metadata` document and annotation files and for the security token may be on the "critical execution path": By default, these requests are sent lazily when the OpenUI5 application starts, for example only when the corresponding information is needed. This delays application startup until these requests have returned.
 
-If you construct the model with parameter **earlyRequests**, the requests are sent as early as possible and application startup performance may improve.
+If you construct the model with an **earlyRequests** parameter, the requests are sent as early as possible and application startup performance may improve. Consider using the [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md), so that the requests are submitted even earlier.
 
 > Note:
-> Modern browsers typically can process up to six parallel requests. Therefore it strongly depends on the number of requests sent initially by the application, if and how much the performance improves.
+> Modern browsers typically can process up to six parallel requests. If and how much the performance improves therefore strongly depends on the number of requests sent initially by the application.
 > 
 > 
 
 > Note:
-> The default value for `earlyRequests` is false in OpenUI5 version 1.54. It may, however, change to true in later releases: Do not rely on the default value and explicitly set it to false to ensure the requests are not sent early.
+> The default value for `earlyRequests` is `false` in OpenUI5 1.54. This may, however, change in later releases. If you wish to ensure that requests are not sent early, do not rely on the default and explicitly set `earlyRequests` to `false`.
 > 
 > 
 

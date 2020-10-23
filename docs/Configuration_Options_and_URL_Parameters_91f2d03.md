@@ -719,8 +719,8 @@ URLs within the CSS or parameters are not modified.
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)</td>
 		</tr>
 		<tr>
-			<td> `whitelistService` </td>
-			<td>Type: `string` Default value: `null` URL to a whitelist service; see [Whitelist Service](Whitelist_Service_d04a6d4.md).</td>
+			<td> `allowlistService` </td>
+			<td>Type: `string` Default value: `null` URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.md).</td>
 			<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)</td>

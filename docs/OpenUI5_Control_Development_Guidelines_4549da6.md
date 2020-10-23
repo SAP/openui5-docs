@@ -68,7 +68,7 @@ For behavior-related development, the following guidelines apply:
 
 -   Do **not** use `oEvent.preventDefault()` or `oEvent.stopPropagation()` without a good reason and clear documentation why it is required.
 
--   Use the OpenUI5 event handling methods when available instead of `jQuery.bind()/.on()`. When you use `jQuery.bind()` or `jQuery.on()`, always unbind them again, for example in `onBeforeRendering()` and in `exit()` and rebind after rendering.
+-   Use the OpenUI5 event handling methods when available instead of `jQuery.on()`. When you use `jQuery.on()`, always register them in `onAfterRendering()` and deregister them by using `jQuery.off()` in `onBeforeRendering()` and in `exit()`.
 
 -   Use CSS3 for animations and fall back to no animation for legacy browsers; there are only a few exceptions where the animation is important.
 
