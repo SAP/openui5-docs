@@ -537,6 +537,14 @@ Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b
 
 ***
 
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_descriptor_schema"/>
+
+### Descriptor Schema
+
+The newest flattened JSON schema is available on the SAP Open Source GitHub at [https://github.com/sap/ui5-manifest/](https://github.com/sap/ui5-manifest/) under Apache-2.0 License. It can be used to enable schema validation, code completion, and documentation.
+
+***
+
 <a name="loiobe0cf40f61184b358b5faedaec98b2da__section_example"/>
 
 ### Example

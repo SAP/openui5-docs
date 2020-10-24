@@ -18,9 +18,14 @@ This chapter gives an overview of the possible combinations of themes and librar
 
 The following table shows which themes are available for the active OpenUI5 libraries. Even though the `sap_bluecrystal` and the `sap_hcb` themes are now deprecated, they currently are still available, but will not be maintained. We recommend that you migrate your existing apps to the supported themes.
 
+> Note:
+> For more information about the SAP Quartz Dark theme, see SAP Note [2982978](https://launchpad.support.sap.com/#/notes/2982978).
+> 
+> 
+
 Themes for Supported Libraries<a name="loio38ff8c27b022475a92b591bcf6262551__table_prf_w4r_zy"/>
 
-| |1.38|1.44|1.46|1.65|1.69|1.74|
+| |1.38|1.44|1.46|1.65|1.69|1.71|
 |--|----|----|----|----|----|----|
 | `sap_fiori_3_dark` |n/a|n/a|n/a|n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 | `sap_fiori_3` |n/a|n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
