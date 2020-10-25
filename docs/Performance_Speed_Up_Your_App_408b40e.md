@@ -352,9 +352,9 @@ Check if the application uses synchronous UI5 factories. Many asynchronous varia
 
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ModelPreload"/>
 
-### Use the OData V2 Model Preload
+### Use the OData Model Preload
 
-Components can preload models for which modules are already loaded; otherwise a warning will be shown. The ODataModel V2 benefits especially, because the metadata can be loaded in parallel during a component load.
+Components can preload models for which modules are already loaded; otherwise a warning will be shown. The OData model \(V2 or V4\) benefits especially, because the metadata can be loaded in parallel during a component load.
 
 ``` json
 "sap.ui5": {
@@ -364,6 +364,10 @@ Components can preload models for which modules are already loaded; otherwise a 
           "preload": true,
 ...
 ```
+
+For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel). 
+
+For the OData V4 model, also consider using the model parameter `earlyRequests`. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel). 
 
 For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md).
 

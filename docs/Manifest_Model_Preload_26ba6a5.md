@@ -38,9 +38,13 @@ The flag is not active by default, as there are some prerequisites:
     -   The corresponding resource files are not part of the component preload.
 
 
-This means: The preload flag only makes sense for models which load their data from other locations than the component itself. Local JSON, XML or resource model does not make sense as it interferes with the component preload which will result in loading the model data twice and should be omitted. But for the V2 OData model, for example, using preload speeds up the performance as the OData metadata can already be loaded in parallel to the component preload.
+This means: The preload flag only makes sense for models which load their data from other locations than the component itself. For a local JSON, XML or resource model it does not make sense as it interferes with the component preload, which will result in loading the model data twice, and should be omitted. But for the OData model \(V2 or V4\), for example, using the preload option speeds up performance, as the OData metadata can already be loaded in parallel to the component preload.
 
-Before enabling the preload for the V2 ODataModel, make sure that you listen properly to metadata loaded by using the `Promise` API instead of the `Event` API \(`metadataLoaded`\) since the preload could have loaded the metadata already before the application code is executed. The Promise will be executed even if the metadata loaded event has been raised already.
+Before enabling the preload for the OData model \(V2 or V4\), make sure that you listen properly to metadata loaded by using the `Promise` API instead of the `Event` API \(`metadataLoaded`\), since the preload could have loaded the metadata already before the application code is executed. The Promise will be executed even if the metadata loaded event has been raised already.
+
+For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel). 
+
+For the OData V4 model, set the model parameter `earlyRequests` to `true`, so that the root metadata and security token are requested directly after creating the model instance. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel). 
 
 Listen properly to metadata loaded by using the Promise:
 
