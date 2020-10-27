@@ -19,24 +19,28 @@ OpenUI5 applications can have the following two event types:
 -   Control events: These events are fired by OpenUI5 controls. They contain more semantic information than browser events and relate to the control functionality. An example for a control event is when a browser's a `click` event on an icon in a panel header that triggers a `maximize` or `minimize` event of the control.
 
 
-To register browser events explicitly for certain DOM elements, use either `jQuery.bind()` or the respective browser methods, such as `addEventListener` and register the event in the `onAfterRendering` method of the control. This ensures that the event binding is repeated after the control is rerendered, meaning that new DOM elements are created and old DOM elements are discarded. The event binding must be removed in the `onBeforeRendering` and `exit` methods by using `jQuery.unbind()` to prevent memory leaks. The `exit` method is called before the control is destroyed.
+To register browser events explicitly for certain DOM elements, use either `jQuery.on()` or the respective browser methods, such as `addEventListener`, and register the event in the `onAfterRendering` method of the control. This ensures that the event registration is repeated after the control is re-rendered, meaning that new DOM elements are created and old DOM elements are discarded. The event registration must be removed in the `onBeforeRendering` and `exit` methods by using `jQuery.off()` to prevent memory leaks. The `exit` method is called before the control is destroyed.
 
-The explicit registering for browser events enables you to handle any type of browser event and works exactly the same way as in web pages or jQuery-based web applications. On the other hand side, it requires some coding to do the binding and unbinding of the event handler and registering many event handlers can affect the performance.
+The explicit registering for browser events enables you to handle any type of browser event and works exactly the same way as in web pages or jQuery-based web applications. On the other hand, it requires some coding to do the registration and deregistration of the event handlers, which can affect performance if many event handlers are used.
 
 Example for explicit registration of browser events:
 
 ``` js
+MyControl.prototype.init = function() {
+        this.handleClick = MyControl.prototype.handleClick.bind(this);
+}
+
 MyControl.prototype.onAfterRendering = function() {
-        this.$().bind("click", this.handleClick.bind(this));
+        this.$().on("click", this.handleClick);
 }
 
 MyControl.prototype.onBeforeRendering = function() {
-        this.$().unbind("click", this.handleClick);
+        this.$().off("click", this.handleClick);
 }
 
 
 MyControl.prototype.exit = function() {
-        this.$().unbind("click", this.handleClick);
+        this.$().off("click", this.handleClick);
 }
 
 
@@ -45,7 +49,7 @@ MyControl.prototype.handleClick = function(oEvent) {
 }
 ```
 
-Instead of explicitly registering for browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls. For more information about these event types, see the [ `sap.ui.events.ControlEvents`](https://openui5.hana.ondemand.com/#/api/sap.ui.events) in the API Reference. If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.bind()`.
+Instead of explicitly registering browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls, the [`sap.ui.core.UIArea`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIArea/overview). For more information about these event types, see the [ `sap.ui.events.ControlEvents`](https://openui5.hana.ondemand.com/#/api/sap.ui.events) in the API Reference. If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.on()`.
 
 The event handler implementation requires less code, reduces the number of event handler registrations in the DOM and also reduces the number of event handler registrations and deregistrations that are executed on every rerendering action. On the other hand, this option is only available for specific events.
 
@@ -58,5 +62,5 @@ MyControl.prototype.onclick = function(oEvent) {
 }
 ```
 
-OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.bind()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [sap.ui.events.PseudoEvents.events](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events) in the API Reference.
+OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.on()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [sap.ui.events.PseudoEvents.events](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events) in the API Reference.
 

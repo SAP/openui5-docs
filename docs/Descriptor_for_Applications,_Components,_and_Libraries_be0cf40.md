@@ -256,23 +256,23 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 		</tr>
 		<tr>
 			<td> `title` </td>
-			<td>Mandatory attribute: Either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
+			<td>Mandatory attribute; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `subTitle` </td>
-			<td>Subtitle; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
+			<td>Subtitle; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `shortTitle` </td>
-			<td>Short version of the title; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
+			<td>Short version of the title; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `info` </td>
-			<td>Needed for CDM \(Common Data Model\) conversion of tiles; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
+			<td>Needed for CDM \(Common Data Model\) conversion of tiles; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `description` </td>
-			<td>Description; either text or a language-dependent entry to be specified via `{{…}}` syntax</td>
+			<td>Description; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `tags` </td>
@@ -554,7 +554,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.27.0",
+    "_version": "1.28.0",
  
     "start_url": "index.html",
  
@@ -644,7 +644,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.83.0",
+            "minUI5Version": "1.84.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

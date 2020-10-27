@@ -125,20 +125,34 @@ If, due to filtering or sorting of the list, the entity shown in the detail view
 
 ``` js
 ...
- 
+  
 // Optional: First remove the keep-alive setting for the previous context of the detail view
 oOldContext = oView.getBindingContext();
 if (oOldContext) {
     oOldContext.setKeepAlive(false);
 }
- 
+  
 // Share data between collection and view for a selected context, e.g. the second context
 oNewContext = oTable.getItems()[1].getBindingContext();
 oView.setBindingContext(oNewContext);
- 
+  
 // Mandatory: Prevent destruction of the new context using the keep-alive setting
-oNewContext.setKeepAlive(true);
+oNewContext.setKeepAlive(true, /*fnOnBeforeDestroy*/ function () {
+    // React destruction of a kept-alive context
+    var oDetail = oView.byId("detail");
+ 
+    if (oDetail.getBindingContext() === oNewContext) {
+        oDetail.setVisible(false);
+    }
+});
 ```
 
 The data of the kept-alive context shown in list and detail view will be in sync, even if the kept-alive context is not shown in the list and loaded again later.
+
+The optional callback function `fnOnBeforeDestroy` is called when the kept-alive context is destroyed. This happens if:
+
+-   the list binding is relative and its context is changed,
+-   the list binding is destroyed,
+-   the context is deleted,
+-   due to a refresh, the entity is no longer accessible via its previous path.
 
