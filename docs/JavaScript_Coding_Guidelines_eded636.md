@@ -86,6 +86,7 @@ When using the Hungarian notation, use the prefixes highlighted below and contin
 |**f**Decimal|float|
 |**b**Enabled|boolean|
 |**r**Pattern|RegExp|
+|**p**Pending|Promise|
 |**fn**Function|function|
 |**v**Variant|variant types|
 
