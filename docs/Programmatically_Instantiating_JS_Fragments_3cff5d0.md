@@ -17,48 +17,78 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 To give an example of a programmatic instantiation of a JS fragment, you first have to define one. The following code presents an example definition:
 
 ``` js
-sap.ui.jsfragment ( "my.useful.UiPartX",{ 
-	createContent: function (oController ) {
-        var oButton  = new sap.m.Button({ 
-			text: "Hello World" , 
-			press:oController.doSomething 
-		}); 
-		return oButton; 
-	} 
+// fragment is located in a file named: "my/useful/UiPartX.fragment.js"
+sap.ui.define(["sap/m/Button"], function(Button) {
+	return {
+		createContent: function(oController) {
+			var oButton  = new Button({
+				text: "Hello World" ,
+				press: oController.doSomething
+			});
+			return oButton;
+		}
+	};
 });
 ```
 
 This fragment can be instantiated from a controller as follows:
 
 ``` js
-
-var myButton = sap.ui.jsfragment("my.useful.UiPartX",this); // assuming "this" is the controller
+// "Fragment" required from module "sap/ui/core/Fragment"
+Fragment.load({
+	name: "my.useful.UiPartX",
+	type: "JS",
+	controller: this // assuming "this" is the controller
+}).then(function(oMyButton){
+	// oMyButton is now usable
+});
 ```
 
-This button can now be used as if it had been created in a standard way. Note how a controller instance is passed as second parameter. This is required because that particular fragment tries to bind the button press handler to the method **doSomething** in the given controller. With no controller given, this would cause an error.
+This button can now be used as if it had been created in a standard way. Note how a controller instance is passed as an additional parameter. This is required because that particular fragment binds the button press handler to the method **doSomething** in the given controller. With no controller given, this would cause an error.
 
 For fragments that are used several times, an ID for the fragment can be given optionally, see [Unique IDs](Unique_IDs_5da591c.md):
 
 ``` js
-
-var myButton = sap.ui.jsfragment("someId", "my.useful.UiPartX", this); // assuming "this" is the Controller
+// "Fragment" required from module "sap/ui/core/Fragment"
+Fragment.load({
+	name: "my.useful.UiPartX",
+	id: "someId"
+	type: "JS",
+	controller: this // assuming "this" is the controller
+}).then(function(oMyButton){
+	// oMyButton is now usable
+});
 ```
 
-Within a JS view's **createContent\(\)** method the fragment content could be included like this:
+JS Fragments are capable of asynchronously creating their content. To do so, the `createContent()` function must return a Promise instead of just regular controls. This Promise then must resolve with the actual content controls.
 
 ``` js
-... 
-	createContent: function (oController ) {
-		var hLayout = new sap.m.HBox (); 
-		...
-		var myFragment = sap.ui.jsfragment( "my.useful.UiPartX" , oController ); 
-		// here the fragment is instantiated       
-		hLayout.addContent (myFragment ); 
-		... 
-		return hLayout ; 
-	} 
-...
+// fragment is located in a file named: "reuse/SampleFragment.fragment.js"
+sap.ui.define(["sap/ui/core/Fragment", "sap/m/Button", "heavy/work/SomeModule"], function(Fragment, Button, SomeModule) {
+	return {
+		createContent: function() {
+			return SomeModule.doStuffAsync().then(function(results) {
+				// work with your asynchronous results and create some controls
+				// ...
+				return new Button({
+					// ...
+				});
+			});
+		}
+	};
+});
 ```
 
-The fragment content \(= the button\) would be added to the layout which is the content of this JSView. Other fragments not requiring a controller can of course be instantiated without passing a controller. But it also does not hurt to pass the controller - it is only used for setting up the event handlers \(or within the **createContent\(\)** method, in case of JS fragments\).
+You can now require the above fragment definition by calling `Fragment.load`. All asynchronous behavior is encapsulated by the `Fragment.load` Promise:
+
+``` js
+// "Fragment" required from module "sap/ui/core/Fragment"
+Fragment.load({
+	name: "reuse.SampleFragment",
+	type: "JS"
+}).then(function(oButton){
+	// oButton is now usable
+	// the Promise from within the "reuse.SampleFragment" is resolved
+});
+```
 

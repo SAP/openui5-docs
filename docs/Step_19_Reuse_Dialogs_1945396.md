@@ -122,25 +122,26 @@ To do so, we use the `exit` hook. The OpenUI5 framework calls the function assig
 			var oView = this._oView;
 
 			// create dialog lazily
-			if (!oView.byId("helloDialog")) {
+			if (!this.pDialog) {
 				var oFragmentController = {
 					onCloseDialog : function () {
 						oView.byId("helloDialog").close();
 					}
 				};
 				// load asynchronous XML fragment
-				Fragment.load({
+				this.pDialog = Fragment.load({
 					id: oView.getId(),
 					name: "sap.ui.demo.walkthrough.view.HelloDialog",
 					controller: oFragmentController
 				}).then(function (oDialog) {
 					// connect dialog to the root view of this component (models, lifecycle)
 					oView.addDependent(oDialog);
-					oDialog.open();
+					return oDialog;
 				});
-			} else {
-				oView.byId("helloDialog").open();
-			}
+			} 
+			this.pDialog.then(function(oDialog) {
+				oDialog.open();
+			});
 		}
 
 	});
@@ -154,7 +155,7 @@ The implementation of the `HelloDialog` reuse object extends an `sap.ui.base.Man
 Our `open` method is refactored from the `HelloPanel` controller and instantiates our dialog fragment as in the previous steps.
 
 > Note:
-> We do not pass a controller as third parameter to function `sap.ui.xmlfragment` but a local helper object `oFragmentContoller` which included the needed event handler function `onCloseDialog` for the fragment.
+> We do not pass a controller as third parameter to function `Fragment.load` but a local helper object `oFragmentContoller` which included the needed event handler function `onCloseDialog` for the fragment.
 > 
 > 
 

@@ -32,25 +32,28 @@ Other fragment types are used the same way to define, for instance, a dialog as 
 For example, in JS fragments, the `createContent()` method returns a dialog control:
 
 ``` js
-
-sap.ui.jsfragment("testdata.fragments.JSFragmentDialog", {
-    createContent: function(oController) {
-     var oDialog = new sap.m.Dialog({
-            title: "JavaScript Fragment Dialog",
-            content: [
-                new sap.m.Input({
-                    text: "{/dialogText}"
-                })
-            ],
-            buttons: [
-                new sap.m.Button({
-                    text: "Close",
-                    press: function(){
-                        oDialog.close();
-                    }
-                })
-            ]
-        return oDialog;
+// fragment is located in a file named: testdata/fragments/JSFragmentDialog.fragment.js,
+sap.ui.define(["sap/m/Dialog", "sap/m/Input", "sap/m/Button"], function(Dialog, Input, Button) {
+    return {
+        createContent: function(oController) {
+            var oDialog = new Dialog({
+                title: "JavaScript Fragment Dialog",
+                content: [
+                    new Input({
+                        text: "{/dialogText}"
+                    })
+                ],
+                buttons: [
+                    new Button({
+                        text: "Close",
+                        press: function(){
+                            oDialog.close();
+                        }
+                    })
+                ]
+            });
+            return oDialog;
+        }
     }
 });
 ```

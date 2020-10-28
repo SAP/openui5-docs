@@ -23,8 +23,9 @@ The example uses different combinations. Make sure that the `sap-ui-core.js` scr
 Definition of a simple JS fragment containing two buttons:
 
 ``` js
-sap.ui.define(["sap/m/Button", "sap/ui/core/Fragment"], function (Button) {
-    sap.ui.jsfragment("my.own.Fragment", {
+// fragment is located in a file named: my/own/Fragment.fragment.js,
+sap.ui.define(["sap/m/Button"], function (Button) {
+    return {
         createContent: function() {
             // button text is bound to Model, "press" action is bound to Controller's event handler
             return [
@@ -32,7 +33,7 @@ sap.ui.define(["sap/m/Button", "sap/ui/core/Fragment"], function (Button) {
                 new Button(this.createId("btn2"), {text:'my second Fragment Button'})
             ]
         }
-    });
+    }
 });
 ```
 
@@ -69,7 +70,7 @@ Definition of a simple XML view:
 Definition of a simple controller used with the XML view:
 
 ``` js
-sap.ui.define(['sap/ui/core/mvc/Controller'], function (Controller) {
+sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/Fragment'], function (Controller, Fragment) {
     "use strict";
     return Controller.extend("my.own.Controller", {
         metadata: {
@@ -83,7 +84,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller'], function (Controller) {
             var b1 = null; // ID is generated: "__button1"
             var b2 = this.byId("btn2"); // Button ID is given, Fragment has no ID: "myView--btn2"
             var b3 = null // Fragment has an ID, but Control ID is generated and hence not prefixed: "__button2"
-            var b4 = this.byId(sap.ui.core.Fragment.createId("myFrag", "btn2")); // Button and Fragment ID are given, 
+            var b4 = this.byId(Fragment.createId("myFrag", "btn2")); // Button and Fragment ID are given, 
                 //let the Fragment construct the prefixed ID and then let the View search the again prefixed ID
             alert("Controls in Fragment:\nButton 1: has no given ID, cannot be found\nButton 2: " + b2 + 
                "\nButton 3: has no given ID, cannot be found\nButton 4: " + b4);

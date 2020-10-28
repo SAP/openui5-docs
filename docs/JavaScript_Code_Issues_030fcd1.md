@@ -96,31 +96,31 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
 -   `sap.ui.getCore`
 
--   `sap.ui.component`
+-   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 
--   `sap.ui.fragment`
+-   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.htmlfragment`
+-   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.jsfragment`
+-   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.jsview`
+-   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.JSView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.JSView/methods/sap.ui.core.mvc.JSView.create) instead.
 
--   `sap.ui.template`
+-   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
--   `sap.ui.view`
+-   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
--   `sap.ui.xmlfragment`
+-   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.xmlview`
+-   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
 -   Commonly used names \(However they can also be used as AMD references via `sap/ui/Global`\):
 
-    -   `sap.ui.getVersionInfo (Global.getVersionInfo())`
+    -   `sap.ui.getVersionInfo (Global.getVersionInfo())`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.getVersionInfo).
 
-    -   `sap.ui.lazyRequire`
+    -   `sap.ui.lazyRequire`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.lazyRequire).
 
-    -   `sap.ui.resource`
+    -   `sap.ui.resource`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.resource).
 
     -   `sap.ui.version`
 

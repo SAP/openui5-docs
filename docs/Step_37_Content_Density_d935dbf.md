@@ -107,14 +107,14 @@ sap.ui.define([
 			var oView = this._oView;
 
 			// create dialog lazily
-			if (!oView.byId("helloDialog")) {
+			if (!this.pDialog) {
 				var oFragmentController = {
 					onCloseDialog : function () {
 						oView.byId("helloDialog").close();
 					}
 				};
 				// load asynchronous XML fragment
-				Fragment.load({
+				this.pDialog = Fragment.load({
 					id: oView.getId(),
 					name: "sap.ui.demo.walkthrough.view.HelloDialog",
 					controller: oFragmentController
@@ -123,11 +123,13 @@ sap.ui.define([
 					oView.addDependent(oDialog);
 	*HIGHLIGHT START*				// forward compact/cozy style into dialog
 					syncStyleClass(oView.getController().getOwnerComponent().getContentDensityClass(), oView, oDialog);*HIGHLIGHT END*
-					oDialog.open();
+					return oDialog;
 				});
-			} else {
-				oView.byId("helloDialog").open();
-			}
+			} 
+			// open the dialog once the loading promise resolves
+			this.pDialog.then(function(oDialog) {
+				oDialog.open();
+			});
 		}
 
 	});

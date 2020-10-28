@@ -15,14 +15,17 @@ The structure of JS fragments is similar to the structure of the respective view
 You define a simple JS fragment named `my.useful.UiPartX` as shown in the following code snippet:
 
 ``` js
-sap.ui.jsfragment("my.useful.UiPartX", { 
-	createContent: function(oController ) {
-		var oButton = new sap.m.Button({ 
-			text:"Hello World", 
-			press:oController.doSomething 
-		}); 
-		return oButton;
-	} 
+// fragment is located in a file named: "my/useful/UiPartX.fragment.js"
+sap.ui.define(["sap/m/Button"], function(Button) {
+	return {
+		createContent: function(oController) {
+			var oButton  = new Button({
+				text: "Hello World" ,
+				press:oController.doSomething
+			});
+			return oButton;
+		}
+	}; 
 });
 ```
 

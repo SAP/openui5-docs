@@ -109,25 +109,23 @@ As dialogs are rendered in a different part of the HTML tree, they do **not** au
 sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/Fragment", "sap/ui/core/syncStyleClass"], function(Controller, Fragment, syncStyleClass) {
     return Controller.extend("mycontroller", {
         onOpenDialog: function (oEvent) {
-            var fnSync = function() {
+            var fnSync = function(oDialog) {
                 // sync compact style
-                syncStyleClass("sapUiSizeCompact", this.getView(), this._oDialog);
-                this._oDialog.open();
+                syncStyleClass("sapUiSizeCompact", this.getView(), this.oDialog);
+                this.oDialog.open();
             }.bind(this);
 
-            if (!this._oDialog) {
-                Fragment.load({
+            if (!this.oDialog) {
+                this.pDialog = Fragment.load({
                     name: "mydialog",
                     controller: this
                 }).then(function(oDialog) {
-                    this._oDialog = oDialog;
-                    this.getView().addDependent(this._oDialog);
-
-                    fnSync();
+                    this.getView().addDependent(oDialog);
                 }.bind(this));
-            } else {
-                fnSync();
             }
+
+            // chain the style-class sync to the fragment loading promise
+            this.pDialog.then(fnSync);
         }
     });
 });

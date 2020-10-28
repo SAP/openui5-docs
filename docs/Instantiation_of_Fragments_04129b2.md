@@ -10,13 +10,15 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Instantiation of Fragments
 
-OpenUI5 provides the generic function `sap.ui.fragment()` to instantiate fragments.
+OpenUI5 provides the generic function `sap.ui.core.Fragment.load()` to instantiate fragments.
 
 Comparing fragments to views, there is one important difference: Fragments are no controls. While views are control instances which have their own HTML and their own set of properties and may contain other controls, fragments just consist of their content. Views contain their content controls, while fragments consist of their content controls.
 
 For example, when a fragment containing a button is instantiated, the result is just this button.
 
-The generic function `sap.ui.fragment()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller. It either returns the root control contained in the fragment or an array of root controls, depending on the type of the fragment. This fragment type is usually known in advance. Therefore, a specific method for each fragment type can be used to programmatically instantiate a fragment. You find more information on the instantiation process in the respective topics linked in the related link section below.
+The generic function `sap.ui.core.Fragment.load()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller; for more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load). 
+
+. It either returns the root control contained in the fragment or an array of root controls, depending on the type of the fragment. This fragment type is usually known in advance. Therefore, a specific method for each fragment type can be used to programmatically instantiate a fragment. You find more information on the instantiation process in the respective topics linked in the related link section below.
 
 The different methods used for the instantiation of a fragment have the following commonalities:
 

@@ -98,21 +98,28 @@ Controller code:
 	...
 	toEditMode: function() {
 		this.byId("displayPanel").setVisible(false);
-		var oEditPanel = this.byId("editPanel");
-		if (!oEditPanel) { // load and instantiate the edit panel lazily
-			// instantiate the Fragment:
-			// giving the View ID as ID will prefix the IDs in the Fragment and allows using this.byId(…) in the Controller
-			// giving “this” (the Controller) allows using controller methods from within the Fragment
-			Fragment.load({
+
+		if (!this.pEditPanel) {
+			// load and instantiate the edit panel lazily
+			// we keep the Promise of the Fragment.load() call,
+			// so that we do not trigger the fragment loading everytime the user clicks the button
+			this.pEditPanel = Fragment.load({
 				name: "myApp.EditPanel",
+				// giving the View ID to the Fragment.load() function will prefix the IDs in the Fragment and allows using this.byId(…) in the Controller
+				// giving “this” (the Controller) allows using controller methods from within the Fragment
 				id: this.getView().getId(),
 				type: "XML",
 				controller: this
 			}).then(function (oFragment) {
 				this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
-			});
+			}.bind(this));
 		}
-		oEditPanel.setVisible(true);
+		// we chain the visibility change of the "editPanel" to the loading Promise
+		// Since we only load the fragment one we can chain ourselves to this Promise on each Button click
+		this.pEditPanel.then(function() {
+			var oEditPanel = this.byId("editPanel");
+			oEditPanel.setVisible(true);
+		}.bind(this));
 	}
 	...
 ```
@@ -123,7 +130,8 @@ In other scenarios, at the time of developing you may not know which UI part is 
 	...
 	toEditMode: function () {...},
 	onInit: function () {
-		Fragment.load({
+		// we keep the loading Promise, so we can chain ourselves to it later
+		this.pEditPanel = Fragment.load({
 			name: bEditMode ? "myApp.EditPanel" : "myApp.DisplayPanel",
 			type: "XML"
 		}).then(function (oFragment) {

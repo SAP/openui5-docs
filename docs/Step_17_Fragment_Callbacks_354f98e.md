@@ -51,24 +51,25 @@ sap.ui.define([
 		onOpenDialog : function () {
 			var oView = this.getView();
 
-			// create dialog lazily
-			if (!this.byId("helloDialog")) {
-				// load asynchronous XML fragment
-				Fragment.load({
+			if (!this.pDialog) {
+				this.pDialog = Fragment.load({
 					id: oView.getId(),
 					name: "sap.ui.demo.walkthrough.view.HelloDialog"*HIGHLIGHT START*,
 					controller: this*HIGHLIGHT END*
 				}).then(function (oDialog) {
 					// connect dialog to the root view of this component (models, lifecycle)
 					oView.addDependent(oDialog);
-					oDialog.open();
+					return oDialog;
 				});
-			} else {
-				this.byId("helloDialog").open();
-			}
+			} 
+			this.pDialog.then(function(oDialog) {
+				oDialog.open();
+			});
 		}*HIGHLIGHT START*,
 
 		onCloseDialog : function () {
+			// note: We don't need to chain to the pDialog promise, since this event-handler
+			// is only called from within the loaded dialog itself.
 			this.byId("helloDialog").close();
 		}*HIGHLIGHT END*
 	});
@@ -76,7 +77,7 @@ sap.ui.define([
 });
 ```
 
-As previously described, fragments are pure UI reuse artifacts and do not have a controller. The third parameter of the `sap.ui.xmlfragment` function is optional and allows passing in a reference to a \(controller\) object. For our dialog we reference the `HelloPanel` controller. However, the third parameter does not necessarily have to be a controller but can be any object. Just don't forget the `this` keyword.
+As previously described, fragments are pure UI reuse artifacts and do not have a controller. However, you can pass a controller object to the `Fragment.load` API. For our dialog we reference the `HelloPanel` controller. However, the third parameter does not necessarily have to be a controller but can be any object. Just don't forget the `this` keyword.
 
 The event handler function is put into the same controller file and it closes the dialog by accessing the internal helper function that returns the dialog.
 

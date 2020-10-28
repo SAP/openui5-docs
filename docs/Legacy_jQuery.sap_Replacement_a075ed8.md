@@ -185,33 +185,33 @@ ObjectPath.get("some.object.path", "someProperty");
 		</tr>
 		<tr>
 			<td> `jQuery.sap.addUrlWhitelist` </td>
-			<td> `sap/base/security/URLListValidator` </td>
+			<td> `sap/base/security/URLWhiteList` </td>
 			<td>Method changed</td>
-			<td> `URLListValidator.add` </td>
+			<td> `URLWhitelist.add` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.clearUrlWhitelist` </td>
-			<td> `sap/base/security/URLListValidator` </td>
+			<td> `sap/base/security/URLWhiteList` </td>
 			<td>Method changed</td>
-			<td> `URLListValidator.clear` </td>
+			<td> `URLWhitelist.clear` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.getUrlWhitelist` </td>
-			<td> `sap/base/security/URLListValidator` </td>
+			<td> `sap/base/security/URLWhiteList` </td>
 			<td>Method changed</td>
-			<td> `URLListValidator.entries` </td>
+			<td> `URLWhitelist.entries` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.removeUrlWhitelist` </td>
-			<td> `sap/base/security/URLListValidator` </td>
-			<td>Complex replacement</td>
-			<td> `URLListValidator.clear` and `URLListValidator.add` </td>
+			<td> `sap/base/security/URLWhiteList` </td>
+			<td>Method changed</td>
+			<td> `URLWhitelist.delete` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.validateUrl` </td>
-			<td> `sap/base/security/URLListValidator` </td>
+			<td> `sap/base/security/URLWhiteList` </td>
 			<td>Method changed</td>
-			<td> `URLListValidator.validate` </td>
+			<td> `URLWhitelist.validate` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.camelCase` </td>

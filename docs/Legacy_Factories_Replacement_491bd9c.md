@@ -53,7 +53,7 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
         // default: manifest: true
 
     }).then(function(oComp) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -82,7 +82,7 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
         name: "my.comp"
 
     }).then(function(oComp) { ... });
-
+});
 ```
 
  Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file: ```
@@ -184,7 +184,7 @@ sap.ui.require(['sap/base/i18n/ResourceBundle'], function(Resource){
 	   async: true
 
     }).then(function(oResource) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -217,7 +217,7 @@ sap.ui.require(['sap/ui/core/mvc/View'], function(View){
         type: "XML"
 
     }).then(function(oView) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -245,7 +245,7 @@ sap.ui.require(['sap/ui/core/mvc/XMLView'], function(XMLView){
         viewName: "my.View"
 
     }).then(function(oView) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -273,7 +273,7 @@ sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
         viewName: "my.View"
 								
     }).then(function(oView) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -296,7 +296,7 @@ sap.ui.require(['sap/ui/core/mvc/Controller'], function(Controller){
         ...
 
     }).then(function(oController) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -319,7 +319,7 @@ sap.ui.require(['sap/ui/core/ExtensionPoint'], function(ExtensionPoint){
         ...
 
     }).then(function(aControls) { ... });
-
+});
 ```
 			</td>
 		</tr>
@@ -352,8 +352,12 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
         type: "XML"
 
     }).then(function(aControls) { ... });
-
+});
 ```
+
+ > Note:
+ > Please make sure that you are correctly chaining to the `Fragment.load` Promise!
+ > Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
 			</td>
 		</tr>
 		<tr>
@@ -375,7 +379,7 @@ sap.ui.require(['sap/ui/core/VersionInfo'], function(VersionInfo){
         ...
 
     }).then(function(oVersionInfo) { ... });
-
+});
 ```
 			</td>
 		</tr>
