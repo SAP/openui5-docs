@@ -88,6 +88,7 @@ When using the Hungarian notation, use the prefixes highlighted below and contin
 |**r**Pattern|RegExp|
 |**fn**Function|function|
 |**v**Variant|variant types|
+|**p**Dialog|promise|
 
 Use CamelCase for class names, starting with an uppercase letter. HTML element IDs starting with `sap-ui-` are reserved for OpenUI5. DOM attribute names starting with `data-sap-ui-` as well as URL parameter names starting with `sap-` and `sap-ui-` are reserved for OpenUI5.
 

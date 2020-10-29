@@ -72,11 +72,6 @@ For mobile operating systems, support is restricted to specific reference device
 
 When creating support incidents, make sure that the device you refer to belongs to the listed ones:
 
-> Note:
-> Touch-enabled devices are not supported by the `sap.ui.commons` and `sap.ui.ux3` libraries.
-> 
-> 
-
 |Platform|Device|End of Support Date|
 |--------|------|-------------------|
 |iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 8|September 2020|
@@ -115,8 +110,6 @@ When creating support incidents, make sure that the device you refer to belongs 
     -   Internet Explorer 11 \(IE11\) provides specific document and enterprise modes for compatibility reasons. OpenUI5 supports only the IE11 document mode. For backward compatibility, IE11 allows to enable a special enterprise mode that can simulate either an IE8 or IE7 within an IE11, which is NOT supported for OpenUI5 apps. This functionality should be used only for critical apps that require an older browser version to run. For more information, see "[Fix web compatibility issues using document modes and the Enterprise Mode site list](https://technet.microsoft.com/itpro/internet-explorer/ie11-deploy-guide/fix-compat-issues-with-doc-modes-and-enterprise-mode-site-list)" in the Microsoft Windows IT Center.
 
     -   The PhantomJS browser is not supported.
-
-    -   `sap.ui.core`, `sap.ui.layout`, `sap.ui.unified` are basic libraries, supporting all platforms or browsers that are supported by any of the other libraries.
 
 -   **`sap.m`**
     -   For the **maxLines** property of the `sap.m.Text` control, multiline ellipsis handling is not supported for all browsers and devices and is not supported at all for right-to-left text direction. For more information, see [Visual Degradations](Visual_Degradations_f08f296.md).
