@@ -14,13 +14,6 @@ With this release OpenUI5 is upgraded from version 1.82 to 1.84.
 
 ***
 
-<a name="loioccf76b76327c421e9d87ff7fc3d7ba41__section_yxw_pxt_zcb"/>
-
-### New Features
-
-
-***
-
 <a name="loioccf76b76327c421e9d87ff7fc3d7ba41__section_qwl_pb5_zcb"/>
 
 ### Improved Features
@@ -30,7 +23,7 @@ With this release OpenUI5 is upgraded from version 1.82 to 1.84.
 <table>
 	<thead>
 		<tr>
-			<th> **Asynchronous Loading of XML Content in Fragments** The `sap.ui.core.Fragment.load()` generic function to instantiate fragments is now fully asynchronic. Many scenarios, such as the declarative use of fragments in XML views, automatically benefit from the new asynchronous behavior. If your own code [instantiates fragments programmatically](Programmatically_Instantiating_XML_Fragments_d6af195.md) and accesses dependent entities such as controls by ID, make sure you're correctly chaining to the Promise returned by `Fragment.load()`. We have adjusted samples, tutorials, and documentation to reflect the typical asynchronous usage of fragments. For more information, see the [`API Reference`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) in the DemoKit.</th>
+			<th> **Asynchronous Loading of XML Content in Fragments** The `sap.ui.core.Fragment.load()` generic function to instantiate fragments is now fully asynchronic. Many scenarios, such as the declarative use of fragments in XML views, automatically benefit from the new asynchronous behavior. If your own code [instantiates fragments programmatically](Programmatically_Instantiating_XML_Fragments_d6af195.md) and accesses dependent entities such as controls by ID, make sure you're correctly chaining to the Promise returned by `Fragment.load()`. We have adjusted samples, tutorials, and documentation to reflect the typical asynchronous usage of fragments. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) in the Demo Kit.</th>
 
  -   We have added detailed documentation about sizing and layouts in Integration cards. For more information, see the [Sizing](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/sizing) and the  [Layouts](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/layouts) pages in the Card Explorer.
 			</td>
