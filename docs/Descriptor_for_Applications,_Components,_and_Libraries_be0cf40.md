@@ -213,10 +213,11 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 	<tbody>
 		<tr>
 			<td> `id` </td>
-			<td>A mandatory attribute that represents the namespace of the project. It has to be provided in dot notation and must be unique in the environment of your UI5 projects. All artefacts which are associated with your project have to be included in this namespace to be available, e.g. Controller, Views, etc. For example, an `id` might look like `mycompany.mynamespace1.mynamespace2`. The directory structure is separated by dots, so your artefacts have to be stored in the following folder structure: `mycompany/mynamespace1/mynamespace2`. In case of `sap.app/type=application`, the `sap.app/id` corresponds to the `id` of the UI5 component.
+			<td>A mandatory attribute that represents the namespace of the project. It has to be provided in dot notation and must be unique in the environment of your UI5 projects. All artefacts which are associated with your project have to be included in this namespace to be available, e.g. Controller, Views, etc. For example, an `id` might look like `mycompany.mynamespace1.mynamespace2`. The directory structure is separated by dots, so your artefacts have to be stored in the following folder structure: `mycompany/mynamespace1/mynamespace2`.
 
  > Note:
- > The ID must not exceed 70 characters. It must be unique and must correspond to the component name.
+ > The ID must not exceed 70 characters. It must be unique.
+ > In case of `sap.app/type=application`, the `sap.app/id` corresponds to the `id` of the UI5 component.
 			</td>
 		</tr>
 		<tr>
@@ -379,7 +380,7 @@ Attributes in the mandatory `sap.ui` namespace<a name="loiobe0cf40f61184b358b5fa
 
 #### `sap.ui5`
 
-The `sap.ui5` namespace is aligned with the previous component metadata and contributes the following OpenUI5-specific attributes for the application descriptor, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md) for more details.
+The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the application descriptor, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md) for more details.
 
 Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_c32_chk_qr"/>
 
