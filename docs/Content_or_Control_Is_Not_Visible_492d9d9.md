@@ -26,6 +26,8 @@ This can happen for one of the following reasons:
 
 -   The `height` or `width` dimension is set to `0`
 
+-   The model has been set on the Core
+
 
 ***
 
@@ -47,7 +49,7 @@ If you, for example, use a `List` control, you bind the list itself to an absolu
 
 If you used an absolute binding path like `title="{/Name}` for an aggregation instead of a relative one, the result in the window would look like this:
 
-![](loiof0e02a0a95274e96a374b560e746a3b1_LowRes.png)
+ ![](loiof0e02a0a95274e96a374b560e746a3b1_LowRes.png) 
 
 Another common error related to binding is to refer to the default model instead of referring to a specific model. This happens, for examples, if you forgot to add the model name to the binding declaration.
 
@@ -55,7 +57,7 @@ For example, you have two models in your application: the default model, which h
 
 If you used the binding correctly *Diagnostics* displays the following:
 
-![](loioea9ef43eca8e480f9f9a591836ee6242_LowRes.png)
+ ![](loioea9ef43eca8e480f9f9a591836ee6242_LowRes.png) 
 
 If the model name is missing, you see the following:
 
@@ -78,4 +80,27 @@ You can fix this by setting the `visible` property of the parent control to `tru
 Most controls have the properties `width` and `height`. If one of them is explicitly set to `0` some controls may not be displayed at all. Similar to the `visible` property, the value of `width` and `height` are also inherited from parent controls, as long as you don't set an explicit value for these dimensions. If you, for example, set one of the dimension values for a control to `100%` it will have the same size as the parent control. And if the parent's width is `0` the nested control will also be `0`.
 
 As with the `visible` property, you can solve this by either increasing the size of the parent or setting fixed values for the child \(for example, `100px`\) instead of a relative value.
+
+***
+
+#### Model set on the Core
+
+Avoid setting models directly on the Core if you're using Components. Components are meant to be independent and reusable parts and therefore will not inherit the Core models by default.
+
+Models should be set depending on your use case:
+
+-   Models defined in the app descriptor \(manifest.json\) will be set on the Component. They are automatically propagated to its descendants.
+-   Only set models on certain controls \(e.g. View, Panel, etc.\) if the data are not needed elsewhere.
+-   Only set models on the Core if the app is **not** Component-based.
+
+Register models on the root Component or on single views of your apps.
+
+**Example:** `this.getView().setModel("myModel", aModel);` Do **not** use `sap.ui.getCore()` to register models.
+
+> Note:
+> To get the Component that owns an embedded view, you can use the following line of code in the view controller:
+> 
+> `sap.ui.core.Component.getOwnerComponentFor(this.getView());`
+> 
+> 
 

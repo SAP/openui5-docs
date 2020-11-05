@@ -634,7 +634,6 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [View Replacement](View_Replacement_98861cf.md)
             -   [Controller Replacement](Controller_Replacement_b0b14bf.md)
         -   [Localized Texts for Extended Apps](Localized_Texts_for_Extended_Apps_2edc3f9.md)
-        -   [Limitations](Limitations_73dcff6.md)
         -   [Caveats Regarding Stability Across Application Upgrades](Caveats_Regarding_Stability_Across_Application_Upgrades_aef3384.md)
         -   [Supportability](Supportability_c44813d.md)
     -   [Developing Controls](Developing_Controls_8dcab00.md)
