@@ -59,24 +59,9 @@ View.create({
 #### Synchronous Mode
 
 > Note:
-> We do **not** recommend this mode. Use the asynchronous mode instead.
+> We do **not** recommend to instantiate views synchronously. Use the asynchronous mode instead.
 > 
 > 
-
-The following code snippet creates a view instance, loads the view source, places the instance to the `uiArea`, and renders it later on.
-
-``` js
-var oController = sap.ui.controller("my.own.controller");
-var oView = sap.ui.view({
-    viewName: "my.own.view",
-    controller: " my.own.controller",
-    type: sap.ui.core.mvc.ViewType.XML
-});
-
-// the instance is available now
- oView.placeAt("uiArea");
-...
-```
 
 ***
 
