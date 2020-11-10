@@ -93,7 +93,7 @@ We chain the constructor call of the control to the standard method `placeAt` th
 
 All controls of OpenUI5 have a fixed set of properties, aggregations, and associations for configuration. You can find their descriptions in the Demo Kit. In addition, each controls comes with a set of public functions that you can look up in the API reference.
 
-Don’t forget to remove the “Hello World” `p`.
+Don’t forget to remove the “Hello World”.
 
 > Note:
 > Only instances of `sap.ui.core.Control` or their subclasses can be rendered stand-alone and have a `placeAt` function. Each control extends `sap.ui.core.Element` that can only be rendered inside controls. Check the API reference to learn more about the inheritance hierarchy of controls. The API documentation of each control refers to the directly known subclasses.

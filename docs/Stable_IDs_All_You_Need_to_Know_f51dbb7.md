@@ -42,11 +42,11 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Inline help tools
 
-    These tools display user assistance information directly in the app and depend on stable IDs \(example: Web Assistant\).
+    These tools display user assistance information directly in the app and depend on stable IDs \(example: [Web Assistant](https://enable-now.sap.com/ic/pub/int/index.html?show=group!GR_CF44F241F6233280#group!GR_FE31C8798B894A1)\).
 
 
 > Note:
-> Stable IDs are an important prerequisite for SAPUI5 flexibility services, automated testing, and inline help tools, such as Web Assistant. Apps with stable IDs are of high quality and offer customers more functionality. Therefore, we strongly recommend that you use stable IDs whenever possible \(some technical controls don't need stable IDs, such as `CustomData`\).
+> Stable IDs are an important prerequisite for SAPUI5 flexibility services, automated testing, and inline help tools, such as [Web Assistant](https://enable-now.sap.com/ic/pub/int/index.html?show=group!GR_CF44F241F6233280#group!GR_FE31C8798B894A1). Apps with stable IDs are of high quality and offer customers more functionality. Therefore, we strongly recommend that you use stable IDs whenever possible \(some technical controls don't need stable IDs, such as `CustomData`\).
 > 
 > 
 
