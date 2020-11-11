@@ -202,7 +202,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openu
 
 Editing properties of an entity sometimes causes side effects on other properties within the same or a related entity. Normally, a `PATCH` request which sends the user's input to the server includes side effects for the same entity \(if relevant for the UI\) within its response. Sometimes, however, an application needs more control on how and when this happens, or needs side effects on related entities as well.
 
-You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects when implicit loading is switched off via the binding-specific parameter `$$patchWithoutSideEffects`. This method must only be called on the bound context of a context binding, or on the return value context of an operation binding. Collection-valued navigation properites are fully supported, so an efficient request is sent instead of a simple refresh. The event `validateFieldGroup` provides a suitable point in time to request side effects after a certain group of fields has been changed. The annotation `com.sap.vocabularies.Common.v1.SideEffects` describes side effects and the API strikes a balance between the generic use based on this annotation and specific hard-coded uses. When requested from the V4 OData meta model, the annotations value looks as follows:
+You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects. This method can be called on the bound context of a context binding, a row context of a list binding, the header context of a list binding, or on the return value context of an operation binding. Collection-valued navigation properties are fully supported, so an efficient request is sent instead of a simple refresh. The `validateFieldGroup` event provides a suitable point in time to request side effects after a certain group of fields has been changed. Using the `validateFieldGroup` event allows to trigger the side effect request early enough, so that it is sent in the same batch request as the `PATCH` request. For more information, see [Field Groups](Field_Groups_5b07753.md). The API strikes a balance between the generic annotation-based use and specific hard-coded uses. The `TargetEntities` and `TargetProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation can be used directly as input for `sap.ui.model.odata.v4.Context#requestSideEffects`. Note that the OData V4 model does not evaluate the `SourceEntities` and`SourceProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation. When requested from the OData V4 meta model, the annotation value looks as follows:
 
 ``` json
 {
@@ -220,6 +220,8 @@ You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.
     }, ...]
 }
 ```
+
+Consider using the binding-specific `$$patchWithoutSideEffects` parameter when using `sap.ui.model.odata.v4.Context#requestSideEffects`. This parameter may be used to prevent the implicit loading of side effects with the `PATCH` response, see e.g. [sap.ui.model.odata.v4.ODataModel\#bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext)
 
 The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single array as parameter, namely the concatenation of `TargetEntities` and `TargetProperties`.
 

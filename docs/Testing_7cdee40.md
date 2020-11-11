@@ -22,30 +22,12 @@ Testing pyramid<a name="loio7cdee404cac441888539ed7bfe076e57__fig_u2g_t2y_2t"/>
 
 You can use a local test runner, such as Selenium or Karma, that automatically executes all tests whenever a file in the app project has been changed.
 
-### Recommended Tools
-
-#### OPA5
-
-We recommend OPA5 for integration tests. OPA5 is part of OpenUI5. It is built on top of QUnit and provides a good integration with OpenUI5.
-
-#### UIVeri5
-
-We recommend [UIVeri5](https://www.npmjs.com/package/@ui5/uiveri5) for system and end-to-end tests. UIVeri5 is an end-to-end testing framework inspired by Protractor.
-It is built exclusively for OpenUI5 applications. It uses WebDriverJS to drive a real browser and interact with your application as a real user would.
-
-
 **Related information**  
 
 
 [Tutorial: Testing](Testing_291c912.md)
 
 [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
-
-[Integration Testing with OPA5](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
-
-[Mock server](Mock_Server_3a9728e.md)
-
-[UIVeri5 Home Page](https://www.npmjs.com/package/@ui5/uiveri5)
 
 [Selenium Home Page](http://docs.seleniumhq.org/)
 

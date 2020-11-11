@@ -74,7 +74,8 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 | **Supports selection and highlighting** | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 
 1\) Microsoft Internet Explorer 11 has limited support for the underlying `display:grid` technology. Specific layouts are enabled for Internet Explorer 11. Microsoft Edge supports `display:grid` for versions above 16.  
- 2\) By using the `customLayout` aggregation. 3\) Two-dimensional keyboard navigation is supported. Users can navigate through the contained controls using the arrow keys.
+ 2\) By using the `customLayout` aggregation.  
+ 3\) Two-dimensional keyboard navigation is supported. Users can navigate through the contained controls using the arrow keys.
 
 **Related information**  
 
