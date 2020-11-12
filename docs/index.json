@@ -1117,6 +1117,9 @@
 												"items": {
 													"OData V4 Metadata JSON Format": {
 														"link": "OData_V4_Metadata_JSON_Format_87aac89.md"
+													},
+													"Additional Annotation Files": {
+														"link": "Additional_Annotation_Files_fd715d9.md"
 													}
 												}
 											},
@@ -1128,9 +1131,6 @@
 											},
 											"Changes Compared to OData V2 Model": {
 												"link": "Changes_Compared_to_OData_V2_Model_abd4d7c.md"
-											},
-											"Additional Annotation Files": {
-												"link": "Additional_Annotation_Files_fd715d9.md"
 											},
 											"Creating an Entity": {
 												"link": "Creating_an_Entity_c9723f8.md"
@@ -1700,8 +1700,8 @@
 							"Drag-and-Drop Metadata": {
 								"link": "Drag-and-Drop_Metadata_da7f3fc.md"
 							},
-							"Drag-and-Drop Limitations": {
-								"link": "Drag-and-Drop_Limitations_81e3f38.md"
+							"Drag-and-Drop Restrictions": {
+								"link": "Drag-and-Drop_Restrictions_81e3f38.md"
 							}
 						}
 					},

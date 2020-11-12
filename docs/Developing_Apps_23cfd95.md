@@ -50,7 +50,7 @@ Be sure to check out information about things that you really should avoid doing
 
 How you deploy your app when you're finished depends on the tools you use and the platform where your app is going to run. See the related documentation for details.
 
-For example, it's quite easy to deploy an app to SAP Cloud Platform with SAP Web IDE. For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
+For example, it's quite easy to deploy an app to SAP Cloud Platform with SAP Business Application Studio. For more information about SAP Business Application Studio, see the documentation on the SAP Help Portal at [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US).
 
 > Note:
 > For more information about packaging apps, read the blog post [Optimizing OpenUI5/SAPUI5 Apps](https://blogs.sap.com/2015/02/18/optimizing-openui5-apps/).
