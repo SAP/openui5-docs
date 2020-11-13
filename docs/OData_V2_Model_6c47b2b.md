@@ -82,7 +82,7 @@ http://services.odata.org/Northwind/Northwind.svc/$metadata
 
 The service metadata is cached per service URL. Multiple OData models that are using the same service can share this metadata.
 
-Only the first model instance triggers a `$metadata` request. A JSON representation of the service metadata can be accessed by calling the `getServiceMetadata()` method on an Odata model instance.
+Only the first model instance triggers a `$metadata` request. A JSON representation of the service metadata can be accessed by calling the `getServiceMetadata()` method on an OData model instance.
 
 ``` js
 
