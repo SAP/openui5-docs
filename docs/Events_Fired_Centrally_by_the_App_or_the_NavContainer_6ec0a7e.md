@@ -26,7 +26,7 @@ app.attachNavigate(function(evt) {
 
 ***
 
-### API References
+### API Reference
 
 -   [event:afterNavigate](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/afterNavigate)
 -   [event:navigate](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/navigate)

@@ -215,17 +215,13 @@ You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.
     "TargetEntities" : [{
         "$NavigationPropertyPath" : "DraftAdministrativeData"
     }, ...],
-    "TargetProperties" : [{
-        "$PropertyPath" : "DraftAdministrativeData/InProcessByUser"
-    }, ...]
+    "TargetProperties" : ["DraftAdministrativeData/*", ...]
 }
 ```
 
 Consider using the binding-specific `$$patchWithoutSideEffects` parameter when using `sap.ui.model.odata.v4.Context#requestSideEffects`. This parameter may be used to prevent the implicit loading of side effects with the `PATCH` response, see e.g. [sap.ui.model.odata.v4.ODataModel\#bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext). It can be set on context bindings and list bindings. If the parameter is not specified in a relative binding, the parameter value from the parent binding is used.
 
 The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single array as parameter, namely the concatenation of `TargetEntities` and `TargetProperties`.
-
-.
 
 ***
 
