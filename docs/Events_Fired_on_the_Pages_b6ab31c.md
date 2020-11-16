@@ -12,10 +12,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Events fired on the pages allow a decentral reaction to navigation.
 
-The `NavContainer` fires events to its child controls when they are displayed or when they are hidden.
+The `NavContainer` fires events to its child controls when they’re displayed or when they’re hidden.
 
 > Note:
-> Although this documentation calls them "pages" and a `sap.m.Page` control may be the typical child of a `NavContainer`, any full screen control can be used, for example, a `sap.m.Carousel` control or a custom control. The direct child controls often may be views. In this case, the events will be fired on the views, and not on a page control that may be contained in the view. Thus, the event is not fired **by** the child control, but by the `NavContainer` **on** the child control \(whatever type it is\). This causes the different registration compared to normal control events.
+> Although this documentation calls them "pages" and an `sap.m.Page` control is the typical child of a `NavContainer`, any full screen control can be used, for example, an `sap.m.Carousel` control or a custom control. The direct child controls often are views. In this case, the events are fired on the views, and not on a page control that is contained in the view. Thus, the event is not fired **by** the child control, but by the `NavContainer` **on** the child control \(whatever type it is\). This causes the different registration compared to normal control events.
 > 
 > 
 
@@ -48,9 +48,8 @@ page1.addEventDelegate({
 });
 ```
 
-***
+**Related information**  
 
-### API Reference
 
-[sap.m.NavContainerChild](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.NavContainerChild.html)
+[API Reference: `sap.m.NavContainerChild`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainerChild)
 

@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## App and Nav Container
 
-Apps are often composed of several pages and the user can drill-down to detail pages and go back up again. This is often visualized by horizontal slide animations. OpenUI5 supports this pattern by providing the **sap.m.App** and **sap.m.NavContainer** controls, which handle the navigation between the pages.
+Apps are often composed of several pages and the user can drill-down to detail pages and go back up again. This is often visualized by horizontal slide animations. OpenUI5 supports this pattern by providing the `sap.m.App` and `sap.m.NavContainer` controls, which handle the navigation between the pages.
 
 `sap.m.App` inherits the navigation capabilities from the `sap.m.NavContainer` control. Thus, both controls are equal with regard to navigation and navigation events. The following sections refer to the `sap.m.NavContainer`, but the same also applies to the `sap.m.App` control.
 
@@ -23,12 +23,10 @@ To support this, OpenUI5 provides two types of events:
 -   Events fired **on** the pages when they get shown or hidden by navigation.
 
 
-***
+**Related information**  
 
-### API References
 
--   [sap.m.App](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.App.html)
+[API Reference: `sap.m.App`](https://openui5.hana.ondemand.com/#/api/sap.m.App)
 
--   [sap.m.NavContainer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.NavContainer.html)
-
+[API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer)
 

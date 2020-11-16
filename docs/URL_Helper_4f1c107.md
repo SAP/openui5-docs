@@ -78,9 +78,8 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 > 
 > 
 
-***
+**Related information**  
 
-### API Reference
 
--   [sap.m.URLHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.URLHelper.html)
+[API Reference: `sap.m.URLHelper`](https://openui5.hana.ondemand.com/#/api/sap.m.URLHelper)
 

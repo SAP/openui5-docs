@@ -65,12 +65,6 @@ With this mode, you can switch the visual representation of the `GenericTile` fr
 
 ***
 
-### API Reference/Sample
-
-For more information about the `GenericTile` control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.GenericTile.html) in the Demo Kit and the [sample](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.GenericTile/samples) in the Demo Kit.
-
-***
-
 ### Constraints
 
 With SAPUI5 1.34, the following controls are moved from the `sap.suite.ui.commons` library to the `sap.m` library:
@@ -90,4 +84,11 @@ The following controls have not been transferred to the `sap.m` library and are 
 
 
 If you have already included one of these controls before SAPUI5 1.34, a wrapper ensures that the embedding still works for each control. To benefit from all enhancements and new features for one of these controls as of SAPUI5 1.34, you need to switch to the controls in the `sap.m` library. With SAPUI5 1.34, all these controls in the `sap.suite.ui.commons` library are marked as **deprecated**.
+
+**Related information**  
+
+
+[API Reference: `sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile)
+
+[Samples: `sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/entity/sap.m.GenericTile)
 

@@ -24,10 +24,10 @@ app.attachNavigate(function(evt) {
 });
 ```
 
-***
+**Related information**  
 
-### API Reference
 
--   [event:afterNavigate](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/afterNavigate)
--   [event:navigate](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/navigate)
+[API Reference event: `afterNavigate`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/afterNavigate)
+
+[API Reference event: `navigate`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/navigate)
 
