@@ -66,7 +66,7 @@ onInit : function () {
 
 ### notFound \(similar to an HTTP 404 "not found" status code\)
 
-The *not found* pages are implemented using a [sap.m.MessagePage](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.MessagePage/samples). They display an error message according to the SAP Fiori UX specifications. There are different "not found" cases that each have a separate target and a *notFound* view.
+The *not found* pages are implemented using an [`sap.m.MessagePage`](https://openui5.hana.ondemand.com/#/entity/sap.m.MessagePage). They display an error message according to the SAP Fiori UX specifications. There are different "not found" cases that each have a separate target and a *notFound* view.
 
 If you have the following URL, no route will match: `index.html/#/thisIsInvalid`. This means that the *notFound* view will be displayed, as the target *notFound* is defined in the bypassed section.
 
@@ -166,5 +166,5 @@ The routing configuration for this navigation flow is set up in the descriptor f
 
 ```
 
-For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md), the [sap.m.routing.Router](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html) section of the *API Reference* documentation in the Demo Kit, and the [sap.ui.core.routing.Router](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.routing.Router/sample) sample within the Demo Kit.
+For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md), the [`sap.m.routing.Router`](https://openui5.hana.ondemand.com/#/api/sap.m.routing.Router) section of the *API Reference* documentation in the Demo Kit, and the [`sap.ui.core.routing.Router`](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.routing.Router/sample) sample within the Demo Kit.
 

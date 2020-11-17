@@ -91,7 +91,7 @@ The following models are created as local JSON models in the app and can be refe
 
 -   **device**
 
-    The device model provides an easy access to the [sap.ui.Device](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.html) API and is used to configure certain view settings according to the user’s device.
+    The device model provides an easy access to the [sap.ui.Device](https://openui5.hana.ondemand.com/#/api/sap.ui.Device) API and is used to configure certain view settings according to the user’s device.
 
 -   **FLP**
 
@@ -113,9 +113,9 @@ The following models are created as local JSON models in the app and can be refe
 **Related information**  
 
 
-[Resource Bundle API](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
+[Resource Bundle API](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
 
-[ODataModel V2](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[ODataModel V2](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel)
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 

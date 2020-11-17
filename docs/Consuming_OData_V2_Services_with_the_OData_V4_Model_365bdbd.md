@@ -167,6 +167,12 @@ The remaining functions are unsupported because they have no equivalent in V2.
 
 ***
 
+#### $search
+
+Some OData V2 servers support $search. The query option is passed through unconverted.
+
+***
+
 #### OData V2 Annotations
 
 Following V2 \(attributes with namespace [http://www.sap.com/Protocols/SAPData](http://www.sap.com/Protocols/SAPData)\) annotations are converted to corresponding V4 annotations \(see OData V2 Model -\> Meta Model for OData V2 -\>[Enhancement of the OData Meta Model](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2__Enhancement)\).

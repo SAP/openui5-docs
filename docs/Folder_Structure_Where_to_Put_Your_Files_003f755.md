@@ -18,7 +18,7 @@ The details described here represent a best practice for structuring an applicat
 
 The 3 main folders in an application are the `root` folder, the `webapp` folder and the `test` folder. Regarding their structure, the `webapp` folder should be inside the `root` folder, and the `test` folder should be located inside the `webapp` folder, as shown below:
 
- ![](loio088cd622186b47539d4e69cc745b0017_LowRes.png) 
+ ![](loio088cd622186b47539d4e69cc745b0017_HiRes.png) 
 
 > Note:
 > The image above shows a screenshot taken from SAP Web IDE, and is only meant to serve as an example. This applies to all images contained within this topic.
@@ -49,13 +49,13 @@ Aside from the `test` folder, the `webapp` folder contains 3 folders related to 
 
 For standalone app, this folder also contains an `index.html` file that is used to start the app and to instantiate the component. If your apps is built for the SAP Fiori launchpad no `index.html` file is created but only files for testing the app in the FLP sandbox.
 
- ![](loio5d11418f5cdf4eac85c9dc7784a97df1_LowRes.png) 
+ ![](loio5d11418f5cdf4eac85c9dc7784a97df1_HiRes.png) 
 
 **The `view` Folder**
 
 In the `view` folder, you should put all OpenUI5 **views** and **fragments**. This folder should not contain any application logic, so no JavaScript files unless you are using JavaScript views. JavaScript views are not recommended because it is easier to mix controller logic when building up a view. In declarative views this is not possible. In the example shown below, the `view` folder contains a mixture of views and fragments. If this folder gets too big, you might consider adding subfolders to group views by their semantics. In this example for instance, you could add a `detail` folder and move all views that are related to the detail area of your application to this subfolder.
 
- ![](loiod5340cbbd7ae423db38ed4b8b236daf2_LowRes.png) 
+ ![](loiod5340cbbd7ae423db38ed4b8b236daf2_HiRes.png) 
 
 For more information about views and fragments, see [Views](Views_91f27e3.md) and [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md) respectively.
 
@@ -63,13 +63,13 @@ For more information about views and fragments, see [Views](Views_91f27e3.md) an
 
 The `controller` folder contains all the controllers used by your views, and might also contain additional logic files that are used by one or more controllers. The structure of the `controller` folder should mirror the `view` folder. If a view is in a subfolder, the controller of the view should also be in the corresponding subfolder.
 
- ![](loio0e935c5607ed4ca3bf910ff267416245_LowRes.png) 
+ ![](loio0e935c5607ed4ca3bf910ff267416245_HiRes.png) 
 
 **The `model` Folder**
 
 The `model` folder is where you put any files needed for creating models and logic relating to model data. This includes grouping, filtering and formatting data.
 
- ![](loiof990b6e5f10c4386835d49495dc4259c_LowRes.png) 
+ ![](loiof990b6e5f10c4386835d49495dc4259c_HiRes.png) 
 
 In the above example, `models.js` is a factory for creating models that are used by our application.
 
@@ -86,7 +86,7 @@ We also have one dedicated folder for **localization** files. An OpenUI5 app wil
 
 The `localService` folder is used to emulate OData services for tests or as a preview mode for your application. It is also intended for design-time tools since it contains the `metadata.xml` file, which describes the backend connection of your application. You need to have one `metadata.xml` file per OData service, which exactly matches the remote service’s metadata. The location of this file also needs to be maintained in the data sources section of the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
 
- ![](loio00728aff82c54419b1d7acd61c76455f_LowRes.png) 
+ ![](loio00728aff82c54419b1d7acd61c76455f_HiRes.png) 
 
 For integration tests, it is helpful if you are able to mock your backend with stable data. A second use case for this is for running an application in a **preview** mode so that it serves data locally instead of connecting to a backend. This is why this folder also contains files necessary for starting up a mock server. The data served by the mock server is put inside the `mockdata` folder. If you need to, you can also include multiple sets of mock data here, by giving each set its own folder. For more information about mock servers, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html) in the Demo Kit.
 
@@ -96,15 +96,15 @@ For integration tests, it is helpful if you are able to mock your backend with s
 
 | `test` folder for apps that are build for the SAP Fiori launchpad | `test` folder for standalone apps|
 |-------------------------------------------------------------------|----------------------------------|
-| ![](loio47df579be48843118dc65db4e261c33b_LowRes.png) | ![](loio9f45b87b36ba47de8d30f1a20f320b85_LowRes.png) |
+| ![](loio47df579be48843118dc65db4e261c33b_HiRes.png) | ![](loio9f45b87b36ba47de8d30f1a20f320b85_HiRes.png) |
 
 The `test` folder contains three sets of files: files related to unit tests, files related to integration tests, and html files for either launching the tests or for testing the application manually. Inside the `unit` folder, the structure of the `webapp` folder is replicated for the files that are being tested.
 
- ![](loio7958ae4e55c6419b90320a45cbcc72ae_LowRes.png) 
+ ![](loio7958ae4e55c6419b90320a45cbcc72ae_HiRes.png) 
 
 In this example shown above, the files being tested are `webapp/model/formatter.js` and `webapp/model/models.js`. You may be using JavaScript files or html files to run your tests, depending on the runners you are executing your tests with. We recommend using `.js` files for writing your tests, so that you can run them with tools such as karma for instance.
 
- ![](loio05316ff7b0c94c00afc68f25a67ee4cf_LowRes.png) 
+ ![](loio05316ff7b0c94c00afc68f25a67ee4cf_HiRes.png) 
 
 The `integration` folder contains the OPA tests of your application. We decided to separate our unit and integration tests, since the execution time of the integration tests is much longer. While the unit tests run in less than 10 seconds, the integration tests run for over 2 minutes. These times will vary a lot depending on the size of your project. If the project grows and grows, the difference in the execution time will also grow. For this reason, we recommend making both kind of tests separately executable so that developers can choose which sets of tests they want to run during design time.
 

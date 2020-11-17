@@ -30,7 +30,7 @@ Screenshot of the Worklist App<a name="loioa77f2d29299247f8a3e30226507b1765__fig
 
  ![](loio2c7e3b552825426d8840c83a6b0b029e_HiRes.png "Screenshot of the Worklist App") 
 
-The *Worklist* view is the main view that is initially displayed in this app. When a user clicks or taps an item in the table, the *Object* view is displayed, showing more details for the selected item. We use the semantic `FullscreenPage` control as the page for both. A `SemanticPage` is an enhanced `sap.m.Page` that contains controls with a semantic meaning and displays them according to the SAP Fiori Design Guidelines, for example. For more details about semantic controls, see the [sample](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.semantic.SemanticPage/samples) in the Demo Kit.
+The *Worklist* view is the main view that is initially displayed in this app. When a user clicks or taps an item in the table, the *Object* view is displayed, showing more details for the selected item. We use the semantic `FullscreenPage` control as the page for both. A `SemanticPage` is an enhanced `sap.m.Page` that contains controls with a semantic meaning and displays them according to the SAP Fiori Design Guidelines, for example. For more details about semantic controls, see the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.semantic.SemanticPage) in the Demo Kit.
 
 The table in the *Worklist* view displays a header area that shows the current amount of items in the worklist and a search field. The number of items are updated automatically and the search filters for a preconfigured column of the table.
 
