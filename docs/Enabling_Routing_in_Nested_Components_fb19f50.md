@@ -55,9 +55,9 @@ Use the following configuration to load the component from the target:
 
 -   `usage`: Use the key of the component usage as used in the the `componentUsages` section of the parent component's `manifest.json`.
 
--   `options` \(optional\): Add additional options that are merged with the options defined in the `componentUsage` section, see [sap.ui.core.UIComponent](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.UIComponent.html).
+-   `options` \(optional\): Add additional options that are merged with the options defined in the `componentUsage` section, see [sap.ui.core.UIComponent](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent).
 
--   `containerOptions` \(optional\): Add additional options that are passed to the constructor of the component container where the component is rendered, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ComponentContainer.html).
+-   `containerOptions` \(optional\): Add additional options that are passed to the constructor of the component container where the component is rendered, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
 
 
 ``` js

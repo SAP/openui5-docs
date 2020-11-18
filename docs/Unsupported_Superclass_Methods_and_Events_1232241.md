@@ -18,29 +18,29 @@ Unsupported Methods<a name="loio1232241b99d7437ba3614698d53dfa4b__table_yby_zws_
 
 |Class|Method|
 |-----|------|
-| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html) in the Demo Kit\)| `bindTree` `getOriginalProperty` `isList` `refresh` `setLegacySyntax` |
-| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html) in the Demo Kit\)| `bindTree` `destroyBindingContext` `getObject` `getOriginalProperty` `getProperty` `isList` `setLegacySyntax` |
-| **sap.ui.model.odata.v4.ODataContextBinding** \(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
-| **sap.ui.model.odata.v4.ODataListBinding** \(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html) in the Demo Kit\)| `getDistinctValues` `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
-| **sap.ui.model.odata.v4.ODataPropertyBinding** \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` `setValue` \(limited support only\) `suspend` |
+| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)| `bindTree` `getOriginalProperty` `isList` `refresh` `setLegacySyntax` |
+| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)| `bindTree` `destroyBindingContext` `getObject` `getOriginalProperty` `getProperty` `isList` `setLegacySyntax` |
+| **sap.ui.model.odata.v4.ODataContextBinding** \(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
+| **sap.ui.model.odata.v4.ODataListBinding** \(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)| `getDistinctValues` `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
+| **sap.ui.model.odata.v4.ODataPropertyBinding** \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` `setValue` \(limited support only\) `suspend` |
 
 Unsupported Events<a name="loio1232241b99d7437ba3614698d53dfa4b__table_ccv_gys_xv"/>
 
 |Class|Event|
 |-----|-----|
-| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
-| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
+| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
+| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
 
 **Related information**  
 
 
-[sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
+[sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel)
 
-[sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html)
+[sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel)
 
-[sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding)
 
-[sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html)
+[sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding)
 
-[sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html)
+[sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding)
 

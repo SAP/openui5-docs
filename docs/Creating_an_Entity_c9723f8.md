@@ -97,5 +97,5 @@ The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/
 
 [sap.ui.model.odata.v4.Context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context)
 
-[sap.ui.core.message.MessageManager](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageManager.html)
+[sap.ui.core.message.MessageManager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager)
 

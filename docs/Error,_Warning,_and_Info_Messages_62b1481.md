@@ -62,19 +62,19 @@ You can also create messages manually or extend the messaging features provided 
 **Related information**  
 
 
-[API Reference: `sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.Message.html)
+[API Reference: `sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message)
 
-[API Reference: `sap.ui.core.MessageType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.MessageType.html)
+[API Reference: `sap.ui.core.MessageType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.MessageType)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageManager.html)
+[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager)
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.message.MessageModel.html)
+[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.message.MessageModel)
 
-[API Reference: `sap.ui.core.message.MessageParser`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageParser.html)
+[API Reference: `sap.ui.core.message.MessageParser`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageParser)
 
-[API Reference: `sap.ui.core.message.MessageProcessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageProcessor.html)
+[API Reference: `sap.ui.core.message.MessageProcessor`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageProcessor)
 
-[API Reference: `sap.ui.core.message.ControlMessageProcessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.ControlMessageProcessor.html)
+[API Reference: `sap.ui.core.message.ControlMessageProcessor`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.ControlMessageProcessor)
 
-[API Reference: `sap.ui.model.Model`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Model.html)
+[API Reference: `sap.ui.model.Model`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Model)
 

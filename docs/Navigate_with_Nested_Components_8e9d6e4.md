@@ -23,7 +23,7 @@ To use the `navTo` method for navigation with nested components, you need to cal
 -   Information, whether the current browser hash is replaced or a or a new hash entry is set \(optional\)
 
 
-For more information, [`sap.ui.core.routing.Router.navTo`](https://openui5.hana.ondemand.com//#/api/sap.ui.core.routing.Router/methods/navTo) in the API Reference.
+For more information, [`sap.ui.core.routing.Router.navTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router/methods/navTo) in the API Reference.
 
 The call triggers the following actions in the given order:
 

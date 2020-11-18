@@ -36,15 +36,15 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Metadata paths need to refer to the V4 metadata JSON structure.
 
--   Note the difference between `"/TEAMS@Org.OData.Capabilities.V1.TopSupported"` and `"/TEAMS/@com.sap.vocabularies.Common.v1.Deletable"` \(look closely at the slash!\), see [ODataMetaModel.requestObject](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html%23requestObject).
+-   Note the difference between `"/TEAMS@Org.OData.Capabilities.V1.TopSupported"` and `"/TEAMS/@com.sap.vocabularies.Common.v1.Deletable"` \(look closely at the slash!\), see [ODataMetaModel.requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel%23requestObject).
 
--   Use [`sap.ui.model.odata.v4.AnnotationHelper`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.AnnotationHelper.html) instead of `sap.ui.model.odata.AnnotationHelper`. The ability to follow a path has been built into the V4 OData meta model itself. See `field>Value/$Path@com.sap.vocabularies.Common.v1.Label` in the code example below. Instead of `sap.ui.model.odata.AnnotationHelper.format`, you can use `sap.ui.model.odata.v4.AnnotationHelper.value` or `sap.ui.model.odata.v4.AnnotationHelper.format`. You can use both as a computed annotation.
+-   Use [`sap.ui.model.odata.v4.AnnotationHelper`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper) instead of `sap.ui.model.odata.AnnotationHelper`. The ability to follow a path has been built into the V4 OData meta model itself. See `field>Value/$Path@com.sap.vocabularies.Common.v1.Label` in the code example below. Instead of `sap.ui.model.odata.AnnotationHelper.format`, you can use `sap.ui.model.odata.v4.AnnotationHelper.value` or `sap.ui.model.odata.v4.AnnotationHelper.format`. You can use both as a computed annotation.
 
 -   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@sap.ui.model.odata.v4.AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function in the global namespace which computes an annotation value from the metadata addressed by the preceding path. For more information, see [ODataMetaModel.requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) .
 
 -   Ensure that the view is loaded asynchronously. In this case, there is no longer a need to preload metadata, because the template processor waits for every binding to be resolved before proceeding.
 
--   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html%23createBindingContext) .
+-   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) .
 
 > Note:
 > The single hash separator is deprecated since 1.52

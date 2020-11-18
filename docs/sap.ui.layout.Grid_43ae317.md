@@ -136,9 +136,9 @@ In addition to individual span and indentation, there is a large number of prope
 **Related information**  
 
 
-[API Reference: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.layout.Grid)
+[API Reference: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid)
 
-[API Reference: `sap.ui.layout.GridData`](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.layout.GridData)
+[API Reference: `sap.ui.layout.GridData`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.GridData)
 
 [Samples: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.Grid)
 

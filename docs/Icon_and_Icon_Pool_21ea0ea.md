@@ -158,7 +158,7 @@ If you use the icon by creating an instance of `Icon` within your control, howev
 You can consume the predefined `SAP-icons` icon font also in an environment where UI5 isn't available. An integration could look like the following:
 
 -   Load the font-face declaration for the UI5 icon font in your HTML page.
--   Find the icon that fits your need via the [UI5 Icon Explorer Tool](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
+-   Find the icon that fits your need via the [OpenUI5 Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
 -   Use a CSS class with the character escape of the icon's unicode identifier and assign it to a "span" element.
 
     ``` html

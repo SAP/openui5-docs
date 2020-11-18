@@ -229,7 +229,7 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
  -   `library`: use if your `manifest.json` describes a **UI5 library**. For further library-specific configuration options, see [Descriptor for Libraries](Descriptor_for_Libraries_b229914.md).
 
- -   `card`: use if your `manifest.json` describes a **UI5 card**. For further card-specific configuration options, see[Integration Cards](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/overview/introduction).
+ -   `card`: use if your `manifest.json` describes a **UI5 card**.For further card-specific configuration options, see [Integration Cards](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/overview/introduction).
 			</td>
 		</tr>
 		<tr>

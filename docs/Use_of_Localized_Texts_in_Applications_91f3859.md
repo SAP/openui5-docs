@@ -175,7 +175,7 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 
 After the instance has been created, you have a model containing the resource bundle texts as data.
 
-For a complete overview of available methods and parameters, see [`ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html) in the *API Reference* in the Demo Kit
+For a complete overview of available methods and parameters, see [`ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel) in the *API Reference* in the Demo Kit
 
 **Related information**  
 

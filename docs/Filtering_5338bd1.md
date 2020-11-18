@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The OData V4 Model supports server side filtering on lists.
 
-To use server side filtering, set the operation mode to [sap.ui.model.odata.OperationMode.Server](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.OperationMode/properties). This can be done as follows:
+To use server side filtering, set the operation mode to [`sap.ui.model.odata.OperationMode.Server`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.OperationMode/properties). This can be done as follows:
 
 -   For a single `ODataListBinding` instance, set the binding parameter `$$operationMode`
 

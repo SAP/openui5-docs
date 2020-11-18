@@ -24,5 +24,5 @@ The mock server provides mock services and also mock data. It supports randomly 
 **Related information**  
 
 
-[sap.ui.core.util.MockServer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html)
+[sap.ui.core.util.MockServer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.MockServer)
 

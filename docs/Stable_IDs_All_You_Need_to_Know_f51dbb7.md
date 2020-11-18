@@ -181,7 +181,7 @@ new Shell({
 ```
 
  > Note:
-> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ComponentContainer.html).
+> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
 > 
 > 
 
@@ -281,7 +281,7 @@ Fragment.load({
 Choose names for your stable IDs that describe the semantics of your views and controls, such as *page* or *table*.
 
 > Note:
-> For the allowed sequence of characters, see the [namespace sap.ui.core.ID](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ID.html). But bear in mind not use hyphens \(-\) as separators in your names as they would interfere with the ones that are added automatically by the framework.
+> For the allowed sequence of characters, see the [namespace sap.ui.core.ID](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ID). But bear in mind not use hyphens \(-\) as separators in your names as they would interfere with the ones that are added automatically by the framework.
 > 
 > 
 

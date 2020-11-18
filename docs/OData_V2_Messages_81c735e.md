@@ -168,13 +168,13 @@ If the change operation fails, a UI message is created. But this UI message is d
 **Related information**  
 
 
-[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageManager.html)
+[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager)
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.message.MessageModel.html)
+[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.message.MessageModel)
 
-[API Reference: `sap.ui.mode.odata.ODataMessageParser`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.ODataMessageParser.html)
+[API Reference: `sap.ui.mode.odata.ODataMessageParser`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataMessageParser)
 
 [Server Messages in OData V4 Model](Server_Messages_in_OData_V4_Model_fbe1cb5.md)
 

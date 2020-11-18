@@ -84,11 +84,6 @@ Two scenarios are supported:
 > 
 > 
 
-> Note:
-> The grand total calculation is currently only supported for the standard aggregation functions `sum`, `min`, and `max` as well as for custom aggregates that use these functions. This also applies to displaying subtotals of group levels.
-> 
-> 
-
 ***
 
 <a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_igs_pyd_tkb"/>

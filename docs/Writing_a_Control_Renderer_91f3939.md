@@ -71,7 +71,7 @@ The render manager class collects pieces of HTML and injects the generated marku
 |`writeControlData()` |Writes the ID and the recognition data of the control to the HTML|
 |`renderControl()` |Converts the specified control into HTML representation and adds it to the HTML; used for rendering child controls|
 
-For more information, see [sap.ui.core.RenderManager](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.RenderManager.html).
+For more information, see [sap.ui.core.RenderManager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager).
 
 ***
 

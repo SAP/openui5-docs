@@ -52,7 +52,7 @@ Configuration Options for Terminologies<a name="loioeba8d25a31ef416ead876e091e67
 
 The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
 
-The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html) demo application in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
+The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)*Shop Administration Tool* demo app in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
 
 The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does not derive directly from the main resource bundle as you might think, but from the first enhancement. The list of resource bundle configurations provided with the `enhanceWith` attribute can be seen as an incremental list of derivations for resource bundles that starts from the main bundle. If there was a third enhancing bundle, it would derive from the second bundle, which in turn derives from the first enhancement, and so on:
 
@@ -196,5 +196,5 @@ A third option is to provide the list of active terminologies \(also comma-separ
 
 [API Reference: sap/base/i18n/ResourceBundle](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
 
-[Shop Administration Tool demo application](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)
+[Shop Administration Tool demo app](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)
 

@@ -38,7 +38,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 [Resource Bundles](Resource_Bundles_91f225c.md)
 
-[API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
+[API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
 
  <a name="loio91f122a36f4d1014b6dd926db0e91070 loiof05c6f2cf18241cbbb2b126989108765__loiof05c6f2cf18241cbbb2b126989108765"/>
 

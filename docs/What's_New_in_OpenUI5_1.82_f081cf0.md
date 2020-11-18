@@ -46,7 +46,7 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entit
 
 | **Five New Icons Available in the *SAP Fiori Tools* Icon Font**  ![](loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png) 
 
- Find the icon that fits your needs via the [UI5 Icon Explorer Tool](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).|
+ Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>

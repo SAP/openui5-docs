@@ -33,21 +33,20 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 ### Browser and Platform Support Matrix
 
-|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer<sup>2</sup>|Microsoft Edge \(EdgeHTML\)<sup>3</sup>|Microsoft Edge \(Chromium\)<sup>4</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
-|--------|---------------|----------------|------|--------|-----------------------------|---------------------------------------|---------------------------------------|-------------|---------------|----------------|
-|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>5</sup>|-|-|Latest version|Latest version and Extended Support Release \(ESR\)|-|
-|Windows 10|-|Latest version|Latest 2 versions|Latest version|-|
-|Touch<sup>6</sup>|Windows 10|-|Latest version|Version 11<sup>5</sup>|Latest 2 versions|Latest version|Latest version|Latest version|
-|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|-|Latest version<sup>6</sup>|-|-|
-|iOS|Phone and Tablet<sup>6</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|-|Latest version|
-|Android|Phone and Tablet<sup>6</sup>|As of version 5|-|-|-|-|-|Latest version|-|Latest version|
+|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
+|--------|---------------|----------------|------|--------|-----------------------------|---------------------------------------|-------------|---------------|----------------|
+|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>4</sup>|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|-|
+|Windows 10|-|Latest version|-|
+|Touch<sup>5</sup>|Windows 10|-|Latest version|Version 11<sup>4</sup>|Latest version|Latest version|Latest version|
+|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|Latest version<sup>5</sup>|-|-|
+|iOS|Phone and Tablet<sup>5</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|Latest version|
+|Android|Phone and Tablet<sup>5</sup>|As of version 5|-|-|-|-|Latest version|-|Latest version|
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
  2\) For the upcoming end of support for Microsoft Internet Explorer 11 in OpenUI5, see section [End of Support for Microsoft Internet Explorer 11 in Future OpenUI5 Versions](Browser_and_Platform_Support_74b59ef.md#loio74b59efa0eef48988d3b716bd0ecc933__MS_IE).  
- 3\) OpenUI5 1.84 is the last version of OpenUI5 that supports Microsoft Edge \(EdgeHTML\). Microsoft Edge \(EdgeHTML\) support stops on all OpenUI5 versions on March 9, 2021 \(official end of support by Microsoft\).  
- 4\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
- 5\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
- 6\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+ 3\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
+ 4\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
+ 5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***
@@ -66,7 +65,7 @@ In case you have some legacy applications and you still need Microsoft Internet 
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__section_n3t_dns_hnb"/>
 
-### Supported Reference Devices
+### Supported Reference Devices on iOS and Android
 
 For mobile operating systems, support is restricted to specific reference devices.
 
@@ -97,9 +96,6 @@ When creating support incidents, make sure that the device you refer to belongs 
 |Samsung Galaxy Tab S6|August 2022|
 |Samsung Galaxy Tab S6 Lite|July 2023|
 |Samsung Galaxy Tab S7|August 2023|
-|Windows OpenUI5 supports Microsoft Surface Pro reference devices until 3 years from vendor device release date, except defined otherwise.|Microsoft Surface Pro 6|October 2021|
-|Microsoft Surface Pro 7|October 2022|
-|Microsoft Surface Pro X|November 2022|
 
 ***
 
@@ -109,7 +105,9 @@ When creating support incidents, make sure that the device you refer to belongs 
 
     -   Internet Explorer 11 \(IE11\) provides specific document and enterprise modes for compatibility reasons. OpenUI5 supports only the IE11 document mode. For backward compatibility, IE11 allows to enable a special enterprise mode that can simulate either an IE8 or IE7 within an IE11, which is NOT supported for OpenUI5 apps. This functionality should be used only for critical apps that require an older browser version to run. For more information, see "[Fix web compatibility issues using document modes and the Enterprise Mode site list](https://technet.microsoft.com/itpro/internet-explorer/ie11-deploy-guide/fix-compat-issues-with-doc-modes-and-enterprise-mode-site-list)" in the Microsoft Windows IT Center.
 
-    -   The PhantomJS browser is not supported.
+    -   Microsoft Edge \(EdgeHTML\) is not supported.
+
+    -   PhantomJS is not supported.
 
 -   **`sap.m`**
     -   For the **maxLines** property of the `sap.m.Text` control, multiline ellipsis handling is not supported for all browsers and devices and is not supported at all for right-to-left text direction. For more information, see [Visual Degradations](Visual_Degradations_f08f296.md).
