@@ -73,9 +73,7 @@ When creating support incidents, make sure that the device you refer to belongs 
 
 |Platform|Device|End of Support Date|
 |--------|------|-------------------|
-|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone 8|September 2020|
-|Apple iPhone X|November 2020|
-|Apple iPhone XS|September 2021|
+|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone XS|September 2021|
 |Apple iPhone XR|October 2021|
 |Apple iPhone 11|September 2022|
 |Apple iPhone SE \(2nd\)|April 2023|

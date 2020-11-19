@@ -258,7 +258,7 @@ Example: The `myModule` module is loaded via a script tag. Instead, use a `sap.u
 
 ### How can I remove project structures with cyclic dependencies?
 
-When you use cyclic dependencies in the project structure, the module dependencies cannot be resolved. The UI5 module loade detects the cycle and returns an undefined value instead of the correct module export.
+When you use cyclic dependencies in the project structure, the module dependencies cannot be resolved. The UI5 module load detects the cycle and returns an undefined value instead of the correct module export.
 
 As an exception, in specific scenarios, you may make the involved modules robust enough to handle undefined module exports at module callback execution time and use the export value via probing later. However, if you use the async variant of the loader, all modules that belong to a cycle must be able to handle undefined exports.
 
