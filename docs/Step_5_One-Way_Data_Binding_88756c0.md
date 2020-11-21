@@ -52,7 +52,7 @@ sap.ui.require([
 
 *HIGHLIGHT START*		oModel.setDefaultBindingMode(BindingMode.OneWay);
 
-*HIGHLIGHT END*tml
+*HIGHLIGHT END*
 		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
 
