@@ -52,6 +52,9 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 25|\>=1.80|1.24.0|
 |Version 26|\>=1.81|1.25.0|
 |Version 27|\>=1.82| |
+|Version 28|\>=1.83 \(OpenUI5 1.83 was not released, see [2979657](https://launchpad.support.sap.com/#/notes/2979657)\)| |
+|Version 29|\>=1.84| |
+|Version 30|\>=1.85| |
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -257,23 +260,23 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 		</tr>
 		<tr>
 			<td> `title` </td>
-			<td>Mandatory attribute; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
+			<td>Mandatory attribute; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `subTitle` </td>
-			<td>Subtitle; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
+			<td>Subtitle; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `shortTitle` </td>
-			<td>Short version of the title; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
+			<td>Short version of the title; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `info` </td>
-			<td>Needed for CDM \(Common Data Model\) conversion of tiles; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
+			<td>Needed for CDM \(Common Data Model\) conversion of tiles; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `description` </td>
-			<td>Description; this property is language dependent and, therefore, a key in double curly brackets must be used: `{{key}}` </td>
+			<td>Description; to make this property language dependent \(recommended\), use a key in double curly brackets: `{{key}}` </td>
 		</tr>
 		<tr>
 			<td> `tags` </td>
@@ -555,7 +558,7 @@ Current version of the `manifest.json`
 ```collapsible
 
 {
-    "_version": "1.28.0",
+    "_version": "1.29mi.0",
  
     "start_url": "index.html",
  
@@ -645,7 +648,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.84.0",
+            "minUI5Version": "1.85.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
