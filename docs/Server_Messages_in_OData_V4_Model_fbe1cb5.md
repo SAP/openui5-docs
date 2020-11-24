@@ -196,6 +196,68 @@ The attribute `technicalDetails.originalMessage` of the message in the message m
 
 The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed. In case of a 412 status code, additionally `technicalDetails.isConcurrentModification` is set to `true`, as in the case of  [sap.ui.model.odata.v4.Context\#delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete), which also uses this flag for the error instance that is used to reject its returned promise.
 
+***
+
+<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_highlighting_table_rows"/>
+
+### Highlighting Table Rows with Messages
+
+To highlight table rows based on the criticality of the messages for that entity you need to add a formatter inside the controller code. Let's assume we have a view with the following `sap.m.Table` or `sap.ui.table.Table`:
+
+> Note:
+> Highlight a table row
+> 
+> ``` xml
+> <!-- m.Table -->
+> <Table items="{/SalesOrderList}">
+>     <columns>
+>         ...
+>     </columns>
+>     <ColumnListItem id="row">
+>         ...
+>     </ColumnListItem>
+> </Table>
+>  
+> <!-- table.Table -->
+> <table:Table rows="{/SalesOrderList}">
+>     <table:rowSettingsTemplate>
+>         <t:RowSettings id="row"/>
+>     </t:rowSettingsTemplate>
+> </table:Table>
+> ```
+> 
+> 
+
+Let `messageModel` be the named message model. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippet demonstrates binding and formatter:
+
+> Note:
+> Formatter to highlight a table row
+> 
+> ``` js
+> this.byId("row").bindProperty("highlight", {
+>     formatter: function () {
+>         var aMessages,
+>             //formatter MUST be defined in a way that this is the control!
+>             oRowContext = this.getBindingContext();
+>  
+>         if (oRowContext) { // formatter is called with oRowContext null initially
+>             aMessages = oRowContext.getMessages();
+>             return aMessages.length ? aMessages[0].type : sap.ui.core.MessageType.None;
+>         }
+>     },
+>     parts: [
+>         'messageModel>/',
+>         { // ensure formatter is called on scrolling
+>             mode: 'OneTime',
+>             path: '',
+>             targetType: 'any'
+>         }
+>     ]
+> });
+> ```
+> 
+> 
+
 **Related information**  
 
 

@@ -17,7 +17,7 @@ The following sections describe what SAP can change in major, minor, and patch r
 > 
 > -   Never manipulate HTML/CSS via JavaScript \(`domRef.className = "someCSSClass";`\) or directly via CSS, for example. Always follow our recommendations under [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md).
 > 
-> -   Never use or override "private" functions that are not part of the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui). Private functions are typically \(but not always\) prefixed with a preceding "\_". Always double-check the API Reference, private functions are not listed there.
+> -   Never use or override "private" functions that are not part of the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html). Private functions are typically \(but not always\) prefixed with a preceding "\_". Always double-check the API Reference, private functions are not listed there.
 > 
 > 
 > 
@@ -28,7 +28,7 @@ The following sections describe what SAP can change in major, minor, and patch r
 
 ### API Evolution
 
-Unless otherwise mentioned, the word "API" in this section refers to "public API", meaning functions, classes, namespaces, controls along with their declared properties, aggregations, and so on. The sole definition of the public API is the  [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui), which is included in the OpenUI5 Demo Kit. Features that are **not** mentioned there are **not** part of the API.
+Unless otherwise mentioned, the word "API" in this section refers to "public API", meaning functions, classes, namespaces, controls along with their declared properties, aggregations, and so on. The sole definition of the public API is the  [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html), which is included in the OpenUI5 Demo Kit. Features that are **not** mentioned there are **not** part of the API.
 
 The following rules apply for introducing new APIs or making incompatible changes to existing APIs:
 
@@ -122,7 +122,7 @@ SAP might add, remove, or change the internal implementation of the parent class
 
 -   Any internal logic and behavior of the object that is not reflected in the public API
 
--   The parent hierarchy of objects especially for composites where the API parent differs from the real parent \(e.g. parent object \> internal object \> child object\). For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject). 
+-   The parent hierarchy of objects especially for composites where the API parent differs from the real parent \(e.g. parent object \> internal object \> child object\). For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.ManagedObject.html). 
 
 -   All rendering functionality of a control, including the HTML structure and CSS classes
 
@@ -171,12 +171,12 @@ If you want to use the third-party open source libraries included in OpenUI5, no
 > 
 > 
 
-For a list of the third-party open source software used in OpenUI5, see the section under *OpenUI5 Subcomponents* on the [License](https://openui5.hana.ondemand.com/LICENSE.txt) page of the Demo Kit.
+For a list of the third-party open source software used in OpenUI5, see the section under *OpenUI5 Subcomponents* on the *License* page of the Demo Kit.
 
 **Related information**  
 
 
 [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
 
-[API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui)
+[API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html)
 
