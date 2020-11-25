@@ -29,7 +29,7 @@ An input field and a description displaying the value of the input field \(No vi
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.09/preview).  
+You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).  
   
 Folder Structure for this Step<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>
 
@@ -104,7 +104,7 @@ sap.ui.define([
 
 ```
 
-The `Component.js` file consists of two parts now: The new `metadata` section that simply defines a reference to the root view and the previously introduced `init` function that is called when the component is initialized. Instead of displaying the root view directly in the `index.html` file as we did previously, the component will now manage the display of the app view.
+The `Component.js` file consists of two parts now: The new `metadata` section that simply defines a reference to the root view and the previously introduced `init` function that is called when the component is initialized. Instead of displaying the root view directly in the `index.js` file as we did previously, the component will now manage the display of the app view.
 
 In the `init` function we instantiate our data model and the `i18n` model like we did before in the app controller. Be aware that the models are directly set on the component and not on the root view of the component. However, as nested controls automatically inherit the models from their parent controls, the models will be available on the view as well.
 
@@ -174,9 +174,9 @@ We now create a component container instead of the view in our `index.js` that i
 
 [Components](Components_958ead5.md)
 
-[API Reference: `sap.ui.core.mvc.ViewType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.ViewType.html)
+[API Reference: `sap.ui.core.mvc.ViewType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)
 
-[Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.mvc.ViewType/samples)
+[Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.ViewType)
 
 [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
 

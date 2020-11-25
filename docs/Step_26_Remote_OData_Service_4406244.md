@@ -78,6 +78,11 @@ You can view and download all files at [Walkthrough - Step 26](https://openui5.h
 
 In the `sap.app` section of the descriptor file, we add a data source configuration. With the `invoiceRemote`, key we specify a configuration object that allows automatic model instantiation. We specify the type of the service \(`OData`\) and the model version \(`2.0`\). In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, the URI points to the official Northwind OData service.
 
+> Note:
+> In order to avoid the Cross-Origin Resource Sharing problem described below, the typical procedure is to maintain only a path, e.g. `/V2/Northwind/Northwind.svc/`, in the `URI` property of the data source. This, however, also makes the usage of a proxy necessary if the actual OData server resides at a different address.
+> 
+> 
+
 In the `models` section, we replace the content of the `invoice` model. This key is still used as model name when the model is automatically instantiated during the component initialization. However, the `invoiceRemote` value of the `dataSource` key is a reference to the data source section that we specified above. This configuration allows the component to retrieve the technical information for this model during the start-up of the app.
 
 Our component now automatically creates an instance of `sap.ui.model.odata.v2.ODataModel` according to the settings we specified above, and makes it available as a model named `invoice`. When you use the `invoiceRemote` data source, the `ODataModel` fetches the data from the real Northwind OData service. The invoices we receive from the Northwind OData service have identical properties as the JSON data we used previously \(except for the `status` property, which is not available in the Northwind OData service\).
@@ -95,11 +100,7 @@ Violations of the same-origin policy in Google Chrome<a name="loio44062441f3bd4c
 
  ![](loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome") 
 
-Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development environment you have different options to overcome this limitation:
-
--   [SAP Web IDE: Configure a destination](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md#loio5bb388fc289d44dca886c8fa25da466e__UsingHelperService)
--   [Local Development: Configure a local proxy \(CORS anywhere\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md#loio5bb388fc289d44dca886c8fa25da466e__CORSAnywhere)
--   [Workaround: Disabling the same-origin policy in the browser](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md#loio5bb388fc289d44dca886c8fa25da466e__DisablingSameOriginPolicy) \(not recommended, only for testing\)
+Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development environment you have different options to overcome this limitation. For more information, see [Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md).
 
 **Related information**  
 

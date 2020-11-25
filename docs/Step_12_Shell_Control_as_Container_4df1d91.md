@@ -26,7 +26,7 @@ The app is now run in a shell that limits the app width<a name="loio4df1d914e52d
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 12](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.12/preview).
+You can view and download all files at [Walkthrough - Step 12](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
 
 ``` xml
 <mvc:View
@@ -66,7 +66,7 @@ You can view and download all files at [Walkthrough - Step 12](https://openui5.h
 The shell control is now the outermost control of our app and automatically displays a so-called letterbox, if the screen size is larger than a certain width.
 
 > Note:
-> We do not add the `Shell` control to the declarative UI definition in the XML view, because apps that run in an external shell, like the SAP Fiori launchpad, there will already be a shell around the component UI.
+> We don't add the `Shell` control to the declarative UI definition in the XML view if apps run in an external shell, like the SAP Fiori launchpad that already has a shell around the component UI.
 > 
 > 
 
@@ -75,5 +75,5 @@ There are further options to customize the shell, like setting a custom backgrou
 **Related information**  
 
 
-[API Reference: `sap.m.Shell`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Shell.html)
+[API Reference: `sap.m.Shell`](https://openui5.hana.ondemand.com/#/api/sap.m.Shell)
 

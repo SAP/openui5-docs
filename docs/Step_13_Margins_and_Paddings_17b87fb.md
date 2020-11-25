@@ -56,8 +56,7 @@ You can view and download all files at [Walkthrough - Step 13](https://openui5.h
 									width="60%"/>
 								*HIGHLIGHT START*<Text
 									text="Hello {/recipient/name}"
-									class="sapUiSmallMargin"/>
-*HIGHLIGHT END*
+									class="sapUiSmallMargin"/>*HIGHLIGHT END*
 							</content>
 						</Panel>
 					</content>

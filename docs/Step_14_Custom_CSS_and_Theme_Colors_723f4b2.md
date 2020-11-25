@@ -104,14 +104,14 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
-									*HIGHLIGHT START*class="myCustomButton"*HIGHLIGHT END*/>
+									class="*HIGHLIGHT START*myCustomButton*HIGHLIGHT END*"/>
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
-								<FormattedText
-									htmlText="Hello {/recipient/name}"
-									*HIGHLIGHT START*class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"*HIGHLIGHT END*/>
+								<*HIGHLIGHT START*FormattedText*HIGHLIGHT END*
+									*HIGHLIGHT START*htmlText*HIGHLIGHT END*="Hello {/recipient/name}"
+									class="sapUiSmallMargin*HIGHLIGHT START* sapThemeHighlight-asColor myCustomText*HIGHLIGHT END*"/>
 							</content>
 						</Panel>
 					</content>

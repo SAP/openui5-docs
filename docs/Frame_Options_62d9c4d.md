@@ -18,7 +18,7 @@ OpenUI5 provides the following configuration options for `frameOptions`:
 |----|-------|-----------|
 |allow|X|Allows to be embedded from all origins|
 |deny| |Denies to be embedded from all origins|
-|trusted| |Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the whitelist service|
+|trusted| |Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the allowlist service|
 
 With `frameOptionsConfig` the following additional configuration options can be set:
 
@@ -68,9 +68,9 @@ With `frameOptionsConfig` the following additional configuration options can be 
 			<td>Defines whether same origin domains are allowed or not</td>
 		</tr>
 		<tr>
-			<td> `whitelist` </td>
+			<td> `allowlist` </td>
 			<td> `string` </td>
-			<td>Contains the domain whitelist \(comma-separated\)</td>
+			<td>Contains the domain allowlist \(comma-separated\)</td>
 		</tr>
 	</tbody>
 </table>
@@ -117,14 +117,14 @@ window["sap-ui-config"] = {
 
 ***
 
-### Example: Whitelist Service
+### Example: Allowlist Service
 
-To allow that the OpenUI5 application is embedded in cross-origin domains, configure a whitelist service. The whitelist service checks whether the application can run in the parent origin, or not.
+To allow that the OpenUI5 application is embedded in cross-origin domains, configure an allowlist service. The allowlist service checks whether the application can run in the parent origin, or not.
 
 ``` html
 <script>
 window["sap-ui-config"] = {
-    whitelistService: 'url/to/whitelist/service',
+    allowlistService: 'url/to/allowlist/service',
     frameOptions: 'trusted',
     frameOptionsConfig: {
         callback: function(bSuccess) {
@@ -144,12 +144,12 @@ window["sap-ui-config"] = {
 
 ***
 
-### Example: Whitelist Service via `<meta>` Tag
+### Example: Allowlist Service via `<meta>` Tag
 
-Alternatively, a `<meta>` tag can be used to configure the `whitelistService` and set the `frameOptions` to `trusted`. This only applies if the `whitelistService` or `frameOptions` configuration is not set in the OpenUI5 configuration.
+Alternatively, a `<meta>` tag can be used to configure the `allowlistService` and set the `frameOptions` to `trusted`. This only applies if the `allowlistService` or `frameOptions` configuration is not set in the OpenUI5 configuration.
 
 ``` html
-<meta name="sap.whitelistService" content="url/to/whitelist/service" />
+<meta name="sap.allowlistService" content="url/to/allowlist/service" />
 <script  id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'>
 </script>
@@ -158,7 +158,7 @@ Alternatively, a `<meta>` tag can be used to configure the `whitelistService` an
 **Related information**  
 
 
-[Whitelist Service](Whitelist_Service_d04a6d4.md)
+[Allowlist Service](Allowlist_Service_d04a6d4.md)
 
 [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
 

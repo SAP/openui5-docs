@@ -100,11 +100,16 @@ After this change, you can run the app in SAP Web IDE without disabling the same
 
 <a name="copy672301f4f47640a8b2bc817d2ce0f512__CORSAnywhere"/>
 
-### Local Development: Configure a local proxy \(CORS anywhere\)
+### Local Development: Configure a local proxy
+
+> Note:
+> Please note that any npm packages you install from third parties can not only modify your project but also execute arbitrary code on your system. Always act with the according care and follow best practices.
+> 
+> 
 
 A proxy is simply a service end point on the same domain of your app to overcome the restrictions. It receives requests from the app, forwards them to another server, and finally returns the corresponding response from the remote service.
 
-Follow the below steps to configure such a proxy in your project.
+Follow the steps below to configure a proxy of your choice in your project. Make sure to replace the** `myProxy`** placeholder with your actual proxy name.
 
 Prerequisites: NodeJS is installed on your machine.
 
@@ -121,21 +126,21 @@ Prerequisites: NodeJS is installed on your machine.
 		"proxy": "node proxy.js"
 	},
 	"devDependencies": {
-		"cors-anywhere": "^0.4.1"
+		"myProxy": "^x.y.z"
 	},*HIGHLIGHT END*
 	"dependencies": {
 	}
 }
 ```
 
-Add the `devDependency` called `"cors-anywhere": "^0.4.1"` to your existing `package.json`. Run `node install` to install the npm module. Add the `proxy` script to the `scripts` section in the `package.json` so that you can run a script via `npm run <script_name>`.
+Add the `devDependency` called `"myProxy": "^x.y.z"` to your existing `package.json`. Run `node install` to install the npm module. Add the `proxy` script to the `scripts` section in the `package.json` so that you can run a script via `npm run <script_name>`.
 
 ***
 
 #### proxy.js \(new\)
 
 ``` js
-*HIGHLIGHT START*var cors_proxy = require('cors-anywhere');
+*HIGHLIGHT START*var cors_proxy = require('myProxy');
 
 // Listen on a specific IP Address
 var host = 'localhost';
@@ -144,15 +149,16 @@ var host = 'localhost';
 var port = 8081;
 
 cors_proxy.createServer({
-	originWhitelist: [], // Allow all origins
-	requireHeader: ['origin', 'x-requested-with'],
-	removeHeaders: ['cookie', 'cookie2']
+	// Set parameters for:
+	// allowed origins,
+	// required headers ['origin', 'x-requested-with'],
+	// headers to be removed ['cookie', 'cookie2']
 }).listen(port, host, function() {
-	console.log('Running CORS Anywhere on ' + host + ':' + port);
+	console.log('Running myProxy on ' + host + ':' + port);
 });*HIGHLIGHT END*
 ```
 
-Create a new file `proxy.js`, and copy the above script into your project directory. This is the pre-configured proxy server we are going to use to prevent the occurrence of **same-origin policy error**. We can start it by running the command `node proxy.js` or `npm run proxy. It runs a local proxy on port` in the console.
+Create a new file `proxy.js`, and copy the above script into your project directory. This is the pre-configured proxy server we are going to use to prevent the occurrence of **same-origin policy error**. We can start it by running the command `node proxy.js` or `npm run proxy`. It runs a local proxy on `port` in the console.
 
 ***
 
@@ -184,11 +190,9 @@ To use a service in the `local ui5 application` we have to change the `uri` in t
 > 
 
 > Note:
-> By default, you can't run the request in your browser with the `proxy.js` script. It throws the following exception: `exception Missing required request header. Must specify one of: origin,x-requested-with`. If you want to test the service in your browser, you can temporarily comment out the line `requireHeader: ['origin', 'x-requested-with']` from your `proxy.js`.
+> By default, you can't run the request in your browser with the `proxy.js` script. It throws the following exception: `exception Missing required request header. Must specify one of: origin,x-requested-with`. If you want to test the service in your browser, you can temporarily comment out the parameter requiring the headers `['origin', 'x-requested-with']` from your `proxy.js`.
 > 
 > 
-
-For more information on CORS Anywhere, see [https://www.npmjs.com/package/cors-anywhere](https://www.npmjs.com/package/cors-anywhere).
 
 ***
 

@@ -202,7 +202,7 @@ The attribute `technicalDetails.httpStatus` of an error message in the message m
 
 ### Highlighting Table Rows with Messages
 
-To highlight table rows based on the criticality of the messages for that entity you need to add a formatter inside the controller code. Let's assume we have a view with the following `sap.m.Table` or `sap.ui.table.Table`:
+To highlight table rows based on the criticality of the messages for that entity a formatter in controller code is needed. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippets demonstrate binding and formatter:
 
 > Note:
 > Highlight a table row
@@ -228,7 +228,7 @@ To highlight table rows based on the criticality of the messages for that entity
 > 
 > 
 
-Let `messageModel` be the named message model. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippet demonstrates binding and formatter:
+Let `messageModel` be the named message model. A table row with messages can be highlighted with the following controller code:
 
 > Note:
 > Formatter to highlight a table row
