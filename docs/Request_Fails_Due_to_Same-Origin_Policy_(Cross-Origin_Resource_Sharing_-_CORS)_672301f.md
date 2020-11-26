@@ -42,7 +42,7 @@ To solve the issue, you have the following options:
 
 -   SAP Web IDE: Configure a destination as described below \(recommended\)
 
--   Local Development: Configure a local proxy \(CORS anywhere\)
+-   Local Development: Configure a local proxy
 
 -   Workaround: Disable the same-origin policy in the browser for local testing \(not recommended, only for testing\)
 

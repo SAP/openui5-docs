@@ -14,18 +14,29 @@ OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in
 
 ***
 
-There are two sets of possible library combinations, which are best described using the diagram below. Any of the libraries listed on the lefthand side can be used with those listed in the middle, and any of the libraries listed on the righthand side can be used with the ones listed in the middle. The libraries listed on the lefthand side **cannot** be used in combination with the libraries listed on the right, and vice versa:
+In general, most library combinations are supported. However, restrictions apply for the following libraries:
 
-> Note:
-> Libraries that are not mentioned explicitly, belong to the lefthand side.
-> 
-> 
+-   `sap.ui.commons (deprecated)`
 
-![Supported Library Combinations](loio543aa067dbbf4cdc97ee8938f97b87d9_LowRes.png)
+-   `sap.ui.suite`
 
--   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
--   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
--   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
+-   `sap.ui.ux3` \(deprecated\)
+
+
+These libraries can **only** be used in combination with the following libraries:
+
+***
+
+-   `sap.ui.core`
+
+-   `sap.ui.layout`
+
+-   `sap.ui.unified`
+
+-   `sap.ui.table`
+
+
+***
 
 **Related information**  
 
