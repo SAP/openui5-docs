@@ -14,7 +14,7 @@ List binding \(or aggregation binding\) is used to automatically create child co
 
 Let’s say we would like to display the following JSON model data in a `sap.m.List`:
 
-``` js
+``` json
 {
 	companies : [
 		{
@@ -27,7 +27,7 @@ Let’s say we would like to display the following JSON model data in a `sap.m.L
 			name : "Beam Hdg.",
 			city: "Hancock",
 			state: "NH",
-			county: "Belknap"
+			county: "Belknap",
 			revenue : "3235235235.23"  
 		},{
 			name : "Carot Ltd.",

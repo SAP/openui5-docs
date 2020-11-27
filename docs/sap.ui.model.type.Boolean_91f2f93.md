@@ -27,3 +27,5 @@ Example how a `Boolean` type can be initialized:
 var oType = new TypeBoolean();
 ```
 
+For more information, see the [API Reference: `sap.ui.model.type.Boolean`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.Boolean).
+

@@ -232,14 +232,13 @@ For more information on addressing OData entries, see the URI conventions docume
 
 The data requested from an OData service is cached in the OData model.
 
-It can be accessed by the `getData()` and the `getProperty()` method, which returns the entity object or value. These methods do not request data from the backend, so you can only access already requested and cached entities:
+It can be accessed by the `getProperty()` method, which returns the entity object or value. This method does not request data from the back end, so you can only access already requested and cached entities:
 
 ``` js
-oModel.getData("/Customer('ALFKI')");
 oModel.getProperty("/Customer('ALFKI')/Address");
 ```
 
-You can only access single entities and properties with these methods. To access entity sets, you can get the binding contexts of all read entities via a list binding. The values returned by these methods are copies of the data in the model, not references as in the JSONModel.
+You can only access single entities and properties with this method. To access entity sets, you can get the binding contexts of all read entities via a list binding. The values returned by this method are copies of the data in the model, not references as in the JSONModel.
 
 > Note:
 > Do **not** modify objects or values inside the model manually; always use the provided API to change data in the model, or use two-way binding \(see *Two-way Binding* section below\).
@@ -247,7 +246,7 @@ You can only access single entities and properties with these methods. To access
 > 
 
 > Note:
-> The ODataModel uses the `$skip` and `$top` URL parameters for paging. It is possible that data is modified between two paging requests, for eample, entities can be added orremoved and this may lead to data inconsistencies.
+> The ODataModel uses the `$skip` and `$top` URL parameters for paging. It is possible that data is modified between two paging requests, for example entities could be added or removed, and this may lead to data inconsistencies.
 > 
 > 
 

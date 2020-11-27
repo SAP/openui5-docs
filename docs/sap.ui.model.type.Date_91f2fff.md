@@ -47,3 +47,5 @@ The `Date` type supports the following validation constraints:
 -   `maximum` \(expects a date presented in the source-pattern format\)
 -   `minimum` \(expects a date presented in the source-pattern format\)
 
+For more information, see the [API Reference: `sap.ui.model.type.Date`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.Date).
+
