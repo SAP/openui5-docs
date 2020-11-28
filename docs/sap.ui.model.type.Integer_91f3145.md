@@ -49,3 +49,5 @@ The `Integer` type supports the following validation constraints:
 -   maximum
 -   minimum
 
+For more information, see the [API Reference: `sap.ui.model.type.Integer`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.Integer).
+

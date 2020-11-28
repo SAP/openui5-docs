@@ -47,3 +47,5 @@ The `Time` type supports the following validation constraints:
 -   `maximum` \(expects a time presented in the source-pattern format\)
 -   `minimum` \(expects a time presented in the source-pattern format\)
 
+For more information, see the [API Reference: `sap.ui.model.type.Time`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.Time).
+

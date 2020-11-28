@@ -62,3 +62,5 @@ The `DateTime` type supports the following validation constraints:
 -   `maximum` \(expects a `dateTime` presented in the source-pattern format\)
 -   `minimum` \(expects a `dateTime` presented in the source-pattern format\)
 
+For more information, see the [API Reference: `sap.ui.model.type.DateTime`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.DateTime).
+

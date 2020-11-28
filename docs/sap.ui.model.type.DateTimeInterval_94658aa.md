@@ -101,3 +101,5 @@ oTable.bindItems({
 });
 ```
 
+For more information, see the [API Reference: `sap.ui.model.type.DateTimeInterval`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.DateTimeInterval).
+
