@@ -30,20 +30,24 @@ The effects of these paddings will be different depending on the container that 
 The following list shows examples of controls that support container content padding CSS classes:
 
   2.  **sap.f.DynamicPage**
- 4.  **sap.m.Carousel**
- 6.  **sap.m.Dialog**
- 8.  **sap.m.FlexBox** using `FlexItemData` with `styleClass` property for each item
- 10. **sap.m.IconTabBar**
- 12. **sap.m.List**
- 14. **sap.m.Page**
- 16. **sap.m.Panel**
- 18. **sap.m.Popover**
- 20. **sap.m.ScrollContainer**
- 22. **sap.m.Table**
- 24. **sap.ui.layout.BlockLayoutCell**
- 26. **sap.ui.layout.DynamicSideContent**
- 28. **sap.ui.layout.HorizontalLayout**
- 30. **sap.ui.layout.VerticalLayout**
+ 4.  **sap.f.GridList**
+ 6.  **sap.f.semantic.SemanticPage**
+ 8.  **sap.m.Carousel**
+ 10. **sap.m.Dialog**
+ 12. **sap.m.IconTabBar**
+ 14. **sap.m.FlexBox** using `FlexItemData` with `styleClass` property for each item
+ 16. **sap.m.IconTabBar**
+ 18. **sap.m.List**
+ 20. **sap.m.Page**
+ 22. **sap.m.Panel**
+ 24. **sap.m.Popover**
+ 26. **sap.m.ScrollContainer**
+ 28. **sap.m.TabContainer**
+ 30. **sap.m.Table**
+ 32. **sap.ui.layout.BlockLayoutCell**
+ 34. **sap.ui.layout.DynamicSideContent**
+ 36. **sap.ui.layout.HorizontalLayout**
+ 38. **sap.ui.layout.VerticalLayout**
   
 
 ***
@@ -57,5 +61,7 @@ The following list shows examples of controls that support container content pad
 
 ### Example
 
-For a detailed example of how our container padding classes work, see the sample [sap.ui.core.ContainerPadding](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.ContainerPadding/samples).
+You can check how our container padding classes work in the following sample [Samples for `sap.ui.core.ContainerPadding`](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.ContainerPadding).
+
+If you have to apply responsive paddings over separate parts of the control according to the control width, see [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md)
 
