@@ -26,7 +26,7 @@ The OPA test page is waiting for more items to be loaded<a name="loio1b47457cbe4
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.06/preview).
+You can view and download all files in the Demo Kit at [Testing - Step 6](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.06).
 
 ***
 
@@ -197,6 +197,9 @@ sap.ui.define([
 				}
 			}
 		});
+
+	});
+
 ```
 
 As you can see, the OPA page object is constructed with the call `Opa5.createPageObjects` and a `configuration` object that contains the actions and assertions properties.
@@ -206,7 +209,7 @@ For our test case we need to add an action `iPressOnMoreData` and an existing as
 Let’s start with the action `iPressOnMoreData`. We define a `waitFor` statement with the current view and the table. Those IDs are stored as internal variables in the `require` statement above and are available in all tests. OPA will now try to find the table based on IDs. As soon as the table is available on the screen and it can be interacted with \(it is visible, not busy,...\), the `Press` action is invoked, if not, the error message is displayed and the test fails. When executed on a table, the `Press` action will simulate that a users chooses the *More Data* button.
 
 > Note:
-> The `Press` action depends on the control that it is triggered on and has a default behavior for most UI controls. If you, for example, execute `Press` on a `sap.m.Page`, this will trigger the *Back* button's `Press` event. This behavior can be overridden by passing an ID as argument to the action. For more information, see the [API Reference: `sap.ui.test.actions.Press`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.actions.Press.html). 
+> The `Press` action depends on the control that it is triggered on and has a default behavior for most UI controls. If you, for example, execute `Press` on a `sap.m.Page`, this will trigger the *Back* button's `Press` event. This behavior can be overridden by passing an ID as argument to the action. For more information, see the [API Reference: `sap.ui.test.actions.Press`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.Press). 
 > 
 > 
 

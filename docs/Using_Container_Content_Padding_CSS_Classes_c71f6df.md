@@ -27,7 +27,7 @@ The effects of these paddings will be different depending on the container that 
 -   If the container is defining no padding on its content by default, then setting **sapUiContentPadding** will add 1rem \(16px\) of padding around the content area to layout the content controls.
 -   Setting **sapUiResponsiveContentPadding** on the container control will add a padding based on the user’s screen size. On small screen devices such as smartphones, or when the browser window is resized to a small size, no padding is displayed. On medium screen sizes or applications that are using a `SplitApp`, the control will get 1rem \(16px\) of padding.. Finally, on large screen sizes in full-screen mode, the container control will get 2rem \(32px\) of padding to the left and right and 1rem \(16px\) of padding at the top and bottom.
 
-The following list shows examples of controls that support container content padding CSS classes:
+The following list of controls support container content padding CSS classes:
 
   2.  **sap.f.DynamicPage**
  4.  **sap.f.GridList**

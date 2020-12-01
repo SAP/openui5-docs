@@ -137,7 +137,7 @@ sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',
 	'../model/formatter'*HIGHLIGHT START*,
-	'../model/FlaggedType'*HIGHLIGHT END*
+	'../model/FlaggedType',*HIGHLIGHT END*
 	'sap/m/library'
 ], function (BaseController, JSONModel, formatter*HIGHLIGHT START*, FlaggedType*HIGHLIGHT END*, mobileLibrary) {
 	"use strict";

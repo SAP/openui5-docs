@@ -26,7 +26,7 @@ A list of invoices is displayed below the panel<a name="loiobf71375454654b44af01
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 20](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.20/preview).
+You can view and download all files at [Walkthrough - Step 20](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.20).
 
 ``` js
 *HIGHLIGHT START*{
@@ -108,7 +108,7 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 We add a new model `invoice` to the `sap.ui5` section of the descriptor. This time we want a JSONModel, so we set the type to `sap.ui.model.json.JSONModel`. The `uri` key is the path to our test data relative to the component. With this little configuration our component will automatically instantiate a new `JSONModel` which loads the invoice data from the `Invoices.json` file. Finally, the instantiated `JSONModel` is put onto the component as a named model invoice. The named model is then visible throughout our app.
 
 > Note:
-> Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `onInit` method of the `Component.js` file as we did for the resource bundle in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
+> Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did for the resource bundle in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
 > 
 > 
 
@@ -198,9 +198,9 @@ In the text bundle the title of the list is added.
 
 [Lists](Lists_1da1581.md)
 
-[API Reference: `sap.m.List`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.List.html)
+[API Reference: `sap.m.List`](https://openui5.hana.ondemand.com/#/api/sap.m.List)
 
-[Samples: `sap.m.List` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.List/samples)
+[Samples: `sap.m.List` ](https://openui5.hana.ondemand.com/#/entity/sap.m.List)
 
 [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)
 

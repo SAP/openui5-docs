@@ -20,7 +20,8 @@ Now it is time to build our first little UI by replacing the “Hello World” t
   
 The "Hello World" text is now displayed by a OpenUI5 control<a name="loioddbceecd7d3d42eea9cf78a820a238fb__fig_r1j_pst_mr"/>
 
- ![](loio7cad93a924694474acd782b34e162d4b_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control") 
+ ![](loio7cad93a924694474acd782b34e162d4b_HiRes.png "The "Hello World" text is now displayed by a OpenUI5
+					control") 
 
 ***
 
@@ -28,7 +29,7 @@ The "Hello World" text is now displayed by a OpenUI5 control<a name="loioddbceec
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.03/preview).
+You can view and download all files at [Walkthrough - Step 3](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.03).
 
 ***
 
@@ -91,7 +92,7 @@ In the example above, the callback of the `init` event is where we now instantia
 
 We chain the constructor call of the control to the standard method `placeAt` that is used to place OpenUI5 controls inside a node of the document object model \(DOM\) or any other OpenUI5 control instance. We pass the ID of a DOM node as an argument. As the target node we use the body tag of the HTML document and give it the ID `content`.
 
-All controls of OpenUI5 have a fixed set of properties, aggregations, and associations for configuration. You can find their descriptions in the Demo Kit. In addition, each controls comes with a set of public functions that you can look up in the API reference.
+All controls of OpenUI5 have a fixed set of properties, aggregations, and associations for configuration. You can find their descriptions in the Demo Kit. In addition, each control comes with a set of public functions that you can look up in the API reference.
 
 Don’t forget to remove the “Hello World”.
 
@@ -105,13 +106,13 @@ Don’t forget to remove the “Hello World”.
 
 [Working with Controls](Working_with_Controls_91f0a22.md)
 
-[API Reference: `sap.m.Text`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Text.html)
+[API Reference: `sap.m.Text`](https://openui5.hana.ondemand.com/#/api/sap.m.Text)
 
-[Samples: `sap.m.Text` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Text/samples)
+[Samples: `sap.m.Text` ](https://openui5.hana.ondemand.com/#/entity/sap.m.Text)
 
-[API Reference: `sap.ui.core.Control`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Control.html)
+[API Reference: `sap.ui.core.Control`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control)
 
-[API Reference: `sap.ui.core.Element`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Element.html)
+[API Reference: `sap.ui.core.Element`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element)
 
-[API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.ManagedObject.html)
+[API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject)
 
