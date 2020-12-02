@@ -214,7 +214,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 > -   `fade`
 > 
 > 
-> You can also implement your own transitions and add it to a control that extends `sap.m.NavContainer` \(for example, `sap.m.App` or `sap.m.SplitApp`\). For more information, see the *API Reference* for `NavContainer`.
+> You can also implement your own transitions and add it to a control that extends `sap.m.NavContainer` \(for example, `sap.m.App` or `sap.m.SplitApp`\). For more information, see the [API Reference: `NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer). 
 > 
 > 
 

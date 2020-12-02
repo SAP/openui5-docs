@@ -18,7 +18,7 @@ If you keep the IDs of controls, elements, and components stable, you can be sur
 
 ### Background
 
-OpenUI5generates IDs for controls, elements, or components dynamically if you don't set them yourself. This sounds convenient, but might lead to problems when the corresponding elements are processed later on by other OpenUI5 features. So it's a good idea to use stable IDs instead of dynamic IDs.
+OpenUI5 generates IDs for controls, elements, or components dynamically if you don't set them yourself. This sounds convenient, but might lead to problems when the corresponding elements are processed later on by other OpenUI5 features. So it's a good idea to use stable IDs instead of dynamic IDs.
 
 ***
 
