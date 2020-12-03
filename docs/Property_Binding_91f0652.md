@@ -292,6 +292,8 @@ Predefined data types also offer visual feedback for erroneous user input. To tu
 sap.ui.getCore().getMessageManager().registerObject(this.getView(), true);
 ```
 
+For other ways to activate this feature, such as using the `handleValidation` property, see [Validation Messages](Validation_Messages_a90d93d.md).
+
 You can define **custom types** by inheriting from `sap.ui.model.SimpleType` and implementing the three methods `formatValue`, `parseValue`, and `validateValue`. `formatValue` is called whenever the value in the model is changed to convert it to the type of the control property it is bound to, and may throw a `FormatException`. `parseValue` is called whenever the user has modified a value in the UI and the change is transported back into the model. It may throw a `ParseException` if the value cannot be converted. If parsing is successful, `validateValue` is called to check additional constraints, such as minimum or maximum value, and throws a `ValidateException` if any constraints are violated.
 
 ``` js

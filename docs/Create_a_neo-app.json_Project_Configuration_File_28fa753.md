@@ -72,3 +72,13 @@ SAP Web IDE reads these settings automatically when running the app. You can see
     ```
 
 
+Here's what the settings for the two resources mean:
+
+|**Setting**|**Explanation**|
+|`path`|Application path to be mapped|
+|`type`|Type of resource|
+|`name`|Name of the resource|
+|`entyPath`|Path prepended to the request path|
+
+For more information, see [Accessing SAPUI5 Resources](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d18a9b0739264a4dbd0acbbc0232d614.html) in the SAP Cloud Platform documentation.
+

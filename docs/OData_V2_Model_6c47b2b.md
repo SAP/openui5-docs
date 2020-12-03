@@ -380,7 +380,7 @@ The [`v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata
 -   Deferred: The requests are stored and can be submitted with a manual `submitChanges()` call by the application. This also includes all manual CRUD requests as well as requests triggered by a binding.
 
 
-The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`.
+The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each Context and List Binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`.
 
 You can use the `setDeferredGroups()` method to set a subset of previously defined groups to deferred.
 

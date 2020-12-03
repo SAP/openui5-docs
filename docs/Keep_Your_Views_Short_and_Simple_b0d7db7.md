@@ -91,7 +91,7 @@ If you have bound aggregations, Avoid using complex or nested controls. Remember
 
 ### Think About View Modularization Early On
 
-Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments and XML composites, you can flexibly reuse parts of yor UI elsewhere.
+Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments and XML composites \(experimental\), you can flexibly reuse parts of your UI elsewhere.
 
 ``` xml
 <App>
@@ -102,7 +102,7 @@ Things may get a little messy as your app is growing with your requirements. The
 </App>
 ```
 
--   Learn how: Walkthrough Tutorial [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md)
+-   Learn how: Walkthrough tutorial [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md)
 
 -   Find out more:
 
