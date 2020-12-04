@@ -47,7 +47,7 @@ For more information on OpenUI5 HTML code cleanup, see [HTML5 Sanitizer](Cross-S
 
 ### URL Validation
 
-URL validation should take place on the server-side when possible. In case URLs are entered on the client-side or are loaded from an external service, OpenUI5 offers a URL validator, which can be used to validate whether a URL is well formed and properly encoded. It also contains a configurable whitelist to restrict URLs to certain protocols or certain hosts. Initially, the whitelist only checks for the `http`, `https`, and `ftp` protocols, but nothing else. Applications should define their own whitelist.
+URL validation should take place on the server-side when possible. In case URLs are entered on the client-side or are loaded from an external service, OpenUI5 offers a URL validator, which can be used to validate whether a URL is well formed and properly encoded. It also contains a configurable allowlist to restrict URLs to certain protocols or certain hosts. Initially, the allowlist only checks for the `http`, `https`, and `ftp` protocols, but nothing else. Applications should define their own allowlist.
 
 ***
 
