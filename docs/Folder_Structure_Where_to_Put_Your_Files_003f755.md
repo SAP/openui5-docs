@@ -88,7 +88,7 @@ The `localService` folder is used to emulate OData services for tests or as a pr
 
  ![](loio00728aff82c54419b1d7acd61c76455f_HiRes.png) 
 
-For integration tests, it is helpful if you are able to mock your backend with stable data. A second use case for this is for running an application in a **preview** mode so that it serves data locally instead of connecting to a backend. This is why this folder also contains files necessary for starting up a mock server. The data served by the mock server is put inside the `mockdata` folder. If you need to, you can also include multiple sets of mock data here, by giving each set its own folder. For more information about mock servers, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html) in the Demo Kit.
+For integration tests, it is helpful if you are able to mock your back end with stable data. A second use case for this is for running an application in a **preview** mode so that it serves data locally instead of connecting to a back end. This is why this folder also contains files necessary for starting up the OData V2 mock server. The data served by the mock server is put inside the `mockdata` folder. If you need to, you can also include multiple sets of mock data here, by giving each set its own folder. For more information about the OData V2 mock server, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html) in the Demo Kit.
 
 ***
 

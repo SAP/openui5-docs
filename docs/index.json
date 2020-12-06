@@ -1577,14 +1577,14 @@
 							"Mock Server": {
 								"link": "Mock_Server_69d3cbd.md",
 								"items": {
-									"OData Features Supported by Mock Server": {
-										"link": "OData_Features_Supported_by_Mock_Server_3459c37.md"
+									"OData Features Supported by the OData V2 Mock Server": {
+										"link": "OData_Features_Supported_by_the_OData_V2_Mock_Server_3459c37.md"
 									},
-									"Mock Server: Frequently Asked Questions": {
-										"link": "Mock_Server_Frequently_Asked_Questions_c9a91dd.md"
+									"OData V2 Mock Server: Frequently Asked Questions": {
+										"link": "OData_V2_Mock_Server_Frequently_Asked_Questions_c9a91dd.md"
 									},
-									"Using Mock Data": {
-										"link": "Using_Mock_Data_a428d41.md"
+									"Using Mock Data with the OData V2 Mock Server": {
+										"link": "Using_Mock_Data_with_the_OData_V2_Mock_Server_a428d41.md"
 									}
 								}
 							},

@@ -196,9 +196,9 @@ QUnit.test("Should suppress rerendering when tooltip is set", function(assert) {
 
 ### Testing with Models
 
-When testing with models, you need to make sure that you also setup/destroy your model inside a test itself. OData tests will always be integration tests, since you will require multiple files in order to use the mock server. You may use a factory method to do this.
+When testing with models, you need to make sure that you also setup/destroy your model inside a test itself. OData tests will always be integration tests, since you will require multiple files in order to use the OData V2 mock server. You may use a factory method to do this.
 
-An example for setting up the mock server is shown below:
+An example for setting up the OData V2 mock server is shown below:
 
 ``` js
 
@@ -234,9 +234,9 @@ QUnit.test("Should do something with the model", function (assert) {
 });
 ```
 
-When using the mock server, you can use async tests since calling respond each time on the mock server does not help the readability of the test.
+When using the OData V2 mock server, you can use async tests since calling respond each time on the mock server does not help the readability of the test.
 
-After setting up the mock server, we set up the model as follows:
+After setting up the OData V2 mock server, we set up the model as follows:
 
 ``` js
 

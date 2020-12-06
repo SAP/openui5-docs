@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Testing
 
-OpenUI5 provides several testing options, like to unit and integration tests and the mock server.
+OpenUI5 provides several testing options, like to unit and integration tests and the OData V2 mock server.
 
 Before you start implementing your first test, you should think about how to test the different aspects of your application. The image below shows some examples of testing tools along the agile testing pyramid.
 
