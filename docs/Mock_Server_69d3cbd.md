@@ -10,11 +10,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Mock Server
 
-A mock server is a mocking framework for HTTP and HTTPS that is used to simplify integration testing and to decouple development teams by allowing to develop against a service that is incomplete or unstable.
+A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.
 
 ***
 
-<a name="loio69d3cbd4150c4ffb884e788f7f60fd93__section_vvl_t14_wnb"/>
+<a name="loio69d3cbd4150c4ffb884e788f7f60fd93__section_od2_mock_server"/>
 
 ### OData V2 Mock Server
 
@@ -31,7 +31,7 @@ For more information on the OData V2 mock server, see the topics given below.
 
 ***
 
-<a name="loio69d3cbd4150c4ffb884e788f7f60fd93__section_qlf_v14_wnb"/>
+<a name="loio69d3cbd4150c4ffb884e788f7f60fd93__section_od4_mock_server"/>
 
 ### OData V4 Mock Server
 

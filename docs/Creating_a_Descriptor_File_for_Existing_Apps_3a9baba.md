@@ -239,7 +239,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
 6.  Fill the `dataSource` attribute of the `sap.app` namespace with the data source you use for your app.
 
-    For this, open the location where the service URL and the mock data source is defined.
+    For this, open the location where the service URL and the mock data source for the OData V2 mock server is defined.
 
     -   Open the `Component.js` file of your app to see the data source under `serviceUrl`, see the following example for `name`, `serviceUrl` and mock data URL in `Component.js`:
 
@@ -742,7 +742,7 @@ To verify that your app works as before, perform checks to make sure the followi
 
 -   OData service works as before
 
--   Mock data works as before
+-   Mock data for OData V2 mock server works as before
 
 -   Title, icons in SAP Fiori launchpad work as before
 
