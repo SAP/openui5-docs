@@ -79,7 +79,7 @@ Use the specific roles and attributes, based on ARIA 1.1 specifications:
 
 -   `ariaDetails` association, which sets the `aria-details` attribute for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
 
--   `ariaHasPopup` property which sets the `aria-haspopup` attribute for `sap.m.Button` and `sap.m.Toolbar` \(when active\). It’s used for indicating the availability and type of interactive popup element, such as menu or dialog that can be triggered by the control.
+-   `ariaHasPopup` property which sets the `aria-haspopup` attribute for `sap.m.Button`, `sap.m.Link,` and `sap.m.Toolbar` \(when active\). It’s used for indicating the availability and type of interactive popup element, such as menu or dialog that can be triggered by the control.
 
 
 ***

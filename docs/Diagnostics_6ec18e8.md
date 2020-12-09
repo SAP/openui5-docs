@@ -22,7 +22,7 @@ To open *Diagnostics*, use the following shortcut: *CTRLSHIFTALTS* in the app.
 
 ## Technical Information
 
-This section provides the same features as the technical information dialog. You can view the technical details of the app, and turn on the debug sources. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
+In this section you can view the technical details of the app and turn on the debug sources. It provides the same features as the Technical Information dialog. Additionally, the Technical Information dialog is available on mobile devices that support multi-touch. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 
 In addition, you can see the following information:
 
