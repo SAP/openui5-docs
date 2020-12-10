@@ -315,8 +315,8 @@ Then we navigate to the `employee` route and pass a configuration object on to t
 
 ``` prefs
 *HIGHLIGHT START*...
-formEmployeeDetailsOf=Employee Details of
-formEmployeeIDColon=Employee ID:
+EmployeeDetailsOf=Employee Details of
+EmployeeIDColon=Employee ID:
 formFirstName=First Name
 formLastName=Last Name
 formAddress=Address

@@ -43,9 +43,10 @@ With this release OpenUI5 is upgraded from version 1.84 to 1.85.
 		<tr>
 			<td> **`sap.m.ColorPalette`, `sap.m.ColorPalettePopover`, and `sap.ui.unified.ColorPickerPopover`** A `liveChange` event is now available in these controls, which are using the `sap.ui.unified.ColorPicker` internally. This event is used to propagate real-time color changes from inside the `ColorPicker` before closing the popover that contains this `ColorPicker`. For more information, see the [ColorPickerPopover](https://openui5.hana.ondemand.com/#/entity/sap.ui.unified.ColorPicker/sample/sap.ui.unified.sample.ColorPickerPopover) and the [ColorPalettePopover](https://openui5.hana.ondemand.com/#/entity/sap.m.ColorPalette/sample/sap.m.sample.ColorPalettePopover) samples. </td>
 			<td> **`sap.m.SinglePlanningCalendar`** The `specialDates` aggregation, which allows you to define special dates for the control, is now visible in the Month view for all supported SAP themes. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar). </td>
-			<td>**`sap.m.Table`**If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space.This feature is enabled by default. 
+			<td>**`sap.m.Table`**> Note: > This feature is no longer in place as of 1.85.1. as the default behavior . For more information , see the What’s New in 1.86 and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for `fixedLayout`. 
 
-![](loio1da07e72426044b6a23a58549b95e2b5_Source1.png) 
+If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space.This feature is enabled by default. ![](loio1da07e72426044b6a23a58549b95e2b5_Source1.png) 
+
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table).</td>
 		</tr>
 		<tr>

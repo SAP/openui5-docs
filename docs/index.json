@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.85": {
 						"link": "What's_New_in_OpenUI5_1.85_eeb5bd9.md"
 					},
-					"What's New in OpenUI5 1.84": {
-						"link": "What's_New_in_OpenUI5_1.84_ccf76b7.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.84": {
+								"link": "What's_New_in_OpenUI5_1.84_ccf76b7.md"
+							},
 							"What's New in OpenUI5 1.82": {
 								"link": "What's_New_in_OpenUI5_1.82_f081cf0.md"
 							},
