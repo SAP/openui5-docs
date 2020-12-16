@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 SAP Web IDE comes with integrated testing features that let you run the app on a central server without having to set up any additional infrastructure. You can run the app by selecting the `src/index.html` file and clicking the *run* button in the header toolbar.
 
 > Note:
-> SAP Web IDE will no longer available via SAP Cloud Platform trial accounts as of late 2020. From then on, the documentation in this section will only be valid if you have access to SAP Web IDE through a productive SAP Cloud Platform account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
+> SAP Web IDE will no longer available via SAP Cloud Platform trial accounts after November 13, 2020. From then on, the documentation in this section will only be valid if you have access to SAP Web IDE through a productive SAP Cloud Platform account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 > 
 > 
 

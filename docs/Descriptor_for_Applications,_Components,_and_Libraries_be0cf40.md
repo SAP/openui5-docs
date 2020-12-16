@@ -179,6 +179,8 @@ http://localhost:8080/this/url/is/reachable/annotations.xml
 
 ***
 
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_mhs_vdp_znb"/>
+
 ### Descriptor Content
 
 > Note:
@@ -188,9 +190,29 @@ http://localhost:8080/this/url/is/reachable/annotations.xml
 
 The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, and `sap.ui5` . The following tables show the application-specific attributes provided by the respective namespaces:
 
+[No Namespace](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_nonamespace)
+
+[`sap.app`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_app)
+
+[`sap.ui`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui)
+
+[`sap.ui5`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui5)
+
+[`sap.platform.abap`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_platform_abap)
+
+[`sap.platform.hcp`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_platform_hcp)
+
+[`sap.fiori`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_fiori)
+
+[`sap.card`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_card)
+
+[`_version`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_version)
+
 ***
 
-#### No Namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_nonamespace"/>
+
+### No Namespace
 
 Attributes in the `without` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_crz_g5r_tr"/>
 
@@ -200,7 +222,9 @@ Attributes in the `without` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2
 
 ***
 
-#### `sap.app`
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_app"/>
+
+### `sap.app`
 
 Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_rvq_4fj_qr"/>
 
@@ -288,7 +312,9 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
 ***
 
-#### `sap.ui`
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui"/>
+
+### `sap.ui`
 
 Attributes in the mandatory `sap.ui` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>
 
@@ -322,7 +348,9 @@ Attributes in the mandatory `sap.ui` namespace<a name="loiobe0cf40f61184b358b5fa
 
 ***
 
-#### `sap.ui5`
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui5"/>
+
+### `sap.ui5`
 
 The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the application descriptor, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md) for more details.
 
@@ -430,7 +458,9 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 ***
 
-#### `sap.card`
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_sap_card"/>
+
+### `sap.card`
 
 Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_fly_cmt_ngb"/>
 
@@ -442,7 +472,9 @@ Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b
 
 ***
 
-#### `_version`
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_version"/>
+
+### `_version`
 
 -   On root level \(no namespace\): Describes the descriptor format version \(mandatory\). Needs to be updated when migrating to a new descriptor format version, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
 
@@ -465,112 +497,7 @@ The newest flattened JSON schema is available on the SAP Open Source GitHub at [
 
 Current version of the `manifest.json`
 
-```collapsible
-		<tr>
-			<td> `rootView` </td>
-			<td>Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.ViewType.html)\), **id**, **async** and other properties of `sap.ui.core.mvc.view`.</td>
-		</tr>
-		<tr>
-			<td> `autoPrefixId` </td>
-			<td>true, false \(default\), Enables the auto prefixing for the UIComponent for IDs of ManagedObjects \(controls or elements\) which are created in the context of the `createContent` function, or any other invocation of the `Component.prototype.runAsOwner()` function \(for example a component’s router uses this method when creating new views\). In former OpenUI5 releases this prefixing of the ID needed to be done with `oComponent.createId` by overwriting the method `getAutoPrefixId`. The same can now be achieved declaratively by setting `autoPrefixId` to true.</td>
-		</tr>
-		<tr>
-			<td> `handleValidation` </td>
-			<td>Possible values: `true` or `false` \(default\); used to enable or disable validation handling by the message manager for this component, see [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md) </td>
-		</tr>
-		<tr>
-			<td> `config` </td>
-			<td>Static configuration; specify the name-value pairs that you need in your component.</td>
-		</tr>
-		<tr>
-			<td> `routing` </td>
-			<td>Provides configuration parameters for route and router, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) </td>
-		</tr>
-		<tr>
-			<td> `extends` </td>
-			<td>Used to extend another component.
-
- -   `component`: ID \(namespace\) of the component being extended
- -   `minVersion`: Specifies the minimum version of the component being extended, for information purposes if your app requires a minimum version of the component
-
- -   `extensions`: Component or view extensions, which enable you to replace and extend views and controllers and also to modify the views, see [Extending Apps](Extending_Apps_a264a9a.md)
-			</td>
-		</tr>
-		<tr>
-			<td> `contentDensities` </td>
-			<td>Mandatory; contains an object with the content density modes that the app supports, see [Content Densities](Content_Densities_e54f729.md)
-
- -   `compact`: Mandatory; indicates whether compact mode is supported \(`true`, `false`\)
- -   `cozy`: Mandatory; indicates whether cozy mode is supported \(`true`, `false`\)
-			</td>
-		</tr>
-		<tr>
-			<td> `resourceRoots` </td>
-			<td>Map of URL locations keyed by a resource name prefix; only relative paths inside the component are allowed and no ".." characters This attribute is intended for actual sub-packages of the component only, meaning that it must not be used for the component namespace itself.
-
- > Note:
- > When loading with *manifest first*\(by using the property `manifest`\), the `resourceRoots` are evaluated before the component controller is loaded. Otherwise, the defined resource roots will be registered after the component controller is loaded and do not affect the modules being declared as dependencies in the component controller.
-			</td>
-		</tr>
-		<tr>
-			<td> `componentName` </td>
-			<td>An optional attribute that only has to be provided if your project is a variant of an existing application. In this case the `componentName` has to contain the `sap.app/id` of the existing application which is the basis of your variant.</td>
-		</tr>
-		<tr>
-			<td> `i18n` </td>
-			<td> Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
- > Note:
- > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
-			</td>
-		</tr>
-		<tr>
-			<td> `commands` </td>
-			<td>Specifies provided commands with a unique key/alias. Contains:
-
- -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-***
-
-#### `sap.card`
-
-Attributes in the `sap.card` namespace<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_fly_cmt_ngb"/>
-
-|Attribute|Description|
-|---------|-----------|
-| `type` |Describes the card type; possible values are `list` and `analytical` |
-| `header` |Specifies the card’s header area|
-| `content` |Specifies the type-dependent card content|
-
-***
-
-#### `_version`
-
--   On root level \(no namespace\): Describes the descriptor format version \(mandatory\). Needs to be updated when migrating to a new descriptor format version, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
-
--   Inside namespace: Describes the namespace format version \(optional from version 1.38 on\)
-
-
-***
-
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_descriptor_schema"/>
-
-### Descriptor Schema
-
-The newest flattened JSON schema is available on the SAP Open Source GitHub at [https://github.com/sap/ui5-manifest/](https://github.com/sap/ui5-manifest/) under Apache-2.0 License. It can be used to enable schema validation, code completion, and documentation.
-
-***
-
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__section_example"/>
-
-### Example
-
-Current version of the `manifest.json`
-
-```collapsible
+``` { .collapsible .expanded}
 
 {
     "_version": "1.29.0",
@@ -641,6 +568,111 @@ Current version of the `manifest.json`
             "favIcon": "icon/F1373_Approve_Purchase_Orders.ico",
             "phone": "icon/launchicon/57_iPhone_Desktop_Launch.png",
             "phone@2": "icon/launchicon/114_iPhone-Retina_Web_Clip.png",
+            "tablet": "icon/launchicon/72_iPad_Desktop_Launch.png",
+            "tablet@2": "icon/launchicon/144_iPad_Retina_Web_Clip.png"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": false
+        },
+        "fullWidth": true
+    },
+ 
+    "sap.ui5": {
+        "resources": {
+            "js": [{
+                "uri": "component.js"
+            }],
+            "css": [{
+                "uri": "component.css",
+                "id": "componentcss"
+            }]
+        },
+        "dependencies": {
+            "minUI5Version": "1.85.0",
+            "libs": {
+                "sap.m": {
+                    "minVersion": "1.34.0"
+                },
+                "sap.ui.commons": {
+                    "minVersion": "1.34.0",
+                    "lazy": true
+                }
+            },
+            "components": {
+                "sap.ui.app.other": {
+                    "minVersion": "1.1.0",
+                    "lazy": true
+                }
+            }
+        },
+        "componentUsages": {
+            "myusage": {
+                "name": "my.used",
+                "lazy": false,
+                "settings": {},
+                "componentData": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties",
+                "settings": {
+                    "enhanceWith": [{
+                        "bundleUrl": "i18n/i18n.properties",
+                        "bundleUrlRelativeTo": "manifest"
+                    }]
+                }
+            },
+            "equipment": {
+                "preload": true,
+                "dataSource": "equipment",
+                "settings": {}
+            }
+        },
+        "rootView": {
+            "viewName": "sap.ui.test.view.Main",
+            "id" : "rootView",
+            "async": true,
+            "type": "XML"
+        },
+        "handleValidation": true,
+        "config": {
+ 
+        },
+        "routing": {
+ 
+        },
+        "extends": {
+            "component": "sap.fiori.otherApp",
+            "minVersion": "0.8.15",
+            "extensions": {}
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": false
+        },
+        "resourceRoots": {
+            ".myname": "./myname"
+        },
+        "componentName": "sap.fiori.appName",
+        "library": {
+            "i18n": true
+        },
+        "commands": {
+            "Save": {
+                "shortcut": "Ctrl+S"
+            }
+        }
+	    },
+ 
+ 
+    "sap.fe": {},
+    "sap.card": {}
+}
+```
             "tablet": "icon/launchicon/72_iPad_Desktop_Launch.png",
             "tablet@2": "icon/launchicon/144_iPad_Retina_Web_Clip.png"
         },

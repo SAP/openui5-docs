@@ -34,8 +34,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ``` js
 sap.ui.define([
-	"sap/ui/demo/nav/controller/BaseController"
-], function (BaseController) {
+	"sap/ui/demo/nav/controller/BaseController",
+	"sap/base/Log"
+], function (BaseController, Log) {
 	"use strict";
 
 	return BaseController.extend("sap.ui.demo.nav.controller.App", {

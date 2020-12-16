@@ -72,7 +72,7 @@ When the formatter is defined in the controller, you can use it, for example, in
 
 ***
 
-<a name="loio07e4b920f5734fd78fdaa236f26236d8__section_a5r_sb5_xcb"/>
+<a name="loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes"/>
 
 ### Data Types
 

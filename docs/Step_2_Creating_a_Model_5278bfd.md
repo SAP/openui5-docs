@@ -87,7 +87,7 @@ Set `oModel` to be the default model within the entire OpenUI5 core.
 
 This makes the model object globally available to all controls used within the application.
 
-In this case we have bound the model object to the OpenUI5 core. This has been done for simplicity, but is not considered good practice. Generally speaking, a model object holding business data should be bound to the view that displays the data. We will correct this part of the code in the following steps.
+In this case we have bound the model object to the OpenUI5 core. This has been done for simplicity, but is not considered good practice. Generally speaking, a model object holding business data should be bound to the app's `Component.js` or to the view that displays the data. For an example, see the Walkthrough tutorial, [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md) \(binding to the View\) or [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md) \(binding to the Component\).
 
 > Note:
 > Models can be set on every control by calling `setModel()`. The model is then propagated to all aggregated child controls \(and their children, and so on…\). All child control will then have access to that model
