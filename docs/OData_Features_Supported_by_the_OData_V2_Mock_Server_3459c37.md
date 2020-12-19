@@ -15,7 +15,7 @@ List of OData version 2.0 features supported or not supported by the mock server
 The mock server only supports the JSON format for representing the resources it exposes, such as collections, entries, and links.
 
 > Note:
-> The mock server doesn’t support more than one draft service in an application.
+> The mock server cannot mock more than one service per application.
 > 
 > 
 
@@ -58,7 +58,7 @@ Unsupported OData Features<a name="loio3459c372aaaa4c31ab87bb0e174adcc3__table_y
 | `$links` and `#AddressingLinksBetweenEntries` |Unsupported For more information see [Addressing Links between Entries](http://www.odata.org/documentation/odata-version-2-0/uri-conventions/#AddressingLinksBetweenEntries) and [Referencing Requests in a Change Set](http://www.odata.org/documentation/odata-version-2-0/batch-processing/#ReferencingRequestsInAChangeSet) on [http://www.odata.org/](http://www.odata.org/).|
 |Multiple navigation properties|Unsupported|
 |Response in byte array format|Unsupported|
-|Combination of the system queries `$select` and `$expand` in draft OData services|Unsupported|
+|Combination of the system queries `$select` and `$expand` in mocked OData services|Unsupported|
 |Filter query string operator \(`$filter`\) with one of the functions `substringof(string po, string p1)`, `endswith(string p0, string p1)` or `startswith(string p0, string p1)` |Does not support input strings \(`p0` or `p1`\) containing a comma `,`.|
 |Key values containing a comma|Unsupported|
 |System query option `$expand` with multiple multi-level navigation properties with the same root navigation property|Unsupported|
