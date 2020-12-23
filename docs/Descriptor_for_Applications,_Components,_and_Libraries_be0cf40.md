@@ -301,9 +301,9 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 
 
  |
-| `openSourceComponents` |Array of directly used open source libraries for documentation purposes; not used when open source libraries are used via SAPUI5 capsulation -   `name`: Mandatory name of the open source component
+| `openSourceComponents` |Array of directly used open source libraries for documentation purposes; not used when open source libraries are used via OpenUI5 capsulation -   `name`: Mandatory name of the open source component
 
--   `version`: Required if the open source component is part of the app; not required if the open source component is part of the SAPUI5 dist layer
+-   `version`: Required if the open source component is part of the app; not required if the open source component is part of the OpenUI5 dist layer
 
 -   `packagedWithMySelf`: Indicates if the open source component is part of the app \(`true`\) or not \(`false`\)
 
@@ -361,7 +361,7 @@ Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b
 | `resources` |Relative URLs in the component, taking `embeddedBy` into account if filled, pointing to `js` \(JavaScript\) and `css` resources that are needed by the app for specifying the mandatory `uri` and an `id` \(optional\) for CSS. The JavaScript files are loaded by the `require` mechanism. The CSS files are added to the head of the HTML page as a link tag. The resources are resolved relative to the location of the `manifest.json` file.|
 | `dependencies` | Mandatory; specifies the external dependencies that are loaded by the OpenUI5 core during the initialization phase of the component and used afterwards. These are the following libraries or components:
 
--   `minUI5Version`: Mandatory; Minimum version of OpenUI5 that your component requires; this information ensures that the features of the OpenUI5 runtime version of the component are available. As OpenUI5 does not currently enforce use of the correct version, the `minUI5Version` is used for information purposes only. If the minimum SAPUI5 version criteria is not fulfilled, a warning is issued in the console log.
+-   `minUI5Version`: Mandatory; Minimum version of OpenUI5 that your component requires; this information ensures that the features of the OpenUI5 runtime version of the component are available. As OpenUI5 does not currently enforce use of the correct version, the `minUI5Version` is used for information purposes only. If the minimum OpenUI5 version criteria is not fulfilled, a warning is issued in the console log.
 
 -   `libs`: ID \(namespace\) of the libraries that the OpenUI5 core should load for use in the component. If your app requires a minimum version of the lib, specify the `minVersion` for information purposes. Specify `lazy` to indicate that the lib shall be lazy loaded.
 
@@ -781,7 +781,7 @@ Current version of the `manifest.json`
 
 For the following namespaces, the indicated teams are responsible:
 
--   sap.fe - in SAP Fiori Elements responsibility
+-   sap.fe - in SAP Fiori elements responsibility
 
 -   sap.card - in SAPUI5 responsibility
 
@@ -806,7 +806,7 @@ sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 
 ***
 
-### SAPUI5 API
+### OpenUI5 API
 
 At runtime, the `manifest.json` content can be accessed from the component via the component metadata:
 

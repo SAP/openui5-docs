@@ -39,11 +39,11 @@ sap.ui.define([
 
 ### Controller Extension with Controller Replacement Confguration
 
-Typed controllers cannot be extended by using the controller extension configuration \(`sap.ui.controllerExtensions`\). Instead, you use the controller replacement configuration \(`sap.ui.controllerReplacements`\) to extend a typed controller with the `extend` syntax and call the original methods in the custom implementation:
+Typed controllers cannot be used in the controller extension configuration \(`sap.ui.controllerExtensions`\). Instead, you have to use the controller replacement configuration \(`sap.ui.controllerReplacements`\) to extend a typed controller with the `extend` syntax and call the original methods in the custom implementation:
 
 ``` js
 sap.ui.define([
-    "samples/components/ext/sap/Main"
+    "samples/components/ext/sap/Main.controller"
 ], function(MainController) {
     "use strict";
   

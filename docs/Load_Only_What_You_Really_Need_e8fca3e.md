@@ -18,7 +18,7 @@ The amount of resources and data that your app loads will directly affect the pe
 
 ### Keep Your Library Dependencies Up To Date
 
-A library preload file, the library styles and text translations are loaded for every library you define in the application descriptor or the OpenUI5 bootstrap. Always define libraries in the manifest and remove all libraries that you do not intend to use in your code.
+Always define the libraries you use in the manifest and remove all libraries that you do not intend to use in your code. If you have no manifest, you have to specify the used libraries in the OpenUI5 bootstrap. If you specify the used libraries in either place, they are loaded optimized. This means that all used controls, styles, etc. are not requested separately. For every mentioned library, the library preload file, the library styles, and the text translations are loaded once during the application startup. No further requests are necessary while using the application, because all needed artefacts are already included in the respective library preload file.
 
 ``` json
 "sap.ui5": {
