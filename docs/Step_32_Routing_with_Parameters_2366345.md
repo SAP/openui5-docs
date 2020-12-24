@@ -112,7 +112,7 @@ sap.ui.define([
 
 		onPress: function (oEvent) {
 			*HIGHLIGHT START*var oItem = oEvent.getSource();*HIGHLIGHT END*
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.navTo("detail"*HIGHLIGHT START*, {
 				invoicePath: window.encodeURIComponent(oItem.getBindingContext("invoice").getPath().substr(1))
 			}*HIGHLIGHT END*);
@@ -133,13 +133,12 @@ To identify the object that we selected, we would typically use the key of the i
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/ui/core/UIComponent"
-], function (Controller, UIComponent) {
+	"sap/ui/core/mvc/Controller"
+], function (Controller) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
 		onInit: function () {
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
 		},
 		_onObjectMatched: function (oEvent) {

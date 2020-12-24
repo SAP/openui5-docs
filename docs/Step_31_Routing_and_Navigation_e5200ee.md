@@ -283,7 +283,7 @@ sap.ui.define([
 		…
 
 		*HIGHLIGHT START*onPress: function (oEvent) {
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.navTo("detail");
 		}*HIGHLIGHT END*
 	});
@@ -291,7 +291,7 @@ sap.ui.define([
 });
 ```
 
-We add the event handler function to the controller of our invoices list. Now it is time to navigate to the detail page by clicking an item in the invoice list. We access the router instance for our app by calling the helper method `sap.ui.core.UIComponent.getRouterFor(this)`. On the router we call the `navTo` method to navigate to the `detail` route that we specified in the routing configuration.
+We add the event handler function to the controller of our invoices list. Now it is time to navigate to the detail page by clicking an item in the invoice list. We access the router instance for our app by calling the helper method `getOwnerComponent().getRouter()`. On the router we call the `navTo` method to navigate to the `detail` route that we specified in the routing configuration.
 
 You should now see the detail page when you click an item in the list of invoices.
 

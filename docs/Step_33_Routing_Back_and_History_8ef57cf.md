@@ -53,15 +53,14 @@ On the detail page, we tell the control to display a back button by setting the 
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-*HIGHLIGHT START*	"sap/ui/core/routing/History",*HIGHLIGHT END*
-	"sap/ui/core/UIComponent"
-], function (Controller*HIGHLIGHT START*, History*HIGHLIGHT END*, UIComponent) {
+*HIGHLIGHT START*	"sap/ui/core/routing/History"*HIGHLIGHT END*
+], function (Controller*HIGHLIGHT START*, History*HIGHLIGHT END*) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
 
 		onInit: function () {
-			var oRouter = UIComponent.getRouterFor(this);
+			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
 		},
 
@@ -79,7 +78,7 @@ sap.ui.define([
 			if (sPreviousHash !== undefined) {
 				window.history.go(-1);
 			} else {
-				var oRouter = UIComponent.getRouterFor(this);
+				var oRouter = this.getOwnerComponent().getRouter();
 				oRouter.navTo("overview", {}, true);
 			}
 		}

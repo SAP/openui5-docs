@@ -231,10 +231,9 @@ A new namespace `wt` is defined on the detail view so that we can reference our 
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
-*HIGHLIGHT START*	"sap/m/MessageToast",
+*HIGHLIGHT START*	"sap/m/MessageToast"
 *HIGHLIGHT END*
-	"sap/ui/core/UIComponent"
-], function (Controller, History*HIGHLIGHT START*, MessageToast*HIGHLIGHT END*, UIComponent) {
+], function (Controller, History*HIGHLIGHT START*, MessageToast*HIGHLIGHT END*) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
@@ -254,7 +253,7 @@ sap.ui.define([
 			if (sPreviousHash !== undefined) {
 				window.history.go(-1);
 			} else {
-				var oRouter = UIComponent.getRouterFor(this);
+				var oRouter = this.getOwnerComponent().getRouter();
 				oRouter.navTo("overview", {}, true);
 			}
 		}*HIGHLIGHT START*,

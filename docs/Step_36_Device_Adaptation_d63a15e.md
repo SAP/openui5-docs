@@ -200,10 +200,9 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
 	"sap/m/MessageToast",
-*HIGHLIGHT START*	"sap/ui/model/json/JSONModel",
+*HIGHLIGHT START*	"sap/ui/model/json/JSONModel"
 *HIGHLIGHT END*
-	"sap/ui/core/UIComponent"
-], function (Controller, History, MessageToast*HIGHLIGHT START*, JSONModel*HIGHLIGHT END*, UIComponent) {
+], function (Controller, History, MessageToast*HIGHLIGHT START*, JSONModel*HIGHLIGHT END*) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
 		onInit : function () {
@@ -212,7 +211,7 @@ sap.ui.define([
 			});
 			this.getView().setModel(oViewModel, "view");
 *HIGHLIGHT END*
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
 		},
 		_onObjectMatched : …
