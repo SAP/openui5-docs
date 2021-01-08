@@ -213,7 +213,7 @@ To call actions or functions bound to a single entity, entity property, or navig
 var oModel = this.getView().getModel(),
     oTable = this.getView().byId("SalesOrders"),
     oSalesOrderContext = oTable.getSelectedItem().getBindingContext(),
-    oAction = oMoodel.bindContext("name.space.InvoiceCreated(...)", oSalesOrderContext);
+    oAction = oModel.bindContext("name.space.InvoiceCreated(...)", oSalesOrderContext);
  
 oAction.execute().then(
     function () {
