@@ -126,7 +126,6 @@ sap.ui.define([
 			*HIGHLIGHT START*// create the views based on the url/hash
 			this.getRouter().initialize();*HIGHLIGHT END*
 		},
-	});
 
 		exit : function () {
 			this._helloDialog.destroy();
