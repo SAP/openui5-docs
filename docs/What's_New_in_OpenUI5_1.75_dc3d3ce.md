@@ -18,6 +18,7 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
 ### New Features
 
+|**Accessibility Enhancement** OpenUI5 is following the SAP ‘s updated design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.1 level A and AA.|
 |**Browser and Platform Support**OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The next long-term maintenance OpenUI5 release that comes after 1.71 will be the last release to support the legacy EdgeHTML-based version of Microsoft Edge. For more information, see [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md).|
 
 ***

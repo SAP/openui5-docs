@@ -55,6 +55,7 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 28|\>=1.83 \(OpenUI5 1.83 was not released, see [2979657](https://launchpad.support.sap.com/#/notes/2979657)\)|1.27.0|
 |Version 29|\>=1.84|1.28.0|
 |Version 30|\>=1.85|1.29.0|
+|Version 31|\>=1.86|1.30.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -197,12 +198,6 @@ The content for the descriptor is contained in the following namespaces: `withou
 [`sap.ui`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui)
 
 [`sap.ui5`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_ui5)
-
-[`sap.platform.abap`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_platform_abap)
-
-[`sap.platform.hcp`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_platform_hcp)
-
-[`sap.fiori`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_fiori)
 
 [`sap.card`](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_sap_card)
 
@@ -500,7 +495,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.29.0",
+    "_version": "1.30.0",
  
     "start_url": "index.html",
  
@@ -590,7 +585,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.85.0",
+            "minUI5Version": "1.86.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
@@ -695,7 +690,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.85.0",
+            "minUI5Version": "1.86.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
