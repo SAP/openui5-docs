@@ -51,21 +51,10 @@ Master-detail-detail pattern with `sap.f.FlexibleColumnLayout`, `sap.f.DynamicPa
 
 ***
 
-<a name="loioc4de2df385174e58a689d9847c7553bd__section_e2n_dmw_mbb"/>
-
-### Choose your development environment
-
-You can do this tutorial either with SAP Web IDE or choose your own development environment:
-
--   If you use SAP Web IDE, you don't need to set up a development environment, a server and so on. All you need is a browser and an account for the SAP Cloud Platform. If you don't have an account yet, you can easily get a trial account. We recommend to continue with the SAP Web IDE as it has out-of-the-box support for SAPUI5 and because there is no setup overhead at all.
-
-    In this case, you start with the template that is available in SAP Web IDE as described in step 1 of this tutorial.
-
--   If you want to use your local development environment and deploy to any Web server of your choice, you can download the code for step 1 from the *Samples* in the Demo Kit at [SAP Fiori 2.0 App - Step 1](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.01/preview).
-
-
 > Note:
-> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the app runs by calling the `webapp/index.html` file.
+> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
+> 
+> You can view and download the files for all steps in the Demo Kit at [SAP Fiori 2.0 App](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
 > For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\):
 > 

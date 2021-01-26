@@ -14,7 +14,7 @@ Before you start using OpenUI5 productively, please read the **important informa
 
 ***
 
-![](loio4f4c1bf0955e4de9be06a3f7817716b1_LowRes.png)
+![](loio3f296cdc8d764a25b8e7e749488a244d_LowRes.png)
 
 -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
 -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
