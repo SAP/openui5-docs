@@ -196,7 +196,7 @@
             -   [Step 5: Adding Actions to the Worklist](Step_5_Adding_Actions_to_the_Worklist_2da220f.md)
             -   [Step 6: Extending the Detail Page](Step_6_Extending_the_Detail_Page_b561d14.md)
             -   [Step 7: Adding a Comments Section](Step_7_Adding_a_Comments_Section_c73dfe3.md)
-        -   [SAP Fiori 2.0 App](SAP_Fiori_2.0_App_c4de2df.md)
+        -   [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md)
             -   [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md)
             -   [Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md)
             -   [Step 3: Using Dynamic Page for the Master View](Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md)

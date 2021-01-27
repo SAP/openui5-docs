@@ -14,7 +14,7 @@ In this step, we add `sap.uxap.ObjectPageLayout` to the detail page to display m
 
 The `ObjectPageLayout` control provides a layout that allows apps to easily display information related to a business object.
 
-As of version 1.52, the control can have the same dynamic header that is used in the `sap.f.DynamicPage`. This ensures the availability of all the latest SAP Fiori 2.0 features, such as, having breadcrumbs navigation, navigation actions, and expanding/collapsing the header by tapping/clicking the title area or by selecting the available arrow buttons. For more information, see [Object Page Headers](Object_Page_Headers_d2ef009.md).
+As of version 1.52, the control can have the same dynamic header that is used in the `sap.f.DynamicPage`. This ensures the availability of the SAP Fiori features, such as, having breadcrumbs navigation, navigation actions, and expanding/collapsing the header by tapping/clicking the title area or by selecting the available arrow buttons. For more information, see [Object Page Headers](Object_Page_Headers_d2ef009.md).
 
 Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a more structured page content using an optional anchor bar and block content wrapped in sections and subsections that structure the information. For more information, see [Object Page Layout](Object_Page_Layout_2e61ab6.md).
 
@@ -37,7 +37,13 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 5](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.05/preview).
+You can view and download all files at [Flexible Column Layout App - Step 5](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.05/preview).
+
+***
+
+<a name="loiod1ffe611194b4c7891772b0cce84648e__section_qhh_ylj_l4b"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 {
@@ -74,6 +80,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 5](https://open
 
 First, we add the related libraries that we will need to the dependencies in the `manifest.json`.
 
+***
+
+<a name="loiod1ffe611194b4c7891772b0cce84648e__section_s1m_xlj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
+
 ``` xml
 <mvc:View
 *HIGHLIGHT START*	xmlns="sap.uxap"
@@ -94,6 +106,12 @@ First, we add the related libraries that we will need to the dependencies in the
 ```
 
 We add an instance of the `sap.uxap.ObjectPageLayout` control.
+
+***
+
+<a name="loiod1ffe611194b4c7891772b0cce84648e__section_hqw_vlj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -134,6 +152,12 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 ```
 
 We add the recommended dynamic header with an instance of the `ObjectPageDynamicHeaderTitle` in the `headerTitle` aggregation of the `ObjectPageLayout`. For more information, see [Object Page Dynamic Header](Object_Page_Dynamic_Header_6e340c1.md) and [Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md).
+
+***
+
+<a name="loiod1ffe611194b4c7891772b0cce84648e__section_rhj_slj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 		...
@@ -179,7 +203,13 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 </mvc:View>
 ```
 
-We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as the recommended SAP Fiori 2.0 control for displaying images.
+We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as the recommended SAP Fiori control for displaying images.
+
+***
+
+<a name="loiod1ffe611194b4c7891772b0cce84648e__section_yhv_qlj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 		...

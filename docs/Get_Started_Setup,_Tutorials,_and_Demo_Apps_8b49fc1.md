@@ -42,7 +42,7 @@ Set up your development environment and go through our tutorials. They introduce
 -   [Testing](Testing_291c912.md)
 -   [Mock Server](Mock_Server_3a9728e.md)
 -   [Worklist App](Worklist_App_6a6a621.md)
--   [SAP Fiori 2.0 App](SAP_Fiori_2.0_App_c4de2df.md)
+-   [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md)
 
 ***
 

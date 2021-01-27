@@ -12,10 +12,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In this step, we use the `sap.f.FlexibleColumnLayoutSemanticHelper` class to implement the recommended UX patterns for layout changes in the app.
 
-`FlexibleColumnLayout` gives you the freedom to implement any app logic that involves changing the layout \(showing/hiding columns\) as a result of the user’s actions. However, there are certain UX patterns that are considered as optimal and are recommended for SAP Fiori 2.0 apps. The `FlexibleColumnLayoutSemanticHelper` class helps you implement them by giving you tips about what layout to display when.
+`FlexibleColumnLayout` gives you the freedom to implement any app logic that involves changing the layout \(showing/hiding columns\) as a result of the user’s actions. However, there are certain UX patterns that are considered as optimal and are recommended for SAP Fiori apps. The `FlexibleColumnLayoutSemanticHelper` class helps you implement them by giving you tips about what layout to display when.
 
 > Note:
-> Using this class is NOT mandatory in order to build an app with the `FlexibleColumnLayout`, but makes it easier to achieve the optimal UX recommended in the SAP Fiori 2.0 design guidelines.
+> Using this class is NOT mandatory in order to build an app with the `FlexibleColumnLayout`, but makes it easier to achieve the optimal UX recommended in the SAP Fiori design guidelines.
 > 
 > 
 
@@ -40,7 +40,13 @@ Master-detail-detail pattern using `sap.f.FlexibleColumnLayoutSemanticHelper`<a 
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 11](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.11/preview).
+You can view and download all files at [Flexible Column Layout App - Step 11](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.11/preview).
+
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_zv4_spj_l4b"/>
+
+### webapp/Component.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -123,6 +129,12 @@ sap.ui.define([
 
 First, we add a `getHelper` function in the `Component.js` file in order to pass the default `sap.f.FlexibleColumnLayout` parameters.
 
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_whp_rpj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
+
 ``` xml
 				...
 				<snappedHeading>
@@ -180,6 +192,12 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 ```
 
 We add navigation actions for entering and exiting fullscreen and closing the column for the detail page.
+
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_f1n_qpj_l4b"/>
+
+### webapp/controller/Detail.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -254,6 +272,12 @@ sap.ui.define([
 
 We create the handlers needed for the navigation actions.
 
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_vjq_ppj_l4b"/>
+
+### webapp/view/DetailDetail.view.xml \[MODIFY\]
+
 ``` xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
@@ -299,6 +323,12 @@ We create the handlers needed for the navigation actions.
 ```
 
 Again, we add navigation actions for entering and exiting fullscreen and closing the column for the detail-detail page.
+
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_alt_4pj_l4b"/>
+
+### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -359,6 +389,12 @@ sap.ui.define([
 
 And respectively, we create the handlers needed for the navigation actions in the detail-detail controller.
 
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_t4v_npj_l4b"/>
+
+### webapp/controller/Master.controller.js \[MODIFY\]
+
 ``` js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
@@ -418,6 +454,12 @@ sap.ui.define([
 ```
 
 We get the next layout from the semantic helper rather than hard coding them ourselves.
+
+***
+
+<a name="loio276f001c5a934f6e8faedee6ea22aba1__section_rds_mpj_l4b"/>
+
+### webapp/controller/App.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([

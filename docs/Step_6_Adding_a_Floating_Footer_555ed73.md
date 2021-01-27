@@ -30,7 +30,13 @@ In this step, we add a floating footer to the detail page.
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 6](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.06/preview).
+You can view and download all files at [Flexible Column Layout App - Step 6](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.06/preview).
+
+***
+
+<a name="loio555ed73903b34c70a23ba13af1a5d71e__section_jtj_mnj_l4b"/>
+
+### webapp/view/App.view.xml \[MODIFY\]
 
 ```
 <mvc:View
@@ -51,6 +57,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 6](https://open
 
 First, we communicate changes to the layout with the use of the `stateChange` event.
 
+***
+
+<a name="loio555ed73903b34c70a23ba13af1a5d71e__section_dp4_lnj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
+
 ```
 		...
 		</sections>
@@ -67,6 +79,12 @@ First, we communicate changes to the layout with the use of the `stateChange` ev
 ```
 
 We add a footer inside the `sap.uxap.ObjectPageLayout`.
+
+***
+
+<a name="loio555ed73903b34c70a23ba13af1a5d71e__section_nq4_knj_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -107,6 +125,12 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 ```
 
 We add a `press` event handler to the *Edit* button.
+
+***
+
+<a name="loio555ed73903b34c70a23ba13af1a5d71e__section_z1v_jnj_l4b"/>
+
+### webapp/controller/Detail.controller.js \[NEW\]
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([

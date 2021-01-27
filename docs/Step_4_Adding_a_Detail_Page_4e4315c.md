@@ -30,7 +30,13 @@ Master Page with Empty Detail Page<a name="loio4e4315cef89e48ceb60b4dc12f5be2d2_
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 4](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.04/preview).
+You can view and download all files at [Flexible Column Layout App - Step 4](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.04/preview).
+
+***
+
+<a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_a5b_clj_l4b"/>
+
+### webapp/view/Detail.view.xml \[NEW\]
 
 ``` xml
 *HIGHLIGHT START*<mvc:View
@@ -39,6 +45,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 4](https://open
 ```
 
 First, we create a blank detail page.
+
+***
+
+<a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_t3z_1lj_l4b"/>
+
+### webapp/view/App.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -58,6 +70,12 @@ First, we create a blank detail page.
 ```
 
 We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation in the `App.view.xml` file. This way the detail page will be displayed in the middle column.
+
+***
+
+<a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_xw1_1lj_l4b"/>
+
+### webapp/view/Master.view.xml \[MODIFY\]
 
 ``` xml
 		...
@@ -86,6 +104,12 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 ```
 
 We add a `press` handler to each `ColumnListItem` in the `Master.view.xml`.
+
+***
+
+<a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_nxz_ykj_l4b"/>
+
+### webapp/controller/Master.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([

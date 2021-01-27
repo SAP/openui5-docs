@@ -30,7 +30,11 @@ Master page with `sap.f.DynamicPage`<a name="loio0830bce271bf42d98c2740bed43d435
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 3](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.03/preview).
+You can view and download all files at [Flexible Column Layout App - Step 3](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.03/preview).
+
+webapp/manifest.json \[MODIFY\]
+
+***
 
 ``` json
 {
@@ -66,6 +70,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 3](https://open
 
 First, we add the `sap.m` library as a dependency in the `manifest.json`.
 
+***
+
+<a name="loio0830bce271bf42d98c2740bed43d435d__section_ddz_pjj_l4b"/>
+
+### webapp/index.html \[MODIFY\]
+
 ``` html
 	...
 	<script id="sap-ui-bootstrap"
@@ -84,6 +94,12 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 ```
 
 We add the link to the mock data that is used in the app.
+
+***
+
+<a name="loio0830bce271bf42d98c2740bed43d435d__section_h5w_4jj_l4b"/>
+
+### webapp/Component.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -113,6 +129,12 @@ sap.ui.define([
 ```
 
 We create the `init` method in the `Component.js` to set the model.
+
+***
+
+<a name="loio0830bce271bf42d98c2740bed43d435d__section_shq_mjj_l4b"/>
+
+### webapp/view/Master.view.xml \[NEW\]
 
 ``` xml
 *HIGHLIGHT START*<mvc:View
@@ -193,6 +215,12 @@ We create the `init` method in the `Component.js` to set the model.
 
 We create the master view using `sap.f.DynamicPage`. The page consists of a list with all products.
 
+***
+
+<a name="loio0830bce271bf42d98c2740bed43d435d__section_zrl_ljj_l4b"/>
+
+### webapp/view/App.view.xml \[MODIFY\]
+
 ``` xml
 <mvc:View
 	displayBlock="true"
@@ -208,6 +236,12 @@ We create the master view using `sap.f.DynamicPage`. The page consists of a list
 ```
 
 We add the master view in `FlexibleColumnLayout's` `beginColumnPages` aggregation.
+
+***
+
+<a name="loio0830bce271bf42d98c2740bed43d435d__section_ovn_jjj_l4b"/>
+
+### webapp/controller/Master.controller.js \[NEW\]
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([

@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 2: Creating an Empty Flexible Column Layout
 
-In this step, we add an instance of the `sap.f.FlexibleColumnLayout` in the main view of the app.
+In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in the main view of the app.
 
 ***
 
@@ -27,11 +27,17 @@ An empty instance of the `sap.f.FlexibleColumnLayout` control<a name="loiobf38e4
 
 ***
 
-<a name="loiobf38e4de70084477b9e104bf6f6d7737__section_fd2_4dd_lbb"/>
+<a name="loiobf38e4de70084477b9e104bf6f6d7737__section_yzh_v3j_l4b"/>
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 2](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.02/preview).
+You can view and download all files at [Flexible Column Layout App - Step 2](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.02/preview).
+
+***
+
+<a name="loiobf38e4de70084477b9e104bf6f6d7737__section_cyn_x3j_l4b"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 {
@@ -64,7 +70,13 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 2](https://open
 }
 ```
 
-First, we add the `sap.f` library as a dependency in the `manifest.json` file as most of the SAP Fiori 2.0 controls are in this library.
+First, we add the `sap.f` library as a dependency in the `manifest.json` file.
+
+***
+
+<a name="loiobf38e4de70084477b9e104bf6f6d7737__section_w1v_z3j_l4b"/>
+
+### webapp/view/App.view.xml \[NEW\]
 
 ``` xml
 *HIGHLIGHT START*<mvc:View
@@ -77,6 +89,12 @@ First, we add the `sap.f` library as a dependency in the `manifest.json` file as
 ```
 
 We create a new **`App.view.xml`** that contains an instance of the `sap.f.FlexibleColumnLayout` control. Keep in mind that there is no content yet and the app appears as an empty page.
+
+***
+
+<a name="loiobf38e4de70084477b9e104bf6f6d7737__section_fd2_4dd_lbb"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 {

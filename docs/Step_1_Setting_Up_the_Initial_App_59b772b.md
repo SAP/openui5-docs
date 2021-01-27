@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 We start by setting up a basic OpenUI5 app for this tutorial.
 
-The structure in this step will be used throughout the rest of this tutorial. The basic OpenUI5 app created in this step will be extended in the subsequent steps to illustrate the main features of an SAP Fiori 2.0 app.
+The structure in this step will be used throughout the rest of this tutorial. The basic OpenUI5 app created in this step will be extended in the subsequent steps to illustrate the main `FlexibleColumnLayout` features.
 
 ***
 
@@ -33,7 +33,7 @@ The basic OpenUI5 app<a name="loio59b772bfac5241b89c16b12395c1116c__fig_r1j_pst_
 
 ### Setup
 
-To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [SAP Fiori 2.0 App - Step 1](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2/sample/sap.f.tutorial.fiori2.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Flexible Column Layout App - Step 1](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2/sample/sap.f.tutorial.fiori2.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 
 Depending on your development environment you might have to adjust resource paths and configuration entries. The project structure and the files coming with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

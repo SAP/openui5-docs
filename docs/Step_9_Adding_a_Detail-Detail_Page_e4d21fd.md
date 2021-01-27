@@ -30,7 +30,13 @@ Detail-detail page displaying the name of the selected supplier<a name="loioe4d2
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 9](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.09/preview).
+You can view and download all files at [Flexible Column Layout App - Step 9](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.09/preview).
+
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_i1z_w4j_l4b"/>
+
+### webapp/view/DetailDetail.view.xml \[NEW\]
 
 ``` xml
 *HIGHLIGHT START*<mvc:View
@@ -53,6 +59,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 9](https://open
 ```
 
 We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
+
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_ocd_w4j_l4b"/>
+
+### webapp/controller/DetailDetail.controller.js \[NEW\]
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([
@@ -89,6 +101,12 @@ We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
 ```
 
 We create the detail-detail page controller.
+
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_ubh_v4j_l4b"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 			...
@@ -140,6 +158,12 @@ We create the detail-detail page controller.
 
 We add the detail-detail page to our existing routes in the `manifest.json`.
 
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_k5k_54j_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
+
 ``` xml
 			...
 			<ObjectPageSection title="Suppliers">
@@ -169,6 +193,12 @@ We add the detail-detail page to our existing routes in the `manifest.json`.
 ```
 
 We add a `press` event handler for each item in the *SUPPLIERS* table in the detail page.
+
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_iyl_t4j_l4b"/>
+
+### webapp/controller/Detail.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -201,6 +231,12 @@ sap.ui.define([
 ```
 
 We add an `onSupplierPress` function in the detail page controller in order to pass the data for the selected supplier and navigate to the detail-detail page.
+
+***
+
+<a name="loioe4d21fd03edb49da82cbaab9dbd274e8__section_lnq_q4j_l4b"/>
+
+### webapp/controller/App.controller.js \[MODIFY\]
 
 ``` js
 		...

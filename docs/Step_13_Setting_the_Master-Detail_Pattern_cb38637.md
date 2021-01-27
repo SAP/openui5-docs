@@ -32,7 +32,13 @@ Master-detail pattern with `FlexibleColumnLayout`<a name="loiocb3863746ea14d3698
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 13](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.13/preview).
+You can view and download all files at [Flexible Column Layout App - Step 13](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.13/preview).
+
+***
+
+<a name="loiocb3863746ea14d3698a8b6cc2c62832d__section_b2w_gqj_l4b"/>
+
+### webapp/Component.js \[MODIFY\]
 
 ``` js
 		...

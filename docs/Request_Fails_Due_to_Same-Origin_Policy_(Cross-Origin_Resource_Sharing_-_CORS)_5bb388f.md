@@ -61,7 +61,7 @@ SAP Business Application Studio and SAP Cloud Platform offer destinations that a
 
 #### Create Destination in SAP Cloud Platform Cockpit
 
-The destination is configured inside the SAP Cloud Platform Cockpit. For more information, see [Create a Destination within the Cloud Foundry Environment](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
+The destination is configured inside the SAP Cloud Platform cockpit. For more information, see [Create a Destination within the Cloud Foundry Environment](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
 
 ***
 

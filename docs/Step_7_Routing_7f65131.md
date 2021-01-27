@@ -31,7 +31,13 @@ Changing layouts based on the `sap.f.routing.Router` \(no visual changes to last
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 7](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.07/preview).
+You can view and download all files at [Flexible Column Layout App - Step 7](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.07/preview).
+
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_jqg_b4j_l4b"/>
+
+### webapp/views/App.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -48,7 +54,13 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 7](https://open
 </mvc:View>
 ```
 
-We remove the hardcoded `beginColumnPages` and `endColumnPages` aggregations \(since the router will add them automatically from now on\), and we bind the `layout` property so that it can be changed easily from the controller.
+We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(since the router will add them automatically from now on\), and we bind the `layout` property so that it can be changed easily from the controller.
+
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_xmq_znj_l4b"/>
+
+### webapp/controller/App.controller.js \[NEW\]
 
 ``` js
 *HIGHLIGHT START*sap.ui.define([
@@ -91,6 +103,12 @@ We remove the hardcoded `beginColumnPages` and `endColumnPages` aggregations \(s
 ```
 
 We access the router and bind to its `routeMatched` event. For more information, see [Router](Router_c6da1a5.md).
+
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_agl_ynj_l4b"/>
+
+### webapp/controller/Master.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -151,6 +169,12 @@ sap.ui.define([
 
 We change the event handler for pressing an item from the master view to use the router instead of manually manipulating the `FlexibleColumnLayout` instance. When we call the router's `navTo` method, the router itself will change the `layout` property of the `FlexibleColumnLayout`.
 
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_m24_xnj_l4b"/>
+
+### webapp/controller/Detail.controller.js \[MODIFY\]
+
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
@@ -192,6 +216,12 @@ sap.ui.define([
 ```
 
 We bind the table in the detail view to reflect the currently selected product from the master view.
+
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_tmp_wnj_l4b"/>
+
+### webapp/Component.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -243,6 +273,12 @@ sap.ui.define([
 ```
 
 We initialize the router and bind to its `onBeforeRouteMatched` event, and we introduce a model, which will be used for the layout.
+
+***
+
+<a name="loio7f651316d396400d88835adb0d021532__section_xr1_snj_l4b"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 {

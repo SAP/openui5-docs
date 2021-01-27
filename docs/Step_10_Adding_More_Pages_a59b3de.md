@@ -30,7 +30,13 @@ Additional page displayed in a separate fullscreen column<a name="loioa59b3de038
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 10](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.10/preview).
+You can view and download all files at [Flexible Column Layout App - Step 10](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.10/preview).
+
+***
+
+<a name="loioa59b3de038874f879cf20bfc3287bd7c__section_wql_2pj_l4b"/>
+
+### webapp/view/AboutPage.view.xml \[NEW\]
 
 ``` xml
 *HIGHLIGHT START*<mvc:View
@@ -51,6 +57,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 10](https://ope
 ```
 
 We create a simple additional page view.
+
+***
+
+<a name="loioa59b3de038874f879cf20bfc3287bd7c__section_cbl_dpj_l4b"/>
+
+### webapp/manifest.json \[MODIFY\]
 
 ``` json
 			...
@@ -112,6 +124,12 @@ We create a simple additional page view.
 
 Similar to the previous step, we add the additional page view to our existing routes in the `manifest.json`.
 
+***
+
+<a name="loioa59b3de038874f879cf20bfc3287bd7c__section_o45_cpj_l4b"/>
+
+### webapp/view/DetailDetail.view.xml \[MODIFY\]
+
 ``` xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
@@ -136,6 +154,12 @@ Similar to the previous step, we add the additional page view to our existing ro
 ```
 
 We add a link in the detail-detail page with a `press` event handler.
+
+***
+
+<a name="loioa59b3de038874f879cf20bfc3287bd7c__section_z3c_cpj_l4b"/>
+
+### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([

@@ -32,7 +32,13 @@ Initial layout with two columns<a name="loioa96fbe44ae6544589a096041f99d38c2__fi
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 12](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.12/preview).
+You can view and download all files at [Flexible Column Layout App - Step 12](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.12/preview).
+
+***
+
+<a name="loioa96fbe44ae6544589a096041f99d38c2__section_wlp_xpj_l4b"/>
+
+### webapp/Component.js \[MODIFY\]
 
 ``` js
 		...

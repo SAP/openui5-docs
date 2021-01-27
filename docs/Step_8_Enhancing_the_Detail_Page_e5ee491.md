@@ -31,7 +31,13 @@ Enhanced detail page displaying information specific to the selected product<a n
 
 ### Coding
 
-You can view and download all files at [SAP Fiori 2.0 App - Step 8](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.08/preview).
+You can view and download all files at [Flexible Column Layout App - Step 8](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.08/preview).
+
+***
+
+<a name="loioe5ee491f69224f038a0c147480dbd436__section_hml_l4j_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -74,6 +80,12 @@ You can view and download all files at [SAP Fiori 2.0 App - Step 8](https://open
 
 Using the `expandedHeading` and `snappedHeading` aggregations, we specify different content to be displayed in the title area depending on whether the header is expanded or collapsed.
 
+***
+
+<a name="loioe5ee491f69224f038a0c147480dbd436__section_aym_k4j_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
+
 ``` xml
 		...
 		<headerContent>
@@ -102,6 +114,12 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 ```
 
 We adjust the `headerContent` so that the `sap.f.Avatar` displays the specific image of the selected product and the header displays the product's Main Category, Category and Price information, which is provided in the `products.json` we're using.
+
+***
+
+<a name="loioe5ee491f69224f038a0c147480dbd436__section_b2m_j4j_l4b"/>
+
+### webapp/view/Detail.view.xml \[MODIFY\]
 
 ``` xml
 		...

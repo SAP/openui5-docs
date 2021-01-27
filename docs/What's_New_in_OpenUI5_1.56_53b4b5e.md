@@ -233,7 +233,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 ### Documentation
 
-We have a new tutorial: [SAP Fiori 2.0 App](SAP_Fiori_2.0_App_c4de2df.md). In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
+We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md). In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
 
 ***
 
