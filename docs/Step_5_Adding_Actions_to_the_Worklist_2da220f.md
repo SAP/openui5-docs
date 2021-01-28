@@ -26,11 +26,11 @@ Actions are now available in the footer bar<a name="loio2da220ff496c4b0f9ce29208
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.05/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 5](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.05).
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 ...
@@ -61,7 +61,7 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -80,7 +80,7 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 				<Title text="{i18n>worklistTitle}"/>
 		  </semantic:titleHeading>
 		  ...
-	 </semantic:content>
+	 </semantic:headerContent>
 	 <semantic:sendEmailAction>
 		  <semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
 	 </semantic:sendEmailAction>
@@ -98,7 +98,7 @@ Now we add the buttons to the footer bar of the page. The two semantic actions `
 
 ***
 
-#### webapp/controller/Worklist.controller.js
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -252,7 +252,7 @@ In a real scenario, you could have a counter for error responses, and one for su
 
 ***
 
-#### webapp/i18n/i18n.properties
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ``` prefs
 

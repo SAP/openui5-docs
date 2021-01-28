@@ -26,11 +26,11 @@ Detail page with more product information<a name="loiob561d146f9114b029bd60fa26d
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.06/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 6](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.06) .
 
 ***
 
-#### webapp/view/Object.view.xml
+#### webapp/view/Object.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -138,7 +138,7 @@ Below the object header we can use `sap.m.Panel` to display some additional info
 
 ***
 
-#### webapp/i18n/i18n.properties
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ``` prefs
 ...

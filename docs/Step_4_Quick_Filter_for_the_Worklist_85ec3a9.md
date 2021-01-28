@@ -26,11 +26,11 @@ A quick filter allows filtering the product table<a name="loio85ec3a9454ac4eb1a9
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Worklist App - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.04/preview).
+You can view and download all files in the Demo Kit at [Worklist App - Step 4](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.04).
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 <mvc:View
@@ -43,12 +43,11 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 4](h
 		navButtonPress="onNavBack"
 		showNavButton="true"
 		title="{i18n>worklistViewTitle}">
-		<semantic:content>
+		<semantic:*HIGHLIGHT START*headerContent*HIGHLIGHT END*>
 *HIGHLIGHT START*			<IconTabBar
 				id="iconTabBar"
 				select=".onQuickFilter"
-				expandable="false"
-				headerBackgroundDesign="Transparent">
+				expandable="false">
 				<items>
 					<IconTabFilter
 						key="all"
@@ -83,7 +82,7 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 4](h
 			</IconTabBar>
 *HIGHLIGHT END*
 
-		</semantic:content>
+		</semantic:*HIGHLIGHT START*headerContent*HIGHLIGHT END*>
 		<semantic:sendEmailAction>
 			<semantic:SendEmailAction
 				id="shareEmail"
@@ -120,7 +119,7 @@ We now update the view and add the new UI for the quick filter to the content ag
 
 ***
 
-#### webapp/controller/Worklist.controller.js
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
 ...
@@ -176,7 +175,7 @@ Creating a simple filter requires a binding path as first parameter of the filte
 
 ***
 
-#### webapp/controller/Worklist.controller.js
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
 ...
@@ -229,7 +228,7 @@ onUpdateFinished: function(oEvent) {
 In the `onUpdateFinished` function, we get the count of all products by triggering a read operation on the model with the appropriate filter. The filter is a helper object of OpenUI5 that defines the condition for each tab on the data binding level. We already created the filters in the `onInit` function.
 
 > Note:
-> The`v2.ODataModel` will automatically bundle these `read` requests to one batch request to the server \(if batch mode is enabled\).
+> The `v2.ODataModel` will automatically bundle these `read` requests to one batch request to the server \(if batch mode is enabled\).
 > 
 > 
 
@@ -237,7 +236,7 @@ In the `success` handler of each `read` operation we update the corresponding pr
 
 ***
 
-#### webapp/controller/Worklist.controller.js
+#### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
 ...
@@ -265,7 +264,7 @@ The filters are always applied as an array on the binding level, so you don't ne
 
 ***
 
-#### webapp/i18n/i18n.properties
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ``` prefs
 
@@ -296,5 +295,5 @@ Now run the app again and click the filter icons on top of the table. The produc
 **Related information**  
 
 
-[API Reference: `sap.ui.model.ListBinding.filter`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.ListBinding.html)
+[API Reference: `sap.ui.model.ListBinding.filter`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding)
 

@@ -26,11 +26,11 @@ Comments section added to the detail page<a name="loioc73dfe312f104664954749c5c3
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.07/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 7](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.07) .
 
 ***
 
-#### webapp/view/Object.view.xml
+#### webapp/view/Object.view.xml \[MODIFY\]
 
 ``` xml
 
@@ -87,7 +87,7 @@ The template for each row is a `FeedListItem` control. We configure the `FeedLis
 
 ***
 
-#### webapp/controller/Object.controller.js
+#### webapp/controller/Object.controller.js \[MODIFY\]
 
 ``` js
 ...
@@ -151,7 +151,7 @@ Finally, the new entry is added to the named model called `productFeedback`. Thi
 
 ***
 
-#### webapp/model/models.js
+#### webapp/model/models.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -178,7 +178,7 @@ However, this model is not yet accessible throughout our app. Let’s fix this n
 
 ***
 
-#### webapp/Component.js
+#### webapp/Component.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -216,7 +216,7 @@ Now it’s time to make the named model `productFeedback` available to our app. 
 
 ***
 
-#### webapp/i18n/i18n.properties
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ``` prefs
 ...
@@ -241,5 +241,5 @@ You can test the new features by navigating to the details page of any given pro
 
 ### Summary
 
-You have learned how to use SAP Web IDE to create a simple worklist app from a template and you know where to find the code in the *Samples*. Based on the initial app you have seen how easy it can be to generate or download initial code and to extend it according to your own requirements. This tutorial also illustrated how to communicate easily with an OData back end using the OData V2 model. Furthermore, it illustrated how to use the mock server with both generated mock data and more realistic data.
+Based on the initial app you have seen how easy it can be to generate or download initial code and to extend it according to your own requirements. This tutorial also illustrated how to communicate easily with an OData back end using the OData V2 model. Furthermore, it illustrated how to use the mock server with both generated mock data and more realistic data.
 

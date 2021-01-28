@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 2: Custom Mock Data
 
-In this step, we want to change the mock data of the initial app. The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
+In this step, we want to change the mock data of the initial app.
 
 ***
 
@@ -28,6 +28,8 @@ The product list of the initial app with custom mock data<a name="loio311890311f
 
  ![](loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data") 
 
+The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
+
 The `webapp/localService/metadata.xml` file used by the mock server describes our OData service. The service only has two OData entities, and the data for these two entities is located in the folder `webapp/localService/mockdata`:
 
 -   Products
@@ -43,11 +45,11 @@ The `webapp/localService/metadata.xml` file used by the mock server describes ou
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.02/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 2](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.02).
 
 ***
 
-#### webapp/localService/mockdata/Products.json \(New\)
+#### webapp/localService/mockdata/Products.json \[NEW\]
 
 ``` js
 *HIGHLIGHT START*[
@@ -254,7 +256,7 @@ First create a new `mockdata` folder inside `webapp/localService`. Create a `Pro
 
 ***
 
-#### webapp/localService/mockdata/Suppliers.json \(New\)
+#### webapp/localService/mockdata/Suppliers.json \[NEW\]
 
 ``` js
 *HIGHLIGHT START*[
@@ -344,7 +346,7 @@ Create a `Suppliers.json` file, and copy and paste the code.
 You can now run the app again and see the mock data in your app.
 
 > Note:
-> In order to get realistic mock data you can call a real OData service directly in your browser to receive the real data of a given `Entity` or `EntitySet`. Make sure that you call the service with the system option `$format=json`, that is `http://services.odata.org/V2/Northwind/Northwind.svc/Products?$format=json`. This will return the data in JSON format, which is the format required for our mock data. This data is put into a local file in your application’s `webapp/localService/mockdata` folder. The file name is expected to be the name of the corresponding `EntitySet` ends with `.json`, for example `Products.json`. The obtained data from the OData service can serve as a first set of mock data, which you can change to your needs if necessary. SAP Web IDE also offers a dedicated editor for mock data that makes the maintenance of the data even easier.
+> In order to get realistic mock data you can call a real OData service directly in your browser to receive the real data of a given `Entity` or `EntitySet`. Make sure that you call the service with the system option `$format=json`, that is `http://services.odata.org/V2/Northwind/Northwind.svc/Products?$format=json`. This will return the data in JSON format, which is the format required for our mock data. This data is put into a local file in your application’s `webapp/localService/mockdata` folder. The file name is expected to be the name of the corresponding `EntitySet` ends with `.json`, for example `Products.json`. The obtained data from the OData service can serve as a first set of mock data, which you can change to your needs if necessary.
 > 
 > 
 

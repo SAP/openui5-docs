@@ -26,11 +26,11 @@ The improved worklist table with new columns and formatting<a name="loio84100bcf
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Worklist App - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.worklist.03/preview).
+You can view and download all files in the Demo Kit at [Worklist App - Step 3](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.03).
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 …
@@ -80,7 +80,7 @@ We expand the supplier because we want to avoid sending one additional request f
 
 ***
 
-#### webapp/localService/metadata.xml
+#### webapp/localService/metadata.xml \[MODIFY\]
 
 ``` xml
 <EntityType Name="Product">
@@ -110,7 +110,7 @@ When using a real OData service, the interface would be available by calling the
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 …
@@ -178,7 +178,7 @@ Let's have a detailed look at the columns:
 
 ***
 
-#### webapp/model/formatter.js
+#### webapp/model/formatter.js \[MODIFY\]
 
 ``` js
 sap.ui.define([
@@ -232,7 +232,7 @@ We add a new formatter function `quantityState` to the `webapp/model/formatter.j
 
 ***
 
-#### webapp/view/Worklist.view.xml
+#### webapp/view/Worklist.view.xml \[MODIFY\]
 
 ``` xml
 …
@@ -285,7 +285,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 
 ***
 
-#### webapp/i18n/i18n.properties
+#### webapp/i18n/i18n.properties \[MODIFY\]
 
 ``` prefs
 #XTIT: The title of the column containing Product name
@@ -312,48 +312,20 @@ tableNoDataText=No products are currently available
 Finally, we modify the existing column names in the resource bundle file `webapp/i18n/i18n.properties` to match our scenario and add the new texts for the column titles.
 
 > Note:
-> The `webapp/i18n/i18n.properties` file contains some annotations for each key in the file. These annotations offer some more context, which can help translators to better interpret the semantics of the text belonging to the keys. An example for such an annotation is XTIT in the`i18n.properties` file above, which tells that the corresponding key is supposed to be used as a title. The guidelines at [https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md]() give you a better idea of how this can be used. Be aware that this is how SAP uses the annotations internally. In case you want to use this approach to work with your own translators make sure that you agree on a common set of allowed annotations that everybody understands.
+> The `webapp/i18n/i18n.properties` file contains some annotations for each key in the file. These annotations offer some more context, which can help translators to better interpret the semantics of the text belonging to the keys. An example for such an annotation is XTIT in the `i18n.properties` file above, which tells that the corresponding key is supposed to be used as a title. The guidelines at [https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md]() give you a better idea of how this can be used. Be aware that this is how SAP uses the annotations internally. In case you want to use this approach to work with your own translators make sure that you agree on a common set of allowed annotations that everybody understands.
 > 
 > 
 
 > Note:
-> **Testing the Responsiveness of the App**
+> **Testing the responsiveness of the app**
 > 
-> In the previous code blocks of this step we made sure that our table is responsive. Depending on the device type columns are hidden, displayed as a popin, or displayed without a popin. Now, we want to test the responsiveness without the having different devices. This can be done in different ways, we will cover two options:
+> In the previous code blocks of this step we made sure that our table is responsive. Depending on the device type, columns are hidden, displayed as a popin, or displayed without a popin. Now, we want to test the responsiveness without the having different devices. If you use the Google Chrome browser, you can also use its great developer tools to test the responsiveness of your app:
 > 
-> -   **Testing the responsiveness with the SAP Web IDE**
+> 1.  Call the app and open the developer tools in Chrome with *F12*.
 > 
->     SAP Web IDE can simulate different screen sizes. You just have to make sure that the run configuration is set up correctly:
+> 2.  Choose the *Toggle device mode* icon.
 > 
->     1.  In SAP Web IDE, choose *Run* \> *New Configuration*
-> 
->     2.  Select the *Run with MockServer* configuration.
-> 
->     3.  In the *Frame* screen area, select the *Open with frame* checkbox.
-> 
->         If you create a new project this option is switched on by default. For apps created based on the Worklist template, however, this option is switched off to make it easier to debug the application coding.
-> 
->     4.  Save the configuration and close the dialog.
-> 
->     If you now run the application again, you will see the surrounding frame, in which you can easily choose between different screen sizes and change the device orientation.
-> 
->     Switch, for example from *Medium* to *Small*, and you will see that the table behaves as expected.
-> 
->        
->       
->     Testing the responsiveness in SAP Web IDE<a name="loio84100bcfd5b34f62858bdd6f67976b4a__fig_wjy_v5m_d5"/>
-> 
->      ![](loio6a64435a16864d00bbcdcd3e5e0dcfbe_LowRes.png "Testing the responsiveness in SAP Web IDE") 
-> 
-> -   **Testing the responsiveness using the Developer Tools of Google Chrome**
-> 
->     If you use the Google Chrome browser, you can also use its great developer tools to test the responsiveness of your app.
-> 
->     1.  Call the app and open the developer tools in Chrome with *F12* 
-> 
->     2.  Choose the *Toggle device mode* icon.
-> 
->     3.  Now choose from the different devices in the *Models* field, and observe the behavior of your app.
+> 3.  Now choose from the different devices in the *Models* field, and observe the behavior of your app.
 > 
 > 
 > 

@@ -20,7 +20,6 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<th>Attribute</th>
 			<th>Version\*</th>
 			<th>Description</th>
-			<th>Example</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -33,10 +32,9 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
  -   `_version` for V4 is 1.3.0
 
  -   `_version` for V5 is 1.4.0 \(see example\)
-			</td>
-			<td> 
 
-```
+
+ ```
 {
     "_version": "1.4.0",
     "sap.app": {
@@ -60,10 +58,8 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 
  > Note:
  > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
-			</td>
-			<td> 
 
-```
+ ```
 "sap.app": {
     "_version": "1.3.0",
     ...
@@ -79,10 +75,8 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 
  > Note:
  > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
-			</td>
-			<td> 
 
-```
+ ```
 "sap.app": {
     "_version": "1.3.0",
     ...
@@ -101,23 +95,21 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		<tr>
 			<td> `sap.ui/fullWidth` </td>
 			<td>V4 \(1.34\)</td>
-```
+			<td>Indicates whether an app shall run in full screen mode \(`true`\) 
 
- |
-| `sap.ui5/routing/config/async` |V4 \(1.34\)|General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do *HIGHLIGHT START*not*HIGHLIGHT END* rely on any sync-execution depending event-orders.| ```
-"sap.ui5": {
-   "_version": "1.2.0",
-   ...
-    "routing": {
-        "config": {
-            "viewType": "XML",
-            "async": true
-        ...
-        },
-        ...
 ```
-			<td>If `dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` are set to `true`, the attribute indicates in an SAP Fiori app that a dependency shall be lazy loaded \(default is `false`\), see the example for `manifest.json` for the SAP Fiori app.</td>
-			<td>Example for `manifest.json` for the SAP Fiori app: 
+"sap.ui": {
+    "_version": "1.3.0",
+    "technology": "UI5",
+    ...
+    "fullWidth": true
+```
+			</td>
+		</tr>
+		<tr>
+			<td> `sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` </td>
+			<td>V4 \(1.34\)</td>
+			<td>If `dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` are set to `true`, the attribute indicates in an SAP Fiori app that a dependency shall be lazy loaded \(default is `false`\), see the example for `manifest.json` for the SAP Fiori app. Example for `manifest.json` for the SAP Fiori app: 
 
 ```
 "sap.ui5": {
@@ -147,8 +139,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		<tr>
 			<td> `sap.ui5/routing/config/async` </td>
 			<td>V4 \(1.34\)</td>
-			<td>General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do **not** rely on any sync-execution depending event-orders.</td>
-			<td> 
+			<td>General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\) For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do **not** rely on any sync-execution depending event-orders. 
 
 ```
 "sap.ui5": {
@@ -167,8 +158,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		<tr>
 			<td> `sap.ui5/models/preload` </td>
 			<td>V5 \(1.38\)</td>
-			<td>Defines whether or not the model is initialized \(preloaded\) before the component instance is created and while loading the component preload and its dependencies</td>
-			<td> 
+			<td>Defines whether or not the model is initialized \(preloaded\) before the component instance is created and while loading the component preload and its dependencies 
 
 ```
 "equipment": { 
@@ -176,6 +166,16 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
     "dataSource": "equipment",
      ...
 }
+
+```
+			</td>
+		</tr>
+		<tr>
+			<td> `sap.ui5/routing/routes/target` </td>
+			<td>V6 \(1.42\)</td>
+			<td>Allows to define titles declaratively in the configuration \(`title` under `targets/<target>` and `titleTarget` under `routes/<route>`\), see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) 
+
+```
 ```
 
  |
@@ -186,18 +186,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 > 
 > 
 
- | ```
-{
-	...,
-	"routes": [{
-		"pattern": "product/{id}/parts",
-		"name": "ProductParts",
-			"target": ["product", "productParts"],
-		"titleTarget": "productParts"
-
-	}],
-	"targets": {
-		"product": {
+ ```
 			"viewPath": "shop.products",
 			"viewName": "Product",
 			"title": "Product"
@@ -224,11 +213,9 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
  -   `componentData`: Component data of the component
 
  -   `lazy`: Indicates whether the component usage should be lazily loaded. Default value: `true`
-			</td>
-			<td> For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md) </td>
- 
 
-```
+
+ For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md) ```
 {
      ...
 	"componentUsages": {
@@ -249,10 +236,8 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td> Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
  > Note:
  > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
-			</td>
-			<td> 
 
-```
+ ```
 {
    ...
    "library": {
@@ -266,8 +251,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		<tr>
 			<td> `sap.ui5/models/<modelName>/settings/enhanceWith` </td>
 			<td>V12 \(1.56\)</td>
-			<td>The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either component \(default\) or manifest\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the resource model with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).</td>
-			<td> 
+			<td>The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either component \(default\) or manifest\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the resource model with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md). 
 
 ```
 {
@@ -293,8 +277,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 		<tr>
 			<td> `sap.ui5/routing/routes/targets/attachment/usage` `sap.ui5/routing/propagateTitle` </td>
 			<td>V16 \(1.66\)</td>
-			<td>A component can be configured as a routing target by defining it in the `componentUsages` section and providing its key to a target via the `usage` property. The `propagateTitle` property can be set to forward title information from a nested component to the router in the root component.</td>
-			<td> 
+			<td>A component can be configured as a routing target by defining it in the `componentUsages` section and providing its key to a target via the `usage` property. The `propagateTitle` property can be set to forward title information from a nested component to the router in the root component. 
 
 ```
 {
@@ -347,12 +330,9 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			</td>
 		</tr>
 		<tr>
-			<td> `sap.ui5/models/<modelName>/settings/supportedLocales</td>
-			<td>fallbackLocale</td>
-			<td>terminologies` </td>
+			<td> `sap.ui5/models/<modelName>/settings/supportedLocales` `sap.ui5/models/<modelName>/settings/fallbackLocale` `sap.ui5/models/<modelName>/settings/terminologies` </td>
 			<td>V22 \(1.77\)</td>
-			<td>The `supportedLocales` and `fallbackLocale` settings can be specified with a list of supported locales and a fallback locale to define a language fallback chain and optimize the loading performance of resource bundles. Additional resource bundles can be made available by defining `terminologies`.</td>
-			<td> 
+			<td>The `supportedLocales` and `fallbackLocale` settings can be specified with a list of supported locales and a fallback locale to define a language fallback chain and optimize the loading performance of resource bundles. Additional resource bundles can be made available by defining `terminologies`. 
 
 ```
 {
@@ -785,9 +765,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			</td>
 		</tr>
 		<tr>
-			<td> `sap.ui5/models/<modelName>/settings/supportedLocales</td>
-			<td>fallbackLocale</td>
-			<td>terminologies` </td>
+			<td> `sap.ui5/models/<modelName>/settings/supportedLocales` `sap.ui5/models/<modelName>/settings/fallbackLocale` `sap.ui5/models/<modelName>/settings/terminologies` </td>
 			<td>V22 \(1.77\)</td>
 			<td>The `supportedLocales` and `fallbackLocale` settings can be specified with a list of supported locales and a fallback locale to define a language fallback chain and optimize the loading performance of resource bundles. Additional resource bundles can be made available by defining `terminologies`.</td>
 			<td> 

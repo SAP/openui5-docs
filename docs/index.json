@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.86": {
 						"link": "What's_New_in_OpenUI5_1.86_067e2fb.md"
 					},
-					"What's New in OpenUI5 1.85": {
-						"link": "What's_New_in_OpenUI5_1.85_eeb5bd9.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.85": {
+								"link": "What's_New_in_OpenUI5_1.85_eeb5bd9.md"
+							},
 							"What's New in OpenUI5 1.84": {
 								"link": "What's_New_in_OpenUI5_1.84_ccf76b7.md"
 							},
@@ -602,14 +602,8 @@
 					"Worklist App": {
 						"link": "Worklist_App_6a6a621.md",
 						"items": {
-							"Step 1 \\(Option 1\\): Creating the Initial App with an App Template in SAP Web IDE": {
-								"link": "Step_1_(Option_1)_Creating_the_Initial_App_with_an_App_Template_in_SAP_Web_IDE_0c5dc93.md"
-							},
-							"Step 1 \\(Option 2\\): Downloading the Code": {
-								"link": "Step_1_(Option_2)_Downloading_the_Code_9d646de.md"
-							},
-							"Step 1 \\(Result\\): The Initial App": {
-								"link": "Step_1_(Result)_The_Initial_App_fc2c358.md"
+							"Step 1: Creating the Initial App": {
+								"link": "Step_1_Creating_the_Initial_App_fc2c358.md"
 							},
 							"Step 2: Custom Mock Data": {
 								"link": "Step_2_Custom_Mock_Data_3118903.md"
