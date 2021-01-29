@@ -22,7 +22,7 @@ In this step, we set up the initial app.
   
 The worklist app<a name="loiofc2c35880ccf4282a6baf8ab861bc10e__fig_r1j_pst_mr"/>
 
- ![](loio60e42c87d9494360a64017fc16d8bbcb_LowRes.png "The worklist app") 
+ ![](loio60e42c87d9494360a64017fc16d8bbcb_HiRes.png "The worklist app") 
 
 ***
 

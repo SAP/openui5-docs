@@ -40,40 +40,44 @@ You can view and download all files at [Walkthrough - Step 26](https://openui5.h
 
 ``` js
 {
-  "_version": "1.12.0",
-  "sap.app": {
-	...
-	"ach": "CA-UI5-DOC"*HIGHLIGHT START*,
-	"dataSources": {
-	  "invoiceRemote": {
-		"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
-		"type": "OData",
-		"settings": {
-		  "odataVersion": "2.0"
-		}
-	  }
-	}*HIGHLIGHT END*
-  },
-  "sap.ui": {
-	...
-  },
-  "sap.ui5": {
-	...
-	"models": {
-	  "i18n": {
-		"type": "sap.ui.model.resource.ResourceModel",
-		"settings": {
-		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-		  "supportedLocales": [""],
-		  "fallbackLocale": ""
-		}
-	  },
-	  "invoice": {*HIGHLIGHT START*
-		"dataSource": "invoiceRemote"
-	  *HIGHLIGHT END*}
-	}
-  }
-}
+	"_version": "1.21.0",
+	"sap.app": {
+		...
+		"applicationVersion": {
+			"version": "1.0.0"
+		}*HIGHLIGHT START*,
+		"dataSources": {
+			"invoiceRemote": {
+				"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		}*HIGHLIGHT END*
+	},
+	"sap.ui": {
+		...
+	},
+	"sap.ui5": {
+		...
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+					"supportedLocales": [
+						""
+					],
+					"fallbackLocale": ""
+				}
+			},
+			"invoice": {
+*HIGHLIGHT START*				"dataSource": "invoiceRemote"*HIGHLIGHT END*
+			}
+		},
+		"resources": {
+		...
 ```
 
 In the `sap.app` section of the descriptor file, we add a data source configuration. With the `invoiceRemote`, key we specify a configuration object that allows automatic model instantiation. We specify the type of the service \(`OData`\) and the model version \(`2.0`\). In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, the URI points to the official Northwind OData service.
