@@ -181,7 +181,7 @@
             -   [Step 14: Adding Tabs](Step_14_Adding_Tabs_6e9c6bd.md)
             -   [Step 15: Writing a Short Date Formatter Using TDD](Step_15_Writing_a_Short_Date_Formatter_Using_TDD_bc4114a.md)
             -   [Step 16: Adding the Date Formatter](Step_16_Adding_the_Date_Formatter_2ca583d.md)
-        -   [Mock Server](Mock_Server_3a9728e.md)
+        -   [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md)
             -   [Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md)
             -   [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md)
             -   [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md)

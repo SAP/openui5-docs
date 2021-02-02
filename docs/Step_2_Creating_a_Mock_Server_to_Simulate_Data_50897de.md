@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 2: Creating a Mock Server to Simulate Data
 
-In this step, we use the mock server to add data to our app without dependency to any remote server or system.
+In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.
 
 ***
 
@@ -209,7 +209,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 });*HIGHLIGHT END*
 ```
 
-Now we can write the code to initialize the mock server that will simulate the requests instead of the real server. We load the `MockServer` module as a dependency and create a helper object that defines an `init` method to start the server. This method is called before the Component initialization in the `mockServer.html` file above. The `init` method creates a `MockServer` instance with the same URL as the real service. The URL in configuration parameter `rootURI` is now served by our test server instead of the real service.
+Now we can write the code to initialize the OData V2 mock server that will simulate the requests instead of the real server. We load the `MockServer` module as a dependency and create a helper object that defines an `init` method to start the server. This method is called before the Component initialization in the `mockServer.html` file above. The `init` method creates a `MockServer` instance with the same URL as the real service. The URL in configuration parameter `rootURI` is now served by our test server instead of the real service.
 
 Next, we set two global configuration settings for all `MockServer` instances that tell the server to respond automatically and introduce a delay of one second to imitate a typical server response time.
 

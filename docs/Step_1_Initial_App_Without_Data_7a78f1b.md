@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 1: Initial App Without Data
 
-We start with a simple app scenario with a list of items bound to an OData service. Since the OData service is not available yet on a real server, we will use the mock server to simulate both data and data calls.
+We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.
 
-For this very simple tutorial app we will use an OData service called `NerdMeetups` that lists meet-up groups according to location, date, topic, etc. The app will display a simple list populated by a function import call to display only upcoming meet-ups \(meet-ups with an event date greater to the current date\).
+For this very simple tutorial app we will use an OData V2 service called `NerdMeetups` that lists meet-up groups according to location, date, topic, etc. The app will display a simple list populated by a function import call to display only upcoming meet-ups \(meet-ups with an event date greater to the current date\).
 
 Additionally, a button will fetch the first three meet-ups \(using a custom URL parameter called `first`\). This exercise simply shows an app with no data retrieved from the back end. This can happen when the back end is down, or when the service is not implemented yet.
 

@@ -122,51 +122,51 @@ We now update the view and add the new UI for the quick filter to the content ag
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
-...
-onInit: function() {
-	var oViewModel,
-		iOriginalBusyDelay,
-		oTable = this.byId("table");
+		...
+		onInit : function () {
+			var oViewModel,
+				iOriginalBusyDelay,
+				oTable = this.byId("table");
 
-	// Put down worklist table's original value for busy indicator delay,
-	// so it can be restored later on. Busy handling on the table is
-	// taken care of by the table itself.
-	iOriginalBusyDelay = oTable.getBusyIndicatorDelay();
-	*HIGHLIGHT START*this._oTable = oTable;*HIGHLIGHT END*
-	// keeps the search state
-	this._oTableSearchState = [];
-	// Model used to manipulate control states
-	oViewModel = new JSONModel({
-		worklistTableTitle: this.getResourceBundle().getText("worklistTableTitle"),
-		shareOnJamTitle: this.getResourceBundle().getText("worklistTitle"),
-		shareSendEmailSubject: this.getResourceBundle().getText("shareSendEmailWorklistSubject"),
-		shareSendEmailMessage: this.getResourceBundle().getText("shareSendEmailWorklistMessage", [location.href]),
-		tableNoDataText: this.getResourceBundle().getText("tableNoDataText"),
-		tableBusyDelay: 0*HIGHLIGHT START*,
-		inStock: 0,
-		shortage: 0,
-		outOfStock: 0,
-		countAll: 0
-*HIGHLIGHT END*
-	});
-	this.setModel(oViewModel, "worklistView");
-	*HIGHLIGHT START*// Create an object of filters
-	this._mFilters = {
-		"inStock": [new Filter("UnitsInStock", "GT", 10)],
-		"outOfStock": [new Filter("UnitsInStock", "LE", 0)],
-		"shortage": [new Filter("UnitsInStock", "BT", 1, 10)],
-		"all": []
-	};
-*HIGHLIGHT END*
-	// Make sure, busy indication is showing immediately so there is no
-	// break after the busy indication for loading the view's meta data is
-	// ended (see promise 'oWhenMetadataIsLoaded' in AppController)
-	oTable.attachEventOnce("updateFinished", function() {
-		// Restore original busy indicator delay for worklist's table
-		oViewModel.setProperty("/tableBusyDelay", iOriginalBusyDelay);
-	});
-},
-...
+			// Put down worklist table's original value for busy indicator delay,
+			// so it can be restored later on. Busy handling on the table is
+			// taken care of by the table itself.
+			iOriginalBusyDelay = oTable.getBusyIndicatorDelay();
+*HIGHLIGHT START*			this._oTable = oTable;*HIGHLIGHT END*
+			// keeps the search state
+			this._aTableSearchState = [];
+
+			// Model used to manipulate control states
+			oViewModel = new JSONModel({
+				worklistTableTitle: this.getResourceBundle().getText("worklistTableTitle"),
+				shareOnJamTitle: this.getResourceBundle().getText("worklistTitle"),
+				shareSendEmailSubject: this.getResourceBundle().getText("shareSendEmailWorklistSubject"),
+				shareSendEmailMessage: this.getResourceBundle().getText("shareSendEmailWorklistMessage", [location.href]),
+				tableNoDataText: this.getResourceBundle().getText("tableNoDataText"),
+				tableBusyDelay: 0*HIGHLIGHT START*,
+				inStock: 0,
+				shortage: 0,
+				outOfStock: 0,
+				countAll: 0*HIGHLIGHT END*
+			});
+			this.setModel(oViewModel, "worklistView");
+*HIGHLIGHT START*			// Create an object of filters
+			this._mFilters = {
+				"inStock": [new Filter("UnitsInStock", FilterOperator.GT, 10)],
+				"outOfStock": [new Filter("UnitsInStock", FilterOperator.LE, 0)],
+				"shortage": [new Filter("UnitsInStock", FilterOperator.BT, 1, 10)],
+				"all": []
+			};*HIGHLIGHT END*
+
+			// Make sure, busy indication is showing immediately so there is no
+			// break after the busy indication for loading the view's meta data is
+			// ended (see promise 'oWhenMetadataIsLoaded' in AppController)
+			oTable.attachEventOnce("updateFinished", function(){
+				// Restore original busy indicator delay for worklist's table
+				oViewModel.setProperty("/tableBusyDelay", iOriginalBusyDelay);
+			});
+		},
+		...
 ```
 
 As a preparation step for the filter tabs we add properties for the counters into the local view model of the worklist controller. We initialize the four values with `0` each. Furthermore, we create an object `_mFilters` that contains a filter for each tab. We will use the filters for filtering the table below the tabs. The properties in `_mFilters` correlate to the keys of the `IconTabFilter` controls we defined above in the `Worklist.view.xml` file. This way we can easily access a filter for a given tab based on the key of the corresponding tab.
@@ -178,51 +178,52 @@ Creating a simple filter requires a binding path as first parameter of the filte
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
-...
-onUpdateFinished: function(oEvent) {
-	// update the worklist's object counter after the table update
-	var sTitle,
-		oTable = oEvent.getSource(),
-		*HIGHLIGHT START*oViewModel = this.getModel("worklistView"),
+		...
+		onUpdateFinished : function (oEvent) {
+			// update the worklist's object counter after the table update
+			var sTitle,
+				oTable = oEvent.getSource(),
+*HIGHLIGHT START*				oViewModel = this.getModel("worklistView"),
 *HIGHLIGHT END*
-		iTotalItems = oEvent.getParameter("total");
-	// only update the counter if the length is final and
-	// the table is not empty
-	*HIGHLIGHT START*if (iTotalItems &*HIGHLIGHT END*& oTable.getBinding("items").isLengthFinal()) {
-		sTitle = this.getResourceBundle().getText("worklistTableTitleCount", [iTotalItems]);	 
-		*HIGHLIGHT START*// Get the count for all the products and set the value to 'countAll' property
-		this.getModel().read("/Products/$count", {
-			success: function (oData) {
-				oViewModel.setProperty("/countAll", oData);
+				iTotalItems = oEvent.getParameter("total");
+			// only update the counter if the length is final and
+			// the table is not empty
+			if (iTotalItems && oTable.getBinding("items").isLengthFinal()) {
+				sTitle = this.getResourceBundle().getText("worklistTableTitleCount", [iTotalItems]);
+*HIGHLIGHT START*				// Get the count for all the products and set the value to 'countAll' property
+				this.getModel().read("/Products/$count", {
+					success: function (oData) {
+						oViewModel.setProperty("/countAll", oData);
+					}
+				});
+				// read the count for the unitsInStock filter
+				this.getModel().read("/Products/$count", {
+					success: function (oData) {
+						oViewModel.setProperty("/inStock", oData);
+					},
+					filters: this._mFilters.inStock
+				});
+				// read the count for the outOfStock filter
+				this.getModel().read("/Products/$count", {
+					success: function(oData){
+						oViewModel.setProperty("/outOfStock", oData);
+					},
+					filters: this._mFilters.outOfStock
+				});
+				// read the count for the shortage filter
+				this.getModel().read("/Products/$count", {
+					success: function(oData){
+						oViewModel.setProperty("/shortage", oData);
+					},
+					filters: this._mFilters.shortage
+				});
+*HIGHLIGHT END*
+			} else {
+				sTitle = this.getResourceBundle().getText("worklistTableTitle");
 			}
-		});
-		// read the count for the unitsInStock filter
-		this.getModel().read("/Products/$count", {
-			success: function (oData) {
-				oViewModel.setProperty("/inStock", oData);
-			},
-			filters: this._mFilters.inStock
-		});
-		// read the count for the outOfStock filter
-		this.getModel().read("/Products/$count", {
-			success: function(oData){
-				oViewModel.setProperty("/outOfStock", oData);
-			},
-			filters: this._mFilters.outOfStock
-		});  
-		// read the count for the shortage filter
-		this.getModel().read("/Products/$count", { 
-			success: function(oData){
-				oViewModel.setProperty("/shortage", oData);
-			},
-			filters: this._mFilters.shortage
-		});*HIGHLIGHT END*	  
-	} else {
-		sTitle = this.getResourceBundle().getText("worklistTableTitle");
-	}
-	this.getModel("worklistView").setProperty("/worklistTableTitle", sTitle);
-},
-...
+			this.getModel("worklistView").setProperty("/worklistTableTitle", sTitle);
+		},
+		...
 ```
 
 In the `onUpdateFinished` function, we get the count of all products by triggering a read operation on the model with the appropriate filter. The filter is a helper object of OpenUI5 that defines the condition for each tab on the data binding level. We already created the filters in the `onInit` function.
@@ -239,23 +240,32 @@ In the `success` handler of each `read` operation we update the corresponding pr
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
 ``` js
-...
-_applySearch: function(oTableSearchState) {
-	...
-}*HIGHLIGHT START*,
-/**
- * Event handler when a filter tab gets pressed
- * @param {sap.ui.base.Event} oEvent the filter tab event
- * @public
- */
-onQuickFilter: function(oEvent) {
-	var oBinding = this._oTable.getBinding("items"),
-		sKey = oEvent.getParameter("selectedKey");
-	oBinding.filter(this._mFilters[sKey]);
-}
-*HIGHLIGHT END*
-...
+		...
+		_applySearch: function(aTableSearchState) {
+			var oTable = this.byId("table"),
+				oViewModel = this.getModel("worklistView");
+			oTable.getBinding("items").filter(aTableSearchState, "Application");
+			// changes the noDataText of the list in case there are no filter results
+			if (aTableSearchState.length !== 0) {
+				oViewModel.setProperty("/tableNoDataText", this.getResourceBundle().getText("worklistNoDataWithSearchText"));
+			}
+		}*HIGHLIGHT START*,
 
+		/**
+		 * Event handler when a filter tab gets pressed
+		 * @param {sap.ui.base.Event} oEvent the filter tab event
+		 * @public
+		 */
+		onQuickFilter: function(oEvent) {
+			var oBinding = this._oTable.getBinding("items"),
+				sKey = oEvent.getParameter("selectedKey");
+			oBinding.filter(this._mFilters[sKey]);
+		}
+*HIGHLIGHT END*
+
+	});
+
+});
 ```
 
 Next, we implement the handler for the `select` event of the `IconTabBar`. In this event handler we get a reference to the binding for the `items` aggregation of our `table` and store it in the variable `oBinding`. Then we read the parameter `selectedKey` from the `event` object to find out which tab has been selected. This `selectedKey` is used to get the correct filter for the selected tab. Next, we simply call the filter method on `oBinding` and pass the correct filter of the selected tab.

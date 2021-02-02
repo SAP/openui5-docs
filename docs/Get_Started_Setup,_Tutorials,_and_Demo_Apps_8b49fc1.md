@@ -40,7 +40,7 @@ Set up your development environment and go through our tutorials. They introduce
 -   [OData V4](OData_V4_bcdbde6.md)
 -   [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
 -   [Testing](Testing_291c912.md)
--   [Mock Server](Mock_Server_3a9728e.md)
+-   [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md)
 -   [Worklist App](Worklist_App_6a6a621.md)
 -   [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md)
 

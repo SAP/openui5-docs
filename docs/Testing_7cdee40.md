@@ -51,7 +51,7 @@ UIVeri5 is built exclusively for OpenUI5 apps. It uses WebDriverJS to drive a re
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
 
-[Tutorial: Mock Server](Mock_Server_3a9728e.md)
+[Tutorial: Mock Server](OData_V2_Mock_Server_3a9728e.md)
 
 [UIVeri5 Home Page](https://www.npmjs.com/package/@ui5/uiveri5)
 

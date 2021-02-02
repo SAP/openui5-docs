@@ -582,8 +582,8 @@
 							}
 						}
 					},
-					"Mock Server": {
-						"link": "Mock_Server_3a9728e.md",
+					"OData V2 Mock Server": {
+						"link": "OData_V2_Mock_Server_3a9728e.md",
 						"items": {
 							"Step 1: Initial App Without Data": {
 								"link": "Step_1_Initial_App_Without_Data_7a78f1b.md"

@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 4: Calling a Function Import
 
-We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The mock server will be instructed to do the calculation locally for testing purposes.
+We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.
 
 ***
 
@@ -145,7 +145,7 @@ sap.ui.define([
 
 We push a new request handler to mock the function import call as follows:
 
-1.  Fetch the array of requests from the `MockServer`. The mock server holds an internal list of requests that you have to get and set if you want to modify.
+1.  Fetch the array of requests from the `MockServer`. The OData V2 mock server holds an internal list of requests that you have to get and set if you want to modify.
 
 2.  Push a new request handler to handle the function import
 

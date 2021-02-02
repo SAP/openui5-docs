@@ -171,12 +171,12 @@ If you want to use the third-party open source libraries included in OpenUI5, no
 > 
 > 
 
-For a list of the third-party open source software used in OpenUI5, see the section under *OpenUI5 Subcomponents* on the *License* page of the Demo Kit.
+For a list of the third-party open source software used in OpenUI5, choose *More Information* → *About* and select the *Included Third-Party Software* link.
 
 **Related information**  
 
 
 [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
 
-[API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html)
+[API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui)
 
