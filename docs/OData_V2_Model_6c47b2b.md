@@ -342,6 +342,36 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
     oModel.setRefreshAfterChange(false);
     ```
 
+-   Deep create
+
+    Creation of an entity as a child to a newly created parent entity is not possible with one single API call. To achieve this, you may chain two API calls to create parent and child entities with two requests, as shown in the following sample, which creates both a sales order and a sales order item:
+
+    ``` js
+    
+    var oParentContext,
+        oModel = this.getView().getModel();
+    
+    oParentContext = oModel.createEntry("SalesOrderSet", {
+       properties : {
+          // properties for the new sales order
+       },
+       success : function () {
+          oChildContext = oModel.createEntry("ToLineItems", {
+             context : oParentContext,
+             properties : {
+                // properties for the new item of the new sales order
+             },
+             success : function () {
+                // ...
+             }
+          });
+          oModel.submitChanges();
+       }
+    });
+    
+    oModel.submitChanges();
+    ```
+
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio94e302455f8044e79de759c86bb295a2__loio94e302455f8044e79de759c86bb295a2"/>
 

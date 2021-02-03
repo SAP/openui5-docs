@@ -55,13 +55,13 @@ To solve the issue, you have the following options:
 
 ### SAP Business Application Studio: Configure a destination
 
-SAP Business Application Studio and SAP Cloud Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app at `<protocol>://<domain>/destinations/northwind/*`. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
+SAP Business Application Studio and SAP Cloud Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
 
 ***
 
 #### Create Destination in SAP Cloud Platform Cockpit
 
-The destination is configured inside the SAP Cloud Platform cockpit. For more information, see [Create a Destination within the Cloud Foundry Environment](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
+The destination is configured inside the SAP Cloud Platform cockpit. For more information, see [Create a Destination in the SAP BTP cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
 
 ***
 
@@ -77,7 +77,7 @@ In the `manifest.json` descriptor file of your app, you can now change the data 
 	"dataSources": {
 	  "invoiceRemote": {
 
-		"uri": "*HIGHLIGHT START*/destinations/northwind/*HIGHLIGHT END*V2/Northwind/Northwind.svc/",
+		"uri": "*HIGHLIGHT START*Northwind/*HIGHLIGHT END*V2/northwind/northwind.svc/",
 		"type": "OData",
 		"settings": {
 		  "odataVersion": "2.0"
@@ -94,7 +94,7 @@ In the `manifest.json` descriptor file of your app, you can now change the data 
 }
 ```
 
-After this change, you can run the app in SAP Web IDE without disabling the same-origin policy of your browser. The destination now manages the connection to the remote service.
+After this change, you can run the app in SAP Business Application Studio without disabling the same-origin policy of your browser. The destination now manages the connection to the remote service.
 
 ***
 

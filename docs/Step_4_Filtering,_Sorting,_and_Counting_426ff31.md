@@ -141,11 +141,10 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 							growing="true"
 							growingThreshold="10"
 							items="{
-								path: '/People',
-*HIGHLIGHT START*								parameters: {
+								path: '/People'*HIGHLIGHT START*,
+								parameters: {
 									$count: true
-*HIGHLIGHT END*
-								}
+								}*HIGHLIGHT END*
 							}">
 							<headerToolbar>
 								<OverflowToolbar>
