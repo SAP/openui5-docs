@@ -86,15 +86,15 @@ For more information about all matchers, see the [API Reference](https://openui5
 
 ``` js
 return new Opa5().waitFor({
-            controlType : "sap.ui.commons.TreeNode",
+            controlType : "sap.m.StandardListItem",
             matchers : new sap.ui.test.matchers.Properties({
-                text: new RegExp("root", "i"),
-                isSelected: true
+                text: new RegExp("laptop", "i"),
+                selected: true
             }),
-            success : function (aNodes) {
-                Opa5.assert.ok(aNodes[0], "Root node is selected")
+            success : function (aItems) {
+                Opa5.assert.ok(aItems[0], "Item is selected")
             },
-            errorMessage: "No selected root node found"
+            errorMessage: "No selected item found"
 });
 ```
 
@@ -106,14 +106,19 @@ return new Opa5().waitFor({
 `sap.ui.test.matchers.Ancestor`: This matcher checks if the control has the specified ancestor \(ancestor is of a control type\).
 
 ``` js
-var oRootNode = getRootNode();
-return new Opa5().waitFor({
-            controlType : "sap.ui.commons.TreeNode",
-            matchers : new sap.ui.test.matchers.Ancestor(oRootNode),
-            success : function (aNodes) {
-                Opa5.assert.notStrictEqual(aNodes.length, 0, "Found nodes in a root node")
-            },
-            errorMessage: "No nodes in a root node found"
+var oOpa = new Opa5();
+return oOpa.waitFor({
+            controlType: "sap.m.List",
+            success: function (oList) {
+                return oOpa.waitFor({
+                    controlType : "sap.m.StandardListItem",
+                    matchers : new sap.ui.test.matchers.Ancestor(oList),
+                    success : function (aItems) {
+                        Opa5.assert.ok(aItems.length, "Found list items")
+                    },
+                    errorMessage: "No list items found"
+                });
+            }
 });
 ```
 
@@ -161,40 +166,38 @@ You can also define a matcher as an inline function: The first parameter of the 
 
 ``` js
 return new Opa5().waitFor({
-            controlType : "sap.ui.commons.TreeNode",
-            matchers : function(oNode) {
-                return oNode.$().hasClass("specialNode");
-            },
-            success : function (aNodes) {
-                Opa5.assert.notStrictEqual(aNodes.length, 0, "Found special nodes")
-            },
-            errorMessage: "No special nodes found"
+    controlType : "sap.m.StandardListItem",
+    matchers : function(oItem) {
+        return oItem.$().hasClass("specialItem");
+    },
+    success : function (aItems) {
+        Opa5.assert.ok(aItems.length, "Found special items")
+    },
+    errorMessage: "No special items found"
 });
-
 ```
 
 If you return a 'truthy' value from the matcher, but not a Boolean, it will be used as an input parameter for the next matchers and/or check and success. This allows you to build a matchers pipeline.
 
 ``` js
 return new Opa5().waitFor({
-    controlType : "sap.ui.commons.TreeNode",
+    controlType : "sap.m.StandardListItem",
     matchers : [
-        function(oNode) {
-            // returns truthy value - jQuery instance of control
-            return oNode.$();
+        function(oItem) {
+            // returns jQuery instance of control
+            return oItem.$().length && oItem.$();
         },
-        function($node) {
-            // $node is a previously returned value
-            return $node.hasClass("specialNode");
+        function($item) {
+        // $item is the matching control's jQuery instance
+            return $item.hasClass("specialItem");
         }
     ],
-    actions : function (oNode) {
-        // oNode is a matching control's jQuery instance
-        oNode.trigger("click");
+    actions : function ($item) {
+        // $item is the matching control's jQuery instance
+        $item.trigger("click");
     },
-    errorMessage: "No special nodes found"
+    errorMessage: "No special items found"
 });
-
 ```
 
 `sap.ui.test.matchers.LabelFor`: This matcher checks if a given control is associated with an `sap.m.Label` control. This means that there should be a label on the page with a `labelFor` association to the control. The label can be filtered by text value or by the `i18n` key of a given property value. Note that some controls, such as `sap.ui.comp.navpopover.SmartLink`, `sap.m.Link`, `sap.m.Label`, and `sap.m.Text` can’t be matched by `sap.ui.test.matchers.LabelFor` as they can’t have an associated label.
@@ -370,21 +373,18 @@ UI elements can be recursive, for example in a tree. Instead of triggering the a
 ``` js
 iExpandRecursively : function() {
     return this.waitFor({
-        controlType : "sap.ui.commons.TreeNode",
+        controlType : "sap.m.StandardTreeItem",
         matchers : new sap.ui.test.matchers.PropertyStrictEquals({
             name : "expanded", 
             value : false
         }),
         actions : function (oTreeNode) {
-            if (oTreeNode.getNodes().length){
-                oTreeNode.expand();
-                that.iExpandRecursively()
-            }
+            oTreeNode.getTree().expandToLevel(oTreeNode.getLevel() + 1)
+            that.iExpandRecursively();
         },
         errorMessage : "Didn't find collapsed tree nodes"
     });
 }
-
 ```
 
 ***

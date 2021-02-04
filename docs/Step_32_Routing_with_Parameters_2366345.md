@@ -87,7 +87,7 @@ We now add a navigation parameter `invoicePath` to the detail route so that we c
 		title="{i18n>detailPageTitle}">
 		<ObjectHeader
 *HIGHLIGHT START*			intro="{invoice>ShipperName}"*HIGHLIGHT END*
-			title="*HIGHLIGHT START*{invoice>ProductName}*HIGHLIGHT END*"/>
+			title="{invoice>ProductName}"/>
 	</Page>
 </mvc:View>
 ```
