@@ -775,6 +775,7 @@
                 -   [Scrolling: Pull to Refresh](Scrolling_Pull_to_Refresh_fde4015.md)
             -   [Sliders](Sliders_84ec82e.md)
             -   [Split App](Split_App_eedfe79.md)
+            -   [Team Calendar](Team_Calendar_acae0f2.md)
             -   [Text](Text_f94deb4.md)
             -   [Upload Collection](Upload_Collection_124ee13.md)
             -   [URL Helper](URL_Helper_4f1c107.md)

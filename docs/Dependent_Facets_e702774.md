@@ -63,7 +63,7 @@ var oProductsFFL = new sap.m.FacetFilterList({
             sap.ui.model.FilterOperator.Contains,
             oCategoriesFFL.getSelectedKeys()[aSelectedKeys[0]]);
             var oFinalFilter = new sap.ui.model.Filter([ oUserFilter ], true);
-            oBinding.filter(oFinalFilter, sap.ui.model.FilterType.Control);
+            oBinding.filter(oFinalFilter, sap.ui.model.FilterType.Application);
         }
     },
 });
