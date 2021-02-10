@@ -55,13 +55,13 @@ To solve the issue, you have the following options:
 
 ### SAP Business Application Studio: Configure a destination
 
-SAP Business Application Studio and SAP Cloud Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
+SAP Business Application Studio and SAP Business Technology Platform offer destinations that allow you to easily connect to remote systems. The destination to the Northwind OData service is an internet proxy made available inside the app. Any request that is sent to this location is forwarded to `https://services.odata.org` automatically.
 
 ***
 
-#### Create Destination in SAP Cloud Platform Cockpit
+#### Create Destination in SAP BTP Cockpit
 
-The destination is configured inside the SAP Cloud Platform cockpit. For more information, see [Create a Destination in the SAP BTP cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
+The destination is configured inside the SAP BTP cockpit. For more information, see [Create a Destination in the SAP BTP cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html).
 
 ***
 

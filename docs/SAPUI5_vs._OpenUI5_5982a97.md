@@ -24,7 +24,7 @@ The main difference is the license.
 
 -   SAP HANA
 
--   SAP Cloud Platform
+-   SAP Business Technology Platform
 
 -    SAP NetWeaver 7.4 or higher \(included in the UI technologies \(`SAP_UI`\) component\)
 
@@ -41,7 +41,7 @@ Most importantly, the core containing all central functionality and the most com
 
 So OpenUI5 also gives you all the important features needed to build feature-rich Web applications.
 
-The additional libraries in SAPUI5 include more controls on top, like charts, and SAPUI5 also lets you use 'smart controls', for example, which are controls that are automatically configured by OData annotations from the back end. The exact feature range of SAPUI5 also depends on the platform you're using. For example, you can only use the ABAP repository with SAP NetWeaver and not on SAP Cloud Platform.
+The additional libraries in SAPUI5 include more controls on top, like charts, and SAPUI5 also lets you use 'smart controls', for example, which are controls that are automatically configured by OData annotations from the back end. The exact feature range of SAPUI5 also depends on the platform you're using. For example, you can only use the ABAP repository with SAP NetWeaver and not on SAP BTP.
 
 ***
 

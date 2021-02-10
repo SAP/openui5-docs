@@ -30,7 +30,7 @@ Follow the concise [Getting Started](https://sap.github.io/ui5-tooling/pages/Get
 
 ### SAP Business Application Studio
 
-SAP Business Application Studio is an SAP Cloud Platform service in the Cloud Foundry environment which offers a modular development environment tailored for efficient development of business applications. It provides a tailor-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, including OpenUI5 apps.
+SAP Business Application Studio is an SAP BTP service in the Cloud Foundry environment which offers a modular development environment tailored for efficient development of business applications. It provides a tailor-made development environment for various development scenarios. With each of these scenarios you can create different types of applications, including OpenUI5 apps.
 
 See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md) for more information.
 

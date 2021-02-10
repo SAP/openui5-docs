@@ -21,7 +21,7 @@ Basic Page Structure of a Tool<a name="loiod8374d578a4c4f9498f9f14a6672c8bb__fig
  ![](loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool") 
 
 > Note:
-> This set of controls described in this article has been designed exclusively for the SAP tool landscape for the SAP Cloud Platform.
+> This set of controls described in this article has been designed exclusively for the SAP tool landscape for the SAP Business Technology Platform.
 > 
 > Do not use these controls in regular SAP Fiori applications. This highly specialized set of controls targets the specific needs of the tools user group \(typically developers and administrators\).
 > 

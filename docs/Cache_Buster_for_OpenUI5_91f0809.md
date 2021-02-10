@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 A cache buster allows OpenUI5 to notify the browser to refresh the resources only when the OpenUI5 resources have been changed. As long as they are not changed, the resources can always be fetched from the browser's cache.
 
 > Note:
-> OpenUI5 supports the cache buster concept for Java and ABAP servers and for SAP Cloud Platform. SAP HANA XS does **not** support the cache buster concept.
+> OpenUI5 supports the cache buster concept for Java and ABAP servers and for SAP Business Technology Platform. SAP HANA XS does **not** support the cache buster concept.
 > 
 > 
 

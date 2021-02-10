@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 The `neo-app.json` file contains all project settings for SAP Web IDE and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important setting for you to configure is the path where the OpenUI5 runtime is located when starting the app.
 
 > Note:
-> SAP Web IDE is no longer available via SAP Cloud Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP Cloud Platform account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
+> SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 > 
 > 
 
@@ -80,5 +80,5 @@ Here's what the settings for the two resources mean:
 |`name`|Name of the resource|
 |`entyPath`|Path prepended to the request path|
 
-For more information, see [Accessing SAPUI5 Resources](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d18a9b0739264a4dbd0acbbc0232d614.html) in the SAP Cloud Platform documentation.
+For more information, see [Accessing SAPUI5 Resources](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d18a9b0739264a4dbd0acbbc0232d614.html) in the SAP Business Technology Platform documentation.
 

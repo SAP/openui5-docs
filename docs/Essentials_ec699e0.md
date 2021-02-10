@@ -26,7 +26,7 @@ Apps developed with OpenUI5 run in a browser on any device \(mobile, tablet or d
 
 When users access an OpenUI5 app, a request is sent to the respective server to load the application into the browser. The view accesses the relevant libraries. Usually the model is also instantiated and business data is fetched from the database.
 
-Depending on the environment in which OpenUI5 is used, the libraries or your applications can be stored, for example, on an SAP NetWeaver Application Server or an SAP Cloud Platform, and business data can be accessed, for example, using the OData model through a SAP Gateway.
+Depending on the environment in which OpenUI5 is used, the libraries or your applications can be stored, for example, on an SAP NetWeaver Application Server or an SAP Business Technology Platform, and business data can be accessed, for example, using the OData model through a SAP Gateway.
 
 ***
 

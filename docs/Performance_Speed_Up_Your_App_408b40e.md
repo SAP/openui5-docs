@@ -184,7 +184,7 @@ An indicator that a component is inside a library is the existence of an entry `
 
 ### Load OpenUI5 from the Content Delivery Network \(CDN\)
 
-In order to ensure that all static SAPUI5 resources are served with the lowest possible latency in SAP Cloud Platform scenarios, you can load the resources from the Content Delivery Network \(CDN\) cached by AKAMAI. Especially when running your app in the cloud, you benefit from the global distribution of servers. For other scenarios, it is possible to configure a custom CDN of choice as an external location.
+In order to ensure that all static SAPUI5 resources are served with the lowest possible latency in SAP Business Technology Platform scenarios, you can load the resources from the Content Delivery Network \(CDN\) cached by AKAMAI. Especially when running your app in the cloud, you benefit from the global distribution of servers. For other scenarios, it is possible to configure a custom CDN of choice as an external location.
 
 **Additional Information:**
 
