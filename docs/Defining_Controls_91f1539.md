@@ -27,13 +27,9 @@ Rendering a button in the body of an HTML document without setting any property,
 </body>
 ```
 
-> Note:
+> Note:  
 > Make sure that you close the tags properly. HTML5 does not support self-closing tags.
-> 
-> 
 
-> Note:
+> Note:  
 > All attributes used to define properties, associations, events, or aggregations are data attributes except for attributes that exist in HTML, for example `id` or `class`. Data attributes are prefixed with `data-*`, for example `data-text`.
-> 
-> 
 

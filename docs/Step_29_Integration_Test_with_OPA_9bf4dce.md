@@ -14,10 +14,8 @@ If we want to test interaction patterns or more visual features of our app, we c
 
 We haven’t thought about testing our interaction with the app yet, so in this step we will check if the dialog actually opens when we click the “Say Hello with Dialog” button. We can easily do this with OPA5, a feature of OpenUI5 that is easy to set up and is based on JavaScript and QUnit. Using integration and unit tests and running them consistently in a continuous integration \(CI\) environment, we can make sure that we don’t accidentally break our app or introduce logical errors in existing code.
 
-> Note:
+> Note:  
 > In this tutorial, we focus on a simple use case for the test implementation. If you want to learn more about OPA tests, have a look at our [Testing](Testing_291c912.md) tutorial, especially [Step 6: A First OPA Test](Step_6_A_First_OPA_Test_1b47457.md).
-> 
-> 
 
 ***
 

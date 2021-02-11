@@ -14,10 +14,8 @@ A helper class, designed to facilitate the implementation of apps based on the `
 
 `FlexibleColumnLayout` gives you the freedom to implement any app logic that involves changing the layout \(showing/hiding columns\) as a result of the user’s actions. However, there are certain UX patterns that are considered as optimal and are recommended for SAP Fiori 2.0 apps. The `FlexibleColumnLayoutSemanticHelper` class helps you implement them by giving you tips about what layout to display when.
 
-> Note:
+> Note:  
 > Using this class is NOT mandatory in order to build an app with the `FlexibleColumnLayout`, but makes it easier to achieve the optimal UX recommended in the SAP Fiori 2.0 design guidelines.
-> 
-> 
 
 The first 3 logical levels of information are displayed in the three columns side by side, and the forth \(and others\) are displayed in the `End` column in fullscreen. If at any time the user opens a page in fullscreen, all subsequent levels are also displayed in fullscreen.
 

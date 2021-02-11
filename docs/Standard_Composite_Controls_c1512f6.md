@@ -14,10 +14,8 @@ Composite controls are a means to save time and effort by reusing existing contr
 
 For application developers, the composite control is a black box, therefore, an application developer cannot distinguish a composite control from native \(non-composite\) controls. As the application developer can not distinguish the controls, the control developer can change the implementation later and avoid composition \(or the other way around\). For existing uses of the respective control, this change is fully compatible.
 
-> Note:
+> Note:  
 > If you do **not** intend to re-use a control in several places, a composite control may not be your best choice. Composite controls are best suited for \(massive\) re-use and for a public API that shields the application developer from its inner workings. If these are not your requirements, consider to use other techniques of factoring out common parts within your application. You can, for example, simply write an XML fragment or a function returning the root of some control tree.
-> 
-> 
 
 ***
 
@@ -76,10 +74,8 @@ mySearchField-btn
 
 To avoid conflicts with the internal IDs of parts, the part ID \(`input` or `btn` in the example\) must be prefix-free. That means, it should not contain another dash \(for example, don't use parts `input-label` and `input` at the same time\). If the control that is used as part `input` also is a composite control and accidentally uses part `label`, then you'll have a conflict between `mySearchField-input``-label` \(`label` part of the `input`\) and your `mySearchField-input-label` artifact \(`input-label` part of your composite\).
 
-> Note:
+> Note:  
 > OpenUI5 reserves the single dash \(`-)` for composite controls and their parts, a double dash \(`--)` is used to combine the ID of views and their contained controls and a triple dash \(`---)`is used to combine component IDs and the IDs of their owned controls or views.
-> 
-> 
 
 During the `init` function, the settings of the composite only have their default values. If the application developer has provided some values to the constructor, these values will only be set later on. It is, therefore, crucial for the correct behavior of your composite control that you implement one of the synchronization mechanisms described below.
 
@@ -128,10 +124,8 @@ Changes to settings in the API of a composite control are usually reflected in i
 
 Note how the input's change event is used to update the composite's value property. Because the change originated in the HTML input field, no re-rendering is needed. This is expressed by the third parameter of the `setProperty` call. This trick is applicable whenever a property change does not require a re-rendering on this control level.
 
-> Note:
+> Note:  
 > Changing the input part's value triggers a re-rendering of the input.
-> 
-> 
 
 ``` js
 /**

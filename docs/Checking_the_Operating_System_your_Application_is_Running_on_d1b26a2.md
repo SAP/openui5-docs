@@ -14,10 +14,8 @@ A platform attribute is added to the HTML tag when running on mobile devices.
 
 This attribute provides information about the current platform and version.
 
-> Note:
+> Note:  
 > The list of supported devices when using `sap.m` library can be found here: [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
-> 
-> 
 
 In addition to that, OpenUI5 adds a platform-dependent CSS class to the HTML tag of the page. This enables control or application developers to create platform-dependent styling for their controls or applications.
 

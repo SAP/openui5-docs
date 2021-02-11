@@ -65,10 +65,8 @@ You can view and download all files at [Walkthrough - Step 36](https://openui5.h
 
 We add two new properties `expandable` and `expanded` to the `HelloPanel`. The user can now close and open the panel to have more space for the table below on devices with small screens. The property `expandable` is bound to a model named `device` and the path `/system/phone`. So the panel can be expanded on phone devices only. The device model is filled with the **sap.ui.Device** API of OpenUI5 as we see further down. The `expanded` property controls the state of the panel and we use expression binding syntax to close it on phone devices and have the panel expanded on all other devices. The device API of OpenUI5 offers more functionality to detect various device-specific settings, please have a look at the documentation for more details.
 
-> Note:
+> Note:  
 > The **sap.ui.Device** API detects the device type \(Phone, Tablet, Desktop\) based on the user agent and many other properties of the device. Therefore simply reducing the screen size will not change the device type. To test this feature, you will have to enable device emulation in your browser or open it on a real device.
-> 
-> 
 
 We can also hide single controls by device type when we set a CSS class like `sapUiVisibleOnlyOnDesktop` or `sapUiHideOnDesktop` . We only show the button that opens the dialog on desktop devices and hide it for other devices. For more options, see the documentation linked below.
 
@@ -129,19 +127,15 @@ sap.ui.define([
 
 In the `app` component we add a dependency to `sap.ui.Device` and initialize the device model in the `init` method. We can simply pass the loaded dependency `Device` to the constructor function of the JSONModel. This will make most properties of the OpenUI5 device API available as a JSON model. The model is then set on the component as a named model so that we can reference it in data binding as we have seen in the view above.
 
-> Note:
+> Note:  
 > We have to set the binding mode to `OneWay` as the device model is read-only and we want to avoid changing the model accidentally when we bind properties of a control to it. By default, models in OpenUI5 are bidirectional \(`TwoWay`\). When the property changes, the bound model value is updated as well.
-> 
-> 
 
 ***
 
 ### webapp/view/Detail.view.xml
 
-> Note:
+> Tip:  
 > You can test the device specific features of your app with the developer tools of your browser. For example in Google Chrome, you can emulate a tablet or a phone easily and see the effects. Some responsive options of OpenUI5 are only set initially when loading the app, so you might have to reload your page to see the results.
-> 
-> 
 
 ``` xml
 <mvc:View

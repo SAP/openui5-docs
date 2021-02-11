@@ -82,10 +82,8 @@ Measurement.setActive(true,*HIGHLIGHT START*"require"*HIGHLIGHT END*)
     Measurement.start("myId","Measurement of myId", **\["foo"\]**);
     ```
 
-    > Note:
+    > Note:  
     > If you also use the `start` or `average` method, make sure that the same categories are passed on, otherwise no measurement is started.
-    > 
-    > 
 
 
 ***

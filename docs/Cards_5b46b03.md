@@ -97,7 +97,7 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 		</tr>
 		<tr>
 			<td>Component card \(Experimental\)</td>
-			<td>Displays multiple controls and is used as a custom approach for use cases which do not fit in other card types and structures. The content area of the unstructured content card can be moved to the top.> Note: > In contrast to the other integration card types, the structure and behavior of the Component card are custom-definable and are following the established OpenUI5 Component model. For more information, see [Components](Components_958ead5.md).
+			<td>Displays multiple controls and is used as a custom approach for use cases which do not fit in other card types and structures. The content area of the unstructured content card can be moved to the top.> Note:   > In contrast to the other integration card types, the structure and behavior of the Component card are custom-definable and are following the established OpenUI5 Component model. For more information, see [Components](Components_958ead5.md).
 			</td>
 		</tr>
 		<tr>

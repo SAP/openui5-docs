@@ -51,10 +51,8 @@ In this case we will tell the browser to use `UTF-8` as the document character s
 
 The body part describes the layout of the page. In our case we simply display “Hello World” by using a `p` tag.
 
-> Note:
+> Tip:  
 > Typically, the content of the `webapp` folder is deployed to a Web server as an application package. When deploying the `webapp` folder itself the URL for accessing the `index.html` file contains `webapp` in the path.
-> 
-> 
 
 ***
 

@@ -34,10 +34,8 @@ The Support Assistant can be started using a URL or a Technical Information Dial
 
 The Support Assistant is enabled with the following URL parameter: `sap-ui-support=true`. The tool then appears as a toolbar in the footer of the app.
 
-> Note:
+> Tip:  
 > If you want to run the Support Assistant in a separate window, use the parameter `sap-ui-support=true,window` 
-> 
-> 
 
    
   
@@ -68,10 +66,8 @@ Selecting *Rules* will show you the available rulesets. You can then select your
 
 All scopes and temporary rules can be stored in the local storage of your browser. This will allow you to continue with your work even after you have closed the browser window. To enable this feature, choose *Settings* \(![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png)\) on the banner and select the checkbox *I agree to use local storage persistency for*.
 
-> Note:
+> Tip:  
 > You can delete your already persisted data by choosing *Delete Persisted Data*.
-> 
-> 
 
 ***
 

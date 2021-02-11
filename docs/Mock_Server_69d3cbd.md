@@ -22,10 +22,8 @@ The mock server included with OpenUI5 mimics OData V2 back-end calls. It simulat
 
 The OData V2 mock server provides mock services and also mock data. It supports randomly generated data based on the service metadata as well as mock data provided in JSON files.
 
-> Note:
+> Note:  
 > The mock server only supports the JSON format for representing the resources it exposes, such as collections, entries, links, and so on.
-> 
-> 
 
 For more information on the OData V2 mock server, see the topics given below.
 

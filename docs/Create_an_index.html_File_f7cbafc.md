@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 A minimalistic `index.html` file is needed to test the project configuration. This file contains the OpenUI5 bootstrap and an `sap.m.Text` control that displays the text "**OpenUI5 is loaded successfully!**".
 
-> Note:
+> Note:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
-> 
-> 
 
 1.  Choose the *New Folder* icon in the header toolbar and enter `src` as the folder name.
 2.  Select the newly created folder and create a new `index.html` file inside it by choosing the *New File* icon.
@@ -59,12 +57,10 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
     ```
 
 
-> Note:
+> CAUTION:  
 > Adapt the path where the resources are located \(`src="/resources/sap-ui-core.js"`\) according to your installation. For OpenUI5 you can use `src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"`.
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.
 > 
 > For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
-> 
-> 
 

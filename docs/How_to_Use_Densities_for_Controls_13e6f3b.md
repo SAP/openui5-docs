@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 How content densities are set and how they can be used in the SAP Fiori launchpad is explained and shown in the following code samples \(using the *Compact* density as an example\).
 
-> Note:
+> Note:  
 > The default design for all controls belonging to the `sap.m` library is the *Cozy* density \(larger dimensions and spacings\). If your application only uses the `sap.m` library, you can skip setting a CSS class if the *Cozy* density is exactly what you require. However, controls belonging to other libraries may also support a cozy design \(such as `sap.ui.table.Table`\) but the default might be different \(such as *Compact* density\). For this reason, if your application uses controls belonging to different libraries, we strongly recommend that you set the CSS class `sapUiSizeCozy` if you want to use the *Cozy* density \(and similarly, CSS class `sapUiSizeCompact` for the *Compact* density\).
-> 
-> 
 
 ***
 
@@ -60,7 +58,7 @@ View.create({ ... }).then(function(oView) {
 });
 ```
 
-> Note:
+> Note:  
 > It is also possible to apply the relevant density only under certain circumstances, for example, for devices that do **not** support touch interaction. In this case, add the class dynamically to the UI instead of statically. You can do this, for example, in the view controller:
 > 
 > ``` js
@@ -74,8 +72,6 @@ View.create({ ... }).then(function(oView) {
 >     );
 > });
 > ```
-> 
-> 
 
 As the check depends on several factors, you may not want to repeat the same logic again and again. A dialog opened from a compact or cozy view should, for example, also be in *Compact* or *Cozy* density.
 

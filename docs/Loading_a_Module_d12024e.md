@@ -35,10 +35,8 @@ sap.ui.require(['sap/ui/model/json/JSONModel', 'sap/ui/core/UIComponent'], funct
  });
 ```
 
-> Note:
+> CAUTION:  
 > If necessary, you can load a module synchronously. Be aware, that synchronous requests are already deprecated in some modern browsers and may not be supported in future. It is a better practice to load modules asynchronously.
-> 
-> 
 
 ***
 

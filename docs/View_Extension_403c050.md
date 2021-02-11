@@ -36,10 +36,8 @@ In JS views, extension points can be created within the `createContent` method b
 [...]
 ```
 
-> Note:
+> Note:  
 > This example creates a view with one extension point, which can be customized to hold controls, but do not show any default content.
-> 
-> 
 
 You can add an extension point to an aggregation of another control by specifying the target control and, optionally, a target aggregation. The target aggregation is only required when you do not want to add the extension point to your target control's default aggregation. In the following example, an extension point is added to `VerticalLayout`:
 
@@ -132,10 +130,8 @@ Extension content in the custom application in `CustomFrag1.fragment.xml` file:
 
 ```
 
-> Note:
+> Note:  
 > You can also add multiple root-level controls using one fragment.
-> 
-> 
 
 Extension content in the custom application in `CustomSubSubView1.view.xml` file.
 

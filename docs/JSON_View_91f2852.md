@@ -37,10 +37,8 @@ The file looks as follows:
 
 Nest the JSON objects analogous to the nesting of OpenUI5 controls and add the property values as attributes. The syntax is the same as the syntax of a JSON constructor for any control.
 
-> Note:
+> Note:  
 > You can use strings, Boolean values, and null in your JSON view.
-> 
-> 
 
 ***
 
@@ -83,7 +81,7 @@ Resource bundle content:
 MY_TEXT=Hello World
 ```
 
-> Note:
+> Example:  
 > ``` js
 > {   "Type": "sap.ui.core.JSONView",
 >     "controllerName":"my.own.views.test",
@@ -102,8 +100,6 @@ MY_TEXT=Hello World
 > }
 > 
 > ```
-> 
-> 
 
 The `ResourceModel` for binding this texts is created during view instantiation. The model is set as secondary model with the given alias to the view instance. To bind other properties to another model, create the model in the corresponding controller or HTML page and attach it to the view with another alias.
 

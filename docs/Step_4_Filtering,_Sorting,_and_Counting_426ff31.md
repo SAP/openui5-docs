@@ -105,17 +105,13 @@ The **`onSearch`** event handler filters the table for people whose last name co
 
 When the request is triggered, only entities that match the given filter criteria are requested from the OData V4 service.
 
-> Note:
+> Note:  
 > Filters of OData services are case-sensitive. If you prefer a non case-sensitive search, implement it in the controller logic.
-> 
-> 
 
 The **`onSort`** event handler requests the data unordered, or in ascending order, or descending order. Each time the *Sort* button is clicked, the next sort order is applied. The sorting is applied to the table by calling the `sort` method of the list binding with a new `sap.ui.model.Sorter`.
 
-> Note:
+> Note:  
 > The features of filtering and sorting can also be combined.
-> 
-> 
 
 We add the `order` property to variable `oJSONData` in `onInit` method. This property stores the current sort order.
 
@@ -210,10 +206,8 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 
 We add the `$count : true` parameter to tell the OData service to send the number of entities. With this setting, we automatically get the full number of entities \(20\) and the number of displayed entities \(10\) beneath the *More* button.
 
-> Note:
+> Note:  
 > The live TripPin service does not support the `$count` parameter yet. If you use the live service instead of the mock server, as described in Step 2, leave out the `$count` parameter.
-> 
-> 
 
 In the `OverflowToolbar`, we add a *Search* field and a *Sort* button with their events.
 

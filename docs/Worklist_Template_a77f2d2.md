@@ -14,15 +14,12 @@ The **SAP Fiori Worklist Application** template implements a typical worklist fl
 
 A worklist displays a collection of items to be processed by the user and usually involves reviewing details of a list item and taking action. If the data needs to be organized into columns or the overview of the items is more important than showing the item details directly, this template can be used as a starting point. For more information about worklist floorplans, see the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-> Note:
+> Note:  
 > You have two options: You can use this template to build an **app for the SAP Fiori launchpad \(FLP\)** or to build **standalone apps**.
 > 
 > -   If the app runs in FLP it also contains additional features like *Save as Tile* or *Share in SAP Jam* that depend on FLP at runtime. This app cannot be run standalone, meaning no `index.html` file is created but only files for testing the app in the FLP sandbox.
 > 
 > -   Only standalone apps contain an `index.html` file that is used to start the app.
-> 
-> 
-> 
 
    
   
@@ -34,10 +31,8 @@ The *Worklist* view is the main view that is initially displayed in this app. Wh
 
 The table in the *Worklist* view displays a header area that shows the current amount of items in the worklist and a search field. The number of items are updated automatically and the search filters for a preconfigured column of the table.
 
-> Note:
+> Note:  
 > As the use cases for apps using a worklist pattern differ greatly, we only show a basic scenario in our template as a starting point for your individual development activities. For more information, see [How Do I Enhance the Template?](Worklist_Template_a77f2d2.md#loioa77f2d29299247f8a3e30226507b1765__section_EnhanceTemplate)
-> 
-> 
 
 ***
 
@@ -50,6 +45,9 @@ You can find the template in the following places:
 -   **SAP Fiori Worklist Application** \(for OData V2 models\) and **SAP Fiori Worklist Application - OData V4** \(for OData V4 models\) templates in SAP Web IDE
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
+
+    > Note:  
+    > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
 -   **Worklist Template** under [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html).
 

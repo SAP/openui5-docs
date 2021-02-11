@@ -134,10 +134,8 @@ In the controller, we bind the newly created panel to the correct item whenever 
 
 We can now click on an element in the list and see its details in the panel below. We can even edit these details and these changes are directly shown in the list because we use two-way binding.
 
-> Note:
+> Note:  
 > Element bindings can also be relative to its parent context.
-> 
-> 
 
 ***
 

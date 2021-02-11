@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In this step, we will take a look at the prototype and define the test strategy for our app. The prototype already contains the infrastructure for unit and integration testing and a minimum set of tests and features.
 
-> Note:
+> Note:  
 > In this tutorial we will focus on writing clean unit and integration tests for apps. They build the foundation and are crucial for good application quality. We will also outline how to write testable code. Not all implementation patterns can be tested easily, but when writing the test code together with the implementation code as we have in this tutorial, testable code is a natural result.
-> 
-> 
 
 ***
 
@@ -57,10 +55,8 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
     The home page of our bulletin board app is the `webapp/test/mockServer.html` file. On this page, we initialize OpenUI5, start the mock server, and instantiate our app component. It consists of a single view that displays a list of posts from a bulletin board with several attributes in a table.
 
-    > Note:
+    > Note:  
     > We do not yet have a real service for the bulletin board prototype so run the app with mock data and this test page throughout the tutorial. The mock server helps by mimicking a real service and it processes requests with a small delay, just as a real service would. This is perfect for realistic application testing and is also helpful for local development tests. It is a good practice to put all test pages in the test folder of the app, so that they are clearly separated from the productive coding.
-    > 
-    > 
 
 -   **Data**
 
@@ -127,10 +123,8 @@ We expect our prototype to be released and shipped as a product soon, so we need
 
 The mock server is also set up and allows us to test the app with local test data instead of a real back-end service. We can use the mock data for writing reliable integration tests that do not depend on another system which might be unavailable when the tests are run.
 
-> Note:
+> Note:  
 > If you start developing an app from scratch, you should always consider testing from the very beginning of the software life cycle. Nobody wants to write tests for undocumented code and make assumptions about the logic. It is worth the effort to think about code checks, unit and integration testing, and a solid testing strategy from the very start.
-> 
-> 
 
 Before you start implementing your first test, you should think about how to test the different aspects of your application. The image below shows the testing tools along the agile testing pyramid.
 

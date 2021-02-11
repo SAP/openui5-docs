@@ -26,10 +26,8 @@ OpenUI5 now allows you to hyphenate words in multiline texts when controls are i
 
  ![](loio8a74466e5393433c856234e3a40f126a_HiRes.png) 
 
-> Note:
+> CAUTION:  
 > The hyphenation feature uses third-party and browser-native tools. We are not responsible for any inconsistencies or incorrect grammar. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.
-> 
-> 
 
 For more information, see [Hyphenation for Text Controls](Hyphenation_for_Text_Controls_6322164.md), the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.HyphenationAPI/preview), and the *API Reference* for [`sap.m.Text`](https://openui5.hana.ondemand.com/#/api/sap.m.Text), [`sap.m.Title`](https://openui5.hana.ondemand.com/#/api/sap.m.Title), [`sap.m.Label`](https://openui5.hana.ondemand.com/#/api/sap.m.Label), and [`sap.ui.core.hyphenation.Hyphenation`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.hyphenation.Hyphenation).
 
@@ -135,10 +133,8 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 -   We have introduced the new binding parameter `$$patchWithoutSideEffects` for context bindings, to avoid updating the UI with the data response of a PATCH request.
 
 
-> Note:
+> Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
@@ -165,10 +161,8 @@ For more information, see [Aggregation Forwarding](Aggregation_Forwarding_64a5e1
 
 Drag and drop is no longer experimental with this version.
 
-> Note:
+> Note:  
 > If you want to use drag and drop for a control, the control must allow drag and drop \(per definition in the metadata\), and you have to make the required settings in the relevant aggregation.
-> 
-> 
 
  For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md), the [API Reference: `dragDropConfig` aggregation](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations), and the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase) \(control that allows drag and drop\).
 

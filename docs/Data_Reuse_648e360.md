@@ -85,10 +85,8 @@ The same data needs to be requested only once for use cases like value help cont
 
 For this, you may use the `$$sharedRequest` binding parameter for all the list bindings that do not need to request the data individually.
 
-> Note:
+> Note:  
 > A binding becomes read-only by using the `$$sharedRequest` parameter.
-> 
-> 
 
 **Example:** Using the `$$sharedRequest` binding parameter:
 

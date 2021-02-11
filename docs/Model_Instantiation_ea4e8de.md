@@ -46,10 +46,8 @@ An external service is defined in the `dataSources` section of the `sap.app` nam
 }
 ```
 
-> Note:
+> Note:  
 > If you use the OData V4 template, you set the `odataVersion` accordingly.
-> 
-> 
 
 In the models section of the `sap.ui5` namespace we define two models that will be instantiated automatically. The resource model is a named model \( i18n \) and the OData model is the default model so it has no name. The OData model also receives additional URL parameters via the `metadataUrlParams`. The parameters `sap-server`, `sap-client`, and `sap-language` are passed to the service automatically by OpenUI5, as shown in the following `manifest.json` code snippet:
 
@@ -78,10 +76,8 @@ In the models section of the `sap.ui5` namespace we define two models that will 
 }
 ```
 
-> Note:
+> Note:  
 > Before OpenUI5 version 1.30, all models were defined and instantiated in the component's `init` method. We recommend removing all manual model creation code and switching to the automatic model instantiation instead. The "device model" however is still a local model that has to be instantiated manually.
-> 
-> 
 
 ***
 

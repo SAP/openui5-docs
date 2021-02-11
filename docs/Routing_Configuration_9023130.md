@@ -84,10 +84,8 @@ A target defines the view or component that is displayed. It is associated with 
     -   `title` contains either a static text or a valid binding syntax, e.g. to an i18n model, which is resolved under the binding context of the view \(see [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md)\)
 
 
-> Note:
+> Note:  
 > You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md), and the sample [Targets Without a Router](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.routing.Targets/samples) in the *Samples* in the Demo Kit.
-> 
-> 
 
 For more information, see [API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html).
 
@@ -101,12 +99,10 @@ The `config` section contains the global router configuration and default values
 
     You can either use class `sap.ui.core.routing.Router` \(default\) or `sap.m.routing.Router`. If you use a `sap.m` control \(such as `NavContainer` or `SplitApp`\) in your app, you can benefit more from using `sap.m.routing.Router` because it not only loads the targets and places them in the corresponding container, but also triggers the animation for navigating to the right target.
 
-    > Note:
+    > Note:  
     > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclasses of `sap.ui.core.routing.Router`.
     > 
     > Compared to `sap.ui.core.routing.Router`, the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `viewLevel`, `transition`, and `transitionParameters` which can be specified for each route or target created by the `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. See the *API Reference* for more information.
-    > 
-    > 
 
 -   The `homeRoute` defines the route whose target title is inserted as the first entry in the title history in the `titleChanged` event or in the return value of `sap.ui.core.routing.Router.prototype.getTitleHistory`. For more information, see section *Initial title of the home page* of [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md).
 
@@ -116,15 +112,11 @@ The `config` section contains the global router configuration and default values
 
 -   `async` defines whether targets are loaded asynchronously; the default value is `false`. We recommend setting this parameter to `true` to improve performance.
 
-    > Note:
+    > Note:  
     > A target with `type` "Component" is only displayed with asynchronous loading.
-    > 
-    > 
 
-    > Note:
+    > Note:  
     > If you use asynchronous loading, you cannot rely on the sequence of events that are fired during the load phase. If you follow our programming model with MVC, this should not be a problem.
-    > 
-    > 
 
 -   Using the `bypassed` parameter, you specify the navigation target that is used whenever no navigation pattern is matched. If you use this setting, you also have to define a corresponding target in the `targets` section.
 

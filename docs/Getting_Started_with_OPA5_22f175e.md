@@ -222,12 +222,10 @@ new Opa5().iStartMyUIComponent({
 
 This is very helpful if you want to start your tests with a specific target.
 
-> Note:
+> Note:  
 > Use the `iStartMyUIComponent` approach instead of an iFrame if you want your tests to run faster \(thanks to all resources being loaded at once\), make debugging easier \(by not having to switch between different frames\), and if you want to have full control over the mock server \(e.g. Start and Stop time\).
-> 
-> 
 
-> Note:
+> Note:  
 > Please note that OPA5 tests can only run for a single UIComponent. You first have to tear down the current UIComponent before starting an OPA5 test for another UIComponent, for example:
 > 
 > ``` js
@@ -236,8 +234,6 @@ This is very helpful if you want to start your tests with a specific target.
 > // or
 > new Opa5().iTeardownMyUIComponent();
 > ```
-> 
-> 
 
 ***
 

@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The `neo-app.json` file contains all project settings for SAP Web IDE and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important setting for you to configure is the path where the OpenUI5 runtime is located when starting the app.
 
-> Note:
+> Note:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
-> 
-> 
 
 ***
 
@@ -25,7 +23,7 @@ Create two configuration objects that contain a `path`, a `target`, and a `descr
 
 SAP Web IDE reads these settings automatically when running the app. You can see the whole configuration file in the code block below. Optionally, you can add the key `welcomeFile` to configure the entry point to your app. In web applications, this is typically the `index.html` file.
 
-> Note:
+> Note:  
 > Depending on which SAP Web IDE version you are using, you might have to configure the project to run against the "snapshot" version of OpenUI5, otherwise the application will be launched with the OpenUI5 release that is delivered with SAP Web IDE. This is usually the latest version that is released publicly to customers.
 > 
 > You can check which version of OpenUI5 is loaded by opening the OpenUI5 debugging tools with this [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
@@ -33,8 +31,6 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 >  * Ctrl Shift Alt */* Option P *
 > 
 > If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
-> 
-> 
 
 ***
 

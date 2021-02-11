@@ -62,12 +62,10 @@ For more information, see [Devices Supporting both Mouse and Touch Input](Device
 
 For testing or demonstration purposes, the events listed above can also be simulated on non-touch devices. When this simulation is enabled, the touch events will also be triggered by mouse interaction.
 
-> Note:
+> CAUTION:  
 > Due to technical constraints the simulation cannot be perfect, so it may not be used productively.
-> 
-> 
 
-To enable the simulation mode, set the OpenUI5 configuration parameter `xx-test-mobile` to <true\>, for example by appending the URL parameter `sap-ui-xx-test-mobile=true`.
+To enable the simulation mode, set the OpenUI5 configuration parameter `xx-test-mobile` to *<true\>*, for example by appending the URL parameter `sap-ui-xx-test-mobile=true`.
 
 **Related information**  
 

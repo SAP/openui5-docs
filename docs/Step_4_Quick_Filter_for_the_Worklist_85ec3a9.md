@@ -111,10 +111,8 @@ We now update the view and add the new UI for the quick filter to the content ag
 
     This tab will show products that have more than 10 pieces in stock. The semantic `Positive` state will let the icon appear in green. As usual the UI texts for the tabs are linked to the resource bundle file and will be added later. Do not forget to set the standard CSS class `sapUiNoMarginTop` on the table to remove the spacing between the `IconTabBar` and the `table` and make the UI look nicer.
 
-    > Note:
+    > Note:  
     > Each `IconTabFilter` element has a `key` property that is used to identify the tab that was pressed in the event handler `onQuickFilter` that is registered on the `IconTabBar` control directly. The event handler implementation does the actual filtering on the table and is defined in the controller.
-    > 
-    > 
 
 
 ***
@@ -228,10 +226,8 @@ Creating a simple filter requires a binding path as first parameter of the filte
 
 In the `onUpdateFinished` function, we get the count of all products by triggering a read operation on the model with the appropriate filter. The filter is a helper object of OpenUI5 that defines the condition for each tab on the data binding level. We already created the filters in the `onInit` function.
 
-> Note:
+> Note:  
 > The `v2.ODataModel` will automatically bundle these `read` requests to one batch request to the server \(if batch mode is enabled\).
-> 
-> 
 
 In the `success` handler of each `read` operation we update the corresponding property in the view model with the real count of the matching items that were returned by the service.
 

@@ -38,7 +38,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 
 2\) To optimize perfomance, we recommend to show no more than 200 items at once in the responsive table. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure the user can filter the data. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. 
 
-> Note:
+> CAUTION:  
 > The limits mentioned are only recommendations. For a specific app context, the actual number of manageable items might be higher or lower.
 > 
 > The actual limits depend on what your scenario looks like, for example:
@@ -50,9 +50,6 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 > -   The complexity of the cell content and/or the page \(for example, multiple pages in a flexible column layout, or depending on how much binding is done\)
 > 
 > -   The browser being used
-> 
-> 
-> 
 
 For more information, search for loading items and performance in the responsive table section in the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 

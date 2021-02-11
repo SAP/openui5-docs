@@ -68,10 +68,8 @@ No data visible<a name="loio95e5b87804ef4059bb68dd511666d4e3__fig_mm2_tnq_st"/>
 
 Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
 
-> Note:
+> Tip:  
 > In Google Chrome, mocked requests will appear in a debug level log of the console \(both request and response\) and not on the *Network* tab. If you do see them in the *Network* tab, they are not mocked and you need to check your code.
-> 
-> 
 
 In order to simulate the function import call, we write our own \(mocked\) implementation, and add to the internal list of requests.
 

@@ -22,10 +22,8 @@ The deprecation of the `jQuery.sap` API requires that it is replaced with the ne
 
 To migrate the simple replacements, add the new module dependency and replace the call with the added argument name as shown in the following example:
 
-> Note:
+> Example:  
 > ![](loio7d56a8eabb9e4426a7643e2f524015bd_LowRes.png)
-> 
-> 
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -92,7 +90,7 @@ To migrate the simple replacements, add the new module dependency and replace th
 			<td> `sap/base/Log` </td>
 ```
 
- > Note:
+ > Note:  
 > *HIGHLIGHT START*`jQuery.sap.extend` vs. `jQuery.extend`*HIGHLIGHT END*
 > 
 > The use of `jQuery.sap.extend()` is the same as `jQuery.extend()`, but arguments that are `null` or `undefined` are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
@@ -104,14 +102,14 @@ To migrate the simple replacements, add the new module dependency and replace th
 > Considering this, `Object.assign()` might be a suitable replacement for `jQuery.sap.extend` for a shallow copy.
 > 
 > `null` and `undefined` arguments are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
-> 
-> 
 
  |
 | `jQuery.sap.now` | `sap/base/util/now` |Simple Replacement| `now` |
 | `jQuery.sap.getObject` | `sap/base/util/ObjectPath` |Complex Replacement| ```
 ObjectPath.get("some.object.path", "someProperty");
 ```
+		</tr>
+		<tr>
 			<td> `jQuery.sap.log.isLoggable` </td>
 			<td> `sap/base/Log` </td>
 			<td>Simple replacement</td>
@@ -338,7 +336,7 @@ jQuery.sap.extend(true, {}, sContent)
 merge({}, sContent);
 ```
 
- > Note:
+ > Note:  
  > **`jQuery.sap.extend` vs. `jQuery.extend`**
  > The use of `jQuery.sap.extend()` is the same as `jQuery.extend()`, but arguments that are `null` or `undefined` are **not** ignored.
  > **`Object.assign`**
@@ -1244,12 +1242,10 @@ window.devicePixelRatio >= 2
 
 jQuery extensions have been extracted into different modules. If the jQuery extension is required, it needs to be added to the module dependencies.
 
-> Note:
+> Example:  
 > Change from the global dependencies to adding the module dependencies to the jQuery extensions:
 > 
 > ![](loioff6352e35e6a4b9a9c16ee3c1fa4d740_LowRes.png)
-> 
-> 
 
 |jQuery Call|Old Module|New Module|
 |-----------|----------|----------|

@@ -90,10 +90,8 @@ Above you can see an example of the `displayFormat` constraint. It specifies if 
 
 In this example, the binding type specifies that the backend data will be interpreted as a date and time field.
 
-> Note:
+> Note:  
 > JavaScript provides only one object for working with dates and times – Date, which contains both date and time information. Currently, all dates that are API properties in the `DatePicker`, `TimePicker`, `DateTimePicker`, `PlanningCalendar` and `Calendar` controls use local time. For example, if a user chooses 19.02.2018 as a date from the `DatePicker`, the app developer calls the `getDateValue()` method. In this case they will get 19.02.2018 00:00:00 local time. The disadvantage here is that by default this value will be sent to the backend in UTC, which may change the date by +/- one day.
-> 
-> 
 
 ***
 

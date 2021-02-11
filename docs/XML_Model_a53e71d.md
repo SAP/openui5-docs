@@ -111,10 +111,8 @@ XML models differentiate between attributes and content. XML has no arrays and d
 
 For attributes, a special selector using the "@" character exists and "text\(\)" can be used to reference the content text of an element. Lists are referenced by using the path to the multiple element.
 
-> Note:
+> Note:  
 > For the XML model the root must **not** be included in the path.
-> 
-> 
 
 ``` xml
 
@@ -151,8 +149,6 @@ text()
 @phone
 ```
 
-> Note:
+> Note:  
 > In a similar JSON model you would use `/companies/company/locations` as binding path for the `locations` collection. In an XML model the respective collection binding path is: `/company/locations/location`.
-> 
-> 
 

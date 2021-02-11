@@ -51,10 +51,8 @@ It's easy to save a few bytes and make your code a lot cleaner:
 -   Use self-closing XML tags for controls that don't define any aggregations.
 
 
-> Note:
+> Tip:  
 > Samples may contain more code that you actually need. When you copy code from a sample, it's best to remove all properties that won't be used in your views.
-> 
-> 
 
 ``` xml
 <SearchField change=".onSearch"/>

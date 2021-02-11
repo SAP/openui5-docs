@@ -83,10 +83,8 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 
 We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use `'invoice>Ex**T**endedPrice'`. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) * Ctrl Shift Alt */* Option S * we open the OpenUI5 support diagnostics tool and check the app.
 
-> Note:
+> Note:  
 > If you use the Google Chrome browser, you can install the *UI5 Inspector* plugin. With this plugin, you can easily debug your - or OpenUI5-based apps. For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
-> 
-> 
 
 Besides technical information about the app and a trace that is similar to the developer tools console of the browser, there is a really handy tool for checking such errors in this dialog. Open the tab *Control Tree* by clicking on the expand symbol on the right.
 

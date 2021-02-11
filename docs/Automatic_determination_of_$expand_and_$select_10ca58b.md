@@ -49,10 +49,8 @@ The list binding for the table in the following sample leads to the following re
 
 If you use a list binding with factory function with auto-$expand/$select, you need to specify the binding parameters `$expand` and `$select` for all properties that may be needed by the factory function.
 
-> Note:
+> Note:  
 > During automatic determination of `$expand` and `$select` the factory function is called with a "virtual" context, that returns `undefined` for `[getProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getProperty)` calls.
-> 
-> 
 
 For auto-$expand/$select the model metadata must be analyzed before sending the request. This allows further optimization of the request, also enabling access to the parent entity by reducing partner navigation properties in the path.
 

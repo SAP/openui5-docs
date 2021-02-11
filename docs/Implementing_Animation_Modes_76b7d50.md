@@ -31,7 +31,7 @@ If the mode is changed, the value of `data-sap-ui-animation-mode` is updated cor
 
 The attribute can be selected in CSS with `html[data-sap-ui-animation-mode="<mode>"]`.
 
-> Note:
+> Example:  
 > The following implementation defines the duration for animation mode `full` with 1 sec, `minimal` and `basic` with 0.1 sec, and `none` with 0.0 sec.
 > 
 > ```
@@ -47,8 +47,6 @@ The attribute can be selected in CSS with `html[data-sap-ui-animation-mode="<mod
 >     transition-duration: 0.0s;
 > }
 > ```
-> 
-> 
 
 **Related information**  
 

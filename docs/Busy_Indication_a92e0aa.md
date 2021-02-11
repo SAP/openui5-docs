@@ -27,8 +27,6 @@ By default, the busy indicator delay is set to one second for all controls. This
 
 You can simulate server delays to test this implementation running with mocked application data by using the URL parameter `serverDelay=true` in the hash. The default is set to 1000ms.
 
-> Note:
+> Note:  
 > You can find more information about busy indicators, busy states, and busy handling in general in the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design/).
-> 
-> 
 

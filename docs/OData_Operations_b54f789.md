@@ -106,16 +106,14 @@ You can use the parameters of a deferred operation binding inside an XML view.
 
 The parameters are addressed by the path prefix "$Parameter". This can either be done by binding each control property via the path prefix "$Parameter" \(Option 1\) or by having an outer binding with a "$Parameter" path \(Option 2\).
 
-> Note:
+> Note:  
 > The path "$Parameter" must not be added directly to the path of a deferred operation binding. A deferred operation binding is identified by an ellipsis at the end of the path.
-> 
-> 
 
 This is how to bind each property without a "$Parameter" context:
 
 **View:**
 
-> Note:
+> Example:  
 > Binding parameters to a dialog \(Option 1\)
 > 
 > ``` xml
@@ -131,14 +129,12 @@ This is how to bind each property without a "$Parameter" context:
 >     </form:SimpleForm>
 > </Dialog>
 > ```
-> 
-> 
 
 Alternatively, you may bind the entire form to the `$Parameter` context:
 
 **View:**
 
-> Note:
+> Example:  
 > Binding parameters to a dialog \(Option 2\)
 > 
 > ``` xml
@@ -154,8 +150,6 @@ Alternatively, you may bind the entire form to the `$Parameter` context:
 >     </form:SimpleForm>
 > </Dialog>
 > ```
-> 
-> 
 
 In either case, the values of the parameters are set using the context binding of the control, with no need to write any application code.
 
@@ -175,7 +169,7 @@ The example below demonstrates how a budget may be modified depending on the `Te
 
 **Controller:**
 
-> Note:
+> Example:  
 > Reading parameter values using the parameter context
 > 
 > ``` js
@@ -191,13 +185,9 @@ The example below demonstrates how a budget may be modified depending on the `Te
 >     }
 > }
 > ```
-> 
-> 
 
-> Note:
+> Note:  
 > The parameter context is only defined if the operation binding is resolved.
-> 
-> 
 
 ***
 
@@ -247,21 +237,18 @@ var oModel = this.getView().getModel(),
 oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).execute(); 
 ```
 
-> Note:
+> Note:  
 > -   The path of an operation binding may also start with a navigation property.
 > 
 >     Example: The operation binding has a relative path `BP_2_PRODUCT/name.space.Change(...)`. You set its binding context from the selected item in a table bound to `/BusinessPartners`. When you call `execute` on the operation binding, the "change" action is executed with the selected business partner's navigation property `BP_2_PRODUCT` as binding parameter.
 > 
 > -   The parent binding of a deferred operation must not be a deferred operation itself.
-> 
-> 
-> 
 
 For operations bound to an entity, it is possible to address properties of the entity through the operation's binding parameter.
 
 For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity type with the binding parameter `_it`. Properties of the current sales order can be addressed with a property binding having a path that starts with the binding parameter name `_it`.
 
-> Note:
+> Example:  
 > Addressing properties of the binding parameter
 > 
 > ``` xml
@@ -273,8 +260,6 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 >     </form:SimpleForm>
 > </Dialog>
 > ```
-> 
-> 
 
 ***
 
@@ -284,10 +269,8 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 
 According to the [OData 4.0 specification \("11.5.2 Advertising Available Operations within a Payload"\)](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752309) services may return available actions and functions bound to a particular entity as part of the entity representation within the payload. Data for an advertised operation within an entity is sent as property starting with `#<namespace>.<action>` of that entity. If the entity does not advertise the operation, it does not contain this property. To access the advertised operation in a binding, the same format has to be used. See the following example:
 
-> Note:
+> Example:  
 > Enable a button to trigger an action **AcSetIsOccupied** available on entity type of entity set **EMPLOYEES** depending on advertisement of this action on the entity **EMPLOYEES\('1'\)**
-> 
-> 
 
 ```
 <FlexBox binding="{/EMPLOYEES('1')}">
@@ -301,14 +284,12 @@ If no advertised action was returned in the payload, `undefined` \(or `null` in 
 
 If there is an additional list of non-binding parameter names to identify a specific overload, then they need to be given in the binding path as well, for instance: `%{#Model.RemainingVacation(Year)}`.
 
-> Note:
+> Note:  
 > The bound action advertisement is added to $select automatically if the model parameter [`autoExpandSelect`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor) is set.
-> 
-> 
 
 To access the metadata of an operation, the double hash \(`##`\) syntax has to be used as is illustrated in the next example:
 
-> Note:
+> Example:  
 > Binding against metadata of an action
 > 
 > ```
@@ -316,8 +297,6 @@ To access the metadata of an operation, the double hash \(`##`\) syntax has to b
 > var oMetaModel = oContext.getModel();
 > oMetaModel.requestObject("0/$ReturnType/$Type", oContext).then(alert);
 > ```
-> 
-> 
 
 Here a context is created pointing to the metadata of the action and afterwards the type is accessed using this context.
 

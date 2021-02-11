@@ -35,10 +35,8 @@ The default mode is the asynchronous loading of a view: The advantage of asynchr
 
 With the asynchronous loading of views, the instance is not fully available at the moment of creation, instead you may receive a `Promise` via the `View.prototype.loaded` method. The following code snippet shows how the view instance is available in the resolve function of the `promise`.
 
-> Note:
+> Note:  
 > If you access the view in the controller's `onInit` callback, the view instance is available in any case. The behavior does not change.
-> 
-> 
 
 ``` js
 // "View" required from "sap/ui/core/mvc/View"
@@ -58,10 +56,8 @@ View.create({
 
 #### Synchronous Mode
 
-> Note:
+> Note:  
 > We do **not** recommend to instantiate views synchronously. Use the asynchronous mode instead.
-> 
-> 
 
 ***
 

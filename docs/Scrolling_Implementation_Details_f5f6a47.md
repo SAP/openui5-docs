@@ -63,10 +63,8 @@ myCustomScroller.prototype.exit = function() {
 }; 
 ```
 
-> Note:
+> Note:  
 > The Zynga scroller that is included in the OpenUI5 library is deprecated. The configuration parameter `oConfig.zynga=true` of the scrolling delegate should not be used.
-> 
-> 
 
 ***
 
@@ -82,10 +80,8 @@ There are cases, when an embedded control controls scrolling of the parent conta
 
 When using `sap.m.FlexBox` with `fitContainer:true` or `sap.m.TileContainer` inside a page, the `enableScrolling` property of the page needs to be set to `false` for the `FlexBox` or `TileContainer` to fit the viewport.
 
-> Note:
+> Note:  
 > The scrollbar changes its size and position on scrolling when the lazy loading mechanism is used. This behavior is expected as the scrollbar is dynamically resized when more content is rendered at the moment of scrolling.
 > 
 > For example, when you open a page that uses lazy loading, only the blocks in the visible area of the screen are displayed. So, the more you scroll, the more content is being rendered, which leads to a smaller size of the scrollbar. For more information on lazy loading, see [Object Page Layout](Object_Page_Layout_2e61ab6.md).
-> 
-> 
 

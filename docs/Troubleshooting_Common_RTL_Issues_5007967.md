@@ -41,14 +41,13 @@ RTL Issues and Solutions<a name="loio50079678e0cc4c8298f764580fc223d3__table_d53
 		<tr>
 			<td>Text is incorrectly aligned because the CSS `text-align` property is not converted.</td>
 			<td> Do not use `text-align:left` if you want the text to change sides in RTL mode, but use `text-align:start` instead. `start` and `end` are handled automatically by the browser. Only use `right` and `left` if you want the text to stay on the same side in RTL mode.
- > Note:
+ > CAUTION:  
  > `start` and `end` are not supported by Internet Explorer 9, 10 and 11. These browser versions use the default alignment, which is the same as `begin`. You need to add specific rules for the LTR and RTL case that specify `right` and `left` respectively. For example, for alignment to `end`:
- > ```
- > 												```
- > html[data-sap-ui-browser^=ie] .sapUiTableEndAlign{text-align: right;} 
- >  html[dir=rtl][data-sap-ui-browser^=ie] .sapUiTableEndAlign{text-align: left;}
- > ```
- > ```
+ > > Sample Code:  
+ > > ```
+ > > html[data-sap-ui-browser^=ie] .sapUiTableEndAlign{text-align: right;} 
+ > >  html[dir=rtl][data-sap-ui-browser^=ie] .sapUiTableEndAlign{text-align: left;}
+ > > ```
 			</td>
 		</tr>
 		<tr>

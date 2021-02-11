@@ -49,10 +49,8 @@ When you run into problems with your app, you should check the OpenUI5 version t
 
 3.  Read the [What's New](What's_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
 
-    > Note:
+    > Note:  
     > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.38.8/`.
-    > 
-    > 
 
 
 For more information, see [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md).
@@ -82,12 +80,10 @@ The OpenUI5 libraries are included in your app in a compressed form. To be able 
 
 3.  Choose * Crtl O * and type the name of an OpenUI5 framework artifact to display its source code in debug mode.
 
-    > Note:
+    > Note:  
     > You may see additional errors and warnings in the developer console. These can help you investigate the problem further.
     > 
     > For performance reasons, you should deactivate this feature again when you're done.
-    > 
-    > 
 
 
 You can also select debug mode only for specific packages:

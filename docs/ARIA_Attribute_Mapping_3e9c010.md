@@ -42,7 +42,7 @@ In order to ease the setting of ARIA attributes, we have introduced two new asso
 
 These associations have the following structure:
 
-> Note:
+> Source Code:  
 > ```
 > ariaLabelledBy : {
 > 
@@ -55,10 +55,8 @@ These associations have the following structure:
 > }
 > 
 > ```
-> 
-> 
 
-> Note:
+> Source Code:  
 > ```
 > ariaDescribedBy : {
 > 
@@ -71,6 +69,4 @@ These associations have the following structure:
 > }
 > 
 > ```
-> 
-> 
 

@@ -34,10 +34,8 @@ This setting has the lowest priority.
 
     Although a full URL can be specified, the framework will only use the path information of the URL to prevent CSS-based attacks that would otherwise be possible by referencing CSS from a malicious server. In a more complex landscape, for example, if the infrastructure of the UI theme designer is running on a separate server, either a Web dispatcher can be used to combine both servers in one namespace, or you should set a full URL using method `sap.ui.getCore.applyTheme` for custom apps as described below.
 
-    > Note:
+    > Note:  
     > The UI theme designer infrastructure stores themes for multiple technologies in the same location, each in its own subdirectory \(`UI5/` for OpenUI5\). Other SAP products \(like SAP Enterprise Portal\) append only the common root URL to the `sap-theme` parameter. OpenUI5 therefore appends folder `UI5/` to any given path that is defined in the `sap-theme` parameter.
-    > 
-    > 
 
 -   You can use method `sap.ui.getCore.applyTheme` to switch themes on the fly. The application state is not lost, and there is no server roundtrip \(except for loading the CSS, if not cached\). Only the style sheets are exchanged.
 
@@ -45,10 +43,8 @@ This setting has the lowest priority.
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/applyTheme).
 
-    > Note:
+    > Note:  
     > This option allows you to switch themes in your app during runtime.
-    > 
-    > 
 
 
 ***

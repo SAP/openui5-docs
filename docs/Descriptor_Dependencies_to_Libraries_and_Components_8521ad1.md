@@ -66,7 +66,7 @@ sap.ui.getCore().initLibrary({
    dependencies : ["sap.ui.core","sap.m"], // lazy libs are not declared here
 ```
 
-> Note:
+> Note:  
 > In all cases, the lazy libraries need to be loaded manually in the application or library via the `loadLibrary` API:
 > 
 > ```
@@ -76,15 +76,11 @@ sap.ui.getCore().initLibrary({
 > // lazy lib loaded asynchronously (the preferred way!)
 > sap.ui.getCore().loadLibrary("sap.suite.ui.commons", { async: true }).then(...);
 > ```
-> 
-> 
 
-> Note:
+> Tip:  
 > Execute the `loadLibrary` before any resource of the library is required to preload the complete library instead of loading each resource individually.
 > 
 > Always use the async API as this is the preferred and performant way. Only use the sync API as an exception if your coding relies on synchronous loading.
-> 
-> 
 
 ***
 

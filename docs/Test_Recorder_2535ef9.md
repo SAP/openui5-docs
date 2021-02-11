@@ -45,10 +45,8 @@ In the *Control Tree* section, you can see the DOM structure of the current app 
 
 You can display more information in the *Control Tree* by selecting the *Namespaces* and *Attributes* checkboxes. Entering text in the *Search* field highlights all elements that \(partially\) match by namespace, control name, or attribute values.
 
-> Note:
+> Note:  
 > Elements in the *Control Tree* get highlighted if there's a match by namespace or attribute value even when the *Namespaces* and *Attributes* checkboxes aren't selected and the information isn't visible.
-> 
-> 
 
 There are three general types of testing-relevant information that you can gather for any control:
 
@@ -59,13 +57,10 @@ There are three general types of testing-relevant information that you can gathe
 -   Bindings \(binding context, properties, and aggregations\) – displayed in the *Common Info* section on the *Bindings* tab.
 
 
-> Note:
+> Note:  
 > -   If an ID is not stable \(because it was generated automatically\), it's not suitable for tests. Unstable IDs start with a double underscore.
 > 
 > -   Many controls can have the same property or binding values. Therefore, when you use them in a control locator, the test finds multiple controls. This is a valid scenario, but it’s always more reliable to locate only one control with a highly specific locator.
-> 
-> 
-> 
 
 ***
 
@@ -86,10 +81,8 @@ To perform an action from the *Control Tree*, right-click and choose *Press* or 
 
 To perform an action from the app page, right-click on any control and select the desired action from the context menu \(the respective control is highlighted in the *Control Tree*\).
 
-> Note:
+> Note:  
 > A *Press* or *Enter Text* action snippet is generated irrespective of whether the control accepts such interactions. Keep in mind that such a snippet is not suitable for tests.
-> 
-> 
 
 ***
 

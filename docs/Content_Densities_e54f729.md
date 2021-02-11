@@ -56,10 +56,8 @@ Alternatively, you can also use the filter function in the *Samples* in the Demo
 
 You set the corresponding content density CSS class on the **container** for the part that you need to switch to the content density in question, not on the control itself. For a standalone scenario, we recommend that you set this at a high level, such as `<body>`, as in most cases you will want to set it for the whole app.
 
-> Note:
+> Note:  
 > Be aware that you can only set **one** density within a hierarchy: Once you have set a CSS class at a high level, such as the one described above, it cascades all the way down, meaning you cannot revoke or overwrite it in the lower levels of your coding.
-> 
-> 
 
 Thus, when using densities, you cannot mix them: You must not combine *Cozy* and *Compact* or *Cozy* and *Condensed* within the same hierarchy.
 

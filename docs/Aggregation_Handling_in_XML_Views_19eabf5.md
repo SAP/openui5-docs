@@ -28,12 +28,10 @@ On root level, you can only define content for the default aggregation, e.g. wit
 
 Some controls have more than one content area, for example the shell control that has the main content area, a menu bar, a `headerItems` aggregation, a `worksetItems` aggregation, and so on. An aggregation tag usually serves as a direct child of a container and contains children. You can only add children directly if the container control has marked one of the child aggregations as default.
 
-> Note:
+> Note:  
 > Some containers may not have default content, for example, the splitter container has two equally important content areas.
 > 
 > The framework supports you by issuing error message in case of errors in the aggregation handling in XML views.
-> 
-> 
 
 You fill aggregations as shown in the following example. The namespace of the parent control tag and the aggregation tag must be the same.
 
@@ -51,7 +49,7 @@ You fill aggregations as shown in the following example. The namespace of the pa
 
 If an aggregation of **cardinality `0..1`** has an alternative type and if you want to specify a value of that alternative type, you have to do this as an attributes, not as a nested element.
 
-> Note:
+> Example:  
 > For the `noData` aggregation of the `sap.ui.comp.smarttable.SmartTable` control, you can either define a string or a nested text control.
 > 
 > |String|Nested text control|
@@ -74,8 +72,6 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > ```
 > 
 >  |
-> 
-> 
 
 You can also use attributes to define binding information for aggregations with cardinality `0..n`. For more information, see *Declarative List Binding in XML Views* under [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md).
 

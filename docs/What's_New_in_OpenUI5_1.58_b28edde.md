@@ -28,10 +28,8 @@ With this release, OpenUI5 is upgraded from version 1.56 to 1.58.
 
      ![](loio7ec578324dce47239eb80b997494089f_HiRes.png) 
 
-    > Note:
+    > Note:  
     > To make sure that your last selection remains available for future use, choose *I agree to use local storage persistency* in the Support Assistant Settings menu.
-    > 
-    > 
 
 -   An **ID field** has been added to the *Export a Rule Preset* dialog. The ID is a string of alphanumeric symbols added manually by the user when creating a rule preset. It is useful in case you want to collect data and generate reports on specific rule preset executions within your organization.
 
@@ -89,10 +87,8 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 -   Exclude filters `NB` \(not between\), `NotContains`, `NotEndsWith`, and `NotStartsWith` are supported.
 
 
-> Note:
+> Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
@@ -140,10 +136,8 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
 -   `sap.m` library for `List` and `Tree` controls: The new `sticky` property is now also available for these controls \(in `sap.m.ListBase`\). It enables the column headers, infobar, and toolbar to remain in a fixed position at the top of the page during vertical scrolling. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase/controlProperties) for the `sticky` property and the [`ListToolbar` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ListToolbar/preview) as well as the [`TreeExpandMulti` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TreeExpandMulti/preview).
 
-> Note:
+> Note:  
 > The `sticky` property is not supported in all browsers. For more information about browser limitations, see the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase).
-> 
-> 
 
 -   `sap.m.MessagePopover/sap.m.MessageView`: The `sap.m.MessageItems` that are aggregated in these controls have a new property - `activeTitle`. If set to `true`, the item’s title will be rendered as a link. Then, an event handler function should be provided for the `activeTitlePress` event, which is an event fired by the control when an active item title is pressed. This allows application developers to link a message in the control to the originating UI element in the application and, for example, automatically scroll to it. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessagePopoverMessageHandling/preview).
 
@@ -166,10 +160,8 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 -   `sap.m.TableSelectDialog`:
     -   The column headers and the info toolbar are now sticky, which means that they remain fixed on top when scrolling. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
 
-        > Note:
+        > Note:  
         > The `sticky` property is not supported in all browsers. For more information about browser limitations, see the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase).
-        > 
-        > 
 
     -   The *Reset* button is replaced by a *Clear* button. The name has been changed to reflect better the functionality of the button which is to clear a selection made in the Table Select Dialog. The control also has a new `showClearButton` property that allows you to choose whether you want the button to be visible or not. Its default value is `false`. To display the button, set the property to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
 

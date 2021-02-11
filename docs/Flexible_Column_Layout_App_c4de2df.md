@@ -51,7 +51,7 @@ Master-detail-detail pattern with `sap.f.FlexibleColumnLayout`, `sap.f.DynamicPa
 
 ***
 
-> Note:
+> Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
 > You can view and download the files for all steps in the Demo Kit at [Flexible Column Layout App](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
@@ -61,7 +61,4 @@ Master-detail-detail pattern with `sap.f.FlexibleColumnLayout`, `sap.f.DynamicPa
 > -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
-> 
-> 
-> 
 

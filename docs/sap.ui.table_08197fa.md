@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Table-like controls, mainly for desktop scenarios.
 
-> Note:
+> Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
-> 
-> 
 
 ***
 
@@ -23,10 +21,8 @@ Table-like controls, mainly for desktop scenarios.
 
 To improve rendering and memory performance, only the number of rows that are visible on the user interface are created internally for `sap.ui.table.Table` \(this is called "row virtualization"\). For example, if the table has enough space to render 20 rows, exactly 20 rows are created internally.
 
-> Note:
+> Example:  
 > Imagine an OData service with 10 million entries. Keeping 10 million row controls, either inside or outside the DOM, is simply not technically feasible for most client devices. Also, a single table row usually contains additional controls inside each cell, such as `sap.m.Labels` or `sap.ui.unified.Currency` controls. The number of used control instances would then be multiplied by the number of columns for every row. Instead of creating all of these OpenUI5 controls for every data entry, the table virtualizes the rows, and in this way only a limited set of control instances are created for each table control instance.
-> 
-> 
 
 ***
 

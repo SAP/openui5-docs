@@ -20,8 +20,6 @@ To specify a preselected item for the delegate, use the `setSelectedIndex` metho
 
 If item navigation has to trigger a control before a focus is set, the `BeforeFocus` and `AfterFocus` events can be used to do, for example, preparation tasks for the controls visibility.
 
-> Note:
+> Note:  
 > Using the item navigation does not prevent you from reacting on the events handled by the delegate in your control.
-> 
-> 
 

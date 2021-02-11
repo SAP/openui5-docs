@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Create apps with rich user interfaces for modern web business applications, responsive across browsers and devices, based on HTML5. \(Documentation patch 1.88.0\)
 
-> Note:
+> CAUTION:  
 >  The documentation development of OpenUI5 1.88 is still in progress for this patch, so there may be information missing. 
-> 
-> 
 
 ***
 
@@ -42,12 +40,10 @@ And many more....
 
 ***
 
-> Note:
+> Tip:  
 > Looking for the Demo Kit for a specific OpenUI5 version?
 > 
 > Check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, e.g. `https://openui5.hana.ondemand.com/1.38.8/`
 > 
 > For more information, see [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md).
-> 
-> 
 

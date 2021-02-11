@@ -81,10 +81,8 @@ sap.ui.require([
 
 Since we are creating a resource model, the file name is assumed to have the extension `.properties`; this does not need to be stated explicitly. The resource model is set to the core using the model name `i18n`.
 
-> Note:
+> Note:  
 > Remove `, panelHeaderText : "Data Binding Basics"` from the model definition in the `index.js` file. This text is now moved to the resource model.
-> 
-> 
 
 ***
 

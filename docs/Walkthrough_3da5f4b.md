@@ -22,7 +22,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 
 ***
 
-> Note:
+> Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 > 
 > You can view and download the samples for all steps in the in the Demo Kit at [Walkthrough](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.tutorial.walkthrough/samples). Depending on your development environment you might have to adjust resource paths and configuration entries.
@@ -32,7 +32,4 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
-> 
-> 
-> 
 

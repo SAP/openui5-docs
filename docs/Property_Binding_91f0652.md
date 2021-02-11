@@ -121,14 +121,12 @@ oInput.bindProperty("value", {
 });
 ```
 
-> Note:
+> Note:  
 > Some controls offer convenience methods for their main properties that are most likely to be bound by an application:
 > 
 > ``` js
 > oTextField.bindValue("/company/name");
 > ```
-> 
-> 
 
 To **remove** a property binding, you can use the `unbindProperty` method. The property binding is removed automatically whenever a control is destroyed:
 
@@ -220,10 +218,8 @@ oImage.bindProperty("src", "/company/trusted", function(bValue) {
 }); 
 ```
 
-> Note:
+> CAUTION:  
 > The framework only updates a binding when one of the properties included in the binding changes. If the formatter uses another property value that is not part of the binding definition, the framework won't know that the result depends on that additional property and could miss necessary updates. Therefore, make sure that you declare a composite binding referencing all necessary properties \(maybe even from different models\).
-> 
-> 
 
 ***
 

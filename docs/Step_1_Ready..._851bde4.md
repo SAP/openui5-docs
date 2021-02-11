@@ -68,10 +68,8 @@ The `index` module that we load with the `onInit` parameter will hold the applic
 
 The `body` tag is defined with the `sapUiBody` class and the `content` ID. This is where we will add the content of the app in the next steps.
 
-> Note:
+> Tip:  
 > For more information about bootstrapping from the CDN, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
-> 
-> 
 
 ***
 

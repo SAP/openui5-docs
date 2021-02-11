@@ -26,10 +26,8 @@ Object Page Header: Expanded \(left\) / Snapped \(right\)<a name="loiobc410e94e4
 
 This behavior can be altered. Setting the property `alwaysShowContentHeader` to `true` will prevent the `headerContent` from snapping.
 
-> Note:
+> Note:  
 > This property only affects desktop environments.
-> 
-> 
 
 ***
 

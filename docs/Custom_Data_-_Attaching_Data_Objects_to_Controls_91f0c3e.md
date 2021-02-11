@@ -89,7 +89,7 @@ In XML views, `CustomData` objects can be written as normal aggregated objects. 
 
 The difference between this more formal namespace and the existing MVC namespaces is intentional.
 
-> Note:
+> Example:  
 > **Use without Data Binding** 
 > 
 > The following example shows how you attach the string "just great" to a button:
@@ -102,10 +102,8 @@ The difference between this more formal namespace and the existing MVC namespace
 > ```
 > 
 > The string is returned at runtime by calling `button.data("mySuperExtraData")`.
-> 
-> 
 
-> Note:
+> Example:  
 > **Use with Data Binding** 
 > 
 > You can use data binding with the following notation:
@@ -116,8 +114,6 @@ The difference between this more formal namespace and the existing MVC namespace
 >      <Button id="myBtn" text="Click to show stored coordinates data" app:coords="{data}" press="alertCoordinates"></Button>
 > </mvc:View>
 > ```
-> 
-> 
 
 ***
 

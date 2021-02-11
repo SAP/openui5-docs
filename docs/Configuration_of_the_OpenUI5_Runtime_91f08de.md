@@ -48,10 +48,8 @@ UI5 supports 7 different possibilities to provide values for the available confi
 5.  Individual `data-sap-ui-xyz` attributes of the bootstrap tag
 6.  URL parameters
 
-    > Note:
+    > Note:  
     > Additional `<meta>` tags are evaluated after URL parameters, if not stated otherwise. Please see the overall list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for the parameters which can be defined via `<meta>` tags.
-    > 
-    > 
 
 7.  Setters on the `sap.ui.core.Configuration` class \(only for some parameters\)
 
@@ -77,10 +75,8 @@ The effective default values can be found either in the  [API Reference](https:/
 
 This option is activated by setting `window["sap-ui-config"]` to an arbitrary string value.
 
-> Note:
+> Note:  
 > The usage of a `sap-ui-config.json` file is deprecated. Please use one of the other available configuration options.
-> 
-> 
 
 ***
 
@@ -128,10 +124,8 @@ The bootstrap attribute `data-sap-ui-config` enables you to provide a single att
 
 You can use this attribute instead of attaching individual options with individual configuration attributes to the script tag. Its content is similar to the Global Configuration Object but without the enclosing parentheses: It is a comma-separated list of key-value pairs.
 
-> Note:
+> Note:  
 > The usual HTML escape mechanisms must be used if the value contains specific HTML characters \(<, \>, &\) or the quote character that is used to enclose the attribute value.
-> 
-> 
 
 ``` html
 <script id="sap-ui-bootstrap"
@@ -154,19 +148,15 @@ For each configuration option, you can have one attribute in the bootstrap scrip
 
     The attribute name is composed of the name of the configuration option and the `data-sap-ui-` prefix. The first part of the prefix \(`data-`\) is necessary to comply with the W3C recommendations for custom attributes in HTML. The second part \(`-sap-ui-`\) separates OpenUI5 attributes from custom attributes defined by any other framework.
 
-    > Note:
+    > Note:  
     > Attribute names in HTML are case-insensitive and this also applies to the configuration attribute names. However, OpenUI5 has defined some configuration options names in camel case, for example `originInfo`. OpenUI5 converts these names automatically to lower case when accessing the configuration.
-    > 
-    > 
 
 -   Value
 
     Element attributes in HTML have a `string` value by definition. For configuration options of type `string`, the attribute value is equivalent to the value of the option.
 
-    > Note:
+    > Note:  
     > If the value contains specific HTML characters, such as '<' or '\>', or if the value contains the same quote character that is used to wrap the attribute value, the usual HTML escape mechanisms must be used: Use entities for the specific HTML characters, for example `&lt;` instead of `<`, and switch the type of quotes from single to double or vice versa.
-    > 
-    > 
 
     For configuration options that are **not** of type `string`, the format of the allowed values has to be defined as follows:
 
@@ -186,10 +176,8 @@ Configuration parameters can be added to the URL of an app.
 
 The URL parameter name is composed of the name of the configuration option and the `sap-ui-` prefix, for example like `index.html?sap-ui-debug=true`.
 
-> Note:
+> Note:  
 > The W3C proposed that the `data-` prefix is not needed and not even allowed here as all URL parameters are kind of custom parameters.
-> 
-> 
 
 The value of a URL parameter is of type `string` and the same type mapping as for HTML attributes applies. However, URLs require a different encoding than HTML; they use, for example % encoding instead of entity encoding.
 

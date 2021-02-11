@@ -33,7 +33,7 @@ The following keys and key combinations are used for navigation in one-dimension
 		<tr>
 			<td>*Page up*</td>
 			<td> If focus is on an item, move focus **up/ left** by page size.
- > Note:
+ > Note:  
  > Page size can be set by the application; default page size is 10 items
 
  If focus is on the last item, do nothing.</td>
@@ -41,7 +41,7 @@ The following keys and key combinations are used for navigation in one-dimension
 		<tr>
 			<td>*Page down*</td>
 			<td> If focus is on an item, move focus **down/ right** by page size.
- > Note:
+ > Note:  
  > Page size can be set by the application; default page size is 10 items
 
  If focus is on the first item, do nothing.</td>

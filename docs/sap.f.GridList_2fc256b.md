@@ -58,13 +58,10 @@ GridList allows for high flexibility layouts, where the app developer can decide
 
 This particular layout works with Internet Explorer 11, due to an implemented regressive enhancement \(polyfill\) in place of `display:grid`.
 
-> Note:
+> Note:  
 > -   The height of all items is set to the height of the highest item.
 > 
 > -   If the `boxWidth` property is set, `boxMinWidth` and `boxesPerRowConfig` properties are ignored. If the `boxMinWidth` property is set, `boxesPerRowConfig` property is ignored.
-> 
-> 
-> 
 
 **Related information**  
 

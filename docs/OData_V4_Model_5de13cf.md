@@ -12,12 +12,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The `sap.ui.model.odata.v4.ODataModel` is the model implementation for consuming an OData V4 service.
 
-> Note:
+> Note:  
 > Smart controls \(`sap.ui.comp` library\) do not support the OpenUI5 OData V4 model. Also controls such as `TreeTable` and `AnalyticalTable` are not supported together with the OpenUI5 OData V4 model.
 > 
 > The interface for applications has been changed for an easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 The OData V4 model supports the following:
 
@@ -34,10 +32,8 @@ The OData V4 model supports the following:
 -   Server-side sorting and filtering
 
 
-> Note:
+> Note:  
 > The OData V4 model documentation contains several code samples. These refer to the [Sales Orders](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) sample in the Demo Kit.
-> 
-> 
 
 **Related information**  
 

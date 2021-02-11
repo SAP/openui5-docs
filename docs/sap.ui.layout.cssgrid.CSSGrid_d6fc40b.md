@@ -24,7 +24,7 @@ The `CSSGrid` is a powerful grid system that can be configured to display a vari
 
 ***
 
-> Note:
+> Note:  
 > You can use the `CSSGrid` layout to divide a page into regions or define the size, position, and layer between parts of a control, and easily align elements into columns and rows.
 > 
 > For more information, see [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Grid\_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
@@ -32,8 +32,6 @@ The `CSSGrid` is a powerful grid system that can be configured to display a vari
 > The display: grid layout is not fully supported by all browser platforms. It does not work with Internet Explorer 11.
 > 
 > For more information, go to www.caniuse.com and search for: `CSS grid layout`
-> 
-> 
 
 ***
 

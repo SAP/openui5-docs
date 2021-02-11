@@ -58,10 +58,8 @@ Although the static package is small enough to be included in hybrid apps, you c
 -   In each of the `/resources/sap/* ... */themes` folders, you can delete all theme folders except the one for the theme you are using.
 
 
-> Note:
+> Note:  
 > For all JavaScript files, an optimized version and a debug \(`dbg`\) version exists. If you delete the files, make sure that you always delete both versions. If you can do without easy debugging and want to achieve a minimum installation size, we recommend to delete all `*-dbg.js` files.
-> 
-> 
 
 You can delete further files, but the size reduction is limited and to find out the files that are not required gets increasingly difficult.
 

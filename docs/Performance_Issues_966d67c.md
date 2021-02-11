@@ -22,10 +22,8 @@ When an application has areas that are not visible initially, or if only one of 
 
 Please note that lazy loading of views can be achieved with routing. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md) of the Navigation and Routing tutorial.
 
-> Note:
+> Example:  
 > An application needs to display a `Panel` containing a `Table` in **display mode**, but the user can switch to **edit mode** to modify data, in which case a different `Panel` needs to be shown. Especially when using XML views, it is tempting for application developers to specify two panels in the view XML and set the `Panel` with the editable table to `visible="false"`. The *Edit* button could then just toggle visibility of both panels.
-> 
-> 
 
 The following XML view is easy to handle, but leads to suboptimal performance when the `editPanel` has a lot of content.
 
@@ -141,12 +139,10 @@ In other scenarios, at the time of developing you may not know which UI part is 
 	...
 ```
 
-> Note:
+> Note:  
 > Although the example above shows an XML view and an XML fragment, the problem and the solution apply to all view types.
 > 
 > Please also note that this guideline is not set in stone: If the hidden UI elements are just small or few in number, using fragments would not help but add additional overhead instead. Having said that, creating several big tables and displaying only one of them is **not** a good idea. There is no definite rule where to draw the line, it depends on many factors like application size, number of libraries being loaded, and additional data requested by those hidden controls. If in doubt, you can test the performance using the performance tracing tools in the browser’s developer console with the controls in question being hidden, against them being removed.
-> 
-> 
 
 See also: [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md).
 

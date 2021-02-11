@@ -14,10 +14,8 @@ Adjacent controls within the tab chain can be grouped. Within such a group, *F6*
 
 Basically, an *F6* group is defined via the attribute `data-sap-ui-fastnavgroup="true"` on a DOM element. Several options exist to implement fast navigation support in controls.
 
-> Note:
+> Note:  
 > We recommend that you do **not** provide fast navigation support for small controls such as `Button` or `InputField`. The fast navigation feature is intended for large, more complex controls containing multiple "tab-able" elements to enable the user to quickly jump over controls if needed.
-> 
-> 
 
 ***
 
@@ -53,10 +51,8 @@ render = function(oRm, oControl){
 
 ```
 
-> Note:
+> Note:  
 > In this case it is difficult for an application to adapt the behavior.
-> 
-> 
 
 ***
 

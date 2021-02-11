@@ -37,10 +37,10 @@ Screen Reader Behavior in Display Controls<a name="loio7b2f7bac3a024cc884c28b09f
 
  -   Textual description of the image content
 
- > Note:
+ > Note:  
  > Decorative images need not be read out.
 
- > Note:
+ > Note:  
  > Interactive icons, that are used as buttons, should be read as such \( `role=”button”`\).
 			</td>
 		</tr>

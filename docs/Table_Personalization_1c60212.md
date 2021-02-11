@@ -104,19 +104,15 @@ The interface itself is simple: on instantiation, persistence identification can
 
 After activation, the table personalization controller applies the personalization obtained through calling the provider's `getPersData()` to its table: it re-arranges the order of columns in the table and makes them invisible if required. To define a default visibility setting, you can either fill the persistence of your table personalization provider with default settings, or you can implement your table personalization provider's `getPersData` method so that it delivers a default visibility if no persisted personalization is available yet.
 
-> Note:
+> Note:  
 > There are no keys specified in the calls to the `get`, `set` and `del` functions. These should be inherent from the original instantiation of the service and used implicitly. There may be a requirement to supply a variant style sub-key in future, but this is not yet implemented.
-> 
-> 
 
 **Shell Table Personalization Persistence Service Provider**
 
 A concrete implementation of the table personalization persistence service provider \(`sap.m.Table PersoProvider`\) is available from the Unified Shell services. The previous code example shows this persistence service provider being instantiated and utilized in the controller.
 
-> Note:
+> Note:  
 > Please note that this is not part of the OpenUI5 framework. It is delivered separately, and you must check that this service is available in your application context.
-> 
-> 
 
 ***
 

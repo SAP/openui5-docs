@@ -107,10 +107,8 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 
 We add a new model `invoice` to the `sap.ui5` section of the descriptor. This time we want a JSONModel, so we set the type to `sap.ui.model.json.JSONModel`. The `uri` key is the path to our test data relative to the component. With this little configuration our component will automatically instantiate a new `JSONModel` which loads the invoice data from the `Invoices.json` file. Finally, the instantiated `JSONModel` is put onto the component as a named model invoice. The named model is then visible throughout our app.
 
-> Note:
+> Note:  
 > Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did for the resource bundle in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
-> 
-> 
 
 ***
 

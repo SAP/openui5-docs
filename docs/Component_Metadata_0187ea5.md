@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The component class provides specific metadata for components by extending the `ManagedObject` class. The `UIComponent` class provides additional metadata for the configuration of user interfaces or the navigation between views.
 
-> Note:
+> Note:  
 > With the introduction of the descriptor for applications, components, and libraries, we recommend to migrate the component metadata to the descriptor. The descriptor is inspired by W3C’s Web Application Manifest and provides comprehensive information for applications, components and libraries. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). The metadata property `manifest` must be set to `json` to indicate that the `manifest.json` file should be loaded and used:
 > 
 > ``` js
@@ -25,8 +25,6 @@ The component class provides specific metadata for components by extending the `
 > ```
 > 
 > You can also define the descriptor inline by just providing an object. However, we do **not** recommend this because this would prevent that the descriptor can be analyzed by tools.
-> 
-> 
 
 The metadata defined in `Component.js` is common for components. The following parameters are available:
 

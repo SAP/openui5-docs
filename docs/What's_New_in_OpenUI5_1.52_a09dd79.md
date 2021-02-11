@@ -37,7 +37,7 @@ The new version of the OpenUI5 The OData V4 model has the following features:
 -   Enhancements to the adapter to use the V4 model with an OData V2 service: handling of simple `$filter` expressions
 
 
-> Note:
+> CAUTION:  
 > **Incompatibility Due to a Bug Fix**
 > 
 > If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. However, due to a bug, the return value wraps the expected output and can only be accessed using `.value[0]`, for example `oContext.getObject().value[0]`.
@@ -45,13 +45,9 @@ The new version of the OpenUI5 The OData V4 model has the following features:
 > **If you have used this workaround, your application will break as of OpenUI5 version 1.44.6.**
 > 
 > **Solution**: If your application needs to run with both the fixed and unfixed versions of OpenUI5, specify the `sPath=""` parameter, for the `sPath` parameter. In both cases, you **must not** use the `.value[0]`workaround any more.
-> 
-> 
 
-> Note:
+> Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
@@ -240,10 +236,8 @@ White spaces are decreased, contrast between the background and the tables is in
 
 We added a new *Tools* section in the main navigation after the *Demo Apps* section. It contains documentation and quick navigation to different OpenUI5 tools, such as SAP Web IDE, UI5 Inspector, the icon explorer, the theme parameter toolbox, UI theme designer, and Build.
 
-> Note:
+> Note:  
 > The icon explorer and the theme parameter toolbox were moved from *Demo Apps* to the *Tools* section.
-> 
-> 
 
 ***
 
@@ -310,7 +304,7 @@ rootView : {
 			<td>Asynchronous loading of views \(or any resources\) can be faster in modern browsers. The browser can load resources in parallel without freezing the UI. So this may improve the performance and user experience.
 
  > Note:
- > There are rules in the support assistant that check for asynchronous loading.
+   > There are rules in the support assistant that check for asynchronous loading.
 			</td>
 		</tr>
 		<tr>

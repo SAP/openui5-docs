@@ -26,10 +26,8 @@ There are several options for labeling:
 
     -   Multiple references are not possible
 
-    > Note:
+    > Example:  
     > `<Label text="Product price" required="true" **labelFor="productPriceInput"**/>`
-    > 
-    > 
 
 2.  The `aria-label` attribute
 
@@ -48,10 +46,8 @@ There are several options for labeling:
     -   Explicitly designed for multiple references
 
 
-> Note:
+> CAUTION:  
 > The different options cannot be used in conjunction. There is a precedence rule, which determines how the labeling attributes are prioritized and read by the screen reader. As an application developer, you need to be aware of the order in which the labeling is read by your screen reader.
-> 
-> 
 
 **Related information**  
 

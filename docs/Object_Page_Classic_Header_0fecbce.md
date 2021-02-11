@@ -67,10 +67,8 @@ Optional indicators in the title<a name="loio0fecbce45e39406aa939bd25e89823f4__t
 | ![](loiof89451a47cc54e0186d1e597f2f18682_HiRes.png) *Unsaved changes* | `markChanges` |
 | ![](loiod7144c249b8d4168a7129f583e7c5674_HiRes.png) *Selector* | `showTitleSelector` |
 
-> Note:
+> Note:  
 > Keep in mind that *Locked* and *Unsaved changes* are mutually exclusive. If both of them are set to be visible, only the *Locked* state is displayed.
-> 
-> 
 
 You can show and hide both the markers \(*Favorite* and *Flagged*\) simultaneously with the `showMarkers` boolean property.
 
@@ -84,10 +82,8 @@ You can add an icon-sized image before the title by defining the image location 
 
 You can control whether the image, title, subtitle, and actions are always visible or visible only when the header is collapsed \(snapped\).
 
-> Note:
+> Tip:  
 > To build a custom `headerTitle`, you can extend the `ObjectPageHeader` class and then use any control in the `headerTitle` aggregation. The `ObjectPageLayout`, however, needs correct values for the `objectImageURI` / `objectImageShape` and `headerDesign`, as those properties are important for the `headerContent` in order to style it properly.
-> 
-> 
 
 ***
 

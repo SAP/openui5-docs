@@ -23,7 +23,7 @@ You create a JS \(JavaScript\) view in the same way as a controller and use the 
     This method is used to create the UI. As the method knows the controller, it can directly attach the event handlers.
 
 
-> Note:
+> Example:  
 > ``` js
 >    sap.ui.jsview("sap.hcm.Address", {  // this View file is called Address.view.js
 >    
@@ -39,12 +39,10 @@ You create a JS \(JavaScript\) view in the same way as a controller and use the 
 > 
 > });
 > ```
-> 
-> 
 
 The string in quotes denotes the view name that equals the OpenUI5 module name within the define/require concept.
 
-> Note:
+> CAUTION:  
 > In event handlers for controls "this" usually denotes the control itself. This is unexpected when it happens in event handlers that are implemented inside controllers: The controller would usually expected to be denoted as "this". This is no issue for declarative view types, but for JSViews the view developer may need to modify the "this" context as follows:
 > 
 > ``` js
@@ -65,10 +63,8 @@ The string in quotes denotes the view name that equals the OpenUI5 module name w
 >    ...
 > 
 > ```
-> 
-> 
 
-> Note:
+> CAUTION:  
 > If you want to define IDs for controls inside a JSView to guarantee their uniqueness when reusing views, you can **not** give hardcoded IDs, but have to give the view the opportunity to add its own instance ID as a prefix. This is done by using the `View.createId(...)` method. For the example above, this is done as follows:
 > 
 > ``` js
@@ -76,6 +72,4 @@ The string in quotes denotes the view name that equals the OpenUI5 module name w
 > ```
 > 
 > This is not required for declarative view types as the view parser can manage this automatically, see [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md).
-> 
-> 
 

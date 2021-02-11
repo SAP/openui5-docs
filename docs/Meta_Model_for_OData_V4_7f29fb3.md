@@ -46,15 +46,11 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) .
 
-> Note:
+> Note:  
 > The single hash separator is deprecated since 1.52
-> 
-> 
 
-> Note:
+> Remember:  
 > An appropriate URI encoding is necessary for the data path \(before the separator\), but neither for the separator itself nor for the metadata path that follows it.
-> 
-> 
 
     Example: `<template:with path="/Products('A%2FB%26C')/Name#@com.sap.vocabularies.Common.v1.Label" var="label"> or <template:with path="data>/Products#/" var="productEntityType">`, etc.
 

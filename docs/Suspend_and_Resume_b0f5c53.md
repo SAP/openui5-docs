@@ -24,10 +24,8 @@ Typical use cases for suspend and resume are:
 
     The UI is adapted by adding or removing a column to a table or a field to a form; the "auto-$expand/$select" feature recomputes the $expand and $select query options when the corresponding list binding or context binding is suspended before adaptation and resumed afterwards.
 
-    > Note:
+    > Note:  
     > The template for the aggregation in a UI5 control cannot be adapted afterwards. That's why the aggregation has to be "bound again" after applying changes to the table template. For example. for a [`sap.m.Table`](https://openui5.hana.ondemand.com/#/api/sap.m.Table), you have to call its `bindItems` method.
-    > 
-    > 
 
 3.  **Avoid intermediate request when modifying the binding multiple times**
 
@@ -36,12 +34,10 @@ Typical use cases for suspend and resume are:
 
 The code below shows a snippet from the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders) which delays the request to **/BusinessPartnerList** until the *Create Sales Order* dialog is displayed.
 
-> Note:
+> Note:  
 > The `suspended` flag in the binding info triggers a call to the suspend method of the corresponding binding once it is created.
-> 
-> 
 
-> Note:
+> Example:  
 > View
 > 
 > ```
@@ -55,12 +51,10 @@ The code below shows a snippet from the [`SalesOrders OData V4 sample`](https://
 > ...
 > </Dialog>
 > ```
-> 
-> 
 
 The controller code to open the dialog resumes the list binding on **/BusinessPartnerList** and thus triggers the request.
 
-> Note:
+> Example:  
 > Controller
 > 
 > ```
@@ -70,8 +64,6 @@ The controller code to open the dialog resumes the list binding on **/BusinessPa
 >     oBPListBinding.resume();
 > }
 > ```
-> 
-> 
 
 When a binding is suspended, all methods which may trigger CRUD requests for this binding, for example `ODataListBinding.create` throw an error. This is also true for dependent bindings of a suspended binding. However methods that cause the binding to be refreshed completely are allowed. These methods are:
 
@@ -92,8 +84,6 @@ When a binding is suspended, all methods which may trigger CRUD requests for thi
 -   [`ODataListBinding.updateAnalyticalInfo`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/updateAnalyticalInfo)
 
 
-> Note:
+> CAUTION:  
 > It is not allowed to suspend operation bindings.
-> 
-> 
 

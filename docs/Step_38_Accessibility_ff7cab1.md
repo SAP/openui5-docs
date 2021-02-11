@@ -14,10 +14,8 @@ As the last step in this tutorial, we are going to improve the accessibility of 
 
 To achieve this, we will add ARIA attributes. ARIA attributes are used by screen readers to recognize the application structure and to interpret UI elements properly. That way, we can make our app more accessible for users who are limited in their use of computers, for example visually impaired persons. The main goal here is to make our app usable for as many people as we can.
 
-> Note:
+> Tip:  
 > ARIA is short for **Accessible Rich Internet Applications**. It is a set of attributes that enable us to make apps more accessible by assigning semantic characteristics to certain elements. For more information, see [Accessible Rich Internet Applications \(ARIA\) – Part 1: Introduction](https://experience.sap.com/skillup/accessible-rich-internet-applications-aria-part-1-introduction/).
-> 
-> 
 
 ***
 
@@ -154,10 +152,8 @@ In this view, we already have a panel, so we just add the `accessibleRole` attri
 
 ***
 
-> Note:
+> Note:  
 > To add ARIA roles, labels and panels to other views, for example your `Detail.view.xml`, you can follow the same pattern. We won't go into detail in this tutorial step, but if you're interested, simply download the tutorial code and take a look at the `Detail.view.xml`.
-> 
-> 
 
 ***
 

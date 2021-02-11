@@ -85,12 +85,10 @@ This could happen if you wrote the tag of the control with lowercase letters, be
 |---------------|-----------------|
 | `<**B**utton text="Click me" />` | `<**b**utton text="Click me" />` Error message: `Uncaught Error: failed to load 'sap/m/button.js'` |
 
-> Note:
+> Tip:  
 > Control tags always start with capital letters after the namespace like `<Button>`, `<l:FixFlex>`, `<f:SimpleForm>`.
 > 
 > Aggregations always start with lowercase letters like `<content>`, `<l:fixContent>`, `<f:content>`
-> 
-> 
 
 ***
 

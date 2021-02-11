@@ -69,10 +69,8 @@ When you have repeated values in your table, you can use the `mergeDuplicate` fe
 
 Duplicate values will only be merged if they are adjacent. This means that you should sort your data first before binding it.
 
-> Note:
+> Note:  
 > When using `sap.m.Column` in a table, the column merging feature is not supported when used in combination with two-way binding.
-> 
-> 
 
 Here's an example of how to use the `mergeDuplicates` feature. We'll set up a table of sales data and display the data in a table, merging any duplicate regions. When the *Mix Up* button is pressed to lightly shuffle the `salesFigures` array of objects, you will see that only adjacent duplicates are merged. Press the *Sort* button again to see the ideal merging.
 
@@ -157,10 +155,8 @@ You just need to note the ID of the `sap.m.List` or `sap.m.Table` control \(in t
 
 ```
 
-> Note:
-> Use <even\>, rather than <odd\> for the sibling specification. This way, the pop-in highlighting will be correct.
-> 
-> 
+> Note:  
+> Use *<even\>*, rather than *<odd\>* for the sibling specification. This way, the pop-in highlighting will be correct.
 
 It's also possible to highlight table columns by using the `styleClass` property of the `sap.m.Column` control. The value of this property is applied as a class to the whole column \(header, cells and footer\) and can be used in the following way: specify a class name for the `styleClass` property of your column, and set the style as you wish:
 

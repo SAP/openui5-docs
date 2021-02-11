@@ -18,10 +18,8 @@ Log messages can be written by the framework or the application code. Which log 
 
 Specific log messages only appear in the console when the severity of the issue is equal to or higher than the currently set log level. For example, when opening an OpenUI5 app without any additional configuration, the default log level \(1 = `ERROR`\) is applied. Only messages with severity `FATAL` and `ERROR` will be written to the console; other messages are not logged for performance reasons.
 
-> Note:
+> Tip:  
 > In productive applications, you should keep the system defaults for log levels for performance reasons.
-> 
-> 
 
 Severities and Log Levels<a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>
 
@@ -92,10 +90,8 @@ this._oLogger = Log.getLogger("sap.ui.demo.MyComponent");
 this._oLogger.info("Something has happened");
 ```
 
-> Note:
+> Note:  
 > The log entries can also be accessed programmatically. You can also register a listener to the log that will be notified whenever a new entry is added to the log.
-> 
-> 
 
 ***
 
@@ -108,10 +104,8 @@ For logical checks in your application flow, you can use assertions. With `sap/b
 assert(aValues.length === 10, "There are 10 values stored in the array")
 ```
 
-> Note:
+> Note:  
 > Assertions might be removed when the JavaScript code is optimized during a build. Therefore, callers should not rely on any side effects of this method.
-> 
-> 
 
 **Related information**  
 

@@ -26,10 +26,8 @@ Application headers, written based on older SAP Fiori design guidelines, can now
 
 The SAP Fiori 2.0 design concept requires changes with regards to the headers of applications and the SAP Fiori launchpad \(FLP\). If your application has a header, it needs to be merged into the standardized SAP Fiori 2.0 header. OpenUI5 offers an adapter mechanism to let existing apps automatically adjust their header layout according to the SAP Fiori 2.0 guidelines.
 
-> Note:
+> Note:  
 > The screenshots in this topic are mockups and are used to visually outline the adaptations. The final apps will look somewhat different.
-> 
-> 
 
    
   
@@ -58,10 +56,8 @@ SAP Fiori 2.0 header adaptation<a name="loio0635156f3950494885ca314a13e15e29__fi
 
  ![](loiofba5d251f36145f285963be29070219a_HiRes.png "SAP Fiori 2.0 header adaptation") 
 
-> Note:
+> Note:  
 > These adaptations are primarily valid only for **fullscreen** apps. Other floorplans, like Master-Detail, are affected differently and the adaptation there will not be the same.
-> 
-> 
 
 ***
 
@@ -108,15 +104,11 @@ In the list below, you can see what each of the settings enables.
 -   `hierarchy` - Triggers propagation of the hierarchy to FLP
 
 
-> Note:
+> Note:  
 > In rare cases this automatic adaptation of the header area may not work, due to the application structure or other reasons. In this case the headers will still appear in the old design, but the apps will continue to be usable.
-> 
-> 
 
 Some old SAP Fiori applications do not have an app descriptor yet. If you consider the effort to provide proper app descriptors for all applications as too high, there is a second way to do this configuration. This alternative configuration is done in the `metadata` section of `**Component.js**` \(the app’s root component\), which also has a `config` section. The configuration options can be done there in the same manner.
 
-> Note:
+> Note:  
 > If both the metadata and manifest are configured, and contradict each other, the configuration in **manifest.json** is applied.
-> 
-> 
 

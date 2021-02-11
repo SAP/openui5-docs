@@ -34,10 +34,8 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 An OData service accepts query options placed in the service URL query part, as explained on the URL conventions page [OData Version 4.0 Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html) in chapter 2 *URL Components*. The OData V4 model accepts OData custom query options only as explained in section 5.2 *Custom Query Options* of the URL conventions page; you must not provide OData system query options \(starting with "$"\) or OData parameter aliases \(starting with "@"\) at model level, see sections 5.1 *System Query Options* and 5.3 *Parameter Aliases* in the URL conventions page.
 
-> Note:
+> Note:  
 > Note that it's possible to specify certain system query options for OData V4 model bindings. For more information, see [Bindings](Bindings_54e0ddf.md).
-> 
-> 
 
 **OData V4 model instantiation with service URL parameters:**
 

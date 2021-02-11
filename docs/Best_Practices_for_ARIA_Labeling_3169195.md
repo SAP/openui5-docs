@@ -24,7 +24,7 @@ There are two fields in a form, but there is only one label for both of them. Fo
 
 Introduce the following association to controls:
 
-> Note:
+> Source Code:  
 > ```
 > ariaLabelledBy : {
 > 
@@ -37,8 +37,6 @@ Introduce the following association to controls:
 > }
 > 
 > ```
-> 
-> 
 
 This association can be used to point to other controls that provide the needed labeling using the `aria-labelledby` property.
 
@@ -78,10 +76,8 @@ In some cases controls need to add additional label texts by themselves for a pr
 
 1.  If the control already provides an `ariaLabelledBy` association, the additional texts must be referenced in other means \(for example, with hidden texts within the control\).
 
-> Note:
+> Note:  
 > It’s not possible to combine `aria-labelledby` with `aria-label`.
-> 
-> 
 
 2.  If the control does not provide an `ariaLabelledBy` association, but it could, then the association should be added to follow the option above.
 

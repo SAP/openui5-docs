@@ -30,97 +30,85 @@ Two scenarios are supported:
 
 -   You can provide properties for grouping and aggregation. An appropriate system query option `$apply` is derived from those. The list binding then still provides a flat list of contexts \("rows"\), but with additional aggregated properties \("columns"\). In addition, you can request grand total values for aggregatable properties. In this case, an extra row appears at the beginning of the flat list of contexts that contains the grand total values, as well as empty values for all other properties.
 
-    ```
-    
-    					    **Example XML View With Grand Total**
-    
-    
-    					    ``` js
-        <table:Table fixedRowCount="1"
-           rows="{
-              path : '/BusinessPartners',
-              parameters : {
-                 $$aggregation : {
-                    aggregate : {
-                       SalesAmount : {
-                          grandTotal : true,
-                          unit : 'Currency'
-                       }
-                    },
-                    group : {
-                       Country : {}
-                    }
-                 },
-                 $filter : 'SalesAmount gt 1000000',
-                 $orderby : 'SalesAmount desc'
-              }
-           }">
-           <table:Column template="Country">
-              <Label text="Country"/>
-           </table:Column>
-           <table:Column hAlign="End" template="SalesAmount">
-              <Label text="Sales Amount"/>
-           </table:Column>
-           <table:Column template="Currency">
-              <Label text="Currency"/>
-           </table:Column>
-        </table:Table>
-        ```
-    
-    
-    				
-    ```
+    > Sample Code:  
+    > **Example XML View With Grand Total**
+    > 
+    > ``` js
+    > <table:Table fixedRowCount="1"
+    >    rows="{
+    >       path : '/BusinessPartners',
+    >       parameters : {
+    >          $$aggregation : {
+    >             aggregate : {
+    >                SalesAmount : {
+    >                   grandTotal : true,
+    >                   unit : 'Currency'
+    >                }
+    >             },
+    >             group : {
+    >                Country : {}
+    >             }
+    >          },
+    >          $filter : 'SalesAmount gt 1000000',
+    >          $orderby : 'SalesAmount desc'
+    >       }
+    >    }">
+    >    <table:Column template="Country">
+    >       <Label text="Country"/>
+    >    </table:Column>
+    >    <table:Column hAlign="End" template="SalesAmount">
+    >       <Label text="Sales Amount"/>
+    >    </table:Column>
+    >    <table:Column template="Currency">
+    >       <Label text="Currency"/>
+    >    </table:Column>
+    > </table:Table>
+    > ```
 
 -   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the groupable and aggregatable properties. To achieve this, specify the names of the group levels in the `groupLevels` property of `$$aggregation`.
 
     Group levels cannot be combined with the system query option `$count : true` and can only be combined with filtering before the aggregation \(see below\). Note how an `$orderby` option can address groups across all levels. For every aggregatable property, you can request subtotals and a grand total individually.
 
-    ```
-    
-    					    **Example XML View With Hierarchy**
-    
-    
-    					    ``` js
-        <table:Table fixedRowCount="1"
-           rows="{
-              path : '/BusinessPartners',
-              parameters : {
-                 $$aggregation : {
-                    aggregate : {
-                       SalesAmount : {
-                          grandTotal : true,
-                          subtotals : true,
-                          unit : 'Currency'
-                       }
-                    },
-                    groupLevels : ['Country','Region','Segment']
-                 },
-                 $count : false,
-                 $orderby : 'Country,Region desc,Segment',
-                 filters : {path : \'Region\', operator : \'GE\', value1 : \'Mid\'}
-              }
-           }">
-           <table:Column template="Country">
-              <Label text="Country"/>
-           </table:Column>
-           <table:Column template="Region">
-              <Label text="Region"/>
-           </table:Column>
-           <table:Column template="Segment">
-              <Label text="Segment"/>
-           </table:Column>
-           <table:Column hAlign="End" template="SalesAmount">
-              <Label text="Sales Amount"/>
-           </table:Column>
-           <table:Column template="Currency">
-              <Label text="Currency"/>
-           </table:Column>
-        </table:Table>
-        ```
-    
-    
-    				
-    ```
+    > Sample Code:  
+    > **Example XML View With Hierarchy**
+    > 
+    > ``` js
+    > <table:Table fixedRowCount="1"
+    >    rows="{
+    >       path : '/BusinessPartners',
+    >       parameters : {
+    >          $$aggregation : {
+    >             aggregate : {
+    >                SalesAmount : {
+    >                   grandTotal : true,
+    >                   subtotals : true,
+    >                   unit : 'Currency'
+    >                }
+    >             },
+    >             groupLevels : ['Country','Region','Segment']
+    >          },
+    >          $count : false,
+    >          $orderby : 'Country,Region desc,Segment',
+    >          filters : {path : \'Region\', operator : \'GE\', value1 : \'Mid\'}
+    >       }
+    >    }">
+    >    <table:Column template="Country">
+    >       <Label text="Country"/>
+    >    </table:Column>
+    >    <table:Column template="Region">
+    >       <Label text="Region"/>
+    >    </table:Column>
+    >    <table:Column template="Segment">
+    >       <Label text="Segment"/>
+    >    </table:Column>
+    >    <table:Column hAlign="End" template="SalesAmount">
+    >       <Label text="Sales Amount"/>
+    >    </table:Column>
+    >    <table:Column template="Currency">
+    >       <Label text="Currency"/>
+    >    </table:Column>
+    > </table:Table>
+    > ```
 
 
 For aggregatable properties where grand total or subtotal values are requested, you can globally choose where these should be displayed:

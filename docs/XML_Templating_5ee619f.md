@@ -14,16 +14,14 @@ The XML templating concept enables you to use an XML view as a template. This te
 
 The label texts and binding paths in the example below come from SAP Annotations for OData Version 2.0 \([http://www.sap.com/Protocols/SAPData](http://www.sap.com/Protocols/SAPData)\) such as `sap:semantics`, and from OData Version 4.0 annotations such as `com.sap.vocabularies.UI.v1.Badge`. Much more complex tasks than shown in this simple example are possible.
 
-> Note:
+> Note:  
 > HTML templating is no longer supported as of Version 1.56.
-> 
-> 
 
 The transformation happens if a preprocessor for XML is called when the view is created, see lines 4 and 5 in the *Calling the XML Preprocessor* example. This preprocessor can be given one or more models along with a corresponding binding context, see lines 6 and 9; this concept exists for any OpenUI5 control's constructor. Typically, an OData model's meta model is given, along with the meta context corresponding to a data path. XML templating operates on meta data. If the data changes, the XML templating can **not** be executed again. This is due to the processing time. Only the resulting bindings are evaluated again.
 
 If the view is loaded asynchronously, fragments and required modules are loaded asynchronously, too.
 
-> Note:
+> Restriction:  
 > XML templating is not directly supported with routing, that is, there is no way to declare that the XML Preprocessor should run on the target view of a route. Instead, you should define a JavaScript view as the route's target and use that view's `createContent` method to create an XML view with templating.
 > 
 > As of Version 1.56 `sap.ui.core.mvc.JSView.create` is introduced to load and create view instances asynchronously. To define JavaScript views, the synchronous method `sap.ui.jsview` still has to be used, however. In this use case `sap.ui.core.mvc.JSView.create` cannot be used. For more information, see the API References: [`sap.ui.core.mvc.JSView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.JSView%23methods/sap.ui.core.mvc.JSView.create) and [`sap.ui.jsview`](https://openui5.hana.ondemand.com/#/api/sap.ui%23methods/sap.ui.jsview). 
@@ -52,8 +50,6 @@ If the view is loaded asynchronously, fragments and required modules are loaded 
 >      });
 > });
 > ```
-> 
-> 
 
 In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the corresponding meta context point to `"/dataServices/schema/0/entityType/0"` \(the entity type `BusinessPartner`\). The resulting view is bound to the data path within the OData model in order to display the supplier of that product.
 
@@ -106,19 +102,15 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 -   An XML fragment that demonstrates a simple test \(line 10\), using expression binding.
 
 
-> Note:
+> Tip:  
 > You can find more elaborate XML templating samples here: [XMLView](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.mvc.XMLView/samples). 
 > 
 > Take a look at the demo scenario for a complete overview of all OData v4 notations.
-> 
-> 
 
-> Note:
+> CAUTION:  
 > The OData model is based on `GWSAMPLE_BASIC` and will not work unless a suitable proxy for back-end access is used. For simplicity, no mock data is included in this example.
 > 
 > For more information, see the Help topic, [Sample Service - Basic](http://help.sap.com/saphelp_nw74/helpdata/en/59/283fc4528f486b83b1a58a4f1063c0/frameset.htm).
-> 
-> 
 
 ``` js
 1   /*!
@@ -274,10 +266,8 @@ Overall, XML templating is based on:
 -   The helper class `sap.ui.model.odata.AnnotationHelper` that offers formatter and helper functions to be used inside XML template views. It knows about the OData meta model and helps with standard tasks like accessing a label or providing a runtime binding path. It brings in the OData types, along with their facets. Its output uses expression binding, if needed.
 
 
-> Note:
+> Note:  
 > XML Templating works almost the same for OData V4 as for OData V2; for the differences see the *Annotations* section in [Meta Model for OData V4](Meta_Model_for_OData_V4_7f29fb3.md).
-> 
-> 
 
 **Related information**  
 

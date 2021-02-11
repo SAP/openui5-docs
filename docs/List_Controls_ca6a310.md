@@ -80,7 +80,7 @@ List controls are used to store entities
  -   In Virtual Cursor mode - all content of the region
 
 
- > Note:
+ > Note:  
  > The whole region should be available as a landmark
 			</td>
 		</tr>

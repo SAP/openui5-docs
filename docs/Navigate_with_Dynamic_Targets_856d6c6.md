@@ -14,10 +14,8 @@ The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to
 
 Usually, routing targets \(that represent views or components\) are defined statically in the [Routing Configuration](Routing_Configuration_9023130.md) inside the `manifest.json` file. But there are more and more scenarios where a target can't be defined during design time because the necessary information is only available at runtime. This could apply, for example, to a routing target that depends on the user configuration and must be loaded from the back end at runtime.
 
-> Note:
+> Note:  
 > Defining the targets statically in the `manifest.json` file is the preferred solution, as this allows for optimization possibilities \(e.g. during build time\). Only make use of dynamic targets when a static declaration is not possible, e.g. because certain information is not available during design time.
-> 
-> 
 
 Before a target can be displayed, it needs to be added to the router. The OpenUI5 routing provides APIs to let an application add routing targets dynamically and to display them.
 
@@ -52,10 +50,8 @@ On top of the other target options, the following configuration options can be u
 -   `containerOptions` \(optional\): Relevant for targets of type `Component`
 
 
-> Note:
+> Note:  
 > The `usage` property cannot be used for dynamic targets. For more information on the available target options, see [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md).
-> 
-> 
 
 ***
 

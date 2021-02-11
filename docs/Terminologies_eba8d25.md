@@ -36,17 +36,13 @@ Configuration Options for Terminologies<a name="loioeba8d25a31ef416ead876e091e67
 | `terminologies` | `Object` |A key-value map in which the name of a terminology is specified as a key and a configuration object as a value. The configuration object must be specified with either `bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.|
 | `enhanceWith` | `Object[]` |List of additional resource bundle configurations to enhance the main bundle. Each entry can have the same properties as described in this table, **except another `enhanceWith`**.|
 
-> Note:
+> Note:  
 > In case the properties `bundleName` and `bundleUrl` have both been specified, `bundleName` will be preferred.
-> 
-> 
 
-> Note:
+> Note:  
 > Certain ABAP systems implement their own language fallback mechanism, which might lead to unwanted results if you're using terminologies. For example, a request of a French resource bundle file \(such as `../i18n_fr.properties`\) might be answered with English content in case there is no available French version in the back end.
 > 
 > To prevent this behavior, you need to explicitly set the `supportedLocales` option to the actual valid set of supported languages for the back end.
-> 
-> 
 
 **Example:**
 
@@ -158,10 +154,8 @@ sap.ui.require(["sap/ui/core/Component"], function(Component) {
 
 #### Activate Terminologies via URL Parameter
 
-> Note:
+> Note:  
 > The activation of terminologies via URL parameter is mainly intended for testing purposes.
-> 
-> 
 
 Another option is to attach the URL parameter `sap-ui-activeTerminologies` with a comma-separated list of terminologies to the URL:
 
@@ -174,10 +168,8 @@ Another option is to attach the URL parameter `sap-ui-activeTerminologies` with 
 
 #### Activate Terminologies via the Bootstrap Configuration
 
-> Note:
+> Note:  
 > The activation of terminologies via the bootstrap configuration is mainly intended for testing purposes.
-> 
-> 
 
 A third option is to provide the list of active terminologies \(also comma-separated\) in the bootstrap configuration via the `data-sap-ui-activeTerminologies` attribute:
 

@@ -14,10 +14,8 @@ The `sap-icon://` protocol supports the use of icons in your application based o
 
 Compared to image-based icons, icon font is easily scalable and you can change the color and apply various effects via CSS. OpenUI5 provides the `Icon` control in the `sap/ui/core/Icon` module and a set of predefined icons available in `IconPool` in the `sap/ui/core/IconPool` module.
 
-> Note:
+> Note:  
 > The icon font will not work if Web fonts are blocked for the user's operating system, for example, by the *Blocking Untrusted Fonts* feature in Microsoft Windows \(see [Block untrusted fonts in an enterprise](https://technet.microsoft.com/en-us/itpro/windows/keep-secure/block-untrusted-fonts-in-enterprise) in the Microsoft Windows IT Center\).
-> 
-> 
 
 ***
 
@@ -38,12 +36,10 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 -   `lazy` \(optional\): Metadata for the icons is not loaded until the first icon from the icon set is used
 
 
-> Note:
+> Note:  
 > If neither `metadata` nor `metadataURI` is provided, a request is sent to `fontURI`/`fontFamily`.json to load the metadata.
-> 
-> 
 
-> Note:
+> Example:  
 > The `sap.tnt` library provides an extra icon set. The `sap/tnt/themes/base/fonts` folder contains `SAP-icons-TNT.woff` and `SAP-icons-TNT.woff2` as well as the `SAP-icons-TNT.json` JSON file, which contains the mapping of the icon name and the icon's hex code:
 > 
 > ``` js
@@ -61,8 +57,6 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 >   ...
 > }
 > ```
-> 
-> 
 
 The JSON file has the same name as the `woff` and `woff2` files, so it is not necessary to set `metadataURI`. To register the icon in the `IconPool`, use the following code. Note that in the example the metadata is not loaded until one icon from this icon set is used because `lazy` is set to true.
 
@@ -96,10 +90,8 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
     sap-icon://[collection-name]/[icon-name]
     ```
 
-    > Note:
+    > Note:  
     > You need the collection name only for custom icons. The URI for predefined icons does **not** need the collection name.
-    > 
-    > 
 
 
 ***

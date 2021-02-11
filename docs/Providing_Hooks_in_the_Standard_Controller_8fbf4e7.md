@@ -54,10 +54,8 @@ sap.ui.define("customer.xy.Sub2ControllerExtension", [], function () {
 });
 ```
 
-> Note:
+> Note:  
 > This only works for one extension layer as the most specific or last extension overrides any other hook implementations. To allow multi-layer extensions, we recommend that middle-layer extensions provide and document their own hook functions.
 > 
 > This also requires flat, non-inherited controllers defined as a module used as extension controller, and not with typed controllers.
-> 
-> 
 

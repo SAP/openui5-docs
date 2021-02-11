@@ -23,31 +23,23 @@ A relative list or context binding creates a data service request once it has a 
 -   You specify a dynamic filter or dynamic sorter for a list binding and use `sap.ui.model.odata.OperationMode.Server`, see sections [Filtering](Filtering_5338bd1.md) and [Sorting](Sorting_d2ce3f5.md).
 
 
-> Note:
+> Note:  
 > If the model is configured to compute `$expand` and `$select` automatically, this behaviour changes, see [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
-> 
-> 
 
-> Note:
+> Note:  
 > A relative property binding never creates a data service request; its binding parameters are ignored in this case.
-> 
-> 
 
 In all other cases, a relative binding reads data from its parent binding that created the context. In case of an own data service request, the read URL path is the model's service URL concatenated with the path of the binding's context and the binding's path. Set the binding-specific parameter `$$canonicalPath` to `true` to use the canonical path computed from the context's path instead of the context's path in the read URL.
 
 The point in time that is used to actually send the request is determined as explained in the section [Batch Control](Batch_Control_74142a3.md). Bindings which create own data service requests cache data from data service responses. They do not send a data service request if data can be served from this cache.
 
-> Note:
+> Note:  
 > List bindings read data in pages, i.e. they only access a certain index range from their bound collection; they only trigger a new data service request if indexes are accessed which have not yet been read.
-> 
-> 
 
 You can delete the cache for an absolute binding using its `refresh` method. The method also deletes the caches of child bindings of the absolute binding.
 
-> Note:
+> Note:  
 > There must be no pending property changes for a binding and its child bindings when calling the `refresh` method. Use the binding's `hasPendingChanges` method to check for pending changes before you delete the cache.
-> 
-> 
 
 You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/refresh) in the Demo Kit.
 
@@ -57,7 +49,7 @@ You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh]
 
 You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
 
-> Note:
+> Example:  
 > Usage of Context\#refresh for a context in a list binding
 > 
 > ```
@@ -70,10 +62,8 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 >     }
 > },
 > ```
-> 
-> 
 
-> Note:
+> Note:  
 > -   Contexts of an [`sap.ui.model.odata.v4.ODataListBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataListBinding/overview) and the bound context of an [`sap.ui.model.odata.v4.ODataContextBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataContextBinding/overview) can only be refreshed if the binding is not relative to a [`sap.ui.model.odata.v4.Contex`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.Contex/overview) and if its root binding is not suspended.
 > 
 > -   Refresh is only allowed if there are no pending changes for the context and all its dependent bindings. If you have a relative binding with changes and this binding loses its context, the former parent binding does not report pending changes: the changes are kept, but the relation between these bindings is lost. You can do the following:
@@ -83,9 +73,6 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 >     -   To save the changes, use `sap.ui.model.odata.v4.ODataModel#submitBatch`, and to delete the changes, use `sap.ui.model.odata.v4.ODataModel#resetChanges`.
 > 
 >     -   If you set a context at the relative binding, the new parent binding will report the pending changes again.
-> 
-> 
-> 
 
 ***
 
@@ -97,7 +84,7 @@ Note that changes to the list like a different sort order require a refresh of t
 
 An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) application. The table has a filter applied to show only the sales orders with *Life Cycle Status = "New"*. When confirming a sales order, its status will change to *In Process* and does not match the filter anymore. This sales order is then refreshed and will be removed from the list as the `bAllowRemoval` flag is set to `true`. This is shown in the following code snippet:
 
-> Note:
+> Example:  
 > refresh with allow removal
 > 
 > ``` js
@@ -105,8 +92,6 @@ An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/
 >     oConfirmedSalesOrderContext.refresh(undefined, true); // bAllowRemoval = true
 > });
 > ```
-> 
-> 
 
 For details, see [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh), [ODataContextBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh) and [ODataPropertyBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh) in the Demo Kit.
 
@@ -146,10 +131,8 @@ For details, see [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/
 
 The above sample shows an absolute list binding: A table's `items` aggregation is bound to `/SalesOrderList` using the `$expand` and `$select` query options as binding parameters. The columns define relative bindings with paths `SalesOrderID`, `SO_2_BP/CompanyName`, and `BillingStatus` with the absolute list binding as parent binding.
 
-> Note:
+> Note:  
 > The `BillingStatus` remains empty and logs an error to the browser console as this structural property is not part of the `$select` specified for the list binding.
-> 
-> 
 
 The lower table for the line items has a relative binding. As it has parameters defined, it triggers its own data service request once it receives its binding context.
 

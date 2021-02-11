@@ -39,10 +39,8 @@ To determine a control’s visibility in a device-dependent way, you can use the
 
 The names are actually self-explanatory; for each device, you have a corresponding class that you can use to either explicitly hide or show the particular control.
 
-> Note:
+> Note:  
 > The control will still be part of the app but hidden by CSS only. For managing visibility on a generic level, consider controlling the visible property with the device API instead, as this means the controls will not be added to the DOM at all but just treated as invisible by OpenUI5.
-> 
-> 
 
 ***
 

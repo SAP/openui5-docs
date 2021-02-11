@@ -34,10 +34,8 @@ button {
 
 LESS then takes care of substituting all references to a CSS variable by the current value of this variable. This happens during the build of the control library.
 
-> Note:
+> Note:  
 > In development scenarios this LESS processing might even happen at runtime in the browser to shorten the build time for OpenUI5 libraries. This is indicated by a *less mode* rectangle when a page is launched.
-> 
-> 
 
 Additionally, a specific theme can modify the CSS parameter values given by the base theme. So a control can just define its text color to use `sapUiText` by default which will automatically take care of applying the correct color for every theme or user modification: The theme generation will create one CSS file per theme, and the substitution of the CSS parameter references will always take the theme-dependent value into account. So a visually very different theme can easily be created by simply changing a number of colors.
 

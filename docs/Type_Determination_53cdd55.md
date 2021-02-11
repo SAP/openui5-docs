@@ -19,16 +19,14 @@ Automatic type determination will take constraints from metadata into account, n
 -   `com.sap.vocabularies.Common.v1.IsDigitSequence` is used to set the constraint `isDigitSequence` for `sap.ui.model.odata.type.String`.
 
 
-> Note:
+> Note:  
 > Only constant expressions are supported to determine the annotation value in this case.
-> 
-> 
 
 Currently, the types "Edm.Boolean", "Edm.Byte", "Edm.Date", "Edm.DateTimeOffset", "Edm.Decimal", "Edm.Double", "Edm.Guid", "Edm.Int16", "Edm.Int32", "Edm.Int64", "Edm.SByte", "Edm.Single", "Edm.String" and "Edm.TimeOfDay" are supported and mapped to the corresponding type in the namespace `sap.ui.model.odata.type`. All other types, including collections, are mapped to the generic type `sap.ui.model.odata.type.Raw` which can only be used to access the raw model value "as is", but not to convert it to a human readable representation. This allows specialized controls to work with types that would otherwise not be supported.
 
 For more information, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type) and [sap.ui.model.odata.type.Raw](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type.Raw) API documentation in the Demo Kit.
 
-> Note:
+> Note:  
 > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', formatter : '.isOverdue'}">`. This leads to errors because type determination adds the correct type for the `DeliveryDate` property which is `DateTimeOffset` and cannot format its value as a boolean value. In such cases, use `targetType : 'any'` as follows:
 > 
 > ``` js
@@ -36,6 +34,4 @@ For more information, see the [sap.ui.model.odata.type](https://openui5.hana.ond
 > ```
 > 
 > In rare cases, you might also want to specify a different `targetType`, for example `string`, `boolean`, `int`, or `float`. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.types) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
-> 
-> 
 

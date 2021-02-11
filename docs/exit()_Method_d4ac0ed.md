@@ -14,7 +14,7 @@ The `exit()` method is used to clean up resources and to deregister event handle
 
 If the `exit()` method is implemented, OpenUI5 core invokes the method for each control instance when it is destroyed.
 
-> Note:
+> Note:  
 > Any method in your inheriting control overrides methods with the same name in the superclass. If, for example, your control implements the `exit()` method, the `exit()` of the superclass will no longer be executed. The control is then no longer properly destroyed, and this typically causes issues. To avoid breaking the control or causing memory leaks, call the superclass method.
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
@@ -33,8 +33,6 @@ If the `exit()` method is implemented, OpenUI5 core invokes the method for each 
 >        } 
 > }
 > ```
-> 
-> 
 
 **Related information**  
 

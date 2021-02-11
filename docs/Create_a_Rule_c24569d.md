@@ -142,10 +142,8 @@ The check function has three main and one optional parameters. The main ones are
     ```
 
 
-> Note:
+> Remember:  
 > Make sure to call `**issueManager.addIssue\(\)**` in your check function so that issues can be seen in the analysis results.
-> 
-> 
 
 **Related information**  
 

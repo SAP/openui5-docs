@@ -228,10 +228,8 @@ To find the URL, open `http://localhost:8080/test.html` and search for the test.
 npm run karma -- --lib=<library-name> --ui5.testpage="<testpage-url>"
 ```
 
-> Note:
+> Note:  
 > The corresponding `--lib` option still needs to be provided accordingly.
-> 
-> 
 
 **Example**
 

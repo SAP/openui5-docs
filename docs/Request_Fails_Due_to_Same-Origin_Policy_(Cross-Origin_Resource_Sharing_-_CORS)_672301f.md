@@ -102,10 +102,8 @@ After this change, you can run the app in SAP Business Application Studio withou
 
 ### Local Development: Configure a local proxy
 
-> Note:
+> CAUTION:  
 > Please note that any npm packages you install from third parties can not only modify your project but also execute arbitrary code on your system. Always act with the according care and follow best practices.
-> 
-> 
 
 A proxy is simply a service end point on the same domain of your app to overcome the restrictions. It receives requests from the app, forwards them to another server, and finally returns the corresponding response from the remote service.
 
@@ -184,15 +182,11 @@ Create a new file `proxy.js`, and copy the above script into your project direct
 
 To use a service in the `local ui5 application` we have to change the `uri` in the `manifest` file.
 
-> Note:
+> Note:  
 > The `uri` must start with `http://localhost:<port>`.
-> 
-> 
 
-> Note:
+> Note:  
 > By default, you can't run the request in your browser with the `proxy.js` script. It throws the following exception: `exception Missing required request header. Must specify one of: origin,x-requested-with`. If you want to test the service in your browser, you can temporarily comment out the parameter requiring the headers `['origin', 'x-requested-with']` from your `proxy.js`.
-> 
-> 
 
 ***
 
@@ -202,8 +196,6 @@ To use a service in the `local ui5 application` we have to change the `uri` in t
 
 In Google Chrome, you can easily disable the same-origin policy of Chrome by running Chrome with the following command: `[your-path-to-chrome-installation-dir]\chrome.exe --disable-web-security --user-data-dir`. Make sure that all instances of Chrome are closed before you run the command. This allows all web sites to break out of the same-origin policy and connect to the remote service directly.
 
-> Note:
+> CAUTION:  
 > **This approach is not recommended for productive apps. Running Chrome this way for surfing on the internet poses a security risk.** However, it allows you to avoid the need of setting up a proxy at development time or for testing purposes.
-> 
-> 
 

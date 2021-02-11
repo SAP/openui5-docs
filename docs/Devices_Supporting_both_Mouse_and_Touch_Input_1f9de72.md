@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Devices such as touch-enabled laptops support simultaneous mouse and touch input. As a control developer you have to take this into consideration.
 
-> Note:
+> Note:  
 > OpenUI5 event delegation is adapted so that the `ontouch*` and `ontap*` functions on the control prototype are called on both touch and mouse events \(excluding the emulated mouse events on touch interfaces\). This enables controls that only use OpenUI5 event delegation for event handling to work seamlessly on touch-enabled devices. As an OpenUI5 application developer there is no need for you to change or adapt your applications to support devices that allow input from both mouse and touch.
-> 
-> 
 
 When you develop your own controls, consider the following:
 

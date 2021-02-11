@@ -14,10 +14,8 @@ The standard variant for bootstrapping loads all JavaScript modules of a library
 
 The library preload file `library-preload.js` contains all modules of a certain library. These modules will only be executed on demand, if the application requires them. Using preloads significantly reduces the number of roundtrips since the single modules are bundled in one file.
 
-> Note:
+> Note:  
 > An application must **not** reference the `library-preload.js`. If preload files exist, OpenUI5 automatically loads them. The dependencies to libraries are defined as part of the manifest namespace `sap.ui5/dependencies/libs`. For further information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
-> 
-> 
 
 ***
 
@@ -38,10 +36,8 @@ By setting the `async=true` configuration parameter, the module loader loads the
 ></script>
 ```
 
-> Note:
+> Note:  
 > Before you use the `async` configuration parameter, make sure your app is ready for asynchronous loading, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md) and [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md).
-> 
-> 
 
 ***
 
@@ -77,20 +73,14 @@ You can easily check this with an existing application by specifying the `sap-ui
 ></script>
 ```
 
-> Note:
+> Note:  
 > Using the `async=true` or `preload=async` configuration parameters requires extensive testing and cooperation on application side to ensure a stable and fully working application. It is, therefore, not activated automatically, but only by configuration. If you encounter issues, or if you want to prepare your application in advance, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md).
-> 
-> 
 
-> Note:
+> Note:  
 > Preload sources are always optimized. However, using the `debug=true` configuration parameter always disables the loading of preload files.
-> 
-> 
 
-> Note:
+> Note:  
 > You can combine the `async` or `preload` configuration parameters with other bootstrap variants such as `sap-ui-core-noJQuery`.
-> 
-> 
 
 **Related information**  
 

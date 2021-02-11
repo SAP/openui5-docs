@@ -52,8 +52,6 @@ How you deploy your app when you're finished depends on the tools you use and th
 
 For example, it's quite easy to deploy an app to SAP Business Technology Platform with SAP Business Application Studio. For more information about SAP Business Application Studio, see the documentation on the SAP Help Portal at [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US).
 
-> Note:
+> Note:  
 > For more information about packaging apps, read the blog post [Optimizing OpenUI5/SAPUI5 Apps](https://blogs.sap.com/2015/02/18/optimizing-openui5-apps/).
-> 
-> 
 

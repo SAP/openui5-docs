@@ -122,10 +122,8 @@ The following examples show how to use the feature:
      " />
     ```
 
-    > Note:
+    > Note:  
     > Use translatable text in your application.
-    > 
-    > 
 
 -   Use a syntax with leading quotation marks \("..."\) if you use MVC and your formatter or type is located in the controller. In the following example, the existing type or formatter function in the controller is used:
 

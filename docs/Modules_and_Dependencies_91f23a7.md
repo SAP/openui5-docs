@@ -110,8 +110,6 @@ sap.ui.define(['sap/m/Input'], function(Input) {
     ```
 
 
-> Note:
+> Note:  
 > Many code samples in the OpenUI5 documentation use the `sap.ui.require` syntax even though we could also have used `sap.ui.define`.
-> 
-> 
 

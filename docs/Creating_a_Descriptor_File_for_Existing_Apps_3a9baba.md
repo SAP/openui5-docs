@@ -151,10 +151,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
 3.  Fill the `id` and `applicationVersion/version` attributes of the `sap.app` namespace.
 
-    > Note:
+    > CAUTION:  
     > `id` in the `sap.app` namespace must correspond to the component name in the `Component.js` file.
-    > 
-    > 
 
     To fill the ID and version information, open the `Component.js` file of your app and find the ID / namespace and version information:
 
@@ -365,10 +363,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Enter the CSS resource value under `"css"` in the `<uri>` placeholder.
 
-    > Note:
+    > CAUTION:  
     > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
-    > 
-    > 
 
     **Example: `resources` attribute in the `sap.ui` namespace in the `manifest.json` file**
 
@@ -410,10 +406,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     Return to the `manifest.json` file and fill the corresponding entries in the `manifest.json`. Enter a value for the minimum OpenUI5 version in the `<ui5Version>` placeholder.
 
-    > Note:
+    > CAUTION:  
     > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map. Ensure that **all** of the OpenUI5 libraries used by your app are mentioned under libs. Also make sure that all of the OpenUI5 components used by your app are mentioned under `components`. If there are no dependent components, remove the `components` entry.
-    > 
-    > 
 
     **Example: `dependencies` in the `sap.ui5` namespace in the `manifest.json` file**
 

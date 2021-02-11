@@ -81,10 +81,8 @@ The following functions are available in the dialog:
 
     If your app does **not** contain views, the content is put in one view in the output. If your app contains views and all views are loaded, the content is output as separate files.
 
-    > Note:
+    > Note:  
     > The conversion captures the runtime status of the app. This can differ from the build declaration.
-    > 
-    > 
 
 
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 copyee6f8f5a976347cb9426bdf5e689bc11__copyee6f8f5a976347cb9426bdf5e689bc11"/>
@@ -235,7 +233,7 @@ Similar to the *Control Tree* section of *Diagnostics*, you can change those val
  -   Methods that are available for the control.
 
 
- > Note:
+ > Note:  
  > When you select, for example, an aggregation, you see the name of the control which has this aggregation or the name of the parent.
 
 			<td>
@@ -280,10 +278,8 @@ You can start the interaction data collection in the following ways:
 
 -   **Request details** - Selecting a request opens a dialog with details, such as request type, URI, overall duration and how it is spread across client, server, and connection establishing processing. When OData statistics are enabled and the request is processed by the SAP NetWeaver OData gateway, in the details dialog there is a section with OData times – *Gateway Total*, *Framework*, and *Application* processing times.
 
-    > Note:
+    > Note:  
     > The OData time \(*Gateway Total*\) is included in the total server time processing. Such requests and their interaction are identified with a blue icon ![](loioa3e8b8dd408e45b5af9d30d0c1be4b3d_HiRes.png).
-    > 
-    > 
 
     ![](loio2c0df2f81d7540b98943eed368d1db0d_HiRes.png)
 

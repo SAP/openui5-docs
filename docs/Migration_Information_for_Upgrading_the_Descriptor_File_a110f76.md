@@ -57,7 +57,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td>Added to the `manifest.json` file by using the `{{...}}` syntax
 
  > Note:
- > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
+   > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
  ```
 "sap.app": {
@@ -74,7 +74,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td>Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax to add the attribute to the `manifest.json` file
 
  > Note:
- > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
+   > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
  ```
 "sap.app": {
@@ -170,21 +170,21 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 ```
 			</td>
 		</tr>
-		<tr>
-			<td> `sap.ui5/routing/routes/target` </td>
-			<td>V6 \(1.42\)</td>
-			<td>Allows to define titles declaratively in the configuration \(`title` under `targets/<target>` and `titleTarget` under `routes/<route>`\), see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) 
 ```
 
  |
 | `sap.ui5/library/i18n` |V10 \(1.52\)| Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
 
-> Note:
+> Note:  
 > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name *HIGHLIGHT START*messagebundle.properties*HIGHLIGHT END*
-> 
-> 
 
  ```
+		"pattern": "product/{id}/parts",
+		"name": "ProductParts",
+			"target": ["product", "productParts"],
+		"titleTarget": "productParts"
+
+	}],
 	"targets": {
 		"product": {
 			"viewPath": "shop.products",
@@ -232,7 +232,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td> `sap.ui5/library/i18n` </td>
 			<td>V10 \(1.52\)</td>
 			<td> Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
- > Note:
+ > Note:  
  > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
 
  ```

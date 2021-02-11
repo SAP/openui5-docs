@@ -18,10 +18,8 @@ In certain scenarios, using only the built-in OData V2 simulation of the mock se
 
 Additionally, we will demonstrate how to mock an additional request that is not simulated out of the box by the OpenUI5 OData V2 mock server.
 
-> Note:
+> CAUTION:  
 > The tutorial describes how to use some advanced features of the mock server, disregarding the legal aspects of shipping mock data. Usually the mock data and mock server invocation is done in a test folder that is not shipped to customers. Be very careful that you don't ship mock data!
-> 
-> 
 
 ***
 
@@ -29,7 +27,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
  ![](loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png) 
 
-> Note:
+> Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
 > You can view and download the files for all steps in the Demo Kit at [Mock Server](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.mockserver/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
@@ -39,9 +37,6 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 > -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
-> 
-> 
-> 
 
 ***
 

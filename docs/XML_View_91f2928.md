@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The XML view type is defined in an XML file. The file name either ends with `.view.xml` or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
 
-> Note:
+> Example:  
 > For `resources/sap/hcm/Address.view.xml`, the view name is `sap.hcm.Address`. The application uses this view name for displaying an instance of this view. If you define the XML view by means of an XML string, no file or define/require is needed.
 > 
 > The file looks as follows:
@@ -26,8 +26,6 @@ The XML view type is defined in an XML file. The file name either ends with `.vi
 >    </Panel>
 > </mvc:View>
 > ```
-> 
-> 
 
 Nest the XML tags analogous to the nesting sequence of OpenUI5 controls and add the property values as attributes \(see [Namespaces in XML Views](Namespaces_in_XML_Views_2421a2c.md)\).
 

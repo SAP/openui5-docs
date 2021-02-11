@@ -16,7 +16,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
 
     This sample binds a form to a certain sales order so that form elements can be bound to display or change single properties of the sales order.
 
-    > Note:
+    > Note:  
     > Note that binding expressions can be complex so that they can take additional properties to specify the binding further in addition to the path:
     > 
     > ``` js
@@ -25,8 +25,6 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
     > ```
     > 
     > This allows you, for instance, to specify [OData V4 binding parameters](Parameters_1ab4f62.md) such as `$expand` or attach to OData V4 [Binding Events](Binding_Events_1a010d3.md) such as `dataReceived`.
-    > 
-    > 
 
     For a complete example, see the `onSalesOrderSelect` method \(file: `Main.controller.js`\) in the [SalesOrders sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
 

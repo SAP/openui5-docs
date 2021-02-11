@@ -64,8 +64,6 @@ Changed Sample UI<a name="loio04e851db01024fc69e7a78f13e83b661__fig_fzw_jpj_d1b"
 
  ![](loio88374f824fd54807b67e72e5c5a54611_LowRes.png "Changed Sample UI") 
 
-> Note:
+> Note:  
 > When accessing controls within the fragment definition XML file, for example, the text or the button, you should use the `byId` method of `XMLComposite` and not `sap.ui.getCore().byId`. If the text has an `id=”myText”`, you could get the text instance in the `_handlePress` method via `this.byId(“myText”)`.
-> 
-> 
 

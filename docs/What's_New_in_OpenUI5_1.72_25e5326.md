@@ -18,10 +18,8 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 
 ### New Features
 
-| **New Theme Available \(Experimental\)** A new theme *SAP Quartz Dark* \(theme ID: `sap_fiori_3_dark`\) has been introduced. The theme is provided as an additional theme in OpenUI5. > Note:
+| **New Theme Available \(Experimental\)** A new theme *SAP Quartz Dark* \(theme ID: `sap_fiori_3_dark`\) has been introduced. The theme is provided as an additional theme in OpenUI5. > Note:  
 > This theme will have the status 'experimental' until testing is complete.
-> 
-> 
 
  |
 |**Responsive Paddings Enablement**We have introduced the `sap.ui.core.util.ResponsivePaddingsEnablement` utility for applying responsive paddings over separate parts of the controls, when using the SAP Quartz themes. The breakpoints and layout paddings can now be determined by the container's width, and not by the screen size. We have introduced responsive paddings to the `sap.m.Page`,`sap.m.Popover`, and `sap.m.Wizard` controls.For more information, see [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md).|
@@ -50,7 +48,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
  -   The `resetChanges` method on bindings returns a promise which is resolved without a defined result as soon as all changes in the binding itself and all dependent bindings are canceled.
 
 
- > Note:
+ > Restriction:  
  > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing freestyle and SAP Fiori elements applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
  For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).</td>

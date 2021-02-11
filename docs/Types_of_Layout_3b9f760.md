@@ -55,7 +55,7 @@ The table below shows how each of the 9 layout types affects the column visibili
 			<td> **`MidColumnFullScreen`** Use this layout to display the second logical level of information \(detail page\) only. The `Mid` column takes up the whole available control width for all control sizes.
 
  > Note:
- > On small screen sizes, the layouts `TwoColumnsBeginExpanded`, `TwoColumnsMidExpanded` and `MidColumnFullScreen` all lead to the same result for the user – the `Mid` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
+   > On small screen sizes, the layouts `TwoColumnsBeginExpanded`, `TwoColumnsMidExpanded` and `MidColumnFullScreen` all lead to the same result for the user – the `Mid` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
 			</td>
 			<td>  
 
@@ -94,7 +94,7 @@ The table below shows how each of the 9 layout types affects the column visibili
 			<td> **`EndColumnFullScreen`** Use this layout to display the third logical level of information \(detail-detail page\) only. The `End` column takes up the whole available control width for all screen sizes.
 
  > Note:
- > On small screen sizes all three-column layouts and `EndColumnFullScreen` lead to the same result for the user – the `End` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
+   > On small screen sizes all three-column layouts and `EndColumnFullScreen` lead to the same result for the user – the `End` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
 			</td>
 			<td>  
 

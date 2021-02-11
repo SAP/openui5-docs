@@ -75,10 +75,8 @@ We copy the `index.html` to a separate file in the `webapp/test` folder and name
 
 From this point on, you have two different entry pages: One for the real “connected” app \(`index.html`\) and one for local testing \(`mockServer.html`\). You can freely decide if you want to do the next steps on the real service data or on the local data within the app.
 
-> Note:
+> Note:  
 > If no connection to the real service is available or the proxy configuration from the previous step does not work, you can always use the `mockServer.html` file. This will display the app with simulated test data. The `index.html` file will always load the data from a remote server. If the request fails, the list of invoices will stay empty.
-> 
-> 
 
 ***
 

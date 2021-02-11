@@ -45,10 +45,8 @@ The generated IDs change whenever the control structure of the app changes. The 
     These tools display user assistance information directly in the app and depend on stable IDs \(example: [Web Assistant](https://enable-now.sap.com/ic/pub/int/index.html?show=group!GR_CF44F241F6233280#group!GR_FE31C8798B894A1)\).
 
 
-> Note:
+> Tip:  
 > Stable IDs are an important prerequisite for SAPUI5 flexibility services, automated testing, and inline help tools, such as [Web Assistant](https://enable-now.sap.com/ic/pub/int/index.html?show=group!GR_CF44F241F6233280#group!GR_FE31C8798B894A1). Apps with stable IDs are of high quality and offer customers more functionality. Therefore, we strongly recommend that you use stable IDs whenever possible \(some technical controls don't need stable IDs, such as `CustomData`\).
-> 
-> 
 
 ***
 
@@ -56,10 +54,8 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 ### How to Set IDs Manually to Keep Them Stable
 
-> Note:
+> Tip:  
 > Using the rule *Stable control IDs are required for SAPUI5 flexibility services* in the Support Assistant, you can check whether all controls use stable IDs. For more information, see [How to Check If All Your IDs Are Stable](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck).
-> 
-> 
 
 |**Views**| -   Views in the descriptor for applications, components, and libraries
 
@@ -173,17 +169,13 @@ new Button({
 			<td>
 
  > Note:
- > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
+   > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
  For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself. Example: ``` js
-// "Shell" required from module "sap/m/Shell"
-new Shell({
 ```
 
- > Note:
+ > Note:  
 > Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
-> 
-> 
 
  |
 | *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* | If you want to add an embedded component with a stable ID, you have two options:
@@ -191,6 +183,10 @@ new Shell({
 1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
+```
+
+ > Note:  
+ > Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
 			</td>
 		</tr>
 		<tr>
@@ -250,7 +246,7 @@ constructor: function() {
 Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
 
 
- > Note:
+ > Note:  
  > In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
 			</td>
 		</tr>
@@ -267,10 +263,8 @@ Fragment.load({
 	</tbody>
 </table>
 
-> Note:
+> Note:  
 > If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. For this reason, the IDs, which are part of the public API of the app, must be kept stable over the life cycle of the app.
-> 
-> 
 
 ***
 
@@ -280,10 +274,8 @@ Fragment.load({
 
 Choose names for your stable IDs that describe the semantics of your views and controls, such as *page* or *table*.
 
-> Note:
+> Note:  
 > For the allowed sequence of characters, see the [namespace sap.ui.core.ID](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ID). But bear in mind not use hyphens \(-\) as separators in your names as they would interfere with the ones that are added automatically by the framework.
-> 
-> 
 
 Example:
 

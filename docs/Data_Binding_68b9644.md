@@ -39,10 +39,8 @@ The OData models \(V2 and V4\) are server-side models, which means that data is 
 
 In the view, you bind data by specifying the **binding path** for a control. You can use **data types** and **formatters** to validate and format the data on the UI.
 
-> Note:
+> Note:  
 > To learn more about data binding, take this tutorial: [Data Binding](Data_Binding_e531093.md).
-> 
-> 
 
 ***
 
@@ -56,19 +54,15 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
 
 -   **Two-way binding** means a binding from the model to the view and from the view to the model. Any changes in the model or the view fire events that automatically trigger updates of all corresponding bindings and both the view and the model.
 
-    > Note:
+    > Note:  
     > Two-way binding is currently only supported for property bindings. For other binding types, such as list bindings, the creation or deletion of entities depends on the specific model.
     > 
     > **Example:** For list bindings the OData V4 model provides the [`sap.ui.model.odata.v4.ODataListBinding#create` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) for creating a new entity, and the [`sap.ui.model.odata.v4.Context#delete` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) to delete an entity in a list. 
     > 
     > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
-    > 
-    > 
 
-    > Note:
+    > Note:  
     > When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting,_Parsing,_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
-    > 
-    > 
 
 -   **One-time binding** means from model to view once.
 

@@ -35,10 +35,8 @@ With **targets**, you define where a view or a component is loaded and where the
 
 You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
 
-> Note:
+> Note:  
 > You can also define only routes or only targets, but then just have to make sure that you implement the counterpart elsewhere.
-> 
-> 
 
 ***
 
@@ -83,17 +81,13 @@ You can use the following kinds of patterns:
     For example, a pattern `product/{id}/:detail*:` defines a mandatory parameter with the name `id` and an optional "rest as string" parameter with the name `detail`. It matches `product/5/3` and `product/5/detail/3/foo`. The event handler gets `3` or `detail/3/foo` passed on with the key `detail` in its arguments.
 
 
-> Note:
+> Tip:  
 > For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.PatternMatching/preview).
-> 
-> 
 
 ***
 
-> Note:
+> Note:  
 > OpenUI5 uses Crossroads.js for parsing the hash and the Hasher framework for manipulating the hash.
-> 
-> 
 
 **Related information**  
 

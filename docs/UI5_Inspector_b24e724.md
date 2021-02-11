@@ -48,10 +48,8 @@ Clicking the browser action icon in the address bar provides you with:
 -   Link to the OpenUI5 website
 
 
-> Note:
+> Note:  
 > Your version of OpenUI5 may be older than the latest and the features described in the documentation may not be available for you.
-> 
-> 
 
  ![](loiob02f8ec2ea55400cb9d99c96f28e1987_HiRes.png) 
 
@@ -73,10 +71,8 @@ In this tab, you can see the properties that have been set for the selected cont
 
 You can change the values of the properties. The changes will be validated against the framework and rendered on the fly.
 
-> Note:
+> Note:  
 > Errors from incorrectly set values are displayed in the Chrome browser's console.
-> 
-> 
 
 **Bindings**
 
@@ -84,10 +80,8 @@ In this tab, you can see the bindings for a specific control. The number of bind
 
 ![](loiob9efcc68caa44fe89718e4e8b2e7412a_HiRes.png)
 
-> Note:
+> Tip:  
 > UI5 Inspector supports a dark theme in case you are using the Google Developer Tools in dark mode.
-> 
-> 
 
 **Application Information**
 

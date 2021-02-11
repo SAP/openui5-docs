@@ -20,19 +20,15 @@ Inserting an entity at the end of the list is done via the `bAtEnd` parameter in
 
 To delete transient entities, use [`Context#delete`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete). Transient entities are also deleted when you reset the changes for the list binding on which the entity has been created, see [`ODataListBinding#resetChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/resetChanges) and [`ODataModel#resetChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/resetChanges). The promise returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is rejected in all cases where the created entity is deleted before it is created in the backend. As long as the list binding has a transient entity, [`ODataListBinding#hasPendingChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/hasPendingChanges) returns `true` and the following methods of [`ODataListBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) raise an error: `refresh`, `filter`, and `sort`. The deletion of another entity of the same list binding is possible.
 
-> Note:
+> Note:  
 > The position of the created entity may change after the methods `refresh`, `filter`, or `sort` of an [`ODataListBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding).
-> 
-> 
 
 If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) on a list binding where the update group ID has [`SubmitMode.API`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode) and the creation of the entity on the server fails, the creation is repeated with the next call of [`submitBatch`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) for this group. If the update group ID has [`SubmitMode.Auto`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode) or [`SubmitMode.Direct`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode) and the creation fails, the creation is repeated automatically with the next update for the entity. `submitBatch` can also be used for update group IDs with `SubmitMode.Auto` to repeat, independently of an update. The error returned by the server is passed to the [`MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager) and the promise you get via [`Context.created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is not rejected. Each time the data for the created entity is sent to the server, a [`Context.createSent`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/createSent) event is fired. Each time the client receives a response for the creation, a [`Context.creatCompleted`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/createCompleted) event is fired, independent of whether the creation was successful, or not.
 
 If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) on a list binding with an application group ID, and the creation of the entity on the server fails, the creation is repeated with the next call of [`ODataModel#submitBatch`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) for this group. If the update group ID is `$auto` or `$direct`, and the creation fails, the creation is repeated automatically with the next update for the entity. The error is passed to the [`MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager) and the promise you get via [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is not rejected. Each time the data for the created entity is sent to the server, a [`createSent`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/createSent) event is fired. Each time the client receives a response for the creation, a [`createCompleted`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/events/createCompleted) event is fired, independent of whether the creation was successful, or not.
 
-> Note:
+> Recommendation:  
 > Lock the UI each time the \(`POST`\) request for the creation is sent to the server and unlock it, when the response from the server for that \(`POST`\) request is processed, because updates in between result in errors. If the update group ID is [`SubmitMode.API`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode), you can lock the UI when calling [`ODataModel#submitBatch`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) and unlock it again when the promise returned by `ODataModel#submitBatch` is resolved or rejected. However, if the update group ID is `SubmitMode.Auto` or `SubmitMode.Direct`, use the `createSent` event to lock the related UI and the `createCompleted` event to unlock it.
-> 
-> 
 
 ```
 // suppose this list binding has no own update group; it uses the model's update group instead (an application group)
@@ -79,12 +75,10 @@ If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com
 ...
 ```
 
-> Note:
+> Note:  
 > To ensure that for a list binding all expanded data is available as soon as the promise returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved, an additional single `GET` request for the newly created entity is sent automatically once the `POST` request has arrived.
 > 
 > If you want to skip this additional single `GET` request, call [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with parameter `bSkipRefresh=true`.
-> 
-> 
 
 The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`Context#getPath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
 

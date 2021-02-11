@@ -129,12 +129,10 @@ To hide the scaling formatter from the formatted number and only be shown once o
 
 To control the start the starting point of numbers which should be displyed in compact format, you use `shortLimit`.
 
-> Note:
+> Example:  
 > In the following chart, all numbers both on the chart and axis should be formatted using the same scaling factor. The scaling factor should only appear in the chart title and be hidden from the formatted number. In order to achieve this, the option `shortRefNumber` is set to `1000000` and `showScale` is set to `false`. The corresponding scaling factor name is returned by calling the `getScale` method.
 > 
 > ![](loiodd8f106a130b484a86f4c56955006207_LowRes.png)
-> 
-> 
 
 ***
 

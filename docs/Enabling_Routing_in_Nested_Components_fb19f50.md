@@ -14,10 +14,8 @@ Every OpenUI5 component can define routing configuration in its manifest and a U
 
 Using components as targets in routing presents another challenge: When multiple components with their own routing configuration are used in an application, their router instances listen to the browser's `hashChange` event simultaneously and may do concurrent changes to the hash. This can lead to conflicts, hence, the hash access has to be coordinated. Therefore, some additional configuration has to be made for these nested components to ensure everything is running stable.
 
-> Note:
+> Note:  
 > Using routing with nested components requires asynchronous routing in **all** used components. The routers of all components have to enable asynchronous routing in their configuration. For more information, see [Routing Configuration](Routing_Configuration_9023130.md).
-> 
-> 
 
 ***
 
@@ -27,10 +25,8 @@ Using components as targets in routing presents another challenge: When multiple
 
 A target in OpenUI5 routing can load either a view, or a component. To load a component, you need to define the component in the `componentUsages` section of the owner component's `manifest.json`, see [Using and Nesting Components](Using_and_Nesting_Components_346599f.md).
 
-> Note:
+> Note:  
 > If the configuration for a target can only be added at runtime, OpenUI5 provides APIs to add a target dynamically at runtime. For more information, see [Navigate with Dynamic Targets](Navigate_with_Dynamic_Targets_856d6c6.md).
-> 
-> 
 
 Loading a child component with a type `Component` target in a router builds up a hierarchy between this router and the router in the child component.
 

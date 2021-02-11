@@ -19,7 +19,7 @@ To add text to the button, add the attribute `data-text` to its HTML tag:
 <div data-sap-ui-type="sap.m.Button" data-text="HelloWorld"></div>
 ```
 
-> Note:
+> Note:  
 > To define a property with upper case characters, you have to "escape" them with a dash character, similar to CSS attributes. The following code gives an example:
 > 
 > ``` html
@@ -42,6 +42,4 @@ To add text to the button, add the attribute `data-text` to its HTML tag:
 > 
 > <div data-sap-ui-type="sap.m.Button" class="my-button"></div>
 > ```
-> 
-> 
 

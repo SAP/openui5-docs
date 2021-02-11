@@ -23,12 +23,10 @@ The following predefined view types are available:
 -   **HTML view** \(file or string in HTML format\)
 
 
-> Note:
+> Note:  
 > We recommend to use XML views, because XML views force a clear separation of the UI definition from the application logic \(which has to be implemented in the controller\). This makes the code more readable and easier to support.
 > 
 > Therefore, we concentrate on XML views and only provide examples for XML views throughout this documentation.
-> 
-> 
 
 **Related information**  
 

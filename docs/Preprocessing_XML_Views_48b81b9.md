@@ -80,15 +80,11 @@ To use the preprocessor, you can choose one of the following options:
     This enables the developer to activate a preprocessor for a view instance, without the need to provide an implementation, by just specifying a preprocessor, which has been registered globally earlier. This is currently used by the XML templating.
 
 
-> Note:
+> Note:  
 > Preprocessors are per default only available for async views. Although it is possible to enable the preprocessor for sync views, we strongly recommend to only use them with async views.
-> 
-> 
 
-> Note:
+> Note:  
 > The information that is provided when using a preprocessor locally will be passed to the preprocessor according to the `mSettings` of the register method.
-> 
-> 
 
 **Related information**  
 

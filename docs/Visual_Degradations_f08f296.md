@@ -81,7 +81,7 @@ placeholder Property in sap.m.Input<a name="loiof08f29636be1472dac8f35fe7918ee08
 			<td>This version supports the native placeholder property but does not display the ellipsis, instead it simply truncates the placeholder text string 
 
 ![](loiobf2a3e65379d44fab92f0812862df1a8_LowRes.png) 
- > Note:
+ > Note:  
  > If you focus in the field, the placeholder disappears from view. If you leave the focus without typing anything, the placeholder is then displayed again.
 			</td>
 		</tr>
@@ -121,7 +121,7 @@ placeholder Property in sap.m.TextArea<a name="loiof08f29636be1472dac8f35fe7918e
 			<td>Internet Explorer 11 supports the native placeholder property and displays multiple lines along with a scrollbar. 
 
 ![](loioe5b44ac2447145f9ac2ee6181b929679_LowRes.png) 
- > Note:
+ > Note:  
  > Clicking the scrollbar sets focus from a technical perspective, meaning the placeholder text disappears and makes scrolling impossible. Scrolling with the mouse wheel does not set focus, and enables you to read the entire placeholder text.
 			</td>
 		</tr>

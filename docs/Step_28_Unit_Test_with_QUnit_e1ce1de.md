@@ -14,10 +14,8 @@ Now that we have a test folder in the app, we can start to increase our test cov
 
 Actually, every feature that we added to the app so far, would require a separate test case. We have totally neglected this so far, so let’s add a simple unit test for our custom formatter function from Step 23. We will test if the long text for our status is correct by comparing it with the texts from our resource bundle.
 
-> Note:
+> Note:  
 > In this tutorial, we focus on a simple use case for the test implementation. If you want to learn more about QUnit tests, have a look at our [Testing](Testing_291c912.md) tutorial, especially [Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md).
-> 
-> 
 
 ***
 

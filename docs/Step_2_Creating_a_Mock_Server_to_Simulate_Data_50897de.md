@@ -59,12 +59,10 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 2](ht
 
 We use this file to run our app in test mode with mock data. The new artifact `initMockServer` performs the required set up steps before the application component is instantiated. By doing so, we can catch all requests that would go to the real service and process it locally with our mock server when the app is launched with the `webapp/test/mockServer.html`.
 
-> Note:
+> Note:  
 > A productive application does not contain the mock server code and thus connects to the real service instead. The HTML page above is defined only for local testing and to be called in automated tests. The application coding itself is unchanged and does not know the difference between the real and the mocked back-end service.
 > 
 > The mock server does not need to be called from anywhere else in our code so we use `sap.ui.require` to load dependencies asynchronously without defining a global namespace.
-> 
-> 
 
 ***
 

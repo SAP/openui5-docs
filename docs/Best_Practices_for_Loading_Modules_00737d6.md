@@ -14,10 +14,8 @@ This section provides best practices for OpenUI5 module loading patterns.
 
 These best practices are especially important when you switch from the synchronous variant of the OpenUI5 module loader to the asynchronous variant. Patterns that may have worked in synchronous module loading may lead to applications that can’t start in asynchronous module loading.
 
-> Note:
+> Note:  
 > Use the `async` configuration parameter to enable asynchronous module loading via the bootstrap. For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
-> 
-> 
 
 ***
 

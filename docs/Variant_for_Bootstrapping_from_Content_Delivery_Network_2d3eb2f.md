@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network \(CDN\). 
 
-> Note:
+> Note:  
 > Loading OpenUI5 from a CDN improves your app performance: You can load from a server that \(in most cases\) is much closer to your location, and you can benefit from the caching mechanism and the language fallback logic.
-> 
-> 
 
 ***
 
@@ -41,16 +39,14 @@ Check the available versions with the respective maintenance status at [https://
 
 The first segment of the URL after the host name is used to specify a concrete version.
 
-> Note:
+> Note:  
 > Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the [*Nightly*](https://openui5nightly.hana.ondemand.com) version, you are very welcome to send us your feedback!
-> 
-> 
 
 ***
 
 #### Default Version
 
-> Note:
+> CAUTION:  
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
 > 
 > The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
@@ -63,8 +59,6 @@ The first segment of the URL after the host name is used to specify a concrete v
 >     data-sap-ui-libs="sap.m"></script>
 > 
 > ```
-> 
-> 
 
 ***
 
@@ -72,10 +66,8 @@ The first segment of the URL after the host name is used to specify a concrete v
 
 The cache control is different for dynamic and static resources. If you refer to the latest maintenance version \(dynamic\), you have a maximum cache age of one week, if you refer to a specific \(static\) version, you have a maximum cache age of 10 years. In both cases, cross-origin resource sharing \(CORS\) headers are set, so that you can consume resources from the central location without any proxy in between.
 
-> Note:
+> Note:  
 > The Cache Buster is only needed if you consume OpenUI5 without a concrete version in the URL. When you consume OpenUI5 with the concrete version in the URL, this is not needed, as the content served by that unique URLs will never change and can be cached forever.
-> 
-> 
 
 **Related information**  
 

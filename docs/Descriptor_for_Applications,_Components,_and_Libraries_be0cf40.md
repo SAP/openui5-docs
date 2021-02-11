@@ -56,6 +56,7 @@ App Descriptor Release and OpenUI5 Version<a name="loiobe0cf40f61184b358b5faedae
 |Version 29|\>=1.84|1.28.0|
 |Version 30|\>=1.85|1.29.0|
 |Version 31|\>=1.86|1.30.0|
+|Version 32|\>=1.87|1.31.0|
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
 
@@ -102,10 +103,8 @@ The `manifest` option allows to configure when and from where the descriptor is 
     ```
 
 
-> Note:
+> Note:  
 > When you enable `manifest`, all legacy component metadata needs to be migrated into the descriptor for applications/components. Only those entries in the descriptor for components will be respected by the component and all other entries will be ignored.
-> 
-> 
 
 ***
 
@@ -184,10 +183,8 @@ http://localhost:8080/this/url/is/reachable/annotations.xml
 
 ### Descriptor Content
 
-> Note:
+> Note:  
 > You can find an example `manifest.json` file with sample code for the descriptor content [here](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_example).
-> 
-> 
 
 The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, and `sap.ui5` . The following tables show the application-specific attributes provided by the respective namespaces:
 
@@ -235,12 +232,10 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 	<tbody>
 ```
 
- then its `id` would be `sap.ui.demo.walkthrough` It is used as a reference point for most operations involving the app descriptor. If the project is the app variant of an existing application, `sap.app/id` is the ID of this app variant. The ID of the underlying application is then provided in `sap.ui5/componentName`. > Note:
+ then its `id` would be `sap.ui.demo.walkthrough` It is used as a reference point for most operations involving the app descriptor. If the project is the app variant of an existing application, `sap.app/id` is the ID of this app variant. The ID of the underlying application is then provided in `sap.ui5/componentName`. > Note:  
 > The ID must not exceed 70 characters. It must be unique.
 > 
 > In case of `sap.app/type=application`, the `sap.app/id` corresponds to the `id` of the UI5 component.
-> 
-> 
 
  |
 | `type` |Possible values: -   `application`: use if your `manifest.json` describes a *HIGHLIGHT START*UI5 application*HIGHLIGHT END*. For an example how to use a `manifest.json` for UI5 applications, see [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
@@ -277,7 +272,15 @@ Attributes in the mandatory `sap.app` namespace <a name="loiobe0cf40f61184b358b5
 | `dataSources` | Unique key/alias for specifying the used data sources; contains the following information:
 
 -   `uri`: Mandatory relative URL in the component; takes `embeddedBy` into account, if filled, or the server absolute of the data source, for example `"/sap/opu/odata/snce/PO_S_SRV;v=2/"` 
--   `type`: `OData` \(default\) or `ODataAnnotation`, or `INA`, or `XML`, or `JSON`, or `FHIR`
+-   `type`: Supported types:
+    -   `OData` \(default\)
+    -   `ODataAnnotation`
+    -   `INA`
+    -   `XML`
+    -   `JSON`
+    -   `FHIR`
+    -   `http`
+    -   `WebSocket`
 -   `customType` \(As of 1.77\): `true`/`false`; if `true`, there is no validation on the `type` attribute
 -   `settings`: Data source type-specific attributes \(key, value pairs\), which are:
     -   `odataVersion`: 2.0 \(default\), 4.0
@@ -321,10 +324,8 @@ Attributes in the mandatory `sap.ui` namespace<a name="loiobe0cf40f61184b358b5fa
 -   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) .
 -   `favIcon`: ICO file to be used inside the browser and for desktop shortcuts
 
-    > Note:
+    > Note:  
     > `favIcon` is not set automatically by the framework. The icons can be set manually using the `sap/ui/util/Mobile` module and the `setIcons` function.
-    > 
-    > 
 
 -   `phone`: 57x57 pixel version for non-retina iPhones
 -   `phone@2`: 114x114 pixel version for retina iPhones
@@ -380,7 +381,7 @@ Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b
 -   `uri`: Relative URL in the component, taking `embeddedBy` into account if filled, or server for absolute model
 -   `settings`: Object that is passed to the model constructor.
 
-    > Note:
+    > Example:  
     > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. *HIGHLIGHT START*Default*HIGHLIGHT END*, *HIGHLIGHT START*OneTime*HIGHLIGHT END*, *HIGHLIGHT START*OneWay*HIGHLIGHT END*, *HIGHLIGHT START*TwoWay*HIGHLIGHT END*\). For OData models constructor see the following:
 
 
@@ -399,8 +400,6 @@ Attributes in the `sap.ui5` namespace <a name="loiobe0cf40f61184b358b5faedaec98b
     > The attribute `enhanceWith` can be specified with *HIGHLIGHT START*bundleUrl*HIGHLIGHT END*, *HIGHLIGHT START*bundleUrlRelativeTo*HIGHLIGHT END* \(either `component` \(default\) or `manifest`\) or *HIGHLIGHT START*bundleName*HIGHLIGHT END* to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
 
 
-    > 
-    > 
 
 -   `dataSource`: String of key or alias from `sap.app dataSources` to reference an existing data source; the `type`, `uri` and `settings` properties are set according to the data source's `type`, `uri` and `settings` \(if not already defined\). If the type under `sap.app dataSources` is `OData`, an OData Model V2 is created automatically. If you need an OData Model V1, specify the `type` as well.
 -   `preload`: Optional; Boolean with `true`, `false` \(default\)
@@ -431,19 +430,15 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 
  |
-| `resourceRoots` |Map of URL locations keyed by a resource name prefix; only relative paths inside the component are allowed and no ".." characters This attribute is intended for actual sub-packages of the component only, meaning that it must not be used for the component namespace itself. > Note:
+| `resourceRoots` |Map of URL locations keyed by a resource name prefix; only relative paths inside the component are allowed and no ".." characters This attribute is intended for actual sub-packages of the component only, meaning that it must not be used for the component namespace itself. > Note:  
 > When loading with *manifest first*\(by using the property `manifest`\), the `resourceRoots` are evaluated before the component controller is loaded. Otherwise, the defined resource roots will be registered after the component controller is loaded and do not affect the modules being declared as dependencies in the component controller.
-> 
-> 
 
  |
 | `componentName` |An optional attribute that only has to be provided if your project is a variant of an existing application. In this case the `componentName` has to contain the `sap.app/id` of the existing application which is the basis of your variant.|
 | `i18n` | Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
 
-> Note:
+> Note:  
 > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name *HIGHLIGHT START*messagebundle.properties*HIGHLIGHT END*
-> 
-> 
 
  |
 | `commands` |Specifies provided commands with a unique key/alias. Contains: -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
@@ -495,7 +490,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.30.0",
+    "_version": "1.31.0",
  
     "start_url": "index.html",
  
@@ -585,7 +580,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.86.0",
+            "minUI5Version": "1.87.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
@@ -668,6 +663,16 @@ Current version of the `manifest.json`
     "sap.card": {}
 }
 ```
+        }
+    },
+ 
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://add-contact",
+            "favIcon": "icon/F1373_Approve_Purchase_Orders.ico",
+            "phone": "icon/launchicon/57_iPhone_Desktop_Launch.png",
+            "phone@2": "icon/launchicon/114_iPhone-Retina_Web_Clip.png",
             "tablet": "icon/launchicon/72_iPad_Desktop_Launch.png",
             "tablet@2": "icon/launchicon/144_iPad_Retina_Web_Clip.png"
         },
@@ -690,7 +695,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.86.0",
+            "minUI5Version": "1.87.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

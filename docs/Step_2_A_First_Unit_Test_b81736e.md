@@ -27,12 +27,10 @@ The price values can be mapped to semantic states as follows:
 
 As we use Test Driven Development \(TDD\) we define the test case first, before we actually implement the feature. So we will now start by implementing a test for the *Price State* feature. Naturally the test will fail until the feature is implemented in the next step.
 
-> Note:
+> Note:  
 > Test Driven Development \(TDD\) is a software development model that relies on a very short development cycle. When using TDD a developer first writes a failing automatic test case to describe the behavior of a new feature or functionality. As soon as the test fails \(due to the still missing implementation\) the role of the developer switches to the implementation. The code is added to make the test run successful and then the cycle starts over again.
 > 
 > There might also be iterations where just the implementation or testing code is refactored to make it more elegant. TDD reduces complexity while maintaining high test coverage of the application coding at the same time.
-> 
-> 
 
 ***
 
@@ -51,10 +49,8 @@ The unit test will initially fail as the implementation is not provided yet<a na
 
 All unit tests are located in the `webapp/test/unit` folder and can be started manually by calling the `unitTests.qunit.html` file in the same folder or the entry page. This HTML page is a QUnit runner that calls all unit tests of the app and displays the test results in a readable format.
 
-> Note:
+> Note:  
 > Some testrunners like Karma do not require an HTML page to invoke the tests but work with configuration files instead. They can directly invoke the `AllTests.js` file and log the test results in their own format. Therefore we make sure that the `AllTests.js` file does not contain any UI output and just calls the various test cases of the app.
-> 
-> 
 
    
   
@@ -185,19 +181,15 @@ Let’s have a look at the implementation of the unit tests now: We add our unit
 
 We add a new QUnit module for our price state tests after the number unit conversion tests. We could write a test checking the result of the formatter for each of these cases but we do not want to repeat ourselves \("DRY"\) – neither in the tests nor in the application coding – so we create a reuse function called `priceStateTestCase`. In this function, we call the formatter with the arguments provided as `oOptions` and make a `strictEqual` assertion for the expected parameter.
 
-> Note:
+> Note:  
 > There must be at least one assertion per QUnit test. If the actual value matches the expected value then the test is successful. However, if there are more assertions in a test case and a subsequent assertion fails, the whole test fails with the error message of the failed assertion.
 > 
 > There are also other types of assertions, for example the `ok` assertion that does not check the type. For more details, have a look at the official QUnit documentation.
-> 
-> 
 
 The assert object – a special object injected by QUnit – is passed on as a reference to the function. QUnit is loaded once for the whole unit testing part of the app.
 
-> Note:
+> Note:  
 > The main page for calling the unit tests is `webapp/test/unit/unitTests.qunit.html`. In this file we load the QUnit runtime and an `AllTests.js` file that loads and directly executes all files with unit tests. The other content of this file is just HTML for displaying the QUnit test result page.
-> 
-> 
 
 And now for the actual test cases: Whenever we want to start a new test we call `QUnit.test` with a test description and a callback function containing the test logic as an argument. The callback is invoked with a special assert object that is maintained by QUnit. We can simply call assertions as we saw above.
 

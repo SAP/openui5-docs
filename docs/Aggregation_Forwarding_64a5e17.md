@@ -22,17 +22,13 @@ Aggregration forwarding is used when application developers want to add child co
 
 This technique is often used when a control with an aggregation is wrapped by a composite control to add functionality, but the application still has control over the content of the wrapped control. In other cases, the composite control uses layout controls internally to define the placement of aggregated children.
 
-> Note:
+> Note:  
 > While aggregation forwarding as described here is mainly aimed at composite controls, it has also been implemented for the `ManagedObject` base class. The forwarding can also be used for other entities which are not controls, but inherit directly from `ManagedObject` or one of its subclasses.
 > 
 > For more information about this class, see the [API Reference: `ManagedObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend). 
-> 
-> 
 
-> Note:
+> Note:  
 > Sometimes the controls that have been added to an aggregation of a composite control have to be transformed into different controls, which are then added to an aggregation of an internal control. This is a different use case and not covered by aggregation forwarding. With aggregation forwarding, aggregated child controls are moved **without** transforming them.
-> 
-> 
 
 ***
 
@@ -124,10 +120,8 @@ In this case, the fragment definition XML file looks like this:
 </core:FragmentDefinition>
 ```
 
-> Note:
+> Note:  
 > `myInternalVBox` is prefixed with `--`. Other than that, the coding looks exactly the same as the one for aggregation forwarding for standard composite controls.
-> 
-> 
 
 ***
 

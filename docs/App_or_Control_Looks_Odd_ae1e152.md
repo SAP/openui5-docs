@@ -43,10 +43,8 @@ To solve the issue, you have the following options:
 
     Use the developer tools of your browser to inspect the element that has the wrong styling. In the HTML tab, you can usually see which styles are applied to a DOM element. If you have styles in the list that are added by your app, disable these styles in the debugger to see whether this solves the problem.
 
-    > Note:
+    > Note:  
     > OpenUI5-specific CSS classes and IDs all have an `sapUi` prefix, for example, `sapUiButton`.
-    > 
-    > 
 
     If this does not solve the issue, check for inline styles that are applied to the element in the HTML code. You can also try to isolate the control from the app to see whether there is an issue with the control instead of a collision of styles.
 

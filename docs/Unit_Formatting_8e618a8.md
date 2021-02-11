@@ -110,10 +110,8 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 });
 ```
 
-> Note:
+> Note:  
 > The right-to-left languages include a special whitespace character as a marker. This character is of course invisible, but you should take note of it, in case you intend to do string comparisons and other string operations. For example, in the Chrome debugger the RTL mark is visualized as a red dot.
-> 
-> 
 
 ***
 
@@ -149,12 +147,12 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 });
 ```
 
-> Note:
+> CAUTION:  
 > The custom units defined on the number format instance will be exclusive to this instance. No other instances are affected. In addition, once you define custom units for an instance, only those units will be formatted and parsed by that instance. This also means that custom units defined via the Configuration are not taken into account for this specific instance.
 > 
 > This is done to circumvent ambiguities and unit clashes with the CLDR units. So in the above example, only Zombies can be formatted, but no Gigawatt \(CLDR key: **power-gigawatt**\).
 > 
-> > Note:
+> > Example:  
 > > ```
 > >        // the previous Unit instance is used
 > >        // formatting/parsing Zombies is fine
@@ -164,10 +162,6 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 > >        // formatting/parsing Giga-Watt does not work (because of the exclusivity of the custom units on the above instance)
 > >        console.log(oFormat.format(1.21, "power-gigawatt")); // "": results in an empty string
 > > ```
-> > 
-> > 
-> 
-> 
 
 If you need both, CLDR units and custom units, you simply have to create two separate number format instances.
 
@@ -230,7 +224,7 @@ sap.ui.getCore().getConfiguration().getFormatSettings().addUnitMappings({
 
 When using either instance, exclusive or globally configured custom units, you can also add two additional format options \(**decimals** and **precision**\) to the custom unit's definition block. In the following examples the **decimals** option is set.
 
-> Note:
+> Example:  
 > Globally configured custom units:
 > 
 > ```
@@ -250,10 +244,8 @@ When using either instance, exclusive or globally configured custom units, you c
 >     console.log(oUnitFormat.format(2.4, "lux")); // 2,40 lux (notice the padded 0 after the 4, this is due to the decimals option)
 > });
 > ```
-> 
-> 
 
-> Note:
+> Example:  
 > Instance exclusive custom unit definition:
 > 
 > ```
@@ -276,8 +268,6 @@ When using either instance, exclusive or globally configured custom units, you c
 >     console.log(oUnitFormat.format(2.4, "lux")); // 2,40 lux (notice the padded 0 after the 4, this is due to the decimals option)
 > });
 > ```
-> 
-> 
 
 ***
 
@@ -324,12 +314,10 @@ With the new bindable dynamic format options of Unit type, you can pass the rele
 
 The third argument of the base Unit type constructor is a list of dynamic format options. In our example, the binding context itself contains the information on how many-decimals should be used. Still, these dynamic format options can be bound to any value from any model.
 
-> Note:
+> Note:  
 > If you use a combination of custom units on the Configuration and the Unit type, the format options from the type have priority.
 > 
 > So if you define a **decimals** value for a custom unit in the Configuration, the bound values from the Unit type instance will still be taken for the formatting.
-> 
-> 
 
 **Related information**  
 

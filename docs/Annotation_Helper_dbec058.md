@@ -14,10 +14,8 @@ A collection of methods which help to consume OData Version 4.0 annotations in X
 
 The `AnnotationHelper` connects all the pieces related to XML templating: It knows the OData meta model and its structure as well as the OData v4 annotations. The `AnnotationHelper` offers formatter functions and helper functions. You can call these methods directly from the JavaScript code without XML runtime templating. You do not need to require `sap.ui.model.odata.AnnotationHelper` before use.
 
-> Note:
+> Tip:  
 > You can see more information on the expressions, constants and functions used by the `AnnotationHelper`, in the respective chapters of the specification [OData Version 4.0 Specification: Part 3: Common Schema Definition Language](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) .
-> 
-> 
 
 ***
 
@@ -25,10 +23,8 @@ The `AnnotationHelper` connects all the pieces related to XML templating: It kno
 
 The formatter functions can be used in binding expressions and `<template:if>` instructions for test conditions.
 
-> Note:
+> Note:  
 > To use formatter functions, you need to enable the extended binding syntax by setting the configuration option `xx-bindingSyntax` to `complex`. For more information, see [Composite Binding](Composite_Binding_a2fe8e7.md). If the extended binding syntax is not enabled and expressions are created by means of the annotation helper's format functions, the following warning is issued in the console: *Complex binding syntax not active*.
-> 
-> 
 
 The following formatter functions exist:
 
@@ -42,12 +38,10 @@ The following formatter functions exist:
 
     If a binding info object is not the only part and has a `parts` property itself, then it must have no other properties except `formatter`. This applies to expression bindings and data binding expressions that are created by `format`. If all parts are constant values, the resulting property setting is also a constant value computed by applying the root formatter function to the constant parts once. If at least one part is a binding info object, the resulting property setting is also a binding info object and the root formatter function will be applied again and again to the current values of all parts, no matter whether constant or variable.
 
-    > Note:
+    > Note:  
     > The root formatter function should not rely on its `this` value because it depends on how the function is called.
     > 
     > A single data binding expression can be given directly to `applySettings`; you do **not** need to call `this` function first.
-    > 
-    > 
 
 -   `format`: General purpose method that handles proper escaping and formatting of constant values and provides binding expressions with suitable types. `format` supports the following constructs:
 
@@ -71,10 +65,8 @@ The following formatter functions exist:
 
     -   Dynamic *"14.5.6 Expression edm:If"*: This dynamic expression is turned into an expression binding to be evaluated at runtime. The expression is conditional, for example, `"{=condition ? expression1 : expression2}"`.
 
-    > Note:
+    > Note:  
     > Unsupported values are turned into strings, and indicated as such. To ensure that the data binding syntax is not corrupted, proper escaping is used.
-    > 
-    > 
 
     ```nocode
     <Text text="{path: 'meta>Value', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}"/>

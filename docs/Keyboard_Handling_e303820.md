@@ -24,10 +24,8 @@ Make sure that all available features of the application can be accessed by usin
 
 The reading order of the page is very important for the application user experience. Those who use keyboard only should be able to navigate easily through every single element. You should always have in mind the fact that the page should have a logical reading order. This means that logically related UI controls should receive keyboard and reading focus in such order that preserves semantics and usability. To achieve this, you need to use layout controls for maintaining the correct tab order. This is especially important for those who use screen reader software, because in most cases they'll follow exactly the tab order of the application and illogical tab orders can confuse them.
 
-> Note:
+> Example:  
 > When you have to select a country and city from select boxes, the country should be focused first and after that the city.
-> 
-> 
 
 ***
 

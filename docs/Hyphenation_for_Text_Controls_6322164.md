@@ -122,10 +122,8 @@ Hyphenation Workflow<a name="loio6322164936f047de941ec522b95d7b70__fig_ilz_gch_h
 
 ### Supported Languages
 
-> Note:
+> CAUTION:  
 > Note that as the hyphenation feature uses third-party and browser-native tools, we are not responsible for any grammatical incorrectness or inconsistencies of the hyphenation. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.
-> 
-> 
 
 OpenUI5 provides hyphenation through the `hyphens` CSS property or the third-party tool Hyphenopoly.
 

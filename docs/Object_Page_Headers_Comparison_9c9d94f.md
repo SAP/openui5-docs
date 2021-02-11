@@ -31,10 +31,8 @@ On the contrary, the dynamic header title is general-purpose. It doesn’t have 
 
 The main difference between the classic and dynamic header content is that the dynamic header has the Pin functionality, allowing the user to prevent it from scrolling out of view.
 
-> Note:
+> Note:  
 > The controls, comprising the dynamic header title and header content, extend the `sap.f.DynamicPage` title and header controls. They are adapted for the `ObjectPageLayout` use case, but essentially they provide the same functionality.
-> 
-> 
 
 Relation between the `sap.uxap.ObjectPageLayout` dynamic header controls and the `sap.f.DynamicPage` controls:<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_gpd_k3l_sbb"/>
 
@@ -170,7 +168,7 @@ Here is a sample usage of the dynamic header - the value of the `headerTitle` ag
 
 ```
 
-> Note:
+> Tip:  
 > When `sap.uxap.ObjectPageLayout` is given the `sap.uxap.ObjectPageDynamicHeaderTitle`, it loads the `sap.f` library on demand as a lazy dependency. To speed up your app, you should preload the `sap.f` library directly in the OpenUI5 bootstrap along with the other libraries needed for your app.
 > 
 > Example:
@@ -180,8 +178,6 @@ Here is a sample usage of the dynamic header - the value of the `headerTitle` ag
 > ```
 > 
 > This way, the `ObjectPageLayout` will already have `sap.f` loaded and it will not need to fetch it.
-> 
-> 
 
 **Related information**  
 

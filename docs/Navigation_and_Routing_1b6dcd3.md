@@ -20,10 +20,8 @@ For example, a classical Web application might display the employee’s resume p
 
 The information in the hash, namely everything that is following the `#` character, is interpreted by the router.
 
-> Note:
+> Note:  
 > This tutorial does not handle cross-app navigation with the SAP Fiori launchpad. However, the concepts described in this tutorial are also fundamental for navigation and routing between apps in the SAP Fiori launchpad.
-> 
-> 
 
 We will create a simple app displaying the data of a company’s employees to show typical navigation patterns and routing features. The complete flow of the application can be seen in the figure below. We'll start with the home page which lets users do the following:
 
@@ -42,7 +40,7 @@ Page flow of the final app<a name="loio1b6dcd39a6a74f528b27ddb22f15af0d__fig_uzp
 
 Throughout this tutorial we will add features for navigating to pages and bookmarking them. We will add backward and forward navigation with common transition animations \(slide, show, flip, etc.\). We will add more pages to the app and navigate between them to show typical use cases. We will even learn how to implement features for bookmarking a specific search, table sorting via filters, and dialogs.
 
-> Note:
+> Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
 > You can view and download the files for all steps in the Demo Kit at [Navigation and Routing](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.navigation/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
@@ -52,7 +50,4 @@ Throughout this tutorial we will add features for navigating to pages and bookma
 > -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
-> 
-> 
-> 
 

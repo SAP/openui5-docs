@@ -103,7 +103,7 @@ Here are some examples:
 
 OData V4 supports "$expand with options", which means an $expand option can contain query options for the expanded navigation property such as $select, $orderby or $expand itself.. OData V2 does not support "$expand with options" but only $expand and $select with path values. An OData V4 $expand option, which contains only $select and $expand options, is transformed to the corresponding OData V2 $expand and $select options by "flattening" the OData V4 structure.
 
-> Note:
+> Example:  
 > OData V4 system query options to expand line items:
 > 
 > ```
@@ -118,13 +118,9 @@ OData V4 supports "$expand with options", which means an $expand option can cont
 > $select=SO_2_SOITEM/DeliveryDate,SO_2_SOITEM/ItemPosition,SO_2_SOITEM/SalesOrderID,SalesOrderID,GrossAmount
 > 
 > ```
-> 
-> 
 
-> Note:
+> Note:  
 > Because of the flat structure of $expand and $select, the URLs get longer than the URLs in OData V4. In some browsers that might be an issue if you use $direct as group ID. \(for more information see: [Batch Control](Batch_Control_74142a3.md)\).
-> 
-> 
 
 ***
 
@@ -155,15 +151,11 @@ In OData V2 $filter can only be used on top level. An error is raised if $filter
 
 The remaining functions are unsupported because they have no equivalent in V2.
 
-> Note:
+> CAUTION:  
 > Avoid passing literals to date, time and arithmetic functions, because the parameter to these functions can have different types and it cannot be decided which one is correct.
 > 
-> > Note:
+> > Example:  
 > > In floor\(42\) the 42 can be either an `Edm.Double` or an `Edm.Decimal`. Avoid comparing two literals like, for example `42 eq 42`, because the converter determines the type of a literal from the other operand in comparisons.
-> > 
-> > 
-> 
-> 
 
 ***
 
@@ -228,8 +220,6 @@ Not all OData V4 features are supported yet when consuming an OData V2 service. 
 -   Not all OData V2 annotations are converted yet. Supported OData V2 annotations are listed above \(see [OData V2 Annotations](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md#loio365bdbd737034334a38a6fef07345196__subsection_kmw_4fl_nbb)\).
 
 
-> Note:
+> CAUTION:  
 > OData V4 validates that namespaces are always loaded from the same URI. Ensure to reference the metadata document \(e.g. **.../IWBEP/GWSAMPLE\_BASIC/$metadata**\) in additional annotation files and not the service document \(**.../IWBEP/GWSAMPLE\_BASIC**\).
-> 
-> 
 

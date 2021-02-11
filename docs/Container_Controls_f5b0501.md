@@ -80,7 +80,7 @@ OpenUI5 container controls do not directly interact with the application user. S
  -   In Virtual Cursor mode - all content of the region
 
 
- > Note:
+ > Note:  
  > The whole region should be available as a landmark
 			</td>
 		</tr>

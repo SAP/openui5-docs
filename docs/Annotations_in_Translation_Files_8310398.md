@@ -32,10 +32,8 @@ The following text type classifications exist:
 
 -   Y texts are used for texts with more than 120 characters
 
-    > Note:
+    > Note:  
     > Use only the Y text types specified in the table below. More Y text types exist but must not be used.
-    > 
-    > 
 
 -   `NOTR` is used for strings that are not relevant for translation
 

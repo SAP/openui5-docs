@@ -14,10 +14,8 @@ To use OpenUI5 features in your HTML page, you have to load and initialize the S
 
 You can use the OpenUI5 bootstrap script in your page to initialize OpenUI5 runtime automatically as soon as the script is loaded and executed by the browser. For simple use cases as well as the default OpenUI5 installation, this is sufficient to build and run UIs. In addition to this, you can specify the set of OpenUI5 libraries and the theme used for your application in the configuration settings.
 
-> Note:
+> Note:  
 > If you run your app standalone, the bootstrap is added to your HTML page. In an SAP Fiori launchpad environment, the launchpad executes the bootstrap and no additional HTML page is needed to display the app.
-> 
-> 
 
 The following code snippet shows a typical bootstrap script tag:
 
@@ -63,19 +61,13 @@ OpenUI5 provides several bootstrap files for different use cases. The following 
 		</tr>
 		<tr>
 			<td>`sap/ui/core/library-preload.js`</td>
-			<td>This file contains most of the modules that are contained in the `sap.ui.core` library, but the modules are parsed and executed only on demand, and not immediately.
-
- > Note:
- > An application must not reference this file. If the configuration option is set to `preload`, OpenUI5 automatically loads the file.
+			<td>This file contains most of the modules that are contained in the `sap.ui.core` library, but the modules are parsed and executed only on demand, and not immediately. > CAUTION:   > An application must not reference this file. If the configuration option is set to `preload`, OpenUI5 automatically loads the file.
 
  For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).</td>
 		</tr>
 		<tr>
 			<td>`sap-ui-core-lean.js`</td>
-			<td>This bootstrap file is similar to the `sap-ui-core.js` file, but in this use case only the jQuery and one OpenUI5 file are loaded immediately and the other files are loaded dynamically.
-
- > Note:
- > This use case is usually **not** used and may be removed in future.
+			<td>This bootstrap file is similar to the `sap-ui-core.js` file, but in this use case only the jQuery and one OpenUI5 file are loaded immediately and the other files are loaded dynamically. > CAUTION:   > This use case is usually **not** used and may be removed in future.
 			</td>
 		</tr>
 		<tr>
@@ -83,7 +75,7 @@ OpenUI5 provides several bootstrap files for different use cases. The following 
 			<td>File names that match this pattern are reserved for custom merged files used by the application.
 
  > Note:
- > The proposed naming scheme for these files needs to be adapted in future versions for the same encapsulation reasons as mentioned above.
+   > The proposed naming scheme for these files needs to be adapted in future versions for the same encapsulation reasons as mentioned above.
 			</td>
 		</tr>
 	</tbody>

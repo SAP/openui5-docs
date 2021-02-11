@@ -44,12 +44,10 @@ These OpenUI5 configuration options accept the following formats:
     |`1Q`|`en-US-x-saptrc`|`1Q` is a technical SAP language code used in support scenarios, for example for translation issues. When you select this language code, the technical keys are displayed instead of the actual data. As no ISO639 code for this exists, the information has been added as a BCP47 private extension to the `en-US` language tag: "trc" stands for "trace" or "traceability".|
     |`2Q`|`en-US-x-sappsd`|`2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).|
 
-    > Note:
+    > Note:  
     > Only these SAP-proprietary language codes are understood by OpenUI5. Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the SAP Fiori launchpad.
     > 
     > If you don't make use of the SAP Fiori launchpad, you may have to explicitly implement the language handling. You can use the `sap.ui.getCore().setLanguage()` method to provide both settings, a BCP47 language code and the corresponding SAP-proprietary language\) in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
-    > 
-    > 
 
 
 ***
@@ -86,13 +84,9 @@ var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 
 For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage).
 
-> Note:
+> Note:  
 > The syntax of the returned value depends on the syntax used for configuration. If the information source is one of the browser language properties, the returned language most likely is in BCP-47 format. If it is configured as a URL parameter, the user might have chosen the JDK Locale syntax.
-> 
-> 
 
-> Note:
+> Note:  
 > None of the `window.navigator.*` properties in Internet Explorer \(IE\) reflect the settings of the **Language Preference** dialog. Instead, IE returns the language of the Operating System installation as `browserLanguage` and the language from the Operating System regional settings as `userLanguage`. As a result, the settings in the **Language Preference** dialog **cannot** be used for the current language of OpenUI5. This is often confusing for developers and a known shortcoming in IE. To circumvent this, an additional server request could be used where IE provides the corresponding setting in the`Accept-Language` header. This server request, however, requires a backend component. OpenUI5 must be able to run without a server component and, thus, the server request is not implemented.
-> 
-> 
 

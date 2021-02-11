@@ -18,10 +18,8 @@ The following keys and key combinations are used for navigation between controls
 
 Navigation between controls is done using the *Tab* key. *Tab* moves the focus from one control to the next one inside the application. The tab order is defined by the placement of the control within the DOM tree, therefore apps have a large influence on it.
 
-> Note:
+> Note:  
 > Controls are in the tab order, if they are interactive, enabled and visible. This includes read-only controls. Disabled or hidden controls are taken out of the tab order. Non-interactive controls \(for example, layout container\) can never be reached with *Tab*.
-> 
-> 
 
 |Key combination|Behavior|
 |---------------|--------|

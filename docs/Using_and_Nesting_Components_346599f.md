@@ -71,12 +71,10 @@ You load and create a `UIComponent` in one of the following ways:
 ```
 
 
-> Note:
+> Note:  
 > You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component.
 > 
 > See [ `ComponentContainer`](https://openui5.hana.ondemand.com/api/sap.ui.core.ComponentContainer#controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
-> 
-> 
 
 ***
 
@@ -248,7 +246,7 @@ If you use a component that is embedded in a library, and the application declar
 }
 ```
 
- > Note:
+ > Note:  
  > As of version 1.56 it is sufficient to declare the component usage and to indicate whether the component should be lazy loaded or not. The declaration of the component dependencies can and should be avoided in this case.
 			</td>
 		</tr>
@@ -259,8 +257,6 @@ createContent: function() {
    
   var oReuseComponent = sap.ui.component({
     "name": "sap.reuse.component"
-  });
- 
 ``` js
 createContent: function() {
    
@@ -270,6 +266,8 @@ createContent: function() {
  
 }
 ```
+**  var oReuseComponentPromise = this.createComponent\(\{ /\* this = Component instance \*/
+    "usage": "reuse"
   \}\);**
  
 }

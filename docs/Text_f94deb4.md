@@ -52,8 +52,6 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 -   If you need special text formatting, use Formatted Text or HTML. For more information, see the [API Reference: `sap.m.FormattedText`](https://openui5.hana.ondemand.com/#/api/sap.m.FormattedText) and [API Reference: `sap.ui.core.HTML`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.HTML). 
 
 
-> Note:
+> Restriction:  
 > When you use wrapping, bear in mind that the multi-line overflow indicator depends on whether the browser supports line clamping. If the browser supports it, it shows the overflow as an ellipsis; if not, the overflow indicator is not displayed.
-> 
-> 
 

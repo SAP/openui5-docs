@@ -12,12 +12,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The application cache buster \(short `AppCacheBuster`\) is similar to the cache buster but is used for application resources.
 
-> Note:
+> Note:  
 > OpenUI5 supports the application cache buster on SAP NetWeaver AS for ABAP only.
 > 
 > For Java apps on SAP NetWeaver AS for Java and SAP HANA XS the application cache buster concept is **not** supported.
-> 
-> 
 
 Applications provide an index file named `sap-ui-cachebuster-info.json` \(created on the fly\) containing the last modified timestamps of all included files \(like scripts, properties, or any other file that we load via XHR programmatically\). Technically this file is a mapping between the request path \(below the context path of the application\) and the last modified time stamp.
 
@@ -27,8 +25,6 @@ On the client side, we initially load this file of the application when enabled 
 
 The server has to delete the time stamp from this URL to look up the file properly. For SAP NetWeaver AS for ABAP, the logic is implemented in the ICF handler. Both back end implementations, SAP NetWeaver AS for Java and SAP NetWeaver AS for ABAP, also generate the index file on-the-fly.
 
-> Note:
+> Note:  
 > The application cache buster does **not** work across application borders. If you require resources from another application they are not loaded via this mechanism.
-> 
-> 
 

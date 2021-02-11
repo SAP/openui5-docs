@@ -30,10 +30,8 @@ The following properties of `FacetFilterList` affect the display of lists in the
 |`active`|Indicates if a facet filter list is active and should appear on the toolbar; this is only applicable for the simple type as all facet filter lists are active in the light type|
 |`allCount`|The `allCount` value can be set to the number of filter matches in the target data set given the currently selected filters for the facet filter list.|
 
-> Note:
+> Note:  
 > The list of properties is not complete. For a complete list, refer to the API documentation.
-> 
-> 
 
 ***
 
@@ -46,10 +44,8 @@ The `FacetFilterItem` control extends and supports all features of `sap.m.ListIt
 |`text`|Filter item name|
 |`key`|Unique identifier of the filter item; used to filter the target data set If `key` is not set, `text` is used as the key value.|
 
-> Note:
+> Note:  
 > You must either set the `text` or the `key` property. Otherwise, the facet filter list can not properly maintain the selected state of the item and an error message is logged to the console.
-> 
-> 
 
 ***
 
@@ -87,8 +83,6 @@ var oFacetFilter = new sap.m.FacetFilter({ // define FacetFilter Control
 
 ```
 
-> Note:
+> Note:  
 > The example does not have a model binding. A binding to the filter items is required for the search.
-> 
-> 
 

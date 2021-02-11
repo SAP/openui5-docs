@@ -30,7 +30,7 @@ The screen reader software gets the information about the page directly from the
 
 Complex controls like pages, panels, and tables need a title to summarize the contents they hold. If you use the standalone `Title` control, make sure that it is associated with the element that needs the title.
 
-> Note:
+> Example:  
 > ```
 > <mvc:View
 >       xmlns:mvc="sap.ui.core.mvc"
@@ -47,8 +47,6 @@ Complex controls like pages, panels, and tables need a title to summarize the co
 > </mvc:View>
 > 
 > ```
-> 
-> 
 
 **Result:**
 
@@ -88,7 +86,7 @@ Use the specific roles and attributes, based on ARIA 1.1 specifications:
 
 For headings \(table toolbar, page header, form toolbar, panel toolbar\) the text should be in a `sap.m.Title` control \(make sure that it is associated with the element that needs the title and, if not, add the reference using `aria-labelledby`\).
 
-> Note:
+> Example:  
 > ```
 > <mvc:View
 >       xmlns:mvc="sap.ui.core.mvc"
@@ -111,8 +109,6 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 > 
 > 
 > ```
-> 
-> 
 
 ***
 
@@ -120,7 +116,7 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 
 When using the `Input` control, always provide a label \(make sure it is connected with the input\). You can also use the `description` property to add additional information. For the input, the description is usually used for showing the unit of measurement \(for example. "EUR"\).
 
-> Note:
+> Example:  
 > ```
 > <mvc:View
 >    xmlns:l="sap.ui.layout"
@@ -142,8 +138,6 @@ When using the `Input` control, always provide a label \(make sure it is connect
 > </mvc:View>
 > 
 > ```
-> 
-> 
 
 **Result:**
 
@@ -157,10 +151,8 @@ In some cases, you may need to provide an empty option in a drop-down field such
 
 The labeling on the empty option will be read by the screen reader and the end user will be correctly informed about the semantics of the empty option.
 
-> Note:
+> Tip:  
 > The empty label *\(None\)* should always be the first item in the drop-down.
-> 
-> 
 
 ***
 
@@ -168,7 +160,7 @@ The labeling on the empty option will be read by the screen reader and the end u
 
 When using the `List` control with visible non-active info toolbar with plain text content, you need to associate the `aria-labelledby` of the list with the text content of the `infoToolbar` aggregation.
 
-> Note:
+> Example:  
 > ```
 > ...
 > <List ariaLabelledBy="textInInfoToolbarId">
@@ -182,8 +174,6 @@ When using the `List` control with visible non-active info toolbar with plain te
 > </List>
 > ...
 > ```
-> 
-> 
 
 ***
 
@@ -197,10 +187,8 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the master-detail pattern when the user needs to browse the available items, the focus should stay in the master list area. And in cases when the user has selected an item from the master list and needs to perform an action, the focus should move to the details area.
 
-> Note:
+> Note:  
 > For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
-> 
-> 
 
 
 ***

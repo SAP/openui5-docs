@@ -16,10 +16,8 @@ This data type transforms a source value \(given value in the model\) into a for
 
 The format patterns must be defined in LDML Date Format notation. For the output, the use of a style \("short, "medium", "long" or "full"\) instead of a pattern is preferred, as it will automatically use a locale-dependent date and time pattern.
 
-> Note:
+> CAUTION:  
 > When talking about exact points in time, time zones are imported. The formatted output of the `DateTime` type currently shows the "local" time which equals the time settings of the machine on which the browser runs. If the source value is given as a JavaScript Date object or as a timestamp, the exact moment is sufficiently defined. For string source values this value is interpreted in "local" time if it does not explicitly have a time zone. Currently, all accepted time zone notations must be based on GMT/UTC.
-> 
-> 
 
 Examples how a `DateTime` type can be initialized:
 

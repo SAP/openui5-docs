@@ -77,10 +77,8 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 ![SAPUI5 Mobile FlexBox Buttons Ordered](loio01f751982b8640ea8f1a24bc25589c60_LowRes.png)
 
-> Note:
+> Note:  
 > The `FlexBox` control is a wrapper for the flexible box layout properties in CSS. The control renderer sets the CSS properties \(including prefixed versions where necessary\) on the appropriate HTML elements. The actual layouting is done by the browser.
-> 
-> 
 
 The controls that you place in the `FlexBox` control are each wrapped in a `DIV` or `LI` element, depending on the `renderType` property. All elements are placed inside another `DIV` or `UL` container, again depending on the `renderType`. If you use `Bare` as `renderType`, elements will be rendered without a wrapping HTML tag. The outermost element represents the so-called *flex container* while its child elements are *flex items*. The HTML structure resulting from all of the examples above looks as follows:
 
@@ -102,10 +100,8 @@ The controls that you place in the `FlexBox` control are each wrapped in a `DIV`
 </div>
 ```
 
-> Note:
+> Note:  
 > The `layoutData` properties that you can attach to a control are applied to its wrapper element with *sapMFlexItem* class. This is because browsers currently only support these properties on some elements, for example `DIV`.
-> 
-> 
 
 The two additional controls `HBox` and `VBox` are `FlexBoxes` that are fixed to horizontally or vertically layout their children.
 

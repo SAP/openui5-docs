@@ -31,10 +31,8 @@ oModel.setData({
 });
 ```
 
-> Note:
+> Note:  
 > The correct JSON notation uses double quotes for the keys and string values.
-> 
-> 
 
 Usually, you do not define your data inline in the application but load it from a server-side service using an XHR request. The JSON model, however, also has a `loadData` method, which loads the JSON data from the specified URL asynchronously and applies it to the model:
 

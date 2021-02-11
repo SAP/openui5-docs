@@ -18,10 +18,8 @@ With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
 ### New Features
 
-| **Enabling Applications to Comply with the Content Security Policy \(CSP\)** The OpenUI5 framework now allows you to run applications in an environment in which CSP has been enabled. Inline scripts are not required anymore, but you must still allow `eval()` for OpenUI5 to run. For details about the supported policies, and for recommendations on writing CSP-compliant applications, see [Content Security Policy](Content_Security_Policy_fe1a6db.md). > Note:
+| **Enabling Applications to Comply with the Content Security Policy \(CSP\)** The OpenUI5 framework now allows you to run applications in an environment in which CSP has been enabled. Inline scripts are not required anymore, but you must still allow `eval()` for OpenUI5 to run. For details about the supported policies, and for recommendations on writing CSP-compliant applications, see [Content Security Policy](Content_Security_Policy_fe1a6db.md). > Note:  
 > An application needs to be prepared to the used policy to run in a CSP-enabled environment.
-> 
-> 
 
  |
 
@@ -54,10 +52,8 @@ SinglePlanningCalendar Meetings<a name="loiode4d50b6c0f649fa859e4657ff8557a6__fi
 -   For the calculation of the path for reading data, relative bindings use the path of the context instead of the canonical path. The creation of a new entity uses the deep path as well. Use the `$$canonicalPath` binding-specific parameter to switch to the old behavior.
 
 
-Note that we have introduced this change to support message processing.> Note:
+Note that we have introduced this change to support message processing.> Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 |
 

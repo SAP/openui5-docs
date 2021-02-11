@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Replacement of Bindings
 
-For attributes, OpenUI5 binding expressions are used instead of preprocessing instructions. If the value of an XML attribute represents a valid OpenUI5 binding which refers to currently available model \(= <variable\>\) names only, the binding is evaluated and the result is written back into the XML attribute.
+For attributes, OpenUI5 binding expressions are used instead of preprocessing instructions. If the value of an XML attribute represents a valid OpenUI5 binding which refers to currently available model \(= *<variable\>*\) names only, the binding is evaluated and the result is written back into the XML attribute.
 
 The `sap.ui.model.odata.AnnotationHelper.format` method can be used as a formatter which properly interprets OData Version 4.0 annotations from the OData meta model. You can use the same formatter for labels and values. For more information, see [SAP Annotations for OData Version 2.0](http://www.sap.com/Protocols/SAPData).
 
@@ -124,10 +124,8 @@ This example formatter opts to the extended signature \(see line 51\), which pro
 
 The delegation to `sap.ui.model.odata.AnnotationHelper#format` provides the raw value we already have at hand, even for root level calls \(see comment in line 42\).
 
-> Note:
+> Note:  
 > The custom formatter function needs to be accessible globally, because XML templating cannot call formatter functions inside the view's controller. This controller does not yet exist at the time of preprocessing. However, it is not sufficient to simply put it into window \(see line 8\). You must put it into your own namespace.
-> 
-> 
 
 The example formatter has the following output:
 
@@ -137,10 +135,8 @@ The example formatter has the following output:
 <Text text="[Customer] {CustomerName}"/>
 ```
 
-> Note:
+> Note:  
 > The colon \(":"\) is taken over literally from the first composite binding which consists of two bindings separated by a string literal.
-> 
-> 
 
 ***
 

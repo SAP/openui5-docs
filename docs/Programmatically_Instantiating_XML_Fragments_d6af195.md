@@ -31,10 +31,8 @@ Fragment.load({
 });
 ```
 
-> Note:
+> Note:  
 > This specific fragment does not use a controller; if controls inside a fragment need methods that are defined in a controller, the controller has to be given as an additional parameter.
-> 
-> 
 
 Fragments can be instantiated from JSViews, as well. Fragments of any type can be used within views of any type.
 
@@ -52,12 +50,10 @@ Fragment.load({
 });
 ```
 
-> Note:
+> CAUTION:  
 > Make sure that you are correctly chaining to the `Fragment.load` Promise!
 > 
 > Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
-> 
-> 
 
 **Related information**  
 

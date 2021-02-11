@@ -22,10 +22,8 @@ A FlexBox layout has a direction in which child elements are laid out. The defau
 
 You can change the layout direction property to **Column**, which results in a vertical main axis and a horizontal cross axis. This is important for the align properties.
 
-> Note:
+> Note:  
 > If browsers support vertical text flows, the direction of a row can also be vertical. For now this is not an issue and can be ignored.
-> 
-> 
 
 In addition to Row and Column, the flex direction can be set to **RowReverse** and **ColumnReverse** which will reverse the layout direction.
 
@@ -56,15 +54,11 @@ You can let the browser handle the distribution of elements. This ensures that t
 
 The property to control the flexibility is called `growFactor`. It is set on a flex item object by means of `FlexItemData` on the `layoutData` aggregation. The flex layout algorithm determines the "natural" width of the flex items. If there is space left, this space is distributed among the flex items according to their relative `growFactor`. If, for example, a horizonzal flex container is 300px wide and contains two elements of 100px each, 100px would remain. If the `growFactor` for both flex items is set to 1, both get 50px extra, thus making them 150px wide. If the `growFactor` is set to 3 for one item and to 1 for the other item, the first item gets additional 75px \(¾ of 100px\) of the remaining space and the second item 25px \(¼ of 100px\). If the `growFactor` is set to its default value of 0, the item is inflexible and both items would keep their width of 100px.
 
-> Note:
+> Note:  
 > The flex algorithm distributes the **remaining** space, and **not** the whole space in the FlexBox. Therefore, the resulting widths of the items are not necessarily proportional to the `growFactor`.
-> 
-> 
 
 To achieve a proportional width according to the `growFactor`, set the width of all items to 0 via CSS. The sum of the "natural" widths of all items is then also 0. The remaining space, however, now equals the full space of the `FlexBox`. This space is then distributed based on the `growFactor`. For the example above with `growFactor` set to 3 and 1, setting the width of the flex items to 0 via CSS results in a width of 225px \(¾ of 300px\) for the first item and 75px \(¼ of 300px\) for the second item.
 
-> Note:
+> CAUTION:  
 > Once you set a `growFactor` for any item, the flex layout algorithm ignores the `justifyContent` property of the FlexBox because the items take up all available space anyway. There would be no difference between the different values.
-> 
-> 
 

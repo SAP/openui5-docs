@@ -12,12 +12,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
 
-> Note:
+> Tip:  
 > For macOS, several keyboards with different key labels exist. The modifier key corresponding to the Windows *Alt* key may be labelled either *Option* or *Alt*.
 > 
 > Please note that, for both Windows and macOS, only the left *Alt* or *Option* key can be used in the keyboard shortcuts given below.
-> 
-> 
 
 The table shows the OpenUI5 tools available via keyboard shortcuts.
 

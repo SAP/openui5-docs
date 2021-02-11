@@ -35,7 +35,7 @@ Here are some of the most common JavaScript properties that you should bear in m
 -   `target-densitydpi`
 
 
-> Note:
+> CAUTION:  
 > Setting inappropriate values for these properties can completely disable the zooming of an application. Here is an example of such incorrect values:
 > 
 > ```
@@ -43,8 +43,6 @@ Here are some of the most common JavaScript properties that you should bear in m
 >  minimum-scale=1, width=device-width, height=device-height,
 >  target-densitydpi=device-dpi" />
 > ```
-> 
-> 
 
 Additionally, you can also make zoom adjustments or disable zoom completely in CSS. For example:
 

@@ -28,17 +28,13 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
      ![](loio76e6ee08329741b895ec64627d96702e_HiRes.png "Technical Information Dialog: Support Assistant Settings") 
 
-    > Note:
+    > Note:  
     > When you choose a custom location, keep in mind that the URL should match the protocol of the application. For example, if the application is HTTP, the location should also be HTTP. If it is HTTPS, the location should be HTTPS. The URL should also end in `sap/ui/support/`.
-    > 
-    > 
 
     -   Under *Options* you can select if the Support Assistant should be opened in a separate window.
 
-        > Note:
+        > Note:  
         > Additional window popups may be blocked by your browser settings.
-        > 
-        > 
 
 4.  Select *Activate Support Assistant*.
 
@@ -55,15 +51,11 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
 You are now able to run the Support Assistant on the version that you selected.
 
-> Note:
+> Note:  
 > Rules with a higher `minVersion` than the one currently loaded are not checked.
-> 
-> 
 
-> Note:
+> Remember:  
 > These settings are stored in your local storage \(if selected\) and are reused on consecutive runs.
-> 
-> 
 
 **Related information**  
 

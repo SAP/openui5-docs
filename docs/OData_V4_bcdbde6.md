@@ -26,7 +26,7 @@ We start with an initial app that simply retrieves data from an OData V4 service
 
 ***
 
-> Note:
+> Tip:  
 > You don't have to do all tutorial steps sequentially, you can jump directly to any step you want. In each step, download the code from the previous step, copy it to your workspace, and make sure that the application runs by calling the `webapp/index.html` file.
 > 
 > You can view and download the samples for all steps in the Demo Kit at [OData V4](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.odatav4/samples). Depending on your development environment you might have to adjust resource paths and configuration entries.
@@ -36,9 +36,6 @@ We start with an initial app that simply retrieves data from an OData V4 service
 > -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
-> 
-> 
-> 
 
 **Related information**  
 

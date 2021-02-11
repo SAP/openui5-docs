@@ -157,22 +157,21 @@ If the controller is instantiated, all members that have a `ControllerExtension`
 
 You can also override an extension directly in a controller.
 
-``` js
-sap.ui.define(['sap/ui/core/mvc/Controller', 'my/extension/SampleExtension'],
-    function(Controller, SampleExtension) {
-    "use strict";
-    return MainController = Controller.extend("sample.Main", {
-        //inline override of an extension. E.g. to provide a hook implementation
-        sample: SampleExtension.override({
-            someHook: function() {},
-            someOtherMethod: function() {}
-        }),
-        onLifecycleHook: function() {
-        }
-    });
-});
-
-```
-
-			
+> Sample Code:  
+> ``` js
+> sap.ui.define(['sap/ui/core/mvc/Controller', 'my/extension/SampleExtension'],
+>     function(Controller, SampleExtension) {
+>     "use strict";
+>     return MainController = Controller.extend("sample.Main", {
+>         //inline override of an extension. E.g. to provide a hook implementation
+>         sample: SampleExtension.override({
+>             someHook: function() {},
+>             someOtherMethod: function() {}
+>         }),
+>         onLifecycleHook: function() {
+>         }
+>     });
+> });
+> 
+> ```
 

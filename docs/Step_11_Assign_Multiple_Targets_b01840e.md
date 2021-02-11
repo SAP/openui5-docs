@@ -185,10 +185,8 @@ We extend our current routing configuration with a new route `employeeOverview`.
 
 Both targets `employeeOverviewTop` and `employeeOverviewContent` reference the target `employeeOverview` as their parent target because we want to place them both inside the parent. Please also note that we also introduce a new layer `overview` in the `viewPath` property.
 
-> Note:
+> Note:  
 > The order of the routing configuration matters here, because the router stops matching additional routes when the first match is found. You can override this behavior if you set parameter `greedy` to `true` on the route. Then the route will always be matched when the pattern matches the current URL, even if another route has been matched before. The `greedy` option comes from the underlying `Crossroads.js` library, a popular routing library. A common use case for using `greedy` is configuring targets without views and then listening for route-matched events.
-> 
-> 
 
 Now we create both targets `employeeOverviewTop` and `employeeOverviewContent` as well as their parent target `employeeOverview`. On the parent target we set `viewLevel` to `2` to ensure a correct transition animation. In the targets, we also configure where the corresponding views of the children shall be displayed by setting the parameters `controlId` and `controlAggregation` to a control ID of a `sap.ui.layout.HorizontalLayout` that we are about to create in a new view. You should be familiar with this configuration from the last step.
 
@@ -460,10 +458,8 @@ Open `webapp/index.html#/employees/overview` and check the new views. As you can
 
 Of course, you can also search the table and change the sorting. When the sorting dialog opens, it creates a block layer so that the back button and other controls cannot be accessed. However, you can still use the back button of the browser. As you can see, the dialog is closed automatically by the router before navigating.
 
-> Note:
+> Note:  
 > The default behavior of the `sap.m` router is that all dialogs are closed when the hash changes \(i.e. when calling `navTo`, `display` or pressing the back button of the browser\). You can change this default behavior by calling `getTargetHandler().setCloseDialogs(false)` on the router or on the `Targets` object.
-> 
-> 
 
 However, we have one problem yet to solve: the search and table ordering are not bookmarkable. Fortunately, we have additional navigation features at hand and you will see how this works in the next steps
 

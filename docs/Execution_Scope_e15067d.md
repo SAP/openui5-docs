@@ -33,8 +33,6 @@ There are three available execution scopes:
 -   *Component\(s\)* - The rules are executed on the specified set of loaded components/fragments.
 
 
-> Note:
+> Note:  
 > The scoping information will also be taken into account when generating the analysis report.
-> 
-> 
 

@@ -243,12 +243,10 @@ For each action we register both a `success` handler and an `error` handler. The
 
 In a real scenario, you could have a counter for error responses, and one for success responses. Finally, you could implement you own business logic for error and success cases, like displaying the number of failed and succeeded requests together with the corresponding product identified by the product ID parameter of the handlers. We don’t do this to keep things simple.
 
-> Note:
+> Note:  
 > In our example, the remove or order actions are only applied to items that are visible in the table, even if the *Select All* checkbox of the table is selected. Keep in mind that there may be more data on the back end that is currently not loaded, and therefore it is neither displayed and nor can it be selected by the user.
 > 
 > If you want to change this behavior, you might need to change both back-end and front-end code.
-> 
-> 
 
 ***
 

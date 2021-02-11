@@ -27,10 +27,8 @@ sap.ui.define([
 
 The string in quotes specifies the controller name. The controller file's name should be named as the string in the quotes, `Address.controller.js`.
 
-> Note:
+> Note:  
 > The suffix `.controller.js` is mandatory for controllers.
-> 
-> 
 
 ***
 
@@ -51,12 +49,10 @@ OpenUI5 provides the following lifecycle hooks:
 -   `onBeforeRendering()`: Called every time the view is rendered, before the renderer is called and the HTML is placed in the DOM tree.
 
 
-> Note:
+> Note:  
 > For controllers without a view, no lifecycle hooks are called.
-> 
-> 
 
-> Note:
+> Example:  
 > ``` js
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
@@ -69,8 +65,6 @@ OpenUI5 provides the following lifecycle hooks:
 >     });
 > });
 > ```
-> 
-> 
 
 ***
 
@@ -80,7 +74,7 @@ OpenUI5 provides the following lifecycle hooks:
 
 In addition to lifecycle hooks, a controller can define additional methods that serve as event handlers or additional functionality offered by the controller.
 
-> Note:
+> Example:  
 > ``` js
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
@@ -93,8 +87,6 @@ In addition to lifecycle hooks, a controller can define additional methods that 
 >     });
 > });
 > ```
-> 
-> 
 
 ***
 
@@ -108,14 +100,12 @@ When you use the new `methods` section in the controller metadata, only function
 
 Only public methods and methods that are not flagged as final could be overridden by a controller extension.
 
-> Note:
+> Note:  
 > If you don't use the new `methods` definition for controllers, you could override the `onInit`, `onExit`, `onAfterRendering` and `onBeforeRendering` methods of the controller even if they are private by default.
-> 
-> 
 
 The following sample code shows how to define an extension to an existing controller.
 
-> Note:
+> Example:  
 > Sample controller extension:
 > 
 > ``` js
@@ -154,8 +144,6 @@ The following sample code shows how to define an extension to an existing contro
 > });
 > 
 > ```
-> 
-> 
 
 ***
 
@@ -174,12 +162,10 @@ All public methods need to stay compatible:
 -   Use the `@since` version to tell the consumer on which version this method was introduced.
 
 
-> Note:
+> Note:  
 > Within the methods of a controller extension, the reserved base member allows access to the public functions of the extended controller.
 > 
 > Functionality can be called by using `this.base.basePublicMethod()`.
-> 
-> 
 
 ***
 

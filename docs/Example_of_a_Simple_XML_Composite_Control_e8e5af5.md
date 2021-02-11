@@ -12,10 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 This section shows you an example of a simple XML composite control.
 
-> Note:
+> Note:  
 > The code samples in this section reflect examples of possible use cases and might not always be suitable for your purposes. Therefore, we recommend that you do not copy and use them directly.
-> 
-> 
 
 Here is an example of a simple XML composite control, with the following JS part:
 

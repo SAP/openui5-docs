@@ -123,10 +123,8 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 
 The binding of the value attribute is a simple binding example that contains only a binding pattern. We can also combine texts and binding pattern to a more complex binding result as seen in the description attribute. To be able to use the so-called complex binding syntax we have to enable it globally by setting the bootstrap parameter `data-sap-ui-compatVersion` to `edge`. If this setting is omitted, then only standard binding syntax is allowed, meaning "Hello `{/recipient/name}`" would not work anymore while "`{/recipient/name}`" would work just fine.
 
-> Note:
+> Note:  
 > You can either use `data-sap-ui-compatVersion="edge"` or `data-sap-ui-bindingSyntax="complex"` in the script. By setting the "edge" compatibility mode, the complex binding syntax is automatically enabled. The `edge` mode automatically enables compatibility features that otherwise would have to be enabled manually. For more information, see [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md).
-> 
-> 
 
 ***
 

@@ -42,7 +42,7 @@ With this release OpenUI5 is upgraded from version 1.72 to 1.73.
      -   `sap.ui.model.Binding#getContext`
      -   `sap.ui.model.Binding#getModel`
 
- > Note:
+ > Restriction:  
  > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
  For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).</td>
@@ -70,7 +70,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 			<td>**`sap.m.ComboBox`, `sap.m.MultiComboBox`**We have updated the behavior of the `showItems` method. When the control's picker is opened, the dropdown arrow is not in pressed state, as it was previously. Now, pressing the dropdown arrow for the first time opens the control's picker with all items, and with the second press the picker is closed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBoxBase).</td>
 			<td>**`sap.m.Dialog`**We have enabled responsive padding support. Application developers can now configure `sap.m.Dialog` and enable its responsive padding in the SAP Fiori 3 themes. For more information, see [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md).</td>
 			<td>**`sap.m.Input`**A `change` event is now fired when the browser autofill fills an input.
- > Note:
+ > Note:  
  > If `showValueHelp` or `showSuggestion` are set to `true`, the native browser autofill will not fire a `change` event.
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input).
@@ -93,7 +93,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 		<tr>
 			<td>**`sap.m.NumericContent`**A new `adaptiveFontSize` property is now introduced to meet different country/locale requirements according to the Unicode Common Locale Data Repository \(CLDR\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NumericContent) and [CLDR](http://cldr.unicode.org/).</td>
 			<td>**`sap.m.PlanningCalendar`**We have added a new `headerId` parameter to the `rowHeaderClick` event, which enables developers to directly access row header by ID.
- > Note:
+ > Note:  
  > Do not use this feature for `PlanningCalendar`’s `rowHeader` modification.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar).</td>

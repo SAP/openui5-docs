@@ -69,20 +69,16 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
 -   Binding parameter `$$aggregation` to display aggregated data.
 
-    > Note:
+    > Note:  
     > This feature is still a work in progress. So far it supports displaying a flat list of aggregated data or grouping by one groupable property without being able to expand.
-    > 
-    > 
 
 -   The refresh of a single row in an absolute list binding can now also take filters into account .
 
 -   When executing a deferred bound operation, the result of the promise returned by `v4.ODataContextBinding#execute` is the context representing the data of the bound operation response if certain conditions are fulfilled. For more information check the API for `[`ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute)`.
 
 
-> Note:
+> Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
-> 
-> 
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
@@ -117,10 +113,8 @@ Configuration for dragging has been separated from the one for dropping. This al
 
 Drag and drop has been enabled for **all** controls \(with the new `dragDropConfig` aggregation\) in `sap.ui.core.Element`.
 
-> Note:
+> Restriction:  
 > This function is not intended for production use except for the controls for which drag and drop has already been enabled in previous versions \(for example, for tables and lists\).
-> 
-> 
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations) \(`dragDropConfig` aggregation\). 
 
@@ -132,10 +126,8 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   `sap.f.DynamicPageHeader`: The expand/collapse arrow and the pin/unpin buttons now have a new visual design. They are centered at the bottom header border next to each other. The interaction behavior is improved and you can now collapse a pinned header with a title tap or click or by choosing the expand/collapse arrow. This means that the pinned state now prevents the header from collapsing only when the user is scrolling the page.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.DynamicPageFreeStyle/preview).
 
-> Note:
+> Note:  
 > The above functionality and visual appearance is also maintained when using the dynamic header of the `sap.uxap.ObjectPage` control.
-> 
-> 
 
 -   `sap.m.DateTimePicker`: Two new properties are added to the control - `minutesStep` and `secondsStep`. They allow configuring the value step for the minutes and seconds sliders. For example, if you need the values for the minutes inside the slider to be multiples of 5, you can use the option - `minutesStep:5`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DateTimePicker) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DateTimePicker/preview). 
 
@@ -165,10 +157,8 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   `sap.m.SelectDialog`: With the new `growing` property, you can control the progressive loading of bound items. By default, it is set to `true` which means that features like the number of selected items in the info bar and search \(if present\) will work only for the currently loaded items. To make sure that all items in the table are loaded at once, and the above features work properly, you should set the growing property to `false`.
 
-> Note:
+> Note:  
 > The growing functionality cannot be used together with two-way binding.
-> 
-> 
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog/controlProperties).
 
@@ -184,10 +174,8 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   The new `sticky` property enables the column headers, infobar, and toolbar to remain in a fixed position at the top of the page during vertical scrolling.
 
-    > Note:
+    > Note:  
     > The API has changed slightly compared to the experimental API provided in version 1.54.
-    > 
-    > 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getSticky) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
 
@@ -195,10 +183,8 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 -   `sap.m.TableSelectDialog`:
     -   A new property `growing` is added to the control. It determines the progressive loading. When set to `true`, the features *Selected Count* in `Info bar`, *Search*, and *Select/Deselect All*, if present, will work only for the currently loaded items. To ensure that all items in the table are loaded and these features work as expected, you need to set the property to `false`.
 
-> Note:
+> Note:  
 > The growing functionality cannot be used together with two-way binding.
-> 
-> 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialogGrowing/preview).
 

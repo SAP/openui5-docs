@@ -26,13 +26,12 @@ OpenUI5 provides the following predefined models. For an overview of the binding
 
 -   **OData model**: Enables binding of controls to data from OData services. The OData model supports two-way, one-way and one-time binding modes. However, two-way binding is currently only supported for properties, and not for aggregations.
 
-    > Note:
+    > Note:  
     > The OData model currently supports the following OData versions:
     > 
     > -   OData V2
     > 
     > -   OData V4 \(limited feature scope\)
-    > 
 
 -   **JSON model**: Can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format. The JSON model is a client-side model and, therefore, intended for small data sets, which are completely available on the client. The JSON model supports two-way \(default\), one-way and one-time binding modes.
 

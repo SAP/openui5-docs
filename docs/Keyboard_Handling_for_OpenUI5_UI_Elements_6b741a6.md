@@ -39,10 +39,7 @@ Main Keyboard Combinations<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u
 		<tr>
 			<td>*Space* </td>
 			<td>Triggers an action \(reversible\)</td>
-			<td>Pressing and releasing the key triggers the action that is associated with a UI element \(for example, open a link or toggle a button\).
-
- > Note:
- > If you press and hold the key, you can cancel the trigger action by pressing *Shift*.
+			<td>Pressing and releasing the key triggers the action that is associated with a UI element \(for example, open a link or toggle a button\). > Tip:   > If you press and hold the key, you can cancel the trigger action by pressing *Shift*.
 			</td>
 		</tr>
 		<tr>
@@ -58,10 +55,7 @@ Main Keyboard Combinations<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u
 		<tr>
 			<td>*Home* / *End*</td>
 			<td>Navigates between elements</td>
-			<td>You can move the selection to the first/last element within a set of elements.
-
- > Note:
- > When using UI elements like sliders and rating indicators, pressing these keys will set the selected value to the maximum/minimum respectively.
+			<td>You can move the selection to the first/last element within a set of elements. > Tip:   > When using UI elements like sliders and rating indicators, pressing these keys will set the selected value to the maximum/minimum respectively.
 			</td>
 		</tr>
 		<tr>
@@ -140,7 +134,7 @@ Additional Keyboard Combinations for Specific UI elements<a name="loio6b741a6133
 			<td>*F7*</td>
 			<td>Exits edit mode</td>
 			<td> When you are editing an input field in a table or a list, pressing this key will stop the editing and move the focus to the parent UI element.
- > Note:
+ > Note:  
  > Pressing *F7* again will move focus back to the editable element.
 			</td>
 		</tr>

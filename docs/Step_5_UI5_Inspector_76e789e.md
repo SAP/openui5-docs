@@ -23,10 +23,8 @@ With UI Inspector, you can find answers to the following questions, for example:
 -   Which data is bound to a specific control and how \(model and path\)?
 
 
-> Note:
+> Note:  
 > UI5 Inspector is only available for the Google Chrome browser.
-> 
-> 
 
 ***
 

@@ -38,7 +38,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   If you want full control of the content you can also use `sap.m.Dialog` control and set the type to `sap.m.DialogType.Message`.
 -   As `MessageBox` is a static class, a `sap.ui.require("sap.m.MessageBox");` statement must be explicitly executed before the class can be used.
 
-> Note:
+> Example:  
 > ``` js
 > 	// load MessageBox asynchronously
 > 	sap.ui.require(['sap/m/MessageBox'], function(MessageBox) {
@@ -54,8 +54,6 @@ For showing messages to the user that are related to the currrent page, you have
 > 		);
 > 	});
 > ```
-> 
-> 
 
 ***
 
@@ -66,7 +64,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   Use this pattern if the message is less important and the user should not be blocked in his work.
 -   You can open a message toast easily with the `sap.m.MessageToast` API.
 
-> Note:
+> Example:  
 > ``` js
 > 	// add MessageToast as import
 > 	sap.ui.define([..., 'sap/m/MessageTost', ...], function(..., MessageToast, ...) {
@@ -78,8 +76,6 @@ For showing messages to the user that are related to the currrent page, you have
 > 
 > 	});
 > ```
-> 
-> 
 
 ***
 
@@ -87,7 +83,7 @@ For showing messages to the user that are related to the currrent page, you have
 
 `MessageStrip` enables the embedding of short application-related messages in the application. There are four types of messages and each is color-coded and has an icon corresponding to its type: `Information`, `Success`, `Warning` and `Error`.
 
-> Note:
+> Example:  
 > ```
 > 	// add MessageStrip and MessageType as imports
 > 	sap.ui.define([..., 'sap/m/MessageStrip', 'sap/ui/core/library', ...], function(..., MessageToast, coreLibrary, ...) {
@@ -106,8 +102,6 @@ For showing messages to the user that are related to the currrent page, you have
 > 	...
 > 	});
 > ```
-> 
-> 
 
 The `MessageStrip` is useful when you want to display short notices, for example of finished background tasks, that do not require further user interaction.
 

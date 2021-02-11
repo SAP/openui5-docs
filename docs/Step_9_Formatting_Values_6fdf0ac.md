@@ -57,10 +57,8 @@ In our custom formatter, we define the first and last name that are currently in
 
 In the `formatMail` function, we use the **sap.m.URLHelper.normalizeEmail** function that expects an e-mail address, a mail subject and a text body. When a user chooses the link, the default email client will open with these parameters.For more information, see [API Reference: `sap.m.URLHelper.normalizeEmail`](https://openui5.hana.ondemand.com/#/api/sap.m.URLHelper/methods/normalizeEmail). The `mailSubject` resource bundle text will contain a placeholder for the first name of the recipient \(see below\). Therefore, we provide the name with `[sFirstName]`.
 
-> Note:
+> Note:  
 > For a detailed description of the e-mail link format, see [https://developer.mozilla.org/de/docs/Web/Guide/HTML/Email\_links](https://developer.mozilla.org/de/docs/Web/Guide/HTML/Email_links).
-> 
-> 
 
 ***
 
@@ -115,10 +113,8 @@ For more complex bindings we cannot use the simple binding syntax with the curly
     A reference to the function that receives the parameters listed in the `parts` array. Whatever value is returned by the formatter function becomes the value set for this property. The dot \(`** **formatMail`\) at the beginning of the formatter tellsOpenUI5 to look for a `formatMail` function on the controller instance of the view. If you do not use the dot, the function will be resolved by looking into the global namespace.
 
 
-> Note:
+> Note:  
 > When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use data types \(which will be explained in the following steps\).
-> 
-> 
 
 ***
 

@@ -69,10 +69,8 @@ We call that action by first creating a deferred operation binding on the model.
 
 The execution is asynchronous, therefore the execute method returns a `Promise`. We attach simple success and error handlers to that `Promise` by calling its `then` method.
 
-> Note:
+> Note:  
 > Many of the methods in the OData V4 API of OpenUI5 return a `Promise` to manage asynchronous processing
-> 
-> 
 
 ***
 

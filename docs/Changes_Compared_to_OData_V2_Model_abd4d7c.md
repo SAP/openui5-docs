@@ -59,10 +59,7 @@ These differences will therefore remain even after all features have been implem
 		</tr>
 		<tr>
 			<td> [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is not supported for OData V4.</td>
-			<td>Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html). You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper.html).
-
- > Note:
- > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this.
+			<td>Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html). You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper.html). > Example:   > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this.
 			</td>
 		</tr>
 		<tr>
@@ -70,7 +67,7 @@ These differences will therefore remain even after all features have been implem
 			<td>For more information, see [Type Determination](Type_Determination_53cdd55.md).
 
  > Note:
- > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path: 'DeliveryDate', formatter: '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType: 'any'` as follows:
+   > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path: 'DeliveryDate', formatter: '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType: 'any'` as follows:
  > ``` xml
  > <Icon 
  > 	src="sap-icon://message-warning" 
@@ -82,7 +79,7 @@ These differences will therefore remain even after all features have been implem
  > ```
  > The above also applies to [Expression Bindings](Expression_Binding_daf6852.md). In this case, there is a convenience notation `%{binding}`, which is a shortcut for `${path: 'binding', targetType: 'any'}`.
 
- > Note:
+ > Note:  
  > A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
  > ``` xml
  > <SimpleForm binding="{/BusinessPartnerList('42')}">

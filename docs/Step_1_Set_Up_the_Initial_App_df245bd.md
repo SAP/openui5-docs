@@ -40,10 +40,8 @@ Folder structure with downloaded files<a name="loiodf245bd449a7470c8c2a0926ca8d7
 
  ![](loiocf75e004d482434d90e2c108a224523e_HiRes.png "Folder structure with downloaded files") 
 
-> Note:
+> Note:  
 > The content of the `localService` folders will not be changed in this tutorial. The `i18n` folder will always contain the `i18n.properties` file only. Therefore, we will show both subfolders collapsed in the following steps.
-> 
-> 
 
 ***
 

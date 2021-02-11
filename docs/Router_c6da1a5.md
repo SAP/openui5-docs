@@ -25,40 +25,42 @@ The `sap.f.routing.Router` has the following main differences to the `sap.m.rout
 -   The `sap.f.routing.Router` view loading is exclusively asynchronous.
 
 
-**A sample route of a `sap.f.routing.Router`-based app:**
-```
-{
-   "pattern": "itemInfo",
-   "name": "itemInfo",
-   "target": [
-      "master",
-      "detail",
-      "detailDetail"
-   ],
-   "layout": "ThreeColumnsMidExpanded"
-}
-```
+> Sample Code:  
+> A sample route of a `sap.f.routing.Router`-based app:
+> 
+> ```
+> {
+>    "pattern": "itemInfo",
+>    "name": "itemInfo",
+>    "target": [
+>       "master",
+>       "detail",
+>       "detailDetail"
+>    ],
+>    "layout": "ThreeColumnsMidExpanded"
+> }
+> ```
 
-
-**A sample of its targets definition:**
-```
-"targets": {
-   "master": {
-      "viewName": "Master",
-      "controlAggregation": "beginColumnPages"
-   },
-   "detail": {
-      "viewName": "Detail",
-      "controlAggregation": "midColumnPages"
-   },
-   "detailDetail": {
-      "viewName": "DetailDetail",
-      "controlAggregation": "endColumnPages"
-   }
-}
-
-```
-
+> Sample Code:  
+> A sample of its targets definition:
+> 
+> ```
+> "targets": {
+>    "master": {
+>       "viewName": "Master",
+>       "controlAggregation": "beginColumnPages"
+>    },
+>    "detail": {
+>       "viewName": "Detail",
+>       "controlAggregation": "midColumnPages"
+>    },
+>    "detailDetail": {
+>       "viewName": "DetailDetail",
+>       "controlAggregation": "endColumnPages"
+>    }
+> }
+> 
+> ```
 
 If the route is matched, the router will first apply the `layout` property to the `sap.f.FlexibleColumnLayout` root control, and will then start loading the views asynchronously in its aggregations \(and will navigate to each of them in the respective column\).
 

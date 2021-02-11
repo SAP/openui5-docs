@@ -18,15 +18,12 @@ The `sap.ui.codeeditor.CodeEditor` offers functionality to display and edit sour
 
 The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that exposes a subset of API and functionality provided by the third-party ACE \(Ajax.org Cloud9 Editor\) implementation. You can find more information about ACE on the website [https://ace.c9.io/](https://ace.c9.io/).
 
-> Note:
+> Restriction:  
 > -   If you use API calls to the native API of ACE, we cannot guarantee backwards compatibility after an upgrade to higher ACE library versions.
 > 
 > -   Accessibility features like high-contrast themes and keyboard handling are not fully available as they are for the rest of the OpenUI5 controls.
 > 
 > -   `CodeEditor` doesn't work within `IconTabBar` on Internet Explorer. However, there is a way to achieve the same functionality. For more information, see the [Sample](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.codeeditor.CodeEditor/samples).
-> 
-> 
-> 
 
 ***
 
@@ -59,58 +56,57 @@ The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocomple
 
 Here is an example of custom autocompletion:
 
-``` js
-codeEditor.addCustomCompleter({
-      getCompletions: function(callback, context) {
-          // callback is provided to us by ACE so we can execute it as shown
-          // below in order to display suggestions to the user
-          // ideally, the array argument, provided to the following method call
-          // will be dynamically generated based on the content of the context
-          // object
-          // let's assume the context contains an sPrefix equal to 'read', which
-          // means the cursor in ACE is at the end of a 'read' word
-          // by executing the following call, we can show a list of suggestions
-          // such as: readFile, readStream, readResponse 
-          callback(null, [{
-            name: "foo",
-            value: "foo",
-            // name is not displayed on the screen
-            name: "readFile",
-            // value is displayed on the screen
-            value: "readFile()",
-            // score determines which suggestion goes first
-            score: "1",
-            meta: "rhyme"
-              // meta is short info displayed on the right of value						meta: "function"
-          }, {
-            name: "bar",
-            value: "bar",
-            score: "1",
-            meta: "rhyme"
-              // name is not displayed on the screen
-            name: "readStream",
-            // value is displayed on the screen
-            value: "readStream(input)",
-            // score determines which suggestion goes first
-            score: "3",
-            // meta is short info displayed on the right of value
-            meta: "params: input"
-          }, {
-            name: "baz",
-            value: "baz",
-            score: "1",
-            meta: "rhyme"
-              // name is not displayed on the screen
-            name: "readStream",
-            // value is displayed on the screen
-            value: "readStream(input, encoding)",
-            // score determines which suggestion goes first
-            score: "2",
-            // meta is short info displayed on the right of value
-            meta: "params: input, encoding"
-          }])
-
-```
-
-			
+> Sample Code:  
+> ``` js
+> codeEditor.addCustomCompleter({
+>       getCompletions: function(callback, context) {
+>           // callback is provided to us by ACE so we can execute it as shown
+>           // below in order to display suggestions to the user
+>           // ideally, the array argument, provided to the following method call
+>           // will be dynamically generated based on the content of the context
+>           // object
+>           // let's assume the context contains an sPrefix equal to 'read', which
+>           // means the cursor in ACE is at the end of a 'read' word
+>           // by executing the following call, we can show a list of suggestions
+>           // such as: readFile, readStream, readResponse 
+>           callback(null, [{
+>             name: "foo",
+>             value: "foo",
+>             // name is not displayed on the screen
+>             name: "readFile",
+>             // value is displayed on the screen
+>             value: "readFile()",
+>             // score determines which suggestion goes first
+>             score: "1",
+>             meta: "rhyme"
+>               // meta is short info displayed on the right of value						meta: "function"
+>           }, {
+>             name: "bar",
+>             value: "bar",
+>             score: "1",
+>             meta: "rhyme"
+>               // name is not displayed on the screen
+>             name: "readStream",
+>             // value is displayed on the screen
+>             value: "readStream(input)",
+>             // score determines which suggestion goes first
+>             score: "3",
+>             // meta is short info displayed on the right of value
+>             meta: "params: input"
+>           }, {
+>             name: "baz",
+>             value: "baz",
+>             score: "1",
+>             meta: "rhyme"
+>               // name is not displayed on the screen
+>             name: "readStream",
+>             // value is displayed on the screen
+>             value: "readStream(input, encoding)",
+>             // score determines which suggestion goes first
+>             score: "2",
+>             // meta is short info displayed on the right of value
+>             meta: "params: input, encoding"
+>           }])
+> 
+> ```
 
