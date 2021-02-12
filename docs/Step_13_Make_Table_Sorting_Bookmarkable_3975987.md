@@ -57,10 +57,10 @@ sap.ui.define([
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
-			var oQueryParameter = this._oRouterArgs["?query"];
+			*HIGHLIGHT START*var oQueryParameter = this._oRouterArgs["?query"];*HIGHLIGHT END*
 
 			// search/filter via URL hash
-			this._applySearchFilter(oQueryParameter.search);
+			*HIGHLIGHT START*this._applySearchFilter(oQueryParameter.search);*HIGHLIGHT END*
 
 			*HIGHLIGHT START*// sorting via URL hash
 			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);*HIGHLIGHT END*
@@ -68,7 +68,7 @@ sap.ui.define([
 		},
 		...
 		_initViewSettingsDialog: function () {
-			var oRouter = this.getRouter();
+			*HIGHLIGHT START*var oRouter = this.getRouter();*HIGHLIGHT END*
 			this._oVSD = new sap.m.ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {
 					var oSortItem = oEvent.getParameter("sortItem");
