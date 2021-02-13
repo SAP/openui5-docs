@@ -85,7 +85,7 @@ OpenUI5 is currently not using WEBGL.
 
 **WebSockets**
 
-While WebSockets offer great new possibilities for the client/server communication of web applications, there have been many security issues rising while the first implementations were done by the browser vendors. Standardization of WebSockets has reached a stable state with RFC 6455 and is now implemented beginning with Chrome 16, Firefox 11 and Internet Explorer 10. Even if the browser implementations themselves prove to be secure, using WebSockets may require additional security measures on the client.
+While WebSockets offer great new possibilities for the client/server communication of web applications, there have been many security issues rising while the first implementations were done by the browser vendors. Standardization of WebSockets has reached a stable state with RFC 6455 and is now implemented as of, for example, Chrome 16 and Firefox 11. Even if the browser implementations themselves prove to be secure, using WebSockets may require additional security measures on the client.
 
 OpenUI5 is currently not using WebSockets.
 

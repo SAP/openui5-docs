@@ -66,12 +66,10 @@ You can view and download all files at [OData V4 - Step 3](https://openui5.hana.
 		
 		"models": {
 			...
-			}
 		}
 	},
-	"sap.platform.hcp": {
-		...
-	}
+	...
+}
 
 ```
 
