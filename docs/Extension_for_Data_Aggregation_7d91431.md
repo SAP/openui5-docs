@@ -46,14 +46,14 @@ Two scenarios are supported:
     >                }
     >             },
     >             group : {
-    >                Country : {}
+    >                Country : {additionally : ['Texts/Country']}
     >             }
     >          },
     >          $filter : 'SalesAmount gt 1000000',
     >          $orderby : 'SalesAmount desc'
     >       }
     >    }">
-    >    <table:Column template="Country">
+    >    <table:Column template="Texts/Country">
     >       <Label text="Country"/>
     >    </table:Column>
     >    <table:Column hAlign="End" template="SalesAmount">
@@ -85,6 +85,10 @@ Two scenarios are supported:
     >                   unit : 'Currency'
     >                }
     >             },
+    >             group : {
+    >                 Country : {additionally : ['CountryText']},
+    >                 Region : {additionally : ['RegionText']}
+    >             },
     >             groupLevels : ['Country','Region','Segment']
     >          },
     >          $count : false,
@@ -92,10 +96,10 @@ Two scenarios are supported:
     >          filters : {path : \'Region\', operator : \'GE\', value1 : \'Mid\'}
     >       }
     >    }">
-    >    <table:Column template="Country">
+    >    <table:Column template="CountryText">
     >       <Label text="Country"/>
     >    </table:Column>
-    >    <table:Column template="Region">
+    >    <table:Column template="RegionText">
     >       <Label text="Region"/>
     >    </table:Column>
     >    <table:Column template="Segment">
@@ -126,4 +130,12 @@ Use the `grandTotalAtBottomOnly` or `subtotalsAtBottomOnly` property with values
 ### Filtering
 
 Filters are provided to the list binding as described in [Filtering](Filtering_5338bd1.md). The `Filter` objects are analyzed automatically to perform the filtering before the aggregation where possible using the `filter()` transformation. The remaining filters, including the provided `$filter` parameter of the binding, are applied after the aggregation either via the system query option `$filter` or within the system query option `$apply`, using again the `filter()` transformation.
+
+***
+
+<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_xb2_51x_q4b"/>
+
+### Additional Properties
+
+For each groupable property, you can define an optional list of strings that provides the paths to properties \(like texts or attributes\) related to this groupable property in a 1:1 relation. They are requested additionally via `groupby` and must not change the actual grouping; a `unit` for an aggregatable property must not be repeated there.
 

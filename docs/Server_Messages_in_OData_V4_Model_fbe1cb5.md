@@ -106,6 +106,44 @@ Error messages are always reported in the error response in JSON format as descr
 -   The error message and all messages in details are transition messages.
 
 
+A change set with multiple requests only has one error response. In this case, `target` alone is not sufficient to assign a message to a resource. The error must be assigned to one of the requests via the request's MIME header `Content-ID` first. The `Content-ID` has to be provided in the instance annotation `Org.OData.Core.V1.ContentID`.
+
+> Example:  
+> **Request**
+> 
+> ``` json
+> --changeset_id-1612779902438-25
+> Content-Type:application/http
+> Content-ID:0.0
+>  
+> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')?custom-option=value HTTP/1.1
+> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
+>  
+> {"Quantity":"0","QuantityUnit":"EA"}
+> --changeset_id-1612779902438-25
+> Content-Type:application/http
+> Content-ID:1.0
+>  
+> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000020')?custom-option=value HTTP/1.1
+> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
+>  
+> {"Quantity":"5","QuantityUnit":"EA"}
+> --changeset_id-1612779902438-25--
+> ```
+
+> Example:  
+> **Response**
+> 
+> ``` json
+> {
+>     "error": {
+>         "message": "Value must be greater than 0",
+>         "target": "Quantity",
+>         "@Org.OData.Core.V1.ContentID":"0.0"
+>     }
+> }
+> ```
+
 ***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_lnt_hym_2fb"/>
