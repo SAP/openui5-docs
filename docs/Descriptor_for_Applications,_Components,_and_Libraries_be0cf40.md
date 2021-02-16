@@ -12,7 +12,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The descriptor for applications, components, and libraries \(in short: app descriptor\) is inspired by the Web Application Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 
-The data is stored in JSON format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
+In general, the app descriptor describes the behavior of an app through attributes. It doesn't directly influence that behavior itself for the most part. When a section in the app descriptor does affect the behavior of an app, this is described in the [API Reference](https://openui5.hana.ondemand.com/#/api/). for the corresponding namespace.
+
+The data of the app descriptor is stored in JSON format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
 
 ***
 

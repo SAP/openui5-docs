@@ -14,6 +14,24 @@ This section lists some of the most important issues that should be avoided to i
 
 ***
 
+<a name="loio966d67c8cc5046419d1b35556cd9e447__loadingLargeAmountsOfData"/>
+
+### Loading Large Amounts of Data
+
+A critical factor for application performance is the loading of data from a server. The runtime of triggered requests depends on the number of records retrieved. Loading large amounts of data may also have a negative impact on memory consumption.
+
+To this end, lists and tables offer mechanisms to load only a limited amount of data while still displaying required data to the user. For example, the `sap.ui.table.Table` requests the records to be displayed to the user plus a `threshold`. A reasonable default value for the threshold is provided by the table. Make sure to use such paging mechanisms to create applications with good performance. For more information, see [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
+
+Whenever you use methods like [`sap.ui.model.odata.v4.ODataListBinding#requestContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/requestContexts), [`sap.ui.model.odata.v2.ODataModel#read`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel/methods/read), or [`sap.ui.model.json.JSONModel#loadData`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.json.JSONModel/methods/loadData), or create XHR requests in application code, **your application must not load large amounts of data.** This means in particular that **the following activities must not be performed on the client:**
+
+-   Aggregating large amounts of data of which only a small amount is displayed. Such aggregations are preferably performed directly in the database to avoid moving all the raw data over the network and onto different computers.
+-   Performing mass operations, such as mass changes. Such operations shall be performed by the server, e.g. by an [OData action](OData_Operations_b54f789.md), without the need to load all affected records onto the client.
+
+> Note:  
+> OpenUI5 does not set limits on the amount of data to be loaded by your application. However, some browsers may do, which would cause your application to fail if it loads large amounts of data.
+
+***
+
 <a name="loio966d67c8cc5046419d1b35556cd9e447__1"/>
 
 ### Don't use visibility for lazy instantiation

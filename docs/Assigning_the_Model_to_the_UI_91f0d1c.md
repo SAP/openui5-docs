@@ -28,26 +28,53 @@ When you set a model to a UI area or control, it will be propagated to all aggre
 
 Choose one of the following options:
 
--   You can define a global model that can be accessed by all controls from all UI areas by using the `setModel` method on the OpenUI5 core object. This is useful for simple form applications or demo applications.
+-   If you use a Component for your app, you should set the model in the `manifest.json`:
+
+    > Example:  
+    > **Setting a model in the manifest.json**
+    > 
+    > ``` json
+    > {
+    >   "_version": "1.12.0",
+    >   "sap.app": {
+    >     ...
+    >     "dataSources": {
+    >       "invoiceRemote": {
+    >         "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+    >         "type": "OData",
+    >         "settings": {
+    >           "odataVersion": "2.0"
+    >         }
+    >       }
+    >     }
+    >   },
+    >   ...
+    >   "sap.ui5": {
+    >     ...
+    >     "models": {
+    >       "i18n": {
+    >          ...
+    >       },
+    >       "invoice": {
+    >         "dataSource": "invoiceRemote"
+    >       }
+    >     }
+    >   }
+    > }
+    > ```
+
+-   You can define a specific model for a particular view by using the `setModel` method available on any control. When the model name `myModel` is omitted, the default model is set.
+
+    ``` js
+    this.getView().setModel(oModel, "myModel");
+    ```
+
+-   You can also define a specific model for sections within a UI area, for example, inside a panel or for a table control:
 
     ``` js
     
-    sap.ui.getCore().setModel(oModel);
+    var oTable = this.getView().byId("table");
+    oTable.setModel(oModel, "myModel");
     ```
 
--   You can also define a specific model for sections within a UI area, for example, inside a panel or for a table control. In this case, you can use the `setModel` method available on any control:
-
-    ``` js
-    
-    var oTable = sap.ui.getCore().byId("table");
-    oTable.setModel(oModel);
-    ```
-
-
-**Related information**  
-
-
-[Components](Components_958ead5.md)
-
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
 

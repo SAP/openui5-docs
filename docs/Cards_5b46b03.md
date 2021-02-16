@@ -88,7 +88,7 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 	</thead>
 	<tbody>
 		<tr>
-			<td>Adaptive card \(Experimental\)</td>
+			<td>Adaptive card</td>
 			<td>Used to visualize and reuse cards that are created using the Microsoft Adaptive Cards specification and manifest.</td>
 		</tr>
 		<tr>
