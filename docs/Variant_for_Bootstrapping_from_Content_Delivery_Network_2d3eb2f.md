@@ -74,5 +74,5 @@ The cache control is different for dynamic and static resources. If you refer to
 
 [Multi-Version Availability of SAPUI5](https://blogs.sap.com/2015/07/30/multi-version-availability-of-sapui5)
 
-[Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
+[Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
 

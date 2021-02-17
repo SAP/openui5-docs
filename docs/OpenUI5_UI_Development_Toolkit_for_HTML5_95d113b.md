@@ -45,5 +45,5 @@ And many more....
 > 
 > Check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, e.g. `https://openui5.hana.ondemand.com/1.38.8/`
 > 
-> For more information, see [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md).
+> For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 

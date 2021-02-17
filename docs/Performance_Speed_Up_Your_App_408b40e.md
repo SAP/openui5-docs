@@ -396,6 +396,38 @@ The performance limits are reached differently depending on the used browser, op
 
 ***
 
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_useSelectQuery"/>
+
+### Use a `$select` Query when Binding an Aggregation in the OData V2 Model
+
+With a `$select` query you enable your application to fetch only necessary properties of an entity from the collection.
+
+As an example, consider the EntityType "Customers", which is available from the public Northwind OData service at[https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json](https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json). It has several properties.
+
+If you have an `sap.m.List` that only needs to display the `CompanyName` from the collection, you could add the following to your XML view:
+
+``` xml
+...
+<List
+    id="myList"
+    ...
+    items="{
+        path: '/Customers',
+        parameters: {
+            select: 'CustomerID,CompanyName'
+        }
+    }">
+    ...
+```
+
+Note that all key properties, such as the `CustomerID`, should still be added, even though they're not directly relevant to the user.
+
+As a result, the response size of your application is reduced significantly. You also enable the back end to perform a more efficient database query.
+
+In the OData V4 model, `$select` and `$expand` values can be automatically defined. For more information, see [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+
+***
+
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_OptimizeCode"/>
 
 ### Further Code Optimization

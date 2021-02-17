@@ -53,7 +53,7 @@ When you run into problems with your app, you should check the OpenUI5 version t
     > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.38.8/`.
 
 
-For more information, see [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md).
+For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 
 ***
 

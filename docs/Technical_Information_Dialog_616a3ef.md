@@ -22,7 +22,7 @@ The dialog contains the following information:
 
 -   The version number of the currently loaded OpenUI5 distribution that represent the core libraries of the framework and its build timestamp
 
-    For more information, see [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md) and [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
+    For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md) and [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
 
 -   The **user agent** that is used for detecting the device's capabilities and device adaption
 

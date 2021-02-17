@@ -45,7 +45,7 @@
             -   [Keyboard Shortcuts for OpenUI5 Tools](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)
         -   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
         -   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
-        -   [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
+        -   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
         -   [Upgrading](Upgrading_9638e4f.md)
             -   [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md)
             -   [Upgrading from a Version Below 1.40](Upgrading_from_a_Version_Below_1.40_278a8e5.md)

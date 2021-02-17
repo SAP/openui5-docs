@@ -23,5 +23,5 @@ Before you start using OpenUI5 productively, please read the **important informa
 -   [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
 -   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
 -   [Upgrading](Upgrading_9638e4f.md)
--   [Versioning of OpenUI5](Versioning_of_OpenUI5_91f0214.md)
+-   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
 

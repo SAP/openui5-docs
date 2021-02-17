@@ -78,3 +78,10 @@ Choose one of the following options:
     ```
 
 
+**Related information**  
+
+
+[Components](Components_958ead5.md)
+
+[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+
