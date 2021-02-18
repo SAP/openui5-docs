@@ -379,23 +379,6 @@ To ensure fast loading times for **SAP Fiori applications started from the SAP F
 
 ***
 
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ListsTables"/>
-
-### Check Lists and Tables
-
-The performance limits are reached differently depending on the used browser, operating system and hardware. Therefore, it is important to be mindful about the amount of controls and data bindings. This applies especially to lists and their variants \(e.g. `sap.m.Table` or `sap.ui.table.Table`\):
-
--   If a table needs to display more than 100 rows, please use `sap.ui.table.Table` instead of `sap.m.Table` The reason for this is that `sap.m.Table` keeps every loaded row in memory, even if not visible after scrolling. To choose the right table variant for your requirements, check out the documentation about [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
--   If the table rows contain multiple controls and/or custom-data fields, please check if they are required, or if another control can replace them. For example, another list like a ComboBox inside of a table cell may create many controls for every row, which can be very expensive.
--   Check tables for hidden columns and load only the visible ones, if possible.
-
-**Additional Information:**
-
--    [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
-
-
-***
-
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_useSelectQuery"/>
 
 ### Use a `$select` Query when Binding an Aggregation in the OData V2 Model
@@ -425,6 +408,23 @@ Note that all key properties, such as the `CustomerID`, should still be added, e
 As a result, the response size of your application is reduced significantly. You also enable the back end to perform a more efficient database query.
 
 In the OData V4 model, `$select` and `$expand` values can be automatically defined. For more information, see [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+
+***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_ListsTables"/>
+
+### Check Lists and Tables
+
+The performance limits are reached differently depending on the used browser, operating system and hardware. Therefore, it is important to be mindful about the amount of controls and data bindings. This applies especially to lists and their variants \(e.g. `sap.m.Table` or `sap.ui.table.Table`\):
+
+-   If a table needs to display more than 100 rows, please use `sap.ui.table.Table` instead of `sap.m.Table` The reason for this is that `sap.m.Table` keeps every loaded row in memory, even if not visible after scrolling. To choose the right table variant for your requirements, check out the documentation about [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
+-   If the table rows contain multiple controls and/or custom-data fields, please check if they are required, or if another control can replace them. For example, another list like a ComboBox inside of a table cell may create many controls for every row, which can be very expensive.
+-   Check tables for hidden columns and load only the visible ones, if possible.
+
+**Additional Information:**
+
+-    [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
+
 
 ***
 
