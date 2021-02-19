@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
 
-To open *Diagnostics*, use the following shortcut: *CTRLSHIFTALTS* in the app.
+To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * CTRL SHIFT Alt */* Option S * in the app.
 
  ![](loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
 
