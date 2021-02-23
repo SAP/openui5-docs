@@ -385,7 +385,7 @@ To ensure fast loading times for **SAP Fiori applications started from the SAP F
 
 With a `$select` query you enable your application to fetch only necessary properties of an entity from the collection.
 
-As an example, consider the EntityType "Customers", which is available from the public Northwind OData service at[https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json](https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json). It has several properties.
+As an example, consider the EntityType "Customers", which is available from the public Northwind OData service at [https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json](https://services.odata.org/V2/Northwind/Northwind.svc/Customers?$format=json). It has several properties.
 
 If you have an `sap.m.List` that only needs to display the `CompanyName` from the collection, you could add the following to your XML view:
 
