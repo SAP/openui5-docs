@@ -60,7 +60,7 @@ OpenUI5 supports the following compatibility version flags:
 |`data-sap-ui-compatVersion-sapMeProgessIndicator`|--|
 |`data-sap-ui-compatVersion-sapMGrowingList`|--|
 |`data-sap-ui-compatVersion-sapMListAsTable`|--|
-|`data-sap-ui-compatVersion-sapMDialogWithPadding`|By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, add the CSS style class `sapUiPopupWithPadding` to `Dialog` by calling the `addStyleClass` function. Default value: 1.14|
+|`data-sap-ui-compatVersion-sapMDialogWithPadding`|By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md). Default value: 1.14|
 |`data-sap-ui-bindingSyntax`|This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as XML view or HTML view. For versions lower than 1.28, the default value is `default` which only has very limited features. As of version 1.28, the default is `complex`.|
 
 **Related information**  
