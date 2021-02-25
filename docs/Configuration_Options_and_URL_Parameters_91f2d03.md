@@ -876,7 +876,7 @@ The options listed in the table below are 'experimental'. They may be removed in
 		</tr>
 		<tr>
 			<td>`xx-cssVariables`</td>
-			<td>Type: `string` Default value: `false` Enable usage of CSS variables. This feature is not available in combination with Internet Explorer. Options: `false </td>
+			<td>Type: `string` Default value: `false` Enable usage of CSS variables. Options: `false </td>
 			<td> true </td>
 			<td> additional`.</td>
 			<td>
