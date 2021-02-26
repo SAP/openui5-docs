@@ -90,10 +90,6 @@ You can check this by inspecting the HTML with your browser's developer tools.
 On all OpenUI5 application pages, the HTML root tag of the DOM gets the additional attribute `data-sap-ui-browser` where the value is the type and the current browser version. When browser-specific CSS needs to be written, this attribute can be used in CSS selectors.
 
 ```
-html[data-sap-ui-browser="ie11"] button {  /* this rule will only be applied if the current browser is Internet Explorer 11 */
-   margin-top: 0px;
-}
-
 html[data-sap-ui-browser*="sf"] button {  /* this rule will only be applied if the current browser is ANY version of Safari */
    padding-top: 0px;
 }

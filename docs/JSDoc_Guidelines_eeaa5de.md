@@ -263,4 +263,5 @@ Reference Types within API Reference <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5
 | `#method` |Refers to an instance method **within** a class| `#getHeader` |You can use this type of reference within an API that you are documenting, for example, within the `SmartTable` control documentation if you want to link to a method that belongs to the control itself.|
 | `#.method` |Refers to a static method **within** a class| | |
 | `#event:name` |Refers to an event **within** a class| | |
+| `#annotation:name` |Refers to an annotation **within** a class| | |
 

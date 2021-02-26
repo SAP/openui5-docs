@@ -22,7 +22,7 @@ Security on the client and server side is not sufficient if the data transport b
 
 Sending the HTTP protocol over a SSL secured connection is not only standardized, but also required for SAP applications.
 
-OpenUI5 fully supports the use of HTTPS, but there are some restrictions regarding the CDN version of OpenUI5 when HTTPS is used. It is recommended to enable or at least to test SSL connections in an early stage of application development, as usually switching to HTTPS causes some issues. First of all, when the application is started using HTTPS, the OpenUI5 library also has to be loaded from an HTTPS server. Second, Internet Explorer 8 and 9 have some additional restrictions regarding cross-origin requests with HTTPS, which are related to the security zone concept.
+OpenUI5 fully supports the use of HTTPS, but there are some restrictions regarding the CDN version of OpenUI5 when HTTPS is used. It is recommended to enable or at least to test SSL connections in an early stage of application development, as usually switching to HTTPS causes some issues. When the application is started using HTTPS, the OpenUI5 library also has to be loaded from an HTTPS server.
 
 ***
 

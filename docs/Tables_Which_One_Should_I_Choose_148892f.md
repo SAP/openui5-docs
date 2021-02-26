@@ -34,7 +34,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 |Row-based| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
 |Column-based| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 
-Explanation:
+**Legend**:
 
 -   ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif): Feature is supported for this table type
 

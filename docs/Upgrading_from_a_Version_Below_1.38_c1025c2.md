@@ -91,22 +91,6 @@ Instead of using `:visible`, that functionality now uses its own implementation 
 
 ***
 
-### Sizzle attribute selector \(\[name=value\]\)
-
-***
-
-#### Problem
-
-In Microsoft Internet Explorer, the attribute selector no longer works when the attribute value is unquoted and starts with a hash \(`#`\). This is the case when hash-name-references are searched for, like with the `usemap` attribute of the `IMG` element.
-
-***
-
-#### Solution
-
-Use quotes \(`""`\) for attribute values in those cases.
-
-***
-
 ### jQuery.isPlainObject
 
 ***

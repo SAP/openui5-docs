@@ -83,18 +83,30 @@ For simple data types, you can generate the following parameters in the construc
 -    `constraints`: Constraints are optional and define how an input value entered in the UI should look like. During parsing the value is validated against these constraints. For example, an `Integer` type has a constraint for `maximum` that is automatically validated when parsing the input values.
 
 
+``` xml
+<mvc:View 
+   xmlns:core="sap.ui.core" 
+   xmlns:mvc="sap.ui.core.mvc" 
+   core:require="{
+      Integer: 'sap/ui/model/type/Integer'
+   }">
+   ...
+  <Input value="{
+      path: '/number',
+      type: 'Integer',
+      *HIGHLIGHT START*formatOptions*HIGHLIGHT END*: {
+          minIntegerDigits: 3
+      },
+          *HIGHLIGHT START*constraints*HIGHLIGHT END*: {
+      maximum: 1000
+      }
+  }" />
+   ...
+</mvc:View>
 ```
-<Input value="{
-    path: '/number',
-    type: 'sap.ui.model.type.Integer',
-    *HIGHLIGHT START*formatOptions*HIGHLIGHT END*: {
-        minIntegerDigits: 3
-    },
-        *HIGHLIGHT START*constraints*HIGHLIGHT END*: {
-    maximum: 1000
-    }
-}" />
-```
+
+> Note:  
+> This sample uses `core:require` to ensure the type module is imported and to enable the use of the short type name `Integer` instead of the full name in the declaration of data binding. For more information, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
 
 For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type/overview). 
 
