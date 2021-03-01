@@ -22,7 +22,6 @@ For running QUnit tests, you need a QUnit TestSuite which configures the environ
     	<!DOCTYPE html>
     	<html>
     		<head>
-    			<meta http-equiv="X-UA-Compatible" content="IE=edge">
     			<meta charset="utf-8">
     			<base href="../../">
     			<title>TestSuite myapp</title>

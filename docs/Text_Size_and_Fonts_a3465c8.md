@@ -56,7 +56,6 @@ Or
 
 ```
 #elementId {
-   -ms-transform: scale(2,3); /* Internet Explorer 9 */
    -webkit-transform: scale(2,3); /* Safari */
    transform: scale(2,3);
 }

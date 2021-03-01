@@ -25,7 +25,6 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
     <!DOCTYPE html>
     <html>
     	<head>
-    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     		<meta charset="utf-8">
     		<title>SAPUI5 Walkthrough</title>
     		<script

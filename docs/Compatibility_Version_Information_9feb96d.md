@@ -55,7 +55,6 @@ OpenUI5 supports the following compatibility version flags:
 
 |Flag|Description|
 |----|-----------|
-|`data-sap-ui-compatVersion-flexBoxPolyfill`|The `flexBoxPolyfill` for Internet Explorer 9 was deprecated in 1.16 due to functional deficiencies. When the compatibility version is 1.16 or higher, the polyfill is not active at all. Otherwise, the buggy implementation behaves as before, so that it still works in existing applications. Default value: 1.14|
 |`data-sap-ui-compatVersion-sapMeTabContainer`|The `TabContainer` was deprecated in 1.15. When the compatibility version is 1.16 or higher, an error is logged to the console indicating that `sap.m.IconTabBar` should be used instead. Default value: 1.14|
 |`data-sap-ui-compatVersion-sapMeProgessIndicator`|--|
 |`data-sap-ui-compatVersion-sapMGrowingList`|--|

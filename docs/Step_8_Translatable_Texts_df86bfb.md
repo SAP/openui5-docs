@@ -140,5 +140,3 @@ In the XML view, we use data binding to connect the button text to the `showHell
 
 [API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
 
-[Samples: `sap.ui.model.resource.ResourceModel` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.model.resource.ResourceModel/samples)
-

@@ -106,7 +106,6 @@ Instance creation of controller and XML view:
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="charset=utf-8">
 	
 	<title>JSFragment used in XmlView</title>
