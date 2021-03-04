@@ -100,7 +100,7 @@ If a control you want to use in your app to visualize list entries supports exte
 
 Extended change detection is disabled by default. If your control is meant to have only a few children like a toolbar with buttons, you should not activate extended change detection because a copy of the previous state would then always be kept unnecessarily in the binding.
 
-With extended change detection the control uses specific `insert` and `remove` calls only for elements that need to be added or removed instead of recreating all elements of an aggregation or setting new binding contexts on all aggregated elements.
+If extended change detection is enabled, your control, for example an [`sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase), uses specific `insert` and `remove` calls only for elements that need to be added or removed instead of recreating all elements of an aggregation or setting new binding contexts on all aggregated elements.
 
 You activate extended change detection for your control by setting the `bUseExtendedChangeDetection` property either on the control prototype or a specific control instance. The `ManagedObject` class takes care of reading and applying the information about the differences to aggregations with the `enableExtendedChangeDetection` method. The method has the following parameters:
 

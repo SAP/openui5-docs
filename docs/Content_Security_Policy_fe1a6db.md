@@ -14,7 +14,7 @@ Content Security Policy \(CSP\) adds an additional layer of security that enable
 
 CSP restricts the sources from which the browser is allowed to load resources, such as scripts, fonts, and images:
 
--   CSP mitigates and reports XSS attacks; CSP compatible browsers only execute scripts loaded in source files that are received from whitelisted sources.
+-   CSP mitigates and reports XSS attacks; CSP compatible browsers only execute scripts loaded in source files that are received from allowed sources.
 
 -   CSP also mitigates packet sniffing attacks by specifying the protocols that are allowed to be used in the web server, for example, specifying that content must only be loaded from HTTPS.
 
