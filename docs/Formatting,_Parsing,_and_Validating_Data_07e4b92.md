@@ -36,6 +36,9 @@ If an error occurs during formatting or parsing, the following exception occurs:
 
 ***
 
+> Note:  
+> When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting,_Parsing,_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
+
 A simple formatter can be defined directly in the controller. For example, you can format name data with the first letter in upper case:
 
 ``` js
