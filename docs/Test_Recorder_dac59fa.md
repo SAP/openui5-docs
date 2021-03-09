@@ -103,7 +103,7 @@ The code snippet can be directly copied and pasted into your test code and is al
 
 ### Assertions
 
-As of version 1.88, we introduced the option to generate code snippets with assertions. Assertions verify that the selected property will have exactly the same value during the test, as it does at the moment of recording. If the value is falsy or boolean, a boolean check is generated instead of equality check.
+As of version 1.88, we introduced the option to generate code snippets with assertions. Assertions verify that the selected property will have exactly the same value during the test as it does at the moment of recording. If the value is falsy or boolean, a boolean check is generated instead of equality check.
 
 To generate a code snippet with an assertion, first select a control \(from the app or from the control tree\) and then select the *Assert value* icon located next to each property of the selected control.
 
