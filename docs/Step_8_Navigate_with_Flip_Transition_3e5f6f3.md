@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 8: Navigate with Flip Transition
 
-In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the "flip" transition but with a different direction. We will create a simple link on the *Employee* view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the *Back* button will navigate back to the *Employee* view with a reversed flip transition.
+In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the “flip” transition but with a different direction. We will create a simple link on the *Employee* view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the *Back* button will navigate back to the *Employee* view with a reversed flip transition.
 
 ***
 
@@ -18,20 +18,20 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
    
   
-*Employee Details* page with *Flip to Resume* link<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_r1j_pst_mr"/>
+<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_r1j_pst_mr"/>*Employee Details* page with *Flip to Resume* link
 
  ![](loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to Resume
 					link") 
 
    
   
-*Resume* page with multiple tabs<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_kpz_tqn_ns"/>
+<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_kpz_tqn_ns"/>*Resume* page with multiple tabs
 
  ![](loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs") 
 
    
   
-*Not Found* page for resume<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_lh1_5qn_ns"/>
+<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_lh1_5qn_ns"/>*Not Found* page for resume
 
  ![](loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume") 
 
@@ -43,7 +43,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-Folder structure for this step<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_p4m_5qn_ns"/>
+<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_p4m_5qn_ns"/>Folder structure for this step
 
  ![](loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step") 
 
@@ -318,7 +318,7 @@ Create a file `Resumee.controller.js` in the `webapp/controller/employee` folder
 Create a file `ResumeProjects.view.xml` in the `webapp/view/employee` folder. This view does not have a controller as we don’t need it. It just displays a `Text` control with the projects text of the selected employee. It illustrates that using nested views works just fine in combination with navigation and routing in OpenUI5.
 
 > Note:  
-> For more complex applications, the performance is significantly increased if parts of the UI are only loaded when the user is actively selecting it. In this example, the view is always loaded even though the user never decided to display the project information. In the next steps, we will extend the UI so that the content is loaded "lazy" by OpenUI5 only when the filter item is clicked. The back-end service will fetch the data only on request and the UI will only have to be updated with the selected data instead of loading all data.
+> For more complex applications, the performance is significantly increased if parts of the UI are only loaded when the user is actively selecting it. In this example, the view is always loaded even though the user never decided to display the project information. In the next steps, we will extend the UI so that the content is loaded “lazy” by OpenUI5 only when the filter item is clicked. The back-end service will fetch the data only on request and the UI will only have to be updated with the selected data instead of loading all data.
 
 ***
 
@@ -339,7 +339,7 @@ Add the new texts to the `i18n.properties` file.
 
 You can go to `webapp/index.html#/employees/3` and click on the *Flip to Resume* link to be redirected with a nice flip transition to the employee’s resume. The back navigation uses a reverse flip navigation to get back to the *Employee Details* page. You can also directly navigate to `webapp/index.html#/employees/3/resume` or `webapp/index.html#/employees/33/resume` to see what happens.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.NavContainer.html)

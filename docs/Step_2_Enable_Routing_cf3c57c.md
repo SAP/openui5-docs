@@ -18,7 +18,7 @@ In this step we will modify the app and introduce routing. Instead of having the
 
    
   
-Views are wired together using the router<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_r1j_pst_mr"/>
+<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_r1j_pst_mr"/>Views are wired together using the router
 
  ![](loioce8dce11d04c470e86f02cd2ba4c57b4_LowRes.png "Views are wired together using the router") 
 
@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-Folder structure for this step<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_chm_4jp_ls"/>
+<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_chm_4jp_ls"/>Folder structure for this step
 
  ![](loio93bd2dccd14a495eba521754a14d2c04_HiRes.png "Folder structure for this step") 
 
@@ -89,7 +89,7 @@ Folder structure for this step<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig
 
 ```
 
-Single-page applications based on OpenUI5 can use a so-called "router" to dispatch hash-based URLs to one or more views of the app. Therefore, the router needs to know how to address and show the views. In OpenUI5, we can simply add a `routing` section to our existing `sap.ui5` section in the descriptor file to configure the router. There are three properties that can be used to configure the routing of your application:
+Single-page applications based on OpenUI5 can use a so-called “router” to dispatch hash-based URLs to one or more views of the app. Therefore, the router needs to know how to address and show the views. In OpenUI5, we can simply add a `routing` section to our existing `sap.ui5` section in the descriptor file to configure the router. There are three properties that can be used to configure the routing of your application:
 
 -   `config`
 
@@ -214,7 +214,7 @@ Create a file `Home.controller.js` in the `webapp/controller` folder. The contro
 -   Initialize the router in the component
 
 
-**Related information**  
+**Related Information**  
 
 
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md)

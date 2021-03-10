@@ -83,7 +83,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
     > 
     > -   *During a clone operation, a template was found that neither was marked with 'templateShareable:true' nor 'templateShareable:false'.* 
 
-    > CAUTION:  
+    > Caution:  
     > To leave the parameter undefined is**very error-prone**, therefore we don't recommend this! Always set the parameter explicitly to `true` or `false`.
 
 

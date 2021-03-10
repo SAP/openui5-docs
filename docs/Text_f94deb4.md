@@ -28,14 +28,45 @@ You can influence the maximum number of visible lines by setting the `maxLines` 
 
 The Text control supports the rendering of new lines and the preservation of whitespace and tabs. Depending on whether you are using JavaScript or XML, or data binding, you need to consider specific aspects related to the definition of new lines and tabs.
 
-sap.m.Text: New lines and tabs definition in the different use cases<a name="loiof94deb45de184a3a87850b75d610d9c0__table_mdn_gnp_tdb"/>
+ <a name="loiof94deb45de184a3a87850b75d610d9c0__table_mdn_gnp_tdb"/>sap.m.Text: New lines and tabs definition in the different use cases
 
-|To visualize|JavaScript/Data binding defined string|XML View defined string|
-|------------|--------------------------------------|-----------------------|
-| **New line** | **\\n** | **&\#xA;** |
-| **\\n** For example, if you want to visualize `C:\NewFolder` | **\\\\n** | **\\n** |
-| **Tab** | **\\t** | **&\#x9;** |
-| **\\t** For example, if you want to visualize `C:\TestFolder` | **\\\\t** | **\\t** |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>To visualize</th>
+			<th>JavaScript/Data binding defined string</th>
+			<th>XML View defined string</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> **New line** </td>
+			<td> **\\n** </td>
+			<td> **&\#xA;** </td>
+		</tr>
+		<tr>
+			<td> **\\n**
+ For example, if you want to visualize `C:\NewFolder`
+			</td>
+			<td> **\\\\n** </td>
+			<td> **\\n** </td>
+		</tr>
+		<tr>
+			<td> **Tab** </td>
+			<td> **\\t** </td>
+			<td> **&\#x9;** </td>
+		</tr>
+		<tr>
+			<td> **\\t**
+ For example, if you want to visualize `C:\TestFolder`
+			</td>
+			<td> **\\\\t** </td>
+			<td> **\\t** </td>
+		</tr>
+	</tbody>
+</table>
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Text) and the [sap.m.Text - Render Whitespace Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextRenderWhitespace/preview). 
 

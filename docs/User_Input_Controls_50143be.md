@@ -14,7 +14,7 @@ OpenUI5 input controls are used to get and store user data. The most common use 
 
 ***
 
-Screen Reader Behavior in Input Controls<a name="loio50143be270b7433c8a45915d8ae57e69__table_mv5_wrs_xw"/>
+<a name="loio50143be270b7433c8a45915d8ae57e69__table_mv5_wrs_xw"/>Screen Reader Behavior in Input Controls
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -102,9 +102,9 @@ Simple Variant \(several buttons\):-   Labels for the filters
 		</tr>
 		<tr>
 			<td>Mask Input</td>
-			<td>Basic behavior is like `Input`. Additionally the screen reader should read:
-
+			<td> Basic behavior is like `Input`. Additionally the screen reader should read:
  -   Masked input characters/symbols
+
  -   Symbols that have already been entered
 			</td>
 		</tr>

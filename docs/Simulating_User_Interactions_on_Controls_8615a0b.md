@@ -260,7 +260,7 @@ sap.ui.require(["sap/ui/test/opaQUnit", "sap/ui/test/matchers/Properties"], func
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.test.actions`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions)

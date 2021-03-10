@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
 
-> CAUTION:  
+> Caution:  
 > As an app developer, **never** do the following:
 > 
 > -   Never manipulate HTML/CSS via JavaScript \(`domRef.className = "someCSSClass";`\) or directly via CSS, for example. Always follow our recommendations under [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md).
@@ -166,7 +166,7 @@ If you want to use the third-party open source libraries included in OpenUI5, no
 
 For a list of the third-party open source software used in OpenUI5, choose *More Information* → *About* and select the *Included Third-Party Software* link.
 
-**Related information**  
+**Related Information**  
 
 
 [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)

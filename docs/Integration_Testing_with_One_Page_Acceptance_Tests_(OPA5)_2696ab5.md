@@ -51,7 +51,7 @@ Note the following limitations of OPA:
 -   Remote test execution
 -   End-to-end tests are not recommended with OPA due to authentication issues and fragility of test data
 
-**Related information**  
+**Related Information**  
 
 
 [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)

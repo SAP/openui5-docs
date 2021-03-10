@@ -20,7 +20,7 @@ In the following sections, we list the main new features and enhancements to Ope
 
 The new Belize theme \(`sap_belize`\) has been introduced and replaces Blue Crystal \(`sap_bluecrystal`\) as the default theme. Blue Crystal is only supported until version 1.38. Note that Blue Crystal will remain supported for at least two more years in the 1.38 release branch, which is a long-term maintenance branch.
 
-> CAUTION:  
+> Caution:  
 > The Belize theme does not support deprecated libraries such as `sap.ui.commons`, or `sap.ui.ux3` \(see [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)\).
 > 
 > Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or higher. Furthermore, custom themes cannot be converted to Belize automatically, you will have to adapt them manually.

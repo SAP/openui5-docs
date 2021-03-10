@@ -18,20 +18,20 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
    
   
-New button *Show Employee Overview*<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_r1j_pst_mr"/>
+<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_r1j_pst_mr"/>New button *Show Employee Overview*
 
  ![](loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee
 					Overview") 
 
    
   
-*Employee Overview* with search field<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_jq5_kgv_ns"/>
+<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_jq5_kgv_ns"/>*Employee Overview* with search field
 
  ![](loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field") 
 
    
   
-Sort options for the *Employee Overview*<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_zlv_kgv_ns"/>
+<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_zlv_kgv_ns"/>Sort options for the *Employee Overview*
 
  ![](loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview") 
 
@@ -43,7 +43,7 @@ You can view and download all files in the Demo Kit at [Routing and Navigation -
 
    
   
-Folder Structure for this Step<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_pt1_lgv_ns"/>
+<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_pt1_lgv_ns"/>Folder Structure for this Step
 
  
 
@@ -482,7 +482,7 @@ Employees=Employees*HIGHLIGHT END*
 
 Add the new texts to the `properties` file.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.routing.TargetHandler`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.TargetHandler.html)

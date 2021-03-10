@@ -20,7 +20,7 @@ The example we used at the start of this tutorial was overly simplistic as we st
 
    
   
-Texts derived from the resource model \(No visual change to last step\)<a name="loio9790d9aa686e4f818f2ad99057adb7ee__fig_r1j_pst_mr"/>
+<a name="loio9790d9aa686e4f818f2ad99057adb7ee__fig_r1j_pst_mr"/>Texts derived from the resource model \(No visual change to last step\)
 
  ![](loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Texts derived from the resource model (No visual change to last step)") 
 
@@ -130,7 +130,7 @@ Modify the data binding for the panel header and the labels in `App.view.xml` to
 
 You could use multiple model instances by using different model names. The model name could be set as second parameter using the `setModel(oResourceModel,“i18n”)` method. The model is then propagated under this name to all aggregated child controls \(and their children, and so on…\). All these controls have access to this model under the name `i18n` as well as to the `JSONModel` \(default model, which has no name\).
 
-**Related information**  
+**Related Information**  
 
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)

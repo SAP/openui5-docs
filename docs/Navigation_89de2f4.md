@@ -16,7 +16,7 @@ With an empty hash in the URL, only the master view is shown initially. When the
 
    
   
-Navigation Flow of the Master-Detail App<a name="loio89de2f43b91d470daa8121a0b4ba35cc__fig_xyz_nkh_bt"/>
+<a name="loio89de2f43b91d470daa8121a0b4ba35cc__fig_xyz_nkh_bt"/>Navigation Flow of the Master-Detail App
 
  ![](loioec746bc8018543fda1fae5230367dfc5_LowRes.png "Navigation Flow of the Master-Detail App") 
 

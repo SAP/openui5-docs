@@ -18,7 +18,7 @@ In the examples used so far, we have used a read-only field to display the value
 
    
   
-Input fields can be enabled or disabled<a name="loioc72b922fdb59422496661000165d7ff1__fig_r1j_pst_mr"/>
+<a name="loioc72b922fdb59422496661000165d7ff1__fig_r1j_pst_mr"/>Input fields can be enabled or disabled
 
  ![](loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Input fields can be enabled or disabled") 
 
@@ -100,7 +100,7 @@ Two things are happening here:
 -   OpenUI5 automatically handles the transport of data both from the model to the controls, and back from the controls to the model. This is called two-way binding.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Data Binding](Data_Binding_68b9644.md)

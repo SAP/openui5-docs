@@ -16,7 +16,7 @@ The goal of these controls is to ensure consistency of the user interfaces in th
 
    
   
-Basic Page Structure of a Tool<a name="loiod8374d578a4c4f9498f9f14a6672c8bb__fig_s3m_bqq_dv"/>
+<a name="loiod8374d578a4c4f9498f9f14a6672c8bb__fig_s3m_bqq_dv"/>Basic Page Structure of a Tool
 
  ![](loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool") 
 
@@ -27,7 +27,7 @@ Basic Page Structure of a Tool<a name="loiod8374d578a4c4f9498f9f14a6672c8bb__fig
 
 For more information, check out the concept guidelines at [https://experience.sap.com/fiori-design-web/overview/](https://experience.sap.com/fiori-design-web/overview/).
 
-**Related information**  
+**Related Information**  
 
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)

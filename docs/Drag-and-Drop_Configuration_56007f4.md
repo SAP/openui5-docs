@@ -41,7 +41,7 @@ Both `DragInfo` and `DropInfo` provide the `groupName` property. If this propert
     This class can be used if the drag source and the drop target are closely connected, and both are known. The most common use case is rearranging items.
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `dragDropConfig`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations)

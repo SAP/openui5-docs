@@ -14,7 +14,7 @@ OpenUI5 action controls are used for triggering interactions with the applicatio
 
 ***
 
-Screen Reader Behavior in Input Controls<a name="loiod7aa4a4e98b24181b7f013bea33a8df9__table_mv5_wrs_xw"/>
+<a name="loiod7aa4a4e98b24181b7f013bea33a8df9__table_mv5_wrs_xw"/>Screen Reader Behavior in Input Controls
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

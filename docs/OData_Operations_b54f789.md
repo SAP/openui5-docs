@@ -362,7 +362,7 @@ onEdit : function () {
 }
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [OData Version 4.0 Part 1, 11.5 Operations](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)

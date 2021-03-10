@@ -40,7 +40,7 @@ Usually, you do not define your data inline in the application but load it from 
 oModel.loadData("data.json");
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.json.JSONModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.json.JSONModel.html)

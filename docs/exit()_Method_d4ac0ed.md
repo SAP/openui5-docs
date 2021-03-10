@@ -34,7 +34,7 @@ If the `exit()` method is implemented, OpenUI5 core invokes the method for each 
 > }
 > ```
 
-**Related information**  
+**Related Information**  
 
 
 [Browser Events](Browser_Events_91f1b38.md)

@@ -30,7 +30,7 @@ onsapnext: function(events) {
 }
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `ControlEvents`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FControlEvents)

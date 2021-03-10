@@ -14,7 +14,7 @@ Setting stable IDs is crucial if your app is used in combination with certain fu
 
 Most controls in the template apps \(except for aggregations that are created dynamically, such as list items\) are assigned a stable ID to identify the controls in integration tests, extensibility tools like key user adaptation, as well as interactive inline help tools.
 
-**Related information**  
+**Related Information**  
 
 
 [Extending Apps](Extending_Apps_a264a9a.md)

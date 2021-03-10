@@ -20,7 +20,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
    
   
- An input field and a description displaying the value of the input field \(No visual changes to last step\)<a name="loio8f93bf2b2b13402e9f035128ce8b495f__fig_r1j_pst_mr"/>
+<a name="loio8f93bf2b2b13402e9f035128ce8b495f__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
  ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png " An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 
@@ -31,7 +31,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 You can view and download all files at [Walkthrough - Step 10](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.10/preview).
 
-> CAUTION:  
+> Caution:  
 > Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
 
 ***
@@ -231,7 +231,7 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 -   Use translatable strings for the title and the description of the app.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)

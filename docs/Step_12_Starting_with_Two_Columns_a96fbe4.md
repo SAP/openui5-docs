@@ -22,7 +22,7 @@ By default, the `FlexibleColumnLayout` starts off with one column. If your use c
 
    
   
-Initial layout with two columns<a name="loioa96fbe44ae6544589a096041f99d38c2__fig_zfh_d31_12b"/>
+<a name="loioa96fbe44ae6544589a096041f99d38c2__fig_zfh_d31_12b"/>Initial layout with two columns
 
  ![](loio18a03a866de94ad7a488f776417c685b_HiRes.png "Initial layout with two columns") 
 

@@ -142,7 +142,7 @@ The following helper functions can be used with `<template:with>`:
     ```
 
 
-**Related information**  
+**Related Information**  
 
 
 [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html)

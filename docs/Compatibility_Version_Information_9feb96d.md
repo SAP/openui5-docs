@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
 
-> CAUTION:  
+> Caution:  
 > The concept of compatibility versions has been abandoned as of version 1.28. Therefore, there will be no new compatibility version flags in the future. If you start building a new application please set `data-sap-ui-compatVersion="edge"` on your OpenUI5 bootstrap tag.
 
 As described in the compatibility rules, changes to OpenUI5 features are compatible, see [Compatibility Rules](Compatibility_Rules_91f0873.md). In some cases, however, it may make sense to change the behavior of a feature, for example, to change the default values or to use an optimized implementation and these changes may lead to incompatibilities.
@@ -62,7 +62,7 @@ OpenUI5 supports the following compatibility version flags:
 |`data-sap-ui-compatVersion-sapMDialogWithPadding`|By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md). Default value: 1.14|
 |`data-sap-ui-bindingSyntax`|This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as XML view or HTML view. For versions lower than 1.28, the default value is `default` which only has very limited features. As of version 1.28, the default is `complex`.|
 
-**Related information**  
+**Related Information**  
 
 
 [Compatibility Rules](Compatibility_Rules_91f0873.md)

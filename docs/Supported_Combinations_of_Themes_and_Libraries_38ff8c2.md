@@ -21,17 +21,148 @@ The following table shows which themes are available for the active OpenUI5 libr
 > Note:  
 > For more information about the SAP Quartz Dark theme, see SAP Note [2982978](https://launchpad.support.sap.com/#/notes/2982978).
 
-Themes for Supported Libraries<a name="loio38ff8c27b022475a92b591bcf6262551__table_prf_w4r_zy"/>
+ <a name="loio38ff8c27b022475a92b591bcf6262551__table_prf_w4r_zy"/>Themes for Supported Libraries
 
-| |1.38|1.44|1.46|1.65|1.69|1.71|
-|--|----|----|----|----|----|----|
-| `sap_fiori_3_dark` |n/a|n/a|n/a|n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-| `sap_fiori_3` |n/a|n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-| `sap_fiori_3_hcb` `sap_fiori_3_hcw` |n/a|n/a|n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-| `sap_belize` `sap_belize_plus` |n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-| `sap_belize_hcb` `sap_belize_hcw` |n/a|n/a| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-| `sap_bluecrystal` | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |
-| `sap_hcb` | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png)| ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th> </th>
+			<th>1.38</th>
+			<th>1.44</th>
+			<th>1.46</th>
+			<th>1.65</th>
+			<th>1.69</th>
+			<th>1.71</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> `sap_fiori_3_dark` </td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_fiori_3` </td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_fiori_3_hcb`
+ `sap_fiori_3_hcw`
+			</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_belize`
+ `sap_belize_plus`
+			</td>
+			<td>n/a</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_belize_hcb`
+ `sap_belize_hcw`
+			</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_bluecrystal` </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+		</tr>
+		<tr>
+			<td> `sap_hcb` </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td>
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png)</td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+		</tr>
+	</tbody>
+</table>
 
 ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported, ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported
 
@@ -47,22 +178,162 @@ The **sap\_bluecrystal** theme is also no longer supported, but offers full cove
 
 The **sap\_belize** theme offers an initial implementation for the **sap.ui.commons** and the **sap.ui.ux3** library to allow for a smoother transition, but it is not supported for this library and will not be maintained. We recommend that you consider migrating your existing apps to actively developed libraries, such as **sap.m**, and use **sap\_belize** as the default theme going forward.
 
-Themes for the Deprecated Libraries `sap.ui.commons` and `sap.ui.ux3`<a name="loio38ff8c27b022475a92b591bcf6262551__table_xpk_zqr_zy"/>
+ <a name="loio38ff8c27b022475a92b591bcf6262551__table_xpk_zqr_zy"/>Themes for the Deprecated Libraries `sap.ui.commons` and `sap.ui.ux3`
 
-| |1.38|1.44|1.46|1.48|1.65|
-|--|----|----|----|----|----|
-| `sap_fiori_3` |n/a|n/a|n/a|n/a| ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |
-| `sap_belize` `sap_belize_plus` |n/a| ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |
-| `sap_belize_hcb` `sap_belize_hcw` |n/a|n/a| ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) | ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) |
-| `sap_bluecrystal` | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) |
-| `sap_hcb` | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) |
-| `sap_goldreflection` | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-| `sap_platinum` | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-| `sap_ux` | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th> </th>
+			<th>1.38</th>
+			<th>1.44</th>
+			<th>1.46</th>
+			<th>1.48</th>
+			<th>1.65</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> `sap_fiori_3` </td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+		</tr>
+		<tr>
+			<td> `sap_belize`
+ `sap_belize_plus`
+			</td>
+			<td>n/a</td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+		</tr>
+		<tr>
+			<td> `sap_belize_hcb`
+ `sap_belize_hcw`
+			</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+			<td> 
+
+![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) </td>
+		</tr>
+		<tr>
+			<td> `sap_bluecrystal` </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_hcb` </td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_goldreflection` </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_platinum` </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+		</tr>
+		<tr>
+			<td> `sap_ux` </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+			<td> 
+
+![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) </td>
+		</tr>
+	</tbody>
+</table>
 
 ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) = Supported, ![Not Supported](loiod355123503654aae97106b021020b7be_LowRes.png) = Not Supported, ![Deprecated](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) = Deprecated, ![Removed](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) = Removed
 
-**Related information**  
+**Related Information**  
 
 
 [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)

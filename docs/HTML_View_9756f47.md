@@ -31,7 +31,7 @@ An HTML View is defined by declarative HTML. Like the declarative support, the H
 
 All view-specific properties can be added to the `<template>` tag as `data-*` attributes.
 
-**Related information**  
+**Related Information**  
 
 
 [Declarative Support](Declarative_Support_91f1301.md)

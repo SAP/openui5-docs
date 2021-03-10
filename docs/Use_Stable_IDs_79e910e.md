@@ -71,7 +71,7 @@ In the case of views, the sequence of instantiation also plays a role: If there 
 
 For more information about naming restrictions, some testing options to check for unstable IDs, as well as the features that require stable IDs, see the related link below.
 
-**Related information**  
+**Related Information**  
 
 
 [Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md)

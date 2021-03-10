@@ -33,7 +33,7 @@ Although the `display: grid` CSS property is not supported by Internet Explorer 
 
 The `GridContainer` also supports layout breakpoints based on the screen size. As a result, on smaller screens, the gaps, rows, and columns can be smaller. You can configure them through different `GridContainerSettings` for the different layouts.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/api/symbols/sap.f.GridContainer)

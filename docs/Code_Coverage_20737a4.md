@@ -28,7 +28,7 @@ Gherkin calculates code coverage for any JavaScript file that is loaded after th
 
 For more information, see the documentation for Blanket.js on GitHub. Keep in mind that the attribute name is slightly different in the OpenUI5 implementation \(`data-sap-ui-cover-only` instead of `data-cover-only`\).
 
-**Related information**  
+**Related Information**  
 
 
 [`Blanket.js` Documentation on GitHub]()

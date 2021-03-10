@@ -18,7 +18,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 
    
   
-A responsive table is hiding some of the columns on small devices<a name="loioa96e18b4cd924196b255eb9623431dbb__fig_r1j_pst_mr"/>
+<a name="loioa96e18b4cd924196b255eb9623431dbb__fig_r1j_pst_mr"/>A responsive table is hiding some of the columns on small devices
 
  ![](loio62a5405e63324cb4928e587f518ae13f_HiRes.png "A responsive table is hiding some of the columns on small devices") 
 
@@ -189,7 +189,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 -   Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Configuring Responsive Behavior of a Table](Configuring_Responsive_Behavior_of_a_Table_38855e0.md)

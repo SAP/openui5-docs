@@ -15,7 +15,7 @@ OpenUI5 contains controls that are provided with multiple libraries. This sectio
 > Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
 
-**Related information**  
+**Related Information**  
 
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)

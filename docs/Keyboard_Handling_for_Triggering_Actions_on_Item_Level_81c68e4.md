@@ -24,9 +24,12 @@ The following keys and key combinations are used for triggering events of clicka
 	<tbody>
 		<tr>
 			<td>*Spacebar*</td>
-			<td>If items are **not selectable** and focus is on an item, trigger the item event. > Tip:   > If you press and hold the key, you can cancel the trigger action by pressing *Shift*.
+			<td> If items are **not selectable** and focus is on an item, trigger the item event.
+ > Tip:  
+ > If you press and hold the key, you can cancel the trigger action by pressing *Shift*.
 
- If items are selectable, select/deselect the item.</td>
+ If items are selectable, select/deselect the item.
+			</td>
 		</tr>
 		<tr>
 			<td>*Enter*</td>
@@ -39,8 +42,29 @@ The following keys and key combinations are used for triggering events of clicka
 
 Use the following keys to trigger additional actions \(if supported\):
 
-|Key combination|Behavior|
-|---------------|--------|
-|*Delete*|If deletion of items supported: If focus is on an item, delete the item. Move focus to the next item. If the deleted item is the last item, move focus to the previous item. If the deleted item is the last remaining item, move focus to the next control in the tab order.|
-|*F2*|If *Detail* of items is supported: If focus is on an item, trigger the click event for the *Detail* button.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Key combination</th>
+			<th>Behavior</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*Delete*</td>
+			<td>If deletion of items supported: If focus is on an item, delete the item. Move focus to the next item.
+ If the deleted item is the last item, move focus to the previous item.
+
+ If the deleted item is the last remaining item, move focus to the next control in the tab order.
+			</td>
+		</tr>
+		<tr>
+			<td>*F2*</td>
+			<td>If *Detail* of items is supported: If focus is on an item, trigger the click event for the *Detail* button.
+			</td>
+		</tr>
+	</tbody>
+</table>
 

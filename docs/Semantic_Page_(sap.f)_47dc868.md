@@ -231,7 +231,7 @@ Adding custom \(non-semantic\) content
 </mvc:View>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.f.DynamicPage`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.DynamicPage.html)

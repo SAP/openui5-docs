@@ -18,7 +18,7 @@ Now that we have implemented the conversion tests, we add the corresponding func
 
    
   
-The *Flag* button is now added to the table<a name="loio69a25bf2f8a2478cbda4b8bbe64039de__fig_r1j_pst_mr"/>
+<a name="loio69a25bf2f8a2478cbda4b8bbe64039de__fig_r1j_pst_mr"/>The *Flag* button is now added to the table
 
  ![](loio0cfabfd43c5f4c3b86a0ac7b7ef9e99d_LowRes.png "The Flag button is now added to the table") 
 
@@ -200,7 +200,7 @@ Finally, add the new string for the button tooltip to the resource bundle file. 
 > Note:  
 > As this feature covers both conversion and interaction parts, we could also have written an integration test for it to test the interaction part also. Feel free to add an integration test for this feature if you like, we will skip it here to focus on unit testing in this step.
 
-**Related information**  
+**Related Information**  
 
 
 [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)

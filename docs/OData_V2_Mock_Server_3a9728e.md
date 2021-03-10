@@ -18,7 +18,7 @@ In certain scenarios, using only the built-in OData V2 simulation of the mock se
 
 Additionally, we will demonstrate how to mock an additional request that is not simulated out of the box by the OpenUI5 OData V2 mock server.
 
-> CAUTION:  
+> Caution:  
 > The tutorial describes how to use some advanced features of the mock server, disregarding the legal aspects of shipping mock data. Usually the mock data and mock server invocation is done in a test folder that is not shipped to customers. Be very careful that you don't ship mock data!
 
 ***
@@ -46,7 +46,7 @@ This tutorial assumes you have access to the SAP Web IDE either by having a tria
 
 You should also be familiar with the concepts explained in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial and with the OData specification.
 
-**Related information**  
+**Related Information**  
 
 
 [Mock Server](Mock_Server_69d3cbd.md)

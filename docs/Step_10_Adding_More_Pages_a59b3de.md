@@ -20,7 +20,7 @@ In this step, we create an additional page that is displayed in a separate fulls
 
    
   
-Additional page displayed in a separate fullscreen column<a name="loioa59b3de038874f879cf20bfc3287bd7c__fig_zfh_d31_12b"/>
+<a name="loioa59b3de038874f879cf20bfc3287bd7c__fig_zfh_d31_12b"/>Additional page displayed in a separate fullscreen column
 
  ![](loio41f6ae105130408ca78197f7c528e388_HiRes.gif "Additional page displayed in a separate fullscreen column") 
 

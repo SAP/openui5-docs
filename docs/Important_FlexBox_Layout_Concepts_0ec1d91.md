@@ -59,6 +59,6 @@ The property to control the flexibility is called `growFactor`. It is set on a f
 
 To achieve a proportional width according to the `growFactor`, set the width of all items to 0 via CSS. The sum of the "natural" widths of all items is then also 0. The remaining space, however, now equals the full space of the `FlexBox`. This space is then distributed based on the `growFactor`. For the example above with `growFactor` set to 3 and 1, setting the width of the flex items to 0 via CSS results in a width of 225px \(¾ of 300px\) for the first item and 75px \(¼ of 300px\) for the second item.
 
-> CAUTION:  
+> Caution:  
 > Once you set a `growFactor` for any item, the flex layout algorithm ignores the `justifyContent` property of the FlexBox because the items take up all available space anyway. There would be no difference between the different values.
 

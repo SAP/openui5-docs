@@ -30,7 +30,7 @@ The extension point has a default content which is used unless the extension poi
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [View Extension](View_Extension_403c050.md)

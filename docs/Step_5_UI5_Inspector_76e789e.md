@@ -74,7 +74,7 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 5.  The changes that you make in the UI5 Inspector are only temporary, and the icon will be reset to the default when the page is reloaded. To make your change permanent, you have to change the app code.
 
 
-**Related information**  
+**Related Information**  
 
 
 [UI5 Inspector](UI5_Inspector_b24e724.md)

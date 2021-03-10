@@ -26,13 +26,13 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
 
       
       
-    Expanded Mode<a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_art_k25_mx"/>
+    <a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_art_k25_mx"/>Expanded Mode
 
      ![](loiob6e9d79a2c164db79b30b7fa57ec4317_LowRes.png "Expanded Mode") 
 
       
       
-    Collapsed Mode<a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_pvc_l25_mx"/>
+    <a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_pvc_l25_mx"/>Collapsed Mode
 
      ![](loioa4eb96875f7d4d1faae0d40aa4b38c52_LowRes.png "Collapsed Mode") 
 

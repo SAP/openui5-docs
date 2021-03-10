@@ -110,7 +110,7 @@ To generate a code snippet with an assertion, first select a control \(from the 
 > Tip:  
 > Assertions are available for both OPA5 and UIVeri5 dialects, as well as in the multiple-snippet mode. You can edit the snippet directly in the recorder.
 
-**Related information**  
+**Related Information**  
 
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)

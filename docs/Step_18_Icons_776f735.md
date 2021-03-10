@@ -18,7 +18,7 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
    
   
-An icon is now displayed in the dialog box<a name="loio776f7352807e4f82b18176c8fbdc0c56__fig_r1j_pst_mr"/>
+<a name="loio776f7352807e4f82b18176c8fbdc0c56__fig_r1j_pst_mr"/>An icon is now displayed in the dialog box
 
  ![](loiobd572998fe7245b396eab0f17e505079_HiRes.png "An icon is now displayed in the dialog box") 
 
@@ -102,7 +102,7 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 -   Always use icon fonts rather than images wherever possible, as they are scalable without quality loss \(vector graphics\) and do not need to be loaded separately.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html)

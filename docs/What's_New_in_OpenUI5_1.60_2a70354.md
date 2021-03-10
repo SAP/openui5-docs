@@ -26,7 +26,7 @@ OpenUI5 now allows you to hyphenate words in multiline texts when controls are i
 
  ![](loio8a74466e5393433c856234e3a40f126a_HiRes.png) 
 
-> CAUTION:  
+> Caution:  
 > The hyphenation feature uses third-party and browser-native tools. We are not responsible for any inconsistencies or incorrect grammar. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.
 
 For more information, see [Hyphenation for Text Controls](Hyphenation_for_Text_Controls_6322164.md), the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.HyphenationAPI/preview), and the *API Reference* for [`sap.m.Text`](https://openui5.hana.ondemand.com/#/api/sap.m.Text), [`sap.m.Title`](https://openui5.hana.ondemand.com/#/api/sap.m.Title), [`sap.m.Label`](https://openui5.hana.ondemand.com/#/api/sap.m.Label), and [`sap.ui.core.hyphenation.Hyphenation`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.hyphenation.Hyphenation).

@@ -22,7 +22,7 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
 
    
   
-`ObjectPageLayout` Main Structure<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>
+<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>`ObjectPageLayout` Main Structure
 
  ![](loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure") 
 
@@ -87,7 +87,7 @@ The content of the page that appears below the header is composed of blocks stru
 
    
   
-Blocks Structured into Sections and Subsections<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>
+<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>Blocks Structured into Sections and Subsections
 
  ![](loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections") 
 
@@ -138,7 +138,7 @@ The `subSectionLayout` property provides information on how all the underlying s
 
    
   
-Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_c2l_fcr_ncb"/>
+<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_c2l_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top
 
  ![](loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on Top") 
@@ -147,7 +147,7 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
 
    
   
-Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_s45_fcr_ncb"/>
+<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_s45_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left
 
  ![](loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on the Left") 
@@ -277,7 +277,7 @@ The `ObjectPageLayout` control ensures that only the visible blocks and those ne
 > Note:  
 > Setting `enableLazyLoading` to `true` after the `ObjectPageLayout` has been instantiated doesn’t work, as all bindings are resolved by then.
 
-**Related information**  
+**Related Information**  
 
 
 [Object Page Headers](Object_Page_Headers_d2ef009.md)

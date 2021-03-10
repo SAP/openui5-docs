@@ -218,7 +218,7 @@ oImage.bindProperty("src", "/company/trusted", function(bValue) {
 }); 
 ```
 
-> CAUTION:  
+> Caution:  
 > The framework only updates a binding when one of the properties included in the binding changes. If the formatter uses another property value that is not part of the binding definition, the framework won't know that the result depends on that additional property and could miss necessary updates. Therefore, make sure that you declare a composite binding referencing all necessary properties \(maybe even from different models\).
 
 ***
@@ -357,7 +357,7 @@ By default, all bindings of a model instance have the default binding mode of th
 
 In the example above, two `Input` fields are created and their `value` property is bound to the same property in the model. The first `Input` binding has a one-way binding mode, whereas the second `Input` has the default binding mode of the model instance, which is two-way. For this reason, when text is entered in the first `Input`, the value will **not** be changed in the model. This only happens if text is entered in the second `Input`. Then, of course, the value of the first `Input` will be updated as it has a one-way binding, that is, from model to view.
 
-**Related information**  
+**Related Information**  
 
 
 [Data Binding Tutorial Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md)

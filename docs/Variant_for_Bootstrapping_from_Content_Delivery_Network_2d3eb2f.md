@@ -30,7 +30,7 @@ Check the available versions with the respective maintenance status at [https://
 ``` html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://openui5.hana.ondemand.com/**1.88.0**/resources/sap-ui-core.js"
+    src="https://openui5.hana.ondemand.com/**1.89.0**/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_belize"
     data-sap-ui-libs="sap.m"></script>
 
@@ -46,7 +46,7 @@ The first segment of the URL after the host name is used to specify a concrete v
 
 #### Default Version
 
-> CAUTION:  
+> Caution:  
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
 > 
 > The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
@@ -69,7 +69,7 @@ The cache control is different for dynamic and static resources. If you refer to
 > Note:  
 > The Cache Buster is only needed if you consume OpenUI5 without a concrete version in the URL. When you consume OpenUI5 with the concrete version in the URL, this is not needed, as the content served by that unique URLs will never change and can be cached forever.
 
-**Related information**  
+**Related Information**  
 
 
 [Multi-Version Availability of SAPUI5](https://blogs.sap.com/2015/07/30/multi-version-availability-of-sapui5)

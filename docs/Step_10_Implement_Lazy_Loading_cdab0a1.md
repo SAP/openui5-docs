@@ -8,9 +8,9 @@
 
 view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
 
-## Step 10: Implement "Lazy Loading"
+## Step 10: Implement “Lazy Loading”
 
-In the previous steps, we have implemented a *Resume* view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a "lazy loading" feature that only loads the view and data when requested by the user.
+In the previous steps, we have implemented a *Resume* view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.
 
 ***
 
@@ -18,7 +18,7 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
 
    
   
-Tabs with lazy loading<a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_r1j_pst_mr"/>
+<a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_r1j_pst_mr"/>Tabs with lazy loading
 
  ![](loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading") 
 
@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-Folder Structure for this Step<a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_vbk_bbp_ns"/>
+<a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_vbk_bbp_ns"/>Folder Structure for this Step
 
  ![](loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step") 
 
@@ -151,7 +151,7 @@ sap.ui.define([
 
 Now we extend the `resume` controller a little and add additional logic to the part of the `_onRouteMatched` function where a new tab has been selected and validated. In case the `selectedKey` matches `Hobbies` or `Notes` we call `this.getRouter().getTargets().display("resumeTab" + oQuery.tab)` to display the corresponding target manually. Here the valid targets are `resumeTabHobbies` and `resumeTabNotes` as we have changed the behavior for these two tabs by creating separate views.
 
-These lines of code make sure that the targets are only loaded when they are needed \("lazy loading"\). But the router does not know the new targets yet, so let’s create them in our routing configuration.
+These lines of code make sure that the targets are only loaded when they are needed \(“lazy loading”\). But the router does not know the new targets yet, so let’s create them in our routing configuration.
 
 ***
 
@@ -219,7 +219,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 
 We add the `resumeTabHobbies` and `resumeTabNotes` targets to the descriptor file with additional fields that override the default configuration as we now want to display the targets locally inside the `IconTabBar` control and not as pages of the app.
 
-The `resumeTabHobbies` target sets the parent property to `employeeResume`. The parent property expects the name of another target. In our case, this makes sure that the view from the parent target `employeeResume` is loaded before the target `resumeTabHobbies` is displayed. This can be considered as a "view dependency". By setting the `controlId` and `controlAggregation` properties the router places the view `ResumeHobbies` into the `content` aggregation of the `IconTabFilter` control with ID `hobbiesTab`. We also set a parameter `viewId` to a custom ID to illustrate how you could overrule a hard-coded ID inside a view.
+The `resumeTabHobbies` target sets the parent property to `employeeResume`. The parent property expects the name of another target. In our case, this makes sure that the view from the parent target `employeeResume` is loaded before the target `resumeTabHobbies` is displayed. This can be considered as a “view dependency”. By setting the `controlId` and `controlAggregation` properties the router places the view `ResumeHobbies` into the `content` aggregation of the `IconTabFilter` control with ID `hobbiesTab`. We also set a parameter `viewId` to a custom ID to illustrate how you could overrule a hard-coded ID inside a view.
 
 > Note:  
 > Each target can define only one parent with its parent property. This is similar to the OpenUI5 control tree where each control can have only one parent control \(accessed with the method `getParent()` of `sap.ui.base.ManagedObject`\). The `controlId` property always references a control inside the parent view that is specified with the `parent` target.
@@ -237,7 +237,7 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 -   Lazy-load content that is not initially displayed to the user
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `ap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/ap.m.routing.Targets.html)

@@ -35,7 +35,7 @@ For more information on the OData V2 mock server, see the topics given below.
 
 The mock server functionality for OData V4 is included with CAP Node.js. For more information, see [https://cap.cloud.sap/docs/get-started/grow-as-you-go\#with-mocks](https://cap.cloud.sap/docs/get-started/grow-as-you-go#with-mocks).
 
-**Related information**  
+**Related Information**  
 
 
 [sap.ui.core.util.MockServer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.MockServer)

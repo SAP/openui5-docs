@@ -28,7 +28,7 @@ More fragment types can be implemented and plugged in.
 
 Defining a fragment is similar to defining views within a separate file. The fragments simply end with `*.fragment` instead of `*.view`. Also, the same rules for file location apply.
 
-**Related information**  
+**Related Information**  
 
 
 [Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)

@@ -74,7 +74,7 @@ oText.setWidth("100px");
 
 The supported parameters are documented in the *API Reference* of the respective control.
 
-**Related information**  
+**Related Information**  
 
 
 [Developing Controls](Developing_Controls_8dcab00.md)

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 display controls are used to indicate the progress of some action or to show visual elements like images and text.
 
-Screen Reader Behavior in Display Controls<a name="loio7b2f7bac3a024cc884c28b09fb7a32ec__table_mv5_wrs_xw"/>
+<a name="loio7b2f7bac3a024cc884c28b09fb7a32ec__table_mv5_wrs_xw"/>Screen Reader Behavior in Display Controls
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

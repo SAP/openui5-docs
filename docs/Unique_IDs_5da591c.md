@@ -27,7 +27,7 @@ To get rid of the prefixes, the instance method `View.byId()` can be used with t
 > Note:  
 > Do **not** rely on the specific prefixing syntax because it may change at some point. Always use methods like `byId()` and `createId()`.
 
-**Related information**  
+**Related Information**  
 
 
 [IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md)

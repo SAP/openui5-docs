@@ -102,7 +102,7 @@ With metadata binding, you can bind properties of a control to the corresponding
 
 For more information, see [Property Metadata Binding](Property_Metadata_Binding_f5aa4bb.md).
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty)

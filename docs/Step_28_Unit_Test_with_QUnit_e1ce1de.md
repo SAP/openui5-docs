@@ -23,7 +23,7 @@ Actually, every feature that we added to the app so far, would require a separat
 
    
   
-A unit test for our formatters is now available<a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_r1j_pst_mr"/>
+<a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_r1j_pst_mr"/>A unit test for our formatters is now available
 
  ![](loioa933bc8e1b8c45a88252f1aecff7ba36_HiRes.png "A unit test for our formatters is now available") 
 
@@ -35,7 +35,7 @@ You can view and download all files at [Walkthrough - Step 28](https://openui5.h
 
    
   
-Folder Structure for this Step<a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_lbx_wcp_ns"/>
+<a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_lbx_wcp_ns"/>Folder Structure for this Step
 
  ![](loio1b5613ac3ab94757af2c7823039222a9_HiRes.png "Folder Structure for this Step") 
 
@@ -196,7 +196,7 @@ This script loads and executes our formatter. If we now open the `webapp/test/un
 -   All dependencies are replaced by stubs to test only the functionality in scope.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)

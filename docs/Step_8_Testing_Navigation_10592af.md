@@ -18,7 +18,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
    
   
-We add an OPA test that selects an item from the table and navigates to the post page<a name="loio10592affce3e4f1ba73c3125ee06e0b7__fig_r1j_pst_mr"/>
+<a name="loio10592affce3e4f1ba73c3125ee06e0b7__fig_r1j_pst_mr"/>We add an OPA test that selects an item from the table and navigates to the post page
 
  ![](loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the post
 					page") 
@@ -261,7 +261,7 @@ To make navigation tests complete, we add the new journey to the `AllJourneys` f
 
 If you execute the tests now, you can see in the logs of the developer tools that OPA is waiting for the object page to be displayed. Of course, this will not happen as it is not yet implemented. But we already have a pretty good idea on how we will implement the feature in the next step
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.test.matchers.BindingPath`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.matchers.BindingPath.html)

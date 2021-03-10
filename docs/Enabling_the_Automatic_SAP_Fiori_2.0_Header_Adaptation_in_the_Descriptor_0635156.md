@@ -31,7 +31,7 @@ The SAP Fiori 2.0 design concept requires changes with regards to the headers of
 
    
   
-SAP Fiori 2.0 header of a fullscreen application<a name="loio0635156f3950494885ca314a13e15e29__fig_g21_2wb_sv"/>
+<a name="loio0635156f3950494885ca314a13e15e29__fig_g21_2wb_sv"/>SAP Fiori 2.0 header of a fullscreen application
 
  ![](loiod78b4f43624842a894908bbcf9c8dd20_HiRes.png "SAP Fiori 2.0 header of a fullscreen application") 
 
@@ -52,7 +52,7 @@ You can see how the elements are moved and transformed from the old SAP Fiori ve
 
    
   
-SAP Fiori 2.0 header adaptation<a name="loio0635156f3950494885ca314a13e15e29__fig_gvx_5yc_sv"/>
+<a name="loio0635156f3950494885ca314a13e15e29__fig_gvx_5yc_sv"/>SAP Fiori 2.0 header adaptation
 
  ![](loiofba5d251f36145f285963be29070219a_HiRes.png "SAP Fiori 2.0 header adaptation") 
 

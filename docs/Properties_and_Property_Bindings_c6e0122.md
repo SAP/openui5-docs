@@ -16,7 +16,7 @@ The fragment definition XML file defined in the previous section looks a lot lik
 
 Similar to other controls, you have the following options to use binding for the XML definition of an XML composite control:
 
-Property Binding<a name="loioc6e0122ca9874844a214018bec02e74a__table_csk_5pg_c1b"/>
+ <a name="loioc6e0122ca9874844a214018bec02e74a__table_csk_5pg_c1b"/>Property Binding
 
 |Binding|Sample|Use|Comments|
 |-------|------|---|--------|

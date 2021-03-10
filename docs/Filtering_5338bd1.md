@@ -162,7 +162,7 @@ oOrdersListBinding.filter(
 
 The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPLOYEES/all(employee:employee/AGE gt 42)`**
 
-**Related information**  
+**Related Information**  
 
 
 [sap.ui.model.odata.OperationMode.Server](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.OperationMode.html%23.Server)

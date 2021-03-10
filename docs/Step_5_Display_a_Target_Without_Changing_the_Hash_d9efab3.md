@@ -22,7 +22,7 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
 
    
   
-The new *Home* page with a navigation button<a name="loiod9efab307ecc42b180b12cc8956e22d7__fig_r1j_pst_mr"/>
+<a name="loiod9efab307ecc42b180b12cc8956e22d7__fig_r1j_pst_mr"/>The new *Home* page with a navigation button
 
  ![](loio64fc7de39bed41d48d01e08244f201ab_LowRes.png "The new Home page with a navigation button") 
 
@@ -169,7 +169,7 @@ When we now click the *Back* button, it works as expected and brings us back to 
 -   Think carefully about all navigation patterns in your application, otherwise the user might get stuck
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Targets.html)

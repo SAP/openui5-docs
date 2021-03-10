@@ -49,7 +49,7 @@ We also recommend creating a separate view file for each view you want to use in
 
 The `Component.js` file holds the app setup. The `init` function of the component is automatically started by OpenUI5 when the component is instantiated.
 
-> CAUTION:  
+> Caution:  
 > Your component extends `UIComponent`. If you are overriding the init function of your component, you have to make sure that you call the `init` function of `UIComponent` and initialize the router afterwards.
 
 In the metadata section of the component, you define a reference to the descriptor file. When the component is instantiated, the descriptor is loaded and parsed automatically.
@@ -73,7 +73,7 @@ All apps are started using an HTML page that loads OpenUI5 and the component. Yo
     If you want to run your app standalone, you need to create an `index.html` file. Within this file, you instantiate the component.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md)

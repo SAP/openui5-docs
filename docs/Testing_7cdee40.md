@@ -16,7 +16,7 @@ Before you start implementing your first test, you should think about how to tes
 
    
   
-Testing Pyramid<a name="loio7cdee404cac441888539ed7bfe076e57__fig_u2g_t2y_2t"/>
+<a name="loio7cdee404cac441888539ed7bfe076e57__fig_u2g_t2y_2t"/>Testing Pyramid
 
  ![](loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing Pyramid") 
 
@@ -42,7 +42,7 @@ We recommend UIVeri5 for system and end-to-end tests. UIVeri5 is an end-to-end t
 
 UIVeri5 is built exclusively for OpenUI5 apps. It uses WebDriverJS to drive a real browser and interact with your app the same was a real user would.
 
-**Related information**  
+**Related Information**  
 
 
 [Tutorial: Testing](Testing_291c912.md)

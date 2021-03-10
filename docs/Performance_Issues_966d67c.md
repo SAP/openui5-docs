@@ -164,7 +164,7 @@ In other scenarios, at the time of developing you may not know which UI part is 
 
 See also: [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md).
 
-**Related information**  
+**Related Information**  
 
 
 [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)

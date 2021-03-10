@@ -453,7 +453,7 @@ You can further optimize your code by doing the following:
 -   Please ensure the application does not block the rendering while waiting for back-end requests to respond. Waiting for data before rendering anything is not the favored user experience. It is recommended to load data asynchronously and already render the page while the request is pending. Mostly, the requests won't fail, and if they do, it is better to show an error or to navigate to an error page.
 -   If an `XML Preprocessor` is used, we recommend to use the [XML View Cache](XML_View_Cache_3d85d5e.md). If configured in the XML View and with a properly implemented key provider \(for invalidation\), it is able to cache already processed XML View Preprocessor results.
 
-**Related information**  
+**Related Information**  
 
 
 [Coding Issues to Avoid: Performance Issues](Performance_Issues_966d67c.md)

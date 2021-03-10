@@ -51,7 +51,7 @@ Touch interfaces try to emulate mouse/click events, because they need to interac
 
 If we support mouse and touch input together, the event handler is called twice for a single tap, because there are additional `touchstart` and `mousedown` events fired by the browser. Fortunately, we have found a way to set a flag on emulated mouse events from touch interfaces and suppress those events when they reach the event handler.
 
-**Related information**  
+**Related Information**  
 
 
 [Adapting Event Handling for Devices Supporting both Mouse and Touch Input](Adapting_Event_Handling_for_Devices_Supporting_both_Mouse_and_Touch_Input_b54d7d7.md)

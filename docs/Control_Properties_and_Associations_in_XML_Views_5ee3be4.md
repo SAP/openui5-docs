@@ -39,6 +39,9 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 <Text text="&lt;div&gt;My HTML Text&lt;/div&gt;"/>
 ```
 
+> Note:  
+> Properties of type `function` can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
+
 ***
 
 ### Associations

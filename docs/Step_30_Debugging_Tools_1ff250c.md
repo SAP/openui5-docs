@@ -22,7 +22,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
    
   
-The diagnostics window<a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_r1j_pst_mr"/>
+<a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_r1j_pst_mr"/>The diagnostics window
 
  ![](loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window") 
 
@@ -96,7 +96,7 @@ This makes debugging harder because the code is a lot less readable. You can loa
 
    
   
-Technical information dialog <a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_vfz_xgf_yr"/>
+<a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_vfz_xgf_yr"/>Technical information dialog
 
  ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
 
@@ -113,7 +113,7 @@ If you're stuck and need help for some development task, you can also post a que
 -   As per OpenUI5 convention uncompressed source files end with `*-dbg.js`
 
 
-**Related information**  
+**Related Information**  
 
 
 [Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)

@@ -144,7 +144,7 @@ To control the start the starting point of numbers which should be displyed in c
 
 -   `roundingMode`: defines a rounding behavior for discarding the digits after the maximum decimal digits defined by `maxFractionDigits` or `decimals`. Rounding will only be applied, if the formatting value is of type number.
 
-    Rounding Modes \(with decimals parameter set to 1\)<a name="loio91f2f2866f4d1014b6dd926db0e91070__table_wdt_rpl_2y"/>
+     <a name="loio91f2f2866f4d1014b6dd926db0e91070__table_wdt_rpl_2y"/>Rounding Modes \(with decimals parameter set to 1\)
 
     |Number| `FLOOR` | `CEILING` | `TOWARDS_ZERO` | `AWAY_FROM_ZERO` | `HALF_FLOOR` | `HALF_CEILING` | `HALF_TOWARDS_ZERO` | `HALF_AWAY_FROM_ZERO` |
     |------|---------|-----------|----------------|------------------|--------------|----------------|---------------------|-----------------------|
@@ -170,7 +170,7 @@ oFloatFormat.parse("1,234.567"); // returns 1234.567
 oFloatFormat.parse("12.34%"); // returns 0.1234
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)

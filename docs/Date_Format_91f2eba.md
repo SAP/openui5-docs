@@ -64,7 +64,7 @@ oDateFormat.format(oNow); //string in the same format as "Thu, Jan 29, 2017"
 > Note:  
 > If you define `format` and `pattern`, the `format` will be ignored!
 
-The letters which can be included in this pattern are explained in the following table:Patterns<a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>
+The letters which can be included in this pattern are explained in the following table:<a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>Patterns
 
 |Letter|Replaced By|
 |------|-----------|
@@ -162,7 +162,7 @@ oDate = new Date(oNow.getTime() + 7 * nMS);
 oDateFormat.format(oDate); //isn't returned in relative format because the default value of relativeRange is [6|-6,]
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.format.DateFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.DateFormat.html)

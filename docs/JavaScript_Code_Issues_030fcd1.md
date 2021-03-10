@@ -24,7 +24,7 @@ Use "protected" methods or properties only if you access it from the object itse
 
 Always double check in the API Reference. If OpenUI5 changes the implementation in a future release, your code will break if you fail to follow this guideline.
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>Examples
 
 |Bad Examples|Good Example|
 |------------|------------|
@@ -147,7 +147,7 @@ If you override methods like `onBeforeRendering`, `onAfterRendering`, or getters
 
 Instead, you should consider using delegates.
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>Examples
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -194,7 +194,7 @@ If you need to manipulate the DOM of an OpenUI5 control, attach a delegate to th
 
 Even `onAfterRendering` may not be called when a control handles certain property changes without complete rerendering.
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>Examples
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -268,7 +268,7 @@ When you create JSViews or applications that will be running together with views
 
 Use the `createId()` function of a view or controller instead. This is done automatically in XMLViews and JSONViews. The `createId()` function adds the View ID as a prefix, thus recursively ensuring uniqueness of the ID \(for example: `__page0--__dialog0`\).
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -321,7 +321,7 @@ See also: [sap.ui.core.Element - destroy](https://openui5.hana.ondemand.com/#/ap
 
 Hard coding UI strings will exclude them from translation. In addition, concatenating translatable strings in applications might lead to errors in internationalization: the texts in question might have a different translation order in other languages and will then be syntactically wrong.
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>Examples
 
 |Bad Example|Good Example|
 |-----------|------------|
@@ -345,7 +345,7 @@ There is a native browser API available for logging errors and warnings in the d
 
 Note that most errors and warnings in the developer console thrown by the OpenUI5 framework are potential bugs in your application and must be analyzed thoroughly!
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>Examples
 
 |Bad Example|Good Example|
 |-----------|------------|
@@ -361,7 +361,7 @@ See also: [Namespace sap/base/Log](https://openui5.hana.ondemand.com/#/api/modul
 
 Executing logic with timeouts is often a workaround for faulty behavior and does not fix the root cause. The timing that works for you may not work under different circumstances \(other geographical locations with greater network latency, or other devices that have slower processors\) or when the code is changed. Use callbacks or events instead, if available.
 
-Examples<a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>
+ <a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>Examples
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

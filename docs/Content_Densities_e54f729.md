@@ -18,23 +18,52 @@ The devices used to run apps that are developed with OpenUI5 run on various diff
 
 The table below shows the content densities that are available for the Quartz Light, Belize, Blue Crystal, and high-contrast themes:
 
-|Content Density|CSS Class|Explanation|
-|---------------|---------|-----------|
-| *Cozy* | `sapUiSizeCozy` |'Large' design: Dimensions of the controls are optimized for touch-enabled devices, such as smartphones, to allow users to interact with controls more easily. This is the default density for most controls, particularly those in the `sap.m` library.|
-| *Compact* | `sapUiSizeCompact` |Reduced-size design: The font size is the same as for the cozy density, but the dimensions of the controls and the spacing between them are reduced. This density is more suitable for mouse-operated devices, such as desktops. For some controls, this is the default density.|
-| *Condensed* | `sapUiSizeCondensed` |Size even further reduced compared to *Compact* \(in particular, row heights smaller\). This density can be used for all tables of the `sap.ui.table` library.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Content Density</th>
+			<th>CSS Class</th>
+			<th>Explanation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> *Cozy* </td>
+			<td> `sapUiSizeCozy` </td>
+			<td> 'Large' design: Dimensions of the controls are optimized for touch-enabled devices, such as smartphones, to allow users to interact with controls more easily.
+ This is the default density for most controls, particularly those in the `sap.m` library.
+			</td>
+		</tr>
+		<tr>
+			<td> *Compact* </td>
+			<td> `sapUiSizeCompact` </td>
+			<td> Reduced-size design: The font size is the same as for the cozy density, but the dimensions of the controls and the spacing between them are reduced. This density is more suitable for mouse-operated devices, such as desktops.
+ For some controls, this is the default density.
+			</td>
+		</tr>
+		<tr>
+			<td> *Condensed* </td>
+			<td> `sapUiSizeCondensed` </td>
+			<td> Size even further reduced compared to *Compact* \(in particular, row heights smaller\).
+ This density can be used for all tables of the `sap.ui.table` library.
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 The following two screenshots show the difference between the *Cozy* and *Compact* densities, using a simple `sap.ui.table.Table` example:
 
    
   
-Cozy Density: Mainly for Touch Devices \(such as Smartphones\)<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_axn_2v3_ns"/>
+<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_axn_2v3_ns"/>Cozy Density: Mainly for Touch Devices \(such as Smartphones\)
 
  ![](loioc9c8ffa0b9cf4f4d91987b49693e8f75_LowRes.png "Cozy Density: Mainly for Touch Devices (such as Smartphones)") 
 
    
   
-Compact Density: Mainly for Mouse-Operated Devices \(such as Desktops\)<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_hyw_2v3_ns"/>
+<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_hyw_2v3_ns"/>Compact Density: Mainly for Mouse-Operated Devices \(such as Desktops\)
 
  ![](loio644ff9d3949e4f1895d4aadf2b107558_LowRes.png "Compact Density: Mainly for Mouse-Operated Devices (such as Desktops)") 
 

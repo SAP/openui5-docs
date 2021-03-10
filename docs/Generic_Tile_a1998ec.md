@@ -85,7 +85,7 @@ The following controls have not been transferred to the `sap.m` library and are 
 
 If you have already included one of these controls before SAPUI5 1.34, a wrapper ensures that the embedding still works for each control. To benefit from all enhancements and new features for one of these controls as of SAPUI5 1.34, you need to switch to the controls in the `sap.m` library. With SAPUI5 1.34, all these controls in the `sap.suite.ui.commons` library are marked as **deprecated**.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile)

@@ -31,13 +31,13 @@ We will use the worklist template as a starting point for this tutorial and add 
 
    
   
-Start page of the app with list of products and actions<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_swx_sgp_zt"/>
+<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_swx_sgp_zt"/>Start page of the app with list of products and actions
 
  ![](loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Start page of the app with list of products and actions") 
 
    
   
-Product detail page of the app<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_wnz_wgp_zt"/>
+<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_wnz_wgp_zt"/>Product detail page of the app
 
  ![](loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Product detail page of the app") 
 
@@ -54,7 +54,7 @@ Product detail page of the app<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
-**Related information**  
+**Related Information**  
 
 
 [SAP Fiori design guidelines: Worklist Floorplans](https://experience.sap.com/fiori-design/floorplans/work-list/)

@@ -41,7 +41,7 @@ Top 5 things to do for better screen reader support for labels
 
 ***
 
-Rules and Guidelines for Labeling and Tooltips<a name="loio329a029f39e249a1bf89e3ffc006c8e1__table_vzj_4r3_5s"/>
+<a name="loio329a029f39e249a1bf89e3ffc006c8e1__table_vzj_4r3_5s"/>Rules and Guidelines for Labeling and Tooltips
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

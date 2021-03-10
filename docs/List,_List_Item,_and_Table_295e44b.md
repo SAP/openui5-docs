@@ -20,7 +20,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 -   Growing feature
 -   Grouping
 
-**Related information**  
+**Related Information**  
 
 
 [Samples: `sap.m.List`](https://openui5.hana.ondemand.com/#/entity/sap.m.List)

@@ -22,7 +22,7 @@ The structure and data model created in this step will be used throughout this t
 
    
   
-Initial app with a simple table<a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_tvr_vzd_gcb"/>
+<a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_tvr_vzd_gcb"/>Initial app with a simple table
 
  ![](loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table") 
 
@@ -38,7 +38,7 @@ Depending on your development environment, you might have to adjust resource pat
 
 You should now have the following files:  
   
-Folder structure with downloaded files<a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_mdg_c12_gcb"/>
+<a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_mdg_c12_gcb"/>Folder structure with downloaded files
 
 ![](loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
 
@@ -94,7 +94,7 @@ To be able to add data to the emulated OData responses, we have to store the ent
 
 In this tutorial, we only use the entity type `Person` of the *TripPin* service. The entities of type `Person` are collected in the entity set `People`. Each `Person` has a key property `UserName` and the properties `Age`, `FirstName`, and `LastName`.
 
-**Related information**  
+**Related Information**  
 
 
 [*OData* Reference Services including *TripPin*](http://www.odata.org/odata-services/)

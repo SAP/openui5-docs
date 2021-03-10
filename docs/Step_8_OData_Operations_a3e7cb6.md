@@ -20,7 +20,7 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
 
    
   
-A *Restart Tutorial* button is added<a name="loioa3e7cb6f671b4b839f37eb5f88429e41__fig_ybl_pdx_4cb"/>
+<a name="loioa3e7cb6f671b4b839f37eb5f88429e41__fig_ybl_pdx_4cb"/>A *Restart Tutorial* button is added
 
  ![](loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added") 
 
@@ -127,7 +127,7 @@ We add the missing texts to the properties file.
 
 And now we are done! We built a simple application with user data from an OData V4 service. We can display, edit, create, and delete users. And we use OData V4 features such as batch groups and automatic type detection.
 
-**Related information**  
+**Related Information**  
 
 
 [Bindings](Bindings_54e0ddf.md)

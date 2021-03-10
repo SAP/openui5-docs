@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Step 3: Catch Invalid Hashes
 
-Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a "404" or *Not Found Page* from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.
+Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a “404” or *Not Found Page* from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.
 
 ***
 
@@ -18,7 +18,7 @@ Sometimes it is important to display an indication that the requested resource w
 
    
   
-*Not Found* page<a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_r1j_pst_mr"/>
+<a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_r1j_pst_mr"/>*Not Found* page
 
  ![](loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page") 
 
@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-Folder structure for this step<a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_chm_4jp_ls"/>
+<a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_chm_4jp_ls"/>Folder structure for this step
 
  ![](loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step") 
 
@@ -140,7 +140,7 @@ Open the URL `index.html#/thisIsInvalid` in your browser. From now on the user w
 -   Use the `sap.m.MessagePage` control to display routing related error messages
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.MessagePage`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.MessagePage.html)

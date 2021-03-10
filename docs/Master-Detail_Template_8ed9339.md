@@ -23,7 +23,7 @@ The flexible column layout is a layout control that displays multiple floorplans
 
    
   
-Screenshot of the Master-Detail App<a name="loio8ed9339f3a99418e82a02f0fb4b5d6b9__fig_jjm_khh_bt"/>
+<a name="loio8ed9339f3a99418e82a02f0fb4b5d6b9__fig_jjm_khh_bt"/>Screenshot of the Master-Detail App
 
  ![](loio2d145878ee8d475da971b21419109ce8_HiRes.jpg "Screenshot of the Master-Detail App") 
 
@@ -72,7 +72,7 @@ In our template, we use a simple layout that you can use as a basis for enhancem
 
 You can find more information about the possibilities of object pages at [SAP Fiori Design Guidelines - Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
-**Related information**  
+**Related Information**  
 
 
 [Demo Apps](Demo_Apps_a3ab54e.md)

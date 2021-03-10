@@ -20,7 +20,7 @@ In this step, we make it possible to delete user data.
 
    
   
-A new *Delete User* button is added<a name="loio12a0d1ef150a42ef81e9f07fe6407018__fig_m3r_hbx_4cb"/>
+<a name="loio12a0d1ef150a42ef81e9f07fe6407018__fig_m3r_hbx_4cb"/>A new *Delete User* button is added
 
  ![](loio32509f45ef8549998c73af49b8cfaa01_LowRes.png "A new Delete User button is added") 
 
@@ -153,7 +153,7 @@ deletionSuccessMessage=User deleted*HIGHLIGHT END*
 
 We add the missing texts to the properties file.
 
-**Related information**  
+**Related Information**  
 
 
 [Deleting an Entity](Deleting_an_Entity_2613ebc.md)

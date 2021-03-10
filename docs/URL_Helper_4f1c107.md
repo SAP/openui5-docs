@@ -75,7 +75,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 >     sap.m.URLHelper.normalizeEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] );  
 >     ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.URLHelper`](https://openui5.hana.ondemand.com/#/api/sap.m.URLHelper)

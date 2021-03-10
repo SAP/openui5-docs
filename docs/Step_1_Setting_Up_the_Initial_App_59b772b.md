@@ -22,7 +22,7 @@ The structure in this step will be used throughout the rest of this tutorial. Th
 
    
   
-The basic OpenUI5 app<a name="loio59b772bfac5241b89c16b12395c1116c__fig_r1j_pst_mr"/>
+<a name="loio59b772bfac5241b89c16b12395c1116c__fig_r1j_pst_mr"/>The basic OpenUI5 app
 
  ![](loio613be5aa54644aabbd11fbbb43fd5fcc_HiRes.png "The basic OpenUI5
 					app") 
@@ -41,7 +41,7 @@ You should have the same files as displayed in the following figure:
 
    
   
-Folder structure with downloaded files<a name="loio59b772bfac5241b89c16b12395c1116c__fig_chm_4jp_ls"/>
+<a name="loio59b772bfac5241b89c16b12395c1116c__fig_chm_4jp_ls"/>Folder structure with downloaded files
 
  ![](loiobc4395be3fd64b8aa49058340e92a192_HiRes.png "Folder structure with downloaded files") 
 

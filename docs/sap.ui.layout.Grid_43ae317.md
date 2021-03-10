@@ -133,7 +133,7 @@ In addition to individual span and indentation, there is a large number of prope
 	</tbody>
 </table>
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid)

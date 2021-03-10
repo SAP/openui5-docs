@@ -141,12 +141,12 @@ This special URL parameter could be used temporarily in cases when you extend an
 
        
       
-    OPA Test Results<a name="loiocfabbd4dfc054936997d9d00916e1668__fig_wq5_lm1_k1b"/>
+    <a name="loiocfabbd4dfc054936997d9d00916e1668__fig_wq5_lm1_k1b"/>OPA Test Results
 
      ![](loio2d0db1687d01471095d520ccdcce6d68_HiRes.png "OPA Test Results") 
 
 
-**Related information**  
+**Related Information**  
 
 
 [Execution Scope](Execution_Scope_e15067d.md)

@@ -20,7 +20,7 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
 
    
   
-The unit test for the `Flagged` feature will fail until the feature is implemented<a name="loioa5bb7a6d736f41c8ac1c1ef0b2d40676__fig_r1j_pst_mr"/>
+<a name="loioa5bb7a6d736f41c8ac1c1ef0b2d40676__fig_r1j_pst_mr"/>The unit test for the `Flagged` feature will fail until the feature is implemented
 
  ![](loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
 					feature is implemented") 
@@ -151,7 +151,7 @@ You can now call the unit tests and check the result. As in the previous step, t
 -   Organize the tests in the same file structure as the productive code
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.SimpleType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.SimpleType.html)

@@ -165,7 +165,7 @@ If the change operation fails, a UI message is created. But this UI message is d
 
 **Hint**: The read operation is often automatically triggered by the `v2.ODataModel`. To prevent this request from being sent, you can use the model parameter `refreshAfterChange`.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel)

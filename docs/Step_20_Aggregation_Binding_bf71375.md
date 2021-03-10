@@ -18,7 +18,7 @@ Now that we have established a good structure for our app, it's time to add some
 
    
   
-A list of invoices is displayed below the panel<a name="loiobf71375454654b44af01379a3c3a6273__fig_r1j_pst_mr"/>
+<a name="loiobf71375454654b44af01379a3c3a6273__fig_r1j_pst_mr"/>A list of invoices is displayed below the panel
 
  ![](loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel") 
 
@@ -191,7 +191,7 @@ invoiceListTitle=Invoices*HIGHLIGHT END*
 
 In the text bundle the title of the list is added.
 
-**Related information**  
+**Related Information**  
 
 
 [Lists](Lists_1da1581.md)

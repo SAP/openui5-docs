@@ -85,7 +85,9 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 });
 ```
 
- Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file: ```
+ Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file:
+
+ ```
 
 createContent: function() {
 
@@ -262,9 +264,8 @@ var oView = sap.ui.jsview({
 
 ```
 			</td>
-			<td> `JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used. 
-
-```
+			<td> `JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used.
+ ```
 
 sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
 								
@@ -355,7 +356,7 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 });
 ```
 
- > CAUTION:  
+ > Caution:  
  > Please make sure that you are correctly chaining to the `Fragment.load` Promise!
  > Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
 			</td>

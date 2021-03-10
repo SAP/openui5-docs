@@ -115,7 +115,7 @@ this.register(
 
 ```
 
-> CAUTION:  
+> Caution:  
 > All parameters extracted from capturing groups are of the JavaScript type `string`. You will need to use `parseInt` to convert numbers into type `int` before you do a numerical comparison.
 
 Here are a few regular expression concepts that are especially useful in Gherkin:
@@ -130,7 +130,7 @@ s? – matches the character "s" if it's there (replace "s" with any character)
 
 ```
 
-> CAUTION:  
+> Caution:  
 > A common problem in regular expressions is that many characters are reserved and have a special meaning, in particular backslash \(`\`\), period \(`.`\), asterisk \(`*`\), plus \(`+`\), dash \(`-`\) and braces \(`[]`, `()` and `{}`\). Put the backslash character in front of a special character to treat it as plain text, for example: `\-` or `\+`.
 > 
 > If your regular expression contains multiple parameters, then they will be passed to the test function in the same order as they appear in the regular expression.

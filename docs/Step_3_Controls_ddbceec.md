@@ -18,7 +18,7 @@ Now it is time to build our first little UI by replacing the “Hello World” t
 
    
   
-The "Hello World" text is now displayed by a OpenUI5 control<a name="loioddbceecd7d3d42eea9cf78a820a238fb__fig_r1j_pst_mr"/>
+<a name="loioddbceecd7d3d42eea9cf78a820a238fb__fig_r1j_pst_mr"/>The "Hello World" text is now displayed by a OpenUI5 control
 
  ![](loio7cad93a924694474acd782b34e162d4b_HiRes.png "The "Hello World" text is now displayed by a OpenUI5
 					control") 
@@ -99,7 +99,7 @@ Don’t forget to remove the “Hello World”.
 > Note:  
 > Only instances of `sap.ui.core.Control` or their subclasses can be rendered stand-alone and have a `placeAt` function. Each control extends `sap.ui.core.Element` that can only be rendered inside controls. Check the API reference to learn more about the inheritance hierarchy of controls. The API documentation of each control refers to the directly known subclasses.
 
-**Related information**  
+**Related Information**  
 
 
 [Working with Controls](Working_with_Controls_91f0a22.md)

@@ -33,7 +33,7 @@ The `createContent()` function is responsible for the UI definition and has to r
 
 Despite the many similarities to views, there are also differences: First of all, there is no `getControllerName()` method. Fragments cannot specify whether they have a controller. Whether `oController` is defined or not is not a decision of the fragment itself. Instead, it is decided by the code instantiating the fragment. If that code is part of a controller, it can pass a reference to itself to the fragment. This means there can be a dependency between controllers and fragments: Fragments may expect a controller to exist and to have certain methods. And controllers may expect certain controls to be in the fragment. This is in line with the purpose of fragments - to be very light-weight re-use entities that provide little encapsulation. For more encapsulation, views or even components are better suited.
 
-**Related information**  
+**Related Information**  
 
 
 [Components](Components_958ead5.md)

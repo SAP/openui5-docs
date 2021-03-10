@@ -48,7 +48,7 @@ The attribute can be selected in CSS with `html[data-sap-ui-animation-mode="<mod
 > }
 > ```
 
-**Related information**  
+**Related Information**  
 
 
 [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)

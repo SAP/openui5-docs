@@ -178,7 +178,7 @@ The following example shows how to set the submit mode `sap.ui.model.odata.v4.Su
 >     }
 > ```
 
-**Related information**  
+**Related Information**  
 
 
 [ODataModel.submitBatch](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch)

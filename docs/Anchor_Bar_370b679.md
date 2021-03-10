@@ -22,7 +22,7 @@ The anchor bar is an automatically generated internal menu that shows the titles
 
    
   
-Anchor Bar with Sections and Subsections<a name="loio370b67986497463187336fa130aebbf1__fig_znw_wpt_ncb"/>
+<a name="loio370b67986497463187336fa130aebbf1__fig_znw_wpt_ncb"/>Anchor Bar with Sections and Subsections
 
  ![](loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections") 
 
@@ -114,7 +114,7 @@ Here is an example showing the usage of custom controls for the anchor bar butto
 </ObjectPageLayout>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.AnchorBar.html)

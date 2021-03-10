@@ -160,7 +160,7 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Constructor: sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html#constructor)

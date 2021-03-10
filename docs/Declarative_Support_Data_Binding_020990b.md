@@ -30,7 +30,7 @@ Just add the model path in curly brackets and bind the model to the control \(or
 
 In the example above, the button template is used for the carousel content data binding.
 
-**Related information**  
+**Related Information**  
 
 
 [Data Binding](Data_Binding_68b9644.md)

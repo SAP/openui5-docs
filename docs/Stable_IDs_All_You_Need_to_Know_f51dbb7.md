@@ -171,18 +171,22 @@ new Button({
  > Note:
    > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
- For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself. Example: ``` js
-```
+ For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself.
 
- > Note:  
-> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
+ Example:
 
- |
-| *HIGHLIGHT START*Embedded Components*HIGHLIGHT END* | If you want to add an embedded component with a stable ID, you have two options:
-
-1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
-
-    ``` json
+ ``` js
+// "Shell" required from module "sap/m/Shell"
+new Shell({
+   app: new ComponentContainer({
+      height : "100%",
+      name : "sap.ui.demo.worklist",
+      settings: {
+         id: "worklist"
+      }
+   })
+}).placeAt("content");
+									
 ```
 
  > Note:  
@@ -252,7 +256,11 @@ Alternatively, you could use `sap.ui.core.Component.create()` and specify the `i
 		</tr>
 		<tr>
 			<td> **XML fragments** </td>
-			<td>If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix. Example: ``` js// "Fragment" required from module "sap/ui/core/Fragment"
+			<td> If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+ Example:
+
+ ``` js
+// "Fragment" required from module "sap/ui/core/Fragment"
 Fragment.load({
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
@@ -309,7 +317,7 @@ With the Support Assistant, you can analyze whether there are any issues with th
 
 If any generated IDs are found, set the IDs for these controls manually as described [here](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_setstableid).
 
-**Related information**  
+**Related Information**  
 
 
 [Support Assistant](Support_Assistant_57ccd7d.md)

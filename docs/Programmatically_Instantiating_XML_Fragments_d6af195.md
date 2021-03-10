@@ -50,12 +50,12 @@ Fragment.load({
 });
 ```
 
-> CAUTION:  
+> Caution:  
 > Make sure that you are correctly chaining to the `Fragment.load` Promise!
 > 
 > Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `Fragment.load()`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load)

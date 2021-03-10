@@ -155,7 +155,7 @@ Alternatively, a `<meta>` tag can be used to configure the `allowlistService` an
 </script>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Allowlist Service](Allowlist_Service_d04a6d4.md)

@@ -107,7 +107,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 > 
 > Take a look at the demo scenario for a complete overview of all OData v4 notations.
 
-> CAUTION:  
+> Caution:  
 > The OData model is based on `GWSAMPLE_BASIC` and will not work unless a suitable proxy for back-end access is used. For simplicity, no mock data is included in this example.
 > 
 > For more information, see the Help topic, [Sample Service - Basic](http://help.sap.com/saphelp_nw74/helpdata/en/59/283fc4528f486b83b1a58a4f1063c0/frameset.htm).
@@ -269,7 +269,7 @@ Overall, XML templating is based on:
 > Note:  
 > XML Templating works almost the same for OData V4 as for OData V2; for the differences see the *Annotations* section in [Meta Model for OData V4](Meta_Model_for_OData_V4_7f29fb3.md).
 
-**Related information**  
+**Related Information**  
 
 
 [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2)

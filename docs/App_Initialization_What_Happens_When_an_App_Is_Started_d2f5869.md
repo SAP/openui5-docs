@@ -19,7 +19,7 @@ When a user starts an app \(in the SAP Fiori launchpad \(FLP\) or using an HTML 
 > 
 > If a controller has created resources that need to be destroyed explicitly, for example non-aggregated controls, the app developer has to use the `onExit` function of the controller to free up resources. For more information, see [Controller](Controller_121b8e6.md).
 
-**Related information**  
+**Related Information**  
 
 
 [App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md)

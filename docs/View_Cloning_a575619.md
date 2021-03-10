@@ -27,7 +27,7 @@ Not cloned, but recreated are all aggregations, namely the content.
 
 In scenarios where the above clone approach still leads to undesirable behavior, factory functions can be used for the aggregation binding instead.
 
-**Related information**  
+**Related Information**  
 
 
 [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)

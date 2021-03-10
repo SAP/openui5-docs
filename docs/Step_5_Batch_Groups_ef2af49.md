@@ -20,7 +20,7 @@ In this step, we have a closer look at batch groups. Batch groups are used to gr
 
    
   
-No visual change compared to the last step<a name="loioef2af4957fae469e9203e98006d3ee75__fig_klh_5kw_4cb"/>
+<a name="loioef2af4957fae469e9203e98006d3ee75__fig_klh_5kw_4cb"/>No visual change compared to the last step
 
  ![](loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "No visual change compared to the last step") 
 
@@ -67,7 +67,7 @@ A `$batch` request uses multipart MIME to put several requests into one. This ma
 -   Copy the relevant part of the request or response from the developer tools to an editor and auto-format it as JSON to analyze it.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Batch Control](Batch_Control_74142a3.md)

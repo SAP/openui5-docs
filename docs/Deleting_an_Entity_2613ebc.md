@@ -33,7 +33,7 @@ onDeleteSalesOrder : function () {
 },
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Context.delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete)

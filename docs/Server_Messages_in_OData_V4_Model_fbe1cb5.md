@@ -286,7 +286,7 @@ Let `messageModel` be the named message model. A table row with messages can be 
 > });
 > ```
 
-**Related information**  
+**Related Information**  
 
 
 [https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common](https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common)

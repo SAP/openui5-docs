@@ -46,7 +46,39 @@ For single-sided margins, choose a size \(`Tiny`, `Small`, `Medium`, or `Large`,
 
 Here are the classes we provide for single-sided margins:
 
-| `sapUiTinyMarginTop` `sapUiTinyMarginBottom` `sapUiTinyMarginBegin` `sapUiTinyMarginEnd` | `sapUiSmallMarginTop` `sapUiSmallMarginBottom` `sapUiSmallMarginBegin` `sapUiSmallMarginEnd` | `sapUiMediumMarginTop` `sapUiMediumMarginBottom` `sapUiMediumMarginBegin` `sapUiMediumMarginEnd` | `sapUiLargeMarginTop` `sapUiLargeMarginBottom` `sapUiLargeMarginBegin` `sapUiLargeMarginEnd` |
+| `sapUiTinyMarginTop`
+
+ `sapUiTinyMarginBottom`
+
+ `sapUiTinyMarginBegin`
+
+ `sapUiTinyMarginEnd`
+
+ | `sapUiSmallMarginTop`
+
+ `sapUiSmallMarginBottom`
+
+ `sapUiSmallMarginBegin`
+
+ `sapUiSmallMarginEnd`
+
+ | `sapUiMediumMarginTop`
+
+ `sapUiMediumMarginBottom`
+
+ `sapUiMediumMarginBegin`
+
+ `sapUiMediumMarginEnd`
+
+ | `sapUiLargeMarginTop`
+
+ `sapUiLargeMarginBottom`
+
+ `sapUiLargeMarginBegin`
+
+ `sapUiLargeMarginEnd`
+
+ |
 
 ***
 
@@ -54,7 +86,23 @@ Here are the classes we provide for single-sided margins:
 
 If you’d like to clear the space to the left and right or top and bottom of your control, we've provided several two-sided margin classes for you to use. Again, just choose the size and orientation that you need \(`BeginEnd`, `TopBottom`\). For example, if you need to clear a 32px space both to the left and right of a control, you would add the class `sapUiMediumMarginBeginEnd`. Here are the classes that are available:
 
-| `sapUiTinyMarginBeginEnd` `sapUiTinyMarginTopBottom` | `sapUiSmallMarginBeginEnd` `sapUiSmallMarginTopBottom` | `sapUiMediumMarginBeginEnd` `sapUiMediumMarginTopBottom` | `sapUiLargeMarginBeginEnd` `sapUiLargeMarginTopBottom` |
+| `sapUiTinyMarginBeginEnd`
+
+ `sapUiTinyMarginTopBottom`
+
+ | `sapUiSmallMarginBeginEnd`
+
+ `sapUiSmallMarginTopBottom`
+
+ | `sapUiMediumMarginBeginEnd`
+
+ `sapUiMediumMarginTopBottom`
+
+ | `sapUiLargeMarginBeginEnd`
+
+ `sapUiLargeMarginTopBottom`
+
+ |
 
 We've also provided a set of negative margin classes that add a two-sided \(`BeginEnd`\) negative margin of an element. The negative margins are useful for aligning elements with built-in paddings.
 

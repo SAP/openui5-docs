@@ -82,7 +82,7 @@ If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com
 
 The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`Context#getPath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
 
-**Related information**  
+**Related Information**  
 
 
 [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding)

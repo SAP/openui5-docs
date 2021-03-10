@@ -41,7 +41,7 @@ The following table shows the supported features for both OData models:
 
 The requests to the service to fetch data are made automatically based on the data bindings that are defined for the controls.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
@@ -647,7 +647,7 @@ To describe the preliminary context feature in more detail, we first have to loo
 
    
   
-Simple Binding Example<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example
 
  ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example") 
 
@@ -657,7 +657,7 @@ For example, if **Binding 1** is a relative `ODataListBinding` on a `Table` cont
 
 This leads to two subsequent OData requests, one for **Binding 0** and afterwards one for **Binding 1**, as shown in the following table:
 
-Simple Example: Binding Resolution<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Example: Binding Resolution
 
 |Request Number|Content|
 |--------------|-------|
@@ -668,13 +668,13 @@ Now let's look at a more complex example.
 
    
   
-Complex Binding Example<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_j4y_3bz_zbb"/>
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_j4y_3bz_zbb"/>Complex Binding Example
 
  ![](loio410269787de249dc8b573954dd0adc86_LowRes.png "Complex Binding Example") 
 
 In this example we add another binding, which will be resolved once **Binding 0** and **Binding 1** are resolved. This leads to the following three individual `$batch` requests:
 
-Complex Example: Binding Resolution<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ssr_ddz_zbb"/>
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ssr_ddz_zbb"/>Complex Example: Binding Resolution
 
 |Request Number|Content|
 |--------------|-------|
@@ -690,7 +690,7 @@ Let's look at the same simple example but with some optimizations.
 
    
   
-Simple Binding Example - Optimized<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example - Optimized
 
  ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example - Optimized") 
 
@@ -698,11 +698,26 @@ Here **Binding 1** uses the preliminary context created by **Binding 0**, and th
 
 This now leads to only a single `$batch` request:
 
-Simple Example: Binding Resolution Optimized<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Example: Binding Resolution Optimized
 
-|Request Number|Content|
-|--------------|-------|
-|1| `GET Products(1)` `GET Products(1)/Supplier` |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Request Number</th>
+			<th>Content</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td> `GET Products(1)`
+ `GET Products(1)/Supplier`
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 In this example **Binding 1** has set its `usePreliminaryContext` flag to `true`, and thus accepts preliminary contexts to be set.
 
@@ -713,7 +728,7 @@ Now let's see how this works in the complex example.
 
    
   
-Complex Binding Example - Optimized<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_yv1_fhz_zbb"/>
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_yv1_fhz_zbb"/>Complex Binding Example - Optimized
 
  ![](loioe02b1d8006634769b0094215622c626d_LowRes.png "Complex Binding Example - Optimized") 
 
@@ -721,11 +736,28 @@ In this example we added another binding to the scenario. **Binding 2** is again
 
 In this case the single, generated request looks like this:
 
-Complex Example: Binding Resolution Optimized<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ihd_nhz_zbb"/>
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ihd_nhz_zbb"/>Complex Example: Binding Resolution Optimized
 
-|Request Number|Content|
-|--------------|-------|
-|1| `GET Products(1)` `GET Products(1)/Supplier` `GET Products(1)/Supplier/Products` |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Request Number</th>
+			<th>Content</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td> `GET Products(1)`
+ `GET Products(1)/Supplier`
+
+ `GET Products(1)/Supplier/Products`
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -740,11 +772,15 @@ As opposed to the default behavior, we do not require to have the **Products\(1\
 > 
 > For example, if **Binding 2** sets its `usePreliminaryContext` option to `false`, the resolution chain is broken and we have a mixed scenario. Here one part is loaded optimized in one `$batch`, and the second part is loaded in a separate `$batch`:
 > 
-> Complex Example: Binding Resolution Optimized<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_zr4_m3z_zbb"/>
+> <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_zr4_m3z_zbb"/>Complex Example: Binding Resolution Optimized
 > 
 > |Request Number|Content|
 > |--------------|-------|
-> |1| `GET Products(1)` `GET Products(1)/Supplier` |
+> |1| `GET Products(1)`
+> 
+>  `GET Products(1)/Supplier`
+> 
+>  |
 > |2| `GET Products(1)/Supplier/Products` |
 
 > Note:  
@@ -2570,7 +2606,7 @@ sap:semantics = "email";type=work,pref
 	</tbody>
 </table>
 
-**Related information**  
+**Related Information**  
 
 
 [XML Templating](XML_Templating_5ee619f.md)

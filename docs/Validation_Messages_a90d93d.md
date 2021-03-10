@@ -119,7 +119,7 @@ oMessageManager.addMessages(
 );
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.ControlMessageProcessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ControlMessageProcessor.html)

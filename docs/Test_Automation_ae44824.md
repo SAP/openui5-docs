@@ -16,7 +16,7 @@ In the following section, we describe the setup with *Karma*, but you can of cou
 
 *Karma* uses plugins to add support for various framworks. For OpenUI5, you can use the `karma-ui5` plugin that helps with testing OpenUI5 projects.
 
-**Related information**  
+**Related Information**  
 
 
 [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
@@ -113,7 +113,7 @@ npm init --yes
     ```
 
 
-**Related information**  
+**Related Information**  
 
 
 [*Karma* Home Page](https://karma-runner.github.io/)

@@ -26,7 +26,7 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
    
   
-A dialog opens when the new “Say Hello With Dialog” button is clicked<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__fig_dzj_yzv_sr"/>
+<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__fig_dzj_yzv_sr"/>A dialog opens when the new “Say Hello With Dialog” button is clicked
 
  ![](loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked") 
 
@@ -176,7 +176,7 @@ helloPanelTitle=Hello World
 
 We add a new text for the open button to the text bundle.
 
-**Related information**  
+**Related Information**  
 
 
 [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)

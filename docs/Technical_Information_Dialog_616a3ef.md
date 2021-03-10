@@ -83,7 +83,7 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 -   *Loaded Libraries* - Displays a list of the currently loaded libraries.
 -   *Loaded Modules* - Displays a collapsible list of the currently loaded modules.
 
-Technical Information Dialog on Mobile Devices<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__table_mr1_wbn_tv"/>
+<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__table_mr1_wbn_tv"/>Technical Information Dialog on Mobile Devices
 
 |![Technical Information in Mobile App](loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
@@ -110,7 +110,7 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
 
   
   
-Gesture for opening the technical information dialog<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__fig_rlq_rlj_b1b"/>
+<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__fig_rlq_rlj_b1b"/>Gesture for opening the technical information dialog
 
 ![](loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
 

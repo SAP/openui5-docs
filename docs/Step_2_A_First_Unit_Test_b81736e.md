@@ -38,7 +38,7 @@ As we use Test Driven Development \(TDD\) we define the test case first, before 
 
    
   
-The unit test will initially fail as the implementation is not provided yet<a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_r1j_pst_mr"/>
+<a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_r1j_pst_mr"/>The unit test will initially fail as the implementation is not provided yet
 
  ![](loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
 					yet") 
@@ -54,7 +54,7 @@ All unit tests are located in the `webapp/test/unit` folder and can be started m
 
    
   
-Unit test infrastructure in the application<a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_fd3_kyd_ft"/>
+<a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_fd3_kyd_ft"/>Unit test infrastructure in the application
 
  ![](loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit test infrastructure in the application") 
 
@@ -179,7 +179,7 @@ Whenever we run the tests, we will implicitly check that the feature is still wo
 
 Let’s have a look at the implementation of the unit tests now: We add our unit tests to the `webapp/test/unit/model/formatter.js` file. The path below the app and the test folder is similar so it can easily associate the test with the tested functionality. There are already formatter functions for the number unit conversion defined in the code - you can have a quick look before we add our own tests.
 
-We add a new QUnit module for our price state tests after the number unit conversion tests. We could write a test checking the result of the formatter for each of these cases but we do not want to repeat ourselves \("DRY"\) – neither in the tests nor in the application coding – so we create a reuse function called `priceStateTestCase`. In this function, we call the formatter with the arguments provided as `oOptions` and make a `strictEqual` assertion for the expected parameter.
+We add a new QUnit module for our price state tests after the number unit conversion tests. We could write a test checking the result of the formatter for each of these cases but we do not want to repeat ourselves \(“DRY”\) – neither in the tests nor in the application coding – so we create a reuse function called `priceStateTestCase`. In this function, we call the formatter with the arguments provided as `oOptions` and make a `strictEqual` assertion for the expected parameter.
 
 > Note:  
 > There must be at least one assertion per QUnit test. If the actual value matches the expected value then the test is successful. However, if there are more assertions in a test case and a subsequent assertion fails, the whole test fails with the error message of the failed assertion.
@@ -206,7 +206,7 @@ TDD methodology tells us to do the implementation as soon as the test fails and 
 -   Write unit tests for testing the logical correctness of your features
 
 
-**Related information**  
+**Related Information**  
 
 
 [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)

@@ -53,7 +53,7 @@ If the current layout is `OneColumn` \(only the `Begin` column is displayed\), a
 
 Note that the `getNextUIState` method is not static – its return value depends on the current state of the control. For example, calling `getNextUIState(2)` will return `ThreeColumnsMidExpanded` if currently a two-column layout is displayed, but `EndColumnFullScreen` - if a fullscreen layout is displayed, etc.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.f.FlexibleColumnLayoutSemanticHelper`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.FlexibleColumnLayoutSemanticHelper.html)

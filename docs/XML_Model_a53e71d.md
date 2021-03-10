@@ -38,7 +38,7 @@ oModel.loadData("data.xml");
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.xml.XMLModel.html) in the Demo Kit.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.xml.XMLModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.xml.XMLModel.html)

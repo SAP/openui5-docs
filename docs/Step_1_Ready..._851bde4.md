@@ -20,7 +20,7 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
 
    
   
-The browser shows a "Ready" button that triggers a "Hello World" message<a name="loio851bde42e4e1410c96abbe402fa9128c__fig_vf2_vfl_4s"/>
+<a name="loio851bde42e4e1410c96abbe402fa9128c__fig_vf2_vfl_4s"/>The browser shows a "Ready" button that triggers a "Hello World" message
 
  ![](loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message") 
 
@@ -98,9 +98,9 @@ In your `webapp` folder, create a new file `index.js` that will be called as soo
 
 We load two UI controls - a button and a message toast - and place the button in the element with the `content` ID. The button is defined with a `text` property and a callback attached to its `press` event.
 
-Now open the `index.html` file in your browser. When the button is pressed, a message toast with the "Hello World" message is shown at the bottom of the screen.
+Now, start the webserver, serve the sources of the \`webapp\` folder, and open the `index.html` file in your browser. When the button is pressed, a message toast with the "Hello World" message is shown at the bottom of the screen.
 
-**Related information**  
+**Related Information**  
 
 
 [Development Environment](Development_Environment_7bb04e0.md)

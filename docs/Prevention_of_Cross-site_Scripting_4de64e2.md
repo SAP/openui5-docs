@@ -45,7 +45,7 @@ To ensure maximum security for a renderer, note the following:
     -   Escape values given in parameters in method calls of controls because they are currently not validated by OpenUI5 core.
     -   Keep in mind that XSS can happen anywhere and anytime in CSS classes, or in styles.
 
-**Related information**  
+**Related Information**  
 
 
 [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md)

@@ -30,7 +30,7 @@ The service responds to the request with a valid JSON:
 }
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Frame Options](Frame_Options_62d9c4d.md)

@@ -20,7 +20,7 @@ In this step, we implement a bookmarking feature by enabling deep linking to tab
 
    
   
-Deep link to allow bookmarkable tabs<a name="loiob8561ff6f4c34c85a91ed06d20814cd3__fig_r1j_pst_mr"/>
+<a name="loiob8561ff6f4c34c85a91ed06d20814cd3__fig_r1j_pst_mr"/>Deep link to allow bookmarkable tabs
 
  ![](loio3eb33f8439b842629261fbd72a92d371_LowRes.png "Deep link to allow bookmarkable tabs") 
 
@@ -231,7 +231,7 @@ From now on our tabs are bookmarkable. Try to access the following \(deep\) link
 
 When you click on any tab you will see that the hash in the URL changes immediately, and when you change the hash in the URL parameter manually, you can see that the UI is also updated accordingly.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.IconTabBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.IconTabBar.html)

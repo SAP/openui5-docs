@@ -17,7 +17,7 @@ The following rules apply for given IDs:
 -   Given IDs are prefixed with only the view ID when no fragment ID was given
 -   Given IDs are prefixed with both view ID and fragment ID when a fragment ID was given
 
-**Related information**  
+**Related Information**  
 
 
 [Example: JS Fragments Used in XML Views](Example_JS_Fragments_Used_in_XML_Views_faaff35.md)

@@ -29,7 +29,7 @@ In the following diagram you can see how the Support Assistant is connected to t
 
    
   
-Support Assistant Architecture<a name="loioa34eb58aaf124f538a3ead23a6cab04a__fig_y25_ws5_41b"/>
+<a name="loioa34eb58aaf124f538a3ead23a6cab04a__fig_y25_ws5_41b"/>Support Assistant Architecture
 
  ![](loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture") 
 
@@ -240,7 +240,7 @@ sap.ui.require(["sap/ui/support/RuleAnalyzer"],
 -   `RuleAnalyzer.getFormattedAnalysisHistory(sap.ui.support.HistoryFormats)` - Returns the history in the format that has been passed. The default format is string.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md)

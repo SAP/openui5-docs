@@ -20,7 +20,7 @@ The following sections give an overview of the known degradations.
 
 The visual aid for indicating multiline overflow is an ellipsis at the end of a line. This ellipsis is displayed if the text string exceeds the maximum number of lines displayed on screen. Depending on the line-clamping support offered by your browser, this visual aid may not be displayed at all, meaning the text is simply truncated without any visual indication that it is incomplete. The table below outlines which browsers fail to support the multiline ellipsis handling of the `maxLines` property, and also shows examples the visual degradation along with what the display should look like when it is supported:
 
-maxLines Visual Degradations<a name="loiof08f29636be1472dac8f35fe7918ee08__table_epw_lwr_tkb"/>
+ <a name="loiof08f29636be1472dac8f35fe7918ee08__table_epw_lwr_tkb"/>maxLines Visual Degradations
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 

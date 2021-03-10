@@ -246,7 +246,7 @@ The existing `titleChanged` event is extended with the following properties:
 
         -   `isHome`: whether the title was changed from the home route
 
-**Related information**  
+**Related Information**  
 
 
 [Sample application: Routing with nested components](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.routing.Router/sample/sap.ui.core.sample.RoutingNestedComponent)

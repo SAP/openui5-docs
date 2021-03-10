@@ -18,11 +18,11 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
 
    
   
-Unit tests of the formatter<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__fig_r1j_pst_mr"/>
+<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__fig_r1j_pst_mr"/>Unit tests of the formatter
 
  ![](loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter") 
 
-Depending on the current date, we distinguish four different formatting categories, as shown in the table below:Formatting Categories<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>
+Depending on the current date, we distinguish four different formatting categories, as shown in the table below:<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>Formatting Categories
 
 |Category|Sample Input|Expected Output \(for `en-US`\)|
 |--------|------------|-------------------------------|

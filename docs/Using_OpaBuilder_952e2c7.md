@@ -304,7 +304,7 @@ As already seen in the last example, `OpaBuilder` has two static members: `OpaBu
 
 ***
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.test.OpaBuilder`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder)

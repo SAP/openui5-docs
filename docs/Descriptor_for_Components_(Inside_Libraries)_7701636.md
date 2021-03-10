@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The descriptor for components contains a subset of the attributes in the descriptor for applications
 
-Attributes in the `sap.app` namespace<a name="loio7701636d088147569d99b4f08d418bd9__table_rpm_xjz_45"/>
+<a name="loio7701636d088147569d99b4f08d418bd9__table_rpm_xjz_45"/>Attributes in the `sap.app` namespace
 
 |Attribute|Comment|
 |---------|-------|
@@ -30,7 +30,7 @@ Attributes in the `sap.app` namespace<a name="loio7701636d088147569d99b4f08d418b
 | `offline` | |
 | `sourceTemplate` | |
 
-Attributes in the `sap.ui` namespace<a name="loio7701636d088147569d99b4f08d418bd9__table_sry_dlz_45"/>
+ <a name="loio7701636d088147569d99b4f08d418bd9__table_sry_dlz_45"/>Attributes in the `sap.ui` namespace
 
 |Attribute|Comment|
 |---------|-------|
@@ -38,22 +38,43 @@ Attributes in the `sap.ui` namespace<a name="loio7701636d088147569d99b4f08d418bd
 | `deviceTypes` | |
 | `supportedThemes` | |
 
-Attributes in the `sap.ui5` namespace<a name="loio7701636d088147569d99b4f08d418bd9__table_ydc_bmz_45"/>
+ <a name="loio7701636d088147569d99b4f08d418bd9__table_ydc_bmz_45"/>Attributes in the `sap.ui5` namespace
 
-|Attribute|Comment|
-|---------|-------|
-| `resources` | |
-| `dependencies` | `libs` `components` |
-| `models` | |
-| `rootView` | |
-| `handleValidation` | |
-| `config` | |
-| `routing` | |
-| `extends` | `component` `minVersion` |
-| `contentDensities` | |
-| `componentName` | |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
-Attributes in the `sap.mobile` namespace<a name="loio7701636d088147569d99b4f08d418bd9__table_o1x_lmz_45"/>
+<table>
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Comment</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> `resources` </td>
+			<td> `dependencies` </td>
+			<td> `libs`
+ `components`
+			</td>
+		</tr>
+		<tr>
+			<td> `models` </td>
+			<td> `rootView` </td>
+			<td> `handleValidation` </td>
+			<td> `config` </td>
+			<td> `routing` </td>
+			<td> `extends` </td>
+			<td> `component`
+ `minVersion`
+			</td>
+		</tr>
+		<tr>
+			<td> `contentDensities` </td>
+			<td> `componentName` </td>
+	</tbody>
+</table>
+
+ <a name="loio7701636d088147569d99b4f08d418bd9__table_o1x_lmz_45"/>Attributes in the `sap.mobile` namespace
 
 |Attribute|Comment|
 |---------|-------|

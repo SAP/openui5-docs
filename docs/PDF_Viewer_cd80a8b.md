@@ -24,7 +24,7 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
    
   
-PDF Viewer Example<a name="loiocd80a8bca4ac450b86547d78f0653330__fig_epr_skx_31b"/>
+<a name="loiocd80a8bca4ac450b86547d78f0653330__fig_epr_skx_31b"/>PDF Viewer Example
 
  ![PDF Viewer Example](loioc4692b3bfc554c33ac2aa0af59b592db_LowRes.png "PDF Viewer Example") 
 
@@ -101,7 +101,7 @@ PDF Viewer Example<a name="loiocd80a8bca4ac450b86547d78f0653330__fig_epr_skx_31b
 -   Support for fillable PDF forms depends on the browser and device limitations.
 
 
-**Related information**  
+**Related Information**  
 
 
 [URL List Validation](URL_List_Validation_91f3768.md)

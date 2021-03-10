@@ -18,7 +18,7 @@ When we are on the *Not Found* page because of an invalid hash, we want to get b
 
    
   
-*Not Found* page with *Back* button<a name="loio66670b0aab3948469d5cc8276113e9ea__fig_r1j_pst_mr"/>
+<a name="loio66670b0aab3948469d5cc8276113e9ea__fig_r1j_pst_mr"/>*Not Found* page with *Back* button
 
  ![](loio1cbb1ebea9e242ffae22d7172b91e241_LowRes.png "Not Found page with Back
 					button") 
@@ -47,7 +47,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 </mvc:View>
 ```
 
-In the `NotFound` view, we set the property `showNavButton` of the `MessagePage` control to `true` to automatically display the *Back* button. We also add an event handler function `onNavBack` to the `navButtonPress` event of the control. The `onNavBack` function will handle the actual back navigation. We could directly add this function to the view’s controller. However, we are smart enough to anticipate that we might need the same handler function for different views. DRY \("Don’t Repeat Yourself"\) is the right approach for us, so let’s create a `BaseController` from which all other controllers will inherit.
+In the `NotFound` view, we set the property `showNavButton` of the `MessagePage` control to `true` to automatically display the *Back* button. We also add an event handler function `onNavBack` to the `navButtonPress` event of the control. The `onNavBack` function will handle the actual back navigation. We could directly add this function to the view’s controller. However, we are smart enough to anticipate that we might need the same handler function for different views. DRY \(“Don’t Repeat Yourself”\) is the right approach for us, so let’s create a `BaseController` from which all other controllers will inherit.
 
 ***
 
@@ -164,7 +164,7 @@ The same applies to our home controller, we also extend it with the base control
 -   Query the history and go to the home page if there is no history available for the current app
 
 
-**Related information**  
+**Related Information**  
 
 
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md)

@@ -115,7 +115,7 @@ If you can't fix the problem, try downloading the solution of the previews or cu
 
 If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
 
-**Related information**  
+**Related Information**  
 
 
 [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)

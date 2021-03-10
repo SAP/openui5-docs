@@ -145,7 +145,7 @@ The check function has three main and one optional parameters. The main ones are
 > Remember:  
 > Make sure to call `**issueManager.addIssue\(\)**` in your check function so that issues can be seen in the analysis results.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.support.ExecutionScope`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.support.ExecutionScope.html)

@@ -68,7 +68,7 @@ It returns a path inside the meta model which refers to the corresponding proper
 </template:with>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Annotation Helper](Annotation_Helper_dbec058.md)

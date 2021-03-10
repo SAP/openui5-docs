@@ -24,11 +24,19 @@ With the use of cards, you can group information, link to details, or present a 
 
 The following table provides an overview of the two main types of card controls in the OpenUI5 framework:
 
-Overview of Cards and Supported Features<a name="loio5b46b03f024542ba802d99d67bc1a3f4__table_uzb_zmy_vs"/>
+ <a name="loio5b46b03f024542ba802d99d67bc1a3f4__table_uzb_zmy_vs"/>Overview of Cards and Supported Features
 
-| **Feature Supported** |\(Integration Card\) **`[sap.ui.integration.widgets.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card)`** |\(Freestyle Card\) **`[sap.f.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card)`** |
+| **Feature Supported** | \(Integration Card\)
+
+ **`[sap.ui.integration.widgets.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card)`**
+
+ | \(Freestyle Card\)
+
+ **`[sap.f.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card)`**
+
+ |
 |Adaptive, Analytical, List, Object, Table, and Timeline cards|Component card|
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 |-------------------------------------------------------------|--------------|
 | **Fiori 3 card UX** | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
 | **Cross product integration** | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
@@ -180,7 +188,7 @@ Example:
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Components](Components_958ead5.md)

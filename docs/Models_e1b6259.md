@@ -48,7 +48,7 @@ You can not only define one model for your applications, but define different ar
 
 A Web application should support several data sources, such as JSON, XML, Atom, or OData. However, the way in which data binding is defined and implemented within the UI controls should be independent of the respective data source. It is also possible to create a custom model implementation for data sources that are not yet covered by the framework or are domain-specific.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.html)

@@ -41,7 +41,7 @@ You can test your control by setting the URL parameter `sap-ui-rtl` to `true`. T
 
 Languages that have RTL text directionality keep the default directionality of numeric values and texts in LTR mode. In order to handle these cases, OpenUI5 uses two additional API properties - `textDirection` and `textAlign`. You can find detailed information on how to use these properties in the section **Related Information**.
 
-**Related information**  
+**Related Information**  
 
 
 [API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md)

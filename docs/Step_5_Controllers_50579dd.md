@@ -18,7 +18,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
    
   
-A *Say Hello* button is added<a name="loio50579ddf2c934ce789e056cfffe9efa9__fig_r1j_pst_mr"/>
+<a name="loio50579ddf2c934ce789e056cfffe9efa9__fig_r1j_pst_mr"/>A *Say Hello* button is added
 
  ![](loio5717fb5a15474c678d4b9806008e8079_HiRes.png "A Say Hello button is added") 
 
@@ -95,7 +95,7 @@ We define the app controller in its own file by extending the `Controller` objec
 -   Controller names always end with `*.controller.js`
 
 
-**Related information**  
+**Related Information**  
 
 
 [Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)

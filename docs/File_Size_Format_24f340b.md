@@ -56,7 +56,7 @@ oFileSizeFormat.parse("1.23 MiB"); //returns 1289748.48
 oFileSizeFormat.parse("1 MB"); // returns 1230000
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.format.FileSizeFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.FileSizeFormat.html)

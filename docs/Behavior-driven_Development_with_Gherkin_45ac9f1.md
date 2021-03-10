@@ -24,7 +24,7 @@ Since writing integration tests can be time-consuming, it's better to use unit t
 
 ### Gherkin
 
-Gherkin is written in JavaScript and is fully compatible with OpenUI5, OPA, and QUnit. It is based on the "cucumber" tool.
+Gherkin is written in JavaScript and is fully compatible with OpenUI5, OPA, and QUnit. It is based on the “cucumber” tool.
 
 The advantages of using Gherkin are:
 
@@ -71,7 +71,7 @@ The Gherkin library contains the following parts:
     Convenience library for handling data tables and string normalization.
 
 
-**Related information**  
+**Related Information**  
 
 
 [cucumber Home Page](https://cucumber.io/)

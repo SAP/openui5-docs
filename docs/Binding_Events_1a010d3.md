@@ -66,7 +66,7 @@ The events `change` and `refresh` are meant for controls only, and not available
 
 For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html), [ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) and [ODataListBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html), as well as [sap.ui.model.ChangeReason](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.ChangeReason.html) in the Demo Kit.
 
-**Related information**  
+**Related Information**  
 
 
 [ODataPropertyBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html)

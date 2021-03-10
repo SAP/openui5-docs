@@ -18,7 +18,7 @@ Our panel content is getting more and more complex and now it is time to move th
 
    
   
-The panel content is now refactored to a separate view \(No visual changes to last step\)<a name="loiodf8c9c3d79b54c928855162bafcd88ee__fig_r1j_pst_mr"/>
+<a name="loiodf8c9c3d79b54c928855162bafcd88ee__fig_r1j_pst_mr"/>The panel content is now refactored to a separate view \(No visual changes to last step\)
 
  ![](loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to
 					last step)") 

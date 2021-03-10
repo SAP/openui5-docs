@@ -20,7 +20,7 @@ In this step, we set up the initial app.
 
    
   
-The worklist app<a name="loiofc2c35880ccf4282a6baf8ab861bc10e__fig_r1j_pst_mr"/>
+<a name="loiofc2c35880ccf4282a6baf8ab861bc10e__fig_r1j_pst_mr"/>The worklist app
 
  ![](loio60e42c87d9494360a64017fc16d8bbcb_HiRes.png "The worklist app") 
 
@@ -47,7 +47,7 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
 
    
   
-Folder structure of the initial project<a name="loiofc2c35880ccf4282a6baf8ab861bc10e__fig_chm_4jp_ls"/>
+<a name="loiofc2c35880ccf4282a6baf8ab861bc10e__fig_chm_4jp_ls"/>Folder structure of the initial project
 
  ![](loio7f6899e87d8240d5bd3fc8594e148714_HiRes.png "Folder structure of the initial project") 
 
@@ -79,7 +79,7 @@ Folder structure of the initial project<a name="loiofc2c35880ccf4282a6baf8ab861b
     > There is a `test.html` file in the `webapp` folder. This file serves as an easy entry point for developers to run and test the app in various ways during development. It contains links to the relevant files inside the `test` folder, which you can use to run with the Mock Server or to run unit tests and OPA tests.
 
 
-**Related information**  
+**Related Information**  
 
 
 [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)

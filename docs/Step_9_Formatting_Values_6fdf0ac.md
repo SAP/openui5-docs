@@ -18,7 +18,7 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
 
    
   
-Address with e-mail link<a name="loio6fdf0acd0bc24ffdad327cf7e6f9e7e0__fig_r1j_pst_mr"/>
+<a name="loio6fdf0acd0bc24ffdad327cf7e6f9e7e0__fig_r1j_pst_mr"/>Address with e-mail link
 
  ![](loio116157506b3f48ac8ec53ee05095c0df_HiRes.png "Address with e-mail link") 
 
@@ -150,7 +150,7 @@ mailBody=Wie geht es dir?*HIGHLIGHT END*
 
 And we add the missing texts to the `properties` files
 
-**Related information**  
+**Related Information**  
 
 
 [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)

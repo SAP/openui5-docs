@@ -53,7 +53,7 @@ This module scans the DOM for HTML elements containing a special data attribute 
 
 ### Declarative Configuration of `ComponentContainer`
 
-> CAUTION:  
+> Caution:  
 > As HTML is case-insensitive, in order to define a property with upper-case characters you have to "escape" them with the hyphen character. This is similar to CSS attributes. In the following sample the `handleValidation` argument of the `ComponentContainer` constructor is used:
 > 
 > ``` html

@@ -38,7 +38,7 @@ These libraries can **only** be used in combination with the following libraries
 
 ***
 
-**Related information**  
+**Related Information**  
 
 
 [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)

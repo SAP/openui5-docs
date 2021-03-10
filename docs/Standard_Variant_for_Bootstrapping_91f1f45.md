@@ -82,7 +82,7 @@ You can easily check this with an existing application by specifying the `sap-ui
 > Note:  
 > You can combine the `async` or `preload` configuration parameters with other bootstrap variants such as `sap-ui-core-noJQuery`.
 
-**Related information**  
+**Related Information**  
 
 
 [noJQuery Variant for Bootstrapping](noJQuery_Variant_for_Bootstrapping_91f1dd0.md)

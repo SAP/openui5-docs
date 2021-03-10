@@ -22,7 +22,7 @@ The OData V4 Model utilizes this information to compute the corresponding OpenUI
 
    
   
-Input does not match the underlying data type<a name="loio96bb6e06fa22491fa65a5040f6da099c__fig_zyb_mlb_mcb"/>
+<a name="loio96bb6e06fa22491fa65a5040f6da099c__fig_zyb_mlb_mcb"/>Input does not match the underlying data type
 
  ![](loio8320fcfb59db4d209e17a84c21e44647_LowRes.png "Input does not match the underlying data type") 
 
@@ -108,7 +108,7 @@ To make the *First Name* optional, we remove the parameter `Nullable="false"` fr
 > Tip:  
 > To see the metadata of an OData service, you append the `$metadata` variable to the URL of the service. You can try this, for example, with [http://services.odata.org/TripPinRESTierService/](http://services.odata.org/TripPinRESTierService/) and [http://services.odata.org/TripPinRESTierService/$metadata](http://services.odata.org/TripPinRESTierService/$metadata)
 
-**Related information**  
+**Related Information**  
 
 
 [Type Determination](Type_Determination_53cdd55.md)

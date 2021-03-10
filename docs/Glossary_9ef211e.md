@@ -12,51 +12,298 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 List of terms used in OpenUI5.
 
-|Term|Meaning|Source/Comments|Link|
-|----|-------|---------------|----|
-|SAPUI5 ABAP repository|Used to store SAPUI5 apps, components, and libraries; based on the Business Server Page \(BSP\) repository of the ABAP server.A SAPUI5 application stored in the ABAP repository can be deployed and executed in a browser directly. It is connected to the ABAP transport system.|SAPUI5 only| |
-|aggregation|An **aggregation** is a special relation between two UI element types. It is used to define the parent-child relationship within the tree structure. The parent end of the aggregation has cardinality 0..1, while the child end may have 0..1 or 0..\*. The element's API offers convenient and consistent methods to deal with aggregations \(e.g. to get, set, or remove target elements\). Examples are table rows and cells, or the content of a table cell.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|association|An **association** is a type of relation between two UI element types which is independent of the parent-child relationship within the tree structure. Directed outgoing associations to a target of cardinality 0..1 are supported. They represent a loose coupling only and are thus implemented by storing the target element instance's ID. The most prominent example is the association between a label and its field.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|ARIA|*WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.* \(Quote from w3c.org\)|`w3c.org`|[W3C ARIA](https://www.w3.org/WAI/intro/aria)|
-|asynchronous \(async\) processing|In contrast to synchronous processing this processing mode does not keep the browser thread busy but does the processing in the background and continues with the next task. Code can be executed asynchronously and a callback function is triggered when a certain condition is met. Similarly, a file can be loaded asynchronously. Asynchronous processing is highly recommended for performance reasons and to not freeze the UI.|SAPUI5/OpenUI5||
-|asynchronous module definition \(AMD\)|A mechanism for defining a module in a way that modules and their dependencies can be loaded asynchronously.|`requirejs.org`||
-|bootstrap|To use the OpenUI5 features in your web page, you have to load and initialize – or "bootstrap" – the OpenUI5 runtime in your HTML page.|SAPUI5/OpenUI5|[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)|
-|BPMN|*A standard Business Process Model and Notation \(BPMN\) will provide businesses with the capability of understanding their internal business procedures in a graphical notation and will give organizations the ability to communicate these procedures in a standard manner. Furthermore, the graphical notation will facilitate the understanding of the performance collaborations and business transactions between the organizations.*|`bpmn.org`|[BPMN.org](http://www.bpmn.org)|
-|\(application\) cache buster|A cache buster allows the application to notify the browser to refresh the resources only when the application resources have been changed. Otherwise the resources can always be fetched from the browser's cache. The application cache buster is a special mechanism to extend this function to application resources|SAPUI5/OpenUI5|[Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91f0809.md)[Application Cache Buster](Application_Cache_Buster_ff7aced.md)|
-|cache busting: single application resources|Cache busting on the level of a single app, component, or library in the SAPUI5 ABAP repository|SAPUI5 only| |
-|cache busting; multiple application resources|Cache busting on the level of multiple apps, components, or libraries in the SAPUI5 ABAP repository|SAPUI5 only| |
-|clickjacking|Clickjacking, or UI redressing, tricks the user into triggering actions within an application by redirecting clicks. This is done, for example, by using an invisible iFrame which is positioned above a fake UI. When the user clicks on something on the fake UI, the content of the invisible iFrame handles the click.|SAPUI5/OpenUI5|[Browser Security](Browser_Security_91f3b66.md)|
-|composite control|Composite controls are intended for reuse within control development and allow you to include existing controls in a complex control.|SAPUI5/OpenUI5|[Standard Composite Controls](Standard_Composite_Controls_c1512f6.md)|
-|content density|The devices used to run apps that are developed with SAPUI5 run on various different operating systems and have very different screen sizes. SAPUI5 contains different content densities for certain controls that allow your app to adapt to the device in question, allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse.|SAPUI5/OpenUI5|[Content Densities](Content_Densities_e54f729.md)|
-|control|UI elements that can be used independently.From a developer's point of view, a **control** \(e.g. `Button`, `Label`, `TextField`, or `Table`\) is the most important artifact. It is an object which controls the appearance and user interaction of a rectangular screen region. It is a special kind of user interface element which can be used as the root of such a tree structure. In this way, it serves as an entry point, especially for rendering. Besides controls, there are also other **non-control elements**, which cannot be used as the root of such a tree structure, but only as a dependent part within it \(e.g. `TableRow`, `TableCell`\).|SAPUI5/OpenUI5|[More About Controls](More_About_Controls_3ec6808.md)[Samples](https://openui5.hana.ondemand.com/explored.html)[API Reference](https://openui5.hana.ondemand.com/#docs/api/index.html)[Essentials](Essentials_ec699e0.md)|
-|controller|An application unit containing the active part of the application. It is the logical interface between a model and a view, and corresponds to the model view controller \(MVC\) concept.|SAPUI5/OpenUI5|[Controller](Controller_121b8e6.md)|
-|Cross-Site Scripting \(XSS\)|Cross-site scripting is about injecting script code into a web page, which is then executed in the context of the page. Therefore it can access any information which is currently displayed on the screen. Additionally, XSS attacks can access session information contained in cookies, or send new requests to the server within the current session, or even try to exploit browser vulnerabilities to get full access to the machine that the browser is running on.|SAPUI5/OpenUI5|[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md)|
-|data binding|A technique that binds two data sources together in order to keep them in sync. All changes in one data source are automatically reflected in the other; the involved layers are the view and the model.|SAPUI5/OpenUI5|[Data Binding](Data_Binding_68b9644.md)|
-|data type|**Data types** are first-class entities in the meta model. This allows reuse of types across libraries and extensibility of the type system. The core library \(technically, this is the `sap.ui.core` library\) already defines a core set of types that can be used in other libraries.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|Demo Kit|The Demo Kit is the OpenUI5 software development kit \(SDK\). The Demo Kit is your one-stop shop for all information about OpenUI5: documentation, API reference, samples, demo apps.|SAPUI5/OpenUI5| |
-|diagnostics|A diagnostics window is available in OpenUI5 applications.To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */*Option**S* |SAPUI5/OpenUI5|[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)|
-|distribution layer|Contains the control libraries and theme libraries; the SAPUI5 distribution layer is delivered to customers via the MIME repository.|SAPUI5 only| |
-|Document Object Model \(DOM\)|*The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page.* \(Quote from w3c.org\)|`w3c.org`|[W3C DOM](http://www.w3.org/DOM/)|
-|element|A \(UI\) **element** is the basic building block of our user interfaces; it is a reusable entity with properties, events, methods, and relations. The most important relations are aggregations to other UI elements, and in this way a tree structure of elements can be created.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|SAP Fiori|SAP Fiori is the user experience \(UX\) for SAP software that applies modern design principles. SAP solutions are using the SAP Fiori UX to provide a personalized, responsive, and simple user experience.|SAP Fiori|[http://www.sap.com/fiori](http://www.sap.com/fiori)[http://help.sap.com/fiori](http://help.sap.com/fiori)[https://experience.sap.com/fiori/](https://experience.sap.com/fiori/)|
-|SAP Fiori launchpad|SAP Fiori launchpad is a shell that hosts SAP Fiori apps, and provides the apps with services such as navigation, personalization, embedded support, and application configuration.|SAP Fiori|[http://help.sap.com/fiori](http://help.sap.com/fiori)|
-|event|An **event** has a name as well as any number of parameters. The element's API offers support to manage event subscriptions.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|JAWS Screen Reader|*JAWS, Job Access With Speech, is the world's most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse. JAWS provides speech and Braille output for the most popular computer applications on your PC.*|Freedom Scientific|[Freedom Scientific JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS)|
-|jQuery|JavaScript library that is packaged with OpenUI5.*jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.* \(Quote from jquery.com\)|`jquery.com`|[jQuery Home Page](https://jquery.com/)|
-|library|The top-level structural unit is called a **library**. Libraries are the master artifacts in the extensibility concept. They bundle a set of controls and related types and make them consumable by Web applications. There are predefined and standard libraries, like `sap.m`, with many commonly used controls. At the same time, it treats custom UI libraries as first-class citizens, making it easy for you to write and use your own controls alongside the predefined ones.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|mock server|A mock server is a mocking framework for HTTP and HTTPS that is used to simplify integration testing and to decouple development teams by allowing them to develop against a service that is incomplete or unstable. The mock server included with OpenUI5 mimics OData V2 back-end calls. Mock server functionality for OData V4 is included with CAP Node.js.|SAPUI5/OpenUI5|[Mock Server](Mock_Server_69d3cbd.md)|
-|model|Data provider for the application where the model instance is assigned to the UI and the controls are bound to the model. Various model types are available; the model type used depends on the data format available on the server side.|SAPUI5/OpenUI5|[Models](Models_e1b6259.md)|
-|MVC concept|A UI programming model that separates the layout \(view\) from the content \(model\) and the behavior \(controller\). The MVC concept is used by the framework to model the architecture of the applications.|SAPUI5/OpenUI5|[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)|
-|notepad control|A control that is defined on the fly without a library definition or running generation steps.|SAPUI5/OpenUI5|[Developing Controls](Developing_Controls_8dcab00.md)|
-|OData model|A model implementation for the Open Data \(OData\) Web Protocol format.|SAPUI5/OpenUI5|[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)[OData V4 Model](OData_V4_Model_5de13cf.md)|
-|property|A **property** has a name and an associated data type. It has a well-defined default value expressed as a literal of that data type. Properties are accessible to application code via the element's API as getters and setters, but are also used by a control's renderer in a read-only way.|SAPUI5/OpenUI5|[Essentials](Essentials_ec699e0.md)|
-|SAPUI5 repository upload and download reports|Alternative for the team repository provider, with similar functionality.|SAPUI5 only| |
-|right-to-left \(RTL\) text directionality|*The `dir` attribute is used to set the base direction of text for display. It is essential for enabling HTML in right-to-left scripts such as Arabic, Hebrew, Syriac, and Thaana. Numerous different languages are written with these scripts, including Arabic, Hebrew, Pashto, Persian, Sindhi, Syriac, Dhivehi, Urdu, Yiddish, etc.* \(Quote from w3c.org\)|`w3c.org`|[HTML Text Directionality](http://www.w3.org/TR/html4/struct/dirlang.html)|
-|resource model|Used to bind texts of a control to language-dependent resource bundle properties.|SAPUI5/OpenUI5|[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)|
-|single SAPUI5 repository|The SAPUI5 ABAP repository consists of *n* single SAPUI5 repositories, each represented by an individual BSP application \(with specific characteristics\) in the BSP repository.|SAPUI5 only| |
-|SAP Fiori elements|App developers can use SAP Fiori elements to create SAP Fiori applications based on OData services and annotations requiring no JavaScript UI coding. An app based on SAP Fiori elements uses predefined template views and controllers that are provided centrally, so no application-specific view instances are required. The SAPUI5 runtime interprets metadata and annotations of the underlying OData service and creates the corresponding views for the SAP Fiori app at startup.The predefined view templates and controllers ensure UI design consistency across similar apps. Additionally, the metadata-driven development model significantly reduces the amount of frontend code per app, so the developer can focus on the business logic.SAP Fiori elements comprise templates for "List Report", "Object Page", and "Overview Page".|SAPUI5 only| |
-|scalable vector graphics \(SVG\)|*SVG is a markup language for describing two-dimensional graphics applications and images, and a set of related graphics script interfaces* \(Quote from w3c.org\)|`w3c.org`|[W3C SVG](https://www.w3.org/Graphics/SVG/)|
-|synchronous \(sync\) processing|Synchronous processing will keep the current browser thread until the task is finished. The UI is not updated and no other tasks can be done in parallel. Consider using asynchronous processing for loading files and executing long-running code.|SAPUI5/OpenUI5||
-|SAPUI5 text repository|Part of the SAPUI5 ABAP repository; only to be used as a fallback mechanism if translation using properties files is not possible|SAPUI5 only| |
-|view|An application unit containing the control definitions for the user interface layer in the application, or in other words: defines how the user interface looks like.|SAPUI5/OpenUI5|[Views](Views_91f27e3.md)|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Term</th>
+			<th>Meaning</th>
+			<th>Source/Comments</th>
+			<th>Link</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>SAPUI5 ABAP repository</td>
+			<td>Used to store SAPUI5 apps, components, and libraries; based on the Business Server Page \(BSP\) repository of the ABAP server.
+A SAPUI5 application stored in the ABAP repository can be deployed and executed in a browser directly. It is connected to the ABAP transport system.
+			</td>
+			<td>SAPUI5 only</td>
+			<td>aggregation</td>
+			<td>An **aggregation** is a special relation between two UI element types. It is used to define the parent-child relationship within the tree structure. The parent end of the aggregation has cardinality 0..1, while the child end may have 0..1 or 0..\*. The element's API offers convenient and consistent methods to deal with aggregations \(e.g. to get, set, or remove target elements\). Examples are table rows and cells, or the content of a table cell.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>association</td>
+			<td>An **association** is a type of relation between two UI element types which is independent of the parent-child relationship within the tree structure. Directed outgoing associations to a target of cardinality 0..1 are supported. They represent a loose coupling only and are thus implemented by storing the target element instance's ID. The most prominent example is the association between a label and its field.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>ARIA</td>
+			<td>*WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.* \(Quote from w3c.org\)</td>
+			<td>`w3c.org`</td>
+			<td>[W3C ARIA](https://www.w3.org/WAI/intro/aria)</td>
+		</tr>
+		<tr>
+			<td>asynchronous \(async\) processing</td>
+			<td>In contrast to synchronous processing this processing mode does not keep the browser thread busy but does the processing in the background and continues with the next task. Code can be executed asynchronously and a callback function is triggered when a certain condition is met. Similarly, a file can be loaded asynchronously. Asynchronous processing is highly recommended for performance reasons and to not freeze the UI.</td>
+			<td>SAPUI5/OpenUI5</td>
+		</tr>
+		<tr>
+			<td>asynchronous module definition \(AMD\)</td>
+			<td>A mechanism for defining a module in a way that modules and their dependencies can be loaded asynchronously.</td>
+			<td>`requirejs.org`</td>
+		</tr>
+		<tr>
+			<td>bootstrap</td>
+			<td>To use the OpenUI5 features in your web page, you have to load and initialize – or "bootstrap" – the OpenUI5 runtime in your HTML page.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)</td>
+		</tr>
+		<tr>
+			<td>BPMN</td>
+			<td>*A standard Business Process Model and Notation \(BPMN\) will provide businesses with the capability of understanding their internal business procedures in a graphical notation and will give organizations the ability to communicate these procedures in a standard manner. Furthermore, the graphical notation will facilitate the understanding of the performance collaborations and business transactions between the organizations.*</td>
+			<td>`bpmn.org`</td>
+			<td>[BPMN.org](http://www.bpmn.org)</td>
+		</tr>
+		<tr>
+			<td>\(application\) cache buster</td>
+			<td>A cache buster allows the application to notify the browser to refresh the resources only when the application resources have been changed. Otherwise the resources can always be fetched from the browser's cache. The application cache buster is a special mechanism to extend this function to application resources</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91f0809.md)
+[Application Cache Buster](Application_Cache_Buster_ff7aced.md)
+			</td>
+		</tr>
+		<tr>
+			<td>cache busting: single application resources</td>
+			<td>Cache busting on the level of a single app, component, or library in the SAPUI5 ABAP repository</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>cache busting; multiple application resources</td>
+			<td>Cache busting on the level of multiple apps, components, or libraries in the SAPUI5 ABAP repository</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>clickjacking</td>
+			<td>Clickjacking, or UI redressing, tricks the user into triggering actions within an application by redirecting clicks. This is done, for example, by using an invisible iFrame which is positioned above a fake UI. When the user clicks on something on the fake UI, the content of the invisible iFrame handles the click.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Browser Security](Browser_Security_91f3b66.md)</td>
+		</tr>
+		<tr>
+			<td>composite control</td>
+			<td>Composite controls are intended for reuse within control development and allow you to include existing controls in a complex control.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Standard Composite Controls](Standard_Composite_Controls_c1512f6.md)</td>
+		</tr>
+		<tr>
+			<td>content density</td>
+			<td>The devices used to run apps that are developed with SAPUI5 run on various different operating systems and have very different screen sizes. SAPUI5 contains different content densities for certain controls that allow your app to adapt to the device in question, allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Content Densities](Content_Densities_e54f729.md)</td>
+		</tr>
+		<tr>
+			<td>control</td>
+			<td>UI elements that can be used independently.
+From a developer's point of view, a **control** \(e.g. `Button`, `Label`, `TextField`, or `Table`\) is the most important artifact. It is an object which controls the appearance and user interaction of a rectangular screen region. It is a special kind of user interface element which can be used as the root of such a tree structure. In this way, it serves as an entry point, especially for rendering. Besides controls, there are also other **non-control elements**, which cannot be used as the root of such a tree structure, but only as a dependent part within it \(e.g. `TableRow`, `TableCell`\).
+			</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[More About Controls](More_About_Controls_3ec6808.md)
+[Samples](https://openui5.hana.ondemand.com/explored.html)
+
+[API Reference](https://openui5.hana.ondemand.com/#docs/api/index.html)
+
+[Essentials](Essentials_ec699e0.md)
+			</td>
+		</tr>
+		<tr>
+			<td>controller</td>
+			<td>An application unit containing the active part of the application. It is the logical interface between a model and a view, and corresponds to the model view controller \(MVC\) concept.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Controller](Controller_121b8e6.md)</td>
+		</tr>
+		<tr>
+			<td>Cross-Site Scripting \(XSS\)</td>
+			<td>Cross-site scripting is about injecting script code into a web page, which is then executed in the context of the page. Therefore it can access any information which is currently displayed on the screen. Additionally, XSS attacks can access session information contained in cookies, or send new requests to the server within the current session, or even try to exploit browser vulnerabilities to get full access to the machine that the browser is running on.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md)</td>
+		</tr>
+		<tr>
+			<td>data binding</td>
+			<td>A technique that binds two data sources together in order to keep them in sync. All changes in one data source are automatically reflected in the other; the involved layers are the view and the model.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Data Binding](Data_Binding_68b9644.md)</td>
+		</tr>
+		<tr>
+			<td>data type</td>
+			<td>**Data types** are first-class entities in the meta model. This allows reuse of types across libraries and extensibility of the type system. The core library \(technically, this is the `sap.ui.core` library\) already defines a core set of types that can be used in other libraries.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>Demo Kit</td>
+			<td>The Demo Kit is the OpenUI5 software development kit \(SDK\). The Demo Kit is your one-stop shop for all information about OpenUI5: documentation, API reference, samples, demo apps.</td>
+			<td>SAPUI5/OpenUI5</td>
+		</tr>
+		<tr>
+			<td>diagnostics</td>
+			<td>A diagnostics window is available in OpenUI5 applications.
+To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */*Option**S* 
+			</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)</td>
+		</tr>
+		<tr>
+			<td>distribution layer</td>
+			<td>Contains the control libraries and theme libraries; the SAPUI5 distribution layer is delivered to customers via the MIME repository.</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>Document Object Model \(DOM\)</td>
+			<td>*The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page.* \(Quote from w3c.org\)</td>
+			<td>`w3c.org`</td>
+			<td>[W3C DOM](http://www.w3.org/DOM/)</td>
+		</tr>
+		<tr>
+			<td>element</td>
+			<td>A \(UI\) **element** is the basic building block of our user interfaces; it is a reusable entity with properties, events, methods, and relations. The most important relations are aggregations to other UI elements, and in this way a tree structure of elements can be created.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>SAP Fiori</td>
+			<td>SAP Fiori is the user experience \(UX\) for SAP software that applies modern design principles. SAP solutions are using the SAP Fiori UX to provide a personalized, responsive, and simple user experience.</td>
+			<td>SAP Fiori</td>
+			<td>[http://www.sap.com/fiori](http://www.sap.com/fiori)
+[http://help.sap.com/fiori](http://help.sap.com/fiori)
+
+[https://experience.sap.com/fiori/](https://experience.sap.com/fiori/)
+			</td>
+		</tr>
+		<tr>
+			<td>SAP Fiori launchpad</td>
+			<td>SAP Fiori launchpad is a shell that hosts SAP Fiori apps, and provides the apps with services such as navigation, personalization, embedded support, and application configuration.</td>
+			<td>SAP Fiori</td>
+			<td>[http://help.sap.com/fiori](http://help.sap.com/fiori)</td>
+		</tr>
+		<tr>
+			<td>event</td>
+			<td>An **event** has a name as well as any number of parameters. The element's API offers support to manage event subscriptions.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>JAWS Screen Reader</td>
+			<td>*JAWS, Job Access With Speech, is the world's most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse. JAWS provides speech and Braille output for the most popular computer applications on your PC.*</td>
+			<td>Freedom Scientific</td>
+			<td>[Freedom Scientific JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS)</td>
+		</tr>
+		<tr>
+			<td>jQuery</td>
+			<td>JavaScript library that is packaged with OpenUI5.
+*jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.* \(Quote from jquery.com\)
+			</td>
+			<td>`jquery.com`</td>
+			<td>[jQuery Home Page](https://jquery.com/)</td>
+		</tr>
+		<tr>
+			<td>library</td>
+			<td>The top-level structural unit is called a **library**. Libraries are the master artifacts in the extensibility concept. They bundle a set of controls and related types and make them consumable by Web applications. There are predefined and standard libraries, like `sap.m`, with many commonly used controls. At the same time, it treats custom UI libraries as first-class citizens, making it easy for you to write and use your own controls alongside the predefined ones.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>mock server</td>
+			<td>A mock server is a mocking framework for HTTP and HTTPS that is used to simplify integration testing and to decouple development teams by allowing them to develop against a service that is incomplete or unstable. The mock server included with OpenUI5 mimics OData V2 back-end calls. Mock server functionality for OData V4 is included with CAP Node.js.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Mock Server](Mock_Server_69d3cbd.md)</td>
+		</tr>
+		<tr>
+			<td>model</td>
+			<td>Data provider for the application where the model instance is assigned to the UI and the controls are bound to the model. Various model types are available; the model type used depends on the data format available on the server side.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Models](Models_e1b6259.md)</td>
+		</tr>
+		<tr>
+			<td>MVC concept</td>
+			<td>A UI programming model that separates the layout \(view\) from the content \(model\) and the behavior \(controller\). The MVC concept is used by the framework to model the architecture of the applications.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)</td>
+		</tr>
+		<tr>
+			<td>notepad control</td>
+			<td>A control that is defined on the fly without a library definition or running generation steps.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Developing Controls](Developing_Controls_8dcab00.md)</td>
+		</tr>
+		<tr>
+			<td>OData model</td>
+			<td>A model implementation for the Open Data \(OData\) Web Protocol format.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
+[OData V4 Model](OData_V4_Model_5de13cf.md)
+			</td>
+		</tr>
+		<tr>
+			<td>property</td>
+			<td>A **property** has a name and an associated data type. It has a well-defined default value expressed as a literal of that data type. Properties are accessible to application code via the element's API as getters and setters, but are also used by a control's renderer in a read-only way.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Essentials](Essentials_ec699e0.md)</td>
+		</tr>
+		<tr>
+			<td>SAPUI5 repository upload and download reports</td>
+			<td>Alternative for the team repository provider, with similar functionality.</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>right-to-left \(RTL\) text directionality</td>
+			<td>*The `dir` attribute is used to set the base direction of text for display. It is essential for enabling HTML in right-to-left scripts such as Arabic, Hebrew, Syriac, and Thaana. Numerous different languages are written with these scripts, including Arabic, Hebrew, Pashto, Persian, Sindhi, Syriac, Dhivehi, Urdu, Yiddish, etc.* \(Quote from w3c.org\)</td>
+			<td>`w3c.org`</td>
+			<td>[HTML Text Directionality](http://www.w3.org/TR/html4/struct/dirlang.html)</td>
+		</tr>
+		<tr>
+			<td>resource model</td>
+			<td>Used to bind texts of a control to language-dependent resource bundle properties.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)</td>
+		</tr>
+		<tr>
+			<td>single SAPUI5 repository</td>
+			<td>The SAPUI5 ABAP repository consists of *n* single SAPUI5 repositories, each represented by an individual BSP application \(with specific characteristics\) in the BSP repository.</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>SAP Fiori elements</td>
+			<td>App developers can use SAP Fiori elements to create SAP Fiori applications based on OData services and annotations requiring no JavaScript UI coding. An app based on SAP Fiori elements uses predefined template views and controllers that are provided centrally, so no application-specific view instances are required. The SAPUI5 runtime interprets metadata and annotations of the underlying OData service and creates the corresponding views for the SAP Fiori app at startup.
+The predefined view templates and controllers ensure UI design consistency across similar apps. Additionally, the metadata-driven development model significantly reduces the amount of frontend code per app, so the developer can focus on the business logic.
+
+SAP Fiori elements comprise templates for "List Report", "Object Page", and "Overview Page".
+			</td>
+			<td>SAPUI5 only</td>
+			<td>scalable vector graphics \(SVG\)</td>
+			<td>*SVG is a markup language for describing two-dimensional graphics applications and images, and a set of related graphics script interfaces* \(Quote from w3c.org\)</td>
+			<td>`w3c.org`</td>
+			<td>[W3C SVG](https://www.w3.org/Graphics/SVG/)</td>
+		</tr>
+		<tr>
+			<td>synchronous \(sync\) processing</td>
+			<td>Synchronous processing will keep the current browser thread until the task is finished. The UI is not updated and no other tasks can be done in parallel. Consider using asynchronous processing for loading files and executing long-running code.</td>
+			<td>SAPUI5/OpenUI5</td>
+		</tr>
+		<tr>
+			<td>SAPUI5 text repository</td>
+			<td>Part of the SAPUI5 ABAP repository; only to be used as a fallback mechanism if translation using properties files is not possible</td>
+			<td>SAPUI5 only</td>
+		</tr>
+		<tr>
+			<td>view</td>
+			<td>An application unit containing the control definitions for the user interface layer in the application, or in other words: defines how the user interface looks like.</td>
+			<td>SAPUI5/OpenUI5</td>
+			<td>[Views](Views_91f27e3.md)</td>
+		</tr>
+	</tbody>
+</table>
 

@@ -169,7 +169,7 @@ Alternatively it can be called on an annotation holding an `[edm:Path](http://do
 
 The first `<template:with>` defines `entityType` to be the type of the set `BusinessPartnerList`. The `<template:repeat>` iterates over its annotation`com.sap.vocabularies.UI.v1.LineItem` \(a collection of records with type `com.sap.vocabularies.UI.v1.DataField`\). The record's property `Value` is assumed to be an `edm:Path` pointing to a property of the entity type. For this path the value list type is determined.
 
-**Related information**  
+**Related Information**  
 
 
 [OData V4 Metadata JSON Format](OData_V4_Metadata_JSON_Format_87aac89.md)

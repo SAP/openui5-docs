@@ -18,7 +18,7 @@ Expression binding allows you to display a value on the screen that has been cal
 
    
   
-Values formatted<a name="loio5cff8d1c3fb84c5db7a00f2daca125af__fig_r1j_pst_mr"/>
+<a name="loio5cff8d1c3fb84c5db7a00f2daca125af__fig_r1j_pst_mr"/>Values formatted
 
  ![](loiob9fb758efb0a481cb88a412a0712972f_HiRes.png "Values formatted") 
 
@@ -170,7 +170,7 @@ Since the use of an escaped character is not so easy to read, the preferred appr
 
 The ampersand \(`&`\) character also has a high priority meaning to the XML parser. This character will always be interpreted to mean "The start of an escaped character". So if you wish to use the Boolean `AND` operator \(`&&`\) in a condition, you must escape both ampersand characters \(`&amp;&amp;`\).
 
-**Related information**  
+**Related Information**  
 
 
 [Expression Binding](Expression_Binding_daf6852.md)

@@ -18,7 +18,7 @@ In this step, we use the OData V2 mock server to add data to our app without dep
 
    
   
-The app now contains data<a name="loio50897decc9504b2a875fb41d89fd254a__fig_qwx_h2q_st"/>
+<a name="loio50897decc9504b2a875fb41d89fd254a__fig_qwx_h2q_st"/>The app now contains data
 
  ![](loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data") 
 
@@ -228,7 +228,7 @@ If the real service connection cannot be established, for example, when there is
 
 Just run the app now again with the `mockServer.html` file.. The list should now be populated with meet-ups from our mock data. You can also choose the button and see data.
 
-**Related information**  
+**Related Information**  
 
 
 [Mock Server](Mock_Server_69d3cbd.md)

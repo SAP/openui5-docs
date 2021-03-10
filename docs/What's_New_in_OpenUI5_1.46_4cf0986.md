@@ -58,14 +58,14 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
        
       
-    Different types of actions in the title positioned in a predefined order<a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_dxg_h4j_5y"/>
+    <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_dxg_h4j_5y"/>Different types of actions in the title positioned in a predefined order
 
      ![](loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a predefined
     							order") 
 
        
       
-    Different types of actions in the footer’s right and left areas, positioned in a predefined order<a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_zvx_1wh_wy"/>
+    <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_zvx_1wh_wy"/>Different types of actions in the footer’s right and left areas, positioned in a predefined order
 
      ![](loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left areas,
     							positioned in a predefined order") 
@@ -96,7 +96,7 @@ The new version of the OpenUI5 OData V4 model now supports the following feature
 -   Branching from OData V4 model into metadata using the hash \(`#`\) character \(see [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext)\) in `template:with`
 
 
-> CAUTION:  
+> Caution:  
 > **Incompatibility Due to Bug Fix**
 > 
 > The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. Due to the bug, however, the return value wraps the expected output that can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.

@@ -45,7 +45,7 @@ The difference between the state when the list was initially loaded and the curr
 > 
 > The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 
-> CAUTION:  
+> Caution:  
 > -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. This means, it is completely independent from the `startIndex` and `length` parameters. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. If you want to access the current context of a list binding, you should use `getCurrentContexts` in your app instead.
 > 
 > -   When a `ListBinding` is firing a `Refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
@@ -120,7 +120,7 @@ You also have to implement the specific aggregation modifier methods to avoid th
 
 For more information, see the [API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation).
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation)

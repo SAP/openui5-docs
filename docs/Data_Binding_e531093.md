@@ -35,7 +35,7 @@ The UI uses data binding to bind controls to the model which holds the applicati
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
-**Related information**  
+**Related Information**  
 
 
 [Data Binding](Data_Binding_68b9644.md)

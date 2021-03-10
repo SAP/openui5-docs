@@ -31,7 +31,7 @@ Nest the XML tags analogous to the nesting sequence of OpenUI5 controls and add 
 
 Each control or element is represented by an XML tag with the name the control. If you, for example, want to create an instance of a `sap.m.Button`, you use tag `<Button>` with namespace `sap.m`. You can create a context binding for the control by using attribute `objectBinding` or `Binding`. For more information, see [Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md).
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.html.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)

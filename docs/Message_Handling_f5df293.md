@@ -186,7 +186,7 @@ You can set the `ValueState` of the `sap.m.Input` control to `Error` to indicate
 
 OpenUI5 Mobile does **not** support multiple messages at the same time. Mobile Designs recommend to be 'more sparse' with messages, that is, only show one message at a time. This can also be achieved by combining and reducing multiple messages.
 
-**Related information**  
+**Related Information**  
 
 
 [Message Popover](Message_Popover_52824a6.md)

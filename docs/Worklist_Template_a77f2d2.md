@@ -23,7 +23,7 @@ A worklist displays a collection of items to be processed by the user and usuall
 
    
   
-Screenshot of the Worklist App<a name="loioa77f2d29299247f8a3e30226507b1765__fig_rgl_qbz_1t"/>
+<a name="loioa77f2d29299247f8a3e30226507b1765__fig_rgl_qbz_1t"/>Screenshot of the Worklist App
 
  ![](loio2c7e3b552825426d8840c83a6b0b029e_HiRes.png "Screenshot of the Worklist App") 
 
@@ -72,7 +72,7 @@ In our template, we use a simple layout that you can use as a basis for enhancem
 
 You can find more information about the possibilities of object pages at [SAP Fiori Design Guidelines - Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
-**Related information**  
+**Related Information**  
 
 
 [Demo Apps](Demo_Apps_a3ab54e.md)

@@ -39,7 +39,7 @@ The Support Assistant is enabled with the following URL parameter: `sap-ui-suppo
 
    
   
-Support Assistant Toolbar <a name="loio57ccd7d7103640e3a187ed55e1d2c163__fig_c11_3j1_k1b"/>
+<a name="loio57ccd7d7103640e3a187ed55e1d2c163__fig_c11_3j1_k1b"/>Support Assistant Toolbar
 
  ![](loioc9ec61c44d7d45caba4fb3b31a094557_HiRes.png "Support Assistant Toolbar ") 
 
@@ -80,7 +80,7 @@ All scopes and temporary rules can be stored in the local storage of your browse
 -   To learn more about creating your own rules see: [Rule Development Guide](Rule_Development_Guide_cd356da.md)
 
 
-**Related information**  
+**Related Information**  
 
 
 [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md)

@@ -106,7 +106,7 @@ The following models are created as local JSON models in the app and can be refe
     A local view model for the `app` view that stored configuration options that are bound to controls in the view.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Resource Bundle API](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)

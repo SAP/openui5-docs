@@ -38,6 +38,6 @@ Scenario: Page 1 journey
 
 Use the Gherkin console logs to help you debug your OPA5 page object calls.
 
-> CAUTION:  
+> Caution:  
 > Chaining OPA5 page objects, for example, `When.onTheOverview.iPressOnGoToPage1().and.onPage1.iShouldSeeThePage1Text()` is currently **not** supported in Gherkin feature files.
 

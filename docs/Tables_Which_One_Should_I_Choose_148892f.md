@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.
 
-Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791e38f3e__table_uzb_zmy_vs"/>
+<a name="loio148892ff9aea4a18b912829791e38f3e__table_uzb_zmy_vs"/>Overview of Tables and Supported Features
 
 | |Responsive Table [\(sap.m.Table\)](https://openui5.hana.ondemand.com/#/api/sap.m.Table) |Grid Table [\(sap.ui.table.Table\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table) |Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.AnalyticalTable) |Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) |
 |--|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Overview of Tables and Supported Features<a name="loio148892ff9aea4a18b912829791
 
 2\) To optimize perfomance, we recommend to show no more than 200 items at once in the responsive table. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure the user can filter the data. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. 
 
-> CAUTION:  
+> Caution:  
 > The limits mentioned are only recommendations. For a specific app context, the actual number of manageable items might be higher or lower.
 > 
 > The actual limits depend on what your scenario looks like, for example:

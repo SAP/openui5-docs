@@ -35,7 +35,7 @@ Here are some of the most common JavaScript properties that you should bear in m
 -   `target-densitydpi`
 
 
-> CAUTION:  
+> Caution:  
 > Setting inappropriate values for these properties can completely disable the zooming of an application. Here is an example of such incorrect values:
 > 
 > ```

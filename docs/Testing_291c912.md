@@ -49,7 +49,7 @@ If you want to automate the test execution using a test runner, you can set this
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
-**Related information**  
+**Related Information**  
 
 
 [Testing](Testing_7cdee40.md)

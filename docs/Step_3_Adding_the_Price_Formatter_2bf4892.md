@@ -20,7 +20,7 @@ If the tests are passed, we can be sure that the formatter is formally correct b
 
    
   
-The price is now formatted with a semantic color<a name="loio2bf4892527174264808076be32c1e1b0__fig_r1j_pst_mr"/>
+<a name="loio2bf4892527174264808076be32c1e1b0__fig_r1j_pst_mr"/>The price is now formatted with a semantic color
 
  ![](loio436054fd57104e89b98dd2dc9a834211_LowRes.png "The price is now formatted with a semantic color") 
 
@@ -99,7 +99,7 @@ We still have to apply the changes to our UI so that we can actually see the for
 
 In our worklist view we simply add a state attribute to the `ObjectNumber` control in the `columns` aggregation. We define the same data binding path as for the number, but we use our new formatter function to determine the proper state. If you now run the `webapp/test/mockServer.html` file, you can see that some of the product prices are listed in green, black, orange, and red depending on their price.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.ValueState`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ValueState.html)

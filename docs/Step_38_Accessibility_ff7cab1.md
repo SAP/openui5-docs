@@ -25,7 +25,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
    
   
-Landmarks in our app<a name="loioff7cab1f271a4181a86e5aa5c2f8d421__fig_qnj_x4b_hfb"/>
+<a name="loioff7cab1f271a4181a86e5aa5c2f8d421__fig_qnj_x4b_hfb"/>Landmarks in our app
 
  ![](loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app") 
 
@@ -199,7 +199,7 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 
 You've completed the walkthrough, good job! You should be familiar with all major development paradigms of OpenUI5 now. Our other tutorials focus on certain aspects of OpenUI5, so feel free to explore!
 
-**Related information**  
+**Related Information**  
 
 
 [Accessibility](Accessibility_03b914b.md)

@@ -67,7 +67,7 @@ selectEventMessage=Event "{0}" fired.
 5.  Restart the app and start the analysis again. This issue should now be gone. We have intentionally hidden some more errors in the code - check and see if you can find and correct them.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Support Assistant](Support_Assistant_57ccd7d.md)

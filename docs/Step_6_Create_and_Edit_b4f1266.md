@@ -20,7 +20,7 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
    
   
-Data can now be edited and added.<a name="loiob4f12660538147f8839b05cb03f1d478__fig_sr1_wpw_4cb"/>
+<a name="loiob4f12660538147f8839b05cb03f1d478__fig_sr1_wpw_4cb"/>Data can now be edited and added.
 
  ![](loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.") 
 
@@ -407,7 +407,7 @@ changesSentMessage=User data sent to the server*HIGHLIGHT END*
 
 We add the new message texts.
 
-**Related information**  
+**Related Information**  
 
 
 [Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md)

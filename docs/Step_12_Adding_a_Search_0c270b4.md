@@ -18,7 +18,7 @@ We now add a search field to our bulletin board and define a filter that represe
 
    
   
-Search field<a name="loio0c270b45dd904429ba634656e3a37a73__fig_k3l_yjj_sx"/>
+<a name="loio0c270b45dd904429ba634656e3a37a73__fig_k3l_yjj_sx"/>Search field
 
  ![](loiob012fdf751b947f08cf77cf124334c9f_LowRes.png "Search field") 
 
@@ -112,7 +112,7 @@ sap.ui.define([
 
 To enable filtering, we extend the controller with a method that applies the search term entered in the search field to the list binding, similarly as we did for `InvoiceList.controller.js` in step 24 of the Walkthrough tutorial.
 
-**Related information**  
+**Related Information**  
 
 
 [Step 42 of Walkthrough: Filtering](Step_24_Filtering_5295470.md)

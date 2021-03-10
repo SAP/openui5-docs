@@ -18,7 +18,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
    
   
-An alert "UI5 is ready" is displayed<a name="loiofe12df2e338e43598977d09f3d191b7b__fig_r1j_pst_mr"/>
+<a name="loiofe12df2e338e43598977d09f3d191b7b__fig_r1j_pst_mr"/>An alert "UI5 is ready" is displayed
 
  ![](loiof997780100fe40e7b149abd05bd82677_HiRes.png "An alert "UI5 is ready" is displayed") 
 
@@ -104,7 +104,7 @@ sap.ui.define([
 
 Now, we create a new `index.js` script that will contain the application logic for this tutorial step. We do this to avoid having executable code directly in the HTML file for security reasons. This script will be called by the `index.html`. We defined it there as a module in a declarative way.
 
-**Related information**  
+**Related Information**  
 
 
 [Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)

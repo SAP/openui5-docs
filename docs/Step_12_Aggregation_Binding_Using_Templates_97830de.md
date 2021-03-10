@@ -25,7 +25,7 @@ It will automatically create as many child controls as are needed to display the
 
    
   
-List with aggregation binding<a name="loio97830de2d7314e93b5c1ee3878a17be9__fig_r1j_pst_mr"/>
+<a name="loio97830de2d7314e93b5c1ee3878a17be9__fig_r1j_pst_mr"/>List with aggregation binding
 
  ![](loio16424336ab62402e8c27d5d7dac069b1_HiRes.png "List with aggregation binding") 
 
@@ -294,7 +294,7 @@ stockValue=Lagerbestand Wert*HIGHLIGHT END*
 
 We add the missing texts.
 
-**Related information**  
+**Related Information**  
 
 
 [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)

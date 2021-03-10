@@ -38,7 +38,7 @@ The following text type classifications exist:
 -   `NOTR` is used for strings that are not relevant for translation
 
 
-X Text Types<a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>
+ <a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>X Text Types
 
 |Text type|Related S2X type|Description|
 |---------|----------------|-----------|
@@ -75,7 +75,7 @@ X Text Types<a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>
 |`XTOL`|quickInfo|Quick info text|
 |`XTXT`|generaltext|General text|
 
-Y Text Types<a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>
+ <a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>Y Text Types
 
 |Text type|Related S2X type|Description|
 |---------|----------------|-----------|

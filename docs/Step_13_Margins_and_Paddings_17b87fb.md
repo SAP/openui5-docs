@@ -20,7 +20,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
    
   
-The layout of the panel and its content now has margins and padding<a name="loio17b87fbafb5a4474982760d2a3a73e69__fig_r1j_pst_mr"/>
+<a name="loio17b87fbafb5a4474982760d2a3a73e69__fig_r1j_pst_mr"/>The layout of the panel and its content now has margins and padding
 
  ![](loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding") 
 
@@ -82,7 +82,7 @@ To format the output text individually, we remove the description from the input
 -   Use the standard OpenUI5 CSS classes for the layout if possible.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md)

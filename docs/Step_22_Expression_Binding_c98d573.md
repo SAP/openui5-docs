@@ -18,7 +18,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
 
    
   
-The price is now formatted according to its number<a name="loioc98d57347ba444c6945f596584d2db45__fig_r1j_pst_mr"/>
+<a name="loioc98d57347ba444c6945f596584d2db45__fig_r1j_pst_mr"/>The price is now formatted according to its number
 
  ![](loio2ff81a7fea204f69913e33c2545bfb39_HiRes.png "The price is now formatted according to its number") 
 
@@ -68,7 +68,7 @@ Expressions are limited to a particular set of operations that help formatting t
 -   Only use expression binding for trivial calculations.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Expression Binding](Expression_Binding_daf6852.md)

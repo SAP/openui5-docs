@@ -46,10 +46,10 @@ There are several options for labeling:
     -   Explicitly designed for multiple references
 
 
-> CAUTION:  
+> Caution:  
 > The different options cannot be used in conjunction. There is a precedence rule, which determines how the labeling attributes are prioritized and read by the screen reader. As an application developer, you need to be aware of the order in which the labeling is read by your screen reader.
 
-**Related information**  
+**Related Information**  
 
 
 [Best Practices for ARIA Labeling](Best_Practices_for_ARIA_Labeling_3169195.md)

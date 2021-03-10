@@ -36,7 +36,7 @@ Binding path examples:
 'myModelName>ProductName'
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)

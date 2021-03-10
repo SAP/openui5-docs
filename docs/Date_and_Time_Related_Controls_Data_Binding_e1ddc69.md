@@ -119,7 +119,7 @@ formatOptions: { UTC: true, format: 'yMd' }}" />
 
 Note that you need to tell the `DateRangeSelection` the format of the dates stored in the backend. The format should denote the format of a single date. If the delimiter is different than "-", you need to additionally specify it in the property delimiter.
 
-**Related information**  
+**Related Information**  
 
 
 [Primitive Data Types in the OData Documentation](http://www.odata.org/documentation/odata-version-2-0/overview/)

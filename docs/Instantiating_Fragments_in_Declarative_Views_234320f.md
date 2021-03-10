@@ -33,7 +33,7 @@ The following code example shows an XML view that includes all three types of fr
 </mvc:View>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Unique IDs](Unique_IDs_5da591c.md)

@@ -25,7 +25,7 @@ this.getProcessor().fireMessageChange({
 
 The delta calculation must be a back end-specific implementation. In the OData implementation, for example, all messages for the requested resource\(s\) must be returned from the back end on every request. This means that all messages that were available before with a target that corresponds to the requested resources must be put in the `oldMessages` parameter of the event.
 
-**Related information**  
+**Related Information**  
 
 
 [sap.ui.model.odata.ODataMessageParser](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.ODataMessageParser.html)

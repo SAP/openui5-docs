@@ -37,7 +37,7 @@ We start with an initial app that simply retrieves data from an OData V4 service
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
-**Related information**  
+**Related Information**  
 
 
 [OData Standard Protocol](http://www.odata.org/documentation/)

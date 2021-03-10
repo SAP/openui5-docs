@@ -70,7 +70,7 @@ Features and behaviors are configurable to enable the grid layout for a variety 
      ![](loioc13d07d374a247eb97c276c269705c7b_LowRes.png) 
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.layout.cssgrid.CSSGrid`](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.layout.cssgrid.CSSGrid)

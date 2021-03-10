@@ -22,7 +22,7 @@ The upper part of the Header Title is reserved for `breadcrumbs` navigation. The
 
    
   
-Breadcrumbs and Navigation Actions in the Header Title<a name="loio6e340c119ddd4c778b315f65a0432420__fig_xtb_3ny_5bb"/>
+<a name="loio6e340c119ddd4c778b315f65a0432420__fig_xtb_3ny_5bb"/>Breadcrumbs and Navigation Actions in the Header Title
 
  ![](loio1b7f15003bc843048ef9212063f072b7_LowRes.gif "Breadcrumbs and Navigation Actions in the Header Title") 
 
@@ -32,7 +32,7 @@ When hovering over the arrow button or the Header Title area, both areas are hig
 
    
   
-Expanding/Collapsing the Header Using Arrow Button and Title Click<a name="loio6e340c119ddd4c778b315f65a0432420__fig_psd_2fz_sbb"/>
+<a name="loio6e340c119ddd4c778b315f65a0432420__fig_psd_2fz_sbb"/>Expanding/Collapsing the Header Using Arrow Button and Title Click
 
  ![](loioe70b5adf9f60403d8b7b8aa5c9b1d972_LowRes.gif "Expanding/Collapsing the Header Using Arrow Button and Title Click") 
 
@@ -40,7 +40,7 @@ The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\).
 
    
   
-Pinning the Header to Remain Expanded when Scrolling the Page<a name="loio6e340c119ddd4c778b315f65a0432420__fig_rqm_llz_sbb"/>
+<a name="loio6e340c119ddd4c778b315f65a0432420__fig_rqm_llz_sbb"/>Pinning the Header to Remain Expanded when Scrolling the Page
 
  ![](loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the
 				Page") 
@@ -63,7 +63,7 @@ The `sap.uxap.ObjectPageDynamicHeaderTitle` extends `sap.f.DynamicPageTitle`. It
 
 To populate the header content area, provide an array of desired controls to the `headerContent` aggregation of the `sap.uxap.ObjectPageLayout` control. `sap.uxap.ObjectPageLayout` uses internally `sap.uxap.ObjectPageDynamicHeaderContent` to layout the controls.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)

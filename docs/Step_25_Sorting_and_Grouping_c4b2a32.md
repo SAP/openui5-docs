@@ -18,7 +18,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 
    
   
-The list is now sorted and grouped by the shipping company<a name="loioc4b2a32bb72f483faa173e890e48d812__fig_r1j_pst_mr"/>
+<a name="loioc4b2a32bb72f483faa173e890e48d812__fig_r1j_pst_mr"/>The list is now sorted and grouped by the shipping company
 
  ![](loio80771b1120ce4d14b9d0ebf1fe98bce9_HiRes.png "The list is now sorted and grouped by the shipping company") 
 
@@ -96,7 +96,7 @@ We modify the view and add a different sorter, or better; we change the sorter a
 
 As with the sorter, no further action is required. The list and the data binding features of OpenUI5 will do the trick to display group headers automatically and categorize the items in the groups. We could define a custom group header factory if we wanted by setting the `groupHeaderFactory` property, but the result looks already fine.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.Sorter`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Sorter.html)

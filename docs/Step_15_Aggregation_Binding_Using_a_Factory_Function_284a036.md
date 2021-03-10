@@ -18,7 +18,7 @@ Instead of hard-coding a single template control, we use a factory function to g
 
    
   
-Controls generated based on data<a name="loio284a036c8ff943238fb65bf5a2676fb7__fig_r1j_pst_mr"/>
+<a name="loio284a036c8ff943238fb65bf5a2676fb7__fig_r1j_pst_mr"/>Controls generated based on data
 
  ![](loiodb27ba88d80c4778809bdb9b971531f9_HiRes.png "Controls generated based on data") 
 
@@ -229,7 +229,7 @@ We add the missing texts to the `properties` files.
 
 That's all - you completed the Data Binding tutorial!
 
-**Related information**  
+**Related Information**  
 
 
 [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)

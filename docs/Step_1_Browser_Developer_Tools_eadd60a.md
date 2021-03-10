@@ -231,7 +231,7 @@ There are additional tabs that can help you to analyze performance problems or m
 -   *Application* or *Resources*
 
 
-**Related information**  
+**Related Information**  
 
 
 [Documentation of the Chrome DevTools on `https://developers.google.com`](https://developers.google.com/web/tools/chrome-devtools/)

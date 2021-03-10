@@ -34,7 +34,7 @@ myDetailPage.addEventDelegate({
 
 When you navigate back to a page, it receives the original data object which has been given when you first navigated to the page, but you can also give an additional data object with the back navigation.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer)

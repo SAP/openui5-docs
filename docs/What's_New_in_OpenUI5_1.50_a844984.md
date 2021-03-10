@@ -90,7 +90,7 @@ The new version of the OpenUI5 OData V4 model introduces an adapter that allows 
 -   All unsupported query options lead to an error.
 
 
-> CAUTION:  
+> Caution:  
 > **Incompatibility Due to a Bug Fix**
 > 
 > The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. However, due to the bug, the return value wraps the expected output that can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.

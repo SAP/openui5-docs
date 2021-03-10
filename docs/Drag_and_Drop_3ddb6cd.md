@@ -68,7 +68,7 @@ If `dragEnter` is allowed, the user can now drop an object by releasing the mous
 > Note:  
 > The `DragAndDrop` handler does not provide any default drop handler implementation. This is up to the application developers.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.dnd`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.dnd)

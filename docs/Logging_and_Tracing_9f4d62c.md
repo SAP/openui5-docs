@@ -21,7 +21,7 @@ Specific log messages only appear in the console when the severity of the issue 
 > Tip:  
 > In productive applications, you should keep the system defaults for log levels for performance reasons.
 
-Severities and Log Levels<a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>
+ <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>Severities and Log Levels
 
 |Severity|Log Level|Description|Example|
 |--------|---------|-----------|-------|
@@ -107,7 +107,7 @@ assert(aValues.length === 10, "There are 10 values stored in the array")
 > Note:  
 > Assertions might be removed when the JavaScript code is optimized during a build. Therefore, callers should not rely on any side effects of this method.
 
-**Related information**  
+**Related Information**  
 
 
 [Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)

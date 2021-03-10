@@ -151,7 +151,7 @@ In OData V2 $filter can only be used on top level. An error is raised if $filter
 
 The remaining functions are unsupported because they have no equivalent in V2.
 
-> CAUTION:  
+> Caution:  
 > Avoid passing literals to date, time and arithmetic functions, because the parameter to these functions can have different types and it cannot be decided which one is correct.
 > 
 > > Example:  
@@ -220,6 +220,6 @@ Not all OData V4 features are supported yet when consuming an OData V2 service. 
 -   Not all OData V2 annotations are converted yet. Supported OData V2 annotations are listed above \(see [OData V2 Annotations](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md#loio365bdbd737034334a38a6fef07345196__subsection_kmw_4fl_nbb)\).
 
 
-> CAUTION:  
+> Caution:  
 > OData V4 validates that namespaces are always loaded from the same URI. Ensure to reference the metadata document \(e.g. **.../IWBEP/GWSAMPLE\_BASIC/$metadata**\) in additional annotation files and not the service document \(**.../IWBEP/GWSAMPLE\_BASIC**\).
 

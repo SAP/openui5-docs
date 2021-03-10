@@ -86,7 +86,7 @@ To use the preprocessor, you can choose one of the following options:
 > Note:  
 > The information that is provided when using a preprocessor locally will be passed to the preprocessor according to the `mSettings` of the register method.
 
-**Related information**  
+**Related Information**  
 
 
 [XML View Cache](XML_View_Cache_3d85d5e.md)

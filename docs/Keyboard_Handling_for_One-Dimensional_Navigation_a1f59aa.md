@@ -24,11 +24,15 @@ The following keys and key combinations are used for navigation in one-dimension
 	<tbody>
 		<tr>
 			<td>*Up arrow*, *Left arrow*</td>
-			<td>If focus is on an item, move focus to the **previous** item. If focus is on the first item, do nothing.</td>
+			<td> If focus is on an item, move focus to the **previous** item.
+ If focus is on the first item, do nothing.
+			</td>
 		</tr>
 		<tr>
 			<td>*Down arrow*, *Right arrow*</td>
-			<td>If focus is on an item, move focus to the **next** item. If focus is on the last item, do nothing.</td>
+			<td> If focus is on an item, move focus to the **next** item.
+ If focus is on the last item, do nothing.
+			</td>
 		</tr>
 		<tr>
 			<td>*Page up*</td>
@@ -36,7 +40,8 @@ The following keys and key combinations are used for navigation in one-dimension
  > Note:  
  > Page size can be set by the application; default page size is 10 items
 
- If focus is on the last item, do nothing.</td>
+ If focus is on the last item, do nothing.
+			</td>
 		</tr>
 		<tr>
 			<td>*Page down*</td>
@@ -44,7 +49,8 @@ The following keys and key combinations are used for navigation in one-dimension
  > Note:  
  > Page size can be set by the application; default page size is 10 items
 
- If focus is on the first item, do nothing.</td>
+ If focus is on the first item, do nothing.
+			</td>
 		</tr>
 		<tr>
 			<td>*Home*</td>

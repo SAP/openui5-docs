@@ -81,7 +81,7 @@ Another way to achieve this, when the layout cannot be known in advance, is to j
 
 And then change the layout manually. The recommended lifecycle event to do this is a `beforeRouteMatched` event handler in your controller. In theory, you could change the layout as response of `routeMatched` too, but `beforeRouteMatched` is better for the purpose, as views aren’t loaded yet, which ensures that when they are, columns will be already resized, and there will be no need for the controls in the views to readapt \(which would be the case if views were loaded first, and only then columns resized\).
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.f.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.routing.Router.html)

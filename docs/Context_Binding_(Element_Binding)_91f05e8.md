@@ -274,7 +274,7 @@ For more information, see the API Reference for the following methods:
 -   [API Reference: `sap.ui.core.Element.unbindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/unbindElement).
 
 
-**Related information**  
+**Related Information**  
 
 
 [Tutorial Step 13: Element Binding](Step_13_Element_Binding_6c7c5c2.md)

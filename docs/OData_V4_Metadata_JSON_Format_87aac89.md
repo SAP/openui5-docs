@@ -232,18 +232,67 @@ The following JSON file represents the metadata document which corresponds to `G
 
 Constant and dynamic expressions are used as values for annotations. Their JSON representation is shown in the following two tables.
 
-Constant Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_tyk_cqs_xv"/>
+ <a name="loio87aac894a40640f89920d7b2a414499b__table_tyk_cqs_xv"/>Constant Expressions
 
-|Expression|Options|Additional Information|
-|----------|-------|----------------------|
-|14.4 Constant Expressions| `{"$Binary" : "T0RhdGE"}` `{"$Date" : "2000-01-01"}` `{"$DateTimeOffset" : "2000-01-01T16:00:00.000-09:00"}` `{"$Decimal" : "3.14"}` `{"$Duration" : "P11D23H59M59.999999999999S"}` `{"$Guid" : "21EC2020-3AEA-1069-A2DD-08002B30309D"}` `{"$TimeOfDay" : "21:45:00"}` |"Binary", "Date", "DateTimeOffset", "Decimal", "Duration", "Guid", "TimeOfDay" are objects with a single property that has a string value.|
-|14.4.2 Expression `Bool` | `false` `true` |Is represented by the JavaScript boolean literals.|
-|14.4.7 Expression `EnumMember` | `{"$EnumMember" : 42}` `{"$EnumMember" : "1234567890123456789"}` |Is represented like above object notation, but with a JavaScript number literal as long as the value is a safe integer, else with a string value.|
-|14.4.8 Expression `Float` | `3.1415926535` `{"$Float" : "-INF"}` `{"$Float" : "INF"}` `{"$Float" : "NaN"}` |Is represented by a JavaScript number literal \(except for the `nanInfinity` ABNF rule which needs an object notation with a string value\).|
-|14.4.10 Expression `Int` | `42` `{"$Int" : "1234567890123456789"}` |Is represented by a JavaScript number literal as long as the value is a safe integer. Else the above object notation is used.|
-|14.4.11 Expression `String` | `"Product Catalog"` |Is represented by a JavaScript string literal.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
-Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_xv"/>
+<table>
+	<thead>
+		<tr>
+			<th>Expression</th>
+			<th>Options</th>
+			<th>Additional Information</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>14.4 Constant Expressions</td>
+			<td> `{"$Binary" : "T0RhdGE"}`
+ `{"$Date" : "2000-01-01"}`
+
+ `{"$DateTimeOffset" : "2000-01-01T16:00:00.000-09:00"}`
+
+ `{"$Decimal" : "3.14"}`
+
+ `{"$Duration" : "P11D23H59M59.999999999999S"}`
+
+ `{"$Guid" : "21EC2020-3AEA-1069-A2DD-08002B30309D"}`
+
+ `{"$TimeOfDay" : "21:45:00"}`
+			</td>
+			<td>"Binary", "Date", "DateTimeOffset", "Decimal", "Duration", "Guid", "TimeOfDay" are objects with a single property that has a string value.</td>
+			<td>14.4.2 Expression `Bool` </td>
+			<td> `false`
+ `true`
+			</td>
+			<td>Is represented by the JavaScript boolean literals.</td>
+			<td>14.4.7 Expression `EnumMember` </td>
+			<td> `{"$EnumMember" : 42}`
+ `{"$EnumMember" : "1234567890123456789"}`
+			</td>
+			<td>Is represented like above object notation, but with a JavaScript number literal as long as the value is a safe integer, else with a string value.</td>
+			<td>14.4.8 Expression `Float` </td>
+			<td> `3.1415926535`
+ `{"$Float" : "-INF"}`
+
+ `{"$Float" : "INF"}`
+
+ `{"$Float" : "NaN"}`
+			</td>
+			<td>Is represented by a JavaScript number literal \(except for the `nanInfinity` ABNF rule which needs an object notation with a string value\).</td>
+			<td>14.4.10 Expression `Int` </td>
+			<td> `42`
+ `{"$Int" : "1234567890123456789"}`
+			</td>
+			<td>Is represented by a JavaScript number literal as long as the value is a safe integer. Else the above object notation is used.</td>
+			<td>14.4.11 Expression `String` </td>
+			<td> `"Product Catalog"` </td>
+			<td>Is represented by a JavaScript string literal.</td>
+		</tr>
+	</tbody>
+</table>
+
+ <a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_xv"/>Dynamic Expressions
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -286,11 +335,15 @@ Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_
 		</tr>
 		<tr>
 			<td>14.5.5 Expression `Collection` </td>
-			<td> `[<value>, ...]` Simply an array. No additional properties, no annotations possible.</td>
+			<td> `[<value>, ...]`
+ Simply an array. No additional properties, no annotations possible.
+			</td>
 		</tr>
 		<tr>
 			<td>14.5.6 Expression `If` </td>
-			<td> `{"$If" : [<value>, <value>, <value>], "@..." : <value>}` Condition, then, else \(which is optional inside a "14.5.5 Expression Collection" only\).</td>
+			<td> `{"$If" : [<value>, <value>, <value>], "@..." : <value>}`
+ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection" only\).
+			</td>
 		</tr>
 		<tr>
 			<td>14.5.7 Expression `IsOf` </td>
@@ -319,7 +372,11 @@ Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_
 		</tr>
 		<tr>
 			<td>14.5.10 Expression `Null` </td>
-			<td> `null` `{"$Null" : null, "@..." : <value>}` The object notation is needed in case of inline annotations.</td>
+			<td> `null`
+ `{"$Null" : null, "@..." : <value>}`
+
+ The object notation is needed in case of inline annotations.
+			</td>
 		</tr>
 		<tr>
 			<td>14.5.11 Expression `NavigationPropertyPath` </td>
@@ -335,7 +392,9 @@ Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_
 		</tr>
 		<tr>
 			<td>14.5.14 Expression `Record` </td>
-			<td>The record itself is a map: ``` js
+			<td> The record itself is a map:
+ ``` js
+
 {
   "$Type" : "<14.5.14.1 Record Type>",
   "<14.5.14.2.1 PropertyValue Property>" : <value>,
@@ -351,7 +410,7 @@ Dynamic Expressions<a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_
 	</tbody>
 </table>
 
-**Related information**  
+**Related Information**  
 
 
 [OData JSON Format Version 4.0](http://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)

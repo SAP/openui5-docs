@@ -12,5 +12,5 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 No need to worry about device specifics! OpenUI5 apps run on smartphones, tablets, and desktops. The UI controls automatically adapt themselves to each device's capabilities and make the most of the available real estate. supports several functions to adapt to operating systems and devices.
 
- ![](loio4d2ab35a01d7482a90bee0d3354db457_LowRes.png) 
+![](loio4d2ab35a01d7482a90bee0d3354db457_LowRes.png) 
 

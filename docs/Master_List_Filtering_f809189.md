@@ -36,7 +36,7 @@ The event handlers that are called when selecting a sorting and grouping option 
 
 The filter message is automatically updated with the chosen filter texts. It is displayed on top of the master list and can be clicked to reopen the filter settings.
 
-**Related information**  
+**Related Information**  
 
 
 [SAP Fiori Design Guidelines: Master List](https://experience.sap.com/fiori-design/floorplans/master-list/)

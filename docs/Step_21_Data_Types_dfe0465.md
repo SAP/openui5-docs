@@ -18,7 +18,7 @@ The list of invoices is already looking nice, but what is an invoice without a p
 
    
   
-The list of invoices with prices and number units<a name="loiodfe04650afc046e0802abb1a1a90d2d9__fig_r1j_pst_mr"/>
+<a name="loiodfe04650afc046e0802abb1a1a90d2d9__fig_r1j_pst_mr"/>The list of invoices with prices and number units
 
  ![](loioa8394701ac104827af7e2034cb527e1c_HiRes.png "The list of invoices with prices and number units") 
 
@@ -95,7 +95,7 @@ To be able to access the currency code that is not part of our data model, we de
 -   Use data types instead of custom formatters whenever possible.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Composite Binding](Composite_Binding_a2fe8e7.md)

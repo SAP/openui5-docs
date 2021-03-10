@@ -108,7 +108,7 @@ oVerticalLayout.bindAggregation("content", "/companies", function (sId, oContext
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Tutorial Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md)

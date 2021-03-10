@@ -16,7 +16,7 @@ The report contains information from the loaded components, a detailed list of t
 
    
   
-Analysis Results: Collapsed View<a name="loio29bcdec715a2428092666212bb6bb875__fig_qcx_vk1_k1b"/>
+<a name="loio29bcdec715a2428092666212bb6bb875__fig_qcx_vk1_k1b"/>Analysis Results: Collapsed View
 
  ![](loioea03b3f155794651b63742a574a42a7b_HiRes.png "Analysis Results: Collapsed View") 
 
@@ -34,7 +34,7 @@ The report contains the following elements:
 
        
       
-    Analysis Results: Rules<a name="loio29bcdec715a2428092666212bb6bb875__fig_h2m_zk1_k1b"/>
+    <a name="loio29bcdec715a2428092666212bb6bb875__fig_h2m_zk1_k1b"/>Analysis Results: Rules
 
      ![](loioa6b194107723468daf578214e7abc8b3_HiRes.png "Analysis Results: Rules") 
 
@@ -42,7 +42,7 @@ The report contains the following elements:
 
        
       
-    Analysis Results: Technical Information<a name="loio29bcdec715a2428092666212bb6bb875__fig_szv_dl1_k1b"/>
+    <a name="loio29bcdec715a2428092666212bb6bb875__fig_szv_dl1_k1b"/>Analysis Results: Technical Information
 
      ![](loio103b3fc2cf0049abab89f7411a8bccde_HiRes.png "Analysis Results: Technical Information") 
 
@@ -50,7 +50,7 @@ The report contains the following elements:
 
        
       
-    Analysis Results: Application Information<a name="loio29bcdec715a2428092666212bb6bb875__fig_anc_hl1_k1b"/>
+    <a name="loio29bcdec715a2428092666212bb6bb875__fig_anc_hl1_k1b"/>Analysis Results: Application Information
 
      ![](loioff63b15f32044ad58e83a2c4a76f9453_HiRes.png "Analysis Results: Application Information") 
 
@@ -60,7 +60,7 @@ The report contains the following elements:
 
        
       
-    Analysis Results: Issues<a name="loio29bcdec715a2428092666212bb6bb875__fig_p14_jl1_k1b"/>
+    <a name="loio29bcdec715a2428092666212bb6bb875__fig_p14_jl1_k1b"/>Analysis Results: Issues
 
      ![](loiod39e614af12d44899a32dc2db58ebea5_HiRes.png "Analysis Results: Issues") 
 

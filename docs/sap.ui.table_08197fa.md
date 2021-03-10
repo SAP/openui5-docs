@@ -30,7 +30,7 @@ To improve rendering and memory performance, only the number of rows that are vi
 
 OData as a RESTful protocol provides a specified and a generalized way to access back-end services via HTTP requests. The OpenUI5 OData model provides a stable module for querying OData services via the network. All `sap.ui.table.*` controls fully support data bindings over OData V2. Since OData services can hold millions of entries, and these entries have to be loaded somehow to the client and rendered, the `sap.ui.table.*` controls implement advanced paging mechanisms based on the underlying `ODataListBinding` and `ODataTreeBinding`. The OpenUI5 OData bindings take care of all necessary back-end requests to retrieve the currently-needed data entries. This is done as efficiently as possible with the minimum amount of back-end requests.
 
-**Related information**  
+**Related Information**  
 
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)

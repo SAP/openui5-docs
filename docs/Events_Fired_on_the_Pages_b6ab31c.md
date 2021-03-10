@@ -46,7 +46,7 @@ page1.addEventDelegate({
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.NavContainerChild`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainerChild)

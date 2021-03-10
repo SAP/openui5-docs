@@ -48,7 +48,7 @@ oMessagePopoverButton.placeAt("content");
 > Note:  
 > For an example how to bind to the message model and show the messages to the user, see `sap.m.MessagePopover` in the API reference.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.message.MessageModel.html)

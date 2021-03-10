@@ -18,7 +18,7 @@ In this step of our Walkthrough tutorial, we adjust the content density based on
 
    
   
-The content density is compact on desktop devices and cozy on touch-enabled devices<a name="loiod935dbf196d34997bf1ac42ac3e81579__fig_r1j_pst_mr"/>
+<a name="loiod935dbf196d34997bf1ac42ac3e81579__fig_r1j_pst_mr"/>The content density is compact on desktop devices and cozy on touch-enabled devices
 
  ![](loio04b6669bbc8a4524be5a998ad78544ac_HiRes.png "The content density is compact on desktop devices and cozy on touch-enabled
 					devices") 
@@ -173,7 +173,7 @@ You should now be familiar with the major development paradigms and concepts of 
 
 If you want to dive deeper into specific topics, you can use the other tutorials that show some of the aspects of this Walkthrough and advanced topics in more detail.
 
-**Related information**  
+**Related Information**  
 
 
 [Content Densities](Content_Densities_e54f729.md)

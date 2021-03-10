@@ -20,7 +20,7 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
 
    
   
-App with a toolbar that contains a *Refresh* button<a name="loioe9de002ddf1e478fbb9232bfba83dcf0__fig_blw_dkb_mcb"/>
+<a name="loioe9de002ddf1e478fbb9232bfba83dcf0__fig_blw_dkb_mcb"/>App with a toolbar that contains a *Refresh* button
 
  ![](loio0abcbb65bba54780948b00c20ce53690_LowRes.png "App with a toolbar that contains a Refresh
 					button") 
@@ -184,7 +184,7 @@ We search for the following mock server requests:
     This request explicitly lists the fields that should be included in the response by using the `$select` query option. Although the *TripPin* service has more fields in its `People` entity set, only those four are included in the response. This is a feature of the OData V4 Model called "automatic determination of `$select`", or "auto-`$select`". It helps restricting the size of responses to what is really needed. The `ODataModel` computes the required fields from binding paths specified for controls. This feature is not active by default. In our case, this is activated by setting the `autoExpandSelect` property to `true` when instantiating the model in the `manifest.json` descriptor file .
 
 
-**Related information**  
+**Related Information**  
 
 
 [Bindings](Bindings_54e0ddf.md)

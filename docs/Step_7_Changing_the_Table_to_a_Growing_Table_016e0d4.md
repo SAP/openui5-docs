@@ -18,7 +18,7 @@ Let’s switch back to developing and add the missing feature for the test we im
 
    
   
-The List of posts is now dynamically loading more items when we scroll to the end of the page<a name="loio016e0d44f8ff47d2bdf4fdad9b7bf7cd__fig_r1j_pst_mr"/>
+<a name="loio016e0d44f8ff47d2bdf4fdad9b7bf7cd__fig_r1j_pst_mr"/>The List of posts is now dynamically loading more items when we scroll to the end of the page
 
  ![](loio43d882b890714236901f5b067e34e81e_LowRes.png "The List of posts is now dynamically loading more items when we scroll to the
 					end of the page") 
@@ -63,7 +63,7 @@ We simply set the parameter `growing` to `true` to enable our feature. Now we ca
 -   Use OPA tests for UI-related integration tests
 
 
-**Related information**  
+**Related Information**  
 
 
 [Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md)

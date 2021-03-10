@@ -20,7 +20,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
    
   
-A second page is added to display the invoice<a name="loioe5200ee755f344c8aef8efcbab3308fb__fig_r1j_pst_mr"/>
+<a name="loioe5200ee755f344c8aef8efcbab3308fb__fig_r1j_pst_mr"/>A second page is added to display the invoice
 
  ![](loioa1d85cc6f6b4452cac5382afd0a29699_HiRes.png "A second page is added to display the invoice") 
 
@@ -301,7 +301,7 @@ You should now see the detail page when you click an item in the list of invoice
 -   Define the routing configuration in the descriptor
 
 
-**Related information**  
+**Related Information**  
 
 
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md)

@@ -34,7 +34,7 @@ The metadata of the component controller should be used to declare the runtime m
 
 We recommend to define the component metadata externally in the descriptor \(`manifest.json`\), because the descriptor for components is mandatory for modern components and allows performance optimizations.
 
-**Related information**  
+**Related Information**  
 
 
 [Using and Nesting Components](Using_and_Nesting_Components_346599f.md)

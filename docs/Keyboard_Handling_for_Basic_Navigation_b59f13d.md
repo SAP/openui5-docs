@@ -21,10 +21,30 @@ Navigation between controls is done using the *Tab* key. *Tab* moves the focus f
 > Note:  
 > Controls are in the tab order, if they are interactive, enabled and visible. This includes read-only controls. Disabled or hidden controls are taken out of the tab order. Non-interactive controls \(for example, layout container\) can never be reached with *Tab*.
 
-|Key combination|Behavior|
-|---------------|--------|
-|*Tab*|Forward Navigation: On enter, move focus to the control.On leave, move focus to the next control in the application.|
-|* Shift Tab *|Backward Navigation: On enter, move focus to the control.On leave, move focus to the previous control in the tab order.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Key combination</th>
+			<th>Behavior</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*Tab*</td>
+			<td>Forward Navigation: On enter, move focus to the control.
+On leave, move focus to the next control in the application.
+			</td>
+		</tr>
+		<tr>
+			<td>* Shift Tab *</td>
+			<td>Backward Navigation: On enter, move focus to the control.
+On leave, move focus to the previous control in the tab order.
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -32,8 +52,26 @@ Navigation between controls is done using the *Tab* key. *Tab* moves the focus f
 
 Controls which are adjacent within the application can be grouped. Within a group, *F6* skips all controls of the group and moves the focus to the first control in the application within the **next** group. * Shift F6 * moves the focus to the first control of the **previous** group.
 
-|Key combination|Behavior|
-|---------------|--------|
-|*F6*|Forward Navigation: Move focus to the next control in the tab order after the group|
-|* Shift F6 *|Backward Navigation: Move focus to the previous control in the tab order before the group|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Key combination</th>
+			<th>Behavior</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*F6*</td>
+			<td>Forward Navigation: Move focus to the next control in the tab order after the group
+			</td>
+		</tr>
+		<tr>
+			<td>* Shift F6 *</td>
+			<td>Backward Navigation: Move focus to the previous control in the tab order before the group
+			</td>
+		</tr>
+	</tbody>
+</table>
 

@@ -30,7 +30,7 @@ The image control is also used implicitly by other controls, for example:
 -   `sap.m.SegmentedButton`
 -   `sap.m.StandardListItem`
 
-> CAUTION:  
+> Caution:  
 > If you don't have higher resolution images, you must set the `densityAware` property to `false` to avoid unnecessary roundtrips.
 
 ***
@@ -78,7 +78,7 @@ Supported densities are 1.5 and 2. The following example shows a set of images w
 > Note:  
 > `detail@0.75.png` isn't supported and uses the standard image for a such low density device.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.Image`](https://openui5.hana.ondemand.com/#/api/sap.m.Image)

@@ -35,7 +35,7 @@ The OData V4 model supports the following:
 > Note:  
 > The OData V4 model documentation contains several code samples. These refer to the [Sales Orders](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) sample in the Demo Kit.
 
-**Related information**  
+**Related Information**  
 
 
 [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md)

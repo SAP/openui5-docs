@@ -20,7 +20,7 @@ An XML composite control allows you to define a composite control that clearly s
 
 An XML composite control consists of two parts, a JavaScript part, which contains the behavior and the interface of the control, and an XML part, which contains the visual representation and the structure of the control. The XML part can also define the binding to the properties and aggregations specified in the JavaScript part, so you do not need to specify a model in the binding.
 
-**Related information**  
+**Related Information**  
 
 
 [Standard Composite Controls](Standard_Composite_Controls_c1512f6.md)

@@ -75,7 +75,7 @@ welcome=Welcome {0}
 > });
 > ```
 
-**Related information**  
+**Related Information**  
 
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)

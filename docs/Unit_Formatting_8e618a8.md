@@ -147,7 +147,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 });
 ```
 
-> CAUTION:  
+> Caution:  
 > The custom units defined on the number format instance will be exclusive to this instance. No other instances are affected. In addition, once you define custom units for an instance, only those units will be formatted and parsed by that instance. This also means that custom units defined via the Configuration are not taken into account for this specific instance.
 > 
 > This is done to circumvent ambiguities and unit clashes with the CLDR units. So in the above example, only Zombies can be formatted, but no Gigawatt \(CLDR key: **power-gigawatt**\).
@@ -319,7 +319,7 @@ The third argument of the base Unit type constructor is a list of dynamic format
 > 
 > So if you define a **decimals** value for a custom unit in the Configuration, the bound values from the Unit type instance will still be taken for the formatting.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)

@@ -25,7 +25,7 @@ In the real world, data often resides on remote servers and is accessed via an O
 
    
   
-Products from the OData invoices test service are now shown within our app<a name="loio44062441f3bd4c67a4f665ae362d1109__fig_r1j_pst_mr"/>
+<a name="loio44062441f3bd4c67a4f665ae362d1109__fig_r1j_pst_mr"/>Products from the OData invoices test service are now shown within our app
 
  ![](loio99a649180be34423b9c6ba8379b26098_HiRes.png "Products from the OData invoices test service are now shown within our
 					app") 
@@ -94,13 +94,13 @@ You can now try to run the app and see what happens - we will see an error relat
 
    
   
-Violations of the same-origin policy in Google Chrome<a name="loio44062441f3bd4c67a4f665ae362d1109__fig_jyf_f1k_c5"/>
+<a name="loio44062441f3bd4c67a4f665ae362d1109__fig_jyf_f1k_c5"/>Violations of the same-origin policy in Google Chrome
 
  ![](loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome") 
 
 Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development environment you have different options to overcome this limitation. For more information, see [Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md).
 
-**Related information**  
+**Related Information**  
 
 
 [OData Home Page](http://www.odata.org/)

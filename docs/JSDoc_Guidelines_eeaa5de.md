@@ -117,19 +117,77 @@ You can use inline and HTML tags in your comments.
 
 The table provides an overview of the most common inline and HTML tags.
 
-Inline and HTML Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_ezd_5yt_l2b"/>
+ <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_ezd_5yt_l2b"/>Inline and HTML Tags
 
-|Tag|Use|Example|How to Use / Details|Type of Tag|
-|---|---|-------|--------------------|-----------|
-|\{@link\}|Links within API Reference| `{@link sap.ui.generic.app.navigation.service.NavError Error}` `{@link sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable}` |To replace the path with a display text, use it like this: \{@link <path\> space <display text\>\}. You can also use `#myMethod` for links within a class or control to individual methods, for example. The leading hash will then be removed automatically. For other links, use the required syntax, for example, `#event:name`.|Inline|
-|Empty line|Creates a paragraph| |Using <p\> is not necessary, since empty lines are used to define paragraphs.|HTML|
-|<code\>…</code\>|Technical entities \(optional\)|the <code\>Button</code\> control| |
-|<pre\>…</pre\>|Code samples| | |
-|<ul\> <li\>…</li\> <li\>…</li\> </ul\>|Unordered lists| | |
-|<ol\> <li\>…</li\> <li\>…</li\> </ol\>|Ordered lists| | |
-|<strong\>… </strong\> or <b\>…</b\>|Bold font| | |
-|<i\>…</i\>|Italics| | |
-|&nbsp;|Non-breaking space| | |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Tag</th>
+			<th>Use</th>
+			<th>Example</th>
+			<th>How to Use / Details</th>
+			<th>Type of Tag</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>\{@link\}</td>
+			<td>Links within API Reference</td>
+			<td> `{@link sap.ui.generic.app.navigation.service.NavError Error}`
+ `{@link sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable}` 
+			</td>
+			<td> To replace the path with a display text, use it like this: \{@link <path\> space <display text\>\}.
+ You can also use `#myMethod` for links within a class or control to individual methods, for example. The leading hash will then be removed automatically.
+
+ For other links, use the required syntax, for example, `#event:name`.
+			</td>
+			<td>Inline</td>
+			<td>Empty line</td>
+			<td>Creates a paragraph</td>
+			<td>Using <p\> is not necessary, since empty lines are used to define paragraphs.</td>
+			<td>HTML</td>
+		</tr>
+		<tr>
+			<td><code\>…</code\></td>
+			<td>Technical entities \(optional\)</td>
+			<td>the <code\>Button</code\> control</td>
+		</tr>
+		<tr>
+			<td><pre\>…</pre\></td>
+			<td>Code samples</td>
+		</tr>
+		<tr>
+			<td> <ul\>
+ <li\>…</li\>
+
+ <li\>…</li\>
+
+ </ul\>
+			</td>
+			<td>Unordered lists</td>
+			<td> <ol\>
+ <li\>…</li\>
+
+ <li\>…</li\>
+
+ </ol\>
+			</td>
+			<td>Ordered lists</td>
+			<td><strong\>… </strong\> or <b\>…</b\></td>
+			<td>Bold font</td>
+		</tr>
+		<tr>
+			<td><i\>…</i\></td>
+			<td>Italics</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>Non-breaking space</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -143,7 +201,7 @@ You can also use block tags in your comments.
 
 The table provides an overview of the most common block tags.
 
-Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
+<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>Block Tags
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -185,7 +243,9 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 			<td>@author</td>
 			<td>Adds the name of the developer responsible for the code</td>
 			<td> `@author Max Mustermann` </td>
-			<td>This is an optional tag that is not displayed in JSDoc. If you need to use the version tag, use $\{version\} so you don't have to update this manually for each new version.</td>
+			<td> This is an optional tag that is not displayed in JSDoc.
+ If you need to use the version tag, use $\{version\} so you don't have to update this manually for each new version.
+			</td>
 		</tr>
 		<tr>
 			<td>@version</td>
@@ -195,8 +255,18 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 		<tr>
 			<td>@see</td>
 			<td>Adds information \(for example, link to documentation or the SAP Fiori Design Guidelines\) in the header section of the *API Reference* </td>
-			<td> `@see path` `@see free text` `@see {@link topic:bed8274140d04fc0b9bcb2db42d8bac2 Smart Table}` `@see {@link fiori:/flexible-column-layout/ Flexible Column Layout}` </td>
-			<td>@see \{@link topic:loio <semantic control name\>\} provides a link to the documentation \(developer guide\). If there are several @see tags with documentation links, only the first one is shown in the header. The other ones are displayed under *Documentation Links* in the *Overview* section. For more generic topics that are not directly related to a class or control, use inline links.</td>
+			<td> `@see path`
+ `@see free text`
+
+ `@see {@link topic:bed8274140d04fc0b9bcb2db42d8bac2 Smart Table}` 
+
+ `@see {@link fiori:/flexible-column-layout/ Flexible Column Layout}`
+			</td>
+			<td> @see \{@link topic:loio <semantic control name\>\} provides a link to the documentation \(developer guide\).
+ If there are several @see tags with documentation links, only the first one is shown in the header. The other ones are displayed under *Documentation Links* in the *Overview* section.
+
+ For more generic topics that are not directly related to a class or control, use inline links.
+			</td>
 		</tr>
 		<tr>
 			<td>@since</td>
@@ -208,7 +278,9 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 			<td>@deprecated</td>
 			<td>Adds the version in which an entity was deprecated</td>
 			<td> `@deprecated As of version 1.28, replaced by {@link class name}` </td>
-			<td>Be as specific as possible \(without mentioning patch levels\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release. Provide information about what replaces the deprecated entity.</td>
+			<td> Be as specific as possible \(without mentioning patch levels\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
+ Provide information about what replaces the deprecated entity.
+			</td>
 		</tr>
 		<tr>
 			<td>@experimental</td>
@@ -228,7 +300,12 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
  *         a: "c"
 ```
 			</td>
-			<td>The code sample is inserted automatically with <pre\>. It is always inserted right after the comment. To insert an example somewhere else, for example, in the middle of a comment, use <pre\>. You can add a header for the example by using <caption\>.</td>
+			<td> The code sample is inserted automatically with <pre\>. It is always inserted right after the comment.
+ To insert an example somewhere else, for example, in the middle of a comment, use <pre\>.
+
+ You can add a header for the example by using <caption\>.
+			</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -251,7 +328,7 @@ Block Tags<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>
 
 To refer to another entity within the *API Reference*, you can use `{@link}` in combination with the reference types shown in the table below.
 
-Reference Types within API Reference <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_rkg_bds_kgb"/>
+ <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_rkg_bds_kgb"/>Reference Types within API Reference
 
 |Type of Reference|Description|Example|Comment|
 |-----------------|-----------|-------|-------|

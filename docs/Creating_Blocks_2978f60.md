@@ -81,7 +81,7 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 -   Override the `setMode` method. From here on, all changes are up to you.
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#/api/sap.uxap.BlockBase)

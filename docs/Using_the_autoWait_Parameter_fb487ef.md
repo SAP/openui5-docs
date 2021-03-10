@@ -132,7 +132,7 @@ oOpa.waitFor({
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md)

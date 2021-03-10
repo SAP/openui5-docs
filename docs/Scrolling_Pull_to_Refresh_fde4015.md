@@ -42,7 +42,7 @@ The application should request new data on the refresh event and call the hide m
 
 Pull to Refresh does not work with a Carousel if both are contained in a page: in order to make Pull to Refresh work, the page has to enable scrolling which leads to problems with the Carousel \(Carousel not visible\). Suggested Workaround: Add a `sap.m.PullToRefresh` instance to each page that you add to your Carousel.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.PullToRefresh`](https://openui5.hana.ondemand.com/#/api/sap.m.PullToRefresh)

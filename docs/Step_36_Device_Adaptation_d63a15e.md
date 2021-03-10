@@ -18,7 +18,7 @@ We now configure the visibility and properties of controls based on the device t
 
    
   
-On phone devices, the panel is collapsed to save screen space and a button is hidden<a name="loiod63a15e5eebb45cdada317bae5f45bc2__fig_rz5_qfp_lt"/>
+<a name="loiod63a15e5eebb45cdada317bae5f45bc2__fig_rz5_qfp_lt"/>On phone devices, the panel is collapsed to save screen space and a button is hidden
 
  ![](loio26ae5cb9623a4e698b30be0fbbd33480_HiRes.png "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden") 
@@ -236,7 +236,7 @@ We can see the results when we decrease the browser's screen size or open the ap
 
 Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.Device.media.RANGESETS`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.media.RANGESETS.html)

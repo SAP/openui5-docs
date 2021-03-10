@@ -54,7 +54,7 @@ If you construct the model with an **earlyRequests** parameter, the requests are
 > Remember:  
 > The default value for `earlyRequests` is `false` in OpenUI5 1.54. This may, however, change in later releases. If you wish to ensure that requests are not sent early, do not rely on the default and explicitly set `earlyRequests` to `false`.
 
-**Related information**  
+**Related Information**  
 
 
 [OData JSON Format Version 4.0](http://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)

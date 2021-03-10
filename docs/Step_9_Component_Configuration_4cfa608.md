@@ -20,7 +20,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
    
   
-An input field and a description displaying the value of the input field \(No visual changes to last step\)<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_r1j_pst_mr"/>
+<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
  ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 
@@ -31,7 +31,7 @@ An input field and a description displaying the value of the input field \(No vi
 
 You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).  
   
-Folder Structure for this Step<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>
+<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>Folder Structure for this Step
 
  ![](loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
 
@@ -167,7 +167,7 @@ We now create a component container instead of the view in our `index.js` that i
 -   The `index.html` file is located in the `webapp` folder if it is used productively.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Components](Components_958ead5.md)

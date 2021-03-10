@@ -18,7 +18,7 @@ In this step we want to write a test that simulates user interaction with an ico
 
    
   
-Test interacting with an icon tab bar<a name="loio19ccd473c9a14c2ab7529303a2232d2c__fig_r1j_pst_mr"/>
+<a name="loio19ccd473c9a14c2ab7529303a2232d2c__fig_r1j_pst_mr"/>Test interacting with an icon tab bar
 
  ![](loioc76a7b50ffac42b29285d7f10fd605eb_LowRes.png "Test interacting with an icon tab bar") 
 
@@ -144,7 +144,7 @@ In the `assert` part we add a new assertion for checking the visibility of a con
 -   Actions in OPA never contain a QUnit assertion
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.IconTabBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.IconTabBar.html)

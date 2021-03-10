@@ -149,7 +149,7 @@ As of Version 1.56 it is sufficient to declare the `sap.ui5/componentUsages` and
 
 For more information, see: [Using and Nesting Components](Using_and_Nesting_Components_346599f.md) and [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md). These section include information how to migrate your component declarations from the old `sap.ui5/dependencies/components` section to the modern `sap.ui5/componentUsages` section of your `manifest.json` and enable routing in nested components.
 
-**Related information**  
+**Related Information**  
 
 
 [Using and Nesting Components](Using_and_Nesting_Components_346599f.md)

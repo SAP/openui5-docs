@@ -79,7 +79,7 @@ The result will look like this:
 
    
   
-Sorting and Filtering UI<a name="loio2abc8ffc18b34c6b991165fc017b87a9__fig_h32_qwp_d1b"/>
+<a name="loio2abc8ffc18b34c6b991165fc017b87a9__fig_h32_qwp_d1b"/>Sorting and Filtering UI
 
  ![](loio6c84778a1b374791b925b703f4213f83_LowRes.png "Sorting and Filtering UI") 
 

@@ -54,19 +54,19 @@ The following table contains guidelines and examples on how to set the rule prop
 			</td>
 			<td>Choose one.</td>
 			<td>Categories</td>
-			<td>A list of categories checked that show which aspects of the application are affected by the rule. Examples:
-
+			<td> A list of categories checked that show which aspects of the application are affected by the rule. Examples:
  -   Performance
+
  -   Model Bindings
 
  -   Memory
 			</td>
 			<td>Choose one or more, or add your own.</td>
 			<td>Min version</td>
-			<td>The minimum OpenUI5 version required so that the rule can produce valid results. The Support Assistant considers applicable rules according to their `minversion` value. If you have rules in your custom library, keep in mind that the rule `minversion` will still be compared against the underlying OpenUI5 version. If you are not aware of the version, you can put in the `minversion` field "\*", "-" or whitespace \(" "\) to make sure these rules are executed.</td>
+			<td> The minimum OpenUI5 version required so that the rule can produce valid results. The Support Assistant considers applicable rules according to their `minversion` value.
+ If you have rules in your custom library, keep in mind that the rule `minversion` will still be compared against the underlying OpenUI5 version. If you are not aware of the version, you can put in the `minversion` field "\*", "-" or whitespace \(" "\) to make sure these rules are executed.
+			</td>
 			<td>for example, 1.44 for OpenUI5 version comparison or "\*", "-", or whitespace \(" "\) to avoid version filtering.</td>
-		</tr>
-		<tr>
 			<td>Max version</td>
 			<td>The maximum OpenUI5 version required to run the rule.</td>
 			<td>\(currently not taken into account\)</td>

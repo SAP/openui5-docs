@@ -18,7 +18,7 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
 
    
   
-Second panel with additional data<a name="loio9373793b290d429ba1bc6aea1ce5482f__fig_r1j_pst_mr"/>
+<a name="loio9373793b290d429ba1bc6aea1ce5482f__fig_r1j_pst_mr"/>Second panel with additional data
 
  ![](loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data") 
 
@@ -158,7 +158,7 @@ panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText=Data Binding Grundlagen
 > 
 > As has been mentioned previously, all binding path names are case-sensitive.
 
-**Related information**  
+**Related Information**  
 
 
 [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)

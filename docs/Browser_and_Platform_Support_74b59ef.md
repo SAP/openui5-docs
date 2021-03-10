@@ -67,29 +67,109 @@ For mobile operating systems, support is restricted to specific reference device
 
 When creating support incidents, make sure that the device you refer to belongs to the listed ones:
 
-|Platform|Device|End of Support Date|
-|--------|------|-------------------|
-|iOS SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.|Apple iPhone XS|September 2021|
-|Apple iPhone XR|October 2021|
-|Apple iPhone 11|September 2022|
-|Apple iPhone SE \(2nd\)|April 2023|
-|Apple iPhone 12|October 2023|
-|Apple iPad \(6th\)|March 2021|
-|Apple iPad Pro \(3rd\)|October 2021|
-|Apple iPad Air \(3rd\)|March 2022|
-|Apple iPad Mini \(5th\)|March 2022|
-|Apple iPad \(7th\)|September 2022|
-|Apple iPad Pro \(4th\)|March 2023|
-|Apple iPad \(8th\)|September 2023|
-|Apple iPad Air \(4th\)|October 2023|
-|Android Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.|Samsung Galaxy S9|March 2021|
-|Samsung Galaxy S10|March 2022|
-|Samsung Galaxy S20|March 2023|
-|Samsung Galaxy Tab S4|August 2021|
-|Samsung Galaxy Tab S5e|April 2022|
-|Samsung Galaxy Tab S6|August 2022|
-|Samsung Galaxy Tab S6 Lite|July 2023|
-|Samsung Galaxy Tab S7|August 2023|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Platform</th>
+			<th>Device</th>
+			<th>End of Support Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> iOS
+ SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
+			</td>
+			<td>Apple iPhone XS</td>
+			<td>September 2021</td>
+		</tr>
+		<tr>
+			<td>Apple iPhone XR</td>
+			<td>October 2021</td>
+		</tr>
+		<tr>
+			<td>Apple iPhone 11</td>
+			<td>September 2022</td>
+		</tr>
+		<tr>
+			<td>Apple iPhone SE \(2nd\)</td>
+			<td>April 2023</td>
+		</tr>
+		<tr>
+			<td>Apple iPhone 12</td>
+			<td>October 2023</td>
+		</tr>
+		<tr>
+			<td>Apple iPad \(6th\)</td>
+			<td>March 2021</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Pro \(3rd\)</td>
+			<td>October 2021</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Air \(3rd\)</td>
+			<td>March 2022</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Mini \(5th\)</td>
+			<td>March 2022</td>
+		</tr>
+		<tr>
+			<td>Apple iPad \(7th\)</td>
+			<td>September 2022</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Pro \(4th\)</td>
+			<td>March 2023</td>
+		</tr>
+		<tr>
+			<td>Apple iPad \(8th\)</td>
+			<td>September 2023</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Air \(4th\)</td>
+			<td>October 2023</td>
+		</tr>
+		<tr>
+			<td> Android
+ Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
+			</td>
+			<td>Samsung Galaxy S9</td>
+			<td>March 2021</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy S10</td>
+			<td>March 2022</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy S20</td>
+			<td>March 2023</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S4</td>
+			<td>August 2021</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S5e</td>
+			<td>April 2022</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S6</td>
+			<td>August 2022</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S6 Lite</td>
+			<td>July 2023</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S7</td>
+			<td>August 2023</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

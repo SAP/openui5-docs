@@ -18,7 +18,7 @@ In this step we will make the search bookmarkable. This allows users to search f
 
    
   
-Search and sorting bookmarkable<a name="loioe85da535ea19430a90c381f3c2bd748e__fig_r1j_pst_mr"/>
+<a name="loioe85da535ea19430a90c381f3c2bd748e__fig_r1j_pst_mr"/>Search and sorting bookmarkable
 
  ![](loiofeb2ddddf2e347e9893512419fe11355_LowRes.png "Search and sorting bookmarkable") 
 

@@ -55,7 +55,7 @@ The syntax of the `*expression*` is similar to JavaScript syntax, but you can on
 > Note:  
 > An expression binding does **not** validate binding paths. As a result, an expression binding will **not** detect incorrect or misspelled binding paths. But if you use an OData V4 model and try to bind data that does **not** exist in the model, a warning is logged in the console.
 
-To embed a path containing a closing curly brace into an expression binding, use a complex binding syntax: `${path:'...'}`, for example `"{:= ${path:'target>extensions/[${name} === \'semantics\']/value'} === 'email'}"`. You can use this also to avoid variable replacement by build tools like Maven for special names like "Description" or "Name".
+To embed a path containing a closing curly brace into an expression binding, use a complex binding syntax: `${path:'...'}`, for example `"{:= ${path:'target>extensions/[${name} === \'semantics\']/value'} === 'email'}"`. You can use this also to avoid variable replacement by build tools like Maven for special names like “Description” or “Name”.
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -69,7 +69,17 @@ To embed a path containing a closing curly brace into an expression binding, use
 	<tbody>
 		<tr>
 			<td>Literal</td>
-			<td>number, for example `42`, `6.022e+23` or `-273.15` object, for example `{foo: 'bar'}` string, for example `'foo'` `null` `true` `false` </td>
+			<td> number, for example `42`, `6.022e+23` or `-273.15`
+ object, for example `{foo: 'bar'}`
+
+ string, for example `'foo'`
+
+ `null`
+
+ `true`
+
+ `false`
+			</td>
 		</tr>
 		<tr>
 			<td>Grouping</td>
@@ -77,28 +87,51 @@ To embed a path containing a closing curly brace into an expression binding, use
 		</tr>
 		<tr>
 			<td>Unary operator</td>
-			<td> `!` `+` `-` `typeof` </td>
+			<td> `!`
+ `+`
+
+ `-`
+
+ `typeof`
+			</td>
 		</tr>
 		<tr>
 			<td>Multiplicative operator</td>
-			<td> `*` `/` `%` </td>
+			<td>  `*`
+ `/`
+
+ `%`
+			</td>
 		</tr>
 		<tr>
 			<td>Additive operator</td>
-			<td> `+` `-` </td>
+			<td> `+`
+ `-`
+			</td>
 		</tr>
 		<tr>
 			<td>Relational operator</td>
-			<td> `<` `>` `<=` `>=` </td>
+			<td> `<`
+ `>`
+
+ `<=`
+
+ `>=`
+			</td>
 		</tr>
 		<tr>
 			<td>Strict equality operator</td>
-			<td> `===` `!==` </td>
+			<td> `===`
+ `!==`
+			</td>
 		</tr>
 		<tr>
 			<td>Binary logical operator</td>
-			<td> `&&` `</td>
-			<td>` </td>
+			<td> `&&`
+			</td>
+			<td> `</td>
+`
+			</td>
 		</tr>
 		<tr>
 			<td>Conditional operator</td>
@@ -115,10 +148,13 @@ To embed a path containing a closing curly brace into an expression binding, use
 		</tr>
 		<tr>
 			<td>Function call</td>
-			<td> `<function name>(...)` Example: `• text="{= **Math.max\($\{/value1\}, $\{/value2\}, $\{/value3\}\)** }"`
+			<td> `<function name>(...)`
+ Example:
 
- > Note:
-   > You can use functions that are available via global symbols, such as `Math.max(...)` or `isNaN(...)`.
+ `• text="{= **Math.max\($\{/value1\}, $\{/value2\}, $\{/value3\}\)** }"`
+
+ > Note:  
+ > You can use functions that are available via global symbols, such as `Math.max(...)` or `isNaN(...)`.
 			</td>
 		</tr>
 		<tr>
@@ -303,7 +339,7 @@ sap.ui.define([
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Composite Binding](Composite_Binding_a2fe8e7.md)

@@ -18,7 +18,7 @@ OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date
 
    
   
-New *Sales Amount* input field <a name="loio9252ee4015f24fc49c71c295394d1b8d__fig_r1j_pst_mr"/>
+<a name="loio9252ee4015f24fc49c71c295394d1b8d__fig_r1j_pst_mr"/>New *Sales Amount* input field
 
  ![](loiod15f8bc61efe47d9af2afdeea943cd9c_HiRes.png "New Sales Amount input field ") 
 
@@ -161,7 +161,7 @@ address=Adresse
 
 Add the missing texts to the `properties` files. Please note that special characters \(non-Latin-1\) have to be entered by using Unicode escape characters.
 
-**Related information**  
+**Related Information**  
 
 
 [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)

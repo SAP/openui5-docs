@@ -89,7 +89,7 @@ You might also consider checking the screen size using media queries in CSS or t
 
 For more information about writing custom CSS in general, please also read [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md).
 
-**Related information**  
+**Related Information**  
 
 
 [The Device API](The_Device_API_69a8e46.md)

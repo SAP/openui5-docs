@@ -98,7 +98,7 @@ Start the application and check each screen element. Check the following:
 -   Is the user informed about the required entries and input?
 
 
-**Related information**  
+**Related Information**  
 
 
 [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)

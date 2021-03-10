@@ -18,7 +18,7 @@ So far, we have created a currency field that can format itself correctly. The c
 
    
   
-A message appears<a name="loiob8c4e534cdb440e9a5bbff86f9572bd6__fig_r1j_pst_mr"/>
+<a name="loiob8c4e534cdb440e9a5bbff86f9572bd6__fig_r1j_pst_mr"/>A message appears
 
  ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears") 
 
@@ -100,7 +100,7 @@ Note that the field in error has a red border: ![](loio44db88e92bc445b2b00e1b8e5
 
 However, the error message itself will only be displayed when that particular field has focus: ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png)
 
-**Related information**  
+**Related Information**  
 
 
 [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md)

@@ -22,7 +22,7 @@ In this step, we implement the solution to this problem: We expand our reuse con
 
    
   
-The dialog is now opened by the component<a name="loio19453962b8074b7399372c65cbe05370__fig_r1j_pst_mr"/>
+<a name="loio19453962b8074b7399372c65cbe05370__fig_r1j_pst_mr"/>The dialog is now opened by the component
 
  ![](loio6fbc14686a044570be0b7654e683cd56_HiRes.png "The dialog is now opened by the component") 
 
@@ -241,7 +241,7 @@ We add the method `onOpenDialog` also to the app controller so that the dialog w
 -   Put all assets that are used across multiple controllers in separate modules.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Memory Management on https://developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)

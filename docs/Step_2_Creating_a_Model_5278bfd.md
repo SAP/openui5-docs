@@ -40,7 +40,7 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
 
    
   
-Screen with text derived from a model object \(No visual changes to last step\)<a name="loio5278bfd38f3940b192df0e39f2fb33b3__fig_r1j_pst_mr"/>
+<a name="loio5278bfd38f3940b192df0e39f2fb33b3__fig_r1j_pst_mr"/>Screen with text derived from a model object \(No visual changes to last step\)
 
  ![](loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last step)") 
 
@@ -92,7 +92,7 @@ In this case we have bound the model object to the OpenUI5 core. This has been d
 
 The text that is displayed on the UI is still hard-coded and not taken from the model - we will bind the property `greetingText` to our UI control in the next step.
 
-**Related information**  
+**Related Information**  
 
 
 [Models](Models_e1b6259.md)

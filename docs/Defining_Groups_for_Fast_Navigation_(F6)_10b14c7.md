@@ -132,7 +132,7 @@ onBeforeFastNavigationFocus = function(oEvent) {
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Fast Navigation](Fast_Navigation_d23e2cf.md)

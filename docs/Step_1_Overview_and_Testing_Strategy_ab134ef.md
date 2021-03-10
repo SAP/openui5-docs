@@ -21,7 +21,7 @@ In this step, we will take a look at the prototype and define the test strategy 
 
    
   
-The prototype app<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_r1j_pst_mr"/>
+<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_r1j_pst_mr"/>The prototype app
 
  ![](loio7946d242c8a14ac39fb22556b59d4bcd_HiRes.png "The prototype app") 
 
@@ -37,7 +37,7 @@ After downloading *Step 1*, you should have the following files:
 
    
   
-Folder structure with downloaded files<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_xvp_11y_2t"/>
+<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_xvp_11y_2t"/>Folder structure with downloaded files
 
  ![](loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files") 
 
@@ -130,7 +130,7 @@ Before you start implementing your first test, you should think about how to tes
 
    
   
-Testing pyramid<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_u2g_t2y_2t"/>
+<a name="loioab134ef3932c4b42898c79c10341e8b5__fig_u2g_t2y_2t"/>Testing pyramid
 
  ![](loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid") 
 
@@ -153,7 +153,7 @@ There might still be features that are hard to test with these client-side testi
 -   Provide a local test page that triggers the app in test mode with mock data \(`test/mockServer.html`\)
 
 
-**Related information**  
+**Related Information**  
 
 
 [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)

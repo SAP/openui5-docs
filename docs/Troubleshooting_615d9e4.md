@@ -18,7 +18,7 @@ The first place to check for errors is the developer tools that are provided by 
 
 OpenUI5 also provides you with support tools that help you troubleshoot and solve issues.
 
-Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>
+ <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>Support Tools Available in OpenUI5
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -34,7 +34,11 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 		<tr>
 			<td> [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) </td>
 			<td>Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.</td>
-			<td> [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */* Option P * Gesture on mobile device:
+			<td> [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+ * Ctrl Shift Alt */* Option P *
+
+ Gesture on mobile device:
+
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two fingers on the screen.
 			</td>
@@ -47,7 +51,9 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 		<tr>
 			<td> [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) </td>
 			<td>Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.</td>
-			<td> [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */* Option S * </td>
+			<td> [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+ * Ctrl Shift Alt */* Option S *
+			</td>
 		</tr>
 		<tr>
 			<td> [UI5 Inspector](UI5_Inspector_b24e724.md) </td>
@@ -57,7 +63,7 @@ Support Tools Available in OpenUI5<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8_
 	</tbody>
 </table>
 
-Performance Measurement Tools<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>
+ <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>Performance Measurement Tools
 
 |Tool|Use Case Examples|
 |----|-----------------|
@@ -74,7 +80,7 @@ For help with specific problems see our [First-Aid Kit](First-Aid_Kit_dfe4f79.md
 
 If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://www.sap.com/community/topic/ui5.html) or on [Stack Overflow](https://stackoverflow.com/search?q=sapui5).
 
-**Related information**  
+**Related Information**  
 
 
 [Troubleshooting Tutorial](Troubleshooting_5661952.md)

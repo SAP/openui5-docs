@@ -18,7 +18,7 @@ So far we have created many useful routes in our app. In the very early steps we
 
    
   
-Console output for invalid hashes when listening to bypassed events<a name="loioa7932a791adc4a58ae4693400801ea5f__fig_r1j_pst_mr"/>
+<a name="loioa7932a791adc4a58ae4693400801ea5f__fig_r1j_pst_mr"/>Console output for invalid hashes when listening to bypassed events
 
  ![](loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events") 
 
@@ -71,7 +71,7 @@ All we need to do is listen to the bypassed event on the router. If the bypassed
 
 Now try to access `webapp/index.html#/thisIsInvalid` while you have your browser console open. As you can see, there is a message that issues a faulty hash. Furthermore, our `NotFound` page is displayed.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)

@@ -24,13 +24,13 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
 
    
   
-An example of a uniform grid layout, where all the grid items in a grout take the same dimensions<a name="loio2fc256be1b4649048b125320628e12f0__fig_pfj_mhs_5fb"/>
+<a name="loio2fc256be1b4649048b125320628e12f0__fig_pfj_mhs_5fb"/>An example of a uniform grid layout, where all the grid items in a grout take the same dimensions
 
  ![](loio91e4c6b50b9d4ab58f7a4c9ab6e64839_LowRes.png "An example of a uniform grid layout, where all the grid items in a grout take the same dimensions") 
 
    
   
-GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid items<a name="loio2fc256be1b4649048b125320628e12f0__fig_pt5_d4r_1gb"/>
+<a name="loio2fc256be1b4649048b125320628e12f0__fig_pt5_d4r_1gb"/>GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid items
 
  ![](loio8b209b06ea254d03a9ca181485a25c38_LowRes.png "GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid
 					items") 
@@ -63,7 +63,7 @@ This particular layout works with Internet Explorer 11, due to an implemented re
 > 
 > -   If the `boxWidth` property is set, `boxMinWidth` and `boxesPerRowConfig` properties are ignored. If the `boxMinWidth` property is set, `boxesPerRowConfig` property is ignored.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/api/symbols/sap.f.GridList)

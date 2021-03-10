@@ -16,15 +16,48 @@ For each measurement, the result is a time and a duration. The time are the mill
 
 You can measure the categories that are used by the OpenUI5 core classes as listed in the following table:
 
-|Category|Description|
-|--------|-----------|
-| `javascript` \(default\)|Default measurement category if no category is provided|
-| `require` |Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class|
-| `xmlhttprequest` |Identifies the duration of an `jQuery.ajax` call|
-| `render` |Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class With the `render` category there comes an additional set of categories to distinguish between different phases of rendering|
-| `control` |Identifies the duration for HTML rendering provided with the `ControlRender.render` method|
-| `after` |Identifies the duration for calls on the control's `onAfterRendering` method|
-| `preserve` |Identifies the duration needed to find out whether rendering can be preserved|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Category</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> `javascript` \(default\)</td>
+			<td>Default measurement category if no category is provided</td>
+		</tr>
+		<tr>
+			<td> `require` </td>
+			<td>Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class</td>
+		</tr>
+		<tr>
+			<td> `xmlhttprequest` </td>
+			<td>Identifies the duration of an `jQuery.ajax` call</td>
+		</tr>
+		<tr>
+			<td> `render` </td>
+			<td> Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class
+ With the `render` category there comes an additional set of categories to distinguish between different phases of rendering
+			</td>
+		</tr>
+		<tr>
+			<td> `control` </td>
+			<td>Identifies the duration for HTML rendering provided with the `ControlRender.render` method</td>
+		</tr>
+		<tr>
+			<td> `after` </td>
+			<td>Identifies the duration for calls on the control's `onAfterRendering` method</td>
+		</tr>
+		<tr>
+			<td> `preserve` </td>
+			<td>Identifies the duration needed to find out whether rendering can be preserved</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -252,7 +285,7 @@ Measurement.filterMeasurements(function(oMeasurement) {
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `jQuery.sap.measure.html`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.measure.html)

@@ -16,7 +16,7 @@ As the information for the facet filter usually resides in the application backe
 
 Applications using OData do not bind the `FacetFilterItem.selected` property since this is not available from the backend service. Fortunately, selections are maintained internally on the client by the `FacetFilterList` until the list is destroyed.
 
-**Related information**  
+**Related Information**  
 
 
 [Facet Filter Selection](Facet_Filter_Selection_ef860fc.md)

@@ -18,7 +18,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 
    
   
-A status is now displayed with a custom formatter<a name="loio0f8626ed7b7542ffaa44601828db20de__fig_r1j_pst_mr"/>
+<a name="loio0f8626ed7b7542ffaa44601828db20de__fig_r1j_pst_mr"/>A status is now displayed with a custom formatter
 
  ![](loio7e0112d9ffe54e568fa8ecc44a5af3bf_HiRes.png "A status is now displayed with a custom formatter") 
 
@@ -144,7 +144,7 @@ invoiceStatusC=Done*HIGHLIGHT END*
 
 We add three new entries to the resource bundle that reflect our translated status texts. These texts are now displayed below the `number` attribute of the `ObjectListItem` dependent on the status of the invoice.
 
-**Related information**  
+**Related Information**  
 
 
 [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)

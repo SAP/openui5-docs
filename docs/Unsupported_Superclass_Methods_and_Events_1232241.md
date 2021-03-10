@@ -14,24 +14,137 @@ Certain methods derived from OpenUI5 model and binding superclasses are not supp
 
 The following methods and events are affected by this. For more information, see the corresponding API documentation for each method and event in the Demo Kit.
 
-Unsupported Methods<a name="loio1232241b99d7437ba3614698d53dfa4b__table_yby_zws_xv"/>
+ <a name="loio1232241b99d7437ba3614698d53dfa4b__table_yby_zws_xv"/>Unsupported Methods
 
-|Class|Method|
-|-----|------|
-| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)| `bindTree` `getOriginalProperty` `isList` `refresh` `setLegacySyntax` |
-| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)| `bindTree` `destroyBindingContext` `getObject` `getOriginalProperty` `getProperty` `isList` `setLegacySyntax` |
-| **sap.ui.model.odata.v4.ODataContextBinding** \(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
-| **sap.ui.model.odata.v4.ODataListBinding** \(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)| `getDistinctValues` `isInitial` `refresh` \(limited support only\) `resume` \(limited support only\) `suspend` \(limited support only\)|
-| **sap.ui.model.odata.v4.ODataPropertyBinding** \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)| `isInitial` `refresh` \(limited support only\) `resume` `setValue` \(limited support only\) `suspend` |
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
-Unsupported Events<a name="loio1232241b99d7437ba3614698d53dfa4b__table_ccv_gys_xv"/>
+<table>
+	<thead>
+		<tr>
+			<th>Class</th>
+			<th>Method</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataMetaModel**
+ \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
+			</td>
+			<td> `bindTree`
+ `getOriginalProperty`
 
-|Class|Event|
-|-----|-----|
-| **sap.ui.model.odata.v4.ODataMetaModel** \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
-| **sap.ui.model.odata.v4.ODataModel** \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)| `parseError` `propertyChange` `requestCompleted` `requestFailed` `requestSent` |
+ `isList`
 
-**Related information**  
+ `refresh`
+
+ `setLegacySyntax`
+			</td>
+		</tr>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataModel**
+ \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
+			</td>
+			<td> `bindTree`
+ `destroyBindingContext`
+
+ `getObject`
+
+ `getOriginalProperty`
+
+ `getProperty`
+
+ `isList`
+
+ `setLegacySyntax`
+			</td>
+		</tr>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataContextBinding**
+ \(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)
+			</td>
+			<td> `isInitial`
+ `refresh` \(limited support only\)
+
+ `resume` \(limited support only\)
+
+ `suspend` \(limited support only\)
+			</td>
+		</tr>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataListBinding**
+ \(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)
+			</td>
+			<td> `getDistinctValues`
+ `isInitial`
+
+ `refresh` \(limited support only\)
+
+ `resume` \(limited support only\)
+
+ `suspend` \(limited support only\)
+			</td>
+		</tr>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataPropertyBinding**
+ \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)
+			</td>
+			<td> `isInitial`
+ `refresh` \(limited support only\)
+
+ `resume`
+
+ `setValue` \(limited support only\)
+
+ `suspend`
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+ <a name="loio1232241b99d7437ba3614698d53dfa4b__table_ccv_gys_xv"/>Unsupported Events
+
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Class</th>
+			<th>Event</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataMetaModel**
+ \(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
+			</td>
+			<td> `parseError`
+ `propertyChange`
+
+ `requestCompleted`
+
+ `requestFailed`
+
+ `requestSent`
+			</td>
+		</tr>
+		<tr>
+			<td> **sap.ui.model.odata.v4.ODataModel**
+ \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
+			</td>
+			<td> `parseError`
+ `propertyChange`
+
+ `requestCompleted`
+
+ `requestFailed`
+
+ `requestSent`
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+**Related Information**  
 
 
 [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel)

@@ -24,7 +24,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
        
       
-    Technical Information Dialog: Support Assistant Settings<a name="loio473201b547734e0eb66612df5bae8553__fig_ixn_yl1_k1b"/>
+    <a name="loio473201b547734e0eb66612df5bae8553__fig_ixn_yl1_k1b"/>Technical Information Dialog: Support Assistant Settings
 
      ![](loio76e6ee08329741b895ec64627d96702e_HiRes.png "Technical Information Dialog: Support Assistant Settings") 
 
@@ -42,7 +42,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
     In the following diagram, you can see how the different OpenUI5 versions interact with the Support Assistant.  
       
-    Support Assistant - Multi-Version Support<a name="loio473201b547734e0eb66612df5bae8553__fig_r2j_2wz_n1b"/>
+    <a name="loio473201b547734e0eb66612df5bae8553__fig_r2j_2wz_n1b"/>Support Assistant - Multi-Version Support
 
      ![](loiof976dcdee0de41fd957fc8c672356d17_LowRes.png "Support Assistant - Multi-Version Support") 
 
@@ -57,7 +57,7 @@ You are now able to run the Support Assistant on the version that you selected.
 > Remember:  
 > These settings are stored in your local storage \(if selected\) and are reused on consecutive runs.
 
-**Related information**  
+**Related Information**  
 
 
 [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9)

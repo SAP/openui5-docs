@@ -84,6 +84,6 @@ When a binding is suspended, all methods which may trigger CRUD requests for thi
 -   [`ODataListBinding.updateAnalyticalInfo`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/updateAnalyticalInfo)
 
 
-> CAUTION:  
+> Caution:  
 > It is not allowed to suspend operation bindings.
 

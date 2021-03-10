@@ -18,7 +18,7 @@ For easily detecting and managing product shortages in our app, we will add a qu
 
    
   
-A quick filter allows filtering the product table<a name="loio85ec3a9454ac4eb1a901745e773844d3__fig_nmv_yrs_c5"/>
+<a name="loio85ec3a9454ac4eb1a901745e773844d3__fig_nmv_yrs_c5"/>A quick filter allows filtering the product table
 
  ![](loio395f8acac5fd4fbc9a1c52c615fa07d3_HiRes.png "A quick filter allows filtering the product table") 
 
@@ -298,7 +298,7 @@ We finally add the texts for the tab filters to the resource bundle. Copy the te
 
 Now run the app again and click the filter icons on top of the table. The products should be filtered according to the selection in the filter bar and the count should match the number of items displayed.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.ListBinding.filter`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding)

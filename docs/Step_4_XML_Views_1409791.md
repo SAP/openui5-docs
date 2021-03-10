@@ -20,7 +20,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
 
    
   
-The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)<a name="loio1409791afe4747319a3b23a1e2fc7064__fig_r1j_pst_mr"/>
+<a name="loio1409791afe4747319a3b23a1e2fc7064__fig_r1j_pst_mr"/>The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)
 
  ![](loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)") 
@@ -102,7 +102,7 @@ We replace the instantiation of the `sap.m.Text` control by our new `App` XML vi
 -   Other XML namespaces use the last part of the SAP namespace as alias \(for example, `mvc` for `sap.ui.core.mvc`\)
 
 
-**Related information**  
+**Related Information**  
 
 
 [Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)

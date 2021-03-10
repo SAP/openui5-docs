@@ -18,7 +18,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
    
   
-A message toast displays the "Hello World" message<a name="loiof665d0de4dba405f9af4294de824b03b__fig_r1j_pst_mr"/>
+<a name="loiof665d0de4dba405f9af4294de824b03b__fig_r1j_pst_mr"/>A message toast displays the "Hello World" message
 
  ![](loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message") 
 
@@ -57,7 +57,7 @@ This Asynchronous Module Definition \(AMD\) syntax allows to clearly separate th
 -   Use the name of the artifact to load for naming the function parameters \(without namespace\).
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)

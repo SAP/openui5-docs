@@ -123,7 +123,9 @@ InteractionMeasurement = {
 		<tr>
 			<td> `navigation` </td>
 			<td> `Number` </td>
-			<td>Navigation time for all requests, calculated as difference from `startTime` to `connectEnd` of a `PerformanceTiming` \(in ms\) Requests that are started while another request is already in progress are ignored \(see figure below\).</td>
+			<td> Navigation time for all requests, calculated as difference from `startTime` to `connectEnd` of a `PerformanceTiming` \(in ms\)
+ Requests that are started while another request is already in progress are ignored \(see figure below\).
+			</td>
 		</tr>
 		<tr>
 			<td> `roundtrip` </td>
@@ -194,7 +196,7 @@ InteractionMeasurement = {
 
 ![](loio9678404bdf5a4065ac270e76191984d0_LowRes.png)
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap/ui/performance/Measurement`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/performance/Measurement)

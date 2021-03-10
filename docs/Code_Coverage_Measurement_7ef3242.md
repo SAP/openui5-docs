@@ -116,7 +116,7 @@ In this example the coverage is limited to one specific file - the only one that
 
  ![](loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg) 
 
-**Related information**  
+**Related Information**  
 
 
 [More information about `Blanket.js`]()

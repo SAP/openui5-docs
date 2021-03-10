@@ -18,7 +18,7 @@ In this step, we will edit the worklist table to include additional columns for 
 
    
   
-The improved worklist table with new columns and formatting<a name="loio84100bcfd5b34f62858bdd6f67976b4a__fig_djl_pjl_c5"/>
+<a name="loio84100bcfd5b34f62858bdd6f67976b4a__fig_djl_pjl_c5"/>The improved worklist table with new columns and formatting
 
  ![](loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting") 
 

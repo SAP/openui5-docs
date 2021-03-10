@@ -88,26 +88,26 @@ To migrate the simple replacements, add the new module dependency and replace th
 		<tr>
 			<td> `jQuery.sap.log.getLog` </td>
 			<td> `sap/base/Log` </td>
-```
-
- > Note:  
-> *HIGHLIGHT START*`jQuery.sap.extend` vs. `jQuery.extend`*HIGHLIGHT END*
-> 
-> The use of `jQuery.sap.extend()` is the same as `jQuery.extend()`, but arguments that are `null` or `undefined` are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
-> 
-> *HIGHLIGHT START*`Object.assign`*HIGHLIGHT END*
-> 
-> The `Object.assign()` method only copies enumerable and own properties, but does not copy properties on the prototype chain and non-enumerable properties.
-> 
-> Considering this, `Object.assign()` might be a suitable replacement for `jQuery.sap.extend` for a shallow copy.
-> 
-> `null` and `undefined` arguments are *HIGHLIGHT START*not*HIGHLIGHT END* ignored.
-
- |
-| `jQuery.sap.now` | `sap/base/util/now` |Simple Replacement| `now` |
-| `jQuery.sap.getObject` | `sap/base/util/ObjectPath` |Complex Replacement| ```
-ObjectPath.get("some.object.path", "someProperty");
-```
+			<td>Method changed</td>
+			<td> `Log.getLogEntries` </td>
+		</tr>
+		<tr>
+			<td> `jQuery.sap.log.getLogEntries` </td>
+			<td> `sap/base/Log` </td>
+			<td>Simple replacement</td>
+			<td> `Log.getLogEntries` </td>
+		</tr>
+		<tr>
+			<td> `jQuery.sap.log.getLogger` </td>
+			<td> `sap/base/Log` </td>
+			<td>Simple replacement</td>
+			<td> `Log.getLogger` </td>
+		</tr>
+		<tr>
+			<td> `jQuery.sap.log.info` </td>
+			<td> `sap/base/Log` </td>
+			<td>Simple replacement</td>
+			<td> `Log.info` </td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.log.isLoggable` </td>
@@ -248,7 +248,9 @@ ObjectPath.get("some.object.path", "someProperty");
 			<td> `hyphenate` </td>
 		</tr>
 		<tr>
-			<td> `jQuery.sap.unicode` `jQuery.sap.isStringNFC` </td>
+			<td> `jQuery.sap.unicode`
+ `jQuery.sap.isStringNFC`
+			</td>
 			<td> `sap/base/strings/NormalizePolyfill` </td>
 			<td>Simple replacement</td>
 			<td>`NormalizePolyfill`</td>
@@ -317,9 +319,8 @@ ObjectPath.get("some.object.path", "someProperty");
 			<td> `jQuery.sap.extend` </td>
 			<td> `sap/base/util/merge` </td>
 			<td>Complex Replacement</td>
-			<td>Old: 
-
-```
+			<td> Old:
+ ```
 // Shallow
 jQuery.sap.extend({}, sContent);
 
@@ -327,7 +328,9 @@ jQuery.sap.extend({}, sContent);
 jQuery.sap.extend(true, {}, sContent)
 ```
 
- New: ```
+ New:
+
+ ```
 // Shallow
 //
 // No actual replacement for shallow copies available, see the note below for more info.
@@ -361,7 +364,9 @@ merge({}, sContent);
 ObjectPath.get("some.object.path", "someProperty");
 ```
 
- If the object path does not exist, the method doesn't create it anymore. If the path needs to be create it has do be done separately: ```
+ If the object path does not exist, the method doesn't create it anymore. If the path needs to be create it has do be done separately:
+
+ ```
 ObjectPath.create("some.object.path", window.myLib);
 ```
 			</td>
@@ -376,7 +381,8 @@ ObjectPath.create("some.object.path", window.myLib);
 ObjectPath.set("some.object.path", "myValue", window.myLib);
 ```
 
- The object path is created if it does not exist.</td>
+ The object path is created if it does not exist.
+			</td>
 		</tr>
 		<tr>
 			<td> `jQuery.sap.properties` </td>

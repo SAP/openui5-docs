@@ -12,9 +12,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The navigation flow of the Worklist app is very simple as it only contains two main views and the *not found* pages that are displayed as a message to the user in case of navigation errors.
 
-   
   
-Navigation Flow of the Worklist App<a name="loio106d2e9399704550ba290ded91b79710__fig_orz_s5z_1t"/>
+  
+<a name="loio106d2e9399704550ba290ded91b79710__fig_orz_s5z_1t"/>Navigation Flow of the Worklist App
 
  ![](loioa0a0f7231fc741eeaf450254e09ab001_LowRes.png "Navigation Flow of the Worklist App") 
 

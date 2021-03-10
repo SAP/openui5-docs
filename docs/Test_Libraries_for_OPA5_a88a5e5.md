@@ -218,7 +218,7 @@ Opa5.extendConfig({
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples)

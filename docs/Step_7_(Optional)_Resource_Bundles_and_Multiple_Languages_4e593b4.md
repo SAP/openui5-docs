@@ -18,7 +18,7 @@ The reason we have resource bundles is to allow an app to run in multiple langua
 
    
   
-German version of our UI<a name="loio4e593b44e78a431e8b21be6b3915fb55__fig_r1j_pst_mr"/>
+<a name="loio4e593b44e78a431e8b21be6b3915fb55__fig_r1j_pst_mr"/>German version of our UI
 
  ![](loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI") 
 
@@ -101,7 +101,7 @@ sap.ui.require([
 
 To test the outcome, change the default language of your browser to German and refresh your preview.
 
-**Related information**  
+**Related Information**  
 
 
 [Localization](Localization_91f217c.md)

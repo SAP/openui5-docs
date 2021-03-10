@@ -31,17 +31,156 @@ The following tables give an overview of what each demo app shows.
 
 ### Features, Layouts, and Specific Topics
 
-|Demo App|Feature|Layouts|Specific Topic|
-|--------|-------|-------|--------------|
-|*Shopping Cart*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)[Expression Binding](Expression_Binding_daf6852.md)Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)|`sap.ui.layout.BlockLayout``sap.ui.layout.VerticalLayout``sap.ui.layout.form.SimpleForm`|Filtering, custom filterSortingFormatting[Behavior-driven Development with Gherkin](Behavior-driven_Development_with_Gherkin_45ac9f1.md)[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)Local storage|
-|*Browse Orders*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)[Expression Binding](Expression_Binding_daf6852.md)|`sap.ui.layout.ResponsiveGridLayout``sap.ui.layout.form.SimpleForm` `sap.f.FlexibleColumnLayout`|SortingGroupingFormatting[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)|
-|*Shop Administration Tool*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)[Expression Binding](Expression_Binding_daf6852.md)[Custom Controls](Developing_Controls_8dcab00.md)|`sap.ui.layout.BlockLayout``sap.ui.layout.ResponsiveGridLayout``sap.uxap.ObjectPageLayout`|Formatting|
-|*Employee Directory*|[XML View](XML_View_91f2928.md)|`sap.ui.layout.form.SimpleForm`|[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)[Routing and Navigation](Routing_and_Navigation_3d18f20.md)|
-|*Hello World*|[JS View](JS_View_91f262e.md)|||
-|*Bulletin Board*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)|`sap.ui.layout.form.SimpleForm`|SortingFormatting[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)Custom type|
-|*Manage Products*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)||SortingFormatting[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)|
-|*Worklist Template*|[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)||FilteringFormatting[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)Sorting|
-|*Master-Detail Template*|[XML Fragments](XML_Fragments_2c677b5.md)[XML View](XML_View_91f2928.md)[Busy Indicators](Busy_Indicators_0dd2110.md)[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)[Expression Binding](Expression_Binding_daf6852.md)|`sap.f.FlexibleColumnLayout`|FormattingList selector[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)Sorting|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Demo App</th>
+			<th>Feature</th>
+			<th>Layouts</th>
+			<th>Specific Topic</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*Shopping Cart*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+
+[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
+
+[Expression Binding](Expression_Binding_daf6852.md)
+
+Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
+			</td>
+			<td>`sap.ui.layout.BlockLayout`
+`sap.ui.layout.VerticalLayout`
+
+`sap.ui.layout.form.SimpleForm`
+			</td>
+			<td>Filtering, custom filter
+Sorting
+
+Formatting
+
+[Behavior-driven Development with Gherkin](Behavior-driven_Development_with_Gherkin_45ac9f1.md)
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+
+Local storage
+			</td>
+		</tr>
+		<tr>
+			<td>*Browse Orders*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+
+[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
+
+[Expression Binding](Expression_Binding_daf6852.md)
+			</td>
+			<td>`sap.ui.layout.ResponsiveGridLayout`
+`sap.ui.layout.form.SimpleForm`
+
+ `sap.f.FlexibleColumnLayout`
+			</td>
+			<td>Sorting
+Grouping
+
+Formatting
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+			</td>
+		</tr>
+		<tr>
+			<td>*Shop Administration Tool*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+
+[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
+
+[Expression Binding](Expression_Binding_daf6852.md)
+
+[Custom Controls](Developing_Controls_8dcab00.md)
+			</td>
+			<td>`sap.ui.layout.BlockLayout`
+`sap.ui.layout.ResponsiveGridLayout`
+
+`sap.uxap.ObjectPageLayout`
+			</td>
+			<td>Formatting</td>
+			<td>*Employee Directory*</td>
+			<td>[XML View](XML_View_91f2928.md)</td>
+			<td>`sap.ui.layout.form.SimpleForm`</td>
+			<td>[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+[Routing and Navigation](Routing_and_Navigation_3d18f20.md)
+			</td>
+		</tr>
+		<tr>
+			<td>*Hello World*</td>
+			<td>[JS View](JS_View_91f262e.md)</td>
+		</tr>
+		<tr>
+			<td>*Bulletin Board*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+			</td>
+			<td>`sap.ui.layout.form.SimpleForm`</td>
+			<td>Sorting
+Formatting
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+
+Custom type
+			</td>
+		</tr>
+		<tr>
+			<td>*Manage Products*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+			</td>
+			<td>Sorting
+Formatting
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+			</td>
+		</tr>
+		<tr>
+			<td>*Worklist Template*</td>
+			<td>[XML View](XML_View_91f2928.md)
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+			</td>
+			<td>Filtering
+Formatting
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+
+Sorting
+			</td>
+		</tr>
+		<tr>
+			<td>*Master-Detail Template*</td>
+			<td>[XML Fragments](XML_Fragments_2c677b5.md)
+[XML View](XML_View_91f2928.md)
+
+[Busy Indicators](Busy_Indicators_0dd2110.md)
+
+[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
+
+[Expression Binding](Expression_Binding_daf6852.md)
+			</td>
+			<td>`sap.f.FlexibleColumnLayout`</td>
+			<td>Formatting
+List selector
+
+[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
+
+Sorting
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -49,15 +188,190 @@ The following tables give an overview of what each demo app shows.
 
 ### Controls
 
-|Demo App|`sap.m`|`sap.m.semantic`|Other Libraries|
-|--------|-------|----------------|---------------|
-|*Shopping Cart*|`Carousel``ColumnListItem``DatePicker``FormattedText``LightBox``List``MessagePage``MessagePopover``NavContainer``NotificationListItem``ObjectListItem``PullToRefresh``RangeSlider``SearchField``SegmentedButton``StandardListItem``Toolbar``Wizard`| | |
-|*Browse Orders*|`IconTabBar``List``ObjectHeader``PullToRefresh``SearchField``SegmentedButton``SplitApp``Table`|`DetailPage``GroupSelect``MasterPage``SendEmailAction`| |
-|*Shop Administration Tool*|`App``ColumnListItem``List``MessagePopover``ResponsivePopover``SearchField``StandardListItem``Table``Toolbar`||`sap.tnt.NavigationListItem``sap.tnt.ToolHeader``sap.tnt.ToolPage`D3 charts \([https://d3js.org](https://d3js.org)\)|
-|*Employee Directory*|`App``IconTabBar``List``Toolbar`|| |
-|*Hello World*|`App`|||
-|*Bulletin Board*|`App``ColumnListItem``IconTabBar``Toolbar`|`FullscreenPage``SendEmailAction`| |
-|*Manage Products*|`App``Toolbar`|`FullscreenPage``SendEmailAction`||
-|*Worklist Template*|`App``ColumnListItem``MessagePage``SearchField``Table``Toolbar`|`SemanticPage``SendEmailAction`||
-|*Master-Detail Template*|`ColumnListItem` `OverflowToolbar``List``MessagePage``ObjectHeader``Page``SearchField``Table``Toolbar``ViewSettingsDialog`| `titleHeading` `SemanticPage``FilterAction``SendEmailAction`|`sap.f.FlexibleColumnLayout` \(2 columns\)|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Demo App</th>
+			<th>`sap.m`</th>
+			<th>`sap.m.semantic`</th>
+			<th>Other Libraries</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>*Shopping Cart*</td>
+			<td>`Carousel`
+`ColumnListItem`
+
+`DatePicker`
+
+`FormattedText`
+
+`LightBox`
+
+`List`
+
+`MessagePage`
+
+`MessagePopover`
+
+`NavContainer`
+
+`NotificationListItem`
+
+`ObjectListItem`
+
+`PullToRefresh`
+
+`RangeSlider`
+
+`SearchField`
+
+`SegmentedButton`
+
+`StandardListItem`
+
+`Toolbar`
+
+`Wizard`
+			</td>
+		</tr>
+		<tr>
+			<td>*Browse Orders*</td>
+			<td>`IconTabBar`
+`List`
+
+`ObjectHeader`
+
+`PullToRefresh`
+
+`SearchField`
+
+`SegmentedButton`
+
+`SplitApp`
+
+`Table`
+			</td>
+			<td>`DetailPage`
+`GroupSelect`
+
+`MasterPage`
+
+`SendEmailAction`
+			</td>
+		</tr>
+		<tr>
+			<td>*Shop Administration Tool*</td>
+			<td>`App`
+`ColumnListItem`
+
+`List`
+
+`MessagePopover`
+
+`ResponsivePopover`
+
+`SearchField`
+
+`StandardListItem`
+
+`Table`
+
+`Toolbar`
+			</td>
+			<td>`sap.tnt.NavigationListItem`
+`sap.tnt.ToolHeader`
+
+`sap.tnt.ToolPage`
+
+D3 charts \([https://d3js.org](https://d3js.org)\)
+			</td>
+		</tr>
+		<tr>
+			<td>*Employee Directory*</td>
+			<td>`App`
+`IconTabBar`
+
+`List`
+
+`Toolbar`
+			</td>
+		</tr>
+		<tr>
+			<td>*Hello World*</td>
+			<td>`App`</td>
+		</tr>
+		<tr>
+			<td>*Bulletin Board*</td>
+			<td>`App`
+`ColumnListItem`
+
+`IconTabBar`
+
+`Toolbar`
+			</td>
+			<td>`FullscreenPage`
+`SendEmailAction`
+			</td>
+		</tr>
+		<tr>
+			<td>*Manage Products*</td>
+			<td>`App`
+`Toolbar`
+			</td>
+			<td>`FullscreenPage`
+`SendEmailAction`
+			</td>
+		</tr>
+		<tr>
+			<td>*Worklist Template*</td>
+			<td>`App`
+`ColumnListItem`
+
+`MessagePage`
+
+`SearchField`
+
+`Table`
+
+`Toolbar`
+			</td>
+			<td>`SemanticPage`
+`SendEmailAction`
+			</td>
+		</tr>
+		<tr>
+			<td>*Master-Detail Template*</td>
+			<td>`ColumnListItem`
+ `OverflowToolbar`
+
+`List`
+
+`MessagePage`
+
+`ObjectHeader`
+
+`Page`
+
+`SearchField`
+
+`Table`
+
+`Toolbar`
+
+`ViewSettingsDialog`
+			</td>
+			<td> `titleHeading`
+ `SemanticPage`
+
+`FilterAction`
+
+`SendEmailAction`
+			</td>
+			<td>`sap.f.FlexibleColumnLayout` \(2 columns\)</td>
+	</tbody>
+</table>
 

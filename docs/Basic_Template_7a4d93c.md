@@ -19,7 +19,7 @@ With this basic template you have a blank canvas to start coding right away. The
 
    
   
-Screenshot of the Basic App<a name="loio7a4d93c0b0bb439b9d889ffc5b02eac9__fig_f4h_gvw_k1b"/>
+<a name="loio7a4d93c0b0bb439b9d889ffc5b02eac9__fig_f4h_gvw_k1b"/>Screenshot of the Basic App
 
  ![](loio4c015cac2ae9485b9369d7bc53c7e9d6_LowRes.png "Screenshot of the Basic App") 
 
@@ -33,7 +33,7 @@ The `index.html` file defines the page that is displayed when the app is started
 
    
   
-Test for the Basic App<a name="loio7a4d93c0b0bb439b9d889ffc5b02eac9__fig_gmw_vxw_k1b"/>
+<a name="loio7a4d93c0b0bb439b9d889ffc5b02eac9__fig_gmw_vxw_k1b"/>Test for the Basic App
 
  ![](loio5b8a2e8351974df2a5ced05fdf4fc681_LowRes.png "Test for the Basic App") 
 
@@ -61,7 +61,7 @@ You can find the template in the following places:
     For more information about how to clone or download the template from GitHub, refer to the template documentation on [GitHub]().
 
 
-**Related information**  
+**Related Information**  
 
 
 [Demo Apps](Demo_Apps_a3ab54e.md)

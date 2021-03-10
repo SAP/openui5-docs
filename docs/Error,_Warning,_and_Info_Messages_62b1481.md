@@ -59,7 +59,7 @@ You can also create messages manually or extend the messaging features provided 
 -   If the used back end serves messages in a special way, you can use your own implementation of `sap.ui.core.message.MessageParser`. For more information, see [Implementing Your Own OData V2 Message Parser](Implementing_Your_Own_OData_V2_Message_Parser_2e532e6.md).
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message)

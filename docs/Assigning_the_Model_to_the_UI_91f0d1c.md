@@ -78,7 +78,7 @@ Choose one of the following options:
     ```
 
 
-**Related information**  
+**Related Information**  
 
 
 [Components](Components_958ead5.md)

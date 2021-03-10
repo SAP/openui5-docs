@@ -116,7 +116,7 @@ For LESS theme parameters, the following guidelines apply:
     > 
     > **Prefix**: `@_sap_ui_core_`
 
-    > CAUTION:  
+    > Caution:  
     > Local parameters themselves must **not** contain underscores. For example, do not write `@_sap_ui_core_MyControl_Some_Color`, but write `@_sap_ui_core_MyControl_**SomeColor**` instead.
 
 -   When defining URLs as parameters use the proper `url()` format: `@sapUiMyUrl: url(./path/to/img.png)`

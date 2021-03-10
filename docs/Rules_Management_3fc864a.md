@@ -22,7 +22,7 @@ The *Available Rulesets* tab contains the list of the currently loaded rulesets 
 
    
   
-Support Assistant Available Rulesets<a name="loio3fc864acf926406194744375aa464fe7__fig_ekh_tj1_k1b"/>
+<a name="loio3fc864acf926406194744375aa464fe7__fig_ekh_tj1_k1b"/>Support Assistant Available Rulesets
 
  ![](loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets") 
 
@@ -30,7 +30,7 @@ The *Additional Rulesets* tab shows rules for libraries that are not used by the
 
    
   
-Support Assistant Additional Rulesets<a name="loio3fc864acf926406194744375aa464fe7__fig_bbv_vj1_k1b"/>
+<a name="loio3fc864acf926406194744375aa464fe7__fig_bbv_vj1_k1b"/>Support Assistant Additional Rulesets
 
  ![](loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets") 
 
@@ -46,7 +46,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
 
   
   
-Support Assistant Rule Presets<a name="loio3fc864acf926406194744375aa464fe7__fig_qp5_gqr_32b"/>
+<a name="loio3fc864acf926406194744375aa464fe7__fig_qp5_gqr_32b"/>Support Assistant Rule Presets
 
  ![](loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets") 
 
@@ -84,7 +84,7 @@ You have the option to personalize the Rules view by choosing which columns to b
 
    
   
-Support Assistant Columns Personalization<a name="loio3fc864acf926406194744375aa464fe7__fig_sqy_115_j2b"/>
+<a name="loio3fc864acf926406194744375aa464fe7__fig_sqy_115_j2b"/>Support Assistant Columns Personalization
 
  ![](loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization") 
 
@@ -130,7 +130,7 @@ The newly created rule remains *temporary* until you submit and assign it to a l
 
 Once you load your rulesets or select a rule preset, you can run an analysis with them. To do this, select *Analyze*. For more information about the execution scope, you can refer to [Execution Scope](Execution_Scope_e15067d.md)
 
-**Related information**  
+**Related Information**  
 
 
 [Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md)

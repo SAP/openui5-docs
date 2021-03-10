@@ -147,7 +147,7 @@ When a list is unbound, its aggregated controls are removed and destroyed by def
 oComboBox.unbindAggregation("items", true);
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Tutorial Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md)

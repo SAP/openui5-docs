@@ -293,7 +293,7 @@ You can start the interaction data collection in the following ways:
 -   **Import** - Already collected data stored as an archive can be visualized again, using the *Import* function. The input can be either an already exported archive file or directly the JSON file that contains the performance data. This enables remote analysis of app data by another team or expert.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md)

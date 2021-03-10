@@ -32,7 +32,7 @@ The fragment name can also result from a binding, including an expression bindin
     : 'sap.ui.core.sample.ViewTemplate.scenario.FormFacet' }" type="XML"/>
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [XML Templating](XML_Templating_5ee619f.md)

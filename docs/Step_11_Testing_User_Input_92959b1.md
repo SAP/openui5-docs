@@ -18,7 +18,7 @@ In this step, we will write a test that simulates a user search. We will enter t
 
    
   
-Testing user input in a search field<a name="loio92959b10ecf14582b65eaadb40571156__fig_k3l_yjj_sx"/>
+<a name="loio92959b10ecf14582b65eaadb40571156__fig_k3l_yjj_sx"/>Testing user input in a search field
 
  ![](loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field") 
 
@@ -153,7 +153,7 @@ The `assert` part is implemented in the same way as in our first OPA test. Again
 
 Actions in OPA never contain a QUnit assertion.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.test.actions.EnterText`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.actions.EnterText.html)

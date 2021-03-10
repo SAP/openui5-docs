@@ -113,7 +113,7 @@ If you're really stuck or have found a bug, you can open a ticket. Choose the *C
 
 The *Technical Information Dialog* also includes links to *Diagnostics* and *Support Assistant* that we will discuss in the following steps of this tutorial.
 
-**Related information**  
+**Related Information**  
 
 
 [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9)

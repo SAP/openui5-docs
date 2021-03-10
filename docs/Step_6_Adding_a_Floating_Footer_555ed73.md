@@ -20,7 +20,7 @@ In this step, we add a floating footer to the detail page.
 
    
   
-`ObjectPageLayout` with a floating footer<a name="loio555ed73903b34c70a23ba13af1a5d71e__fig_r1j_pst_mr"/>
+<a name="loio555ed73903b34c70a23ba13af1a5d71e__fig_r1j_pst_mr"/>`ObjectPageLayout` with a floating footer
 
  ![](loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "ObjectPageLayout with a floating footer") 
 

@@ -56,7 +56,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
     ```
 
 
-> CAUTION:  
+> Caution:  
 > Adapt the path where the resources are located \(`src="/resources/sap-ui-core.js"`\) according to your installation. For OpenUI5 you can use `src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"`.
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.

@@ -18,7 +18,7 @@ In this step, we will step back from our tests and application features that we 
 
    
   
-A Selenium runner for the test suite of the bulletin board<a name="loio07c97a2e497d443eb6fa74bb9445ab9c__fig_r1j_pst_mr"/>
+<a name="loio07c97a2e497d443eb6fa74bb9445ab9c__fig_r1j_pst_mr"/>A Selenium runner for the test suite of the bulletin board
 
  ![](loioa715577da0714787b4e7839cdc524991_LowRes.png "A Selenium runner for the test suite of the bulletin board") 
 
@@ -86,7 +86,7 @@ Inside this function, we add the QUnit pages for the app’s unit and integratio
 -   Run the test suite whenever you change the code of the app
 
 
-**Related information**  
+**Related Information**  
 
 
 [*Karma* Home Page](https://www.npmjs.com/package/karma)

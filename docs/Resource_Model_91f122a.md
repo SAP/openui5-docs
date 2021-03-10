@@ -29,7 +29,7 @@ After the resource model has been instantiated, you have a model containing the 
 -   [Views](Views_91f27e3.md)
 -   [Resource Bundles](Resource_Bundles_91f225c.md)
 
-**Related information**  
+**Related Information**  
 
 
 [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md)

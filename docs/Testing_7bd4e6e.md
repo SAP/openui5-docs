@@ -26,7 +26,7 @@ In SAP Web IDE, you can easily create mock data that fulfill the conditions abov
 
    
   
-Screenshot of the Edit Mock Data dialog<a name="loio7bd4e6ebb9744c50b62ed048c93a2d9d__fig_ag5_cst_l2b"/>
+<a name="loio7bd4e6ebb9744c50b62ed048c93a2d9d__fig_ag5_cst_l2b"/>Screenshot of the Edit Mock Data dialog
 
  ![](loio119f31a267944d31853bae43fc0f65ba_LowRes.png "Screenshot of the Edit Mock Data dialog") 
 

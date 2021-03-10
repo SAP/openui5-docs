@@ -16,7 +16,7 @@ In the following topics, we provide additional information for control developer
 
 For information on colors and theming, follow the guidelines listed under *Related Information*.
 
-**Related information**  
+**Related Information**  
 
 
 [Product Standards and Acceptance Criteria](Product_Standards_and_Acceptance_Criteria_bafc686.md)

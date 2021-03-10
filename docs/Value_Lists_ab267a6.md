@@ -90,7 +90,7 @@ There are two options to place the `ValueList` annotation:
     The disadvantage of this solution is that the complete value list information for all properties of the service is preloaded when the application is initialized.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Data Reuse](Data_Reuse_648e360.md)

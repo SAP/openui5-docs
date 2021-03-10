@@ -38,6 +38,9 @@ Depending on the syntax of its name, the event handler will be looked up by this
 
 -   Names without dot are interpreted as a relative name; if nothing is found, they are interpreted as an absolute name. This variant is only supported for backward compatibility.
 
+> Note:  
+> This legacy syntax is **not** supported for control properties of type `function`.
+
 
 > Note:  
 > When specified without parameters, the event handler will be called with one argument, the event object. This object can be used to retrieve the event parameters documented by the control’s respective event documentation.

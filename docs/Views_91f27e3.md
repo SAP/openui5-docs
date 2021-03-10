@@ -28,7 +28,7 @@ The following predefined view types are available:
 > 
 > Therefore, we concentrate on XML views and only provide examples for XML views throughout this documentation.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View)

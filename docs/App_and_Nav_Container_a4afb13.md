@@ -23,7 +23,7 @@ To support this, OpenUI5 provides two types of events:
 -   Events fired **on** the pages when they get shown or hidden by navigation.
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.m.App`](https://openui5.hana.ondemand.com/#/api/sap.m.App)

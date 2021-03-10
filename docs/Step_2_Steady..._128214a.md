@@ -20,7 +20,7 @@ Now we extend our minimalist HTML page to a basic app with a view and a controll
 
    
   
-The browser shows a *Steady* button in an app <a name="loio128214a9b2754b15aec5e365780b03fd__fig_lx3_hxh_1gb"/>
+<a name="loio128214a9b2754b15aec5e365780b03fd__fig_lx3_hxh_1gb"/>The browser shows a *Steady* button in an app
 
  ![](loio240ef5357d7f4d36955092cdaf1884a2_LowRes.png "The browser shows a Steady button in an app ") 
 
@@ -114,7 +114,7 @@ The `MessageToast` is also loaded as a dependency. When the button is pressed, w
 
 Now reload your `index.html` file. You can see a title bar and a blue button that reacts to your input. Congratulations, you have created our very first app.
 
-**Related information**  
+**Related Information**  
 
 
 [XML View](XML_View_91f2928.md)

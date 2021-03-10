@@ -146,7 +146,7 @@ oOpa.waitFor({
 });
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md)

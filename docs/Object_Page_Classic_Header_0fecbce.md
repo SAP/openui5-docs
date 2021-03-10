@@ -27,7 +27,7 @@ The `ObjectPageHeader` control consists of two main parts - Header Title and Hea
 
    
   
-Collapsing and Expanding the Header<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_tzt_2gw_1cb"/>
+<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_tzt_2gw_1cb"/>Collapsing and Expanding the Header
 
  ![](loio4e081060fae54366b424de28f722860c_LowRes.gif "Collapsing and Expanding the Header") 
 
@@ -39,7 +39,7 @@ This part of the header contains the basic information of the object.
 
    
   
-Navigation bar, Breadcrumbs and Actions in the Header Title<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_a5m_qmh_ccb"/>
+<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_a5m_qmh_ccb"/>Navigation bar, Breadcrumbs and Actions in the Header Title
 
  ![](loiob2459223fc504ea1a380590ac0c45a41_HiRes.png "Navigation bar, Breadcrumbs and Actions in the Header Title") 
 
@@ -49,7 +49,7 @@ The area below the navigation bar is reserved for breadcrumbs navigation on one 
 
    
   
-Title with Optional Indicators and Subtitle<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_rqv_1vh_ccb"/>
+<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_rqv_1vh_ccb"/>Title with Optional Indicators and Subtitle
 
  ![](loio553c7d7128404063a00a4afba69a966d_HiRes.png "Title with Optional Indicators and Subtitle") 
 
@@ -57,7 +57,7 @@ You can set title \(`objectTitle`\) and subtitle \(`objectSubtitle`\). On larger
 
 You can display several optional indicators right after the title. They are considered part of the title and when there is not enough space they are wrapped and moved to more lines along with the title text.
 
-Optional indicators in the title<a name="loio0fecbce45e39406aa939bd25e89823f4__table_oxs_blm_2cb"/>
+ <a name="loio0fecbce45e39406aa939bd25e89823f4__table_oxs_blm_2cb"/>Optional indicators in the title
 
 |Optional Indicator|API Properties|
 |------------------|--------------|
@@ -74,7 +74,7 @@ You can show and hide both the markers \(*Favorite* and *Flagged*\) simultaneous
 
    
   
-Object Image in Circle and Square Shapes<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_uc4_2rh_ccb"/>
+<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_uc4_2rh_ccb"/>Object Image in Circle and Square Shapes
 
  ![](loiodf92915521c34aaf8e2d1f7e7b509ab7_LowRes.gif "Object Image in Circle and Square Shapes") 
 
@@ -95,12 +95,12 @@ With the use of the `sap.uxap.ObjectPageHeaderLayoutData` class, you can specify
 
    
   
-Header Content with `sap.uxap.ObjectPageHeaderLayoutData` - large, middle and small-sized layout<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_azb_j1n_ccb"/>
+<a name="loio0fecbce45e39406aa939bd25e89823f4__fig_azb_j1n_ccb"/>Header Content with `sap.uxap.ObjectPageHeaderLayoutData` - large, middle and small-sized layout
 
  ![](loio40e357c0789d4982a5223ea6f9143315_LowRes.gif "Header Content with sap.uxap.ObjectPageHeaderLayoutData - large, middle
 					and small-sized layout") 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.uxap.ObjectPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageHeader.html)

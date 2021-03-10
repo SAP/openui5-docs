@@ -37,7 +37,7 @@ The descriptor for libraries contains a subset of the attributes in the descript
 | `sap.fiori/registrationIds` | `appData/manifest/sap.fiori/registrationId` | |New in `.library` |
 | `sap.fiori/archeType` | `appData/manifest/sap.fiori/archeType` | |New in `.library` |
 
-**Related information**  
+**Related Information**  
 
 
 [Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md)

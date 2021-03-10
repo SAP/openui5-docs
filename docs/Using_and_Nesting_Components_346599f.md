@@ -277,7 +277,7 @@ createContent: function() {
 	</tbody>
 </table>
 
-**Related information**  
+**Related Information**  
 
 
 [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md)

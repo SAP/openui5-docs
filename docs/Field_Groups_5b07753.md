@@ -103,7 +103,7 @@ For a control with a `fieldGroupId` that currently has the focus, the following 
 -   If the control changes its `fieldGroupIds`, the `validateFieldGroup` event is fired for the new `fieldGroupIds` and **not** for the old.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Sample: `Field Groups`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.FieldGroup/preview)

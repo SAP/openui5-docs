@@ -66,7 +66,7 @@ Use this method to navigate to display one or multiple targets. The method uses 
 
   
   
-Navigation events<a name="loio516e477e7e0b4e188b19a406e7528c1e__fig_srm_3dn_1w"/>
+<a name="loio516e477e7e0b4e188b19a406e7528c1e__fig_srm_3dn_1w"/>Navigation events
 
  ![](loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events") 
 
@@ -134,7 +134,7 @@ This event is fired on the view/component cache in OpenUI5 routing which can be 
 -   `options` containing additional options
 
 
-**Related information**  
+**Related Information**  
 
 
 [Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)

@@ -18,7 +18,7 @@ OpenUI5 UI elements provide keyboard handling in order to improve accessibility 
 
 In this topic we introduce the main keyboard combinations that are used by OpenUI5 UI elements. Furthermore we describe some additional combinations that are used in specific cases.
 
-Main Keyboard Combinations<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u1x_1dg_yq"/>
+ <a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u1x_1dg_yq"/>Main Keyboard Combinations
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -87,7 +87,7 @@ Main Keyboard Combinations<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u
 	</tbody>
 </table>
 
-Additional Keyboard Combinations for Specific UI elements<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_zld_4rl_yq"/>
+ <a name="loio6b741a6133284bd78e897cef8b75f6d9__table_zld_4rl_yq"/>Additional Keyboard Combinations for Specific UI elements
 
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
@@ -103,17 +103,23 @@ Additional Keyboard Combinations for Specific UI elements<a name="loio6b741a6133
 		<tr>
 			<td>*Page Up* / *Page Down*</td>
 			<td>Date modification \(Days\)</td>
-			<td>When in input: Pressing these keys decreases/increases the date value by one day. When in Calendar UI: Pressing these keys decreases/increases the date value by one month.</td>
+			<td> When in input: Pressing these keys decreases/increases the date value by one day.
+ When in Calendar UI: Pressing these keys decreases/increases the date value by one month.
+			</td>
 		</tr>
 		<tr>
 			<td>* Shift Page Up * / * Shift Page Down *</td>
 			<td>Date modification \(Months\)</td>
-			<td>When in input: Pressing these keys decreases/increases the date value by one month. When in Calendar UI: Pressing these keys decreases/increases the date value by one year.</td>
+			<td> When in input: Pressing these keys decreases/increases the date value by one month.
+ When in Calendar UI: Pressing these keys decreases/increases the date value by one year.
+			</td>
 		</tr>
 		<tr>
 			<td>* Ctrl Shift Page Up * / * Ctrl Shift Page Down *</td>
 			<td>Date modification \(Years\)</td>
-			<td>When in input: Pressing these keys decreases/increases the date value by one year. When in Calendar UI: Pressing these keys decreases/increases the date value by 10 years.</td>
+			<td> When in input: Pressing these keys decreases/increases the date value by one year.
+ When in Calendar UI: Pressing these keys decreases/increases the date value by 10 years.
+			</td>
 		</tr>
 		<tr>
 			<td>* Ctrl Arrow Keys *</td>

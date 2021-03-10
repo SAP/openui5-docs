@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 This section explains the differences and similarities between the two types of header of the `sap.uxap.ObjectPageLayout` control.
 
-Summary of the controls used in the classic and the dynamic header<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_cj5_lbl_sbb"/>
+<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_cj5_lbl_sbb"/>Summary of the controls used in the classic and the dynamic header
 
 |Header Area|Classic Header|Dynamic Header|
 |-----------|--------------|--------------|
@@ -34,7 +34,7 @@ The main difference between the classic and dynamic header content is that the d
 > Note:  
 > The controls, comprising the dynamic header title and header content, extend the `sap.f.DynamicPage` title and header controls. They are adapted for the `ObjectPageLayout` use case, but essentially they provide the same functionality.
 
-Relation between the `sap.uxap.ObjectPageLayout` dynamic header controls and the `sap.f.DynamicPage` controls:<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_gpd_k3l_sbb"/>
+ <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_gpd_k3l_sbb"/>Relation between the `sap.uxap.ObjectPageLayout` dynamic header controls and the `sap.f.DynamicPage` controls:
 
 |Layout Control|Header Title|Header Content|
 |--------------|------------|--------------|
@@ -61,7 +61,7 @@ Some `ObjectPageLayout` features associated with the behavior of the classic hea
 
 Similarly, the dynamic header comes with a set of features \(apart from its general structure\) that are exclusive to itself, and are not taken into account in the use case of the classic header.
 
-Overview of features exclusive to the classic header \(all being `ObjectPageLayout` properties with the exception of the `sap.uxap.ObjectPageHeaderLayoutData` class\):<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_nxg_tpt_sbb"/>
+ <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_nxg_tpt_sbb"/>Overview of features exclusive to the classic header \(all being `ObjectPageLayout` properties with the exception of the `sap.uxap.ObjectPageHeaderLayoutData` class\):
 
 |Features Exclusive to the Classic Header|Description|
 |----------------------------------------|-----------|
@@ -71,14 +71,38 @@ Overview of features exclusive to the classic header \(all being `ObjectPageLayo
 | `showEditHeaderButton` |Determines whether an *Edit* button will be displayed in the Header Content.|
 | `sap.uxap.ObjectPageHeaderLayoutData` |The `sap.uxap.ObjectPageHeaderLayoutData` can only be set on `headerContent` items for the classic header use case.|
 
-Overview of features exclusive to the dynamic header \(all being `ObjectPageLayout` properties\):<a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_o2z_1qt_sbb"/>
+ <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_o2z_1qt_sbb"/>Overview of features exclusive to the dynamic header \(all being `ObjectPageLayout` properties\):
 
-|Features Exclusive to the Dynamic Header|Description|
-|----------------------------------------|-----------|
-| `headerContentPinnable` |Determines whether the Header Content area can be pinned. When set to true, a pin button is displayed within the Header Content area. The pin button allows the user to make the Header Content always visible at the top of the page above any scrollable content.|
-| `toggleHeaderOnTitleClick` |Determines whether the user can switch between the expanded/collapsed states of the dynamic header by clicking/tapping on the Header Title. If set to `false`, the Header Title is not clickable and the app must provide other means for expanding/collapsing the dynamic header, if necessary.|
-| `preserveHeaderStateOnScroll` |Preserves the current header state when scrolling. For example, if the user expands the header by clicking on the title and then scrolls down the page, the header will remain expanded.|
-| `toggleHeaderOnTitleClick` |When the feature is enabled, arrow buttons below the Header Content appear, the Header Title and the arrow buttons can be clicked/tapped for collapsing/expanding the header and there is additional visual indication while hovering over the Header Title area or the arrow buttons.|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>Features Exclusive to the Dynamic Header</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> `headerContentPinnable` </td>
+			<td> Determines whether the Header Content area can be pinned.
+ When set to true, a pin button is displayed within the Header Content area. The pin button allows the user to make the Header Content always visible at the top of the page above any scrollable content.
+			</td>
+		</tr>
+		<tr>
+			<td> `toggleHeaderOnTitleClick` </td>
+			<td>Determines whether the user can switch between the expanded/collapsed states of the dynamic header by clicking/tapping on the Header Title. If set to `false`, the Header Title is not clickable and the app must provide other means for expanding/collapsing the dynamic header, if necessary.</td>
+		</tr>
+		<tr>
+			<td> `preserveHeaderStateOnScroll` </td>
+			<td>Preserves the current header state when scrolling. For example, if the user expands the header by clicking on the title and then scrolls down the page, the header will remain expanded.</td>
+		</tr>
+		<tr>
+			<td> `toggleHeaderOnTitleClick` </td>
+			<td>When the feature is enabled, arrow buttons below the Header Content appear, the Header Title and the arrow buttons can be clicked/tapped for collapsing/expanding the header and there is additional visual indication while hovering over the Header Title area or the arrow buttons.</td>
+		</tr>
+	</tbody>
+</table>
 
 If a legacy property, for example `showTitleInHeaderContent` is set, but an instance of `sap.uxap.ObjectPageDynamicHeaderTitle` is used for the `headerTitle` aggregation \(which will be paired internally with an instance of `sap.uxap.ObjectPageDynamicHeaderContent` for the header content\), this property will be ignored.
 
@@ -179,7 +203,7 @@ Here is a sample usage of the dynamic header - the value of the `headerTitle` ag
 > 
 > This way, the `ObjectPageLayout` will already have `sap.f` loaded and it will not need to fetch it.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.uxap.ObjectPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)

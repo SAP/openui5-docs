@@ -28,7 +28,7 @@ Now the sample should look like this:
 
    
   
-Sample UI<a name="loio04e851db01024fc69e7a78f13e83b661__fig_a2f_mmj_d1b"/>
+<a name="loio04e851db01024fc69e7a78f13e83b661__fig_a2f_mmj_d1b"/>Sample UI
 
  ![](loio55a1768cfc10416e8ba9e6f8ac89f371_LowRes.png "Sample UI") 
 
@@ -60,7 +60,7 @@ If you click the button now, the text should change:
 
    
   
-Changed Sample UI<a name="loio04e851db01024fc69e7a78f13e83b661__fig_fzw_jpj_d1b"/>
+<a name="loio04e851db01024fc69e7a78f13e83b661__fig_fzw_jpj_d1b"/>Changed Sample UI
 
  ![](loio88374f824fd54807b67e72e5c5a54611_LowRes.png "Changed Sample UI") 
 

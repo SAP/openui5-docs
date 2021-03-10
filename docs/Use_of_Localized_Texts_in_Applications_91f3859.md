@@ -173,7 +173,7 @@ After the instance has been created, you have a model containing the resource bu
 
 For a complete overview of available methods and parameters, see [`ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel) in the *API Reference* in the Demo Kit
 
-**Related information**  
+**Related Information**  
 
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)

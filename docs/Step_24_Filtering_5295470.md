@@ -18,7 +18,7 @@ In this step, we add a search field for our product list and define a filter tha
 
    
   
-A search field is displayed above the list<a name="loio5295470d7eee46c1898ee46c1b9ad763__fig_r1j_pst_mr"/>
+<a name="loio5295470d7eee46c1898ee46c1b9ad763__fig_r1j_pst_mr"/>A search field is displayed above the list
 
  ![](loiob59b3ed9928549d4bf7e4d0f9f5b5dc8_HiRes.png "A search field is displayed above the list") 
 
@@ -113,7 +113,7 @@ If the query is not empty, we add a new filter object to the still empty array o
 
 The list is accessed with the ID that we have specified in the view, because the control is automatically prefixed by the view ID, we need to ask the view for the control with the helper function `byId`. On the list control we access the binding of the aggregation `items` to filter it with our newly constructed filter object. This will automatically filter the list by our search string so that only the matching items are shown when the search is triggered. The filter operator `FilterOperator.Contains` is **not** case-sensitive.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.model.Filter`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Filter.html)

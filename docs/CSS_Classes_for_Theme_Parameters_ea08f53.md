@@ -80,7 +80,7 @@ oRm.openStart("div", oControl);
 
 ```
 
-**Related information**  
+**Related Information**  
 
 
 [List of Supported CSS Classes](List_of_Supported_CSS_Classes_91a4946.md)

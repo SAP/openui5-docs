@@ -18,14 +18,14 @@ In this step, we'll create a second button on the home page, with which we can n
 
    
   
-*Show Employee List* button on the *Home* page<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_r1j_pst_mr"/>
+<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_r1j_pst_mr"/>*Show Employee List* button on the *Home* page
 
  ![](loiof0f4fd7d2626458aa1632467eaf964a0_LowRes.png "Show Employee List button on the Home
 					page") 
 
    
   
-Employee list with *Back* button<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_xm1_t13_ns"/>
+<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_xm1_t13_ns"/>Employee list with *Back* button
 
  ![](loiof45ee74f28bb4a5da522150e10e92185_LowRes.png "Employee list with Back button") 
 
@@ -37,7 +37,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-Folder structure for this step<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_blv_z13_ns"/>
+<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_blv_z13_ns"/>Folder structure for this step
 
  ![](loiofffa091048a544689c11fb3492ae9ead_HiRes.png "Folder structure for this step") 
 
@@ -157,7 +157,7 @@ The view that we are about to create has to be placed in the `webapp/view/employ
 > Note:  
 > We could also have left out the `viewPath` property to use the default `viewPath` defined in the `config` section. In that case, we would have to change the `viewName` to `employee.EmployeeList` to achieve the same effect.
 
-Setting the `viewLevel` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a "Slide to Left" animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a "Slide to Right" animation. This behavior is due to the fact that the home page has a lower `viewLevel` than the `employees` target.
+Setting the `viewLevel` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a “Slide to Left” animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a “Slide to Right” animation. This behavior is due to the fact that the home page has a lower `viewLevel` than the `employees` target.
 
 ***
 
@@ -227,7 +227,7 @@ Add the new texts to the `i18n.properties` file.
 
 Now you can open the app and press the *Show Employee List* button to navigate to the employee list. From there, you can press either the browser’s or the app’s *Back* button to get back to the home page.
 
-**Related information**  
+**Related Information**  
 
 
 [Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md)

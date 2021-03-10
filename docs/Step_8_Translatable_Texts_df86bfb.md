@@ -20,7 +20,7 @@ This way, they are all in a central place and can be easily translated into othe
 
    
   
-An input field and a description displaying the value of the input field \(No visual changes to last step\)<a name="loiodf86bfbeab0645e5b764ffa488ed57dc__fig_r1j_pst_mr"/>
+<a name="loiodf86bfbeab0645e5b764ffa488ed57dc__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
  ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No visual
 					changes to last step)") 
@@ -131,7 +131,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 -   Use Unicode escape sequences for special characters.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)

@@ -18,7 +18,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 
 ### Rule Sets
 
-Possible Errors<a name="loio1ba0e44f1036439b95f25527664f14f7__table_i4g_r3n_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_i4g_r3n_np"/>Possible Errors
 
 |Rule|ESLint default|Core|Comment|
 |----|--------------|----|-------|
@@ -47,7 +47,7 @@ Possible Errors<a name="loio1ba0e44f1036439b95f25527664f14f7__table_i4g_r3n_np"/
 |`valid-jsdoc`|off|**warning**|`requireReturn` = false|
 |`valid-typeof`|error|error| |
 
-Best Practices<a name="loio1ba0e44f1036439b95f25527664f14f7__table_gwc_t3n_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_gwc_t3n_np"/>Best Practices
 
 |Rule|ESLint default|Core|Comment|
 |----|--------------|----|-------|
@@ -94,14 +94,14 @@ Best Practices<a name="loio1ba0e44f1036439b95f25527664f14f7__table_gwc_t3n_np"/>
 |`wrap-life`|off|**error**|any|
 |`yoda`|error|error| |
 
-Strict Mode<a name="loio1ba0e44f1036439b95f25527664f14f7__table_vxj_v3n_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_vxj_v3n_np"/>Strict Mode
 
 |Rule|ESLint default|Core|
 |----|--------------|----|
 |`no-extra-strict`|error|error|
 |`strict`|off|**error**|
 
-Variables<a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>Variables
 
 |Rule|ESLint default|Core|Comment|
 |----|--------------|----|-------|
@@ -116,7 +116,7 @@ Variables<a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>
 |`no-unused-vars`|error|error|`vars = all`, `args` = none|
 |`no-use-before-define`|error|**warning**| |
 
-Node.js<a name="loio1ba0e44f1036439b95f25527664f14f7__table_yy2_bjn_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_yy2_bjn_np"/>Node.js
 
 |Rule|ESLint default|Core|
 |----|--------------|----|
@@ -128,7 +128,7 @@ Node.js<a name="loio1ba0e44f1036439b95f25527664f14f7__table_yy2_bjn_np"/>
 |`no-restricted-modules`|off|off|
 |`no-sync`|off|off|
 
-Stylistic<a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>Stylistic
 
 |Rule|ESLint default|Core|Comment|
 |----|--------------|----|-------|
@@ -164,7 +164,7 @@ Stylistic<a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>
 |`one-var`|off|off| |
 |`wrap-regex`|off|off| |
 
-Legacy<a name="loio1ba0e44f1036439b95f25527664f14f7__table_ung_gjn_np"/>
+ <a name="loio1ba0e44f1036439b95f25527664f14f7__table_ung_gjn_np"/>Legacy
 
 |Rule|ESLint default|SAPUI5 Core|
 |----|--------------|-----------|

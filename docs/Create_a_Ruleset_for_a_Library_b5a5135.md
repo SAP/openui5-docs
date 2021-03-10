@@ -45,7 +45,7 @@ A ruleset is a `library.support.js` file that defines an object `name` and `nice
 
 Here is an example of folder structure depending on the location of your ruleset:
 
-Ruleset Folder Structure<a name="loiob5a51358b3574aea9143fa50ae4e0e2a__table_xgs_xmd_wbb"/>
+ <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__table_xgs_xmd_wbb"/>Ruleset Folder Structure
 
 |Location|Folder Structure|
 |--------|----------------|
@@ -223,7 +223,7 @@ In this example there are three rules - one for button and two for label. Splitt
     > The ruleset property is an array which can contain both rule objects and arrays of rules. In the example, `LabelSupport` returns an array of two rules.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Create a Rule](Create_a_Rule_c24569d.md)

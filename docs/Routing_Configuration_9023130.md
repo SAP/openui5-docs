@@ -193,7 +193,7 @@ The `owner` parameter defines the owner of all views that are created by the rou
 
 In this example, the `Home` view is always shown when the hash is empty. The `Category` view is shown when the hash matches the pattern `category/{id}`. Both, the `Category` and the `Product` view are shown when the hash matches the pattern `category/{id}/product/{productId}`, because both of them are added to the `target` property of the `product` route.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)

@@ -88,7 +88,7 @@ This library contains more complex UI controls that were based on **sap.ui.commo
 
 For more information about the SAP Fiori design, see the [SAP Fiori design guidelines](http://experience.sap.com/fiori-design/).
 
-**Related information**  
+**Related Information**  
 
 
 [Index of Deprecated APIs](https://openui5.hana.ondemand.com/#docs/api/deprecation.html)

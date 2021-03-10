@@ -58,7 +58,7 @@ You can use the following attributes in the metadata of a control for drag and d
     This setting is recommended for the aggregation with cardinality `0..n`.
 
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.Element.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend)

@@ -76,7 +76,7 @@ The following list explains how other concepts used in OpenUI5 are distinguished
     The MVC concept allows to define views and controllers and, thus, to structure and reuse parts within an application. As MVC can only be deployed separately and has no means to define dependent styles or scripts that are loaded together with a view, this concept is of limited use across different applications.
 
 
-**Related information**  
+**Related Information**  
 
 
 [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)

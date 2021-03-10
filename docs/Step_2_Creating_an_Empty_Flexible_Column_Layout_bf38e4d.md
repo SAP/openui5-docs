@@ -20,7 +20,7 @@ In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in 
 
    
   
-An empty instance of the `sap.f.FlexibleColumnLayout` control<a name="loiobf38e4de70084477b9e104bf6f6d7737__fig_r1j_pst_mr"/>
+<a name="loiobf38e4de70084477b9e104bf6f6d7737__fig_r1j_pst_mr"/>An empty instance of the `sap.f.FlexibleColumnLayout` control
 
  ![](loio533d16592a7046e195278bf367507756_HiRes.png "An empty instance of the sap.f.FlexibleColumnLayout
 					control") 

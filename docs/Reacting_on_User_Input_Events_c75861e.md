@@ -21,7 +21,7 @@ You register the handler and can then use the following functions of `sap.ui.get
 
 You can also register for these events directly on the control or any parent control where the event is fired. The corresponding event bubbles up to the Core if it is not canceled in the event handler.
 
-**Related information**  
+**Related Information**  
 
 
 [Validation Messages](Validation_Messages_a90d93d.md)

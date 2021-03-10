@@ -126,7 +126,7 @@ sap.ui.define(['sap/ui/core/Renderer', 'sap/m/InputBaseRenderer'],
 
 Alternatively, the renderer can be defined as a plain object. When such a plain renderer object is then imported in a control definition \(as described above\), there's no difference to the embedded case: It will automatically inherit from the renderer of the control's base class.
 
-**Related information**  
+**Related Information**  
 
 
 [API Reference: `sap.ui.core.RenderManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager)

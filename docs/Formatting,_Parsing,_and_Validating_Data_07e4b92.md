@@ -62,7 +62,7 @@ When the formatter is defined in the controller, you can use it, for example, in
 > Note:  
 > You can also use predefined formatter functions for standard uses cases, like `formatMessage` from module `sap/base/strings/formatMessage`.
 
-> CAUTION:  
+> Caution:  
 > The automatic type determination for OData V4 interacts with `targetType` and can, thus, influence a formatter’s input values. For more information on type determination in OData V4, see [Type Determination](Type_Determination_53cdd55.md).
 
 ***
@@ -150,7 +150,7 @@ sap.ui.define([
 > Example:  
 > [Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md) of the *Testing* tutorial shows how to implement a custom data type.
 
-**Related information**  
+**Related Information**  
 
 
 [Binding Syntax](Binding_Syntax_e2e6f41.md)

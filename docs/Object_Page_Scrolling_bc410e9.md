@@ -20,7 +20,7 @@ By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` w
 
    
   
-Object Page Header: Expanded \(left\) / Snapped \(right\)<a name="loiobc410e94e46540efa02857e15aae583f__fig_hnb_cgm_cv"/>
+<a name="loiobc410e94e46540efa02857e15aae583f__fig_hnb_cgm_cv"/>Object Page Header: Expanded \(left\) / Snapped \(right\)
 
  ![](loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)") 
 
@@ -65,7 +65,7 @@ As the user scrolls through the sections, the currently scrolled section is inte
     ```
 
 
-**Related information**  
+**Related Information**  
 
 
 [Sample: `sap.uxap.sample.ObjectPageState`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.uxap.sample.ObjectPageState/preview)
