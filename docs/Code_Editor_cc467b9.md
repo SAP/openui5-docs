@@ -22,8 +22,6 @@ The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that 
 > -   If you use API calls to the native API of ACE, we cannot guarantee backwards compatibility after an upgrade to higher ACE library versions.
 > 
 > -   Accessibility features like high-contrast themes and keyboard handling are not fully available as they are for the rest of the OpenUI5 controls.
-> 
-> -   `CodeEditor` doesn't work within `IconTabBar` on Internet Explorer. However, there is a way to achieve the same functionality. For more information, see the [Sample](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.codeeditor.CodeEditor/samples).
 
 ***
 

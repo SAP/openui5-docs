@@ -29,8 +29,6 @@ The control provides responsiveness and automatically aligns the items depending
 -   The `GridContainer` provides control over the behavior of the items if they are smaller in height than the given space. For example, if an item has a width of 4 rows, but its height is only 3.5 rows, then the item could either remain 3.5 rows or stretch to 4 rows. This behavior can be controlled through the `snapToRow` property.
 
 
-Although the `display: grid` CSS property is not supported by Internet Explorer 11 and Microsoft Edge version 15 and below, there is a polyfill implemented for `GridContainer` and it works in these browsers.
-
 The `GridContainer` also supports layout breakpoints based on the screen size. As a result, on smaller screens, the gaps, rows, and columns can be smaller. You can configure them through different `GridContainerSettings` for the different layouts.
 
 **Related Information**  

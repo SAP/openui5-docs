@@ -56,8 +56,6 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
 -   `boxesPerRowConfig` allows the alignment and specification of the number of items in a row, depending on the browser viewport size.
 
 
-This particular layout works with Internet Explorer 11, due to an implemented regressive enhancement \(polyfill\) in place of `display:grid`.
-
 > Note:  
 > -   The height of all items is set to the height of the highest item.
 > 
