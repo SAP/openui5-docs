@@ -12,41 +12,426 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Overview of the CSS classes currently supported by OpenUI5.
 
-|CSS Class Name|CSS Property|`sap_bluecrystal`|All Themes|Description|
-|--------------|------------|-----------------|----------|-----------|
-|`sapThemeFontFamily`|`font-family`|X|X|Default font|
-|`sapThemeFontSize`|`font-size`|X|X|Default font size|
-|`sapThemeFont`|`font-family+font-size`|X|X|Default font and font size|
-|`sapThemeText`|`color`|X|X|Default text color|
-|`sapThemeText-asColor`|`color`|X|X|Default text color|
-|`sapThemeText-asBackgroundColor`|`background-color`|X|X|Default text color|
-|`sapThemeText-asBorderColor`|`border-color`|X|X|Default text color|
-|`sapThemeText-asOutlineColor`|`outline-color`|X|X|Default text color|
-|`sapThemeTextInverted`|`color`|X|X|Default color of inverted text|
-|`sapThemeTextInverted-asColor`|`color`|X|X|Default color of inverted text|
-|`sapThemeBaseBG`|`background-color`|X|X|Base color for all backgrounds|
-|`sapThemeBaseBG-asBackgroundColor`|`background-color`|X|X|Base color for all backgrounds|
-|`sapThemeBaseBG-asBorderColor`|`border-color`|X|X|Base color for all backgrounds|
-|`sapThemeBaseBG-asColor`|`color`|X|X|Base color for all backgrounds|
-|`sapThemeBrand-asColor`|`color`|X|X|Brand color|
-|`sapThemeBrand-asBorderColor`|`border-color`|X|X|Brand color|
-|`sapThemeBrand-asBackgroundColor`|`background-color`|X|X|Brand color|
-|`sapThemeBrand-asOutlineColor`|`outline-color`|X|X|Brand color|
-|`sapThemeHighlight-asColor`|`color`|X|X|Color for highlighted elements|
-|`sapThemeHighlight-asBorderColor`|`border-color`|X|X|Color for highlighted elements|
-|`sapThemeHighlight-asBackgroundColor`|`background-color`|X|X|Color for highlighted elements|
-|`sapThemeHighlight-asOutlineColor`|`outline-color`|X|X|Brand color|
-|`sapThemePageBG`|`background-color`|X|-|Background color of mobile pages|
-|`sapThemePageBG-asColor`|`color`|X|-|Background color of mobile pages|
-|`sapThemeBarBG`|`background-color`|X|-|Background color for header bars in mobile pages|
-|`sapThemeBarHeading` |`color`|X|-|Header text color for header bars in mobile pages|
-|`sapThemeBarText`|`color`|X|-|Normal text color for header bars in mobile pages|
-|`sapThemeNegativeText`|`color`|X|-|Semantic negative text color|
-|`sapThemeCriticalText`|`color`|X|-|Semantic critical text color|
-|`sapThemePositiveText`|`color`|X|-|Semantic positive text color|
-|`sapThemeLightText`|`color`|X|-|Light text color|
-|`sapThemeMediumText`|`color`|X|-|Medium text color|
-|`sapThemeDarkText`|`color`|X|-|Dark text color|
+|CSS Class Name
+
+|CSS Property
+
+|`sap_bluecrystal`
+
+|All Themes
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------------</th>
+			<th>--------------</th>
+			<th>-------------------</th>
+			<th>------------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>`font-family`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default font
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeFontSize`
+			</td>
+			<td>`font-size`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default font size
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeFont`
+			</td>
+			<td>`font-family+font-size`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default font and font size
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeText-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeText-asBackgroundColor`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeText-asBorderColor`
+			</td>
+			<td>`border-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeText-asOutlineColor`
+			</td>
+			<td>`outline-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeTextInverted`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default color of inverted text
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeTextInverted-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Default color of inverted text
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBaseBG`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Base color for all backgrounds
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBaseBG-asBackgroundColor`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Base color for all backgrounds
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBaseBG-asBorderColor`
+			</td>
+			<td>`border-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Base color for all backgrounds
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBaseBG-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Base color for all backgrounds
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBrand-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Brand color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBrand-asBorderColor`
+			</td>
+			<td>`border-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Brand color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBrand-asBackgroundColor`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Brand color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBrand-asOutlineColor`
+			</td>
+			<td>`outline-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Brand color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeHighlight-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Color for highlighted elements
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeHighlight-asBorderColor`
+			</td>
+			<td>`border-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Color for highlighted elements
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeHighlight-asBackgroundColor`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Color for highlighted elements
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeHighlight-asOutlineColor`
+			</td>
+			<td>`outline-color`
+			</td>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>Brand color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemePageBG`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Background color of mobile pages
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemePageBG-asColor`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Background color of mobile pages
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBarBG`
+			</td>
+			<td>`background-color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Background color for header bars in mobile pages
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBarHeading` 
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Header text color for header bars in mobile pages
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeBarText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Normal text color for header bars in mobile pages
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeNegativeText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Semantic negative text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeCriticalText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Semantic critical text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemePositiveText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Semantic positive text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeLightText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Light text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeMediumText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Medium text color
+			</td>
+		</tr>
+		<tr>
+			<td>`sapThemeDarkText`
+			</td>
+			<td>`color`
+			</td>
+			<td>X
+			</td>
+			<td>-
+			</td>
+			<td>Dark text color
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 You can also check the availability of the `sapTheme` classes across the predefined themes *Blue Crystal* and *High Contrast Black* \(HCB\) in the [sample](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.ThemeCustomClasses/preview) in the Demo Kit.
 

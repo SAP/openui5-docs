@@ -26,15 +26,80 @@ The following table shows the configuration options that can be specified in the
 
  <a name="loioeba8d25a31ef416ead876e091e67824e__table_ConfigOptions"/>Configuration Options for Terminologies
 
-|Property|Type|Description|
-|--------|----|-----------|
-| `bundleName` | `String` | OpenUI5 module name in dot notation referring to the main `.properties` file.|
-| `bundleUrl` | `String` |URL pointing to the `.properties` file of the main bundle.|
-| `bundleUrlRelativeTo` | `String` |The bundle URL can be resolved relative to either `manifest` \(default\) or `component`.|
-| `supportedLocales` | `String[]` |An array containing a list of supported locales, for example `en_GB`, `en-GB`, or `en`. It is recommended to make use of this option in order to optimize the **loading performance** of resource bundles. It controls the language fallback chain and prevents unnecessary and potentially failing requests, as the available language-specific resource bundles are already known.|
-| `fallbackLocale` | `String` |The fallback locale in case the user's locale is not present in the list of supported locales or the required text can't be found in any other resource bundle. Furthermore, the given fallback locale must be listed in the `supportedLocales`.|
-| `terminologies` | `Object` |A key-value map in which the name of a terminology is specified as a key and a configuration object as a value. The configuration object must be specified with either `bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.|
-| `enhanceWith` | `Object[]` |List of additional resource bundle configurations to enhance the main bundle. Each entry can have the same properties as described in this table, **except another `enhanceWith`**.|
+|Property
+
+|Type
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `String` 
+			</td>
+			<td> OpenUI5 module name in dot notation referring to the main `.properties` file.
+			</td>
+		</tr>
+		<tr>
+			<td> `bundleUrl` 
+			</td>
+			<td> `String` 
+			</td>
+			<td>URL pointing to the `.properties` file of the main bundle.
+			</td>
+		</tr>
+		<tr>
+			<td> `bundleUrlRelativeTo` 
+			</td>
+			<td> `String` 
+			</td>
+			<td>The bundle URL can be resolved relative to either `manifest` \(default\) or `component`.
+			</td>
+		</tr>
+		<tr>
+			<td> `supportedLocales` 
+			</td>
+			<td> `String[]` 
+			</td>
+			<td>An array containing a list of supported locales, for example `en_GB`, `en-GB`, or `en`. It is recommended to make use of this option in order to optimize the **loading performance** of resource bundles. It controls the language fallback chain and prevents unnecessary and potentially failing requests, as the available language-specific resource bundles are already known.
+			</td>
+		</tr>
+		<tr>
+			<td> `fallbackLocale` 
+			</td>
+			<td> `String` 
+			</td>
+			<td>The fallback locale in case the user's locale is not present in the list of supported locales or the required text can't be found in any other resource bundle. Furthermore, the given fallback locale must be listed in the `supportedLocales`.
+			</td>
+		</tr>
+		<tr>
+			<td> `terminologies` 
+			</td>
+			<td> `Object` 
+			</td>
+			<td>A key-value map in which the name of a terminology is specified as a key and a configuration object as a value. The configuration object must be specified with either `bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.
+			</td>
+		</tr>
+		<tr>
+			<td> `enhanceWith` 
+			</td>
+			<td> `Object[]` 
+			</td>
+			<td>List of additional resource bundle configurations to enhance the main bundle. Each entry can have the same properties as described in this table, **except another `enhanceWith`**.
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 > Note:  
 > In case the properties `bundleName` and `bundleUrl` have both been specified, `bundleName` will be preferred.

@@ -57,7 +57,9 @@ The generated IDs change whenever the control structure of the app changes. The 
 > Tip:  
 > Using the rule *Stable control IDs are required for SAPUI5 flexibility services* in the Support Assistant, you can check whether all controls use stable IDs. For more information, see [How to Check If All Your IDs Are Stable](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck).
 
-|**Views**| -   Views in the descriptor for applications, components, and libraries
+|**Views**
+
+|-   Views in the descriptor for applications, components, and libraries
 
 The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
 
@@ -123,17 +125,15 @@ XMLView.create({
 For more information, see [namespace sap.ui](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/view).
 
 
- |
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+|
+| **Extension points** 
 
-<table>
-	<thead>
-		<tr>
-			<th> **Extension points** </th>
-			<th>If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.</th>
-		</tr>
-	</thead>
-	<tbody>
+|If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.
+
+|
+| **Controls** 
+
+|-   Controls in XML views
 
 The XML view prefixes the control IDs \(only the defined IDs, not the automatically created ones\) with its own ID. This allows you to use the same control ID for different views and the same view multiple times. For more information, see [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md).
 
@@ -151,7 +151,7 @@ If the following XML view is instantiated using the ID `myView`, the contained p
 
     ```
 
- -   Programmatic creation
+-   Programmatic creation
 
 For JavaScript views and JavaScript-generated controls you must use the `createID` method of the view or component. Here's how it could look like when you're creating a control directly in the control code:
 
@@ -162,20 +162,19 @@ new Button({
 	text : "Confirm"
 });
     ```
-			</td>
-		</tr>
-		<tr>
-			<td> **Components** </td>
-			<td>
 
- > Note:
-   > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
- For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself.
+|
+| **Components** 
 
- Example:
+|> Note:  
+> The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
- ``` js
+For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself.
+
+Example:
+
+``` js
 // "Shell" required from module "sap/m/Shell"
 new Shell({
    app: new ComponentContainer({
@@ -189,13 +188,14 @@ new Shell({
 									
 ```
 
- > Note:  
- > Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
-			</td>
-		</tr>
-		<tr>
-			<td> **Embedded Components** </td>
-			<td> If you want to add an embedded component with a stable ID, you have two options:
+> Note:  
+> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
+
+|
+| **Embedded Components** 
+
+|If you want to add an embedded component with a stable ID, you have two options:
+
 1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
@@ -250,26 +250,25 @@ constructor: function() {
 Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
 
 
- > Note:  
- > In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
-			</td>
-		</tr>
-		<tr>
-			<td> **XML fragments** </td>
-			<td> If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
- Example:
+> Note:  
+> In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
 
- ``` js
+|
+| **XML fragments** 
+
+|If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+
+Example:
+
+``` js
 // "Fragment" required from module "sap/ui/core/Fragment"
 Fragment.load({
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
 });
 ```
-			</td>
-		</tr>
-	</tbody>
-</table>
+
+|
 
 > Note:  
 > If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. For this reason, the IDs, which are part of the public API of the app, must be kept stable over the life cycle of the app.
@@ -289,12 +288,57 @@ Example:
 
 If you build an app using the following stable IDs for the component and the views using the SAP Fiori Worklist Application template, here's what the concatenated IDs that are generated at runtime look like:
 
-|Component|Views|Contained views|Concatenated IDs|
-|---------|-----|---------------|----------------|
-| `myProducts` | `worklist` | `page` | `myProducts---worklist--page` |
-| `table` | `myProducts---worklist--table` |
-| `product` | `page` | `myProducts---product--page` |
-| `objectHeader` | `myProducts---product--objectHeader` |
+|Component
+
+|Views
+
+|Contained views
+
+|Concatenated IDs
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----------</th>
+			<th>-------</th>
+			<th>-----------------</th>
+			<th>------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `worklist` 
+			</td>
+			<td> `page` 
+			</td>
+			<td> `myProducts---worklist--page` 
+			</td>
+		</tr>
+		<tr>
+			<td> `table` 
+			</td>
+			<td> `myProducts---worklist--table` 
+			</td>
+		</tr>
+		<tr>
+			<td> `product` 
+			</td>
+			<td> `page` 
+			</td>
+			<td> `myProducts---product--page` 
+			</td>
+		</tr>
+		<tr>
+			<td> `objectHeader` 
+			</td>
+			<td> `myProducts---product--objectHeader` 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 For more information about the SAP Fiori Worklist Application template, see [Worklist Template](Worklist_Template_a77f2d2.md).
 

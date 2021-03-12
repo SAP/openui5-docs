@@ -179,8 +179,16 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 ### Result
 
-|![](loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)|![](loiof38dee2624c2437d8977de70575b3eae_HiRes.png)|
-|**Landmarks on the overview page - before**|**Landmarks on the overview page - after**|
+|![](loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
+
+|![](loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
+
+|
+|**Landmarks on the overview page - before**
+
+|**Landmarks on the overview page - after**
+
+|
 
 As you can see, we now have four landmarks on our page. The top three landmarks structure our page:
 

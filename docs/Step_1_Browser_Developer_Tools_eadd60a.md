@@ -109,9 +109,17 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > Note:  
 > The method of retrieval is different for OpenUI5 controls and DOM elements:
 > 
-> | OpenUI5 Control|DOM Element|
-> |----------------|-----------|
-> | `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` | `jQuery("#container-HeapOfShards---app--myButton")` |
+> | OpenUI5 Control
+> 
+> |DOM Element
+> 
+> |
+> |------------------|-------------|
+> | `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` 
+> 
+> | `jQuery("#container-HeapOfShards---app--myButton")` 
+> 
+> |
 
 ***
 

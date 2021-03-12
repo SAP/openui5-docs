@@ -12,29 +12,30 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 List controls are used to store entities
 
+| OpenUI5 Control
+
+|What is read by default
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th> OpenUI5 Control</th>
-			<th>What is read by default</th>
+			<th>------------------</th>
+			<th>-------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Breadcrumbs</td>
-			<td>
 
- -   Upon entry in Virtual Cursor mode - ARIA role
+			<td>-   Upon entry in Virtual Cursor mode - ARIA role
  -   In Virtual Cursor mode - Type of the contained labels \(header, subheader, footer\)
 			</td>
 		</tr>
 		<tr>
-			<td>Icon Tab Bar</td>
-			<td>
-
- -   Element role \(tapstrip or tabpanel\)
+			<td>Icon Tab Bar
+			</td>
+			<td>-   Element role \(tapstrip or tabpanel\)
  -   Sub-element role \(tab\)
 
  -   Textual descriptions for icon tabs
@@ -47,24 +48,21 @@ List controls are used to store entities
 			</td>
 		</tr>
 		<tr>
-			<td>Message Page</td>
-			<td>
-
- -   In Virtual Cursor mode - all text on the page
+			<td>Message Page
+			</td>
+			<td>-   In Virtual Cursor mode - all text on the page
 			</td>
 		</tr>
 		<tr>
-			<td>Page</td>
-			<td>
-
- -   Landmark roles for the substructure elements \(header, content, footer\)
+			<td>Page
+			</td>
+			<td>-   Landmark roles for the substructure elements \(header, content, footer\)
 			</td>
 		</tr>
 		<tr>
-			<td>Panel</td>
-			<td>
-
- -   Button text
+			<td>Panel
+			</td>
+			<td>-   Button text
  -   Toggle state
 
  -   Custom button types
@@ -73,10 +71,9 @@ List controls are used to store entities
 			</td>
 		</tr>
 		<tr>
-			<td>Object Header</td>
-			<td>
-
- -   The Object Header title
+			<td>Object Header
+			</td>
+			<td>-   The Object Header title
  -   In Virtual Cursor mode - all content of the region
 
 

@@ -16,21 +16,23 @@ OpenUI5 input controls are used to get and store user data. The most common use 
 
 <a name="loio50143be270b7433c8a45915d8ae57e69__table_mv5_wrs_xw"/>Screen Reader Behavior in Input Controls
 
+| OpenUI5 Control
+
+|What is read by default
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th> OpenUI5 Control</th>
-			<th>What is read by default</th>
+			<th>------------------</th>
+			<th>-------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Check Box</td>
-			<td>
 
- -   Checkbox label
+			<td>-   Checkbox label
  -   Checkbox state
 
  -   Checkbox value
@@ -39,7 +41,8 @@ OpenUI5 input controls are used to get and store user data. The most common use 
 			</td>
 		</tr>
 		<tr>
-			<td>Combo Box</td>
+			<td>Combo Box
+			</td>
 			<td>-   Combobox label
  -   Combobox placeholder text \(if any\)
 
@@ -50,7 +53,9 @@ OpenUI5 input controls are used to get and store user data. The most common use 
  -   Tooltip
 
 
-Other interactions that need to be announced:-   Expanding\\collapsing the combobox
+Other interactions that need to be announced:
+
+ -   Expanding\\collapsing the combobox
 
  -   Value changes that happen without expanding
 
@@ -58,10 +63,9 @@ Other interactions that need to be announced:-   Expanding\\collapsing the combo
 			</td>
 		</tr>
 		<tr>
-			<td>Date Picker</td>
-			<td>
-
- -   Picker text
+			<td>Date Picker
+			</td>
+			<td>-   Picker text
  -   Picker placeholder text \(if any\)
 
  -   Picker state
@@ -72,21 +76,23 @@ Other interactions that need to be announced:-   Expanding\\collapsing the combo
 			</td>
 		</tr>
 		<tr>
-			<td>Facet Filter</td>
+			<td>Facet Filter
+			</td>
 			<td>Light Variant \(only one button\):
-
  -   Label for the filter
+
  -   Default statement: "no filter selected"
 
 
-Simple Variant \(several buttons\):-   Labels for the filters
+Simple Variant \(several buttons\):
+
+ -   Labels for the filters
 			</td>
 		</tr>
 		<tr>
-			<td>Input</td>
-			<td>
-
- -   Input state
+			<td>Input
+			</td>
+			<td>-   Input state
  -   Input value
 
  -   Input label
@@ -101,8 +107,9 @@ Simple Variant \(several buttons\):-   Labels for the filters
 			</td>
 		</tr>
 		<tr>
-			<td>Mask Input</td>
-			<td> Basic behavior is like `Input`. Additionally the screen reader should read:
+			<td>Mask Input
+			</td>
+			<td>Basic behavior is like `Input`. Additionally the screen reader should read:
  -   Masked input characters/symbols
 
  -   Symbols that have already been entered

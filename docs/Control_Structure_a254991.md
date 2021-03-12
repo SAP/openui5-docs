@@ -19,9 +19,52 @@ It is logically similar to `sap.m.SplitContainer`, however, there are two main d
 
 The following table respresents how the `FlexibleColumnLayout` roughly relates to the `NavContainer` and `SplitContainer` controls.
 
-|Control|API|Number of Pages Displayed|
-|-------|---|-------------------------|
-| `sap.m.NavContainer` | `pages` \(aggregation\)|1 page at a time|
-| `sap.m.SplitContainer` | `masterPages` \(aggregation\) `detailPages` \(aggregation\)|Up to 2 pages at a time \(2 instances of `NavContainer`\)|
-| `sap.f.FlexibleColumnLayout` | `beginColumnPages` \(aggregation\) `midColumnPages` \(aggregation\) `endColumnPages` \(aggregation\) `layout` \(property of type `sap.f.LayoutType`, determining the relative widths of the 3 `NavContainers`\)|Up to 3 pages at a time \(3 instances of `NavContainer`\)|
+|Control
+
+|API
+
+|Number of Pages Displayed
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>---------</th>
+			<th>-----</th>
+			<th>---------------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `pages` \(aggregation\)
+			</td>
+			<td>1 page at a time
+			</td>
+		</tr>
+		<tr>
+			<td> `sap.m.SplitContainer` 
+			</td>
+			<td>`masterPages` \(aggregation\)
+`detailPages` \(aggregation\)
+			</td>
+			<td>Up to 2 pages at a time \(2 instances of `NavContainer`\)
+			</td>
+		</tr>
+		<tr>
+			<td> `sap.f.FlexibleColumnLayout` 
+			</td>
+			<td>`beginColumnPages` \(aggregation\)
+`midColumnPages` \(aggregation\)
+
+`endColumnPages` \(aggregation\)
+
+`layout` \(property of type `sap.f.LayoutType`, determining the relative widths of the 3 `NavContainers`\)
+			</td>
+			<td>Up to 3 pages at a time \(3 instances of `NavContainer`\)
+			</td>
+		</tr>
+	</tbody>
+</table>
 

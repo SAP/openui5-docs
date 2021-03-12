@@ -37,12 +37,57 @@ These OpenUI5 configuration options accept the following formats:
 
     OpenUI5 applications are often used to connect to ABAP-based SAP application servers. These servers use SAP proprietary language codes for compatibility reasons. These language codes often match an ISO 639 alpha-2 language code, but not in all cases. If the language code for an OpenUI5 application is specified with the URL parameter `sap-language`, OpenUI5 assumes that it is an SAP proprietary language code and converts it to a BCP-47 language tag as follows:
 
-    |SAP Language Code|BCP47 Language Tag|Description|
-    |-----------------|------------------|-----------|
-    |`ZH`|`zh-Hans`|`ZH` is the SAP language code for Simplified Chinese. The most generic representation in BCP47 is `zh-Hans`. `zh-CN` \(Chinese, China\) is another representation, but SAPUI5 decided to use `zh-Hans`.|
-    |`ZF`|`zh-Hant`|`ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP47 is `zh-Hant`. `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5 decided to use `zh-Hant`.|
-    |`1Q`|`en-US-x-saptrc`|`1Q` is a technical SAP language code used in support scenarios, for example for translation issues. When you select this language code, the technical keys are displayed instead of the actual data. As no ISO639 code for this exists, the information has been added as a BCP47 private extension to the `en-US` language tag: "trc" stands for "trace" or "traceability".|
-    |`2Q`|`en-US-x-sappsd`|`2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).|
+    |SAP Language Code
+
+|BCP47 Language Tag
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>    </th>
+			<th>-------------------</th>
+			<th>--------------------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>`zh-Hans`
+			</td>
+			<td>`ZH` is the SAP language code for Simplified Chinese. The most generic representation in BCP47 is `zh-Hans`. `zh-CN` \(Chinese, China\) is another representation, but SAPUI5 decided to use `zh-Hans`.
+			</td>
+		</tr>
+		<tr>
+			<td>`ZF`
+			</td>
+			<td>`zh-Hant`
+			</td>
+			<td>`ZF` is the SAP language code for Traditional Chinese. The most generic representation in BCP47 is `zh-Hant`. `zh-TW` \(Chinese, Taiwan\) is another representation, but SAPUI5 decided to use `zh-Hant`.
+			</td>
+		</tr>
+		<tr>
+			<td>`1Q`
+			</td>
+			<td>`en-US-x-saptrc`
+			</td>
+			<td>`1Q` is a technical SAP language code used in support scenarios, for example for translation issues. When you select this language code, the technical keys are displayed instead of the actual data. As no ISO639 code for this exists, the information has been added as a BCP47 private extension to the `en-US` language tag: "trc" stands for "trace" or "traceability".
+			</td>
+		</tr>
+		<tr>
+			<td>`2Q`
+			</td>
+			<td>`en-US-x-sappsd`
+			</td>
+			<td>`2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
+			</td>
+		</tr>
+	</tbody>
+</table>
 
     > Note:  
     > Only these SAP-proprietary language codes are understood by OpenUI5. Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the SAP Fiori launchpad.

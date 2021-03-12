@@ -21,24 +21,221 @@ If an app has a `resources.json` file, it is mentioned in the `manifest.json` un
 
 The list of resources is stored in an array in the `resources` property of the top level JSON object. The top level object can also contain the `_version` property, which can be omitted if the value is `1.0.0`. For each resource, the following entries are possible:
 
-|Property|Type|Mandatory|Description|
-|--------|----|---------|-----------|
-| `name` | `string` |![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)|The relative path of the resource as accessible in a server. The path is relative to the location of the `resources.json` file, for example `Component.js`.|
-| `size` | `number` |![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)|The size in bytes of the resource.|
-| `condRequired` | `string[]` | |A list of conditional dependencies of this resource. These dependencies can be required during execution of this resource.|
-| `designtime` | `boolean` | |When set to `true`, the resource is considered a designtime resource. The OpenUI5 build derives the flag from the naming convention \(could be `/designtime/`, `.designtime.js`, `.control`, `.interface`, `.type`, `.less`, `library.templates.xml`, `library.dependencies.xml`, or `library.dependencies.json`\).|
-| `dynRequired` | `boolean` | |When set to `true`, the resource has dynamic dependencies. The name of this dependency could not be resolved during build time.|
-| `exposedGlobalNames` | `string[]` | |A list of variables which are exposed to the global JS scope.|
-| `format` | `string` | |Defines the format of this resource; `raw` means that it is not a UI5 module.|
-| `included` | `string[]` | |List of sub-modules which are included in this resource, e.g. the `Component-preload.js` typically has the `included` property.|
-| `isDebug` | `boolean` | |When set to `true`, the resource is a debug source, the OpenUI5 build derives the flag from the naming convention \(`-dbg(.controller .view .fragment).js`\).|
-| `locale` | `string` | |Locale of the resource for known i18n resources; the OpenUI5 build derives the locale from the naming convention \(`*_[locale].properties`\).|
-| `merged` | `string` | |Indicates whether the resource is a merged resource. By default, the OpenUI5 build determines this from naming conventions \(`library-preload.json`, `library-all.js`, `Component-preload.js`\), but it also allows to add more merged files by manual configuration of the build step. SAP Web IDE may use other knowledge for this; it knows, for example, that it merges the`Component-preload.js`.|
-| `module` | `string` | |The name of the UI5 module, including the file extension.|
-| `raw` | `string` | |The name of the corresponding resource in the raw \(developer\) language for known i18n resources; for example, for`messagebundle.en.properties`, the corresponding raw file is `messagebundle.properties`.|
-| `required` | `string[]` | |A list of dependencies of this resource. These dependencies are required prior to using this resource.|
-| `support` | `boolean` | |When set to `true`, the resource is considered a ssupport assistant resource. The OpenUI5 build derives this flag from the naming convention `.support.js`.|
-| `theme` | `string` | |Indicates a theme-dependent resource. The OpenUI5 build determines this from the naming convention `**themes/<theme>/**` |
+|Property
+
+|Type
+
+|Mandatory
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>------</th>
+			<th>-----------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `string` 
+			</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+			</td>
+			<td>The relative path of the resource as accessible in a server. The path is relative to the location of the `resources.json` file, for example `Component.js`.
+			</td>
+		</tr>
+		<tr>
+			<td> `size` 
+			</td>
+			<td> `number` 
+			</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+			</td>
+			<td>The size in bytes of the resource.
+			</td>
+		</tr>
+		<tr>
+			<td> `condRequired` 
+			</td>
+			<td> `string[]` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>A list of conditional dependencies of this resource. These dependencies can be required during execution of this resource.
+			</td>
+		</tr>
+		<tr>
+			<td> `designtime` 
+			</td>
+			<td> `boolean` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>When set to `true`, the resource is considered a designtime resource. The OpenUI5 build derives the flag from the naming convention \(could be `/designtime/`, `.designtime.js`, `.control`, `.interface`, `.type`, `.less`, `library.templates.xml`, `library.dependencies.xml`, or `library.dependencies.json`\).
+			</td>
+		</tr>
+		<tr>
+			<td> `dynRequired` 
+			</td>
+			<td> `boolean` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>When set to `true`, the resource has dynamic dependencies. The name of this dependency could not be resolved during build time.
+			</td>
+		</tr>
+		<tr>
+			<td> `exposedGlobalNames` 
+			</td>
+			<td> `string[]` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>A list of variables which are exposed to the global JS scope.
+			</td>
+		</tr>
+		<tr>
+			<td> `format` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>Defines the format of this resource; `raw` means that it is not a UI5 module.
+			</td>
+		</tr>
+		<tr>
+			<td> `included` 
+			</td>
+			<td> `string[]` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>List of sub-modules which are included in this resource, e.g. the `Component-preload.js` typically has the `included` property.
+			</td>
+		</tr>
+		<tr>
+			<td> `isDebug` 
+			</td>
+			<td> `boolean` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>When set to `true`, the resource is a debug source, the OpenUI5 build derives the flag from the naming convention \(`-dbg(.controller .view .fragment).js`\).
+			</td>
+		</tr>
+		<tr>
+			<td> `locale` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>Locale of the resource for known i18n resources; the OpenUI5 build derives the locale from the naming convention \(`*_[locale].properties`\).
+			</td>
+		</tr>
+		<tr>
+			<td> `merged` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>Indicates whether the resource is a merged resource. By default, the OpenUI5 build determines this from naming conventions \(`library-preload.json`, `library-all.js`, `Component-preload.js`\), but it also allows to add more merged files by manual configuration of the build step. SAP Web IDE may use other knowledge for this; it knows, for example, that it merges the`Component-preload.js`.
+			</td>
+		</tr>
+		<tr>
+			<td> `module` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>The name of the UI5 module, including the file extension.
+			</td>
+		</tr>
+		<tr>
+			<td> `raw` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>The name of the corresponding resource in the raw \(developer\) language for known i18n resources; for example, for`messagebundle.en.properties`, the corresponding raw file is `messagebundle.properties`.
+			</td>
+		</tr>
+		<tr>
+			<td> `required` 
+			</td>
+			<td> `string[]` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>A list of dependencies of this resource. These dependencies are required prior to using this resource.
+			</td>
+		</tr>
+		<tr>
+			<td> `support` 
+			</td>
+			<td> `boolean` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>When set to `true`, the resource is considered a ssupport assistant resource.
+The OpenUI5 build derives this flag from the naming convention `.support.js`.
+			</td>
+		</tr>
+		<tr>
+			<td> `theme` 
+			</td>
+			<td> `string` 
+			</td>
+		</tr>
+
+		</tr>
+		<tr>
+			<td>Indicates a theme-dependent resource.
+The OpenUI5 build determines this from the naming convention `**themes/<theme>/**`
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

@@ -31,29 +31,161 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 ### Browser and Platform Support Matrix
 
-|Platform|Device Category|Platform Version|Safari|Web View|Internet Explorer<sup>2</sup>|Microsoft Edge \(Chromium\)<sup>3</sup>|Google Chrome|Mozilla Firefox|SAP Fiori Client|
-|--------|---------------|----------------|------|--------|-----------------------------|---------------------------------------|-------------|---------------|----------------|
-|Windows<sup>1</sup>|Desktop|Windows 8.1|-|-|Version 11<sup>4</sup>|Latest version|Latest version|Latest version and Extended Support Release \(ESR\)|-|
-|Windows 10|-|Latest version|-|
-|Touch<sup>5</sup>|Windows 10|-|Latest version|Version 11<sup>4</sup>|Latest version|Latest version|Latest version|
-|macOS|Desktop|Latest 2 versions|Latest 2 versions|-|-|-|Latest version<sup>5</sup>|-|-|
-|iOS|Phone and Tablet<sup>5</sup>|Latest 2 versions|Latest 2 versions|Latest version|-|-|-|-|Latest version|
-|Android|Phone and Tablet<sup>5</sup>|As of version 5|-|-|-|-|Latest version|-|Latest version|
+|Platform
+
+|Device Category
+
+|Platform Version
+
+|Safari
+
+|Web View
+
+|Microsoft Edge \(Chromium\)<sup>2</sup>
+
+|Google Chrome
+
+|Mozilla Firefox
+
+|SAP Fiori Client
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>-----------------</th>
+			<th>------------------</th>
+			<th>--------</th>
+			<th>----------</th>
+			<th>-----------------------------------------</th>
+			<th>---------------</th>
+			<th>-----------------</th>
+			<th>------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Desktop
+			</td>
+			<td>Windows 8.1
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+			<td>Latest version
+			</td>
+			<td>Latest version and latest Extended Support Release \(ESR\)
+			</td>
+			<td>-
+			</td>
+		</tr>
+		<tr>
+			<td>Windows 10
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+			<td>-
+			</td>
+		</tr>
+		<tr>
+			<td>Touch<sup>3</sup>
+			</td>
+			<td>Windows 10
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+			<td>Latest version
+			</td>
+			<td>Latest version
+			</td>
+			<td>Latest version
+			</td>
+		</tr>
+		<tr>
+			<td>macOS
+			</td>
+			<td>Desktop
+			</td>
+			<td>Latest 2 versions
+			</td>
+			<td>Latest 2 versions
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>Latest version<sup>3</sup>
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+		</tr>
+		<tr>
+			<td>iOS
+			</td>
+			<td>Phone and Tablet<sup>3</sup>
+			</td>
+			<td>Latest 2 versions
+			</td>
+			<td>Latest 2 versions
+			</td>
+			<td>Latest version
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+		</tr>
+		<tr>
+			<td>Android
+			</td>
+			<td>Phone and Tablet<sup>3</sup>
+			</td>
+			<td>As of version 5
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+			<td>-
+			</td>
+			<td>Latest version
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
- 2\) For the upcoming end of support for Microsoft Internet Explorer 11 in OpenUI5, see section [End of Support for Microsoft Internet Explorer 11 in Future OpenUI5 Versions](Browser_and_Platform_Support_74b59ef.md#loio74b59efa0eef48988d3b716bd0ecc933__MS_IE).  
- 3\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
- 4\) Internet Explorer 11 requires add-ons *XML DOM Document* and *XML DOM Document 3.0* to be activated for XML parsing support.  
- 5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+ 2\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
+ 3\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__MS_IE"/>
 
-### End of Support for Microsoft Internet Explorer 11 in Future OpenUI5 Versions
+### OpenUI5 Support Status for Microsoft Internet Explorer 11
 
-OpenUI5 1.87 will be the last version that still supports Microsoft Internet Explorer 11 \(IE11\). The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. All OpenUI5 versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance.
+Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)\).
 
 In case you have legacy applications and you still need IE11 with an OpenUI5 version that no longer supports it, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to IE11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
 
@@ -67,106 +199,154 @@ For mobile operating systems, support is restricted to specific reference device
 
 When creating support incidents, make sure that the device you refer to belongs to the listed ones:
 
+|Platform
+
+|Device
+
+|End of Support Date
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Platform</th>
-			<th>Device</th>
-			<th>End of Support Date</th>
+			<th>----------</th>
+			<th>--------</th>
+			<th>---------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td> iOS
- SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
+
+SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
+
+			<td>Apple iPhone XS
 			</td>
-			<td>Apple iPhone XS</td>
-			<td>September 2021</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone XR</td>
-			<td>October 2021</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone 11</td>
-			<td>September 2022</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone SE \(2nd\)</td>
-			<td>April 2023</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone 12</td>
-			<td>October 2023</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(6th\)</td>
-			<td>March 2021</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Pro \(3rd\)</td>
-			<td>October 2021</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Air \(3rd\)</td>
-			<td>March 2022</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Mini \(5th\)</td>
-			<td>March 2022</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(7th\)</td>
-			<td>September 2022</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Pro \(4th\)</td>
-			<td>March 2023</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(8th\)</td>
-			<td>September 2023</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Air \(4th\)</td>
-			<td>October 2023</td>
-		</tr>
-		<tr>
-			<td> Android
- Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
+			<td>September 2021
 			</td>
-			<td>Samsung Galaxy S9</td>
-			<td>March 2021</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy S10</td>
-			<td>March 2022</td>
+			<td>Apple iPhone XR
+			</td>
+			<td>October 2021
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy S20</td>
-			<td>March 2023</td>
+			<td>Apple iPhone 11
+			</td>
+			<td>September 2022
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy Tab S4</td>
-			<td>August 2021</td>
+			<td>Apple iPhone SE \(2nd\)
+			</td>
+			<td>April 2023
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy Tab S5e</td>
-			<td>April 2022</td>
+			<td>Apple iPhone 12
+			</td>
+			<td>October 2023
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy Tab S6</td>
-			<td>August 2022</td>
+			<td>Apple iPad \(6th\)
+			</td>
+			<td>March 2021
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy Tab S6 Lite</td>
-			<td>July 2023</td>
+			<td>Apple iPad Pro \(3rd\)
+			</td>
+			<td>October 2021
+			</td>
 		</tr>
 		<tr>
-			<td>Samsung Galaxy Tab S7</td>
-			<td>August 2023</td>
+			<td>Apple iPad Air \(3rd\)
+			</td>
+			<td>March 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Mini \(5th\)
+			</td>
+			<td>March 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Apple iPad \(7th\)
+			</td>
+			<td>September 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Pro \(4th\)
+			</td>
+			<td>March 2023
+			</td>
+		</tr>
+		<tr>
+			<td>Apple iPad \(8th\)
+			</td>
+			<td>September 2023
+			</td>
+		</tr>
+		<tr>
+			<td>Apple iPad Air \(4th\)
+			</td>
+			<td>October 2023
+			</td>
+		</tr>
+		<tr>
+			<td>Android
+Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
+			</td>
+			<td>Samsung Galaxy S9
+			</td>
+			<td>March 2021
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy S10
+			</td>
+			<td>March 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy S20
+			</td>
+			<td>March 2023
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S4
+			</td>
+			<td>August 2021
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S5e
+			</td>
+			<td>April 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S6
+			</td>
+			<td>August 2022
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S6 Lite
+			</td>
+			<td>July 2023
+			</td>
+		</tr>
+		<tr>
+			<td>Samsung Galaxy Tab S7
+			</td>
+			<td>August 2023
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -175,14 +355,5 @@ When creating support incidents, make sure that the device you refer to belongs 
 
 ### Additional Information
 
--   **General**
-
-    -   Internet Explorer 11 \(IE11\) provides specific document and enterprise modes for compatibility reasons. OpenUI5 supports only the IE11 document mode. For backward compatibility, IE11 allows to enable a special enterprise mode that can simulate either an IE8 or IE7 within an IE11, which is NOT supported for OpenUI5 apps. This functionality should be used only for critical apps that require an older browser version to run. For more information, see "[Fix web compatibility issues using document modes and the Enterprise Mode site list](https://technet.microsoft.com/itpro/internet-explorer/ie11-deploy-guide/fix-compat-issues-with-doc-modes-and-enterprise-mode-site-list)" in the Microsoft Windows IT Center.
-
-    -   Microsoft Edge \(EdgeHTML\) is not supported.
-
-    -   PhantomJS is not supported.
-
--   **`sap.m`**
-    -   For the **maxLines** property of the `sap.m.Text` control, multiline ellipsis handling is not supported for all browsers and devices and is not supported at all for right-to-left text direction. For more information, see [Visual Degradations](Visual_Degradations_f08f296.md).
+Depending on the combination of device and browser, visual degradations may occur for certain libraries. For more details, see [Visual Degradations](Visual_Degradations_f08f296.md).
 

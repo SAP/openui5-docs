@@ -192,10 +192,48 @@ This concept has the following consequences:
 
 #### Combining State/Transition and Bound/Unbound Messages
 
-| |State|Transition|
-|--|-----|----------|
-|Unbound|![](loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)|![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)|
-|Bound|![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)|![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)|
+| 
+
+|State
+
+|Transition
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>---</th>
+			<th>-------</th>
+			<th>------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>
+
+![](loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
+			</td>
+			<td>
+
+![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+			</td>
+		</tr>
+		<tr>
+			<td>Bound
+			</td>
+			<td>
+
+![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+			</td>
+			<td>
+
+![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 
@@ -205,12 +243,56 @@ This concept has the following consequences:
 
 The table shows the supported severity values and their mapping to the specific `sap.ui.core.MessageType`.
 
-|numericSeverity|Type|Comment|
-|---------------|----|-------|
-|1|`sap.ui.core.MessageType.Success`|Positive feedback - no action required|
-|2|`sap.ui.core.MessageType.Information`|Additional information - no action required|
-|3|`sap.ui.core.MessageType.Warning`|Warning - action may be required|
-|4|`sap.ui.core.MessageType.Error`|Error - action is required|
+|numericSeverity
+
+|Type
+
+|Comment
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----------------</th>
+			<th>------</th>
+			<th>---------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>`sap.ui.core.MessageType.Success`
+			</td>
+			<td>Positive feedback - no action required
+			</td>
+		</tr>
+		<tr>
+			<td>2
+			</td>
+			<td>`sap.ui.core.MessageType.Information`
+			</td>
+			<td>Additional information - no action required
+			</td>
+		</tr>
+		<tr>
+			<td>3
+			</td>
+			<td>`sap.ui.core.MessageType.Warning`
+			</td>
+			<td>Warning - action may be required
+			</td>
+		</tr>
+		<tr>
+			<td>4
+			</td>
+			<td>`sap.ui.core.MessageType.Error`
+			</td>
+			<td>Error - action is required
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

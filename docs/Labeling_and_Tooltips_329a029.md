@@ -43,59 +43,73 @@ Top 5 things to do for better screen reader support for labels
 
 <a name="loio329a029f39e249a1bf89e3ffc006c8e1__table_vzj_4r3_5s"/>Rules and Guidelines for Labeling and Tooltips
 
+|Rules and Guidelines
+
+|Examples/Clarification
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Rules and Guidelines</th>
-			<th>Examples/Clarification</th>
+			<th>----------------------</th>
+			<th>------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alternative description in the `alt` property.</td>
-			<td> > Example:   > ```
+
+			<td>> Example:   > ```
  > <Image id="image_not_decorative" src="IMAGE_PATH" alt="This is an image showing an elephant" decorative=false>
  > ```
 			</td>
 		</tr>
 		<tr>
-			<td>Interactive `sap.m.Image`/`sap.ui.core.Icon` \(that has a press handler\) should not be decorative.</td>
-			<td> > Example:   > ```
+			<td>Interactive `sap.m.Image`/`sap.ui.core.Icon` \(that has a press handler\) should not be decorative.
+			</td>
+			<td>> Example:   > ```
  > <Image src="IMAGE_PATH" alt="This is an image with a press handler" decorative=false press=onImagePress>
  > ```
 			</td>
 		</tr>
 		<tr>
-			<td>Icon-only `sap.m.Button` should have a tooltip.</td>
-			<td> > Example:   > ```
+			<td>Icon-only `sap.m.Button` should have a tooltip.
+			</td>
+			<td>> Example:   > ```
  > <Button icon="sap-icon://action" press="onPress" tooltip="Action Name" ariaLabelledBy="actionButtonLabel"/>
  > ```
 			</td>
 		</tr>
 		<tr>
-			<td>Labels should **not** have a tooltip.</td>
-			<td>This could lead to ambiguity.</td>
+			<td>Labels should **not** have a tooltip.
+			</td>
+			<td>This could lead to ambiguity.
+			</td>
 		</tr>
 		<tr>
-			<td>Input elements should have labels.</td>
-			<td>Every input needs a label for its description and purpose. Even if the app doesn't include one, you can set one in `sap.ui.core.InvisibleText`. The placeholder text should not be used as a label.</td>
+			<td>Input elements should have labels.
+			</td>
+			<td>Every input needs a label for its description and purpose. Even if the app doesn't include one, you can set one in `sap.ui.core.InvisibleText`. The placeholder text should not be used as a label.
+			</td>
 		</tr>
 		<tr>
-			<td>Tables should have titles</td>
-			<td>Tables with hidden titles or in containers with titles \(for example,single tables in tab strip panels\) should be labeled with `sap.ui.core.InvisibleText` in combination with `arialabelledby`.</td>
+			<td>Tables should have titles
+			</td>
+			<td>Tables with hidden titles or in containers with titles \(for example,single tables in tab strip panels\) should be labeled with `sap.ui.core.InvisibleText` in combination with `arialabelledby`.
+			</td>
 		</tr>
 		<tr>
-			<td>Button that has a text, should **not** have a tooltip.</td>
-			<td> > Example:   > ```
+			<td>Button that has a text, should **not** have a tooltip.
+			</td>
+			<td>> Example:   > ```
  > <Button text="Default" press="onPress" />
  > ```
 			</td>
 		</tr>
 		<tr>
-			<td> `Aria-labelledby` and `aria-describedby` associations should point to existing DOM elements.</td>
-			<td> > Example:   > ```
+			<td> `Aria-labelledby` and `aria-describedby` associations should point to existing DOM elements.
+			</td>
+			<td>> Example:   > ```
  >  <Page title="Page">
  >   <content>   
  > <Button text="Home" ariaLabelledBy="invisibleId"/>   
@@ -106,8 +120,9 @@ Top 5 things to do for better screen reader support for labels
 			</td>
 		</tr>
 		<tr>
-			<td>Labels should be connected with the labelled elements via `labelfor`.</td>
-			<td> > Example:   > ```
+			<td>Labels should be connected with the labelled elements via `labelfor`.
+			</td>
+			<td>> Example:   > ```
  > <Label text="Name" labelFor="I1"> 
  > <Input id="I1">
  > ```

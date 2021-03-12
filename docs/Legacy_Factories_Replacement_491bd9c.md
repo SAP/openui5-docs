@@ -16,19 +16,25 @@ The AMD module syntax already avoids Globals and enforces the strict dependency 
 
 The OpenUI5 framework by default uses synchronous requests internally in several places. Most have already been replaced by asynchronous alternatives, or prepared to exchange the synchronous behaviour shown below. The asynchronous adoption starts from the beginning with the bootstrap script tag, where the `async` configuration parameter should be set to `true`. Applications can register an event callback via [`sap.ui.getCore()#attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit). . The examples below show only the most frequently used synchronous APIs. There are more of these APIs, and most often the asynchronous alternatives return a `Promise` that can be used to retrieve the former return value.
 
+|Legacy, synchronous API
+
+|Modern API
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Legacy, synchronous API</th>
-			<th>Modern API</th>
+			<th>-------------------------</th>
+			<th>------------</th>
 		</tr>
 	</thead>
 	<tbody>
+			</td>
+		</tr>
 		<tr>
-			<td>Declarative App Description</td>
-			<td> 
+			<td>
 
 ```
 
@@ -40,7 +46,7 @@ sap.ui.component({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -58,8 +64,11 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 			</td>
 		</tr>
 		<tr>
-			<td>Components - Some API still experimental</td>
-			<td> 
+			<td>Components - Some API still experimental
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 
@@ -71,7 +80,7 @@ var oComponentInstance = sap.ui.component({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -85,9 +94,9 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 });
 ```
 
- Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file:
+Alternatively, migrate to `componentUsages` with an additional adaption in the `manifest.json` file:
 
- ```
+```
 
 createContent: function() {
 
@@ -103,7 +112,7 @@ createContent: function() {
 			</td>
 		</tr>
 		<tr>
-			<td> 
+			<td>
 
 ```
 
@@ -115,7 +124,7 @@ var oComponentClass = sap.ui.component.load({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -137,13 +146,13 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 			</td>
 		</tr>
 		<tr>
-			<td> 
+			<td>
 
 ```
 var oComponentInstance = sap.ui.component("my-comp-id");
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -159,8 +168,11 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 			</td>
 		</tr>
 		<tr>
-			<td>i18n texts</td>
-			<td> 
+			<td>i18n texts
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 
@@ -172,7 +184,7 @@ jQuery.sap.resources({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -191,8 +203,11 @@ sap.ui.require(['sap/base/i18n/ResourceBundle'], function(Resource){
 			</td>
 		</tr>
 		<tr>
-			<td>Views</td>
-			<td> 
+			<td>Views
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 
@@ -206,7 +221,7 @@ var oView = sap.ui.view({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -224,7 +239,7 @@ sap.ui.require(['sap/ui/core/mvc/View'], function(View){
 			</td>
 		</tr>
 		<tr>
-			<td> 
+			<td>
 
 ```
 
@@ -236,7 +251,7 @@ var oView = sap.ui.xmlview({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -252,7 +267,7 @@ sap.ui.require(['sap/ui/core/mvc/XMLView'], function(XMLView){
 			</td>
 		</tr>
 		<tr>
-			<td> 
+			<td>
 
 ```
 
@@ -264,8 +279,8 @@ var oView = sap.ui.jsview({
 
 ```
 			</td>
-			<td> `JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used.
- ```
+			<td>`JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used.
+```
 
 sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
 								
@@ -279,14 +294,17 @@ sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
 			</td>
 		</tr>
 		<tr>
-			<td>Controllers</td>
-			<td> 
+			<td>Controllers
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 var oController = sap.ui.controller({ ... });
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -302,14 +320,17 @@ sap.ui.require(['sap/ui/core/mvc/Controller'], function(Controller){
 			</td>
 		</tr>
 		<tr>
-			<td>Extension Points</td>
-			<td> 
+			<td>Extension Points
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 var aControls = sap.ui.extensionpoint( ... );
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -325,8 +346,11 @@ sap.ui.require(['sap/ui/core/ExtensionPoint'], function(ExtensionPoint){
 			</td>
 		</tr>
 		<tr>
-			<td>Fragments</td>
-			<td> 
+			<td>Fragments
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 
@@ -340,7 +364,7 @@ var aControls = sap.ui.fragment({
 
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 
@@ -362,14 +386,17 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 			</td>
 		</tr>
 		<tr>
-			<td>Version Info</td>
-			<td> 
+			<td>Version Info
+			</td>
+		</tr>
+		<tr>
+			<td>
 
 ```
 var oVersionInfo = sap.ui.getVersionInfo();
 ```
 			</td>
-			<td> 
+			<td>
 
 ```
 

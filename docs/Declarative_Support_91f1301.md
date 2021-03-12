@@ -55,11 +55,62 @@ The following example shows the concept by combining a `sap.m.input` with a `sap
 
 The table summarizes the attributes used by declarative support and gives examples.
 
-|Attribute|Description|Example|
-|---------|-----------|-------|
-|`data-sap-ui-type`|Type of control|`<div data-sap-ui-type="sap.m.Button"></div>`|
-|`data-sap-ui-aggregation`|Defines the aggregation that shall be used for the element or child element|`<div data-sap-ui-type="sap.m.Panel"><div data-sap-ui-aggregation="content" data-sap-ui-type="sap.m.Button" data-text="My Button"></div></div>`|
-|`data-sap-ui.default-aggregation`|Sets or overrides the default aggregation of a control|`<div data-sap-ui-type="sap.m.Panel" data-sap-ui-default-aggregation="headerToolbar"><div data-sap-ui-type="sap.m.Toolbar"></div></div>` |
-|`id`|Defines the ID property of a control|`<div data-sap-ui-type="sap.m.Button" id="myButton"></div>` |
-|`class`|Adds a style class to the control|`<div data-sap-ui-type="sap.m.Button" class="myButton"></div>` |
+|Attribute
+
+|Description
+
+|Example
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----------</th>
+			<th>-------------</th>
+			<th>---------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Type of control
+			</td>
+			<td>`<div data-sap-ui-type="sap.m.Button"></div>`
+			</td>
+		</tr>
+		<tr>
+			<td>`data-sap-ui-aggregation`
+			</td>
+			<td>Defines the aggregation that shall be used for the element or child element
+			</td>
+			<td>`<div data-sap-ui-type="sap.m.Panel"><div data-sap-ui-aggregation="content" data-sap-ui-type="sap.m.Button" data-text="My Button"></div></div>`
+			</td>
+		</tr>
+		<tr>
+			<td>`data-sap-ui.default-aggregation`
+			</td>
+			<td>Sets or overrides the default aggregation of a control
+			</td>
+			<td>`<div data-sap-ui-type="sap.m.Panel" data-sap-ui-default-aggregation="headerToolbar"><div data-sap-ui-type="sap.m.Toolbar"></div></div>` 
+			</td>
+		</tr>
+		<tr>
+			<td>`id`
+			</td>
+			<td>Defines the ID property of a control
+			</td>
+			<td>`<div data-sap-ui-type="sap.m.Button" id="myButton"></div>` 
+			</td>
+		</tr>
+		<tr>
+			<td>`class`
+			</td>
+			<td>Adds a style class to the control
+			</td>
+			<td>`<div data-sap-ui-type="sap.m.Button" class="myButton"></div>` 
+			</td>
+		</tr>
+	</tbody>
+</table>
 

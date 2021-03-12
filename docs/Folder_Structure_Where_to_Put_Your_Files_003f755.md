@@ -92,9 +92,29 @@ For information about mock server functionality for OData V4, see [OData V4 Mock
 
 ### The `test` Folder in Detail
 
-| `test` folder for apps that are build for the SAP Fiori launchpad | `test` folder for standalone apps|
-|-------------------------------------------------------------------|----------------------------------|
-| ![](loio47df579be48843118dc65db4e261c33b_HiRes.png) | ![](loio9f45b87b36ba47de8d30f1a20f320b85_HiRes.png) |
+| `test` folder for apps that are build for the SAP Fiori launchpad 
+
+| `test` folder for standalone apps
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>---------------------------------------------------------------------</th>
+			<th>------------------------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> 
+
+![](loio9f45b87b36ba47de8d30f1a20f320b85_HiRes.png) 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 The `test` folder contains three sets of files: files related to unit tests, files related to integration tests, and html files for either launching the tests or for testing the application manually. Inside the `unit` folder, the structure of the `webapp` folder is replicated for the files that are being tested.
 

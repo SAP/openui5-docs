@@ -20,98 +20,128 @@ There are some general guidelines for writing succinct and meaningful rules to e
 
 The following table contains guidelines and examples on how to set the rule property values.
 
+|Field
+
+|Guidelines / Explanation
+
+|Example / Clarification
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Field</th>
-			<th>Guidelines / Explanation</th>
-			<th>Example / Clarification</th>
+			<th>:-----:</th>
+			<th>--------------------------</th>
+			<th>-------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>ID</td>
-			<td>
 
- -   CamelCase
+			<td>-   CamelCase
  -   Start with small caps
 			</td>
-			<td>*hardcodedTextValues*</td>
-			<td>Async</td>
-			<td>Defines if the rule check function will contain asynchronous operations. It can be true or false. The default value is false.</td>
-			<td>Make sure you use the resolve function in your rule check function as a 4th parameter.</td>
+			<td>*hardcodedTextValues*
+			</td>
 		</tr>
 		<tr>
-			<td>Audiences</td>
-			<td>
-
- -   Control - rule is relevant for control developers
+			<td>Async
+			</td>
+			<td>Defines if the rule check function will contain asynchronous operations. It can be true or false. The default value is false.
+			</td>
+			<td>Make sure you use the resolve function in your rule check function as a 4th parameter.
+			</td>
+		</tr>
+		<tr>
+			<td>Audiences
+			</td>
+			<td>-   Control - rule is relevant for control developers
  -   Internal - rule is relevant for an SAP internal developer
 
  -   Application - rule is relevant for app developers
 			</td>
-			<td>Choose one.</td>
-			<td>Categories</td>
-			<td> A list of categories checked that show which aspects of the application are affected by the rule. Examples:
+			<td>Choose one.
+			</td>
+		</tr>
+		<tr>
+			<td>Categories
+			</td>
+			<td>A list of categories checked that show which aspects of the application are affected by the rule. Examples:
  -   Performance
 
  -   Model Bindings
 
  -   Memory
 			</td>
-			<td>Choose one or more, or add your own.</td>
-			<td>Min version</td>
-			<td> The minimum OpenUI5 version required so that the rule can produce valid results. The Support Assistant considers applicable rules according to their `minversion` value.
- If you have rules in your custom library, keep in mind that the rule `minversion` will still be compared against the underlying OpenUI5 version. If you are not aware of the version, you can put in the `minversion` field "\*", "-" or whitespace \(" "\) to make sure these rules are executed.
+			<td>Choose one or more, or add your own.
 			</td>
-			<td>for example, 1.44 for OpenUI5 version comparison or "\*", "-", or whitespace \(" "\) to avoid version filtering.</td>
-			<td>Max version</td>
-			<td>The maximum OpenUI5 version required to run the rule.</td>
-			<td>\(currently not taken into account\)</td>
 		</tr>
 		<tr>
-			<td>Title</td>
-			<td>
-
- -   As short as possible, as descriptive as possible.
+			<td>Min version
+			</td>
+			<td>The minimum OpenUI5 version required so that the rule can produce valid results. The Support Assistant considers applicable rules according to their `minversion` value.
+If you have rules in your custom library, keep in mind that the rule `minversion` will still be compared against the underlying OpenUI5 version. If you are not aware of the version, you can put in the `minversion` field "\*", "-" or whitespace \(" "\) to make sure these rules are executed.
+			</td>
+			<td>for example, 1.44 for OpenUI5 version comparison or "\*", "-", or whitespace \(" "\) to avoid version filtering.
+			</td>
+		</tr>
+		<tr>
+			<td>Max version
+			</td>
+			<td>The maximum OpenUI5 version required to run the rule.
+			</td>
+			<td>\(currently not taken into account\)
+			</td>
+		</tr>
+		<tr>
+			<td>Title
+			</td>
+			<td>-   As short as possible, as descriptive as possible.
  -   \(Where applicable\) - **<Control Name \(no namespace\)\>:** Description of issue
 
  -   Sentence case.
 			</td>
-			<td>*Page: invalid background design property*</td>
-			<td>Description</td>
-			<td>
-
- -   Briefly explain what the rule does/checks.
+			<td>*Page: invalid background design property*
+			</td>
+		</tr>
+		<tr>
+			<td>Description
+			</td>
+			<td>-   Briefly explain what the rule does/checks.
  -   Ideally one sentence. No period.
 
  -   Avoid explaining how to fix the issue.
 			</td>
-			<td>*Dialogs with content should have ariaLabelledBy association set*</td>
-			<td>Resolution</td>
-			<td>
-
- -   Explain how to fix the issue.
+			<td>*Dialogs with content should have ariaLabelledBy association set*
+			</td>
+		</tr>
+		<tr>
+			<td>Resolution
+			</td>
+			<td>-   Explain how to fix the issue.
  -   Use imperative.
 
  -   Ideally one sentence. No period.
 
  -   Could be left out if it is trivial and already explained in the Description.
 			</td>
-			<td>*Set property upperCase to false or add icons to IconTabFilters*</td>
-			<td>Details</td>
-			<td>
-
- -   Contains technical details on a rule that was triggered for a specific element.
+			<td>*Set property upperCase to false or add icons to IconTabFilters*
+			</td>
+		</tr>
+		<tr>
+			<td>Details
+			</td>
+			<td>-   Contains technical details on a rule that was triggered for a specific element.
  -   References specific errors and should not be a resolution hint.
 			</td>
-			<td>*Element\{0\} has no icon but its parent Element\{1\} has property upperCase set to true.*</td>
-			<td>URLs</td>
-			<td>
-
- -   Ideally every rule should point to a topic or document in the DevGuide, API Reference, Samples, or SAP Fiori Design Guidelines.
+			<td>*Element\{0\} has no icon but its parent Element\{1\} has property upperCase set to true.*
+			</td>
+		</tr>
+		<tr>
+			<td>URLs
+			</td>
+			<td>-   Ideally every rule should point to a topic or document in the DevGuide, API Reference, Samples, or SAP Fiori Design Guidelines.
  -   Use the following text values when referring to specific parts of the documentation:
 
      -   Developer Guide - **Documentation: <Title of topic\>**
@@ -122,16 +152,17 @@ The following table contains guidelines and examples on how to set the rule prop
 
      -   External Link - no description text, just a URL
 			</td>
-			<td>
-
- -   *Documentation: Element Binding* -   *API Reference: ComboBox \#getSelectedItem*
+			<td>-   *Documentation: Element Binding* -   *API Reference: ComboBox \#getSelectedItem*
  -   *SAP Fiori Design Guidelines: RadioButton*
 			</td>
 		</tr>
 		<tr>
-			<td>Check function</td>
-			<td>Check function code</td>
-			<td> `function (issueManager, oCoreFacade, oScope) { ... }` </td>
+			<td>Check function
+			</td>
+			<td>Check function code
+			</td>
+			<td> `function (issueManager, oCoreFacade, oScope) { ... }` 
+			</td>
 		</tr>
 	</tbody>
 </table>

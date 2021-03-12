@@ -31,20 +31,28 @@ The following tables give an overview of what each demo app shows.
 
 ### Features, Layouts, and Specific Topics
 
+|Demo App
+
+|Feature
+
+|Layouts
+
+|Specific Topic
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Demo App</th>
-			<th>Feature</th>
-			<th>Layouts</th>
-			<th>Specific Topic</th>
+			<th>----------</th>
+			<th>---------</th>
+			<th>---------</th>
+			<th>----------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>*Shopping Cart*</td>
+
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 
@@ -72,7 +80,8 @@ Local storage
 			</td>
 		</tr>
 		<tr>
-			<td>*Browse Orders*</td>
+			<td>*Browse Orders*
+			</td>
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 
@@ -83,7 +92,7 @@ Local storage
 			<td>`sap.ui.layout.ResponsiveGridLayout`
 `sap.ui.layout.form.SimpleForm`
 
- `sap.f.FlexibleColumnLayout`
+`sap.f.FlexibleColumnLayout`
 			</td>
 			<td>Sorting
 Grouping
@@ -94,7 +103,8 @@ Formatting
 			</td>
 		</tr>
 		<tr>
-			<td>*Shop Administration Tool*</td>
+			<td>*Shop Administration Tool*
+			</td>
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 
@@ -109,24 +119,34 @@ Formatting
 
 `sap.uxap.ObjectPageLayout`
 			</td>
-			<td>Formatting</td>
-			<td>*Employee Directory*</td>
-			<td>[XML View](XML_View_91f2928.md)</td>
-			<td>`sap.ui.layout.form.SimpleForm`</td>
+			<td>Formatting
+			</td>
+		</tr>
+		<tr>
+			<td>*Employee Directory*
+			</td>
+			<td>[XML View](XML_View_91f2928.md)
+			</td>
+			<td>`sap.ui.layout.form.SimpleForm`
+			</td>
 			<td>[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md)
 			</td>
 		</tr>
 		<tr>
-			<td>*Hello World*</td>
-			<td>[JS View](JS_View_91f262e.md)</td>
+			<td>*Hello World*
+			</td>
+			<td>[JS View](JS_View_91f262e.md)
+			</td>
 		</tr>
 		<tr>
-			<td>*Bulletin Board*</td>
+			<td>*Bulletin Board*
+			</td>
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 			</td>
-			<td>`sap.ui.layout.form.SimpleForm`</td>
+			<td>`sap.ui.layout.form.SimpleForm`
+			</td>
 			<td>Sorting
 Formatting
 
@@ -136,7 +156,8 @@ Custom type
 			</td>
 		</tr>
 		<tr>
-			<td>*Manage Products*</td>
+			<td>*Manage Products*
+			</td>
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 			</td>
@@ -147,7 +168,8 @@ Formatting
 			</td>
 		</tr>
 		<tr>
-			<td>*Worklist Template*</td>
+			<td>*Worklist Template*
+			</td>
 			<td>[XML View](XML_View_91f2928.md)
 [Busy Indicators](Busy_Indicators_0dd2110.md)
 			</td>
@@ -160,7 +182,8 @@ Sorting
 			</td>
 		</tr>
 		<tr>
-			<td>*Master-Detail Template*</td>
+			<td>*Master-Detail Template*
+			</td>
 			<td>[XML Fragments](XML_Fragments_2c677b5.md)
 [XML View](XML_View_91f2928.md)
 
@@ -170,7 +193,8 @@ Sorting
 
 [Expression Binding](Expression_Binding_daf6852.md)
 			</td>
-			<td>`sap.f.FlexibleColumnLayout`</td>
+			<td>`sap.f.FlexibleColumnLayout`
+			</td>
 			<td>Formatting
 List selector
 
@@ -188,20 +212,28 @@ Sorting
 
 ### Controls
 
+|Demo App
+
+|`sap.m`
+
+|`sap.m.semantic`
+
+|Other Libraries
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Demo App</th>
-			<th>`sap.m`</th>
-			<th>`sap.m.semantic`</th>
-			<th>Other Libraries</th>
+			<th>----------</th>
+			<th>---------</th>
+			<th>------------------</th>
+			<th>-----------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>*Shopping Cart*</td>
+
 			<td>`Carousel`
 `ColumnListItem`
 
@@ -238,8 +270,13 @@ Sorting
 `Wizard`
 			</td>
 		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
 		<tr>
-			<td>*Browse Orders*</td>
+			<td>*Browse Orders*
+			</td>
 			<td>`IconTabBar`
 `List`
 
@@ -263,8 +300,11 @@ Sorting
 `SendEmailAction`
 			</td>
 		</tr>
+			</td>
+		</tr>
 		<tr>
-			<td>*Shop Administration Tool*</td>
+			<td>*Shop Administration Tool*
+			</td>
 			<td>`App`
 `ColumnListItem`
 
@@ -291,7 +331,8 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 			</td>
 		</tr>
 		<tr>
-			<td>*Employee Directory*</td>
+			<td>*Employee Directory*
+			</td>
 			<td>`App`
 `IconTabBar`
 
@@ -300,12 +341,17 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 `Toolbar`
 			</td>
 		</tr>
-		<tr>
-			<td>*Hello World*</td>
-			<td>`App`</td>
+			</td>
 		</tr>
 		<tr>
-			<td>*Bulletin Board*</td>
+			<td>*Hello World*
+			</td>
+			<td>`App`
+			</td>
+		</tr>
+		<tr>
+			<td>*Bulletin Board*
+			</td>
 			<td>`App`
 `ColumnListItem`
 
@@ -317,8 +363,11 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 `SendEmailAction`
 			</td>
 		</tr>
+			</td>
+		</tr>
 		<tr>
-			<td>*Manage Products*</td>
+			<td>*Manage Products*
+			</td>
 			<td>`App`
 `Toolbar`
 			</td>
@@ -327,7 +376,8 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 			</td>
 		</tr>
 		<tr>
-			<td>*Worklist Template*</td>
+			<td>*Worklist Template*
+			</td>
 			<td>`App`
 `ColumnListItem`
 
@@ -344,9 +394,10 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 			</td>
 		</tr>
 		<tr>
-			<td>*Master-Detail Template*</td>
+			<td>*Master-Detail Template*
+			</td>
 			<td>`ColumnListItem`
- `OverflowToolbar`
+`OverflowToolbar`
 
 `List`
 
@@ -364,14 +415,16 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 `ViewSettingsDialog`
 			</td>
-			<td> `titleHeading`
- `SemanticPage`
+			<td>`titleHeading`
+`SemanticPage`
 
 `FilterAction`
 
 `SendEmailAction`
 			</td>
-			<td>`sap.f.FlexibleColumnLayout` \(2 columns\)</td>
+			<td>`sap.f.FlexibleColumnLayout` \(2 columns\)
+			</td>
+		</tr>
 	</tbody>
 </table>
 

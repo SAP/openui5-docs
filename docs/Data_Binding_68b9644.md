@@ -69,15 +69,139 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
 
 The following table shows which binding modes are supported by the respective data models within OpenUI5:
 
-|Model|One-time|One-way|Two-way|
-|-----|--------|-------|-------|
-|OData V4 model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)|
-|OData V2 model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|ODataMetaModel V4| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|ODataMetaModel| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)| ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|JSON model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)|
-|XML model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)|
-|Resource model| ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)| ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
+|Model
+
+|One-time
+
+|One-way
+
+|Two-way
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-------</th>
+			<th>----------</th>
+			<th>---------</th>
+			<th>---------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+		</tr>
+		<tr>
+			<td>OData V2 model
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>ODataMetaModel V4
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>ODataMetaModel
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+			<td> 
+
+![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>JSON model
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+		</tr>
+		<tr>
+			<td>XML model
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+		</tr>
+		<tr>
+			<td>Resource model
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+			</td>
+			<td> 
+
+![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.BindingMode.html). 
 

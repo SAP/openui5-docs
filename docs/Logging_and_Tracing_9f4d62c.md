@@ -23,16 +23,84 @@ Specific log messages only appear in the console when the severity of the issue 
 
  <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>Severities and Log Levels
 
-|Severity|Log Level|Description|Example|
-|--------|---------|-----------|-------|
-| `NONE` |-1|No messages are written to the console| |
-| `FATAL` |0|Unrecoverable situations|A parse error occurred while processing a JavaScript file or an XML view|
-| `ERROR` |1 \(Default\)|Erroneous but recoverable situations|Loading a requested module failed|
-| `WARNING` |2|Unwanted but foreseen situations|Wrong property format was passed to a control|
-| `INFO` |3|Purely informative|A configuration parameter was set|
-| `DEBUG` |4 \(Debug Mode\)|Information necessary for debugging|A framework event was fired|
-| `TRACE` |5|Tracing the program flow|A certain position in the code was reached|
-| `ALL` |6|Messages of all severity categories are written to the console| |
+|Severity
+
+|Log Level
+
+|Description
+
+|Example
+
+|
+|----------|-----------|-------------|---------|
+| `NONE` 
+
+|-1
+
+|No messages are written to the console
+
+||
+| `FATAL` 
+
+|0
+
+|Unrecoverable situations
+
+|A parse error occurred while processing a JavaScript file or an XML view
+
+|
+| `ERROR` 
+
+|1 \(Default\)
+
+|Erroneous but recoverable situations
+
+|Loading a requested module failed
+
+|
+| `WARNING` 
+
+|2
+
+|Unwanted but foreseen situations
+
+|Wrong property format was passed to a control
+
+|
+| `INFO` 
+
+|3
+
+|Purely informative
+
+|A configuration parameter was set
+
+|
+| `DEBUG` 
+
+|4 \(Debug Mode\)
+
+|Information necessary for debugging
+
+|A framework event was fired
+
+|
+| `TRACE` 
+
+|5
+
+|Tracing the program flow
+
+|A certain position in the code was reached
+
+|
+| `ALL` 
+
+|6
+
+|Messages of all severity categories are written to the console
+
+||
 
 ***
 

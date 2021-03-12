@@ -38,10 +38,22 @@ When extended change detection is enabled, an algorithm is executed to compare t
 The difference between the state when the list was initially loaded and the current state is provided to the control as an array that contains `insert` and `remove` entries that contain the actual changes.
 
 > Example:  
-> | **Old State** | **New State** |
-> | `["one", "two", "three", "four", "five"]` | `["one", "three", "four", "five", "six"]` |
-> | **Difference** |
-> | `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` |
+> | **Old State** 
+> 
+> | **New State** 
+> 
+> |
+> | `["one", "two", "three", "four", "five"]` 
+> 
+> | `["one", "three", "four", "five", "six"]` 
+> 
+> |
+> | **Difference** 
+> 
+> |
+> | `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
+> 
+> |
 > 
 > The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 
@@ -62,24 +74,28 @@ If a control you want to use in your app to visualize list entries supports exte
 
 -   For all other models \(like a JSON model\), you have to define the keys either by using a key property or by using a function that calculates the key in the binding info of their list binding as in the following example:
 
+| `key` property
+
+| `key` function
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th> `key` property</th>
-			<th> `key` function</th>
+			<th>-----------------</th>
+			<th>-----------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td> ``` jsoControl.bindItems({
+oControl.bindItems({
   path: "/listData",
   key: "id"
 });
 ```
-			</td>
-			<td> ``` jsoControl.bindItems({
+
+			<td>``` jsoControl.bindItems({
   path: "/listData",
   key: function(oContext) {
     return oContext.getProperty("user") + oContext.getProperty("timestamp"); 

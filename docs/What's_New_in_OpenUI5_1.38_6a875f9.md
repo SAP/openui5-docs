@@ -97,9 +97,30 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.MenuButton`**: The control opens a hierarchical menu and enables quick triggering of the last action of the menu item selected. In `Regular` mode it always opens the menu, whereas in `Split` mode it can be also used directly as a button to trigger the currently displayed menu item’s action. In `Split` mode it can display either the default menu item or the last selected one.
 
-    |Regular Mode|Split Mode|
-    |------------|----------|
-    | ![](loio69b18052e57e48538fa02229ff7e43f7_HiRes.png) | ![](loio3fb088782e4e49bab3f05920066794c1_HiRes.png) |
+    |Regular Mode
+
+|Split Mode
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>    </th>
+			<th>--------------</th>
+			<th>------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> 
+
+![](loio3fb088782e4e49bab3f05920066794c1_HiRes.png) 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MenuButton) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MenuButton/preview).
 

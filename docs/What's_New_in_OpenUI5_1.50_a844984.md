@@ -35,7 +35,9 @@ The global search has been improved and the results are now displayed in categor
 -   *Demo Apps*, showcasing real-life scenarios that can easily be downloaded
 
 
-| SAPUI5 Highlights   |
+| SAPUI5 Highlights   
+
+|
 
 ***
 

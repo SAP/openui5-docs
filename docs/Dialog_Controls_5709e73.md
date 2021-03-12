@@ -78,61 +78,58 @@ In the following table you can see how the different dialog controls are read by
 
  <a name="loio5709e73d51f2401a9a5a89d8f5479132__table_mv5_wrs_xw"/>Screen Reader Behavior in Dialog Controls
 
+| OpenUI5 Control
+
+|What is read by default
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th> OpenUI5 Control</th>
-			<th>What is read by default</th>
+			<th>------------------</th>
+			<th>-------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Dialog / Select Dialog</td>
-			<td>
 
- -   Dialog title
+			<td>-   Dialog title
  -   Initially focused element
 			</td>
 		</tr>
 		<tr>
-			<td>Busy Dialog</td>
-			<td>
-
- -   Dialog header
+			<td>Busy Dialog
+			</td>
+			<td>-   Dialog header
  -   Dialog message
 
  -   Progress bar
 			</td>
 		</tr>
 		<tr>
-			<td>Message Box</td>
-			<td>
-
- -   Dialog title
+			<td>Message Box
+			</td>
+			<td>-   Dialog title
  -   Dialog message
 			</td>
 		</tr>
 		<tr>
-			<td>Message Toast</td>
-			<td>
-
- -   Message text when the toast appears
+			<td>Message Toast
+			</td>
+			<td>-   Message text when the toast appears
 			</td>
 		</tr>
 		<tr>
-			<td>Message Popover / Popover</td>
-			<td>
-
- -   No specific element needs to be read or focused.
+			<td>Message Popover / Popover
+			</td>
+			<td>-   No specific element needs to be read or focused.
 			</td>
 		</tr>
 		<tr>
-			<td>Message Strip</td>
-			<td>
-
- -   The complete content including text, icons and links
+			<td>Message Strip
+			</td>
+			<td>-   The complete content including text, icons and links
  -   Message type
 
  -   Associated headings \(if any\)

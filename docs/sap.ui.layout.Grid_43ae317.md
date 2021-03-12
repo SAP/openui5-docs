@@ -38,28 +38,40 @@ You can use the `sap.ui.layout.Grid` on its own or in combination with the `sap.
 
 `defaultSpan` and `defaultIndent` are the main two properties that enable you to define a specific layout for the grid. The number of grid columns is always 12 but the span and indentation of the items determine how many are displayed in one row.
 
+|Property
+
+|Example Values
+
+|Description
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Property</th>
-			<th>Example Values</th>
-			<th>Description</th>
+			<th>----------</th>
+			<th>----------------</th>
+			<th>-------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>`defaultSpan`</td>
-			<td> `"XL3 L4 M6 S12"`   `"XL6 M6"`  
+
+			<td>`"XL3 L4 M6 S12"`   `"XL6 M6"`  
  `"S2"`
 			</td>
-			<td>Determines the span of the items for the different screen/container sizes \(XL, L, M, and S\). Each item can be set to span over several grid columns \(from 1 to 12\).</td>
-			<td>`defaultIndent`</td>
-			<td> `"XL4 L3 M2 S1"`   `"XL2 L1"`  
+			<td>Determines the span of the items for the different screen/container sizes \(XL, L, M, and S\). Each item can be set to span over several grid columns \(from 1 to 12\).
+			</td>
+		</tr>
+		<tr>
+			<td>`defaultIndent`
+			</td>
+			<td>`"XL4 L3 M2 S1"`   `"XL2 L1"`  
  `"S6"`
 			</td>
-			<td>Defines the number of columns with which each item is indented for the different screen/container sizes \(XL, L, M, and S\). Each item can be indented with several grid columns \(from 0 to 11\).</td>
+			<td>Defines the number of columns with which each item is indented for the different screen/container sizes \(XL, L, M, and S\). Each item can be indented with several grid columns \(from 0 to 11\).
+			</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -77,7 +89,7 @@ In addition to individual span and indentation, there is a large number of prope
 
 #### Examples
 
-| ``` xml
+|``` xml
 <l:Grid
 		defaultSpan="**XL3 L4 M6 S12**">
 	<Image src="/item1.png" width="100%"></Image>
@@ -87,16 +99,24 @@ In addition to individual span and indentation, there is a large number of prope
 </l:Grid>
 ```
 
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+|XL container/screen size \(one item spans over 3 columns\)
 
-<table>
-	<thead>
-		<tr>
-			<th> </th>
-			<th>XL container/screen size \(one item spans over 3 columns\)![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)L container/screen size \(one item spans over 4 columns\)![](loio946464afb7da47d689a69896b96af818_LowRes.png)M container/screen size \(one item spans over 6 columns\)![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)S container/screen size \(one item spans over 12 columns\)![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)</th>
-		</tr>
-	</thead>
-	<tbody>
+![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)
+
+L container/screen size \(one item spans over 4 columns\)
+
+![](loio946464afb7da47d689a69896b96af818_LowRes.png)
+
+M container/screen size \(one item spans over 6 columns\)
+
+![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)
+
+S container/screen size \(one item spans over 12 columns\)
+
+![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)
+
+|
+|``` xml
 <l:Grid
 		defaultSpan="**XL3** L4 M6 S12"
 		defaultIndent="**XL1** L1 M1 S1">
@@ -107,10 +127,13 @@ In addition to individual span and indentation, there is a large number of prope
 </l:Grid>
 ```
 
-			<td>XL container/screen size \(items are indented with 1 column\)
+|XL container/screen size \(items are indented with 1 column\)
 
-![](loiod86735c6b14d4e6c89b0c6313680351a_LowRes.png)</td>
-			<td> ``` xml<l:Grid
+![](loiod86735c6b14d4e6c89b0c6313680351a_LowRes.png)
+
+|
+|``` xml
+<l:Grid
 		defaultSpan="XL3 L4 M6 S6">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%">
@@ -126,12 +149,12 @@ In addition to individual span and indentation, there is a large number of prope
 	</Image>
 </l:Grid>
 ```
-			</td>
-			<td>Individual span for item2 and item4 using `sap.ui.layout.GridData`
 
-![](loio147f0975ec374b01ab642678664fc206_LowRes.png)</td>
-	</tbody>
-</table>
+|Individual span for item2 and item4 using `sap.ui.layout.GridData`
+
+![](loio147f0975ec374b01ab642678664fc206_LowRes.png)
+
+|
 
 **Related Information**  
 

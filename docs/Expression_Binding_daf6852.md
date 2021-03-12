@@ -57,121 +57,142 @@ The syntax of the `*expression*` is similar to JavaScript syntax, but you can on
 
 To embed a path containing a closing curly brace into an expression binding, use a complex binding syntax: `${path:'...'}`, for example `"{:= ${path:'target>extensions/[${name} === \'semantics\']/value'} === 'email'}"`. You can use this also to avoid variable replacement by build tools like Maven for special names like “Description” or “Name”.
 
+|Syntax Element
+
+|Symbol
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Syntax Element</th>
-			<th>Symbol</th>
+			<th>----------------</th>
+			<th>--------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Literal</td>
-			<td> number, for example `42`, `6.022e+23` or `-273.15`
- object, for example `{foo: 'bar'}`
 
- string, for example `'foo'`
+			<td>number, for example `42`, `6.022e+23` or `-273.15`
+object, for example `{foo: 'bar'}`
 
- `null`
+string, for example `'foo'`
 
- `true`
+`null`
 
- `false`
+`true`
+
+`false`
 			</td>
 		</tr>
 		<tr>
-			<td>Grouping</td>
-			<td>\(...\), for example `3 * (4 + 10)` </td>
+			<td>Grouping
+			</td>
+			<td>\(...\), for example `3 * (4 + 10)` 
+			</td>
 		</tr>
 		<tr>
-			<td>Unary operator</td>
-			<td> `!`
- `+`
+			<td>Unary operator
+			</td>
+			<td>`!`
+`+`
 
- `-`
+`-`
 
- `typeof`
+`typeof`
 			</td>
 		</tr>
 		<tr>
-			<td>Multiplicative operator</td>
-			<td>  `*`
- `/`
+			<td>Multiplicative operator
+			</td>
+			<td> `*`
+`/`
 
- `%`
+`%`
 			</td>
 		</tr>
 		<tr>
-			<td>Additive operator</td>
-			<td> `+`
- `-`
+			<td>Additive operator
+			</td>
+			<td>`+`
+`-`
 			</td>
 		</tr>
 		<tr>
-			<td>Relational operator</td>
-			<td> `<`
- `>`
+			<td>Relational operator
+			</td>
+			<td>`<`
+`>`
 
- `<=`
+`<=`
 
- `>=`
+`>=`
 			</td>
 		</tr>
 		<tr>
-			<td>Strict equality operator</td>
-			<td> `===`
- `!==`
+			<td>Strict equality operator
+			</td>
+			<td>`===`
+`!==`
 			</td>
 		</tr>
 		<tr>
-			<td>Binary logical operator</td>
-			<td> `&&`
+			<td>Binary logical operator
 			</td>
-			<td> `</td>
+			<td>`&&`
+			</td>
+			<td>`</td>
 `
 			</td>
 		</tr>
 		<tr>
-			<td>Conditional operator</td>
-			<td> `?` </td>
+			<td>Conditional operator
+			</td>
+			<td> `?` 
+			</td>
 		</tr>
 		<tr>
-			<td>Member access operator with the `.` operator</td>
-			<td>
-
- > Note:
-   > With these, you can use members and member methods on standard types such as string, array, number, and so on.
+			<td>Member access operator with the `.` operator
+			</td>
+			<td>> Note:   > With these, you can use members and member methods on standard types such as string, array, number, and so on.
  > Example: `${message>/}.length >0` or `${/firstName}.indexOf('S')`.
 			</td>
 		</tr>
 		<tr>
-			<td>Function call</td>
-			<td> `<function name>(...)`
- Example:
+			<td>Function call
+			</td>
+			<td>`<function name>(...)`
+Example:
 
- `• text="{= **Math.max\($\{/value1\}, $\{/value2\}, $\{/value3\}\)** }"`
+`• text="{= **Math.max\($\{/value1\}, $\{/value2\}, $\{/value3\}\)** }"`
 
  > Note:  
  > You can use functions that are available via global symbols, such as `Math.max(...)` or `isNaN(...)`.
 			</td>
 		</tr>
 		<tr>
-			<td>Array literals</td>
-			<td> `[...]`, for example `[2,3,5,7,11]` </td>
+			<td>Array literals
+			</td>
+			<td> `[...]`, for example `[2,3,5,7,11]` 
+			</td>
 		</tr>
 		<tr>
-			<td>Property/array access</td>
-			<td> `o[...]`, for example `'foo/bar'.split('/')[1]` </td>
+			<td>Property/array access
+			</td>
+			<td> `o[...]`, for example `'foo/bar'.split('/')[1]` 
+			</td>
 		</tr>
 		<tr>
-			<td> `in` operator</td>
-			<td> `'PI' in Math` \(true\) or `0 in []` \(false\)</td>
+			<td> `in` operator
+			</td>
+			<td> `'PI' in Math` \(true\) or `0 in []` \(false\)
+			</td>
 		</tr>
 		<tr>
-			<td>Global symbol</td>
-			<td> `Array`, `Boolean`, `Date`, `encodeURIComponent`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `parseFloat`, `parseInt`, `RegExp`, `String`, `undefined` </td>
+			<td>Global symbol
+			</td>
+			<td> `Array`, `Boolean`, `Date`, `encodeURIComponent`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `parseFloat`, `parseInt`, `RegExp`, `String`, `undefined` 
+			</td>
 		</tr>
 	</tbody>
 </table>

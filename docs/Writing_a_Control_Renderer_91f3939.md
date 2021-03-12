@@ -65,11 +65,39 @@ The control class contains the control for rendering. A control consists of prop
 
 The render manager class collects pieces of HTML and injects the generated markup into the DOM. The `RenderManager` determines and loads the corresponding renderer and delegates the control rendering to the renderer. The `RenderManager` also provides, amongst others, the following helper functions for rendering:
 
-|Method|Description|
-|------|-----------|
-|`write()`|Writes string information to the HTML|
-|`writeControlData()` |Writes the ID and the recognition data of the control to the HTML|
-|`renderControl()` |Converts the specified control into HTML representation and adds it to the HTML; used for rendering child controls|
+|Method
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>--------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Writes string information to the HTML
+			</td>
+		</tr>
+		<tr>
+			<td>`writeControlData()` 
+			</td>
+			<td>Writes the ID and the recognition data of the control to the HTML
+			</td>
+		</tr>
+		<tr>
+			<td>`renderControl()` 
+			</td>
+			<td>Converts the specified control into HTML representation and adds it to the HTML; used for rendering child controls
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 For more information, see [sap.ui.core.RenderManager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager).
 

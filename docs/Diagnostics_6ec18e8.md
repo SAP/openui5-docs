@@ -194,7 +194,13 @@ Before you can use this feature, restart your app in Support Mode \(with the `sa
 
 ### XML Metadata
 
-|You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.|![](loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)XML metadata of a service with three main entity sets: `Product`, `ProductCategory`, and `FeaturedProduct`|
+|You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.
+
+|![](loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)
+
+XML metadata of a service with three main entity sets: `Product`, `ProductCategory`, and `FeaturedProduct`
+
+|
 
 ***
 
@@ -202,7 +208,9 @@ Before you can use this feature, restart your app in Support Mode \(with the `sa
 
 ### XML Code
 
-|When you expand an XML view in the tree, you can display the XML code.You can choose the following options for this view:
+|When you expand an XML view in the tree, you can display the XML code.
+
+You can choose the following options for this view:
 
 -   You can choose which kind of IDs you want to see:
 
@@ -215,32 +223,28 @@ If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if the
 -   You can show or hide the namespaces to improve readability of the code.
 
 
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+|![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)
 
-<table>
-	<thead>
-		<tr>
-			<th>![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)</th>
+|
+|When you select a control in the code, the following information is displayed:
 
- -   Name of the control with a link to the API Reference and its ID in the DOM tree
+-   Name of the control with a link to the API Reference and its ID in the DOM tree
 
- -   Instances that are **cloned** in the control with their IDs
+-   Instances that are **cloned** in the control with their IDs
 
- -   Attributes and properties of the control with their values
+-   Attributes and properties of the control with their values
 
 Similar to the *Control Tree* section of *Diagnostics*, you can change those values here for testing purposes.
 
- -   Methods that are available for the control.
+-   Methods that are available for the control.
 
 
- > Note:  
- > When you select, for example, an aggregation, you see the name of the control which has this aggregation or the name of the parent.
+> Note:  
+> When you select, for example, an aggregation, you see the name of the control which has this aggregation or the name of the parent.
 
-			<td>
+|![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)
 
-![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)</td>
-	</tbody>
-</table>
+|
 
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio2e698c47a18e4303af9c6e59b6dd69b5__loio2e698c47a18e4303af9c6e59b6dd69b5"/>
 

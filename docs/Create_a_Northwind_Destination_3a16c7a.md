@@ -25,23 +25,99 @@ In the navigation bar of the SAP BTP Cockpit, choose *Destinations* and then cho
 
 Enter the following values into the corresponding fields:
 
-|Field|Value|
-|-----|-----|
-| *Name* | `northwind` |
-| *Type* | `HTTP` |
-| *Description* | `Northwind OData Service` |
-| *URL* | `https://services.odata.org` |
-| *Proxy Type* | `Internet` |
-| *Authentication* | `NoAuthentication` |
+|Field
+
+|Value
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-------</th>
+			<th>-------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `northwind` 
+			</td>
+		</tr>
+		<tr>
+			<td> *Type* 
+			</td>
+			<td> `HTTP` 
+			</td>
+		</tr>
+		<tr>
+			<td> *Description* 
+			</td>
+			<td> `Northwind OData Service` 
+			</td>
+		</tr>
+		<tr>
+			<td> *URL* 
+			</td>
+			<td> `https://services.odata.org` 
+			</td>
+		</tr>
+		<tr>
+			<td> *Proxy Type* 
+			</td>
+			<td> `Internet` 
+			</td>
+		</tr>
+		<tr>
+			<td> *Authentication* 
+			</td>
+			<td> `NoAuthentication` 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 Also, enter the following properties in the section *Additional Properties*:
 
-|Property|Value|
-|--------|-----|
-| `WebIDEEnabled` | `true` |
-| `WebIDESystem` | `Northwind` |
-| `WebIDEUsage` | `odata_gen` |
-| `Use default JDK truststore` |Set the checkmark.|
+|Property
+
+|Value
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>-------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `true` 
+			</td>
+		</tr>
+		<tr>
+			<td> `WebIDESystem` 
+			</td>
+			<td> `Northwind` 
+			</td>
+		</tr>
+		<tr>
+			<td> `WebIDEUsage` 
+			</td>
+			<td> `odata_gen` 
+			</td>
+		</tr>
+		<tr>
+			<td> `Use default JDK truststore` 
+			</td>
+			<td>Set the checkmark.
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

@@ -36,12 +36,56 @@ You can also use the table personalization controller's `getTablePersoDialog` to
 
 The personalization settings retrieved with this method take the form of an object that currently has one single property, `aColumns`, the value of which is an array of column objects each having the following properties:
 
-|Property|Type|Description|
-|--------|----|-----------|
-|`id`|string|The ID of the column|
-|`order`|integer|The order of the column. Starts with `0`|
-|`text`|string|The text of the column header|
-|`visible`|boolean|Specifies whether the column is visible \(true\) or not \(false\)|
+|Property
+
+|Type
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>string
+			</td>
+			<td>The ID of the column
+			</td>
+		</tr>
+		<tr>
+			<td>`order`
+			</td>
+			<td>integer
+			</td>
+			<td>The order of the column. Starts with `0`
+			</td>
+		</tr>
+		<tr>
+			<td>`text`
+			</td>
+			<td>string
+			</td>
+			<td>The text of the column header
+			</td>
+		</tr>
+		<tr>
+			<td>`visible`
+			</td>
+			<td>boolean
+			</td>
+			<td>Specifies whether the column is visible \(true\) or not \(false\)
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

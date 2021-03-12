@@ -24,12 +24,56 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
 
 Depending on the current date, we distinguish four different formatting categories, as shown in the table below:<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>Formatting Categories
 
-|Category|Sample Input|Expected Output \(for `en-US`\)|
-|--------|------------|-------------------------------|
-|Today| `2013/02/13 12:05:20` | `12:05 PM` |
-|Yesterday| `2013/02/12 12:05:20` | `Yesterday` |
-|Last 7 days| `2013/02/08 12:05:20` | `Friday` |
-|Others| `2011/02/05 12:05:20` | `Dec 5, 2011` |
+|Category
+
+|Sample Input
+
+|Expected Output \(for `en-US`\)
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------</th>
+			<th>--------------</th>
+			<th>---------------------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `2013/02/13 12:05:20` 
+			</td>
+			<td> `12:05 PM` 
+			</td>
+		</tr>
+		<tr>
+			<td>Yesterday
+			</td>
+			<td> `2013/02/12 12:05:20` 
+			</td>
+			<td> `Yesterday` 
+			</td>
+		</tr>
+		<tr>
+			<td>Last 7 days
+			</td>
+			<td> `2013/02/08 12:05:20` 
+			</td>
+			<td> `Friday` 
+			</td>
+		</tr>
+		<tr>
+			<td>Others
+			</td>
+			<td> `2011/02/05 12:05:20` 
+			</td>
+			<td> `Dec 5, 2011` 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 As you can see, we have many different cases, and our formatter contains real logic.
 

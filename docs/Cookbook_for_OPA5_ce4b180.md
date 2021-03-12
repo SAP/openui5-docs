@@ -148,14 +148,87 @@ There are OPA5 rules that limit the ways you can use busy controls. Some OPA5 fe
 
  <a name="loioce4b180d97064ad088a901b53ed48b21__table_p4x_bhr_p2b"/>The following table is a cheatsheet with the values for each OPA5 rule and the outcome for busy control testing:
 
-| `OPA5.config` `autoWait` | `waitFor` actions| `waitFor` `autoWait` |verify busy control|
-|--------------------------|------------------|----------------------|-------------------|
-|✓|✓|any|X|
-|✓|X|true / not modified|X|
-|✓|X|false|✓|
-|X|✓|any|X|
-|X|X|false / not modified|✓|
-|X|X|true|X|
+| `OPA5.config` `autoWait` 
+
+| `waitFor` actions
+
+| `waitFor` `autoWait` 
+
+|verify busy control
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------------------------</th>
+			<th>--------------------</th>
+			<th>------------------------</th>
+			<th>---------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>✓
+			</td>
+			<td>any
+			</td>
+			<td>X
+			</td>
+		</tr>
+		<tr>
+			<td>✓
+			</td>
+			<td>X
+			</td>
+			<td>true / not modified
+			</td>
+			<td>X
+			</td>
+		</tr>
+		<tr>
+			<td>✓
+			</td>
+			<td>X
+			</td>
+			<td>false
+			</td>
+			<td>✓
+			</td>
+		</tr>
+		<tr>
+			<td>X
+			</td>
+			<td>✓
+			</td>
+			<td>any
+			</td>
+			<td>X
+			</td>
+		</tr>
+		<tr>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>false / not modified
+			</td>
+			<td>✓
+			</td>
+		</tr>
+		<tr>
+			<td>X
+			</td>
+			<td>X
+			</td>
+			<td>true
+			</td>
+			<td>X
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 A common scenario is asserting the busy state of a control. Testing whether a control is not busy is meaningless when `autoWait` is globally enabled. An example of testing for busyness with enabled `autoWait` can be found in the [OPA5 Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
 

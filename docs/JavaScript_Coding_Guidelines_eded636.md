@@ -74,36 +74,167 @@ We strongly recommend to use the Hungarian notation where name prefixes indicate
 
 When using the Hungarian notation, use the prefixes highlighted below and continue with an uppercase letter \(camelCase\):
 
-|Sample|Type|
-|------|----|
-|**s**Id|string|
-|**o**DomRef|object|
-|**$**DomRef|jQuery object|
-|**i**Count|int|
-|**m**Parameters|map / assoc. array|
-|**a**Entries|array|
-|**d**Today|date|
-|**f**Decimal|float|
-|**b**Enabled|boolean|
-|**r**Pattern|RegExp|
-|**fn**Function|function|
-|**v**Variant|variant types|
-|**p**Dialog|promise|
+|Sample
+
+|Type
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>--------</th>
+			<th>------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>string
+			</td>
+		</tr>
+		<tr>
+			<td>**o**DomRef
+			</td>
+			<td>object
+			</td>
+		</tr>
+		<tr>
+			<td>**$**DomRef
+			</td>
+			<td>jQuery object
+			</td>
+		</tr>
+		<tr>
+			<td>**i**Count
+			</td>
+			<td>int
+			</td>
+		</tr>
+		<tr>
+			<td>**m**Parameters
+			</td>
+			<td>map / assoc. array
+			</td>
+		</tr>
+		<tr>
+			<td>**a**Entries
+			</td>
+			<td>array
+			</td>
+		</tr>
+		<tr>
+			<td>**d**Today
+			</td>
+			<td>date
+			</td>
+		</tr>
+		<tr>
+			<td>**f**Decimal
+			</td>
+			<td>float
+			</td>
+		</tr>
+		<tr>
+			<td>**b**Enabled
+			</td>
+			<td>boolean
+			</td>
+		</tr>
+		<tr>
+			<td>**r**Pattern
+			</td>
+			<td>RegExp
+			</td>
+		</tr>
+		<tr>
+			<td>**fn**Function
+			</td>
+			<td>function
+			</td>
+		</tr>
+		<tr>
+			<td>**v**Variant
+			</td>
+			<td>variant types
+			</td>
+		</tr>
+		<tr>
+			<td>**p**Dialog
+			</td>
+			<td>promise
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 Use CamelCase for class names, starting with an uppercase letter. HTML element IDs starting with `sap-ui-` are reserved for OpenUI5. DOM attribute names starting with `data-sap-ui-` as well as URL parameter names starting with `sap-` and `sap-ui-` are reserved for OpenUI5.
 
 The following IDs are currently used:
 
-|ID|Description|
-|--|-----------|
-|`sap-ui-bootstrap`|ID of the bootstrap script tag|
-|`sap-ui-library-*`|Prefix for UI libraries script tags|
-|`sap-ui-theme-*`|Prefix for theme stylesheets link tags|
-|`sap-ui-highlightrect`|ID of the highlight rect for controls in TestSuite|
-|`sap-ui-blindlayer-*`|ID for `BlockLayer`|
-|`sap-ui-static`|ID of the static popup area of UI5|
-|`sap-ui-TraceWindowRoot`|ID of the `TraceWindowRoot`|
-|`sap-ui-xmldata`|ID of the `XML Data Island`|
+|ID
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>ID of the bootstrap script tag
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-library-*`
+			</td>
+			<td>Prefix for UI libraries script tags
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-theme-*`
+			</td>
+			<td>Prefix for theme stylesheets link tags
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-highlightrect`
+			</td>
+			<td>ID of the highlight rect for controls in TestSuite
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-blindlayer-*`
+			</td>
+			<td>ID for `BlockLayer`
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-static`
+			</td>
+			<td>ID of the static popup area of UI5
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-TraceWindowRoot`
+			</td>
+			<td>ID of the `TraceWindowRoot`
+			</td>
+		</tr>
+		<tr>
+			<td>`sap-ui-xmldata`
+			</td>
+			<td>ID of the `XML Data Island`
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

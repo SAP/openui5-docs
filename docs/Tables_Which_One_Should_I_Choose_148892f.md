@@ -14,25 +14,362 @@ The libraries provided by OpenUI5 contain various different table controls that 
 
 <a name="loio148892ff9aea4a18b912829791e38f3e__table_uzb_zmy_vs"/>Overview of Tables and Supported Features
 
-| |Responsive Table [\(sap.m.Table\)](https://openui5.hana.ondemand.com/#/api/sap.m.Table) |Grid Table [\(sap.ui.table.Table\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table) |Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.AnalyticalTable) |Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) |
-|--|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-|Desktop| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Tablet| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Phone| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Responsive \(hide column, popin support\)| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Compact density| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Condensed density| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Cozy density| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Summarized cell| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Hierarchical data| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Large number of rows \(\> 200\)<sup>2</sup> | ![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Grouping| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Freeze columns| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Horizontal scrolling| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
-|Merge duplicates| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Supported controls|Supports all kinds of controls inside a line item|Supports a limited set of controls<sup>1</sup> |Supports a limited set of controls<sup>1</sup> |Supports a limited set of controls<sup>1</sup> |
-|Row-based| ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) |
-|Column-based| ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) | ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) |
+| 
+
+|Responsive Table [\(sap.m.Table\)](https://openui5.hana.ondemand.com/#/api/sap.m.Table) 
+
+|Grid Table [\(sap.ui.table.Table\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table) 
+
+|Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.AnalyticalTable) 
+
+|Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) 
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>---</th>
+			<th>-----------------------------------------------------------------------------------------</th>
+			<th>-------------------------------------------------------------------------------------------------</th>
+			<th>---------------------------------------------------------------------------------------------------------------------------</th>
+			<th>---------------------------------------------------------------------------------------------------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Tablet
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Phone
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Responsive \(hide column, popin support\)
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Compact density
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Condensed density
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Cozy density
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Summarized cell
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Hierarchical data
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Large number of rows \(\> 200\)<sup>2</sup> 
+			</td>
+			<td> 
+
+![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Grouping
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Freeze columns
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Horizontal scrolling
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Merge duplicates
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Supported controls
+			</td>
+			<td>Supports all kinds of controls inside a line item
+			</td>
+			<td>Supports a limited set of controls<sup>1</sup> 
+			</td>
+			<td>Supports a limited set of controls<sup>1</sup> 
+			</td>
+			<td>Supports a limited set of controls<sup>1</sup> 
+			</td>
+		</tr>
+		<tr>
+			<td>Row-based
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+		</tr>
+		<tr>
+			<td>Column-based
+			</td>
+			<td> 
+
+![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+			<td> 
+
+![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 **Legend**:
 

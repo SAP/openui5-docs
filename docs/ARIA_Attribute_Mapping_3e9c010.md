@@ -18,14 +18,57 @@ Navigation with the keyboard and screen reader have to both work properly at the
 
 The mapping of HTML attributes to ARIA attributes is described in the following table:<a name="loio3e9c0104db864fbabc9fc786cbdf76a4__table_i55_wg4_ds"/>Attribute Mapping
 
-|HTML Attribute|ARIA Attribute|
-|--------------|--------------|
-| `editable` | `aria-readonly` |
-| `enabled` | `aria-disabled` |
-| `visible` | `aria-hidden` |
-| `required` | `aria-required` |
-| `checked` | `aria-checked` |
-| `selected` | `aria-selected` |
+|HTML Attribute
+
+|ARIA Attribute
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>----------------</th>
+			<th>----------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `aria-readonly` 
+			</td>
+		</tr>
+		<tr>
+			<td> `enabled` 
+			</td>
+			<td> `aria-disabled` 
+			</td>
+		</tr>
+		<tr>
+			<td> `visible` 
+			</td>
+			<td> `aria-hidden` 
+			</td>
+		</tr>
+		<tr>
+			<td> `required` 
+			</td>
+			<td> `aria-required` 
+			</td>
+		</tr>
+		<tr>
+			<td> `checked` 
+			</td>
+			<td> `aria-checked` 
+			</td>
+		</tr>
+		<tr>
+			<td> `selected` 
+			</td>
+			<td> `aria-selected` 
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 For custom controls, not part of the ARIA 1.0 role definitions, mapping to similar and existing ARIA base role concepts is applied. In special cases, custom role names can be added by the OpenUI5 framework using `aria-describedby` or `aria-labelledby` references.
 

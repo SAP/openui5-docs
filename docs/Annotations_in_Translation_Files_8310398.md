@@ -40,63 +40,445 @@ The following text type classifications exist:
 
  <a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>X Text Types
 
-|Text type|Related S2X type|Description|
-|---------|----------------|-----------|
-|`XACT`|accessibility|Accessibility|
-|`XALT`|alternativetext|Alternative text|
-|`XBCB`|breadcrumbstep|Breadcrumb step|
-|`XBLI`|listitem|Bullet list item text|
-|`XBUT`|button|Button text|
-|`XCAP`|caption|Caption|
-|`XCEL`|cell|Cell|
-|`XCKL`|checkbox|Checkbox|
-|`XCOL`|tableColumnHeading|Column header|
-|`XCRD`|tabStrip|Tabstrip|
-|`XDAT`|datanavigationtext|Data navigation text|
-|`XFLD`|label|Label|
-|`XFRM`|frame|Frame|
-|`XGLS`|term|Term|
-|`XGRP`|grouptitle|Group title|
-|`XHED`|heading|Heading|
-|`XLGD`|legendtext|Legend text|
-|`XLNK`|hyperlink|Hyperlink text|
-|`XLOG`|logentry|Log entry|
-|`XLST`|listbox|List box item|
-|`XMEN`|menu|Menu header|
-|`XMIT`|menuitem|Menu item|
-|`XMSG`|messagetext|Message text|
-|`XRBL`|radio|Radio button|
-|`XRMP`|roadMapStep|Roadmap step|
-|`XROW`|tableRowHeading|Table row heading|
-|`XSEL`|selectiontext|Selection text|
-|`XTBS`|tab|Tab strip text|
-|`XTIT`|tableTitle|Table title|
-|`XTND`|treeNode|Tree node text|
-|`XTOL`|quickInfo|Quick info text|
-|`XTXT`|generaltext|General text|
+|Text type
+
+|Related S2X type
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----------</th>
+			<th>------------------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>accessibility
+			</td>
+			<td>Accessibility
+			</td>
+		</tr>
+		<tr>
+			<td>`XALT`
+			</td>
+			<td>alternativetext
+			</td>
+			<td>Alternative text
+			</td>
+		</tr>
+		<tr>
+			<td>`XBCB`
+			</td>
+			<td>breadcrumbstep
+			</td>
+			<td>Breadcrumb step
+			</td>
+		</tr>
+		<tr>
+			<td>`XBLI`
+			</td>
+			<td>listitem
+			</td>
+			<td>Bullet list item text
+			</td>
+		</tr>
+		<tr>
+			<td>`XBUT`
+			</td>
+			<td>button
+			</td>
+			<td>Button text
+			</td>
+		</tr>
+		<tr>
+			<td>`XCAP`
+			</td>
+			<td>caption
+			</td>
+			<td>Caption
+			</td>
+		</tr>
+		<tr>
+			<td>`XCEL`
+			</td>
+			<td>cell
+			</td>
+			<td>Cell
+			</td>
+		</tr>
+		<tr>
+			<td>`XCKL`
+			</td>
+			<td>checkbox
+			</td>
+			<td>Checkbox
+			</td>
+		</tr>
+		<tr>
+			<td>`XCOL`
+			</td>
+			<td>tableColumnHeading
+			</td>
+			<td>Column header
+			</td>
+		</tr>
+		<tr>
+			<td>`XCRD`
+			</td>
+			<td>tabStrip
+			</td>
+			<td>Tabstrip
+			</td>
+		</tr>
+		<tr>
+			<td>`XDAT`
+			</td>
+			<td>datanavigationtext
+			</td>
+			<td>Data navigation text
+			</td>
+		</tr>
+		<tr>
+			<td>`XFLD`
+			</td>
+			<td>label
+			</td>
+			<td>Label
+			</td>
+		</tr>
+		<tr>
+			<td>`XFRM`
+			</td>
+			<td>frame
+			</td>
+			<td>Frame
+			</td>
+		</tr>
+		<tr>
+			<td>`XGLS`
+			</td>
+			<td>term
+			</td>
+			<td>Term
+			</td>
+		</tr>
+		<tr>
+			<td>`XGRP`
+			</td>
+			<td>grouptitle
+			</td>
+			<td>Group title
+			</td>
+		</tr>
+		<tr>
+			<td>`XHED`
+			</td>
+			<td>heading
+			</td>
+			<td>Heading
+			</td>
+		</tr>
+		<tr>
+			<td>`XLGD`
+			</td>
+			<td>legendtext
+			</td>
+			<td>Legend text
+			</td>
+		</tr>
+		<tr>
+			<td>`XLNK`
+			</td>
+			<td>hyperlink
+			</td>
+			<td>Hyperlink text
+			</td>
+		</tr>
+		<tr>
+			<td>`XLOG`
+			</td>
+			<td>logentry
+			</td>
+			<td>Log entry
+			</td>
+		</tr>
+		<tr>
+			<td>`XLST`
+			</td>
+			<td>listbox
+			</td>
+			<td>List box item
+			</td>
+		</tr>
+		<tr>
+			<td>`XMEN`
+			</td>
+			<td>menu
+			</td>
+			<td>Menu header
+			</td>
+		</tr>
+		<tr>
+			<td>`XMIT`
+			</td>
+			<td>menuitem
+			</td>
+			<td>Menu item
+			</td>
+		</tr>
+		<tr>
+			<td>`XMSG`
+			</td>
+			<td>messagetext
+			</td>
+			<td>Message text
+			</td>
+		</tr>
+		<tr>
+			<td>`XRBL`
+			</td>
+			<td>radio
+			</td>
+			<td>Radio button
+			</td>
+		</tr>
+		<tr>
+			<td>`XRMP`
+			</td>
+			<td>roadMapStep
+			</td>
+			<td>Roadmap step
+			</td>
+		</tr>
+		<tr>
+			<td>`XROW`
+			</td>
+			<td>tableRowHeading
+			</td>
+			<td>Table row heading
+			</td>
+		</tr>
+		<tr>
+			<td>`XSEL`
+			</td>
+			<td>selectiontext
+			</td>
+			<td>Selection text
+			</td>
+		</tr>
+		<tr>
+			<td>`XTBS`
+			</td>
+			<td>tab
+			</td>
+			<td>Tab strip text
+			</td>
+		</tr>
+		<tr>
+			<td>`XTIT`
+			</td>
+			<td>tableTitle
+			</td>
+			<td>Table title
+			</td>
+		</tr>
+		<tr>
+			<td>`XTND`
+			</td>
+			<td>treeNode
+			</td>
+			<td>Tree node text
+			</td>
+		</tr>
+		<tr>
+			<td>`XTOL`
+			</td>
+			<td>quickInfo
+			</td>
+			<td>Quick info text
+			</td>
+		</tr>
+		<tr>
+			<td>`XTXT`
+			</td>
+			<td>generaltext
+			</td>
+			<td>General text
+			</td>
+		</tr>
+	</tbody>
+</table>
 
  <a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>Y Text Types
 
-|Text type|Related S2X type|Description|
-|---------|----------------|-----------|
-|`YACT`|accessibilitylong|Accessibility \(long\)|
-|`YBLI`|list|Bullet list item text|
-|`YDEF`|definition|Definition|
-|`YDES`|description|Description|
-|`YEXP`|explanation|Explanation|
-|`YFAA`|faqa|FAQ answer|
-|`YFAQ`|faq|FAQ|
-|`YGLS`|glossarydefinition|Glossary definition|
-|`YINF`|informationtextlong|Information|
-|`YINS`|instruction|Instruction|
-|`YLOG`|logEntrylong|Log entry|
-|`YMSE`|errorMessage|Error message|
-|`YMSG`|messagetextlong|Message text \(long\)|
-|`YMSI`|informationMessage|Information message long|
-|`YMSW`|warningMessage|Warning message|
-|`YTEC`|technicaltextlong|Technical text|
-|`YTIC`|ticker|Ticker / Marquee|
-|`YTXT`|generaltextlong|General text long|
+|Text type
+
+|Related S2X type
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----------</th>
+			<th>------------------</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>accessibilitylong
+			</td>
+			<td>Accessibility \(long\)
+			</td>
+		</tr>
+		<tr>
+			<td>`YBLI`
+			</td>
+			<td>list
+			</td>
+			<td>Bullet list item text
+			</td>
+		</tr>
+		<tr>
+			<td>`YDEF`
+			</td>
+			<td>definition
+			</td>
+			<td>Definition
+			</td>
+		</tr>
+		<tr>
+			<td>`YDES`
+			</td>
+			<td>description
+			</td>
+			<td>Description
+			</td>
+		</tr>
+		<tr>
+			<td>`YEXP`
+			</td>
+			<td>explanation
+			</td>
+			<td>Explanation
+			</td>
+		</tr>
+		<tr>
+			<td>`YFAA`
+			</td>
+			<td>faqa
+			</td>
+			<td>FAQ answer
+			</td>
+		</tr>
+		<tr>
+			<td>`YFAQ`
+			</td>
+			<td>faq
+			</td>
+			<td>FAQ
+			</td>
+		</tr>
+		<tr>
+			<td>`YGLS`
+			</td>
+			<td>glossarydefinition
+			</td>
+			<td>Glossary definition
+			</td>
+		</tr>
+		<tr>
+			<td>`YINF`
+			</td>
+			<td>informationtextlong
+			</td>
+			<td>Information
+			</td>
+		</tr>
+		<tr>
+			<td>`YINS`
+			</td>
+			<td>instruction
+			</td>
+			<td>Instruction
+			</td>
+		</tr>
+		<tr>
+			<td>`YLOG`
+			</td>
+			<td>logEntrylong
+			</td>
+			<td>Log entry
+			</td>
+		</tr>
+		<tr>
+			<td>`YMSE`
+			</td>
+			<td>errorMessage
+			</td>
+			<td>Error message
+			</td>
+		</tr>
+		<tr>
+			<td>`YMSG`
+			</td>
+			<td>messagetextlong
+			</td>
+			<td>Message text \(long\)
+			</td>
+		</tr>
+		<tr>
+			<td>`YMSI`
+			</td>
+			<td>informationMessage
+			</td>
+			<td>Information message long
+			</td>
+		</tr>
+		<tr>
+			<td>`YMSW`
+			</td>
+			<td>warningMessage
+			</td>
+			<td>Warning message
+			</td>
+		</tr>
+		<tr>
+			<td>`YTEC`
+			</td>
+			<td>technicaltextlong
+			</td>
+			<td>Technical text
+			</td>
+		</tr>
+		<tr>
+			<td>`YTIC`
+			</td>
+			<td>ticker
+			</td>
+			<td>Ticker / Marquee
+			</td>
+		</tr>
+		<tr>
+			<td>`YTXT`
+			</td>
+			<td>generaltextlong
+			</td>
+			<td>General text long
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
 

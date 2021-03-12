@@ -202,18 +202,22 @@ If you have been reusing components before we introduced the reuse feature descr
 
 If you use a component that is embedded in a library, and the application declares a dependency to that library, remove the dependency to the library from the embedding application. Make sure that the application code does not contain any direct references to the component or the embedding application.
 
+|Old Code
+
+|Recommended Code
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Old Code</th>
-			<th>Recommended Code</th>
+			<th>----------</th>
+			<th>------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td> `manifest.json` with dependency declaration only:
+
 ``` json
 {
   "sap.ui5": {
@@ -251,7 +255,7 @@ If you use a component that is embedded in a library, and the application declar
 			</td>
 		</tr>
 		<tr>
-			<td> `Component.js` with nested reuse component:
+			<td>`Component.js` with nested reuse component:
 ``` js
 createContent: function() {
    

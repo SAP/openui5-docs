@@ -18,9 +18,53 @@ Similar to other controls, you have the following options to use binding for the
 
  <a name="loioc6e0122ca9874844a214018bec02e74a__table_csk_5pg_c1b"/>Property Binding
 
-|Binding|Sample|Use|Comments|
-|-------|------|---|--------|
-|Simple property binding| `text="{$this>/text}"` |Maps a property of the inner control interface to a property of your XML composite control interface.| |
-|Expression binding| `text="{=${$this>/text} + 'additionalText'}"` |Adds 'additionalText' to the value of the property of the inner control.|One-way binding only|
-|Composite binding| `text="{$this>/text} - {$this>/text1}"` |Concatenation of the two properties `text` and `text1` |One-way binding only|
+|Binding
+
+|Sample
+
+|Use
+
+|Comments
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>---------</th>
+			<th>--------</th>
+			<th>-----</th>
+			<th>----------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td> `text="{$this>/text}"` 
+			</td>
+			<td>Maps a property of the inner control interface to a property of your XML composite control interface.
+			</td>
+		</tr>
+		<tr>
+			<td>Expression binding
+			</td>
+			<td> `text="{=${$this>/text} + 'additionalText'}"` 
+			</td>
+			<td>Adds 'additionalText' to the value of the property of the inner control.
+			</td>
+			<td>One-way binding only
+			</td>
+		</tr>
+		<tr>
+			<td>Composite binding
+			</td>
+			<td> `text="{$this>/text} - {$this>/text1}"` 
+			</td>
+			<td>Concatenation of the two properties `text` and `text1` 
+			</td>
+			<td>One-way binding only
+			</td>
+		</tr>
+	</tbody>
+</table>
 

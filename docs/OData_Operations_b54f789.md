@@ -52,7 +52,7 @@ onGetNextAvailableItem : function (oEvent) {
 }
 ```
 
-In the above example, the function import is bound to a form \(which has an ID that we need later\). The text field showing a property of the result is a child of this form. It has a relative binding to the property `"Description"`.
+In the above example, the form \(which has an ID that we need later\) is bound to the context of the operation binding. The text field showing a property of the result is a child of this form. It has a relative binding to the property `"Description"`.
 
 If the function returns a primitive value or a collection, the binding for the result must be `"{value}"` as shown in the two examples below:
 
@@ -193,11 +193,11 @@ The example below demonstrates how a budget may be modified depending on the `Te
 
 ### Bound Actions and Functions
 
-So far, the examples always used operations at root level, addressed via an action import or function import. However, it is also possible to bind an action or a function to another resource of the service. This can be an entity, a collection of entities or an entity property.
+So far, the examples always used operations at root level, addressed via an action import or function import. However, it is also possible to bind an action or a function to another resource of the service. This can be an entity or a collection of entities.
 
 Bound actions or functions are controlled in the same way as unbound operations; append `(...)` to the binding path for the control's property.
 
-To call actions or functions bound to a single entity, entity property, or navigation property use a relative binding. The following sample calls the "invoice created" action on the sales order selected in the corresponding table:
+To call actions or functions bound to a single entity or navigation property, use a relative binding. The following sample calls the "invoice created" action on the sales order selected in the corresponding table:
 
 ``` js
 var oModel = this.getView().getModel(),
@@ -243,6 +243,10 @@ oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).execute();
 >     Example: The operation binding has a relative path `BP_2_PRODUCT/name.space.Change(...)`. You set its binding context from the selected item in a table bound to `/BusinessPartners`. When you call `execute` on the operation binding, the "change" action is executed with the selected business partner's navigation property `BP_2_PRODUCT` as binding parameter.
 > 
 > -   The parent binding of a deferred operation must not be a deferred operation itself.
+
+***
+
+#### Addressing properties of an entity via an operation's binding parameter
 
 For operations bound to an entity, it is possible to address properties of the entity through the operation's binding parameter.
 

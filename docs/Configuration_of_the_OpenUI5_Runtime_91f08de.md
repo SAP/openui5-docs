@@ -160,12 +160,46 @@ For each configuration option, you can have one attribute in the bootstrap scrip
 
     For configuration options that are **not** of type `string`, the format of the allowed values has to be defined as follows:
 
-    |Type|Notation/Values|
-    |----|---------------|
-    |`boolean`|`true` and `x` are both accepted as true values \(case-insensitive\), all others are false. We recommend to use `false` for false values|
-    |`int`|Any integer value|
-    |`string array`|Comma-separated list of values; commas within a string are not supported \(no escaping\)|
-    |map from string to string|JavaScript object literal \(preferably JSON syntax\)|
+    |Type
+
+|Notation/Values
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>    </th>
+			<th>------</th>
+			<th>-----------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>`true` and `x` are both accepted as true values \(case-insensitive\), all others are false. We recommend to use `false` for false values
+			</td>
+		</tr>
+		<tr>
+			<td>`int`
+			</td>
+			<td>Any integer value
+			</td>
+		</tr>
+		<tr>
+			<td>`string array`
+			</td>
+			<td>Comma-separated list of values; commas within a string are not supported \(no escaping\)
+			</td>
+		</tr>
+		<tr>
+			<td>map from string to string
+			</td>
+			<td>JavaScript object literal \(preferably JSON syntax\)
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 
 ***

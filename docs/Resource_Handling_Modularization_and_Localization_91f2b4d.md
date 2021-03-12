@@ -117,17 +117,75 @@ Before you use it, make sure that the `ResourceServlet` is available in the clas
 
 The resource handler is configured via context parameters, which are defined in the `web.xml`. The following table gives an overview about configuration parameters:
 
-|Key|Description|
-|---|-----------|
-|`com.sap.ui5.resource.USE_CACHE`|Flag for resource cache enabling; default: `true`|
-|`com.sap.ui5.resource.MAX_AGE`|Specifies the maximum age of resources in milliseconds; default: `604800000` = 1 week|
-|`com.sap.ui5.resource.ACCEPTED_ORIGINS`|List of accepted origins, for example `*`, `*mycompany.corp`, or `server.mycompany.corp`; default: empty|
-|`com.sap.ui5.resource.DEV_MODE`|Flag development mode enabling; default: `false`|
-|`com.sap.ui5.resource.TEMPLATE_PATH`|Specifies path to template for resource listing; default: `/templates/listing.html`|
-|`com.sap.ui5.resource.VERBOSE`|Specifies verbosity of the resource handler; default: `false`|
-|`com.sap.ui5.resource.REMOTE_LOCATION`|Specifies the location that is used to proxy requests to resources that aren’t available locally; default: empty|
-|`com.sap.ui5.resource.PREFER_REMOTE_LOCATION`|Flag to resolve the resource from the remote location before fallback to classpath; default: `false`|
-|`com.sap.ui5.resource.USE_SERVER_CACHE`|Flag to enable caching of any resources in resource servlet; default: `true` \(default in dev mode: `false`|
+|Key
+
+|Description
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-----</th>
+			<th>-------------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Flag for resource cache enabling; default: `true`
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.MAX_AGE`
+			</td>
+			<td>Specifies the maximum age of resources in milliseconds; default: `604800000` = 1 week
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.ACCEPTED_ORIGINS`
+			</td>
+			<td>List of accepted origins, for example `*`, `*mycompany.corp`, or `server.mycompany.corp`; default: empty
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.DEV_MODE`
+			</td>
+			<td>Flag development mode enabling; default: `false`
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.TEMPLATE_PATH`
+			</td>
+			<td>Specifies path to template for resource listing; default: `/templates/listing.html`
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.VERBOSE`
+			</td>
+			<td>Specifies verbosity of the resource handler; default: `false`
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.REMOTE_LOCATION`
+			</td>
+			<td>Specifies the location that is used to proxy requests to resources that aren’t available locally; default: empty
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.PREFER_REMOTE_LOCATION`
+			</td>
+			<td>Flag to resolve the resource from the remote location before fallback to classpath; default: `false`
+			</td>
+		</tr>
+		<tr>
+			<td>`com.sap.ui5.resource.USE_SERVER_CACHE`
+			</td>
+			<td>Flag to enable caching of any resources in resource servlet; default: `true` \(default in dev mode: `false`
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 Configuration parameters are added as context parameters to the web.xml.
 

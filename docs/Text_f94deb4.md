@@ -30,40 +30,55 @@ The Text control supports the rendering of new lines and the preservation of whi
 
  <a name="loiof94deb45de184a3a87850b75d610d9c0__table_mdn_gnp_tdb"/>sap.m.Text: New lines and tabs definition in the different use cases
 
+|To visualize
+
+|JavaScript/Data binding defined string
+
+|XML View defined string
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>To visualize</th>
-			<th>JavaScript/Data binding defined string</th>
-			<th>XML View defined string</th>
+			<th>--------------</th>
+			<th>----------------------------------------</th>
+			<th>-------------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td> **New line** </td>
-			<td> **\\n** </td>
-			<td> **&\#xA;** </td>
-		</tr>
-		<tr>
-			<td> **\\n**
- For example, if you want to visualize `C:\NewFolder`
+
+			<td> **\\n** 
 			</td>
-			<td> **\\\\n** </td>
-			<td> **\\n** </td>
-		</tr>
-		<tr>
-			<td> **Tab** </td>
-			<td> **\\t** </td>
-			<td> **&\#x9;** </td>
-		</tr>
-		<tr>
-			<td> **\\t**
- For example, if you want to visualize `C:\TestFolder`
+			<td> **&\#xA;** 
 			</td>
-			<td> **\\\\t** </td>
-			<td> **\\t** </td>
+		</tr>
+		<tr>
+			<td>**\\n**
+For example, if you want to visualize `C:\NewFolder`
+			</td>
+			<td> **\\\\n** 
+			</td>
+			<td> **\\n** 
+			</td>
+		</tr>
+		<tr>
+			<td> **Tab** 
+			</td>
+			<td> **\\t** 
+			</td>
+			<td> **&\#x9;** 
+			</td>
+		</tr>
+		<tr>
+			<td>**\\t**
+For example, if you want to visualize `C:\TestFolder`
+			</td>
+			<td> **\\\\t** 
+			</td>
+			<td> **\\t** 
+			</td>
 		</tr>
 	</tbody>
 </table>

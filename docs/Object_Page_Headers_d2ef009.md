@@ -44,26 +44,36 @@ The following image shows the collapsed \(snapped\) header is where the Header C
 
 Up to version 1.52, only `sap.uxap.ObjectPageHeader` could have been used to build up the `sap.uxap.ObjectPageLayout` header.
 
+|Header area
+
+| `sap.uxap.ObjectPageLayout` aggregation
+
+|App must provide:
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Header area</th>
-			<th> `sap.uxap.ObjectPageLayout` aggregation</th>
-			<th>App must provide:</th>
+			<th>-------------</th>
+			<th>------------------------------------------</th>
+			<th>-------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Header Title</td>
-			<td> `headerTitle` \(0..1\)</td>
-			<td>An instance of the `sap.uxap.ObjectPageHeader` control</td>
+
+			<td> `headerTitle` \(0..1\)
+			</td>
+			<td>An instance of the `sap.uxap.ObjectPageHeader` control
+			</td>
 		</tr>
 		<tr>
-			<td>Header Content</td>
-			<td> `headerContent` \(0..n\)</td>
-			<td> An array of arbitrary controls.
+			<td>Header Content
+			</td>
+			<td> `headerContent` \(0..n\)
+			</td>
+			<td>An array of arbitrary controls.
  > Note:  
  > `sap.uxap.ObjectPageHeaderContent` control is used internally to display the controls.
 			</td>
@@ -81,26 +91,36 @@ The app provides an instance of `sap.uxap.ObjectPageHeader` as the value of the 
 
 As of version 1.52, a new `sap.uxap.ObjectPageDynamicHeaderTitle` control can be used to build a dynamic header for `sap.uxap.ObjectPageLayout`.
 
+|Header Area
+
+| `sap.uxap.ObjectPageLayout` aggregation
+
+|App Must Provide:
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Header Area</th>
-			<th> `sap.uxap.ObjectPageLayout` aggregation</th>
-			<th>App Must Provide:</th>
+			<th>-------------</th>
+			<th>------------------------------------------</th>
+			<th>-------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>Header Title</td>
-			<td> `headerTitle` \(0..1\)</td>
-			<td>An instance of the `sap.uxap.ObjectPageDynamicHeaderTitle` control</td>
+
+			<td> `headerTitle` \(0..1\)
+			</td>
+			<td>An instance of the `sap.uxap.ObjectPageDynamicHeaderTitle` control
+			</td>
 		</tr>
 		<tr>
-			<td>Header Content</td>
-			<td> `headerContent` \(0..n\)</td>
-			<td> An array of arbitrary controls.
+			<td>Header Content
+			</td>
+			<td> `headerContent` \(0..n\)
+			</td>
+			<td>An array of arbitrary controls.
  > Note:  
  > `sap.uxap.ObjectPageDynamicHeaderContent` control is used internally to display the controls.
 			</td>

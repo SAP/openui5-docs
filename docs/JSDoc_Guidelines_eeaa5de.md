@@ -90,13 +90,52 @@ A documentation comment should provide the following content:
 
     For methods, use the following verbs:
 
-    |Type|Verb|
-    |----|----|
-    |Constructor|Constructs|
-    |Boolean|Indicates \(whether\)|
-    |Getter|Gets|
-    |Setter|Sets|
-    |Other|Adds/Removes/Creates/Releases/Other verb that applies|
+    |Type
+
+|Verb
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>    </th>
+			<th>------</th>
+			<th>------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Constructs
+			</td>
+		</tr>
+		<tr>
+			<td>Boolean
+			</td>
+			<td>Indicates \(whether\)
+			</td>
+		</tr>
+		<tr>
+			<td>Getter
+			</td>
+			<td>Gets
+			</td>
+		</tr>
+		<tr>
+			<td>Setter
+			</td>
+			<td>Sets
+			</td>
+		</tr>
+		<tr>
+			<td>Other
+			</td>
+			<td>Adds/Removes/Creates/Releases/Other verb that applies
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 -   For objects, use a noun phrase.
 
@@ -119,72 +158,107 @@ The table provides an overview of the most common inline and HTML tags.
 
  <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_ezd_5yt_l2b"/>Inline and HTML Tags
 
+|Tag
+
+|Use
+
+|Example
+
+|How to Use / Details
+
+|Type of Tag
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Tag</th>
-			<th>Use</th>
-			<th>Example</th>
-			<th>How to Use / Details</th>
-			<th>Type of Tag</th>
+			<th>-----</th>
+			<th>-----</th>
+			<th>---------</th>
+			<th>----------------------</th>
+			<th>-------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>\{@link\}</td>
-			<td>Links within API Reference</td>
-			<td> `{@link sap.ui.generic.app.navigation.service.NavError Error}`
- `{@link sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable}` 
+
+			<td>Links within API Reference
 			</td>
-			<td> To replace the path with a display text, use it like this: \{@link <path\> space <display text\>\}.
- You can also use `#myMethod` for links within a class or control to individual methods, for example. The leading hash will then be removed automatically.
-
- For other links, use the required syntax, for example, `#event:name`.
+			<td>`{@link sap.ui.generic.app.navigation.service.NavError Error}`
+`{@link sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable}` 
 			</td>
-			<td>Inline</td>
-			<td>Empty line</td>
-			<td>Creates a paragraph</td>
-			<td>Using <p\> is not necessary, since empty lines are used to define paragraphs.</td>
-			<td>HTML</td>
-		</tr>
-		<tr>
-			<td><code\>…</code\></td>
-			<td>Technical entities \(optional\)</td>
-			<td>the <code\>Button</code\> control</td>
-		</tr>
-		<tr>
-			<td><pre\>…</pre\></td>
-			<td>Code samples</td>
-		</tr>
-		<tr>
-			<td> <ul\>
- <li\>…</li\>
+			<td>To replace the path with a display text, use it like this: \{@link <path\> space <display text\>\}.
+You can also use `#myMethod` for links within a class or control to individual methods, for example. The leading hash will then be removed automatically.
 
- <li\>…</li\>
-
- </ul\>
+For other links, use the required syntax, for example, `#event:name`.
 			</td>
-			<td>Unordered lists</td>
-			<td> <ol\>
- <li\>…</li\>
-
- <li\>…</li\>
-
- </ol\>
+			<td>Inline
 			</td>
-			<td>Ordered lists</td>
-			<td><strong\>… </strong\> or <b\>…</b\></td>
-			<td>Bold font</td>
 		</tr>
 		<tr>
-			<td><i\>…</i\></td>
-			<td>Italics</td>
+			<td>Empty line
+			</td>
+			<td>Creates a paragraph
+			</td>
+			<td>Using <p\> is not necessary, since empty lines are used to define paragraphs.
+			</td>
+			<td>HTML
+			</td>
 		</tr>
 		<tr>
-			<td>&nbsp;</td>
-			<td>Non-breaking space</td>
+			<td><code\>…</code\>
+			</td>
+			<td>Technical entities \(optional\)
+			</td>
+			<td>the <code\>Button</code\> control
+			</td>
+		</tr>
+		<tr>
+			<td><pre\>…</pre\>
+			</td>
+			<td>Code samples
+			</td>
+		</tr>
+		<tr>
+			<td><ul\>
+<li\>…</li\>
+
+<li\>…</li\>
+
+</ul\>
+			</td>
+			<td>Unordered lists
+			</td>
+		</tr>
+		<tr>
+			<td><ol\>
+<li\>…</li\>
+
+<li\>…</li\>
+
+</ol\>
+			</td>
+			<td>Ordered lists
+			</td>
+		</tr>
+		<tr>
+			<td><strong\>… </strong\> or <b\>…</b\>
+			</td>
+			<td>Bold font
+			</td>
+		</tr>
+		<tr>
+			<td><i\>…</i\>
+			</td>
+			<td>Italics
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;
+			</td>
+			<td>Non-breaking space
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -203,94 +277,134 @@ The table provides an overview of the most common block tags.
 
 <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_krl_ffm_n2b"/>Block Tags
 
+|Tag
+
+|Use
+
+|Example
+
+|How to Use / Details
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Tag</th>
-			<th>Use</th>
-			<th>Example</th>
-			<th>How to Use / Details</th>
+			<th>-----</th>
+			<th>-----</th>
+			<th>---------</th>
+			<th>----------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>@param</td>
-			<td>Adds parameters</td>
-			<td> ``` js/**
+
+			<td>Adds parameters
+			</td>
+			<td>``` js/**
  * ...
  * @param {string} statement The SQL statement to be prepared
  * ...
  */
 ```
 			</td>
-			<td>Begin description with a capital letter.</td>
-			<td>@returns</td>
-			<td>Adds return values</td>
+			<td>Begin description with a capital letter.
+			</td>
+		</tr>
+		<tr>
+			<td>@returns
+			</td>
+			<td>Adds return values
+			</td>
 			<td> `@returns {type1</td>
 			<td>type2</td>
-			<td>...} Description` </td>
-			<td>Begin description with a capital letter.</td>
-		</tr>
-		<tr>
-			<td>@throws</td>
-			<td>Adds the description of an exception if an error occurs</td>
-			<td> `@throws {type} Description` </td>
-			<td>Begin description with a capital letter.</td>
-		</tr>
-		<tr>
-			<td>@author</td>
-			<td>Adds the name of the developer responsible for the code</td>
-			<td> `@author Max Mustermann` </td>
-			<td> This is an optional tag that is not displayed in JSDoc.
- If you need to use the version tag, use $\{version\} so you don't have to update this manually for each new version.
+			<td>...} Description` 
+			</td>
+			<td>Begin description with a capital letter.
 			</td>
 		</tr>
 		<tr>
-			<td>@version</td>
-			<td>Names the version for an entity</td>
-			<td> `@version 14.1.2` </td>
+			<td>@throws
+			</td>
+			<td>Adds the description of an exception if an error occurs
+			</td>
+			<td> `@throws {type} Description` 
+			</td>
+			<td>Begin description with a capital letter.
+			</td>
 		</tr>
 		<tr>
-			<td>@see</td>
-			<td>Adds information \(for example, link to documentation or the SAP Fiori Design Guidelines\) in the header section of the *API Reference* </td>
-			<td> `@see path`
- `@see free text`
+			<td>@author
+			</td>
+			<td>Adds the name of the developer responsible for the code
+			</td>
+			<td> `@author Max Mustermann` 
+			</td>
+			<td>This is an optional tag that is not displayed in JSDoc.
+If you need to use the version tag, use $\{version\} so you don't have to update this manually for each new version.
+			</td>
+		</tr>
+		<tr>
+			<td>@version
+			</td>
+			<td>Names the version for an entity
+			</td>
+			<td> `@version 14.1.2` 
+			</td>
+		</tr>
+		<tr>
+			<td>@see
+			</td>
+			<td>Adds information \(for example, link to documentation or the SAP Fiori Design Guidelines\) in the header section of the *API Reference* 
+			</td>
+			<td>`@see path`
+`@see free text`
 
- `@see {@link topic:bed8274140d04fc0b9bcb2db42d8bac2 Smart Table}` 
+`@see {@link topic:bed8274140d04fc0b9bcb2db42d8bac2 Smart Table}` 
 
- `@see {@link fiori:/flexible-column-layout/ Flexible Column Layout}`
+`@see {@link fiori:/flexible-column-layout/ Flexible Column Layout}`
 			</td>
-			<td> @see \{@link topic:loio <semantic control name\>\} provides a link to the documentation \(developer guide\).
- If there are several @see tags with documentation links, only the first one is shown in the header. The other ones are displayed under *Documentation Links* in the *Overview* section.
+			<td>@see \{@link topic:loio <semantic control name\>\} provides a link to the documentation \(developer guide\).
+If there are several @see tags with documentation links, only the first one is shown in the header. The other ones are displayed under *Documentation Links* in the *Overview* section.
 
- For more generic topics that are not directly related to a class or control, use inline links.
+For more generic topics that are not directly related to a class or control, use inline links.
 			</td>
 		</tr>
 		<tr>
-			<td>@since</td>
-			<td>Adds the version in which an entity was first introduced</td>
-			<td> `@since 1.30` </td>
-			<td>Be as specific as possible \(without mentioning patch levels for new development\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.</td>
-		</tr>
-		<tr>
-			<td>@deprecated</td>
-			<td>Adds the version in which an entity was deprecated</td>
-			<td> `@deprecated As of version 1.28, replaced by {@link class name}` </td>
-			<td> Be as specific as possible \(without mentioning patch levels\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
- Provide information about what replaces the deprecated entity.
+			<td>@since
+			</td>
+			<td>Adds the version in which an entity was first introduced
+			</td>
+			<td> `@since 1.30` 
+			</td>
+			<td>Be as specific as possible \(without mentioning patch levels for new development\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
 			</td>
 		</tr>
 		<tr>
-			<td>@experimental</td>
-			<td>Classifies an entity that is not ready for production use yet, but available for testing purposes</td>
-			<td> `@experimental As of version 1.56.0` </td>
+			<td>@deprecated
+			</td>
+			<td>Adds the version in which an entity was deprecated
+			</td>
+			<td> `@deprecated As of version 1.28, replaced by {@link class name}` 
+			</td>
+			<td>Be as specific as possible \(without mentioning patch levels\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
+Provide information about what replaces the deprecated entity.
+			</td>
 		</tr>
 		<tr>
-			<td>@example</td>
-			<td>Inserts a code sample after the comment</td>
-			<td> ``` js/**
+			<td>@experimental
+			</td>
+			<td>Classifies an entity that is not ready for production use yet, but available for testing purposes
+			</td>
+			<td> `@experimental As of version 1.56.0` 
+			</td>
+		</tr>
+		<tr>
+			<td>@example
+			</td>
+			<td>Inserts a code sample after the comment
+			</td>
+			<td>``` js/**
  * ...
  * @example
  * var id = myjob.schedules.add({
@@ -300,10 +414,10 @@ The table provides an overview of the most common block tags.
  *         a: "c"
 ```
 			</td>
-			<td> The code sample is inserted automatically with <pre\>. It is always inserted right after the comment.
- To insert an example somewhere else, for example, in the middle of a comment, use <pre\>.
+			<td>The code sample is inserted automatically with <pre\>. It is always inserted right after the comment.
+To insert an example somewhere else, for example, in the middle of a comment, use <pre\>.
 
- You can add a header for the example by using <caption\>.
+You can add a header for the example by using <caption\>.
 			</td>
 		</tr>
 	</tbody>
@@ -330,15 +444,113 @@ To refer to another entity within the *API Reference*, you can use `{@link}` in 
 
  <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_rkg_bds_kgb"/>Reference Types within API Reference
 
-|Type of Reference|Description|Example|Comment|
-|-----------------|-----------|-------|-------|
-|<full.path.ClassName\>|Refers to a class, interface, enumeration, or namespace| `sap.ui.comp.smarttable.SmartTable` | |
-|full.path.ClassName**\#**method|Refers to an instance method of a class| `sap.ui.comp.smarttable.SmartTable#getHeader` | `.prototype.` and \# are interchangeable|
-|full.path.ClassName**.prototype.**method|Refers to an instance method of a class| | |
-|full.path.ClassName**\#event:**name|Refers to an event fired by an instance of a class| `sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable` | |
-|full.path.ClassName**.**method|Refers to a static method \(or any other static property\)| | |
-| `#method` |Refers to an instance method **within** a class| `#getHeader` |You can use this type of reference within an API that you are documenting, for example, within the `SmartTable` control documentation if you want to link to a method that belongs to the control itself.|
-| `#.method` |Refers to a static method **within** a class| | |
-| `#event:name` |Refers to an event **within** a class| | |
-| `#annotation:name` |Refers to an annotation **within** a class| | |
+|Type of Reference
+
+|Description
+
+|Example
+
+|Comment
+
+|
+ > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+
+<table>
+	<thead>
+		<tr>
+			<th>-------------------</th>
+			<th>-------------</th>
+			<th>---------</th>
+			<th>---------</th>
+		</tr>
+	</thead>
+	<tbody>
+
+			<td>Refers to a class, interface, enumeration, or namespace
+			</td>
+			<td> `sap.ui.comp.smarttable.SmartTable` 
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td>full.path.ClassName**\#**method
+			</td>
+			<td>Refers to an instance method of a class
+			</td>
+			<td> `sap.ui.comp.smarttable.SmartTable#getHeader` 
+			</td>
+			<td> `.prototype.` and \# are interchangeable
+			</td>
+		</tr>
+		<tr>
+			<td>full.path.ClassName**.prototype.**method
+			</td>
+			<td>Refers to an instance method of a class
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td>full.path.ClassName**\#event:**name
+			</td>
+			<td>Refers to an event fired by an instance of a class
+			</td>
+			<td> `sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable` 
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td>full.path.ClassName**.**method
+			</td>
+			<td>Refers to a static method \(or any other static property\)
+			</td>
+		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td> `#method` 
+			</td>
+			<td>Refers to an instance method **within** a class
+			</td>
+			<td> `#getHeader` 
+			</td>
+			<td>You can use this type of reference within an API that you are documenting, for example, within the `SmartTable` control documentation if you want to link to a method that belongs to the control itself.
+			</td>
+		</tr>
+		<tr>
+			<td> `#.method` 
+			</td>
+			<td>Refers to a static method **within** a class
+			</td>
+		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td> `#event:name` 
+			</td>
+			<td>Refers to an event **within** a class
+			</td>
+		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td> `#annotation:name` 
+			</td>
+			<td>Refers to an annotation **within** a class
+			</td>
+		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
+	</tbody>
+</table>
 

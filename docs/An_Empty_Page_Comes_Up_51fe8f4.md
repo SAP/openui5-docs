@@ -81,20 +81,24 @@ During the development on Microsoft Windows, your app works fine, but a soon as 
 
 This could happen if you wrote the tag of the control with lowercase letters, because Linux systems use case-sensitive file names.
 
+|Correct Example
+
+|Incorrect Example
+
+|
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
 	<thead>
 		<tr>
-			<th>Correct Example</th>
-			<th>Incorrect Example</th>
+			<th>-----------------</th>
+			<th>-------------------</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td> `<**B**utton text="Click me" />` </td>
-			<td> `<**b**utton text="Click me" />`
- Error message: `Uncaught Error: failed to load 'sap/m/button.js'`
+
+			<td>`<**b**utton text="Click me" />`
+Error message: `Uncaught Error: failed to load 'sap/m/button.js'`
 			</td>
 		</tr>
 	</tbody>
