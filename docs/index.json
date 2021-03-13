@@ -2283,23 +2283,6 @@
 							"Standard Composite Controls": {
 								"link": "Standard_Composite_Controls_c1512f6.md"
 							},
-							"XML Composite Controls": {
-								"link": "XML_Composite_Controls_b83a4dc.md",
-								"items": {
-									"Example of a Simple XML Composite Control": {
-										"link": "Example_of_a_Simple_XML_Composite_Control_e8e5af5.md"
-									},
-									"Properties and Property Bindings": {
-										"link": "Properties_and_Property_Bindings_c6e0122.md"
-									},
-									"Events": {
-										"link": "Events_04e851d.md"
-									},
-									"Aggregations": {
-										"link": "Aggregations_2abc8ff.md"
-									}
-								}
-							},
 							"Aggregation Forwarding": {
 								"link": "Aggregation_Forwarding_64a5e17.md"
 							}
