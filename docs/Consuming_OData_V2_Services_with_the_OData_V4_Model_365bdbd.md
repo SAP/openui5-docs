@@ -18,7 +18,7 @@ The OpenUI5 framework can consume OData V2 Services in a non-intrusive way as if
 
 ### Overview
 
-With OpenUI5 the OData V4 Model supports the consumption of OData V2 services. The framework takes care to convert the metadata and the data in a way that the application developer writes its application as he would do with an OData V4 model with a corresponding OData V4 service. As OData V4 supports various features that are not covered by OData V2, some features of the OData V4 model cannot be used. A list of the limitations is available below.
+With OpenUI5 the OData V4 Model supports the consumption of OData V2 services. The framework takes care to convert the metadata and the data in a way that the application developer writes its application as he would do with an OData V4 model with a corresponding OData V4 service. As OData V4 supports various features that are not covered by OData V2, some features of the OData V4 model cannot be used. A list of the restrictions is available below.
 
 Here is an example of a manifest.json file, which shows how to configure your application to consume a V2 service with the V4 model.
 
@@ -205,9 +205,9 @@ Warnings are logged for all SAP attributes that have not been processed by the V
 
 <a name="loio365bdbd737034334a38a6fef07345196__section_xm5_3yp_fbb"/>
 
-### Limitations
+### Restrictions
 
-Not all OData V4 features are supported yet when consuming an OData V2 service. We have following limitations:
+Not all OData V4 features are supported yet when consuming an OData V2 service. We have the following restrictions:
 
 -   The OData V4 model can consume an OData V2 service for read scenarios only.
 

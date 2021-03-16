@@ -246,12 +246,6 @@ You can run the app being tested in an iFrame. You can start only one iFrame at 
 Opa5().iStartMyAppInAFrame("index.html?responderOn=true");
 ```
 
-The OPA iFrame launcher overwrites the iFrame's history API so we can later change the iFrame's hash, and pass parameters to the app. In Internet Explorer, the history behaves differently if an iFrame was added with JavaScript, this is why you should add the frame directly to the HTML of your test page:
-
-``` js
-<iframe id="OpaFrame" src="index.html?responderOn=true" style="width:100%; height:100%"></iframe>
-```
-
 You can remove the iFrame using one of the following methods:
 
 ``` js

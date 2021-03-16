@@ -266,7 +266,7 @@ OpaBuilder.create(oOpa)
 
 #### Conditional Actions
 
-When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions has its limitations. One limitation is that a test fails if no control is found that matches the conditions. This could be a challenge if the control being tested is not guaranteed to exist.
+When defining journeys, reusable functions in the page can speed up writing tests and their quality. Sometimes, the generic approach of those functions is not suitable. For example, a test fails if no control is found that matches the conditions. This could be a challenge if the control being tested is not guaranteed to exist.
 
 **Example**:
 

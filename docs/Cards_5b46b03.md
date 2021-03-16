@@ -252,9 +252,10 @@ Cards can be transactional \(list, table, object, unstructured content, timeline
 	</tbody>
 </table>
 
-Limitations:  
- 1\) The analytical card is using `sap.viz.ui5.controls.VizFrame` charts which are part of SAPUI5 and are not available in OpenUI5.  
- 2\) The timeline card is using the `sap.suite.ui.commons.Timeline` control which is part of SAPUI5 and is not available in OpenUI5.
+> Restriction:  
+> -   The analytical card is using `sap.viz.ui5.controls.VizFrame` charts which are part of SAPUI5 and are not available in OpenUI5.
+> 
+> -   The timeline card is using the `sap.suite.ui.commons.Timeline` control which is part of SAPUI5 and is not available in OpenUI5.
 
 ***
 

@@ -270,6 +270,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                     -   [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md)
                 -   [JSON View](JSON_View_91f2852.md)
                 -   [JS View](JS_View_91f262e.md)
+                -   [Typed View](Typed_View_e6bb33d.md)
                 -   [HTML View](HTML_View_9756f47.md)
                 -   [Instantiating Views](Instantiating_Views_68d0e58.md)
                 -   [View Cloning](View_Cloning_a575619.md)

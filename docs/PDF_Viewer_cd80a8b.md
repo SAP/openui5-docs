@@ -59,21 +59,13 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 -   On mobile devices, the PDF document is not displayed. Only the toolbar with a download button is visible. Click the download button to download and open the PDF document.
 
 
-**Browser Limitations**
+**Browser Restrictions**
 
--   Internet Explorer
+-   Microsoft Edge \(Chromium\)<sup>2</sup>
 
-    -   When a PDF document is loaded, the Internet Explorer browser may not allow its content to be validated. As the result, the `sourceValidationFailed` event may not be fired for loaded PDF documents.
+    -   When the PDF viewer is open in the Microsoft Edge \(Chromium\)<sup>2</sup> browser, the displayed PDF document may appear on top of all other page elements. To work around this issue, insert another `iframe` element between the PDF viewer and the rest of the elements on the page.
 
-    -   When the PDF viewer is open in the Internet Explorer browser, the displayed PDF document may appear on top of all other page elements. To work around this issue, insert another `iframe` element between the PDF viewer and the rest of the elements on the page.
-
-    -   Data URI paths and blob URLs used as the PDF source are not supported in Internet Explorer.
-
--   Microsoft Edge
-
-    -   When the PDF viewer is open in the Microsoft Edge browser, the displayed PDF document may appear on top of all other page elements. To work around this issue, insert another `iframe` element between the PDF viewer and the rest of the elements on the page.
-
-    -   Data URI paths and blob URLs used as the PDF source are not supported in Microsoft Edge.
+    -   Data URI paths and blob URLs used as the PDF source are not supported in Microsoft Edge \(Chromium\)<sup>2</sup> browser.
 
 -   Mozilla Firefox
 
@@ -98,7 +90,7 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
 **Fillable PDF Forms**
 
--   Support for fillable PDF forms depends on the browser and device limitations.
+-   Support for fillable PDF forms depends on the browser and device restrictions.
 
 
 **Related Information**  

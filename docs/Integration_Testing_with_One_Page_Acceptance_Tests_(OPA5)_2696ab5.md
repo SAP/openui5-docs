@@ -42,9 +42,9 @@ In short: Writing acceptance tests with OPA5 is very easy – Give it a try!
 
 ***
 
-### Limitations of OPA5
+### Restrictions of OPA5
 
-Note the following limitations of OPA:
+Note the following restrictions of OPA:
 
 -   Screen capturing
 -   Testing across more than one page

@@ -89,7 +89,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <a name="loiof94deb45de184a3a87850b75d610d9c0__section_qr2_lhn_xdb"/>
 
-### Usage Guidelines and Limitations
+### Usage Guidelines and Restrictions
 
 -   Use the Text control if you want to display text inside a form, table, or any other content area.
 

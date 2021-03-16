@@ -23,7 +23,7 @@ Depending on the platform your OpenUI5 apps run on, different browsers in differ
 
 ### Overview of Supported Browsers, Platforms, and Reference Devices
 
-The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries.
+The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries. There are certain known device-browser combinations that lead to visual degradations. For more information, see [Visual Degradations](Visual_Degradations_f08f296.md).
 
 ***
 
@@ -350,10 +350,4 @@ Android OS based devices are very fragmented in matters of operating system vari
 		</tr>
 	</tbody>
 </table>
-
-***
-
-### Additional Information
-
-Depending on the combination of device and browser, visual degradations may occur for certain libraries. For more details, see [Visual Degradations](Visual_Degradations_f08f296.md).
 

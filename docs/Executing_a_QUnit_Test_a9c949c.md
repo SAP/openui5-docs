@@ -69,7 +69,7 @@ sap.ui.define(function() {
 		/*
 		 * A map with the individual test configurations, keyed by a unique test name.
 		 *
-		 * There's no technical limitation for the length or the characters of the test names.
+		 * There's no technical restriction for the length or the characters of the test names.
 		 * The will be used only in the overview page showing all tests of your suite.
 		 *
 		 * But by default, the name is also used to derive the ID of the module that contains the test cases.

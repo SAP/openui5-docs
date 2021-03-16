@@ -86,12 +86,6 @@ Check the logs to see if your matcher is failing because it's checking a text ag
 
 ***
 
-#### Is It Only Internet Explorer That's Affected?
-
-If you're using an IFrame to launch your app, Internet Explorer is more strict when it comes to objects from removed IFrames. If you're using the OPA context to remember objects, destroy your frame, and then execute a function on the object, you get a JavaScript exception. How do you avoid it? By only remembering values like strings or integers when destroying the frame, or by using the component startup in OPA5.
-
-***
-
 ### OPA Isn't Even Starting and There's No Logging Either
 
 If you require `sinon-qunit.js`, it overwrites the browser functions `setTimeout` and `setInterval`. OPA needs these functions and without them the tests don't start. You can either set the `fakeTimers` to `false` in your test setup, or maybe consider not using `sinon-qunit.js` together with OPA.

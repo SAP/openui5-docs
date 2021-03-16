@@ -944,7 +944,7 @@ As opposed to the default behavior, we do not require to have the **Products\(1\
 > 
 > `GET Products(1)?$expand=Supplier/Products`
 > 
-> Even though you now also achieved to have less requests, using `$expand` has a couple of drawbacks. These can be circumvented by using the preliminary context feature, which does not have these limitations.
+> Even though you now also achieved to have less requests, using `$expand` has a couple of drawbacks. These can be circumvented by using the preliminary context feature, which does not have these restrictions.
 > 
 > In OData V2, with a `$expand` you cannot use additional filters and sorters for the expanded entries. In addition, the `$expand` option always loads **ALL** associated entities, so paging with `$skip` or `$top` is also not possible. Using the preliminary context feature, you get multiple sub-requests in a single `$batch`, yet you can easily include additional filters and sorters on the related subordinate entries.
 

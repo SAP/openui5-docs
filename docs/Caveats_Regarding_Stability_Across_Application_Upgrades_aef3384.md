@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Caveats Regarding Stability Across Application Upgrades
 
-There are a few limitations in the compatibility of custom applications that have to be considered when extending OpenUI5 standard applications.
+There are a few restrictions in the compatibility of custom applications that have to be considered when extending OpenUI5 standard applications.
 
-Offering modification-free extensions and customizing allows to ship new versions of the application without overwriting customer-specific modifications. Thus, these modifications can survive an application upgrade. However, the degree of compatibility which can be guaranteed is limited. If a view is replaced by a custom view but the original view is no longer used, the custom view will, of course, also no longer be used. Or, if a custom controller extension accesses a field in the original view, it has to be able to cope with the possibility that the field may no longer exist or have a different type in an upgraded version of the application, otherwise it will break.
+Offering modification-free extensions and customizing allows to ship new versions of the application without overwriting customer-specific modifications. Thus, these modifications can survive an application upgrade. However, the degree of compatibility which can be forseen is limited. If a view is replaced by a custom view but the original view is no longer used, the custom view will, of course, also no longer be used. Or, if a custom controller extension accesses a field in the original view, it has to be able to cope with the possibility that the field may no longer exist or have a different type in an upgraded version of the application, otherwise it will break.
 
 Many possible reasons exist that modifications can not be applied any longer or even break the upgraded version of an application and it is, therefore, not possible to compile an exhaustive list of all possible reasons. The following list gives some examples:
 

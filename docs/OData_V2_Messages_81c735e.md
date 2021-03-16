@@ -82,7 +82,7 @@ The `ODataMessageParser` is created automatically for all `v2.ODataModel` instan
 
 ### Troubleshooting for the OData V2 Message Parser
 
-In this section you find known limitations of the `ODataMessageParser` and how you can resolve issues with unexpected numbers of UI messages.
+In this section you find known restrictions of the `ODataMessageParser` and how you can resolve issues with unexpected numbers of UI messages.
 
 ***
 

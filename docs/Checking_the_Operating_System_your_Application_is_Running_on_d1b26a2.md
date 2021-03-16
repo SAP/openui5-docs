@@ -14,28 +14,21 @@ A platform attribute is added to the HTML tag when running on mobile devices.
 
 This attribute provides information about the current platform and version.
 
-> Note:  
-> The list of supported devices when using `sap.m` library can be found here: [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
-
 In addition to that, OpenUI5 adds a platform-dependent CSS class to the HTML tag of the page. This enables control or application developers to create platform-dependent styling for their controls or applications.
 
 ***
 
 ### Technical Details
 
-When the OpenUI5 bootstrap script file is loaded, a check is performed to see if the application is running on a mobile platform. If this is the case, the attribute and CSS classes are added to the HTML tag. The platform attribute value has the following connotation: *Operating system + version*, for example `iOS6.0`, `Android4.1.1` or `bb10.0.9.2372`. *Operating system* can have the following values:
+When the OpenUI5 bootstrap script file is loaded, a check is performed to see if the application is running on a mobile platform. If this is the case, the attribute and CSS classes are added to the HTML tag. The platform attribute value has the following connotation: *Operating system + version*, for example `iOS6.0` or `Android4.1.1`. *Operating system* can have the following values:
 
 -   `iOS`\(Apple devices\)
 -   `Android` \(Android devices\)
--   `bb` \(BlackBerry\)
--   `winphone` \(Windows phone\)
 
 The version numbers are separated by dots. The possible values for the CSS class are:
 
 -   `sap-ios` \(Apple devices\)
 -   `sap-android`\(Android devices\)
--   `sap-bb` \(BlackBerry\)
--   `winphone` \(Windows phone\)
 
 The platform attribute or CSS class is used as follows:
 
