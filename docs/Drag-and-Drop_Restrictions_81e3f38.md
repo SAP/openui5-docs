@@ -22,8 +22,6 @@ When you use drag and drop, the following restrictions apply:
 
 -   Texts in draggable controls cannot be selected. The text of input fields in draggable controls can be selected, but not dragged.
 
--   Microsoft Internet Explorer 11 only supports the plain text MIME type for the `DataTransfer` object \(DTO\). Also, defining a custom dragging ghost element is not possible.
-
 
 Note that drag and drop is not accessible. Applications must provide an alternative for users with special needs for drag-and-drop operations.
 

@@ -459,7 +459,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Adapting to Operating Systems And Devices](Adapting_to_Operating_Systems_And_Devices_50eadaa.md)
             -   [The Device API](The_Device_API_69a8e46.md)
             -   [Controls with Built-In Device Adaptation](Controls_with_Built-In_Device_Adaptation_328a340.md)
-            -   [Checking the Operating System your Application is Running on](Checking_the_Operating_System_your_Application_is_Running_on_d1b26a2.md)
+            -   [Checking the Operating System your Application is Running On](Checking_the_Operating_System_your_Application_is_Running_On_d1b26a2.md)
             -   [Content Densities](Content_Densities_e54f729.md)
                 -   [How to Use Densities for Controls](How_to_Use_Densities_for_Controls_13e6f3b.md)
             -   [Options for Further Adaptation](Options_for_Further_Adaptation_04eb520.md)

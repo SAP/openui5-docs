@@ -56,11 +56,10 @@ For all these options, the CSS developer might reduce the styling effort and foc
     For more information, see [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
 
 
-***
+**Related Information**  
 
-### More Information
+
+[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
 
 [UI Theme Designer](http://help.hana.ondemand.com/theme_designer/frameset.htm)
-
-[38ff8c27b022475a92b591bcf6262551.xml](38ff8c27b022475a92b591bcf6262551.xml)
 
