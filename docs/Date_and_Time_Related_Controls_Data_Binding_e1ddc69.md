@@ -14,9 +14,19 @@ Date and time related controls can be bound to an `OData` service.
 
 ***
 
-<a name="loioe1ddc69c01474faf830a522db8c9238a__section_nxx_wmg_cdb"/>
+<a name="loioe1ddc69c01474faf830a522db8c9238a__section_i2c_p4g_cdb"/>
 
-### Introduction
+### OData V4
+
+The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly. Check the information about automatic type determination in OData V4 under [Type Determination](Type_Determination_53cdd55.md).
+
+***
+
+### OData V2
+
+***
+
+#### 
 
 According to the `OData Version 2.0` specification, the following date and time related primitive data types exist:
 
@@ -26,14 +36,6 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 3.  `Edm.DateTimeOffset` - represents the date and time as an offset in minutes from GMT, with values from 12:00:00 midnight, January 1, 1753 A.D. through to 11:59:59 P.M, December 9999 A.D. For example, 1999-01-01T23:01:00Z corresponds to 11:01:00 PM on January 1, 1999.
 
-
-***
-
-<a name="loioe1ddc69c01474faf830a522db8c9238a__section_i2c_p4g_cdb"/>
-
-### OData Version 2.0 Binding Types
-
-***
 
 ***
 

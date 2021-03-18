@@ -6,6 +6,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
 
 -   [OpenUI5: UI Development Toolkit for HTML5](OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md)
     -   [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md)
+        -   [What's New in OpenUI5 1.88](What's_New_in_OpenUI5_1.88_bda141b.md)
         -   [What's New in OpenUI5 1.87](What's_New_in_OpenUI5_1.87_e315108.md)
         -   [Previous Versions](Previous_Versions_6660a59.md)
             -   [What's New in OpenUI5 1.86](What's_New_in_OpenUI5_1.86_067e2fb.md)
@@ -780,7 +781,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Split App](Split_App_eedfe79.md)
             -   [Team Calendar](Team_Calendar_acae0f2.md)
             -   [Text](Text_f94deb4.md)
-            -   [Upload Collection](Upload_Collection_124ee13.md)
+            -   [Upload Collection \(Deprecated\)](Upload_Collection_(Deprecated)_124ee13.md)
             -   [URL Helper](URL_Helper_4f1c107.md)
                 -   [Examples for Triggering Telephone, Text and E-Mail Applications](Examples_for_Triggering_Telephone,_Text_and_E-Mail_Applications_021ac23.md)
         -   [sap.tnt](sap.tnt_d8374d5.md)

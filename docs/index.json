@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.88": {
+						"link": "What's_New_in_OpenUI5_1.88_bda141b.md"
+					},
 					"What's New in OpenUI5 1.87": {
 						"link": "What's_New_in_OpenUI5_1.87_e315108.md"
 					},
@@ -2595,8 +2598,8 @@
 							"Text": {
 								"link": "Text_f94deb4.md"
 							},
-							"Upload Collection": {
-								"link": "Upload_Collection_124ee13.md"
+							"Upload Collection \\(Deprecated\\)": {
+								"link": "Upload_Collection_(Deprecated)_124ee13.md"
 							},
 							"URL Helper": {
 								"link": "URL_Helper_4f1c107.md",
