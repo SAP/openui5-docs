@@ -26,7 +26,7 @@ The property binding automatically determines the appropriate type depending on 
 
 ***
 
-#### 
+#### Introduction
 
 According to the `OData Version 2.0` specification, the following date and time related primitive data types exist:
 

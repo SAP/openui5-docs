@@ -89,12 +89,11 @@ If you have bound aggregations, Avoid using complex or nested controls. Remember
 
 ### Think About View Modularization Early On
 
-Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments and XML composites \(experimental\), you can flexibly reuse parts of your UI elsewhere.
+Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments, you can flexibly reuse parts of your UI elsewhere.
 
 ``` xml
 <App>
 	<Page>
-		<myXMLComposites:SearchPanel title="Find employees"/>
 		<mvc:XMLView viewName="EmployeList"/>
 	</Page>
 </App>
@@ -103,8 +102,6 @@ Things may get a little messy as your app is growing with your requirements. The
 -   Learn how: Walkthrough tutorial [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md)
 
 -   Find out more:
-
--   [b83a4dcb7d0e46969027345b8d32fd44.md]()
 
 -   [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
 
