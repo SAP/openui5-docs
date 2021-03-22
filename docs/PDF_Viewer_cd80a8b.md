@@ -71,6 +71,10 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
     -   The sourceValidationFailed event is not fired for PDF documents loaded in the Mozilla Firefox browser.
 
+-   Safari
+
+    -   Data URI paths and blob URLs used as the PDF source are not supported in Safari.
+
 
 **Embedding the PDF Viewer into a Tab**
 
