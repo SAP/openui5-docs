@@ -49,7 +49,7 @@ Now create a new root HTML file called `index.html` in your app folder. An HTML 
 
 In this case we will tell the browser to use `UTF-8` as the document character set. We will also give our app a title that will be displayed in the browser. Be aware that our hard-coded title can be overruled by the app, for example to show a title in the language of the user.
 
-The body part describes the layout of the page. In our case we simply display “Hello World” by using a `p` tag.
+The body part describes the layout of the page. In our case we simply display “Hello World” by using a `div` tag.
 
 > Tip:  
 > Typically, the content of the `webapp` folder is deployed to a Web server as an application package. When deploying the `webapp` folder itself the URL for accessing the `index.html` file contains `webapp` in the path.
