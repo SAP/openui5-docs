@@ -124,7 +124,7 @@ But it isn't enough to write AMD modules. You also need to prevent access to Ope
 
  For more information, see the [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define). 
 
-Always avoid usages of `sap.ui.requireSync` and `jQuery.sap.require` ! In order to enable modules to load asynchronously, use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
+Always avoid usages of `jQuery.sap.require` ! In order to enable modules to load asynchronously, use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
 
 Please follow the [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 

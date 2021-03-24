@@ -492,16 +492,6 @@ To refer to another entity within the *API Reference*, you can use `{@link}` in 
 			</td>
 		</tr>
 		<tr>
-			<td>full.path.ClassName**\#event:**name
-			</td>
-			<td>Refers to an event fired by an instance of a class
-			</td>
-			<td> `sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable` 
-			</td>
-		</tr>
-			</td>
-		</tr>
-		<tr>
 			<td>full.path.ClassName**.**method
 			</td>
 			<td>Refers to a static method \(or any other static property\)
@@ -532,9 +522,29 @@ To refer to another entity within the *API Reference*, you can use `{@link}` in 
 			</td>
 		</tr>
 		<tr>
+			<td>full.path.ClassName**\#event:**name
+			</td>
+			<td>Refers to an event fired by an instance of a class
+			</td>
+			<td> `sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable` 
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
 			<td> `#event:name` 
 			</td>
 			<td>Refers to an event **within** a class
+			</td>
+		</tr>
+			</td>
+		</tr>
+			</td>
+		</tr>
+		<tr>
+			<td>full.path.ClassName**\#annotation:**name
+			</td>
+			<td>Refers to an instance annotation of a class
 			</td>
 		</tr>
 			</td>
@@ -546,7 +556,7 @@ To refer to another entity within the *API Reference*, you can use `{@link}` in 
 			</td>
 			<td>Refers to an annotation **within** a class
 			</td>
-		</tr>
+			<td>`#annotation:Text Text`
 			</td>
 		</tr>
 			</td>
