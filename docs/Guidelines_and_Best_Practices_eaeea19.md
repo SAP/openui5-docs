@@ -98,7 +98,7 @@ If you have rules in your custom library, keep in mind that the rule `minversion
 			<td>Title
 			</td>
 			<td>-   As short as possible, as descriptive as possible.
- -   \(Where applicable\) - **<Control Name \(no namespace\)\>:** Description of issue
+ -   \(Where applicable\) - `<Control Name (no namespace)>:` Description of issue
 
  -   Sentence case.
 			</td>
@@ -144,11 +144,11 @@ If you have rules in your custom library, keep in mind that the rule `minversion
 			<td>-   Ideally every rule should point to a topic or document in the DevGuide, API Reference, Samples, or SAP Fiori Design Guidelines.
  -   Use the following text values when referring to specific parts of the documentation:
 
-     -   Developer Guide - **Documentation: <Title of topic\>**
+     -   Developer Guide - `Documentation: <Title of topic>`
 
-     -   API Reference - **API Reference: <Name of control + path to method/property\>**
+     -   API Reference - `API Reference: <Name of control + path to method/property>`
 
-     -   SAP Fiori Guidelines - **SAP Fiori Guidelines: <Name of control\>**
+     -   SAP Fiori Guidelines - `SAP Fiori Guidelines: <Name of control>`
 
      -   External Link - no description text, just a URL
 			</td>

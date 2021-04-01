@@ -25,7 +25,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
     > Note:  
     > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).
 
-2.  Open the *Developer Tools* by pressing *F12*.
+2.  Open the *Developer Tools* by pressing [F12\].
 
 
 ***
@@ -34,7 +34,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 ### Inspecting DOM Elements and CSS Styles in the *Elements* Tab
 
-1.  Activate the *Inspect Element* mode by pressing * Ctrl Shift C *.
+1.  Activate the *Inspect Element* mode by pressing  [Ctrl\] + [Shift\] + [C\] .
 
 2.  Click the *Do Something* button in the app.
 
@@ -158,7 +158,7 @@ sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().g
 
 1.  Switch to the *Source* tab.
 
-2.  To view the source of the `App.controller` file, press * Ctrl P *, enter `App.controller`, and select `App.controller.js?eval`.
+2.  To view the source of the `App.controller` file, press  [Ctrl\] + [P\] , enter `App.controller`, and select `App.controller.js?eval`.
 
 3.  Set a breakpoint in line 20 by clicking on the line number of the following line:
 
@@ -170,13 +170,13 @@ sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().g
 
     The debugger stops at line 20.
 
-5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press * Ctrl S *:
+5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press  [Ctrl\] + [S\] :
 
 ```
 sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSource*HIGHLIGHT START*XYZ*HIGHLIGHT END*().getId()]);
 ```
 
-6.  Resume the execution of the code by pressing *F8*.
+6.  Resume the execution of the code by pressing [F8\].
 
     The message toast is now displayed on the web page with the following message: *"HeapOfShards---app--myButton" pressed* 
 
@@ -194,7 +194,7 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
 
 1.  Switch to the *Network* tab.
 
-2.  Press *F5* to reload the page.
+2.  Press [F5\] to reload the page.
 
     You see a list of the files that are currently loaded.
 
@@ -220,7 +220,7 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
 
 ### Testing Responsiveness with *Device Mode*
 
-Switch to *Device* mode by clicking the respective button or by pressing * Ctrl Shift M *.
+Switch to *Device* mode by clicking the respective button or by pressing  [Ctrl\] + [Shift\] + [M\] .
 
 Emulate different mobile devices by selecting different devices, or switch orientation from landscape to portrait.
 

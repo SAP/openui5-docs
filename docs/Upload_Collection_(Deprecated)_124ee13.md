@@ -46,7 +46,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
 -   **Upload files**
 
-    The upload is triggered by the **Add** or **Upload** pushbutton \(depending on the scenario\). In the OS-native file picker dialog you can select one or multiple files. However, the consuming application need to enable the upload of multiple files by using the `multiple` property during the instantiation. During the upload process, a progress indicator provides information about the status. For upload, also Drag & Drop can be used.
+    The upload is triggered by the *Add* or *Upload* pushbutton \(depending on the scenario\). In the OS-native file picker dialog you can select one or multiple files. However, the consuming application need to enable the upload of multiple files by using the `multiple` property during the instantiation. During the upload process, a progress indicator provides information about the status. For upload, also Drag & Drop can be used.
 
 -   **Open files**
 
@@ -86,7 +86,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
     -   **`uploadButtonInvisible` property**
 
-        With the `uploadButtonInvisible` property, you can decide for your application to make the **Upload** button in the instant upload scenario invisible to prevent the user from uploading a file.
+        With the `uploadButtonInvisible` property, you can decide for your application to make the *Upload* button in the instant upload scenario invisible to prevent the user from uploading a file.
 
 
 ***

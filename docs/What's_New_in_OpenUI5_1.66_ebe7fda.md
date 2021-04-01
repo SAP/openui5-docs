@@ -74,11 +74,11 @@ The options list used in these controls is now instantiated lazily. The list is 
 
 You can now change the date range value using keyboard combinations without opening the calendar. When the cursor is on the start date \(before the delimiter\), we change the start date and when it is on the end date \(after the delimiter\), we change the end date.
 
--   *PgUp*/*PgDn* - increments/decrements the date
+-   [PgUp\]/[PgDn\] - increments/decrements the date
 
--   * Shift PgUp */* Shift PgDn * - increments/decrements the month
+-    [Shift\] + [PgUp\] / [Shift\] + [PgDn\]  - increments/decrements the month
 
--   * Ctrl Shift PgUp */* Ctrl Shift PgDn * - increments/decrements the year
+-    [Ctrl\] + [Shift\] + [PgUp\] / [Ctrl\] + [Shift\] + [PgDn\]  - increments/decrements the year
 
 
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DateRangeSelection/sample/sap.m.sample.DateRangeSelection).

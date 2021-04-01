@@ -58,7 +58,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 |**`sap.f.GridContainer`**
 
 -   We have enhanced drag and drop between two containers. When you drag one element over another container, the element in the original position is not visible, but keeps its place so that you can return the element back to its original place if you need to.
--   We have improved focus visualization and handling. You can now easily move the focus through the items in the container using the *Arrow Keys*. For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer).
+-   We have improved focus visualization and handling. You can now easily move the focus through the items in the container using the [Arrow Keys\]. For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer).
 
 |
 |**`sap.m.IconTabBar`**

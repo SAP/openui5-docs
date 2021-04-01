@@ -281,7 +281,7 @@ Application modules \(e.g. components, controllers, views or resource bundles\) 
 
 ### Check the Network Requests
 
-To quickly check the network load caused by your app, look at your browser's developer tools, for example the Network tab in the Google Chrome developer tools \(*F12*\). You'll see an overview of all requests being sent. Possible issues here may be:
+To quickly check the network load caused by your app, look at your browser's developer tools, for example the Network tab in the Google Chrome developer tools \([F12\]\). You'll see an overview of all requests being sent. Possible issues here may be:
 
 ***
 

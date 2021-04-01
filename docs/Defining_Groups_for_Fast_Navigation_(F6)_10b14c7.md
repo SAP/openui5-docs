@@ -8,11 +8,11 @@
 
 view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10b14c7284ba48a185ae2046db470706)</div>
 
-## Defining Groups for Fast Navigation \(*F6*\)
+## Defining Groups for Fast Navigation \([F6\]\)
 
-Adjacent controls within the tab chain can be grouped. Within such a group, *F6* skips all controls of the group and moves the focus to the first control in the tab chain of the next group. * Shift F6 * moves the focus to the first control of the previous group. Adjacent tab chain elements between groups are automatically handled as one group. For nested groups, the most concrete group is used.
+Adjacent controls within the tab chain can be grouped. Within such a group, [F6\] skips all controls of the group and moves the focus to the first control in the tab chain of the next group.  [Shift\] + [F6\]  moves the focus to the first control of the previous group. Adjacent tab chain elements between groups are automatically handled as one group. For nested groups, the most concrete group is used.
 
-Basically, an *F6* group is defined via the attribute `data-sap-ui-fastnavgroup="true"` on a DOM element. Several options exist to implement fast navigation support in controls.
+Basically, an [F6\] group is defined via the attribute `data-sap-ui-fastnavgroup="true"` on a DOM element. Several options exist to implement fast navigation support in controls.
 
 > Note:  
 > We recommend that you do **not** provide fast navigation support for small controls such as `Button` or `InputField`. The fast navigation feature is intended for large, more complex controls containing multiple "tab-able" elements to enable the user to quickly jump over controls if needed.
@@ -36,7 +36,7 @@ The `RenderManager` writes the attribute automatically during rendering when the
 
 ***
 
-### Defining the *F6* Group Within a Control
+### Defining the [F6\] Group Within a Control
 
 During rendering of a control, the attribute can also be written to any arbitrary DOM element of the control.
 
@@ -56,7 +56,7 @@ render = function(oRm, oControl){
 
 ***
 
-### Custom *F6* Handling
+### Custom [F6\] Handling
 
 It may be necessary that a control has to provide a custom fast navigation handling, for example, if the DOM structure of the control does not allow to define suitable navigation groups with one of the options described above. The following picture shows how the central fast navigation handling \(a\) outside the control collaborates with the custom handling inside the control.
 
@@ -74,7 +74,7 @@ render = function(oRm, oControl){
 
 ```
 
-To implement the custom *F6* behavior within the control \(d\), use the event handlers `onsapskipforward` \(*F6*\) and `onsapskipback` \(* Shift F6 *\). When `preventDefault` is called on the provided event, the central fast navigation handling ignores the event.
+To implement the custom [F6\] behavior within the control \(d\), use the event handlers `onsapskipforward` \([F6\]\) and `onsapskipback` \( [Shift\] + [F6\] \). When `preventDefault` is called on the provided event, the central fast navigation handling ignores the event.
 
 The interesting point is the collaboration \(b, c\) between the control and the central fast navigation handling.
 
@@ -101,7 +101,7 @@ onsapskipback = function(oEvent){ //Shift+F6
 
 ```
 
-If the focus resides within the control and jumps out of the control \(b\) when pressing *F6* or * Shift F6 *, the `onsapskipforward` and `onsapskipback` events should not be handled \(no `preventDefault` call\).
+If the focus resides within the control and jumps out of the control \(b\) when pressing [F6\] or  [Shift\] + [F6\] , the `onsapskipforward` and `onsapskipback` events should not be handled \(no `preventDefault` call\).
 
 If the focus resides outside the control and the central fast navigation handling calculates a target to focus within the control, the central handling first calls the event handler `onBeforeFastNavigationFocus` \(if available\) on the control \(c1, c2\) that is flagged as a custom handling area. The provided event has the following attributes:
 
@@ -109,7 +109,7 @@ If the focus resides outside the control and the central fast navigation handlin
 
 -   `source`: Specifies the DOM element which is the starting point for the calculation of the next/previous element to focus; this is usually the element that is currently focused
 
--   `forward`: Specifies whether forward \(*F6*\) or backward \(* Shift F6 *\) navigation is used
+-   `forward`: Specifies whether forward \([F6\]\) or backward \( [Shift\] + [F6\] \) navigation is used
 
 
 If `preventDefault` is called on `BeforeFastNavigationFocus`, setting the focus on the target by the central handling is skipped.

@@ -39,7 +39,7 @@ Triggers autocomplete, if available.
 			</td>
 		</tr>
 		<tr>
-			<td>*Right arrow* or *Down arrow*
+			<td>[Right arrow\] or [Down arrow\]
 			</td>
 			<td>Move caret on position to the right.
 If text is selected, move caret to the end of the selection and remove selection.
@@ -50,13 +50,13 @@ If autocomplete is currently available, take over changes. Move caret to the rig
 			</td>
 		</tr>
 		<tr>
-			<td>*Enter*
+			<td>[Enter\]
 			</td>
 			<td>If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
 			</td>
 		</tr>
 		<tr>
-			<td>*Tab*
+			<td>[Tab\]
 			</td>
 			<td>Move focus to next element. Take over autocomplete, if available.
 			</td>

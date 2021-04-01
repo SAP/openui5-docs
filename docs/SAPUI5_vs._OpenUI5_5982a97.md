@@ -67,7 +67,7 @@ Both resources are also available online via the content delivery network provid
 
 Technically, you can switch between OpenUI5 and SAPUI5 \(providing you have the respective license\), e.g. if you want to use the SAPUI5-specific features.
 
-Just check first which SAPUI5 version you need, because the version numbers of OpenUI5 and SAPUI5 might differ on patch level \(last number\). You can find this information in the technical information dialog \(* Ctrl Alt Shift P *\).
+Just check first which SAPUI5 version you need, because the version numbers of OpenUI5 and SAPUI5 might differ on patch level \(last number\). You can find this information in the technical information dialog \( [Ctrl\] + [Alt\] + [Shift\] + [P\] \).
 
 If you're using the content delivery network, you can simply replace the bootstrapping reference to `https://openui5.hana.ondemand.com/<1.xx.yy>/` with a reference to `https://openui5.hana.ondemand.com/<1.xx.zz>/`. For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 

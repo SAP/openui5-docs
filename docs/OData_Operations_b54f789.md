@@ -274,7 +274,7 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 According to the [OData 4.0 specification \("11.5.2 Advertising Available Operations within a Payload"\)](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752309) services may return available actions and functions bound to a particular entity as part of the entity representation within the payload. Data for an advertised operation within an entity is sent as property starting with `#<namespace>.<action>` of that entity. If the entity does not advertise the operation, it does not contain this property. To access the advertised operation in a binding, the same format has to be used. See the following example:
 
 > Example:  
-> Enable a button to trigger an action **AcSetIsOccupied** available on entity type of entity set **EMPLOYEES** depending on advertisement of this action on the entity **EMPLOYEES\('1'\)**
+> Enable a button to trigger an action `AcSetIsOccupied` available on entity type of entity set `EMPLOYEES` depending on advertisement of this action on the entity `EMPLOYEES('1')`
 
 ```
 <FlexBox binding="{/EMPLOYEES('1')}">
@@ -282,7 +282,7 @@ According to the [OData 4.0 specification \("11.5.2 Advertising Available Operat
 </FlexBox>
 ```
 
-Here a button is enabled only if the action **AcSetIsOccupied** is advertised for the entity **EMPLOYEES\('1'\)**. The `%` operator is used to set the internal type to `any` because the advertised action is sent as an object. The double negation `!!` converts this object to a boolean value that is needed by the `enabled` control property.
+Here a button is enabled only if the action `AcSetIsOccupied` is advertised for the entity `EMPLOYEES('1')`. The `%` operator is used to set the internal type to `any` because the advertised action is sent as an object. The double negation `!!` converts this object to a boolean value that is needed by the `enabled` control property.
 
 If no advertised action was returned in the payload, `undefined` \(or `null` in OData 4.01 in case of advertised non-availability\) is returned as value for the binding. This translates to false in the expression above.
 
@@ -326,11 +326,11 @@ oOperation.execute().then(function () {
 
 The promise returned by the operation binding's [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) method may resolve with a *return value context* provided the conditions specified in [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) are met. The operation binding may be bound to an entity or a collection of entities.
 
-The typical use case for *return value context* is when you call a bound operation with a context **C1** defining its binding parameter and the bound operation returns a *different version* of the entity used as binding parameter. **C1** is the binding context of an "object page" container displaying properties of the corresponding entity. You need to replace **C1** as binding context of the object page by the*return value context*. This way, the *different version* of the entity is displayed without a further read request. If the bound operation returns the entity used as binding parameter, the changes will automatically be copied to the binding parameter.
+The typical use case for *return value context* is when you call a bound operation with a context `C1` defining its binding parameter and the bound operation returns a *different version* of the entity used as binding parameter. `C1` is the binding context of an "object page" container displaying properties of the corresponding entity. You need to replace `C1` as binding context of the object page by the*return value context*. This way, the *different version* of the entity is displayed without a further read request. If the bound operation returns the entity used as binding parameter, the changes will automatically be copied to the binding parameter.
 
 If the operation binding fulfills the conditions for returning a context, you can set the parameter `$$inheritExpandSelect` for the binding: The request for the bound operation is then sent with the same `$expand` and `$select` query options used to load the operation's binding parameter. This way you guarantee that all fields of the object page are available in the operation response.
 
-Sample object page to display an **Artist** entity
+Sample object page to display an `Artist` entity
 
 ```
 <form:SimpleForm id="objectPage">
@@ -344,7 +344,7 @@ Sample object page to display an **Artist** entity
 </form:SimpleForm>
 ```
 
-Controller code to display the active version of **Artist 42** initially and switch to draft version on *Edit*
+Controller code to display the active version of `Artist 42` initially and switch to draft version on *Edit*
 
 ```
 // display "active" version of artist initially

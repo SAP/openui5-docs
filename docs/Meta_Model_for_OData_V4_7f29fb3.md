@@ -28,7 +28,7 @@ The `requestObject` API documentation in the Demo Kit explains how metadata is a
 
 ### Annotations
 
-The main API for both programmatic access from JavaScript and declarative access from XML templating is **sap.ui.model.odata.v4.ODataMetaModel\#getObject**. It works together with **sap.ui.model.odata.v4.ODataMetaModel\#resolve** \(for `<template:with>`\) and **sap.ui.model.odata.v4.ODataMetaModel\#bindList** \(for `<template:repeat>`\) in order to provide convenient access to annotations, inline as well as external targeting.
+The main API for both programmatic access from JavaScript and declarative access from XML templating is `sap.ui.model.odata.v4.ODataMetaModel#getObject`. It works together with `sap.ui.model.odata.v4.ODataMetaModel#resolve` \(for `<template:with>`\) and `sap.ui.model.odata.v4.ODataMetaModel#bindList` \(for `<template:repeat>`\) in order to provide convenient access to annotations, inline as well as external targeting.
 
 The OData meta model knows how to follow "14.2.1 Attribute Target" described in specification "[OData Version 4.0 Part 3: Common Schema Definition Language](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)" as well as "14.5.2 Expression edm:AnnotationPath", "14.5.11 Expression edm:NavigationPropertyPath", "14.5.12 Expression edm:Path", and "14.5.13 Expression edm:PropertyPath".
 

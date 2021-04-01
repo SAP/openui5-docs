@@ -67,12 +67,12 @@ The report contains the following elements:
 
 You can also download the report by selecting *Download* \(below the *View* button\). The report is going to be downloaded in a ZIP format containing the following files:
 
--   The report HTML \(**report.html**\)
+-   The report HTML \(*report.html*\)
 
--   A JSON file with all loaded components **\(appInfos.json**\)
+-   A JSON file with all loaded components *\(appInfos.json*\)
 
--   A JSON file with all issues \(**issues.json**\)
+-   A JSON file with all issues \(*issues.json*\)
 
--   A JSON file with all technical information \(**technicalInfo.json**\)
+-   A JSON file with all technical information \(*technicalInfo.json*\)
 
 

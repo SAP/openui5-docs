@@ -146,7 +146,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
      ![](loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png) 
 
--   `sap.m.StepInput`: The `StepInput` control allows the user to change the input value with a predefined step. The value can be changed using the increment/decrement buttons or keys on the keyboard. On the desktop, when using the keyboard *PgUp* and *PgDn* keys, the value increases/decreases two steps at a time.
+-   `sap.m.StepInput`: The `StepInput` control allows the user to change the input value with a predefined step. The value can be changed using the increment/decrement buttons or keys on the keyboard. On the desktop, when using the keyboard [PgUp\] and [PgDn\] keys, the value increases/decreases two steps at a time.
 
      ![](loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png) 
 

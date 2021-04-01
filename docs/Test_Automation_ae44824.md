@@ -37,6 +37,8 @@ Initial setup of the application testing environment with Karma.
 
 You have installed the *current* or *LTS* version of *Node.js* from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
+***
+
 1.  Install the *Karma CLI* globally via *npm* so that you can run *Karma* by typing the `karma` command in the command-line interface \(CLI\).
 
     For more information, see the [Karma Installation Guide on GitHub](http://karma-runner.github.io/latest/intro/installation.html).

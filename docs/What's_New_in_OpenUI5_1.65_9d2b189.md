@@ -110,7 +110,7 @@ We have improved the `sap.m.Select` control to display the text set in the `valu
 
 -   We have improved the visual design of appointments that are shorter than 30 minutes. The color bar at the left border of appointments now has variable height to represent the time interval accurately. For appointments that are 30 minutes or longer, it fills 100% of the height.
 
--   You can now focus on individual cells in the `SinglePlanningCalendar` and navigate between them using the keyboard. When pressing the *Space* or *Enter* key on a focused cell, the new `cellPress` event is fired, which can be used for creating an appointment.
+-   You can now focus on individual cells in the `SinglePlanningCalendar` and navigate between them using the keyboard. When pressing the [Space\] or [Enter\] key on a focused cell, the new `cellPress` event is fired, which can be used for creating an appointment.
 
 -   We have improved the visual design of the control by adding a shadow effect below the sticky header so that it is easier for the user to recognize the line between the fixed header and the scrollable content.
 

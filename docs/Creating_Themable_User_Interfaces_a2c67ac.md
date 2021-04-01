@@ -26,7 +26,7 @@ For example, if you hard-coded the font color to black, this color cannot be adj
 
 -   Themes in OpenUI5 are built with the CSS preprocessor [LESS](http://lesscss.org/) and make use of a complex parameter structure.
 -   You can view the entire set of basic theme parameters in this [sample](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.BasicThemeParameters/preview) in the Demo Kit.
--   OpenUI5 applications have access to these parameters at runtime via the API call **Parameters.get\\\(\\\)** from module **sap/ui/core/theming/Parameters**. These parameters not only differ in terms of themes, they are also not necessarily stable across different versions of OpenUI5. For this reason, you cannot rely on the completeness of the set of parameters.
+-   OpenUI5 applications have access to these parameters at runtime via the API call `Parameters.get\(\)` from module `sap/ui/core/theming/Parameters`. These parameters not only differ in terms of themes, they are also not necessarily stable across different versions of OpenUI5. For this reason, you cannot rely on the completeness of the set of parameters.
 -   To allow developers to build theme-dependent, custom-styled applications or controls, a subset of roughly 70 parameters representing colors for different types of usage \(such as border, backgrounds, charts\) is available.
 -   The parameters in this subset can be considered as "stable", which means the following:
     -   We will not change the naming for these parameters.

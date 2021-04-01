@@ -171,7 +171,7 @@ For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test
 |
 |**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
--   You can now select rows using key combinations \(select one row: * SHIFT SPACE *, select multiple rows: * SHIFT UP * and * SHIFT DOWN *\). For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.Selection).
+-   You can now select rows using key combinations \(select one row:  [SHIFT\] + [SPACE\] , select multiple rows:  [SHIFT\] + [UP\]  and  [SHIFT\] + [DOWN\] \). For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.Selection).
 
 -   A new `navigated` property is now available for rows with row actions: After a user has displayed the details of an item, a navigation indicator at the end of the corresponding row indicates that the user has already viewed the details. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.RowSettings) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.RowAction).
 

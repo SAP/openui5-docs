@@ -54,7 +54,7 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 
 We add the `onDelete` event handler to the controller. In the event handler, we check whether an item is selected in the table and if so, the related data is deleted from the model. To do that, we retrieve the binding context of the selection and call its `delete` method.
 
-We explicitly set the update group ID for the deletion to **$auto** to make sure that the request to the service is sent immediately as a batch request. Otherwise the `delete` function would apply the deferred batch processing that we defined for the table’s list binding event though, `delete` does not currently support deferred batch processing.
+We explicitly set the update group ID for the deletion to `$auto` to make sure that the request to the service is sent immediately as a batch request. Otherwise the `delete` function would apply the deferred batch processing that we defined for the table’s list binding event though, `delete` does not currently support deferred batch processing.
 
 ***
 

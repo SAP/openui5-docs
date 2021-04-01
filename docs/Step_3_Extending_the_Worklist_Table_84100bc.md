@@ -315,7 +315,7 @@ Finally, we modify the existing column names in the resource bundle file `webapp
 > 
 > In the previous code blocks of this step we made sure that our table is responsive. Depending on the device type, columns are hidden, displayed as a popin, or displayed without a popin. Now, we want to test the responsiveness without the having different devices. If you use the Google Chrome browser, you can also use its great developer tools to test the responsiveness of your app:
 > 
-> 1.  Call the app and open the developer tools in Chrome with *F12*.
+> 1.  Call the app and open the developer tools in Chrome with [F12\].
 > 
 > 2.  Choose the *Toggle device mode* icon.
 > 

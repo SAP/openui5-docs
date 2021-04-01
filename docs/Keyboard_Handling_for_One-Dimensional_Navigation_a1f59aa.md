@@ -33,14 +33,14 @@ If focus is on the first item, do nothing.
 			</td>
 		</tr>
 		<tr>
-			<td>*Down arrow*, *Right arrow*
+			<td>[Down arrow\], [Right arrow\]
 			</td>
 			<td>If focus is on an item, move focus to the **next** item.
 If focus is on the last item, do nothing.
 			</td>
 		</tr>
 		<tr>
-			<td>*Page up*
+			<td>[Page up\]
 			</td>
 			<td>If focus is on an item, move focus **up/ left** by page size.
  > Note:  
@@ -50,7 +50,7 @@ If focus is on the last item, do nothing.
 			</td>
 		</tr>
 		<tr>
-			<td>*Page down*
+			<td>[Page down\]
 			</td>
 			<td>If focus is on an item, move focus **down/ right** by page size.
  > Note:  
@@ -60,13 +60,13 @@ If focus is on the first item, do nothing.
 			</td>
 		</tr>
 		<tr>
-			<td>*Home*
+			<td>[Home\]
 			</td>
 			<td>If focus is on an item, move focus to the **first** item.
 			</td>
 		</tr>
 		<tr>
-			<td>*End*
+			<td>[End\]
 			</td>
 			<td>If focus is on an item, move focus to the **last** item.
 			</td>

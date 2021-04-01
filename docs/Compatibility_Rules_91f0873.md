@@ -148,7 +148,7 @@ Experimental features and controls can be changed or deleted at any time without
 
 ### Third-Party Open Source Libraries
 
-OpenUI5 contains and uses several third-party open source libraries, such as **jQuery**. These libraries can also be used by applications and/or custom control libraries, but the OpenUI5 compatibility rules described in this document do not apply to these third-party libraries.
+OpenUI5 contains and uses several third-party open source libraries, such as `jQuery`. These libraries can also be used by applications and/or custom control libraries, but the OpenUI5 compatibility rules described in this document do not apply to these third-party libraries.
 
 If you want to use the third-party open source libraries included in OpenUI5, note the following restrictions:
 

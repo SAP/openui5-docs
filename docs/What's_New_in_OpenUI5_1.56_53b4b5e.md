@@ -149,7 +149,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   The new `enableAppointmentResize` boolean property provides the possibility to resize appointments in one `PlanningCalendarRow`. When resizing is finished, an `appointmentResize` event is fired.
 
--   A new functionality to copy appointments by dragging them is added on the `PlanningCalendarRow` level. When you press *Ctrl*/*Cmd* while dragging an appointment, dropping it will create a copy.
+-   A new functionality to copy appointments by dragging them is added on the `PlanningCalendarRow` level. When you press [Ctrl\]/[Cmd\] while dragging an appointment, dropping it will create a copy.
 
      For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarDnD/preview). 
 

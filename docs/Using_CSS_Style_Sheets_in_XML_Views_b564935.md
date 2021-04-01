@@ -19,6 +19,8 @@ The effect is the same as calling `myButton.addStyleClass(...)`.
 > Tip:  
 > We recommend to carefully choose the elements that you style as the CSS always affects the whole page and is **not** restricted to the view.
 
+***
+
 1.  To add a style sheet, add the style definition.
 
     To add a style class and define a button that uses it, add the following coding:

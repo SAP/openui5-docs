@@ -25,6 +25,8 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 });
 ```
 
+***
+
 1.  Since both mouse and touch should now be supported, the code needs to be changed as follows:
 
     -   When using jQuery:

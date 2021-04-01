@@ -75,7 +75,7 @@ We are extending the set of controls that support the possibility to add links a
 |
 |**`sap.m.Panel`**
 
-We have enhanced the control by making the whole header clickable to allow users to collapse/expand the `sap.m.Panel` easier and faster. In addition, when the focus is on the active area, the *Spacebar* and *Enter*/*Return* keys also trigger expand/collapse of the control. This scenario works if the title is provided via the API. If the `headerToolbar` aggregation is used, app developers have to handle it on their own. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Panel). 
+We have enhanced the control by making the whole header clickable to allow users to collapse/expand the `sap.m.Panel` easier and faster. In addition, when the focus is on the active area, the [Spacebar\] and [Enter\]/[Return\] keys also trigger expand/collapse of the control. This scenario works if the title is provided via the API. If the `headerToolbar` aggregation is used, app developers have to handle it on their own. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Panel). 
 
 |
 |**`sap.ui.integration.widgets.Card`**

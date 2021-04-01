@@ -27,7 +27,7 @@ You should develop the control as usual, with only left-to-right \(LTR\) directi
 -   Think about the RTL behavior according to the items below when writing JavaScript code that relates to positions.
 
 
-You can find more detailed guidelines and specifics in the **Related Information** section.
+You can find more detailed guidelines and specifics in the *Related Information* section.
 
 ***
 
@@ -39,7 +39,7 @@ You can test your control by setting the URL parameter `sap-ui-rtl` to `true`. T
 
 ### RTL Mode in Text-Displaying Controls
 
-Languages that have RTL text directionality keep the default directionality of numeric values and texts in LTR mode. In order to handle these cases, OpenUI5 uses two additional API properties - `textDirection` and `textAlign`. You can find detailed information on how to use these properties in the section **Related Information**.
+Languages that have RTL text directionality keep the default directionality of numeric values and texts in LTR mode. In order to handle these cases, OpenUI5 uses two additional API properties - `textDirection` and `textAlign`. You can find detailed information on how to use these properties in the section *Related Information*.
 
 **Related Information**  
 

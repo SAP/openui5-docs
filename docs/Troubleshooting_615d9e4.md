@@ -42,7 +42,7 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 			<td>Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.
 			</td>
 			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
-* Ctrl Shift Alt */* Option P *
+ [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 
 Gesture on mobile device:
 
@@ -64,7 +64,7 @@ Gesture on mobile device:
 			<td>Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.
 			</td>
 			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
-* Ctrl Shift Alt */* Option S *
+ [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [S\] 
 			</td>
 		</tr>
 		<tr>

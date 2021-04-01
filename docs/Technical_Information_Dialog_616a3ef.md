@@ -14,7 +14,7 @@ The *Technical Information* dialog shows details of the OpenUI5 version currentl
 
 To open the technical information dialog from within a supported desktop browser, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 
- * Ctrl Shift Alt */* Option P *
+  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 
 ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
@@ -59,7 +59,7 @@ If you only want to load the debug sources for **specific packages**, you have t
 
 After reloading the page, in the *Network* tab of the browser’s developer tools you can see that the controls and framework assets are now loaded individually and have a `-dbg` suffix. These are the source code files that include comments, the uncompressed code of the app, and the OpenUI5 artifacts.
 
-Choose * Ctrl O * \(Windows\) or * Command O * \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
+Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
 
 > Note:  
 > Turning on debug sources also increases the log level. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
@@ -128,7 +128,7 @@ To start the *E2E Trace*, proceed as follows:
 
 As a result, a dialog box opens indicating that your transaction has finished. Choose *OK* to continue running the current trace. Choose *Cancel* to stop the trace and display the result in a new window.
 
-After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a **host name** and a **port number**, and then choosing *Submit*.
+After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a `host name` and a `port number`, and then choosing *Submit*.
 
 > Note:  
 > The result of the last completed trace is also visible in the *XML Output* field when you open the *Technical Information* dialog again.

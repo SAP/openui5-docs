@@ -70,11 +70,11 @@ We no longer apply default `min-height` in the control, which allows smaller car
 |
 |**`sap.f.GridList`**
 
-We have improved the keyboard handling capabilities of the control. Now, similar to `sap.f.GridContainer`, the navigation with *Arrow* keys follows the cells of the underlying \(virtual\) grid. This behavior provides stable navigation paths if there are items of different sizes. When any of the borders are reached, the `borderReached` event is fired. To navigate to another `GridList`, you have two options:
+We have improved the keyboard handling capabilities of the control. Now, similar to `sap.f.GridContainer`, the navigation with [Arrow\] keys follows the cells of the underlying \(virtual\) grid. This behavior provides stable navigation paths if there are items of different sizes. When any of the borders are reached, the `borderReached` event is fired. To navigate to another `GridList`, you have two options:
 
--   Navigate using the *Tab* key.
+-   Navigate using the [Tab\] key.
 
--   Configure navigation with the *Arrow* keys. This is achieved by using the `focusItemByDirection` method and requires additional logic from the application side to determine the navigation direction in the actual app layout.
+-   Configure navigation with the [Arrow\] keys. This is achieved by using the `focusItemByDirection` method and requires additional logic from the application side to determine the navigation direction in the actual app layout.
 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridList) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList).
@@ -87,7 +87,7 @@ We have added a new `animation` property that enables you to choose the animatio
 |
 |`**sap.m.Dialog**`
 
-You can now drag and resize the dialog using the keyboard. To enable this behavior, you have to set the `draggable` and/or `resizable` properties to `true`. While the keyboard focus is located on the title bar, the dialog can then be moved with the *Arrow* keys and resized with * Shift Arrow * keys. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Dialog/sample/sap.m.sample.Dialog).
+You can now drag and resize the dialog using the keyboard. To enable this behavior, you have to set the `draggable` and/or `resizable` properties to `true`. While the keyboard focus is located on the title bar, the dialog can then be moved with the [Arrow\] keys and resized with  [Shift\] + [Arrow\]  keys. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Dialog/sample/sap.m.sample.Dialog).
 
 |
 |**`sap.m.Image`**

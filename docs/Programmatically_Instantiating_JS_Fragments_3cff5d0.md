@@ -44,7 +44,7 @@ Fragment.load({
 });
 ```
 
-This button can now be used as if it had been created in a standard way. Note how a controller instance is passed as an additional parameter. This is required because that particular fragment binds the button press handler to the method **doSomething** in the given controller. With no controller given, this would cause an error.
+This button can now be used as if it had been created in a standard way. Note how a controller instance is passed as an additional parameter. This is required because that particular fragment binds the button press handler to the method `doSomething` in the given controller. With no controller given, this would cause an error.
 
 For fragments that are used several times, an ID for the fragment can be given optionally, see [Unique IDs](Unique_IDs_5da591c.md):
 

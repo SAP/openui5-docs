@@ -16,7 +16,7 @@ Screen readers offer list features, that ease the app navigation, by grouping an
 
 ### Keyboard Handling for Role Mapped Controls
 
-The applied role names define implicitly the keyboard usage. For example an element with `role=button` can be activated with *SPACE* and *ENTER* keys, navigation between controls with `role=menuitem` is expected using *Arrow keys* and so on.
+The applied role names define implicitly the keyboard usage. For example an element with `role=button` can be activated with [SPACE\] and [ENTER\] keys, navigation between controls with `role=menuitem` is expected using [Arrow keys\] and so on.
 
 > Note:  
 > If you develop new OpenUI5 controls please note the following:

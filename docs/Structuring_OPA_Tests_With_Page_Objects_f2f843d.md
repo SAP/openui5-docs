@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Structuring OPA Tests With Page Objects
 
-The page object design pattern supports UI-based tests with improved readability, fostering the **don't repeat yourself** \(DRY\) principle of software development that is aimed at reducing repetition of any kind of information.
+The page object design pattern supports UI-based tests with improved readability, fostering the *don't repeat yourself* \(DRY\) principle of software development that is aimed at reducing repetition of any kind of information.
 
 A page object wraps an HTML page or fragment with an application-specific API, which makes it easy to find a control and provide reuse across multiple tests. If you have multiple pages or UI areas that have several operations, you can place them as reuse functionality in page object. The page object groups all OPA arrangements, actions, and assertions that logically belong to some part of the screen. Since only the test will know if an action is used to set up the test case or to act on the application under test, the page object will combine actions and arrangements into actions. In contrast to the general guidance of Selenium and Martin Fowler, OPA page objects also provide assertions, as the corresponding testing via `waitFor` statements better fit into the page objects. When you define actions or assertions in your page object, have in mind how the test would spell them and if that would be similar to the way you would explain a scenario to your colleagues.
 

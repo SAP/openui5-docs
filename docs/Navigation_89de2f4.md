@@ -20,9 +20,9 @@ With an empty hash in the URL, only the master view is shown initially. When the
 
  ![](loioec746bc8018543fda1fae5230367dfc5_LowRes.png "Navigation Flow of the Master-Detail App") 
 
-The two main views *Master* and *Object* each have a route and two targets configured. When the route matches the URL, both targets are displayed and the corresponding views are created. The target master puts the created view in the **beginColumnPages** aggregation of the **sap.f.FlexibleColumnLayout** control. All other targets put their created views in the **midColumnPages** aggregation. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md).
+The two main views *Master* and *Object* each have a route and two targets configured. When the route matches the URL, both targets are displayed and the corresponding views are created. The target master puts the created view in the `beginColumnPages` aggregation of the `sap.f.FlexibleColumnLayout` control. All other targets put their created views in the `midColumnPages` aggregation. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md).
 
-Here is a sample implementation for navigating from the *Master* to the *Object* page. The below**\_showDetail** method is called by the **selectionChange** event handler of the **sap.m.List** control. We need to change the layout parameter of the **sap.f.FlexibleColumnLayout** to **TwoColumnsMidExpanded** and navigate to the **object** route. Then, we extract the current ID of the object pressed by using its binding context. We supply this parameter to the mandatory **objectId** parameter and pass it to the **navTo** function, as described in the [`sap.ui.core.routing.Routing#navTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router/methods/navTo) section of the *API Reference* in the Demo Kit and shown here:
+Here is a sample implementation for navigating from the *Master* to the *Object* page. The below`_showDetail` method is called by the `selectionChange` event handler of the `sap.m.List` control. We need to change the layout parameter of the `sap.f.FlexibleColumnLayout` to `TwoColumnsMidExpanded` and navigate to the `object` route. Then, we extract the current ID of the object pressed by using its binding context. We supply this parameter to the mandatory `objectId` parameter and pass it to the `navTo` function, as described in the [`sap.ui.core.routing.Routing#navTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router/methods/navTo) section of the *API Reference* in the Demo Kit and shown here:
 
 ``` js
 ...
@@ -43,7 +43,7 @@ _showDetail : function (oItem) {
 ...
 ```
 
-After calling `navTo`, the hash of the browser is updated, and you get an event on the `DetailController` when the route **object** matches the current hash. In the **\_onObjectMatched** handler that we register in the **init** method of the controller, we extract the **objectID** from the event arguments and create a valid model path with the help of the **createKey** method of our OData model. We then bind the data to the view:
+After calling `navTo`, the hash of the browser is updated, and you get an event on the `DetailController` when the route `object` matches the current hash. In the `_onObjectMatched` handler that we register in the `init` method of the controller, we extract the `objectID` from the event arguments and create a valid model path with the help of the `createKey` method of our OData model. We then bind the data to the view:
 
 ``` js
 ...
@@ -76,7 +76,7 @@ The *not found* pages are implemented using an [sap.m.MessagePage](https://openu
 
 If you have the following URL, no route will match: `index.html/#/thisIsInvalid`. This means that the *notFound* view will be displayed, as the target *notFound* is defined in the bypassed section.
 
-The code sample below shows the relevant parts of the configuration. In addition, we set the layout property for the **sap.f.FlexibleColumnLayout** to **OneColumn** in the controller of the *notFound* page so that only a single column is displayed in this case. For a full implementation of a *not found* page, see [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md).
+The code sample below shows the relevant parts of the configuration. In addition, we set the layout property for the `sap.f.FlexibleColumnLayout` to `OneColumn` in the controller of the *notFound* page so that only a single column is displayed in this case. For a full implementation of a *not found* page, see [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md).
 
 ``` js
 "routing": {

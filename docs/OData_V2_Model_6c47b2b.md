@@ -681,7 +681,7 @@ The `preliminaryContext` option can also be activated/deactivated per binding in
 
 #### ODataModel v2
 
-The constructor parameter is named **preliminaryContext** \(type Boolean\) and has the following properties:
+The constructor parameter is named `preliminaryContext` \(type Boolean\) and has the following properties:
 
 -   Default value is `false`.
 
@@ -694,7 +694,7 @@ The constructor parameter is named **preliminaryContext** \(type Boolean\) and h
 
 #### ODataListBinding v2
 
-The constructor parameter is named **usePreliminaryContext** \(type Boolean\) and has the following properties:
+The constructor parameter is named `usePreliminaryContext` \(type Boolean\) and has the following properties:
 
 -   Default value is `false`, as it is derived from the ODataModel's default.
 
@@ -738,11 +738,11 @@ To describe the preliminary context feature in more detail, we first have to loo
 
  ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example") 
 
-Without using preliminary contexts, **Binding 1** resolves only after **Binding 0** is resolved.
+Without using preliminary contexts, `Binding 1` resolves only after `Binding 0` is resolved.
 
-For example, if **Binding 1** is a relative `ODataListBinding` on a `Table` control, its OData request will only be sent, once the data for the absolute **Binding 0** is available, for example by using an Element binding on a `Panel` control.
+For example, if `Binding 1` is a relative `ODataListBinding` on a `Table` control, its OData request will only be sent, once the data for the absolute `Binding 0` is available, for example by using an Element binding on a `Panel` control.
 
-This leads to two subsequent OData requests, one for **Binding 0** and afterwards one for **Binding 1**, as shown in the following table:
+This leads to two subsequent OData requests, one for `Binding 0` and afterwards one for `Binding 1`, as shown in the following table:
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Example: Binding Resolution
 
@@ -782,7 +782,7 @@ Now let's look at a more complex example.
 
  ![](loio410269787de249dc8b573954dd0adc86_LowRes.png "Complex Binding Example") 
 
-In this example we add another binding, which will be resolved once **Binding 0** and **Binding 1** are resolved. This leads to the following three individual `$batch` requests:
+In this example we add another binding, which will be resolved once `Binding 0` and `Binding 1` are resolved. This leads to the following three individual `$batch` requests:
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ssr_ddz_zbb"/>Complex Example: Binding Resolution
 
@@ -832,7 +832,7 @@ Let's look at the same simple example but with some optimizations.
 
  ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example - Optimized") 
 
-Here **Binding 1** uses the preliminary context created by **Binding 0**, and thus the request URL can directly be resolved.
+Here `Binding 1` uses the preliminary context created by `Binding 0`, and thus the request URL can directly be resolved.
 
 This now leads to only a single `$batch` request:
 
@@ -861,7 +861,7 @@ This now leads to only a single `$batch` request:
 	</tbody>
 </table>
 
-In this example **Binding 1** has set its `usePreliminaryContext` flag to `true`, and thus accepts preliminary contexts to be set.
+In this example `Binding 1` has set its `usePreliminaryContext` flag to `true`, and thus accepts preliminary contexts to be set.
 
 > Note:  
 > If either `createPreliminaryContext` or `usePreliminaryContext` is set to `false`, the default behavior is active.
@@ -874,7 +874,7 @@ Now let's see how this works in the complex example.
 
  ![](loioe02b1d8006634769b0094215622c626d_LowRes.png "Complex Binding Example - Optimized") 
 
-In this example we added another binding to the scenario. **Binding 2** is again a relative binding, which can only resolve once **Binding 1** is resolved. **Binding 1** behaves just as before.
+In this example we added another binding to the scenario. `Binding 2` is again a relative binding, which can only resolve once `Binding 1` is resolved. `Binding 1` behaves just as before.
 
 In this case the single, generated request looks like this:
 
@@ -909,14 +909,14 @@ In this case the single, generated request looks like this:
 
 #### Results and Conclusion
 
-Notice how the **Products** list of the **Supplier** is referenced through the entity **Products\(1\)**.This is a result of bundling all data requests into one single `$batch` request, without waiting for the **Products\(1\)** entity and its associated **Supplier** entity to be loaded.
+Notice how the `Products` list of the `Supplier` is referenced through the entity `Products(1)`.This is a result of bundling all data requests into one single `$batch` request, without waiting for the `Products(1)` entity and its associated `Supplier` entity to be loaded.
 
-As opposed to the default behavior, we do not require to have the **Products\(1\)** and **Supplier** entities loaded before sending the data request for the Supplier's **Products.Supplier**.So in this case we use a data path based on **Products\(1\)** and not the **ID** of the Supplier. You can compare that to the default behavior of the complex example described above.
+As opposed to the default behavior, we do not require to have the `Products(1)` and `Supplier` entities loaded before sending the data request for the Supplier's `Products.Supplier`.So in this case we use a data path based on `Products(1)` and not the `ID` of the Supplier. You can compare that to the default behavior of the complex example described above.
 
 > Example:  
 > What would happen if one binding in the above chain does not set the `usePreliminaryContext` or the `createPreliminaryContext` option to true?
 > 
-> For example, if **Binding 2** sets its `usePreliminaryContext` option to `false`, the resolution chain is broken and we have a mixed scenario. Here one part is loaded optimized in one `$batch`, and the second part is loaded in a separate `$batch`:
+> For example, if `Binding 2` sets its `usePreliminaryContext` option to `false`, the resolution chain is broken and we have a mixed scenario. Here one part is loaded optimized in one `$batch`, and the second part is loaded in a separate `$batch`:
 > 
 > <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_zr4_m3z_zbb"/>Complex Example: Binding Resolution Optimized
 > 
@@ -940,7 +940,7 @@ As opposed to the default behavior, we do not require to have the **Products\(1\
 > |
 
 > Note:  
-> With the `$expand` query option you can load all associated entities of another entity. In the previous examples we requested the **Product** list of a certain **Supplier** via a separate request. When using a `$expand` query instead, you could request the same information within one single request:
+> With the `$expand` query option you can load all associated entities of another entity. In the previous examples we requested the `Product` list of a certain `Supplier` via a separate request. When using a `$expand` query instead, you could request the same information within one single request:
 > 
 > `GET Products(1)?$expand=Supplier/Products`
 > 

@@ -43,33 +43,33 @@ Depending on the current date, we distinguish four different formatting categori
 	</thead>
 	<tbody>
 
-			<td> `2013/02/13 12:05:20` 
+			<td> ***2013/02/13 12:05:20*** 
 			</td>
-			<td> `12:05 PM` 
+			<td> ***12:05 PM*** 
 			</td>
 		</tr>
 		<tr>
 			<td>Yesterday
 			</td>
-			<td> `2013/02/12 12:05:20` 
+			<td> ***2013/02/12 12:05:20*** 
 			</td>
-			<td> `Yesterday` 
+			<td> ***Yesterday*** 
 			</td>
 		</tr>
 		<tr>
 			<td>Last 7 days
 			</td>
-			<td> `2013/02/08 12:05:20` 
+			<td> ***2013/02/08 12:05:20*** 
 			</td>
-			<td> `Friday` 
+			<td> ***Friday*** 
 			</td>
 		</tr>
 		<tr>
 			<td>Others
 			</td>
-			<td> `2011/02/05 12:05:20` 
+			<td> ***2011/02/05 12:05:20*** 
 			</td>
-			<td> `Dec 5, 2011` 
+			<td> ***Dec 5, 2011*** 
 			</td>
 		</tr>
 	</tbody>
@@ -302,7 +302,7 @@ sap.ui.define([
 });
 ```
 
-The next test verifies that `Yesterday` is returned for yesterday's date. To keep the test independent of the system time, we pass on a stable date to the formatter.
+The next test verifies that ***Yesterday*** is returned for yesterday's date. To keep the test independent of the system time, we pass on a stable date to the formatter.
 
 ***
 
@@ -341,7 +341,7 @@ sap.ui.define([
 });
 ```
 
-In the implementation we add a calculation for determining how many days passed. If zero days passed, the format function is called, and if one day passed `Yesterday` is returned. Currently we skip reading "Yesterday" from the i18n model to keep the example simple.
+In the implementation we add a calculation for determining how many days passed. If zero days passed, the format function is called, and if one day passed ***Yesterday*** is returned. Currently we skip reading "Yesterday" from the i18n model to keep the example simple.
 
 ***
 

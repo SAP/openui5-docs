@@ -118,7 +118,7 @@ The first one is named `$parameters` and contains the event parameters:
 <Select change=".doSomething(*HIGHLIGHT START*${$parameters>/selectedItem}*HIGHLIGHT END*)" />
 ```
 
-Here the event parameter **selectedItem** is passed into the event handler.
+Here the event parameter `selectedItem` is passed into the event handler.
 
 The other one is named `$source` and is a `ManagedObjectModel` which wraps the control firing the event:
 

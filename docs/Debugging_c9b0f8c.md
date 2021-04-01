@@ -40,7 +40,7 @@ If you only want to load the debug sources for **specific packages**, you have t
 
 After reloading the page, in the *Network* tab of the browser’s developer tools you can see that the controls and framework assets are now loaded individually and have a `-dbg` suffix. These are the source code files that include comments, the uncompressed code of the app, and the OpenUI5 artifacts.
 
-Choose * Ctrl O * \(Windows\) or * Command O * \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
+Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
 
 > Note:  
 > Turning on debug sources also increases the log level. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
@@ -55,7 +55,7 @@ Choose * Ctrl O * \(Windows\) or * Command O * \(macOS\) and type the name of an
 
 ***
 
-Open the *Diagnostics* window with the shortcut *CTRLSHIFTALTS*.
+Open the *Diagnostics* window with the shortcut [CTRL\] + [SHIFT\] + [ALT\] + [S\].
 
 At the top of the *Debugging* view, you can configure a custom URL from which the application should load OpenUI5 the next time that the app opens.
 
@@ -122,7 +122,7 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 
 2.  Select a control in the tree.
 
-    You can also press and hold *CtrlShiftAlt* and select a control in your app to select it in the tree.
+    You can also press and hold [Ctrl\] + [Shift\] + [Alt\] and select a control in your app to select it in the tree.
 
 3.  Select the *Breakpoints* tab on the right.
 

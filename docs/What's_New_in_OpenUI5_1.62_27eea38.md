@@ -146,7 +146,7 @@ You can now use more values for the `highlight` property. These values are provi
 |
 |**`sap.m.SinglePlanningCalendar`**
 
--   You can now select or deselect single appointments either by clicking or tapping on the appointment or by using the keyboard arrow keys to navigate to the appointment and then select or deselect it by pressing the space bar or the *Enter* key. You can enter multi-selection mode using key combinations \(for example, *Ctrl + click* for Microsoft Windows Operating Systems or *Cmd + click* for Mac Operating Systems\).
+-   You can now select or deselect single appointments either by clicking or tapping on the appointment or by using the keyboard arrow keys to navigate to the appointment and then select or deselect it by pressing the space bar or the [Enter\] key. You can enter multi-selection mode using key combinations \(for example, [Ctrl + click\] for Microsoft Windows Operating Systems or [Cmd + click\] for Mac Operating Systems\).
 
 -   The `sap.m.SinglePlanningCalendar` now has a new `stickyMode` property which allows users to select which toolbars will be fixed while scrolling.
 

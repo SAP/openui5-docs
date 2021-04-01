@@ -16,7 +16,7 @@ Controls consist of:
 
 -   Control name
 
-    The control name is a string that consists of the library name and the control name, separated by a dot. The library name can be omitted if there is no need to assign the control to a library. It is possible, for example, to use **Square** as control name. For controls that are reused by others, we recommend to use a unique library name, for example **sap.byd.Square**.
+    The control name is a string that consists of the library name and the control name, separated by a dot. The library name can be omitted if there is no need to assign the control to a library. It is possible, for example, to use `Square` as control name. For controls that are reused by others, we recommend to use a unique library name, for example `sap.byd.Square`.
 
 -   Control metadata
 
@@ -28,11 +28,11 @@ Controls consist of:
 
     Associated controls are not part or children of an aggregation control. They are connected by ID instead of reference. Destroying a control in an association does not affect the other control. It is possible that an associated control does not yet or no longer exist.
 
-    Controls fire events. Events typically relate to the control's purpose and functionality on a semantically higher level than browser events such as **click**. Examples for control events are **triggerSearch** for a search field or **collapse** in a panel.
+    Controls fire events. Events typically relate to the control's purpose and functionality on a semantically higher level than browser events such as `click`. Examples for control events are `triggerSearch` for a search field or `collapse` in a panel.
 
 -   Elements
 
-    Elements are parts of controls or rather configuration packages for parts of controls. Elements **cannot** be used standalone and do **not** have their own renderer. Instead, the control that uses the element does the rendering: The **ComboBox** control, for example, renders the **Item** elements. The information provided for controls also applies to elements but not to the renderer. The `sap.ui.core.Element` class is the base class of `sap.ui.core.Control`.
+    Elements are parts of controls or rather configuration packages for parts of controls. Elements **cannot** be used standalone and do **not** have their own renderer. Instead, the control that uses the element does the rendering: The `ComboBox` control, for example, renders the `Item` elements. The information provided for controls also applies to elements but not to the renderer. The `sap.ui.core.Element` class is the base class of `sap.ui.core.Control`.
 
 -   Methods
 

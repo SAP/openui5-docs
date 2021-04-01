@@ -49,35 +49,35 @@ The Text control supports the rendering of new lines and the preservation of whi
 	</thead>
 	<tbody>
 
-			<td> **\\n** 
+			<td> `\n` 
 			</td>
-			<td> **&\#xA;** 
+			<td> `&#xA;` 
 			</td>
 		</tr>
 		<tr>
 			<td>**\\n**
 For example, if you want to visualize `C:\NewFolder`
 			</td>
-			<td> **\\\\n** 
+			<td> `\\n` 
 			</td>
-			<td> **\\n** 
+			<td> `\n` 
 			</td>
 		</tr>
 		<tr>
 			<td> **Tab** 
 			</td>
-			<td> **\\t** 
+			<td> `\t` 
 			</td>
-			<td> **&\#x9;** 
+			<td> `&#x9;` 
 			</td>
 		</tr>
 		<tr>
 			<td>**\\t**
 For example, if you want to visualize `C:\TestFolder`
 			</td>
-			<td> **\\\\t** 
+			<td> `\\t` 
 			</td>
-			<td> **\\t** 
+			<td> `\t` 
 			</td>
 		</tr>
 	</tbody>

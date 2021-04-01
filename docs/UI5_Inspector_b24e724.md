@@ -35,7 +35,7 @@ You can download the UI5 Inspector as a standard extension from the Chrome Web S
 
 ### Features
 
-Once installed, the UI5 Inspector is available in Chrome DevTools \(by choosing *F12*\). It becomes active when an OpenUI5 app is loaded.
+Once installed, the UI5 Inspector is available in Chrome DevTools \(by choosing [F12\]\). It becomes active when an OpenUI5 app is loaded.
 
 **Browser Action**
 

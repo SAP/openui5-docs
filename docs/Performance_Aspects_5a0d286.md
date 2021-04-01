@@ -46,7 +46,7 @@ The reuse of data in different bindings may help to avoid unnecessary requests. 
 
 The requests for the service's root `$metadata` document and annotation files and for the security token may be on the "critical execution path": By default, these requests are sent lazily when the OpenUI5 application starts, for example only when the corresponding information is needed. This delays application startup until these requests have returned.
 
-If you construct the model with an **earlyRequests** parameter, the requests are sent as early as possible and application startup performance may improve. Consider using the [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md), so that the requests are submitted even earlier.
+If you construct the model with an `earlyRequests` parameter, the requests are sent as early as possible and application startup performance may improve. Consider using the [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md), so that the requests are submitted even earlier.
 
 > Note:  
 > Modern browsers typically can process up to six parallel requests. If and how much the performance improves therefore strongly depends on the number of requests sent initially by the application.

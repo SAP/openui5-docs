@@ -139,9 +139,9 @@ For all controls that implement the `animation` parameter, the `animationMode` i
 			<td> string[]`
 Default value: \[ \]
 
-Modifiable at runtime via the **AppCacheBuster** API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
+Modifiable at runtime via the `AppCacheBuster` API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
 
-If set to a non-empty list of URLs, the **AppCacheBuster** will be activated and will load component version info files from the configured set of URLs \(see [Application Cache Buster](Application_Cache_Buster_ff7aced.md)\).
+If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and will load component version info files from the configured set of URLs \(see [Application Cache Buster](Application_Cache_Buster_ff7aced.md)\).
 			</td>
 			<td>
 
@@ -610,7 +610,7 @@ ALL`
 			<td>Type: `boolean`
 Default value: `false`
 
-Modifiable at runtime by using the option with same name in the **sap.ui.component** API.
+Modifiable at runtime by using the option with same name in the `sap.ui.component` API.
 
 If set to `true`, the descriptor for a component is read and evaluated first, before loading the component code \(`Component.js`\).
 			</td>

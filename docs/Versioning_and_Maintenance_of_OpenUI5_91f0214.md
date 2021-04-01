@@ -63,7 +63,7 @@ Check the available versions with respective maintenance status at [https://open
 
 ###  OpenUI5 Version \(Core Version\)
 
-You can find which patch versions you use in your app in the technical information dialog \(* Ctrl Left Alt Shift P *\).
+You can find which patch versions you use in your app in the technical information dialog \( [Ctrl\] + [Left Alt\] + [Shift\] + [P\] \).
 
 To access the OpenUI5 version \(core version\) at runtime, you use the following code:
 

@@ -24,7 +24,7 @@ With version 1.54 all language files will include the CLDR data for formatting. 
 
 The default CLDR units include a pattern for formatting a number value in the given unit and the set locale. Additionally, you can now parse an already formatted string back into the unit-format code from the CLDR and of course the raw number value. The same is true for your self-defined custom units.
 
-In addition to the formatting and parsing patterns, the CLDR also provides a display-name for all units, as well as grammatical plural forms. The display-name for the unit **volume-cubic-inch** is *inches³*. The formatting output might however look like this: *12 in³*.
+In addition to the formatting and parsing patterns, the CLDR also provides a display-name for all units, as well as grammatical plural forms. The display-name for the unit `volume-cubic-inch` is *inches³*. The formatting output might however look like this: *12 in³*.
 
 ***
 
@@ -51,7 +51,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 
 #### Complex Sample
 
-Besides a simple formatting and parsing of units defined in the CLDR, you can also use the known format options for formatting numbers independent of the unit. The style of the number output format can be defined as either **short** or **long.**
+Besides a simple formatting and parsing of units defined in the CLDR, you can also use the known format options for formatting numbers independent of the unit. The style of the number output format can be defined as either `short` or `long.`
 
 Essentially, the new unit formatting can be combined together with the existing number formatting.
 
@@ -74,7 +74,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 });
 ```
 
-The unit’s **displayname** can also be retrieved based on the data from the CLDR.
+The unit’s `displayname` can also be retrieved based on the data from the CLDR.
 
 ```
 sap.ui.require(["sap/ui/core/format/NumberFormat", "sap/ui/core/Locale", "sap/ui/core/LocaleData"],
@@ -150,7 +150,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 > Caution:  
 > The custom units defined on the number format instance will be exclusive to this instance. No other instances are affected. In addition, once you define custom units for an instance, only those units will be formatted and parsed by that instance. This also means that custom units defined via the Configuration are not taken into account for this specific instance.
 > 
-> This is done to circumvent ambiguities and unit clashes with the CLDR units. So in the above example, only Zombies can be formatted, but no Gigawatt \(CLDR key: **power-gigawatt**\).
+> This is done to circumvent ambiguities and unit clashes with the CLDR units. So in the above example, only Zombies can be formatted, but no Gigawatt \(CLDR key: `power-gigawatt`\).
 > 
 > > Example:  
 > > ```
@@ -222,7 +222,7 @@ sap.ui.getCore().getConfiguration().getFormatSettings().addUnitMappings({
 
 #### Additional Format Options
 
-When using either instance, exclusive or globally configured custom units, you can also add two additional format options \(**decimals** and **precision**\) to the custom unit's definition block. In the following examples the **decimals** option is set.
+When using either instance, exclusive or globally configured custom units, you can also add two additional format options \(`decimals` and `precision`\) to the custom unit's definition block. In the following examples the `decimals` option is set.
 
 > Example:  
 > Globally configured custom units:
@@ -317,7 +317,7 @@ The third argument of the base Unit type constructor is a list of dynamic format
 > Note:  
 > If you use a combination of custom units on the Configuration and the Unit type, the format options from the type have priority.
 > 
-> So if you define a **decimals** value for a custom unit in the Configuration, the bound values from the Unit type instance will still be taken for the formatting.
+> So if you define a `decimals` value for a custom unit in the Configuration, the bound values from the Unit type instance will still be taken for the formatting.
 
 **Related Information**  
 

@@ -87,7 +87,7 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 
 -   Use URL Parameter `sap-ui-measure=true` to measure an initial request.
 
--   Use the diagnostics window in your app with * Ctrl Alt Shift S *. In this window, you can also see a visualization of the results.
+-   Use the diagnostics window in your app with  [Ctrl\] + [Alt\] + [Shift\] + [S\] . In this window, you can also see a visualization of the results.
 
 -   Activate measurement in the browser's console by calling `Measurement.setActive(true)`
 
@@ -173,7 +173,7 @@ Measurement.setActive(true,*HIGHLIGHT START*"require"*HIGHLIGHT END*)
 
 #### 2. Retrieve the results
 
-You can view the results in the *Performance* section of the diagnostics window \(* Ctrl Alt Shift S *\). Here, you can also refresh the result list, if the performance measurement is still running.
+You can view the results in the *Performance* section of the diagnostics window \( [Ctrl\] + [Alt\] + [Shift\] + [S\] \). Here, you can also refresh the result list, if the performance measurement is still running.
 
 You can retrieve the results via API with one of the following commands:
 

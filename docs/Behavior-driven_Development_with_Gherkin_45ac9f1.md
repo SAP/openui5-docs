@@ -66,7 +66,7 @@ The Gherkin library contains the following parts:
 
     Stitches together the feature file and steps file and executes runtime tests on the result using a test framework such as QUnit.
 
--   **DataTableUtils**
+-   `DataTableUtils`
 
     Convenience library for handling data tables and string normalization.
 

@@ -14,11 +14,11 @@ You can analyze the performance of your UI5 application by tracking the interact
 
 Interaction in this context means a closed step in a sequence of actions that a user performs on the UI, for example, everything that happens between two clicks on two different buttons. The interaction tracking considers XHRs, loadings triggered via script tags and rendering aspects.
 
-To **start** interaction tracking, use `Interaction.setActive(true)` from module **sap/ui/performance/trace/Interaction**. To map the interaction data to the data of **sap/ui/performance/Measurement**, you have to explicitly set `sap-ui-measure=true`.
+To **start** interaction tracking, use `Interaction.setActive(true)` from module `sap/ui/performance/trace/Interaction`. To map the interaction data to the data of `sap/ui/performance/Measurement`, you have to explicitly set `sap-ui-measure=true`.
 
-To **retrieve** the result of the interaction measurement, use `Interaction.getAll()` from module **sap/ui/performance/trace/Interaction**. This returns an array of all interactions that occurred and their measurement.
+To **retrieve** the result of the interaction measurement, use `Interaction.getAll()` from module `sap/ui/performance/trace/Interaction`. This returns an array of all interactions that occurred and their measurement.
 
-You can use `Interaction.filter` from module **sap/ui/performance/trace/Interaction** to filter the interaction measurements according to a filter function \(`fnFilter`\).
+You can use `Interaction.filter` from module `sap/ui/performance/trace/Interaction` to filter the interaction measurements according to a filter function \(`fnFilter`\).
 
 ***
 
@@ -183,7 +183,7 @@ Requests that are started while another request is already in progress are ignor
 			</td>
 			<td> `PerformanceTiming[]` 
 			</td>
-			<td>All requests that occurred during the interaction, taken from the **NavigationTiming** API
+			<td>All requests that occurred during the interaction, taken from the `NavigationTiming` API
 			</td>
 		</tr>
 		<tr>
@@ -266,7 +266,7 @@ Requests that are started while another request is already in progress are ignor
 
 [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
 
-[**NavigationTiming** API on `https://developer.mozilla.org`](https://developer.mozilla.org/en/docs/Web/API/Navigation_timing_API)
+[`NavigationTiming` API on `https://developer.mozilla.org`](https://developer.mozilla.org/en/docs/Web/API/Navigation_timing_API)
 
 [Navigation Timing on `https://www.w3.org/`](https://www.w3.org/TR/2012/REC-navigation-timing-20121217)
 

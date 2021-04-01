@@ -78,16 +78,16 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 |**`sap.f.GridContainer`**
 
-We have enhanced the keyboard handling capabilities of the Grid Container. You can now navigate to the item below or above using the *Down Arrow* and *Up Arrow*. If you reach any of the borders of the Grid Container, the `borderReached` event will be fired.
+We have enhanced the keyboard handling capabilities of the Grid Container. You can now navigate to the item below or above using the [Down Arrow\] and [Up Arrow\]. If you reach any of the borders of the Grid Container, the `borderReached` event will be fired.
 
-You can now perform drag-and-drop operations using * Ctrl Arrow Keys * simultaneously. If your Grid Container is configured for drag and drop \(has `sap.ui.core.dnd.DropInfo` and `sap.f.dnd.GridDragInfo`\), then you will receive similar events as if you were dragging with a mouse.
+You can now perform drag-and-drop operations using  [Ctrl\] + [Arrow Keys\]  simultaneously. If your Grid Container is configured for drag and drop \(has `sap.ui.core.dnd.DropInfo` and `sap.f.dnd.GridDragInfo`\), then you will receive similar events as if you were dragging with a mouse.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer%23methods/focusItem) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDrop).
 
 |
 |**`sap.m.Button`**
 
-Visualization of shortcut hints on focus and hover is now available. For example, * Ctrl S * is displayed for the Save button to help the user to find the correct shortcut. This is done by adding a command to a button. This new feature is available for the standalone `sap.m.Button` as well as for composite controls like `sap.ui.comp.smarttable.SmartTable` and `sap.ui.comp.smartfilterbar.SmartFilterBar`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.sample.Commands/sample/sap.ui.core.sample.Commands).
+Visualization of shortcut hints on focus and hover is now available. For example,  [Ctrl\] + [S\]  is displayed for the Save button to help the user to find the correct shortcut. This is done by adding a command to a button. This new feature is available for the standalone `sap.m.Button` as well as for composite controls like `sap.ui.comp.smarttable.SmartTable` and `sap.ui.comp.smartfilterbar.SmartFilterBar`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.sample.Commands/sample/sap.ui.core.sample.Commands).
 
 |
 |**`sap.m.DatePicker`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`**

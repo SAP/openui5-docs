@@ -40,7 +40,7 @@ We have improved the following Demo Kit areas:
 
 -   We have improved the readability of the *Known direct subclasses* popover in the *API Reference*. The subclasses are displayed in a list with only one item per row. It is now easier to browse through the numerous subclasses of base controls, such as `sap.ui.core.Control`.Check it out in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control).
 
--   You can now use the new * Ctrl Shift F * shortcut combination to directly enable the global search functionality and start typing without the need to select the search field.
+-   You can now use the new  [Ctrl\] + [Shift\] + [F\]  shortcut combination to directly enable the global search functionality and start typing without the need to select the search field.
 
 -   We have improved the appearance of long API names, such as methods and aggregations, in the *API Reference* so that they are no longer truncated.
 

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In addition to those performed automatically by OpenUI5, the application can apply further platform adaptations.
 
-You can use the **sap.ui.Device** API to check for touch enablement, a particular screen size, orientation, browser or operating system, for example. For more information about this API, see [The Device API](The_Device_API_69a8e46.md).
+You can use the `sap.ui.Device` API to check for touch enablement, a particular screen size, orientation, browser or operating system, for example. For more information about this API, see [The Device API](The_Device_API_69a8e46.md).
 
 Besides using this API, there are also several options available for you to use by using CSS, as outlined below.
 
@@ -24,17 +24,17 @@ Besides using this API, there are also several options available for you to use 
 
 To determine a control’s visibility in a device-dependent way, you can use the following CSS classes:
 
--   **sapUiVisibleOnlyOnDesktop**
+-   `sapUiVisibleOnlyOnDesktop`
 
--   **sapUiHideOnDesktop**
+-   `sapUiHideOnDesktop`
 
--   **sapUiVisibleOnlyOnTablet**
+-   `sapUiVisibleOnlyOnTablet`
 
--   **sapUiHideOnTablet**
+-   `sapUiHideOnTablet`
 
--   **sapUiVisibleOnlyOnPhone**
+-   `sapUiVisibleOnlyOnPhone`
 
--   **sapUiHideOnPhone**
+-   `sapUiHideOnPhone`
 
 
 The names are actually self-explanatory; for each device, you have a corresponding class that you can use to either explicitly hide or show the particular control.
@@ -48,7 +48,7 @@ The names are actually self-explanatory; for each device, you have a correspondi
 
 ### Responsive Margin and Padding Classes
 
-In order to make it possible for app developers to adjust margins and paddings in their apps without needing to write their own CSS, OpenUI5 provides them with convenience classes. For responsiveness, the classes **sapUiResponsiveMargin** and **sapUiResponsiveContentPadding** are particularly useful.
+In order to make it possible for app developers to adjust margins and paddings in their apps without needing to write their own CSS, OpenUI5 provides them with convenience classes. For responsiveness, the classes `sapUiResponsiveMargin` and `sapUiResponsiveContentPadding` are particularly useful.
 
 To read more detailed documentation about margins and padding classes, see [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md) and [Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md) respectively.
 
@@ -56,7 +56,7 @@ To read more detailed documentation about margins and padding classes, see [Usin
 
 ### Writing Device-Dependent Custom CSS
 
-It is easy to add your own device-dependent or screen-size-dependent custom CSS by prefixing your selectors with the classes that come from the device API \(for more information about the device API, see the link below under *Related Information*\). Whenever you need to set a particular style on, say, a small screen like a phone only, you can do so by picking the **sapUiMedia-Std-Phone** CSS class as part of your selector. For example, a particular style for phone only could look like this:
+It is easy to add your own device-dependent or screen-size-dependent custom CSS by prefixing your selectors with the classes that come from the device API \(for more information about the device API, see the link below under *Related Information*\). Whenever you need to set a particular style on, say, a small screen like a phone only, you can do so by picking the `sapUiMedia-Std-Phone` CSS class as part of your selector. For example, a particular style for phone only could look like this:
 
 ``` js
 
@@ -67,11 +67,11 @@ It is easy to add your own device-dependent or screen-size-dependent custom CSS 
 
 Additionally, the information regarding which device you are currently on is available on the html root tag as one of these three CSS classes:
 
--   **sap-desktop**
+-   `sap-desktop`
 
--   **sap-tablet**
+-   `sap-tablet`
 
--   **sap-phone**
+-   `sap-phone`
 
 
 This means you can provide style for the phone use case using CSS cascades as follows:

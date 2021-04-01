@@ -68,7 +68,7 @@ You can find the template in the following places:
 
 ### How Do I Enhance the Template?
 
-In our template, we use a simple layout that you can use as a basis for enhancements. For example, if you want to use an object page with a dynamic header, you can use one of the page-type [Object Page Layout samples](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview). All you have to do is replace the relevant content in the template with the content from the sample. To add a third column to your app, create a new view and have a look at the **sap.f.FlexibleColumnLayout** examples to see how to configure it.
+In our template, we use a simple layout that you can use as a basis for enhancements. For example, if you want to use an object page with a dynamic header, you can use one of the page-type [Object Page Layout samples](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview). All you have to do is replace the relevant content in the template with the content from the sample. To add a third column to your app, create a new view and have a look at the `sap.f.FlexibleColumnLayout` examples to see how to configure it.
 
 You can find more information about the possibilities of object pages at [SAP Fiori Design Guidelines - Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 

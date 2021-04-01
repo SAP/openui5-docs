@@ -18,7 +18,7 @@ Typical use cases for suspend and resume are:
 
 1.  **Trigger read requests for controls in the view later not when the view is initialized:**
 
-    In some situations you may want to suppress OData requests and change events triggered by an OData V4 binding for a certain period of time. This is useful for value help dialogs, such as the value help for the **/BusinessPartnerList** when creating a sales order in the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders)*SalesOrders OData V4* sample in Demo Kit.
+    In some situations you may want to suppress OData requests and change events triggered by an OData V4 binding for a certain period of time. This is useful for value help dialogs, such as the value help for the `/BusinessPartnerList` when creating a sales order in the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders)*SalesOrders OData V4* sample in Demo Kit.
 
 2.  **UI adaptation at runtime:**
 
@@ -32,7 +32,7 @@ Typical use cases for suspend and resume are:
     You want to add a filter and change the sorting of a list binding. If the binding is not suspended, it will trigger a request after calling the `filter` method, and a second request after calling the `sort` method. If it is suspended, only one request with the updated filter and sort criteria is sent on `resume`.
 
 
-The code below shows a snippet from the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders) which delays the request to **/BusinessPartnerList** until the *Create Sales Order* dialog is displayed.
+The code below shows a snippet from the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders) which delays the request to `/BusinessPartnerList` until the *Create Sales Order* dialog is displayed.
 
 > Note:  
 > The `suspended` flag in the binding info triggers a call to the suspend method of the corresponding binding once it is created.
@@ -52,7 +52,7 @@ The code below shows a snippet from the [`SalesOrders OData V4 sample`](https://
 > </Dialog>
 > ```
 
-The controller code to open the dialog resumes the list binding on **/BusinessPartnerList** and thus triggers the request.
+The controller code to open the dialog resumes the list binding on `/BusinessPartnerList` and thus triggers the request.
 
 > Example:  
 > Controller

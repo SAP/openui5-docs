@@ -176,7 +176,7 @@ Drag and drop is no longer experimental with this version.
 
 -   `sap.m.Image`: То optimize app performance, we changed the default value of the `densityAware` property to `false`. App developers should enable this property only if the app provides the corresponding image versions for high-density devices.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Image/controlProperties).
 
--   `sap.m.MessageView`/`sap.m.MessagePopover`: A keyboard accelerator for the * Alt Enter * event has been added. Now, when the focus is on *item* with the `activeTitle` property set to `true`, and when the * Alt Enter * is triggered, the `activeTitlePress` callback is fired. Screen reader support was also improved. Information that the defined keyboard accelerators can be used for easier navigation has been provided to its users.
+-   `sap.m.MessageView`/`sap.m.MessagePopover`: A keyboard accelerator for the  [Alt\] + [Enter\]  event has been added. Now, when the focus is on *item* with the `activeTitle` property set to `true`, and when the  [Alt\] + [Enter\]  is triggered, the `activeTitlePress` callback is fired. Screen reader support was also improved. Information that the defined keyboard accelerators can be used for easier navigation has been provided to its users.
 
 -   `sap.m.MultiComboBox`:
 
@@ -207,9 +207,9 @@ Drag and drop is no longer experimental with this version.
 
 -   `sap.ui.unified.Calendar`:
 
--   **Week selection**: Users can now select/deselect all the days in a given week at once by choosing the week number or by pressing * SHIFT SPACE * on any day of the week.
+-   **Week selection**: Users can now select/deselect all the days in a given week at once by choosing the week number or by pressing  [SHIFT\] + [SPACE\]  on any day of the week.
 
--   **Range selection**: We introduced two more shortcuts - * SHIFT ENTER * and * SHIFT Left Mouse Button *. Both of them select/deselect all days between the two selected dates.
+-   **Range selection**: We introduced two more shortcuts -  [SHIFT\] + [ENTER\]  and  [SHIFT\] + [Left Mouse Button\] . Both of them select/deselect all days between the two selected dates.
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMultipleDaySelection/preview).
 

@@ -49,7 +49,7 @@ The Support Assistant is enabled with the following URL parameter: `sap-ui-suppo
 
 You can also start the Support Assistant from the Technical Information Dialog.
 
-1.  Open the Technical Information Dialog by using the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */* Option P * 
+1.  Open the Technical Information Dialog by using the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\]  
 
 2.  Choose *Activate Support Assistant*.
 

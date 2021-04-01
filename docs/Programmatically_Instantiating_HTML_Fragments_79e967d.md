@@ -33,5 +33,5 @@ Fragment.load({
 });
 ```
 
-This instantiation can be done at any place in the code, given that a controller is available and the returned **button** can be used like any **button**.
+This instantiation can be done at any place in the code, given that a controller is available and the returned `button` can be used like any `button`.
 

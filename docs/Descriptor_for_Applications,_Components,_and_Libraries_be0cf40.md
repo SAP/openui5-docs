@@ -790,13 +790,13 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
  -   `settings`: Object that is passed to the model constructor.
 
  > Example:  
- > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. **Default**, **OneTime**, **OneWay**, **TwoWay**\). For OData models constructor see the following:
+ > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. `Default`, `OneTime`, `OneWay`, `TwoWay`\). For OData models constructor see the following:
  > -   [sap.ui.model.odata.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataModel/constructor)
  > -   [sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel/constructor)
  > -   [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor)
  > For ResourceModel constructor see:
  > -   [sap.ui.model.resource.ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel/constructor)
- > The attribute `enhanceWith` can be specified with **bundleUrl**, **bundleUrlRelativeTo** \(either `component` \(default\) or `manifest`\) or **bundleName** to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
+ > The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either `component` \(default\) or `manifest`\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
 
  -   `dataSource`: String of key or alias from `sap.app dataSources` to reference an existing data source; the `type`, `uri` and `settings` properties are set according to the data source's `type`, `uri` and `settings` \(if not already defined\). If the type under `sap.app dataSources` is `OData`, an OData Model V2 is created automatically. If you need an OData Model V1, specify the `type` as well.
  -   `preload`: Optional; Boolean with `true`, `false` \(default\)
@@ -878,7 +878,7 @@ This attribute is intended for actual sub-packages of the component only, meanin
 			</td>
 			<td>Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
  > Note:  
- > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
+ > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 			</td>
 		</tr>
 		<tr>

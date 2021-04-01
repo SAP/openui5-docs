@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
 
-To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * CTRL SHIFT Alt */* Option S * in the app.
+To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):  [CTRL\] + [SHIFT\] + [Alt\] / [Option\] + [S\]  in the app.
 
  ![](loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
 
@@ -44,7 +44,7 @@ In addition, you can see the following information:
 
     Start the E2E trace and navigate in the app. Afterwards, a dialog opens indicating that your transaction has finished. Choose *OK* to continue running the current trace. Choose *Cancel* to stop the trace and display the result in a new window.
 
-    After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a **host name** and a **port number**, and then choosing *Submit*.
+    After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a `host name` and a `port number`, and then choosing *Submit*.
 
 
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio790defe9ff8643bf8629c8567270e290__loio790defe9ff8643bf8629c8567270e290"/>
@@ -53,7 +53,7 @@ In addition, you can see the following information:
 
 ## Control Tree
 
-The control tree shows all controls that are used in the app. You can select controls either directly in the app by choosing *CTRLSHIFTAlt* and clicking on the control, or by selecting the control in the control tree.
+The control tree shows all controls that are used in the app. You can select controls either directly in the app by choosing [CTRL\] + [SHIFT\] + [Alt\] and clicking on the control, or by selecting the control in the control tree.
 
 The following functions are available in the dialog:
 
@@ -97,7 +97,7 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 
 2.  Select a control in the tree.
 
-    You can also press and hold *CtrlShiftAlt* and select a control in your app to select it in the tree.
+    You can also press and hold [Ctrl\] + [Shift\] + [Alt\] and select a control in your app to select it in the tree.
 
 3.  Select the *Breakpoints* tab on the right.
 
@@ -133,7 +133,7 @@ The *Diagnostics* window provides you with the following features that help you 
 
 ***
 
-Open the *Diagnostics* window with the shortcut *CTRLSHIFTALTS*.
+Open the *Diagnostics* window with the shortcut [CTRL\] + [SHIFT\] + [ALT\] + [S\].
 
 At the top of the *Debugging* view, you can configure a custom URL from which the application should load OpenUI5 the next time that the app opens.
 

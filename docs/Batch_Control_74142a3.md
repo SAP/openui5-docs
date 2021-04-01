@@ -158,7 +158,7 @@ The same holds true for [Creating an Entity](Creating_an_Entity_c9723f8.md).
 
 On construction of the model, it is possible to specify the submit mode for application group IDs. This is useful when you want to separate requests requiring short processing time on the server from those requiring long processing time, so that responses to "fast" requests are visible earlier on the UI.
 
-The following example shows how to set the submit mode `sap.ui.model.odata.v4.SubmitMode.Auto` for the group IDs **fastGroup** and **slowGroup** in the manifest.
+The following example shows how to set the submit mode `sap.ui.model.odata.v4.SubmitMode.Auto` for the group IDs `fastGroup` and `slowGroup` in the manifest.
 
 > Example:  
 > Specify the submit mode for an application group in manifest.json

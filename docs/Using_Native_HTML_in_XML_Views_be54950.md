@@ -28,6 +28,8 @@ When mixing XHTML and OpenUI5 controls, observe the following rules:
 > Note:  
 > As an alternative to embedding XHTML, you can use the `sap.ui.core.HTML` control. As this requires content encoding it is, however, less convenient.
 
+***
+
 1.  To mix OpenUI5 controls with native XHTML, you only need the XHTML namespace to use \(X\)HTML:
 
     ``` xml

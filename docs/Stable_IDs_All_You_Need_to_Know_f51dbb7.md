@@ -310,29 +310,29 @@ If you build an app using the following stable IDs for the component and the vie
 	</thead>
 	<tbody>
 
-			<td> `worklist` 
+			<td> ***worklist*** 
 			</td>
-			<td> `page` 
+			<td> ***page*** 
 			</td>
 			<td> `myProducts---worklist--page` 
 			</td>
 		</tr>
 		<tr>
-			<td> `table` 
+			<td> ***table*** 
 			</td>
 			<td> `myProducts---worklist--table` 
 			</td>
 		</tr>
 		<tr>
-			<td> `product` 
+			<td> ***product*** 
 			</td>
-			<td> `page` 
+			<td> ***page*** 
 			</td>
 			<td> `myProducts---product--page` 
 			</td>
 		</tr>
 		<tr>
-			<td> `objectHeader` 
+			<td> ***objectHeader*** 
 			</td>
 			<td> `myProducts---product--objectHeader` 
 			</td>
@@ -351,11 +351,11 @@ For more information about the SAP Fiori Worklist Application template, see [Wor
 With the Support Assistant, you can analyze whether there are any issues with the stable IDs used in your app. Here's how you can check this:
 
 1.  Open your app in a browser.
-2.  Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) * Ctrl Shift Alt */* Option P * to start the Support Assistant.
+2.  Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\]  to start the Support Assistant.
 3.  In the *Technical Information Dialog*, choose *Activate Support Assistant*.
 4.  In the table on the left, deselect all rules.
 5.  Click on the *Rules* column.
-6.  Filter for `stable` and choose *Enter*.
+6.  Filter for ***stable*** and choose *Enter*.
 7.  Select the *Stable control IDs are required for SAPUI5 flexibility services* rule.
 8.  Choose *Analyze*.
 

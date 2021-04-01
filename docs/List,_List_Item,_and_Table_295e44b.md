@@ -15,7 +15,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 `sap.m.List` and `sap.m.Table` provide the following features:
 
 -   Selection modes, such as `Single` and `Multi`
--   Navigation types such as **Navigation**, **Active** or **Detail**
+-   Navigation types such as *Navigation*, *Active* or *Detail*
 -   Swipe for Action
 -   Growing feature
 -   Grouping

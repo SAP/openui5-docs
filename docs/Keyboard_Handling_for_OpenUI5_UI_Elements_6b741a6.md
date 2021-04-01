@@ -45,17 +45,17 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*Space* 
+			<td>[Space\] 
 			</td>
 			<td>Triggers an action \(reversible\)
 			</td>
 			<td>Pressing and releasing the key triggers the action that is associated with a UI element \(for example, open a link or toggle a button\).
  > Tip:  
- > If you press and hold the key, you can cancel the trigger action by pressing *Shift*.
+ > If you press and hold the key, you can cancel the trigger action by pressing [Shift\].
 			</td>
 		</tr>
 		<tr>
-			<td>*Enter*
+			<td>[Enter\]
 			</td>
 			<td>Triggers an action \(immediate\)
 			</td>
@@ -63,7 +63,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*Arrow Keys* 
+			<td>[Arrow Keys\] 
 			</td>
 			<td>Navigates between elements
 			</td>
@@ -71,7 +71,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*Home* / *End*
+			<td>[Home\] / [End\]
 			</td>
 			<td>Navigates between elements
 			</td>
@@ -81,7 +81,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*Page Up* / *Page Down*
+			<td>[Page Up\] / [Page Down\]
 			</td>
 			<td>Skips elements during navigation
 			</td>
@@ -89,7 +89,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*Escape*
+			<td>[Escape\]
 			</td>
 			<td>Closes element / Reverts changes
 			</td>
@@ -102,7 +102,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td> *F4* / * Alt Down * / * Alt Up *
+			<td> [F4\] /  [Alt\] + [Down\]  /  [Alt\] + [Up\] 
 			</td>
 			<td>Opens / closes a drop-down menu
 			</td>
@@ -110,7 +110,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>*F6* / * Shift F6 *
+			<td>[F6\] /  [Shift\] + [F6\] 
 			</td>
 			<td>Skips focus of UI elements \(forward / backward\)
 			</td>
@@ -148,7 +148,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td>* Shift Page Up * / * Shift Page Down *
+			<td> [Shift\] + [Page Up\]  /  [Shift\] + [Page Down\] 
 			</td>
 			<td>Date modification \(Months\)
 			</td>
@@ -157,7 +157,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td>* Ctrl Shift Page Up * / * Ctrl Shift Page Down *
+			<td> [Ctrl\] + [Shift\] + [Page Up\]  /  [Ctrl\] + [Shift\] + [Page Down\] 
 			</td>
 			<td>Date modification \(Years\)
 			</td>
@@ -166,7 +166,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td>* Ctrl Arrow Keys *
+			<td> [Ctrl\] + [Arrow Keys\] 
 			</td>
 			<td>When used with grouped radio buttons - Moves selection
 			</td>
@@ -174,7 +174,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td>* Ctrl Arrow Keys *
+			<td> [Ctrl\] + [Arrow Keys\] 
 			</td>
 			<td>When editing tiles in a container - Changes tile position
 			</td>
@@ -182,7 +182,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td>*F2*
+			<td>[F2\]
 			</td>
 			<td>Toggles edit mode
 			</td>
@@ -190,13 +190,13 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td>*F7*
+			<td>[F7\]
 			</td>
 			<td>Exits edit mode
 			</td>
 			<td>When you are editing an input field in a table or a list, pressing this key will stop the editing and move the focus to the parent UI element.
  > Note:  
- > Pressing *F7* again will move focus back to the editable element.
+ > Pressing [F7\] again will move focus back to the editable element.
 			</td>
 		</tr>
 	</tbody>

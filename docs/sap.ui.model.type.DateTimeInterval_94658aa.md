@@ -35,7 +35,7 @@ The interval types need two JavaScript `Date` objects from the sub-bindings to f
 > Restriction:  
 > One exception is with the OData V2 Model. Although the date fields are saved as string in the model, they get converted to JavaScript `Date` objects by the open source library which is used in `v2.ODataModel`. Therefore it’s not needed to set an extra type on the sub-binding when the date interval types are used together with the OData V2 model.
 
-The following example shows how this should be setup with a `sap/m/Table` which is bound to an OData V4 model. The table consists of four different columns whereas the **StartsAt** and **EndsAt** represent date field as string with Edm type `Edm.DateTimeOffset`. The date interval formatting is done by combining these two date fields together.
+The following example shows how this should be setup with a `sap/m/Table` which is bound to an OData V4 model. The table consists of four different columns whereas the `StartsAt` and `EndsAt` represent date field as string with Edm type `Edm.DateTimeOffset`. The date interval formatting is done by combining these two date fields together.
 
 In order to let the date interval type correctly, get two JavaScript `Date` objects from the sub-bindings, a type `sap.ui.model.odata.type.DateTimeOffset` is set on each sub-binding to convert the date string into a JavaScript `Date` object.
 

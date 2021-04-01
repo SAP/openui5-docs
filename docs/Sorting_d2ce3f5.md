@@ -21,7 +21,7 @@ To use server side sorting, set the operation mode to [sap.ui.model.odata.Operat
 -   The dynamic sorter is a [sap.ui.model.odata.Sorter](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Sorter.html) instance, or an array thereof in which case the sorters are concatenated. You can set the initial value for the dynamic sorter in [ODataModel.bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindList), or declaratively in an XML view with the sorter property in an aggregation's binding information. For setting the dynamic sorter, the [ODataListBinding.sort](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/sort) method is used. The sorter that is given here overwrites the initial value specified on binding construction.
 
 
-Dynamic sorters are transformed to an OData `$orderby` system query option value and the static sorters are always appended as secondary sort criterion. In this example, the equipments are first ordered by **Category** \(dynamic sorter\) and then by **Name** \(secondary sort criterion, static sorter\). For a description of the `group` property, see [getGroup](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Sorter/methods/getGroup).
+Dynamic sorters are transformed to an OData `$orderby` system query option value and the static sorters are always appended as secondary sort criterion. In this example, the equipments are first ordered by `Category` \(dynamic sorter\) and then by `Name` \(secondary sort criterion, static sorter\). For a description of the `group` property, see [getGroup](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Sorter/methods/getGroup).
 
 **Example: Dynamic and static sorters**
 

@@ -259,7 +259,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 			</td>
 			<td>Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
  > Note:  
- > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name **messagebundle.properties**
+ > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 
 ```
 {

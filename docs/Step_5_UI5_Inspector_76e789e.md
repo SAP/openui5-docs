@@ -42,7 +42,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 2.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
-3.  Open the *Developer Tools* in Google Chrome by pressing *F12*.
+3.  Open the *Developer Tools* in Google Chrome by pressing [F12\].
 
 4.  Choose the *UI5* tab on the right side of the developer tools panel.
 
@@ -65,7 +65,7 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 
 2.  Double-click the value for the `icon` property, which is currently `sap-icon://action`.
 
-3.  Replace `action` with `activate` and confirm with *Enter*.
+3.  Replace `action` with `activate` and confirm with [Enter\].
 
     The icon on the button in the app is updated to show the new icon ![Activate](loio997baba218974ca2888824f87d8b1af4_LowRes.png).
 

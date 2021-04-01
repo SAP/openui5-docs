@@ -18,7 +18,7 @@ Keyboard handling enables users to access every UI element of the application wi
 
 **Accessibility of UI elements**
 
-Make sure that all available features of the application can be accessed by using only the keyboard - *TAB*, arrows, *ENTER*, and *SPACE*. The user should be able to activate the functionality of **all** active elements.
+Make sure that all available features of the application can be accessed by using only the keyboard - [TAB\], arrows, [ENTER\], and [SPACE\]. The user should be able to activate the functionality of **all** active elements.
 
 **Tab order and reading order**
 

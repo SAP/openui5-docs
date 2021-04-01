@@ -30,7 +30,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 2.  Activate the Support Assistant using one of the following options:
 
-    -   Open the *Technical Information Dialog* by pressing * Ctrl Shift Alt P * and choose *Activate Support Assistant*.
+    -   Open the *Technical Information Dialog* by pressing  [Ctrl\] + [Shift\] + [Alt\] + [P\]  and choose *Activate Support Assistant*.
 
     -   Use the URL parameter: `sap-ui-support=true`.
 

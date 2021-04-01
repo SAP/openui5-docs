@@ -62,32 +62,32 @@ The following keys and key combinations are used for selecting one or multiple i
 			</td>
 		</tr>
 		<tr>
-			<td>* Ctrl Spacebar *
+			<td> [Ctrl\] + [Spacebar\] 
 			</td>
 			<td>If focus is on an item, select the item in addition to an existing selection..
 			</td>
 		</tr>
 		<tr>
-			<td>* Shift Spacebar *
+			<td> [Shift\] + [Spacebar\] 
 			</td>
 			<td>If focus is on an item, select all items from the previous selected item to the now focused item \(included\).
-Previous selection: all kinds of selection except *Shift**Spacebar* selections
+Previous selection: all kinds of selection except [Shift\][Spacebar\] selections
 			</td>
 		</tr>
 		<tr>
-			<td>* Shift Up arrow *
+			<td> [Shift\] + [Up arrow\] 
 			</td>
 			<td>If focus is on an item, change selection state \(selected/ not selected\) to the item above.
 			</td>
 		</tr>
 		<tr>
-			<td>* Shift Down arrow *
+			<td> [Shift\] + [Down arrow\] 
 			</td>
 			<td>If focus is on an item, change selection state \(selected/ not selected\) to the item below.
 			</td>
 		</tr>
 		<tr>
-			<td>* Ctrl A *
+			<td> [Ctrl\] + [A\] 
 			</td>
 			<td>Selects all items which the user can reach in the current view by scrolling or paging.
 If all items are selected, deselect all items.

@@ -196,7 +196,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 #### **Starting a UIComponent**
 
-You can use a UIComponent to run your OPA5 tests. To do this, you have to call the `iStartMyUIComponent` function on the OPA5 instance with an object that contains at least the name of your UIComponent \(see API documentation about **sap/ui/component** for all possible parameters\), for example:
+You can use a UIComponent to run your OPA5 tests. To do this, you have to call the `iStartMyUIComponent` function on the OPA5 instance with an object that contains at least the name of your UIComponent \(see API documentation about `sap/ui/component` for all possible parameters\), for example:
 
 ``` js
 // "Opa5" required from "sap/ui/test/Opa5"

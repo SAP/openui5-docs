@@ -28,7 +28,7 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 > 
 > You can check which version of OpenUI5 is loaded by opening the OpenUI5 debugging tools with this [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 > 
->  * Ctrl Shift Alt */* Option P *
+>   [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 > 
 > If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
 
@@ -36,7 +36,7 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 
 ### Procedure
 
-1.  Select the *New File* icon and enter `neo-app.json` as the file name.
+1.  Select the *New File* icon and enter ***neo-app.json*** as the file name.
 2.  Open the newly created file from the tree structure on the left side of the screen.
 3.  Paste the following code in the `neo-app.json` and select *Save*:
 

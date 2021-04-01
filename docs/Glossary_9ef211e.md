@@ -239,7 +239,7 @@ From a developer's point of view, a **control** \(e.g. `Button`, `Label`, `TextF
 			<td>diagnostics
 			</td>
 			<td>A diagnostics window is available in OpenUI5 applications.
-To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): * Ctrl Shift Alt */*Option**S* 
+To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):  [Ctrl\] + [Shift\] + [Alt\] /[Option\][S\] 
 			</td>
 			<td>SAPUI5/OpenUI5
 			</td>

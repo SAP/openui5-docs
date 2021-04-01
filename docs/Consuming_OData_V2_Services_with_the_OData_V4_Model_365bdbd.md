@@ -61,7 +61,7 @@ Here is an example of a manifest.json file, which shows how to configure your ap
 }
 ```
 
-If you have an OData V2 service and you want to consume this service with an OData V4 model, you have to set `type` of the corresponding model to `sap.ui.model.odata.v4.ODataModel` and `odataVersion` of the corresponding data source to `2.0`. Both settings are needed. Additionally, the `minUI5Version` has to be at least **1.49**.
+If you have an OData V2 service and you want to consume this service with an OData V4 model, you have to set `type` of the corresponding model to ***sap.ui.model.odata.v4.ODataModel*** and `odataVersion` of the corresponding data source to ***2.0***. Both settings are needed. Additionally, the `minUI5Version` has to be at least **1.49**.
 
 ***
 
@@ -84,9 +84,9 @@ Some data types have different representation in OData V2 and OData V4. The appl
 
 Here are some examples:
 
--   OData V2 uses a different alphabet for the base-64 encoding for `Edm.Binary`. OData V2 uses '`+`' and '`/`' but OData V4 uses instead '`-`' and '`_`'.
+-   OData V2 uses a different alphabet for the base-64 encoding for `Edm.Binary`. OData V2 uses '***+***' and '***/***' but OData V4 uses instead '***-***' and '***\_***'.
 
--   For `Edm.DateTimeOffset` OData V2 uses a JavaScript Date \(i.e. `Date(1420529121547)`\) and OData V4 a String \(i.e. `"2015-01-06T12:25:21.547"`\) representation.
+-   For `Edm.DateTimeOffset` OData V2 uses a JavaScript Date \(i.e. ***Date\(1420529121547\)***\) and OData V4 a String \(i.e. ***"2015-01-06T12:25:21.547"***\) representation.
 
 
 ***
@@ -176,7 +176,7 @@ Following V2 \(attributes with namespace [http://www.sap.com/Protocols/SAPData](
 
 **OData V2 Annotations defined at `Property`:**
 
--   aggregation-role, creatable, creatable-path, display-format \(with values **NonNegative** and **UpperCase**\), field-control, filterable, filter-restriction, heading, label, precision, quickinfo, required-in-filter, sortable text, unit, updatable, visible
+-   aggregation-role, creatable, creatable-path, display-format \(with values `NonNegative` and `UpperCase`\), field-control, filterable, filter-restriction, heading, label, precision, quickinfo, required-in-filter, sortable text, unit, updatable, visible
 
 
 **OData V2 Annotations defined at `Schema`:**
@@ -186,7 +186,7 @@ Following V2 \(attributes with namespace [http://www.sap.com/Protocols/SAPData](
 
 sap:semantics:
 
--   bday, body, city, class, completed, country, currency-code dtend, dtstart, due, duration, familyname, fbtype, fiscalyear, fiscalyearperiode, from, givenname, honorific, location, middlename, name, nickname, note, org, org-role, org-unit, percent-complete, photo, pobox, priority, received, region, sender, status, street, subject, suffix, tel \(with types **cell**, **work**, **fax**\), title, transp, url, unit-of-measure, url, wholeday, year, yearmonth, yearmonthday, yearquarter, yearweek, zip
+-   bday, body, city, class, completed, country, currency-code dtend, dtstart, due, duration, familyname, fbtype, fiscalyear, fiscalyearperiode, from, givenname, honorific, location, middlename, name, nickname, note, org, org-role, org-unit, percent-complete, photo, pobox, priority, received, region, sender, status, street, subject, suffix, tel \(with types `cell`, `work`, `fax`\), title, transp, url, unit-of-measure, url, wholeday, year, yearmonth, yearmonthday, yearquarter, yearweek, zip
 
 
 **OData V2 Annotations defined at `NavigationProperty`:**
@@ -221,5 +221,5 @@ Not all OData V4 features are supported yet when consuming an OData V2 service. 
 
 
 > Caution:  
-> OData V4 validates that namespaces are always loaded from the same URI. Ensure to reference the metadata document \(e.g. **.../IWBEP/GWSAMPLE\_BASIC/$metadata**\) in additional annotation files and not the service document \(**.../IWBEP/GWSAMPLE\_BASIC**\).
+> OData V4 validates that namespaces are always loaded from the same URI. Ensure to reference the metadata document \(e.g. `.../IWBEP/GWSAMPLE_BASIC/$metadata`\) in additional annotation files and not the service document \(`.../IWBEP/GWSAMPLE_BASIC`\).
 

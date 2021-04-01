@@ -104,7 +104,7 @@ QUnit.test("Should set the Hash", function(assert) {
 
 When testing user interactions, you can use `sap.ui.test.qunit` to trigger events.
 
-Here is an example for when a user presses *Esc* on the select:
+Here is an example for when a user presses [Esc\] on the select:
 
 ``` js
 // "Item" required from module "sap/ui/core/Item"

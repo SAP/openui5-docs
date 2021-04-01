@@ -45,7 +45,7 @@ The following methods and events are affected by this. For more information, see
 			</td>
 		</tr>
 		<tr>
-			<td>**sap.ui.model.odata.v4.ODataModel**
+			<td>`sap.ui.model.odata.v4.ODataModel`
 \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
 			</td>
 			<td>`bindTree`
@@ -63,7 +63,7 @@ The following methods and events are affected by this. For more information, see
 			</td>
 		</tr>
 		<tr>
-			<td>**sap.ui.model.odata.v4.ODataContextBinding**
+			<td>`sap.ui.model.odata.v4.ODataContextBinding`
 \(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)
 			</td>
 			<td>`isInitial`
@@ -75,7 +75,7 @@ The following methods and events are affected by this. For more information, see
 			</td>
 		</tr>
 		<tr>
-			<td>**sap.ui.model.odata.v4.ODataListBinding**
+			<td>`sap.ui.model.odata.v4.ODataListBinding`
 \(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)
 			</td>
 			<td>`getDistinctValues`
@@ -89,7 +89,7 @@ The following methods and events are affected by this. For more information, see
 			</td>
 		</tr>
 		<tr>
-			<td>**sap.ui.model.odata.v4.ODataPropertyBinding**
+			<td>`sap.ui.model.odata.v4.ODataPropertyBinding`
 \(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)
 			</td>
 			<td>`isInitial`
@@ -136,7 +136,7 @@ The following methods and events are affected by this. For more information, see
 			</td>
 		</tr>
 		<tr>
-			<td>**sap.ui.model.odata.v4.ODataModel**
+			<td>`sap.ui.model.odata.v4.ODataModel`
 \(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
 			</td>
 			<td>`parseError`

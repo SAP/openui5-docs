@@ -98,10 +98,10 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
 -   Newly created entities in an absolute list binding are refreshed/reread automatically after the successful post to the server.
 
--   It is now possible to request the `x-csrf` token and the root metadata document earlier. This is controlled by model parameter [**earlyRequests**](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
+-   It is now possible to request the `x-csrf` token and the root metadata document earlier. This is controlled by model parameter [`earlyRequests`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
 
 > Note:  
-> The default value of **earlyRequests** is **false** and this default may change in the future.
+> The default value of `earlyRequests` is **false** and this default may change in the future.
 
 -   Action advertisements can be accessed in bindings by specifying `#<namespace>.<action>` 
 

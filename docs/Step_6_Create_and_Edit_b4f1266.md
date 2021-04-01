@@ -293,7 +293,7 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 										<Button
 											id="refreshUsersButton"
 											icon="sap-icon://refresh"
-`											enabled="{= !${appView>/hasUIChanges}}"`
+*HIGHLIGHT START**											enabled="{= !${appView>/hasUIChanges}}"*HIGHLIGHT END**
 											tooltip="{i18n>refreshButtonText}"
 											press=".onRefresh"/>
 										<Button
@@ -331,7 +331,7 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 									<cells>
 										<Input
 											value="{FirstName}"
-`											liveChange=".onInputChange"/>`
+*HIGHLIGHT START**											liveChange=".onInputChange"/>*HIGHLIGHT END**
 									</cells>
 									<cells>
 										<Input

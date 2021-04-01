@@ -28,7 +28,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
-2.  Open the *Technical Information Dialog* by pressing * Ctrl Shift Alt P *.
+2.  Open the *Technical Information Dialog* by pressing  [Ctrl\] + [Shift\] + [Alt\] + [P\] .
 
 
 The dialog box shows information related to the app and provides access to additional support options.
@@ -78,7 +78,7 @@ The OpenUI5 libraries are included in your app in a compressed form. To be able 
 
 2.  Open the developer tools of your browser
 
-3.  Choose * Crtl O * and type the name of an OpenUI5 framework artifact to display its source code in debug mode.
+3.  Choose  [Crtl\] + [O\]  and type the name of an OpenUI5 framework artifact to display its source code in debug mode.
 
     > Note:  
     > You may see additional errors and warnings in the developer console. These can help you investigate the problem further.

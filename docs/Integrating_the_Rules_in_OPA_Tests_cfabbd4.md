@@ -46,13 +46,15 @@ This special URL parameter could be used temporarily in cases when you extend an
 > Note:  
 > When the `sap-skip-rules-issues` URL parameter is set, it affects all tests globally, unlike the `FailOnAnyIssues` parameters, which only affect a specific test level.
 
+***
+
 1.  Enable the Support Assistant OPA extension in the OPA configuration file.
 
     You need to change two parameters:
 
-    -   `extensions` - You need to include the Support Assistant OPA extension path \(**sap/ui/core/support/RuleEngineOpaExtension**\).
+    -   `extensions` - You need to include the Support Assistant OPA extension path \(`sap/ui/core/support/RuleEngineOpaExtension`\).
 
-    -   `appParams` - You need to add `sap-ui-support` with a value of **true,silent**. This will start the application in support mode and will start the Support Assistant in silent mode \(without UI\).
+    -   `appParams` - You need to add `sap-ui-support` with a value of `true,silent`. This will start the application in support mode and will start the Support Assistant in silent mode \(without UI\).
 
     The configuration file will look like this:
 

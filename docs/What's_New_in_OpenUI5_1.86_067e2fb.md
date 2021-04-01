@@ -124,7 +124,7 @@ We’ve improved the global search functionality in the Demo Kit. Now, when you 
 
 If you’re typing in the search field while the page you're currently on is in one of the main categories \(*API Reference*, *Documentation*, or *Samples*\), the top ten search results only display matches that belong to the same category.
 
-To proceed to the page that lists all search results, you can either finish your search by pressing *Enter*, or you can select the *All* button below the top ten search results.
+To proceed to the page that lists all search results, you can either finish your search by pressing [Enter\], or you can select the *All* button below the top ten search results.
 
 At the bottom of the popover, you have the *Results by Category* section from where you can proceed directly to the chosen search results page \(*API Reference*, *Documentation*, or *Samples*\).
 

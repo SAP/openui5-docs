@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, defines as `sap.m.ColumnListItems` consist of cells.
 
+***
+
 1.  To build a table, we first need to define columns. For this purpose you can define the Column control with the following properties or aggregations:
 
     |**header**
@@ -31,12 +33,12 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 |
     |**hAlign**
 
-|Defines the horizontal alignment\(**Begin**, **Center**, **End**, **Left**, **Right**\) of the column content. Controls with a textAlign property inherit the horizontal alignment from Column hAlign property.
+|Defines the horizontal alignment\(*Begin*, *Center*, *End*, *Left*, *Right*\) of the column content. Controls with a textAlign property inherit the horizontal alignment from Column hAlign property.
 
 |
     |**vAlign**
 
-|Defines the vertical alignment of column cells. Possible values are **Top**, **Middle**, and **Bottom**. This property does not affect the vertical alignment of header and footer.
+|Defines the vertical alignment of column cells. Possible values are *Top*, *Middle*, and *Bottom*. This property does not affect the vertical alignment of header and footer.
 
 |
     |**visible**

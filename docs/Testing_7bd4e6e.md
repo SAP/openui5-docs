@@ -30,7 +30,7 @@ In SAP Web IDE, you can easily create mock data that fulfill the conditions abov
 
  ![](loio119f31a267944d31853bae43fc0f65ba_LowRes.png "Screenshot of the Edit Mock Data dialog") 
 
-You can also manually download a set of json files from the actual service by appending `$format=json` to the corresponding URL. Download the resulting files, and put them in the `localService/mockdata` folder within the template project.
+You can also manually download a set of json files from the actual service by appending ***$format=json*** to the corresponding URL. Download the resulting files, and put them in the `localService/mockdata` folder within the template project.
 
 For more information, see [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md) in our Worklist App tutorial.
 
