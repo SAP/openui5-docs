@@ -1053,6 +1053,9 @@
 											},
 											"Meta Model for OData V2": {
 												"link": "OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2"
+											},
+											"Currency and Unit Customizing in OData V2": {
+												"link": "OData_V2_Model_6c47b2b.md#loioaa9024c7c5444822a68daeb21a92bd51"
 											}
 										}
 									},
@@ -1156,8 +1159,8 @@
 											"Server Messages in OData V4 Model": {
 												"link": "Server_Messages_in_OData_V4_Model_fbe1cb5.md"
 											},
-											"Currencies and Units": {
-												"link": "Currencies_and_Units_4d1b9d4.md"
+											"Currencies and Units \\(OData V4 Model\\)": {
+												"link": "Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md"
 											}
 										}
 									},

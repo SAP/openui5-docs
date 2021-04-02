@@ -138,7 +138,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
     For examples, see [`format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format).
 
-    If `format` finds a `Org.OData.Measures.V1.ISOCurrency` or a `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currencies and Units](Currencies_and_Units_4d1b9d4.md).
+    If `format` finds a `Org.OData.Measures.V1.ISOCurrency` or a `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currencies and Units \(OData V4 Model\)](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md).
 
 -   [`label`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
 
