@@ -2832,44 +2832,93 @@ For code lists with currency or unit customizing you need to define the followin
 **Code list annotations for currency codes and units in the service's metadata.xml file:**
 
 ``` xml
+
+...
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="SAP__common"/>
+<edmx:Include Namespace="Org.OData.Core.V1" Alias="SAP__core"/>
+<edmx:Include Namespace="com.sap.vocabularies.CodeList.v1" Alias="SAP__CodeList"/>
+...
 <EntityType Name="Product">
     ...
-   <Property Name="WeightMeasure" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="variable" />
-   <Property Name="WeightUnit" Type="Edm.String" Nullable="false" MaxLength="3" />
-   <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" />
-   <Property Name="Price" Type="Edm.Decimal" Nullable="false" Precision="15" Scale="variable" />
+    <Property Name="WeightMeasure" Type="Edm.Decimal" Precision="13" Scale="3" />
+    <Property Name="WeightUnit" Type="Edm.String" MaxLength="3" />
+    <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" />
+    <Property Name="Price" Type="Edm.Decimal" Precision="16" Scale="3" /> 
     ...
 </EntityType>
 ...
-<Annotations Target="SAP__self.Container">
-   <Annotation Term="com.sap.vocabularies.CodeList.v1.CurrencyCodes">
-      <Record>
-         <PropertyValue Property="Url" String="../../../../default/iwbep/common/0001/$metadata" />
-         <PropertyValue Property="CollectionPath" String="Currencies" />
-      </Record>
-   </Annotation>
-</Annotations>
-<Annotations Target="SAP__self.Container">
-   <Annotation Term="com.sap.vocabularies.CodeList.v1.UnitsOfMeasure">
-      <Record>
-         <PropertyValue Property="Url" String="../../../../default/iwbep/common/0001/$metadata" />
-         <PropertyValue Property="CollectionPath" String="UnitsOfMeasure" />
-      </Record>
-   </Annotation>
-</Annotations>
+<EntityType Name="SAP__Currency" sap:content-version="1">
+<Key>
+    <PropertyRef Name="CurrencyCode"/>
+</Key>
+    <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Currency" sap:semantics="currency-code"/>
+    <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO Code"/>
+    <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="15" sap:label="Short Text"/>
+    <Property Name="DecimalPlaces" Type="Edm.Byte" Nullable="false" sap:label="Decimals"/>
+</EntityType>
  
+<EntityType Name="SAP__UnitOfMeasure" sap:content-version="1">
+<Key>
+    <PropertyRef Name="UnitCode"/>
+</Key>
+    <Property Name="UnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Internal UoM" sap:semantics="unit-of-measure"/>
+    <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO Code"/>
+    <Property Name="ExternalCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Commercial"/>
+    <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="UoM Text"/>
+    <Property Name="DecimalPlaces" Type="Edm.Int16" sap:label="Decimal Places"/>
+</EntityType>
 ...
-<Annotations Target="SAP__self.Product/Price">
-    ...
-   <Annotation Term="Org.OData.Measures.V1.ISOCurrency" Path="CurrencyCode" />
-    ...
+<Annotations
+    xmlns="http://docs.oasis-open.org/odata/ns/edm"
+    Target="GWSAMPLE_BASIC.GWSAMPLE_BASIC_Entities"> 
+    <Annotation Term="SAP__CodeList.CurrencyCodes">
+        <Record>
+            <PropertyValue Property="Url" String="./$metadata"/>
+            <PropertyValue Property="CollectionPath" String="SAP__Currencies"/>
+        </Record>
+    </Annotation>
+    <Annotation Term="SAP__CodeList.UnitsOfMeasure">
+        <Record>
+            <PropertyValue Property="Url" String="./$metadata"/>
+            <PropertyValue Property="CollectionPath" String="SAP__UnitsOfMeasure"/>
+        </Record>
+    </Annotation>
+</Annotations>
+
+<Annotations Target="SAP__self.Currency/CurrencyCode">
+    <Annotation Term="Common.Text" Path="Text" />
+    <Annotation Term="Common.UnitSpecificScale" Path="DecimalPlaces" />
+    <Annotation Term="CodeList.StandardCode" Path="ISOCode" />
+</Annotations>
+  
+<Annotations
+    xmlns="http://docs.oasis-open.org/odata/ns/edm"
+    Target="GWSAMPLE_BASIC.SAP__UnitOfMeasure/UnitCode">
+    <Annotation Term="Common.Text" Path="Text" />
+    <Annotation Term="Common.UnitSpecificScale" Path="DecimalPlaces" />
+    <Annotation Term="CodeList.StandardCode" PropertyPath="ISOCode" />
+    <Annotation Term="CodeList.ExternalCode" PropertyPath="ExternalCode" />
+</Annotations>
+  
+<Annotations 
+    xmlns="http://docs.oasis-open.org/odata/ns/edm"
+    Target="GWSAMPLE_BASIC.SAP__UnitOfMeasure">
+    <Annotation Term="Core.AlternateKeys">
+      <Collection>
+        <Record>
+          <PropertyValue Property="Key">
+            <Collection>
+              <Record>
+                <PropertyValue Property="Name" PropertyPath="ExternalCode" />
+                <PropertyValue Property="Alias" String="ExternalCode" />
+              <Record>
+            </Collection>
+          </PropertyValue>
+        <Record>
+      </Collection>
+    </Annotation>
 </Annotations>
 ...
-<Annotations Target="SAP__self.Product/WeightMeasure">
-    ...
-   <Annotation Term="Org.OData.Measures.V1.Unit" Path="WeightUnit" />
-    ...
-</Annotations>
 ```
 
 In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
@@ -2906,63 +2955,6 @@ The entity type is optionally annotated with `Org.OData.Core.V1.AlternateKeys` p
 If an alternate key is available, the type uses the alternate key as the key of the currency or unit. In this case, the data of the actual service have to contain the alternate key representation in the currency or unit property. The key is used and expected in the data if no alternate key is annotated. Note that there must be at most one alternate key, and that the key and alternate key must have exactly one property.
 
 The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is interpreted as an ISO code by `sap.ui.model.odata.type.Currency` and used to find currency symbols. The currency symbols may be used for entering data.
-
-*HIGHLIGHT START*Example for the metadata of a code list service*HIGHLIGHT END*
-
-``` xml
-...
-  <EntityType Name="Currency">
-    <Key>
-      <PropertyRef Name="CurrencyCode" />
-    </Key>
-    <Property Name="CurrencyCode" Type="Edm.String" MaxLength="5" />
-    <Property Name="ISOCode" Type="Edm.String" MaxLength="3" />
-    <Property Name="Text" Type="Edm.String" MaxLength="15" />
-    <Property Name="DecimalPlaces" Type="Edm.SByte" />
-  </EntityType>
-  
-  <EntityType Name="UnitOfMeasure">
-    <Key>
-      <PropertyRef Name="UnitCode" />
-    </Key>
-    <Property Name="UnitCode" Type="Edm.String" MaxLength="3" />
-    <Property Name="ISOCode" Type="Edm.String" MaxLength="3" />
-    <Property Name="ExternalCode" Type="Edm.String" MaxLength="3" />
-    <Property Name="Text" Type="Edm.String" MaxLength="30" />
-    <Property Name="DecimalPlaces" Type="Edm.Int16" />
-  </EntityType>
-  
-  <Annotations Target="SAP__self.Currency/CurrencyCode">
-    <Annotation Term="Common.Text" Path="Text" />
-    <Annotation Term="Common.UnitSpecificScale" Path="DecimalPlaces" />
-    <Annotation Term="CodeList.StandardCode" Path="ISOCode" />
-  </Annotations>
-  
-  <Annotations Target="SAP__self.UnitOfMeasure">
-    <Annotation Term="Core.AlternateKeys">
-      <Collection>
-        <Record>
-          <PropertyValue Property="Key">
-            <Collection>
-              <Record>
-                <PropertyValue Property="Name" PropertyPath="ExternalCode" />
-                <PropertyValue Property="Alias" String="ExternalCode" />
-              <Record>
-            </Collection>
-          </PropertyValue>
-        <Record>
-      </Collection>
-    </Annotation>
-  </Annotations>
-  
-  <Annotations Target="SAP__self.UnitOfMeasure/UnitCode">
-    <Annotation Term="Common.Text" Path="Text" />
-    <Annotation Term="Common.UnitSpecificScale" Path="DecimalPlaces" />
-    <Annotation Term="CodeList.StandardCode" PropertyPath="ISOCode" />
-    <Annotation Term="CodeList.ExternalCode" PropertyPath="ExternalCode" />
-  </Annotations>
-...
-```
 
 With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types in an input field as shown in the following example. The data types use a composite binding with the amount or measure as its first part, the currency code or unit as its second part, and the information about the code list customizing that has to be used as its third part.
 

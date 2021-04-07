@@ -19,7 +19,7 @@ The complete list of configuration options available in OpenUI5 can be found in 
 
 |Type
 
-|pre-boot
+|[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
 
 |by URL parameter
 
@@ -35,7 +35,7 @@ The complete list of configuration options available in OpenUI5 can be found in 
 		<tr>
 			<th>--------</th>
 			<th>------</th>
-			<th>----------</th>
+			<th>---------------------------------------------------------------------------------------------------------------</th>
 			<th>------------------</th>
 			<th>------------</th>
 			<th>-----------</th>
@@ -358,6 +358,33 @@ A compatibility layer restores several incompatibly changed APIs in jQuery v3 ba
 			<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+			</td>
+		</tr>
+		<tr>
+			<td>`flexibilityServices`
+			</td>
+			<td>Type: `string`
+Default value: `/sap/bc/lrep`
+
+You can define an alternative route from where to load SAPUI5 flexibility.
+
+For more information, see [642dab291a7b47ec9d46c39b3c482aba.md]().
+			</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+			</td>
+			<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+			</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+			</td>
+			<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 			</td>
 		</tr>
 		<tr>
@@ -1173,7 +1200,7 @@ The options listed in the table below are 'experimental'. They may be removed in
 
 |Type
 
-|pre-boot
+|[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
 
 |by URL parameter
 
@@ -1189,7 +1216,7 @@ The options listed in the table below are 'experimental'. They may be removed in
 		<tr>
 			<th>--------</th>
 			<th>------</th>
-			<th>----------</th>
+			<th>---------------------------------------------------------------------------------------------------------------</th>
 			<th>------------------</th>
 			<th>------------</th>
 			<th>-----------</th>

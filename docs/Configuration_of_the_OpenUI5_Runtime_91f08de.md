@@ -32,11 +32,11 @@ You can provide additional configuration information in the following ways:
 
 ***
 
-<a name="loio91f08de06f4d1014b6dd926db0e91070__section_j1g_zkg_plb"/>
+<a name="loio91f08de06f4d1014b6dd926db0e91070__section_ACO"/>
 
 ### Available Configuration Options
 
-UI5 supports 7 different possibilities to provide values for the available configuration parameters. Options 2 to 5 require you to provide them **before** the application boots up \(in pre-boot\). They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
+UI5 supports 7 different possibilities to provide values for the available configuration parameters. Options 2 to 5 require you to provide them before the application boots up \(in **pre-boot**\). They are technically equivalent, however at runtime they will be evaluated in the order given below. The list below is therefore sorted in ascending order of precedence:
 
 1.  Effective framework default values
 2.  Server-wide defaults, read from `sap-ui-config.json`
@@ -45,7 +45,7 @@ UI5 supports 7 different possibilities to provide values for the available confi
 
 3.  Properties of the global configuration object `window["sap-ui-config"]`
 4.  A configuration string in the `data-sap-ui-config` attribute of the bootstrap tag
-5.  Individual `data-sap-ui-xyz` attributes of the bootstrap tag
+5.  Individual `data-sap-ui-<myOption>` attributes of the bootstrap tag
 6.  URL parameters
 
     > Note:  
