@@ -2618,7 +2618,7 @@ For code lists with currency or unit customizing you need to define the followin
 -   Units: `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure`
 
 
-*HIGHLIGHT START*Code list annotations for currency codes and units in the service's metadata.xml file:*HIGHLIGHT END*
+In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
 
 ``` xml
 			<td>
@@ -2829,7 +2829,42 @@ For code lists with currency or unit customizing you need to define the followin
 -   Units: `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure`
 
 
-**Code list annotations for currency codes and units in the service's metadata.xml file:**
+In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
+
+``` xml
+<PropertyValue Property="Url" String="./$metadata" />
+
+```
+
+Code lists that are referenced by the `com.sap.vocabularies.CodeList.v1.CurrencyCodes` or `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure` annotations need the following:
+
+-   The internal code as its only key property
+
+-   A language-dependent description
+
+-   A numeric property with the unit-specific number of significant fractional digits
+
+-   Optional: An external code that should be visualized instead of the internal code
+
+-   Optional: A standard code
+
+
+The key property is annotated with:
+
+-   `com.sap.vocabularies.Common.v1.Text` pointing to the description property
+
+-   `com.sap.vocabularies.Common.v1.UnitSpecificScale` pointing to the numeric property
+
+-   Optional: `com.sap.vocabularies.CodeList.v1.StandardCode` pointing to the standard code property
+
+
+The entity type is optionally annotated with `Org.OData.Core.V1.AlternateKeys` pointing to another property that should be used for visualization.
+
+If an alternate key is available, the type uses the alternate key as the key of the currency or unit. In this case, the service has to contain the alternate key representation in the currency or unit property. The key is used and expected in the data if no alternate key is annotated. Note that there must be at most one alternate key, and that the key and alternate key must have exactly one property.
+
+The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is interpreted as an ISO code by `sap.ui.model.odata.type.Currency` and used to find currency symbols. The currency symbols may be used for entering data.
+
+*HIGHLIGHT START*Code list annotations for currency codes and units in the service's metadata.xml file:*HIGHLIGHT END*
 
 ``` xml
 
@@ -2920,41 +2955,6 @@ For code lists with currency or unit customizing you need to define the followin
 </Annotations>
 ...
 ```
-
-In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
-
-``` xml
-<PropertyValue Property="Url" String="./$metadata" />
-
-```
-
-Code lists that are referenced by the `com.sap.vocabularies.CodeList.v1.CurrencyCodes` or `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure` annotations need the following:
-
--   The internal code as its only key property
-
--   A language-dependent description
-
--   A numeric property with the unit-specific number of significant fractional digits
-
--   Optional: An external code that should be visualized instead of the internal code
-
--   Optional: A standard code
-
-
-The key property is annotated with:
-
--   `com.sap.vocabularies.Common.v1.Text` pointing to the description property
-
--   `com.sap.vocabularies.Common.v1.UnitSpecificScale` pointing to the numeric property
-
--   Optional: `com.sap.vocabularies.CodeList.v1.StandardCode` pointing to the standard code property
-
-
-The entity type is optionally annotated with `Org.OData.Core.V1.AlternateKeys` pointing to another property that should be used for visualization.
-
-If an alternate key is available, the type uses the alternate key as the key of the currency or unit. In this case, the data of the actual service have to contain the alternate key representation in the currency or unit property. The key is used and expected in the data if no alternate key is annotated. Note that there must be at most one alternate key, and that the key and alternate key must have exactly one property.
-
-The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is interpreted as an ISO code by `sap.ui.model.odata.type.Currency` and used to find currency symbols. The currency symbols may be used for entering data.
 
 With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types in an input field as shown in the following example. The data types use a composite binding with the amount or measure as its first part, the currency code or unit as its second part, and the information about the code list customizing that has to be used as its third part.
 
