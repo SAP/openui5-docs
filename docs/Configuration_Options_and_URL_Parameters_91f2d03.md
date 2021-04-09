@@ -559,7 +559,7 @@ This configuration parameter defines the language that shall be used for localiz
 			</td>
 			<td>
 
-![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 			</td>
 		</tr>
 		<tr>
@@ -863,7 +863,7 @@ With `sap.ui.loader.config({paths: ...})` a map can be used to define locations 
 
 To provide a URL location that is **not** overwritten by a component later on, `final` can be set to `true`, for example: `{url: '/that/is/the/prefix/', final: true}`
 
-For more information, see the [API Reference: `sap.ui.loader.config`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader.config)
+For more information, see the [API Reference: `sap.ui.loader.config`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader/methods/sap.ui.loader.config)
 			</td>
 			<td>
 
