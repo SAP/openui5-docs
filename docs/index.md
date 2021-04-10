@@ -361,7 +361,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                     -   [Deleting an Entity](Deleting_an_Entity_2613ebc.md)
                     -   [Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md)
                     -   [Extension for Data Aggregation](Extension_for_Data_Aggregation_7d91431.md)
-                    -   [Server Messages in OData V4 Model](Server_Messages_in_OData_V4_Model_fbe1cb5.md)
+                    -   [Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md)
                     -   [Currencies and Units \(OData V4 Model\)](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md)
                 -   [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
                     -   [Sorting and Filtering in JSON Models](JSON_Model_96804e3.md#loio50357d719b35439984348080bcbb14a4)

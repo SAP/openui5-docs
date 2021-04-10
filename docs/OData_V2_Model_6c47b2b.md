@@ -2858,6 +2858,8 @@ The key property is annotated with:
 -   Optional: `com.sap.vocabularies.CodeList.v1.StandardCode` pointing to the standard code property
 
 
+Keep in mind that `Path` attributes in annotations have to reference properties in the target `EntityType`. Paths containing navigation properties are not supported.
+
 The entity type is optionally annotated with `Org.OData.Core.V1.AlternateKeys` pointing to another property that should be used for visualization.
 
 If an alternate key is available, the type uses the alternate key as the key of the currency or unit. In this case, the service has to contain the alternate key representation in the currency or unit property. The key is used and expected in the data if no alternate key is annotated. Note that there must be at most one alternate key, and that the key and alternate key must have exactly one property.
@@ -2902,6 +2904,12 @@ The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is int
     <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="UoM Text"/>
     <Property Name="DecimalPlaces" Type="Edm.Int16" sap:label="Decimal Places"/>
 </EntityType>
+...
+<EntityContainer Name="GWSAMPLE_BASIC_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true" sap:supported-formats="atom json xlsx">
+<EntitySet Name="ProductSet" EntityType="GWSAMPLE_BASIC.Product" sap:content-version="1"/>
+...
+<EntitySet Name="SAP__Currencies" EntityType="GWSAMPLE_BASIC.SAP__Currency" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+<EntitySet Name="SAP__UnitsOfMeasure" EntityType="GWSAMPLE_BASIC.SAP__UnitOfMeasure" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
 ...
 <Annotations
     xmlns="http://docs.oasis-open.org/odata/ns/edm"

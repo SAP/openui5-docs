@@ -61,5 +61,5 @@ For all these options, the CSS developer might reduce the styling effort and foc
 
 [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
 
-[UI Theme Designer](http://help.hana.ondemand.com/theme_designer/frameset.htm)
+[UI Theme Designer](https://help.sap.com/viewer/product/UI_THEME_DESIGNER/Cloud/en-US)
 
