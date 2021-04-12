@@ -10,19 +10,42 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Reacting on User Input Events
 
-A handler can be used to validate, parse, and format issues.
+User input events can either be handled automatically by the framework or manually by the application.
 
-You register the handler and can then use the following functions of `sap.ui.getCore()`:
+***
 
--   `attachFormatError` 
--   `attachParseError`
--   `attachValidationError` 
--   `attachValidationSuccess` 
+<a name="loioc75861e33942410d9ac77322763db203__section_tlz_s54_gpb"/>
 
-You can also register for these events directly on the control or any parent control where the event is fired. The corresponding event bubbles up to the Core if it is not canceled in the event handler.
+### Automatic User Input Event Handling
 
-**Related Information**  
+User input errors can be detected automatically by the framework. This is the preferred way of handling such events and requires the use of a Component for your app in accordance with UI5 Best Practices. You can activate the automatic generation of validation messages in the "sap.ui5" section of the **manifest.json** file as follows:
 
+> Example:  
+> **Activating automatic user input event handling**
+> 
+> ``` json
+> {
+>   ...
+>   "sap.ui5": {
+>     ...
+>     "handleValidation": true
+>     ...
+>   }
+> }
+> ```
 
-[Validation Messages](Validation_Messages_a90d93d.md)
+The following four [Core](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core) events are then handled automatically by the [message manager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager):
+
+-   `FormatError` 
+-   `ParseError`
+-   `ValidationError` 
+-   `ValidationSuccess` 
+
+***
+
+<a name="loioc75861e33942410d9ac77322763db203__section_l5c_554_gpb"/>
+
+### Manual User Input Event Handling
+
+If your app does not use a Component, you need to manage user input errors manually by creating the desired validation messages and adding them to the [message manager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager). As the messages require the UI binding and type, you would have to manually type and bind your input fields. For more information, see [Validation Messages](Validation_Messages_a90d93d.md).
 

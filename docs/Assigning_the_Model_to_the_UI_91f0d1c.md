@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 If you don't want to use a component or descriptor file, you have to assign the model instance manually to the UI, before you can bind controls to this model instance.
 
-OpenUI5 provides a flexible and modularized concept in which you can not only define one model for your applications, but define different areas in your application with different models and assign single controls to a model. You can, for example, define a JSON model for the application and an OData model for a table contol that is contained in the application. You can also set multiple models for a control, a UI area, or the core by specifying a name for the model. These models can be accessed by their name.
+OpenUI5 provides a flexible and modularized concept in which you can not only define one model for your applications, but define different areas in your application with different models and assign single controls to a model. You can, for example, define a JSON model for the application and an OData model for a table control that is contained in the application. You can also set multiple models for a control or a [ `UIArea`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIArea) by specifying a name for the model. These models can be accessed by their name.
 
 ``` js
 var oJSONModel = new sap.ui.model.json.JSONModel();
@@ -24,7 +24,7 @@ oControl.setModel(oODataModel);
 oControl.setModel(oJSONModel,"myJSONModel");
 ```
 
-When you set a model to a UI area or control, it will be propagated to all aggregated child controls. So if you set a model to a container control, for example, all controls that are contained \(aggregated\) in this container have access to this model. If one of the contained controls has its own model set \(with the same name\), the propagation stops. It is not possible to have two models with the same name set to one control instance.
+When you set a model to a `UIArea` or control, it will be propagated to all aggregated child controls. So if you set a model to a container control, for example, all controls that are contained \(aggregated\) in this container have access to this model. If one of the contained controls has its own model set \(with the same name\), the propagation stops. It is not possible to have two models with the same name set to one control instance.
 
 Choose one of the following options:
 
@@ -63,13 +63,29 @@ Choose one of the following options:
     > }
     > ```
 
+    If you need to access your model in the `onInit` function of a controller, keep in mind that the model is not available via `this.getView().getModel("myModel")`. This is because the model is held by a view's parent, which isn't yet connected to the view at execution time. However, you can access the model via the Component in the following way:
+
+    > Example:  
+    > **Setting a model in the `onInit` function of a controller**
+    > 
+    > ``` js
+    > // in your controller
+    > ...
+    > onInit: function() {
+    >    ...
+    >    var oModel = this.getOwnerComponent().getModel("myModel");
+    >    ...
+    > }
+    > ...
+    > ```
+
 -   You can define a specific model for a particular view by using the `setModel` method available on any control. When the model name `myModel` is omitted, the default model is set.
 
     ``` js
     this.getView().setModel(oModel, "myModel");
     ```
 
--   You can also define a specific model for sections within a UI area, for example, inside a panel or for a table control:
+-   You can also define a specific model for sections within a `UIArea`, for example, inside a panel or for a table control:
 
     ``` js
     
