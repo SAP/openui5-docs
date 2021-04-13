@@ -55,6 +55,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
         -   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
         -   [Upgrading](Upgrading_9638e4f.md)
+            -   [Upgrading from a Version Below 1.89](Upgrading_from_a_Version_Below_1.89_89b14ce.md)
             -   [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md)
             -   [Upgrading from a Version Below 1.40](Upgrading_from_a_Version_Below_1.40_278a8e5.md)
             -   [Upgrading from a Version Below 1.38](Upgrading_from_a_Version_Below_1.38_c1025c2.md)

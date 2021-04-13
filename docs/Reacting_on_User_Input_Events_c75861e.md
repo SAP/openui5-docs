@@ -34,12 +34,14 @@ User input errors can be detected automatically by the framework. This is the pr
 > }
 > ```
 
-The following four [Core](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core) events are then handled automatically by the [message manager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager):
+Controls implementing the `refreshDataState` method then automatically display messages corresponding to the following four [Core](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core) events:
 
 -   `FormatError` 
 -   `ParseError`
 -   `ValidationError` 
 -   `ValidationSuccess` 
+
+For more information, see [`sap.ui.model.DataState`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.DataState).
 
 ***
 

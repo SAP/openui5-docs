@@ -158,6 +158,9 @@
 					"Upgrading": {
 						"link": "Upgrading_9638e4f.md",
 						"items": {
+							"Upgrading from a Version Below 1.89": {
+								"link": "Upgrading_from_a_Version_Below_1.89_89b14ce.md"
+							},
 							"Upgrading from a Version Below 1.82": {
 								"link": "Upgrading_from_a_Version_Below_1.82_147eef9.md"
 							},
