@@ -259,8 +259,6 @@ oList.bindElement("/regions/1");
 
 ### API Reference
 
-For more information, see the API Reference for the following methods:
-
 -   [API Reference: `sap.ui.base.ManagedObject.bindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindObject).
 
 -   [API Reference: `sap.ui.base.ManagedObject.getObjectBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/getObjectBinding).

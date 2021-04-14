@@ -16,8 +16,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ### OpenUI5 library support
 
-Currently, the following libraries support the high contrast themes:
-
 -   `sap.f`
 
 -   `sap.m`

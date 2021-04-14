@@ -240,8 +240,6 @@ The following IDs are currently used:
 
 ### Creating Classes
 
-For the creation of classes, the following rules and guidelines apply:
-
 -   Initialize and describe instance fields in the constructor function: `this._bReady = false; // ready to handle requests`
 
 -   Define instance methods as members of the prototype of the constructor function: `MyClass.prototype.doSomething = function(){...`

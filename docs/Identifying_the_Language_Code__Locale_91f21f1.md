@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 For the identification of languages, the framework uses a language code of type `string`.
 
-The language can be set, for example, by using the following options:
-
 -   URL parameter `sap-ui-language` and configuration parameter `language`
 
 -   Script tag attribute `data-sap-ui-language`
@@ -71,6 +69,46 @@ These OpenUI5 configuration options accept the following formats:
 			</td>
 		</tr>
 		<tr>
+			<td>`SH`
+			</td>
+			<td>`sr-Latn`
+			</td>
+			<td>`SH` is the SAP language code for Serbian \(Latin script\).
+			</td>
+		</tr>
+		<tr>
+			<td>`6N`
+			</td>
+			<td>`en-GB`
+			</td>
+			<td>`6N` is the SAP language code for British English.
+			</td>
+		</tr>
+		<tr>
+			<td>`1P`
+			</td>
+			<td>`pt-PT`
+			</td>
+			<td>`1P` is the SAP language code forPortuguese.
+			</td>
+		</tr>
+		<tr>
+			<td>`1X`
+			</td>
+			<td>`es-MX`
+			</td>
+			<td>`1X` is the SAP language code for Mexican Spanish.
+			</td>
+		</tr>
+		<tr>
+			<td>`3F`
+			</td>
+			<td>`fr-CA`
+			</td>
+			<td>`3F` is the SAP language code for Canadian French.
+			</td>
+		</tr>
+		<tr>
 			<td>`1Q`
 			</td>
 			<td>`en-US-x-saptrc`
@@ -84,6 +122,14 @@ These OpenUI5 configuration options accept the following formats:
 			<td>`en-US-x-sappsd`
 			</td>
 			<td>`2Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("psd" in the private extensions name\).
+			</td>
+		</tr>
+		<tr>
+			<td>`3Q`
+			</td>
+			<td>`en-US-x-saprigi`
+			</td>
+			<td>`3Q` is also used as a technical SAP language code in support scenarios and displays a pseudo translation \("rigi" in the private extensions name\).
 			</td>
 		</tr>
 	</tbody>

@@ -22,7 +22,7 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
 
  ![](loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter") 
 
-Depending on the current date, we distinguish four different formatting categories, as shown in the table below:<a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>Formatting Categories
+ <a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>Formatting Categories
 
 |Category
 
@@ -76,8 +76,6 @@ Depending on the current date, we distinguish four different formatting categori
 </table>
 
 As you can see, we have many different cases, and our formatter contains real logic.
-
-We test this in a unit test. In this step we will follow an iterative approach. We first write a failing test and immediately fix it by adding the production code to make the test pass. Then the next iteration starts. We do not write more than one failing unit test at once.
 
 > Note:  
 > There are many benefits of consequently applying the test-driven development \(TDD\) methodology, for example, very fast feedback, you can execute your tests after each change and get immediate feedback if the tests run green. You also spend less time debugging and for analysis. We recommend that you get familiar with TDD and clean code practices. In this step you get a first impression how TDD results in better separation of concerns, APIs, handling of dependencies, code reuse, and a test suite growing together with the code.

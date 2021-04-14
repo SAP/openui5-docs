@@ -86,8 +86,6 @@ The OpenUI5 libraries are included in your app in a compressed form. To be able 
     > For performance reasons, you should deactivate this feature again when you're done.
 
 
-You can also select debug mode only for specific packages:
-
 1.  Next to the *Use Debug Sources* checkbox, choose *Select specific modules* to open the selection dialog box.
 
 2.  Select one or more modules in the module tree and notice that the value of the input field changes accordingly.

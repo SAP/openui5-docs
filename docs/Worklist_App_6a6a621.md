@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.
 
-The app provides the following features:
-
 -   Overview of all products
 
 -   Track products with shortages or products that are completely out of stock

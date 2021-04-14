@@ -22,9 +22,7 @@ The Demo Kit app has a new modern design that is intuitive and can be used on bo
 
 The global search has been improved and the results are now displayed in categories. They also include results from the *Samples* section, which was not possible with the old Demo Kit since the *Explored* app was a decoupled app.
 
-|The new Demo Kit contains the following sections:
-
--   Landing page with getting started information
+|-   Landing page with getting started information
 
 -   *Documentation* with detailed information
 
@@ -49,15 +47,13 @@ The global search has been improved and the results are now displayed in categor
 
 -   The correct plural category for a given number is now handled by the locale-specific plural rules offered by CLDR. Different languages use different plural forms, some languages have only singular and plural, others require additional forms, for example, dual \(two\), paucal \(few\), or many.
 
--   Date interval types are introduced to format two date-related properties from a model for displaying in the UI. Additionally they are used to parse and validate the values in UI controls before they are saved back to the model. The new interval types are:
-
--   `sap.ui.model.type.DateInterval` - a date interval \(without time\)
+-   -   `sap.ui.model.type.DateInterval` - a date interval \(without time\)
 
 -   `sap.ui.model.type.DateTimeInterval` - a date interval with the exact point of time
 
 -   `sap.ui.model.type.TimeInterval` - a time interval \(without date\)
 
-For more information, see [sap.ui.model.type.DateTimeInterval](sap.ui.model.type.DateTimeInterval_94658aa.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type). 
+    For more information, see [sap.ui.model.type.DateTimeInterval](sap.ui.model.type.DateTimeInterval_94658aa.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type). 
 
 -   The configuration option `animationMode` replaces `animation`, which is now deprecated. The new option supports several states \(`full`, `basic`, `minimal`, `none`\), which allow controls to extend support for animations in a more granular way instead of a binary `on`/`off` state. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md), [Implementing Animation Modes](Implementing_Animation_Modes_76b7d50.md), and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.AnimationMode). 
 
@@ -122,29 +118,29 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 
 -   `sap.f.DynamicPage` has the following new features:
 
--   You can now define the priority of the `DynamicPageTitle` areas with the use of the new `primaryArea` property. The primary area shrinks at a slower rate, remaining visible as long as possible.
+    -   You can now define the priority of the `DynamicPageTitle` areas with the use of the new `primaryArea` property. The primary area shrinks at a slower rate, remaining visible as long as possible.
 
--   With the new content aggregation of the `DynamicPageTitle`, you can add content in the middle area of the title. This content is displayed both in the expanded and collapsed states of the `DynamicPageHeader`.
+    -   With the new content aggregation of the `DynamicPageTitle`, you can add content in the middle area of the title. This content is displayed both in the expanded and collapsed states of the `DynamicPageHeader`.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle).
 
 -   `sap.f.semantic.SemanticPage`: To align with the latest SAP Fiori design guidelines, the following changes were implemented:
 
--   The position of the draft indicator is changed to be the first one before the finalizing actions in the footer toolbar of the page.
+    -   The position of the draft indicator is changed to be the first one before the finalizing actions in the footer toolbar of the page.
 
--   A new *Edit* button was added as the main action and the order of the actions changed to *Edit*, *Delete*, *Copy*, and *Add*.
+    -   A new *Edit* button was added as the main action and the order of the actions changed to *Edit*, *Delete*, *Copy*, and *Add*.
 
-For more information, see [Semantic Page \(sap.f\)](Semantic_Page_(sap.f)_47dc868.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.SemanticPage/preview).
+    For more information, see [Semantic Page \(sap.f\)](Semantic_Page_(sap.f)_47dc868.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.SemanticPage/preview).
 
 -   `sap.m.Label` has the following new properties:
 
--   `wrapping`: Determines whether text within a label is wrapped. The default value is `false`. If set to `false`, the label text only uses one line and any exceeding text is truncated and replaced with an ellipsis. When you use the `Label` within a `sap.m.Form` the label text is automatically displayed as wrapped.
+    -   `wrapping`: Determines whether text within a label is wrapped. The default value is `false`. If set to `false`, the label text only uses one line and any exceeding text is truncated and replaced with an ellipsis. When you use the `Label` within a `sap.m.Form` the label text is automatically displayed as wrapped.
 
-     ![](loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
+         ![](loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
 
--    `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
+    -    `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Label).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Label).
 
 -   `sap.m.MessageStrip` now supports a limited set of formatting tags for the text. The available tags are `<a>`, `<em>`, `<strong>`, and `<u>`. To enable the additional formatting tags, you have to set the `enableFormattedText` property to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessageStrip) and the [Samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessageStripWithEnableFormattedText/preview).
 

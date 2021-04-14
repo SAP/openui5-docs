@@ -24,39 +24,37 @@ With the following line you enable `Blanket.js` to measure the code coverage:
 
 With this argument, all files that are executed during the test run are added to the result.
 
-If you want to limit the test run, you can use the following code:
-
 -   Limit test to a single file:
 
-``` html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-	data-sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*="sap/ui/core/Popup.js"
-></script>
-```
+    ``` html
+    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-**only**="sap/ui/core/Popup.js"
+    ></script>
+    ```
 
 -   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-``` html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-	data-sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
-></script>
-```
+    ``` html
+    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-**only**="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
+    ></script>
+    ```
 
 -   Limit test to a specific library:
 
-``` html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-	data-sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*="sap/ui/core/"
-></script>
-```
+    ``` html
+    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-**only**="sap/ui/core/"
+    ></script>
+    ```
 
 -   Exclude specific objects:
 
-``` html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-	data-sap-ui-cover-*HIGHLIGHT START*never*HIGHLIGHT END*="sap/m/"
-></script>
-```
+    ``` html
+    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-**never**="sap/m/"
+    ></script>
+    ```
 
 
 ***
@@ -71,39 +69,37 @@ sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
 });
 ```
 
-If you want to limit the test run, you can use the following code:
-
 -   Limit test to a single file:
 
-``` html
-if (window.blanket) {
-	blanket.options("sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*", "sap/ui/core/Popup.js");
-}
-```
+    ``` html
+    if (window.blanket) {
+    	blanket.options("sap-ui-cover-**only**", "sap/ui/core/Popup.js");
+    }
+    ```
 
 -   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-``` html
-if (window.blanket) {
-	blanket.options("sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
-}
-```
+    ``` html
+    if (window.blanket) {
+    	blanket.options("sap-ui-cover-**only**", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
+    }
+    ```
 
 -   Limit test to a specific library:
 
-``` html
-if (window.blanket) {
-	blanket.options("sap-ui-cover-*HIGHLIGHT START*only*HIGHLIGHT END*", "sap/ui/core/");
-}
-```
+    ``` html
+    if (window.blanket) {
+    	blanket.options("sap-ui-cover-**only**", "sap/ui/core/");
+    }
+    ```
 
 -   Exclude specific objects:
 
-``` html
-if (window.blanket) {
-	blanket.options("sap-ui-cover-*HIGHLIGHT START*never*HIGHLIGHT END*", "sap/ui/example/thirdparty/");
-}
-```
+    ``` html
+    if (window.blanket) {
+    	blanket.options("sap-ui-cover-**never**", "sap/ui/example/thirdparty/");
+    }
+    ```
 
 
 ***

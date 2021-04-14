@@ -20,12 +20,12 @@ With this release, OpenUI5 is upgraded from version 1.46 to 1.48.
 
 -   The `Handlebars.js` library has been upgraded from version 3.0.3 to 4.0.5. If you access the parent contexts in your Handlebars templates, make sure that you pass the `compat` flag when compiling:
 
-```
-Handlebars.compile(source, {
-	compat: true
-});
-
-```
+    ```
+    Handlebars.compile(source, {
+    	compat: true
+    });
+    
+    ```
 
     This change has also been applied to the OpenUI5 versions that are still in maintenance \(1.28, 1.38., 1.44\).
 
@@ -41,8 +41,6 @@ Handlebars.compile(source, {
 #### Support Assistant and Other Support Tools
 
 The new Support Assistant tool enables application developers to check whether they have built their applications in accordance with the best practices for building OpenUI5 apps. The tool uses a set of predefined rules to check all aspects of an application, for example, accessibility, performance, data-binding, and more. Support Assistant is integrated into One Page Acceptance Tests \(OPA5\) and can be used as part of OPA tests.
-
-The main features of the tool are:
 
 -   Creation and management of support rules
 
@@ -192,23 +190,23 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   `sap.tnt.ToolPage`: `IconTabBar` can now be used in `sap.tnt.ToolPage`. The `ToolHeader` is enhanced to allow `IconTabBar` elements. When inside the `ToolHeader`, the `IconTabBar` can use only labels and no icons.
 
--   You can now have no tab selected by setting the `selectedKey` property to a non-existing key value.
+    -   You can now have no tab selected by setting the `selectedKey` property to a non-existing key value.
 
--   When `IconTabHeader` is used on smartphones and tablets, only completely visible tabs are displayed \(no truncation\). The rest of the tabs will overflow.
+    -   When `IconTabHeader` is used on smartphones and tablets, only completely visible tabs are displayed \(no truncation\). The rest of the tabs will overflow.
 
-For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolHeaderIconTabHeader/preview).
+    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolHeaderIconTabHeader/preview). 
 
 -   `sap.ui.table`: You can now highlight items in the tables of the `sap.ui.table` library \(`sap.ui.table.Table`, `sap.ui.table.TreeTable`, `sap.ui.table.AnalyticalTable`\), for example to indicate an error. For more information, see the API Reference for [sap.ui.table.RowSettings](https://openui5.hana.ondemand.com/#/api/sap.ui.table.RowSettings) and [sap.ui.table.Table.setRowSettingsTemplate](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table/methods/setRowSettingsTemplate), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.table.sample.RowHighlights/preview).
 
 -   `sap.ui.unified.Calendar`:
 
--   You can now show and hide week numbers with the use of a new property `showWeekNumbers`. This feature is disabled for the Islamic calendar.
+    -   You can now show and hide week numbers with the use of a new property `showWeekNumbers`. This feature is disabled for the Islamic calendar.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar/methods/setShowWeekNumbers) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMinMax/preview).
+        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar/methods/setShowWeekNumbers) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMinMax/preview).
 
--   You can now set specific dates or date ranges to be displayed as non-working by using the `specialDates` aggregation and `sap.ui.unified.CalendarDayType.NonWorking` enumeration type.
+    -   You can now set specific dates or date ranges to be displayed as non-working by using the `specialDates` aggregation and `sap.ui.unified.CalendarDayType.NonWorking` enumeration type.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
+        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
 
 -   `sap.ui.unified.ColorPicker`: A responsive variant of the color picker control is now available in the `sap.ui.unified` library that is compatible for use with controls from the other responsive OpenUI5 libraries.
 
@@ -220,8 +218,6 @@ For more information, see the [sample](https://openui5.hana.ondemand.com/#/sampl
 <a name="loio2818f800e7424c5c91dbd495f8cb757b__section_tfp_n5w_r1b"/>
 
 ### Documentation Updates
-
-In addition to the documentation for new features, the following changes have been applied to the documentation:
 
 -   New tutorial: [Troubleshooting](Troubleshooting_5661952.md)
 

@@ -190,8 +190,6 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 |
 
-As you can see, we now have four landmarks on our page. The top three landmarks structure our page:
-
 -   *Overview Page* marks the complete page.
 
 -   *Header* marks the page title.

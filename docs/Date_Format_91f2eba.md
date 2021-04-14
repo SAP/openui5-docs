@@ -64,7 +64,7 @@ oDateFormat.format(oNow); //string in the same format as "Thu, Jan 29, 2017"
 > Note:  
 > If you define `format` and `pattern`, the `format` will be ignored!
 
-The letters which can be included in this pattern are explained in the following table:<a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>Patterns
+ <a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>Patterns
 
 |Letter
 
@@ -263,8 +263,6 @@ If you use the `datetime` instance by calling `getDateTimeInstance`, you can def
 ***
 
 #### Relative Format
-
-Relative format on "day"' level is only supported by the date instance but not the date time or the time instance.
 
 -   `relative`: if this is set to `true`, the date is formatted relatively to the actual date if it's within the given date range.
 

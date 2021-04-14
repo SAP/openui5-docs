@@ -84,9 +84,9 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   **`sap.m.RangeSlider`**:
 
--   The tooltips above the handles of the `RangeSlider` can be used to define values for the slider. This eases the interaction with the control and helps users to enter precise values. You can enable this by setting the `inputsAsTooltips` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.RangeSlider/methods/setInputsAsTooltips) in the Demo Kit.
+    -   The tooltips above the handles of the `RangeSlider` can be used to define values for the slider. This eases the interaction with the control and helps users to enter precise values. You can enable this by setting the `inputsAsTooltips` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.RangeSlider/methods/setInputsAsTooltips) in the Demo Kit.
 
--   You can now move the entire selected range. Selecting and holding the range line moves the whole range. For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.RangeSlider/preview) in the Demo Kit.
+    -   You can now move the entire selected range. Selecting and holding the range line moves the whole range. For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.RangeSlider/preview) in the Demo Kit.
 
 -   **`sap.m.Text`**: Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can disable this by setting the wrapping property to `false`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Text/methods/setWrapping) in the Demo Kit.
 

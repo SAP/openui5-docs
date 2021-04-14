@@ -43,19 +43,19 @@ According to the `OData Version 2.0` specification, the following date and time 
 
 1.  With a dedicated `Edm.Time`:
 
-``` xml
-<TimePicker displayFormat="short"
-            value="{ path: 'EntryTime', type: 'sap.ui.model.odata.type.Time'}"/>
-
-```
+    ``` xml
+    <TimePicker displayFormat="short"
+                value="{ path: 'EntryTime', type: 'sap.ui.model.odata.type.Time'}"/>
+    
+    ```
 
     The sample shows how to bind time values at the backend \(for example PT11H33M55S for 11:33:55\). Note that there is a dedicated data binding type that recognizes the `Edm.Time` format and can handle time conversions in both directions - from and to the backend. When you are working with this data binding type and you choose a value using the `TimePicker` control, the same value will be sent to the backend, that is, no timezone conversions will be applied to the value.
 
 2.  As a string:
 
-``` xml
-<TimePicker value="{EntryTimeString}" valueFormat="HH:mm:ss"/>
-```
+    ``` xml
+    <TimePicker value="{EntryTimeString}" valueFormat="HH:mm:ss"/>
+    ```
 
     In the above example, the apps give the `TimePicker` information about the exact format with which the time values are stored in the backend. The whole coding is string-based \(the data field is a string, and the EDM type is an `Edm.String`\) and no conversion is done.
 
@@ -101,10 +101,10 @@ In this example, the binding type specifies that the backend data will be interp
 
 1.  With a dedicated EDM type \(`Edm.DateTime`, `Edm.DateTimeOffset`\):
 
-``` xml
-<DateRangeSelection value="{parts: [{path: 'EntryDate'}, {path: 'EntryDateTimeOffset'}], type: 'sap.ui.model.type.DateInterval',
-formatOptions: { UTC: true, format: 'yMd' }}" />
-```
+    ``` xml
+    <DateRangeSelection value="{parts: [{path: 'EntryDate'}, {path: 'EntryDateTimeOffset'}], type: 'sap.ui.model.type.DateInterval',
+    formatOptions: { UTC: true, format: 'yMd' }}" />
+    ```
 
     If you have two dates in the backend represented as `Emd.DateTime` and/or `Edm.DateTimeOffset`, you can bind them to the `DateRangeSelection` control as shown above.
 

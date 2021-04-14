@@ -30,10 +30,10 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
 
 -   Declaring a binding for a control property in an XML view such as the following:
 
-``` xml
-
-<Table items="{path : '/SalesOrderList', parameters : { $expand : 'SO_2_BP', $filter : 'BuyerName ge \'M\'', ...}, events : {dataReceived : '.onDataEvents', ... } }">
-```
+    ``` xml
+    
+    <Table items="{path : '/SalesOrderList', parameters : { $expand : 'SO_2_BP', $filter : 'BuyerName ge \'M\'', ...}, events : {dataReceived : '.onDataEvents', ... } }">
+    ```
 
     For a complete example, see the `Main.view.xml` file in the [SalesOrders sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
 

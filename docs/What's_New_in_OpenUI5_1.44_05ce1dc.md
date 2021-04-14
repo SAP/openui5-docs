@@ -83,25 +83,25 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 
 -   `sap.m.IconTabBar`:
 
--   We have implemented drag and drop of tabs on desktop devices. Clicking and holding a tab lets you change its position in on the tab bar. The functionality is enabled with the `enableTabReordering` property.
+    -   We have implemented drag and drop of tabs on desktop devices. Clicking and holding a tab lets you change its position in on the tab bar. The functionality is enabled with the `enableTabReordering` property.
 
--   We have added a new property, `headerBackgroundDesign`, to change the header background and thus align with the new visual design. Possible values are `Solid`, `Transparent`, and `Translucent`.
+    -   We have added a new property, `headerBackgroundDesign`, to change the header background and thus align with the new visual design. Possible values are `Solid`, `Transparent`, and `Translucent`.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getEnableTabReordering) and the samples [Tabs Drag and Drop](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview) and [Background Design](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarBackgroundDesign/preview).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getEnableTabReordering) and the samples [Tabs Drag and Drop](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview) and [Background Design](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarBackgroundDesign/preview). 
 
 -   `sap.m.List` and `sap.m.Table`: You can now highlight items, for example to indicate an error. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase).
 
 -   `sap.m.NotificationListItem` and `sap.m.NotificationListGroup`: We have implemented several new features:
 
--   New aggregation \(`processingMessage`\) to provide a `sap.m.MessageStrip` notification within a `NotificationListItem`
+    -   New aggregation \(`processingMessage`\) to provide a `sap.m.MessageStrip` notification within a `NotificationListItem`
 
-     ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+         ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
 
--   Notification list items are highlighted on mouse-over as with list items.
+    -   Notification list items are highlighted on mouse-over as with list items.
 
--   We have added an event to trigger when the `NotificationListGroup` is expanded or collapsed. The event is called `onCollapse`.
+    -   We have added an event to trigger when the `NotificationListGroup` is expanded or collapsed. The event is called `onCollapse`.
 
-For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview).
+    For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
 
 -   `sap.m.PlanningCalendar`: A new `week` view is now available for the `PlanningCalendar` control. It displays a full calendar week that alway starts from the first day of the week \(locale-dependent\) for the corresponding calendar types \(Gregorian, Islamic, Japanese\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendar/preview).
 
@@ -113,11 +113,11 @@ For more information, see the samples [Notification List Item](https://openui5.h
 
 -   `sap.ui.table.*`:
 
--   The sizing behavior of columns is now more predictable, especially when the user manually resizes columns. Columns now have a fixed minimum width.
+    -   The sizing behavior of columns is now more predictable, especially when the user manually resizes columns. Columns now have a fixed minimum width.
 
--   Keyboard handling has been optimized for navigation as well as editing scenarios.
+    -   Keyboard handling has been optimized for navigation as well as editing scenarios.
 
--   The default row height when using controls from the `sap.ui.commons` library is now the same as the general default. For more information, see [Content Densities](Content_Densities_e54f729.md).
+    -   The default row height when using controls from the `sap.ui.commons` library is now the same as the general default. For more information, see [Content Densities](Content_Densities_e54f729.md).
 
 
 ***
@@ -130,13 +130,13 @@ The **Demo Kit** now has the following new features:
 
 -   Several improvements are now available in the *Samples*:
 
--   The Belize Deep theme can now be switched from the *Settings* menu.
+    -   The Belize Deep theme can now be switched from the *Settings* menu.
 
--   You can now copy the code from the code section of each control sample on a Combi device and paste it outside the *Samples*.
+    -   You can now copy the code from the code section of each control sample on a Combi device and paste it outside the *Samples*.
 
--   *Deprecated Since* information is now available in the API descriptions so that it is easier to identify the version when deprecation took place.
+    -   *Deprecated Since* information is now available in the API descriptions so that it is easier to identify the version when deprecation took place.
 
--   Downloaded samples that contain external \(utility\) resources can now be easily imported with less additional effort, for example, into SAP Web IDE 
+    -   Downloaded samples that contain external \(utility\) resources can now be easily imported with less additional effort, for example, into SAP Web IDE 
 
 -   The search feature in the *Icon Explorer* has been improved to find icons not only by name but also by metadata keywords.
 

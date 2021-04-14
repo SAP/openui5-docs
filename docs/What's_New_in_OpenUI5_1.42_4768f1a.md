@@ -55,11 +55,11 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
 
 -   `sap.m.Carousel`: The `Carousel` control has two enhancements.
 
--   The enumeration `CarouselArrowsPlacement` determines where the arrows will be placed \(on the sides of the content or on the sides of the page indicator\).
+    -   The enumeration `CarouselArrowsPlacement` determines where the arrows will be placed \(on the sides of the content or on the sides of the page indicator\).
 
--   The page indicator now shows numbers instead of bullets, when the number of items in the `Carousel` is above nine.
+    -   The page indicator now shows numbers instead of bullets, when the number of items in the `Carousel` is above nine.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Carousel/methods/getArrowsPlacement) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CarouselWithDisplayOptions/preview).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Carousel/methods/getArrowsPlacement) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CarouselWithDisplayOptions/preview). 
 
      ![](loioa698aa6c990b41458195603167aa70fe_LowRes.png) 
 
@@ -71,21 +71,21 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 -   `sap.m.IconTabBar`: The `IconTabBar` control has two enhancements:
 
--   `headerMode` has a new value called `Inline`. This mode displays the text and the count in one row.
+    -   `headerMode` has a new value called `Inline`. This mode displays the text and the count in one row.
 
--   `showOverflowSelectList` can be enabled when you have a large number of tabs and cannot display them all at once. When this property is set, all tabs that cannot be shown are added to an overflow list.
+    -   `showOverflowSelectList` can be enabled when you have a large number of tabs and cannot display them all at once. When this property is set, all tabs that cannot be shown are added to an overflow list.
 
-For more information, see the API Reference for [sap.m.IconTabHeaderMode](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeaderMode) and [sap.m.IconTabBar.getShowOverflowSelectList](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getShowOverflowSelectList), and the samples [Overflow Select List](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarOverflowSelectList/preview) and [Inline Mode](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarInlineMode/preview).
+    For more information, see the API Reference for [sap.m.IconTabHeaderMode](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeaderMode) and [sap.m.IconTabBar.getShowOverflowSelectList](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getShowOverflowSelectList), and the samples [Overflow Select List](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarOverflowSelectList/preview) and [Inline Mode](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarInlineMode/preview). 
 
 -   `sap.m.MultiComboBox`: We have implemented touch support on mobile devices for the `MultiComboBox` control. The behavior of the control is now aligned with other similar controls such as `Select` and `ComboBox`.
 
 -   `sap.m.Slider` and `sap.m.RangeSlider`: These controls have two new properties:
 
--   `inputsAsTooltips` adds an input field above the slider handle. This enables users to directly enter the desired `Slider` value.
+    -   `inputsAsTooltips` adds an input field above the slider handle. This enables users to directly enter the desired `Slider` value.
 
--   `showAdvancedTooltip` when enabled, the handle will always display the slider value as a tooltip.
+    -   `showAdvancedTooltip` when enabled, the handle will always display the slider value as a tooltip.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/methods/getInputsAsTooltips) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/methods/getInputsAsTooltips) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview). 
 
 -   `sap.m.ObjectListItem` and `sap.m.ObjectHeader`: These controls can now display all markers of type `sap.m.ObjectMarker` with the use of a new `marker` aggregation. The possible values are `Flagged`, `Favorite`, `Locked`, `Draft`, and `Unsaved`. For more information, see the API Reference for [sap.m.ObjectListItem](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectListItem) and [sap.m.ObjectHeader](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectHeader), and the samples [Object List Item - Markers Aggregation](https://openui5.hana.ondemand.com/#/sample/sap.m.ObjectListItemMarkers/preview) and [Object Header - Markers Aggregation](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ObjectHeaderMarkers/preview).
 
@@ -93,11 +93,11 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 -   `sap.m.UploadCollection`: The `UploadCollection` control has the following new properties:
 
--   `uploadButtonInvisible`: With this new property, you can make the *Upload* button invisible in your application if you want to prevent the user from uploading a file, either in the instant upload or in the upload pending scenario of the `UploadCollection` control.
+    -   `uploadButtonInvisible`: With this new property, you can make the *Upload* button invisible in your application if you want to prevent the user from uploading a file, either in the instant upload or in the upload pending scenario of the `UploadCollection` control.
 
--   `terminationEnabled`: With this new property, you can make the *Terminate Upload* button invisible in your application if you want to prevent the user from terminating an instant upload in the `UploadCollection` control.
+    -   `terminationEnabled`: With this new property, you can make the *Terminate Upload* button invisible in your application if you want to prevent the user from terminating an instant upload in the `UploadCollection` control.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.UploadCollection).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.UploadCollection). 
 
 -   `sap.m.ViewSettingsDialog`: You can now customize the search behavior in the filter details page with the use of the new property `filterSearchOperator` with the possible values `Contains`, `Equals`, and `Starts With`. There is also a new method `setFilterSearchCallback` that can set a custom filter callback if the predefined filters are not sufficient. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ViewSettingsDialog) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ViewSettingsDialogCustomFilterDetails/preview).
 
@@ -184,8 +184,6 @@ We have 10 new icons - check out the [Icon Explorer](https://openui5.hana.ondema
 ### Documentation Changes
 
 The documentation for QUnit testing has been updated and aligned with the new QUnit 2.0 API. All code samples have been replaced to match the new syntax: [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)
-
-We have updated the following tutorials:
 
 -   [Data Binding](Data_Binding_e531093.md)
 

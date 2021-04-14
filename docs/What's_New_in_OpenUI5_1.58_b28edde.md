@@ -55,8 +55,6 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
 #### UI5 Inspector
 
-The latest version 0.9.5 of the UI5 Inspector includes two main features:
-
 -   Now it supports a dark theme, for when you use Google Development Tools in dark mode.
 
 -   In previous versions, the UI5 Inspector did not properly display composite binding structures. Now it shows all parts of the bindings on the *Bindings* tab, including individual models, paths, and values. Clicking on the model link displays the whole model with all values.
@@ -108,19 +106,19 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
 -   `sap.f.DynamicPage`:
 
--   You can now use the `sapUiContentPadding`, `sapUiNoContentPadding`, and `sapUiResponsiveContentPadding` CSS classes to adjust the content padding of the `DynamicPage` control.For more information, see [Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPage/aggregations). 
+    -   You can now use the `sapUiContentPadding`, `sapUiNoContentPadding`, and `sapUiResponsiveContentPadding` CSS classes to adjust the content padding of the `DynamicPage` control.For more information, see [Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPage/aggregations). 
 
--   The `sap.f.DynamicPageHeader` and `sap.f.DynamicPageTitle` classes now introduce a new `backgroundDesign` property which has three background options - `Solid`, `Transparent`, or `Translucent`. For the new property to be supported correctly when using the dynamic header in `sap.uxap.ObjectPageLayout`, a new `backgroundDesignAnchorBar` property is added to `sap.uxap.ObjectPageLayout`, which is used to control the background color of the `sap.uxap.AnchorBar` through its own newly added `backgroundDesign` property.For more information, see the *API Reference* for [`sap.f.DynamicPageHeader`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageHeader), [`sap.f.DynamicPageTitle`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle), [`sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout), and [`sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#/api/sap.uxap.AnchorBar).
+    -   The `sap.f.DynamicPageHeader` and `sap.f.DynamicPageTitle` classes now introduce a new `backgroundDesign` property which has three background options - `Solid`, `Transparent`, or `Translucent`. For the new property to be supported correctly when using the dynamic header in `sap.uxap.ObjectPageLayout`, a new `backgroundDesignAnchorBar` property is added to `sap.uxap.ObjectPageLayout`, which is used to control the background color of the `sap.uxap.AnchorBar` through its own newly added `backgroundDesign` property.For more information, see the *API Reference* for [`sap.f.DynamicPageHeader`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageHeader), [`sap.f.DynamicPageTitle`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle), [`sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout), and [`sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#/api/sap.uxap.AnchorBar).
 
 -   `sap.f.FlexibleColumnLayout`: The control now supports reveal effect animation to ensure smooth performance when a new column is opened or column width is changed.For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.FlexibleColumnLayout).
 
 -   `sap.f.semantic.SemanticPage`:
 
--   The `titleExpandedHeading` and `titleSnappedHeading` aggregations are now available for the `sap.f.semantic.SemanticPage` class, and you can display different content in the expanded and collapsed states of the page header.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage/aggregations).
+    -   The `titleExpandedHeading` and `titleSnappedHeading` aggregations are now available for the `sap.f.semantic.SemanticPage` class, and you can display different content in the expanded and collapsed states of the page header.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage/aggregations).
 
--   The `areaShrinkRatio` property is now available for the `sap.f.semantic.SemanticPage` class. The property assigns shrinking ratios to the title areas \(Heading, Content, Actions\) of the `SemanticPage`. The greater value a section has, the faster it shrinks when the screen size is reduced.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage/controlProperties).
+    -   The `areaShrinkRatio` property is now available for the `sap.f.semantic.SemanticPage` class. The property assigns shrinking ratios to the title areas \(Heading, Content, Actions\) of the `SemanticPage`. The greater value a section has, the faster it shrinks when the screen size is reduced.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage/controlProperties).
 
--   With the use of the new `sapFSemanticPageAlignContent` CSS class, you can now vertically align the content in the `SemanticPage` header and page content areas.
+    -   With the use of the new `sapFSemanticPageAlignContent` CSS class, you can now vertically align the content in the `SemanticPage` header and page content areas.
 
 -   `sap.m.App`: The `mobileWebAppCapable` property is now available. It determines whether the `sap.m.App` is displayed without an address bar when opened from an exported home screen icon on a mobile device.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.App/controlProperties).
 
@@ -128,16 +126,16 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
 -   `sap.m.ColorPalette`:
 
--   The tooltips of the predefined colors have been formatted in order to be more easily recognizable by users. Now they start with a capital letter, and there are intervals between the words, for example "indianred" has been changed to "Indian Red". For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalette/preview).
+    -   The tooltips of the predefined colors have been formatted in order to be more easily recognizable by users. Now they start with a capital letter, and there are intervals between the words, for example "indianred" has been changed to "Indian Red". For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalette/preview).
 
--   The keyboard navigation has been improved by implementing a more intuitive use of the [Up\], [Down\], [Home\], and [End\] keys. In terms of navigation, the color swatch items are treated as columns. For example, if the focus is on the first or on the last item, pressing [Up\] or [Down\] will move the focus respectively to the *Default Color* or *More Colors* button. [Home\] moves the focus to the first color in the row, to the first color in the container, or to the *Default Color* button. [End\] moves the focus to the last color in the row, to the last color in the container, or to the *More Colors* button. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalettePopover/preview).
+    -   The keyboard navigation has been improved by implementing a more intuitive use of the [Up\], [Down\], [Home\], and [End\] keys. In terms of navigation, the color swatch items are treated as columns. For example, if the focus is on the first or on the last item, pressing [Up\] or [Down\] will move the focus respectively to the *Default Color* or *More Colors* button. [Home\] moves the focus to the first color in the row, to the first color in the container, or to the *Default Color* button. [End\] moves the focus to the last color in the row, to the last color in the container, or to the *More Colors* button. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalettePopover/preview).
 
 -   `sap.m.DateTimePicker`: The Time Picker is now vertically aligned with the Calendar for better user experience. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DateTimePicker/preview).
 
 -   `sap.m` library for `List` and `Tree` controls: The new `sticky` property is now also available for these controls \(in `sap.m.ListBase`\). It enables the column headers, infobar, and toolbar to remain in a fixed position at the top of the page during vertical scrolling. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase/controlProperties) for the `sticky` property and the [`ListToolbar` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ListToolbar/preview) as well as the [`TreeExpandMulti` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TreeExpandMulti/preview).
 
-> Note:  
-> The `sticky` property is not supported in all browsers. For more information about browser limitations, see the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase).
+    > Note:  
+    > The `sticky` property is not supported in all browsers. For more information about browser limitations, see the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase).
 
 -   `sap.m.MessagePopover/sap.m.MessageView`: The `sap.m.MessageItems` that are aggregated in these controls have a new property - `activeTitle`. If set to `true`, the item’s title will be rendered as a link. Then, an event handler function should be provided for the `activeTitlePress` event, which is an event fired by the control when an active item title is pressed. This allows application developers to link a message in the control to the originating UI element in the application and, for example, automatically scroll to it. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessagePopoverMessageHandling/preview).
 
@@ -173,11 +171,11 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
 -   `sap.ui.unified.Calendar`:
 
--   Colors are adjusted to make a clearer distinction between working and nonworking days in `sap.ui.unified.Calendar` and in `sap.ui.unified.CalendarLegend`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
+    -   Colors are adjusted to make a clearer distinction between working and nonworking days in `sap.ui.unified.Calendar` and in `sap.ui.unified.CalendarLegend`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
 
--   A newly introduced sample demonstrates the recommended usage of the deselection logic when the calendar is in single selection mode. The implementation of this logic allows the app to support deselection of dates so that the user can deselect a previously selected date. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarDateDeselection/preview).
+    -   A newly introduced sample demonstrates the recommended usage of the deselection logic when the calendar is in single selection mode. The implementation of this logic allows the app to support deselection of dates so that the user can deselect a previously selected date. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarDateDeselection/preview).
 
--   A new `weekNumberSelect` event is introduced which allows you to select a complete week by clicking on the week number. This function works for Gregorian calendars only and if `intervalSelection` is set to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSingleIntervalSelection/preview).
+    -   A new `weekNumberSelect` event is introduced which allows you to select a complete week by clicking on the week number. This function works for Gregorian calendars only and if `intervalSelection` is set to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSingleIntervalSelection/preview).
 
 -   `sap.ui.unified.ColorPicker`: The new `displayMode` property determines how the control will be displayed. There are three display options - `default`, `large`, and `simplified`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.ColorPicker/preview). 
 

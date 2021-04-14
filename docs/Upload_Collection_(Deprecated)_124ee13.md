@@ -31,8 +31,6 @@ The `UploadCollection` control can be used in the following scenarios:
 
 -   **Upload Pending**
 
-    In this scenario, the upload process is divided into two steps.
-
     -   Users select attachments and add them to the upload list \(multiple selection is possible\). Thereby, a user can delete a file of this selection again without canceling the whole upload of the other selected files.
 
     In a second step, the user uploads the selected files to the application. The upload is provided by the application, for example, with an upload button or similar. To trigger the upload, the control offers an event.

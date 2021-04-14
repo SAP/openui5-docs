@@ -14,8 +14,6 @@ With the Demo Kit, we deliver some demo apps that show you how you can use the v
 
 You can open the apps directly at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html). You can also download the source files there to have a look at the code.
 
-We have the following categories of demo apps:
-
 -   Showcase apps that show you how to use specific controls or features
 
 -   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\)

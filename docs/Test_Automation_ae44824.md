@@ -55,9 +55,9 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     -   If not, use the following command:
 
-```nocode
-npm init --yes
-```
+        ```nocode
+        npm init --yes
+        ```
 
 3.  Install *Karma* locally in your working directory.
 

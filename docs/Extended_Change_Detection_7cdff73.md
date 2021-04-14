@@ -68,13 +68,9 @@ The difference between the state when the list was initially loaded and the curr
 
 ### Using Extended Change Detection in App Development
 
-If a control you want to use in your app to visualize list entries supports extended change detection, you should make sure that each entity of your model has a unique key to improve performance.
-
 -   For OData models, the unique keys are automatically provided.
 
--   For all other models \(like a JSON model\), you have to define the keys either by using a key property or by using a function that calculates the key in the binding info of their list binding as in the following example:
-
-| `key` property
+-   | `key` property
 
 | `key` function
 

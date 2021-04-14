@@ -159,12 +159,10 @@ For more information, see [Aggregation Forwarding](Aggregation_Forwarding_64a5e1
 
 #### Drag and Drop
 
-Drag and drop is no longer experimental with this version.
-
 > Note:  
 > If you want to use drag and drop for a control, the control must allow drag and drop \(per definition in the metadata\), and you have to make the required settings in the relevant aggregation.
 
- For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md), the [API Reference: `dragDropConfig` aggregation](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations), and the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase) \(control that allows drag and drop\).
+ For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md), the [API Reference: `dragDropConfig` aggregation](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations), and the [API Reference: `sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase) \(control that allows drag and drop\). 
 
 ***
 
@@ -192,9 +190,9 @@ Drag and drop is no longer experimental with this version.
 
 -   `sap.m.table`:
 
--   The `contextualWidth` property is now available in the responsive table which allows you to control the popin behavior based on the size of a container rather than a whole page. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) for the `contextualWidth` property and the [`ContextualWidthDynamic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthDynamic/preview) as well as the [`ContextualWidthStatic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthStatic/preview).
+    -   The `contextualWidth` property is now available in the responsive table which allows you to control the popin behavior based on the size of a container rather than a whole page. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) for the `contextualWidth` property and the [`ContextualWidthDynamic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthDynamic/preview) as well as the [`ContextualWidthStatic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthStatic/preview).
 
--   The `paste` event has been added to the responsive table. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/events/paste) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableEditable/preview).
+    -   The `paste` event has been added to the responsive table. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/events/paste) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableEditable/preview).
 -   `sap.m.UploadCollection`: The control's functionality has been unified, so the behavior is now more consistent, regardless of whether the `instantUpload` mode is enabled. With the new `beforeUploadTermination` event, you can adjust the control’s behavior when the file upload is terminated by the user before completion. If the default upload behavior is not applicable to your app, you can now also implement custom upload logic using the `CollectionUploader` class.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection).
 
 -   `sap.m.ViewSettingsDialog`: Several visual improvements were implemented - the *OK* button is now displayed as emphasized and there is a better visual separation of the items displayed in the *Sort By*, *Filter By* and *Group By* tabs.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ViewSettingsDialog/preview).
@@ -207,9 +205,9 @@ Drag and drop is no longer experimental with this version.
 
 -   `sap.ui.unified.Calendar`:
 
--   **Week selection**: Users can now select/deselect all the days in a given week at once by choosing the week number or by pressing  [SHIFT\] + [SPACE\]  on any day of the week.
+    -   **Week selection**: Users can now select/deselect all the days in a given week at once by choosing the week number or by pressing  [SHIFT\] + [SPACE\]  on any day of the week.
 
--   **Range selection**: We introduced two more shortcuts -  [SHIFT\] + [ENTER\]  and  [SHIFT\] + [Left Mouse Button\] . Both of them select/deselect all days between the two selected dates.
+    -   **Range selection**: We introduced two more shortcuts -  [SHIFT\] + [ENTER\]  and  [SHIFT\] + [Left Mouse Button\] . Both of them select/deselect all days between the two selected dates.
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMultipleDaySelection/preview).
 

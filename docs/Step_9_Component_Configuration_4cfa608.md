@@ -29,7 +29,9 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).  
+You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).
+
+  
   
 <a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>Folder Structure for this Step
 

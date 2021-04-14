@@ -124,9 +124,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
 -   `sap.ui.require`
 
--   Factory functions and core references:
-
--   `sap.ui.getCore`
+-   -   `sap.ui.getCore`
 
 -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 

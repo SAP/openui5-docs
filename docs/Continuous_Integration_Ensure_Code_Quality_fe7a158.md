@@ -35,9 +35,7 @@ In an OpenUI5 project, the process, for example, can look like this:
 
 2.  The SCMS calls an automation server \(for example, *Jenkins*\).
 
-3.  The developer triggers the peer code review and the automation server starts a voter job that triggers, among others:
-
--   Static code checks \(for example, *ESLint*\) to check the code style
+3.  -   Static code checks \(for example, *ESLint*\) to check the code style
 
 -   Unit and integration test automated by a test runner \(for example, *Karma*\)
 

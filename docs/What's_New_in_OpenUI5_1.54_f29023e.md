@@ -82,9 +82,7 @@ You can now also use the "Manifest First" mechanism for component containers. Fo
 
 The new version of the OpenUI5 OData V4 model has the following features:
 
--   Enhancements to the adapter to use the V4 model with an OData V2 service:
-
--   Handling of complex filters with `and`, `or`, `not`, brackets, and frequently used functions including `contains`.
+-   -   Handling of complex filters with `and`, `or`, `not`, brackets, and frequently used functions including `contains`.
 
 -   Support for bound operations by evaluating the V2 annotation `sap:action-for`.
 
@@ -100,13 +98,13 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
 -   It is now possible to request the `x-csrf` token and the root metadata document earlier. This is controlled by model parameter [`earlyRequests`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
 
-> Note:  
-> The default value of `earlyRequests` is **false** and this default may change in the future.
+    > Note:  
+    > The default value of `earlyRequests` is **false** and this default may change in the future.
 
 -   Action advertisements can be accessed in bindings by specifying `#<namespace>.<action>` 
 
-> Note:  
-> The previous method for metadata access is still available, but we recommend using a double hash \(\#\#\) syntax instead.
+    > Note:  
+    > The previous method for metadata access is still available, but we recommend using a double hash \(\#\#\) syntax instead.
 
 
 > Restriction:  
@@ -127,24 +125,20 @@ A new default font, the 72 font family that offers some legibility and accessibi
 
 #### Support Assistant Performance and Usability Improvements
 
-There are several improvements in the Support Assistant tool:
-
 -   Better initial loading performance - now each library should have a `.supportrc` file in its root folder. The purpose of this file is to serve as a metadata container to be used by the Support Assistant ruleset loader module.
 
     For more information, see [Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md).
 
 -   Improved perceived UI performance during initial tool loading – achieved by early and dynamic rendering of the most important UI elements and introducing a progress bar in the main screen of the Support Assistant.
 
--   Improved usability:
-
--   The selection of rules to run an analysis has been improved. Now, selecting a library selects all the rules it contains.
+-   -   The selection of rules to run an analysis has been improved. Now, selecting a library selects all the rules it contains.
 
 -   The *Issues* and *Rules* buttons are now highlighted to show the user which view is active at the moment.
 
 -   The issue details in the *Issues* view have been moved from the top to the bottom of the window for better usability.
 
 
-![](loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png)
+![](loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 
 
 ***
 
@@ -182,11 +176,11 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
 -   `sap.m.IconTabBar`:
 
--   Updated drag and drop feature for visible tab areas - the drag and drop feature has a new visual indication, including a drop area indicator and a ghost element. The keyboard handling is also updated.
+    -   Updated drag and drop feature for visible tab areas - the drag and drop feature has a new visual indication, including a drop area indicator and a ghost element. The keyboard handling is also updated.
 
--   Implemented drag and drop in the overflow area of `IconTabBar` – the drag and drop feature is added in the overflow list of `sap.m.IconTabBar`. Rearranging tabs using the keyboard is also enabled in the overflow.
+    -   Implemented drag and drop in the overflow area of `IconTabBar` – the drag and drop feature is added in the overflow list of `sap.m.IconTabBar`. Rearranging tabs using the keyboard is also enabled in the overflow.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
+        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
 
 -   `sap.m.Label`: A new `vAlign` property has been added. It specifies the vertical alignment of `sap.m.Label`. To preserve the current behavior of the control, the default value of the property is `inherit`. From now on, app developers can set vertical alignment of `sap.m.Label` with the `vAlign` property using its get/set method, which accepts values from the `sap.ui.core.VerticalAlign` interface. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label).
 

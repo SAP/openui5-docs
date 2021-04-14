@@ -14,15 +14,15 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
 -   The initial theme can be hardcoded in the application \(in the script tag of the bootstrap loading OpenUI5\) or in a JS configuration object defined before OpenUI5 is loaded, for example:
 
-``` html
-<script id="sap-ui-bootstrap" 
-	type="text/javascript"
-	src="resources/sap-ui-core.js"
-	data-sap-ui-theme="sap_belize">
-</script>
-```
+    ``` html
+    <script id="sap-ui-bootstrap" 
+    	type="text/javascript"
+    	src="resources/sap-ui-core.js"
+    	data-sap-ui-theme="sap_belize">
+    </script>
+    ```
 
-This setting has the lowest priority.
+    This setting has the lowest priority.
 
 -   A URL parameter \(for example: `html?sap-ui-theme=sap_belize`\) can be used when starting a OpenUI5 application to set or override the initial theme.
 
@@ -59,40 +59,38 @@ To load an external custom theme, you set this theme either by static declaring 
 
     If some parts of the theme are in different locations, you can use the above call to set the default, but override the theme location for specific libraries by specifying them in an array as second parameter: `sap.ui.getCore().setThemeRoot("my_theme", ["my.lib.one","my.lib.two"], "http://url.to/the/other/root/dir");`
 
-2.  Configure the theme by using one of the following options:
+2.  -   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
 
--   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
-
-``` html
-<script id="sap-ui-bootstrap" 
-	type="text/javascript"
-	src="resources/sap-ui-core.js"
-	data-sap-ui-theme-roots='{"my_theme" : "http://themes.org/ui5"}'>
-</script>
-```
+    ``` html
+    <script id="sap-ui-bootstrap" 
+    	type="text/javascript"
+    	src="resources/sap-ui-core.js"
+    	data-sap-ui-theme-roots='{"my_theme" : "http://themes.org/ui5"}'>
+    </script>
+    ```
 
 -   Specify the location of a theme with a **URL parameter**:
 
-```
-http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~client-111
-```
+    ```
+    http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~client-111
+    ```
 
 -   Use the global configuration object. Insert the following before the bootstrap `script` tag:
 
-``` html
-<script type="text/javascript">
-window["sap-ui-config"] = {
-	themeRoots : {
-		"my_preconfigured_theme" : "http://preconfig.com/ui5-themes",
-		
-		"my_second_preconfigured_theme" : {
-			"" : "http://preconfig.com/ui5-themes",
-			"sap.ui.core" : "http://core.com/ui5"
-		}
-	}
-}
-</script>
-```
+    ``` html
+    <script type="text/javascript">
+    window["sap-ui-config"] = {
+    	themeRoots : {
+    		"my_preconfigured_theme" : "http://preconfig.com/ui5-themes",
+    		
+    		"my_second_preconfigured_theme" : {
+    			"" : "http://preconfig.com/ui5-themes",
+    			"sap.ui.core" : "http://core.com/ui5"
+    		}
+    	}
+    }
+    </script>
+    ```
 
     The first theme is loaded for all libraries from the location specified. The second theme is loaded for the `sap.ui.core` library from the location specified. For all other libraries, the theme is loaded from the default location.
 

@@ -28,47 +28,47 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously in "manifest first" mode by specifying the component name:
 
-``` js
-	
-	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-	var oContainer = new sap.ui.core.ComponentContainer({
-		name: "samples.components.sample",
-		manifest: true,
-		async: true
-	});
-	oContainer.placeAt("target");
-	
-```
+    ``` js
+    	
+    	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
+    	var oContainer = new sap.ui.core.ComponentContainer({
+    		name: "samples.components.sample",
+    		manifest: true,
+    		async: true
+    	});
+    	oContainer.placeAt("target");
+    	
+    ```
 
 -   Load the component asynchronously before creating the container:
 
-``` js
-	// "Component" required from module "sap/ui/core/Component"
-	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-	Component.load({
-		name: "samples.components.sample",
-	}).then(function(oComponent) {
-		var oContainer = new ComponentContainer({
-			component: oComponent
-		});
-		oContainer.placeAt("target");
-	});
-```
+    ``` js
+    	// "Component" required from module "sap/ui/core/Component"
+    	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
+    	Component.load({
+    		name: "samples.components.sample",
+    	}).then(function(oComponent) {
+    		var oContainer = new ComponentContainer({
+    			component: oComponent
+    		});
+    		oContainer.placeAt("target");
+    	});
+    ```
 
 -   Load the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
 
-``` js
-	// "Component" required from module "sap/ui/core/Component"
-	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-	Component.load({
-		manifest: "samples/components/sample/manifest.json",
-	}).then(function(oComponent) {
-		var oContainer = new ComponentContainer({
-			component: oComponent
-		});
-		oContainer.placeAt("target");
-	});
-```
+    ``` js
+    	// "Component" required from module "sap/ui/core/Component"
+    	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
+    	Component.load({
+    		manifest: "samples/components/sample/manifest.json",
+    	}).then(function(oComponent) {
+    		var oContainer = new ComponentContainer({
+    			component: oComponent
+    		});
+    		oContainer.placeAt("target");
+    	});
+    ```
 
 
 > Note:  
@@ -82,39 +82,37 @@ You load and create a `UIComponent` in one of the following ways:
 
 You may want to load components from a location that is different from the location where the OpenUI5 libraries are located or a location that is not registered as a resource root in the OpenUI5 bootstrap.
 
-You can do so by defining the URL of the additional components as a setting for the component factory or the component container.
-
 -   Loading the component asynchronously before creating the container:
 
-``` js
-	// "Component" required from module "sap/ui/core/Component"
-	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
-	Component.load({
-		name: "samples.components.sample",
-		url: "./myComponents"
-	}).then(function(oComponent) {
-		var oContainer = new ComponentContainer({
-			component: oComponent
-		});
-		oContainer.placeAt("target");
-	});
-```
+    ``` js
+    	// "Component" required from module "sap/ui/core/Component"
+    	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
+    	Component.load({
+    		name: "samples.components.sample",
+    		url: "./myComponents"
+    	}).then(function(oComponent) {
+    		var oContainer = new ComponentContainer({
+    			component: oComponent
+    		});
+    		oContainer.placeAt("target");
+    	});
+    ```
 
 -   Loading the component asynchronously when creating the container:
 
-``` js
-	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-	// "coreLibrary" required from module "sap/ui/core/library"
-	var oContainer = new ComponentContainer({
-		name: "samples.components.sample",
-		lifecycle: coreLibrary.ComponentLifecycle.Container,
-		async: true,
-		url: "./myComponents"
-	});
-	oContainer.placeAt("target");
-```
+    ``` js
+    	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
+    	// "coreLibrary" required from module "sap/ui/core/library"
+    	var oContainer = new ComponentContainer({
+    		name: "samples.components.sample",
+    		lifecycle: coreLibrary.ComponentLifecycle.Container,
+    		async: true,
+    		url: "./myComponents"
+    	});
+    	oContainer.placeAt("target");
+    ```
 
-Here you use the `lifecycle` property to make sure that the component is destroyed when the container is destroyed.
+    Here you use the `lifecycle` property to make sure that the component is destroyed when the container is destroyed.
 
 
 ***
@@ -164,22 +162,22 @@ To instantiate the reuse component in the current component, you use an instance
 
 -   Example for simplified usage \(Async\):
 
-``` js
-this.createComponent("myreuse").then(function(oComponent) {
-  // ...
-});
-```
+    ``` js
+    this.createComponent("myreuse").then(function(oComponent) {
+      // ...
+    });
+    ```
 
 -   Example for extended usage \(Async\):
 
-``` js
-var oComponentPromise = this.createComponent({
-  usage: "myreuse"
-  settings: {},
-  componentData: {},
-  async: true
-});
-```
+    ``` js
+    var oComponentPromise = this.createComponent({
+      usage: "myreuse"
+      settings: {},
+      componentData: {},
+      async: true
+    });
+    ```
 
 
 ***
@@ -199,8 +197,6 @@ You can also declare a reuse component directly, for example, in your JavaScript
 #### Migration
 
 If you have been reusing components before we introduced the reuse feature described above, we recommend that you refactor your code and implement the new logic.
-
-If you use a component that is embedded in a library, and the application declares a dependency to that library, remove the dependency to the library from the embedding application. Make sure that the application code does not contain any direct references to the component or the embedding application.
 
 |Old Code
 
@@ -255,7 +251,7 @@ If you use a component that is embedded in a library, and the application declar
 			</td>
 		</tr>
 		<tr>
-			<td>`Component.js` with nested reuse component:
+			<td> `Component.js` with nested reuse component:
 ``` js
 createContent: function() {
    

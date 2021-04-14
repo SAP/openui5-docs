@@ -18,8 +18,6 @@ You find yourself in a situation that your app or a control looks different than
 
 ### Root Cause
 
-This can happen for one of the following reasons:
-
 -   An HTML file is missing the `DOCTYPE` specification \(this leads, for example, to exceptionally high table headers\)
 
 -   Custom styles aren't working properly
@@ -32,8 +30,6 @@ This can happen for one of the following reasons:
 <a name="loioc34413d7554a4ae7b2aba6bcca92aac8__section_u1p_wfh_r1b"/>
 
 ### Resolution
-
-To solve the issue, you have the following options:
 
 -   Check whether the `<!DOCTYPE html>` tag is placed at the beginning of each HTML file, before the `<html>` tag.
 

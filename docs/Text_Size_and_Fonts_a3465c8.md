@@ -18,8 +18,6 @@ The size of the text and the font choice greatly impact the visibility and reada
 
 As an application developer, you should always consider the fact that the application could be zoomed to 200%, and everything should still be visible. For that reason, any style that involves disabling zooming or setting fixed weight or height should be avoided. Properties that affect the zooming have to be set accordingly.
 
-Here are some of the most common JavaScript properties that you should bear in mind:
-
 -   `user-scalable`
 
 -   `initial-scale`
@@ -74,8 +72,6 @@ html {
 ***
 
 ### Tips for Testing
-
-Enlarge the application UI text by zooming up to 200%.
 
 -   Is each text element and each image enlarged to double width and double height?
 

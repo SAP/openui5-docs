@@ -36,8 +36,6 @@ Most error messages are sufficient to figure out what has gone wrong, for exampl
 
 ***
 
-Here are some examples of Gherkin console logs:
-
 -   `[GHERKIN] Running feature: 'Feature: Clicking Buttons Is a Life Saving Activity'`
 
 -   `[GHERKIN] Running scenario: 'Scenario: Click a button, save a life!'`

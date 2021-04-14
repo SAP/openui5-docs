@@ -155,22 +155,22 @@ The standard block implementation is to extend the `sap.uxap.BlockBase` control 
 
     -   For each mode, the `BlockBase` class must declare a view name and type:
 
-```
-sap.uxap.BlockBase.extend("<BlockName>", {
-        metadata: {
-            views: {
-                Collapsed: {
-                    viewName: "<collapsedViewName>",
-                    type: "XML"
-                },
-                Expanded: {
-                    viewName: "<expendedViewName>",
-                    type: "XML"
-                }
-            }
-         }
-     });
-```
+        ```
+        sap.uxap.BlockBase.extend("<BlockName>", {
+                metadata: {
+                    views: {
+                        Collapsed: {
+                            viewName: "<collapsedViewName>",
+                            type: "XML"
+                        },
+                        Expanded: {
+                            viewName: "<expendedViewName>",
+                            type: "XML"
+                        }
+                    }
+                 }
+             });
+        ```
 
 
 **Related Information**  

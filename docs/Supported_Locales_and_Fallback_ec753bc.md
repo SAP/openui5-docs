@@ -52,8 +52,6 @@ The locales are resolved using a locale fallback chain. Each fallback is checked
 4.  use the raw bundle, e.g. `""`
 
 
-Sample fallback chains:
-
 -   input locale: `"de_CH"`
 
     ``` html
@@ -110,8 +108,6 @@ In this sample the locales `de` and `en` are supported. This means that the foll
 
 
 The fallback locale `de` is applied if the current locale \(e.g. browser locale\) cannot be transformed to one of the `supportedLocales` \( `de` or `en`\) by removing the region postfix from the locale.
-
-Sample fallback chains:
 
 -   input locale: `"de_CH"`
 

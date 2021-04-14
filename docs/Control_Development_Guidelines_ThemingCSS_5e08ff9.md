@@ -82,8 +82,6 @@ To override an image within the base theme an additional rule has to be added to
 
 ### LESS Theme Parameters
 
-For LESS theme parameters, the following guidelines apply:
-
 -   Use the correct theme parameter - do not find by color value, but by semantics. In general, let the visual designers give the correct parameter to use.
 
     If finding a color for a text, do not use any border or background color parameter. Start with `@sapUiText` and try to find something more specific such as `@sapUiHeaderText`. Use parameters such as `@sapUiTextInverted` for bright-on-dark scenarios.

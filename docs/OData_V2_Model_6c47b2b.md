@@ -2618,7 +2618,7 @@ For code lists with currency or unit customizing you need to define the followin
 -   Units: `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure`
 
 
-In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
+In contrast to the [OData V4 scenario](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
 
 ``` xml
 			<td>
@@ -2829,7 +2829,7 @@ For code lists with currency or unit customizing you need to define the followin
 -   Units: `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure`
 
 
-In contrast to the [OData V4 scenario](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
+In contrast to the [OData V4 scenario](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
 
 ``` xml
 <PropertyValue Property="Url" String="./$metadata" />

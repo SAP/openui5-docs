@@ -46,11 +46,11 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) .
 
-> Note:  
-> The single hash separator is deprecated since 1.52
+    > Note:  
+    > The single hash separator is deprecated since 1.52
 
-> Remember:  
-> An appropriate URI encoding is necessary for the data path \(before the separator\), but neither for the separator itself nor for the metadata path that follows it.
+    > Remember:  
+    > An appropriate URI encoding is necessary for the data path \(before the separator\), but neither for the separator itself nor for the metadata path that follows it.
 
     Example: `<template:with path="/Products('A%2FB%26C')/Name#@com.sap.vocabularies.Common.v1.Label" var="label"> or <template:with path="data>/Products#/" var="productEntityType">`, etc.
 
@@ -138,7 +138,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
     For examples, see [`format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format).
 
-    If `format` finds a `Org.OData.Measures.V1.ISOCurrency` or a `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currencies and Units \(OData V4 Model\)](Currencies_and_Units_(OData_V4_Model)_4d1b9d4.md).
+    If `format` finds a `Org.OData.Measures.V1.ISOCurrency` or a `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md).
 
 -   [`label`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
 

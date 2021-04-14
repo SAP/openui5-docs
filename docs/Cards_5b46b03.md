@@ -190,8 +190,6 @@ For more information and examples on the usage, see the [API Reference](https://
 
 #### Content Types
 
-Cards can be transactional \(list, table, object, unstructured content, timeline\) and analytical \(line, donut, \[stacked\] column, stacked bar chart\). Each card is designed in a different style and contains various content formats.
-
 |Card Type
 
 |Description

@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.
 
-You use routing in the following cases:
-
 -   Enable users to navigate back using the browser history, for example, the *Back* button of the browser or a physical back button on mobile devices.
 
 -   Enable bookmarks and deep links to pages inside an app; this means that you can start the app and resume the bookmarked state.
@@ -43,8 +41,6 @@ You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(se
 ### Routing Patterns
 
 Whenever a hash is added to a URL, the router checks whether there is a route with a matching pattern. The first matching route is taken and the corresponding target view is called. The data provided with the hash are passed on to the target.
-
-You can use the following kinds of patterns:
 
 -   **Hard-coded pattern**:
 

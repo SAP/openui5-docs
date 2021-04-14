@@ -54,17 +54,11 @@ The following aggregations are available and enable the apps to add their own cu
 -   `customShareMenuContent`
 -   `content` - for content in the body of the page
 
-The ordering logic of custom and semantic content is as follows from left to right:
-
--   Left area:
-
--   `messagesIndicator`
+-   -   `messagesIndicator`
 
 -   `draftIndicator`
 
--   Right area:
-
--   `mainAction`
+-   -   `mainAction`
 
 -   Semantic text-only buttons, such as `deleteAction`, `positiveAction`, and `negativeAction`
 

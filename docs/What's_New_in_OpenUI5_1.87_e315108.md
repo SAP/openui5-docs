@@ -77,7 +77,7 @@ We have improved the keyboard handling capabilities of the control. Now, similar
 -   Configure navigation with the [Arrow\] keys. This is achieved by using the `focusItemByDirection` method and requires additional logic from the application side to determine the navigation direction in the actual app layout.
 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridList) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList).
+For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridList) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList). 
 
 |
 |**`sap.m.BadgeCustomData`**
@@ -97,14 +97,12 @@ With the new `lazyLoading` property, you can now ensure that off-screen images a
 |
 |**`sap.m.PlanningCalendar`**
 
-As an application developer you can now use the following new functions:
-
 -   `GetEndDate` returns the end date that is visible in current state of the control.
 
 -   `GetVisibleIntervalsCount` returns the number of intervals \(for example, hours, days, weeks\) that are currently visible.
 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/methods).
+For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/methods). 
 
 |
 |**`sap.m.Text`**
@@ -121,9 +119,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 
 -   Integration cards now allow you to use arrays as values in the manifest parameters. One example scenario is to use an array parameter in expression binding inside the visible property and to display only the elements that have values. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/arrayParameters) in the Card Explorer.
 
--   Two new experimental actions are now available in the Calendar card that you can use to set dynamic data fetching to be dependent of the selected date/month:
-
--   `DateChange` – triggered when a date is selected.
+-   -   `DateChange` – triggered when a date is selected.
 
 -   `MonthChange` – triggered when the currently displayed month is changed from the pickers or from the arrow buttons.
 

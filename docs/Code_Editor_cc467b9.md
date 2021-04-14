@@ -33,8 +33,6 @@ The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that 
 
 #### Autocompletion
 
-The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocompletion:
-
 -   Default autocompletion
 
     The default autocompletion options of the underlying ACE editor `enableBasicAutocompletion`, `enableSnippets`, `enableLiveAutocompletion` are always enabled.

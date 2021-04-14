@@ -71,16 +71,12 @@ Now, no matter what state the checkbox is in, the input fields remain open for i
 
 The binding mode \(one-way or two-way\) is set on the model itself. Therefore, unless you specifically alter it, a binding instance will always be created using the model's default binding mode.
 
-Should you wish to alter the binding mode, then there are two ways of doing this:
-
 -   Alter the model's default binding mode. This is the approach used above.
 
 -   Specify the data binding mode for a specific binding instance by using the `oBindingInfo.mode` parameter. This change applies only to this data binding instance. Any other binding instances will continue to use the model's default binding mode.For more information, see [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty). 
 
 
 > Note:  
-> There are two important points to understand about alterations to a model object's data binding mode:
-> 
 > -   If you alter the default binding mode of a model \(as in the example above\), then unless you explicitly say otherwise, all binding instances created after that point in time will use the altered binding mode.
 > 
 > -   Altering a model's default binding mode has no effect on already existing binding instances.

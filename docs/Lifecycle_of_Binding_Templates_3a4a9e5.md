@@ -70,15 +70,13 @@ In **XML views**, you can also use the `templateShareable` property by adding it
 
 -   If the parameter is undefined, \(neither `true` nor `false`\), the framework checks at several points in time whether all list bindings are removed. If there are no bindings, the templates is marked as `candidate for destroy()`, but it is not immediately destroyed. The candidate is destroyed in the following cases:
 
--   A **new object with the same ID** is created.
+    -   A **new object with the same ID** is created.
 
--   The component that owns the objects is destroyed.
+    -   The component that owns the objects is destroyed.
 
     If the framework determines that a "candidate for destroy" is still in use in another binding or in a clone operation, the framework makes sure that the candidate is not destroyed by implicitly setting `templateShareable` to `true` \(as this best reflects how the app deals with the template\). But now the template is not destroyed at all \(an error message is issued\), and the app implementation needs to make sure that the binding template is destroyed as soon as it is no longer needed.
 
     > Note:  
-    > The error messages are:
-    > 
     > -   *A binding template that is marked as 'candidate for destroy' is reused in a binding.*
     > 
     > -   *During a clone operation, a template was found that neither was marked with 'templateShareable:true' nor 'templateShareable:false'.* 

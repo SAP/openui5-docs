@@ -34,19 +34,17 @@ To reference model data in a view , you can use the simple binding syntax "`{*/p
 <Input value="{/firstName}"/>
 ```
 
-You can add other properties like formatters or data types:
-
 -   Data type:
 
-``` xml
-<Input value="{path: '/firstName', type: 'sap.ui.model.type.String'}"/>
-```
+    ``` xml
+    <Input value="{path: '/firstName', type: 'sap.ui.model.type.String'}"/>
+    ```
 
 -   Formatter:
 
-``` xml
-<Input value="{path: '/firstName', formatter:'my.globalFormatter'}"/>
-```
+    ``` xml
+    <Input value="{path: '/firstName', formatter:'my.globalFormatter'}"/>
+    ```
 
 
 For more information, see [Binding Path](Binding_Path_2888af4.md).

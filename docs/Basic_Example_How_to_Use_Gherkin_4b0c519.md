@@ -14,8 +14,6 @@ Like test-driven development \(TDD\), behavior-driven development \(BDD\) with G
 
  
 
-The ideal pattern for a BDD iteration goes like this:
-
 1.  Write a scenario in the feature file.
 
 2.  Execute the test to verify that the step definition is not found.

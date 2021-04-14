@@ -76,8 +76,8 @@ In some cases controls need to add additional label texts by themselves for a pr
 
 1.  If the control already provides an `ariaLabelledBy` association, the additional texts must be referenced in other means \(for example, with hidden texts within the control\).
 
-> Note:  
-> It’s not possible to combine `aria-labelledby` with `aria-label`.
+    > Note:  
+    > It’s not possible to combine `aria-labelledby` with `aria-label`.
 
 2.  If the control does not provide an `ariaLabelledBy` association, but it could, then the association should be added to follow the option above.
 

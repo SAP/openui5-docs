@@ -24,8 +24,6 @@ With the major version upgrade from jQuery 2.x to jQuery 3.x, a number of incomp
 
 We evaluated each of those changes and classified them to see what needed to be fixed on the layers of framework, control and application. To minimize the migration effort required by application and control developers, we have introduced an additional compatibility layer on top of jQuery \(delivered as `sap/ui/thirdparty/jquery-compat.js`\).
 
-This compatibility layer has the following properties:
-
 -   It can be excluded by setting the `excludeJQueryCompat` configuration via:
     -   URL parameter \(case-sensitive\): `sap-ui-excludeJQueryCompat=true`
 

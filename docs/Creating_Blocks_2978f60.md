@@ -35,8 +35,8 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 -   Add a `BlockName.js` file, which extends `sap.uxap.BlockBase`.
 
-> Note:  
-> Naming guideline: The block name should end with the word *Block*.
+    > Note:  
+    > Naming guideline: The block name should end with the word *Block*.
 
 -   Add a `BlockName.view.xml` XML view.
 
@@ -62,8 +62,8 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 
 -   Add the `Expanded` and `Collapsed` XML views.
 
-> Note:  
-> Naming guideline: Name these files as `BlockNameCollapsed.view.xml` and `BlockNameExpanded.view.xml`
+    > Note:  
+    > Naming guideline: Name these files as `BlockNameCollapsed.view.xml` and `BlockNameExpanded.view.xml`
 
 -   If needed, add the associated controllers. Whether you use the same controller for all views or one controller per view is your decision.
 

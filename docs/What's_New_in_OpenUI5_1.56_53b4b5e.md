@@ -126,16 +126,16 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   `sap.f.DynamicPageHeader`: The expand/collapse arrow and the pin/unpin buttons now have a new visual design. They are centered at the bottom header border next to each other. The interaction behavior is improved and you can now collapse a pinned header with a title tap or click or by choosing the expand/collapse arrow. This means that the pinned state now prevents the header from collapsing only when the user is scrolling the page.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.DynamicPageFreeStyle/preview).
 
-> Note:  
-> The above functionality and visual appearance is also maintained when using the dynamic header of the `sap.uxap.ObjectPage` control.
+    > Note:  
+    > The above functionality and visual appearance is also maintained when using the dynamic header of the `sap.uxap.ObjectPage` control.
 
 -   `sap.m.DateTimePicker`: Two new properties are added to the control - `minutesStep` and `secondsStep`. They allow configuring the value step for the minutes and seconds sliders. For example, if you need the values for the minutes inside the slider to be multiples of 5, you can use the option - `minutesStep:5`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DateTimePicker) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DateTimePicker/preview). 
 
 -   `sap.m.IconTabBar`:
 
--   Drag and drop between the header and the overflow list is now possible. When you hover over the overflow button with a dragged element, an overflow list opens and you can drag an item from the header to the list. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
+    -   Drag and drop between the header and the overflow list is now possible. When you hover over the overflow button with a dragged element, an overflow list opens and you can drag an item from the header to the list. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
 
--   A new `TabDensityMode` property is introduced in both `sap.m.IconTabBar` and `sap.m.IconTabHeader`. The property allows both the Tab Bar and the Header to change their density within different controls. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarTabDensityMode/preview).
+    -   A new `TabDensityMode` property is introduced in both `sap.m.IconTabBar` and `sap.m.IconTabHeader`. The property allows both the Tab Bar and the Header to change their density within different controls. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarTabDensityMode/preview).
 
 -   `sap.m.List`: The `columns` aggregation was deprecated in version 1.16 and has now been removed. Use the `sap.m.Table` control instead.
 
@@ -143,50 +143,50 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 -   `sap.m.PlanningCalendar:`
 
--   The new `appointmentDragEnter` event allows appointments to be dragged and dropped between calendar rows. By default, when the `enableAppointmentDragAndDrop` property is enabled, appointments can be dragged only within their original `PlanningCalendarRow`. When `enableAppointmentsDragAndDrop` is set to true, attaching the event handler to the `appointmentDragEnter` event can change the default behavior and allow appointments to be dragged on the same row and between calendar rows.
+    -   The new `appointmentDragEnter` event allows appointments to be dragged and dropped between calendar rows. By default, when the `enableAppointmentDragAndDrop` property is enabled, appointments can be dragged only within their original `PlanningCalendarRow`. When `enableAppointmentsDragAndDrop` is set to true, attaching the event handler to the `appointmentDragEnter` event can change the default behavior and allow appointments to be dragged on the same row and between calendar rows.
 
--   Appointments can now be created in one `PlanningCalendarRow` by dragging with the mouse on an empty cell. This behavior is enabled with the `enableAppointmentCreate` boolean property. When creating is finished, an `appointmentCreate` event is fired.
+    -   Appointments can now be created in one `PlanningCalendarRow` by dragging with the mouse on an empty cell. This behavior is enabled with the `enableAppointmentCreate` boolean property. When creating is finished, an `appointmentCreate` event is fired.
 
--   The new `enableAppointmentResize` boolean property provides the possibility to resize appointments in one `PlanningCalendarRow`. When resizing is finished, an `appointmentResize` event is fired.
+    -   The new `enableAppointmentResize` boolean property provides the possibility to resize appointments in one `PlanningCalendarRow`. When resizing is finished, an `appointmentResize` event is fired.
 
--   A new functionality to copy appointments by dragging them is added on the `PlanningCalendarRow` level. When you press [Ctrl\]/[Cmd\] while dragging an appointment, dropping it will create a copy.
+    -   A new functionality to copy appointments by dragging them is added on the `PlanningCalendarRow` level. When you press [Ctrl\]/[Cmd\] while dragging an appointment, dropping it will create a copy.
 
-     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarDnD/preview). 
+         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarDnD/preview). 
 
 -   `sap.m.PlanningCalendarRow`: The new `specialDates` aggregation allows you to mark special days on a row level. The aggregation is of type `sap.ui.unified.DayTypeRange` but you can set a specific type to the corresponding date. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow/aggregations) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarWithLegend/preview).
 
 -   `sap.m.SelectDialog`: With the new `growing` property, you can control the progressive loading of bound items. By default, it is set to `true` which means that features like the number of selected items in the info bar and search \(if present\) will work only for the currently loaded items. To make sure that all items in the table are loaded at once, and the above features work properly, you should set the growing property to `false`.
 
-> Note:  
-> The growing functionality cannot be used together with two-way binding.
+    > Note:  
+    > The growing functionality cannot be used together with two-way binding.
 
- For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog/controlProperties).
+     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog/controlProperties). 
 
 -   `sap.m.Slider / sap.m.RangeSlider`:
 
--   You can create a custom scale \(for example, with dates\) for the sliders. To do this, you need to add custom scale and implement the `Iscale` interface.
+    -   You can create a custom scale \(for example, with dates\) for the sliders. To do this, you need to add custom scale and implement the `Iscale` interface.
 
--   You can create a custom tooltip, by extending the class `sap.m.SliderTooltipBase` and overriding some methods. If you want to define your own content for the tooltip, you should override just the `renderTooltipContent` method.
+    -   You can create a custom tooltip, by extending the class `sap.m.SliderTooltipBase` and overriding some methods. If you want to define your own content for the tooltip, you should override just the `renderTooltipContent` method.
 
     For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/controlProperties).
 
 -   `sap.m.Table`:
 
--   The new `sticky` property enables the column headers, infobar, and toolbar to remain in a fixed position at the top of the page during vertical scrolling.
+    -   The new `sticky` property enables the column headers, infobar, and toolbar to remain in a fixed position at the top of the page during vertical scrolling.
 
-    > Note:  
-    > The API has changed slightly compared to the experimental API provided in version 1.54.
+        > Note:  
+        > The API has changed slightly compared to the experimental API provided in version 1.54.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getSticky) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
+        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getSticky) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
 
--   The `popinLayout` property is now also supported for Microsoft Edge \(version 16 and higher\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Table/preview).
+    -   The `popinLayout` property is now also supported for Microsoft Edge \(version 16 and higher\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Table/preview).
 -   `sap.m.TableSelectDialog`:
     -   A new property `growing` is added to the control. It determines the progressive loading. When set to `true`, the features *Selected Count* in `Info bar`, *Search*, and *Select/Deselect All*, if present, will work only for the currently loaded items. To ensure that all items in the table are loaded and these features work as expected, you need to set the property to `false`.
 
-> Note:  
-> The growing functionality cannot be used together with two-way binding.
+        > Note:  
+        > The growing functionality cannot be used together with two-way binding.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialogGrowing/preview).
+        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialogGrowing/preview). 
 
     -   The control now has a *Reset* button which allows you to clear the selection you have made in your Table Select dialog with one click. The button is enabled only when you make a selection. Otherwise, it is grayed out. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
 
@@ -202,11 +202,11 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 -   `sap.uxap.ObjectPageDynamicHeaderTitle`: UI Adaptation is enabled for the control and the following actions are possible:
 
--   *Move*, *Split*, and *Combine* action buttons
+    -   *Move*, *Split*, and *Combine* action buttons
 
--   *Move* items defined in the `snappedContent` and `expandedContent` aggregations
+    -   *Move* items defined in the `snappedContent` and `expandedContent` aggregations
 
--   *Remove* and *Reveal* the whole control
+    -   *Remove* and *Reveal* the whole control
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview) and turn on the UI Adaptation using the wrench key button.
 

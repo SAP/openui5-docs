@@ -14,8 +14,6 @@ The **Team Calendar** application demonstrates the integration between `sap.m.Pl
 
 ***
 
-The demo application provides the following features and elements:
-
 -   **Team Calendar** page, where all the members of the team are displayed with their appointments - represented by `sap.m.PlanningCalendar`.
 
 -   **Team Member Calendar**, where appointments of a single selected member are displayed - represented by `sap.m.SinglePlanningCalendar`.
@@ -32,8 +30,6 @@ There are some additional buttons \(`sap.m.Button`\), that activate features lik
 The Team Calendar is implemented using `sap.m.PlanningCalendar` control.
 
  ![](loio17a9e5e844004429a833588cb983a738_LowRes.png) 
-
-All members of the team are displayed with their appointments. There are also:
 
 -   Calendar views: Days, Week, and Month.
 

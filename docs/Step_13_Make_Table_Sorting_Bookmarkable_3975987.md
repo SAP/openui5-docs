@@ -88,8 +88,6 @@ We enhance the `EmployeeOverviewContent` controller further to add support for b
 
 Next we change the `confirm` event handlers of our `ViewSettingsDialog`. The `confirm` handler updates the current router arguments with the parameters from the event accordingly. Then we call `oRouter.navTo("employeeOverview", this._oRouterArgs, true)` with the updated router arguments to persist the new sorting parameters in the URL. Both the previous arguments \(i.e. `search`\) and the new arguments for the sorting will then be handled by the matched event handler for the `employeeOverview` route.
 
-Congratulations! Even the sorting options of the table can now be bookmarked. Try to access the following pages:
-
 -   `webapp/index.html#/employees/overview?sortField=EmployeeID&sortDescending=true`
 
 -   `webapp/index.html#/employees/overview?search=an&sortField=EmployeeID&sortDescending=true`

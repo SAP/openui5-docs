@@ -24,8 +24,6 @@ OpenUI5 follows the "Model View Controller" \(MVC\) paradigm, which means that w
 
 Depending on which external data source you use, you can choose between different model types to represent it. OpenUI5 supports OData V4 \(with restrictions\), OData V2, JSON, and XML models.
 
-There are also internal data sources that are defined in the app for specific purposes. For those, an app contains the following models:
-
 -   The **resource model** is used in communication with the resource bundle that contains translatable texts in multiple languages.
 
 -   The **device model** is provided by the framework and defines device-specific settings.

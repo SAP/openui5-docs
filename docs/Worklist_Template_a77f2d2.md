@@ -40,8 +40,6 @@ The table in the *Worklist* view displays a header area that shows the current a
 
 ### Where Can I Find the Worklist Template?
 
-You can find the template in the following places:
-
 -   **SAP Fiori Worklist Application** \(for OData V2 models\) and **SAP Fiori Worklist Application - OData V4** \(for OData V4 models\) templates in SAP Web IDE
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).

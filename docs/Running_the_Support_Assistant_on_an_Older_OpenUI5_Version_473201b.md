@@ -42,7 +42,9 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
 
     Your application will reload and the Support Assistant will start.
 
-    In the following diagram, you can see how the different OpenUI5 versions interact with the Support Assistant.  
+    In the following diagram, you can see how the different OpenUI5 versions interact with the Support Assistant.
+
+      
       
     <a name="loio473201b547734e0eb66612df5bae8553__fig_r2j_2wz_n1b"/>Support Assistant - Multi-Version Support
 

@@ -229,8 +229,6 @@ With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of
 }
 ```
 
-For more informations, see:
-
 -   [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)
 -   [Supported Locales and Fallback](Supported_Locales_and_Fallback_ec753bc.md)
 
@@ -431,8 +429,6 @@ The performance limits are reached differently depending on the used browser, op
 <a name="loio408b40efed3c416681e1bd8cdd8910d4__section_OptimizeCode"/>
 
 ### Further Code Optimization
-
-You can further optimize your code by doing the following:
 
 -   Use asynchronous view loading as described here: [Instantiating Views](Instantiating_Views_68d0e58.md).
 

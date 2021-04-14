@@ -18,8 +18,6 @@ Set the `core.autocrlf` configuration property in Git to `false` and make sure t
 
 ### Commit Message
 
-The commit message consists of two or three parts, which are separated by empty lines:
-
 -   Commit summary
 
 -   Description
@@ -52,8 +50,6 @@ After that, describe the technical details of what you changed. It is important 
 ***
 
 #### Data section
-
-The data section consists of name-value pairs:
 
 -   `Fixes: https://github.com/SAP/openui5/issues/(issueNumber)` if the change fixes a GitHub-reported bug
 

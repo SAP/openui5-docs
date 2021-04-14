@@ -44,8 +44,6 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 
-Gesture on mobile device:
-
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two fingers on the screen.
 			</td>

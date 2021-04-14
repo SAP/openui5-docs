@@ -194,9 +194,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 			<td>Exits edit mode
 			</td>
-			<td>When you are editing an input field in a table or a list, pressing this key will stop the editing and move the focus to the parent UI element.
- > Note:  
- > Pressing [F7\] again will move focus back to the editable element.
+			<td>> Note:   > Pressing [F7\] again will move focus back to the editable element.
 			</td>
 		</tr>
 	</tbody>

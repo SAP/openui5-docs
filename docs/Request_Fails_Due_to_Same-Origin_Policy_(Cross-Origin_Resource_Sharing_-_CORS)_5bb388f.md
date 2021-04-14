@@ -38,8 +38,6 @@ Normally, the remote system would be configured to send the cross-origin resourc
 
 ### Resolution
 
-To solve the issue, you have the following options:
-
 -   SAP Web IDE: Configure a destination as described below \(recommended\)
 
 -   Local Development: Configure a local proxy

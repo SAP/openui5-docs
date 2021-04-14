@@ -90,9 +90,7 @@ Don't mix this type up with the `any` type! \(Sorry, we maybe should have named 
 		<tr>
 			<td> `function` 
 			</td>
-			<td>Can be any JavaScript function.
- > Note:  
- > Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
+			<td>> Note:   > Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
 			</td>
 		</tr>
 	</tbody>
@@ -142,8 +140,6 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 			</td>
 			<td>Derived from the built-in type `string`.
 Restricted subtypes can be derived that limit their valid values to a fixed set of values \(enumeration\). An `enum` type is defined through an object literal whose keys represent the allowed values.
-
-Restrictions:
 
  -   The value for each key must be a string literal, equal to the key itself.
 

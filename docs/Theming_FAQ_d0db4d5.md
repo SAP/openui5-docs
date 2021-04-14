@@ -100,8 +100,6 @@ html[data-sap-ui-browser*="sf"] button {  /* this rule will only be applied if t
 
 ### When should I use the UI theme designer, and when should I perform manual steps?
 
-There is not one single way to create a new theme, but there are several options. Which one you choose depends on several factors:
-
 -   How different is the desired design from an existing theme?
 -   Should the theme be used across several applications or just in one?
 -   Are sufficient CSS skills available?

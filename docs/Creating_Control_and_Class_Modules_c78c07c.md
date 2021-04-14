@@ -14,8 +14,6 @@ Modules do not only require and use functionality from other modules, they also 
 
 However, OpenUI5 only supports the "module return value".
 
-If you want to export the "module value" of an AMD module under a global name, you have two options:
-
 -   You rely on the OpenUI5 methods that already do the exposure as a side effect, such as:
     -   Classes created by the `extend` method
 

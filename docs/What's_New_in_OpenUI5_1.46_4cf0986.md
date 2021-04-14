@@ -130,9 +130,9 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
 -   `sap.m.ComboBox`:
 
--   The value state error message is now visible above all list items in the dropdown list of the `sap.m.ComboBox`. This improves the usability on mobile devices \(tablets and phones\).
+    -   The value state error message is now visible above all list items in the dropdown list of the `sap.m.ComboBox`. This improves the usability on mobile devices \(tablets and phones\).
 
--   When the `ComboBox` displays two columns \(for example, key and value\), you can search and filter for matching strings in both columns. This is enabled with the `filterSecondaryValues` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBox/methods/getFilterSecondaryValues) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ComboBoxSearchBoth/preview).
+    -   When the `ComboBox` displays two columns \(for example, key and value\), you can search and filter for matching strings in both columns. This is enabled with the `filterSecondaryValues` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBox/methods/getFilterSecondaryValues) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ComboBoxSearchBoth/preview).
 
 -   `sap.m.DatePicker`: We have introduced a new `navigate` event. While navigating in the calendar popup of the `sap.m.DatePicker`, you can now receive an event containing the first and the last dates that are currently visible. You can use this information for lazy loading of special dates. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker/events/navigate).
 
@@ -152,15 +152,15 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
 -   `sap.m.NotificationListItem` and `sap.m.NotificationListGroup`: We have implemented several new features:
 
--   When the maximum number of notifications is reached, a message is shown on the bottom of the `NotificationListGroup` notifying the user about additional notifications that are hidden.
+    -   When the maximum number of notifications is reached, a message is shown on the bottom of the `NotificationListGroup` notifying the user about additional notifications that are hidden.
 
-     ![](loio4387085657e0455786240dbffb89fe5b_LowRes.png) 
+         ![](loio4387085657e0455786240dbffb89fe5b_LowRes.png) 
 
--   Action buttons have been moved from the footer of the `NotificationListItem` to the header to improve usability.
+    -   Action buttons have been moved from the footer of the `NotificationListItem` to the header to improve usability.
 
-     ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+         ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
 
-For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview).
+    For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
 
 -   `sap.m.PlanningCalendar`: We have introduced a new `rowHeaderClick` event. You can now receive an event when a row header of the `sap.m.PlanningCalendar` is clicked. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/events/rowHeaderClick).
 
@@ -178,11 +178,11 @@ For more information, see the samples [Notification List Item](https://openui5.h
 
 -   `sap.ui.table.*`:
 
--   Keyboard navigation has been enhanced for *Edit* mode.
+    -   Keyboard navigation has been enhanced for *Edit* mode.
 
--   You can now define row-specific actions, such as navigation. The actions remain available on the right even when you scroll horizontally.
+    -   You can now define row-specific actions, such as navigation. The actions remain available on the right even when you scroll horizontally.
 
- For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.Table) and the [sample](https://openui5.hana.ondemand.com/sample/sap.ui.table.sample.RowAction/preview).
+     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.Table) and the [sample](https://openui5.hana.ondemand.com/sample/sap.ui.table.sample.RowAction/preview). 
 
 
 ***
@@ -192,8 +192,6 @@ For more information, see the samples [Notification List Item](https://openui5.h
 You can now switch the *Samples* to the new *High Contrast White* theme from the *Settings* menu.
 
 We reworked the landing page for the *Demo Apps* in the Demo Kit. It now features and highlights demo apps in multiple categories, and tests and related documentation chapters are now linked. Check it out at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps).
-
-New and reworked demo apps:
 
 -   *Browse Orders*: A new master-detail app with features for browsing orders
 

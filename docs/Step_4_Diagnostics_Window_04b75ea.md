@@ -46,31 +46,31 @@ Let's say that you are facing a performance issue in your app, so let's check so
 3.  Scroll to the *Configuration \(bootstrap\)* section. You see that the `preload` method is set to synchronous processing.
 4.  To improve performance, set the bootstrap parameter `data-sap-ui-async` to `true` in the `index.html` file.
 
-``` html
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>Heap Of Shards</title>
-
-	<!-- set data-sap-ui-async="true" to enable the user to fix it in the
-	troubleshooting tutorial step 4: Diagnostics Window -->
-	<script id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
-		data-sap-ui-libs="sap.f"
-		data-sap-ui-resourceroots='{
-			"sap.ui.demo.HeapOfShards": "./",
-			"sap.ui.demo.DoesNotExist": "./DoesNotExist"
-		}'
-		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
-		data-sap-ui-compatVersion="edge"
-		*HIGHLIGHT START*data-sap-ui-async="true">*HIGHLIGHT END*
-	</script>
-[…]
-```
+    ``` html
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    	<title>Heap Of Shards</title>
+    
+    	<!-- set data-sap-ui-async="true" to enable the user to fix it in the
+    	troubleshooting tutorial step 4: Diagnostics Window -->
+    	<script id="sap-ui-bootstrap"
+    		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+    		data-sap-ui-theme="sap_belize"
+    		data-sap-ui-libs="sap.f"
+    		data-sap-ui-resourceroots='{
+    			"sap.ui.demo.HeapOfShards": "./",
+    			"sap.ui.demo.DoesNotExist": "./DoesNotExist"
+    		}'
+    		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+    		data-sap-ui-compatVersion="edge"
+    		**data-sap-ui-async="true"\>**
+    	</script>
+    […]
+    ```
 
 
 ***

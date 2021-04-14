@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Custom models can be used if none of the models provided by OpenUI5 is suitable for the specific needs of an application.
 
-To instantiate a custom model, proceed as follows:
-
 1.  Extend the `Model` class and specify the binding modes that the model should support \(for example, two-way, one-way, one-time\).
 
 2.  Extend the `Binding` class to suit your specific binding or reuse the existing specific binding implementations `PropertyBinding`, `ListBinding`, and/or `TreeBinding`.

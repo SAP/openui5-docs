@@ -22,8 +22,6 @@ Thanks a lot to all of you who have used the Demo Kit feedback function! We have
 
 Please carry on giving us your feedback: even though we cannot update the documentation straight away, your feedback will be considered in the next version!
 
-New or reworked documentation chapters that are not mentioned in the following sections:
-
 -   Chapter [Routing and Navigation](Routing_and_Navigation_3d18f20.md) is now updated and reworked.
 
 
@@ -31,16 +29,12 @@ New or reworked documentation chapters that are not mentioned in the following s
 
 ### Deprecation
 
-The following libraries are deprecated as of this version:
-
 -   `sap.ui.commons`
 
 -   `sap.ui.ux3`
 
 -   `sap.makit`
 
-
-The following themes are also deprecated as of this version:
 
 -   `sap_ux`
 
@@ -126,15 +120,15 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.ObjectMarker`**: The `ObjectMarker` control represents the status of an object with icon and/or text. It can be interactive \(as a link\) or non-interactive. It has the following predefined types:
 
--   `Flagged`
+    -   `Flagged`
 
--   `Favorite`
+    -   `Favorite`
 
--   `Draft`
+    -   `Draft`
 
--   `Locked`
+    -   `Locked`
 
--   `Unsaved`
+    -   `Unsaved`
 
     An object might have multiple `ObjectMarker`s at the same time but the editing states \(`Locked`, `Draft`, and `Unsaved`\) are mutually exclusive.
 
@@ -174,11 +168,11 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.ComboBox`**:
 
--   Is now supported on mobile phones. The list of available values will open as a full-screen dialog on small devices.
+    -   Is now supported on mobile phones. The list of available values will open as a full-screen dialog on small devices.
 
--   The new `loadItem` event makes it possible to defer initialization of items in the `ComboBox` dropdown list control to a point in time when the items are required. This helps to improve performance.
+    -   The new `loadItem` event makes it possible to defer initialization of items in the `ComboBox` dropdown list control to a point in time when the items are required. This helps to improve performance.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox).
+        For more information, see the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox).
 
 -   **`sap.m.DatePicker`**, **`sap.m.DateTimePicker`**, **`sap.m.PlanningCalendar`**, and **`sap.ui.unified.Calendar`**: You can now set minimum and maximum dates to limit the range of available dates.
 
@@ -200,23 +194,23 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.NotificationListItem`**: The control has two improvements:
 
--   The control responsiveness is updated for better usability on large screens \(more than 640 pixels width\) – the buttons are now located on the right side of the text.
+    -   The control responsiveness is updated for better usability on large screens \(more than 640 pixels width\) – the buttons are now located on the right side of the text.
 
--   The *Show More* button for toggling expand/collapse mode can now be hidden with the use of the new property `hideShowMoreButton`.
+    -   The *Show More* button for toggling expand/collapse mode can now be hidden with the use of the new property `hideShowMoreButton`.
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NotificationListItem) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.NotificationListItem).
 
 -   **`sap.m.Popover`** has four new values for its `PlacementType`:
 
--   `PreferredBottomOrFlip`
+    -   `PreferredBottomOrFlip`
 
--   `PreferredLeftOrFlip`
+    -   `PreferredLeftOrFlip`
 
--   `PreferredRightOrFlip`
+    -   `PreferredRightOrFlip`
 
--   `PreferredTopOrFlip`
+    -   `PreferredTopOrFlip`
 
-They determine the preferred position of the `Popover` and how it behaves when there is insufficient space for it on the screen. These properties allow the `Popover` to flip over and cover some of the content below it.
+    They determine the preferred position of the `Popover` and how it behaves when there is insufficient space for it on the screen. These properties allow the `Popover` to flip over and cover some of the content below it.
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlacementType) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PlacementType).
 
@@ -264,12 +258,12 @@ They determine the preferred position of the `Popover` and how it behaves when t
 
 -   **`sap.uxap.ObjectPageLayout`**:
 
--   It supports scrolling to a particular section, based on its ID. This allows easier access to all parts of the application and consistent navigation back to a previous position within the `ObjectPage`.
+    -   It supports scrolling to a particular section, based on its ID. This allows easier access to all parts of the application and consistent navigation back to a previous position within the `ObjectPage`.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageLazyLoadingWithoutBlocks/preview).
+        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageLazyLoadingWithoutBlocks/preview).
 
--   Performance is improved for the use case with no `Blocks`. The `ObjectPage` now supports lazy loading with the stashed property of the `ObjectPageLazyLoader`. As a result, you avoid the additional creation of XML views for each `Block`.
+    -   Performance is improved for the use case with no `Blocks`. The `ObjectPage` now supports lazy loading with the stashed property of the `ObjectPageLazyLoader`. As a result, you avoid the additional creation of XML views for each `Block`.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageState/preview) and [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md).
+        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageState/preview) and [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md).
 
 

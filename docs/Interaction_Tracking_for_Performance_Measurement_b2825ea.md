@@ -81,9 +81,7 @@ InteractionMeasurement = {
 			</td>
 			<td> `String` 
 			</td>
-			<td>Event type which triggered the interaction. Allowed types are:
- -   `mousedown`
-
+			<td>-   `mousedown`
  -   `mouseup`
 
  -   `click`

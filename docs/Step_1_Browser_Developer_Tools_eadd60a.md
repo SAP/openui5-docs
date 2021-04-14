@@ -42,11 +42,11 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 3.  Search for the following line:
 
-```
-<button id="container-HeapOfShards---app--myButton" data-sap-ui="container-HeapOfShards---app--myButton" aria-describedby="__text1"
-	class="sapMBtn sapMBtnBase sapMBtnInverted">
-</button>
-```
+    ```
+    <button id="container-HeapOfShards---app--myButton" data-sap-ui="container-HeapOfShards---app--myButton" aria-describedby="__text1"
+    	class="sapMBtn sapMBtnBase sapMBtnInverted">
+    </button>
+    ```
 
     The *Styles* section in the panel on the right shows the active and overruled \(striked-through\) CSS styles for the DOM element that is currently selected.
 
@@ -133,21 +133,19 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 3.  In the console, you see the following error message:
 
-```
-TypeError: oEvent.getSourceXYZ is not a function
-at *HIGHLIGHT START*f.onPress*HIGHLIGHT END* (http://.../*HIGHLIGHT START*App.controller.js*HIGHLIGHT END*?eval:*HIGHLIGHT START*20*HIGHLIGHT END*:69)
-
-
-...
-```
+    ```
+    TypeError: oEvent.getSourceXYZ is not a function
+    at **f.onPress** (http://.../**App.controller.js**?eval:**20**:69)
+    ...
+    ```
 
     This means that an error occurred in the `onPress` function in the `App.controller.js` file at line `20`.
 
 4.  Click the first link in the stack trace after `f.onPress` to look at the source code where you can see that it wasn't the generic `getSource` function that was called, but an undefined `getSourceXYZ`.
 
-```
-sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()])
-```
+    ```
+    sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()])
+    ```
 
 
 ***
@@ -162,9 +160,9 @@ sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().g
 
 3.  Set a breakpoint in line 20 by clicking on the line number of the following line:
 
-```
-sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()]);
-```
+    ```
+    sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()]);
+    ```
 
 4.  Click the *Do Something* button in the app.
 
@@ -172,9 +170,9 @@ sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().g
 
 5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press  [Ctrl\] + [S\] :
 
-```
-sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSource*HIGHLIGHT START*XYZ*HIGHLIGHT END*().getId()]);
-```
+    ```
+    sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSource**XYZ**().getId()]);
+    ```
 
 6.  Resume the execution of the code by pressing [F8\].
 
@@ -229,8 +227,6 @@ Emulate different mobile devices by selecting different devices, or switch orien
 <a name="loioeadd60ae907646bbb838866566b23182__section_f1h_vqf_vz"/>
 
 ### Analyzing Performance Problems and Memory Leaks
-
-There are additional tabs that can help you to analyze performance problems or memory leaks. For more information, refer to the documentation of the developer tools of your browser.
 
 -   *Memory* or *Profiles*
 

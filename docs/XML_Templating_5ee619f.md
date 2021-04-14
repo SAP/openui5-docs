@@ -80,8 +80,6 @@ In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the correspond
 
 ***
 
-The XML preprocessor traverses the view's XML DOM in a depth-first, parent-before-child manner and does the following:
-
 -   All XML attributes which represent an available binding, that is, a binding based only on models available to the preprocessor, are replaced by the result of that binding. Formatters and so on can be used as with any SAPUI5 binding.
 
 -   XML fragments are inlined; that is, the reference is replaced by the fragment's XML DOM and preprocessing takes place on that DOM as well.
@@ -252,8 +250,6 @@ The result is equivalent to the following handwritten XML view. Any references t
 ***
 
 ### Summary
-
-Overall, XML templating is based on:
 
 -   Preprocessing instructions such as `<template:if>`, which can be used inside XML views
 

@@ -16,8 +16,6 @@ If OpenUI5 applications define their own HTML and CSS content that is not create
 
 The reason this doesn't work is because this type of styling cannot make use of the OpenUI5 theme parameters.
 
-HTML content like that might be created as part of the following:
-
 -   JavaScript libraries that are **not** OpenUI5 libraries
 
 -   Custom/notepad controls\(if they do **not** belong to a control library with a theme build\)

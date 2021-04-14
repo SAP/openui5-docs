@@ -71,8 +71,6 @@ QUnit.test("Should do Something", function (assert) {
 
 In `Arrange`, you should set up the dependencies and options you need for your `System under Test`.
 
-Examples:
-
 -   The constructor object of your control
 -   Sinon spies/stubs and mocks \(dependencies of your System under Test\)
 -   Model

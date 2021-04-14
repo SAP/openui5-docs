@@ -226,32 +226,32 @@ Setting up lazy loading with `BlockBase`:
 
 3.  Extend `sap.uxap.BlockBase`:
 
-``` js
-*HIGHLIGHT START*sap.uxap.BlockBase.extend*HIGHLIGHT END*("<BlockName>", {
-        metadata: {
-         }
-     });
-```
+    ``` js
+    **sap.uxap.BlockBase.extend**("<BlockName>", {
+            metadata: {
+             }
+         });
+    ```
 
 4.  For each mode, declare its associated view:
 
-``` js
-sap.uxap.BlockBase.extend("<BlockName>", {
-        metadata: {
-            views: {
-                *HIGHLIGHT START*Collapsed: {
-                    viewName: "<collapsedViewName>",
-                    type: "XML"
-                },
-                Expanded: {
-                    viewName: "<expendedViewName>",
-                    type: "XML"
-*HIGHLIGHT END*
+    ``` js
+    sap.uxap.BlockBase.extend("<BlockName>", {
+            metadata: {
+                views: {
+                    **Collapsed: \{
+                        viewName: "<collapsedViewName\>",
+                        type: "XML"
+                    \},
+                    Expanded: \{
+                        viewName: "<expendedViewName\>",
+                        type: "XML"
+    **
+                    }
                 }
-            }
-         }
-     });
-```
+             }
+         });
+    ```
 
 
 Setting up stashed-based lazy loading:
@@ -262,9 +262,9 @@ Setting up stashed-based lazy loading:
 
 3.  The `stashed` property of `ObjectpageLazyLoader` must be set to `true`:
 
-``` js
-<ObjectPageLazyLoader stashed=”true” id=”SectionStashed”>
-```
+    ``` js
+    <ObjectPageLazyLoader stashed=”true” id=”SectionStashed”>
+    ```
 
 
 This unstashes the content automatically as the user scrolls.

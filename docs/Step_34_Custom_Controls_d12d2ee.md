@@ -152,9 +152,7 @@ We now enhance our new custom control with the custom functionality that we need
 
 In the `metadata` section we therefore define several properties that we make use in the implementation:
 
--   Properties
-
--   Value
+-   -   Value
 
     We define a control property `value` that will hold the value that the user selected in the rating. Getter and setter function for this property will automatically be created and we can also bind it to a field of the data model in the XML view if we like.
 
@@ -175,9 +173,7 @@ In the `metadata` section we therefore define several properties that we make us
     > 
     > -   An **association** is a weak relation that does not manage the lifecycle and can be defined multiple times. To have a clear distinction, an association only stores the ID, whereas an aggregation stores the direct reference to the control. We do not specify associations in this example, as we want to have our internal controls managed by the parent.
 
--   Events
-
--   Change
+-   -   Change
 
     We specify a `change` event that the control will fire when the rating is submitted. It contains the current value as an event parameter. Applications can register to this event and process the result similar to “regular” OpenUI5 controls, which are in fact built similar to custom controls.
 

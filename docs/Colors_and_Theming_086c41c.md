@@ -26,27 +26,27 @@ Different people perceive and interpret colors in different ways, which is somet
 
     -   With the URL parameter `sap-ui-theme`
 
-```
-sap-ui-theme=sap_belize_hcb
-```
+        ```
+        sap-ui-theme=sap_belize_hcb
+        ```
 
-and
+        and
 
-```
-sap-ui-theme=sap_belize_hcw
-```
+        ```
+        sap-ui-theme=sap_belize_hcw
+        ```
 
     -   From the API using the core method `applyTheme`
 
-```
-sap.ui.getCore().applyTheme(“sap_belize_hcb”);
-```
+        ```
+        sap.ui.getCore().applyTheme(“sap_belize_hcb”);
+        ```
 
-or
+        or
 
-```
-sap.ui.getCore().applyTheme(“sap_belize_hcw”);
-```
+        ```
+        sap.ui.getCore().applyTheme(“sap_belize_hcw”);
+        ```
 
 -   You should avoid writing custom CSS. If you do need custom CSS for some reason, check to make sure everything is working fine on all available themes.
 
@@ -63,9 +63,9 @@ sap.ui.getCore().applyTheme(“sap_belize_hcw”);
 
 -   Use predefined CSS parameters in your CSS. You can find them in the following files within the OpenUI5 library:
 
--   `resources/sap/m/themes/base/library-parameters.json`
+    -   `resources/sap/m/themes/base/library-parameters.json`
 
--   `resources/sap/m/themes/sap_hcb/library-parameters.json`
+    -   `resources/sap/m/themes/sap_hcb/library-parameters.json`
 
 -   Use `REM`/`EM` instead of `PX` as a unit.
 
@@ -92,8 +92,6 @@ sap.ui.getCore().applyTheme(“sap_belize_hcw”);
 ***
 
 ### Tips for Testing
-
-Check the color contrasts.
 
 -   Take a screenshot, put it into an image tool and convert it to black and white
 

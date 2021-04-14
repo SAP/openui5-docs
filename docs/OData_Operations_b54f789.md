@@ -67,7 +67,7 @@ If the function returns a primitive value or a collection, the binding for the r
 ```
 
 ```
-<VBox id="getAvailableItems" binding="{path : '/GetAvailableItems(...)', parameters : {$select : 'ProductName', 'ProductId'}}">
+<VBox id="getAvailableItems" binding="{path : '/GetAvailableItems(...)', parameters : {$select : ['ProductName', 'ProductId']}}">
     <List id="xyz" items="{value}">
         <items>
             <ObjectListItem title="{ProductName}" />
@@ -178,7 +178,7 @@ The example below demonstrates how a budget may be modified depending on the `Te
 >         oParameterContext = oDialog.getObjectBinding().getParameterContext();
 >  
 >  
->     if (oParameterContext.getProperty("TeamID') === "STARTUP") {
+>     if (oParameterContext.getProperty("TeamID") === "STARTUP") {
 >         oParameterContext.setProperty("Budget", 555.55);
 >     else {
 >         oParameterContext.setProperty("Budget", 123.45);

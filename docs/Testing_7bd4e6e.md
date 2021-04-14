@@ -38,8 +38,6 @@ For more information, see [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_311
 
 ### Integration Tests
 
-The integration tests shipped with the template cover all basic functionality and provide several "journeys". Journeys include a series of OPA tests that belong to the same functionality and should be executed together:
-
 -   `NavigationJourney`: This journey will trigger user interactions and navigate through the application. The routing configuration, basic navigation events, and error handling are tested here.
 
 -   `NotFoundJourney`: Several "not found" cases of the application are tested here. Faulty navigation scenarios are introduced intentionally to simulate errors.

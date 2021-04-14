@@ -93,16 +93,14 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 
 -   Create a measurement in your code with:
 
-``` js
-// "Log" required from module "sap/base/Log"
-// "Measurement" required from module "sap/ui/performance/Measurement"
-Measurement.setActive(true);
-Measurement.start("myId","Measurement of myId");
-Log.info("foo");
-Measurement.end("myId");
-```
-
-    You can use methods as listed in the following table:
+    ``` js
+    // "Log" required from module "sap/base/Log"
+    // "Measurement" required from module "sap/ui/performance/Measurement"
+    Measurement.setActive(true);
+    Measurement.start("myId","Measurement of myId");
+    Log.info("foo");
+    Measurement.end("myId");
+    ```
 
     |Action
 
@@ -146,17 +144,15 @@ Measurement.end("myId");
 </table>
 
 
-To activate measurement for certain categories only, you have the following options:
-
 -   Provide a URL Parameter with categories `sap-ui-measure=category1,category2`
 
 -   Add the category as parameter to the call of the `Measurement.setActive` as in the following example:
 
-```
-// Measure only "require" category
-// "Measurement" required from module "sap/ui/performance/Measurement"
-Measurement.setActive(true,*HIGHLIGHT START*"require"*HIGHLIGHT END*)
-```
+    ```
+    // Measure only "require" category
+    // "Measurement" required from module "sap/ui/performance/Measurement"
+    Measurement.setActive(true,**"require"**)
+    ```
 
     To assign a measurement to a specific category, just add the category to the `start` function.
 
@@ -174,8 +170,6 @@ Measurement.setActive(true,*HIGHLIGHT START*"require"*HIGHLIGHT END*)
 #### 2. Retrieve the results
 
 You can view the results in the *Performance* section of the diagnostics window \( [Ctrl\] + [Alt\] + [Shift\] + [S\] \). Here, you can also refresh the result list, if the performance measurement is still running.
-
-You can retrieve the results via API with one of the following commands:
 
 |Command
 
@@ -245,8 +239,6 @@ console.table(Measurement.getAllMeasurements(true)) //table with completed measu
 
 #### 3. Interpret the results
 
-Each entry in the resulting array provides an object of the following structure:
-
 -   `id`: `string`
 
     The unique ID of the measurement as provided in the `start` or `average` method
@@ -312,8 +304,6 @@ Log.info("Average time: " + Measurement.getMeasurement("myId").duration);
 ***
 
 #### Measurement of Object Methods
-
-You can register an average measurement without changing the original source code. For this, you use the following APIs:
 
 -   `Measurement.registerMethod`
 

@@ -40,8 +40,6 @@ Most bread-and-butter controls are located in the `sap.m` namespace, which makes
 
 ### Remove Clutter From Your Views
 
-It's easy to save a few bytes and make your code a lot cleaner:
-
 -   Don't define properties that are set to their default values.
 
 -   Remove unused namespace aliases.
@@ -101,9 +99,7 @@ Things may get a little messy as your app is growing with your requirements. The
 
 -   Learn how: Walkthrough tutorial [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md)
 
--   Find out more:
-
--   [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
+-   -   [Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
 
 ***
 

@@ -36,7 +36,7 @@ To set up your project for this tutorial, download the files at [OData V4 - Step
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 
-You should now have the following files:  
+   
   
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_mdg_c12_gcb"/>Folder structure with downloaded files
 

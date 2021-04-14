@@ -124,23 +124,23 @@ The check function has three main and one optional parameters. The main ones are
 
 -   `oCoreFacade` - gives you access to the different elements provided by the OpenUI5 core framework:
 
--   `[getMetadata\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object/methods/getMetadata)`
+    -   `[getMetadata\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object/methods/getMetadata)`
 
--   `[getUIAreas\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getUIArea)`
+    -   `[getUIAreas\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getUIArea)`
 
--   `[getComponents\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getComponent)`
+    -   `[getComponents\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getComponent)`
 
--   `[getModels\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getModel)`
+    -   `[getModels\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getModel)`
 
 -   `oScope` - retrieves elements in the scope with the following methods:
 
--   `getElements()` - returns all the elements.
+    -   `getElements()` - returns all the elements.
 
--   `getElementsByClassName(className)` - the className can be, for example, `sap.m.Button`. The function returns all elements of type `sap.m.Button`.
+    -   `getElementsByClassName(className)` - the className can be, for example, `sap.m.Button`. The function returns all elements of type `sap.m.Button`.
 
--   `getPublicElements()` - returns all elements that are part of public API aggregations.
+    -   `getPublicElements()` - returns all elements that are part of public API aggregations.
 
--   `getLoggedObjects(type)` - returns all logged objects. The method provides access to the logs and traces in the browser Console. Note that it is possible to enhance the log traces with an extra `fnSupportInfo` object which you can then analyze in the rule check function. The `fnSupportInfo` function is called only when support mode is turned on with the URL parameter `sap-ui-support` set to `true` \(`sap-ui-support=true`\). For more information, see [Rules for the Console Traces and Logging](Common_Rule_Patterns_3fc1412.md#loio3fc141206cee4ab2aa514b569ed423c0__section_Rules_for_the_Console_Traces_and_Logging).
+    -   `getLoggedObjects(type)` - returns all logged objects. The method provides access to the logs and traces in the browser Console. Note that it is possible to enhance the log traces with an extra `fnSupportInfo` object which you can then analyze in the rule check function. The `fnSupportInfo` function is called only when support mode is turned on with the URL parameter `sap-ui-support` set to `true` \(`sap-ui-support=true`\). For more information, see [Rules for the Console Traces and Logging](Common_Rule_Patterns_3fc1412.md#loio3fc141206cee4ab2aa514b569ed423c0__section_Rules_for_the_Console_Traces_and_Logging).
 
     Prior to version 1.54, `getElements` was not accepting any arguments and was returning all elements registered with the core. Now it accepts one query object parameter. This allows you to select only a specific subset of elements valid for your use case. The three parameters of the method are `type`, `public`, and `cloned`.
 

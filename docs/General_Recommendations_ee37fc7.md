@@ -26,8 +26,6 @@ Theming \(CSS selectors\), keyboard handling \(tab order\) and screen reader sup
 
 #### Check the focus persistence
 
-When opening or closing a dialog or navigating between pages, the focus should stay on the same control as it was on before opening or navigating. If the control no longer exists, the focus should be put on its parent \(for example, if the control was inside an action sheet, set the focus on the button which opened the action sheet\).
-
 > Note:  
 > When the parent control cannot receive focus or is no longer available, the focus should go to a control nearby.
 
@@ -83,13 +81,9 @@ Container and layout controls such as `VerticalLayout` or `Grid` inherit the too
 
 ### Tips for Testing
 
-Start the application and check each screen element. Check the following:
-
 -   Does it have a label or a tooltip \(hover with the mouse\)?
 
--   Are the labels and tooltips \(fully\) visible, clear, accurate, and meaningful?
-
--   Is this also true for each input field or for a sequence of input fields? \(For example: street and number\)?
+-   -   Is this also true for each input field or for a sequence of input fields? \(For example: street and number\)?
 
 -   Is this also true for buttons, icons and images?
 

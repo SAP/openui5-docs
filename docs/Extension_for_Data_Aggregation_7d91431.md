@@ -115,8 +115,6 @@ Two scenarios are supported:
     > ```
 
 
-For aggregatable properties where grand total or subtotal values are requested, you can globally choose where these should be displayed:
-
 -   at the bottom only,
 -   at both the top and bottom,
 -   at the top only \(default\).

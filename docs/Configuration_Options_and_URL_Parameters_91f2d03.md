@@ -96,8 +96,6 @@ List of active terminologies provided via URL parameter, bootstrap or `sap.ui.co
 			<td>Type: `string`
 Default value: `full`
 
-The following animation modes are available:
-
  -   `full`: all animations are shown
 
  -   `basic`: a reduced, more light-weight set of animations
@@ -300,8 +298,6 @@ You can also specify a comma-separated list as a `string` that contains all modu
 
 Example: `index.html?sap-ui-debug=sap/ui/model/odata/v2/` will load all debug sources for all modules of the OData V2 model. All others modules will be taken from the preload \(if preload is active\).
 
-You can use the following patterns:
-
  -   A trailing slash \(`/`\) means that the complete package should be included \(shortcut for `/**/*`\)
 
 Example: `sap/ui/model/odata/v2/` loads everything from the `sap/ui/model/odata/v2/` package as debug source \(also nested packages `sap/ui/model/odata/v2/**/*`\).
@@ -358,33 +354,6 @@ A compatibility layer restores several incompatibly changed APIs in jQuery v3 ba
 			<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`flexibilityServices`
-			</td>
-			<td>Type: `string`
-Default value: `/sap/bc/lrep`
-
-You can define an alternative route from where to load SAPUI5 flexibility.
-
-For more information, see [642dab291a7b47ec9d46c39b3c482aba.md]().
-			</td>
-			<td>
-
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
-
-![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
-
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
-
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 			</td>
 		</tr>
 		<tr>
@@ -1133,8 +1102,6 @@ Default value: `false`
 
 If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
 
-This applies to the following resources:
-
  -   `library(-RTL).css` \(or any other variation\)
 
  -   `library-parameters.json` 
@@ -1654,8 +1621,6 @@ Enable `LessSupport`.
 			</td>
 			<td>Type: `string[]`
 Default value: `both`
-
-Allows to enforce the use of a specific preload file type:
 
  -   for all libraries: `?sap-ui-xx-libraryPreloadFiles=json`
 

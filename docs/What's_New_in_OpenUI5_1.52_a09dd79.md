@@ -63,9 +63,7 @@ Support Assistant has been enhanced with the following features:
 
     The default value of this property is `false`. If you set it to `true`, a resolve function is passed as a parameter of the check function to allow you to resolve the asynchronous operation. Call `fnResolve` to indicate that the asynchronous check function has finished. The asynchronous function waits 10 seconds before it times out.
 
--   New options to check the location from which Support Assistant has been loaded:
-
--   When you click the *Settings* button in the Support Assistant toolbar, you can see the URL at the bottom of the dialog box. A *Copy* button next to the URL allows you to copy the location to the clipboard.
+-   -   When you click the *Settings* button in the Support Assistant toolbar, you can see the URL at the bottom of the dialog box. A *Copy* button next to the URL allows you to copy the location to the clipboard.
 
 -   In the *Technical Information* section of the report.
 
@@ -106,13 +104,13 @@ Support Assistant has been enhanced with the following features:
 
 -   `sap.m.MessageView` has new default behavior and a new property. These changes aim to save space on the screen and hide unnecessary controls.
 
--   If only one item is available, the details page for the first item is used as the initial page after opening a `MessagePopover` or rendering a `MessageView`.
+    -   If only one item is available, the details page for the first item is used as the initial page after opening a `MessagePopover` or rendering a `MessageView`.
 
--   If there are messages of only one type, the filtering options in the header will be hidden.
+    -   If there are messages of only one type, the filtering options in the header will be hidden.
 
--   A new `showDetailsPageHeader` Boolean property for hiding the details page header has been introduced. When set to `false`, no header will be displayed in the details section of the message.
+    -   A new `showDetailsPageHeader` Boolean property for hiding the details page header has been introduced. When set to `false`, no header will be displayed in the details section of the message.
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessageViewInsideDialog/preview).
+    For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessageViewInsideDialog/preview). 
 
 -   `sap.m.OverflowToolbar`: Until now, controls needed to be whitelisted in a central helper class to be allowed to move to the overflow menu. With the addition of the new `sap.m.IOverflowToolbarContent` interface, each control can now provide this data on its own, without needing to be whitelisted. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IOverflowToolbarContent).
 
@@ -210,9 +208,7 @@ White spaces are decreased, contrast between the background and the tables is in
 
 -   Thrown exceptions are displayed.
 
--   The following information is displayed in the header:
-
--   Cross links to *Documentation* are added.
+-   -   Cross links to *Documentation* are added.
 
 -   Abstract classes are displayed in front of the class name.
 
@@ -245,16 +241,12 @@ We added a new *Tools* section in the main navigation after the *Demo Apps* sect
 
 ### Documentation and Templates
 
-Check out the following new and updated documentation topics:
-
 -   [Test Automation](Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0) that describes the setup for automated testing with *Karma*
 
 -   [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
 
 -   [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
 
-
-Our tutorials and templates have been updated according to the latest practices:
 
 |Change
 
@@ -266,16 +258,14 @@ Our tutorials and templates have been updated according to the latest practices:
 <table>
 	<thead>
 		<tr>
-```
-new ComponentContainer({
-   height : "100%",
-   name : "sap.ui.demo.worklist",
-   *HIGHLIGHT START*settings : {
-      id : "worklist"
-   }*HIGHLIGHT END*
-})
+			<th>--------</th>
+			<th>------</th>
+		</tr>
+	</thead>
+	<tbody>
 
-```
+    ```
+new ComponentContainer({
    height : "100%",
    name : "sap.ui.demo.worklist",
    **settings : \{
@@ -283,7 +273,7 @@ new ComponentContainer({
    \}**
 })
 
-```
+    ```
 
  -   IDs for targets in the routing configuration in the `manifest.json` descriptor file
 
@@ -295,14 +285,12 @@ For target IDs, this leads to unpredictable view IDs as the views are generated 
 			</td>
 		</tr>
 		<tr>
-			<td>Asynchronous processing added:
- -   In the routing configuration in the `manifest.json` descriptor files
-
+			<td>-   In the routing configuration in the `manifest.json` descriptor files
  -   Loading of the `rootView` in the `manifest.json` descriptor files
 
  -   Loading of the `rootView` in the `Component.js` files
 
-```
+    ```
 rootView : {
                 viewName: "sap.m.sample.ActionListItem.List",
                 type: "XML",
@@ -310,7 +298,7 @@ rootView : {
                 id: "app"
 }
 
-```
+    ```
 			</td>
 			<td>Asynchronous loading of views \(or any resources\) can be faster in modern browsers. The browser can load resources in parallel without freezing the UI. So this may improve the performance and user experience.
  > Note:  
