@@ -51,7 +51,7 @@ UI5 supports 7 different possibilities to provide values for the available confi
     > Note:  
     > Additional `<meta>` tags are evaluated after URL parameters, if not stated otherwise. Please see the overall list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for the parameters which can be defined via `<meta>` tags.
 
-7.  Setters on the `sap.ui.core.Configuration` class \(only for some parameters\)
+7.  Specific APIs, for example the setters on the  [`sap.ui.core.Configuration`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration) class \(only for some parameters\)
 
 Please have a look at the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for a description of each configuration option, including the available ways to set input values. The following subsections will describe these possibilities in more detail.
 
@@ -219,11 +219,11 @@ For security reasons, only some configuration options can be set via URL paramet
 
 ***
 
-#### \[7\] Setters on the `sap.ui.core.Configuration` class
+#### \[7\] Specific APIs
 
-The configuration options above are evaluated during the OpenUI5 runtime boots. After that, all changes to these parameters are ignored. To read the final configuration result, you can use the `sap.ui.getCore().getConfiguration()` method.
+The configuration options above are evaluated during the OpenUI5 runtime boot. After that, all changes to these parameters are ignored. To read the final configuration result, you can use the `sap.ui.getCore().getConfiguration()` method.
 
-The `sap.ui.core.Configuration` class allows you to modify a limited set of configuration options at runtime.
+Additionally, for a limited set of configuration options specific APIs exist which allow you to modify these options at runtime.
 
-This class also provides `set` methods on the `sap.ui.core.Configuration` class for a limited set of configuration options that can be modified at runtime. The runtime and/or the controls can react on these configuration changes. The most prominent example for such a configuration option is the `theme`.
+For example, the `sap.ui.core.Configuration` class provides setters for several configuration options that can be modified at runtime. The runtime and/or the controls can then react on these configuration changes. The most prominent example for such a configuration option is the `theme`.
 
