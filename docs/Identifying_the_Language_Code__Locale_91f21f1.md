@@ -89,7 +89,7 @@ These OpenUI5 configuration options accept the following formats:
 			</td>
 			<td>`pt-PT`
 			</td>
-			<td>`1P` is the SAP language code forPortuguese.
+			<td>`1P` is the SAP language code for Portuguese.
 			</td>
 		</tr>
 		<tr>
