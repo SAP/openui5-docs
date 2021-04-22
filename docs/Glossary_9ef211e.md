@@ -156,7 +156,7 @@ A SAPUI5 application stored in the ABAP repository can be deployed and executed 
 			</td>
 			<td>SAPUI5/OpenUI5
 			</td>
-			<td>[Standard Composite Controls](Standard_Composite_Controls_c1512f6.md)
+			<td>[c1512f6ce1454ff1913e3857bad56392.md]()
 			</td>
 		</tr>
 		<tr>
@@ -377,7 +377,7 @@ To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_15
 			</td>
 			<td>SAPUI5/OpenUI5
 			</td>
-			<td>[Developing Controls](Developing_Controls_8dcab00.md)
+			<td>[8dcab0011d274051808f959800cabf9f.md]()
 			</td>
 		</tr>
 		<tr>

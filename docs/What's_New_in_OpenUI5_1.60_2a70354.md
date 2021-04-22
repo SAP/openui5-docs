@@ -153,7 +153,7 @@ Aggregation forwarding for composite controls now offers the following options:
     For example, a model that a composite control developer sets on an inner control is not propagated to the child controls of this inner control if they have been moved there by aggregation forwarding. Instead, the models available at the original location of these child controls will be propagated to them.
 
 
-For more information, see [Aggregation Forwarding](Aggregation_Forwarding_64a5e17.md).
+For more information, see [64a5e1775bf04d4883db18c9de7d83bd.md]().
 
 ***
 
