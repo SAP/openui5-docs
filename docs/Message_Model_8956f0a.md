@@ -18,7 +18,7 @@ The message model is retrieved from the message manager by calling the `getMessa
 
 ### Using the Message Model
 
-You use the message model like any other model to bind an aggregation to a root path \("/\), for example the items in a list, and add filters and sorters. The `MessagePopover` control is used to display the messages to the user:
+You use the message model like any other model to bind an aggregation to a root path \("`/`"\), for example the items in a list, and add filters and sorters. Each item in the collection for "`/`" represents an  [`sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message) object, so that you can bind to all properties specified for such an object. The `MessagePopover` control is used to display the messages to the user:
 
 ```
 // "Button" required from "sap/m/Button"
@@ -40,7 +40,7 @@ var oMP = new MessagePopover({
     }
 });
 
-oMP.setModel (sap.ui.getCore().getMessageManager().getMessageModel(),"message");
+oMP.setModel(sap.ui.getCore().getMessageManager().getMessageModel(),"message");
 
 oMessagePopoverButton.placeAt("content");
 ```
