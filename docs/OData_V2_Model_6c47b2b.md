@@ -657,7 +657,7 @@ You can use these parameters in bindings in addition to the parameters described
 
 ## Optimizing Dependent Bindings
 
-The ODataModel V2 supports a flag called "preliminaryContext". With this option set to true, the ODataModel is able to bundle the OData calls for dependent bindings together into fewer $batch requests.
+In its constructor the OData V2 model supports a flag called `preliminaryContext`. With this option set to `true`, the model is able to bundle OData calls for dependent bindings into fewer $batch requests.
 
 ***
 
@@ -665,11 +665,11 @@ The ODataModel V2 supports a flag called "preliminaryContext". With this option 
 
 ### Introduction
 
-Two bindings are considered "dependent" if one cannot be resolved without the other being resolved first, for example a relative binding cannot be resolved without a resolved absolute binding.
+A relative binding depends on a different binding \(its **parent binding**\) if the parent binding reads the OData entity corresponding to the context that is set for the dependent binding.
 
-If the `preliminaryContext` option is set to `false`, each binding will be resolved once its preceding binding has been resolved or if it is an absolute binding itself.
+By default, data for the dependent binding is only read once data for its binding context is read via the parent binding. This leads to two sequential requests, where the first one reads data for the parent binding **creating** the context, and the second reads data for the dependent binding which **uses** this context.
 
-The `preliminaryContext` option can also be activated/deactivated per binding instance. This overwrites the default value set on the ODataModel instance.
+To improve performance, in case the parent binding is a context binding one may bundle these two read requests into one by specifying that the single context associated with the binding is a preliminary context. This is done by setting the `createPreliminaryContext` parameter on construction of the parent binding. Dependent list or context bindings can then use the path of this preliminary context before data has been read for it in order to construct the path for their own request to read data. This is done by setting the `usePreliminaryContext` parameter on construction of the dependent binding.
 
 ***
 
@@ -677,74 +677,24 @@ The `preliminaryContext` option can also be activated/deactivated per binding in
 
 ### Settings and Usage
 
-***
+You may set the `preliminaryContext` parameter when creating an OData V2 model. This switches on preliminary contexts for **all** bindings created for this model. The following then applies:
 
-#### ODataModel v2
+-   All context bindings have the `createPreliminaryContext` parameter set to `true`.
+-   All context bindings and all list bindings have the `usePreliminaryContext` parameter set to `true`.
 
-The constructor parameter is named `preliminaryContext` \(type Boolean\) and has the following properties:
+You can overrule this default by the corresponding parameters of the [`ODataContextBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataContextBinding) constructor or  [`ODataListBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding) constructor. In addition it is possible to not use the general `preliminaryContext` parameter on the model \(which affects all bindings\), but just switch on preliminary context handling for pairs of parent and depending binding instances using these parameters.
 
--   Default value is `false`.
-
--   It is used by the `ContextBinding` as a default value for `createPreliminaryContext` if not given in the constructor. For examples on its usage see "ContextBinding".
-
--   It is used by the `ContextBinding` as a default value for `usePreliminaryContext` if not given in the constructor. For examples on its usage see "ContextBinding"..
-
-
-***
-
-#### ODataListBinding v2
-
-The constructor parameter is named `usePreliminaryContext` \(type Boolean\) and has the following properties:
-
--   Default value is `false`, as it is derived from the ODataModel's default.
-
--   If set to true:
-
-    -   The `ODataListBinding`accepts preliminary contexts \(for example. in a `setContext()` call\).
-
-    -   The `ODataListBinding` fires a change event with `ChangeReason.Context`, if the binding is updated and a preliminary context was set.
-
-
-***
-
-#### ODataContextBinding
-
-The `ODataContextBinding` supports two different parameters:
-
--   `usePreliminaryContext` \(same as a ODataListBinding v2\)
-
--   `createPreliminaryContext`
-
-    -   If the binding cannot be resolved, it still creates a preliminary binding context, which can be used by other subordinate dependent bindings, which have set the `usePreliminaryContext` option to `true`.
-
-    -   A change event with `ChangeReason.Context` is fired once the data is loaded for the currently preliminary `Context` instance. Afterwards, the existing `Context` instance is not considered "preliminary" anymore.
-
-
-***
-
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__section_wr4_fhf_zbb"/>
-
-### Relationship Between Binding and Model Settings
-
-***
-
-#### Default Behavior
-
-To describe the preliminary context feature in more detail, we first have to look at the default Model/Binding behavior. Let's look at the simple example in the following graphic.
+The following example shows a context binding with the path **"/Products\(1\)"** \(e.g. created as element binding of an `sap.m.Panel` control\) which is the parent binding. The dependent relative binding with the path **"Supplier"** is a list binding created for a table showing all suppliers of the product \(e.g. created for the `rows` aggregation of a `sap.ui.table.Table` control\).
 
    
   
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example: Default Binding Resolution
 
- ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example") 
+ ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution") 
 
-Without using preliminary contexts, `Binding 1` resolves only after `Binding 0` is resolved.
+Without using preliminary contexts, two consecutive OData requests will be issued, one for `Binding 0`, and afterwards one for `Binding 1`, as shown in the following table:
 
-For example, if `Binding 1` is a relative `ODataListBinding` on a `Table` control, its OData request will only be sent, once the data for the absolute `Binding 0` is available, for example by using an Element binding on a `Panel` control.
-
-This leads to two subsequent OData requests, one for `Binding 0` and afterwards one for `Binding 1`, as shown in the following table:
-
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Example: Binding Resolution
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Binding Example: Default Binding Resolution
 
 |Request Number
 
@@ -774,69 +724,19 @@ This leads to two subsequent OData requests, one for `Binding 0` and afterwards 
 	</tbody>
 </table>
 
-Now let's look at a more complex example.
+You can optimize the requests by setting the binding parameters as shown below:
 
    
   
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_j4y_3bz_zbb"/>Complex Binding Example
+<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
- ![](loio410269787de249dc8b573954dd0adc86_LowRes.png "Complex Binding Example") 
+ ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized") 
 
-In this example we add another binding, which will be resolved once `Binding 0` and `Binding 1` are resolved. This leads to the following three individual `$batch` requests:
+Here, `Binding 1` uses the preliminary context created by `Binding 0`, and thus the request URL can directly be resolved.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ssr_ddz_zbb"/>Complex Example: Binding Resolution
+This now results in a single `$batch` request:
 
-|Request Number
-
-|Content
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
-
-<table>
-	<thead>
-		<tr>
-			<th>----------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
-
-			<td> `GET Products(1)` 
-			</td>
-		</tr>
-		<tr>
-			<td>2
-			</td>
-			<td> `GET Products(1)/Supplier` 
-			</td>
-		</tr>
-		<tr>
-			<td>3
-			</td>
-			<td> `GET Suppliers(1)/Products` 
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-***
-
-#### Optimized Behavior
-
-Let's look at the same simple example but with some optimizations.
-
-   
-  
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example - Optimized
-
- ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example - Optimized") 
-
-Here `Binding 1` uses the preliminary context created by `Binding 0`, and thus the request URL can directly be resolved.
-
-This now leads to only a single `$batch` request:
-
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Example: Binding Resolution Optimized
+ <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
 |Request Number
 
@@ -860,93 +760,18 @@ This now leads to only a single `$batch` request:
 		</tr>
 	</tbody>
 </table>
-
-In this example `Binding 1` has set its `usePreliminaryContext` flag to `true`, and thus accepts preliminary contexts to be set.
 
 > Note:  
 > If either `createPreliminaryContext` or `usePreliminaryContext` is set to `false`, the default behavior is active.
 
-Now let's see how this works in the complex example.
-
-   
-  
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_yv1_fhz_zbb"/>Complex Binding Example - Optimized
-
- ![](loioe02b1d8006634769b0094215622c626d_LowRes.png "Complex Binding Example - Optimized") 
-
-In this example we added another binding to the scenario. `Binding 2` is again a relative binding, which can only resolve once `Binding 1` is resolved. `Binding 1` behaves just as before.
-
-In this case the single, generated request looks like this:
-
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_ihd_nhz_zbb"/>Complex Example: Binding Resolution Optimized
-
-|Request Number
-
-|Content
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
-
-<table>
-	<thead>
-		<tr>
-			<th>----------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
-
-			<td>`GET Products(1)`
-`GET Products(1)/Supplier`
-
-`GET Products(1)/Supplier/Products`
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-***
-
-#### Results and Conclusion
-
-Notice how the `Products` list of the `Supplier` is referenced through the entity `Products(1)`.This is a result of bundling all data requests into one single `$batch` request, without waiting for the `Products(1)` entity and its associated `Supplier` entity to be loaded.
-
-As opposed to the default behavior, we do not require to have the `Products(1)` and `Supplier` entities loaded before sending the data request for the Supplier's `Products.Supplier`.So in this case we use a data path based on `Products(1)` and not the `ID` of the Supplier. You can compare that to the default behavior of the complex example described above.
-
-> Example:  
-> What would happen if one binding in the above chain does not set the `usePreliminaryContext` or the `createPreliminaryContext` option to true?
-> 
-> For example, if `Binding 2` sets its `usePreliminaryContext` option to `false`, the resolution chain is broken and we have a mixed scenario. Here one part is loaded optimized in one `$batch`, and the second part is loaded in a separate `$batch`:
-> 
-> <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_zr4_m3z_zbb"/>Complex Example: Binding Resolution Optimized
-> 
-> |Request Number
-> 
-> |Content
-> 
-> |
-> |----------------|---------|
-> |1
-> 
-> |`GET Products(1)`
-> 
-> `GET Products(1)/Supplier`
-> 
-> |
-> |2
-> 
-> | `GET Products(1)/Supplier/Products` 
-> 
-> |
-
 > Note:  
-> With the `$expand` query option you can load all associated entities of another entity. In the previous examples we requested the `Product` list of a certain `Supplier` via a separate request. When using a `$expand` query instead, you could request the same information within one single request:
+> With the `$expand` query option you can load all associated entities of another entity. In the previous example we requested the `Product` list of a certain `Supplier` via a separate request. When using a `$expand` query instead, you could retrieve the same information with one single request:
 > 
 > `GET Products(1)?$expand=Supplier/Products`
 > 
-> Even though you now also achieved to have less requests, using `$expand` has a couple of drawbacks. These can be circumvented by using the preliminary context feature, which does not have these restrictions.
+> Using `$expand` has several drawbacks, however. These can be circumvented by using the preliminary context feature, which does not have these restrictions.
 > 
-> In OData V2, with a `$expand` you cannot use additional filters and sorters for the expanded entries. In addition, the `$expand` option always loads **ALL** associated entities, so paging with `$skip` or `$top` is also not possible. Using the preliminary context feature, you get multiple sub-requests in a single `$batch`, yet you can easily include additional filters and sorters on the related subordinate entries.
+> In OData V2, you cannot use additional filters and sorters for the expanded entries of a `$expand` query. In addition, the `$expand` option always loads **all** associated entities, so paging with `$skip` or `$top` isn't possible, either. Using the preliminary context feature, you get multiple sub-requests into a single `$batch` query, yet you can easily include additional filters and sorters on the related subordinate entries.
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio6cb8d585ed594ee4b447b5b560f292a4__loio6cb8d585ed594ee4b447b5b560f292a4"/>
 
