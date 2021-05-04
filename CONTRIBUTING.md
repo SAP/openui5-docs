@@ -21,6 +21,10 @@ As with every open source project, there is no guarantee that your contributions
 4. A colleague from our documentation team will review your suggested changes and give feedback.
 5. Once your contribution is accepted and the pull request is merged, it will be visible in the [OpenUI5 Nightly Demo Kit](https://openui5nightly.hana.ondemand.com/#/topic). With the next OpenUI5 release, these changes will also become part of the official [OpenUI5 documentation in the Demo Kit](https://openui5.hana.ondemand.com/#/topic).
 
+## Developer Certificate of Origin (DCO)
+
+Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+
 ## FAQs
 
 **I have a great idea for a new documentation page. How do I add this?**
