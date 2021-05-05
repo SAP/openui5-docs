@@ -110,7 +110,7 @@ The new `FlaggedType.js` file matches the file name of the implementation and is
 
 We define this testing module with `sap.ui.require` since we just want to load dependencies but do not want to declare a namespace for this testing module. We load the new and still empty `FlaggedType` implementation as the only dependency and declare two QUnit modules: one for formatting and one for parsing, to check both the to- and back-conversion of the flagged type.
 
-> Note:  
+> ### Note:  
 > We do not test the validation function of the data type as our conversion is so simple. There are no expected validation errors that we have to take care of.
 
 In each QUnit module we define test cases for each condition. For a Boolean conversion there are just two cases, `true` and `false`. So we expect that the integer value `1` is converted to `true` and everything else to `false`.

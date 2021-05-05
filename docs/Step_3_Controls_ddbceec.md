@@ -96,7 +96,7 @@ All controls of OpenUI5 have a fixed set of properties, aggregations, and associ
 
 Don’t forget to remove the “Hello World”.
 
-> Note:  
+> ### Note:  
 > Only instances of `sap.ui.core.Control` or their subclasses can be rendered stand-alone and have a `placeAt` function. Each control extends `sap.ui.core.Element` that can only be rendered inside controls. Check the API reference to learn more about the inheritance hierarchy of controls. The API documentation of each control refers to the directly known subclasses.
 
 **Related Information**  

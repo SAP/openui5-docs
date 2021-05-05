@@ -31,7 +31,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 You can view and download all files at [Walkthrough - Step 10](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.10/preview).
 
-> Caution:  
+> ### Caution:  
 > Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
 
 ***
@@ -86,7 +86,7 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 }*HIGHLIGHT END*
 ```
 
-> Note:  
+> ### Note:  
 > In this tutorial, we only introduce the most important settings and parameters of the descriptor file. In SAP Web IDE, you may get validation errors because some settings are missing - you can ignore those in this context.
 
 The content of the `manifest.json` file is a configuration object in JSON format that contains all global application settings and parameters. The manifest file is called the descriptor for applications, components, and libraries and is also referred to as “descriptor” or “app descriptor” when used for applications. It is stored in the `webapp` folder and read by OpenUI5 to instantiate the component. There are three important sections defined by namespaces in the `manifest.json` file:
@@ -130,7 +130,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
     For compatibility reasons the root object and each of the sections state the descriptor version number `1.1.0` under the internal property `_version`. Features might be added or changed in future versions of the descriptor and the version number helps to identify the application settings by tools that read the descriptor.
 
 
-> Note:  
+> ### Note:  
 > Properties of the resource bundle are enclosed in two curly brackets in the descriptor. This is not a OpenUI5 data binding syntax, but a variable reference to the resource bundle in the descriptor in handlebars syntax. The referred texts are not visible in the app built in this tutorial but can be read by an application container like the SAP Fiori launchpad.
 
 ***
@@ -219,7 +219,7 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 
 ***
 
-> Tip:  
+> ### Tip:  
 > In previous versions of OpenUI5, additional configuration settings for the app, like the service configuration, the root view, and the routing configuration, had to be added to the metadata section of the `Component.js` file. As of OpenUI5 version 1.30, we recommend that you define these settings in the `manifest.json` descriptor file. Apps and examples that were created based on an older OpenUI5 version still use the `Component.js` file for this purpose - so it is still supported, but not recommended.
 
 ***

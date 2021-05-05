@@ -39,7 +39,7 @@ The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Con
 -   `setProperty` asynchronously sets a property value or an instance annotation. This is even possible without reading data first, in which case `If-Match : *` is used. You can also set a property without sending a PATCH request by using `null` as a group ID, but only if data has been read before.
 
 
-> Note:  
+> ### Note:  
 > For `getObject` and `requestObject`, the data is cloned if the given path points to a non-primitive type. This ensures that internal OData model values cannot be modified.
 > 
 > When a property is read in external format, the format is solely determined by the type defined in the OData meta data of the property, and not by the type or formatter specified for the binding.

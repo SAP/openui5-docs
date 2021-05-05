@@ -71,7 +71,7 @@ We want to display the supplier’s company name in a separate column in the tab
 
 We expand the supplier because we want to avoid sending one additional request for each product to get the supplier. Furthermore, this allows us to bind directly to `{Supplier/CompanyName}` later.
 
-> Note:  
+> ### Note:  
 > **OData’s “expand” Mechanism:**
 > 
 > OData `$expand` is very helpful when combining data from different service entities. Instead of having to send an additional service request for the second entity, we simply expand the service call to include the second entity as well – similar to a join in a relational database. Have a look at the local service metadata definition file `webapp/localService/metadata.xml` that represents the interface of our service. In the `metadata` you can see a list of entities that are available in this service, for example `Products` and `Suppliers`. Each entity lists a number of fields that we can bind to the properties of our view.
@@ -274,7 +274,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 -   The last cell shows the units in stock and was already specified in the previous step. We would like to use this field to show an additional status based on the stock level so we change the binding syntax to an object notation and add an additional formatter `quantityState`. We implemented this formatter in the previous code block above.
 
 
-> Note:  
+> ### Note:  
 > The formatter functions used in this XML view are loaded by the controller and thus can be accessed relatively to the controller through the property name `.formatter`. This logic is already part of the initial app.
 
 ***
@@ -305,10 +305,10 @@ tableNoDataText=No products are currently available
 
 Finally, we modify the existing column names in the resource bundle file `webapp/i18n/i18n.properties` to match our scenario and add the new texts for the column titles.
 
-> Note:  
+> ### Note:  
 > The `webapp/i18n/i18n.properties` file contains some annotations for each key in the file. These annotations offer some more context, which can help translators to better interpret the semantics of the text belonging to the keys. An example for such an annotation is XTIT in the `i18n.properties` file above, which tells that the corresponding key is supposed to be used as a title. The guidelines at [https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md]() give you a better idea of how this can be used. Be aware that this is how SAP uses the annotations internally. In case you want to use this approach to work with your own translators make sure that you agree on a common set of allowed annotations that everybody understands.
 
-> Tip:  
+> ### Tip:  
 > **Testing the responsiveness of the app**
 > 
 > 1.  Call the app and open the developer tools in Chrome with [F12\].

@@ -98,7 +98,7 @@ return new Opa5().waitFor({
 });
 ```
 
-> Note:  
+> ### Note:  
 > `sap.ui.test.matchers.Properties` and `sap.ui.test.matchers.PropertyStrictEquals` serve the same purpose but it's easier to pass parameters to `sap.ui.test.matchers.Properties`.
 
 `sap.ui.test.matchers.Ancestor`: This matcher checks if the control has the specified ancestor \(ancestor is of a control type\).

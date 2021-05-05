@@ -16,10 +16,9 @@ You can either choose to have no padding, a small padding, or a responsive paddi
 
 The following CSS classes for content padding are provided by OpenUI5:
 
-  2.  `sapUiNoContentPadding`
- 4.  `sapUiContentPadding`
- 6.  `sapUiResponsiveContentPadding`
-  
+-   `sapUiNoContentPadding`
+-   `sapUiContentPadding`
+-   `sapUiResponsiveContentPadding`
 
 The effects of these paddings will be different depending on the container that is being used:
 
@@ -29,26 +28,25 @@ The effects of these paddings will be different depending on the container that 
 
 The following list of controls support container content padding CSS classes:
 
-  2.  `sap.f.DynamicPage`
- 4.  `sap.f.GridList`
- 6.  `sap.f.semantic.SemanticPage`
- 8.  `sap.m.Carousel`
- 10. `sap.m.Dialog`
- 12. `sap.m.IconTabBar`
- 14. `sap.m.FlexBox` using `FlexItemData` with `styleClass` property for each item
- 16. `sap.m.IconTabBar`
- 18. `sap.m.List`
- 20. `sap.m.Page`
- 22. `sap.m.Panel`
- 24. `sap.m.Popover`
- 26. `sap.m.ScrollContainer`
- 28. `sap.m.TabContainer`
- 30. `sap.m.Table`
- 32. `sap.ui.layout.BlockLayoutCell`
- 34. `sap.ui.layout.DynamicSideContent`
- 36. `sap.ui.layout.HorizontalLayout`
- 38. `sap.ui.layout.VerticalLayout`
-  
+-   `sap.f.DynamicPage`
+-   `sap.f.GridList`
+-   `sap.f.semantic.SemanticPage`
+-   `sap.m.Carousel`
+-   `sap.m.Dialog`
+-   `sap.m.IconTabBar`
+-   `sap.m.FlexBox` using `FlexItemData` with `styleClass` property for each item
+-   `sap.m.IconTabBar`
+-   `sap.m.List`
+-   `sap.m.Page`
+-   `sap.m.Panel`
+-   `sap.m.Popover`
+-   `sap.m.ScrollContainer`
+-   `sap.m.TabContainer`
+-   `sap.m.Table`
+-   `sap.ui.layout.BlockLayoutCell`
+-   `sap.ui.layout.DynamicSideContent`
+-   `sap.ui.layout.HorizontalLayout`
+-   `sap.ui.layout.VerticalLayout`
 
 ***
 

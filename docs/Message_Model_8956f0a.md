@@ -45,7 +45,7 @@ oMP.setModel(sap.ui.getCore().getMessageManager().getMessageModel(),"message");
 oMessagePopoverButton.placeAt("content");
 ```
 
-> Note:  
+> ### Note:  
 > For an example how to bind to the message model and show the messages to the user, see `sap.m.MessagePopover` in the API reference.
 
 **Related Information**  

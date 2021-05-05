@@ -67,7 +67,7 @@ Similar to `TwoColumnsBeginExpanded`, but this time the `Mid` column is the wide
 			<td>**`MidColumnFullScreen`**
 Use this layout to display the second logical level of information \(detail page\) only. The `Mid` column takes up the whole available control width for all control sizes.
 
- > Note:  
+ > ### Note:  
  > On small screen sizes, the layouts `TwoColumnsBeginExpanded`, `TwoColumnsMidExpanded` and `MidColumnFullScreen` all lead to the same result for the user – the `Mid` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
 			</td>
 			<td> 
@@ -115,7 +115,7 @@ Similar to `ThreeColumnsMidExpandedEndHidden`, but this time the `Begin` column 
 			<td>**`EndColumnFullScreen`**
 Use this layout to display the third logical level of information \(detail-detail page\) only. The `End` column takes up the whole available control width for all screen sizes.
 
- > Note:  
+ > ### Note:  
  > On small screen sizes all three-column layouts and `EndColumnFullScreen` lead to the same result for the user – the `End` column taking up the whole control width. However, if the user resizes the browser and makes space, the control will automatically apply the rules of the current layout for the new width.
 			</td>
 			<td> 

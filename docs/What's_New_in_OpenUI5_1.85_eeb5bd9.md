@@ -66,7 +66,7 @@ The `specialDates` aggregation, which allows you to define special dates for the
 |
 |**`sap.m.Table`**
 
-> Caution:  
+> ### Caution:  
 > This feature is no longer in place as of 1.85.1. as the default behavior . For more information , see the What’s New in 1.86 and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for `fixedLayout`. 
 
 If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space.This feature is enabled by default.

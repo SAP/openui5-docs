@@ -382,7 +382,7 @@ The libraries provided by OpenUI5 contain various different table controls that 
 
 2\) To optimize perfomance, we recommend to show no more than 200 items at once in the responsive table. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure the user can filter the data. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. 
 
-> Caution:  
+> ### Caution:  
 > The limits mentioned are only recommendations. For a specific app context, the actual number of manageable items might be higher or lower.
 > 
 > The actual limits depend on what your scenario looks like, for example:

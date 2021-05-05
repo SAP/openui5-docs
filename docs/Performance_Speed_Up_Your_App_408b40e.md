@@ -38,10 +38,10 @@ The most important setting is `data-sap-ui-async="true"`. It enables the runtime
 
 The attribute `data-sap-ui-onInit` defines the module `my.app.Main`, which will be loaded initially.
 
-> Note:  
+> ### Note:  
 > Configuration of the bootstrap can only be done for standalone applications and when the bootstrap is under control of the developer. The bootstrap of applications from a Fiori Launchpad is managed by the Launchpad.
 
-> Note:  
+> ### Note:  
 > The `data-sap-ui-async="true"` configuration option requires extensive testing as well as cooperation on the application side to ensure a stable and fully working application. It is, therefore, **not** activated automatically, but needs to be configured accordingly. If you encounter issues or want to prepare your application for asynchronous loading, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md) The bootstrap attribute `data-sap-ui-async="true"` affects both modules **and** preload files. If it is not possible to load the modules asynchronously \(e.g. for compatibility reasons\), use `data-sap-ui-preload="async"` to configure at least the preloads for asynchronous loading. For further information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
 
 If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet:
@@ -64,10 +64,10 @@ If you listen to the `init` event as part of your `index.html` page, make sure t
 </script>
 ```
 
-> Note:  
+> ### Note:  
 > Please note that this variant with inline scripting is not CSP-compliant. It is better to create a module with `sap.ui.define` which contains the startup code and load it via `data-sap-ui-onInit="module:my/app/main"` \( this usually also requires a declaration of `data-sap-ui-resourceroots`, e.g.: `data-sap-ui-resourceroots='{"my.app": "./"}` \).
 
-> Note:  
+> ### Note:  
 > Applications without a descriptor file can declare additional dependencies explicitly via the bootstrap parameter `data-sap-ui-libs`. If those dependencies are not listed, such as transitive dependencies that are inherited from a listed library, OpenUI5 will load them automatically, but then has to first read the configured libraries and find out about these dependencies. This can take time as the application might benefit less from parallel loading.
 
 **Additional Information:**
@@ -270,7 +270,7 @@ In some cases it may happen that preloads are disabled:
 
 Application modules \(e.g. components, controllers, views or resource bundles\) should be loaded asynchronously via the component preload file. Check \(e.g. via the Network tab in the Google Chrome developer tools\) if a component preload \(`Component-preload.js`\) is missing. If the application is not configured to load modules asynchronously, required application files may be loaded synchronously.
 
-> Note:  
+> ### Note:  
 > If a component preload does not exist yet, the bundle needs to be created. For example, you may use the [UI5 Tooling](https://sap.github.io/ui5-tooling/).
 
 ***
@@ -323,7 +323,7 @@ You can find a list of modules in the [Legacy jQuery.sap Replacement](Legacy_jQu
 
 The usages can either be replaced manually or by the [UI5 Migration Tool](https://github.com/SAP/ui5-migration).
 
-> Note:  
+> ### Note:  
 > Please make sure to declare the required modules in `sap.ui.define` or `sap.ui.require` to ensure that they get loaded asynchronously.
 
 ***
@@ -365,7 +365,7 @@ For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a
 
 To ensure fast loading times for **SAP Fiori applications started from the SAP Fiori launchpad**, the OData metadata is cached on the web browser using cache tokens. The tokens are added with the parameter `sap-context-token` to the URL of metadata requests. Please check via the developer tools of your browser \(e.g. the Network tab in the Google Chrome developer tools\) if the token has been appended to the request URL.
 
-> Note:  
+> ### Note:  
 > This feature is currently only supported for ABAP back ends.
 
 **Additional Information:**

@@ -18,7 +18,7 @@ The `sap.ui.codeeditor.CodeEditor` offers functionality to display and edit sour
 
 The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that exposes a subset of API and functionality provided by the third-party ACE \(Ajax.org Cloud9 Editor\) implementation. You can find more information about ACE on the website [https://ace.c9.io/](https://ace.c9.io/).
 
-> Restriction:  
+> ### Restriction:  
 > -   If you use API calls to the native API of ACE, we cannot guarantee backwards compatibility after an upgrade to higher ACE library versions.
 > 
 > -   Accessibility features like high-contrast themes and keyboard handling are not fully available as they are for the rest of the OpenUI5 controls.
@@ -52,7 +52,7 @@ The `sap.ui.codeeditor.CodeEditor` provides simple OpenUI5 wrapper control that 
 
 Here is an example of custom autocompletion:
 
-> Sample Code:  
+> ### Sample Code:  
 > ``` js
 > codeEditor.addCustomCompleter({
 >       getCompletions: function(callback, context) {

@@ -59,7 +59,7 @@ After reloading the page, in the *Network* tab of the browser’s developer tool
 
 Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
 
-> Note:  
+> ### Note:  
 > Turning on debug sources also increases the log level. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 > 
 > To improve performance, you must deactivate the debug sources once you're done with debugging.
@@ -103,7 +103,7 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two on the screen.
 
-> Restriction:  
+> ### Restriction:  
 > -   The *Technical Information* dialog can only be opened on mobile devices that support multi-touch.
 
   
@@ -128,6 +128,6 @@ As a result, a dialog box opens indicating that your transaction has finished. C
 
 After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a `host name` and a `port number`, and then choosing *Submit*.
 
-> Note:  
+> ### Note:  
 > The result of the last completed trace is also visible in the *XML Output* field when you open the *Technical Information* dialog again.
 

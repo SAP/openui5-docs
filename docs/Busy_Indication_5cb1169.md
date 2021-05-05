@@ -21,6 +21,6 @@ The Worklist app implements a busy indication concept as specified by the SAP Fi
 
 By default, the busy indicator delay is set to one second for all controls. This would first show the UI for a second, then show a busy indication until the data is loaded. To avoid this behavior initially and show the busy indicator immediately without delay the following concept is implemented in the app: The `busyIndicatorDelay` and `busy` properties of certain controls \(`AppView`, `Table` on the *Worklist* page, `FullScreenPage` on the *Object* page\) are bound to the local view model and manipulated in the controllers of the app. The delay is initially set to "0" for displaying the busy indicator immediately, and reset to the previous value after the initial loading is done.
 
-> Note:  
+> ### Note:  
 > You can find more information about busy indicators, busy states, and busy handling in general in the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design/).
 

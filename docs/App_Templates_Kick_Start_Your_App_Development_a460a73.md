@@ -16,7 +16,7 @@ They incorporate our latest recommendations and can be used for example as a sta
 
 There are separate templates for the **Worklist** and **Master-Detail** application patterns, which are closely aligned with the SAP Fiori design guidelines. The subsections of this chapter explain the concepts and features of each of these templates. See the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-> Note:  
+> ### Note:  
 > These templates were primarily created for developing SAP Fiori apps in accordance with the SAP Fiori design guidelines, but can also be used in any other OpenUI5 context.
 
 The basic template serves as a starting point when you want to start from scratch, but also want to make sure that everything is set up properly.
@@ -29,7 +29,7 @@ The basic template serves as a starting point when you want to start from scratc
 
 All templates are available under [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html), in SAP Web IDE, and in the [SAP Repository on GitHub](https://github.com/SAP).
 
-> Caution:  
+> ### Caution:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
 |Template

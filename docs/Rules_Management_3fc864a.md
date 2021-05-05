@@ -60,7 +60,7 @@ The ID is an alphanumeric string which, although not mandatory, is useful if you
 
 Once exported and saved, your rule presets can be imported and used again. They are listed in a dropdown menu allowing you to easily switch between them.
 
-> Tip:  
+> ### Tip:  
 > In *My Selection* you can find your most current selection of rules. To preserve it for your next analyses together with your choice of imported presets, go to the settings menu ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
 
 ***
@@ -71,7 +71,7 @@ For your convenience, the Support Assistant is also equipped with ready-to-use s
 
 You can't delete system presets but you have the option to modify and export them as you do with your custom ones. Although the rules selected within one system preset are grouped according to their relevance to a certain scenario, they can belong to different categories.
 
-> Tip:  
+> ### Tip:  
 > If you modify the rule selection within a system preset, an asterisk appears next to its name as an indication of changes that haven’t been saved. You can undo these changes by selecting the refresh icon opposite the preset name ![](loio77651912c3644b29852ec0f7710182b0_HiRes.png).
 
 ***
@@ -88,7 +88,7 @@ You have the option to personalize the Rules view by choosing which columns to b
 
  ![](loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization") 
 
-> Note:  
+> ### Note:  
 > Choosing *I agree to use local storage persistency for* from the settings menu ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.
 
 ***
@@ -99,7 +99,7 @@ You have the option to personalize the Rules view by choosing which columns to b
 
 Selecting the *Create Rule* button allows you to create a new rule. You can create a completely new rule \(*Create Rule*\) or use an existing one as a template by clicking the *Copy* \(![](loioafd526cfa67542abbe817b00440a0a45_HiRes.png)\) icon next to *Categories*. For each rule, you need to fill out the *ID*, *Categories*, *Audiences*, *Title*, *Description*, *Resolution*, *Min version* and, if available, *Resolution URLs* in the *Rule properties* tab. You also have the option to select if the *Async* value should be `true` or `false`. This value determines whether the rule check function will contain asynchronous operations. By default, it is set to `false`.
 
-> Note:  
+> ### Note:  
 > Keep in mind that if you set *Async* to true, you need to use `fnResolve` as the 4th parameter in your check function to indicate that the asynchronous check function has finished. The asynchronous function waits 10 seconds before it times out.
 > 
 > Here is an example of the Async check function:
@@ -119,7 +119,7 @@ Additionally you need to provide or modify the JavaScript check function that im
 
 The newly created rule remains *temporary* until you submit and assign it to a library.
 
-> Remember:  
+> ### Remember:  
 > Don't forget to copy and paste the resulting new rule and submit it separately in the IDE of your choice. You can select all the code from the *Code* tab.
 
 ***

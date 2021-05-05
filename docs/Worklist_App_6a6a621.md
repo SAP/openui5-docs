@@ -41,7 +41,7 @@ We will use the worklist template as a starting point for this tutorial and add 
 
 ***
 
-> Tip:  
+> ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
 > You can view and download the files for all steps in the Demo Kit at [Worklist App](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.

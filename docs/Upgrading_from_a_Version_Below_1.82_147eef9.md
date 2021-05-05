@@ -37,7 +37,7 @@ We evaluated each of those changes and classified them to see what needed to be 
 
 The following table contains some important differences between jQuery 2.2.3 and jQuery 3.5.1. The rightmost column indicates whether such an incompatible change of jQuery 3.x was "rolled back" to the original jQuery 2.x behavior by our compatibility layer.
 
-> Note:  
+> ### Note:  
 > Though we aim to make sure that the jQuery APIs used by controls and applications stay compatible even after breaking changes by jQuery, we cannot guarantee a 100% compatibility rate.
 
 |API \(and what has changed\)
@@ -419,6 +419,6 @@ You can activate an additional support rule with the [UI5 Support Assistant](Sup
 
 Though these APIs are "only" deprecated and could still be used, the jQuery project will remove them with their next version jQuery 4.x
 
-> Note:  
+> ### Note:  
 > To stay future-proof, we strongly recommend that you remove/refactor all your application and control code so as not to use any deprecated jQuery API anymore.
 

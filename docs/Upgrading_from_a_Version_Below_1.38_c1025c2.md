@@ -16,7 +16,7 @@ With this OpenUI5 version, jQuery has been upgraded to version 2.2.3.
 
 This upgrade may impact your OpenUI5 apps. The following sections give an overview of our findings and how to deal with them.
 
-> Note:  
+> ### Note:  
 > If you use additional open-source libraries that depend on jQuery, check whether they need to be upgraded as well.
 
 ***

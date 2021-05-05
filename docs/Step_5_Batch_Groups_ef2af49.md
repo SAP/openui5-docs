@@ -55,7 +55,7 @@ In the previous steps, batch processing was turned off, so that we could monitor
 
 We now run the app and open the browser developer tools. On the *Console* tab, we clear all messages and choose the *Refresh* button.
 
-> Tip:  
+> ### Tip:  
 > Change the settings of the *Console* so that it only displays information messages, not warnings and errors, to make it easier to find the messages we're looking for.
 
 We see that the request is now bundled: To read the user data, the app now sends a `POST` request instead of a `GET` request to the server. The URL of the `POST` request does not include the `path` to the data we want. Instead it ends with `$batch` that indicates that this is a batch request.

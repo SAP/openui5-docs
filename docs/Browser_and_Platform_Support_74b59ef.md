@@ -14,7 +14,7 @@ Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, a
 
 As OpenUI5 is based on CSS3, HTML5, and the ECMAScript 5 \(ES5\) JavaScript API, only browsers with HTML5 capabilities are supported. In general, only major versions that are also supported by the respective platform can be supported by the OpenUI5 framework.
 
-> Restriction:  
+> ### Restriction:  
 > We currently do not guarantee that ECMAScript standards ES6/ES2015 or newer, work with OpenUI5.
 
 Depending on the platform your OpenUI5 apps run on, different browsers in different versions are supported. If you know which platform and which browsers are used by your users, you can decide on which libraries to use for your app.

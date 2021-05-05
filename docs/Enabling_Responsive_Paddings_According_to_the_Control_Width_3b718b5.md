@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Apply responsive paddings over separate parts of the controls.
 
-> Note:  
+> ### Note:  
 > You can enable the responsive paddings based on the with of the control only for the SAP Quartz themes.
 
 ***
@@ -286,7 +286,7 @@ The following table shows the controls that support responsive paddings. To enab
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > If nessecary, you can further align controls by using the available set of predefined CSS margin classes. For example, you can add negative margins to an element on its left and right sides. For more information, see [Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md).
 
 ***

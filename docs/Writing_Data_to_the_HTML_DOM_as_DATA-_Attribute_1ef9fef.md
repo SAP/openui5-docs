@@ -23,7 +23,7 @@ A "data-" prefix is added to the key and the result is then written as an attrib
 
 For this, the key has to be a valid HTML ID and the value has to be a string; otherwise an error is logged.
 
-> Note:  
+> ### Note:  
 > HTML attribute names are case-insensitive and browsers may convert the key to lowercase.
 > 
 > Do not write too much data into the DOM.

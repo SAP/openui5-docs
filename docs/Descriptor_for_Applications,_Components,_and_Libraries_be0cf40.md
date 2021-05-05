@@ -346,7 +346,7 @@ The `manifest` option allows you to configure when and from where the descriptor
     ```
 
 
-> Note:  
+> ### Note:  
 > When you enable `manifest`, all legacy component metadata needs to be migrated into the descriptor for applications/components. Only those entries in the descriptor for components will be respected by the component and all other entries will be ignored.
 
 ***
@@ -426,7 +426,7 @@ http://localhost:8080/this/url/is/reachable/annotations.xml
 
 ### Descriptor Content
 
-> Note:  
+> ### Note:  
 > You can find an example `manifest.json` file with sample code for the descriptor content [here](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__section_example).
 
 The content for the descriptor is contained in the following namespaces: `without`, `sap.app`, `sap.ui`, and `sap.ui5` . The following tables show the application-specific attributes provided by the respective namespaces:
@@ -514,7 +514,7 @@ then its `id` would be `sap.ui.demo.walkthrough`
 
 It's used as a reference point for most operations involving the app descriptor. If the project is the app variant of an existing application, `sap.app/id` is the ID of this app variant. The ID of the underlying application is then provided in `sap.ui5/componentName`.
 
- > Note:  
+ > ### Note:  
  > The ID must not exceed 70 characters. It must be unique.
  > In case of `sap.app/type=application`, the `sap.app/id` corresponds to the `id` of the UI5 component.
 			</td>
@@ -691,7 +691,7 @@ This attribute is optional and only added if used via INA protocol directly, not
 			</td>
 			<td>-   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) . -   `favIcon`: ICO file to be used inside the browser and for desktop shortcuts
 
- > Note:  
+ > ### Note:  
  > `favIcon` is not set automatically by the framework. The icons can be set manually using the `sap/ui/util/Mobile` module and the `setIcons` function.
 
  -   `phone`: 57x57 pixel version for non-retina iPhones
@@ -781,7 +781,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 			<td>-   `type`: Model class name -   `uri`: Relative URL in the component, taking `embeddedBy` into account if filled, or server for absolute model
  -   `settings`: Object that is passed to the model constructor.
 
- > Example:  
+ > ### Example:  
  > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. `Default`, `OneTime`, `OneWay`, `TwoWay`\). For OData models constructor see the following:
  > -   [sap.ui.model.odata.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataModel/constructor)
  > -   [sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel/constructor)
@@ -854,7 +854,7 @@ In former OpenUI5 releases this prefixing of the ID needed to be done with `oCom
 			<td>Map of URL locations keyed by a resource name prefix; only relative paths inside the component are allowed and no ".." characters
 This attribute is intended for actual sub-packages of the component only, meaning that it must not be used for the component namespace itself.
 
- > Note:  
+ > ### Note:  
  > When loading with *manifest first*\(by using the property `manifest`\), the `resourceRoots` are evaluated before the component controller is loaded. Otherwise, the defined resource roots will be registered after the component controller is loaded and do not affect the modules being declared as dependencies in the component controller.
 			</td>
 		</tr>
@@ -867,7 +867,7 @@ This attribute is intended for actual sub-packages of the component only, meanin
 		<tr>
 			<td> `i18n` 
 			</td>
-			<td>> Note:   > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
+			<td>> ### Note:   > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 			</td>
 		</tr>
 		<tr>

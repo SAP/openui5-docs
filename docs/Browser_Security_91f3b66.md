@@ -54,7 +54,7 @@ Clickjacking, or UI redressing, tricks the user into triggering actions within a
 
 OpenUI5 provides a way to prevent clickjacking since version 1.28.0. This has to be configured, as needed, by the application. For more information, see [Frame Options](Frame_Options_62d9c4d.md).
 
-> Note:  
+> ### Note:  
 > As of version 1.28.0, you no longer need to use the Business Add-In `/UI5/BADI_CONFIG_HTTP_HANDLER` to configure the X-Frame-Options response header \(SAP Note 2075016\). The OpenUI5 framework now handles clickjacking prevention and the add-in solution won't work on all browsers.
 
 For more detailed information on clickjacking, refer to the following SAP Note: [2319727](https://launchpad.support.sap.com/#/notes/2319727)

@@ -66,7 +66,7 @@ After saving and running the app again, we should get the following result:
 
  ![](loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible") 
 
-> Tip:  
+> ### Tip:  
 > In Google Chrome, mocked requests will appear in a debug level log of the console \(both request and response\) and not on the *Network* tab. If you do see them in the *Network* tab, they are not mocked and you need to check your code.
 
 In order to simulate the function import call, we write our own \(mocked\) implementation, and add to the internal list of requests.

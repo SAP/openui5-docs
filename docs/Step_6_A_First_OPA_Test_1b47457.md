@@ -36,7 +36,7 @@ All integration tests are located in the `webapp/test/integration` folder and ca
 
 We write integration tests with OPA5 – a tool that is integrated and delivered with SAPUI5. It is the short name for One-Page Acceptance tests for SAPUI5. "One-Page" here means that OPA5 is designed for single-page Web applications, i.e. applications that consist only of one HTML file. OPA5 runs in the same browser window as the application to be tested.
 
-> Note:  
+> ### Note:  
 > There is also a stand-alone version of OPA5 called “OPA” available that can be used for testing any kind of single-page Web application and that does not provide any OpenUI5-specific functionality. In this tutorial, “OPA” always refers to OPA5. It includes functionality for easily finding and matching OpenUI5 controls as well as their properties and aggregations.
 
    
@@ -49,7 +49,7 @@ For structuring integration tests with OPA we use “journeys”. A test journey
 
 The journey uses another structuring element of OPA called “page object” that encapsulates actions and assertions needed to describe the journey. Typically those are related to a view in the app but there can also be stand-alone pages for browsers or common functionality.
 
-> Note:  
+> ### Note:  
 > When you first start writing tests, you may find it difficult to figure out the correct control locators. The *Test Recorder* tool can suggest a solution in the form of a code snippet. For most controls, it can find a combination of matchers that match a single control. Then, all you need to do is copy the code snippet to your OPA5 page object. For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
 
 ***
@@ -202,14 +202,14 @@ For our test case we need to add an action `iPressOnMoreData` and an existing as
 
 Let’s start with the action `iPressOnMoreData`. We define a `waitFor` statement with the current view and the table. Those IDs are stored as internal variables in the `require` statement above and are available in all tests. OPA will now try to find the table based on IDs. As soon as the table is available on the screen and it can be interacted with \(it is visible, not busy,...\), the `Press` action is invoked, if not, the error message is displayed and the test fails. When executed on a table, the `Press` action will simulate that a users chooses the *More Data* button.
 
-> Note:  
+> ### Note:  
 > The `Press` action depends on the control that it is triggered on and has a default behavior for most UI controls. If you, for example, execute `Press` on a `sap.m.Page`, this will trigger the *Back* button's `Press` event. This behavior can be overridden by passing an ID as argument to the action. For more information, see the [API Reference: `sap.ui.test.actions.Press`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.Press). 
 
 The assertion `theTableShouldHaveAllEntries` is structured similarly, but it does not trigger an action. Here, we use the `success` function of `waitFor` to assert if our application is in the expected state. This state is defined by the matchers \(in our case we expect that the list contains 23 items by using the `AggregationLengthEquals`. The `success` function does not execute the additional checks that are needed for triggering an action. the liste does not have to be `interactable` to verify that the state of the application is correct..
 
 With this helper object we can simply check the length of the table aggregation `items` to the expected number of items. We have 23 entries in our local mock data that we also use for this integration test. You can see that the number of items is actually hard-coded in the test. So only if the table has exactly 23 items, the matcher is evaluating to `true` and the assertion is passed successfully.
 
-> Note:  
+> ### Note:  
 > The items in our app are served from the mock server with a slight delay so that we can see how a real service on a backend system would behave. Even if we would have a real backend, we would purposely use the mock server for manual testing and for using them in our test cases as the test data remains stable and unchanged. This creates a more reliable test environment and easier tests. So we can write a test that checks exactly for 23 items here.
 
 Now run the `webapp/test/integration/opaTests.qunit.html` file and make sure that the test is failing. When our new test is invoked, OPA will run into a timeout because the trigger area is not found yet. You can see more information, if you open the developer console of your browser and check the messages in the console.

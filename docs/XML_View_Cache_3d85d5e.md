@@ -14,7 +14,7 @@ To be able to speed up processing times of XML views that make heavy use of the 
 
 To make sure that the cache always contains the latest view data, the cache has to be invalidated whenever the data changes that is needed for preprocessing. When the cache is invalidated, all resources are processed again and the cache gets filled with new data.
 
-> Caution:  
+> ### Caution:  
 > Parts of this feature are currently still experimental. For more information, see [API Reference: `sap.ui.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview). 
 
 The following data changes are handled automatically by OpenUI5:
@@ -26,7 +26,7 @@ The following data changes are handled automatically by OpenUI5:
 -   Locale \(for each locale one cached resource is being created\)
 
 
-> Note:  
+> ### Note:  
 > For each additional component that may have an influence on the preprocessing results of the view source, like OData metadata, you have to implement the invalidation by adding additional keys to the cache configuration.
 
 ***

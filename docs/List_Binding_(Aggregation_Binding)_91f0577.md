@@ -68,7 +68,7 @@ The `List` element has both an `items` attribute and a nested `items` element:
 -   The nested `items` element in our case contains a `StandardListItem`. This serves as a template for creating the individual list rows.
 
 
-> Note:  
+> ### Note:  
 > The binding paths of `StandardListItem` for properties `title` and `description` are relative to `companies`. This means that instead of having to write the whole binding path `title={/companies/name}`, you can simply write `title={name}`. By omitting the slash ‘/’ at the beginning, `{name}` is marked as a relative binding path.
 
 Instead of using a `StandardListItem` as a list row template, you can also use any other `sap.m.` list item, such as:
@@ -84,7 +84,7 @@ Instead of using a `StandardListItem` as a list row template, you can also use a
 
 For more examples and details on when to use which list item control, see the various list items in the [Samples](https://openui5.hana.ondemand.com/explored.html) in the Demo Kit.
 
-> Note:  
+> ### Note:  
 > The model has a default size limit to avoid too much data being rendered on the UI. This size limit determines the number of entries used for the list bindings. The default size limit is 100 entries.
 > 
 > This means that controls that don't support paging or don't request data in chunks \(e.g. `sap.m.ComboBox`\) only show 100 entries even though the model contains more items.

@@ -135,7 +135,7 @@ These OpenUI5 configuration options accept the following formats:
 	</tbody>
 </table>
 
-    > Note:  
+    > ### Note:  
     > Only these SAP-proprietary language codes are understood by OpenUI5. Other SAP-proprietary language codes are not automatically transformed. If you develop your app to run in the SAP Fiori launchpad, all other SAP-proprietary language codes are handled by the SAP Fiori launchpad.
     > 
     > If you don't make use of the SAP Fiori launchpad, you may have to explicitly implement the language handling. You can use the `sap.ui.getCore().setLanguage()` method to provide both settings, a BCP47 language code and the corresponding SAP-proprietary language\) in one call. OpenUI5 will then use one of the two codes where appropriate \(e.g. BCP47 for the retrieval of translated texts or in HTTP Accept Headers, but the proprietary SAP language code when propagating the `sap-language` URL parameter to an OData service\).
@@ -175,6 +175,6 @@ var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 
 For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage).
 
-> Note:  
+> ### Note:  
 > The syntax of the returned value depends on the syntax used for configuration. If the information source is one of the browser language properties, the returned language most likely is in BCP-47 format. If it is configured as a URL parameter, the user might have chosen the JDK Locale syntax.
 

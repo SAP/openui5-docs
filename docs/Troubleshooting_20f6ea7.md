@@ -62,7 +62,7 @@ sap.ui.require(["sap/base/Log"],function(Log){
 
 ```
 
-> Note:  
+> ### Note:  
 > Some of the new modules were changed from objects to functions, for example `sap/base/util/uid` and `sap/base/strings/hash`. This means that the export of a module is used for import into other modules. Each importing module has its own reference to the original export. The test can change its own reference, but not the reference that other modules have obtained already. The value of the reference \(the function\), however, is always the same.
 > 
 > Until further testing capabilities are available, you should write the tests in a way that it is not necessary to mock them, because they are used inside the actual API, which should be tested instead.

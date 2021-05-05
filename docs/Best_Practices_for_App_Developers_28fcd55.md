@@ -35,6 +35,6 @@ Hover over the shapes to find out more about some key benefits of OpenUI5.
 
 ***
 
-> Tip:  
+> ### Tip:  
 > All demo apps, templates, and tutorials in the OpenUI5 Demo Kit follow these recommendations.
 

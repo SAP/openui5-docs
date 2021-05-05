@@ -48,10 +48,10 @@ The requests for the service's root `$metadata` document and annotation files an
 
 If you construct the model with an `earlyRequests` parameter, the requests are sent as early as possible and application startup performance may improve. Consider using the [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md), so that the requests are submitted even earlier.
 
-> Note:  
+> ### Note:  
 > Modern browsers typically can process up to six parallel requests. If and how much the performance improves therefore strongly depends on the number of requests sent initially by the application.
 
-> Remember:  
+> ### Remember:  
 > The default value for `earlyRequests` is `false` in OpenUI5 1.54. This may, however, change in later releases. If you wish to ensure that requests are not sent early, do not rely on the default and explicitly set `earlyRequests` to `false`.
 
 **Related Information**  

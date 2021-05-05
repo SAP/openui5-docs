@@ -152,7 +152,7 @@ oList.getBinding("items").sort(oSorter);
 oList.getBinding("items").filter([oFilterCity, oFilterRevenue]);
 ```
 
-> Note:  
+> ### Note:  
 > `getBinding` requires the name of the bound list. In this example, we are looking at the `items` of the `sap.m.List` control.
 
 For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.html) in the *API Reference* part of the Demo Kit.

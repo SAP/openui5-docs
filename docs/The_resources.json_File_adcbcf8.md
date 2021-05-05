@@ -16,7 +16,7 @@ The file is generated during build time, and its main purpose is for mobile pack
 
 If an app has a `resources.json` file, it is mentioned in the `manifest.json` under `sap.app/resources`.
 
-> Note:  
+> ### Note:  
 > This file is used by SAP Tools like the SAP Fiori Client Packager. It will be generated automatically when using SAP Web IDE.
 
 The list of resources is stored in an array in the `resources` property of the top level JSON object. The top level object can also contain the `_version` property, which can be omitted if the value is `1.0.0`. For each resource, the following entries are possible:

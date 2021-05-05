@@ -77,7 +77,7 @@ The OData V4 context API offers ansynchronous and synchronous access to the data
 			<td> [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is not supported for OData V4.
 			</td>
 			<td>Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html). You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper.html).
- > Example:  
+ > ### Example:  
  > The path syntax supported by the v4.ODataMetaModel, see [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html), method `requestObject` allows for navigation in the model's metadata; there is no need to use `AnnotationHelper` methods for this.
 			</td>
 		</tr>
@@ -85,7 +85,7 @@ The OData V4 context API offers ansynchronous and synchronous access to the data
 			<td>The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly.
 			</td>
 			<td>For more information, see [Type Determination](Type_Determination_53cdd55.md).
- > Note:  
+ > ### Note:  
  > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path: 'DeliveryDate', formatter: '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType: 'any'` as follows:
  > ``` xml
  > <Icon 
@@ -98,7 +98,7 @@ The OData V4 context API offers ansynchronous and synchronous access to the data
  > ```
  > The above also applies to [Expression Bindings](Expression_Binding_daf6852.md). In this case, there is a convenience notation `%{binding}`, which is a shortcut for `${path: 'binding', targetType: 'any'}`.
 
- > Note:  
+ > ### Note:  
  > A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
  > ``` xml
  > <SimpleForm binding="{/BusinessPartnerList('42')}">

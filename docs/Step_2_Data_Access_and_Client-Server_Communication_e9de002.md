@@ -79,7 +79,7 @@ sap.ui.define([
 
 We add the event handler `onRefresh` to the controller. In this method, we retrieve the current data binding of the table. If the binding has unsaved changes, we display an error message, otherwise we call `refresh()` and display a success message.
 
-> Note:  
+> ### Note:  
 > At this stage, our app cannot have unsaved changes. We will change this in Step 6.
 
 We also add the private method `_getText` to retrieve translatable texts from the resource bundle \(`i18n` model\).
@@ -155,7 +155,7 @@ We add the tooltip and message texts to the `properties` file.
 
 To get more insight into the client-server communication, we open the *Console* tab of the browser developer tools and then reload the app.
 
-> Note:  
+> ### Note:  
 > To monitor the client-server communication in a productive app, you would use the *Network* tab of the developer tools.
 > 
 > In this tutorial, we are using a mock server instead of a real OData service so that we can execute the code in every environment. The mock server does not generate any network traffic, so we use the *Console* tab to monitor the communication.
@@ -172,7 +172,7 @@ We search for the following mock server requests:
 
     The server responds with an XML file that describes the entities, for example, entity type `"Person"` has several properties such as `UserName`, `FirstName`, `LastName`, and `Age`.
 
-    > Note:  
+    > ### Note:  
     > The URL contains the session ID `(S(id))`. Since the public *TripPin* service can be used by multiple persons at the same time, the session ID separates read and write requests from different sources. You could use a different ID or request the service without a specified session ID. In the latter case, you will get a response with a new, random session ID.
 
 -   [http://services.odata.org/TripPinRESTierService/\(S\(id\)\)/People?$select=Age,FirstName,LastName,UserName&$skip=0&$top=10](http://services.odata.org/TripPinRESTierService/(S(id))/People?$select=Age,FirstName,LastName,UserName&$skip=0&$top=10).

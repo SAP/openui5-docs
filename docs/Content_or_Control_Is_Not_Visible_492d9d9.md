@@ -95,7 +95,7 @@ Register models on the root Component or on single views of your apps.
 
 **Example:** `this.getView().setModel("myModel", aModel);` Do **not** use `sap.ui.getCore()` to register models.
 
-> Tip:  
+> ### Tip:  
 > To get the Component that owns an embedded view, you can use the following line of code in the view controller:
 > 
 > `sap.ui.core.Component.getOwnerComponentFor(this.getView());`

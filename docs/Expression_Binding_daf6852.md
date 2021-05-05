@@ -16,7 +16,7 @@ Using expression binding saves the overhead of defining a function and is recomm
 
 To use expression binding, you need to enable complex binding syntax by using configuration setting `bindingSyntax` to `complex`.
 
-> Note:  
+> ### Note:  
 > Complex syntax is automatically activated when the `compatVersion` is set to `edge` or to version `1.28` or higher. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 An expression binding is specified in an XML view by one of the following two options:
@@ -39,7 +39,7 @@ The syntax of the `*expression*` is similar to JavaScript syntax, but you can on
 
 `*binding*` can either be a simple path, or a complex binding. The embedded binding `${*binding*}` delivers a value formatted according to the target type of the control property the expression binding applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{= ${status} === 'critical' }">`. This can be undesirable or even lead to errors, for example, if OData V4 automatically adds the correct type for the “status” property which is string-like, not boolean. In such cases, use the syntax `%{binding}` instead. It is just a shortcut for `${path : 'binding', targetType : 'any'}`. In rare cases, you might also want to specify a different “targetType”, for example “string”, “boolean”, “int” or “float”. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/docs/api/symbols/sap.ui.model.odata.type.html) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.ViewTemplate.types/preview) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
 
-> Note:  
+> ### Note:  
 > Expression binding can also be used with JavaScript. For example:
 > 
 > ``` js
@@ -52,7 +52,7 @@ The syntax of the `*expression*` is similar to JavaScript syntax, but you can on
 > new Icon({color : "'{= encodeURIComponent(${/ID}) }'"});
 > ```
 
-> Note:  
+> ### Note:  
 > An expression binding does **not** validate binding paths. As a result, an expression binding will **not** detect incorrect or misspelled binding paths. But if you use an OData V4 model and try to bind data that does **not** exist in the model, a warning is logged in the console.
 
 To embed a path containing a closing curly brace into an expression binding, use a complex binding syntax: `${path:'...'}`, for example `"{:= ${path:'target>extensions/[${name} === \'semantics\']/value'} === 'email'}"`. You can use this also to avoid variable replacement by build tools like Maven for special names like “Description” or “Name”.
@@ -154,7 +154,7 @@ string, for example `'foo'`
 		<tr>
 			<td>Member access operator with the `.` operator
 			</td>
-			<td>> Note:   > With these, you can use members and member methods on standard types such as string, array, number, and so on.
+			<td>> ### Note:   > With these, you can use members and member methods on standard types such as string, array, number, and so on.
  > Example: `${message>/}.length >0` or `${/firstName}.indexOf('S')`.
 			</td>
 		</tr>
@@ -166,7 +166,7 @@ Example:
 
 `• text="{= **Math.max\($\{/value1\}, $\{/value2\}, $\{/value3\}\)** }"`
 
- > Note:  
+ > ### Note:  
  > You can use functions that are available via global symbols, such as `Math.max(...)` or `isNaN(...)`.
 			</td>
 		</tr>
@@ -201,7 +201,7 @@ Example:
 
 ### Simple Example
 
-> Note:  
+> ### Note:  
 > With expression binding you only need the XML view but no controller logic.
 
 The following example shows how you use the custom formatter function to map an XML view to an expression binding in the XML view without controller logic.
@@ -247,7 +247,7 @@ When using expression binding, however, you only need the XML view without contr
 
 ```
 
-> Note:  
+> ### Note:  
 > Some symbols need to be escaped in XML views, for example `&&` needs to be escaped with `&amp;&amp;`
 
 ***
@@ -256,7 +256,7 @@ When using expression binding, however, you only need the XML view without contr
 
 With the expression syntax sketched above it is possible to create more complex expressions as shown in the examples below.
 
-> Note:  
+> ### Note:  
 > We recommend to use formatter functions instead of very complex and hard-to-read expressions. Some characters that are used by operators, however, need to be escaped in XML, for example the left angle bracket \(<\) and the ampersand \(&\). Escaping makes it more difficult to read the expression. To avoid escaping, use one of the following options:
 > 
 > -   Rephrase the expression to make it more readable, for example, use `a > b` instead of `b &lt; a`.

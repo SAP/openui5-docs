@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The basic template is intended for all developers who want to start developing their own OpenUI5 app from scratch.
 
-> Note:  
+> ### Note:  
 > This template does not include SAP Fiori launchpad \(FLP\) features and is intended for standalone use. If you want to convert it to a launchpad app you have to add some features manually, such as the *Save as Tile* feature.
 
    
@@ -47,7 +47,7 @@ An important best practice is to have unit and integration tests for your app. W
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
 
-    > Caution:  
+    > ### Caution:  
     > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
 -   **Basic Template**under [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html).

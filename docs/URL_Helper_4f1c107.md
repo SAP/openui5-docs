@@ -47,7 +47,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
     ```
 
 
-> Note:  
+> ### Note:  
 > -   iOS does **not** trigger a phone call if the phone number contains "\*" or "\#".
 > 
 > -   You can add multiple recipients for a text message in Android phones by separating recipient numbers with ";".

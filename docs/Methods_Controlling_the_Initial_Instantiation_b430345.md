@@ -41,7 +41,7 @@ You can use the following methods:
     ```
 
 
-> Note:  
+> ### Note:  
 > The configuration properties for a component, that is, the settings given in the constructor or the `sap.ui.core.Component.create` or `sap.ui.component` call, are not available in the `Init` and `createContent` methods. Use `componentData` instead. For more information, see [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create).
 
 You can also overwrite the getters and setters for component properties in the `Component.js` file.

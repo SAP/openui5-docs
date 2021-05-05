@@ -269,12 +269,12 @@ Setting up stashed-based lazy loading:
 
 This unstashes the content automatically as the user scrolls.
 
-> Note:  
+> ### Note:  
 > Subsections are required to have an ID when used with `ObjectPageLazyLoader`, otherwise the content doesn't become unstashed.
 
 The `ObjectPageLayout` control ensures that only the visible blocks and those next to them have loaded their data, but not the entire page. As the user scrolls or navigates within the page, new data is requested as needed.
 
-> Note:  
+> ### Note:  
 > Setting `enableLazyLoading` to `true` after the `ObjectPageLayout` has been instantiated doesn’t work, as all bindings are resolved by then.
 
 **Related Information**  

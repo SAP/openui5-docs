@@ -63,7 +63,7 @@ The following buttons are available in the dialog:
 
     All changes made by the end user are set back to the initial state.
 
-    > Note:  
+    > ### Note:  
     > The control only provides the visual representation of the table settings on the user interface. The consuming application must ensure the settings are actually changed in the table.
 
 

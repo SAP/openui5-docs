@@ -219,7 +219,7 @@ For more information and examples on the usage, see the [API Reference](https://
 			<td>Component card \(Experimental\)
 			</td>
 			<td>Displays multiple controls and is used as a custom approach for use cases which do not fit in other card types and structures. The content area of the unstructured content card can be moved to the top.
- > Note:  
+ > ### Note:  
  > In contrast to the other integration card types, the structure and behavior of the Component card are custom-definable and are following the established OpenUI5 Component model. For more information, see [Components](Components_958ead5.md).
 			</td>
 		</tr>
@@ -250,7 +250,7 @@ For more information and examples on the usage, see the [API Reference](https://
 	</tbody>
 </table>
 
-> Restriction:  
+> ### Restriction:  
 > -   The analytical card is using `sap.viz.ui5.controls.VizFrame` charts which are part of SAPUI5 and are not available in OpenUI5.
 > 
 > -   The timeline card is using the `sap.suite.ui.commons.Timeline` control which is part of SAPUI5 and is not available in OpenUI5.

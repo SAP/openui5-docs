@@ -128,7 +128,7 @@ The fallback locale `de` is applied if the current locale \(e.g. browser locale\
     ```
 
 
-> Note:  
+> ### Note:  
 > To skip the custom fallback locale, the empty string `""` can be configured as `fallbackLocale`.
 > 
 > If specified, the `fallbackLocale` must be present in the list of `supportedLocales`.

@@ -30,7 +30,7 @@ The screen reader software gets the information about the page directly from the
 
 Complex controls like pages, panels, and tables need a title to summarize the contents they hold. If you use the standalone `Title` control, make sure that it is associated with the element that needs the title.
 
-> Example:  
+> ### Example:  
 > ```
 > <mvc:View
 >       xmlns:mvc="sap.ui.core.mvc"
@@ -84,7 +84,7 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 
 For headings \(table toolbar, page header, form toolbar, panel toolbar\) the text should be in a `sap.m.Title` control \(make sure that it is associated with the element that needs the title and, if not, add the reference using `aria-labelledby`\).
 
-> Example:  
+> ### Example:  
 > ```
 > <mvc:View
 >       xmlns:mvc="sap.ui.core.mvc"
@@ -114,7 +114,7 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 
 When using the `Input` control, always provide a label \(make sure it is connected with the input\). You can also use the `description` property to add additional information. For the input, the description is usually used for showing the unit of measurement \(for example. "EUR"\).
 
-> Example:  
+> ### Example:  
 > ```
 > <mvc:View
 >    xmlns:l="sap.ui.layout"
@@ -149,7 +149,7 @@ In some cases, you may need to provide an empty option in a drop-down field such
 
 The labeling on the empty option will be read by the screen reader and the end user will be correctly informed about the semantics of the empty option.
 
-> Tip:  
+> ### Tip:  
 > The empty label *\(None\)* should always be the first item in the drop-down.
 
 ***
@@ -158,7 +158,7 @@ The labeling on the empty option will be read by the screen reader and the end u
 
 When using the `List` control with visible non-active info toolbar with plain text content, you need to associate the `aria-labelledby` of the list with the text content of the `infoToolbar` aggregation.
 
-> Example:  
+> ### Example:  
 > ```
 > ...
 > <List ariaLabelledBy="textInInfoToolbarId">
@@ -181,7 +181,7 @@ When using the `List` control with visible non-active info toolbar with plain te
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
--   > Note:  
+-   > ### Note:  
 > For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
 
 

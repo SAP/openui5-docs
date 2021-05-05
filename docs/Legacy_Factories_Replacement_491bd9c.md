@@ -380,7 +380,7 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 });
 ```
 
- > Caution:  
+ > ### Caution:  
  > Please make sure that you are correctly chaining to the `Fragment.load` Promise!
  > Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
 			</td>

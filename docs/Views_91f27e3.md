@@ -23,7 +23,7 @@ The following predefined view types are available:
 -   **HTML view** \(file or string in HTML format\)
 
 
-> Note:  
+> ### Note:  
 > We recommend to use XML views, because XML views force a clear separation of the UI definition from the application logic \(which has to be implemented in the controller\). This makes the code more readable and easier to support.
 > 
 > Therefore, we concentrate on XML views and only provide examples for XML views throughout this documentation.
@@ -36,7 +36,7 @@ The following predefined view types are available:
 
 A view can also be defined as [Typed View](Typed_View_e6bb33d.md) \(JS View\), representing its own class.
 
-> Note:  
+> ### Note:  
 > Typed views are available since OpenUI5 1.88
 
 **Related Information**  

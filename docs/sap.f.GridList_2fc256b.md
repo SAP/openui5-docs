@@ -56,7 +56,7 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
 -   `boxesPerRowConfig` allows the alignment and specification of the number of items in a row, depending on the browser viewport size.
 
 
-> Note:  
+> ### Note:  
 > -   The height of all items is set to the height of the highest item.
 > 
 > -   If the `boxWidth` property is set, `boxMinWidth` and `boxesPerRowConfig` properties are ignored. If the `boxMinWidth` property is set, `boxesPerRowConfig` property is ignored.

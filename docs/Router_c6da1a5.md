@@ -25,7 +25,7 @@ The `sap.f.routing.Router` has the following main differences to the `sap.m.rout
 -   The `sap.f.routing.Router` view loading is exclusively asynchronous.
 
 
-> Sample Code:  
+> ### Sample Code:  
 > A sample route of a `sap.f.routing.Router`-based app:
 > 
 > ```
@@ -41,7 +41,7 @@ The `sap.f.routing.Router` has the following main differences to the `sap.m.rout
 > }
 > ```
 
-> Sample Code:  
+> ### Sample Code:  
 > A sample of its targets definition:
 > 
 > ```

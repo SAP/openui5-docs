@@ -16,7 +16,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
 
     This sample binds a form to a certain sales order so that form elements can be bound to display or change single properties of the sales order.
 
-    > Note:  
+    > ### Note:  
     > Note that binding expressions can be complex so that they can take additional properties to specify the binding further in addition to the path:
     > 
     > ``` js

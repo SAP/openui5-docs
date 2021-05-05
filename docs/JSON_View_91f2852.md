@@ -37,7 +37,7 @@ The file looks as follows:
 
 Nest the JSON objects analogous to the nesting of OpenUI5 controls and add the property values as attributes. The syntax is the same as the syntax of a JSON constructor for any control.
 
-> Note:  
+> ### Note:  
 > You can use strings, Boolean values, and null in your JSON view.
 
 ***
@@ -81,7 +81,7 @@ Resource bundle content:
 MY_TEXT=Hello World
 ```
 
-> Example:  
+> ### Example:  
 > ``` js
 > {   "Type": "sap.ui.core.JSONView",
 >     "controllerName":"my.own.views.test",

@@ -33,7 +33,7 @@ As an application developer, you should always consider the fact that the applic
 -   `target-densitydpi`
 
 
-> Caution:  
+> ### Caution:  
 > Setting inappropriate values for these properties can completely disable the zooming of an application. Here is an example of such incorrect values:
 > 
 > ```

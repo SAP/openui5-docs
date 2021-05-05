@@ -20,7 +20,7 @@ The 3 main folders in an application are the `root` folder, the `webapp` folder 
 
  ![](loio088cd622186b47539d4e69cc745b0017_HiRes.png) 
 
-> Note:  
+> ### Note:  
 > The image above shows a screenshot taken from SAP Web IDE, and is only meant to serve as an example. This applies to all images contained within this topic.
 
 **The `root` Folder**
@@ -75,7 +75,7 @@ In the above example, `models.js` is a factory for creating models that are used
 
 We also have one dedicated folder for **localization** files. An OpenUI5 app will potentially be translated into many languages. Each of those languages has its own `.properties` file. Note that although the `ResourceModel` is an OpenUI5 model from a technical point of view, the localization folder is **not** part of the `model` folder. This is because the `.properties` files have a different semantic since they are used for translation. The code needed to instantiate the `ResourceModel` is located in the `model` folder. For more information about localization, see [Localization](Localization_91f217c.md). For more information about the `ResourceModel`, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html) in the Demo Kit.
 
-> Note:  
+> ### Note:  
 > The path to the `i18n` file must not exceed 100 characters.
 
 **The `localService` Folder**

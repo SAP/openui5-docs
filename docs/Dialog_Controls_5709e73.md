@@ -44,10 +44,10 @@ If the the control does NOT have an `aria-labelledby` attribute, the screen read
 
 The `title` property of a Popover/Dialog is used to display the title of the dialog. If the dialog has no visible title, but one is needed, it can be provided as a reference to another control in `aria-labelledby`. All other text that needs to be read before the title, can be added there as well.
 
-> Note:  
+> ### Note:  
 > A dialog without a title will be read completely when it appears. Users with screen readers will not be able to differentiate it from the rest of the application.
 
-> Example:  
+> ### Example:  
 > Dialog with `ariaLabelledBy` 
 > 
 > ```
@@ -135,7 +135,7 @@ In the following table you can see how the different dialog controls are read by
  -   Associated headings \(if any\)
 
 
- > Note:  
+ > ### Note:  
  > The *Close* button should not be read initially.
 			</td>
 		</tr>

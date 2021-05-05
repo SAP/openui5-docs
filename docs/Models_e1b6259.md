@@ -26,7 +26,7 @@ OpenUI5 provides the following predefined models. For an overview of the binding
 
 -   **OData model**: Enables binding of controls to data from OData services. The OData model supports two-way, one-way and one-time binding modes. However, two-way binding is currently only supported for properties, and not for aggregations.
 
-    > Note:  
+    > ### Note:  
     > The OData model currently supports the following OData versions:
     > 
     > -   OData V2

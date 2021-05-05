@@ -46,7 +46,7 @@ Set up your development environment and go through our tutorials. They introduce
 
 ***
 
-> Tip:  
+> ### Tip:  
 > **Learn with openSAP:**
 > 
 > The openSAP course [Developing Web Apps with SAPUI5](https://open.sap.com/courses/ui51) introduces you to the main concepts of SAPUI5.

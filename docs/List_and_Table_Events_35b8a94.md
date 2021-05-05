@@ -65,7 +65,7 @@ An example for `selectionChange` would look like this:
 …
 ```
 
-> Note:  
+> ### Note:  
 > Item press events are not fired for items that have the type `inactive`. As this is the default property of `listItemType`, change it to a different value if you want the event to be fired.
 > 
 > To test swipe gestures on desktop devices, open the Google Chrome developer tools, and within Settings → Overrides, check the "Emulate touch events" checkbox and reload the page.

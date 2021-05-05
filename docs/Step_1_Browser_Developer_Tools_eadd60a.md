@@ -22,7 +22,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
-    > Note:  
+    > ### Note:  
     > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).
 
 2.  Open the *Developer Tools* by pressing [F12\].
@@ -106,7 +106,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
     Examine the OpenUI5 structure by expanding it.
 
 
-> Note:  
+> ### Note:  
 > The method of retrieval is different for OpenUI5 controls and DOM elements:
 > 
 > | OpenUI5 Control
@@ -179,7 +179,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
     The message toast is now displayed on the web page with the following message: *"HeapOfShards---app--myButton" pressed* 
 
 
-> Note:  
+> ### Note:  
 > You can also use the *Pause on exception* button and select *Pause on caught exceptions* on the top right of the *Sources* tab to pause the execution before an exception occurs without setting breakpoints.
 
 ***

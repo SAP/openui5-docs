@@ -100,7 +100,7 @@ Error message: `Uncaught Error: failed to load 'sap/m/button.js'`
 	</tbody>
 </table>
 
-> Tip:  
+> ### Tip:  
 > Control tags always start with capital letters after the namespace like `<Button>`, `<l:FixFlex>`, `<f:SimpleForm>`.
 > 
 > Aggregations always start with lowercase letters like `<content>`, `<l:fixContent>`, `<f:content>`

@@ -42,7 +42,7 @@ After reloading the page, in the *Network* tab of the browser’s developer tool
 
 Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type the name of an OpenUI5 artifact to view its source code in debug mode.
 
-> Note:  
+> ### Note:  
 > Turning on debug sources also increases the log level. For more information, see [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 > 
 > To improve performance, you must deactivate the debug sources once you're done with debugging.

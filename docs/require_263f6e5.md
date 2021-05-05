@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The `template:require` attribute can be used at the root element of an XML template view or fragment. You can specify a list of required modules as Unified Resource Names, similar to `sap.ui.require`, and assign aliases to them using a JSON-like syntax. The aliases can then be used to access the modules in the same way `<template:alias>` works. \(This requires that the view is loaded asynchronously.\)
 
-> Note:  
+> ### Note:  
 > The aliases can be used for formatter references \(first `text` element in the code sample\) as well as for function calls inside an expression binding \(second `text` element in the code sample\).
 
 ***

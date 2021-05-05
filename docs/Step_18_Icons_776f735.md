@@ -62,7 +62,7 @@ You can view and download all files at [Walkthrough - Step 18](https://openui5.h
 
 We add an icon to the button that opens the dialog. The `sap-icon://` protocol is indicating that an icon from the icon font should be loaded. The identifier `world` is the readable name of the icon in the icon font.
 
-> Tip:  
+> ### Tip:  
 > You can look up other icons using the *Icon Explorer* tool in the Demo Kit.
 > 
 > To call any icon, use its name as listed in the *Icon Explorer* in `sap-icon://*<iconname\>*`.

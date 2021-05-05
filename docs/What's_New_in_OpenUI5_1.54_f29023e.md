@@ -98,16 +98,16 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
 -   It is now possible to request the `x-csrf` token and the root metadata document earlier. This is controlled by model parameter [`earlyRequests`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
 
-    > Note:  
+    > ### Note:  
     > The default value of `earlyRequests` is **false** and this default may change in the future.
 
 -   Action advertisements can be accessed in bindings by specifying `#<namespace>.<action>` 
 
-    > Note:  
+    > ### Note:  
     > The previous method for metadata access is still available, but we recommend using a double hash \(\#\#\) syntax instead.
 
 
-> Restriction:  
+> ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
@@ -118,7 +118,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 A new default font, the 72 font family that offers some legibility and accessibility enhancements, has been implemented.
 
-> Note:  
+> ### Note:  
 > Make sure the settings in your application are correct and comply with the new font, for example, texts are placed correctly and fonts are used consistently.
 
 ***
@@ -208,7 +208,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
     -   With the use of the new `stickyHeader` property, you can now enable the header area to remain visible \(fixed on top\) when the rest of the content is scrolled out of view. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarWithStickyHeader/preview).
 
-        > Restriction:  
+        > ### Restriction:  
         > There is limited browser support, hence the `stickyHeader` API is in experimental state. This API should not be used in a production environment.
 
     -   Until now, the appointments in `sap.m.PlanningCalendar` were sorted vertically according to their duration with the longer ones being on top. With the introduction of the new API method `setCustomAppointmentsSorterCallback`, you can now sort the appointments in a custom way. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarOneLine/preview).

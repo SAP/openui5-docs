@@ -51,21 +51,21 @@ To drag an HTML element in HTML5, the draggable attribute must be set to `true`.
 
 When the dragging of an HTML element has started, the `DragAndDrop` handler determines the responsible control and its relevant `DragInfo` class using the related `dragDropConfig` aggregation of the control. Between the pre- and post-processing of the `dragStart` event, owners of a control can decide whether to allow the dragging in their `ondragstart` handler.
 
-> Note:  
+> ### Note:  
 > Calling the `preventDefault` method on the `dragStart` event stops the dragging.
 
 After that, the `dragStart` event is fired by the related `DragInfo` class of the control. At this point, application developers can change the default to prevent the dragging. Also, the drag session is now available and can be used to transfer data or to provide the custom dragging ghost element. After everything has been defined, the user can start dragging the control.
 
 During the dragging and after the `dragEnter` event has been fired on an HTML element, the `DragAndDrop` handler determines the responsible control and its relevant `DropInfo` class using the related `dragDropConfig` aggregation of the control. Between the pre- and post-processing of the `dragEnter` event, the owner of a control can decide whether to allow the dropping in their `ondragenter` handler.
 
-> Note:  
+> ### Note:  
 > Marking the `dragEnter` event with the `NonDroppable` key \(using the `setMark` method\) prevents the dropping.
 
 After that, the `dragEnter` event is fired from the relevant `DropInfo` class of the control. At this point, application developers can change the default to prevent the dropping. If dropping is not allowed, the user will see a non-droppable cursor. If dropping is allowed, the user will see a droppable cursor and the drop indicator depending on the `dropPosition`, `dropLayout`, and `dropEffect` properties of the first relevant `DropInfo` class of the control.
 
 If `dragEnter` is allowed, the user can now drop an object by releasing the mouse. After that, the `drop` event gets fired for further implementation.
 
-> Note:  
+> ### Note:  
 > The `DragAndDrop` handler does not provide any default drop handler implementation. This is up to the application developers.
 
 **Related Information**  

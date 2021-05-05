@@ -49,7 +49,7 @@ Most bread-and-butter controls are located in the `sap.m` namespace, which makes
 -   Use self-closing XML tags for controls that don't define any aggregations.
 
 
-> Tip:  
+> ### Tip:  
 > Samples may contain more code that you actually need. When you copy code from a sample, it's best to remove all properties that won't be used in your views.
 
 ``` xml

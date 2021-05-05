@@ -39,7 +39,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 You can switch on the High Contrast Black theme by appending the `sap_fiori_3_hcb` URL parameter as in the following example.
 
-> Example:  
+> ### Example:  
 > HCB Theme Enablement
 > 
 > `http://<hostname>:<port>...?<parameter>=<value>&...&**sap\_fiori\_3\_hcb**`
@@ -50,12 +50,12 @@ You can switch on the High Contrast Black theme by appending the `sap_fiori_3_hc
 
 You can switch on the High Contrast White theme by appending the `sap_fiori_3_hcw` URL parameter as in the following example.
 
-> Example:  
+> ### Example:  
 > HCW Theme Enablement
 > 
 > `http://<hostname>:<port>...?<parameter>=<value>&...&**sap\_fiori\_3\_hcw**`
 
-> Note:  
+> ### Note:  
 > Have in mind that OpenUI5 is not optimized for the high contrast mode of Windows. You will have to enable the HCB or HCW theme as described above. Occasionally, if you have enabled both the Windows contrast setting and the OpenUI5 high contrast theme, this may cause conflicts and deficiencies in the theme can occur. In such cases, please switch off the Windows setting.
 
 **Related Information**  

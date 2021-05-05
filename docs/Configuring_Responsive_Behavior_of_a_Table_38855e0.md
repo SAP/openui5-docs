@@ -43,6 +43,6 @@ And that's it! All you need to know are these two variables for responsive table
 -   *Quantity*, *Unit Price* and *Final Price* columns should go into our pop-in, so our break point is still `minScreenWidth : "Small"` but now with `demandPopin : true` to show the column in a pop-in.
 -   For example: On tablets and wider devices we'll have more space available, so we can show the *Final Price* column, but we'll revert to a pop-in for smaller devices. So here our break point should be `minScreenWidth : "Tablet"` and `demandPopin : true`.
 
-> Note:  
+> ### Note:  
 > Please note that in order to have a valid table design, at least one column should always be visible and should **not** go to the pop-in.
 

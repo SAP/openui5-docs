@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Preprocessing intructions are processed by the XML preprocessor when it traverses the view's `XML DOM`.
 
-> Note:  
+> ### Note:  
 > A model name can be seen as a variable with a value that consists of two parts: a model instance and a binding context path.
 
 You can base conditions on the available variables. XML attributes that represent an available binding are replaced automatically.

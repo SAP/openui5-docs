@@ -20,7 +20,7 @@ The goal of these controls is to ensure consistency of the user interfaces in th
 
  ![](loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool") 
 
-> Note:  
+> ### Note:  
 > This set of controls described in this article has been designed exclusively for the SAP tool landscape for the SAP Business Technology Platform.
 > 
 > Do not use these controls in regular SAP Fiori applications. This highly specialized set of controls targets the specific needs of the tools user group \(typically developers and administrators\).

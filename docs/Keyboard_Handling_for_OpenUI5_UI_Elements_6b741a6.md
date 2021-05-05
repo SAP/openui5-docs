@@ -50,7 +50,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			<td>Triggers an action \(reversible\)
 			</td>
 			<td>Pressing and releasing the key triggers the action that is associated with a UI element \(for example, open a link or toggle a button\).
- > Tip:  
+ > ### Tip:  
  > If you press and hold the key, you can cancel the trigger action by pressing [Shift\].
 			</td>
 		</tr>
@@ -76,7 +76,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			<td>Navigates between elements
 			</td>
 			<td>You can move the selection to the first/last element within a set of elements.
- > Tip:  
+ > ### Tip:  
  > When using UI elements like sliders and rating indicators, pressing these keys will set the selected value to the maximum/minimum respectively.
 			</td>
 		</tr>
@@ -194,7 +194,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 			<td>Exits edit mode
 			</td>
-			<td>> Note:   > Pressing [F7\] again will move focus back to the editable element.
+			<td>> ### Note:   > Pressing [F7\] again will move focus back to the editable element.
 			</td>
 		</tr>
 	</tbody>

@@ -136,7 +136,7 @@ oRouter.attachTitleChanged(function(oEvent) {
 });
 ```
 
-> Note:  
+> ### Note:  
 > You don't need this event in the SAP Fiori launchpad. The title is updated automatically.
 
 ***

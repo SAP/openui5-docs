@@ -22,7 +22,7 @@ With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
 The OpenUI5 framework now allows you to run applications in an environment in which CSP has been enabled. Inline scripts are not required anymore, but you must still allow `eval()` for OpenUI5 to run. For details about the supported policies, and for recommendations on writing CSP-compliant applications, see [Content Security Policy](Content_Security_Policy_fe1a6db.md).
 
-> Note:  
+> ### Note:  
 > An application needs to be prepared to the used policy to run in a CSP-enabled environment.
 
 |
@@ -72,7 +72,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 Note that we have introduced this change to support message processing.
 
-> Restriction:  
+> ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
 |

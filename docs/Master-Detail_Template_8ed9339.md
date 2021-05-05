@@ -14,7 +14,7 @@ The **SAP Fiori Master-Detail Application** template implements a flexible colum
 
 The flexible column layout is a layout control that displays multiple floorplans on a single page. This allows faster and more fluid navigation between multiple floorplans than the usual page-by-page navigation. The flexible column layout offers different layouts with up to three columns. In the template, we use two colums \(master and detail\). For more information about flexible columns and master-detail apps, see the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-> Note:  
+> ### Note:  
 > You have two options: You can use this template to build an **app for the SAP Fiori launchpad \(FLP\)** or to build **standalone apps**.
 > 
 > -   If the app runs in FLP it also contains additional features like *Save as Tile* or *Share in SAP Jam* that depend on FLP at runtime. This app cannot be run standalone, meaning no `index.html` file is created but only files for testing the app in the FLP sandbox.
@@ -37,7 +37,7 @@ The master list and the line item table are set to `growing` mode so that initia
 
 We use the semantic `MasterPage` and `DetailPage` controls for the content aggregations of the `sap.f.FlexibleColumnLayout` control. A `SemanticPage` is an enhanced `sap.f.DynamicPage` that contains controls with semantic-specific meaning and displays them according to the SAP Fiori design guidelines. For more details about semantic controls, see the [sample](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage/samples) in the Demo Kit.
 
-> Note:  
+> ### Note:  
 > As the use cases for apps using a master-detail pattern differ greatly, we only show a basic scenario in our template as a starting point for your individual development activities. For more information, see [How Do I Enhance the Template?](Master-Detail_Template_8ed9339.md#loio8ed9339f3a99418e82a02f0fb4b5d6b9__section_EnhanceTemplate)
 
 ***
@@ -50,7 +50,7 @@ We use the semantic `MasterPage` and `DetailPage` controls for the content aggre
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
 
-    > Caution:  
+    > ### Caution:  
     > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
 -   **Master-Detail Template** under [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html).

@@ -18,12 +18,12 @@ There are a few things to keep in mind when defining the width of the column:
 
 -   Leave the most important column's width empty or set it to `auto` if your table contains columns that have the `demandPopin` property enabled.
 
-    > Tip:  
+    > ### Tip:  
     > Let's say you have a 100%-width table with four columns, each of which has a width of 200px and a viewport that is 800px wide. If you resize the viewport to 500px, you can still show two columns while the remaining two columns are rendered as pop-ins. The total width of the two main columns is 400px. However, the viewport is then 500px, and the table is 100%. In that case the browser takes over handling this. If you configure `Selection` or `Navigation`, these are also rendered as columns. The width of these columns is then also changed by the browser, which can lead to unexpected results. So the best solution is leaving the most important column's width empty \(or set to `auto`\) so it can take up as much space as it needs. In our example, this will be 300px.
 
 -   Do not use percentage values for the width of all columns even if this adds up to 100% of the total column width.
 
-    > Tip:  
+    > ### Tip:  
     > What if there is a `Selection` \(3rem width\), `Navigation` \(3rem width\), or `Deletion` \(3rem width\)? In this case, the total width would be 100% plus 6rem. If the total width is less than 100%, for example, one column with 20% and the other column with 40%, the total width would be 60% plus 6rem. By default, `Table` itself is in fixed layout mode and has a width of 100%. The browser needs to split up the width as it does not fit a 100% width. In some cases, browsers might handle this correctly, but you should avoid it. As mentioned, leaving the most important column width empty or set to `auto` fixes this problem because then the column will be flexible and cover the available space.
 
 

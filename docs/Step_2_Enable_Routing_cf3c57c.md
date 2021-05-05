@@ -95,7 +95,7 @@ Single-page applications based on OpenUI5 can use a so-called “router” to di
 
     This section contains the global router configuration and default values that apply for all routes and targets. The property `routerClass` is special as it determines the router implementation. The default value is `sap.ui.core.routing.Router`. Here, we set the `routerClass` to `sap.m.routing.Router`, because we implement an app based on `sap.m`. All other properties in `config` are given to the router instance. For example, we define where our views are located in the app. To load and display views automatically, we also specify the `controlId` of the control that is used to display the pages and the aggregation \(`controlAggregation`\) that will be filled when a new page is displayed. We will create only XMLviews in this tutorial, so we can set the `viewType` property to `XML`. All our views will be available in the `view` folder of the namespace `sap.ui.demo.nav`, so we can set the `viewPath` to `sap.ui.demo.nav.view`. The `transition` allows us to set a default value for how the transition should happen; you can choose between `slide` \(default\), `flip`, `fade`, and `show`. All parameters of the config section can be overruled in the individual route and target definitions if needed.
 
-    > Note:  
+    > ### Note:  
     > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclasses of `sap.ui.core.routing.Router`. Compared to `sap.ui.core.routing.Router` the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `viewLevel`, `transition` and `transitionParameters` which can be specified for each route or target created by the `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. Please check the *API Reference* for more information.
 
 -   `routes`
@@ -109,7 +109,7 @@ Single-page applications based on OpenUI5 can use a so-called “router” to di
     This basic routing configuration was easy enough. However, you can’t see it in action until you have initialized the router.
 
 
-> Note:  
+> ### Note:  
 > As of OpenUI5 version 1.30, we recommend that you define the routing in the `manifest.json` descriptor file using routes and targets. In older versions of OpenUI5, the routing configuration had to be done directly in the metadata section of the component, and with different syntax.
 
 ***
@@ -198,7 +198,7 @@ Create a file `Home.view.xml` in the `webapp/view` folder. The home view only co
 
 Create a file `Home.controller.js` in the `webapp/controller` folder. The controller for the home view does not contain any custom logic in this step, but we will add some features to it soon. Finally, run the app by calling the `webapp/index.html` file. This will be the entry point for our app in all the next steps. As you can see, the app is initially displaying the home view that we configured as the default pattern in the routing configuration. We have now successfully enabled routing in the app.
 
-> Note:  
+> ### Note:  
 > We think of routing as a set of features that dispatch hash-based URLs to an app's views and manage the views' states.
 > 
 > Based on the routing configuration, you define the navigation between pages and pass parameters to the target views.

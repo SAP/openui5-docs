@@ -89,12 +89,12 @@ The OData V4 model automatically puts all non-GET requests into a single change 
 
 You can set an update group ID for a binding so that property changes are collected in a batch queue. The `ODataModel.submitBatch` method sends all these changes for a given batch group at once and the `ODataModel.resetChanges` method resets the changes. With these methods, you can, for example, implement a *Save* and a *Cancel* button for a form: *Save* triggers `submitBatch`, and *Cancel* triggers *resetChanges*.
 
-> Note:  
+> ### Note:  
 > The `resetChanges` method only resets all implicit update requests via two-way binding for the given group, while read requests or requests from `ODataContextBinding.execute` remain in the queue and are sent when the `submitBatch` method is called.
 
 The list and context binding also offer the `resetChanges` method which resets changes for the binding and its child bindings.
 
-> Note:  
+> ### Note:  
 > The promise returned by `submitBatch` can be used together with the `hasPendingChanges` method to check whether changes were successfully persisted. `hasPendingChanges` exists for the ODataModel as well as for ODataListBinding, ODataContextBinding and ODataPropertyBinding. Note that the promise returned by `submitBatch` is only rejected if the complete batch request has failed.
 
 ***
@@ -158,7 +158,7 @@ On construction of the model, it is possible to specify the submit mode for appl
 
 The following example shows how to set the submit mode `sap.ui.model.odata.v4.SubmitMode.Auto` for the group IDs `fastGroup` and `slowGroup` in the manifest.
 
-> Example:  
+> ### Example:  
 > Specify the submit mode for an application group in manifest.json
 > 
 > ```

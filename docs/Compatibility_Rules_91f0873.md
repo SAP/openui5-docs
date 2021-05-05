@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
 
-> Caution:  
+> ### Caution:  
 > As an app developer, **never** do the following:
 > 
 > -   Never manipulate HTML/CSS via JavaScript \(`domRef.className = "someCSSClass";`\) or directly via CSS, for example. Always follow our recommendations under [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md).
@@ -35,7 +35,7 @@ The following rules apply for introducing new APIs or making incompatible change
 
 **Patch release** \(x.yy.**zz**\): A new patch version only contains fixes to the existing implementation, but does not usually contain new features or incompatible API changes.
 
-> Note:  
+> ### Note:  
 > Exceptions to these rules are possible, but only in very urgent cases such as security issues. Such exceptions are documented in the [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
 
 ***
@@ -161,7 +161,7 @@ If you want to use the third-party open source libraries included in OpenUI5, no
 -   The third-party libraries are provided "as is". Extensions, adaptations, and support are not performed or provided by SAP.
 
 
-> Note:  
+> ### Note:  
 > Do not use different versions of these libraries as this might lead to unforeseen side effects..
 
 For a list of the third-party open source software used in OpenUI5, choose *More Information* → *About* and select the *Included Third-Party Software* link.

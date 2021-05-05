@@ -30,7 +30,7 @@ Two scenarios are supported:
 
 -   You can provide properties for grouping and aggregation. An appropriate system query option `$apply` is derived from those. The list binding then still provides a flat list of contexts \("rows"\), but with additional aggregated properties \("columns"\). In addition, you can request grand total values for aggregatable properties. In this case, an extra row appears at the beginning of the flat list of contexts that contains the grand total values, as well as empty values for all other properties.
 
-    > Sample Code:  
+    > ### Sample Code:  
     > **Example XML View With Grand Total**
     > 
     > ``` js
@@ -69,7 +69,7 @@ Two scenarios are supported:
 
     Group levels cannot be combined with the system query option `$count : true` and can only be combined with filtering before the aggregation \(see below\). Note how an `$orderby` option can address groups across all levels. For every aggregatable property, you can request subtotals and a grand total individually.
 
-    > Sample Code:  
+    > ### Sample Code:  
     > **Example XML View With Hierarchy**
     > 
     > ``` js

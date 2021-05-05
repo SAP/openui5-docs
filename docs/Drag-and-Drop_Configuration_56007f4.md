@@ -20,7 +20,7 @@ To use drag and drop, you have to provide the required configuration using the `
 
 The `dragDropConfig` aggregation with multiplicity `0..n` is enabled for all controls and elements in OpenUI5. However, it has to be defined in the metadata first.
 
-> Note:  
+> ### Note:  
 > This configuration might be ignored due to metadata restrictions of `sap.ui.core.Element.extend`. For more information, see the [API Reference: `sap.ui.core.Element.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend). 
 
 To enable configuration, the following configuration entities for the aggregation are available:

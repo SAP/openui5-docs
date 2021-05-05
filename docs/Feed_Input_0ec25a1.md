@@ -45,7 +45,7 @@ The `sap.m.FeedInput` control allows users to enter and send plain text. It comp
 
 The `sap.m.FeedInput` control can be used in combination with the `sap.m.FeedListItem` control as a feed or notes control. For more information, see the [Feed List Item](Feed_List_Item_14a9900.md) control documentation.
 
-> Note:  
+> ### Note:  
 > If you need only one single text box instance, use the `sap.m.TextArea` control for multi-line text. For more information, see the [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.TextArea/samples) in the Demo Kit.
 > 
 > Or you use the `sap.m.Text` control for single-line text. For more information, see the [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Text/samples) in the Demo Kit.

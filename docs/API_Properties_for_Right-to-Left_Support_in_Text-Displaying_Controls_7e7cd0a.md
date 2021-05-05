@@ -73,7 +73,7 @@ And here is how it looks on the screen:
 
 ![](loio402f39d2eb92465b9dfc16124339c897_HiRes.png)
 
-> Tip:  
+> ### Tip:  
 > To ensure that your application displays the data correctly, always test your application using RTL mode and real data.
 
 Check the API Reference to see if your controls have these properties implemented.

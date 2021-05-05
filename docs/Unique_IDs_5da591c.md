@@ -24,7 +24,7 @@ The basic principle is as follows: When a control ID is defined, declarative vie
 
 To get rid of the prefixes, the instance method `View.byId()` can be used with the static method `sap.ui.core.Fragment.createID()` if required, that is, if a fragment added a prefix.
 
-> Note:  
+> ### Note:  
 > Do **not** rely on the specific prefixing syntax because it may change at some point. Always use methods like `byId()` and `createId()`.
 
 **Related Information**  

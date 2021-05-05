@@ -20,14 +20,14 @@ The Support Assistant can be used as part of an existing OPA test to cover more 
 
     -   `failOnHighIssues (boolean)` - Determines if the assertion should fail if issues of severity type *high* are found. Warning - this parameter will ignore issues of severity types: *medium* and *low*.
 
-        > Note:  
+        > ### Note:  
         > This parameter overrides `failOnAnyIssues`.
 
     -   `rules (Array)` - Determines a subset of rules to check. By default if this property is not set, all rules are checked. The rules have two properties `libName` \(for example, `sap.ui.core`\) and `ruleId` \(for example, `orphanedElement`\).
 
     -   `executionScope (Object)` - The execution scope defines the scope of the analysis. Can be of type *global*, *subtree*, *components*.
 
-        > Note:  
+        > ### Note:  
         > If types *subtree* or *components* are selected, the `selectors` property should also be set to define the IDs of the subtree/components.
 
 -   `getFinalReport` - If there are issues found, the assertion fails and a report is created as part of the message of that assertion.
@@ -41,7 +41,7 @@ In addition, if you pass `sap-skip-rules-issues=true` as a URL parameter to your
 
 This special URL parameter could be used temporarily in cases when you extend an existing OPA test to run the Support Assistant rule checks initially but you don’t want the entire OPA journey to fail immediately. After you gain experience and clean up any check issues, you can set it to `false` or omit passing it and use once again the desired `onError` behavior.
 
-> Note:  
+> ### Note:  
 > When the `sap-skip-rules-issues` URL parameter is set, it affects all tests globally, unlike the `FailOnAnyIssues` parameters, which only affect a specific test level.
 
 ***
@@ -128,7 +128,7 @@ This special URL parameter could be used temporarily in cases when you extend an
     
     ```
 
-    > Note:  
+    > ### Note:  
     > Put these assertions after the web page being tested has been rendered and displayed with a stable UI.
 
 4.  Repeat the extended OPA test and see how your specific Support Assistant assertions are triggered.

@@ -74,7 +74,7 @@ Up to version 1.52, only `sap.uxap.ObjectPageHeader` could have been used to bui
 			<td> `headerContent` \(0..n\)
 			</td>
 			<td>An array of arbitrary controls.
- > Note:  
+ > ### Note:  
  > `sap.uxap.ObjectPageHeaderContent` control is used internally to display the controls.
 			</td>
 		</tr>
@@ -121,7 +121,7 @@ As of version 1.52, a new `sap.uxap.ObjectPageDynamicHeaderTitle` control can be
 			<td> `headerContent` \(0..n\)
 			</td>
 			<td>An array of arbitrary controls.
- > Note:  
+ > ### Note:  
  > `sap.uxap.ObjectPageDynamicHeaderContent` control is used internally to display the controls.
 			</td>
 		</tr>

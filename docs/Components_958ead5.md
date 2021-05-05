@@ -14,7 +14,7 @@ Components are independent and reusable parts used in OpenUI5 applications.
 
 An application can use components from different locations from where the application is running. Thus, components can be developed by different development teams and be used in different projects. Components also support the encapsulation of closely related parts of an application into a particular component. This makes the structure of an application and its code easier to understand and to maintain.
 
-> Note:  
+> ### Note:  
 > Constraints due to cross-origin issues also apply to components.
 
 OpenUI5 provides the following two types of components:
@@ -44,7 +44,7 @@ A component is organized in a unique namespace, the namespace of the component e
 
 Basically, a component consists of the component controller \(`Component.js`\) and a descriptor \(`manifest.json`\). Only the component controller is mandatory, but we recommend to also use the descriptor file. The descriptor then contains the component metadata, and also expresses the component dependencies and configuration \(see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)\). All required and optional resources of the component have to be organized in the namespace of the component.
 
-> Note:  
+> ### Note:  
 > Optional resources are, for example, `CSS`, `js`, or `i18n` files, views, and controllers.
 
 The following figure gives an example of a component folder structure.

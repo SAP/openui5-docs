@@ -245,7 +245,7 @@ In `_onRouteMatched` we call `bindElement()` on the view to make sure that the d
 
 We also add an event handler to the `change` event as a private function `_onBindingChange`. It checks if the data could be loaded by querying the binding context of the view. As seen in the previous steps, we will display the `notFound` target if the data could not be loaded.
 
-> Note:  
+> ### Note:  
 > Instead of calling `attachMatched(…)` on a route we could also call `attachRouteMatched(…)` directly on the router. However, the event for the latter is fired for every matched event of any route in the whole app. We don’t use the latter because we would have to implement an additional check for making sure that current route is the route that has been matched. We want to avoid this extra overhead and register on the route instead.
 
 ***

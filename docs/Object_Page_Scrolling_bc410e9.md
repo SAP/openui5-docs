@@ -26,7 +26,7 @@ By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` w
 
 This behavior can be altered. Setting the property `alwaysShowContentHeader` to `true` will prevent the `headerContent` from snapping.
 
-> Note:  
+> ### Note:  
 > This property only affects desktop environments.
 
 ***

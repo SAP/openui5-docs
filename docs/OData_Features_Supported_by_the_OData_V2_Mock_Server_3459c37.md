@@ -14,7 +14,7 @@ List of OData version 2.0 features supported or not supported by the mock server
 
 The mock server only supports the JSON format for representing the resources it exposes, such as collections, entries, and links.
 
-> Restriction:  
+> ### Restriction:  
 > The mock server cannot mock more than one service per application.
 
 The following table lists the OData features that are supported by the mock server.

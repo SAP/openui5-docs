@@ -70,7 +70,7 @@ Lists appear in the toolbar in ascending order according to sequence \(assuming 
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > The list of properties is not complete. For a complete list, refer to the API documentation.
 
 ***
@@ -108,7 +108,7 @@ If `key` is not set, `text` is used as the key value.
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > You must either set the `text` or the `key` property. Otherwise, the facet filter list can not properly maintain the selected state of the item and an error message is logged to the console.
 
 ***
@@ -147,6 +147,6 @@ var oFacetFilter = new sap.m.FacetFilter({ // define FacetFilter Control
 
 ```
 
-> Note:  
+> ### Note:  
 > The example does not have a model binding. A binding to the filter items is required for the search.
 

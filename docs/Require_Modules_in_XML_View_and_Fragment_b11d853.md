@@ -24,14 +24,14 @@ The `require` attribute with namespace URI `sap.ui.core` can be used to define t
 </mvc:View>
 ```
 
-> Note:  
+> ### Note:  
 > The modules defined in the `core:require` attribute are loaded first before any other attributes of the element with `core:require` are processed. Therefore, they can be used in the same element for bindings, event handlers, and so on.
 
 `core:require` can only handle static imports which require the module path to be defined by using a string literal. It is not possible to use a binding or an expression for defining the module path. As `core:require` is not interpreted as a binding expression, it is not necessary to escape the curly braces in `core:require` which is different than in the other attributes.
 
 The aliases can then be used to access the modules' static functions. The alias is valid for the element where the alias is defined and the subtree of that element.
 
-> Note:  
+> ### Note:  
 > When you use the view in combination with fragments, keep in mind that the alias does not work in embedded fragments. In this case, define a separate `core:require` inside the fragments.
 
 ***
@@ -53,7 +53,7 @@ You can use the XML `require` to reference static functions of a module which ca
 </mvc:View>
 ```
 
-> Note:  
+> ### Note:  
 > `$controller`, `$event`, `$parameters`, and `$source` are reserved keywords for resolving an event handler. Avoid using these keywords as aliases for the required modules with `core:require`.
 
 ***

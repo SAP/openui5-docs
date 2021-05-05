@@ -185,7 +185,7 @@ The Support Assistant API allows you to:
               });
         ```
 
-        > Note:  
+        > ### Note:  
         > You can get the preset definition from an available `JSON` file and pass it as a second parameter of the `analyze` function instead of defining it in your code.
 
     -   Here is an example of running an analysis by using a **system preset**:

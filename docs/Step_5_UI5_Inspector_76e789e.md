@@ -21,7 +21,7 @@ In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in s
 -   Which data is bound to a specific control and how \(model and path\)?
 
 
-> Note:  
+> ### Note:  
 > UI5 Inspector is only available for the Google Chrome browser.
 
 ***

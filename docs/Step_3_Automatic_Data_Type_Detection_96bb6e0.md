@@ -77,7 +77,7 @@ In the `manifest.json` descriptor file, we add the `"handleValidation": true` se
 
 We now run the app using the `index.html` file and enter values that don't match the type and constraints given in the metadata file. For example, enter the string value ***Young at Heart*** in field *Age*, which requires an integer input \(OpenUI5 type `sap.ui.model.odata.type.Int64`, corresponding to OData type `Edm.Int64`\), or remove an entry from the *User Name* or *First Name* fields, which are mandatory. Fields with incorrect entries are highlighted and an error message is displayed.
 
-> Note:  
+> ### Note:  
 > If you explicitly define a type in the binding info of a control, the automatic type detection for that binding will be turned off. For example, if you change the `Input` for `Age` in the view to `<Input value="{path:'Age', type:'sap.ui.model.type.String'}/>`, the `String` type will be used, not the `Int64` type from the service metadata.
 
 ***
@@ -105,7 +105,7 @@ To make the *First Name* optional, we remove the parameter `Nullable="false"` fr
 
 ***
 
-> Tip:  
+> ### Tip:  
 > To see the metadata of an OData service, you append the `$metadata` variable to the URL of the service. You can try this, for example, with [http://services.odata.org/TripPinRESTierService/](http://services.odata.org/TripPinRESTierService/) and [http://services.odata.org/TripPinRESTierService/$metadata](http://services.odata.org/TripPinRESTierService/$metadata)
 
 **Related Information**  

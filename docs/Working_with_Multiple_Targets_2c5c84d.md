@@ -32,7 +32,7 @@ Whenever a target has a parent, an instance of the parent is always created befo
 
 A parent relationship between targets tightly couples the two targets together. The parent target is always displayed before the child target is displayed. The child target can't be displayed without first displaying the parent target. This approach is mainly used when the view in the child target is added to an aggregation of the view in the parent target.
 
-> Note:  
+> ### Note:  
 > There is also a `parent` property for the `route`. This property is only used when its parent exists in a parent component of the current component \(see [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md)\). For all other types of parent-child relationships, either use multiple targets or a parent relationship in targets.
 
 ***

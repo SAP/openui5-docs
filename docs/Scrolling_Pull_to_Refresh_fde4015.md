@@ -31,7 +31,7 @@ var pullToRefresh = new sap.m.PullToRefresh({ description: getLastUpdatedTime(),
 
 The application should request new data on the refresh event and call the hide method when the data is received and the list is refreshed. You can provide a URL to a custom logo image with customIcon or switch display of logo of by setting showIcon to false. The first line of text "Pull to refresh" is standard and cannot be changed. However, you may set an optional description text to display, for example, the last update time.
 
-> Note:  
+> ### Note:  
 > `PullToRefresh` control is part of the scroll area and therefore its height is reflected in the scroll bar calculation and display. The user can see that the page can be scrolled down to reveal the pull-down area.
 
 ***

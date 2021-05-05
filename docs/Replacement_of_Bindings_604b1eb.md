@@ -124,7 +124,7 @@ This example formatter opts to the extended signature \(see line 51\), which pro
 
 The delegation to `sap.ui.model.odata.AnnotationHelper#format` provides the raw value we already have at hand, even for root level calls \(see comment in line 42\).
 
-> Note:  
+> ### Note:  
 > The custom formatter function needs to be accessible globally, because XML templating cannot call formatter functions inside the view's controller. This controller does not yet exist at the time of preprocessing. However, it is not sufficient to simply put it into window \(see line 8\). You must put it into your own namespace.
 
 The example formatter has the following output:
@@ -135,7 +135,7 @@ The example formatter has the following output:
 <Text text="[Customer] {CustomerName}"/>
 ```
 
-> Note:  
+> ### Note:  
 > The colon \(":"\) is taken over literally from the first composite binding which consists of two bindings separated by a string literal.
 
 ***

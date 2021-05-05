@@ -186,7 +186,7 @@ The following requirements that are optional:
 
 -   The test code no longer uses sync APIs.
 
-    > Note:  
+    > ### Note:  
     > This will become a mandatory requirement for CSP level 2 policy as sync code loading always requires a kind of `eval`.
 
 

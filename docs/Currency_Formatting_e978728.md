@@ -44,7 +44,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 });
 ```
 
-> Note:  
+> ### Note:  
 > All code examples are based on locale English. If no locale is defined explicitly on the currency formatter instance, the locale setting of the configuration is used.
 
 For more information, see [getCurrencyInstance](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/sap.ui.core.format.NumberFormat.getCurrencyInstance).

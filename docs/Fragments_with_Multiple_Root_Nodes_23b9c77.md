@@ -39,6 +39,6 @@ As XML documents need to have exactly one root node, to achieve XML fragments wi
 </core:FragmentDefinition>
 ```
 
-> Note:  
+> ### Note:  
 > For HTML fragments this feature is currently not available.
 

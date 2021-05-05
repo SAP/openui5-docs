@@ -22,7 +22,7 @@ As a prerequisite for creating a test, you need to have created a OpenUI5 applic
 
 Create a QUnit test module `myqunittest.qunit.js` in the folder `test-resources/`.
 
-> Note:  
+> ### Note:  
 > The file name `XYZ.qunit.js` is a recommendation to clearly indicate that this is a QUnit test. Technically, the `.qunit` name extension is not required.
 
 You can use the file template shown below. This code snippet shows a basic QUnit test template which is used for OpenUI5 control tests.

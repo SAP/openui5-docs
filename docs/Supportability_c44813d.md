@@ -24,7 +24,7 @@ If a customized application does not run properly, you can disable the customizi
   window["sap-ui-config"]["xx-disableCustomizing"] = true;
 ```
 
-> Note:  
+> ### Note:  
 > For security reasons, it is not possible to use a URL parameter.
 
 ***
@@ -68,6 +68,6 @@ sap.ui.require(["sap/ui/core/CustomizingConfiguration"], function(CustomizingCon
 
 As a result, an object is returned in the console which contains the customizing configuration, structured by type of customization and view name.
 
-> Note:  
+> ### Note:  
 > If Customizing is not enabled, this command causes an error because `sap.ui.core.CustomizingConfiguration` is not defined.
 

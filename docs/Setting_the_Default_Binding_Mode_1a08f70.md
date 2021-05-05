@@ -32,7 +32,7 @@ The default binding mode applies when a model instance is created. You can overw
     }
     ```
 
-    > Note:  
+    > ### Note:  
     > When you change the binding mode of an existing model instance, the existing bindings are not updated with the newly set binding mode.
 
 

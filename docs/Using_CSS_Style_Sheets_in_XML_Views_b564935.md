@@ -16,7 +16,7 @@ Style sheets are included in XML views in the same way as plain HTML. To add fur
 
 The effect is the same as calling `myButton.addStyleClass(...)`.
 
-> Tip:  
+> ### Tip:  
 > We recommend to carefully choose the elements that you style as the CSS always affects the whole page and is **not** restricted to the view.
 
 ***

@@ -26,7 +26,7 @@ Theming \(CSS selectors\), keyboard handling \(tab order\) and screen reader sup
 
 #### Check the focus persistence
 
-> Note:  
+> ### Note:  
 > When the parent control cannot receive focus or is no longer available, the focus should go to a control nearby.
 
 For more information, see [sap.ui.core.Element/methods/focus](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/focus) API documentation in the Demo Kit.
@@ -39,7 +39,7 @@ Within an application, the initial focus should be placed on the element that is
 
 When opening dialogs or new pages, the focus should be on the first focusable element inside the content area.
 
-> Tip:  
+> ### Tip:  
 > On touch devices, if the first focusable element is a control that would open the soft keyboard, it is better to place the focus elsewhere - on the footer of the dialog or on a control that requires no keyboard input.
 > 
 > A good practice is to set the focus on the first mandatory element.
@@ -62,7 +62,7 @@ The OpenUI5 framework handles the creation of unique IDs automatically. If you p
 
 Provide a text alternative for non-text elements and the necessary additional information, in case the text space is insufficient. You should use a tooltip as a label for unlabeled elements only. Additionally, a `Placeholder` can be used as a label if it is not a formatting hint.
 
-> Example:  
+> ### Example:  
 > ![](loiofe947a006350426b927d64b6cea908dc_HiRes.png)
 
 ***
@@ -71,10 +71,10 @@ Provide a text alternative for non-text elements and the necessary additional in
 
 Container and layout controls such as `VerticalLayout` or `Grid` inherit the tooltip property from `sap.ui.core.Element`.
 
-> Tip:  
+> ### Tip:  
 > We do not recommend setting a tooltip for the whole layout control, as it will not be displayed. You can set the needed tooltips for the individual controls which the container holds.
 
-> Tip:  
+> ### Tip:  
 > If you are developing your own controls, follow the guidelines listed under *Related Information*.
 
 ***

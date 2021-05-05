@@ -66,7 +66,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td>V4 \(1.34\)
 			</td>
 			<td>Added to the `manifest.json` file by using the `{{...}}` syntax
- > Note:  
+ > ### Note:  
  > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
 ```
@@ -84,7 +84,7 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
 			<td>V4 \(1.34\)
 			</td>
 			<td>Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax to add the attribute to the `manifest.json` file
- > Note:  
+ > ### Note:  
  > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
 ```
@@ -257,7 +257,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 			</td>
 			<td>V10 \(1.52\)
 			</td>
-			<td>> Note:   > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
+			<td>> ### Note:   > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 
 ```
 {

@@ -31,7 +31,7 @@ Like test-driven development \(TDD\), behavior-driven development \(BDD\) with G
 7.  Return to step 1.
 
 
-> Note:  
+> ### Note:  
 > You can find the code for this example in the *Samples* in the Demo Kit at [Using Gherkin with OPA5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithOPA5/preview).
 
 ***

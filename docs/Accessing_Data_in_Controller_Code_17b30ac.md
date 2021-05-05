@@ -70,7 +70,7 @@ var oList = oModel.bindList("/SalesOrderList"),
 
 A context binding is obtained either with  [sap.ui.model.odata.v4.ODataModel\#bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext), or by getting an existing context binding from the control tree. Data can be accessed through the bound context, see  [sap.ui.model.odata.v4.ODataContextBinding\#getBoundContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/getBoundContext) . Using `sap.ui.model.odata.v4.ODataContextBinding#requestObject` is a shortcut for `oBinding.getBoundContext().requestObject()`. sap.ui.model.odata.v4.Context\#setProperty is used to modify data.
 
-> Note:  
+> ### Note:  
 > Relative bindings need to be resolved, meaning that a context must have been set before data access is possible.
 
 ``` js

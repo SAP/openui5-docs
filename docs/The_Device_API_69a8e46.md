@@ -32,7 +32,7 @@ Both work across platforms, even in cases where the orientation change event is 
 
 If you want to check for a certain system category \(phone, tablet, desktop\) in your code, you can ask for the value of `sap.ui.Device.system.phone`, which would be set to `true` if you are accessing the page from a phone.
 
-> Note:  
+> ### Note:  
 > Categorization is based on various factors like screen size, touch enablement, operating system and user agent. Depending on the combination of features on a device, it could happen that more than one flag is set to `true`.
 
 In the same way, you can also check for different browsers, different operating systems and available features for the current device or browser.

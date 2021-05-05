@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The `<template:repeat` instruction iterates the `sap.ui.model.ListBinding` given by the `list` attribute.
 
-> Note:  
+> ### Note:  
 > Sorting and filtering is already supported by the list binding via an extended syntax. For more information, see [Sorting, Grouping, and Filtering for List Binding](Sorting,_Grouping,_and_Filtering_for_List_Binding_ec79a5d.md).
 
 The `var` attribute holds the name of the loop variable which can be used to access the current list element in a child element of `repeat`. In the preprocessing, `repeat` is replaced by multiple clones of its content, one clone per list element, with each clone again preprocessed as if it were contained in a `with` instruction defining the loop variable.
@@ -56,7 +56,7 @@ You can start the iteration at an index other than 0 or limit the length of the 
 
 As the OData meta model supports filtering by name, you can repeat all `FieldGroup` annotations regardless of their qualifier.
 
-> Note:  
+> ### Note:  
 > In JSON content, the annotation can be called `com.sap.vocabularies.UI.v1.FieldGroup` or `com.sap.vocabularies.UI.v1.FieldGroup#Dimension`, and so on, depending on its qualifier. The filter that is used in the following code snippet for the `<template:repeat>` instruction uses the special path name `@sapui.name` which refers back to the name of the object that is inspected for filtering. This name is, for example, `com.sap.vocabularies.UI.v1.FieldGroup#Dimension`.
 
 **Example: Filter By Annotation Term**

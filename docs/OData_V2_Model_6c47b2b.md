@@ -14,7 +14,7 @@ The OData V2 Model enables binding of controls to data from OData services.
 
 The OData model is a server-side model, meaning that the data set is only available on the server and the client only knows the currently visible \(requested\) data. Operations, such as sorting and filtering, are done on the server. The client sends a request to the server and shows the returned data.
 
-> Note:  
+> ### Note:  
 > Requests to the back end are triggered by list bindings \(`ODataListBinding`\), context bindings \(`ODataContextBinding`\), and CRUD functions provided by the `ODataModel`. Property bindings \(`ODataPropertyBindings`\) do not trigger requests.
 
 The OData model currently supports OData version 2.0.
@@ -123,7 +123,7 @@ For more information, see [API Reference: sap.ui.model.odata.OperationMode](http
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > Be aware of the Same-Origin-Policy security concept which prevents access to back ends on different domains or sites.
 
 The requests to the service to fetch data are made automatically based on the data bindings that are defined for the controls.
@@ -172,7 +172,7 @@ Only the first model instance triggers a `$metadata` request. A JSON representat
 var oMetadata = oModel.getServiceMetadata();
 ```
 
-> Note:  
+> ### Note:  
 > In the `v2.ODataModel`, the service metadata is loaded asynchronously. It is not possible to load it synchronously. To get notified when the loading is finished, attach the `metadataLoaded` event.
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio82afe9152177428290cc9d5dbd90e245__loio82afe9152177428290cc9d5dbd90e245"/>
@@ -243,7 +243,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
     oModel.setHeaders({"myHeader1" : "value1", "myHeader2" : "value2"});
     ```
 
-    > Note:  
+    > ### Note:  
     > When you add custom headers, all previous custom headers are removed if not specified again in the headers map. Some headers are private, that is, they are set by the OData model internally and cannot be set:
     > 
     > ```
@@ -319,10 +319,10 @@ oModel.getProperty("/Customer('ALFKI')/Address");
 
 You can only access single entities and properties with this method. To access entity sets, you can get the binding contexts of all read entities via a list binding. The values returned by this method are copies of the data in the model, not references as in the JSONModel.
 
-> Caution:  
+> ### Caution:  
 > Do **not** modify objects or values inside the model manually; always use the provided API to change data in the model, or use two-way binding \(see *Two-way Binding* section below\).
 
-> Note:  
+> ### Note:  
 > The ODataModel uses the `$skip` and `$top` URL parameters for paging. It is possible that data is modified between two paging requests, for example entities could be added or removed, and this may lead to data inconsistencies.
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio4c4cd99af9b14e08bb72470cc7cabff4__loio4c4cd99af9b14e08bb72470cc7cabff4"/>
@@ -337,7 +337,7 @@ The application can bind against these objects and change the data by means of t
 
 The application can choose the properties that shall be included in the created object and can pass its own default values for these properties. Per default, all property values are empty, that is, undefined.
 
-> Note:  
+> ### Note:  
 > The entity set and the passed properties must exist in the metadata definition of the OData service.
 > 
 > ``` js
@@ -487,12 +487,12 @@ The model cannot decide how to bundle the requests. For this, OpenUI5 provides t
 
 You can use the `setDeferredGroups()` method to set a subset of previously defined groups to deferred.
 
-> Note:  
+> ### Note:  
 > The same is also valid for `setChangeGroups()` and `getChangeGroups()`.
 
 All requests belonging to the `group` are then stored in a request queue. The deferred batch group must then be submitted manually by means of the `submitChanges()` method. If you do **not** specify a batch group ID when calling `submitChanges`, all deferred batch groups are submitted.
 
-> Example:  
+> ### Example:  
 > Set a subset of groups to deferred:
 > 
 > ``` js
@@ -543,7 +543,7 @@ The `v2.ODataModel` enables two-way binding. Per default, all changes are collec
 
 To submit the changes, use `submitChanges()`. The data changes are made on a data copy. This enables you to reset the changes without sending a new request to the backend to fetch the old data again. With `resetChanges()` you can reset all changes. You can also reset only specific entities by calling `resetChanges` with an array of entity paths.
 
-> Note:  
+> ### Note:  
 > Filtering and sorting is not possible if two-way changes are present as this would cause inconsistent data on the UI. Therefore, before you carry out sorting or filtering, you have to submit or reset the changes.
 
 You can collect the changes for different entities or types in different batch groups. To configure this, use the `setChangeGroups()` method of the model:
@@ -564,7 +564,7 @@ oModel.submitChanges({groupId: "myGroupId", success: mySuccessHandler, error: my
 
 To collect the changes for all entity types in the same batch group, use '\*’ as `EntityType`. If the change is not set to deferred, the changes are sent to the backend immediately. By setting the `single` parameter for `changeSet` to true or false, you define if each change results in its own change set \(`true`\) or if all changes are collected in one change set \(`false`\). The model only takes care of the `changeSetId` if `single` is set to `false`.
 
-> Note:  
+> ### Note:  
 > The first change of an entity defines the order in the change set.
 
 **Example**
@@ -667,9 +667,9 @@ In its constructor the OData V2 model supports a flag called `preliminaryContext
 
 A relative binding depends on a different binding \(its **parent binding**\) if the parent binding reads the OData entity corresponding to the context that is set for the dependent binding.
 
-By default, data for the dependent binding is only read once data for its binding context is read via the parent binding. This leads to two sequential requests, where the first one reads data for the parent binding **creating** the context, and the second reads data for the dependent binding which **uses** this context.
+By default, data for the dependent binding is only read once the data for its binding context has been read via the parent binding. This leads to two sequential requests, where the first one reads data for the parent binding **creating** the context, and the second reads data for the dependent binding which **uses** this context.
 
-To improve performance, in case the parent binding is a context binding one may bundle these two read requests into one by specifying that the single context associated with the binding is a preliminary context. This is done by setting the `createPreliminaryContext` parameter on construction of the parent binding. Dependent list or context bindings can then use the path of this preliminary context before data has been read for it in order to construct the path for their own request to read data. This is done by setting the `usePreliminaryContext` parameter on construction of the dependent binding.
+In case the parent binding is a context binding, you can improve performance by bundling these two read requests into one. You can achieve this by specifying that the single context associated with the binding is a preliminary context. For this, you need to set the `createPreliminaryContext` parameter on construction of the parent binding. Dependent list or context bindings can then use the path of this preliminary context before data has been read for it in order to construct the path for their own request to read data. This is done by setting the `usePreliminaryContext` parameter on construction of the dependent binding.
 
 ***
 
@@ -682,7 +682,7 @@ You may set the `preliminaryContext` parameter when creating an OData V2 model. 
 -   All context bindings have the `createPreliminaryContext` parameter set to `true`.
 -   All context bindings and all list bindings have the `usePreliminaryContext` parameter set to `true`.
 
-You can overrule this default by the corresponding parameters of the [`ODataContextBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataContextBinding) constructor or  [`ODataListBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding) constructor. In addition it is possible to not use the general `preliminaryContext` parameter on the model \(which affects all bindings\), but just switch on preliminary context handling for pairs of parent and depending binding instances using these parameters.
+You can overrule this default by the corresponding parameters of the [`ODataContextBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataContextBinding) constructor or  [`ODataListBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding) constructor. In addition, it is possible not to use the general `preliminaryContext` parameter on the model \(which affects all bindings\), but just switch on preliminary context handling for pairs of parent and depending binding instances using these parameters.
 
 The following example shows a context binding with the path **"/Products\(1\)"** \(e.g. created as element binding of an `sap.m.Panel` control\) which is the parent binding. The dependent relative binding with the path **"Supplier"** is a list binding created for a table showing all suppliers of the product \(e.g. created for the `rows` aggregation of a `sap.ui.table.Table` control\).
 
@@ -761,17 +761,17 @@ This now results in a single `$batch` request:
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > If either `createPreliminaryContext` or `usePreliminaryContext` is set to `false`, the default behavior is active.
 
-> Note:  
+> ### Note:  
 > With the `$expand` query option you can load all associated entities of another entity. In the previous example we requested the `Product` list of a certain `Supplier` via a separate request. When using a `$expand` query instead, you could retrieve the same information with one single request:
 > 
 > `GET Products(1)?$expand=Supplier/Products`
 > 
-> Using `$expand` has several drawbacks, however. These can be circumvented by using the preliminary context feature, which does not have these restrictions.
+> Using `$expand` has several drawbacks, however. In OData V2, you cannot use additional filters and sorters for the expanded entries of a `$expand` query. In addition, the `$expand` option always loads **all** associated entities, so paging with `$skip` or `$top` isn't possible, either.
 > 
-> In OData V2, you cannot use additional filters and sorters for the expanded entries of a `$expand` query. In addition, the `$expand` option always loads **all** associated entities, so paging with `$skip` or `$top` isn't possible, either. Using the preliminary context feature, you get multiple sub-requests into a single `$batch` query, yet you can easily include additional filters and sorters on the related subordinate entries.
+> Using the preliminary context feature allows you to to circumvent these restrictions. You can merge multiple sub-requests into a single `$batch` query, yet you can easily include additional filters and sorters on the related subordinate entries.
 
  <a name="loio6c47b2b39db9404582994070ec3d57a2 loio6cb8d585ed594ee4b447b5b560f292a4__loio6cb8d585ed594ee4b447b5b560f292a4"/>
 
@@ -787,7 +787,7 @@ oModel.callFunction("/GetProductsByRating",{method:"GET", urlParameters:{"rating
 
 If the `callFunction` request is deferred, it can be submitted via the `submitChangesmethod`.
 
-> Note:  
+> ### Note:  
 > Only "IN" parameters of function imports are currently supported.
 
 ***
@@ -989,7 +989,7 @@ Each of these queries is self-contained. The query can refer to properties of th
 
 `extensions` array and transformed from objects into simple properties with an `sap:` prefix added to their name, see line number 8 in the following code snippet.
 
-> Note:  
+> ### Note:  
 > As this happens in addition, the following example shows both representations. By this, the respective annotations can be addressed via a simple relative path instead of searching an array.
 
 ```
@@ -1086,7 +1086,7 @@ ODataMetaModel JSON Format:
 
 In addition to the easy access to the SAP-specific OData annotations, such as `sap:label`, corresponding vocabulary-based annotations are mixed in if they are not yet defined in the OData Version 4.0 annotations of the existing `sap.ui.model.odata.ODataAnnotations`.
 
-> Note:  
+> ### Note:  
 > Annotation terms are not merged, but replaced as a whole \("PUT" semantics\). If the same annotation term with the same target is also contained in an annotation file, the complete OData V4 annotation converted from the OData V2 annotation is replaced by the one contained in the annotation file for the specified target. Converted annotations never use a qualifier and are only overwritten by the same annotation term without a qualifier.
 
 The following tables show the transformations that are implemented with version 1.30 of OpenUI5 \(variatons of this are marked accordingly\). In the examples shown below, `AnyPath` is a path expression as defined in the [OData Version 4.0 specification](http://docs.oasis-open.org/odata/odata/v4.0/os/part3-csdl/odata-v4.0-os-part3-csdl.html), section 14.5.12.
@@ -1135,7 +1135,7 @@ sap:deletable = "false"
 
 ```
 
- > Note:  
+ > ### Note:  
  > If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
 			</td>
 		</tr>
@@ -1154,7 +1154,7 @@ Where `AnyPath` is a path expression that identifies a Boolean property in the c
 "Org.OData.Capabilities.V1.DeleteRestrictions": { "Deletable" : { "Path" : "AnyPath" } }
 ```
 
- > Note:  
+ > ### Note:  
  > If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
 			</td>
 		</tr>
@@ -1256,7 +1256,7 @@ sap:updatable = "false"
 
 ```
 
- > Note:  
+ > ### Note:  
  > If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
 			</td>
 		</tr>
@@ -1275,7 +1275,7 @@ Where `AnyPath` is a path expression that identifies a Boolean property in the c
 "Org.OData.Capabilities.V1.UpdateRestrictions": { "Updatable" : { "Path" : "AnyPath" } }
 ```
 
- > Note:  
+ > ### Note:  
  > If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
 			</td>
 		</tr>
@@ -1310,7 +1310,7 @@ Where `foo` is any text.
 "com.sap.vocabularies.Common.v1.Label": {"String" : "foo" }
 ```
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added at different places, not to the `Property`.
 			</td>
 		</tr>
@@ -1363,7 +1363,7 @@ sap:updatable = "false"
 sap:display-format = "NonNegative"
 ```
 
- > Note:  
+ > ### Note:  
  > `NonNegative` indicates that only non-negative numeric values are provided and persisted, other input leads to errors; intended for `Edm.String` fields that are internally stored as `NUMC`.
 			</td>
 			<td>
@@ -1422,7 +1422,7 @@ sap:filterable = "false"
 
 For example, if `sap:filterable` is set to `false` for properties `PropA` and `PropC`.
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, not to the `Property`.
 			</td>
 		</tr>
@@ -1446,7 +1446,7 @@ For example, at a `BusinessPartnerID` property of a `BusinessPartner` type.
 
 At the corresponding entity set, for example, `BusinessPartnerSet.multi-value` is mapped to `MultiValue`, `single-value` is mapped to `SingleValue`, and `interval` is mapped to `SingleInterval`.
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, not to the `Property`.
 			</td>
 		</tr>
@@ -1516,7 +1516,7 @@ sap:required-in-filter = "true"
  { "PropertyPath" : "PropC " }] }
 ```
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, not to the `Property`.
 			</td>
 		</tr>
@@ -1535,7 +1535,7 @@ sap:sortable = "false"
 { "PropertyPath" : "PropC " }]}
 ```
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, not to the `Property`.
 			</td>
 		</tr>
@@ -1619,7 +1619,7 @@ sap:aggregation-role="dimension"
 "com.sap.vocabularies.Analytics.v1.Dimension" : { "Bool" : "true" }
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.46.
 			</td>
 		</tr>
@@ -1636,7 +1636,7 @@ sap:aggregation-role="measure"
 "com.sap.vocabularies.Analytics.v1.Measure" : { "Bool" : "true" }
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.46.
 			</td>
 		</tr>
@@ -1653,7 +1653,7 @@ sap:semantics="year"
 "com.sap.vocabularies.Common.v1.IsCalendarYear" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.50.
 			</td>
 		</tr>
@@ -1670,7 +1670,7 @@ sap:semantics="yearmonth"
 "com.sap.vocabularies.Common.v1.IsCalendarYearMonth" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.50.
 			</td>
 		</tr>
@@ -1687,7 +1687,7 @@ sap:semantics="yearmonthday"
 "com.sap.vocabularies.Common.v1.IsCalendarDate" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.50.
 			</td>
 		</tr>
@@ -1705,7 +1705,7 @@ sap:semantics = url
 
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.52.
 			</td>
 		</tr>
@@ -1722,7 +1722,7 @@ sap:semantics="yearquarter"
 "com.sap.vocabularies.Common.v1.IsCalendarYearQuarter" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 			</td>
 		</tr>
@@ -1739,7 +1739,7 @@ sap:semantics="yearweek"
 "com.sap.vocabularies.Common.v1.IsCalendarYearWeek" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 			</td>
 		</tr>
@@ -1756,7 +1756,7 @@ sap:semantics="fiscalyear"
 "com.sap.vocabularies.Common.v1.IsFiscalYear" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 			</td>
 		</tr>
@@ -1773,7 +1773,7 @@ sap:semantics="fiscalyearperiod"
 "com.sap.vocabularies.Common.v1.IsFiscalYearPeriod" : {"Bool" : "true"}
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 			</td>
 		</tr>
@@ -1803,23 +1803,23 @@ sap:filterable = "false"
 
 For example, if `sap:filterable` is set to `false` for properties `PropA` and `PropC`
 
-> Note:  
+> ### Note:  
 > The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
 
-> Note:  
+> ### Note:  
 > Implemented with version 1.42.
 
-> Caution:  
+> ### Caution:  
 > Deprecated with version 1.54. See entry below.
 
 |
 |```
  > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.42.
 
- > Caution:  
+ > ### Caution:  
  > Deprecated with version 1.54. See entry below.
 			</td>
 		</tr>
@@ -1834,10 +1834,10 @@ sap:filterable = "false"
 
 For example, if `sap:filterable` is set to false for navigation properties `NavPropA` and `NavPropB`.
 
-> Note:  
+> ### Note:  
 > The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
 
-> Note:  
+> ### Note:  
 > Implemented with version 1.54.
 
 |
@@ -1849,22 +1849,22 @@ For example, if `sap:filterable` is set to false for navigation properties `NavP
 
 For example, if `sap:filterable` is set to false for navigation properties `NavPropA` and `NavPropB`.
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 ```
 
 For example, if `sap:creatable` is set to `false` for navigation properties `NavPropA` and `NavPropC`
 
-> Note:  
+> ### Note:  
 > The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
 
-> Note:  
+> ### Note:  
 > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
 
-> Note:  
+> ### Note:  
 > Implemented with version 1.42.
 
 |
@@ -1878,22 +1878,22 @@ For example, if `sap:creatable` is set to `false` for navigation properties `Nav
 
 For example, if `sap:creatable` is set to `false` for navigation properties `NavPropA` and `NavPropC`
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > Note:  
+ > ### Note:  
  > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
 
- > Note:  
+ > ### Note:  
 ```
 
-> Note:  
+> ### Note:  
 > The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
 
-> Note:  
+> ### Note:  
 > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
 
-> Note:  
+> ### Note:  
 > Implemented with version 1.42.
 
 |
@@ -1912,13 +1912,13 @@ Transformations defined at `Schema`:
 }
 ```
 
- > Note:  
+ > ### Note:  
  > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > Note:  
+ > ### Note:  
  > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.42.
 			</td>
 		</tr>
@@ -1951,7 +1951,7 @@ schema-version="foo"
 "@Org.Odata.Core.V1.SchemaVersion" : "foo"
 ```
 
- > Note:  
+ > ### Note:  
  > Implemented with version 1.54.
 			</td>
 		</tr>

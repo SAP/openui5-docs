@@ -130,7 +130,7 @@ When.waitFor({
 });
 ```
 
-> Note:  
+> ### Note:  
 > This example showcases the usage of a custom action. The best practice that we recommend is to use only `Press` and `EnterText` actions when simulating user interactions.
 
 Besides user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the `matchers` property, this part could directly be rewritten as:
@@ -259,7 +259,7 @@ OpaBuilder.create(oOpa)
     .execute();
 ```
 
-> Note:  
+> ### Note:  
 > Defining two `hasAggregation` matchers can also match two different aggregation items. To ensure that one item fulfills all criteria, an all-criteria-matcher should be defined in the same `hasAggregation` call.
 
 ***

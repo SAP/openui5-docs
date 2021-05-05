@@ -93,7 +93,7 @@ Here is an example of `.supportrc file`:
 
 ```
 
-> Note:  
+> ### Note:  
 > If a `.supportrc` file doesn't exist, a library is considered not to have any rulesets. Therefore, all ruleset developers should add a `.supportrc` file to their libraries root folders. Have in mind that if a ruleset property is missing, its value is considered to be false.
 
 ***
@@ -145,7 +145,7 @@ sap.ui.define(["sap/ui/support/library"],
 
 When creating a more complex ruleset, you may need to create helper functions. It is recommended that those helper functions are separated into a different file that ends in `.support.js` and is located in the same folder as the ruleset.
 
-> Note:  
+> ### Note:  
 > Helper files must be required by a relative path such as `./CoreHelper.js` so that when the Support Assistant is loaded from a different origin, the file will be required from the correct place.
 
 ***
@@ -218,7 +218,7 @@ In this example there are three rules - one for button and two for label. Splitt
     
     ```
 
-    > Note:  
+    > ### Note:  
     > You can return a single rule or an array of rules, as shown in the second example.
 
 2.  Require the newly created files in `library.support.js`:
@@ -242,7 +242,7 @@ In this example there are three rules - one for button and two for label. Splitt
       }, true);
     ```
 
-    > Note:  
+    > ### Note:  
     > The ruleset property is an array which can contain both rule objects and arrays of rules. In the example, `LabelSupport` returns an array of two rules.
 
 

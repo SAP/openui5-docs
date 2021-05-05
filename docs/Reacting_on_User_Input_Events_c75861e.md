@@ -20,7 +20,7 @@ User input events can either be handled automatically by the framework or manual
 
 User input errors can be detected automatically by the framework. This is the preferred way of handling such events and requires the use of a Component for your app in accordance with UI5 Best Practices. You can activate the automatic generation of validation messages in the "sap.ui5" section of the **manifest.json** file as follows:
 
-> Example:  
+> ### Example:  
 > **Activating automatic user input event handling**
 > 
 > ``` json

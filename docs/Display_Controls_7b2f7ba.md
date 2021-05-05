@@ -38,10 +38,10 @@ OpenUI5 display controls are used to indicate the progress of some action or to 
 			</td>
 			<td>-   Textual description of the image content
 
- > Note:  
+ > ### Note:  
  > Decorative images need not be read out.
 
- > Note:  
+ > ### Note:  
  > Interactive icons, that are used as buttons, should be read as such \( `role=”button”`\).
 			</td>
 		</tr>

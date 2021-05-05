@@ -89,7 +89,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 -   Use the `modelMapping` mechanism to declare distinct model per logical entity.
 
 
-> Example:  
+> ### Example:  
 > Let’s consider an *Employee Goals* block that displays an employee together with his or her goals.
 > 
 > One *Employee* model for the employee entity:
@@ -106,7 +106,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 
 In one backend service, goals may be a navigation property of employees, but in another this may not be the case. For this reason, when implementing the *Employee Goals* block, you should use two distinct models in the block views.
 
-> Example:  
+> ### Example:  
 > An app wants to use the *Employee Goals* blocks described above. These are therefore embedded into a page that has a model named `ApplicationModel`, in which `Goals` are a navigation property of employees:
 > 
 > ``` xml
@@ -138,7 +138,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 3.  Creates a context corresponding to the path.
 
 
-> Note:  
+> ### Note:  
 > This model mapping is not mandatory as models used in a view can also be provided by standard OpenUI5 techniques \(model inheritance, setModel\).
 
 ***

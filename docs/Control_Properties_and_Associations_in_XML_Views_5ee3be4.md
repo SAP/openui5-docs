@@ -16,7 +16,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Property values for controls in XML views are specified as attributes of the XML element tag of the control. The name of the attribute corresponds to the name of the property in the API reference, for example, the property `text` of a the `sap.m.Text` control is specified as `text=”*value*”`.
 
-> Note:  
+> ### Note:  
 > Escape characters that have a special meaning in XML \(like `<`, or `&`\) when they occur in a property value. Use XML entities instead \(like `&lt;` instead of a `<`, or `&amp;` instead of `&`\).
 
 Attributes in XML views use the same binding syntax as constructors of controls. For example, `“{customerName}”` is used to bind a property against the model property with name `“customerName”`.
@@ -39,7 +39,7 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 <Text text="&lt;div&gt;My HTML Text&lt;/div&gt;"/>
 ```
 
-> Note:  
+> ### Note:  
 > Properties of type `function` can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
 
 ***

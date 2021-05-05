@@ -28,7 +28,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 You can view and download all files at [Walkthrough - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.02/preview).
 
-> Note:  
+> ### Note:  
 > OpenUI5 is a JavaScript library that can either be loaded from the same Web server where the app resides, or from a different server. If OpenUI5 is deployed somewhere else on the server or you want to use a different server, then you need to adjust the corresponding paths in the bootstrap \(here: `src="/resources/sap-ui-core.js"`\) in this tutorial according to your own requirements.
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.

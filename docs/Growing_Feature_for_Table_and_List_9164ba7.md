@@ -14,7 +14,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 A growing list has a loading mechanism that requests data from the model in a lazy way. This enables the app to only fetch data from the server as and when necessary.
 
-> Note:  
+> ### Note:  
 > Before release 1.16, the `sap.m.GrowingList` control existed as an extension of the `sap.m.List` control. As this is now deprecated, use the properties as described here instead.
 
 The growing-related properties of `sap.m.ListBase` are:
@@ -24,7 +24,7 @@ The growing-related properties of `sap.m.ListBase` are:
 -   `growingThreshold`: The number of items that are requested each time from the model
 -   `growingTriggerText`: The text on a trigger button used to cause a request for more data
 
-> Note:  
+> ### Note:  
 > For `sap.m.listbase`, the growing feature containing the growing property is not supported when used in combination with two-way binding for a table or list.
 > 
 > Also, as the growing feature enables extended change detection for the binding, it only updates rows that are changed. This means that if the position of a particular row has not been changed, this row will **not** be updated.

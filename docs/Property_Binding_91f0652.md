@@ -121,7 +121,7 @@ oInput.bindProperty("value", {
 });
 ```
 
-> Note:  
+> ### Note:  
 > Some controls offer convenience methods for their main properties that are most likely to be bound by an application:
 > 
 > ``` js
@@ -218,7 +218,7 @@ oImage.bindProperty("src", "/company/trusted", function(bValue) {
 }); 
 ```
 
-> Caution:  
+> ### Caution:  
 > The framework only updates a binding when one of the properties included in the binding changes. If the formatter uses another property value that is not part of the binding definition, the framework won't know that the result depends on that additional property and could miss necessary updates. Therefore, make sure that you declare a composite binding referencing all necessary properties \(maybe even from different models\).
 
 ***

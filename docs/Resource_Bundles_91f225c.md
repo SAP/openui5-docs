@@ -16,7 +16,7 @@ Resource bundles are a collection of `*.properties` files. All files are named w
 
 When a localized text is needed, the application uses the OpenUI5 APIs to load the properties file that matches the current language best. The same applies to any other localized data that can be represented as a string, for example, a date formatter string. To retrieve a text from the properties file, the application uses the \(language-independent\) key. If no text can be found for this key, the next best matching file is loaded and checked for the text. Finally, if no file matches, the raw file is loaded and checked.
 
-> Example:  
+> ### Example:  
 > The resource bundle `myapp.i18n.messagebundle` consists of the following individual files:
 > 
 > -   `sap.ui.commons.messagebundle.properties`: Contains the raw texts from the developer, determines the set of keys
@@ -40,7 +40,7 @@ welcome=Welcome {0}
 
 ```
 
-> Note:  
+> ### Note:  
 > To consume a properties files using a resource bundle, you can use the following snippet:
 > 
 > ``` js
@@ -57,7 +57,7 @@ welcome=Welcome {0}
 > });
 > ```
 
-> Note:  
+> ### Note:  
 > If you are using OpenUI5 in SAP HANA, resource bundles files must have the extension `*.hdbtextbundle` instead of `*.properties`.
 > 
 > To load this bundle, you add the following code to the `createContent` function of your view:

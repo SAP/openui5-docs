@@ -14,7 +14,7 @@ When a user starts an app \(in the SAP Fiori launchpad \(FLP\) or using an HTML 
 
 ***
 
-> Note:  
+> ### Note:  
 > When a user closes the app, the `destroy` function of the component is called. All models and the router are destroyed. The router will take care of destroying the views.
 > 
 > If a controller has created resources that need to be destroyed explicitly, for example non-aggregated controls, the app developer has to use the `onExit` function of the controller to free up resources. For more information, see [Controller](Controller_121b8e6.md).

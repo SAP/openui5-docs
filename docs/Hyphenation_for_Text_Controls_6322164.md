@@ -122,7 +122,7 @@ When the framework makes the choice whether browser-native hyphenation or third-
 
 ### Supported Languages
 
-> Caution:  
+> ### Caution:  
 > Note that as the hyphenation feature uses third-party and browser-native tools, we are not responsible for any grammatical incorrectness or inconsistencies of the hyphenation. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.
 
 OpenUI5 provides hyphenation through the `hyphens` CSS property or the third-party tool Hyphenopoly.

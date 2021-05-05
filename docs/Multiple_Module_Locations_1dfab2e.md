@@ -48,7 +48,7 @@ Thus, it is possible to redirect the request for the application-specific module
 	</script>
 ```
 
-> Note:  
+> ### Note:  
 > The registered URL above contains the transformed module name prefix `my/webapp/`. This allows a more flexible packaging of the modules, for example, if you decide to deploy all modules named `my.company.*` to the central URL `http://my.company/shared/` without packaging them into a two level hierarchy of subfolders:
 > 
 > ```

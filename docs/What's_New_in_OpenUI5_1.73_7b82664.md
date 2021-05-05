@@ -52,7 +52,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
     -   `sap.ui.model.Binding#getContext`
     -   `sap.ui.model.Binding#getModel`
 
-> Restriction:  
+> ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
@@ -100,7 +100,7 @@ For more information, see [Enabling Responsive Paddings According to the Control
 
 A `change` event is now fired when the browser autofill fills an input.
 
-> Note:  
+> ### Note:  
 > If `showValueHelp` or `showSuggestion` are set to `true`, the native browser autofill will not fire a `change` event.
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input).
@@ -141,7 +141,7 @@ A new `adaptiveFontSize` property is now introduced to meet different country/lo
 
 We have added a new `headerId` parameter to the `rowHeaderClick` event, which enables developers to directly access row header by ID.
 
-> Note:  
+> ### Note:  
 > Do not use this feature for `PlanningCalendar`’s `rowHeader` modification.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar).

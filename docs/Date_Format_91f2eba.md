@@ -61,7 +61,7 @@ var oNow = new Date();
 oDateFormat.format(oNow); //string in the same format as "Thu, Jan 29, 2017"
 ```
 
-> Note:  
+> ### Note:  
 > If you define `format` and `pattern`, the `format` will be ignored!
 
  <a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>Patterns

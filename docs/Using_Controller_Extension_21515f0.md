@@ -157,7 +157,7 @@ If the controller is instantiated, all members that have a `ControllerExtension`
 
 You can also override an extension directly in a controller.
 
-> Sample Code:  
+> ### Sample Code:  
 > ``` js
 > sap.ui.define(['sap/ui/core/mvc/Controller', 'my/extension/SampleExtension'],
 >     function(Controller, SampleExtension) {

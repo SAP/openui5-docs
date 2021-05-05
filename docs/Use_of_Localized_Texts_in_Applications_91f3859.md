@@ -137,7 +137,7 @@ With regard to localization, the code above defines the following procedure:
 
 You can also use data binding to access localized texts. The `ResourceModel` is a wrapper for resource bundles that exposes the localized texts as a model for data binding. You use the `ResourceModel` to bind texts for control properties to language dependent resource bundle properties. You can instantiate the `ResourceModel` either with `bundleName` \(name of a resource bundle that equals a OpenUI5 module name within the define/require concept\), or a `bundleUrl`, which points to a resource bundle. When you use the bundle name, make sure that the file has a `.properties` suffix. If no `locale` is defined, the current language is used.
 
-> Example:  
+> ### Example:  
 > ``` js
 > // "ResourceModel" required from module "sap/ui/model/resource/ResourceModel"
 > // "Button" required from module "sap/ui/commons/Button"
@@ -157,7 +157,7 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 > oControl.setModel(oModel, "i18n");
 > ```
 
-> Note:  
+> ### Note:  
 > The current data binding implementation does not allow to pass parameters to your texts in the resource bundle.
 > 
 > If you have to pass parameters, you must do this on your own. You can, however, access the resource bundle directly from the model instead of loading it:

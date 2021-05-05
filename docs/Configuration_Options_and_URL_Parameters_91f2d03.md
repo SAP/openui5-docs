@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
 
-> Note:  
+> ### Note:  
 > A subset of these configuration parameters can also be used as URL parameter \("URL:![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)"\). The URL parameter name is composed of the name of the configuration option and the `sap-ui-` prefix, for example like `sap-ui-debug=true`.
 
 |Option
@@ -272,7 +272,7 @@ Example: `**/v2/` loads any package named `v2` as debug sources like `odata/v2`,
 Example: `sap/ui/model/*` matches all files directly contained in the model package, but not in nested packages \(for example, not `v2` or `v4`\)
 
 
- > Note:  
+ > ### Note:  
  > You can also select the debug sources in the Technical Information Dialog. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 			</td>
 			<td>
@@ -697,7 +697,7 @@ Default value: `[ ]`
 
 This configuration setting specifies a list of UI libraries using the same syntax as the `libs` property, for which the OpenUI5 core does not include the `library.css` stylesheet in the head of the page. If the list starts with an exclamation mark \(!\), no stylesheet is loaded at all for the specified libs. In this case, it is assumed that the application takes care of loading CSS, for example, a manually merged, single CSS file. Otherwise, the Core instructs the back end to create a merged CSS for the specified libs. In both cases, if the first libraries name is an asterisk \(\*\), it will be expanded to the list of already configured libraries.
 
- > Note:  
+ > ### Note:  
  > The `merge` feature is currently only available for Java and only for apps that include the additional back-end component `resource-ext`. Without the merge, applications can include their own merged CSS file and suppress the loading of the standard`library.css`.
 			</td>
 			<td>
@@ -1003,7 +1003,7 @@ URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.m
 
 The options listed in the table below are 'experimental'. They may be removed in future versions, or their definition or behavior may change in an incompatible way. Experimental options are identified by the name prefix `xx-`. Experimental configuration options are used for support scenarios where OpenUI5 development needs the freedom to evolve supportability features over time. Others are related to experimental features where the underlying feature still may change. When an experimental configuration option becomes mature, the `xx-` prefix is removed from the definition. For compatibility reasons, the old name with the `xx-` prefix will still be supported.
 
-> Note:  
+> ### Note:  
 > The features listed below are experimental features and may be modified or removed in future versions.
 
 |Option

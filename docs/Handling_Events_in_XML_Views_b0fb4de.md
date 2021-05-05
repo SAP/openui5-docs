@@ -22,7 +22,7 @@ Depending on the syntax of its name, the event handler will be looked up by this
 
 -   Names starting with a dot \('.'\) are always assumed to represent a method in the controller. They are resolved by removing the leading dot and reading the property with the resulting name from the controller instance. These names are relative to the view/controller. For example, `press=".myLocalHandler"` is resolved by `attachPress(oController["myLocalHandler"], oController);`
 
-    > Note:  
+    > ### Note:  
     > This syntax is by intention consistent to the complex binding syntax for formatter functions.
 
 -   Names defined in a `core:require` statement can be used to access static functions of the required modules. For example, `press= "Util.handler"` sets the static `handler` function of the required `Util` module as press handler for the respective control. For more information, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
@@ -33,14 +33,14 @@ Depending on the syntax of its name, the event handler will be looked up by this
 
     -   Global functions if the function cannot be resolved within the XML view require modules and are resolved by calling `ObjectPath.get` with the full name. For example, `name press= "some.global.handler"` is resolved by calling `attachPress(ObjectPath.get("some.global.handler"), oController);`.
 
-        > Note:  
+        > ### Note:  
         > The use of globals is not recommended and they should be replaced, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
 
--   > Note:  
+-   > ### Note:  
 > This legacy syntax is **not** supported for control properties of type `function`.
 
 
-> Note:  
+> ### Note:  
 > When specified without parameters, the event handler will be called with one argument, the event object. This object can be used to retrieve the event parameters documented by the control’s respective event documentation.
 
 ***
@@ -100,12 +100,12 @@ Complex binding syntax can also be used \(to add formatters, types etc.\), as we
 
 ```
 
-> Restriction:  
+> ### Restriction:  
 > Even though complex bindings can have multiple parts \(use multiple data properties\) instead of just one data property path, this is not possible for the event parameters. Therefore, you cannot use `parts` in bindings.
 
 Formatters are resolved the same way as the event handlers: a leading dot means the formatter is member of the controller.
 
-> Note:  
+> ### Note:  
 > While it seems like regular JavaScript can be written directly in the event handler specification, this is not the case. The entire expression is evaluated as expression binding and only the syntax elements allowed there can be used.
 
 There are two special named models available in event handlers to make accessing certain values easier:

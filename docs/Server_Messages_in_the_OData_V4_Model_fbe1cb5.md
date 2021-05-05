@@ -127,10 +127,10 @@ sap-messages:[
 ]
 ```
 
-> Note:  
+> ### Note:  
 > `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
 
-> Example:  
+> ### Example:  
 > Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/to_Address; longtextUrl: "Messages(3)/LongText/$value"`
 > 
 > Result: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/Messages(3)/LongText/$value`
@@ -183,7 +183,7 @@ Error messages are always reported in the error response in JSON format as descr
 
 A change set with multiple requests only has one error response. In this case, `target` alone is not sufficient to assign a message to a resource. The error must be assigned to one of the requests via the request's MIME header `Content-ID` first. The `Content-ID` has to be provided in the instance annotation `Org.OData.Core.V1.ContentID`.
 
-> Example:  
+> ### Example:  
 > **Request**
 > 
 > ``` json
@@ -206,7 +206,7 @@ A change set with multiple requests only has one error response. In this case, `
 > --changeset_id-1612779902438-25--
 > ```
 
-> Example:  
+> ### Example:  
 > **Response**
 > 
 > ``` json
@@ -261,7 +261,7 @@ This concept has the following consequences:
 -   As a consequence, it must also **not** be possible to change the entity that is bound with a path that starts with a different business object. If, for example, product information needs to be changed, we recommended to use the canonical path to bind the product assigned to item `010` to achieve that the server sends the bound messages of the product.
 
 
-> Note:  
+> ### Note:  
 > The OpenUI5 V4 ODataModel is agnostic to business objects. The application needs to take care of the proper setup.
 
 ***
@@ -394,7 +394,7 @@ The attribute `technicalDetails.httpStatus` of an error message in the message m
 
 To highlight table rows based on the criticality of the messages for that entity a formatter in controller code is needed. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippets demonstrate binding and formatter:
 
-> Example:  
+> ### Example:  
 > Highlight a table row
 > 
 > ``` xml
@@ -418,7 +418,7 @@ To highlight table rows based on the criticality of the messages for that entity
 
 Let `messageModel` be the named message model. A table row with messages can be highlighted with the following controller code:
 
-> Example:  
+> ### Example:  
 > Formatter to highlight a table row
 > 
 > ``` js

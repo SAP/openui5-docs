@@ -81,7 +81,7 @@ The dialog instantiation is refactored to a new helper object which is stored in
 
 We want to connect the reuse dialog to the lifecycle of the root view of the app, so we pass an instance of the root view on to the constructor. It can be retrieved by calling the `getRootControl` method of the component.
 
-> Note:  
+> ### Note:  
 > As defined in parameter `rootView` in the `manifest.json` file, our root view is `sap.ui.demo.walkthrough.view.App`. From the component, the root view can be retrieved at runtime by accessing the `rootControl` aggregation.
 
 To be able to open the dialog from other controllers as well, we implement a reuse function `openHelloDialog` which calls the `open` method of our helper object. By doing so, we also decouple the implementation details of the reuse dialog from the application coding.
@@ -90,7 +90,7 @@ Up to this point we added the new property `_helloDialog` to the component and a
 
 To do so, we use the `exit` hook. The OpenUI5 framework calls the function assigned to `exit` when destroying the component. We call the destroy function of `HelloDialog` to clean up the helper class and end its lifecycle. Nevertheless, the instance itself would still exist in the browser memory. Therefore we delete our reference to the `HelloDialog` instance by calling `delete this._helloDialog` and the garbage collection of the browser can clean up its memory.
 
-> Note:  
+> ### Note:  
 > We don't have to destroy the instance of `JSONModel` that we created, because we assigned it to the component with the `setModel` function. The OpenUI5 framework will destroy it together with the component.
 
 ***
@@ -150,7 +150,7 @@ The implementation of the `HelloDialog` reuse object extends an `sap.ui.base.Man
 
 Our `open` method is refactored from the `HelloPanel` controller and instantiates our dialog fragment as in the previous steps.
 
-> Note:  
+> ### Note:  
 > We do not pass a controller as third parameter to function `Fragment.load` but a local helper object `oFragmentContoller` which included the needed event handler function `onCloseDialog` for the fragment.
 
 The `open` method now contains our dialog instantiation. The first time the `open` method is called, the dialog is instantiated. The `oView` argument of this method is used to connect the current view to the dialog. We will call the `open` method of this object later in the controller.

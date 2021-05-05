@@ -77,7 +77,7 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
 
 As you can see, we have many different cases, and our formatter contains real logic.
 
-> Note:  
+> ### Note:  
 > There are many benefits of consequently applying the test-driven development \(TDD\) methodology, for example, very fast feedback, you can execute your tests after each change and get immediate feedback if the tests run green. You also spend less time debugging and for analysis. We recommend that you get familiar with TDD and clean code practices. In this step you get a first impression how TDD results in better separation of concerns, APIs, handling of dependencies, code reuse, and a test suite growing together with the code.
 
 ***
@@ -231,7 +231,7 @@ sap.ui.define([
 
 In the implementation we use the `DateFormat` of OpenUI5 to create a short date. The locale is passed on to the `getTimeInstance` function.
 
-> Note:  
+> ### Note:  
 > The implementation should not do more than the current tests covers. This makes sure you cover all the code paths. You can enable the code coverage by selecting the *Enable coverage* checkbox.
 > 
 >  ![](loioa700487ab86444eb8643924d0dccf942_HiRes.png) 

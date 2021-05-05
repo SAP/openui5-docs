@@ -42,7 +42,7 @@ For a comprehensive description of the restrictions, see the [API Reference](htt
 Note also that `$$sharedRequest` is automatically set for list bindings of value list models returned by `sap.ui.model.odata.v4.ODataPropertyBinding#requestValueListInfo` and `sap.ui.model.odata.v4.ODataMetaModel#requestValueListInfo`.
 
 
-> Restriction:  
+> ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
@@ -93,7 +93,7 @@ We have added `href` and `target` properties to improve the SEO capabilities of 
 
 You can now change the language of the Demo Kit app from the *More information* menu at the top of the app header. By default, the app opens in English. If you want your browser to remember the chosen language setting, make sure to accept our cookies policy.
 
-> Note:  
+> ### Note:  
 > Keep in mind that the selected language applies only to the Demo Kit application user interface. The content provided in the application in the different sections, such as *Documentation*, *API Reference*, and *Samples* is available only in English.
 
 ![](loioeb91a45367664216ac5b9a8aa05a38db_HiRes.gif)

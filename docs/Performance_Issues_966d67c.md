@@ -27,7 +27,7 @@ Whenever you use methods like [`sap.ui.model.odata.v4.ODataListBinding#requestCo
 -   Aggregating large amounts of data of which only a small amount is displayed. Such aggregations are preferably performed directly in the database to avoid moving all the raw data over the network and onto different computers.
 -   Performing mass operations, such as mass changes. Such operations shall be performed by the server, e.g. by an [OData action](OData_Operations_b54f789.md), without the need to load all affected records onto the client.
 
-> Note:  
+> ### Note:  
 > OpenUI5 does not set limits on the amount of data to be loaded by your application. However, some browsers may do, which would cause your application to fail if it loads large amounts of data.
 
 ***
@@ -40,7 +40,7 @@ When an application has areas that are not visible initially, or if only one of 
 
 Please note that lazy loading of views can be achieved with routing. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md) of the Navigation and Routing tutorial.
 
-> Example:  
+> ### Example:  
 > An application needs to display a `Panel` containing a `Table` in **display mode**, but the user can switch to **edit mode** to modify data, in which case a different `Panel` needs to be shown. Especially when using XML views, it is tempting for application developers to specify two panels in the view XML and set the `Panel` with the editable table to `visible="false"`. The *Edit* button could then just toggle visibility of both panels.
 
 The following XML view is easy to handle, but leads to suboptimal performance when the `editPanel` has a lot of content.
@@ -157,7 +157,7 @@ In other scenarios, at the time of developing you may not know which UI part is 
 	...
 ```
 
-> Note:  
+> ### Note:  
 > Although the example above shows an XML view and an XML fragment, the problem and the solution apply to all view types.
 > 
 > Please also note that this guideline is not set in stone: If the hidden UI elements are just small or few in number, using fragments would not help but add additional overhead instead. Having said that, creating several big tables and displaying only one of them is **not** a good idea. There is no definite rule where to draw the line, it depends on many factors like application size, number of libraries being loaded, and additional data requested by those hidden controls. If in doubt, you can test the performance using the performance tracing tools in the browser’s developer console with the controls in question being hidden, against them being removed.

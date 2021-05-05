@@ -34,7 +34,7 @@ Content, which is created on the client side either for display within the brows
 
 All controls in OpenUI5 libraries properly encode their data, except for HTML-control and XMLView. The latter two are explicitly built to display arbitrary HTML content. If applications use these two controls and provide unsecure HTML content, they have to check/validate the content on their own.
 
-> Note:  
+> ### Note:  
 > Using an XMLView with application controlled secure HTML content together with standard OpenUI5 controls \(other than HTML and XMLView\) containing potentially unsecure data is also safe. Only untrusted HTML content is critical.
 
 For more information on OpenUI5 HTML code cleanup, see [HTML5 Sanitizer](Cross-Site_Scripting_91f0bd3.md#loio91f0bd316f4d1014b6dd926db0e91070__section_fdr_tzl_xcb).

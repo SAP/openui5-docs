@@ -108,6 +108,6 @@ Adding each and every dependency to the `sap.ui.define` call can lead to many mo
     ```
 
 
-> Note:  
+> ### Note:  
 > Many code samples in the OpenUI5 documentation use the `sap.ui.require` syntax even though we could also have used `sap.ui.define`.
 

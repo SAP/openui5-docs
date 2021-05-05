@@ -65,7 +65,7 @@ You can view and download all files at [Walkthrough - Step 12](https://openui5.h
 
 The shell control is now the outermost control of our app and automatically displays a so-called letterbox, if the screen size is larger than a certain width.
 
-> Note:  
+> ### Note:  
 > We don't add the `Shell` control to the declarative UI definition in the XML view if apps run in an external shell, like the SAP Fiori launchpad that already has a shell around the component UI.
 
 There are further options to customize the shell, like setting a custom background image or color and setting a custom logo. Check the related API reference for more details.

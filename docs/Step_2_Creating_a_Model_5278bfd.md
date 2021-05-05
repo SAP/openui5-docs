@@ -23,7 +23,7 @@ The business data within a model can be defined using various formats:
 -   Your own custom format \(not covered in this tutorial\)
 
 
-> Note:  
+> ### Note:  
 > There is also a special type of model called a "resource model". This model type is used as a wrapper object around a resource bundle file. The names of such files must end with `.properties` and are used typically for holding language-specific text.
 > 
 > We will use this in [Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md).
@@ -87,7 +87,7 @@ This makes the model object globally available to all controls used within the a
 
 In this case we have bound the model object to the OpenUI5 core. This has been done for simplicity, but is not considered good practice. Generally speaking, a model object holding business data should be bound to the app's `Component.js` or to the view that displays the data. For an example, see the Walkthrough tutorial, [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md) \(binding to the View\) or [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md) \(binding to the Component\).
 
-> Note:  
+> ### Note:  
 > Models can be set on every control by calling `setModel()`. The model is then propagated to all aggregated child controls \(and their children, and so on…\). All child control will then have access to that model
 
 The text that is displayed on the UI is still hard-coded and not taken from the model - we will bind the property `greetingText` to our UI control in the next step.

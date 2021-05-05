@@ -23,7 +23,7 @@ The main options are the following:
 -   Inspect the HTML and CSS of a control and write a similar, but adapted CSS rule for a CSS property you want to override for all controls of a type.
 -   Call `.addStyleClass("myStyle")` on some control instances if you want only those instances to look different from other instances - and then write CSS code that refers to the normal classes/tags and to the CSS class you just added.
 
-> Note:  
+> ### Note:  
 > -   With this high degree of power and flexibility comes quite some responsibility. With CSS you can easily break the functionality of a control. This is not OpenUI5-specific, but when you make CSS adaptions, you should always have good knowledge of this open standard.
 > -   The inner structure of a control, the tag hierarchy, the IDs and CSS classes are **not** part of the public control API for which we guarantee stability. This is also the case for other UI libraries which might define some CSS classes as stable, but not everything else. As CSS can refer to the inner structures of a control, you have to accept the risk that your style changes break when we change the inner structure. Changing the inner structure is a freedom we absolutely need to reserve, so we can fix bugs and add features of a control.
 > -   When your CSS does not work as expected, use the developer tools in your browser to inspect the page and check which CSS rules are applied to the respective tag, and which rules might be applied but are overridden by other rules. If your rules are overridden by other rules, this is probably due to their order of appearance \(last rule wins\) or the CSS selector specificity \(more specific CSS selectors win\).

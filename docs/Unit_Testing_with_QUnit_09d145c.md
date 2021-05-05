@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic JavaScript code. It supports asynchronous tests out-of-the-box.
 
-> Note:  
+> ### Note:  
 > Before you begin setting up a QUnit test environment, read the background information and introduction to the QUnit test API itself, which is available on the external web site `http://api.qunitjs.com/`. This official QUnit documentation features a complete description of the QUnit test API and contains many examples.
 
 ***

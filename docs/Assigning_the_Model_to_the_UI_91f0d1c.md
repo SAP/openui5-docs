@@ -30,7 +30,7 @@ Choose one of the following options:
 
 -   If you use a Component for your app, you should set the model in the `manifest.json`:
 
-    > Example:  
+    > ### Example:  
     > **Setting a model in the manifest.json**
     > 
     > ``` json
@@ -65,7 +65,7 @@ Choose one of the following options:
 
     If you need to access your model in the `onInit` function of a controller, keep in mind that the model is not available via `this.getView().getModel("myModel")`. This is because the model is held by a view's parent, which isn't yet connected to the view at execution time. However, you can access the model via the Component in the following way:
 
-    > Example:  
+    > ### Example:  
     > **Setting a model in the `onInit` function of a controller**
     > 
     > ``` js

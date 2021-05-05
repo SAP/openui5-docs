@@ -34,7 +34,7 @@ To set up your project for this tutorial, download the files for *Step 1* from t
 
 To access the real service, you would need to set up a proxy service that connects your app project deployed on a Web server to the remote service. Due to the so called same-origin policy browsers deny AJAX requests to service endpoints in case the domain/subdomain, protocol, or port differ from the app’s domain/subdomain, protocol, or port. Cross-origin resource sharing \(CORS\) makes it possible to break out of these restrictions derived from the same-origin policy. With CORS the server and browser agree which cross-origin requests are allowed. Another way to bypass the same-origin policy is using a proxy on the same host of the app. To keep it simple, our app contains a test page to run the app with local mock data instead of retrieving the data from a real server hosted somewhere else. This way we won’t have any issues related to the same-origin policy of the browsers, as long as we run the app with our mock server.
 
-> Note:  
+> ### Note:  
 > The texts in the `i18n.properties` file are automatically generated based on the template Customizing \(OData entity set, entities, properties, and texts\). The result can be incorrect texts like "Enter an <Products\> name or a part of it." You should therefore revise the generated texts in the `i18n.properties` file.
 
 ***
@@ -75,7 +75,7 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
 
         Furthermore, we define two models to be automatically instantiated and bound to the component: an `i18n` model and a default model `""`. The latter references our `mainService` `dataSource`, which is declared in our `sap.app` section as an OData 2.0 data source. The `i18n` file can be found at `webapp/i18n/i18n.properties`. The `mainService` data source will be mocked by our mock server.
 
-    > Note:  
+    > ### Note:  
     > There is a `test.html` file in the `webapp` folder. This file serves as an easy entry point for developers to run and test the app in various ways during development. It contains links to the relevant files inside the `test` folder, which you can use to run with the Mock Server or to run unit tests and OPA tests.
 
 

@@ -80,7 +80,7 @@ With `frameOptionsConfig` the following additional configuration options can be 
 			<td> `function(bSuccess)` 
 			</td>
 			<td>Function that is called with the success state
- > Note:  
+ > ### Note:  
  > The function can be synchronously called from the OpenUI5 bootstrap script. The DOM \(`document.body`\) may not be accessible.
 			</td>
 		</tr>

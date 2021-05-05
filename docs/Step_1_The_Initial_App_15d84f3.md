@@ -83,7 +83,7 @@ The `manifest.json` descriptor file contains the app configuration. In the `sap.
 
 #### Mock server \(`webapp/localService/*`\)
 
-> Note:  
+> ### Note:  
 > The mock server included in this tutorial is only meant to support the features needed in this tutorial. Currently, there is no "general-purpose mock server" for application development available with OData V4 \(like there is for OData V2\).
 
 The `mockserver.js` file contains the implementation of the mock server. It is quite simple since the mock server is only used to simulate certain types of requests to the *TripPin* service.

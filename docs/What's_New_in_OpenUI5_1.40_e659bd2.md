@@ -20,14 +20,14 @@ In the following sections, we list the main new features and enhancements to Ope
 
 The new Belize theme \(`sap_belize`\) has been introduced and replaces Blue Crystal \(`sap_bluecrystal`\) as the default theme. Blue Crystal is only supported until version 1.38. Note that Blue Crystal will remain supported for at least two more years in the 1.38 release branch, which is a long-term maintenance branch.
 
-> Caution:  
+> ### Caution:  
 > The Belize theme does not support deprecated libraries such as `sap.ui.commons`, or `sap.ui.ux3` \(see [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)\).
 > 
 > Custom themes based on `sap_bluecrystal` are no longer supported with 1.40 or higher. Furthermore, custom themes cannot be converted to Belize automatically, you will have to adapt them manually.
 > 
 > Belize does not support the same set of theme parameters as Blue Crystal. If you use custom themes or custom controls, check whether all parameters you use are still supported.
 
-> Note:  
+> ### Note:  
 > Sorry! Many of the examples, tutorials, and screenshots in this documentation still use Blue Crystal \(`sap_bluecrystal`\). Since there are so many, we simply could not manage to update those. Please keep in mind that you should use Belize \(`sap_belize`\) instead.
 
 ***
@@ -65,7 +65,7 @@ The second version of the OpenUI5 OData V4 model introduces the following featur
 -   Support for contained entities
 
 
-> Restriction:  
+> ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double check the detailed documentation of the features, as certain parts of a feature may be missing although you might expect these parts as given. While we aimed at being compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(like tree binding\). The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.

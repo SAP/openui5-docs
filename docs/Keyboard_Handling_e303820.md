@@ -22,7 +22,7 @@ Make sure that all available features of the application can be accessed by usin
 
 **Tab order and reading order**
 
-> Example:  
+> ### Example:  
 > When you have to select a country and city from select boxes, the country should be focused first and after that the city.
 
 ***

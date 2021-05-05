@@ -54,7 +54,7 @@ The renderer defines the HTML structure that will be added to the DOM tree of yo
 
 The `init` method is a special function that is called by the OpenUI5 core whenever the control is instantiated. It can be used to set up the control and prepare its content for display.
 
-> Note:  
+> ### Note:  
 > Controls always extend `sap.ui.core.Control` and render themselves. You could also extend `sap.ui.core.Element` or `sap.ui.base.ManagedObject` directly if you want to reuse life cycle features of OpenUI5 including data binding for objects that are not rendered. Please refer to the API reference to learn more about the inheritance hierarchy of controls.
 
 ``` js
@@ -166,7 +166,7 @@ In the `metadata` section we therefore define several properties that we make us
 
     -    `_button`: A `sap.m.Button` to submit the rating
 
-    > Note:  
+    > ### Note:  
     > You can define `aggregations` and `associations` for controls. The difference is in the relation between the parent and the related control:
     > 
     > -   An **aggregation** is a strong relation that also manages the lifecycle of the related control, for example, when the parent is destroyed, the related control is also destroyed. Also, a control can only be assigned to one single aggregation, if it is assigned to a second aggregation, it is removed from the previous aggregation automatically.

@@ -101,10 +101,10 @@ The following table shows the configuration options that can be specified in the
 	</tbody>
 </table>
 
-> Note:  
+> ### Note:  
 > In case the properties `bundleName` and `bundleUrl` have both been specified, `bundleName` will be preferred.
 
-> Note:  
+> ### Note:  
 > Certain ABAP systems implement their own language fallback mechanism, which might lead to unwanted results if you're using terminologies. For example, a request of a French resource bundle file \(such as `../i18n_fr.properties`\) might be answered with English content in case there is no available French version in the back end.
 > 
 > To prevent this behavior, you need to explicitly set the `supportedLocales` option to the actual valid set of supported languages for the back end.
@@ -219,7 +219,7 @@ sap.ui.require(["sap/ui/core/Component"], function(Component) {
 
 #### Activate Terminologies via URL Parameter
 
-> Note:  
+> ### Note:  
 > The activation of terminologies via URL parameter is mainly intended for testing purposes.
 
 Another option is to attach the URL parameter `sap-ui-activeTerminologies` with a comma-separated list of terminologies to the URL:
@@ -233,7 +233,7 @@ Another option is to attach the URL parameter `sap-ui-activeTerminologies` with 
 
 #### Activate Terminologies via the Bootstrap Configuration
 
-> Note:  
+> ### Note:  
 > The activation of terminologies via the bootstrap configuration is mainly intended for testing purposes.
 
 A third option is to provide the list of active terminologies \(also comma-separated\) in the bootstrap configuration via the `data-sap-ui-activeTerminologies` attribute:

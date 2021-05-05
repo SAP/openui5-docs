@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 `Upload Collection` is a list control for attachment management that provides the ability to upload, edit or delete attachments.
 
-> Caution:  
+> ### Caution:  
 > Deprecated as of version 1.88, replaced by [class sap.m.upload.UploadSet](https://openui5.hana.ondemand.com/sdk/#/api/sap.m.upload.UploadSet).
 
 The `UploadCollection` control allows users to upload single or multiple files from their devices \(desktop PC, tablet or phone\) to an app. Due to its responsiveness, the upload collection can be used in containers of different sizes.

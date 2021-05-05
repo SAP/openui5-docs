@@ -20,7 +20,7 @@ For example, a classical Web application might display the employee’s resume p
 
 The information in the hash, namely everything that is following the `#` character, is interpreted by the router.
 
-> Note:  
+> ### Note:  
 > This tutorial does not handle cross-app navigation with the SAP Fiori launchpad. However, the concepts described in this tutorial are also fundamental for navigation and routing between apps in the SAP Fiori launchpad.
 
 -   Display a *Not Found* page
@@ -38,7 +38,7 @@ The information in the hash, namely everything that is following the `#` charact
 
 Throughout this tutorial we will add features for navigating to pages and bookmarking them. We will add backward and forward navigation with common transition animations \(slide, show, flip, etc.\). We will add more pages to the app and navigate between them to show typical use cases. We will even learn how to implement features for bookmarking a specific search, table sorting via filters, and dialogs.
 
-> Tip:  
+> ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
 > You can view and download the files for all steps in the Demo Kit at [Navigation and Routing](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.navigation/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.

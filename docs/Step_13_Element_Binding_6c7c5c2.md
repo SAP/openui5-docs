@@ -132,7 +132,7 @@ sap.ui.define([
 
 In the controller, we bind the newly created panel to the correct item whenever it is pressed.
 
-> Note:  
+> ### Note:  
 > Element bindings can also be relative to its parent context.
 
 ***

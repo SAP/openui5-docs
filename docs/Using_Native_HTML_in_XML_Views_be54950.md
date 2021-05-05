@@ -25,7 +25,7 @@ When mixing XHTML and OpenUI5 controls, observe the following rules:
 -   The created HTML DOM nodes are preserved during re-rendering of an XML view: Modifications to the DOM are not lost.
 
 
-> Note:  
+> ### Note:  
 > As an alternative to embedding XHTML, you can use the `sap.ui.core.HTML` control. As this requires content encoding it is, however, less convenient.
 
 ***

@@ -76,7 +76,7 @@ The binding mode \(one-way or two-way\) is set on the model itself. Therefore, u
 -   Specify the data binding mode for a specific binding instance by using the `oBindingInfo.mode` parameter. This change applies only to this data binding instance. Any other binding instances will continue to use the model's default binding mode.For more information, see [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty). 
 
 
-> Note:  
+> ### Note:  
 > -   If you alter the default binding mode of a model \(as in the example above\), then unless you explicitly say otherwise, all binding instances created after that point in time will use the altered binding mode.
 > 
 > -   Altering a model's default binding mode has no effect on already existing binding instances.

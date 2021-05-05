@@ -66,7 +66,7 @@ The controls will now always be identified by these IDs.
 
 In the case of views, the sequence of instantiation also plays a role: If there are two views with unstable IDs in the app, they get the generated IDs `__view0` and `__view1` depending on the order the views are opened. This makes it impossible to correctly identify them when they are processed by other features.
 
-> Tip:  
+> ### Tip:  
 > You should choose a semantic name for your IDs that makes it easier for you to identify them later.
 
 For more information about naming restrictions, some testing options to check for unstable IDs, as well as the features that require stable IDs, see the related link below.

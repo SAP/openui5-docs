@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 comes with several controls which are already able to react to the available screen real estate and resolution by themselves. Some require particular properties to be set, and with some, everything just works out of the box.
 
-> Note:  
+> ### Note:  
 > This list does not claim to be comprehensive, but shows some widely used examples outlining the steps you can take to make use of this functionality. For more details, browse through the [Samples](https://openui5.hana.ondemand.com/explored.html) in the Demo Kit and see what OpenUI5 has in store for your app.
 
 ***
