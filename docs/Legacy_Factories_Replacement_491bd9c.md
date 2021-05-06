@@ -279,13 +279,42 @@ var oView = sap.ui.jsview({
 
 ```
 			</td>
-			<td>`JSView.create` loads and creates JSView instances. For defining JavaScript views, there's no substitute yet, and `sap.ui.jsview` still has to be used.
+			<td>For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`.
 ```
 
-sap.ui.require(['sap/ui/core/mvc/JSView'], function(JSView){
+sap.ui.require(['sap/ui/core/mvc/View', 'sap/m/Panel'], function(View, Panel){
 								
-    JSView.create({ 
+    return View.extend("my.View", {
+
+		// define, which controller to use
+		getControllerName: function() {
+			return "my.Controller";
+		},
+
+		// whether the ID of content controls should be prefixed automatically with the view ID
+		getAutoPrefixId: function() {
+			return true; // default is false
+		},
+
+		// create view content and return the root control(s)
+		createContent: function() {
+			return new Promise(function(res, rej) {
+				res(new Panel({...}));
+			}).catch(function(oError) {
+				throw oError;
+			});
+    	}
 								
+    });
+});
+
+```
+
+```
+sap.ui.require(['sap/ui/core/mvc/View'], function(View){
+								
+    View.create({ 
+						
         viewName: "my.View"
 								
     }).then(function(oView) { ... });

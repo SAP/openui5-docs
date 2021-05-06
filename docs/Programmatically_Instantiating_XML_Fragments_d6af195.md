@@ -34,7 +34,7 @@ Fragment.load({
 > ### Note:  
 > This specific fragment does not use a controller; if controls inside a fragment need methods that are defined in a controller, the controller has to be given as an additional parameter.
 
-Fragments can be instantiated from JSViews, as well. Fragments of any type can be used within views of any type.
+Fragments of any type can be used within views of any type.
 
 If XML fragments are used within XML views, you can use the view ID also as the fragment ID. This will allow you to call `this.byId(…)` in the view’s controller in order to retrieve controls inside the fragment. The following code inside the controller will instantiate the above fragment with the `Button` and then again retrieve the `Button` via its ID:
 

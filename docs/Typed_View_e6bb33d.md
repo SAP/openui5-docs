@@ -27,9 +27,8 @@ The following example shows the definition of a view of type `myapp.views.MyView
 ``` js
  sap.ui.define([
   "sap/ui/core/mvc/View",
-  "my/views/MyViewRenderer",
   "sap/m/Panel"
-], function(View, MyViewRenderer Panel) {
+], function(View, Panel) {
   return View.extend("myapp.views.MyView", {
     // define, which controller to use
     getControllerName: function() {
@@ -90,18 +89,12 @@ sap.ui.require(["myapp/views/MyView"], function(MainView) {
 
 ### View Declaration in XML
 
-A typed view in XML can be declared via the classes `sap.ui.core.mvc.View` or `sap.ui.core.mvc.JSView`, respectively. Using either of these classes requires a `module:` prefix in the `viewName` attribute.
+A typed view in XML can be declared via the class `sap.ui.core.mvc.View`. Using this class requires a `module:` prefix in the `viewName` attribute.
 
 **Example:** View Declaration using class `sap.ui.core.mvc.View`:
 
 ``` xml
 <mvc:View viewName="module:myapp/views/MyView" />
-```
-
-**Example:** View Declaration using class `sap.ui.core.mvc.JSView`:
-
-``` xml
-<mvc:JSView viewName="module:myapp/views/MyView" />
 ```
 
 A typed view can also be declared via its own view class. You need to provide the namespace of the typed view in the XML.

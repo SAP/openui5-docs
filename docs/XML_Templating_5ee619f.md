@@ -22,18 +22,16 @@ The transformation happens if a preprocessor for XML is called when the view is 
 If the view is loaded asynchronously, fragments and required modules are loaded asynchronously, too.
 
 > ### Restriction:  
-> XML templating is not directly supported with routing, that is, there is no way to declare that the XML Preprocessor should run on the target view of a route. Instead, you should define a JavaScript view as the route's target and use that view's `createContent` method to create an XML view with templating.
-> 
-> As of Version 1.56 `sap.ui.core.mvc.JSView.create` is introduced to load and create view instances asynchronously. To define JavaScript views, the synchronous method `sap.ui.jsview` still has to be used, however. In this use case `sap.ui.core.mvc.JSView.create` cannot be used. For more information, see the API References: [`sap.ui.core.mvc.JSView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.JSView%23methods/sap.ui.core.mvc.JSView.create) and [`sap.ui.jsview`](https://openui5.hana.ondemand.com/#/api/sap.ui%23methods/sap.ui.jsview). 
+> XML templating is not directly supported with routing, that is, there is no way to declare that the XML Preprocessor should run on the target view of a route. Instead, you should define a [typed view](Typed_View_e6bb33d.md) as the route's target and use that view's `createContent` method to create an XML view with templating.
 > 
 > In case you need access to models \(which are not yet available in that hook\), you should return some dummy content first \(for instance sap.m.HBox\), register to the view's modelContextChange event and create the inner view in that event's handler, finally adding it to the dummy content.
 > 
-> JavaScript Target View For Routing
+> **Target Typed View For Routing**
 > 
 > ```
-> sap.ui.define(["sap/ui/core/mvc/XMLView"], function (XMLView) {
+> sap.ui.define(["sap/ui/core/mvc/View", "sap/ui/core/mvc/XMLView"], function (View, XMLView) {
 > 
->      sap.ui.jsview("some.package.RouteTargetView", {
+>      return View.extend("some.package.RouteTargetView", {
 >          createContent : function () {
 >              return XMLView.create({
 >                  preprocessors : {

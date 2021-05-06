@@ -134,7 +134,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
 -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.JSView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.JSView/methods/sap.ui.core.mvc.JSView.create) instead.
+-   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
 -   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
@@ -310,15 +310,15 @@ See also: [sap.ui.core.Control - attachBrowserEvent](https://openui5.hana.ondema
 
 ### Don't create global IDs \(when running with other views or apps\)
 
-When you create JSViews or applications that will be running together with views or applications from other sources \(that are not owned by you\), or JSViews that will be instantiated several times in parallel, you must not create stable IDs for your controls, fragments, or views in OpenUI5. Doing so might result in duplicate ID errors that will break your app. Especially when running together with other apps, there could be name clashes or other errors.
+When you create typed views or applications that will be running together with views or applications from other sources \(that are not owned by you\), or typed views that will be instantiated several times in parallel, you must not create stable IDs for your controls, fragments, or views in OpenUI5. Doing so might result in duplicate ID errors that will break your app. Especially when running together with other apps, there could be name clashes or other errors.
 
 Use the `createId()` function of a view or controller instead. This is done automatically in XMLViews and JSONViews. The `createId()` function adds the View ID as a prefix, thus recursively ensuring uniqueness of the ID \(for example: `__page0--__dialog0`\).
 
  <a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
 
-|Bad Example \(Inside a JSView\)
+|Bad Example \(Inside a Typed View\)
 
-|Good Example \(Inside a JSView\)
+|Good Example \(Inside a Typed View\)
 
 |
  > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
@@ -326,8 +326,8 @@ Use the `createId()` function of a view or controller instead. This is done auto
 <table>
 	<thead>
 		<tr>
-			<th>---------------------------------</th>
-			<th>----------------------------------</th>
+			<th>-------------------------------------</th>
+			<th>--------------------------------------</th>
 		</tr>
 	</thead>
 	<tbody>

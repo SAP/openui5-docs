@@ -21,11 +21,11 @@ Compared to image-based icons, icon font is easily scalable and you can change t
 
 ### Using Custom Icons
 
-To display your custom icons in all browsers that OpenUI5 supports, you need both, the `woff` and the `woff2` version of your icon file. To use your own icon font files in the `Icon` control, the font file and the metadata for the icons in the font file need to be registered in the `IconPool`. You can register both of them by calling the `IconPool.registerFont` with a config object which contains the following options:
+To display your custom icons in all browsers that OpenUI5 supports, you need the `woff2` version of your icon file. To use your own icon font file in the `Icon` control, the font file and the metadata for the icons in the font file need to be registered in the `IconPool`. You can register both of them by calling the `IconPool.registerFont` with a config object which contains the following options:
 
 -   `fontFamily`: Name of the font file without the font extension
 
--   `fontURI`: URI of the folder where the `woff` and `woff2` files are included. You can use the `sap.ui.require.toUrl` function to resolve a folder path based on the resource path setting.
+-   `fontURI`: URI of the folder where the `woff2` file is included. You can use the `sap.ui.require.toUrl` function to resolve a folder path based on the resource path setting.
 
 -   `collectionName` \(optional\): Collection name which can be used in the `sap-icon` URI to reference the icons. If this is not provided, the `fontFamily` is used as `collectionName`.
 
@@ -40,7 +40,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 > If neither `metadata` nor `metadataURI` is provided, a request is sent to `fontURI`/`fontFamily`.json to load the metadata.
 
 > ### Example:  
-> The `sap.tnt` library provides an extra icon set. The `sap/tnt/themes/base/fonts` folder contains `SAP-icons-TNT.woff` and `SAP-icons-TNT.woff2` as well as the `SAP-icons-TNT.json` JSON file, which contains the mapping of the icon name and the icon's hex code:
+> The `sap.tnt` library provides an extra icon set. The `sap/tnt/themes/base/fonts` folder contains the `SAP-icons-TNT.woff2` font file as well as the `SAP-icons-TNT.json` JSON file, which contains the mapping of the icon name and the icon's hex code:
 > 
 > ``` js
 > {
@@ -58,7 +58,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need bot
 > }
 > ```
 
-The JSON file has the same name as the `woff` and `woff2` files, so it is not necessary to set `metadataURI`. To register the icon in the `IconPool`, use the following code. Note that in the example the metadata is not loaded until one icon from this icon set is used because `lazy` is set to true.
+The JSON file has the same name as the `woff2` file, so it is not necessary to set `metadataURI`. To register the icon in the `IconPool`, use the following code. Note that in the example the metadata is not loaded until one icon from this icon set is used because `lazy` is set to true.
 
 ``` js
 // "IconPool" required from module "sap/ui/core/IconPool"

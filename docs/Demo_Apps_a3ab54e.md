@@ -132,12 +132,6 @@ Formatting
 			</td>
 		</tr>
 		<tr>
-			<td>*Hello World*
-			</td>
-			<td>[JS View](JS_View_91f262e.md)
-			</td>
-		</tr>
-		<tr>
 			<td>*Bulletin Board*
 			</td>
 			<td>[XML View](XML_View_91f2928.md)

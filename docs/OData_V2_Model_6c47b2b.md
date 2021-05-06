@@ -667,7 +667,7 @@ In its constructor the OData V2 model supports a flag called `preliminaryContext
 
 A relative binding depends on a different binding \(its **parent binding**\) if the parent binding reads the OData entity corresponding to the context that is set for the dependent binding.
 
-By default, data for the dependent binding is only read once the data for its binding context has been read via the parent binding. This leads to two sequential requests, where the first one reads data for the parent binding **creating** the context, and the second reads data for the dependent binding which **uses** this context.
+By default, data for the dependent binding is only read once the data for its binding context has been read via the parent binding. This leads to two sequential requests, where the first one reads data for the parent binding leading to the **creation** of the context, and the second reads data for the dependent binding which **uses** this context.
 
 In case the parent binding is a context binding, you can improve performance by bundling these two read requests into one. You can achieve this by specifying that the single context associated with the binding is a preliminary context. For this, you need to set the `createPreliminaryContext` parameter on construction of the parent binding. Dependent list or context bindings can then use the path of this preliminary context before data has been read for it in order to construct the path for their own request to read data. This is done by setting the `usePreliminaryContext` parameter on construction of the dependent binding.
 

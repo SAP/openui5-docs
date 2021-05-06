@@ -18,7 +18,7 @@ The following predefined view types are available:
 
 -   **JSON view** \(file or string in JSON format\)
 
--   **JS view**, constructed in a programmatic manner
+-   **Typed view**, constructed in a programmatic manner
 
 -   **HTML view** \(file or string in HTML format\)
 
@@ -34,7 +34,7 @@ The following predefined view types are available:
 
 ### Typed Views
 
-A view can also be defined as [Typed View](Typed_View_e6bb33d.md) \(JS View\), representing its own class.
+A view can also be defined as a [typed view](Typed_View_e6bb33d.md), representing its own class.
 
 > ### Note:  
 > Typed views are available since OpenUI5 1.88

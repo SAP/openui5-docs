@@ -243,6 +243,8 @@ oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).execute();
 >     Example: The operation binding has a relative path `BP_2_PRODUCT/name.space.Change(...)`. You set its binding context from the selected item in a table bound to `/BusinessPartners`. When you call `execute` on the operation binding, the "change" action is executed with the selected business partner's navigation property `BP_2_PRODUCT` as binding parameter.
 > 
 > -   The parent binding of a deferred operation must not be a deferred operation itself.
+> 
+> -   When executing a bound action, you can use the second `bIgnoreETag` argument of  [`ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) to actively ignore the ETag match that normally happens \(technically, the header *"If-Match : \*"* will be used\). This is useful if a second bound action for the same entity is to be executed within the same batch \(especially if it is in a different change set\). An example would be "prepare" and "activate" for a draft orchestration. Without this, the second bound action would be rejected, because the client sent the initial ETag via the *"If-Match"* header, but the first bound action changes that ETag on the server before the second one is executed.
 
 ***
 
