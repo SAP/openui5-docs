@@ -298,6 +298,14 @@ Every new version of OpenUI5 implies a new version of the app descriptor. In the
 			<td>1.32.0
 			</td>
 		</tr>
+		<tr>
+			<td>Version 34
+			</td>
+			<td>\>=1.90
+			</td>
+			<td>1.33.0
+			</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -952,7 +960,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.32.0",
+    "_version": "1.33.0",
  
     "start_url": "index.html",
  
@@ -1042,7 +1050,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.88.0",
+            "minUI5Version": "1.90.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

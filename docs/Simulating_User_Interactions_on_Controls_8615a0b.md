@@ -232,10 +232,13 @@ oOpa.waitFor({
 });
 ```
 
+***
+
+<a name="loio8615a0b9088645ae936dbb8bbce5d01d__section_zr4_1xn_npb"/>
+
 ### Simulating Scroll
 
-As of version 1.90, you can scroll in controls that provide a scrollable area.
-The following example scrolls a `sap.uxap.ObjectPageLayout` vertically by 200px:
+As of version 1.90, you can scroll in controls that provide a scrollable area. The following example scrolls `sap.uxap.ObjectPageLayout` vertically by 200px:
 
 ``` js
 oOpa.waitFor({
@@ -247,7 +250,7 @@ oOpa.waitFor({
 });
 ```
 
-For more information, see [sap.ui.core.delegate.ScrollEnablement](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.delegate.ScrollEnablement.html).
+For more information, see [`sap.ui.core.delegate.ScrollEnablement`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.delegate.ScrollEnablement).
 
 ***
 
