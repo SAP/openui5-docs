@@ -110,11 +110,19 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[F6\] /  [Shift\] + [F6\] 
+			<td>[F6\] /  [Ctrl\] + [Alt/Option\] + [Down\] 
 			</td>
-			<td>Skips focus of UI elements \(forward / backward\)
+			<td>Forward fast navigation
 			</td>
-			<td>UI elements within an application can be grouped together \(for example, all elements in the header of an application\). You can skip focusing the elements within a group by using these keys.
+			<td>UI elements within an application can be grouped together \(for example, all elements in the header of an application\). You can forward-skip focusing every element within such a group by using these keys.
+			</td>
+		</tr>
+		<tr>
+			<td> [Shift\] + [F6\]  /  [Ctrl\] + [Alt/Option\] + [Up\] 
+			</td>
+			<td>Backward fast navigation
+			</td>
+			<td>Skips focus of UI elements backward.
 			</td>
 		</tr>
 	</tbody>
