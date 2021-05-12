@@ -110,7 +110,10 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[F6\] /  [Ctrl\] + [Alt/Option\] + [Down\] 
+			<td>[F6\] 
+or
+
+ [Ctrl\] + [Alt/Option\] + [Down\] 
 			</td>
 			<td>Forward fast navigation
 			</td>
@@ -118,7 +121,10 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td> [Shift\] + [F6\]  /  [Ctrl\] + [Alt/Option\] + [Up\] 
+			<td> [Shift\] + [F6\]  
+or
+
+ [Ctrl\] + [Alt/Option\] + [Up\] 
 			</td>
 			<td>Backward fast navigation
 			</td>

@@ -20,14 +20,7 @@ Typical use cases for suspend and resume are:
 
     In some situations you may want to suppress OData requests and change events triggered by an OData V4 binding for a certain period of time. This is useful for value help dialogs, such as the value help for the `/BusinessPartnerList` when creating a sales order in the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders)*SalesOrders OData V4* sample in Demo Kit.
 
-2.  **UI adaptation at runtime:**
-
-    The UI is adapted by adding or removing a column to a table or a field to a form; the "auto-$expand/$select" feature recomputes the $expand and $select query options when the corresponding list binding or context binding is suspended before adaptation and resumed afterwards.
-
-    > ### Note:  
-    > The template for the aggregation in a UI5 control cannot be adapted afterwards. That's why the aggregation has to be "bound again" after applying changes to the table template. For example. for a [`sap.m.Table`](https://openui5.hana.ondemand.com/#/api/sap.m.Table), you have to call its `bindItems` method.
-
-3.  **Avoid intermediate request when modifying the binding multiple times**
+2.  **Avoid intermediate request when modifying the binding multiple times**
 
     You want to add a filter and change the sorting of a list binding. If the binding is not suspended, it will trigger a request after calling the `filter` method, and a second request after calling the `sort` method. If it is suspended, only one request with the updated filter and sort criteria is sent on `resume`.
 
