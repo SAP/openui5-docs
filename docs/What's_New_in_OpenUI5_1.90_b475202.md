@@ -14,13 +14,6 @@ With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
 ***
 
-<a name="loiob47520229109430cba291b5290848c08__section_yxw_pxt_zcb"/>
-
-### New Features
-
-
-***
-
 <a name="loiob47520229109430cba291b5290848c08__section_bkm_s15_zcb"/>
 
 ### New Controls
@@ -37,6 +30,11 @@ The control provides a container for `sap.m.NotificationListGroup` and `sap.m.No
 
 ### Improved Features
 
+|**One Page Acceptance Tests \(OPA5\)**
+
+You can now simulate scroll in controls that provide a scrollable area. For more information, see [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md).
+
+|
 
 ***
 
