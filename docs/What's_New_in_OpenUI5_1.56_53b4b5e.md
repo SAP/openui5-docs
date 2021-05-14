@@ -44,7 +44,7 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
 #### XML Composite Control
 
-A new type of composite control, the XML composite control, is now available. It let's you build more flexible controls that contain separate XML and JavaScript parts. For more information, see [b83a4dcb7d0e46969027345b8d32fd44.md](), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.XMLComposite), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.XMLComposite). 
+A new type of composite control, the XML composite control, is now available. It let's you build more flexible controls that contain separate XML and JavaScript parts. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.XMLComposite) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.XMLComposite). 
 
 ***
 
