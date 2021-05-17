@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Extended change detection offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
 
+In aggregations \(such as lists\), ECD can be used by controls to only modify entries which have been changed instead of updating the complete aggregation after model data have been changed and a change event has been fired by the binding. By the improved update mechanism, unnecessary updates of aggregations and rerenderings of the DOM are significantly reduced. In many scenarios this leads to a better performance for the end user.
+
 The binding base class already offers a `Change` event, which is fired whenever the bound data has been changed. This is sufficient for bindings like property and context binding. Since lists can contain a huge amount of data, you need more detailed information on the changes to avoid a complete rerendering of the whole list each time data has been changed on the UI.
 
 ***
