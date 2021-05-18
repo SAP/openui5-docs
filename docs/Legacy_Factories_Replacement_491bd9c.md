@@ -282,7 +282,7 @@ var oView = sap.ui.jsview({
 			<td>For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`.
 ```
 
-sap.ui.require(['sap/ui/core/mvc/View', 'sap/m/Panel'], function(View, Panel){
+sap.ui.define(['sap/ui/core/mvc/View', 'sap/m/Panel'], function(View, Panel){
 								
     return View.extend("my.View", {
 

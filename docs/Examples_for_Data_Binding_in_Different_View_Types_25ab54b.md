@@ -33,7 +33,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
             <Column>
                 <Label text="Birthday"/>
             </Column>
-        <columns>
+        </columns>
         <items>
 			<ColumnListItem>
 				<cells>
