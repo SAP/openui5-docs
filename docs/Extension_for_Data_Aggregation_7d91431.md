@@ -67,7 +67,7 @@ Two scenarios are supported:
 
 -   You can provide group levels to determine a hierarchy of expandable group levels in addition to the leaf nodes determined by the groupable and aggregatable properties. To achieve this, specify the names of the group levels in the `groupLevels` property of `$$aggregation`.
 
-    Group levels cannot be combined with the system query option `$count : true` and can only be combined with filtering before the aggregation \(see below\). Note how an `$orderby` option can address groups across all levels. For every aggregatable property, you can request subtotals and a grand total individually.
+    Group levels can be combined with the system query option `$count : true`; for more information, see [Binding Collection Inline Count](Binding_Collection_Inline_Count_77d2310.md). Group levels can only be combined with filtering before the aggregation \(see below\). Note how an `$orderby` option can address groups across all levels. For every aggregatable property, you can request subtotals and a grand total individually.
 
     > ### Sample Code:  
     > **Example XML View With Hierarchy**
