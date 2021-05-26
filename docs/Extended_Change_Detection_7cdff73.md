@@ -10,11 +10,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Extended Change Detection
 
-Extended change detection offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
+Extended change detection \(ECD\) offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
 
 In aggregations \(such as lists\), ECD can be used by controls to only modify entries which have been changed instead of updating the complete aggregation after model data have been changed and a change event has been fired by the binding. By the improved update mechanism, unnecessary updates of aggregations and rerenderings of the DOM are significantly reduced. In many scenarios this leads to a better performance for the end user.
 
-The binding base class already offers a `Change` event, which is fired whenever the bound data has been changed. This is sufficient for bindings like property and context binding. Since lists can contain a huge amount of data, you need more detailed information on the changes to avoid a complete rerendering of the whole list each time data has been changed on the UI.
+The binding base class already offers a `change` event, which is fired whenever the bound data has been changed. This is sufficient for bindings like property and context binding. Since lists can contain a huge amount of data, you need more detailed information on the changes to avoid a complete rerendering of the whole list each time data has been changed on the UI.
 
 ***
 
@@ -60,9 +60,11 @@ The difference between the state when the list was initially loaded and the curr
 > The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 
 > ### Caution:  
-> -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. This means, it is completely independent from the `startIndex` and `length` parameters. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. If you want to access the current context of a list binding, you should use `getCurrentContexts` in your app instead.
+> -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. This can, for example, occur if your control uses fixed headers or footers. Fixed bottom or top rows must therefore not be used together with ECD.
 > 
-> -   When a `ListBinding` is firing a `Refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
+>     If you want to access the current context of a list binding, you should use `getCurrentContexts` in your app instead.
+> 
+> -   When a `ListBinding` is firing a `refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
 
 ***
 

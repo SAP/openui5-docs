@@ -30,7 +30,7 @@ To reduce payload, applications should only select properties that are needed us
 
 ### Batching Requests or Not
 
-By default, the OData V4 model collects all requests made to the OData service in a batch request to reduce the number of roundtrips. The disadvantage of a batch request is that it cannot be cached by the browser. If some of the requests \(e.g. value help requests\) are "cacheable", it is a good idea to request these resources directly and use the browser cache to improve the performance of the application. In such cases, use the `$direct` group as described in the section [Batch Control](Batch_Control_74142a3.md).
+By default, the OData V4 model collects all requests made to the OData service in a batch request to reduce the number of roundtrips. The disadvantage of a batch request is that it cannot be cached by the browser. If some of the requests \(e.g. value help requests\) are "cacheable", it is a good idea to request these resources directly and use the browser cache to improve the performance of the application. In such cases, use the `$direct` group as described in the section [Batch Control](Batch_Control_74142a3.md). For that reason, unit and currency code lists are fetched with `$direct` by the model. See also [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md) for more information on unit and currency code lists.
 
 ***
 
