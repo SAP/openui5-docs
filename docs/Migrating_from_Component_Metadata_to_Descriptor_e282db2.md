@@ -114,7 +114,7 @@ For compatibility reasons, the mapping to the `manifest.json` file is done autom
 
 ### Dependencies
 
-Libraries and components are objects and not arrays. For the descriptor part, we use `ui5version` instead of `minUI5Version`.
+Libraries and components are objects and not arrays. For the descriptor part, we use `minUI5Version` instead of `ui5version`.
 
 **Metadata** 
 
