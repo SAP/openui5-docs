@@ -37,7 +37,7 @@ When extended change detection is enabled, an algorithm is executed to compare t
     The difference has been calculated and can be used by the control or application to update dependent structures in a fine grained manner
 
 
-The difference between the state when the list was initially loaded and the current state is provided to the control as an array that contains `insert` and `remove` entries that contain the actual changes.
+The difference between the previous and the current state of the list is provided to the control as an array that contains `insert` and `remove` entries that contain the actual changes.
 
 > ### Example:  
 > | **Old State** 
@@ -60,9 +60,9 @@ The difference between the state when the list was initially loaded and the curr
 > The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 
 > ### Caution:  
-> -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. This can, for example, occur if your control uses fixed headers or footers. Fixed bottom or top rows must therefore not be used together with ECD.
+> -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. This can, for example, occur if your control uses fixed headers or footers, which must therefore not be used together with ECD.
 > 
->     If you want to access the current context of a list binding, you should use `getCurrentContexts` in your app instead.
+>     If you want to access the contexts of a list binding that were requested by a control last time without triggering a data request, you should use `getCurrentContexts` in your app instead. For more information, see the [API Reference: `sap.ui.model.ListBinding#getCurrentContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding/methods/getCurrentContexts).
 > 
 > -   When a `ListBinding` is firing a `refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
 

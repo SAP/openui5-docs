@@ -39,6 +39,8 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 	</thead>
 	<tbody>
 
+[Shift\]⁠+⁠[Tab\]
+
 			<td>Focuses UI elements in order \(forward / backward\)
 			</td>
 			<td>You can cycle through all interactive, enabled and visible UI elements that are part of a given dialog or other container. When the last UI element is focused, pressing the key again will move the focus to first element.
@@ -71,7 +73,8 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[Home\] / [End\]
+			<td>[Home\]
+[End\]
 			</td>
 			<td>Navigates between elements
 			</td>
@@ -81,7 +84,8 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[Page Up\] / [Page Down\]
+			<td>[Page Up\]
+[Page Down\]
 			</td>
 			<td>Skips elements during navigation
 			</td>
@@ -102,7 +106,10 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td> [F4\] /  [Alt\] + [Down\]  /  [Alt\] + [Up\] 
+			<td>[F4\]
+ [Alt\] + [Down\]  
+
+ [Alt\] + [Up\] 
 			</td>
 			<td>Opens / closes a drop-down menu
 			</td>
@@ -155,6 +162,8 @@ or
 	</thead>
 	<tbody>
 
+[Page Down\]
+
 			<td>Date modification \(Days\)
 			</td>
 			<td>When in input: Pressing these keys decreases/increases the date value by one day.
@@ -162,7 +171,8 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td> [Shift\] + [Page Up\]  /  [Shift\] + [Page Down\] 
+			<td> [Shift\] + [Page Up\] 
+ [Shift\] + [Page Down\] 
 			</td>
 			<td>Date modification \(Months\)
 			</td>
@@ -171,7 +181,8 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td> [Ctrl\] + [Shift\] + [Page Up\]  /  [Ctrl\] + [Shift\] + [Page Down\] 
+			<td> [Ctrl\] + [Shift\] + [Page Up\] 
+ [Ctrl\] + [Shift\] + [Page Down\] 
 			</td>
 			<td>Date modification \(Years\)
 			</td>
