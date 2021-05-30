@@ -21,7 +21,7 @@ Specific log messages only appear in the console when the severity of the issue 
 > ### Tip:  
 > In productive applications, you should keep the system defaults for log levels for performance reasons.
 
- <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>Severities and Log Levels
+<a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>Severities and Log Levels
 
 |Severity
 

@@ -93,6 +93,8 @@ You can now refresh the application preview and select or deselect the checkbox.
 
 It is clear that we have not written any code to transfer data between the user interface and the model, yet the `Input` controls are enabled or disabled according to the state of the checkbox. This behavior is the result of the fact that OData models and JSON models implement two-way data binding, and that for JSON Models two-way binding is the default behavior. For more information, see [Binding Modes](Data_Binding_68b9644.md#loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes).
 
+Two things are happening here:
+
 -   Data binding allows the property of a control to derive its value from any suitable property in a model.
 
 -   OpenUI5 automatically handles the transport of data both from the model to the controls, and back from the controls to the model. This is called two-way binding.

@@ -93,6 +93,8 @@ Different people perceive and interpret colors in different ways, which is somet
 
 ### Tips for Testing
 
+Check the color contrasts.
+
 -   Take a screenshot, put it into an image tool and convert it to black and white
 
     -   Are there screen elements, lines or texts that are disappearing?

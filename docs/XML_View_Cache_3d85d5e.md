@@ -33,6 +33,8 @@ The following data changes are handled automatically by OpenUI5:
 
 ### Prerequisites
 
+This feature is only enabled for the following browsers:
+
 -   Google Chrome as of Version 49 for desktop
 
 -   Google Chrome as of Version 80 for Android phone/tablet

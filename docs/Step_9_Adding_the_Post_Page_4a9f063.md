@@ -186,6 +186,8 @@ The `press` handler function instructs the `router` to navigate to the `post` pa
 </mvc:View>*HIGHLIGHT END*
 ```
 
+We provide a minimalistic detail page showing only some fields of the selected post for now. In the test we use the following information:
+
 -   Control with the ID `page` on this view
 
 -   `title` of the post we navigate to

@@ -85,6 +85,8 @@ List of active terminologies provided via URL parameter, bootstrap or `sap.ui.co
 			<td>Type: `string`
 Default value: `full`
 
+The following animation modes are available:
+
  -   `full`: all animations are shown
 
  -   `basic`: a reduced, more light-weight set of animations
@@ -258,6 +260,8 @@ If set to `true`, the debug sources are loaded; if the bootstrap code is loaded 
 You can also specify a comma-separated list as a `string` that contains all modules that should be loaded as debug source.
 
 Example: `index.html?sap-ui-debug=sap/ui/model/odata/v2/` will load all debug sources for all modules of the OData V2 model. All others modules will be taken from the preload \(if preload is active\).
+
+You can use the following patterns:
 
  -   A trailing slash \(`/`\) means that the complete package should be included \(shortcut for `/**/*`\)
 
@@ -953,6 +957,8 @@ Default value: `false`
 
 If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
 
+This applies to the following resources:
+
  -   `library(-RTL).css` \(or any other variation\)
 
  -   `library-parameters.json` 
@@ -1397,6 +1403,8 @@ Enable `LessSupport`.
 			</td>
 			<td>Type: `string[]`
 Default value: `both`
+
+Allows to enforce the use of a specific preload file type:
 
  -   for all libraries: `?sap-ui-xx-libraryPreloadFiles=json`
 

@@ -20,6 +20,8 @@ The report contains information from the loaded components, a detailed list of t
 
  ![](loioea03b3f155794651b63742a574a42a7b_HiRes.png "Analysis Results: Collapsed View") 
 
+The report contains the following elements:
+
 1.  A time stamp for when it has been generated.
 
 2.  Last analysis duration showing the time taken by the last analysis.

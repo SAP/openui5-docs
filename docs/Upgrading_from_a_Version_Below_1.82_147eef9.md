@@ -24,6 +24,8 @@ With the major version upgrade from jQuery 2.x to jQuery 3.x, a number of incomp
 
 We evaluated each of those changes and classified them to see what needed to be fixed on the layers of framework, control and application. To minimize the migration effort required by application and control developers, we have introduced an additional compatibility layer on top of jQuery \(delivered as `sap/ui/thirdparty/jquery-compat.js`\).
 
+This compatibility layer has the following properties:
+
 -   It can be excluded by setting the `excludeJQueryCompat` configuration via:
     -   URL parameter \(case-sensitive\): `sap-ui-excludeJQueryCompat=true`
 
@@ -379,7 +381,7 @@ The updated jQuery 2.2.3 variant is contained in the following OpenUI5 versions:
 			</td>
 			<td>jQuery no longer closes self-closing tags for non-void HTML elements in the `htmlPrefilter()` method. Instead, the browser will automatically close the self-closing HTML element based on the DOM hierarchy, which could very likely occur at the wrong place.
 			</td>
-			<td>You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions]().
+			<td>You should properly close non-void HTML elements. For detailed instructions for identifying affected code and fixing it, see [these instructions](https://github.com/SAP/openui5/blob/master/docs/self_closing_tags_fix_instructions.md).
 Properly closing non-void HTML elements in this way is backward-compatible to older OpenUI5 and jQuery versions.
 			</td>
 		</tr>

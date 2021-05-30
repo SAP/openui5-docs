@@ -138,6 +138,8 @@ We add a new property called `priceThreshold` against which each invoice value w
 
 As a result of binding an expression to the `numberState` property, the error status \(color\) of the price field will change depending on the invoice value.
 
+Look at the following two expressions:
+
 -   `numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }"`
 
 -   `numberState="{= ${products>UnitPrice} <= ${/priceThreshold} ? 'Success' : 'Error' }"`
@@ -156,6 +158,8 @@ As soon as the XML parser encounters one of these high-priority characters \(in 
 In this case, the collision occurs between the syntax of XML and the syntax of the JavaScript-like expression language used by OpenUI5.
 
 Therefore, this statement fails because the less-than character is interpreted as the start of an XML tag: `numberState="{= ${products>UnitPrice} <= ${/priceThreshold} ? 'Success' : 'Error' }"`
+
+This particular problem can be avoided in one of two ways:
 
 -   Reverse the logic of the condition \(use "greater than or equal to" instead of "less than"\)
 

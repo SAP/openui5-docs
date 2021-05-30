@@ -85,7 +85,7 @@ Messages transported via an OData V4 service response are parsed and reported to
 	</tbody>
 </table>
 
-\*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1]()
+\*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
 
 End user messages contain the following information:
 
@@ -447,5 +447,5 @@ Let `messageModel` be the named message model. A table row with messages can be 
 **Related Information**  
 
 
-[https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md]()
+[https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
 

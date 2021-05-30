@@ -151,6 +151,8 @@ Next, we change the column definitions of the table. We define the new columns a
 
 The column definitions include a text that we will later define in the resource bundle \(`i18n` model – a short name for internationalization\) so that the column titles can be translated to other languages. And we will define additional settings for text alignment and making the table responsive. Some columns are not as important as others and can be displayed below the main columns \(`popin`\) on devices with small or medium-sized screens.
 
+Let's have a detailed look at the columns:
+
 -   Product Name
 
     The product name is the first column and it is always visible on any device.
@@ -306,10 +308,12 @@ tableNoDataText=No products are currently available
 Finally, we modify the existing column names in the resource bundle file `webapp/i18n/i18n.properties` to match our scenario and add the new texts for the column titles.
 
 > ### Note:  
-> The `webapp/i18n/i18n.properties` file contains some annotations for each key in the file. These annotations offer some more context, which can help translators to better interpret the semantics of the text belonging to the keys. An example for such an annotation is XTIT in the `i18n.properties` file above, which tells that the corresponding key is supposed to be used as a title. The guidelines at [https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md]() give you a better idea of how this can be used. Be aware that this is how SAP uses the annotations internally. In case you want to use this approach to work with your own translators make sure that you agree on a common set of allowed annotations that everybody understands.
+> The `webapp/i18n/i18n.properties` file contains some annotations for each key in the file. These annotations offer some more context, which can help translators to better interpret the semantics of the text belonging to the keys. An example for such an annotation is XTIT in the `i18n.properties` file above, which tells that the corresponding key is supposed to be used as a title. The guidelines at [https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md](https://github.com/SAP/openui5/blob/master/docs/guidelines/translationfiles.md) give you a better idea of how this can be used. Be aware that this is how SAP uses the annotations internally. In case you want to use this approach to work with your own translators make sure that you agree on a common set of allowed annotations that everybody understands.
 
 > ### Tip:  
 > **Testing the responsiveness of the app**
+> 
+> In the previous code blocks of this step we made sure that our table is responsive. Depending on the device type, columns are hidden, displayed as a popin, or displayed without a popin. Now, we want to test the responsiveness without the having different devices. If you use the Google Chrome browser, you can also use its great developer tools to test the responsiveness of your app:
 > 
 > 1.  Call the app and open the developer tools in Chrome with [F12\].
 > 

@@ -24,7 +24,7 @@ The data of the app descriptor is stored in JSON format in the `manifest.json` f
 
 Every new version of OpenUI5 implies a new version of the app descriptor. In the following table, you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_lqj_xgh_1cb"/>App Descriptor Release and OpenUI5 Version
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_lqj_xgh_1cb"/>App Descriptor Release and OpenUI5 Version
 
 |App Descriptor Release
 
@@ -457,7 +457,7 @@ The content for the descriptor is contained in the following namespaces: `withou
 
 ### No Namespace
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_crz_g5r_tr"/>Attributes in the `without` namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_crz_g5r_tr"/>Attributes in the `without` namespace
 
 |Attribute
 
@@ -487,7 +487,7 @@ The content for the descriptor is contained in the following namespaces: `withou
 
 ### `sap.app`
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_rvq_4fj_qr"/>Attributes in the mandatory `sap.app` namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_rvq_4fj_qr"/>Attributes in the mandatory `sap.app` namespace
 
 |Attribute
 
@@ -613,7 +613,9 @@ If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribu
 		<tr>
 			<td> `dataSources` 
 			</td>
-			<td>-   `uri`: Mandatory relative URL in the component; takes `embeddedBy` into account, if filled, or the server absolute of the data source, for example `"/sap/opu/odata/snce/PO_S_SRV;v=2/"`. `uri` should always be given in lower case. -   `type`: Supported types:
+			<td>Unique key/alias for specifying the used data sources; contains the following information:
+ -   `uri`: Mandatory relative URL in the component; takes `embeddedBy` into account, if filled, or the server absolute of the data source, for example `"/sap/opu/odata/snce/PO_S_SRV;v=2/"`. `uri` should always be given in lower case.
+ -   `type`: Supported types:
      -   `OData` \(default\)
      -   `ODataAnnotation`
      -   `INA`
@@ -673,7 +675,7 @@ This attribute is optional and only added if used via INA protocol directly, not
 
 ### `sap.ui`
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>Attributes in the mandatory `sap.ui` namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>Attributes in the mandatory `sap.ui` namespace
 
 |Attribute
 
@@ -697,7 +699,9 @@ This attribute is optional and only added if used via INA protocol directly, not
 		<tr>
 			<td> `icons` 
 			</td>
-			<td>-   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) . -   `favIcon`: ICO file to be used inside the browser and for desktop shortcuts
+			<td>Contains object with app-specific icons, which are:
+ -   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) .
+ -   `favIcon`: ICO file to be used inside the browser and for desktop shortcuts
 
  > ### Note:  
  > `favIcon` is not set automatically by the framework. The icons can be set manually using the `sap/ui/util/Mobile` module and the `setIcons` function.
@@ -711,7 +715,9 @@ This attribute is optional and only added if used via INA protocol directly, not
 		<tr>
 			<td> `deviceTypes` 
 			</td>
-			<td>-   `desktop`: Indicator for whether desktop devices are supported, `true` \(default\), `false` -   `tablet`: Indicator for whether tablet devices are supported, `true` \(default\),`false`
+			<td>Mandatory; contains objects with device types on which the app is running, such as:
+ -   `desktop`: Indicator for whether desktop devices are supported, `true` \(default\), `false`
+ -   `tablet`: Indicator for whether tablet devices are supported, `true` \(default\),`false`
  -   `phone`: Indicator for whether phone devices are supported, `true` \(default\),`false`
 			</td>
 		</tr>
@@ -732,7 +738,7 @@ This attribute is optional and only added if used via INA protocol directly, not
 
 The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the application descriptor, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md) for more details.
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_c32_chk_qr"/>Attributes in the `sap.ui5` namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_c32_chk_qr"/>Attributes in the `sap.ui5` namespace
 
 |Attribute
 
@@ -786,7 +792,9 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 		<tr>
 			<td> `models` 
 			</td>
-			<td>-   `type`: Model class name -   `uri`: Relative URL in the component, taking `embeddedBy` into account if filled, or server for absolute model
+			<td>Defines models that should be created or destroyed along the component's lifecycle. The key represents the model name. Use an empty string \(""\) for the default model.
+ -   `type`: Model class name
+ -   `uri`: Relative URL in the component, taking `embeddedBy` into account if filled, or server for absolute model
  -   `settings`: Object that is passed to the model constructor.
 
  > ### Example:  
@@ -794,6 +802,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
  > -   [sap.ui.model.odata.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataModel/constructor)
  > -   [sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel/constructor)
  > -   [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor)
+ > For ResourceModel constructor see:
  > -   [sap.ui.model.resource.ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel/constructor)
  > The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either `component` \(default\) or `manifest`\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
 
@@ -875,7 +884,9 @@ This attribute is intended for actual sub-packages of the component only, meanin
 		<tr>
 			<td> `i18n` 
 			</td>
-			<td>> ### Note:   > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
+			<td>Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
+ > ### Note:  
+ > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 			</td>
 		</tr>
 		<tr>
@@ -894,7 +905,7 @@ This attribute is intended for actual sub-packages of the component only, meanin
 
 ### `sap.card`
 
- <a name="loiobe0cf40f61184b358b5faedaec98b2da__table_fly_cmt_ngb"/>Attributes in the `sap.card` namespace
+<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_fly_cmt_ngb"/>Attributes in the `sap.card` namespace
 
 |Attribute
 
@@ -1133,6 +1144,8 @@ Current version of the `manifest.json`
     "sap.card": {}
 }
 ```
+
+For the following namespaces, the indicated teams are responsible:
 
 -   sap.fe - in SAP Fiori elements responsibility
 

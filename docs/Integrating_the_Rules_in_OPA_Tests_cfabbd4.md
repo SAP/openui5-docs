@@ -14,6 +14,8 @@ The Support Assistant can be used as part of an existing OPA test to cover more 
 
 ***
 
+The Support Assistant can be used in OPA tests to check if there are issues in the different states of the application. To do that, you need to use the Support Assistant OPA extension. This extension is available as of version 1.48. It provides three assertions:
+
 -   `noRuleFailures` - Analyzes the current state of the application, and if errors are found, the assertion will fail. A non-mandatory `options` object can be passed to the assertion containing the following properties:
 
     -   `failOnAnyIssues (boolean)` - Determines if the assertion should fail if issues of *any* severity type are found.
@@ -48,6 +50,8 @@ This special URL parameter could be used temporarily in cases when you extend an
 
 1.  Enable the Support Assistant OPA extension in the OPA configuration file.
 
+    You need to change two parameters:
+
     -   `extensions` - You need to include the Support Assistant OPA extension path \(`sap/ui/core/support/RuleEngineOpaExtension`\).
 
     -   `appParams` - You need to add `sap-ui-support` with a value of `true,silent`. This will start the application in support mode and will start the Support Assistant in silent mode \(without UI\).
@@ -72,6 +76,8 @@ This special URL parameter could be used temporarily in cases when you extend an
     ```
 
 2.  Add additional assertions to the OPA configuration file.
+
+    Add generic or specific assertions - depending on the use case. For example:
 
     -   `iShouldSeeNoHighSeverityErrors` - This assertion calls `noRuleFailures` with a few parameters set, as you can see in the example code below. It checks for high issues and ignores medium and low. The rules checked are `preloadAsyncCheck`, `orphanedElement`, `deprecatedEntities` and the scope is set to *global*.
 

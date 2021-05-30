@@ -42,6 +42,8 @@ With this release, OpenUI5 is upgraded from version 1.46 to 1.48.
 
 The new Support Assistant tool enables application developers to check whether they have built their applications in accordance with the best practices for building OpenUI5 apps. The tool uses a set of predefined rules to check all aspects of an application, for example, accessibility, performance, data-binding, and more. Support Assistant is integrated into One Page Acceptance Tests \(OPA5\) and can be used as part of OPA tests.
 
+The main features of the tool are:
+
 -   Creation and management of support rules
 
 -   Application analysis
@@ -218,6 +220,8 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <a name="loio2818f800e7424c5c91dbd495f8cb757b__section_tfp_n5w_r1b"/>
 
 ### Documentation Updates
+
+In addition to the documentation for new features, the following changes have been applied to the documentation:
 
 -   New tutorial: [Troubleshooting](Troubleshooting_5661952.md)
 

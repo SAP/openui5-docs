@@ -123,6 +123,8 @@ We have exposed the `groupItems` property and `navigateBack` function as APIs in
 |
 |**`sap.m.NotificationListItem`**, **`sap.m.NotificationListGroup`**
 
+We have redesigned the notifications, and now they are lighter, easy to use, and aligned with the SAP Fiori 3 user experience. The changes include:
+
 -   The priority of the notifications is now visualized with a status icon.
 -   Action buttons in the `sap.m.OverflowToolbar` could now be hidden.
 -   Collapse/expand functionality of the `sap.m.NotificationListGroup` is implemented with an arrow button instead of text.

@@ -14,6 +14,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ### How can I avoid timeouts?
 
+There are two situations where you might have trouble with timeouts:
+
 -   When loading your app
 
 -   When trying to find OpenUI5 controls in the app

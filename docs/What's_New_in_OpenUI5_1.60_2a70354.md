@@ -153,11 +153,13 @@ Aggregation forwarding for composite controls now offers the following options:
     For example, a model that a composite control developer sets on an inner control is not propagated to the child controls of this inner control if they have been moved there by aggregation forwarding. Instead, the models available at the original location of these child controls will be propagated to them.
 
 
-For more information, see [64a5e1775bf04d4883db18c9de7d83bd.md]().
+For more information, see [64a5e1775bf04d4883db18c9de7d83bd.md](64a5e1775bf04d4883db18c9de7d83bd.md).
 
 ***
 
 #### Drag and Drop
+
+Drag and drop is no longer experimental with this version.
 
 > ### Note:  
 > If you want to use drag and drop for a control, the control must allow drag and drop \(per definition in the metadata\), and you have to make the required settings in the relevant aggregation.

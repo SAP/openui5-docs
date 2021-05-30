@@ -72,7 +72,7 @@ The descriptor for components contains a subset of the attributes in the descrip
 
 ||
 
- <a name="loio7701636d088147569d99b4f08d418bd9__table_sry_dlz_45"/>Attributes in the `sap.ui` namespace
+<a name="loio7701636d088147569d99b4f08d418bd9__table_sry_dlz_45"/>Attributes in the `sap.ui` namespace
 
 |Attribute
 
@@ -92,7 +92,7 @@ The descriptor for components contains a subset of the attributes in the descrip
 
 ||
 
- <a name="loio7701636d088147569d99b4f08d418bd9__table_ydc_bmz_45"/>Attributes in the `sap.ui5` namespace
+<a name="loio7701636d088147569d99b4f08d418bd9__table_ydc_bmz_45"/>Attributes in the `sap.ui5` namespace
 
 |Attribute
 
@@ -139,7 +139,7 @@ The descriptor for components contains a subset of the attributes in the descrip
 
 ||
 
- <a name="loio7701636d088147569d99b4f08d418bd9__table_o1x_lmz_45"/>Attributes in the `sap.mobile` namespace
+<a name="loio7701636d088147569d99b4f08d418bd9__table_o1x_lmz_45"/>Attributes in the `sap.mobile` namespace
 
 |Attribute
 

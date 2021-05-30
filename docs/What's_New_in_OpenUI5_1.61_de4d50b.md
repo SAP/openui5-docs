@@ -156,6 +156,8 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 
 |**Demo Apps/Tutorials**
 
+We have adapted all demo apps and tutorials to the latest UI5 evolution recommendations and concepts, including:
+
 -   Adapting to the modular core
 -   Loading all resources asynchronously
 -   Replacing deprecated APIs

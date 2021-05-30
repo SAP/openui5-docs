@@ -34,6 +34,8 @@ To reference model data in a view , you can use the simple binding syntax "`{*/p
 <Input value="{/firstName}"/>
 ```
 
+You can add other properties like formatters or data types:
+
 -   Data type:
 
     ``` xml

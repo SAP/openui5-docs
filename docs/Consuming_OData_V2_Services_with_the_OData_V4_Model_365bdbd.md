@@ -101,6 +101,8 @@ Here are some examples:
 
 **$expand / $select system query options**
 
+OData V4 supports "$expand with options", which means an $expand option can contain query options for the expanded navigation property such as $select, $orderby or $expand itself.. OData V2 does not support "$expand with options" but only $expand and $select with path values. An OData V4 $expand option, which contains only $select and $expand options, is transformed to the corresponding OData V2 $expand and $select options by "flattening" the OData V4 structure.
+
 > ### Example:  
 > OData V4 system query options to expand line items:
 > 
@@ -150,6 +152,8 @@ In OData V2 $filter can only be used on top level. An error is raised if $filter
 The remaining functions are unsupported because they have no equivalent in V2.
 
 > ### Caution:  
+> Avoid passing literals to date, time and arithmetic functions, because the parameter to these functions can have different types and it cannot be decided which one is correct.
+> 
 > > ### Example:  
 > > In floor\(42\) the 42 can be either an `Edm.Double` or an `Edm.Decimal`. Avoid comparing two literals like, for example `42 eq 42`, because the converter determines the type of a literal from the other operand in comparisons.
 
@@ -179,6 +183,8 @@ Following V2 \(attributes with namespace [http://www.sap.com/Protocols/SAPData](
 
 -   sap:schema-version="foo"
 
+
+sap:semantics:
 
 -   bday, body, city, class, completed, country, currency-code dtend, dtstart, due, duration, familyname, fbtype, fiscalyear, fiscalyearperiode, from, givenname, honorific, location, middlename, name, nickname, note, org, org-role, org-unit, percent-complete, photo, pobox, priority, received, region, sender, status, street, subject, suffix, tel \(with types `cell`, `work`, `fax`\), title, transp, url, unit-of-measure, url, wholeday, year, yearmonth, yearmonthday, yearquarter, yearweek, zip
 

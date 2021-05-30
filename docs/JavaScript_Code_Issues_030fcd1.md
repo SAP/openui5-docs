@@ -24,7 +24,7 @@ Use "protected" methods or properties only if you access it from the object itse
 
 Always double check in the API Reference. If OpenUI5 changes the implementation in a future release, your code will break if you fail to follow this guideline.
 
- <a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>Examples
 
 |Bad Examples
 
@@ -124,25 +124,27 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
 -   `sap.ui.require`
 
--   -   `sap.ui.getCore`
+-   Factory functions and core references:
 
--   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
+    -   `sap.ui.getCore`
 
--   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 
--   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
+    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
--   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
+    -   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
--   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
+    -   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
--   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
--   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
+    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+
+    -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
 -   Commonly used names \(However they can also be used as AMD references via `sap/ui/Global`\):
 
@@ -177,7 +179,7 @@ If you override methods like `onBeforeRendering`, `onAfterRendering`, or getters
 
 Instead, you should consider using delegates.
 
- <a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>Examples
 
 |Bad Examples
 
@@ -232,7 +234,7 @@ If you need to manipulate the DOM of an OpenUI5 control, attach a delegate to th
 
 Even `onAfterRendering` may not be called when a control handles certain property changes without complete rerendering.
 
- <a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>Examples
 
 |Bad Examples
 
@@ -314,7 +316,7 @@ When you create typed views or applications that will be running together with v
 
 Use the `createId()` function of a view or controller instead. This is done automatically in XMLViews and JSONViews. The `createId()` function adds the View ID as a prefix, thus recursively ensuring uniqueness of the ID \(for example: `__page0--__dialog0`\).
 
- <a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
 
 |Bad Example \(Inside a Typed View\)
 
@@ -371,7 +373,7 @@ See also: [sap.ui.core.Element - destroy](https://openui5.hana.ondemand.com/#/ap
 
 Hard coding UI strings will exclude them from translation. In addition, concatenating translatable strings in applications might lead to errors in internationalization: the texts in question might have a different translation order in other languages and will then be syntactically wrong.
 
- <a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>Examples
 
 |Bad Example
 
@@ -413,7 +415,7 @@ There is a native browser API available for logging errors and warnings in the d
 
 Note that most errors and warnings in the developer console thrown by the OpenUI5 framework are potential bugs in your application and must be analyzed thoroughly!
 
- <a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>Examples
 
 |Bad Example
 
@@ -447,7 +449,7 @@ See also: [Namespace sap/base/Log](https://openui5.hana.ondemand.com/#/api/modul
 
 Executing logic with timeouts is often a workaround for faulty behavior and does not fix the root cause. The timing that works for you may not work under different circumstances \(other geographical locations with greater network latency, or other devices that have slower processors\) or when the code is changed. Use callbacks or events instead, if available.
 
- <a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>Examples
+<a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>Examples
 
 |Bad Example
 

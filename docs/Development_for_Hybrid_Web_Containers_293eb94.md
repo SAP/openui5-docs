@@ -20,6 +20,8 @@ The library size of these packages is rather small because the content that is m
 
 To ensure that the file is small, it only contains the control libraries that are most likely used and not all control libraries. Depending on the hybrid app it may be necessary to add libraries by copying them from the respective folder of the runtime, or to delete libraries to reduce the package size and, thus, also reduce the installation size for the user.
 
+The file contains the following control libraries:
+
 -   `sap.f`
 
 -   `sap.m`

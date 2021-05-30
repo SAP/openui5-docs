@@ -36,6 +36,8 @@ The release strategy follows the principle of “one innovation code line”: su
 
 Once a year, a version with long-term support is released. All other versions do not have a maintenance period and no patches are provided. Required fixes are available with the next minor versions together with the new features. However, in exceptional cases, also the most recent version may be patched with correction code.
 
+For example, the following versions have a long-term maintenance:
+
 -   1.38
 
 -   1.52

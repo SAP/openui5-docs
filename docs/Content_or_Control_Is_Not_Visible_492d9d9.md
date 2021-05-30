@@ -18,6 +18,8 @@ You find yourself in the situation that a control or the content of a control is
 
 ### Root Cause
 
+This can happen for one of the following reasons:
+
 -   The element is not properly bound
 
 -   The `visible` property is set to `false`

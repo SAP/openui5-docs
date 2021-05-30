@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The Worklist app implements a busy indication concept as specified by the SAP Fiori Design Guidelines.
 
+Calling the app will result in the following:
+
 -   Only initially a global busy indicator is displayed that overlays the whole app until the metadata of the service is loaded.
 
 -   A local busy indicator is displayed on the worklist table or on the page of the object view while the data from the service is loading.

@@ -18,6 +18,8 @@ To open the technical information dialog from within a supported desktop browser
 
 ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
+The dialog contains the following information:
+
 -   The version number of the currently loaded OpenUI5 distribution that represent the core libraries of the framework and its build timestamp
 
     For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md) and [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)

@@ -194,7 +194,9 @@ new Shell({
 |
 | **Embedded Components** 
 
-|1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
+|If you want to add an embedded component with a stable ID, you have two options:
+
+1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
 "sap.ui5": {
@@ -345,6 +347,8 @@ For more information about the SAP Fiori Worklist Application template, see [Wor
 <a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck"/>
 
 ### How to Check If All Your IDs Are Stable
+
+With the Support Assistant, you can analyze whether there are any issues with the stable IDs used in your app. Here's how you can check this:
 
 1.  Open your app in a browser.
 2.  Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\]  to start the Support Assistant.

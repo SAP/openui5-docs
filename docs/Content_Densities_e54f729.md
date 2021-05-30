@@ -101,6 +101,8 @@ You set the corresponding content density CSS class on the **container** for the
 
 Thus, when using densities, you cannot mix them: You must not combine *Cozy* and *Compact* or *Cozy* and *Condensed* within the same hierarchy.
 
+You can use densities in the following way:
+
 -   *Cozy*
 
     Make sure you always only use the *Cozy* density within a hierarchy.

@@ -17,6 +17,8 @@ The `sap.ui.model.odata.v4.ODataModel` is the model implementation for consuming
 > 
 > The interface for applications has been changed for an easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
+The OData V4 model supports the following:
+
 -   Read access
 
 -   Updating properties of OData entities \(in entity sets and contained entities\) via two-way-binding

@@ -35,6 +35,8 @@ For OpenUI5 applications, XSS vulnerabilities can exist on different levels:
 
 OpenUI5 can only prevent cross-site scripting in the processing and rendering of controls. For that purpose, input validation exists for all typed element properties and output encoding is done in the renderer class of controls. However, there are exceptions for controls that are especially built to include arbitrary HTML, for example, `sap.ui.core.HTML`.
 
+The application is responsible for the following tasks:
+
 -   Proper output encoding of all content embedded in the HTML page itself
 
 -   Encoding JSON or XML data sent to the client

@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The basic template is intended for all developers who want to start developing their own OpenUI5 app from scratch.
 
+With this basic template you have a blank canvas to start coding right away. The basic file structure is set up according to our best practices.
+
 > ### Note:  
 > This template does not include SAP Fiori launchpad \(FLP\) features and is intended for standalone use. If you want to convert it to a launchpad app you have to add some features manually, such as the *Save as Tile* feature.
 
@@ -43,6 +45,8 @@ An important best practice is to have unit and integration tests for your app. W
 
 ### Where Can I Find the Basic Template?
 
+You can find the template in the following places:
+
 -   **SAPUI5 Application** in SAP Web IDE
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
@@ -54,7 +58,7 @@ An important best practice is to have unit and integration tests for your app. W
 
 -   `openui5-basic-template-app` in the [SAP Repository on GitHub](https://github.com/SAP).
 
-    For more information about how to clone or download the template from GitHub, refer to the template documentation on [GitHub]().
+    For more information about how to clone or download the template from GitHub, refer to the template documentation on [GitHub](https://github.com/SAP/openui5-basic-template-app/blob/master/README.md).
 
 
 **Related Information**  

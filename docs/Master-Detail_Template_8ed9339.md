@@ -46,6 +46,8 @@ We use the semantic `MasterPage` and `DetailPage` controls for the content aggre
 
 ### Where Can I Find the Master-Detail Template?
 
+You can find the template in the following places:
+
 -   **SAP Fiori Master-Detail Application** template in SAP Web IDE
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
@@ -57,7 +59,7 @@ We use the semantic `MasterPage` and `DetailPage` controls for the content aggre
 
 -   `openui5-masterdetail-app` in the [SAP Repository on GitHub](https://github.com/SAP)
 
-    For more information on how to clone or download the template from GitHub, refer to the template documentation on [GitHub]() .
+    For more information on how to clone or download the template from GitHub, refer to the template documentation on [GitHub](https://github.com/SAP/openui5-masterdetail-app/blob/master/README.md) .
 
 
 ***

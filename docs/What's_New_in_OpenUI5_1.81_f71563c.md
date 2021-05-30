@@ -27,7 +27,7 @@ You can now consume the predefined `SAP-icons` icon font in an environment where
 
 We have added a jQuery security fix to OpenUI5, which may introduce incompatibilities to existing application or library code.
 
-For checking and, if required, fixing your applications and libraries, see [these instructions]().
+For checking and, if required, fixing your applications and libraries, see [these instructions](https://github.com/SAP/openui5/blob/master/docs/self_closing_tags_fix_instructions.md).
 
 |
 |**Special URL Prefixes in App Descriptor**

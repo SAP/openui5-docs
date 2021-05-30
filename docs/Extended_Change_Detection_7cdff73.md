@@ -72,9 +72,13 @@ The difference between the previous and the current state of the list is provide
 
 ### Using Extended Change Detection in App Development
 
+If a control you want to use in your app to visualize list entries supports extended change detection, you should make sure that each entity of your model has a unique key to improve performance.
+
 -   For OData models, the unique keys are automatically provided.
 
--   | `key` property
+-   For all other models \(like a JSON model\), you have to define the keys either by using a key property or by using a function that calculates the key in the binding info of their list binding as in the following example:
+
+    | `key` property
 
 | `key` function
 
@@ -84,6 +88,7 @@ The difference between the previous and the current state of the list is provide
 <table>
 	<thead>
 		<tr>
+			<th>    </th>
 			<th>-----------------</th>
 			<th>-----------------</th>
 		</tr>
@@ -93,15 +98,15 @@ oControl.bindItems({
   path: "/listData",
   key: "id"
 });
-```
+    ```
 
-			<td>``` jsoControl.bindItems({
+			<td>    ``` jsoControl.bindItems({
   path: "/listData",
   key: function(oContext) {
     return oContext.getProperty("user") + oContext.getProperty("timestamp"); 
   }
 });
-```
+    ```
 			</td>
 		</tr>
 	</tbody>

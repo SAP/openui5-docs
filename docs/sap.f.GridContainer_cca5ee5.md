@@ -22,6 +22,8 @@ The `GridContainer` allows the positioning of items \(Tiles, Cards, or others\) 
 
  ![](loiob8076d54b3f3409f839595a401bc713b_LowRes.png) 
 
+The control provides responsiveness and automatically aligns the items depending on the available space.
+
 -   In contrast to the `sap.ui.layout.cssgrid.CSSGrid`, the `GridContainer` allows the rows per item to be automatically increased, if the item does not fit and is cut off.
 
 -   The `GridContainer` provides control over the behavior of the items if they are smaller in height than the given space. For example, if an item has a width of 4 rows, but its height is only 3.5 rows, then the item could either remain 3.5 rows or stretch to 4 rows. This behavior can be controlled through the `snapToRow` property.

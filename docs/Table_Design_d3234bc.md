@@ -58,6 +58,18 @@ The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in w
 
 ***
 
+<a name="loiod3234bc1b7b64af99a3d6990039f7eed__section_xsm_rtl_tpb"/>
+
+### Pop-in Design Layouts
+
+The described pop-in design is provided by the table by default. However, you can change the pop-in layout in the table by defining the property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for the table.
+
+With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available in the table. Otherwise, the pop-in columns are rendered as shown in the image above.
+
+For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Here you can use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
+
+***
+
 ### Merging Duplicate Values
 
 When you have repeated values in your table, you can use the `mergeDuplicate` feature of the `sap.m.Column` control. There are two properties that are related to merging duplicate values:

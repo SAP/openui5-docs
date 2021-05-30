@@ -96,6 +96,8 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
 -   **Other quality-related features of the app**
 
+    The app is set up according to best practices and already contains many helpful features.
+
     -   **Separation of concerns \(MVC\)**
 
         All artifacts are located in either the `model`, `view`, or `controller` folder of the app. The app’s component and its descriptor configure which of those MVC artifacts to load. This configuration controls the navigation flow of the app.

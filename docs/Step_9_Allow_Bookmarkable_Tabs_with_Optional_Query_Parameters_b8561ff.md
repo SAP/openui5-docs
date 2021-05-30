@@ -214,6 +214,8 @@ The `else` case is called when either no or an invalid tab parameter is specifie
 
 ***
 
+From now on our tabs are bookmarkable. Try to access the following \(deep\) links directly:
+
 -   `webapp/index.html#/employees/3/resume`
 
 -   `webapp/index.html#/employees/3/resume?tab=Info`

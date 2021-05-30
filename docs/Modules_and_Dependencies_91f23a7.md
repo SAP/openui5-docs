@@ -74,6 +74,8 @@ sap.ui.require(['SomeClass'], function(SomeClass) {
 
 Adding each and every dependency to the `sap.ui.define` call can lead to many modules that have to be loaded before your module can be executed. Often, dependencies are not needed initially when the module is started. For rarely or not immediately used references, it might be overhead to load them in advance before executing your module.
 
+Therefore, you have to decide whether you want to use static or dynamic dependencies:
+
 -   **Static** dependencies are loaded in the dependency declaration array of the `sap.ui.define` call. These dependencies are always loaded in advance before executing the defined module:
 
     ``` js

@@ -76,7 +76,7 @@ More detailed behavior is described in the table below.
 
 In the following table you can see how the different dialog controls are read by the screen reader.
 
- <a name="loio5709e73d51f2401a9a5a89d8f5479132__table_mv5_wrs_xw"/>Screen Reader Behavior in Dialog Controls
+<a name="loio5709e73d51f2401a9a5a89d8f5479132__table_mv5_wrs_xw"/>Screen Reader Behavior in Dialog Controls
 
 | OpenUI5 Control
 

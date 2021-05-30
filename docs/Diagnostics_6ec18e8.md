@@ -24,6 +24,8 @@ To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_Open
 
 In this section you can view the technical details of the app and turn on the debug sources. It provides the same features as the Technical Information dialog. Additionally, the Technical Information dialog is available on mobile devices that support multi-touch. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 
+In addition, you can see the following information:
+
 -   The jQuery version that is loaded from the server. If you want to use a specific jQuery feature, you should check whether the feature is supported in the loaded version.
 
 -   The bootstrap configuration, where you can check, for example, the resource root, the theme, or the libraries. The libraries should be listed in the `libs` configuration parameter or in the descriptor file \(recommended\), see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). To improve performance, remove unused libraries and add the libraries that you use and are not yet listed. These libraries are loaded as a preload file. We recommend to also add the `async` configuration option to the bootstrap. This configuration option enables asynchronous loading of modules and preload files and can, thus, further improve performance. For more information, see [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md).
@@ -208,6 +210,8 @@ XML metadata of a service with three main entity sets: `Product`, `ProductCatego
 
 |When you expand an XML view in the tree, you can display the XML code.
 
+You can choose the following options for this view:
+
 -   You can choose which kind of IDs you want to see:
 
     -   IDs as they are in the DOM \(option *Show Real IDs*\)
@@ -222,7 +226,9 @@ If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if the
 |![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)
 
 |
-|-   Name of the control with a link to the API Reference and its ID in the DOM tree
+|When you select a control in the code, the following information is displayed:
+
+-   Name of the control with a link to the API Reference and its ID in the DOM tree
 
 -   Instances that are **cloned** in the control with their IDs
 

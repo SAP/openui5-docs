@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in specifically created for analyzing and debugging OpenUI5 code.
 
+With UI Inspector, you can find answers to the following questions, for example:
+
 -   What is the structure of your app?
 
 -   How are the elements related to each other?

@@ -91,6 +91,8 @@ Let’s add our first new OPA test to the `WorklistJourney.js` file. We describe
 
 The three objects `Given`, `When`, `Then` are filled by the OPA runtime when the test is executed and contain the `arrangements`, `actions`, and `assertions` for the test. The "Given-When-Then" pattern is a common style for writing tests in a readable format. To describe a test case, you basically write a user story. Test cases in this format are easy to understand, even by non-technical people.
 
+Let’s give it a try with our new feature that only displays 20 posts in the table initially and will load more posts when we press a trigger button or scroll down. Here is our user story "Should see the table with all posts" and its code representation:
+
 -   **Arrangements**
 
     Define possible initial states, e.g. the app is started, or specific data exists. For performance reasons, starting the app is usually done only in the first test case of a journey. `Given.iStartMyApp();`

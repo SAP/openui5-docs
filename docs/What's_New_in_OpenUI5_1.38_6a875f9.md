@@ -22,6 +22,8 @@ Thanks a lot to all of you who have used the Demo Kit feedback function! We have
 
 Please carry on giving us your feedback: even though we cannot update the documentation straight away, your feedback will be considered in the next version!
 
+New or reworked documentation chapters that are not mentioned in the following sections:
+
 -   Chapter [Routing and Navigation](Routing_and_Navigation_3d18f20.md) is now updated and reworked.
 
 
@@ -29,12 +31,16 @@ Please carry on giving us your feedback: even though we cannot update the docume
 
 ### Deprecation
 
+The following libraries are deprecated as of this version:
+
 -   `sap.ui.commons`
 
 -   `sap.ui.ux3`
 
 -   `sap.makit`
 
+
+The following themes are also deprecated as of this version:
 
 -   `sap_ux`
 

@@ -185,6 +185,8 @@ We have 10 new icons - check out the [Icon Explorer](https://openui5.hana.ondema
 
 The documentation for QUnit testing has been updated and aligned with the new QUnit 2.0 API. All code samples have been replaced to match the new syntax: [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)
 
+We have updated the following tutorials:
+
 -   [Data Binding](Data_Binding_e531093.md)
 
 -   [Walkthrough](Walkthrough_3da5f4b.md)

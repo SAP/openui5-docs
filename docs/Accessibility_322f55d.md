@@ -21,7 +21,7 @@ The following topics provide important accessibility information related to Open
 
 The following table shows the availability of the different accessibility features.
 
- <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__table_idr_xwc_wbb"/>Accessibility Feature Availability
+<a name="loio322f55d0cf1e4b459cc1911c899b7a5f__table_idr_xwc_wbb"/>Accessibility Feature Availability
 
 |Feature
 

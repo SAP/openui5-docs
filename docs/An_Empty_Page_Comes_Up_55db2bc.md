@@ -32,6 +32,8 @@ The browser displays an empty page and an `Uncaught Error` is issued in the cons
 
 ### Root Cause
 
+This can happen for one of the following reasons:
+
 -   A critical reference error is prohibiting the app from starting.
 
 -   A syntax error is stopping the execution of your application code.
@@ -76,6 +78,8 @@ If the XML view to be displayed cannot be parsed, OpenUI5 stops the execution an
 #### Console shows `Uncaught Error: failed to load 'sap/m/xxxxx.js'`
 
 During the development on Microsoft Windows, your app works fine, but a soon as you deploy it on a Linux system, only an empty page comes up.
+
+This could happen if you wrote the tag of the control with lowercase letters, because Linux systems use case-sensitive file names.
 
 |Correct Example
 

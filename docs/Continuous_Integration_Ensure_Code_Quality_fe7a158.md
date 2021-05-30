@@ -35,11 +35,13 @@ In an OpenUI5 project, the process, for example, can look like this:
 
 2.  The SCMS calls an automation server \(for example, *Jenkins*\).
 
-3.  -   Static code checks \(for example, *ESLint*\) to check the code style
+3.  The developer triggers the peer code review and the automation server starts a voter job that triggers, among others:
 
--   Unit and integration test automated by a test runner \(for example, *Karma*\)
+    -   Static code checks \(for example, *ESLint*\) to check the code style
 
--   Analysis to check whether all parts of the code are covered with automated tests \(for example, with *Karma* plug-in *Istanbul Code Coverage*\)
+    -   Unit and integration test automated by a test runner \(for example, *Karma*\)
+
+    -   Analysis to check whether all parts of the code are covered with automated tests \(for example, with *Karma* plug-in *Istanbul Code Coverage*\)
 
 4.  When the voter job and the human reviewer have both given their OK, the change can be merged.
 

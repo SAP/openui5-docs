@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 For the identification of languages, the framework uses a language code of type `string`.
 
+The language can be set, for example, by using the following options:
+
 -   URL parameter `sap-ui-language` and configuration parameter `language`
 
 -   Script tag attribute `data-sap-ui-language`

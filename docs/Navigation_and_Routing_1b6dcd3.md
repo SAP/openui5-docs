@@ -23,6 +23,8 @@ The information in the hash, namely everything that is following the `#` charact
 > ### Note:  
 > This tutorial does not handle cross-app navigation with the SAP Fiori launchpad. However, the concepts described in this tutorial are also fundamental for navigation and routing between apps in the SAP Fiori launchpad.
 
+We will create a simple app displaying the data of a company’s employees to show typical navigation patterns and routing features. The complete flow of the application can be seen in the figure below. We'll start with the home page which lets users do the following:
+
 -   Display a *Not Found* page
 
 -   Navigate to a list of employees and drill further down to see a *Details* page for each employee

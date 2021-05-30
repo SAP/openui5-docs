@@ -66,6 +66,8 @@ After saving and running the app again, we should get the following result:
 
  ![](loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible") 
 
+Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
+
 > ### Tip:  
 > In Google Chrome, mocked requests will appear in a debug level log of the console \(both request and response\) and not on the *Network* tab. If you do see them in the *Network* tab, they are not mocked and you need to check your code.
 
@@ -139,12 +141,16 @@ sap.ui.define([
 });
 ```
 
+We push a new request handler to mock the function import call as follows:
+
 1.  Fetch the array of requests from the `MockServer`. The OData V2 mock server holds an internal list of requests that you have to get and set if you want to modify.
 
 2.  Push a new request handler to handle the function import
 
 3.  Set the updated request array
 
+
+The request handler has the following structure:
 
 -   `method`: The HTTP method of the mock request
 
@@ -178,6 +184,8 @@ oMockServer.simulate("localService/metadata.xml", {
 });
 ...
 ```
+
+The path we gave in the simulate function for mock data is where we want to store the .json file\(s\).
 
 -   Save it \(in JSON format\) from a real service
 

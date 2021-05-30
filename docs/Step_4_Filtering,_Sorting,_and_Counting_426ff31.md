@@ -103,6 +103,8 @@ We add the `onSearch` and `onSort` event handlers for the *Search* field and the
 
 The **`onSearch`** event handler filters the table for people whose last name contains any string value entered in the *Search* field. We define a `sap.ui.model.Filter` and apply it to the binding of the `Table` using the `filter` method. The binding will then automatically retrieve filtered data from the OData V4 service and update the `Table`.
 
+When the request is triggered, only entities that match the given filter criteria are requested from the OData V4 service.
+
 > ### Note:  
 > Filters of OData services are case-sensitive. If you prefer a non case-sensitive search, implement it in the controller logic.
 

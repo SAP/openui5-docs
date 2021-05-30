@@ -228,6 +228,8 @@ Emulate different mobile devices by selecting different devices, or switch orien
 
 ### Analyzing Performance Problems and Memory Leaks
 
+There are additional tabs that can help you to analyze performance problems or memory leaks. For more information, refer to the documentation of the developer tools of your browser.
+
 -   *Memory* or *Profiles*
 
 -   *Performance* or *Timeline*

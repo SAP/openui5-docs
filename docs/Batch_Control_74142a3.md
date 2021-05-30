@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests \(see the link under Related Information for more details\).
 
+The OData V4 model sends requests in the following cases:
+
 -   **Implicit read requests** to retrieve data for a binding
 
     Example: A list binding with the absolute path `/SalesOrderList` triggers a `GET SalesOrderList` to read data.

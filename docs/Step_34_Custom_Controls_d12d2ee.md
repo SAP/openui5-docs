@@ -152,9 +152,11 @@ We now enhance our new custom control with the custom functionality that we need
 
 In the `metadata` section we therefore define several properties that we make use in the implementation:
 
--   -   Value
+-   Properties
 
-    We define a control property `value` that will hold the value that the user selected in the rating. Getter and setter function for this property will automatically be created and we can also bind it to a field of the data model in the XML view if we like.
+    -   Value
+
+        We define a control property `value` that will hold the value that the user selected in the rating. Getter and setter function for this property will automatically be created and we can also bind it to a field of the data model in the XML view if we like.
 
 -   Aggregations
 
@@ -173,9 +175,11 @@ In the `metadata` section we therefore define several properties that we make us
     > 
     > -   An **association** is a weak relation that does not manage the lifecycle and can be defined multiple times. To have a clear distinction, an association only stores the ID, whereas an aggregation stores the direct reference to the control. We do not specify associations in this example, as we want to have our internal controls managed by the parent.
 
--   -   Change
+-   Events
 
-    We specify a `change` event that the control will fire when the rating is submitted. It contains the current value as an event parameter. Applications can register to this event and process the result similar to “regular” OpenUI5 controls, which are in fact built similar to custom controls.
+    -   Change
+
+        We specify a `change` event that the control will fire when the rating is submitted. It contains the current value as an event parameter. Applications can register to this event and process the result similar to “regular” OpenUI5 controls, which are in fact built similar to custom controls.
 
 
 In the `init` function that is called by OpenUI5 automatically whenever a new instance of the control is instantiated, we set up our internal controls. We instantiate the three controls and store them in the internal aggregation by calling the framework method `setAggregation` that has been inherited from `sap.ui.core.Control`. We pass on the name of the internal aggregations that we specified above and the new control instances. We specify some control properties to make our custom control look nicer and register a `liveChange` event to the rating and a press event to the button. The initial texts for the label and the button are referenced from our `i18n` model.
@@ -313,9 +317,9 @@ The resource bundle is extended with the confirmation message and the strings th
 **Related Information**  
 
 
-[8dcab0011d274051808f959800cabf9f.md]()
+[8dcab0011d274051808f959800cabf9f.md](8dcab0011d274051808f959800cabf9f.md)
 
-[7b52540d9d8c4e00b9723151622bbb64.md]()
+[7b52540d9d8c4e00b9723151622bbb64.md](7b52540d9d8c4e00b9723151622bbb64.md)
 
 [API Reference: `sap.m.RatingIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.RatingIndicator.html)
 

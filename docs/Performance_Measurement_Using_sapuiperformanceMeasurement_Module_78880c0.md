@@ -102,6 +102,8 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
     Measurement.end("myId");
     ```
 
+    You can use methods as listed in the following table:
+
     |Action
 
 |Method
@@ -144,6 +146,8 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 </table>
 
 
+To activate measurement for certain categories only, you have the following options:
+
 -   Provide a URL Parameter with categories `sap-ui-measure=category1,category2`
 
 -   Add the category as parameter to the call of the `Measurement.setActive` as in the following example:
@@ -170,6 +174,8 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 #### 2. Retrieve the results
 
 You can view the results in the *Performance* section of the diagnostics window \( [Ctrl\] + [Alt\] + [Shift\] + [S\] \). Here, you can also refresh the result list, if the performance measurement is still running.
+
+You can retrieve the results via API with one of the following commands:
 
 |Command
 
@@ -239,6 +245,8 @@ console.table(Measurement.getAllMeasurements(true)) //table with completed measu
 
 #### 3. Interpret the results
 
+Each entry in the resulting array provides an object of the following structure:
+
 -   `id`: `string`
 
     The unique ID of the measurement as provided in the `start` or `average` method
@@ -304,6 +312,8 @@ Log.info("Average time: " + Measurement.getMeasurement("myId").duration);
 ***
 
 #### Measurement of Object Methods
+
+You can register an average measurement without changing the original source code. For this, you use the following APIs:
 
 -   `Measurement.registerMethod`
 

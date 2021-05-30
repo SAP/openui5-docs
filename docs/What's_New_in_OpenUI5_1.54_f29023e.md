@@ -82,11 +82,13 @@ You can now also use the "Manifest First" mechanism for component containers. Fo
 
 The new version of the OpenUI5 OData V4 model has the following features:
 
--   -   Handling of complex filters with `and`, `or`, `not`, brackets, and frequently used functions including `contains`.
+-   Enhancements to the adapter to use the V4 model with an OData V2 service:
 
--   Support for bound operations by evaluating the V2 annotation `sap:action-for`.
+    -   Handling of complex filters with `and`, `or`, `not`, brackets, and frequently used functions including `contains`.
 
--   Additional annotation conversions and warnings \(in the console\) for V2 annotations that are not converted.
+    -   Support for bound operations by evaluating the V2 annotation `sap:action-for`.
+
+    -   Additional annotation conversions and warnings \(in the console\) for V2 annotations that are not converted.
 
 -   Suspend and resume absolute context and list bindings. A suspended binding will not send requests to the backend.
 
@@ -125,17 +127,21 @@ A new default font, the 72 font family that offers some legibility and accessibi
 
 #### Support Assistant Performance and Usability Improvements
 
+There are several improvements in the Support Assistant tool:
+
 -   Better initial loading performance - now each library should have a `.supportrc` file in its root folder. The purpose of this file is to serve as a metadata container to be used by the Support Assistant ruleset loader module.
 
     For more information, see [Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md).
 
 -   Improved perceived UI performance during initial tool loading – achieved by early and dynamic rendering of the most important UI elements and introducing a progress bar in the main screen of the Support Assistant.
 
--   -   The selection of rules to run an analysis has been improved. Now, selecting a library selects all the rules it contains.
+-   Improved usability:
 
--   The *Issues* and *Rules* buttons are now highlighted to show the user which view is active at the moment.
+    -   The selection of rules to run an analysis has been improved. Now, selecting a library selects all the rules it contains.
 
--   The issue details in the *Issues* view have been moved from the top to the bottom of the window for better usability.
+    -   The *Issues* and *Rules* buttons are now highlighted to show the user which view is active at the moment.
+
+    -   The issue details in the *Issues* view have been moved from the top to the bottom of the window for better usability.
 
 
 ![](loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 

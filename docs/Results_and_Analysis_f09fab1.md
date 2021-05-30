@@ -34,6 +34,8 @@ Selecting *Report* generates an HTML report with the current set of rules and sc
 
 ### Issue Details
 
+The middle part shows a detailed view of the selected rule. It contains the following:
+
 -   Description - general description of the rule
 
 -   Resolution - steps to resolve the issue

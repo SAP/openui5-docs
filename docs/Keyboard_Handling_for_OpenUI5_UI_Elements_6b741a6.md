@@ -18,7 +18,7 @@ OpenUI5 UI elements provide keyboard handling in order to improve accessibility 
 
 In this topic we introduce the main keyboard combinations that are used by OpenUI5 UI elements. Furthermore we describe some additional combinations that are used in specific cases.
 
- <a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u1x_1dg_yq"/>Main Keyboard Combinations
+<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_u1x_1dg_yq"/>Main Keyboard Combinations
 
 |Key Combination
 
@@ -39,7 +39,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 	</thead>
 	<tbody>
 
-[Shift\]⁠+⁠[Tab\]
+[Shift\] ⁠+⁠ [Tab\]
 
 			<td>Focuses UI elements in order \(forward / backward\)
 			</td>
@@ -141,7 +141,7 @@ or
 	</tbody>
 </table>
 
- <a name="loio6b741a6133284bd78e897cef8b75f6d9__table_zld_4rl_yq"/>Additional Keyboard Combinations for Specific UI elements
+<a name="loio6b741a6133284bd78e897cef8b75f6d9__table_zld_4rl_yq"/>Additional Keyboard Combinations for Specific UI elements
 
 |Key Combination
 
@@ -219,7 +219,9 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 			<td>Exits edit mode
 			</td>
-			<td>> ### Note:   > Pressing [F7\] again will move focus back to the editable element.
+			<td>When you are editing an input field in a table or a list, pressing this key will stop the editing and move the focus to the parent UI element.
+ > ### Note:  
+ > Pressing [F7\] again will move focus back to the editable element.
 			</td>
 		</tr>
 	</tbody>

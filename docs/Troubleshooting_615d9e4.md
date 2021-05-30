@@ -18,7 +18,7 @@ The first place to check for errors is the developer tools that are provided by 
 
 OpenUI5 also provides you with support tools that help you troubleshoot and solve issues.
 
- <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>Support Tools Available in OpenUI5
+<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>Support Tools Available in OpenUI5
 
 |Tool
 
@@ -43,6 +43,8 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 			</td>
 			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
+
+Gesture on mobile device:
 
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two fingers on the screen.
@@ -76,7 +78,7 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 	</tbody>
 </table>
 
- <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>Performance Measurement Tools
+<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>Performance Measurement Tools
 
 |Tool
 

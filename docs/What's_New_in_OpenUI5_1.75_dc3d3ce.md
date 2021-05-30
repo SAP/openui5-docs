@@ -108,6 +108,8 @@ We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors wer
 |
 |**`sap.ui.integration.widgets.Card`**
 
+We have enhanced the capabilities of the Adaptive Card \(Experimental\).
+
 -   You can now load the Adaptive Card manifest/descriptor from а URL.
 
 -   The Adaptive Card supports templating, which enables the separation of data from the layout.

@@ -40,6 +40,8 @@ The table in the *Worklist* view displays a header area that shows the current a
 
 ### Where Can I Find the Worklist Template?
 
+You can find the template in the following places:
+
 -   **SAP Fiori Worklist Application** \(for OData V2 models\) and **SAP Fiori Worklist Application - OData V4** \(for OData V4 models\) templates in SAP Web IDE
 
     For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
@@ -51,7 +53,7 @@ The table in the *Worklist* view displays a header area that shows the current a
 
 -   `openui5-worklist-app` in the [SAP Repository on GitHub](https://github.com/SAP)
 
-    For more information on how to clone or download the template from GitHub, refer to the template documentation on [GitHub]() .
+    For more information on how to clone or download the template from GitHub, refer to the template documentation on [GitHub](https://github.com/SAP/openui5-worklist-app/blob/master/README.md) .
 
 
 ***

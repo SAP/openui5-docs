@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.
 
+The OPA5 library is JavaScript-based. This means that you can write your tests in the same language in which your app is written. This has the following advantages:
+
 -   Quick and easy access to JavaScript functions
 
 -   Easy ramp-up as it can be used with any JavaScript unit test framework, such as QUnit or Jasmine

@@ -63,9 +63,11 @@ Support Assistant has been enhanced with the following features:
 
     The default value of this property is `false`. If you set it to `true`, a resolve function is passed as a parameter of the check function to allow you to resolve the asynchronous operation. Call `fnResolve` to indicate that the asynchronous check function has finished. The asynchronous function waits 10 seconds before it times out.
 
--   -   When you click the *Settings* button in the Support Assistant toolbar, you can see the URL at the bottom of the dialog box. A *Copy* button next to the URL allows you to copy the location to the clipboard.
+-   New options to check the location from which Support Assistant has been loaded:
 
--   In the *Technical Information* section of the report.
+    -   When you click the *Settings* button in the Support Assistant toolbar, you can see the URL at the bottom of the dialog box. A *Copy* button next to the URL allows you to copy the location to the clipboard.
+
+    -   In the *Technical Information* section of the report.
 
 -   Displaying issues and their severity
 
@@ -208,15 +210,17 @@ White spaces are decreased, contrast between the background and the tables is in
 
 -   Thrown exceptions are displayed.
 
--   -   Cross links to *Documentation* are added.
+-   The following information is displayed in the header:
 
--   Abstract classes are displayed in front of the class name.
+    -   Cross links to *Documentation* are added.
 
--   Known direct subclasses and known direct implementations are displayed. If there is more than one instance, they are visualized in a popover.
+    -   Abstract classes are displayed in front of the class name.
 
--   Class visibility information is added.
+    -   Known direct subclasses and known direct implementations are displayed. If there is more than one instance, they are visualized in a popover.
 
--   Library information for a certain namespace is added.
+    -   Class visibility information is added.
+
+    -   Library information for a certain namespace is added.
 
 
 ***
@@ -241,12 +245,16 @@ We added a new *Tools* section in the main navigation after the *Demo Apps* sect
 
 ### Documentation and Templates
 
+Check out the following new and updated documentation topics:
+
 -   [Test Automation](Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0) that describes the setup for automated testing with *Karma*
 
 -   [Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
 
 -   [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
 
+
+Our tutorials and templates have been updated according to the latest practices:
 
 |Change
 
@@ -263,6 +271,8 @@ We added a new *Tools* section in the main navigation after the *Demo Apps* sect
 		</tr>
 	</thead>
 	<tbody>
+
+ -   Component ID in all HTML pages that instantiate a UI component manually
 
     ```
 new ComponentContainer({
@@ -285,7 +295,9 @@ For target IDs, this leads to unpredictable view IDs as the views are generated 
 			</td>
 		</tr>
 		<tr>
-			<td>-   In the routing configuration in the `manifest.json` descriptor files
+			<td>Asynchronous processing added:
+ -   In the routing configuration in the `manifest.json` descriptor files
+
  -   Loading of the `rootView` in the `manifest.json` descriptor files
 
  -   Loading of the `rootView` in the `Component.js` files

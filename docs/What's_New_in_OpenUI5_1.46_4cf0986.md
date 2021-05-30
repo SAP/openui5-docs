@@ -193,6 +193,8 @@ You can now switch the *Samples* to the new *High Contrast White* theme from the
 
 We reworked the landing page for the *Demo Apps* in the Demo Kit. It now features and highlights demo apps in multiple categories, and tests and related documentation chapters are now linked. Check it out at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps).
 
+New and reworked demo apps:
+
 -   *Browse Orders*: A new master-detail app with features for browsing orders
 
      ![](loio67c304672d8241b4a6496b969c01d972_LowRes.png) 

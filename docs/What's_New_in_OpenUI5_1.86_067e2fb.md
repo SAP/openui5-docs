@@ -58,6 +58,8 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 |**`sap.m.FormattedText`**
 
+We have introduced two ways to set the text direction in the control:
+
 -   The HTML `bdi` tag and the HTML `dir` attribute can now be used in the control.
 -   The new `textDirection` property sets the text direction for the root DOM element.
 

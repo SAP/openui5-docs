@@ -24,6 +24,8 @@ With the following line you enable `Blanket.js` to measure the code coverage:
 
 With this argument, all files that are executed during the test run are added to the result.
 
+If you want to limit the test run, you can use the following code:
+
 -   Limit test to a single file:
 
     ``` html
@@ -68,6 +70,8 @@ sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
     // code
 });
 ```
+
+If you want to limit the test run, you can use the following code:
 
 -   Limit test to a single file:
 
@@ -115,5 +119,5 @@ In this example the coverage is limited to one specific file - the only one that
 **Related Information**  
 
 
-[More information about `Blanket.js`]()
+[More information about `Blanket.js`](https://github.com/alex-seville/blanket/blob/master/docs/intermediate_browser.md)
 

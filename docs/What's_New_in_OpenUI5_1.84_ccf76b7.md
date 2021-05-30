@@ -103,6 +103,8 @@ The new `accDescription` property allows applications to define their own applic
 |
 |**`sap.m.ObjectStatus`**
 
+We have made several visual improvements:
+
 -   Samples have been updated to use the latest message and status icons.
 -   Icons now have same width, which allows the text to be aligned when there are more than one items one below the other.
 -   The control now supports light font in large state.

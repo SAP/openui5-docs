@@ -18,6 +18,8 @@ The Support Assistant can also run in silent mode and accept calls through its A
 
 ### General Information
 
+The Support Assistant is currently separated into two main parts:
+
 -   Core plug-in in OpenUI5
 
 -   UI client running in an iFrame or separate window, or programmable clients via an API
@@ -30,6 +32,8 @@ In the following diagram you can see how the Support Assistant is connected to t
 <a name="loioa34eb58aaf124f538a3ead23a6cab04a__fig_y25_ws5_41b"/>Support Assistant Architecture
 
  ![](loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture") 
+
+There are two different use cases for its integration:
 
 -   Using browser window messaging protocol for agents in other window frames;
 

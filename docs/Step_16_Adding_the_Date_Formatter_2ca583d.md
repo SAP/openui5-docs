@@ -82,6 +82,8 @@ sap.ui.define([ *HIGHLIGHT START*"sap/ui/demo/bulletinboard/model/DateFormatter"
 
 In the `formatter.js file`, create an instance of the previously implemented `DateFormatter` and provide the necessary dependencies.
 
+Now run the app again to see that the formatter is applied on the post date of the detail page.
+
 > ### Note:  
 > The files that create objects with dependencies should be kept simple. They do not have multiple code paths caused by if-else statements or loops. To test these components, just a few simple integration tests, or merely smoke tests, are sufficient. We already know that the `DateFormatter` does the job right for all the different cases.
 

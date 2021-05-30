@@ -54,17 +54,23 @@ The following aggregations are available and enable the apps to add their own cu
 -   `customShareMenuContent`
 -   `content` - for content in the body of the page
 
--   -   `messagesIndicator`
+The ordering logic of custom and semantic content is as follows from left to right:
 
--   `draftIndicator`
+-   Left area:
 
--   -   `mainAction`
+    -   `messagesIndicator`
 
--   Semantic text-only buttons, such as `deleteAction`, `positiveAction`, and `negativeAction`
+    -   `draftIndicator`
 
--   Custom content that the app fully controls with no automatic reordering
+-   Right area:
 
--   Semantic icon-only buttons, such as `favoriteAction`, and `flagAction`
+    -   `mainAction`
+
+    -   Semantic text-only buttons, such as `deleteAction`, `positiveAction`, and `negativeAction`
+
+    -   Custom content that the app fully controls with no automatic reordering
+
+    -   Semantic icon-only buttons, such as `favoriteAction`, and `flagAction`
 
 
 ![](loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)

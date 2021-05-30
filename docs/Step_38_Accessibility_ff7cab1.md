@@ -190,6 +190,8 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 |
 
+As you can see, we now have four landmarks on our page. The top three landmarks structure our page:
+
 -   *Overview Page* marks the complete page.
 
 -   *Header* marks the page title.
@@ -210,7 +212,7 @@ You've completed the walkthrough, good job! You should be familiar with all majo
 
 [Accessibility](Accessibility_03b914b.md)
 
-[656e825c5f1548e6b1d0acb5586f2a2a.md]()
+[656e825c5f1548e6b1d0acb5586f2a2a.md](656e825c5f1548e6b1d0acb5586f2a2a.md)
 
 [SAP Software Accessibility](https://www.sap.com/corporate/en/company/diversity/accessibility.about.html)
 

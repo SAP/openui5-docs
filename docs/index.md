@@ -287,6 +287,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)
                     -   [Using Factory Functions](Using_Factory_Functions_335848a.md)
                     -   [Sorting, Grouping, and Filtering for List Binding](Sorting,_Grouping,_and_Filtering_for_List_Binding_ec79a5d.md)
+                    -   [Displaying a Specific Range of Records in a Control](Displaying_a_Specific_Range_of_Records_in_a_Control_9b5bdd8.md)
                     -   [Lifecycle of Binding Templates](Lifecycle_of_Binding_Templates_3a4a9e5.md)
                     -   [Extended Change Detection](Extended_Change_Detection_7cdff73.md)
             -   [Binding Syntax](Binding_Syntax_e2e6f41.md)

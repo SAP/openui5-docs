@@ -26,6 +26,8 @@ Theming \(CSS selectors\), keyboard handling \(tab order\) and screen reader sup
 
 #### Check the focus persistence
 
+When opening or closing a dialog or navigating between pages, the focus should stay on the same control as it was on before opening or navigating. If the control no longer exists, the focus should be put on its parent \(for example, if the control was inside an action sheet, set the focus on the button which opened the action sheet\).
+
 > ### Note:  
 > When the parent control cannot receive focus or is no longer available, the focus should go to a control nearby.
 
@@ -81,13 +83,17 @@ Container and layout controls such as `VerticalLayout` or `Grid` inherit the too
 
 ### Tips for Testing
 
+Start the application and check each screen element. Check the following:
+
 -   Does it have a label or a tooltip \(hover with the mouse\)?
 
--   -   Is this also true for each input field or for a sequence of input fields? \(For example: street and number\)?
+-   Are the labels and tooltips \(fully\) visible, clear, accurate, and meaningful?
 
--   Is this also true for buttons, icons and images?
+    -   Is this also true for each input field or for a sequence of input fields? \(For example: street and number\)?
 
--   Is this also true for grouped information?
+    -   Is this also true for buttons, icons and images?
+
+    -   Is this also true for grouped information?
 
 -   Is the user informed about the required entries and input?
 
@@ -97,9 +103,9 @@ Container and layout controls such as `VerticalLayout` or `Grid` inherit the too
 
 [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)
 
-[3e631addc9094499a74242cba38e6def.md]()
+[3e631addc9094499a74242cba38e6def.md](3e631addc9094499a74242cba38e6def.md)
 
-[656e825c5f1548e6b1d0acb5586f2a2a.md]()
+[656e825c5f1548e6b1d0acb5586f2a2a.md](656e825c5f1548e6b1d0acb5586f2a2a.md)
 
 [Theming](Theming_497c27a.md)
 

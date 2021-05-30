@@ -83,6 +83,8 @@ sap.ui.require([
 
 ```
 
+The changes to the coding are minimal:
+
 -   The XML view is now created as a named object called `oView`.
 
 -   The view object `oView` is registered with the `MessageManager`.

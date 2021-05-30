@@ -157,6 +157,8 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 |**New openSAP Course: Evolved Web Apps with SAPUI5**
 
+We have launched a new openSAP course on how to develop professional web apps with UI5. Key highlights:
+
 -   Evolved best practices and recommendations for app developers
 -   New UI5 innovations \(drag and drop, OData V4, XML composites\)
 -   Developer productivity tools and features in SAP Web IDE

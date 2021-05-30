@@ -61,6 +61,8 @@ Set up your development environment and go through our tutorials. They introduce
 
 ### Downloading Code for a Tutorial Step
 
+To download the code from the Demo Kit, follow these steps:
+
 1.  Choose the link in the *Coding* section of the tutorial step you want to work on or find the code in the *Samples* section of the Demo Kit \(filter by "*Tutorial*" to get a list of the tutorials that are available\).
 
 2.  Choose the icon with the *Show source code for this sample* tooltip in the right-hand part of the header bar to display all files included in this sample.
@@ -79,6 +81,8 @@ Set up your development environment and go through our tutorials. They introduce
 <a name="loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation"/>
 
 ### Adapting Code to Your Development Environment
+
+You might have to adapt parts of the coding to your local development environment to make the app work. Please check the following settings carefully:
 
 -   **Project Path and Deployment**
 

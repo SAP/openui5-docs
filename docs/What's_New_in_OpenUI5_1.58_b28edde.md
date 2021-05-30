@@ -55,6 +55,8 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
 #### UI5 Inspector
 
+The latest version 0.9.5 of the UI5 Inspector includes two main features:
+
 -   Now it supports a dark theme, for when you use Google Development Tools in dark mode.
 
 -   In previous versions, the UI5 Inspector did not properly display composite binding structures. Now it shows all parts of the bindings on the *Bindings* tab, including individual models, paths, and values. Clicking on the model link displays the whole model with all values.

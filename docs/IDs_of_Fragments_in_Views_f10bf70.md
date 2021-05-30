@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 For fragments that are used within declarative views, generated IDs are not prefixed.
 
+The following rules apply for given IDs:
+
 -   Given IDs are prefixed with only the view ID when no fragment ID was given
 -   Given IDs are prefixed with both view ID and fragment ID when a fragment ID was given
 

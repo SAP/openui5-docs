@@ -82,6 +82,8 @@ You load and create a `UIComponent` in one of the following ways:
 
 You may want to load components from a location that is different from the location where the OpenUI5 libraries are located or a location that is not registered as a resource root in the OpenUI5 bootstrap.
 
+You can do so by defining the URL of the additional components as a setting for the component factory or the component container.
+
 -   Loading the component asynchronously before creating the container:
 
     ``` js
@@ -197,6 +199,8 @@ You can also declare a reuse component directly, for example, in your JavaScript
 #### Migration
 
 If you have been reusing components before we introduced the reuse feature described above, we recommend that you refactor your code and implement the new logic.
+
+If you use a component that is embedded in a library, and the application declares a dependency to that library, remove the dependency to the library from the embedding application. Make sure that the application code does not contain any direct references to the component or the embedding application.
 
 |Old Code
 

@@ -57,7 +57,7 @@ You can set title \(`objectTitle`\) and subtitle \(`objectSubtitle`\). On larger
 
 You can display several optional indicators right after the title. They are considered part of the title and when there is not enough space they are wrapped and moved to more lines along with the title text.
 
- <a name="loio0fecbce45e39406aa939bd25e89823f4__table_oxs_blm_2cb"/>Optional indicators in the title
+<a name="loio0fecbce45e39406aa939bd25e89823f4__table_oxs_blm_2cb"/>Optional indicators in the title
 
 |Optional Indicator
 

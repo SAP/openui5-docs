@@ -14,6 +14,8 @@ You use busy indicators to inform users that something is going on in the backgr
 
 Whenever busy indication is triggered, the default delay until the busy indicator is displayed on the UI is 1000 ms \(1 second\). If this delay were not in place, the busy indicator would always be displayed, even if there is no negotiable waiting time.
 
+You can choose between the following busy indicators, depending on your use case:
+
 -   `sap.ui.core.BusyIndicator`
 
 -   `sap.m.BusyDialog`

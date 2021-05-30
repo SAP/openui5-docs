@@ -73,6 +73,8 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 
 #### APIs in the controls
 
+Use the specific roles and attributes, based on ARIA 1.1 specifications:
+
 -   `ariaDetails` association, which sets the `aria-details` attribute for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
 
 
@@ -175,12 +177,16 @@ When using the `List` control with visible non-active info toolbar with plain te
 
 #### Provide additional information when there are changes in the screen
 
+Make sure to provide additional information to the user, when changes in the screen are done, based on user interaction. You can use one of the following informative techniques:
+
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` API for the control triggering the update \(Button, Search Field, or other interactive control\). For example: When search results will be placed in the area below, you can add a text describing how/where the users can locate the results.
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
--   > ### Note:  
-> For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
+-   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the master-detail pattern when the user needs to browse the available items, the focus should stay in the master list area. And in cases when the user has selected an item from the master list and needs to perform an action, the focus should move to the details area.
+
+    > ### Note:  
+    > For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
 
 
 ***

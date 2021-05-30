@@ -26,6 +26,8 @@ Since writing integration tests can be time-consuming, it's better to use unit t
 
 Gherkin is written in JavaScript and is fully compatible with OpenUI5, OPA, and QUnit. It is based on the “cucumber” tool.
 
+The advantages of using Gherkin are:
+
 -   You write executable specifications that are easy to understand and that allow the easy generation of integration tests.
 
 -   Product specification and documentation are **always up to date**; they evolve during the development project.
@@ -34,6 +36,8 @@ Gherkin is written in JavaScript and is fully compatible with OpenUI5, OPA, and 
 
 -   Maximize the business value you get out of the time spent writing tests, and keep your focus on the customer and their requirements.
 
+
+The Gherkin library contains the following parts:
 
 -   Feature file
 

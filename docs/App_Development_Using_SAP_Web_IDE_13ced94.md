@@ -15,6 +15,8 @@ SAP Web IDE is a web-based development environment that is optimized for develop
 > ### Caution:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
+Key use cases:
+
 -   Develop new SAP Fiori apps and OpenUI5 apps
 
 -   Extend SAP Fiori apps

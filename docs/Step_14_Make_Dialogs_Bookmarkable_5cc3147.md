@@ -104,6 +104,8 @@ Once again we will update the `EmployeeOverviewContent` controller to add suppor
 
 Next we change the `press` handler of the sort button. In the `onSortButtonPressed` function we set `this._oRouterArgs["?query"].showDialog = 1` and call `navTo()` to let the router do the job instead of directly opening the dialog. Finally, we delete `this._oRouterArgs["?query"].showDialog` before calling `navTo()` in the `confirm` and `cancel` event handlers of the `ViewSettingsDialog`. This is important to make sure that the dialog does not open again by the matched handler.
 
+We are now done with this step. Try to access the following pages:
+
 -   `webapp/index.html#/employees/overview?showDialog=1`
 
 -   `webapp/index.html#/employees/overview?search=an&sortField=EmployeeID&sortDescending=true&showDialog=1`

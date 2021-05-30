@@ -53,6 +53,8 @@ Starting May 1, 2019, OpenUI5 supports a new era in the Japanese calendar, due t
 
 |**`sap.f.GridContainer` \(Experimental\)**
 
+We have introduced three new properties:
+
 -   `containerQuery` allows you to derive the layout breakpoints either based on the container surrounding the `sap.f.GridContainer` or the device screen size.
 
 -   `allowDenseFill` is an experimental property that allows you to try out a denser arrangement of the grid items. Smaller items will take up all the available space, ignoring their order.
@@ -69,6 +71,8 @@ The options list used in these controls is now instantiated lazily. The list is 
 
 |
 |**`sap.m.DateRangeSelection`**
+
+You can now change the date range value using keyboard combinations without opening the calendar. When the cursor is on the start date \(before the delimiter\), we change the start date and when it is on the end date \(after the delimiter\), we change the end date.
 
 -   [PgUp\]/[PgDn\] - increments/decrements the date
 

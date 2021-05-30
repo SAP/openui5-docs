@@ -220,6 +220,8 @@ new Opa5().iStartMyUIComponent({
 });
 ```
 
+This is very helpful if you want to start your tests with a specific target.
+
 > ### Note:  
 > Use the `iStartMyUIComponent` approach instead of an iFrame if you want your tests to run faster \(thanks to all resources being loaded at once\), make debugging easier \(by not having to switch between different frames\), and if you want to have full control over the mock server \(e.g. Start and Stop time\).
 

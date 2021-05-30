@@ -22,6 +22,8 @@ We recommend that you use the `manifest.json` file to configure the app settings
 
 Some attributes in the descriptor are just for information purposes, such as the minimum OpenUI5 version \(`minUI5version`\), others help external components \(for example the SAP Fiori launchpad \(FLP\)\) to integrate the application correctly, but most of the attributes are actually used to configure specific aspects of the app that are needed frequently.
 
+The most important configuration settings are:
+
 -   **Models**. Examples of models are the configuration of the OData service \(default model\) and language files \(i18n model\). All models described in the `manifest.json` file are automatically instantiated when the app is started.
 
 -   **Libraries** and **components** that are used in the app and have to be loaded during app initialization.

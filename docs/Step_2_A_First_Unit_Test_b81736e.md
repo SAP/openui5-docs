@@ -14,6 +14,8 @@ In this step we will analyze the unit testing infrastructure and write a first u
 
 The product team requested a feature to highlight the price with colors depending on the amount. This can be done using the standard semantic colors that are defined for states like *Success*, *Warning*, or *Error*.
 
+The price values can be mapped to semantic states as follows:
+
 -   price < 50: Status is green \(*Success*\)
 
 -   price \>= 50 and price < 250: Status is normal \(*None*\)
@@ -162,6 +164,8 @@ sap.ui.define([
 
 Now we write tests that call the function we have just defined and check for the correct result when passing in various arguments.
 
+By writing these tests, we actually implement the following specification in our tests that was defined by the product team.
+
 -   price < 50: Status is green \(*Success*\)
 
 -   price \>= 50 and price < 250: Status is normal \(*None*\)
@@ -181,6 +185,8 @@ We add a new QUnit module for our price state tests after the number unit conver
 > There must be at least one assertion per QUnit test. If the actual value matches the expected value then the test is successful. However, if there are more assertions in a test case and a subsequent assertion fails, the whole test fails with the error message of the failed assertion.
 > 
 > There are also other types of assertions, for example the `ok` assertion that does not check the type. For more details, have a look at the official QUnit documentation.
+
+The assert object – a special object injected by QUnit – is passed on as a reference to the function. QUnit is loaded once for the whole unit testing part of the app.
 
 > ### Note:  
 > The main page for calling the unit tests is `webapp/test/unit/unitTests.qunit.html`. In this file we load the QUnit runtime and an `AllTests.js` file that loads and directly executes all files with unit tests. The other content of this file is just HTML for displaying the QUnit test result page.

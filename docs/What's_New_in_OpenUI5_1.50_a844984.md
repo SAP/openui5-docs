@@ -22,7 +22,9 @@ The Demo Kit app has a new modern design that is intuitive and can be used on bo
 
 The global search has been improved and the results are now displayed in categories. They also include results from the *Samples* section, which was not possible with the old Demo Kit since the *Explored* app was a decoupled app.
 
-|-   Landing page with getting started information
+|The new Demo Kit contains the following sections:
+
+-   Landing page with getting started information
 
 -   *Documentation* with detailed information
 
@@ -47,15 +49,17 @@ The global search has been improved and the results are now displayed in categor
 
 -   The correct plural category for a given number is now handled by the locale-specific plural rules offered by CLDR. Different languages use different plural forms, some languages have only singular and plural, others require additional forms, for example, dual \(two\), paucal \(few\), or many.
 
--   -   `sap.ui.model.type.DateInterval` - a date interval \(without time\)
+-   Date interval types are introduced to format two date-related properties from a model for displaying in the UI. Additionally they are used to parse and validate the values in UI controls before they are saved back to the model. The new interval types are:
 
--   `sap.ui.model.type.DateTimeInterval` - a date interval with the exact point of time
+    -   `sap.ui.model.type.DateInterval` - a date interval \(without time\)
 
--   `sap.ui.model.type.TimeInterval` - a time interval \(without date\)
+    -   `sap.ui.model.type.DateTimeInterval` - a date interval with the exact point of time
+
+    -   `sap.ui.model.type.TimeInterval` - a time interval \(without date\)
 
     For more information, see [sap.ui.model.type.DateTimeInterval](sap.ui.model.type.DateTimeInterval_94658aa.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type). 
 
--   The configuration option `animationMode` replaces `animation`, which is now deprecated. The new option supports several states \(`full`, `basic`, `minimal`, `none`\), which allow controls to extend support for animations in a more granular way instead of a binary `on`/`off` state. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md), [76b7d5065cf64304a1d2841046043c34.md](), and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.AnimationMode). 
+-   The configuration option `animationMode` replaces `animation`, which is now deprecated. The new option supports several states \(`full`, `basic`, `minimal`, `none`\), which allow controls to extend support for animations in a more granular way instead of a binary `on`/`off` state. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md), [76b7d5065cf64304a1d2841046043c34.md](76b7d5065cf64304a1d2841046043c34.md), and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.AnimationMode). 
 
 
 ***

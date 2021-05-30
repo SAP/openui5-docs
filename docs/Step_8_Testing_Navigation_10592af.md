@@ -80,6 +80,8 @@ This new journey for the *Post* page introduces a test case that tests the navig
 
 A journey represents a user’s task in our app. Journeys start with the startup of our app and end with a teardown in the last test. We don’t write isolated tests here, since starting up the app takes a lot of time and doing it too often slows down our test execution and feedback time considerably. If the execution speed of the tests is no problem, you may also write isolated tests.
 
+Our new journey consists of three user interaction steps:
+
 1.  User chooses a *Post* to view the details
 
 2.  User chooses the *Back* button on the *Detail* page of the *Post* to see the list again
