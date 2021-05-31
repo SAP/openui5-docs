@@ -65,7 +65,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[Arrow Keys\] 
+			<td>[Arrow  Keys\] 
 			</td>
 			<td>Navigates between elements
 			</td>
@@ -84,8 +84,8 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[Page Up\]
-[Page Down\]
+			<td>[Page  Up\]
+[Page  Down\]
 			</td>
 			<td>Skips elements during navigation
 			</td>
@@ -106,8 +106,8 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[F4\]
- [Alt\] + [Down\]  
+			<td>[F4\] or
+ [Alt\] + [Down\]  or
 
  [Alt\] + [Up\] 
 			</td>
@@ -117,9 +117,7 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 			</td>
 		</tr>
 		<tr>
-			<td>[F6\] 
-or
-
+			<td>[F6\] or
  [Ctrl\] + [Alt/Option\] + [Down\] 
 			</td>
 			<td>Forward fast navigation
@@ -128,9 +126,7 @@ or
 			</td>
 		</tr>
 		<tr>
-			<td> [Shift\] + [F6\]  
-or
-
+			<td> [Shift\] + [F6\]  or
  [Ctrl\] + [Alt/Option\] + [Up\] 
 			</td>
 			<td>Backward fast navigation
@@ -162,7 +158,7 @@ or
 	</thead>
 	<tbody>
 
-[Page Down\]
+[Page  Down\]
 
 			<td>Date modification \(Days\)
 			</td>
@@ -171,8 +167,8 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td> [Shift\] + [Page Up\] 
- [Shift\] + [Page Down\] 
+			<td> [Shift\] + [Page  Up\] 
+ [Shift\] + [Page  Down\] 
 			</td>
 			<td>Date modification \(Months\)
 			</td>
@@ -181,8 +177,8 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 			</td>
 		</tr>
 		<tr>
-			<td> [Ctrl\] + [Shift\] + [Page Up\] 
- [Ctrl\] + [Shift\] + [Page Down\] 
+			<td> [Ctrl\] + [Shift\] + [Page  Up\] 
+ [Ctrl\] + [Shift\] + [Page  Down\] 
 			</td>
 			<td>Date modification \(Years\)
 			</td>
@@ -191,7 +187,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td> [Ctrl\] + [Arrow Keys\] 
+			<td> [Ctrl\] + [Arrow  Keys\] 
 			</td>
 			<td>When used with grouped radio buttons - Moves selection
 			</td>
@@ -199,7 +195,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 			</td>
 		</tr>
 		<tr>
-			<td> [Ctrl\] + [Arrow Keys\] 
+			<td> [Ctrl\] + [Arrow  Keys\] 
 			</td>
 			<td>When editing tiles in a container - Changes tile position
 			</td>

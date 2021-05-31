@@ -31,8 +31,19 @@ For more information, see the [Defining Column Width Sample](https://openui5.han
 
 ***
 
+<a name="loio6f778a805bc3453dbb66e246d8271839__section_sy2_2hg_5pb"/>
+
+### sap.m.Table: Strict Layout
+
+There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. This feature can be activated by setting the `fixedLayout="Strict"` property in the table. The `Strict` layout respects the defined column width for the columns and renders a placeholder column which occupies the remaining width of the table to ensure the column width setting is strictly applied.
+
+For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableStrictLayout). 
+
+***
+
 ### API Reference
 
 -   [sap.m.Column](https://openui5.hana.ondemand.com/#/api/sap.m.Column)
--   [sap.m.ScreenSize](https://openui5.hana.ondemand.com/#/api/sap.m.ScreenSize) 
+-   [sap.m.ScreenSize](https://openui5.hana.ondemand.com/#/api/sap.m.ScreenSize)
+-   [getFixedLayout](https://openui5.hana.ondemand.com/#/api/sap.m.Table%23methods/getFixedLayout)
 
