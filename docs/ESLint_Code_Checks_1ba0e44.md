@@ -18,7 +18,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 
 ### Rule Sets
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_i4g_r3n_np"/>Possible Errors
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_i4g_r3n_np"/>Possible Errors
 
 |Rule
 
@@ -282,7 +282,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_gwc_t3n_np"/>Best Practices
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_gwc_t3n_np"/>Best Practices
 
 |Rule
 
@@ -726,7 +726,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_vxj_v3n_np"/>Strict Mode
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_vxj_v3n_np"/>Strict Mode
 
 |Rule
 
@@ -763,7 +763,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>Variables
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_el2_x3n_np"/>Variables
 
 |Rule
 
@@ -887,7 +887,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_yy2_bjn_np"/>Node.js
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_yy2_bjn_np"/>Node.js
 
 |Rule
 
@@ -964,7 +964,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>Stylistic
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_d5f_2jn_np"/>Stylistic
 
 |Rule
 
@@ -1298,7 +1298,7 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 	</tbody>
 </table>
 
- <a name="loio1ba0e44f1036439b95f25527664f14f7__table_ung_gjn_np"/>Legacy
+<a name="loio1ba0e44f1036439b95f25527664f14f7__table_ung_gjn_np"/>Legacy
 
 |Rule
 

@@ -39,5 +39,5 @@ For adapting the sanitizer to support HTML5, the HTML attributes and elements ha
 **Related Information**  
 
 
-[4de64e2e191f4a7297d4fd2d1e233a2d.md](4de64e2e191f4a7297d4fd2d1e233a2d.md)
+[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md)
 

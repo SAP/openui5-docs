@@ -32,13 +32,13 @@ The following table outlines some common issues that occur when implementing rig
 	</thead>
 	<tbody>
 
-			<td>Create the correct RTL version of the image manually and put it into the `img-RTL` folder, using the same name and path. In most cases, this means just copying the original LTR image. In rare cases, an image may have some content that needs mirroring and other content that does not. In this case, the graphic needs to be adapted manually.
+			<td>Create the correct RTL version of the image manually and put it into the `img-RTL` folder, using the same name and path.
 			</td>
 		</tr>
 		<tr>
-			<td>Image mirroring is only supported for GIF, PNG and JPEG images. Other types like .cur, .ico and .svg are not supported.
+			<td>In RTL mode \(right-to-left\) the image shown is mirrored, but it should not be.
 			</td>
-			<td>Create the correct RTL version of the image manually and put it into the `img-RTL` folder, using the same name and path.
+			<td>Make sure that there is no corresponding image with the same name in the `img-RTL` folder.
 			</td>
 		</tr>
 		<tr>

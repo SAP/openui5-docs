@@ -27,7 +27,7 @@ There are a few things to keep in mind when defining the width of the column:
     > What if there is a `Selection` \(3rem width\), `Navigation` \(3rem width\), or `Deletion` \(3rem width\)? In this case, the total width would be 100% plus 6rem. If the total width is less than 100%, for example, one column with 20% and the other column with 40%, the total width would be 60% plus 6rem. By default, `Table` itself is in fixed layout mode and has a width of 100%. The browser needs to split up the width as it does not fit a 100% width. In some cases, browsers might handle this correctly, but you should avoid it. As mentioned, leaving the most important column width empty or set to `auto` fixes this problem because then the column will be flexible and cover the available space.
 
 
-For more information, see the [Defining Column Width Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableColumnWidth/preview).
+For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableColumnWidth/preview).
 
 ***
 
@@ -35,7 +35,9 @@ For more information, see the [Defining Column Width Sample](https://openui5.han
 
 ### sap.m.Table: Strict Layout
 
-There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. This feature can be activated by setting the `fixedLayout="Strict"` property in the table. The `Strict` layout respects the defined column width for the columns and renders a placeholder column which occupies the remaining width of the table to ensure the column width setting is strictly applied.
+There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. This feature can be activated by setting the `fixedLayout="Strict"` property in the table. The `Strict` layout takes into account the defined column width for the columns and renders a placeholder column which occupies the remaining width of the table to ensure the column width setting is strictly applied.
+
+![](loiobbde60a7988c47749f431b5ecd6622ef_LowRes.png)
 
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableStrictLayout). 
 

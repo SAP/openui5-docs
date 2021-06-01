@@ -14,14 +14,15 @@ It is possible to display only a specific range of records when using a list bin
 
 ***
 
-Use the `length` and `startIndex` properties of the `oBindingInfo` parameter of the [`sap.ui.base.ManagedObject#bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method if you wish to display only a specific range of your records. Your XML view will then look as shown in the following example. The resulting table will display the three notes with the lowest `Rank`.
+Use the `length` and `startIndex` properties of the `oBindingInfo` parameter of the [`sap.ui.base.ManagedObject#bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method if you wish to display only a specific range of your records. Your XML view will then look similar to the following example for a list of notes. The resulting table will display the fourth, fifth and sixth note ordered by `Rank` in ascending order.
 
 ``` xml
 <Table 
     items="{
         path: '/Notes',
         sorter: { path: 'Rank' },
-        length: 3
+        length: 3,
+        startIndex: 3
 }">
     <columns>
         <Column>

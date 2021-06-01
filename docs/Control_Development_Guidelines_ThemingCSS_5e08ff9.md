@@ -82,6 +82,8 @@ To override an image within the base theme an additional rule has to be added to
 
 ### LESS Theme Parameters
 
+For LESS theme parameters, the following guidelines apply:
+
 -   Use the correct theme parameter - do not find by color value, but by semantics. In general, let the visual designers give the correct parameter to use.
 
     If finding a color for a text, do not use any border or background color parameter. Start with `@sapUiText` and try to find something more specific such as `@sapUiHeaderText`. Use parameters such as `@sapUiTextInverted` for bright-on-dark scenarios.
@@ -94,7 +96,7 @@ To override an image within the base theme an additional rule has to be added to
 
     For **control-specific** parameters in `*.less` files, use a combination of the library name and the `*.less` file name for the prefix. Start with an underscore. Separate each part of the library namespace and the file name from each other using underscores as well.
 
-    > Tip:  
+    > ### Tip:  
     > For example, you can define the following prefix:
     > 
     > **Library**: `sap.ui.core`
@@ -105,7 +107,7 @@ To override an image within the base theme an additional rule has to be added to
 
     For **library-specific** parameters in `library.source.less` files, use the library name for the prefix. Start with an underscore. Separate each part of the library namespace from each other using underscores.
 
-    > Tip:  
+    > ### Tip:  
     > For example, you can define the following prefix:
     > 
     > **Library**: `sap.ui.core`
@@ -114,7 +116,7 @@ To override an image within the base theme an additional rule has to be added to
     > 
     > **Prefix**: `@_sap_ui_core_`
 
-    > Caution:  
+    > ### Caution:  
     > Local parameters themselves must **not** contain underscores. For example, do not write `@_sap_ui_core_MyControl_Some_Color`, but write `@_sap_ui_core_MyControl_**SomeColor**` instead.
 
 -   When defining URLs as parameters use the proper `url()` format: `@sapUiMyUrl: url(./path/to/img.png)`

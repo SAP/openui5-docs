@@ -32,7 +32,7 @@ Here are some general principles for writing comments:
 
     To explicitly specify which modules are allowed to use a class or function, mark the latter as `@private` followed by `@ui5-restricted <modulenames>`, with a comma-separated list of the modules that have access to this class or function.
 
-    > Note:  
+    > ### Note:  
     > To ensure that external JSDoc generators can also produce proper documentation, `@private` must be used first followed by `@ui5-restricted`. `@ui5-restricted` overrules `@private`, if it can be interpreted by the generator.
 
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
@@ -59,7 +59,7 @@ A documentation comment should provide the following content:
 -   Detailed description with additional information that does not repeat the self-explanatory API name or summary
 
 
-> Note:  
+> ### Note:  
 > Avoid implementation details and dependencies unless they are important for usage.
 
 ***
@@ -73,7 +73,7 @@ A documentation comment should provide the following content:
 -   Don’t use a period inside a summary sentence. For example, don’t use “e.g.”, but write “for example” instead. Otherwise the summary sentence will be cut off.
 
 
-> Note:  
+> ### Note:  
 > You can create links to external sources. The source should comply with standard legal requirements. The required icons are added to the link as described in the Demo Kit under *Terms of Use* \> *Disclaimer*. For more information about creating links, see the explanations below \(@see and \{@link\}\).
 
 ***
@@ -156,7 +156,7 @@ You can use inline and HTML tags in your comments.
 
 The table provides an overview of the most common inline and HTML tags.
 
- <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_ezd_5yt_l2b"/>Inline and HTML Tags
+<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_ezd_5yt_l2b"/>Inline and HTML Tags
 
 |Tag
 
@@ -442,7 +442,7 @@ You can add a header for the example by using <caption\>.
 
 To refer to another entity within the *API Reference*, you can use `{@link}` in combination with the reference types shown in the table below.
 
- <a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_rkg_bds_kgb"/>Reference Types within API Reference
+<a name="loioeeaa5de14e5f4fc1ac796bc0c1ada5fb__table_rkg_bds_kgb"/>Reference Types within API Reference
 
 |Type of Reference
 

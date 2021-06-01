@@ -35,7 +35,7 @@ MyControl.prototype.setShowLogoutButton = function(show) {
 
 ### Allowed Property Types
 
- <a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_gkp_kb2_2y"/>Built-in Types
+<a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_gkp_kb2_2y"/>Built-in Types
 
 |Type
 
@@ -90,13 +90,15 @@ Don't mix this type up with the `any` type! \(Sorry, we maybe should have named 
 		<tr>
 			<td> `function` 
 			</td>
-			<td>> Note:   > Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
+			<td>Can be any JavaScript function.
+ > ### Note:  
+ > Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
 			</td>
 		</tr>
 	</tbody>
 </table>
 
- <a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_lbg_fc2_2y"/>Derived Types
+<a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_lbg_fc2_2y"/>Derived Types
 
 |Category
 
@@ -140,6 +142,8 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 			</td>
 			<td>Derived from the built-in type `string`.
 Restricted subtypes can be derived that limit their valid values to a fixed set of values \(enumeration\). An `enum` type is defined through an object literal whose keys represent the allowed values.
+
+Restrictions:
 
  -   The value for each key must be a string literal, equal to the key itself.
 

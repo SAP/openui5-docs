@@ -23,7 +23,7 @@ For these objects, only the following metadata is available:
 -   `final`: Flag to mark the type as final \(optional\)
 
 
-> Note:  
+> ### Note:  
 > This metadata can also be used when extending controls.
 
 Regarding the implementation, all methods given outside the metadata are attached to the new type. The method name `constructor` is reserved for the constructor function of the new class. Although it is possible from a technical point of view, we recommend **not** to define a constructor for new elements and controls. Your control may otherwise break in some scenarios, such as in combination with list bindings, or may no longer be compatible in later versions of OpenUI5 when the constructor signature is extended.

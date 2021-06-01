@@ -36,6 +36,6 @@ sap.ui.define(["my/app/MyControl"], function(MyControl) {
 });
 ```
 
-> Note:  
+> ### Note:  
 > To avoid conflicts with other frameworks or developments, the `sap` namespace is reserved for SAP. Therefore, any non-OpenUI5 content, such as application code or custom controls, must **not** use namespaces that start with the `sap` prefix.
 

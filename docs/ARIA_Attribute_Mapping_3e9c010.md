@@ -16,7 +16,9 @@ Navigation with the keyboard and screen reader have to both work properly at the
 
 ### Attribute Mapping
 
- <a name="loio3e9c0104db864fbabc9fc786cbdf76a4__table_i55_wg4_ds"/>Attribute Mapping
+The mapping of HTML attributes to ARIA attributes is described in the following table:
+
+<a name="loio3e9c0104db864fbabc9fc786cbdf76a4__table_i55_wg4_ds"/>Attribute Mapping
 
 |HTML Attribute
 
@@ -85,7 +87,7 @@ In order to ease the setting of ARIA attributes, we have introduced two new asso
 
 These associations have the following structure:
 
-> Source Code:  
+> ### Source Code:  
 > ```
 > ariaLabelledBy : {
 > 
@@ -99,7 +101,7 @@ These associations have the following structure:
 > 
 > ```
 
-> Source Code:  
+> ### Source Code:  
 > ```
 > ariaDescribedBy : {
 > 

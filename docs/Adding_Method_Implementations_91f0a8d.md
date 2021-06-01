@@ -30,7 +30,7 @@ The following method names have a specific meaning and should be used accordingl
 -   `renderer`: Used for the function that creates the control's HTML
 
 
-> Note:  
+> ### Note:  
 > Any method in your inheriting control overrides methods with the same name in the superclass. If, for example, your control implements the `init()` method, the `init()` of the superclass will no longer be executed. The control is then no longer properly initialized and this typically causes an error. To avoid breaking the control, call the superclass method.
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
@@ -48,6 +48,6 @@ The following method names have a specific meaning and should be used accordingl
 >        } 
 > ```
 
-> Note:  
+> ### Note:  
 > When you modify the HTML of a control using the code in the control behavior file, make sure to escape any unchecked data you write with `sap.base.security.encodeXML(...)` to prevent cross-site-scripting issues. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
 

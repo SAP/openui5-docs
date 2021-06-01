@@ -112,7 +112,7 @@ Formatting
 
 [Expression Binding](Expression_Binding_daf6852.md)
 
-[Custom Controls](8dcab0011d274051808f959800cabf9f.md)
+[Custom Controls](Developing_Controls_8dcab00.md)
 			</td>
 			<td>`sap.ui.layout.BlockLayout`
 `sap.ui.layout.ResponsiveGridLayout`

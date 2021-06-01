@@ -29,7 +29,7 @@ The following keys and key combinations are used for triggering events of clicka
 	<tbody>
 
 			<td>If items are **not selectable** and focus is on an item, trigger the item event.
- > Tip:  
+ > ### Tip:  
  > If you press and hold the key, you can cancel the trigger action by pressing [Shift\].
 
 If items are selectable, select/deselect the item.

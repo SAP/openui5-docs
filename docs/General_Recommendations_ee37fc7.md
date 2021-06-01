@@ -103,9 +103,9 @@ Start the application and check each screen element. Check the following:
 
 [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)
 
-[3e631addc9094499a74242cba38e6def.md](3e631addc9094499a74242cba38e6def.md)
+[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md)
 
-[656e825c5f1548e6b1d0acb5586f2a2a.md](656e825c5f1548e6b1d0acb5586f2a2a.md)
+[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md)
 
 [Theming](Theming_497c27a.md)
 

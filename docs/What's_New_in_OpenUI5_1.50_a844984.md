@@ -59,7 +59,7 @@ The global search has been improved and the results are now displayed in categor
 
     For more information, see [sap.ui.model.type.DateTimeInterval](sap.ui.model.type.DateTimeInterval_94658aa.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type). 
 
--   The configuration option `animationMode` replaces `animation`, which is now deprecated. The new option supports several states \(`full`, `basic`, `minimal`, `none`\), which allow controls to extend support for animations in a more granular way instead of a binary `on`/`off` state. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md), [76b7d5065cf64304a1d2841046043c34.md](76b7d5065cf64304a1d2841046043c34.md), and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.AnimationMode). 
+-   The configuration option `animationMode` replaces `animation`, which is now deprecated. The new option supports several states \(`full`, `basic`, `minimal`, `none`\), which allow controls to extend support for animations in a more granular way instead of a binary `on`/`off` state. For more information, see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md), [Implementing Animation Modes](Implementing_Animation_Modes_76b7d50.md), and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.AnimationMode). 
 
 
 ***

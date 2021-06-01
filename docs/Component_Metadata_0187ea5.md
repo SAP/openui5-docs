@@ -34,7 +34,7 @@ The metadata defined in `Component.js` is common for components. The following p
 
 -   `version`: Version of your component; this parameter belongs to the design time metadata and is currently not used; it may be used in the future in the design time repository
 
--   `properties`, `aggregations`, `associations`, and `events`: Define these for your component in the same way as for a control. For more information, see [7b52540d9d8c4e00b9723151622bbb64.md](7b52540d9d8c4e00b9723151622bbb64.md).
+-   `properties`, `aggregations`, `associations`, and `events`: Define these for your component in the same way as for a control. For more information, see [Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md).
 
 -   `library`: Specifies the library to which your component belongs to
 

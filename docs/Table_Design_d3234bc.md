@@ -66,6 +66,8 @@ The described pop-in design is provided by the table by default. However, you ca
 
 With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available in the table. Otherwise, the pop-in columns are rendered as shown in the image above.
 
+![](loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png)
+
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Here you can use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
 
 ***

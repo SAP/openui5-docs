@@ -61,7 +61,7 @@ If focus is on the last item of a column, do nothing.
 			<td>[Page up\]
 			</td>
 			<td>If focus is on an item, move focus **up** by page size.
- > Note:  
+ > ### Note:  
  > Page size can be set by apps; default page size is 5 rows.
 
 If there are less items available than page size, move focus to the first item.
@@ -73,7 +73,7 @@ If focus is on the first item, do nothing.
 			<td>[Page down\]
 			</td>
 			<td>If focus is on an item, move focus **down** by page size.
- > Note:  
+ > ### Note:  
  > Page size can be set by apps; default page size is 5 rows.
 
 If there are less items available than page size, move focus to the first item.
@@ -85,7 +85,7 @@ If focus is on the last item, do nothing.
 			<td> [Alt\] / [Option\] + [Page up\] 
 			</td>
 			<td>If focus is on an item, move focus **left** by page size.
- > Note:  
+ > ### Note:  
  > Page size can be set by apps; default page size is 5 columns.
 
 If there are less items available than page size, move focus to the first item.
@@ -97,7 +97,7 @@ If focus is on the first item, do nothing.
 			<td> [Alt\] / [Option\] + [Page down\] 
 			</td>
 			<td>If focus is on an item, move focus **right** by page size.
- > Note:  
+ > ### Note:  
  > Page size can be set by apps; default page size is 5 columns.
 
 If there are less items available than page size, move focus to the first item.

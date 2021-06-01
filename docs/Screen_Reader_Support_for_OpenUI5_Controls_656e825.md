@@ -45,7 +45,7 @@ Currently, the following libraries have screen reader support based on the ARIA 
 
 OpenUI5 controls provide the prerequisites for screen reader support based on the ARIA and HTML standards. All screen readers that implement this standard should work fine. If there are deviations in the interpretation, these need to be addressed to the screen reader vendor. If you need more information on our testing environment, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
 
-> Note:  
+> ### Note:  
 > -   No screen reader activation settings are necessary since the accessibility mode in OpenUI5 is switched on by default.
 > 
 > -   With version 1.78 of OpenUI5, we have prevented the automatic insertion of role `application` on the body of the OpenUI5 applications. After the change, a mode-based screen reader will start operating in reading mode as its default mode. For more information, please refer to SAP Note [2925884](https://launchpad.support.sap.com/#/notes/2925884).

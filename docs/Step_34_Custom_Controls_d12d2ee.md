@@ -317,9 +317,9 @@ The resource bundle is extended with the confirmation message and the strings th
 **Related Information**  
 
 
-[8dcab0011d274051808f959800cabf9f.md](8dcab0011d274051808f959800cabf9f.md)
+[Developing Controls](Developing_Controls_8dcab00.md)
 
-[7b52540d9d8c4e00b9723151622bbb64.md](7b52540d9d8c4e00b9723151622bbb64.md)
+[Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md)
 
 [API Reference: `sap.m.RatingIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.RatingIndicator.html)
 

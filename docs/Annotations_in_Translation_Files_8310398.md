@@ -32,13 +32,13 @@ The following text type classifications exist:
 
 -   Y texts are used for texts with more than 120 characters
 
-    > Note:  
+    > ### Note:  
     > Use only the Y text types specified in the table below. More Y text types exist but must not be used.
 
 -   `NOTR` is used for strings that are not relevant for translation
 
 
- <a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>X Text Types
+<a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>X Text Types
 
 |Text type
 
@@ -315,7 +315,7 @@ The following text type classifications exist:
 	</tbody>
 </table>
 
- <a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>Y Text Types
+<a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>Y Text Types
 
 |Text type
 

@@ -12,6 +12,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Some UI elements can have animations like page transitions or dynamic buttons. There may be cases where the animation has to be suppressed, for example, for performance reasons or for specific users. As a control developer, you have to make sure that your control supports the animation modes that are offered to the users.
 
+The following animation modes are available:
+
 -   `full`: all animations are shown
 
 -   `basic`: a reduced, more light-weight set of animations
@@ -29,7 +31,7 @@ If the mode is changed, the value of `data-sap-ui-animation-mode` is updated cor
 
 The attribute can be selected in CSS with `html[data-sap-ui-animation-mode="<mode>"]`.
 
-> Example:  
+> ### Example:  
 > The following implementation defines the duration for animation mode `full` with 1 sec, `minimal` and `basic` with 0.1 sec, and `none` with 0.0 sec.
 > 
 > ```
