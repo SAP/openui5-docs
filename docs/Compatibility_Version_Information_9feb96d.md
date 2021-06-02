@@ -42,135 +42,313 @@ The compatibility version configuration works as follows:
 -   If a version edge is specified, the newest behavior of the feature is applied.
 -   A fallback mechanism is implemented. The following table is an example of possible configuration options for feature "xyz":
 
-    |data-sap-ui-compatVersion
 
-|data-sap-ui-compatVersion-xyz
+    <table>
+    <tr>
+    <th>
 
-|Default feature xyz
+    data-sap-ui-compatVersion
 
-|Resulting compatibility version
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+    
+    </th>
+    <th>
 
-<table>
-	<thead>
-		<tr>
-			<th>    </th>
-			<th>---------------------------</th>
-			<th>-------------------------------</th>
-			<th>---------------------</th>
-			<th>---------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+    data-sap-ui-compatVersion-xyz
 
-			<td>--
-			</td>
-			<td>1.14
-			</td>
-			<td>1.14
-			</td>
-		</tr>
-		<tr>
-			<td>1.16
-			</td>
-			<td>--
-			</td>
-			<td>1.14
-			</td>
-			<td>1.16
-			</td>
-		</tr>
-		<tr>
-			<td>--
-			</td>
-			<td>1.16
-			</td>
-			<td>1.14
-			</td>
-			<td>1.16
-			</td>
-		</tr>
-		<tr>
-			<td>1.18
-			</td>
-			<td>1.16
-			</td>
-			<td>1.14
-			</td>
-			<td>1.16
-			</td>
-		</tr>
-		<tr>
-			<td>edge
-			</td>
-			<td>..
-			</td>
-			<td>1.14
-			</td>
-			<td>1.18
-			</td>
-		</tr>
-	</tbody>
-</table>
 
+    
+    </th>
+    <th>
+
+    Default feature xyz
+
+
+    
+    </th>
+    <th>
+
+    Resulting compatibility version
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    --
+
+
+    
+    </td>
+    <td>
+
+    --
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    <td>
+
+    --
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    --
+
+
+    
+    </td>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    1.18
+
+
+    
+    </td>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    <td>
+
+    1.16
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    edge
+
+
+    
+    </td>
+    <td>
+
+    ..
+
+
+    
+    </td>
+    <td>
+
+    1.14
+
+
+    
+    </td>
+    <td>
+
+    1.18
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 OpenUI5 supports the following compatibility version flags:
 
-|Flag
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>The `TabContainer` was deprecated in 1.15. When the compatibility version is 1.16 or higher, an error is logged to the console indicating that `sap.m.IconTabBar` should be used instead.
+Flag
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-compatVersion-sapMeTabContainer`
+
+
+
+</td>
+<td>
+
+The `TabContainer` was deprecated in 1.15. When the compatibility version is 1.16 or higher, an error is logged to the console indicating that `sap.m.IconTabBar` should be used instead.
+
 Default value: 1.14
-			</td>
-		</tr>
-		<tr>
-			<td>`data-sap-ui-compatVersion-sapMeProgessIndicator`
-			</td>
-			<td>--
-			</td>
-		</tr>
-		<tr>
-			<td>`data-sap-ui-compatVersion-sapMGrowingList`
-			</td>
-			<td>--
-			</td>
-		</tr>
-		<tr>
-			<td>`data-sap-ui-compatVersion-sapMListAsTable`
-			</td>
-			<td>--
-			</td>
-		</tr>
-		<tr>
-			<td>`data-sap-ui-compatVersion-sapMDialogWithPadding`
-			</td>
-			<td>By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-compatVersion-sapMeProgessIndicator`
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-compatVersion-sapMGrowingList`
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-compatVersion-sapMListAsTable`
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-compatVersion-sapMDialogWithPadding`
+
+
+
+</td>
+<td>
+
+By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md).
+
 Default value: 1.14
-			</td>
-		</tr>
-		<tr>
-			<td>`data-sap-ui-bindingSyntax`
-			</td>
-			<td>This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as XML view or HTML view.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`data-sap-ui-bindingSyntax`
+
+
+
+</td>
+<td>
+
+This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as XML view or HTML view.
+
 For versions lower than 1.28, the default value is `default` which only has very limited features. As of version 1.28, the default is `complex`.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

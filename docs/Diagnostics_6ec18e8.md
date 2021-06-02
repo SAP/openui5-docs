@@ -194,13 +194,27 @@ Before you can use this feature, restart your app in Support Mode \(with the `sa
 
 ### XML Metadata
 
-|You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.
 
-|![](loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)
+<table>
+<tr>
+<td>
+
+You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.
+
+
+
+</td>
+<td>
+
+![](loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)
 
 XML metadata of a service with three main entity sets: `Product`, `ProductCategory`, and `FeaturedProduct`
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -208,7 +222,12 @@ XML metadata of a service with three main entity sets: `Product`, `ProductCatego
 
 ### XML Code
 
-|When you expand an XML view in the tree, you can display the XML code.
+
+<table>
+<tr>
+<td>
+
+When you expand an XML view in the tree, you can display the XML code.
 
 You can choose the following options for this view:
 
@@ -218,15 +237,26 @@ You can choose the following options for this view:
 
     -   IDs as they are defined in the XML view \(option *Show XML View ID*\)
 
-If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if there is an ID, the value is set to `true` \(`id="true"`\).
+        If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if there is an ID, the value is set to `true` \(`id="true"`\).
 
 -   You can show or hide the namespaces to improve readability of the code.
 
 
-|![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)
 
-|
-|When you select a control in the code, the following information is displayed:
+
+</td>
+<td>
+
+![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+When you select a control in the code, the following information is displayed:
 
 -   Name of the control with a link to the API Reference and its ID in the DOM tree
 
@@ -234,7 +264,7 @@ If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if the
 
 -   Attributes and properties of the control with their values
 
-Similar to the *Control Tree* section of *Diagnostics*, you can change those values here for testing purposes.
+    Similar to the *Control Tree* section of *Diagnostics*, you can change those values here for testing purposes.
 
 -   Methods that are available for the control.
 
@@ -242,9 +272,18 @@ Similar to the *Control Tree* section of *Diagnostics*, you can change those val
 > ### Note:  
 > When you select, for example, an aggregation, you see the name of the control which has this aggregation or the name of the parent.
 
-|![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)
 
-|
+
+</td>
+<td>
+
+![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)
+
+
+
+</td>
+</tr>
+</table>
 
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio2e698c47a18e4303af9c6e59b6dd69b5__loio2e698c47a18e4303af9c6e59b6dd69b5"/>
 

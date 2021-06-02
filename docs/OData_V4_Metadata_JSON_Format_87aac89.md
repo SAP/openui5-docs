@@ -234,26 +234,43 @@ Constant and dynamic expressions are used as values for annotations. Their JSON 
 
 <a name="loio87aac894a40640f89920d7b2a414499b__table_tyk_cqs_xv"/>Constant Expressions
 
-|Expression
-
-|Options
-
-|Additional Information
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------</th>
-			<th>---------</th>
-			<th>------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`{"$Binary" : "T0RhdGE"}`
+Expression
+
+
+
+</th>
+<th>
+
+Options
+
+
+
+</th>
+<th>
+
+Additional Information
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+14.4 Constant Expressions
+
+
+
+</td>
+<td>
+
+`{"$Binary" : "T0RhdGE"}`
+
 `{"$Date" : "2000-01-01"}`
 
 `{"$DateTimeOffset" : "2000-01-01T16:00:00.000-09:00"}`
@@ -265,187 +282,419 @@ Constant and dynamic expressions are used as values for annotations. Their JSON 
 `{"$Guid" : "21EC2020-3AEA-1069-A2DD-08002B30309D"}`
 
 `{"$TimeOfDay" : "21:45:00"}`
-			</td>
-			<td>"Binary", "Date", "DateTimeOffset", "Decimal", "Duration", "Guid", "TimeOfDay" are objects with a single property that has a string value.
-			</td>
-		</tr>
-		<tr>
-			<td>14.4.2 Expression `Bool` 
-			</td>
-			<td>`false`
+
+
+
+</td>
+<td>
+
+"Binary", "Date", "DateTimeOffset", "Decimal", "Duration", "Guid", "TimeOfDay" are objects with a single property that has a string value.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.4.2 Expression `Bool` 
+
+
+
+</td>
+<td>
+
+`false`
+
 `true`
-			</td>
-			<td>Is represented by the JavaScript boolean literals.
-			</td>
-		</tr>
-		<tr>
-			<td>14.4.7 Expression `EnumMember` 
-			</td>
-			<td>`{"$EnumMember" : 42}`
+
+
+
+</td>
+<td>
+
+Is represented by the JavaScript boolean literals.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.4.7 Expression `EnumMember` 
+
+
+
+</td>
+<td>
+
+`{"$EnumMember" : 42}`
+
 `{"$EnumMember" : "1234567890123456789"}`
-			</td>
-			<td>Is represented like above object notation, but with a JavaScript number literal as long as the value is a safe integer, else with a string value.
-			</td>
-		</tr>
-		<tr>
-			<td>14.4.8 Expression `Float` 
-			</td>
-			<td>`3.1415926535`
+
+
+
+</td>
+<td>
+
+Is represented like above object notation, but with a JavaScript number literal as long as the value is a safe integer, else with a string value.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.4.8 Expression `Float` 
+
+
+
+</td>
+<td>
+
+`3.1415926535`
+
 `{"$Float" : "-INF"}`
 
 `{"$Float" : "INF"}`
 
 `{"$Float" : "NaN"}`
-			</td>
-			<td>Is represented by a JavaScript number literal \(except for the `nanInfinity` ABNF rule which needs an object notation with a string value\).
-			</td>
-		</tr>
-		<tr>
-			<td>14.4.10 Expression `Int` 
-			</td>
-			<td>`42`
+
+
+
+</td>
+<td>
+
+Is represented by a JavaScript number literal \(except for the `nanInfinity` ABNF rule which needs an object notation with a string value\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.4.10 Expression `Int` 
+
+
+
+</td>
+<td>
+
+`42`
+
 `{"$Int" : "1234567890123456789"}`
-			</td>
-			<td>Is represented by a JavaScript number literal as long as the value is a safe integer. Else the above object notation is used.
-			</td>
-		</tr>
-		<tr>
-			<td>14.4.11 Expression `String` 
-			</td>
-			<td> `"Product Catalog"` 
-			</td>
-			<td>Is represented by a JavaScript string literal.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+<td>
+
+Is represented by a JavaScript number literal as long as the value is a safe integer. Else the above object notation is used.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.4.11 Expression `String` 
+
+
+
+</td>
+<td>
+
+ `"Product Catalog"` 
+
+
+
+</td>
+<td>
+
+Is represented by a JavaScript string literal.
+
+
+
+</td>
+</tr>
 </table>
 
 <a name="loio87aac894a40640f89920d7b2a414499b__table_erw_2rs_xv"/>Dynamic Expressions
 
-|Expression
-
-|Options and Additional Information
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------</th>
-			<th>------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are written like `{"$And" : [<value>, <value>], "@..." : <value>}` because they require two child expressions.
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.2 Expression `AnnotationPath` 
-			</td>
-			<td> `{"$AnnotationPath" : "..."}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.3 Expression `Apply` 
-			</td>
-			<td> `{"$Apply" : [<value>, ...], "$Function" : "<14.5.3.1 Apply Function>", "@..." : <value>}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.4 Expression `Cast` 
-			</td>
-			<td>``` js
+Expression
+
+
+
+</th>
+<th>
+
+Options and Additional Information
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+14.5.1 Comparison and Logical Operators
+
+
+
+</td>
+<td>
+
+edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are written like `{"$And" : [<value>, <value>], "@..." : <value>}` because they require two child expressions.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.2 Expression `AnnotationPath` 
+
+
+
+</td>
+<td>
+
+ `{"$AnnotationPath" : "..."}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.3 Expression `Apply` 
+
+
+
+</td>
+<td>
+
+ `{"$Apply" : [<value>, ...], "$Function" : "<14.5.3.1 Apply Function>", "@..." : <value>}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.4 Expression `Cast` 
+
+
+
+</td>
+<td>
+
+``` js
+
 {
 "$Cast" : <value>,
 "$isCollection" : true, // omit in case of default value: false
 "$Type" : "<14.5.4.1 Cast Type>",
 "$MaxLength" : <6.2.2 MaxLength>, // optional, number
 "$Precision" : <6.2.3 Precision>, // optional, number
-			</td>
-			<td>"$Scale" : <6.2.4 Scale> </td>
- "variable", // optional, number or fixed string"$SRID" : "<6.2.6 SRID>", // optional
+"$Scale" : <6.2.4 Scale> | "variable", // optional, number or fixed string
+"$SRID" : "<6.2.6 SRID>", // optional
 "@..." : <value>
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.5 Expression `Collection` 
-			</td>
-			<td>`[<value>, ...]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.5 Expression `Collection` 
+
+
+
+</td>
+<td>
+
+`[<value>, ...]`
+
 Simply an array. No additional properties, no annotations possible.
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.6 Expression `If` 
-			</td>
-			<td>`{"$If" : [<value>, <value>, <value>], "@..." : <value>}`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.6 Expression `If` 
+
+
+
+</td>
+<td>
+
+`{"$If" : [<value>, <value>, <value>], "@..." : <value>}`
+
 Condition, then, else \(which is optional inside a "14.5.5 Expression Collection" only\).
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.7 Expression `IsOf` 
-			</td>
-			<td>``` js
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.7 Expression `IsOf` 
+
+
+
+</td>
+<td>
+
+``` js
+
 {
 "$IsOf" : <value>,
 "$isCollection" : true, // omit in case of default value: false
 "$Type" : "<14.5.7.1 IsOf Type>",
 "$MaxLength" : <6.2.2 MaxLength>, // optional, number
 "$Precision" : <6.2.3 Precision>, // optional, number
-			</td>
-			<td>"$Scale" : <6.2.4 Scale> </td>
- "variable", // optional, number or fixed string"$SRID" : "<6.2.6 SRID>", // optional
+"$Scale" : <6.2.4 Scale> | "variable", // optional, number or fixed string
+"$SRID" : "<6.2.6 SRID>", // optional
 "@..." : <value>
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.8 Expression `LabeledElement` 
-			</td>
-			<td> `{"$LabeledElement" : <value>, "$Name" : "<5.1.1 Schema Namespace>.<14.5.8.1 LabeledElement Name>", "@..." : <value>}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.9 Expression `LabeledElementReference` 
-			</td>
-			<td> `{"$LabeledElementReference" : "<QualifiedName name of a labeled element expression in scope>"}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.10 Expression `Null` 
-			</td>
-			<td>`null`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.8 Expression `LabeledElement` 
+
+
+
+</td>
+<td>
+
+ `{"$LabeledElement" : <value>, "$Name" : "<5.1.1 Schema Namespace>.<14.5.8.1 LabeledElement Name>", "@..." : <value>}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.9 Expression `LabeledElementReference` 
+
+
+
+</td>
+<td>
+
+ `{"$LabeledElementReference" : "<QualifiedName name of a labeled element expression in scope>"}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.10 Expression `Null` 
+
+
+
+</td>
+<td>
+
+`null`
+
 `{"$Null" : null, "@..." : <value>}`
 
 The object notation is needed in case of inline annotations.
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.11 Expression `NavigationPropertyPath` 
-			</td>
-			<td> `{"$NavigationPropertyPath" : "..."}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.12 Expression `Path` 
-			</td>
-			<td> `{"$Path" : "..."}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.13 Expression `PropertyPath` 
-			</td>
-			<td> `{"$PropertyPath" : "..."}` 
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.14 Expression `Record` 
-			</td>
-			<td>The record itself is a map:
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.11 Expression `NavigationPropertyPath` 
+
+
+
+</td>
+<td>
+
+ `{"$NavigationPropertyPath" : "..."}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.12 Expression `Path` 
+
+
+
+</td>
+<td>
+
+ `{"$Path" : "..."}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.13 Expression `PropertyPath` 
+
+
+
+</td>
+<td>
+
+ `{"$PropertyPath" : "..."}` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.14 Expression `Record` 
+
+
+
+</td>
+<td>
+
+The record itself is a map:
+
 ``` js
 
 {
@@ -454,15 +703,27 @@ The object notation is needed in case of inline annotations.
   "@..." : <value>
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>14.5.15 Expression `UrlRef` 
-			</td>
-			<td> `{"$UrlRef" : <value>, "@..." : <value>}` 
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+14.5.15 Expression `UrlRef` 
+
+
+
+</td>
+<td>
+
+ `{"$UrlRef" : <value>, "@..." : <value>}` 
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

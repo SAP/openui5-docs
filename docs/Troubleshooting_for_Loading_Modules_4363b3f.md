@@ -111,55 +111,123 @@ sap.ui.define([], function(){
 
 Although the API signature for `sap.ui.define` and `sap.ui.require` looks similar, you must use the `sap.ui.define` API to define a reusable JavaScript object \(that is, a module\). Note the following differences between `sap.ui.require` and `sap.ui.define`:
 
-|Action
-
-|sap.ui.require
-
-|sap.ui.define
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------</th>
-			<th>----------------</th>
-			<th>---------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Not possible
-			</td>
-			<td>The callback function defines an export to provide functionality to other modules.
-			</td>
-		</tr>
-		<tr>
-			<td>Module name registration
-			</td>
-			<td>Not possible
-			</td>
-			<td>The module name is registered at the loader registry and can be used to address the module.
-			</td>
-		</tr>
-		<tr>
-			<td>Relative dependencies
-			</td>
-			<td>This is not possible, because no module name is registered and a reference point is missing.
-			</td>
-			<td>Can be used.
-			</td>
-		</tr>
-		<tr>
-			<td>Execution order
-			</td>
-			<td>Dependent modules can be executed before the `sap.ui.require` callback has been executed. Therefore, using `sap.ui.require` instead of `sap.ui.define` can break the intended dependency graph and module execution order.
-			</td>
-			<td>The dependent modules are waiting for the module callback execution to be finished.
-			</td>
-		</tr>
-	</tbody>
+Action
+
+
+
+</th>
+<th>
+
+sap.ui.require
+
+
+
+</th>
+<th>
+
+sap.ui.define
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Value export
+
+
+
+</td>
+<td>
+
+Not possible
+
+
+
+</td>
+<td>
+
+The callback function defines an export to provide functionality to other modules.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Module name registration
+
+
+
+</td>
+<td>
+
+Not possible
+
+
+
+</td>
+<td>
+
+The module name is registered at the loader registry and can be used to address the module.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Relative dependencies
+
+
+
+</td>
+<td>
+
+This is not possible, because no module name is registered and a reference point is missing.
+
+
+
+</td>
+<td>
+
+Can be used.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Execution order
+
+
+
+</td>
+<td>
+
+Dependent modules can be executed before the `sap.ui.require` callback has been executed. Therefore, using `sap.ui.require` instead of `sap.ui.define` can break the intended dependency graph and module execution order.
+
+
+
+</td>
+<td>
+
+The dependent modules are waiting for the module callback execution to be finished.
+
+
+
+</td>
+</tr>
 </table>
 
 **Example**: The file for module C has one top-level `sap.ui.require` instead of a top-level `sap.ui.define` call. The module callback evaluation order starts with module B, because it has no dependencies. Afterwards, the framework can execute module A or module C, because the intended module C is not a module from the module loader perspective. Furthermore, the undefined export value of module C will most probably lead to errors in module A. If module C is defined correctly via a top-level `sap.ui.define` call, the module callback execution order is clear: B - C - A.

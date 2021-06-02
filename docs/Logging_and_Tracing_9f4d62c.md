@@ -23,84 +23,275 @@ Specific log messages only appear in the console when the severity of the issue 
 
 <a name="loio9f4d62c6648a423d85aaf2bfc2c7ddfe__table_ihz_4ld_xz"/>Severities and Log Levels
 
-|Severity
 
-|Log Level
+<table>
+<tr>
+<th>
 
-|Description
+Severity
 
-|Example
 
-|
-|----------|-----------|-------------|---------|
-| `NONE` 
 
-|-1
+</th>
+<th>
 
-|No messages are written to the console
+Log Level
 
-||
-| `FATAL` 
 
-|0
 
-|Unrecoverable situations
+</th>
+<th>
 
-|A parse error occurred while processing a JavaScript file or an XML view
+Description
 
-|
-| `ERROR` 
 
-|1 \(Default\)
 
-|Erroneous but recoverable situations
+</th>
+<th>
 
-|Loading a requested module failed
+Example
 
-|
-| `WARNING` 
 
-|2
 
-|Unwanted but foreseen situations
+</th>
+</tr>
+<tr>
+<td>
 
-|Wrong property format was passed to a control
+ `NONE` 
 
-|
-| `INFO` 
 
-|3
 
-|Purely informative
+</td>
+<td>
 
-|A configuration parameter was set
+-1
 
-|
-| `DEBUG` 
 
-|4 \(Debug Mode\)
 
-|Information necessary for debugging
+</td>
+<td>
 
-|A framework event was fired
+No messages are written to the console
 
-|
-| `TRACE` 
 
-|5
 
-|Tracing the program flow
+</td>
+<td>
 
-|A certain position in the code was reached
 
-|
-| `ALL` 
 
-|6
+</td>
+</tr>
+<tr>
+<td>
 
-|Messages of all severity categories are written to the console
+ `FATAL` 
 
-||
+
+
+</td>
+<td>
+
+0
+
+
+
+</td>
+<td>
+
+Unrecoverable situations
+
+
+
+</td>
+<td>
+
+A parse error occurred while processing a JavaScript file or an XML view
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `ERROR` 
+
+
+
+</td>
+<td>
+
+1 \(Default\)
+
+
+
+</td>
+<td>
+
+Erroneous but recoverable situations
+
+
+
+</td>
+<td>
+
+Loading a requested module failed
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `WARNING` 
+
+
+
+</td>
+<td>
+
+2
+
+
+
+</td>
+<td>
+
+Unwanted but foreseen situations
+
+
+
+</td>
+<td>
+
+Wrong property format was passed to a control
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `INFO` 
+
+
+
+</td>
+<td>
+
+3
+
+
+
+</td>
+<td>
+
+Purely informative
+
+
+
+</td>
+<td>
+
+A configuration parameter was set
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `DEBUG` 
+
+
+
+</td>
+<td>
+
+4 \(Debug Mode\)
+
+
+
+</td>
+<td>
+
+Information necessary for debugging
+
+
+
+</td>
+<td>
+
+A framework event was fired
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `TRACE` 
+
+
+
+</td>
+<td>
+
+5
+
+
+
+</td>
+<td>
+
+Tracing the program flow
+
+
+
+</td>
+<td>
+
+A certain position in the code was reached
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `ALL` 
+
+
+
+</td>
+<td>
+
+6
+
+
+
+</td>
+<td>
+
+Messages of all severity categories are written to the console
+
+
+
+</td>
+<td>
+
+
+
+</td>
+</tr>
+</table>
 
 ***
 

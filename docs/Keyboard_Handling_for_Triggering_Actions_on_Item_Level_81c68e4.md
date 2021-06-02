@@ -12,73 +12,124 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The following keys and key combinations are used for triggering events of clickable elements.
 
-|Key combination
-
-|Behavior
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>----------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>If items are **not selectable** and focus is on an item, trigger the item event.
- > ### Tip:  
- > If you press and hold the key, you can cancel the trigger action by pressing [Shift\].
+Key combination
+
+
+
+</th>
+<th>
+
+Behavior
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+[Spacebar\]
+
+
+
+</td>
+<td>
+
+If items are **not selectable** and focus is on an item, trigger the item event.
+
+> ### Tip:  
+> If you press and hold the key, you can cancel the trigger action by pressing [Shift\].
 
 If items are selectable, select/deselect the item.
-			</td>
-		</tr>
-		<tr>
-			<td>[Enter\]
-			</td>
-			<td>If focus is on an item, trigger the item event immediately after the key press.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Enter\]
+
+
+
+</td>
+<td>
+
+If focus is on an item, trigger the item event immediately after the key press.
+
+
+
+</td>
+</tr>
 </table>
 
 ***
 
 Use the following keys to trigger additional actions \(if supported\):
 
-|Key combination
-
-|Behavior
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>----------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>If deletion of items supported:
+Key combination
+
+
+
+</th>
+<th>
+
+Behavior
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+[Delete\]
+
+
+
+</td>
+<td>
+
+If deletion of items supported:
+
 If focus is on an item, delete the item. Move focus to the next item.
 
 If the deleted item is the last item, move focus to the previous item.
 
 If the deleted item is the last remaining item, move focus to the next control in the tab order.
-			</td>
-		</tr>
-		<tr>
-			<td>[F2\]
-			</td>
-			<td>If *Detail* of items is supported:
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+[F2\]
+
+
+
+</td>
+<td>
+
+If *Detail* of items is supported:
+
 If focus is on an item, trigger the click event for the *Detail* button.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 

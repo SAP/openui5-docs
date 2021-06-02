@@ -59,58 +59,104 @@ You can display several optional indicators right after the title. They are cons
 
 <a name="loio0fecbce45e39406aa939bd25e89823f4__table_oxs_blm_2cb"/>Optional indicators in the title
 
-|Optional Indicator
-
-|API Properties
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------------</th>
-			<th>----------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `markFavorite` 
-			</td>
-		</tr>
-		<tr>
-			<td> 
+Optional Indicator
 
-![](loio4c5abbfbce524a4aba4e48724c36a345_HiRes.png) *Flagged* 
-			</td>
-			<td> `markFlagged` 
-			</td>
-		</tr>
-		<tr>
-			<td> 
 
-![](loio52d023e0f3674110ac99f4a72b74b428_HiRes.png) *Locked* 
-			</td>
-			<td> `markLocked` 
-			</td>
-		</tr>
-		<tr>
-			<td> 
 
-![](loiof89451a47cc54e0186d1e597f2f18682_HiRes.png) *Unsaved changes* 
-			</td>
-			<td> `markChanges` 
-			</td>
-		</tr>
-		<tr>
-			<td> 
+</th>
+<th>
 
-![](loiod7144c249b8d4168a7129f583e7c5674_HiRes.png) *Selector* 
-			</td>
-			<td> `showTitleSelector` 
-			</td>
-		</tr>
-	</tbody>
+API Properties
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ ![](loio7813cf4ed2754695a91a1aa67e94de39_HiRes.png) *Favorite* 
+
+
+
+</td>
+<td>
+
+ `markFavorite` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ![](loio4c5abbfbce524a4aba4e48724c36a345_HiRes.png) *Flagged* 
+
+
+
+</td>
+<td>
+
+ `markFlagged` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ![](loio52d023e0f3674110ac99f4a72b74b428_HiRes.png) *Locked* 
+
+
+
+</td>
+<td>
+
+ `markLocked` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ![](loiof89451a47cc54e0186d1e597f2f18682_HiRes.png) *Unsaved changes* 
+
+
+
+</td>
+<td>
+
+ `markChanges` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ![](loiod7144c249b8d4168a7129f583e7c5674_HiRes.png) *Selector* 
+
+
+
+</td>
+<td>
+
+ `showTitleSelector` 
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

@@ -85,16 +85,41 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 
 <a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__table_mr1_wbn_tv"/>Technical Information Dialog on Mobile Devices
 
-|![Technical Information in Mobile App](loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
-|![Technical Information in Mobile App](loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
+<table>
+<tr>
+<td>
 
-|
-|![Technical Information in Mobile App](loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
+![Technical Information in Mobile App](loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
-|![Technical Information in Mobile App](loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
 
-|
+
+</td>
+<td>
+
+![Technical Information in Mobile App](loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+![Technical Information in Mobile App](loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
+
+
+
+</td>
+<td>
+
+![Technical Information in Mobile App](loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
+
+
+
+</td>
+</tr>
+</table>
 
 ***
 

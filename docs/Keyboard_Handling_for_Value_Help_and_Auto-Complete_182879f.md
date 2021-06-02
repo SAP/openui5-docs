@@ -18,50 +18,96 @@ The following keys and key combinations are used for triggering and using the va
 
 Auto-complete is available for one dimensional editing only.
 
-|Key combination
-
-|Behavior
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>----------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Adds the corresponding character. If text is selected, it gets overwritten.
+Key combination
+
+
+
+</th>
+<th>
+
+Behavior
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Any printable character
+
+
+
+</td>
+<td>
+
+Adds the corresponding character. If text is selected, it gets overwritten.
+
 Triggers autocomplete, if available.
-			</td>
-		</tr>
-		<tr>
-			<td>[Right arrow\] or [Down arrow\]
-			</td>
-			<td>Move caret on position to the right.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Right arrow\] or [Down arrow\]
+
+
+
+</td>
+<td>
+
+Move caret on position to the right.
+
 If text is selected, move caret to the end of the selection and remove selection.
 
 If caret is at the rightmost position, do nothing.
 
 If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
-			</td>
-		</tr>
-		<tr>
-			<td>[Enter\]
-			</td>
-			<td>If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
-			</td>
-		</tr>
-		<tr>
-			<td>[Tab\]
-			</td>
-			<td>Move focus to next element. Take over autocomplete, if available.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Enter\]
+
+
+
+</td>
+<td>
+
+If autocomplete is currently available, take over changes. Move caret to the right of the changed text.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+[Tab\]
+
+
+
+</td>
+<td>
+
+Move focus to next element. Take over autocomplete, if available.
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -70,25 +116,39 @@ If autocomplete is currently available, take over changes. Move caret to the rig
 
 Use the following keys and key combinations to trigger value help:
 
-|Key combination
-
-|Behavior
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>----------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Open the value help dialog.
-			</td>
-		</tr>
-	</tbody>
+Key combination
+
+
+
+</th>
+<th>
+
+Behavior
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ [Alt\] + [Down arrow\]  or  [Alt\] + [Up arrow\]  or [F4\] 
+
+
+
+</td>
+<td>
+
+Open the value help dialog.
+
+
+
+</td>
+</tr>
 </table>
 

@@ -18,68 +18,152 @@ You can use the `sap.m.CustomListItem` control to create your own layout if the 
 
 OpenUI5 contains several list items that are used with the `sap.m.List` control to serve different standard scenarios. These are outlined in the table below, along with `sap.m.ColumnListItem`, which is used together with the `sap.m.Table` control:
 
-|List Item
-
-|Used for...
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Displaying list content with a title description, icon and info
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.DisplayListItem` 
-			</td>
-			<td>Displaying name/value pairs
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.InputListItem` 
-			</td>
-			<td>Building a form-like user interface on phones
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.ActionListItem` 
-			</td>
-			<td>Triggering an action directly from a list
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.FeedListItem` 
-			</td>
-			<td>Displaying a standard UI for feeds. For more information, see [Feed List Item](Feed_List_Item_14a9900.md) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.ObjectListItem` 
-			</td>
-			<td>Providing a quick overview for an object within a list
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.ColumnListItem` 
-			</td>
-			<td>Providing responsive table design in combination with `sap.m.Table` 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.CustomListItem` 
-			</td>
-			<td>Creating custom list items if none of the list items above are suitable
-			</td>
-		</tr>
-	</tbody>
+List Item
+
+
+
+</th>
+<th>
+
+Used for...
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `sap.m.StandardListItem` 
+
+
+
+</td>
+<td>
+
+Displaying list content with a title description, icon and info
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.DisplayListItem` 
+
+
+
+</td>
+<td>
+
+Displaying name/value pairs
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.InputListItem` 
+
+
+
+</td>
+<td>
+
+Building a form-like user interface on phones
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.ActionListItem` 
+
+
+
+</td>
+<td>
+
+Triggering an action directly from a list
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.FeedListItem` 
+
+
+
+</td>
+<td>
+
+Displaying a standard UI for feeds. For more information, see [Feed List Item](Feed_List_Item_14a9900.md) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.ObjectListItem` 
+
+
+
+</td>
+<td>
+
+Providing a quick overview for an object within a list
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.ColumnListItem` 
+
+
+
+</td>
+<td>
+
+Providing responsive table design in combination with `sap.m.Table` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.CustomListItem` 
+
+
+
+</td>
+<td>
+
+Creating custom list items if none of the list items above are suitable
+
+
+
+</td>
+</tr>
 </table>
 
 If none of the predefined list items \(the first seven entries in the table above\) fit your scenario, you can also create your own layout by using `sap.m.CustomListItem` directly, or create a new control that inherits from `sap.m.CustomListItem`.

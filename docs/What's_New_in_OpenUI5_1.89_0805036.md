@@ -18,7 +18,12 @@ With this release OpenUI5 is upgraded from version 1.88 to 1.89.
 
 ### Demo Kit Feedback
 
-|**Demo Kit Improvements**
+
+<table>
+<tr>
+<td>
+
+**Demo Kit Improvements**
 
 Here are some Demo Kit improvements that we implemented based on your feedback:
 
@@ -26,14 +31,18 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 -   We implemented a copy button in all code samples in the *Documentation* section:
 
-![](loio5757eab2d22b4718a11e0f544bebea0b_HiRes.png)
+    ![](loio5757eab2d22b4718a11e0f544bebea0b_HiRes.png)
 
 -   We added a link for each API in the Demo Kit and you can now go directly to the source code file in GitHub:
 
-![](loio92d89d918b65410cab9ea44013fff92b_HiRes.png)
+    ![](loio92d89d918b65410cab9ea44013fff92b_HiRes.png)
 
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -41,17 +50,34 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 ### Improved Features
 
-|**OpenUI5 OData V2 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V2 Model**
 
 You can now provide unit and currency customizing for the `sap.ui.model.odata.type.Unit` and `sap.ui.model.odata.type.Currency` data types as part of the data service. For more information, see [Currency and Unit Customizing in OData V2](OData_V2_Model_6c47b2b.md#loioaa9024c7c5444822a68daeb21a92bd51).
 
-|
-|**OpenUI5 OData V4 Model**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 Additional targets are now supported for [server messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md).
 
-|
-|**OpenUI5 Data Types**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**OpenUI5 Data Types**
 
 The `preserveDecimals` format option introduced in `sap.ui.core.format.NumberFormat` with OpenUI5 1.87 is now enabled by default, unless the `style` format option is set to either `short` or `long`. This applies to the following data types:
 
@@ -68,7 +94,11 @@ This change fixes the shortcoming that displayed values can be truncated if the 
 
 However, in some cases it can be necessary to display a value with fewer decimals than actually exist for the property. You would then need to add the `preserveDecimals` format option with a value of `false` to the type instance.
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -76,14 +106,29 @@ However, in some cases it can be necessary to display a value with fewer decimal
 
 ### Improved Controls
 
-|**`sap.m.Link`, `sap.m.ObjectIdentifier`, `sap.m.ObjectNumber`, `sap.m.ObjectStatus`, and `sap.ui.unified.Currency`**
+
+<table>
+<tr>
+<td>
+
+**`sap.m.Link`, `sap.m.ObjectIdentifier`, `sap.m.ObjectNumber`, `sap.m.ObjectStatus`, and `sap.ui.unified.Currency`**
 
 Similar to the `sap.m.Text` control, these controls now also implement the new `emptyIndicatorMode` property. It allows developers to display an empty text as a language dependent “-” symbol.
 
-|
-|**`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`**
 
 You can now define up to six columns in extra-large size in a form. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.form.ColumnsXL), the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.Form) for `Form`, and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.SimpleForm) for `SimpleForm`.
 
-|
+
+
+</td>
+</tr>
+</table>
 

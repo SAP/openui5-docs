@@ -14,41 +14,80 @@ There are certain scenarios in which the Support Assistant does not behave as ex
 
 ***
 
-|Support Assistant Behavior
-
-|Root Cause
-
-|Solution
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------------------------</th>
-			<th>------------</th>
-			<th>----------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Support Assistant Behavior
+
+
+
+</th>
+<th>
+
+Root Cause
+
+
+
+</th>
+<th>
+
+Solution
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+What does it mean when the following errors appear in the browser console?
 
 “Access to XMLHttpRequest at <URL\> from origin <ORIGIN\> has been blocked by the CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.”
 
-			<td>This usually happens when serving OpenUI5 from a different origin. The Support Assistant tries to load support rule definitions from there, but cannot load them - a 404 response is sent by the origin server. The issue is usually caused by missing or misconfigured CORS headers on the 404 response specifically. Besides some support rules not being loaded, this should not affect normal operation of Support Assistant.
-			</td>
-			<td>OpenUI5 library owners are encouraged to provide a `.supportrc` as specified by Support Assistant documentation to avoid causing 404 responses.
+
+
+</td>
+<td>
+
+This usually happens when serving OpenUI5 from a different origin. The Support Assistant tries to load support rule definitions from there, but cannot load them - a 404 response is sent by the origin server. The issue is usually caused by missing or misconfigured CORS headers on the 404 response specifically. Besides some support rules not being loaded, this should not affect normal operation of Support Assistant.
+
+
+
+</td>
+<td>
+
+OpenUI5 library owners are encouraged to provide a `.supportrc` as specified by Support Assistant documentation to avoid causing 404 responses.
+
 For more information, see [Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md) and [Content Security Policy](Content_Security_Policy_fe1a6db.md).
-			</td>
-		</tr>
-		<tr>
-			<td>When you choose a custom location, you get an error message: 'The syntax of the location address is incorrect. The correct syntax is ... '.
-			</td>
-			<td>URL doesn't match the protocol of the application.
-			</td>
-			<td>If the application is HTTP, the location should also be HTTP. If it is HTTPS, the location should be HTTPS. Also, the URL should end in sap/ui/support/.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+When you choose a custom location, you get an error message: 'The syntax of the location address is incorrect. The correct syntax is ... '.
+
+
+
+</td>
+<td>
+
+URL doesn't match the protocol of the application.
+
+
+
+</td>
+<td>
+
+If the application is HTTP, the location should also be HTTP. If it is HTTPS, the location should be HTTPS. Also, the URL should end in sap/ui/support/.
+
+
+
+</td>
+</tr>
 </table>
 

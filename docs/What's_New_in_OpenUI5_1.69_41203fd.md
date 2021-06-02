@@ -18,12 +18,23 @@ With this release OpenUI5 is upgraded from version 1.68 to 1.69.
 
 ### New Features
 
-|**New Themes for SAP Fiori 3 User Experience**
+
+<table>
+<tr>
+<td>
+
+**New Themes for SAP Fiori 3 User Experience**
 
 The High Contrast White \(HCW\) and High Contrast Black \(HCB\) themes \(`sap_fiori_3_hcw`/`sap_fiori_3_hcb`\) are now delivered with all SAP Fiori-related libraries. They offer a better visual experience for people with visual impairments.
 
-|
-|**Require Modules in XML Views and Fragments**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Require Modules in XML Views and Fragments**
 
 Modules can now be required in XML views and fragments and assigned to aliases which can be used as variables in properties, event handlers, and bindings. Such a declarative approach can help to avoid global variables and allows to reuse certain helper classes without a detour via Controller code.
 
@@ -31,7 +42,11 @@ The new `require` attribute with namespace URI `sap.ui.core` can be used to defi
 
 For details and examples, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -39,7 +54,12 @@ For details and examples, see [Require Modules in XML View and Fragment](Require
 
 ### Improved Features
 
-|**OpenUI5 OData V4 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
@@ -59,7 +79,11 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -67,7 +91,12 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 ### Improved Controls
 
-|**`sap.f.Avatar`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.Avatar`**
 
 -   You can now set background color for the `Avatar` control through the new `backgroundColor` property. There are 10 predefined colors and an option to set a random one.
 
@@ -76,50 +105,108 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.Avatar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.Avatar/sample/sap.f.sample.Avatar).
 
-|
-|**`sap.m.Breadcrumbs`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Breadcrumbs`**
 
 You can now choose different separator styles to be displayed between the `Breadcrumbs` elements. You can set them through the new `separatorStyle` property.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Breadcrumbs) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Breadcrumbs/sample/sap.m.sample.Breadcrumbs).
 
-|
-|**`sap.m.ListBase`, `sap.m.ListItemBase`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ListBase`, `sap.m.ListItemBase`**
 
 These controls now support a range selection with key combinations if the `MultiSelect` mode is set. For more information, see the *API Reference* for [`sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase) and [`sap.m.ListItemBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase).
 
-|
-|**`sap.m.NavContainer`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.NavContainer`**
 
 We have improved the fade and slide animations when navigating forward and backward in `sap.m.NavContainer`.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.NavContainer/sample/sap.m.sample.NavContainer).
 
-|
-|**`sap.m.QuickViewPage`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.QuickViewPage`**
 
 We have introduced a new `fallbackIcon` property. It allows you to define an icon that will be displayed in case of loading errors of the `icon`. The `fallbackIcon` should be part of the SAP icon font. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.QuickViewPage) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.QuickView/sample/sap.m.sample.QuickViewFallbackIcon).
 
-|
-|**`sap.m.SearchField`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.SearchField`**
 
 We have made some changes in the suggestions dialog for the `SearchField` control on mobile devices. The `Cancel` button is now moved to the top, next to the search field, and the button in the footer is changed from `Cancel` to `OK`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SearchField) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SearchField/sample/sap.m.sample.SearchFieldSuggestions).
 
-|
-|**`sap.m.Select`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Select`**
 
 The items in the select list now have a maximum width. If the text of the items is longer than the maximum width, it either truncates or wraps on multiple lines depending on the new `wrapItemsText` property.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Select) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Select).
 
-|
-|**`sap.m.SinglePlanningCalendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.SinglePlanningCalendar`**
 
 A new *Month* view is now available for the control. It displays a calendar month that always starts from the first week of the month. To set it up, use the new `sap.m.SinglePlanningCalendarMonthView` class in the `views` aggregation of the `SinglePlanningCalendar` control.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendar).
 
-|
-|**`sap.ui.table.plugins.MultiSelectionPlugin`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.table.plugins.MultiSelectionPlugin`**
 
 The plugin for the `sap.ui.table.AnalyticalTable`, the `sap.ui.table.Table`, and the `sap.ui.table.TreeTable` tables now offers various selection modes for applications \(new `selectionMode` property\), for example, the selection of single or multiple rows. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin).
 
-|
-|**`sap.ui.unified.Calendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.unified.Calendar`**
 
 We have implemented year range in the `Calendar` control to help the user navigate quickly to a year that is outside the visible range. When the year button is selected, there's an additional year range button that enables the interaction.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.unified.Calendar).
 
-|
+
+
+</td>
+</tr>
+</table>
 

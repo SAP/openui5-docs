@@ -26,130 +26,231 @@ The following table provides an overview of the two main types of card controls 
 
 <a name="loio5b46b03f024542ba802d99d67bc1a3f4__table_uzb_zmy_vs"/>Overview of Cards and Supported Features
 
-| **Feature Supported** 
 
-|\(Integration Card\)
+<table>
+<tr>
+<th rowspan="2">
+
+ **Feature Supported** 
+
+
+
+</th>
+<th colspan="2">
+
+\(Integration Card\)
 
 **`[sap.ui.integration.widgets.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card)`**
 
-|\(Freestyle Card\)
+
+
+</th>
+<th rowspan="2">
+
+\(Freestyle Card\)
 
 **`[sap.f.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card)`**
 
-|
-|Adaptive, Analytical, List, Object, Table, and Timeline cards
 
-|Component card
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+</th>
+</tr>
+<tr>
+<th>
 
-<table>
-	<thead>
-		<tr>
-			<th>-------------------------</th>
-			<th>------------------------------------------------------------------------------------------------------------------------------------------------</th>
-			<th>-------------------------------------------------------------------------------------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td> **Fiori 3 card UX** 
-			</td>
-			<td> 
+Adaptive, Analytical, List, Object, Table, and Timeline cards
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Cross product integration** 
-			</td>
-			<td> 
+</th>
+<th>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+Component card
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Cross HTML product integration** 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+</tr>
+<tr>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ **Fiori 3 card UX** 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **FLP / cFLP integration** 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
-			</td>
-		</tr>
-		<tr>
-			<td> **Independent of OpenUI5 runtime** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Can implement application logic** 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-	</tbody>
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Cross product integration** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Cross HTML product integration** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **FLP / cFLP integration** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Independent of OpenUI5 runtime** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Can implement application logic** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
 </table>
 
 1\) Depending on the implementation.  
@@ -192,64 +293,139 @@ For more information and examples on the usage, see the [API Reference](https://
 
 Cards can be transactional \(list, table, object, unstructured content, timeline\) and analytical \(line, donut, \[stacked\] column, stacked bar chart\). Each card is designed in a different style and contains various content formats.
 
-|Card Type
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Used to visualize and reuse cards that are created using the Microsoft Adaptive Cards specification and manifest.
-			</td>
-		</tr>
-		<tr>
-			<td>Analytical card<sup>1</sup>
-			</td>
-			<td>Used for data visualization. Typically, it is defined by a numeric header and analytical data content. For example, chart types, such as line chart, donut chart, \(stacked\) column chart, \(stacked\) bar chart. For more information on the analytical card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/analytical-card/).
-			</td>
-		</tr>
-		<tr>
-			<td>Component card \(Experimental\)
-			</td>
-			<td>Displays multiple controls and is used as a custom approach for use cases which do not fit in other card types and structures. The content area of the unstructured content card can be moved to the top.
- > ### Note:  
- > In contrast to the other integration card types, the structure and behavior of the Component card are custom-definable and are following the established OpenUI5 Component model. For more information, see [Components](Components_958ead5.md).
-			</td>
-		</tr>
-		<tr>
-			<td>List card
-			</td>
-			<td>Displays multiple list items of all kind. Aggregated information can also be visualized with a line item. The counter in the header area is required for this type of card.
-			</td>
-		</tr>
-		<tr>
-			<td>Object card
-			</td>
-			<td>Displays the basic details for an object, for example, a person or a sales order.
-			</td>
-		</tr>
-		<tr>
-			<td>Table card
-			</td>
-			<td>Displays a set of items in table format. For more information on the table card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/overview-page-table-card/).
-			</td>
-		</tr>
-		<tr>
-			<td>Timeline card<sup>2</sup>
-			</td>
-			<td>Displays time-related content.
-			</td>
-		</tr>
-	</tbody>
+Card Type
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Adaptive card
+
+
+
+</td>
+<td>
+
+Used to visualize and reuse cards that are created using the Microsoft Adaptive Cards specification and manifest.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Analytical card<sup>1</sup>
+
+
+
+</td>
+<td>
+
+Used for data visualization. Typically, it is defined by a numeric header and analytical data content. For example, chart types, such as line chart, donut chart, \(stacked\) column chart, \(stacked\) bar chart. For more information on the analytical card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/analytical-card/).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Component card \(Experimental\)
+
+
+
+</td>
+<td>
+
+Displays multiple controls and is used as a custom approach for use cases which do not fit in other card types and structures. The content area of the unstructured content card can be moved to the top.
+
+> ### Note:  
+> In contrast to the other integration card types, the structure and behavior of the Component card are custom-definable and are following the established OpenUI5 Component model. For more information, see [Components](Components_958ead5.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+List card
+
+
+
+</td>
+<td>
+
+Displays multiple list items of all kind. Aggregated information can also be visualized with a line item. The counter in the header area is required for this type of card.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Object card
+
+
+
+</td>
+<td>
+
+Displays the basic details for an object, for example, a person or a sales order.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Table card
+
+
+
+</td>
+<td>
+
+Displays a set of items in table format. For more information on the table card, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/overview-page-table-card/).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Timeline card<sup>2</sup>
+
+
+
+</td>
+<td>
+
+Displays time-related content.
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Restriction:  

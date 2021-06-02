@@ -35,7 +35,7 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sampl
 
 ### sap.m.Table: Strict Layout
 
-There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. This feature can be activated by setting the `fixedLayout="Strict"` property in the table. The `Strict` layout takes into account the defined column width for the columns and renders a placeholder column which occupies the remaining width of the table to ensure the column width setting is strictly applied.
+There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. To activate this feature, set the `fixedLayout="Strict"` property in the table. The `Strict` layout takes the defined column width for the columns into account and renders a placeholder column which occupies the remaining width of the table to ensure the column width is strictly applied.
 
 ![](loiobbde60a7988c47749f431b5ecd6622ef_LowRes.png)
 

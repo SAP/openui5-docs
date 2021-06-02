@@ -26,38 +26,72 @@ Always double check in the API Reference. If OpenUI5 changes the implementation 
 
 <a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>Examples
 
-|Bad Examples
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`var sText = oControl.getText();`
-			</td>
-		</tr>
-		<tr>
-			<td>`oSelectDialog._oList.setGrowing(false);`
-			</td>
-		</tr>
-			</td>
-		</tr>
-		<tr>
-			<td>`var sPart = oEvent.oSource.oBindingContexts.description.sPath.split('/')[3];`
-			</td>
-		</tr>
-			</td>
-		</tr>
-	</tbody>
+Bad Examples
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`var sText = oControl.mProperties["text"];`
+
+
+
+</td>
+<td>
+
+`var sText = oControl.getText();`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`oSelectDialog._oList.setGrowing(false);`
+
+
+
+</td>
+<td>
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`var sPart = oEvent.oSource.oBindingContexts.description.sPath.split('/')[3];`
+
+
+
+</td>
+<td>
+
+ 
+
+
+
+</td>
+</tr>
 </table>
 
 For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) and the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html). 
@@ -70,21 +104,28 @@ For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) 
 
 Use only local variables inside the AMD factory function, do not access the content of other modules via their global names, not even for such fundamental stuff like `jQuery` or `sap.ui.Device`. You can't be sure that the modules are already loaded and the namespace is available.
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Access the modules directly:
 
 ``` js
 sap.ui.define(['sap/m/Button'], function(Button) {
@@ -97,7 +138,13 @@ sap.ui.define(['sap/m/Button'], function(Button) {
 });
 ```
 
-			<td>Declare a dependency to `sap.m.Input` within `sap.ui.define`:
+
+
+</td>
+<td>
+
+Declare a dependency to `sap.m.Input` within `sap.ui.define`:
+
 ``` js
 sap.ui.define(['sap/m/Input'], function(Input) {
  
@@ -109,9 +156,11 @@ sap.ui.define(['sap/m/Input'], function(Input) {
     };
 });
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -181,43 +230,68 @@ Instead, you should consider using delegates.
 
 <a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>Examples
 
-|Bad Examples
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Examples
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+``` js
 
 oControl.onAfterRendering = function() {
        // do something
 };
 ```
 
-			<td>``` js
+
+
+</td>
+<td>
+
+``` js
+
 oControl.addEventDelegate({
     onAfterRendering:function() {
         // do something
     }
 });
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>`oControl.prototype.setText = function(){ ... };`
-			</td>
-		</tr>
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`oControl.prototype.setText = function(){ ... };`
+
+
+
+</td>
+<td>
+
+ 
+
+
+
+</td>
+</tr>
 </table>
 
 See also: [sap.ui.core.Element - addEventDelegate](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/addEventDelegate).
@@ -236,23 +310,36 @@ Even `onAfterRendering` may not be called when a control handles certain propert
 
 <a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>Examples
 
-|Bad Examples
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>``` js
+Bad Examples
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`oControl.$().find(".sapMLabel")[0].innerHTML = "reallybad";`
+
+
+
+</td>
+<td>
+
+``` js
+
 oControl.addEventDelegate({
 	"onAfterRendering": function() {
 		var $label = oControl.$().find(".sapMLabel");
@@ -263,15 +350,27 @@ oControl.addEventDelegate({
 	}
 });
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>`oControl.$().find(".sapMLabel").remove();`
-			</td>
-		</tr>
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`oControl.$().find(".sapMLabel").remove();`
+
+
+
+</td>
+<td>
+
+ 
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -318,21 +417,28 @@ Use the `createId()` function of a view or controller instead. This is done auto
 
 <a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
 
-|Bad Example \(Inside a Typed View\)
-
-|Good Example \(Inside a Typed View\)
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------------------------------</th>
-			<th>--------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example \(Inside a Typed View\)
+
+
+
+</th>
+<th>
+
+Good Example \(Inside a Typed View\)
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+``` js
 
 createContent: function(oController) {
 	var btn = new sap.m.Button("myBtn", {text: "Hello"});
@@ -340,15 +446,23 @@ createContent: function(oController) {
 }
 ```
 
-			<td>``` js
+
+
+</td>
+<td>
+
+``` js
+
 createContent: function(oController) {
 	var btn = new sap.m.Button(this.createId("myBtn"), {text: "Hello"});
 	return btn;
 }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 See also: [sap.ui.core.mvc.View - createId](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/createId).
@@ -375,26 +489,40 @@ Hard coding UI strings will exclude them from translation. In addition, concaten
 
 <a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Using a complete sentence including a placeholder in the translation file: " you selected \{0\} items ". This allows translators to change the word order and the position of the inserted placeholder value.
-			</td>
-		</tr>
-	</tbody>
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Using separate texts like " you selected " and " items " in the translation file to construct sentences like: " you selected " + 10 + "items ". This would lead to a wrong word order in languages where the verb needs to be at the end of the sentence, for example.
+
+
+
+</td>
+<td>
+
+Using a complete sentence including a placeholder in the translation file: " you selected \{0\} items ". This allows translators to change the word order and the position of the inserted placeholder value.
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -417,26 +545,40 @@ Note that most errors and warnings in the developer console thrown by the OpenUI
 
 <a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`Log.error("Logon failed", "", "connectivity";)`
-			</td>
-		</tr>
-	</tbody>
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`console.error("Logon failed");`
+
+
+
+</td>
+<td>
+
+`Log.error("Logon failed", "", "connectivity";)`
+
+
+
+</td>
+</tr>
 </table>
 
 See also: [Namespace sap/base/Log](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fbase%2FLog).
@@ -451,30 +593,45 @@ Executing logic with timeouts is often a workaround for faulty behavior and does
 
 <a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+``` js
 jQuery.ajax("someData.json");
 setTimeout(fnProcessResults, 300);
 ```
 
-			<td>``` jsjQuery.ajax("someData.json").done(fnProcessResults);
+
+
+</td>
+<td>
+
+``` js
+jQuery.ajax("someData.json").done(fnProcessResults);
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***

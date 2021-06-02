@@ -62,13 +62,13 @@ The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in w
 
 ### Pop-in Design Layouts
 
-The described pop-in design is provided by the table by default. However, you can change the pop-in layout in the table by defining the property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for the table.
+The described pop-in design is provided by a table by default. However, you can change the pop-in layout in the table by defining the property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for a table.
 
-With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available in the table. Otherwise, the pop-in columns are rendered as shown in the image above.
+With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available. Otherwise, the pop-in columns are rendered as shown in the image above.
 
 ![](loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png)
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Here you can use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
+For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
 
 ***
 

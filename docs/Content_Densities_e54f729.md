@@ -18,50 +18,106 @@ The devices used to run apps that are developed with OpenUI5 run on various diff
 
 The table below shows the content densities that are available for the Quartz Light, Belize, Blue Crystal, and high-contrast themes:
 
-|Content Density
-
-|CSS Class
-
-|Explanation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>-----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `sapUiSizeCozy` 
-			</td>
-			<td>'Large' design: Dimensions of the controls are optimized for touch-enabled devices, such as smartphones, to allow users to interact with controls more easily.
+Content Density
+
+
+
+</th>
+<th>
+
+CSS Class
+
+
+
+</th>
+<th>
+
+Explanation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ *Cozy* 
+
+
+
+</td>
+<td>
+
+ `sapUiSizeCozy` 
+
+
+
+</td>
+<td>
+
+'Large' design: Dimensions of the controls are optimized for touch-enabled devices, such as smartphones, to allow users to interact with controls more easily.
+
 This is the default density for most controls, particularly those in the `sap.m` library.
-			</td>
-		</tr>
-		<tr>
-			<td> *Compact* 
-			</td>
-			<td> `sapUiSizeCompact` 
-			</td>
-			<td>Reduced-size design: The font size is the same as for the cozy density, but the dimensions of the controls and the spacing between them are reduced. This density is more suitable for mouse-operated devices, such as desktops.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ *Compact* 
+
+
+
+</td>
+<td>
+
+ `sapUiSizeCompact` 
+
+
+
+</td>
+<td>
+
+Reduced-size design: The font size is the same as for the cozy density, but the dimensions of the controls and the spacing between them are reduced. This density is more suitable for mouse-operated devices, such as desktops.
+
 For some controls, this is the default density.
-			</td>
-		</tr>
-		<tr>
-			<td> *Condensed* 
-			</td>
-			<td> `sapUiSizeCondensed` 
-			</td>
-			<td>Size even further reduced compared to *Compact* \(in particular, row heights smaller\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ *Condensed* 
+
+
+
+</td>
+<td>
+
+ `sapUiSizeCondensed` 
+
+
+
+</td>
+<td>
+
+Size even further reduced compared to *Compact* \(in particular, row heights smaller\).
+
 This density can be used for all tables of the `sap.ui.table` library.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 The following two screenshots show the difference between the *Cozy* and *Compact* densities, using a simple `sap.ui.table.Table` example:

@@ -52,20 +52,40 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > ### Example:  
 > For the `noData` aggregation of the `sap.ui.comp.smarttable.SmartTable` control, you can either define a string or a nested text control.
 > 
-> |String
 > 
-> |Nested text control
+> <table>
+> <tr>
+> <th>
 > 
-> |
-> |--------|---------------------|
-> |```
+> String
+> 
+> 
+> 
+> </th>
+> <th>
+> 
+> Nested text control
+> 
+> 
+> 
+> </th>
+> </tr>
+> <tr>
+> <td>
+> 
+> ```
 > <SmartTable noData="No data available">
 > 	...
 > </SmartTable>
 > 
 > ```
 > 
-> |```
+> 
+> 
+> </td>
+> <td>
+> 
+> ```
 > <SmartTable ....>
 > 	<noData>
 > 		<Text text="No data available" icon="sap-icon://..." />
@@ -75,7 +95,11 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > 
 > ```
 > 
-> |
+> 
+> 
+> </td>
+> </tr>
+> </table>
 
 You can also use attributes to define binding information for aggregations with cardinality `0..n`. For more information, see *Declarative List Binding in XML Views* under [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md).
 

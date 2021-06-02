@@ -76,62 +76,136 @@ The `sap.ui.ux3` library is deprecated as of version 1.38.
 
 This library contains more complex UI controls that were based on `sap.ui.commons` along the UX3 design approach. The `sap.m` library - successor to `sap.ui.commons` - implements SAP’s new SAP Fiori design \[http://experience.sap.com/fiori-design/\], which supersedes UX3. As such, the `sap.ui.ux3` library is also deprecated. Some of the UX3 concepts are reflected in SAP Fiori, some are abandoned, as outlined in the following table:
 
-|Concept
-
-|What's Happened?
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---------</th>
-			<th>------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Replaced by sap.m \(`sap.m.Feed`\*\).
-			</td>
-		</tr>
-		<tr>
-			<td>Notification Bar
-			</td>
-			<td>Replaced by sap.m \(`sap.m.MessagePopover` and `sap.m.semantic`\*\).
-			</td>
-		</tr>
-		<tr>
-			<td>Thing Inspector
-			</td>
-			<td>Indirectly replaced by a different design for displaying object data.
-			</td>
-		</tr>
-		<tr>
-			<td>Shell
-			</td>
-			<td>Partially replaced by `sap.ui.unified.Shell`.
-			</td>
-		</tr>
-		<tr>
-			<td>Data Set
-			</td>
-			<td>Not part of SAP Fiori.
-			</td>
-		</tr>
-		<tr>
-			<td>Exact
-			</td>
-			<td>Not directly part of SAP Fiori. Use `sap.ui.comp.FilterBar` or `sap.m.IconTabBar` for filtering.
-			</td>
-		</tr>
-		<tr>
-			<td>Quick Views
-			</td>
-			<td>Concept abandoned as the concept of “hovering with the mouse pointer over a control” does not exist on mobile devices.
-			</td>
-		</tr>
-	</tbody>
+Concept
+
+
+
+</th>
+<th>
+
+What's Happened?
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Feeds
+
+
+
+</td>
+<td>
+
+Replaced by sap.m \(`sap.m.Feed`\*\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Notification Bar
+
+
+
+</td>
+<td>
+
+Replaced by sap.m \(`sap.m.MessagePopover` and `sap.m.semantic`\*\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Thing Inspector
+
+
+
+</td>
+<td>
+
+Indirectly replaced by a different design for displaying object data.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Shell
+
+
+
+</td>
+<td>
+
+Partially replaced by `sap.ui.unified.Shell`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Data Set
+
+
+
+</td>
+<td>
+
+Not part of SAP Fiori.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Exact
+
+
+
+</td>
+<td>
+
+Not directly part of SAP Fiori. Use `sap.ui.comp.FilterBar` or `sap.m.IconTabBar` for filtering.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Quick Views
+
+
+
+</td>
+<td>
+
+Concept abandoned as the concept of “hovering with the mouse pointer over a control” does not exist on mobile devices.
+
+
+
+</td>
+</tr>
 </table>
 
 For more information about the SAP Fiori design, see the [SAP Fiori design guidelines](http://experience.sap.com/fiori-design/).

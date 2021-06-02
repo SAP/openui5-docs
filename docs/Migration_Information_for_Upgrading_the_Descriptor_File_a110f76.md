@@ -12,33 +12,55 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Information how to add new attributes of descriptor versions higher than V2 \(OpenUI5 1.30\) to the descriptor file.
 
-|Attribute
-
-|Version\*
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------</th>
-			<th>-----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>V3 \(1.32\)
-			</td>
-			<td>Needs to be updated in the `manifest.json` file when migrating to a new descriptor version:
- -   `_version` for V3 is 1.2.0
+Attribute
 
- -   `_version` for V4 is 1.3.0
 
- -   `_version` for V5 is 1.4.0 \(see example\)
+
+</th>
+<th>
+
+Version\*
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `_version` 
+
+
+
+</td>
+<td>
+
+V3 \(1.32\)
+
+
+
+</td>
+<td>
+
+Needs to be updated in the `manifest.json` file when migrating to a new descriptor version:
+
+-   `_version` for V3 is 1.2.0
+
+-   `_version` for V4 is 1.3.0
+
+-   `_version` for V5 is 1.4.0 \(see example\)
 
 
 ```
@@ -47,27 +69,60 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
     "sap.app": {
         ...
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.app/crossNavigation` 
-			</td>
-			<td>V3 \(1.32\)
-			</td>
-			<td>Contains navigation information and is a mandatory attribute in the `manifest.json` file for SAP Fiori apps; the attribute contains two sections:
- -   `sap.app/crossNavigation/inbounds` - Contains inbound intents and signature information
 
- -   `sap.app/crossNavigation/outbounds` - Contains required intents that are called explicitely by the app, for example, if a business process is split among different apps A and B. If A calls B, A has outbound the intent to address B.
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.app/subTitle` 
-			</td>
-			<td>V4 \(1.34\)
-			</td>
-			<td>Added to the `manifest.json` file by using the `{{...}}` syntax
- > ### Note:  
- > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.app/crossNavigation` 
+
+
+
+</td>
+<td>
+
+V3 \(1.32\)
+
+
+
+</td>
+<td>
+
+Contains navigation information and is a mandatory attribute in the `manifest.json` file for SAP Fiori apps; the attribute contains two sections:
+
+-   `sap.app/crossNavigation/inbounds` - Contains inbound intents and signature information
+
+-   `sap.app/crossNavigation/outbounds` - Contains required intents that are called explicitely by the app, for example, if a business process is split among different apps A and B. If A calls B, A has outbound the intent to address B.
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.app/subTitle` 
+
+
+
+</td>
+<td>
+
+V4 \(1.34\)
+
+
+
+</td>
+<td>
+
+Added to the `manifest.json` file by using the `{{...}}` syntax
+
+> ### Note:  
+> Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
 ```
 "sap.app": {
@@ -76,16 +131,32 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
     "title": "{{title}}",
     "subTitle": "{{subtitle}}",
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.app/crossNavigation/inbounds/<inboundname>/subTitle` 
-			</td>
-			<td>V4 \(1.34\)
-			</td>
-			<td>Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax to add the attribute to the `manifest.json` file
- > ### Note:  
- > Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.app/crossNavigation/inbounds/<inboundname>/subTitle` 
+
+
+
+</td>
+<td>
+
+V4 \(1.34\)
+
+
+
+</td>
+<td>
+
+Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax to add the attribute to the `manifest.json` file
+
+> ### Note:  
+> Text symbols must be part of the properties file which is defined in `sap.app/i18n` \(default `"i18n/i18n.properties"`\).
 
 ```
 "sap.app": {
@@ -101,14 +172,30 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
                     "title": "{{title}}",
                     "subTitle": "{{subtitleOther}}",
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui/fullWidth` 
-			</td>
-			<td>V4 \(1.34\)
-			</td>
-			<td>Indicates whether an app shall run in full screen mode \(`true`\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui/fullWidth` 
+
+
+
+</td>
+<td>
+
+V4 \(1.34\)
+
+
+
+</td>
+<td>
+
+Indicates whether an app shall run in full screen mode \(`true`\)
+
 ```
 "sap.ui": {
     "_version": "1.3.0",
@@ -116,14 +203,30 @@ Information how to add new attributes of descriptor versions higher than V2 \(Op
     ...
     "fullWidth": true
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` 
-			</td>
-			<td>V4 \(1.34\)
-			</td>
-			<td>If `dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` are set to `true`, the attribute indicates in an SAP Fiori app that a dependency shall be lazy loaded \(default is `false`\), see the example for `manifest.json` for the SAP Fiori app.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` 
+
+
+
+</td>
+<td>
+
+V4 \(1.34\)
+
+
+
+</td>
+<td>
+
+If `dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` are set to `true`, the attribute indicates in an SAP Fiori app that a dependency shall be lazy loaded \(default is `false`\), see the example for `manifest.json` for the SAP Fiori app.
+
 Example for `manifest.json` for the SAP Fiori app:
 
 ```
@@ -149,14 +252,30 @@ Example for `manifest.json` for the SAP Fiori app:
         }
     },
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/routing/config/async` 
-			</td>
-			<td>V4 \(1.34\)
-			</td>
-			<td>General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/routing/config/async` 
+
+
+
+</td>
+<td>
+
+V4 \(1.34\)
+
+
+
+</td>
+<td>
+
+General setting for routing that indicates how the views are loaded; if set to `true`, the views are loaded asynchronously \(default is `false`\)
+
 For performance reasons, we recommend to always use the `async` setting. This recommendation implies that you have followed the OpenUI5 programming model in general and do **not** rely on any sync-execution depending event-orders.
 
 ```
@@ -171,14 +290,30 @@ For performance reasons, we recommend to always use the `async` setting. This re
         },
         ...
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/models/preload` 
-			</td>
-			<td>V5 \(1.38\)
-			</td>
-			<td>Defines whether or not the model is initialized \(preloaded\) before the component instance is created and while loading the component preload and its dependencies
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/models/preload` 
+
+
+
+</td>
+<td>
+
+V5 \(1.38\)
+
+
+
+</td>
+<td>
+
+Defines whether or not the model is initialized \(preloaded\) before the component instance is created and while loading the component preload and its dependencies
+
 ```
 "equipment": { 
     "preload": true,
@@ -187,14 +322,30 @@ For performance reasons, we recommend to always use the `async` setting. This re
 }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/routing/routes/target` 
-			</td>
-			<td>V6 \(1.42\)
-			</td>
-			<td>Allows to define titles declaratively in the configuration \(`title` under `targets/<target>` and `titleTarget` under `routes/<route>`\), see [Routing and Navigation](Routing_and_Navigation_3d18f20.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/routing/routes/target` 
+
+
+
+</td>
+<td>
+
+V6 \(1.42\)
+
+
+
+</td>
+<td>
+
+Allows to define titles declaratively in the configuration \(`title` under `targets/<target>` and `titleTarget` under `routes/<route>`\), see [Routing and Navigation](Routing_and_Navigation_3d18f20.md)
+
 ```
 {
 	...,
@@ -220,19 +371,35 @@ For performance reasons, we recommend to always use the `async` setting. This re
 	...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/componentUsages` 
-			</td>
-			<td>V8 \(1.48\)
-			</td>
-			<td>Specifies the used components with the a unique key/alias. Contains the following:
- -   `name`: Mandatory name of the reuse component
 
- -   `settings`: Settings of the component
 
- -   `componentData`: Component data of the component
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/componentUsages` 
+
+
+
+</td>
+<td>
+
+V8 \(1.48\)
+
+
+
+</td>
+<td>
+
+Specifies the used components with the a unique key/alias. Contains the following:
+
+-   `name`: Mandatory name of the reuse component
+
+-   `settings`: Settings of the component
+
+-   `componentData`: Component data of the component
 
 
 For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
@@ -250,16 +417,32 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
      ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/library/i18n` 
-			</td>
-			<td>V10 \(1.52\)
-			</td>
-			<td>Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
- > ### Note:  
- > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/library/i18n` 
+
+
+
+</td>
+<td>
+
+V10 \(1.52\)
+
+
+
+</td>
+<td>
+
+Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
+
+> ### Note:  
+> This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
 
 ```
 {
@@ -270,14 +453,30 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
    ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/componentUsages/lazy` 
-			</td>
-			<td>V12 \(1.56\)
-			</td>
-			<td>Indicates whether the component usage should be lazily loaded. Default value: `true`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/componentUsages/lazy` 
+
+
+
+</td>
+<td>
+
+V12 \(1.56\)
+
+
+
+</td>
+<td>
+
+Indicates whether the component usage should be lazily loaded. Default value: `true`
+
 For more information see:[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
 
 ```
@@ -294,14 +493,30 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
      ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/models/<modelName>/settings/enhanceWith` 
-			</td>
-			<td>V12 \(1.56\)
-			</td>
-			<td>The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either component \(default\) or manifest\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the resource model with.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/models/<modelName>/settings/enhanceWith` 
+
+
+
+</td>
+<td>
+
+V12 \(1.56\)
+
+
+
+</td>
+<td>
+
+The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either component \(default\) or manifest\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the resource model with.
+
 Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
 
 ```
@@ -323,19 +538,36 @@ Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
    ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>`sap.ui5/routing/routes/targets/attachment/type`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`sap.ui5/routing/routes/targets/attachment/type`
+
 `sap.ui5/routing/routes/targets/attachment/path`
 
 `sap.ui5/routing/routes/targets/attachment/name`
 
 `sap.ui5/routing/routes/targets/attachment/id`
-			</td>
-			<td>V15 \(1.62\)
-			</td>
-			<td>A routing target can load either a view or a component.
+
+
+
+</td>
+<td>
+
+V15 \(1.62\)
+
+
+
+</td>
+<td>
+
+A routing target can load either a view or a component.
+
 With the `type` option set to "Component", the `Component.js` which is available under the namespace generated by combining `path` and `name` is loaded and instantiated.
 
 ```
@@ -365,14 +597,30 @@ With the `type` option set to "Component", the `Component.js` which is available
     }
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/routing/routes/targets/attachment/usage` 
-			</td>
-			<td>V16 \(1.66\)
-			</td>
-			<td>A component can be configured as a routing target by defining it in the `componentUsages` section and providing its key to a target via the `usage` property.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/routing/routes/targets/attachment/usage` 
+
+
+
+</td>
+<td>
+
+V16 \(1.66\)
+
+
+
+</td>
+<td>
+
+A component can be configured as a routing target by defining it in the `componentUsages` section and providing its key to a target via the `usage` property.
+
 ```
 {
    ...
@@ -420,14 +668,30 @@ With the `type` option set to "Component", the `Component.js` which is available
    ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/commands` 
-			</td>
-			<td>V17 \(1.70\)
-			</td>
-			<td>Specifies provided commands with a unique key/alias.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/commands` 
+
+
+
+</td>
+<td>
+
+V17 \(1.70\)
+
+
+
+</td>
+<td>
+
+Specifies provided commands with a unique key/alias.
+
 ```
 {
    ...
@@ -439,14 +703,30 @@ With the `type` option set to "Component", the `Component.js` which is available
    ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.ui5/routing/propagateTitle` 
-			</td>
-			<td>V20 \(1.75\)
-			</td>
-			<td>The `propagateTitle` property can be set to forward title information from a nested component to the router in the root component.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.ui5/routing/propagateTitle` 
+
+
+
+</td>
+<td>
+
+V20 \(1.75\)
+
+
+
+</td>
+<td>
+
+The `propagateTitle` property can be set to forward title information from a nested component to the router in the root component.
+
 ```
 {
    ...
@@ -483,17 +763,34 @@ With the `type` option set to "Component", the `Component.js` which is available
    ...
 }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>`sap.ui5/models/<modelName>/settings/supportedLocales`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`sap.ui5/models/<modelName>/settings/supportedLocales`
+
 `sap.ui5/models/<modelName>/settings/fallbackLocale`
 
 `sap.ui5/models/<modelName>/settings/terminologies`
-			</td>
-			<td>V22 \(1.77\)
-			</td>
-			<td>The `supportedLocales` and `fallbackLocale` settings can be specified with a list of supported locales and a fallback locale to define a language fallback chain and optimize the loading performance of resource bundles.
+
+
+
+</td>
+<td>
+
+V22 \(1.77\)
+
+
+
+</td>
+<td>
+
+The `supportedLocales` and `fallbackLocale` settings can be specified with a list of supported locales and a fallback locale to define a language fallback chain and optimize the loading performance of resource bundles.
+
 Additional resource bundles can be made available by defining `terminologies`.
 
 ```
@@ -529,9 +826,11 @@ Additional resource bundles can be made available by defining `terminologies`.
    ...
 }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 \* Available as of descriptor version \(OpenUI5 version\)

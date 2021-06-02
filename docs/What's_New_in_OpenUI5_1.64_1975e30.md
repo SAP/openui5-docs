@@ -18,7 +18,12 @@ With this release OpenUI5 is upgraded from version 1.63 to 1.64.
 
 ### New Controls
 
-|**`sap.f.Card`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.Card`**
 
 The new `sap.f.Card` control complies with the visual design of the Integration Card \(`sap.ui.integration.widgets.Card`\). In contrast to the Integration Card, `sap.f.Card` provides more freedom in choosing the structure and the controls you can include, so that you can compose the card content area according to your needs. It enables you to decide and compose the card content area according to your needs.
 
@@ -28,7 +33,11 @@ The `sap.f.Card` consists of three elements: a container with background color a
 
 For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.Card) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.Card/sample/sap.f.sample.Card).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -36,7 +45,12 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 ### Improved Features
 
-|**OpenUI5 OData V4 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 With the new version of the OpenUI5 OData V4 model, the number of decimal places of entered numbers is checked against the unit or the currency customizing when using the `sap.ui.model.odata.type.Unit` and `sap.ui.model.odata.type.Currency` types that were introduced with SAPUI5 1.63.
 
@@ -45,7 +59,11 @@ With the new version of the OpenUI5 OData V4 model, the number of decimal places
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -53,12 +71,23 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 ### Improved Controls
 
-|**`sap.f.DynamicPage`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.DynamicPage`**
 
 We have redesigned the content area of the `DynamicPageTitle` control so that the width of the `expandedContent` and `snappedContent` aggregations no longer depends on the width of the `heading` aggregation. Both `expandedContent` and `snappedContent` aggregations can now take the whole width of the `DynamicPageTitle` and are displayed below the heading and content areas.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.DynamicPage/sample/sap.f.sample.DynamicPageFreeStyle).
 
-|
-|**`sap.f.ShellBar` \(Experimental\)**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.f.ShellBar` \(Experimental\)**
 
 We have implemented an additional element that visualizes the number of notifications for the app \(`notificationsNumber` property\). It is displayed at the top right corner of the notifications button. When the resize breakpoint is hit and the notifications button enters the overflow area of the `OverflowToolbar`, the element is displayed at the top right corner of both the `OverflowToolbarButton` and the overflow area notification button.
 
@@ -66,8 +95,14 @@ We have implemented an additional element that visualizes the number of notifica
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.ShellBar/sample/sap.f.sample.ShellBar).
 
-|
-|**`sap.m.ComboBox`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ComboBox`**
 
 We have introduced grouping in the suggestions list of `sap.m.ComboBox`. This feature allows you to group items by certain characteristics, and to display a header. New group can be created in two ways:
 
@@ -76,23 +111,47 @@ We have introduced grouping in the suggestions list of `sap.m.ComboBox`. This fe
 
 In case a `sap.ui.core.SeparatorItem` without a defined text property is inserted in the aggregation items, the ComboBox will display only a horizontal separator without any text. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBox) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox/sample/sap.m.sample.ComboBoxGrouping).
 
-|
-|**`sap.m.DatePicker`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.DatePicker`**
 
 With the new `isValidValue` function, you can receive information on the validity of the latest value provided in `sap.m.DatePicker`, not only on change but at any time, so that you can act upon an incorrectly entered date.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DatePicker/sample/sap.m.sample.DatePicker).
 
-|
-|**`sap.m.Input`**, **`sap.m.ComboBoxBase`** **\(Experimental\)**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Input`**, **`sap.m.ComboBoxBase`** **\(Experimental\)**
 
 We have introduced a new experimental method `showItems(fnFilter)`. It enables you to open a popup with suggestion items for the `sap.m.Input`, `sap.m.ComboBox`, and `sap.m.MultiComboBox` controls, and to filter the available items based on custom criteria. For more information, see the API Reference \([`sap.m.Input`](https://openui5.hana.ondemand.com/#/api/sap.m.Input/methods/showItems), [`sap.m.ComboBoxBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBoxBase/methods/showItems)\).
 
-|
-|**`sap.m.Input`**, **`sap.m.MultiInput`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Input`**, **`sap.m.MultiInput`**
 
 We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.MultiInput`. This feature allows you to easily group items visually by separating the different groups via a distinguishable group header item. The functionality is available for inputs that use list suggestions and table suggestions. For more information, see the samples \( [`sap.m.Input`](https://openui5.hana.ondemand.com/#/entity/sap.m.Input/sample/sap.m.sample.InputGrouping), [`sap.m.MultiInput`](https://openui5.hana.ondemand.com/#/entity/sap.m.MultiInput/sample/sap.m.sample.MultiInputGrouping)\).
 
-|
-|**`sap.m.SinglePlanningCalendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.SinglePlanningCalendar`**
 
 -   We have introduced a new all-day logic that checks whether an appointment starts at 00:00 and ends at 00:00 on any day in the future.
 
@@ -101,20 +160,36 @@ We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.Mult
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendar).
 
-|
-|**`sap.ui.integration.widgets.Card`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.integration.widgets.Card`**
 
 -   We have introduced a new `Object` card type, which displays the basic details for an object, such as a person or a sales order.For more information, see [Cards](Cards_5b46b03.md) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card/sample/sap.ui.integration.sample.ObjectCard).
 
 -   We have introduced a new `Timeline` card type, which displays time-related content.For more information, see [Cards](Cards_5b46b03.md) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card/sample/sap.ui.integration.sample.TimelineCard).
 
 
-|
-|**`sap.uxap.ObjectPageLayout`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.uxap.ObjectPageLayout`**
 
 We have implemented the option to provide a simple, single-line title that takes up less space on smaller phone screens when the dynamic header of the `ObjectPageLayout` control is collapsed \(snapped\). You can enable it via the `snappedTitleOnMobile` aggregation.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageDynamicHeaderTitle) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.uxap.ObjectPageLayout/sample/sap.uxap.sample.ObjectPageDynamicHeader).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -122,14 +197,23 @@ We have implemented the option to provide a simple, single-line title that takes
 
 ### Demo Kit Improvements
 
-|**API Reference**
+
+<table>
+<tr>
+<td>
+
+**API Reference**
 
 -   The API Reference documentation for non-class entities now displays the `@see` and `@example` tags of their JSDocs.For a preview of an `@see` tag, see the [`sap.ui.core.LabelEnablement`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.LabelEnablement) namespace. For a preview of an `@example` tag, see the [`sap/base/util/merge`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fbase%2Futil%2Fmerge) function.
 
 -   Based on your feedback, we have improved the API Reference documentation to include the borrowed *Properties*, *Aggregations*, and *Associations* in the respective sections. All the inherited entries are marked with a *Borrowed from:* label in the *Description* column with a link to the corresponding class.
 
- ![](loiod7f2a71df7944a0cb574de845248690e_HiRes.png) 
+     ![](loiod7f2a71df7944a0cb574de845248690e_HiRes.png) 
 
 
-|
+
+
+</td>
+</tr>
+</table>
 

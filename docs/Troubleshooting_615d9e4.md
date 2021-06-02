@@ -20,92 +20,186 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 
 <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>Support Tools Available in OpenUI5
 
-|Tool
-
-|Use Case Examples
-
-|How to Open
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>-------------------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.
-			</td>
-			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+Tool
+
+
+
+</th>
+<th>
+
+Use Case Examples
+
+
+
+</th>
+<th>
+
+How to Open
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) 
+
+
+
+</td>
+<td>
+
+Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.
+
+
+
+</td>
+<td>
+
+[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+
  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 
 Gesture on mobile device:
 
 1.  Press two fingers on a noninteractive screen area \(for example, a blank area\) for at least 3 seconds.
 2.  Tap with a third finger while holding the other two fingers on the screen.
-			</td>
-		</tr>
-		<tr>
-			<td> [Support Assistant](Support_Assistant_57ccd7d.md) 
-			</td>
-			<td>Use the Support Assistant to check whether the application is built according to the best practices for building OpenUI5 apps.
-			</td>
-			<td>From the *Technical Information* dialog or with the URL parameter `sap-ui-support=true` 
-			</td>
-		</tr>
-		<tr>
-			<td> [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) 
-			</td>
-			<td>Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.
-			</td>
-			<td>[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [Support Assistant](Support_Assistant_57ccd7d.md) 
+
+
+
+</td>
+<td>
+
+Use the Support Assistant to check whether the application is built according to the best practices for building OpenUI5 apps.
+
+
+
+</td>
+<td>
+
+From the *Technical Information* dialog or with the URL parameter `sap-ui-support=true` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) 
+
+
+
+</td>
+<td>
+
+Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.
+
+
+
+</td>
+<td>
+
+[Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
+
  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [S\] 
-			</td>
-		</tr>
-		<tr>
-			<td> [UI5 Inspector](UI5_Inspector_b24e724.md) 
-			</td>
-			<td>Use the UI5 inspector to display the control tree, and to view and change control properties and bindings on-the-fly.
-			</td>
-			<td>Available as add-on for Google Chrome browser only
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [UI5 Inspector](UI5_Inspector_b24e724.md) 
+
+
+
+</td>
+<td>
+
+Use the UI5 inspector to display the control tree, and to view and change control properties and bindings on-the-fly.
+
+
+
+</td>
+<td>
+
+Available as add-on for Google Chrome browser only
+
+
+
+</td>
+</tr>
 </table>
 
 <a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>Performance Measurement Tools
 
-|Tool
-
-|Use Case Examples
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>-------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Measures the performance of your JavaScript code.
-			</td>
-		</tr>
-		<tr>
-			<td> [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md) 
-			</td>
-			<td>Identifies performance issues in your application by tracking the interaction that is performed on the UI
-			</td>
-		</tr>
-	</tbody>
+Tool
+
+
+
+</th>
+<th>
+
+Use Case Examples
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md) 
+
+
+
+</td>
+<td>
+
+Measures the performance of your JavaScript code.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md) 
+
+
+
+</td>
+<td>
+
+Identifies performance issues in your application by tracking the interaction that is performed on the UI
+
+
+
+</td>
+</tr>
 </table>
 
 For help with specific problems see our [First-Aid Kit](First-Aid_Kit_dfe4f79.md).

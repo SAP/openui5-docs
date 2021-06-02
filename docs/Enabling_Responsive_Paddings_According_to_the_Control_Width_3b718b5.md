@@ -29,55 +29,123 @@ Application developers can now apply responsive paddings over separate parts of 
 
 Based on the container’s size, one of the following classes is added, and the corresponding padding-left and padding-right are applied:
 
-|Container Size \(pixels\)
-
-|Class
-
-|Padding-Left and Padding-Right Applied
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---------------------------</th>
-			<th>-------</th>
-			<th>----------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>sapUi-Std-PaddingS
-			</td>
-			<td>1rem
-			</td>
-		</tr>
-		<tr>
-			<td>\>600
-			</td>
-			<td>sapUi-Std-PaddingM
-			</td>
-			<td>2rem
-			</td>
-		</tr>
-		<tr>
-			<td>\>1024
-			</td>
-			<td>sapUi-Std-PaddingL
-			</td>
-			<td>2rem
-			</td>
-		</tr>
-		<tr>
-			<td>\>1440
-			</td>
-			<td>sapUi-Std-PaddingXL
-			</td>
-			<td>3rem
-			</td>
-		</tr>
-	</tbody>
+Container Size \(pixels\)
+
+
+
+</th>
+<th>
+
+Class
+
+
+
+</th>
+<th>
+
+Padding-Left and Padding-Right Applied
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+<= 600
+
+
+
+</td>
+<td>
+
+sapUi-Std-PaddingS
+
+
+
+</td>
+<td>
+
+1rem
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\>600
+
+
+
+</td>
+<td>
+
+sapUi-Std-PaddingM
+
+
+
+</td>
+<td>
+
+2rem
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\>1024
+
+
+
+</td>
+<td>
+
+sapUi-Std-PaddingL
+
+
+
+</td>
+<td>
+
+2rem
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\>1440
+
+
+
+</td>
+<td>
+
+sapUi-Std-PaddingXL
+
+
+
+</td>
+<td>
+
+3rem
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -86,33 +154,56 @@ Based on the container’s size, one of the following classes is added, and the 
 
 The following table shows the controls that support responsive paddings. To enable this concept and to add responsive paddings to an element of the controls, add the corresponding classes to the controls, depending on your use case:
 
-|Supported Controls
-
-| `sapUiResponsivePadding--header` 
-
-| `sapUiResponsivePadding--subHeader` 
-
-| `sapUiResponsivePadding--content` 
-
-| `sapUiResponsivePadding--footer` 
-
-| `sapUiResponsivePadding--floatingFooter` 
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------------</th>
-			<th>------------------------------------</th>
-			<th>---------------------------------------</th>
-			<th>-------------------------------------</th>
-			<th>------------------------------------</th>
-			<th>--------------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Supported Controls
+
+
+
+</th>
+<th>
+
+ `sapUiResponsivePadding--header` 
+
+
+
+</th>
+<th>
+
+ `sapUiResponsivePadding--subHeader` 
+
+
+
+</th>
+<th>
+
+ `sapUiResponsivePadding--content` 
+
+
+
+</th>
+<th>
+
+ `sapUiResponsivePadding--footer` 
+
+
+
+</th>
+<th>
+
+ `sapUiResponsivePadding--floatingFooter` 
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`sap.m.Dialog`
 
 \(`sap.m.MessageBox`,
 
@@ -120,172 +211,309 @@ The following table shows the controls that support responsive paddings. To enab
 
 `sap.m.TableSelectDialog`\)
 
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.IconTabBar` 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.ObjectHeader` 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.Page` 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.Popover` 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+</tr>
+<tr>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ `sap.m.IconTabBar` 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.TabContainer` 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.m.Wizard` 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-	</tbody>
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.ObjectHeader` 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.Page` 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.Popover` 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.TabContainer` 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.m.Wizard` 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

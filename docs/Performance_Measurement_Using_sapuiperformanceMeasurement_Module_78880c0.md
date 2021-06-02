@@ -16,63 +16,138 @@ For each measurement, the result is a time and a duration. The time are the mill
 
 You can measure the categories that are used by the OpenUI5 core classes as listed in the following table:
 
-|Category
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Default measurement category if no category is provided
-			</td>
-		</tr>
-		<tr>
-			<td> `require` 
-			</td>
-			<td>Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class
-			</td>
-		</tr>
-		<tr>
-			<td> `xmlhttprequest` 
-			</td>
-			<td>Identifies the duration of an `jQuery.ajax` call
-			</td>
-		</tr>
-		<tr>
-			<td> `render` 
-			</td>
-			<td>Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class
+Category
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `javascript` \(default\)
+
+
+
+</td>
+<td>
+
+Default measurement category if no category is provided
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `require` 
+
+
+
+</td>
+<td>
+
+Identifies the duration of `sap.ui.require` for lazy loading of JavaScipt classes including the loading and parsing times for a class
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `xmlhttprequest` 
+
+
+
+</td>
+<td>
+
+Identifies the duration of an `jQuery.ajax` call
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `render` 
+
+
+
+</td>
+<td>
+
+Used for all rendering-related measurements that trigger core rendering of controls within the `RenderManager` class
+
 With the `render` category there comes an additional set of categories to distinguish between different phases of rendering
-			</td>
-		</tr>
-		<tr>
-			<td> `control` 
-			</td>
-			<td>Identifies the duration for HTML rendering provided with the `ControlRender.render` method
-			</td>
-		</tr>
-		<tr>
-			<td> `after` 
-			</td>
-			<td>Identifies the duration for calls on the control's `onAfterRendering` method
-			</td>
-		</tr>
-		<tr>
-			<td> `preserve` 
-			</td>
-			<td>Identifies the duration needed to find out whether rendering can be preserved
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `control` 
+
+
+
+</td>
+<td>
+
+Identifies the duration for HTML rendering provided with the `ControlRender.render` method
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `after` 
+
+
+
+</td>
+<td>
+
+Identifies the duration for calls on the control's `onAfterRendering` method
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `preserve` 
+
+
+
+</td>
+<td>
+
+Identifies the duration needed to find out whether rendering can be preserved
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -104,47 +179,90 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 
     You can use methods as listed in the following table:
 
-    |Action
 
-|Method
+    <table>
+    <tr>
+    <th>
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+    Action
 
-<table>
-	<thead>
-		<tr>
-			<th>    </th>
-			<th>--------</th>
-			<th>--------</th>
-		</tr>
-	</thead>
-	<tbody>
 
-			<td> `Measurement.start(sId,sInfo,[categories])` 
-			</td>
-		</tr>
-		<tr>
-			<td>End measurement
-			</td>
-			<td> `Measurement.end(sId)` 
-			</td>
-		</tr>
-		<tr>
-			<td>Pause
-			</td>
-			<td> `Measurement.pause(sId)` 
-			</td>
-		</tr>
-		<tr>
-			<td>Resume
-			</td>
-			<td> `Measurement.resume(sId)` 
-			</td>
-		</tr>
-	</tbody>
-</table>
+    
+    </th>
+    <th>
 
+    Method
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    Start measurement
+
+
+    
+    </td>
+    <td>
+
+     `Measurement.start(sId,sInfo,[categories])` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    End measurement
+
+
+    
+    </td>
+    <td>
+
+     `Measurement.end(sId)` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    Pause
+
+
+    
+    </td>
+    <td>
+
+     `Measurement.pause(sId)` 
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    Resume
+
+
+    
+    </td>
+    <td>
+
+     `Measurement.resume(sId)` 
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 To activate measurement for certain categories only, you have the following options:
 
@@ -177,62 +295,136 @@ You can view the results in the *Performance* section of the diagnostics window 
 
 You can retrieve the results via API with one of the following commands:
 
-|Command
-
-|Returns
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Array of all measures \(running and completed\)
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.getAllMeasurements(true)` 
-			</td>
-			<td>Array of completed measures
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.getAllMeasurements(false)` 
-			</td>
-			<td>Array of running \(not completed\) measures
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.getMeasurement(string)` 
-			</td>
-			<td>One specific measurement by ID
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.filterMeasurements(func)` 
-			</td>
-			<td>Array of all measures based on the result of the filter function \(running and completed\)
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.filterMeasurements(func, true)` 
-			</td>
-			<td>Array of completed measures based on the result of the filter function
-			</td>
-		</tr>
-		<tr>
-			<td> `Measurement.filterMeasurements(func, false)` 
-			</td>
-			<td>Array of running measures based on the result of the filter function
-			</td>
-		</tr>
-	</tbody>
+Command
+
+
+
+</th>
+<th>
+
+Returns
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `Measurement.getAllMeasurements()` 
+
+
+
+</td>
+<td>
+
+Array of all measures \(running and completed\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.getAllMeasurements(true)` 
+
+
+
+</td>
+<td>
+
+Array of completed measures
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.getAllMeasurements(false)` 
+
+
+
+</td>
+<td>
+
+Array of running \(not completed\) measures
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.getMeasurement(string)` 
+
+
+
+</td>
+<td>
+
+One specific measurement by ID
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.filterMeasurements(func)` 
+
+
+
+</td>
+<td>
+
+Array of all measures based on the result of the filter function \(running and completed\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.filterMeasurements(func, true)` 
+
+
+
+</td>
+<td>
+
+Array of completed measures based on the result of the filter function
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Measurement.filterMeasurements(func, false)` 
+
+
+
+</td>
+<td>
+
+Array of running measures based on the result of the filter function
+
+
+
+</td>
+</tr>
 </table>
 
 In Google Chrome, for example, you can also display the results in a table in the console by using:

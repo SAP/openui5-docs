@@ -26,55 +26,123 @@ Depending on the current date, we distinguish four different formatting categori
 
 <a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__table_hdp_fdd_jt"/>Formatting Categories
 
-|Category
-
-|Sample Input
-
-|Expected Output \(for `en-US`\)
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>--------------</th>
-			<th>---------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> ***2013/02/13 12:05:20*** 
-			</td>
-			<td> ***12:05 PM*** 
-			</td>
-		</tr>
-		<tr>
-			<td>Yesterday
-			</td>
-			<td> ***2013/02/12 12:05:20*** 
-			</td>
-			<td> ***Yesterday*** 
-			</td>
-		</tr>
-		<tr>
-			<td>Last 7 days
-			</td>
-			<td> ***2013/02/08 12:05:20*** 
-			</td>
-			<td> ***Friday*** 
-			</td>
-		</tr>
-		<tr>
-			<td>Others
-			</td>
-			<td> ***2011/02/05 12:05:20*** 
-			</td>
-			<td> ***Dec 5, 2011*** 
-			</td>
-		</tr>
-	</tbody>
+Category
+
+
+
+</th>
+<th>
+
+Sample Input
+
+
+
+</th>
+<th>
+
+Expected Output \(for `en-US`\)
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Today
+
+
+
+</td>
+<td>
+
+ ***2013/02/13 12:05:20*** 
+
+
+
+</td>
+<td>
+
+ ***12:05 PM*** 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Yesterday
+
+
+
+</td>
+<td>
+
+ ***2013/02/12 12:05:20*** 
+
+
+
+</td>
+<td>
+
+ ***Yesterday*** 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Last 7 days
+
+
+
+</td>
+<td>
+
+ ***2013/02/08 12:05:20*** 
+
+
+
+</td>
+<td>
+
+ ***Friday*** 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Others
+
+
+
+</td>
+<td>
+
+ ***2011/02/05 12:05:20*** 
+
+
+
+</td>
+<td>
+
+ ***Dec 5, 2011*** 
+
+
+
+</td>
+</tr>
 </table>
 
 As you can see, we have many different cases, and our formatter contains real logic.

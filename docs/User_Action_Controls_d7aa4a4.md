@@ -16,79 +16,155 @@ OpenUI5 action controls are used for triggering interactions with the applicatio
 
 <a name="loiod7aa4a4e98b24181b7f013bea33a8df9__table_mv5_wrs_xw"/>Screen Reader Behavior in Input Controls
 
-| OpenUI5 Control
-
-|What is read by default
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------</th>
-			<th>-------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>-   Button text
- -   Custom types
+ OpenUI5 Control
 
- -   Tooltip \(if the button is only an icon\)
-			</td>
-		</tr>
-		<tr>
-			<td>Link
-			</td>
-			<td>-   Link text
- -   Link label
 
- -   Tooltip
-			</td>
-		</tr>
-		<tr>
-			<td>Breadcrumbs
-			</td>
-			<td>-   In Virtual Cursor mode - upon entry announce the label *Breadcrumb Trail*
- -   For each breadcrumb - text, label and tooltip
 
- -   For separators - announce textual descriptions if icons are used
-			</td>
-		</tr>
-		<tr>
-			<td>Menu Button
-			</td>
-			<td>-   Button text
- -   Statement that button opens a menu
+</th>
+<th>
 
- -   Custom types
+What is read by default
 
- -   Tooltip \(if the button is only an icon\)
-			</td>
-		</tr>
-		<tr>
-			<td>Split Button
-			</td>
-			<td>-   Button text
- -   Statement that button opens a menu
 
- -   Custom split button types
 
- -   Tooltip \(if the button is only an icon\)
-			</td>
-		</tr>
-		<tr>
-			<td>Toggle Button
-			</td>
-			<td>-   Button text
- -   Toggle state
+</th>
+</tr>
+<tr>
+<td>
 
- -   Custom button types
+Button
 
- -   Tooltip \(if the button is only an icon\)
-			</td>
-		</tr>
-	</tbody>
+
+
+</td>
+<td>
+
+-   Button text
+
+-   Custom types
+
+-   Tooltip \(if the button is only an icon\)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Link
+
+
+
+</td>
+<td>
+
+-   Link text
+
+-   Link label
+
+-   Tooltip
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Breadcrumbs
+
+
+
+</td>
+<td>
+
+-   In Virtual Cursor mode - upon entry announce the label *Breadcrumb Trail*
+
+-   For each breadcrumb - text, label and tooltip
+
+-   For separators - announce textual descriptions if icons are used
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Menu Button
+
+
+
+</td>
+<td>
+
+-   Button text
+
+-   Statement that button opens a menu
+
+-   Custom types
+
+-   Tooltip \(if the button is only an icon\)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Split Button
+
+
+
+</td>
+<td>
+
+-   Button text
+
+-   Statement that button opens a menu
+
+-   Custom split button types
+
+-   Tooltip \(if the button is only an icon\)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Toggle Button
+
+
+
+</td>
+<td>
+
+-   Button text
+
+-   Toggle state
+
+-   Custom button types
+
+-   Tooltip \(if the button is only an icon\)
+
+
+
+
+</td>
+</tr>
 </table>
 

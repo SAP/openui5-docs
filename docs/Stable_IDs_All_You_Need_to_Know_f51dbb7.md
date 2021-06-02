@@ -57,117 +57,160 @@ The generated IDs change whenever the control structure of the app changes. The 
 > ### Tip:  
 > Using the rule *Stable control IDs are required for SAPUI5 flexibility services* in the Support Assistant, you can check whether all controls use stable IDs. For more information, see [How to Check If All Your IDs Are Stable](Stable_IDs_All_You_Need_to_Know_f51dbb7.md#loiof51dbb78e7d5448e838cdc04bdf65403__section_howtocheck).
 
-|**Views**
 
-|-   Views in the descriptor for applications, components, and libraries
+<table>
+<tr>
+<td>
 
-The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+**Views**
 
-Example:
+
+
+</td>
+<td>
+
+-   Views in the descriptor for applications, components, and libraries
+
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+
+    Example:
 
     ``` js
-{
-"sap.ui5": {
-	"rootView": {
-		"viewName": "<your namespace>.view.Root",
-		"id" : "rootView",
-		"async": true,
-		"type": "XML"
-	}
-	...
-	"routing": {
-		...
-		"targets": {
-			"myTarget": {
-				"viewName": "MyView",
-				"viewId": "myView"
-				}
-			}
-		}
-	}
-}
-
+    {
+    "sap.ui5": {
+    	"rootView": {
+    		"viewName": "<your namespace>.view.Root",
+    		"id" : "rootView",
+    		"async": true,
+    		"type": "XML"
+    	}
+    	...
+    	"routing": {
+    		...
+    		"targets": {
+    			"myTarget": {
+    				"viewName": "MyView",
+    				"viewId": "myView"
+    				}
+    			}
+    		}
+    	}
+    }
+    
     ```
 
 -   Embedded views
 
-If you embed your view, set its ID \(such as `myEmbeddedView`\).
+    If you embed your view, set its ID \(such as `myEmbeddedView`\).
 
-Example:
+    Example:
 
     ``` xml
-<mvc:View xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<Page id="page">
-		<mvc:XMLView id="myEmbeddedView" viewName="MyView" async="true" />
-	</Page>
-</mvc:View>
-
+    <mvc:View xmlns="sap.m"
+    	xmlns:mvc="sap.ui.core.mvc">
+    	<Page id="page">
+    		<mvc:XMLView id="myEmbeddedView" viewName="MyView" async="true" />
+    	</Page>
+    </mvc:View>
+    
     ```
 
 -   Programmatic creation
 
-If you create the view programmatically, provide the ID as one of the parameters to the constructor or factory function. Make sure to prefix the view ID with the component ID using the `createId` method of the owner component.
+    If you create the view programmatically, provide the ID as one of the parameters to the constructor or factory function. Make sure to prefix the view ID with the component ID using the `createId` method of the owner component.
 
-Example:
+    Example:
 
     ``` js
-// "XMLView" required from module "sap/ui/core/mvc/XMLView"
-XMLView.create({
-	id: <component>.createId("myProgrammaticView"),
-	viewName : "<your namespace>.view.ProgrammaticView"
-}).then(function(oView){
-	// code
-});
-
+    // "XMLView" required from module "sap/ui/core/mvc/XMLView"
+    XMLView.create({
+    	id: <component>.createId("myProgrammaticView"),
+    	viewName : "<your namespace>.view.ProgrammaticView"
+    }).then(function(oView){
+    	// code
+    });
+    
     ```
 
-For more information, see [namespace sap.ui](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/view).
+    For more information, see [namespace sap.ui](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/view).
 
 
-|
-| **Extension points** 
 
-|If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.
 
-|
-| **Controls** 
+</td>
+</tr>
+<tr>
+<td>
 
-|-   Controls in XML views
+ **Extension points** 
 
-The XML view prefixes the control IDs \(only the defined IDs, not the automatically created ones\) with its own ID. This allows you to use the same control ID for different views and the same view multiple times. For more information, see [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md).
 
-If the following XML view is instantiated using the ID `myView`, the contained page and table would have the IDs `myView--page` and `myView--table` at runtime:
+
+</td>
+<td>
+
+If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Controls** 
+
+
+
+</td>
+<td>
+
+-   Controls in XML views
+
+    The XML view prefixes the control IDs \(only the defined IDs, not the automatically created ones\) with its own ID. This allows you to use the same control ID for different views and the same view multiple times. For more information, see [Support for Unique IDs](Support_for_Unique_IDs_91f28be.md).
+
+    If the following XML view is instantiated using the ID `myView`, the contained page and table would have the IDs `myView--page` and `myView--table` at runtime:
 
     ``` js
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-	<Page id="page">
-		<content>
-			<Table id="table">
-			</Table>
-		</content>
-	</Page>
-</mvc:View>
-
+    <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    	<Page id="page">
+    		<content>
+    			<Table id="table">
+    			</Table>
+    		</content>
+    	</Page>
+    </mvc:View>
+    
     ```
 
 -   Programmatic creation
 
-For JavaScript views and JavaScript-generated controls you must use the `createID` method of the view or component. Here's how it could look like when you're creating a control directly in the control code:
+    For JavaScript views and JavaScript-generated controls you must use the `createID` method of the view or component. Here's how it could look like when you're creating a control directly in the control code:
 
     ``` xml
-// "Button" required from module "sap/m/Button"
-new Button({
-	id : oView.createId("ConfirmButton"),
-	text : "Confirm"
-});
+    // "Button" required from module "sap/m/Button"
+    new Button({
+    	id : oView.createId("ConfirmButton"),
+    	text : "Confirm"
+    });
     ```
 
 
-|
-| **Components** 
 
-|> ### Note:  
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Components** 
+
+
+
+</td>
+<td>
+
+> ### Note:  
 > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
 
 For example, if you instantiate a component inside an HTML page, set the ID of the component as shown below. The reason for this is that components could be displayed more than once on a page. To get unique IDs for the views and controls inside the component, they must be prefixed with the component ID. All views in the component that are created by the framework are automatically prefixed with the component ID. As described above, for the programmatically generated components, you must do it yourself.
@@ -191,72 +234,94 @@ new Shell({
 > ### Note:  
 > Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
 
-|
-| **Embedded Components** 
 
-|If you want to add an embedded component with a stable ID, you have two options:
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Embedded Components** 
+
+
+
+</td>
+<td>
+
+If you want to add an embedded component with a stable ID, you have two options:
 
 1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
     ``` json
-"sap.ui5": {
-   "componentUsages": {
-      "reuseName": {
-         "name": "embeddedComponent.name",
-         "settings": {
-            "id": "embeddedComponentID"
-         }
-      }
-   }
-}
-
+    "sap.ui5": {
+       "componentUsages": {
+          "reuseName": {
+             "name": "embeddedComponent.name",
+             "settings": {
+                "id": "embeddedComponentID"
+             }
+          }
+       }
+    }
+    
     ```
 
-Now you can use the re-use entry name defining the component container in XML:
+    Now you can use the re-use entry name defining the component container in XML:
 
     ``` xml
-<core:ComponentContainer
-   usage="reuseName"
-   async="true"
-   id="embeddedComponentContainerID"
-   propagateModel="true" //to propagate models from the application component
-/>
-
+    <core:ComponentContainer
+       usage="reuseName"
+       async="true"
+       id="embeddedComponentContainerID"
+       propagateModel="true" //to propagate models from the application component
+    />
+    
     ```
 
 2.  Option: Add an embedded component independently from the manifest and mention the correct namespace using the `name` property. Also, when instantiating the component, make sure that the `id` property is set during component instance creation:
 
     ``` xml
-<core:ComponentContainer
-   name = "embeddedComponent.name"
-   async="true"
-   id="embeddedComponentContainerID"
-   propagateModel="true" //to propagate models from the application component
-/>
-
+    <core:ComponentContainer
+       name = "embeddedComponent.name"
+       async="true"
+       id="embeddedComponentContainerID"
+       propagateModel="true" //to propagate models from the application component
+    />
+    
     ```
 
-Inside the embedded component's `constructor()` \(with the `embeddedComponent.name` namespace\) add :
+    Inside the embedded component's `constructor()` \(with the `embeddedComponent.name` namespace\) add :
 
     ```
-[...]
-constructor: function() {
-                    arguments[0].id = "embeddedComponentID";
-                    UIComponent.prototype.contructor.apply(this, arguments);
-}
-[...]
+    [...]
+    constructor: function() {
+                        arguments[0].id = "embeddedComponentID";
+                        UIComponent.prototype.contructor.apply(this, arguments);
+    }
+    [...]
     ```
 
-Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
+    Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
 
 
 > ### Note:  
 > In order to support SAPUI5 flexibility features, all embedded components should have a stable ID.
 
-|
-| **XML fragments** 
 
-|If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **XML fragments** 
+
+
+
+</td>
+<td>
+
+If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
 
 Example:
 
@@ -268,7 +333,11 @@ Fragment.load({
 });
 ```
 
-|
+
+
+</td>
+</tr>
+</table>
 
 > ### Note:  
 > If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. For this reason, the IDs, which are part of the public API of the app, must be kept stable over the life cycle of the app.
@@ -288,56 +357,123 @@ Example:
 
 If you build an app using the following stable IDs for the component and the views using the SAP Fiori Worklist Application template, here's what the concatenated IDs that are generated at runtime look like:
 
-|Component
-
-|Views
-
-|Contained views
-
-|Concatenated IDs
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------</th>
-			<th>-------</th>
-			<th>-----------------</th>
-			<th>------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> ***worklist*** 
-			</td>
-			<td> ***page*** 
-			</td>
-			<td> `myProducts---worklist--page` 
-			</td>
-		</tr>
-		<tr>
-			<td> ***table*** 
-			</td>
-			<td> `myProducts---worklist--table` 
-			</td>
-		</tr>
-		<tr>
-			<td> ***product*** 
-			</td>
-			<td> ***page*** 
-			</td>
-			<td> `myProducts---product--page` 
-			</td>
-		</tr>
-		<tr>
-			<td> ***objectHeader*** 
-			</td>
-			<td> `myProducts---product--objectHeader` 
-			</td>
-		</tr>
-	</tbody>
+Component
+
+
+
+</th>
+<th>
+
+Views
+
+
+
+</th>
+<th>
+
+Contained views
+
+
+
+</th>
+<th>
+
+Concatenated IDs
+
+
+
+</th>
+</tr>
+<tr>
+<td rowspan="4">
+
+ ***myProducts*** 
+
+
+
+</td>
+<td rowspan="2">
+
+ ***worklist*** 
+
+
+
+</td>
+<td>
+
+ ***page*** 
+
+
+
+</td>
+<td>
+
+ `myProducts---worklist--page` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ***table*** 
+
+
+
+</td>
+<td>
+
+ `myProducts---worklist--table` 
+
+
+
+</td>
+</tr>
+<tr>
+<td rowspan="2">
+
+ ***product*** 
+
+
+
+</td>
+<td>
+
+ ***page*** 
+
+
+
+</td>
+<td>
+
+ `myProducts---product--page` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ ***objectHeader*** 
+
+
+
+</td>
+<td>
+
+ `myProducts---product--objectHeader` 
+
+
+
+</td>
+</tr>
 </table>
 
 For more information about the SAP Fiori Worklist Application template, see [Worklist Template](Worklist_Template_a77f2d2.md).

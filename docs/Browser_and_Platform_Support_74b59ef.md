@@ -31,147 +31,414 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 ### Browser and Platform Support Matrix
 
-|Platform
-
-|Device Category
-
-|Platform Version
-
-|Safari
-
-|Web View
-
-|Microsoft Edge \(Chromium\)<sup>2</sup>
-
-|Google Chrome
-
-|Mozilla Firefox
-
-|SAP Fiori Client
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>-----------------</th>
-			<th>------------------</th>
-			<th>--------</th>
-			<th>----------</th>
-			<th>-----------------------------------------</th>
-			<th>---------------</th>
-			<th>-----------------</th>
-			<th>------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Desktop
-			</td>
-			<td>Windows 8.1
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-			<td>Latest version
-			</td>
-			<td>Latest version and latest Extended Support Release \(ESR\)
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td>Windows 10
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td>Touch<sup>3</sup>
-			</td>
-			<td>Windows 10
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-			<td>Latest version
-			</td>
-			<td>Latest version
-			</td>
-			<td>Latest version
-			</td>
-		</tr>
-		<tr>
-			<td>macOS
-			</td>
-			<td>Desktop
-			</td>
-			<td>Latest 2 versions
-			</td>
-			<td>Latest 2 versions
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>Latest version<sup>3</sup>
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td>iOS
-			</td>
-			<td>Phone and Tablet<sup>3</sup>
-			</td>
-			<td>Latest 2 versions
-			</td>
-			<td>Latest 2 versions
-			</td>
-			<td>Latest version
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-		</tr>
-		<tr>
-			<td>Android
-			</td>
-			<td>Phone and Tablet<sup>3</sup>
-			</td>
-			<td>As of version 5
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-			<td>-
-			</td>
-			<td>Latest version
-			</td>
-		</tr>
-	</tbody>
+Platform
+
+
+
+</th>
+<th>
+
+Device Category
+
+
+
+</th>
+<th>
+
+Platform Version
+
+
+
+</th>
+<th>
+
+Safari
+
+
+
+</th>
+<th>
+
+Web View
+
+
+
+</th>
+<th>
+
+Microsoft Edge \(Chromium\)<sup>2</sup>
+
+
+
+</th>
+<th>
+
+Google Chrome
+
+
+
+</th>
+<th>
+
+Mozilla Firefox
+
+
+
+</th>
+<th>
+
+SAP Fiori Client
+
+
+
+</th>
+</tr>
+<tr>
+<td rowspan="3">
+
+Windows<sup>1</sup>
+
+
+
+</td>
+<td rowspan="2">
+
+Desktop
+
+
+
+</td>
+<td>
+
+Windows 8.1
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td rowspan="2">
+
+Latest version
+
+
+
+</td>
+<td rowspan="2">
+
+Latest version
+
+
+
+</td>
+<td rowspan="3">
+
+Latest version and latest Extended Support Release \(ESR\)
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Windows 10
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Touch<sup>3</sup>
+
+
+
+</td>
+<td>
+
+Windows 10
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+macOS
+
+
+
+</td>
+<td>
+
+Desktop
+
+
+
+</td>
+<td>
+
+Latest 2 versions
+
+
+
+</td>
+<td>
+
+Latest 2 versions
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version<sup>3</sup>
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+iOS
+
+
+
+</td>
+<td>
+
+Phone and Tablet<sup>3</sup>
+
+
+
+</td>
+<td>
+
+Latest 2 versions
+
+
+
+</td>
+<td>
+
+Latest 2 versions
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Android
+
+
+
+</td>
+<td>
+
+Phone and Tablet<sup>3</sup>
+
+
+
+</td>
+<td>
+
+As of version 5
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+<td>
+
+Latest version
+
+
+
+</td>
+</tr>
 </table>
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
@@ -199,155 +466,384 @@ For mobile operating systems, support is restricted to specific reference device
 
 When creating support incidents, make sure that the device you refer to belongs to the listed ones:
 
-|Platform
-
-|Device
-
-|End of Support Date
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>--------</th>
-			<th>---------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Platform
+
+
+
+</th>
+<th>
+
+Device
+
+
+
+</th>
+<th>
+
+End of Support Date
+
+
+
+</th>
+</tr>
+<tr>
+<td rowspan="13">
+
+iOS
 
 SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
 
-			<td>Apple iPhone XS
-			</td>
-			<td>September 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone XR
-			</td>
-			<td>October 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone 11
-			</td>
-			<td>September 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone SE \(2nd\)
-			</td>
-			<td>April 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPhone 12
-			</td>
-			<td>October 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(6th\)
-			</td>
-			<td>March 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Pro \(3rd\)
-			</td>
-			<td>October 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Air \(3rd\)
-			</td>
-			<td>March 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Mini \(5th\)
-			</td>
-			<td>March 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(7th\)
-			</td>
-			<td>September 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Pro \(4th\)
-			</td>
-			<td>March 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad \(8th\)
-			</td>
-			<td>September 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Apple iPad Air \(4th\)
-			</td>
-			<td>October 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Android
+
+
+</td>
+<td>
+
+Apple iPhone XS
+
+
+
+</td>
+<td>
+
+September 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPhone XR
+
+
+
+</td>
+<td>
+
+October 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPhone 11
+
+
+
+</td>
+<td>
+
+September 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPhone SE \(2nd\)
+
+
+
+</td>
+<td>
+
+April 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPhone 12
+
+
+
+</td>
+<td>
+
+October 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad \(6th\)
+
+
+
+</td>
+<td>
+
+March 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad Pro \(3rd\)
+
+
+
+</td>
+<td>
+
+October 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad Air \(3rd\)
+
+
+
+</td>
+<td>
+
+March 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad Mini \(5th\)
+
+
+
+</td>
+<td>
+
+March 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad \(7th\)
+
+
+
+</td>
+<td>
+
+September 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad Pro \(4th\)
+
+
+
+</td>
+<td>
+
+March 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad \(8th\)
+
+
+
+</td>
+<td>
+
+September 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Apple iPad Air \(4th\)
+
+
+
+</td>
+<td>
+
+October 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td rowspan="8">
+
+Android
+
 Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
-			</td>
-			<td>Samsung Galaxy S9
-			</td>
-			<td>March 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy S10
-			</td>
-			<td>March 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy S20
-			</td>
-			<td>March 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy Tab S4
-			</td>
-			<td>August 2021
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy Tab S5e
-			</td>
-			<td>April 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy Tab S6
-			</td>
-			<td>August 2022
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy Tab S6 Lite
-			</td>
-			<td>July 2023
-			</td>
-		</tr>
-		<tr>
-			<td>Samsung Galaxy Tab S7
-			</td>
-			<td>August 2023
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+<td>
+
+Samsung Galaxy S9
+
+
+
+</td>
+<td>
+
+March 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy S10
+
+
+
+</td>
+<td>
+
+March 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy S20
+
+
+
+</td>
+<td>
+
+March 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy Tab S4
+
+
+
+</td>
+<td>
+
+August 2021
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy Tab S5e
+
+
+
+</td>
+<td>
+
+April 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy Tab S6
+
+
+
+</td>
+<td>
+
+August 2022
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy Tab S6 Lite
+
+
+
+</td>
+<td>
+
+July 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Samsung Galaxy Tab S7
+
+
+
+</td>
+<td>
+
+August 2023
+
+
+
+</td>
+</tr>
 </table>
 

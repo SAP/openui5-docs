@@ -40,22 +40,59 @@ When extended change detection is enabled, an algorithm is executed to compare t
 The difference between the previous and the current state of the list is provided to the control as an array that contains `insert` and `remove` entries that contain the actual changes.
 
 > ### Example:  
-> | **Old State** 
 > 
-> | **New State** 
+> <table>
+> <tr>
+> <td>
 > 
-> |
-> | `["one", "two", "three", "four", "five"]` 
+>  **Old State** 
 > 
-> | `["one", "three", "four", "five", "six"]` 
 > 
-> |
-> | **Difference** 
 > 
-> |
-> | `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
+> </td>
+> <td>
 > 
-> |
+>  **New State** 
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td>
+> 
+>  `["one", "two", "three", "four", "five"]` 
+> 
+> 
+> 
+> </td>
+> <td>
+> 
+>  `["one", "three", "four", "five", "six"]` 
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td colspan="2">
+> 
+>  **Difference** 
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td colspan="2">
+> 
+>  `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
+> 
+> 
+> 
+> </td>
+> </tr>
+> </table>
 > 
 > The algorithm is implemented in the utility module `sap/base/util/array/diff`, which tries to calculate the smallest possible difference for the transition from old to the new state. The indexes are calculated in a way that they are valid after all previous steps have been applied, so it can be used in a loop to update an existing array, without any additional index shift needed.
 
@@ -78,40 +115,54 @@ If a control you want to use in your app to visualize list entries supports exte
 
 -   For all other models \(like a JSON model\), you have to define the keys either by using a key property or by using a function that calculates the key in the binding info of their list binding as in the following example:
 
-    | `key` property
 
-| `key` function
+    <table>
+    <tr>
+    <th>
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+     `key` property
 
-<table>
-	<thead>
-		<tr>
-			<th>    </th>
-			<th>-----------------</th>
-			<th>-----------------</th>
-		</tr>
-	</thead>
-	<tbody>
-oControl.bindItems({
-  path: "/listData",
-  key: "id"
-});
+
+    
+    </th>
+    <th>
+
+     `key` function
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    ``` js
+    oControl.bindItems({
+      path: "/listData",
+      key: "id"
+    });
     ```
 
-			<td>    ``` jsoControl.bindItems({
-  path: "/listData",
-  key: function(oContext) {
-    return oContext.getProperty("user") + oContext.getProperty("timestamp"); 
-  }
-});
-    ```
-			</td>
-		</tr>
-	</tbody>
-</table>
 
+    
+    </td>
+    <td>
+
+    ``` js
+    oControl.bindItems({
+      path: "/listData",
+      key: function(oContext) {
+        return oContext.getProperty("user") + oContext.getProperty("timestamp"); 
+      }
+    });
+    ```
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 ***
 

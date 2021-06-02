@@ -37,86 +37,175 @@ MyControl.prototype.setShowLogoutButton = function(show) {
 
 <a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_gkp_kb2_2y"/>Built-in Types
 
-|Type
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Can either be `true` or `false`. Properties of that type should not be set to `undefined` or `null`. The default value is `false`.
-			</td>
-		</tr>
-		<tr>
-			<td> `int` 
-			</td>
-			<td>JavaScript primitive values of type `number` and that don’t have a fractional part. To keep the implementation efficient, the constraint is not enforced. Declaring a property as type `int` is rather for information reasons. The corresponding object expects any given value to be an integer value. The default value of the type is the number `0`.
-			</td>
-		</tr>
-		<tr>
-			<td> `float` 
-			</td>
-			<td>JavaScript primitive values of type `number` that can have a fractional part. It is named `float` instead of `number` to differentiate it from type `int` . The default value is the number `0`.
-			</td>
-		</tr>
-		<tr>
-			<td> `string` 
-			</td>
-			<td>JavaScript string literal \(`typeof value === "string"`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.
-			</td>
-		</tr>
-		<tr>
-			<td> `object` 
-			</td>
-			<td>Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`.
+Type
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `boolean` 
+
+
+
+</td>
+<td>
+
+Can either be `true` or `false`. Properties of that type should not be set to `undefined` or `null`. The default value is `false`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `int` 
+
+
+
+</td>
+<td>
+
+JavaScript primitive values of type `number` and that don’t have a fractional part. To keep the implementation efficient, the constraint is not enforced. Declaring a property as type `int` is rather for information reasons. The corresponding object expects any given value to be an integer value. The default value of the type is the number `0`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `float` 
+
+
+
+</td>
+<td>
+
+JavaScript primitive values of type `number` that can have a fractional part. It is named `float` instead of `number` to differentiate it from type `int` . The default value is the number `0`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `string` 
+
+
+
+</td>
+<td>
+
+JavaScript string literal \(`typeof value === "string"`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `object` 
+
+
+
+</td>
+<td>
+
+Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`.
+
 Don't mix this type up with the `any` type! \(Sorry, we maybe should have named it „`serializable`“ or „`JSON`“ or something like that, to make this more clear...\).
-			</td>
-		</tr>
-		<tr>
-			<td> `any` 
-			</td>
-			<td>Any valid Javascript value \(including primitives, objects, functions, regular expressions, and native objects\). The support in serialized formats is quite limited. Valid JSON strings will be deserialized to an object. The default value is `null`.
-			</td>
-		</tr>
-		<tr>
-			<td> `function` 
-			</td>
-			<td>Can be any JavaScript function.
- > ### Note:  
- > Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `any` 
+
+
+
+</td>
+<td>
+
+Any valid Javascript value \(including primitives, objects, functions, regular expressions, and native objects\). The support in serialized formats is quite limited. Valid JSON strings will be deserialized to an object. The default value is `null`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `function` 
+
+
+
+</td>
+<td>
+
+Can be any JavaScript function.
+
+> ### Note:  
+> Properties of type `function` defined in an XML view can be specified similar to [event handlers in XML views](Handling_Events_in_XML_Views_b0fb4de.md). However, the legacy syntax of function names without dots is not supported.
+
+
+
+</td>
+</tr>
 </table>
 
 <a name="loioac56d92162ed47ff858fdf1ce26c18c4__table_lbg_fc2_2y"/>Derived Types
 
-|Category
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Derived from the built-in type `string`.
+Category
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+regular expression \(RegExp\)
+
+
+
+</td>
+<td>
+
+Derived from the built-in type `string`.
+
 Restricted subtypes that limit their valid values to strings that match a given regular expression.
 
 `RegExp` types can only be defined by calling the `DataType.createType()` method.
@@ -135,19 +224,30 @@ var fooType = DataType.createType('foo', {
 If `mSettings` contains an implementation for `isValid`, then the validity check of the newly created type will first execute the check of the base type and then call the given `isValid` function.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.DataType.html). 
-			</td>
-		</tr>
-		<tr>
-			<td>enumeration \(enum\)
-			</td>
-			<td>Derived from the built-in type `string`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+enumeration \(enum\)
+
+
+
+</td>
+<td>
+
+Derived from the built-in type `string`.
+
 Restricted subtypes can be derived that limit their valid values to a fixed set of values \(enumeration\). An `enum` type is defined through an object literal whose keys represent the allowed values.
 
 Restrictions:
 
- -   The value for each key must be a string literal, equal to the key itself.
+-   The value for each key must be a string literal, equal to the key itself.
 
- -   Renamings or aliases are not supported and only keys and values of type `string` are supported.
+-   Renamings or aliases are not supported and only keys and values of type `string` are supported.
 
 
 This was an early design decision in OpenUI5 and framework code relies on it. That code might fail for enumerations that don’t obey these restrictions.
@@ -185,12 +285,23 @@ properties: {
 }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>array
-			</td>
-			<td>You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+array
+
+
+
+</td>
+<td>
+
+You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension.
+
 Example:
 
 ``` js
@@ -202,9 +313,9 @@ properties: {
 
 ```
 
- -   `int[]` is a one-dimensional array of integers
+-   `int[]` is a one-dimensional array of integers
 
- -   `int[][]` is a two-dimensional array of integers \(or more precisely an array of integer arrays\)
+-   `int[][]` is a two-dimensional array of integers \(or more precisely an array of integer arrays\)
 
 
 The type of an element in an array is called the component type \(`int` in the first example, `int[]` in the second\).
@@ -212,9 +323,11 @@ The type of an element in an array is called the component type \(`int` in the f
 The `DataType` object for an array type has a method `getComponentType` to retrieve the component `type`. For non-array types, this method returns `null`.
 
 The default value for any array type is the empty array.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***

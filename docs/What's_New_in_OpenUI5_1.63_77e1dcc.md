@@ -18,14 +18,25 @@ With this release OpenUI5 is upgraded from version 1.62 to 1.63.
 
 ### New Features
 
-|**Custom Currencies**
+
+<table>
+<tr>
+<td>
+
+**Custom Currencies**
 
 Comprehensive support for formatting and parsing currencies has been part of OpenUI5 for a long time. We now extended the handling of custom currencies, so that you can also specify custom currencies per currency `NumberFormat` instance.
 
 For more information, see [Currency Formatting](Currency_Formatting_e978728.md).
 
-|
-|**UI5 Web Components**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**UI5 Web Components**
 
 UI5 Web Components are a set of reusable UI elements, which can be used for your static websites or web apps with a minimal footprint. They bring the relevant OpenUI5 qualities and latest SAP Fiori user experience to the HTML level and enable you to build a complete, enterprise-ready, and responsive web app, even if you're already using a different web framework.
 
@@ -35,7 +46,11 @@ UI5 Web Components are not built on top of OpenUI5 and are not its successor. Th
 
 For more information, see the [UI5 Web Components](https://sap.github.io/ui5-webcomponents/) home page, the [GitHub Project](https://github.com/SAP/ui5-webcomponents), and the [blog post](https://blogs.sap.com/2019/02/11/ui5-web-components-the-beta-is-there/).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -43,7 +58,12 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 
 ### New Controls
 
-|**`sap.f.ShellBar` \(Experimental\)**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.ShellBar` \(Experimental\)**
 
 We have implemented a new `sap.f.ShellBar` control, which is used as the uppermost section \(shell\) of the app. The control is fully responsive and adaptive, and corresponds to the latest SAP Fiori Design Guidelines.
 
@@ -51,14 +71,24 @@ We have implemented a new `sap.f.ShellBar` control, which is used as the uppermo
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.ShellBar).
 
-|
-|**`sap.m.upload.UploadSet`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.upload.UploadSet`**
 
 `UploadSet` is a new control that enables users to upload one or multiple files from their computer, tablet, or phone and to attach them to your application. This control builds on the `sap.m.UploadCollection` control, providing better handling of headers and requests, unified behavior of instant and deferred uploads, as well as improved progress indication.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.upload.UploadSet) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.upload.UploadSet).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -66,7 +96,12 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 ### Improved Features
 
-|**OpenUI5 OData V4 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
@@ -82,7 +117,11 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -90,36 +129,75 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 ### Improved Controls
 
-|**`sap.f.Avatar`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.Avatar`**
 
 We have introduced a fallback image behavior that handles situations when the provided image source path leads to a non-existing image. If the `initials` property is set, `Avatar` displays the set value, otherwise a default icon markup is displayed.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.Avatar/preview).
 
-|
-|**`sap.f.DynamicPage`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.f.DynamicPage`**
 
 We have implemented the option to provide a simple, single-line title that takes less space on smaller phone screens when the `DynamicPageHeader` is collapsed \(snapped\). You can enable it with the use of the new `snappedTitleOnMobile` aggregation.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.DynamicPageFreeStyle/preview).
 
-|
-|**`sap.f.semantic.SemanticPage`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.f.semantic.SemanticPage`**
 
 We have implemented the option to provide a simple, single-line title that takes less space on smaller phone screens when the `SemanticPage` header is collapsed \(snapped\). You can enable it with the use of the new `titleSnappedOnMobile` aggregation.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.SemanticPageFreeStyle/preview).
 
-|
-|**`sap.m.ObjectNumber`**, **`sap.m.ObjectStatus`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ObjectNumber`**, **`sap.m.ObjectStatus`**
 
 You can now display both controls with a large font size, thus meeting the SAP Fiori Design Guidelines for displaying facets in the `ObjectPageHeader`. To use the larger font size, add the newly introduced CSS classes to the controls. For more information, see the *API Reference* \([`sap.m.ObjectNumber`](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectNumber), [`sap.m.ObjectStatus`](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectStatus)\), and the *Samples* \([`sap.m.ObjectNumber`](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectNumber), [`sap.m.ObjectStatus`](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectStatus)\).
 
-|
-|**`sap.m.Select`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Select`**
 
 To ensure that the value states are displayed in all situations and devices, the control is now enabled to display the text set in the `valueStateText` property when the dropdown is opened.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.SelectValueState/preview).
 
-|
-|**`sap.ui.layout.cssgrid.CSSGrid`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.layout.cssgrid.CSSGrid`**
 
 You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend on the size of the parent container rather than the device screen size \(media query\). To enable the feature, use the new `containerQuery` property in the `GridResponsiveLayout` class. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.cssgrid.GridResponsiveLayout) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.GridResponsiveness/preview).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -127,11 +205,20 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 
 ### Demo Kit Improvements
 
-|**API Reference Tree**
+
+<table>
+<tr>
+<td>
+
+**API Reference Tree**
 
 We have improved the *API Reference* tree to use proper nesting of the OpenUI5 symbols based on a strict hierarchical structure. Fewer elements are now displayed on the root level, thus improving the user experience and shortening the time the user spends trying to find a specific symbol in the tree structure.
 
  ![](loio1e5ae735b1004f4eb807106d68ad71e2_HiRes.png) 
 
-|
+
+
+</td>
+</tr>
+</table>
 

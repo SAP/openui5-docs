@@ -22,7 +22,12 @@ The Demo Kit app has a new modern design that is intuitive and can be used on bo
 
 The global search has been improved and the results are now displayed in categories. They also include results from the *Samples* section, which was not possible with the old Demo Kit since the *Explored* app was a decoupled app.
 
-|The new Demo Kit contains the following sections:
+
+<table>
+<tr>
+<td>
+
+The new Demo Kit contains the following sections:
 
 -   Landing page with getting started information
 
@@ -35,9 +40,18 @@ The global search has been improved and the results are now displayed in categor
 -   *Demo Apps*, showcasing real-life scenarios that can easily be downloaded
 
 
-| SAPUI5 Highlights   
 
-|
+
+</td>
+<td>
+
+ SAPUI5 Highlights   
+
+
+
+</td>
+</tr>
+</table>
 
 ***
 

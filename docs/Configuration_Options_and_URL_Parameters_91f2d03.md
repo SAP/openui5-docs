@@ -15,244 +15,448 @@ The complete list of configuration options available in OpenUI5 can be found in 
 > ### Note:  
 > A subset of these configuration parameters can also be used as URL parameter \("URL:![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)"\). The URL parameter name is composed of the name of the configuration option and the `sap-ui-` prefix, for example like `sap-ui-debug=true`.
 
-|Option
-
-|Type
-
-|[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
-
-|by URL parameter
-
-|[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------</th>
-			<th>------</th>
-			<th>---------------------------------------------------------------------------------------------------------------</th>
-			<th>------------------</th>
-			<th>-------------------------------------------------------------------------------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Type: `boolean`
+Option
+
+
+
+</th>
+<th>
+
+Type
+
+
+
+</th>
+<th>
+
+[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+
+
+</th>
+<th>
+
+by URL parameter
+
+
+
+</th>
+<th>
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`accessibility`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 If set to `true`, the OpenUI5 controls are rendered for or running in accessibility mode.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`activeTerminologies`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`activeTerminologies`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `undefined`
 
 List of active terminologies provided via URL parameter, bootstrap or `sap.ui.core.Component` API.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`animationMode`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`animationMode`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `full`
 
 The following animation modes are available:
 
- -   `full`: all animations are shown
+-   `full`: all animations are shown
 
- -   `basic`: a reduced, more light-weight set of animations
+-   `basic`: a reduced, more light-weight set of animations
 
- -   `minimal`: no animations are shown, except animations of fundamental functionality
+-   `minimal`: no animations are shown, except animations of fundamental functionality
 
- -   `none`: deactivates the animation completely
+-   `none`: deactivates the animation completely
 
 
 This parameter replaces the deprecated Boolean `animation` parameter.
 
 For all controls that implement the `animation` parameter, the `animationMode` is set as follows:
 
- -   If `animation` is set to `true`, this is interpreted as `animationMode` `full`
+-   If `animation` is set to `true`, this is interpreted as `animationMode` `full`
 
- -   If `animation` is set to `false`, this is interpreted as `animationMode` `minimal`
-			</td>
-			<td>
+-   If `animation` is set to `false`, this is interpreted as `animationMode` `minimal`
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`appCacheBuster`
-			</td>
-			<td>Type: `boolean </td>
-			<td> string[]`
+
+
+
+</td>
+<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`appCacheBuster`
+
+
+
+</td>
+<td>
+
+Type: `boolean | string[]`
+
 Default value: \[ \]
 
 Modifiable at runtime via the `AppCacheBuster` API \(see [Application Cache Buster: Enhanced Concept](Application_Cache_Buster_Enhanced_Concept_94e0c33.md)\).
 
 If set to a non-empty list of URLs, the `AppCacheBuster` will be activated and will load component version info files from the configured set of URLs \(see [Application Cache Buster](Application_Cache_Buster_ff7aced.md)\).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`areas`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`areas`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `null`
 
 This configuration parameter defines UI areas that shall be created in advance; use `` to create new UI areas and `sap.ui.getCore().getUIArea(id).destroy()` to delete existing UI areas at runtime.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`async`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`async`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 This configuration setting enables the module loader to load both modules and library-preload files asynchronously. Activating this feature requires intensive application-side cooperation and testing to ensure a stable and fully working application. In case you encounter issues, or if you want to prepare your application in advance, see [Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`autoAriaBodyRole`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`autoAriaBodyRole`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Determines whether the framework automatically adds the ARIA role `application` to the HTML body.
 
 As of OpenUI5 version 1.78, `autoAriaBodyRole` has a default value `false` in order to conform to the ARIA 1.1 recommendations. Role application on body level is not recommended, as the screen reader would then interpret the entire application as one big custom control.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`bindingSyntax`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`bindingSyntax`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `complex`
 
 This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as an XML view or HTML view.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`calendarType`
-			</td>
-			<td>Type: `sap.ui.core.CalendarType`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`calendarType`
+
+
+
+</td>
+<td>
+
+Type: `sap.ui.core.CalendarType`
+
 Default value: If there is no value defined, the actual value is determined from the locale data for the configured locale.
 
 Defines the calendar type that is used for locale-dependent, date-related features \(for example, formatting or parsing date and time\).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`debug`
-			</td>
-			<td>Type: `boolean </td>
-			<td> string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`debug`
+
+
+
+</td>
+<td>
+
+Type: `boolean | string`
+
 Default value: `false`
 
 If set to `true`, the debug sources are loaded; if the bootstrap code is loaded from an optimized source, the bootstrap will be aborted and start anew from a debug source.
@@ -263,211 +467,389 @@ Example: `index.html?sap-ui-debug=sap/ui/model/odata/v2/` will load all debug so
 
 You can use the following patterns:
 
- -   A trailing slash \(`/`\) means that the complete package should be included \(shortcut for `/**/*`\)
+-   A trailing slash \(`/`\) means that the complete package should be included \(shortcut for `/**/*`\)
 
-Example: `sap/ui/model/odata/v2/` loads everything from the `sap/ui/model/odata/v2/` package as debug source \(also nested packages `sap/ui/model/odata/v2/**/*`\).
+    Example: `sap/ui/model/odata/v2/` loads everything from the `sap/ui/model/odata/v2/` package as debug source \(also nested packages `sap/ui/model/odata/v2/**/*`\).
 
- -   `**/` matches any package or sequence of packages
+-   `**/` matches any package or sequence of packages
 
-Example: `**/v2/` loads any package named `v2` as debug sources like `odata/v2`, `json/v2/` etc.
+    Example: `**/v2/` loads any package named `v2` as debug sources like `odata/v2`, `json/v2/` etc.
 
- -   `*` matches any part of a simple name
+-   `*` matches any part of a simple name
 
-Example: `sap/ui/model/*` matches all files directly contained in the model package, but not in nested packages \(for example, not `v2` or `v4`\)
+    Example: `sap/ui/model/*` matches all files directly contained in the model package, but not in nested packages \(for example, not `v2` or `v4`\)
 
 
- > ### Note:  
- > You can also select the debug sources in the Technical Information Dialog. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
-			</td>
-			<td>
+> ### Note:  
+> You can also select the debug sources in the Technical Information Dialog. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`excludeJQueryCompat`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`excludeJQueryCompat`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 A compatibility layer restores several incompatibly changed APIs in jQuery v3 back to their old behavior in jQuery v2. It may be excluded via this setting. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`formatLocale`
-			</td>
-			<td>Type: `string </td>
-			<td> sap.ui.core.Locale`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`formatLocale`
+
+
+
+</td>
+<td>
+
+Type: `string | sap.ui.core.Locale`
+
 Default value: `null`
 
 This configuration parameter defines the locale used for formatting purposes; the default values for the locale are derived from the language.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`formatSettings`
-			</td>
-			<td>Type: `sap.ui.core.Configuration.FormatSettings`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`formatSettings`
+
+
+
+</td>
+<td>
+
+Type: `sap.ui.core.Configuration.FormatSettings`
+
 Encapsulates configuration settings that are related to data formatting / parsing. When format configuration settings are modified through this class, UI5 only ensures that formatter objects created after that point in time will honor the modifications. To be on the safe side, applications should do any modifications early in their lifecycle or recreate any model/UI that is locale dependent.
 
 Example usage: `sap.ui.getCore().getConfiguration().getFormatSettings().setCustomUnits(...)`
 
 For more information, see the [API Reference: `sap.ui.core.Configuration.FormatSettings`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.FormatSettings)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td> `frameOptions` 
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `frameOptions` 
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `default`
 
 Frame options mode; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td> `frameOptionsConfig` 
-			</td>
-			<td>Type: `object`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `frameOptionsConfig` 
+
+
+
+</td>
+<td>
+
+Type: `object`
+
 Default value: undefined
 
 Advanced frame options configuration; for more information, see [Frame Options](Frame_Options_62d9c4d.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`ignoreUrlParams`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`ignoreUrlParams`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Security-relevant parameter that allows applications to disable configuration modifications via URL parameters.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`inspect`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`inspect`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, the `sap-ui-debug.js` module is included and provides some supportability features.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`language`
-			</td>
-			<td>Type: `string </td>
-			<td> sap.ui.core.Locale`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`language`
+
+
+
+</td>
+<td>
+
+Type: `string | sap.ui.core.Locale`
+
 Default value: `user settings / language`
 
 This configuration parameter defines the language that shall be used for localized texts, formatting, and so on. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage) and [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`libs`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`libs`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `[ ]`
 
 This configuration parameter defines a list of libraries that shall be loaded initially; use the `loadLibrary()` method to load further libraries.
@@ -475,60 +857,87 @@ This configuration parameter defines a list of libraries that shall be loaded in
 For more information, see: [loadLibrary](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/loadLibrary)
 
 All libraries provided using the configuration option `libs` are merged into the configuration option `modules`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`logLevel`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`logLevel`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `ERROR`
 
 This configuration parameter sets the log level to the given value; for minified \(productive\) sources, the default level is `ERROR`, for debug sources it is `DEBUG`. At runtime, you can modify the log level by using the `sap/base/Log.setLevel` method.
-			</td>
-			<td>Options: `0</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-			<td>NONE</td>
-			<td>FATAL</td>
-			<td>ERROR</td>
-			<td>WARNING</td>
-			<td>INFO</td>
-			<td>DEBUG</td>
-ALL`
-			</td>
-			<td>
+
+Options: `0|1|2|3|4|5|6|NONE|FATAL|ERROR|WARNING|INFO|DEBUG|ALL`
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`manifestFirst`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`manifestFirst`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Modifiable at runtime by using the `sap.ui.core.Component.create` component factory.
@@ -536,88 +945,167 @@ Modifiable at runtime by using the `sap.ui.core.Component.create` component fact
 If set to `true`, the descriptor for a component is read and evaluated first, before loading the component code \(`Component.js`\).
 
 For more information, see: [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`modules`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`modules`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `[ ]`
 
 This configuration parameter defines a list of JavaScript modules that shall be loaded after the core has been initialized.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`noConflict`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`noConflict`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, OpenUI5 forces jQuery into `noConflict` mode.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`noDuplicateIds`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`noDuplicateIds`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 If set to `true`, this configuration parameter enforces that the same IDs are **not** used for multiple controls; we highly recommend this check as duplicate IDs may cause unforeseeable issues and side effects.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`onInit`
-			</td>
-			<td>Type: `code </td>
-			<td> string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`onInit`
+
+
+
+</td>
+<td>
+
+Type: `code | string`
+
 Default value: `undefined`
 
 This configuration setting defines code that has to be executed after the initialization.
@@ -630,97 +1118,177 @@ The `onInit` callbacks are executed in the following order:
 
 1.  [\[onInit function/module\]](Standard_Variant_for_Bootstrapping_91f1f45.md)
 2.  [\[sap.ui.getCore\(\).attachInit\]](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`originInfo`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`originInfo`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, additional information for text resources is provided that allows to determine the origin of a translated text on the UI.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`preload`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`preload`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `auto`
 
 This configuration parameter defines the loading behaviour of the so-called preload files. They contain all modules of a library. The contained modules are only loaded, but not executed until they are used by the application.
 
 The values are used as follows:
 
- -   When set to `auto`, OpenUI5 runtime automatically uses `preload=sync` when the `async` bootstrap configuration parameter is set to false \(`async=false`\) or not set at all. The `preload` files are loaded asynchronously in case `async=true` is set.
- -   When set to `sync`, the preload files for the declared libraries are loaded synchronously.
- -   When set to `async`, the preload files are loaded asynchronously. However, we recommend to use the `async=true` configuration parameter in the bootstrap instead, because it switches more module/related APIs to `async` including the loading behaviour of the preload files.
- -   For any other value \(for example blank\), the preload feature is deactivated and modules are loaded on demand.
-			</td>
-			<td>
+-   When set to `auto`, OpenUI5 runtime automatically uses `preload=sync` when the `async` bootstrap configuration parameter is set to false \(`async=false`\) or not set at all. The `preload` files are loaded asynchronously in case `async=true` is set.
+-   When set to `sync`, the preload files for the declared libraries are loaded synchronously.
+-   When set to `async`, the preload files are loaded asynchronously. However, we recommend to use the `async=true` configuration parameter in the bootstrap instead, because it switches more module/related APIs to `async` including the loading behaviour of the preload files.
+-   For any other value \(for example blank\), the preload feature is deactivated and modules are loaded on demand.
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`preloadLibCss`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`preloadLibCss`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `[ ]`
 
 This configuration setting specifies a list of UI libraries using the same syntax as the `libs` property, for which the OpenUI5 core does not include the `library.css` stylesheet in the head of the page. If the list starts with an exclamation mark \(!\), no stylesheet is loaded at all for the specified libs. In this case, it is assumed that the application takes care of loading CSS, for example, a manually merged, single CSS file. Otherwise, the Core instructs the back end to create a merged CSS for the specified libs. In both cases, if the first libraries name is an asterisk \(\*\), it will be expanded to the list of already configured libraries.
 
- > ### Note:  
- > The `merge` feature is currently only available for Java and only for apps that include the additional back-end component `resource-ext`. Without the merge, applications can include their own merged CSS file and suppress the loading of the standard`library.css`.
-			</td>
-			<td>
+> ### Note:  
+> The `merge` feature is currently only available for Java and only for apps that include the additional back-end component `resource-ext`. Without the merge, applications can include their own merged CSS file and suppress the loading of the standard`library.css`.
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`resourceRoots`
-			</td>
-			<td>Type: `object`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`resourceRoots`
+
+
+
+</td>
+<td>
+
+Type: `object`
+
 Default value: undefined
 
 With `sap.ui.loader.config({paths: ...})` a map can be used to define locations for resources. See the  [API Reference: `sap.ui.loader`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader)
@@ -728,118 +1296,214 @@ With `sap.ui.loader.config({paths: ...})` a map can be used to define locations 
 To provide a URL location that is **not** overwritten by a component later on, `final` can be set to `true`, for example: `{url: '/that/is/the/prefix/', final: true}`
 
 For more information, see the [API Reference: `sap.ui.loader.config`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader/methods/sap.ui.loader.config)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`rtl`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`rtl`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, all controls are rendered in right-to-left \(RTL\) mode; not yet determined automatically.
 
 Modifiable at runtime with restrictions. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage) and [API Reference: `sap.ui.core.Configuration.setRTL`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setRTL) 
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`statistics`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`statistics`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Activates end-to-end traces and measurement of response times For more information, see [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`support`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`support`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `null`
 
 Whether support mode is enabled. For more information, see [Support Assistant](Support_Assistant_57ccd7d.md).
-			</td>
-			<td>Options: `true </td>
-			<td> silent </td>
- window`
-			</td>
-			<td>
+
+Options: `true | silent | window`
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`testRecorder`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`testRecorder`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `null`
 
 Whether test tools are enabled. For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
-			</td>
-			<td>Options: `true </td>
-			<td> silent </td>
- window`
-			</td>
-			<td>
+
+Options: `true | silent | window`
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`theme`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`theme`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `base`
 
 This configuration parameter defines the theme that shall be used for the current page; you can change the theme at runtime by calling `sap.ui.getCore().applyTheme()`
@@ -847,160 +1511,291 @@ This configuration parameter defines the theme that shall be used for the curren
 **Theme Root:**
 
 When the theme string contains an at-sign \(`@`\), anything before the `@` is assumed to denote the ID of the theme, while anything after the `@` is assumed to represent the URL location of the theme. To defend against XSS attacks, only tthe server-relative part of the URL is used. Any host or port prefix will be ignored.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`themeRoots`
-			</td>
-			<td>Type: `object`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`themeRoots`
+
+
+
+</td>
+<td>
+
+Type: `object`
+
 Default value: undefined
 
 Modifiable at runtime via `sap.ui.getCore().setThemeRoot()`
 
 This configuration parameter defines the location of themes.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`trace`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`trace`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Defines whether a trace view should be shown.
 
 Has only an effect when the `sap-ui-debug.js` module has been loaded, either explicitly or by setting the `debug` option to `true`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`trailingCurrencyCode`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`trailingCurrencyCode`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 By default the currency codes are shown after the amount. If set to `false`, the currency code will be shown as configured by the locale-specific patterns of the Common Locale Data Repository \(CLDR\).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`uidPrefix`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`uidPrefix`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: '--'
 
 Prefix to be used for automatically generated control IDs; must be chosen carefully to avoid conflicts with IDs defined by the application or DOM IDs.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`versionedLibCss`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`versionedLibCss`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, the version parameters are included in requests to the library theme resource \(for example, the parameter `library.css?version=1.0.1&sap-ui-dist-version=1.0.2` is added. `version` contains the library version and `sap-ui-dist-version` the version of the OpenUI5 distribution .
 
 This applies to the following resources:
 
- -   `library(-RTL).css` \(or any other variation\)
+-   `library(-RTL).css` \(or any other variation\)
 
- -   `library-parameters.json` 
+-   `library-parameters.json` 
 
 
 URLs within the CSS or parameters are not modified.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td> `allowlistService` 
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `allowlistService` 
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `null`
 
 URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -1012,212 +1807,391 @@ The options listed in the table below are 'experimental'. They may be removed in
 > ### Note:  
 > The features listed below are experimental features and may be modified or removed in future versions.
 
-|Option
-
-|Type
-
-|[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
-
-|by URL parameter
-
-|[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------</th>
-			<th>------</th>
-			<th>---------------------------------------------------------------------------------------------------------------</th>
-			<th>------------------</th>
-			<th>-------------------------------------------------------------------------------------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Type: `string`
+Option
+
+
+
+</th>
+<th>
+
+Type
+
+
+
+</th>
+<th>
+
+[pre-boot](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+
+
+</th>
+<th>
+
+by URL parameter
+
+
+
+</th>
+<th>
+
+[by API](Configuration_of_the_OpenUI5_Runtime_91f08de.md#loio91f08de06f4d1014b6dd926db0e91070__section_ACO)
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`xx-appCacheBusterMode`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `sync`
 
 The loading mode of the AppCacheBuster.
-			</td>
-			<td>Options: `sync </td>
-			<td> async </td>
- batch`.
-			</td>
-			<td>
+
+Options: `sync | async | batch`.
+
+
+
+</td>
+<td>
 
 ![](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-appCacheBusterHooks`
-			</td>
-			<td>Type: `object`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-appCacheBusterHooks`
+
+
+
+</td>
+<td>
+
+Type: `object`
+
 Default value: `undefined`
 
 Object defining the callback hooks for the AppCacheBuster like e.g. `handleURL`, `onIndexLoad` or `onIndexLoaded`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-avoidAriaApplicationRole`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-avoidAriaApplicationRole`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 Prevents the framework from automatically adding the ARIA role application to the HTML body.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-cache-excludedKeys`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-cache-excludedKeys`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `[]`
 
 A list of all keys that the Cache Manager will ignore when setting or getting values.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-cache-serialization`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-cache-serialization`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Whether the Cache Manager serialization support is switched on.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-cache-use`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-cache-use`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 Whether the Cache Manager is switched on.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-componentPreload`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-componentPreload`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: same as `preload`
 
 Allows to suppress the preload of component resources \(`Component-preload.js`\). By default, the component resources are automatically preloaded when preloads are active in general \(e.g. when running against the optimized OpenUI5 runtime and not running in debug mode\). With this parameter, the preload can be switched off without affecting the library preload. `sync` or `async` have no meaning; both are accepted to be compatible with the library preload, but the code that creates a component decides whether this happens synchronously or asynchronously.
-			</td>
-			<td>Options: `sync </td>
-			<td> async </td>
- off`.
-			</td>
-			<td>
+
+Options: `sync | async | off`.
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-cssVariables`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-cssVariables`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `false`
 
 Enable usage of CSS variables.
-			</td>
-			<td>Options: `false </td>
-			<td> true </td>
- additional`.
-			</td>
-			<td>
+
+Options: `false | true | additional`.
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-debugModuleLoading`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-debugModuleLoading`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 When set to `true`, the OpenUI5 module loading feature produces `DEBUG` output for every required, executed, or required but already loaded module. This can help to analyse issues with dependency order, and so on.
@@ -1225,402 +2199,751 @@ When set to `true`, the OpenUI5 module loading feature produces `DEBUG` output f
 By default, the log level is the same as for the standard log, but not higher than `INFO`.
 
 With the experimental config option `xx-debugModuleLoading`, it can be raised to `DEBUG`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-debugRendering`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-debugRendering`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 When set to `true`, some components of the OpenUI5 rendering system \(`RenderManager`, `UIArea`\) create a far more verbose debug output for rendering steps, for example:
 
- -   Which controls have to be rendered?
+-   Which controls have to be rendered?
 
- -   Who invalidated the control? \(stacktrace\)
+-   Who invalidated the control? \(stacktrace\)
 
- -   Was one rendering run sufficient, or have there been multiple runs?
-			</td>
-			<td>
+-   Was one rendering run sufficient, or have there been multiple runs?
+
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-depCache`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-depCache`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Whether dependency cache info files should be loaded instead of preload files.
 
 This experimental feature is intended for HTTP/2 scenarios.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-designMode`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-designMode`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Whether the design mode is active or not.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-disableCustomizing`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-disableCustomizing`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Whether the customizing is disabled or not.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-handleValidation`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-handleValidation`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Whether type validation is handled by the Core.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-hyphenation`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-hyphenation`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 Default value: `''`
 
 Force hyphenation to use only browser-native or only third-party.
-			</td>
-			<td>Options: `native </td>
-			<td> thirdparty </td>
- disable`.
-			</td>
-			<td>
+
+Options: `native | thirdparty | disable`.
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-lesssupport`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-lesssupport`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Enable `LessSupport`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-libraryPreloadFiles`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-libraryPreloadFiles`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `both`
 
 Allows to enforce the use of a specific preload file type:
 
- -   for all libraries: `?sap-ui-xx-libraryPreloadFiles=json`
+-   for all libraries: `?sap-ui-xx-libraryPreloadFiles=json`
 
- -   for individual libraries \(might be a comma separated list\): `?sap-ui-xx-libraryPreloadFiles=sap.m:none,sap.ui.layout:json`
+-   for individual libraries \(might be a comma separated list\): `?sap-ui-xx-libraryPreloadFiles=sap.m:none,sap.ui.layout:json`
 
- -   for a combination of both: `?sap-ui-xx-libraryPreloadFiles=both,sap.m:none,sap.ui.layout:js` 
+-   for a combination of both: `?sap-ui-xx-libraryPreloadFiles=both,sap.m:none,sap.ui.layout:js` 
 
 
 Possible values for the file types are
 
- -   `none` \(no preload at all\)
+-   `none` \(no preload at all\)
 
- -   `json` \(only try to load `library-preload.json`\)
+-   `json` \(only try to load `library-preload.json`\)
 
- -   `js` \(only try to load `library-preload.js`\)
+-   `js` \(only try to load `library-preload.js`\)
 
- -   `both` \(first try `js`, then `json`\).
+-   `both` \(first try `js`, then `json`\).
 
 
 Any other value will be ignored. The default is `both` for all libraries.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-noless`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-noless`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Only useful at development time: when set to `true`, the browser-based compilation of LESS theming files is suppressed. Only the CSS that is created at build-time will be loaded.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-nosync`
-			</td>
-			<td>Type: `string`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-nosync`
+
+
+
+</td>
+<td>
+
+Type: `string`
+
 When set to `warn`, any use of synchronous XHRs will be reported with a warning in the console. When set to `true`, such calls will cause an error.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-supportedLanguages`
-			</td>
-			<td>Type: `string[]`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-supportedLanguages`
+
+
+
+</td>
+<td>
+
+Type: `string[]`
+
 Default value: `[]`
 
 With this option the client can be instructed to limit its back-end requests for translatable texts to the configured set of languages. An empty value or the value `*` allows any language. The value `default` limits the requests to the set of languages that are delivered with OpenUI5.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-self-closing-check`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-self-closing-check`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 Only useful for development / support: Issues a warning if a non-void HTML element is written in self-closing syntax. For more information, see [Upgrading from a Version Below 1.82](Upgrading_from_a_Version_Below_1.82_147eef9.md).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-suppressDeactivationOfControllerCode`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-suppressDeactivationOfControllerCode`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-rootComponentNode`
-			</td>
-			<td>Type: `string` 
-			</td>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-rootComponentNode`
+
+
+
+</td>
+<td>
+
+Type: `string` 
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-test-mobile`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-test-mobile`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 This configuration parameter activates support for mobile device-specific events, such as touch events. This enables you to test standard OpenUI5 controls on mobile devices.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-viewCache`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-viewCache`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `true`
 
 Allows to disable the view caching, for example, during development \(see [XML View Cache](XML_View_Cache_3d85d5e.md)\).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>`xx-waitForTheme`
-			</td>
-			<td>Type: `boolean`
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`xx-waitForTheme`
+
+
+
+</td>
+<td>
+
+Type: `boolean`
+
 Default value: `false`
 
 If set to `true`, the first \(initial\) rendering of the application will be delayed until the theme has been loaded and applied \(until `Core.isThemeApplied()`\). Helps to avoid FOUC \(flash of unstyled content\).
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 

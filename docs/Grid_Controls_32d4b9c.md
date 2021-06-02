@@ -50,395 +50,752 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 ### Overview of Grids and Supported Features
 
-| **Feature Supported?** 
-
-| `sap.f.GridContainer` 
-
-| `sap.f.GridList` 
-
-| `sap.ui.layout.cssgrid.CSSGrid` 
-
-| `sap.ui.layout.Grid` 
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------------------</th>
-			<th>-------------------------</th>
-			<th>--------------------</th>
-			<th>-----------------------------------</th>
-			<th>------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> 
+ **Feature Supported?** 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+<th>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Number of columns supported** 
-			</td>
-			<td>Unlimited
-			</td>
-			<td>Unlimited
-			</td>
-			<td>Unlimited
-			</td>
-			<td>Up to 12
-			</td>
-		</tr>
-		<tr>
-			<td> **Can configure row height, column width, and gap dimensions** 
-			</td>
-			<td> 
+ `sap.f.GridContainer` 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+<th>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports auto calculation of rows per item** 
-			</td>
-			<td> 
+ `sap.f.GridList` 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+<th>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Can fill empty spaces in the grid** 
-			</td>
-			<td> 
+ `sap.ui.layout.cssgrid.CSSGrid` 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+<th>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Items flow direction** 
-			</td>
-			<td>Horizontal only
-			</td>
-			<td>Horizontal and vertical
-			</td>
-			<td>Horizontal and vertical
-			</td>
-			<td>Horizontal only
-			</td>
-		</tr>
-		<tr>
-			<td> **Can configure item position** 
-			</td>
-			<td> 
+ `sap.ui.layout.Grid` 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</th>
+</tr>
+<tr>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td>**Can configure item dimensions**
+ **Complies with the grid specification according to the HTML Standard** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Number of columns supported** 
+
+
+
+</td>
+<td>
+
+Unlimited
+
+
+
+</td>
+<td>
+
+Unlimited
+
+
+
+</td>
+<td>
+
+Unlimited
+
+
+
+</td>
+<td>
+
+Up to 12
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Can configure row height, column width, and gap dimensions** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports auto calculation of rows per item** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Can fill empty spaces in the grid** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Items flow direction** 
+
+
+
+</td>
+<td>
+
+Horizontal only
+
+
+
+</td>
+<td>
+
+Horizontal and vertical
+
+
+
+</td>
+<td>
+
+Horizontal and vertical
+
+
+
+</td>
+<td>
+
+Horizontal only
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Can configure item position** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Can configure item dimensions**
+
 The ability to define how many rows and columns an item should take.
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports columns breathing** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td>**Supports templating**
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports columns breathing** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Supports templating**
+
 The possibility to use one of the predefined layout templates or to create a custom template for specific layouts.
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports screen-size breakpoints** 
-			</td>
-			<td> 
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports container-size breakpoints** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports indentation** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Can control items visibility based on breakpoints** 
-			</td>
-			<td> 
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+</tr>
+<tr>
+<td>
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports keyboard handling** 
-			</td>
-			<td> 
+ **Supports screen-size breakpoints** 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports growing** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports sorting, filtering and grouping** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports headers and footer**s
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-		<tr>
-			<td> **Supports selection and highlighting** 
-			</td>
-			<td> 
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
 
-![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-			</td>
-			<td> 
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-			<td> 
+</td>
+</tr>
+<tr>
+<td>
 
-![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-			</td>
-		</tr>
-	</tbody>
+ **Supports container-size breakpoints** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports indentation** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Can control items visibility based on breakpoints** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports keyboard handling** 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports growing** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports sorting, filtering and grouping** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports headers and footer**s
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ **Supports selection and highlighting** 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+<td>
+
+ ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+
+
+
+</td>
+</tr>
 </table>
 
 1\) By using the `customLayout` aggregation.  

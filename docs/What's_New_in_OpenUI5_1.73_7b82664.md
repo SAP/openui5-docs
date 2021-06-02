@@ -18,7 +18,12 @@ With this release OpenUI5 is upgraded from version 1.72 to 1.73.
 
 ### New Controls
 
-|**`sap.f.AvatarGroup` \(Experimental\)**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.AvatarGroup` \(Experimental\)**
 
 `AvatarGroup` is used to display a group of related avatars, arranged horizontally. The control allows you to display the avatars in different sizes, depending on your use case. Two group types are available: `Group` and `Individual`.
 
@@ -26,7 +31,11 @@ With this release OpenUI5 is upgraded from version 1.72 to 1.73.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.AvatarGroup) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.AvatarGroup).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -34,12 +43,23 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 ### Improved Features
 
-|**Export Functions**
+
+<table>
+<tr>
+<td>
+
+**Export Functions**
 
 The `sap.ui.core.util.Export` class has been deprecated.
 
-|
-|**OpenUI5 OData V4 Model**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
@@ -57,7 +77,11 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -65,12 +89,23 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 ### Improved Controls
 
-|**`sap.f.semantic.SemanticPage`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.semantic.SemanticPage`**
 
 The `fitContent` property of the `sap.f.DynamicPage` control is now also exposed in `sap.f.semantic.SemanticPage`. It's used to optimize the responsiveness and behavior of the control and we recommend using this property when displaying content of adaptive controls that stretch to fill the available space.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage).
 
-|
-|**`sap.m.Button`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Button`**
 
 Four new button types were introduced in the `sap.m.ButtonType` enum. Designed as message triggering buttons, use them to open `sap.m.MessagePopover`. Each button type has a dedicated meaning.
 
@@ -83,20 +118,38 @@ Four new button types were introduced in the `sap.m.ButtonType` enum. Designed a
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ButtonType).
 
-|
-|**`sap.m.ComboBox`, `sap.m.MultiComboBox`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ComboBox`, `sap.m.MultiComboBox`**
 
 We have updated the behavior of the `showItems` method. When the control's picker is opened, the dropdown arrow is not in pressed state, as it was previously. Now, pressing the dropdown arrow for the first time opens the control's picker with all items, and with the second press the picker is closed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBoxBase).
 
-|
-|**`sap.m.Dialog`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Dialog`**
 
 We have enabled responsive padding support. Application developers can now configure `sap.m.Dialog` and enable its responsive padding in the SAP Fiori 3 themes.
 
 For more information, see [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md).
 
-|
-|**`sap.m.Input`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Input`**
 
 A `change` event is now fired when the browser autofill fills an input.
 
@@ -105,23 +158,47 @@ A `change` event is now fired when the browser autofill fills an input.
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input).
 
-|
-|**`sap.m.Label`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Label`**
 
 A visual change was introduced for the `sap.m.Label` control to align it with SAP Fiori Design Guidelines. The asterisk is now positioned on the right side of the text. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Label/sample/sap.m.sample.Label).
 
-|
-|**`sap.m.list`**, **`sap.m.StandardListItem`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.list`**, **`sap.m.StandardListItem`**
 
 The usability of the additional information text and its combination with title and description has been improved for these controls. The information text is no longer truncated if it is shorter than or equal to the character limit predefined by the control. For more information, see the [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list/numeric).
 
-|
-|**`sap.m.MessagePopover`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.MessagePopover`**
 
 We have exposed the `groupItems` property and `navigateBack` function as APIs in the control. Using the `navigateBack` function you can navigate back to the list page, and with the `groupItems` property you can configure whether or not items should be grouped. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessagePopover). 
 
-|
-|**`sap.m.NotificationListItem`**, **`sap.m.NotificationListGroup`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.NotificationListItem`**, **`sap.m.NotificationListGroup`**
 
 We have redesigned the notifications, and now they are lighter, easy to use, and aligned with the SAP Fiori 3 user experience. The changes include:
 
@@ -133,13 +210,25 @@ We have redesigned the notifications, and now they are lighter, easy to use, and
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NotificationListGroup) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.NotificationListGroup).
 
-|
-|**`sap.m.NumericContent`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.NumericContent`**
 
 A new `adaptiveFontSize` property is now introduced to meet different country/locale requirements according to the Unicode Common Locale Data Repository \(CLDR\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NumericContent) and [CLDR](http://cldr.unicode.org/).
 
-|
-|**`sap.m.PlanningCalendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.PlanningCalendar`**
 
 We have added a new `headerId` parameter to the `rowHeaderClick` event, which enables developers to directly access row header by ID.
 
@@ -148,39 +237,79 @@ We have added a new `headerId` parameter to the `rowHeaderClick` event, which en
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar).
 
-|
-|**`sap.m.ProgressIndicator`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ProgressIndicator`**
 
 With the new `displayAnimation` property, you can now determine whether a percentage change is displayed with or without animation.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ProgressIndicator) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ProgressIndicator/sample/sap.m.sample.ProgressIndicator).
 
-|
-|**`sap.ui.integration.widgets.Card`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.integration.widgets.Card`**
 
 -   We have improved the support for the relative date ranges. This allows the card developers to use date ranges, such as `lastYear` or `nextQuarter` inside the card's manifest. Such automatically calculated date ranges can be used in data requests or other card attributes. For more information, see [Integration Card Date Range Handling](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/featureDateRangeHandling) in the Card Explorer.
 -   We have added a new `format` namespace to hold formatters used in expression bindings, and added a predefined `date` formatter method to it. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/dateAndTime) in the Card Explorer.
 -   The custom HTML element to consume cards on any web page is refactored. Now, height and width are specified in the standard CSS syntax and no longer as separate tag attributes. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/htmlConsumption) in the Card Explorer.
 
-|
-|**`sap.ui.layout.cssgrid.ResponsiveColumnLayout`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.layout.cssgrid.ResponsiveColumnLayout`**
 
 This control now also supports Microsoft Internet Explorer 11, due to the implemented polyfill. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.cssgrid.CSSGrid) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.cssgrid.CSSGrid/sample/sap.ui.layout.sample.GridResponsiveColumnLayout).
 
-|
-|**`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
 The `navigated` property that was introduced in version 1.72 is now also available for these controls \(if no row actions are available\). The property shows a navigation indicator at the end of a row to indicate that the user has either already navigated to further details or can navigate to further details from the item, depending on the application use case. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.RowSettings) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.RowAction).
 
-|
-|**`sap.uxap.ObjectPageHeader`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.uxap.ObjectPageHeader`**
 
 With the new `objectImageBackgroundColor` property, you can now determine the background color of the icon or the image placeholder used in the `sap.uxap.ObjectPageHeader`.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageHeader) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.uxap.ObjectPageLayout/sample/sap.uxap.sample.ObjectPageHeaderContentPriorities).
 
-|
-|**`sap.uxap.ObjectPageLayout`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.uxap.ObjectPageLayout`**
 
 With the new `sectionChange` event, you can identify when the page is scrolled to a specific section. The `section` and `subSection` event parameters are provided when the event is fired.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -188,11 +317,20 @@ With the new `sectionChange` event, you can identify when the page is scrolled t
 
 ### Demo Kit Improvements
 
-|**Search Highlighting in *Search Results* and *API Reference* Tree**
+
+<table>
+<tr>
+<td>
+
+**Search Highlighting in *Search Results* and *API Reference* Tree**
 
 You can now easily find the results you're interested in with the new search highlighting functionality that we implemented for the *Search Results* page and the *API Reference* tree filter.
 
  ![](loio040558940043445a9299e24b37aef5c5_HiRes.gif) 
 
-|
+
+
+</td>
+</tr>
+</table>
 

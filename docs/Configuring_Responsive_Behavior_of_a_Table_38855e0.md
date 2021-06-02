@@ -52,11 +52,11 @@ And that's it! All you need to know are these two variables for responsive table
 
 ### Automatic Pop-In Feature
 
-There is an alternative responsive configuration that is somewhat less complex: Let the responsive table take control of the responsive behavior.
+There is an alternative responsive configuration for simpler cases: Let the responsive table take control of the responsive behavior.
 
-The responsive table provides a feature where the table moves the columns automatically to the pop-in area based on their importance. For this, simply set `autoPopinMode:true` in the responsive table control.
+The responsive table provides a feature where the table automatically moves the columns to the pop-in area based on their importance. For this, simply set `autoPopinMode:true` in the responsive table.
 
-The default `importance` for a column is `"None"`. If there is no column importance defined, then the responsive table treats the first column as the most important column. The following columns are treated as less important and are moved to the pop-in area as the browser window size is reduced.
+The default value of the `importance` property for a column is `"None"`. If there is no column importance defined, the responsive table treats the first column as the most important column. The following columns are treated as less important and are moved to the pop-in area as the browser window size is reduced.
 
 You can alter the default automatic pop-in behavior by defining the `importance` property for the columns.
 
@@ -66,14 +66,14 @@ The columns are moved to the pop-in area based on their importance in the follow
 
 2.  Columns with `Medium` and `None` importance
 
-    These are treated as equal and moved to the pop-in area when there are no `Low` importance columns.
+    These are treated as equal and moved to the pop-in area when there are no columns with `Low` importance.
 
 3.  Columns with `High` importance
 
 
 Let's take the same example as before with the *Product* and *Price* columns as the most important columns. They must move to the pop-in area last. To achieve this, `importance:"High"` must be set for the two columns. As you reduce the size of the browser window, the columns with lower importance move to the pop-in area before the two columns configured with `High` importance.
 
-You can also hide columns with a certain importance in the pop-in area. To achieve this, `hiddenInPopin` must be configured. For example, if you want to hide all columns with `"Low"` and `"Medium"` importance, then you can define `hiddenInPopin="Low,Medium"`. Additionally, you can also listen to the `popinChanged` event of the responsive table that is fired for every change of the pop-in area \(columns moved in or out of the pop-in area\).
+You can also hide columns with a specific importance in the pop-in area. To achieve this, `hiddenInPopin` must be configured. For example, if you want to hide all columns with `"Low"` and `"Medium"` importance, you can define `hiddenInPopin="Low,Medium"`. Additionally, you can also listen to the `popinChanged` event of the responsive table that is fired for every change of the pop-in area \(columns moved in or out of the pop-in area\).
 
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableAutoPopin).
 

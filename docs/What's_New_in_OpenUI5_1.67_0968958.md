@@ -18,7 +18,12 @@ With this release OpenUI5 is upgraded from version 1.66 to 1.67.
 
 ### Improved Features
 
-|**OpenUI5 OData V4 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
@@ -36,7 +41,11 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -44,7 +53,12 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 ### Improved Controls
 
-|**`sap.f.ShellBar`**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.ShellBar`**
 
 -   You can now define a custom tooltip for the home icon of the control using the new `homeIconTooltip` property.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar).
 
@@ -56,26 +70,50 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     -   To display the title as part of a configurable mega menu, set the `showMenuButton` property to `false` and use the `menu` aggregation.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.ShellBar).
+    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.ShellBar).
 
 
-|
-|**`sap.m.OverflowToolbar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.OverflowToolbar`**
 
 To improve the control's performance, we have introduced a new `asyncMode` property. When enabled, the thread is not blocked immediately after the `onAfterRendering` and `handleResize` functions, leading to fewer frame drops and a smoother experience upon resizing.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.OverflowToolbar).
 
-|
-|**`sap.m.SinglePlanningCalendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.SinglePlanningCalendar`**
 
 We have created new examples of the different use cases for `sap.m.SinglePlanningCalendar`. The first example represents a fully featured control to help you get familiar with all functionalities. The rest of the examples focus on one feature each so that it's convenient to copy source code from them.For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar).
 
-|
-|`**sap.m.StandardListItem**`
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`**sap.m.StandardListItem**`
 
 You can now use the `wrapping` property to enable the wrapping of titles and descriptions. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
 
-|
-|**`sap.ui.integration.widgets.Card`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.integration.widgets.Card`**
 
 -   The status text attribute, part of the card header, is now also available in the numeric header. In addition to already supported string formats, you can now also configure bindable and dynamic formats and values, for example “X of Y” dynamic counter.
 
@@ -84,15 +122,31 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 
  For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https://openui5.hana.ondemand.com//#/api/sap.ui.integration.widgets.Card), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card). 
 
-|
-|**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
 The `MultiSelectionPlugin` class is now available: It provides a plugin to support multiple selections in a table. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin).
 
-|
-|**`sap.uxap.ObjectPageLayout`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.uxap.ObjectPageLayout`**
 
 The control header can now be snapped \(collapsed\) and no scroll bar is displayed. This behavior happens when there is only one section with only one subsection and the subsection is marked with the `sapUxAPObjectPageSubSectionFitContainer` CSS class to expand to the full height of the sections container.
 
-|
+
+
+</td>
+</tr>
+</table>
 

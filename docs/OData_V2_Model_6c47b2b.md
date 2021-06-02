@@ -23,104 +23,263 @@ The following two versions of the OData model are implemented: `sap.ui.model.oda
 
 The following table shows the supported features for both OData models:
 
-|Feature
-
-| `sap.ui.model.odata.v2.ODataModel` 
-
-| `sap.ui.model.odata.ODataModel` 
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---------</th>
-			<th>--------------------------------------</th>
-			<th>-----------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>2.0
-			</td>
-			<td>2.0
-			</td>
-		</tr>
-		<tr>
-			<td>JSON format
-			</td>
-			<td>Yes \(default\)
-			</td>
-			<td>Yes
-			</td>
-		</tr>
-		<tr>
-			<td>XML format
-			</td>
-			<td>Yes
-			</td>
-			<td>Yes \(default\)
-			</td>
-		</tr>
-		<tr>
-			<td>Support of two-way binding mode
-			</td>
-			<td>Yes; for property changes only, not yet implemented for aggregations
-			</td>
-			<td>Experimental; only properties of one entity can be changed at the same time
-			</td>
-		</tr>
-		<tr>
-			<td>Default binding mode
-			</td>
-			<td>One-way binding
-			</td>
-			<td>One-way binding
-			</td>
-		</tr>
-		<tr>
-			<td>Client-side sorting and filtering
-			</td>
-			<td>Yes
+Feature
+
+
+
+</th>
+<th>
+
+ `sap.ui.model.odata.v2.ODataModel` 
+
+
+
+</th>
+<th>
+
+ `sap.ui.model.odata.ODataModel` 
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+OData version support
+
+
+
+</td>
+<td>
+
+2.0
+
+
+
+</td>
+<td>
+
+2.0
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+JSON format
+
+
+
+</td>
+<td>
+
+Yes \(default\)
+
+
+
+</td>
+<td>
+
+Yes
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+XML format
+
+
+
+</td>
+<td>
+
+Yes
+
+
+
+</td>
+<td>
+
+Yes \(default\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Support of two-way binding mode
+
+
+
+</td>
+<td>
+
+Yes; for property changes only, not yet implemented for aggregations
+
+
+
+</td>
+<td>
+
+Experimental; only properties of one entity can be changed at the same time
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Default binding mode
+
+
+
+</td>
+<td>
+
+One-way binding
+
+
+
+</td>
+<td>
+
+One-way binding
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Client-side sorting and filtering
+
+
+
+</td>
+<td>
+
+Yes
+
 For more information, see [API Reference: sap.ui.model.odata.OperationMode](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.OperationMode.html). 
-			</td>
-			<td>No
-			</td>
-		</tr>
-		<tr>
-			<td>$batch
-			</td>
-			<td>Yes; all requests can be batched
-			</td>
-			<td>Only manual batch requests are possible
-			</td>
-		</tr>
-		<tr>
-			<td>Data cache in model
-			</td>
-			<td>All data is cached in the model
-			</td>
-			<td>Manually requested data is **not** cached
-			</td>
-		</tr>
-		<tr>
-			<td>Automatic refresh
-			</td>
-			<td>Yes \(default\)
-			</td>
-			<td>Yes
-			</td>
-		</tr>
-		<tr>
-			<td>Message handling
-			</td>
-			<td>Yes, see [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md) 
-			</td>
-			<td>No
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+<td>
+
+No
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+$batch
+
+
+
+</td>
+<td>
+
+Yes; all requests can be batched
+
+
+
+</td>
+<td>
+
+Only manual batch requests are possible
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Data cache in model
+
+
+
+</td>
+<td>
+
+All data is cached in the model
+
+
+
+</td>
+<td>
+
+Manually requested data is **not** cached
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Automatic refresh
+
+
+
+</td>
+<td>
+
+Yes \(default\)
+
+
+
+</td>
+<td>
+
+Yes
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Message handling
+
+
+
+</td>
+<td>
+
+Yes, see [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md) 
+
+
+
+</td>
+<td>
+
+No
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -696,32 +855,56 @@ Without using preliminary contexts, two consecutive OData requests will be issue
 
 <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Binding Example: Default Binding Resolution
 
-|Request Number
-
-|Content
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `GET Products(1)` 
-			</td>
-		</tr>
-		<tr>
-			<td>2
-			</td>
-			<td> `GET Products(1)/Supplier` 
-			</td>
-		</tr>
-	</tbody>
+Request Number
+
+
+
+</th>
+<th>
+
+Content
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+1
+
+
+
+</td>
+<td>
+
+ `GET Products(1)` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+2
+
+
+
+</td>
+<td>
+
+ `GET Products(1)/Supplier` 
+
+
+
+</td>
+</tr>
 </table>
 
 You can optimize the requests by setting the binding parameters as shown below:
@@ -738,27 +921,42 @@ This now results in a single `$batch` request:
 
 <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
-|Request Number
-
-|Content
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`GET Products(1)`
+Request Number
+
+
+
+</th>
+<th>
+
+Content
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+1
+
+
+
+</td>
+<td>
+
+`GET Products(1)`
+
 `GET Products(1)/Supplier`
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -1093,122 +1291,165 @@ The following tables show the transformations that are implemented with version 
 
 Transformations defined at `EntitySet`:
 
-|OData V2 SAP Extension
-
-|Resulting OData V4 Annotation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------</th>
-			<th>-------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+OData V2 SAP Extension
+
+
+
+</th>
+<th>
+
+Resulting OData V4 Annotation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 sap:creatable = "false"
 
 ```
 
-			<td>
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.InsertRestrictions": { "Insertable" : { "Bool" : "false" } }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:deletable = "false"
 
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.DeleteRestrictions": { "Deletable" : { "Bool" : "false" } }
 
 ```
 
- > ### Note:  
- > If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:deletable-path = "AnyPath"
 ```
 
 Where `AnyPath` is a path expression that identifies a Boolean property in the context of the entity type of the entity set. The value of this property indicates whether the entity can be deleted or not.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.DeleteRestrictions": { "Deletable" : { "Path" : "AnyPath" } }
 ```
 
- > ### Note:  
- > If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> If both, `sap:deletable` and `sap:deletable-path` are given, the service is broken and it is handled as `sap:deletable="false"`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:label = "foo"
 ```
 
 Where `foo` is any text.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.Label": {"String" : "foo" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:pageable = "false"
 
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.SkipSupported": {"Bool" : "false" },
 "Org.OData.Capabilities.V1.TopSupported": {"Bool" : "false" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:requires-filter = "true"
 
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions": { "RequiresFilter" : { "Bool" : "true" } }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:searchable = "false"
@@ -1216,106 +1457,142 @@ sap:searchable = "false"
 ```
 
 Alternatively, do not use the `sap:searchable` annotation.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.SearchRestrictions": { "Searchable" : { "Bool" : "false" } }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:topable = "false"
 
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.TopSupported": {"Bool" : "false" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:updatable = "false"
 
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.UpdateRestrictions": { "Updatable" : { "Bool" : "false" } }
 
 ```
 
- > ### Note:  
- > If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:updatable-path = "AnyPath"
 ```
 
 Where `AnyPath` is a path expression that identifies a Boolean property in the context of the entity type of the entity set. The value of this property indicates whether the entity can be updated or not.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.UpdateRestrictions": { "Updatable" : { "Path" : "AnyPath" } }
 ```
 
- > ### Note:  
- > If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
-			</td>
-		</tr>
-	</tbody>
+> ### Note:  
+> If both, `sap:updatable` and `sap:updatable-path` are given, the service is broken and it is handled as `sap:updatable="false"`.
+
+
+
+</td>
+</tr>
 </table>
 
 Transformations defined at `Property`:
 
-|OData V2 SAP Extension
-
-|Resulting OData V4 Annotation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------</th>
-			<th>-------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+OData V2 SAP Extension
+
+
+
+</th>
+<th>
+
+Resulting OData V4 Annotation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 sap:label = "foo"
 ```
 
 Where `foo` is any text.
 
-			<td>
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.Label": {"String" : "foo" }
 ```
 
- > ### Note:  
- > The resulting annotation is added at different places, not to the `Property`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> The resulting annotation is added at different places, not to the `Property`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:creatable = "true" 
@@ -1326,17 +1603,23 @@ and
 ```
 sap:updatable = "false"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Core.V1.Immutable": { "Bool" : "true" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:creatable = "false"
@@ -1347,71 +1630,98 @@ and
 ```
 sap:updatable = "false"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Core.V1.Computed": { "Bool" : "true"}
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:display-format = "NonNegative"
 ```
 
- > ### Note:  
- > `NonNegative` indicates that only non-negative numeric values are provided and persisted, other input leads to errors; intended for `Edm.String` fields that are internally stored as `NUMC`.
-			</td>
-			<td>
+> ### Note:  
+> `NonNegative` indicates that only non-negative numeric values are provided and persisted, other input leads to errors; intended for `Edm.String` fields that are internally stored as `NUMC`.
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsDigitSequence": { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:display-format = "UpperCase"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsUpperCase": { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:field-control = "AnyPath"
 ```
 
 Where `AnyPath` is a path expression that identifies a property containing a numeric value that controls visibility..
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.FieldControl": { "Path" : "AnyPath" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:filterable = "false"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions":
@@ -1422,20 +1732,26 @@ sap:filterable = "false"
 
 For example, if `sap:filterable` is set to `false` for properties `PropA` and `PropC`.
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, not to the `Property`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, not to the `Property`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:filter-restriction="multi-value"
 ```
 
 For example, at a `BusinessPartnerID` property of a `BusinessPartner` type.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.FilterExpressionRestrictions":
@@ -1446,28 +1762,37 @@ For example, at a `BusinessPartnerID` property of a `BusinessPartner` type.
 
 At the corresponding entity set, for example, `BusinessPartnerSet.multi-value` is mapped to `MultiValue`, `single-value` is mapped to `SingleValue`, and `interval` is mapped to `SingleInterval`.
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, not to the `Property`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, not to the `Property`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:heading = "foo"
 ```
 
 Where `foo` is any text.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.Heading": { "String" : "foo" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:precision = "AnyPath"
@@ -1475,40 +1800,58 @@ sap:precision = "AnyPath"
 ```
 
 Where `AnyPath` is a path expression that identifies a property in the context of the entity type containing the number of significant decimal places for a numeric value.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Measures.V1.Scale": { "Path" : "AnyPath" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:quickinfo = "foo"
 ```
 
 Where `foo` is any text.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.QuickInfo": { "String" : "foo" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:required-in-filter = "true"
 
 ```
-			</td>
-			<td>If `sap:required-in-filter` is set to `TRUE` for the `PropA` and `PropC` properties:
+
+
+
+</td>
+<td>
+
+If `sap:required-in-filter` is set to `TRUE` for the `PropA` and `PropC` properties:
+
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions": {
 "RequiredProperties" : [
@@ -1516,18 +1859,27 @@ sap:required-in-filter = "true"
  { "PropertyPath" : "PropC " }] }
 ```
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, not to the `Property`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, not to the `Property`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:sortable = "false"
 ```
-			</td>
-			<td>If `sap:sortable` is set to `FALSE` for the `PropA` and `PropC` properties:
+
+
+
+</td>
+<td>
+
+If `sap:sortable` is set to `FALSE` for the `PropA` and `PropC` properties:
+
 ```
 "Org.OData.Capabilities.V1.SortRestrictions": {
 "NonSortableProperties" : [ 
@@ -1535,29 +1887,38 @@ sap:sortable = "false"
 { "PropertyPath" : "PropC " }]}
 ```
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, not to the `Property`.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, not to the `Property`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:text = "AnyPath"
 ```
 
 Where `AnyPath` is a path expression that identifies a property in the context of the entity type containing a human-readable text for the value of this property.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.Text":{ "Path" : "AnyPath" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:unit="WeightUnit"
@@ -1570,8 +1931,11 @@ sap:unit="CurrencyCode"
 ```
 
 Where `WeightUnit` and `CurrencyCode` are names of properties in the same entity and `WeightUnit` points to a property with `sap-semantics:unit-of-measure` and `CurrencyCode`points to a property with `sap-semantics:currency-code`.
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Measures.V1.Unit": { "Path" : "WeightUnit" }
@@ -1583,16 +1947,22 @@ or
 "Org.OData.Measures.V1.ISOCurrency": { "Path" : "CurrencyCode" }
 
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:visible="false"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.UI.v1.Hidden" : { "Bool" : "true" }
@@ -1604,207 +1974,289 @@ Deprecated as of SAPUI5 1.44:
 "com.sap.vocabularies.Common.v1.FieldControl": { "EnumMember" :
 "com.sap.vocabularies.Common.v1.FieldControlType/Hidden" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:aggregation-role="dimension"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Analytics.v1.Dimension" : { "Bool" : "true" }
 ```
 
- > ### Note:  
- > Implemented with version 1.46.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.46.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:aggregation-role="measure"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Analytics.v1.Measure" : { "Bool" : "true" }
 ```
 
- > ### Note:  
- > Implemented with version 1.46.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.46.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="year"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYear" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.50.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.50.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="yearmonth"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearMonth" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.50.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.50.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="yearmonthday"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarDate" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.50.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.50.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = url
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "Org.OData.Core.V1.IsURL" : { "Bool" : "true" }
 
 ```
 
- > ### Note:  
- > Implemented with version 1.52.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.52.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="yearquarter"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearQuarter" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.54.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="yearweek"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearWeek" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.54.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="fiscalyear"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsFiscalYear" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.54.
-			</td>
-		</tr>
-		<tr>
-			<td>
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics="fiscalyearperiod"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Common.v1.IsFiscalYearPeriod" : {"Bool" : "true"}
 ```
 
- > ### Note:  
- > Implemented with version 1.54.
-			</td>
-		</tr>
-	</tbody>
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
 </table>
 
 Transformations defined at `NavigationProperty`:
 
-|OData V2 SAP Extension
-
-|Resulting OData V4 Annotation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------</th>
-			<th>-------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+OData V2 SAP Extension
+
+
+
+</th>
+<th>
+
+Resulting OData V4 Annotation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 sap:filterable = "false"
 ```
+
+
+
+</td>
+<td>
+
+```
+"Org.OData.Capabilities.V1.FilterRestrictions": {
+    "NonFilterableProperties" : [
+    { "PropertyPath" : "PropA " },
+    { "PropertyPath" : "PropC " }
+    ]
+}
 ```
 
 For example, if `sap:filterable` is set to `false` for properties `PropA` and `PropC`
 
 > ### Note:  
-> The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
+> The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
 > ### Note:  
 > Implemented with version 1.42.
@@ -1812,36 +2264,32 @@ For example, if `sap:filterable` is set to `false` for properties `PropA` and `P
 > ### Caution:  
 > Deprecated with version 1.54. See entry below.
 
-|
-|```
- > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > ### Note:  
- > Implemented with version 1.42.
 
- > ### Caution:  
- > Deprecated with version 1.54. See entry below.
-			</td>
-		</tr>
-		<tr>
-			<td>
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:filterable = "false"
 ```
-			</td>
+
+
+
+</td>
+<td>
+
 ```
-
-For example, if `sap:filterable` is set to false for navigation properties `NavPropA` and `NavPropB`.
-
-> ### Note:  
-> The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
-
-> ### Note:  
-> Implemented with version 1.54.
-
-|
-|```
+"Org.OData.Capabilities.V1.NavigationRestrictions": {
+  "RestrictedProperties": [
+    {
+      "FilterRestrictions": {"Filterable": false},
+      "NavigationProperty": {"NavigationPropertyPath": "NavPropA"}
+    },
+    {
+      "FilterRestrictions": {"Filterable": false},
+      "NavigationProperty": {"NavigationPropertyPath": "NavPropB"}
     }
   ]
 }
@@ -1849,26 +2297,32 @@ For example, if `sap:filterable` is set to false for navigation properties `NavP
 
 For example, if `sap:filterable` is set to false for navigation properties `NavPropA` and `NavPropB`.
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > ### Note:  
- > Implemented with version 1.54.
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+```
+sap:creatable = "false"
 ```
 
-For example, if `sap:creatable` is set to `false` for navigation properties `NavPropA` and `NavPropC`
 
-> ### Note:  
-> The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
 
-> ### Note:  
-> If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
+</td>
+<td>
 
-> ### Note:  
-> Implemented with version 1.42.
+```
+"Org.OData.Capabilities.V1.InsertRestrictions": {
 
-|
-|```
+    "NonInsertableNavigationProperties" : [
     { "NavigationPropertyPath" : "NavPropA " },
     { "NavigationPropertyPath" : "NavPropC " }
     ]
@@ -1878,17 +2332,8 @@ For example, if `sap:creatable` is set to `false` for navigation properties `Nav
 
 For example, if `sap:creatable` is set to `false` for navigation properties `NavPropA` and `NavPropC`
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
-
- > ### Note:  
- > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
-
- > ### Note:  
-```
-
 > ### Note:  
-> The resulting annotation is added to the `EntitySet`, *HIGHLIGHT START*not*HIGHLIGHT END* to the `NavigationProperty`.
+> The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
 > ### Note:  
 > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
@@ -1896,641 +2341,927 @@ For example, if `sap:creatable` is set to `false` for navigation properties `Nav
 > ### Note:  
 > Implemented with version 1.42.
 
-|
 
-Transformations defined at `Schema`:
 
-|OData V2 SAP Extension
+</td>
+</tr>
+<tr>
+<td>
 
-|Resulting OData V4 Annotation
+```
+sap:creatable-path="Creatable"
+```
 
-|
-|------------------------|-------------------------------|
-|```
+
+
+</td>
+<td>
+
+```
+"Org.OData.Capabilities.V1.InsertRestrictions": {
+
+    "NonInsertableNavigationProperties" : [{
+        "IF" : [{
+            "Not" : {
+                "Path" : "Creatable"
+            }
+        }, {
+            "NavigationPropertyPath" : "NavPropA"
         }]
     }]
 }
 ```
 
- > ### Note:  
- > The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
+> ### Note:  
+> The resulting annotation is added to the `EntitySet`, **not** to the `NavigationProperty`.
 
- > ### Note:  
- > If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
+> ### Note:  
+> If `sap:creatable` and `sap:creatable-path` are given, the service is broken and it is handled as `sap:creatable="false"`.
 
- > ### Note:  
- > Implemented with version 1.42.
-			</td>
-		</tr>
-	</tbody>
+> ### Note:  
+> Implemented with version 1.42.
+
+
+
+</td>
+</tr>
 </table>
 
 Transformations defined at `Schema`:
 
-|OData V2 SAP Extension
-
-|Resulting OData V4 Annotation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------</th>
-			<th>-------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+OData V2 SAP Extension
+
+
+
+</th>
+<th>
+
+Resulting OData V4 Annotation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 schema-version="foo"
 ```
 
-			<td>
+
+
+</td>
+<td>
 
 ```
 "@Org.Odata.Core.V1.SchemaVersion" : "foo"
 ```
 
- > ### Note:  
- > Implemented with version 1.54.
-			</td>
-		</tr>
-	</tbody>
+> ### Note:  
+> Implemented with version 1.54.
+
+
+
+</td>
+</tr>
 </table>
 
 Depending on the value of the `sap:semantics` annotation, different vocabulary-based annotations are generated. The following transformations are implemented and defined at `property`. In the examples of the resulting JSON at the "defined at" object, `PROPERTY` is a placeholder for the name of the property at which the `sap:semantics` annotation is defined.
 
-|OData V2 SAP Extension
-
-|Resulting OData V4 Annotation
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------</th>
-			<th>-------------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+OData V2 SAP Extension
+
+
+
+</th>
+<th>
+
+Resulting OData V4 Annotation
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 sap:semantics = "currency-code"
 ```
 
-			<td>see `sap:unit` above
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+</td>
+<td>
+
+see `sap:unit` above
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "unit-of-measure"
 ```
-			</td>
-			<td>see `sap:unit` above
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+<td>
+
+see `sap:unit` above
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "name"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "fn" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "givenname"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "given" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "middlename"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "additional" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "familyname"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "surname" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "nickname"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "nickname" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "honorific"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "prefix" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "suffix"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "suffix" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "note"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "note" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "photo"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "photo" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "city"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "locality" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "street"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "street" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "country"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "country" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "region"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "region" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "zip"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "code" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "pobox"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "pobox" : { "Path" : "PROPERTY" } } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "org"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "org" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "org-unit"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "orgunit" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "org-role"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "role" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "title"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "title" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "bday"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "bday" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "dtstart"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "dtstart" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "dtend"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "dtend" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "duration"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "duration" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "class"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "class" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "status"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "status" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "transp"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "transp" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "fbtype"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "fbtype" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "wholeday"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "wholeday" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "location"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "location" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "due"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "due" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
+sap:semantics = "completed"
 ```
 
-|
-
-*HIGHLIGHT START*Related Information*HIGHLIGHT END*  
 
 
-[XML Templating](XML_Templating_5ee619f.md)
+</td>
+<td>
 
-[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
-
-[Class `sap.ui.model.odata.ODataMetaModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.ODataMetaModel.html)
-
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioaa9024c7c5444822a68daeb21a92bd51__loioaa9024c7c5444822a68daeb21a92bd51"/>
-
-<!-- loioaa9024c7c5444822a68daeb21a92bd51 -->
-
-## Currency and Unit Customizing in OData V2
-
-For amounts or measures you may sometimes need different currencies or units than defined in the CLDR. The `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types enable you to use code lists with customizing for currency codes and units.
-
-For code lists with currency or unit customizing you need to define the following annotations:
-
--   Currencies: `com.sap.vocabularies.CodeList.v1.CurrencyCodes`
-
--   Units: `com.sap.vocabularies.CodeList.v1.UnitsOfMeasure`
+```
+"com.sap.vocabularies.Communication.v1.Task" : { "completed" : { "Path" : "PROPERTY" } }
+```
 
 
-In contrast to the [OData V4 scenario](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
 
-``` xml
-			<td>
+</td>
+</tr>
+<tr>
+<td>
+
+```
+sap:semantics = "percent-complete"
+```
+
+
+
+</td>
+<td>
+
+```
+"com.sap.vocabularies.Communication.v1.Task" : { "percentcomplete" : { "Path" : "PROPERTY" } }
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+```
+sap:semantics = "priority"
+```
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "priority" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "from"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "from" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "sender"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "sender" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "subject"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "subject" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "body"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "body" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "received"
 ```
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "received" : { "Path" : "PROPERTY" } }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "tel"
 ```
-			</td>
-			<td>At the `EntityType` or `ComplexType`:
+
+
+
+</td>
+<td>
+
+At the `EntityType` or `ComplexType`:
+
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { 
 "tel" : [{
@@ -2545,16 +3276,25 @@ At `Property`:
 ```
 "com.sap.vocabularies.Communication.v1.IsPhoneNumber" : { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "tel";type=cell,work
 ```
-			</td>
-			<td>At the `EntityType` or `ComplexType`:
+
+
+
+</td>
+<td>
+
+At the `EntityType` or `ComplexType`:
+
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { 
 "tel" : [{
@@ -2573,16 +3313,25 @@ At `Property`:
 ```
 "com.sap.vocabularies.Communication.v1.IsPhoneNumber" : { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "email"
 ```
-			</td>
-			<td>At the `EntityType` or `ComplexType`:
+
+
+
+</td>
+<td>
+
+At the `EntityType` or `ComplexType`:
+
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { 
 "address" : [{
@@ -2597,16 +3346,25 @@ At `Property`:
 ```
 "com.sap.vocabularies.Communication.v1.IsEmailAddress" : { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-		<tr>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
 
 ```
 sap:semantics = "email";type=work,pref
 ```
-			</td>
-			<td>At the `EntityType` or `ComplexType`:
+
+
+
+</td>
+<td>
+
+At the `EntityType` or `ComplexType`:
+
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { 
 "email" : [{
@@ -2625,9 +3383,11 @@ At `Property`:
 ```
 "com.sap.vocabularies.Communication.v1.IsEmailAddress" : { "Bool" : "true" }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  
@@ -2691,7 +3451,7 @@ If an alternate key is available, the type uses the alternate key as the key of 
 
 The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is interpreted as an ISO code by `sap.ui.model.odata.type.Currency` and used to find currency symbols. The currency symbols may be used for entering data.
 
-*HIGHLIGHT START*Code list annotations for currency codes and units in the service's metadata.xml file:*HIGHLIGHT END*
+**Code list annotations for currency codes and units in the service's metadata.xml file:**
 
 ``` xml
 
@@ -2791,7 +3551,7 @@ The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is int
 
 With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types in an input field as shown in the following example. The data types use a composite binding with the amount or measure as its first part, the currency code or unit as its second part, and the information about the code list customizing that has to be used as its third part.
 
-*HIGHLIGHT START*Example how to use currency and unit types in a freestyle application:*HIGHLIGHT END*
+**Example how to use currency and unit types in a freestyle application:**
 
 ``` js
 ...

@@ -22,52 +22,108 @@ The `FacetFilterList` control extends and supports all the features of the `sap.
 
 The following properties of `FacetFilterList` affect the display of lists in the `FacetFilter` control.
 
-|Property
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Facet name
-			</td>
-		</tr>
-		<tr>
-			<td>`mode`
-			</td>
-			<td>Controls the selection mode for the list
+Property
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`title`
+
+
+
+</td>
+<td>
+
+Facet name
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`mode`
+
+
+
+</td>
+<td>
+
+Controls the selection mode for the list
+
 This property is overridden from `ListBase` and only allows `SingleSelectMaster` or `MultiSelect` settings. `MultiSelect` is the default: This setting displays the *All* checkbox above the filter list to allow the user to select all filters. This does not actually select individual filters to avoid performance overhead for lists with a large number of items.
-			</td>
-		</tr>
-		<tr>
-			<td>`sequence`
-			</td>
-			<td>Controls the order in which the facets are displayed in the toolbar
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`sequence`
+
+
+
+</td>
+<td>
+
+Controls the order in which the facets are displayed in the toolbar
+
 Lists appear in the toolbar in ascending order according to sequence \(assuming left to right\). Lists with a sequence less than 0 are placed last, not before facets with sequence of zero. Only active lists are displayed regardless of sequence setting.
-			</td>
-		</tr>
-		<tr>
-			<td>`active`
-			</td>
-			<td>Indicates if a facet filter list is active and should appear on the toolbar; this is only applicable for the simple type as all facet filter lists are active in the light type
-			</td>
-		</tr>
-		<tr>
-			<td>`allCount`
-			</td>
-			<td>The `allCount` value can be set to the number of filter matches in the target data set given the currently selected filters for the facet filter list.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`active`
+
+
+
+</td>
+<td>
+
+Indicates if a facet filter list is active and should appear on the toolbar; this is only applicable for the simple type as all facet filter lists are active in the light type
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`allCount`
+
+
+
+</td>
+<td>
+
+The `allCount` value can be set to the number of filter matches in the target data set given the currently selected filters for the facet filter list.
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -79,33 +135,58 @@ Lists appear in the toolbar in ascending order according to sequence \(assuming 
 
 The `FacetFilterItem` control extends and supports all features of `sap.m.ListItemBase`, for example item selection and counter. `FacetFilterItem` provides the following properties:
 
-|Property
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Filter item name
-			</td>
-		</tr>
-		<tr>
-			<td>`key`
-			</td>
-			<td>Unique identifier of the filter item; used to filter the target data set
+Property
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`text`
+
+
+
+</td>
+<td>
+
+Filter item name
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`key`
+
+
+
+</td>
+<td>
+
+Unique identifier of the filter item; used to filter the target data set
+
 If `key` is not set, `text` is used as the key value.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

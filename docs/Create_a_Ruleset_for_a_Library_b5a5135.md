@@ -47,32 +47,56 @@ Here is an example of folder structure depending on the location of your ruleset
 
 <a name="loiob5a51358b3574aea9143fa50ae4e0e2a__table_xgs_xmd_wbb"/>Ruleset Folder Structure
 
-|Location
-
-|Folder Structure
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>\[openui5.git\]/src/sap.m/src/sap/m/
-			</td>
-		</tr>
-		<tr>
-			<td>Reuse library
-			</td>
-			<td>\[project\]/src/\[library path\]
-			</td>
-		</tr>
-	</tbody>
+Location
+
+
+
+</th>
+<th>
+
+Folder Structure
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ OpenUI5 
+
+
+
+</td>
+<td>
+
+\[openui5.git\]/src/sap.m/src/sap/m/
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Reuse library
+
+
+
+</td>
+<td>
+
+\[project\]/src/\[library path\]
+
+
+
+</td>
+</tr>
 </table>
 
 ***

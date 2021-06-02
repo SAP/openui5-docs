@@ -23,43 +23,87 @@ The following table shows the availability of the different accessibility featur
 
 <a name="loio322f55d0cf1e4b459cc1911c899b7a5f__table_idr_xwc_wbb"/>Accessibility Feature Availability
 
-|Feature
-
-|Available as of version
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---------</th>
-			<th>-------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>1.26
-			</td>
-		</tr>
-		<tr>
-			<td>HCB Theme
-			</td>
-			<td>1.26
-			</td>
-		</tr>
-		<tr>
-			<td>Screen Reader Support
-			</td>
-			<td>1.30
-			</td>
-		</tr>
-		<tr>
-			<td>HCW Theme
-			</td>
-			<td>1.46
-			</td>
-		</tr>
-	</tbody>
+Feature
+
+
+
+</th>
+<th>
+
+Available as of version
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Keyboard Handling
+
+
+
+</td>
+<td>
+
+1.26
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+HCB Theme
+
+
+
+</td>
+<td>
+
+1.26
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Screen Reader Support
+
+
+
+</td>
+<td>
+
+1.30
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+HCW Theme
+
+
+
+</td>
+<td>
+
+1.46
+
+
+
+</td>
+</tr>
 </table>
 

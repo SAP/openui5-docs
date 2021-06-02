@@ -68,188 +68,472 @@ The letters which can be included in this pattern are explained in the following
 
 <a name="loio91f2eba36f4d1014b6dd926db0e91070__table_i53_5gl_2y"/>Patterns
 
-|Letter
-
-|Replaced By
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>era string for the current date
-			</td>
-		</tr>
-		<tr>
-			<td> `y` 
-			</td>
-			<td>year
-			</td>
-		</tr>
-		<tr>
-			<td> `Y` 
-			</td>
-			<td>Same as `y`, but uses the ISO year-week calendar
-			</td>
-		</tr>
-		<tr>
-			<td> `M` 
-			</td>
-			<td>month
-			</td>
-		</tr>
-		<tr>
-			<td> `L` 
-			</td>
-			<td>month in stand-alone format
-			</td>
-		</tr>
-		<tr>
-			<td> `w` 
-			</td>
-			<td>week number in year
-			</td>
-		</tr>
-		<tr>
-			<td>\(`W`\)
-			</td>
-			<td>\(currently not supported\) week number in month
-			</td>
-		</tr>
-		<tr>
-			<td>\(`D`\)
-			</td>
-			<td>\(currently not supported\) day number in year
-			</td>
-		</tr>
-		<tr>
-			<td> `d` 
-			</td>
-			<td>day number in month
-			</td>
-		</tr>
-		<tr>
-			<td> `Q` 
-			</td>
-			<td>quarter number
-			</td>
-		</tr>
-		<tr>
-			<td> `q` 
-			</td>
-			<td>quarter number in stand-alone format
-			</td>
-		</tr>
-		<tr>
-			<td>\(`F`\)
-			</td>
-			<td>\(currently not supported\) day of week in month
-			</td>
-		</tr>
-		<tr>
-			<td> `E` 
-			</td>
-			<td>day of week
-			</td>
-		</tr>
-		<tr>
-			<td> `c` 
-			</td>
-			<td>day of week in stand-alone format
-			</td>
-		</tr>
-		<tr>
-			<td> `u` 
-			</td>
-			<td>day number of week
-			</td>
-		</tr>
-		<tr>
-			<td> `a` 
-			</td>
-			<td>AM or PM
-			</td>
-		</tr>
-		<tr>
-			<td> `j` 
-			</td>
-			<td>Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k` depending on the locale preferred time cycle type \(12-hour or 24-hour\).
-			</td>
-		</tr>
-		<tr>
-			<td> `J` 
-			</td>
-			<td>Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k`. However unlike `j` it requests no `dayPeriod` marker such as "am" or "pm". It is typically used where there is enough context that the day period not necessary. For example, with `jmm`, "18:00" could appear as "6:00 PM", while with `Jmm`, it would appear as "6:00" \(no PM\).
-			</td>
-		</tr>
-		<tr>
-			<td> `H` 
-			</td>
-			<td>hour \(0-23\)
-			</td>
-		</tr>
-		<tr>
-			<td> `k` 
-			</td>
-			<td>hour \(1-24\)
-			</td>
-		</tr>
-		<tr>
-			<td> `K` 
-			</td>
-			<td>hour \(0-11\)
-			</td>
-		</tr>
-		<tr>
-			<td> `h` 
-			</td>
-			<td>hour \(1-12\)
-			</td>
-		</tr>
-		<tr>
-			<td> `m` 
-			</td>
-			<td>minute
-			</td>
-		</tr>
-		<tr>
-			<td> `s` 
-			</td>
-			<td>second
-			</td>
-		</tr>
-		<tr>
-			<td> `S` 
-			</td>
-			<td>fractional second
-			</td>
-		</tr>
-		<tr>
-			<td> `z` 
-			</td>
-			<td>time zone
-			</td>
-		</tr>
-		<tr>
-			<td> `Z` 
-			</td>
-			<td>time zone in RFC 822 format
-			</td>
-		</tr>
-		<tr>
-			<td> `X` 
-			</td>
-			<td>time zone in ISO 8601 format
-			</td>
-		</tr>
-	</tbody>
+Letter
+
+
+
+</th>
+<th>
+
+Replaced By
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `G` 
+
+
+
+</td>
+<td>
+
+era string for the current date
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `y` 
+
+
+
+</td>
+<td>
+
+year
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Y` 
+
+
+
+</td>
+<td>
+
+Same as `y`, but uses the ISO year-week calendar
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `M` 
+
+
+
+</td>
+<td>
+
+month
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `L` 
+
+
+
+</td>
+<td>
+
+month in stand-alone format
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `w` 
+
+
+
+</td>
+<td>
+
+week number in year
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\(`W`\)
+
+
+
+</td>
+<td>
+
+\(currently not supported\) week number in month
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\(`D`\)
+
+
+
+</td>
+<td>
+
+\(currently not supported\) day number in year
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `d` 
+
+
+
+</td>
+<td>
+
+day number in month
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Q` 
+
+
+
+</td>
+<td>
+
+quarter number
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `q` 
+
+
+
+</td>
+<td>
+
+quarter number in stand-alone format
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+\(`F`\)
+
+
+
+</td>
+<td>
+
+\(currently not supported\) day of week in month
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `E` 
+
+
+
+</td>
+<td>
+
+day of week
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `c` 
+
+
+
+</td>
+<td>
+
+day of week in stand-alone format
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `u` 
+
+
+
+</td>
+<td>
+
+day number of week
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `a` 
+
+
+
+</td>
+<td>
+
+AM or PM
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `j` 
+
+
+
+</td>
+<td>
+
+Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k` depending on the locale preferred time cycle type \(12-hour or 24-hour\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `J` 
+
+
+
+</td>
+<td>
+
+Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k`. However unlike `j` it requests no `dayPeriod` marker such as "am" or "pm". It is typically used where there is enough context that the day period not necessary. For example, with `jmm`, "18:00" could appear as "6:00 PM", while with `Jmm`, it would appear as "6:00" \(no PM\).
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `H` 
+
+
+
+</td>
+<td>
+
+hour \(0-23\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `k` 
+
+
+
+</td>
+<td>
+
+hour \(1-24\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `K` 
+
+
+
+</td>
+<td>
+
+hour \(0-11\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `h` 
+
+
+
+</td>
+<td>
+
+hour \(1-12\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `m` 
+
+
+
+</td>
+<td>
+
+minute
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `s` 
+
+
+
+</td>
+<td>
+
+second
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `S` 
+
+
+
+</td>
+<td>
+
+fractional second
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `z` 
+
+
+
+</td>
+<td>
+
+time zone
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Z` 
+
+
+
+</td>
+<td>
+
+time zone in RFC 822 format
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `X` 
+
+
+
+</td>
+<td>
+
+time zone in ISO 8601 format
+
+
+
+</td>
+</tr>
 </table>
 
 ***

@@ -202,21 +202,28 @@ If you have been reusing components before we introduced the reuse feature descr
 
 If you use a component that is embedded in a library, and the application declares a dependency to that library, remove the dependency to the library from the embedding application. Make sure that the application code does not contain any direct references to the component or the embedding application.
 
-|Old Code
-
-|Recommended Code
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Old Code
+
+
+
+</th>
+<th>
+
+Recommended Code
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `manifest.json` with dependency declaration only:
 
 ``` json
 {
@@ -224,6 +231,19 @@ If you use a component that is embedded in a library, and the application declar
     "dependencies": {
       "components": {
         "sap.reuse.component": {}
+      }
+    }
+  }
+}
+```
+
+
+
+</td>
+<td>
+
+`manifest.json` with declaration of reuse components:
+
 ``` json
 {
   "sap.ui5": {
@@ -242,25 +262,36 @@ If you use a component that is embedded in a library, and the application declar
   }
 }
 ```
-        "lazy": false
-      \}
-    \}
-**
-  }
-}
-```
 
- > ### Note:  
- > As of version 1.56 it is sufficient to declare the component usage and to indicate whether the component should be lazy loaded or not. The declaration of the component dependencies can and should be avoided in this case.
-			</td>
-		</tr>
-		<tr>
-			<td> `Component.js` with nested reuse component:
+> ### Note:  
+> As of version 1.56 it is sufficient to declare the component usage and to indicate whether the component should be lazy loaded or not. The declaration of the component dependencies can and should be avoided in this case.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `Component.js` with nested reuse component:
+
 ``` js
 createContent: function() {
    
   var oReuseComponent = sap.ui.component({
     "name": "sap.reuse.component"
+  });
+ 
+}
+```
+
+
+
+</td>
+<td>
+
+ `Component.js` that loads the reuse component
+
 ``` js
 createContent: function() {
    
@@ -270,15 +301,11 @@ createContent: function() {
  
 }
 ```
-**  var oReuseComponentPromise = this.createComponent\(\{ /\* this = Component instance \*/
-    "usage": "reuse"
-  \}\);**
- 
-}
-```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

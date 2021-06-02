@@ -18,7 +18,12 @@ With this release OpenUI5 is upgraded from version 1.65 to 1.66.
 
 ### Improved Features
 
-|**OpenUI5 OData V4 Model**
+
+<table>
+<tr>
+<td>
+
+**OpenUI5 OData V4 Model**
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
@@ -38,12 +43,22 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
 
-|
-|**Support for New Era in the Japanese Calendar**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Support for New Era in the Japanese Calendar**
 
 Starting May 1, 2019, OpenUI5 supports a new era in the Japanese calendar, due to the imperial transition.
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -51,7 +66,12 @@ Starting May 1, 2019, OpenUI5 supports a new era in the Japanese calendar, due t
 
 ### Improved Controls
 
-|**`sap.f.GridContainer` \(Experimental\)**
+
+<table>
+<tr>
+<td>
+
+**`sap.f.GridContainer` \(Experimental\)**
 
 We have introduced three new properties:
 
@@ -64,13 +84,25 @@ We have introduced three new properties:
 
 For more information, see [sap.f.GridContainer](sap.f.GridContainer_cca5ee5.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer). 
 
-|
-|**`sap.m.ComboBox`, `sap.m.MultiComboBox`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ComboBox`, `sap.m.MultiComboBox`**
 
 The options list used in these controls is now instantiated lazily. The list is created primarily based on user interaction. As a result of the change, the initialization time of the controls has decreased significantly. For more information, see the samples \([`sap.m.ComboBox`](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox), [`sap.m.MultiComboBox`](https://openui5.hana.ondemand.com/#/entity/sap.m.MultiComboBox)\). 
 
-|
-|**`sap.m.DateRangeSelection`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.DateRangeSelection`**
 
 You can now change the date range value using keyboard combinations without opening the calendar. When the cursor is on the start date \(before the delimiter\), we change the start date and when it is on the end date \(after the delimiter\), we change the end date.
 
@@ -83,25 +115,49 @@ You can now change the date range value using keyboard combinations without open
 
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DateRangeSelection/sample/sap.m.sample.DateRangeSelection).
 
-|
-|**`sap.m.Input`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Input`**
 
 We have adjusted the value state text for the `sap.m.Input` control. The value state text is now shown in the suggestion popover container when the `sap.m.Input` control has suggestions.
 
  For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Input). 
 
-|
-|**`sap.m.ObjectStatus`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.ObjectStatus`**
 
 You can now switch the background and text colors using the new `inverted` property.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectStatus).
 
-|
-|**`sap.m.Select`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.Select`**
 
 To be better aligned with the other input controls, we have implemented a new `editable` property for the `sap.m.Select` control. If `editable` is set to `false`, the interaction with the control is disabled but remains focusable, and its background color and borders are changed to indicate that it's read-only.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Select) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Select/sample/sap.m.sample.Select).
 
-|
-|**`sap.m.SinglePlanningCalendar`**
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.SinglePlanningCalendar`**
 
 -   You can now include custom views to display different numbers of columns in the grid area of the control, for example, you can show only the first 10 days of each month. To create custom views, extend the `sap.m.SinglePlanningCalendarView` basic view class.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendarWithCustomViews).
 
@@ -112,7 +168,11 @@ To be better aligned with the other input controls, we have implemented a new `e
 -   We added an arrow indicator to improve the visual design of appointments which are not marked as *All-day* but do continue outside of the visible area.
 
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -120,9 +180,18 @@ To be better aligned with the other input controls, we have implemented a new `e
 
 ### Documentation
 
-|**OData V2 Messaging Documentation**
+
+<table>
+<tr>
+<td>
+
+**OData V2 Messaging Documentation**
 
 The OData V2 Messaging documentation has been enhanced and improved. See [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md).
 
-|
+
+
+</td>
+</tr>
+</table>
 

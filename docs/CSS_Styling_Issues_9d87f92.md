@@ -26,28 +26,41 @@ Add your own namespaced classes instead.
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_ehh_rkk_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 
 .sapMInputBaseError {
 	font-weight: bold;
 }
 ```
 
-			<td>Add a custom CSS class to the control in those situations where you want additional styling:
+
+
+</td>
+<td>
+
+Add a custom CSS class to the control in those situations where you want additional styling:
+
  `oButton.addStyleClass("poaAppError");`
 
 Then provide the style for this class:
@@ -59,9 +72,11 @@ Then provide the style for this class:
 }
 
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -74,28 +89,38 @@ Styling DOM elements directly will lead to unpredictable results, as OpenUI5 doe
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_mdl_qcq_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+``` html
 
 div {
 	width: 120px;
 }
 ```
 
-			<td>
+
+
+</td>
+<td>
 
 ```
 
@@ -103,9 +128,11 @@ div {
 	width: 120px;
 }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -118,37 +145,52 @@ OpenUI5 applications can create dynamic IDs for elements. Do not use these IDs a
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_lzk_5dq_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 
 #__view1__button0 {
 	font-weight: bold;
 }
 ```
 
-			<td>Add a style class as described above and then define the following:
+
+
+</td>
+<td>
+
+Add a style class as described above and then define the following:
+
 ```
 
 .myEmphasizedButton {
 	font-weight: bold;
 }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -161,28 +203,38 @@ Custom selectors and CSS classes that are not namespaced might lead to style cla
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_j2n_l2q_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 
 .title {
 	font-weight: bold;
 }
 ```
 
-			<td>
+
+
+</td>
+<td>
 
 ```
 
@@ -190,9 +242,11 @@ Custom selectors and CSS classes that are not namespaced might lead to style cla
 	font-weight: bold;
 }
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -205,21 +259,28 @@ Themability of applications relies on LESS calculations within the OpenUI5 theme
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_twd_s2q_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+```
 
 .myCustomHTML {
 	color: #FFF;
@@ -227,10 +288,17 @@ Themability of applications relies on LESS calculations within the OpenUI5 theme
 }
 ```
 
-			<td>Add the CSS classes `sapThemeTextInverted` and `sapThemeHighlight-asBackgroundColor` to your custom HTML element.
-			</td>
-		</tr>
-	</tbody>
+
+
+</td>
+<td>
+
+Add the CSS classes `sapThemeTextInverted` and `sapThemeHighlight-asBackgroundColor` to your custom HTML element.
+
+
+
+</td>
+</tr>
 </table>
 
 See also: [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
@@ -247,33 +315,48 @@ To ensure that you do not use combinations of theme colors which may clash after
 
 <a name="loio9d87f925dfbb4e99b9e2963693aa00ef__table_qsf_kfq_jq"/>Examples
 
-|Bad Example
-
-|Good Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>--------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
+
+Bad Example
+
+
+
+</th>
+<th>
+
+Good Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+``` js
 
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("background-color", sColor);
 ```
 
-			<td>``` js
+
+
+</td>
+<td>
+
+``` js
+
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("border-color", sColor);
 ```
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 See also: [Namespace sap.ui.core.theming.Parameters](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.theming.Parameters.html).

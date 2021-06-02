@@ -14,75 +14,179 @@ The OData V4 model supports server messages sent via an OData V4 service.
 
 Messages transported via an OData V4 service response are parsed and reported to the message model `sap.ui.model.message.MessageModel`. An application can retrieve the messages \(`sap.ui.core.message.Message`\) and display them in a suitable control, for example in `sap.m.MessageView`. Server messages can be transported to the client over three different channels which are explained in detail in the following sections. The following table gives an overview how the OData message properties are mapped to the UI5 message:
 
-|OData V4 Message
-
-|UI5 Message
-
-|Details
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------</th>
-			<th>-------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`code`
-			</td>
-			<td>language-independent message code
-			</td>
-		</tr>
-		<tr>
-			<td>`message`
-			</td>
-			<td>`message`
-			</td>
-			<td>language-dependent message text
-			</td>
-		</tr>
-		<tr>
-			<td>`target`
-			</td>
-			<td>`target`
-			</td>
-			<td>-   path to the message target -   `target` and `additionalTargets` are both mapped to the `sap.ui.core.message.Message.target` collection
-			</td>
-		</tr>
-		<tr>
-			<td>`additionalTargets`\*
-			</td>
-		</tr>
-		<tr>
-			<td>`transition`
-			</td>
-			<td>`persistent`
-			</td>
-			<td>manages the message lifecycle
-			</td>
-		</tr>
-		<tr>
-			<td>`numericSeverity`\*
-			</td>
-			<td>`type`
-			</td>
-			<td>classification of end-user messages
-			</td>
-		</tr>
-		<tr>
-			<td>`longtextURL`\*
-			</td>
-			<td>`descriptionURL`
-			</td>
-			<td>a property of `Edm.String` type, which is nullable
-			</td>
-		</tr>
-	</tbody>
+OData V4 Message
+
+
+
+</th>
+<th>
+
+UI5 Message
+
+
+
+</th>
+<th>
+
+Details
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`code`
+
+
+
+</td>
+<td>
+
+`code`
+
+
+
+</td>
+<td>
+
+language-independent message code
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`message`
+
+
+
+</td>
+<td>
+
+`message`
+
+
+
+</td>
+<td>
+
+language-dependent message text
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`target`
+
+
+
+</td>
+<td rowspan="2">
+
+`target`
+
+
+
+</td>
+<td rowspan="2">
+
+-   path to the message target
+-   `target` and `additionalTargets` are both mapped to the `sap.ui.core.message.Message.target` collection
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`additionalTargets`\*
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`transition`
+
+
+
+</td>
+<td>
+
+`persistent`
+
+
+
+</td>
+<td>
+
+manages the message lifecycle
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`numericSeverity`\*
+
+
+
+</td>
+<td>
+
+`type`
+
+
+
+</td>
+<td>
+
+classification of end-user messages
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`longtextURL`\*
+
+
+
+</td>
+<td>
+
+`descriptionURL`
+
+
+
+</td>
+<td>
+
+a property of `Edm.String` type, which is nullable
+
+
+
+</td>
+</tr>
 </table>
 
 \*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
@@ -268,47 +372,77 @@ This concept has the following consequences:
 
 #### Combining State/Transition and Bound/Unbound Messages
 
-| 
-
-|State
-
-|Transition
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>---</th>
-			<th>-------</th>
-			<th>------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>
+ 
+
+
+
+</th>
+<th>
+
+State
+
+
+
+</th>
+<th>
+
+Transition
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Unbound
+
+
+
+</td>
+<td>
 
 ![](loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-			</td>
-		</tr>
-		<tr>
-			<td>Bound
-			</td>
-			<td>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Bound
+
+
+
+</td>
+<td>
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-			</td>
-			<td>
+
+
+
+</td>
+<td>
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -319,55 +453,123 @@ This concept has the following consequences:
 
 The table shows the supported severity values and their mapping to the specific `sap.ui.core.MessageType`.
 
-|numericSeverity
-
-|Type
-
-|Comment
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------------</th>
-			<th>------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>`sap.ui.core.MessageType.Success`
-			</td>
-			<td>Positive feedback - no action required
-			</td>
-		</tr>
-		<tr>
-			<td>2
-			</td>
-			<td>`sap.ui.core.MessageType.Information`
-			</td>
-			<td>Additional information - no action required
-			</td>
-		</tr>
-		<tr>
-			<td>3
-			</td>
-			<td>`sap.ui.core.MessageType.Warning`
-			</td>
-			<td>Warning - action may be required
-			</td>
-		</tr>
-		<tr>
-			<td>4
-			</td>
-			<td>`sap.ui.core.MessageType.Error`
-			</td>
-			<td>Error - action is required
-			</td>
-		</tr>
-	</tbody>
+numericSeverity
+
+
+
+</th>
+<th>
+
+Type
+
+
+
+</th>
+<th>
+
+Comment
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+1
+
+
+
+</td>
+<td>
+
+`sap.ui.core.MessageType.Success`
+
+
+
+</td>
+<td>
+
+Positive feedback - no action required
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+2
+
+
+
+</td>
+<td>
+
+`sap.ui.core.MessageType.Information`
+
+
+
+</td>
+<td>
+
+Additional information - no action required
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+3
+
+
+
+</td>
+<td>
+
+`sap.ui.core.MessageType.Warning`
+
+
+
+</td>
+<td>
+
+Warning - action may be required
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+4
+
+
+
+</td>
+<td>
+
+`sap.ui.core.MessageType.Error`
+
+
+
+</td>
+<td>
+
+Error - action is required
+
+
+
+</td>
+</tr>
 </table>
 
 ***

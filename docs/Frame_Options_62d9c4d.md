@@ -14,125 +14,311 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 OpenUI5 provides the following configuration options for `frameOptions`:
 
-|Mode
-
-|Default
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>---------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>X
-			</td>
-			<td>Allows to be embedded from all origins
-			</td>
-		</tr>
-		<tr>
-			<td>deny
-			</td>
-			<td>Denies to be embedded from all origins
-			</td>
-		</tr>
-		<tr>
-			<td>trusted
-			</td>
-			<td>Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the allowlist service
-			</td>
-		</tr>
-	</tbody>
+Mode
+
+
+
+</th>
+<th>
+
+Default
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+allow
+
+
+
+</td>
+<td>
+
+X
+
+
+
+</td>
+<td>
+
+Allows to be embedded from all origins
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+deny
+
+
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+Denies to be embedded from all origins
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+trusted
+
+
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the allowlist service
+
+
+
+</td>
+</tr>
 </table>
 
 With `frameOptionsConfig` the following additional configuration options can be set:
 
-|Parameter
-
-|Type
-
-|Default
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-----------</th>
-			<th>------</th>
-			<th>---------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `function(bSuccess)` 
-			</td>
-			<td>Function that is called with the success state
- > ### Note:  
- > The function can be synchronously called from the OpenUI5 bootstrap script. The DOM \(`document.body`\) may not be accessible.
-			</td>
-		</tr>
-		<tr>
-			<td> `timeout` 
-			</td>
-			<td> `number` 
-			</td>
-			<td> `10000` 
-			</td>
-			<td>After the delay, the page remains blocked and the provided callback is invoked \(milliseconds\)
-			</td>
-		</tr>
-		<tr>
-			<td> `blockEvents` 
-			</td>
-			<td> `boolean` 
-			</td>
-			<td> `true` 
-			</td>
-			<td>Defines whether keyboard, mouse and touch events are blocked
-			</td>
-		</tr>
-		<tr>
-			<td> `showBlockLayer` 
-			</td>
-			<td> `boolean` 
-			</td>
-			<td> `true` 
-			</td>
-			<td>Defines whether an invisible block layer is rendered to prevent interaction with the UI
-			</td>
-		</tr>
-		<tr>
-			<td> `allowSameOrigin` 
-			</td>
-			<td> `boolean` 
-			</td>
-			<td> `true` 
-			</td>
-			<td>Defines whether same origin domains are allowed or not
-			</td>
-		</tr>
-		<tr>
-			<td> `allowlist` 
-			</td>
-			<td> `string` 
-			</td>
-			<td>Contains the domain allowlist \(comma-separated\)
-			</td>
-		</tr>
-	</tbody>
+Parameter
+
+
+
+</th>
+<th>
+
+Type
+
+
+
+</th>
+<th>
+
+Default
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `callback` 
+
+
+
+</td>
+<td>
+
+ `function(bSuccess)` 
+
+
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+Function that is called with the success state
+
+> ### Note:  
+> The function can be synchronously called from the OpenUI5 bootstrap script. The DOM \(`document.body`\) may not be accessible.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `timeout` 
+
+
+
+</td>
+<td>
+
+ `number` 
+
+
+
+</td>
+<td>
+
+ `10000` 
+
+
+
+</td>
+<td>
+
+After the delay, the page remains blocked and the provided callback is invoked \(milliseconds\)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `blockEvents` 
+
+
+
+</td>
+<td>
+
+ `boolean` 
+
+
+
+</td>
+<td>
+
+ `true` 
+
+
+
+</td>
+<td>
+
+Defines whether keyboard, mouse and touch events are blocked
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `showBlockLayer` 
+
+
+
+</td>
+<td>
+
+ `boolean` 
+
+
+
+</td>
+<td>
+
+ `true` 
+
+
+
+</td>
+<td>
+
+Defines whether an invisible block layer is rendered to prevent interaction with the UI
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `allowSameOrigin` 
+
+
+
+</td>
+<td>
+
+ `boolean` 
+
+
+
+</td>
+<td>
+
+ `true` 
+
+
+
+</td>
+<td>
+
+Defines whether same origin domains are allowed or not
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `allowlist` 
+
+
+
+</td>
+<td>
+
+ `string` 
+
+
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+Contains the domain allowlist \(comma-separated\)
+
+
+
+</td>
+</tr>
 </table>
 
 ***

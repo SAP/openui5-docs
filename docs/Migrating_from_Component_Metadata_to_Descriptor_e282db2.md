@@ -19,95 +19,238 @@ For compatibility reasons, the mapping to the `manifest.json` file is done autom
 
 <a name="loioe282db2865e94f69972c407469b801e9__table_ogz_llt_45"/>Mapping Table
 
-|Metadata
-
-|Descriptor
-
-|Comment
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `sap.app/id` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `version` 
-			</td>
-			<td> `sap.app/applicationVersion/version` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `config` 
-			</td>
-			<td> `sap.ui5/config` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `dependencies` 
-			</td>
-			<td> `sap.ui5/depedencies` 
-			</td>
-			<td>Different format, see *Dependencies* section below
-			</td>
-		</tr>
-		<tr>
-			<td> `customizing` 
-			</td>
-			<td> `sap.ui5/extends/extensions` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `handleValidation` 
-			</td>
-			<td> `sap.ui5/handleValidation` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `includes` 
-			</td>
-			<td> `sap.ui5/resources` 
-			</td>
-			<td>Different format, see *Resources* section below
-			</td>
-		</tr>
-		<tr>
-			<td> `rootView` 
-			</td>
-			<td> `sap.ui5/rootView` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-		<tr>
-			<td> `routing` 
-			</td>
-			<td> `sap.ui5/routing` 
-			</td>
-			<td>-
-			</td>
-		</tr>
-	</tbody>
+Metadata
+
+
+
+</th>
+<th>
+
+Descriptor
+
+
+
+</th>
+<th>
+
+Comment
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Component namespace
+
+
+
+</td>
+<td>
+
+ `sap.app/id` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `version` 
+
+
+
+</td>
+<td>
+
+ `sap.app/applicationVersion/version` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `config` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/config` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `dependencies` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/depedencies` 
+
+
+
+</td>
+<td>
+
+Different format, see *Dependencies* section below
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `customizing` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/extends/extensions` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `handleValidation` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/handleValidation` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `includes` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/resources` 
+
+
+
+</td>
+<td>
+
+Different format, see *Resources* section below
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `rootView` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/rootView` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `routing` 
+
+
+
+</td>
+<td>
+
+ `sap.ui5/routing` 
+
+
+
+</td>
+<td>
+
+-
+
+
+
+</td>
+</tr>
 </table>
 
 ***

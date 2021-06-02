@@ -146,164 +146,465 @@ To control the start the starting point of numbers which should be displyed in c
 
     <a name="loio91f2f2866f4d1014b6dd926db0e91070__table_wdt_rpl_2y"/>Rounding Modes \(with decimals parameter set to 1\)
 
-    |Number
 
-| `FLOOR` 
+    <table>
+    <tr>
+    <th>
 
-| `CEILING` 
+    Number
 
-| `TOWARDS_ZERO` 
 
-| `AWAY_FROM_ZERO` 
+    
+    </th>
+    <th>
 
-| `HALF_FLOOR` 
+     `FLOOR` 
 
-| `HALF_CEILING` 
 
-| `HALF_TOWARDS_ZERO` 
+    
+    </th>
+    <th>
 
-| `HALF_AWAY_FROM_ZERO` 
+     `CEILING` 
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
-<table>
-	<thead>
-		<tr>
-			<th>    </th>
-			<th>--------</th>
-			<th>-----------</th>
-			<th>-------------</th>
-			<th>------------------</th>
-			<th>--------------------</th>
-			<th>----------------</th>
-			<th>------------------</th>
-			<th>-----------------------</th>
-			<th>-------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+    
+    </th>
+    <th>
 
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.2
-			</td>
-			<td>2.2
-			</td>
-			<td>2.2
-			</td>
-		</tr>
-		<tr>
-			<td>2.25
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-		</tr>
-		<tr>
-			<td>2.29
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.2
-			</td>
-			<td>2.3
-			</td>
-			<td>2.3.
-			</td>
-			<td>2.3
-			</td>
-			<td>2.3
-			</td>
-			<td>2.3
-			</td>
-		</tr>
-		<tr>
-			<td>-2.21
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-		</tr>
-		<tr>
-			<td>-2.25
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.3
-			</td>
-		</tr>
-		<tr>
-			<td>-2.29
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.2
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.3
-			</td>
-			<td>-2.3
-			</td>
-		</tr>
-	</tbody>
-</table>
+     `TOWARDS_ZERO` 
 
+
+    
+    </th>
+    <th>
+
+     `AWAY_FROM_ZERO` 
+
+
+    
+    </th>
+    <th>
+
+     `HALF_FLOOR` 
+
+
+    
+    </th>
+    <th>
+
+     `HALF_CEILING` 
+
+
+    
+    </th>
+    <th>
+
+     `HALF_TOWARDS_ZERO` 
+
+
+    
+    </th>
+    <th>
+
+     `HALF_AWAY_FROM_ZERO` 
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    2.21
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    2.25
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    2.29
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.2
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.3.
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    <td>
+
+    2.3
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    -2.21
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    -2.25
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    -2.29
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.2
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    <td>
+
+    -2.3
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 
 ***
 

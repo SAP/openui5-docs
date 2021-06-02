@@ -14,39 +14,77 @@ This section explains the differences and similarities between the two types of 
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_cj5_lbl_sbb"/>Summary of the controls used in the classic and the dynamic header
 
-|Header Area
-
-|Classic Header
-
-|Dynamic Header
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>-------------</th>
-			<th>----------------</th>
-			<th>----------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `sap.uxap.ObjectPageHeader` 
-			</td>
-			<td> `sap.uxap.ObjectPageDynamicHeaderTitle` 
-			</td>
-		</tr>
-		<tr>
-			<td>Content \(controls are used internally\)
-			</td>
-			<td> `sap.uxap.ObjectPageHeaderContent` 
-			</td>
-			<td> `sap.uxap.ObjectPageDynamicHeaderContent` 
-			</td>
-		</tr>
-	</tbody>
+Header Area
+
+
+
+</th>
+<th>
+
+Classic Header
+
+
+
+</th>
+<th>
+
+Dynamic Header
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Title
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageHeader` 
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageDynamicHeaderTitle` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Content \(controls are used internally\)
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageHeaderContent` 
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageDynamicHeaderContent` 
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -66,39 +104,77 @@ The main difference between the classic and dynamic header content is that the d
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_gpd_k3l_sbb"/>Relation between the `sap.uxap.ObjectPageLayout` dynamic header controls and the `sap.f.DynamicPage` controls:
 
-|Layout Control
-
-|Header Title
-
-|Header Content
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------------</th>
-			<th>--------------</th>
-			<th>----------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> `sap.uxap.ObjectPageDynamicHeaderTitle` 
-			</td>
-			<td> `sap.uxap.ObjectPageDynamicHeaderContent` 
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.f.DynamicPage` 
-			</td>
-			<td> `sap.f.DynamicPageTitle` 
-			</td>
-			<td> `sap.f.DynamicPageHeader` 
-			</td>
-		</tr>
-	</tbody>
+Layout Control
+
+
+
+</th>
+<th>
+
+Header Title
+
+
+
+</th>
+<th>
+
+Header Content
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `sap.uxap.ObjectPageLayout` 
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageDynamicHeaderTitle` 
+
+
+
+</td>
+<td>
+
+ `sap.uxap.ObjectPageDynamicHeaderContent` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.f.DynamicPage` 
+
+
+
+</td>
+<td>
+
+ `sap.f.DynamicPageTitle` 
+
+
+
+</td>
+<td>
+
+ `sap.f.DynamicPageHeader` 
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -123,93 +199,192 @@ Similarly, the dynamic header comes with a set of features \(apart from its gene
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_nxg_tpt_sbb"/>Overview of features exclusive to the classic header \(all being `ObjectPageLayout` properties with the exception of the `sap.uxap.ObjectPageHeaderLayoutData` class\):
 
-|Features Exclusive to the Classic Header
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------------------------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Determines whether the title, image, markers and `selectTitleArrow` are displayed in the Header Content area.
-			</td>
-		</tr>
-		<tr>
-			<td> `isChildPage` 
-			</td>
-			<td>Determines whether the page is a child page and renders it with a different design. Child pages have an additional \(darker/lighter\) stripe on the left side of their header content area.
-			</td>
-		</tr>
-		<tr>
-			<td> `alwaysShowContentHeader` 
-			</td>
-			<td>Determines whether Header Content will always be expanded on desktop.
-			</td>
-		</tr>
-		<tr>
-			<td> `showEditHeaderButton` 
-			</td>
-			<td>Determines whether an *Edit* button will be displayed in the Header Content.
-			</td>
-		</tr>
-		<tr>
-			<td> `sap.uxap.ObjectPageHeaderLayoutData` 
-			</td>
-			<td>The `sap.uxap.ObjectPageHeaderLayoutData` can only be set on `headerContent` items for the classic header use case.
-			</td>
-		</tr>
-	</tbody>
+Features Exclusive to the Classic Header
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `showTitleInHeaderContent` 
+
+
+
+</td>
+<td>
+
+Determines whether the title, image, markers and `selectTitleArrow` are displayed in the Header Content area.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `isChildPage` 
+
+
+
+</td>
+<td>
+
+Determines whether the page is a child page and renders it with a different design. Child pages have an additional \(darker/lighter\) stripe on the left side of their header content area.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `alwaysShowContentHeader` 
+
+
+
+</td>
+<td>
+
+Determines whether Header Content will always be expanded on desktop.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `showEditHeaderButton` 
+
+
+
+</td>
+<td>
+
+Determines whether an *Edit* button will be displayed in the Header Content.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `sap.uxap.ObjectPageHeaderLayoutData` 
+
+
+
+</td>
+<td>
+
+The `sap.uxap.ObjectPageHeaderLayoutData` can only be set on `headerContent` items for the classic header use case.
+
+
+
+</td>
+</tr>
 </table>
 
 <a name="loio9c9d94fd28284539a9a5a57e9caf82a8__table_o2z_1qt_sbb"/>Overview of features exclusive to the dynamic header \(all being `ObjectPageLayout` properties\):
 
-|Features Exclusive to the Dynamic Header
-
-|Description
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------------------------------------------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>Determines whether the Header Content area can be pinned.
+Features Exclusive to the Dynamic Header
+
+
+
+</th>
+<th>
+
+Description
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+ `headerContentPinnable` 
+
+
+
+</td>
+<td>
+
+Determines whether the Header Content area can be pinned.
+
 When set to true, a pin button is displayed within the Header Content area. The pin button allows the user to make the Header Content always visible at the top of the page above any scrollable content.
-			</td>
-		</tr>
-		<tr>
-			<td> `toggleHeaderOnTitleClick` 
-			</td>
-			<td>Determines whether the user can switch between the expanded/collapsed states of the dynamic header by clicking/tapping on the Header Title. If set to `false`, the Header Title is not clickable and the app must provide other means for expanding/collapsing the dynamic header, if necessary.
-			</td>
-		</tr>
-		<tr>
-			<td> `preserveHeaderStateOnScroll` 
-			</td>
-			<td>Preserves the current header state when scrolling. For example, if the user expands the header by clicking on the title and then scrolls down the page, the header will remain expanded.
-			</td>
-		</tr>
-		<tr>
-			<td> `toggleHeaderOnTitleClick` 
-			</td>
-			<td>When the feature is enabled, arrow buttons below the Header Content appear, the Header Title and the arrow buttons can be clicked/tapped for collapsing/expanding the header and there is additional visual indication while hovering over the Header Title area or the arrow buttons.
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `toggleHeaderOnTitleClick` 
+
+
+
+</td>
+<td>
+
+Determines whether the user can switch between the expanded/collapsed states of the dynamic header by clicking/tapping on the Header Title. If set to `false`, the Header Title is not clickable and the app must provide other means for expanding/collapsing the dynamic header, if necessary.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `preserveHeaderStateOnScroll` 
+
+
+
+</td>
+<td>
+
+Preserves the current header state when scrolling. For example, if the user expands the header by clicking on the title and then scrolls down the page, the header will remain expanded.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ `toggleHeaderOnTitleClick` 
+
+
+
+</td>
+<td>
+
+When the feature is enabled, arrow buttons below the Header Content appear, the Header Title and the arrow buttons can be clicked/tapped for collapsing/expanding the header and there is additional visual indication while hovering over the Header Title area or the arrow buttons.
+
+
+
+</td>
+</tr>
 </table>
 
 If a legacy property, for example `showTitleInHeaderContent` is set, but an instance of `sap.uxap.ObjectPageDynamicHeaderTitle` is used for the `headerTitle` aggregation \(which will be paired internally with an instance of `sap.uxap.ObjectPageDynamicHeaderContent` for the header content\), this property will be ignored.

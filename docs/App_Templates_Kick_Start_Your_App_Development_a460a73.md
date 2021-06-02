@@ -32,57 +32,130 @@ All templates are available under [Demo Apps](https://openui5.hana.ondemand.com/
 > ### Caution:  
 > SAP Web IDE is no longer available via SAP Business Technology Platform trial accounts. Any references to SAP Web IDE in this documentation are only relevant for you if you have access to SAP Web IDE through a productive SAP BTP account. Please consider SAP Business Application Studio as an alternative. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
-|Template
-
-|Demo App
-
-|Name in SAP Web IDE 
-
-|Name of GitHub Repository
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>----------</th>
-			<th>----------</th>
-			<th>----------------------</th>
-			<th>---------------------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> **Basic Template** 
-			</td>
-			<td> **SAPUI5 Application** 
-			</td>
-			<td> `openui5-basic-template-app` 
-			</td>
-		</tr>
-		<tr>
-			<td>Worklist template
-			</td>
-			<td> **Worklist Template** 
-			</td>
-			<td>**SAP Fiori Worklist Application**
+Template
+
+
+
+</th>
+<th>
+
+Demo App
+
+
+
+</th>
+<th>
+
+Name in SAP Web IDE 
+
+
+
+</th>
+<th>
+
+Name of GitHub Repository
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Basic template
+
+
+
+</td>
+<td>
+
+ **Basic Template** 
+
+
+
+</td>
+<td>
+
+ **SAPUI5 Application** 
+
+
+
+</td>
+<td>
+
+ `openui5-basic-template-app` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Worklist template
+
+
+
+</td>
+<td>
+
+ **Worklist Template** 
+
+
+
+</td>
+<td>
+
+**SAP Fiori Worklist Application**
+
 **SAP Fiori Worklist Application - OData V4**
-			</td>
-			<td> `openui5-worklist-app` 
-			</td>
-		</tr>
-		<tr>
-			<td>Master-Detail template
-			</td>
-			<td> **Master-Detail Template** 
-			</td>
-			<td> **SAP Fiori Master-Detail Application** 
-			</td>
-			<td> `openui5-masterdetail-app` 
-			</td>
-		</tr>
-	</tbody>
+
+
+
+</td>
+<td>
+
+ `openui5-worklist-app` 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Master-Detail template
+
+
+
+</td>
+<td>
+
+ **Master-Detail Template** 
+
+
+
+</td>
+<td>
+
+ **SAP Fiori Master-Detail Application** 
+
+
+
+</td>
+<td>
+
+ `openui5-masterdetail-app` 
+
+
+
+</td>
+</tr>
 </table>
 
 **Related Information**  

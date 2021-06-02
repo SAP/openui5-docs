@@ -71,89 +71,230 @@ Five different types of list items are available, which determine the way a list
 
 Except for `ActionListItem`, list items do **not** by default fire an event unless it is configured with a type that defines how events are fired. The following table shows the different combinations of list item types and events:
 
-|Type
-
-|Press Event
-
-|detailPress Event
-
-|Icon
-
-|Active Feedback
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>------</th>
-			<th>-------------</th>
-			<th>-------------------</th>
-			<th>------</th>
-			<th>-----------------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td>--
-			</td>
-			<td>--
-			</td>
-			<td>--
-			</td>
-			<td>--
-			</td>
-		</tr>
-		<tr>
-			<td>**Active**
-			</td>
-			<td>yes
-			</td>
-			<td>--
-			</td>
-			<td>--
-			</td>
-			<td>yes
-			</td>
-		</tr>
-		<tr>
-			<td>**Navigation**
-			</td>
-			<td>yes
-			</td>
-			<td>--
-			</td>
-			<td>\>
-			</td>
-			<td>yes
-			</td>
-		</tr>
-		<tr>
-			<td>**Detail**
-			</td>
-			<td>--
-			</td>
-			<td>yes
-			</td>
-			<td>\(\>\)
-			</td>
-			<td>--
-			</td>
-		</tr>
-		<tr>
-			<td>**DetailAndActive**
-			</td>
-			<td>yes
-			</td>
-			<td>yes
-			</td>
-			<td>\(\>\)
-			</td>
-			<td>yes \(content only\)
-			</td>
-		</tr>
-	</tbody>
+Type
+
+
+
+</th>
+<th>
+
+Press Event
+
+
+
+</th>
+<th>
+
+detailPress Event
+
+
+
+</th>
+<th>
+
+Icon
+
+
+
+</th>
+<th>
+
+Active Feedback
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+**Inactive \(default\)**
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Active**
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Navigation**
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+\>
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Detail**
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+<td>
+
+\(\>\)
+
+
+
+</td>
+<td>
+
+--
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**DetailAndActive**
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+<td>
+
+yes
+
+
+
+</td>
+<td>
+
+\(\>\)
+
+
+
+</td>
+<td>
+
+yes \(content only\)
+
+
+
+</td>
+</tr>
 </table>
 
 As mentioned above, `ListItemBase` has an unread indicator property, which shows a blue bubble. This has to be enabled by the lists `showUnread` property. For selections on each list item a selected property \(default: `false`\) exists. Another feature is the `counter` property \(default: `null`\), which shows integer numbers except zero. If the number is zero, the counter is hidden. Properties for `ListItemBase`:

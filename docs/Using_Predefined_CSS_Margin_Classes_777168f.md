@@ -46,7 +46,12 @@ For single-sided margins, choose a size \(`Tiny`, `Small`, `Medium`, or `Large`,
 
 Here are the classes we provide for single-sided margins:
 
-|`sapUiTinyMarginTop`
+
+<table>
+<tr>
+<td>
+
+`sapUiTinyMarginTop`
 
 `sapUiTinyMarginBottom`
 
@@ -54,7 +59,12 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiTinyMarginEnd`
 
-|`sapUiSmallMarginTop`
+
+
+</td>
+<td>
+
+`sapUiSmallMarginTop`
 
 `sapUiSmallMarginBottom`
 
@@ -62,7 +72,12 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiSmallMarginEnd`
 
-|`sapUiMediumMarginTop`
+
+
+</td>
+<td>
+
+`sapUiMediumMarginTop`
 
 `sapUiMediumMarginBottom`
 
@@ -70,7 +85,12 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiMediumMarginEnd`
 
-|`sapUiLargeMarginTop`
+
+
+</td>
+<td>
+
+`sapUiLargeMarginTop`
 
 `sapUiLargeMarginBottom`
 
@@ -78,7 +98,11 @@ Here are the classes we provide for single-sided margins:
 
 `sapUiLargeMarginEnd`
 
-|
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -86,35 +110,83 @@ Here are the classes we provide for single-sided margins:
 
 If you’d like to clear the space to the left and right or top and bottom of your control, we've provided several two-sided margin classes for you to use. Again, just choose the size and orientation that you need \(`BeginEnd`, `TopBottom`\). For example, if you need to clear a 32px space both to the left and right of a control, you would add the class `sapUiMediumMarginBeginEnd`. Here are the classes that are available:
 
-|`sapUiTinyMarginBeginEnd`
+
+<table>
+<tr>
+<td>
+
+`sapUiTinyMarginBeginEnd`
 
 `sapUiTinyMarginTopBottom`
 
-|`sapUiSmallMarginBeginEnd`
+
+
+</td>
+<td>
+
+`sapUiSmallMarginBeginEnd`
 
 `sapUiSmallMarginTopBottom`
 
-|`sapUiMediumMarginBeginEnd`
+
+
+</td>
+<td>
+
+`sapUiMediumMarginBeginEnd`
 
 `sapUiMediumMarginTopBottom`
 
-|`sapUiLargeMarginBeginEnd`
+
+
+</td>
+<td>
+
+`sapUiLargeMarginBeginEnd`
 
 `sapUiLargeMarginTopBottom`
 
-|
+
+
+</td>
+</tr>
+</table>
 
 We've also provided a set of negative margin classes that add a two-sided \(`BeginEnd`\) negative margin of an element. The negative margins are useful for aligning elements with built-in paddings.
 
-| `sapUiTinyNegativeMarginBeginEnd` 
 
-| `sapUiSmallNegativeMarginBeginEnd` 
+<table>
+<tr>
+<td>
 
-| `sapUiMediumNegativeMarginBeginEnd` 
+ `sapUiTinyNegativeMarginBeginEnd` 
 
-| `sapUiLargeNegativeMarginBeginEnd` 
 
-|
+
+</td>
+<td>
+
+ `sapUiSmallNegativeMarginBeginEnd` 
+
+
+
+</td>
+<td>
+
+ `sapUiMediumNegativeMarginBeginEnd` 
+
+
+
+</td>
+<td>
+
+ `sapUiLargeNegativeMarginBeginEnd` 
+
+
+
+</td>
+</tr>
+</table>
 
 ***
 
@@ -122,44 +194,72 @@ We've also provided a set of negative margin classes that add a two-sided \(`Beg
 
 If your application is supposed to run on smartphone, tablet and desktop, it can be useful to choose your margins depending on the screen width that is available. OpenUI5 now comes with CSS class `sapUiResponsiveMargin`, which does just that. It works with media queries to determine the available screen width and adapts its margin as follows:
 
-|Screen Width
-
-|Example
-
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
 
 <table>
-	<thead>
-		<tr>
-			<th>--------------</th>
-			<th>---------</th>
-		</tr>
-	</thead>
-	<tbody>
+<tr>
+<th>
 
-			<td> 
+Screen Width
 
-![](loio9520013705d3494383c587b737336856_LowRes.png) 
-			</td>
-		</tr>
-		<tr>
-			<td>Between 600px and 1023px \(tablets and small desktops\): For these, `sapUiResponsiveMargin` provides a 16px \(1rem\) margin all around your control, as you can see in the screenshot.
-			</td>
-			<td> 
 
-![](loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png) 
-			</td>
-		</tr>
-		<tr>
-			<td>Larger than 1023px \(large desktops\): For these, `sapUiResponsiveMargin` provides 16px \(1 rem\) top and bottom margin as well as a 32px \(2 rem\) left and right margin, as shown in the screenshot.
-			</td>
-			<td> 
 
-![](loiof76b0b343adf440684fcd968861fba01_LowRes.png) 
-			</td>
-		</tr>
-	</tbody>
+</th>
+<th>
+
+Example
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Screen width less than 600px \(smartphones\): For devices such as these, `sapUiResponsiveMargin` provides a 16px \(1rem\) bottom margin to your control. Each of the panels shown in the screenshot is using `sapUiResponsiveMargin`. As a result, they're all clearing the same 16px area of space below them.
+
+
+
+</td>
+<td>
+
+ ![](loio9520013705d3494383c587b737336856_LowRes.png) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Between 600px and 1023px \(tablets and small desktops\): For these, `sapUiResponsiveMargin` provides a 16px \(1rem\) margin all around your control, as you can see in the screenshot.
+
+
+
+</td>
+<td>
+
+ ![](loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png) 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Larger than 1023px \(large desktops\): For these, `sapUiResponsiveMargin` provides 16px \(1 rem\) top and bottom margin as well as a 32px \(2 rem\) left and right margin, as shown in the screenshot.
+
+
+
+</td>
+<td>
+
+ ![](loiof76b0b343adf440684fcd968861fba01_LowRes.png) 
+
+
+
+</td>
+</tr>
 </table>
 
 The following exceptions to these rules exist:

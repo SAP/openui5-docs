@@ -16,59 +16,122 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 1.  To build a table, we first need to define columns. For this purpose you can define the Column control with the following properties or aggregations:
 
-    |Property or Aggregation
 
-|Description
+    <table>
+    <tr>
+    <th>
 
-|
- > **Warning:** The below table contains complex elements that cannot not be displayed within a simple markdown table. It has been automatically converted to an HTML table. It's design may vary from the source page!
+    Property or Aggregation
 
-<table>
-	<thead>
-		<tr>
-			<th>    </th>
-			<th>-------------------------</th>
-			<th>-------------</th>
-		</tr>
-	</thead>
-	<tbody>
 
-			<td>Defines column header. Any control can be used but most likely **Label** or **Text** control. If any column has header definition then header line gets visible for all columns.
-			</td>
-		</tr>
-		<tr>
-			<td>**footer**
-			</td>
-			<td>Any control can be assigned to be displayed in the column footer. If at least one column has a footer definition, then the footer line is displayed for all columns.
-			</td>
-		</tr>
-		<tr>
-			<td>**width**
-			</td>
-			<td>Defines the width of the column. If you leave it empty then this column covers the remaining space.
-			</td>
-		</tr>
-		<tr>
-			<td>**hAlign**
-			</td>
-			<td>Defines the horizontal alignment\(*Begin*, *Center*, *End*, *Left*, *Right*\) of the column content. Controls with a textAlign property inherit the horizontal alignment from Column hAlign property.
-			</td>
-		</tr>
-		<tr>
-			<td>**vAlign**
-			</td>
-			<td>Defines the vertical alignment of column cells. Possible values are *Top*, *Middle*, and *Bottom*. This property does not affect the vertical alignment of header and footer.
-			</td>
-		</tr>
-		<tr>
-			<td>**visible**
-			</td>
-			<td>Specifies whether the column is visible. Invisible columns are not rendered.
-			</td>
-		</tr>
-	</tbody>
-</table>
+    
+    </th>
+    <th>
 
+    Description
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    **header**
+
+
+    
+    </td>
+    <td>
+
+    Defines column header. Any control can be used but most likely **Label** or **Text** control. If any column has header definition then header line gets visible for all columns.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **footer**
+
+
+    
+    </td>
+    <td>
+
+    Any control can be assigned to be displayed in the column footer. If at least one column has a footer definition, then the footer line is displayed for all columns.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **width**
+
+
+    
+    </td>
+    <td>
+
+    Defines the width of the column. If you leave it empty then this column covers the remaining space.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **hAlign**
+
+
+    
+    </td>
+    <td>
+
+    Defines the horizontal alignment\(*Begin*, *Center*, *End*, *Left*, *Right*\) of the column content. Controls with a textAlign property inherit the horizontal alignment from Column hAlign property.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **vAlign**
+
+
+    
+    </td>
+    <td>
+
+    Defines the vertical alignment of column cells. Possible values are *Top*, *Middle*, and *Bottom*. This property does not affect the vertical alignment of header and footer.
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    **visible**
+
+
+    
+    </td>
+    <td>
+
+    Specifies whether the column is visible. Invisible columns are not rendered.
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 2.  Sure, we have more properties to make it responsive and to change the design of a column, but we will explain this later. Now, let's see how we can define a right aligned column header:
 
     ``` js
