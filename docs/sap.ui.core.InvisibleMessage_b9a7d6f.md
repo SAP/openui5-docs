@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
 
-This class is experimental and the API might be changed in future.
-
 ***
 
 The `sap.ui.core.InvisibleMessage` enables developers to specify the message to be announced when something dynamically changes on the user interface. In this manner, the class allows control and application developers to improve the usability of the applications, by sending dedicated messages to the screen reader users.

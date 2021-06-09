@@ -62,9 +62,7 @@ The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in w
 
 ### Pop-in Design Layouts
 
-The described pop-in design is provided by a table by default. However, you can change the pop-in layout in the table by defining the property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for a table.
-
-With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available. Otherwise, the pop-in columns are rendered as shown in the image above.
+The described pop-in design is provided by a table by default. However, you can change the pop-in layout in the table by defining the relevant property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for a table. The pop-in columns are rendered as shown in the image above. With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available.
 
 ![](loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png)
 

@@ -33,9 +33,9 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sampl
 
 <a name="loio6f778a805bc3453dbb66e246d8271839__section_sy2_2hg_5pb"/>
 
-### sap.m.Table: Strict Layout
+### Strict Layout
 
-There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases the table offers a strict layout feature. To activate this feature, set the `fixedLayout="Strict"` property in the table. The `Strict` layout takes the defined column width for the columns into account and renders a placeholder column which occupies the remaining width of the table to ensure the column width is strictly applied.
+There might be cases where you need to define a static width \(px, em, or %\) for all columns in the table. For these cases `sap.m.Table` offers a strict layout feature. To activate this feature, set `fixedLayout="Strict"` in the table. The `Strict` layout takes the defined column width for the columns into account and renders a placeholder column which occupies the remaining width of the table to ensure the column width is strictly applied.
 
 ![](loiobbde60a7988c47749f431b5ecd6622ef_LowRes.png)
 
@@ -47,5 +47,5 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entit
 
 -   [sap.m.Column](https://openui5.hana.ondemand.com/#/api/sap.m.Column)
 -   [sap.m.ScreenSize](https://openui5.hana.ondemand.com/#/api/sap.m.ScreenSize)
--   [getFixedLayout](https://openui5.hana.ondemand.com/#/api/sap.m.Table%23methods/getFixedLayout)
+-   [sap.m.Table/getFixedLayout](https://openui5.hana.ondemand.com/#/api/sap.m.Table%23methods/getFixedLayout)
 

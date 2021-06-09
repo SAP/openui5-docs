@@ -41,7 +41,7 @@ And that's it! All you need to know are these two variables for responsive table
 -   *Name* and *Status* columns should never be hidden. This is the default behavior of a column, so let's just let the default values \(`minScreenWidth:""` and `demandPopin:false`\) do their job.
 -   *Model Number* column should be hidden for small devices, so our break point is `minScreenWidth:"Small"` and `demandPopin:false` \(default value\).
 -   *Quantity*, *Unit Price* and *Final Price* columns should go into our pop-in, so our break point is still `minScreenWidth:"Small"` but now with `demandPopin:true` to show the column in a pop-in.
--   For example: On tablets and wider devices we'll have more space available, so we can show the *Final Price* column, but we'll revert to a pop-in for smaller devices. So here our break point should be `minScreenWidth:"Tablet"` and `demandPopin:true`.
+-   For example, on tablets and wider devices we'll have more space available, so we can show the *Final Price* column, but we'll revert to a pop-in for smaller devices. So here our break point should be `minScreenWidth:"Tablet"` and `demandPopin:true`.
 
 > ### Note:  
 > To achieve a valid table design, at least one column should always be visible and should **not** go into the pop-in.
@@ -52,15 +52,15 @@ And that's it! All you need to know are these two variables for responsive table
 
 ### Automatic Pop-In Feature
 
-There is an alternative responsive configuration for simpler cases: Let the responsive table take control of the responsive behavior.
+There is an alternative configuration for simpler cases: Let `sap.m.Table` itself take control of the responsive behavior.
 
 The responsive table provides a feature where the table automatically moves the columns to the pop-in area based on their importance. For this, simply set `autoPopinMode:true` in the responsive table.
 
 The default value of the `importance` property for a column is `"None"`. If there is no column importance defined, the responsive table treats the first column as the most important column. The following columns are treated as less important and are moved to the pop-in area as the browser window size is reduced.
 
-You can alter the default automatic pop-in behavior by defining the `importance` property for the columns.
+You can change the default automatic pop-in behavior by defining the `importance` property for the columns.
 
-The columns are moved to the pop-in area based on their importance in the following order:
+The columns are moved to the pop-in area in the following order based on their importance:
 
 1.  Columns with `Low` importance
 
@@ -78,7 +78,7 @@ You can also hide columns with a specific importance in the pop-in area. To achi
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableAutoPopin).
 
 > ### Note:  
-> -   The automatic pop-in feature ensures that not all columns move to the pop-in area and there is always **one** visible column in the table.
+> -   The automatic pop-in feature ensures that not all columns move to the pop-in area and there is always at least **one** visible column in the table.
 > 
 > -   The `demandPopin` and `minScreenWidth` properties of a column are configured by the responsive table. `minScreenWidth` is determined based on the `width` or `autoPopinWidth` properties of the column if this feature is enabled. If there are any custom settings for the `demandPopin` and `minScreenWidth` properties, they will be overwritten by this feature.
 
