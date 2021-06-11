@@ -62,7 +62,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **`sap.m.App`**
 
-Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the top-level root DOM element for apps. With the new `isTopLevel` property, you can now disable this behavior for different use cases, such as, nested components and standalone usage.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.App).
+Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the top-level root DOM element for apps. With the new `isTopLevel` property, you can now disable this behavior for different use cases, such as nested components and standalone usage.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.App).
 
 
 
@@ -73,7 +73,7 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 
 **`sap.m.ExpandableText`**
 
-Тhe control now also implements the new `emptyIndicatorMode` property. It allows developers to display an empty text as a language dependent “-” symbol. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ExpandableText).
+Тhe control now also implements the new `emptyIndicatorMode` property. It allows developers to display an empty text as a language-dependent “-” symbol. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ExpandableText).
 
 
 

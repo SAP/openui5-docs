@@ -54,7 +54,7 @@ And that's it! All you need to know are these two variables for responsive table
 
 There is an alternative configuration for simpler cases: Let `sap.m.Table` itself take control of the responsive behavior.
 
-The responsive table provides a feature where the table automatically moves the columns to the pop-in area based on their importance. For this, simply set `autoPopinMode:true` in the responsive table.
+The responsive table provides a feature where the table automatically moves the columns to the pop-in area based on their importance. To enable this, simply set `autoPopinMode:true` in the responsive table.
 
 The default value of the `importance` property for a column is `"None"`. If there is no column importance defined, the responsive table treats the first column as the most important column. The following columns are treated as less important and are moved to the pop-in area as the browser window size is reduced.
 
