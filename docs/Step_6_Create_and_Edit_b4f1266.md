@@ -378,6 +378,8 @@ We add a new *Add User* button to the overflow toolbar in the table header, and 
 
 Finally, we add the `liveChange="onInputChange"` event handler to the table cells to make it possible to react to user input. In addition, we set the `valueLiveUpdate` properties for the fields for `UserName` and `Age`. That makes sure that the OpenUI5 types validate the field content with each keystroke.
 
+Creation via a form is demonstrated in our [Sales Orders sample app](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders).
+
 ***
 
 <a name="loiob4f12660538147f8839b05cb03f1d478__section_kl4_d1x_4cb"/>
