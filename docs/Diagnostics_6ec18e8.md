@@ -16,6 +16,9 @@ To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_Open
 
  ![](loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
 
+> ### Note:  
+> Depending on your app, additional features may be available. Check the sections below for more information.
+
  <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio452944574e64438fbe07276b3b4d4673__loio452944574e64438fbe07276b3b4d4673"/>
 
 <!-- loio452944574e64438fbe07276b3b4d4673 -->
