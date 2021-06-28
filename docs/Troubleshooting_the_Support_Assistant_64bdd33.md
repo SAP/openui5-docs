@@ -89,5 +89,28 @@ If the application is HTTP, the location should also be HTTP. If it is HTTPS, th
 
 </td>
 </tr>
+<tr>
+<td>
+
+Temporary rules are not available in the current environment due to Content Security Policy \(CSP\) restrictions.
+
+
+
+</td>
+<td>
+
+Content Security Policy is forbidding the execution of temporary rules.
+
+
+
+</td>
+<td>
+
+Run the Support Assistant in a development environment, where the `script-src` directive is set to `unsafe-eval`. For more information about CSP, see [Content Security Policy](Content_Security_Policy_fe1a6db.md).
+
+
+
+</td>
+</tr>
 </table>
 

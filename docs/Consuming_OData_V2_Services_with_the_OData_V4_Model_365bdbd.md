@@ -69,7 +69,7 @@ If you have an OData V2 service and you want to consume this service with an ODa
 
 ### Type Mapping and Data Conversion
 
-OData V4 has several types, which do not exist in OData V2 \(e.g. `Edm.Date`, `Edm.TimeOfDay`\) and the other way around `dm.DateTime`, `Edm.Time`\), so we need a mapping between corresponding data types.
+OData V4 has several types, which do not exist in OData V2 \(e.g. `Edm.Date`, `Edm.TimeOfDay`\) and the other way around `Edm.DateTime`, `Edm.Time`\), so we need a mapping between corresponding data types.
 
 The following OData V2 types are supported and mapped:
 
