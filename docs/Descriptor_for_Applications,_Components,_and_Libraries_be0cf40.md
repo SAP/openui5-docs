@@ -810,6 +810,29 @@ Version 34
 
 </td>
 </tr>
+<tr>
+<td>
+
+Version 35
+
+
+
+</td>
+<td>
+
+\>=1.92
+
+
+
+</td>
+<td>
+
+1.34.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -1289,6 +1312,11 @@ Unique key/alias for specifying the used data sources; contains the following in
 
     -   `maxAge`: Indicates the number of seconds the client is willing to accept with regard to the age of the data that is requested
 
+    -   `objects`: Dictionary of \(catalog\) objects offered by the INA datasource \(as of 1.92\) consisting of:
+        -   `objectName`: Mandatory CDS view name / analytical query name
+        -   `objectType` - mandatory type of object \(`2C<DDICNAME>` or `CDSViewName`\); values: `query`, `cdsprojectionview`, `view`, `inamodel`
+        -   `packageName`: Name of the package
+        -   `schemaName`: Name of the schema
 
 
 
@@ -1929,7 +1957,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.33.0",
+    "_version": "1.34.0",
  
     "start_url": "index.html",
  
@@ -2019,7 +2047,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.90.0",
+            "minUI5Version": "1.92.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
