@@ -271,6 +271,14 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 
 ***
 
+<a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_SH"/>
+
+### Strict Handling
+
+Section goes here.
+
+***
+
 <a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_osx_m5l_gdb"/>
 
 ### Advertised Operations
