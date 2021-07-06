@@ -1093,7 +1093,7 @@ Refers to an instance method **within** a class
 </td>
 <td>
 
-You can use this type of reference within an API that you are documenting, for example, within the `SmartTable` control documentation if you want to link to a method that belongs to the control itself.
+You must use this type of reference **within** an API that you are documenting, for example, within the `SmartTable` control documentation, if you want to link to a method that belongs to the control itself.
 
 
 

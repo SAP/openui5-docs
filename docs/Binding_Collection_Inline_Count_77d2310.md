@@ -67,3 +67,10 @@ setHeaderContext : function () {
 > 
 > To see this solution for the above example, search for `"headerContext"` in the code of the *OData V4 "Sales Orders"* sample app.
 
+> ### Note:  
+> In addition to binding the inline count of the entity collection read by an `ODataListBinding` you can also use an `ODataPropertyBinding` with an absolute path to read a count separately:
+> 
+> ``` xml
+> <Title text="{/SalesOrderList/$count} Sales Orders"/>
+> ```
+
