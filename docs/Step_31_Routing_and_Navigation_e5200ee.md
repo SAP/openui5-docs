@@ -45,8 +45,7 @@ You can view and download all files at [Walkthrough - Step 31](https://openui5.h
 		"viewType": "XML",
 		"viewPath": "sap.ui.demo.walkthrough.view",
 		"controlId": "app",
-		"controlAggregation": "pages",
-		"async": true
+		"controlAggregation": "pages"
 	  },
 	  "routes": [
 		{
@@ -105,6 +104,7 @@ sap.ui.define([
 	return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
 
 		metadata: {
+			interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
 		},
 

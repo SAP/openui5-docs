@@ -63,7 +63,6 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 	"rootView": {
 		"viewName": "sap.ui.demo.walkthrough.view.App",
 		"type": "XML",
-		"async": true,
 		"id": "app"
 	},
 	"dependencies": {
@@ -196,6 +195,7 @@ sap.ui.define([
    "use strict";
    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
       *HIGHLIGHT START*metadata : {
+            interfaces: ["sap.ui.core.IAsyncContentCreation"],
             manifest: "json"
       },*HIGHLIGHT END*
       init : function () {
@@ -235,4 +235,8 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 
 
 [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
+
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
 

@@ -89,6 +89,8 @@ In addition to the common metadata for components, the `UIComponent` class provi
 
 -   `aggregations`: Defines aggregations for your component
 
+-   `interfaces`: Defines the interfaces implemented by your component
+
 
 The following properties are deprecated and no longer needed if you use the descriptor:
 

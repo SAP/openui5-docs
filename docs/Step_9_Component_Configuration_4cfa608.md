@@ -74,10 +74,11 @@ sap.ui.define([
    "use strict";
    return UIComponent.extend(*HIGHLIGHT START*"sap.ui.demo.walkthrough.Component*HIGHLIGHT END*", {
       *HIGHLIGHT START*metadata : {
+         "interfaces": ["sap.ui.core.IAsyncContentCreation"],
          "rootView": {
             "viewName": "sap.ui.demo.walkthrough.view.App",
             "type": "XML",
-            "async": true,
+            /*"async": true, // implicitly set via the sap.ui.core.IAsyncContentCreation interface*/
             "id": "app"
          }
       },*HIGHLIGHT END*
@@ -179,6 +180,10 @@ We now create a component container instead of the view in our `index.js` that i
 [Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.ViewType)
 
 [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
+
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
+
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
 
 [Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
 

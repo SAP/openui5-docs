@@ -34,7 +34,7 @@ To reference model data in a view , you can use the simple binding syntax "`{*/p
 <Input value="{/firstName}"/>
 ```
 
-You can add other properties like formatters or data types:
+You can add other properties, such as formatters, data types, or events:
 
 -   Data type:
 
@@ -45,7 +45,13 @@ You can add other properties like formatters or data types:
 -   Formatter:
 
     ``` xml
-    <Input value="{path: '/firstName', formatter:'my.globalFormatter'}"/>
+    <Input value="{path: '/firstName', formatter: 'my.globalFormatter'}"/>
+    ```
+
+-   Event:
+
+    ``` xml
+    <Input value="{path: '/firstName', events: { dataRequested: '.onMyDataRequested'}"/>
     ```
 
 
