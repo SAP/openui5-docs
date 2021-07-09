@@ -63,27 +63,6 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 ***
 
-<a name="loio1492551a0b8d4f58adc46eefcf58a2fa__section_yxw_pxt_zcb"/>
-
-### Deprecated Features
-
-
-<table>
-<tr>
-<td>
-
-**Deprecation of String-Based Rendering**
-
-String-based rendering \(also known as "apiVersion 1" of a renderer\) has been deprecated. Please use the [Semantic Rendering API \("apiVersion 2"\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager) instead.
-
-
-
-</td>
-</tr>
-</table>
-
-***
-
 <a name="loio1492551a0b8d4f58adc46eefcf58a2fa__section_rqn_wd5_zcb"/>
 
 ### Improved Controls
@@ -147,6 +126,27 @@ For more information, see the [Analytical Card](https://openui5.hana.ondemand.co
 **`sap.ui.layout.ResponsiveSplitter`**
 
 We have added a new `resize` event, fired when the contents of the `sap.ui.layout.PaneContainer` are resized. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.PaneContainer) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.ResponsiveSplitter/sample/sap.ui.layout.sample.ResponsiveSplitter).
+
+
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio1492551a0b8d4f58adc46eefcf58a2fa__section_yxw_pxt_zcb"/>
+
+### Deprecations
+
+
+<table>
+<tr>
+<td>
+
+**Deprecation of String-Based Rendering**
+
+String-based rendering \(also known as "apiVersion 1" of a renderer\) has been deprecated. Please use the [Semantic Rendering API \("apiVersion 2"\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager) instead.For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated).
 
 
 
