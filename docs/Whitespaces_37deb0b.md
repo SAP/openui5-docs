@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Whitespaces
 
-...
+Whitespace characters represent the empty space between all the characters, you can actually see.
 
 Whitespaces are not native to HTML. Their handling is delegated to the CSS, as they are considered to have a formatting value. The reasoning and browser handling are described in detail here: [White Space and Wrapping](https://www.w3.org/TR/css-text-3/#white-space-property).
 
@@ -37,7 +37,7 @@ Things to consider
 <tr>
 <td>
 
-Use HTML entities. For more information, see: [https://developer.mozilla.org/en-US/docs/Glossary/Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
+Use HTML entities. For more information, see: [https://developer.mozilla.org/en-US/docs/Glossary/Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity).
 
 
 
@@ -53,7 +53,7 @@ HTML entities do not work in inputs. Also, they are usually escaped by sanitizer
 <tr>
 <td>
 
-Use CSS’s `white-space` property to format texts where needed
+Use CSS’s `white-space` property to format texts where needed.
 
 
 
