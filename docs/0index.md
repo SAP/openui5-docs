@@ -600,7 +600,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
         -   [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
         -   [Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md)
         -   [Reacting on User Input Events](Reacting_on_User_Input_Events_c75861e.md)
-        -   [Whitespaces](Whitespaces_37deb0b.md)
+        -   [Whitespaces Concept](Whitespaces_Concept_37deb0b.md)
         -   [Coding Issues to Avoid](Coding_Issues_to_Avoid_3877872.md)
             -   [JavaScript Code Issues](JavaScript_Code_Issues_030fcd1.md)
             -   [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md)

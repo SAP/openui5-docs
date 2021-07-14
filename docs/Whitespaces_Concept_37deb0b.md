@@ -1,0 +1,94 @@
+<!-- loio37deb0bee3e2474887f1521cc583ab69 -->
+
+| loio |
+| -----|
+| 37deb0bee3e2474887f1521cc583ab69 |
+
+<div id="loio">
+
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/37deb0bee3e2474887f1521cc583ab69) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/37deb0bee3e2474887f1521cc583ab69)</div>
+
+## Whitespaces Concept
+
+Whitespace characters represent the empty space between all the characters, you can actually see.
+
+Whitespaces are not native to HTML. Their handling is delegated to the CSS, as they are considered to have a formatting value. The reasoning and browser handling are described in detail here: [White Space and Wrapping](https://www.w3.org/TR/css-text-3/#white-space-property).
+
+However, there might be cases when a whitespace can be meaningful for the HTML document. There are several options to handle such cases, but neither of them is perfect and could fit all scenarios:
+
+
+<table>
+<tr>
+<th>
+
+Solution
+
+
+
+</th>
+<th>
+
+Things to consider
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+Use HTML entities. For more information, see: [https://developer.mozilla.org/en-US/docs/Glossary/Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity).
+
+
+
+</td>
+<td>
+
+HTML entities do not work in inputs. Also, they are usually escaped by sanitizers. They are rendered as strings. For example, `&nbsp;`.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Use CSS’s `white-space` property to format texts where needed.
+
+
+
+</td>
+<td>
+
+CSS’s `white-space` property could have been already used for some special formatting and could not be reused. For example, for text truncation.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Use Unicode characters to display spaces.
+
+
+
+</td>
+<td>
+
+Unicode characters are displayed well in texts and inputs, yet, they are Unicode characters and this could have an impact on the data.
+
+
+
+</td>
+</tr>
+</table>
+
+As you can see, there’s no single fit solution for all the scenarios, but we could use a mix to achieve the desired behavior.
+
+For HTML inputs, we don’t have to do anything. The whitespaces are rendered properly there.
+
+For the text display controls, we could use either the white-space CSS property, or the Unicode characters.
+
+In terms of OpenUI5, you would need to use formatters in order to display whitespaces in your applications. Here’s a sample page where it’s been demonstrated for different controls: \[Link to Demo Kit sample\]
+
