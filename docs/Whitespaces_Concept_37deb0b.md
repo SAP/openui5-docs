@@ -10,11 +10,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Whitespaces Concept
 
-Whitespace characters represent the empty space between all the characters, you can actually see.
+Whitespace characters represent the empty space between all the characters that you can see on the screen.
 
-Whitespaces are not native to HTML. Their handling is delegated to the CSS, as they are considered to have a formatting value. The reasoning and browser handling are described in detail here: [White Space and Wrapping](https://www.w3.org/TR/css-text-3/#white-space-property).
+Whitespaces are not native to HTML. Their handling is delegated to the CSS because they are considered to have a formatting value. The reasoning and browser handling are described in detail here: [White Space and Wrapping](https://www.w3.org/TR/css-text-3/#white-space-property).
 
-However, there might be cases when a whitespace can be meaningful for the HTML document. There are several options to handle such cases, but neither of them is perfect and could fit all scenarios:
+However, there might be cases when whitespaces can be meaningful for the HTML document. There are several options for handling such cases:
 
 
 <table>
@@ -44,7 +44,7 @@ Use HTML entities. For more information, see: [https://developer.mozilla.org/en-
 </td>
 <td>
 
-HTML entities do not work in inputs. Also, they are usually escaped by sanitizers. They are rendered as strings. For example, `&nbsp;`.
+HTML entities do not work in inputs. Also, they are usually escaped by sanitizers and are rendered as strings. For example, `&nbsp;`.
 
 
 
@@ -53,14 +53,14 @@ HTML entities do not work in inputs. Also, they are usually escaped by sanitizer
 <tr>
 <td>
 
-Use CSS’s `white-space` property to format texts where needed.
+Use the CSS’s `white-space` property to format texts where needed.
 
 
 
 </td>
 <td>
 
-CSS’s `white-space` property could have been already used for some special formatting and could not be reused. For example, for text truncation.
+The CSS’s `white-space` property could have already been used for some special formatting, for example, for text truncation, and you might not be able to reuse it.
 
 
 
@@ -76,7 +76,7 @@ Use Unicode characters to display spaces.
 </td>
 <td>
 
-Unicode characters are displayed well in texts and inputs, yet, they are Unicode characters and this could have an impact on the data.
+Unicode characters are displayed well in texts and inputs, however, they are Unicode characters and this could have an impact on the data.
 
 
 
@@ -84,11 +84,11 @@ Unicode characters are displayed well in texts and inputs, yet, they are Unicode
 </tr>
 </table>
 
-As you can see, there’s no single fit solution for all the scenarios, but we could use a mix to achieve the desired behavior.
+As you can see, there’s no single fit solution for all the scenarios, but you can use a mix to achieve the desired behavior.
 
-For HTML inputs, we don’t have to do anything. The whitespaces are rendered properly there.
+For HTML inputs, you don’t have to do anything. The whitespaces are rendered properly there.
 
-For the text display controls, we could use either the white-space CSS property, or the Unicode characters.
+For text display controls, you could use either the `white-space` CSS property, or Unicode characters.
 
-In terms of OpenUI5, you would need to use formatters in order to display whitespaces in your applications. Here’s a sample page where it’s been demonstrated for different controls: \[Link to Demo Kit sample\]
+In terms of OpenUI5, you would need to use formatters to display whitespaces in your applications. Here’s a sample page where you can see how it's used for different controls: \[Link to Demo Kit sample\]
 
