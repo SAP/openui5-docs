@@ -1400,6 +1400,24 @@ Array of directly used open source libraries for documentation purposes; not use
 
 </td>
 </tr>
+<tr>
+<td>
+
+ `resources` 
+
+
+
+</td>
+<td>
+
+Relative URL as a reference to a file \(naming convention is `resources.json`\) that contains a list of all resources needed by the app \(all resources inside the app\); the file is generated in an SAP Web IDE build step.
+
+For a description of `resources.json`, see [The resources.json File](The_resources.json_File_adcbcf8.md).
+
+
+
+</td>
+</tr>
 </table>
 
 ***

@@ -20,7 +20,7 @@ The tool aims to reduce maintenance and consulting times and to streamline OpenU
 
 Check out the Support Assistant highlights video for an overview of its main functionalities:
 
-     
+  
 
 ***
 

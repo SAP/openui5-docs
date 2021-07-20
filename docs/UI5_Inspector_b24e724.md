@@ -14,7 +14,7 @@ The UI5 Inspector is an open source Chrome DevTools extension that helps app dev
 
 Check out the UI5 Inspector video on YouTube for a quick overview of the most common use cases.
 
-   
+
 
 Key features:
 

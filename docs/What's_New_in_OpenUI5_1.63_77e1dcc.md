@@ -42,7 +42,7 @@ UI5 Web Components are a set of reusable UI elements, which can be used for your
 
 UI5 Web Components are not built on top of OpenUI5 and are not its successor. They are lightweight and independent UI elements, offered complementary to the framework.
 
-   
+
 
 For more information, see the [UI5 Web Components](https://sap.github.io/ui5-webcomponents/) home page, the [GitHub Project](https://github.com/SAP/ui5-webcomponents), and the [blog post](https://blogs.sap.com/2019/02/11/ui5-web-components-the-beta-is-there/).
 

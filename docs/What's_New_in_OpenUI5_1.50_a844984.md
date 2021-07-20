@@ -45,7 +45,7 @@ The new Demo Kit contains the following sections:
 </td>
 <td>
 
- SAPUI5 Highlights   
+
 
 
 
