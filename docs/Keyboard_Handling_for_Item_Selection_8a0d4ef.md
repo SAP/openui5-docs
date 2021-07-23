@@ -168,7 +168,23 @@ If focus is on an item, change selection state \(selected/ not selected\) to the
 
 Selects all items which the user can reach in the current view by scrolling or paging.
 
-If all items are selected, deselect all items.
+If all items are selected, deselects all items.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [Ctrl\] + [Shift\] + [A\] 
+
+
+
+</td>
+<td>
+
+Deselects all items which the user can reach in the current view by scrolling or paging.
 
 
 
