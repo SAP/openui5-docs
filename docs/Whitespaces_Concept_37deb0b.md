@@ -90,5 +90,5 @@ For HTML inputs, you don’t have to do anything. The whitespaces are rendered p
 
 For text display controls, you could use either the `white-space` CSS property, or Unicode characters.
 
-In terms of OpenUI5, you would need to use formatters to display whitespaces in your applications. Here’s a sample page where you can see how it's used for different controls: \[Link to Demo Kit sample\]
+In terms of OpenUI5, you would need to use formatters to display whitespaces in your applications. Here’s a sample page where you can see how it's used for different controls: For more information, see the [Sample for `sap.m.WhitespacePattern`](https://openui5.hana.ondemand.com/#/entity/sap.m.WhitespacePattern). 
 

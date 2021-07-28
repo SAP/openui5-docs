@@ -100,7 +100,7 @@ If focus is on an item, select the item and deselect all others.
 </td>
 <td>
 
-If focus is on an item, select the item in addition to an existing selection..
+If focus is on an item, select the item in addition to an existing selection.
 
 
 
