@@ -321,13 +321,25 @@ If you want to add an embedded component with a stable ID, you have two options:
 </td>
 <td>
 
-If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+If you use XML fragments in your app, make sure they are instantiated with the correct view ID prefix.To simplify this you can use the `loadFragment` function on your `sap.ui.core.mvc.Controller` instance.
 
-Example:
+Example using the controller function `loadFragment`:
+
+``` js
+// "this" is the controller instance
+this.loadFragment({
+	// note: no ID prefix needed
+	name: "my.fragment.SampleFragment"
+});
+```
+
+Example using the generic function `sap.ui.core.Fragment.load`:
 
 ``` js
 // "Fragment" required from module "sap/ui/core/Fragment"
+// "this" is the controller instance
 Fragment.load({
+	// note: ID prefix needed
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
 });

@@ -117,15 +117,13 @@ Controller code:
 
 		if (!this.pEditPanel) {
 			// load and instantiate the edit panel lazily
-			// we keep the Promise of the Fragment.load() call,
+			// we keep the Promise of the loadFragment() call,
 			// so that we do not trigger the fragment loading everytime the user clicks the button
-			this.pEditPanel = Fragment.load({
+			this.pEditPanel = this.loadFragment({
 				name: "myApp.EditPanel",
-				// giving the View ID to the Fragment.load() function will prefix the IDs in the Fragment and allows using this.byId(…) in the Controller
-				// giving “this” (the Controller) allows using controller methods from within the Fragment
-				id: this.getView().getId(),
-				type: "XML",
-				controller: this
+				// we don't add the fragment to the view's 'dependents' aggregation, since the fragment content
+				//  will be added to the view's control tree via the 'myPage' instance
+				addToDependents: false
 			}).then(function (oFragment) {
 				this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
 			}.bind(this));
@@ -147,9 +145,11 @@ In other scenarios, at the time of developing you may not know which UI part is 
 	toEditMode: function () {...},
 	onInit: function () {
 		// we keep the loading Promise, so we can chain ourselves to it later
-		this.pEditPanel = Fragment.load({
+		this.pEditPanel = this.loadFragment({
 			name: bEditMode ? "myApp.EditPanel" : "myApp.DisplayPanel",
-			type: "XML"
+			// we don't add the fragment to the view's 'dependents' aggregation, since the fragment content
+			//  will be added to the view's control tree via the 'myPage' instance
+			addToDependents: false
 		}).then(function (oFragment) {
 			this.byId("myPage").insertContent(oFragment, 0); // for sake of simplicity inserts at position 0
 		});

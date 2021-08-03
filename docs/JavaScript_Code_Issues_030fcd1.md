@@ -179,11 +179,11 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 
-    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
     -   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
@@ -191,7 +191,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
-    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
     -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 

@@ -17,29 +17,12 @@ The fragment instantiation function always returns the fragment's root control, 
 In the following example, the dialog is opened immediately:
 
 ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
+// "this" has to be the controller instance of a controller extending module "sap/ui/core/mvc/Controller"
+this.loadFragment({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
 	oDialog.open();
 });
 ```
 
-Note that any global model is available for data binding within this dialog. Also any model set on the dialog itself. However, if this dialog is opened from a controller, the model of this controller's view is NOT automatically available within the dialog fragment. The reason for this is that the dialog is not part of the view UI. If the above code for opening the fragment dialog is part of a controller, it could set the view's model on the dialog:
-
-``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
-	oDialog.setModel(this.getView().getModel());
-	oDialog.open();
-}.bind(this));
-```
-
-Alternatively, the special aggregation `dependents` of `sap.ui.core.Element` can be used to connect the dialog to the lifecycle management and data binding of the view:
-
-``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
-	this.getView().addDependent(oDialog);
-	oDialog.open();
-}.bind(this));
-```
+> ### Note:  
+> Any global model and any models set on the controller's view are automatically available for data binding within this dialog. The fragment content is automatically added to the view's `dependents` aggregation. In consequence, the dialog is also automatically destroyed once the view is destroyed.
 

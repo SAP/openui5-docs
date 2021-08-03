@@ -501,6 +501,26 @@ var aControls = sap.ui.fragment({
 </td>
 <td>
 
+If you're instantiating your fragment in a controller which extends `sap.ui.core.mvc.Controller`, you can use the `loadFragment` function:
+
+```
+
+sap.ui.define(['sap/ui/core/mvc/Controller'], function(Controller){
+
+    return Controller.extend("my.MyController", {
+
+        onInit: function(){
+            this.loadFragment({
+                name: "my.fragment"
+            }).then(function(aControls) { ... });
+        }
+        
+    });
+});
+```
+
+If you're instantiating your fragment outside a controller, you can use the static `Fragment.load` function:
+
 ```
 
 sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
@@ -516,9 +536,9 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 ```
 
 > ### Caution:  
-> Please make sure that you are correctly chaining to the `Fragment.load` Promise!
+> Please make sure that you are correctly chaining to the `loadFragment` or `Fragment.load` Promise!
 > 
-> Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
+> Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` will result in `undefined` if called before the `loadFragment` or `Fragment.load` Promise is resolved.
 
 
 
