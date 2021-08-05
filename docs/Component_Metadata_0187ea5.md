@@ -16,8 +16,8 @@ The component class provides specific metadata for components by extending the `
 > With the introduction of the descriptor for applications, components, and libraries, we recommend to migrate the component metadata to the descriptor. The descriptor is inspired by W3C’s Web Application Manifest and provides comprehensive information for applications, components and libraries. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). The metadata property `manifest` must be set to `json` to indicate that the `manifest.json` file should be loaded and used:
 > 
 > ``` js
-> 
-> sap.ui.core.Component.extend("some.sample.Component", {
+> // "Component" required from module "sap/ui/core/Component"
+> Component.extend("some.sample.Component", {
 >     "metadata": {
 >         "manifest": "json"
 >     }
@@ -69,8 +69,8 @@ The following properties are deprecated and no longer needed if you use the desc
 Example for metadata in `Component.js`:
 
 ``` js
-
-sap.ui.core.Component.extend("some.sample.Component", {
+// "Component" required from module "sap/ui/core/Component"
+Component.extend("some.sample.Component", {
     "metadata": {
         "manifest": "json", // Specifies that your Component class uses the descriptor via the manifest.json file
         "abstract": true, // Specifies if your Component class is an abstract one that serves as a base for your other components 
@@ -124,8 +124,8 @@ The following properties are deprecated and no longer needed if you use the desc
 Example for UI component metadata:
 
 ``` js
-
-sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
+// "UIComponent" required from module "sap/ui/core/UIComponent"
+UIComponent.extend("some.sample.UIComponent", {
     "metadata": {
         "publicMethods": [ "render" ],
         "aggregations": {
@@ -144,8 +144,8 @@ sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
 You can add a properties section to the metadata for all properties that can adopt different values during runtime. The getters and setters for these properties are generated automatically, but you can overwrite them if you require additional functionality. The following example contains two properties at the end of the metadata section.
 
 ``` js
-
-sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
+// "UIComponent" required from module "sap/ui/core/UIComponent"
+UIComponent.extend("samples.components.shell.Component", {
     "metadata": {
         "abstract": true,
         "version": "1.0",

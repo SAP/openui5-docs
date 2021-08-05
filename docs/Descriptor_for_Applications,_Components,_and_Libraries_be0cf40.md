@@ -891,11 +891,21 @@ The `manifest` option allows you to configure when and from where the descriptor
     });
     ```
 
--   Suppress loading the manifest by setting the `manifest` flag to `false`, for example, when a legacy component doesn't have one:
+-   There are two possible scenarios for setting the `manifest` flag to `false`:
+
+    1.  The component defines `manifest: "json"` in its [Component Metadata](Component_Metadata_0187ea5.md).
+
+        In this case, the descriptor is loaded and evaluated **after** the Component controller. All dependencies defined in the descriptor will then also be loaded. Afterwards, the Component is instantiated.
+
+    2.  The component does not define `manifest: "json"` in its [Component Metadata](Component_Metadata_0187ea5.md).
+
+        This is typically the case for older legacy Components without a descriptor. In this case, only the Component's class metadata is evaluated. No additional descriptor file will be loaded.
 
     ``` js
     // "Component" required from module "sap/ui/core/Component"
     // load component without loading a manifest first
+    //  - Case 1: the manifest.json is loaded after the Component controller
+    //  - Case 2: no manifest.json is loaded (legacy)
     Component.create({
       name: "sap.my.component",
       manifest: false
