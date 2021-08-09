@@ -61,8 +61,11 @@ sap.ui.define([
 			var oModel = new JSONModel(oData);
 			this.setModel(oModel);
 
-			*HIGHLIGHT START*// set dialog
-			this._helloDialog = new HelloDialog(this.getRootControl());
+			*HIGHLIGHT START*
+			// set dialog, we wait for the
+			this.rootControlLoaded().then(function() {
+				this._helloDialog = new HelloDialog(this.getRootControl());
+			}.bind(this));
 		},
 
 
