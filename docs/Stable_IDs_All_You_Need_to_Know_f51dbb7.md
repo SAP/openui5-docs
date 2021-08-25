@@ -71,7 +71,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Views in the descriptor for applications, components, and libraries
 
-    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md).
 
     Example:
 
@@ -512,5 +512,5 @@ If any generated IDs are found, set the IDs for these controls manually as descr
 **Related Information**  
 
 
-[Support Assistant](Support_Assistant_57ccd7d.md)
+[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.")
 

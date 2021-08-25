@@ -173,17 +173,17 @@ We now create a component container instead of the view in our `index.js` that i
 **Related Information**  
 
 
-[Components](Components_958ead5.md)
+[Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
 [API Reference: `sap.ui.core.mvc.ViewType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)
 
 [Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.ViewType)
 
-[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
+[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
 
-[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")
 
-[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as well as the event bus.")
 
-[Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
+[Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md "CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.")
 

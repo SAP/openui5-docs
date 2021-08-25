@@ -85,7 +85,7 @@ To format the output text individually, we remove the description from the input
 **Related Information**  
 
 
-[Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md)
+[Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md "OpenUI5 gives you the option of adding spacing in between controls by adding a margin. A margin clears an area around its respective control, outside of its border.")
 
-[Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md)
+[Using Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md "For many container controls in OpenUI5, such as a Dialog or a Page, you can define whether the container should have a padding within the content area. A padding clears the area between the container layout and the controls that are displayed in the content area.")
 

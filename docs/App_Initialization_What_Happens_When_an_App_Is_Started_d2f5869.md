@@ -22,5 +22,5 @@ When a user starts an app \(in the SAP Fiori launchpad \(FLP\) or using an HTML 
 **Related Information**  
 
 
-[App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md)
+[App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md "We recommend creating at least three files for your app: the descriptor (manifest.json), the component (Component.js), and the main view of the app (App.view.xml).")
 

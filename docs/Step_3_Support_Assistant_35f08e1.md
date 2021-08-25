@@ -70,5 +70,5 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 **Related Information**  
 
 
-[Support Assistant](Support_Assistant_57ccd7d.md)
+[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.")
 

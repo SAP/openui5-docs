@@ -202,9 +202,9 @@ In this example, the `Home` view is always shown when the hash is empty. The `Ca
 
 [Sample: Targets Without a Router](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.routing.Targets/samplesl)
 
-[Working with Multiple Targets](Working_with_Multiple_Targets_2c5c84d.md)
+[Working with Multiple Targets](Working_with_Multiple_Targets_2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.")
 
-[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
+[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md)
+[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 

@@ -199,11 +199,11 @@ This script loads and executes our formatter. If we now open the `webapp/test/un
 **Related Information**  
 
 
-[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)
+[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md "QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic JavaScript code. It supports asynchronous tests out-of-the-box.")
 
 [QUnit Home Page](https://qunitjs.com/)
 
 [Sinon.JS Home Page](http://sinonjs.org/)
 
-[Testing](Testing_291c912.md)
+[Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 

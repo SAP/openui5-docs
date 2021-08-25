@@ -31,7 +31,7 @@ In addition, you can see the following information:
 
 -   The jQuery version that is loaded from the server. If you want to use a specific jQuery feature, you should check whether the feature is supported in the loaded version.
 
--   The bootstrap configuration, where you can check, for example, the resource root, the theme, or the libraries. The libraries should be listed in the `libs` configuration parameter or in the descriptor file \(recommended\), see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). To improve performance, remove unused libraries and add the libraries that you use and are not yet listed. These libraries are loaded as a preload file. We recommend to also add the `async` configuration option to the bootstrap. This configuration option enables asynchronous loading of modules and preload files and can, thus, further improve performance. For more information, see [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md).
+-   The bootstrap configuration, where you can check, for example, the resource root, the theme, or the libraries. The libraries should be listed in the `libs` configuration parameter or in the descriptor file \(recommended\), see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md). To improve performance, remove unused libraries and add the libraries that you use and are not yet listed. These libraries are loaded as a preload file. We recommend to also add the `async` configuration option to the bootstrap. This configuration option enables asynchronous loading of modules and preload files and can, thus, further improve performance. For more information, see [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md).
 
 -   The computed configuration
 
@@ -342,5 +342,5 @@ You can start the interaction data collection in the following ways:
 **Related Information**  
 
 
-[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md)
+[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md "You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.")
 

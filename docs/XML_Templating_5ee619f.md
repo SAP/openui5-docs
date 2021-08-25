@@ -87,8 +87,6 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 ***
 
-### To run the sample in SAP Business Application Studio:
-
  See the [sap.ui.core.sample.ViewTemplate.tiny](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.ViewTemplate.tiny/preview) XML Templating sample. This sample is based on OData Version 4.0 annotations. It contains the following files worth noting:
 
 -   An annotations file containing label texts and binding paths.
@@ -109,6 +107,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 > The OData model used in this example is based on `GWSAMPLE_BASIC` and will not work unless a suitable proxy for back-end access is used. For simplicity, no mock data is included in this example.
 > 
 > For more information, see the Help topic, [Sample Service - Basic](http://help.sap.com/saphelp_nw74/helpdata/en/59/283fc4528f486b83b1a58a4f1063c0/frameset.htm).
+
+ **To run the sample in SAP Business Application Studio:** 
 
 1.  [Get a free trial account on SAP BTP](https://developers.sap.com/tutorials/hcp-create-trial-account.html), [set up SAP Business Application Studio for development](https://developers.sap.com/tutorials/appstudio-onboarding.html), and [create a dev space for SAP Fiori Apps](https://developers.sap.com/tutorials/appstudio-devspace-fiori-create.html), as described in [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
@@ -142,6 +142,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 6.  Run the sample in your browser \(see Step 4 of [Create an empty SAPUI5 project](https://developers.sap.com/tutorials/sapui5-101-create-project.html)\).
 
+
+ **Component.js** 
 
 ``` js
 1   /*!
@@ -224,6 +226,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 78  });
 ```
 
+ **Template.view.xml** 
+
 ``` xml
 1   <mvc:View
 2       xmlns="sap.m"
@@ -258,6 +262,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 31  </mvc:View>
 ```
 
+ **Field.fragment.xml** 
+
 ``` xml
 1   <core:FragmentDefinition
 2       xmlns="sap.m"
@@ -278,6 +284,8 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 ```
 
 The result is equivalent to the following handwritten XML view. Any references to the meta model are gone. Type information has been inserted into the bindings and an `"odata.concat"` expression for `badge>MainInfo/Value` has been processed by `sap.ui.model.odata.AnnotationHelper.format`, concatenating the company name and legal form.
+
+ **Resulting XML View** 
 
 ``` xml
 <mvc:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc">
@@ -323,9 +331,9 @@ Overall, XML templating is based on:
 **Related Information**  
 
 
-[Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2)
+[Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2 "The implementation sap.ui.model.odata.ODataMetaModel offers a unified access to both OData Version 2.0 metadata and Version 4.0 annotations.")
 
-[Expression Binding](Expression_Binding_daf6852.md)
+[Expression Binding](Expression_Binding_daf6852.md "Expression binding is an enhancement of the OpenUI5 binding syntax, which allows for providing expressions instead of custom formatter functions.")
 
 [SAP Annotations for OData Version 2.0](http://www.sap.com/Protocols/SAPData)
 

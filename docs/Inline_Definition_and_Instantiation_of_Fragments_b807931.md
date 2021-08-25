@@ -59,5 +59,5 @@ sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
 **Related Information**  
 
 
-[Programmatically Instantiating JS Fragments](Programmatically_Instantiating_JS_Fragments_3cff5d0.md)
+[Programmatically Instantiating JS Fragments](Programmatically_Instantiating_JS_Fragments_3cff5d0.md "For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.")
 

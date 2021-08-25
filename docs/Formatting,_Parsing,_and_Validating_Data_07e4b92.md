@@ -153,5 +153,5 @@ sap.ui.define([
 **Related Information**  
 
 
-[Binding Syntax](Binding_Syntax_e2e6f41.md)
+[Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

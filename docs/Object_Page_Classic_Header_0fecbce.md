@@ -201,7 +201,7 @@ With the use of the `sap.uxap.ObjectPageHeaderLayoutData` class, you can specify
 
 [API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageLayout.html)
 
-[Object Page Headers](Object_Page_Headers_d2ef009.md)
+[Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 
-[Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md)
+[Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md "This section explains the differences and similarities between the two types of header of the sap.uxap.ObjectPageLayout control.")
 

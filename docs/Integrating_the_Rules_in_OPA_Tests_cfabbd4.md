@@ -151,9 +151,9 @@ This special URL parameter could be used temporarily in cases when you extend an
 **Related Information**  
 
 
-[Execution Scope](Execution_Scope_e15067d.md)
+[Execution Scope](Execution_Scope_e15067d.md "OpenUI5 apps consist of multiple views, components and fragments. If you run the rules on the complete app with all loaded elements and components, you may not get the desired results. Therefore, the Support Assistant allows you to change the scope of an analysis run and thus narrow down your result set. This helps you focus on specific issues, components or controls within your app.")
 
-[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
+[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
 [Samples: `Running OPA tests with Support Assistant checks`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.OpaWithSupportAssistant/preview)
 

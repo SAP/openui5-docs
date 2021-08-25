@@ -130,7 +130,7 @@ And now we are done! We built a simple application with user data from an OData 
 **Related Information**  
 
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[OData Operations](OData_Operations_b54f789.md)
+[OData Operations](OData_Operations_b54f789.md "The OData V4 model supports OData operations (ActionImport, FunctionImport, bound Actions and bound Functions). Unbound parameters are limited to primitive values.")
 

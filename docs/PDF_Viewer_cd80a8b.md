@@ -100,5 +100,5 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 **Related Information**  
 
 
-[URL List Validation](URL_List_Validation_91f3768.md)
+[URL List Validation](URL_List_Validation_91f3768.md "The OpenUI5 framework provides a client-side API to manage allowed URLs using the URLListValidator. It can be used to validate arbitrary URLs.")
 

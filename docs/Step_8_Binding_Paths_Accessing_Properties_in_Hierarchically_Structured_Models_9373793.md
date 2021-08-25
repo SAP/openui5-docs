@@ -161,5 +161,5 @@ panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText=Data Binding Grundlagen
 **Related Information**  
 
 
-[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")
 

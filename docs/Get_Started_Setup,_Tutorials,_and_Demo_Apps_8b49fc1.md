@@ -118,7 +118,7 @@ If you want to see some practical examples for OpenUI5 apps, check out our [Demo
 **Related Information**  
 
 
-[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)
+[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md "The app templates documented here are a kind of &quot;best practice&quot; for your app development.")
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 

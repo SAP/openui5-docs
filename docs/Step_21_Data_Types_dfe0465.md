@@ -98,9 +98,9 @@ To be able to access the currency code that is not part of our data model, we de
 **Related Information**  
 
 
-[Composite Binding](Composite_Binding_a2fe8e7.md)
+[Composite Binding](Composite_Binding_a2fe8e7.md "Calculated fields enable the binding of multiple properties in different models to a single property of a control.")
 
-[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)
+[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 
 [API Reference: `sap.ui.model.type`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.type-1.html)
 

@@ -575,7 +575,7 @@ Time during which a `BusyIndicator` was rendered and hence blocking the UI durin
 
 [API Reference: `sap/ui/performance/Measurement`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/performance/Measurement)
 
-[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
+[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
 
 [`NavigationTiming` API on `https://developer.mozilla.org`](https://developer.mozilla.org/en/docs/Web/API/Navigation_timing_API)
 

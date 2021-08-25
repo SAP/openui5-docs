@@ -92,5 +92,5 @@ For more information about writing custom CSS in general, please also read [CSS 
 **Related Information**  
 
 
-[The Device API](The_Device_API_69a8e46.md)
+[The Device API](The_Device_API_69a8e46.md "The device API (sap.ui.Device) is an API which provides information about device specifics, like the operating system along with its version, the browser and browser version, screen size, current orientation and support for specific features like touch event support, orientation change and so on.")
 

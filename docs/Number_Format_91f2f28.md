@@ -625,7 +625,7 @@ oFloatFormat.parse("12.34%"); // returns 0.1234
 
 [API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)
 
-[Unit Formatting](Unit_Formatting_8e618a8.md)
+[Unit Formatting](Unit_Formatting_8e618a8.md "OpenUI5 supports the formatting and parsing of units. These unit formats are by default taken from the CLDR. Besides the default units defined in the CLDR, you can also define custom units.")
 
-[Currency Formatting](Currency_Formatting_e978728.md)
+[Currency Formatting](Currency_Formatting_e978728.md "")
 

@@ -230,7 +230,7 @@ Now you can open the app and press the *Show Employee List* button to navigate t
 **Related Information**  
 
 
-[Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md)
+[Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method and events for navigation.")
 
 [API Reference: `sap.ui.core.routing.Route`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.Route.html)
 

@@ -412,15 +412,15 @@ We add the new message texts.
 **Related Information**  
 
 
-[Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md)
+[Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md "One OData V4 model instance can only cover one OData service. This section describes the creation of a model instance in more detail.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[OData Operations](OData_Operations_b54f789.md)
+[OData Operations](OData_Operations_b54f789.md "The OData V4 model supports OData operations (ActionImport, FunctionImport, bound Actions and bound Functions). Unbound parameters are limited to primitive values.")
 
-[Creating an Entity](Creating_an_Entity_c9723f8.md)
+[Creating an Entity](Creating_an_Entity_c9723f8.md "The sap.ui.model.odata.v4.ODataListBinding#create method creates a new entity. Users can interact with a newly created entity even before it has been sent to the server.")
 
-[Message Model](Message_Model_8956f0a.md)
+[Message Model](Message_Model_8956f0a.md "The message model contains all messages and is used to bind to the messages to display them.")
 
 [API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
 

@@ -107,7 +107,7 @@ Due to the so called same-origin policy, browsers deny AJAX requests to service 
 
 [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
 
-[First-Aid Kit](First-Aid_Kit_dfe4f79.md)
+[First-Aid Kit](First-Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.")
 
 [Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md)
 

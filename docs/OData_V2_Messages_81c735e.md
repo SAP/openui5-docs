@@ -176,5 +176,5 @@ If the change operation fails, a UI message is created. But this UI message is d
 
 [API Reference: `sap.ui.mode.odata.ODataMessageParser`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataMessageParser)
 
-[Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md)
+[Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md "The OData V4 model supports server messages sent via an OData V4 service.")
 

@@ -55,7 +55,7 @@ In an OpenUI5 project, the process, for example, can look like this:
 **Related Information**  
 
 
-[Testing](Testing_7cdee40.md)
+[Testing](Testing_7cdee40.md "OpenUI5 provides several testing options, like to unit and integration tests and the OData V2 mock server.")
 
 [*Gerrit Code Review*Home Page](https://www.gerritcodereview.com)
 

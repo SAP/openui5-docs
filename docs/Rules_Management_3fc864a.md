@@ -133,7 +133,7 @@ Once you load your rulesets or select a rule preset, you can run an analysis wit
 **Related Information**  
 
 
-[Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md)
+[Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md "The Support Assistant allows you to create your own ruleset.")
 
-[Create a Rule](Create_a_Rule_c24569d.md)
+[Create a Rule](Create_a_Rule_c24569d.md "A rule consists of properties that test and advise on how possible issues can be resolved and a check function that tests the application for a specific issue. To create a rule, you need to set the properties and add a check function.")
 

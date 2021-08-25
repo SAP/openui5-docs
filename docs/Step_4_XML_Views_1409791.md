@@ -105,9 +105,9 @@ We replace the instantiation of the `sap.m.Text` control by our new `App` XML vi
 **Related Information**  
 
 
-[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)
+[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
 
-[Views](Views_91f27e3.md)
+[Views](Views_91f27e3.md "The view in the Model-View-Controller (MVC) concept is responsible for defining and rendering the UI. OpenUI5 supports predefined view types.")
 
-[XML View](XML_View_91f2928.md)
+[XML View](XML_View_91f2928.md "The XML view type is defined in an XML file. The file name either ends with .view.xml or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.")
 

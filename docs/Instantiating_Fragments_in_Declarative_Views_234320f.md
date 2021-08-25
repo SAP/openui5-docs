@@ -36,7 +36,7 @@ The following code example shows an XML view that includes all three types of fr
 **Related Information**  
 
 
-[Unique IDs](Unique_IDs_5da591c.md)
+[Unique IDs](Unique_IDs_5da591c.md "You can use a unique ID for a fragment that will be used as a prefix for all controls in a fragment instance.")
 
-[Using Other Objects Instead of Controllers](Using_Other_Objects_Instead_of_Controllers_c24ea6d.md)
+[Using Other Objects Instead of Controllers](Using_Other_Objects_Instead_of_Controllers_c24ea6d.md "For the instantiation of fragments, the oController object must not necessarily be a controller. It can also be another object.")
 

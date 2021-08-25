@@ -76,7 +76,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 ### Instantiating an OData V4 Model Using the Descriptor File \(`manifest.json`\)
 
-The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
+The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
 
 ``` js
 
@@ -167,11 +167,11 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 [OData Version 4.0 Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html)
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md)
+[Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md "Certain methods derived from OpenUI5 model and binding superclasses are not supported in OData V4 model classes or have limited support.")
 

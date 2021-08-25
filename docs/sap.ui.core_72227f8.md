@@ -18,7 +18,7 @@ This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all it
 **Related Information**  
 
 
-[Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
+[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
 [API Reference: `sap.ui.core`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.html)
 

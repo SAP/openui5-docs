@@ -280,15 +280,15 @@ The `ObjectPageLayout` control ensures that only the visible blocks and those ne
 **Related Information**  
 
 
-[Object Page Headers](Object_Page_Headers_d2ef009.md)
+[Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 
-[Anchor Bar](Anchor_Bar_370b679.md)
+[Anchor Bar](Anchor_Bar_370b679.md "Displays the titles of the sections and subsections in the ObjectPageLayout and allows the user to scroll to the respective content.")
 
-[Object Page Blocks](Object_Page_Blocks_4527729.md)
+[Object Page Blocks](Object_Page_Blocks_4527729.md "The contents of the subsections in the ObjectPageLayout control are organized into blocks.")
 
-[Creating Blocks](Creating_Blocks_2978f60.md)
+[Creating Blocks](Creating_Blocks_2978f60.md "Important points when creating blocks for the sap.uxap.ObjectPageLayout")
 
-[Object Page Scrolling](Object_Page_Scrolling_bc410e9.md)
+[Object Page Scrolling](Object_Page_Scrolling_bc410e9.md "The object page offers different ways to handle specific scrolling scenarios.")
 
 [API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout)
 

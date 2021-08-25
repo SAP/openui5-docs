@@ -37,5 +37,5 @@ We recommend to define the component metadata externally in the descriptor \(`ma
 **Related Information**  
 
 
-[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
+[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest components inside other components.")
 

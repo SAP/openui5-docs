@@ -103,5 +103,5 @@ Two things are happening here:
 **Related Information**  
 
 
-[Data Binding](Data_Binding_68b9644.md)
+[Data Binding](Data_Binding_68b9644.md "You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.")
 

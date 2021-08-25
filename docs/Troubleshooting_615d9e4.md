@@ -215,5 +215,5 @@ If you're stuck and need help with a development task, you can also post a quest
 **Related Information**  
 
 
-[Troubleshooting Tutorial](Troubleshooting_5661952.md)
+[Troubleshooting Tutorial](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 

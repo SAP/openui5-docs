@@ -33,5 +33,5 @@ The extension point has a default content which is used unless the extension poi
 **Related Information**  
 
 
-[View Extension](View_Extension_403c050.md)
+[View Extension](View_Extension_403c050.md "OpenUI5 uses extension points for extending standard views with custom content. The assignment of a custom view to an extension point is done in component customizing.")
 

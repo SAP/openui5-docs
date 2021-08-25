@@ -59,9 +59,9 @@ If you construct the model with an `earlyRequests` parameter, the requests are s
 
 [OData JSON Format Version 4.0](http://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
 [Loading Large Amounts of Data](Performance_Issues_966d67c.md#loio966d67c8cc5046419d1b35556cd9e447__section_LLAOD)
 

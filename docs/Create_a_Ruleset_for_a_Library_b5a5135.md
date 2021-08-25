@@ -273,5 +273,5 @@ In this example there are three rules - one for button and two for label. Splitt
 **Related Information**  
 
 
-[Create a Rule](Create_a_Rule_c24569d.md)
+[Create a Rule](Create_a_Rule_c24569d.md "A rule consists of properties that test and advise on how possible issues can be resolved and a check function that tests the application for a specific issue. To create a rule, you need to set the properties and add a check function.")
 

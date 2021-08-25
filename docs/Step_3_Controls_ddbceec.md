@@ -102,7 +102,7 @@ Don’t forget to remove the “Hello World”.
 **Related Information**  
 
 
-[Working with Controls](Working_with_Controls_91f0a22.md)
+[Working with Controls](Working_with_Controls_91f0a22.md "Controls are used to define the appearance and behavior of screen areas.")
 
 [API Reference: `sap.m.Text`](https://openui5.hana.ondemand.com/#/api/sap.m.Text)
 

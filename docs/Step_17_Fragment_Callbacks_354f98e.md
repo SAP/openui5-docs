@@ -128,7 +128,7 @@ The text bundle is extended by the new text for the dialog’s close button.
 **Related Information**  
 
 
-[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
+[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md "Fragments are light-weight UI parts (UI sub-trees) which can be reused, defined similar to views, but do not have any controller or other behavior code involved.")
 
-[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md)
+[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md "OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending sap.ui.core.mvc.Controller, the loadFragment() function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function sap.ui.core.Fragment.load() can be used.")
 

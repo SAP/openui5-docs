@@ -246,7 +246,7 @@
                 -   [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
                 -   [Handling IDs in UI Components](Handling_IDs_in_UI_Components_562803c.md)
                 -   [Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
-            -   [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+            -   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md)
                 -   [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
                 -   [Descriptor for Libraries](Descriptor_for_Libraries_b229914.md)
                 -   [Descriptor for Components \(Inside Libraries\)](Descriptor_for_Components_(Inside_Libraries)_7701636.md)

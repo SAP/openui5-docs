@@ -161,7 +161,7 @@ Master-Detail template
 **Related Information**  
 
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 
-[Development Environment](Development_Environment_7bb04e0.md)
+[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 

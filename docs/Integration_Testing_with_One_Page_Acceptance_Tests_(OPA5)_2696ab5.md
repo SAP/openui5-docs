@@ -54,5 +54,5 @@ Note the following restrictions of OPA:
 **Related Information**  
 
 
-[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
+[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
 

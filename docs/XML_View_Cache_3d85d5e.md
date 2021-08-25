@@ -125,5 +125,5 @@ sap.ui.define(['sap/ui/base/Object'],
 
 [API Reference: `sap.ui.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)
 
-[Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md)
+[Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md "Applying preprocessing to views enables you to use features like XML templating. This feature is currently only enabled for XML views. On an abstract level, preprocessing means that a view can be modified during runtime before it is rendered. This makes it possible to use the templating syntax, as it is interpreted by the preprocessor. It also makes it possible to apply user customization.")
 

@@ -189,5 +189,5 @@ OpenUI5 Mobile does **not** support multiple messages at the same time. Mobile D
 **Related Information**  
 
 
-[Message Popover](Message_Popover_52824a6.md)
+[Message Popover](Message_Popover_52824a6.md "Message Popover is used to display a summarized list of different types of messages (errors, warnings, success and information). It provides a handy and systemized way to navigate and explore details for every message.")
 

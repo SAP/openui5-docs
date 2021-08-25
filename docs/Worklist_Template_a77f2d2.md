@@ -75,9 +75,9 @@ You can find more information about the possibilities of object pages at [SAP Fi
 **Related Information**  
 
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 
-[Development Environment](Development_Environment_7bb04e0.md)
+[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 
-[Worklist App](Worklist_App_6a6a621.md)
+[Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 

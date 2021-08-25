@@ -235,9 +235,9 @@ You've completed the walkthrough, good job! You should be familiar with all majo
 **Related Information**  
 
 
-[Accessibility](Accessibility_03b914b.md)
+[Accessibility](Accessibility_03b914b.md "In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.")
 
-[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md)
+[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")
 
 [SAP Software Accessibility](https://www.sap.com/corporate/en/company/diversity/accessibility.about.html)
 

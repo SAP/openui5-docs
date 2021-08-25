@@ -42,7 +42,7 @@ We start with an initial app that simply retrieves data from an OData V4 service
 
 [OData Standard Protocol](http://www.odata.org/documentation/)
 
-[OData V4 Model](OData_V4_Model_5de13cf.md)
+[OData V4 Model](OData_V4_Model_5de13cf.md "The sap.ui.model.odata.v4.ODataModel is the model implementation for consuming an OData V4 service.")
 
 [*Basic Tutorial* on the *OData* Home Page](http://www.odata.org/getting-started/basic-tutorial/)
 

@@ -187,11 +187,11 @@ We search for the following mock server requests:
 **Related Information**  
 
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
 [API Reference: `sap.ui.model.odata.v4.ODataMetaModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
 
 [API Reference: `sap.ui.model.odata.v4.ODataListBinding.refresh`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh)
 
-[Troubleshooting Tutorial Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md)
+[Troubleshooting Tutorial Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
 

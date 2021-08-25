@@ -136,11 +136,11 @@ The binding of the value attribute is a simple binding example that contains onl
 **Related Information**  
 
 
-[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)
+[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
 
-[Data Binding](Data_Binding_68b9644.md)
+[Data Binding](Data_Binding_68b9644.md "You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.")
 
-[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")
 
 [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
 

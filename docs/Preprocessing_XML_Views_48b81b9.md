@@ -89,5 +89,5 @@ To use the preprocessor, you can choose one of the following options:
 **Related Information**  
 
 
-[XML View Cache](XML_View_Cache_3d85d5e.md)
+[XML View Cache](XML_View_Cache_3d85d5e.md "To be able to speed up processing times of XML views that make heavy use of the preprocessor feature, you can use the view cache to store its processed XML source. Then according network requests for the source and all preprocessor runs that modify the XML source are skipped and the source is taken from the cache.")
 

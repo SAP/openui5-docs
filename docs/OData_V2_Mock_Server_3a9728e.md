@@ -49,5 +49,5 @@ You should also be familiar with the concepts explained in the [Walkthrough](Wal
 **Related Information**  
 
 
-[Mock Server](Mock_Server_69d3cbd.md)
+[Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 

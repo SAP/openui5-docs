@@ -56,5 +56,5 @@ To also load all application-specific configuration settings asynchronously, set
 ```
 
 -   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
--   Find out more: [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+-   Find out more: [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md)
 

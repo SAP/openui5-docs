@@ -354,5 +354,5 @@ For versions lower than 1.28, the default value is `default` which only has very
 **Related Information**  
 
 
-[Compatibility Rules](Compatibility_Rules_91f0873.md)
+[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.")
 

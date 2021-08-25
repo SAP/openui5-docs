@@ -148,5 +148,5 @@ For notepad controls, the renderer class is normally not directly used, the "ren
 **Related Information**  
 
 
-[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md)
+[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md "Cross-site scripting (XSS) can be prevented by ensuring that it is not possible to inject script code into an application page that runs in a browser.")
 

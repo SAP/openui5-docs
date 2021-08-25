@@ -70,5 +70,5 @@ var oRouter = this.getOwnerComponent().getRouter();
 **Related Information**  
 
 
-[Components](Components_958ead5.md)
+[Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 

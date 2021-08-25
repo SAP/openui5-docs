@@ -44,5 +44,5 @@ Languages that have RTL text directionality keep the default directionality of n
 **Related Information**  
 
 
-[API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md)
+[API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md "Languages with right-to-left (RTL) text directionality keep the default directionality of numeric values and texts in left-to-right (LTR) mode. To ensure correct handling, two API properties have been introduced - textDirection and textAlign.")
 

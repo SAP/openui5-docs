@@ -167,5 +167,5 @@ The same applies to our home controller, we also extend it with the base control
 **Related Information**  
 
 
-[Routing and Navigation](Routing_and_Navigation_3d18f20.md)
+[Routing and Navigation](Routing_and_Navigation_3d18f20.md "OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.")
 

@@ -35,5 +35,5 @@ The fragment name can also result from a binding, including an expression bindin
 **Related Information**  
 
 
-[XML Templating](XML_Templating_5ee619f.md)
+[XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.")
 

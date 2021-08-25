@@ -39,5 +39,5 @@ For adapting the sanitizer to support HTML5, the HTML attributes and elements ha
 **Related Information**  
 
 
-[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md)
+[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md "Cross-site scripting (XSS) can be prevented by ensuring that it is not possible to inject script code into an application page that runs in a browser.")
 

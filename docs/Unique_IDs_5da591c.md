@@ -30,9 +30,9 @@ To get rid of the prefixes, the instance method `View.byId()` can be used with t
 **Related Information**  
 
 
-[IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md)
+[IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md "If a fragment with a control ID is instantiated twice without giving an ID, a duplicate ID error occurs.")
 
-[IDs in JS Fragments](IDs_in_JS_Fragments_896fa9a.md)
+[IDs in JS Fragments](IDs_in_JS_Fragments_896fa9a.md "The fragment logic of JS fragments cannot influence the IDs of controls that are created in the createContent() method.")
 
-[IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md)
+[IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md "For fragments that are used within declarative views, generated IDs are not prefixed.")
 

@@ -176,5 +176,5 @@ For a complete overview of available methods and parameters, see [`ResourceModel
 **Related Information**  
 
 
-[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.")
 

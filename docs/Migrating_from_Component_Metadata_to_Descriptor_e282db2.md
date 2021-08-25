@@ -15,7 +15,7 @@ Overview, how the component metadata are mapped to the descriptor.
 For compatibility reasons, the mapping to the `manifest.json` file is done automatically. If a metadata property has been defined, it can also be consumed via the corresponding property of the `manifest.json` file. For a detailed step-by-step guide, see [Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md).
 
 > ### Note:  
-> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the descriptor \(`manifest.json`\). For more information about manifest first, see the *Manifest First Function* section in [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the descriptor \(`manifest.json`\). For more information about manifest first, see the *Manifest First Function* section in [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md).
 
 <a name="loioe282db2865e94f69972c407469b801e9__table_ogz_llt_45"/>Mapping Table
 

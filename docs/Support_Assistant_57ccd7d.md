@@ -83,5 +83,5 @@ All scopes and temporary rules can be stored in the local storage of your browse
 **Related Information**  
 
 
-[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md)
+[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
 

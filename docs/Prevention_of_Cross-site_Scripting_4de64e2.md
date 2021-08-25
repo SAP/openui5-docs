@@ -48,5 +48,5 @@ To ensure maximum security for a renderer, note the following:
 **Related Information**  
 
 
-[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md)
+[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md "Cross-site scripting (XSS) is a widely known vulnerability most web sites have. This page does not provide general information about cross-site scripting but focuses on what you as an application developer using OpenUI5 can do to avoid these security issues.")
 

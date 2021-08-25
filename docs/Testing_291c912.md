@@ -52,7 +52,7 @@ If you want to automate the test execution using a test runner, you can set this
 **Related Information**  
 
 
-[Testing](Testing_7cdee40.md)
+[Testing](Testing_7cdee40.md "OpenUI5 provides several testing options, like to unit and integration tests and the OData V2 mock server.")
 
 [QUnit Home Page](https://qunitjs.com/)
 

@@ -70,7 +70,7 @@ To enable the simulation mode, set the OpenUI5 configuration parameter `xx-test-
 **Related Information**  
 
 
-[Event Handler Methods](Event_Handler_Methods_bdf3e98.md)
+[Event Handler Methods](Event_Handler_Methods_bdf3e98.md "Event handler methods are invoked when an event occurs. Method names starting with on are reserved for event handler methods.")
 
-[Browser Events](Browser_Events_91f1b38.md)
+[Browser Events](Browser_Events_91f1b38.md "To react to browser events, a control needs to register for the event either explicitly, or by implementing the event handler.")
 
