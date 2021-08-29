@@ -66,8 +66,9 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 		"id": "app"
 	},
 	"dependencies": {
-	  "minUI5Version": "1.60",
+	  "minUI5Version": "1.93",
 	  "libs": {
+		"sap.ui.core": {}
 		"sap.m": {}
 	  }
 	},

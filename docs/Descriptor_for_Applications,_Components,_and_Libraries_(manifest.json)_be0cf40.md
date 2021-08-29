@@ -1598,7 +1598,19 @@ Description
 </td>
 <td>
 
-Relative URLs in the component, taking `embeddedBy` into account if filled, pointing to `js` \(JavaScript\) and `css` resources that are needed by the app for specifying the mandatory `uri` and an `id` \(optional\) for CSS. The JavaScript files are loaded by the `require` mechanism. The CSS files are added to the head of the HTML page as a link tag. The resources are resolved relative to the location of the `manifest.json` file.
+Specifies additional `css` and `js` resources of the Component.
+
+CSS files are added to the head of the HTML page as a link tag. JavaScript files are loaded by the `require` mechanism.
+
+Two settings can be defined per resource:
+
+-   `uri` \(mandatory\): URLs are resolved relative to the Component, taking the `embeddedBy` setting into account \(if filled\).
+
+-   `id` \(optional\): Only for `css` resources; the id for a CSS file's `<link>` element.
+
+
+> ### Note:  
+> The usage of `js` resources is deprecated. Please use regular `dependencies` instead.
 
 
 

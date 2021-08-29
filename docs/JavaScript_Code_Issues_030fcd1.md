@@ -20,7 +20,7 @@ This section lists some of the most important issues that should be avoided when
 
 Don't use or override "private" methods or properties. Private functions are typically \(but not always\) prefixed with "`_`".
 
-Use "protected" methods or properties only if you access it from the object itself or an object that extends that object. \(For example as we do in [Step 19: Reuse Dialogs](Step_19_Reuse_Dialogs_1945396.md) of the *Walkthrough* tutorial.\) In the API Reference, protected functions are indicated by a label *Visibility: protected* below the description of the function.
+Use "protected" methods or properties only if you access it from the object itself or an object that extends that object. In the API Reference, protected functions are indicated by a label *Visibility: protected* below the description of the function.
 
 Always double check in the API Reference. If OpenUI5 changes the implementation in a future release, your code will break if you fail to follow this guideline.
 

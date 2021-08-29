@@ -91,8 +91,6 @@ We add a new XML file to declaratively define our dialog in a fragment. The frag
 
 The syntax is similar to a view, but since fragments do not have a controller this attribute is missing. Also, the fragment does not have any footprint in the DOM tree of the app, and there is no control instance of the fragment itself \(only the contained controls\). It is simply a container for a set of reuse controls.
 
-We also add an `id` for our `Dialog` to be able to access the dialog from our `HelloPanel` controller.
-
 ***
 
 ### webapp/controller/HelloPanel.controller.js
@@ -111,17 +109,11 @@ sap.ui.define([
 			…
 		}*HIGHLIGHT START*,
 		onOpenDialog : function () {
-			var oView = this.getView();
 
 			// create dialog lazily
 			if (!this.pDialog) {
-				this.pDialog = Fragment.load({
-					id: oView.getId(),
+				this.pDialog = this.loadFragment({
 					name: "sap.ui.demo.walkthrough.view.HelloDialog"
-				}).then(function (oDialog) {
-					// connect dialog to the root view of this component (models, lifecycle)
-					oView.addDependent(oDialog);
-					return oDialog;
 				});
 			} 
 			this.pDialog.then(function(oDialog) {
@@ -133,24 +125,15 @@ sap.ui.define([
 });
 ```
 
-If the dialog in the fragment does not exist yet, the fragment is instantiated by calling the `Fragment.load` API with the following arguments:
+If the dialog in the fragment does not exist yet, the fragment is instantiated by calling the `loadFragment` API.
 
--   The ID of the `HelloPanel` view
+As you can see in the snippet above, we store the loading `Promise` of the dialog fragment on the controller instance. This allows us to handle the opening of the dialog asynchronously on each click of the `helloDialogButton` button.
 
-    This parameter is used to prefix the IDs inside our fragment. There, we have defined the ID `helloDialog` for the `Dialog` control, and we can access the dialog via the view by calling `oView.byId("helloDialog")`. This makes sure that even if you instantiate the same fragment in other views in the same way, each dialog will have its unique ID that is concatenated from the view ID and the dialog ID.
-
-    Using unique IDs is important, because duplicate IDs lead to errors in the framework.
-
--   The name of the fragment
-
-
-We add the dialog as "dependent" on the view to be connected to the lifecycle of the view’s model. A convenient side-effect is that the dialog will automatically be destroyed when the view is destroyed. Otherwise, we would have to destroy the dialog manually to free its resources.
+To reuse the dialog opening and closing functionality in other controllers, you can create a new file `sap.ui.demo.walkthrough.controller.BaseController`, which extends `sap.ui.core.mvc.Controller`, and put all your dialog-related coding into this controller. Now, all the other controllers can extend from `sap.ui.demo.walkthrough.controller.BaseController` instead of `sap.ui.core.mvc.Controller`.
 
 ***
 
 ### Conventions
-
--   Always use the `addDependent` method to connect the dialog to the lifecycle management and data binding of the view, even though it is not added to its UI tree.
 
 -   Private functions and variables should always start with an underscore.
 
