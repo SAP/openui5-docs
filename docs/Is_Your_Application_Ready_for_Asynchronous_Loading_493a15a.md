@@ -53,9 +53,23 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
     <tr>
     <td>
 
-    -   "odata.compare", e.g. `value="{=odata.compare(2,3)}"`
+    "odata.compare", e.g. `value="{=odata.compare(2,3)}"` 
 
-    -   "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"`
+
+    
+    </td>
+    <td>
+
+    `sap.ui.model.odata.v4.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"` 
 
 
     

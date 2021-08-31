@@ -48,7 +48,7 @@ myFormatter: function(sName) {
 ```
 
 > ### Note:  
-> We recommend to use a separate `formatter.js` file that groups the formatters and makes them globally available in your app. You can then load the formatters in any controller by defining a dependency and instantiating the formatter file in a `formatter` variable. For more information, see [Step 23: Custom Formatters](Step_23_Custom_Formatters_0f8626e.md) in the *Walkthrough* tutorial.
+> We recommend to use a separate `formatter.js` file that groups the formatters and makes them globally available in your app. You can then load the formatters in any controller by defining a dependency and instantiating the formatter file in a `formatter` variable. For more information, see [Step 22: Custom Formatters](Step_22_Custom_Formatters_0f8626e.md) in the *Walkthrough* tutorial.
 
 When the formatter is defined in the controller, you can use it, for example, in an XML view:
 

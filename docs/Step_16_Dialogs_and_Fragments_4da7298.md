@@ -68,7 +68,7 @@ You can view and download all files at [Walkthrough - Step 16](https://openui5.h
 </mvc:View>
 ```
 
-We add a new button to the view to open the dialog. It simply calls an event handler function in the controller of the panel’s content view. We will need the new `id="helloDialogButton"` in [Step 29: Integration Test with OPA](Step_29_Integration_Test_with_OPA_9bf4dce.md).
+We add a new button to the view to open the dialog. It simply calls an event handler function in the controller of the panel’s content view. We will need the new `id="helloDialogButton"` in [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md).
 
 It is a good practice to set a unique ID like `helloWorldButton` to key controls of your app so that can be identified easily. If the attribute \`id\` is not specified, the OpenUI5 runtime generates unique but changing ID like \`\_\_button23\` for the control. Inspect the DOM elements of your app in the browser to see the difference.
 

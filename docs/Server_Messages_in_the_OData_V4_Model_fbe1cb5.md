@@ -210,167 +210,36 @@ End user messages contain the following information:
 
 The use of the fields in specific cases is described in the sections below.
 
-Messages can be either bound or unbound: Unbound messages are not related to OData entities and are therefore not part of the OData success response in the HTTP body. Bound messages are related to OData entities and are modeled as OData resources.
-
 ***
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_jrv_5wm_2fb"/>
 
-### Unbound Messages
+### Message Types
 
-Unbound messages are transported in the header field `sap-messages`, which is an array of messages. Unbound messages cannot be suppressed. They are always returned by the server and they always refer to the current request as described in the section about transition messages below. In case of successful requests, unbound messages are transported as an array in the HTTP header field `sap-messages`:
-
-```
-sap-messages:[
-     {
-          "code" : "SYS/42",
-          "message" : "System will be down for maintenance next weekend.",
-          "numericSeverity" : 2,
-          "longtextUrl" : "Messages(3)/LongText/$value"
-     }
-]
-```
-
-> ### Note:  
-> `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
-
-> ### Example:  
-> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/to_Address; longtextUrl: "Messages(3)/LongText/$value"`
-> 
-> Result: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/Messages(3)/LongText/$value`
-> 
-> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42); longtextUrl: "/Messages(3)/LongText/$value"`
-> 
-> Result: `http://<server>:<port>/Messages(3)/LongText/$value`
+Messages are classified by two different categories: bound/unbound and state/transition.
 
 ***
 
-<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_phx_wdz_5fb"/>
+#### Bound and unbound messages
 
-### Bound Messages
-
-Bound messages are related to OData entities and are modeled as OData resources. An OData entity contains its bound messages as collection valued property of the complex type specified in the description of `com.sap.vocabularies.Common.v1.Messages`. Thus, bound messages are transported in the HTTP body. The target property specifies to which property the message is bound. The application needs to specify in the`$select` binding parameter whether messages should be returned by the server, or not.
-
-``` js
-  <ComplexType Name="<name of message type>">
-      <Property Name="code" Type="Edm.String" Nullable="false" />
-      <Property Name="message" Type="Edm.String" Nullable="false" />
-      <Property Name="target" Type="Edm.String" Nullable="true" />
-      <Property Name="additionalTargets" Type="Collection(Edm.String)" Nullable="false" />
-      <Property Name="transition" Type="Edm.Boolean" Nullable="false" />
-      <Property Name="numericSeverity" Type="Edm.Byte" Nullable="false" />
-      <Property Name="longtextUrl" Type="Edm.String" Nullable="true" />
-  </ComplexType>
-```
-
-The `target` property may contain a path relative to the entity which contains the message. The target can, for example, refer to a property within that entity. Further targets may be transported in the `additionalTargets` property. This information is used to highlight UI elements such as input fields if they are bound to properties referenced by a path contained in the `target` or `additionalTargets` properties. All responses are checked for bound messages. If there are messages, they are reported to the message model.
-
-For bound messages, `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the innermost context path \(`@odata.context`\) in the response, or to the request URL, if there is no context path. Absolute paths are treated as relative to the server.
+Messages are either bound or unbound: Bound messages are related to OData entities, whereas unbound messages are not related to OData entities.
 
 ***
 
-<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_fmj_dw2_nfb"/>
+#### State and transition messages
 
-### Messages in Error Responses
+Messages are either state or transition messages:
 
-Error messages are always reported in the error response in JSON format as described in the OData JSON Format Version 4.0 in section *19 Error Response* with the following additions:
+-   State messages refer to the state of the corresponding resource \(OData entity instance\). State messages are valid as long as the related business object is not changed. The OData V4 model handles the lifecycle of state messages and will remove state messages from the message model once they are no longer sent by the server when the corresponding resource is requested. For more information, see [Lifecycle Management for State Messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md#loiofbe1cb5613cf4a40a841750bf813238e__section_LMFSM).
 
--   The instance annotation `com.sap.vocabularies.Common.v1.longtextUrl` can be used to provide a long text URL, which can be a relative or an absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
-
--   `target` is relative to the requested resource.
-
--   `@com.sap.vocabularies.Common.v1.additionalTargets` is a list of additional targets relative to the requested resource.
--   The error message type is always `sap.ui.core.MessageType.Error`. The instance annotation `com.sap.vocabularies.Common.v1.numericSeverity` determines the message type of the detail messages.
-
--   The error message and all messages in details are transition messages.
-
-
-A change set with multiple requests only has one error response. In this case, `target` alone is not sufficient to assign a message to a resource. The error must be assigned to one of the requests via the request's MIME header `Content-ID` first. The `Content-ID` has to be provided in the instance annotation `Org.OData.Core.V1.ContentID`.
-
-> ### Example:  
-> **Request**
-> 
-> ``` json
-> --changeset_id-1612779902438-25
-> Content-Type:application/http
-> Content-ID:0.0
->  
-> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')?custom-option=value HTTP/1.1
-> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
->  
-> {"Quantity":"0","QuantityUnit":"EA"}
-> --changeset_id-1612779902438-25
-> Content-Type:application/http
-> Content-ID:1.0
->  
-> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000020')?custom-option=value HTTP/1.1
-> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
->  
-> {"Quantity":"5","QuantityUnit":"EA"}
-> --changeset_id-1612779902438-25--
-> ```
-
-> ### Example:  
-> **Response**
-> 
-> ``` json
-> {
->     "error": {
->         "message": "Value must be greater than 0",
->         "target": "Quantity",
->         "@com.sap.vocabularies.Common.v1.additionalTargets": ["ProductID"],
->         "@Org.OData.Core.V1.ContentID":"0.0"
->     }
-> }
-> ```
-
-***
-
-<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_lnt_hym_2fb"/>
-
-### State Messages and Transition Messages
-
-Messages can be either state or transition messages:
-
--   State messages refer to the state of the corresponding resource \(OData entity instance\). State messages are valid as long as the related business object is not changed. The OData V4 Model is responsible for the lifecycle of state messages and will remove state messages from the message model, if they are no longer sent by the server when the corresponding resource is requested.
-
--   Transition messages refer to the current request and are not related to the state of a resource. They are only relevant for the request that was triggered, for example *System not available, business object could not be updated*. Optionally, transition messages can reference a business object, for example *Shipping address could not be changed due to missing authorization*. Transition messages are translated into persistent messages in the message model. The application is responsible for the lifecycle of such persistent messages. The OData V4 Model will not remove persistent messages from the message model.
+-   Transition messages refer to the current request and are not related to the state of a resource. They are only relevant for the request that was triggered, for example *System not available, business object could not be updated*. Optionally, transition messages can reference a business object, for example *Shipping address could not be changed due to missing authorization*. Transition messages are translated into persistent messages in the message model. The application is responsible for the handling of the lifecycle of such persistent messages. The OData V4 model will not remove persistent messages from the message model.
 
 
 ***
 
-#### Lifecycle Management for State Messages
+#### Combining state/transition and bound/unbound messages
 
-The lifecycle management for state messages is optimized for a specific orchestration with the server. When bound messages are requested, the OData V4 server returns all bound messages for the respective entity and its subentities within the same business object. The business object is defined by the first path segment.
-
-The following example uses a sales order with items and related products:
-
--   A `GET` request for `/SalesOrder(´0815´)` returns all bound messages for the sales order and the items, even if the items themselves are not contained in the response. Messages to assigned products, business partners, and so on, that are not part of the `SalesOrder` business object will **not** be sent if the path starts within the `SalesOrder` business object.
-
--   A `GET` request for a specific item with path `/SalesOrder(´0815´)/_Items(´010´)` returns all bound messages for this item.
-
--   A `GET` request for the product related to an item using the deep path `/SalesOrder(´0815´)/_Items(´010´)/_Product` will not return any bound messages.
-
-
-The OData V4 model checks whether the response contains the message property and removes all previous bound state messages from the message model, if their target path starts with the path of the entity.
-
-This concept has the following consequences:
-
--   When you display the information for the business object itself, you can also display the messages for all subentities of this business object.
-
--   For displaying the entities within a business object, an application has to use deep paths, instead of canonical paths. Otherwise, messages will appear twice. In the object page of item `´010´`, for example, the binding needs to use the path `/SalesOrder(´0815´)/_Items(´010´)`. You can achieve this also with a relative binding using the context of the sales order.
-
--   Binding entities outside the business object with the deep path means that no messages will be retrieved for this entity. Using the binding `/SalesOrder(´0815´)/_Items(´010´)/_Product` to display product information of item `010`, for example, will not return any product-specific bound message.
-
--   As a consequence, it must also **not** be possible to change the entity that is bound with a path that starts with a different business object. If, for example, product information needs to be changed, we recommended to use the canonical path to bind the product assigned to item `010` to achieve that the server sends the bound messages of the product.
-
-
-> ### Note:  
-> The OpenUI5 V4 ODataModel is agnostic to business objects. The application needs to take care of the proper setup.
-
-***
-
-#### Combining State/Transition and Bound/Unbound Messages
+Three different types of messages result from the possible combinations of the state/transition and bound/unbound categories. There cannot be unbound messages referring to the state of an OData entity.
 
 
 <table>
@@ -444,6 +313,169 @@ Bound
 </td>
 </tr>
 </table>
+
+***
+
+<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_phx_wdz_5fb"/>
+
+### Transport Channels for Messages
+
+There are three different channels for transporting messages to the client:
+
+1.  The error response for transporting unbound and bound transition messages in the error case.
+
+2.  The `sap-messages` header for transporting unbound and bound transition messages in the success case.
+
+3.  The `message` property as part of the entity for transporting bound state and transition messages in the success case.
+
+
+> ### Note:  
+> In the success case, a bound transition message can either be transported in the `sap-messages` header or in the `message` property. A message sent in the `sap-messages` header must not be repeated in the `message` property, and vice versa.
+
+***
+
+#### Messages in error responses
+
+Only transition messages are transported in the error response. The messages may be bound or unbound. Error messages are always reported in the error response in JSON format, as described in the OData JSON Format Version 4.0 in Section *19 Error Response*, with the following additions:
+
+-   The instance annotation `com.sap.vocabularies.Common.v1.longtextUrl` can be used to provide a long text URL, which can be a relative or an absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
+
+-   `target` is relative to the requested resource.
+
+-   `@com.sap.vocabularies.Common.v1.additionalTargets` is a list of additional targets relative to the requested resource.
+-   The error message type is always `sap.ui.core.MessageType.Error`. The instance annotation `com.sap.vocabularies.Common.v1.numericSeverity` determines the message type of the detail messages.
+
+
+A change set with multiple requests only has one error response. In this case, `target` alone is not sufficient to assign a message to a resource. The error must be assigned to one of the requests via the request's MIME header `Content-ID` first. The `Content-ID` has to be provided in the instance annotation `Org.OData.Core.V1.ContentID`.
+
+> ### Example:  
+> **Request**
+> 
+> ``` json
+> --changeset_id-1612779902438-25
+> Content-Type:application/http
+> Content-ID:0.0
+>  
+> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')?custom-option=value HTTP/1.1
+> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
+>  
+> {"Quantity":"0","QuantityUnit":"EA"}
+> --changeset_id-1612779902438-25
+> Content-Type:application/http
+> Content-ID:1.0
+>  
+> PATCH SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000020')?custom-option=value HTTP/1.1
+> Content-Type:application/json;charset=UTF-8;IEEE754Compatible=true
+>  
+> {"Quantity":"5","QuantityUnit":"EA"}
+> --changeset_id-1612779902438-25--
+> ```
+
+> ### Example:  
+> **Response**
+> 
+> ``` json
+> {
+>     "error": {
+>         "message": "Value must be greater than 0",
+>         "target": "Quantity",
+>         "@com.sap.vocabularies.Common.v1.additionalTargets": ["ProductID"],
+>         "@Org.OData.Core.V1.ContentID":"0.0"
+>     }
+> }
+> ```
+
+***
+
+#### The `sap-messages` header
+
+The response of a successful request may contain messages in the `sap-messages` header. Only transition messages are transported in the `sap-messages` header. These messages may be bound or unbound. The `sap-messages` header contains an array of objects that can include:
+
+-   A machine-readable `code`,
+-   a human-readable, language-dependent `message`,
+-   a `numericSeverity`,
+-   an optional `longtextUrl`,
+-   an optional `target`,
+-   an optional array of `additionalTargets` if the message applies to two or more fields. Each item in this array is a string with the same syntax as `target`.
+
+```
+sap-messages:[
+     {
+          "code" : "0815",
+          "message" : "Delivery date is in the past",
+          "numericSeverity" : 3
+          "longtextUrl" : "Messages(3)/LongText/$value",
+          "target" : "DeliveryDate"
+     }
+]
+```
+
+> ### Note:  
+> `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
+
+> ### Example:  
+> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/to_Address; longtextUrl: "Messages(3)/LongText/$value"`
+> 
+> Result: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/Messages(3)/LongText/$value`
+> 
+> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42); longtextUrl: "/Messages(3)/LongText/$value"`
+> 
+> Result: `http://<server>:<port>/Messages(3)/LongText/$value`
+
+***
+
+#### The `message` property as part of the response payload
+
+Bound messages may also be transported as a part of the OData entity to which they belong. These messages may be transition or state messages. The OData entity contains its bound messages as collection-valued property of the complex type specified in the description of `com.sap.vocabularies.Common.v1.Messages`. The `target` property specifies to which property the message is bound. The application needs to specify in the`$select` binding parameter whether messages should be returned by the server.
+
+``` js
+  <ComplexType Name="<name of message type>">
+      <Property Name="code" Type="Edm.String" Nullable="false" />
+      <Property Name="message" Type="Edm.String" Nullable="false" />
+      <Property Name="target" Type="Edm.String" Nullable="true" />
+      <Property Name="additionalTargets" Type="Collection(Edm.String)" Nullable="false" />
+      <Property Name="transition" Type="Edm.Boolean" Nullable="false" />
+      <Property Name="numericSeverity" Type="Edm.Byte" Nullable="false" />
+      <Property Name="longtextUrl" Type="Edm.String" Nullable="true" />
+  </ComplexType>
+```
+
+The `target` property may contain a path relative to the entity which contains the message. The target can, for example, refer to a property within that entity. Further targets may be transported in the `additionalTargets` property. This information is used to highlight UI elements such as input fields if they are bound to properties referenced by a path contained in the `target` or `additionalTargets` properties. All responses are checked for bound messages. If there are messages, they are reported to the message model.
+
+For bound messages, `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the innermost context path \(`@odata.context`\) in the response, or to the request URL if there is no context path. Absolute paths are treated as relative to the server.
+
+***
+
+<a name="loiofbe1cb5613cf4a40a841750bf813238e__section_LMFSM"/>
+
+### Lifecycle Management for State Messages
+
+The lifecycle management for state messages is optimized for a specific orchestration with the server. When a message is requested, the OData V4 server returns all bound messages for the respective entity and its subentities within the same business object. The business object is defined by the first path segment.
+
+The following example uses a sales order with items and related products:
+
+-   A `GET` request for `/SalesOrder(´0815´)` returns all bound messages for the sales order and its items, even if the items themselves are not contained in the response. Messages to assigned products, business partners, and so on, that are not part of the `SalesOrder` business object will **not** be sent if the path starts within the `SalesOrder` business object.
+
+-   A `GET` request for a specific item with path `/SalesOrder(´0815´)/_Items(´010´)` returns all bound messages for this item.
+
+-   A `GET` request for the product related to an item using the deep path `/SalesOrder(´0815´)/_Items(´010´)/_Product` will not return any bound messages.
+
+
+The OData V4 model checks whether the response contains the message property and removes all previous bound state messages from the message model if their target paths start with the path of the entity.
+
+This concept has the following consequences:
+
+-   When you display the information for the business object itself, you can also display the messages for all subentities of this business object.
+
+-   For displaying the entities within a business object, an application has to use deep paths instead of canonical paths; otherwise, messages will appear twice. In the object page of item `´010´`, for example, the binding needs to use the path `/SalesOrder(´0815´)/_Items(´010´)`. You can also achieve this with a relative binding using the context of the sales order.
+
+-   Binding entities outside the business object with the deep path means that no messages will be retrieved for this entity. Using the binding `/SalesOrder(´0815´)/_Items(´010´)/_Product` to display product information of item `010`, for example, will not return any product-specific bound message.
+
+-   As a consequence, it must also **not** be possible to change the entity that is bound with a path that starts with a different business object. If, for example, product information needs to be changed, we recommended to use the canonical path to bind the product assigned to item `010` to achieve that the server sends the bound messages of the product.
+
+
+> ### Note:  
+> The OpenUI5 V4 ODataModel is agnostic to business objects. The application needs to take care of the proper setup.
 
 ***
 

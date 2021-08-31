@@ -232,5 +232,5 @@ Drag and drop is no longer experimental with this version.
 
 #### Accessibility Improvements in Demo Apps and in the Walkthrough Tutorial
 
-We have improved the accessibility of our demo apps. In addition, we have updated our *Walkthrough* tutorial and added a new step. Developers can improve the accessibility of their Walkthrough app by adding ARIA elements \(landmarks\). For more information, see [Step 38: Accessibility](Step_38_Accessibility_ff7cab1.md).
+We have improved the accessibility of our demo apps. In addition, we have updated our *Walkthrough* tutorial and added a new step. Developers can improve the accessibility of their Walkthrough app by adding ARIA elements \(landmarks\). For more information, see [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md).
 

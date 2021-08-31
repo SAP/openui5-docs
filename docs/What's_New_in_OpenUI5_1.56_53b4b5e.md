@@ -241,5 +241,5 @@ We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_
 **Related Information**  
 
 
-
+[Managing Variants](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8ce658e05498466d9a74823b94e840ac.html "Lets you manage variants with different structures in the filter and content areas.") :arrow_upper_right:
 
