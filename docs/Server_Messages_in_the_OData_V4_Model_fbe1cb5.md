@@ -616,7 +616,7 @@ The attribute `technicalDetails.originalMessage` of the message in the message m
 
 <a name="loiofbe1cb5613cf4a40a841750bf813238e__section_httpStatus"/>
 
-### Accessing the HTTP Status Code
+### Accessing Additional Request Information
 
 The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed.
 
