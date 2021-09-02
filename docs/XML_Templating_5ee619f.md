@@ -118,7 +118,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 4.  [Create an empty SAPUI5 project](https://developers.sap.com/tutorials/sapui5-101-create-project.html). You need to modify the procedure given in the tutorial as follows:
 
-    1.  in Step 3.4, for the `OData service URL`, enter `https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC`
+    1.  in Step 3.4, for the `OData service URL`, enter `https://sapes5.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/`
 
     2.  in Step 3.6, for `Module name`, enter `tiny`, and for `Application namespace`, enter `sap.ui.core.sample.ViewTemplate`
 
