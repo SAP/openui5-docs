@@ -109,6 +109,17 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 </td>
 </tr>
+<tr>
+<td>
+
+**Whitespaces Visualization**
+
+We have created a new sample pattern that showcases how whitespaces can be enabled on the application level, for freestyle applications. For more information, see [Whitespaces Concept](Whitespaces_Concept_37deb0b.md) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.WhitespacePattern). 
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -136,6 +147,17 @@ We have updated the colors of value-state status icons. Now, they have better co
 **`sap.m.Input`, `sap.m.MultiInput`**
 
 We have introduced the `showClearIcon` property. If set to true, when there is text input it shows an additional icon that allows users to clear their input. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input). 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+**`sap.m.List`**
+
+You can now adapt the default wrapping behavior for titles and descriptions in lists and define the number of characters after which wrapping is done by using the new `wrapCharLimit` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem%23methods/getWrapCharLimit) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
 
 
 
@@ -188,40 +210,6 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 <td>
 
 There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
-
-
-
-</td>
-</tr>
-</table>
-
-***
-
-<a name="loio2d6ffddd26dd41ba91a5cf1b38f6b0f6__section_g3r_bf5_zcb"/>
-
-### SAP Fiori Elements
-
-
-<table>
-<tr>
-<td>
-
-The following changes and new features are available for SAP Fiori elements for OData V4:
-
--   The search field is now also available in the table toolbar on the object page. If the table is searchable \(that is, if an entity set is used for which `sap:searchable` is `true`\), the search field is displayed by default. For more information, see [Tables](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/c0f6592a592e47f9bb6d09900de47412.html "Both the list report and the object page support several table types.") :arrow_upper_right:.
-
--   When using multi-selection in tables, the *Select All* checkbox has been disabled by default in responsive tables in the list report, and on the object page in tab bar mode. End users can undo the selection using the *Clear All* checkbox. For more information, see [Enabling Multiple Selection in Tables](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/116b5d82e8c545e2a56e1b51b8b0a9bd.html "This feature enables you to configure whether end users can select a single row or multiple rows in a table while triggering table toolbar actions that require context.") :arrow_upper_right:.
-
--   Application developers can now display a field as a `TextArea` in edit mode or as an `ExpandableText` in display mode. For more information, see [Different Representations of a Field](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/c18ada4bc56e427a9a2df2d1898f28a5.html "Applications can control how the field is represented by using annotations or metadata.") :arrow_upper_right:.
-
--   App developers can now use fractional digits on visual filters. For more information, see [Visual Filters](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1714720cae984ad8b9d9111937e7cd38.html "An intuitive way of choosing filter values from an associated measure value.") :arrow_upper_right:.
-
--   SAP Fiori elements for OData V4 now supports upload and delete functionalities for `Edm.stream` properties. For more information, see [Different Representations of a Field](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/c18ada4bc56e427a9a2df2d1898f28a5.html "Applications can control how the field is represented by using annotations or metadata.") :arrow_upper_right:.
-
--   SAP Fiori elements for OData V4 now supports the equal split mode for side content. For more information, see [Adding Dynamic Side Content to Object Page Sections](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8e01a463d3984bfa8b23c2270d40e38c.html "Sometimes it might be necessary to add additional information that is not available with annotations to object page sections or subsections.") :arrow_upper_right:.
-
--   Application developers can now add actions for each form on the object page. For more information, see [Adding Custom Actions Using Extension Points](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/7619517a92414e27b71f02094bd08d06.html "You can use extension points to add custom actions to the list report and the object page.") :arrow_upper_right: and [Adding Action Buttons to Forms in Sections](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/e64efdad5bdf4264b54052bd7ab2229a.html "You can add action buttons to the forms contained in sections. These forms are indicated by com.sap.vocabularies.UI.v1.FieldGroup. A form action button is then displayed in the toolbar of the object page section that contains the form.") :arrow_upper_right:.
-
 
 
 
