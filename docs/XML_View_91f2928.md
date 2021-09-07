@@ -34,4 +34,5 @@ Each control or element is represented by an XML tag with the name of the contro
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/api/sap.ui.core.mvc.XMLView#methods/sap.ui.core.mvc.XMLView.create)
+[API Reference: `sap.ui.html.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)
+
