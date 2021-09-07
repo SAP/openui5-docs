@@ -100,7 +100,7 @@ If focus is on an item, select the item and deselect all others.
 </td>
 <td>
 
-If focus is on an item, select the item in addition to an existing selection..
+If focus is on an item, select the item in addition to an existing selection.
 
 
 
@@ -168,7 +168,29 @@ If focus is on an item, change selection state \(selected/ not selected\) to the
 
 Selects all items which the user can reach in the current view by scrolling or paging.
 
-If all items are selected, deselect all items.
+If all items are selected, deselects all items.
+
+This is the default behavior of a list.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+ [Ctrl\] + [Shift\] + [A\] 
+
+
+
+</td>
+<td>
+
+Deselects all items which the user can reach in the current view by scrolling or paging.
+
+To select items , you can no longer use [Ctrl\][A\]. You have to use [Spacebar\] for single selection or  [Shift\] + [Up arrow\]  or [Down arrow\] for multiple selection.
+
+This is the behavior if `multiSelectMode` is set to `ClearAll` for a list.
 
 
 

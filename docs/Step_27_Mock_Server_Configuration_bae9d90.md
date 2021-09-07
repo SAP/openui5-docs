@@ -297,9 +297,9 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 **Related Information**  
 
 
-[Mock Server](Mock_Server_69d3cbd.md)
+[Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
 [API Reference: `sap.ui.core.util.MockServer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html)
 
-[Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md)
+[Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md "Configure a destination in the SAP BTP Cockpit in order to bypass the same-origin policy of the browser.")
 

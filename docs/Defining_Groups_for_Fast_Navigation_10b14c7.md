@@ -135,5 +135,5 @@ onBeforeFastNavigationFocus = function(oEvent) {
 **Related Information**  
 
 
-[Fast Navigation](Fast_Navigation_d23e2cf.md)
+[Fast Navigation](Fast_Navigation_d23e2cf.md "Adjacent controls within the tab chain can be grouped for fast navigation using keyboard shortcuts.")
 

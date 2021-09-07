@@ -70,7 +70,7 @@ A `$batch` request uses multipart MIME to put several requests into one. This ma
 **Related Information**  
 
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[Performance Aspects](Performance_Aspects_5a0d286.md)
+[Performance Aspects](Performance_Aspects_5a0d286.md "The OData V4 model offers the features described below which influence performance.")
 

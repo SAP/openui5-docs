@@ -38,7 +38,7 @@ The OData V4 model supports the following:
 **Related Information**  
 
 
-[Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md)
+[Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md "This section outlines the main differences between the OData V2 and OData V4 models.")
 
 [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html)
 

@@ -251,9 +251,9 @@ We add the missing texts to the properties file.
 **Related Information**  
 
 
-[Filtering](Filtering_5338bd1.md)
+[Filtering](Filtering_5338bd1.md "The OData V4 Model supports server side filtering on lists.")
 
-[Sorting](Sorting_d2ce3f5.md)
+[Sorting](Sorting_d2ce3f5.md "The OData V4 model supports server side sorting on lists.")
 
 [Query Options under *Querying Data* in the Basic Tutorial on the OData home page](http://www.odata.org/getting-started/basic-tutorial/#queryData)
 

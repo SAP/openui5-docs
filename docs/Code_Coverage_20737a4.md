@@ -33,5 +33,5 @@ For more information, see the documentation for Blanket.js on GitHub. Keep in mi
 
 [`Blanket.js` Documentation on GitHub](https://github.com/alex-seville/blanket/blob/master/docs/intermediate_browser.md)
 
-[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md)
+[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage for your test inside the Control.qunit.html page either via HTML or JavaScript code using Blanket.js.")
 

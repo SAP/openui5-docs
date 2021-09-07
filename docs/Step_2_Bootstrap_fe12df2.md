@@ -107,15 +107,15 @@ Now, we create a new `index.js` script that will contain the application logic f
 **Related Information**  
 
 
-[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md)
+[Bootstrapping: Loading and Initializing](Bootstrapping_Loading_and_Initializing_a04b0d1.md "To use OpenUI5 features in your HTML page, you have to load and initialize the SAPUI5 library.")
 
-[Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md)
+[Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md "The standard variant for bootstrapping loads all JavaScript modules of a library in advance with one single request for performance reasons.")
 
-[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md)
+[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in OpenUI5.")
 
-[Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
+[Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md "OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network (CDN).")
 
 [https://jquery.org/](https://jquery.org/)
 
-[Content Security Policy](Content_Security_Policy_fe1a6db.md)
+[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that enables the detection and mitigation of certain types of attacks including cross site scripting and data injection.")
 

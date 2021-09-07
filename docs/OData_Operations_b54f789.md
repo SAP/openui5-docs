@@ -275,7 +275,83 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 
 ### Strict Handling
 
-Section goes here.
+In some cases an action should not be performed in case warnings are present, unless the user explicitly confirms the action. To this end, the HTTP request header `Prefer:handling=strict` is used to request the server to handle warnings like errors. In the case of an action, this means that the request will only be successful if there are no warnings. In case the request fails, the user is prompted to decide whether the action is aborted, allowing the user to fix the warnings, or continued by ignoring the warnings.
+
+The strict handling is requested by the client with the HTTP request header `Prefer:handling=strict`. The server replies with HTTP status code `412 Precondition Failed` and the response header `Preference-Applied:handling=strict` if the request fails because the preference was applied.
+
+To request this behavior, you have to provide `fnOnStrictHandlingFailed` as a callback function when invoking  [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) . This callback is called if the action is rejected with HTTP status code `412 Precondition Failed` and the response header `Preference-Applied:handling=strict`. All messages of the OData error are passed to the callback as an array of  [`sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message) . These messages are not reported to the message model. The callback may be used to visualize the messages and has to return a `Promise` resolving with a `boolean` value. If this `Promise` resolves with `true`, the bound action is repeated, now without requesting `Prefer:handling=strict`. Otherwise, the `Promise` returned by `sap.ui.model.odata.v4.ODataContextBinding#execute` will be canceled.
+
+To enable strict handling for the above example, the controller code snippet may look like this:
+
+> ### Example:  
+> "`Prefer:handling=strict`"
+> 
+> ``` xml
+> // XML view:
+> // the messages may be visualized in a sap.m.Dialog via sap.m.MessageView and sap.m.MessageItem like this
+>     <Dialog id="onStrictMessagesDialog"
+>             title="Messages during order confirmation, do you want to continue?"
+>             resizable="true" contentHeight="50%" contentWidth="50%"
+>             verticalScrolling="false" state="Warning">
+>         <buttons>
+>             <Button id="confirmStrictMode" text="Yes"
+>                     tooltip="Ignore warnings and confirm anyhow"
+>                 press="onConfirmStrictMessages"/>
+>             <Button id="cancelStrictMode" text="No"
+>                     tooltip="Cancel confirmation"
+>                 press="onCancelStrictMessages" type="Emphasized"/>
+>         </buttons>
+>         <MessageView items="{ui>/strictMessages}">
+>             <MessageItem
+>                 type="{ui>type}"
+>                 title="{ui>message}"
+>                 subtitle="{ui>target}">
+>             </MessageItem>
+>         </MessageView>
+>     </Dialog>
+>  
+> // controller code:
+> // event handler that invokes the bound action
+> onExecuteAction : function () {
+>   var that = this;
+>  
+> ...
+>  
+>     function onStrictHandlingFailed (aMessages) {
+>         var oView = that.oView;
+>  
+>         oView.getModel("ui").setProperty("/strictMessages", aMessages);
+>         oView.byId("onStrictMessagesDialog").open();
+>             return new Promise(function (fnResolve) {
+>                 that.fnStrictResolve = fnResolve;
+>             });
+>         }
+>     }
+>  
+>     oAction.execute(undefined, undefined, onStrictHandlingFailed).then(
+>       function () {
+>         MessageToast.show("Invoice created for sales order");
+>       },
+>       function (oError) {
+>         if (!oError.canceled)
+>           MessageBox.alert(oError.message, {icon : MessageBox.Icon.ERROR, title : "Error"});
+>       });
+> });
+>  
+> // event handler to confirm the message and repeat the action
+> onConfirmStrictMessages : function () {
+>     this.fnStrictResolve(true);
+>     this.oView.byId("onStrictMessagesDialog").close();
+> },
+>  
+> // event handler to reject the action
+> onCancelStrictMessages : function () {
+>     this.fnStrictResolve(false);
+>     this.oView.byId("onStrictMessagesDialog").close();
+> },
+> ```
+
+ See also the example in the Demo Kit: [Controller Code for `sap.ui.core.sample.odata.v4.SalesOrders.onConfirmSalesOrder`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
 
 ***
 

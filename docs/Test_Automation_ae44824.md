@@ -19,7 +19,7 @@ In the following section, we describe the setup with *Karma*, but you can of cou
 **Related Information**  
 
 
-[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
+[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md "This section describes the setup of a development project where multiple developers work together on the same code.")
 
 [*Karma* Home Page](https://karma-runner.github.io/)
 

@@ -112,12 +112,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/ui/core/Fragment", "sap/ui/cor
             }.bind(this);
 
             if (!this.oDialog) {
-                this.pDialog = Fragment.load({
-                    name: "mydialog",
-                    controller: this
-                }).then(function(oDialog) {
-                    this.getView().addDependent(oDialog);
-                }.bind(this));
+                this.pDialog = this.loadFragment({
+                    name: "mydialog"
+                });
             }
 
             // chain the style-class sync to the fragment loading promise

@@ -5,12 +5,21 @@
 			"What's New in OpenUI5": {
 				"link": "What's_New_in_OpenUI5_99ac68a.md",
 				"items": {
-					"What's New in OpenUI5 1.91": {
-						"link": "What's_New_in_OpenUI5_1.91_75777da.md"
+					"What's New in OpenUI5 1.94": {
+						"link": "What's_New_in_OpenUI5_1.94_2d6ffdd.md"
+					},
+					"What's New in OpenUI5 1.93": {
+						"link": "What's_New_in_OpenUI5_1.93_e9c8356.md"
 					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.92": {
+								"link": "What's_New_in_OpenUI5_1.92_1492551.md"
+							},
+							"What's New in OpenUI5 1.91": {
+								"link": "What's_New_in_OpenUI5_1.91_75777da.md"
+							},
 							"What's New in OpenUI5 1.90": {
 								"link": "What's_New_in_OpenUI5_1.90_b475202.md"
 							},
@@ -313,65 +322,62 @@
 							"Step 18: Icons": {
 								"link": "Step_18_Icons_776f735.md"
 							},
-							"Step 19: Reuse Dialogs": {
-								"link": "Step_19_Reuse_Dialogs_1945396.md"
+							"Step 19: Aggregation Binding": {
+								"link": "Step_19_Aggregation_Binding_bf71375.md"
 							},
-							"Step 20: Aggregation Binding": {
-								"link": "Step_20_Aggregation_Binding_bf71375.md"
+							"Step 20: Data Types": {
+								"link": "Step_20_Data_Types_dfe0465.md"
 							},
-							"Step 21: Data Types": {
-								"link": "Step_21_Data_Types_dfe0465.md"
+							"Step 21: Expression Binding": {
+								"link": "Step_21_Expression_Binding_c98d573.md"
 							},
-							"Step 22: Expression Binding": {
-								"link": "Step_22_Expression_Binding_c98d573.md"
+							"Step 22: Custom Formatters": {
+								"link": "Step_22_Custom_Formatters_0f8626e.md"
 							},
-							"Step 23: Custom Formatters": {
-								"link": "Step_23_Custom_Formatters_0f8626e.md"
+							"Step 23: Filtering": {
+								"link": "Step_23_Filtering_5295470.md"
 							},
-							"Step 24: Filtering": {
-								"link": "Step_24_Filtering_5295470.md"
+							"Step 24: Sorting and Grouping": {
+								"link": "Step_24_Sorting_and_Grouping_c4b2a32.md"
 							},
-							"Step 25: Sorting and Grouping": {
-								"link": "Step_25_Sorting_and_Grouping_c4b2a32.md"
+							"Step 25: Remote OData Service": {
+								"link": "Step_25_Remote_OData_Service_4406244.md"
 							},
-							"Step 26: Remote OData Service": {
-								"link": "Step_26_Remote_OData_Service_4406244.md"
+							"Step 26: Mock Server Configuration": {
+								"link": "Step_26_Mock_Server_Configuration_bae9d90.md"
 							},
-							"Step 27: Mock Server Configuration": {
-								"link": "Step_27_Mock_Server_Configuration_bae9d90.md"
+							"Step 27: Unit Test with QUnit": {
+								"link": "Step_27_Unit_Test_with_QUnit_e1ce1de.md"
 							},
-							"Step 28: Unit Test with QUnit": {
-								"link": "Step_28_Unit_Test_with_QUnit_e1ce1de.md"
+							"Step 28: Integration Test with OPA": {
+								"link": "Step_28_Integration_Test_with_OPA_9bf4dce.md"
 							},
-							"Step 29: Integration Test with OPA": {
-								"link": "Step_29_Integration_Test_with_OPA_9bf4dce.md"
+							"Step 29: Debugging Tools": {
+								"link": "Step_29_Debugging_Tools_1ff250c.md"
 							},
-							"Step 30: Debugging Tools": {
-								"link": "Step_30_Debugging_Tools_1ff250c.md"
+							"Step 30: Routing and Navigation": {
+								"link": "Step_30_Routing_and_Navigation_e5200ee.md"
 							},
-							"Step 31: Routing and Navigation": {
-								"link": "Step_31_Routing_and_Navigation_e5200ee.md"
+							"Step 31: Routing with Parameters": {
+								"link": "Step_31_Routing_with_Parameters_2366345.md"
 							},
-							"Step 32: Routing with Parameters": {
-								"link": "Step_32_Routing_with_Parameters_2366345.md"
+							"Step 32: Routing Back and History": {
+								"link": "Step_32_Routing_Back_and_History_8ef57cf.md"
 							},
-							"Step 33: Routing Back and History": {
-								"link": "Step_33_Routing_Back_and_History_8ef57cf.md"
+							"Step 33: Custom Controls": {
+								"link": "Step_33_Custom_Controls_d12d2ee.md"
 							},
-							"Step 34: Custom Controls": {
-								"link": "Step_34_Custom_Controls_d12d2ee.md"
+							"Step 34: Responsiveness": {
+								"link": "Step_34_Responsiveness_a96e18b.md"
 							},
-							"Step 35: Responsiveness": {
-								"link": "Step_35_Responsiveness_a96e18b.md"
+							"Step 35: Device Adaptation": {
+								"link": "Step_35_Device_Adaptation_d63a15e.md"
 							},
-							"Step 36: Device Adaptation": {
-								"link": "Step_36_Device_Adaptation_d63a15e.md"
+							"Step 36: Content Density": {
+								"link": "Step_36_Content_Density_d935dbf.md"
 							},
-							"Step 37: Content Density": {
-								"link": "Step_37_Content_Density_d935dbf.md"
-							},
-							"Step 38: Accessibility": {
-								"link": "Step_38_Accessibility_ff7cab1.md"
+							"Step 37: Accessibility": {
+								"link": "Step_37_Accessibility_ff7cab1.md"
 							}
 						}
 					},
@@ -791,8 +797,8 @@
 									}
 								}
 							},
-							"Descriptor for Applications, Components, and Libraries": {
-								"link": "Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md",
+							"Descriptor for Applications, Components, and Libraries \\(manifest.json\\)": {
+								"link": "Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md",
 								"items": {
 									"Migrating from Component Metadata to Descriptor": {
 										"link": "Migrating_from_Component_Metadata_to_Descriptor_e282db2.md"
@@ -1971,6 +1977,9 @@
 					},
 					"Reacting on User Input Events": {
 						"link": "Reacting_on_User_Input_Events_c75861e.md"
+					},
+					"Whitespaces Concept": {
+						"link": "Whitespaces_Concept_37deb0b.md"
 					},
 					"Coding Issues to Avoid": {
 						"link": "Coding_Issues_to_Avoid_3877872.md",

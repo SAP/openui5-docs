@@ -59,5 +59,5 @@ We will use the worklist template as a starting point for this tutorial and add 
 
 [SAP Fiori design guidelines: Worklist Floorplans](https://experience.sap.com/fiori-design/floorplans/work-list/)
 
-[Worklist Template](Worklist_Template_a77f2d2.md)
+[Worklist Template](Worklist_Template_a77f2d2.md "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.")
 

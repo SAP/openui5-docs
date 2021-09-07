@@ -525,11 +525,11 @@ sap.ui.define([
 **Related Information**  
 
 
-[Composite Binding](Composite_Binding_a2fe8e7.md)
+[Composite Binding](Composite_Binding_a2fe8e7.md "Calculated fields enable the binding of multiple properties in different models to a single property of a control.")
 
-[Examples for Data Binding in Different View Types](Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md)
+[Examples for Data Binding in Different View Types](Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md "Examples how complex syntax can be used for calculated fields in XML, HTML, and JS views.")
 
-[XML Templating](XML_Templating_5ee619f.md)
+[XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.")
 
-[Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md)
+[Configuration of the OpenUI5 Runtime](Configuration_of_the_OpenUI5_Runtime_91f08de.md "OpenUI5 provides several options for the configuration of the OpenUI5 runtime. The possible ways to provide input for the available configuration options are described in detail.")
 

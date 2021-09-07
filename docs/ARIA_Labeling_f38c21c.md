@@ -52,5 +52,5 @@ There are several options for labeling:
 **Related Information**  
 
 
-[Best Practices for ARIA Labeling](Best_Practices_for_ARIA_Labeling_3169195.md)
+[Best Practices for ARIA Labeling](Best_Practices_for_ARIA_Labeling_3169195.md "Sometimes the UI and the control usage may not allow standard ARIA labeling. Here we introduce some best practices on handling the labels in these cases.")
 

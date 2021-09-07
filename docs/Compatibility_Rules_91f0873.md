@@ -169,7 +169,7 @@ For a list of the third-party open source software used in OpenUI5, choose *More
 **Related Information**  
 
 
-[Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
+[Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md "Versioning and maintenance strategy for OpenUI5.")
 
 [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui)
 

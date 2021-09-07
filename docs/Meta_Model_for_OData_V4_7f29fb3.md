@@ -172,7 +172,7 @@ The first `<template:with>` defines `entityType` to be the type of the set `Busi
 **Related Information**  
 
 
-[OData V4 Metadata JSON Format](OData_V4_Metadata_JSON_Format_87aac89.md)
+[OData V4 Metadata JSON Format](OData_V4_Metadata_JSON_Format_87aac89.md "The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.")
 
 [getMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/sap.ui.model.odata.v4.ODataModel.getMetadata)
 

@@ -152,7 +152,7 @@ For more information, see: [Using and Nesting Components](Using_and_Nesting_Comp
 **Related Information**  
 
 
-[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
+[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest components inside other components.")
 
 [API Reference: `loadLibrary`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core%23methods/loadLibrary)
 

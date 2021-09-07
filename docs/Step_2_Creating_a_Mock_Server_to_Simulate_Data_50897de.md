@@ -231,7 +231,7 @@ Just run the app now again with the `mockServer.html` file.. The list should now
 **Related Information**  
 
 
-[Mock Server](Mock_Server_69d3cbd.md)
+[Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
 [API Reference: `sap.ui.core.util.MockServer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html)
 

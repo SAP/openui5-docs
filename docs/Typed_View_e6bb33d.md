@@ -14,7 +14,13 @@ A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a
 
 ***
 
-A typed view implements its own `View#createContent` method. It must return one or several root controls, which will be rendered as content of the view.
+A typed view implements its own `View#createContent` method. It must either return one or several root controls that will be rendered as content of the view or a promise resolving with the view content.
+
+> ### Note:  
+> Typed Views are not supported for synchronous view types, such as:
+> 
+> -   `sap.ui.core.mvc.JSONView`
+> -   `sap.ui.core.mvc.HTMLView`
 
 ***
 
@@ -75,14 +81,6 @@ The preferred way of instantiating a typed view is via the factory function  [`s
   });
 ```
 
-A typed view can also be instantiated by calling its constructor without any arguments:
-
-``` js
-sap.ui.require(["myapp/views/MyView"], function(MainView) {
-    new MainView().placeAt("content");
-  });
-```
-
 ***
 
 <a name="loioe6bb33d076dc4f23be50c082c271b9f0__section_wjs_psz_y4b"/>
@@ -95,14 +93,6 @@ A typed view in XML can be declared via the class `sap.ui.core.mvc.View`. Using 
 
 ``` xml
 <mvc:View viewName="module:myapp/views/MyView" />
-```
-
-A typed view can also be declared via its own view class. You need to provide the namespace of the typed view in the XML.
-
-View Declaration using a `myapp.views.MyView` class:
-
-``` xml
-<myapp:MyView xmlns:myapp="myapp.views" />
 ```
 
 **Related Information**  

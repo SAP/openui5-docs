@@ -404,7 +404,7 @@ Alternatively, a `<meta>` tag can be used to configure the `allowlistService` an
 **Related Information**  
 
 
-[Allowlist Service](Allowlist_Service_d04a6d4.md)
+[Allowlist Service](Allowlist_Service_d04a6d4.md "SAPUI5 supports the configuration of a central allowlist service.")
 
-[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
+[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The complete list of configuration options available in OpenUI5 can be found in the API Reference under sap.ui.core.Configuration. The following table shows a subset of the available configuration options.")
 

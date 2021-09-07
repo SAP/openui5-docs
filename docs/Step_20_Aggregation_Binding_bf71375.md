@@ -194,11 +194,11 @@ In the text bundle the title of the list is added.
 **Related Information**  
 
 
-[Lists](Lists_1da1581.md)
+[Lists](Lists_1da1581.md "Lists have properties and events and they contain list items that inherit from sap.m.ListItemBase, which provides navigation, selection and event features. The list item type determines the way the list item interacts by providing additional features.")
 
 [API Reference: `sap.m.List`](https://openui5.hana.ondemand.com/#/api/sap.m.List)
 
 [Samples: `sap.m.List` ](https://openui5.hana.ondemand.com/#/entity/sap.m.List)
 
-[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)
+[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls according to model data.")
 

@@ -202,9 +202,9 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
 We have updated our recommendations for QUnit and OPA tests in the *Walkthrough* tutorial, the *Testing* tutorial, and in the *Demo Apps*. The tests are now in line with the latest best practices for the unit/integration test setup and no longer use synchronous APIs. For more information, see the following sections in our *Walkthrough* tutorial:
 
--   [Step 28: Unit Test with QUnit](Step_28_Unit_Test_with_QUnit_e1ce1de.md)
+-   [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md)
 
--   [Step 29: Integration Test with OPA](Step_29_Integration_Test_with_OPA_9bf4dce.md)
+-   [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md)
 
 
 ***

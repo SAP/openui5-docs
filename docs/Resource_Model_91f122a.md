@@ -32,11 +32,11 @@ After the resource model has been instantiated, you have a model containing the 
 **Related Information**  
 
 
-[Modules and Dependencies](Modules_and_Dependencies_91f23a7.md)
+[Modules and Dependencies](Modules_and_Dependencies_91f23a7.md "The OpenUI5 framework has built-in support for modularizing comprehensive JavaScript applications. That means, instead of defining and loading one large bundle of JavaScript code, an application can be split into smaller parts which then can be loaded at runtime at the time when they are needed. These smaller individual files are called modules.")
 
-[Localization](Localization_91f217c.md)
+[Localization](Localization_91f217c.md "The framework concepts for text localization in OpenUI5 are aligned with the general concepts of the Java platform.")
 
-[Resource Bundles](Resource_Bundles_91f225c.md)
+[Resource Bundles](Resource_Bundles_91f225c.md "A resource bundle file is a Java properties file (as described in the Javadoc of class java.util.Properties). It contains key-value pairs where the values are the language-dependent texts and the keys are language-independent and used by the application to identify and access the corresponding values.")
 
 [API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
 
