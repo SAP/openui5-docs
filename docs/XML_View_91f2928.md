@@ -35,4 +35,3 @@ Each control or element is represented by an XML tag with the name of the contro
 
 
 [API Reference: `sap.ui.html.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)
-
