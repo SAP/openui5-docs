@@ -39,13 +39,13 @@ Binding path examples:
 **Related Information**  
 
 
-[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
+[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData services.")
 
-[OData V4 Model: Bindings](Bindings_54e0ddf.md)
+[OData V4 Model: Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[Binding Path Syntax for JSON Models](JSON_Model_96804e3.md#loiod52e364907f94a3caeb4f5e5ad0cf302)
+[Binding Path Syntax for JSON Models](JSON_Model_96804e3.md#loiod52e364907f94a3caeb4f5e5ad0cf302 "The JSON model has a simple binding path syntax, because it consists of named objects, such as properties, arrays, or nested objects.")
 
-[Binding Path Syntax for XML Models](XML_Model_a53e71d.md#loiob8a2c24356c443228f7819d45697a2b8)
+[Binding Path Syntax for XML Models](XML_Model_a53e71d.md#loiob8a2c24356c443228f7819d45697a2b8 "XML models differentiate between attributes and content. XML has no arrays and defines lists as multiple elements with the same name instead. This makes the binding path syntax for XML models more difficult than for JSON or OData models.")
 
-[Binding Path Syntax for Resource Models](Resource_Model_91f122a.md#loiof05c6f2cf18241cbbb2b126989108765)
+[Binding Path Syntax for Resource Models](Resource_Model_91f122a.md#loiof05c6f2cf18241cbbb2b126989108765 "The binding path syntax for the resource model only contains a flat list of properties.")
 

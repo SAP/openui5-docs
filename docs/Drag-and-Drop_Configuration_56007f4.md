@@ -46,5 +46,5 @@ Both `DragInfo` and `DropInfo` provide the `groupName` property. If this propert
 
 [API Reference: `dragDropConfig`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations)
 
-[Drag-and-Drop Metadata](Drag-and-Drop_Metadata_da7f3fc.md)
+[Drag-and-Drop Metadata](Drag-and-Drop_Metadata_da7f3fc.md "To influence the drag-and-drop behavior, use the metadata definition of a control.")
 

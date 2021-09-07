@@ -19,7 +19,7 @@ For information on colors and theming, follow the guidelines listed under *Relat
 **Related Information**  
 
 
-[Product Standards and Acceptance Criteria](Product_Standards_and_Acceptance_Criteria_bafc686.md)
+[Product Standards and Acceptance Criteria](Product_Standards_and_Acceptance_Criteria_bafc686.md "To be of high quality and usable in mission-critical business software, OpenUI5 needs to fulfill specific product standards and acceptance criteria. While these are not directly related to code conventions, the most important standards and criteria are mentioned here, because new code needs to fulfill these requirements.")
 
-[Colors and Theming](Colors_and_Theming_086c41c.md)
+[Colors and Theming](Colors_and_Theming_086c41c.md "Theming is an important aspect for an OpenUI5 application. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable.")
 

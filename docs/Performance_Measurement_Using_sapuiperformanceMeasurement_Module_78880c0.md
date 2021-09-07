@@ -580,7 +580,7 @@ Measurement.filterMeasurements(function(oMeasurement) {
 
 [API Reference: `jQuery.sap.measure.html`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.measure.html)
 
-[Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md)
+[Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md "If a web app has performance issues, finding the cause can be both a time-consuming and nerve-consuming task. To help you avoid and solve performance issues in your app, here are some good practices we've discovered while dealing with OpenUI5 apps.")
 
-[Performance Issues](Performance_Issues_966d67c.md)
+[Performance Issues](Performance_Issues_966d67c.md "This section lists some of the most important issues that should be avoided to improve performance in OpenUI5 applications.")
 

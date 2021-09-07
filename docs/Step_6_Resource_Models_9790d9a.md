@@ -133,5 +133,5 @@ You could use multiple model instances by using different model names. The model
 **Related Information**  
 
 
-[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.")
 

@@ -63,5 +63,5 @@ You can switch on the High Contrast White theme by appending the `sap_fiori_3_hc
 **Related Information**  
 
 
-[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
+[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md "This chapter gives an overview of the possible combinations of themes and libraries for the OpenUI5 versions that are still in maintenance.")
 

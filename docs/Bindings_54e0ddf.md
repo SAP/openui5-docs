@@ -32,13 +32,13 @@ The OData V4 model supports the following types of binding:
 
 [Sample: Sales Orders](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
 
-[Binding Events](Binding_Events_1a010d3.md)
+[Binding Events](Binding_Events_1a010d3.md "The OData V4 model supports certain events intended for applications, and others that are to be used for controls, as outlined in this section.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[Filtering](Filtering_5338bd1.md)
+[Filtering](Filtering_5338bd1.md "The OData V4 Model supports server side filtering on lists.")
 
-[Sorting](Sorting_d2ce3f5.md)
+[Sorting](Sorting_d2ce3f5.md "The OData V4 model supports server side sorting on lists.")
 
 [OData Version 4.0 Part 2: URL Conventions, 4 Resource Path](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html)
 

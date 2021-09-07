@@ -156,17 +156,17 @@ There might still be features that are hard to test with these client-side testi
 **Related Information**  
 
 
-[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)
+[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md "The app templates documented here are a kind of &quot;best practice&quot; for your app development.")
 
-[Worklist Template](Worklist_Template_a77f2d2.md)
+[Worklist Template](Worklist_Template_a77f2d2.md "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.")
 
-[Testing](Testing_7cdee40.md)
+[Testing](Testing_7cdee40.md "OpenUI5 provides several testing options, like to unit and integration tests and the OData V2 mock server.")
 
-[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)
+[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md "QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic JavaScript code. It supports asynchronous tests out-of-the-box.")
 
-[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
+[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
-[Mock Server](Mock_Server_69d3cbd.md)
+[Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[Walkthrough](Walkthrough_3da5f4b.md)
+[Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 

@@ -103,7 +103,7 @@ Now, start the webserver, serve the sources of the \`webapp\` folder, and open t
 **Related Information**  
 
 
-[Development Environment](Development_Environment_7bb04e0.md)
+[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 
-[Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md)
+[Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md "OpenUI5 can either be loaded locally with a relative path from a Web server or externally from a Content Delivery Network (CDN).")
 

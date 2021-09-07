@@ -29,10 +29,9 @@ The XML view type is defined in an XML file. The file name either ends with `.vi
 
 Nest the XML tags analogous to the nesting sequence of OpenUI5 controls and add the property values as attributes \(see [Namespaces in XML Views](Namespaces_in_XML_Views_2421a2c.md)\).
 
-Each control or element is represented by an XML tag with the name of the control. If you, for example, want to create an instance of a `sap.m.Button`, you use the `<Button>` tag with the `sap.m` namespace. You can create a context binding for the control by using the `objectBinding` or `binding` attributes. For more information, see [Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md).
+Each control or element is represented by an XML tag with the name of the control. If you, for example, want to create an instance of a `sap.m.Button`, you use the `<Button>` tag with the `sap.m` namespace. You can create a context binding for the control by using the `objectBinding` or `Binding` attributes. For more information, see [Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md).
 
 **Related Information**  
 
 
 [API Reference: `sap.ui.html.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)
-

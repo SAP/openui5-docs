@@ -71,7 +71,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Views in the descriptor for applications, components, and libraries
 
-    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md).
 
     Example:
 
@@ -321,13 +321,25 @@ If you want to add an embedded component with a stable ID, you have two options:
 </td>
 <td>
 
-If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+If you use XML fragments in your app, make sure they are instantiated with the correct view ID prefix.To simplify this you can use the `loadFragment` function on your `sap.ui.core.mvc.Controller` instance.
 
-Example:
+Example using the controller function `loadFragment`:
+
+``` js
+// "this" is the controller instance
+this.loadFragment({
+	// note: no ID prefix needed
+	name: "my.fragment.SampleFragment"
+});
+```
+
+Example using the generic function `sap.ui.core.Fragment.load`:
 
 ``` js
 // "Fragment" required from module "sap/ui/core/Fragment"
+// "this" is the controller instance
 Fragment.load({
+	// note: ID prefix needed
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
 });
@@ -500,5 +512,5 @@ If any generated IDs are found, set the IDs for these controls manually as descr
 **Related Information**  
 
 
-[Support Assistant](Support_Assistant_57ccd7d.md)
+[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.")
 

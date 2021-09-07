@@ -833,6 +833,29 @@ Version 35
 
 </td>
 </tr>
+<tr>
+<td>
+
+Version 36
+
+
+
+</td>
+<td>
+
+\>=1.93
+
+
+
+</td>
+<td>
+
+1.35.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -868,11 +891,21 @@ The `manifest` option allows you to configure when and from where the descriptor
     });
     ```
 
--   Suppress loading the manifest by setting the `manifest` flag to `false`, for example, when a legacy component doesn't have one:
+-   There are two possible scenarios for setting the `manifest` flag to `false`:
+
+    1.  The component defines `manifest: "json"` in its [Component Metadata](Component_Metadata_0187ea5.md).
+
+        In this case, the descriptor is loaded and evaluated **after** the Component controller. All dependencies defined in the descriptor will then also be loaded. Afterwards, the Component is instantiated.
+
+    2.  The component does not define `manifest: "json"` in its [Component Metadata](Component_Metadata_0187ea5.md).
+
+        This is typically the case for older legacy Components without a descriptor. In this case, only the Component's class metadata is evaluated. No additional descriptor file will be loaded.
 
     ``` js
     // "Component" required from module "sap/ui/core/Component"
     // load component without loading a manifest first
+    //  - Case 1: the manifest.json is loaded after the Component controller
+    //  - Case 2: no manifest.json is loaded (legacy)
     Component.create({
       name: "sap.my.component",
       manifest: false
@@ -1400,6 +1433,24 @@ Array of directly used open source libraries for documentation purposes; not use
 
 </td>
 </tr>
+<tr>
+<td>
+
+ `resources` 
+
+
+
+</td>
+<td>
+
+Relative URL as a reference to a file \(naming convention is `resources.json`\) that contains a list of all resources needed by the app \(all resources inside the app\); the file is generated in an SAP Web IDE build step.
+
+For a description of `resources.json`, see [The resources.json File](The_resources.json_File_adcbcf8.md).
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -1658,7 +1709,7 @@ Defines models that should be created or destroyed along the component's lifecyc
 </td>
 <td>
 
-Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.ViewType.html)\), **id**, **async** and other properties of `sap.ui.core.mvc.view`.
+Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string \(see [sap.ui.core.mvc.View.create](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create)\) and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)\), **id**, **async**, and other properties of `sap.ui.core.mvc.view`.
 
 
 
@@ -1957,7 +2008,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.34.0",
+    "_version": "1.35.0",
  
     "start_url": "index.html",
  
@@ -2047,7 +2098,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.92.0",
+            "minUI5Version": "1.93.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

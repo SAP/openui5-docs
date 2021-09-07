@@ -66,7 +66,7 @@ We simply set the parameter `growing` to `true` to enable our feature. Now we ca
 **Related Information**  
 
 
-[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md)
+[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be used for tables and lists.")
 
 [API Reference: `sap.m.Table`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Table.html)
 

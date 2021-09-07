@@ -173,5 +173,5 @@ The ampersand \(`&`\) character also has a high priority meaning to the XML pars
 **Related Information**  
 
 
-[Expression Binding](Expression_Binding_daf6852.md)
+[Expression Binding](Expression_Binding_daf6852.md "Expression binding is an enhancement of the OpenUI5 binding syntax, which allows for providing expressions instead of custom formatter functions.")
 

@@ -134,7 +134,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 **Related Information**  
 
 
-[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.")
 
 [API Reference: `sap/base/i18n/ResourceBundle`](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
 

@@ -215,7 +215,7 @@ For more information about the SAP Fiori design, see the [SAP Fiori design guide
 
 [Index of Deprecated APIs](https://openui5.hana.ondemand.com/#docs/api/deprecation.html)
 
-[Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
+[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
+[Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md "This chapter gives an overview of the possible combinations of themes and libraries for the OpenUI5 versions that are still in maintenance.")
 

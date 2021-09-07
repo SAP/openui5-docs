@@ -33,5 +33,5 @@ All view-specific properties can be added to the `<template>` tag as `data-*` at
 **Related Information**  
 
 
-[Declarative Support](Declarative_Support_91f1301.md)
+[Declarative Support](Declarative_Support_91f1301.md "Declarative programming allows you to define the UI within the HTML document as elements.")
 

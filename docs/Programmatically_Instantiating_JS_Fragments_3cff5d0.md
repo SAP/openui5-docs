@@ -34,27 +34,25 @@ sap.ui.define(["sap/m/Button"], function(Button) {
 This fragment can be instantiated from a controller as follows:
 
 ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({
+
+this.loadFragment({
 	name: "my.useful.UiPartX",
-	type: "JS",
-	controller: this // assuming "this" is the controller
+	type: "JS"
 }).then(function(oMyButton){
 	// oMyButton is now usable
 });
 ```
 
-This button can now be used as if it had been created in a standard way. Note how a controller instance is passed as an additional parameter. This is required because that particular fragment binds the button press handler to the method `doSomething` in the given controller. With no controller given, this would cause an error.
+This button can now be used as if it had been created in a standard way.
 
 For fragments that are used several times, an ID for the fragment can be given optionally, see [Unique IDs](Unique_IDs_5da591c.md):
 
 ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({
+
+this.loadFragment({
 	name: "my.useful.UiPartX",
 	id: "someId"
-	type: "JS",
-	controller: this // assuming "this" is the controller
+	type: "JS"
 }).then(function(oMyButton){
 	// oMyButton is now usable
 });
@@ -79,11 +77,11 @@ sap.ui.define(["sap/ui/core/Fragment", "sap/m/Button", "heavy/work/SomeModule"],
 });
 ```
 
-You can now require the above fragment definition by calling `Fragment.load`. All asynchronous behavior is encapsulated by the `Fragment.load` Promise:
+You can now require the above fragment definition by calling `loadFragment`. All asynchronous behavior is encapsulated by the `loadFragment` Promise:
 
 ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({
+
+this.loadFragment({
 	name: "reuse.SampleFragment",
 	type: "JS"
 }).then(function(oButton){

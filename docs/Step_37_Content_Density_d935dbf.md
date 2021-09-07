@@ -176,7 +176,7 @@ If you want to dive deeper into specific topics, you can use the other tutorials
 **Related Information**  
 
 
-[Content Densities](Content_Densities_e54f729.md)
+[Content Densities](Content_Densities_e54f729.md "The devices used to run apps that are developed with OpenUI5 run on various different operating systems and have very different screen sizes. OpenUI5 contains different content densities for certain controls that allow your app to adapt to the device in question, allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse.")
 
 [API Reference: `sap.ui.Device.media.RANGESETS`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.media.RANGESETS.html)
 

@@ -61,5 +61,5 @@ sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (B
 **Related Information**  
 
 
-[Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md)
+[Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md "Full example of a class definition, including JSDoc")
 

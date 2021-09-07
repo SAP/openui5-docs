@@ -49,17 +49,10 @@ sap.ui.define([
 		},
 
 		onOpenDialog : function () {
-			var oView = this.getView();
 
 			if (!this.pDialog) {
-				this.pDialog = Fragment.load({
-					id: oView.getId(),
-					name: "sap.ui.demo.walkthrough.view.HelloDialog"*HIGHLIGHT START*,
-					controller: this*HIGHLIGHT END*
-				}).then(function (oDialog) {
-					// connect dialog to the root view of this component (models, lifecycle)
-					oView.addDependent(oDialog);
-					return oDialog;
+				this.pDialog = this.loadFragment({
+					name: "sap.ui.demo.walkthrough.view.HelloDialog"
 				});
 			} 
 			this.pDialog.then(function(oDialog) {
@@ -76,8 +69,6 @@ sap.ui.define([
 
 });
 ```
-
-As previously described, fragments are pure UI reuse artifacts and do not have a controller. However, you can pass a controller object to the `Fragment.load` API. For our dialog we reference the `HelloPanel` controller. However, the third parameter does not necessarily have to be a controller but can be any object. Just don't forget the `this` keyword.
 
 The event handler function is put into the same controller file and it closes the dialog by accessing the internal helper function that returns the dialog.
 
@@ -101,7 +92,7 @@ The event handler function is put into the same controller file and it closes th
 </core:FragmentDefinition>
 ```
 
-In the fragment definition, we add a button to the `beginButton` aggregation of the dialog. The press handler is referring to an event handler called `.onCloseDialog`, and since we passed in the reference to the `HelloPanel` controller, the method will be invoked there when the button is pressed. The dialog has an aggregation named `beginButton` as well as `endButton`. Placing buttons in both of these aggregations makes sure that the `beginButton` is placed before the `endButton` on the UI. What `before` means, however, depends on the text direction of the current language. We therefore use the terms `begin` and `end` as a synonym to “left” and “right". In languages with left-to-right direction, the `beginButton` will be rendered left, the `endButton` on the right side of the dialog footer; in right-to-left mode for specific languages the order is switched.
+In the fragment definition, we add a button to the `beginButton` aggregation of the dialog. The press handler refers to an event handler called `.onCloseDialog`. By using the `loadFragment` function to create the fragment content, the method will be invoked there when the button is pressed. The dialog has an aggregation named `beginButton` as well as `endButton`. Placing buttons in both of these aggregations makes sure that the `beginButton` is placed before the `endButton` on the UI. What `before` means, however, depends on the text direction of the current language. We therefore use the terms `begin` and `end` as a synonym to “left” and “right". In languages with left-to-right direction, the `beginButton` will be rendered left, the `endButton` on the right side of the dialog footer; in right-to-left mode for specific languages the order is switched.
 
 ***
 
@@ -128,7 +119,7 @@ The text bundle is extended by the new text for the dialog’s close button.
 **Related Information**  
 
 
-[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
+[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md "Fragments are light-weight UI parts (UI sub-trees) which can be reused, defined similar to views, but do not have any controller or other behavior code involved.")
 
-[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md)
+[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md "OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending sap.ui.core.mvc.Controller, the loadFragment() function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function sap.ui.core.Fragment.load() can be used.")
 

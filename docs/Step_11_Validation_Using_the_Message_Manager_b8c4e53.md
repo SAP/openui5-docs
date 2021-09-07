@@ -103,5 +103,5 @@ However, the error message itself will only be displayed when that particular fi
 **Related Information**  
 
 
-[Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md)
+[Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md "OpenUI5 provides a central place for storing and managing info, warning, and error messages.")
 

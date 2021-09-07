@@ -20,7 +20,7 @@ This section lists some of the most important issues that should be avoided when
 
 Don't use or override "private" methods or properties. Private functions are typically \(but not always\) prefixed with "`_`".
 
-Use "protected" methods or properties only if you access it from the object itself or an object that extends that object. \(For example as we do in [Step 19: Reuse Dialogs](Step_19_Reuse_Dialogs_1945396.md) of the *Walkthrough* tutorial.\) In the API Reference, protected functions are indicated by a label *Visibility: protected* below the description of the function.
+Use "protected" methods or properties only if you access it from the object itself or an object that extends that object. In the API Reference, protected functions are indicated by a label *Visibility: protected* below the description of the function.
 
 Always double check in the API Reference. If OpenUI5 changes the implementation in a future release, your code will break if you fail to follow this guideline.
 
@@ -179,11 +179,11 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 
-    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
     -   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
@@ -191,7 +191,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
-    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
     -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 

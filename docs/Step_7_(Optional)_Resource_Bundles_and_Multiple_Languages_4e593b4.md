@@ -104,5 +104,5 @@ To test the outcome, change the default language of your browser to German and r
 **Related Information**  
 
 
-[Localization](Localization_91f217c.md)
+[Localization](Localization_91f217c.md "The framework concepts for text localization in OpenUI5 are aligned with the general concepts of the Java platform.")
 

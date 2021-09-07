@@ -63,12 +63,12 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 	"rootView": {
 		"viewName": "sap.ui.demo.walkthrough.view.App",
 		"type": "XML",
-		"async": true,
 		"id": "app"
 	},
 	"dependencies": {
-	  "minUI5Version": "1.60",
+	  "minUI5Version": "1.93",
 	  "libs": {
+		"sap.ui.core": {}
 		"sap.m": {}
 	  }
 	},
@@ -196,6 +196,7 @@ sap.ui.define([
    "use strict";
    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
       *HIGHLIGHT START*metadata : {
+            interfaces: ["sap.ui.core.IAsyncContentCreation"],
             manifest: "json"
       },*HIGHLIGHT END*
       init : function () {
@@ -234,5 +235,9 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 **Related Information**  
 
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
+
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")
+
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as well as the event bus.")
 

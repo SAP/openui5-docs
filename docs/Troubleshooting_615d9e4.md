@@ -14,7 +14,7 @@ This section describes the various tools that are available for troubleshooting 
 
 The first place to check for errors is the developer tools that are provided by the various browsers. They can help you examine the details of the current web page and provide you with debugging tools. For more information on how to debug OpenUI5 apps, see [Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab) and [Logging and Tracing](Logging_and_Tracing_9f4d62c.md).
 
-     
+  
 
 OpenUI5 also provides you with support tools that help you troubleshoot and solve issues.
 
@@ -215,5 +215,5 @@ If you're stuck and need help with a development task, you can also post a quest
 **Related Information**  
 
 
-[Troubleshooting Tutorial](Troubleshooting_5661952.md)
+[Troubleshooting Tutorial](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 

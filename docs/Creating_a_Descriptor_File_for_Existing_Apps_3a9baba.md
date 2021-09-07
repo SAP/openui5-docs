@@ -19,12 +19,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     ```json
     
     {
-        "_version": "1.1.0",
+        "_version": "1.35.0",
     	
     	"start_url": "<startUrl>",
     	
         "sap.app": {
-            "_version": "1.1.0",
             "id": "<id>",
             "type": "application",
             "i18n": "<i18nPathRelativeToManifest>",
@@ -47,7 +46,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             }
         },
         "sap.ui": {
-            "_version": "1.1.0",
             "icons": {
                 "icon": "<icon>",
                 "favIcon": "<favIcon>",
@@ -67,7 +65,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             ]
         },
         "sap.ui5": {
-            "_version": "1.1.0",
             "resources": {
                 "js": [
                     {
@@ -127,11 +124,9 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
         },
     
         "sap.platform.abap": {
-            "_version": "1.1.0",
             "uri": "<uri>"
         },
         "sap.platform.hcp": {
-            "_version": "1.1.0",
             "uri": "<uri>"
         }
     }
@@ -178,7 +173,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...
         "id": "cust.emp.myleaverequests",
         ...
@@ -209,7 +203,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...
         "i18n": "i18n/i18n.properties",
         ...
@@ -225,7 +218,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ... 
         "tags": {
             "keywords": [
@@ -270,7 +262,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...       
         "dataSources": {
             "LEAVEREQUEST": {
@@ -312,7 +303,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui": {
-        "_version": "1.1.0",
         ...
         "icons": {
             "icon": "sap-icon://Fiori2/F0394",
@@ -334,7 +324,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui": {
-        "_version": "1.1.0",
         ...       
         "deviceTypes": {
             "desktop": true,
@@ -370,7 +359,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "resources": {
             "js": [
@@ -413,7 +401,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "dependencies": {
             "minUI5Version": "1.30",
@@ -469,7 +456,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "models": {
             "i18n": {
@@ -510,7 +496,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "rootView": "myRootView",
         "handleValidation": true,
@@ -539,7 +524,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "extends": {
             "component": "hcm.emp.myleaverequests",
@@ -557,7 +541,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...       
         "contentDensities": {
             "compact": true,

@@ -111,7 +111,7 @@ To make the *First Name* optional, we remove the parameter `Nullable="false"` fr
 **Related Information**  
 
 
-[Type Determination](Type_Determination_53cdd55.md)
+[Type Determination](Type_Determination_53cdd55.md "")
 
 [API Reference: `sap.ui.model.odata.type`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.type.html)
 

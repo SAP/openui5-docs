@@ -77,5 +77,5 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 **Related Information**  
 
 
-[UI5 Inspector](UI5_Inspector_b24e724.md)
+[UI5 Inspector](UI5_Inspector_b24e724.md "The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.")
 

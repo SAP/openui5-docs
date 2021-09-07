@@ -28,7 +28,79 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
     A controller listens on the `EventBus` for a certain event that is triggered by another controller. Depending on the loading time of the corresponding views, the `init` controller methods may be called at a different point in time. For information how to resolve this, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 
--   Issues with asynchronous loading can also occur, if your application uses XML views that are configured to be loaded asynchronously via the `manifest` property, for example for the root view `sap.ui5/rootView/async=true`. To detect such issues, we recommend to do extensive \(automatic\) testing to ensure the application continues to work as expected.
+-   Issues with asynchronous loading can also occur if your application uses XML views that are configured to be loaded asynchronously via the `manifest` property, for example for the root view `sap.ui5/rootView/async=true`. To detect such issues, we recommend to do extensive \(automatic\) testing to ensure the application continues to work as expected.
+
+-   If your application uses expression bindings, keep in mind that `sap.ui.base.ExpressionParser` loads some resources synchronously. To avoid this, make sure to load them in advance, for example by declaring them in the `sap.ui.define` statement in your application code that runs before the expression bindings are evaluated. The following expression bindings are affected:
+
+
+    <table>
+    <tr>
+    <th>
+
+    Expression Binding\(s\)
+
+
+    
+    </th>
+    <th>
+
+    Resource to be Preloaded
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td>
+
+    "odata.compare", e.g. `value="{=odata.compare(2,3)}"` 
+
+
+    
+    </td>
+    <td>
+
+    `sap.ui.model.odata.v4.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"` 
+
+
+    
+    </td>
+    <td>
+
+    `sap.ui.model.odata.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+
+    "odata.fillUriTemplate", e.g. `value="{=odata.fillUriTemplate('http://foo/{t},{m}', {'t': ${/mail}, 'm': ${/tel}})}"` 
+
+
+    
+    </td>
+    <td>
+
+    `sap.ui.thirdparty.URITemplate`
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+    For more information on the preload of dependencies, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md).
 
 
 ***
@@ -37,5 +109,5 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
 ### Known Incompatibilities
 
-The `sap.viz` library uses another module loader in addition to the OpenUI5 module loader in some scenarios. In combination with the `async=true` configuration parameter, this currently leads to issues and may break your application.
+The `sap.viz` library uses another module loader in addition to the OpenUI5 module loader in some scenarios. In combination with the `` configuration parameter, this currently leads to issues and may break your application.
 

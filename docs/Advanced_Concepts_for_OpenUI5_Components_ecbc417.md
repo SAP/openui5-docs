@@ -14,6 +14,12 @@ Advanced concepts for components include routing and navigation and component da
 
 The following advanced concepts for components exist.
 
+-   Asynchronous content creation
+
+    A `UIComponent` can implement the `sap.ui.core.IAsyncContentCreation` interface. This interface allows you to provide a Promise as the return value for the  [`sap.ui.core.UIComponent#createContent`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent/methods/createContent) function.
+
+    For more information, see [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md).
+
 -   Routing and navigation
 
     UI components support the routing and navigation concept, see [Initializing and Accessing a Routing Instance](Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md).

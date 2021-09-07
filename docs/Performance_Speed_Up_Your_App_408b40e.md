@@ -168,7 +168,7 @@ An indicator that a component is inside a library is the existence of an entry `
 
 **Additional Information:**
 
--   [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+-   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md)
 
 ***
 
@@ -240,7 +240,7 @@ For more informations, see:
 
 ### Use "manifest first" to Load the Component
 
-Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
+Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
 ``` js
 // "Component" required from module "sap/ui/core/Component"
@@ -456,9 +456,9 @@ You can further optimize your code by doing the following:
 **Related Information**  
 
 
-[Coding Issues to Avoid: Performance Issues](Performance_Issues_966d67c.md)
+[Coding Issues to Avoid: Performance Issues](Performance_Issues_966d67c.md "This section lists some of the most important issues that should be avoided to improve performance in OpenUI5 applications.")
 
-[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
+[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
 
 [Blog: SAPUI5 Application Startup Performance – Best Practices](https://blogs.sap.com/2016/10/29/sapui5-application-startup-performance-best-practices/)
 

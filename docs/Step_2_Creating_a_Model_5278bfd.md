@@ -95,7 +95,7 @@ The text that is displayed on the UI is still hard-coded and not taken from the 
 **Related Information**  
 
 
-[Models](Models_e1b6259.md)
+[Models](Models_e1b6259.md "A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.")
 
-[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")
 

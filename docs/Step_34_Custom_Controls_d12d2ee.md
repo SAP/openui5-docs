@@ -317,9 +317,9 @@ The resource bundle is extended with the confirmation message and the strings th
 **Related Information**  
 
 
-[Developing Controls](Developing_Controls_8dcab00.md)
+[Developing Controls](Developing_Controls_8dcab00.md "You can create own content for OpenUI5. To develop controls in JavaScript, you can either extend existing controls or create new ones.")
 
-[Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md)
+[Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md "Control metadata consists of properties, events, as well as aggregations and associations.")
 
 [API Reference: `sap.m.RatingIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.RatingIndicator.html)
 

@@ -82,7 +82,7 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
 **Related Information**  
 
 
-[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)
+[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md "The app templates documented here are a kind of &quot;best practice&quot; for your app development.")
 
-[Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md)
+[Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md "The details described here represent a best practice for structuring an application that features one component, one OData service and less than 20 views. If you're building an app that has more components, OData services and views, you may have to introduce more folder levels than described here.")
 

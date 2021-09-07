@@ -33,7 +33,7 @@ You use **routes** to notify your application that the hash has changed to a cer
 
 With **targets**, you define where a view or a component is loaded and where the view or component is shown on the UI. By referring to one or multiple targets in a route's definition, you can load and show the views or components once the route's pattern matches the current hash.
 
-You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
+You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
 
 > ### Note:  
 > You can also define only routes or only targets, but then just have to make sure that you implement the counterpart elsewhere.
@@ -92,7 +92,7 @@ You can use the following kinds of patterns:
 **Related Information**  
 
 
-[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
+[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
 [API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
 
