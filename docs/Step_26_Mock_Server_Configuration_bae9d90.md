@@ -294,6 +294,12 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 -   The script to start the `MockServer` is called `mockserver.js`.
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 25: Remote OData Service](Step_25_Remote_OData_Service_4406244.md "So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.")
+
+**Next topicColonSymbol** [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
+
 **Related Information**  
 
 

@@ -232,6 +232,12 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 -   Use translatable strings for the title and the description of the app.
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
+
+**Next topicColonSymbol** [Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
+
 **Related Information**  
 
 

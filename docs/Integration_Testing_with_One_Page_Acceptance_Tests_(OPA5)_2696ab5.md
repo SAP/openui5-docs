@@ -51,6 +51,33 @@ Note the following restrictions of OPA:
 -   Remote test execution
 -   End-to-end tests are not recommended with OPA due to authentication issues and fragility of test data
 
+-   **[Getting Started with OPA5](Getting_Started_with_OPA5_22f175e.md "The following section explains step-by-step how to easily write tests for OpenUI5 apps.")**  
+The following section explains step-by-step how to easily write tests for OpenUI5 apps.
+-   **[Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md "Advanced topics and best practices for OPA tests.")**  
+Advanced topics and best practices for OPA tests.
+-   **[Retrieving Controls](Retrieving_Controls_21aeff6.md "Common use cases for retrieving controls")**  
+Common use cases for retrieving controls
+-   **[Structuring OPA Tests With Page Objects](Structuring_OPA_Tests_With_Page_Objects_f2f843d.md "The page object design pattern supports UI-based tests with improved readability,
+        fostering the don't repeat yourself (DRY) principle of software
+        development that is aimed at reducing repetition of any kind of information.")**  
+The page object design pattern supports UI-based tests with improved readability, fostering the *don't repeat yourself* \(DRY\) principle of software development that is aimed at reducing repetition of any kind of information.
+-   **[Using the autoWait Parameter](Using_the_autoWait_Parameter_fb487ef.md "Configuring OPA to use autoWait parameter for all statements improves
+		test stability and reduces the number of waitFor statements.")**  
+Configuring OPA to use `autoWait` parameter for all statements improves test stability and reduces the number of `waitFor` statements.
+-   **[Extensions for OPA5](Extensions_for_OPA5_9c22d2a.md "Extend OPA capabilities with custom extensions.")**  
+Extend OPA capabilities with custom extensions.
+-   **[Test Libraries for OPA5](Test_Libraries_for_OPA5_a88a5e5.md "Test libraries are a means of collaboration between app developers and reusable content
+		providers.")**  
+Test libraries are a means of collaboration between app developers and reusable content providers.
+-   **[Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md "OPA5 has a built-in actions parameter that can be used for simulating events. If you use
+        an action, OPA5 makes sure that the UI is in a state that allows the action to be
+        executed.")**  
+OPA5 has a built-in actions parameter that can be used for simulating events. If you use an action, OPA5 makes sure that the UI is in a state that allows the action to be executed.
+-   **[Using OpaBuilder](Using_OpaBuilder_952e2c7.md "Write tests by leveraging the builder pattern to create OPA5 descriptors.")**  
+Write tests by leveraging the builder pattern to create OPA5 descriptors.
+-   **[Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md "Tips and tricks if OPA isn't behaving or reacting the way you expect it to.")**  
+Tips and tricks if OPA isn't behaving or reacting the way you expect it to.
+
 **Related Information**  
 
 

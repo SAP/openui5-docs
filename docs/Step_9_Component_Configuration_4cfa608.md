@@ -170,6 +170,12 @@ We now create a component container instead of the view in our `index.js` that i
 -   The `index.html` file is located in the `webapp` folder if it is used productively.
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
+
+**Next topicColonSymbol** [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
+
 **Related Information**  
 
 

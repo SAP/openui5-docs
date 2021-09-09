@@ -315,3 +315,21 @@ Resource model
 
 For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.BindingMode.html). 
 
+-   **[Binding Types](Binding_Types_91f0d8a.md "Depending on the different use cases, you can use different binding types: Propety
+		binding, context binding, and list binding.")**  
+Depending on the different use cases, you can use different binding types: Propety binding, context binding, and list binding.
+-   **[Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model
+		that represents the data source in the app.")**  
+You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.
+-   **[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable
+        and fits to the locale of the user. On the other hand, data entered by the user has to be
+        parsed and validated to be understood by the data source. For this purpose, you use
+        formatters and data types.")**  
+Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.
+-   **[Models](Models_e1b6259.md "A model in the Model View Controller concept holds the data and provides methods to
+		retrieve the data from the database and to set and update data.")**  
+A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.
+-   **[Using Data Binding for Data Export](Using_Data_Binding_for_Data_Export_f1ee7a8.md "Data binding supports the export of data in a specific format so that the data can be
+        used in other programs.")**  
+Data binding supports the export of data in a specific format so that the data can be used in other programs.
+

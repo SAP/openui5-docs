@@ -153,6 +153,12 @@ deletionSuccessMessage=User deleted*HIGHLIGHT END*
 
 We add the missing texts to the properties file.
 
+**Parent topicColonSymbol** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Previous topicColonSymbol** [Step 6: Create and Edit](Step_6_Create_and_Edit_b4f1266.md "In this step, we will make it possible to create and edit (update) user data from the user interface and send the data to the back end.")
+
+**Next topicColonSymbol** [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md "Our OData service provides one OData operation: the ResetDataSource action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.")
+
 **Related Information**  
 
 

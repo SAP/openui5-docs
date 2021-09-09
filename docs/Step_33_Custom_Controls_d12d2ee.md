@@ -314,6 +314,12 @@ The resource bundle is extended with the confirmation message and the strings th
 -   Put custom controls in the `control` folder of your app.
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
+
+**Next topicColonSymbol** [Step 34: Responsiveness](Step_34_Responsiveness_a96e18b.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the sap.m.Table already deliver a lot of features that we can use.")
+
 **Related Information**  
 
 

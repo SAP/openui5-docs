@@ -479,3 +479,10 @@ For the creation of classes, the following rules and guidelines apply:
 
 For more information, see [Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md).
 
+-   **[JavaScript Namespaces](JavaScript_Namespaces_5a978fe.md "OpenUI5 modules such as
+		classes, components, and controls, should use a consistent qualified naming scheme. Each
+		module should reside in a unique namespace.")**  
+OpenUI5 modules such as classes, components, and controls, should use a consistent qualified naming scheme. Each module should reside in a unique namespace.
+-   **[Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md "Full example of a class definition, including JSDoc")**  
+Full example of a class definition, including JSDoc
+

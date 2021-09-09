@@ -71,3 +71,7 @@ Feature: this is the name of the feature
     * instead of using keywords
 ```
 
+-   **[Additional Options for Feature Files](Additional_Options_for_Feature_Files_a509db4.md "We recommend that you familiarize yourself with the following advanced concepts in
+		behavior-driven development with Gherkin.")**  
+We recommend that you familiarize yourself with the following advanced concepts in behavior-driven development with Gherkin.
+

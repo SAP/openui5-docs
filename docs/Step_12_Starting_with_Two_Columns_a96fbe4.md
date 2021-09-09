@@ -57,3 +57,9 @@ You can view and download all files at [Flexible Column Layout App - Step 12](ht
 
 We set the `initialColumnsCount` parameter of the `getHelper` method to `2`.
 
+**Parent topicColonSymbol** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Previous topicColonSymbol** [Step 11: Using the Flexible Column Layout Semantic Helper](Step_11_Using_the_Flexible_Column_Layout_Semantic_Helper_276f001.md "In this step, we use the sap.f.FlexibleColumnLayoutSemanticHelper class to implement the recommended UX patterns for layout changes in the app.")
+
+**Next topicColonSymbol** [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master-Detail_Pattern_cb38637.md "In this step, we set up the app to follow the master-detail pattern.")
+

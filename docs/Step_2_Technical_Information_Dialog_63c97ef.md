@@ -113,6 +113,12 @@ If you're really stuck or have found a bug, you can open a ticket. Choose the *C
 
 The *Technical Information Dialog* also includes links to *Diagnostics* and *Support Assistant* that we will discuss in the following steps of this tutorial.
 
+**Parent topicColonSymbol** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Previous topicColonSymbol** [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
+
+**Next topicColonSymbol** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
+
 **Related Information**  
 
 

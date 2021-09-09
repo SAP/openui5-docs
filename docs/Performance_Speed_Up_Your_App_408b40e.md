@@ -232,7 +232,7 @@ With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of
 For more informations, see:
 
 -   [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)
--   [Supported Locales and Fallback](Supported_Locales_and_Fallback_ec753bc.md)
+-   [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md)
 
 ***
 

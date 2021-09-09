@@ -46,6 +46,19 @@ This tutorial assumes you have access to the SAP Web IDE either by having a tria
 
 You should also be familiar with the concepts explained in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial and with the OData specification.
 
+1.  [Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md "We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on
+		a real server, we will use the mock server to simulate both data and data calls. ")  
+We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.
+2.  [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")  
+In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.
+3.  [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock
+		server configuration.")  
+In this step, we add the functionality to interpret URL parameters in our local mock server configuration.
+4.  [Step 4: Calling a Function Import](Step_4_Calling_a_Function_Import_95e5b87.md "We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that
+		calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do
+		the calculation locally for testing purposes.")  
+We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.
+
 **Related Information**  
 
 

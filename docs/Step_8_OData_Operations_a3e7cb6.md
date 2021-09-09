@@ -127,6 +127,10 @@ We add the missing texts to the properties file.
 
 And now we are done! We built a simple application with user data from an OData V4 service. We can display, edit, create, and delete users. And we use OData V4 features such as batch groups and automatic type detection.
 
+**Parent topicColonSymbol** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Previous topicColonSymbol** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+
 **Related Information**  
 
 

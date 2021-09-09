@@ -80,6 +80,15 @@ All scopes and temporary rules can be stored in the local storage of your browse
 -   To learn more about creating your own rules see: [Rule Development Guide](Rule_Development_Guide_cd356da.md)
 
 
+-   **[Using the Support Assistant](Using_the_Support_Assistant_12572ab.md "The user interface of the Support Assistant allows you to view the available rules and
+		load additional rulesets for an active application. You can also run an analysis and view
+		the issues identified. The results are available in the form of a consolidated report,
+		generated as an HTML document.")**  
+The user interface of the Support Assistant allows you to view the available rules and load additional rulesets for an active application. You can also run an analysis and view the issues identified. The results are available in the form of a consolidated report, generated as an HTML document.
+-   **[Rule Development Guide](Rule_Development_Guide_cd356da.md "The Support Assistant allows you to create custom rules and rulesets and test them on
+		your apps.")**  
+The Support Assistant allows you to create custom rules and rulesets and test them on your apps.
+
 **Related Information**  
 
 

@@ -61,3 +61,15 @@ If OpenUI5 is configured for RTL mode, the OpenUI5 core performs the following s
         > If images need to be mirrored, you need to manually provide the correct RTL version of the image and save it under the same name in the corresponding subfolder within the `img-RTL` folder. Otherwise, ensure that the folder contains no image with the same name.
 
 
+-   **[Right-to-Left Support Guidelines for Control Development](Right-to-Left_Support_Guidelines_for_Control_Development_c69c61d.md "OpenUI5 developers have to
+		consider the text directionality when implementing new controls. The following guidelines
+		explain how this can be done and highlight what you need to focus on. ")**  
+OpenUI5 developers have to consider the text directionality when implementing new controls. The following guidelines explain how this can be done and highlight what you need to focus on.
+-   **[Programmatic Access to RTL](Programmatic_Access_to_RTL_8bb4723.md "")**  
+
+-   **[Troubleshooting Common RTL Issues](Troubleshooting_Common_RTL_Issues_5007967.md "The following table outlines some common issues that occur when implementing
+		right-to-left (RTL) support for OpenUI5
+		controls and
+		their solutions. ")**  
+The following table outlines some common issues that occur when implementing right-to-left \(RTL\) support for OpenUI5 controls and their solutions.
+

@@ -59,6 +59,22 @@ You can also create messages manually or extend the messaging features provided 
 -   If the used back end serves messages in a special way, you can use your own implementation of `sap.ui.core.message.MessageParser`. For more information, see [Implementing Your Own OData V2 Message Parser](Implementing_Your_Own_OData_V2_Message_Parser_2e532e6.md).
 
 
+-   **[Validation Messages](Validation_Messages_a90d93d.md "Validation messages are either created by the framework and processed by the
+			sap.ui.core.message.ControlMessageProcessor or manually by the
+		application.")**  
+Validation messages are either created by the framework and processed by the`sap.ui.core.message.ControlMessageProcessor` or manually by the application.
+-   **[OData V2 Messages](OData_V2_Messages_81c735e.md "OData V2 messages are either created automatically by
+			sap.ui.model.odata.ODataMessageParser and processed by the
+			sap.ui.model.odata.v2.ODataModel or can be created manually by the
+		application.")**  
+OData V2 messages are either created automatically by `sap.ui.model.odata.ODataMessageParser` and processed by the `sap.ui.model.odata.v2.ODataModel` or can be created manually by the application.
+-   **[Message Model](Message_Model_8956f0a.md "The message model contains all messages and is used to bind to the messages to display them.")**  
+The message model contains all messages and is used to bind to the messages to display them.
+-   **[Implementing Your Own OData V2 Message Parser](Implementing_Your_Own_OData_V2_Message_Parser_2e532e6.md "A message parser is a simple interface that is implemented to allow the propagation of
+		messages from back end services. For messages from OData V2 services, the
+			sap.ui.model.odata.ODataMessageParser is used.")**  
+A message parser is a simple interface that is implemented to allow the propagation of messages from back end services. For messages from OData V2 services, the `sap.ui.model.odata.ODataMessageParser` is used.
+
 **Related Information**  
 
 

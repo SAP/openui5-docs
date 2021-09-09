@@ -91,3 +91,9 @@ The control metadata is defined as follows:
 
 For a brief explanation of the differences between an aggregation and an association, see the *Control Metadata* section under [Working with Controls](Working_with_Controls_91f0a22.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
 
+-   **[Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md "OpenUI5 supports the extension of plain objects that are not elements or
+		controls.")**  
+OpenUI5 supports the extension of plain objects that are not elements or controls.
+-   **[Defining Control Properties](Defining_Control_Properties_ac56d92.md "")**  
+
+

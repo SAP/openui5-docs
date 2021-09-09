@@ -37,6 +37,37 @@ We start with an initial app that simply retrieves data from an OData V4 service
 > 
 > -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
+1.  [Step 1: The Initial App](Step_1_The_Initial_App_15d84f3.md "We start by setting up a simple app that loads data from an OData service and displays
+		it in a table. We use a mock server to simulate requests to and responses from the
+		service.")  
+We start by setting up a simple app that loads data from an OData service and displays it in a table. We use a mock server to simulate requests to and responses from the service.
+2.  [Step 2: Data Access and Client-Server Communication](Step_2_Data_Access_and_Client-Server_Communication_e9de002.md "In this step, we see how the Table that is bound to the
+			People entity set initially requests its data, and how the data can be
+		refreshed. We use the Console tab in the browser developer tools to
+		monitor the communication between the browser and the server. We see the initial request as
+		well as the requests for refreshing the data.")  
+In this step, we see how the `Table` that is bound to the `People` entity set initially requests its data, and how the data can be refreshed. We use the *Console* tab in the browser developer tools to monitor the communication between the browser and the server. We see the initial request as well as the requests for refreshing the data.
+3.  [Step 3: Automatic Data Type Detection](Step_3_Automatic_Data_Type_Detection_96bb6e0.md "In this step, we use the automatic data type detection of the OData V4 model to parse,
+		validate, and format user entries. The service metadata contains type information for the
+		properties of each entity.")  
+In this step, we use the automatic data type detection of the OData V4 model to parse, validate, and format user entries. The service metadata contains type information for the properties of each entity.
+4.  [Step 4: Filtering, Sorting, and Counting](Step_4_Filtering,_Sorting,_and_Counting_426ff31.md "In this step, we add features to filter, sort, and count the user data by using the
+		OData V4 model API to apply OData system query options $filter,
+			$orderby, and $count.")  
+In this step, we add features to filter, sort, and count the user data by using the OData V4 model API to apply OData system query options `$filter`, `$orderby`, and `$count`.
+5.  [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group
+		multiple requests into one server request to improve the overall performance. ")  
+In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.
+6.  [Step 6: Create and Edit](Step_6_Create_and_Edit_b4f1266.md "In this step, we will make it possible to create and edit (update) user data from the
+		user interface and send the data to the back end.")  
+In this step, we will make it possible to create and edit \(update\) user data from the user interface and send the data to the back end.
+7.  [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")  
+In this step, we make it possible to delete user data.
+8.  [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md "Our OData service provides one OData operation: the ResetDataSource
+		action. In this step, we add a button that resets all data changes we made during the
+		tutorial to their original state using this action.")  
+Our OData service provides one OData operation: the `ResetDataSource` action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.
+
 **Related Information**  
 
 

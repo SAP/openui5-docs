@@ -1251,3 +1251,7 @@ Refers to an annotation **within** a class
 </tr>
 </table>
 
+-   **[Common Pitfalls in JSDoc](Common_Pitfalls_in_JSDoc_30671a0.md "The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined
+		below, these issues can be avoided.")**  
+The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined below, these issues can be avoided.
+

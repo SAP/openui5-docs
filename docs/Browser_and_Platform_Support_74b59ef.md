@@ -847,3 +847,10 @@ August 2023
 </tr>
 </table>
 
+-   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
+		certain libraries.")**  
+Depending on the combination of device and browser, visual degradations may occur in certain libraries.
+-   **[Keyboard Shortcuts for OpenUI5 Tools](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md "OpenUI5 provides tools for information, diagnostics and testing purposes that
+		are accessible via keyboard shortcuts.")**  
+OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
+

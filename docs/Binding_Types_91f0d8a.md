@@ -34,3 +34,15 @@ Depending on the different use cases, you can use different binding types: Prope
     > To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the  [`sap.ui.base.ManagedObject#bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
 
 
+-   **[Property Binding](Property_Binding_91f0652.md "With property binding, you can initialize properties of a control automatically and
+		update them based on the data of the model.")**  
+With property binding, you can initialize properties of a control automatically and update them based on the data of the model.
+-   **[Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object
+		in the model data, which will create a binding context and allow relative binding within the
+		control and all of its children. This is especially helpful in master-detail
+		scenarios.")**  
+Context binding \(or element binding\) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.
+-   **[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls
+		according to model data.")**  
+List binding \(or aggregation binding\) is used to automatically create child controls according to model data.
+

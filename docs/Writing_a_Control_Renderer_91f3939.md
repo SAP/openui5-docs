@@ -145,6 +145,11 @@ The renderer class is the base class for control renderers. The `Renderer` imple
 
 For notepad controls, the renderer class is normally not directly used, the "renderer" method is directly part of the control implementation and will be added to a renderer class behind the scenes.
 
+-   **[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md "Cross-site scripting (XSS) can be prevented by ensuring that it is
+			not possible to inject script code into an application page that
+		runs in a browser.")**  
+Cross-site scripting \(XSS\) can be prevented by ensuring that it is **not** possible to inject script code into an application page that runs in a browser.
+
 **Related Information**  
 
 

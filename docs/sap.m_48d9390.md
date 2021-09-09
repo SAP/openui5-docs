@@ -15,6 +15,69 @@ This library contains the most important controls for building a user interface 
 > ### Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
 
+-   **[App and Nav Container](App_and_Nav_Container_a4afb13.md "Apps are often composed of several pages and the user can drill-down to detail pages and
+		go back up again. This is often visualized by horizontal slide animations. OpenUI5 supports this pattern by
+		providing the sap.m.App and sap.m.NavContainer controls,
+		which handle the navigation between the pages.")**  
+Apps are often composed of several pages and the user can drill-down to detail pages and go back up again. This is often visualized by horizontal slide animations. OpenUI5 supports this pattern by providing the `sap.m.App` and `sap.m.NavContainer` controls, which handle the navigation between the pages.
+-   **[Facet Filter](Facet_Filter_c6c3821.md "Facet filters (sap.m.FacetFilter) support users in finding the
+		information they need from potentially very large data sets.")**  
+Facet filters \(`sap.m.FacetFilter`\) support users in finding the information they need from potentially very large data sets.
+-   **[Feed Input](Feed_Input_0ec25a1.md "With this control you can enter and post text for a new feed entry.")**  
+With this control you can enter and post text for a new feed entry.
+-   **[Feed List Item](Feed_List_Item_14a9900.md "This control provides a set of properties for a feed, such as text, sender information
+		and timestamp.")**  
+This control provides a set of properties for a feed, such as text, sender information and timestamp.
+-   **[Flex Box](Flex_Box_674890e.md "The sap.m.FlexBox control allows to develop layouts which adjust to the
+		available space and avoid unused space or overflow.")**  
+The `sap.m.FlexBox` control allows to develop layouts which adjust to the available space and avoid unused space or overflow.
+-   **[Generic Tile](Generic_Tile_a1998ec.md "The GenericTile control is the basic concept that displays any kind
+		of content within a tile comprising for example news, feeds, images, micro charts, or
+		numeric content.")**  
+The `GenericTile` control is the basic concept that displays any kind of content within a tile comprising for example news, feeds, images, micro charts, or numeric content.
+-   **[Image](Image_f86dbe9.md "Additional information on sap.m.Image")**  
+Additional information on `sap.m.Image`
+-   **[List, List Item, and Table](List,_List_Item,_and_Table_295e44b.md "sap.m.List and sap.m.Table both inherit from the
+		abstract sap.m.ListBase and provide the features used for lists and
+		tables.")**  
+`sap.m.List` and `sap.m.Table` both inherit from the abstract `sap.m.ListBase` and provide the features used for lists and tables.
+-   **[Message Handling](Message_Handling_f5df293.md "Recommended guidelines for message handling. ")**  
+Recommended guidelines for message handling.
+-   **[Message Popover](Message_Popover_52824a6.md "Message Popover is used to display a summarized list of different types of messages
+		(errors, warnings, success and information). It provides a handy and systemized way to
+		navigate and explore details for every message.")**  
+Message Popover is used to display a summarized list of different types of messages \(errors, warnings, success and information\). It provides a handy and systemized way to navigate and explore details for every message.
+-   **[PDF Viewer](PDF_Viewer_cd80a8b.md "PDF viewer can be used to display PDF documents within your app, which enables your
+		users to preview PDF documents before printing or downloading them.")**  
+PDF viewer can be used to display PDF documents within your app, which enables your users to preview PDF documents before printing or downloading them.
+-   **[Personalization Dialog](Personalization_Dialog_a3c3c5e.md "The sap.m.P13nDialog control provides a dialog to personalize tables,
+		such as adapting the order of columns or filtering table content.")**  
+The `sap.m.P13nDialog` control provides a dialog to personalize tables, such as adapting the order of columns or filtering table content.
+-   **[Scrolling](Scrolling_66029f6.md "Because of limited size of mobile devices, scrolling is an essential topic in mobile
+		user experience. Smooth and easy scrolling is important for user acceptance of mobile
+		applications. ")**  
+Because of limited size of mobile devices, scrolling is an essential topic in mobile user experience. Smooth and easy scrolling is important for user acceptance of mobile applications.
+-   **[Sliders](Sliders_84ec82e.md "")**  
+
+-   **[Split App](Split_App_eedfe79.md "You can use the sap.m.SplitApp control to ensure that your UI
+		automatically adapts to the size available on the respective device. ")**  
+You can use the `sap.m.SplitApp` control to ensure that your UI automatically adapts to the size available on the respective device.
+-   **[Team Calendar](Team_Calendar_acae0f2.md "The Team Calendar application demonstrates the integration between sap.m.PlanningCalendar and
+			sap.m.SinglePlanningCalendar controls, sharing the same data source. It can be used as a starting point for building a
+		complex application with the full functionality that these controls offer (adding, editing, deleting and moving of appointments,
+		etc.).")**  
+The **Team Calendar** application demonstrates the integration between `sap.m.PlanningCalendar` and `sap.m.SinglePlanningCalendar` controls, sharing the same data source. It can be used as a starting point for building a complex application with the full functionality that these controls offer \(adding, editing, deleting and moving of appointments, etc.\).
+-   **[Text](Text_f94deb4.md "The sap.m.Text control allows you to display longer texts in your
+		app, with the possibility to manage the number of lines, the text wrapping, and the
+		visualization of line breaks and spacing.")**  
+The `sap.m.Text` control allows you to display longer texts in your app, with the possibility to manage the number of lines, the text wrapping, and the visualization of line breaks and spacing.
+-   **[Upload Collection \(Deprecated\)](Upload_Collection_(Deprecated)_124ee13.md "Upload Collection is a list control for attachment management that
+		provides the ability to upload, edit or delete attachments.")**  
+`Upload Collection` is a list control for attachment management that provides the ability to upload, edit or delete attachments.
+-   **[URL Helper](URL_Helper_4f1c107.md "With sap.m.URLHelper you can easily trigger native mobile phone
+		applications such as e-mail, telephone, and text messages. ")**  
+With `sap.m.URLHelper` you can easily trigger native mobile phone applications such as e-mail, telephone, and text messages.
+
 **Related Information**  
 
 

@@ -355,3 +355,9 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 
 Finally, we add the routing configuration in the `manifest.json`.
 
+**Parent topicColonSymbol** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Previous topicColonSymbol** [Step 6: Adding a Floating Footer](Step_6_Adding_a_Floating_Footer_555ed73.md "In this step, we add a floating footer to the detail page.")
+
+**Next topicColonSymbol** [Step 8: Enhancing the Detail Page](Step_8_Enhancing_the_Detail_Page_e5ee491.md "With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.")
+

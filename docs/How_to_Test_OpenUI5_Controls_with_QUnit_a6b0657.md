@@ -191,3 +191,6 @@ An example of this is shown in the cookbook below \(events\).
 
 The most likely reason for this is that `sap.ui.getCore().applyChanges()` was not called. OpenUI5 does not render synchronously, but calling this function will render immediately.
 
+-   **[Cookbook for Testing Controls with QUnit](Cookbook_for_Testing_Controls_with_QUnit_0ddcc60.md "")**  
+
+

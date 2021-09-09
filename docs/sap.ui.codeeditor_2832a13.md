@@ -15,3 +15,8 @@ This library contains the `CodeEditor` control.
 > ### Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
 
+-   **[Code Editor](Code_Editor_cc467b9.md "The sap.ui.codeeditor.CodeEditor offers functionality to display and
+		edit source code artifacts with syntax highlighting and code completion capabilities for
+		various programming languages. ")**  
+The `sap.ui.codeeditor.CodeEditor` offers functionality to display and edit source code artifacts with syntax highlighting and code completion capabilities for various programming languages.
+

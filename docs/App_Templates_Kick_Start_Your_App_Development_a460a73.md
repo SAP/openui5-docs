@@ -158,6 +158,17 @@ Master-Detail template
 </tr>
 </table>
 
+-   **[Worklist Template](Worklist_Template_a77f2d2.md "The SAP Fiori
+			Worklist Application template implements a typical worklist floorplan, one of
+		the patterns that is specified by the SAP Fiori design guidelines.")**  
+The **SAP Fiori Worklist Application** template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.
+-   **[Master-Detail Template](Master-Detail_Template_8ed9339.md "The SAP Fiori Master-Detail Application template implements a
+		flexible column layout, one of the design patterns that is specified by the SAP Fiori design guidelines.")**  
+The **SAP Fiori Master-Detail Application** template implements a flexible column layout, one of the design patterns that is specified by the SAP Fiori design guidelines.
+-   **[Basic Template](Basic_Template_7a4d93c.md "The basic template is intended for all developers who want to start developing their
+		own OpenUI5 app from scratch. ")**  
+The basic template is intended for all developers who want to start developing their own OpenUI5 app from scratch.
+
 **Related Information**  
 
 

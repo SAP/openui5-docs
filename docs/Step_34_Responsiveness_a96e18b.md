@@ -189,6 +189,12 @@ We can see the results when we decrease the browser's screen size or open the ap
 -   Optimize your application for the different screen sizes of phone, tablet, and desktop devices.
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 33: Custom Controls](Step_33_Custom_Controls_d12d2ee.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.")
+
+**Next topicColonSymbol** [Step 35: Device Adaptation](Step_35_Device_Adaptation_d63a15e.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
+
 **Related Information**  
 
 

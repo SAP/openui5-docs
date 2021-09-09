@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.94": {
 						"link": "What's_New_in_OpenUI5_1.94_2d6ffdd.md"
 					},
-					"What's New in OpenUI5 1.93": {
-						"link": "What's_New_in_OpenUI5_1.93_e9c8356.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.93": {
+								"link": "What's_New_in_OpenUI5_1.93_e9c8356.md"
+							},
 							"What's New in OpenUI5 1.92": {
 								"link": "What's_New_in_OpenUI5_1.92_1492551.md"
 							},
@@ -1696,8 +1696,8 @@
 							"Resource Bundles": {
 								"link": "Resource_Bundles_91f225c.md"
 							},
-							"Supported Locales and Fallback": {
-								"link": "Supported_Locales_and_Fallback_ec753bc.md"
+							"Supported Locales and Fallback Chain": {
+								"link": "Supported_Locales_and_Fallback_Chain_ec753bc.md"
 							},
 							"Use of Localized Texts in Applications": {
 								"link": "Use_of_Localized_Texts_in_Applications_91f3859.md"

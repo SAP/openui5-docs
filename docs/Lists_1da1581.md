@@ -400,3 +400,8 @@ The following types are available for list items:
 -   [sap.m.List](https://openui5.hana.ondemand.com/#/api/sap.m.List)
 -   [sap.m.ListItemBase](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase)
 
+-   **[Custom List Item](Custom_List_Item_3e426f1.md "You can use the sap.m.CustomListItem control to create your own layout
+		if the other list items available in OpenUI5 do not fit your
+		needs.")**  
+You can use the `sap.m.CustomListItem` control to create your own layout if the other list items available in OpenUI5 do not fit your needs.
+

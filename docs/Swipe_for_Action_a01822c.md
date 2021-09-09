@@ -14,3 +14,12 @@ If a user swipes left on a list item within a list or table, you can bring in a 
 
  ![SAPUI5 Mobile Swipe for Action](loio57908540c76d493298e09ee5bc9ca877_LowRes.png) 
 
+-   **[Aggregation](Aggregation_d4e69ad.md "")**  
+
+-   **[Events](Events_e498329.md "")**  
+
+-   **[Methods](Methods_b72874d.md "")**  
+
+-   **[Properties](Properties_37c52c9.md "")**  
+
+

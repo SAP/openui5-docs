@@ -150,6 +150,11 @@ sap.ui.define([
 > ### Example:  
 > [Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md) of the *Testing* tutorial shows how to implement a custom data type.
 
+-   **[Simple Data Types](Simple_Data_Types_91f06be.md)**  
+
+-   **[Formatter Classes](Formatter_Classes_35cbd6c.md)**  
+
+
 **Related Information**  
 
 

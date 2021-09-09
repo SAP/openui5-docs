@@ -16,3 +16,18 @@ The extension of OpenUI5 apps uses the component configuration. The extension in
 
 For more information, see [Using Component Configuration](Using_Component_Configuration_c264d66.md).
 
+-   **[Using Component Configuration](Using_Component_Configuration_c264d66.md "OpenUI5 supports the
+			extension of a base controller by merging the delivered standard controller with a
+			custom controller on JavaScript object level.")**  
+OpenUI5 supports the extension of a base controller by merging the delivered standard controller with a custom controller on JavaScript object level.
+-   **[Localized Texts for Extended Apps](Localized_Texts_for_Extended_Apps_2edc3f9.md "You can add custom localized text files that contain additional texts or texts that
+		overwrite the original texts to the sap.ui.model.resource.ResourceModel
+	")**  
+You can add custom localized text files that contain additional texts or texts that overwrite the original texts to the `sap.ui.model.resource.ResourceModel` 
+-   **[Caveats Regarding Stability Across Application Upgrades](Caveats_Regarding_Stability_Across_Application_Upgrades_aef3384.md "There are a few restrictions in the compatibility of custom applications that have to be
+		considered when extending OpenUI5 standard applications.")**  
+There are a few restrictions in the compatibility of custom applications that have to be considered when extending OpenUI5 standard applications.
+-   **[Supportability](Supportability_c44813d.md "In case of problems or errors in the custom application, several options exist that
+		support you in resolving the issues.")**  
+In case of problems or errors in the custom application, several options exist that support you in resolving the issues.
+

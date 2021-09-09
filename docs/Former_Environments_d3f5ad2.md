@@ -33,3 +33,6 @@ SAP Web IDE can still be used if you have a productive SAP Business Technology P
 
 It is recommended to use SAP Business Application Studio instead. See [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
+-   **[App Development Using SAP Web IDE](App_Development_Using_SAP_Web_IDE_13ced94.md "SAP Web IDE is a web-based development environment that is optimized for developing OpenUI5 complex apps using the latest innovations, developing and extending SAP Fiori apps, developing mobile hybrid apps, and extending SAP Web IDE with plug-ins and templates.")**  
+SAP Web IDE is a web-based development environment that is optimized for developing OpenUI5 complex apps using the latest innovations, developing and extending SAP Fiori apps, developing mobile hybrid apps, and extending SAP Web IDE with plug-ins and templates.
+

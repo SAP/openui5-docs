@@ -328,6 +328,16 @@ Overall, XML templating is based on:
 > ### Note:  
 > XML Templating works almost the same for OData V4 as for OData V2; for the differences see the *Annotations* section in [Meta Model for OData V4](Meta_Model_for_OData_V4_7f29fb3.md).
 
+-   **[Preprocessing Instructions](Preprocessing_Instructions_c27d49c.md "Preprocessing intructions are processed by the XML preprocessor when it traverses the
+		view's XML DOM.")**  
+Preprocessing intructions are processed by the XML preprocessor when it traverses the view's `XML DOM`.
+-   **[Annotation Helper](Annotation_Helper_dbec058.md " A collection of methods which help to consume OData Version 4.0 annotations in XML
+		template views.")**  
+ A collection of methods which help to consume OData Version 4.0 annotations in XML template views.
+-   **[Debugging](Debugging_153b357.md "For the debug levels DEBUG and ALL, the XML
+		preprocessor writes a trace for what it exactly does.")**  
+For the debug levels `DEBUG` and `ALL`, the XML preprocessor writes a trace for what it exactly does.
+
 **Related Information**  
 
 

@@ -15,6 +15,11 @@ This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all it
 > ### Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
 
+-   **[Icon and Icon Pool](Icon_and_Icon_Pool_21ea0ea.md "The sap-icon:// protocol supports the use of icons in your application
+		based on the icon font concept, which uses an embedded font instead of a pixel
+		image.")**  
+The `sap-icon://` protocol supports the use of icons in your application based on the icon font concept, which uses an embedded font instead of a pixel image.
+
 **Related Information**  
 
 

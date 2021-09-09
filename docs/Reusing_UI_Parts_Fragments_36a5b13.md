@@ -28,6 +28,30 @@ More fragment types can be implemented and plugged in.
 
 Defining a fragment is similar to defining views within a separate file. The fragments simply end with `*.fragment` instead of `*.view`. Also, the same rules for file location apply.
 
+-   **[HTML Fragments](HTML_Fragments_08d2206.md "HTML fragments have a similar syntax as HTML views, but without the
+			<template> tag.")**  
+HTML fragments have a similar syntax as HTML views, but without the `<template>` tag.
+-   **[XML Fragments](XML_Fragments_2c677b5.md " XML fragments are similar to XML view, but have no <View> tag as root element.
+		Instead, there is an OpenUI5
+		control.")**  
+ XML fragments are similar to XML view, but have no <View\> tag as root element. Instead, there is an OpenUI5 control.
+-   **[JS Fragments](JS_Fragments_9c06982.md "The structure of JS fragments is similar to the structure of the respective views:
+		They have a name and an object with a createContent() function.")**  
+The structure of JS fragments is similar to the structure of the respective views: They have a name and an object with a `createContent()` function.
+-   **[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md "OpenUI5 provides two options to instantiate a fragment: If it is instantiated
+		inside a controller extending sap.ui.core.mvc.Controller, the loadFragment() function is the way to go.
+		However, if it is instantiated in a non-controller artefact, the generic function sap.ui.core.Fragment.load() can be
+		used.")**  
+OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending `sap.ui.core.mvc.Controller`, the`loadFragment()` function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function `sap.ui.core.Fragment.load()` can be used.
+-   **[Unique IDs](Unique_IDs_5da591c.md "You can use a unique ID for a fragment that will be used as a prefix for all controls in
+		a fragment instance.")**  
+You can use a unique ID for a fragment that will be used as a prefix for all controls in a fragment instance.
+-   **[Dialogs and other Popups as Fragments](Dialogs_and_other_Popups_as_Fragments_448c641.md "You can use fragments to declaratively define dialogs and other popup controls which are
+		not part of the normal page UI structure.")**  
+You can use fragments to declaratively define dialogs and other popup controls which are not part of the normal page UI structure.
+-   **[Fragments with Multiple Root Nodes](Fragments_with_Multiple_Root_Nodes_23b9c77.md "XML fragments and JS fragments can have more than one root control.")**  
+XML fragments and JS fragments can have more than one root control.
+
 **Related Information**  
 
 

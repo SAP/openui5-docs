@@ -44,3 +44,7 @@ You should have the same files as displayed in the following figure:
 
  ![](loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files") 
 
+**Parent topicColonSymbol** [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+
+**Next topicColonSymbol** [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
+

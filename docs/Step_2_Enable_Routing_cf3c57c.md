@@ -214,6 +214,12 @@ Create a file `Home.controller.js` in the `webapp/controller` folder. The contro
 -   Initialize the router in the component
 
 
+**Parent topicColonSymbol** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+
+**Previous topicColonSymbol** [Step 1: Set Up the Initial App](Step_1_Set_Up_the_Initial_App_df245bd.md "We start by setting up a simple app for this tutorial. The app displays mock data only and mimics real OData back-end calls with the mock server as you have seen in the Walkthrough tutorial.")
+
+**Next topicColonSymbol** [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md "Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a “404” or Not Found Page from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.")
+
 **Related Information**  
 
 

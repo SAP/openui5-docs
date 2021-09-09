@@ -517,3 +517,9 @@ sap.ui.define([
 
 Finally, we create a function in the `App.controller.js` to update the visibility of the master, detail, and detail-detail pages.
 
+**Parent topicColonSymbol** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Previous topicColonSymbol** [Step 10: Adding More Pages](Step_10_Adding_More_Pages_a59b3de.md "In this step, we create an additional page that is displayed in a separate fullscreen column.")
+
+**Next topicColonSymbol** [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two columns.")
+

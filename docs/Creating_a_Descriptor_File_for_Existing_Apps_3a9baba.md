@@ -726,3 +726,7 @@ To verify that your app works as before, perform checks to make sure the followi
 -   Navigation works as before
 
 
+-   **[Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md "Information how to add new attributes of descriptor versions higher than V2 (OpenUI5
+		1.30) to the descriptor file.")**  
+Information how to add new attributes of descriptor versions higher than V2 \(OpenUI5 1.30\) to the descriptor file.
+

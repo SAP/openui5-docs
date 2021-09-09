@@ -108,6 +108,21 @@ With metadata binding, you can bind properties of a control to the corresponding
 
 For more information, see [Property Metadata Binding](Property_Metadata_Binding_f5aa4bb.md).
 
+-   **[Binding Path](Binding_Path_2888af4.md "Binding paths address the different properties and lists in a model and define how a node in the hierarchical data tree can be found.")**  
+Binding paths address the different properties and lists in a model and define how a node in the hierarchical data tree can be found.
+-   **[Composite Binding](Composite_Binding_a2fe8e7.md "Calculated fields enable the binding of multiple properties in different models to a
+		single property of a control.")**  
+Calculated fields enable the binding of multiple properties in different models to a single property of a control.
+-   **[Expression Binding](Expression_Binding_daf6852.md "Expression binding is an enhancement of the OpenUI5 binding syntax, which
+		allows for providing expressions instead of custom formatter functions.")**  
+Expression binding is an enhancement of the OpenUI5 binding syntax, which allows for providing expressions instead of custom formatter functions.
+-   **[Property Metadata Binding](Property_Metadata_Binding_f5aa4bb.md "An extended data binding syntax makes it possible to access the metadata for certain properties of an entity in OData services, such as
+		heading, label, and precision.")**  
+An extended data binding syntax makes it possible to access the metadata for certain properties of an entity in OData services, such as heading, label, and precision.
+-   **[Examples for Data Binding in Different View Types](Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md "Examples how complex syntax can be used for calculated fields in XML, HTML, and JS
+        views.")**  
+Examples how complex syntax can be used for calculated fields in XML, HTML, and JS views.
+
 **Related Information**  
 
 

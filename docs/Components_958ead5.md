@@ -76,6 +76,21 @@ The following list explains how other concepts used in OpenUI5 are distinguished
     The MVC concept allows to define views and controllers and, thus, to structure and reuse parts within an application. As MVC can only be deployed separately and has no means to define dependent styles or scripts that are loaded together with a view, this concept is of limited use across different applications.
 
 
+-   **[Component.js File](Component.js_File_27ce0e4.md "The Component.js file is the component controller and provides the runtime metadata and the component methods.")**  
+The `Component.js` file is the component controller and provides the runtime metadata and the component methods.
+-   **[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest
+		components inside other components.")**  
+You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
+-   **[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in
+		the HTML markup.")**  
+The declarative API enables you to define the initially started component directly in the HTML markup.
+-   **[Handling IDs in UI Components](Handling_IDs_in_UI_Components_562803c.md "Components are usually used with a root view and in this case, the component handles the
+		prefixing of IDs of views, elements, or controls, with the component ID.")**  
+Components are usually used with a root view and in this case, the component handles the prefixing of IDs of views, elements, or controls, with the component ID.
+-   **[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as
+		well as the event bus.")**  
+Advanced concepts for components include routing and navigation and component data as well as the event bus.
+
 **Related Information**  
 
 

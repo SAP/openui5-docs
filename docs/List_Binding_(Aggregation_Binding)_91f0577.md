@@ -147,6 +147,19 @@ When a list is unbound, its aggregated controls are removed and destroyed by def
 oComboBox.unbindAggregation("items", true);
 ```
 
+-   **[Using Factory Functions](Using_Factory_Functions_335848a.md "")**  
+
+-   **[Sorting, Grouping, and Filtering for List Binding](Sorting,_Grouping,_and_Filtering_for_List_Binding_ec79a5d.md "")**  
+
+-   **[Displaying a Specific Range of Records in a Control](Displaying_a_Specific_Range_of_Records_in_a_Control_9b5bdd8.md " It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding
+		information.")**  
+ It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding information.
+-   **[Lifecycle of Binding Templates](Lifecycle_of_Binding_Templates_3a4a9e5.md "")**  
+
+-   **[Extended Change Detection](Extended_Change_Detection_7cdff73.md "Extended change detection (ECD) offers fine-grained information on the actual data changes. This can be used, for example, to only update
+		the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.")**  
+Extended change detection \(ECD\) offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
+
 **Related Information**  
 
 

@@ -123,3 +123,9 @@ If you find a bug in your application, you can easily check whether it has alrea
 
 More features are waiting for you to discover in the *Diagnostics* window. For more information, see [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
+**Parent topicColonSymbol** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Previous topicColonSymbol** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
+
+**Next topicColonSymbol** [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in specifically created for analyzing and debugging OpenUI5 code.")
+

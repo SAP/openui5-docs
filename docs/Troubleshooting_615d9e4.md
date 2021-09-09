@@ -212,6 +212,40 @@ For help with specific problems see our [First-Aid Kit](First-Aid_Kit_dfe4f79.md
 
 If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://www.sap.com/community/topic/ui5.html) or on [Stack Overflow](https://stackoverflow.com/search?q=sapui5).
 
+-   **[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab "When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.")**  
+When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.
+-   **[Logging and Tracing](Logging_and_Tracing_9f4d62c.md "Use the built-in OpenUI5
+		logging mechanisms to debug and analyze applications or framework errors.")**  
+Use the built-in OpenUI5 logging mechanisms to debug and analyze applications or framework errors.
+-   **[Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9 "The Technical Information dialog shows details of the OpenUI5 version currently being
+		used in an app built with OpenUI5. You can use the Technical Information dialog to enable debug
+		resources and open additional support tools to debug your app.")**  
+The *Technical Information* dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the *Technical Information* dialog to enable debug resources and open additional support tools to debug your app.
+-   **[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6 "The Diagnostics window available in OpenUI5 is a support tool that
+		runs within an existing OpenUI5
+		app. ")**  
+The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
+-   **[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according
+		to the OpenUI5 best practices
+		and guidelines.")**  
+The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.
+-   **[Test Recorder](Test_Recorder_dac59fa.md "The Test Recorder tool supports app developers who write integration and system
+		tests.")**  
+The Test Recorder tool supports app developers who write integration and system tests.
+-   **[UI5 Inspector](UI5_Inspector_b24e724.md "The UI5 Inspector is an open source Chrome DevTools extension that helps
+		app developers to inspect, analyze, and support OpenUI5-based apps. It is
+		supported for apps based on OpenUI5 version 1.28 and
+		higher.")**  
+The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.
+-   **[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the
+		performance of your JavaScript code. ")**  
+You can use `sap/ui/performance/Measurement` to measure the performance of your JavaScript code.
+-   **[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md "You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.")**  
+You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.
+-   **[First-Aid Kit](First-Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve
+		them.")**  
+This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.
+
 **Related Information**  
 
 

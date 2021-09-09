@@ -72,6 +72,33 @@ In our template, we use a simple layout that you can use as a basis for enhancem
 
 You can find more information about the possibilities of object pages at [SAP Fiori Design Guidelines - Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
+-   **[Navigation](Navigation_89de2f4.md "The navigation flow of the Master-Detail app considers both the
+      Master and Detail pages, and is therefore
+    slightly more complex than a typical full-screen scenario.")**  
+The navigation flow of the Master-Detail app considers both the *Master* and *Detail* pages, and is therefore slightly more complex than a typical full-screen scenario.
+-   **[Busy Indication](Busy_Indication_a92e0aa.md "The Master-Detail app implements a busy indication concept as specified by the SAP
+		Fiori Design Guidelines.")**  
+The Master-Detail app implements a busy indication concept as specified by the SAP Fiori Design Guidelines.
+-   **[Model Instantiation](Model_Instantiation_ea4e8de.md "The app configures several data models that are used throughout the app to update the
+		views or to store additional configuration options.")**  
+The app configures several data models that are used throughout the app to update the views or to store additional configuration options.
+-   **[Master List Filtering](Master_List_Filtering_f809189.md "You can use the following best practices when implementing search, sorting, filtering
+		and grouping functions for a master list in your Master-Detail apps.")**  
+You can use the following best practices when implementing search, sorting, filtering and grouping functions for a master list in your Master-Detail apps.
+-   **[Send Email](Send_Email_034a132.md "The Send Email feature is a sharing option that can be found in the
+		share menu of each view.")**  
+The **Send Email** feature is a sharing option that can be found in the share menu of each view.
+-   **[Testing](Testing_6256083.md "The templates include basic testing features, unit tests as well as integration tests
+		for a basic test coverage of the initial app. The tests are written independently of the
+		actual data displayed in the app.")**  
+The templates include basic testing features, unit tests as well as integration tests for a basic test coverage of the initial app. The tests are written independently of the actual data displayed in the app.
+-   **[Device Adaptation](Device_Adaptation_324f073.md "The following section outlines the best practices for ensuring your master-detail apps
+		adapt to different kinds of devices in the best way possible.")**  
+The following section outlines the best practices for ensuring your master-detail apps adapt to different kinds of devices in the best way possible.
+-   **[Stable IDs](Stable_IDs_b327188.md "Setting stable IDs is crucial if your app is used in
+		combination with certain functions.")**  
+Setting stable IDs is crucial if your app is used in combination with certain functions.
+
 **Related Information**  
 
 

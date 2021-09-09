@@ -261,6 +261,10 @@ There are additional tabs that can help you to analyze performance problems or m
 -   *Application* or *Resources*
 
 
+**Parent topicColonSymbol** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Next topicColonSymbol** [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information Dialog&quot;. This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.")
+
 **Related Information**  
 
 

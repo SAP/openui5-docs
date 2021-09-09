@@ -269,3 +269,9 @@ We add an `onSupplierPress` function in the detail page controller in order to p
 
 Finally, we pass data for the supplier in the detail-detail page.
 
+**Parent topicColonSymbol** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Previous topicColonSymbol** [Step 8: Enhancing the Detail Page](Step_8_Enhancing_the_Detail_Page_e5ee491.md "With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.")
+
+**Next topicColonSymbol** [Step 10: Adding More Pages](Step_10_Adding_More_Pages_a59b3de.md "In this step, we create an additional page that is displayed in a separate fullscreen column.")
+

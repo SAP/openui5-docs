@@ -270,3 +270,11 @@ Additionally, for a limited set of configuration options specific APIs exist whi
 
 For example, the `sap.ui.core.Configuration` class provides setters for several configuration options that can be modified at runtime. The runtime and/or the controls can then react on these configuration changes. The most prominent example for such a configuration option is the `theme`.
 
+-   **[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The complete list of configuration options available in OpenUI5 can be found in the
+			API Reference under sap.ui.core.Configuration.
+		The following table shows a subset of the available configuration options.")**  
+The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
+-   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
+			OpenUI5.")**  
+Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
+

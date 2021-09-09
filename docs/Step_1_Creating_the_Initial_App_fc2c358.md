@@ -79,6 +79,10 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
     > There is a `test.html` file in the `webapp` folder. This file serves as an easy entry point for developers to run and test the app in various ways during development. It contains links to the relevant files inside the `test` folder, which you can use to run with the Mock Server or to run unit tests and OPA tests.
 
 
+**Parent topicColonSymbol** [Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+
+**Next topicColonSymbol** [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
+
 **Related Information**  
 
 

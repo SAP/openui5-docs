@@ -100,6 +100,12 @@ Note that the field in error has a red border: ![](loio44db88e92bc445b2b00e1b8e5
 
 However, the error message itself will only be displayed when that particular field has focus: ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png)
 
+**Parent topicColonSymbol** [Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+
+**Previous topicColonSymbol** [Step 10: Property Formatting Using Data Types](Step_10_Property_Formatting_Using_Data_Types_9252ee4.md "OpenUI5 provides a set of simple data types such as Boolean, Currency, Date and Float. These data types can then be applied to controls in order to ensure that the value presented on the screen is formatted correctly, and, if the field is open for input, that the value entered by the user adheres to the requirements of that data type. We will now add a new field called Sales Amount of type Currency.")
+
+**Next topicColonSymbol** [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
+
 **Related Information**  
 
 

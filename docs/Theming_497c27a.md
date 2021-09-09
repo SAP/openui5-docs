@@ -56,6 +56,23 @@ For all these options, the CSS developer might reduce the styling effort and foc
     For more information, see [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
 
 
+-   **[Setting Themes](Setting_Themes_e9fc648.md "You define which theme is used by your app either in the bootstrap, by using a URL
+		parameter, or by using method sap.ui.getCore.applyTheme.")**  
+You define which theme is used by your app either in the bootstrap, by using a URL parameter, or by using method `sap.ui.getCore.applyTheme`.
+-   **[Enhanced Theming Concepts](Enhanced_Theming_Concepts_45df6df.md "On top of pure CSS, OpenUI5
+		offers advanced theming concepts and functions which can be used optionally. These concepts
+		are outlined in detail below.")**  
+On top of pure CSS, OpenUI5 offers advanced theming concepts and functions which can be used optionally. These concepts are outlined in detail below.
+-   **[Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md "There are several things you should keep in mind to ensure that an application can
+		actually be themed.")**  
+There are several things you should keep in mind to ensure that an application can actually be themed.
+-   **[CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md "OpenUI5 provides a set of
+		essential adjustable colors behind the generic predefined CSS rules that enable custom
+		content to use the respective CSS classes for the required colors.")**  
+OpenUI5 provides a set of essential adjustable colors behind the generic predefined CSS rules that enable custom content to use the respective CSS classes for the required colors.
+-   **[Theming FAQ](Theming_FAQ_d0db4d5.md "Frequently asked questions regarding theming in OpenUI5")**  
+Frequently asked questions regarding theming in OpenUI5
+
 **Related Information**  
 
 

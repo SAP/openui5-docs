@@ -111,3 +111,9 @@ postDescriptionLabel=Description
 
 We add the missing texts to the `i18n.properties` file.
 
+**Parent topicColonSymbol** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+
+**Previous topicColonSymbol** [Step 13: Testing User Interaction](Step_13_Testing_User_Interaction_19ccd47.md "In this step we want to write a test that simulates user interaction with an icon tab bar. We want to change the tab and check if the correct content is shown.")
+
+**Next topicColonSymbol** [Step 15: Writing a Short Date Formatter Using TDD](Step_15_Writing_a_Short_Date_Formatter_Using_TDD_bc4114a.md "It's now time to improve the content of the Info tab. We want to see the Posted At date in a formatted way. Based on the age of the post, we either display the time, a textural representation of the day, or the date only.")
+

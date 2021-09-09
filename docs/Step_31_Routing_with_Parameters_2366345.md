@@ -165,6 +165,12 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 -   Define the routing configuration in the `AppDescriptor`
 
 
+**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Previous topicColonSymbol** [Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_e5200ee.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
+
+**Next topicColonSymbol** [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
+
 **Related Information**  
 
 

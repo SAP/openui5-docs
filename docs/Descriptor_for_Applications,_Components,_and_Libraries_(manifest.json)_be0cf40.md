@@ -2237,6 +2237,32 @@ sap.ui.require(['sap/samples/Component'], function(SampleComponent) {
 });
 ```
 
+-   **[Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md "Overview, how the component metadata are mapped to the descriptor. ")**  
+Overview, how the component metadata are mapped to the descriptor.
+-   **[Descriptor for Libraries](Descriptor_for_Libraries_b229914.md "The descriptor for libraries contains a subset of the attributes in the descriptor for
+		applications and components.")**  
+The descriptor for libraries contains a subset of the attributes in the descriptor for applications and components.
+-   **[Descriptor for Components \(Inside Libraries\)](Descriptor_for_Components_(Inside_Libraries)_7701636.md "The descriptor for components contains a subset of the attributes in the descriptor
+		for applications ")**  
+The descriptor for components contains a subset of the attributes in the descriptor for applications
+-   **[The resources.json File](The_resources.json_File_adcbcf8.md "The resources.json file lists all resources in a component or library folder. It resides next to each
+			manifest.json in the generated results.")**  
+The `resources.json` file lists all resources in a component or library folder. It resides next to each `manifest.json` in the generated results.
+-   **[Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md "Detailed description of the steps needed to create a descriptor V2 for applications
+        file for an existing transactional app
+            created by the customer based on SAP Fiori.")**  
+Detailed description of the steps needed to create a descriptor V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.
+-   **[Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md "Description of the performance-relevant attributes that are available for the descriptor
+		for applications, components and libraries")**  
+Description of the performance-relevant attributes that are available for the descriptor for applications, components and libraries
+-   **[Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md "The preload flag  enables a preload mode for a model, thus improving
+		the startup performance of an app or component.")**  
+The `preload` flag enables a preload mode for a model, thus improving the startup performance of an app or component.
+-   **[Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Descriptor](Enabling_the_Automatic_SAP_Fiori_2.0_Header_Adaptation_in_the_Descriptor_0635156.md "Application developers can enable automatic adaptation of their existing applications
+		from the manifest.json app descriptor. This helps to easily convert applications to the new
+		look-and-feel of SAP Fiori 2.0. ")**  
+Application developers can enable automatic adaptation of their existing applications from the manifest.json app descriptor. This helps to easily convert applications to the new look-and-feel of SAP Fiori 2.0.
+
 [sap.ui.core.UIComponent](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.UIComponent.html)
 
 [Component Metadata](Component_Metadata_0187ea5.md "The component class provides specific metadata for components by extending the ManagedObject class. The UIComponent class provides additional metadata for the configuration of user interfaces or the navigation between views.")
