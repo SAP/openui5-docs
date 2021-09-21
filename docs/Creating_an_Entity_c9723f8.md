@@ -78,7 +78,7 @@ If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com
 > 
 > If you want to skip this additional single `GET` request, call [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with parameter `bSkipRefresh=true`.
 
-The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`Context#getPath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
+The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`sap.ui.model.Context#getPath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
 
 **Related Information**  
 
