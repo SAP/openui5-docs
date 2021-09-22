@@ -45,7 +45,7 @@ You can view and download all files at [OData V4 - Step 5](https://openui5.hana.
 				"settings": {
 					"autoExpandSelect": true,
 					"operationMode": "Server",
-					*HIGHLIGHT START*"groupId": "$auto"*HIGHLIGHT END*,
+					"groupId": *HIGHLIGHT START*"$auto"*HIGHLIGHT END*,
 					"synchronizationMode": "None"
 				}
 ...

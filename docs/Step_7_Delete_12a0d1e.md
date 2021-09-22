@@ -39,7 +39,21 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 ### webapp/App.controller.js
 
 ```
-		*HIGHLIGHT START*onDelete : function () {
+...
+				this._setUIChanges(true);
+				this.getView().getModel("appView").setProperty("/usernameEmpty", true);
+				
+				// Select and focus the table row that contains the newly created entry
+				oList.getItems().some(function (oItem) {
+				if (oItem.getBindingContext() === oContext) {
+				oItem.focus();
+				oItem.setSelected(true);
+				return true;
+				}
+				});
+				},
+				
+				*HIGHLIGHT START*onDelete : function () {
 			var oSelected = this.byId("peopleList").getSelectedItem();
 
 			if (oSelected) {
@@ -49,7 +63,20 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 					MessageBox.error(oError.message);
 				});
 			}
-		},*HIGHLIGHT END*
+			},*HIGHLIGHT END*
+				
+				onInputChange : function (oEvt) {
+				if (oEvt.getParameter("escPressed")) {
+				this._setUIChanges();
+				} else {
+				this._setUIChanges(true);
+				// Check if the username in the changed table row is empty and set the appView property accordingly
+				if (oEvt.getSource().getParent().getBindingContext().getProperty("UserName")) {
+				this.getView().getModel("appView").setProperty("/usernameEmpty", false);
+				}
+				}
+				},
+			...
 ```
 
 We add the `onDelete` event handler to the controller. In the event handler, we check whether an item is selected in the table and if so, the related data is deleted from the model. To do that, we retrieve the binding context of the selection and call its `delete` method.
@@ -84,7 +111,7 @@ We explicitly set the update group ID for the deletion to `$auto` to make sure t
 									$$updateGroupId : 'peopleGroup'
 								}
 							}"
-*HIGHLIGHT START*							mode="SingleSelectLeft">*HIGHLIGHT END*
+			*HIGHLIGHT START*							mode="SingleSelectLeft"*HIGHLIGHT END*>
 							<headerToolbar>
 								<OverflowToolbar>
 									<content>

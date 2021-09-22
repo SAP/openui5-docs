@@ -56,8 +56,8 @@ sap.ui.define([
 
 		onInit : function () {
 			var oJSONData = {
-				busy : false,
-				*HIGHLIGHT START*order : 0*HIGHLIGHT END*
+			busy : false*HIGHLIGHT START*,
+				order : 0*HIGHLIGHT END*emphasis>
 			};
 			var oModel = new JSONModel(oJSONData);
 			this.getView().setModel(oModel, "appView");
@@ -65,9 +65,9 @@ sap.ui.define([
 
 		onRefresh : function () {
 		...
-		}*HIGHLIGHT START*,
+		},
 
-		onSearch : function () {
+				*HIGHLIGHT START*		onSearch : function () {
 			var oView = this.getView(),
 				sValue = oView.byId("searchField").getValue(),
 				oFilter = new Filter("LastName", FilterOperator.Contains, sValue);
@@ -90,7 +90,7 @@ sap.ui.define([
 
 			sMessage = this._getText("sortMessage", [this._getText(aStateTextIds[iOrder])]);
 			MessageToast.show(sMessage);
-		},*HIGHLIGHT END*
+			},*HIGHLIGHT END*
 
 		_getText : function (sTextId, aArgs) {
 		...
@@ -158,9 +158,9 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 											press=".onRefresh"/>
 *HIGHLIGHT START*										<Button
 											id="sortUsersButton"
-											press="onSort"
+											icon="sap-icon://sort"
 											tooltip="{i18n>sortButtonText}"
-											icon="sap-icon://sort"/>*HIGHLIGHT END*
+											press="onSort"/>*HIGHLIGHT END*
 									</content>
 								</OverflowToolbar>
 							</headerToolbar>

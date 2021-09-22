@@ -160,6 +160,12 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 ```
 
+***
+
+<a name="loio9613f1f2d88747cab21896f7216afdac__section_STH"/>
+
+### Security Token Handling
+
 **Related Information**  
 
 

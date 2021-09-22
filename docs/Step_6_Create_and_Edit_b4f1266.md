@@ -91,7 +91,7 @@ We add the `_setUIChanges` private method that lets us set the property `hasUICh
 ...
 		onInit: function () {
 			...
-		}*HIGHLIGHT START*,*HIGHLIGHT END*
+		},
 		*HIGHLIGHT START*onCreate : function () {
 			var oList = this.byId("peopleList"),
 				oBinding = oList.getBinding("items"),
@@ -158,7 +158,7 @@ We also use the binding context returned by the `create` method to focus and sel
 });
 ```
 
-We create the `onSave` event handler, in which we call the `submitBatch` method of the `ODataModel` API to submit our changes. Because the changes that we submit refer to the table, we need to pass the update group `peopleGroup` that we declared in the table binding.
+We create the `onSave` event handler, in which we call the `submitBatch` method of the `ODataModel` API to submit our changes. Because the changes we submit refer to the table, we need to pass the update group `peopleGroup` that we declared in the table binding.
 
 The `submitBatch` method returns a `Promise` that is rejected only if the batch request itself fails, for example, if the OData service is unavailable or if there were authorization problems. It is resolved in all other cases, also if the service returns errors for single requests that are contained in the batch request. Therefore, we have to implement the error handling for single requests differently.
 
@@ -266,8 +266,8 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 							items="{
 								path: '/People',
 								parameters: {
-									$count: true,
-*HIGHLIGHT START*									$$updateGroupId : 'peopleGroup'*HIGHLIGHT END*
+								$count: true*HIGHLIGHT START*,
+									$$updateGroupId : 'peopleGroup'*HIGHLIGHT END*
 								}
 							}">
 							<headerToolbar>
@@ -325,24 +325,24 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 										<Input
 											value="{UserName}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"/>
-*HIGHLIGHT END*
+	liveChange=".onInputChange"*HIGHLIGHT END*/>
+
 									</cells>
 									<cells>
 										<Input
 											value="{FirstName}"
-*HIGHLIGHT START**											liveChange=".onInputChange"/>*HIGHLIGHT END**
+				*HIGHLIGHT START*											liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
 											value="{LastName}"
-*HIGHLIGHT START*											liveChange=".onInputChange"/>*HIGHLIGHT END*
+				*HIGHLIGHT START*											liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
 											value="{Age}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"/>*HIGHLIGHT END*
+	liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 								</ColumnListItem>
 							</items>
@@ -393,13 +393,14 @@ saveButtonText=Save
 
 #XBUT: Button text for cancel
 cancelButtonText=Cancel
+
+*HIGHLIGHT END*\#XBUT: Button text for add user
+createButtonText=Add User
+*HIGHLIGHT START*
+
 *HIGHLIGHT END*
 #XTOL: Tooltip for sort
 sortButtonText=Sort by Last Name
-
-*HIGHLIGHT START*#XBUT: Button text for add user
-createButtonText=Add User
-*HIGHLIGHT END*
 ...
 # Messages
 *HIGHLIGHT START*#XMSG: Message for user changes sent to the service
