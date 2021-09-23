@@ -33,6 +33,7 @@ The binding's OData query options are combined with the query options passed to 
 
 -   The list and context binding support the OData system query options `$apply`, `$count`, `$expand`, `$filter`, `$orderby`, `$search` and `$select`.
 
+-   An absolute property binding with a path that ends on "$count" supports the OData system query options `$apply`, `$filter`, and `$search`.
 
 The query option `$count` must be specified as a boolean value with `true` or `false`. All other query options can be specified with a string value. In addition to strings, the following alternatives are possible:
 

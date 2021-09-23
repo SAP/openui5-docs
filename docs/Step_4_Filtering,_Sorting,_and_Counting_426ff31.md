@@ -56,8 +56,8 @@ sap.ui.define([
 
 		onInit : function () {
 			var oJSONData = {
-			busy : false*HIGHLIGHT START*,
-				order : 0*HIGHLIGHT END*emphasis>
+				busy : false*HIGHLIGHT START*,
+				order : 0*HIGHLIGHT END*
 			};
 			var oModel = new JSONModel(oJSONData);
 			this.getView().setModel(oModel, "appView");

@@ -325,24 +325,24 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 										<Input
 											value="{UserName}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-	liveChange=".onInputChange"*HIGHLIGHT END*/>
+											liveChange=".onInputChange"*HIGHLIGHT END*/>
 
 									</cells>
 									<cells>
 										<Input
-											value="{FirstName}"
-				*HIGHLIGHT START*											liveChange=".onInputChange"*HIGHLIGHT END*/>
+										value="{FirstName}"
+				*HIGHLIGHT START*						liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
-											value="{LastName}"
-				*HIGHLIGHT START*											liveChange=".onInputChange"*HIGHLIGHT END*/>
+										value="{LastName}"
+				*HIGHLIGHT START*						liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
 											value="{Age}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-	liveChange=".onInputChange"*HIGHLIGHT END*/>
+											liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 								</ColumnListItem>
 							</items>

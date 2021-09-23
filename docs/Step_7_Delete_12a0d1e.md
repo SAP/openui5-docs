@@ -40,20 +40,32 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 
 ```
 ...
-				this._setUIChanges(true);
-				this.getView().getModel("appView").setProperty("/usernameEmpty", true);
-				
-				// Select and focus the table row that contains the newly created entry
-				oList.getItems().some(function (oItem) {
-				if (oItem.getBindingContext() === oContext) {
-				oItem.focus();
-				oItem.setSelected(true);
-				return true;
-				}
+		onInit: function () {
+			...
+		},
+		onCreate : function () {
+			var oList = this.byId("peopleList"),
+				oBinding = oList.getBinding("items"),
+				oContext = oBinding.create({
+					"UserName" : "",
+					"FirstName" : "",
+					"LastName" : "",
+					"Age" : "18"
 				});
-				},
-				
-				*HIGHLIGHT START*onDelete : function () {
+
+			this._setUIChanges();
+			this.getView().getModel("appView").setProperty("/usernameEmpty", true);
+
+			oList.getItems().some(function (oItem) {
+				if (oItem.getBindingContext() === oContext) {
+					oItem.focus();
+					oItem.setSelected(true);
+					return true;
+				}
+			});
+		},
+
+*HIGHLIGHT START*		onDelete : function () {
 			var oSelected = this.byId("peopleList").getSelectedItem();
 
 			if (oSelected) {
@@ -63,20 +75,20 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 					MessageBox.error(oError.message);
 				});
 			}
-			},*HIGHLIGHT END*
-				
-				onInputChange : function (oEvt) {
-				if (oEvt.getParameter("escPressed")) {
+		},*HIGHLIGHT END*
+
+		onInputChange : function (oEvt) {
+			if (oEvt.getParameter("escPressed")) {
 				this._setUIChanges();
-				} else {
+			} else {
 				this._setUIChanges(true);
-				// Check if the username in the changed table row is empty and set the appView property accordingly
 				if (oEvt.getSource().getParent().getBindingContext().getProperty("UserName")) {
-				this.getView().getModel("appView").setProperty("/usernameEmpty", false);
+					this.getView().getModel("appView").setProperty("/usernameEmpty", false);
 				}
-				}
-				},
-			...
+			}
+		},
+
+...
 ```
 
 We add the `onDelete` event handler to the controller. In the event handler, we check whether an item is selected in the table and if so, the related data is deleted from the model. To do that, we retrieve the binding context of the selection and call its `delete` method.

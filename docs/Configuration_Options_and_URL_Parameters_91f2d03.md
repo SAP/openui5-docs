@@ -1368,6 +1368,47 @@ Modifiable at runtime with restrictions. For more information, see [API Referenc
 <tr>
 <td>
 
+`securityTokenHandlers`
+
+
+
+</td>
+<td>
+
+Type: `function[]`
+
+Each of these functions is called by the OData V4 model to retrieve the security tokens instead of using the default "X-CSRF-Token".
+
+For more information, see [Security Token Handling](Model_Instantiation_and_Data_Access_9613f1f.md#loio9613f1f2d88747cab21896f7216afdac__section_STH).
+
+
+
+</td>
+<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td>
+
+![NO](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td>
+
+![YES](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
 `statistics`
 
 
