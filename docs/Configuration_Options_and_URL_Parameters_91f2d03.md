@@ -1393,14 +1393,14 @@ For more information, see [Security Token Handling](Model_Instantiation_and_Data
 </td>
 <td>
 
-![NO](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 
 
 </td>
 <td>
 
-![YES](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 

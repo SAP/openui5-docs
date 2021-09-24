@@ -40,7 +40,7 @@ The reuse of data in different bindings may help to avoid unnecessary requests. 
 
 ***
 
-<a name="loio5a0d286c5606424b8e0d663c87445733__section_uhx_xn4_cdb"/>
+<a name="loio5a0d286c5606424b8e0d663c87445733__section_ER4MST"/>
 
 ### Early Requests for Metadata and Security Token
 

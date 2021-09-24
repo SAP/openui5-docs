@@ -166,6 +166,24 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 ### Security Token Handling
 
+The OData V4 model automatically handles a security token via an "X-CSRF-Token" header if needed by its service. To achieve this, the "X-CSRF-Token" header starts with a value of "Fetch" and will be included in every data request. If a data response contains the "X-CSRF-Token" header, that new value will be remembered and used from that time on. If a data request fails with status 403 and an "X-CSRF-Token" response header value "required" \(case insensitive\), a new security token will be fetched and the data request will be repeated automatically and transparently.
+
+A new security token is fetched via a HEAD request on the service URL using an "X-CSRF-Token" header value "Fetch". The response header value of "X-CSRF-Token" is remembered if present, or else that header will not be used any longer.
+
+If a service does not require an "X-CSRF-Token" header, it should ignore that request header, and everything will be fine.
+
+***
+
+#### Early requests
+
+Often, the first request is a POST to $batch and would fail for services requiring an "X-CSRF-Token" header. To improve performance, you should enable [Early Requests for Metadata and Security Token](Performance_Aspects_5a0d286.md#loio5a0d286c5606424b8e0d663c87445733__section_ER4MST).
+
+***
+
+#### Security token handlers
+
+Some services do not support an "X-CSRF-Token" request header value "Fetch", for example because the "X-CSRF-Token" header value is fixed, known from the beginning, not fetched via the OData service, or does not expire. In other cases, a different header name might be needed. Sometimes it is enough to call [v4.ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders) early on. At other times you might need to provide your own security token handler. You can do so before the OData model is created via [OpenUI5's "securityTokenHandlers" configuration option](Configuration_Options_and_URL_Parameters_91f2d03.md). You can provide a list of functions which are invoked one by one with the model's service URL as the only argument. The first handler which does not return `undefined` wins and is expected to return a `Promise` that resolves with a map of header names and values. This works much like [v4.ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders), but overriding the "X-CSRF-Token" : "Fetch" pair. This means you either provide your own "X-CSRF-Token" value, or that header is not used at all. Note that expiration is currently only supported for the "X-CSRF-Token" header.
+
 **Related Information**  
 
 

@@ -856,6 +856,29 @@ Version 36
 
 </td>
 </tr>
+<tr>
+<td>
+
+Version 37
+
+
+
+</td>
+<td>
+
+\>=1.95
+
+
+
+</td>
+<td>
+
+1.36.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -2020,7 +2043,7 @@ Current version of the `manifest.json`
 ``` { .collapsible .expanded}
 
 {
-    "_version": "1.35.0",
+    "_version": "1.36.0",
  
     "start_url": "index.html",
  
@@ -2110,7 +2133,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.93.0",
+            "minUI5Version": "1.95.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
