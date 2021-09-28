@@ -2955,11 +2955,26 @@ Allows to disable the view caching, for example, during development \(see [XML V
 </td>
 <td>
 
-Type: `boolean`
+Type: `string`
 
-Default value: `false`
+Default value: `undefined`
 
-If set to `true`, the first \(initial\) rendering of the application will be delayed until the theme has been loaded and applied \(until `Core.isThemeApplied()`\). Helps to avoid FOUC \(flash of unstyled content\).
+Possible values are:
+
+-   `undefined` \(default\)
+
+-   `"rendering"`
+
+    The first \(initial\) rendering of the application will be delayed until the theme has been loaded and applied \(until `Core.isThemeApplied()`\). Helps to avoid FOUC \(flash of unstyled content\).
+
+-   `"init"`
+
+    Same as "rendering", but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
+
+    See also:
+
+    -   [`onInit` function/module](Standard_Variant_for_Bootstrapping_91f1f45.md)
+    -   [`sap.ui.getCore().attachInit`](Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070)
 
 
 
