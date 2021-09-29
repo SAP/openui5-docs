@@ -160,6 +160,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 6: Create and Edit](Step_6_Create_and_Edit_b4f1266.md)
             -   [Step 7: Delete](Step_7_Delete_12a0d1e.md)
             -   [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md)
+            -   [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md)
         -   [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
             -   [Step 1: Set Up the Initial App](Step_1_Set_Up_the_Initial_App_df245bd.md)
             -   [Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md)

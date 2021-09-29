@@ -67,6 +67,8 @@ In this step, we make it possible to delete user data.
 		action. In this step, we add a button that resets all data changes we made during the
 		tutorial to their original state using this action.")  
 Our OData service provides one OData operation: the `ResetDataSource` action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.
+9.  [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")  
+In this step we add a detail area with additional information.
 
 **Related Information**  
 

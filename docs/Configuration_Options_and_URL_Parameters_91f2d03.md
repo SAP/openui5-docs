@@ -1837,6 +1837,50 @@ URL to an allowlist service; see [Allowlist Service](Allowlist_Service_d04a6d4.m
 
 </td>
 </tr>
+<tr>
+<td>
+
+ `compatVersion` 
+
+
+
+</td>
+<td>
+
+Type: `string`
+
+Default value: `1.14`
+
+> ### Note:  
+> Applications must set this option to `edge`. **Other version definitions are deprecated.**
+
+For more information, see [Compatibility Version Information](Compatibility_Version_Information_9feb96d.md).
+
+
+
+</td>
+<td>
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+
+
+</td>
+<td>
+
+![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+
+
+</td>
+</tr>
 </table>
 
 ***
@@ -2963,13 +3007,15 @@ Possible values are:
 
 -   `undefined` \(default\)
 
--   `"rendering"`
+    By default neither the initialization of the OpenUI5 Core nor the first rendering wait for the configured theme to be loaded.
+
+-   `rendering`
 
     The first \(initial\) rendering of the application will be delayed until the theme has been loaded and applied \(until `Core.isThemeApplied()`\). Helps to avoid FOUC \(flash of unstyled content\).
 
--   `"init"`
+-   `init`
 
-    Same as "rendering", but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
+    Same as `rendering`, but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
 
     See also:
 
