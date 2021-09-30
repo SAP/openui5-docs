@@ -83,6 +83,8 @@ oDetailBinding.getBoundContext().requestObject().then(function () {
 </m:Table>
 ```
 
+The context that is now a list binding context is also set to `keepAlive` by `moveEntityTo`. For more information, see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below.
+
 After this call, the context binding no longer has data. In this scenario, the context binding has outlived its purpose after the successful execution of `moveEntityTo` and can be destroyed. To be able to use the context binding further, it would need to be refreshed.
 
 ***
@@ -143,7 +145,7 @@ The `$$sharedRequest` binding parameter is used automatically for list bindings 
 
 ***
 
-<a name="loio648e360fa22d46248ca783dc6eb44531__section_f2s_pqp_4mb"/>
+<a name="loio648e360fa22d46248ca783dc6eb44531__section_ELC"/>
 
 ### Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection
 

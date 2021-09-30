@@ -22,7 +22,7 @@ In this step we add a detail area with additional information.
   
 <a name="loioec445816634f45eb88a7e559187dac46__fig_ybl_pdx_4cb"/>A detail area containing information about the selected user is added
 
- ![](loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A detail area containing information about the selected user  is added") 
+ ![A list of users with an added detail area](loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added") 
 
 ***
 

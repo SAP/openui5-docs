@@ -176,7 +176,7 @@ return new Opa5().waitFor({
 ```
 
 > ### Note:  
-> As of version `1.96` the `sap.ui.test.matchers.I18NText` was extended to allow use of library resource bundle.
+> As of version 1.95, `sap.ui.test.matchers.I18NText` is extended to allow using library resource bundle.
 
 ``` js
 return new Opa5().waitFor({
