@@ -54,8 +54,7 @@ SAPUI5 supports the configuration of a central allowlist service.
 		clickjacking. With the frameOptions configuration you define whether OpenUI5 is allowed to run
 		embedded in a frame or only from trusted origins or not at all.")**  
 `frameOptions` is used to prevent security vulnerabilities like clickjacking. With the `frameOptions` configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.
--   **[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that enables the
-		detection and mitigation of certain types of attacks including cross site scripting and data
-		injection.")**  
-Content Security Policy \(CSP\) adds an additional layer of security that enables the detection and mitigation of certain types of attacks including cross site scripting and data injection.
+-   **[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that can detect and mitigate certain types of attacks, such as
+		cross-site scripting and data injection.")**  
+Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
 

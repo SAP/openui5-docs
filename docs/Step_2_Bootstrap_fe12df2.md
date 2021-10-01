@@ -123,5 +123,5 @@ Now, we create a new `index.js` script that will contain the application logic f
 
 [https://jquery.org/](https://jquery.org/)
 
-[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that enables the detection and mitigation of certain types of attacks including cross site scripting and data injection.")
+[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.")
 
