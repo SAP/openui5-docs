@@ -79,12 +79,10 @@ For a CSP policy, which does not allow `eval()`, you must also avoid the followi
 
 To run an app in an environment in which CSP has been enabled, OpenUI5 requires the following directives:
 
-<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__table_sgn_vqq_crb"/>Directives
-
 
 <table>
 <tr>
-<th>
+<th rowspan="2">
 
 Directive
 
@@ -107,71 +105,62 @@ Sources Required by the Application
 </th>
 </tr>
 <tr>
-<td>
+<th>
 
- 
+`<source hosting >`
 
-
-
-</td>
-<td>
-
-`<Source hosting >`
-
-\(`'self'`, if is hosted with the application\)
+\(equals `'self'` if is hosted with the application\)
 
 
 
-</td>
-<td>
+</th>
+<th>
 
 `data:`
 
 
 
-</td>
-<td>
+</th>
+<th>
 
 `blob:`
 
 
 
-</td>
-<td>
+</th>
+<th>
 
 Other Sources
 
 
 
-</td>
-<td>
+</th>
+<th>
 
 `'self'`
 
 
 
-</td>
-<td>
+</th>
+<th>
 
 Custom Sources \(including `'self'`\)
 
 
 
-</td>
+</th>
 </tr>
 <tr>
 <td>
 
-script-src
-
-font-src
+`script-src`
 
 
 
 </td>
 <td>
 
- 
+   
 
 
 
@@ -222,14 +211,14 @@ Might require `'unsafe-inline'` or `'unsafe-eval'` depending on custom scripts.
 <tr>
 <td>
 
-style-src
+`style-src`
 
 
 
 </td>
 <td>
 
- 
+   
 
 
 
@@ -280,14 +269,14 @@ Requires `'unsafe-inline'` for custom controls using inline styles.
 <tr>
 <td>
 
-img-src
+`img-src`
 
 
 
 </td>
 <td>
 
- 
+   
 
 
 
@@ -322,7 +311,7 @@ May be needed for loading images from the application.
 </td>
 <td>
 
-Location of custom images \(for example,. for custom themes, images in the back end\) needs to be added.
+The location of custom images \(for example,. for custom themes, images in the back end\) needs to be added.
 
 
 
@@ -331,14 +320,14 @@ Location of custom images \(for example,. for custom themes, images in the back 
 <tr>
 <td>
 
-font-src
+`font-src`
 
 
 
 </td>
 <td>
 
- 
+   
 
 
 
@@ -373,7 +362,7 @@ May be needed for loading fonts from the application.
 </td>
 <td>
 
- 
+The location of custom fonts needs to be added.
 
 
 
@@ -382,14 +371,14 @@ May be needed for loading fonts from the application.
 <tr>
 <td>
 
-frame-src
+`frame-src`
 
 
 
 </td>
 <td>
 
-Required for using the support assistant and/or the diagnostics tool.
+Required for using the support assistant and/or the diagnostics tool. Also required to avoid a fallback to `child-src`.
 
 
 
@@ -403,7 +392,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td>
 
- 
+May be required by some specific OpenUI5 functionality.
 
 
 
@@ -433,14 +422,21 @@ May be required depending on the integration, application, or test scenario.
 <tr>
 <td>
 
-worker-src
+`worker-src`
 
 
 
 </td>
 <td>
 
- 
+   
+
+
+
+</td>
+<td>
+
+May be required by some specific OpenUI5 functionality.
 
 
 
@@ -473,25 +469,25 @@ May be required by some specific OpenUI5 functionality.
 
 
 </td>
-<td>
-
- 
-
-
-
-</td>
 </tr>
 <tr>
 <td>
 
-connect-src
+`child-src`
 
 
 
 </td>
 <td>
 
- 
+   
+
+
+
+</td>
+<td>
+
+May be required by some specific OpenUI5 functionality.
 
 
 
@@ -519,7 +515,23 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td>
 
-Is required for loading application resources.
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+`connect-src`
+
+
+
+</td>
+<td>
+
+   
 
 
 
@@ -531,20 +543,30 @@ Is required for loading application resources.
 
 
 </td>
-</tr>
-<tr>
 <td>
 
-child-src
-
-TODO: Is this still needed for PAM browsers? Otherwise note not to use?
+ 
 
 
 
 </td>
-<td colspan="6">
+<td>
 
-This is the deprecated predecessor of `worker-src` and `frame-src`. For browsers that don't support `worker-src`, the corresponding entries need to be done here.
+Some specific OpenUI5 functionality may require `wss:`.
+
+
+
+</td>
+<td>
+
+Required for loading application resources.
+
+
+
+</td>
+<td>
+
+ 
 
 
 

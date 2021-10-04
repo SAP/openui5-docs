@@ -2004,6 +2004,9 @@
 					"Securing Apps": {
 						"link": "Securing_Apps_91f3d87.md",
 						"items": {
+							"Content Security Policy": {
+								"link": "Content_Security_Policy_fe1a6db.md"
+							},
 							"Browser Security": {
 								"link": "Browser_Security_91f3b66.md"
 							},
@@ -2030,9 +2033,6 @@
 							},
 							"Frame Options": {
 								"link": "Frame_Options_62d9c4d.md"
-							},
-							"Content Security Policy": {
-								"link": "Content_Security_Policy_fe1a6db.md"
 							}
 						}
 					},

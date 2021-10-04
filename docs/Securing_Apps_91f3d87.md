@@ -27,6 +27,9 @@ OpenUI5 is not bound to any server implementation or server-side programming lan
 > ### Note:  
 > We highly recommend that you implement SAP Note [1582870](https://launchpad.support.sap.com/#/notes/1582870) for ABAP XSS escaping support, in case you are running on SAP\_BASIS lower than 730.
 
+-   **[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that can detect and mitigate certain types of attacks, such as
+		cross-site scripting and data injection.")**  
+Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
 -   **[Browser Security](Browser_Security_91f3b66.md "Browser security comprises several topics such as cross-site scripting, clickjacking,
 		and local storage.")**  
 Browser security comprises several topics such as cross-site scripting, clickjacking, and local storage.
@@ -54,7 +57,4 @@ SAPUI5 supports the configuration of a central allowlist service.
 		clickjacking. With the frameOptions configuration you define whether OpenUI5 is allowed to run
 		embedded in a frame or only from trusted origins or not at all.")**  
 `frameOptions` is used to prevent security vulnerabilities like clickjacking. With the `frameOptions` configuration you define whether OpenUI5 is allowed to run embedded in a frame or only from trusted origins or not at all.
--   **[Content Security Policy](Content_Security_Policy_fe1a6db.md "Content Security Policy (CSP) adds an additional layer of security that can detect and mitigate certain types of attacks, such as
-		cross-site scripting and data injection.")**  
-Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
 
