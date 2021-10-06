@@ -18,7 +18,7 @@ CSP restricts the sources from which the browser is allowed to load resources, s
 
 -   CSP mitigates and reports XSS attacks; CSP-compatible browsers only execute scripts loaded in source files that are received from allowed sources.
 
--   CSP also mitigates packet sniffing attacks by specifying the protocols that are allowed to be used on the web server, for example, specifying that content must be loaded from HTTPS.
+-   CSP also mitigates packet sniffing attacks by specifying the protocols that may be used on the web server, for example, specifying that content must be loaded from HTTPS.
 
 
 CSP is either enabled via a configuration in the web server to return the Content-Security-Policy HTTP header \(preferred solution\), or via the `<meta>` element in the meta tags of an HTML page.
@@ -37,7 +37,7 @@ For OpenUI5, we recommend that developers build their apps CSP-compliant, in par
 
 #### Asynchronous Loading
 
-`eval()` is currently still required in OpenUI5 for synchronous loading. However, we recommend to load JavaScript resources asynchronously and this also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs which might lead to synchronous loading, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
+`eval()` is currently still required in OpenUI5 for synchronous loading. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
 ***
 
@@ -51,24 +51,24 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
 -   `javascript:` URLs
 
--   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `<script src="..."></script>` or non-script content with them is okay.
+-   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `` or non-script content/script<script src="..."\> with them is okay.\>
 
 
 ***
 
 #### `eval()`-Free Policies
 
-For a CSP policy, which does not allow `eval()`, you must also avoid the following elements when developing OpenUI5 apps:
+For a CSP policy, which doesn't allow `eval()`, you must also avoid the following elements when developing OpenUI5 apps:
 
 -   `new Function()`
 
--   `setTimeout(<non-fn>)`
+-   `<setTimeout(<non-fn>)`
 
-    This will be ignored silently and not create a timer without `'unsafe-eval'`, that is, `<non-fn>` is never executed. `setTimeout(<fn>)` will work with and without `'unsafe-eval'`.
+    This will be ignored silently and not create a timer without `'unsafe-eval'`, that is, `<non-fn>` is never executed. `setTimeout(<fn>)` works with and without `'unsafe-eval'`.
 
 -   `setInterval(<non-fn>)`
 
-    This will be ignored silently and not create a repeated timer without `'unsafe-eval'`, that is, the `<non-fn>` is never executed. `setInterval(<fn>)` will work with and without the `'unsafe-eval'`.
+    This will be ignored silently and not create a repeated timer without `'unsafe-eval'`, that is, the `<non-fn>` is never executed. `setInterval(<fn>)` works with and without the `'unsafe-eval'`.
 
 
 ***
@@ -96,9 +96,9 @@ Sources Required by the OpenUI5 Framework
 
 
 </th>
-<th colspan="2">
+<th>
 
-Sources Required by the Application
+Sources Required by the App
 
 
 
@@ -109,7 +109,7 @@ Sources Required by the Application
 
 `<source hosting >`
 
-\(equals `'self'` if is hosted with the application\)
+\(equals `'self'` if is hosted with the app\)
 
 
 
@@ -137,14 +137,7 @@ Other Sources
 </th>
 <th>
 
-`'self'`
-
-
-
-</th>
-<th>
-
-Custom Sources \(including `'self'`\)
+Custom Sources \(Including 'self' for the App's Own Origin\)
 
 
 
@@ -195,14 +188,8 @@ Required at least if using:
 </td>
 <td>
 
-Required for loading application resources.
-
-
-
-</td>
-<td>
-
-Might require `'unsafe-inline'` or `'unsafe-eval'` depending on custom scripts.
+-   Requires `'self'` for loading application resources.
+-   May require `'unsafe-inline'` or `'unsafe-eval'` depending on custom scripts.
 
 
 
@@ -251,16 +238,8 @@ Required at least if using:
 </td>
 <td>
 
-May be needed for loading styles from the application.
-
-
-
-</td>
-<td>
-
-The location of custom themes needs to be added.
-
-Requires `'unsafe-inline'` for custom controls using inline styles.
+-   May require `'self'` and additional locations for application-specific styles and themes.
+-   Requires `'unsafe-inline'` for custom controls using inline styles.
 
 
 
@@ -304,14 +283,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td>
 
-May be needed for loading images from the application.
-
-
-
-</td>
-<td>
-
-The location of custom images \(for example,. for custom themes, images in the back end\) needs to be added.
+May require `'self'` or additional locations for application-specific images \(such as custom themes or images in the back end\).
 
 
 
@@ -355,14 +327,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td>
 
-May be needed for loading fonts from the application.
-
-
-
-</td>
-<td>
-
-The location of custom fonts needs to be added.
+May require `'self'` or additional locations for application-specific fonts.
 
 
 
@@ -406,14 +371,7 @@ May be required by some specific OpenUI5 functionality.
 </td>
 <td>
 
- 
-
-
-
-</td>
-<td>
-
-May be required depending on the integration, application, or test scenario.
+May require additional locations depending on the integration, application, or test scenario.
 
 
 
@@ -462,18 +420,11 @@ May be required by some specific OpenUI5 functionality.
 
 
 </td>
-<td>
-
- 
-
-
-
-</td>
 </tr>
 <tr>
 <td>
 
-`child-src`
+`child-src`\*
 
 
 
@@ -495,13 +446,6 @@ May be required by some specific OpenUI5 functionality.
 <td>
 
 May be required by some specific OpenUI5 functionality.
-
-
-
-</td>
-<td>
-
- 
 
 
 
@@ -559,14 +503,7 @@ Some specific OpenUI5 functionality may require `wss:`.
 </td>
 <td>
 
-Required for loading application resources.
-
-
-
-</td>
-<td>
-
- 
+Requires `'self'` for loading application resources.
 
 
 
@@ -574,5 +511,8 @@ Required for loading application resources.
 </tr>
 </table>
 
-To use a most restrictive policy, set up CSP in `report-only` mode and start with a minimal policy. Monitor the reports to add missing sources. Finally switch CSP to enforcing the policy.
+\*`child-src` is still required for browsers that don't support `worker-src` yet.
+
+> ### Tip:  
+> To test policies without enforcing them, set up CSP with the `Content-Security-Policy-Report-Only` response header and experiment with different policies. Monitor the reports to add missing sources. When you have found the desired policy, remove the `report-only` header to enforce the policy.
 
