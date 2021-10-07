@@ -44,7 +44,7 @@ Behavior
 </td>
 <td>
 
-If focus is on an item, select the item and deselect all others.
+If focus is on an item, selects the item and deselects all others.
 
 
 
@@ -84,41 +84,7 @@ Behavior
 </td>
 <td>
 
-If focus is on an item, select the item and deselect all others.
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [Ctrl\] + [Spacebar\] 
-
-
-
-</td>
-<td>
-
-If focus is on an item, select the item in addition to an existing selection.
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [Shift\] + [Spacebar\] 
-
-
-
-</td>
-<td>
-
-If focus is on an item, select all items from the previous selected item to the now focused item \(included\).
-
-Previous selection: all kinds of selection except [Shift\][Spacebar\] selections
+If focus is on an item, selects the item in addition to all previously selected items.
 
 
 
@@ -134,7 +100,7 @@ Previous selection: all kinds of selection except [Shift\][Spacebar\] selections
 </td>
 <td>
 
-If focus is on an item, change selection state \(selected/ not selected\) to the item above.
+If focus is on an item, changes selection state \(selected/ not selected\) to the item above.
 
 
 
@@ -150,7 +116,7 @@ If focus is on an item, change selection state \(selected/ not selected\) to the
 </td>
 <td>
 
-If focus is on an item, change selection state \(selected/ not selected\) to the item below.
+If focus is on an item, changes selection state \(selected/ not selected\) to the item below.
 
 
 

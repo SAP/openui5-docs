@@ -18,18 +18,10 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 
 
 
--   **[What's New in OpenUI5 1.xx \(new concept template\)](What's_New_in_OpenUI5_1.xx_(new_concept_template)_b39a11b.md "With
-		this release OpenUI5 is upgraded
-		from version 1.yy to 1.xx.")**  
-With this release OpenUI5 is upgraded from version 1.yy to 1.xx.
 -   **[What's New in OpenUI5 1.95](What's_New_in_OpenUI5_1.95_1b09465.md "With
 		this release OpenUI5 is upgraded
 		from version 1.94 to 1.95.")**  
 With this release OpenUI5 is upgraded from version 1.94 to 1.95.
--   **[What's New in OpenUI5 1.94](What's_New_in_OpenUI5_1.94_2d6ffdd.md "With
-		this release OpenUI5 is upgraded
-		from version 1.93 to 1.94.")**  
-With this release OpenUI5 is upgraded from version 1.93 to 1.94.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 
