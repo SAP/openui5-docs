@@ -56,9 +56,9 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
 ***
 
-#### `eval()`-Free Policies
+#### Policies Without `script-src 'unsafe-eval'`
 
-For a CSP policy, which doesn't allow `eval()`, you must also avoid the following elements when developing OpenUI5 apps:
+For a CSP policy that doesn't allow `eval()` you must also avoid the following elements when developing OpenUI5 apps:
 
 -   `new Function()`
 
