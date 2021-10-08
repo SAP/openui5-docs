@@ -51,7 +51,7 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
 -   `javascript:` URLs
 
--   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `` or non-script content/script<script src="..."\> with them is okay.\>
+-   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `<script src="..."></script>` or non-script content with them is okay.
 
 
 ***
@@ -73,7 +73,18 @@ For a CSP policy, which doesn't allow `eval()`, you must also avoid the followin
 
 ***
 
-<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_wrv_wpq_crb"/>
+<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_spl_4p3_2rb"/>
+
+### Test Your Policies with `Report-Only`
+
+> ### Note:  
+> CSP is a complex subject with many interdependencies and dynamics. Example: A CSP-compliant control or function in your app might have a dependency to a deprecated API that is not fully CSP-compliant. In this case you may need to add `'unsafe-eval'` to the `script-src` directive. That's why it's important to test your policies to check this.
+
+To test policies without enforcing them, set up CSP with the `Content-Security-Policy-Report-Only` response header and test with the **most restrictive** policy. Monitor the reports to add missing sources \(see [Directives](Content_Security_Policy_fe1a6db.md#loiofe1a6dba940e479fb7c3bc753f92b28c__directives). When you have found the desired policy, replace the `Content-Security-Policy-Report-Only` header with `Content-Security-Policy` to enforce the policy.
+
+***
+
+<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__directives"/>
 
 ### Directives
 
@@ -180,8 +191,23 @@ Required for synchronous loading of JavaScript resources.
 
 Required at least if using:
 
--   `sap.ui.commons`
--   ...
+-   `sap.apf`
+-   `sap.collaboration`
+-   `sap.fe`
+-   `sap.fe.v2`
+-   `sap.m`
+-   `sap.ovp`
+-   `sap.suite.ui.generic.template`
+-   `sap.ui.comp`
+-   `sap.ui.core`
+-   `sap.ui.integration`
+-   `sap.rules.ui`
+-   `sap.ui.vbm`
+-   `sap.ui.vk`
+-   `sap.ushell`
+-   `sap.uxap`
+-   `sap.webc.*`
+-   `sap.zen.*` \(non-deprecated part\)
 
 
 
@@ -230,8 +256,23 @@ Required at least if using:
 
 Required at least if using:
 
--   `sap.ui.commons`
--   ...
+-   `sap.fe`
+-   `sap.gantt`
+-   `sap.m`
+-   `sap.suite.ui.commons`
+-   `sap.ui.codeeditor`
+-   `sap.ui.comp`
+-   `sap.ui.core`
+-   `sap.ui.integration`
+-   `sap.ui.richtexteditor`
+-   `sap.rules.ui`
+-   `sap.ui.support`
+-   `sap.ui.testrecorder`
+-   `sap.ui.vbm`
+-   `sap.ui.vk`
+-   `sap.ushell`
+-   `sap.viz`
+-   `sap.zen.*` \(non-deprecated part\)
 
 
 
@@ -513,6 +554,80 @@ Requires `'self'` for loading application resources.
 
 \*`child-src` is still required for browsers that don't support `worker-src` yet.
 
-> ### Tip:  
-> To test policies without enforcing them, set up CSP with the `Content-Security-Policy-Report-Only` response header and experiment with different policies. Monitor the reports to add missing sources. When you have found the desired policy, remove the `report-only` header to enforce the policy.
+***
+
+<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_gzr_ms3_2rb"/>
+
+### Libraries Without Strict CSP Compliance
+
+No strict CSP compliance is planned for the following libraries:
+
+-   `sap.ca.ui` and scaffolding framework
+-   `sap.landvisz`
+-   `sap.ui.commons`
+-   `sap.ui.ux3`
+-   `sap.uiext.inbox`
+-   `sap.zen.*` \(deprecated parts\)
+
+***
+
+<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_c1k_gt3_2rb"/>
+
+### Specific Restrictions
+
+For the following functions and features certain restrictions apply:
+
+
+<table>
+<tr>
+<th>
+
+Library/Topic
+
+
+
+</th>
+<th>
+
+Comment
+
+
+
+</th>
+</tr>
+<tr>
+<td>
+
+`sap.ui.core` - Hyphenation
+
+
+
+</td>
+<td>
+
+`script-src` requires `wasm-eval`
+
+When native hyphenation is not available, a third-party library \(Hyphenopoly\) is used. This library uses WASM, which leads to CSP issues due to browser limitations. There is a fallback to `asm.js`, if WASM can't be used.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Support Assistant
+
+
+
+</td>
+<td>
+
+For custom rules in the Support Assistant, dynamic code execution is essential, so it can't be removed. Support Assistant detects whether dynamic code execution is allowed and informs the user if custom rules can be used or not.
+
+
+
+</td>
+</tr>
+</table>
 
