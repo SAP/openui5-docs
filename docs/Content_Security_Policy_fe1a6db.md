@@ -51,7 +51,7 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
 -   `javascript:` URLs
 
--   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `<script src="..."></script>` or non-script content with them is okay.
+-   `document.write()`, `createElement('script')`, and so on, if they are used to create inline scripts. Creating script references, such as `<script src="..."></script>`, or non-script content with them is okay.
 
 
 ***
@@ -189,7 +189,7 @@ Custom Sources \(Including 'self' for the App's Own Origin\)
 
 Required for synchronous loading of JavaScript resources.
 
-Required at least if using:
+Most likely required for deprecated APIs, especially for programming model APIs, like old factories in the `sap.ui` namespace. Required at least for parts of the following libraries:
 
 -   `sap.apf`
 -   `sap.collaboration`
@@ -208,6 +208,15 @@ Required at least if using:
 -   `sap.uxap`
 -   `sap.webc.*`
 -   `sap.zen.*` \(non-deprecated part\)
+
+Required for the following libraries:
+
+-   `sap.ca.ui` and scaffolding framework
+-   `sap.landvisz`
+-   `sap.ui.commons`
+-   `sap.ui.ux3`
+-   `sap.uiext.inbox`
+-   `sap.zen.*` \(deprecated parts\)
 
 
 
@@ -254,7 +263,7 @@ Required at least if using:
 
 `'unsafe-inline'`
 
-Required at least if using:
+Most likely required for deprecated APIs. Required at least for parts of the following libraries:
 
 -   `sap.fe`
 -   `sap.gantt`
@@ -273,6 +282,15 @@ Required at least if using:
 -   `sap.ushell`
 -   `sap.viz`
 -   `sap.zen.*` \(non-deprecated part\)
+
+Required for the following libraries:
+
+-   `sap.ca.ui` and scaffolding framework
+-   `sap.landvisz`
+-   `sap.ui.commons`
+-   `sap.ui.ux3`
+-   `sap.uiext.inbox`
+-   `sap.zen.*` \(deprecated parts\)
 
 
 
@@ -556,26 +574,11 @@ Requires `'self'` for loading application resources.
 
 ***
 
-<a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_gzr_ms3_2rb"/>
-
-### Libraries Without Strict CSP Compliance
-
-No strict CSP compliance is planned for the following libraries:
-
--   `sap.ca.ui` and scaffolding framework
--   `sap.landvisz`
--   `sap.ui.commons`
--   `sap.ui.ux3`
--   `sap.uiext.inbox`
--   `sap.zen.*` \(deprecated parts\)
-
-***
-
 <a name="loiofe1a6dba940e479fb7c3bc753f92b28c__section_c1k_gt3_2rb"/>
 
 ### Specific Restrictions
 
-For the following functions and features certain restrictions apply:
+For the following functions and features, certain restrictions apply:
 
 
 <table>
