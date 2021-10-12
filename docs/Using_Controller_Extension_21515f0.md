@@ -78,7 +78,7 @@ For more detailed information on lifecycle hooks and controller metadata, see [C
 
 If you want to have additional lifecycle events like the standard `onInit` or `onExit` for developers extending the controller, you can define them as described in this section.
 
-Controller extensions allow you to define custom lifecycle hooks. In the [`Sample`](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.ControllerExtension/preview), the `ReuseExtension.js` defines a custom lifecycle hook by specifying an `overrideExecution` function:
+Controller extensions allow you to define custom lifecycle hooks. In the sample below, a custom lifecycle hook is defined by specifying an `overrideExecution` function:
 
 ``` js
 return ControllerExtension.extend("sap.my.ReuseExtension", {
