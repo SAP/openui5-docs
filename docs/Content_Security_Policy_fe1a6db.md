@@ -200,7 +200,6 @@ Most likely required for deprecated APIs, especially for programming model APIs,
 -   `sap.suite.ui.generic.template`
 -   `sap.ui.comp`
 -   `sap.ui.core`
--   `sap.ui.integration`
 -   `sap.rules.ui`
 -   `sap.ui.vbm`
 -   `sap.ui.vk`
@@ -265,18 +264,13 @@ Required for the following libraries:
 
 Most likely required for deprecated APIs. Required at least for parts of the following libraries:
 
--   `sap.fe`
--   `sap.gantt`
--   `sap.m`
 -   `sap.suite.ui.commons`
 -   `sap.ui.codeeditor`
--   `sap.ui.comp`
 -   `sap.ui.core`
 -   `sap.ui.integration`
 -   `sap.ui.richtexteditor`
 -   `sap.rules.ui`
 -   `sap.ui.support`
--   `sap.ui.testrecorder`
 -   `sap.ui.vbm`
 -   `sap.ui.vk`
 -   `sap.ushell`
