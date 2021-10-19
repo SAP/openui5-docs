@@ -202,7 +202,6 @@ Most likely required for deprecated APIs, especially for programming model APIs,
 -   `sap.ui.core`
 -   `sap.rules.ui`
 -   `sap.ui.vbm`
--   `sap.ui.vk`
 -   `sap.ushell`
 -   `sap.uxap`
 -   `sap.webc.*`
@@ -212,6 +211,8 @@ Required for the following libraries:
 
 -   `sap.ca.ui` and scaffolding framework
 -   `sap.landvisz`
+-   `sap.makit`
+-   `sap.me`
 -   `sap.ui.commons`
 -   `sap.ui.ux3`
 -   `sap.uiext.inbox`
@@ -264,23 +265,26 @@ Required for the following libraries:
 
 Most likely required for deprecated APIs. Required at least for parts of the following libraries:
 
+-   All controls based on UI5 Web Components \(for example `sap.f`, `sap.ui.integration`\)
+-   `sap.rules.ui`
 -   `sap.suite.ui.commons`
--   `sap.ui.codeeditor`
 -   `sap.ui.core`
 -   `sap.ui.integration`
 -   `sap.ui.richtexteditor`
--   `sap.rules.ui`
 -   `sap.ui.support`
 -   `sap.ui.vbm`
 -   `sap.ui.vk`
 -   `sap.ushell`
 -   `sap.viz`
+-   `sap.webc.*`
 -   `sap.zen.*` \(non-deprecated part\)
 
 Required for the following libraries:
 
 -   `sap.ca.ui` and scaffolding framework
 -   `sap.landvisz`
+-   `sap.makit`
+-   `sap.me`
 -   `sap.ui.commons`
 -   `sap.ui.ux3`
 -   `sap.uiext.inbox`
@@ -621,6 +625,24 @@ Support Assistant
 <td>
 
 For custom rules in the Support Assistant, dynamic code execution is essential, so it can't be removed. Support Assistant detects whether dynamic code execution is allowed and informs the user if custom rules can be used or not.
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+Controls that display provided HTML text \(`sap.m.FormattedText`, etc.\)
+
+
+
+</td>
+<td>
+
+Certain controls display provided HTML text, for example `sap.m.FormattedText`. If the provided text contains a style attribute or a style element with inline styles, `'unsafe-inline'` is required for `style-src`.
+
+It's recommended to use styling with the `class` attribute and external stylesheets.
 
 
 
