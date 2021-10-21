@@ -81,6 +81,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     -   Server-side sorting and filtering
 
+
     > ### Restriction:  
     > This is the first version of the OpenUI5 OData V4 model. Due to its limited feature scope, we recommend you do not use this release to develop applications that are to be used in production systems. Please look at the detailed documentation of the features, as certain parts of a feature may be missing which you might expect as given. While our intention was to be compatible with existing controls, existing controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model. Up to now, only limited tests with controls have been done with the OpenUI5 OData V4 model. The interface for applications has been changed to make usage of the model easier and more efficient. A summary of these changes is documented in the section [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
@@ -100,14 +101,14 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Regular Mode
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Split Mode
 
@@ -116,14 +117,14 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
      ![](loio69b18052e57e48538fa02229ff7e43f7_HiRes.png) 
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
      ![](loio3fb088782e4e49bab3f05920066794c1_HiRes.png) 
 
@@ -146,6 +147,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     -   `Locked`
 
     -   `Unsaved`
+
 
     An object might have multiple `ObjectMarker`s at the same time but the editing states \(`Locked`, `Draft`, and `Unsaved`\) are mutually exclusive.
 
@@ -191,6 +193,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
         For more information, see the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox).
 
+
 -   **`sap.m.DatePicker`**, **`sap.m.DateTimePicker`**, **`sap.m.PlanningCalendar`**, and **`sap.ui.unified.Calendar`**: You can now set minimum and maximum dates to limit the range of available dates.
 
     For more information, see the API Reference for [`sap.m.DatePicker`](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker), [`sap.m.DateTimePicker`](https://openui5.hana.ondemand.com/#/api/sap.m.DateTimePicker), [`sap.m.PlanningCalendar`](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar), and [`sap.ui.unified.Calendar`](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar), and the samples for [`sap.m.DatePicker`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DatePicker/preview), [`sap.m.PlanningCalendar`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarMinMax/preview), and [`sap.ui.unified.Calendar`](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMinMax/preview).
@@ -215,6 +218,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     -   The *Show More* button for toggling expand/collapse mode can now be hidden with the use of the new property `hideShowMoreButton`.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NotificationListItem) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.NotificationListItem).
 
 -   **`sap.m.Popover`** has four new values for its `PlacementType`:
@@ -226,6 +230,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     -   `PreferredRightOrFlip`
 
     -   `PreferredTopOrFlip`
+
 
     They determine the preferred position of the `Popover` and how it behaves when there is insufficient space for it on the screen. These properties allow the `Popover` to flip over and cover some of the content below it.
 
@@ -284,7 +289,8 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
         For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageState/preview) and [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md).
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

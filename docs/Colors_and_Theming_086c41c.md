@@ -22,6 +22,7 @@ Different people perceive and interpret colors in different ways, which is somet
 
     -   If the application runs in the SAP Fiori launchpad, this is covered automatically.
 
+
 -   There are two possible ways to change the theme:
 
     -   With the URL parameter `sap-ui-theme`
@@ -48,6 +49,7 @@ Different people perceive and interpret colors in different ways, which is somet
         sap.ui.getCore().applyTheme(“sap_belize_hcw”);
         ```
 
+
 -   You should avoid writing custom CSS. If you do need custom CSS for some reason, check to make sure everything is working fine on all available themes.
 
 -   If a new theme is created, the color contrast between the elements should be checked. People with visual impairments and people using the application under less than ideal circumstances \(bad monitor, sunlight hitting the screen, window reflections\) may not be able to read the text easily if the contrast levels are insufficient. Specialized tools can help you to measure the color contrast.
@@ -66,6 +68,7 @@ Different people perceive and interpret colors in different ways, which is somet
     -   `resources/sap/m/themes/base/library-parameters.json`
 
     -   `resources/sap/m/themes/sap_hcb/library-parameters.json`
+
 
 -   Use `REM`/`EM` instead of `PX` as a unit.
 
@@ -100,6 +103,7 @@ Check the color contrasts.
     -   Are there screen elements, lines or texts that are disappearing?
 
     -   Check the color contrast for elements that disappear.
+
 
 -   If time allows, check all contrasts of all elements.
 

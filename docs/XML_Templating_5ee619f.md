@@ -126,6 +126,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
     4.  in Step 4.1, before creating a Run Configuration, open a terminal and run `npm install`
 
+
 5.  Download [sap.ui.core.sample.ViewTemplate.tiny](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny/code) and upload it to the `webapp` folder of your project. You need to make the following modifications to `Component.js`:
 
     1.  change the `annotationURI` as follows:
@@ -139,6 +140,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
         ``` js
         sPath = "/ProductSet('DE-PPM-102')/ToSupplier",
         ```
+
 
 6.  Run the sample in your browser \(see Step 4 of [Create an empty SAPUI5 project](https://developers.sap.com/tutorials/sapui5-101-create-project.html)\).
 

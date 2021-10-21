@@ -74,11 +74,11 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 5.  The changes that you make in the UI5 Inspector are only temporary, and the icon will be reset to the default when the page is reloaded. To make your change permanent, you have to change the app code.
 
 
-**Parent topicColonSymbol** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+**Parent topic:** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 
-**Previous topicColonSymbol** [Step 4: Diagnostics Window](Step_4_Diagnostics_Window_04b75ea.md "In this tutorial step, we have a closer look at the Diagnostics window. It offers a wealth of information including comprehensive technical information, a control tree, and debugging features.")
+**Next:** [Step 4: Diagnostics Window](Step_4_Diagnostics_Window_04b75ea.md "In this tutorial step, we have a closer look at the Diagnostics window. It offers a wealth of information including comprehensive technical information, a control tree, and debugging features.")
 
-**Next topicColonSymbol** [First-Aid Kit](First-Aid_Kit_38859a8.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.")
+**Previous:** [First-Aid Kit](First-Aid_Kit_38859a8.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.")
 
 **Related Information**  
 

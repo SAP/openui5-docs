@@ -68,14 +68,14 @@ The render manager class collects pieces of HTML and injects the generated marku
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -84,14 +84,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `write()`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Writes string information to the HTML
 
@@ -100,14 +100,14 @@ Writes string information to the HTML
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `writeControlData()` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Writes the ID and the recognition data of the control to the HTML
 
@@ -116,14 +116,14 @@ Writes the ID and the recognition data of the control to the HTML
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `renderControl()` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Converts the specified control into HTML representation and adds it to the HTML; used for rendering child controls
 

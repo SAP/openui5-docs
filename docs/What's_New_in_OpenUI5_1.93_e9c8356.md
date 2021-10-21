@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.92 to 1.93.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 Data Types**
 
@@ -32,7 +32,7 @@ The new version of OpenUI5 introduces a new `skipDecimalsValidation` constraint 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -48,7 +48,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -74,7 +74,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`**
 
@@ -85,7 +85,7 @@ With the new `headerPinned` property and `headerContentPinnedStateChange` event,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -107,7 +107,7 @@ With the new `headerPinned` property and `headerContentPinnedStateChange` event,
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
@@ -118,7 +118,7 @@ We have provided a new toggle option in multi-selection mode for these controls:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MultiComboBox`**
 
@@ -129,7 +129,7 @@ We have the range selection functionality in `sap.m.MultiComboBox`. Two new para
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -143,7 +143,7 @@ We have the range selection functionality in `sap.m.MultiComboBox`. Two new para
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SelectDialog`, `sap.m.TableSelectDialog`**
 
@@ -154,7 +154,7 @@ The `updateStarted`, `updateFinished`, and `selectionChange` events from an inne
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.tnt.ToolPage`**
 
@@ -165,7 +165,7 @@ We have added a new `subHeader` aggregation to the control. You can use it to cr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -179,7 +179,7 @@ We have added a new `subHeader` aggregation to the control. You can use it to cr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -200,7 +200,7 @@ With the new `headerContentPinned` property and `pinnedStateChange` event, you c
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
 
@@ -219,7 +219,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Change Version Dialog**
 
@@ -233,7 +233,7 @@ We have improved the *Change Version* dialog to help you find the desired versio
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -19,14 +19,14 @@ However, there might be cases when whitespaces can be meaningful for the HTML do
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Solution
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Things to consider
 
@@ -35,14 +35,14 @@ Things to consider
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Use HTML entities. For more information, see: [https://developer.mozilla.org/en-US/docs/Glossary/Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 HTML entities do not work in inputs. Also, they are usually escaped by sanitizers and are rendered as strings. For example, `&nbsp;`.
 
@@ -51,14 +51,14 @@ HTML entities do not work in inputs. Also, they are usually escaped by sanitizer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Use the CSS’s `white-space` property to format texts where needed.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The CSS’s `white-space` property could have already been used for some special formatting, for example, for text truncation, and you might not be able to reuse it.
 
@@ -67,14 +67,14 @@ The CSS’s `white-space` property could have already been used for some special
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Use Unicode characters to display spaces.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unicode characters are displayed well in texts and inputs, however, they are Unicode characters and this could have an impact on the data.
 

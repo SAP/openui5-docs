@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.67 to 1.68.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Format Option `parseKeepsEmptyString`**
 
@@ -32,7 +32,7 @@ The format option `parseKeepsEmptyString` for `sap.ui.model.odata.type.String` i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **New Semantic Rendering With `RenderManager`**
 
@@ -47,7 +47,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.ui.integration.widgets.Card**`
 
@@ -70,7 +70,7 @@ Using our newly developed tool - Card Explorer - you can explore and learn more 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -103,7 +103,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`**
 
@@ -114,7 +114,7 @@ You can now change the background color of the `DynamicPage` control by using th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer` \(Experimental\)**
 
@@ -127,7 +127,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DatePicker`**
 
@@ -138,7 +138,7 @@ The options displayed in the picker now depend on the display format. For exampl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SelectDialog`, `sap.m.TableSelectDialog`**
 
@@ -149,7 +149,7 @@ Application developers can now customize the text of the confirmation button for
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SelectDialog`**
 
@@ -170,7 +170,7 @@ We have introduced a new API method called `clearSelection` that allows removing
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **API Reference**
 
@@ -183,7 +183,7 @@ To improve the visualization of borrowed *Properties*, *Aggregations*, and *Asso
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Web Page Title**
 
@@ -195,7 +195,7 @@ The web page title is now updated dynamically to reflect the currently open tab.
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

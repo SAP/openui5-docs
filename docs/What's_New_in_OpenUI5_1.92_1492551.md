@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.91 to 1.92.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DynamicDateRange` \(Experimental\)**
 
@@ -42,7 +42,7 @@ The new \(experimental\) `DynamicDateRange` control enables users to select abso
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -70,7 +70,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Dialog`**
 
@@ -81,7 +81,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
@@ -92,7 +92,7 @@ We have provided the new `requestItems` method that lets you load more data in a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.QuickViewPage`**
 
@@ -103,7 +103,7 @@ The control now supports avatars, which display business objects, images, initia
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -121,7 +121,7 @@ For more information, see the [Analytical Card](https://openui5.hana.ondemand.co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.ResponsiveSplitter`**
 
@@ -142,7 +142,7 @@ We have added a new `resize` event, fired when the contents of the `sap.ui.layou
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Deprecation of String-Based Rendering**
 
@@ -154,7 +154,7 @@ String-based rendering \(also known as "apiVersion 1" of a renderer\) has been d
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

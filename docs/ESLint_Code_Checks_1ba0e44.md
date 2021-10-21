@@ -23,28 +23,28 @@ The following tables show the ESLint rules that should be enabled for the OpenUI
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -53,28 +53,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-cond-assign`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -83,28 +83,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-console`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -113,28 +113,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-constant-condition`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -143,28 +143,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-comma-dangle`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error/warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 can be set to warning if lib only supports IE9
 
@@ -173,28 +173,28 @@ can be set to warning if lib only supports IE9
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-control-regex`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -203,28 +203,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-debugger`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -233,28 +233,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-dupe-keys`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -263,28 +263,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-empty`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -293,28 +293,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-empty-class`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -323,28 +323,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-ex-assign`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -353,28 +353,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-extra-boolean-cast`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -383,28 +383,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-extra-parens`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -413,28 +413,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-extra-semi`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -443,28 +443,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-func-assign`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -473,28 +473,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-inner-declarations`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -503,28 +503,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-invalid-regexp`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -533,28 +533,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-negated-in-lhs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -563,28 +563,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-obj-calls`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -593,28 +593,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-regex-spaces`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -623,28 +623,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-sparse-arrays`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -653,28 +653,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-unreachable`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -683,28 +683,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `use-isnan`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -713,28 +713,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `valid-jsdoc`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `requireReturn` = false
 
@@ -743,28 +743,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `valid-typeof`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -779,28 +779,28 @@ error
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -809,28 +809,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `block-scoped-var`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 currently only warning because of wrong behaviour in switch statement
 
@@ -839,28 +839,28 @@ currently only warning because of wrong behaviour in switch statement
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `complexity`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -869,28 +869,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `consistent-return`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -899,28 +899,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `curly`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -929,28 +929,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `default-case`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -959,28 +959,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `dot-notation`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **off**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -989,28 +989,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `eqeqeq`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `smart`
 
@@ -1019,28 +1019,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `guard-for-in`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1049,28 +1049,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-alert`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1079,28 +1079,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-caller`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1109,28 +1109,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-div-regex`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1139,28 +1139,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-else-return`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1169,28 +1169,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-empty-label`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1199,28 +1199,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-eq-null`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1229,28 +1229,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-eval`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1259,28 +1259,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-extend-native`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1289,28 +1289,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-fallthrough`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1319,28 +1319,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-floating-decimal`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1349,28 +1349,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-implied-eval`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1379,28 +1379,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-labels`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1409,28 +1409,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-iterator`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1439,28 +1439,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-lone-blocks`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1469,28 +1469,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-loop-func`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1499,28 +1499,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-multi-str`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1529,28 +1529,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-native-reassign`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1559,28 +1559,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-new`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1589,28 +1589,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-new-func`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1619,28 +1619,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-new-wrappers`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1649,28 +1649,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-octal`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1679,28 +1679,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-octal-escape`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1709,28 +1709,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-proto`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1739,28 +1739,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-redeclare`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1769,28 +1769,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-return-assign`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1799,28 +1799,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-script-url`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1829,28 +1829,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-self-compare`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1859,28 +1859,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-sequences`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1889,28 +1889,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-unused-expressions`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1919,28 +1919,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-warning-comments`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1949,28 +1949,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-with`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1979,28 +1979,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `radix`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2009,28 +2009,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `wrap-life`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 any
 
@@ -2039,28 +2039,28 @@ any
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `yoda`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2075,21 +2075,21 @@ error
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
@@ -2098,21 +2098,21 @@ Core
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-extra-strict`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
@@ -2121,21 +2121,21 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `strict`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
@@ -2150,28 +2150,28 @@ off
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -2180,28 +2180,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-catch-shadow`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2210,28 +2210,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-delete-var`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2240,28 +2240,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-label-var`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2270,28 +2270,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-shadow`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2300,28 +2300,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-shadow-restricted-names`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2330,28 +2330,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-undef`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2360,28 +2360,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-undefined`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2390,28 +2390,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-undef-init`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2420,28 +2420,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-unused-vars`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `vars = all`, `args` = none
 
@@ -2450,28 +2450,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-use-before-define`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2486,21 +2486,21 @@ error
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
@@ -2509,21 +2509,21 @@ Core
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `handle-callback-err`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2532,21 +2532,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-mixed-requires`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2555,21 +2555,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-new-require`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2578,21 +2578,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-path-concat`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2601,21 +2601,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-process-exit`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2624,21 +2624,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-restricted-modules`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2647,21 +2647,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-sync`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -2676,28 +2676,28 @@ off
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Core
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -2706,28 +2706,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `brace-style`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `singleLine = false` 
 
@@ -2736,28 +2736,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `camelcase`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 warning
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2766,28 +2766,28 @@ warning
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `consistent-this`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `that`
 
@@ -2796,28 +2796,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `eol-last`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **off**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2826,28 +2826,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `func-names`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2856,28 +2856,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `func-style`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2886,28 +2886,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `new-cap`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2916,28 +2916,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `new-parens`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2946,28 +2946,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-nested-ternary`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -2976,28 +2976,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-array-constructor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3006,28 +3006,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-lonely-if`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3036,28 +3036,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-new-object`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3066,28 +3066,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-spaced-func`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3096,28 +3096,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-space-before-semi`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3126,28 +3126,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-ternary`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3156,28 +3156,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-trailing-spaces`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **off**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error, but too many places to change
 
@@ -3186,28 +3186,28 @@ error, but too many places to change
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-underscore-dangle`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **off**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3216,28 +3216,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-wrap-func`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3246,28 +3246,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-mixed-spaces-and-tabs`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `smart`
 
@@ -3276,28 +3276,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `quotes`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3306,28 +3306,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `quote-props`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3336,28 +3336,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `semi`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3366,28 +3366,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sort-vars`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3396,28 +3396,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `keyword-spacing`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `“after”: true`
 
@@ -3426,28 +3426,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `space-in-brackets`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3456,28 +3456,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `space-infix-ops`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3486,28 +3486,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `space-return-throw-case`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
 error
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3516,28 +3516,28 @@ error
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `space-unary-ops`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **error**
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3546,28 +3546,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `max-nested-callbacks`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **warning**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `3`
 
@@ -3576,28 +3576,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `one-var`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3606,28 +3606,28 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `wrap-regex`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -3642,21 +3642,21 @@ off
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rule
 
 
 
 </th>
-<th>
+<th valign="top">
 
 ESLint default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 SAPUI5 Core
 
@@ -3665,21 +3665,21 @@ SAPUI5 Core
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `max-depth`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -3688,21 +3688,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `max-len`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -3711,21 +3711,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `max-params`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -3734,21 +3734,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `max-statements`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -3757,21 +3757,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-bitwise`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
@@ -3780,21 +3780,21 @@ off
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `no-plus`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 
 
 
 </td>
-<td>
+<td valign="top">
 
 off
 

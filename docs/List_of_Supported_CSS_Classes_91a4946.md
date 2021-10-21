@@ -15,35 +15,35 @@ Overview of the CSS classes currently supported by OpenUI5.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 CSS Class Name
 
 
 
 </th>
-<th>
+<th valign="top">
 
 CSS Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `sap_bluecrystal`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 All Themes
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -52,35 +52,35 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeFontFamily`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `font-family`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default font
 
@@ -89,35 +89,35 @@ Default font
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeFontSize`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `font-size`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default font size
 
@@ -126,35 +126,35 @@ Default font size
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeFont`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `font-family+font-size`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default font and font size
 
@@ -163,35 +163,35 @@ Default font and font size
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default text color
 
@@ -200,35 +200,35 @@ Default text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeText-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default text color
 
@@ -237,35 +237,35 @@ Default text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeText-asBackgroundColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default text color
 
@@ -274,35 +274,35 @@ Default text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeText-asBorderColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `border-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default text color
 
@@ -311,35 +311,35 @@ Default text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeText-asOutlineColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `outline-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default text color
 
@@ -348,35 +348,35 @@ Default text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeTextInverted`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default color of inverted text
 
@@ -385,35 +385,35 @@ Default color of inverted text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeTextInverted-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Default color of inverted text
 
@@ -422,35 +422,35 @@ Default color of inverted text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBaseBG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base color for all backgrounds
 
@@ -459,35 +459,35 @@ Base color for all backgrounds
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBaseBG-asBackgroundColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base color for all backgrounds
 
@@ -496,35 +496,35 @@ Base color for all backgrounds
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBaseBG-asBorderColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `border-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base color for all backgrounds
 
@@ -533,35 +533,35 @@ Base color for all backgrounds
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBaseBG-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Base color for all backgrounds
 
@@ -570,35 +570,35 @@ Base color for all backgrounds
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBrand-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brand color
 
@@ -607,35 +607,35 @@ Brand color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBrand-asBorderColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `border-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brand color
 
@@ -644,35 +644,35 @@ Brand color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBrand-asBackgroundColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brand color
 
@@ -681,35 +681,35 @@ Brand color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBrand-asOutlineColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `outline-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brand color
 
@@ -718,35 +718,35 @@ Brand color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeHighlight-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Color for highlighted elements
 
@@ -755,35 +755,35 @@ Color for highlighted elements
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeHighlight-asBorderColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `border-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Color for highlighted elements
 
@@ -792,35 +792,35 @@ Color for highlighted elements
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeHighlight-asBackgroundColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Color for highlighted elements
 
@@ -829,35 +829,35 @@ Color for highlighted elements
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeHighlight-asOutlineColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `outline-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Brand color
 
@@ -866,35 +866,35 @@ Brand color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemePageBG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Background color of mobile pages
 
@@ -903,35 +903,35 @@ Background color of mobile pages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemePageBG-asColor`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Background color of mobile pages
 
@@ -940,35 +940,35 @@ Background color of mobile pages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBarBG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `background-color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Background color for header bars in mobile pages
 
@@ -977,35 +977,35 @@ Background color for header bars in mobile pages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBarHeading` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Header text color for header bars in mobile pages
 
@@ -1014,35 +1014,35 @@ Header text color for header bars in mobile pages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeBarText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Normal text color for header bars in mobile pages
 
@@ -1051,35 +1051,35 @@ Normal text color for header bars in mobile pages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeNegativeText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Semantic negative text color
 
@@ -1088,35 +1088,35 @@ Semantic negative text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeCriticalText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Semantic critical text color
 
@@ -1125,35 +1125,35 @@ Semantic critical text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemePositiveText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Semantic positive text color
 
@@ -1162,35 +1162,35 @@ Semantic positive text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeLightText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Light text color
 
@@ -1199,35 +1199,35 @@ Light text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeMediumText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Medium text color
 
@@ -1236,35 +1236,35 @@ Medium text color
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sapThemeDarkText`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `color`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dark text color
 

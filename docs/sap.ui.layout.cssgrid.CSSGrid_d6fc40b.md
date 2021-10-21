@@ -57,6 +57,7 @@ Features and behaviors are configurable to enable the grid layout for a variety 
 
     -   The grid layout supports nesting, which allows for the placement of a grid layout inside another grid layout.
 
+
      ![](loio215f9816de1040d39b6e35ec55f2e383_LowRes.png) 
 
 -   Size/dimensions configuration: you can configure either every row and column specifically, or using a template definition \(`gridTemplateRows`, `gridTemplateColumns`\), and you can configure the gaps too by using the `gridGap`, `gridRowGap`, `gridColumnGap` properties.

@@ -60,14 +60,14 @@ To embed a path containing a closing curly brace into an expression binding, use
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Syntax Element
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Symbol
 
@@ -76,14 +76,14 @@ Symbol
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Literal
 
 
 
 </td>
-<td>
+<td valign="top">
 
 number, for example `42`, `6.022e+23` or `-273.15`
 
@@ -102,14 +102,14 @@ string, for example `'foo'`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Grouping
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(...\), for example `3 * (4 + 10)` 
 
@@ -118,14 +118,14 @@ Grouping
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Unary operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `!`
 
@@ -140,14 +140,14 @@ Unary operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Multiplicative operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `*`
 
@@ -160,14 +160,14 @@ Multiplicative operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Additive operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `+`
 
@@ -178,14 +178,14 @@ Additive operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Relational operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<`
 
@@ -200,14 +200,14 @@ Relational operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Strict equality operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `===`
 
@@ -218,14 +218,14 @@ Strict equality operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Binary logical operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `&&`
 
@@ -236,14 +236,14 @@ Binary logical operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Conditional operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `?` 
 
@@ -252,14 +252,14 @@ Conditional operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Member access operator with the `.` operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Note:  
 > With these, you can use members and member methods on standard types such as string, array, number, and so on.
@@ -271,14 +271,14 @@ Member access operator with the `.` operator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Function call
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<function name>(...)`
 
@@ -294,14 +294,14 @@ Example:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Array literals
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `[...]`, for example `[2,3,5,7,11]` 
 
@@ -310,14 +310,14 @@ Array literals
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Property/array access
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `o[...]`, for example `'foo/bar'.split('/')[1]` 
 
@@ -326,14 +326,14 @@ Property/array access
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `in` operator
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `'PI' in Math` \(true\) or `0 in []` \(false\)
 
@@ -342,14 +342,14 @@ Property/array access
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Global symbol
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Array`, `Boolean`, `Date`, `encodeURIComponent`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `parseFloat`, `parseInt`, `RegExp`, `String`, `undefined` 
 

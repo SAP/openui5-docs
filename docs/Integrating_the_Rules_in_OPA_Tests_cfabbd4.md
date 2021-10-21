@@ -32,6 +32,7 @@ The Support Assistant can be used in OPA tests to check if there are issues in t
         > ### Note:  
         > If types *subtree* or *components* are selected, the `selectors` property should also be set to define the IDs of the subtree/components.
 
+
 -   `getFinalReport` - If there are issues found, the assertion fails and a report is created as part of the message of that assertion.
 
 -   `getReportAsFileInFormat` - Collects the past history analysis and stores it in `window._$files` array for further usage. The main purpose of this assertion is to allow the OPA extension to serve the history to external services like Jenkins job or other services so that the data can be stored on the filesystem.
@@ -55,6 +56,7 @@ This special URL parameter could be used temporarily in cases when you extend an
     -   `extensions` - You need to include the Support Assistant OPA extension path \(`sap/ui/core/support/RuleEngineOpaExtension`\).
 
     -   `appParams` - You need to add `sap-ui-support` with a value of `true,silent`. This will start the application in support mode and will start the Support Assistant in silent mode \(without UI\).
+
 
     The configuration file will look like this:
 
@@ -82,6 +84,7 @@ This special URL parameter could be used temporarily in cases when you extend an
     -   `iShouldSeeNoHighSeverityErrors` - This assertion calls `noRuleFailures` with a few parameters set, as you can see in the example code below. It checks for high issues and ignores medium and low. The rules checked are `preloadAsyncCheck`, `orphanedElement`, `deprecatedEntities` and the scope is set to *global*.
 
     -   `iShouldGetSupportRuleReport`- This assertion calls `getFinalReport` and if there are any issues after all the analysis, it fails and a report is created as part of the message.
+
 
     The configuration file should look like this:
 

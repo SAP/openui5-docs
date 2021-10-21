@@ -227,11 +227,11 @@ Add the new texts to the `i18n.properties` file.
 
 Now you can open the app and press the *Show Employee List* button to navigate to the employee list. From there, you can press either the browser’s or the app’s *Back* button to get back to the home page.
 
-**Parent topicColonSymbol** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Previous topicColonSymbol** [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md "In this step, you will learn more about targets and how to display a target from the routing configuration manually.")
+**Next:** [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md "In this step, you will learn more about targets and how to display a target from the routing configuration manually.")
 
-**Next topicColonSymbol** [Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.")
+**Previous:** [Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.")
 
 **Related Information**  
 

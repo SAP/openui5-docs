@@ -149,63 +149,63 @@ To control the start the starting point of numbers which should be displyed in c
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Number
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `FLOOR` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `CEILING` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `TOWARDS_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `AWAY_FROM_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_FLOOR` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_CEILING` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_TOWARDS_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_AWAY_FROM_ZERO` 
 
@@ -214,63 +214,63 @@ To control the start the starting point of numbers which should be displyed in c
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.21
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
@@ -279,63 +279,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.25
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
@@ -344,63 +344,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.29
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
@@ -409,63 +409,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.21
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
@@ -474,63 +474,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.25
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
@@ -539,63 +539,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.29
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 

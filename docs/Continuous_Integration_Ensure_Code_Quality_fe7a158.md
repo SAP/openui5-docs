@@ -43,6 +43,7 @@ In an OpenUI5 project, the process, for example, can look like this:
 
     -   Analysis to check whether all parts of the code are covered with automated tests \(for example, with *Karma* plug-in *Istanbul Code Coverage*\)
 
+
 4.  When the voter job and the human reviewer have both given their OK, the change can be merged.
 
 

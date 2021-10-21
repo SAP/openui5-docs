@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.63 to 1.64.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Card`**
 
@@ -48,7 +48,7 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -74,7 +74,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`**
 
@@ -85,7 +85,7 @@ We have redesigned the content area of the `DynamicPageTitle` control so that th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.ShellBar` \(Experimental\)**
 
@@ -100,7 +100,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`**
 
@@ -116,7 +116,7 @@ In case a `sap.ui.core.SeparatorItem` without a defined text property is inserte
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DatePicker`**
 
@@ -127,7 +127,7 @@ With the new `isValidValue` function, you can receive information on the validit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`**, **`sap.m.ComboBoxBase`** **\(Experimental\)**
 
@@ -138,7 +138,7 @@ We have introduced a new experimental method `showItems(fnFilter)`. It enables y
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`**, **`sap.m.MultiInput`**
 
@@ -149,7 +149,7 @@ We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.Mult
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -165,7 +165,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -179,7 +179,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -200,7 +200,7 @@ We have implemented the option to provide a simple, single-line title that takes
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **API Reference**
 
@@ -217,7 +217,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

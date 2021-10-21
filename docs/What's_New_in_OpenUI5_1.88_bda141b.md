@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.87 to 1.88.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **End of Support for Microsoft Internet Explorer 11**
 
@@ -42,7 +42,7 @@ Starting with version 1.88, OpenUI5 no longer supports Microsoft Internet Explor
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit Improvements**
 
@@ -74,7 +74,7 @@ We have improved the following Demo Kit areas:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.IllustratedMessage` \(Experimental\)**
 
@@ -99,7 +99,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 Models**
 
@@ -110,7 +110,7 @@ The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -123,7 +123,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Test Recorder**
 
@@ -144,7 +144,7 @@ We've introduced the option to generate code snippets with assertions. Assertion
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -155,7 +155,7 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.gantt`**
 
@@ -168,7 +168,7 @@ We have improved the usability of the Gantt chart with the large interval/label 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.UploadCollection`**
 
@@ -181,7 +181,7 @@ As of the SAPUI5 1.88 release, the Upload Collection control is deprecated. You 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -196,7 +196,7 @@ As of the SAPUI5 1.88 release, the Upload Collection control is deprecated. You 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.Currency`**
 
@@ -208,7 +208,7 @@ As an app developer you can now define custom currency names with a length of up
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

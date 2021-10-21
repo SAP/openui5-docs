@@ -36,6 +36,7 @@ For example, for the "accepting money" feature, a test scenario might include st
 
     -   Test scenarios start with `Scenario`
 
+
     Indentation is purely for readability and is not parsed. Similarly, blank lines are ignored by the parser.
 
 -   You can also just create a bulleted list of steps instead of using keywords

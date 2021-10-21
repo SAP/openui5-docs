@@ -55,14 +55,14 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > 
 > <table>
 > <tr>
-> <th>
+> <th valign="top">
 > 
 > String
 > 
 > 
 > 
 > </th>
-> <th>
+> <th valign="top">
 > 
 > Nested text control
 > 
@@ -71,7 +71,7 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > </th>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 > ```
 > <SmartTable noData="No data available">
@@ -83,7 +83,7 @@ If an aggregation of **cardinality `0..1`** has an alternative type and if you w
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 > ```
 > <SmartTable ....>

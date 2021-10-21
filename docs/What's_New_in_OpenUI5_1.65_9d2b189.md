@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.64 to 1.65.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **New Theme Available**
 
@@ -44,7 +44,7 @@ For more information, see [Supported Combinations of Themes and Libraries](Suppo
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer (Experimental)`**
 
@@ -69,7 +69,7 @@ For more information, see [sap.f.GridContainer](sap.f.GridContainer_cca5ee5.md),
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -92,7 +92,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Test Automation**
 
@@ -115,7 +115,7 @@ For more information, see [Installing Karma for Automated Testing](Test_Automati
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Avatar`**
 
@@ -126,7 +126,7 @@ With the new `fallbackIcon` property, you can define a fallback icon to be displ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`**
 
@@ -140,7 +140,7 @@ With the new `fallbackIcon` property, you can define a fallback icon to be displ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.ShellBar`**
 
@@ -151,7 +151,7 @@ The control is no longer experimental. To comply with the latest UX guidelines, 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -162,7 +162,7 @@ We have improved the `sap.m.Select` control to display the text set in the `valu
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -184,7 +184,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ToolbarSeparator`**
 
@@ -195,7 +195,7 @@ We have enabled the control to move to the overflow area of `sap.m.OverflowToolb
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.core.hyphenation.Hyphenation`**
 
@@ -206,7 +206,7 @@ We have changed the `leftmin` and `rightmin` properties for all languages, with 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -225,7 +225,7 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageHeader`**
 
@@ -248,7 +248,7 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **New openSAP Course: Evolved Web Apps with SAPUI5**
 
@@ -282,7 +282,7 @@ For more information and to enroll, see [https://open.sap.com/courses/ui52](http
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit Search**
 
@@ -296,7 +296,7 @@ We have improved the global search capabilities in the Demo Kit app by migrating
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

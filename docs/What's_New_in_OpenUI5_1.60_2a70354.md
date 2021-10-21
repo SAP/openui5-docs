@@ -130,6 +130,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
     -   The new parameter `bSkipRefresh` suppresses the refresh after the POST request.
 
+
 -   We have introduced the new binding parameter `$$patchWithoutSideEffects` for context bindings, to avoid updating the UI with the data response of a PATCH request.
 
 
@@ -184,6 +185,7 @@ Drag and drop is no longer experimental with this version.
 
     -   We have introduced grouping in the suggestion list of `sap.m.MultiComboBox`. This feature allows you to easily group items by common characteristics and to display a header describing the characteristics for each group. If data binding is used, grouping is defined on the `Sorter` in data binding. Alternatively, a group header could be added programmatically, as an instance of `sap.ui.core.SeparatorItem` with `key` and/or `text` properties, by adding it to the `items` aggregation of the `sap.m.MultiComboBox` control.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MultiComboBoxGrouping/preview).
 
+
 -   `sap.m.Page`: We have made `sap.m.Page` a droppable area.
 
 -   `sap.m.PlanningCalendar`: The `stickyHeader` property is no longer experimental.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar).
@@ -195,6 +197,7 @@ Drag and drop is no longer experimental with this version.
     -   The `contextualWidth` property is now available in the responsive table which allows you to control the popin behavior based on the size of a container rather than a whole page. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) for the `contextualWidth` property and the [`ContextualWidthDynamic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthDynamic/preview) as well as the [`ContextualWidthStatic` Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableContextualWidthStatic/preview).
 
     -   The `paste` event has been added to the responsive table. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/events/paste) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableEditable/preview).
+
 -   `sap.m.UploadCollection`: The control's functionality has been unified, so the behavior is now more consistent, regardless of whether the `instantUpload` mode is enabled. With the new `beforeUploadTermination` event, you can adjust the control’s behavior when the file upload is terminated by the user before completion. If the default upload behavior is not applicable to your app, you can now also implement custom upload logic using the `CollectionUploader` class.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection).
 
 -   `sap.m.ViewSettingsDialog`: Several visual improvements were implemented - the *OK* button is now displayed as emphasized and there is a better visual separation of the items displayed in the *Sort By*, *Filter By* and *Group By* tabs.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ViewSettingsDialog/preview).
@@ -210,6 +213,7 @@ Drag and drop is no longer experimental with this version.
     -   **Week selection**: Users can now select/deselect all the days in a given week at once by choosing the week number or by pressing  [SHIFT\] + [SPACE\]  on any day of the week.
 
     -   **Range selection**: We introduced two more shortcuts -  [SHIFT\] + [ENTER\]  and  [SHIFT\] + [Left Mouse Button\] . Both of them select/deselect all days between the two selected dates.
+
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMultipleDaySelection/preview).
 
@@ -234,7 +238,7 @@ Drag and drop is no longer experimental with this version.
 
 We have improved the accessibility of our demo apps. In addition, we have updated our *Walkthrough* tutorial and added a new step. Developers can improve the accessibility of their Walkthrough app by adding ARIA elements \(landmarks\). For more information, see [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md).
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

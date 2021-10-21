@@ -90,6 +90,7 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
     -   Additional annotation conversions and warnings \(in the console\) for V2 annotations that are not converted.
 
+
 -   Suspend and resume absolute context and list bindings. A suspended binding will not send requests to the backend.
 
 -   Possibility to refresh a single row in an absolute list binding.
@@ -144,6 +145,7 @@ There are several improvements in the Support Assistant tool:
     -   The issue details in the *Issues* view have been moved from the top to the bottom of the window for better usability.
 
 
+
 ![](loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 
 
 ***
@@ -164,6 +166,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
     -   A new `stateChange` event is introduced for the `sap.f.DynamicPageTitle` class. The event is fired when the state of the title \(expanded or collapsed\) is toggled by user interaction \(by clicking/tapping on the title, by using the expand/collapse button, or by scrolling down the `sap.f.DynamicPage` content\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle/events/stateChange).
 
+
 -   `sap.f.FlexibleColumnLayout`: A new `backgroundDesign` property is added that specifies the background color of the content. The visualization of the different options depends on the used theme. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.FlexibleColumnLayout/controlProperties).
 
 -   `sap.m library` for `List`/`ListBase`, `Table`, `Tree` controls and tables in `sap.ui.table`: You can now use the context menu for these controls. For more information, see the [API Reference for the `contextMenu` aggregation](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table/aggregations), the [API Reference for the `beforeOpenContextMenu` event](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table/events/beforeOpenContextMenu) and the [Sample for `sap.ui.Table`](https://openui5.hana.ondemand.com/#/sample/sap.ui.table.sample.Menus/preview) \(and the same for `ListBase`\), the [Sample for `sap.m.Table`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableDnD/preview), and the [Sample for `List`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ListGrouping/preview).
@@ -175,6 +178,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
     -   A new `wrapping` property is now available that determines whether the text in the control's label is wrapped. When set to `false` \(default\), the label's text is truncated with an ellipsis at the end.
 
     -   A new `displayOnly` property is added that enables visually distinguishable rendering of the control in gray. When set to `true`, the control becomes non-focusable and is not part of the tab chain. The `displayOnly` state is intended to be used in form controls only, and it is different from the read-only state.
+
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.CheckBox/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CheckBox/preview).
 
@@ -188,6 +192,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
 
+
 -   `sap.m.Label`: A new `vAlign` property has been added. It specifies the vertical alignment of `sap.m.Label`. To preserve the current behavior of the control, the default value of the property is `inherit`. From now on, app developers can set vertical alignment of `sap.m.Label` with the `vAlign` property using its get/set method, which accepts values from the `sap.ui.core.VerticalAlign` interface. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label).
 
 -   `sap.m.Link`: A new `validateUrl` property has been added that defines whether the link target URI should be validated. If validation fails, the value of the `href` property will still be set, but it will not be applied to the DOM tree. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Link/controlProperties).
@@ -197,6 +202,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
     -   With the new `enableFormattedText` Boolean property, you can now enable the text that is set in the `description` property to be rendered as HTML. The new property takes effect only when the `customDescription` aggregation is not set. For a list of supported HTML tags, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.FormattedText) for `sap.m.FormattedText`.
 
     -   A new `buttons` aggregation is implemented that allows you to add buttons \(of type `sap.m.Button`\) to the `sap.m.MessagePage`. The buttons are centered under the description of the `MessagePage`. If more buttons are added, and enough space is available , they will be rendered on two or more lines.
+
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessagePage) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessagePageWithButtons/preview).
 
@@ -219,6 +225,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
     -   Until now, the appointments in `sap.m.PlanningCalendar` were sorted vertically according to their duration with the longer ones being on top. With the introduction of the new API method `setCustomAppointmentsSorterCallback`, you can now sort the appointments in a custom way. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarOneLine/preview).
 
+
 -   `sap.m.StepInput`:
 
     -   You can now add a description and align the text with the use of the new properties: `description`, `fieldWidth`, and `textAlign`. With the `description` property, you can display text after the input field. The `fieldWidth` property specifies how much of the available space is taken from the field and how much from the description \(equal by default\). The `textAlign` property enables you to choose how the numbers in the input field are aligned. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StepInput/controlProperties).
@@ -227,11 +234,13 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 
     -   With the new `stepMode` property, you can now decide which calculation method to use for the `value` when the user chooses the increase/decrease buttons. The `AdditionAndSubtraction` type simply adds/subtracts the current `step` to/from the `value`, while the `Multiple` type increases/decreases the `value` to the closest number that is divisible by the `step`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StepInput) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.StepInput/preview).
 
+
 -   `sap.m.TimePicker`:
 
     -   You can now set not only a `00:00` time value but also `24:00` if you need the time to represent the end of the day. To enable this option, set the new `support2400` Boolean property to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePicker) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TimePicker/preview).
 
     -   With the use of the new `maskMode` property, you can now disable the assistance that is provided for the `sap.m.TimePicker` input. This enables variable length time formats, for example AM/PM formats in different languages. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePicker).
+
 
 -   `sap.m.Toolbar`: A new `style` property has been added that defines the visual style of the `sap.m.Toolbar`. The available styles are theme-dependent and can differ based on the currently used theme. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Toolbar/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ToolbarDesign/preview).
 
@@ -281,7 +290,7 @@ We received feedback that many examples throughout the documentation were outdat
 -   Performance improvements: We have enabled lazy loading for the methods in the *API Reference* and implemented other various optimizations. The performance of the app has improved as a result.
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

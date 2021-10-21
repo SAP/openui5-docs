@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.80 to 1.81.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Consuming SAP Icon Font in a Non-UI5 Environment**
 
@@ -32,7 +32,7 @@ You can now consume the predefined `SAP-icons` icon font in an environment where
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Incompatible jQuery Security Fix**
 
@@ -45,7 +45,7 @@ For checking and, if required, fixing your applications and libraries, see [thes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Special URL Prefixes in App Descriptor**
 
@@ -70,7 +70,7 @@ Find more details about the usage of such URL prefixes and an example in the [do
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -84,6 +84,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
     -   `sap.ui.model.odata.v4.ODataPropertyBinding#getGroupId`,
     -   `sap.ui.model.odata.v4.ODataPropertyBinding#getUpdateGroupId`,
     -   `sap.ui.model.odata.v4.ODataMetaModel#getMetaPath`.
+
 -   The `requestUI5Type` and `getUI5Type` methods now have an additional parameter to pass any format options to be taken into account.
 -   You can now use the `sap.ui.model.odata.v4.Context#requestSideEffects` method on bindings with the `$$aggregation` binding parameter.
 -   We have introduced the new `sap.ui.model.odata.v4.Context#setKeepAlive` method for row contexts of list bindings. With this new method, you can extend the lifetime of the context, so that it does not get destroyed when the corresponding entity is no longer part of the list, for example, due to filtering or sorting of the list. Note that the `refresh`, `requestSideEffects`, and `delete` methods are currently not supported for kept-alive contexts.
@@ -109,7 +110,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -124,7 +125,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Button`**
 
@@ -135,7 +136,7 @@ Visualization of shortcut hints on focus and hover is now available. For example
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DatePicker`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`**
 
@@ -146,7 +147,7 @@ We have aligned the visualization of the full-screen dialog in mobile view for t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MessageView`**
 
@@ -157,7 +158,7 @@ The grouping functionality in the `sap.m.MessageView` shows the messages in the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -171,7 +172,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.ui.integration.widgets.Card**`
 
@@ -185,7 +186,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.Calendar`**
 
@@ -196,7 +197,7 @@ We have added a new property to the `DateTypeRange` class, called `secondaryType
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.FileUploader`**
 
@@ -217,7 +218,7 @@ We have added a new `httpRequestMethod` \(experimental\) property to enable the 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Samples**
 
@@ -231,7 +232,7 @@ We have added a new *Pattern* category in the *Samples* section of the Demo Kit 
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

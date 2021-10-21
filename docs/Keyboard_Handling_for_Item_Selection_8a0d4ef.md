@@ -19,14 +19,14 @@ The following keys and key combinations are used for selecting one or multiple i
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -35,14 +35,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Spacebar\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, selects the item and deselects all others.
 
@@ -59,14 +59,14 @@ If focus is on an item, selects the item and deselects all others.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -75,14 +75,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Spacebar\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, selects the item in addition to all previously selected items.
 
@@ -91,14 +91,14 @@ If focus is on an item, selects the item in addition to all previously selected 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Up arrow\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, changes selection state \(selected/ not selected\) to the item above.
 
@@ -107,14 +107,14 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Down arrow\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, changes selection state \(selected/ not selected\) to the item below.
 
@@ -123,14 +123,14 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [A\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Selects all items which the user can reach in the current view by scrolling or paging.
 
@@ -143,14 +143,14 @@ This is the default behavior of a list.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [Shift\] + [A\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Deselects all items which the user can reach in the current view by scrolling or paging.
 

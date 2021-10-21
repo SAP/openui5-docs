@@ -38,6 +38,7 @@ The minimum OpenUI5 version in which the Support Assistant is available is 1.44.
         > ### Note:  
         > Additional window popups may be blocked by your browser settings.
 
+
 4.  Select *Activate Support Assistant*.
 
     Your application will reload and the Support Assistant will start.

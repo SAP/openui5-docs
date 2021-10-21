@@ -120,14 +120,14 @@ The resource handler is configured via context parameters, which are defined in 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -136,14 +136,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.USE_CACHE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Flag for resource cache enabling; default: `true`
 
@@ -152,14 +152,14 @@ Flag for resource cache enabling; default: `true`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.MAX_AGE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the maximum age of resources in milliseconds; default: `604800000` = 1 week
 
@@ -168,14 +168,14 @@ Specifies the maximum age of resources in milliseconds; default: `604800000` = 1
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.ACCEPTED_ORIGINS`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List of accepted origins, for example `*`, `*mycompany.corp`, or `server.mycompany.corp`; default: empty
 
@@ -184,14 +184,14 @@ List of accepted origins, for example `*`, `*mycompany.corp`, or `server.mycompa
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.DEV_MODE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Flag development mode enabling; default: `false`
 
@@ -200,14 +200,14 @@ Flag development mode enabling; default: `false`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.TEMPLATE_PATH`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies path to template for resource listing; default: `/templates/listing.html`
 
@@ -216,14 +216,14 @@ Specifies path to template for resource listing; default: `/templates/listing.ht
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.VERBOSE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies verbosity of the resource handler; default: `false`
 
@@ -232,14 +232,14 @@ Specifies verbosity of the resource handler; default: `false`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.REMOTE_LOCATION`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies the location that is used to proxy requests to resources that aren’t available locally; default: empty
 
@@ -248,14 +248,14 @@ Specifies the location that is used to proxy requests to resources that aren’t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.PREFER_REMOTE_LOCATION`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Flag to resolve the resource from the remote location before fallback to classpath; default: `false`
 
@@ -264,14 +264,14 @@ Flag to resolve the resource from the remote location before fallback to classpa
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `com.sap.ui5.resource.USE_SERVER_CACHE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Flag to enable caching of any resources in resource servlet; default: `true` \(default in dev mode: `false`
 

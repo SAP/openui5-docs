@@ -27,6 +27,7 @@ When creating a binding, you can provide a parameter map which can contain the f
 -   `$$ownRequest`: Set to `true` to ensure the binding uses an own service request to read data. All values other than `true` lead to an error.
 
 
+
 The binding's OData query options are combined with the query options passed to the OData V4 model; the binding's query options overwrite model query options with the same name. The resulting query options are appended to each data service request by this binding. The following query options are supported; all others are not allowed and lead to an error:
 
 -   OData custom query options except those with the name prefix `"sap-"` \(unless starting with `"sap-valid-"`, which can be used for [Temporal Data](https://www.oasis-open.org/committees/document.php?document_id=66196&wg_abbrev=odata)\). For more information about these, see [OData Version 4.0 Part 2: URL Conventions, 5.2 Custom Query Options](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html).

@@ -23,6 +23,7 @@ If you want to export the "module value" of an AMD module under a global name, y
 
     -   Renderers that are created with `sap.ui.core.Renderer.extend(“….”)`
 
+
 -   You set the fourth parameter `bExport of sap.ui.define(sModuleName, aDependencies, vFactory, bExport)` to `true`. This will expose the module value under the global name that is derived from the module name.
 
     The global JavaScript namespace is based on a "slash to dot replacement".

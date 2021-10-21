@@ -158,6 +158,7 @@ In the `metadata` section we therefore define several properties that we make us
 
         We define a control property `value` that will hold the value that the user selected in the rating. Getter and setter function for this property will automatically be created and we can also bind it to a field of the data model in the XML view if we like.
 
+
 -   Aggregations
 
     As described in the first paragraph, we need three internal controls to realize our rating functionality. We therefore create three “hidden aggregations” by setting the `visibility` attribute to `hidden`. This way, we can use the models that are set on the view also in the inner controls and OpenUI5 will take care of the lifecycle management and destroy the controls when they are not needed anymore. Aggregations can also be used to hold arrays of controls but we just want a single control in each of the aggregations so we need to adjust the cardinality by setting the attribute `multiple` to `false`.
@@ -167,6 +168,7 @@ In the `metadata` section we therefore define several properties that we make us
     -    `_label`: A `sap.m.Label` to display additional information
 
     -    `_button`: A `sap.m.Button` to submit the rating
+
 
     > ### Note:  
     > You can define `aggregations` and `associations` for controls. The difference is in the relation between the parent and the related control:
@@ -180,6 +182,7 @@ In the `metadata` section we therefore define several properties that we make us
     -   Change
 
         We specify a `change` event that the control will fire when the rating is submitted. It contains the current value as an event parameter. Applications can register to this event and process the result similar to “regular” OpenUI5 controls, which are in fact built similar to custom controls.
+
 
 
 In the `init` function that is called by OpenUI5 automatically whenever a new instance of the control is instantiated, we set up our internal controls. We instantiate the three controls and store them in the internal aggregation by calling the framework method `setAggregation` that has been inherited from `sap.ui.core.Control`. We pass on the name of the internal aggregations that we specified above and the new control instances. We specify some control properties to make our custom control look nicer and register a `liveChange` event to the rating and a press event to the button. The initial texts for the label and the button are referenced from our `i18n` model.
@@ -314,11 +317,11 @@ The resource bundle is extended with the confirmation message and the strings th
 -   Put custom controls in the `control` folder of your app.
 
 
-**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Previous topicColonSymbol** [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
+**Next:** [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
 
-**Next topicColonSymbol** [Step 34: Responsiveness](Step_34_Responsiveness_a96e18b.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the sap.m.Table already deliver a lot of features that we can use.")
+**Previous:** [Step 34: Responsiveness](Step_34_Responsiveness_a96e18b.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the sap.m.Table already deliver a lot of features that we can use.")
 
 **Related Information**  
 

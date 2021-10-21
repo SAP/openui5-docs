@@ -21,21 +21,21 @@ The table below shows the content densities that are available for the Quartz Li
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Content Density
 
 
 
 </th>
-<th>
+<th valign="top">
 
 CSS Class
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Explanation
 
@@ -44,21 +44,21 @@ Explanation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Cozy* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sapUiSizeCozy` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 'Large' design: Dimensions of the controls are optimized for touch-enabled devices, such as smartphones, to allow users to interact with controls more easily.
 
@@ -69,21 +69,21 @@ This is the default density for most controls, particularly those in the `sap.m`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Compact* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sapUiSizeCompact` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Reduced-size design: The font size is the same as for the cozy density, but the dimensions of the controls and the spacing between them are reduced. This density is more suitable for mouse-operated devices, such as desktops.
 
@@ -94,21 +94,21 @@ For some controls, this is the default density.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  *Condensed* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sapUiSizeCondensed` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Size even further reduced compared to *Compact* \(in particular, row heights smaller\).
 

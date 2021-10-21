@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.82 to 1.84.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Asynchronous Loading of XML Content in Fragments**
 
@@ -34,7 +34,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Card Explorer**
 
@@ -48,7 +48,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Navigation with Dynamic Targets**
 
@@ -61,7 +61,7 @@ Note that the static definition remains the preferred solution as it allows for 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -75,7 +75,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -107,7 +107,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -118,7 +118,7 @@ You can now drag and drop items using the keyboard into an empty container. For 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Button`**
 
@@ -129,7 +129,7 @@ The new `ariaHasPopup` property allows the `aria-haspopup` attribute to be set f
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`**
 
@@ -140,7 +140,7 @@ We have updated the behavior of the control regarding the `selectedKey` and `val
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -151,7 +151,7 @@ The control now supports the badge feature. You can use it to indicate that some
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.Input**`
 
@@ -162,7 +162,7 @@ We have introduced a new `valueHelpIconSrc` property. It allows you to set a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List`**
 
@@ -173,7 +173,7 @@ The new `accDescription` property allows applications to define their own applic
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ObjectStatus`**
 
@@ -190,7 +190,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ProgressIndicator`**
 
@@ -201,7 +201,7 @@ We have improved the control behavior when the available width is not enough and
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SearchField`**
 
@@ -212,7 +212,7 @@ The icon of the Refresh button in the `sap.m.SearchField` is now changed from sa
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Wizard` \(Experimental\)**
 
@@ -223,7 +223,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -239,7 +239,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

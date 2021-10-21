@@ -35,6 +35,7 @@ Screen readers offer lists that group certain types of elements. These lists eas
 
     -   Special regions must be indicated and labeled \(Navigation, Page Header, Main etc.\) in order to be part of the landmark list.
 
+
 -   **Headings**
 
     -   The headings in an OpenUI5 app must have either ARIA `role=heading` + `aria-level` or use `<H1 – H6>` HTML tags.
@@ -43,15 +44,18 @@ Screen readers offer lists that group certain types of elements. These lists eas
 
     -   Headings must be referenced by the containers they belong to \(using `aria-labelledby = “HEADING\_ID”`\).
 
+
 -   **Links**
 
     -   Links in an OpenUI5 app must either be true `<a>` HTML elements or have ARIA `role=link`.
+
 
 -   **Form Controls**
 
     -   Form fields must be correctly labeled and their list indicators have to be distinctive.
 
     -   Form fields will show up as Input, Radio Buttons and so on in the form list of the screen reader.
+
 
 -   **Lists**
 
@@ -62,6 +66,7 @@ Screen readers offer lists that group certain types of elements. These lists eas
     -   Sometimes list items may need special roles \(for example `menuitem`\).
 
     -   For lists with a specific number of items, speech output should always be “*Current item number of N total items*”. No matter how many items are visible, if the total number is not known, speech output should always be “*Current item number*”.
+
 
 -   **Tables**
 
@@ -78,5 +83,6 @@ Screen readers offer lists that group certain types of elements. These lists eas
     -   In case there are no visible headers, but information is organized in a table-like layout with individual columns/cells, a respective row/column identifier has to be provided.
 
     -   For tables with a specific number of rows, speech output should always be “*Current row of N total rows*”. No matter how many rows are visible, if the total number is not known, speech output should always be “*Current row*”.
+
 
 

@@ -88,6 +88,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     -   You can now move the entire selected range. Selecting and holding the range line moves the whole range. For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.RangeSlider/preview) in the Demo Kit.
 
+
 -   **`sap.m.Text`**: Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can disable this by setting the wrapping property to `false`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Text/methods/setWrapping) in the Demo Kit.
 
 -   **`sap.m.TimePicker`**: The `TimePicker` control now has configurable step precision for minutes and seconds.
@@ -103,7 +104,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 Since the *Control-specific Information* was not easy to find, we decided to move the content to the new section *More About Controls* on top level of the structure \(see [More About Controls](More_About_Controls_3ec6808.md)\).
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

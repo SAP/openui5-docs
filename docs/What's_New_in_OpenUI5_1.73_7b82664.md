@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.72 to 1.73.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.AvatarGroup` \(Experimental\)**
 
@@ -46,7 +46,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Export Functions**
 
@@ -57,7 +57,7 @@ The `sap.ui.core.util.Export` class has been deprecated.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -71,6 +71,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
     -   `sap.ui.model.Binding#getPath` 
     -   `sap.ui.model.Binding#getContext`
     -   `sap.ui.model.Binding#getModel`
+
 
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
@@ -92,7 +93,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.semantic.SemanticPage`**
 
@@ -103,7 +104,7 @@ The `fitContent` property of the `sap.f.DynamicPage` control is now also exposed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Button`**
 
@@ -123,7 +124,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`, `sap.m.MultiComboBox`**
 
@@ -134,7 +135,7 @@ We have updated the behavior of the `showItems` method. When the control's picke
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Dialog`**
 
@@ -147,7 +148,7 @@ For more information, see [Enabling Responsive Paddings According to the Control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`**
 
@@ -163,7 +164,7 @@ A `change` event is now fired when the browser autofill fills an input.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Label`**
 
@@ -174,7 +175,7 @@ A visual change was introduced for the `sap.m.Label` control to align it with SA
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.list`**, **`sap.m.StandardListItem`**
 
@@ -185,7 +186,7 @@ The usability of the additional information text and its combination with title 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MessagePopover`**
 
@@ -196,7 +197,7 @@ We have exposed the `groupItems` property and `navigateBack` function as APIs in
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NotificationListItem`**, **`sap.m.NotificationListGroup`**
 
@@ -215,7 +216,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NumericContent`**
 
@@ -226,7 +227,7 @@ A new `adaptiveFontSize` property is now introduced to meet different country/lo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -242,7 +243,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ProgressIndicator`**
 
@@ -253,7 +254,7 @@ With the new `displayAnimation` property, you can now determine whether a percen
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -266,7 +267,7 @@ With the new `displayAnimation` property, you can now determine whether a percen
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.cssgrid.ResponsiveColumnLayout`**
 
@@ -277,7 +278,7 @@ This control now also supports Microsoft Internet Explorer 11, due to the implem
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
@@ -288,7 +289,7 @@ The `navigated` property that was introduced in version 1.72 is now also availab
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageHeader`**
 
@@ -299,7 +300,7 @@ With the new `objectImageBackgroundColor` property, you can now determine the ba
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -320,7 +321,7 @@ With the new `sectionChange` event, you can identify when the page is scrolled t
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Search Highlighting in *Search Results* and *API Reference* Tree**
 
@@ -334,7 +335,7 @@ You can now easily find the results you're interested in with the new search hig
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

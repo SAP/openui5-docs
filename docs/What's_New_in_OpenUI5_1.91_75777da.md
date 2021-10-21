@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.90 to 1.91.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -32,7 +32,7 @@ A `Content-ID` header has been added to all non-read requests in a batch request
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -58,7 +58,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.App`**
 
@@ -69,7 +69,7 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ExpandableText`**
 
@@ -80,7 +80,7 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -103,7 +103,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 We have enhanced the existing documentation for the `sap.m.Table` control and related entities with details about column width handling, such as the strict layout and the pop-in feature.
 
@@ -115,7 +115,7 @@ For more information, see [Configuring Responsive Behavior of a Table](Configuri
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

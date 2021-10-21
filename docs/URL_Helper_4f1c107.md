@@ -62,6 +62,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 > 
 >     -   URI schemes: [ http://en.wikipedia.org/wiki/URI\_scheme](http://en.wikipedia.org/wiki/URI_scheme)
 > 
+> 
 > -   If you just want to get a URI back without a redirect, you can use normalize methods which have the same parameter as trigger methods, for example:
 > 
 >     ``` js

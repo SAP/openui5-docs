@@ -15,14 +15,14 @@ OpenUI5 container controls do not directly interact with the application user. S
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  OpenUI5 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What is read by default
 
@@ -31,14 +31,14 @@ What is read by default
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Bar/Toolbar
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Upon entry in Virtual Cursor mode - ARIA role
 
@@ -50,14 +50,14 @@ Bar/Toolbar
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Icon Tab Bar
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Element role \(tapstrip or tabpanel\)
 
@@ -77,14 +77,14 @@ Icon Tab Bar
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message Page
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   In Virtual Cursor mode - all text on the page
 
@@ -94,14 +94,14 @@ Message Page
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Page
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Landmark roles for the substructure elements \(header, content, footer\)
 
@@ -111,14 +111,14 @@ Page
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Panel
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Button text
 
@@ -134,14 +134,14 @@ Panel
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Object Header
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   The Object Header title
 

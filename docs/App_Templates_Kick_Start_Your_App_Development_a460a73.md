@@ -35,28 +35,28 @@ All templates are available under [Demo Apps](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Template
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Name in SAP Web IDE 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Name of GitHub Repository
 
@@ -65,28 +65,28 @@ Name of GitHub Repository
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Basic template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Basic Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **SAPUI5 Application** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-basic-template-app` 
 
@@ -95,21 +95,21 @@ Basic template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Worklist template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Worklist Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **SAP Fiori Worklist Application**
 
@@ -118,7 +118,7 @@ Worklist template
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-worklist-app` 
 
@@ -127,28 +127,28 @@ Worklist template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Master-Detail template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Master-Detail Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **SAP Fiori Master-Detail Application** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-masterdetail-app` 
 

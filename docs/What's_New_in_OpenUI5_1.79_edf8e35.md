@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.78 to 1.79.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Browser and Platform Support**
 
@@ -32,7 +32,7 @@ OpenUI5 used PhantomJS in the past to test the framework, even though PhantomJS 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -47,7 +47,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -76,7 +76,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`, `sap.f.GridList`**
 
@@ -87,7 +87,7 @@ We have improved the accessibility of these controls by providing better navigat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -99,7 +99,7 @@ We have improved the accessibility of these controls by providing better navigat
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`**
 
@@ -110,7 +110,7 @@ When the controls are used with tabular suggestions, the column headers are now 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.InputBase` \(Experimental\)**
 
@@ -121,7 +121,7 @@ We are extending the set of controls that support the possibility to add links a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Panel`**
 
@@ -132,7 +132,7 @@ We have enhanced the control by making the whole header clickable to allow users
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -145,7 +145,7 @@ We have enhanced the control by making the whole header clickable to allow users
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -35,6 +35,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
     -   Users select attachments and add them to the upload list \(multiple selection is possible\). Thereby, a user can delete a file of this selection again without canceling the whole upload of the other selected files.
 
+
     In a second step, the user uploads the selected files to the application. The upload is provided by the application, for example, with an upload button or similar. To trigger the upload, the control offers an event.
 
 
@@ -78,6 +79,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
         -   If the parameter is not provided, the select dialog of the operating system opens and the further steps have to be proceeded manually by the user.
 
+
         The detailed behavior of the feature depends on the app, in which the control is used.
 
     -   **Terminate uploading a file**
@@ -87,6 +89,7 @@ The `UploadCollection` control can be used in the following scenarios:
     -   **`uploadButtonInvisible` property**
 
         With the `uploadButtonInvisible` property, you can decide for your application to make the *Upload* button in the instant upload scenario invisible to prevent the user from uploading a file.
+
 
 
 ***
@@ -103,11 +106,13 @@ The `UploadCollection` control can be used in the following scenarios:
 
     -   If the toolbar is not customized it only provides the upload \(*+*\) button.
     -   In case the customizable toolbar has been configured and the placeholder is missing, an exception will be thrown.
+
 -   The `mode` property of the `UploadCollection` control can be set. Therefore the `sap.m.ListMode` type is used.
 
     -   The listmode `Delete` is not supported and will be set to listmode `None` if used.
 
     -   In chase of an upload pending scenario, the listmode `MultiSelect` is not supported; in this case it will be set to listmode `None` automatically.
+
 
 
 ***

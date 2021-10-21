@@ -23,21 +23,21 @@ The following information concerns important upcoming changes. UI changes may ha
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of OpenUI5 Version
 
@@ -46,14 +46,14 @@ Available as of OpenUI5 Version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Announcement
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Reminder: Outdated Versions to Be Removed from the CDN**
 
@@ -62,7 +62,7 @@ For security reasons, versions that are no longer maintained will be removed fro
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -81,7 +81,7 @@ n/a
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -92,7 +92,7 @@ We now provide the `sap.ui.model.odata.v2.Context#isTransient` method, which ret
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -110,7 +110,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Whitespaces Visualization**
 
@@ -131,7 +131,7 @@ We have created a new sample pattern that showcases how whitespaces can be enabl
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -142,7 +142,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`**
 
@@ -153,7 +153,7 @@ We have introduced the `showClearIcon` property. If set to true, when there is t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List`**
 
@@ -164,7 +164,7 @@ You can now adapt the default wrapping behavior for titles and descriptions in l
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MenuButton`**
 
@@ -175,7 +175,7 @@ We have introduced a new `beforeMenuOpen` event, fired when the arrow button of 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -186,7 +186,7 @@ The new `firstDayOfWeek` property enables developers to set the first day of wee
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **`sap.ui.integration.widgets.Card`**
 
@@ -207,7 +207,7 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
 
@@ -217,7 +217,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

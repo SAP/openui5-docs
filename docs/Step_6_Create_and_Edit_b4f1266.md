@@ -410,11 +410,11 @@ changesSentMessage=User data sent to the server*HIGHLIGHT END*
 
 We add the new message texts.
 
-**Parent topicColonSymbol** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Previous topicColonSymbol** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
+**Next:** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
 
-**Next topicColonSymbol** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+**Previous:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
 
 **Related Information**  
 

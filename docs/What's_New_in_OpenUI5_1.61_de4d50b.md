@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Enabling Applications to Comply with the Content Security Policy \(CSP\)**
 
@@ -45,7 +45,7 @@ The OpenUI5 framework now allows you to run applications in an environment in wh
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 `**`sap.m.SinglePlanningCalendar`**`
 
@@ -80,7 +80,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -113,7 +113,7 @@ Note that we have introduced this change to support message processing.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`/`sap.f.semantic.SemanticPage`**
 
@@ -126,7 +126,7 @@ Note that we have introduced this change to support message processing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridList`**
 
@@ -137,7 +137,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`**
 
@@ -148,7 +148,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Label`**
 
@@ -159,7 +159,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ObjectHeader`**
 
@@ -170,7 +170,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`/`sap.m.SelectList`**
 
@@ -181,7 +181,7 @@ The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.semantic.DetailPage`/`sap.m.semantic.SemanticPage`**
 
@@ -192,7 +192,7 @@ We have enabled the controls to be a droppable area. For more information, see [
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -203,7 +203,7 @@ The `sortIndicator` property, which indicates that a column is sorted, is now av
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.cssgrid.CSSGrid`**
 
@@ -214,7 +214,7 @@ We have added new samples to demonstrate different use cases. For more informati
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.Calendar`**
 
@@ -225,7 +225,7 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -253,7 +253,7 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Apps/Tutorials**
 
@@ -272,7 +272,7 @@ Some of these concepts use new APIs that have been available since OpenUI5 relea
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **New Quick Start Tutorial**
 
@@ -293,7 +293,7 @@ We have replaced the Hello World! tutorial with a new Quick Start tutorial that 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Tools Page**
 
@@ -305,7 +305,7 @@ We have updated the *Tools* page and added two more blocks about the *Support As
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

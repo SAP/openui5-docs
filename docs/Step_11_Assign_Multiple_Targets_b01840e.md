@@ -482,11 +482,11 @@ Employees=Employees*HIGHLIGHT END*
 
 Add the new texts to the `properties` file.
 
-**Parent topicColonSymbol** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Previous topicColonSymbol** [Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.")
+**Next:** [Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.")
 
-**Next topicColonSymbol** [Step 12: Make a Search Bookmarkable](Step_12_Make_a_Search_Bookmarkable_e85da53.md "In this step we will make the search bookmarkable. This allows users to search for employees in the Employees table and they can bookmark their search query or share the URL.")
+**Previous:** [Step 12: Make a Search Bookmarkable](Step_12_Make_a_Search_Bookmarkable_e85da53.md "In this step we will make the search bookmarkable. This allows users to search for employees in the Employees table and they can bookmark their search query or share the URL.")
 
 **Related Information**  
 

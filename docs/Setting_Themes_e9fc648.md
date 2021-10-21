@@ -97,6 +97,7 @@ To load an external custom theme, you set this theme either by static declaring 
         The first theme is loaded for all libraries from the location specified. The second theme is loaded for the `sap.ui.core` library from the location specified. For all other libraries, the theme is loaded from the default location.
 
 
+
 ***
 
 <a name="loioe9fc648661d84ed89360bbec3ae02611__section_u3q_gpj_43b"/>

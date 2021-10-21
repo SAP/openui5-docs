@@ -81,14 +81,14 @@ In the following table you can see how the different dialog controls are read by
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  OpenUI5 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What is read by default
 
@@ -97,14 +97,14 @@ What is read by default
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dialog / Select Dialog
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Dialog title
 
@@ -116,14 +116,14 @@ Dialog / Select Dialog
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Busy Dialog
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Dialog header
 
@@ -137,14 +137,14 @@ Busy Dialog
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message Box
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Dialog title
 
@@ -156,14 +156,14 @@ Message Box
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message Toast
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Message text when the toast appears
 
@@ -173,14 +173,14 @@ Message Toast
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message Popover / Popover
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   No specific element needs to be read or focused.
 
@@ -190,14 +190,14 @@ Message Popover / Popover
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message Strip
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   The complete content including text, icons and links
 

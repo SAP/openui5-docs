@@ -84,11 +84,11 @@ sap.ui.getCore().attachInit(function(){
 });
 ```
 
- <a name="loio91f2c9076f4d1014b6dd926db0e91070 loiobf10bd41ac8f49048a1ccb743fbfbb8a__loiobf10bd41ac8f49048a1ccb743fbfbb8a"/>
+ <a name="loiobf10bd41ac8f49048a1ccb743fbfbb8a"/>
 
 <!-- loiobf10bd41ac8f49048a1ccb743fbfbb8a -->
 
-## Loading of Additional Resources During Bootstrap
+### Loading of Additional Resources During Bootstrap
 
 The OpenUI5 runtime loads and interprets additional resources for the control libraries during bootstrap.
 
@@ -103,11 +103,11 @@ The files are loaded in the following sequence:
     A standard CSS file that contains all styles relevant for this library. For application development tools, this file is generated automatically during the build.
 
 
- <a name="loio91f2c9076f4d1014b6dd926db0e91070 loiobbce44f06ddc48fda7aeb44eae52ebbc__loiobbce44f06ddc48fda7aeb44eae52ebbc"/>
+ <a name="loiobbce44f06ddc48fda7aeb44eae52ebbc"/>
 
 <!-- loiobbce44f06ddc48fda7aeb44eae52ebbc -->
 
-## Dynamic Loading of Libraries
+### Dynamic Loading of Libraries
 
 OpenUI5 provides the `sap.ui.getCore().loadLibary()` method to load libraries at runtime in addition to the libraries declared in the runtime configuration.
 

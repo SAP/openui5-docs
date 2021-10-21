@@ -174,6 +174,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/methods/getGroupAppointmentsMode) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarViews/preview).
 
+
 -   `sap.m.TextArea` controls with a limited text length can determine how to handle text that exceeds that length. By setting `showExceededText=true`, you can decide if those characters are visible or cut. The text area changes its value state and shows a counter of the extra characters when the threshold is reached. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TextArea/methods/setShowExceededText) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextAreaMaxLength/preview).
 
 -   `sap.m.UploadCollection`: When grouping of `UploadCollectionItems` you can now provide the grouping feature for `UploadCollection`. After you have selected the grouping criteria, the grouping information is displayed as group header in the upload collection list. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollectionItem) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
@@ -186,6 +187,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     -   An additional breaking point for M-sized displays has been added.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.BlockLayoutCell) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.BlockLayoutCustomBackground/preview).
 
      ![](loiod4f2319fc0ad40c9b3d0f97ecf393871_LowRes.png) 
@@ -195,6 +197,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
     -   You can now have no tab selected by setting the `selectedKey` property to a non-existing key value.
 
     -   When `IconTabHeader` is used on smartphones and tablets, only completely visible tabs are displayed \(no truncation\). The rest of the tabs will overflow.
+
 
     For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolHeaderIconTabHeader/preview). 
 
@@ -209,6 +212,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
     -   You can now set specific dates or date ranges to be displayed as non-working by using the `specialDates` aggregation and `sap.ui.unified.CalendarDayType.NonWorking` enumeration type.
 
         For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
+
 
 -   `sap.ui.unified.ColorPicker`: A responsive variant of the color picker control is now available in the `sap.ui.unified` library that is compatible for use with controls from the other responsive OpenUI5 libraries.
 
@@ -228,7 +232,7 @@ In addition to the documentation for new features, the following changes have be
 -   Reworked [Troubleshooting](Troubleshooting_615d9e4.md) section
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

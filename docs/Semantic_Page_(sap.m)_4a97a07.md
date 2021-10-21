@@ -62,6 +62,7 @@ The ordering logic of custom and semantic content is as follows from left to rig
 
     -   `draftIndicator`
 
+
 -   Right area:
 
     -   `mainAction`
@@ -71,6 +72,7 @@ The ordering logic of custom and semantic content is as follows from left to rig
     -   Custom content that the app fully controls with no automatic reordering
 
     -   Semantic icon-only buttons, such as `favoriteAction`, and `flagAction`
+
 
 
 ![](loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)

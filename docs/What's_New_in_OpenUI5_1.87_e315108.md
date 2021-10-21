@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.86 to 1.87.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87**
 
@@ -42,7 +42,7 @@ OpenUI5 1.87 is the last version to support Microsoft Internet Explorer 11. For 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ExpandableText`**
 
@@ -63,7 +63,7 @@ You can use the control to display long texts, for example, inside a table, list
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -93,7 +93,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Card`**
 
@@ -104,7 +104,7 @@ We no longer apply default `min-height` in the control, which allows smaller car
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridList`**
 
@@ -122,7 +122,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.BadgeCustomData`**
 
@@ -133,7 +133,7 @@ We have added a new `animation` property that enables you to choose the animatio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.Dialog**`
 
@@ -144,7 +144,7 @@ You can now drag and resize the dialog using the keyboard. To enable this behavi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Image`**
 
@@ -155,7 +155,7 @@ With the new `lazyLoading` property, you can now ensure that off-screen images a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -173,7 +173,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Text`**
 
@@ -184,7 +184,7 @@ The new `emptyIndicatorMode` property allows developers to display an empty text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Title`**
 
@@ -195,7 +195,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -207,6 +207,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 
     -   `MonthChange` – triggered when the currently displayed month is changed from the pickers or from the arrow buttons.
 
+
     Both `DateChange` and `MonthChange` actions are triggered when the `Today` button is pressed. For more information, see the [Samples](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/calendar/extension) and the [Calendar Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/calendar) section in the Card Explorer.
 
 -   The `Extension` feature is no longer in experimental state. For more information, see the [Samples](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension) and the [Card Extension](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/extension) section in the Card Explorer.
@@ -216,7 +217,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.cssgrid.ResponsiveColumnLayout`**
 
@@ -237,7 +238,7 @@ We have enhanced the layout with higher density of responsive breakpoints, provi
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit HTML Title**
 
@@ -249,7 +250,7 @@ We’ve improved the HTML title tag of the Demo Kit app to contain more informat
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

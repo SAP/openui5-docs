@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.84 to 1.85.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -41,7 +41,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Special Messaging Support for Visually Impaired Users**
 
@@ -62,7 +62,7 @@ The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class i
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -73,7 +73,7 @@ We have improved the two-dimensional keyboard navigation. Now navigation using t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Bar`**
 
@@ -84,7 +84,7 @@ We have added a new `titleAlignment` property. It enables developers to create c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ColorPalette`, `sap.m.ColorPalettePopover`, and `sap.ui.unified.ColorPickerPopover`**
 
@@ -95,7 +95,7 @@ A `liveChange` event is now available in these controls, which are using the `sa
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -106,7 +106,7 @@ The `specialDates` aggregation, which allows you to define special dates for the
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -124,7 +124,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -139,7 +139,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

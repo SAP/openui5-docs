@@ -169,6 +169,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Replace the `<version>` placeholder with the `version` value \(`"1.2.6"` in the example above\).
 
+
     **Example: `sap.app/id` and `sap.app/applicationVersion/version` in the `manifest.json` file**:
 
     ``` js
@@ -198,6 +199,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Replace the `<title>` placeholder with the `titleResource` value \(`"app.Identity"` in the example above\)
 
     -   Replace the `<i18nPathRelativeToManifest>` placeholder with the `resourceBundle` value \(`"i18n/i18n.properties"` in the example above\).
+
 
     **Example: `sap.app/i18n` and `sap.app/title` in the `manifest.json` file**
 
@@ -250,6 +252,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
                 oMockServer.simulate(rootPath + "/model/metadata.xml", rootPath + "/model/");
         ```
 
+
     Return to the `manifest.json` file and do the following:
 
     -   Enter the `name` value in the placeholder for `<dataSourceAlias>`.
@@ -257,6 +260,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Enter the value from the `serviceUrl` in the placeholder for `<uri>` to fill the value for the URI attribute.
 
     -   Enter the value from the URI of `oMockServer.simulate...` in the `Component.js` file in the placeholder for `<localUri>` to fill the value for the `localUri` attribute.
+
 
     **Example: `dataSources` with alias and URI in the `sap.app` namespace of the `manifest.json` file**
 
@@ -298,6 +302,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Enter the `favIcon` value in the `<favIcon>` placeholder.
 
     -   Enter the `homeScreenIconPhone` value in the `<phone>` placeholder. Do the same for the `<phone@2>`, `<tablet>` and `<tablet@2>` placeholders.
+
 
     **Example: `icons` in the `sap.ui` namespace of the `manifest.json` file**
 
@@ -351,6 +356,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Enter the js resource value under `"js"` in the `<uri>` placeholder.
 
     -   Enter the CSS resource value under `"css"` in the `<uri>` placeholder.
+
 
     > ### Caution:  
     > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
@@ -451,6 +457,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   OData model
 
         Use the same model name as in the `Component.js` file, for example "leave" or "" for the default model. Enter a reference to a data source from `sap.app/dataSource` in the `<dataSourceAlias>` placeholder; if needed, enhance it with more settings for OpenUI5.
+
 
     **Example: Models in the `sap.ui5` namespace in the `manifest.json` file**
 
@@ -624,6 +631,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Remove the `config` section.
 
+
     **Example: `Component.js` after making changes**
 
     ``` js
@@ -672,6 +680,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Change the line for `oMockServer.simulate...` and read the URI from the manifest via your component metadata, for example, `this.getMetadata().getManifestEntry("sap.app")...`
 
+
     **Example: Data source reference in `Component.js` file after making changes**
 
     ``` js
@@ -709,6 +718,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Delete the lines for the i18n model creation and model setting.
 
     -   Delete the lines for the data model creation and model setting.
+
 
 
 ***

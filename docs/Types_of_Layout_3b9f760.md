@@ -23,14 +23,14 @@ The table below shows how each of the 9 layout types affects the column visibili
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Layout Types
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Desktop / Tablet / Phone
 
@@ -39,7 +39,7 @@ Desktop / Tablet / Phone
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`OneColumn`**
 
@@ -50,7 +50,7 @@ Use to show the first logical information level \(master page\) only.
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loiod7914916d4674c3481d67658eae465a1_LowRes.png) 
 
@@ -59,7 +59,7 @@ Use to show the first logical information level \(master page\) only.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`TwoColumnsBeginExpanded`**
 
@@ -68,7 +68,7 @@ Use this layout type to display two logical levels of information \(master and d
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loio9a603876f70a47aeabf08c030a5e9daa_LowRes.png) 
 
@@ -77,7 +77,7 @@ Use this layout type to display two logical levels of information \(master and d
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`TwoColumnsMidExpanded`**
 
@@ -86,7 +86,7 @@ Similar to `TwoColumnsBeginExpanded`, but this time the `Mid` column is the wide
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loioc0d69368378f4d0dac00d62801fd64e5_LowRes.png) 
 
@@ -95,7 +95,7 @@ Similar to `TwoColumnsBeginExpanded`, but this time the `Mid` column is the wide
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`MidColumnFullScreen`**
 
@@ -107,7 +107,7 @@ Use this layout to display the second logical level of information \(detail page
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loioa01d72d41f014168b9438d12e650f4ad_LowRes.png) 
 
@@ -116,7 +116,7 @@ Use this layout to display the second logical level of information \(detail page
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`ThreeColumnsMidExpanded`**
 
@@ -125,7 +125,7 @@ Use this layout to display up to three logical levels of information side by sid
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loiod1f89e8ad3f9409aa14e8e98a07f8bb4_LowRes.png) 
 
@@ -134,7 +134,7 @@ Use this layout to display up to three logical levels of information side by sid
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`ThreeColumnsEndExpanded`**
 
@@ -143,7 +143,7 @@ Similar to `ThreeColumnsMidExpanded`, but this time the `End` column is expanded
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loio2cef71c4c5e64dea975c6b44196d2ca7_LowRes.png) 
 
@@ -152,7 +152,7 @@ Similar to `ThreeColumnsMidExpanded`, but this time the `End` column is expanded
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`ThreeColumnsMidExpandedEndHidden`**
 
@@ -161,7 +161,7 @@ Use this layout to show the `Begin` and `Mid` columns only \(`Mid` being expande
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loio21a31d26b82d4c8ea2d17fe28a792026_LowRes.png) 
 
@@ -170,7 +170,7 @@ Use this layout to show the `Begin` and `Mid` columns only \(`Mid` being expande
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`ThreeColumnsBeginExpandedEndHidden`**
 
@@ -179,7 +179,7 @@ Similar to `ThreeColumnsMidExpandedEndHidden`, but this time the `Begin` column 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loioe98b27beff5145b79cd3a7a7392f9167_LowRes.png) 
 
@@ -188,7 +188,7 @@ Similar to `ThreeColumnsMidExpandedEndHidden`, but this time the `Begin` column 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`EndColumnFullScreen`**
 
@@ -200,7 +200,7 @@ Use this layout to display the third logical level of information \(detail-detai
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loio1129d11a2aa3466c937db16d8e9c149a_LowRes.png) 
 
@@ -215,14 +215,14 @@ For each value of the layout property, the `FlexibleColumnLayout` displays a dif
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Control size
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Columns
 
@@ -231,14 +231,14 @@ Columns
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Up to 960px \(Phone\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1 column max
 
@@ -247,14 +247,14 @@ Up to 960px \(Phone\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 960px – 1280px \(Tablet\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2 column max
 
@@ -263,14 +263,14 @@ Up to 960px \(Phone\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1280px and above \(Desktop\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3 column max
 

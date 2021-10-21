@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.73 to 1.74.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Test Recorder**
 
@@ -46,7 +46,7 @@ For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`Card Explorer`**
 
@@ -57,7 +57,7 @@ We have enhanced the functionality to download samples from the Card Explorer, a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Navigation in Nested Components**
 
@@ -68,7 +68,7 @@ In recent releases, the capabilities to [Navigate with Nested Components](Naviga
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Negative Predefined CSS Margin Classes**
 
@@ -90,7 +90,7 @@ For more information, see [Using Predefined CSS Margin Classes](Using_Predefined
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Responsive Padding Enablement**
 
@@ -101,7 +101,7 @@ We've introduced responsive paddings to the `sap.m.IconTabBar`, `sap.m.ObjectHea
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -135,7 +135,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Avatar`**
 
@@ -146,7 +146,7 @@ We've added *remove* and *reveal* actions in the `Avatar` design-time metadata. 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ColorPalette`**
 
@@ -157,7 +157,7 @@ We have introducted a *Recent Colors* section, showing the last 5 recently used 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DateRangeSelection`**
 
@@ -168,7 +168,7 @@ We have introduced the ability to select month and year ranges. This improves th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
@@ -179,7 +179,7 @@ The busy indicator is now displayed in the center of the visible area of the UIs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NavContainer`**
 
@@ -190,7 +190,7 @@ In version 1.69, the default value for the `defaultTransitionName` property was 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NotificationListItem`**
 
@@ -201,7 +201,7 @@ The avatar background color can now be managed by the application developer usin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.plugins.DataStateIndicator`**
 
@@ -212,7 +212,7 @@ This plugin for the table controls \(`sap.m.List, sap.m.Table, sap.ui.table.Tabl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -223,7 +223,7 @@ With the new `required` property, you can now indicate whether user input is req
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.StandardListItem`**
 
@@ -234,7 +234,7 @@ The new `infoStateInverted` property changes the rendering behavior of the infor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -245,7 +245,7 @@ A more comprehensive message text is now shown if no data is available because a
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ViewSettingsDialog`**
 
@@ -256,7 +256,7 @@ We have introduced a new button to display only the selected items in the filter
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Wizard`**
 
@@ -267,7 +267,7 @@ We have enhanced the `sap.m.Wizard` control for better integration in the `sap.f
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.tnt.InfoLabel`**
 
@@ -280,7 +280,7 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -294,6 +294,7 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
     -   Integers
     -   Percent
     -   Units of measurement
+
     For more information, see [Card Formatters](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/formatters) in the Card Explorer.
 
 -   We now also support objects as values for manifest parameters. Until now only string values were supported. For more information, see [Manifest Parameters](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/manifestParameters) section in the Card Explorer.
@@ -304,7 +305,7 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -325,7 +326,7 @@ You can now move the corresponding section numbers that are displayed in the `An
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Performance Checklist**
 
@@ -337,7 +338,7 @@ Ensuring that your OpenUI5 apps run fast is an important topic in application de
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -29,14 +29,14 @@ Always double check in the API Reference. If OpenUI5 changes the implementation 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Examples
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -45,14 +45,14 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `var sText = oControl.mProperties["text"];`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `var sText = oControl.getText();`
 
@@ -61,14 +61,14 @@ Good Example
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `oSelectDialog._oList.setGrowing(false);`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -77,14 +77,14 @@ Good Example
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `var sPart = oEvent.oSource.oBindingContexts.description.sPath.split('/')[3];`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -107,14 +107,14 @@ Use only local variables inside the AMD factory function, do not access the cont
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -123,7 +123,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Access the modules directly:
 
@@ -141,7 +141,7 @@ sap.ui.define(['sap/m/Button'], function(Button) {
 
 
 </td>
-<td>
+<td valign="top">
 
 Declare a dependency to `sap.m.Input` within `sap.ui.define`:
 
@@ -195,6 +195,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
+
 -   Commonly used names \(However they can also be used as AMD references via `sap/ui/Global`\):
 
     -   `sap.ui.getVersionInfo (Global.getVersionInfo())`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.getVersionInfo).
@@ -204,6 +205,7 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
     -   `sap.ui.resource`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.resource).
 
     -   `sap.ui.version`
+
 
 
 ***
@@ -233,14 +235,14 @@ Instead, you should consider using delegates.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Examples
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -249,7 +251,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -261,7 +263,7 @@ oControl.onAfterRendering = function() {
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -277,14 +279,14 @@ oControl.addEventDelegate({
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `oControl.prototype.setText = function(){ ... };`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -313,14 +315,14 @@ Even `onAfterRendering` may not be called when a control handles certain propert
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Examples
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -329,14 +331,14 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `oControl.$().find(".sapMLabel")[0].innerHTML = "reallybad";`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -356,14 +358,14 @@ oControl.addEventDelegate({
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `oControl.$().find(".sapMLabel").remove();`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -420,14 +422,14 @@ Use the `createId()` function of a view or controller instead. This is done auto
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example \(Inside a Typed View\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example \(Inside a Typed View\)
 
@@ -436,7 +438,7 @@ Good Example \(Inside a Typed View\)
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -449,7 +451,7 @@ createContent: function(oController) {
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -492,14 +494,14 @@ Hard coding UI strings will exclude them from translation. In addition, concaten
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -508,14 +510,14 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Using separate texts like " you selected " and " items " in the translation file to construct sentences like: " you selected " + 10 + "items ". This would lead to a wrong word order in languages where the verb needs to be at the end of the sentence, for example.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Using a complete sentence including a placeholder in the translation file: " you selected \{0\} items ". This allows translators to change the word order and the position of the inserted placeholder value.
 
@@ -548,14 +550,14 @@ Note that most errors and warnings in the developer console thrown by the OpenUI
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -564,14 +566,14 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `console.error("Logon failed");`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Log.error("Logon failed", "", "connectivity";)`
 
@@ -596,14 +598,14 @@ Executing logic with timeouts is often a workaround for faulty behavior and does
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -612,7 +614,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` js
 jQuery.ajax("someData.json");
@@ -622,7 +624,7 @@ setTimeout(fnProcessResults, 300);
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 jQuery.ajax("someData.json").done(fnProcessResults);

@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.66 to 1.67.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -56,7 +56,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.ShellBar`**
 
@@ -70,6 +70,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     -   To display the title as part of a configurable mega menu, set the `showMenuButton` property to `false` and use the `menu` aggregation.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ShellBar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.ShellBar).
 
 
@@ -78,7 +79,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.OverflowToolbar`**
 
@@ -89,7 +90,7 @@ To improve the control's performance, we have introduced a new `asyncMode` prope
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -100,7 +101,7 @@ We have created new examples of the different use cases for `sap.m.SinglePlannin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.StandardListItem**`
 
@@ -111,7 +112,7 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -127,7 +128,7 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
@@ -138,7 +139,7 @@ The `MultiSelectionPlugin` class is now available: It provides a plugin to suppo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -150,7 +151,7 @@ The control header can now be snapped \(collapsed\) and no scroll bar is display
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

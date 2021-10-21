@@ -26,6 +26,7 @@ There are several options for labeling:
 
     -   Multiple references are not possible
 
+
     > ### Example:  
     > `<Label text="Product price" required="true" **labelFor="productPriceInput"**/>`
 
@@ -37,6 +38,7 @@ There are several options for labeling:
 
     -   Only indirect support for multiple texts
 
+
 3.  The `aria-labelledBy` attribute
 
     -   Whitespace separated list of ID references to controls
@@ -44,6 +46,7 @@ There are several options for labeling:
     -   Attribute is maintained on the labeled control
 
     -   Explicitly designed for multiple references
+
 
 
 > ### Caution:  

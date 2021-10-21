@@ -84,6 +84,7 @@ A target defines the view or component that is displayed. It is associated with 
     -   `title` contains either a static text or a valid binding syntax, e.g. to an i18n model, which is resolved under the binding context of the view \(see [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md)\)
 
 
+
 > ### Note:  
 > You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md), and the sample [Targets Without a Router](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.routing.Targets/samples) in the *Samples* in the Demo Kit.
 

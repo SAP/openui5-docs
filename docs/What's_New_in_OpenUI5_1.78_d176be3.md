@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.77 to 1.78.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Special Messaging Support for Visually Impaired Users \(Experimental\)**
 
@@ -42,7 +42,7 @@ We have introduced a way to programmatically expose dynamic content changes, tha
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -59,7 +59,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -79,7 +79,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Screen Reader Support Enhancement**
 
@@ -100,7 +100,7 @@ We have removed the `application` role from the body of OpenUI5 apps. Following 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ColorPalette`**
 
@@ -111,7 +111,7 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -127,7 +127,7 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.InputBase` \(Experimental\)**
 
@@ -138,7 +138,7 @@ The class now supports the possibility to add links as part of the `ValueStateTe
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List, sap.m.Table`**
 
@@ -149,7 +149,7 @@ The `List` and `Table` controls now provide a method to scroll the list of items
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MultiComboBox`, `sap.m.MultiInput`**
 
@@ -160,7 +160,7 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.Splitter`**
 
@@ -175,7 +175,7 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

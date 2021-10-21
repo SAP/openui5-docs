@@ -34,28 +34,28 @@ The following tables give an overview of what each demo app shows.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Layouts
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Specific Topic
 
@@ -64,14 +64,14 @@ Specific Topic
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shopping Cart*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -86,7 +86,7 @@ Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.BlockLayout`
 
@@ -97,7 +97,7 @@ Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 Filtering, custom filter
 
@@ -116,14 +116,14 @@ Local storage
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Browse Orders*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -136,7 +136,7 @@ Local storage
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.ResponsiveGridLayout`
 
@@ -147,7 +147,7 @@ Local storage
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
@@ -162,14 +162,14 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shop Administration Tool*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -184,7 +184,7 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.BlockLayout`
 
@@ -195,7 +195,7 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 Formatting
 
@@ -204,28 +204,28 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Employee Directory*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 
@@ -236,14 +236,14 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Bulletin Board*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -252,14 +252,14 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
@@ -274,14 +274,14 @@ Custom type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Manage Products*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -290,12 +290,12 @@ Custom type
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
@@ -308,14 +308,14 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Worklist Template*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -324,12 +324,12 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Filtering
 
@@ -344,14 +344,14 @@ Sorting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Master-Detail Template*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML Fragments](XML_Fragments_2c677b5.md)
 
@@ -366,14 +366,14 @@ Sorting
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.f.FlexibleColumnLayout`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Formatting
 
@@ -398,28 +398,28 @@ Sorting
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `sap.m`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `sap.m.semantic`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Other Libraries
 
@@ -428,14 +428,14 @@ Other Libraries
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shopping Cart*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Carousel`
 
@@ -476,14 +476,14 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -492,14 +492,14 @@ Other Libraries
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Browse Orders*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `IconTabBar`
 
@@ -520,7 +520,7 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
 `DetailPage`
 
@@ -533,7 +533,7 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -542,14 +542,14 @@ Other Libraries
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shop Administration Tool*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -572,12 +572,12 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.tnt.NavigationListItem`
 
@@ -592,14 +592,14 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Employee Directory*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -612,12 +612,12 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -626,40 +626,40 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Hello World*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Bulletin Board*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -672,7 +672,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `FullscreenPage`
 
@@ -681,7 +681,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -690,14 +690,14 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Manage Products*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -706,7 +706,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `FullscreenPage`
 
@@ -715,21 +715,21 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Worklist Template*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -746,7 +746,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `SemanticPage`
 
@@ -755,21 +755,21 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Master-Detail Template*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `ColumnListItem`
 
@@ -794,7 +794,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `titleHeading`
 
@@ -807,7 +807,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.f.FlexibleColumnLayout` \(2 columns\)
 

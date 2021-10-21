@@ -151,28 +151,28 @@ There are OPA5 rules that limit the ways you can use busy controls. Some OPA5 fe
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  `OPA5.config` `autoWait` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `waitFor` actions
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `waitFor` `autoWait` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 verify busy control
 
@@ -181,28 +181,28 @@ verify busy control
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ✓
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ✓
 
 
 
 </td>
-<td>
+<td valign="top">
 
 any
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -211,28 +211,28 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ✓
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 true / not modified
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -241,28 +241,28 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ✓
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ✓
 
@@ -271,28 +271,28 @@ false
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ✓
 
 
 
 </td>
-<td>
+<td valign="top">
 
 any
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
@@ -301,28 +301,28 @@ X
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 false / not modified
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ✓
 
@@ -331,28 +331,28 @@ false / not modified
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 true
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 

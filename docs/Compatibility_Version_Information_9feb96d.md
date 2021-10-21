@@ -45,28 +45,28 @@ The compatibility version configuration works as follows:
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     data-sap-ui-compatVersion
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     data-sap-ui-compatVersion-xyz
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Default feature xyz
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Resulting compatibility version
 
@@ -75,28 +75,28 @@ The compatibility version configuration works as follows:
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     --
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     --
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
@@ -105,28 +105,28 @@ The compatibility version configuration works as follows:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     1.16
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     --
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.16
 
@@ -135,28 +135,28 @@ The compatibility version configuration works as follows:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     --
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.16
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.16
 
@@ -165,28 +165,28 @@ The compatibility version configuration works as follows:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     1.18
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.16
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.16
 
@@ -195,28 +195,28 @@ The compatibility version configuration works as follows:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     edge
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ..
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.14
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     1.18
 
@@ -232,14 +232,14 @@ OpenUI5 supports the following compatibility version flags:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Flag
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -248,14 +248,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-compatVersion-sapMeTabContainer`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The `TabContainer` was deprecated in 1.15. When the compatibility version is 1.16 or higher, an error is logged to the console indicating that `sap.m.IconTabBar` should be used instead.
 
@@ -266,14 +266,14 @@ Default value: 1.14
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-compatVersion-sapMeProgessIndicator`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
@@ -282,14 +282,14 @@ Default value: 1.14
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-compatVersion-sapMGrowingList`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
@@ -298,14 +298,14 @@ Default value: 1.14
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-compatVersion-sapMListAsTable`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
@@ -314,14 +314,14 @@ Default value: 1.14
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-compatVersion-sapMDialogWithPadding`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 By default, the content area of `Dialog` had paddings. To make the padding consistent with other popups, the padding is removed for compatibility versions 1.16 or higher. If the padding is still needed inside the content area of `Dialog`, you can use the [Container Content Padding CSS Classes](Using_Container_Content_Padding_CSS_Classes_c71f6df.md).
 
@@ -332,14 +332,14 @@ Default value: 1.14
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-bindingSyntax`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This configuration parameter defines whether the simple or the complex binding syntax is used. The parameter only affects bindings that are defined as strings, for example in the constructor of a control, or when specifying a binding in a declarative view, such as XML view or HTML view.
 

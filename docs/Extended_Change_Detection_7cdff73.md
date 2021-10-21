@@ -43,14 +43,14 @@ The difference between the previous and the current state of the list is provide
 > 
 > <table>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 >  **Old State** 
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 >  **New State** 
 > 
@@ -59,14 +59,14 @@ The difference between the previous and the current state of the list is provide
 > </td>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 >  `["one", "two", "three", "four", "five"]` 
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 >  `["one", "three", "four", "five", "six"]` 
 > 
@@ -75,7 +75,7 @@ The difference between the previous and the current state of the list is provide
 > </td>
 > </tr>
 > <tr>
-> <td colspan="2">
+> <td valign="top" colspan="2">
 > 
 >  **Difference** 
 > 
@@ -84,7 +84,7 @@ The difference between the previous and the current state of the list is provide
 > </td>
 > </tr>
 > <tr>
-> <td colspan="2">
+> <td valign="top" colspan="2">
 > 
 >  `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
 > 
@@ -118,14 +118,14 @@ If a control you want to use in your app to visualize list entries supports exte
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
      `key` property
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `key` function
 
@@ -134,7 +134,7 @@ If a control you want to use in your app to visualize list entries supports exte
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     ``` js
     oControl.bindItems({
@@ -146,7 +146,7 @@ If a control you want to use in your app to visualize list entries supports exte
 
     
     </td>
-    <td>
+    <td valign="top">
 
     ``` js
     oControl.bindItems({

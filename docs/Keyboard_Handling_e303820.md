@@ -37,6 +37,7 @@ Start the application and put away your mouse.
 
     -   Is this true also for dynamically created texts or control elements?
 
+
 -   Can you navigate within control elements \(for example, list, table, tabstrip\) using arrow keys?
 
 -   Can you also navigate away from each UI element using the keyboard?

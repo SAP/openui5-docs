@@ -137,6 +137,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
     -   A new `TabDensityMode` property is introduced in both `sap.m.IconTabBar` and `sap.m.IconTabHeader`. The property allows both the Tab Bar and the Header to change their density within different controls. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarTabDensityMode/preview).
 
+
 -   `sap.m.List`: The `columns` aggregation was deprecated in version 1.16 and has now been removed. Use the `sap.m.Table` control instead.
 
 -   `sap.m.MenuButton`: The control now has a new `menuPosition` property. It specifies the position of the popup menu with enlisted options. By default, the menu opens at the bottom left side of the control but if there is not enough space in the current window, it tries to open on the opposite side. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MenuButton) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MenuButton/preview).
@@ -153,6 +154,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
          For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarDnD/preview). 
 
+
 -   `sap.m.PlanningCalendarRow`: The new `specialDates` aggregation allows you to mark special days on a row level. The aggregation is of type `sap.ui.unified.DayTypeRange` but you can set a specific type to the corresponding date. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow/aggregations) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarWithLegend/preview).
 
 -   `sap.m.SelectDialog`: With the new `growing` property, you can control the progressive loading of bound items. By default, it is set to `true` which means that features like the number of selected items in the info bar and search \(if present\) will work only for the currently loaded items. To make sure that all items in the table are loaded at once, and the above features work properly, you should set the growing property to `false`.
@@ -168,6 +170,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
     -   You can create a custom tooltip, by extending the class `sap.m.SliderTooltipBase` and overriding some methods. If you want to define your own content for the tooltip, you should override just the `renderTooltipContent` method.
 
+
     For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/controlProperties).
 
 -   `sap.m.Table`:
@@ -180,6 +183,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getSticky) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
 
     -   The `popinLayout` property is now also supported for Microsoft Edge \(version 16 and higher\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Table/preview).
+
 -   `sap.m.TableSelectDialog`:
     -   A new property `growing` is added to the control. It determines the progressive loading. When set to `true`, the features *Selected Count* in `Info bar`, *Search*, and *Select/Deselect All*, if present, will work only for the currently loaded items. To ensure that all items in the table are loaded and these features work as expected, you need to set the property to `false`.
 
@@ -189,6 +193,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialogGrowing/preview). 
 
     -   The control now has a *Reset* button which allows you to clear the selection you have made in your Table Select dialog with one click. The button is enabled only when you make a selection. Otherwise, it is grayed out. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
+
 
 -   `sap.m.Tree`: You can now expand and collapse multiple rows at once by using the related methods. For more information, see the [API Reference for the `expand` method](https://openui5.hana.ondemand.com/#/api/sap.m.Tree/methods/expand), the [API Reference for the `collapse` method](https://openui5.hana.ondemand.com/#/api/sap.m.Tree/methods/collapse), and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TreeExpandMulti/preview).
 
@@ -207,6 +212,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
     -   *Move* items defined in the `snappedContent` and `expandedContent` aggregations
 
     -   *Remove* and *Reveal* the whole control
+
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview) and turn on the UI Adaptation using the wrench key button.
 
@@ -238,7 +244,7 @@ We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_
     For more information, see *API Reference*: [Index by Version](https://openui5.hana.ondemand.com/#/api/since).
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -15,14 +15,14 @@ The following keys and key combinations are used for triggering events of clicka
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -31,14 +31,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Spacebar\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If items are **not selectable** and focus is on an item, trigger the item event.
 
@@ -52,14 +52,14 @@ If items are selectable, select/deselect the item.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Enter\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, trigger the item event immediately after the key press.
 
@@ -76,14 +76,14 @@ Use the following keys to trigger additional actions \(if supported\):
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -92,14 +92,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Delete\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If deletion of items supported:
 
@@ -114,14 +114,14 @@ If the deleted item is the last remaining item, move focus to the next control i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F2\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If *Detail* of items is supported:
 

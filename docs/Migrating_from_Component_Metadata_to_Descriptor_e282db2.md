@@ -22,21 +22,21 @@ For compatibility reasons, the mapping to the `manifest.json` file is done autom
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Metadata
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Descriptor
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -45,21 +45,21 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Component namespace
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.app/id` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -68,21 +68,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.app/applicationVersion/version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -91,21 +91,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `config` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/config` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -114,21 +114,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `dependencies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/depedencies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Different format, see *Dependencies* section below
 
@@ -137,21 +137,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `customizing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/extends/extensions` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -160,21 +160,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `handleValidation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/handleValidation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -183,21 +183,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `includes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/resources` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Different format, see *Resources* section below
 
@@ -206,21 +206,21 @@ Different format, see *Resources* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `rootView` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/rootView` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -229,21 +229,21 @@ Different format, see *Resources* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `routing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/routing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 

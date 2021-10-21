@@ -24,14 +24,14 @@ Navigation between controls is done using the [Tab\] key. [Tab\] moves the focus
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -40,14 +40,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Tab\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Forward Navigation:
 
@@ -60,14 +60,14 @@ On leave, move focus to the next control in the application.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Tab\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Backward Navigation:
 
@@ -90,14 +90,14 @@ Controls which are adjacent within the application can be grouped. Within a grou
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -106,7 +106,7 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F6\] 
 
@@ -117,7 +117,7 @@ or
 
 
 </td>
-<td>
+<td valign="top">
 
 Fast Navigation \(forward\):
 
@@ -128,7 +128,7 @@ Move focus to the next control in the tab order after the group
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [F6\]  
 
@@ -139,7 +139,7 @@ or
 
 
 </td>
-<td>
+<td valign="top">
 
 Fast Navigation \(back\):
 

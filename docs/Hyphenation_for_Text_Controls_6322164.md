@@ -132,14 +132,14 @@ The following table provides a list of languages supported by the third-party to
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Language
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Code
 
@@ -148,14 +148,14 @@ Code
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Bulgarian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 bg
 
@@ -164,14 +164,14 @@ bg
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Catalan
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ca
 
@@ -180,14 +180,14 @@ ca
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Croatian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hr
 
@@ -196,14 +196,14 @@ hr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Danish
 
 
 
 </td>
-<td>
+<td valign="top">
 
 da
 
@@ -212,14 +212,14 @@ da
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Dutch
 
 
 
 </td>
-<td>
+<td valign="top">
 
 nl
 
@@ -228,14 +228,14 @@ nl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 English \(US\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 en
 
@@ -244,14 +244,14 @@ en
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Estonian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 et
 
@@ -260,14 +260,14 @@ et
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Finnish
 
 
 
 </td>
-<td>
+<td valign="top">
 
 fi
 
@@ -276,14 +276,14 @@ fi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 French \(FR\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 fr
 
@@ -292,14 +292,14 @@ fr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 German
 
 
 
 </td>
-<td>
+<td valign="top">
 
 de
 
@@ -308,14 +308,14 @@ de
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Greek
 
 
 
 </td>
-<td>
+<td valign="top">
 
 el
 
@@ -324,14 +324,14 @@ el
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Hindi
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hi
 
@@ -340,14 +340,14 @@ hi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Hungarian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hu
 
@@ -356,14 +356,14 @@ hu
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Italian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 it
 
@@ -372,14 +372,14 @@ it
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Lithuanian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 lt
 
@@ -388,14 +388,14 @@ lt
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Norwegian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 no
 
@@ -404,14 +404,14 @@ no
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Portuguese \(BR\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 pt
 
@@ -420,14 +420,14 @@ pt
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Russian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ru
 
@@ -436,14 +436,14 @@ ru
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Slovenian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sl
 
@@ -452,14 +452,14 @@ sl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Spanish \(ES\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 es
 
@@ -468,14 +468,14 @@ es
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Swedish
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sv
 
@@ -484,14 +484,14 @@ sv
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Thai
 
 
 
 </td>
-<td>
+<td valign="top">
 
 th
 
@@ -500,14 +500,14 @@ th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Turkish
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tr
 
@@ -516,14 +516,14 @@ tr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Ukrainian
 
 
 
 </td>
-<td>
+<td valign="top">
 
 uk
 

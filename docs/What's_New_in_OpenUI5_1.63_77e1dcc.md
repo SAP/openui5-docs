@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.62 to 1.63.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Custom Currencies**
 
@@ -34,7 +34,7 @@ For more information, see [Currency Formatting](Currency_Formatting_e978728.md).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **UI5 Web Components**
 
@@ -61,7 +61,7 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.ShellBar` \(Experimental\)**
 
@@ -76,7 +76,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.upload.UploadSet`**
 
@@ -99,7 +99,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -132,7 +132,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Avatar`**
 
@@ -143,7 +143,7 @@ We have introduced a fallback image behavior that handles situations when the pr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`**
 
@@ -154,7 +154,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.semantic.SemanticPage`**
 
@@ -165,7 +165,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ObjectNumber`**, **`sap.m.ObjectStatus`**
 
@@ -176,7 +176,7 @@ You can now display both controls with a large font size, thus meeting the SAP F
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -187,7 +187,7 @@ To ensure that the value states are displayed in all situations and devices, the
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.cssgrid.CSSGrid`**
 
@@ -208,7 +208,7 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **API Reference Tree**
 
@@ -222,7 +222,7 @@ We have improved the *API Reference* tree to use proper nesting of the OpenUI5 s
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

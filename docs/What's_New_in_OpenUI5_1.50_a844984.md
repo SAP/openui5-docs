@@ -25,7 +25,7 @@ The global search has been improved and the results are now displayed in categor
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 The new Demo Kit contains the following sections:
 
@@ -43,7 +43,7 @@ The new Demo Kit contains the following sections:
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
@@ -70,6 +70,7 @@ The new Demo Kit contains the following sections:
     -   `sap.ui.model.type.DateTimeInterval` - a date interval with the exact point of time
 
     -   `sap.ui.model.type.TimeInterval` - a time interval \(without date\)
+
 
     For more information, see [sap.ui.model.type.DateTimeInterval](sap.ui.model.type.DateTimeInterval_94658aa.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type). 
 
@@ -140,6 +141,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 
     -   With the new content aggregation of the `DynamicPageTitle`, you can add content in the middle area of the title. This content is displayed both in the expanded and collapsed states of the `DynamicPageHeader`.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle).
 
 -   `sap.f.semantic.SemanticPage`: To align with the latest SAP Fiori design guidelines, the following changes were implemented:
@@ -147,6 +149,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
     -   The position of the draft indicator is changed to be the first one before the finalizing actions in the footer toolbar of the page.
 
     -   A new *Edit* button was added as the main action and the order of the actions changed to *Edit*, *Delete*, *Copy*, and *Add*.
+
 
     For more information, see [Semantic Page \(sap.f\)](Semantic_Page_(sap.f)_47dc868.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.SemanticPage/preview).
 
@@ -157,6 +160,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
          ![](loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
 
     -    `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
+
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Label).
 
@@ -170,6 +174,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
     -   With the use of the new `builtInViews` property the app developer can now define which of the built-in views are displayed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarViews/preview).
 
     -   To save space, the days are now displayed on the same line as the dates. If you want to display the day names on a separate line, set the `showDayNamesLine` property to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarSingle/preview).
+
 
 -   `sap.m.ProgressIndicator`: You can now set the control in a display-only state using the new `displayOnly` property. When set to `true`, the control has different visualization and is not active, not editable, and cannot be focused. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ProgressIndicator) and the [Samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ProgressIndicator/preview).
 
@@ -188,7 +193,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 -   `sap.ui.layout.form.Form` and `sap.ui.layout.form.SimpleForm`: The samples, including the descriptions, have been simplified and are now more consistent. For more information, see the [Form](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.Form) and the [SimpleForm](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.SimpleForm) samples.
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

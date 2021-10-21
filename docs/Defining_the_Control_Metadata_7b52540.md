@@ -24,6 +24,7 @@ The control metadata is defined as follows:
 
     -   `defaultValue`: Default value that is set if the application does not set a value; if no default value is defined, the property value is `undefined`.
 
+
     These control-specific settings are only available when inheriting from a control or one of the base classes `sap.ui.core.Control`, `sap.ui.core.Element`, `sap.ui.base.ManagedObject`, see [Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
 
 -   Events
@@ -61,6 +62,7 @@ The control metadata is defined as follows:
     -    `multiple`: Defines whether it is a 0..1 aggregation or a 0..n aggregation; the default for aggregations is `true` = 0..n, and for associations the default is `false`
 
     -    `singularName`: For 0..n aggregations, the aggregation name typically is plural, but certain methods are created where the singular form is required \(for example, `addWorksetItem`\} for the "worksetItems" aggregation\).
+
 
     If only the type needs to be set, you can just give it as a string instead of the configuration object.
 

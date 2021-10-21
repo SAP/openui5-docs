@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.68 to 1.69.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **New Themes for SAP Fiori 3 User Experience**
 
@@ -32,7 +32,7 @@ The High Contrast White \(HCW\) and High Contrast Black \(HCB\) themes \(`sap_fi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Require Modules in XML Views and Fragments**
 
@@ -57,7 +57,7 @@ For details and examples, see [Require Modules in XML View and Fragment](Require
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -94,7 +94,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Avatar`**
 
@@ -110,7 +110,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Breadcrumbs`**
 
@@ -121,7 +121,7 @@ You can now choose different separator styles to be displayed between the `Bread
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ListBase`, `sap.m.ListItemBase`**
 
@@ -132,7 +132,7 @@ These controls now support a range selection with key combinations if the `Multi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NavContainer`**
 
@@ -143,7 +143,7 @@ We have improved the fade and slide animations when navigating forward and backw
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.QuickViewPage`**
 
@@ -154,7 +154,7 @@ We have introduced a new `fallbackIcon` property. It allows you to define an ico
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SearchField`**
 
@@ -165,7 +165,7 @@ We have made some changes in the suggestions dialog for the `SearchField` contro
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -176,7 +176,7 @@ The items in the select list now have a maximum width. If the text of the items 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -187,7 +187,7 @@ A new *Month* view is now available for the control. It displays a calendar mont
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.plugins.MultiSelectionPlugin`**
 
@@ -198,7 +198,7 @@ The plugin for the `sap.ui.table.AnalyticalTable`, the `sap.ui.table.Table`, and
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.Calendar`**
 
@@ -210,7 +210,7 @@ We have implemented year range in the `Calendar` control to help the user naviga
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

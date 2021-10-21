@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.NotificationList`**
 
@@ -42,7 +42,7 @@ The control provides a container for `sap.m.NotificationListGroup` and `sap.m.No
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)**
 
@@ -63,7 +63,7 @@ You can now simulate scroll in controls that provide a scrollable area. For more
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.IllustratedMessage` \(Experimental\)**
 
@@ -79,7 +79,7 @@ We have implemented two new samples for specific scenarios:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.gantt`**
 
@@ -92,7 +92,7 @@ Key users can now use the new customization feature to make changes to the user 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Dialog`**
 
@@ -103,7 +103,7 @@ The control adopts the `setWithinArea` feature of `sap.ui.core.Popup`. Now, when
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -114,7 +114,7 @@ We have introduced a new `TabsOverflowMode` property, which defines the overflow
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`, `sap.m.MultiInput`**
 
@@ -125,7 +125,7 @@ We have introduced a new property called `enableTableAutoPopinMode`. The propert
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.InputBase`**
 
@@ -136,7 +136,7 @@ We have introduced a new association called `ariaDescribedBy`. The association i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.TimePicker`**
 
@@ -151,7 +151,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -166,7 +166,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

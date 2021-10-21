@@ -73,14 +73,14 @@ Here's what the settings for the two resources mean:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Setting**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Explanation**
 
@@ -89,14 +89,14 @@ Here's what the settings for the two resources mean:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `path`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application path to be mapped
 
@@ -105,14 +105,14 @@ Application path to be mapped
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of resource
 
@@ -121,14 +121,14 @@ Type of resource
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `name`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Name of the resource
 
@@ -137,14 +137,14 @@ Name of the resource
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `entyPath`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Path prepended to the request path
 

@@ -163,14 +163,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Notation/Values
 
@@ -179,14 +179,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `boolean`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `true` and `x` are both accepted as true values \(case-insensitive\), all others are false. We recommend to use `false` for false values
 
@@ -195,14 +195,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `int`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Any integer value
 
@@ -211,14 +211,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `string array`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Comma-separated list of values; commas within a string are not supported \(no escaping\)
 
@@ -227,14 +227,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     map from string to string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     JavaScript object literal \(preferably JSON syntax\)
 

@@ -28,6 +28,7 @@ The following properties of `sap.ui.core.message.Message` instances are importan
 
     -   Binding path: The `sap.ui.model.Model` propagates these messages to affected bindings.
 
+
 -   Message processor: The object that handles the message in the application and propagates the message to correct controls, bindings, or other objects, see `sap.ui.core.message.ControlMessageProcessor` in the API reference.
 
 -   Type: Defines the severity of the message; possible types are: error, warning, info, and success, see `sap.ui.core.MessageType` in the API reference.

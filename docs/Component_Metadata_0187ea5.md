@@ -51,6 +51,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
     -   `ui5version`: Minimum version of OpenUI5 that the component requires; it helps to be ensure that the features of OpenUI5 runtime used in this component are available. As OpenUI5 currently does not enforce the use of the correct version, it is only used for information purposes.
 
+
 -   `config`: Static configuration; specify the name-value pairs that you need in the component
 
 -   `extensions`: Extensions for components and views, see [Extending Apps](Extending_Apps_a264a9a.md)
@@ -64,6 +65,7 @@ The following properties are deprecated and no longer needed if you use the desc
     -   `sap.ui.controllerExtensions`: Used for extending a controller in a delivered standard application with a custom controller
 
     -   `sap.ui.controllerReplacements`: Used for replacing a controller in a delivered standard application with a custom controller
+
 
 
 Example for metadata in `Component.js`:
@@ -112,6 +114,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
         -   `clearTarget`: Boolean; if set to `true`, the aggregation should be cleared before adding the View to it
 
+
     -   `routes`: Contains the configuration objects
 
         -   `name`: Mandatory parameter used for listening or navigating to the route
@@ -119,6 +122,8 @@ The following properties are deprecated and no longer needed if you use the desc
         -   `pattern`: String that is matched against the hash. The \{\} means this segment of the URL is passed to a handler with the value it contains
 
         -   `view`: Name of the view that is created
+
+
 
 
 Example for UI component metadata:

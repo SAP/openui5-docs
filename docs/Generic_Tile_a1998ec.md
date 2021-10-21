@@ -42,6 +42,7 @@ The `GenericTile` control provides a header area, a content area, and a status a
 
     -   `ImageContent` \(`frameType` 1x1\): images and icons
 
+
 -   Status area
 
     A status can be displayed. The status area is not mandatory.

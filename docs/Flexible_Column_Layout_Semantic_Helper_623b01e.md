@@ -29,11 +29,13 @@ Here is a short overview of some of the rules of the default rule set:
 
     -   Choosing the *Fullscreen* button changes the layout to `MidColumnFullScreen`. The *Fullscreen* button is then replaced with an *ExitFullscreen* button, which restores the layout to `TwoColumnsBeginExpanded`.
 
+
 -   If the user selects an item from the `Mid` column:
 
     -   If the current layout is `TwoColumnsBeginExpanded`/`TwoColumnsMidExpanded`, the layout changes to `ThreeColumnsMidExpanded`. The *Close* and *Fullscreen* buttons should now be displayed only in the `End` column.
 
     -   If the current layout is `MidColumnFullScreen`, the layout changes to `EndColumnFullScreen`.
+
 
 -   If the user selects an item from the `End` column \(which represents the third logical level of information\), the layout should change to `EndColumnFullScreen` and the forth \(then fifth, etc.\) logical level should again be displayed in the `End` column.
 

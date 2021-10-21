@@ -26,28 +26,28 @@ Specific log messages only appear in the console when the severity of the issue 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Severity
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Log Level
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -56,56 +56,56 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `NONE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No messages are written to the console
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `FATAL` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unrecoverable situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A parse error occurred while processing a JavaScript file or an XML view
 
@@ -114,28 +114,28 @@ A parse error occurred while processing a JavaScript file or an XML view
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ERROR` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1 \(Default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Erroneous but recoverable situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Loading a requested module failed
 
@@ -144,28 +144,28 @@ Loading a requested module failed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `WARNING` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unwanted but foreseen situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Wrong property format was passed to a control
 
@@ -174,28 +174,28 @@ Wrong property format was passed to a control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `INFO` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Purely informative
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A configuration parameter was set
 
@@ -204,28 +204,28 @@ A configuration parameter was set
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `DEBUG` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4 \(Debug Mode\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Information necessary for debugging
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A framework event was fired
 
@@ -234,28 +234,28 @@ A framework event was fired
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `TRACE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tracing the program flow
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A certain position in the code was reached
 
@@ -264,28 +264,28 @@ A certain position in the code was reached
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ALL` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Messages of all severity categories are written to the console
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 

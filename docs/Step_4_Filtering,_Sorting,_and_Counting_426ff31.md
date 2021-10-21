@@ -248,11 +248,11 @@ sortNone=the sequence on the server*HIGHLIGHT END*
 
 We add the missing texts to the properties file.
 
-**Parent topicColonSymbol** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Previous topicColonSymbol** [Step 3: Automatic Data Type Detection](Step_3_Automatic_Data_Type_Detection_96bb6e0.md "In this step, we use the automatic data type detection of the OData V4 model to parse, validate, and format user entries. The service metadata contains type information for the properties of each entity.")
+**Next:** [Step 3: Automatic Data Type Detection](Step_3_Automatic_Data_Type_Detection_96bb6e0.md "In this step, we use the automatic data type detection of the OData V4 model to parse, validate, and format user entries. The service metadata contains type information for the properties of each entity.")
 
-**Next topicColonSymbol** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
+**Previous:** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
 
 **Related Information**  
 

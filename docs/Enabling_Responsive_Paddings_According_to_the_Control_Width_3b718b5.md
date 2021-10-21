@@ -32,21 +32,21 @@ Based on the container’s size, one of the following classes is added, and the 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Container Size \(pixels\)
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Class
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Padding-Left and Padding-Right Applied
 
@@ -55,21 +55,21 @@ Padding-Left and Padding-Right Applied
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <= 600
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sapUi-Std-PaddingS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1rem
 
@@ -78,21 +78,21 @@ sapUi-Std-PaddingS
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \>600
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sapUi-Std-PaddingM
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2rem
 
@@ -101,21 +101,21 @@ sapUi-Std-PaddingM
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \>1024
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sapUi-Std-PaddingL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2rem
 
@@ -124,21 +124,21 @@ sapUi-Std-PaddingL
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \>1440
 
 
 
 </td>
-<td>
+<td valign="top">
 
 sapUi-Std-PaddingXL
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3rem
 
@@ -157,42 +157,42 @@ The following table shows the controls that support responsive paddings. To enab
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Supported Controls
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sapUiResponsivePadding--header` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sapUiResponsivePadding--subHeader` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sapUiResponsivePadding--content` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sapUiResponsivePadding--footer` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sapUiResponsivePadding--floatingFooter` 
 
@@ -201,7 +201,7 @@ Supported Controls
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.m.Dialog`
 
@@ -214,35 +214,35 @@ Supported Controls
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -251,42 +251,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.IconTabBar` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -295,42 +295,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.ObjectHeader` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -339,42 +339,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.Page` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -383,42 +383,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.Popover` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -427,42 +427,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.TabContainer` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -471,42 +471,42 @@ Supported Controls
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.Wizard` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 

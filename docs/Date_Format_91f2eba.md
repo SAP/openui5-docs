@@ -71,14 +71,14 @@ The letters which can be included in this pattern are explained in the following
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Letter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Replaced By
 
@@ -87,14 +87,14 @@ Replaced By
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `G` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 era string for the current date
 
@@ -103,14 +103,14 @@ era string for the current date
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `y` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 year
 
@@ -119,14 +119,14 @@ year
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Y` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Same as `y`, but uses the ISO year-week calendar
 
@@ -135,14 +135,14 @@ Same as `y`, but uses the ISO year-week calendar
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `M` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 month
 
@@ -151,14 +151,14 @@ month
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `L` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 month in stand-alone format
 
@@ -167,14 +167,14 @@ month in stand-alone format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `w` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 week number in year
 
@@ -183,14 +183,14 @@ week number in year
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \(`W`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(currently not supported\) week number in month
 
@@ -199,14 +199,14 @@ week number in year
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \(`D`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(currently not supported\) day number in year
 
@@ -215,14 +215,14 @@ week number in year
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `d` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 day number in month
 
@@ -231,14 +231,14 @@ day number in month
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Q` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 quarter number
 
@@ -247,14 +247,14 @@ quarter number
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `q` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 quarter number in stand-alone format
 
@@ -263,14 +263,14 @@ quarter number in stand-alone format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \(`F`\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(currently not supported\) day of week in month
 
@@ -279,14 +279,14 @@ quarter number in stand-alone format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `E` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 day of week
 
@@ -295,14 +295,14 @@ day of week
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `c` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 day of week in stand-alone format
 
@@ -311,14 +311,14 @@ day of week in stand-alone format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `u` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 day number of week
 
@@ -327,14 +327,14 @@ day number of week
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `a` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 AM or PM
 
@@ -343,14 +343,14 @@ AM or PM
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `j` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k` depending on the locale preferred time cycle type \(12-hour or 24-hour\).
 
@@ -359,14 +359,14 @@ Can only be used in the `format` option, not in the `pattern`. It will be replac
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `J` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Can only be used in the `format` option, not in the `pattern`. It will be replaced by `h`, `H`, `K` or `k`. However unlike `j` it requests no `dayPeriod` marker such as "am" or "pm". It is typically used where there is enough context that the day period not necessary. For example, with `jmm`, "18:00" could appear as "6:00 PM", while with `Jmm`, it would appear as "6:00" \(no PM\).
 
@@ -375,14 +375,14 @@ Can only be used in the `format` option, not in the `pattern`. It will be replac
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `H` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hour \(0-23\)
 
@@ -391,14 +391,14 @@ hour \(0-23\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `k` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hour \(1-24\)
 
@@ -407,14 +407,14 @@ hour \(1-24\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `K` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hour \(0-11\)
 
@@ -423,14 +423,14 @@ hour \(0-11\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `h` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hour \(1-12\)
 
@@ -439,14 +439,14 @@ hour \(1-12\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `m` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 minute
 
@@ -455,14 +455,14 @@ minute
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `s` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 second
 
@@ -471,14 +471,14 @@ second
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `S` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 fractional second
 
@@ -487,14 +487,14 @@ fractional second
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `z` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 time zone
 
@@ -503,14 +503,14 @@ time zone
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Z` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 time zone in RFC 822 format
 
@@ -519,14 +519,14 @@ time zone in RFC 822 format
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `X` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 time zone in ISO 8601 format
 

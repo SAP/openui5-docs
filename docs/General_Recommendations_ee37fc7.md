@@ -95,6 +95,7 @@ Start the application and check each screen element. Check the following:
 
     -   Is this also true for grouped information?
 
+
 -   Is the user informed about the required entries and input?
 
 

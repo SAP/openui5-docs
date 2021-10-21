@@ -205,14 +205,14 @@ If you use a component that is embedded in a library, and the application declar
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Old Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Recommended Code
 
@@ -221,7 +221,7 @@ Recommended Code
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `manifest.json` with dependency declaration only:
 
@@ -240,7 +240,7 @@ Recommended Code
 
 
 </td>
-<td>
+<td valign="top">
 
 `manifest.json` with declaration of reuse components:
 
@@ -271,7 +271,7 @@ Recommended Code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Component.js` with nested reuse component:
 
@@ -288,7 +288,7 @@ createContent: function() {
 
 
 </td>
-<td>
+<td valign="top">
 
  `Component.js` that loads the reuse component
 

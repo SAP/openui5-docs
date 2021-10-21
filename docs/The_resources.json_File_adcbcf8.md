@@ -24,28 +24,28 @@ The list of resources is stored in an array in the `resources` property of the t
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mandatory
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -54,28 +54,28 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The relative path of the resource as accessible in a server. The path is relative to the location of the `resources.json` file, for example `Component.js`.
 
@@ -84,28 +84,28 @@ The relative path of the resource as accessible in a server. The path is relativ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `size` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The size in bytes of the resource.
 
@@ -114,28 +114,28 @@ The size in bytes of the resource.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `condRequired` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A list of conditional dependencies of this resource. These dependencies can be required during execution of this resource.
 
@@ -144,28 +144,28 @@ A list of conditional dependencies of this resource. These dependencies can be r
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `designtime` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When set to `true`, the resource is considered a designtime resource. The OpenUI5 build derives the flag from the naming convention \(could be `/designtime/`, `.designtime.js`, `.control`, `.interface`, `.type`, `.less`, `library.templates.xml`, `library.dependencies.xml`, or `library.dependencies.json`\).
 
@@ -174,28 +174,28 @@ When set to `true`, the resource is considered a designtime resource. The OpenUI
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `dynRequired` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When set to `true`, the resource has dynamic dependencies. The name of this dependency could not be resolved during build time.
 
@@ -204,28 +204,28 @@ When set to `true`, the resource has dynamic dependencies. The name of this depe
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `exposedGlobalNames` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A list of variables which are exposed to the global JS scope.
 
@@ -234,28 +234,28 @@ A list of variables which are exposed to the global JS scope.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `format` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the format of this resource; `raw` means that it is not a UI5 module.
 
@@ -264,28 +264,28 @@ Defines the format of this resource; `raw` means that it is not a UI5 module.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `included` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List of sub-modules which are included in this resource, e.g. the `Component-preload.js` typically has the `included` property.
 
@@ -294,28 +294,28 @@ List of sub-modules which are included in this resource, e.g. the `Component-pre
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `isDebug` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When set to `true`, the resource is a debug source, the OpenUI5 build derives the flag from the naming convention \(`-dbg(.controller .view .fragment).js`\).
 
@@ -324,28 +324,28 @@ When set to `true`, the resource is a debug source, the OpenUI5 build derives th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `locale` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Locale of the resource for known i18n resources; the OpenUI5 build derives the locale from the naming convention \(`*_[locale].properties`\).
 
@@ -354,28 +354,28 @@ Locale of the resource for known i18n resources; the OpenUI5 build derives the l
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `merged` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Indicates whether the resource is a merged resource. By default, the OpenUI5 build determines this from naming conventions \(`library-preload.json`, `library-all.js`, `Component-preload.js`\), but it also allows to add more merged files by manual configuration of the build step. SAP Web IDE may use other knowledge for this; it knows, for example, that it merges the`Component-preload.js`.
 
@@ -384,28 +384,28 @@ Indicates whether the resource is a merged resource. By default, the OpenUI5 bui
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `module` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the UI5 module, including the file extension.
 
@@ -414,28 +414,28 @@ The name of the UI5 module, including the file extension.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `raw` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The name of the corresponding resource in the raw \(developer\) language for known i18n resources; for example, for`messagebundle.en.properties`, the corresponding raw file is `messagebundle.properties`.
 
@@ -444,28 +444,28 @@ The name of the corresponding resource in the raw \(developer\) language for kno
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `required` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A list of dependencies of this resource. These dependencies are required prior to using this resource.
 
@@ -474,28 +474,28 @@ A list of dependencies of this resource. These dependencies are required prior t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `support` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When set to `true`, the resource is considered a ssupport assistant resource.
 
@@ -506,28 +506,28 @@ The OpenUI5 build derives this flag from the naming convention `.support.js`.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `theme` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Indicates a theme-dependent resource.
 

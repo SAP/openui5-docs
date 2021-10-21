@@ -60,14 +60,14 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Views**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Views in the descriptor for applications, components, and libraries
 
@@ -140,14 +140,14 @@ The generated IDs change whenever the control structure of the app changes. The 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Extension points** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.
 
@@ -156,14 +156,14 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Controls** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Controls in XML views
 
@@ -201,14 +201,14 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Components** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Note:  
 > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
@@ -239,14 +239,14 @@ new Shell({
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Embedded Components** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you want to add an embedded component with a stable ID, you have two options:
 
@@ -312,14 +312,14 @@ If you want to add an embedded component with a stable ID, you have two options:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **XML fragments** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you use XML fragments in your app, make sure they are instantiated with the correct view ID prefix.To simplify this you can use the `loadFragment` function on your `sap.ui.core.mvc.Controller` instance.
 
@@ -372,28 +372,28 @@ If you build an app using the following stable IDs for the component and the vie
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Component
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Views
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Contained views
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Concatenated IDs
 
@@ -402,28 +402,28 @@ Concatenated IDs
 </th>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
  ***myProducts*** 
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
  ***worklist*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***page*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---worklist--page` 
 
@@ -432,14 +432,14 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  ***table*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---worklist--table` 
 
@@ -448,21 +448,21 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
  ***product*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***page*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---product--page` 
 
@@ -471,14 +471,14 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  ***objectHeader*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---product--objectHeader` 
 

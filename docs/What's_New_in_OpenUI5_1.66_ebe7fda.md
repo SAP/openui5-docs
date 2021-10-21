@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.65 to 1.66.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -48,7 +48,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Support for New Era in the Japanese Calendar**
 
@@ -69,7 +69,7 @@ Starting May 1, 2019, OpenUI5 supports a new era in the Japanese calendar, due t
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer` \(Experimental\)**
 
@@ -89,7 +89,7 @@ For more information, see [sap.f.GridContainer](sap.f.GridContainer_cca5ee5.md) 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`, `sap.m.MultiComboBox`**
 
@@ -100,7 +100,7 @@ The options list used in these controls is now instantiated lazily. The list is 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DateRangeSelection`**
 
@@ -120,7 +120,7 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entit
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Input`**
 
@@ -133,7 +133,7 @@ We have adjusted the value state text for the `sap.m.Input` control. The value s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ObjectStatus`**
 
@@ -144,7 +144,7 @@ You can now switch the background and text colors using the new `inverted` prope
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -155,7 +155,7 @@ To be better aligned with the other input controls, we have implemented a new `e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -183,7 +183,7 @@ To be better aligned with the other input controls, we have implemented a new `e
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OData V2 Messaging Documentation**
 
@@ -195,7 +195,7 @@ The OData V2 Messaging documentation has been enhanced and improved. See [Error,
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

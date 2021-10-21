@@ -41,21 +41,21 @@ You can use the `sap.ui.layout.Grid` on its own or in combination with the `sap.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example Values
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -64,14 +64,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `defaultSpan`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `"XL3 L4 M6 S12"`  
  `"XL6 M6"`  
@@ -80,7 +80,7 @@ Description
 
 
 </td>
-<td>
+<td valign="top">
 
 Determines the span of the items for the different screen/container sizes \(XL, L, M, and S\). Each item can be set to span over several grid columns \(from 1 to 12\).
 
@@ -89,14 +89,14 @@ Determines the span of the items for the different screen/container sizes \(XL, 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `defaultIndent`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `"XL4 L3 M2 S1"`  
  `"XL2 L1"`  
@@ -105,7 +105,7 @@ Determines the span of the items for the different screen/container sizes \(XL, 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the number of columns with which each item is indented for the different screen/container sizes \(XL, L, M, and S\). Each item can be indented with several grid columns \(from 0 to 11\).
 
@@ -132,7 +132,7 @@ In addition to individual span and indentation, there is a large number of prope
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 ``` xml
 <l:Grid
@@ -147,7 +147,7 @@ In addition to individual span and indentation, there is a large number of prope
 
 
 </td>
-<td>
+<td valign="top">
 
 XL container/screen size \(one item spans over 3 columns\)
 
@@ -170,7 +170,7 @@ S container/screen size \(one item spans over 12 columns\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` xml
 <l:Grid
@@ -186,7 +186,7 @@ S container/screen size \(one item spans over 12 columns\)
 
 
 </td>
-<td>
+<td valign="top">
 
 XL container/screen size \(items are indented with 1 column\)
 
@@ -197,7 +197,7 @@ XL container/screen size \(items are indented with 1 column\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` xml
 <l:Grid
@@ -220,7 +220,7 @@ XL container/screen size \(items are indented with 1 column\)
 
 
 </td>
-<td>
+<td valign="top">
 
 Individual span for item2 and item4 using `sap.ui.layout.GridData`
 

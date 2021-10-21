@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.70 to 1.71.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Card Explorer**
 
@@ -36,7 +36,7 @@ For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Pre-Announcement: Deprecation of the SAPUI5 Tools for Eclipse**
 
@@ -52,7 +52,7 @@ We recommend that you use SAP Web IDE as the development environment for SAPUI5.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -79,7 +79,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Support Assistant**
 
@@ -100,7 +100,7 @@ The file extension assertion `getReportAsFileInFormat` for OPA tests; which enab
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.dnd.GridDropInfo`**
 
@@ -111,7 +111,7 @@ We have introduced a new `dropIndicatorSize` property. It allows the app develop
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.DynamicPage`, `sap.uxap.ObjectPageLayout`**
 
@@ -122,7 +122,7 @@ We introduced visual improvements based on the latest SAP Fiori Design Guideline
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.FlexibleColumnLayout`**
 
@@ -133,7 +133,7 @@ We introduced a visual improvement of the column separator to enhance its visibi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -144,7 +144,7 @@ This control is no longer experimental, but some properties, methods, and aggreg
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Dialog, sap.m.IconTabBar`, and `sap.m.Input`**
 
@@ -160,7 +160,7 @@ Visual improvements based on the latest SAP Fiori Design Guidelines were impleme
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Label`**
 
@@ -171,7 +171,7 @@ Visual changes have been introduced. If the `required` property is set to `true`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Link`**
 
@@ -182,7 +182,7 @@ A new key user adaptation/SAPUI5 flexibility feature now enables the `target` pr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.PlanningCalendar`**
 
@@ -193,7 +193,7 @@ We have changed the look of the `sap.m.PlanningCalendar`. The header part is now
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SelectDialog`**
 
@@ -204,7 +204,7 @@ We have updated the behavior of the `sap.m.SelectDialog` when the single selecti
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -215,7 +215,7 @@ A new `viewChange` event has been introduced, which is fired when the user chang
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.TableSelectDialog`**
 
@@ -226,7 +226,7 @@ The new `resizable` and `draggable` properties have been introduced which affect
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ViewSettingsDialog`**
 
@@ -237,7 +237,7 @@ We have improved the user experience of the search. When there are no items matc
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -253,7 +253,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
@@ -267,7 +267,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

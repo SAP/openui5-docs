@@ -39,11 +39,13 @@ To ensure maximum security for a renderer, note the following:
 
     -   Use `sap/base/security/encodeXML` for string properties where none of the other two options is possible to escape the string and then process it further.
 
+
 -   Check your HTML coding whether application values can make their way into the HTML:
 
     -   Check where the variable values come from: Can the application set a value directly or only decide which of the hardcoded values are used?
     -   Escape values given in parameters in method calls of controls because they are currently not validated by OpenUI5 core.
     -   Keep in mind that XSS can happen anywhere and anytime in CSS classes, or in styles.
+
 
 **Related Information**  
 

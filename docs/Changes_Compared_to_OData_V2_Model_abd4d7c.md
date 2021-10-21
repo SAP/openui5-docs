@@ -26,14 +26,14 @@ These differences will therefore remain even after all features have been implem
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Change
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Reason
 
@@ -42,14 +42,14 @@ Reason
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Binding parameter names: The binding parameter name for an OData system query option is identical to the system query option name: `$expand`, `$select`, ... \(V2 uses `expand`, `select`\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: The OData V4 model simplifies the binding parameter structure to just one map where all entries in the map are OData query options, with the exception of entries that have a key starting with "$$" \(binding-specific parameters\). In all cases, the names of the binding parameters are exactly the same as in the OData URL sent to the server.
 
@@ -58,14 +58,14 @@ Simplification: The OData V4 model simplifies the binding parameter structure to
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 The model does not support the methods `getData`, `getObject`, `getOriginalProperty`, `getProperty`. For data access, use the context API instead of methods on the model.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 OData requires asynchronous data retrieval: Synchronous data access requires that data has already been loaded from the server. This means there is no way of knowing whether this already happened, meaning the result of a synchronous access method is quite often unpredictable.
 
@@ -76,14 +76,14 @@ The OData V4 context API offers ansynchronous and synchronous access to the data
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Minimize APIs required for batch control: Model does not support the methods `getChangeBatchGroups`, `getChangeGroups`, `getDeferredGroups`, `setChangeBatchGroups`, `setChangeGroups`, `setDeferredBatchGroups`, `setDeferredGroups`, `setUseBatch` \(and corresponding model construction parameters\).
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: Batch groups are solely defined via binding parameters with the corresponding parameters on the model as default. Application groups are by default deferred; there is no need to set or get deferred groups. You just need the `submitBatch` method on the model to control execution of the batch. You can use the predefined batch group `"$direct"` to switch off batch either for the complete model or for a specific binding \(only possible for the complete model in V2\). For more information, see [Batch Control](Batch_Control_74142a3.md).
 
@@ -92,14 +92,14 @@ Simplification: Batch groups are solely defined via binding parameters with the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OData operations executed via binding: Model does not support the method `callFunction`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: Use an operation binding instead; it is now much easier to bind operation execution results to controls.
 
@@ -108,14 +108,14 @@ Simplification: Use an operation binding instead; it is now much easier to bind 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 No CRUD methods on model: Model does not support the methods `create`, `read`, `remove`, `update`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: `read`, `update`, `create` and `remove` operations are available implicitly via the bindings. Bindings can also be used without controls. It is not possible to trigger requests for specific OData URLs. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).
 
@@ -124,14 +124,14 @@ Simplification: `read`, `update`, `create` and `remove` operations are available
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 No metadata access via model: Model does not support methods `getServiceAnnotations`, `getServiceMetadata`, `refreshMetadata` as well as methods corresponding to the events `metadataFailed`, `metadataLoaded`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: Metadata is only accessed via `ODataMetaModel`. Metadata is only loaded when needed \(e.g. for type detection or to compute URLs for write requests\); the corresponding methods on the `v4.ODataMetaModel` use promises instead of events.
 
@@ -140,14 +140,14 @@ Simplification: Metadata is only accessed via `ODataMetaModel`. Metadata is only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is not supported for OData V4.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html) is provided by [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)and [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html). You can find the remaining functionality in the OData V4 specific [sap.ui.model.odata.v4.AnnotationHelper](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper.html).
 
@@ -159,14 +159,14 @@ Simplification: Much of the functionality in [sap.ui.model.odata.AnnotationHelpe
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 The property binding automatically determines the appropriate type depending on the property's metadata, unless a type is specified explicitly.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For more information, see [Type Determination](Type_Determination_53cdd55.md).
 

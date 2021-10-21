@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Accessibility Enhancement** 
 
@@ -32,7 +32,7 @@ OpenUI5 is following the SAP ‘s updated design and development guidelines, as 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Browser and Platform Support**
 
@@ -53,7 +53,7 @@ OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The ne
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Card Explorer**
 
@@ -64,7 +64,7 @@ We have introduced a schema validation feature in our samples in the Card Explor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Currency Codes**
 
@@ -77,7 +77,7 @@ If currency symbols are enabled \(formatting option `currencyCode: false`\), the
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Messages**
 
@@ -88,7 +88,7 @@ With the new version of the OpenUI5 OData V2 model, the target of server message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -110,7 +110,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Title Support in Nested Components**
 
@@ -135,7 +135,7 @@ For more information, see [Using the title Property in Targets](Using_the_title_
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.InitialPagePattern`**
 
@@ -146,7 +146,7 @@ We have introduced the initial page floorplan as a Demo Kit sample. The floorpla
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Link`**
 
@@ -159,7 +159,7 @@ For more information, see the [Samples](https://openui5.hana.ondemand.com/#/enti
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.MessageBox`**
 
@@ -170,7 +170,7 @@ We have introduced a new `emphasizedAction` property. This allows developers to 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ObjectStatus`**
 
@@ -181,7 +181,7 @@ We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors wer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -199,7 +199,7 @@ For more information, see the [Adaptive Card](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
@@ -220,7 +220,7 @@ A more comprehensive message text is now shown if no data is available because a
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 ***Edit on GitHub* link from each OpenUI5 *Documentation* page**
 
@@ -233,7 +233,7 @@ We have added a direct link from each OpenUI5 documentation page to its markdown
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Search Highlighting in the *Documentation* and *Samples* sections**
 
@@ -249,7 +249,7 @@ The search highlighting functionality is now also available in the *Documentatio
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

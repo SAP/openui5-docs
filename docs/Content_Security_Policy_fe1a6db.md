@@ -8,6 +8,8 @@
 
 view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe1a6dba940e479fb7c3bc753f92b28c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe1a6dba940e479fb7c3bc753f92b28c)</div>
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 ## Content Security Policy
 
 Content Security Policy \(CSP\) adds an additional layer of security that can detect and mitigate certain types of attacks, such as cross-site scripting and data injection.
@@ -93,21 +95,21 @@ To run an app in an environment in which CSP has been enabled, OpenUI5 requires 
 
 <table>
 <tr>
-<th rowspan="2">
+<th valign="top" rowspan="2">
 
 Directive
 
 
 
 </th>
-<th colspan="4">
+<th valign="top" colspan="4">
 
 Sources Required by the OpenUI5 Framework
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Sources Required by the App
 
@@ -116,7 +118,7 @@ Sources Required by the App
 </th>
 </tr>
 <tr>
-<th>
+<th valign="top">
 
 `<source hosting >`
 
@@ -125,28 +127,28 @@ Sources Required by the App
 
 
 </th>
-<th>
+<th valign="top">
 
 `data:`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `blob:`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Other Sources
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Custom Sources \(Including 'self' for the App's Own Origin\)
 
@@ -155,35 +157,35 @@ Custom Sources \(Including 'self' for the App's Own Origin\)
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `script-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `'unsafe-eval'`
 
@@ -193,15 +195,12 @@ Most likely required for deprecated APIs, especially for programming model APIs,
 
 -   `sap.apf`
 -   `sap.collaboration`
--   `sap.fe`
--   `sap.fe.v2`
 -   `sap.ovp`
 -   `sap.suite.ui.generic.template`
 -   `sap.rules.ui`
 -   `sap.ui.vbm`
 -   `sap.ushell`
 -   `sap.uxap`
--   `sap.webc.*`
 -   `sap.zen.*` \(non-deprecated part\)
 
 Required for the following libraries:
@@ -218,7 +217,7 @@ Required for the following libraries:
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Requires `'self'` for loading application resources.
 -   May require `'unsafe-inline'` or `'unsafe-eval'` depending on custom scripts.
@@ -228,35 +227,35 @@ Required for the following libraries:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `style-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `'unsafe-inline'`
 
@@ -288,7 +287,7 @@ Required for the following libraries:
 
 
 </td>
-<td>
+<td valign="top">
 
 -   May require `'self'` and additional locations for application-specific styles and themes.
 -   Requires `'unsafe-inline'` for custom controls using inline styles.
@@ -298,42 +297,42 @@ Required for the following libraries:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `img-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May require `'self'` or additional locations for application-specific images \(such as custom themes or images in the back end\).
 
@@ -342,42 +341,42 @@ May require `'self'` or additional locations for application-specific images \(s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `font-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May require `'self'` or additional locations for application-specific fonts.
 
@@ -386,42 +385,42 @@ May require `'self'` or additional locations for application-specific fonts.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `frame-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Required for using the support assistant and/or the diagnostics tool. Also required to avoid a fallback to `child-src`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May require additional locations depending on the integration, application, or test scenario.
 
@@ -430,42 +429,42 @@ May require additional locations depending on the integration, application, or t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `worker-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -474,42 +473,42 @@ May be required by some specific OpenUI5 functionality.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `child-src`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 May be required by some specific OpenUI5 functionality.
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -518,42 +517,42 @@ May be required by some specific OpenUI5 functionality.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `connect-src`
 
 
 
 </td>
-<td>
+<td valign="top">
 
-   
+<span style="color:#007833;"><span class="SAP-icons"></span></span>
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Some specific OpenUI5 functionality may require `wss:`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Requires `'self'` for loading application resources.
 
@@ -576,14 +575,14 @@ For the following functions and features, certain restrictions apply:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Library/Topic
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -592,14 +591,14 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.core` - Hyphenation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `script-src` requires `wasm-eval`
 
@@ -610,14 +609,14 @@ When native hyphenation is not available, a third-party library \(Hyphenopoly\) 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Support Assistant
 
 
 
 </td>
-<td>
+<td valign="top">
 
 For custom rules in the Support Assistant, dynamic code execution is essential, so it can't be removed. Support Assistant detects whether dynamic code execution is allowed and informs the user if custom rules can be used or not.
 
@@ -626,14 +625,14 @@ For custom rules in the Support Assistant, dynamic code execution is essential, 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Controls that display provided HTML text \(`sap.m.FormattedText`, etc.\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Certain controls display provided HTML text, for example `sap.m.FormattedText`. If the provided text contains a style attribute or a style element with inline styles, `'unsafe-inline'` is required for `style-src`.
 

@@ -54,11 +54,13 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
         document . addEventListener ( "mousemove" , fnHandler );
         ```
 
+
 2.  The same procedure should be applied for the all touch and mouse event pairs when these events are needed:
 
     -   `touchstart` and `mousedown`
     -   `touchmove` and `mousemove`
     -   `touchend`, `touchcancel` and `mouseup`
+
 
 ***
 

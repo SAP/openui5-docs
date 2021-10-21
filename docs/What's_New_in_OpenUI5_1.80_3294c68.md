@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.79 to 1.80.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.BadgeCustomData`, `sap.m.IBadgeEnabler`**
 
@@ -42,7 +42,7 @@ To facilitate control developers working on implementations of badges, we create
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -76,7 +76,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.GridContainer`**
 
@@ -88,7 +88,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -99,7 +99,7 @@ When you drag one tab over a tab with nested tabs, only one drop zone is availab
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.TablePersoDialog`**
 
@@ -110,7 +110,7 @@ The look and feel of the control has been improved based on the latest design gu
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.tnt.NavigationListItem`**
 
@@ -121,7 +121,7 @@ We have added `href` and `target` properties to improve the SEO capabilities of 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -143,7 +143,7 @@ We have added `href` and `target` properties to improve the SEO capabilities of 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit Language**
 
@@ -159,7 +159,7 @@ You can now change the language of the Demo Kit app from the *More information* 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Samples**
 
@@ -173,7 +173,7 @@ You can now view the sample description and any additional details directly from
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

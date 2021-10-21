@@ -203,6 +203,7 @@ Start a screen reader, start the application, walk through the application using
 
     -   Actively check that all visible UI elements are read.
 
+
 -   Is it read correctly?
 
     -   No duplicates?
@@ -210,6 +211,7 @@ Start a screen reader, start the application, walk through the application using
     -   No strange pronunciation, like reading English with German words or vice versa?
 
     -   No nonsense, wrong values, another element’s attributes?
+
 
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 

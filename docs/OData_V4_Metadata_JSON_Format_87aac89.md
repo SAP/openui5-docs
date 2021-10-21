@@ -237,21 +237,21 @@ Constant and dynamic expressions are used as values for annotations. Their JSON 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Expression
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Options
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Additional Information
 
@@ -260,14 +260,14 @@ Additional Information
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4 Constant Expressions
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `{"$Binary" : "T0RhdGE"}`
 
@@ -286,7 +286,7 @@ Additional Information
 
 
 </td>
-<td>
+<td valign="top">
 
 "Binary", "Date", "DateTimeOffset", "Decimal", "Duration", "Guid", "TimeOfDay" are objects with a single property that has a string value.
 
@@ -295,14 +295,14 @@ Additional Information
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4.2 Expression `Bool` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `false`
 
@@ -311,7 +311,7 @@ Additional Information
 
 
 </td>
-<td>
+<td valign="top">
 
 Is represented by the JavaScript boolean literals.
 
@@ -320,14 +320,14 @@ Is represented by the JavaScript boolean literals.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4.7 Expression `EnumMember` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `{"$EnumMember" : 42}`
 
@@ -336,7 +336,7 @@ Is represented by the JavaScript boolean literals.
 
 
 </td>
-<td>
+<td valign="top">
 
 Is represented like above object notation, but with a JavaScript number literal as long as the value is a safe integer, else with a string value.
 
@@ -345,14 +345,14 @@ Is represented like above object notation, but with a JavaScript number literal 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4.8 Expression `Float` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `3.1415926535`
 
@@ -365,7 +365,7 @@ Is represented like above object notation, but with a JavaScript number literal 
 
 
 </td>
-<td>
+<td valign="top">
 
 Is represented by a JavaScript number literal \(except for the `nanInfinity` ABNF rule which needs an object notation with a string value\).
 
@@ -374,14 +374,14 @@ Is represented by a JavaScript number literal \(except for the `nanInfinity` ABN
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4.10 Expression `Int` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `42`
 
@@ -390,7 +390,7 @@ Is represented by a JavaScript number literal \(except for the `nanInfinity` ABN
 
 
 </td>
-<td>
+<td valign="top">
 
 Is represented by a JavaScript number literal as long as the value is a safe integer. Else the above object notation is used.
 
@@ -399,21 +399,21 @@ Is represented by a JavaScript number literal as long as the value is a safe int
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.4.11 Expression `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `"Product Catalog"` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Is represented by a JavaScript string literal.
 
@@ -428,14 +428,14 @@ Is represented by a JavaScript string literal.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Expression
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Options and Additional Information
 
@@ -444,14 +444,14 @@ Options and Additional Information
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.1 Comparison and Logical Operators
 
 
 
 </td>
-<td>
+<td valign="top">
 
 edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are written like `{"$And" : [<value>, <value>], "@..." : <value>}` because they require two child expressions.
 
@@ -460,14 +460,14 @@ edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are wri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.2 Expression `AnnotationPath` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$AnnotationPath" : "..."}` 
 
@@ -476,14 +476,14 @@ edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are wri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.3 Expression `Apply` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$Apply" : [<value>, ...], "$Function" : "<14.5.3.1 Apply Function>", "@..." : <value>}` 
 
@@ -492,14 +492,14 @@ edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are wri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.4 Expression `Cast` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -520,14 +520,14 @@ edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are wri
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.5 Expression `Collection` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `[<value>, ...]`
 
@@ -538,14 +538,14 @@ Simply an array. No additional properties, no annotations possible.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.6 Expression `If` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `{"$If" : [<value>, <value>, <value>], "@..." : <value>}`
 
@@ -556,14 +556,14 @@ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.7 Expression `IsOf` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -584,14 +584,14 @@ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.8 Expression `LabeledElement` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$LabeledElement" : <value>, "$Name" : "<5.1.1 Schema Namespace>.<14.5.8.1 LabeledElement Name>", "@..." : <value>}` 
 
@@ -600,14 +600,14 @@ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.9 Expression `LabeledElementReference` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$LabeledElementReference" : "<QualifiedName name of a labeled element expression in scope>"}` 
 
@@ -616,14 +616,14 @@ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.10 Expression `Null` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `null`
 
@@ -636,14 +636,14 @@ The object notation is needed in case of inline annotations.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.11 Expression `NavigationPropertyPath` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$NavigationPropertyPath" : "..."}` 
 
@@ -652,14 +652,14 @@ The object notation is needed in case of inline annotations.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.12 Expression `Path` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$Path" : "..."}` 
 
@@ -668,14 +668,14 @@ The object notation is needed in case of inline annotations.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.13 Expression `PropertyPath` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$PropertyPath" : "..."}` 
 
@@ -684,14 +684,14 @@ The object notation is needed in case of inline annotations.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.14 Expression `Record` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The record itself is a map:
 
@@ -709,14 +709,14 @@ The record itself is a map:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 14.5.15 Expression `UrlRef` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `{"$UrlRef" : <value>, "@..." : <value>}` 
 

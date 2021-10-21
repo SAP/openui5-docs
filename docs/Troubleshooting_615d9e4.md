@@ -23,21 +23,21 @@ OpenUI5 also provides you with support tools that help you troubleshoot and solv
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Tool
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Use Case Examples
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to Open
 
@@ -46,21 +46,21 @@ How to Open
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the *Technical Information*dialog to enable debug sources and to check which OpenUI5 version is currently running.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 
@@ -76,21 +76,21 @@ Gesture on mobile device:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Support Assistant](Support_Assistant_57ccd7d.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the Support Assistant to check whether the application is built according to the best practices for building OpenUI5 apps.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 From the *Technical Information* dialog or with the URL parameter `sap-ui-support=true` 
 
@@ -99,21 +99,21 @@ From the *Technical Information* dialog or with the URL parameter `sap-ui-suppor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the *Diagnostics* window to enable debug sources, display the control tree, and to view and change control properties and bindings.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Keyboard shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 
@@ -124,21 +124,21 @@ Use the *Diagnostics* window to enable debug sources, display the control tree, 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [UI5 Inspector](UI5_Inspector_b24e724.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Use the UI5 inspector to display the control tree, and to view and change control properties and bindings on-the-fly.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Available as add-on for Google Chrome browser only
 
@@ -153,14 +153,14 @@ Available as add-on for Google Chrome browser only
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Tool
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Use Case Examples
 
@@ -169,14 +169,14 @@ Use Case Examples
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Measures the performance of your JavaScript code.
 
@@ -185,14 +185,14 @@ Measures the performance of your JavaScript code.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Identifies performance issues in your application by tracking the interaction that is performed on the UI
 

@@ -112,6 +112,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
     -   The `sap.f.DynamicPageHeader` and `sap.f.DynamicPageTitle` classes now introduce a new `backgroundDesign` property which has three background options - `Solid`, `Transparent`, or `Translucent`. For the new property to be supported correctly when using the dynamic header in `sap.uxap.ObjectPageLayout`, a new `backgroundDesignAnchorBar` property is added to `sap.uxap.ObjectPageLayout`, which is used to control the background color of the `sap.uxap.AnchorBar` through its own newly added `backgroundDesign` property.For more information, see the *API Reference* for [`sap.f.DynamicPageHeader`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageHeader), [`sap.f.DynamicPageTitle`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle), [`sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout), and [`sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#/api/sap.uxap.AnchorBar).
 
+
 -   `sap.f.FlexibleColumnLayout`: The control now supports reveal effect animation to ensure smooth performance when a new column is opened or column width is changed.For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.FlexibleColumnLayout).
 
 -   `sap.f.semantic.SemanticPage`:
@@ -122,6 +123,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
     -   With the use of the new `sapFSemanticPageAlignContent` CSS class, you can now vertically align the content in the `SemanticPage` header and page content areas.
 
+
 -   `sap.m.App`: The `mobileWebAppCapable` property is now available. It determines whether the `sap.m.App` is displayed without an address bar when opened from an exported home screen icon on a mobile device.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.App/controlProperties).
 
 -   `sap.m.CheckBox`: The new `partiallySelected` property now allows the `CheckBox` control to be rendered as partially selected.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.CheckBox/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CheckBoxTriState/preview).
@@ -131,6 +133,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
     -   The tooltips of the predefined colors have been formatted in order to be more easily recognizable by users. Now they start with a capital letter, and there are intervals between the words, for example "indianred" has been changed to "Indian Red". For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalette/preview).
 
     -   The keyboard navigation has been improved by implementing a more intuitive use of the [Up\], [Down\], [Home\], and [End\] keys. In terms of navigation, the color swatch items are treated as columns. For example, if the focus is on the first or on the last item, pressing [Up\] or [Down\] will move the focus respectively to the *Default Color* or *More Colors* button. [Home\] moves the focus to the first color in the row, to the first color in the container, or to the *Default Color* button. [End\] moves the focus to the last color in the row, to the last color in the container, or to the *More Colors* button. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ColorPalettePopover/preview).
+
 
 -   `sap.m.DateTimePicker`: The Time Picker is now vertically aligned with the Calendar for better user experience. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DateTimePicker/preview).
 
@@ -165,6 +168,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
     -   The *Reset* button is replaced by a *Clear* button. The name has been changed to reflect better the functionality of the button which is to clear a selection made in the Table Select Dialog. The control also has a new `showClearButton` property that allows you to choose whether you want the button to be visible or not. Its default value is `false`. To display the button, set the property to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
 
+
 -   `sap.m.TimePicker`: The sliders are now vertically centered for better user experience. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TimePicker/preview).
 
 -   `sap.ui.layout.form`: You can now use the `Switch` control in all the forms that are editable. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Switch).
@@ -179,6 +183,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 
     -   A new `weekNumberSelect` event is introduced which allows you to select a complete week by clicking on the week number. This function works for Gregorian calendars only and if `intervalSelection` is set to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSingleIntervalSelection/preview).
 
+
 -   `sap.ui.unified.ColorPicker`: The new `displayMode` property determines how the control will be displayed. There are three display options - `default`, `large`, and `simplified`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.ColorPicker/preview). 
 
 -   `sap.uxap.ObjectPageLayout`:
@@ -188,6 +193,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
     -   UI Adaptation is enabled for the `sap.uxap.ObjectPageHeaderActionButton` control with the possible actions *Hide*, *Reveal*, and *Rename*.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageHeaderActionButtons/preview) and activate UI Adaptation using the wrench key button.
 
     -   The `sap.f.DynamicPageHeader` and `sap.f.DynamicPageTitle` classes now introduce a new `backgroundDesign` property which has three options - `Solid`, `Transparent`, or `Translucent` background. For the new property to be supported correctly when using the dynamic header in `sap.uxap.ObjectPageLayout`, a new `backgroundDesignAnchorBar` property is added to `sap.uxap.ObjectPageLayout`, which is used to control the background color of the `sap.uxap.AnchorBar` through its own newly added `backgroundDesign` property.For more information, see the *API Reference* for [`sap.f.DynamicPageHeader`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageHeader), [`sap.f.DynamicPageTitle`](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageTitle), [`sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout), and [`sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#/api/sap.uxap.AnchorBar).
+
 
 
 ***
@@ -228,7 +234,7 @@ Until now the *API Reference* tree displayed by default all APIs including depre
 
  ![](loio6d95e67e41c041588ce453ca5ea8e25e_HiRes.png) 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

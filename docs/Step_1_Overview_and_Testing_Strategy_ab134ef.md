@@ -74,6 +74,7 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
         A comment has an `Author`, a `Date`, and a `CommentText` property. The entity can be identified by the `CommentID` property and is linked to a `post` by the `ParentID`. The corresponding `EntitySet` is `Comments`.
 
+
     The actual test data containing several mock posts is located in the `webapp/test/service/posts.json` file.
 
 -   **Testing Functionality**
@@ -94,6 +95,7 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
 
         Integration tests are written in OPA5 – a tool for integration testing that is included in OpenUI5 – and can be found in the `webapp/test/integration` folder. You can start all OPA5 tests by calling the `opaTests.qunit.html` file in the same folder. OPA5 tests are organized in test journeys, and we have included a worklist journey that checks if the table of posts is displayed properly. We will give you more details about the integration test setup later in the tutorial.
 
+
 -   **Other quality-related features of the app**
 
     The app is set up according to best practices and already contains many helpful features.
@@ -109,6 +111,7 @@ With the downloaded code, you now have the bulletin board prototype, set up acco
     -   **Busy handling**
 
         As a best practice, you should always give users instant feedback when triggering actions and navigating in the app. The app already includes functionality to display a busy indication when data is loaded or actions are triggered. To simulate a slow backend and show the behavior of the app, the mock server is configured with a delay of one second for each request.
+
 
 
 Now that we have a running prototype, we can further extend it with additional tests and features. Make sure that the app is running by calling the test page, the unit tests, and the integration tests from the entry page `webapp/test/test.html`. The app should display a list of bulletin board posts as seen in the screenshot above and the tests should run without errors.
@@ -153,9 +156,9 @@ There might still be features that are hard to test with these client-side testi
 -   Provide a local test page that triggers the app in test mode with mock data \(`test/mockServer.html`\)
 
 
-**Parent topicColonSymbol** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next topicColonSymbol** [Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md "In this step we will analyze the unit testing infrastructure and write a first unit test.")
+**Previous:** [Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md "In this step we will analyze the unit testing infrastructure and write a first unit test.")
 
 **Related Information**  
 

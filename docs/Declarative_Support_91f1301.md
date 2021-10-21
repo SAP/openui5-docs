@@ -58,21 +58,21 @@ The table summarizes the attributes used by declarative support and gives exampl
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Attribute
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -81,21 +81,21 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Type of control
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<div data-sap-ui-type="sap.m.Button"></div>`
 
@@ -104,21 +104,21 @@ Type of control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui-aggregation`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the aggregation that shall be used for the element or child element
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<div data-sap-ui-type="sap.m.Panel"><div data-sap-ui-aggregation="content" data-sap-ui-type="sap.m.Button" data-text="My Button"></div></div>`
 
@@ -127,21 +127,21 @@ Defines the aggregation that shall be used for the element or child element
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `data-sap-ui.default-aggregation`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sets or overrides the default aggregation of a control
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<div data-sap-ui-type="sap.m.Panel" data-sap-ui-default-aggregation="headerToolbar"><div data-sap-ui-type="sap.m.Toolbar"></div></div>` 
 
@@ -150,21 +150,21 @@ Sets or overrides the default aggregation of a control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `id`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines the ID property of a control
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<div data-sap-ui-type="sap.m.Button" id="myButton"></div>` 
 
@@ -173,21 +173,21 @@ Defines the ID property of a control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `class`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds a style class to the control
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<div data-sap-ui-type="sap.m.Button" class="myButton"></div>` 
 

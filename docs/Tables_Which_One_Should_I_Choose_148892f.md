@@ -17,35 +17,35 @@ The libraries provided by OpenUI5 contain various different table controls that 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Responsive Table [\(sap.m.Table\)](https://openui5.hana.ondemand.com/#/api/sap.m.Table) 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Grid Table [\(sap.ui.table.Table\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table) 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.AnalyticalTable) 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) 
 
@@ -54,35 +54,35 @@ Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Desktop
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -91,35 +91,35 @@ Desktop
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Tablet
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -128,35 +128,35 @@ Tablet
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Phone
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -165,35 +165,35 @@ Phone
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Responsive \(hide column, popin support\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -202,35 +202,35 @@ Responsive \(hide column, popin support\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Compact density
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -239,35 +239,35 @@ Compact density
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Condensed density
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -276,35 +276,35 @@ Condensed density
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Cozy density
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -313,35 +313,35 @@ Cozy density
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Summarized cell
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -350,35 +350,35 @@ Summarized cell
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Hierarchical data
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -387,35 +387,35 @@ Hierarchical data
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Large number of rows \(\> 200\)<sup>2</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -424,35 +424,35 @@ Large number of rows \(\> 200\)<sup>2</sup>
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Grouping
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -461,35 +461,35 @@ Grouping
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Freeze columns
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -498,35 +498,35 @@ Freeze columns
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Horizontal scrolling
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -535,35 +535,35 @@ Horizontal scrolling
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Merge duplicates
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -572,35 +572,35 @@ Merge duplicates
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Supported controls
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports all kinds of controls inside a line item
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports a limited set of controls<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports a limited set of controls<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Supports a limited set of controls<sup>1</sup> 
 
@@ -609,35 +609,35 @@ Supports a limited set of controls<sup>1</sup>
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Row-based
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -646,35 +646,35 @@ Row-based
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Column-based
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 

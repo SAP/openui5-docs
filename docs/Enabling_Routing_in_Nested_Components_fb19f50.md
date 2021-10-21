@@ -246,6 +246,8 @@ The existing `titleChanged` event is extended with the following properties:
 
         -   `isHome`: whether the title was changed from the home route
 
+
+
 **Related Information**  
 
 

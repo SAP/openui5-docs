@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.81 to 1.82.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`Handlebars.js` Library**
 
@@ -32,7 +32,7 @@ The `Handlebars.js` library has been upgraded from version 4.4.3 to 4.7.6.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Upgrade to New jQuery Version**
 
@@ -53,7 +53,7 @@ We have upgraded the third-party jQuery library from jQuery 2.2.3 to jQuery 3.5.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Badge Implementation**
 
@@ -83,7 +83,7 @@ Badges display very short and important information that attracts the user’s a
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Five New Icons Available in the *SAP Fiori Tools* Icon Font**
 
@@ -96,7 +96,7 @@ Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://openu
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -109,7 +109,7 @@ Depending on their format options, some composite types, such as `sap.ui.model.t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -140,7 +140,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.ui.integration.widgets.Card**`
 
@@ -152,7 +152,7 @@ We have updated the UI5 Web Components dependency of the Adaptive Cards to the v
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

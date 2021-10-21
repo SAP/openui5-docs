@@ -15,14 +15,14 @@ The following keys and key combinations are used for navigation in two-dimension
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -31,14 +31,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Left arrow\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus one item to the **left**.
 
@@ -51,14 +51,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Right arrow\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus one item to the **right**.
 
@@ -71,14 +71,14 @@ If focus is on the last item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Up arrow\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the item **above**.
 
@@ -89,14 +89,14 @@ If focus is on the first item of a column, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [DOWN\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the item **below**.
 
@@ -107,14 +107,14 @@ If focus is on the last item of a column, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page up\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **up** by page size.
 
@@ -130,14 +130,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page down\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **down** by page size.
 
@@ -153,14 +153,14 @@ If focus is on the last item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alt\] / [Option\] + [Page up\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **left** by page size.
 
@@ -176,14 +176,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Alt\] / [Option\] + [Page down\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **right** by page size.
 
@@ -199,14 +199,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Home\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **first** item on the same row.
 
@@ -217,14 +217,14 @@ If focus is on the first item of a row, move focus to the first item.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [End\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **last** item of the same row.
 
@@ -235,14 +235,14 @@ If focus is on the last item of a row, move focus to the last item.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [Home\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **first** item of the same column.
 
@@ -253,14 +253,14 @@ If focus is on the first item of a column, move focus to the first item.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [End\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **last** item of the same column.
 

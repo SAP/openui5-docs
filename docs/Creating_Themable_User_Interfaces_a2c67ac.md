@@ -31,6 +31,7 @@ For example, if you hard-coded the font color to black, this color cannot be adj
 -   The parameters in this subset can be considered as "stable", which means the following:
     -   We will not change the naming for these parameters.
     -   The contrast ratio between foreground- colors like text and the related background will remain stable.
+
 -   Always choose parameters that fit best from a semantic perspective, do **not** choose them based on their color value.
 -   This set is available across the predefined themes `sap_fiori_3_dark`, `sap_fiori_3`, `sap_belize`, `sap_belize_plus`, `sap_fiori_3_hcw`, and `sap_fiori_3_hcb` and should be handled with care. You should test your implementations for all themes to ensure the results are as expected.
 

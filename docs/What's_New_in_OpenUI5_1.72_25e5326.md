@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **New Theme Available \(Experimental\)** 
 
@@ -35,7 +35,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Responsive Paddings Enablement**
 
@@ -58,7 +58,7 @@ For more information, see [Enabling Responsive Paddings According to the Control
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.ProductSwitch` \(Experimental\)**
 
@@ -83,7 +83,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Navigation in Nested Components**
 
@@ -96,7 +96,7 @@ For more information, see [`sap.ui.core.routing.Router.navTo`](https://openui5.h
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -117,7 +117,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Title Alignment Changes for SAP Quartz Themes**
 
@@ -150,7 +150,7 @@ Affected Controls:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.Avatar`**
 
@@ -161,7 +161,7 @@ We have added more options in the `sap.f.AvatarColor` enum for the background co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.FlexibleColumnLayoutSemanticHelper`**
 
@@ -172,7 +172,7 @@ Some methods in the helper class rely on the internal `sap.f.FlexibleColumnLayou
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.ActionSheet**`
 
@@ -183,7 +183,7 @@ We have extended the `afterClose` event, to provide context information that ind
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`**, **`sap.m.MultiComboBox`**, **`sap.m.Input`**, **`sap.m.MultiInput`**
 
@@ -194,7 +194,7 @@ We have improved the controls to display the text set in the `valueStateText` pr
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DateRangeSelection`**
 
@@ -205,7 +205,7 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List`, `sap.m.Table`, `sap.m.Tree`**
 
@@ -219,7 +219,7 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -230,7 +230,7 @@ The `appointmentSelect` event was also provided for the appointments in the Mont
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -241,7 +241,7 @@ If applications configure a responsive table that contains only one column in su
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ViewSettingsDialog`**
 
@@ -257,7 +257,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.Wizard**`
 
@@ -268,7 +268,7 @@ We have added a new `backgroundDesign` property. It can change the background co
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -283,7 +283,7 @@ For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
@@ -297,7 +297,7 @@ For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.FileUploader`**
 
@@ -308,7 +308,7 @@ The new `fileEmpty` event was introduced, fired when uploading an empty file. Fo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.BlockBase`**
 
@@ -320,7 +320,7 @@ You can now subscribe to the new `viewInit` event that is fired when the asynchr
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

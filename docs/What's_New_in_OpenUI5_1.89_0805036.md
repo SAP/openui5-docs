@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.88 to 1.89.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit Improvements**
 
@@ -53,7 +53,7 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -64,7 +64,7 @@ You can now provide unit and currency customizing for the `sap.ui.model.odata.ty
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -75,7 +75,7 @@ Additional targets are now supported for [server messages](Server_Messages_in_th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 Data Types**
 
@@ -109,7 +109,7 @@ However, in some cases it can be necessary to display a value with fewer decimal
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Link`, `sap.m.ObjectIdentifier`, `sap.m.ObjectNumber`, `sap.m.ObjectStatus`, and `sap.ui.unified.Currency`**
 
@@ -120,7 +120,7 @@ Similar to the `sap.m.Text` control, these controls now also implement the new `
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`**
 
@@ -132,7 +132,7 @@ You can now define up to six columns in extra-large size in a form. For more inf
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

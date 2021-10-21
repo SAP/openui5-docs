@@ -51,6 +51,7 @@ For themes and CSS for control development in OpenUI5, the following guidelines 
     -   Controls that want to modify their appearance in such an area use the marker class in a cascade: `.sapUiTable-CTX .sapUiInput { border: none; }`
 
 
+
 ***
 
 ### Naming
@@ -123,5 +124,6 @@ For LESS theme parameters, the following guidelines apply:
     -   Do **not** use escaped strings \(~\): `@sapUiMyUrl: ~"path/to/img.png"`
 
     -   Do **not** use absolute URLs: `@sapUiMyUrl: url(/absolute/path/to/img.png)`
+
 
 

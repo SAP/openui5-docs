@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.75 to 1.76.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`Team Calendar`**
 
@@ -42,7 +42,7 @@ We have added a new demo application - the Team Calendar. It demonstrates the in
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`Card Explorer`**
 
@@ -56,7 +56,7 @@ For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **One Page Acceptance Tests \(OPA5\)**
 
@@ -67,7 +67,7 @@ We've introduced `Drag` and `Drop` actions to OPA5 to help with the most common 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -82,7 +82,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -114,7 +114,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.FlexibleColumnLayout`**
 
@@ -128,7 +128,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.FacetFilter`**
 
@@ -139,7 +139,7 @@ Optimization regarding the initial database service query has been introduced. T
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
@@ -150,7 +150,7 @@ New indication colors are now available \(provided by the `sap.ui.core.Indicatio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.plugins.DataStateIndicator`**
 
@@ -168,7 +168,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -179,7 +179,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -193,7 +193,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
@@ -207,7 +207,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
@@ -229,7 +229,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.unified.calendar.Month`**
 
@@ -241,7 +241,7 @@ We have enabled custom colors to be used with the `specialDates` aggregation in 
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -134,6 +134,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
     -   When the `ComboBox` displays two columns \(for example, key and value\), you can search and filter for matching strings in both columns. This is enabled with the `filterSecondaryValues` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBox/methods/getFilterSecondaryValues) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.ComboBoxSearchBoth/preview).
 
+
 -   `sap.m.DatePicker`: We have introduced a new `navigate` event. While navigating in the calendar popup of the `sap.m.DatePicker`, you can now receive an event containing the first and the last dates that are currently visible. You can use this information for lazy loading of special dates. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker/events/navigate).
 
 -   `sap.m.GenericTile`: The new `Actions` `scope` property was added to provide an editing option for the `GenericTile` control when included on a Web page, for example, on the SAP Fiori launchpad. It is aligned explicitly with the interaction design of the SAP Fiori launchpad’s *Edit* mode. Both the `sap.m.GenericTile` and `sap.m.SlideTile` controls have been extended with this feature. You use the new `scope` property to switch the visual representation of the `GenericTile` or `SlideTile` on a Web page from the `Display` scope to the `Actions` scope. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.GenericTileLineMode/preview).
@@ -160,6 +161,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
          ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
 
+
     For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
 
 -   `sap.m.PlanningCalendar`: We have introduced a new `rowHeaderClick` event. You can now receive an event when a row header of the `sap.m.PlanningCalendar` is clicked. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/events/rowHeaderClick).
@@ -181,6 +183,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
     -   Keyboard navigation has been enhanced for *Edit* mode.
 
     -   You can now define row-specific actions, such as navigation. The actions remain available on the right even when you scroll horizontally.
+
 
      For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.Table) and the [sample](https://openui5.hana.ondemand.com/sample/sap.ui.table.sample.RowAction/preview). 
 
@@ -204,7 +207,7 @@ New and reworked demo apps:
      ![](loioa053afde39624bf29121f26802d1d168_LowRes.png) 
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

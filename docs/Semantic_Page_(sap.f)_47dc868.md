@@ -38,11 +38,13 @@ The following aggregations are available to control the semantic in the title of
 
     -   `addAction`
 
+
 -   Semantic icon actions:
 
     -   `favoriteAction`
 
     -   `flagAction`
+
 
 -   Semantic navigation actions:
 
@@ -52,11 +54,13 @@ The following aggregations are available to control the semantic in the title of
 
     -   `closeAction`
 
+
 -   Custom actions:
 
     -   `titleCustomTextActions`
 
     -   `titleCustomIconActions` 
+
 
 
 The actions in the title are grouped to text actions or icon actions. When an aggregation is set, the action appears in the following predefined order \(from left to right\) as follows:

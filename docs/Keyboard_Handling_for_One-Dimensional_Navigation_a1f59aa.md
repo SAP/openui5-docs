@@ -15,14 +15,14 @@ The following keys and key combinations are used for navigation in one-dimension
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -31,14 +31,14 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Up arrow\], [Left arrow\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **previous** item.
 
@@ -49,14 +49,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Down arrow\], [Right arrow\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **next** item.
 
@@ -67,14 +67,14 @@ If focus is on the last item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page up\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **up/ left** by page size.
 
@@ -88,14 +88,14 @@ If focus is on the last item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page down\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus **down/ right** by page size.
 
@@ -109,14 +109,14 @@ If focus is on the first item, do nothing.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Home\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **first** item.
 
@@ -125,14 +125,14 @@ If focus is on an item, move focus to the **first** item.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [End\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If focus is on an item, move focus to the **last** item.
 

@@ -72,28 +72,28 @@ The following table shows which binding modes are supported by the respective da
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Model
 
 
 
 </th>
-<th>
+<th valign="top">
 
 One-time
 
 
 
 </th>
-<th>
+<th valign="top">
 
 One-way
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Two-way
 
@@ -102,28 +102,28 @@ Two-way
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OData V4 model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
@@ -132,28 +132,28 @@ OData V4 model
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OData V2 model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -162,28 +162,28 @@ OData V2 model
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ODataMetaModel V4
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -192,28 +192,28 @@ ODataMetaModel V4
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ODataMetaModel
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -222,28 +222,28 @@ ODataMetaModel
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 JSON model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
@@ -252,28 +252,28 @@ JSON model
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XML model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
@@ -282,28 +282,28 @@ XML model
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Resource model
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 

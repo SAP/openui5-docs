@@ -32,6 +32,7 @@ You can use the following methods:
 
     -   the loading and processing of nested Views will be contained in the factory Promise of `sap.ui.core.Component.create`. The same is true for nested asynchronous Views and Fragments. This means that once your `Component.create` factory call resolves, all inner controls are created.
 
+
     The following code snippet shows a sample of the `createContent` function returning the root control directly:
 
     ``` js

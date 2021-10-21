@@ -79,14 +79,14 @@ This library contains more complex UI controls that were based on `sap.ui.common
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Concept
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What's Happened?
 
@@ -95,14 +95,14 @@ What's Happened?
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Feeds
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Replaced by sap.m \(`sap.m.Feed`\*\).
 
@@ -111,14 +111,14 @@ Replaced by sap.m \(`sap.m.Feed`\*\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Notification Bar
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Replaced by sap.m \(`sap.m.MessagePopover` and `sap.m.semantic`\*\).
 
@@ -127,14 +127,14 @@ Replaced by sap.m \(`sap.m.MessagePopover` and `sap.m.semantic`\*\).
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Thing Inspector
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Indirectly replaced by a different design for displaying object data.
 
@@ -143,14 +143,14 @@ Indirectly replaced by a different design for displaying object data.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Shell
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Partially replaced by `sap.ui.unified.Shell`.
 
@@ -159,14 +159,14 @@ Partially replaced by `sap.ui.unified.Shell`.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Data Set
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not part of SAP Fiori.
 
@@ -175,14 +175,14 @@ Not part of SAP Fiori.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Exact
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not directly part of SAP Fiori. Use `sap.ui.comp.FilterBar` or `sap.m.IconTabBar` for filtering.
 
@@ -191,14 +191,14 @@ Not directly part of SAP Fiori. Use `sap.ui.comp.FilterBar` or `sap.m.IconTabBar
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Quick Views
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Concept abandoned as the concept of “hovering with the mouse pointer over a control” does not exist on mobile devices.
 

@@ -23,21 +23,21 @@ The following information concerns important upcoming changes. UI changes may ha
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of OpenUI5 Version
 
@@ -46,14 +46,14 @@ Available as of OpenUI5 Version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Announcement
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Reminder: Outdated Versions to Be Removed from the CDN**
 
@@ -62,7 +62,7 @@ For security reasons, versions that are no longer maintained will be removed fro
 
 
 </td>
-<td>
+<td valign="top">
 
 n/a
 
@@ -81,7 +81,7 @@ n/a
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V2 Model**
 
@@ -97,7 +97,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -125,7 +125,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Button`**
 
@@ -136,7 +136,7 @@ We have improved the accessibility of the control, and the screen readers now an
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.DatePicker`, `sap.m.DateRangeSelection`, `sap.m.DateTimePicker`, and `sap.ui.unified.Calendar`**
 
@@ -147,7 +147,7 @@ These controls now have the new property `showCurrentDateButton`, which displays
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.StandardListItem**`
 
@@ -158,7 +158,7 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -186,7 +186,7 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
 

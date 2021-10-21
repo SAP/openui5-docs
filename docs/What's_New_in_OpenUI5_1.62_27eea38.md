@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.61 to 1.62.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.GenericTag`**
 
@@ -51,7 +51,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -91,7 +91,7 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Routing in Nested Components**
 
@@ -104,7 +104,7 @@ For details, see [Enabling Routing in Nested Components](Enabling_Routing_in_Nes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -125,6 +125,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
     -   `changeParameters` of `sap.ui.model.odata.v4.ODataContextBinding`
 
     -   `refresh` method of all bindings
+
 
     When the binding is resumed, a request reflecting all the changes by these methods is triggered.
 
@@ -149,7 +150,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Carousel`**
 
@@ -160,7 +161,7 @@ The control can now display several items at once. This functionality is impleme
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**`sap.m.Column`**`
 
@@ -171,7 +172,7 @@ The `sortIndicator` property now shows a sort icon when a column is sorted. For 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.ComboBox`**
 
@@ -182,7 +183,7 @@ In order for the `ComboBox` to be aligned with the rest of the input controls an
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.ListBase**`
 
@@ -193,7 +194,7 @@ You can now use more values for the `highlight` property. These values are provi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.OverflowToolbar`**
 
@@ -207,7 +208,7 @@ You can now use more values for the `highlight` property. These values are provi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SinglePlanningCalendar`**
 
@@ -223,7 +224,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.StandardListItem**`
 
@@ -234,7 +235,7 @@ The new `information` value in the `sap.ui.core.ValueState` enumeration is now s
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.tnt.SideNavigation`**
 
@@ -245,7 +246,7 @@ We have implemented a `selectedKey` property of `sap.tnt.SideNavigation`, with w
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.core.support.RuleEngineOpaExtension`**
 
@@ -256,7 +257,7 @@ The rule engine OPA extension, which allows Support Assistant checks, has been e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
@@ -277,7 +278,7 @@ You can now use more values for the `highlight` property. These values are provi
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Demo Kit Landing Page**
 
@@ -293,7 +294,7 @@ You can now use more values for the `highlight` property. These values are provi
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Settings Dialog in Samples Section**
 
@@ -305,7 +306,7 @@ You can now switch the *Content Density* of the Demo Kit samples to *Condensed*.
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

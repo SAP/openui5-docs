@@ -182,14 +182,14 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 ![](loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
 
@@ -198,14 +198,14 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Landmarks on the overview page - before**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **Landmarks on the overview page - after**
 
@@ -232,9 +232,9 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 
 You've completed the walkthrough, good job! You should be familiar with all major development paradigms of OpenUI5 now. Our other tutorials focus on certain aspects of OpenUI5, so feel free to explore!
 
-**Parent topicColonSymbol** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Previous topicColonSymbol** [Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
+**Next:** [Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
 
 **Related Information**  
 

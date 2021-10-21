@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.69 to 1.70.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.f.GridListItem**`
 
@@ -48,7 +48,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -77,7 +77,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.f.GridContainer**`
 
@@ -88,7 +88,7 @@ We have polished the code, added right-to-left \(RTL\) support, and implemented 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.ColorPalette**`
 
@@ -99,7 +99,7 @@ With the new `displayMode` enum property of `sap.m.ColorPalettePopover`, you can
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.DatePicker**`
 
@@ -110,7 +110,7 @@ We have introduced a more intuitive way for users to confirm date selection. Set
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.SelectDialog**`
 
@@ -126,7 +126,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.SinglePlanningCalendar**`
 
@@ -137,7 +137,7 @@ We have introduced support for indicating working hours in the `sap.m.SinglePlan
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.m.TableSelectDialog**`
 
@@ -148,7 +148,7 @@ We have extended the `search` event of the control with a new `clearButtonPresse
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable`**
 
@@ -159,7 +159,7 @@ When you group columns in an analytical table, you can now select *Expand All* i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `**sap.ui.unified.Calendar**`
 
@@ -171,7 +171,7 @@ We have improved the navigation in the multiple months view for `sap.ui.unified.
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

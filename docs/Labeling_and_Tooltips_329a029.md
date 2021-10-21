@@ -46,14 +46,14 @@ Top 5 things to do for better screen reader support for labels
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Rules and Guidelines
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Examples/Clarification
 
@@ -62,14 +62,14 @@ Examples/Clarification
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alternative description in the `alt` property.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```
@@ -81,14 +81,14 @@ Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alte
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Interactive `sap.m.Image`/`sap.ui.core.Icon` \(that has a press handler\) should not be decorative.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```
@@ -100,14 +100,14 @@ Interactive `sap.m.Image`/`sap.ui.core.Icon` \(that has a press handler\) should
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Icon-only `sap.m.Button` should have a tooltip.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```
@@ -119,14 +119,14 @@ Icon-only `sap.m.Button` should have a tooltip.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Labels should **not** have a tooltip.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This could lead to ambiguity.
 
@@ -135,14 +135,14 @@ This could lead to ambiguity.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Input elements should have labels.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Every input needs a label for its description and purpose. Even if the app doesn't include one, you can set one in `sap.ui.core.InvisibleText`. The placeholder text should not be used as a label.
 
@@ -151,14 +151,14 @@ Every input needs a label for its description and purpose. Even if the app doesn
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Tables should have titles
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tables with hidden titles or in containers with titles \(for example,single tables in tab strip panels\) should be labeled with `sap.ui.core.InvisibleText` in combination with `arialabelledby`.
 
@@ -167,14 +167,14 @@ Tables with hidden titles or in containers with titles \(for example,single tabl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Button that has a text, should **not** have a tooltip.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```
@@ -186,14 +186,14 @@ Button that has a text, should **not** have a tooltip.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Aria-labelledby` and `aria-describedby` associations should point to existing DOM elements.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```
@@ -211,14 +211,14 @@ Button that has a text, should **not** have a tooltip.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Labels should be connected with the labelled elements via `labelfor`.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Example:  
 > ```

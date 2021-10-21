@@ -59,6 +59,7 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
 
     -   The page indicator now shows numbers instead of bullets, when the number of items in the `Carousel` is above nine.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Carousel/methods/getArrowsPlacement) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CarouselWithDisplayOptions/preview). 
 
      ![](loioa698aa6c990b41458195603167aa70fe_LowRes.png) 
@@ -75,6 +76,7 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
 
     -   `showOverflowSelectList` can be enabled when you have a large number of tabs and cannot display them all at once. When this property is set, all tabs that cannot be shown are added to an overflow list.
 
+
     For more information, see the API Reference for [sap.m.IconTabHeaderMode](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeaderMode) and [sap.m.IconTabBar.getShowOverflowSelectList](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getShowOverflowSelectList), and the samples [Overflow Select List](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarOverflowSelectList/preview) and [Inline Mode](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarInlineMode/preview). 
 
 -   `sap.m.MultiComboBox`: We have implemented touch support on mobile devices for the `MultiComboBox` control. The behavior of the control is now aligned with other similar controls such as `Select` and `ComboBox`.
@@ -84,6 +86,7 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
     -   `inputsAsTooltips` adds an input field above the slider handle. This enables users to directly enter the desired `Slider` value.
 
     -   `showAdvancedTooltip` when enabled, the handle will always display the slider value as a tooltip.
+
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/methods/getInputsAsTooltips) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview). 
 
@@ -96,6 +99,7 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
     -   `uploadButtonInvisible`: With this new property, you can make the *Upload* button invisible in your application if you want to prevent the user from uploading a file, either in the instant upload or in the upload pending scenario of the `UploadCollection` control.
 
     -   `terminationEnabled`: With this new property, you can make the *Terminate Upload* button invisible in your application if you want to prevent the user from terminating an instant upload in the `UploadCollection` control.
+
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.UploadCollection). 
 
@@ -192,7 +196,7 @@ We have updated the following tutorials:
 -   [Walkthrough](Walkthrough_3da5f4b.md)
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

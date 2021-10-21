@@ -26,14 +26,14 @@ The following table shows the availability of the different accessibility featur
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of version
 
@@ -42,14 +42,14 @@ Available as of version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Keyboard Handling
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.26
 
@@ -58,14 +58,14 @@ Keyboard Handling
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HCB Theme
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.26
 
@@ -74,14 +74,14 @@ HCB Theme
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Screen Reader Support
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.30
 
@@ -90,14 +90,14 @@ Screen Reader Support
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HCW Theme
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.46
 

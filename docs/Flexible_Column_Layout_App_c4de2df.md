@@ -30,6 +30,7 @@ The app provides the following features:
 
     -   The floating footer is positioned at the bottom of the page, on top of the page content. It holds finalizing actions on the right.
 
+
 -   A detail-detail page based on `sap.f.DynamicPage` to display further details of the selected object from the detail page.
 
 -   A simple about page based on `sap.f.DynamicPage` to display further details of the selected object from the detail-detail page.

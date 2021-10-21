@@ -77,14 +77,14 @@ When using the Hungarian notation, use the prefixes highlighted below and contin
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Sample
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
@@ -93,14 +93,14 @@ Type
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **s**Id
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
@@ -109,14 +109,14 @@ string
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **o**DomRef
 
 
 
 </td>
-<td>
+<td valign="top">
 
 object
 
@@ -125,14 +125,14 @@ object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **$**DomRef
 
 
 
 </td>
-<td>
+<td valign="top">
 
 jQuery object
 
@@ -141,14 +141,14 @@ jQuery object
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **i**Count
 
 
 
 </td>
-<td>
+<td valign="top">
 
 int
 
@@ -157,14 +157,14 @@ int
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **m**Parameters
 
 
 
 </td>
-<td>
+<td valign="top">
 
 map / assoc. array
 
@@ -173,14 +173,14 @@ map / assoc. array
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **a**Entries
 
 
 
 </td>
-<td>
+<td valign="top">
 
 array
 
@@ -189,14 +189,14 @@ array
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **d**Today
 
 
 
 </td>
-<td>
+<td valign="top">
 
 date
 
@@ -205,14 +205,14 @@ date
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **f**Decimal
 
 
 
 </td>
-<td>
+<td valign="top">
 
 float
 
@@ -221,14 +221,14 @@ float
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **b**Enabled
 
 
 
 </td>
-<td>
+<td valign="top">
 
 boolean
 
@@ -237,14 +237,14 @@ boolean
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **r**Pattern
 
 
 
 </td>
-<td>
+<td valign="top">
 
 RegExp
 
@@ -253,14 +253,14 @@ RegExp
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **fn**Function
 
 
 
 </td>
-<td>
+<td valign="top">
 
 function
 
@@ -269,14 +269,14 @@ function
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **v**Variant
 
 
 
 </td>
-<td>
+<td valign="top">
 
 variant types
 
@@ -285,14 +285,14 @@ variant types
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **p**Dialog
 
 
 
 </td>
-<td>
+<td valign="top">
 
 promise
 
@@ -309,14 +309,14 @@ The following IDs are currently used:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 ID
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -325,14 +325,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-bootstrap`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the bootstrap script tag
 
@@ -341,14 +341,14 @@ ID of the bootstrap script tag
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-library-*`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Prefix for UI libraries script tags
 
@@ -357,14 +357,14 @@ Prefix for UI libraries script tags
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-theme-*`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Prefix for theme stylesheets link tags
 
@@ -373,14 +373,14 @@ Prefix for theme stylesheets link tags
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-highlightrect`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the highlight rect for controls in TestSuite
 
@@ -389,14 +389,14 @@ ID of the highlight rect for controls in TestSuite
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-blindlayer-*`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID for `BlockLayer`
 
@@ -405,14 +405,14 @@ ID for `BlockLayer`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-static`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the static popup area of UI5
 
@@ -421,14 +421,14 @@ ID of the static popup area of UI5
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-TraceWindowRoot`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the `TraceWindowRoot`
 
@@ -437,14 +437,14 @@ ID of the `TraceWindowRoot`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap-ui-xmldata`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the `XML Data Island`
 

@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.76 to 1.77.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Supported Locales and Fallback**
 
@@ -34,7 +34,7 @@ In addition, a new configuration allows you to explicitly set the fallback local
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Terminologies**
 
@@ -55,7 +55,7 @@ By defining terminologies together with additional resource bundles, you can ada
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -80,7 +80,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`Team Calendar`**
 
@@ -101,7 +101,7 @@ This demo app is now enhanced with improvements in the navigation and available 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.f.FlexibleColumnLayout`**
 
@@ -112,7 +112,7 @@ We’ve introduced the `restoreFocusOnBackNavigation` property. If the property 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Avatar`**
 
@@ -123,7 +123,7 @@ You can now display visual affordance as a badge icon at the bottom-end corner o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Button`**
 
@@ -134,7 +134,7 @@ We have added a new `Attention` button type to the `sap.m.ButtonType` enum. This
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`**
 
@@ -145,7 +145,7 @@ This control is now updated according to the latest SAP Fiori design guidelines.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.SearchField`**
 
@@ -156,7 +156,7 @@ We have introduced a new `change` event, fired when the user changes the value o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -167,7 +167,7 @@ The automatic pop-in mode for the responsive table has been expanded: The new `h
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.tnt.SideNavigation`**
 
@@ -178,7 +178,7 @@ We have added a UI adaptation at runtime \(RTA\) `rename` action for the `sap.tn
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -197,7 +197,7 @@ We have added a UI adaptation at runtime \(RTA\) `rename` action for the `sap.tn
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.uxap.ObjectPageLayout`**
 
@@ -212,7 +212,7 @@ We have added a UI adaptation at runtime \(RTA\) `rename` action for the `sap.tn
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

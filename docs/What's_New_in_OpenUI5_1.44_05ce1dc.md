@@ -87,6 +87,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 
     -   We have added a new property, `headerBackgroundDesign`, to change the header background and thus align with the new visual design. Possible values are `Solid`, `Transparent`, and `Translucent`.
 
+
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getEnableTabReordering) and the samples [Tabs Drag and Drop](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview) and [Background Design](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarBackgroundDesign/preview). 
 
 -   `sap.m.List` and `sap.m.Table`: You can now highlight items, for example to indicate an error. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase).
@@ -100,6 +101,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
     -   Notification list items are highlighted on mouse-over as with list items.
 
     -   We have added an event to trigger when the `NotificationListGroup` is expanded or collapsed. The event is called `onCollapse`.
+
 
     For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
 
@@ -120,6 +122,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
     -   The default row height when using controls from the `sap.ui.commons` library is now the same as the general default. For more information, see [Content Densities](Content_Densities_e54f729.md).
 
 
+
 ***
 
 ### Documentation Changes
@@ -138,10 +141,11 @@ The **Demo Kit** now has the following new features:
 
     -   Downloaded samples that contain external \(utility\) resources can now be easily imported with less additional effort, for example, into SAP Web IDE 
 
+
 -   The search feature in the *Icon Explorer* has been improved to find icons not only by name but also by metadata keywords.
 
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

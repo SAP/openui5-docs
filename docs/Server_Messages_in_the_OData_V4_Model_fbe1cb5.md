@@ -17,21 +17,21 @@ Messages transported via an OData V4 service response are parsed and reported to
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V4 Message
 
 
 
 </th>
-<th>
+<th valign="top">
 
 UI5 Message
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Details
 
@@ -40,21 +40,21 @@ Details
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `code`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `code`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 language-independent message code
 
@@ -63,21 +63,21 @@ language-independent message code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `message`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `message`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 language-dependent message text
 
@@ -86,21 +86,21 @@ language-dependent message text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `target`
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 `target`
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 -   path to the message target
 -   `target` and `additionalTargets` are both mapped to the `sap.ui.core.message.Message.target` collection
@@ -110,7 +110,7 @@ language-dependent message text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `additionalTargets`\*
 
@@ -119,21 +119,21 @@ language-dependent message text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `transition`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `persistent`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 manages the message lifecycle
 
@@ -142,21 +142,21 @@ manages the message lifecycle
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `numericSeverity`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `type`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 classification of end-user messages
 
@@ -165,21 +165,21 @@ classification of end-user messages
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `longtextURL`\*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `descriptionURL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 a property of `Edm.String` type, which is nullable
 
@@ -244,21 +244,21 @@ Three different types of messages result from the possible combinations of the s
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  
 
 
 
 </th>
-<th>
+<th valign="top">
 
 State
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Transition
 
@@ -267,21 +267,21 @@ Transition
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Unbound
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
@@ -290,21 +290,21 @@ Unbound
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Bound
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
@@ -488,21 +488,21 @@ The table shows the supported severity values and their mapping to the specific 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 numericSeverity
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -511,21 +511,21 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.core.MessageType.Success`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Positive feedback - no action required
 
@@ -534,21 +534,21 @@ Positive feedback - no action required
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.core.MessageType.Information`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Additional information - no action required
 
@@ -557,21 +557,21 @@ Additional information - no action required
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.core.MessageType.Warning`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Warning - action may be required
 
@@ -580,21 +580,21 @@ Warning - action may be required
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.core.MessageType.Error`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Error - action is required
 

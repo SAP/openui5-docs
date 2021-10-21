@@ -43,11 +43,11 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 [API Reference: `sap.ui.model.xml.XMLModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.xml.XMLModel.html)
 
- <a name="loioa53e71d85fae4d0887a8b58431197a27 loioab8ed73c5bbd4a2b9c9840401ebf25cf__loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
+ <a name="loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
 
 <!-- loioab8ed73c5bbd4a2b9c9840401ebf25cf -->
 
-## Sorting and Filtering in XML Models
+### Sorting and Filtering in XML Models
 
 If you use an XML model for data binding, sorting and filtering is implemented in JavaScript because all data is available on the client. You can use custom methods for sorting and filtering in an XML model. To define custom methods, set the `fnCompare` method on the Sorter object or the `fnTest` method on the Filter object after creating it.
 
@@ -71,11 +71,11 @@ oSorter.fnCompare = function(value1, value2) {
 };
 ```
 
- <a name="loioa53e71d85fae4d0887a8b58431197a27 loio8674a69845c846d3bd68b60685bb5683__loio8674a69845c846d3bd68b60685bb5683"/>
+ <a name="loio8674a69845c846d3bd68b60685bb5683"/>
 
 <!-- loio8674a69845c846d3bd68b60685bb5683 -->
 
-## XML Namespace Support
+### XML Namespace Support
 
 The XML model supports documents using XML namespaces.
 
@@ -101,11 +101,11 @@ oModel.setNameSpace("http://tempuri.org/ext", "e"); [...]
 oTable.bindRows("/e:entry");
 ```
 
- <a name="loioa53e71d85fae4d0887a8b58431197a27 loiob8a2c24356c443228f7819d45697a2b8__loiob8a2c24356c443228f7819d45697a2b8"/>
+ <a name="loiob8a2c24356c443228f7819d45697a2b8"/>
 
 <!-- loiob8a2c24356c443228f7819d45697a2b8 -->
 
-## Binding Path Syntax for XML Models
+### Binding Path Syntax for XML Models
 
 XML models differentiate between attributes and content. XML has no arrays and defines lists as multiple elements with the same name instead. This makes the binding path syntax for XML models more difficult than for JSON or OData models.
 

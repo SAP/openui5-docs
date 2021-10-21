@@ -21,7 +21,7 @@ With this release OpenUI5 is upgraded from version 1.85 to 1.86.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Preannouncement: End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87**
 
@@ -42,7 +42,7 @@ OpenUI5 1.87 will be the last version to support Microsoft Internet Explorer 11.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **OpenUI5 OData V4 Model**
 
@@ -77,7 +77,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.FormattedText`**
 
@@ -95,7 +95,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.IconTabBar`, `sap.m.RadioButton`**
 
@@ -106,7 +106,7 @@ Value states are not shown when the controls are in read-only or disabled mode. 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Label`**
 
@@ -117,7 +117,7 @@ The colon symbol \(:\) is represented differently in different languages. In Ger
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Select`**
 
@@ -128,7 +128,7 @@ With the new experimental `columnRatio` property, you can now set a custom ratio
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Table`**
 
@@ -141,7 +141,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.m.Title`**
 
@@ -152,7 +152,7 @@ We have introduced the `textDirection` property, which is also available in the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.integration.widgets.Card`**
 
@@ -164,7 +164,7 @@ We have introduced the `textDirection` property, which is also available in the 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.layout.form.SemanticFormElement`**
 
@@ -175,7 +175,7 @@ The `SemanticFormElement` element \(experimental\) now allows you to render sema
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
@@ -196,7 +196,7 @@ The `rowsUpdated` event is now available so applications can find out about any 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Search Suggestions in Global Search**
 
@@ -216,7 +216,7 @@ At the bottom of the popover, you have the *Results by Category* section from wh
 </tr>
 </table>
 
-**Parent topicColonSymbol** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 
