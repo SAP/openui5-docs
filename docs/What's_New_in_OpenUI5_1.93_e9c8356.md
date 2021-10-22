@@ -14,6 +14,30 @@ With this release OpenUI5 is upgraded from version 1.92 to 1.93.
 
 ***
 
+<a name="loioe9c83569a4a54f04a349c4152358f4ff__section_s1b_bfh_3rb"/>
+
+### New Features
+
+
+<table>
+<tr>
+<td valign="top">
+
+**New Theme Available for SAP Fiori User Experience \(Experimental\)**
+
+We have introduced a new theme with 1.93.3, the preview version of the *Horizon* visual theme for SAP Fiori \(theme ID: `sap_horizon`\), as an addition to the existing themes. To preview the new theme, see [https://openui5.hana.ondemand.com/?sap-theme=sap\_horizon\#/controls](https://openui5.hana.ondemand.com/?sap-theme=sap_horizon#/controls)..
+
+> ### Note:  
+> The theme has the status 'experimental' and thus is subject to change. It must not be used as a basis for custom themes as long as the status is 'experimental'.
+
+
+
+</td>
+</tr>
+</table>
+
+***
+
 <a name="loioe9c83569a4a54f04a349c4152358f4ff__section_qwl_pb5_zcb"/>
 
 ### Improved Features

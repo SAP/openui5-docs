@@ -212,7 +212,8 @@ Required for the following libraries:
 -   `sap.ui.commons`
 -   `sap.ui.ux3`
 -   `sap.uiext.inbox`
--   `sap.zen.*` \(deprecated parts\)
+-   `sap.viz.*` \(deprecated part\)
+-   `sap.zen.*` \(deprecated part\)
 
 
 
@@ -269,7 +270,6 @@ Most likely required for deprecated APIs. Required at least for parts of the fol
 -   `sap.ui.vbm`
 -   `sap.ui.vk`
 -   `sap.ushell`
--   `sap.viz`
 -   `sap.webc.*`
 -   `sap.zen.*` \(non-deprecated part\)
 
@@ -282,7 +282,8 @@ Required for the following libraries:
 -   `sap.ui.commons`
 -   `sap.ui.ux3`
 -   `sap.uiext.inbox`
--   `sap.zen.*` \(deprecated parts\)
+-   `sap.viz.*` \(deprecated part\)
+-   `sap.zen.*` \(deprecated part\)
 
 
 
@@ -577,7 +578,14 @@ For the following functions and features, certain restrictions apply:
 <tr>
 <th valign="top">
 
-Library/Topic
+Library
+
+
+
+</th>
+<th valign="top">
+
+Topic
 
 
 
@@ -591,24 +599,22 @@ Comment
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="3">
 
-`sap.ui.core` - Hyphenation
-
-
-
-</td>
-<td valign="top">
-
-`script-src` requires `wasm-eval`
-
-When native hyphenation is not available, a third-party library \(Hyphenopoly\) is used. This library uses WASM, which leads to CSP issues due to browser limitations. There is a fallback to `asm.js`, if WASM can't be used.
+`**script-src 'unsafe-eval'**`
 
 
 
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+ 
+
+
+
+</td>
 <td valign="top">
 
 Support Assistant
@@ -627,7 +633,92 @@ For custom rules in the Support Assistant, dynamic code execution is essential, 
 <tr>
 <td valign="top">
 
-Controls that display provided HTML text \(`sap.m.FormattedText`, etc.\)
+`sap.ushell`
+
+
+
+</td>
+<td valign="top">
+
+Search, App Finder, Custom Tiles
+
+
+
+</td>
+<td valign="top">
+
+Inline styles are required for the App Finder and the correct rendering of custom tiles. Also, the search function doesn't work without inline styles when it's started via a deep link.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.viz`
+
+
+
+</td>
+<td valign="top">
+
+VizContainer, typed charts
+
+
+
+</td>
+<td valign="top">
+
+VizContainer and old typed charts require synchronous loading of JavaScript.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`unified.shell`
+
+
+
+</td>
+<td valign="top">
+
+Factsheets, Smart Business
+
+
+
+</td>
+<td valign="top">
+
+Factsheets and Smart Business \(tiles\) have not been fully adopted to run without inline styles yet.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+`**style-src 'unsafe-inline'**`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.m` and others
+
+
+
+</td>
+<td valign="top">
+
+Controls that display provided HTML text \(for example `sap.m.FormattedText`\)
 
 
 
@@ -637,6 +728,132 @@ Controls that display provided HTML text \(`sap.m.FormattedText`, etc.\)
 Certain controls display provided HTML text, for example `sap.m.FormattedText`. If the provided text contains a style attribute or a style element with inline styles, `'unsafe-inline'` is required for `style-src`.
 
 It's recommended to use styling with the `class` attribute and external stylesheets.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.vk`
+
+
+
+</td>
+<td valign="top">
+
+2D drawings \(`sap.ui.vk.svg.Viewport`\)
+
+
+
+</td>
+<td valign="top">
+
+When a 2D drawing is loaded, `sap.ui.vk.svg.Viewport` creates an SVG document that uses inline styles to define SVG drawing elements, colors, line styles, etc.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ushell`
+
+
+
+</td>
+<td valign="top">
+
+Search, App Finder, Custom Tiles
+
+
+
+</td>
+<td valign="top">
+
+Inline styles are required for the App Finder and the correct rendering of custom tiles. Also, the search function doesn't work without inline styles when it's started via a deep link.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`unified.shell`
+
+
+
+</td>
+<td valign="top">
+
+Factsheets, Smart Business
+
+
+
+</td>
+<td valign="top">
+
+Factsheets and Smart Business \(tiles\) have not been fully adopted to run without inline styles yet.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.viz`
+
+
+
+</td>
+<td valign="top">
+
+VizContainer, typed charts
+
+
+
+</td>
+<td valign="top">
+
+VizContainer and old typed charts require synchronous loading of JavaScript.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+`**script-src 'wasm-eval'**`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.core`
+
+
+
+</td>
+<td valign="top">
+
+Hyphenation
+
+
+
+</td>
+<td valign="top">
+
+`script-src` requires `wasm-eval`
+
+When native hyphenation is not available, a third-party library \(Hyphenopoly\) is used. This library uses WASM, which leads to CSP issues due to browser limitations. There is a fallback to `asm.js`, if WASM can't be used.
 
 
 
