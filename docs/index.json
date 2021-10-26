@@ -500,6 +500,12 @@
 							},
 							"Step 9: List-Detail Scenario": {
 								"link": "Step_9_List-Detail_Scenario_ec44581.md"
+							},
+							"Step 10: Enable Data Reuse": {
+								"link": "Step_10_Enable_Data_Reuse_e687dbd.md"
+							},
+							"Step 11: Add Table with :n Navigation to Detail Area": {
+								"link": "Step_11_Add_Table_with_n_Navigation_to_Detail_Area_19cc773.md"
 							}
 						}
 					},

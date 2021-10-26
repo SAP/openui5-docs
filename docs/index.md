@@ -162,6 +162,8 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 7: Delete](Step_7_Delete_12a0d1e.md)
             -   [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md)
             -   [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md)
+            -   [Step 10: Enable Data Reuse](Step_10_Enable_Data_Reuse_e687dbd.md)
+            -   [Step 11: Add Table with :n Navigation to Detail Area](Step_11_Add_Table_with_n_Navigation_to_Detail_Area_19cc773.md)
         -   [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
             -   [Step 1: Set Up the Initial App](Step_1_Set_Up_the_Initial_App_df245bd.md)
             -   [Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md)

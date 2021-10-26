@@ -37,13 +37,7 @@ For OpenUI5, we recommend that developers build their apps CSP-compliant, in par
 
 ***
 
-#### Asynchronous Loading
-
-`eval()` is currently still required in OpenUI5 for synchronous loading. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
-
-***
-
-#### How to Avoid Inline Scripts
+#### Policies Without `script-src 'unsafe-inline'`
 
 To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 
@@ -59,6 +53,8 @@ To build CSP-compliant OpenUI5 without inline scripts, avoid the following:
 ***
 
 #### Policies Without `script-src 'unsafe-eval'`
+
+`eval()` is currently still required in some parts of OpenUI5 for synchronous loading and other functionality. However, we recommend loading JavaScript resources asynchronously, which also avoids the use of `eval()`. For more information about asynchronous loading, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md). For more information about avoiding synchronous APIs that might lead to synchronous loading, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
 For a CSP policy that doesn't allow `eval()` you must also avoid the following elements when developing OpenUI5 apps:
 
@@ -263,6 +259,7 @@ Required for the following libraries:
 Most likely required for deprecated APIs. Required at least for parts of the following libraries:
 
 -   All controls based on UI5 Web Components \(for example `sap.f`, `sap.ui.integration`\)
+-   `sap.gantt`
 -   `sap.rules.ui`
 -   `sap.suite.ui.commons`
 -   `sap.ui.integration`
@@ -571,7 +568,7 @@ Requires `'self'` for loading application resources.
 
 ### Specific Restrictions
 
-For the following functions and features, certain restrictions apply:
+The following functions and features require additional sources or have certain restrictions:
 
 
 <table>
@@ -694,6 +691,43 @@ Factsheets, Smart Business
 <td valign="top">
 
 Factsheets and Smart Business \(tiles\) have not been fully adopted to run without inline styles yet.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+`**script-src 'unsafe-inline'**`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.richtexteditor`
+
+
+
+</td>
+<td valign="top">
+
+RichTextEditor
+
+
+
+</td>
+<td valign="top">
+
+The following cases can cause CSP-relevant issues for inline scripts when the RichTextEditor is used:
+
+-   If you're using one of the following plugins: `linkchecker`, `preview`
+-   If you're using the `tinymce.ui.Iframe` widget
+
+See also [sap.ui.richtexteditor](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/d4f3f1598373452bb73f2120930c133c.html "The sap.ui.richtexteditor offers functionality for text editing - like, for example, bullets, indentation, fonts, and coloring.") :arrow_upper_right:.
 
 
 

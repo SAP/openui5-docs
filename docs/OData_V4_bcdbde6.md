@@ -69,6 +69,11 @@ In this step, we make it possible to delete user data.
 Our OData service provides one OData operation: the `ResetDataSource` action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.
 9.  [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")  
 In this step we add a detail area with additional information.
+10. [Step 10: Enable Data Reuse](Step_10_Enable_Data_Reuse_e687dbd.md "In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or
+		filtering the list.")  
+In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or filtering the list.
+11. [Step 11: Add Table with :n Navigation to Detail Area](Step_11_Add_Table_with_n_Navigation_to_Detail_Area_19cc773.md "In this step we add a table with additional information to the detail area.")  
+In this step we add a table with additional information to the detail area.
 
 **Related Information**  
 
