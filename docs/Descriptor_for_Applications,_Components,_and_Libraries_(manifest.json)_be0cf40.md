@@ -1449,7 +1449,7 @@ Indicates whether the app is running offline; default is `false` \(online\)
 </td>
 <td valign="top">
 
-If an app has been generated from a template, this attribute is filled automatically by the generation tool \(SAP Web IDE\):
+If an app has been generated from a template, this attribute is filled automatically by the generation tool \(that is, SAP Fiori tools in SAP Business Application Studio\):
 
 -   `id`: Mandatory ID of the template from which the app was generated
 

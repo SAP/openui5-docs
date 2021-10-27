@@ -93,5 +93,5 @@ You can use the `Context#setKeepAlive` method to prevent the destruction of info
 **Related Information**  
 
 
-[Data Reuse](Data_Reuse_648e360.md "")
+[Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC)
 

@@ -86,7 +86,7 @@ To test policies without enforcing them, set up CSP with the `Content-Security-P
 
 ### Directives
 
-To run an app in an environment in which CSP has been enabled, OpenUI5 requires the following directives:
+To run an app in an environment in which CSP has been enabled, OpenUI5 requires the following CSP directives and source entries:
 
 
 <table>
@@ -187,18 +187,6 @@ Custom Sources \(Including 'self' for the App's Own Origin\)
 
 Required for synchronous loading of JavaScript resources.
 
-Most likely required for deprecated APIs, especially for programming model APIs, like old factories in the `sap.ui` namespace. Required at least for parts of the following libraries:
-
--   `sap.apf`
--   `sap.collaboration`
--   `sap.ovp`
--   `sap.suite.ui.generic.template`
--   `sap.rules.ui`
--   `sap.ui.vbm`
--   `sap.ushell`
--   `sap.uxap`
--   `sap.zen.*` \(non-deprecated part\)
-
 Required for the following libraries:
 
 -   `sap.ca.ui` and scaffolding framework
@@ -210,6 +198,21 @@ Required for the following libraries:
 -   `sap.uiext.inbox`
 -   `sap.viz.*` \(deprecated part\)
 -   `sap.zen.*` \(deprecated part\)
+
+Most likely required for deprecated APIs, especially for programming model APIs, like old factories in the `sap.ui` namespace.
+
+Certain libraries at least partly still require `'unsafe-eval'`, including the following:
+
+-   `sap.apf`
+-   `sap.collaboration`
+-   `sap.ovp`
+-   `sap.suite.ui.generic.template`
+-   `sap.rules.ui`
+-   `sap.ui.vbm`
+-   `sap.ushell`
+-   `sap.zen.*` \(non-deprecated part\)
+
+The above list assumes that the app runs using library preloads \(recommended, see [Ensure that Library Preloads are Enabled](Performance_Speed_Up_Your_App_408b40e.md#loio408b40efed3c416681e1bd8cdd8910d4__section_LibraryPreloads)\). If the appication runs without preloads, more libraries require `unsafe-eval`.
 
 
 
@@ -256,31 +259,33 @@ Required for the following libraries:
 
 `'unsafe-inline'`
 
-Most likely required for deprecated APIs. Required at least for parts of the following libraries:
-
--   All controls based on UI5 Web Components \(for example `sap.f`, `sap.ui.integration`\)
--   `sap.gantt`
--   `sap.rules.ui`
--   `sap.suite.ui.commons`
--   `sap.ui.integration`
--   `sap.ui.richtexteditor`
--   `sap.ui.vbm`
--   `sap.ui.vk`
--   `sap.ushell`
--   `sap.webc.*`
--   `sap.zen.*` \(non-deprecated part\)
-
 Required for the following libraries:
 
 -   `sap.ca.ui` and scaffolding framework
 -   `sap.landvisz`
 -   `sap.makit`
 -   `sap.me`
+-   `sap.ui.richtexteditor`
 -   `sap.ui.commons`
 -   `sap.ui.ux3`
 -   `sap.uiext.inbox`
 -   `sap.viz.*` \(deprecated part\)
 -   `sap.zen.*` \(deprecated part\)
+
+Most likely required for deprecated APIs.
+
+Certain libraries at least partly still require `'unsafe-inline'`, including:
+
+-   All controls based on UI5 Web Components \(for example `sap.f`, `sap.ui.integration`\)
+-   `sap.gantt`
+-   `sap.rules.ui`
+-   `sap.suite.ui.commons`
+-   `sap.ui.integration`
+-   `sap.ui.vbm`
+-   `sap.ui.vk`
+-   `sap.ushell`
+-   `sap.webc.*`
+-   `sap.zen.*` \(non-deprecated part\)
 
 
 
@@ -392,7 +397,7 @@ May require `'self'` or additional locations for application-specific fonts.
 </td>
 <td valign="top">
 
-Required for using the support assistant and/or the diagnostics tool. Also required to avoid a fallback to `child-src`.
+Required for using the support assistant and/or the diagnostics tool. Also required to avoid a fallback to `child-src`.\*
 
 
 
@@ -473,7 +478,7 @@ May be required by some specific OpenUI5 functionality.
 <tr>
 <td valign="top">
 
-`child-src`\*
+`child-src`\*\*
 
 
 
@@ -560,7 +565,9 @@ Requires `'self'` for loading application resources.
 </tr>
 </table>
 
-\*`child-src` is still required for browsers that don't support `worker-src` yet.
+\*In case `child-src` has been specified but no fallback for `frame-src` is intended, define `frame-src` with proper sources \(could also be `'none'`\).
+
+\*\*`child-src` is still required for browsers that don't support `worker-src` yet.
 
 ***
 
@@ -568,7 +575,7 @@ Requires `'self'` for loading application resources.
 
 ### Specific Restrictions
 
-The following functions and features require additional sources or have certain restrictions:
+The following functions and features require additional CSP source entries or have certain restrictions:
 
 
 <table>
@@ -607,7 +614,7 @@ Comment
 <tr>
 <td valign="top">
 
- 
+`sap.ui.support`
 
 
 
@@ -644,7 +651,7 @@ Search, App Finder, Custom Tiles
 </td>
 <td valign="top">
 
-Inline styles are required for the App Finder and the correct rendering of custom tiles. Also, the search function doesn't work without inline styles when it's started via a deep link.
+`script-src 'unsafe-eval'` is required for the App Finder and the rendering of custom tiles. It's also required to start the search function via a deep link.
 
 
 
@@ -690,7 +697,7 @@ Factsheets, Smart Business
 </td>
 <td valign="top">
 
-Factsheets and Smart Business \(tiles\) have not been fully adopted to run without inline styles yet.
+Factsheets and Smart Business \(tiles\) have not been fully adopted to run without synchronous loading yet.
 
 
 
@@ -736,6 +743,40 @@ See also [sap.ui.richtexteditor](https://help.sap.com/viewer/3343ff76a027486c829
 <tr>
 <td valign="top" colspan="3">
 
+`**script-src 'wasm-eval'**`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.ui.core`
+
+
+
+</td>
+<td valign="top">
+
+Hyphenation
+
+
+
+</td>
+<td valign="top">
+
+`script-src` requires `wasm-eval`
+
+When native hyphenation is not available, a third-party library \(Hyphenopoly\) is used. This library uses WASM, which leads to CSP issues due to browser limitations. There is a fallback to `asm.js`, if WASM can't be used.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
 `**style-src 'unsafe-inline'**`
 
 
@@ -752,7 +793,7 @@ See also [sap.ui.richtexteditor](https://help.sap.com/viewer/3343ff76a027486c829
 </td>
 <td valign="top">
 
-Controls that display provided HTML text \(for example `sap.m.FormattedText`\)
+Controls that display provided HTML text \(for example `sap.m.FormattedText` and `sap.ui.core.HTML`\)
 
 
 
@@ -800,14 +841,14 @@ When a 2D drawing is loaded, `sap.ui.vk.svg.Viewport` creates an SVG document th
 </td>
 <td valign="top">
 
-Search, App Finder, Custom Tiles
+Company Logo
 
 
 
 </td>
 <td valign="top">
 
-Inline styles are required for the App Finder and the correct rendering of custom tiles. Also, the search function doesn't work without inline styles when it's started via a deep link.
+A console error related to the loading of the company logo is logged during startup of the SAP Fiori launchpad. Eventually, the logo is loaded as expected.
 
 
 
@@ -854,40 +895,6 @@ VizContainer, typed charts
 <td valign="top">
 
 VizContainer and old typed charts require synchronous loading of JavaScript.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" colspan="3">
-
-`**script-src 'wasm-eval'**`
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`sap.ui.core`
-
-
-
-</td>
-<td valign="top">
-
-Hyphenation
-
-
-
-</td>
-<td valign="top">
-
-`script-src` requires `wasm-eval`
-
-When native hyphenation is not available, a third-party library \(Hyphenopoly\) is used. This library uses WASM, which leads to CSP issues due to browser limitations. There is a fallback to `asm.js`, if WASM can't be used.
 
 
 
