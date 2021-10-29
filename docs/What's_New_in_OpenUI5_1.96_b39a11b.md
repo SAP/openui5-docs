@@ -169,13 +169,3 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </tr>
 </table>
 
-***
-
-<a name="loiob39a11b47d994e9cb81c7e80946ed976__section_z2h_fh5_zcb"/>
-
-### Documentation
-
-
-<table>
-</table>
-
