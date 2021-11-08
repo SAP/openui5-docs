@@ -130,6 +130,9 @@ The newly created rule remains *temporary* until you submit and assign it to a l
 
 Once you load your rulesets or select a rule preset, you can run an analysis with them. To do this, select *Analyze*. For more information about the execution scope, you can refer to [Execution Scope](Execution_Scope_e15067d.md)
 
+> ### Note:  
+> If you have enforced a strict Content Security Policy \(CSP\), your temporary rules could not be executed. For more information about CSP, check [Content Security Policy](Content_Security_Policy_fe1a6db.md).
+
 **Related Information**  
 
 
