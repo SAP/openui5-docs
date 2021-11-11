@@ -25,6 +25,9 @@ Before you start using OpenUI5 productively, please read the **important informa
 -   [Upgrading](Upgrading_9638e4f.md)
 -   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
 
+-   **[Enterprise Features of SAPUI5](Enterprise_Features_of_SAPUI5_bf2d55e.md "As an enterprise framework, SAPUI5 offers many powerful enterprise features to
+		support your entire app development project.")**  
+As an enterprise framework, SAPUI5 offers many powerful enterprise features to support your entire app development project.
 -   **[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  

@@ -621,14 +621,14 @@ Comment
 </td>
 <td valign="top">
 
-Support Assistant
+Support Assistant - Temporary Rules
 
 
 
 </td>
 <td valign="top">
 
-For custom rules in the Support Assistant, dynamic code execution is essential, so it can't be removed. Support Assistant detects whether dynamic code execution is allowed and informs the user if custom rules can be used or not.
+For temporary rules in the Support Assistant, dynamic code execution is essential, so it can't be removed. Support Assistant detects whether dynamic code execution is allowed and informs the user if temporary rules can be used or not.
 
 
 

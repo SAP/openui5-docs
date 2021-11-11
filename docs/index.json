@@ -156,6 +156,9 @@
 			"Read Me First": {
 				"link": "Read_Me_First_167193c.md",
 				"items": {
+					"Enterprise Features of SAPUI5": {
+						"link": "Enterprise_Features_of_SAPUI5_bf2d55e.md"
+					},
 					"Compatibility Rules": {
 						"link": "Compatibility_Rules_91f0873.md"
 					},
