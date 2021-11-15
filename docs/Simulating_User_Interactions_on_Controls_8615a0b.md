@@ -26,7 +26,8 @@ oOpa.waitFor({
     actions: new Press()
 });
 ```
-You can also add key modifiers like the Control Key, Alt Key and the Shift Key:
+As of version 1.97, you can add key modifiers, such as *Control*, *Alt*, and *Shift*:
+
 ``` js
 oOpa.waitFor({
     id: "myButton",
