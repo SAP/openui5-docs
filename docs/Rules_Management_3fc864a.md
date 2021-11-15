@@ -61,13 +61,13 @@ The ID is an alphanumeric string which, although not mandatory, is useful if you
 Once exported and saved, your rule presets can be imported and used again. They are listed in a dropdown menu allowing you to easily switch between them.
 
 > ### Tip:  
-> In *My Selection* you can find your most current selection of rules. To preserve it for your next analyses together with your choice of imported presets, go to the settings menu ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
+> In *My Selection*![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
 
 ***
 
 #### System Presets
 
-For your convenience, the Support Assistant is also equipped with ready-to-use system-defined rule presets. They contain selections of rules related within the context of a scenario, functional area, or other aspects of the app UI that can be verified using support rules. The first system preset which has been added is for Accessibility-related rules.
+For your convenience, the Support Assistant is also equipped with ready-to-use system-defined rule presets. They contain selections of rules related within the context of a scenario, functional area, or other aspects of the app UI that can be verified using support rules. The first system preset which has been added is for Accessibility-related rules. you can find your most current selection of rules. To preserve it for your next analyses together with your choice of imported presets, go to the settings menu
 
 You can't delete system presets but you have the option to modify and export them as you do with your custom ones. Although the rules selected within one system preset are grouped according to their relevance to a certain scenario, they can belong to different categories.
 
@@ -80,7 +80,7 @@ You can't delete system presets but you have the option to modify and export the
 
 ### Columns Personalization
 
-You have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
+you can find your most currentYou have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
 
    
   
@@ -131,7 +131,7 @@ The newly created rule remains *temporary* until you submit and assign it to a l
 Once you load your rulesets or select a rule preset, you can run an analysis with them. To do this, select *Analyze*. For more information about the execution scope, you can refer to [Execution Scope](Execution_Scope_e15067d.md)
 
 > ### Note:  
-> If you have enforced a strict Content Security Policy \(CSP\), your temporary rules could not be executed. For more information about CSP, check [Content Security Policy](Content_Security_Policy_fe1a6db.md).
+> If you have enforced a strict Content Security Policy \(CSP\), your temporary rules would not be executed. For more information about CSP, check [Content Security Policy](Content_Security_Policy_fe1a6db.md).
 
 **Related Information**  
 

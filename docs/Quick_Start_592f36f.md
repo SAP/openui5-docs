@@ -42,7 +42,7 @@ Finally, we add a second page to our app showcasing some of the key OpenUI5 conc
 **Related Information**  
 
 
-[Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md "Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show OpenUI5 in action.")
+[Tutorials](Tutorials_8b49fc1.md "Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show OpenUI5 in action.")
 
 [Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 

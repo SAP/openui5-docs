@@ -53,7 +53,7 @@ Find out what's new in the latest versions of OpenUI5.
 		Here you read everything you need to know about supported library combinations, the
 		supported browsers and platforms, and so on.")**  
 Before you start using OpenUI5 productively, please read the **important information** in the section. Here you read everything you need to know about supported library combinations, the supported browsers and platforms, and so on.
--   **[Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md "Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show
+-   **[Tutorials](Tutorials_8b49fc1.md "Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show
 			OpenUI5 in action.")**  
 Set up your development environment and go through our tutorials. They introduce you to all major development paradigms of OpenUI5 using practical examples in an interactive format. The demo apps show OpenUI5 in action.
 -   **[Essentials](Essentials_ec699e0.md "This chapter and its sections describe the development concepts of OpenUI5, such as the

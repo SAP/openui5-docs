@@ -31,11 +31,11 @@ We start with an initial app that simply retrieves data from an OData V4 service
 > 
 > You can view and download the samples for all steps in the Demo Kit at [OData V4](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.odatav4/samples). Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
-> For more information, check the following sections of the tutorial overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\):
+> For more information, check the following sections of the tutorial overview page \(see [Tutorials](Tutorials_8b49fc1.md)\):
 > 
-> -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
+> -   [Downloading Code for a Tutorial Step](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
-> -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> -   [Adapting Code to Your Development Environment](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
 1.  [Step 1: The Initial App](Step_1_The_Initial_App_15d84f3.md "We start by setting up a simple app that loads data from an OData service and displays
 		it in a table. We use a mock server to simulate requests to and responses from the

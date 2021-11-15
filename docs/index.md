@@ -70,7 +70,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Upgrading from a Version Below 1.38](Upgrading_from_a_Version_Below_1.38_c1025c2.md)
         -   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
         -   [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
-    -   [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)
+    -   [Tutorials](Tutorials_8b49fc1.md)
         -   [Development Environment](Development_Environment_7bb04e0.md)
             -   [App Development](App_Development_b1fbe1a.md)
             -   [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md)

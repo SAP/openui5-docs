@@ -57,11 +57,11 @@ The app provides the following features:
 > 
 > You can view and download the files for all steps in the Demo Kit at [Flexible Column Layout App](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
-> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\):
+> For more information check the following sections of the tutorials overview page \(see [Tutorials](Tutorials_8b49fc1.md)\):
 > 
-> -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
+> -   [Downloading Code for a Tutorial Step](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
-> -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> -   [Adapting Code to Your Development Environment](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
 1.  [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this
 		tutorial.")  
