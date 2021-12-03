@@ -39,6 +39,17 @@ oOpa.waitFor({
 });
 ```
 
+You can use coordinates for the X and Y axes by prodividng values for *xPercentage* and *yPercentage* properties. The values provided should be percentages, i.e. in the range [0 - 100], relative to the control, which will then be converted to exact coordinates in pixels:
+
+``` js
+oOpa.waitFor({
+    id: "myButton",
+    actions: new Press({
+        xPercentage: 80,
+        yPercentage: 20
+    }),
+});
+```
 ***
 
 ### Choosing an Item from `sap.m.Select`
