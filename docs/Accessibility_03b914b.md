@@ -37,7 +37,7 @@ Adjacent controls within the tab chain can be grouped for fast navigation using 
 		of how the screen reader reads out the contents of the UI. Labels, headings, and
 		descriptions help you describe the contents and visual elements of an application. ")**  
 OpenUI5 application developers need to be aware of how the screen reader reads out the contents of the UI. Labels, headings, and descriptions help you describe the contents and visual elements of an application.
--   **[sap.ui.core.InvisibleMessage](sap.ui.core.InvisibleMessage_b9a7d6f.md "The Invisible Message class provides a way to grammatically expose dynamic content
+-   **[sap.ui.core.InvisibleMessage](sap_ui_core_InvisibleMessage_b9a7d6f.md "The Invisible Message class provides a way to grammatically expose dynamic content
 		changes in a way that can be announced by screen readers.")**  
 The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
 -   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good

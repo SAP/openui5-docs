@@ -131,7 +131,7 @@ And now we are done! We built a simple application with user data from an OData 
 
 **Next:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
 
-**Previous:** [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
+**Previous:** [Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
 
 **Related Information**  
 

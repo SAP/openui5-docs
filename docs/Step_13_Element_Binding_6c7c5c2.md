@@ -198,5 +198,5 @@ Add the missing texts to the `properties` files.
 **Related Information**  
 
 
-[Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.")
+[Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.")
 

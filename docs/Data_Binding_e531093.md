@@ -45,14 +45,14 @@ In this step, we create a model as container for the data on which your applicat
 3.  [Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from
 		model data.")  
 Although there is no visible difference, the text on the screen is now derived from model data.
-4.  [Step 4: Two-Way Data Binding](Step_4_Two-Way_Data_Binding_c72b922.md "In the examples used so far, we have used a read-only field to display the value of a
+4.  [Step 4: Two-Way Data Binding](Step_4_Two_Way_Data_Binding_c72b922.md "In the examples used so far, we have used a read-only field to display the value of a
 		model property. We will now change the user interface so that the first and last name fields
 		are displayed using sap.m.Input fields and an additional check box control
 		is used to enable or disable both input fields. This arrangement illustrates a feature known
 		as &quot;two-way data binding&quot;. Now that the view contains more controls, we will also move the
 		view definition into an XML file.")  
 In the examples used so far, we have used a read-only field to display the value of a model property. We will now change the user interface so that the first and last name fields are displayed using `sap.m.Input` fields and an additional check box control is used to enable or disable both input fields. This arrangement illustrates a feature known as "two-way data binding". Now that the view contains more controls, we will also move the view definition into an XML file.
-5.  [Step 5: One-Way Data Binding](Step_5_One-Way_Data_Binding_88756c0.md "In contrast to the two-way binding behavior shown above, one-way data binding is also
+5.  [Step 5: One-Way Data Binding](Step_5_One_Way_Data_Binding_88756c0.md "In contrast to the two-way binding behavior shown above, one-way data binding is also
 		possible. Here, data is transported in one direction only: from the model, through the
 		binding instance to the consumer (usually the property of a control), but never in the other
 		direction. In this example, we will change the previous example to use one-way data binding.
@@ -62,7 +62,7 @@ In contrast to the two-way binding behavior shown above, one-way data binding is
 6.  [Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels
 		and descriptions on the user interface.")  
 Business applications also require language-specific \(translatable\) texts used as labels and descriptions on the user interface.
-7.  [Step 7: \(Optional\) Resource Bundles and Multiple Languages](Step_7_(Optional)_Resource_Bundles_and_Multiple_Languages_4e593b4.md "The reason we have resource bundles is to allow an app to run in multiple languages without the need to change any code. To demonstrate
+7.  [Step 7: \(Optional\) Resource Bundles and Multiple Languages](Step_7_Optional_Resource_Bundles_and_Multiple_Languages_4e593b4.md "The reason we have resource bundles is to allow an app to run in multiple languages without the need to change any code. To demonstrate
 		this feature, we will create a German version of the app – in fact all we need to do is create a German version of the resource bundle file.
 		In our code, the German locale needs to be activated for the ResourceModel.")  
 The reason we have resource bundles is to allow an app to run in multiple languages without the need to change any code. To demonstrate this feature, we will create a German version of the app – in fact all we need to do is create a German version of the resource bundle file. In our code, the German locale needs to be activated for the ResourceModel.
@@ -114,5 +114,5 @@ Instead of hard-coding a single template control, we use a factory function to g
 
 [Data Binding](Data_Binding_68b9644.md "You use data binding to bind UI elements to data sources to keep the data in sync and allow data editing on the UI.")
 
-[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
+[Model View Controller \(MVC\)](Model_View_Controller_MVC_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
 

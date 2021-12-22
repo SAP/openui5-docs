@@ -86,7 +86,7 @@ You can use the `Context#setKeepAlive` method to prevent the destruction of info
 
 **Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Next:** [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
+**Next:** [Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
 
 **Previous:** [Step 11: Add Table with :n Navigation to Detail Area](Step_11_Add_Table_with_n_Navigation_to_Detail_Area_19cc773.md "In this step we add a table with additional information to the detail area.")
 

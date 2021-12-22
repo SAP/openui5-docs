@@ -32,12 +32,12 @@ For more information about SAP Web IDE, see the documentation for SAP Web IDE on
 Steps to access SAP Web IDE
 -   **[Start SAP Web IDE](Start_SAP_Web_IDE_213a69c.md "Initial Steps in SAP Web IDE")**  
 Initial Steps in SAP Web IDE
--   **[Create a neo-app.json Project Configuration File](Create_a_neo-app.json_Project_Configuration_File_28fa753.md "The neo-app.json file contains all project settings for SAP Web IDE
+-   **[Create a neo-app.json Project Configuration File](Create_a_neo_app_json_Project_Configuration_File_28fa753.md "The neo-app.json file contains all project settings for SAP Web IDE
 		and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important
 		setting for you to configure is the path where the OpenUI5 runtime is located when
 		starting the app.")**  
 The `neo-app.json` file contains all project settings for SAP Web IDE and is created in the root folder of your project. It is a JSON format file consisting of multiple configuration keys. The most important setting for you to configure is the path where the OpenUI5 runtime is located when starting the app.
--   **[Create an index.html File](Create_an_index.html_File_f7cbafc.md "A minimalistic index.html file is needed to test the project
+-   **[Create an index.html File](Create_an_index_html_File_f7cbafc.md "A minimalistic index.html file is needed to test the project
 		configuration. This file contains the OpenUI5 bootstrap and an
 			sap.m.Text control that displays the text &quot;OpenUI5 is loaded
 			successfully!&quot;.")**  

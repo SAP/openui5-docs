@@ -40,24 +40,24 @@ The semantic page controls help the app designers and developers implement and c
 		different table controls that are suitable for different use cases. The table below outlines
 		which table controls are available, and what features are supported by each one.")**  
 The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.
--   **[sap.f](sap.f_0b455b0.md "This library contains controls that were built based on the SAP Fiori 2.0 design
+-   **[sap.f](sap_f_0b455b0.md "This library contains controls that were built based on the SAP Fiori 2.0 design
 		guidelines.")**  
 This library contains controls that were built based on the SAP Fiori 2.0 design guidelines.
--   **[sap.m](sap.m_48d9390.md "This library contains the most important controls for building a user interface that is
+-   **[sap.m](sap_m_48d9390.md "This library contains the most important controls for building a user interface that is
 		responsive to any device.")**  
 This library contains the most important controls for building a user interface that is responsive to any device.
--   **[sap.tnt](sap.tnt_d8374d5.md "This library contains controls that provide the basic structure of a tool
+-   **[sap.tnt](sap_tnt_d8374d5.md "This library contains controls that provide the basic structure of a tool
 		app.")**  
 This library contains controls that provide the basic structure of a tool app.
--   **[sap.ui.codeeditor](sap.ui.codeeditor_2832a13.md "This library contains the CodeEditor control.")**  
+-   **[sap.ui.codeeditor](sap_ui_codeeditor_2832a13.md "This library contains the CodeEditor control.")**  
 This library contains the `CodeEditor` control.
--   **[sap.ui.core](sap.ui.core_72227f8.md "This library contains the jQuery plugins (jQuery.sap.*), the core and
+-   **[sap.ui.core](sap_ui_core_72227f8.md "This library contains the jQuery plugins (jQuery.sap.*), the core and
 		all its components, base classes for controls, components and the Model-View-Controller
 		(MVC) classes.")**  
 This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all its components, base classes for controls, components and the Model-View-Controller \(MVC\) classes.
--   **[sap.ui.table](sap.ui.table_08197fa.md " Table-like controls, mainly for desktop scenarios.")**  
+-   **[sap.ui.table](sap_ui_table_08197fa.md " Table-like controls, mainly for desktop scenarios.")**  
  Table-like controls, mainly for desktop scenarios.
--   **[sap.uxap](sap.uxap_de71337.md "This library includes controls associated with the
+-   **[sap.uxap](sap_uxap_de71337.md "This library includes controls associated with the
 		ObjectPage.")**  
 This library includes controls associated with the `ObjectPage`.
 

@@ -171,7 +171,7 @@ Use Case Examples
 <tr>
 <td valign="top">
 
- [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md) 
+ [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md) 
 
 
 
@@ -202,7 +202,7 @@ Identifies performance issues in your application by tracking the interaction th
 </tr>
 </table>
 
-For help with specific problems see our [First-Aid Kit](First-Aid_Kit_dfe4f79.md).
+For help with specific problems see our [First-Aid Kit](First_Aid_Kit_dfe4f79.md).
 
 ***
 
@@ -237,12 +237,12 @@ The Test Recorder tool supports app developers who write integration and system 
 		supported for apps based on OpenUI5 version 1.28 and
 		higher.")**  
 The UI5 Inspector is an open source Chrome DevTools extension that helps app developers to inspect, analyze, and support OpenUI5-based apps. It is supported for apps based on OpenUI5 version 1.28 and higher.
--   **[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the
+-   **[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the
 		performance of your JavaScript code. ")**  
 You can use `sap/ui/performance/Measurement` to measure the performance of your JavaScript code.
 -   **[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md "You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.")**  
 You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.
--   **[First-Aid Kit](First-Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve
+-   **[First-Aid Kit](First_Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve
 		them.")**  
 This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.
 

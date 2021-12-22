@@ -160,5 +160,5 @@ We adjust the *General Information* section to display Product ID, Description a
 
 **Next:** [Step 7: Routing](Step_7_Routing_7f65131.md "In this step, we utilize the sap.f.routing.Router.")
 
-**Previous:** [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail-Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
+**Previous:** [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
 

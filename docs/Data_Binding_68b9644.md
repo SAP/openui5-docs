@@ -62,7 +62,7 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
     > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
 
     > ### Note:  
-    > When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting,_Parsing,_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
+    > When using formatter functions, the binding is automatically switched to "one-way". So you can’t use a formatter function for "two-way" scenarios, but you can use [Data Types](Formatting_Parsing_and_Validating_Data_07e4b92.md#loio07e4b920f5734fd78fdaa236f26236d8__section_DataTypes).
 
 -   **One-time binding** means from model to view once.
 
@@ -321,7 +321,7 @@ Depending on the different use cases, you can use different binding types: Prope
 -   **[Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model
 		that represents the data source in the app.")**  
 You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.
--   **[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable
+-   **[Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable
         and fits to the locale of the user. On the other hand, data entered by the user has to be
         parsed and validated to be understood by the data source. For this purpose, you use
         formatters and data types.")**  

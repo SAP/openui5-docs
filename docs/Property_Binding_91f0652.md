@@ -225,7 +225,7 @@ oImage.bindProperty("src", "/company/trusted", function(bValue) {
 
 #### Using Data Types
 
-The data type system enables you to format and parse data, as well as to validate whether the entered data lies within any defined constraints. OpenUI5 comes with several predefined and ready-to-use types, referred to as simple types. For more information, see [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md).
+The data type system enables you to format and parse data, as well as to validate whether the entered data lies within any defined constraints. OpenUI5 comes with several predefined and ready-to-use types, referred to as simple types. For more information, see [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md).
 
 Here’s how you can use these types in an XML view:
 
@@ -366,5 +366,5 @@ In the example above, two `Input` fields are created and their `value` property 
 
 [Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 
-[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
+[Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 

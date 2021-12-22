@@ -36,7 +36,7 @@ After that, you define the project setup. If you work in a team, we recommend us
 
 When faced with developing an app, you have several ways to get started ranging from app templates or a make-em-completely-from-scratch approach. But which approach is right for your situation? In most cases, it's your level of expertise or need for flexibility and freedom that will decide.
 
-Think of the app templates described in this section as a kind of best practice for app development. They incorporate our latest recommendations and can be used as a starting point for developing apps according to the SAP Fiori design guidelines. They include generic application functionality and tests that can be easily extended with custom functionality if needed. There are separate templates for Worklist and Master-Detail application patterns, and we have an empty basic template. The templates are described under [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md).
+Think of the app templates described in this section as a kind of best practice for app development. They incorporate our latest recommendations and can be used as a starting point for developing apps according to the SAP Fiori design guidelines. They include generic application functionality and tests that can be easily extended with custom functionality if needed. There are separate templates for Worklist and Master-Detail application patterns, and we have an empty basic template. The templates are described under [Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:.
 
 If you're skilled at coding and want the freedom and flexibility, you can build an app completely from scratch. In the chapters in this section, you will find some guidance on how to deal with crucial concepts such as accessibility, security, device adaptation.
 
@@ -58,9 +58,6 @@ For example, it's quite easy to deploy an app to SAP Business Technology Platfor
 -   **[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md "This section describes the setup of a development project where multiple developers
 		work together on the same code.")**  
 This section describes the setup of a development project where multiple developers work together on the same code.
--   **[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md "The app templates documented here are a kind of &quot;best practice&quot; for your app
-		development.")**  
-The app templates documented here are a kind of "best practice" for your app development.
 -   **[App Overview: The Basic Files of Your App](App_Overview_The_Basic_Files_of_Your_App_28b59ca.md "We recommend creating at least three files for your app: the descriptor
 			(manifest.json), the component (Component.js),
 		and the main view of the app (App.view.xml).")**  
@@ -102,7 +99,7 @@ This section lists some of the most important issues that should be avoided when
         and control developers, as well as to system administrators running applications based on
             OpenUI5.")**  
 The following section provides information about security aspects of OpenUI5. The information is intended for OpenUI5 application and control developers, as well as to system administrators running applications based on OpenUI5.
--   **[Right-to-Left Support](Right-to-Left_Support_8d7b286.md "OpenUI5 application
+-   **[Right-to-Left Support](Right_to_Left_Support_8d7b286.md "OpenUI5 application
 		developers need to be aware of how applications behave when right-to-left (RTL)
 		directionality is selected. Changing the directionality has a big impact on text-displaying
 		controls, images and the alignment of the whole application.")**  

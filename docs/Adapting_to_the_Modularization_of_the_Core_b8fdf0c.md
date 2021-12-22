@@ -36,12 +36,12 @@ To benefit from the improvements provided by the modules, perform the following 
 
 -   Always declare the full dependencies as described in [Loading a Module](Loading_a_Module_d12024e.md).
 
--   Migrate to the new module API as described in [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md). Do **not** use the global `jQuery.sap` API anymore.
+-   Migrate to the new module API as described in [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md). Do **not** use the global `jQuery.sap` API anymore.
 
 -   Do **not** use the global `sap.ui` factory functions. Instead, use their replacements, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
 
--   **[Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md "Overview of the mapping of legacy APIs to the new APIs for the migration")**  
+-   **[Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md "Overview of the mapping of legacy APIs to the new APIs for the migration")**  
 Overview of the mapping of legacy APIs to the new APIs for the migration
 -   **[Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md "Overview of the replacement of global functions with the factory
 		functions")**  

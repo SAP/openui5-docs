@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Follow these steps to apply performance best practices to your application.
 
-In addition to applying best practices, always stay up to date with the framework, for instance via the OpenUI5  [Release Notes](https://openui5.hana.ondemand.com/#/releasenotes.html) and the [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md).
+In addition to applying best practices, always stay up to date with the framework, for instance via the OpenUI5  [Release Notes](https://openui5.hana.ondemand.com/#/releasenotes.html) and the [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md).
 
 1.  [Use the UI5 Support Assistant to Check for Known Issues](Support_Assistant_57ccd7d.md)
 2.   [Enable Asynchronous Loading in the Bootstrap](Use_Asynchronous_Loading_676b636.md#loio676b636446c94eada183b1218a824717__section_EALB)

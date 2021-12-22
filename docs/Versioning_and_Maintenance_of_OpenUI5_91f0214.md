@@ -22,7 +22,7 @@ OpenUI5 uses a 3-digit version identifier, for example 1.71.22 The digits have t
 
 To view the documentation for a specific version, check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.71.22/`.
 
-To get an overview of the new features of each version, see [What's New in OpenUI5](What's_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
+To get an overview of the new features of each version, see [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
 
 ***
 
@@ -73,5 +73,5 @@ var oVersion = oConfig.getVersion();
 
 ```
 
-For more information, see [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md).
+For more information, see [SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md).
 

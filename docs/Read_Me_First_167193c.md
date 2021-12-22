@@ -20,7 +20,7 @@ Before you start using OpenUI5 productively, please read the **important informa
 -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
 -   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
 -   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
--   [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
+-   [SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md)
 -   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
 -   [Upgrading](Upgrading_9638e4f.md)
 -   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
@@ -51,7 +51,7 @@ The following sections describe what you have to consider when upgrading to a ne
 		their concepts abandoned entirely. This chapter gives an overview on theme and library level of the most important deprecations. Individual control
 		deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.")**  
 As OpenUI5 evolves over time, some of the UI controls are replaced by others, or their concepts abandoned entirely. This chapter gives an overview on theme and library level of the most important deprecations. Individual control deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.
--   **[SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md "With SAPUI5 and OpenUI5 we provide two deliveries of
+-   **[SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md "With SAPUI5 and OpenUI5 we provide two deliveries of
 		our UI development toolkit. Both are very closely related, but have their
 		differences.")**  
 With SAPUI5 and OpenUI5 we provide two deliveries of our UI development toolkit. Both are very closely related, but have their differences.

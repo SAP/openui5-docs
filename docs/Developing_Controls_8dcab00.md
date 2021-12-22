@@ -31,7 +31,7 @@ When you want to develop several controls for reuse in different applications, w
 		adhering to the rules would make the code worse, follow the local style. If you want to
 		contribute your content to OpenUI5, you have to follow these conventions and guidelines.")**  
 To keep the OpenUI5 code readable and maintainable, development conventions and guidelines are introduced. We strongly recommend that you follow these guidelines even if you find them violated somewhere. For files that are consistently **not** following these rules and for which adhering to the rules would make the code worse, follow the local style. If you want to contribute your content to OpenUI5, you **have to** follow these conventions and guidelines.
--   **[The library.js File](The_library.js_File_bd039ed.md "The library.js file is a JavaScript file that contains the
+-   **[The library.js File](The_library_js_File_bd039ed.md "The library.js file is a JavaScript file that contains the
 		JavaScript code for all enumeration types provided by the library as well as
 		library-specific initialization code that is independent from the controls in the
 		library.")**  
@@ -46,7 +46,7 @@ Control metadata consists of properties, events, as well as aggregations and ass
 -   **[Adding Method Implementations](Adding_Method_Implementations_91f0a8d.md "After defining the metadata of a control, you add the method implementation to the
 		control.")**  
 After defining the metadata of a control, you add the method implementation to the control.
--   **[Device-specific Behavior of Controls](Device-specific_Behavior_of_Controls_a53ec81.md "Some controls have different behaviors between running on different device types
+-   **[Device-specific Behavior of Controls](Device_specific_Behavior_of_Controls_a53ec81.md "Some controls have different behaviors between running on different device types
 		(mobile, desktop, tablet). ")**  
 Some controls have different behaviors between running on different device types \(mobile, desktop, tablet\).
 -   **[Examples for Creating and Extending Controls](Examples_for_Creating_and_Extending_Controls_91f1845.md "Examples how to create and extend controls in OpenUI5.")**  
@@ -65,10 +65,10 @@ Some UI elements can have animations like page transitions or dynamic buttons. T
 		functionality tailored to the respective controls is required. For this, the framework
 		provides helper functions for the implementation of focus handling.")**  
 OpenUI5 provides mechanisms for observing the moving focus in an application page for controls. This information is then preserved for refocusing elements after rerendering. The focus triggers event firing. However, due to the high degree of flexibility in control rendering, a functionality tailored to the respective controls is required. For this, the framework provides helper functions for the implementation of focus handling.
--   **[Item Navigation - Supporting Keyboard Handling in List-like Controls](Item_Navigation_-_Supporting_Keyboard_Handling_in_List-like_Controls_91f2032.md "The helper class sap.ui.core.delegate.ItemNavigation supports item
+-   **[Item Navigation - Supporting Keyboard Handling in List-like Controls](Item_Navigation_Supporting_Keyboard_Handling_in_List_like_Controls_91f2032.md "The helper class sap.ui.core.delegate.ItemNavigation supports item
 		navigation in lists.")**  
 The helper class `sap.ui.core.delegate.ItemNavigation` supports item navigation in lists.
--   **[Right-to-Left Support in Controls](Right-to-Left_Support_in_Controls_91f2c24.md "OpenUI5 supports
+-   **[Right-to-Left Support in Controls](Right_to_Left_Support_in_Controls_91f2c24.md "OpenUI5 supports
 		right-to-left directionality (RTL) in controls.")**  
 OpenUI5 supports right-to-left directionality \(RTL\) in controls.
 -   **[Defining Groups for Fast Navigation](Defining_Groups_for_Fast_Navigation_10b14c7.md "Adjacent controls within the tab chain can be grouped. Within such a group, F6 or 

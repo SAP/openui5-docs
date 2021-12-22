@@ -78,7 +78,7 @@ For behavior-related development, the following guidelines apply:
 
 -   If an action takes a longer period of time, visualize this, for example by using a `BusyIndicator`.
 
--   When you create HTML markup for a control outside a renderer, for example, by writing to the `innerHTML` property of a DOM element, or by calling `jQuery.html()` or similar helpers, make sure to escape any unchecked data first with the function provided by `sap/base/security/encodeXML`. This is mandatory to prevent cross-site scripting issues. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
+-   When you create HTML markup for a control outside a renderer, for example, by writing to the `innerHTML` property of a DOM element, or by calling `jQuery.html()` or similar helpers, make sure to escape any unchecked data first with the function provided by `sap/base/security/encodeXML`. This is mandatory to prevent cross-site scripting issues. For more information, see [Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md).
 
 
 ***
@@ -112,7 +112,7 @@ With regard to the renderer, the following guidelines apply:
 -   `RenderManager.writeClasses()` must be called in the root HTML element of a control; otherwise `addStyleClass` does not work. this does not need to be used in subelements.
 
 
--   **[Control Development Guidelines: Theming/CSS](Control_Development_Guidelines_ThemingCSS_5e08ff9.md "For themes and CSS for control development in OpenUI5, the following
+-   **[Control Development Guidelines: Theming/CSS](Control_Development_Guidelines_Theming_CSS_5e08ff9.md "For themes and CSS for control development in OpenUI5, the following
 		guidelines apply.")**  
 For themes and CSS for control development in OpenUI5, the following guidelines apply.
 

@@ -19,7 +19,7 @@ No need to worry about device specifics! OpenUI5 apps run on smartphones, tablet
 		browser version, screen size, current orientation and support for specific features like
 		touch event support, orientation change and so on.")**  
 The device API \(`sap.ui.Device`\) is an API which provides information about device specifics, like the operating system along with its version, the browser and browser version, screen size, current orientation and support for specific features like touch event support, orientation change and so on.
--   **[Controls with Built-In Device Adaptation](Controls_with_Built-In_Device_Adaptation_328a340.md "OpenUI5 comes with several
+-   **[Controls with Built-In Device Adaptation](Controls_with_Built_In_Device_Adaptation_328a340.md "OpenUI5 comes with several
 		controls which are already able to react to the available screen real estate and resolution
 		by themselves. Some require particular properties to be set, and with some, everything just
 		works out of the box.")**  

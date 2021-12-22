@@ -29,7 +29,7 @@ QUnit tests provide good support for asynchronous testing. These types of tests 
 			Control.qunit.html page either via HTML or JavaScript code using
 			Blanket.js.")**  
 You can measure the code coverage for your test inside the `Control.qunit.html` page either via HTML or JavaScript code using `Blanket.js`.
--   **[Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR](Sinon.JS_Spies,_Stubs,_Mocks,_Faked_Timers,_and_XHR_457eaad.md "By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the
+-   **[Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR](Sinon_JS_Spies_Stubs_Mocks_Faked_Timers_and_XHR_457eaad.md "By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the
 		official documentation at http://sinonjs.org/docs/.")**  
 By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the official documentation at `http://sinonjs.org/docs/`.
 -   **[How to Test OpenUI5 Controls with QUnit](How_to_Test_OpenUI5_Controls_with_QUnit_a6b0657.md "Comprehensive overview of QUnit testing for controls.")**  

@@ -47,7 +47,7 @@ When you run into problems with your app, you should check the OpenUI5 version t
 
 2.  Open the version overview at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) to see if there are newer patch levels or releases of OpenUI5.
 
-3.  Read the [What's New](What's_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
+3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
 
     > ### Note:  
     > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.38.8/`.

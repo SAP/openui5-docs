@@ -80,6 +80,9 @@ This section outlines the main differences between the OData V2 and OData V4 mod
 		new entity. Users can interact with a newly created entity even before it has been sent to
 		the server.")**  
 The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity. Users can interact with a newly created entity even before it has been sent to the server.
+-   **[Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md "A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the
+		background whenever users add or change information within a business entity.")**  
+A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the background whenever users add or change information within a business entity.
 -   **[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The Context.delete method deletes an entity on the server and
 		updates the user interface accordingly.")**  
 The `Context.delete` method deletes an entity on the server and updates the user interface accordingly.

@@ -14,7 +14,7 @@ This section describes the setup of a development project where multiple develop
 
 When you develop an app, you want, of course, to deliver high code quality. To do so, you have various tools at hand:
 
--   Unit and integration tests to make sure that your change doesn't break the app or other tests \(see [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md) and [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)\)
+-   Unit and integration tests to make sure that your change doesn't break the app or other tests \(see [Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md) and [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md)\)
 
 -   Code analyzer \(or "linter"\) to check whether the code follows the code style conventions that apply to your project
 

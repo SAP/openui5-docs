@@ -556,7 +556,7 @@ SAPUI5/OpenUI5
 </td>
 <td valign="top">
 
-[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md)
+[Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md)
 
 
 
@@ -1044,7 +1044,7 @@ SAPUI5/OpenUI5
 </td>
 <td valign="top">
 
-[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)
+[Model View Controller \(MVC\)](Model_View_Controller_MVC_91f2334.md)
 
 
 

@@ -57,7 +57,7 @@ You can add other properties, such as formatters, data types, or events:
 
 For more information, see [Binding Path](Binding_Path_2888af4.md).
 
-For more information about data types and formatters, see [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md).
+For more information about data types and formatters, see [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md).
 
 ***
 

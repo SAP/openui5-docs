@@ -156,7 +156,7 @@ Some text elements inside the control may look incorrect, for instance parenthes
 </td>
 <td valign="top">
 
-This is a result of the browser's `bidi` algorithm considering the directionality of the characters used. As soon as there is LTR text in the control, the parentheses will be fine again. For controls that have mixed contents, see [API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md) 
+This is a result of the browser's `bidi` algorithm considering the directionality of the characters used. As soon as there is LTR text in the control, the parentheses will be fine again. For controls that have mixed contents, see [API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right_to_Left_Support_in_Text_Displaying_Controls_7e7cd0a.md) 
 
 
 
@@ -172,7 +172,7 @@ When a control has a `textAlign` property \(or something similar\), you need to 
 </td>
 <td valign="top">
 
-Use the [API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md) .
+Use the [API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right_to_Left_Support_in_Text_Displaying_Controls_7e7cd0a.md) .
 
 Additionally, the static helper method `sap.ui.core.Renderer.getTextAlign(oTextAlign, oTextDirection)` is available. This method calculates the effective value of the CSS `text-align` property considering the property setting and the current or given RTL mode.
 

@@ -41,7 +41,7 @@ We start with an initial app that simply retrieves data from an OData V4 service
 		it in a table. We use a mock server to simulate requests to and responses from the
 		service.")  
 We start by setting up a simple app that loads data from an OData service and displays it in a table. We use a mock server to simulate requests to and responses from the service.
-2.  [Step 2: Data Access and Client-Server Communication](Step_2_Data_Access_and_Client-Server_Communication_e9de002.md "In this step, we see how the Table that is bound to the
+2.  [Step 2: Data Access and Client-Server Communication](Step_2_Data_Access_and_Client_Server_Communication_e9de002.md "In this step, we see how the Table that is bound to the
 			People entity set initially requests its data, and how the data can be
 		refreshed. We use the Console tab in the browser developer tools to
 		monitor the communication between the browser and the server. We see the initial request as
@@ -51,7 +51,7 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
 		validate, and format user entries. The service metadata contains type information for the
 		properties of each entity.")  
 In this step, we use the automatic data type detection of the OData V4 model to parse, validate, and format user entries. The service metadata contains type information for the properties of each entity.
-4.  [Step 4: Filtering, Sorting, and Counting](Step_4_Filtering,_Sorting,_and_Counting_426ff31.md "In this step, we add features to filter, sort, and count the user data by using the
+4.  [Step 4: Filtering, Sorting, and Counting](Step_4_Filtering_Sorting_and_Counting_426ff31.md "In this step, we add features to filter, sort, and count the user data by using the
 		OData V4 model API to apply OData system query options $filter,
 			$orderby, and $count.")  
 In this step, we add features to filter, sort, and count the user data by using the OData V4 model API to apply OData system query options `$filter`, `$orderby`, and `$count`.
@@ -67,7 +67,7 @@ In this step, we make it possible to delete user data.
 		action. In this step, we add a button that resets all data changes we made during the
 		tutorial to their original state using this action.")  
 Our OData service provides one OData operation: the `ResetDataSource` action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.
-9.  [Step 9: List-Detail Scenario](Step_9_List-Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")  
+9.  [Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")  
 In this step we add a detail area with additional information.
 10. [Step 10: Enable Data Reuse](Step_10_Enable_Data_Reuse_e687dbd.md "In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or
 		filtering the list.")  

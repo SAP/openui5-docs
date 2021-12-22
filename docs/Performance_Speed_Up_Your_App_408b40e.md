@@ -69,7 +69,7 @@ An indicator that a component is inside a library is the existence of an entry `
 
 **Additional Information:**
 
--   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md)
+-   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
 
 ***
 
@@ -132,7 +132,7 @@ With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of
 
 For more informations, see:
 
--   [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)
+-   [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md)
 -   [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md)
 
 ***
@@ -141,7 +141,7 @@ For more informations, see:
 
 ### Use "manifest first" to Load the Component
 
-Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
+Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
 ``` js
 // "Component" required from module "sap/ui/core/Component"
@@ -222,7 +222,7 @@ If you're using SAP Web IDE, refer to [Application Build](https://help.sap.com/v
 
 Since UI5 version 1.58, the global `jquery.sap.*` modules are deprecated. Please use the modularised variant of the module. If you are still using the `jquery.sap.*` variants, a so-called "stubbing layer" may load the old module synchronously!
 
-You can find a list of modules in the [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md) documentation.
+You can find a list of modules in the [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md) documentation.
 
 The usages can either be replaced manually or by the [UI5 Migration Tool](https://github.com/SAP/ui5-migration).
 
@@ -308,7 +308,7 @@ Note that all key properties, such as the `CustomerID`, should still be added, e
 
 As a result, the response size of your application is reduced significantly. You also enable the back end to perform a more efficient database query.
 
-In the OData V4 model, `$select` and `$expand` values can be automatically defined. For more information, see [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+In the OData V4 model, `$select` and `$expand` values can be automatically defined. For more information, see [Automatic determination of $expand and $select](Automatic_determination_of_expand_and_select_10ca58b.md).
 
 ***
 
@@ -359,7 +359,7 @@ You can further optimize your code by doing the following:
 
 [Coding Issues to Avoid: Performance Issues](Performance_Issues_966d67c.md "This section lists some of the most important issues that should be avoided to improve performance in OpenUI5 applications.")
 
-[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
+[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
 
 [Blog: SAPUI5 Application Startup Performance – Best Practices](https://blogs.sap.com/2016/10/29/sapui5-application-startup-performance-best-practices/)
 

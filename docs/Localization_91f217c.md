@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The framework concepts for text localization in OpenUI5 are aligned with the general concepts of the Java platform.
 
--   **[Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md "For the identification of languages, the framework uses a language code of type
+-   **[Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md "For the identification of languages, the framework uses a language code of type
 			string.")**  
 For the identification of languages, the framework uses a language code of type `string`.
 -   **[Resource Bundles](Resource_Bundles_91f225c.md "A resource bundle file is a Java properties file (as described in the Javadoc of

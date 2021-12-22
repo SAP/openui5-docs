@@ -62,5 +62,5 @@ OpenUI5 event delegation automatically handles both mouse and touch events simul
 
 [Adapting Event Handling for Devices Supporting both Mouse and Touch Input](Adapting_Event_Handling_for_Devices_Supporting_both_Mouse_and_Touch_Input_b54d7d7.md "OpenUI5 event delegation automatically handles both mouse and touch events simultaneously. If you are using jQuery or native browser API (domElement.addEventListener) to handle events, you have to adapt your coding to support both.")
 
-[Device-specific Behavior of Controls](Device-specific_Behavior_of_Controls_a53ec81.md "Some controls have different behaviors between running on different device types (mobile, desktop, tablet).")
+[Device-specific Behavior of Controls](Device_specific_Behavior_of_Controls_a53ec81.md "Some controls have different behaviors between running on different device types (mobile, desktop, tablet).")
 

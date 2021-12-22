@@ -236,7 +236,7 @@ That's all - you completed the Data Binding tutorial!
 **Related Information**  
 
 
-[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls according to model data.")
+[List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls according to model data.")
 
 [XML Fragments](XML_Fragments_2c677b5.md "XML fragments are similar to XML view, but have no <View> tag as root element. Instead, there is an OpenUI5 control.")
 

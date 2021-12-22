@@ -46,7 +46,7 @@ The application is responsible for the following tasks:
 -   Security of custom controls provided by the application
 
 
-For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
+For more information, see [Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md).
 
 ***
 

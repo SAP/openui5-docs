@@ -42,7 +42,7 @@ The OData V4 model supports the following types of binding:
 -   **[Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md "In the OData V4 model, bindings are used to access and modify back-end data also if the data is accessed or modified in controller
 		code.")**  
 In the OData V4 model, bindings are used to access and modify back-end data also if the data is accessed or modified in controller code.
--   **[Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md "")**  
+-   **[Automatic determination of $expand and $select](Automatic_determination_of_expand_and_select_10ca58b.md "")**  
 
 -   **[Data Reuse](Data_Reuse_648e360.md "")**  
 

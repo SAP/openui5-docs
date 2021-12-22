@@ -47,7 +47,7 @@ Part of this fallback chain is your configured `fallbackLocale`, which defaults 
 
 The fallback chain produces locale candidates according to the following directives:
 
-1.  Determine the input language, for example `"de_DE"`. For more information, see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md).
+1.  Determine the input language, for example `"de_DE"`. For more information, see [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md).
 
 2.  Remove the region suffix from the locale code, e.g. `"de_DE"` -\> `"de"`.
 

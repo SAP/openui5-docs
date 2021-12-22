@@ -49,15 +49,15 @@ The following method names have a specific meaning and should be used accordingl
 > ```
 
 > ### Note:  
-> When you modify the HTML of a control using the code in the control behavior file, make sure to escape any unchecked data you write with `sap.base.security.encodeXML(...)` to prevent cross-site-scripting issues. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
+> When you modify the HTML of a control using the code in the control behavior file, make sure to escape any unchecked data you write with `sap.base.security.encodeXML(...)` to prevent cross-site-scripting issues. For more information, see [Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md).
 
 -   **[Normal Methods](Normal_Methods_85738e3.md "Normal or public methods comprise all methods that do not belong to one of the special
       method types.")**  
 Normal or public methods comprise all methods that do not belong to one of the special method types.
--   **[init\(\) Method](init()_Method_6d6b5bd.md "The init() method can be used to set up, for example, internal
+-   **[init\(\) Method](init_Method_6d6b5bd.md "The init() method can be used to set up, for example, internal
 		variables or subcontrols of a composite control.")**  
 The `init()` method can be used to set up, for example, internal variables or subcontrols of a composite control.
--   **[exit\(\) Method](exit()_Method_d4ac0ed.md "The exit() method is used to clean up resources and to deregister event
+-   **[exit\(\) Method](exit_Method_d4ac0ed.md "The exit() method is used to clean up resources and to deregister event
 		handlers.")**  
 The `exit()` method is used to clean up resources and to deregister event handlers.
 -   **[Event Handler Methods](Event_Handler_Methods_bdf3e98.md "Event handler methods are invoked when an event occurs. Method names starting with

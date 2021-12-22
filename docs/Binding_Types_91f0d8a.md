@@ -17,10 +17,10 @@ Depending on the different use cases, you can use different binding types: Prope
 ![](loio950f3d5b1c444de5b6db9f20afd8c423_LowRes.png)
 
 -   [Property Binding](Property_Binding_91f0652.md)
--   [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)
--   [Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md)
+-   [List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md)
+-   [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md)
 
--   **Property binding** allows properties of the control to get automatically initialized and updated from model data. You can only bind control properties to model properties of a matching type, or you use a formatter or a data type to parse and convert the data as needed For more information, see [Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md).
+-   **Property binding** allows properties of the control to get automatically initialized and updated from model data. You can only bind control properties to model properties of a matching type, or you use a formatter or a data type to parse and convert the data as needed For more information, see [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md).
 
 -   **Context binding** \(or **"element binding"**\) allows to bind elements to a specific object in the model that creates a binding context and allows relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.
 
@@ -37,12 +37,12 @@ Depending on the different use cases, you can use different binding types: Prope
 -   **[Property Binding](Property_Binding_91f0652.md "With property binding, you can initialize properties of a control automatically and
 		update them based on the data of the model.")**  
 With property binding, you can initialize properties of a control automatically and update them based on the data of the model.
--   **[Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object
+-   **[Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object
 		in the model data, which will create a binding context and allow relative binding within the
 		control and all of its children. This is especially helpful in master-detail
 		scenarios.")**  
 Context binding \(or element binding\) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.
--   **[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls
+-   **[List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls
 		according to model data.")**  
 List binding \(or aggregation binding\) is used to automatically create child controls according to model data.
 

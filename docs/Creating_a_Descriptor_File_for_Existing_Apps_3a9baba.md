@@ -66,11 +66,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
         },
         "sap.ui5": {
             "resources": {
-                "js": [
-                    {
-                        "uri": "<uri>"
-                    }
-                ],
                 "css": [
                     {
                         "uri": "<uri>",
@@ -358,8 +353,8 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Enter the CSS resource value under `"css"` in the `<uri>` placeholder.
 
 
-    > ### Caution:  
-    > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
+    > ### Note:  
+    > Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
 
     **Example: `resources` attribute in the `sap.ui` namespace in the `manifest.json` file**
 
@@ -379,6 +374,9 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             ]
         },
     ```
+
+    > ### Note:  
+    > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
 
     If your app does not include resources, remove the `resources` section from the `manifest.json` file.
 

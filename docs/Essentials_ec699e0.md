@@ -47,7 +47,7 @@ To use OpenUI5 features in your HTML page, you have to load and initialize the S
 		applications. They facilitate the encapsulation of closely related parts of an application, thus enabling developers to structure and maintain
 		their applications more easily.")**  
 OpenUI5 provides Components as independent and reusable parts of UI5 applications. They facilitate the encapsulation of closely related parts of an application, thus enabling developers to structure and maintain their applications more easily.
--   **[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the
+-   **[Model View Controller \(MVC\)](Model_View_Controller_MVC_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the
 		representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")**  
 The Model View Controller \(MVC\) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.
 -   **[Data Binding](Data_Binding_68b9644.md "You use data binding to bind UI elements to data sources to keep the data in sync and
@@ -65,7 +65,7 @@ Controls are used to define the appearance and behavior of screen areas.
 -   **[Declarative Support](Declarative_Support_91f1301.md "Declarative programming allows you to define the UI within the HTML document as
 		elements.")**  
 Declarative programming allows you to define the UI within the HTML document as elements.
--   **[Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md "
+-   **[Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md "
 		OpenUI5 provides a central place
 		for storing and managing info, warning, and error messages.")**  
  OpenUI5 provides a central place for storing and managing info, warning, and error messages.

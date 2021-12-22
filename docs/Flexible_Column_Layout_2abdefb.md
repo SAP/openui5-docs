@@ -26,7 +26,7 @@ Layout arrows are used to alter the current layout of the `FlexibleColumnLayout`
 -   **[Reacting to Layout Changes](Reacting_to_Layout_Changes_de31215.md "The FlexibleColumnLayout control provides the
 			stateChange event. ")**  
 The `FlexibleColumnLayout` control provides the `stateChange` event.
--   **[Changing the Layout and Loading Views \(Best Practices\)](Changing_the_Layout_and_Loading_Views_(Best_Practices)_607a316.md "")**  
+-   **[Changing the Layout and Loading Views \(Best Practices\)](Changing_the_Layout_and_Loading_Views_Best_Practices_607a316.md "")**  
 
 
 **Related Information**  

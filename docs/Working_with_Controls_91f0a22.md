@@ -74,7 +74,7 @@ oText.setWidth("100px");
 
 The supported parameters are documented in the *API Reference* of the respective control.
 
--   **[Custom Data - Attaching Data Objects to Controls](Custom_Data_-_Attaching_Data_Objects_to_Controls_91f0c3e.md "OpenUI5 provides the
+-   **[Custom Data - Attaching Data Objects to Controls](Custom_Data_Attaching_Data_Objects_to_Controls_91f0c3e.md "OpenUI5 provides the
 			data() method to attach data objects to controls.")**  
 OpenUI5 provides the `data()` method to attach data objects to controls.
 -   **[Using Predefined CSS Margin Classes](Using_Predefined_CSS_Margin_Classes_777168f.md "OpenUI5 gives you the option of adding spacing in between controls by adding a margin. A

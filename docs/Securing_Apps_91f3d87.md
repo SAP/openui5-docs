@@ -39,12 +39,12 @@ Transport security comprises topics such as encryption and session security.
 -   **[Server Security](Server_Security_91f3cac.md "Server security comprises topics such as cross-origin resource sharing and resource
 		handlers.")**  
 Server security comprises topics such as cross-origin resource sharing and resource handlers.
--   **[Third-Party Libraries](Third-Party_Libraries_91f3df4.md "For the third party libraries shipped with OpenUI5, security-related issues have to be
+-   **[Third-Party Libraries](Third_Party_Libraries_91f3df4.md "For the third party libraries shipped with OpenUI5, security-related issues have to be
 		observed. ")**  
 For the third party libraries shipped with OpenUI5, security-related issues have to be observed.
 -   **[Secure Programming Aspects](Secure_Programming_Aspects_91f3c40.md "The secure programming guide introduces topics that developers should note.")**  
 The secure programming guide introduces topics that developers should note.
--   **[Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md "Cross-site scripting (XSS) is a widely known vulnerability most web sites have. This
+-   **[Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md "Cross-site scripting (XSS) is a widely known vulnerability most web sites have. This
 		page does not provide general information about cross-site scripting but focuses on what you
 		as an application developer using OpenUI5 can do to avoid these security issues.")**  
 Cross-site scripting \(XSS\) is a widely known vulnerability most web sites have. This page does not provide general information about cross-site scripting but focuses on what you as an application developer using OpenUI5 can do to avoid these security issues.

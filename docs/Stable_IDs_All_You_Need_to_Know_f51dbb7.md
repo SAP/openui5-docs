@@ -38,7 +38,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Automated tests
 
-    To check the behavior of apps at runtime, these tests find controls by searching for stable IDs. If you use OPA in OpenUI5, you're able to find controls via other criteria like control type, display name and others. For more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md).
+    To check the behavior of apps at runtime, these tests find controls by searching for stable IDs. If you use OPA in OpenUI5, you're able to find controls via other criteria like control type, display name and others. For more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md).
 
 -   Inline help tools
 
@@ -71,7 +71,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Views in the descriptor for applications, components, and libraries
 
-    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md).
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
     Example:
 
@@ -488,7 +488,7 @@ Concatenated IDs
 </tr>
 </table>
 
-For more information about the SAP Fiori Worklist Application template, see [Worklist Template](Worklist_Template_a77f2d2.md).
+For more information about the SAP Fiori Worklist Application template, see [Worklist Template](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a77f2d29299247f8a3e30226507b1765.html "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.") :arrow_upper_right:.
 
 ***
 

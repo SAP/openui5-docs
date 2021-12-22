@@ -80,6 +80,38 @@ If you have called [`ODataListBinding#create`](https://openui5.hana.ondemand.com
 
 The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/created) is resolved when the entity represented by this context has been created in the backend. Once the promise is resolved, [`sap.ui.model.Context#getPath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getPath) returns a path including the key predicate of the new entity. For returning the path including the key predicates, all key properties need to be available.
 
+***
+
+<a name="loioc9723f8265f644af91c0ed941e114d46__section_ICR"/>
+
+### Inline Creation Rows
+
+> ### Restriction:  
+> This feature is experimental and not fully functional yet.
+
+In some applications users need to be able to quickly enter a large amount of new records. A "Create" button or the related keyboard shortcut that needs to be explicitly pressed would slow down the user. To avoid this, the application could provide multiple **inline creation rows** in the table that are initially filled with default values and are not persisted in the back end.
+
+You can create such an inline creation row by calling [`sap.ui.model.odata.v4.ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with the `bInactive` parameter. Call it multiple times for multiple rows. These rows are called inactive because they are not sent to the server. Once the user modifies a property of such an inactive row, and the modification passes the client-side validation, the row will be sent to the server with the next batch for the binding's update group.
+
+***
+
+#### Context states
+
+-   `persisted`: An already existing entity that was read from the server.
+-   `inactive`: An inline creation row without any property update yet; it is waiting for a property change before adding a POST to the batch queue.
+-   `transient`: A POST is waiting in the batch queue.
+-   `createPending`: The POST has been sent to the server; the entity is waiting for the response.
+-   `parked`: A POST via an auto group that failed is parked until a property update takes place.
+-   `createdPersisted`: The POST succeeded, and the entity now exists on the server.
+
+   
+  
+<a name="loioc9723f8265f644af91c0ed941e114d46__fig_klh_5kw_4cb"/>Internal States of an OData V4 Binding Context
+
+ ![](loioa5fb6039aa0247aa8bd3160ab6d8f32a_LowRes.png "Internal States of an OData V4 Binding Context") 
+
+The state of a context can be checked via [`Context#isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/isTransient). This function does not distinguish between the `transient`, `createPending`, and `parked` states of a context. It returns `true` for any of them; the internal state of a such a context should not matter to the application. `Context#isTransient` also returns `true` for `inactive` contexts.
+
 **Related Information**  
 
 

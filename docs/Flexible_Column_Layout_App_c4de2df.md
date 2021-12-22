@@ -85,7 +85,7 @@ In this step, we utilize the `sap.f.routing.Router`.
 		In this step, we enhance the detail page to show information specific for the selected
 		product.")  
 With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.
-9.  [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail-Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using
+9.  [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using
 		sap.f.DynamicPage, which is opened by choosing a supplier from the detail
 		page.")  
 In this step, we create a detail-detail page using `sap.f.DynamicPage`, which is opened by choosing a supplier from the detail page.
@@ -98,6 +98,6 @@ In this step, we use the `sap.f.FlexibleColumnLayoutSemanticHelper` class to imp
 12. [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two
 		columns.")  
 In this step, we set up the app to start with an initial layout of two columns.
-13. [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master-Detail_Pattern_cb38637.md "In this step, we set up the app to follow the master-detail pattern.")  
+13. [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master_Detail_Pattern_cb38637.md "In this step, we set up the app to follow the master-detail pattern.")  
 In this step, we set up the app to follow the master-detail pattern.
 

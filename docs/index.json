@@ -3,151 +3,154 @@
 		"link": "OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md",
 		"items": {
 			"What's New in OpenUI5": {
-				"link": "What's_New_in_OpenUI5_99ac68a.md",
+				"link": "What_s_New_in_OpenUI5_99ac68a.md",
 				"items": {
-					"What's New in OpenUI5 1.96": {
-						"link": "What's_New_in_OpenUI5_1.96_b39a11b.md"
+					"What's New in OpenUI5 1.97": {
+						"link": "What_s_New_in_OpenUI5_1_97_f21858f.md"
 					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.96": {
+								"link": "What_s_New_in_OpenUI5_1_96_b39a11b.md"
+							},
 							"What's New in OpenUI5 1.95": {
-								"link": "What's_New_in_OpenUI5_1.95_1b09465.md"
+								"link": "What_s_New_in_OpenUI5_1_95_1b09465.md"
 							},
 							"What's New in OpenUI5 1.94": {
-								"link": "What's_New_in_OpenUI5_1.94_2d6ffdd.md"
+								"link": "What_s_New_in_OpenUI5_1_94_2d6ffdd.md"
 							},
 							"What's New in OpenUI5 1.93": {
-								"link": "What's_New_in_OpenUI5_1.93_e9c8356.md"
+								"link": "What_s_New_in_OpenUI5_1_93_e9c8356.md"
 							},
 							"What's New in OpenUI5 1.92": {
-								"link": "What's_New_in_OpenUI5_1.92_1492551.md"
+								"link": "What_s_New_in_OpenUI5_1_92_1492551.md"
 							},
 							"What's New in OpenUI5 1.91": {
-								"link": "What's_New_in_OpenUI5_1.91_75777da.md"
+								"link": "What_s_New_in_OpenUI5_1_91_75777da.md"
 							},
 							"What's New in OpenUI5 1.90": {
-								"link": "What's_New_in_OpenUI5_1.90_b475202.md"
+								"link": "What_s_New_in_OpenUI5_1_90_b475202.md"
 							},
 							"What's New in OpenUI5 1.89": {
-								"link": "What's_New_in_OpenUI5_1.89_0805036.md"
+								"link": "What_s_New_in_OpenUI5_1_89_0805036.md"
 							},
 							"What's New in OpenUI5 1.88": {
-								"link": "What's_New_in_OpenUI5_1.88_bda141b.md"
+								"link": "What_s_New_in_OpenUI5_1_88_bda141b.md"
 							},
 							"What's New in OpenUI5 1.87": {
-								"link": "What's_New_in_OpenUI5_1.87_e315108.md"
+								"link": "What_s_New_in_OpenUI5_1_87_e315108.md"
 							},
 							"What's New in OpenUI5 1.86": {
-								"link": "What's_New_in_OpenUI5_1.86_067e2fb.md"
+								"link": "What_s_New_in_OpenUI5_1_86_067e2fb.md"
 							},
 							"What's New in OpenUI5 1.85": {
-								"link": "What's_New_in_OpenUI5_1.85_eeb5bd9.md"
+								"link": "What_s_New_in_OpenUI5_1_85_eeb5bd9.md"
 							},
 							"What's New in OpenUI5 1.84": {
-								"link": "What's_New_in_OpenUI5_1.84_ccf76b7.md"
+								"link": "What_s_New_in_OpenUI5_1_84_ccf76b7.md"
 							},
 							"What's New in OpenUI5 1.82": {
-								"link": "What's_New_in_OpenUI5_1.82_f081cf0.md"
+								"link": "What_s_New_in_OpenUI5_1_82_f081cf0.md"
 							},
 							"What's New in OpenUI5 1.81": {
-								"link": "What's_New_in_OpenUI5_1.81_f71563c.md"
+								"link": "What_s_New_in_OpenUI5_1_81_f71563c.md"
 							},
 							"What's New in OpenUI5 1.80": {
-								"link": "What's_New_in_OpenUI5_1.80_3294c68.md"
+								"link": "What_s_New_in_OpenUI5_1_80_3294c68.md"
 							},
 							"What's New in OpenUI5 1.79": {
-								"link": "What's_New_in_OpenUI5_1.79_edf8e35.md"
+								"link": "What_s_New_in_OpenUI5_1_79_edf8e35.md"
 							},
 							"What's New in OpenUI5 1.78": {
-								"link": "What's_New_in_OpenUI5_1.78_d176be3.md"
+								"link": "What_s_New_in_OpenUI5_1_78_d176be3.md"
 							},
 							"What's New in OpenUI5 1.77": {
-								"link": "What's_New_in_OpenUI5_1.77_2ec6b6b.md"
+								"link": "What_s_New_in_OpenUI5_1_77_2ec6b6b.md"
 							},
 							"What's New in OpenUI5 1.76": {
-								"link": "What's_New_in_OpenUI5_1.76_b9b0a3f.md"
+								"link": "What_s_New_in_OpenUI5_1_76_b9b0a3f.md"
 							},
 							"What's New in OpenUI5 1.75": {
-								"link": "What's_New_in_OpenUI5_1.75_dc3d3ce.md"
+								"link": "What_s_New_in_OpenUI5_1_75_dc3d3ce.md"
 							},
 							"What's New in OpenUI5 1.74": {
-								"link": "What's_New_in_OpenUI5_1.74_21fc6cb.md"
+								"link": "What_s_New_in_OpenUI5_1_74_21fc6cb.md"
 							},
 							"What's New in OpenUI5 1.73": {
-								"link": "What's_New_in_OpenUI5_1.73_7b82664.md"
+								"link": "What_s_New_in_OpenUI5_1_73_7b82664.md"
 							},
 							"What's New in OpenUI5 1.72": {
-								"link": "What's_New_in_OpenUI5_1.72_25e5326.md"
+								"link": "What_s_New_in_OpenUI5_1_72_25e5326.md"
 							},
 							"What's New in OpenUI5 1.71": {
-								"link": "What's_New_in_OpenUI5_1.71_609fd01.md"
+								"link": "What_s_New_in_OpenUI5_1_71_609fd01.md"
 							},
 							"What's New in OpenUI5 1.70": {
-								"link": "What's_New_in_OpenUI5_1.70_4e89fee.md"
+								"link": "What_s_New_in_OpenUI5_1_70_4e89fee.md"
 							},
 							"What's New in OpenUI5 1.69": {
-								"link": "What's_New_in_OpenUI5_1.69_41203fd.md"
+								"link": "What_s_New_in_OpenUI5_1_69_41203fd.md"
 							},
 							"What's New in OpenUI5 1.68": {
-								"link": "What's_New_in_OpenUI5_1.68_5531aef.md"
+								"link": "What_s_New_in_OpenUI5_1_68_5531aef.md"
 							},
 							"What's New in OpenUI5 1.67": {
-								"link": "What's_New_in_OpenUI5_1.67_0968958.md"
+								"link": "What_s_New_in_OpenUI5_1_67_0968958.md"
 							},
 							"What's New in OpenUI5 1.66": {
-								"link": "What's_New_in_OpenUI5_1.66_ebe7fda.md"
+								"link": "What_s_New_in_OpenUI5_1_66_ebe7fda.md"
 							},
 							"What's New in OpenUI5 1.65": {
-								"link": "What's_New_in_OpenUI5_1.65_9d2b189.md"
+								"link": "What_s_New_in_OpenUI5_1_65_9d2b189.md"
 							},
 							"What's New in OpenUI5 1.64": {
-								"link": "What's_New_in_OpenUI5_1.64_1975e30.md"
+								"link": "What_s_New_in_OpenUI5_1_64_1975e30.md"
 							},
 							"What's New in OpenUI5 1.63": {
-								"link": "What's_New_in_OpenUI5_1.63_77e1dcc.md"
+								"link": "What_s_New_in_OpenUI5_1_63_77e1dcc.md"
 							},
 							"What's New in OpenUI5 1.62": {
-								"link": "What's_New_in_OpenUI5_1.62_27eea38.md"
+								"link": "What_s_New_in_OpenUI5_1_62_27eea38.md"
 							},
 							"What's New in OpenUI5 1.61": {
-								"link": "What's_New_in_OpenUI5_1.61_de4d50b.md"
+								"link": "What_s_New_in_OpenUI5_1_61_de4d50b.md"
 							},
 							"What's New in OpenUI5 1.60": {
-								"link": "What's_New_in_OpenUI5_1.60_2a70354.md"
+								"link": "What_s_New_in_OpenUI5_1_60_2a70354.md"
 							},
 							"What's New in OpenUI5 1.58": {
-								"link": "What's_New_in_OpenUI5_1.58_b28edde.md"
+								"link": "What_s_New_in_OpenUI5_1_58_b28edde.md"
 							},
 							"What's New in OpenUI5 1.56": {
-								"link": "What's_New_in_OpenUI5_1.56_53b4b5e.md"
+								"link": "What_s_New_in_OpenUI5_1_56_53b4b5e.md"
 							},
 							"What's New in OpenUI5 1.54": {
-								"link": "What's_New_in_OpenUI5_1.54_f29023e.md"
+								"link": "What_s_New_in_OpenUI5_1_54_f29023e.md"
 							},
 							"What's New in OpenUI5 1.52": {
-								"link": "What's_New_in_OpenUI5_1.52_a09dd79.md"
+								"link": "What_s_New_in_OpenUI5_1_52_a09dd79.md"
 							},
 							"What's New in OpenUI5 1.50": {
-								"link": "What's_New_in_OpenUI5_1.50_a844984.md"
+								"link": "What_s_New_in_OpenUI5_1_50_a844984.md"
 							},
 							"What's New in OpenUI5 1.48": {
-								"link": "What's_New_in_OpenUI5_1.48_2818f80.md"
+								"link": "What_s_New_in_OpenUI5_1_48_2818f80.md"
 							},
 							"What's New in OpenUI5 1.46": {
-								"link": "What's_New_in_OpenUI5_1.46_4cf0986.md"
+								"link": "What_s_New_in_OpenUI5_1_46_4cf0986.md"
 							},
 							"What's New in OpenUI5 1.44": {
-								"link": "What's_New_in_OpenUI5_1.44_05ce1dc.md"
+								"link": "What_s_New_in_OpenUI5_1_44_05ce1dc.md"
 							},
 							"What's New in OpenUI5 1.42": {
-								"link": "What's_New_in_OpenUI5_1.42_4768f1a.md"
+								"link": "What_s_New_in_OpenUI5_1_42_4768f1a.md"
 							},
 							"What's New in OpenUI5 1.40": {
-								"link": "What's_New_in_OpenUI5_1.40_e659bd2.md"
+								"link": "What_s_New_in_OpenUI5_1_40_e659bd2.md"
 							},
 							"What's New in OpenUI5 1.38": {
-								"link": "What's_New_in_OpenUI5_1.38_6a875f9.md#loio6a875f998994489483e8085705347d72"
+								"link": "What_s_New_in_OpenUI5_1_38_6a875f9.md#loio6a875f998994489483e8085705347d72"
 							}
 						}
 					}
@@ -186,16 +189,16 @@
 						"link": "Upgrading_9638e4f.md",
 						"items": {
 							"Upgrading from a Version Below 1.89": {
-								"link": "Upgrading_from_a_Version_Below_1.89_89b14ce.md"
+								"link": "Upgrading_from_a_Version_Below_1_89_89b14ce.md"
 							},
 							"Upgrading from a Version Below 1.82": {
-								"link": "Upgrading_from_a_Version_Below_1.82_147eef9.md"
+								"link": "Upgrading_from_a_Version_Below_1_82_147eef9.md"
 							},
 							"Upgrading from a Version Below 1.40": {
-								"link": "Upgrading_from_a_Version_Below_1.40_278a8e5.md"
+								"link": "Upgrading_from_a_Version_Below_1_40_278a8e5.md"
 							},
 							"Upgrading from a Version Below 1.38": {
-								"link": "Upgrading_from_a_Version_Below_1.38_c1025c2.md"
+								"link": "Upgrading_from_a_Version_Below_1_38_c1025c2.md"
 							}
 						}
 					},
@@ -203,7 +206,7 @@
 						"link": "Deprecated_Themes_and_Libraries_a87ca84.md"
 					},
 					"SAPUI5 vs. OpenUI5": {
-						"link": "SAPUI5_vs._OpenUI5_5982a97.md"
+						"link": "SAPUI5_vs_OpenUI5_5982a97.md"
 					}
 				}
 			},
@@ -241,10 +244,10 @@
 														"link": "Start_SAP_Web_IDE_213a69c.md"
 													},
 													"Create a neo-app.json Project Configuration File": {
-														"link": "Create_a_neo-app.json_Project_Configuration_File_28fa753.md"
+														"link": "Create_a_neo_app_json_Project_Configuration_File_28fa753.md"
 													},
 													"Create an index.html File": {
-														"link": "Create_an_index.html_File_f7cbafc.md"
+														"link": "Create_an_index_html_File_f7cbafc.md"
 													},
 													"Run the App": {
 														"link": "Run_the_App_745424a.md"
@@ -264,13 +267,13 @@
 						"link": "Quick_Start_592f36f.md",
 						"items": {
 							"Step 1: Ready...": {
-								"link": "Step_1_Ready..._851bde4.md"
+								"link": "Step_1_Ready_851bde4.md"
 							},
 							"Step 2: Steady...": {
-								"link": "Step_2_Steady..._128214a.md"
+								"link": "Step_2_Steady_128214a.md"
 							},
 							"Step 3: Go!": {
-								"link": "Step_3_Go!_073d107.md"
+								"link": "Step_3_Go_073d107.md"
 							}
 						}
 					},
@@ -278,7 +281,7 @@
 						"link": "Walkthrough_3da5f4b.md",
 						"items": {
 							"Step 1: Hello World!": {
-								"link": "Step_1_Hello_World!_2680aa9.md"
+								"link": "Step_1_Hello_World_2680aa9.md"
 							},
 							"Step 2: Bootstrap": {
 								"link": "Step_2_Bootstrap_fe12df2.md"
@@ -409,7 +412,7 @@
 								"link": "Step_5_UI5_Inspector_76e789e.md"
 							},
 							"First-Aid Kit": {
-								"link": "First-Aid_Kit_38859a8.md",
+								"link": "First_Aid_Kit_38859a8.md",
 								"items": {
 									"An Empty Page Comes Up": {
 										"link": "An_Empty_Page_Comes_Up_51fe8f4.md"
@@ -418,7 +421,7 @@
 										"link": "Content_or_Control_Is_Not_Visible_82b4c21.md"
 									},
 									"Request Fails Due to Same-Origin Policy \\(Cross-Origin Resource Sharing - CORS\\)": {
-										"link": "Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_672301f.md"
+										"link": "Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_672301f.md"
 									},
 									"App or Control Looks Odd": {
 										"link": "App_or_Control_Looks_Odd_ae1e152.md"
@@ -440,16 +443,16 @@
 								"link": "Step_3_Create_Property_Binding_d70e989.md"
 							},
 							"Step 4: Two-Way Data Binding": {
-								"link": "Step_4_Two-Way_Data_Binding_c72b922.md"
+								"link": "Step_4_Two_Way_Data_Binding_c72b922.md"
 							},
 							"Step 5: One-Way Data Binding": {
-								"link": "Step_5_One-Way_Data_Binding_88756c0.md"
+								"link": "Step_5_One_Way_Data_Binding_88756c0.md"
 							},
 							"Step 6: Resource Models": {
 								"link": "Step_6_Resource_Models_9790d9a.md"
 							},
 							"Step 7: \\(Optional\\) Resource Bundles and Multiple Languages": {
-								"link": "Step_7_(Optional)_Resource_Bundles_and_Multiple_Languages_4e593b4.md"
+								"link": "Step_7_Optional_Resource_Bundles_and_Multiple_Languages_4e593b4.md"
 							},
 							"Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models": {
 								"link": "Step_8_Binding_Paths_Accessing_Properties_in_Hierarchically_Structured_Models_9373793.md"
@@ -484,13 +487,13 @@
 								"link": "Step_1_The_Initial_App_15d84f3.md"
 							},
 							"Step 2: Data Access and Client-Server Communication": {
-								"link": "Step_2_Data_Access_and_Client-Server_Communication_e9de002.md"
+								"link": "Step_2_Data_Access_and_Client_Server_Communication_e9de002.md"
 							},
 							"Step 3: Automatic Data Type Detection": {
 								"link": "Step_3_Automatic_Data_Type_Detection_96bb6e0.md"
 							},
 							"Step 4: Filtering, Sorting, and Counting": {
-								"link": "Step_4_Filtering,_Sorting,_and_Counting_426ff31.md"
+								"link": "Step_4_Filtering_Sorting_and_Counting_426ff31.md"
 							},
 							"Step 5: Batch Groups": {
 								"link": "Step_5_Batch_Groups_ef2af49.md"
@@ -505,7 +508,7 @@
 								"link": "Step_8_OData_Operations_a3e7cb6.md"
 							},
 							"Step 9: List-Detail Scenario": {
-								"link": "Step_9_List-Detail_Scenario_ec44581.md"
+								"link": "Step_9_List_Detail_Scenario_ec44581.md"
 							},
 							"Step 10: Enable Data Reuse": {
 								"link": "Step_10_Enable_Data_Reuse_e687dbd.md"
@@ -534,7 +537,7 @@
 								"link": "Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md"
 							},
 							"Step 6: Navigate to Routes with Hard-Coded Patterns": {
-								"link": "Step_6_Navigate_to_Routes_with_Hard-Coded_Patterns_782aac0.md"
+								"link": "Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md"
 							},
 							"Step 7: Navigate to Routes with Mandatory Parameters": {
 								"link": "Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md"
@@ -695,7 +698,7 @@
 								"link": "Step_8_Enhancing_the_Detail_Page_e5ee491.md"
 							},
 							"Step 9: Adding a Detail-Detail Page": {
-								"link": "Step_9_Adding_a_Detail-Detail_Page_e4d21fd.md"
+								"link": "Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md"
 							},
 							"Step 10: Adding More Pages": {
 								"link": "Step_10_Adding_More_Pages_a59b3de.md"
@@ -707,7 +710,7 @@
 								"link": "Step_12_Starting_with_Two_Columns_a96fbe4.md"
 							},
 							"Step 13: Setting the Master-Detail Pattern": {
-								"link": "Step_13_Setting_the_Master-Detail_Pattern_cb38637.md"
+								"link": "Step_13_Setting_the_Master_Detail_Pattern_cb38637.md"
 							}
 						}
 					},
@@ -791,7 +794,7 @@
 								"link": "Components_958ead5.md",
 								"items": {
 									"Component.js File": {
-										"link": "Component.js_File_27ce0e4.md",
+										"link": "Component_js_File_27ce0e4.md",
 										"items": {
 											"Component Metadata": {
 												"link": "Component_Metadata_0187ea5.md"
@@ -816,7 +819,7 @@
 								}
 							},
 							"Descriptor for Applications, Components, and Libraries \\(manifest.json\\)": {
-								"link": "Descriptor_for_Applications,_Components,_and_Libraries_(manifest.json)_be0cf40.md",
+								"link": "Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md",
 								"items": {
 									"Migrating from Component Metadata to Descriptor": {
 										"link": "Migrating_from_Component_Metadata_to_Descriptor_e282db2.md"
@@ -825,10 +828,10 @@
 										"link": "Descriptor_for_Libraries_b229914.md"
 									},
 									"Descriptor for Components \\(Inside Libraries\\)": {
-										"link": "Descriptor_for_Components_(Inside_Libraries)_7701636.md"
+										"link": "Descriptor_for_Components_Inside_Libraries_7701636.md"
 									},
 									"The resources.json File": {
-										"link": "The_resources.json_File_adcbcf8.md"
+										"link": "The_resources_json_File_adcbcf8.md"
 									},
 									"Creating a Descriptor File for Existing Apps": {
 										"link": "Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md",
@@ -845,14 +848,14 @@
 										"link": "Manifest_Model_Preload_26ba6a5.md"
 									},
 									"Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Descriptor": {
-										"link": "Enabling_the_Automatic_SAP_Fiori_2.0_Header_Adaptation_in_the_Descriptor_0635156.md"
+										"link": "Enabling_the_Automatic_SAP_Fiori_2_0_Header_Adaptation_in_the_Descriptor_0635156.md"
 									}
 								}
 							}
 						}
 					},
 					"Model View Controller \\(MVC\\)": {
-						"link": "Model_View_Controller_(MVC)_91f2334.md",
+						"link": "Model_View_Controller_MVC_91f2334.md",
 						"items": {
 							"Models": {
 								"link": "Models_d2c8cf7.md"
@@ -932,16 +935,16 @@
 										"link": "Property_Binding_91f0652.md"
 									},
 									"Context Binding \\(Element Binding\\)": {
-										"link": "Context_Binding_(Element_Binding)_91f05e8.md"
+										"link": "Context_Binding_Element_Binding_91f05e8.md"
 									},
 									"List Binding \\(Aggregation Binding\\)": {
-										"link": "List_Binding_(Aggregation_Binding)_91f0577.md",
+										"link": "List_Binding_Aggregation_Binding_91f0577.md",
 										"items": {
 											"Using Factory Functions": {
 												"link": "Using_Factory_Functions_335848a.md"
 											},
 											"Sorting, Grouping, and Filtering for List Binding": {
-												"link": "Sorting,_Grouping,_and_Filtering_for_List_Binding_ec79a5d.md"
+												"link": "Sorting_Grouping_and_Filtering_for_List_Binding_ec79a5d.md"
 											},
 											"Displaying a Specific Range of Records in a Control": {
 												"link": "Displaying_a_Specific_Range_of_Records_in_a_Control_9b5bdd8.md"
@@ -977,34 +980,34 @@
 								}
 							},
 							"Formatting, Parsing, and Validating Data": {
-								"link": "Formatting,_Parsing,_and_Validating_Data_07e4b92.md",
+								"link": "Formatting_Parsing_and_Validating_Data_07e4b92.md",
 								"items": {
 									"Simple Data Types": {
 										"link": "Simple_Data_Types_91f06be.md",
 										"items": {
 											"sap.ui.model.type.Boolean": {
-												"link": "sap.ui.model.type.Boolean_91f2f93.md"
+												"link": "sap_ui_model_type_Boolean_91f2f93.md"
 											},
 											"sap.ui.model.type.Date": {
-												"link": "sap.ui.model.type.Date_91f2fff.md"
+												"link": "sap_ui_model_type_Date_91f2fff.md"
 											},
 											"sap.ui.model.type.DateTime": {
-												"link": "sap.ui.model.type.DateTime_91f3070.md"
+												"link": "sap_ui_model_type_DateTime_91f3070.md"
 											},
 											"sap.ui.model.type.Float": {
-												"link": "sap.ui.model.type.Float_91f30db.md"
+												"link": "sap_ui_model_type_Float_91f30db.md"
 											},
 											"sap.ui.model.type.Integer": {
-												"link": "sap.ui.model.type.Integer_91f3145.md"
+												"link": "sap_ui_model_type_Integer_91f3145.md"
 											},
 											"sap.ui.model.type.String": {
-												"link": "sap.ui.model.type.String_91f31c2.md"
+												"link": "sap_ui_model_type_String_91f31c2.md"
 											},
 											"sap.ui.model.type.Time": {
-												"link": "sap.ui.model.type.Time_91f322a.md"
+												"link": "sap_ui_model_type_Time_91f322a.md"
 											},
 											"sap.ui.model.type.DateTimeInterval": {
-												"link": "sap.ui.model.type.DateTimeInterval_94658aa.md"
+												"link": "sap_ui_model_type_DateTimeInterval_94658aa.md"
 											}
 										}
 									},
@@ -1135,7 +1138,7 @@
 														"link": "Accessing_Data_in_Controller_Code_17b30ac.md"
 													},
 													"Automatic determination of $expand and $select": {
-														"link": "Automatic_determination_of_$expand_and_$select_10ca58b.md"
+														"link": "Automatic_determination_of_expand_and_select_10ca58b.md"
 													},
 													"Data Reuse": {
 														"link": "Data_Reuse_648e360.md"
@@ -1182,6 +1185,9 @@
 											},
 											"Creating an Entity": {
 												"link": "Creating_an_Entity_c9723f8.md"
+											},
+											"Draft Handling with the OData V4 Model": {
+												"link": "Draft_Handling_with_the_OData_V4_Model_40986e6.md"
 											},
 											"Deleting an Entity": {
 												"link": "Deleting_an_Entity_2613ebc.md"
@@ -1367,10 +1373,10 @@
 						"link": "Working_with_Controls_91f0a22.md",
 						"items": {
 							"Custom Data - Attaching Data Objects to Controls": {
-								"link": "Custom_Data_-_Attaching_Data_Objects_to_Controls_91f0c3e.md",
+								"link": "Custom_Data_Attaching_Data_Objects_to_Controls_91f0c3e.md",
 								"items": {
 									"Writing Data to the HTML DOM as DATA-\\* Attribute": {
-										"link": "Writing_Data_to_the_HTML_DOM_as_DATA-_Attribute_1ef9fef.md"
+										"link": "Writing_Data_to_the_HTML_DOM_as_DATA_Attribute_1ef9fef.md"
 									}
 								}
 							},
@@ -1420,7 +1426,7 @@
 						}
 					},
 					"Error, Warning, and Info Messages": {
-						"link": "Error,_Warning,_and_Info_Messages_62b1481.md",
+						"link": "Error_Warning_and_Info_Messages_62b1481.md",
 						"items": {
 							"Validation Messages": {
 								"link": "Validation_Messages_a90d93d.md"
@@ -1486,7 +1492,7 @@
 								"link": "Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md",
 								"items": {
 									"Legacy jQuery.sap Replacement": {
-										"link": "Legacy_jQuery.sap_Replacement_a075ed8.md"
+										"link": "Legacy_jQuery_sap_Replacement_a075ed8.md"
 									},
 									"Legacy Factories Replacement": {
 										"link": "Legacy_Factories_Replacement_491bd9c.md"
@@ -1538,7 +1544,7 @@
 								"link": "The_Device_API_69a8e46.md"
 							},
 							"Controls with Built-In Device Adaptation": {
-								"link": "Controls_with_Built-In_Device_Adaptation_328a340.md"
+								"link": "Controls_with_Built_In_Device_Adaptation_328a340.md"
 							},
 							"Checking the Operating System your Application is Running On": {
 								"link": "Checking_the_Operating_System_your_Application_is_Running_On_d1b26a2.md"
@@ -1572,7 +1578,7 @@
 										"link": "Code_Coverage_Measurement_7ef3242.md"
 									},
 									"Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR": {
-										"link": "Sinon.JS_Spies,_Stubs,_Mocks,_Faked_Timers,_and_XHR_457eaad.md"
+										"link": "Sinon_JS_Spies_Stubs_Mocks_Faked_Timers_and_XHR_457eaad.md"
 									},
 									"How to Test OpenUI5 Controls with QUnit": {
 										"link": "How_to_Test_OpenUI5_Controls_with_QUnit_a6b0657.md",
@@ -1585,7 +1591,7 @@
 								}
 							},
 							"Integration Testing with One Page Acceptance Tests \\(OPA5\\)": {
-								"link": "Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md",
+								"link": "Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md",
 								"items": {
 									"Getting Started with OPA5": {
 										"link": "Getting_Started_with_OPA5_22f175e.md"
@@ -1648,7 +1654,7 @@
 								}
 							},
 							"Behavior-driven Development with Gherkin": {
-								"link": "Behavior-driven_Development_with_Gherkin_45ac9f1.md",
+								"link": "Behavior_driven_Development_with_Gherkin_45ac9f1.md",
 								"items": {
 									"Feature Files": {
 										"link": "Feature_Files_9113397.md",
@@ -1709,7 +1715,7 @@
 						"link": "Localization_91f217c.md",
 						"items": {
 							"Identifying the Language Code / Locale": {
-								"link": "Identifying_the_Language_Code__Locale_91f21f1.md"
+								"link": "Identifying_the_Language_Code_Locale_91f21f1.md"
 							},
 							"Resource Bundles": {
 								"link": "Resource_Bundles_91f225c.md"
@@ -1743,13 +1749,13 @@
 						"link": "Drag_and_Drop_3ddb6cd.md",
 						"items": {
 							"Drag-and-Drop Configuration": {
-								"link": "Drag-and-Drop_Configuration_56007f4.md"
+								"link": "Drag_and_Drop_Configuration_56007f4.md"
 							},
 							"Drag-and-Drop Metadata": {
-								"link": "Drag-and-Drop_Metadata_da7f3fc.md"
+								"link": "Drag_and_Drop_Metadata_da7f3fc.md"
 							},
 							"Drag-and-Drop Restrictions": {
-								"link": "Drag-and-Drop_Restrictions_81e3f38.md"
+								"link": "Drag_and_Drop_Restrictions_81e3f38.md"
 							}
 						}
 					},
@@ -1880,13 +1886,13 @@
 								"link": "UI5_Inspector_b24e724.md"
 							},
 							"Performance Measurement Using sap/ui/performance/Measurement Module": {
-								"link": "Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md"
+								"link": "Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md"
 							},
 							"Interaction Tracking for Performance Measurement": {
 								"link": "Interaction_Tracking_for_Performance_Measurement_b2825ea.md"
 							},
 							"First-Aid Kit": {
-								"link": "First-Aid_Kit_dfe4f79.md",
+								"link": "First_Aid_Kit_dfe4f79.md",
 								"items": {
 									"An Empty Page Comes Up": {
 										"link": "An_Empty_Page_Comes_Up_55db2bc.md"
@@ -1895,7 +1901,7 @@
 										"link": "Content_or_Control_Is_Not_Visible_492d9d9.md"
 									},
 									"Request Fails Due to Same-Origin Policy \\(Cross-Origin Resource Sharing - CORS\\)": {
-										"link": "Request_Fails_Due_to_Same-Origin_Policy_(Cross-Origin_Resource_Sharing_-_CORS)_5bb388f.md"
+										"link": "Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_5bb388f.md"
 									},
 									"App or Control Looks Odd": {
 										"link": "App_or_Control_Looks_Odd_c34413d.md"
@@ -1911,69 +1917,6 @@
 				"items": {
 					"Continuous Integration: Ensure Code Quality": {
 						"link": "Continuous_Integration_Ensure_Code_Quality_fe7a158.md"
-					},
-					"App Templates: Kick Start Your App Development": {
-						"link": "App_Templates_Kick_Start_Your_App_Development_a460a73.md",
-						"items": {
-							"Worklist Template": {
-								"link": "Worklist_Template_a77f2d2.md",
-								"items": {
-									"Navigation": {
-										"link": "Navigation_106d2e9.md"
-									},
-									"Busy Indication": {
-										"link": "Busy_Indication_5cb1169.md"
-									},
-									"Model Instantiation": {
-										"link": "Model_Instantiation_c2f4684.md"
-									},
-									"Send Email": {
-										"link": "Send_Email_af1db3c.md"
-									},
-									"Testing": {
-										"link": "Testing_7bd4e6e.md"
-									},
-									"Device Adaptation": {
-										"link": "Device_Adaptation_979f571.md"
-									},
-									"Stable IDs": {
-										"link": "Stable_IDs_03b2007.md"
-									}
-								}
-							},
-							"Master-Detail Template": {
-								"link": "Master-Detail_Template_8ed9339.md",
-								"items": {
-									"Navigation": {
-										"link": "Navigation_89de2f4.md"
-									},
-									"Busy Indication": {
-										"link": "Busy_Indication_a92e0aa.md"
-									},
-									"Model Instantiation": {
-										"link": "Model_Instantiation_ea4e8de.md"
-									},
-									"Master List Filtering": {
-										"link": "Master_List_Filtering_f809189.md"
-									},
-									"Send Email": {
-										"link": "Send_Email_034a132.md"
-									},
-									"Testing": {
-										"link": "Testing_6256083.md"
-									},
-									"Device Adaptation": {
-										"link": "Device_Adaptation_324f073.md"
-									},
-									"Stable IDs": {
-										"link": "Stable_IDs_b327188.md"
-									}
-								}
-							},
-							"Basic Template": {
-								"link": "Basic_Template_7a4d93c.md"
-							}
-						}
 					},
 					"App Overview: The Basic Files of Your App": {
 						"link": "App_Overview_The_Basic_Files_of_Your_App_28b59ca.md"
@@ -2029,13 +1972,13 @@
 								"link": "Server_Security_91f3cac.md"
 							},
 							"Third-Party Libraries": {
-								"link": "Third-Party_Libraries_91f3df4.md"
+								"link": "Third_Party_Libraries_91f3df4.md"
 							},
 							"Secure Programming Aspects": {
 								"link": "Secure_Programming_Aspects_91f3c40.md"
 							},
 							"Cross-Site Scripting": {
-								"link": "Cross-Site_Scripting_91f0bd3.md"
+								"link": "Cross_Site_Scripting_91f0bd3.md"
 							},
 							"URL List Validation": {
 								"link": "URL_List_Validation_91f3768.md"
@@ -2049,10 +1992,10 @@
 						}
 					},
 					"Right-to-Left Support": {
-						"link": "Right-to-Left_Support_8d7b286.md",
+						"link": "Right_to_Left_Support_8d7b286.md",
 						"items": {
 							"API Properties for Right-to-Left Support in Text-Displaying Controls": {
-								"link": "API_Properties_for_Right-to-Left_Support_in_Text-Displaying_Controls_7e7cd0a.md"
+								"link": "API_Properties_for_Right_to_Left_Support_in_Text_Displaying_Controls_7e7cd0a.md"
 							}
 						}
 					},
@@ -2078,7 +2021,7 @@
 								"link": "Screen_Reader_Support_33fae34.md",
 								"items": {
 									"Control-Specific Behavior": {
-										"link": "Control-Specific_Behavior_c165edc.md",
+										"link": "Control_Specific_Behavior_c165edc.md",
 										"items": {
 											"Dialog Controls": {
 												"link": "Dialog_Controls_5709e73.md"
@@ -2106,7 +2049,7 @@
 								}
 							},
 							"sap.ui.core.InvisibleMessage": {
-								"link": "sap.ui.core.InvisibleMessage_b9a7d6f.md"
+								"link": "sap_ui_core_InvisibleMessage_b9a7d6f.md"
 							},
 							"Labeling and Tooltips": {
 								"link": "Labeling_and_Tooltips_329a029.md"
@@ -2173,7 +2116,7 @@
 								"link": "OpenUI5_Control_Development_Guidelines_4549da6.md",
 								"items": {
 									"Control Development Guidelines: Theming/CSS": {
-										"link": "Control_Development_Guidelines_ThemingCSS_5e08ff9.md"
+										"link": "Control_Development_Guidelines_Theming_CSS_5e08ff9.md"
 									}
 								}
 							},
@@ -2213,7 +2156,7 @@
 						}
 					},
 					"The library.js File": {
-						"link": "The_library.js_File_bd039ed.md"
+						"link": "The_library_js_File_bd039ed.md"
 					},
 					"Creating Control and Class Modules": {
 						"link": "Creating_Control_and_Class_Modules_c78c07c.md"
@@ -2236,10 +2179,10 @@
 								"link": "Normal_Methods_85738e3.md"
 							},
 							"init\\(\\) Method": {
-								"link": "init()_Method_6d6b5bd.md"
+								"link": "init_Method_6d6b5bd.md"
 							},
 							"exit\\(\\) Method": {
-								"link": "exit()_Method_d4ac0ed.md"
+								"link": "exit_Method_d4ac0ed.md"
 							},
 							"Event Handler Methods": {
 								"link": "Event_Handler_Methods_bdf3e98.md"
@@ -2264,7 +2207,7 @@
 						}
 					},
 					"Device-specific Behavior of Controls": {
-						"link": "Device-specific_Behavior_of_Controls_a53ec81.md"
+						"link": "Device_specific_Behavior_of_Controls_a53ec81.md"
 					},
 					"Examples for Creating and Extending Controls": {
 						"link": "Examples_for_Creating_and_Extending_Controls_91f1845.md",
@@ -2290,7 +2233,7 @@
 						"link": "Writing_a_Control_Renderer_91f3939.md",
 						"items": {
 							"Prevention of Cross-site Scripting": {
-								"link": "Prevention_of_Cross-site_Scripting_4de64e2.md"
+								"link": "Prevention_of_Cross_site_Scripting_4de64e2.md"
 							}
 						}
 					},
@@ -2301,7 +2244,7 @@
 						"link": "Implementing_Focus_Handling_91f19f0.md"
 					},
 					"Item Navigation - Supporting Keyboard Handling in List-like Controls": {
-						"link": "Item_Navigation_-_Supporting_Keyboard_Handling_in_List-like_Controls_91f2032.md",
+						"link": "Item_Navigation_Supporting_Keyboard_Handling_in_List_like_Controls_91f2032.md",
 						"items": {
 							"Integrating Item Navigation": {
 								"link": "Integrating_Item_Navigation_7e24524.md"
@@ -2309,10 +2252,10 @@
 						}
 					},
 					"Right-to-Left Support in Controls": {
-						"link": "Right-to-Left_Support_in_Controls_91f2c24.md",
+						"link": "Right_to_Left_Support_in_Controls_91f2c24.md",
 						"items": {
 							"Right-to-Left Support Guidelines for Control Development": {
-								"link": "Right-to-Left_Support_Guidelines_for_Control_Development_c69c61d.md"
+								"link": "Right_to_Left_Support_Guidelines_for_Control_Development_c69c61d.md"
 							},
 							"Programmatic Access to RTL": {
 								"link": "Programmatic_Access_to_RTL_8bb4723.md"
@@ -2346,10 +2289,10 @@
 										"link": "Keyboard_Handling_for_Basic_Navigation_b59f13d.md"
 									},
 									"Keyboard Handling for One-Dimensional Navigation": {
-										"link": "Keyboard_Handling_for_One-Dimensional_Navigation_a1f59aa.md"
+										"link": "Keyboard_Handling_for_One_Dimensional_Navigation_a1f59aa.md"
 									},
 									"Keyboard Handling for Two-Dimensional Navigation": {
-										"link": "Keyboard_Handling_for_Two-Dimensional_Navigation_f1bd982.md"
+										"link": "Keyboard_Handling_for_Two_Dimensional_Navigation_f1bd982.md"
 									},
 									"Keyboard Handling for Triggering Actions on Item Level": {
 										"link": "Keyboard_Handling_for_Triggering_Actions_on_Item_Level_81c68e4.md"
@@ -2358,7 +2301,7 @@
 										"link": "Keyboard_Handling_for_Item_Selection_8a0d4ef.md"
 									},
 									"Keyboard Handling for Value Help and Auto-Complete": {
-										"link": "Keyboard_Handling_for_Value_Help_and_Auto-Complete_182879f.md"
+										"link": "Keyboard_Handling_for_Value_Help_and_Auto_Complete_182879f.md"
 									}
 								}
 							},
@@ -2408,16 +2351,16 @@
 						"link": "Grid_Controls_32d4b9c.md",
 						"items": {
 							"sap.f.GridContainer": {
-								"link": "sap.f.GridContainer_cca5ee5.md"
+								"link": "sap_f_GridContainer_cca5ee5.md"
 							},
 							"sap.f.GridList": {
-								"link": "sap.f.GridList_2fc256b.md"
+								"link": "sap_f_GridList_2fc256b.md"
 							},
 							"sap.ui.layout.cssgrid.CSSGrid": {
-								"link": "sap.ui.layout.cssgrid.CSSGrid_d6fc40b.md"
+								"link": "sap_ui_layout_cssgrid_CSSGrid_d6fc40b.md"
 							},
 							"sap.ui.layout.Grid": {
-								"link": "sap.ui.layout.Grid_43ae317.md"
+								"link": "sap_ui_layout_Grid_43ae317.md"
 							}
 						}
 					},
@@ -2428,10 +2371,10 @@
 						"link": "Semantic_Pages_84f3d52.md",
 						"items": {
 							"Semantic Page \\(sap.f\\)": {
-								"link": "Semantic_Page_(sap.f)_47dc868.md"
+								"link": "Semantic_Page_sap_f_47dc868.md"
 							},
 							"Semantic Page \\(sap.m\\)": {
-								"link": "Semantic_Page_(sap.m)_4a97a07.md"
+								"link": "Semantic_Page_sap_m_4a97a07.md"
 							}
 						}
 					},
@@ -2439,7 +2382,7 @@
 						"link": "Tables_Which_One_Should_I_Choose_148892f.md"
 					},
 					"sap.f": {
-						"link": "sap.f_0b455b0.md",
+						"link": "sap_f_0b455b0.md",
 						"items": {
 							"Building an App with the Flexible Column Layout and Related Classes": {
 								"link": "Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md",
@@ -2460,7 +2403,7 @@
 												"link": "Reacting_to_Layout_Changes_de31215.md"
 											},
 											"Changing the Layout and Loading Views \\(Best Practices\\)": {
-												"link": "Changing_the_Layout_and_Loading_Views_(Best_Practices)_607a316.md"
+												"link": "Changing_the_Layout_and_Loading_Views_Best_Practices_607a316.md"
 											}
 										}
 									},
@@ -2480,7 +2423,7 @@
 						}
 					},
 					"sap.m": {
-						"link": "sap.m_48d9390.md",
+						"link": "sap_m_48d9390.md",
 						"items": {
 							"App and Nav Container": {
 								"link": "App_and_Nav_Container_a4afb13.md",
@@ -2549,7 +2492,7 @@
 								"link": "Image_f86dbe9.md"
 							},
 							"List, List Item, and Table": {
-								"link": "List,_List_Item,_and_Table_295e44b.md",
+								"link": "List_List_Item_and_Table_295e44b.md",
 								"items": {
 									"Lists": {
 										"link": "Lists_1da1581.md",
@@ -2641,23 +2584,23 @@
 								"link": "Text_f94deb4.md"
 							},
 							"Upload Collection \\(Deprecated\\)": {
-								"link": "Upload_Collection_(Deprecated)_124ee13.md"
+								"link": "Upload_Collection_Deprecated_124ee13.md"
 							},
 							"URL Helper": {
 								"link": "URL_Helper_4f1c107.md",
 								"items": {
 									"Examples for Triggering Telephone, Text and E-Mail Applications": {
-										"link": "Examples_for_Triggering_Telephone,_Text_and_E-Mail_Applications_021ac23.md"
+										"link": "Examples_for_Triggering_Telephone_Text_and_E_Mail_Applications_021ac23.md"
 									}
 								}
 							}
 						}
 					},
 					"sap.tnt": {
-						"link": "sap.tnt_d8374d5.md"
+						"link": "sap_tnt_d8374d5.md"
 					},
 					"sap.ui.codeeditor": {
-						"link": "sap.ui.codeeditor_2832a13.md",
+						"link": "sap_ui_codeeditor_2832a13.md",
 						"items": {
 							"Code Editor": {
 								"link": "Code_Editor_cc467b9.md"
@@ -2665,7 +2608,7 @@
 						}
 					},
 					"sap.ui.core": {
-						"link": "sap.ui.core_72227f8.md",
+						"link": "sap_ui_core_72227f8.md",
 						"items": {
 							"Icon and Icon Pool": {
 								"link": "Icon_and_Icon_Pool_21ea0ea.md"
@@ -2673,10 +2616,10 @@
 						}
 					},
 					"sap.ui.table": {
-						"link": "sap.ui.table_08197fa.md"
+						"link": "sap_ui_table_08197fa.md"
 					},
 					"sap.uxap": {
-						"link": "sap.uxap_de71337.md",
+						"link": "sap_uxap_de71337.md",
 						"items": {
 							"Object Page Layout": {
 								"link": "Object_Page_Layout_2e61ab6.md"

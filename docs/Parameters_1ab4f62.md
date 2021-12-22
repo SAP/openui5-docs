@@ -26,6 +26,10 @@ When creating a binding, you can provide a parameter map which can contain the f
 
 -   `$$ownRequest`: Set to `true` to ensure the binding uses an own service request to read data. All values other than `true` lead to an error.
 
+-   `$$patchWithoutSideEffects`: Set to `true` to switch off implicit loading of side effects via PATCH requests. This sets the"return=minimal" preference and requires the service to return an ETag header for "204 No Content" responses. If not specified, the value of the parent binding is used. All values other than `true` lead to an error.
+
+-   `$$inheritExpandSelect`: For operation bindings only. Set to `true` to ensure that $expand and $select from the parent binding are used in the request sent on `#execute`. If set to `true`, the binding must not set the $expand itself, the operation must be bound, and the return value and the binding parameter must belong to the same entity set.
+
 
 
 The binding's OData query options are combined with the query options passed to the OData V4 model; the binding's query options overwrite model query options with the same name. The resulting query options are appended to each data service request by this binding. The following query options are supported; all others are not allowed and lead to an error:
@@ -38,7 +42,7 @@ The binding's OData query options are combined with the query options passed to 
 
 The query option `$count` must be specified as a boolean value with `true` or `false`. All other query options can be specified with a string value. In addition to strings, the following alternatives are possible:
 
--   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties. Normally, these items point to direct parts of the query result without further expanding into related entities.Further options are available with [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+-   `$select` can be specified as an array of strings where each string specifies a select item, or the value '`*`' to select all properties. Normally, these items point to direct parts of the query result without further expanding into related entities.Further options are available with [Automatic determination of $expand and $select](Automatic_determination_of_expand_and_select_10ca58b.md).
 
 -   `$expand` can be an object where each object property corresponds to an expand item: the key is the complete expand path. The value can be set as follows:
 

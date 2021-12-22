@@ -20,7 +20,7 @@ We have the following categories of demo apps:
 
 -   Apps that are created with our tutorials \(see [Tutorials](Tutorials_8b49fc1.md)\)
 
--   Template apps \(see [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)\)
+-   Template apps \(see [Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:\)
 
 
 The following tables give an overview of what each demo app shows.
@@ -105,7 +105,7 @@ Sorting
 
 Formatting
 
-[Behavior-driven Development with Gherkin](Behavior-driven_Development_with_Gherkin_45ac9f1.md)
+[Behavior-driven Development with Gherkin](Behavior_driven_Development_with_Gherkin_45ac9f1.md)
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 

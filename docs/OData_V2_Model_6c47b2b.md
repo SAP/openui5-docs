@@ -267,7 +267,7 @@ Message handling
 </td>
 <td valign="top">
 
-Yes, see [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md) 
+Yes, see [Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md) 
 
 
 
@@ -1024,7 +1024,7 @@ If the function import returns result data, then the result data can be accessed
 
 ### Language
 
-OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V2 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
+OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V2 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
  <a name="loio341823349ed04df1813197f2a0d71db2"/>
 

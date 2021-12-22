@@ -33,7 +33,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > 
 > -   [Adapting Code to Your Development Environment](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
-1.  [Step 1: Hello World!](Step_1_Hello_World!_2680aa9.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello
+1.  [Step 1: Hello World!](Step_1_Hello_World_2680aa9.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello
 		World” with only HTML.")  
 As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello World” with only HTML.
 2.  [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md "Before we can do something with OpenUI5, we need to load and initialize it.

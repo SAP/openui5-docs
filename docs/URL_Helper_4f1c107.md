@@ -76,7 +76,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 >     sap.m.URLHelper.normalizeEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] );  
 >     ```
 
--   **[Examples for Triggering Telephone, Text and E-Mail Applications](Examples_for_Triggering_Telephone,_Text_and_E-Mail_Applications_021ac23.md "Code samples for triggering telephone, text and e-mail applications.")**  
+-   **[Examples for Triggering Telephone, Text and E-Mail Applications](Examples_for_Triggering_Telephone_Text_and_E_Mail_Applications_021ac23.md "Code samples for triggering telephone, text and e-mail applications.")**  
 Code samples for triggering telephone, text and e-mail applications.
 
 **Related Information**  

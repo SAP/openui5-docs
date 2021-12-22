@@ -15,7 +15,7 @@ As the last step in this tutorial, we are going to improve the accessibility of 
 To achieve this, we will add ARIA attributes. ARIA attributes are used by screen readers to recognize the application structure and to interpret UI elements properly. That way, we can make our app more accessible for users who are limited in their use of computers, for example visually impaired persons. The main goal here is to make our app usable for as many people as we can.
 
 > ### Tip:  
-> ARIA is short for **Accessible Rich Internet Applications**. It is a set of attributes that enable us to make apps more accessible by assigning semantic characteristics to certain elements. For more information, see [Accessible Rich Internet Applications \(ARIA\) – Part 1: Introduction](https://experience.sap.com/skillup/accessible-rich-internet-applications-aria-part-1-introduction/).
+> ARIA is short for **Accessible Rich Internet Applications**. It is a set of attributes that enable us to make apps more accessible by assigning semantic characteristics to certain elements. For more information, see [Accessible Rich Internet Applications \(ARIA\) – Part 1: Introduction](https://blogs.sap.com/2015/06/01/accessible-rich-internet-applications-aria-part-1-introduction/).
 
 ***
 
@@ -37,7 +37,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 You can view and download all files at [Walkthrough - Step 37](https://openui5.hana.ondemand.com/#/sample/sap.m.tutorial.walkthrough.37/preview).
 
-One part of the ARIA attribute set is the so-called landmarks. You can compare landmarks to maps in that they help the user navigate through an app. For this step, we will use Google Chrome with a free [landmark navigation extension](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) We will now add meaningful landmarks to our code.
+One part of the ARIA attribute set are the so-called landmarks. You can compare landmarks to maps in that they help the user navigate through an app. For this step, we will use Google Chrome with a free [landmark navigation extension](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) We will now add meaningful landmarks to our code.
 
 ***
 
@@ -242,6 +242,4 @@ You've completed the walkthrough, good job! You should be familiar with all majo
 [Accessibility](Accessibility_03b914b.md "In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.")
 
 [Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")
-
-[SAP Software Accessibility](https://www.sap.com/corporate/en/company/diversity/accessibility.about.html)
 
