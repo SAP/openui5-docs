@@ -56,7 +56,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [What's New in OpenUI5 1.40](What_s_New_in_OpenUI5_1_40_e659bd2.md)
             -   [What's New in OpenUI5 1.38](What_s_New_in_OpenUI5_1_38_6a875f9.md#loio6a875f998994489483e8085705347d72)
     -   [Read Me First](Read_Me_First_167193c.md)
-        -   [Enterprise Features of SAPUI5](Enterprise_Features_of_SAPUI5_bf2d55e.md)
+        -   [Enterprise Features of OpenUI5](Enterprise_Features_of_OpenUI5_bf2d55e.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
         -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
             -   [Visual Degradations](Visual_Degradations_f08f296.md)
