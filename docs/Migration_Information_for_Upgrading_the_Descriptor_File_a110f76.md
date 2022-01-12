@@ -358,13 +358,15 @@ Allows to define titles declaratively in the configuration \(`title` under `targ
 	}],
 	"targets": {
 		"product": {
-			"viewPath": "shop.products",
-			"viewName": "Product",
+			"type": "View",
+			"path": "shop.products",
+			"name": "Product",
 			"title": "Product"
 		},
 		"productParts": {
-			"viewPath": "shop.products",
-			"viewName": "Product",
+			"type": "View",
+			"path": "shop.products",
+			"name": "Product",
 			"title": "Product Parts"
 		}
 	},

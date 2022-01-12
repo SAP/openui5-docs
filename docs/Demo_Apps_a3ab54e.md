@@ -18,7 +18,7 @@ We have the following categories of demo apps:
 
 -   Showcase apps that show you how to use specific controls or features
 
--   Apps that are created with our tutorials \(see [Tutorials](Tutorials_8b49fc1.md)\)
+-   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\)
 
 -   Template apps \(see [Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:\)
 

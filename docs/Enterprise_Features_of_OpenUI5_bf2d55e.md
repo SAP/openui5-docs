@@ -22,7 +22,7 @@ The individual capabilities of OpenUI5 help you to easily build enterprise apps.
 
 -   **Easy to integrate**: OpenUI5 lets you run large numbers of highly-consistent apps that can be integrated to complex business processes.
 
--   **Flexible tools for any developer**: OpenUI5 comes with development environments and tools to efficiently build, test, and deploy apps.
+-   **Flexible tools for any developer**: OpenUI5 supports a number of development environments and tools to efficiently build, test, and deploy apps.
 
 -   **Benefit from innovations**: OpenUI5 brings a clear lifecycle separation of application and framework code to centrally innovate while being upgrade-compatible.
 

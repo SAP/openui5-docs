@@ -210,8 +210,8 @@
 					}
 				}
 			},
-			"Tutorials": {
-				"link": "Tutorials_8b49fc1.md",
+			"Get Started: Setup, Tutorials, and Demo Apps": {
+				"link": "Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md",
 				"items": {
 					"Development Environment": {
 						"link": "Development_Environment_7bb04e0.md",

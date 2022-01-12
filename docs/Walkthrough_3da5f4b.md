@@ -27,11 +27,11 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > 
 > You can view and download the samples for all steps in the in the Demo Kit at [Walkthrough](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.tutorial.walkthrough/samples). Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
-> For more information check the following sections of the tutorials overview page \(see [Tutorials](Tutorials_8b49fc1.md)\):
+> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
 > 
-> -   [Downloading Code for a Tutorial Step](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
+> -   [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
-> -   [Adapting Code to Your Development Environment](Tutorials_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> -   [Adapting Code to Your Development Environment](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
 1.  [Step 1: Hello World!](Step_1_Hello_World_2680aa9.md "As you know OpenUI5 is all about HTML5. Let’s get started with building a first “Hello
 		World” with only HTML.")  

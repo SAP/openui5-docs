@@ -47,15 +47,18 @@ The `sap.f.routing.Router` has the following main differences to the `sap.m.rout
 > ```
 > "targets": {
 >    "master": {
->       "viewName": "Master",
+>       "type": "View",
+>       "name": "Master",
 >       "controlAggregation": "beginColumnPages"
 >    },
 >    "detail": {
->       "viewName": "Detail",
+>       "type": "View",
+>       "name": "Detail",
 >       "controlAggregation": "midColumnPages"
 >    },
 >    "detailDetail": {
->       "viewName": "DetailDetail",
+>       "type": "View",
+>       "name": "DetailDetail",
 >       "controlAggregation": "endColumnPages"
 >    }
 > }

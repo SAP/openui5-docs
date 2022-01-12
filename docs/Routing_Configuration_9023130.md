@@ -16,7 +16,7 @@ Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
 
 ### Routes
 
-Each route defines a name, a pattern, and optionally one or more targets to which to navigate when the route has been matched. In the `routes` section, you define which patterns are available for navigation.
+Preferably, an **array** of routes is added to the router. Each route defines a name, a pattern, and optionally one or more targets to which to navigate when the route has been matched. In the `routes` section, you define which patterns are available for navigation. Routes need to be defined in an array instead of an object, because their order in the array determines the sequence when matching against the browser hash.
 
 -   The `name` of the route \(unique within one router instance\)
 
@@ -57,9 +57,9 @@ A target defines the view or component that is displayed. It is associated with 
 
         A view or component instance is cached in OpenUI5 routing under the combination of its `name` and `id`. If there already is one instance created for a specific view or component with an `id`, this instance is reused if another target with the same `name` and `id` is displayed. If a new instance needs to be created instead of reusing the existing ones, assign the target a different `id`.
 
-    -   `viewLevel` 
+    -   `level` 
 
-        You can use different levels to define the navigation direction,for example the navigation from a lower view level to a higher view level leads to forward navigation. This is, for example, important for `flip` and `slide` transitions, where the slide animation should go from left to right or vice versa.
+        You can use different levels to define the navigation direction, for example the navigation from a lower view level to a higher view level leads to forward navigation. This is, for example, important for `flip` and `slide` transitions, where the slide animation should go from left to right or vice versa.
 
     -   `controlId` of the control that is used as the parent to insert the view or component \(e.g. `app`\)
 
@@ -103,7 +103,7 @@ The `config` section contains the global router configuration and default values
     > ### Note:  
     > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclasses of `sap.ui.core.routing.Router`.
     > 
-    > Compared to `sap.ui.core.routing.Router`, the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `viewLevel`, `transition`, and `transitionParameters` which can be specified for each route or target created by the `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. See the *API Reference* for more information.
+    > Compared to `sap.ui.core.routing.Router`, the `sap.m.routing.Router` is optimized for mobile apps and adds the `level`, `transition`, and `transitionParameters` properties, which can be specified for each route or target created by `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. See the *API Reference* for more information.
 
 -   The `homeRoute` defines the route whose target title is inserted as the first entry in the title history in the `titleChanged` event or in the return value of `sap.ui.core.routing.Router.prototype.getTitleHistory`. For more information, see section *Initial title of the home page* of [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md).
 

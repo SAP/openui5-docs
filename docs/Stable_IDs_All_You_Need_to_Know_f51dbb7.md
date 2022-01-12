@@ -89,8 +89,10 @@ The generated IDs change whenever the control structure of the app changes. The 
     		...
     		"targets": {
     			"myTarget": {
-    				"viewName": "MyView",
-    				"viewId": "myView"
+    				"type": "View",
+    				"viewType": "XML",
+    				"name": "MyView",
+    				"id": "myView"
     				}
     			}
     		}

@@ -98,7 +98,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
         "config": {
             "routerClass": "sap.m.routing.Router",
             "viewType": "XML",
-            "viewPath": "sap.ui.demo.walkthrough.view",
+            "path": "sap.ui.demo.walkthrough.view",
             "controlId": "app",
             "controlAggregation": "pages",
             *HIGHLIGHT START*"async": true*HIGHLIGHT END*
