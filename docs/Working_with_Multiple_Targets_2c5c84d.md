@@ -57,7 +57,7 @@ The relationship between the target `employeeOverview` and `employeeOverviewTop`
     *HIGHLIGHT START*"employeeOverview"*HIGHLIGHT END*: {
       "type": "View",
       "name": "EmployeeOverview",
-      "viewLevel": 2,
+      "level": 2,
       "controlId": "app",
       "controlAggregation": "content"
     },

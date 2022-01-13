@@ -42,8 +42,9 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 	"routing": {
 	  "config": {
 		"routerClass": "sap.m.routing.Router",
+		"type": "View",
 		"viewType": "XML",
-		"viewPath": "sap.ui.demo.walkthrough.view",
+		"path": "sap.ui.demo.walkthrough.view",
 		"controlId": "app",
 		"controlAggregation": "pages"
 	  },
@@ -61,12 +62,12 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 	  ],
 	  "targets": {
 		"overview": {
-		  "viewId": "overview",
-		  "viewName": "Overview"
+		  "id": "overview",
+		  "name": "Overview"
 		},
 		"detail": {
-		  "viewId": "detail",
-		  "viewName": "Detail"
+		  "id": "detail",
+		  "name": "Detail"
 		}
 	  }
 	}*HIGHLIGHT END*

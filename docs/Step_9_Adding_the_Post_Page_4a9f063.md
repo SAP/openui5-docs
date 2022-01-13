@@ -41,8 +41,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.bulletinboard.view",
+				"path": "sap.ui.demo.bulletinboard.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"async": true
@@ -62,14 +63,14 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 			],
 			"targets": {
 				"worklist": {
-					"viewName": "Worklist",
-					"viewId": "worklist",
-					"viewLevel": 1
+					"name": "Worklist",
+					"id": "worklist",
+					"level": 1
 				}*HIGHLIGHT START*,
 				"post": {
-					"viewName": "Post",
-					"viewId": "post",
-					"viewLevel": 2
+					"name": "Post",
+					"id": "post",
+					"level": 2
 				}
 *HIGHLIGHT END*
 			}

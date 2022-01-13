@@ -312,8 +312,9 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 		"routing": {
 			"config": {
 				"routerClass": "sap.f.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.fiori2.view",
+				"path": "sap.ui.demo.fiori2.view",
 				"controlId": "flexibleColumnLayout",
 				"transition": "slide",
 				"bypassed": {
@@ -340,11 +341,11 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 			],
 			"targets": {
 				"master": {
-					"viewName": "Master",
+					"name": "Master",
 					"controlAggregation": "beginColumnPages"
 				},
 				"detail": {
-					"viewName": "Detail",
+					"name": "Detail",
 					"controlAggregation": "midColumnPages"
 				}
 			}

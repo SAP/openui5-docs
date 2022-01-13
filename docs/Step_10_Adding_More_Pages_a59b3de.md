@@ -101,19 +101,19 @@ We create a simple additional page view.
 			],
 			"targets": {
 				"master": {
-					"viewName": "Master",
+					"name": "Master",
 					"controlAggregation": "beginColumnPages"
 				},
 				"detail": {
-					"viewName": "Detail",
+					"name": "Detail",
 					"controlAggregation": "midColumnPages"
 				},
 				"detailDetail": {
-					"viewName": "DetailDetail",
+					"name": "DetailDetail",
 					"controlAggregation": "endColumnPages"
 				}*HIGHLIGHT START*,
 				"page2": {
-					"viewName": "AboutPage",
+					"name": "AboutPage",
 					"controlAggregation": "endColumnPages"
 				}*HIGHLIGHT END*
 			}

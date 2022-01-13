@@ -46,8 +46,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
       "routing": {
          "config": {
             "routerClass": "sap.m.routing.Router",
+            "type": "View",
             "viewType": "XML",
-            "viewPath": "sap.ui.demo.nav.view",
+            "path": "sap.ui.demo.nav.view",
             "controlId": "app",
             "controlAggregation": "pages",
             "transition": "slide",
@@ -63,13 +64,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
          }],
          "targets": {
             "home": {
-               "viewId": "home",
-               "viewName": "Home",
-               "viewLevel" : 1
+               "id": "home",
+               "name": "Home",
+               "level" : 1
             }*HIGHLIGHT START*,
             "notFound": {
-               "viewId": "notFound",
-               "viewName": "NotFound",
+               "id": "notFound",
+               "name": "NotFound",
                "transition": "show"
             }*HIGHLIGHT END*
          }

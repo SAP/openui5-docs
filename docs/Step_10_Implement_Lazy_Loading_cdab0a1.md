@@ -171,8 +171,9 @@ These lines of code make sure that the targets are only loaded when they are nee
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.nav.view",
+				"path": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
@@ -190,24 +191,24 @@ These lines of code make sure that the targets are only loaded when they are nee
 			"targets": {
 				...
 				"employeeResume": {
-					"viewId": "resume",
-					"viewName": "employee.Resume",
-					"viewLevel" : 4,
+					"id": "resume",
+					"name": "employee.Resume",
+					"level" : 4,
 					"transition": "flip"
 				}*HIGHLIGHT START*,
 				"resumeTabHobbies": {
-					"viewId": "resumeHobbies",
+					"id": "resumeHobbies",
 					"parent": "employeeResume",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "ResumeHobbies",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "ResumeHobbies",
 					"controlId": "hobbiesTab",
 					"controlAggregation": "content"
 				},
 				"resumeTabNotes": {
-					"viewId": "resumeNotes",
+					"id": "resumeNotes",
 					"parent": "employeeResume",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "ResumeNotes",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "ResumeNotes",
 					"controlId": "notesTab",
 					"controlAggregation": "content"
 				}*HIGHLIGHT END*
@@ -219,7 +220,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 
 We add the `resumeTabHobbies` and `resumeTabNotes` targets to the descriptor file with additional fields that override the default configuration as we now want to display the targets locally inside the `IconTabBar` control and not as pages of the app.
 
-The `resumeTabHobbies` target sets the parent property to `employeeResume`. The parent property expects the name of another target. In our case, this makes sure that the view from the parent target `employeeResume` is loaded before the target `resumeTabHobbies` is displayed. This can be considered as a “view dependency”. By setting the `controlId` and `controlAggregation` properties the router places the view `ResumeHobbies` into the `content` aggregation of the `IconTabFilter` control with ID `hobbiesTab`. We also set a parameter `viewId` to a custom ID to illustrate how you could overrule a hard-coded ID inside a view.
+The `resumeTabHobbies` target sets the parent property to `employeeResume`. The parent property expects the name of another target. In our case, this makes sure that the view from the parent target `employeeResume` is loaded before the target `resumeTabHobbies` is displayed. This can be considered as a “view dependency”. By setting the `controlId` and `controlAggregation` properties the router places the view `ResumeHobbies` into the `content` aggregation of the `IconTabFilter` control with ID `hobbiesTab`. We also set a parameter `id` to a custom ID to illustrate how you could overrule a hard-coded ID inside a view.
 
 > ### Note:  
 > Each target can define only one parent with its parent property. This is similar to the OpenUI5 control tree where each control can have only one parent control \(accessed with the method `getParent()` of `sap.ui.base.ManagedObject`\). The `controlId` property always references a control inside the parent view that is specified with the `parent` target.

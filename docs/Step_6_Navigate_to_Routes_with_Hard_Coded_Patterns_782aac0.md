@@ -104,8 +104,9 @@ The new event handler `onNavToEmployees` calls `navTo("employeeList")` on the ro
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.nav.view",
+				"path": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
@@ -124,20 +125,20 @@ The new event handler `onNavToEmployees` calls `navTo("employeeList")` on the ro
 			}*HIGHLIGHT END*],
 			"targets": {
 				"home": {
-					"viewId": "home",
-					"viewName": "Home",
-					"viewLevel" : 1
+					"id": "home",
+					"name": "Home",
+					"level" : 1
 				},
 				"notFound": {
-					"viewId": "notFound",
-					"viewName": "NotFound",
+					"id": "notFound",
+					"name": "NotFound",
 					"transition": "show"
 				}*HIGHLIGHT START*,
 				"employees": {
-					"viewId": "employeeList",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "EmployeeList",
-					"viewLevel" : 2
+					"id": "employeeList",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "EmployeeList",
+					"level" : 2
 				}
 *HIGHLIGHT END*
 			}
@@ -150,14 +151,14 @@ To make the navigation work, we have to extend the routing configuration of the 
 
 The pattern of the route is the hard-coded value `employees`, meaning the matching hash for this route is `/#/employees` in the address bar of the browser. The target `employees` should be displayed when this URL pattern is matched.
 
-The `employees` entry in the `targets` section references the `sap.ui.demo.nav.view.employee.EmployeeList` view. As you can see, we added a new namespace `employee` for all views related to employees with the property `viewPath`. This overrides the default settings in the `config` section for the current target.
+The `employees` entry in the `targets` section references the `sap.ui.demo.nav.view.employee.EmployeeList` view. As you can see, we added a new namespace `employee` for all views related to employees with the property `path`. This overrides the default settings in the `config` section for the current target.
 
 The view that we are about to create has to be placed in the `webapp/view/employee` folder accordingly. This approach helps to structure the views of the app according to business objects and to better understand the navigation patterns of the app in larger projects.
 
 > ### Note:  
-> We could also have left out the `viewPath` property to use the default `viewPath` defined in the `config` section. In that case, we would have to change the `viewName` to `employee.EmployeeList` to achieve the same effect.
+> We could also have left out the `path` property to use the default `path` defined in the `config` section. In that case, we would have to change the `name` to `employee.EmployeeList` to achieve the same effect.
 
-Setting the `viewLevel` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a “Slide to Left” animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a “Slide to Right” animation. This behavior is due to the fact that the home page has a lower `viewLevel` than the `employees` target.
+Setting the `level` to `2` helps the router to determine how to animate the \(in our case\) `slide` transition. For us, this means that a navigation from the home page to the `employees` target will be animated with a “Slide to Left” animation. In contrast to that, the back navigation from the `employees` target to the home page will be animated with a “Slide to Right” animation. This behavior is due to the fact that the home page has a lower `level` than the `employees` target.
 
 ***
 

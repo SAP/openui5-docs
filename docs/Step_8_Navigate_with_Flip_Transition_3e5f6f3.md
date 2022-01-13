@@ -138,8 +138,9 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.nav.view",
+				"path": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
@@ -166,30 +167,30 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 			}*HIGHLIGHT END*],
 			"targets": {
 				"home": {
-					"viewId": "home",
-					"viewName": "Home",
-					"viewLevel" : 1
+					"id": "home",
+					"name": "Home",
+					"level" : 1
 				},
 				"notFound": {
-					"viewId": "notFound",
-					"viewName": "NotFound",
+					"id": "notFound",
+					"name": "NotFound",
 					"transition": "show"
 				},
 				"employees": {
-					"viewId": "employees",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "EmployeeList",
-					"viewLevel" : 2
+					"id": "employees",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "EmployeeList",
+					"level" : 2
 				},
 				"employee": {
-					"viewId": "employee",
-					"viewName": "employee.Employee",
-					"viewLevel" : 3
+					"id": "employee",
+					"name": "employee.Employee",
+					"level" : 3
 				}*HIGHLIGHT START*,
 				"employeeResume": {
-					"viewId": "resume",
-					"viewName": "employee.Resume",
-					"viewLevel" : 4,
+					"id": "resume",
+					"name": "employee.Resume",
+					"level" : 4,
 					"transition": "flip"
 				}*HIGHLIGHT END*
 			}
@@ -200,7 +201,7 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 
 In the routing configuration, we add a new route `employeeResume` which references a target with the same name. The route’s pattern expects an `{employeeId}` as a mandatory parameter and ends with the static string `/resume`.
 
-The target `employeeResume` references the view `employee.Resume` that we are about to create. The target’s `viewLevel` is `4`; compared to the employee target this is one level lower again. To configure a flip navigation, we simply set the transition of our target to `flip`. Together with the correct `viewLevel` configuration this will trigger the correct forward and backward flip navigation whenever the target is displayed.
+The target `employeeResume` references the view `employee.Resume` that we are about to create. The target’s `level` is `4`; compared to the employee target this is one level lower again. To configure a flip navigation, we simply set the transition of our target to `flip`. Together with the correct `level` configuration this will trigger the correct forward and backward flip navigation whenever the target is displayed.
 
 > ### Note:  
 > Possible values for the `transition` parameter are:

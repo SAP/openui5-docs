@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1238d706b130433c9bd6b85cfb77cece)</div>
 
-## Using the title Property in Targets
+## Using the `title` Property in Targets
 
 Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it’s bound to the i18n model or resolved dynamically under the current binding context.
 
@@ -99,13 +99,17 @@ A route can display multiple targets and you can use the `titleTarget` option in
     }],
     "targets": {
         "product": {
-            "viewPath": "shop.products",
-            "viewName": "Product",
+            "type": "View",
+            "viewType": "XML",
+            "path": "shop.products",
+            "name": "Product",
             "title": "Product"
         },
         "productParts": {
-            "viewPath": "shop.products",
-            "viewName": "Product",
+            "type": "View",
+            "viewType": "XML",
+            "path": "shop.products",
+            "name": "Product",
             "title": "Product Parts"
         }
     },

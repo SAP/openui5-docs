@@ -91,7 +91,7 @@ The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/
 
 In some applications users need to be able to quickly enter a large amount of new records. A "Create" button or the related keyboard shortcut that needs to be explicitly pressed would slow down the user. To avoid this, the application could provide multiple **inline creation rows** in the table that are initially filled with default values and are not persisted in the back end.
 
-You can create such an inline creation row by calling [`sap.ui.model.odata.v4.ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with the `bInactive` parameter. Call it multiple times for multiple rows. These rows are called inactive because they are not sent to the server. Once the user modifies a property of such an inactive row, and the modification passes the client-side validation, the row will be sent to the server with the next batch for the binding's update group.
+You can create such an inline creation row by calling [`sap.ui.model.odata.v4.ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with the `bInactive` parameter. Call it multiple times for multiple rows. These rows are called inactive because they are not sent to the server. Once the user modifies a property of such an inactive row, and the modification passes the client-side validation, a [`v4.ODataListBinding.createActivate`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23events/createActivate) event is fired and the row will be sent to the server with the next batch for the binding's update group. The event can be used to create a new inline creation row.
 
 ***
 
@@ -110,7 +110,11 @@ You can create such an inline creation row by calling [`sap.ui.model.odata.v4.OD
 
  ![](loioa5fb6039aa0247aa8bd3160ab6d8f32a_LowRes.png "Internal States of an OData V4 Binding Context") 
 
-The state of a context can be checked via [`Context#isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/isTransient). This function does not distinguish between the `transient`, `createPending`, and `parked` states of a context. It returns `true` for any of them; the internal state of a such a context should not matter to the application. `Context#isTransient` also returns `true` for `inactive` contexts.
+The state of a context can be checked via the following API functions:
+
+-    [`Context#isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/isTransient). This function does not distinguish between the `transient`, `createPending`, and `parked` states of a context. It returns `true` for any of them; the internal state of a such a context should not matter to the application. `Context#isTransient` also returns `true` for `inactive` contexts. It returns `false` for `createdPersisted` contexts, and `undefined` for `persisted` contexts. The value of `isTransient()` can also be observed via the bindable annotation `@$ui5.context.isTransient`.
+
+-   [`Context#isInactive`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/isInactive): This function returns `true` for `inactive` contexts, `false` for contexts that were created in the `inactive` state and have been activated, and `undefined` otherwise. The value of `isInactive()` can also be observed via the bindable annotation `@$ui5.context.isInactive`.
 
 **Related Information**  
 

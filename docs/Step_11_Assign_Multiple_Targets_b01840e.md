@@ -112,8 +112,9 @@ As you know already from the previous steps, we add the `press` event handler `o
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.nav.view",
+				"path": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
@@ -145,32 +146,32 @@ As you know already from the previous steps, we add the `press` event handler `o
 			"targets": {
 				...
 				"resumeTabNotes": {
-					"viewId": "resumeNotes",
+					"id": "resumeNotes",
 					"parent": "employeeResume",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "ResumeNotes",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "ResumeNotes",
 					"controlId": "notesTab",
 					"controlAggregation": "content"
 				}*HIGHLIGHT START*,
 				"employeeOverview": {
-					"viewId": "employeeOverview",
-					"viewPath": "sap.ui.demo.nav.view.employee.overview",
-					"viewName": "EmployeeOverview",
-					"viewLevel" : 2
+					"id": "employeeOverview",
+					"path": "sap.ui.demo.nav.view.employee.overview",
+					"name": "EmployeeOverview",
+					"level" : 2
 				},
 				"employeeOverviewTop": {
-					"viewId": "employeeOverviewTop",
+					"id": "employeeOverviewTop",
 					"parent": "employeeOverview",
-					"viewPath": "sap.ui.demo.nav.view.employee.overview",
-					"viewName": "EmployeeOverviewTop",
+					"path": "sap.ui.demo.nav.view.employee.overview",
+					"name": "EmployeeOverviewTop",
 					"controlId": "EmployeeOverviewParent",
 					"controlAggregation": "content"
 				},
 				"employeeOverviewContent": {
-					"viewId": "employeeOverviewContent",
+					"id": "employeeOverviewContent",
 					"parent": "employeeOverview",
-					"viewPath": "sap.ui.demo.nav.view.employee.overview",
-					"viewName": "EmployeeOverviewContent",
+					"path": "sap.ui.demo.nav.view.employee.overview",
+					"name": "EmployeeOverviewContent",
 					"controlId": "EmployeeOverviewParent",
 					"controlAggregation": "content"
 				}
@@ -183,12 +184,12 @@ As you know already from the previous steps, we add the `press` event handler `o
 
 We extend our current routing configuration with a new route `employeeOverview`. Note that this route has to be configured before the `employee` route, else the `employee` route would be matched with a hash like `/#/employees/overview`. The new route `employeeOverview` references two targets at the same time with an array notation: `employeeOverviewTop` and `employeeOverviewContent`. As you can see here, a route can reference an arbitrary number of targets that will be displayed when the route is matched.
 
-Both targets `employeeOverviewTop` and `employeeOverviewContent` reference the target `employeeOverview` as their parent target because we want to place them both inside the parent. Please also note that we also introduce a new layer `overview` in the `viewPath` property.
+Both targets `employeeOverviewTop` and `employeeOverviewContent` reference the target `employeeOverview` as their parent target because we want to place them both inside the parent. Please also note that we also introduce a new layer `overview` in the `path` property.
 
 > ### Note:  
 > The order of the routing configuration matters here, because the router stops matching additional routes when the first match is found. You can override this behavior if you set parameter `greedy` to `true` on the route. Then the route will always be matched when the pattern matches the current URL, even if another route has been matched before. The `greedy` option comes from the underlying `Crossroads.js` library, a popular routing library. A common use case for using `greedy` is configuring targets without views and then listening for route-matched events.
 
-Now we create both targets `employeeOverviewTop` and `employeeOverviewContent` as well as their parent target `employeeOverview`. On the parent target we set `viewLevel` to `2` to ensure a correct transition animation. In the targets, we also configure where the corresponding views of the children shall be displayed by setting the parameters `controlId` and `controlAggregation` to a control ID of a `sap.ui.layout.HorizontalLayout` that we are about to create in a new view. You should be familiar with this configuration from the last step.
+Now we create both targets `employeeOverviewTop` and `employeeOverviewContent` as well as their parent target `employeeOverview`. On the parent target we set `level` to `2` to ensure a correct transition animation. In the targets, we also configure where the corresponding views of the children shall be displayed by setting the parameters `controlId` and `controlAggregation` to a control ID of a `sap.ui.layout.HorizontalLayout` that we are about to create in a new view. You should be familiar with this configuration from the last step.
 
 The router makes sure that the parent view is loaded in addition to the target view when a corresponding route has been matched and the targets are displayed. The referenced views are displayed automatically at the configured place in the parent’s view, in our case in the content aggregation of the page control. We have mentioned three different views that we still need to add to the app to make the configuration work:
 
