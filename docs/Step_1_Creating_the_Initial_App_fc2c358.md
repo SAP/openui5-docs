@@ -87,7 +87,5 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
 **Related Information**  
 
 
-[Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:
-
 [Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md "The details described here represent a best practice for structuring an application that features one component, one OData service and less than 20 views. If you're building an app that has more components, OData services and views, you may have to introduce more folder levels than described here.")
 

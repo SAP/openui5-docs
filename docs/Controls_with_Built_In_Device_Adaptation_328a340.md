@@ -19,13 +19,13 @@ OpenUI5 comes with several controls which are already able to react to the avail
 
 ### sap.m.SplitApp
 
-The `SplitApp` is a control that can act as a root element of an application for mobile and desktop devices. It is designed to be used as the base for applications following the master-detail pattern.
+The `SplitApp` is a control that can act as a root element of an application for mobile and desktop devices. It is designed to be used as the base for applications following the list-detail pattern.
 
-It maintains two `NavContainers` if running on tablet or desktop, and one if running on a phone. In default mode, the master `NavContainer` will always be displayed on desktop screens and on tablets in landscape mode. It will be hidden on tablet-sized screens and can either be swiped in and out \(if the device is touch-enabled\) or the visibility can be toggled by clicking a button. On phone devices, either the master `NavContainer` or the detail `NavContainer` will be shown, and a true forward-backward navigation is established between the two.
+It maintains two `NavContainers` if running on tablet or desktop, and one if running on a phone. In default mode, the list `NavContainer` will always be displayed on desktop screens and on tablets in landscape mode. It will be hidden on tablet-sized screens and can either be swiped in and out \(if the device is touch-enabled\) or the visibility can be toggled by clicking a button. On phone devices, either the list `NavContainer` or the detail `NavContainer` will be shown, and a true forward-backward navigation is established between the two.
 
 For more information, see the [sap.m.SplitApp](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.SplitApp/samples) samples and [sap.m.SplitApp](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.SplitApp.html) in the *API Reference* in the Demo Kit.
 
-As the `SplitApp` control inherits from `sap.m.SplitContainer`, you can alter this behavior by setting the corresponding mode property. You can set this property to `StretchCompressMode`, for instance, if you want the master to always be displayed on tablet-sized screens, irrespective of the current orientation. The different modes that are available are described under [sap.m.SplitAppMode](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.SplitAppMode.html) in the *API Reference* in the Demo Kit.
+As the `SplitApp` control inherits from `sap.m.SplitContainer`, you can alter this behavior by setting the corresponding mode property. You can set this property to `StretchCompressMode`, for instance, if you want the list to always be displayed on tablet-sized screens, irrespective of the current orientation. The different modes that are available are described under [sap.m.SplitAppMode](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.SplitAppMode.html) in the *API Reference* in the Demo Kit.
 
 For more information about the `SplitContainer`, see the [sap.m.SplitContainer](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.SplitContainer/samples) samples and [sap.m.SplitContainer](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.SplitContainer.html) in the *API Reference* in the Demo Kit.
 

@@ -20,8 +20,6 @@ We have the following categories of demo apps:
 
 -   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\)
 
--   Template apps \(see [Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:\)
-
 
 The following tables give an overview of what each demo app shows.
 
@@ -302,86 +300,6 @@ Sorting
 Formatting
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Worklist Template*
-
-
-
-</td>
-<td valign="top">
-
-[XML View](XML_View_91f2928.md)
-
-[Busy Indicators](Busy_Indicators_0dd2110.md)
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-Filtering
-
-Formatting
-
-[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-Sorting
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Master-Detail Template*
-
-
-
-</td>
-<td valign="top">
-
-[XML Fragments](XML_Fragments_2c677b5.md)
-
-[XML View](XML_View_91f2928.md)
-
-[Busy Indicators](Busy_Indicators_0dd2110.md)
-
-[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
-
-[Expression Binding](Expression_Binding_daf6852.md)
-
-
-
-</td>
-<td valign="top">
-
-`sap.f.FlexibleColumnLayout`
-
-
-
-</td>
-<td valign="top">
-
-Formatting
-
-List selector
-
-[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-Sorting
 
 
 
@@ -716,100 +634,6 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 </td>
 <td valign="top">
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Worklist Template*
-
-
-
-</td>
-<td valign="top">
-
-`App`
-
-`ColumnListItem`
-
-`MessagePage`
-
-`SearchField`
-
-`Table`
-
-`Toolbar`
-
-
-
-</td>
-<td valign="top">
-
-`SemanticPage`
-
-`SendEmailAction`
-
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Master-Detail Template*
-
-
-
-</td>
-<td valign="top">
-
-`ColumnListItem`
-
-`OverflowToolbar`
-
-`List`
-
-`MessagePage`
-
-`ObjectHeader`
-
-`Page`
-
-`SearchField`
-
-`Table`
-
-`Toolbar`
-
-`ViewSettingsDialog`
-
-
-
-</td>
-<td valign="top">
-
-`titleHeading`
-
-`SemanticPage`
-
-`FilterAction`
-
-`SendEmailAction`
-
-
-
-</td>
-<td valign="top">
-
-`sap.f.FlexibleColumnLayout` \(2 columns\)
 
 
 

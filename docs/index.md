@@ -770,7 +770,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Message Handling](Message_Handling_f5df293.md)
             -   [Message Popover](Message_Popover_52824a6.md)
             -   [PDF Viewer](PDF_Viewer_cd80a8b.md)
-            -   [Personalization Dialog](Personalization_Dialog_a3c3c5e.md)
+            -   [Personalization](Personalization_a3c3c5e.md)
             -   [Scrolling](Scrolling_66029f6.md)
                 -   [Scrolling: Implementation Details](Scrolling_Implementation_Details_f5f6a47.md)
                 -   [Scrolling: Pull to Refresh](Scrolling_Pull_to_Refresh_fde4015.md)
