@@ -18,7 +18,7 @@ For more information about this control, see the [API Reference](https://openui5
 
 ### Overview
 
-The `sap.m.p13n` namespace offers you personalization content and allows the consuming application to define various settings for tables using panels. Different panels with reusable content for the various types of personalization are available for freestyle use in the application.
+The `sap.m.p13n` namespace offers you personalization content and allows the consuming application to define various settings for tables by using panels. Different panels with reusable content for the various types of personalization are available for freestyle use in the application.
 
 The panels represent the settings on the user interface. They are aggregated to `sap.m.p13n.Popup`. This control can be used as a container for these panels.
 
