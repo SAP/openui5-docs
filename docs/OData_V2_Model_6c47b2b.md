@@ -490,28 +490,164 @@ You can only access single entities and properties with this method. To access e
 
 ### Creating Entities
 
-To create entities for a specified entity set, call the `createEntry()` method. The method returns a context object that points to the newly created entity.
+Three different approaches exist to create new entities in the OData V2 model. The approach that suits best depends on the application use case.
 
-The application can bind against these objects and change the data by means of two-way binding. To store the entities in the OData backend, the application calls `submitChanges()`. To reset the changes, the application can call the `deleteCreatedEntry()` method.
+For all approaches, the corresponding APIs take a `groupId` that specifies a batch group in order to control when the POST request for entity creation is sent to the back end; by default, the deferred batch group "changes" is used. For more information, see [Batch Processing](OData_V2_Model_6c47b2b.md#loio8a6ae1d390534d05a560bf350af59c29).
 
-The application can choose the properties that shall be included in the created object and can pass its own default values for these properties. Per default, all property values are empty, that is, undefined.
+***
 
-> ### Note:  
-> The entity set and the passed properties must exist in the metadata definition of the OData service.
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_xdj_4tx_gsb"/>
+
+### `ODataModel#createEntry`
+
+Creates an entry and returns a context corresponding to it. Use this approach in the following cases:
+
+-   You have a form or popup where the end user can view and modify the data of the new entry, but there is no table or list control where the entry should appear,
+
+-   you want to create an entry without displaying it on the UI.
+
+
+The method takes the `path` to the entity set for creation and optionally initial `properties` for the created entry; both the path and the property names used in the `properties` parameter must exist in the metadata definition of the OData service. Take care when creating the initial data as a copy of an existing data object retrieved via `getObject` from the model: You need to remove the`__metadata` property from the copy, as this must not be sent in the payload of a creation request.
+
+The context returned by this method is **transient**. This means the corresponding entity only exists on the client until it is persisted \(for a deferred batch group, use the `submitChanges` API\), thus changing its state to **persisted**, or it is deleted with the `resetChanges` API. Note that when the creation request sent on `submitChanges` fails, it is automatically retried with the next call to `submitChanges`, which may then succeed, e.g. because missing properties are added.
+
+Use the promise returned by the `created` API on the returned context to get notified when it is persisted or reset. With the `isTransient` API you can determine whether a created context is transient or persisted; note that the API returns `undefined` for contexts which have not been created on the client but have been read from the back end.
+
+The transient context is typically used to bind a form or popup, so that the end user can view or modify data of the created entry before it is persisted in the back end. The data of the context is updated from the response of the creation request on success. Note that the transient context's path contains a client-side generated UID as a temporary key predicate, e.g. `ProductSet('id-1641815139894-99')`. Take care when using this path in application coding, as it becomes invalid once the context is persisted; the context then changes its path based on the canonical URL of the persisted entity, e.g. to `ProductSet('4711')`.
+
+All examples for entity creation below assume that the model runs in batch mode, i.e. is constructed with `useBatch = true` .
+
+> ### Example:  
+> `createEntry` and related APIs
 > 
 > ``` js
-> // create an entry of the Products collection with the specified properties and values
-> var oContext = oModel.createEntry("/Products", { properties: { ID:99, Name:"Product", Description:"new Product", ReleaseDate:new Date(), Price:"10.1", Rating:1} });
-> // binding against this entity
+> // create an entry in the Products collection with the specified properties and values as initial data
+> var oContext = oModel.createEntry("/ProductSet", {
+>     properties : {Name : "Laptop X", Description:"New Laptop", Price:"1000", CurrencyCode : "USD"}
+> });
+> // bind a form against the transient context for the newly created entity
 > oForm.setBindingContext(oContext);
-> // submit the changes (creates entity at the backend)
+>  
+> // submit the changes: creates entity in the back end
 > oModel.submitChanges({success: mySuccessHandler, error: myErrorHandler});
-> // delete the created entity
-> oModel.deleteCreatedEntry(oContext);
-> 
+> // handle successful creation or reset
+> oContext.created().then(
+>   function () { /* successful creation */ },
+>   function () { /* deletion of the created entity before it is persisted */ }
+> );
+>  
+> // delete the created entity by resetting the corresponding change
+> oModel.resetChanges([oContext.getPath()], undefined, /*bDeleteCreatedEntities*/true);
 > ```
+
+The `createEntry` method takes the optional `refreshAfterChange` parameter, which determines whether all affected bindings are refreshed after successful creation in the back end. This parameter is used to update list bindings with the new entity after creation, so that it is displayed in the bound table controls. In scenarios where such an update is required, we recommend to use the `ODataListBinding#create` API described below instead of `ODataModel#createEntry`.
+
+If you want to request navigation properties of the created entry on persisting it, use the optional `expand` parameter to do this efficiently in the same batch request as the POST request for entity creation.
+
+The optional `inactive` parameter determines whether an **inactive** transient context is created. Such a context only becomes an *active* transient context on a property update. Before that, it is no pending change, i.e. it is not considered by the `hasPendingChanges` API nor can it be deleted with `resetChanges`; the `submitChanges` API will not trigger a creation request for inactive contexts.
+
+*Deep create*, i.e. creation of an entity as a child to a newly created parent entity with one single API call resp. one single request is not supported. To achieve this, you may chain two API calls to create parent and child entities with two *sequential* requests, as shown in the following sample, which creates both a sales order and a sales order item:
+
+> ### Example:  
+> Two sequential requests to mimic deep create
 > 
-> If created entities are submitted, the context is updated with the path returned from the creation request and the new data is imported into the model. So the context is still valid and points to the new created entity.
+> ``` js
+> var oParentContext,
+>     oModel = this.getView().getModel();
+>  
+> oParentContext = oModel.createEntry("/SalesOrderSet");
+> oParentContext.created().then(function () {
+>   var oChildContext = oModel.createEntry("ToLineItems", {
+>     context : oParentContext
+>   });
+>  
+>   oModel.submitChanges(); // triggers request for creation of item
+> });
+>  
+> oModel.submitChanges(); // triggers request for creation of sales order
+> ```
+
+***
+
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_qyp_stx_gsb"/>
+
+### `ODataListBinding#create`
+
+Creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
+
+Use this approach if you have a list or table control showing the collection of entries, and in the following cases:
+
+-   Created entries should appear in this table even before they are stored in the back end, so that the end user can view and modify their data,
+
+-   created entries should still be shown at the same position in the table after they have been persisted to the back end; just their data is updated based on the response to create a POST request,
+
+-   you want to offer *inline creation rows* for a quick creation of new entries.
+
+
+`ODataListBinding#create` uses `ODataModel#createEntry` to create the new entry; hence it supports the same parameters as this method, with the following exceptions:
+
+-   `sPath` - The path to the entity set for creation is set to the list binding's path
+
+-   `mParameters.context` - The context to resolve the path is set to the list binding's context
+
+-   `mParameters.created` - `ODataListBinding#create` expects that service metadata is already loaded, so the method always returns the created context synchronously, and there is no need for this callback.
+
+-   `mParameters.headers` - Not supported by `ODataListBinding#create`
+
+-   `mParameters.properties` - The initial data for the created entity is given in the separate `oInitialData` parameter
+
+-   `mParameters.refreshAfterChange` - Not supported by `ODataListBinding#create`; the method defaults this parameter to `false`, as the list already contains the created entry before persisting it.
+
+-   `mParameters.urlParameters` - Not supported by `ODataListBinding#create`
+
+
+New entries are inserted according to the `bAtEnd` parameter. When they are persisted, they retain their position in the list as long as there is no call to a method typically related to a user interaction, such as `ODataListBinding#filter`, `ODataListBinding#sort`, `ODataListBinding#refresh`, or a re-binding of the bound list or table control. In these cases, the persisted entries are shown in the position provided by the back end.
+
+With **inactive** entries, you can build **inline creation rows** in a table that allow for a quick creation of new entries *within* the table without separate forms or popups: Once the table data is loaded, you can add one or more inactive entries; use`ODataListBinding#isFirstCreateAtEnd` to determine whether such entries have already been created. On activation of an entry, the list binding fires the `createActivate` event; with this event, you can create a new inactive entry.
+
+> ### Example:  
+> Inline creation rows
+> 
+> ``` js
+> <!-- sap.ui.table.Table control declared in XML view -->
+> <Table id="ToLineItems" rows="{
+>     events : {createActivate : '.onCreateActivateLineItem'}
+>     path : 'ToLineItems'
+> }">
+>  
+> // controller coding
+>  
+> // initial creation of inline creation rows when data has been loaded
+> onInit : function () {
+>   var oItemsBinding = this.getView().byId("ToLineItems").getBinding("rows");
+>  
+>   oItemsBinding.attachEvent("dataReceived", function () {
+>     // check that length is final before creating at end and only create inactive entry once
+>     if (oItemsBinding.isLengthFinal() && oItemsBinding.isFirstCreateAtEnd() === undefined) {
+>       that.onCreateActivateLineItem();
+>     }
+>   });
+> },
+>  
+> // event handler for createActivate
+> onCreateActivateLineItem : function () {
+>   var oItemsBinding = this.getView().byId("ToLineItems").getBinding("rows");
+>  
+>   oItemsBinding.create({/* initial data*/}, /*bAtEnd*/ true, {inactive : true});
+> }
+> ```
+
+***
+
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
+
+### `ODataModel#create`
+
+Triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
+
+Use this approach only if you just want to send a creation request to the back end and do not want to bind the created entry on the UI. In all other cases, use the APIs described above.
+
+The method returns an abort handle to abort the creation POST request. To find out whether such a request is pending, use `ODataModel#hasPendingChanges` with the `bAll` parameter set to `true`. Note that, contrary to `ODataModel#createEntry` and `ODataListBinding#create`, failed creation requests are not automatically retried.
 
  <a name="loioff667e12b8714f3595e68f3e7c0e7a14"/>
 
@@ -527,15 +663,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
 -   Creating entities
 
-    The `create` function triggers a `POST` request to an OData service which was specified at creation of the OData model. The application has to specify the entity set, in which the new entity and the entity data is to be created.
-
-    ``` js
-    var oData = {
-        ProductId: 999,
-        ProductName: "myProduct"
-    }
-    oModel.create("/Products", oData, {success: mySuccessHandler, error: myErrorHandler});
-    ```
+    See the separate topic [Creating Entities](OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4).
 
 -   Reading entities
 
@@ -572,36 +700,6 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
     ``` js
     oModel.setRefreshAfterChange(false);
-    ```
-
--   Deep create
-
-    Creation of an entity as a child to a newly created parent entity is not possible with one single API call. To achieve this, you may chain two API calls to create parent and child entities with two requests, as shown in the following sample, which creates both a sales order and a sales order item:
-
-    ``` js
-    
-    var oParentContext,
-        oModel = this.getView().getModel();
-    
-    oParentContext = oModel.createEntry("SalesOrderSet", {
-       properties : {
-          // properties for the new sales order
-       },
-       success : function () {
-          oChildContext = oModel.createEntry("ToLineItems", {
-             context : oParentContext,
-             properties : {
-                // properties for the new item of the new sales order
-             },
-             success : function () {
-                // ...
-             }
-          });
-          oModel.submitChanges();
-       }
-    });
-    
-    oModel.submitChanges();
     ```
 
 
