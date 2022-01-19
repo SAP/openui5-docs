@@ -498,20 +498,20 @@ For all approaches, the corresponding APIs take a `groupId` that specifies a bat
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_xdj_4tx_gsb"/>
 
-### `ODataModel#createEntry`
+### [`ODataModel#createEntry`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry)`ODataModel#createEntry`
 
-Creates an entry and returns a context corresponding to it. Use this approach in the following cases:
+Creates an entry and returns a [context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context) corresponding to it. Use this approach in the following cases:
 
--   You have a form or popup where the end user can view and modify the data of the new entry, but there is no table or list control where the entry should appear,
+-   You have a form or popup where the end user can view and modify the data of the new entry, but there is no table or list control where the entry should appear.
 
--   you want to create an entry without displaying it on the UI.
+-   You want to create an entry without displaying it on the UI.
 
 
-The method takes the `path` to the entity set for creation and optionally initial `properties` for the created entry; both the path and the property names used in the `properties` parameter must exist in the metadata definition of the OData service. Take care when creating the initial data as a copy of an existing data object retrieved via `getObject` from the model: You need to remove the`__metadata` property from the copy, as this must not be sent in the payload of a creation request.
+The method takes the `path` to the entity set for creation, and optionally initial `properties` for the created entry; both the path and the property names used in the `properties` parameter must exist in the metadata definition of the OData service. Take care when creating the initial data as a copy of an existing data object retrieved via [`getObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/getObject) from the model: You need to remove the`__metadata` property from the copy, as this must not be sent in the payload of a creation request.
 
-The context returned by this method is **transient**. This means the corresponding entity only exists on the client until it is persisted \(for a deferred batch group, use the `submitChanges` API\), thus changing its state to **persisted**, or it is deleted with the `resetChanges` API. Note that when the creation request sent on `submitChanges` fails, it is automatically retried with the next call to `submitChanges`, which may then succeed, e.g. because missing properties are added.
+The context returned by this method is **transient**. This means the corresponding entity only exists on the client until it is persisted \(for a deferred batch group, use the [`submitChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/submitChanges) API\), thus changing its state to **persisted**, or it is deleted with the [`resetChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/resetChanges) API. Note that when the creation request sent on `submitChanges` fails, it is automatically retried with the next call to `submitChanges`, which may then succeed, e.g. because missing properties are added.
 
-Use the promise returned by the `created` API on the returned context to get notified when it is persisted or reset. With the `isTransient` API you can determine whether a created context is transient or persisted; note that the API returns `undefined` for contexts which have not been created on the client but have been read from the back end.
+Use the promise returned by the [`created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/created) API on the returned context to get notified when it is persisted or reset. With the [`isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isTransient) API you can determine whether a created context is transient or persisted; note that the API returns `undefined` for contexts which have not been created on the client but have been read from the back end.
 
 The transient context is typically used to bind a form or popup, so that the end user can view or modify data of the created entry before it is persisted in the back end. The data of the context is updated from the response of the creation request on success. Note that the transient context's path contains a client-side generated UID as a temporary key predicate, e.g. `ProductSet('id-1641815139894-99')`. Take care when using this path in application coding, as it becomes invalid once the context is persisted; the context then changes its path based on the canonical URL of the persisted entity, e.g. to `ProductSet('4711')`.
 
@@ -544,9 +544,9 @@ The `createEntry` method takes the optional `refreshAfterChange` parameter, whic
 
 If you want to request navigation properties of the created entry on persisting it, use the optional `expand` parameter to do this efficiently in the same batch request as the POST request for entity creation.
 
-The optional `inactive` parameter determines whether an **inactive** transient context is created. Such a context only becomes an *active* transient context on a property update. Before that, it is no pending change, i.e. it is not considered by the `hasPendingChanges` API nor can it be deleted with `resetChanges`; the `submitChanges` API will not trigger a creation request for inactive contexts.
+The optional `inactive` parameter determines whether an **inactive** transient context is created. Such a context only becomes an *active* transient context on a property update. Before that, it is no pending change, i.e. it is not considered by the [`hasPendingChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/hasPendingChanges) API nor can it be deleted with `resetChanges`; the `submitChanges` API will not trigger a creation request for inactive contexts.
 
-*Deep create*, i.e. creation of an entity as a child to a newly created parent entity with one single API call resp. one single request is not supported. To achieve this, you may chain two API calls to create parent and child entities with two *sequential* requests, as shown in the following sample, which creates both a sales order and a sales order item:
+*Deep create*, i.e. creation of an entity as a child to a newly created parent entity with one single API call resp. one single request, is not supported. To achieve this, you may chain two API calls to create parent and child entities with two *sequential* requests as shown in the following sample, which creates both a sales order and a sales order item:
 
 > ### Example:  
 > Two sequential requests to mimic deep create
@@ -571,17 +571,17 @@ The optional `inactive` parameter determines whether an **inactive** transient c
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_qyp_stx_gsb"/>
 
-### `ODataListBinding#create`
+### [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/create)
 
 Creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
 
-Use this approach if you have a list or table control showing the collection of entries, and in the following cases:
+Use this approach if you have a list or table control showing the collection of entries and one of the following conditions applies:
 
--   Created entries should appear in this table even before they are stored in the back end, so that the end user can view and modify their data,
+-   Created entries should appear in this table even before they are stored in the back end, so that the end user can view and modify their data.
 
--   created entries should still be shown at the same position in the table after they have been persisted to the back end; just their data is updated based on the response to create a POST request,
+-   Created entries should be shown at the same position in the table even after they have been persisted to the back end; just their data is updated based on the response to create a POST request.
 
--   you want to offer *inline creation rows* for a quick creation of new entries.
+-   You want to offer *inline creation rows* for a quick creation of new entries.
 
 
 `ODataListBinding#create` uses `ODataModel#createEntry` to create the new entry; hence it supports the same parameters as this method, with the following exceptions:
@@ -590,7 +590,7 @@ Use this approach if you have a list or table control showing the collection of 
 
 -   `mParameters.context` - The context to resolve the path is set to the list binding's context
 
--   `mParameters.created` - `ODataListBinding#create` expects that service metadata is already loaded, so the method always returns the created context synchronously, and there is no need for this callback.
+-   `mParameters.created` - `ODataListBinding#create` expects that service metadata is already loaded, so the method always returns the created context synchronously and there is no need for this callback.
 
 -   `mParameters.headers` - Not supported by `ODataListBinding#create`
 
@@ -603,7 +603,7 @@ Use this approach if you have a list or table control showing the collection of 
 
 New entries are inserted according to the `bAtEnd` parameter. When they are persisted, they retain their position in the list as long as there is no call to a method typically related to a user interaction, such as `ODataListBinding#filter`, `ODataListBinding#sort`, `ODataListBinding#refresh`, or a re-binding of the bound list or table control. In these cases, the persisted entries are shown in the position provided by the back end.
 
-With **inactive** entries, you can build **inline creation rows** in a table that allow for a quick creation of new entries *within* the table without separate forms or popups: Once the table data is loaded, you can add one or more inactive entries; use`ODataListBinding#isFirstCreateAtEnd` to determine whether such entries have already been created. On activation of an entry, the list binding fires the `createActivate` event; with this event, you can create a new inactive entry.
+With **inactive** entries, you can build **inline creation rows** in a table that allow for a quick creation of new entries *within* the table without separate forms or popups: Once the table data is loaded, you can add one or more inactive entries; use [`ODataListBinding#isFirstCreateAtEnd`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/isFirstCreateAtEnd) to determine whether such entries have already been created. On activation of an entry, the list binding fires the [`createActivate`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23events/createActivate) event; with this event, you can create a new inactive entry.
 
 > ### Example:  
 > Inline creation rows
@@ -641,7 +641,7 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
 
-### `ODataModel#create`
+### [`ODataModel#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/create)
 
 Triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
 
