@@ -91,7 +91,9 @@ In addition to the common metadata for components, the `UIComponent` class provi
 
 -   `aggregations`: Defines aggregations for your component
 
--   `interfaces`: Defines the interfaces implemented by your component
+-   `interfaces`: Defines the interfaces implemented by your component.
+
+    We recommend to add the `sap.ui.core.IAsyncContentCreation` marker interface when defining a new component. Using this interface allows the component to be created fully asynchronously. This interface will implicitly set the component's `rootView` and router configuration to `async`. Nested views will also be handled asynchronously. Additionally, the error handling during the processing of views is stricter and will fail if a view definition contains errors, e.g. broken binding strings.
 
 
 The following properties are deprecated and no longer needed if you use the descriptor:

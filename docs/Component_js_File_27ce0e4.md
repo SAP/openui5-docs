@@ -23,6 +23,9 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 
 	var Component = UIComponent.extend(*HIGHLIGHT START*"samples.components.sample.Component"*HIGHLIGHT END*, {
 		metadata : {
+			interfaces: [
+				"sap.ui.core.IAsyncContentCreation" 
+			],
 			manifest : "json"
 		}
 	});
@@ -33,6 +36,8 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 The metadata of the component controller should be used to declare the runtime metadata only \(which are the properties, aggregations, associations and events\).
 
 We recommend to define the component metadata externally in the descriptor \(`manifest.json`\), because the descriptor for components is mandatory for modern components and allows performance optimizations.
+
+We recommend to add the `sap.ui.core.IAsyncContentCreation` marker interface when defining a new component. Using this interface allows the component to be created fully asynchronously. This interface will implicitly set the component's `rootView` and router configuration to `async`. Nested views will also be handled asynchronously. Additionally, the error handling during the processing of views is stricter and will fail if a view definition contains errors, e.g. broken binding strings.
 
 -   **[Component Metadata](Component_Metadata_0187ea5.md "The component class provides specific metadata for components by extending the
 			ManagedObject class. The UIComponent class provides

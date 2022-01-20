@@ -498,9 +498,9 @@ For all approaches, the corresponding APIs take a `groupId` that specifies a bat
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_xdj_4tx_gsb"/>
 
-### [`ODataModel#createEntry`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry)`ODataModel#createEntry`
+### ODataModel\#createEntry
 
-Creates an entry and returns a [context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context) corresponding to it. Use this approach in the following cases:
+[`ODataModel#createEntry`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) creates an entry and returns a [context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context) corresponding to it. Use this approach in the following cases:
 
 -   You have a form or popup where the end user can view and modify the data of the new entry, but there is no table or list control where the entry should appear.
 
@@ -571,9 +571,9 @@ The optional `inactive` parameter determines whether an **inactive** transient c
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_qyp_stx_gsb"/>
 
-### [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/create)
+### ODataListBinding\#create
 
-Creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
+[`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/create) creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
 
 Use this approach if you have a list or table control showing the collection of entries and one of the following conditions applies:
 
@@ -641,9 +641,9 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
 
-### [`ODataModel#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/create)
+### ODataModel\#create
 
-Triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
+[`ODataModel#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/create) triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
 
 Use this approach only if you just want to send a creation request to the back end and do not want to bind the created entry on the UI. In all other cases, use the APIs described above.
 
