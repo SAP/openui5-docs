@@ -14,6 +14,66 @@ With this release OpenUI5 is upgraded from version 1.97 to 1.98.
 
 ***
 
+<a name="loio7aacb4e107c44c90b5b0dd97fcb1f333__section_vvy_452_rrb"/>
+
+### Preview and Announcements
+
+The following information concerns important upcoming changes. UI changes may have an impact on the user experience and may require test cases to be adapted.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Type
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Available as of OpenUI5 Version
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+**Reminder: Outdated Versions to Be Removed from the CDN**
+
+For security reasons, versions that are no longer maintained will be removed from the UI5 content delivery network \(CDN\) one year after their end of maintenance. If a version is still in maintenance, patches of that version that are older than one year will also be removed. We have noted that a number of customers are still using such outdated versions or patches. If this affects you, please note that once these versions or patches are removed, your applications will break. Please update to a more recent version or patch. For more information, see: [Removing Outdated UI5 Versions from UI5 CDN](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/) as well as the UI5 notifications in the Demo Kit.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+</tr>
+</table>
+
+***
+
 <a name="loio7aacb4e107c44c90b5b0dd97fcb1f333__section_qwl_pb5_zcb"/>
 
 ### Improved Features
@@ -141,7 +201,7 @@ You can now display an avatar in your list instead of an image or icon. We have 
 
 We have made personalization within a table or list more reusable. Different panels with reusable content for the various types of personalization are now available for freestyle use in your application.
 
-The following panels are available:
+The following panels are available \(as experimental APIs\):
 
 -   `sap.m.p13n.SelectionPanel`
 
@@ -156,7 +216,7 @@ The following panels are available:
     Defines a number of properties that allow you to group your data.
 
 
-The panels are aggregated to `sap.m.p13n.Popup`, which serves as a container for all the panels.
+The panels are aggregated to `sap.m.p13n.Popup` \(experimental\), which serves as a container for all the panels.
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.p13n) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup).
 
@@ -200,16 +260,6 @@ For the `uploadCompleted` event, an additional JSON response object is now passe
 -   We have added support for more HTTP request methods. Together with GET and POST, Integration cards now also support PUT, PATCH, DELETE, OPTIONS, and HEAD methods. For more information, see the [Data Handling](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/data) section in the Card Explorer.
 
 -   Object cards are \(experimentally\) enhanced with new item types and a new attribute. The new item types are `NumericData`, which shows some KPIs, and `Status`. The new attribute is `maxLines` - it represents the maximum number of lines the text can take. For more information, see the [Object Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/object) section, the [To Do Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/todoCard) sample, and [Additional Object Details](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/additionalObjectDetails) sample in the Card Explorer.
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**`sap.ui.integration.widgets.Card`**
 
 -   We have updated the `sap.ui.integration.widgets.Card` of type Adaptive with the new 1.01 version of UI5 Web Components. For more information, see the [Adaptive Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/adaptive) section in the Card Explorer.
 -   We have updated the `sap.ui.integration.widgets.Card` of type Adaptive to support the newest templating and markdown features available for Microsoft Adaptive Cards, by getting the latest versions of `adaptivecards-templating`, `adaptive-expressions`, and `markdown-it`. Due to changes in the templating syntax, developers should adapt their applications when they switch to version 1.98. For more information, see the [Adaptive Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/adaptive) section and the [Templating](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/adaptive/templating) and [Markdown](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/adaptive/markdown) Samples in the Card Explorer. 
@@ -255,7 +305,14 @@ The following entities have been deprecated and replaced with the new personaliz
 -   `sap.m.P13nGroupPanel`
 
 
- For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated).
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
 
 
 

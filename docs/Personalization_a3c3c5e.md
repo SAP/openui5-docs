@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing table content, such as selecting columns and adapting their order.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.p13n) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.p13n.Popup).
+For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.p13n) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup).
 
 ***
 
@@ -30,7 +30,7 @@ The following panels are available in the `sap.m.p13n.Popup` control:
 
 -   `sap.m.p13n.SelectionPanel`
 
-    Defines a number of custom properties that allow you to select and deselect fields as columns in your table, for example, and change their order. You can also search for and toggle between selected and deselected fields.
+    Defines a number of custom properties that allow you to select and deselect fields as columns in your table, for example, and to change their order. You can also search for and toggle between selected and deselected fields.
 
 -   `sap.m.p13n.SortPanel`
 
