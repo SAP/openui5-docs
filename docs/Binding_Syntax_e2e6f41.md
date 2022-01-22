@@ -89,7 +89,7 @@ For more information, see [Composite Binding](Composite_Binding_a2fe8e7.md) and 
 Expression binding is a simple way to calculate values directly in the view. For example, if you want to change the color of the price depending on whether it is above or below some threshold. With expression binding you don't have to declare a separate formatter:
 
 ``` xml
-<ObjectStatus state=="{= ${products>UnitPrice}  > ${/priceThreshold} ? 'Error' : 'Success' }"/>
+<ObjectStatus state="{= ${products>UnitPrice}  > ${/priceThreshold} ? 'Error' : 'Success' }"/>
 ```
 
 For more information, see [Expression Binding](Expression_Binding_daf6852.md).
