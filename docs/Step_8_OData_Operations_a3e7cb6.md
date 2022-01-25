@@ -127,10 +127,16 @@ We add the missing texts to the properties file.
 
 And now we are done! We built a simple application with user data from an OData V4 service. We can display, edit, create, and delete users. And we use OData V4 features such as batch groups and automatic type detection.
 
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Next:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+
+**Previous:** [Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
+
 **Related Information**  
 
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[OData Operations](OData_Operations_b54f789.md)
+[OData Operations](OData_Operations_b54f789.md "The OData V4 model supports OData operations (ActionImport, FunctionImport, bound Actions and bound Functions). Unbound parameters are limited to primitive values.")
 

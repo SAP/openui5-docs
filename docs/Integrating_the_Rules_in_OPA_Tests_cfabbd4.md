@@ -32,6 +32,7 @@ The Support Assistant can be used in OPA tests to check if there are issues in t
         > ### Note:  
         > If types *subtree* or *components* are selected, the `selectors` property should also be set to define the IDs of the subtree/components.
 
+
 -   `getFinalReport` - If there are issues found, the assertion fails and a report is created as part of the message of that assertion.
 
 -   `getReportAsFileInFormat` - Collects the past history analysis and stores it in `window._$files` array for further usage. The main purpose of this assertion is to allow the OPA extension to serve the history to external services like Jenkins job or other services so that the data can be stored on the filesystem.
@@ -55,6 +56,7 @@ This special URL parameter could be used temporarily in cases when you extend an
     -   `extensions` - You need to include the Support Assistant OPA extension path \(`sap/ui/core/support/RuleEngineOpaExtension`\).
 
     -   `appParams` - You need to add `sap-ui-support` with a value of `true,silent`. This will start the application in support mode and will start the Support Assistant in silent mode \(without UI\).
+
 
     The configuration file will look like this:
 
@@ -82,6 +84,7 @@ This special URL parameter could be used temporarily in cases when you extend an
     -   `iShouldSeeNoHighSeverityErrors` - This assertion calls `noRuleFailures` with a few parameters set, as you can see in the example code below. It checks for high issues and ignores medium and low. The rules checked are `preloadAsyncCheck`, `orphanedElement`, `deprecatedEntities` and the scope is set to *global*.
 
     -   `iShouldGetSupportRuleReport`- This assertion calls `getFinalReport` and if there are any issues after all the analysis, it fails and a report is created as part of the message.
+
 
     The configuration file should look like this:
 
@@ -151,9 +154,9 @@ This special URL parameter could be used temporarily in cases when you extend an
 **Related Information**  
 
 
-[Execution Scope](Execution_Scope_e15067d.md)
+[Execution Scope](Execution_Scope_e15067d.md "OpenUI5 apps consist of multiple views, components and fragments. If you run the rules on the complete app with all loaded elements and components, you may not get the desired results. Therefore, the Support Assistant allows you to change the scope of an analysis run and thus narrow down your result set. This helps you focus on specific issues, components or controls within your app.")
 
-[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md)
+[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
 [Samples: `Running OPA tests with Support Assistant checks`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.OpaWithSupportAssistant/preview)
 

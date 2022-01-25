@@ -203,6 +203,7 @@ Start a screen reader, start the application, walk through the application using
 
     -   Actively check that all visible UI elements are read.
 
+
 -   Is it read correctly?
 
     -   No duplicates?
@@ -211,6 +212,10 @@ Start a screen reader, start the application, walk through the application using
 
     -   No nonsense, wrong values, another element’s attributes?
 
+
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 
+
+-   **[Control-Specific Behavior](Control_Specific_Behavior_c165edc.md "Screen readers need to handle OpenUI5 controls with similar functionality in a similar way. Still there are differences, and application developers need to know them, in order to use the correct control for the desired task.   ")**  
+Screen readers need to handle OpenUI5 controls with similar functionality in a similar way. Still there are differences, and application developers need to know them, in order to use the correct control for the desired task.
 

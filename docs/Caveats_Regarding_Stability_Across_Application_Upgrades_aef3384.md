@@ -24,6 +24,7 @@ Many possible reasons exist that modifications can not be applied any longer or 
 
     -   However, a view modification is simply ignored and will never lead to a crash.
 
+
 -   View extensions \(added content in extension points\)
 
     -   If the extension point is removed or renamed or in an area or container which is invisible under certain conditions, the view extension will no longer be applied.
@@ -36,11 +37,13 @@ Many possible reasons exist that modifications can not be applied any longer or 
 
     -   If custom code relies on the presence of the extensions, the view extension may break the application.
 
+
 -   View replacements
 
     -   If the original view name is changed or the view is no longer used, view replacements will no longer be applied.
 
     -   As long as no other custom code relies on the view to be present, view replacements should not cause a crash.
+
 
 -   Controller extensions
 
@@ -51,6 +54,7 @@ Many possible reasons exist that modifications can not be applied any longer or 
     -   If original code is overwritten which is required for the application to run properly, controller extensions can lead to a crash.
 
     -   If the controller name is changed, controller extensions are no longer applied.
+
 
 -   Other extension types have similar caveats.
 

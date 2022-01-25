@@ -72,12 +72,36 @@ In our template, we use a simple layout that you can use as a basis for enhancem
 
 You can find more information about the possibilities of object pages at [SAP Fiori Design Guidelines - Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
+-   **[Navigation](Navigation_106d2e9.md "The navigation flow of the Worklist app is very simple as it only contains two main
+		views and the not found pages that are displayed as a message to the
+		user in case of navigation errors.")**  
+The navigation flow of the Worklist app is very simple as it only contains two main views and the *not found* pages that are displayed as a message to the user in case of navigation errors.
+-   **[Busy Indication](Busy_Indication_5cb1169.md "The Worklist app implements a busy indication concept as specified by the SAP Fiori
+		Design Guidelines.")**  
+The Worklist app implements a busy indication concept as specified by the SAP Fiori Design Guidelines.
+-   **[Model Instantiation](Model_Instantiation_c2f4684.md "The app configures several data models that are used throughout the app to update the
+		views or to store additional configuration options.")**  
+The app configures several data models that are used throughout the app to update the views or to store additional configuration options.
+-   **[Send Email](Send_Email_af1db3c.md "The Send Email feature is a sharing option that can be found in
+		the share menu of each view.")**  
+The **Send Email** feature is a sharing option that can be found in the share menu of each view.
+-   **[Testing](Testing_7bd4e6e.md "The templates include basic testing features, unit tests as well as integration tests
+		for a basic test coverage of the initial app. The tests are written independently of the
+		actual data displayed in the app.")**  
+The templates include basic testing features, unit tests as well as integration tests for a basic test coverage of the initial app. The tests are written independently of the actual data displayed in the app.
+-   **[Device Adaptation](Device_Adaptation_979f571.md "The following section outlines the best practices for ensuring your worklist apps adapt
+		to different kinds of devices in the best way possible.")**  
+The following section outlines the best practices for ensuring your worklist apps adapt to different kinds of devices in the best way possible.
+-   **[Stable IDs](Stable_IDs_03b2007.md "Setting stable IDs is crucial if your app is used in
+		combination with certain functions.")**  
+Setting stable IDs is crucial if your app is used in combination with certain functions.
+
 **Related Information**  
 
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 
-[Development Environment](Development_Environment_7bb04e0.md)
+[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 
-[Worklist App](Worklist_App_6a6a621.md)
+[Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 

@@ -131,10 +131,16 @@ In the XML view, we use data binding to connect the button text to the `showHell
 -   Use Unicode escape sequences for special characters.
 
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
+
+**Previous:** [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
+
 **Related Information**  
 
 
-[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.")
 
 [API Reference: `sap/base/i18n/ResourceBundle`](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
 

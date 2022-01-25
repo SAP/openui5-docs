@@ -87,3 +87,22 @@ The `doSomeStandardAction` method remains available without changes, as no metho
 
 The `doSomeCustomAction` method is additionally available and you can use it, for example, in a view extension.
 
+-   **[Example: Component Configuration](Example_Component_Configuration_08608ef.md "The component configuration contains the information about the extension metadata and
+        the objects that are replaced or extended in the custom view or control.")**  
+The component configuration contains the information about the extension metadata and the objects that are replaced or extended in the custom view or control.
+-   **[Providing Hooks in the Standard Controller](Providing_Hooks_in_the_Standard_Controller_8fbf4e7.md "Hooks are extension points in the controller code that are used to make controller
+		extensions more stable.")**  
+Hooks are extension points in the controller code that are used to make controller extensions more stable.
+-   **[View Extension](View_Extension_403c050.md "OpenUI5 uses extension
+        points for extending standard views with custom content. The assignment of a custom view to
+        an extension point is done in component customizing.")**  
+OpenUI5 uses extension points for extending standard views with custom content. The assignment of a custom view to an extension point is done in component customizing.
+-   **[View Modification](View_Modification_aa93e1c.md "For modifying views, control properties of standard views can be changed.")**  
+For modifying views, control properties of standard views can be changed.
+-   **[View Replacement](View_Replacement_98861cf.md "Views of a delivered standard application can be replaced to adapt the application to
+		the customer needs.")**  
+Views of a delivered standard application can be replaced to adapt the application to the customer needs.
+-   **[Controller Replacement](Controller_Replacement_b0b14bf.md "Standard controller can be replaced by specifying a new controller name in a replacement
+		View and implementing this Controller.")**  
+Standard controller can be replaced by specifying a new controller name in a replacement View and implementing this Controller.
+

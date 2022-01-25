@@ -34,63 +34,63 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Platform
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Device Category
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Platform Version
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Safari
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Web View
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Microsoft Edge \(Chromium\)<sup>2</sup>
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Google Chrome
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Mozilla Firefox
 
 
 
 </th>
-<th>
+<th valign="top">
 
 SAP Fiori Client
 
@@ -99,63 +99,63 @@ SAP Fiori Client
 </th>
 </tr>
 <tr>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 Windows<sup>1</sup>
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Desktop
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Windows 8.1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Latest version
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 Latest version
 
 
 
 </td>
-<td rowspan="3">
+<td valign="top" rowspan="3">
 
 Latest version and latest Extended Support Release \(ESR\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -164,28 +164,28 @@ Latest version and latest Extended Support Release \(ESR\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Windows 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -194,49 +194,49 @@ Latest version
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Touch<sup>3</sup>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Windows 10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
@@ -245,63 +245,63 @@ Latest version
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 macOS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Desktop
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest 2 versions
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest 2 versions
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version<sup>3</sup>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -310,63 +310,63 @@ Latest version<sup>3</sup>
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 iOS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone and Tablet<sup>3</sup>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest 2 versions
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest 2 versions
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
@@ -375,63 +375,63 @@ Latest version
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Android
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Phone and Tablet<sup>3</sup>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 As of version 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Latest version
 
@@ -469,21 +469,21 @@ When creating support incidents, make sure that the device you refer to belongs 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Platform
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Device
 
 
 
 </th>
-<th>
+<th valign="top">
 
 End of Support Date
 
@@ -492,7 +492,7 @@ End of Support Date
 </th>
 </tr>
 <tr>
-<td rowspan="13">
+<td valign="top" rowspan="13">
 
 iOS
 
@@ -501,14 +501,14 @@ SAP always supports the 2 latest releases of the iOS operating system, not excee
 
 
 </td>
-<td>
+<td valign="top">
 
 Apple iPhone XS
 
 
 
 </td>
-<td>
+<td valign="top">
 
 September 2021
 
@@ -517,14 +517,14 @@ September 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPhone XR
 
 
 
 </td>
-<td>
+<td valign="top">
 
 October 2021
 
@@ -533,14 +533,14 @@ October 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPhone 11
 
 
 
 </td>
-<td>
+<td valign="top">
 
 September 2022
 
@@ -549,14 +549,14 @@ September 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPhone SE \(2nd\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 April 2023
 
@@ -565,14 +565,14 @@ April 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPhone 12
 
 
 
 </td>
-<td>
+<td valign="top">
 
 October 2023
 
@@ -581,14 +581,14 @@ October 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad \(6th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2021
 
@@ -597,14 +597,14 @@ March 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad Pro \(3rd\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 October 2021
 
@@ -613,14 +613,14 @@ October 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad Air \(3rd\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2022
 
@@ -629,14 +629,14 @@ March 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad Mini \(5th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2022
 
@@ -645,14 +645,14 @@ March 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad \(7th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 September 2022
 
@@ -661,14 +661,14 @@ September 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad Pro \(4th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2023
 
@@ -677,14 +677,14 @@ March 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad \(8th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 September 2023
 
@@ -693,14 +693,14 @@ September 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Apple iPad Air \(4th\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 October 2023
 
@@ -709,7 +709,7 @@ October 2023
 </td>
 </tr>
 <tr>
-<td rowspan="8">
+<td valign="top" rowspan="8">
 
 Android
 
@@ -718,14 +718,14 @@ Android OS based devices are very fragmented in matters of operating system vari
 
 
 </td>
-<td>
+<td valign="top">
 
 Samsung Galaxy S9
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2021
 
@@ -734,14 +734,14 @@ March 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy S10
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2022
 
@@ -750,14 +750,14 @@ March 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy S20
 
 
 
 </td>
-<td>
+<td valign="top">
 
 March 2023
 
@@ -766,14 +766,14 @@ March 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy Tab S4
 
 
 
 </td>
-<td>
+<td valign="top">
 
 August 2021
 
@@ -782,14 +782,14 @@ August 2021
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy Tab S5e
 
 
 
 </td>
-<td>
+<td valign="top">
 
 April 2022
 
@@ -798,14 +798,14 @@ April 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy Tab S6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 August 2022
 
@@ -814,14 +814,14 @@ August 2022
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy Tab S6 Lite
 
 
 
 </td>
-<td>
+<td valign="top">
 
 July 2023
 
@@ -830,14 +830,14 @@ July 2023
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Samsung Galaxy Tab S7
 
 
 
 </td>
-<td>
+<td valign="top">
 
 August 2023
 
@@ -846,4 +846,11 @@ August 2023
 </td>
 </tr>
 </table>
+
+-   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
+		certain libraries.")**  
+Depending on the combination of device and browser, visual degradations may occur in certain libraries.
+-   **[Keyboard Shortcuts for OpenUI5 Tools](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md "OpenUI5 provides tools for information, diagnostics and testing purposes that
+		are accessible via keyboard shortcuts.")**  
+OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
 

@@ -18,3 +18,4 @@ When using the Application Cache Buster mechanism, the first request must never 
 2.  http://myserver/myapp/~201106210204~/mvc/MyMVC.view.js ⇒ **CACHE** 
     -   http://myserver/myapp/mvc/MyMVC.view.js ⇒ *internally resolve to this URL* 
 
+

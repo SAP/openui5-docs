@@ -26,6 +26,7 @@ There are several options for labeling:
 
     -   Multiple references are not possible
 
+
     > ### Example:  
     > `<Label text="Product price" required="true" **labelFor="productPriceInput"**/>`
 
@@ -37,6 +38,7 @@ There are several options for labeling:
 
     -   Only indirect support for multiple texts
 
+
 3.  The `aria-labelledBy` attribute
 
     -   Whitespace separated list of ID references to controls
@@ -46,11 +48,12 @@ There are several options for labeling:
     -   Explicitly designed for multiple references
 
 
+
 > ### Caution:  
 > The different options cannot be used in conjunction. There is a precedence rule, which determines how the labeling attributes are prioritized and read by the screen reader. As an application developer, you need to be aware of the order in which the labeling is read by your screen reader.
 
 **Related Information**  
 
 
-[Best Practices for ARIA Labeling](Best_Practices_for_ARIA_Labeling_3169195.md)
+[Best Practices for ARIA Labeling](Best_Practices_for_ARIA_Labeling_3169195.md "Sometimes the UI and the control usage may not allow standard ARIA labeling. Here we introduce some best practices on handling the labels in these cases.")
 

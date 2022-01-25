@@ -19,14 +19,14 @@ The OpenUI5 framework by default uses synchronous requests internally in several
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Legacy, synchronous API
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Modern API
 
@@ -35,7 +35,7 @@ Modern API
 </th>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Declarative App Description
 
@@ -44,7 +44,7 @@ Declarative App Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -59,7 +59,7 @@ sap.ui.component({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -80,7 +80,7 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Components - Some API still experimental
 
@@ -89,7 +89,7 @@ Components - Some API still experimental
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -104,7 +104,7 @@ var oComponentInstance = sap.ui.component({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -139,7 +139,7 @@ createContent: function() {
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -154,7 +154,7 @@ var oComponentClass = sap.ui.component.load({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -179,7 +179,7 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 var oComponentInstance = sap.ui.component("my-comp-id");
@@ -188,7 +188,7 @@ var oComponentInstance = sap.ui.component("my-comp-id");
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -207,7 +207,7 @@ sap.ui.require(['sap/ui/core/Component'], function(Component){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 i18n texts
 
@@ -216,7 +216,7 @@ i18n texts
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -231,7 +231,7 @@ jQuery.sap.resources({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -253,7 +253,7 @@ sap.ui.require(['sap/base/i18n/ResourceBundle'], function(Resource){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Views
 
@@ -262,7 +262,7 @@ Views
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -279,7 +279,7 @@ var oView = sap.ui.view({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -300,7 +300,7 @@ sap.ui.require(['sap/ui/core/mvc/View'], function(View){
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -315,7 +315,7 @@ var oView = sap.ui.xmlview({
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -334,7 +334,7 @@ sap.ui.require(['sap/ui/core/mvc/XMLView'], function(XMLView){
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -349,7 +349,7 @@ var oView = sap.ui.jsview({
 
 
 </td>
-<td>
+<td valign="top">
 
 For defining views, use `View.extend`. For loading and creating a view instance, use `View.create`.
 
@@ -399,7 +399,7 @@ sap.ui.require(['sap/ui/core/mvc/View'], function(View){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Controllers
 
@@ -408,7 +408,7 @@ Controllers
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 var oController = sap.ui.controller({ ... });
@@ -417,7 +417,7 @@ var oController = sap.ui.controller({ ... });
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -436,7 +436,7 @@ sap.ui.require(['sap/ui/core/mvc/Controller'], function(Controller){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Extension Points
 
@@ -445,7 +445,7 @@ Extension Points
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 var aControls = sap.ui.extensionpoint( ... );
@@ -454,7 +454,7 @@ var aControls = sap.ui.extensionpoint( ... );
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -473,7 +473,7 @@ sap.ui.require(['sap/ui/core/ExtensionPoint'], function(ExtensionPoint){
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Fragments
 
@@ -482,7 +482,7 @@ Fragments
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -499,7 +499,27 @@ var aControls = sap.ui.fragment({
 
 
 </td>
-<td>
+<td valign="top">
+
+If you're instantiating your fragment in a controller which extends `sap.ui.core.mvc.Controller`, you can use the `loadFragment` function:
+
+```
+
+sap.ui.define(['sap/ui/core/mvc/Controller'], function(Controller){
+
+    return Controller.extend("my.MyController", {
+
+        onInit: function(){
+            this.loadFragment({
+                name: "my.fragment"
+            }).then(function(aControls) { ... });
+        }
+        
+    });
+});
+```
+
+If you're instantiating your fragment outside a controller, you can use the static `Fragment.load` function:
 
 ```
 
@@ -516,16 +536,16 @@ sap.ui.require(['sap/ui/core/Fragment'], function(Fragment){
 ```
 
 > ### Caution:  
-> Please make sure that you are correctly chaining to the `Fragment.load` Promise!
+> Please make sure that you are correctly chaining to the `loadFragment` or `Fragment.load` Promise!
 > 
-> Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` before the `Fragment.load` Promise is resolved will result in `undefined`.
+> Calling `sap.ui.getCore().byId("...")` or `oController.byId("...")` will result in `undefined` if called before the `loadFragment` or `Fragment.load` Promise is resolved.
 
 
 
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td valign="top" colspan="2">
 
 Version Info
 
@@ -534,7 +554,7 @@ Version Info
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 var oVersionInfo = sap.ui.getVersionInfo();
@@ -543,7 +563,7 @@ var oVersionInfo = sap.ui.getVersionInfo();
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 

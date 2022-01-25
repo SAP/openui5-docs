@@ -47,21 +47,21 @@ Up to version 1.52, only `sap.uxap.ObjectPageHeader` could have been used to bui
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header area
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.uxap.ObjectPageLayout` aggregation
 
 
 
 </th>
-<th>
+<th valign="top">
 
 App must provide:
 
@@ -70,21 +70,21 @@ App must provide:
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Header Title
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `headerTitle` \(0..1\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An instance of the `sap.uxap.ObjectPageHeader` control
 
@@ -93,21 +93,21 @@ An instance of the `sap.uxap.ObjectPageHeader` control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Header Content
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `headerContent` \(0..n\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array of arbitrary controls.
 
@@ -133,21 +133,21 @@ As of version 1.52, a new `sap.uxap.ObjectPageDynamicHeaderTitle` control can be
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Header Area
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.uxap.ObjectPageLayout` aggregation
 
 
 
 </th>
-<th>
+<th valign="top">
 
 App Must Provide:
 
@@ -156,21 +156,21 @@ App Must Provide:
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Header Title
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `headerTitle` \(0..1\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An instance of the `sap.uxap.ObjectPageDynamicHeaderTitle` control
 
@@ -179,21 +179,21 @@ An instance of the `sap.uxap.ObjectPageDynamicHeaderTitle` control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Header Content
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `headerContent` \(0..n\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array of arbitrary controls.
 
@@ -207,6 +207,16 @@ An array of arbitrary controls.
 </table>
 
 Again, the app provides an instance of `sap.uxap.ObjectPageDynamicHeaderTitle` as the value of the `headerTitle` aggregation and a list of controls for the `headerContent` aggregation \(`sap.uxap.ObjectPageLayout` uses internally `sap.uxap.ObjectPageDynamicHeaderContent` to lay out the controls\).
+
+-   **[Object Page Classic Header](Object_Page_Classic_Header_0fecbce.md "Overview of the structure and features for sap.uxap.ObjectPageLayout's
+		classic header.")**  
+Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s classic header.
+-   **[Object Page Dynamic Header](Object_Page_Dynamic_Header_6e340c1.md "Overview of the structure and features for
+		sap.uxap.ObjectPageLayout's dynamic header.")**  
+Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s dynamic header.
+-   **[Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md "This section explains the differences and similarities between the two types of header
+		of the sap.uxap.ObjectPageLayout control.")**  
+This section explains the differences and similarities between the two types of header of the `sap.uxap.ObjectPageLayout` control.
 
 **Related Information**  
 

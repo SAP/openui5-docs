@@ -19,12 +19,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     ```json
     
     {
-        "_version": "1.1.0",
+        "_version": "1.35.0",
     	
     	"start_url": "<startUrl>",
     	
         "sap.app": {
-            "_version": "1.1.0",
             "id": "<id>",
             "type": "application",
             "i18n": "<i18nPathRelativeToManifest>",
@@ -47,7 +46,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             }
         },
         "sap.ui": {
-            "_version": "1.1.0",
             "icons": {
                 "icon": "<icon>",
                 "favIcon": "<favIcon>",
@@ -67,13 +65,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             ]
         },
         "sap.ui5": {
-            "_version": "1.1.0",
             "resources": {
-                "js": [
-                    {
-                        "uri": "<uri>"
-                    }
-                ],
                 "css": [
                     {
                         "uri": "<uri>",
@@ -127,11 +119,9 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
         },
     
         "sap.platform.abap": {
-            "_version": "1.1.0",
             "uri": "<uri>"
         },
         "sap.platform.hcp": {
-            "_version": "1.1.0",
             "uri": "<uri>"
         }
     }
@@ -174,11 +164,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Replace the `<version>` placeholder with the `version` value \(`"1.2.6"` in the example above\).
 
+
     **Example: `sap.app/id` and `sap.app/applicationVersion/version` in the `manifest.json` file**:
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...
         "id": "cust.emp.myleaverequests",
         ...
@@ -205,11 +195,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Replace the `<i18nPathRelativeToManifest>` placeholder with the `resourceBundle` value \(`"i18n/i18n.properties"` in the example above\).
 
+
     **Example: `sap.app/i18n` and `sap.app/title` in the `manifest.json` file**
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...
         "i18n": "i18n/i18n.properties",
         ...
@@ -225,7 +215,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ... 
         "tags": {
             "keywords": [
@@ -258,6 +247,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
                 oMockServer.simulate(rootPath + "/model/metadata.xml", rootPath + "/model/");
         ```
 
+
     Return to the `manifest.json` file and do the following:
 
     -   Enter the `name` value in the placeholder for `<dataSourceAlias>`.
@@ -266,11 +256,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Enter the value from the URI of `oMockServer.simulate...` in the `Component.js` file in the placeholder for `<localUri>` to fill the value for the `localUri` attribute.
 
+
     **Example: `dataSources` with alias and URI in the `sap.app` namespace of the `manifest.json` file**
 
     ``` js
     "sap.app": {
-        "_version": "1.1.0",
         ...       
         "dataSources": {
             "LEAVEREQUEST": {
@@ -308,11 +298,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Enter the `homeScreenIconPhone` value in the `<phone>` placeholder. Do the same for the `<phone@2>`, `<tablet>` and `<tablet@2>` placeholders.
 
+
     **Example: `icons` in the `sap.ui` namespace of the `manifest.json` file**
 
     ``` js
     "sap.ui": {
-        "_version": "1.1.0",
         ...
         "icons": {
             "icon": "sap-icon://Fiori2/F0394",
@@ -334,7 +324,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui": {
-        "_version": "1.1.0",
         ...       
         "deviceTypes": {
             "desktop": true,
@@ -363,14 +352,14 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Enter the CSS resource value under `"css"` in the `<uri>` placeholder.
 
-    > ### Caution:  
-    > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
+
+    > ### Note:  
+    > Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
 
     **Example: `resources` attribute in the `sap.ui` namespace in the `manifest.json` file**
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "resources": {
             "js": [
@@ -385,6 +374,9 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
             ]
         },
     ```
+
+    > ### Note:  
+    > The format in the `Component.js` file is an array, whereas the format in the `manifest.json` file is a map.
 
     If your app does not include resources, remove the `resources` section from the `manifest.json` file.
 
@@ -413,7 +405,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "dependencies": {
             "minUI5Version": "1.30",
@@ -465,11 +456,11 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
         Use the same model name as in the `Component.js` file, for example "leave" or "" for the default model. Enter a reference to a data source from `sap.app/dataSource` in the `<dataSourceAlias>` placeholder; if needed, enhance it with more settings for OpenUI5.
 
+
     **Example: Models in the `sap.ui5` namespace in the `manifest.json` file**
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "models": {
             "i18n": {
@@ -510,7 +501,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "rootView": "myRootView",
         "handleValidation": true,
@@ -539,7 +529,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...
         "extends": {
             "component": "hcm.emp.myleaverequests",
@@ -557,7 +546,6 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     "sap.ui5": {
-        "_version": "1.1.0",
         ...       
         "contentDensities": {
             "compact": true,
@@ -641,6 +629,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Remove the `config` section.
 
+
     **Example: `Component.js` after making changes**
 
     ``` js
@@ -689,6 +678,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     -   Change the line for `oMockServer.simulate...` and read the URI from the manifest via your component metadata, for example, `this.getMetadata().getManifestEntry("sap.app")...`
 
+
     **Example: Data source reference in `Component.js` file after making changes**
 
     ``` js
@@ -728,6 +718,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     -   Delete the lines for the data model creation and model setting.
 
 
+
 ***
 
 ### Smoke Test
@@ -742,4 +733,8 @@ To verify that your app works as before, perform checks to make sure the followi
 
 -   Navigation works as before
 
+
+-   **[Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md "Information how to add new attributes of descriptor versions higher than V2 (OpenUI5
+		1.30) to the descriptor file.")**  
+Information how to add new attributes of descriptor versions higher than V2 \(OpenUI5 1.30\) to the descriptor file.
 

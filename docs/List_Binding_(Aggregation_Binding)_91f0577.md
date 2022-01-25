@@ -147,12 +147,25 @@ When a list is unbound, its aggregated controls are removed and destroyed by def
 oComboBox.unbindAggregation("items", true);
 ```
 
+-   **[Using Factory Functions](Using_Factory_Functions_335848a.md "")**  
+
+-   **[Sorting, Grouping, and Filtering for List Binding](Sorting,_Grouping,_and_Filtering_for_List_Binding_ec79a5d.md "")**  
+
+-   **[Displaying a Specific Range of Records in a Control](Displaying_a_Specific_Range_of_Records_in_a_Control_9b5bdd8.md " It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding
+		information.")**  
+ It is possible to display only a specific range of records when using a list binding. The necessary properties can be set in the binding information.
+-   **[Lifecycle of Binding Templates](Lifecycle_of_Binding_Templates_3a4a9e5.md "")**  
+
+-   **[Extended Change Detection](Extended_Change_Detection_7cdff73.md "Extended change detection (ECD) offers fine-grained information on the actual data changes. This can be used, for example, to only update
+		the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.")**  
+Extended change detection \(ECD\) offers fine-grained information on the actual data changes. This can be used, for example, to only update the DOM when really necessary and avoid complete rerendering of a huge list whenever data is changed.
+
 **Related Information**  
 
 
-[Tutorial Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md)
+[Tutorial Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
 
-[Binding Syntax](Binding_Syntax_e2e6f41.md)
+[Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 
-[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)
+[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 

@@ -32,11 +32,11 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 > 
 > You can view and download the files for all steps in the Demo Kit at [Mock Server](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.mockserver/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
-> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\):
+> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
 > 
-> -   [Downloading Code for a Tutorial Step](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
+> -   [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
 > 
-> -   [Adapting Code to Your Development Environment](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> -   [Adapting Code to Your Development Environment](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
 
 ***
 
@@ -46,8 +46,21 @@ This tutorial assumes you have access to the SAP Web IDE either by having a tria
 
 You should also be familiar with the concepts explained in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial and with the OData specification.
 
+1.  [Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md "We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on
+		a real server, we will use the mock server to simulate both data and data calls. ")  
+We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.
+2.  [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")  
+In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.
+3.  [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock
+		server configuration.")  
+In this step, we add the functionality to interpret URL parameters in our local mock server configuration.
+4.  [Step 4: Calling a Function Import](Step_4_Calling_a_Function_Import_95e5b87.md "We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that
+		calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do
+		the calculation locally for testing purposes.")  
+We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.
+
 **Related Information**  
 
 
-[Mock Server](Mock_Server_69d3cbd.md)
+[Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 

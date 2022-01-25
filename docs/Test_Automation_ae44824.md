@@ -19,17 +19,17 @@ In the following section, we describe the setup with *Karma*, but you can of cou
 **Related Information**  
 
 
-[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md)
+[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md "This section describes the setup of a development project where multiple developers work together on the same code.")
 
 [*Karma* Home Page](https://karma-runner.github.io/)
 
 [`karma-ui5` on GitHub](https://github.com/SAP/karma-openui5/)
 
- <a name="loioae448243822448d8ba04b4784f4b09a0 loioa182676ed3714bd5b4f011eb29076f6c__loioa182676ed3714bd5b4f011eb29076f6c"/>
+ <a name="loioa182676ed3714bd5b4f011eb29076f6c"/>
 
 <!-- loioa182676ed3714bd5b4f011eb29076f6c -->
 
-## Installing Karma for Automated Testing
+### Installing Karma for Automated Testing
 
 Initial setup of the application testing environment with Karma.
 
@@ -58,6 +58,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
         ```nocode
         npm init --yes
         ```
+
 
 3.  Install *Karma* locally in your working directory.
 
@@ -126,11 +127,11 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
 [karma-ui5 on GitHub](https://github.com/SAP/karma-openui5)
 
- <a name="loioae448243822448d8ba04b4784f4b09a0 loio8c27b0ab239242c69f181208c9b8fb1d__loio8c27b0ab239242c69f181208c9b8fb1d"/>
+ <a name="loio8c27b0ab239242c69f181208c9b8fb1d"/>
 
 <!-- loio8c27b0ab239242c69f181208c9b8fb1d -->
 
-## Continuous Integration With Headless Chrome
+### Continuous Integration With Headless Chrome
 
 For running tests in CI scenarios, such as Travis CI in GitHub, Headless Chrome needs to be used. Headless Chrome is a Chromium Browser without GUI \(in a headless environment\).
 
@@ -168,15 +169,15 @@ You can launch karma also with a specific config file. It might make sense, for 
 karma start karma-ci.conf.js
 ```
 
- <a name="loioae448243822448d8ba04b4784f4b09a0 loio1851a066b0e34d84ae00f887445239e5__loio1851a066b0e34d84ae00f887445239e5"/>
+ <a name="loio1851a066b0e34d84ae00f887445239e5"/>
 
 <!-- loio1851a066b0e34d84ae00f887445239e5 -->
 
-## Code Coverage
+### Code Coverage
 
 To measure the code coverage, you can use the [*Coverage* plugin](https://github.com/karma-runner/karma-coverage) for *Karma*.
 
-In case your application is started within a frame \(`iStartMyAppInAFrame`\) you need to enable iframe coverage reporting. See the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#configureiframecoverage) for details.
+In case your application is started within a frame \(`iStartMyAppInAFrame`\) you need to enable iFrame coverage reporting. See the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#configureiframecoverage) for details.
 
 For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html). 
 

@@ -24,6 +24,7 @@ The control metadata is defined as follows:
 
     -   `defaultValue`: Default value that is set if the application does not set a value; if no default value is defined, the property value is `undefined`.
 
+
     These control-specific settings are only available when inheriting from a control or one of the base classes `sap.ui.core.Control`, `sap.ui.core.Element`, `sap.ui.base.ManagedObject`, see [Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
 
 -   Events
@@ -62,6 +63,7 @@ The control metadata is defined as follows:
 
     -    `singularName`: For 0..n aggregations, the aggregation name typically is plural, but certain methods are created where the singular form is required \(for example, `addWorksetItem`\} for the "worksetItems" aggregation\).
 
+
     If only the type needs to be set, you can just give it as a string instead of the configuration object.
 
     One example:
@@ -90,4 +92,10 @@ The control metadata is defined as follows:
 
 
 For a brief explanation of the differences between an aggregation and an association, see the *Control Metadata* section under [Working with Controls](Working_with_Controls_91f0a22.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
+
+-   **[Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md "OpenUI5 supports the extension of plain objects that are not elements or
+		controls.")**  
+OpenUI5 supports the extension of plain objects that are not elements or controls.
+-   **[Defining Control Properties](Defining_Control_Properties_ac56d92.md "")**  
+
 

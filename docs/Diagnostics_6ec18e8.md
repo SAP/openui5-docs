@@ -19,11 +19,11 @@ To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_Open
 > ### Note:  
 > Depending on your app, additional features may be available. Check the sections below for more information.
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio452944574e64438fbe07276b3b4d4673__loio452944574e64438fbe07276b3b4d4673"/>
+ <a name="loio452944574e64438fbe07276b3b4d4673"/>
 
 <!-- loio452944574e64438fbe07276b3b4d4673 -->
 
-## Technical Information
+### Technical Information
 
 In this section you can view the technical details of the app and turn on the debug sources. It provides the same features as the Technical Information dialog. Additionally, the Technical Information dialog is available on mobile devices that support multi-touch. For more information, see [Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9).
 
@@ -31,7 +31,7 @@ In addition, you can see the following information:
 
 -   The jQuery version that is loaded from the server. If you want to use a specific jQuery feature, you should check whether the feature is supported in the loaded version.
 
--   The bootstrap configuration, where you can check, for example, the resource root, the theme, or the libraries. The libraries should be listed in the `libs` configuration parameter or in the descriptor file \(recommended\), see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). To improve performance, remove unused libraries and add the libraries that you use and are not yet listed. These libraries are loaded as a preload file. We recommend to also add the `async` configuration option to the bootstrap. This configuration option enables asynchronous loading of modules and preload files and can, thus, further improve performance. For more information, see [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md).
+-   The bootstrap configuration, where you can check, for example, the resource root, the theme, or the libraries. The libraries should be listed in the `libs` configuration parameter or in the descriptor file \(recommended\), see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md). To improve performance, remove unused libraries and add the libraries that you use and are not yet listed. These libraries are loaded as a preload file. We recommend to also add the `async` configuration option to the bootstrap. This configuration option enables asynchronous loading of modules and preload files and can, thus, further improve performance. For more information, see [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md).
 
 -   The computed configuration
 
@@ -50,11 +50,11 @@ In addition, you can see the following information:
     After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a `host name` and a `port number`, and then choosing *Submit*.
 
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio790defe9ff8643bf8629c8567270e290__loio790defe9ff8643bf8629c8567270e290"/>
+ <a name="loio790defe9ff8643bf8629c8567270e290"/>
 
 <!-- loio790defe9ff8643bf8629c8567270e290 -->
 
-## Control Tree
+### Control Tree
 
 The control tree shows all controls that are used in the app. You can select controls either directly in the app by choosing [CTRL\] + [SHIFT\] + [Alt\] and clicking on the control, or by selecting the control in the control tree.
 
@@ -82,17 +82,18 @@ The following functions are available in the dialog:
 
     3.  Open the ZIP archive and extract the files to your file system.
 
+
     If your app does **not** contain views, the content is put in one view in the output. If your app contains views and all views are loaded, the content is output as separate files.
 
     > ### Note:  
     > The conversion captures the runtime status of the app. This can differ from the build declaration.
 
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 copyee6f8f5a976347cb9426bdf5e689bc11__copyee6f8f5a976347cb9426bdf5e689bc11"/>
+ <a name="copyee6f8f5a976347cb9426bdf5e689bc11"/>
 
 <!-- copyee6f8f5a976347cb9426bdf5e689bc11 -->
 
-## Breakpoints on the Object Level
+### Breakpoints on the Object Level
 
 In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on the object level.
 
@@ -115,11 +116,11 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 6.  To remove a breakpoint, select the red x.
 
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio7f4327d5aa274efda0c275d091c9d2f9__loio7f4327d5aa274efda0c275d091c9d2f9"/>
+ <a name="loio7f4327d5aa274efda0c275d091c9d2f9"/>
 
 <!-- loio7f4327d5aa274efda0c275d091c9d2f9 -->
 
-## Debugging
+### Debugging
 
 The *Diagnostics* window provides you with the following features that help you when debugging your app:
 
@@ -128,11 +129,11 @@ The *Diagnostics* window provides you with the following features that help you 
 -   You can set breakpoints for methods on class level.
 
 
-<a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 copyf96072c32f20456b9d20da049800b515__copyf96072c32f20456b9d20da049800b515"/>
+<a name="copyf96072c32f20456b9d20da049800b515"/>
 
 <!-- copyf96072c32f20456b9d20da049800b515 -->
 
-## Switching the OpenUI5 Version
+### Switching the OpenUI5 Version
 
 ***
 
@@ -148,11 +149,11 @@ This feature can be used to test an application against a newer or older version
 
 ![](loio64d3bfdd0f784ae68030208523452899_LowRes.png)
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 copy75d0c576f8e04a6aa3067ede31ebf8d4__copy75d0c576f8e04a6aa3067ede31ebf8d4"/>
+ <a name="copy75d0c576f8e04a6aa3067ede31ebf8d4"/>
 
 <!-- copy75d0c576f8e04a6aa3067ede31ebf8d4 -->
 
-## Breakpoints on the Class Level
+### Breakpoints on the Class Level
 
 In the *Debugging* section of the *Diagnostics* window, you can set breakpoints on the class level.
 
@@ -181,11 +182,11 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 6.  To remove a breakpoint, select the red x.
 
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio1ecb6b9f3d044e7d8f5136447bd6d39e__loio1ecb6b9f3d044e7d8f5136447bd6d39e"/>
+ <a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e"/>
 
 <!-- loio1ecb6b9f3d044e7d8f5136447bd6d39e -->
 
-## XML View and Templating Support Tools
+### XML View and Templating Support Tools
 
 This section of *Diagnostics* shows the code of the loaded XML view exactly as you would see it in your development environment. This way, you can check and test your XML code without the need to switch environments. If your app is connected to a remote service or a back-end system, you can also view the XML metadata.
 
@@ -193,21 +194,21 @@ Before you can use this feature, restart your app in Support Mode \(with the `sa
 
 ***
 
-<a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_frx_c2w_r1b"/>
+<a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_frx_c2w_r1b"/>
 
 ### XML Metadata
 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 You can display XML metadata by expanding the related nodes in the tree. This helps you to better understand how the data is stored in the back end and which properties it has. This is especially important when investigating binding issues.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio449fff480c114f278f2aefcdf3fb6c09_LowRes.png)
 
@@ -221,14 +222,14 @@ XML metadata of a service with three main entity sets: `Product`, `ProductCatego
 
 ***
 
-<a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_yy3_k2w_r1b"/>
+<a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e__section_yy3_k2w_r1b"/>
 
 ### XML Code
 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 When you expand an XML view in the tree, you can display the XML code.
 
@@ -242,13 +243,14 @@ You can choose the following options for this view:
 
         If no stable ID is defined in the view, the ID tag is empty \(`id=" "`\), if there is an ID, the value is set to `true` \(`id="true"`\).
 
+
 -   You can show or hide the namespaces to improve readability of the code.
 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loioe95cf067be054a2591e979a5047e7322_LowRes.png)
 
@@ -257,7 +259,7 @@ You can choose the following options for this view:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 When you select a control in the code, the following information is displayed:
 
@@ -278,7 +280,7 @@ When you select a control in the code, the following information is displayed:
 
 
 </td>
-<td>
+<td valign="top">
 
 ![](loio8b3a0c29ca8b42ee847bfcf739bcfd56_LowRes.png)
 
@@ -288,11 +290,11 @@ When you select a control in the code, the following information is displayed:
 </tr>
 </table>
 
- <a name="loio6ec18e80b0ce47f290bc2645b0cc86e6 loio2e698c47a18e4303af9c6e59b6dd69b5__loio2e698c47a18e4303af9c6e59b6dd69b5"/>
+ <a name="loio2e698c47a18e4303af9c6e59b6dd69b5"/>
 
 <!-- loio2e698c47a18e4303af9c6e59b6dd69b5 -->
 
-## Visualizing User Interaction
+### Visualizing User Interaction
 
 With this feature, you can collect and visualize the performance data collected for the interaction steps in an easy and intuitive way. In addition, you can enable statistics for OData calls that give you information about the app processing time taken by the OData back end.
 
@@ -309,6 +311,7 @@ You can start the interaction data collection in the following ways:
     -   To measure the initial loading of the app, add the query string parameter `sap-ui-xx-fesr=true` at the end of the application URL and reload.
 
     -   To measure the interaction performance, choose *Start recording* from the *Interaction* panel and then switch back to the app to do the steps that you want to record. Each user activity, such as clicking buttons or list items or scrolling a list, triggers an interaction. The end of an interaction is when the UI is fully updated by the app. The collected data is displayed once you choose *Stop Recording*.
+
 -   You can enable the OData statistics by using query string URL parameter `sap-statistics=true`, or from the UI by selecting *Enable OData Statistics*.
 
 
@@ -342,5 +345,5 @@ You can start the interaction data collection in the following ways:
 **Related Information**  
 
 
-[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md)
+[Interaction Tracking for Performance Measurement](Interaction_Tracking_for_Performance_Measurement_b2825ea.md "You can analyze the performance of your UI5 application by tracking the interaction that is performed on the UI.")
 

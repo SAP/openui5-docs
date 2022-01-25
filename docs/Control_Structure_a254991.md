@@ -22,21 +22,21 @@ The following table respresents how the `FlexibleColumnLayout` roughly relates t
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 API
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Number of Pages Displayed
 
@@ -45,21 +45,21 @@ Number of Pages Displayed
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.NavContainer` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `pages` \(aggregation\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1 page at a time
 
@@ -68,14 +68,14 @@ Number of Pages Displayed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.SplitContainer` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `masterPages` \(aggregation\)
 
@@ -84,7 +84,7 @@ Number of Pages Displayed
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 2 pages at a time \(2 instances of `NavContainer`\)
 
@@ -93,14 +93,14 @@ Up to 2 pages at a time \(2 instances of `NavContainer`\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.f.FlexibleColumnLayout` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `beginColumnPages` \(aggregation\)
 
@@ -113,7 +113,7 @@ Up to 2 pages at a time \(2 instances of `NavContainer`\)
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 3 pages at a time \(3 instances of `NavContainer`\)
 

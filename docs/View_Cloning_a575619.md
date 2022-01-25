@@ -30,5 +30,5 @@ In scenarios where the above clone approach still leads to undesirable behavior,
 **Related Information**  
 
 
-[List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md)
+[List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls according to model data.")
 

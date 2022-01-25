@@ -52,6 +52,7 @@ The sap.ui.codeeditor.CodeEditor control is enabled with two modes of autocomple
     -   The `context` object contains `oPos` and `sPrefix` as provided by the ACE editor.
 
 
+
 Here is an example of custom autocompletion:
 
 > ### Sample Code:  

@@ -29,21 +29,21 @@ Depending on the current date, we distinguish four different formatting categori
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Category
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Sample Input
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Expected Output \(for `en-US`\)
 
@@ -52,21 +52,21 @@ Expected Output \(for `en-US`\)
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Today
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***2013/02/13 12:05:20*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***12:05 PM*** 
 
@@ -75,21 +75,21 @@ Today
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Yesterday
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***2013/02/12 12:05:20*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***Yesterday*** 
 
@@ -98,21 +98,21 @@ Yesterday
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Last 7 days
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***2013/02/08 12:05:20*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***Friday*** 
 
@@ -121,21 +121,21 @@ Last 7 days
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Others
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***2011/02/05 12:05:20*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***Dec 5, 2011*** 
 
@@ -532,4 +532,10 @@ In the next test we verify that the date is formatted as date without time. Agai
 In the implementation, we use a different `style` property for instantiating the `dateFormat` property. We call the format of this instance for dates that are more than 6 days in the past.
 
 Although our formatter depends on system time and locale settings, our tests are very easy to read and maintain. We wrote blackbox tests, providing only the input and expecting a certain output without knowing the implementation details. The `DateFormatter` does not actively resolve the dependencies to the system time and locale settings. Instead, it asks its creator to pass the dependencies along in the constructor. In the next step, we have to bring the pieces together.
+
+**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+
+**Next:** [Step 14: Adding Tabs](Step_14_Adding_Tabs_6e9c6bd.md "We want to display statistics for posts, for example, how many times it was viewed. To achieve this, we implement an icon tab bar with an Info tab and a Statistics tab. The existing content should be placed on the Info tab and the view count on the Statistics tab.")
+
+**Previous:** [Step 16: Adding the Date Formatter](Step_16_Adding_the_Date_Formatter_2ca583d.md "Our formatter does its job, but it is not yet used. In this step we will use it.")
 

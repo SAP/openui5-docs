@@ -26,14 +26,14 @@ The following table shows the availability of the different accessibility featur
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available as of version
 
@@ -42,14 +42,14 @@ Available as of version
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Keyboard Handling
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.26
 
@@ -58,14 +58,14 @@ Keyboard Handling
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HCB Theme
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.26
 
@@ -74,14 +74,14 @@ HCB Theme
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Screen Reader Support
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.30
 
@@ -90,14 +90,14 @@ Screen Reader Support
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 HCW Theme
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1.46
 
@@ -106,4 +106,18 @@ HCW Theme
 </td>
 </tr>
 </table>
+
+-   **[Keyboard Handling for OpenUI5 UI Elements](Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md "OpenUI5 UI elements provide
+		keyboard handling in order to improve accessibility and speed up work. ")**  
+OpenUI5 UI elements provide keyboard handling in order to improve accessibility and speed up work.
+-   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md "OpenUI5 offers screen reader support in order to aid people with visual
+		impairments. The implementation is based on the ARIA and HTML standards.")**  
+OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.
+-   **[High Contrast Themes for OpenUI5 Controls](High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md "
+		OpenUI5  offers two high
+		contrast themes  for controls - High Contrast Black (HCB) and High Contrast White (HCW).
+		These themes support people with visual impairments and are required by the
+			Accessibility product standard. The themes can be switched on by
+		adding a dedicated URL parameter.")**  
+ OpenUI5 offers two high contrast themes for controls - High Contrast Black \(HCB\) and High Contrast White \(HCW\). These themes support people with visual impairments and are required by the **Accessibility** product standard. The themes can be switched on by adding a dedicated URL parameter.
 

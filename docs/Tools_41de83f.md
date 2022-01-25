@@ -27,3 +27,8 @@ The following guidelines and recommendations apply:
 
 OpenUI5 contains a mandatory ruleset for ESLint \(v.7.0.0\). For a complete list of rules and settings, see [ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md). For the ESLint configuration file, see [ESLint Configuration File](ESLint_Configuration_File_ccfe356.md).
 
+-   **[ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md "OpenUI5 uses ESLint to check JavaScript sources.")**  
+OpenUI5 uses ESLint to check JavaScript sources.
+-   **[ESLint Configuration File](ESLint_Configuration_File_ccfe356.md "Content of the ESLint configuration file")**  
+Content of the ESLint configuration file
+

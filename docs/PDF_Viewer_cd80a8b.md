@@ -67,13 +67,16 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
     -   Data URI paths and blob URLs used as the PDF source are not supported in Microsoft Edge \(Chromium\)<sup>2</sup> browser.
 
+
 -   Mozilla Firefox
 
     -   The sourceValidationFailed event is not fired for PDF documents loaded in the Mozilla Firefox browser.
 
+
 -   Safari
 
     -   Data URI paths and blob URLs used as the PDF source are not supported in Safari.
+
 
 
 **Embedding the PDF Viewer into a Tab**
@@ -85,6 +88,7 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
     -   Remove the PDF viewer `iframe` element from the DOM each time the user navigates to a different tab. The PDF viewer element can be removed by calling the `sap.m.PDFViewer#invalidate` method.
 
         For more information, see the [API Reference: `sap.ui.core.Control.html#invalidate`](https://openui5.hana.ondemand.com/#/api/sap.m.PDFViewer/methods/invalidate).
+
 
 
 **Accessibility**
@@ -100,5 +104,5 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 **Related Information**  
 
 
-[URL List Validation](URL_List_Validation_91f3768.md)
+[URL List Validation](URL_List_Validation_91f3768.md "The OpenUI5 framework provides a client-side API to manage allowed URLs using the URLListValidator. It can be used to validate arbitrary URLs.")
 

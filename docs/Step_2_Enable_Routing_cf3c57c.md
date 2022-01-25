@@ -64,8 +64,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
       "routing": {
          "config": {
             "routerClass": "sap.m.routing.Router",
+            "type": "View",
             "viewType": "XML",
-            "viewPath": "sap.ui.demo.nav.view",
+            "path": "sap.ui.demo.nav.view",
             "controlId": "app",
             "controlAggregation": "pages",
             "transition": "slide",
@@ -78,9 +79,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
          }],
          "targets": {
             "home": {
-               "viewId": "home",
-               "viewName": "Home",
-               "viewLevel" : 1
+               "id": "home",
+               "name": "Home",
+               "level" : 1
             }
          }
       }*HIGHLIGHT END*
@@ -93,10 +94,10 @@ Single-page applications based on OpenUI5 can use a so-called “router” to di
 
 -   `config`
 
-    This section contains the global router configuration and default values that apply for all routes and targets. The property `routerClass` is special as it determines the router implementation. The default value is `sap.ui.core.routing.Router`. Here, we set the `routerClass` to `sap.m.routing.Router`, because we implement an app based on `sap.m`. All other properties in `config` are given to the router instance. For example, we define where our views are located in the app. To load and display views automatically, we also specify the `controlId` of the control that is used to display the pages and the aggregation \(`controlAggregation`\) that will be filled when a new page is displayed. We will create only XMLviews in this tutorial, so we can set the `viewType` property to `XML`. All our views will be available in the `view` folder of the namespace `sap.ui.demo.nav`, so we can set the `viewPath` to `sap.ui.demo.nav.view`. The `transition` allows us to set a default value for how the transition should happen; you can choose between `slide` \(default\), `flip`, `fade`, and `show`. All parameters of the config section can be overruled in the individual route and target definitions if needed.
+    This section contains the global router configuration and default values that apply for all routes and targets. The property `routerClass` is special as it determines the router implementation. The default value is `sap.ui.core.routing.Router`. Here, we set the `routerClass` to `sap.m.routing.Router`, because we implement an app based on `sap.m`. All other properties in `config` are given to the router instance. For example, we define where our views are located in the app. To load and display views automatically, we also specify the `controlId` of the control that is used to display the pages and the aggregation \(`controlAggregation`\) that will be filled when a new page is displayed. We will create only XMLviews in this tutorial, so we can set the `viewType` property to `XML`. All our views will be available in the `view` folder of the namespace `sap.ui.demo.nav`, so we can set the `path` to `sap.ui.demo.nav.view`. The `transition` allows us to set a default value for how the transition should happen; you can choose between `slide` \(default\), `flip`, `fade`, and `show`. All parameters of the config section can be overruled in the individual route and target definitions if needed.
 
     > ### Note:  
-    > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclasses of `sap.ui.core.routing.Router`. Compared to `sap.ui.core.routing.Router` the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `viewLevel`, `transition` and `transitionParameters` which can be specified for each route or target created by the `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. Please check the *API Reference* for more information.
+    > The possible values for `routerClass` are `sap.ui.core.routing.Router`, `sap.m.routing.Router`, or any other subclasses of `sap.ui.core.routing.Router`. Compared to `sap.ui.core.routing.Router` the `sap.m.routing.Router` is optimized for mobile apps and adds the properties `level`, `transition` and `transitionParameters` which can be specified for each route or target created by the `sap.m.routing.Router`. The `transitionParameters` can also be used for custom transitions. Please check the *API Reference* for more information.
 
 -   `routes`
 
@@ -104,7 +105,7 @@ Single-page applications based on OpenUI5 can use a so-called “router” to di
 
 -   `targets`
 
-    A target defines the view that is displayed. It is associated with one or more routes or it can be displayed manually from within the app. Whenever a target is displayed, the corresponding view is loaded and added to the aggregation configured with the `controlAggregation` option of the control. This option is configured using `controlId`. Each target has a unique key \(`home`\). The `viewName` defines which view shall be loaded. In our little example, the absolute view path to be loaded for our `home` target is determined by the default `"viewPath": "sap.ui.demo.nav.view"` and `"viewName": "Home"`. This leads to `"sap.ui.demo.nav.view.Home"`. The `viewLevel` is especially relevant for `flip` and `slide` transitions. It helps the router to determine the direction of the transition from one page to another. \(This will also be explained later.\) A target can be assigned to a route, but it's not necessary. Targets can be displayed directly in the app without hitting a route.
+    A target defines either a **view** that is displayed or a **component** that can be loaded and placed through its routing. In order to distinguish between these two target types, it is required to define the `type` property and set it either to `View` or `Component`. In this sample, we will focus on view targets and define the `type` property as `View`. A target is associated with one or more routes, or it can be displayed manually from within the app. Whenever a target is displayed, the corresponding view is loaded and added to the aggregation configured with the `controlAggregation` option of the control. This option is configured using `controlId`. Each target has a unique key \(`home`\). The `name` defines which view shall be loaded. In our little example, the absolute view path to be loaded for our `home` target is determined by the default `"path": "sap.ui.demo.nav.view"` and `"name": "Home"`. This leads to `"sap.ui.demo.nav.view.Home"`. The `level` property is especially relevant for `flip` and `slide` transitions. It helps the router to determine the direction of the transition from one page to another. \(This will also be explained later.\) A target can be assigned to a route, but it's not necessary. Targets can be displayed directly in the app without hitting a route.
 
     This basic routing configuration was easy enough. However, you can’t see it in action until you have initialized the router.
 
@@ -214,10 +215,16 @@ Create a file `Home.controller.js` in the `webapp/controller` folder. The contro
 -   Initialize the router in the component
 
 
+**Parent topic:** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+
+**Next:** [Step 1: Set Up the Initial App](Step_1_Set_Up_the_Initial_App_df245bd.md "We start by setting up a simple app for this tutorial. The app displays mock data only and mimics real OData back-end calls with the mock server as you have seen in the Walkthrough tutorial.")
+
+**Previous:** [Step 3: Catch Invalid Hashes](Step_3_Catch_Invalid_Hashes_e047e05.md "Sometimes it is important to display an indication that the requested resource was not found. To give you an example: If a user tries to access an invalid pattern which does not match any of the configured routes, the user is notified that something went wrong. You might also know this as a “404” or Not Found Page from traditional web pages. In this step, we will implement a feature that detects invalid hashes and visualizes this in a nice way.")
+
 **Related Information**  
 
 
-[Routing and Navigation](Routing_and_Navigation_3d18f20.md)
+[Routing and Navigation](Routing_and_Navigation_3d18f20.md "OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.")
 
 [API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
 

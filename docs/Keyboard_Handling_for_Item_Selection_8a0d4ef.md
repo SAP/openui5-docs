@@ -19,14 +19,14 @@ The following keys and key combinations are used for selecting one or multiple i
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -35,16 +35,16 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Spacebar\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
-If focus is on an item, select the item and deselect all others.
+If focus is on an item, selects the item and deselects all others.
 
 
 
@@ -59,14 +59,14 @@ If focus is on an item, select the item and deselect all others.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Behavior
 
@@ -75,100 +75,88 @@ Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Spacebar\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
-If focus is on an item, select the item and deselect all others.
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
- [Ctrl\] + [Spacebar\] 
-
-
-
-</td>
-<td>
-
-If focus is on an item, select the item in addition to an existing selection..
+If focus is on an item, selects the item in addition to all previously selected items.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
-
- [Shift\] + [Spacebar\] 
-
-
-
-</td>
-<td>
-
-If focus is on an item, select all items from the previous selected item to the now focused item \(included\).
-
-Previous selection: all kinds of selection except [Shift\][Spacebar\] selections
-
-
-
-</td>
-</tr>
-<tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Up arrow\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-If focus is on an item, change selection state \(selected/ not selected\) to the item above.
+If focus is on an item, changes selection state \(selected/ not selected\) to the item above.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Down arrow\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-If focus is on an item, change selection state \(selected/ not selected\) to the item below.
+If focus is on an item, changes selection state \(selected/ not selected\) to the item below.
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [A\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Selects all items which the user can reach in the current view by scrolling or paging.
 
-If all items are selected, deselect all items.
+If all items are selected, deselects all items.
+
+This is the default behavior of a list.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ [Ctrl\] + [Shift\] + [A\] 
+
+
+
+</td>
+<td valign="top">
+
+Deselects all items which the user can reach in the current view by scrolling or paging.
+
+To select items , you can no longer use [Ctrl\][A\]. You have to use [Spacebar\] for single selection or  [Shift\] + [Up arrow\]  or [Down arrow\] for multiple selection.
+
+This is the behavior if `multiSelectMode` is set to `ClearAll` for a list.
 
 
 

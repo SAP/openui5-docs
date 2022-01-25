@@ -34,6 +34,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
     -   Use the URL parameter: `sap-ui-support=true`.
 
+
     The Support Assistant toolbar opens in the footer of the app.
 
 
@@ -67,8 +68,14 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 5.  Restart the app and start the analysis again. This issue should now be gone. We have intentionally hidden some more errors in the code - check and see if you can find and correct them.
 
 
+**Parent topic:** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Next:** [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information Dialog&quot;. This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.")
+
+**Previous:** [Step 4: Diagnostics Window](Step_4_Diagnostics_Window_04b75ea.md "In this tutorial step, we have a closer look at the Diagnostics window. It offers a wealth of information including comprehensive technical information, a control tree, and debugging features.")
+
 **Related Information**  
 
 
-[Support Assistant](Support_Assistant_57ccd7d.md)
+[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.")
 

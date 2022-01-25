@@ -189,8 +189,14 @@ Discontinued=Eingestellt*HIGHLIGHT END*
 
 Add the missing texts to the `properties` files.
 
+**Parent topic:** [Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+
+**Next:** [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
+
+**Previous:** [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding allows you to display a value on the screen that has been calculated from values found in some model object. This way simple formatting or calculations can be inserted directly into the data binding string. In this example, we will change the color of the price depending on whether it is above or below some arbitrary threshold. The threshold value is also stored in the JSON model.")
+
 **Related Information**  
 
 
-[Context Binding \(Element Binding\)](Context_Binding_(Element_Binding)_91f05e8.md)
+[Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md "Context binding (or element binding) allows you to bind elements to a specific object in the model data, which will create a binding context and allow relative binding within the control and all of its children. This is especially helpful in master-detail scenarios.")
 

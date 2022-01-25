@@ -39,7 +39,33 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 ### webapp/App.controller.js
 
 ```
-		*HIGHLIGHT START*onDelete : function () {
+...
+		onInit: function () {
+			...
+		},
+		onCreate : function () {
+			var oList = this.byId("peopleList"),
+				oBinding = oList.getBinding("items"),
+				oContext = oBinding.create({
+					"UserName" : "",
+					"FirstName" : "",
+					"LastName" : "",
+					"Age" : "18"
+				});
+
+			this._setUIChanges();
+			this.getView().getModel("appView").setProperty("/usernameEmpty", true);
+
+			oList.getItems().some(function (oItem) {
+				if (oItem.getBindingContext() === oContext) {
+					oItem.focus();
+					oItem.setSelected(true);
+					return true;
+				}
+			});
+		},
+
+*HIGHLIGHT START*		onDelete : function () {
 			var oSelected = this.byId("peopleList").getSelectedItem();
 
 			if (oSelected) {
@@ -50,6 +76,19 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 				});
 			}
 		},*HIGHLIGHT END*
+
+		onInputChange : function (oEvt) {
+			if (oEvt.getParameter("escPressed")) {
+				this._setUIChanges();
+			} else {
+				this._setUIChanges(true);
+				if (oEvt.getSource().getParent().getBindingContext().getProperty("UserName")) {
+					this.getView().getModel("appView").setProperty("/usernameEmpty", false);
+				}
+			}
+		},
+
+...
 ```
 
 We add the `onDelete` event handler to the controller. In the event handler, we check whether an item is selected in the table and if so, the related data is deleted from the model. To do that, we retrieve the binding context of the selection and call its `delete` method.
@@ -84,7 +123,7 @@ We explicitly set the update group ID for the deletion to `$auto` to make sure t
 									$$updateGroupId : 'peopleGroup'
 								}
 							}"
-*HIGHLIGHT START*							mode="SingleSelectLeft">*HIGHLIGHT END*
+			*HIGHLIGHT START*							mode="SingleSelectLeft"*HIGHLIGHT END*>
 							<headerToolbar>
 								<OverflowToolbar>
 									<content>
@@ -153,8 +192,14 @@ deletionSuccessMessage=User deleted*HIGHLIGHT END*
 
 We add the missing texts to the properties file.
 
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Next:** [Step 6: Create and Edit](Step_6_Create_and_Edit_b4f1266.md "In this step, we will make it possible to create and edit (update) user data from the user interface and send the data to the back end.")
+
+**Previous:** [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md "Our OData service provides one OData operation: the ResetDataSource action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.")
+
 **Related Information**  
 
 
-[Deleting an Entity](Deleting_an_Entity_2613ebc.md)
+[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The Context.delete method deletes an entity on the server and updates the user interface accordingly.")
 

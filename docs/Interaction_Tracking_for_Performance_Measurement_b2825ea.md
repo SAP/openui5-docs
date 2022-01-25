@@ -55,21 +55,21 @@ InteractionMeasurement = {
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -78,21 +78,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `id` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap/base/util/uid` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interaction ID
 
@@ -101,21 +101,21 @@ Interaction ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `event` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Event type which triggered the interaction. Allowed types are:
 
@@ -147,21 +147,21 @@ Event type which triggered the interaction. Allowed types are:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `trigger` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the element that triggered the action
 
@@ -170,21 +170,21 @@ ID of the element that triggered the action
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `component` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ID of the app or name of the Component that contains the triggering element
 
@@ -193,21 +193,21 @@ ID of the app or name of the Component that contains the triggering element
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `appVersion` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Application version as from App Descriptor
 
@@ -216,21 +216,21 @@ Application version as from App Descriptor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `start` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interaction start; always triggered by user interaction. From that point in time \(timestamp\), all information about request timings, rendering, etc. is collected.
 
@@ -239,21 +239,21 @@ Interaction start; always triggered by user interaction. From that point in time
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `end` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Interaction end; defined as start time plus duration.
 
@@ -262,21 +262,21 @@ Interaction end; defined as start time plus duration.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `navigation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Navigation time for all requests, calculated as difference from `startTime` to `connectEnd` of a `PerformanceTiming` \(in ms\)
 
@@ -287,21 +287,21 @@ Requests that are started while another request is already in progress are ignor
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `roundtrip` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Roundtrip time for a request, calculated as difference from `requestStart` to `responseEnd` of a `PerformanceTiming` \(in ms\)
 
@@ -310,21 +310,21 @@ Roundtrip time for a request, calculated as difference from `requestStart` to `r
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `processing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The client processing time \(in ms\) of an interaction, calculated by subtracting the navigation time for all requests and the sum of roundtrip times from the total processing duration.
 
@@ -333,21 +333,21 @@ The client processing time \(in ms\) of an interaction, calculated by subtractin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `duration` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The duration time \(in ms\) of an interaction including navigation and request times, calculated by subtracting the interaction start time from the interaction end time.
 
@@ -356,21 +356,21 @@ The duration time \(in ms\) of an interaction including navigation and request t
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `requests` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `PerformanceTiming[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All requests that occurred during the interaction, taken from the `NavigationTiming` API
 
@@ -379,44 +379,44 @@ All requests that occurred during the interaction, taken from the `NavigationTim
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `measurements` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Measurement[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Performance measurements \(see [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)\)
+Performance measurements \(see [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md)\)
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sapStatistics` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Object[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Map of request URL to corresponding `sap-statistics` header as String \( format: `{ url: "https://somehost.com/sap/data...", statistics: "total=167,fw=167,app=0,gwtotal=167,gwhub=160,gwrfcoh=0,gwbe=7,gwapp=0,gwnongw=0" }`\)
 
@@ -425,21 +425,21 @@ Map of request URL to corresponding `sap-statistics` header as String \( format:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `requestTime` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sum over all request durations of this interaction, from `startTime` to `responseEnd` \(in ms\)
 
@@ -448,21 +448,21 @@ Sum over all request durations of this interaction, from `startTime` to `respons
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `networkTime` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Average network time per request \(in ms\) that occurred during the interaction. Calculated using the `sap-perf-fesrec` header sent by the back end with each response; a network time of zero results if no header is available.
 
@@ -471,21 +471,21 @@ Average network time per request \(in ms\) that occurred during the interaction.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `bytesSent` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sum over all bytes sent with requests \(content plus headers\)
 
@@ -494,21 +494,21 @@ Sum over all bytes sent with requests \(content plus headers\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `bytesReceived` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sum over all bytes received with responses \(content plus headers\)
 
@@ -517,21 +517,21 @@ Sum over all bytes received with responses \(content plus headers\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `requestCompression` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Indicates if all requests during an interaction have been received in GNU zip format \("gzipped"\)
 
@@ -540,21 +540,21 @@ Indicates if all requests during an interaction have been received in GNU zip fo
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `busyDuration` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Time during which a `BusyIndicator` was rendered and hence blocking the UI during an interaction
 
@@ -575,7 +575,7 @@ Time during which a `BusyIndicator` was rendered and hence blocking the UI durin
 
 [API Reference: `sap/ui/performance/Measurement`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/performance/Measurement)
 
-[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sapuiperformanceMeasurement_Module_78880c0.md)
+[Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
 
 [`NavigationTiming` API on `https://developer.mozilla.org`](https://developer.mozilla.org/en/docs/Web/API/Navigation_timing_API)
 

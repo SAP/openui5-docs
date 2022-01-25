@@ -47,7 +47,7 @@ When you run into problems with your app, you should check the OpenUI5 version t
 
 2.  Open the version overview at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) to see if there are newer patch levels or releases of OpenUI5.
 
-3.  Read the [What's New](What's_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
+3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
 
     > ### Note:  
     > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.38.8/`.
@@ -113,8 +113,14 @@ If you're really stuck or have found a bug, you can open a ticket. Choose the *C
 
 The *Technical Information Dialog* also includes links to *Diagnostics* and *Support Assistant* that we will discuss in the following steps of this tutorial.
 
+**Parent topic:** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Next:** [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
+
+**Previous:** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
+
 **Related Information**  
 
 
-[Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9)
+[Technical Information Dialog](Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9 "The Technical Information dialog shows details of the OpenUI5 version currently being used in an app built with OpenUI5. You can use the Technical Information dialog to enable debug resources and open additional support tools to debug your app.")
 

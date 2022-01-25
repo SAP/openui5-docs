@@ -19,14 +19,14 @@ OpenUI5 input controls are used to get and store user data. The most common use 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  OpenUI5 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What is read by default
 
@@ -35,14 +35,14 @@ What is read by default
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Check Box
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Checkbox label
 
@@ -58,14 +58,14 @@ Check Box
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Combo Box
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Combobox label
 
@@ -92,14 +92,14 @@ Other interactions that need to be announced:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Date Picker
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Picker text
 
@@ -117,14 +117,14 @@ Date Picker
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Facet Filter
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Light Variant \(only one button\):
 
@@ -143,14 +143,14 @@ Simple Variant \(several buttons\):
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Input
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Input state
 
@@ -172,14 +172,14 @@ Input
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Mask Input
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Basic behavior is like `Input`. Additionally the screen reader should read:
 

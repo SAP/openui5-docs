@@ -62,6 +62,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 > 
 >     -   URI schemes: [ http://en.wikipedia.org/wiki/URI\_scheme](http://en.wikipedia.org/wiki/URI_scheme)
 > 
+> 
 > -   If you just want to get a URI back without a redirect, you can use normalize methods which have the same parameter as trigger methods, for example:
 > 
 >     ``` js
@@ -74,6 +75,9 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 >     sap.m.URLHelper.normalizeSms( [Telephone Number] );
 >     sap.m.URLHelper.normalizeEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] );  
 >     ```
+
+-   **[Examples for Triggering Telephone, Text and E-Mail Applications](Examples_for_Triggering_Telephone_Text_and_E_Mail_Applications_021ac23.md "Code samples for triggering telephone, text and e-mail applications.")**  
+Code samples for triggering telephone, text and e-mail applications.
 
 **Related Information**  
 

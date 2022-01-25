@@ -192,5 +192,5 @@ We can see the results when we decrease the browser's screen size or open the ap
 **Related Information**  
 
 
-[Configuring Responsive Behavior of a Table](Configuring_Responsive_Behavior_of_a_Table_38855e0.md)
+[Configuring Responsive Behavior of a Table](Configuring_Responsive_Behavior_of_a_Table_38855e0.md "OpenUI5 supports column-based and row-based solutions to support flexible and clearly arranged tables.")
 

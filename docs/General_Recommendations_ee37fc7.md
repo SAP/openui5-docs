@@ -95,17 +95,18 @@ Start the application and check each screen element. Check the following:
 
     -   Is this also true for grouped information?
 
+
 -   Is the user informed about the required entries and input?
 
 
 **Related Information**  
 
 
-[Support for Unique IDs](Support_for_Unique_IDs_91f28be.md)
+[Support for Unique IDs](Support_for_Unique_IDs_91f28be.md "Stable IDs are used to identify and modify the controls within the controller during runtime. However, if you reuse or nest these views, these stable IDs are no longer unique. To avoid ambiguity, each view adds its own ID as prefix to all its child controls.")
 
-[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md)
+[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md "As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used.")
 
-[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md)
+[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")
 
-[Theming](Theming_497c27a.md)
+[Theming](Theming_497c27a.md "OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style Sheets (CSS). This allows for creating an impressive visual experience using a widely known standard technology which is well-accepted on the market.")
 

@@ -22,7 +22,7 @@ The dialog contains the following information:
 
 -   The version number of the currently loaded OpenUI5 distribution that represent the core libraries of the framework and its build timestamp
 
-    For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md) and [SAPUI5 vs. OpenUI5](SAPUI5_vs._OpenUI5_5982a97.md)
+    For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md) and [SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md)
 
 -   The **user agent** that is used for detecting the device's capabilities and device adaption
 
@@ -31,11 +31,11 @@ The dialog contains the following information:
 
 You can download the technical information, so that you can attach it to a ticket for example, by clicking *Copy*.
 
- <a name="loio616a3ef07f554e20a3adf749c11f64e9 copyda1306a437244116b156c4428b3c5b5f__copyda1306a437244116b156c4428b3c5b5f"/>
+ <a name="copyda1306a437244116b156c4428b3c5b5f"/>
 
 <!-- copyda1306a437244116b156c4428b3c5b5f -->
 
-## Loading Debug Sources
+### Loading Debug Sources
 
 For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
@@ -66,11 +66,11 @@ Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type th
 > 
 > To improve performance, you must deactivate the debug sources once you're done with debugging.
 
- <a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__loiob5dcf47c7d4a4228ab40d77f835648e3"/>
+ <a name="loiob5dcf47c7d4a4228ab40d77f835648e3"/>
 
 <!-- loiob5dcf47c7d4a4228ab40d77f835648e3 -->
 
-## Technical Information Dialog on Mobile Devices
+### Technical Information Dialog on Mobile Devices
 
 On mobile devices, the *Technical Information* dialog provides some additional features.
 
@@ -83,19 +83,19 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 -   *Loaded Libraries* - Displays a list of the currently loaded libraries.
 -   *Loaded Modules* - Displays a collapsible list of the currently loaded modules.
 
-<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__table_mr1_wbn_tv"/>Technical Information Dialog on Mobile Devices
+<a name="loiob5dcf47c7d4a4228ab40d77f835648e3__table_mr1_wbn_tv"/>Technical Information Dialog on Mobile Devices
 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 ![Technical Information in Mobile App](loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![Technical Information in Mobile App](loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
 
@@ -104,14 +104,14 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ![Technical Information in Mobile App](loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ![Technical Information in Mobile App](loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
 
@@ -135,7 +135,7 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
 
   
   
-<a name="loio616a3ef07f554e20a3adf749c11f64e9 loiob5dcf47c7d4a4228ab40d77f835648e3__fig_rlq_rlj_b1b"/>Gesture for opening the technical information dialog
+<a name="loiob5dcf47c7d4a4228ab40d77f835648e3__fig_rlq_rlj_b1b"/>Gesture for opening the technical information dialog
 
 ![](loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
 

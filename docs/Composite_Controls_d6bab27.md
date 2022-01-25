@@ -12,3 +12,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Composite controls are implemented by reusing other controls.
 
+-   **[Standard Composite Controls](Standard_Composite_Controls_c1512f6.md "Composite controls are a means to save time and effort by reusing existing controls
+		for the implementation.")**  
+Composite controls are a means to save time and effort by reusing existing controls for the implementation.
+-   **[Aggregation Forwarding](Aggregation_Forwarding_64a5e17.md "A mechanism used for aggregations of composite controls.")**  
+A mechanism used for aggregations of composite controls.
+

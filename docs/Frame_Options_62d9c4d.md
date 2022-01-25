@@ -17,21 +17,21 @@ OpenUI5 provides the following configuration options for `frameOptions`:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Mode
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -40,21 +40,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 allow
 
 
 
 </td>
-<td>
+<td valign="top">
 
 X
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows to be embedded from all origins
 
@@ -63,19 +63,19 @@ Allows to be embedded from all origins
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 deny
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Denies to be embedded from all origins
 
@@ -84,19 +84,19 @@ Denies to be embedded from all origins
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 trusted
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Allows to be embedded from trusted origins according to the same-origin policy and to be embedded to origins allowed by the allowlist service
 
@@ -111,28 +111,28 @@ With `frameOptionsConfig` the following additional configuration options can be 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Parameter
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Default
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -141,26 +141,26 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `callback` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `function(bSuccess)` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Function that is called with the success state
 
@@ -172,28 +172,28 @@ Function that is called with the success state
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `timeout` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `number` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `10000` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 After the delay, the page remains blocked and the provided callback is invoked \(milliseconds\)
 
@@ -202,28 +202,28 @@ After the delay, the page remains blocked and the provided callback is invoked \
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `blockEvents` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `true` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines whether keyboard, mouse and touch events are blocked
 
@@ -232,28 +232,28 @@ Defines whether keyboard, mouse and touch events are blocked
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `showBlockLayer` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `true` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines whether an invisible block layer is rendered to prevent interaction with the UI
 
@@ -262,28 +262,28 @@ Defines whether an invisible block layer is rendered to prevent interaction with
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `allowSameOrigin` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `true` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines whether same origin domains are allowed or not
 
@@ -292,26 +292,26 @@ Defines whether same origin domains are allowed or not
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `allowlist` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Contains the domain allowlist \(comma-separated\)
 
@@ -404,7 +404,7 @@ Alternatively, a `<meta>` tag can be used to configure the `allowlistService` an
 **Related Information**  
 
 
-[Allowlist Service](Allowlist_Service_d04a6d4.md)
+[Allowlist Service](Allowlist_Service_d04a6d4.md "SAPUI5 supports the configuration of a central allowlist service.")
 
-[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
+[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The complete list of configuration options available in OpenUI5 can be found in the API Reference under sap.ui.core.Configuration. The following table shows a subset of the available configuration options.")
 

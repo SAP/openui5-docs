@@ -30,7 +30,7 @@ Check the available versions with the respective maintenance status at [https://
 ``` html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://openui5.hana.ondemand.com/**1.93.0**/resources/sap-ui-core.js"
+    src="https://openui5.hana.ondemand.com/**1.99.0**/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_belize"
     data-sap-ui-libs="sap.m"></script>
 
@@ -74,5 +74,5 @@ The cache control is different for dynamic and static resources. If you refer to
 
 [Multi-Version Availability of SAPUI5](https://blogs.sap.com/2015/07/30/multi-version-availability-of-sapui5)
 
-[Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
+[Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md "Versioning and maintenance strategy for OpenUI5.")
 

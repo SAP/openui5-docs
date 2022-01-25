@@ -70,3 +70,7 @@ The entry point of an OpenUI5 application is often a module that is used to inst
 
 For troubleshooting information with regard to the project structure, see [How can I remove project structures with cyclic dependencies?](Troubleshooting_for_Loading_Modules_4363b3f.md#loio4363b3fe3561414ca1b030afc8cd30ce__section_cyclicdependencies).
 
+-   **[Troubleshooting for Loading Modules](Troubleshooting_for_Loading_Modules_4363b3f.md "The following sections give examples that you must avoid because they cause problems
+		when loading your module.")**  
+The following sections give examples that you must avoid because they cause problems when loading your module.
+

@@ -71,5 +71,5 @@ It returns a path inside the meta model which refers to the corresponding proper
 **Related Information**  
 
 
-[Annotation Helper](Annotation_Helper_dbec058.md)
+[Annotation Helper](Annotation_Helper_dbec058.md "A collection of methods which help to consume OData Version 4.0 annotations in XML template views.")
 

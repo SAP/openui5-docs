@@ -20,5 +20,5 @@ The following rules apply for given IDs:
 **Related Information**  
 
 
-[Example: JS Fragments Used in XML Views](Example_JS_Fragments_Used_in_XML_Views_faaff35.md)
+[Example: JS Fragments Used in XML Views](Example_JS_Fragments_Used_in_XML_Views_faaff35.md "Example of JS fragments used in an XML view")
 

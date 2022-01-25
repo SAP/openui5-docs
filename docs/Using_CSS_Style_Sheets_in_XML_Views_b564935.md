@@ -40,4 +40,7 @@ The effect is the same as calling `myButton.addStyleClass(...)`.
     </mvc:View>
     ```
 
+    > ### Note:  
+    > To allow your view to be used in an environment with a Content Security Policy denying inline styles \(i.e. without the `unsafe-inline` source for the `style-src` directive\), you need to refer to an external style sheet instead of embedding the style sheet into your XML view. For more information, see the Walkthrough tutorial, [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md).
+
 

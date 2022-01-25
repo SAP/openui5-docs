@@ -36,6 +36,7 @@ The following formatter functions exist:
 
     -   object: The part is a binding info object if it has a "path" or "parts" property, otherwise it is a constant value.
 
+
     If a binding info object is not the only part and has a `parts` property itself, then it must have no other properties except `formatter`. This applies to expression bindings and data binding expressions that are created by `format`. If all parts are constant values, the resulting property setting is also a constant value computed by applying the root formatter function to the constant parts once. If at least one part is a binding info object, the resulting property setting is also a binding info object and the root formatter function will be applied again and again to the current values of all parts, no matter whether constant or variable.
 
     > ### Note:  
@@ -59,11 +60,13 @@ The following formatter functions exist:
 
         -   *"14.5.3.1.3 Function odata.uriEncode"*: Turned into an expression binding to encode the parameter at runtime
 
+
         The *apply* functions can be nested arbitrarily.
 
     -   Dynamic *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm.PropertyPath*: This dynamic expression is turned into a data binding relative to an entity including type information and constraints as available from metadata, for example `"{path : 'Name', type : 'sap.ui.model.odata.type.String', constraints : {'maxLength':'255'}}"`.
 
     -   Dynamic *"14.5.6 Expression edm:If"*: This dynamic expression is turned into an expression binding to be evaluated at runtime. The expression is conditional, for example, `"{=condition ? expression1 : expression2}"`.
+
 
     > ### Note:  
     > Unsupported values are turned into strings, and indicated as such. To ensure that the data binding syntax is not corrupted, proper escaping is used.
@@ -77,6 +80,7 @@ The following formatter functions exist:
     -   The input value `{AnnotationPath : "ToSupplier/@com.sap.vocabularies.Communication.v1.Address"}` returns `"{ToSupplier}"`
     -   The input value `{AnnotationPath : "@com.sap.vocabularies.UI.v1.FieldGroup#Dimensions"}` returns `"{}"`
     -   The input value `{}` returns `""`
+
     ``` xml
     
     <template:if test="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.getNavigationPath'}">

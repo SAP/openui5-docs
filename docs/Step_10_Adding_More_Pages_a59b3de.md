@@ -101,19 +101,19 @@ We create a simple additional page view.
 			],
 			"targets": {
 				"master": {
-					"viewName": "Master",
+					"name": "Master",
 					"controlAggregation": "beginColumnPages"
 				},
 				"detail": {
-					"viewName": "Detail",
+					"name": "Detail",
 					"controlAggregation": "midColumnPages"
 				},
 				"detailDetail": {
-					"viewName": "DetailDetail",
+					"name": "DetailDetail",
 					"controlAggregation": "endColumnPages"
 				}*HIGHLIGHT START*,
 				"page2": {
-					"viewName": "AboutPage",
+					"name": "AboutPage",
 					"controlAggregation": "endColumnPages"
 				}*HIGHLIGHT END*
 			}
@@ -188,4 +188,10 @@ sap.ui.define([
 ```
 
 Finally, we add a `handleAboutPress` function in the detail-detail page controller to navigate to the additional page without passing any data this time.
+
+**Parent topic:** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Next:** [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
+
+**Previous:** [Step 11: Using the Flexible Column Layout Semantic Helper](Step_11_Using_the_Flexible_Column_Layout_Semantic_Helper_276f001.md "In this step, we use the sap.f.FlexibleColumnLayoutSemanticHelper class to implement the recommended UX patterns for layout changes in the app.")
 

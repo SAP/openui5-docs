@@ -29,21 +29,21 @@ The following table shows the configuration options that can be specified in the
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -52,21 +52,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `bundleName` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  OpenUI5 module name in dot notation referring to the main `.properties` file.
 
@@ -75,21 +75,21 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `bundleUrl` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 URL pointing to the `.properties` file of the main bundle.
 
@@ -98,21 +98,21 @@ URL pointing to the `.properties` file of the main bundle.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `bundleUrlRelativeTo` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The bundle URL can be resolved relative to either `manifest` \(default\) or `component`.
 
@@ -121,21 +121,21 @@ The bundle URL can be resolved relative to either `manifest` \(default\) or `com
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `supportedLocales` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 An array containing a list of supported locales, for example `en_GB`, `en-GB`, or `en`. It is recommended to make use of this option in order to optimize the **loading performance** of resource bundles. It controls the language fallback chain and prevents unnecessary and potentially failing requests, as the available language-specific resource bundles are already known.
 
@@ -144,21 +144,21 @@ An array containing a list of supported locales, for example `en_GB`, `en-GB`, o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `fallbackLocale` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `String` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The fallback locale in case the user's locale is not present in the list of supported locales or the required text can't be found in any other resource bundle. Furthermore, the given fallback locale must be listed in the `supportedLocales`.
 
@@ -167,21 +167,21 @@ The fallback locale in case the user's locale is not present in the list of supp
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `terminologies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Object` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A key-value map in which the name of a terminology is specified as a key and a configuration object as a value. The configuration object must be specified with either `bundleName` or `bundleUrl`. Additionally, `bundleUrlRelativeTo` and `supportedLocales` can be specified. See the example below.
 
@@ -190,21 +190,21 @@ A key-value map in which the name of a terminology is specified as a key and a c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `enhanceWith` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `Object[]` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List of additional resource bundle configurations to enhance the main bundle. Each entry can have the same properties as described in this table, **except another `enhanceWith`**.
 
@@ -224,7 +224,7 @@ List of additional resource bundle configurations to enhance the main bundle. Ea
 
 **Example:**
 
-The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
 The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)*Shop Administration Tool* demo app in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
 

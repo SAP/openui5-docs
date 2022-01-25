@@ -33,21 +33,21 @@ The Text control supports the rendering of new lines and the preservation of whi
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 To visualize
 
 
 
 </th>
-<th>
+<th valign="top">
 
 JavaScript/Data binding defined string
 
 
 
 </th>
-<th>
+<th valign="top">
 
 XML View defined string
 
@@ -56,21 +56,21 @@ XML View defined string
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **New line** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `\n` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `&#xA;` 
 
@@ -79,7 +79,7 @@ XML View defined string
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **\\n**
 
@@ -88,14 +88,14 @@ For example, if you want to visualize `C:\NewFolder`
 
 
 </td>
-<td>
+<td valign="top">
 
  `\\n` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `\n` 
 
@@ -104,21 +104,21 @@ For example, if you want to visualize `C:\NewFolder`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Tab** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `\t` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `&#x9;` 
 
@@ -127,7 +127,7 @@ For example, if you want to visualize `C:\NewFolder`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **\\t**
 
@@ -136,14 +136,14 @@ For example, if you want to visualize `C:\TestFolder`
 
 
 </td>
-<td>
+<td valign="top">
 
  `\\t` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `\t` 
 

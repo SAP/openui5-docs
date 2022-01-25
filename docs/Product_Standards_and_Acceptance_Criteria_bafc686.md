@@ -48,3 +48,8 @@ Additional product standard and acceptance criteria for controls:
 -   Example page in the *Samples* in the Demo Kit
 
 
+-   **[Annotations in Translation Files](Annotations_in_Translation_Files_8310398.md "All strings for translation have to be annotated to provide more context for
+		translation. An annotation consists of an &quot;X/Y&quot; text type classification, an optional length
+		restriction, and a freetext explanation how the string is used on the UI.")**  
+All strings for translation have to be annotated to provide more context for translation. An annotation consists of an "X/Y" text type classification, an optional length restriction, and a freetext explanation how the string is used on the UI.
+

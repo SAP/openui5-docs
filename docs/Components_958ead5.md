@@ -30,7 +30,7 @@ OpenUI5 provides the following two types of components:
 
 The `sap.ui.core.Component` class is the base class and provides the metadata for both types of components. To extend the functionality, components can inherit from their base class or from another component.
 
-Components are loaded and created via the component factory function `sap.ui.component`. You can either pass the name of the component or the URL of the descriptor file \(`manifest.json`\) to load it via the descriptor, see [Manifest First Function](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst). We recommend loading the component using the descriptor \(if available\) - it improves performance during the initial load since the loading process can be parallelized and optimized.
+Components are loaded and created via the component factory function `sap.ui.component`. You can either pass the name of the component or the URL of the descriptor file \(`manifest.json`\) to load it via the descriptor, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst). We recommend loading the component using the descriptor \(if available\) - it improves performance during the initial load since the loading process can be parallelized and optimized.
 
 After loading the descriptor, the component factory can load the dependencies \(OpenUI5 libraries and other dependent components\) in parallel next to the component preload, and also models can be preloaded.
 
@@ -42,7 +42,7 @@ After loading the descriptor, the component factory can load the dependencies \(
 
 A component is organized in a unique namespace, the namespace of the component equals the component name.
 
-Basically, a component consists of the component controller \(`Component.js`\) and a descriptor \(`manifest.json`\). Only the component controller is mandatory, but we recommend to also use the descriptor file. The descriptor then contains the component metadata, and also expresses the component dependencies and configuration \(see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)\). All required and optional resources of the component have to be organized in the namespace of the component.
+Basically, a component consists of the component controller \(`Component.js`\) and a descriptor \(`manifest.json`\). Only the component controller is mandatory, but we recommend to also use the descriptor file. The descriptor then contains the component metadata, and also expresses the component dependencies and configuration \(see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)\). All required and optional resources of the component have to be organized in the namespace of the component.
 
 > ### Note:  
 > Optional resources are, for example, `CSS`, `js`, or `i18n` files, views, and controllers.
@@ -76,10 +76,25 @@ The following list explains how other concepts used in OpenUI5 are distinguished
     The MVC concept allows to define views and controllers and, thus, to structure and reuse parts within an application. As MVC can only be deployed separately and has no means to define dependent styles or scripts that are loaded together with a view, this concept is of limited use across different applications.
 
 
+-   **[Component.js File](Component_js_File_27ce0e4.md "The Component.js file is the component controller and provides the runtime metadata and the component methods.")**  
+The `Component.js` file is the component controller and provides the runtime metadata and the component methods.
+-   **[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest
+		components inside other components.")**  
+You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
+-   **[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in
+		the HTML markup.")**  
+The declarative API enables you to define the initially started component directly in the HTML markup.
+-   **[Handling IDs in UI Components](Handling_IDs_in_UI_Components_562803c.md "Components are usually used with a root view and in this case, the component handles the
+		prefixing of IDs of views, elements, or controls, with the component ID.")**  
+Components are usually used with a root view and in this case, the component handles the prefixing of IDs of views, elements, or controls, with the component ID.
+-   **[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as
+		well as the event bus.")**  
+Advanced concepts for components include routing and navigation and component data as well as the event bus.
+
 **Related Information**  
 
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
 [API Reference: `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Component.html)
 

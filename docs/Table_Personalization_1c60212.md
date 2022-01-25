@@ -39,21 +39,21 @@ The personalization settings retrieved with this method take the form of an obje
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Property
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -62,21 +62,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `id`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The ID of the column
 
@@ -85,21 +85,21 @@ The ID of the column
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `order`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 integer
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The order of the column. Starts with `0`
 
@@ -108,21 +108,21 @@ The order of the column. Starts with `0`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `text`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 string
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The text of the column header
 
@@ -131,21 +131,21 @@ The text of the column header
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `visible`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 boolean
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Specifies whether the column is visible \(true\) or not \(false\)
 

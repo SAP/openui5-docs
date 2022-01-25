@@ -84,14 +84,14 @@ This could happen if you wrote the tag of the control with lowercase letters, be
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Correct Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Incorrect Example
 
@@ -100,14 +100,14 @@ Incorrect Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `<**B**utton text="Click me" />` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `<**b**utton text="Click me" />`
 

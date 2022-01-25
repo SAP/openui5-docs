@@ -91,7 +91,7 @@ We add the `_setUIChanges` private method that lets us set the property `hasUICh
 ...
 		onInit: function () {
 			...
-		}*HIGHLIGHT START*,*HIGHLIGHT END*
+		},
 		*HIGHLIGHT START*onCreate : function () {
 			var oList = this.byId("peopleList"),
 				oBinding = oList.getBinding("items"),
@@ -158,7 +158,7 @@ We also use the binding context returned by the `create` method to focus and sel
 });
 ```
 
-We create the `onSave` event handler, in which we call the `submitBatch` method of the `ODataModel` API to submit our changes. Because the changes that we submit refer to the table, we need to pass the update group `peopleGroup` that we declared in the table binding.
+We create the `onSave` event handler, in which we call the `submitBatch` method of the `ODataModel` API to submit our changes. Because the changes we submit refer to the table, we need to pass the update group `peopleGroup` that we declared in the table binding.
 
 The `submitBatch` method returns a `Promise` that is rejected only if the batch request itself fails, for example, if the OData service is unavailable or if there were authorization problems. It is resolved in all other cases, also if the service returns errors for single requests that are contained in the batch request. Therefore, we have to implement the error handling for single requests differently.
 
@@ -266,8 +266,8 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 							items="{
 								path: '/People',
 								parameters: {
-									$count: true,
-*HIGHLIGHT START*									$$updateGroupId : 'peopleGroup'*HIGHLIGHT END*
+								$count: true*HIGHLIGHT START*,
+									$$updateGroupId : 'peopleGroup'*HIGHLIGHT END*
 								}
 							}">
 							<headerToolbar>
@@ -325,24 +325,24 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 										<Input
 											value="{UserName}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"/>
-*HIGHLIGHT END*
+											liveChange=".onInputChange"*HIGHLIGHT END*/>
+
 									</cells>
 									<cells>
 										<Input
 											value="{FirstName}"
-*HIGHLIGHT START**											liveChange=".onInputChange"/>*HIGHLIGHT END**
+				*HIGHLIGHT START*							liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
 											value="{LastName}"
-*HIGHLIGHT START*											liveChange=".onInputChange"/>*HIGHLIGHT END*
+				*HIGHLIGHT START*							liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 									<cells>
 										<Input
 											value="{Age}"
 *HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"/>*HIGHLIGHT END*
+											liveChange=".onInputChange"*HIGHLIGHT END*/>
 									</cells>
 								</ColumnListItem>
 							</items>
@@ -393,13 +393,14 @@ saveButtonText=Save
 
 #XBUT: Button text for cancel
 cancelButtonText=Cancel
+
+*HIGHLIGHT END*\#XBUT: Button text for add user
+createButtonText=Add User
+*HIGHLIGHT START*
+
 *HIGHLIGHT END*
 #XTOL: Tooltip for sort
 sortButtonText=Sort by Last Name
-
-*HIGHLIGHT START*#XBUT: Button text for add user
-createButtonText=Add User
-*HIGHLIGHT END*
 ...
 # Messages
 *HIGHLIGHT START*#XMSG: Message for user changes sent to the service
@@ -409,18 +410,24 @@ changesSentMessage=User data sent to the server*HIGHLIGHT END*
 
 We add the new message texts.
 
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Next:** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
+
+**Previous:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+
 **Related Information**  
 
 
-[Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md)
+[Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md "One OData V4 model instance can only cover one OData service. This section describes the creation of a model instance in more detail.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[OData Operations](OData_Operations_b54f789.md)
+[OData Operations](OData_Operations_b54f789.md "The OData V4 model supports OData operations (ActionImport, FunctionImport, bound Actions and bound Functions). Unbound parameters are limited to primitive values.")
 
-[Creating an Entity](Creating_an_Entity_c9723f8.md)
+[Creating an Entity](Creating_an_Entity_c9723f8.md "The sap.ui.model.odata.v4.ODataListBinding#create method creates a new entity. Users can interact with a newly created entity even before it has been sent to the server.")
 
-[Message Model](Message_Model_8956f0a.md)
+[Message Model](Message_Model_8956f0a.md "The message model contains all messages and is used to bind to the messages to display them.")
 
 [API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
 

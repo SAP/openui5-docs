@@ -58,11 +58,13 @@ The following example shows a top level router with a "home" route with two `Com
 
     -   Route `detail`: Shows the details for an item
 
+
 -   `Component` target `childComp2` with the following two defined routes:
 
     -   Route `list`: Has an empty string hash as pattern and shows a list of items
 
     -   Route `detail`: Shows the details for an item which displays again a nested `Component` target `grandChildComp1`
+
 
 
 The `grandChildComp1` target has the following two routes defined:

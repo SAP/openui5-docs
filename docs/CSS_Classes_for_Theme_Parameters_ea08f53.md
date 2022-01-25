@@ -80,10 +80,13 @@ oRm.openStart("div", oControl);
 
 ```
 
+-   **[List of Supported CSS Classes](List_of_Supported_CSS_Classes_91a4946.md "Overview of the CSS classes currently supported by OpenUI5.")**  
+Overview of the CSS classes currently supported by OpenUI5.
+
 **Related Information**  
 
 
-[List of Supported CSS Classes](List_of_Supported_CSS_Classes_91a4946.md)
+[List of Supported CSS Classes](List_of_Supported_CSS_Classes_91a4946.md "Overview of the CSS classes currently supported by OpenUI5.")
 
-[Step 34: Custom Controls](Step_34_Custom_Controls_d12d2ee.md)
+[Step 33: Custom Controls](Step_33_Custom_Controls_d12d2ee.md "In this step, we are going to extend the functionality of OpenUI5 with a custom control. We want to rate the product shown on the detail page, so we create a composition of multiple standard controls using the OpenUI5 extension mechanism and add some glue code to make them work nicely together. This way, we can reuse the control across the app and keep all related functionality in one module.")
 

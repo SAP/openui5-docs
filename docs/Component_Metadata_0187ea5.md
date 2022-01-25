@@ -13,11 +13,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 The component class provides specific metadata for components by extending the `ManagedObject` class. The `UIComponent` class provides additional metadata for the configuration of user interfaces or the navigation between views.
 
 > ### Note:  
-> With the introduction of the descriptor for applications, components, and libraries, we recommend to migrate the component metadata to the descriptor. The descriptor is inspired by W3C’s Web Application Manifest and provides comprehensive information for applications, components and libraries. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md). The metadata property `manifest` must be set to `json` to indicate that the `manifest.json` file should be loaded and used:
+> With the introduction of the descriptor for applications, components, and libraries, we recommend to migrate the component metadata to the descriptor. The descriptor is inspired by W3C’s Web Application Manifest and provides comprehensive information for applications, components and libraries. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md). The metadata property `manifest` must be set to `json` to indicate that the `manifest.json` file should be loaded and used:
 > 
 > ``` js
-> 
-> sap.ui.core.Component.extend("some.sample.Component", {
+> // "Component" required from module "sap/ui/core/Component"
+> Component.extend("some.sample.Component", {
 >     "metadata": {
 >         "manifest": "json"
 >     }
@@ -51,6 +51,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
     -   `ui5version`: Minimum version of OpenUI5 that the component requires; it helps to be ensure that the features of OpenUI5 runtime used in this component are available. As OpenUI5 currently does not enforce the use of the correct version, it is only used for information purposes.
 
+
 -   `config`: Static configuration; specify the name-value pairs that you need in the component
 
 -   `extensions`: Extensions for components and views, see [Extending Apps](Extending_Apps_a264a9a.md)
@@ -66,11 +67,12 @@ The following properties are deprecated and no longer needed if you use the desc
     -   `sap.ui.controllerReplacements`: Used for replacing a controller in a delivered standard application with a custom controller
 
 
+
 Example for metadata in `Component.js`:
 
 ``` js
-
-sap.ui.core.Component.extend("some.sample.Component", {
+// "Component" required from module "sap/ui/core/Component"
+Component.extend("some.sample.Component", {
     "metadata": {
         "manifest": "json", // Specifies that your Component class uses the descriptor via the manifest.json file
         "abstract": true, // Specifies if your Component class is an abstract one that serves as a base for your other components 
@@ -89,7 +91,9 @@ In addition to the common metadata for components, the `UIComponent` class provi
 
 -   `aggregations`: Defines aggregations for your component
 
--   `interfaces`: Defines the interfaces implemented by your component
+-   `interfaces`: Defines the interfaces implemented by your component.
+
+    We recommend to add the `sap.ui.core.IAsyncContentCreation` marker interface when defining a new component. Using this interface allows the component to be created fully asynchronously. This interface will implicitly set the component's `rootView` and router configuration to `async`. Nested views will also be handled asynchronously. Additionally, the error handling during the processing of views is stricter and will fail if a view definition contains errors, e.g. broken binding strings.
 
 
 The following properties are deprecated and no longer needed if you use the descriptor:
@@ -112,6 +116,7 @@ The following properties are deprecated and no longer needed if you use the desc
 
         -   `clearTarget`: Boolean; if set to `true`, the aggregation should be cleared before adding the View to it
 
+
     -   `routes`: Contains the configuration objects
 
         -   `name`: Mandatory parameter used for listening or navigating to the route
@@ -121,11 +126,13 @@ The following properties are deprecated and no longer needed if you use the desc
         -   `view`: Name of the view that is created
 
 
+
+
 Example for UI component metadata:
 
 ``` js
-
-sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
+// "UIComponent" required from module "sap/ui/core/UIComponent"
+UIComponent.extend("some.sample.UIComponent", {
     "metadata": {
         "publicMethods": [ "render" ],
         "aggregations": {
@@ -144,8 +151,8 @@ sap.ui.core.UIComponent.extend("some.sample.UIComponent", {
 You can add a properties section to the metadata for all properties that can adopt different values during runtime. The getters and setters for these properties are generated automatically, but you can overwrite them if you require additional functionality. The following example contains two properties at the end of the metadata section.
 
 ``` js
-
-sap.ui.core.UIComponent.extend("samples.components.shell.Component", {
+// "UIComponent" required from module "sap/ui/core/UIComponent"
+UIComponent.extend("samples.components.shell.Component", {
     "metadata": {
         "abstract": true,
         "version": "1.0",

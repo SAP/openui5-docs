@@ -29,14 +29,14 @@ Add your own namespaced classes instead.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -45,7 +45,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -57,7 +57,7 @@ Good Example
 
 
 </td>
-<td>
+<td valign="top">
 
 Add a custom CSS class to the control in those situations where you want additional styling:
 
@@ -92,14 +92,14 @@ Styling DOM elements directly will lead to unpredictable results, as OpenUI5 doe
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -108,7 +108,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` html
 
@@ -120,7 +120,7 @@ div {
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -148,14 +148,14 @@ OpenUI5 applications can create dynamic IDs for elements. Do not use these IDs a
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -164,7 +164,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -176,7 +176,7 @@ Good Example
 
 
 </td>
-<td>
+<td valign="top">
 
 Add a style class as described above and then define the following:
 
@@ -206,14 +206,14 @@ Custom selectors and CSS classes that are not namespaced might lead to style cla
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -222,7 +222,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -234,7 +234,7 @@ Good Example
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 
@@ -262,14 +262,14 @@ Themability of applications relies on LESS calculations within the OpenUI5 theme
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -278,7 +278,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 
@@ -291,7 +291,7 @@ Good Example
 
 
 </td>
-<td>
+<td valign="top">
 
 Add the CSS classes `sapThemeTextInverted` and `sapThemeHighlight-asBackgroundColor` to your custom HTML element.
 
@@ -318,14 +318,14 @@ To ensure that you do not use combinations of theme colors which may clash after
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Bad Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Good Example
 
@@ -334,7 +334,7 @@ Good Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ``` js
 
@@ -345,7 +345,7 @@ $(oSomeDomElement).css("background-color", sColor);
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 

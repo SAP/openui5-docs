@@ -28,7 +28,7 @@ From the control point of view, the input of control properties must be validate
 
 ### Output Encoding
 
-All data sent from the server must be properly output encoded according to the context they are contained in. For more information, see [Cross-Site Scripting](Cross-Site_Scripting_91f0bd3.md).
+All data sent from the server must be properly output encoded according to the context they are contained in. For more information, see [Cross-Site Scripting](Cross_Site_Scripting_91f0bd3.md).
 
 Content, which is created on the client side either for display within the browser or for data transport, needs to be properly output encoded with the encoding methods provided by OpenUI5. There are methods for encoding HTML, XML, JavaScript, CSS and URI components.
 
@@ -37,7 +37,7 @@ All controls in OpenUI5 libraries properly encode their data, except for HTML-co
 > ### Note:  
 > Using an XMLView with application controlled secure HTML content together with standard OpenUI5 controls \(other than HTML and XMLView\) containing potentially unsecure data is also safe. Only untrusted HTML content is critical.
 
-For more information on OpenUI5 HTML code cleanup, see [HTML5 Sanitizer](Cross-Site_Scripting_91f0bd3.md#loio91f0bd316f4d1014b6dd926db0e91070__section_fdr_tzl_xcb).
+For more information on OpenUI5 HTML code cleanup, see [HTML5 Sanitizer](Cross_Site_Scripting_91f0bd3.md#loio91f0bd316f4d1014b6dd926db0e91070__section_fdr_tzl_xcb).
 
 ***
 

@@ -38,7 +38,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 -   Automated tests
 
-    To check the behavior of apps at runtime, these tests find controls by searching for stable IDs. If you use OPA in OpenUI5, you're able to find controls via other criteria like control type, display name and others. For more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_(OPA5)_2696ab5.md).
+    To check the behavior of apps at runtime, these tests find controls by searching for stable IDs. If you use OPA in OpenUI5, you're able to find controls via other criteria like control type, display name and others. For more information, see [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md).
 
 -   Inline help tools
 
@@ -60,18 +60,18 @@ The generated IDs change whenever the control structure of the app changes. The 
 
 <table>
 <tr>
-<td>
+<td valign="top">
 
 **Views**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Views in the descriptor for applications, components, and libraries
 
-    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+    The standard use case is that you use stable IDs for the view that the router navigates to. Ideally, instead of creating the views yourself, you create them with routing targets and declare the view ID in the manifest.json file as shown in the example below. For more information, see [Routing and Navigation](Routing_and_Navigation_3d18f20.md) and [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
     Example:
 
@@ -89,8 +89,10 @@ The generated IDs change whenever the control structure of the app changes. The 
     		...
     		"targets": {
     			"myTarget": {
-    				"viewName": "MyView",
-    				"viewId": "myView"
+    				"type": "View",
+    				"viewType": "XML",
+    				"name": "MyView",
+    				"id": "myView"
     				}
     			}
     		}
@@ -140,14 +142,14 @@ The generated IDs change whenever the control structure of the app changes. The 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Extension points** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you use extension points, use stable IDs for nested views and prefixes for nested controls of a fragment.
 
@@ -156,14 +158,14 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Controls** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Controls in XML views
 
@@ -201,14 +203,14 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Components** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 > ### Note:  
 > The following is only relevant if you do not use the SAP Fiori launchpad because it instantiates components for you and provides IDs.
@@ -239,14 +241,14 @@ new Shell({
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Embedded Components** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 If you want to add an embedded component with a stable ID, you have two options:
 
@@ -312,22 +314,34 @@ If you want to add an embedded component with a stable ID, you have two options:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **XML fragments** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
-If you are using XML fragments in your app, make sure they are instantiated using the correct view ID prefix.
+If you use XML fragments in your app, make sure they are instantiated with the correct view ID prefix.To simplify this you can use the `loadFragment` function on your `sap.ui.core.mvc.Controller` instance.
 
-Example:
+Example using the controller function `loadFragment`:
+
+``` js
+// "this" is the controller instance
+this.loadFragment({
+	// note: no ID prefix needed
+	name: "my.fragment.SampleFragment"
+});
+```
+
+Example using the generic function `sap.ui.core.Fragment.load`:
 
 ``` js
 // "Fragment" required from module "sap/ui/core/Fragment"
+// "this" is the controller instance
 Fragment.load({
+	// note: ID prefix needed
 	id: this.getView().getId(),
 	name: "my.fragment.SampleFragment"
 });
@@ -360,28 +374,28 @@ If you build an app using the following stable IDs for the component and the vie
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Component
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Views
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Contained views
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Concatenated IDs
 
@@ -390,28 +404,28 @@ Concatenated IDs
 </th>
 </tr>
 <tr>
-<td rowspan="4">
+<td valign="top" rowspan="4">
 
  ***myProducts*** 
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
  ***worklist*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***page*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---worklist--page` 
 
@@ -420,14 +434,14 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  ***table*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---worklist--table` 
 
@@ -436,21 +450,21 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
  ***product*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ***page*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---product--page` 
 
@@ -459,14 +473,14 @@ Concatenated IDs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  ***objectHeader*** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `myProducts---product--objectHeader` 
 
@@ -476,7 +490,7 @@ Concatenated IDs
 </tr>
 </table>
 
-For more information about the SAP Fiori Worklist Application template, see [Worklist Template](Worklist_Template_a77f2d2.md).
+For more information about the SAP Fiori Worklist Application template, see [Worklist Template](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a77f2d29299247f8a3e30226507b1765.html "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.") :arrow_upper_right:.
 
 ***
 
@@ -500,5 +514,5 @@ If any generated IDs are found, set the IDs for these controls manually as descr
 **Related Information**  
 
 
-[Support Assistant](Support_Assistant_57ccd7d.md)
+[Support Assistant](Support_Assistant_57ccd7d.md "The Support Assistant enables developers to check whether their apps are built according to the OpenUI5 best practices and guidelines.")
 

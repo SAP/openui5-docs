@@ -93,14 +93,14 @@ A documentation comment should provide the following content:
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Verb
 
@@ -109,14 +109,14 @@ A documentation comment should provide the following content:
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Constructor
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Constructs
 
@@ -125,14 +125,14 @@ A documentation comment should provide the following content:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Boolean
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Indicates \(whether\)
 
@@ -141,14 +141,14 @@ A documentation comment should provide the following content:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Getter
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Gets
 
@@ -157,14 +157,14 @@ A documentation comment should provide the following content:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Setter
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Sets
 
@@ -173,14 +173,14 @@ A documentation comment should provide the following content:
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     Other
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Adds/Removes/Creates/Releases/Other verb that applies
 
@@ -214,35 +214,35 @@ The table provides an overview of the most common inline and HTML tags.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Tag
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Use
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to Use / Details
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Type of Tag
 
@@ -251,21 +251,21 @@ Type of Tag
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 \{@link\}
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Links within API Reference
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `{@link sap.ui.generic.app.navigation.service.NavError Error}`
 
@@ -274,7 +274,7 @@ Links within API Reference
 
 
 </td>
-<td>
+<td valign="top">
 
 To replace the path with a display text, use it like this: \{@link <path\> space <display text\>\}.
 
@@ -285,7 +285,7 @@ For other links, use the required syntax, for example, `#event:name`.
 
 
 </td>
-<td>
+<td valign="top">
 
 Inline
 
@@ -294,33 +294,33 @@ Inline
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Empty line
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creates a paragraph
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Using <p\> is not necessary, since empty lines are used to define paragraphs.
 
 
 
 </td>
-<td rowspan="8">
+<td valign="top" rowspan="8">
 
 HTML
 
@@ -329,61 +329,61 @@ HTML
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <code\>…</code\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Technical entities \(optional\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 the <code\>Button</code\> control
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <pre\>…</pre\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Code samples
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <ul\>
 
@@ -396,26 +396,26 @@ Code samples
 
 
 </td>
-<td>
+<td valign="top">
 
 Unordered lists
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <ol\>
 
@@ -428,97 +428,97 @@ Unordered lists
 
 
 </td>
-<td>
+<td valign="top">
 
 Ordered lists
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <strong\>… </strong\> or <b\>…</b\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bold font
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <i\>…</i\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Italics
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 &nbsp;
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Non-breaking space
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
@@ -543,28 +543,28 @@ The table provides an overview of the most common block tags.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Tag
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Use
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 How to Use / Details
 
@@ -573,21 +573,21 @@ How to Use / Details
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @param
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds parameters
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 /**
@@ -600,7 +600,7 @@ Adds parameters
 
 
 </td>
-<td>
+<td valign="top">
 
 Begin description with a capital letter.
 
@@ -609,28 +609,28 @@ Begin description with a capital letter.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @returns
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds return values
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@returns {type1|type2|...} Description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Begin description with a capital letter.
 
@@ -639,28 +639,28 @@ Begin description with a capital letter.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @throws
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds the description of an exception if an error occurs
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@throws {type} Description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Begin description with a capital letter.
 
@@ -669,28 +669,28 @@ Begin description with a capital letter.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @author
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds the name of the developer responsible for the code
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@author Max Mustermann` 
 
 
 
 </td>
-<td rowspan="2">
+<td valign="top" rowspan="2">
 
 This is an optional tag that is not displayed in JSDoc.
 
@@ -701,21 +701,21 @@ If you need to use the version tag, use $\{version\} so you don't have to update
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Names the version for an entity
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@version 14.1.2` 
 
@@ -724,21 +724,21 @@ Names the version for an entity
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @see
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds information \(for example, link to documentation or the SAP Fiori Design Guidelines\) in the header section of the *API Reference* 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `@see path`
 
@@ -751,7 +751,7 @@ Adds information \(for example, link to documentation or the SAP Fiori Design Gu
 
 
 </td>
-<td>
+<td valign="top">
 
 @see \{@link topic:loio <semantic control name\>\} provides a link to the documentation \(developer guide\).
 
@@ -764,28 +764,28 @@ For more generic topics that are not directly related to a class or control, use
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @since
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds the version in which an entity was first introduced
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@since 1.30` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Be as specific as possible \(without mentioning patch levels for new development\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
 
@@ -794,28 +794,28 @@ Be as specific as possible \(without mentioning patch levels for new development
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @deprecated
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Adds the version in which an entity was deprecated
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@deprecated As of version 1.28, replaced by {@link class name}` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Be as specific as possible \(without mentioning patch levels\), since this information is useful even for internal purposes. For example, mention 1.27, even though this is not an external release.
 
@@ -826,49 +826,49 @@ Provide information about what replaces the deprecated entity.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @experimental
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Classifies an entity that is not ready for production use yet, but available for testing purposes
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `@experimental As of version 1.56.0` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 @example
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Inserts a code sample after the comment
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ``` js
 /**
@@ -884,7 +884,7 @@ Inserts a code sample after the comment
 
 
 </td>
-<td>
+<td valign="top">
 
 The code sample is inserted automatically with <pre\>. It is always inserted right after the comment.
 
@@ -922,28 +922,28 @@ To refer to another entity within the *API Reference*, you can use `{@link}` in 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Type of Reference
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -952,28 +952,28 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 <full.path.ClassName\>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to a class, interface, enumeration, or namespace
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui.comp.smarttable.SmartTable` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -982,28 +982,28 @@ Refers to a class, interface, enumeration, or namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 full.path.ClassName**\#**method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an instance method of a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui.comp.smarttable.SmartTable#getHeader` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `.prototype.` and \# are interchangeable
 
@@ -1012,26 +1012,26 @@ Refers to an instance method of a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 full.path.ClassName**.prototype.**method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an instance method of a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1040,28 +1040,28 @@ Refers to an instance method of a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 full.path.ClassName**.**method
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to a static method \(or any other static property\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1070,28 +1070,28 @@ Refers to a static method \(or any other static property\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `#method` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an instance method **within** a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `#getHeader` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You must use this type of reference **within** an API that you are documenting, for example, within the `SmartTable` control documentation, if you want to link to a method that belongs to the control itself.
 
@@ -1100,28 +1100,28 @@ You must use this type of reference **within** an API that you are documenting, 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `#.method` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to a static method **within** a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1130,28 +1130,28 @@ Refers to a static method **within** a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 full.path.ClassName**\#event:**name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an event fired by an instance of a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui.comp.smarttable.SmartTable#event:beforeRebindTable` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1160,28 +1160,28 @@ Refers to an event fired by an instance of a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `#event:name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an event **within** a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1190,28 +1190,28 @@ Refers to an event **within** a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 full.path.ClassName**\#annotation:**name
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an instance annotation of a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1220,28 +1220,28 @@ Refers to an instance annotation of a class
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `#annotation:name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Refers to an annotation **within** a class
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `#annotation:Text Text`
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -1250,4 +1250,8 @@ Refers to an annotation **within** a class
 </td>
 </tr>
 </table>
+
+-   **[Common Pitfalls in JSDoc](Common_Pitfalls_in_JSDoc_30671a0.md "The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined
+		below, these issues can be avoided.")**  
+The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined below, these issues can be avoided.
 

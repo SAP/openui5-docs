@@ -12,11 +12,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.
 
- <a name="loioc9b0f8cca852443f9b8d3bf8ba5626ab loio1ed4b5f9f18848b1badee9b72d4ac261__loio1ed4b5f9f18848b1badee9b72d4ac261"/>
+ <a name="loio1ed4b5f9f18848b1badee9b72d4ac261"/>
 
 <!-- loio1ed4b5f9f18848b1badee9b72d4ac261 -->
 
-## Loading Debug Sources
+### Loading Debug Sources
 
 For performance reasons, the OpenUI5 files are loaded in a minified version, this means that all possible variable names are shortened and comments are removed. This makes debugging harder because the code is less readable.
 
@@ -47,11 +47,11 @@ Choose  [Ctrl\] + [O\]  \(Windows\) or  [Command\] + [O\]  \(macOS\) and type th
 > 
 > To improve performance, you must deactivate the debug sources once you're done with debugging.
 
-<a name="loioc9b0f8cca852443f9b8d3bf8ba5626ab loioc57cb1c50c584fb1930d8da5f709b3ba__loioc57cb1c50c584fb1930d8da5f709b3ba"/>
+<a name="loioc57cb1c50c584fb1930d8da5f709b3ba"/>
 
 <!-- loioc57cb1c50c584fb1930d8da5f709b3ba -->
 
-## Switching the OpenUI5 Version
+### Switching the OpenUI5 Version
 
 ***
 
@@ -67,21 +67,21 @@ This feature can be used to test an application against a newer or older version
 
 ![](loio64d3bfdd0f784ae68030208523452899_LowRes.png)
 
- <a name="loioc9b0f8cca852443f9b8d3bf8ba5626ab loio9d57287c155741e7ad15f42736605ffa__loio9d57287c155741e7ad15f42736605ffa"/>
+ <a name="loio9d57287c155741e7ad15f42736605ffa"/>
 
 <!-- loio9d57287c155741e7ad15f42736605ffa -->
 
-## Setting Breakpoints
+### Setting Breakpoints
 
 Breakpoints are helpful when you debug the event handling of an OpenUI5 object. You can either set breakpoints in the developer tools of your browser, or use the *Diagnostics* window.
 
 For more information, see [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
- <a name="loioc9b0f8cca852443f9b8d3bf8ba5626ab loio549150aa11cf432780c1801a6e2dc3c4__loio549150aa11cf432780c1801a6e2dc3c4"/>
+ <a name="loio549150aa11cf432780c1801a6e2dc3c4"/>
 
 <!-- loio549150aa11cf432780c1801a6e2dc3c4 -->
 
-## Breakpoints on the Class Level
+### Breakpoints on the Class Level
 
 In the *Debugging* section of the *Diagnostics* window, you can set breakpoints on the class level.
 
@@ -110,11 +110,11 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 6.  To remove a breakpoint, select the red x.
 
 
- <a name="loioc9b0f8cca852443f9b8d3bf8ba5626ab loiob691c4e7e970484991007a4e30fcd6d0__loiob691c4e7e970484991007a4e30fcd6d0"/>
+ <a name="loiob691c4e7e970484991007a4e30fcd6d0"/>
 
 <!-- loiob691c4e7e970484991007a4e30fcd6d0 -->
 
-## Breakpoints on the Object Level
+### Breakpoints on the Object Level
 
 In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on the object level.
 

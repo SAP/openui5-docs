@@ -26,6 +26,7 @@ Lists can have the following properties:
     -   `SingleSelectMaster` \(without select control for use cases like the split app, by default the !includeItemInSelection = true\)
     -   `MultiSelect`
     -   `Delete`
+
 -   The `includeItemInSelection` property \(default: `false` defines the tap handling of a list item. By default, you can select an item by tapping the radio button or check box. To use the whole list item tap for selecting an item, change the property value to `true`. This property is only relevant in selection mode.
 
 -   The `showUnread` property \(default: `false` decides whether an 'unread' indicator is added to each list item. When active, it shows a blue bubble for unread list items.
@@ -74,35 +75,35 @@ Except for `ActionListItem`, list items do **not** by default fire an event unle
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Press Event
 
 
 
 </th>
-<th>
+<th valign="top">
 
 detailPress Event
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Icon
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Active Feedback
 
@@ -111,35 +112,35 @@ Active Feedback
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Inactive \(default\)**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
@@ -148,35 +149,35 @@ Active Feedback
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Active**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
@@ -185,35 +186,35 @@ yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Navigation**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \>
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
@@ -222,35 +223,35 @@ yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Detail**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(\>\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 --
 
@@ -259,35 +260,35 @@ yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **DetailAndActive**
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(\>\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 yes \(content only\)
 
@@ -366,6 +367,7 @@ The following types are available for list items:
     -   `title`
     -   `description`
     -   `icon`: The icon is displayed on the left hand side of the list item and can be shown with or without an inset.
+
      `label` feature to set a label and the `content` feature that can be aggregated with controls, for example a radio button or a search control. The following code snippet shows an example:
 
     ``` js
@@ -399,4 +401,9 @@ The following types are available for list items:
 
 -   [sap.m.List](https://openui5.hana.ondemand.com/#/api/sap.m.List)
 -   [sap.m.ListItemBase](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase)
+
+-   **[Custom List Item](Custom_List_Item_3e426f1.md "You can use the sap.m.CustomListItem control to create your own layout
+		if the other list items available in OpenUI5 do not fit your
+		needs.")**  
+You can use the `sap.m.CustomListItem` control to create your own layout if the other list items available in OpenUI5 do not fit your needs.
 

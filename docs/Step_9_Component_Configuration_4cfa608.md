@@ -170,20 +170,26 @@ We now create a component container instead of the view in our `index.js` that i
 -   The `index.html` file is located in the `webapp` folder if it is used productively.
 
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
+
+**Previous:** [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
+
 **Related Information**  
 
 
-[Components](Components_958ead5.md)
+[Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
 [API Reference: `sap.ui.core.mvc.ViewType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)
 
 [Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.ViewType)
 
-[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
+[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
 
-[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")
 
-[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as well as the event bus.")
 
-[Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md)
+[Make Your App CSP Compliant](Make_Your_App_CSP_Compliant_1f81a09.md "CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.")
 

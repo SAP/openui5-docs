@@ -59,7 +59,7 @@ If either width or height isn’t defined, a default value is assigned. The defa
 
 #### Is It the Startup That's Failing?
 
-Maybe the app is loading too slowly for the OPA tests. If there's a local index file that doesn't contain the library dependencies your app needs, the OpenUI5 bootstrap is very slow. To fix this, add the dependencies you need in your application descriptor's `sap.ui.dependencies` namespace. If you don't have a descriptor, use the bootstrap option libs. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+Maybe the app is loading too slowly for the OPA tests. If there's a local index file that doesn't contain the library dependencies your app needs, the OpenUI5 bootstrap is very slow. To fix this, add the dependencies you need in your application descriptor's `sap.ui.dependencies` namespace. If you don't have a descriptor, use the bootstrap option libs. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 ***
 
@@ -143,7 +143,7 @@ oOpa.waitFor({
 **Related Information**  
 
 
-[Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md)
+[Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md "Advanced topics and best practices for OPA tests.")
 
-[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6)
+[Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6 "The Diagnostics window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.")
 

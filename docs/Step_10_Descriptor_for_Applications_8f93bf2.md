@@ -66,8 +66,9 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 		"id": "app"
 	},
 	"dependencies": {
-	  "minUI5Version": "1.60",
+	  "minUI5Version": "1.93",
 	  "libs": {
+		"sap.ui.core": {},
 		"sap.m": {}
 	  }
 	},
@@ -108,6 +109,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 
     -   `applicationVersion`: The version of the application to be able to easily update the application later on
 
+
 -   **`sap.ui`**
 
     The `sap.ui namespace` contributes the following UI-specific attributes:
@@ -115,6 +117,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
     -   `technology`: This value specifies the UI technology; in our case we use OpenUI5
 
     -   `deviceTypes`: Tells what devices are supported by the app: desktop, tablet, phone \(all true by default\)
+
 
 -   **`**sap.ui5**`**
 
@@ -125,6 +128,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
     -   `dependencies`: Here we declare the UI libraries used in the application
 
     -   `models`: In this section of the descriptor we can define models that will be automatically instantiated by OpenUI5 when the app starts. Here we can now define the local resource bundle. We define the name of the model "i18n" as key and specify the bundle file by namespace. As in the previous steps, the file with our translated texts is stored in the `i18n` folder and named `i18n.properties`. We simply prefix the path to the file with the namespace of our app. The manual instantiation in the app component's init method will be removed later in this step. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as in this tutorial our demo app uses only one `i18n.properties` file for simplicity, and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale.
+
 
     For compatibility reasons the root object and each of the sections state the descriptor version number `1.1.0` under the internal property `_version`. Features might be added or changed in future versions of the descriptor and the version number helps to identify the application settings by tools that read the descriptor.
 
@@ -231,12 +235,18 @@ In the component's `metadata` section, we now replace the `rootView` property wi
 -   Use translatable strings for the title and the description of the app.
 
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
+
+**Previous:** [Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
+
 **Related Information**  
 
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md)
+[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two methods for the initial instantiation of the component.")
 
-[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
+[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as well as the event bus.")
 

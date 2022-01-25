@@ -20,7 +20,7 @@ The tool aims to reduce maintenance and consulting times and to streamline OpenU
 
 Check out the Support Assistant highlights video for an overview of its main functionalities:
 
-     
+  
 
 ***
 
@@ -80,8 +80,17 @@ All scopes and temporary rules can be stored in the local storage of your browse
 -   To learn more about creating your own rules see: [Rule Development Guide](Rule_Development_Guide_cd356da.md)
 
 
+-   **[Using the Support Assistant](Using_the_Support_Assistant_12572ab.md "The user interface of the Support Assistant allows you to view the available rules and
+		load additional rulesets for an active application. You can also run an analysis and view
+		the issues identified. The results are available in the form of a consolidated report,
+		generated as an HTML document.")**  
+The user interface of the Support Assistant allows you to view the available rules and load additional rulesets for an active application. You can also run an analysis and view the issues identified. The results are available in the form of a consolidated report, generated as an HTML document.
+-   **[Rule Development Guide](Rule_Development_Guide_cd356da.md "The Support Assistant allows you to create custom rules and rulesets and test them on
+		your apps.")**  
+The Support Assistant allows you to create custom rules and rulesets and test them on your apps.
+
 **Related Information**  
 
 
-[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md)
+[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
 

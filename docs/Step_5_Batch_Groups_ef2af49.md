@@ -45,7 +45,7 @@ You can view and download all files at [OData V4 - Step 5](https://openui5.hana.
 				"settings": {
 					"autoExpandSelect": true,
 					"operationMode": "Server",
-					*HIGHLIGHT START*"groupId": "$auto"*HIGHLIGHT END*,
+					"groupId": *HIGHLIGHT START*"$auto"*HIGHLIGHT END*,
 					"synchronizationMode": "None"
 				}
 ...
@@ -67,10 +67,16 @@ A `$batch` request uses multipart MIME to put several requests into one. This ma
 -   Copy the relevant part of the request or response from the developer tools to an editor and auto-format it as JSON to analyze it.
 
 
+**Parent topic:** [OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+
+**Next:** [Step 4: Filtering, Sorting, and Counting](Step_4_Filtering_Sorting_and_Counting_426ff31.md "In this step, we add features to filter, sort, and count the user data by using the OData V4 model API to apply OData system query options $filter, $orderby, and $count.")
+
+**Previous:** [Step 6: Create and Edit](Step_6_Create_and_Edit_b4f1266.md "In this step, we will make it possible to create and edit (update) user data from the user interface and send the data to the back end.")
+
 **Related Information**  
 
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[Performance Aspects](Performance_Aspects_5a0d286.md)
+[Performance Aspects](Performance_Aspects_5a0d286.md "The OData V4 model offers the features described below which influence performance.")
 

@@ -15,28 +15,28 @@ Overview, how the component metadata are mapped to the descriptor.
 For compatibility reasons, the mapping to the `manifest.json` file is done automatically. If a metadata property has been defined, it can also be consumed via the corresponding property of the `manifest.json` file. For a detailed step-by-step guide, see [Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md).
 
 > ### Note:  
-> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the descriptor \(`manifest.json`\). For more information about manifest first, see the *Manifest First Function* section in [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+> To benefit from the performance improvements that can be achieved by using “manifest first”, we recommend to migrate the component metadata to the descriptor \(`manifest.json`\). For more information about manifest first, see the *Manifest First Function* section in [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
 <a name="loioe282db2865e94f69972c407469b801e9__table_ogz_llt_45"/>Mapping Table
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Metadata
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Descriptor
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -45,21 +45,21 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Component namespace
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.app/id` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -68,21 +68,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.app/applicationVersion/version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -91,21 +91,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `config` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/config` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -114,21 +114,21 @@ Component namespace
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `dependencies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/depedencies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Different format, see *Dependencies* section below
 
@@ -137,21 +137,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `customizing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/extends/extensions` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -160,21 +160,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `handleValidation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/handleValidation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -183,21 +183,21 @@ Different format, see *Dependencies* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `includes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/resources` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Different format, see *Resources* section below
 
@@ -206,21 +206,21 @@ Different format, see *Resources* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `rootView` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/rootView` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -229,21 +229,21 @@ Different format, see *Resources* section below
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `routing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `sap.ui5/routing` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
@@ -304,10 +304,13 @@ Includes are renamed to resources and are objects and not an array.
 
 **Descriptor**
 
+> ### Note:  
+> Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
+
 ``` js
 
 "resources": {
-    "js": [
+    "js": [ //deprecated since 1.94
         {
             "uri": "script.js"
         }

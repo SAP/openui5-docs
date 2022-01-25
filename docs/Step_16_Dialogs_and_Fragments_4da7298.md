@@ -68,7 +68,7 @@ You can view and download all files at [Walkthrough - Step 16](https://openui5.h
 </mvc:View>
 ```
 
-We add a new button to the view to open the dialog. It simply calls an event handler function in the controller of the panel’s content view. We will need the new `id="helloDialogButton"` in [Step 29: Integration Test with OPA](Step_29_Integration_Test_with_OPA_9bf4dce.md).
+We add a new button to the view to open the dialog. It simply calls an event handler function in the controller of the panel’s content view. We will need the new `id="helloDialogButton"` in [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md).
 
 It is a good practice to set a unique ID like `helloWorldButton` to key controls of your app so that can be identified easily. If the attribute \`id\` is not specified, the OpenUI5 runtime generates unique but changing ID like \`\_\_button23\` for the control. Inspect the DOM elements of your app in the browser to see the difference.
 
@@ -91,8 +91,6 @@ We add a new XML file to declaratively define our dialog in a fragment. The frag
 
 The syntax is similar to a view, but since fragments do not have a controller this attribute is missing. Also, the fragment does not have any footprint in the DOM tree of the app, and there is no control instance of the fragment itself \(only the contained controls\). It is simply a container for a set of reuse controls.
 
-We also add an `id` for our `Dialog` to be able to access the dialog from our `HelloPanel` controller.
-
 ***
 
 ### webapp/controller/HelloPanel.controller.js
@@ -111,17 +109,11 @@ sap.ui.define([
 			…
 		}*HIGHLIGHT START*,
 		onOpenDialog : function () {
-			var oView = this.getView();
 
 			// create dialog lazily
 			if (!this.pDialog) {
-				this.pDialog = Fragment.load({
-					id: oView.getId(),
+				this.pDialog = this.loadFragment({
 					name: "sap.ui.demo.walkthrough.view.HelloDialog"
-				}).then(function (oDialog) {
-					// connect dialog to the root view of this component (models, lifecycle)
-					oView.addDependent(oDialog);
-					return oDialog;
 				});
 			} 
 			this.pDialog.then(function(oDialog) {
@@ -133,24 +125,15 @@ sap.ui.define([
 });
 ```
 
-If the dialog in the fragment does not exist yet, the fragment is instantiated by calling the `Fragment.load` API with the following arguments:
+If the dialog in the fragment does not exist yet, the fragment is instantiated by calling the `loadFragment` API.
 
--   The ID of the `HelloPanel` view
+As you can see in the snippet above, we store the loading `Promise` of the dialog fragment on the controller instance. This allows us to handle the opening of the dialog asynchronously on each click of the `helloDialogButton` button.
 
-    This parameter is used to prefix the IDs inside our fragment. There, we have defined the ID `helloDialog` for the `Dialog` control, and we can access the dialog via the view by calling `oView.byId("helloDialog")`. This makes sure that even if you instantiate the same fragment in other views in the same way, each dialog will have its unique ID that is concatenated from the view ID and the dialog ID.
-
-    Using unique IDs is important, because duplicate IDs lead to errors in the framework.
-
--   The name of the fragment
-
-
-We add the dialog as "dependent" on the view to be connected to the lifecycle of the view’s model. A convenient side-effect is that the dialog will automatically be destroyed when the view is destroyed. Otherwise, we would have to destroy the dialog manually to free its resources.
+To reuse the dialog opening and closing functionality in other controllers, you can create a new file `sap.ui.demo.walkthrough.controller.BaseController`, which extends `sap.ui.core.mvc.Controller`, and put all your dialog-related coding into this controller. Now, all the other controllers can extend from `sap.ui.demo.walkthrough.controller.BaseController` instead of `sap.ui.core.mvc.Controller`.
 
 ***
 
 ### Conventions
-
--   Always use the `addDependent` method to connect the dialog to the lifecycle management and data binding of the view, even though it is not added to its UI tree.
 
 -   Private functions and variables should always start with an underscore.
 
@@ -176,14 +159,20 @@ helloPanelTitle=Hello World
 
 We add a new text for the open button to the text bundle.
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
+
+**Previous:** [Step 17: Fragment Callbacks](Step_17_Fragment_Callbacks_354f98e.md "Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.")
+
 **Related Information**  
 
 
-[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md)
+[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md "Fragments are light-weight UI parts (UI sub-trees) which can be reused, defined similar to views, but do not have any controller or other behavior code involved.")
 
-[Dialogs and other Popups as Fragments](Dialogs_and_other_Popups_as_Fragments_448c641.md)
+[Dialogs and other Popups as Fragments](Dialogs_and_other_Popups_as_Fragments_448c641.md "You can use fragments to declaratively define dialogs and other popup controls which are not part of the normal page UI structure.")
 
-[Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md)
+[Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md "Stable IDs are IDs for controls, elements, or components that you set yourself in the respective id property or attribute as opposed to IDs that are generated by OpenUI5. Stable means that the IDs are concatenated with the application component ID and do not have any auto-generated parts.")
 
 [API Reference: `sap.ui.core.Fragment`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Fragment.html)
 

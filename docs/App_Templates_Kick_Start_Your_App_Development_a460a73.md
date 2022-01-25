@@ -35,28 +35,28 @@ All templates are available under [Demo Apps](https://openui5.hana.ondemand.com/
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Template
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Name in SAP Web IDE 
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Name of GitHub Repository
 
@@ -65,28 +65,28 @@ Name of GitHub Repository
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Basic template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Basic Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **SAPUI5 Application** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-basic-template-app` 
 
@@ -95,21 +95,21 @@ Basic template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Worklist template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Worklist Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 **SAP Fiori Worklist Application**
 
@@ -118,7 +118,7 @@ Worklist template
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-worklist-app` 
 
@@ -127,28 +127,28 @@ Worklist template
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Master-Detail template
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **Master-Detail Template** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  **SAP Fiori Master-Detail Application** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `openui5-masterdetail-app` 
 
@@ -158,10 +158,21 @@ Master-Detail template
 </tr>
 </table>
 
+-   **[Worklist Template](Worklist_Template_a77f2d2.md "The SAP Fiori
+			Worklist Application template implements a typical worklist floorplan, one of
+		the patterns that is specified by the SAP Fiori design guidelines.")**  
+The **SAP Fiori Worklist Application** template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.
+-   **[Master-Detail Template](Master-Detail_Template_8ed9339.md "The SAP Fiori Master-Detail Application template implements a
+		flexible column layout, one of the design patterns that is specified by the SAP Fiori design guidelines.")**  
+The **SAP Fiori Master-Detail Application** template implements a flexible column layout, one of the design patterns that is specified by the SAP Fiori design guidelines.
+-   **[Basic Template](Basic_Template_7a4d93c.md "The basic template is intended for all developers who want to start developing their
+		own OpenUI5 app from scratch. ")**  
+The basic template is intended for all developers who want to start developing their own OpenUI5 app from scratch.
+
 **Related Information**  
 
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 
-[Development Environment](Development_Environment_7bb04e0.md)
+[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.")
 

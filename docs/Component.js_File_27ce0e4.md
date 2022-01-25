@@ -34,8 +34,17 @@ The metadata of the component controller should be used to declare the runtime m
 
 We recommend to define the component metadata externally in the descriptor \(`manifest.json`\), because the descriptor for components is mandatory for modern components and allows performance optimizations.
 
+-   **[Component Metadata](Component_Metadata_0187ea5.md "The component class provides specific metadata for components by extending the
+			ManagedObject class. The UIComponent class provides
+		additional metadata for the configuration of user interfaces or the navigation between
+		views.")**  
+The component class provides specific metadata for components by extending the `ManagedObject` class. The `UIComponent` class provides additional metadata for the configuration of user interfaces or the navigation between views.
+-   **[Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md "OpenUI5 provides two
+		methods for the initial instantiation of the component.")**  
+OpenUI5 provides two methods for the initial instantiation of the component.
+
 **Related Information**  
 
 
-[Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
+[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest components inside other components.")
 

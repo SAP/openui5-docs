@@ -26,21 +26,21 @@ The following table shows the supported features for both OData models:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.ui.model.odata.v2.ODataModel` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.ui.model.odata.ODataModel` 
 
@@ -49,21 +49,21 @@ Feature
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 OData version support
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2.0
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2.0
 
@@ -72,21 +72,21 @@ OData version support
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 JSON format
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -95,21 +95,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 XML format
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes \(default\)
 
@@ -118,21 +118,21 @@ Yes \(default\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Support of two-way binding mode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes; for property changes only, not yet implemented for aggregations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Experimental; only properties of one entity can be changed at the same time
 
@@ -141,21 +141,21 @@ Experimental; only properties of one entity can be changed at the same time
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Default binding mode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 One-way binding
 
 
 
 </td>
-<td>
+<td valign="top">
 
 One-way binding
 
@@ -164,14 +164,14 @@ One-way binding
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Client-side sorting and filtering
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -180,7 +180,7 @@ For more information, see [API Reference: sap.ui.model.odata.OperationMode](http
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -189,21 +189,21 @@ No
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 $batch
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes; all requests can be batched
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Only manual batch requests are possible
 
@@ -212,21 +212,21 @@ Only manual batch requests are possible
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Data cache in model
 
 
 
 </td>
-<td>
+<td valign="top">
 
 All data is cached in the model
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Manually requested data is **not** cached
 
@@ -235,21 +235,21 @@ Manually requested data is **not** cached
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Automatic refresh
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes \(default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Yes
 
@@ -258,21 +258,21 @@ Yes
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Message handling
 
 
 
 </td>
-<td>
+<td valign="top">
 
-Yes, see [Error, Warning, and Info Messages](Error,_Warning,_and_Info_Messages_62b1481.md) 
+Yes, see [Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No
 
@@ -292,11 +292,11 @@ The requests to the service to fetch data are made automatically based on the da
 
 [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio218afa0780da42fd982b72e992fb57d2__loio218afa0780da42fd982b72e992fb57d2"/>
+ <a name="loio218afa0780da42fd982b72e992fb57d2"/>
 
 <!-- loio218afa0780da42fd982b72e992fb57d2 -->
 
-## Creating the Model Instance
+### Creating the Model Instance
 
 One OData model instance can only cover one OData service. For accessing multiple services, you have to create multiple OData model instances.
 
@@ -316,11 +316,11 @@ When creating an `ODataModel` instance, a request is sent to retrieve the servic
 http://services.odata.org/Northwind/Northwind.svc/$metadata
 ```
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio71a3ae02691147abaf6d78a553d50161__loio71a3ae02691147abaf6d78a553d50161"/>
+ <a name="loio71a3ae02691147abaf6d78a553d50161"/>
 
 <!-- loio71a3ae02691147abaf6d78a553d50161 -->
 
-## Service Metadata
+### Service Metadata
 
 The service metadata is cached per service URL. Multiple OData models that are using the same service can share this metadata.
 
@@ -334,11 +334,11 @@ var oMetadata = oModel.getServiceMetadata();
 > ### Note:  
 > In the `v2.ODataModel`, the service metadata is loaded asynchronously. It is not possible to load it synchronously. To get notified when the loading is finished, attach the `metadataLoaded` event.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio82afe9152177428290cc9d5dbd90e245__loio82afe9152177428290cc9d5dbd90e245"/>
+ <a name="loio82afe9152177428290cc9d5dbd90e245"/>
 
 <!-- loio82afe9152177428290cc9d5dbd90e245 -->
 
-## Adding Additional URL Parameters
+### Adding Additional URL Parameters
 
 For OData services, you can use URL parameters for configuration. OpenUI5 sets most URL parameters automatically, according to the respective binding.
 
@@ -375,11 +375,11 @@ There are different ways to add URL parameters to the requests:
     ```
 
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio7370a173015e49929e011d6ab6b4885c__loio7370a173015e49929e011d6ab6b4885c"/>
+ <a name="loio7370a173015e49929e011d6ab6b4885c"/>
 
 <!-- loio7370a173015e49929e011d6ab6b4885c -->
 
-## Custom HTTP Headers
+### Custom HTTP Headers
 
 You can add custom headers which are sent with each request.
 
@@ -416,11 +416,11 @@ To do this, provide a map of headers to the OData model constructor or use the `
     > For additional methods and parameters, see the [API Reference: sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html). 
 
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioc4be40ce21ff4d0485b1d8f8114f7426__loioc4be40ce21ff4d0485b1d8f8114f7426"/>
+ <a name="loioc4be40ce21ff4d0485b1d8f8114f7426"/>
 
 <!-- loioc4be40ce21ff4d0485b1d8f8114f7426 -->
 
-## Addressing Entities: Binding Path Syntax
+### Addressing Entities: Binding Path Syntax
 
 The binding path syntax for OData models matches the URL path relative to the service URL used in OData to access specific entities or entity sets.
 
@@ -462,11 +462,11 @@ Navigation properties, used to identify a single entity or a collection of entit
 
 For more information on addressing OData entries, see the URI conventions documentation on [http://www.odata.org](http://www.odata.org).
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioadd47c3966dd40489e952bb4f5f74a7c__loioadd47c3966dd40489e952bb4f5f74a7c"/>
+ <a name="loioadd47c3966dd40489e952bb4f5f74a7c"/>
 
 <!-- loioadd47c3966dd40489e952bb4f5f74a7c -->
 
-## Accessing Data from an OData Model
+### Accessing Data from an OData Model
 
 The data requested from an OData service is cached in the OData model.
 
@@ -484,40 +484,176 @@ You can only access single entities and properties with this method. To access e
 > ### Note:  
 > The ODataModel uses the `$skip` and `$top` URL parameters for paging. It is possible that data is modified between two paging requests, for example entities could be added or removed, and this may lead to data inconsistencies.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio4c4cd99af9b14e08bb72470cc7cabff4__loio4c4cd99af9b14e08bb72470cc7cabff4"/>
+ <a name="loio4c4cd99af9b14e08bb72470cc7cabff4"/>
 
 <!-- loio4c4cd99af9b14e08bb72470cc7cabff4 -->
 
-## Creating Entities
+### Creating Entities
 
-To create entities for a specified entity set, call the `createEntry()` method. The method returns a context object that points to the newly created entity.
+Three different approaches exist to create new entities in the OData V2 model. The approach that suits best depends on the application use case.
 
-The application can bind against these objects and change the data by means of two-way binding. To store the entities in the OData backend, the application calls `submitChanges()`. To reset the changes, the application can call the `deleteCreatedEntry()` method.
+For all approaches, the corresponding APIs take a `groupId` that specifies a batch group in order to control when the POST request for entity creation is sent to the back end; by default, the deferred batch group "changes" is used. For more information, see [Batch Processing](OData_V2_Model_6c47b2b.md#loio8a6ae1d390534d05a560bf350af59c29).
 
-The application can choose the properties that shall be included in the created object and can pass its own default values for these properties. Per default, all property values are empty, that is, undefined.
+***
 
-> ### Note:  
-> The entity set and the passed properties must exist in the metadata definition of the OData service.
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_xdj_4tx_gsb"/>
+
+### ODataModel\#createEntry
+
+[`ODataModel#createEntry`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/createEntry) creates an entry and returns a [context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context) corresponding to it. Use this approach in the following cases:
+
+-   You have a form or popup where the end user can view and modify the data of the new entry, but there is no table or list control where the entry should appear.
+
+-   You want to create an entry without displaying it on the UI.
+
+
+The method takes the `path` to the entity set for creation, and optionally initial `properties` for the created entry; both the path and the property names used in the `properties` parameter must exist in the metadata definition of the OData service. Take care when creating the initial data as a copy of an existing data object retrieved via [`getObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/getObject) from the model: You need to remove the`__metadata` property from the copy, as this must not be sent in the payload of a creation request.
+
+The context returned by this method is **transient**. This means the corresponding entity only exists on the client until it is persisted \(for a deferred batch group, use the [`submitChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/submitChanges) API\), thus changing its state to **persisted**, or it is deleted with the [`resetChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/resetChanges) API. Note that when the creation request sent on `submitChanges` fails, it is automatically retried with the next call to `submitChanges`, which may then succeed, e.g. because missing properties are added.
+
+Use the promise returned by the [`created`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/created) API on the returned context to get notified when it is persisted or reset. With the [`isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isTransient) API you can determine whether a created context is transient or persisted; note that the API returns `undefined` for contexts which have not been created on the client but have been read from the back end.
+
+The transient context is typically used to bind a form or popup, so that the end user can view or modify data of the created entry before it is persisted in the back end. The data of the context is updated from the response of the creation request on success. Note that the transient context's path contains a client-side generated UID as a temporary key predicate, e.g. `ProductSet('id-1641815139894-99')`. Take care when using this path in application coding, as it becomes invalid once the context is persisted; the context then changes its path based on the canonical URL of the persisted entity, e.g. to `ProductSet('4711')`.
+
+All examples for entity creation below assume that the model runs in batch mode, i.e. is constructed with `useBatch = true` .
+
+> ### Example:  
+> `createEntry` and related APIs
 > 
 > ``` js
-> // create an entry of the Products collection with the specified properties and values
-> var oContext = oModel.createEntry("/Products", { properties: { ID:99, Name:"Product", Description:"new Product", ReleaseDate:new Date(), Price:"10.1", Rating:1} });
-> // binding against this entity
+> // create an entry in the Products collection with the specified properties and values as initial data
+> var oContext = oModel.createEntry("/ProductSet", {
+>     properties : {Name : "Laptop X", Description:"New Laptop", Price:"1000", CurrencyCode : "USD"}
+> });
+> // bind a form against the transient context for the newly created entity
 > oForm.setBindingContext(oContext);
-> // submit the changes (creates entity at the backend)
+>  
+> // submit the changes: creates entity in the back end
 > oModel.submitChanges({success: mySuccessHandler, error: myErrorHandler});
-> // delete the created entity
-> oModel.deleteCreatedEntry(oContext);
-> 
+> // handle successful creation or reset
+> oContext.created().then(
+>   function () { /* successful creation */ },
+>   function () { /* deletion of the created entity before it is persisted */ }
+> );
+>  
+> // delete the created entity by resetting the corresponding change
+> oModel.resetChanges([oContext.getPath()], undefined, /*bDeleteCreatedEntities*/true);
 > ```
-> 
-> If created entities are submitted, the context is updated with the path returned from the creation request and the new data is imported into the model. So the context is still valid and points to the new created entity.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioff667e12b8714f3595e68f3e7c0e7a14__loioff667e12b8714f3595e68f3e7c0e7a14"/>
+The `createEntry` method takes the optional `refreshAfterChange` parameter, which determines whether all affected bindings are refreshed after successful creation in the back end. This parameter is used to update list bindings with the new entity after creation, so that it is displayed in the bound table controls. In scenarios where such an update is required, we recommend to use the `ODataListBinding#create` API described below instead of `ODataModel#createEntry`.
+
+If you want to request navigation properties of the created entry on persisting it, use the optional `expand` parameter to do this efficiently in the same batch request as the POST request for entity creation.
+
+The optional `inactive` parameter determines whether an **inactive** transient context is created. Such a context only becomes an *active* transient context on a property update. Before that, it is no pending change, i.e. it is not considered by the [`hasPendingChanges`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/hasPendingChanges) API nor can it be deleted with `resetChanges`; the `submitChanges` API will not trigger a creation request for inactive contexts.
+
+*Deep create*, i.e. creation of an entity as a child to a newly created parent entity with one single API call resp. one single request, is not supported. To achieve this, you may chain two API calls to create parent and child entities with two *sequential* requests as shown in the following sample, which creates both a sales order and a sales order item:
+
+> ### Example:  
+> Two sequential requests to mimic deep create
+> 
+> ``` js
+> var oParentContext,
+>     oModel = this.getView().getModel();
+>  
+> oParentContext = oModel.createEntry("/SalesOrderSet");
+> oParentContext.created().then(function () {
+>   var oChildContext = oModel.createEntry("ToLineItems", {
+>     context : oParentContext
+>   });
+>  
+>   oModel.submitChanges(); // triggers request for creation of item
+> });
+>  
+> oModel.submitChanges(); // triggers request for creation of sales order
+> ```
+
+***
+
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_qyp_stx_gsb"/>
+
+### ODataListBinding\#create
+
+[`ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/create) creates an entry and inserts it at the beginning or end of a list of entries. The entry is visible at the corresponding position of the bound control without the need to first save it to the back end and then refresh the binding; this is an advantage compared to the `ODataModel#createEntry` API.
+
+Use this approach if you have a list or table control showing the collection of entries and one of the following conditions applies:
+
+-   Created entries should appear in this table even before they are stored in the back end, so that the end user can view and modify their data.
+
+-   Created entries should be shown at the same position in the table even after they have been persisted to the back end; just their data is updated based on the response to create a POST request.
+
+-   You want to offer *inline creation rows* for a quick creation of new entries.
+
+
+`ODataListBinding#create` uses `ODataModel#createEntry` to create the new entry; hence it supports the same parameters as this method, with the following exceptions:
+
+-   `sPath` - The path to the entity set for creation is set to the list binding's path
+
+-   `mParameters.context` - The context to resolve the path is set to the list binding's context
+
+-   `mParameters.created` - `ODataListBinding#create` expects that service metadata is already loaded, so the method always returns the created context synchronously and there is no need for this callback.
+
+-   `mParameters.headers` - Not supported by `ODataListBinding#create`
+
+-   `mParameters.properties` - The initial data for the created entity is given in the separate `oInitialData` parameter
+
+-   `mParameters.refreshAfterChange` - Not supported by `ODataListBinding#create`; the method defaults this parameter to `false`, as the list already contains the created entry before persisting it.
+
+-   `mParameters.urlParameters` - Not supported by `ODataListBinding#create`
+
+
+New entries are inserted according to the `bAtEnd` parameter. When they are persisted, they retain their position in the list as long as there is no call to a method typically related to a user interaction, such as `ODataListBinding#filter`, `ODataListBinding#sort`, `ODataListBinding#refresh`, or a re-binding of the bound list or table control. In these cases, the persisted entries are shown in the position provided by the back end.
+
+With **inactive** entries, you can build **inline creation rows** in a table that allow for a quick creation of new entries *within* the table without separate forms or popups: Once the table data is loaded, you can add one or more inactive entries; use [`ODataListBinding#isFirstCreateAtEnd`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23methods/isFirstCreateAtEnd) to determine whether such entries have already been created. On activation of an entry, the list binding fires the [`createActivate`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataListBinding%23events/createActivate) event; with this event, you can create a new inactive entry.
+
+> ### Example:  
+> Inline creation rows
+> 
+> ``` js
+> <!-- sap.ui.table.Table control declared in XML view -->
+> <Table id="ToLineItems" rows="{
+>     events : {createActivate : '.onCreateActivateLineItem'}
+>     path : 'ToLineItems'
+> }">
+>  
+> // controller coding
+>  
+> // initial creation of inline creation rows when data has been loaded
+> onInit : function () {
+>   var oItemsBinding = this.getView().byId("ToLineItems").getBinding("rows");
+>  
+>   oItemsBinding.attachEvent("dataReceived", function () {
+>     // check that length is final before creating at end and only create inactive entry once
+>     if (oItemsBinding.isLengthFinal() && oItemsBinding.isFirstCreateAtEnd() === undefined) {
+>       that.onCreateActivateLineItem();
+>     }
+>   });
+> },
+>  
+> // event handler for createActivate
+> onCreateActivateLineItem : function () {
+>   var oItemsBinding = this.getView().byId("ToLineItems").getBinding("rows");
+>  
+>   oItemsBinding.create({/* initial data*/}, /*bAtEnd*/ true, {inactive : true});
+> }
+> ```
+
+***
+
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
+
+### ODataModel\#create
+
+[`ODataModel#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel%23methods/create) triggers a POST request with the given initial data to the OData service to create an entity. This API does not provide a binding context to bind controls to the newly created entry nor does it store the created entry data in model's data cache. As a consequence, **data binding to the created entry is not possible**.
+
+Use this approach only if you just want to send a creation request to the back end and do not want to bind the created entry on the UI. In all other cases, use the APIs described above.
+
+The method returns an abort handle to abort the creation POST request. To find out whether such a request is pending, use `ODataModel#hasPendingChanges` with the `bAll` parameter set to `true`. Note that, contrary to `ODataModel#createEntry` and `ODataListBinding#create`, failed creation requests are not automatically retried.
+
+ <a name="loioff667e12b8714f3595e68f3e7c0e7a14"/>
 
 <!-- loioff667e12b8714f3595e68f3e7c0e7a14 -->
 
-## CRUD Operations
+### CRUD Operations
 
 The OData model allows manual CRUD \(create, read, update, delete\) operations on the OData service. If a manual operation returns data, the data is imported into the data cache of the OData model. All operations require a mandatory `sPath` parameter as well as an optional `mParameters` map.
 
@@ -527,15 +663,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
 -   Creating entities
 
-    The `create` function triggers a `POST` request to an OData service which was specified at creation of the OData model. The application has to specify the entity set, in which the new entity and the entity data is to be created.
-
-    ``` js
-    var oData = {
-        ProductId: 999,
-        ProductName: "myProduct"
-    }
-    oModel.create("/Products", oData, {success: mySuccessHandler, error: myErrorHandler});
-    ```
+    See the separate topic [Creating Entities](OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4).
 
 -   Reading entities
 
@@ -574,66 +702,36 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
     oModel.setRefreshAfterChange(false);
     ```
 
--   Deep create
 
-    Creation of an entity as a child to a newly created parent entity is not possible with one single API call. To achieve this, you may chain two API calls to create parent and child entities with two requests, as shown in the following sample, which creates both a sales order and a sales order item:
-
-    ``` js
-    
-    var oParentContext,
-        oModel = this.getView().getModel();
-    
-    oParentContext = oModel.createEntry("SalesOrderSet", {
-       properties : {
-          // properties for the new sales order
-       },
-       success : function () {
-          oChildContext = oModel.createEntry("ToLineItems", {
-             context : oParentContext,
-             properties : {
-                // properties for the new item of the new sales order
-             },
-             success : function () {
-                // ...
-             }
-          });
-          oModel.submitChanges();
-       }
-    });
-    
-    oModel.submitChanges();
-    ```
-
-
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio94e302455f8044e79de759c86bb295a2__loio94e302455f8044e79de759c86bb295a2"/>
+ <a name="loio94e302455f8044e79de759c86bb295a2"/>
 
 <!-- loio94e302455f8044e79de759c86bb295a2 -->
 
-## Concurrency Control and ETags
+### Concurrency Control and ETags
 
 OData uses HTTP ETags for optimistic concurrency control. The service must be configured to provide them. The ETag can be passed within the parameters map for every CRUD request. If no ETag is passed, the ETag of the cached entity is used, if it is loaded already.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio30362c1cafd244dd86752e28993bbcdd__loio30362c1cafd244dd86752e28993bbcdd"/>
+ <a name="loio30362c1cafd244dd86752e28993bbcdd"/>
 
 <!-- loio30362c1cafd244dd86752e28993bbcdd -->
 
-## XSRF Token
+### XSRF Token
 
 To address cross-site request forgery, an OData service may require XSRF tokens for change requests by the client application. In this case, the client has to fetch a token from the server and send it with each change request to the server. The OData model fetches the XSRF token when reading the metadata and then automatically sends it with each write request header. If the token is no longer valid, a new token can be fetched by calling the `refreshSecurityToken` function on the OData model. The token is fetched with a request to the service root URL, which usually responds with the service document. To get a valid token, make sure that the response is **not** cached.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio66a130fa4d10411b8fc90df00185554b__loio66a130fa4d10411b8fc90df00185554b"/>
+ <a name="loio66a130fa4d10411b8fc90df00185554b"/>
 
 <!-- loio66a130fa4d10411b8fc90df00185554b -->
 
-## Refreshing the Model
+### Refreshing the Model
 
 The `refresh` function refreshes all data within an OData model. Each binding reloads its data from the server. For list or context bindings, a new request to the back end is triggered. If the XSRF token is no longer valid, it has to be fetched again with a `read` request to the service document. Data that has been imported via manual CRUD requests is **not** reloaded automatically.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio8a6ae1d390534d05a560bf350af59c29__loio8a6ae1d390534d05a560bf350af59c29"/>
+ <a name="loio8a6ae1d390534d05a560bf350af59c29"/>
 
 <!-- loio8a6ae1d390534d05a560bf350af59c29 -->
 
-## Batch Processing
+### Batch Processing
 
 The [`v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel) supports batch processing \(`$batch`\) in two different ways:
 
@@ -692,11 +790,11 @@ All requests belonging to the `group` are then stored in a request queue. The de
 > oModel.submitChanges({success: mySuccessHandler, error: myErrorHandler});
 > ```
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio42b3ca19a47d49a3b4ba5f34ca0d1f7e__loio42b3ca19a47d49a3b4ba5f34ca0d1f7e"/>
+ <a name="loio42b3ca19a47d49a3b4ba5f34ca0d1f7e"/>
 
 <!-- loio42b3ca19a47d49a3b4ba5f34ca0d1f7e -->
 
-## Two-Way Binding
+### Two-Way Binding
 
 The `v2.ODataModel` enables two-way binding. Per default, all changes are collected in a batch group called "changes" which is set to deferred.
 
@@ -740,11 +838,11 @@ oModel.setProperty("/myEntity(0)", oValue);
 oModel.resetChanges(["/myEntity(0)"]);
 ```
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loiobf1fc3b4c9ab4bbc845a3f0e0940c004__loiobf1fc3b4c9ab4bbc845a3f0e0940c004"/>
+ <a name="loiobf1fc3b4c9ab4bbc845a3f0e0940c004"/>
 
 <!-- loiobf1fc3b4c9ab4bbc845a3f0e0940c004 -->
 
-## Binding-specific Parameters
+### Binding-specific Parameters
 
 The OData protocol specifies different URL parameters.
 
@@ -810,17 +908,17 @@ You can use these parameters in bindings in addition to the parameters described
     ```
 
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__loio62149734b5c24507868e722fe87a75db"/>
+ <a name="loio62149734b5c24507868e722fe87a75db"/>
 
 <!-- loio62149734b5c24507868e722fe87a75db -->
 
-## Optimizing Dependent Bindings
+### Optimizing Dependent Bindings
 
 In its constructor the OData V2 model supports a flag called `preliminaryContext`. With this option set to `true`, the model is able to bundle OData calls for dependent bindings into fewer $batch requests.
 
 ***
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__section_mjn_51f_zbb"/>
+<a name="loio62149734b5c24507868e722fe87a75db__section_mjn_51f_zbb"/>
 
 ### Introduction
 
@@ -832,7 +930,7 @@ In case the parent binding is a context binding, you can improve performance by 
 
 ***
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__section_svw_z1f_zbb"/>
+<a name="loio62149734b5c24507868e722fe87a75db__section_svw_z1f_zbb"/>
 
 ### Settings and Usage
 
@@ -847,25 +945,25 @@ The following example shows a context binding with the path **"/Products\(1\)"**
 
    
   
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example: Default Binding Resolution
+<a name="loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example: Default Binding Resolution
 
  ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution") 
 
 Without using preliminary contexts, two consecutive OData requests will be issued, one for `Binding 0`, and afterwards one for `Binding 1`, as shown in the following table:
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Binding Example: Default Binding Resolution
+<a name="loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Binding Example: Default Binding Resolution
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Request Number
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Content
 
@@ -874,14 +972,14 @@ Content
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `GET Products(1)` 
 
@@ -890,14 +988,14 @@ Content
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `GET Products(1)/Supplier` 
 
@@ -911,7 +1009,7 @@ You can optimize the requests by setting the binding parameters as shown below:
 
    
   
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
+<a name="loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
  ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized") 
 
@@ -919,19 +1017,19 @@ Here, `Binding 1` uses the preliminary context created by `Binding 0`, and thus 
 
 This now results in a single `$batch` request:
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
+<a name="loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Request Number
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Content
 
@@ -940,14 +1038,14 @@ Content
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `GET Products(1)`
 
@@ -971,11 +1069,11 @@ Content
 > 
 > Using the preliminary context feature allows you to to circumvent these restrictions. You can merge multiple sub-requests into a single `$batch` query, yet you can easily include additional filters and sorters on the related subordinate entries.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio6cb8d585ed594ee4b447b5b560f292a4__loio6cb8d585ed594ee4b447b5b560f292a4"/>
+ <a name="loio6cb8d585ed594ee4b447b5b560f292a4"/>
 
 <!-- loio6cb8d585ed594ee4b447b5b560f292a4 -->
 
-## Function Import
+### Function Import
 
 The `ODataModel` supports the invoking of function imports or actions by the `callFunction` method.
 
@@ -990,7 +1088,7 @@ If the `callFunction` request is deferred, it can be submitted via the `submitCh
 
 ***
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio6cb8d585ed594ee4b447b5b560f292a4__section_qwk_mtz_xbb"/>
+<a name="loio6cb8d585ed594ee4b447b5b560f292a4__section_qwk_mtz_xbb"/>
 
 ### Binding of Function Import Parameters
 
@@ -1018,19 +1116,19 @@ If the function import returns result data, then the result data can be accessed
 </form:SimpleForm>
 ```
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioc40fc72612754bad877f374bdeb0f893__loioc40fc72612754bad877f374bdeb0f893"/>
+ <a name="loioc40fc72612754bad877f374bdeb0f893"/>
 
 <!-- loioc40fc72612754bad877f374bdeb0f893 -->
 
-## Language
+### Language
 
-OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V2 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
+OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V2 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loio341823349ed04df1813197f2a0d71db2__loio341823349ed04df1813197f2a0d71db2"/>
+ <a name="loio341823349ed04df1813197f2a0d71db2"/>
 
 <!-- loio341823349ed04df1813197f2a0d71db2 -->
 
-## Meta Model for OData V2
+### Meta Model for OData V2
 
 The implementation `sap.ui.model.odata.ODataMetaModel` offers a unified access to both OData Version 2.0 metadata and Version 4.0 annotations.
 
@@ -1278,7 +1376,7 @@ ODataMetaModel JSON Format:
 
 ***
 
-<a name="loio6c47b2b39db9404582994070ec3d57a2 loio341823349ed04df1813197f2a0d71db2__Enhancement"/>
+<a name="loio341823349ed04df1813197f2a0d71db2__Enhancement"/>
 
 ### Enhancement of the OData Meta Model
 
@@ -1294,14 +1392,14 @@ Transformations defined at `EntitySet`:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V2 SAP Extension
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Resulting OData V4 Annotation
 
@@ -1310,7 +1408,7 @@ Resulting OData V4 Annotation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:creatable = "false"
@@ -1320,7 +1418,7 @@ sap:creatable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.InsertRestrictions": { "Insertable" : { "Bool" : "false" } }
@@ -1332,7 +1430,7 @@ sap:creatable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:deletable = "false"
@@ -1342,7 +1440,7 @@ sap:deletable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.DeleteRestrictions": { "Deletable" : { "Bool" : "false" } }
@@ -1357,7 +1455,7 @@ sap:deletable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:deletable-path = "AnyPath"
@@ -1368,7 +1466,7 @@ Where `AnyPath` is a path expression that identifies a Boolean property in the c
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.DeleteRestrictions": { "Deletable" : { "Path" : "AnyPath" } }
@@ -1382,7 +1480,7 @@ Where `AnyPath` is a path expression that identifies a Boolean property in the c
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:label = "foo"
@@ -1393,7 +1491,7 @@ Where `foo` is any text.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.Label": {"String" : "foo" }
@@ -1404,7 +1502,7 @@ Where `foo` is any text.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:pageable = "false"
@@ -1414,7 +1512,7 @@ sap:pageable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.SkipSupported": {"Bool" : "false" },
@@ -1427,7 +1525,7 @@ sap:pageable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:requires-filter = "true"
@@ -1437,7 +1535,7 @@ sap:requires-filter = "true"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions": { "RequiresFilter" : { "Bool" : "true" } }
@@ -1449,7 +1547,7 @@ sap:requires-filter = "true"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:searchable = "false"
@@ -1461,7 +1559,7 @@ Alternatively, do not use the `sap:searchable` annotation.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.SearchRestrictions": { "Searchable" : { "Bool" : "false" } }
@@ -1473,7 +1571,7 @@ Alternatively, do not use the `sap:searchable` annotation.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:topable = "false"
@@ -1483,7 +1581,7 @@ sap:topable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.TopSupported": {"Bool" : "false" }
@@ -1495,7 +1593,7 @@ sap:topable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:updatable = "false"
@@ -1505,7 +1603,7 @@ sap:updatable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.UpdateRestrictions": { "Updatable" : { "Bool" : "false" } }
@@ -1520,7 +1618,7 @@ sap:updatable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:updatable-path = "AnyPath"
@@ -1531,7 +1629,7 @@ Where `AnyPath` is a path expression that identifies a Boolean property in the c
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.UpdateRestrictions": { "Updatable" : { "Path" : "AnyPath" } }
@@ -1551,14 +1649,14 @@ Transformations defined at `Property`:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V2 SAP Extension
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Resulting OData V4 Annotation
 
@@ -1567,7 +1665,7 @@ Resulting OData V4 Annotation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:label = "foo"
@@ -1578,7 +1676,7 @@ Where `foo` is any text.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.Label": {"String" : "foo" }
@@ -1592,7 +1690,7 @@ Where `foo` is any text.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:creatable = "true" 
@@ -1607,7 +1705,7 @@ sap:updatable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Core.V1.Immutable": { "Bool" : "true" }
@@ -1619,7 +1717,7 @@ sap:updatable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:creatable = "false"
@@ -1634,7 +1732,7 @@ sap:updatable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Core.V1.Computed": { "Bool" : "true"}
@@ -1646,7 +1744,7 @@ sap:updatable = "false"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:display-format = "NonNegative"
@@ -1658,7 +1756,7 @@ sap:display-format = "NonNegative"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsDigitSequence": { "Bool" : "true" }
@@ -1669,7 +1767,7 @@ sap:display-format = "NonNegative"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:display-format = "UpperCase"
@@ -1678,7 +1776,7 @@ sap:display-format = "UpperCase"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsUpperCase": { "Bool" : "true" }
@@ -1689,7 +1787,7 @@ sap:display-format = "UpperCase"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:field-control = "AnyPath"
@@ -1700,7 +1798,7 @@ Where `AnyPath` is a path expression that identifies a property containing a num
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.FieldControl": { "Path" : "AnyPath" }
@@ -1712,7 +1810,7 @@ Where `AnyPath` is a path expression that identifies a property containing a num
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:filterable = "false"
@@ -1721,7 +1819,7 @@ sap:filterable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions":
@@ -1740,7 +1838,7 @@ For example, if `sap:filterable` is set to `false` for properties `PropA` and `P
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:filter-restriction="multi-value"
@@ -1751,7 +1849,7 @@ For example, at a `BusinessPartnerID` property of a `BusinessPartner` type.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.FilterExpressionRestrictions":
@@ -1770,7 +1868,7 @@ At the corresponding entity set, for example, `BusinessPartnerSet.multi-value` i
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:heading = "foo"
@@ -1781,7 +1879,7 @@ Where `foo` is any text.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.Heading": { "String" : "foo" }
@@ -1792,7 +1890,7 @@ Where `foo` is any text.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:precision = "AnyPath"
@@ -1804,7 +1902,7 @@ Where `AnyPath` is a path expression that identifies a property in the context o
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Measures.V1.Scale": { "Path" : "AnyPath" }
@@ -1816,7 +1914,7 @@ Where `AnyPath` is a path expression that identifies a property in the context o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:quickinfo = "foo"
@@ -1827,7 +1925,7 @@ Where `foo` is any text.
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.QuickInfo": { "String" : "foo" }
@@ -1838,7 +1936,7 @@ Where `foo` is any text.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:required-in-filter = "true"
@@ -1848,7 +1946,7 @@ sap:required-in-filter = "true"
 
 
 </td>
-<td>
+<td valign="top">
 
 If `sap:required-in-filter` is set to `TRUE` for the `PropA` and `PropC` properties:
 
@@ -1867,7 +1965,7 @@ If `sap:required-in-filter` is set to `TRUE` for the `PropA` and `PropC` propert
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:sortable = "false"
@@ -1876,7 +1974,7 @@ sap:sortable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 If `sap:sortable` is set to `FALSE` for the `PropA` and `PropC` properties:
 
@@ -1895,7 +1993,7 @@ If `sap:sortable` is set to `FALSE` for the `PropA` and `PropC` properties:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:text = "AnyPath"
@@ -1906,7 +2004,7 @@ Where `AnyPath` is a path expression that identifies a property in the context o
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.Text":{ "Path" : "AnyPath" }
@@ -1918,7 +2016,7 @@ Where `AnyPath` is a path expression that identifies a property in the context o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:unit="WeightUnit"
@@ -1935,7 +2033,7 @@ Where `WeightUnit` and `CurrencyCode` are names of properties in the same entity
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Measures.V1.Unit": { "Path" : "WeightUnit" }
@@ -1953,7 +2051,7 @@ or
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:visible="false"
@@ -1962,7 +2060,7 @@ sap:visible="false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.UI.v1.Hidden" : { "Bool" : "true" }
@@ -1980,7 +2078,7 @@ Deprecated as of SAPUI5 1.44:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:aggregation-role="dimension"
@@ -1989,7 +2087,7 @@ sap:aggregation-role="dimension"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Analytics.v1.Dimension" : { "Bool" : "true" }
@@ -2003,7 +2101,7 @@ sap:aggregation-role="dimension"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:aggregation-role="measure"
@@ -2012,7 +2110,7 @@ sap:aggregation-role="measure"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Analytics.v1.Measure" : { "Bool" : "true" }
@@ -2026,7 +2124,7 @@ sap:aggregation-role="measure"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="year"
@@ -2035,7 +2133,7 @@ sap:semantics="year"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYear" : {"Bool" : "true"}
@@ -2049,7 +2147,7 @@ sap:semantics="year"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="yearmonth"
@@ -2058,7 +2156,7 @@ sap:semantics="yearmonth"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearMonth" : {"Bool" : "true"}
@@ -2072,7 +2170,7 @@ sap:semantics="yearmonth"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="yearmonthday"
@@ -2081,7 +2179,7 @@ sap:semantics="yearmonthday"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarDate" : {"Bool" : "true"}
@@ -2095,7 +2193,7 @@ sap:semantics="yearmonthday"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = url
@@ -2104,7 +2202,7 @@ sap:semantics = url
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Core.V1.IsURL" : { "Bool" : "true" }
@@ -2119,7 +2217,7 @@ sap:semantics = url
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="yearquarter"
@@ -2128,7 +2226,7 @@ sap:semantics="yearquarter"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearQuarter" : {"Bool" : "true"}
@@ -2142,7 +2240,7 @@ sap:semantics="yearquarter"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="yearweek"
@@ -2151,7 +2249,7 @@ sap:semantics="yearweek"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsCalendarYearWeek" : {"Bool" : "true"}
@@ -2165,7 +2263,7 @@ sap:semantics="yearweek"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="fiscalyear"
@@ -2174,7 +2272,7 @@ sap:semantics="fiscalyear"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsFiscalYear" : {"Bool" : "true"}
@@ -2188,7 +2286,7 @@ sap:semantics="fiscalyear"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics="fiscalyearperiod"
@@ -2197,7 +2295,7 @@ sap:semantics="fiscalyearperiod"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Common.v1.IsFiscalYearPeriod" : {"Bool" : "true"}
@@ -2217,14 +2315,14 @@ Transformations defined at `NavigationProperty`:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V2 SAP Extension
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Resulting OData V4 Annotation
 
@@ -2233,7 +2331,7 @@ Resulting OData V4 Annotation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:filterable = "false"
@@ -2242,7 +2340,7 @@ sap:filterable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.FilterRestrictions": {
@@ -2269,7 +2367,7 @@ For example, if `sap:filterable` is set to `false` for properties `PropA` and `P
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:filterable = "false"
@@ -2278,7 +2376,7 @@ sap:filterable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.NavigationRestrictions": {
@@ -2308,7 +2406,7 @@ For example, if `sap:filterable` is set to false for navigation properties `NavP
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:creatable = "false"
@@ -2317,7 +2415,7 @@ sap:creatable = "false"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.InsertRestrictions": {
@@ -2346,7 +2444,7 @@ For example, if `sap:creatable` is set to `false` for navigation properties `Nav
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:creatable-path="Creatable"
@@ -2355,7 +2453,7 @@ sap:creatable-path="Creatable"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "Org.OData.Capabilities.V1.InsertRestrictions": {
@@ -2392,14 +2490,14 @@ Transformations defined at `Schema`:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V2 SAP Extension
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Resulting OData V4 Annotation
 
@@ -2408,7 +2506,7 @@ Resulting OData V4 Annotation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 schema-version="foo"
@@ -2417,7 +2515,7 @@ schema-version="foo"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "@Org.Odata.Core.V1.SchemaVersion" : "foo"
@@ -2437,14 +2535,14 @@ Depending on the value of the `sap:semantics` annotation, different vocabulary-b
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 OData V2 SAP Extension
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Resulting OData V4 Annotation
 
@@ -2453,7 +2551,7 @@ Resulting OData V4 Annotation
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "currency-code"
@@ -2462,7 +2560,7 @@ sap:semantics = "currency-code"
 
 
 </td>
-<td>
+<td valign="top">
 
 see `sap:unit` above
 
@@ -2471,7 +2569,7 @@ see `sap:unit` above
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "unit-of-measure"
@@ -2480,7 +2578,7 @@ sap:semantics = "unit-of-measure"
 
 
 </td>
-<td>
+<td valign="top">
 
 see `sap:unit` above
 
@@ -2489,7 +2587,7 @@ see `sap:unit` above
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "name"
@@ -2498,7 +2596,7 @@ sap:semantics = "name"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "fn" : { "Path" : "PROPERTY" } }
@@ -2509,7 +2607,7 @@ sap:semantics = "name"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "givenname"
@@ -2518,7 +2616,7 @@ sap:semantics = "givenname"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "given" : { "Path" : "PROPERTY" } } }
@@ -2529,7 +2627,7 @@ sap:semantics = "givenname"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "middlename"
@@ -2538,7 +2636,7 @@ sap:semantics = "middlename"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "additional" : { "Path" : "PROPERTY" } } }
@@ -2549,7 +2647,7 @@ sap:semantics = "middlename"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "familyname"
@@ -2558,7 +2656,7 @@ sap:semantics = "familyname"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "surname" : { "Path" : "PROPERTY" } } }
@@ -2569,7 +2667,7 @@ sap:semantics = "familyname"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "nickname"
@@ -2578,7 +2676,7 @@ sap:semantics = "nickname"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "nickname" : { "Path" : "PROPERTY" } }
@@ -2589,7 +2687,7 @@ sap:semantics = "nickname"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "honorific"
@@ -2598,7 +2696,7 @@ sap:semantics = "honorific"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "prefix" : { "Path" : "PROPERTY" } } }
@@ -2609,7 +2707,7 @@ sap:semantics = "honorific"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "suffix"
@@ -2618,7 +2716,7 @@ sap:semantics = "suffix"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "n" : { "suffix" : { "Path" : "PROPERTY" } } }
@@ -2629,7 +2727,7 @@ sap:semantics = "suffix"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "note"
@@ -2638,7 +2736,7 @@ sap:semantics = "note"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "note" : { "Path" : "PROPERTY" } }
@@ -2649,7 +2747,7 @@ sap:semantics = "note"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "photo"
@@ -2658,7 +2756,7 @@ sap:semantics = "photo"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "photo" : { "Path" : "PROPERTY" } }
@@ -2669,7 +2767,7 @@ sap:semantics = "photo"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "city"
@@ -2678,7 +2776,7 @@ sap:semantics = "city"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "locality" : { "Path" : "PROPERTY" } } }
@@ -2689,7 +2787,7 @@ sap:semantics = "city"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "street"
@@ -2698,7 +2796,7 @@ sap:semantics = "street"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "street" : { "Path" : "PROPERTY" } } }
@@ -2709,7 +2807,7 @@ sap:semantics = "street"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "country"
@@ -2718,7 +2816,7 @@ sap:semantics = "country"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "country" : { "Path" : "PROPERTY" } } }
@@ -2729,7 +2827,7 @@ sap:semantics = "country"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "region"
@@ -2738,7 +2836,7 @@ sap:semantics = "region"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "region" : { "Path" : "PROPERTY" } } }
@@ -2749,7 +2847,7 @@ sap:semantics = "region"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "zip"
@@ -2758,7 +2856,7 @@ sap:semantics = "zip"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "code" : { "Path" : "PROPERTY" } } }
@@ -2769,7 +2867,7 @@ sap:semantics = "zip"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "pobox"
@@ -2778,7 +2876,7 @@ sap:semantics = "pobox"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "adr" : { "pobox" : { "Path" : "PROPERTY" } } }
@@ -2789,7 +2887,7 @@ sap:semantics = "pobox"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "org"
@@ -2798,7 +2896,7 @@ sap:semantics = "org"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "org" : { "Path" : "PROPERTY" } }
@@ -2809,7 +2907,7 @@ sap:semantics = "org"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "org-unit"
@@ -2818,7 +2916,7 @@ sap:semantics = "org-unit"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "orgunit" : { "Path" : "PROPERTY" } }
@@ -2829,7 +2927,7 @@ sap:semantics = "org-unit"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "org-role"
@@ -2838,7 +2936,7 @@ sap:semantics = "org-role"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "role" : { "Path" : "PROPERTY" } }
@@ -2849,7 +2947,7 @@ sap:semantics = "org-role"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "title"
@@ -2858,7 +2956,7 @@ sap:semantics = "title"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "title" : { "Path" : "PROPERTY" } }
@@ -2869,7 +2967,7 @@ sap:semantics = "title"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "bday"
@@ -2878,7 +2976,7 @@ sap:semantics = "bday"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Contact" : { "bday" : { "Path" : "PROPERTY" } }
@@ -2889,7 +2987,7 @@ sap:semantics = "bday"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "dtstart"
@@ -2898,7 +2996,7 @@ sap:semantics = "dtstart"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "dtstart" : { "Path" : "PROPERTY" } }
@@ -2909,7 +3007,7 @@ sap:semantics = "dtstart"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "dtend"
@@ -2918,7 +3016,7 @@ sap:semantics = "dtend"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "dtend" : { "Path" : "PROPERTY" } }
@@ -2929,7 +3027,7 @@ sap:semantics = "dtend"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "duration"
@@ -2938,7 +3036,7 @@ sap:semantics = "duration"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "duration" : { "Path" : "PROPERTY" } }
@@ -2949,7 +3047,7 @@ sap:semantics = "duration"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "class"
@@ -2958,7 +3056,7 @@ sap:semantics = "class"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "class" : { "Path" : "PROPERTY" } }
@@ -2969,7 +3067,7 @@ sap:semantics = "class"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "status"
@@ -2978,7 +3076,7 @@ sap:semantics = "status"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "status" : { "Path" : "PROPERTY" } }
@@ -2989,7 +3087,7 @@ sap:semantics = "status"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "transp"
@@ -2998,7 +3096,7 @@ sap:semantics = "transp"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "transp" : { "Path" : "PROPERTY" } }
@@ -3009,7 +3107,7 @@ sap:semantics = "transp"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "fbtype"
@@ -3018,7 +3116,7 @@ sap:semantics = "fbtype"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "fbtype" : { "Path" : "PROPERTY" } }
@@ -3029,7 +3127,7 @@ sap:semantics = "fbtype"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "wholeday"
@@ -3038,7 +3136,7 @@ sap:semantics = "wholeday"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "wholeday" : { "Path" : "PROPERTY" } }
@@ -3049,7 +3147,7 @@ sap:semantics = "wholeday"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "location"
@@ -3058,7 +3156,7 @@ sap:semantics = "location"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Event" : { "location" : { "Path" : "PROPERTY" } }
@@ -3069,7 +3167,7 @@ sap:semantics = "location"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "due"
@@ -3078,7 +3176,7 @@ sap:semantics = "due"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "due" : { "Path" : "PROPERTY" } }
@@ -3089,7 +3187,7 @@ sap:semantics = "due"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "completed"
@@ -3098,7 +3196,7 @@ sap:semantics = "completed"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "completed" : { "Path" : "PROPERTY" } }
@@ -3109,7 +3207,7 @@ sap:semantics = "completed"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "percent-complete"
@@ -3118,7 +3216,7 @@ sap:semantics = "percent-complete"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "percentcomplete" : { "Path" : "PROPERTY" } }
@@ -3129,7 +3227,7 @@ sap:semantics = "percent-complete"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "priority"
@@ -3138,7 +3236,7 @@ sap:semantics = "priority"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Task" : { "priority" : { "Path" : "PROPERTY" } }
@@ -3149,7 +3247,7 @@ sap:semantics = "priority"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "from"
@@ -3158,7 +3256,7 @@ sap:semantics = "from"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "from" : { "Path" : "PROPERTY" } }
@@ -3169,7 +3267,7 @@ sap:semantics = "from"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "sender"
@@ -3178,7 +3276,7 @@ sap:semantics = "sender"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "sender" : { "Path" : "PROPERTY" } }
@@ -3189,7 +3287,7 @@ sap:semantics = "sender"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "subject"
@@ -3198,7 +3296,7 @@ sap:semantics = "subject"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "subject" : { "Path" : "PROPERTY" } }
@@ -3209,7 +3307,7 @@ sap:semantics = "subject"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "body"
@@ -3218,7 +3316,7 @@ sap:semantics = "body"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "body" : { "Path" : "PROPERTY" } }
@@ -3229,7 +3327,7 @@ sap:semantics = "body"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "received"
@@ -3238,7 +3336,7 @@ sap:semantics = "received"
 
 
 </td>
-<td>
+<td valign="top">
 
 ```
 "com.sap.vocabularies.Communication.v1.Message" : { "received" : { "Path" : "PROPERTY" } }
@@ -3249,7 +3347,7 @@ sap:semantics = "received"
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "tel"
@@ -3258,7 +3356,7 @@ sap:semantics = "tel"
 
 
 </td>
-<td>
+<td valign="top">
 
 At the `EntityType` or `ComplexType`:
 
@@ -3282,7 +3380,7 @@ At `Property`:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "tel";type=cell,work
@@ -3291,7 +3389,7 @@ sap:semantics = "tel";type=cell,work
 
 
 </td>
-<td>
+<td valign="top">
 
 At the `EntityType` or `ComplexType`:
 
@@ -3319,7 +3417,7 @@ At `Property`:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "email"
@@ -3328,7 +3426,7 @@ sap:semantics = "email"
 
 
 </td>
-<td>
+<td valign="top">
 
 At the `EntityType` or `ComplexType`:
 
@@ -3352,7 +3450,7 @@ At `Property`:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ```
 sap:semantics = "email";type=work,pref
@@ -3361,7 +3459,7 @@ sap:semantics = "email";type=work,pref
 
 
 </td>
-<td>
+<td valign="top">
 
 At the `EntityType` or `ComplexType`:
 
@@ -3393,17 +3491,17 @@ At `Property`:
 **Related Information**  
 
 
-[XML Templating](XML_Templating_5ee619f.md)
+[XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.")
 
-[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
+[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData services.")
 
 [Class `sap.ui.model.odata.ODataMetaModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.ODataMetaModel.html)
 
- <a name="loio6c47b2b39db9404582994070ec3d57a2 loioaa9024c7c5444822a68daeb21a92bd51__loioaa9024c7c5444822a68daeb21a92bd51"/>
+ <a name="loioaa9024c7c5444822a68daeb21a92bd51"/>
 
 <!-- loioaa9024c7c5444822a68daeb21a92bd51 -->
 
-## Currency and Unit Customizing in OData V2
+### Currency and Unit Customizing in OData V2
 
 For amounts or measures you may sometimes need different currencies or units than defined in the CLDR. The `sap.ui.model.odata.type.Currency` and `sap.ui.model.odata.type.Unit` data types enable you to use code lists with customizing for currency codes and units.
 

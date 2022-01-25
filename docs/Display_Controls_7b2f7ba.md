@@ -17,14 +17,14 @@ OpenUI5 display controls are used to indicate the progress of some action or to 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  OpenUI5 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What is read by default
 
@@ -33,14 +33,14 @@ What is read by default
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Busy Indicator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Duration - indeterminate
 
@@ -50,14 +50,14 @@ Busy Indicator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Image
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Textual description of the image content
 
@@ -73,14 +73,14 @@ Image
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Label
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Label text
 
@@ -90,14 +90,14 @@ Label
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Numeric Content
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Description of the numeric value
 
@@ -107,14 +107,14 @@ Numeric Content
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Object Identifier
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In Virtual Cursor mode:
 
@@ -126,14 +126,14 @@ In Virtual Cursor mode:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Object Number
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In Virtual Cursor mode:
 
@@ -147,14 +147,14 @@ In Virtual Cursor mode:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Object Status
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In Virtual Cursor mode:
 
@@ -170,14 +170,14 @@ In Virtual Cursor mode:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Progress Indicator
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Progress state
 
@@ -195,14 +195,14 @@ Progress Indicator
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Text
 
 
 
 </td>
-<td>
+<td valign="top">
 
 In Virtual Cursor mode:
 

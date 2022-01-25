@@ -24,7 +24,7 @@ A relative list or context binding creates a data service request once it has a 
 
 
 > ### Note:  
-> If the model is configured to compute `$expand` and `$select` automatically, this behaviour changes, see [Automatic determination of $expand and $select](Automatic_determination_of_$expand_and_$select_10ca58b.md).
+> If the model is configured to compute `$expand` and `$select` automatically, this behaviour changes, see [Automatic determination of $expand and $select](Automatic_determination_of_expand_and_select_10ca58b.md).
 
 > ### Note:  
 > A relative property binding never creates a data service request; its binding parameters are ignored in this case.
@@ -179,7 +179,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openu
 
 ***
 
-<a name="loiofccfb2eb41414f0792c165e69a878717__section_dby_gps_ngb"/>
+<a name="loiofccfb2eb41414f0792c165e69a878717__section_SE"/>
 
 ### Side Effects
 

@@ -21,14 +21,14 @@ OpenUI5 contains several list items that are used with the `sap.m.List` control 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 List Item
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Used for...
 
@@ -37,14 +37,14 @@ Used for...
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.StandardListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displaying list content with a title description, icon and info
 
@@ -53,14 +53,14 @@ Displaying list content with a title description, icon and info
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.DisplayListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displaying name/value pairs
 
@@ -69,14 +69,14 @@ Displaying name/value pairs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.InputListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Building a form-like user interface on phones
 
@@ -85,14 +85,14 @@ Building a form-like user interface on phones
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.ActionListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Triggering an action directly from a list
 
@@ -101,14 +101,14 @@ Triggering an action directly from a list
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.FeedListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Displaying a standard UI for feeds. For more information, see [Feed List Item](Feed_List_Item_14a9900.md) 
 
@@ -117,14 +117,14 @@ Displaying a standard UI for feeds. For more information, see [Feed List Item](F
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.ObjectListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Providing a quick overview for an object within a list
 
@@ -133,14 +133,14 @@ Providing a quick overview for an object within a list
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.ColumnListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Providing responsive table design in combination with `sap.m.Table` 
 
@@ -149,14 +149,14 @@ Providing responsive table design in combination with `sap.m.Table`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.m.CustomListItem` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Creating custom list items if none of the list items above are suitable
 

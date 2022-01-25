@@ -40,14 +40,14 @@ MyControl.prototype.setShowLogoutButton = function(show) {
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -56,14 +56,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `boolean` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Can either be `true` or `false`. Properties of that type should not be set to `undefined` or `null`. The default value is `false`.
 
@@ -72,14 +72,14 @@ Can either be `true` or `false`. Properties of that type should not be set to `u
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `int` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 JavaScript primitive values of type `number` and that don’t have a fractional part. To keep the implementation efficient, the constraint is not enforced. Declaring a property as type `int` is rather for information reasons. The corresponding object expects any given value to be an integer value. The default value of the type is the number `0`.
 
@@ -88,14 +88,14 @@ JavaScript primitive values of type `number` and that don’t have a fractional 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `float` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 JavaScript primitive values of type `number` that can have a fractional part. It is named `float` instead of `number` to differentiate it from type `int` . The default value is the number `0`.
 
@@ -104,14 +104,14 @@ JavaScript primitive values of type `number` that can have a fractional part. It
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `string` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 JavaScript string literal \(`typeof value === "string"`\) or a `String` object \(`value instanceof String`\). The default value is an empty string.
 
@@ -120,14 +120,14 @@ JavaScript string literal \(`typeof value === "string"`\) or a `String` object \
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `object` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Plain JavaScript object \(an object whose constructor is `Object`\). Most of the time, other objects are accepted as well, but deserializers \(e.g. for XML views\) will try to convert the object from or to a JSON string. The default value is `null`.
 
@@ -138,14 +138,14 @@ Don't mix this type up with the `any` type! \(Sorry, we maybe should have named 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `any` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Any valid Javascript value \(including primitives, objects, functions, regular expressions, and native objects\). The support in serialized formats is quite limited. Valid JSON strings will be deserialized to an object. The default value is `null`.
 
@@ -154,14 +154,14 @@ Any valid Javascript value \(including primitives, objects, functions, regular e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `function` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Can be any JavaScript function.
 
@@ -179,14 +179,14 @@ Can be any JavaScript function.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Category
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -195,14 +195,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 regular expression \(RegExp\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Derived from the built-in type `string`.
 
@@ -230,14 +230,14 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 enumeration \(enum\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Derived from the built-in type `string`.
 
@@ -291,14 +291,14 @@ properties: {
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 array
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You don't have to define array types before using an array. From each valid type above, an array type with one or more dimensions can be derived by simply appending a pair of square brackets \(`[]`\) for each dimension.
 

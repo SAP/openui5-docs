@@ -20,13 +20,13 @@ The main difference is the license.
 
 **OpenUI5** is Open Source, free to use, released under the Apache 2.0 license. Since we also use many Open Source libraries, we try to return the favor and also benefit from the experience and knowledge of developers all over the world.
 
-**SAPUI5** is not a separate SAP product with a separate license. It's integrated, for example, in the following products:
+**SAPUI5** is integrated, for example, in the following products:
 
 -   SAP HANA
 
 -   SAP Business Technology Platform
 
--    SAP NetWeaver 7.4 or higher \(included in the UI technologies \(`SAP_UI`\) component\)
+-   SAP NetWeaver 7.4 or higher as well as ABAP platform 1809 or higher \(included in the UI technologies \(`SAP_UI`\) component\)
 
 -   User interface add-on for SAP NetWeaver Application Server 7.3x
 

@@ -37,7 +37,7 @@ The `test` folder contains all of the files needed for running automated tests f
 
 **Why Use 3 Separate Folders?**
 
-To achieve sound performance when loading your application, the code you deploy to your production servers should only contain a `component-preload.js` and a `manifest.json` file. This means that when you create a package with a build, it is easier if all the files you really want to deploy are inside **one** folder. This is true no matter which build framework you use. We recommend using the `webapp` folder for this. Nothing inside the `root` folder is needed for running the app, so it's not included on a production server serving your application. The content of the `test` folder has to be executed in design time and during the automated test execution on a central server. We choose to include it inside the `webapp` folder, to be able to reference resources of the `webapp` folder relatively to the `test` folder. This folder has to be excluded when you are building a `component-preload.js`. You should never reference resources of the `test` folder from your application, because when you deploy to a productive environment, the resource cannot be loaded. For more information about the `manifest.json` file, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+To achieve sound performance when loading your application, the code you deploy to your production servers should only contain a `component-preload.js` and a `manifest.json` file. This means that when you create a package with a build, it is easier if all the files you really want to deploy are inside **one** folder. This is true no matter which build framework you use. We recommend using the `webapp` folder for this. Nothing inside the `root` folder is needed for running the app, so it's not included on a production server serving your application. The content of the `test` folder has to be executed in design time and during the automated test execution on a central server. We choose to include it inside the `webapp` folder, to be able to reference resources of the `webapp` folder relatively to the `test` folder. This folder has to be excluded when you are building a `component-preload.js`. You should never reference resources of the `test` folder from your application, because when you deploy to a productive environment, the resource cannot be loaded. For more information about the `manifest.json` file, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
 ***
 
@@ -80,7 +80,7 @@ We also have one dedicated folder for **localization** files. An OpenUI5 app wil
 
 **The `localService` Folder**
 
-The `localService` folder is used to emulate OData services for tests or as a preview mode for your application. It is also intended for design-time tools since it contains the `metadata.xml` file, which describes the backend connection of your application. You need to have one `metadata.xml` file per OData service, which exactly matches the remote service’s metadata. The location of this file also needs to be maintained in the data sources section of the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+The `localService` folder is used to emulate OData services for tests or as a preview mode for your application. It is also intended for design-time tools since it contains the `metadata.xml` file, which describes the backend connection of your application. You need to have one `metadata.xml` file per OData service, which exactly matches the remote service’s metadata. The location of this file also needs to be maintained in the data sources section of the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
  ![](loio00728aff82c54419b1d7acd61c76455f_HiRes.png) 
 
@@ -95,14 +95,14 @@ For information about mock server functionality for OData V4, see [OData V4 Mock
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  `test` folder for apps that are build for the SAP Fiori launchpad 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `test` folder for standalone apps
 
@@ -111,14 +111,14 @@ For information about mock server functionality for OData V4, see [OData V4 Mock
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  ![](loio47df579be48843118dc65db4e261c33b_HiRes.png) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![](loio9f45b87b36ba47de8d30f1a20f320b85_HiRes.png) 
 

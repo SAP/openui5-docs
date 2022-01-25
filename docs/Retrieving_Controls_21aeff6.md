@@ -160,6 +160,38 @@ return new Opa5().waitFor({
 });
 ```
 
+`sap.ui.test.matchers.I18NText`: This matcher checks if a control property has the same value as a text from an I18N resource bundle.
+
+``` js
+return new Opa5().waitFor({
+    controlType : "sap.m.Button",
+    matchers : new sap.ui.test.matchers.I18NText({
+        propertyName: "text",
+        key: "search"
+    }),
+    success : function () {
+        Opa5.assert.ok(true, "Search button is matched");
+    }
+});
+```
+
+> ### Note:  
+> As of version 1.95, `sap.ui.test.matchers.I18NText` is extended to allow using library resource bundle.
+
+``` js
+return new Opa5().waitFor({
+    controlType : "sap.m.Button",
+    matchers : new sap.ui.test.matchers.I18NText({
+       propertyName: "text",
+        key: "VIEWSETTINGS_ACCEPT",
+        useLibraryBundle: true
+    }),
+    success : function () {
+        Opa5.assert.ok(true, "OK button is matched");
+    }
+});
+```
+
 You can also define a matcher as an inline function: The first parameter of the function is a control to match. If the control matches, return `true` to pass the control on to the next matcher and/or to check and success functions.
 
 ``` js

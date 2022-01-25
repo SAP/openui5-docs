@@ -27,12 +27,25 @@ To get rid of the prefixes, the instance method `View.byId()` can be used with t
 > ### Note:  
 > Do **not** rely on the specific prefixing syntax because it may change at some point. Always use methods like `byId()` and `createId()`.
 
+-   **[IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md "If a fragment with a control ID is instantiated twice without giving an ID, a
+		duplicate ID error occurs.")**  
+If a fragment with a control ID is instantiated twice without giving an ID, a duplicate ID error occurs.
+-   **[IDs in JS Fragments](IDs_in_JS_Fragments_896fa9a.md "The fragment logic of JS fragments cannot influence the IDs of controls that are
+		created in the createContent() method.")**  
+The fragment logic of JS fragments cannot influence the IDs of controls that are created in the `createContent()` method.
+-   **[IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md "For fragments that are used within declarative views, generated IDs are not prefixed. ")**  
+For fragments that are used within declarative views, generated IDs are not prefixed.
+-   **[Retrieving Control Instances by Their ID](Retrieving_Control_Instances_by_Their_ID_8b32551.md "A control instance can be found in a fragment by means of its ID. ")**  
+A control instance can be found in a fragment by means of its ID.
+-   **[Example: JS Fragments Used in XML Views](Example_JS_Fragments_Used_in_XML_Views_faaff35.md "Example of JS fragments used in an XML view")**  
+Example of JS fragments used in an XML view
+
 **Related Information**  
 
 
-[IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md)
+[IDs in Declarative XML or HTML Fragments](IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md "If a fragment with a control ID is instantiated twice without giving an ID, a duplicate ID error occurs.")
 
-[IDs in JS Fragments](IDs_in_JS_Fragments_896fa9a.md)
+[IDs in JS Fragments](IDs_in_JS_Fragments_896fa9a.md "The fragment logic of JS fragments cannot influence the IDs of controls that are created in the createContent() method.")
 
-[IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md)
+[IDs of Fragments in Views](IDs_of_Fragments_in_Views_f10bf70.md "For fragments that are used within declarative views, generated IDs are not prefixed.")
 

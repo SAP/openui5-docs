@@ -177,3 +177,7 @@ For more information on how to use controller extensions, see [Using Controller 
 
 [sap.ui.core.mvc.Controller](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.Controller.html)
 
+-   **[Using Controller Extension](Using_Controller_Extension_21515f0.md "Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by
+        a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.")**  
+Controller extensions allow you to add functionality to existing applications. They can be used for extensibility purposes, for example by a customer wishing to extend SAP-delivered applications, or as a reusable part that is added to the original application.
+

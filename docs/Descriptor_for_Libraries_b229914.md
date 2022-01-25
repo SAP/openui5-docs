@@ -15,28 +15,28 @@ The descriptor for libraries contains a subset of the attributes in the descript
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 manifest.json
 
 
 
 </th>
-<th>
+<th valign="top">
 
 .library
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Available for SAPUI5 dist libraries?
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Comment
 
@@ -45,56 +45,56 @@ Comment
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/id` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `name` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/type` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated with value `library` 
 
@@ -103,28 +103,28 @@ Generated with value `library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/embeds` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated
 
@@ -133,26 +133,26 @@ Generated
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/i18n` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/i18n` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -161,56 +161,56 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/applicationVersion/version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/title` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `title` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brackets \(`}}`\); new in `.library` 
 
@@ -219,28 +219,28 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/description` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `documentation` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brackets \(`}}`\)
 
@@ -249,54 +249,54 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/ach` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/ownership/component` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/openSourceComponents` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/openSourceComponents` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -305,28 +305,28 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/resources` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated with value `resources.json` 
 
@@ -335,28 +335,28 @@ Generated with value `resources.json`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/offline` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/offline` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -365,26 +365,26 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.app/sourceTemplate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/sourceTemplate` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library`, to be filled by SAP Web IDE only
 
@@ -393,28 +393,28 @@ New in `.library`, to be filled by SAP Web IDE only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui/technology` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated with value `UI5` 
 
@@ -423,26 +423,26 @@ Generated with value `UI5`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui/deviceTypes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/deviceTypes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -451,28 +451,28 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui/supportedThemes` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated and merged
 
@@ -481,28 +481,28 @@ Generated and merged
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui5/dependencies/minUI5Version` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Generated
 
@@ -511,54 +511,54 @@ Generated
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui5/dependencies/libs` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `dependencies` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 x
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.ui5/contentDensities` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/contentDensities` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -567,26 +567,26 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.platform.abap/uri` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/sap.platform.abap/uri` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -595,26 +595,26 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.platform.hcp/uri` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/sap.platform.hcp/uri` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -623,26 +623,26 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.fiori/registrationIds` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/sap.fiori/registrationId` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -651,26 +651,26 @@ New in `.library`
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `sap.fiori/archeType` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `appData/manifest/sap.fiori/archeType` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 New in `.library` 
 
@@ -683,5 +683,5 @@ New in `.library`
 **Related Information**  
 
 
-[Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md)
+[Creating a Descriptor File for Existing Apps](Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md "Detailed description of the steps needed to create a descriptor V2 for applications file for an existing transactional app created by the customer based on SAP Fiori.")
 

@@ -92,10 +92,16 @@ In this case we have bound the model object to the OpenUI5 core. This has been d
 
 The text that is displayed on the UI is still hard-coded and not taken from the model - we will bind the property `greetingText` to our UI control in the next step.
 
+**Parent topic:** [Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+
+**Next:** [Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we simply place some text on the screen using a standard sap.m.Text control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!")
+
+**Previous:** [Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from model data.")
+
 **Related Information**  
 
 
-[Models](Models_e1b6259.md)
+[Models](Models_e1b6259.md "A model in the Model View Controller concept holds the data and provides methods to retrieve the data from the database and to set and update data.")
 
-[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
+[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")
 

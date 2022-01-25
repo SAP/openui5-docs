@@ -35,7 +35,7 @@ Always define the libraries you use in the manifest and remove all libraries tha
 ```
 
 -   Learn how: Walkthrough Tutorial [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
--   Find out more: [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+-   Find out more: [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
 
 ***
 
@@ -61,6 +61,7 @@ sap.ui.define([
     -   [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md)
     -   [https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/Cloud/en-US/dfb26ef028624cf486a8bbb0bfd459ff.html)
     -   [UI5 Tooling](https://sap.github.io/ui5-tooling/)
+
 
 ***
 

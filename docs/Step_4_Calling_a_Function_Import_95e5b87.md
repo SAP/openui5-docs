@@ -200,3 +200,7 @@ The path we gave in the simulate function for mock data is where we want to stor
      ![](loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE") 
 
 
+**Parent topic:** [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+
+**Next:** [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock server configuration.")
+

@@ -66,6 +66,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
 
         This means, when `templateShareable` is set to `true`, the template will not be cloned, when it is set to `false` it will be cloned when the parent is cloned.
 
+
     In these cases, the app has to make sure that the templates are properly cleaned up at some point in time - at the latest when the corresponding controller or component is destroyed.
 
 -   If the parameter is undefined, \(neither `true` nor `false`\), the framework checks at several points in time whether all list bindings are removed. If there are no bindings, the templates is marked as `candidate for destroy()`, but it is not immediately destroyed. The candidate is destroyed in the following cases:
@@ -73,6 +74,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
     -   A **new object with the same ID** is created.
 
     -   The component that owns the objects is destroyed.
+
 
     If the framework determines that a "candidate for destroy" is still in use in another binding or in a clone operation, the framework makes sure that the candidate is not destroyed by implicitly setting `templateShareable` to `true` \(as this best reflects how the app deals with the template\). But now the template is not destroyed at all \(an error message is issued\), and the app implementation needs to make sure that the binding template is destroyed as soon as it is no longer needed.
 

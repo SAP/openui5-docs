@@ -23,21 +23,21 @@ In this topic we introduce the main keyboard combinations that are used by OpenU
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key Combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What it does
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Specific Behavior
 
@@ -46,7 +46,7 @@ Specific Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Tab\]
 
@@ -55,14 +55,14 @@ Specific Behavior
 
 
 </td>
-<td>
+<td valign="top">
 
 Focuses UI elements in order \(forward / backward\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can cycle through all interactive, enabled and visible UI elements that are part of a given dialog or other container. When the last UI element is focused, pressing the key again will move the focus to first element.
 
@@ -71,21 +71,21 @@ You can cycle through all interactive, enabled and visible UI elements that are 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Space\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Triggers an action \(reversible\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pressing and releasing the key triggers the action that is associated with a UI element \(for example, open a link or toggle a button\).
 
@@ -97,21 +97,21 @@ Pressing and releasing the key triggers the action that is associated with a UI 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Enter\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Triggers an action \(immediate\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Triggers the action that is associated with a UI element \(for example, open a link or toggle a button\). The action is triggered immediately after the key is pressed.
 
@@ -120,21 +120,21 @@ Triggers the action that is associated with a UI element \(for example, open a l
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Arrow  Keys\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Navigates between elements
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can move the focus between elements within a complex UI element \(for example a table or a list\). Depending on the structure, this navigation is either one-directional \(left/right or up/down\) or two-directional \(left, right, up, down\).
 
@@ -143,7 +143,7 @@ You can move the focus between elements within a complex UI element \(for exampl
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Home\]
 
@@ -152,14 +152,14 @@ You can move the focus between elements within a complex UI element \(for exampl
 
 
 </td>
-<td>
+<td valign="top">
 
 Navigates between elements
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can move the selection to the first/last element within a set of elements.
 
@@ -171,7 +171,7 @@ You can move the selection to the first/last element within a set of elements.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page  Up\]
 
@@ -180,14 +180,14 @@ You can move the selection to the first/last element within a set of elements.
 
 
 </td>
-<td>
+<td valign="top">
 
 Skips elements during navigation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can move the selection forward/backward by several elements at a time. If the remaining number of elements is less than the step size, selection will move to the last/first element.
 
@@ -196,21 +196,21 @@ You can move the selection forward/backward by several elements at a time. If th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Escape\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Closes element / Reverts changes
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Depending on your situation, you can do the following:
 
@@ -226,7 +226,7 @@ Depending on your situation, you can do the following:
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F4\] or
 
@@ -237,14 +237,14 @@ Depending on your situation, you can do the following:
 
 
 </td>
-<td>
+<td valign="top">
 
 Opens / closes a drop-down menu
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can open the options and elements available in a drop-down menu, if the UI element in question provides this type of information.
 
@@ -253,7 +253,7 @@ You can open the options and elements available in a drop-down menu, if the UI e
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F6\] or
 
@@ -262,14 +262,14 @@ You can open the options and elements available in a drop-down menu, if the UI e
 
 
 </td>
-<td>
+<td valign="top">
 
 Forward fast navigation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 UI elements within an application can be grouped together \(for example, all elements in the header of an application\). You can forward-skip focusing every element within such a group by using these keys.
 
@@ -278,7 +278,7 @@ UI elements within an application can be grouped together \(for example, all ele
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [F6\]  or
 
@@ -287,14 +287,14 @@ UI elements within an application can be grouped together \(for example, all ele
 
 
 </td>
-<td>
+<td valign="top">
 
 Backward fast navigation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Skips focus of UI elements backward.
 
@@ -309,21 +309,21 @@ Skips focus of UI elements backward.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Key Combination
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What it does
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Specific Behavior
 
@@ -332,7 +332,7 @@ Specific Behavior
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [Page  Up\]
 
@@ -341,14 +341,14 @@ Specific Behavior
 
 
 </td>
-<td>
+<td valign="top">
 
 Date modification \(Days\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When in input: Pressing these keys decreases/increases the date value by one day.
 
@@ -359,7 +359,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Shift\] + [Page  Up\] 
 
@@ -368,14 +368,14 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 
 
 </td>
-<td>
+<td valign="top">
 
 Date modification \(Months\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When in input: Pressing these keys decreases/increases the date value by one month.
 
@@ -386,7 +386,7 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [Shift\] + [Page  Up\] 
 
@@ -395,14 +395,14 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by o
 
 
 </td>
-<td>
+<td valign="top">
 
 Date modification \(Years\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When in input: Pressing these keys decreases/increases the date value by one year.
 
@@ -413,21 +413,21 @@ When in Calendar UI: Pressing these keys decreases/increases the date value by 1
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [Arrow  Keys\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When used with grouped radio buttons - Moves selection
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pressing these keys moves the focus to the next corresponding radio button in the group. The currently selected radio button does not change.
 
@@ -436,21 +436,21 @@ Pressing these keys moves the focus to the next corresponding radio button in th
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  [Ctrl\] + [Arrow  Keys\] 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When editing tiles in a container - Changes tile position
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Pressing these keys changes the position of the focused tile in the tile container. The remaining tiles are re-ordered accordingly.
 
@@ -459,21 +459,21 @@ Pressing these keys changes the position of the focused tile in the tile contain
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F2\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Toggles edit mode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 You can toggle editing of an editable UI element like an input field or text area.
 
@@ -482,21 +482,21 @@ You can toggle editing of an editable UI element like an input field or text are
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 [F7\]
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Exits edit mode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 When you are editing an input field in a table or a list, pressing this key will stop the editing and move the focus to the parent UI element.
 

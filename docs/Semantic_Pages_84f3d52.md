@@ -25,3 +25,12 @@ There are two separate and non-dependent `semantic` namespaces in the main OpenU
 
 Both of them extend and enhance the base pages of the library they are in - `sap.m.Page` and `sap.f.DynamicPage`. They allow app developers to quickly add controls to the page that correspond to common operations, such as add, delete and filter. They only have to specify the action type, and the required styling and positioning is automatically added internally.
 
+-   **[Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.md "The sap.f.semantic.SemanticPage is an enhanced
+			sap.f.DynamicPage that implements the SAP Fiori 2.0 design
+		guidelines.")**  
+The `sap.f.semantic.SemanticPage` is an enhanced `sap.f.DynamicPage` that implements the SAP Fiori 2.0 design guidelines.
+-   **[Semantic Page \(sap.m\)](Semantic_Page_sap_m_4a97a07.md "The sap.m.semantic.SemanticPage is an enhanced
+			sap.m.Page that implements the SAP Fiori 1.0 design
+		guidelines.")**  
+The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page` that implements the SAP Fiori 1.0 design guidelines.
+

@@ -18,7 +18,7 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
 -   Existing applications may still use synchronous variants of factory methods. To make your application ready for asynchronous loading, you need to use asynchronous variants of factory methods instead. For information how you can replace the synchronous variants with asynchronous variants, see [Legacy Factories Replacement](Legacy_Factories_Replacement_491bd9c.md).
 
--   The global access to legacy APIs triggers a compatibility layer to load such modules synchronously and needs to be replaced to enable your application for asynchronous loading. For information how you replace the global access, see [Legacy jQuery.sap Replacement](Legacy_jQuery.sap_Replacement_a075ed8.md).
+-   The global access to legacy APIs triggers a compatibility layer to load such modules synchronously and needs to be replaced to enable your application for asynchronous loading. For information how you replace the global access, see [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Replacement_a075ed8.md).
 
 -   The Support Assistant also helps you to identify issues in your application, especially issues related to synchronous or asynchronous loading. For information about the Support Assistant, see [Support Assistant](Support_Assistant_57ccd7d.md).
 
@@ -28,7 +28,79 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
     A controller listens on the `EventBus` for a certain event that is triggered by another controller. Depending on the loading time of the corresponding views, the `init` controller methods may be called at a different point in time. For information how to resolve this, see [Best Practices for Loading Modules](Best_Practices_for_Loading_Modules_00737d6.md).
 
--   Issues with asynchronous loading can also occur, if your application uses XML views that are configured to be loaded asynchronously via the `manifest` property, for example for the root view `sap.ui5/rootView/async=true`. To detect such issues, we recommend to do extensive \(automatic\) testing to ensure the application continues to work as expected.
+-   Issues with asynchronous loading can also occur if your application uses XML views that are configured to be loaded asynchronously via the `manifest` property, for example for the root view `sap.ui5/rootView/async=true`. To detect such issues, we recommend to do extensive \(automatic\) testing to ensure the application continues to work as expected.
+
+-   If your application uses expression bindings, keep in mind that `sap.ui.base.ExpressionParser` loads some resources synchronously. To avoid this, make sure to load them in advance, for example by declaring them in the `sap.ui.define` statement in your application code that runs before the expression bindings are evaluated. The following expression bindings are affected:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Expression Binding\(s\)
+
+
+    
+    </th>
+    <th valign="top">
+
+    Resource to be Preloaded
+
+
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    "odata.compare", e.g. `value="{=odata.compare(2,3)}"` 
+
+
+    
+    </td>
+    <td valign="top">
+
+    `sap.ui.model.odata.v4.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"` 
+
+
+    
+    </td>
+    <td valign="top">
+
+    `sap.ui.model.odata.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+
+    "odata.fillUriTemplate", e.g. `value="{=odata.fillUriTemplate('http://foo/{t},{m}', {'t': ${/mail}, 'm': ${/tel}})}"` 
+
+
+    
+    </td>
+    <td valign="top">
+
+    `sap.ui.thirdparty.URITemplate`
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
+    For more information on the preload of dependencies, see [Modules and Dependencies](Modules_and_Dependencies_91f23a7.md).
 
 
 ***
@@ -37,5 +109,5 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
 ### Known Incompatibilities
 
-The `sap.viz` library uses another module loader in addition to the OpenUI5 module loader in some scenarios. In combination with the `async=true` configuration parameter, this currently leads to issues and may break your application.
+The `sap.viz` library uses another module loader in addition to the OpenUI5 module loader in some scenarios. In combination with the `` configuration parameter, this currently leads to issues and may break your application.
 

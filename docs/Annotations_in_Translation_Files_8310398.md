@@ -43,21 +43,21 @@ The following text type classifications exist:
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Text type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related S2X type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -66,21 +66,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XACT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 accessibility
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accessibility
 
@@ -89,21 +89,21 @@ Accessibility
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XALT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 alternativetext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Alternative text
 
@@ -112,21 +112,21 @@ Alternative text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XBCB`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 breadcrumbstep
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Breadcrumb step
 
@@ -135,21 +135,21 @@ Breadcrumb step
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XBLI`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 listitem
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bullet list item text
 
@@ -158,21 +158,21 @@ Bullet list item text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XBUT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 button
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Button text
 
@@ -181,21 +181,21 @@ Button text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XCAP`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 caption
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Caption
 
@@ -204,21 +204,21 @@ Caption
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XCEL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 cell
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Cell
 
@@ -227,21 +227,21 @@ Cell
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XCKL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 checkbox
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Checkbox
 
@@ -250,21 +250,21 @@ Checkbox
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XCOL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tableColumnHeading
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Column header
 
@@ -273,21 +273,21 @@ Column header
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XCRD`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tabStrip
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tabstrip
 
@@ -296,21 +296,21 @@ Tabstrip
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XDAT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 datanavigationtext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Data navigation text
 
@@ -319,21 +319,21 @@ Data navigation text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XFLD`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 label
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Label
 
@@ -342,21 +342,21 @@ Label
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XFRM`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 frame
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Frame
 
@@ -365,21 +365,21 @@ Frame
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XGLS`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 term
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Term
 
@@ -388,21 +388,21 @@ Term
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XGRP`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 grouptitle
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Group title
 
@@ -411,21 +411,21 @@ Group title
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XHED`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 heading
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Heading
 
@@ -434,21 +434,21 @@ Heading
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XLGD`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 legendtext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Legend text
 
@@ -457,21 +457,21 @@ Legend text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XLNK`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 hyperlink
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Hyperlink text
 
@@ -480,21 +480,21 @@ Hyperlink text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XLOG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 logentry
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log entry
 
@@ -503,21 +503,21 @@ Log entry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XLST`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 listbox
 
 
 
 </td>
-<td>
+<td valign="top">
 
 List box item
 
@@ -526,21 +526,21 @@ List box item
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XMEN`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 menu
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Menu header
 
@@ -549,21 +549,21 @@ Menu header
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XMIT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 menuitem
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Menu item
 
@@ -572,21 +572,21 @@ Menu item
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XMSG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 messagetext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message text
 
@@ -595,21 +595,21 @@ Message text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XRBL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 radio
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Radio button
 
@@ -618,21 +618,21 @@ Radio button
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XRMP`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 roadMapStep
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Roadmap step
 
@@ -641,21 +641,21 @@ Roadmap step
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XROW`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tableRowHeading
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table row heading
 
@@ -664,21 +664,21 @@ Table row heading
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XSEL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 selectiontext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Selection text
 
@@ -687,21 +687,21 @@ Selection text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XTBS`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tab
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tab strip text
 
@@ -710,21 +710,21 @@ Tab strip text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XTIT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 tableTitle
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Table title
 
@@ -733,21 +733,21 @@ Table title
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XTND`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 treeNode
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tree node text
 
@@ -756,21 +756,21 @@ Tree node text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XTOL`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 quickInfo
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Quick info text
 
@@ -779,21 +779,21 @@ Quick info text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `XTXT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 generaltext
 
 
 
 </td>
-<td>
+<td valign="top">
 
 General text
 
@@ -808,21 +808,21 @@ General text
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Text type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Related S2X type
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -831,21 +831,21 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YACT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 accessibilitylong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Accessibility \(long\)
 
@@ -854,21 +854,21 @@ Accessibility \(long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YBLI`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 list
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Bullet list item text
 
@@ -877,21 +877,21 @@ Bullet list item text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YDEF`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 definition
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Definition
 
@@ -900,21 +900,21 @@ Definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YDES`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Description
 
@@ -923,21 +923,21 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YEXP`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 explanation
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Explanation
 
@@ -946,21 +946,21 @@ Explanation
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YFAA`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 faqa
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FAQ answer
 
@@ -969,21 +969,21 @@ FAQ answer
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YFAQ`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 faq
 
 
 
 </td>
-<td>
+<td valign="top">
 
 FAQ
 
@@ -992,21 +992,21 @@ FAQ
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YGLS`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 glossarydefinition
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Glossary definition
 
@@ -1015,21 +1015,21 @@ Glossary definition
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YINF`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 informationtextlong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Information
 
@@ -1038,21 +1038,21 @@ Information
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YINS`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 instruction
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Instruction
 
@@ -1061,21 +1061,21 @@ Instruction
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YLOG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 logEntrylong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Log entry
 
@@ -1084,21 +1084,21 @@ Log entry
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YMSE`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 errorMessage
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Error message
 
@@ -1107,21 +1107,21 @@ Error message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YMSG`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 messagetextlong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Message text \(long\)
 
@@ -1130,21 +1130,21 @@ Message text \(long\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YMSI`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 informationMessage
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Information message long
 
@@ -1153,21 +1153,21 @@ Information message long
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YMSW`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 warningMessage
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Warning message
 
@@ -1176,21 +1176,21 @@ Warning message
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YTEC`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 technicaltextlong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Technical text
 
@@ -1199,21 +1199,21 @@ Technical text
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YTIC`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 ticker
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Ticker / Marquee
 
@@ -1222,21 +1222,21 @@ Ticker / Marquee
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `YTXT`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 generaltextlong
 
 
 
 </td>
-<td>
+<td valign="top">
 
 General text long
 

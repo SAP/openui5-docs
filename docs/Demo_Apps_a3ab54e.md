@@ -18,9 +18,7 @@ We have the following categories of demo apps:
 
 -   Showcase apps that show you how to use specific controls or features
 
--   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup,_Tutorials,_and_Demo_Apps_8b49fc1.md)\)
-
--   Template apps \(see [App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)\)
+-   Apps that are created with our tutorials \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\)
 
 
 The following tables give an overview of what each demo app shows.
@@ -34,28 +32,28 @@ The following tables give an overview of what each demo app shows.
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Feature
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Layouts
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Specific Topic
 
@@ -64,14 +62,14 @@ Specific Topic
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shopping Cart*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -86,7 +84,7 @@ Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.BlockLayout`
 
@@ -97,7 +95,7 @@ Input validation \(see [Validation Messages](Validation_Messages_a90d93d.md)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 Filtering, custom filter
 
@@ -105,7 +103,7 @@ Sorting
 
 Formatting
 
-[Behavior-driven Development with Gherkin](Behavior-driven_Development_with_Gherkin_45ac9f1.md)
+[Behavior-driven Development with Gherkin](Behavior_driven_Development_with_Gherkin_45ac9f1.md)
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 
@@ -116,14 +114,14 @@ Local storage
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Browse Orders*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -136,7 +134,7 @@ Local storage
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.ResponsiveGridLayout`
 
@@ -147,7 +145,7 @@ Local storage
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
@@ -162,14 +160,14 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shop Administration Tool*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -184,7 +182,7 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.BlockLayout`
 
@@ -195,7 +193,7 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 Formatting
 
@@ -204,28 +202,28 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Employee Directory*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
 
@@ -236,14 +234,14 @@ Formatting
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Bulletin Board*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -252,14 +250,14 @@ Formatting
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.ui.layout.form.SimpleForm`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
@@ -274,14 +272,14 @@ Custom type
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Manage Products*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 [XML View](XML_View_91f2928.md)
 
@@ -290,98 +288,18 @@ Custom type
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Sorting
 
 Formatting
 
 [Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
-*Worklist Template*
-
-
-
-</td>
-<td>
-
-[XML View](XML_View_91f2928.md)
-
-[Busy Indicators](Busy_Indicators_0dd2110.md)
-
-
-
-</td>
-<td>
-
-
-
-</td>
-<td>
-
-Filtering
-
-Formatting
-
-[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-Sorting
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
-*Master-Detail Template*
-
-
-
-</td>
-<td>
-
-[XML Fragments](XML_Fragments_2c677b5.md)
-
-[XML View](XML_View_91f2928.md)
-
-[Busy Indicators](Busy_Indicators_0dd2110.md)
-
-[Device Adaptation](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md)
-
-[Expression Binding](Expression_Binding_daf6852.md)
-
-
-
-</td>
-<td>
-
-`sap.f.FlexibleColumnLayout`
-
-
-
-</td>
-<td>
-
-Formatting
-
-List selector
-
-[Mock Server](Mock_Server_69d3cbd.md) \(OData V2\)
-
-Sorting
 
 
 
@@ -398,28 +316,28 @@ Sorting
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Demo App
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `sap.m`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 `sap.m.semantic`
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Other Libraries
 
@@ -428,14 +346,14 @@ Other Libraries
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shopping Cart*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `Carousel`
 
@@ -476,14 +394,14 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -492,14 +410,14 @@ Other Libraries
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Browse Orders*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `IconTabBar`
 
@@ -520,7 +438,7 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
 `DetailPage`
 
@@ -533,7 +451,7 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -542,14 +460,14 @@ Other Libraries
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Shop Administration Tool*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -572,12 +490,12 @@ Other Libraries
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `sap.tnt.NavigationListItem`
 
@@ -592,14 +510,14 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Employee Directory*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -612,12 +530,12 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -626,40 +544,40 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Hello World*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Bulletin Board*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -672,7 +590,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `FullscreenPage`
 
@@ -681,7 +599,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
  
 
@@ -690,14 +608,14 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 *Manage Products*
 
 
 
 </td>
-<td>
+<td valign="top">
 
 `App`
 
@@ -706,7 +624,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
+<td valign="top">
 
 `FullscreenPage`
 
@@ -715,101 +633,7 @@ D3 charts \([https://d3js.org](https://d3js.org)\)
 
 
 </td>
-<td>
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
-*Worklist Template*
-
-
-
-</td>
-<td>
-
-`App`
-
-`ColumnListItem`
-
-`MessagePage`
-
-`SearchField`
-
-`Table`
-
-`Toolbar`
-
-
-
-</td>
-<td>
-
-`SemanticPage`
-
-`SendEmailAction`
-
-
-
-</td>
-<td>
-
-
-
-</td>
-</tr>
-<tr>
-<td>
-
-*Master-Detail Template*
-
-
-
-</td>
-<td>
-
-`ColumnListItem`
-
-`OverflowToolbar`
-
-`List`
-
-`MessagePage`
-
-`ObjectHeader`
-
-`Page`
-
-`SearchField`
-
-`Table`
-
-`Toolbar`
-
-`ViewSettingsDialog`
-
-
-
-</td>
-<td>
-
-`titleHeading`
-
-`SemanticPage`
-
-`FilterAction`
-
-`SendEmailAction`
-
-
-
-</td>
-<td>
-
-`sap.f.FlexibleColumnLayout` \(2 columns\)
+<td valign="top">
 
 
 

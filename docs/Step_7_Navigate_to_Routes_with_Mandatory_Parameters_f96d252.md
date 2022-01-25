@@ -66,8 +66,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.nav.view",
+				"path": "sap.ui.demo.nav.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
@@ -90,25 +91,25 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 			}*HIGHLIGHT END*],
 			"targets": {
 				"home": {
-					"viewId": "home",
-					"viewName": "Home",
-					"viewLevel" : 1
+					"id": "home",
+					"name": "Home",
+					"level" : 1
 				},
 				"notFound": {
-					"viewId": "notFound",
-					"viewName": "NotFound",
+					"id": "notFound",
+					"name": "NotFound",
 					"transition": "show"
 				},
 				"employees": {
-					"viewId": "employeeList",
-					"viewPath": "sap.ui.demo.nav.view.employee",
-					"viewName": "EmployeeList",
-					"viewLevel" : 2
+					"id": "employeeList",
+					"path": "sap.ui.demo.nav.view.employee",
+					"name": "EmployeeList",
+					"level" : 2
 				}*HIGHLIGHT START*,
 				"employee": {
-					"viewId": "employee",
-					"viewName": "employee.Employee",
-					"viewLevel" : 3
+					"id": "employee",
+					"name": "employee.Employee",
+					"level" : 3
 				}*HIGHLIGHT END*
 			}
 		}
@@ -120,9 +121,9 @@ From our data model \(`webapp/localService/metadata.xml` or `webapp/localService
 
 The `{employeeId}` part of the pattern is a mandatory parameter as indicated by the curly brackets. The hash that contains an actual employee ID is matched against that pattern at runtime.
 
-The following hashes would match in our case: `employees/2`, `employees/7`, `employees/anInvalidId,` and so on. However, the hash `employees/` will not match as it does not contain an ID at all. The target of our route is `employee`. We create the target `employee` with `viewLevel` `3`. With that, we make sure that we have the correct slide animation direction.
+The following hashes would match in our case: `employees/2`, `employees/7`, `employees/anInvalidId,` and so on. However, the hash `employees/` will not match as it does not contain an ID at all. The target of our route is `employee`. We create the target `employee` with `level` `3`. With that, we make sure that we have the correct slide animation direction.
 
-Next, we have to create the view `employees.Employee`; for better illustration the `viewPath` is not specified this time.
+Next, we have to create the view `employees.Employee`; for better illustration the `path` is not specified this time.
 
 ***
 
@@ -332,6 +333,12 @@ That’s it. You can go to `webapp/index.html#/employees` and click on any list 
 
 -   `webapp/index.html#/employees/33`
 
+
+**Parent topic:** [Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+
+**Next:** [Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.")
+
+**Previous:** [Step 8: Navigate with Flip Transition](Step_8_Navigate_with_Flip_Transition_3e5f6f3.md "In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the “flip” transition but with a different direction. We will create a simple link on the Employee view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the Back button will navigate back to the Employee view with a reversed flip transition.")
 
 **Related Information**  
 

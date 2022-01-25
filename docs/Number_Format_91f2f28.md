@@ -149,63 +149,63 @@ To control the start the starting point of numbers which should be displyed in c
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Number
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `FLOOR` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `CEILING` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `TOWARDS_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `AWAY_FROM_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_FLOOR` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_CEILING` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_TOWARDS_ZERO` 
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
      `HALF_AWAY_FROM_ZERO` 
 
@@ -214,63 +214,63 @@ To control the start the starting point of numbers which should be displyed in c
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.21
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
@@ -279,63 +279,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.25
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
@@ -344,63 +344,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     2.29
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3.
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     2.3
 
@@ -409,63 +409,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.21
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
@@ -474,63 +474,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.25
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
@@ -539,63 +539,63 @@ To control the start the starting point of numbers which should be displyed in c
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     -2.29
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.2
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     -2.3
 
@@ -625,7 +625,7 @@ oFloatFormat.parse("12.34%"); // returns 0.1234
 
 [API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)
 
-[Unit Formatting](Unit_Formatting_8e618a8.md)
+[Unit Formatting](Unit_Formatting_8e618a8.md "OpenUI5 supports the formatting and parsing of units. These unit formats are by default taken from the CLDR. Besides the default units defined in the CLDR, you can also define custom units.")
 
-[Currency Formatting](Currency_Formatting_e978728.md)
+[Currency Formatting](Currency_Formatting_e978728.md "")
 

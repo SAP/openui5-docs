@@ -19,14 +19,14 @@ OpenUI5 action controls are used for triggering interactions with the applicatio
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  OpenUI5 Control
 
 
 
 </th>
-<th>
+<th valign="top">
 
 What is read by default
 
@@ -35,14 +35,14 @@ What is read by default
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Button
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Button text
 
@@ -56,14 +56,14 @@ Button
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Link
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Link text
 
@@ -77,14 +77,14 @@ Link
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Breadcrumbs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   In Virtual Cursor mode - upon entry announce the label *Breadcrumb Trail*
 
@@ -98,14 +98,14 @@ Breadcrumbs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Menu Button
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Button text
 
@@ -121,14 +121,14 @@ Menu Button
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Split Button
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Button text
 
@@ -144,14 +144,14 @@ Split Button
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Toggle Button
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Button text
 

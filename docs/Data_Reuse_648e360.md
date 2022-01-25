@@ -55,6 +55,38 @@ Upon selection of an object in the list, the row context is used as the binding 
 
 Editing any properties shown in the list or the detail section will automatically be reflected in the other place as well.
 
+If you load master and detail simultaneously, or even load the detail before the master, you can still achieve data sharing between the detail page and the list: Create a context binding in your controller to read the data for the detail page, and use [`ODataContextBinding#moveEntityTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/moveEntityTo). Be aware that this function has some preconditions:
+
+1.  The detail page must be unbound initially.
+2.  The list binding must be suspended initially to ensure that it does not read this entity and create a context for it. `moveEntityTo` resumes this binding. As a consequence, the application has to resume the list binding itself if it is only displaying the list.
+3.  The context binding must have finished reading, so that the data can be transferred to the list binding. This can be achieved by calling `requestObject` at its bound context.
+
+**Detail page controller \(extract\)**
+
+``` js
+...
+var oDetailBinding = oModel.bindContext("/SalesOrderList('1')");
+this.oView.setBindingContext(oDetailBinding.getBoundContext());
+oDetailBinding.getBoundContext().requestObject().then(function () {
+    oDetailBinding.moveEntityTo(that.oView.byId("master").getBinding("items"));
+}
+...
+```
+
+**Sample list view**
+
+``` xml
+<m:Table id="master" items="{path: '/SalesOrderList', suspended: true}">
+    <m:ColumnListItem>
+        <m:Text id="SalesOrderID" text="{SalesOrderID}"/>
+    </m:ColumnListItem>
+</m:Table>
+```
+
+The context that is now a list binding context is also set to `keepAlive` by `moveEntityTo`. For more information, see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below.
+
+After this call, the context binding no longer has data. In this scenario, the context binding has outlived its purpose after the successful execution of `moveEntityTo` and can be destroyed. To be able to use the context binding further, it would need to be refreshed.
+
 ***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_g5j_v1r_mgb"/>
@@ -113,7 +145,7 @@ The `$$sharedRequest` binding parameter is used automatically for list bindings 
 
 ***
 
-<a name="loio648e360fa22d46248ca783dc6eb44531__section_f2s_pqp_4mb"/>
+<a name="loio648e360fa22d46248ca783dc6eb44531__section_ELC"/>
 
 ### Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection
 
@@ -153,4 +185,6 @@ The optional callback function `fnOnBeforeDestroy` is called when the kept-alive
 -   the list binding is destroyed,
 -   the context is deleted,
 -   due to a refresh, the entity is no longer accessible via its previous path.
+
+If you want to get [server messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md) for the kept-alive context, but not for the list, use the `bRequestMessages` parameter. The messages for this context are requested immediately and with each subsequent refresh. You can then get the latest messages as a side effect via [`v4.Context#requestSideEffects`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects).
 

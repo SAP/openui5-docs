@@ -53,35 +53,35 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
  **Feature Supported?** 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.f.GridContainer` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.f.GridList` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.ui.layout.cssgrid.CSSGrid` 
 
 
 
 </th>
-<th>
+<th valign="top">
 
  `sap.ui.layout.Grid` 
 
@@ -90,35 +90,35 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Complies with the grid specification according to the HTML Standard** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -127,35 +127,35 @@ The `sap.ui.layout.Grid` control defines how many columns are displayed dependin
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Number of columns supported** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unlimited
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unlimited
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unlimited
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Up to 12
 
@@ -164,35 +164,35 @@ Up to 12
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Can configure row height, column width, and gap dimensions** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -201,35 +201,35 @@ Up to 12
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports auto calculation of rows per item** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -238,35 +238,35 @@ Up to 12
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Can fill empty spaces in the grid** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -275,35 +275,35 @@ Up to 12
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Items flow direction** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Horizontal only
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Horizontal and vertical
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Horizontal and vertical
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Horizontal only
 
@@ -312,35 +312,35 @@ Horizontal only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Can configure item position** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -349,7 +349,7 @@ Horizontal only
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Can configure item dimensions**
 
@@ -358,28 +358,28 @@ The ability to define how many rows and columns an item should take.
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -388,35 +388,35 @@ The ability to define how many rows and columns an item should take.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports columns breathing** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -425,7 +425,7 @@ The ability to define how many rows and columns an item should take.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 **Supports templating**
 
@@ -434,28 +434,28 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -464,35 +464,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports screen-size breakpoints** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -501,35 +501,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports container-size breakpoints** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -538,35 +538,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports indentation** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -575,35 +575,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Can control items visibility based on breakpoints** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
@@ -612,35 +612,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports keyboard handling** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -649,35 +649,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports growing** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -686,35 +686,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports sorting, filtering and grouping** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -723,35 +723,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports headers and footer**s
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -760,35 +760,35 @@ The possibility to use one of the predefined layout templates or to create a cus
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  **Supports selection and highlighting** 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
-<td>
+<td valign="top">
 
  ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
@@ -800,6 +800,19 @@ The possibility to use one of the predefined layout templates or to create a cus
 
 1\) By using the `customLayout` aggregation.  
  2\) Two-dimensional keyboard navigation is supported. Users can navigate through the contained controls using the arrow keys.
+
+-   **[sap.f.GridContainer](sap_f_GridContainer_cca5ee5.md "The GridContainer allows you to align tiles, cards or other controls in
+		configuration, such as an overview page.")**  
+The `GridContainer` allows you to align tiles, cards or other controls in configuration, such as an overview page.
+-   **[sap.f.GridList](sap_f_GridList_2fc256b.md "The GridList allows you to use different types of layouts responsible for the positioning and responsiveness of the
+		content.")**  
+The `GridList` allows you to use different types of layouts responsible for the positioning and responsiveness of the content.
+-   **[sap.ui.layout.cssgrid.CSSGrid](sap_ui_layout_cssgrid_CSSGrid_d6fc40b.md "The CSSGrid is a flexible layout, based on the two-dimensional, browser-native grid system, using the standard CSS
+		property display with value grid. It allows for flexible positioning of user interface elements, inside
+		horizontal and vertical grid structures.")**  
+The `CSSGrid` is a flexible layout, based on the two-dimensional, browser-native grid system, using the standard CSS property `display` with value `grid`. It allows for flexible positioning of user interface elements, inside horizontal and vertical grid structures.
+-   **[sap.ui.layout.Grid](sap_ui_layout_Grid_43ae317.md "A flexible layout that positions its items in a 12-column flow layout.")**  
+A flexible layout that positions its items in a 12-column flow layout.
 
 **Related Information**  
 

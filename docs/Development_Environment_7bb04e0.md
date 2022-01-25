@@ -42,3 +42,16 @@ See [App Development Using SAP Business Application Studio](App_Development_Usin
 
 In general, you can use the JavaScript IDE of your choice. Some use cases as well as some former development environments are described in [Other Environments](Other_Environments_f0898e6.md).
 
+-   **[App Development](App_Development_b1fbe1a.md "There are several ways to develop OpenUI5
+		applications. Select the one that meets the requirements of your projects and your expectations best.")**  
+There are several ways to develop OpenUI5 applications. Select the one that meets the requirements of your projects and your expectations best.
+-   **[App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md "Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop
+		state-of-the-art UI5 apps.")**  
+Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop state-of-the-art UI5 apps.
+-   **[Developing OpenUI5](Developing_OpenUI5_ee8726a.md "This section provides information for the initial setup, development workflow, and how
+		tests are executed.")**  
+This section provides information for the initial setup, development workflow, and how tests are executed.
+-   **[Other Environments](Other_Environments_f0898e6.md "This section contains information about other as well as former OpenUI5 development environments
+		ans scenarios.")**  
+This section contains information about other as well as former OpenUI5 development environments ans scenarios.
+

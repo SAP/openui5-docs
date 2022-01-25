@@ -112,14 +112,14 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > 
 > <table>
 > <tr>
-> <th>
+> <th valign="top">
 > 
 >  OpenUI5 Control
 > 
 > 
 > 
 > </th>
-> <th>
+> <th valign="top">
 > 
 > DOM Element
 > 
@@ -128,14 +128,14 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > </th>
 > </tr>
 > <tr>
-> <td>
+> <td valign="top">
 > 
 >  `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` 
 > 
 > 
 > 
 > </td>
-> <td>
+> <td valign="top">
 > 
 >  `jQuery("#container-HeapOfShards---app--myButton")` 
 > 
@@ -260,6 +260,10 @@ There are additional tabs that can help you to analyze performance problems or m
 
 -   *Application* or *Resources*
 
+
+**Parent topic:** [Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+
+**Previous:** [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information Dialog&quot;. This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.")
 
 **Related Information**  
 

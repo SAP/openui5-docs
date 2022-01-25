@@ -115,10 +115,48 @@ If you can't fix the problem, try downloading the solution of the previews or cu
 
 If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
 
+-   **[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup
+		of OpenUI5 development environments.")**  
+This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.
+-   **[Quick Start](Quick_Start_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start
+		with a simple &quot;Hello World&quot; example, and convert it to a minimalist two-page app.")**  
+Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple "Hello World" example, and convert it to a minimalist two-page app.
+-   **[Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")**  
+In this tutorial we will introduce you to all major development paradigms of OpenUI5.
+-   **[Troubleshooting](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into
+		problems with your OpenUI5
+		app.")**  
+In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.
+-   **[Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5. ")**  
+In this tutorial, we will explain the concepts of data binding in OpenUI5.
+-   **[OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")**  
+In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.
+-   **[Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your
+		application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of
+		best practices for applying the navigation and routing features of OpenUI5 to your
+		applications.")**  
+OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.
+-   **[Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit,
+		OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more. ")**  
+In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development \(TDD\), and much more.
+-   **[OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server. ")**  
+In this tutorial, we will explore some advanced features of the OData V2 mock server.
+-   **[Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a
+		shop owner can use to manage his product stock levels.")**  
+In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.
+-   **[Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout
+		patterns that comply with the SAP Fiori design guidelines.")**  
+In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.
+-   **[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the
+		various features and controls of OpenUI5.")**  
+With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.
+-   **[Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md "In this section, we have compiled a set of best practice recommendations to help you develop high-quality OpenUI5 apps.")**  
+In this section, we have compiled a set of best practice recommendations to help you develop high-quality OpenUI5 apps.
+
 **Related Information**  
 
 
-[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md)
+[App Templates: Kick Start Your App Development](App_Templates_Kick_Start_Your_App_Development_a460a73.md "The app templates documented here are a kind of &quot;best practice&quot; for your app development.")
 
-[Demo Apps](Demo_Apps_a3ab54e.md)
+[Demo Apps](Demo_Apps_a3ab54e.md "With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.")
 

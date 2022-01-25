@@ -142,7 +142,7 @@ The reuse component is declared via its `componentUsage` ID as the key and the s
 
 The `lazy` flag is used to indicate whether the Component should be already preloaded or not. By default, the Components defined in the usage are lazy. A Component preloaded with the flag `lazy: false` has to be explicitly maintained in the `manifest.json`.
 
-For more information, see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md).
+For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
 If you want to exchange the reuse component, for example, to extend an app, you simple exchange the reuse component in the `manifest.json` descriptor file.
 
@@ -205,14 +205,14 @@ If you use a component that is embedded in a library, and the application declar
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Old Code
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Recommended Code
 
@@ -221,7 +221,7 @@ Recommended Code
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `manifest.json` with dependency declaration only:
 
@@ -240,7 +240,7 @@ Recommended Code
 
 
 </td>
-<td>
+<td valign="top">
 
 `manifest.json` with declaration of reuse components:
 
@@ -271,7 +271,7 @@ Recommended Code
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `Component.js` with nested reuse component:
 
@@ -288,7 +288,7 @@ createContent: function() {
 
 
 </td>
-<td>
+<td valign="top">
 
  `Component.js` that loads the reuse component
 
@@ -311,11 +311,11 @@ createContent: function() {
 **Related Information**  
 
 
-[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md)
+[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 
 [API Reference: `sap.ui.core.ComponentContainer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ComponentContainer.html)
 
 [API Reference: `sap.ui.core.ComponentContainer.setLifecycle`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer/methods/setLifecycle)
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 

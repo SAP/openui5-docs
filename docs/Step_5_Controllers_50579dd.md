@@ -95,12 +95,18 @@ We define the app controller in its own file by extending the `Controller` objec
 -   Controller names always end with `*.controller.js`
 
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap.m.Text control into a dedicated view.")
+
+**Previous:** [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
+
 **Related Information**  
 
 
-[Model View Controller \(MVC\)](Model_View_Controller_(MVC)_91f2334.md)
+[Model View Controller \(MVC\)](Model_View_Controller_MVC_91f2334.md "The Model View Controller (MVC) concept is used in OpenUI5 to separate the representation of information from the user interaction. This separation facilitates development and the changing of parts independently.")
 
-[Controller](Controller_121b8e6.md)
+[Controller](Controller_121b8e6.md "A controller contains methods that define how models and views interact.")
 
 [API Reference: `sap.ui.define` ](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
 

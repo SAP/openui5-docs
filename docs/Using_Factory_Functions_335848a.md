@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The factory function is a more powerful approach for creating controls from model data. The factory function is called for each entry of a control’s aggregation, and the developer can decide whether each entry shall be represented by the same control with different properties or even by a completely different control for each entry.
 
-The factory function comes with the parameters `sId`, which should be used as an ID for the new control, and `oContext`, which is for accessing the model data of the entry. The returned object must be of type `sap.ui.core.Element`. Here’s how this scenario can be realized in an XML view and a controller using our JSON model data from [List Binding \(Aggregation Binding\)](List_Binding_(Aggregation_Binding)_91f0577.md):
+The factory function comes with the parameters `sId`, which should be used as an ID for the new control, and `oContext`, which is for accessing the model data of the entry. The returned object must be of type `sap.ui.core.Element`. Here’s how this scenario can be realized in an XML view and a controller using our JSON model data from [List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md):
 
 ``` xml
 <mvc:View
@@ -111,5 +111,5 @@ oVerticalLayout.bindAggregation("content", "/companies", function (sId, oContext
 **Related Information**  
 
 
-[Tutorial Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md)
+[Tutorial Step 15: Aggregation Binding Using a Factory Function](Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md "Instead of hard-coding a single template control, we use a factory function to generate different controls based on the data received at runtime. This approach is much more flexible and allows complex or heterogeneous data to be displayed.")
 

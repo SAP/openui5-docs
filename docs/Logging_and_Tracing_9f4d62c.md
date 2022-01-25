@@ -26,28 +26,28 @@ Specific log messages only appear in the console when the severity of the issue 
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Severity
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Log Level
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example
 
@@ -56,56 +56,56 @@ Example
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `NONE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -1
 
 
 
 </td>
-<td>
+<td valign="top">
 
 No messages are written to the console
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `FATAL` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 0
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unrecoverable situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A parse error occurred while processing a JavaScript file or an XML view
 
@@ -114,28 +114,28 @@ A parse error occurred while processing a JavaScript file or an XML view
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ERROR` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 1 \(Default\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Erroneous but recoverable situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Loading a requested module failed
 
@@ -144,28 +144,28 @@ Loading a requested module failed
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `WARNING` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 2
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Unwanted but foreseen situations
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Wrong property format was passed to a control
 
@@ -174,28 +174,28 @@ Wrong property format was passed to a control
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `INFO` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 3
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Purely informative
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A configuration parameter was set
 
@@ -204,28 +204,28 @@ A configuration parameter was set
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `DEBUG` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 4 \(Debug Mode\)
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Information necessary for debugging
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A framework event was fired
 
@@ -234,28 +234,28 @@ A framework event was fired
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `TRACE` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 5
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Tracing the program flow
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A certain position in the code was reached
 
@@ -264,28 +264,28 @@ A certain position in the code was reached
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  `ALL` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 6
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Messages of all severity categories are written to the console
 
 
 
 </td>
-<td>
+<td valign="top">
 
 
 
@@ -301,7 +301,7 @@ Messages of all severity categories are written to the console
 
 During development, or when you're troubleshooting application errors, you can increase the log level for debugging . When you enable debug mode, for example in the *Technical Information* dialog, the log level is automatically increased to 4 \(`DEBUG`\) and you will see messages in the console that might be helpful for finding bugs.
 
-You can also set the log level manually, either by calling `in the application code or by setting the framework parameter <level>) setting the framework parameter <level>)```sap-ui-loglevel= \(see<level sap-ui-loglevel=<level\>[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)\). Depending on the log level, you might get a large amount of log messages in the console. The error might not be clearly visible from a single log message and might need further analysis.
+You can also set the log level manually, either by calling `Log.setLevel(<level>)` in the application code \(see the [API Reference](https://openui5.hana.ondemand.com/#/api/module:sap/base/Log%23methods/sap/base/Log.setLevel)\) or by setting the `sap-ui-logLevel=<level>` framework parameter \(see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)\). Depending on the log level, you might get a large amount of log messages in the console. The error might not be clearly visible from a single log message and might need further analysis.
 
 Log entries are written to the console in chronological order. When you identify a message in the console that is connected to the error you are tracing, there might be other related log messages written shortly before or after the current message.
 
@@ -369,7 +369,7 @@ assert(aValues.length === 10, "There are 10 values stored in the array")
 **Related Information**  
 
 
-[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab)
+[Debugging](Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab "When developing apps, searching for bugs is an inevitable part of the process. To analyze an issue, you can use the developer tools of your browser and built-in OpenUI5 tools. In this section, we give an overview of the OpenUI5 tools you can use when debugging. To learn more about the developer tools of your browser, check the documentation of the browser.")
 
-[Troubleshooting Tutorial Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md)
+[Troubleshooting Tutorial Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
 

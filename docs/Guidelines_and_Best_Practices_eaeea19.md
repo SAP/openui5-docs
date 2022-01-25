@@ -23,21 +23,21 @@ The following table contains guidelines and examples on how to set the rule prop
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Field
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Guidelines / Explanation
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Example / Clarification
 
@@ -46,14 +46,14 @@ Example / Clarification
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 ID
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   CamelCase
 
@@ -63,7 +63,7 @@ ID
 
 
 </td>
-<td>
+<td valign="top">
 
 *hardcodedTextValues*
 
@@ -72,21 +72,21 @@ ID
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Async
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Defines if the rule check function will contain asynchronous operations. It can be true or false. The default value is false.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Make sure you use the resolve function in your rule check function as a 4th parameter.
 
@@ -95,14 +95,14 @@ Make sure you use the resolve function in your rule check function as a 4th para
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Audiences
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Control - rule is relevant for control developers
 
@@ -114,7 +114,7 @@ Audiences
 
 
 </td>
-<td>
+<td valign="top">
 
 Choose one.
 
@@ -123,14 +123,14 @@ Choose one.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Categories
 
 
 
 </td>
-<td>
+<td valign="top">
 
 A list of categories checked that show which aspects of the application are affected by the rule. Examples:
 
@@ -144,7 +144,7 @@ A list of categories checked that show which aspects of the application are affe
 
 
 </td>
-<td>
+<td valign="top">
 
 Choose one or more, or add your own.
 
@@ -153,14 +153,14 @@ Choose one or more, or add your own.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Min version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The minimum OpenUI5 version required so that the rule can produce valid results. The Support Assistant considers applicable rules according to their `minversion` value.
 
@@ -169,7 +169,7 @@ If you have rules in your custom library, keep in mind that the rule `minversion
 
 
 </td>
-<td>
+<td valign="top">
 
 for example, 1.44 for OpenUI5 version comparison or "\*", "-", or whitespace \(" "\) to avoid version filtering.
 
@@ -178,21 +178,21 @@ for example, 1.44 for OpenUI5 version comparison or "\*", "-", or whitespace \("
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Max version
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The maximum OpenUI5 version required to run the rule.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \(currently not taken into account\)
 
@@ -201,14 +201,14 @@ The maximum OpenUI5 version required to run the rule.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Title
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   As short as possible, as descriptive as possible.
 
@@ -220,7 +220,7 @@ Title
 
 
 </td>
-<td>
+<td valign="top">
 
 *Page: invalid background design property*
 
@@ -229,14 +229,14 @@ Title
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Description
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Briefly explain what the rule does/checks.
 
@@ -248,7 +248,7 @@ Description
 
 
 </td>
-<td>
+<td valign="top">
 
 *Dialogs with content should have ariaLabelledBy association set*
 
@@ -257,14 +257,14 @@ Description
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Resolution
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Explain how to fix the issue.
 
@@ -278,7 +278,7 @@ Resolution
 
 
 </td>
-<td>
+<td valign="top">
 
 *Set property upperCase to false or add icons to IconTabFilters*
 
@@ -287,14 +287,14 @@ Resolution
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Details
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Contains technical details on a rule that was triggered for a specific element.
 
@@ -304,7 +304,7 @@ Details
 
 
 </td>
-<td>
+<td valign="top">
 
 *Element\{0\} has no icon but its parent Element\{1\} has property upperCase set to true.*
 
@@ -313,14 +313,14 @@ Details
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 URLs
 
 
 
 </td>
-<td>
+<td valign="top">
 
 -   Ideally every rule should point to a topic or document in the DevGuide, API Reference, Samples, or SAP Fiori Design Guidelines.
 
@@ -337,8 +337,9 @@ URLs
 
 
 
+
 </td>
-<td>
+<td valign="top">
 
 -   *Documentation: Element Binding*
 -   *API Reference: ComboBox \#getSelectedItem*
@@ -349,21 +350,21 @@ URLs
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Check function
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Check function code
 
 
 
 </td>
-<td>
+<td valign="top">
 
  `function (issueManager, oCoreFacade, oScope) { ... }` 
 

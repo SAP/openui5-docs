@@ -50,24 +50,3 @@ The following information is provided per log level:
 -   `DEBUG`: Information about "non-activities", for example, if no extension configured for an extension point was found; this provides comprehensive information for each situation where an extension might be configured. Exception: Non-existing control property modifications are **not** logged at this log level \(see below how you can enable this\). In addition, a complete dump of the extensibility configuration is logged when it is activated.
 
 
-Certain information is only logged when an additional URL parameter is used, because otherwise there would be too much information in the log for other debugging scenarios: To enable this extra logging, add `sap-ui-xx-debugCustomizing` to the query part of the URL. This extra logging enables an explicit log statement for each control, for which **no** control modification has been found.
-
-***
-
-### Reading the Current Customizing Data
-
-To dump the complete extensibility data, use the following command in the browser console:
-
-``` js
-
-sap.ui.require(["sap/ui/core/CustomizingConfiguration"], function(CustomizingConfiguration) {
-  CustomizingConfiguration.log()
-});
-
-```
-
-As a result, an object is returned in the console which contains the customizing configuration, structured by type of customization and view name.
-
-> ### Note:  
-> If Customizing is not enabled, this command causes an error because `sap.ui.core.CustomizingConfiguration` is not defined.
-

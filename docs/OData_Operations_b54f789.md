@@ -396,7 +396,7 @@ This approach can also be used with XML templating where [`createBindingContext`
 
 ***
 
-<a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_qnb_qyv_tz"/>
+<a name="loiob54f7895b7594c61a83fa7257fa9d13f__section_AOR"/>
 
 ### Access Operation Results
 
@@ -414,9 +414,11 @@ oOperation.execute().then(function () {
 
 The promise returned by the operation binding's [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) method may resolve with a *return value context* provided the conditions specified in [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) are met. The operation binding may be bound to an entity or a collection of entities.
 
-The typical use case for *return value context* is when you call a bound operation with a context `C1` defining its binding parameter and the bound operation returns a *different version* of the entity used as binding parameter. `C1` is the binding context of an "object page" container displaying properties of the corresponding entity. You need to replace `C1` as binding context of the object page by the*return value context*. This way, the *different version* of the entity is displayed without a further read request. If the bound operation returns the entity used as binding parameter, the changes will automatically be copied to the binding parameter.
+The typical use case for *return value context* is when you call a bound operation with a `C1` context defining its binding parameter and the bound operation returns a *different version* of the entity used as binding parameter. `C1` is the binding context of an "object page" container displaying properties of the corresponding entity. You need to replace`C1` as binding context of the object page by the*return value context*. This way, the *different version* of the entity is displayed without a further read request. If the bound operation returns the entity used as binding parameter, the changes will automatically be copied to the binding parameter.
 
-If the operation binding fulfills the conditions for returning a context, you can set the parameter `$$inheritExpandSelect` for the binding: The request for the bound operation is then sent with the same `$expand` and `$select` query options used to load the operation's binding parameter. This way you guarantee that all fields of the object page are available in the operation response.
+If the operation binding fulfills the conditions for returning a context, you can set the `$$inheritExpandSelect` parameter for the binding: The request for the bound operation is then sent with the same `$expand` and `$select` query options used to load the operation's binding parameter. This way you guarantee that all fields of the object page are available in the operation response.
+
+If the `C1` context belongs to a list binding, for example in a list report, you can pass the `bReplaceWithRVC` flag to the operation binding's `execute` method in order to immediately replace `C1` in the list with the return value context and return that list context instead. This way, the *different version* of the entity is displayed even inside the list report without a further read request. For more information, see [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) and [Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md).
 
 Sample object page to display an `Artist` entity
 

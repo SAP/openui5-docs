@@ -68,14 +68,14 @@ The render manager class collects pieces of HTML and injects the generated marku
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Method
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Description
 
@@ -84,14 +84,14 @@ Description
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `write()`
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Writes string information to the HTML
 
@@ -100,14 +100,14 @@ Writes string information to the HTML
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `writeControlData()` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Writes the ID and the recognition data of the control to the HTML
 
@@ -116,14 +116,14 @@ Writes the ID and the recognition data of the control to the HTML
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `renderControl()` 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Converts the specified control into HTML representation and adds it to the HTML; used for rendering child controls
 
@@ -145,8 +145,13 @@ The renderer class is the base class for control renderers. The `Renderer` imple
 
 For notepad controls, the renderer class is normally not directly used, the "renderer" method is directly part of the control implementation and will be added to a renderer class behind the scenes.
 
+-   **[Prevention of Cross-site Scripting](Prevention_of_Cross_site_Scripting_4de64e2.md "Cross-site scripting (XSS) can be prevented by ensuring that it is
+			not possible to inject script code into an application page that
+		runs in a browser.")**  
+Cross-site scripting \(XSS\) can be prevented by ensuring that it is **not** possible to inject script code into an application page that runs in a browser.
+
 **Related Information**  
 
 
-[Prevention of Cross-site Scripting](Prevention_of_Cross-site_Scripting_4de64e2.md)
+[Prevention of Cross-site Scripting](Prevention_of_Cross_site_Scripting_4de64e2.md "Cross-site scripting (XSS) can be prevented by ensuring that it is not possible to inject script code into an application page that runs in a browser.")
 

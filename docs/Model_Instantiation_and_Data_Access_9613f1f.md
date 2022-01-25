@@ -76,7 +76,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 ### Instantiating an OData V4 Model Using the Descriptor File \(`manifest.json`\)
 
-The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
+The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
 
 ``` js
 
@@ -116,7 +116,7 @@ The OData V4 model only supports data access using bindings. It does not provide
 
 ### Language
 
-OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code__Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V4 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
+OpenUI5 uses the concept of a "current language" \(see [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md)\). This language is automatically propagated to the OData service by the OData V4 model. For this reason, applications must not hard code the language themselves, e.g. they must not specify the `"sap-language"` URL parameter as a custom query option.
 
 ***
 
@@ -160,6 +160,30 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 ```
 
+***
+
+<a name="loio9613f1f2d88747cab21896f7216afdac__section_STH"/>
+
+### Security Token Handling
+
+The OData V4 model automatically handles a security token via an "X-CSRF-Token" header if needed by its service. To achieve this, the "X-CSRF-Token" header starts with a value of "Fetch" and will be included in every data request. If a data response contains the "X-CSRF-Token" header, that new value will be remembered and used from that time on. If a data request fails with status 403 and an "X-CSRF-Token" response header value "required" \(case insensitive\), a new security token will be fetched and the data request will be repeated automatically and transparently.
+
+A new security token is fetched via a HEAD request on the service URL using an "X-CSRF-Token" header value "Fetch". The response header value of "X-CSRF-Token" is remembered if present, or else that header will not be used any longer.
+
+If a service does not require an "X-CSRF-Token" header, it should ignore that request header, and everything will be fine.
+
+***
+
+#### Early requests
+
+Often, the first request is a POST to $batch and would fail for services requiring an "X-CSRF-Token" header. To improve performance, you should enable [Early Requests for Metadata and Security Token](Performance_Aspects_5a0d286.md#loio5a0d286c5606424b8e0d663c87445733__section_ER4MST).
+
+***
+
+#### Security token handlers
+
+Some services do not support an "X-CSRF-Token" request header value "Fetch", for example because the "X-CSRF-Token" header value is fixed, known from the beginning, not fetched via the OData service, or does not expire. In other cases, a different header name might be needed. Sometimes it is enough to call [v4.ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders) early on. At other times you might need to provide your own security token handler. You can do so before the OData model is created via [OpenUI5's "securityTokenHandlers" configuration option](Configuration_Options_and_URL_Parameters_91f2d03.md). You can provide a list of functions which are invoked one by one with the model's service URL as the only argument. The first handler which does not return `undefined` wins and is expected to return a `Promise` that resolves with a map of header names and values. This works much like [v4.ODataModel\#changeHttpHeaders](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/changeHttpHeaders), but overriding the "X-CSRF-Token" : "Fetch" pair. This means you either provide your own "X-CSRF-Token" value, or that header is not used at all. Note that expiration is currently only supported for the "X-CSRF-Token" header.
+
 **Related Information**  
 
 
@@ -167,11 +191,11 @@ Sample: Set HTTP header `custom` in manifest.json:
 
 [OData Version 4.0 Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html)
 
-[Bindings](Bindings_54e0ddf.md)
+[Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[Batch Control](Batch_Control_74142a3.md)
+[Batch Control](Batch_Control_74142a3.md "OData V4 allows you to group multiple operations into a single HTTP request payload, as described in the official OData V4 specification Part 1, Batch Requests (see the link under Related Information for more details).")
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md)
+[Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md "Certain methods derived from OpenUI5 model and binding superclasses are not supported in OData V4 model classes or have limited support.")
 

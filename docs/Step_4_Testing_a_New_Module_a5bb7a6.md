@@ -151,6 +151,12 @@ You can now call the unit tests and check the result. As in the previous step, t
 -   Organize the tests in the same file structure as the productive code
 
 
+**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+
+**Next:** [Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
+
+**Previous:** [Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.")
+
 **Related Information**  
 
 
@@ -158,5 +164,5 @@ You can now call the unit tests and check the result. As in the previous step, t
 
 [API Reference: `sap.ui.require`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.require)
 
-[Formatting, Parsing, and Validating Data](Formatting,_Parsing,_and_Validating_Data_07e4b92.md)
+[Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 

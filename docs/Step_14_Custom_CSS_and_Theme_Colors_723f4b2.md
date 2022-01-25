@@ -136,16 +136,22 @@ The actual color now depends on the selected theme which ensures that the color 
 -   Do not specify colors in custom CSS but use the standard theme-dependent classes instead.
 
 
+**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+
+**Next:** [Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_17b87fb.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
+
+**Previous:** [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
+
 **Related Information**  
 
 
-[Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)
+[Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md)
+[CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md "OpenUI5 provides a set of essential adjustable colors behind the generic predefined CSS rules that enable custom content to use the respective CSS classes for the required colors.")
 
-[Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md)
+[Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md "There are several things you should keep in mind to ensure that an application can actually be themed.")
 
-[Compatibility Rules](Compatibility_Rules_91f0873.md)
+[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.")
 
 [API Reference: `sap.ui.core.theming`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.theming.html)
 

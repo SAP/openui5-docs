@@ -163,14 +163,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
 
     <table>
     <tr>
-    <th>
+    <th valign="top">
 
     Type
 
 
     
     </th>
-    <th>
+    <th valign="top">
 
     Notation/Values
 
@@ -179,14 +179,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </th>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `boolean`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     `true` and `x` are both accepted as true values \(case-insensitive\), all others are false. We recommend to use `false` for false values
 
@@ -195,14 +195,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `int`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Any integer value
 
@@ -211,14 +211,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     `string array`
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     Comma-separated list of values; commas within a string are not supported \(no escaping\)
 
@@ -227,14 +227,14 @@ For each configuration option, you can have one attribute in the bootstrap scrip
     </td>
     </tr>
     <tr>
-    <td>
+    <td valign="top">
 
     map from string to string
 
 
     
     </td>
-    <td>
+    <td valign="top">
 
     JavaScript object literal \(preferably JSON syntax\)
 
@@ -269,4 +269,12 @@ The configuration options above are evaluated during the OpenUI5 runtime boot. A
 Additionally, for a limited set of configuration options specific APIs exist which allow you to modify these options at runtime.
 
 For example, the `sap.ui.core.Configuration` class provides setters for several configuration options that can be modified at runtime. The runtime and/or the controls can then react on these configuration changes. The most prominent example for such a configuration option is the `theme`.
+
+-   **[Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md "The complete list of configuration options available in OpenUI5 can be found in the
+			API Reference under sap.ui.core.Configuration.
+		The following table shows a subset of the available configuration options.")**  
+The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
+-   **[Compatibility Version Information](Compatibility_Version_Information_9feb96d.md "Compatibility version flags allow applications to react to incompatible changes in
+			OpenUI5.")**  
+Compatibility version flags allow applications to react to incompatible changes in OpenUI5.
 

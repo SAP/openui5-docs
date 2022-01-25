@@ -50,14 +50,14 @@ Here is an example of folder structure depending on the location of your ruleset
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Location
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Folder Structure
 
@@ -66,14 +66,14 @@ Folder Structure
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
  OpenUI5 
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \[openui5.git\]/src/sap.m/src/sap/m/
 
@@ -82,14 +82,14 @@ Folder Structure
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Reuse library
 
 
 
 </td>
-<td>
+<td valign="top">
 
 \[project\]/src/\[library path\]
 
@@ -273,5 +273,5 @@ In this example there are three rules - one for button and two for label. Splitt
 **Related Information**  
 
 
-[Create a Rule](Create_a_Rule_c24569d.md)
+[Create a Rule](Create_a_Rule_c24569d.md "A rule consists of properties that test and advise on how possible issues can be resolved and a check function that tests the application for a specific issue. To create a rule, you need to set the properties and add a check function.")
 

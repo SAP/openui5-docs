@@ -81,6 +81,7 @@ You can check this by inspecting the HTML with your browser's developer tools.
     -   If your selector is fine, but other style rules override your styles \(potentially those from the original UI5 theme\), then the CSS precedence rules determined this. Refer to the section on additional CSS above and see [http://www.w3.org/TR/CSS21/cascade.html\#cascading-order](http://www.w3.org/TR/CSS21/cascade.html#cascading-order) for the respective part of the CSS spec and [http://www.w3.org/TR/CSS21/cascade.html\#specificity](http://www.w3.org/TR/CSS21/cascade.html#specificity) for more on specificity.
     -   Maybe your browser does not understand the CSS styles you have written. Some browsers still display them in the developer tools, some don't, so you might want to try changing very common styles like the border to check whether selector and specificity are fine.
 
+
 ***
 
 <a name="loiod0db4d538edb43bca893acd4d6814a40__section_opb_ccz_3bb"/>

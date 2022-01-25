@@ -23,11 +23,10 @@ To give an example of a programmatic instantiation of an HTML fragment, you firs
 This fragment can be instantiated from a controller as follows:
 
 ``` js
-// "Fragment" required from module "sap/ui/core/Fragment"
-Fragment.load({
+
+this.loadFragment({
     name: "my.useful.UiPartZ",
-    type: "HTML",
-    controller: oController // this specific fragment again needs a controller 
+    type: "HTML" 
 }).then(function(myButton) {
     // ...
 });

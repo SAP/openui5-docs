@@ -19,14 +19,14 @@ The following methods and events are affected by this. For more information, see
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Method
 
@@ -35,7 +35,7 @@ Method
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataMetaModel`
 
@@ -44,7 +44,7 @@ Method
 
 
 </td>
-<td>
+<td valign="top">
 
 `bindTree`
 
@@ -61,7 +61,7 @@ Method
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataModel`
 
@@ -70,7 +70,7 @@ Method
 
 
 </td>
-<td>
+<td valign="top">
 
 `bindTree`
 
@@ -91,7 +91,7 @@ Method
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataContextBinding`
 
@@ -100,7 +100,7 @@ Method
 
 
 </td>
-<td>
+<td valign="top">
 
 `isInitial`
 
@@ -115,7 +115,7 @@ Method
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataListBinding`
 
@@ -124,7 +124,7 @@ Method
 
 
 </td>
-<td>
+<td valign="top">
 
 `getDistinctValues`
 
@@ -141,7 +141,7 @@ Method
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataPropertyBinding`
 
@@ -150,7 +150,7 @@ Method
 
 
 </td>
-<td>
+<td valign="top">
 
 `isInitial`
 
@@ -173,14 +173,14 @@ Method
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Class
 
 
 
 </th>
-<th>
+<th valign="top">
 
 Event
 
@@ -189,7 +189,7 @@ Event
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataMetaModel`
 
@@ -198,7 +198,7 @@ Event
 
 
 </td>
-<td>
+<td valign="top">
 
 `parseError`
 
@@ -215,7 +215,7 @@ Event
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 `sap.ui.model.odata.v4.ODataModel`
 
@@ -224,7 +224,7 @@ Event
 
 
 </td>
-<td>
+<td valign="top">
 
 `parseError`
 

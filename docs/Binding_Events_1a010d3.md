@@ -24,6 +24,7 @@ For applications, the OData V4 model supports the following events:
 
     -   The `dataReceived` event is fired after the back-end data has been processed. Note that the `dataReceived` event is also fired after a back-end request has failed. The error of the failed request is passed to the event handler as an `error` parameter.
 
+
     For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html), [ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) and [ODataListBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html) in the Demo Kit.
 
 -   The `createSent` and `createCompleted` events at the `ODataListBinding` are typically used by applications to lock the UI for the created entity to avoid modifications while the data for the created entity is sent to the back end, but the response from the back end is not yet processed on the client. For each `createSent` event, a `createCompleted` event is fired.
@@ -31,6 +32,7 @@ For applications, the OData V4 model supports the following events:
     -   The `createSent` event is fired each time a POST request that is triggered for an `ODataListBinding#create` is sent to the backend.
 
     -   The `createCompleted` event is fired each time the backend has responded to a POST request triggered for an `ODataListBinding#create`.
+
 
     For more information, see [`ODataListBinding#create`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataListBinding/methods/create.html).
 
@@ -41,6 +43,7 @@ For applications, the OData V4 model supports the following events:
     -   The `patchSent` event is fired when the first PATCH request for this binding is sent to the backend.
 
     -   The `patchCompleted` event is fired when the backend has responded to the last PATCH request for this binding.
+
 
     If `ODataContextBinding` and `ODataListBinding` use the service request of a superordinate binding, the events are fired by the superordinate binding.
 

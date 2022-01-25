@@ -36,7 +36,7 @@ Despite the many similarities to views, there are also differences: First of all
 **Related Information**  
 
 
-[Components](Components_958ead5.md)
+[Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
-[Views](Views_91f27e3.md)
+[Views](Views_91f27e3.md "The view in the Model-View-Controller (MVC) concept is responsible for defining and rendering the UI. OpenUI5 supports predefined view types.")
 

@@ -312,8 +312,9 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 		"routing": {
 			"config": {
 				"routerClass": "sap.f.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.fiori2.view",
+				"path": "sap.ui.demo.fiori2.view",
 				"controlId": "flexibleColumnLayout",
 				"transition": "slide",
 				"bypassed": {
@@ -340,11 +341,11 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 			],
 			"targets": {
 				"master": {
-					"viewName": "Master",
+					"name": "Master",
 					"controlAggregation": "beginColumnPages"
 				},
 				"detail": {
-					"viewName": "Detail",
+					"name": "Detail",
 					"controlAggregation": "midColumnPages"
 				}
 			}
@@ -354,4 +355,10 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 ```
 
 Finally, we add the routing configuration in the `manifest.json`.
+
+**Parent topic:** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+
+**Next:** [Step 6: Adding a Floating Footer](Step_6_Adding_a_Floating_Footer_555ed73.md "In this step, we add a floating footer to the detail page.")
+
+**Previous:** [Step 8: Enhancing the Detail Page](Step_8_Enhancing_the_Detail_Page_e5ee491.md "With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.")
 

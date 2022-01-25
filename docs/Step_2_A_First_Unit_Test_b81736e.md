@@ -206,10 +206,16 @@ TDD methodology tells us to do the implementation as soon as the test fails and 
 -   Write unit tests for testing the logical correctness of your features
 
 
+**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+
+**Next:** [Step 1: Overview and Testing Strategy](Step_1_Overview_and_Testing_Strategy_ab134ef.md "In this step, we will take a look at the prototype and define the test strategy for our app. The prototype already contains the infrastructure for unit and integration testing and a minimum set of tests and features.")
+
+**Previous:** [Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
+
 **Related Information**  
 
 
-[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md)
+[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md "QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic JavaScript code. It supports asynchronous tests out-of-the-box.")
 
 [QUnit Home Page](https://qunitjs.com/)
 

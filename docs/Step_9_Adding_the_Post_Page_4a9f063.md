@@ -41,8 +41,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
+				"type": "View",
 				"viewType": "XML",
-				"viewPath": "sap.ui.demo.bulletinboard.view",
+				"path": "sap.ui.demo.bulletinboard.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"async": true
@@ -62,14 +63,14 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 			],
 			"targets": {
 				"worklist": {
-					"viewName": "Worklist",
-					"viewId": "worklist",
-					"viewLevel": 1
+					"name": "Worklist",
+					"id": "worklist",
+					"level": 1
 				}*HIGHLIGHT START*,
 				"post": {
-					"viewName": "Post",
-					"viewId": "post",
-					"viewLevel": 2
+					"name": "Post",
+					"id": "post",
+					"level": 2
 				}
 *HIGHLIGHT END*
 			}
@@ -271,4 +272,10 @@ We provide a minimalistic detail page showing only some fields of the selected p
 ```
 
 The controller of the `Post` page needs to take care of the data binding when a navigation event has happened. In the `init` function of the controller we define a local view model and attach to the `routing` event. When the `routing` event is triggered, we bind the view to the post with the specified ID.
+
+**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+
+**Next:** [Step 8: Testing Navigation](Step_8_Testing_Navigation_10592af.md "So far, we have a list of posts on the home page of the app. But typically, a post comes with more details that should be displayed on a separate detail page. We call it the post page because it displays details of a post. In this step we will introduce a new journey to test the post page. We write tests that trigger typical navigation events with OPA. Testing navigation greatly helps in reducing manual testing efforts as it covers a lot of testing paths. It is good practice to cover every view of your application with at least one test, since OPA will check if an exception is thrown. In this way you can detect critical errors very fast.")
+
+**Previous:** [Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have implemented so far and add another important piece of test code: The test suite page. A test suite can execute multiple tests and collect the results. This comes in handy for automatic tools in a continuous integration process.")
 

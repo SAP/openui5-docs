@@ -114,21 +114,21 @@ Although the API signature for `sap.ui.define` and `sap.ui.require` looks simila
 
 <table>
 <tr>
-<th>
+<th valign="top">
 
 Action
 
 
 
 </th>
-<th>
+<th valign="top">
 
 sap.ui.require
 
 
 
 </th>
-<th>
+<th valign="top">
 
 sap.ui.define
 
@@ -137,21 +137,21 @@ sap.ui.define
 </th>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Value export
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not possible
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The callback function defines an export to provide functionality to other modules.
 
@@ -160,21 +160,21 @@ The callback function defines an export to provide functionality to other module
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Module name registration
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Not possible
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The module name is registered at the loader registry and can be used to address the module.
 
@@ -183,21 +183,21 @@ The module name is registered at the loader registry and can be used to address 
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Relative dependencies
 
 
 
 </td>
-<td>
+<td valign="top">
 
 This is not possible, because no module name is registered and a reference point is missing.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Can be used.
 
@@ -206,21 +206,21 @@ Can be used.
 </td>
 </tr>
 <tr>
-<td>
+<td valign="top">
 
 Execution order
 
 
 
 </td>
-<td>
+<td valign="top">
 
 Dependent modules can be executed before the `sap.ui.require` callback has been executed. Therefore, using `sap.ui.require` instead of `sap.ui.define` can break the intended dependency graph and module execution order.
 
 
 
 </td>
-<td>
+<td valign="top">
 
 The dependent modules are waiting for the module callback execution to be finished.
 

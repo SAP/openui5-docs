@@ -33,7 +33,7 @@ You use **routes** to notify your application that the hash has changed to a cer
 
 With **targets**, you define where a view or a component is loaded and where the view or component is shown on the UI. By referring to one or multiple targets in a route's definition, you can load and show the views or components once the route's pattern matches the current hash.
 
-You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries](Descriptor_for_Applications,_Components,_and_Libraries_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
+You configure routing in OpenUI5 in the descriptor file \(`manifest.json`\) \(see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)\) or in the `Component.js` file \(see [Components](Components_958ead5.md) \) to have it available globally throughout your app, but you can also define routes and targets locally by calling the constructors of the classes, for example under the `sap.ui.core.routing` and `sap.m.routing` namespaces.
 
 > ### Note:  
 > You can also define only routes or only targets, but then just have to make sure that you implement the counterpart elsewhere.
@@ -50,7 +50,7 @@ You can use the following kinds of patterns:
 
     The pattern matches the hash exactly. For example, when a pattern is defined as `product/settings`, this pattern matches only if the hash is ***product/settings*** and no data is passed on to the events of the route.
 
-    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard-Coded_Patterns_782aac0.md).
+    For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md).
 
 -   **Route with mandatory parameter**:
 
@@ -89,10 +89,37 @@ You can use the following kinds of patterns:
 > ### Note:  
 > OpenUI5 uses Crossroads.js for parsing the hash and the Hasher framework for manipulating the hash.
 
+-   **[Routing Configuration](Routing_Configuration_9023130.md "Routing configuration consists of routes, targets, config, and
+		owner.")**  
+Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
+-   **[Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method and events for navigation.")**  
+OpenUI5 provides a method and events for navigation.
+-   **[Initializing and Accessing a Routing Instance](Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md "This topic describes how to initialize routing in a component and access the routing functions.")**  
+This topic describes how to initialize routing in a component and access the routing functions.
+-   **[Working with Multiple Targets](Working_with_Multiple_Targets_2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign
+		multiple targets to a route, or define a parent for the target.")**  
+If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.
+-   **[Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md "Routing in OpenUI5 allows
+        you to define titles declaratively in the configuration. The title can be set with valid
+        binding syntax which is then resolved under the scope of the target to which it belongs.
+        This means that the title can be translated when it’s bound to the i18n model or resolved
+        dynamically under the current binding context.")**  
+Routing in OpenUI5 allows you to define titles declaratively in the configuration. The title can be set with valid binding syntax which is then resolved under the scope of the target to which it belongs. This means that the title can be translated when it’s bound to the i18n model or resolved dynamically under the current binding context.
+-   **[Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component
+        can define routing configuration in its manifest and a UI5 router instance will be created
+        automatically after the component is instantiated.")**  
+Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.
+-   **[Navigate with Nested Components](Navigate_with_Nested_Components_8e9d6e4.md "The navTo method in the sap.ui.core.routing.Router
+		class enables you to define a set of parameters to navigate to a specific route.")**  
+The `navTo` method in the `sap.ui.core.routing.Router` class enables you to define a set of parameters to navigate to a specific route.
+-   **[Navigate with Dynamic Targets](Navigate_with_Dynamic_Targets_856d6c6.md "The addTarget method in the sap.ui.core.routing.Targets class enables you to add targets to the router
+		dynamically at runtime. Components or views can serve as dynamic targets.")**  
+The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to add targets to the router dynamically at runtime. Components or views can serve as dynamic targets.
+
 **Related Information**  
 
 
-[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md)
+[Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
 [API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
 

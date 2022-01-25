@@ -229,6 +229,7 @@ The Support Assistant API allows you to:
         ```
 
 
+
 ***
 
 #### View the Results
@@ -243,7 +244,7 @@ The Support Assistant API allows you to:
 **Related Information**  
 
 
-[Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md)
+[Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md "The Support Assistant can be used as part of an existing OPA test to cover more test aspects of the application.")
 
 [API Reference: `sap.ui.support`](https://openui5.hana.ondemand.com/#/api/sap.ui.support)
 
