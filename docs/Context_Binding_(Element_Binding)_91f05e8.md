@@ -68,7 +68,8 @@ Element binding is especially interesting for containers or layouts containing m
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:layout="sap.ui.layout">
+	xmlns:layout="sap.ui.layout"
+	xmlns="sap.m">
 	<layout:VerticalLayout id="vLayout"
 		binding="{/company}"
 		width="100%">
