@@ -264,8 +264,8 @@ Larger than 1023px \(large desktops\): For these, `sapUiResponsiveMargin` provid
 
 The following exceptions to these rules exist:
 
--   When your `sapUiResponsiveMargin` control is placed within an `sap.m.SplitApp` master view, it's always provided with a 16px bottom margin and nothing else. Here, the thresholds mentioned previously do not affect your control.
--   Within a `SplitApp`’s detail view, there's always a 16px margin all around your `sapUiResponsiveMargin` control, regardless of the available screen width. Usually, the `SplitApp` is responsive as well, though. If it hides its master view because the available screen width isn't sufficient, or if it’s running in ‘HideMode’, your control also ignores the fact that it's placed into a `SplitApp`’s detail view and it becomes responsive again.
+-   When your `sapUiResponsiveMargin` control is placed within an `sap.m.SplitApp` list view, it's always provided with a 16px bottom margin and nothing else. Here, the thresholds mentioned previously do not affect your control.
+-   Within a `SplitApp`’s detail view, there's always a 16px margin all around your `sapUiResponsiveMargin` control, regardless of the available screen width. Usually, the `SplitApp` is responsive as well, though. If it hides its list view because the available screen width isn't sufficient, or if it’s running in ‘HideMode’, your control also ignores the fact that it's placed into a `SplitApp`’s detail view and it becomes responsive again.
 
 ***
 

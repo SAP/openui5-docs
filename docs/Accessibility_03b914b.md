@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 In this guide we cover the most important accessibility aspects for application development, based on OpenUI5.
 
-As an application developer, you need to be aware of accessibility in every step of the process. OpenUI5 controls have built-in accessibility features, but you need to take care when building and combining them into an application. Even though features like keyboard handling come out of the box, you need to pay attention to proper focus handling, so that all parts of the app are reachable with key commands. The following chapters showcase different aspects and offer tips how to test your app.
+As an application developer, you need to be aware of accessibility in every step of the process. OpenUI5 controls have built-in accessibility features, but you need to take care when building and combining them into an application. For more information, see [Accessibility](Accessibility_322f55d.md). Even though features like keyboard handling come out of the box, you need to pay attention to proper focus handling, so that all parts of the app are reachable with key commands. The following chapters showcase different aspects and offer tips how to test your app.
 
 -   **[General Recommendations](General_Recommendations_ee37fc7.md "When developing OpenUI5 applications, you need to pay attention
 		to the correctness of the resulting HTML. Some vital accessibility features (screen reader
@@ -43,4 +43,11 @@ The Invisible Message class provides a way to grammatically expose dynamic conte
 -   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good
 		accessibility.")**  
 The following guidelines help you properly label your controls in order to have good accessibility.
+
+**Related Information**  
+
+
+[Accessibility in SAP Fiori](https://ux.wdf.sap.corp/fiori-design-web/accessibility-in-sap-fiori/ "Accessibility in SAP Fiori")
+
+[Fiori Design Guidelines When to Use Which Floorplan](https://ux.wdf.sap.corp/fiori-design-web/when-to-use-which-floorplan/ "Fiori Design Guidelines When to Use Which Floorplan")
 

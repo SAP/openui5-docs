@@ -18,8 +18,9 @@ For information on colors and theming, follow the guidelines listed under *Relat
 
 -   **[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md "As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used. ")**  
 As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used.
--   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual
-		impairments. The implementation is based on the ARIA and HTML standards.")**  
+-   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen
+		reader support in order to aid people with visual impairments. The implementation is based
+		on the ARIA and HTML standards.")**  
 OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.
 
 **Related Information**  

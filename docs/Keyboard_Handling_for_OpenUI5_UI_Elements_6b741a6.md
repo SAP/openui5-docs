@@ -509,3 +509,10 @@ When you are editing an input field in a table or a list, pressing this key will
 </tr>
 </table>
 
+**Related Information**  
+
+
+[Keyboard Handling](Keyboard_Handling_e303820.md "Keyboard Handling in the Developing Apps Section")
+
+[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md "As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used.")
+

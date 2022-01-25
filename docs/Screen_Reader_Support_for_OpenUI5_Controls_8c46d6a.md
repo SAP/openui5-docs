@@ -14,7 +14,30 @@ OpenUI5 offers screen reader support in order to aid people with visual impairme
 
 ***
 
-### General Information
+<a name="copy8c46d6a88c1648bcb2a3c5949d264a1e__overview"/>
+
+### Overview
+
+Screen reader support is incorporated at two levels: framework and application level. Many features are available on the framework level. Some features need to be added or adapted according to the app-specific context and need to be considered when developing your app.
+
+No screen reader activation settings are necessary since the accessibility mode in OpenUI5 is switched on by default. Screen reader software get the information about the page directly from the semantic HTML and ARIA attributes.
+
+ 
+
+***
+
+<a name="copy8c46d6a88c1648bcb2a3c5949d264a1e__Aria"/>
+
+### What is ARIA
+
+Web Accessibility Initiative - Accessible Rich Internet Applications \(WAI-ARIA\) provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility of web content and applications. When accessibility issues cannot be managed with native HTML, ARIA can help bridge those gaps. For more information, see: [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/). For more information, see [More About ARIA](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md#loio656e825c5f1548e6b1d0acb5586f2a2a__MoreARIA) section.
+
+***
+
+> ### Note:  
+> OpenUI5 controls provide the prerequisites for screen reader support based on the ARIA and HTML standards. All screen readers that implement this standard should work fine. If there are deviations in the interpretation, these need to be addressed to the screen reader vendor. If you need more information on our testing environment, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
+
+***
 
 Currently, the following libraries have screen reader support based on the ARIA standard:
 
@@ -43,10 +66,58 @@ Currently, the following libraries have screen reader support based on the ARIA 
 -   sap.uxap
 
 
-OpenUI5 controls provide the prerequisites for screen reader support based on the ARIA and HTML standards. All screen readers that implement this standard should work fine. If there are deviations in the interpretation, these need to be addressed to the screen reader vendor. If you need more information on our testing environment, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
+***
 
-> ### Note:  
-> -   No screen reader activation settings are necessary since the accessibility mode in OpenUI5 is switched on by default.
-> 
-> -   With version 1.78 of OpenUI5, we have prevented the automatic insertion of role `application` on the body of the OpenUI5 applications. After the change, a mode-based screen reader will start operating in reading mode as its default mode. For more information, please refer to SAP Note [2925884](https://launchpad.support.sap.com/#/notes/2925884).
+<a name="copy8c46d6a88c1648bcb2a3c5949d264a1e__MoreARIA"/>
+
+### More About ARIA
+
+***
+
+#### What can ARIA do?
+
+-   Roles to describe the type of widget presented, such as `menu`, `treeitem`, `slider`, and `progressbar`.
+
+-   Roles to describe the structure of the Web page, such as headings, regions, and tables \(grids\).
+-   Properties to describe the state of the widgets, such as `checked` for a check box, or `haspopup` for a menu.
+-   Properties to define live regions of a page that are likely to get updates \(such as stock quotes\), as well as an interruption policy for those updates—for example, critical updates may be presented in an alert dialog box, and incidental updates occur within the page.
+-   A way to provide keyboard navigation for the Web objects and events, such as those mentioned above.
+
+***
+
+#### Roles
+
+Roles are used to define a type of user interface \(UI\) element \(for example`role=“ROLE_NAME”`\). Once a role is set for an element, it does not change.
+
+-   Document Structure Roles: Document structure roles aren’t normally interactive, but instead provide descriptions for sections within a page. Commonly used examples: `img`, `document`, `heading`, `list`, `listitem`, and `toolbar`
+
+    > ### Example:  
+    > role=“toolbar”
+
+    You can see a full list on the [ARIA Document Structure](https://www.w3.org/TR/wai-aria/#document_structure_roles) page.
+
+-   Landmark Roles: Created for easier navigation, landmark roles identify each section of content within a page. Commonly used examples: `banner`, `contentinfo`, `form`, `main`, `navigation`, `search`
+
+    > ### Example:  
+    > role=“search”
+
+    You can see a full list on the [ARIA Landmark Roles](https://www.w3.org/TR/wai-aria/#landmark_roles) page.
+
+-   Widget Roles: Used when HTML doesn’t define elements, widget roles add semantic meaning to elements and UIs. Widget Roles, standalone UI widgets are part of larger, composite widgets, while composite UI widgets act as containers that manage other contained widgets. Commonly used examples of standalone UI widgets include `alert`, `checkbox`, `link`, `menuitem`, `tab`, and `tabpanel` 
+
+    > ### Example:  
+    > role=“tabpanel”
+
+    Commonly used examples of composite UI widgets include `combobox`, `grid`, `listbox`, `menu`, `radiogroup`, and `tablist` 
+
+    > ### Example:  
+    > i.e. role=“tablist”
+
+    You can see a full list on the [ARIA Widget Roles](https://www.w3.org/TR/wai-aria/#widget_roles) page.
+
+
+**Related Information**  
+
+
+[Screen Reader Support](Screen_Reader_Support_33fae34.md "Screen Reader Support in the Developing Apps Section")
 

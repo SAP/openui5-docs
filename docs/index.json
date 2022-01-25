@@ -1737,14 +1737,28 @@
 					"Accessibility": {
 						"link": "Accessibility_322f55d.md",
 						"items": {
-							"Keyboard Handling for OpenUI5 UI Elements": {
-								"link": "Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md"
+							"OpenUI5 Accessibility Features": {
+								"link": "OpenUI5_Accessibility_Features_7048ca9.md",
+								"items": {
+									"Screen Reader Support for OpenUI5 Controls": {
+										"link": "Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md"
+									},
+									"Keyboard Handling for OpenUI5 UI Elements": {
+										"link": "Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md"
+									},
+									"Visualization": {
+										"link": "Visualization_b3799f0.md"
+									},
+									"High Contrast Themes for OpenUI5 Controls": {
+										"link": "High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md"
+									},
+									"Messaging Patterns": {
+										"link": "Messaging_Patterns_6393d1d.md"
+									}
+								}
 							},
-							"Screen Reader Support for OpenUI5 Controls": {
-								"link": "Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md"
-							},
-							"High Contrast Themes for OpenUI5 Controls": {
-								"link": "High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md"
+							"Accessibility Support History": {
+								"link": "Accessibility_Support_History_accd68a.md"
 							}
 						}
 					},

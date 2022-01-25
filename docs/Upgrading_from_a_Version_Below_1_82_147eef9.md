@@ -787,7 +787,7 @@ At the time of writing, the following jQuery issues have been identified. They h
 
     Introduced with jQuery 3.4.0, this causes several tests to fail.
 
-    The bug isn't fixed in the jQuery 3.x code line, but only in the master for an upcoming jQuery 4.x release \(see [this commit](https://github.com/jquery/jquery/commit/8a741376937dfacf9f82b2b88f93b239fe267435)\).
+    The bug isn't fixed in the jQuery 3.x code line, but only in the main branch for an upcoming jQuery 4.x release \(see [this commit](https://github.com/jquery/jquery/commit/8a741376937dfacf9f82b2b88f93b239fe267435)\).
 
     At the time of writing, it's not clear whether and when the fix will be downported to the jQuery 3.x code line.
 

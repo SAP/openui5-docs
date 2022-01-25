@@ -32,7 +32,7 @@ Depending on the environment in which OpenUI5 is used, the libraries or your app
 
 ### Artifacts in the Framework
 
-The top-level structural unit is called a **library**. Libraries are the master artifacts in the extensibility concept. They bundle a set of controls and related types and make them consumable by Web applications. There are predefined and standard libraries, like `sap.m`, with many commonly used controls. At the same time, it treats custom UI libraries as first-class citizens, making it easy for you to write and use your own controls alongside the predefined ones.
+The top-level structural unit is called a **library**. Libraries are the main artifacts in the extensibility concept. They bundle a set of controls and related types and make them consumable by Web applications. There are predefined and standard libraries, like `sap.m`, with many commonly used controls. At the same time, it treats custom UI libraries as first-class citizens, making it easy for you to write and use your own controls alongside the predefined ones.
 
 A UI **element** is the basic building block of our user interfaces; it is a reusable entity with properties, events, methods, and relations. The most important relations are aggregations to other UI elements, and in this way a tree structure of elements can be created.
 
@@ -100,11 +100,12 @@ OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style S
 -   **[Localization](Localization_91f217c.md "The framework concepts for text localization in OpenUI5 are aligned with the general
 		concepts of the Java platform. ")**  
 The framework concepts for text localization in OpenUI5 are aligned with the general concepts of the Java platform.
--   **[Accessibility](Accessibility_322f55d.md "Accessibility features are essential for users with disabilities. In an ongoing
+-   **[Accessibility](Accessibility_322f55d.md "Accessibility features are essential for the usability of each application and essential
+		for users with disabilities. In an ongoing
 		approach, OpenUI5 controls aim
-		to comply with various product standards such as screen reader support, high-contrast
-		theming and keyboard handling.")**  
-Accessibility features are essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various product standards such as screen reader support, high-contrast theming and keyboard handling.
+		to comply with various product standards such as screen reader support, high contrast
+		theming, and keyboard handling.")**  
+Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various product standards such as screen reader support, high contrast theming, and keyboard handling.
 -   **[Drag and Drop](Drag_and_Drop_3ddb6cd.md "Drag and drop allows you to easily move, rearrange, and restructure items, for example,
 		in a list or hierarchy structure.")**  
 Drag and drop allows you to easily move, rearrange, and restructure items, for example, in a list or hierarchy structure.
