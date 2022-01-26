@@ -14,19 +14,17 @@ If you are developing OpenUI5 controls, you have to be aware of the accessibilit
 
 In the following topics, we provide additional information for control developers on keyboard handling, high-contrast theming and other important accessibility aspects.
 
-For information on colors and theming, follow the guidelines listed under *Related Information*.
-
 -   **[Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md "As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used. ")**  
 As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used.
--   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen
-		reader support in order to aid people with visual impairments. The implementation is based
-		on the ARIA and HTML standards.")**  
+-   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_3853db3.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")**  
 OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.
+-   **[Theming](Theming_37c3392.md "Theming is an important aspect when developing a new control.")**  
+Theming is an important aspect when developing a new control.
 
 **Related Information**  
 
 
 [Product Standards and Acceptance Criteria](Product_Standards_and_Acceptance_Criteria_bafc686.md "To be of high quality and usable in mission-critical business software, OpenUI5 needs to fulfill specific product standards and acceptance criteria. While these are not directly related to code conventions, the most important standards and criteria are mentioned here, because new code needs to fulfill these requirements.")
 
-[Colors and Theming](Colors_and_Theming_086c41c.md "Theming is an important aspect for an OpenUI5 application. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable.")
+[Accessibility in the Essentials Section](Accessibility_322f55d.md "Accessibility in the Essentials Section")
 

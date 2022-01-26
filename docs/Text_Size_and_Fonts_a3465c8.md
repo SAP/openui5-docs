@@ -14,65 +14,6 @@ The size of the text and the font choice greatly impact the visibility and reada
 
 ***
 
-### Rules and Guidelines
-
-As an application developer, you should always consider the fact that the application could be zoomed to 200%, and everything should still be visible. For that reason, any style that involves disabling zooming or setting fixed weight or height should be avoided. Properties that affect the zooming have to be set accordingly.
-
-Here are some of the most common JavaScript properties that you should bear in mind:
-
--   `user-scalable`
-
--   `initial-scale`
-
--   `maximum-scale`
-
--   `minimum-scale`
-
--   `width`
-
--   `height`
-
--   `target-densitydpi`
-
-
-> ### Caution:  
-> Setting inappropriate values for these properties can completely disable the zooming of an application. Here is an example of such incorrect values:
-> 
-> ```
-> <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,
->  minimum-scale=1, width=device-width, height=device-height,
->  target-densitydpi=device-dpi" />
-> ```
-
-Additionally, you can also make zoom adjustments or disable zoom completely in CSS. For example:
-
-```
-zoom {
-   zoom: 150%;
-}
-```
-
-Or
-
-```
-#elementId {
-   -webkit-transform: scale(2,3); /* Safari */
-   transform: scale(2,3);
-}
-
-html {
-   -ms-content-zoom-limit-min: 1;
-   -ms-content-zoom-limit-max: 1;
-}
-
-html {
-   touch-action: none;
-}
-
-```
-
-***
-
 ### Tips for Testing
 
 Enlarge the application UI text by zooming up to 200%.

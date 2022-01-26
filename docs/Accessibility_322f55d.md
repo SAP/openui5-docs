@@ -57,7 +57,7 @@ OpenUI5 supports many accessibility features on a framework level.
 
 [Accessibility in SAP Fiori](https://ux.wdf.sap.corp/fiori-design-web/accessibility-in-sap-fiori/ "Accessibility in SAP Fiori")
 
-[Accessibility](Accessibility_03b914b.md "Accessibility in the Developing Apps Section")
+[Accessibility in the Developing Apps Section](Accessibility_03b914b.md "Accessibility in the Developing Apps Section")
 
-[Accessibility Aspects](Accessibility_Aspects_694b356.md "Accessibility Aspects in the Developing Controls Section")
+[Accessibility Aspects in the Developing Controls Section](Accessibility_Aspects_694b356.md "Accessibility Aspects in the Developing Controls Section")
 

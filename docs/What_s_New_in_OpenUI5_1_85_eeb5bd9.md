@@ -45,7 +45,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 **Special Messaging Support for Visually Impaired Users**
 
-The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class is used to programmatically expose dynamic content changes that can be announced by the screen reader. For more information, see [sap.ui.core.InvisibleMessage](sap_ui_core_InvisibleMessage_b9a7d6f.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.InvisibleMessage) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.InvisibleMessage).
+The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class is used to programmatically expose dynamic content changes that can be announced by the screen reader. For more information, see [Invisible Messaging](Invisible_Messaging_b9a7d6f.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.InvisibleMessage) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.InvisibleMessage).
 
 
 

@@ -52,7 +52,7 @@ Different people perceive and interpret colors in different ways, which is somet
 
 -   You should avoid writing custom CSS. If you do need custom CSS for some reason, check to make sure everything is working fine on all available themes.
 
--   If a new theme is created, the color contrast between the elements should be checked. People with visual impairments and people using the application under less than ideal circumstances \(bad monitor, sunlight hitting the screen, window reflections\) may not be able to read the text easily if the contrast levels are insufficient. Specialized tools can help you to measure the color contrast.
+-   If a new theme is created, the color contrast between the elements should be checked. People with visual impairments and people using the application under less than ideal circumstances \(bad monitor, sunlight hitting the screen, window reflections\) may not be able to read the text easily if the contrast levels are insufficient. The different colors shown on the UI need to have a good contrast to each other in order to be easily distinguishable. Test results are best when the color values are known already and entered as hex in the color contrast testing tool. Picking results are best when picked from the original application, so use screenshots only if this cannot be avoided. Specialized tools can help you to measure the color contrast.
 
 
 ***
@@ -98,7 +98,7 @@ Different people perceive and interpret colors in different ways, which is somet
 
 Check the color contrasts.
 
--   Take a screenshot, put it into an image tool and convert it to black and white
+-   Take a screenshot, put it into an image tool and convert it to black and white:
 
     -   Are there screen elements, lines or texts that are disappearing?
 

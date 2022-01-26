@@ -30,7 +30,7 @@ No screen reader activation settings are necessary since the accessibility mode 
 
 ### What is ARIA
 
-Web Accessibility Initiative - Accessible Rich Internet Applications \(WAI-ARIA\) provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility of web content and applications. When accessibility issues cannot be managed with native HTML, ARIA can help bridge those gaps. For more information, see: [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/). For more information, see [More About ARIA](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md#loio656e825c5f1548e6b1d0acb5586f2a2a__MoreARIA) section.
+Web Accessibility Initiative - Accessible Rich Internet Applications \(WAI-ARIA\) provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility of web content and applications. When accessibility issues cannot be managed with native HTML, ARIA can help bridge those gaps. For more information, see: [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/). For more information, see [More About ARIA](https://help.sap.com/viewer/dcf96e50b6ce4ea29631872d10d3f723/Internal_Beta/en-US/656e825c5f1548e6b1d0acb5586f2a2a.html "SAPUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.") :arrow_upper_right: section.
 
 ***
 
@@ -119,5 +119,7 @@ Roles are used to define a type of user interface \(UI\) element \(for example`r
 **Related Information**  
 
 
-[Screen Reader Support](Screen_Reader_Support_33fae34.md "Screen Reader Support in the Developing Apps Section")
+[Screen Reader Support in the Developing Apps Section](Screen_Reader_Support_33fae34.md "Screen Reader Support in the Developing Apps Section")
+
+[Screen Reader Support for Controls in the Developing Controls Section](Screen_Reader_Support_for_OpenUI5_Controls_3853db3.md "Screen Reader Support for Controls in the Developing Controls Section")
 

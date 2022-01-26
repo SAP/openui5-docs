@@ -2019,57 +2019,39 @@
 					"Accessibility": {
 						"link": "Accessibility_03b914b.md",
 						"items": {
-							"General Recommendations": {
-								"link": "General_Recommendations_ee37fc7.md"
+							"Screen Reader Support": {
+								"link": "Screen_Reader_Support_33fae34.md",
+								"items": {
+									"Landmark API": {
+										"link": "Landmark_API_fd7f9d4.md"
+									},
+									"Labeling and Tooltips": {
+										"link": "Labeling_and_Tooltips_329a029.md"
+									},
+									"Invisible Messaging": {
+										"link": "Invisible_Messaging_b9a7d6f.md"
+									},
+									"Dialogs, Popups, and Popovers": {
+										"link": "Dialogs_Popups_and_Popovers_5709e73.md"
+									}
+								}
 							},
-							"Text Size and Fonts": {
-								"link": "Text_Size_and_Fonts_a3465c8.md"
+							"Keyboard Handling": {
+								"link": "Keyboard_Handling_e303820.md",
+								"items": {
+									"Fast Navigation": {
+										"link": "Fast_Navigation_d23e2cf.md"
+									}
+								}
 							},
 							"Colors and Theming": {
 								"link": "Colors_and_Theming_086c41c.md"
 							},
-							"Keyboard Handling": {
-								"link": "Keyboard_Handling_e303820.md"
+							"Text Size and Fonts": {
+								"link": "Text_Size_and_Fonts_a3465c8.md"
 							},
-							"Fast Navigation": {
-								"link": "Fast_Navigation_d23e2cf.md"
-							},
-							"Screen Reader Support": {
-								"link": "Screen_Reader_Support_33fae34.md",
-								"items": {
-									"Control-Specific Behavior": {
-										"link": "Control_Specific_Behavior_c165edc.md",
-										"items": {
-											"Dialog Controls": {
-												"link": "Dialog_Controls_5709e73.md"
-											},
-											"User Action Controls": {
-												"link": "User_Action_Controls_d7aa4a4.md"
-											},
-											"User Input Controls": {
-												"link": "User_Input_Controls_50143be.md"
-											},
-											"Container Controls": {
-												"link": "Container_Controls_f5b0501.md"
-											},
-											"Display Controls": {
-												"link": "Display_Controls_7b2f7ba.md"
-											},
-											"List Controls": {
-												"link": "List_Controls_ca6a310.md"
-											},
-											"Composite Controls": {
-												"link": "Composite_Controls_e7fe3e6.md"
-											}
-										}
-									}
-								}
-							},
-							"sap.ui.core.InvisibleMessage": {
-								"link": "sap_ui_core_InvisibleMessage_b9a7d6f.md"
-							},
-							"Labeling and Tooltips": {
-								"link": "Labeling_and_Tooltips_329a029.md"
+							"Recommendations": {
+								"link": "Recommendations_ee37fc7.md"
 							}
 						}
 					}
@@ -2323,7 +2305,7 @@
 								}
 							},
 							"Screen Reader Support for OpenUI5 Controls": {
-								"link": "Screen_Reader_Support_for_OpenUI5_Controls_656e825.md",
+								"link": "Screen_Reader_Support_for_OpenUI5_Controls_3853db3.md",
 								"items": {
 									"ARIA Attribute Mapping": {
 										"link": "ARIA_Attribute_Mapping_3e9c010.md"
@@ -2344,6 +2326,9 @@
 										"link": "Best_Practices_for_ARIA_Labeling_3169195.md"
 									}
 								}
+							},
+							"Theming": {
+								"link": "Theming_37c3392.md"
 							}
 						}
 					},

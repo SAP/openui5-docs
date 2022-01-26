@@ -48,10 +48,6 @@ Complex controls like pages, panels, and tables need a title to summarize the co
 > 
 > ```
 
-**Result:**
-
-![](loio0f1102f938da459d97e44c79493a7baf_HiRes.png)
-
 ***
 
 #### Use labels
@@ -67,15 +63,6 @@ Make sure that all edit boxes, search fields, and column headers have labels. If
 -   `placeholder=”…”`
 
 -   `title=”…”`
-
-
-***
-
-#### APIs in the controls
-
-Use the specific roles and attributes, based on ARIA 1.1 specifications:
-
--   `ariaDetails` association, which sets the `aria-details` attribute for the `sap.m.Image` control. It’s used for referencing an element that provides a more detailed information than what is normally provided by the `aria-describedby`.
 
 
 ***
@@ -112,7 +99,7 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 
 #### Labels and descriptions for input controls
 
-When using the `Input` control, always provide a label \(make sure it is connected with the input\). You can also use the `description` property to add additional information. For the input, the description is usually used for showing the unit of measurement \(for example. "EUR"\).
+When using `Input` controls, always provide a label \(make sure it is connected with the input\). You can also use the `description` property to add additional information. If you use `sap.m.Input`, the description is usually used for showing the unit of measurement \(for example. "EUR"\).
 
 > ### Example:  
 > ```
@@ -137,10 +124,6 @@ When using the `Input` control, always provide a label \(make sure it is connect
 > 
 > ```
 
-**Result:**
-
-![](loio5583ac25572f469eb937cfefb6481b61_HiRes.png)
-
 ***
 
 #### Empty labels in drop-down lists
@@ -151,6 +134,8 @@ The labeling on the empty option will be read by the screen reader and the end u
 
 > ### Tip:  
 > The empty label *\(None\)* should always be the first item in the drop-down.
+
+For more information, see [Fiori Guidelines for Empty states](https://experience.sap.com/fiori-design-web/designing-for-empty-states/).
 
 ***
 
@@ -183,11 +168,12 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
--   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the master-detail pattern when the user needs to browse the available items, the focus should stay in the master list area. And in cases when the user has selected an item from the master list and needs to perform an action, the focus should move to the details area.
+-   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the list-detail pattern when the user needs to browse the available items, the focus should stay in the list area. And in cases when the user has selected an item from the list and needs to perform an action, the focus should move to the details area.
 
     > ### Note:  
     > For controls that are toggling/opening regions and are still present after the toggling, then the focus should remain on them. But if the control is hidden afterwards – the focus needs to be moved, into the default focus position in the toggled/opened region.
 
+-   The `sap.ui.core.InvisibleMessage` enables developers to specify the message to be announced when something dynamically changes on the user interface. For more information, see [Invisible Messaging](Invisible_Messaging_b9a7d6f.md).
 
 ***
 
@@ -216,6 +202,16 @@ Start a screen reader, start the application, walk through the application using
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 
 
--   **[Control-Specific Behavior](Control_Specific_Behavior_c165edc.md "Screen readers need to handle OpenUI5 controls with similar functionality in a similar way. Still there are differences, and application developers need to know them, in order to use the correct control for the desired task.   ")**  
-Screen readers need to handle OpenUI5 controls with similar functionality in a similar way. Still there are differences, and application developers need to know them, in order to use the correct control for the desired task.
+-   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API provides programmatic access to sections of a web page.")**  
+The landmark API provides programmatic access to sections of a web page.
+-   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good
+		accessibility.")**  
+The following guidelines help you properly label your controls in order to have good accessibility.
+-   **[Invisible Messaging](Invisible_Messaging_b9a7d6f.md "The Invisible Message class provides a way to grammatically expose dynamic content
+		changes in a way that can be announced by screen readers.")**  
+The Invisible Message class provides a way to grammatically expose dynamic content changes in a way that can be announced by screen readers.
+-   **[Dialogs, Popups, and Popovers](Dialogs_Popups_and_Popovers_5709e73.md "OpenUI5 dialog controls can
+		serve different purposes within the application and are therefore handled differently by the
+		screen reader. ")**  
+OpenUI5 dialog controls can serve different purposes within the application and are therefore handled differently by the screen reader.
 
