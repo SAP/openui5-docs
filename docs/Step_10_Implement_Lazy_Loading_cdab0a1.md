@@ -247,5 +247,5 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 **Related Information**  
 
 
-[API Reference: `ap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/ap.m.routing.Targets.html)
+[API Reference: `ap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Targets.html)
 
