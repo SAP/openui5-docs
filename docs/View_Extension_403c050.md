@@ -77,7 +77,7 @@ Applications can also use extension points to provide default content, which is 
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <ListBox items="{/names}">
         <core:ExtensionPoint name="extension1">
-            <ListItem text="{firstName} />
+            <ListItem text="{firstName}" />
         </core:ExtensionPoint>
     </ListBox>  
 </mvc:View>

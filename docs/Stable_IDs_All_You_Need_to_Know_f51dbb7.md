@@ -369,7 +369,7 @@ Choose names for your stable IDs that describe the semantics of your views and c
 
 Example:
 
-If you build an app using the following stable IDs for the component and the views using the SAP Fiori Worklist Application template, here's what the concatenated IDs that are generated at runtime look like:
+Let's say you're building an app with a component called `myProducts`. You're using stable IDs for the views and contained views. Here's what the concatenated IDs that are generated at runtime look like:
 
 
 <table>
@@ -390,7 +390,7 @@ Views
 </th>
 <th valign="top">
 
-Contained views
+Contained Views
 
 
 
@@ -489,8 +489,6 @@ Concatenated IDs
 </td>
 </tr>
 </table>
-
-For more information about the SAP Fiori Worklist Application template, see [Worklist Template](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a77f2d29299247f8a3e30226507b1765.html "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.") :arrow_upper_right:.
 
 ***
 

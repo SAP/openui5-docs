@@ -219,9 +219,8 @@ We have updated our recommendations for QUnit and OPA tests in the *Walkthrough*
 
 We have updated our *Master-Detail* template as well as our *Browse Orders* demo app. They now adhere to the SAP Fiori 2.0 guidelines and use the flexible column layout \(`sap.f.FlexibleColumnLayout`\) instead of the split app pattern. For more information, see:
 
--   [Master-Detail Template](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/8ed9339f3a99418e82a02f0fb4b5d6b9.html "The SAP Fiori Master-Detail Application template implements a flexible column layout, one of the design patterns that is specified by the SAP Fiori design guidelines.") :arrow_upper_right:
+-   [Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:
 
--   [Master-Detail Demo App](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/master-detail/webapp/test/mockServer.html)
 -   [Browse Orders Demo App](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/orderbrowser/webapp/test/mockServer.html)
 
 ***

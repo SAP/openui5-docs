@@ -84,5 +84,5 @@ In this step, we extend the product detail view by adding a feature allowing to 
 
 [SAP Fiori design guidelines: Worklist Floorplans](https://experience.sap.com/fiori-design/floorplans/work-list/)
 
-[Worklist Template](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a77f2d29299247f8a3e30226507b1765.html "The SAP Fiori Worklist Application template implements a typical worklist floorplan, one of the patterns that is specified by the SAP Fiori design guidelines.") :arrow_upper_right:
+[Developing Apps with SAP Fiori Tools](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a460a7348a6c431a8bd967ab9fb8d918.html "SAP Fiori tools is a set of extensions for SAP Business Application Studio and Visual Studio Code that makes it faster and easier to develop basic SAP Fiori apps.") :arrow_upper_right:
 
