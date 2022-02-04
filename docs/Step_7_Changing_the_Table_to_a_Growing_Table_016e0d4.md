@@ -41,8 +41,8 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 		<semantic:content>
 			<Table
 				id="table"
-				*HIGHLIGHT START*growing="true"
-*HIGHLIGHT END*
+				growing="true"
+
 				width="auto"
 				…
 				>

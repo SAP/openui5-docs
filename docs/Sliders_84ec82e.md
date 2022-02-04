@@ -80,7 +80,7 @@ var oSlider = new Slider({
 				width: "80%",
 				enableTickmarks: true,
 				showAdvancedTooltip: true,
-				*HIGHLIGHT START*scale: new CustomScale(),*HIGHLIGHT END*
+				scale: new CustomScale(),
 				customTooltips: [new CustomTooltip()]
 			})
 ```

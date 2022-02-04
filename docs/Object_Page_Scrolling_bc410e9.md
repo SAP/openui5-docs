@@ -38,9 +38,9 @@ As the user scrolls through the sections, the currently scrolled section is inte
 -   The app can set which section the page should scroll to upon initial display:
 
     ``` xml
-     <ObjectPageLayout id="ObjectPageLayout" **selectedSection="mySectionId"**>
+     <ObjectPageLayout id="ObjectPageLayout" selectedSection="mySectionId">
             <sections>
-                <ObjectPageSection title="Payroll" **id="mySectionId"**>
+                <ObjectPageSection title="Payroll" id="mySectionId">
                     <subSections>
                         <ObjectPageSubSection title="sub payroll title">
                             <blocks>
@@ -61,7 +61,7 @@ As the user scrolls through the sections, the currently scrolled section is inte
     //navigate to a specific section on open
     this.oObjectPageLayout = this.getView().byId("ObjectPageLayout");
     this.oTargetSection = this.getView().byId("empl");
-    this.oObjectPageLayout.**setSelectedSection**(this.oTargetSection)
+    this.oObjectPageLayout.setSelectedSection(this.oTargetSection)
     ```
 
 

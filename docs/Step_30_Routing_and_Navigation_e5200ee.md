@@ -38,7 +38,7 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 	…
 	"models": {
 		…
-	}*HIGHLIGHT START*,
+	},
 	"routing": {
 	  "config": {
 		"routerClass": "sap.m.routing.Router",
@@ -70,7 +70,7 @@ You can view and download all files at [Walkthrough - Step 30](https://openui5.h
 		  "name": "Detail"
 		}
 	  }
-	}*HIGHLIGHT END*
+	}
   }
 }
 ```
@@ -121,8 +121,8 @@ sap.ui.define([
 			var oModel = new JSONModel(oData);
 			this.setModel(oModel);
 
-			*HIGHLIGHT START*// create the views based on the url/hash
-			this.getRouter().initialize();*HIGHLIGHT END*
+			// create the views based on the url/hash
+			this.getRouter().initialize();
 		}
 
 	});
@@ -139,7 +139,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 ### webapp/view/Overview.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.App"
 		xmlns="sap.m"
 		xmlns:mvc="sap.ui.core.mvc">
@@ -154,7 +154,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
 		</content>
 	</Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We move the content of the previous steps from the `App` view to a new `Overview` view. For simplicity, we do not change the controller as it only contains our helper method to open the dialog, that means we reuse the controller `sap.ui.demo.walkthrough.controller.App` for two different views \(for the new overview and for the app view\). However, two instances of that controller are instantiated at runtime. In general, one instance of a controller is instantiated for each view that references the controller.
@@ -169,9 +169,9 @@ We move the content of the previous steps from the `App` view to a new `Overview
 		xmlns="sap.m"
 		xmlns:mvc="sap.ui.core.mvc"
 		displayBlock="true">
-*HIGHLIGHT START*<Shell>
+<Shell>
 	<App class="myAppDemoWT" id="app"/>
-</Shell>*HIGHLIGHT END*
+</Shell>
 </mvc:View>
 ```
 
@@ -182,7 +182,7 @@ Our `App` view is now only containing the empty app tag. The router will automat
 ### webapp/view/Detail.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
@@ -190,7 +190,7 @@ Our `App` view is now only containing the empty app tag. The router will automat
 		<ObjectHeader
 			title="Invoice"/>
 	</Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Now we add a second view for the detail view. It only contains a page and an `ObjectHeader` control that displays the static text *Invoice* for now.
@@ -207,8 +207,8 @@ invoiceStatusA=New
 invoiceStatusB=In Progress
 invoiceStatusC=Done
 
-*HIGHLIGHT START*# Detail Page
-detailPageTitle=Walkthrough - Details*HIGHLIGHT END*
+# Detail Page
+detailPageTitle=Walkthrough - Details
 ```
 
 We add a new string to the resource bundle for the detail page title.
@@ -237,8 +237,8 @@ We add a new string to the resource bundle for the detail page title.
 				}"
 					numberUnit="{view>/currency}"
 					numberState="{=	${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"
-					*HIGHLIGHT START*type="Navigation"
-					press="onPress"*HIGHLIGHT END*>
+					type="Navigation"
+					press="onPress">
 				<firstStatus>
 					<ObjectStatus text="{
 						path: 'invoice>Status',
@@ -271,10 +271,10 @@ sap.ui.define([
 
 		…
 
-		*HIGHLIGHT START*onPress: function (oEvent) {
+		onPress: function (oEvent) {
 			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.navTo("detail");
-		}*HIGHLIGHT END*
+		}
 	});
 
 });

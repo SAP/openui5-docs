@@ -30,13 +30,13 @@ You can view and download all files at [Walkthrough - Step 6](https://openui5.ha
 
 ``` js
 sap.ui.define([
-   "sap/ui/core/mvc/Controller"*HIGHLIGHT START*,
-   "sap/m/MessageToast"*HIGHLIGHT END*
-], function (Controller, *HIGHLIGHT START*MessageToast*HIGHLIGHT END*) {
+   "sap/ui/core/mvc/Controller",
+   "sap/m/MessageToast"
+], function (Controller, MessageToast) {
    "use strict";
    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
       onShowHello : function () {
-        *HIGHLIGHT START* MessageToast.show("Hello World");*HIGHLIGHT END*
+         MessageToast.show("Hello World");
       }
    });
 });

@@ -149,7 +149,7 @@ These controls now have the new property `showCurrentDateButton`, which displays
 <tr>
 <td valign="top">
 
-`**sap.m.StandardListItem**`
+<code><b>sap.m.StandardListItem</b></code>
 
 Information texts in lists can now also be wrapped if wrapping is enabled for this control. However, a *More* option for these texts is not available. For more information, see the [API Reference for `wrapping`](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem%23methods/getWrapping), the [API Reference for `info`](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem%23methods/getInfo), and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
 

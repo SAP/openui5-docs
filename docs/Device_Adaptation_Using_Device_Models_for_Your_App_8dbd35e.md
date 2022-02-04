@@ -23,17 +23,17 @@ You need to make the `sap.ui.Device` API available in a JSON model once in your 
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/model/json/JSONModel",
-*HIGHLIGHT START*	"sap/ui/Device"*HIGHLIGHT END*
-], function (UIComponent, JSONModel, *HIGHLIGHT START*Device*HIGHLIGHT END*) {
+	"sap/ui/Device"
+], function (UIComponent, JSONModel, Device) {
 
 […]
 
 init: function () {
 // set the device model
-*HIGHLIGHT START*	var oDeviceModel = new JSONModel(Device);
+	var oDeviceModel = new JSONModel(Device);
 	oDeviceModel.setDefaultBindingMode("OneWay");
 	this.setModel(oDeviceModel, "device");
-*HIGHLIGHT END*
+
 […]
 }
 ```

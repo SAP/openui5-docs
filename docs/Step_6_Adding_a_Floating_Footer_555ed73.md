@@ -44,7 +44,7 @@ You can view and download all files at [Flexible Column Layout App - Step 6](htt
 	height="100%"
 	xmlns="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
-	<FlexibleColumnLayout id="flexibleColumnLayout"*HIGHLIGHT START* stateChange="onStateChanged"*HIGHLIGHT END* backgroundDesign="Solid">
+	<FlexibleColumnLayout id="flexibleColumnLayout" stateChange="onStateChanged" backgroundDesign="Solid">
 		<beginColumnPages>
 			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.Master"/>
 		</beginColumnPages>
@@ -67,13 +67,13 @@ First, we communicate changes to the layout with the use of the `stateChange` ev
 		...
 		</sections>
 
-*HIGHLIGHT START*		<footer>
+		<footer>
 			<m:OverflowToolbar>
 				<m:ToolbarSpacer/>
 				<m:Button type="Accept" text="Save"/>
 				<m:Button type="Reject" text="Cancel"/>
 			</m:OverflowToolbar>
-		</footer>*HIGHLIGHT END*
+		</footer>
 	</ObjectPageLayout>
 </mvc:View>
 ```
@@ -88,7 +88,7 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 
 ``` xml
 <mvc:View
-*HIGHLIGHT START*	controllerName="sap.ui.demo.fiori2.controller.Detail"*HIGHLIGHT END*
+	controllerName="sap.ui.demo.fiori2.controller.Detail"
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
 	xmlns:f="sap.f"
@@ -107,8 +107,8 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 				<actions>
 					<m:ToggleButton
 						text="Edit"
-						type="Emphasized*HIGHLIGHT START*"
-						press=".onEditToggleButtonPress"/>*HIGHLIGHT END*
+						type="Emphasized"
+						press=".onEditToggleButtonPress"/>
 					<m:Button
 						text="Delete"
 						type="Transparent"/>
@@ -133,7 +133,7 @@ We add a `press` event handler to the *Edit* button.
 ### webapp/controller/Detail.controller.js \[NEW\]
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
 	"use strict";
@@ -146,7 +146,7 @@ We add a `press` event handler to the *Edit* button.
 			oObjectPage.setShowFooter(!bCurrentShowFooterState);
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Finally, we create the controller and add a simple function to it to show and hide the footer.

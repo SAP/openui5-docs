@@ -64,10 +64,10 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 						<mvc:XMLView viewName="sap.ui.demo.nav.view.employee.ResumeProjects"></mvc:XMLView>
 					</IconTabFilter>
 					<IconTabFilter id="hobbiesTab" text="{i18n>Hobbies}" key="Hobbies">
-						*HIGHLIGHT START*<!-- place content via lazy loading -->*HIGHLIGHT END*
+						<!-- place content via lazy loading -->
 					</IconTabFilter>
 					<IconTabFilter id="notesTab" text="{i18n>Notes}" key="Notes">
-						*HIGHLIGHT START*<!-- place content via lazy loading -->*HIGHLIGHT END*
+						<!-- place content via lazy loading -->
 					</IconTabFilter>
 				</items>
 			</IconTabBar>
@@ -85,10 +85,10 @@ In the `resume` view we remove the content of the *Hobbies* and *Notes* tabs as 
 ### webapp/view/employee/ResumeHobbies.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Hobbies}"/>
 </mvc:View>
-*HIGHLIGHT END*
+
 ```
 
 Create the file `ResumeHobbies.view.xml` in the `webapp/view/employee` folder. Move the content for the tab that was previously in the `resume` view to that view. We don’t need a controller for this view as there is no additional logic involved. This view will be lazy-loaded and placed into the content of the *Hobbies* tab with navigation features.
@@ -98,9 +98,9 @@ Create the file `ResumeHobbies.view.xml` in the `webapp/view/employee` folder. M
 ### webapp/view/employee/ResumeNotes.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Notes}"/>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Create the file `ResumeNotes.view.xml` in the `webapp/view/employee` folder similar to the *Hobbies* view to transform this tab to a separate view as well.
@@ -128,12 +128,12 @@ sap.ui.define([
 			oQuery = oArgs["?query"];
 			if (oQuery && _aValidTabKeys.indexOf(oQuery.tab) > -1){
 				oView.getModel("view").setProperty("/selectedTabKey", oQuery.tab);
-				*HIGHLIGHT START*// support lazy loading for the hobbies and notes tab
+				// support lazy loading for the hobbies and notes tab
 				if (oQuery.tab === "Hobbies" || oQuery.tab === "Notes"){
 					// the target is either "resumeTabHobbies" or "resumeTabNotes"
 					this.getRouter().getTargets().display("resumeTab" + oQuery.tab);
 				}
-*HIGHLIGHT END*
+
 			} else {
 				// the default query param should be visible at all time
 				this.getRouter().navTo("employeeResume", {
@@ -195,7 +195,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 					"name": "employee.Resume",
 					"level" : 4,
 					"transition": "flip"
-				}*HIGHLIGHT START*,
+				},
 				"resumeTabHobbies": {
 					"id": "resumeHobbies",
 					"parent": "employeeResume",
@@ -211,7 +211,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 					"name": "ResumeNotes",
 					"controlId": "notesTab",
 					"controlAggregation": "content"
-				}*HIGHLIGHT END*
+				}
 			}
 		}
 	}

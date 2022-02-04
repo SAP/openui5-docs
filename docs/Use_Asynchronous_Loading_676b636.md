@@ -28,7 +28,7 @@ Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. 
 	src="/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
 	data-sap-ui-compatVersion="edge"
-	*HIGHLIGHT START*data-sap-ui-async="true"*HIGHLIGHT END*
+	data-sap-ui-async="true"
 	data-sap-ui-onInit="module:my/app/main"
 	data-sap-ui-resourceroots='{"my.app": "./"}'
 >
@@ -92,7 +92,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
         "viewName": "sap.ui.demo.walkthrough.view.App",
         "type": "XML",
         "id": "app",
-         *HIGHLIGHT START*"async": true*HIGHLIGHT END*
+         "async": true
     },
     "routing": {
         "config": {
@@ -101,7 +101,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
             "path": "sap.ui.demo.walkthrough.view",
             "controlId": "app",
             "controlAggregation": "pages",
-            *HIGHLIGHT START*"async": true*HIGHLIGHT END*
+            "async": true
         }
     },
 ...
@@ -129,7 +129,7 @@ The following code shows a sample UIComponent implementing the interface:
 sap.ui.define(["sap/ui/core/UIComponent"], function(UIComponent) {
 	return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
 		metadata: {
-			*HIGHLIGHT START*interfaces: ["sap.ui.core.IAsyncContentCreation"],*HIGHLIGHT END*
+			interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			rootView: {
 				id: "app",
 				type: "XML",

@@ -57,7 +57,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 		upperCaseAnchorBar="false">
 		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
-*HIGHLIGHT START*				<expandedHeading>
+				<expandedHeading>
 					<m:Title text="{products>Name}" wrapping="true" class="sapUiSmallMarginEnd"/>
 				</expandedHeading>
 
@@ -72,7 +72,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 							<m:Title text="{products>Name}" wrapping="true"/>
 						</m:FlexBox>
 					</m:FlexBox>
-				</snappedHeading>*HIGHLIGHT END*
+				</snappedHeading>
 
 				<actions>
 				...
@@ -91,22 +91,22 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
 				<f:Avatar
-*HIGHLIGHT START*					src="https://openui5.hana.ondemand.com/{products>ProductPicUrl}"*HIGHLIGHT END*
+					src="https://openui5.hana.ondemand.com/{products>ProductPicUrl}"
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">
 				</f:Avatar>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Main Category"/>
-*HIGHLIGHT START*					<m:Text text="{products>MainCategory}"/>*HIGHLIGHT END*
+					<m:Text text="{products>MainCategory}"/>
 				</m:VBox>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Subcategory"/>
-*HIGHLIGHT START*					<m:Text text="{products>Category}"/>*HIGHLIGHT END*
+					<m:Text text="{products>Category}"/>
 				</m:VBox>
 				<m:VBox justifyContent="Center" class="sapUiSmallMarginEnd">
 					<m:Label text="Price"/>
-*HIGHLIGHT START*					<m:ObjectNumber number="{products>CurrencyCode} {products>Price}" emphasized="false"/>*HIGHLIGHT END*
+					<m:ObjectNumber number="{products>CurrencyCode} {products>Price}" emphasized="false"/>
 				</m:VBox>
 			</m:FlexBox>
 		</headerContent>
@@ -140,11 +140,11 @@ We adjust the `headerContent` so that the `sap.f.Avatar` displays the specific i
 								columnsM="1">
 								<form:content>
 									<m:Label text="Product ID"/>
-*HIGHLIGHT START*									<m:Text text="{products>ProductId}"/>*HIGHLIGHT END*
+									<m:Text text="{products>ProductId}"/>
 									<m:Label text="Description"/>
-*HIGHLIGHT START*									<m:Text text="{products>Description}"/>*HIGHLIGHT END*
+									<m:Text text="{products>Description}"/>
 									<m:Label text="Supplier"/>
-*HIGHLIGHT START*									<m:Text text="{products>SupplierName}"/>*HIGHLIGHT END*
+									<m:Text text="{products>SupplierName}"/>
 								</form:content>
 							</form:SimpleForm>
 						</blocks>

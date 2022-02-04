@@ -45,7 +45,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 2](ht
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.MockServer": "../"
 		}'
-		data-sap-ui-oninit="module:sap/ui/**demo/MockServer/test/initMockServer**"
+		data-sap-ui-oninit="module:sap/ui/demo/MockServer/test/initMockServer"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true">
 	</script>
@@ -134,7 +134,7 @@ The `metadata` file contains information about the service interface and does no
 ### webapp/localService/mockdata/Meetups.json \(New\)
 
 ``` json
-*HIGHLIGHT START*[{
+[{
 	"MeetupID": 1,
 	"Title": "Toronto Tech Meet-Up",
 	"EventDate": "/Date(1593810000000)/",
@@ -161,7 +161,7 @@ The `metadata` file contains information about the service interface and does no
 	"EventDate": "/Date(1539339594000)/",
 	"Description": "Are you looking to have fun and go on random adventures?"
 }]
-*HIGHLIGHT END*
+
 ```
 
 The `Meetups.json` file is automatically read by the mock server later in this step. It represents a flat array of `Meetup` items.
@@ -171,7 +171,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 ### webapp/localService/mockserver.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/Log"
 ], function(MockServer, Log) {
@@ -204,7 +204,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 
 	};
 
-});*HIGHLIGHT END*
+});
 ```
 
 Now we can write the code to initialize the OData V2 mock server that will simulate the requests instead of the real server. We load the `MockServer` module as a dependency and create a helper object that defines an `init` method to start the server. This method is called before the Component initialization in the `mockServer.html` file above. The `init` method creates a `MockServer` instance with the same URL as the real service. The URL in configuration parameter `rootURI` is now served by our test server instead of the real service.

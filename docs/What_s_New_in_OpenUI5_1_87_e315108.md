@@ -135,7 +135,7 @@ We have added a new `animation` property that enables you to choose the animatio
 <tr>
 <td valign="top">
 
-`**sap.m.Dialog**`
+<code><b>sap.m.Dialog</b></code>
 
 You can now drag and resize the dialog using the keyboard. To enable this behavior, you have to set the `draggable` and/or `resizable` properties to `true`. While the keyboard focus is located on the title bar, the dialog can then be moved with the [Arrow\] keys and resized with  [Shift\] + [Arrow\]  keys. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Dialog/sample/sap.m.sample.Dialog).
 

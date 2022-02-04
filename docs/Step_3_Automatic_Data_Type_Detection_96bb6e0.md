@@ -62,7 +62,7 @@ You can view and download all files at [OData V4 - Step 3](https://openui5.hana.
 		"contentDensities": {
 			...
 		},
-		*HIGHLIGHT START*"handleValidation": true*HIGHLIGHT END*,
+		"handleValidation": true,
 		
 		"models": {
 			...
@@ -92,7 +92,7 @@ We now run the app using the `index.html` file and enter values that don't match
 		<PropertyRef Name="UserName"/>
 	</Key>
 	<Property Name="UserName" Type="Edm.String" Nullable="false" />
-	<Property Name="FirstName" *HIGHLIGHT START*Type="Edm.String"*HIGHLIGHT END* />
+	<Property Name="FirstName" Type="Edm.String" />
 	<Property Name="LastName" Type="Edm.String"/>
 	<Property Name="MiddleName" Type="Edm.String"/>
 	<Property Name="Gender" Type="Microsoft.OData.Service.Sample.TrippinInMemory.Models.PersonGender"

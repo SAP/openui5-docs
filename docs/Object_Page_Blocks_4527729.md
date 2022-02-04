@@ -56,7 +56,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 -   Extend `sap.uxap.BlockBase`
 
     ``` js
-    **sap.uxap.BlockBase.extend**("<BlockName>", {
+    sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
              }
          });
@@ -68,14 +68,14 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
     sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
                 views: {
-                    **Collapsed: \{
-                        viewName: "<collapsedViewName\>",
+                    Collapsed: {
+                        viewName: "<collapsedViewName>",
                         type: "XML"
-                    \},
-                    Expanded: \{
-                        viewName: "<expendedViewName\>",
+                    },
+                    Expanded: {
+                        viewName: "<expendedViewName>",
                         type: "XML"
-    **
+    
                     }
                 }
              }
@@ -113,7 +113,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 > <EmployeeGoals>
 >     <mappings>
 >         <uxap:ModelMapping externalModelName="ApplicationModel" externalPath="/Employee('121')" internalModelName="Employee" />
->         <uxap:ModelMapping externalModelName="ApplicationModel" externalPath="**/Employee\('121'\)**/Goals" internalModelName="Goals" />
+>         <uxap:ModelMapping externalModelName="ApplicationModel" externalPath="/Employee('121')/Goals" internalModelName="Goals" />
 >     </mappings>
 > </EmployeeGoals>
 > ```

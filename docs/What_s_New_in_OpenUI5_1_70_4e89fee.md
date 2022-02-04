@@ -23,7 +23,7 @@ With this release OpenUI5 is upgraded from version 1.69 to 1.70.
 <tr>
 <td valign="top">
 
-`**sap.f.GridListItem**`
+<code><b>sap.f.GridListItem</b></code>
 
 We have introduced a new control `GridListItem` to be used in the default `items` aggregation of `sap.f.GridList`. It consists of a header toolbar and content.
 
@@ -79,7 +79,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
-`**sap.f.GridContainer**`
+<code><b>sap.f.GridContainer</b></code>
 
 We have polished the code, added right-to-left \(RTL\) support, and implemented a polyfill for Microsoft Internet Explorer 11 and Microsoft Edge browsers.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDrop).
 
@@ -90,7 +90,7 @@ We have polished the code, added right-to-left \(RTL\) support, and implemented 
 <tr>
 <td valign="top">
 
-`**sap.m.ColorPalette**`
+<code><b>sap.m.ColorPalette</b></code>
 
 With the new `displayMode` enum property of `sap.m.ColorPalettePopover`, you can now control which variant of `sap.m.ColorPicker` is visualized when the *More colors...* button is pressed.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ColorPalettePopover) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ColorPalette/sample/sap.m.sample.ColorPalettePopover).
 
@@ -101,7 +101,7 @@ With the new `displayMode` enum property of `sap.m.ColorPalettePopover`, you can
 <tr>
 <td valign="top">
 
-`**sap.m.DatePicker**`
+<code><b>sap.m.DatePicker</b></code>
 
 We have introduced a more intuitive way for users to confirm date selection. Setting the new `showFooter` property enables a footer with *OK* and *Cancel* buttons for the user to confirm or cancel the date selection. When `showFooter` is set to `true`, the picker no longer closes when a day is selected and there's no need to reopen the picker to select the month or year.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DatePicker/sample/sap.m.sample.DatePicker).
 
@@ -112,7 +112,7 @@ We have introduced a more intuitive way for users to confirm date selection. Set
 <tr>
 <td valign="top">
 
-`**sap.m.SelectDialog**`
+<code><b>sap.m.SelectDialog</b></code>
 
 -   We have introduced a new `clearButtonPressed` parameter for the `search` event of the control. The parameter is set to `true` when the *Clear* button of the search field is pressed.
 
@@ -128,7 +128,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 <tr>
 <td valign="top">
 
-`**sap.m.SinglePlanningCalendar**`
+<code><b>sap.m.SinglePlanningCalendar</b></code>
 
 We have introduced support for indicating working hours in the `sap.m.SinglePlanningCalendar` control. Additionally, app developers can now show or hide the rest of the hours in the day. The `startHour` and `endHour` properties define the starting and ending hours of the working day, and these are indicated visually on the screen. The `fullDay` property contains a boolean flag, which determines whether nonworking hours are aslo displayed.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendarWithLegend).
 
@@ -139,7 +139,7 @@ We have introduced support for indicating working hours in the `sap.m.SinglePlan
 <tr>
 <td valign="top">
 
-`**sap.m.TableSelectDialog**`
+<code><b>sap.m.TableSelectDialog</b></code>
 
 We have extended the `search` event of the control with a new `clearButtonPressed` parameter. The value of this parameter is set to `true` when the event is fired by pressing the *Clear* button and to `false`, when the *Search* button is pressed.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.TableSelectDialog).
 
@@ -161,7 +161,7 @@ When you group columns in an analytical table, you can now select *Expand All* i
 <tr>
 <td valign="top">
 
-`**sap.ui.unified.Calendar**`
+<code><b>sap.ui.unified.Calendar</b></code>
 
 We have improved the navigation in the multiple months view for `sap.ui.unified.Calendar`. When you navigate to the next/previous months, the displayed calendar view is now with one month increments/decrements, instead of two. Note that this behaviour comes out of the box without setting any properties.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.unified.Calendar/sample/sap.ui.unified.sample.CalendarMultipleMonth).
 

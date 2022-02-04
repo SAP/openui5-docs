@@ -103,7 +103,7 @@ We have created new examples of the different use cases for `sap.m.SinglePlannin
 <tr>
 <td valign="top">
 
-`**sap.m.StandardListItem**`
+<code><b>sap.m.StandardListItem</b></code>
 
 You can now use the `wrapping` property to enable the wrapping of titles and descriptions. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
 

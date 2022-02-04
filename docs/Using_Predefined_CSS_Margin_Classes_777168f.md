@@ -274,7 +274,7 @@ The following exceptions to these rules exist:
 When applying classes with horizontal margins to a control, such as `sapUiSmallMargin` or `sapUiSmallMarginBegin`, for example, make sure that your control doesn’t have a 100% width. If your control has a `width` property \(which most controls have\), set the width value to `auto`, for example:
 
 ```
-<Panel *HIGHLIGHT START*width="auto"*HIGHLIGHT END* class="sapUiLargeMarginBegin
+<Panel width="auto" class="sapUiLargeMarginBegin
       sapUiLargeMarginBottom">
 ```
 

@@ -34,8 +34,8 @@ You can view and download all files at [Walkthrough - Step 12](https://openui5.h
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-*HIGHLIGHT START*	<Shell>
-*HIGHLIGHT END*
+	<Shell>
+
 		<App>
 			<pages>
 				<Page title="{i18n>homePageTitle}">
@@ -57,8 +57,8 @@ You can view and download all files at [Walkthrough - Step 12](https://openui5.h
 				</Page>
 			</pages>
 		</App>
-*HIGHLIGHT START*	</Shell>
-*HIGHLIGHT END*
+	</Shell>
+
 </mvc:View>
 
 ```

@@ -67,8 +67,8 @@ You can view and download all files at [Flexible Column Layout App - Step 5](htt
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
-				"sap.f": {}*HIGHLIGHT START*,
-				"sap.uxap": {}*HIGHLIGHT END*
+				"sap.f": {},
+				"sap.uxap": {}
 			}
 		},
 		"config": {
@@ -88,12 +88,12 @@ First, we add the related libraries that we will need to the dependencies in the
 
 ``` xml
 <mvc:View
-*HIGHLIGHT START*	xmlns="sap.uxap"
+	xmlns="sap.uxap"
 	xmlns:m="sap.m"
 	xmlns:f="sap.f"
-	xmlns:form="sap.ui.layout.form"*HIGHLIGHT END*
+	xmlns:form="sap.ui.layout.form"
 	xmlns:mvc="sap.ui.core.mvc">
-*HIGHLIGHT START*	<ObjectPageLayout
+	<ObjectPageLayout
 		id="ObjectPageLayout"
 		showTitleInHeaderContent="true"
 		alwaysShowContentHeader="false"
@@ -101,7 +101,7 @@ First, we add the related libraries that we will need to the dependencies in the
 		headerContentPinnable="true"
 		isChildPage="true"
 		upperCaseAnchorBar="false">
-	</ObjectPageLayout>*HIGHLIGHT END*
+	</ObjectPageLayout>
 </mvc:View>
 ```
 
@@ -128,7 +128,7 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 		headerContentPinnable="true"
 		isChildPage="true"
 		upperCaseAnchorBar="false">
-*HIGHLIGHT START*		<headerTitle>
+		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
 				<actions>
 					<m:ToggleButton
@@ -145,7 +145,7 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 						type="Transparent"/>
 				</actions>
 			</ObjectPageDynamicHeaderTitle>
-		</headerTitle>*HIGHLIGHT END*
+		</headerTitle>
 
 	</ObjectPageLayout>
 </mvc:View>
@@ -180,7 +180,7 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 			</ObjectPageDynamicHeaderTitle>
 		</headerTitle>
 
-*HIGHLIGHT START*		<headerContent>
+		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
 				<f:Avatar
 					displaySize="L"
@@ -197,7 +197,7 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 					<m:Label text="Price"/>
 				</m:VBox>
 			</m:FlexBox>
-		</headerContent>*HIGHLIGHT END*
+		</headerContent>
 
 	</ObjectPageLayout>
 </mvc:View>
@@ -232,7 +232,7 @@ We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as
 			</m:FlexBox>
 		</headerContent>
 
-*HIGHLIGHT START*		<sections>
+		<sections>
 			<ObjectPageSection title="General Information">
 				<subSections>
 					<ObjectPageSubSection>
@@ -280,7 +280,7 @@ We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as
 					</ObjectPageSubSection>
 				</subSections>
 			</ObjectPageSection>
-		</sections>*HIGHLIGHT END*
+		</sections>
 	</ObjectPageLayout>
 </mvc:View>
 ```

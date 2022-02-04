@@ -49,10 +49,10 @@ You can view and download all files at [Flexible Column Layout App - Step 11](ht
 ``` js
 sap.ui.define([
 	'sap/ui/core/UIComponent',
-	'sap/ui/model/json/JSONModel'*HIGHLIGHT START*,
-	'sap/f/FlexibleColumnLayoutSemanticHelper',*HIGHLIGHT END*
+	'sap/ui/model/json/JSONModel',
+	'sap/f/FlexibleColumnLayoutSemanticHelper',
 	'sap/f/library'
-], function(UIComponent, JSONModel*HIGHLIGHT START*, FlexibleColumnLayoutSemanticHelper*HIGHLIGHT END*, fioriLibrary) {
+], function(UIComponent, JSONModel, FlexibleColumnLayoutSemanticHelper, fioriLibrary) {
 	'use strict';
 
 	return UIComponent.extend('sap.ui.demo.fiori2.Component', {
@@ -81,7 +81,7 @@ sap.ui.define([
 			oRouter.initialize();
 		},
 
-*HIGHLIGHT START*		getHelper: function () {
+		getHelper: function () {
 			return this._getFcl().then(function(oFCL) {
 				var oSettings = {
 					defaultTwoColumnLayoutType: fioriLibrary.LayoutType.TwoColumnsMidExpanded,
@@ -89,24 +89,24 @@ sap.ui.define([
 				};
 				return (FlexibleColumnLayoutSemanticHelper.getInstanceFor(oFCL, oSettings));
 			});
-		},*HIGHLIGHT END*
+		},
 
 		_onBeforeRouteMatched: function(oEvent) {
 			var oModel = this.getModel(),
-				sLayout = oEvent.getParameters().arguments.layout*HIGHLIGHT START*,
-				oNextUIState;*HIGHLIGHT END*
+				sLayout = oEvent.getParameters().arguments.layout,
+				oNextUIState;
 
-			// If there is no layout parameter, **query for the default level 0 layout** (normally OneColumn)
+			// If there is no layout parameter, query for the default level 0 layout (normally OneColumn)
 			if (!sLayout) {
-*HIGHLIGHT START*				this.getHelper().then(function(oHelper) {
+				this.getHelper().then(function(oHelper) {
 					oNextUIState = oHelper.getNextUIState(0);
 					oModel.setProperty("/layout", oNextUIState.layout);
 				});
-				return;*HIGHLIGHT END*
+				return;
 			}
 
 			oModel.setProperty("/layout", sLayout);
-		}*HIGHLIGHT START*,
+		},
 
 		_getFcl: function () {
 			return new Promise(function(resolve, reject) {
@@ -120,7 +120,7 @@ sap.ui.define([
 				resolve(oFCL);
 
 			}.bind(this));
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -148,7 +148,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 					</m:FlexBox>
 				</snappedHeading>
 
-*HIGHLIGHT START*				<navigationActions>
+				<navigationActions>
 					<m:OverflowToolbarButton
 						type="Transparent"
 						icon="sap-icon://full-screen"
@@ -167,7 +167,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 						press=".handleClose"
 						tooltip="Close column"
 						visible="{= ${/actionButtonsInfo/midColumn/closeColumn} !== null }"/>
-				</navigationActions>*HIGHLIGHT END*
+				</navigationActions>
 
 				<actions>
 					<m:ToggleButton
@@ -199,16 +199,16 @@ We add navigation actions for entering and exiting fullscreen and closing the co
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/core/mvc/Controller"
-], function (Controller) {*HIGHLIGHT END*
+	"sap/ui/core/mvc/Controller"
+], function (Controller) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.Detail", {
 		onInit: function () {
-			*HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent = this.getOwnerComponent();
+			this.oOwnerComponent = this.getOwnerComponent();
 
-			this.oRouter = *HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent.getRouter();
-			this.oModel = *HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent.getModel();
+			this.oRouter = this.oOwnerComponent.getRouter();
+			this.oModel = this.oOwnerComponent.getModel();
 
 			this.oRouter.getRoute("master").attachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detail").attachPatternMatched(this._onProductMatched, this);
@@ -217,7 +217,7 @@ sap.ui.define([
 
 		onSupplierPress: function (oEvent) {
 			var supplierPath = oEvent.getSource().getBindingContext("products").getPath(),
-				supplier = supplierPath.split("/").slice(-1).pop()*HIGHLIGHT START*,
+				supplier = supplierPath.split("/").slice(-1).pop(),
 				oNextUIState;
 
 			this.oOwnerComponent.getHelper().then(function (oHelper) {
@@ -227,7 +227,7 @@ sap.ui.define([
 					supplier: supplier,
 					product: this._product
 				});
-			}.bind(this));*HIGHLIGHT END*
+			}.bind(this));
 		},
 
 		_onProductMatched: function (oEvent) {
@@ -245,7 +245,7 @@ sap.ui.define([
 			oObjectPage.setShowFooter(!bCurrentShowFooterState);
 		},
 
-*HIGHLIGHT START*		handleFullScreen: function () {
+		handleFullScreen: function () {
 			var sNextLayout = this.oModel.getProperty("/actionButtonsInfo/midColumn/fullScreen");
 			this.oRouter.navTo("detail", {layout: sNextLayout, product: this._product});
 		},
@@ -259,7 +259,7 @@ sap.ui.define([
 			var sNextLayout = this.oModel.getProperty("/actionButtonsInfo/midColumn/closeColumn");
 			this.oRouter.navTo("master", {layout: sNextLayout});
 		},
-*HIGHLIGHT END*
+
 		onExit: function () {
 			this.oRouter.getRoute("master").detachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detail").detachPatternMatched(this._onProductMatched, this);
@@ -291,7 +291,7 @@ We create the handlers needed for the navigation actions.
 					</m:FlexBox>
 				</heading>
 
-*HIGHLIGHT START*				<navigationActions>
+				<navigationActions>
 					<m:OverflowToolbarButton
 						type="Transparent"
 						icon="sap-icon://full-screen"
@@ -310,7 +310,7 @@ We create the handlers needed for the navigation actions.
 						press=".handleClose"
 						tooltip="Close column"
 						visible="{= ${/actionButtonsInfo/endColumn/closeColumn} !== null }"/>
-				</navigationActions>*HIGHLIGHT END*
+				</navigationActions>
 			</DynamicPageTitle>
 		</title>
 		<content>
@@ -331,26 +331,26 @@ Again, we add navigation actions for entering and exiting fullscreen and closing
 ``` js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
-*HIGHLIGHT START*	"sap/ui/core/mvc/Controller"
-], function (JSONModel, Controller) {*HIGHLIGHT END*
+	"sap/ui/core/mvc/Controller"
+], function (JSONModel, Controller) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.DetailDetail", {
 		onInit: function () {
-			*HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent = this.getOwnerComponent();
+			this.oOwnerComponent = this.getOwnerComponent();
 
-			this.oRouter = *HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent.getRouter();
-			this.oModel = *HIGHLIGHT START*this.*HIGHLIGHT END*oOwnerComponent.getModel();
+			this.oRouter = this.oOwnerComponent.getRouter();
+			this.oModel = this.oOwnerComponent.getModel();
 
 			this.oRouter.getRoute("detailDetail").attachPatternMatched(this._onPatternMatch, this);
 		},
 
 		handleAboutPress: function () {
-*HIGHLIGHT START*			var oNextUIState;
+			var oNextUIState;
 			this.oOwnerComponent.getHelper().then(function (oHelper) {
 				oNextUIState = oHelper.getNextUIState(3);
 				this.oRouter.navTo("page2", {layout: oNextUIState.layout});
-			}.bind(this));*HIGHLIGHT END*
+			}.bind(this));
 		},
 
 		_onPatternMatch: function (oEvent) {
@@ -363,7 +363,7 @@ sap.ui.define([
 			});
 		},
 
-*HIGHLIGHT START*		handleFullScreen: function () {
+		handleFullScreen: function () {
 			var sNextLayout = this.oModel.getProperty("/actionButtonsInfo/endColumn/fullScreen");
 			this.oRouter.navTo("detailDetail", {layout: sNextLayout, product: this._product, supplier: this._supplier});
 		},
@@ -376,7 +376,7 @@ sap.ui.define([
 		handleClose: function () {
 			var sNextLayout = this.oModel.getProperty("/actionButtonsInfo/endColumn/closeColumn");
 			this.oRouter.navTo("detail", {layout: sNextLayout, product: this._product});
-		},*HIGHLIGHT END*
+		},
 
 		onExit: function () {
 			this.oRouter.getRoute("detailDetail").detachPatternMatched(this._onPatternMatch, this);
@@ -400,8 +400,8 @@ sap.ui.define([
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
 	'sap/ui/model/Sorter',
-*HIGHLIGHT START*	'sap/m/MessageBox'
-], function (JSONModel, Controller, Filter, FilterOperator, Sorter, MessageBox) {*HIGHLIGHT END*
+	'sap/m/MessageBox'
+], function (JSONModel, Controller, Filter, FilterOperator, Sorter, MessageBox) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.Master", {
@@ -437,7 +437,7 @@ sap.ui.define([
 
 		onListItemPress: function (oEvent) {
 			var productPath = oEvent.getSource().getBindingContext("products").getPath(),
-				product = productPath.split("/").slice(-1).pop()*HIGHLIGHT START*,
+				product = productPath.split("/").slice(-1).pop(),
 				oNextUIState;
 			this.getOwnerComponent().getHelper().then(function (oHelper) {
 				oNextUIState = oHelper.getNextUIState(1);
@@ -445,7 +445,7 @@ sap.ui.define([
 					layout: oNextUIState.layout,
 					product: product
 				});
-			}.bind(this));*HIGHLIGHT END*
+			}.bind(this));
 		}
 	});
 });
@@ -477,7 +477,7 @@ sap.ui.define([
 			var sRouteName = oEvent.getParameter("name"),
 				oArguments = oEvent.getParameter("arguments");
 
-*HIGHLIGHT START*			this._updateUIElements();*HIGHLIGHT END*
+			this._updateUIElements();
 
 			// Save the current route name
 			this.currentRouteName = sRouteName;
@@ -489,7 +489,7 @@ sap.ui.define([
 			var bIsNavigationArrow = oEvent.getParameter("isNavigationArrow"),
 				sLayout = oEvent.getParameter("layout");
 
-*HIGHLIGHT START*			this._updateUIElements();*HIGHLIGHT END*
+			this._updateUIElements();
 
 			// Replace the URL with the new layout if a navigation arrow was used
 			if (bIsNavigationArrow) {
@@ -497,7 +497,7 @@ sap.ui.define([
 			}
 		},
 
-*HIGHLIGHT START*		// Update the close/fullscreen buttons visibility
+		// Update the close/fullscreen buttons visibility
 		_updateUIElements: function () {
 			var oModel = this.oOwnerComponent.getModel(),
 				oUIState;
@@ -505,11 +505,11 @@ sap.ui.define([
 				oUIState = oHelper.getCurrentUIState();
 				oModel.setData(oUIState);
 			});
-		},*HIGHLIGHT END*
+		},
 
 		onExit: function () {
 			this.oRouter.detachRouteMatched(this.onRouteMatched, this);
-*HIGHLIGHT START*			this.oRouter.detachBeforeRouteMatched(this.onBeforeRouteMatched, this);*HIGHLIGHT END*
+			this.oRouter.detachBeforeRouteMatched(this.onBeforeRouteMatched, this);
 		}
 	});
 });

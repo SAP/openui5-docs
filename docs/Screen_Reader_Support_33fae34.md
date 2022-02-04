@@ -35,9 +35,9 @@ Complex controls like pages, panels, and tables need a title to summarize the co
 > <mvc:View
 >       xmlns:mvc="sap.ui.core.mvc"
 >       xmlns="sap.m">
->    **<Title id="rbGroupTitle" text="Select an option" textAlign="Center"/\>
-> **
->    <RadioButtonGroup columns="2" selectedIndex="2" **ariaLabelledBy="rbGroupTitle"**>
+>    <Title id="rbGroupTitle" text="Select an option" textAlign="Center"/>
+> 
+>    <RadioButtonGroup columns="2" selectedIndex="2" ariaLabelledBy="rbGroupTitle">
 >       <buttons>
 >          <RadioButton id="RB2-1" text="Option 1"/>
 >          <RadioButton id="RB2-2" text="Option 2" editable="false"/>
@@ -79,8 +79,8 @@ For headings \(table toolbar, page header, form toolbar, panel toolbar\) the tex
 >    <Panel expandable="true">
 >       <headerToolbar>
 >          <Toolbar height="3rem">
->            ** <Title text="Header"/\>
-> **
+>             <Title text="Header"/>
+> 
 >             <ToolbarSpacer/>
 >             <Button icon="sap-icon://settings"/>
 >             <Button icon="sap-icon://drop-down-list"/>

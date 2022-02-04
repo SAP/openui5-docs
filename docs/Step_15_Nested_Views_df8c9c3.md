@@ -40,7 +40,7 @@ You can view and download all files at [Walkthrough - Step 15](https://openui5.h
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
-*HIGHLIGHT START*						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>*HIGHLIGHT END*
+						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
 					</content>
 				</Page>
 			</pages>
@@ -57,7 +57,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
 ### webapp/view/HelloPanel.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -79,7 +79,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
    </Panel>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 The whole content for the panel is now added to the new file `HelloPanel.view.xml`. We also specify the controller for the view by setting the `controllerName` attribute of the XML view.
@@ -89,7 +89,7 @@ The whole content for the panel is now added to the new file `HelloPanel.view.xm
 ### webapp/controller/HelloPanel.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"
 ], function (Controller, MessageToast) {
@@ -104,7 +104,7 @@ The whole content for the panel is now added to the new file `HelloPanel.view.xm
          MessageToast.show(sMsg);
       }
    });
-});*HIGHLIGHT END*
+});
 ```
 
 To have a reusable asset, the method `onShowHello` is also moved from the app controller to the `HelloPanel` controller.

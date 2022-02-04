@@ -33,7 +33,7 @@ You can view and download all files at [Walkthrough - Step 34](https://openui5.h
 		controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 		xmlns="sap.m"
 		xmlns:mvc="sap.ui.core.mvc">
-	*HIGHLIGHT START*<Table*HIGHLIGHT END*
+	<Table
 		id="invoiceList"
 		class="sapUiResponsiveMargin"
 		width="auto"
@@ -51,7 +51,7 @@ You can view and download all files at [Walkthrough - Step 34](https://openui5.h
 				<SearchField width="50%" search=".onFilterInvoices"/>
 			</Toolbar>
 		</headerToolbar>
-		*HIGHLIGHT START*<columns>
+		<columns>
 			<Column
 				hAlign="End"
 				minScreenWidth="Small"
@@ -103,7 +103,7 @@ You can view and download all files at [Walkthrough - Step 34](https://openui5.h
 			</ColumnListItem>
 		</items>
 	</Table>
-*HIGHLIGHT END*
+
 </mvc:View>
 ```
 
@@ -168,11 +168,11 @@ invoiceListTitle=Invoices
 invoiceStatusA=New
 invoiceStatusB=In Progress
 invoiceStatusC=Done
-*HIGHLIGHT START*columnQuantity=Quantity
+columnQuantity=Quantity
 columnName=Name
 columnSupplier=Supplier
 columnStatus=Status
-columnPrice=Price*HIGHLIGHT END*
+columnPrice=Price
 
 # Detail Page
 ...

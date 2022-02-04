@@ -44,20 +44,20 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
 	"sap/m/MessageBox",
-	*HIGHLIGHT START*"sap/ui/model/Sorter",
+	"sap/ui/model/Sorter",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
-	"sap/ui/model/FilterType",*HIGHLIGHT END*
+	"sap/ui/model/FilterType",
 	"sap/ui/model/json/JSONModel"
-], function (Controller, MessageToast, MessageBox, *HIGHLIGHT START*Sorter, Filter, FilterOperator, FilterType,*HIGHLIGHT END* JSONModel) {
+], function (Controller, MessageToast, MessageBox, Sorter, Filter, FilterOperator, FilterType, JSONModel) {
 	"use strict";
 
 	return Controller.extend("sap.ui.core.tutorial.odatav4.controller.App", {
 
 		onInit : function () {
 			var oJSONData = {
-				busy : false*HIGHLIGHT START*,
-				order : 0*HIGHLIGHT END*
+				busy : false,
+				order : 0
 			};
 			var oModel = new JSONModel(oJSONData);
 			this.getView().setModel(oModel, "appView");
@@ -67,7 +67,7 @@ sap.ui.define([
 		...
 		},
 
-				*HIGHLIGHT START*		onSearch : function () {
+						onSearch : function () {
 			var oView = this.getView(),
 				sValue = oView.byId("searchField").getValue(),
 				oFilter = new Filter("LastName", FilterOperator.Contains, sValue);
@@ -90,7 +90,7 @@ sap.ui.define([
 
 			sMessage = this._getText("sortMessage", [this._getText(aStateTextIds[iOrder])]);
 			MessageToast.show(sMessage);
-			},*HIGHLIGHT END*
+			},
 
 		_getText : function (sTextId, aArgs) {
 		...
@@ -137,30 +137,30 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 							growing="true"
 							growingThreshold="10"
 							items="{
-								path: '/People'*HIGHLIGHT START*,
+								path: '/People',
 								parameters: {
 									$count: true
-								}*HIGHLIGHT END*
+								}
 							}">
 							<headerToolbar>
 								<OverflowToolbar>
 									<content>
 										<ToolbarSpacer/>
-*HIGHLIGHT START*										<SearchField
+										<SearchField
 											id="searchField"
 											width="20%"
 											placeholder="{i18n>searchFieldPlaceholder}"
-											search=".onSearch"/>*HIGHLIGHT END*
+											search=".onSearch"/>
 										<Button
 											id="refreshUsersButton"
 											icon="sap-icon://refresh"
 											tooltip="{i18n>refreshButtonText}"
 											press=".onRefresh"/>
-*HIGHLIGHT START*										<Button
+										<Button
 											id="sortUsersButton"
 											icon="sap-icon://sort"
 											tooltip="{i18n>sortButtonText}"
-											press="onSort"/>*HIGHLIGHT END*
+											press="onSort"/>
 									</content>
 								</OverflowToolbar>
 							</headerToolbar>
@@ -222,18 +222,18 @@ In the `OverflowToolbar`, we add a *Search* field and a *Sort* button with their
 #XTOL: Tooltip for refresh data
 refreshButtonText=Refresh Data
 
-*HIGHLIGHT START*#XTOL: Tooltip for sort
+#XTOL: Tooltip for sort
 sortButtonText=Sort by Last Name
 
 #XTXT: Placeholder text for search field
-searchFieldPlaceholder=Type in a last name*HIGHLIGHT END*
+searchFieldPlaceholder=Type in a last name
 ...
 # Messages
 ...
 #XMSG: Message for refresh succeeded
 refreshSuccessMessage=Data refreshed
 
-*HIGHLIGHT START*#MSG: Message for sorting
+#MSG: Message for sorting
 sortMessage=Users sorted by {0}
 
 #MSG: Suffix for sorting by LastName, ascending
@@ -243,7 +243,7 @@ sortAscending=last name, ascending
 sortDescending=last name, descending
 
 #MSG: Suffix for no sorting
-sortNone=the sequence on the server*HIGHLIGHT END*
+sortNone=the sequence on the server
 ```
 
 We add the missing texts to the properties file.

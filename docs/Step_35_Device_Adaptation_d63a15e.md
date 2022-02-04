@@ -37,16 +37,16 @@ You can view and download all files at [Walkthrough - Step 35](https://openui5.h
 	<Panel
 		headerText="{i18n>helloPanelTitle}"
 		class="sapUiResponsiveMargin"
-		width="auto"*HIGHLIGHT START*
+		width="auto"
 		expandable="{device>/system/phone}"
-		expanded="{= !${device>/system/phone} }"*HIGHLIGHT END*>
+		expanded="{= !${device>/system/phone} }">
 		<content>
 			<Button
 				id="helloDialogButton"
 				icon="sap-icon://world"
 				text="{i18n>openDialogButtonText}"
 				press=".onOpenDialog"
-				class="sapUiSmallMarginEnd *HIGHLIGHT START*sapUiVisibleOnlyOnDesktop*HIGHLIGHT END*"/>
+				class="sapUiSmallMarginEnd sapUiVisibleOnlyOnDesktop"/>
 			<Button
 				text="{i18n>showHelloButtonText}"
 				press=".onShowHello"
@@ -77,9 +77,9 @@ We can also hide single controls by device type when we set a CSS class like `sa
 ``` js
 sap.ui.define([
 	"sap/ui/core/UIComponent",
-	"sap/ui/model/json/JSONModel"*HIGHLIGHT START*,
-	"sap/ui/Device"*HIGHLIGHT END*
-], function (UIComponent, JSONModel*HIGHLIGHT START*, Device*HIGHLIGHT END*) {
+	"sap/ui/model/json/JSONModel",
+	"sap/ui/Device"
+], function (UIComponent, JSONModel, Device) {
 	"use strict";
 	return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
 		metadata: {
@@ -101,11 +101,11 @@ sap.ui.define([
 			// disable batch grouping for v2 API of the northwind service
 			this.getModel("invoice").setUseBatch(false);
 
-			*HIGHLIGHT START*// set device model
+			// set device model
 			var oDeviceModel = new JSONModel(Device);
 			oDeviceModel.setDefaultBindingMode("OneWay");
 			this.setModel(oDeviceModel, "device");
-*HIGHLIGHT END*
+
 			// create the views based on the url/hash
 			this.getRouter().initialize();
 		}
@@ -136,7 +136,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 		title="{i18n>detailPageTitle}"
 		showNavButton="true"
 		navButtonPress=".onNavBack">
-		<ObjectHeader*HIGHLIGHT START*
+		<ObjectHeader
 			responsive="true"
 			fullScreenOptimized="true"
 			number="{
@@ -146,10 +146,10 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 					showMeasure: false
 				}
 			}"
-			numberUnit="{view>/currency}"*HIGHLIGHT END*
+			numberUnit="{view>/currency}"
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}">
-			*HIGHLIGHT START*<attributes>
+			<attributes>
 				<ObjectAttribute title="{i18n>quantityTitle}" text="{invoice>Quantity}"></ObjectAttribute>
 				<ObjectAttribute title="{i18n>dateTitle}" text="{
 					path: 'invoice>ShippedDate',
@@ -161,7 +161,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 					  }
 					}
 				  }"/>
-			</attributes>*HIGHLIGHT END*
+			</attributes>
 		</ObjectHeader>
 		<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
 	</Page>
@@ -183,17 +183,17 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
 	"sap/m/MessageToast",
-*HIGHLIGHT START*	"sap/ui/model/json/JSONModel"
-*HIGHLIGHT END*
-], function (Controller, History, MessageToast*HIGHLIGHT START*, JSONModel*HIGHLIGHT END*) {
+	"sap/ui/model/json/JSONModel"
+
+], function (Controller, History, MessageToast, JSONModel) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
 		onInit : function () {
-			*HIGHLIGHT START*var oViewModel = new JSONModel({
+			var oViewModel = new JSONModel({
 				currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
-*HIGHLIGHT END*
+
 			var oRouter = this.getOwnerComponent().getRouter();
 			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
 		},
@@ -211,8 +211,8 @@ In the `Detail` controller we simply add the view model with our currency defini
 # Detail Page
 detailPageTitle=Walkthrough - Details
 ratingConfirmation=You have rated this product with {0} stars
-*HIGHLIGHT START*dateTitle=Order date
-quantityTitle=Quantity*HIGHLIGHT END*
+dateTitle=Order date
+quantityTitle=Quantity
 ```
 
 We add the column names and the attribute titles to our `i18n` file.

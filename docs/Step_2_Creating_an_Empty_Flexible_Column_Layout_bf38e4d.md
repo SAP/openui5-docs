@@ -50,17 +50,17 @@ You can view and download all files at [Flexible Column Layout App - Step 2](htt
 		}
 	},
 	"sap.ui5": {
-*HIGHLIGHT START*		"rootView": {
+		"rootView": {
 			"viewName": "sap.ui.demo.fiori2.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "fcl"
-		},*HIGHLIGHT END*
+		},
 		"dependencies": {
 			"minUI5Version": "1.60.0",
 			"libs": {
-				"sap.ui.core": {}*HIGHLIGHT START*,
-				"sap.f": {}*HIGHLIGHT END*
+				"sap.ui.core": {},
+				"sap.f": {}
 			}
 		},
 		"config": {
@@ -79,13 +79,13 @@ First, we add the `sap.f` library as a dependency in the `manifest.json` file.
 ### webapp/view/App.view.xml \[NEW\]
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	displayBlock="true"
 	height="100%"
 	xmlns="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
 		<FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid"></FlexibleColumnLayout>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We create a new **`App.view.xml`** that contains an instance of the `sap.f.FlexibleColumnLayout` control. Keep in mind that there is no content yet and the app appears as an empty page.
@@ -107,12 +107,12 @@ We create a new **`App.view.xml`** that contains an instance of the `sap.f.Flexi
 		}
 	},
 	"sap.ui5": {
-*HIGHLIGHT START*		"rootView": {
+		"rootView": {
 			"viewName": "sap.ui.demo.fiori2.view.App",
 			"type": "XML",
 			"async": false,
 			"id": "fcl"
-		},*HIGHLIGHT END*
+		},
 		"dependencies": {
 			"minUI5Version": "1.60.0",
 			"libs": {

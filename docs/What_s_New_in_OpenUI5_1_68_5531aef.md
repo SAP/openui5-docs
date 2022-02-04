@@ -49,7 +49,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 <tr>
 <td valign="top">
 
-`**sap.ui.integration.widgets.Card**`
+<code><b>sap.ui.integration.widgets.Card</b></code>
 
 Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](loio2bcad31f5feb43f58aaa93271a469e0f_LowRes.png)
 

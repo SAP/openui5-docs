@@ -25,12 +25,12 @@ This control is defined by the `swipeContent` aggregation of the list or table. 
           icon="{ProductPicUrl}" 
           iconDensityAware="false"
           iconInset="false" />
-        **<swipeContent\>
+        <swipeContent>
           <Button
             text="Delete Item"
             type="Reject"
-            press="handleReject" /\>
-        </swipeContent\>**
+            press="handleReject" />
+        </swipeContent>
       </List>
      
     ```
@@ -51,12 +51,12 @@ This control is defined by the `swipeContent` aggregation of the list or table. 
           icon="{ProductPicUrl}" 
           iconDensityAware="false"
           iconInset="false" />
-        **<swipeContent\>
+        <swipeContent>
           <Button
             text="Delete Item"
             type="Reject"
-            press="handleReject" /\>
-        </swipeContent\>**
+            press="handleReject" />
+        </swipeContent>
       </List>
     
     ```

@@ -37,13 +37,13 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 <mvc:View
 	controllerName="sap.ui.demo.db.controller.App"
 	xmlns="sap.m"
-	*HIGHLIGHT START*xmlns:core="sap.ui.core"*HIGHLIGHT END*
+	xmlns:core="sap.ui.core"
 	xmlns:form="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
 ...
 	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
-*HIGHLIGHT START*		<List
+		<List
 			id="ProductList"
 			headerText="{i18n>productListTitle}"
 			items="{
@@ -54,7 +54,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 				<core:Fragment fragmentName="sap.ui.demo.db.view.ProductSimple" type="XML"/>
 				<core:Fragment fragmentName="sap.ui.demo.db.view.ProductExtended" type="XML"/>
 			</dependents>
-		</List>*HIGHLIGHT END*
+		</List>
 	</Panel>
 ...
 </mvc:View>
@@ -73,8 +73,8 @@ sap.ui.define([
 	"sap/ui/core/Locale",
 	"sap/ui/core/LocaleData",
 	"sap/ui/model/type/Currency",
-*HIGHLIGHT START*	"sap/m/ObjectAttribute"*HIGHLIGHT END*
-], function (Controller, mobileLibrary, Locale, LocaleData, Currency*HIGHLIGHT START*, ObjectAttribute*HIGHLIGHT END*) {
+	"sap/m/ObjectAttribute"
+], function (Controller, mobileLibrary, Locale, LocaleData, Currency, ObjectAttribute) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.db.controller.App", {
@@ -102,7 +102,7 @@ sap.ui.define([
 			oProductDetailPanel.bindElement({ path: sPath, model: "products" });
 		},
 
-*HIGHLIGHT START*		productListFactory : function(sId, oContext) {
+		productListFactory : function(sId, oContext) {
 			var oUIControl;
 
 			// Decide based on the data which dependent to clone
@@ -125,7 +125,7 @@ sap.ui.define([
 
 			return oUIControl;
 		}
-*HIGHLIGHT END*
+
 	});
 });
 
@@ -148,7 +148,7 @@ Finally, we return the control that is displayed inside the list.
 ### webapp/view/ProductSimple.fragment.xml \(new\)
 
 ``` xml
-*HIGHLIGHT START*<core:FragmentDefinition
+<core:FragmentDefinition
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core">
 	<StandardListItem
@@ -162,7 +162,7 @@ Finally, we return the control that is displayed inside the list.
 		press=".onItemSelected">
 	</StandardListItem>
 </core:FragmentDefinition>
-*HIGHLIGHT END*
+
 ```
 
 The XML fragment defines a `StandardListItem` that is used if the stock level is zero and the product has also been discontinued. This is our simple use case where we just define a warning icon and a *Product Discontinued* message in the `info` property.
@@ -211,7 +211,7 @@ However, more complex logic can’t be defined declaratively in XML. Therefore, 
 ...
 # Product Details
 ...
-*HIGHLIGHT START*outOfStock=Out of Stock*HIGHLIGHT END*
+outOfStock=Out of Stock
 ```
 
 ***
@@ -222,7 +222,7 @@ However, more complex logic can’t be defined declaratively in XML. Therefore, 
 ...
 # Product Details
 ...
-*HIGHLIGHT START*outOfStock=Nicht vorr\\u00e4tig*HIGHLIGHT END*
+outOfStock=Nicht vorr\u00e4tig
 ```
 
 We add the missing texts to the `properties` files.

@@ -87,10 +87,10 @@ sap.ui.define([
 	return {
 		numberUnit: function (sValue) {
 			…
-		}*HIGHLIGHT START*,
+		},
 		priceState: function () {
 		}
-*HIGHLIGHT END*
+
 	};
 });
 ```
@@ -109,7 +109,7 @@ sap.ui.define([
 
 	QUnit.module("Number unit");
 		…
-	*HIGHLIGHT START*QUnit.module("Price State");
+	QUnit.module("Price State");
 
 	function priceStateTestCase(oOptions) {
 		// Act
@@ -157,7 +157,7 @@ sap.ui.define([
 			price: 2001,
 			expected: "Error"
 		});
-	});*HIGHLIGHT END*
+	});
 });
 
 ```

@@ -61,14 +61,14 @@ sap.ui.require([
 		// * "" - according to the fallback chain the root bundle is the last fallback.
 		//   Configuring it explicitly avoids side effects when additional resource files are added.
 		// @see https://openui5.hana.ondemand.com/#/topic/ec753bc539d748f689e3ac814e129563
-*HIGHLIGHT START*		var oResourceModel = new ResourceModel({
+		var oResourceModel = new ResourceModel({
 			bundleName: "sap.ui.demo.db.i18n.i18n",
 			supportedLocales: ["", "de"],
 			fallbackLocale: ""
 		});
 
 		// Assign the model object to the SAPUI5 core using the name "i18n"
-		sap.ui.getCore().setModel(oResourceModel, "i18n");*HIGHLIGHT END*
+		sap.ui.getCore().setModel(oResourceModel, "i18n");
 
 		// Display the XML view called "App"
 		new XMLView({
@@ -89,13 +89,13 @@ Since we are creating a resource model, the file name is assumed to have the ext
 ### webapp/i18n/i18n.properties \(New\)
 
 ``` prefs
-*HIGHLIGHT START*# Field labels
+# Field labels
 firstName=First Name
 lastName=Last Name
 enabled=Enabled
 
 # Screen titles
-panelHeaderText=Data Binding Basics*HIGHLIGHT END*
+panelHeaderText=Data Binding Basics
 ```
 
 Create a new folder `i18n`, and a new file `i18n.properties` within and add the code above.
@@ -113,13 +113,13 @@ Language-specific text stored in resource models obeys the Java convention for i
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Panel headerText="{*HIGHLIGHT START*i18n>*HIGHLIGHT END*panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel headerText="{i18n>panelHeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<form:SimpleForm editable="true" layout="ColumnLayout">
-			<Label text="*HIGHLIGHT START*{i18n>firstName}*HIGHLIGHT END*"/>
+			<Label text="{i18n>firstName}"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="*HIGHLIGHT START*{i18n>lastName}*HIGHLIGHT END*"/>
+			<Label text="{i18n>lastName}"/>
 			<Input value="{/lastName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
-			<Label text="*HIGHLIGHT START*{i18n>enabled}*HIGHLIGHT END*"/>
+			<Label text="{i18n>enabled}"/>
 			<CheckBox selected="{/enabled}"/>
 		</form:SimpleForm>
 	</Panel>

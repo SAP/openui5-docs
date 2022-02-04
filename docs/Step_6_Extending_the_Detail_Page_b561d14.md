@@ -38,7 +38,7 @@ controllerName="mycompany.myapp.MyWorklistApp.controller.Object"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc"
 xmlns:semantic="sap.f.semantic"
-*HIGHLIGHT START*xmlns:form="sap.ui.layout.form"*HIGHLIGHT END*>
+xmlns:form="sap.ui.layout.form">
 
 <semantic:SemanticPage
     id="page"
@@ -49,7 +49,7 @@ xmlns:semantic="sap.f.semantic"
     <semantic:titleHeading>
     <Title text="{ProductName}" />
     </semantic:titleHeading>
-    *HIGHLIGHT START*<semantic:headerContent>
+    <semantic:headerContent>
 			<FlexBox
 				alignItems="Start"
 				justifyContent="SpaceBetween">
@@ -91,9 +91,9 @@ xmlns:semantic="sap.f.semantic"
 						formatter: '.formatter.quantityState'}"/>
 				</Panel>
 			</FlexBox>
-    </semantic:headerContent>*HIGHLIGHT END*
+    </semantic:headerContent>
     <semantic:content>
-*HIGHLIGHT START*        <Panel
+        <Panel
             class="sapUiNoContentPadding"
             headerText="{i18n>ObjectSupplierTabTitle}">
             <content>
@@ -120,7 +120,7 @@ xmlns:semantic="sap.f.semantic"
                     </form:content>
                 </form:SimpleForm>
             </content>
-        </Panel>*HIGHLIGHT END*
+        </Panel>
 
     </semantic:content>
     <semantic:sendEmailAction>
@@ -142,7 +142,7 @@ Below the object header we can use `sap.m.Panel` to display some additional info
 
 ``` prefs
 ...
-*HIGHLIGHT START*#Price per unit text
+#Price per unit text
 ObjectPriceTitle=Price
 
 #Discontinued text
@@ -171,7 +171,7 @@ ObjectSupplierCountry=Country
 
 #Object Product ID text
 ObjectProductIdText=Product ID
-*HIGHLIGHT END*
+
 
 #~~~ Footer Options ~~~~~~~~~~~~~~~~~~~~~~~
 ...

@@ -30,7 +30,7 @@ You can choose between the following busy indicators, depending on your use case
 You can use the `sap.ui.core.BusyIndicator` busy indicator to block the whole UI. You can set the delay in ms by specifying the number:
 
 ``` js
-sap.ui.core.BusyIndicator.show(*HIGHLIGHT START*<number>*HIGHLIGHT END*);
+sap.ui.core.BusyIndicator.show(<number>);
 ```
 
 To release the UI again, the busy indication must be hidden again. This function call hides the busy indication immediately:
@@ -66,7 +66,7 @@ Here's how to do it:
 		value:'Hello World'
 	});
 ...
-	*HIGHLIGHT START*oInput.setBusy(true);*HIGHLIGHT END*
+	oInput.setBusy(true);
 
 ```
 
@@ -75,8 +75,8 @@ The following code shows how you define the default state of a control as `busy`
 ``` js
 	var oInput = new sap.m.Input({
 		value:'Hello World',
-		*HIGHLIGHT START*busy: true
-*HIGHLIGHT END*
+		busy: true
+
 	});
 
 ```
@@ -90,7 +90,7 @@ oMyListBox.setBusy(false);
 To change the default delay of the local busy indicator, use:
 
 ``` js
-oMyListBox.setBusyIndicatorDelay(*HIGHLIGHT START*<number>*HIGHLIGHT END*);
+oMyListBox.setBusyIndicatorDelay(<number>);
 ```
 
 [API Reference: `sap.m.BusyIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.BusyIndicator.html)

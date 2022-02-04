@@ -52,9 +52,9 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
             "controlId": "app",
             "controlAggregation": "pages",
             "transition": "slide",
-            *HIGHLIGHT START*"bypassed": {
+            "bypassed": {
                "target": "notFound"
-            },*HIGHLIGHT END*
+            },
             "async": true
          },
          "routes": [{
@@ -67,12 +67,12 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
                "id": "home",
                "name": "Home",
                "level" : 1
-            }*HIGHLIGHT START*,
+            },
             "notFound": {
                "id": "notFound",
                "name": "NotFound",
                "transition": "show"
-            }*HIGHLIGHT END*
+            }
          }
       }
    }
@@ -86,7 +86,7 @@ Let’s extend the routing configuration in the descriptor by adding a `bypassed
 ### webapp/view/NotFound.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
    controllerName="sap.ui.demo.nav.controller.NotFound"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -94,7 +94,7 @@ Let’s extend the routing configuration in the descriptor by adding a `bypassed
       title="{i18n>NotFound}"
       text="{i18n>NotFound.text}"
       description="{i18n>NotFound.description}"/>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Now we create the view referenced above in a new file `NotFound.view.xml` in the `webapp/view folder`. It uses a `sap.m.MessagePage` control to display an error message to the user. In a real app you might use a dynamic message matching the current error situation. Here, we simply display a preconfigured text from our resource bundle.
@@ -104,7 +104,7 @@ Now we create the view referenced above in a new file `NotFound.view.xml` in the
 ### webapp/controller/NotFound.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
    "use strict";
@@ -112,7 +112,7 @@ Now we create the view referenced above in a new file `NotFound.view.xml` in the
       onInit: function () {
       }
    });
-});*HIGHLIGHT END*
+});
 ```
 
 Now we create the controller for the `NotFound` view and save it into the `webapp/controller` folder. This controller will be extended later.
@@ -123,9 +123,9 @@ Now we create the controller for the `NotFound` view and save it into the `webap
 
 ``` js
 ...
-*HIGHLIGHT START*NotFound=Not Found
+NotFound=Not Found
 NotFound.text=Sorry, but the requested resource is not available.
-NotFound.description=Please check the URL and try again*HIGHLIGHT END*.
+NotFound.description=Please check the URL and try again.
 ```
 
 Add the new properties to the `i18n.properties` file.

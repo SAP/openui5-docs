@@ -70,7 +70,7 @@ sap.ui.define([
 		Given.iStartMyApp();
 
 		// Assertions
-		*HIGHLIGHT START*Then.onTheWorklistPage.theTableShouldHavePagination().
+		Then.onTheWorklistPage.theTableShouldHavePagination().
 			and.theTitleShouldDisplayTheTotalAmountOfItems();
 	});
 
@@ -78,7 +78,7 @@ sap.ui.define([
 		//Actions
 		When.onTheWorklistPage.iPressOnMoreData();
 
-		// Assertions*HIGHLIGHT END*
+		// Assertions
 		Then.onTheWorklistPage.theTableShouldHaveAllEntries();
 
 		// Cleanup
@@ -119,12 +119,12 @@ sap.ui.define([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',
 		'sap/ui/test/matchers/I18NText',
-		*HIGHLIGHT START*'sap/ui/test/actions/Press'*HIGHLIGHT END*
+		'sap/ui/test/actions/Press'
 	],
 		function (Opa5,
 			  AggregationLengthEquals,
-			  I18NText*HIGHLIGHT START*,
-			  Press) {*HIGHLIGHT END*
+			  I18NText,
+			  Press) {
 		"use strict";
 
 		var sViewName = "Worklist",
@@ -133,7 +133,7 @@ sap.ui.define([
 		Opa5.createPageObjects({
 			onTheWorklistPage: {
 				actions: {
-					*HIGHLIGHT START*iPressOnMoreData: function () {
+					iPressOnMoreData: function () {
 						// Press action hits the "more" trigger on a table
 						return this.waitFor({
 							id: sTableId,
@@ -141,10 +141,10 @@ sap.ui.define([
 							actions: new Press(),
 							errorMessage: "The table does not have a trigger."
 						});
-					}*HIGHLIGHT END*
+					}
 				},
 				assertions: {
-*HIGHLIGHT START*					theTableShouldHavePagination: function () {
+					theTableShouldHavePagination: function () {
 						return this.waitFor({
 							id: sTableId,
 							viewName: sViewName,
@@ -157,7 +157,7 @@ sap.ui.define([
 							},
 							errorMessage: "The table does not contain all items."
 						});
-					},*HIGHLIGHT END*
+					},
 
 					theTableShouldHaveAllEntries: function () {
 						return this.waitFor({

@@ -29,7 +29,7 @@ To add text to the button, add the attribute `data-text` to its HTML tag:
 > 
 > As the name of the attributes of HTML tags are case-insensitive, the properties `displayLogoff` and `displayWelcome` of the `ApplicationHeader` control have to be "escaped" as `data-display-logoff` and `data-display-welcome` for the name of the attributes of the HTML tag. Keep this in mind when matching properties, associations, or events as an attribute of the HTML tag.
 > 
-> The ``id`` attribute defines the ID of a control:
+> The <code><code>id</code></code> attribute defines the ID of a control:
 > 
 > ``` html
 > 

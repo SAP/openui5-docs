@@ -39,9 +39,9 @@ You can view and download all files at [Flexible Column Layout App - Step 4](htt
 ### webapp/view/Detail.view.xml \[NEW\]
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	xmlns:mvc="sap.ui.core.mvc">
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 First, we create a blank detail page.
@@ -62,9 +62,9 @@ First, we create a blank detail page.
 		<beginColumnPages>
 			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.Master"/>
 		</beginColumnPages>
-*HIGHLIGHT START*		<midColumnPages>
+		<midColumnPages>
 			<mvc:XMLView id="detailView" viewName="sap.ui.demo.fiori2.view.Detail"/>
-		</midColumnPages>*HIGHLIGHT END*
+		</midColumnPages>
 	</FlexibleColumnLayout>
 </mvc:View>
 ```
@@ -84,7 +84,7 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 
 					...
 					<items>
-						<ColumnListItem type="Navigation"*HIGHLIGHT START* press=".onListItemPress"*HIGHLIGHT END*>
+						<ColumnListItem type="Navigation" press=".onListItemPress">
 							<cells>
 								<ObjectIdentifier title="{products>Name}" text="{products>ProductId}"/>
 								<ObjectNumber
@@ -118,9 +118,9 @@ sap.ui.define([
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
 	'sap/ui/model/Sorter',
-	'sap/m/MessageBox'*HIGHLIGHT START*,
-	'sap/f/library'*HIGHLIGHT END*
-], function (JSONModel, Controller, Filter, FilterOperator, Sorter, MessageBox*HIGHLIGHT START*, fioriLibrary*HIGHLIGHT END*) {
+	'sap/m/MessageBox',
+	'sap/f/library'
+], function (JSONModel, Controller, Filter, FilterOperator, Sorter, MessageBox, fioriLibrary) {
 	"use strict";
 		...
 
@@ -131,13 +131,13 @@ sap.ui.define([
 				oSorter = new Sorter("Name", this._bDescendingSort);
 
 			oBinding.sort(oSorter);
-		}*HIGHLIGHT START*,
+		},
 
 		onListItemPress: function () {
 			var oFCL = this.oView.getParent().getParent();
 
 			oFCL.setLayout(fioriLibrary.LayoutType.TwoColumnsMidExpanded);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```

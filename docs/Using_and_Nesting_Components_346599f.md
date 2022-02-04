@@ -252,13 +252,13 @@ Recommended Code
         "sap.reuse.component": {}
       }
     },
-    *HIGHLIGHT START*"componentUsages": {
+    "componentUsages": {
       "reuse": {
         "name": "sap.reuse.component",
         "lazy": false
       }
     }
-*HIGHLIGHT END*
+
   }
 }
 ```
@@ -295,9 +295,9 @@ createContent: function() {
 ``` js
 createContent: function() {
    
-*HIGHLIGHT START*  var oReuseComponentPromise = this.createComponent({ /* this = Component instance */
+  var oReuseComponentPromise = this.createComponent({ /* this = Component instance */
     "usage": "reuse"
-  });*HIGHLIGHT END*
+  });
  
 }
 ```

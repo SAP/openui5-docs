@@ -56,8 +56,8 @@ webapp/manifest.json \[MODIFY\]
 		"dependencies": {
 			"minUI5Version": "1.60.0",
 			"libs": {
-				"sap.ui.core": {}*HIGHLIGHT START*,
-				"sap.m": {},*HIGHLIGHT END*
+				"sap.ui.core": {},
+				"sap.m": {},
 				"sap.f": {}
 			}
 		},
@@ -82,8 +82,8 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
-			"sap.ui.demo.fiori2": *HIGHLIGHT START*"./",
-			"sap.ui.demo.mock": "https://openui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/"*HIGHLIGHT END*
+			"sap.ui.demo.fiori2": "./",
+			"sap.ui.demo.mock": "https://openui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/"
 		}'
 		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-compatVersion="edge"
@@ -103,16 +103,16 @@ We add the link to the mock data that is used in the app.
 
 ``` js
 sap.ui.define([
-	'sap/ui/core/UIComponent'*HIGHLIGHT START*,
-	'sap/ui/model/json/JSONModel'*HIGHLIGHT END*
-], function(UIComponent*HIGHLIGHT START*, JSONModel*HIGHLIGHT END*) {
+	'sap/ui/core/UIComponent',
+	'sap/ui/model/json/JSONModel'
+], function(UIComponent, JSONModel) {
 	'use strict';
 
 	return UIComponent.extend('sap.ui.demo.fiori2.Component', {
 
 		metadata: {
 			manifest: 'json'
-		}*HIGHLIGHT START*,
+		},
 
 		init: function () {
 			var oProductsModel;
@@ -123,7 +123,7 @@ sap.ui.define([
 			oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui/demo/mock') + '/products.json');
 			oProductsModel.setSizeLimit(1000);
 			this.setModel(oProductsModel, 'products');
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -137,7 +137,7 @@ We create the `init` method in the `Component.js` to set the model.
 ### webapp/view/Master.view.xml \[NEW\]
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.Master"
 	xmlns="sap.m"
 	xmlns:f="sap.f"
@@ -210,7 +210,7 @@ We create the `init` method in the `Component.js` to set the model.
 			</OverflowToolbar>
 		</f:footer>
 	</f:DynamicPage>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We create the master view using `sap.f.DynamicPage`. The page consists of a list with all products.
@@ -227,11 +227,11 @@ We create the master view using `sap.f.DynamicPage`. The page consists of a list
 	height="100%"
 	xmlns="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
-	<FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid"*HIGHLIGHT START*>
+	<FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid">
 		<beginColumnPages>
 			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.Master"/>
 		</beginColumnPages>
-	</FlexibleColumnLayout>*HIGHLIGHT END*
+	</FlexibleColumnLayout>
 </mvc:View>
 ```
 
@@ -244,7 +244,7 @@ We add the master view in `FlexibleColumnLayout's` `beginColumnPages` aggregatio
 ### webapp/controller/Master.controller.js \[NEW\]
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/Filter",
@@ -284,7 +284,7 @@ We add the master view in `FlexibleColumnLayout's` `beginColumnPages` aggregatio
 			oBinding.sort(oSorter);
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We create the master controller that provides a basic search and sort functionality for the products listed in the master page.

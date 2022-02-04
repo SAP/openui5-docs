@@ -32,7 +32,7 @@ The allowed URLs can be maintained with the following API:
 Here is an example how valid URLs can be allowed:
 
 ``` js
-// `URLListValidator` required from module `sap/base/security/URLListValidator`
+// URLListValidator required from module sap/base/security/URLListValidator
 
 URLListValidator.add(undefined, "www.sap.com");
 
@@ -54,7 +54,7 @@ A URL can be validated by using the following API: `sap/base/security/URLListVal
 Here is an example how a given URL is validated against the above-mentioned allowed URLs:
 
 ``` js
-// `URLListValidator` required from module `sap/base/security/URLListValidator`
+// URLListValidator required from module sap/base/security/URLListValidator
 
 URLListValidator.validate("http://www.sap.com"); // => true
 

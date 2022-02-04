@@ -26,7 +26,7 @@ Dynamic sorters are transformed to an OData `$orderby` system query option value
 **Example: Dynamic and static sorters**
 
 ```
-`#js`
+#js
 <Table growing="true" growingThreshold="5" id="Equipments"
     items="{
             path : '/Equipments',
@@ -37,7 +37,7 @@ Dynamic sorters are transformed to an OData `$orderby` system query option value
             },
             sorter : {                                      <-- dynamic sorter; can be overwritten by calling sort on the list binding
                 path : 'Category',
-                group : true                                <-- optional, see parameter `vGroup` of [sap.ui.model.Sorter](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Sorter/constructor)
+                group : true                                <-- optional, see parameter vGroup of sap.ui.model.Sorter
             }
         }">
 ```

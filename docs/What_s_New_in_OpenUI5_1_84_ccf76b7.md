@@ -153,7 +153,7 @@ The control now supports the badge feature. You can use it to indicate that some
 <tr>
 <td valign="top">
 
-`**sap.m.Input**`
+<code><b>sap.m.Input</b></code>
 
 We have introduced a new `valueHelpIconSrc` property. It allows you to set a custom value help icon, instead of the default one, by setting `sap.ui.core.URI` as value of the `valueHelpIconSrc` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Input/sample/sap.m.sample.InputCustomValueHelpIcon).
 

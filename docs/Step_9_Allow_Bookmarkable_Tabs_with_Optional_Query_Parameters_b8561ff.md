@@ -71,7 +71,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 				"name": "employee",
 				"target": "employee"
 			}, {
-				"pattern": "employees/{employeeId}/resume*HIGHLIGHT START*:?query:*HIGHLIGHT END*",
+				"pattern": "employees/{employeeId}/resume:?query:",
 				"name": "employeeResume",
 				"target": "employeeResume"
 			}],
@@ -109,8 +109,8 @@ The `:?query:` parameter starts and ends with "`:`", which means that it is opti
 				headerBackgroundDesign="Transparent"
 				class="sapUiResponsiveContentPadding"
 				binding="{Resume}"
-*HIGHLIGHT START*				select=".onTabSelect"
-				selectedKey="{view>/selectedTabKey}"*HIGHLIGHT END*>
+				select=".onTabSelect"
+				selectedKey="{view>/selectedTabKey}">
 				<items>
 					<IconTabFilter id="infoTab" text="{i18n>tabInfo}" key="Info">
 						<Text text="{Information}"/>
@@ -140,21 +140,21 @@ To update the currently selected tab in the URL we listen to the select event of
 
 ``` js
 sap.ui.define([
-	"sap/ui/demo/nav/controller/BaseController"*HIGHLIGHT START*,
+	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/json/JSONModel"
-*HIGHLIGHT END*
-], function (BaseController*HIGHLIGHT START*, JSONModel*HIGHLIGHT END*) {
+
+], function (BaseController, JSONModel) {
 	"use strict";
-	*HIGHLIGHT START*var _aValidTabKeys = ["Info", "Projects", "Hobbies", "Notes"];*HIGHLIGHT END*
+	var _aValidTabKeys = ["Info", "Projects", "Hobbies", "Notes"];
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.Resume", {
 		onInit: function () {
 			var oRouter = this.getRouter();
-			*HIGHLIGHT START*this.getView().setModel(new JSONModel(), "view");
-*HIGHLIGHT END*
+			this.getView().setModel(new JSONModel(), "view");
+
 			oRouter.getRoute("employeeResume").attachMatched(this._onRouteMatched, this);
 		},
 		_onRouteMatched: function (oEvent) {
-			var oArgs, oView*HIGHLIGHT START*, oQuery*HIGHLIGHT END*;
+			var oArgs, oView, oQuery;
 			oArgs = oEvent.getParameter("arguments");
 			oView = this.getView();
 			oView.bindElement({
@@ -168,7 +168,7 @@ sap.ui.define([
 						oView.setBusy(false);
 					}
 				}
-			});*HIGHLIGHT START*
+			});
 			oQuery = oArgs["?query"];
 			if (oQuery && _aValidTabKeys.indexOf(oQuery.tab) > -1){
 				oView.getModel("view").setProperty("/selectedTabKey", oQuery.tab);
@@ -181,14 +181,14 @@ sap.ui.define([
 					}
 				}, true /*no history*/);
 			}
-*HIGHLIGHT END*
+
 		},
 		_onBindingChange: function (oEvent) {
 			// No data for the binding
 			if (!this.getView().getBindingContext()) {
 				this.getRouter().getTargets().display("notFound");
 			}
-		}*HIGHLIGHT START*,
+		},
 		onTabSelect: function (oEvent){
 			var oCtx = this.getView().getBindingContext();
 			this.getRouter().navTo("employeeResume", {
@@ -198,7 +198,7 @@ sap.ui.define([
 				}
 			}, true /*without history*/);
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```

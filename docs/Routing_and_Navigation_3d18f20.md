@@ -54,7 +54,7 @@ You can use the following kinds of patterns:
 
 -   **Route with mandatory parameter**:
 
-    You can define mandatory parameters for the pattern by placing the parameter in curly brackets \(`{*parameter ID*}`\).
+    You can define mandatory parameters for the pattern by placing the parameter in curly brackets \(<code>{<i>parameter ID</i>}</code>\).
 
     For example, if you define the pattern `product/{id}`, the hashes ***product/5*** and ***product/3*** \(where 3 and 5 are product IDs\) match the pattern. The matched event handler gets `5` or `3` passed on with the key `id` in its arguments. But hash ***product/*** does not match the pattern because the mandatory parameter is missing.
 
@@ -62,7 +62,7 @@ You can use the following kinds of patterns:
 
 -   **Route with optional parameter**:
 
-    You can define optional parameters for the pattern by placing the parameter between colons \(`:*parameter ID*:`\).
+    You can define optional parameters for the pattern by placing the parameter between colons \(<code>:<i>parameter ID</i>:</code>\).
 
     For example, if you define a pattern `product/{id}/detail/:detailId:`, the `detailId` parameter is optional, whereas `id` is mandatory. Both hashes `product/5/detail` and `product/3/detail/2` match the pattern.
 

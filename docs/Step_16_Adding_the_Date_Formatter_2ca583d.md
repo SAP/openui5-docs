@@ -42,10 +42,10 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 			<form:SimpleForm>
 				<form:content>
 					<Label text="{i18n>postDateLabel}"/>
-					<Text text="*HIGHLIGHT START*{
+					<Text text="{
 						path: 'Timestamp',
 						formatter: '.formatter.date'
-					}*HIGHLIGHT END*"/>
+					}"/>
 					<Label text="{i18n>postDescriptionLabel}"/>
 					<Text text="{Description}"/>
 				</form:content>
@@ -64,18 +64,17 @@ On the *Info* tab we bind the date field to a format method `.formatter.date` of
 ### webapp/model/formatter.js
 
 ``` js
-sap.ui.define([ *HIGHLIGHT START*"sap/ui/demo/bulletinboard/model/DateFormatter"*HIGHLIGHT END* ], function (*HIGHLIGHT START*DateFormatter*HIGHLIGHT END*) {
-
+sap.ui.define([ "sap/ui/demo/bulletinboard/model/DateFormatter" ], function (DateFormatter) {
 	...
 	return {
 		...
 		numberUnit: function(sValue) {
 			...
-		}*HIGHLIGHT START*,
+		},
 		date: function(date) {
 			return new DateFormatter({now: Date.now}).format(date);
 		}
-*HIGHLIGHT END*
+
 	};
 });
 ```

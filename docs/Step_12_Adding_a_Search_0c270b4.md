@@ -51,8 +51,8 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
             <headerToolbar>
                <Toolbar>
                   <Label id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
-                  *HIGHLIGHT START*<ToolbarSpacer />
-                  <SearchField id="searchField" width="auto" search=".onFilterPosts" />*HIGHLIGHT END*
+                  <ToolbarSpacer />
+                  <SearchField id="searchField" width="auto" search=".onFilterPosts" />
                </Toolbar>
             </headerToolbar>
 ...
@@ -70,11 +70,11 @@ sap.ui.define([
 	'sap/ui/model/json/JSONModel',
 	'../model/formatter',
 	'../model/FlaggedType',
-	'sap/m/library'*HIGHLIGHT START*,
+	'sap/m/library',
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"*HIGHLIGHT END*
+	"sap/ui/model/FilterOperator"
 
-], function (BaseController, JSONModel, formatter, FlaggedType, mobileLibrary*HIGHLIGHT START*, Filter, FilterOperator*HIGHLIGHT END*) {
+], function (BaseController, JSONModel, formatter, FlaggedType, mobileLibrary, Filter, FilterOperator) {
 	"use strict";
 ...
 		onUpdateFinished: function (oEvent) {
@@ -92,7 +92,7 @@ sap.ui.define([
 			this.getModel("worklistView").setProperty("/worklistTableTitle", sTitle);
 		},
 
-		*HIGHLIGHT START*onFilterPosts: function (oEvent) {
+		onFilterPosts: function (oEvent) {
 
 			// build filter array
 			var aFilter = [];
@@ -106,7 +106,7 @@ sap.ui.define([
 			var oBinding = oTable.getBinding("items");
 			oBinding.filter(aFilter);
 		},
-*HIGHLIGHT END*
+
 ...
 ```
 

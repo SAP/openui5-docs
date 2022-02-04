@@ -47,7 +47,7 @@ The OpenUI5 framework now allows you to run applications in an environment in wh
 <tr>
 <td valign="top">
 
-`**`sap.m.SinglePlanningCalendar`**`
+<code><b><code>sap.m.SinglePlanningCalendar</code></b></code>
 
 The `sap.m.SinglePlanningCalendar` is a new control designed to display the schedule of a single resource. It can display three types of time intervals - a single day, a work week, or a full week. You can add custom actions to facilitate the interaction with the control.
 

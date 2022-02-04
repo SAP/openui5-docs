@@ -35,7 +35,7 @@ Additionally, you can use the synchronous method `ODataPropertyBinding.getValueL
 **Example: Retrieving the value list type for a property**
 
 ```
-`#js`   
+#js   
        onModelContextChange : function (oEvent) {
         var oBinding = this.getBinding("value");
  

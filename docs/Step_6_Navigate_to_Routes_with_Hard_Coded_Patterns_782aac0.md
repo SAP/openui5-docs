@@ -53,7 +53,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 	<Page title="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
 		<content>
 			<Button id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press=".onDisplayNotFound" class="sapUiTinyMarginEnd"/>
-			*HIGHLIGHT START*<Button id="employeeListBtn" text="{i18n>ShowEmployeeList}" press=".onNavToEmployees" class="sapUiTinyMarginEnd"/>*HIGHLIGHT END*
+			<Button id="employeeListBtn" text="{i18n>ShowEmployeeList}" press=".onNavToEmployees" class="sapUiTinyMarginEnd"/>
 		</content>
 	</Page>
 ```
@@ -75,11 +75,11 @@ sap.ui.define([
 			this.getRouter().getTargets().display("notFound", {
 				fromTarget : "home"
 			});
-		}*HIGHLIGHT START*,
+		},
 		onNavToEmployees : function (){
 			this.getRouter().navTo("employeeList");
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -118,11 +118,11 @@ The new event handler `onNavToEmployees` calls `navTo("employeeList")` on the ro
 				"pattern": "",
 				"name": "appHome",
 				"target": "home"
-			}*HIGHLIGHT START*, {
+			}, {
 				"pattern": "employees",
 				"name": "employeeList",
 				"target": "employees"
-			}*HIGHLIGHT END*],
+			}],
 			"targets": {
 				"home": {
 					"id": "home",
@@ -133,14 +133,14 @@ The new event handler `onNavToEmployees` calls `navTo("employeeList")` on the ro
 					"id": "notFound",
 					"name": "NotFound",
 					"transition": "show"
-				}*HIGHLIGHT START*,
+				},
 				"employees": {
 					"id": "employeeList",
 					"path": "sap.ui.demo.nav.view.employee",
 					"name": "EmployeeList",
 					"level" : 2
 				}
-*HIGHLIGHT END*
+
 			}
 		}
 	}
@@ -165,7 +165,7 @@ Setting the `level` to `2` helps the router to determine how to animate the \(in
 ### webapp/view/employee/EmployeeList.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.EmployeeList"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -186,7 +186,7 @@ Setting the `level` to `2` helps the router to determine how to animate the \(in
 			</List>
 		</content>
 	</Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We now create a subfolder `employee` below `webapp/view` and a file `EmployeeList.view.xml`.
@@ -202,13 +202,13 @@ This view can be referenced by `sap.ui.demo.nav.view.employee.EmployeeList`.
 ### webapp/controller/employee/EmployeeList.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.EmployeeList", {
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Finally, we will add a new controller. Create a subfolder `employee` inside `webapp/controller` folder and place the file `EmployeeList.controller.js` there. As you can see, the folder structure of the controllers is in sync with the folder structure of the views.
@@ -218,10 +218,10 @@ Finally, we will add a new controller. Create a subfolder `employee` inside `web
 ### webapp/i18n/i18n.properties
 
 ``` prefs
-*HIGHLIGHT START*...
+...
 ShowEmployeeList=Show Employee List
 EmployeeList=Employee List
-ListOfAllEmployees=List of all employees*HIGHLIGHT END*
+ListOfAllEmployees=List of all employees
 ```
 
 Add the new texts to the `i18n.properties` file.

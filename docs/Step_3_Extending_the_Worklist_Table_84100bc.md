@@ -42,9 +42,9 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 3](h
 		sorter: {
 			path: 'ProductName',
 			descending: false
-		}*HIGHLIGHT START*,
+		},
 		parameters: {
-			'expand': 'Supplier'*HIGHLIGHT END*
+			'expand': 'Supplier'
 		}
 	}"
 	noDataText="{worklistView>/tableNoDataText}"
@@ -98,7 +98,7 @@ We expand the supplier because we want to avoid sending one additional request f
         <Property Name="Discontinued" Type="Edm.Boolean" Nullable="false"/>
         <NavigationProperty Name="Category" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Products" ToRole="Categories"/>
         <NavigationProperty Name="Order_Details" Relationship="NorthwindModel.FK_Order_Details_Products" FromRole="Products" ToRole="Order_Details"/>
-        *HIGHLIGHT START*<NavigationProperty Name="Supplier" Relationship="NorthwindModel.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers"/>*HIGHLIGHT END*
+        <NavigationProperty Name="Supplier" Relationship="NorthwindModel.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers"/>
     </EntityType>
 ```
 
@@ -113,7 +113,7 @@ When using a real OData service, the interface would be available by calling the
 ``` xml
 …
 <columns>
-*HIGHLIGHT START*	<Column id="nameColumn">
+	<Column id="nameColumn">
 		<Text
 			id="nameColumnTitle"
 			text="{i18n>TableNameColumnTitle}"/>
@@ -142,7 +142,7 @@ When using a real OData service, the interface would be available by calling the
 		id="unitsInStockColumn"
 		hAlign="End">
 		<Text text="{i18n>TableUnitsInStockColumnTitle}"/>
-	</Column>*HIGHLIGHT END*
+	</Column>
 </columns>
 …
 ```
@@ -180,18 +180,18 @@ Let's have a detailed look at the columns:
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/core/library"*HIGHLIGHT END*
-] , function (*HIGHLIGHT START*coreLibrary*HIGHLIGHT END*) {
+	"sap/ui/core/library"
+] , function (coreLibrary) {
     "use strict";
 
-*HIGHLIGHT START*	// shortcut for sap.ui.core.ValueState
+	// shortcut for sap.ui.core.ValueState
 	var ValueState = coreLibrary.ValueState;
-*HIGHLIGHT END*
+
 
 	return {
 
 		...
-		}*HIGHLIGHT START*,
+		},
 
 		/**
 		 * Defines a value state based on the stock level
@@ -209,7 +209,7 @@ sap.ui.define([
 				return ValueState.Success;
 			}
 		}
-*HIGHLIGHT END*
+
 
 	};
 
@@ -239,7 +239,7 @@ We add a new formatter function `quantityState` to the `webapp/model/formatter.j
         type="Navigation"
         press="onPress">
         <cells>
-         *HIGHLIGHT START*<ObjectIdentifier
+         <ObjectIdentifier
             title="{ProductName}"/>
          <Text text = "{Supplier/CompanyName}"/>
          <ObjectNumber
@@ -258,7 +258,7 @@ We add a new formatter function `quantityState` to the `webapp/model/formatter.j
                path: 'UnitsInStock',
                formatter: '.formatter.quantityState'
             }"/>
-*HIGHLIGHT END*
+
       </cells>
    </ColumnListItem>
 </items>
@@ -287,7 +287,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 #XTIT: The title of the column containing Product name
 TableProductColumnTitle=Product
 
-*HIGHLIGHT START*#XTIT: The title of the column containing Supplier name
+#XTIT: The title of the column containing Supplier name
 TableSupplierColumnTitle=Supplier
 
 #XTIT: The title of the column containing Price
@@ -298,7 +298,7 @@ TableUnitsOrderedColumnTitle=Units Ordered
 
 #XTIT: The title of the column containing Units in Stock
 TableUnitsInStockColumnTitle=Units in Stock
-*HIGHLIGHT END*
+
 
 #XBLI: Text for a table with no data
 tableNoDataText=No products are currently available

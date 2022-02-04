@@ -29,7 +29,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 You can view and download all files at [Walkthrough - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.01/preview).
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -39,7 +39,7 @@ You can view and download all files at [Walkthrough - Step 1](https://openui5.ha
 	<div>Hello World</div>
 </body>
 </html>
-*HIGHLIGHT END*
+
 
 ```
 

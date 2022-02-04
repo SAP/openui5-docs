@@ -42,10 +42,10 @@ You can view and download all files at [OData V4 - Step 2](https://openui5.hana.
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	*HIGHLIGHT START*"sap/m/MessageToast",
-	"sap/m/MessageBox",*HIGHLIGHT END*
+	"sap/m/MessageToast",
+	"sap/m/MessageBox",
 	"sap/ui/model/json/JSONModel"
-], function (Controller, *HIGHLIGHT START*MessageToast, MessageBox,*HIGHLIGHT END* JSONModel) {
+], function (Controller, MessageToast, MessageBox, JSONModel) {
 	"use strict";
 
 	return Controller.extend("sap.ui.core.tutorial.odatav4.controller.App", {
@@ -56,7 +56,7 @@ sap.ui.define([
 			};
 			var oModel = new JSONModel(oJSONData);
 			this.getView().setModel(oModel, "appView");
-		}*HIGHLIGHT START*,
+		},
 
 		onRefresh : function () {
 			var oBinding = this.byId("peopleList").getBinding("items");
@@ -72,7 +72,7 @@ sap.ui.define([
 		_getText : function (sTextId, aArgs) {
 			return this.getOwnerComponent().getModel("i18n").getResourceBundle().getText(sTextId, aArgs);
 
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -101,7 +101,7 @@ We also add the private method `_getText` to retrieve translatable texts from th
 			items="{
 				path: '/People'
 			}">
-*HIGHLIGHT START*			<headerToolbar>
+			<headerToolbar>
 				<OverflowToolbar>
 					<content>
 						<ToolbarSpacer/>
@@ -113,7 +113,7 @@ We also add the private method `_getText` to retrieve translatable texts from th
 						</content>
 					</OverflowToolbar>
 				</headerToolbar>
-*HIGHLIGHT END*
+
 				<columns>
 ...
 ```
@@ -130,19 +130,19 @@ We add the `headerToolbar` with a single `Button` to the `Table`. The button has
 # App Descriptor
 ...
 
-*HIGHLIGHT START*# Toolbar
+# Toolbar
 #XTOL: Tooltip for refresh data
-refreshButtonText=Refresh Data*HIGHLIGHT END*
+refreshButtonText=Refresh Data
 
 # Table Area
 ...
 
-*HIGHLIGHT START*# Messages
+# Messages
 #XMSG: Message for refresh failed
 refreshNotPossibleMessage=Before refreshing, please save or revert your changes
 
 #XMSG: Message for refresh succeeded
-refreshSuccessMessage=Data refreshed*HIGHLIGHT END*
+refreshSuccessMessage=Data refreshed
 ```
 
 We add the tooltip and message texts to the `properties` file.

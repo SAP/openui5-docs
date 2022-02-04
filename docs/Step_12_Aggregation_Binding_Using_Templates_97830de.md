@@ -49,10 +49,10 @@ sap.ui.require([
 
 	// Attach an anonymous function to the SAPUI5 'init' event
 	sap.ui.getCore().attachInit(function () {
-*HIGHLIGHT START*		var oProductModel = new JSONModel();
+		var oProductModel = new JSONModel();
 		oProductModel.loadData("./model/Products.json");
 		sap.ui.getCore().setModel(oProductModel, "products");
-*HIGHLIGHT END*
+
 
 		var oModel = new JSONModel({
 			firstName: "Harry",
@@ -113,7 +113,7 @@ sap.ui.require([
 			</l:HorizontalLayout>
 		</content>
 	</Panel>
-*HIGHLIGHT START*	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
 			<items>
 				<ObjectListItem title="{products>ProductName}"
@@ -141,7 +141,7 @@ sap.ui.require([
 				</ObjectListItem>
 			</items>
 		</List>
-	</Panel>*HIGHLIGHT END*
+	</Panel>
 ...
 ```
 
@@ -154,12 +154,12 @@ We add a new panel to the view.
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-*HIGHLIGHT START*	"sap/m/library",
+	"sap/m/library",
 	"sap/ui/core/Locale",
 	"sap/ui/core/LocaleData",
 	"sap/ui/model/type/Currency"
-*HIGHLIGHT END*
-], function (Controller, mobileLibrary*HIGHLIGHT START*, Locale, LocaleData, Currency*HIGHLIGHT END*) {
+
+], function (Controller, mobileLibrary, Locale, LocaleData, Currency) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.db.controller.App", {
 		formatMail: function(sFirstName, sLastName) {
@@ -168,14 +168,14 @@ sap.ui.define([
 				sFirstName + "." + sLastName + "@example.com",
 				oBundle.getText("mailSubject", [sFirstName]),
 				oBundle.getText("mailBody"));
-		}*HIGHLIGHT START*,
+		},
 		formatStockValue: function(fUnitPrice, iStockLevel, sCurrCode) {
 			var sBrowserLocale = sap.ui.getCore().getConfiguration().getLanguage();
 			var oLocale = new Locale(sBrowserLocale);
 			var oLocaleData = new LocaleData(oLocale);
 			var oCurrency = new Currency(oLocaleData.mData.currencyFormat);
 			return oCurrency.formatValue([fUnitPrice * iStockLevel, sCurrCode], "string");
-*HIGHLIGHT END*
+
 		}
 	});
 });
@@ -187,7 +187,7 @@ sap.ui.define([
 ### webapp/model/Products.json \(New\)
 
 ``` js
-*HIGHLIGHT START*{ "Products": [ {
+{ "Products": [ {
      "ProductID": 1,
      "ProductName": "Chai",
      "SupplierID": 1,
@@ -243,7 +243,7 @@ sap.ui.define([
      "ReorderLevel": 0,
      "Discontinued": true
     }]
-  }*HIGHLIGHT END*
+  }
 ```
 
 We now use a new JSON model file for product data.
@@ -257,7 +257,7 @@ We now use a new JSON model file for product data.
 # Screen titles
 panel1HeaderText=Data Binding Basics
 panel2HeaderText=Address Details
-*HIGHLIGHT START*panel3HeaderText=Aggregation Binding*HIGHLIGHT END*
+panel3HeaderText=Aggregation Binding
 
 # Invoice List
 invoiceListTitle=Invoices
@@ -265,9 +265,9 @@ statusA=New
 statusB=In Progress
 statusC=Done
 
-*HIGHLIGHT START*# Product list
+# Product list
 productListTitle=Product List
-stockValue=Current Stock Value*HIGHLIGHT END*
+stockValue=Current Stock Value
 ```
 
 ***
@@ -279,7 +279,7 @@ stockValue=Current Stock Value*HIGHLIGHT END*
 # Screen titles
 panel1HeaderText=Data Binding Basics
 panel2HeaderText=Adressdetails
-*HIGHLIGHT START*panel3HeaderText=Aggregation Binding*HIGHLIGHT END*
+panel3HeaderText=Aggregation Binding
 
 # Invoice List
 invoiceListTitle=Rechnungen
@@ -287,9 +287,9 @@ statusA=Neu
 statusB=Laufend
 statusC=Abgeschlossen
 
-*HIGHLIGHT START*# Product list
+# Product list
 productListTitle=Artikelliste
-stockValue=Lagerbestand Wert*HIGHLIGHT END*
+stockValue=Lagerbestand Wert
 ```
 
 We add the missing texts.

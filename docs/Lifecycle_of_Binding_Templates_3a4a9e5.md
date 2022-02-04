@@ -17,7 +17,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
 ``` xml
 <Table id="EmployeeEquipments" headerText="Employee Equipments" items="{
     path: 'EMPLOYEE_2_EQUIPMENTS',
-    *HIGHLIGHT START*templateShareable: false*HIGHLIGHT END*
+    templateShareable: false
 }">
     <columns>
         <!-- ... -->
@@ -37,7 +37,7 @@ In **XML views**, you can also use the `templateShareable` property by adding it
                 <!-- Name="PRODUCT_2_CATEGORY" Type="Collection(...)" -->
                 <List items="{
                     path: 'EQUIPMENT_2_PRODUCT/PRODUCT_2_CATEGORY',
-                    *HIGHLIGHT START*templateShareable: true*HIGHLIGHT END*
+                    templateShareable: true
                 }">
                     <StandardListItem title="{CategoryName}"/>
                 </List>

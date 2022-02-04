@@ -21,7 +21,7 @@ sap.ui.define(['sap/ui/core/UIComponent'],
 	function(UIComponent) {
 	"use strict";
 
-	var Component = UIComponent.extend(*HIGHLIGHT START*"samples.components.sample.Component"*HIGHLIGHT END*, {
+	var Component = UIComponent.extend("samples.components.sample.Component", {
 		metadata : {
 			interfaces: [
 				"sap.ui.core.IAsyncContentCreation" 

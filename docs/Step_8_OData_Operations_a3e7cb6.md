@@ -45,7 +45,7 @@ You can view and download all files at [OData V4 - Step 8](https://openui5.hana.
 			this._setUIChanges();
 		},
 
-		*HIGHLIGHT START*onResetDataSource : function () {
+		onResetDataSource : function () {
 			var oModel = this.getView().getModel(),
 				oOperation = oModel.bindContext("/ResetDataSource(...)");
 
@@ -56,7 +56,7 @@ You can view and download all files at [OData V4 - Step 8](https://openui5.hana.
 					MessageBox.error(oError.message);
 				}
 			);
-		},*HIGHLIGHT END*
+		},
 
 		onSave : function () {
 ...
@@ -88,7 +88,7 @@ The execution is asynchronous, therefore the execute method returns a `Promise`.
 		<App busy="{appView>/busy}" class="sapUiSizeCompact">
 			<pages>
 				<Page title="{i18n>peoplePageTitle}">
-*HIGHLIGHT START*					<headerContent>
+					<headerContent>
 						<Button
 							id="resetChangesButton"
 							text="{i18n>resetChangesButtonText}"
@@ -96,7 +96,7 @@ The execution is asynchronous, therefore the execute method returns a `Promise`.
 							press="onResetDataSource"
 							type="Emphasized">
 						</Button>
-					</headerContent>*HIGHLIGHT END*
+					</headerContent>
 ...
 ```
 
@@ -112,13 +112,13 @@ We add the **headerContent** aggregation to the **Page** and insert the new **Bu
 ...
 # Toolbar
 ...
-*HIGHLIGHT START*#XBUT: Button text for reset changes
-resetChangesButtonText=Restart Tutorial*HIGHLIGHT END*
+#XBUT: Button text for reset changes
+resetChangesButtonText=Restart Tutorial
 ...
 # Messages
 ...
-*HIGHLIGHT START*#XMSG: Message for changes reverted
-sourceResetSuccessMessage=All changes reverted back to start*HIGHLIGHT END*
+#XMSG: Message for changes reverted
+sourceResetSuccessMessage=All changes reverted back to start
 ```
 
 We add the missing texts to the properties file.

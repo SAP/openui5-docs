@@ -41,16 +41,16 @@ You can view and download all files at [Flexible Column Layout App - Step 7](htt
 
 ``` xml
 <mvc:View
-*HIGHLIGHT START*	controllerName="sap.ui.demo.fiori2.controller.App"*HIGHLIGHT END*
+	controllerName="sap.ui.demo.fiori2.controller.App"
 	displayBlock="true"
 	height="100%"
 	xmlns="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
-*HIGHLIGHT START*	<FlexibleColumnLayout
+	<FlexibleColumnLayout
 		id="flexibleColumnLayout"
 		stateChange=".onStateChanged"
 		backgroundDesign="Solid"
-		layout="{/layout}"/>*HIGHLIGHT END*
+		layout="{/layout}"/>
 </mvc:View>
 ```
 
@@ -63,7 +63,7 @@ We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(
 ### webapp/controller/App.controller.js \[NEW\]
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"
 ], function (JSONModel, Controller) {
@@ -99,7 +99,7 @@ We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(
 			this.oRouter.detachRouteMatched(this.onRouteMatched, this);
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We access the router and bind to its `routeMatched` event. For more information, see [Router](Router_c6da1a5.md).
@@ -127,7 +127,7 @@ sap.ui.define([
 			this.oView = this.getView();
 			this._bDescendingSort = false;
 			this.oProductsTable = this.oView.byId("productsTable");
-*HIGHLIGHT START*			this.oRouter = this.getOwnerComponent().getRouter();*HIGHLIGHT END*
+			this.oRouter = this.getOwnerComponent().getRouter();
 		},
 
 		onSearch: function (oEvent) {
@@ -157,11 +157,11 @@ sap.ui.define([
 			oBinding.sort(oSorter);
 		},
 
-		onListItemPress: function (*HIGHLIGHT START*oEvent*HIGHLIGHT END*) {
-*HIGHLIGHT START*			var productPath = oEvent.getSource().getBindingContext("products").getPath(),
-				product = productPath.split("/").slice(-1).pop();*HIGHLIGHT END*
+		onListItemPress: function (oEvent) {
+			var productPath = oEvent.getSource().getBindingContext("products").getPath(),
+				product = productPath.split("/").slice(-1).pop();
 
-*HIGHLIGHT START*			this.oRouter.navTo("detail", {layout: fioriLibrary.LayoutType.TwoColumnsMidExpanded, product: product});*HIGHLIGHT END*
+			this.oRouter.navTo("detail", {layout: fioriLibrary.LayoutType.TwoColumnsMidExpanded, product: product});
 		}
 	});
 });
@@ -182,7 +182,7 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.Detail", {
-*HIGHLIGHT START*		onInit: function () {
+		onInit: function () {
 			var oOwnerComponent = this.getOwnerComponent();
 
 			this.oRouter = oOwnerComponent.getRouter();
@@ -198,19 +198,19 @@ sap.ui.define([
 				path: "/ProductCollection/" + this._product,
 				model: "products"
 			});
-		},*HIGHLIGHT END*
+		},
 
 		onEditToggleButtonPress: function() {
 			var oObjectPage = this.getView().byId("ObjectPageLayout"),
 				bCurrentShowFooterState = oObjectPage.getShowFooter();
 
 			oObjectPage.setShowFooter(!bCurrentShowFooterState);
-		}*HIGHLIGHT START*,
+		},
 
 		onExit: function () {
 			this.oRouter.getRoute("master").detachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detail").detachPatternMatched(this._onProductMatched, this);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -226,9 +226,9 @@ We bind the table in the detail view to reflect the currently selected product f
 ``` js
 sap.ui.define([
 	'sap/ui/core/UIComponent',
-	'sap/ui/model/json/JSONModel'*HIGHLIGHT START*,
-	'sap/f/library'*HIGHLIGHT END*
-], function(UIComponent, JSONModel*HIGHLIGHT START*, fioriLibrary*HIGHLIGHT END*) {
+	'sap/ui/model/json/JSONModel',
+	'sap/f/library'
+], function(UIComponent, JSONModel, fioriLibrary) {
 	'use strict';
 
 	return UIComponent.extend('sap.ui.demo.fiori2.Component', {
@@ -238,21 +238,21 @@ sap.ui.define([
 		},
 
 		init: function () {
-*HIGHLIGHT START*			var oModel,
+			var oModel,
 				oProductsModel,
-				oRouter;*HIGHLIGHT END*
+				oRouter;
 
 			UIComponent.prototype.init.apply(this, arguments);
 
-*HIGHLIGHT START*			oModel = new JSONModel();
-			this.setModel(oModel);*HIGHLIGHT END*
+			oModel = new JSONModel();
+			this.setModel(oModel);
 
 			// set products demo model on this sample
 			oProductsModel = new JSONModel(sap.ui.require.toUrl('sap/ui/demo/mock') + '/products.json');
 			oProductsModel.setSizeLimit(1000);
 			this.setModel(oProductsModel, 'products');
 
-*HIGHLIGHT START*			oRouter = this.getRouter();
+			oRouter = this.getRouter();
 			oRouter.attachBeforeRouteMatched(this._onBeforeRouteMatched, this);
 			oRouter.initialize();
 		},
@@ -266,7 +266,7 @@ sap.ui.define([
 				sLayout = fioriLibrary.LayoutType.OneColumn;
 			}
 
-			oModel.setProperty("/layout", sLayout);*HIGHLIGHT END*
+			oModel.setProperty("/layout", sLayout);
 		}
 	});
 });
@@ -308,7 +308,7 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 		},
 		"config": {
 			"fullWidth": true
-		}*HIGHLIGHT START*,
+		},
 		"routing": {
 			"config": {
 				"routerClass": "sap.f.routing.Router",
@@ -349,7 +349,7 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 					"controlAggregation": "midColumnPages"
 				}
 			}
-		}*HIGHLIGHT END*
+		}
 	}
 }
 ```

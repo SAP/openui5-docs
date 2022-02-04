@@ -48,7 +48,7 @@ You can view and download all files at [OData V4 - Step 10](https://openui5.hana
 			var oDetailArea = this.byId("detailArea"),
 				oLayout = this.byId("defaultLayout"),
 				oUserContext = oEvent.getParameters().listItem.getBindingContext();
-*HIGHLIGHT START*				oOldContext = oDetailArea.getBindingContext(),
+				oOldContext = oDetailArea.getBindingContext(),
 				oSearchField = this.byId("searchField"),
 
 
@@ -56,10 +56,10 @@ You can view and download all files at [OData V4 - Step 10](https://openui5.hana
 			if (oOldContext) {
 				oOldContext.setKeepAlive(false);
 			}
-*HIGHLIGHT END*
+
 			// set binding
 			oDetailArea.setBindingContext(oUserContext);
-*HIGHLIGHT START*			// set keepAlive for new context
+			// set keepAlive for new context
 			oUserContext.setKeepAlive(true, function () {
 				// hides detail area when context is destroyed
 				oLayout.setSize("100%");
@@ -67,12 +67,12 @@ You can view and download all files at [OData V4 - Step 10](https://openui5.hana
 				oDetailArea.setVisible(false);
 				oSearchField.setWidth("20%");
 			});
-*HIGHLIGHT END*
+
 			// resize view
 			oDetailArea.setVisible(true);
 			oLayout.setSize("60%");
 			oLayout.setResizable(true);
-*HIGHLIGHT START*			oSearchField.setWidth("40%");*HIGHLIGHT END*
+			oSearchField.setWidth("40%");
 		},
 
 ...

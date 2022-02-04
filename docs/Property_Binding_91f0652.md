@@ -66,7 +66,7 @@ If you are working with **XML views**, make sure that you've turned on complex b
 	id="sap-ui-bootstrap"
 	src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
-	*HIGHLIGHT START*data-sap-ui-bindingSyntax="complex"*HIGHLIGHT END*
+	data-sap-ui-bindingSyntax="complex"
 	data-sap-ui-async="true"
 	data-sap-ui-onInit="module:sap/ui/sample/main"
 	data-sap-ui-resourceRoots='{"sap.ui.sample": "./"}'>
@@ -183,7 +183,7 @@ The `this` context of a formatter function is generally set to the control \(or 
 	<Input
 		value="{ 
 			path:'/company/revenue',
-			formatter: '*HIGHLIGHT START*.*HIGHLIGHT END*roundToMillion'
+			formatter: '.roundToMillion'
 		}"/>
 </mvc:View>
 ```

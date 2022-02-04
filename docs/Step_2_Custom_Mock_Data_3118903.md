@@ -52,7 +52,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 #### webapp/localService/mockdata/Products.json \[NEW\]
 
 ``` js
-*HIGHLIGHT START*[
+[
   {
     "ProductID": 1,
     "ProductName": "Chai",
@@ -249,7 +249,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
       }
     }
   }
-]*HIGHLIGHT END*
+]
 ```
 
 First create a new `mockdata` folder inside `webapp/localService`. Create a `Products.json` file, and copy and paste the code.
@@ -259,7 +259,7 @@ First create a new `mockdata` folder inside `webapp/localService`. Create a `Pro
 #### webapp/localService/mockdata/Suppliers.json \[NEW\]
 
 ``` js
-*HIGHLIGHT START*[
+[
   {
     "SupplierID": 1,
     "CompanyName": "New Orleans Cajun Delights",
@@ -338,7 +338,7 @@ First create a new `mockdata` folder inside `webapp/localService`. Create a `Pro
     "Country": "Italy"
   }
 ]
-*HIGHLIGHT END*
+
 ```
 
 Create a `Suppliers.json` file, and copy and paste the code.

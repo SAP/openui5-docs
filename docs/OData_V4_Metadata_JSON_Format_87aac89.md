@@ -24,7 +24,7 @@ We have prefixed constant property names with `"$"` as this is a legal first cha
 
 We assume that schema **aliases** have been resolved. We add a trailing dot after a schema's namespace, meaning qualified name "A.B" cannot clash with schema namespace "A.B.", for example. This trailing dot is also present for `"$Include"`, `"$TermNamespace"` and `"$TargetNamespace"` values.
 
-`**$kind**` has been added to each object with a \(qualified\) OData name and to almost each object which can be annotated via external targeting, but not to enum members. Actions and functions are arrays of overloads and `$kind` has been added to each overload.
+<code><b>$kind</b></code> has been added to each object with a \(qualified\) OData name and to almost each object which can be annotated via external targeting, but not to enum members. Actions and functions are arrays of overloads and `$kind` has been added to each overload.
 
 We assume each **enum member** has a value via the fallback rule "If no values are specified, the members are assigned consecutive integer values in the order of their appearance, starting with zero for the first member."
 

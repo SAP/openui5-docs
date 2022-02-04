@@ -36,7 +36,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 ### webapp/model/FlaggedType.js \(new\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/model/SimpleType"
 ], function (SimpleType) {
 	"use strict";
@@ -48,7 +48,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 		validateValue: function () {
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We plan to control a button state based on the `Flagged` property in the model. The button expects a Boolean value for the pressed state. In the model, we have a binary integer representation, so we will again need conversion logic to format the model value. And we also need a back conversion to store a state change in the model when the user clicks the button.
@@ -67,7 +67,7 @@ A formatter function will only take care of one direction so this time we decide
 ### webapp/test/unit/model/FlaggedType.js \(new\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.require(
+sap.ui.require(
 	[
 		"sap/ui/demo/bulletinboard/model/FlaggedType"
 	],
@@ -103,7 +103,7 @@ A formatter function will only take care of one direction so this time we decide
 			assert.strictEqual(iParsedValue, 1, "The parsing conversion matched the input");
 		});
 	}
-);*HIGHLIGHT END*
+);
 ```
 
 The new `FlaggedType.js` file matches the file name of the implementation and is put in the `model` subfolder of the `test/unit` folder similar to the implementation under the `webapp` folder. By keeping the same structure for tests and productive code, we can easily relate the tests to the implementation.
@@ -130,9 +130,9 @@ The other test cases in the parsing module are similar and check the back conver
 ``` js
 sap.ui.define([
 	"./model/models",
-	"./model/formatter"*HIGHLIGHT START*,
+	"./model/formatter",
 	"./model/FlaggedType"
-*HIGHLIGHT END*
+
 ], function() {
 	"use strict";
 });

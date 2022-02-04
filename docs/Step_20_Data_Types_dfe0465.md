@@ -30,7 +30,7 @@ You can view and download all files at [Walkthrough - Step 20](https://openui5.h
 
 ``` xml
 <mvc:View
-   *HIGHLIGHT START*controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"*HIGHLIGHT END*
+   controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <List
@@ -41,14 +41,14 @@ You can view and download all files at [Walkthrough - Step 20](https://openui5.h
       <items>
          <ObjectListItem
 		title="{invoice>Quantity} x {invoice>ProductName}"
-		*HIGHLIGHT START*number="{
+		number="{
 			parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}],
 			type: 'sap.ui.model.type.Currency',
 			formatOptions: {
 				showMeasure: false
 			}
 		}"
-		numberUnit="{view>/currency}"*HIGHLIGHT END*/>
+		numberUnit="{view>/currency}"/>
 	</items>
    </List>
 </mvc:View>
@@ -67,7 +67,7 @@ Additionally, we set the formatting option `showMeasure` to `false`. This hides 
 ### webapp/controller/InvoiceList.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel"
 ], function (Controller, JSONModel) {
@@ -83,7 +83,7 @@ Additionally, we set the formatting option `showMeasure` to `false`. This hides 
 		}
 
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 To be able to access the currency code that is not part of our data model, we define a view model in the controller of the invoice list. It is a simple JSON model with just one key `currency` and the value `EUR`. This can be bound to the formatter of the number field. View models can hold any configuration options assigned to a control to bind properties such as the visibility.

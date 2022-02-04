@@ -29,7 +29,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 You can view and download all files at [Walkthrough - Step 33](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.33/preview).
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/Control"
 ], function (Control) {
 	"use strict";
@@ -41,7 +41,7 @@ You can view and download all files at [Walkthrough - Step 33](https://openui5.h
 		renderer : function (oRM, oControl) {
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We create a new folder `control` and a file `ProductRating.js` that will hold our new control. As with our controllers and views, the custom control inherits the common control functionality from a OpenUI5 base object, for controls this is done by extending the base class `sap.ui.core.Control`.
@@ -60,15 +60,15 @@ The `init` method is a special function that is called by the OpenUI5 core whene
 ``` js
 sap.ui.define([
 	"sap/ui/core/Control",
-	*HIGHLIGHT START*"sap/m/RatingIndicator",
+	"sap/m/RatingIndicator",
 	"sap/m/Label",
 	"sap/m/Button"
-*HIGHLIGHT END*
-], function (Control*HIGHLIGHT START*, RatingIndicator, Label, Button*HIGHLIGHT END*) {
+
+], function (Control, RatingIndicator, Label, Button) {
 	"use strict";
 	return Control.extend("sap.ui.demo.walkthrough.control.ProductRating", {
 		metadata : {
-*HIGHLIGHT START*			properties : {
+			properties : {
 				value: 	{type : "float", defaultValue : 0}
 			},
 			aggregations : {
@@ -82,9 +82,9 @@ sap.ui.define([
 						value : {type : "int"}
 					}
 				}
-			}*HIGHLIGHT END*
+			}
 		},
-*HIGHLIGHT START*		init : function () {
+		init : function () {
 			this.setAggregation("_rating", new RatingIndicator({
 				value: this.getValue(),
 				iconSize: "2rem",
@@ -134,15 +134,15 @@ sap.ui.define([
 			this.fireEvent("change", {
 				value: this.getValue()
 			});
-		},*HIGHLIGHT END*
-		renderer : function (oRm, oControl) {*HIGHLIGHT START*
+		},
+		renderer : function (oRm, oControl) {
 			oRm.openStart("div", oControl);
 			oRm.class("myAppDemoWTProductRating");
 			oRm.openEnd();
 			oRm.renderControl(oControl.getAggregation("_rating"));
 			oRm.renderControl(oControl.getAggregation("_label"));
 			oRm.renderControl(oControl.getAggregation("_button"));
-			oRm.close("div");*HIGHLIGHT END*
+			oRm.close("div");
 		}
 	});
 });
@@ -206,7 +206,7 @@ We define the `reset` method to be able to revert the state of the control on th
 	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-	*HIGHLIGHT START*xmlns:wt="sap.ui.demo.walkthrough.control"*HIGHLIGHT END*>
+	xmlns:wt="sap.ui.demo.walkthrough.control">
 	<Page
 		title="{i18n>detailPageTitle}"
 		showNavButton="true"
@@ -214,7 +214,7 @@ We define the `reset` method to be able to revert the state of the control on th
 		<ObjectHeader
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
-		*HIGHLIGHT START*<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>*HIGHLIGHT END*
+		<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
 	</Page>
 </mvc:View>
 
@@ -230,15 +230,15 @@ A new namespace `wt` is defined on the detail view so that we can reference our 
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
-*HIGHLIGHT START*	"sap/m/MessageToast"
-*HIGHLIGHT END*
-], function (Controller, History*HIGHLIGHT START*, MessageToast*HIGHLIGHT END*) {
+	"sap/m/MessageToast"
+
+], function (Controller, History, MessageToast) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
 		…
 		_onObjectMatched: function (oEvent) {
-*HIGHLIGHT START*			this.byId("rating").reset();*HIGHLIGHT END*
+			this.byId("rating").reset();
 			this.getView().bindElement({
 				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
 				model: "invoice"
@@ -255,14 +255,14 @@ sap.ui.define([
 				var oRouter = this.getOwnerComponent().getRouter();
 				oRouter.navTo("overview", {}, true);
 			}
-		}*HIGHLIGHT START*,
+		},
 
 		onRatingChange: function (oEvent) {
 			var fValue = oEvent.getParameter("value");
 			var oResourceBundle = this.getView().getModel("i18n").getResourceBundle();
 
 			MessageToast.show(oResourceBundle.getText("ratingConfirmation", [fValue]));
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -282,13 +282,13 @@ In the `onObjectMatched` private method, we call the `reset` method to make it p
 .myAppDemoWTmyCustomText {
 	font-weight: bold;
 }
-*HIGHLIGHT START*/*  ProductRating */
+/*  ProductRating */
 .myAppDemoWTProductRating {
 	padding: 0.75rem;
 }
 .myAppDemoWTProductRating .sapMRI {
 	vertical-align: initial;
-}*HIGHLIGHT END*
+}
 ```
 
 To layout our control, we add a little padding to the root class to have some space around the three inner controls, and we override the alignment of the `RatingIndicator` control so that it is aligned in one line with the label and the button.
@@ -299,13 +299,13 @@ We could also do this with more HTML in the renderer but this is the simplest wa
 …
 # Detail Page
 detailPageTitle=Walkthrough - Details
-*HIGHLIGHT START*ratingConfirmation=You have rated this product with {0} stars
+ratingConfirmation=You have rated this product with {0} stars
 
 # Product Rating
 productRatingLabelInitial=Please rate this product
 productRatingLabelIndicator=Your rating: {0} out of {1}
 productRatingLabelFinal=Thank you for your rating!
-productRatingButton=Rate*HIGHLIGHT END*
+productRatingButton=Rate
 ```
 
 The resource bundle is extended with the confirmation message and the strings that we reference inside the custom control. We can now rate a product on the detail page with our brand new control.

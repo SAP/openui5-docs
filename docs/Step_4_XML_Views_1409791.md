@@ -51,7 +51,7 @@ We create a new `view` folder in our app and a new file for our XML view inside 
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   *HIGHLIGHT START*<Text text="Hello World"/>*HIGHLIGHT END*
+   <Text text="Hello World"/>
 </mvc:View>
 
 ```
@@ -66,16 +66,16 @@ Inside the `view` tag, we add the declarative definition of our `text` control w
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/core/mvc/XMLView"*HIGHLIGHT END*
-], function (*HIGHLIGHT START*XMLView*HIGHLIGHT END*) {
+	"sap/ui/core/mvc/XMLView"
+], function (XMLView) {
 	"use strict";
 
-*HIGHLIGHT START*	XMLView.create({
+	XMLView.create({
 		viewName: "sap.ui.demo.walkthrough.view.App"
 	}).then(function (oView) {
 		oView.placeAt("content");
 	});
-*HIGHLIGHT END*
+
 });
 
 ```

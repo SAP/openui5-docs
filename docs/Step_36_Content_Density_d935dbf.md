@@ -36,9 +36,9 @@ You can view and download all files at [Walkthrough - Step 36](https://openui5.h
 ``` js
 ...
 		init: function () {
-...		}*HIGHLIGHT START*,*HIGHLIGHT END*
+...		},
 ...
-*HIGHLIGHT START*		getContentDensityClass : function () {
+		getContentDensityClass : function () {
 			if (!this._sContentDensityClass) {
 				if (!Device.support.touch) {
 					this._sContentDensityClass = "sapUiSizeCompact";
@@ -48,7 +48,7 @@ You can view and download all files at [Walkthrough - Step 36](https://openui5.h
 			}
 			return this._sContentDensityClass;
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -69,9 +69,9 @@ sap.ui.define([
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
 
-*HIGHLIGHT START*		onInit: function () {
+		onInit: function () {
 			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -109,11 +109,11 @@ sap.ui.define([
 			if (!this.pDialog) {
 				this.pDialog = this.loadFragment({
 					name: "sap.ui.demo.walkthrough.view.HelloDialog"
-				*HIGHLIGHT START*}).then(function (oDialog){
+				}).then(function (oDialog){
 					// forward compact/cozy style into dialog
 					syncStyleClass(this.getOwnerComponent().getContentDensityClass(), this.getView(), oDialog);
 					return oDialog;
-				}.bind(this));*HIGHLIGHT END*
+				}.bind(this));
 			} 
 			this.pDialog.then(function(oDialog) {
 				oDialog.open();
@@ -144,12 +144,12 @@ The "Hello World" dialog is not part of the `HelloPanel` view but opened in a sp
     ...     
     "dependencies": {
       ...
-    }*HIGHLIGHT START*,
+    },
     "contentDensities": {
       "compact": true,
       "cozy": true
     }
-*HIGHLIGHT END*
+
   }
 ```
 

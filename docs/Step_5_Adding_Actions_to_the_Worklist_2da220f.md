@@ -42,8 +42,8 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 	noDataText="{worklistView>/tableNoDataText}"
 	updateFinished=".onUpdateFinished"
 	width="auto"
-	*HIGHLIGHT START*mode="MultiSelect"
-*HIGHLIGHT END*
+	mode="MultiSelect"
+
 	items="{
 		path: '/Products',
 		sorter: {
@@ -74,7 +74,7 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 		  id="page"
 		  headerPinnable="false"
 		  toggleHeaderOnTitleClick="false"
-		  *HIGHLIGHT START*showFooter="true"*HIGHLIGHT END*>
+		  showFooter="true">
 
 		  <semantic:titleHeading>
 				<Title text="{i18n>worklistTitle}"/>
@@ -84,12 +84,12 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 	 <semantic:sendEmailAction>
 		  <semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
 	 </semantic:sendEmailAction>
-	 *HIGHLIGHT START*<semantic:positiveAction>
+	 <semantic:positiveAction>
 		  <semantic:PositiveAction text="{i18n>TableProductsReorder}" press=".onUpdateStockObjects"/>
 	 </semantic:positiveAction>
 	 <semantic:negativeAction>
 		  <semantic:NegativeAction text="{i18n>TablePorductsUnlist}" press=".onUnlistObjects"/>
-	 </semantic:negativeAction>*HIGHLIGHT END*
+	 </semantic:negativeAction>
 </semantic:SemanticPage>
 ...
 ```
@@ -106,11 +106,11 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"myCompany/myApp/model/formatter",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"*HIGHLIGHT START*,
+	"sap/ui/model/FilterOperator",
 	"sap/m/MessageToast",
 	"sap/m/MessageBox"
-*HIGHLIGHT END*
-], function(BaseController, JSONModel, formatter, Filter, FilterOperator*HIGHLIGHT START*, MessageToast, MessageBox*HIGHLIGHT END*) {
+
+], function(BaseController, JSONModel, formatter, Filter, FilterOperator, MessageToast, MessageBox) {
 	"use strict";
 
 	return BaseController.extend("myCompany.myApp.controller.Worklist", {
@@ -119,7 +119,7 @@ sap.ui.define([
 
 ...
 
-*HIGHLIGHT START*		/**
+		/**
 		 * Displays an error message dialog. The displayed dialog is content density aware.
 		 * @param {string} sMsg The error message to be displayed
 		 * @private
@@ -128,7 +128,7 @@ sap.ui.define([
 			MessageBox.error(sMsg, {
 				styleClass: this.getOwnerComponent().getContentDensityClass()
 			});
-		},*HIGHLIGHT END*
+		},
 
 		/**
 		 * Event handler when a filter tab gets pressed
@@ -140,9 +140,9 @@ sap.ui.define([
 				sKey = oEvent.getParameter("selectedKey");
 
 			oBinding.filter(this._mFilters[sKey]);
-		}*HIGHLIGHT START*,*HIGHLIGHT END*
+		},
 
-*HIGHLIGHT START*		/**
+		/**
 		 * Error and success handler for the unlist action.
 		 * @param {string} sProductId the product ID for which this handler is called
 		 * @param {boolean} bSuccess true in case of a success handler, else false (for error handler)
@@ -221,7 +221,7 @@ sap.ui.define([
 			} else {
 				this._showErrorMessage(this.getModel("i18n").getResourceBundle().getText("TableSelectProduct"));
 			}
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -255,7 +255,7 @@ In a real scenario, you could have a counter for error responses, and one for su
 ``` prefs
 
 ...
-*HIGHLIGHT START*#text of the button for Products reordering
+#text of the button for Products reordering
 TableProductsReorder=Order
 
 #text for the button for Products unlisting
@@ -268,7 +268,7 @@ TableNoProductsSelected=No product selected
 StockRemovedSuccessMsg=Product removed
 
 #Product successfully updated
-StockUpdatedSuccessMsg=Product stock level updated*HIGHLIGHT END*
+StockUpdatedSuccessMsg=Product stock level updated
 
 #~~~ Object View ~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...

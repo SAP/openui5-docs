@@ -37,7 +37,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 ### webapp/index.html \(new\)
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -53,7 +53,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 	</script>
 </head>
 <body class="sapUiBody" id="content"></body>
-</html>*HIGHLIGHT END*
+</html>
 ```
 
 In your development environment, create the folder `webapp`. In this folder, create an `index.html` file, and paste the above code to this file.
@@ -78,7 +78,7 @@ The `body` tag is defined with the `sapUiBody` class and the `content` ID. This 
 ### webapp/index.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/m/Button",
 	"sap/m/MessageToast"
 ], function (Button, MessageToast) {
@@ -91,7 +91,7 @@ The `body` tag is defined with the `sapUiBody` class and the `content` ID. This 
 		}
 	}).placeAt("content");
 
-});*HIGHLIGHT END*
+});
 ```
 
 In your `webapp` folder, create a new file `index.js` that will be called as soon as OpenUI5 is loaded and initialized.

@@ -43,20 +43,20 @@ You can view and download all files at [Walkthrough - Step 13](https://openui5.h
 					<content>
 						<Panel
 							headerText="{i18n>helloPanelTitle}"
-							*HIGHLIGHT START*class="sapUiResponsiveMargin"
-							width="auto"*HIGHLIGHT END*>
+							class="sapUiResponsiveMargin"
+							width="auto">
 							<content>
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
-									*HIGHLIGHT START*class="sapUiSmallMarginEnd"*HIGHLIGHT END*/>
+									class="sapUiSmallMarginEnd"/>
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
-								*HIGHLIGHT START*<Text
+								<Text
 									text="Hello {/recipient/name}"
-									class="sapUiSmallMargin"/>*HIGHLIGHT END*
+									class="sapUiSmallMargin"/>
 							</content>
 						</Panel>
 					</content>

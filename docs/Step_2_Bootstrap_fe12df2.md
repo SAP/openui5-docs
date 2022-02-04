@@ -45,7 +45,7 @@ You can view and download all files at [Walkthrough - Step 2](https://openui5.ha
 <head>
 	<meta charset="utf-8">
 	<title>SAPUI5 Walkthrough</title>
-*HIGHLIGHT START*	<script
+	<script
 		id="sap-ui-bootstrap"
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
@@ -57,7 +57,7 @@ You can view and download all files at [Walkthrough - Step 2](https://openui5.ha
 			"sap.ui.demo.walkthrough": "./"
 		}'>
 
-	</script>*HIGHLIGHT END*
+	</script>
 </head>
 <body>
 <div>Hello World</div>

@@ -55,7 +55,7 @@ If you want to make additional libraries generally known in your app, without di
 			"sap.ui.core": {},
 			"sap.m": {},
 			"sap.ui.layout": {
-				*HIGHLIGHT START*"lazy": true*HIGHLIGHT END*
+				"lazy": true
 			}
 		},
 ...

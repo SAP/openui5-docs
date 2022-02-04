@@ -292,9 +292,9 @@ IDs added:
     new ComponentContainer({
        height : "100%",
        name : "sap.ui.demo.worklist",
-       **settings : \{
+       settings : {
           id : "worklist"
-       \}**
+       }
     })
     
     ```

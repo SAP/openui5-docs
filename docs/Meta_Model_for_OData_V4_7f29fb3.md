@@ -154,7 +154,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
     ```
 
 
-Alternatively it can be called on an annotation holding an `[edm:Path](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752658)` to a property when it is called in the context of an entity type. This is typically the case when iterating over a `com.sap.vocabularies.UI.v1.LineItem` annotation of an entity type and asking for value help on the data fields. See the example regarding `LineItem` of `BusinessPartnerList` \(the relevant parts are repeated here\):
+Alternatively it can be called on an annotation holding an <code><a href="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752658">edm:Path</a></code> to a property when it is called in the context of an entity type. This is typically the case when iterating over a `com.sap.vocabularies.UI.v1.LineItem` annotation of an entity type and asking for value help on the data fields. See the example regarding `LineItem` of `BusinessPartnerList` \(the relevant parts are repeated here\):
 
 ``` xml
 

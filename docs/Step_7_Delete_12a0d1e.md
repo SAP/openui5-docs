@@ -65,7 +65,7 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 			});
 		},
 
-*HIGHLIGHT START*		onDelete : function () {
+		onDelete : function () {
 			var oSelected = this.byId("peopleList").getSelectedItem();
 
 			if (oSelected) {
@@ -75,7 +75,7 @@ You can view and download all files at [OData V4 - Step 7](https://openui5.hana.
 					MessageBox.error(oError.message);
 				});
 			}
-		},*HIGHLIGHT END*
+		},
 
 		onInputChange : function (oEvt) {
 			if (oEvt.getParameter("escPressed")) {
@@ -123,7 +123,7 @@ We explicitly set the update group ID for the deletion to `$auto` to make sure t
 									$$updateGroupId : 'peopleGroup'
 								}
 							}"
-			*HIGHLIGHT START*							mode="SingleSelectLeft"*HIGHLIGHT END*>
+										mode="SingleSelectLeft">
 							<headerToolbar>
 								<OverflowToolbar>
 									<content>
@@ -132,7 +132,7 @@ We explicitly set the update group ID for the deletion to `$auto` to make sure t
 										.../>
 										<Button
 										.../>
-*HIGHLIGHT START*										<Button
+										<Button
 											id="deleteUserButton"
 											icon="sap-icon://delete"
 											tooltip="{i18n>deleteButtonText}"
@@ -140,7 +140,7 @@ We explicitly set the update group ID for the deletion to `$auto` to make sure t
 											<layoutData>
 												<OverflowToolbarLayoutData priority="NeverOverflow"/>
 											</layoutData>
-										</Button>*HIGHLIGHT END*
+										</Button>
 										<Button
 										.../>
 										<Button
@@ -180,13 +180,13 @@ We add the *Delete* button to the toolbar. With the `OverflowToolbarLayoutData p
 ...
 # Toolbar
 ...
-*HIGHLIGHT START*#XBUT: Button text for delete user
-deleteButtonText=Delete User*HIGHLIGHT END*
+#XBUT: Button text for delete user
+deleteButtonText=Delete User
 ...
 # Messages
 ...
-*HIGHLIGHT START*#XMSG: Message for user deleted
-deletionSuccessMessage=User deleted*HIGHLIGHT END*
+#XMSG: Message for user deleted
+deletionSuccessMessage=User deleted
 ...
 ```
 

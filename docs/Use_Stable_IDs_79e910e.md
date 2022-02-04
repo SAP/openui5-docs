@@ -52,9 +52,9 @@ If you define stable IDs for the two controls in the example above, it could loo
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Page *HIGHLIGHT START*id="page"*HIGHLIGHT END*>
+	<Page id="page">
 		<content>
-			<Table *HIGHLIGHT START*id="table"*HIGHLIGHT END*>
+			<Table id="table">
 			</Table>
 		</content>
 	</Page>

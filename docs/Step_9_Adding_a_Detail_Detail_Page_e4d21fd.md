@@ -39,7 +39,7 @@ You can view and download all files at [Flexible Column Layout App - Step 9](htt
 ### webapp/view/DetailDetail.view.xml \[NEW\]
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
 	xmlns="sap.f"
 	xmlns:m="sap.m"
@@ -55,7 +55,7 @@ You can view and download all files at [Flexible Column Layout App - Step 9](htt
 			</DynamicPageTitle>
 		</title>
 	</DynamicPage>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
@@ -67,7 +67,7 @@ We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
 ### webapp/controller/DetailDetail.controller.js \[NEW\]
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"
 ], function (JSONModel, Controller) {
@@ -97,7 +97,7 @@ We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
 			this.oRouter.getRoute("detailDetail").detachPatternMatched(this._onPatternMatch, this);
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We create the detail-detail page controller.
@@ -126,7 +126,7 @@ We create the detail-detail page controller.
 						"master",
 						"detail"
 					]
-				}*HIGHLIGHT START*,
+				},
 				{
 					"pattern": "detail/{product}/detailDetail/{supplier}/{layout}",
 					"name": "detailDetail",
@@ -135,7 +135,7 @@ We create the detail-detail page controller.
 						"detail",
 						"detailDetail"
 					]
-				}*HIGHLIGHT END*
+				}
 			],
 			"targets": {
 				"master": {
@@ -145,11 +145,11 @@ We create the detail-detail page controller.
 				"detail": {
 					"name": "Detail",
 					"controlAggregation": "midColumnPages"
-				}*HIGHLIGHT START*,
+				},
 				"detailDetail": {
 					"name": "DetailDetail",
 					"controlAggregation": "endColumnPages"
-				}*HIGHLIGHT END*
+				}
 			}
 		}
 	}
@@ -177,7 +177,7 @@ We add the detail-detail page to our existing routes in the `manifest.json`.
 									<m:Column/>
 								</m:columns>
 								<m:items>
-									<m:ColumnListItem type="Navigation"*HIGHLIGHT START* press=".onSupplierPress"*HIGHLIGHT END*>
+									<m:ColumnListItem type="Navigation" press=".onSupplierPress">
 										<m:cells>
 											<m:ObjectIdentifier text="{products>text}"/>
 										</m:cells>
@@ -202,9 +202,9 @@ We add a `press` event handler for each item in the *SUPPLIERS* table in the det
 
 ``` js
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"*HIGHLIGHT START*,
-	'sap/f/library'*HIGHLIGHT END*
-], function (Controller*HIGHLIGHT START*, fioriLibrary*HIGHLIGHT END*) {
+	"sap/ui/core/mvc/Controller",
+	'sap/f/library'
+], function (Controller, fioriLibrary) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.Detail", {
@@ -216,15 +216,15 @@ sap.ui.define([
 
 			this.oRouter.getRoute("master").attachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detail").attachPatternMatched(this._onProductMatched, this);
-*HIGHLIGHT START*			this.oRouter.getRoute("detailDetail").attachPatternMatched(this._onProductMatched, this);*HIGHLIGHT END*
+			this.oRouter.getRoute("detailDetail").attachPatternMatched(this._onProductMatched, this);
 		},
 
-*HIGHLIGHT START*		onSupplierPress: function (oEvent) {
+		onSupplierPress: function (oEvent) {
 			var supplierPath = oEvent.getSource().getBindingContext("products").getPath(),
 				supplier = supplierPath.split("/").slice(-1).pop();
 
 			this.oRouter.navTo("detailDetail", {layout: fioriLibrary.LayoutType.ThreeColumnsMidExpanded, supplier: supplier, product: this._product});
-		},*HIGHLIGHT END*
+		},
 
 		_onProductMatched: function (oEvent) {
 		...
@@ -247,7 +247,7 @@ We add an `onSupplierPress` function in the detail page controller in order to p
 			// Save the current route name
 			this.currentRouteName = sRouteName;
 			this.currentProduct = oArguments.product;
-*HIGHLIGHT START*			this.currentSupplier = oArguments.supplier;*HIGHLIGHT END*
+			this.currentSupplier = oArguments.supplier;
 		},
 
 		onStateChanged: function (oEvent) {
@@ -256,7 +256,7 @@ We add an `onSupplierPress` function in the detail page controller in order to p
 
 			// Replace the URL with the new layout if a navigation arrow was used
 			if (bIsNavigationArrow) {
-				this.oRouter.navTo(this.currentRouteName, {layout: sLayout, product: this.currentProduct*HIGHLIGHT START*, supplier: this.currentSupplier*HIGHLIGHT END*}, true);
+				this.oRouter.navTo(this.currentRouteName, {layout: sLayout, product: this.currentProduct, supplier: this.currentSupplier}, true);
 			}
 		},
 

@@ -28,7 +28,7 @@ When defining a binding path for a control, a binding context is created which c
 
 ### Simple Binding
 
-To reference model data in a view , you can use the simple binding syntax "`{*/path/to/data*}`":
+To reference model data in a view , you can use the simple binding syntax "<code>{<i>/path/to/data</i>}</code>":
 
 ``` xml
 <Input value="{/firstName}"/>

@@ -58,13 +58,13 @@ sap.ui.define([
 			this.pDialog.then(function(oDialog) {
 				oDialog.open();
 			});
-		}*HIGHLIGHT START*,
+		},
 
 		onCloseDialog : function () {
 			// note: We don't need to chain to the pDialog promise, since this event-handler
 			// is only called from within the loaded dialog itself.
 			this.byId("helloDialog").close();
-		}*HIGHLIGHT END*
+		}
 	});
 
 });
@@ -83,11 +83,11 @@ The event handler function is put into the same controller file and it closes th
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
-*HIGHLIGHT START*      <beginButton>
+      <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"
             press=".onCloseDialog"/>
-      </beginButton>*HIGHLIGHT END*
+      </beginButton>
    </Dialog>
 </core:FragmentDefinition>
 ```
@@ -103,7 +103,8 @@ In the fragment definition, we add a button to the `beginButton` aggregation of 
 ``` prefs
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span]
 
 # Hello Panel
 showHelloButtonText=Say Hello
@@ -111,7 +112,7 @@ helloMsg=Hello {0}
 homePageTitle=Walkthrough
 helloPanelTitle=Hello World
 openDialogButtonText=Say Hello With Dialog
-*HIGHLIGHT START*dialogCloseButtonText=Ok*HIGHLIGHT END*
+dialogCloseButtonText=Ok
 ```
 
 The text bundle is extended by the new text for the dialog’s close button.

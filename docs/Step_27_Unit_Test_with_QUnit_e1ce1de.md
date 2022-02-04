@@ -46,7 +46,7 @@ We add a new folder `unit` under the `test` folder and a `model` subfolder where
 ### webapp/test/unit/model/formatter.js
 
 ``` js
-*HIGHLIGHT START*/*global QUnit*/
+/*global QUnit*/
 
 sap.ui.define([
 	"sap/ui/demo/walkthrough/model/formatter",
@@ -93,7 +93,7 @@ sap.ui.define([
 		assert.strictEqual(fnIsolatedFormatter("Foo"), "Foo", "The long text for status Foo is correct");
 	});
 
-});*HIGHLIGHT END*
+});
 ```
 
 We create a new `formatter.js` file under `webapp/test/unit/model` where the unit test for the custom formatter is implemented. The `formatter` file that we want to test is loaded as a dependency. We also need a dependency to the `ResourceModel`, because we want to check if the translated texts are correct.
@@ -117,7 +117,7 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 ### webapp/test/unit/unitTests.qunit.html \(New\)
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Unit tests for SAPUI5 Walkthrough</title>
@@ -147,7 +147,7 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 	<div id="qunit-fixture"/>
 </body>
 </html>
-*HIGHLIGHT END*
+
 ```
 
 The so-called QUnit test suite is an HTML page that triggers all QUnit tests for the application. Most of it is generating the layout of the result page that you can see in the preview and we won’t further explain these parts but focus on the application parts instead.

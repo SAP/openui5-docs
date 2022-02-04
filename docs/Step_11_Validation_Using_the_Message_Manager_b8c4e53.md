@@ -68,16 +68,16 @@ sap.ui.require([
 		sap.ui.getCore().setModel(oResourceModel, "i18n");
 
 		// Display the XML view called "App"
-*HIGHLIGHT START*		var oView *HIGHLIGHT END*= new XMLView({
+		var oView = new XMLView({
 			viewName: "sap.ui.demo.db.view.App"
 		});
 
-*HIGHLIGHT START*		// Register the view with the message manager
+		// Register the view with the message manager
 		sap.ui.getCore().getMessageManager().registerObject(oView, true);
-*HIGHLIGHT END*
+
 
 		// Insert the view into the DOM
-		*HIGHLIGHT START*oView*HIGHLIGHT END*.placeAt("content");
+		oView.placeAt("content");
 	});
 });
 

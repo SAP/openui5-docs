@@ -63,14 +63,14 @@ sap.ui.require([
 
 	// Attach an anonymous function to the SAPUI5 'init' event
 	sap.ui.getCore().attachInit(function () {
-*HIGHLIGHT START*		// Create a JSON model from an object literal
+		// Create a JSON model from an object literal
 		var oModel = new JSONModel({
 			greetingText: "Hi, my name is Harry Hawk"
 		});
 
 		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
-*HIGHLIGHT END*
+
 
 		// Create a text UI element that displays a hardcoded text string
 		new Text({text: "Hi, my name is Harry Hawk"}).placeAt("content");

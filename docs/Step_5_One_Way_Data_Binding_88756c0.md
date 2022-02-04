@@ -35,9 +35,9 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 5](h
 ``` js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/core/mvc/XMLView"*HIGHLIGHT START*,
-	"sap/ui/model/BindingMode"*HIGHLIGHT END*
-], function (JSONModel, XMLView*HIGHLIGHT START*, BindingMode*HIGHLIGHT END*) {
+	"sap/ui/core/mvc/XMLView",
+	"sap/ui/model/BindingMode"
+], function (JSONModel, XMLView, BindingMode) {
 	"use strict";
 
 	// Attach an anonymous function to the SAPUI5 'init' event
@@ -50,9 +50,9 @@ sap.ui.require([
 			panelHeaderText: "Data Binding Basics"
 		});
 
-*HIGHLIGHT START*		oModel.setDefaultBindingMode(BindingMode.OneWay);
+		oModel.setDefaultBindingMode(BindingMode.OneWay);
 
-*HIGHLIGHT END*
+
 		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
 

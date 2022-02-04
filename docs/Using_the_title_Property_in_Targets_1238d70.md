@@ -30,8 +30,8 @@ When a new target that has the `title` property defined is displayed, or the tit
         "products": {
             "type": "View",
             "path": "shop.products",
-            *HIGHLIGHT START*"title": "Products Overview"
-*HIGHLIGHT END*
+            "title": "Products Overview"
+
         }
     },
     ...
@@ -50,7 +50,7 @@ When a new target that has the `title` property defined is displayed, or the tit
         "product": {
             "type": "View",
             "path": "shop.products",
-            *HIGHLIGHT START*"title": "{ parts: ['helperModel>/PRODUCTS_TITLE', 'myModel>productName'], formatter: '.myFormatterFunction' }"*HIGHLIGHT END*
+            "title": "{ parts: ['helperModel>/PRODUCTS_TITLE', 'myModel>productName'], formatter: '.myFormatterFunction' }"
         }
     },
     ...
@@ -74,7 +74,7 @@ The `title` property can also be defined on a "Component" type target. When it i
         "attachment": {
             "type": "Component",
             "usage": "productComponent",
-            *HIGHLIGHT START*"title": "Attachment"*HIGHLIGHT END*
+            "title": "Attachment"
         }
     },
     ...
@@ -94,8 +94,8 @@ A route can display multiple targets and you can use the `titleTarget` option in
         "pattern": "product/{id}/parts",
         "name": "ProductParts",
         "target": ["product", "productParts"],
-        *HIGHLIGHT START*"titleTarget": "productParts"
-*HIGHLIGHT END*
+        "titleTarget": "productParts"
+
     }],
     "targets": {
         "product": {

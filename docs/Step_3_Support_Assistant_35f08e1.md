@@ -59,8 +59,8 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
     item1Text=Item 1
     item2Text=Item 2
     selectEventMessage=Event "{0}" fired.
-    **Label\_Missing\_I18N\_Text=Label Text
-    **
+    Label_Missing_I18N_Text=Label Text
+    
     ```
 
     For more information, see [Walkthrough Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md)

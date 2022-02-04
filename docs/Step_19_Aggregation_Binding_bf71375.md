@@ -29,7 +29,7 @@ Now that we have established a good structure for our app, it's time to add some
 You can view and download all files at [Walkthrough - Step 19](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
 
 ``` js
-*HIGHLIGHT START*{
+{
   "Invoices": [
 	{
 	  "ProductName": "Pineapple",
@@ -72,7 +72,7 @@ You can view and download all files at [Walkthrough - Step 19](https://openui5.h
 	  "Status": "A"
 	}
   ]
-}*HIGHLIGHT END*
+}
 ```
 
 The `invoices` file simply contains five invoices in a JSON format that we can use to bind controls against them in the app. JSON is a very lightweight format for storing data and can be directly used as a data source for OpenUI5 applications.
@@ -95,11 +95,11 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 		  "supportedLocales": [""],
 		  "fallbackLocale": ""
 		}
-	  }*HIGHLIGHT START*,
+	  },
 	  "invoice": {
 		"type": "sap.ui.model.json.JSONModel",
 		"uri": "Invoices.json"
-	  }*HIGHLIGHT END*
+	  }
 	}
   }
 }
@@ -131,7 +131,7 @@ We add a new model `invoice` to the `sap.ui5` section of the descriptor. This ti
 					</headerContent>
 					<content>
 						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
-*HIGHLIGHT START*						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>*HIGHLIGHT END*
+						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
 					</content>
 				</Page>
 			</pages>
@@ -148,7 +148,7 @@ In the app view we add a second view to display our invoices below the panel.
 ### webapp/view/InvoiceList.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <List
@@ -161,7 +161,7 @@ In the app view we add a second view to display our invoices below the panel.
             title="{invoice>Quantity} x {invoice>ProductName}"/>
       </items>
    </List>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 The new view is displaying a list control with a custom header text. The item aggregation of the list is bound to the root path `Invoices` of the JSON data. And since we defined a named model, we have to prefix each binding definition with the identifier `invoice>`.
@@ -175,7 +175,8 @@ In the `items` aggregation, we define the template for the list that will be aut
 ``` prefs
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span]
 
 # Hello Panel
 showHelloButtonText=Say Hello
@@ -185,8 +186,8 @@ helloPanelTitle=Hello World
 openDialogButtonText=Say Hello With Dialog
 dialogCloseButtonText=Ok
 
-*HIGHLIGHT START*# Invoice List
-invoiceListTitle=Invoices*HIGHLIGHT END*
+# Invoice List
+invoiceListTitle=Invoices
 ```
 
 In the text bundle the title of the list is added.

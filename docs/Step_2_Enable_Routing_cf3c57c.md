@@ -60,7 +60,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
       },
       "models": {
          ...
-      }*HIGHLIGHT START*,
+      },
       "routing": {
          "config": {
             "routerClass": "sap.m.routing.Router",
@@ -84,7 +84,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
                "level" : 1
             }
          }
-      }*HIGHLIGHT END*
+      }
    }
 }
 
@@ -127,7 +127,7 @@ sap.ui.define([
 
         metadata: {
             manifest: "json"
-        }*HIGHLIGHT START*,
+        },
 
         init: function () {
             // call the init function of the parent
@@ -135,7 +135,7 @@ sap.ui.define([
 
             // create the views based on the url/hash
             this.getRouter().initialize();
-        }*HIGHLIGHT END*
+        }
     });
 });
 ```
@@ -166,7 +166,7 @@ In the `App` view, we remove the content of `App` control. The pages will be add
 ### webapp/view/Home.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
    controllerName="sap.ui.demo.nav.controller.Home"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -175,7 +175,7 @@ In the `App` view, we remove the content of `App` control. The pages will be add
          <Button text="{i18n>iWantToNavigate}" class="sapUiTinyMarginEnd"/>
       </content>
    </Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Create a file `Home.view.xml` in the `webapp/view` folder. The home view only contains a page control that displays a button. For illustration, we bind the title of the page to the `i18n>homePageTitle`, you can use data binding just the way you are used to it.
@@ -185,7 +185,7 @@ Create a file `Home.view.xml` in the `webapp/view` folder. The home view only co
 ### webapp/controller/Home.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
    "use strict";
@@ -194,7 +194,7 @@ Create a file `Home.view.xml` in the `webapp/view` folder. The home view only co
 
    });
 
-});*HIGHLIGHT END*
+});
 ```
 
 Create a file `Home.controller.js` in the `webapp/controller` folder. The controller for the home view does not contain any custom logic in this step, but we will add some features to it soon. Finally, run the app by calling the `webapp/index.html` file. This will be the entry point for our app in all the next steps. As you can see, the app is initially displaying the home view that we configured as the default pattern in the routing configuration. We have now successfully enabled routing in the app.

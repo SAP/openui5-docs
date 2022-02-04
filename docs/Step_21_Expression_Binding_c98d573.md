@@ -49,7 +49,7 @@ xmlns="sap.m"
 		}
 		}"
 		numberUnit="{view>/currency}"
-        	*HIGHLIGHT START*numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"*HIGHLIGHT END*/>
+        	numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"/>
       </items>
    </List>
 </mvc:View>

@@ -52,7 +52,7 @@ You can view and download all files at [Walkthrough - Step 31](https://openui5.h
 		  "target": "overview"
 		},
 		{
-		  "pattern": "detail*HIGHLIGHT START*/{invoicePath}*HIGHLIGHT END*",
+		  "pattern": "detail/{invoicePath}",
 		  "name": "detail",
 		  "target": "detail"
 		}
@@ -80,14 +80,14 @@ We now add a navigation parameter `invoicePath` to the detail route so that we c
 
 ``` xml
 <mvc:View
-	*HIGHLIGHT START*controllerName="sap.ui.demo.walkthrough.controller.Detail"*HIGHLIGHT END*
+	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
 		title="{i18n>detailPageTitle}">
 		<ObjectHeader
-*HIGHLIGHT START*			intro="{invoice>ShipperName}"*HIGHLIGHT END*
-			title="*HIGHLIGHT START*{invoice>ProductName}*HIGHLIGHT END*"/>
+			intro="{invoice>ShipperName}"
+			title="{invoice>ProductName}"/>
 	</Page>
 </mvc:View>
 ```
@@ -111,11 +111,11 @@ sap.ui.define([
 		…
 
 		onPress: function (oEvent) {
-			*HIGHLIGHT START*var oItem = oEvent.getSource();*HIGHLIGHT END*
+			var oItem = oEvent.getSource();
 			var oRouter = this.getOwnerComponent().getRouter();
-			oRouter.navTo("detail"*HIGHLIGHT START*, {
+			oRouter.navTo("detail", {
 				invoicePath: window.encodeURIComponent(oItem.getBindingContext("invoice").getPath().substr(1))
-			}*HIGHLIGHT END*);
+			});
 		}
 	});
 });
@@ -132,7 +132,7 @@ To identify the object that we selected, we would typically use the key of the i
 ### webapp/controller/Detail.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
 	"use strict";
@@ -148,7 +148,7 @@ To identify the object that we selected, we would typically use the key of the i
 			});
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Our last piece to fit the puzzle together is the detail controller. It needs to set the context that we passed in with the URL parameter `invoicePath` on the view, so that the item that has been selected in the list of invoices is actually displayed, otherwise, the view would simply stay empty.

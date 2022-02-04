@@ -40,7 +40,7 @@ The following table provides an overview of the two main types of card controls 
 
 \(Integration Card\)
 
-**`[sap.ui.integration.widgets.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card)`**
+**<code><a href="Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_integration_card">sap.ui.integration.widgets.Card</a></code>**
 
 
 
@@ -49,7 +49,7 @@ The following table provides an overview of the two main types of card controls 
 
 \(Freestyle Card\)
 
-**`[sap.f.Card](Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card)`**
+**<code><a href="Cards_5b46b03.md#loio5b46b03f024542ba802d99d67bc1a3f4__section_sap_f_card">sap.f.Card</a></code>**
 
 
 
@@ -282,7 +282,7 @@ To use the `sap.ui.integration.widgets.Card`, you should pass the path to the `m
 
 ```
 <mvc:View xmlns:w="sap.ui.integration.widgets">
-*HIGHLIGHT START*<w:Card manifest="./demo/manifest.json" />*HIGHLIGHT END*
+<w:Card manifest="./demo/manifest.json" />
 ```
 
 For more information and examples on the usage, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card).

@@ -37,12 +37,12 @@ You can view and download all files at [Walkthrough - Step 24](https://openui5.h
       id="invoiceList"
       class="sapUiResponsiveMargin"
       width="auto"
-      *HIGHLIGHT START*items="{
+      items="{
          path : 'invoice>/Invoices',
          sorter : {
             path : 'ProductName' 
          }
-      }"*HIGHLIGHT END* >
+      }" >
       <headerToolbar>
          ...
       </headerToolbar>
@@ -72,10 +72,10 @@ xmlns:mvc="sap.ui.core.mvc">
 		width="auto"
 		items="{
 			path : 'invoice>/Invoices',
-			*HIGHLIGHT START*sorter : {
+			sorter : {
 				path : 'ShipperName',
 				group : true
-			}*HIGHLIGHT END*
+			}
 		}">
 	<headerToolbar>
 		<Toolbar>

@@ -405,8 +405,8 @@ You can access the results of the operation by calling `getObject()` from the bo
 ``` js
 // let oOperation be the operation's context binding
 oOperation.execute().then(function () {
-    *HIGHLIGHT START*// Note: execute does not deliver the results
-*HIGHLIGHT END*
+    // Note: execute does not deliver the results
+
     var oResults = oOperation.getBoundContext().getObject();
     ...
 });

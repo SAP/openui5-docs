@@ -42,7 +42,7 @@ Screen readers offer lists that group certain types of elements. These lists eas
 
     -   The panel heading hierarchy must be logical \(for example, nested panels must have higher hierarchy levels\).
 
-    -   Headings must be referenced by the containers they belong to \(using `aria-labelledby = “HEADING\_ID”`\).
+    -   Headings must be referenced by the containers they belong to \(using <code>aria-labelledby = “HEADING_ID”</code>\).
 
 
 -   **Links**
@@ -74,7 +74,7 @@ Screen readers offer lists that group certain types of elements. These lists eas
 
     -   Tables must have titles.
 
-    -   Layout tables for presentational purposes must be coded as such \(using ARIA `role=“presentation”`\). Then they are not displayed in the table list.
+    -   Layout tables for presentational purposes must be coded as such \(using ARIA <code>role=“presentation”</code>\). Then they are not displayed in the table list.
 
     -   Editable and active cells may require special interaction models. During navigation, all screen reader relevant information must be available at the focus location.
 

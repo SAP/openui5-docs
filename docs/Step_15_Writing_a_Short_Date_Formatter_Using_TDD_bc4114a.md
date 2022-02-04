@@ -167,7 +167,7 @@ sap.ui.define([
 	"./model/models",
 	"./model/formatter",
 	"./model/FlaggedType",
-	*HIGHLIGHT START*"./model/DateFormatter"*HIGHLIGHT END*
+	"./model/DateFormatter"
 ], function() {
 	"use strict";
 });
@@ -180,12 +180,12 @@ First, we add the new test file we are about to create to the `AllTests.js` file
 ### webapp/model/DateFormatter.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
 		return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 We create an empty hull for our formatter implementation first so that we can include it in our test. It does not contain any logic yet but simply extends an OpenUI5 base object.
@@ -195,14 +195,14 @@ We create an empty hull for our formatter implementation first so that we can in
 ### webapp/test/unit/model/DateFormatter.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
 	QUnit.module("DateFormatter");
 	QUnit.test("initial", function(assert) {
 		assert.ok(new DateFormatter());
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 And we create our test that checks if there is a `DateFormatter` object. Now we can execute our unit tests. We see that this test is failing as the object does not exist in our code yet.
@@ -216,11 +216,11 @@ sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
 	QUnit.module("DateFormatter");
-	*HIGHLIGHT START*QUnit.test("Should return empty string if no date is given", function(assert) {
+	QUnit.test("Should return empty string if no date is given", function(assert) {
 		var oFormatter = new DateFormatter();
 		var sFormattedDate = oFormatter.format(null);
 		assert.strictEqual(sFormattedDate, "");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -235,9 +235,9 @@ sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
 		return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
-			*HIGHLIGHT START*format: function() {
+			format: function() {
 				return "";
-			}*HIGHLIGHT END*
+			}
 		});
 	}
 );
@@ -251,8 +251,8 @@ Now we fix our test again by returning the expected string.
 
 ``` js
 sap.ui.define([
-	"sap/ui/demo/bulletinboard/model/DateFormatter"*HIGHLIGHT START*,
-	"sap/ui/core/Locale"*HIGHLIGHT END*
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
+	"sap/ui/core/Locale"
 ], function(DateFormatter, Locale) {
 	QUnit.module("DateFormatter");
 	QUnit.test("Should return empty string if no date is given", function(assert) {
@@ -262,14 +262,14 @@ sap.ui.define([
 		var sFormattedDate = oFormatter.format(null);
 		assert.strictEqual(sFormattedDate, "");
 	});
-	*HIGHLIGHT START*QUnit.test("Should return time if date from today", function(assert) {
+	QUnit.test("Should return time if date from today", function(assert) {
 		var oFormatter = new DateFormatter({
 			locale : new Locale("en-US")
 		});
 		var oDate = new Date(2015, 2, 14, 12, 5, 0, 0);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "12:05 PM");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -281,20 +281,20 @@ Here our test expects that the date is displayed as time when the post is from t
 
 ``` js
 sap.ui.define([
-	"sap/ui/base/Object"*HIGHLIGHT START*,
-	"sap/ui/core/format/DateFormat"*HIGHLIGHT END*
-], function(Object*HIGHLIGHT START*, DateFormat*HIGHLIGHT END*) {
+	"sap/ui/base/Object",
+	"sap/ui/core/format/DateFormat"
+], function(Object, DateFormat) {
 	return Object.extend("sap.ui.demo.bulletinboard.model.DateFormatter", {
-		*HIGHLIGHT START*constructor: function(oProperties) {
+		constructor: function(oProperties) {
 			this.timeFormat = DateFormat.getTimeInstance({
 				style: "short"
 			}, oProperties.locale);
-			},*HIGHLIGHT END*
-		format: function(*HIGHLIGHT START*oDate*HIGHLIGHT END*) {
-			*HIGHLIGHT START*if (!oDate) {*HIGHLIGHT END*
+			},
+		format: function(oDate) {
+			if (!oDate) {
 				return "";
-			*HIGHLIGHT START*}
-				return this.timeFormat.format(oDate);*HIGHLIGHT END*
+			}
+				return this.timeFormat.format(oDate);
 			}
 		});
 	}
@@ -319,23 +319,23 @@ sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
 ], function(DateFormatter, Locale) {
-	*HIGHLIGHT START*var oFormatter = null;*HIGHLIGHT END*
-	QUnit.module("DateFormatter"*HIGHLIGHT START*, {
+	var oFormatter = null;
+	QUnit.module("DateFormatter", {
 		beforeEach: function() {
 			oFormatter = new DateFormatter({
 				locale: new Locale("en-US")
 			});
 		}
-	}*HIGHLIGHT END*);
+	});
 
 	QUnit.test("Should return empty string if no date is given", function(assert) {
-		*HIGHLIGHT START*/*Delete in your code: var oFormatter = new DateFormatter();*HIGHLIGHT END*
+		/*Delete in your code: var oFormatter = new DateFormatter();
 		...
 	});
 	QUnit.test("Should return time if date from today", function(assert) {
-		*HIGHLIGHT START*/*Delete in your code: var oFormatter = new DateFormatter({
+		/*Delete in your code: var oFormatter = new DateFormatter({
 		/*Delete in your code: 	locale: new Locale("en-US")
-		/*Delete in your code: })*HIGHLIGHT END*;
+		/*Delete in your code: });
 		...
 	});
 });
@@ -350,25 +350,25 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 ``` js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
-	*HIGHLIGHT START*"sap/ui/core/Locale"*HIGHLIGHT END*
-], function(DateFormatter*HIGHLIGHT START*, Locale*HIGHLIGHT END*) {
+	"sap/ui/core/Locale"
+], function(DateFormatter, Locale) {
 	var oFormatter = null;
 	QUnit.module("DateFormatter", {
 		beforeEach: function() {
 			oFormatter = new DateFormatter({
-				*HIGHLIGHT START*now : function() {
+				now : function() {
 					return new Date(2015, 2, 14, 14, 0, 0, 0).getTime();
-				},*HIGHLIGHT END*
+				},
 				locale : new Locale("en-US")
 			});
 		}
 	});
 	...
-	*HIGHLIGHT START*QUnit.test("Should return 'Yesterday' if date from yesterday", function(assert) {
+	QUnit.test("Should return 'Yesterday' if date from yesterday", function(assert) {
 		var oDate = new Date(2015, 2, 13);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Yesterday");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -388,25 +388,25 @@ sap.ui.define([
 			this.timeFormat = DateFormat.getTimeInstance({
 				style : "short"
 			}, oProperties.locale);
-			*HIGHLIGHT START*this.now = oProperties.now;*HIGHLIGHT END*
+			this.now = oProperties.now;
 		},
 		format : function(oDate) {
 			if (!oDate) {
 				return "";
 			}
-			*HIGHLIGHT START*var iElapsedDays = this._getElapsedDays(oDate);
-			if (iElapsedDays === 0) {*HIGHLIGHT END*
+			var iElapsedDays = this._getElapsedDays(oDate);
+			if (iElapsedDays === 0) {
 				return this.timeFormat.format(oDate);
-			*HIGHLIGHT START*} else if (iElapsedDays === 1) {
+			} else if (iElapsedDays === 1) {
 				return "Yesterday";
 			}
-			return this.dateFormat.format(oDate);*HIGHLIGHT END*
-		}*HIGHLIGHT START*,
+			return this.dateFormat.format(oDate);
+		},
 		_getElapsedDays : function(oDate) {
 			var iElapsedMilliseconds = this.now() - oDate.getTime();
 			var fElapsedDays = iElapsedMilliseconds / 1000 / 60 / 60 / 24;
 			return Math.floor(fElapsedDays);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -424,11 +424,11 @@ sap.ui.define([
 ], function(DateFormatter, Locale) {
 	var oFormatter = null;
 	...
-	*HIGHLIGHT START*QUnit.test("Should return day of the week if date < 7 days ago", function(assert) {
+	QUnit.test("Should return day of the week if date < 7 days ago", function(assert) {
 		var oDate = new Date(2015, 2, 8);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Sunday");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -448,9 +448,9 @@ sap.ui.define([
 			this.timeFormat = DateFormat.getTimeInstance({
 				style: "short"
 			}, oProperties.locale);
-			*HIGHLIGHT START*this.weekdayFormat = DateFormat.getDateInstance({
+			this.weekdayFormat = DateFormat.getDateInstance({
 				pattern: "EEEE"
-			}, oProperties.locale);*HIGHLIGHT END*
+			}, oProperties.locale);
 			this.now = oProperties.now;
 		},
 		format: function(oDate) {
@@ -462,9 +462,9 @@ sap.ui.define([
 				return this.timeFormat.format(oDate);
 			} else if (iElapsedDays === 1) {
 				return "Yesterday";
-			}*HIGHLIGHT START* else if (iElapsedDays < 7) {
+			} else if (iElapsedDays < 7) {
 				return this.weekdayFormat.format(oDate);
-			}*HIGHLIGHT END*
+			}
 		}
 	…
 ```
@@ -482,11 +482,11 @@ sap.ui.define([
 ], function(DateFormatter, Locale) {
 	var oFormatter = null;
 	...
-	*HIGHLIGHT START*QUnit.test("Should return date w/o time if date > 7 days ago", function(assert) {
+	QUnit.test("Should return date w/o time if date > 7 days ago", function(assert) {
 		var oDate = new Date(2015, 2, 7);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Mar 7, 2015");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -505,9 +505,9 @@ In the next test we verify that the date is formatted as date without time. Agai
 			this.weekdayFormat = DateFormat.getDateInstance({
 				pattern : "EEEE"
 			}, oProperties.locale);
-			*HIGHLIGHT START*this.dateFormat = DateFormat.getDateInstance({
+			this.dateFormat = DateFormat.getDateInstance({
 				style : "medium"
-			}, oProperties.locale);*HIGHLIGHT END*
+			}, oProperties.locale);
 			this.now = oProperties.now;
 		},
 		format: function(oDate) {
@@ -521,10 +521,10 @@ In the next test we verify that the date is formatted as date without time. Agai
 				return "Yesterday";
 			} else if (iElapsedDays < 7) {
 				return this.weekdayFormat.format(oDate);
-			} *HIGHLIGHT START*else {
+			} else {
 				return this.dateFormat.format(oDate);
 			}
-*HIGHLIGHT END*
+
 		},
 	…
 ```

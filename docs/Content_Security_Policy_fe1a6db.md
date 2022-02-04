@@ -116,7 +116,7 @@ Sources Required by the App
 <tr>
 <th valign="top">
 
-`<source hosting OpenUI5>`
+<code>&lt;source hosting OpenUI5&gt;</code>
 
 \(equals `'self'` if OpenUI5 is hosted with the app\)
 
@@ -569,7 +569,7 @@ Comment
 <tr>
 <td valign="top" colspan="3">
 
-`**script-src 'unsafe-eval'**`
+<code><b>script-src 'unsafe-eval'</b></code>
 
 
 
@@ -601,7 +601,7 @@ For temporary rules in the Support Assistant, dynamic code execution is essentia
 <tr>
 <td valign="top" colspan="3">
 
-`**script-src 'wasm-eval'**`
+<code><b>script-src 'wasm-eval'</b></code>
 
 
 
@@ -635,7 +635,7 @@ When native hyphenation is not available, a third-party library \(Hyphenopoly\) 
 <tr>
 <td valign="top" colspan="3">
 
-`**style-src 'unsafe-inline'**`
+<code><b>style-src 'unsafe-inline'</b></code>
 
 
 

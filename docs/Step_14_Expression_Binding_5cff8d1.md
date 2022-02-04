@@ -52,7 +52,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 14](
 						formatOptions: { showMeasure: false }
 					}"
 					numberUnit="{/currencyCode}"
-*HIGHLIGHT START*					numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }">*HIGHLIGHT END*
+					numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }">
 					<attributes>
 						<ObjectAttribute text="{products>QuantityPerUnit}"/>
 						<ObjectAttribute title="{i18n>stockValue}"
@@ -104,7 +104,7 @@ sap.ui.require([
 				country: "Germany"
 			},
 			salesAmount: 12345.6789,
-*HIGHLIGHT START*			priceThreshold: 20,*HIGHLIGHT END*
+			priceThreshold: 20,
 			currencyCode: "EUR"
 		});
 

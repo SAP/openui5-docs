@@ -32,8 +32,8 @@ This way, they are all in a central place and can be easily translated into othe
 You can view and download all files at [Walkthrough - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.08/preview).
 
 ``` prefs
-*HIGHLIGHT START*showHelloButtonText=Say Hello
-helloMsg=Hello {0}*HIGHLIGHT END*
+showHelloButtonText=Say Hello
+helloMsg=Hello {0}
 ```
 
 We create the folder `webapp/i18n` and the file `i18n.properties` inside. The resolved bundle name is `sap.ui.demo.walkthrough.i18n`, as we will see later. The `properties` file for texts contains name-value pairs for each element. You can add any number of parameters to the texts by adding numbers in curly brackets to them. These numbers correspond to the sequence in which the parameters are accessed \(starting with 0\).
@@ -48,9 +48,9 @@ In this tutorial we will only have one properties file. However, in real-world p
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast",
-   "sap/ui/model/json/JSONModel"*HIGHLIGHT START*,
-   "sap/ui/model/resource/ResourceModel"*HIGHLIGHT END*
-], function (Controller, MessageToast, JSONModel*HIGHLIGHT START*, ResourceModel*HIGHLIGHT END*) {
+   "sap/ui/model/json/JSONModel",
+   "sap/ui/model/resource/ResourceModel"
+], function (Controller, MessageToast, JSONModel, ResourceModel) {
    "use strict";
    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
      onInit : function () {
@@ -62,19 +62,19 @@ sap.ui.define([
          };
          var oModel = new JSONModel(oData);
          this.getView().setModel(oModel);
-         *HIGHLIGHT START*// set i18n model on view
+         // set i18n model on view
          var i18nModel = new ResourceModel({
             bundleName: "sap.ui.demo.walkthrough.i18n.i18n"
          });
-         this.getView().setModel(i18nModel, "i18n");*HIGHLIGHT END*
+         this.getView().setModel(i18nModel, "i18n");
       },
       onShowHello : function () {
-       *HIGHLIGHT START*  // read msg from i18n model
+         // read msg from i18n model
          var oBundle = this.getView().getModel("i18n").getResourceBundle();
          var sRecipient = this.getView().getModel().getProperty("/recipient/name");
          var sMsg = oBundle.getText("helloMsg", [sRecipient]);
          // show message
-         MessageToast.show(sMsg);*HIGHLIGHT END*
+         MessageToast.show(sMsg);
       }
    });
 });
@@ -96,7 +96,7 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Button
-      text*HIGHLIGHT START*="{i18n>showHelloButtonText}"*HIGHLIGHT END*
+      text="{i18n>showHelloButtonText}"
       press=".onShowHello"/>
    <Input
       value="{/recipient/name}"

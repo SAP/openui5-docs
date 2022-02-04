@@ -43,7 +43,7 @@ You can view and download all files at [Walkthrough - Step 25](https://openui5.h
 		...
 		"applicationVersion": {
 			"version": "1.0.0"
-		}*HIGHLIGHT START*,
+		},
 		"dataSources": {
 			"invoiceRemote": {
 				"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
@@ -52,7 +52,7 @@ You can view and download all files at [Walkthrough - Step 25](https://openui5.h
 					"odataVersion": "2.0"
 				}
 			}
-		}*HIGHLIGHT END*
+		}
 	},
 	"sap.ui": {
 		...
@@ -71,7 +71,7 @@ You can view and download all files at [Walkthrough - Step 25](https://openui5.h
 				}
 			},
 			"invoice": {
-*HIGHLIGHT START*				"dataSource": "invoiceRemote"*HIGHLIGHT END*
+				"dataSource": "invoiceRemote"
 			}
 		},
 		"resources": {

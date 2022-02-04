@@ -47,8 +47,8 @@ You can view and download all files at [Flexible Column Layout App - Step 13](ht
 				var oSettings = {
 					defaultTwoColumnLayoutType: fioriLibrary.LayoutType.TwoColumnsMidExpanded,
 					defaultThreeColumnLayoutType: fioriLibrary.LayoutType.ThreeColumnsMidExpanded,
-					initialColumnsCount: 2*HIGHLIGHT START*,
-					maxColumnsCount: 2*HIGHLIGHT END*
+					initialColumnsCount: 2,
+					maxColumnsCount: 2
 				};
 				return (FlexibleColumnLayoutSemanticHelper.getInstanceFor(oFCL, oSettings));
 			 });

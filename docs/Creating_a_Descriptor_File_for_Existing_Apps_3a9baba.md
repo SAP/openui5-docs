@@ -147,12 +147,12 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
     To fill the ID and version information, open the `Component.js` file of your app and find the ID / namespace and version information:
 
     ``` js
-    sap.ui.define\("cust.emp.myleaverequests.Component"\);
-    sap.ui.require\(\[
+    sap.ui.define("cust.emp.myleaverequests.Component");
+    sap.ui.require([
         "cust/emp/myleaverequests/Configuration", 
-        "hcm/emp/myleaverequests/Component"\], function\(Configuration, ComponentBase\) \{
-        ComponentBase.extend\("cust.emp.myleaverequests.Component", \{ 
-            metadata : \{
+        "hcm/emp/myleaverequests/Component"], function(Configuration, ComponentBase) {
+        ComponentBase.extend("cust.emp.myleaverequests.Component", { 
+            metadata : {
                 "name" : "My Leave Requests",
                 "version" : "1.2.6"
                 ...
@@ -520,7 +520,7 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     
-    hcm.emp.myleaverequests.Component.extend\("cust.emp.myleaverequests.Component", \{
+    hcm.emp.myleaverequests.Component.extend("cust.emp.myleaverequests.Component", {
     ```
 
     Return to the `manifest.json` file and enter the value from the `component` namespace in the `<extendedComponentId>` placeholder, for example `hcm.emp.myleaverequests`.
@@ -568,41 +568,41 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     
-    sap.ui.define\("cust.emp.myleaverequests.Component"\);
-    sap.ui.require\(\[
+    sap.ui.define("cust.emp.myleaverequests.Component");
+    sap.ui.require([
         "cust/emp/myleaverequests/Configuration",
-        "hcm/emp/myleaverequests/Component"\], function\(ComponentBase, Configuration\) \{
-        ComponentBase.extend\("hcm.emp.myleaverequests.Component", \{
-        	metadata : \{
+        "hcm/emp/myleaverequests/Component"], function(ComponentBase, Configuration) {
+        ComponentBase.extend("hcm.emp.myleaverequests.Component", {
+        	metadata : {
                 "name" : "My Leave Requests",
                 "version" : "...",
                 "library" : "cust.emp.myleaverequests",
-                "includes" : \[\],
-                "dependencies" : \{
-                    "libs" : \["sap.m", "sap.me"\],
-                    "components" : \["sap.app.otherComponent"\]
-                \},
+                "includes" : [],
+                "dependencies" : {
+                    "libs" : ["sap.m", "sap.me"],
+                    "components" : ["sap.app.otherComponent"]
+                },
                 "rootView": ...,
                 "handleValidation": ...,
-                "config": \{
+                "config": {
                     ...
-                \},
-                "routing": \{
+                },
+                "routing": {
                     ...
-                \},
-                "config" : \{
+                },
+                "config" : {
                     "titleResource": "app.Identity",
                     "resourceBundle": "i18n/i18n.properties",
                     "icon": "sap-icon://Fiori2/F0394",
-                    "favIcon": "./resources/sap/ca/ui/themes/base/img/favicon/My\_Leave\_Requests.ico",
-                    "homeScreenIconPhone": "./resources/sap/ca/ui/themes/base/img/launchicon/My\_Leave\_Requests/57\_iPhone\_Desktop\_Launch.png",
-                    "homeScreenIconPhone@2": "./resources/sap/ca/ui/themes/base/img/launchicon/My\_Leave\_Requests/114\_iPhone-Retina\_Web\_Clip.png",
-                    "homeScreenIconTablet": "./resources/sap/ca/ui/themes/base/img/launchicon/My\_Leave\_Requests/72\_iPad\_Desktop\_Launch.png",
-                    "homeScreenIconTablet@2": "./resources/sap/ca/ui/themes/base/img/launchicon/My\_Leave\_Requests/144\_iPad\_Retina\_Web\_Clip.png"
-                \}
-            \}
-        \}\);
-    \}\);
+                    "favIcon": "./resources/sap/ca/ui/themes/base/img/favicon/My_Leave_Requests.ico",
+                    "homeScreenIconPhone": "./resources/sap/ca/ui/themes/base/img/launchicon/My_Leave_Requests/57_iPhone_Desktop_Launch.png",
+                    "homeScreenIconPhone@2": "./resources/sap/ca/ui/themes/base/img/launchicon/My_Leave_Requests/114_iPhone-Retina_Web_Clip.png",
+                    "homeScreenIconTablet": "./resources/sap/ca/ui/themes/base/img/launchicon/My_Leave_Requests/72_iPad_Desktop_Launch.png",
+                    "homeScreenIconTablet@2": "./resources/sap/ca/ui/themes/base/img/launchicon/My_Leave_Requests/144_iPad_Retina_Web_Clip.png"
+                }
+            }
+        });
+    });
     ```
 
     Apply the following changes:
@@ -634,16 +634,16 @@ Detailed description of the steps needed to create a descriptor V2 for applicati
 
     ``` js
     
-    sap.ui.define\("cust.emp.myleaverequests.Component"\);
-    //sap.ui.require\("cust.emp.myleaverequests.Configuration"\);
-    sap.ui.require\(\["hcm/emp/myleaverequests/Component"\], function\(ComponentBase\) \{
+    sap.ui.define("cust.emp.myleaverequests.Component");
+    //sap.ui.require("cust.emp.myleaverequests.Configuration");
+    sap.ui.require(["hcm/emp/myleaverequests/Component"], function(ComponentBase) {
     
-        ComponentBase.extend\("cust.emp.myleaverequests.Component", \{
-            metadata : \{
+        ComponentBase.extend("cust.emp.myleaverequests.Component", {
+            metadata : {
                 "manifest": "json",
                 ...
     
-    \}\);
+    });
     ```
 
 2.  Adapt the data source reference in the `Component.js` file.

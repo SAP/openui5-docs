@@ -44,7 +44,7 @@ You can view and download all files at [OData V4 - Step 9](https://openui5.hana.
 			...
 		},
 
-*HIGHLIGHT START*		onSelectionChange : function (oEvent) {
+		onSelectionChange : function (oEvent) {
 			var oDetailArea = this.byId("detailArea"),
 				oLayout = this.byId("defaultLayout"),
 			// get binding of selected item
@@ -56,7 +56,7 @@ You can view and download all files at [OData V4 - Step 9](https://openui5.hana.
 			oDetailArea.setVisible(true);
 			oLayout.setSize("60%");
 			oLayout.setResizable(true);
-		},*HIGHLIGHT END*
+		},
 
 ...
 ```
@@ -77,21 +77,21 @@ Afterwards the detail area is made visible and is resized.
 	displayBlock="true"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-*HIGHLIGHT START*	xmlns:l="sap.ui.layout"
+	xmlns:l="sap.ui.layout"
 	xmlns:semantic="sap.f.semantic"
 	xmlns:f="sap.ui.layout.form"
-	xmlns:core="sap.ui.core"*HIGHLIGHT END*>
+	xmlns:core="sap.ui.core">
 	<Shell>
 		<App busy="{appView>/busy}" class="sapUiSizeCompact">
 			<pages>
 				...
 					<content>
-*HIGHLIGHT START*						<l:ResponsiveSplitter defaultPane="defaultPane">
+						<l:ResponsiveSplitter defaultPane="defaultPane">
 							<l:PaneContainer orientation="Horizontal">
 								<l:SplitPane id="defaultPane">
 									<l:layoutData>
 										<l:SplitterLayoutData id="defaultLayout" size="100%" resizable="false"/>
-									</l:layoutData>*HIGHLIGHT END*
+									</l:layoutData>
 									<Table
 										id="peopleList"
 										growing="true"
@@ -104,13 +104,13 @@ Afterwards the detail area is made visible and is resized.
 											}
 										}"
 										mode="SingleSelectLeft"
-*HIGHLIGHT START*										selectionChange=".onSelectionChange"*HIGHLIGHT END*>
+										selectionChange=".onSelectionChange">
 										<headerToolbar>
 											...
 										</headerToolbar>
 										...
 									</Table>
-*HIGHLIGHT START*								</l:SplitPane>
+								</l:SplitPane>
 								<l:SplitPane>
 									<!--Details-->
 									<!--remove busy-->
@@ -232,7 +232,7 @@ Afterwards the detail area is made visible and is resized.
 									</semantic:SemanticPage>
 								</l:SplitPane>
 							</l:PaneContainer>
-						</l:ResponsiveSplitter>*HIGHLIGHT END*
+						</l:ResponsiveSplitter>
 					</content>
 					...
 </mvc:View>
@@ -254,7 +254,7 @@ One of the most vital parts of the data reuse functionality is the usage of the 
 
 ``` prefs
 ...
-*HIGHLIGHT START*# Detail Area
+# Detail Area
 #XTIT: Title for Address
 addressTitleText=Address
  
@@ -274,7 +274,7 @@ countryLabelText=Country
 bestFriendTitleText=Best Friend
  
 #XFLD: Label for Best Friend Name
-nameLabelText=Name*HIGHLIGHT END*
+nameLabelText=Name
 
 ```
 

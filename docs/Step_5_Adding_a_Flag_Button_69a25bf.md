@@ -38,7 +38,7 @@ sap.ui.define([
 ], function (SimpleType) {
 	"use strict";
 	return SimpleType.extend("sap.ui.demo.bulletinboard.model.FlaggedType", {
-		*HIGHLIGHT START*/**
+		/**
 		 * Formats the integer value from the model to a boolean for the pressed state of the flagged button
 		 *
 		 * @public
@@ -72,7 +72,7 @@ sap.ui.define([
 		validateValue: function () {
 			return true;
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -101,15 +101,15 @@ We call these functions of the data type in the unit tests directly. So if you n
 		<Column width="33%" id="unitNumberColumn" hAlign="End" vAlign="Middle">
 			<Text text="{i18n>TableUnitNumberColumnTitle}" id="unitNumberColumnTitle"/>
 		</Column>
-		*HIGHLIGHT START*<Column width="80px" id="flaggedColumn" demandPopin="true" vAlign="Middle"/>
-*HIGHLIGHT END*
+		<Column width="80px" id="flaggedColumn" demandPopin="true" vAlign="Middle"/>
+
 	</columns>
 	<items>
 		<ColumnListItem vAlign="Middle">
 			<cells>
 				…
 				<ObjectNumber… />
-				*HIGHLIGHT START*<ToggleButton
+				<ToggleButton
 					id="flaggedButton"
 					tooltip="{i18n>flaggedTooltip}"
 					icon="sap-icon://flag"
@@ -118,7 +118,7 @@ We call these functions of the data type in the unit tests directly. So if you n
 						type: '.types.flagged'
 					}"
 					class="sapUiMediumMarginBeginEnd"/>
-*HIGHLIGHT END*
+
 			</cells>
 		</ColumnListItem>
 	</items>
@@ -136,15 +136,15 @@ In the view, we add a new column and a cell for the flag feature at the end of t
 sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',
-	'../model/formatter'*HIGHLIGHT START*,
-	'../model/FlaggedType',*HIGHLIGHT END*
+	'../model/formatter',
+	'../model/FlaggedType',
 	'sap/m/library'
-], function (BaseController, JSONModel, formatter*HIGHLIGHT START*, FlaggedType*HIGHLIGHT END*, mobileLibrary) {
+], function (BaseController, JSONModel, formatter, FlaggedType, mobileLibrary) {
 	"use strict";
 	return BaseController.extend("sap.ui.demo.bulletinboard.controller.Worklist", {
-		*HIGHLIGHT START*types : {
+		types : {
 			flagged: new FlaggedType()
-		},*HIGHLIGHT END*
+		},
 		formatter: formatter,
 		…
 	});
@@ -170,9 +170,9 @@ sap.ui.define([
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
-			*HIGHLIGHT START*// allow saving values to the OData model
+			// allow saving values to the OData model
 			this.getModel().setDefaultBindingMode("TwoWay");
-*HIGHLIGHT END*
+
 			…
 		}
 	});
@@ -189,9 +189,9 @@ To enable the propagation of the bound view properties to the model, we need to 
 #~~~ Worklist View ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 …
-*HIGHLIGHT START*#XTOL: tooltip for the flagged button
+#XTOL: tooltip for the flagged button
 flaggedTooltip=Mark this post as flagged
-*HIGHLIGHT END*
+
 …
 ```
 

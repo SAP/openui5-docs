@@ -43,8 +43,8 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 4](h
 		navButtonPress="onNavBack"
 		showNavButton="true"
 		title="{i18n>worklistViewTitle}">
-		<semantic:*HIGHLIGHT START*headerContent*HIGHLIGHT END*>
-*HIGHLIGHT START*			<IconTabBar
+		<semantic:headerContent>
+			<IconTabBar
 				id="iconTabBar"
 				select=".onQuickFilter"
 				expandable="false">
@@ -74,15 +74,15 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 4](h
 						count="{worklistView>/outOfStock}"
 						text="{i18n>WorklistFilterOutOfStock}"/>
 				</items>
-				<content>*HIGHLIGHT END*
+				<content>
 					<Table
 ...
 					</Table>
-*HIGHLIGHT START*				</content>
+				</content>
 			</IconTabBar>
-*HIGHLIGHT END*
 
-		</semantic:*HIGHLIGHT START*headerContent*HIGHLIGHT END*>
+
+		</semantic:headerContent>
 		<semantic:sendEmailAction>
 			<semantic:SendEmailAction
 				id="shareEmail"
@@ -130,7 +130,7 @@ We now update the view and add the new UI for the quick filter to the content ag
 			// so it can be restored later on. Busy handling on the table is
 			// taken care of by the table itself.
 			iOriginalBusyDelay = oTable.getBusyIndicatorDelay();
-*HIGHLIGHT START*			this._oTable = oTable;*HIGHLIGHT END*
+			this._oTable = oTable;
 			// keeps the search state
 			this._aTableSearchState = [];
 
@@ -141,20 +141,20 @@ We now update the view and add the new UI for the quick filter to the content ag
 				shareSendEmailSubject: this.getResourceBundle().getText("shareSendEmailWorklistSubject"),
 				shareSendEmailMessage: this.getResourceBundle().getText("shareSendEmailWorklistMessage", [location.href]),
 				tableNoDataText: this.getResourceBundle().getText("tableNoDataText"),
-				tableBusyDelay: 0*HIGHLIGHT START*,
+				tableBusyDelay: 0,
 				inStock: 0,
 				shortage: 0,
 				outOfStock: 0,
-				countAll: 0*HIGHLIGHT END*
+				countAll: 0
 			});
 			this.setModel(oViewModel, "worklistView");
-*HIGHLIGHT START*			// Create an object of filters
+			// Create an object of filters
 			this._mFilters = {
 				"inStock": [new Filter("UnitsInStock", FilterOperator.GT, 10)],
 				"outOfStock": [new Filter("UnitsInStock", FilterOperator.LE, 0)],
 				"shortage": [new Filter("UnitsInStock", FilterOperator.BT, 1, 10)],
 				"all": []
-			};*HIGHLIGHT END*
+			};
 
 			// Make sure, busy indication is showing immediately so there is no
 			// break after the busy indication for loading the view's meta data is
@@ -181,14 +181,14 @@ Creating a simple filter requires a binding path as first parameter of the filte
 			// update the worklist's object counter after the table update
 			var sTitle,
 				oTable = oEvent.getSource(),
-*HIGHLIGHT START*				oViewModel = this.getModel("worklistView"),
-*HIGHLIGHT END*
+				oViewModel = this.getModel("worklistView"),
+
 				iTotalItems = oEvent.getParameter("total");
 			// only update the counter if the length is final and
 			// the table is not empty
 			if (iTotalItems && oTable.getBinding("items").isLengthFinal()) {
 				sTitle = this.getResourceBundle().getText("worklistTableTitleCount", [iTotalItems]);
-*HIGHLIGHT START*				// Get the count for all the products and set the value to 'countAll' property
+				// Get the count for all the products and set the value to 'countAll' property
 				this.getModel().read("/Products/$count", {
 					success: function (oData) {
 						oViewModel.setProperty("/countAll", oData);
@@ -215,7 +215,7 @@ Creating a simple filter requires a binding path as first parameter of the filte
 					},
 					filters: this._mFilters.shortage
 				});
-*HIGHLIGHT END*
+
 			} else {
 				sTitle = this.getResourceBundle().getText("worklistTableTitle");
 			}
@@ -245,7 +245,7 @@ In the `success` handler of each `read` operation we update the corresponding pr
 			if (aTableSearchState.length !== 0) {
 				oViewModel.setProperty("/tableNoDataText", this.getResourceBundle().getText("worklistNoDataWithSearchText"));
 			}
-		}*HIGHLIGHT START*,
+		},
 
 		/**
 		 * Event handler when a filter tab gets pressed
@@ -257,7 +257,7 @@ In the `success` handler of each `read` operation we update the corresponding pr
 				sKey = oEvent.getParameter("selectedKey");
 			oBinding.filter(this._mFilters[sKey]);
 		}
-*HIGHLIGHT END*
+
 
 	});
 
@@ -276,7 +276,7 @@ The filters are always applied as an array on the binding level, so you don't ne
 
 ...
 
-*HIGHLIGHT START*
+
 #XTIT: The title of the products quick filter
 WorklistFilterProductsAll=Products
 
@@ -288,7 +288,7 @@ WorklistFilterShortage=Shortage
 
 #XTIT: The title of the products in stock filter
 WorklistFilterInStock=Plenty in Stock
-*HIGHLIGHT END*
+
 
 #~~~ Object View ~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...

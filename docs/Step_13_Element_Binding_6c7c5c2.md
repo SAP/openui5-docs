@@ -37,7 +37,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
 			</items>
 		</List>
 	</Panel>
-*HIGHLIGHT START*	<Panel id="productDetailsPanel" headerText="{i18n>panel4HeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel id="productDetailsPanel" headerText="{i18n>panel4HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<form:SimpleForm editable="true" layout="ColumnLayout">
 			<Label text="{i18n>ProductID}"/>
 			<Input value="{products>ProductID}"/>
@@ -57,7 +57,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
 			<Label text="{i18n>Discontinued}"/>
 			<CheckBox selected="{products>Discontinued}"/>
 		</form:SimpleForm>
-	</Panel>*HIGHLIGHT END*
+	</Panel>
 </mvc:View>
 ```
 
@@ -73,8 +73,8 @@ Now we have an empty form. In order to fill this form with data, we will bind th
 		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
 			<items>
 				<ObjectListItem
-					*HIGHLIGHT START*press=".onItemSelected"
-					type="Active"*HIGHLIGHT END*
+					press=".onItemSelected"
+					type="Active"
 					title="{products>ProductName}"
 					number="{
 						parts: [
@@ -116,14 +116,14 @@ sap.ui.define([
 			var oLocaleData = new LocaleData(oLocale);
 			var oCurrency = new Currency(oLocaleData.mData.currencyFormat);
 			return oCurrency.formatValue([fUnitPrice * iStockLevel, sCurrCode], "string");
-		}*HIGHLIGHT START*,
+		},
 		onItemSelected: function(oEvent) {
 			var oSelectedItem = oEvent.getSource();
 			var oContext = oSelectedItem.getBindingContext("products");
 			var sPath = oContext.getPath();
 			var oProductDetailPanel = this.byId("productDetailsPanel");
 			oProductDetailPanel.bindElement({ path: sPath, model: "products" });
-*HIGHLIGHT END*
+
 		}
 	});
 });
@@ -147,19 +147,19 @@ We can now click on an element in the list and see its details in the panel belo
 panel1HeaderText=Data Binding Basics
 panel2HeaderText=Address Details
 panel3HeaderText=Aggregation Binding
-*HIGHLIGHT START*panel4HeaderText=Product Details*HIGHLIGHT END*
+panel4HeaderText=Product Details
 
 # Product list
 productListTitle=Product List
 stockValue=Current Stock Value
 
-*HIGHLIGHT START*# Product Details
+# Product Details
 ProductID=Product ID
 ProductName=Product Name
 QuantityPerUnit=Quantity per Unit
 UnitPrice=Unit Price
 UnitsInStock=Number of Units in Stock
-Discontinued=Discontinued*HIGHLIGHT END*
+Discontinued=Discontinued
 
 ```
 
@@ -172,19 +172,19 @@ Discontinued=Discontinued*HIGHLIGHT END*
 panel1HeaderText=Data Binding Grundlagen
 panel2HeaderText=Adressdetails
 panel3HeaderText=Aggregation Binding
-*HIGHLIGHT START*panel4HeaderText=Produktdetails*HIGHLIGHT END*
+panel4HeaderText=Produktdetails
  
 # Product list
 productListTitle=Artikelliste
 stockValue=Lagerbestand Wert
 
-*HIGHLIGHT START*# Product Details
+# Product Details
 ProductID=Produkt-ID
 ProductName=Produktname
 QuantityPerUnit=Menge pro Einheit
 UnitPrice=Preis der Einheit
 UnitsInStock=Lagerbestand
-Discontinued=Eingestellt*HIGHLIGHT END*
+Discontinued=Eingestellt
 ```
 
 Add the missing texts to the `properties` files.

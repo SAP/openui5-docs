@@ -26,7 +26,7 @@ sap.ui.define([
 
     return UIComponent.extend("YourComponentClassName", {
 
-        ...*HIGHLIGHT START*,
+        ...,
 
         init: function () {
             ...
@@ -35,7 +35,7 @@ sap.ui.define([
             // this component should automatically initialize the router
             this.getRouter().initialize();
             ...
-        }*HIGHLIGHT END*
+        }
     });
 });
 ```

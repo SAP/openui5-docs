@@ -27,11 +27,10 @@ Control.extend('my.CustomControl', {
               value : { type : 'string' },
               width : { type : 'sap.ui.core.CSSSize', defaultValue : 'auto' }
           },
-          *HIGHLIGHT START*dnd*HIGHLIGHT END* : { draggable: false, droppable: true },
+          dnd : { draggable: false, droppable: true },
           aggregations : {
-              header : { type : "sap.ui.core.Control", multiple : false, *HIGHLIGHT START*dnd*HIGHLIGHT END* : true },
-              items : { type: 'sap.ui.core.Control', multiple : true, *HIGHLIGHT START*selector*HIGHLIGHT END* : "#{id}-items", *HIGHLIGHT START*dnd*HIGHLIGHT END* : {
-
+              header : { type : "sap.ui.core.Control", multiple : false, dnd : true },
+              items : { type: 'sap.ui.core.Control', multiple : true, selector : "#{id}-items", dnd : {
                        draggable: true, dropppable: true, layout: "Horizontal"
               } },
           }

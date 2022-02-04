@@ -57,7 +57,7 @@ sap.ui.define([
 		// Assertions
 		Then.onTheWorklistPage.theTableShouldHaveAllEntries();
 	});
-	*HIGHLIGHT START*opaTest("Should be able to search for items", function (Given, When, Then) {
+	opaTest("Should be able to search for items", function (Given, When, Then) {
 		//Actions
 		When.onTheWorklistPage.iSearchFor("Bear");
 
@@ -67,7 +67,7 @@ sap.ui.define([
 		// Cleanup
 		Then.iTeardownMyApp();
 	});
-*HIGHLIGHT END*
+
 	}
 );
 ```
@@ -87,16 +87,16 @@ sap.ui.require([
 		'sap/ui/test/matchers/I18NText',
 		'sap/ui/test/matchers/BindingPath',
 		'sap/ui/demo/bulletinboard/test/integration/pages/Common',
-		'sap/ui/test/actions/Press'*HIGHLIGHT START*,
-		'sap/ui/test/actions/EnterText'*HIGHLIGHT END*
+		'sap/ui/test/actions/Press',
+		'sap/ui/test/actions/EnterText'
 	],
 	function (Opa5,
 			  AggregationLengthEquals,
 			  I18NText,
 			  BindingPath,
 			  Common,
-			  Press*HIGHLIGHT START*,
-			  EnterText*HIGHLIGHT END*) {
+			  Press,
+			  EnterText) {
 		"use strict";
 
 		var sViewName = "Worklist",
@@ -107,7 +107,7 @@ sap.ui.require([
 				baseClass: Common,
 				actions: {
 ...
-					}*HIGHLIGHT START*,
+					},
 					
 					iSearchFor: function (sSearchString) {
 						return this.waitFor({
@@ -119,10 +119,10 @@ sap.ui.require([
 							errorMessage: "SearchField was not found."
 						});
 					}
-*HIGHLIGHT END*
+
 				},
 				assertions: {
-					*HIGHLIGHT START*theTableHasOneItem: function () {
+					theTableHasOneItem: function () {
 						return this.waitFor({
 							id: sTableId,
 							viewName: sViewName,
@@ -135,7 +135,7 @@ sap.ui.require([
 							},
 							errorMessage: "The table does not contain one item."
 						});
-					},*HIGHLIGHT END*
+					},
 ...
 ```
 

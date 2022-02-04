@@ -36,7 +36,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 <mvc:View
       controllerName="sap.ui.demo.bulletinboard.controller.Post"
       xmlns="sap.m"
-      *HIGHLIGHT START*xmlns:form="sap.ui.layout.form"*HIGHLIGHT END*
+      xmlns:form="sap.ui.layout.form"
       xmlns:mvc="sap.ui.core.mvc"
       xmlns:semantic="sap.m.semantic">
    <semantic:FullscreenPage
@@ -57,7 +57,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
                numberUnit="{Currency}"
                backgroundDesign="Translucent">
          </ObjectHeader>
-         *HIGHLIGHT START*<IconTabBar id="iconTabBar"
+         <IconTabBar id="iconTabBar"
                   expanded="{device>/isNoPhone}"
                   class="sapUiNoContentPadding">
             <items>
@@ -76,7 +76,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
                </IconTabFilter>
             </items>
          </IconTabBar>
-*HIGHLIGHT END*
+
       </semantic:content>
    </semantic:FullscreenPage>
 </mvc:View>
@@ -98,13 +98,13 @@ In this very simple example, we just put a static text in the tab. In a real app
 #XTIT: Object view title
 objectTitle=Post
 
-*HIGHLIGHT START*
+
 #XTIT: Post view date label
 postDateLabel=Posted At
 
 #XTIT: Post view description label
 postDescriptionLabel=Description
-*HIGHLIGHT END*
+
 
 #~~~ Footer Options ~~~~~~~~~~~~~~~~~~~~~~~
 ```

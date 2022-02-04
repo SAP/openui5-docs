@@ -52,7 +52,7 @@ With this configuration you can use the destination for any app inside SAP Web I
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
-    }*HIGHLIGHT START*,
+    },
     {
       "path": "/destinations/northwind",
       "target": {
@@ -60,7 +60,7 @@ With this configuration you can use the destination for any app inside SAP Web I
         "name": "northwind"
       },
       "description": "Northwind OData Service"
-    }*HIGHLIGHT END*
+    }
   ]
 }
 ```
@@ -78,7 +78,7 @@ In the app descriptor, the service URL is then defined relative to the destinati
 "sap.app": {
  "dataSources": {
    "": {
-     "uri": "*HIGHLIGHT START*/destinations/northwind/V2/Northwind/Northwind.svc/*HIGHLIGHT END*",
+     "uri": "/destinations/northwind/V2/Northwind/Northwind.svc/",
      "type": "OData",
      "settings": {
        "odataVersion": "2.0"

@@ -136,7 +136,7 @@ In addition to individual span and indentation, there is a large number of prope
 
 ``` xml
 <l:Grid
-		defaultSpan="*HIGHLIGHT START*XL3 L4 M6 S12*HIGHLIGHT END*">
+		defaultSpan="XL3 L4 M6 S12">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%"></Image>
 	<Image src="/item3.png" width="100%"></Image>
@@ -174,8 +174,8 @@ S container/screen size \(one item spans over 12 columns\)
 
 ``` xml
 <l:Grid
-		defaultSpan="*HIGHLIGHT START*XL3*HIGHLIGHT END* L4 M6 S12"
-		defaultIndent="*HIGHLIGHT START*XL1*HIGHLIGHT END* L1 M1 S1">
+		defaultSpan="XL3 L4 M6 S12"
+		defaultIndent="XL1 L1 M1 S1">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%"></Image>
 	<Image src="/item3.png" width="100%"></Image>
@@ -204,15 +204,15 @@ XL container/screen size \(items are indented with 1 column\)
 		defaultSpan="XL3 L4 M6 S6">
 	<Image src="/item1.png" width="100%"></Image>
 	<Image src="/item2.png" width="100%">
-*HIGHLIGHT START*		<layoutData>
+		<layoutData>
 			<l:GridData span="XL4"/>
-		</layoutData>*HIGHLIGHT END*
+		</layoutData>
 	</Image>
 	<Image src="/item3.png" width="100%"></Image>
 	<Image src="/item4.png" width="100%">
-*HIGHLIGHT START*		<layoutData>
+		<layoutData>
 			<l:GridData span="XL2"/>
-		</layoutData>*HIGHLIGHT END*
+		</layoutData>
 	</Image>
 </l:Grid>
 ```

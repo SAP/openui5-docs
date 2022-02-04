@@ -28,7 +28,7 @@ There are several options for labeling:
 
 
     > ### Example:  
-    > `<Label text="Product price" required="true" **labelFor="productPriceInput"**/>`
+    > <code>&lt;Label text="Product price" required="true" <b>labelFor="productPriceInput"</b>/&gt;</code>
 
 2.  The `aria-label` attribute
 

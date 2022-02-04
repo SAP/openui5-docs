@@ -40,7 +40,7 @@ You can view and download all files at [Walkthrough - Step 18](https://openui5.h
       <content>
          <Button
             id="helloDialogButton"
-            *HIGHLIGHT START*icon="sap-icon://world"*HIGHLIGHT END*
+            icon="sap-icon://world"
             text="{i18n>openDialogButtonText}"
             press=".onOpenDialog"
             class="sapUiSmallMarginEnd"/>
@@ -65,7 +65,7 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 > ### Tip:  
 > You can look up other icons using the *Icon Explorer* tool in the Demo Kit.
 > 
-> To call any icon, use its name as listed in the *Icon Explorer* in `sap-icon://*<iconname\>*`.
+> To call any icon, use its name as listed in the *Icon Explorer* in <code>sap-icon://<i>&lt;iconname&gt;</i></code>.
 
 ***
 
@@ -78,12 +78,12 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
-      *HIGHLIGHT START*<content>
+      <content>
          <core:Icon
             src="sap-icon://hello-world"
             size="8rem"
             class="sapUiMediumMargin"/>
-      </content>*HIGHLIGHT END*
+      </content>
       <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"

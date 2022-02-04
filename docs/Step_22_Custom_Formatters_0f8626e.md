@@ -29,7 +29,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 You can view and download all files at [Walkthrough - Step 22](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.22/preview).
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([], function () {
+sap.ui.define([], function () {
 	"use strict";
 	return {
 		statusText: function (sStatus) {
@@ -46,7 +46,7 @@ You can view and download all files at [Walkthrough - Step 22](https://openui5.h
 			}
 		}
 	};
-});*HIGHLIGHT END*
+});
 ```
 
 We create a new folder `model` in our app project. The new `formatter` file is placed in the model folder of the app, because formatters are working on data properties and format them for display on the UI. So far we did not have any model-related artifacts, except for the `Invoices.json` file, we will now add the folder `webapp/model` to our app. This time we do not extend from any base object but just return a JavaScript object with our `formatter` functions inside the `sap.ui.define` call.
@@ -60,12 +60,12 @@ Function `statusText` gets the technical status from the data model as input par
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/ui/model/json/JSONModel"*HIGHLIGHT START*,
-	"../model/formatter"*HIGHLIGHT END*
-], function (Controller, JSONModel, *HIGHLIGHT START*formatter*HIGHLIGHT END*) {
+	"sap/ui/model/json/JSONModel",
+	"../model/formatter"
+], function (Controller, JSONModel, formatter) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.walkthrough.controller.InvoiceList", {
-		*HIGHLIGHT START*formatter: formatter,*HIGHLIGHT END*
+		formatter: formatter,
 		onInit : function () {
 			var oViewModel = new JSONModel({
 				currency: "EUR"
@@ -103,14 +103,14 @@ To load our formatter functions, we have to add it to the `InvoiceList.controlle
 					}
 				}"
 				numberUnit="{view>/currency}"
-				numberState="{=	${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"*HIGHLIGHT START*>
+				numberState="{=	${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
 				<firstStatus>
 					<ObjectStatus text="{
 						path: 'invoice>Status',
 						formatter: '.formatter.statusText'
 					}"/>
 				</firstStatus>
-			</ObjectListItem>*HIGHLIGHT END*
+			</ObjectListItem>
 		</items>
 	</List>
 </mvc:View>
@@ -125,7 +125,8 @@ We add a status using the `firstStatus` aggregation to our `ObjectListItem` that
 ``` prefs
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span]
 
 # Hello Panel
 showHelloButtonText=Say Hello
@@ -137,9 +138,9 @@ dialogCloseButtonText=Ok
 
 # Invoice List
 invoiceListTitle=Invoices
-*HIGHLIGHT START*invoiceStatusA=New
+invoiceStatusA=New
 invoiceStatusB=In Progress
-invoiceStatusC=Done*HIGHLIGHT END*
+invoiceStatusC=Done
 ```
 
 We add three new entries to the resource bundle that reflect our translated status texts. These texts are now displayed below the `number` attribute of the `ObjectListItem` dependent on the status of the invoice.

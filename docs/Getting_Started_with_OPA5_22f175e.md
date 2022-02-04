@@ -270,9 +270,11 @@ OPA provides several getters that give access to certain properties of the conte
 
 // returns the body of the app window wrapped in a jQuery object
 Opa5.getJQuery()("body");
-// returns the OpenUI5 OPA plugin object of the app window
+// returns the [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span] OPA plugin object of the app window
 Opa5.getPlugin();
-// returns the OpenUI5 core interface of the app window
+// returns the [/pandoc/div/div/horizontalrule/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span] core interface of the app window
 Opa5.getWindow().sap.ui.getCore();
 // returns the Date in the app context
 Opa5.getWindow().Date();

@@ -102,14 +102,14 @@ Incorrect Example
 <tr>
 <td valign="top">
 
- `<**B**utton text="Click me" />` 
+ <code>&lt;<b>B</b>utton text="Click me" /&gt;</code> 
 
 
 
 </td>
 <td valign="top">
 
-`<**b**utton text="Click me" />`
+<code>&lt;<b>b</b>utton text="Click me" /&gt;</code>
 
 Error message: `Uncaught Error: failed to load 'sap/m/button.js'`
 

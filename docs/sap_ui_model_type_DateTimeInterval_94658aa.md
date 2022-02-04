@@ -80,17 +80,17 @@ oTable.bindItems({
                         path:'StartsAt',
                         // requires OData type to convert the date
                         // string into JavaScript Date object
-                        *HIGHLIGHT START*type: "sap.ui.model.odata.type.DateTimeOffset"
-*HIGHLIGHT END*
+                        type: "sap.ui.model.odata.type.DateTimeOffset"
+
                     },{
                         path:'EndsAt',
                         // requires OData type
-                        *HIGHLIGHT START*type: "sap.ui.model.odata.type.DateTimeOffset"*HIGHLIGHT END*
+                        type: "sap.ui.model.odata.type.DateTimeOffset"
                     }
                 ],
-                *HIGHLIGHT START*type: 'sap.ui.model.type.DateInterval',
+                type: 'sap.ui.model.type.DateInterval',
                 formatOptions: {format: "yMMMdd"}
-*HIGHLIGHT END*
+
             }})
         ]
     })

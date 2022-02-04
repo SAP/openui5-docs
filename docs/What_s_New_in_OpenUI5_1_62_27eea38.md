@@ -163,7 +163,7 @@ The control can now display several items at once. This functionality is impleme
 <tr>
 <td valign="top">
 
-`**`sap.m.Column`**`
+<code><b><code>sap.m.Column</code></b></code>
 
 The `sortIndicator` property now shows a sort icon when a column is sorted. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Column) for the `sortIndicator` property.
 
@@ -185,7 +185,7 @@ In order for the `ComboBox` to be aligned with the rest of the input controls an
 <tr>
 <td valign="top">
 
-`**sap.m.ListBase**`
+<code><b>sap.m.ListBase</b></code>
 
 You can now use more values for the `highlight` property. These values are provided by the `sap.ui.core.MessageType` and `sap.ui.core.IndicationColor` enumerations. To define a custom semantic for the highlight color, you can use the new `highlightText` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase/controlProperties) for the `highlight` property.
 
@@ -226,7 +226,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 <tr>
 <td valign="top">
 
-`**sap.m.StandardListItem**`
+<code><b>sap.m.StandardListItem</b></code>
 
 The new `information` value in the `sap.ui.core.ValueState` enumeration is now supported by the `infoState` property of `StandardListItem`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem/methods/getInfoState).
 

@@ -35,8 +35,8 @@ You can view and download all files at [Walkthrough - Step 32](https://openui5.h
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
 		title="{i18n>detailPageTitle}"
-		*HIGHLIGHT START*showNavButton="true"
-		navButtonPress=".onNavBack">*HIGHLIGHT END*
+		showNavButton="true"
+		navButtonPress=".onNavBack">
 		<ObjectHeader
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
@@ -53,8 +53,8 @@ On the detail page, we tell the control to display a back button by setting the 
 ``` js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-*HIGHLIGHT START*	"sap/ui/core/routing/History"*HIGHLIGHT END*
-], function (Controller*HIGHLIGHT START*, History*HIGHLIGHT END*) {
+	"sap/ui/core/routing/History"
+], function (Controller, History) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
@@ -69,7 +69,7 @@ sap.ui.define([
 				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
 				model: "invoice"
 			});
-		}*HIGHLIGHT START*,
+		},
 
 		onNavBack: function () {
 			var oHistory = History.getInstance();
@@ -82,7 +82,7 @@ sap.ui.define([
 				oRouter.navTo("overview", {}, true);
 			}
 		}
-*HIGHLIGHT END*
+
 	});
 });
 

@@ -273,7 +273,7 @@ To activate measurement for certain categories only, you have the following opti
     ```
     // Measure only "require" category
     // "Measurement" required from module "sap/ui/performance/Measurement"
-    Measurement.setActive(true,**"require"**)
+    Measurement.setActive(true,"require")
     ```
 
     To assign a measurement to a specific category, just add the category to the `start` function.

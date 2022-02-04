@@ -53,26 +53,26 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 					"pattern": "",
 					"name": "worklist",
 					"target": "worklist"
-				}*HIGHLIGHT START*,
+				},
 				{
 					"pattern": "Post/{postId}",
 					"name": "post",
 					"target": "post"
 				}
-*HIGHLIGHT END*
+
 			],
 			"targets": {
 				"worklist": {
 					"name": "Worklist",
 					"id": "worklist",
 					"level": 1
-				}*HIGHLIGHT START*,
+				},
 				"post": {
 					"name": "Post",
 					"id": "post",
 					"level": 2
 				}
-*HIGHLIGHT END*
+
 			}
 		}
 	}
@@ -100,9 +100,9 @@ We have already used the `#/Posts/{postId}` hash in our tests and a view called 
 				…
 				<items>
 					<ColumnListItem
-						*HIGHLIGHT START*vAlign="Middle"
+						vAlign="Middle"
 						type="Navigation"
-						press=".onPress"*HIGHLIGHT END*>
+						press=".onPress">
 						…
 					</ColumnListItem>
 				</items>
@@ -135,7 +135,7 @@ sap.ui.define([
 		/* event handlers                                              */
 		/* =========================================================== */
 		…
-		*HIGHLIGHT START*		/**
+				/**
 		 * Event handler when a table item gets pressed
 		 * @param {sap.ui.base.Event} oEvent the table selectionChange event
 		 * @public
@@ -146,7 +146,7 @@ sap.ui.define([
 				postId: oEvent.getSource().getBindingContext().getProperty("PostID")
 			});
 
-		},*HIGHLIGHT END*
+		},
 		…
 	});
 });
@@ -159,7 +159,7 @@ The `press` handler function instructs the `router` to navigate to the `post` pa
 ### webapp/view/Post.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 		controllerName="sap.ui.demo.bulletinboard.controller.Post"
 		xmlns="sap.m"
 		xmlns:mvc="sap.ui.core.mvc"
@@ -184,7 +184,7 @@ The `press` handler function instructs the `router` to navigate to the `post` pa
 			</ObjectHeader>
 		</semantic:content>
 	</semantic:FullscreenPage>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We provide a minimalistic detail page showing only some fields of the selected post for now. In the test we use the following information:
@@ -201,7 +201,7 @@ We provide a minimalistic detail page showing only some fields of the selected p
 ### webapp/controller/Post.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',
 	'../model/formatter'
@@ -268,7 +268,7 @@ We provide a minimalistic detail page showing only some fields of the selected p
 			});
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 The controller of the `Post` page needs to take care of the data binding when a navigation event has happened. In the `init` function of the controller we define a local view model and attach to the `routing` event. When the `routing` event is triggered, we bind the view to the post with the specified ID.

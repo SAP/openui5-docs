@@ -32,7 +32,7 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
 You can view and download all files at [Walkthrough - Step 14](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.14/preview).
 
 ```
-*HIGHLIGHT START*html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
    margin-right: 0.125rem
 }
 
@@ -44,7 +44,7 @@ html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
    display: inline-block;
    font-weight: bold;
 }
-*HIGHLIGHT END*
+
 ```
 
 We create a folder `css` which will contain our CSS files. In a new style definition file inside the `css` folder we create our custom classes combined with a custom namespace class. This makes sure that the styles will only be applied on controls that are used within our app.
@@ -65,7 +65,7 @@ In an additional class `myCustomText` we define a bold text and set the display 
 	...	
 	"models": {
 	  ...
-	}*HIGHLIGHT START*,
+	},
 	"resources": {
 	  "css": [
 		{
@@ -73,7 +73,7 @@ In an additional class `myCustomText` we define a bold text and set the display 
 		}
 	  ]
 	}
-*HIGHLIGHT END*
+
   }
 ```
 
@@ -90,7 +90,7 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
 	<Shell>
-		<App *HIGHLIGHT START*class="myAppDemoWT"*HIGHLIGHT END*>
+		<App class="myAppDemoWT">
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
@@ -102,14 +102,14 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
-									class="*HIGHLIGHT START*myCustomButton*HIGHLIGHT END*"/>
+									class="myCustomButton"/>
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
-								<*HIGHLIGHT START*FormattedText*HIGHLIGHT END*
-									*HIGHLIGHT START*htmlText*HIGHLIGHT END*="Hello {/recipient/name}"
-									class="sapUiSmallMargin*HIGHLIGHT START* sapThemeHighlight-asColor myCustomText*HIGHLIGHT END*"/>
+								<FormattedText
+									htmlText="Hello {/recipient/name}"
+									class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
 							</content>
 						</Panel>
 					</content>

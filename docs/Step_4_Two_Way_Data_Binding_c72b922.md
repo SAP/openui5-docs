@@ -33,7 +33,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 4](h
 ### webapp/view/App.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -47,7 +47,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 4](h
 			<CheckBox selected="{/enabled}"/>
 		</form:SimpleForm>
 	</Panel>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We create a new `view` folder in our app and a new file for our XML view inside the app folder.
@@ -67,20 +67,20 @@ sap.ui.require([
 	sap.ui.getCore().attachInit(function () {
 		// Create a JSON model from an object literal
 		var oModel = new JSONModel({
-*HIGHLIGHT START*			firstName: "Harry",
+			firstName: "Harry",
 			lastName: "Hawk",
 			enabled: true,
 			panelHeaderText: "Data Binding Basics"
-*HIGHLIGHT END*
+
 		});
 		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
 
-*HIGHLIGHT START*		// Display the XML view called "App"
+		// Display the XML view called "App"
 		new XMLView({
 			viewName: "sap.ui.demo.db.view.App"
 		}).placeAt("content");
-*HIGHLIGHT END*
+
 	});
 });
 ```

@@ -41,7 +41,7 @@ You can view and download all files at [OData V4 - Step 6](https://openui5.hana.
 ``` js
 ...
 		onInit : function () {
-			*HIGHLIGHT START*var oMessageManager = sap.ui.getCore().getMessageManager(),
+			var oMessageManager = sap.ui.getCore().getMessageManager(),
 				oMessageModel = oMessageManager.getMessageModel(),
 				oMessageModelBinding = oMessageModel.bindList("/", undefined, [],
 					new Filter("technical", FilterOperator.EQ, true)),
@@ -55,7 +55,7 @@ You can view and download all files at [OData V4 - Step 6](https://openui5.hana.
 			this.getView().setModel(oMessageModel, "message");
 
 			oMessageModelBinding.attachChange(this.onMessageBindingChange, this);
-			this._bTechnicalErrors = false;*HIGHLIGHT END*
+			this._bTechnicalErrors = false;
 },
 ...
 ```
@@ -69,9 +69,9 @@ We change the `onInit` method: The `appView` model receives two additional prope
 		},
 		_getText : function (sTextId, aArgs) {
 			...
-		}*HIGHLIGHT START*,*HIGHLIGHT END*
+		},
 
-		*HIGHLIGHT START*_setUIChanges : function (bHasUIChanges) {
+		_setUIChanges : function (bHasUIChanges) {
 			if (this._bTechnicalErrors) {
 				// If there is currently a technical error, then force 'true'.
 				bHasUIChanges = true;
@@ -80,7 +80,7 @@ We change the `onInit` method: The `appView` model receives two additional prope
 			}
 			var oModel = this.getView().getModel("appView");
 			oModel.setProperty("/hasUIChanges", bHasUIChanges);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -92,7 +92,7 @@ We add the `_setUIChanges` private method that lets us set the property `hasUICh
 		onInit: function () {
 			...
 		},
-		*HIGHLIGHT START*onCreate : function () {
+		onCreate : function () {
 			var oList = this.byId("peopleList"),
 				oBinding = oList.getBinding("items"),
 				oContext = oBinding.create({
@@ -112,7 +112,7 @@ We add the `_setUIChanges` private method that lets us set the property `hasUICh
 					return true;
 				}
 			});
-		},*HIGHLIGHT END*
+		},
 		onRefresh
 ...
 ```
@@ -126,7 +126,7 @@ We also use the binding context returned by the `create` method to focus and sel
 		onRefresh: function () {
 			...
 		},
-		*HIGHLIGHT START*onSave : function () {
+		onSave : function () {
 			var fnSuccess = function () {
 				this._setBusy(false);
 				MessageToast.show(this._getText("changesSentMessage"));
@@ -142,18 +142,18 @@ We also use the binding context returned by the `create` method to focus and sel
 			this._setBusy(true); // Lock UI until submitBatch is resolved.
 			this.getView().getModel().submitBatch("peopleGroup").then(fnSuccess, fnError);
 			this._bTechnicalErrors = false; // If there were technical errors, a new save resets them.
-		},*HIGHLIGHT END*
+		},
 		onSearch: function () {
 			...
 		},
 		...
 		_setUIChanges : function (bHasUIChanges) {
 			...
-		}*HIGHLIGHT START*,*HIGHLIGHT END*
-		*HIGHLIGHT START*_setBusy : function (bIsBusy) {
+		},
+		_setBusy : function (bIsBusy) {
 			var oModel = this.getView().getModel("appView");
 			oModel.setProperty("/busy", bIsBusy);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -170,7 +170,7 @@ We also define a `_setBusy` private function to lock the whole UI while the data
 			...
 		},
 
-		*HIGHLIGHT START*onMessageBindingChange : function (oEvent) {
+		onMessageBindingChange : function (oEvent) {
 			var aContexts = oEvent.getSource().getContexts(),
 				aMessages,
 				bMessageOpen = false;
@@ -195,7 +195,7 @@ We also define a `_setBusy` private function to lock the whole UI while the data
 			});
 
 			bMessageOpen = true;
-		},*HIGHLIGHT END*
+		},
 ...
 ```
 
@@ -206,11 +206,11 @@ We implement the event handler for the `change` event of the `ListBinding` to th
 		onRefresh: function () {
 			...
 		},
-		*HIGHLIGHT START*onResetChanges : function () {
+		onResetChanges : function () {
 			this.byId("peopleList").getBinding("items").resetChanges();
 			this._bTechnicalErrors = false; 
 			this._setUIChanges();
-		},*HIGHLIGHT END*
+		},
 		onSearch: function () {
 			...
 		},
@@ -224,7 +224,7 @@ The `onResetChanges` method handles discarding pending changes. It uses the `res
 		onCreate: function () {
 			...
 		},
-		*HIGHLIGHT START*onInputChange : function (oEvt) {
+		onInputChange : function (oEvt) {
 			if (oEvt.getParameter("escPressed")) {
 				this._setUIChanges();
 			} else {
@@ -233,7 +233,7 @@ The `onResetChanges` method handles discarding pending changes. It uses the `res
 					this.getView().getModel("appView").setProperty("/usernameEmpty", false);
 				}
 			}
-		},*HIGHLIGHT END*
+		},
 		onRefresh : function () {
 			...
 		},
@@ -266,8 +266,8 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 							items="{
 								path: '/People',
 								parameters: {
-								$count: true*HIGHLIGHT START*,
-									$$updateGroupId : 'peopleGroup'*HIGHLIGHT END*
+								$count: true,
+									$$updateGroupId : 'peopleGroup'
 								}
 							}">
 							<headerToolbar>
@@ -278,9 +278,9 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 											id="searchField"
 											width="20%"
 											placeholder="{i18n>searchFieldPlaceholder}"
-*HIGHLIGHT START*											enabled="{= !${appView>/hasUIChanges}}"*HIGHLIGHT END*
+											enabled="{= !${appView>/hasUIChanges}}"
 											search=".onSearch"/>
-*HIGHLIGHT START*										<Button
+										<Button
 											id="addUserButton"
 											icon="sap-icon://add"
 											tooltip="{i18n>createButtonText}"
@@ -289,17 +289,17 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 												<OverflowToolbarLayoutData priority="NeverOverflow"/>
 											</layoutData>
 										</Button>
-*HIGHLIGHT END*
+
 										<Button
 											id="refreshUsersButton"
 											icon="sap-icon://refresh"
-*HIGHLIGHT START**											enabled="{= !${appView>/hasUIChanges}}"*HIGHLIGHT END**
+											enabled="{= !${appView>/hasUIChanges}}"
 											tooltip="{i18n>refreshButtonText}"
 											press=".onRefresh"/>
 										<Button
 											id="sortUsersButton"
 											icon="sap-icon://sort"
-*HIGHLIGHT START*											enabled="{= !${appView>/hasUIChanges}}"*HIGHLIGHT END*
+											enabled="{= !${appView>/hasUIChanges}}"
 											tooltip="{i18n>sortButtonText}"
 											press=".onSort"/>
 									</content>
@@ -324,31 +324,31 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 									<cells>
 										<Input
 											value="{UserName}"
-*HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"*HIGHLIGHT END*/>
+											valueLiveUpdate="true"
+											liveChange=".onInputChange"/>
 
 									</cells>
 									<cells>
 										<Input
 											value="{FirstName}"
-				*HIGHLIGHT START*							liveChange=".onInputChange"*HIGHLIGHT END*/>
+											liveChange=".onInputChange"/>
 									</cells>
 									<cells>
 										<Input
 											value="{LastName}"
-				*HIGHLIGHT START*							liveChange=".onInputChange"*HIGHLIGHT END*/>
+											liveChange=".onInputChange"/>
 									</cells>
 									<cells>
 										<Input
 											value="{Age}"
-*HIGHLIGHT START*											valueLiveUpdate="true"
-											liveChange=".onInputChange"*HIGHLIGHT END*/>
+											valueLiveUpdate="true"
+											liveChange=".onInputChange"/>
 									</cells>
 								</ColumnListItem>
 							</items>
 						</Table>
 					</content>
-*HIGHLIGHT START*					<footer>
+					<footer>
 						<Toolbar visible="{appView>/hasUIChanges}">
 							<ToolbarSpacer/>
 							<Button
@@ -363,7 +363,7 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 								press=".onResetChanges"/>
 						</Toolbar>
 					</footer>
-*HIGHLIGHT END*
+
 				</Page>
 			</pages>
 		</App>
@@ -388,23 +388,24 @@ Creation via a form is demonstrated in our [Sales Orders sample app](https://ope
 
 ``` prefs
 # Toolbar
-*HIGHLIGHT START*#XBUT: Button text for save
+#XBUT: Button text for save
 saveButtonText=Save
 
 #XBUT: Button text for cancel
 cancelButtonText=Cancel
 
-*HIGHLIGHT END*\#XBUT: Button text for add user
+[/pandoc/div/div/horizontalrule/codeblock/strong/strong
+     {"emphasis"}) #XBUT: Button text for add user
 createButtonText=Add User
-*HIGHLIGHT START*
+ (strong]
 
-*HIGHLIGHT END*
+
 #XTOL: Tooltip for sort
 sortButtonText=Sort by Last Name
 ...
 # Messages
-*HIGHLIGHT START*#XMSG: Message for user changes sent to the service
-changesSentMessage=User data sent to the server*HIGHLIGHT END*
+#XMSG: Message for user changes sent to the service
+changesSentMessage=User data sent to the server
 ...
 ```
 

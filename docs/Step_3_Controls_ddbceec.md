@@ -56,9 +56,9 @@ You can view and download all files at [Walkthrough - Step 3](https://openui5.ha
 		}'>
 	</script>
 </head>
-*HIGHLIGHT START*<body class="sapUiBody" id="content">
+<body class="sapUiBody" id="content">
 </body>
-*HIGHLIGHT END*
+
 </html>
 
 ```
@@ -73,15 +73,15 @@ The class `sapUiBody` adds additional theme-dependent styles for displaying Open
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/m/Text"
-*HIGHLIGHT END*
-], function (*HIGHLIGHT START*Text*HIGHLIGHT END*) {
+	"sap/m/Text"
+
+], function (Text) {
 	"use strict";
 
-*HIGHLIGHT START*	new Text({
+	new Text({
 		text: "Hello World"
 	}).placeAt("content");
-*HIGHLIGHT END*
+
 });
 
 ```

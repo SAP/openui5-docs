@@ -35,7 +35,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
 ### webapp/index.html \(New\)
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -52,7 +52,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
 	<script src="index.js"></script>
 </head>
 <body class="sapUiBody" id="content"></body>
-</html>*HIGHLIGHT END*
+</html>
 ```
 
 Create a new folder `webapp` which will contain all sources of the app that we will create throughout this tutorial, and create the `index.html` file within this folder.

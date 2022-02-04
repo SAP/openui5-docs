@@ -42,17 +42,17 @@ You can view and download all files at [Walkthrough - Step 23](https://openui5.h
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <List
-      *HIGHLIGHT START*id="invoiceList"*HIGHLIGHT END*
+      id="invoiceList"
       class="sapUiResponsiveMargin"
       width="auto"
       items="{invoice>/Invoices}" >
-      *HIGHLIGHT START*<headerToolbar>
+      <headerToolbar>
          <Toolbar>
             <Title text="{i18n>invoiceListTitle}"/>
             <ToolbarSpacer/>
             <SearchField width="50%" search=".onFilterInvoices"/>
          </Toolbar>
-      </headerToolbar>*HIGHLIGHT END*
+      </headerToolbar>
       <items>
          <ObjectListItem>
 		…
@@ -74,10 +74,10 @@ The `headerToolbar` aggregation replaces the simple `title` property that we use
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
-	"../model/formatter"*HIGHLIGHT START*,
+	"../model/formatter",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"*HIGHLIGHT END*
-], function (Controller, JSONModel, formatter*HIGHLIGHT START*, Filter, FilterOperator*HIGHLIGHT END*) {
+	"sap/ui/model/FilterOperator"
+], function (Controller, JSONModel, formatter, Filter, FilterOperator) {
 	"use strict";
 	return Controller.extend("sap.ui.demo.walkthrough.controller.InvoiceList", {
 		formatter: formatter, 
@@ -86,7 +86,7 @@ sap.ui.define([
 				currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
-		}*HIGHLIGHT START*,
+		},
 		onFilterInvoices : function (oEvent) {
 
 			// build filter array
@@ -100,7 +100,7 @@ sap.ui.define([
 			var oList = this.byId("invoiceList");
 			var oBinding = oList.getBinding("items");
 			oBinding.filter(aFilter);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```

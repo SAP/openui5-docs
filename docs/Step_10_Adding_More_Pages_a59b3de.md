@@ -39,7 +39,7 @@ You can view and download all files at [Flexible Column Layout App - Step 10](ht
 ### webapp/view/AboutPage.view.xml \[NEW\]
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	xmlns="sap.m"
 	xmlns:f="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -53,7 +53,7 @@ You can view and download all files at [Flexible Column Layout App - Step 10](ht
 			</f:DynamicPageTitle>
 		</f:title>
 	</f:DynamicPage>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We create a simple additional page view.
@@ -67,12 +67,12 @@ We create a simple additional page view.
 ``` json
 			...
 			"routes": [
-*HIGHLIGHT START*				{
+				{
 					"pattern": "page2",
 					"name": "page2",
 					"target": "page2",
 					"layout": "EndColumnFullScreen"
-				},*HIGHLIGHT END*
+				},
 				{
 					"pattern": ":layout:",
 					"name": "master",
@@ -111,11 +111,11 @@ We create a simple additional page view.
 				"detailDetail": {
 					"name": "DetailDetail",
 					"controlAggregation": "endColumnPages"
-				}*HIGHLIGHT START*,
+				},
 				"page2": {
 					"name": "AboutPage",
 					"controlAggregation": "endColumnPages"
-				}*HIGHLIGHT END*
+				}
 			}
 		}
 	}
@@ -146,9 +146,9 @@ Similar to the previous step, we add the additional page view to our existing ro
 				</heading>
 			</DynamicPageTitle>
 		</title>
-*HIGHLIGHT START*		<content>
+		<content>
 			<m:Link text="Navigate to next page…" press=".handleAboutPress"/>
-		</content>*HIGHLIGHT END*
+		</content>
 	</DynamicPage>
 </mvc:View>
 ```
@@ -164,9 +164,9 @@ We add a link in the detail-detail page with a `press` event handler.
 ``` js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/core/mvc/Controller"*HIGHLIGHT START*,
-	'sap/f/library'*HIGHLIGHT END*
-], function (JSONModel, Controller*HIGHLIGHT START*, fioriLibrary*HIGHLIGHT END*) {
+	"sap/ui/core/mvc/Controller",
+	'sap/f/library'
+], function (JSONModel, Controller, fioriLibrary) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.fiori2.controller.DetailDetail", {
@@ -179,9 +179,9 @@ sap.ui.define([
 			this.oRouter.getRoute("detailDetail").attachPatternMatched(this._onPatternMatch, this);
 		},
 
-*HIGHLIGHT START*		handleAboutPress: function () {
+		handleAboutPress: function () {
 			this.oRouter.navTo("page2", {layout: fioriLibrary.LayoutType.EndColumnFullScreen});
-		},*HIGHLIGHT END*
+		},
 
 		_onPatternMatch: function (oEvent) {
 		...

@@ -42,7 +42,7 @@ sap.ui.define([
 	return {
 		numberUnit: function (sValue) {
 			…
-		}*HIGHLIGHT START*,
+		},
 		/**
 		 * Defines a value state based on the price
 		 *
@@ -60,7 +60,7 @@ sap.ui.define([
 			} else {
 				return "Error";
 			}
-		}*HIGHLIGHT END*
+		}
 	};
 });
 ```
@@ -85,10 +85,10 @@ You can now run the file `webapp/test/unit/unitTests.qunit.html` and check if th
 				path: 'Price',
 				formatter: '.formatter.numberUnit'
 			}"
-			*HIGHLIGHT START*state="{
+			state="{
 				path: 'Price',
 				formatter: '.formatter.priceState'
-			}"*HIGHLIGHT END*
+			}"
 			unit="{Currency}"/>
 	</cells>
 </ColumnListItem>

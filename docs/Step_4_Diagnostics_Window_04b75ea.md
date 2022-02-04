@@ -67,7 +67,7 @@ Let's say that you are facing a performance issue in your app, so let's check so
     		}'
     		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
     		data-sap-ui-compatVersion="edge"
-    		**data-sap-ui-async="true"\>**
+    		data-sap-ui-async="true">
     	</script>
     […]
     ```

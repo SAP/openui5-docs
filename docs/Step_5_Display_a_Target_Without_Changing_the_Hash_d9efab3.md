@@ -43,10 +43,10 @@ You can view and download all files in the *Samples* in the Demo -kit at [Routin
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page title="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
 		<content>
-			<Button *HIGHLIGHT START*id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press=".onDisplayNotFound" class="sapUiTinyMarginEnd"/>
+			<Button id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press=".onDisplayNotFound" class="sapUiTinyMarginEnd"/>
 		</content>
 	</Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 We start by changing the `Button` control from the home view. When the button is pressed, the `onDisplayNotFound` handler is called.
@@ -61,10 +61,10 @@ sap.ui.define([
 ], function (BaseController) {
 	"use strict";
 	return BaseController.extend("sap.ui.demo.nav.controller.Home", {
-*HIGHLIGHT START*		onDisplayNotFound : function () {
+		onDisplayNotFound : function () {
 			//display the "notFound" target without changing the hash
 			this.getRouter().getTargets().display("notFound");
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -92,9 +92,9 @@ sap.ui.define([
 	return BaseController.extend("sap.ui.demo.nav.controller.Home", {
 		onDisplayNotFound : function () {
 			//display the "notFound" target without changing the hash
-			this.getRouter().getTargets().display("notFound"*HIGHLIGHT START*, {
+			this.getRouter().getTargets().display("notFound", {
 				fromTarget : "home"
-			}*HIGHLIGHT END*);
+			});
 		}
 	});
 });
@@ -116,14 +116,14 @@ sap.ui.define([
 	return BaseController.extend("sap.ui.demo.nav.controller.NotFound", {
 
 		onInit: function () {
-			*HIGHLIGHT START*var oRouter, oTarget;
+			var oRouter, oTarget;
 
 			oRouter = this.getRouter();
 			oTarget = oRouter.getTarget("notFound");
 			oTarget.attachDisplay(function (oEvent) {
 				this._oData = oEvent.getParameter("data");	// store the data
-			}, this);*HIGHLIGHT END*
-		}*HIGHLIGHT START*,
+			}, this);
+		},
 
 		// override the parent's onNavBack (inherited from BaseController)
 		onNavBack : function () {
@@ -136,7 +136,7 @@ sap.ui.define([
 
 			// call the parent's onNavBack
 			BaseController.prototype.onNavBack.apply(this, arguments);
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```

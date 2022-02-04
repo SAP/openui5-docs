@@ -26,7 +26,7 @@ You can either use standard formatters and data types or define your own custom 
 If an error occurs during formatting or parsing, the following exception occurs: `sap/ui/model/FormatException` / `sap/ui/model/ParseException`.
 
 > ### Note:  
-> For some controls like `sap/m/Input` you can also use API properties that define the data type and add additional features like restricted input options, for example, `<Input **type="Number"**/>`.
+> For some controls like `sap/m/Input` you can also use API properties that define the data type and add additional features like restricted input options, for example, <code>&lt;Input <b>type="Number"</b>/&gt;</code>.
 
 ***
 
@@ -55,7 +55,7 @@ When the formatter is defined in the controller, you can use it, for example, in
 ``` xml
 <Text text="{
     path : 'person/name',
-    *HIGHLIGHT START*formatter : '.myFormatter'*HIGHLIGHT END*
+    formatter : '.myFormatter'
 }" />
 ```
 
@@ -97,10 +97,10 @@ For simple data types, you can generate the following parameters in the construc
   <Input value="{
       path: '/number',
       type: 'Integer',
-      *HIGHLIGHT START*formatOptions*HIGHLIGHT END*: {
+      formatOptions: {
           minIntegerDigits: 3
       },
-          *HIGHLIGHT START*constraints*HIGHLIGHT END*: {
+          constraints: {
       maximum: 1000
       }
   }" />

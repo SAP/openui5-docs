@@ -40,19 +40,19 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:semantic="sap.f.semantic"
     xmlns:form="sap.ui.layout.form"
-    *HIGHLIGHT START*xmlns:l="sap.ui.layout">*HIGHLIGHT END*
+    xmlns:l="sap.ui.layout">
 
 ...
 
         <semantic:content>
-            *HIGHLIGHT START*<l:VerticalLayout width="100%">*HIGHLIGHT END*
+            <l:VerticalLayout width="100%">
             <Panel
-                *HIGHLIGHT START*backgroundDesign="Transparent"*HIGHLIGHT END*
+                backgroundDesign="Transparent"
                 headerText="{i18n>ObjectSupplierTabTitle}">
 
 ...
             </Panel>
-                *HIGHLIGHT START*<Panel
+                <Panel
                     backgroundDesign="Transparent"
                     headerText="{i18n>ObjectCommentsTabTitle}">
                     <content>
@@ -75,7 +75,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
                         </List>
                     </content>
                 </Panel>
-            </l:VerticalLayout>*HIGHLIGHT END*
+            </l:VerticalLayout>
         </semantic:content>
 ```
 
@@ -96,19 +96,19 @@ sap.ui.define([
    "myCompany/myApp/controller/BaseController",
    "sap/ui/model/json/JSONModel",
    "sap/ui/core/routing/History",
-   "myCompany/myApp/model/formatter"*HIGHLIGHT START*,
+   "myCompany/myApp/model/formatter",
    "sap/ui/core/format/DateFormat",
    "sap/ui/model/Filter",
    "sap/ui/model/FilterOperator"
-*HIGHLIGHT END*
-], function(BaseController, JSONModel, History, formatter*HIGHLIGHT START*, DateFormat, Filter, FilterOperator*HIGHLIGHT END*) {
+
+], function(BaseController, JSONModel, History, formatter, DateFormat, Filter, FilterOperator) {
    "use strict";
    return BaseController.extend("myCompany.myApp.controller.Object", {
       formatter: formatter,
       ...
       _onBindingChange: function(oEvent) {
          ...
- *HIGHLIGHT START*        // Update the comments in the list
+         // Update the comments in the list
          var oList = this.byId("idCommentsList");
          var oBinding = oList.getBinding("items");
          oBinding.filter(new Filter("productID", FilterOperator.EQ, sObjectId));
@@ -136,7 +136,7 @@ sap.ui.define([
          oFeedbackModel.setData({
             productComments : aEntries
          });
-      }*HIGHLIGHT END*
+      }
    });
 });
 ```
@@ -164,10 +164,10 @@ sap.ui.define([
          var oModel = new JSONModel(Device);
          oModel.setDefaultBindingMode("OneWay");
          return oModel;
-      }*HIGHLIGHT START*,   
+      },   
       createCommentsModel: function() {
          return new JSONModel({ productComments : [] });
-      }*HIGHLIGHT END*
+      }
    };
 });
 ```
@@ -200,9 +200,9 @@ sap.ui.define([
          // set the device model
          this.setModel(models.createDeviceModel(), "device");
          
-         *HIGHLIGHT START*// set the product feedback model
+         // set the product feedback model
          this.setModel(models.createCommentsModel(), "productFeedback");
-*HIGHLIGHT END*
+
 
          // create the views based on the url/hash
          this.getRouter().initialize();
@@ -220,12 +220,12 @@ Now it’s time to make the named model `productFeedback` available to our app. 
 
 ``` prefs
 ...
-*HIGHLIGHT START*#Comments tab title
+#Comments tab title
 ObjectCommentsTabTitle=Comments
 
 #No comments text
 ObjectCommentNoData=No Comments
-*HIGHLIGHT END*
+
 
 #~~~ Footer Options ~~~~~~~~~~~~~~~~~~~~~~~
 ...

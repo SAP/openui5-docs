@@ -159,7 +159,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
     ```
     TypeError: oEvent.getSourceXYZ is not a function
-    at **f.onPress** (http://.../**App.controller.js**?eval:**20**:69)
+    at f.onPress (http://.../App.controller.js?eval:20:69)
     ...
     ```
 
@@ -195,7 +195,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press  [Ctrl\] + [S\] :
 
     ```
-    sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSource**XYZ**().getId()]);
+    sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()]);
     ```
 
 6.  Resume the execution of the code by pressing [F8\].
@@ -230,8 +230,8 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
     sap.ui.define([
     	"sap/ui/core/mvc/Controller",
     	'sap/m/MessageToast',
-    	**'sap/ui/ux3/NavigationBar'**
-    ], function(Controller, MessageToast, **NavigationBar**) {
+    	'sap/ui/ux3/NavigationBar'
+    ], function(Controller, MessageToast, NavigationBar) {
     ...
     ```
 

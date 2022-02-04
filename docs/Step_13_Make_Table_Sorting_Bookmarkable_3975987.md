@@ -57,24 +57,24 @@ sap.ui.define([
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
-			*HIGHLIGHT START*var oQueryParameter = this._oRouterArgs["?query"];*HIGHLIGHT END*
+			var oQueryParameter = this._oRouterArgs["?query"];
 
 			// search/filter via URL hash
-			*HIGHLIGHT START*this._applySearchFilter(oQueryParameter.search);*HIGHLIGHT END*
+			this._applySearchFilter(oQueryParameter.search);
 
-			*HIGHLIGHT START*// sorting via URL hash
-			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);*HIGHLIGHT END*
+			// sorting via URL hash
+			this._applySorter(oQueryParameter.sortField, oQueryParameter.sortDescending);
 			
 		},
 		...
 		_initViewSettingsDialog: function () {
-			*HIGHLIGHT START*var oRouter = this.getRouter();*HIGHLIGHT END*
+			var oRouter = this.getRouter();
 			this._oVSD = new ViewSettingsDialog("vsd", {
 				confirm: function (oEvent) {
 					var oSortItem = oEvent.getParameter("sortItem");
-					*HIGHLIGHT START*this._oRouterArgs["?query"].sortField = oSortItem.getKey();
+					this._oRouterArgs["?query"].sortField = oSortItem.getKey();
 					this._oRouterArgs["?query"].sortDescending = oEvent.getParameter("sortDescending");
-					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);*HIGHLIGHT END*
+					oRouter.navTo("employeeOverview", this._oRouterArgs, true /*without history*/);
 				}.bind(this) 
 			});
 			...

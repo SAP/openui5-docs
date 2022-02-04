@@ -38,13 +38,13 @@ You can view and download all files at [Quick Start - Step 2](https://openui5.ha
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/core/mvc/XMLView"*HIGHLIGHT END*
-], function (*HIGHLIGHT START*XMLView*HIGHLIGHT END*) {
+	"sap/ui/core/mvc/XMLView"
+], function (XMLView) {
 	"use strict";
 
-	*HIGHLIGHT START*XMLView.create({viewName: "Quickstart.App"}).then(function (oView) {
+	XMLView.create({viewName: "Quickstart.App"}).then(function (oView) {
 		oView.placeAt("content");
-	});*HIGHLIGHT END*
+	});
 });
 ```
 
@@ -59,7 +59,7 @@ Similar to the step before, the view is placed in the element with the `content`
 ### webapp/App.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="Quickstart.App"
 	displayBlock="true"
 	xmlns="sap.m"
@@ -73,7 +73,7 @@ Similar to the step before, the view is placed in the element with the `content`
 				class="sapUiSmallMargin"/>
 		</Page>
 	</App>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 The presentation logic is now defined declaratively in an XML view.
@@ -93,7 +93,7 @@ We outsource the controller logic to an app controller. The `.onPress` event now
 ### webapp/App.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
 ], function (Controller, MessageToast) {
@@ -105,7 +105,7 @@ We outsource the controller logic to an app controller. The `.onPress` event now
 		}
 	});
 
-});*HIGHLIGHT END*
+});
 ```
 
 In our controller, we load the `Controller` base class and extend it to define the behavior of our app. We also add the event handler for our button.

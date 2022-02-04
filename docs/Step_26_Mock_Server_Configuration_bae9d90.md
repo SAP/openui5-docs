@@ -90,15 +90,15 @@ From this point on, you have two different entry pages: One for the real “conn
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SAPUI5 Walkthrough*HIGHLIGHT START* - Test Page*HIGHLIGHT END*</title>
+	<title>SAPUI5 Walkthrough - Test Page</title>
 	<script
 		id="sap-ui-bootstrap"
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": *HIGHLIGHT START*"../"*HIGHLIGHT END*
+			"sap.ui.demo.walkthrough": "../"
 		}'
-*HIGHLIGHT START*		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/test/initMockServer"*HIGHLIGHT END*
+		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/test/initMockServer"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true">
 	</script>
@@ -119,7 +119,7 @@ We modify the `mockServer.html` file and change the page title to distinguish it
 ### webapp/test/initMockServer.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"../localService/mockserver"
 ], function (mockserver) {
 	"use strict";
@@ -130,7 +130,7 @@ We modify the `mockServer.html` file and change the page title to distinguish it
 	// initialize the embedded component on the HTML page
 	sap.ui.require(["sap/ui/core/ComponentSupport"]);
 });
-*HIGHLIGHT END*
+
 ```
 
 The first dependency is a file called `mockserver.js` that will be located in the `localService` folder later.
@@ -142,7 +142,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
 ### webapp/localService/mockdata/Invoices.json \(New\)
 
 ``` js
-*HIGHLIGHT START*[
+[
   {
 	"ProductName": "Pineapple",
 	"Quantity": 21,
@@ -183,7 +183,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "A"
   }
-]*HIGHLIGHT END*
+]
 ```
 
 The `Invoices.json` file is similar to our previous file in the `webapp` folder. Just copy the content and remove the outer object structure with the key `invoices` so that the file consists of one flat array of invoice items. This file will automatically be read by our server later in this step.
@@ -195,7 +195,7 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 ### webapp/localService/metadata.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
 	<edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0"
 			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
 		<Schema Namespace="NorthwindModel" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
@@ -223,7 +223,7 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
-*HIGHLIGHT END*
+
 ```
 
 The metadata file contains information about the service interface and does not need to be written manually. It can be accessed directly from the “real” service by calling the service URL and adding `$metadata` at the end \(e.g. in our case `http://services.odata.org/V2/Northwind/Northwind.svc/$metadata`\). The mock server will read this file to simulate the real OData service, and will return the results from our local source files in the proper format so that it can be consumed by the app \(either in XML or in JSON format\).
@@ -235,7 +235,7 @@ For simplicity, we have removed all content from the original Northwind OData me
 ### webapp/localService/mockserver.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/util/UriParameters"
 ], function (MockServer, UriParameters) {
@@ -266,7 +266,7 @@ For simplicity, we have removed all content from the original Northwind OData me
 	};
 
 });
-*HIGHLIGHT END*
+
 ```
 
 Now that we have added the OData service description file `metadata.xml` file, we can write the code to initialize the mock server which will then simulate any OData request to the real Northwind server.

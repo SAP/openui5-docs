@@ -84,11 +84,11 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 				"pattern": "employees",
 				"name": "employeeList",
 				"target": "employees"
-			}*HIGHLIGHT START*, {
+			}, {
 				"pattern": "employees/{employeeId}",
 				"name": "employee",
 				"target": "employee"
-			}*HIGHLIGHT END*],
+			}],
 			"targets": {
 				"home": {
 					"id": "home",
@@ -105,12 +105,12 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 					"path": "sap.ui.demo.nav.view.employee",
 					"name": "EmployeeList",
 					"level" : 2
-				}*HIGHLIGHT START*,
+				},
 				"employee": {
 					"id": "employee",
 					"name": "employee.Employee",
 					"level" : 3
-				}*HIGHLIGHT END*
+				}
 			}
 		}
 	}
@@ -130,7 +130,7 @@ Next, we have to create the view `employees.Employee`; for better illustration t
 ### webapp/view/employee/Employee.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Employee"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -181,7 +181,7 @@ Next, we have to create the view `employees.Employee`; for better illustration t
 			</Panel>
 		</content>
 	</Page>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Create the file `Employee.view.xml` inside the `webapp/view/employee` folder. This employee view displays master data for an employee in a panel with a `SimpleForm` control: first name, last name and so on. The data comes from a relative data binding that is set on the view level as we can see in the controller later. As we are focusing on the navigation aspects in this tutorial, we won’t go into detail on the controls of the view. Just copy the code.
@@ -191,7 +191,7 @@ Create the file `Employee.view.xml` inside the `webapp/view/employee` folder. Th
 ### webapp/controller/employee/Employee.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
@@ -235,7 +235,7 @@ Create the file `Employee.view.xml` inside the `webapp/view/employee` folder. Th
 			}
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Now we create the file `Employee.controller.js` in the `webapp/controller/employee` folder. In this controller file, we want to detect which employee shall be displayed in order to show the employee’s data in the view. Therefore, we query the router for the route `employee` and attach a private event listener function `_onRouteMatched` to the matched event of this route.
@@ -271,8 +271,8 @@ We also add an event handler to the `change` event as a private function `_onBin
 						title="{FirstName} {LastName}"
 						iconDensityAware="false"
 						iconInset="false"
-						*HIGHLIGHT START*type="Navigation"
-						press=".onListItemPressed"*HIGHLIGHT END*/>
+						type="Navigation"
+						press=".onListItemPressed"/>
 				</items>
 			</List>
 		</content>
@@ -292,14 +292,14 @@ sap.ui.define([
 ], function (BaseController) {
 	"use strict";
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.EmployeeList", {
-*HIGHLIGHT START*		onListItemPressed : function(oEvent){
+		onListItemPressed : function(oEvent){
 			var oItem, oCtx;
 			oItem = oEvent.getSource();
 			oCtx = oItem.getBindingContext();
 			this.getRouter().navTo("employee",{
 				employeeId : oCtx.getProperty("EmployeeID")
 			});
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```
@@ -313,7 +313,7 @@ Then we navigate to the `employee` route and pass a configuration object on to t
 ### webapp/i18n/i18n.properties
 
 ``` prefs
-*HIGHLIGHT START*...
+...
 EmployeeDetailsOf=Employee Details of
 EmployeeIDColon=Employee ID:
 formFirstName=First Name
@@ -322,7 +322,7 @@ formAddress=Address
 formCity=City
 formPostalCode=Postal Code
 formPhoneHome=Phone (Home)
-formCountry=Country*HIGHLIGHT END*
+formCountry=Country
 ```
 
 Add the new texts to the `i18n.properties` file.

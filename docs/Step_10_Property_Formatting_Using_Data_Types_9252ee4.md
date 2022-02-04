@@ -51,10 +51,10 @@ sap.ui.require([
 				city: "Walldorf",
 				zip: "69190",
 				country: "Germany"
-			}*HIGHLIGHT START*,
+			},
 			salesAmount: 12345.6789,
 			currencyCode: "EUR"
-*HIGHLIGHT END*
+
 		});
 
 		// Assign the model object to the SAPUI5 core
@@ -112,7 +112,7 @@ We create two new model properties `salesAmount` and `currencyCode`.
 						}"
 						text="{i18n>sendEmail}"/>
 				</l:VerticalLayout>
-*HIGHLIGHT START*				<l:VerticalLayout>
+				<l:VerticalLayout>
 					<Label labelFor="salesAmount" text="{i18n>salesAmount}:"/>
 					<Input description="{/currencyCode}" enabled="{/enabled}" id="salesAmount"
 						value="{
@@ -123,7 +123,7 @@ We create two new model properties `salesAmount` and `currencyCode`.
 							type: 'sap.ui.model.type.Currency',
 							formatOptions: {showMeasure: false}
 						}" width="200px"/>
-				</l:VerticalLayout>*HIGHLIGHT END*
+				</l:VerticalLayout>
 			</l:HorizontalLayout>
 		</content>
 	</Panel>
@@ -142,7 +142,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Enabled
 address=Address
-*HIGHLIGHT START*salesAmount=Sales Amount*HIGHLIGHT END*...
+salesAmount=Sales Amount...
 ```
 
 ***
@@ -155,7 +155,7 @@ firstName=Vorname
 lastName=Nachname
 enabled=Aktiviert
 address=Adresse
-*HIGHLIGHT START*salesAmount=Verk\\u00e4ufe bis zum heutigen Datum*HIGHLIGHT END*
+salesAmount=Verk\u00e4ufe bis zum heutigen Datum
 ...
 ```
 

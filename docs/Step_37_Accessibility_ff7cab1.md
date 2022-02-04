@@ -51,7 +51,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page title="{i18n>homePageTitle}">
-*HIGHLIGHT START*		<landmarkInfo>
+		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
 				rootRole="Region"
 				rootLabel="{i18n>Overview_rootLabel}"
@@ -59,7 +59,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 				contentLabel="{i18n>Overview_contentLabel}"
 				headerRole="Banner"
 				headerLabel="{i18n>Overview_headerLabel}"/>
-		</landmarkInfo>*HIGHLIGHT END*
+		</landmarkInfo>
 		<headerContent>
 			…
 		</headerContent>
@@ -85,7 +85,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 	controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-*HIGHLIGHT START*	<Panel accessibleRole="Region">
+	<Panel accessibleRole="Region">
 		<headerToolbar>
 			<Toolbar>
 				<Title text="{i18n>invoiceListTitle}"/>
@@ -97,7 +97,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 					ariaDescribedBy="searchFieldDescription"
 					placeholder="{i18n>searchFieldPlaceholder}"/>
 			</Toolbar>
-		</headerToolbar>*HIGHLIGHT END*
+		</headerToolbar>
 		<Table
 			id="invoiceList"
 			class="sapUiResponsiveMargin"
@@ -117,7 +117,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 	…
 			</columns>
 		</Table>
-	*HIGHLIGHT START*</Panel>*HIGHLIGHT END*
+	</Panel>
 </mvc:View>
 
 ```
@@ -141,7 +141,7 @@ We add a `sap.m.Panel` around the invoice list, and we move the toolbar from the
 		width="auto"
 		expandable="{device>/system/phone}"
 		expanded="{= !${device>/system/phone} }"
-		*HIGHLIGHT START*accessibleRole="Region"*HIGHLIGHT END*>	
+		accessibleRole="Region">	
 		…
 	</Panel>
 </mvc:View>
@@ -163,11 +163,11 @@ In this view, we already have a panel, so we just add the `accessibleRole` attri
 
 ``` prefs
 ...
-*HIGHLIGHT START*#Overview Page
+#Overview Page
 Overview_rootLabel=Overview Page
 Overview_headerLabel=Header
 Overview_contentLabel=Page Content
-ratingTitle=Rate the Product*HIGHLIGHT END*
+ratingTitle=Rate the Product
 ...
 ```
 

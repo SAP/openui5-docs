@@ -174,7 +174,7 @@ Some methods in the helper class rely on the internal `sap.f.FlexibleColumnLayou
 <tr>
 <td valign="top">
 
-`**sap.m.ActionSheet**`
+<code><b>sap.m.ActionSheet</b></code>
 
 We have extended the `afterClose` event, to provide context information that indicates the trigger of closing the control - whether it closes with a selection, or it is dismissed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ActionSheet). 
 
@@ -259,7 +259,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 <tr>
 <td valign="top">
 
-`**sap.m.Wizard**`
+<code><b>sap.m.Wizard</b></code>
 
 We have added a new `backgroundDesign` property. It can change the background color of the content and accepts values from `sap.m.PageBackgroundDesign`. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Wizard/sample/sap.m.sample.WizardCurrentStep). 
 

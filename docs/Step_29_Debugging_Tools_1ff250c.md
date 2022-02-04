@@ -61,7 +61,7 @@ You can view and download all files at [Walkthrough - Step 29](https://openui5.h
 			<ObjectListItem
 					title="{invoice>Quantity} x {invoice>ProductName}"
 					number="{
-					parts: [{path: 'invoice>*HIGHLIGHT START*ExTendedPrice'*HIGHLIGHT END*}, {path: 'view>/currency'}],
+					parts: [{path: 'invoice>ExTendedPrice'}, {path: 'view>/currency'}],
 					type: 'sap.ui.model.type.Currency',
 					formatOptions: {
 						showMeasure: false
@@ -81,7 +81,7 @@ You can view and download all files at [Walkthrough - Step 29](https://openui5.h
 </mvc:View>
 ```
 
-We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use `'invoice>Ex**T**endedPrice'`. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
+We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
 
 > ### Note:  
 > If you use the Google Chrome browser, you can install the *UI5 Inspector* plugin. With this plugin, you can easily debug your - or OpenUI5-based apps. For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).

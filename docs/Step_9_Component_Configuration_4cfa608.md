@@ -44,7 +44,7 @@ After this step your project structure will look like the figure above. We will 
 ### webapp/Component.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
    "sap/ui/core/UIComponent"
 ], function (UIComponent) {
    "use strict";
@@ -56,7 +56,7 @@ After this step your project structure will look like the figure above. We will 
       }
    });
 });
-*HIGHLIGHT END*
+
 ```
 
 We create an initial `Component.js` file in the `webapp` folder that will hold our application setup. The init function of the component is automatically invoked by OpenUI5 when the component is instantiated. Our component inherits from the base class `sap.ui.core.UIComponent` and it is obligatory to make the super call to the `init` function of the base class in the overridden `init` method.
@@ -67,13 +67,13 @@ We create an initial `Component.js` file in the `webapp` folder that will hold o
 
 ``` js
 sap.ui.define([
-   "sap/ui/core/UIComponent"*HIGHLIGHT START*,*HIGHLIGHT END*
-   *HIGHLIGHT START*"sap/ui/model/json/JSONModel",
-   "sap/ui/model/resource/ResourceModel"*HIGHLIGHT END*
-], function (UIComponent, *HIGHLIGHT START*JSONModel, ResourceModel*HIGHLIGHT END*) {
+   "sap/ui/core/UIComponent",
+   "sap/ui/model/json/JSONModel",
+   "sap/ui/model/resource/ResourceModel"
+], function (UIComponent, JSONModel, ResourceModel) {
    "use strict";
-   return UIComponent.extend(*HIGHLIGHT START*"sap.ui.demo.walkthrough.Component*HIGHLIGHT END*", {
-      *HIGHLIGHT START*metadata : {
+   return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
+      metadata : {
          "interfaces": ["sap.ui.core.IAsyncContentCreation"],
          "rootView": {
             "viewName": "sap.ui.demo.walkthrough.view.App",
@@ -81,11 +81,11 @@ sap.ui.define([
             /*"async": true, // implicitly set via the sap.ui.core.IAsyncContentCreation interface*/
             "id": "app"
          }
-      },*HIGHLIGHT END*
+      },
       init : function () {
          // call the init function of the parent
          UIComponent.prototype.init.apply(this, arguments);
-        *HIGHLIGHT START* // set data model
+         // set data model
          var oData = {
             recipient : {
                name : "World"
@@ -98,7 +98,7 @@ sap.ui.define([
          var i18nModel = new ResourceModel({
             bundleName: "sap.ui.demo.walkthrough.i18n.i18n"
          });
-         this.setModel(i18nModel, "i18n");*HIGHLIGHT END*
+         this.setModel(i18nModel, "i18n");
       }
    });
 });
@@ -143,17 +143,17 @@ Delete the `onInit` function and the required modules; this is now done in the c
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/core/ComponentContainer"*HIGHLIGHT END*
-], function (*HIGHLIGHT START*ComponentContainer*HIGHLIGHT END*) {
+	"sap/ui/core/ComponentContainer"
+], function (ComponentContainer) {
 	"use strict";
 
-*HIGHLIGHT START*	new ComponentContainer({
+	new ComponentContainer({
 		name: "sap.ui.demo.walkthrough",
 		settings : {
 			id : "walkthrough"
 		},
 		async: true
-	}).placeAt("content");*HIGHLIGHT END*
+	}).placeAt("content");
 });
 ```
 

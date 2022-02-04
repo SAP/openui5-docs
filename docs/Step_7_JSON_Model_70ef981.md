@@ -34,12 +34,12 @@ You can view and download all files at [Walkthrough - Step 7](https://openui5.ha
 ``` js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
-   "sap/m/MessageToast"*HIGHLIGHT START*,
-   "sap/ui/model/json/JSONModel"*HIGHLIGHT END*
-], function (Controller, MessageToast, *HIGHLIGHT START*JSONModel*HIGHLIGHT END*) {
+   "sap/m/MessageToast",
+   "sap/ui/model/json/JSONModel"
+], function (Controller, MessageToast, JSONModel) {
    "use strict";
    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
-*HIGHLIGHT START*      onInit : function () {
+      onInit : function () {
          // set data model on view
          var oData = {
             recipient : {
@@ -48,7 +48,7 @@ sap.ui.define([
          };
          var oModel = new JSONModel(oData);
          this.getView().setModel(oModel);
-      },*HIGHLIGHT END*
+      },
       onShowHello : function () {
          MessageToast.show("Hello World");
       }
@@ -77,11 +77,11 @@ The message toast is just showing the static "Hello World" message. We will show
    <Button
       text="Say Hello"
       press=".onShowHello"/>
- *HIGHLIGHT START*  <Input
+   <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"
       valueLiveUpdate="true"
-      width="60%"/>*HIGHLIGHT END*
+      width="60%"/>
 </mvc:View>
 
 ```
@@ -108,7 +108,7 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
-*HIGHLIGHT START*		data-sap-ui-compatVersion="edge"*HIGHLIGHT END*
+		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "./"

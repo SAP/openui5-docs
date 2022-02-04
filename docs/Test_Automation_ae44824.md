@@ -104,7 +104,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
       });
     ```
 
-    Adapt the URL \(`*<server\\\>*:*<port\\\>*` to the OpenUI5 resources according to your installation. You can also use OpenUI5 from a content delivery network, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+    Adapt the URL \(<code><i class="varname">&lt;server\&gt;</i>:<i class="varname">&lt;port\&gt;</i></code> to the OpenUI5 resources according to your installation. You can also use OpenUI5 from a content delivery network, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
     > ### Note:  
     > The OpenUI5 plugin uses sensible defaults to detect your type of project and the relevant folders. If you have a project with a different structure, you need to add some more configuration options. For more information, see the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#about) on GitHub.

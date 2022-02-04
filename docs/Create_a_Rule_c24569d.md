@@ -230,13 +230,13 @@ The check function has three main and one optional parameters. The main ones are
 
 -   `oCoreFacade` - gives you access to the different elements provided by the OpenUI5 core framework:
 
-    -   `[getMetadata\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object/methods/getMetadata)`
+    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object/methods/getMetadata">getMetadata()</a></code>
 
-    -   `[getUIAreas\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getUIArea)`
+    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getUIArea">getUIAreas()</a></code>
 
-    -   `[getComponents\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getComponent)`
+    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getComponent">getComponents()</a></code>
 
-    -   `[getModels\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getModel)`
+    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getModel">getModels()</a></code>
 
 
 -   `oScope` - retrieves elements in the scope with the following methods:
@@ -314,7 +314,7 @@ The check function has three main and one optional parameters. The main ones are
 
 
 > ### Remember:  
-> Make sure to call `**issueManager.addIssue\(\)**` in your check function so that issues can be seen in the analysis results.
+> Make sure to call <code><b>issueManager.addIssue()</b></code> in your check function so that issues can be seen in the analysis results.
 
 **Related Information**  
 

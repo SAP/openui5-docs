@@ -46,7 +46,7 @@ sap.ui.define([
 			When.onTheBrowser.iPressOnTheForwardButton();
 			
 			// Assertions
-			Then.onThePostPage.theTitleShouldDisplayTheName("Jeans")*HIGHLIGHT START*;
+			Then.onThePostPage.theTitleShouldDisplayTheName("Jeans");
 		});
 		opaTest("Should select the statistics tab", function (Given, When, Then) {
 			// Actions
@@ -54,7 +54,7 @@ sap.ui.define([
 			// Assertions
 			Then.onThePostPage.iShouldSeeTheViewCounter()
 				.and.iTeardownMyApp();
-		});*HIGHLIGHT END*
+		});
 ```
 
 We extend the `PostJourney.js` file with a new test. It is important to move the `Teardown` to the last test, otherwise our app would be removed and the test would not be able to find the *Statistics* tab.
@@ -85,7 +85,7 @@ sap.ui.define([
 							actions: new Press(),
 							errorMessage: "Did not find the nav button on object page"
 						});
-					}*HIGHLIGHT START*,
+					},
 					iPressOnTheTabWithTheKey: function (sKey) {
 						return this.waitFor({
 							controlType: "sap.m.IconTabFilter",
@@ -97,7 +97,7 @@ sap.ui.define([
 							errorMessage: "Cannot find the icon tab bar"
 						});
  
-					}*HIGHLIGHT END*
+					}
 				},
 				assertions: {
 					theTitleShouldDisplayTheName: function (sName) {
@@ -112,7 +112,7 @@ sap.ui.define([
 							},
 							errorMessage: "The Post " + sName + " is not shown"
 						});
-					}*HIGHLIGHT START*,
+					},
  
 					iShouldSeeTheViewCounter: function () {
 						return this.waitFor({
@@ -124,7 +124,7 @@ sap.ui.define([
 							errorMessage: "The view counter could not be found"
 						});
 					}
-*HIGHLIGHT END*
+
 				}
 			}
 		});

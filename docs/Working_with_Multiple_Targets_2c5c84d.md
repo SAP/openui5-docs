@@ -51,10 +51,10 @@ The relationship between the target `employeeOverview` and `employeeOverviewTop`
   "routes": [{
     "pattern": "employees/overview",
     "name": "employeeOverview",
-    "target": [*HIGHLIGHT START*"employeeOverviewTop", "employeeOverviewContent"*HIGHLIGHT END*]
+    "target": ["employeeOverviewTop", "employeeOverviewContent"]
   }],
   "targets": {
-    *HIGHLIGHT START*"employeeOverview"*HIGHLIGHT END*: {
+    "employeeOverview": {
       "type": "View",
       "name": "EmployeeOverview",
       "level": 2,
@@ -62,14 +62,14 @@ The relationship between the target `employeeOverview` and `employeeOverviewTop`
       "controlAggregation": "content"
     },
     "employeeOverviewTop": {
-      *HIGHLIGHT START*"parent": "employeeOverview",*HIGHLIGHT END*
+      "parent": "employeeOverview",
       "type": "View",
       "name": "EmployeeOverviewTop",
       "controlId": "EmployeeOverviewParent",
       "controlAggregation": "content"
     },
     "employeeOverviewContent": {
-      *HIGHLIGHT START*"parent": "employeeOverview",*HIGHLIGHT END*
+      "parent": "employeeOverview",
       "type": "View",
       "name": "EmployeeOverviewContent",
       "controlId": "EmployeeOverviewParent",

@@ -42,8 +42,8 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 		title="{i18n>NotFound}"
 		text="{i18n>NotFound.text}"
 		description="{i18n>NotFound.description}"
-		*HIGHLIGHT START*showNavButton="true"
-		navButtonPress="onNavBack"*HIGHLIGHT END*/>
+		showNavButton="true"
+		navButtonPress="onNavBack"/>
 </mvc:View>
 ```
 
@@ -54,7 +54,7 @@ In the `NotFound` view, we set the property `showNavButton` of the `MessagePage`
 ### webapp/controller/BaseController.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
 	"sap/ui/core/UIComponent"
@@ -83,7 +83,7 @@ In the `NotFound` view, we set the property `showNavButton` of the `MessagePage`
 	});
 
 });
-*HIGHLIGHT END*
+
 ```
 
 Create a new `BaseController.js` file in the `webapp/controller` folder. The base controller implements a set of functions that are reused by its subclasses. The `onNavBack` handler is a great example of code that we don’t want to duplicate in our controllers for each page that has a back navigation.
@@ -101,11 +101,11 @@ The third parameter of `navTo("appHome", {}, true /*no history*/);` has the valu
 
 ``` js
 sap.ui.define([
-	*HIGHLIGHT START*"sap/ui/demo/nav/controller/BaseController"
-*HIGHLIGHT END*
-], function (*HIGHLIGHT START*BaseController*HIGHLIGHT END*) {
+	"sap/ui/demo/nav/controller/BaseController"
+
+], function (BaseController) {
 	"use strict";
-	return *HIGHLIGHT START*BaseController*HIGHLIGHT END*.extend("sap.ui.demo.nav.controller.NotFound", {
+	return BaseController.extend("sap.ui.demo.nav.controller.NotFound", {
 		onInit: function () {
 		}
 	});
@@ -122,11 +122,11 @@ At this point you can open `index.html#/thisIsInvalid` in your browser and press
 
 ``` js
 sap.ui.define([
-	*HIGHLIGHT START*"sap/ui/demo/nav/controller/BaseController"
-*HIGHLIGHT END*
-], function (*HIGHLIGHT START*BaseController*HIGHLIGHT END*) {
+	"sap/ui/demo/nav/controller/BaseController"
+
+], function (BaseController) {
 	"use strict";
-	return *HIGHLIGHT START*BaseController*HIGHLIGHT END*.extend("sap.ui.demo.nav.controller.App", {
+	return BaseController.extend("sap.ui.demo.nav.controller.App", {
 		onInit: function () {
 		}
 	});
@@ -141,11 +141,11 @@ To be consistent, we will now extend all of our controllers with the base contro
 
 ``` js
 sap.ui.define([
-	*HIGHLIGHT START*"sap/ui/demo/nav/controller/BaseController"
-*HIGHLIGHT END*
-], function (*HIGHLIGHT START*BaseController*HIGHLIGHT END*) {
+	"sap/ui/demo/nav/controller/BaseController"
+
+], function (BaseController) {
 	"use strict";
-	return *HIGHLIGHT START*BaseController*HIGHLIGHT END*.extend("sap.ui.demo.nav.controller.Home", {
+	return BaseController.extend("sap.ui.demo.nav.controller.Home", {
 	});
 });
 ```

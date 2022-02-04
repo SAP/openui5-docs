@@ -45,14 +45,14 @@ sap.ui.require([
 		var oModel = new JSONModel({
 			firstName: "Harry",
 			lastName: "Hawk",
-			enabled: true*HIGHLIGHT START*,
+			enabled: true,
 			address: {
 				street: "Dietmar-Hopp-Allee 16",
 				city: "Walldorf",
 				zip: "69190",
 				country: "Germany"
 			}
-*HIGHLIGHT END*
+
 		});
 
 		// Assign the model object to the SAPUI5 core
@@ -84,10 +84,10 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 ``` xml
 <mvc:View
 	xmlns="sap.m"
-	*HIGHLIGHT START*xmlns:form="sap.ui.layout.form"*HIGHLIGHT END*
+	xmlns:form="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Panel headerText="{i18n>panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<form:SimpleForm editable="true" layout="ColumnLayout">
 			<Label text="{i18n>firstName}"/>
 			<Input value="{/firstName}" valueLiveUpdate="true" width="200px" enabled="{/enabled}"/>
@@ -97,7 +97,7 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 			<CheckBox selected="{/enabled}"/>
 		</form:SimpleForm>
 	</Panel>
-	*HIGHLIGHT START*<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
+	<Panel headerText="{i18n>panel2HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<content>
 			<l:VerticalLayout>
 				<Label labelFor="address" text="{i18n>address}:"/>
@@ -107,7 +107,7 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 					width="200px"/>
 			</l:VerticalLayout>
 		</content>
-	</Panel>*HIGHLIGHT END*
+	</Panel>
 </mvc:View>
 ```
 
@@ -126,12 +126,12 @@ The text property of the `Text` element is bound to three i18n properties: `/add
 firstName=First Name
 lastName=Last Name
 enabled=Enabled
-*HIGHLIGHT START*address=Address
-*HIGHLIGHT END*
+address=Address
+
 
 # Screen titles
-panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText=Data Binding Basics 
-*HIGHLIGHT START*panel2HeaderText=Address Details*HIGHLIGHT END*
+panel1HeaderText=Data Binding Basics 
+panel2HeaderText=Address Details
 ```
 
 ***
@@ -147,8 +147,8 @@ address=Adresse
 
 
 # Screen titles
-panel*HIGHLIGHT START*1*HIGHLIGHT END*HeaderText=Data Binding Grundlagen
-*HIGHLIGHT START*panel2HeaderText=Adressdetails*HIGHLIGHT END*
+panel1HeaderText=Data Binding Grundlagen
+panel2HeaderText=Adressdetails
 ```
 
 > ### Note:  

@@ -60,13 +60,13 @@ Use the following configuration to load the component from the target:
 {
     "sap.ui5": {
         "componentUsages": {
-*HIGHLIGHT START*            "myreuse": {
+            "myreuse": {
                 "name": "reuse.component",
                 "settings": {},
                 "componentData": {},
                 "lazy": false
             }
-*HIGHLIGHT END*
+
         },
         "routing": {
             "config": {
@@ -78,8 +78,8 @@ Use the following configuration to load the component from the target:
             "targets": {
                 "attachment": {
                     "type": "Component",
-*HIGHLIGHT START*                    "usage": "myreuse",
-*HIGHLIGHT END*
+                    "usage": "myreuse",
+
                     "options": {
                         // optional
                         // define the additional parameter for
@@ -131,8 +131,8 @@ Instead of assigning the `target` option in a route with the name of a target wh
                 "pattern": "",
                 "target": {
                     "name": "attachment",
-*HIGHLIGHT START*                    "prefix": "atch"
-*HIGHLIGHT END*
+                    "prefix": "atch"
+
                 }
             }],
             "targets": {
@@ -194,7 +194,7 @@ If `propagateTitle` is not set, no `titleChanged` event will be propagated from 
                     "name": "attachment",
                     "prefix": "atch",
 
-*HIGHLIGHT START*            "propagateTitle": true     *HIGHLIGHT END*
+            "propagateTitle": true     
                 }
             }],
             "targets": {

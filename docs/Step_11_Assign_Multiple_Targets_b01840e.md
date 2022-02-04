@@ -60,8 +60,8 @@ You can view and download all files in the Demo Kit at [Routing and Navigation -
 		<content>
 			<Button id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press=".onDisplayNotFound" class="sapUiTinyMarginEnd"/>
 			<Button id="employeeListBtn" text="{i18n>ShowEmployeeList}" press=".onNavToEmployees" class="sapUiTinyMarginEnd"/>
-			*HIGHLIGHT START*<Button id="employeeOverviewBtn" text="{i18n>ShowEmployeeOverview}" press=".onNavToEmployeeOverview" class="sapUiTinyMarginEnd"/>
-*HIGHLIGHT END*
+			<Button id="employeeOverviewBtn" text="{i18n>ShowEmployeeOverview}" press=".onNavToEmployeeOverview" class="sapUiTinyMarginEnd"/>
+
 		</content>
 	</Page>
 </mvc:View>
@@ -83,11 +83,11 @@ sap.ui.define([
 		...
 		onNavToEmployees : function () {
 			this.getRouter().navTo("employeeList");
-		}*HIGHLIGHT START*,
+		},
 		onNavToEmployeeOverview : function ()  {
 			this.getRouter().navTo("employeeOverview");
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -130,11 +130,11 @@ As you know already from the previous steps, we add the `press` event handler `o
 				"pattern": "employees",
 				"name": "employeeList",
 				"target": "employees"
-			}, *HIGHLIGHT START*{
+			}, {
 				"pattern": "employees/overview",
 				"name": "employeeOverview",
 				"target": ["employeeOverviewTop", "employeeOverviewContent"]
-			},*HIGHLIGHT END* {
+			}, {
 				"pattern": "employees/{employeeId}",
 				"name": "employee",
 				"target": "employee"
@@ -152,7 +152,7 @@ As you know already from the previous steps, we add the `press` event handler `o
 					"name": "ResumeNotes",
 					"controlId": "notesTab",
 					"controlAggregation": "content"
-				}*HIGHLIGHT START*,
+				},
 				"employeeOverview": {
 					"id": "employeeOverview",
 					"path": "sap.ui.demo.nav.view.employee.overview",
@@ -175,7 +175,7 @@ As you know already from the previous steps, we add the `press` event handler `o
 					"controlId": "EmployeeOverviewParent",
 					"controlAggregation": "content"
 				}
-*HIGHLIGHT END*
+
 			}
 		}
 	}
@@ -205,7 +205,7 @@ The router makes sure that the parent view is loaded in addition to the target v
 ### webapp/view/employee/overview/EmployeeOverview.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.overview.EmployeeOverview"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -218,7 +218,7 @@ The router makes sure that the parent view is loaded in addition to the target v
 		</content>
 	</Page>
 </mvc:View>
-*HIGHLIGHT END*
+
 ```
 
 First we create the parent view by creating the folder `overview` under `webapp/view/employee` and placing the file `EmployeeOverview.view.xml` into that folder. This view contains a `Page` control that is referenced from the targets in our `manifest.json` descriptor file. The content aggregation of the page will be filled by the router with the top and content part when the corresponding route has been hit.
@@ -228,13 +228,13 @@ First we create the parent view by creating the folder `overview` under `webapp/
 ### webapp/controller/employee/overview/EmployeeOverview.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.overview.EmployeeOverview", {
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 The controller does not contain any logic yet, but we will add back navigation features here in the next steps.
@@ -244,10 +244,10 @@ The controller does not contain any logic yet, but we will add back navigation f
 ### webapp/view/employee/overview/EmployeeOverviewTop.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" class="sapUiMediumMarginBottom">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" class="sapUiMediumMarginBottom">
 	<Title text="{i18n>EmployeeOverviewTop}"/>
 </mvc:View>
-*HIGHLIGHT END*
+
 ```
 
 Create the file `EmployeeOverviewTop.view.xml` and place it in the `webapp/view/employee/overview` folder. This view displays a static text for illustration purposes. Change it according to your own requirements. We don’t need a controller for this view
@@ -257,7 +257,7 @@ Create the file `EmployeeOverviewTop.view.xml` and place it in the `webapp/view/
 ### webapp/view/employee/overview/EmployeeOverviewContent.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.overview.EmployeeOverviewContent"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -299,7 +299,7 @@ Create the file `EmployeeOverviewTop.view.xml` and place it in the `webapp/view/
 		</items>
 	</Table>
 </mvc:View>
-*HIGHLIGHT END*
+
 ```
 
 Create the file EmployeeOverviewContent.view.xml in the `webapp/view/employee/overview` folder. This view displays a responsive table with several columns containing employee data like *Employee ID*, *First Name*, *Last Name* and so on. In the `headerToolbar`, we add the `SearchField` and a `Button`. The `SearchField` in the header area allows to search in the table. The `Button` next to it opens a dialog to adjust the sorting of the table.
@@ -309,7 +309,7 @@ Create the file EmployeeOverviewContent.view.xml in the `webapp/view/employee/ov
 ### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
@@ -448,7 +448,7 @@ Create the file EmployeeOverviewContent.view.xml in the `webapp/view/employee/ov
 	});
 
 });
-*HIGHLIGHT END*
+
 ```
 
 Finally create the controller for the *Employee Overview* page in the `webapp/controller/employee/overview` folder. It basically sets up a `ViewSettingsDialog` to sort and filter the table of employees and implements event handlers for the search field and for the sorting of the table.
@@ -469,7 +469,7 @@ However, we have one problem yet to solve: the search and table ordering are not
 ### webapp/i18n/i18n.properties
 
 ``` prefs
-*HIGHLIGHT START*...
+...
 EmployeeOverview=Employee Overview
 ShowEmployeeOverview=Show Employee Overview
 
@@ -478,7 +478,7 @@ EmployeeOverviewTop=Employee Overview Top
 Region=Region
 EmployeeID=Employee ID
 Phone=Phone
-Employees=Employees*HIGHLIGHT END*
+Employees=Employees
 ```
 
 Add the new texts to the `properties` file.

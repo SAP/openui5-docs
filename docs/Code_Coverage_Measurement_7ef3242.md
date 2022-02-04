@@ -30,7 +30,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-**only**="sap/ui/core/Popup.js"
+    	data-sap-ui-cover-only="sap/ui/core/Popup.js"
     ></script>
     ```
 
@@ -38,7 +38,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-**only**="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
+    	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
     ></script>
     ```
 
@@ -46,7 +46,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-**only**="sap/ui/core/"
+    	data-sap-ui-cover-only="sap/ui/core/"
     ></script>
     ```
 
@@ -54,7 +54,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-**never**="sap/m/"
+    	data-sap-ui-cover-never="sap/m/"
     ></script>
     ```
 
@@ -77,7 +77,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     if (window.blanket) {
-    	blanket.options("sap-ui-cover-**only**", "sap/ui/core/Popup.js");
+    	blanket.options("sap-ui-cover-only", "sap/ui/core/Popup.js");
     }
     ```
 
@@ -85,7 +85,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     if (window.blanket) {
-    	blanket.options("sap-ui-cover-**only**", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
+    	blanket.options("sap-ui-cover-only", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
     }
     ```
 
@@ -93,7 +93,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     if (window.blanket) {
-    	blanket.options("sap-ui-cover-**only**", "sap/ui/core/");
+    	blanket.options("sap-ui-cover-only", "sap/ui/core/");
     }
     ```
 
@@ -101,7 +101,7 @@ If you want to limit the test run, you can use the following code:
 
     ``` html
     if (window.blanket) {
-    	blanket.options("sap-ui-cover-**never**", "sap/ui/example/thirdparty/");
+    	blanket.options("sap-ui-cover-never", "sap/ui/example/thirdparty/");
     }
     ```
 

@@ -33,7 +33,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 9](h
 ### webapp/controller/App.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library"
 ], function (Controller, mobileLibrary) {
@@ -48,7 +48,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 9](h
 				oBundle.getText("mailBody"));
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Create a new folder `controller` within your `webapp` folder as a general location for all controller files for this app and create a new file `App.controller.js`.
@@ -66,7 +66,7 @@ In the `formatMail` function, we use the `sap.m.URLHelper.normalizeEmail` functi
 
 ``` xml
 <mvc:View
-*HIGHLIGHT START*	controllerName="sap.ui.demo.db.controller.App"*HIGHLIGHT END*
+	controllerName="sap.ui.demo.db.controller.App"
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout"
@@ -85,17 +85,17 @@ In the `formatMail` function, we use the `sap.m.URLHelper.normalizeEmail` functi
 		<content>
 			<l:VerticalLayout>
 				<Label labelFor="address" text="{i18n>address}:"/>
-				<FormattedText class="*HIGHLIGHT START*sapUiSmallMarginBottom*HIGHLIGHT END*"
+				<FormattedText class="sapUiSmallMarginBottom"
 					htmlText="{/address/street}&lt;br&gt;{/address/zip} {/address/city}&lt;br&gt;{/address/country}"
 					id="address" width="200px"/>
-*HIGHLIGHT START*				<Link href="{
+				<Link href="{
 						parts: [
 							'/firstName',
 							'/lastName'
 						],
 						formatter: '.formatMail'
 					}"
-					text="{i18n>sendEmail}"/>*HIGHLIGHT END*
+					text="{i18n>sendEmail}"/>
 			</l:VerticalLayout>
 		</content>
 	</Panel>
@@ -110,7 +110,7 @@ For more complex bindings we cannot use the simple binding syntax with the curly
 
 -   `formatter`
 
-    A reference to the function that receives the parameters listed in the `parts` array. Whatever value is returned by the formatter function becomes the value set for this property. The dot \(`** **formatMail`\) at the beginning of the formatter tellsOpenUI5 to look for a `formatMail` function on the controller instance of the view. If you do not use the dot, the function will be resolved by looking into the global namespace.
+    A reference to the function that receives the parameters listed in the `parts` array. Whatever value is returned by the formatter function becomes the value set for this property. The dot \(<code><b> </b>formatMail</code>\) at the beginning of the formatter tellsOpenUI5 to look for a `formatMail` function on the controller instance of the view. If you do not use the dot, the function will be resolved by looking into the global namespace.
 
 
 > ### Note:  
@@ -126,10 +126,10 @@ For more complex bindings we cannot use the simple binding syntax with the curly
 panel1HeaderText=Data Binding Basics 
 panel2HeaderText=Address Details
 
-*HIGHLIGHT START*# E-mail
+# E-mail
 sendEmail=Send Mail
 mailSubject=Hi {0}!
-mailBody=How are you?*HIGHLIGHT END*
+mailBody=How are you?
 ```
 
 ***
@@ -142,10 +142,10 @@ mailBody=How are you?*HIGHLIGHT END*
 panel1HeaderText=Data Binding Grundlagen
 panel2HeaderText=Adressdetails
 
-*HIGHLIGHT START*# E-mail
+# E-mail
 sendEmail=E-mail versenden
 mailSubject=Hallo {0}!
-mailBody=Wie geht es dir?*HIGHLIGHT END*
+mailBody=Wie geht es dir?
 ```
 
 And we add the missing texts to the `properties` files

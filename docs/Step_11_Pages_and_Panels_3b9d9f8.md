@@ -33,14 +33,14 @@ You can view and download all files at [Walkthrough - Step 11](https://openui5.h
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
-  *HIGHLIGHT START*displayBlock="true">
+  displayBlock="true">
    <App>
       <pages>
          <Page title="{i18n>homePageTitle}">
             <content>
                <Panel
                   headerText="{i18n>helloPanelTitle}">
-                  <content>*HIGHLIGHT END*
+                  <content>
 
                      <Button
                         text="{i18n>showHelloButtonText}"
@@ -50,12 +50,12 @@ You can view and download all files at [Walkthrough - Step 11](https://openui5.h
                         description="Hello {/recipient/name}"
                         valueLiveUpdate="true"
                         width="60%"/>
-                 *HIGHLIGHT START* </content>
+                  </content>
                </Panel>
             </content>
          </Page>
       </pages>
-   </App>*HIGHLIGHT END*
+   </App>
 </mvc:View>
 
 ```
@@ -76,13 +76,14 @@ In order to make the fullscreen height of the view work properly, we add the `di
 ``` prefs
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span]
 
 # Hello Panel
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
-*HIGHLIGHT START*homePageTitle=Walkthrough
-helloPanelTitle=Hello World*HIGHLIGHT END*
+homePageTitle=Walkthrough
+helloPanelTitle=Hello World
 ```
 
 We add new key/value pairs to our text bundle for the start page title and the panel title.

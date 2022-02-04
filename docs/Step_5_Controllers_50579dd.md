@@ -30,12 +30,12 @@ You can view and download all files at [Walkthrough - Step 5](https://openui5.ha
 
 ``` xml
 <mvc:View
-   *HIGHLIGHT START*controllerName="sap.ui.demo.walkthrough.controller.App"*HIGHLIGHT END*
+   controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   *HIGHLIGHT START*<Button
+   <Button
       text="Say Hello"
-      press=".onShowHello"/>*HIGHLIGHT END*
+      press=".onShowHello"/>
 </mvc:View>
 ```
 
@@ -48,13 +48,13 @@ A view does not necessarily need an explicitly assigned controller. You do not h
 ### webapp/controller/App.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
    "use strict";
    return Controller.extend("", {
    });
-});*HIGHLIGHT END*
+});
 ```
 
 We create the folder `webapp/controller` and a new file `App.controller.js` inside. For now, we ignore the code that manages the required modules. We will explain this part in the next step.
@@ -71,12 +71,12 @@ sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
    "use strict";
-   return Controller.extend(*HIGHLIGHT START*"sap.ui.demo.walkthrough.controller.App", {
+   return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
       onShowHello : function () {
          // show a native JavaScript alert
          alert("Hello World");
       }
-   }*HIGHLIGHT END*);
+   });
 });
 ```
 

@@ -48,10 +48,10 @@ sap.ui.require([
 		// Assign the model object to the SAPUI5 core
 		sap.ui.getCore().setModel(oModel);
 
-*HIGHLIGHT START*		// Display a text element whose text is derived
+		// Display a text element whose text is derived
 		// from the model object
-*HIGHLIGHT END*
-		new Text({text: "{*HIGHLIGHT START*/greetingText*HIGHLIGHT END*}"}).placeAt("content");
+
+		new Text({text: "{/greetingText}"}).placeAt("content");
 	});
 });
 

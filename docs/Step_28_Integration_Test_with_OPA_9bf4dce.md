@@ -46,7 +46,7 @@ We add a new folder `integration` below the `test` folder, where we put our new 
 ### webapp/test/integration/NavigationJourney.js \(New\)
 
 ``` js
-*HIGHLIGHT START*/*global QUnit, opaTest*/
+/*global QUnit, opaTest*/
 
 sap.ui.define([
 	"sap/ui/demo/walkthrough/localService/mockserver",
@@ -78,7 +78,7 @@ sap.ui.define([
 		Then.iTeardownMyApp();
 	});
 });
-*HIGHLIGHT END*
+
 ```
 
 Let’s start with the `journey` first. A `journey` consists of a series of integration tests that belong to the same context such as navigating through the app. Similar to the QUnit test implementation, OPA5 uses QUnit, that's why we first set up a QUnit module `Navigation` that will be displayed on our result page.
@@ -107,7 +107,7 @@ As you can see, the test case reads like a user story, we actually do not need t
 ### webapp/test/integration/pages/App.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/test/Opa5",
 	"sap/ui/test/actions/Press"
 ], function (Opa5, Press) {
@@ -142,7 +142,7 @@ As you can see, the test case reads like a user story, we actually do not need t
 			}
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 The implementation of the page object holds the helper functions we just called in our `journey`. We require OPA5 from the `sap.ui.test` namespace and define a page object with the helper function `createPageObjects`. We pass in an object with the key of our page `onTheAppPage` and two sections: `actions` and `assertions`.
@@ -160,7 +160,7 @@ In the assertions section we define another `waitFor` statement that checks if a
 ### webapp/test/integration/opaTests.qunit.html \(New\)
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Integration tests for SAPUI5 Walkthrough</title>
@@ -190,7 +190,7 @@ In the assertions section we define another `waitFor` statement that checks if a
 	<div id="qunit-fixture"></div>
 </body>
 </html>
-*HIGHLIGHT END*
+
 ```
 
 This file contains our test suite for all OPA tests of the app. We use the same namespace as for our application.

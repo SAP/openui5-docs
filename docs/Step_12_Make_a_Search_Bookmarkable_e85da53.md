@@ -65,7 +65,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 				"name": "employeeList",
 				"target": "employees"
 			}, {
-				"pattern": "employees/overview*HIGHLIGHT START*:?query:*HIGHLIGHT END*",
+				"pattern": "employees/overview:?query:",
 				"name": "employeeOverview",
 				"target": ["employeeOverviewTop", "employeeOverviewContent"]
 
@@ -113,7 +113,7 @@ sap.ui.define([
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.overview.EmployeeOverviewContent", {
 
 		onInit: function () {
-*HIGHLIGHT START*			var oRouter = this.getRouter();*HIGHLIGHT END*
+			var oRouter = this.getRouter();
 
 			this._oTable = this.byId("employeesTable");
 			this._oVSD = null;
@@ -121,17 +121,17 @@ sap.ui.define([
 			this._bSortDescending = false;
 			this._aValidSortFields = ["EmployeeID", "FirstName", "LastName"];
 			this._sSearchQuery = null;
-*HIGHLIGHT START*			this._oRouterArgs = null;
-*HIGHLIGHT END*
+			this._oRouterArgs = null;
+
 
 			this._initViewSettingsDialog();
 
-*HIGHLIGHT START*			// make the search bookmarkable
-			oRouter.getRoute("employeeOverview").attachMatched(this._onRouteMatched, this);*HIGHLIGHT END*
+			// make the search bookmarkable
+			oRouter.getRoute("employeeOverview").attachMatched(this._onRouteMatched, this);
 
 		},
 
-*HIGHLIGHT START*		_onRouteMatched: function (oEvent) {
+		_onRouteMatched: function (oEvent) {
 			// save the current query state
 			this._oRouterArgs = oEvent.getParameter("arguments");
 			this._oRouterArgs["?query"] = this._oRouterArgs["?query"] || {};
@@ -139,17 +139,17 @@ sap.ui.define([
 			// search/filter via URL hash
 			this._applySearchFilter(this._oRouterArgs["?query"].search);
 		},
-*HIGHLIGHT END*
+
 
 		onSortButtonPressed : function (oEvent) {
 			this._oVSD.open();
 		},
 
 		onSearchEmployeesTable : function (oEvent) {
-*HIGHLIGHT START*			var oRouter = this.getRouter();
+			var oRouter = this.getRouter();
 			// update the hash with the current search term
 			this._oRouterArgs["?query"].search = oEvent.getSource().getValue();
-			oRouter.navTo("employeeOverview", this._oRouterArgs, true /*no history*/);*HIGHLIGHT END*
+			oRouter.navTo("employeeOverview", this._oRouterArgs, true /*no history*/);
 		},
 		...
 	});

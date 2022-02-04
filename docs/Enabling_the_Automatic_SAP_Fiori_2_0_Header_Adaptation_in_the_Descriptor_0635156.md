@@ -107,7 +107,7 @@ In the list below, you can see what each of the settings enables.
 > ### Note:  
 > In rare cases this automatic adaptation of the header area may not work, due to the application structure or other reasons. In this case the headers will still appear in the old design, but the apps will continue to be usable.
 
-Some old SAP Fiori applications do not have an app descriptor yet. If you consider the effort to provide proper app descriptors for all applications as too high, there is a second way to do this configuration. This alternative configuration is done in the `metadata` section of `**Component.js**` \(the app’s root component\), which also has a `config` section. The configuration options can be done there in the same manner.
+Some old SAP Fiori applications do not have an app descriptor yet. If you consider the effort to provide proper app descriptors for all applications as too high, there is a second way to do this configuration. This alternative configuration is done in the `metadata` section of <code><b>Component.js</b></code> \(the app’s root component\), which also has a `config` section. The configuration options can be done there in the same manner.
 
 > ### Note:  
 > If both the metadata and manifest are configured, and contradict each other, the configuration in **manifest.json** is applied.

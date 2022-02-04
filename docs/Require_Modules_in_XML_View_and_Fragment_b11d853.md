@@ -16,10 +16,10 @@ The `require` attribute with namespace URI `sap.ui.core` can be used to define t
 
 ``` xml
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
-   *HIGHLIGHT START*core:require="{
+   core:require="{
       Box: 'sap/m/MessageBox',
       Toast: 'sap/m/MessageToast'
-   }"*HIGHLIGHT END*>
+   }">
    ...
 </mvc:View>
 ```

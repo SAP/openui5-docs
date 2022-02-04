@@ -39,7 +39,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 	xmlns:mvc="sap.ui.core.mvc">
 	<Table id="employeesTable"
 		items="{/Employees}"
-			*HIGHLIGHT START*itemPress=".onItemPressed"*HIGHLIGHT END*>
+			itemPress=".onItemPressed">
 		<headerToolbar>
 			...
 		</headerToolbar>
@@ -47,7 +47,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 			...
 		</columns>
 		<items>
-			<ColumnListItem *HIGHLIGHT START*type="Active"*HIGHLIGHT END*>
+			<ColumnListItem type="Active">
 				<cells>
 					...
 				</cells>
@@ -87,7 +87,7 @@ sap.ui.define([
 			// Note: no input validation is implemented here
 			this._oVSD.setSelectedSortItem(sSortField);
 			this._oVSD.setSortDescending(bSortDescending);
-		}*HIGHLIGHT START*,
+		},
 		onItemPressed: function (oEvent) {
 			var oItem, oCtx, oRouter;
 			oItem = oEvent.getParameter("listItem");
@@ -98,7 +98,7 @@ sap.ui.define([
 					tab: "Info"
 				}
 			});
-		}*HIGHLIGHT END*
+		}
 	});
 });
 ```

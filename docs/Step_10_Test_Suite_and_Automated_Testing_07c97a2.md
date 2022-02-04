@@ -35,7 +35,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 ### webapp/test/testsuite.qunit.html \(New\)
 
 ``` html
-*HIGHLIGHT START*<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<title>QUnit test suite for Bulletin Board</title>
@@ -45,7 +45,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 <body>
 </body>
 </html>
-*HIGHLIGHT END*
+
 ```
 
 Create a new `testsuite.qunit.html` file. Here, you add the `testsuite.qunit.js` script, which we will define next, as a source.
@@ -55,7 +55,7 @@ Create a new `testsuite.qunit.html` file. Here, you add the `testsuite.qunit.js`
 ### webapp/test/testsuite.qunit.js \(New\)
 
 ``` js
-*HIGHLIGHT START*window.suite = function() {
+window.suite = function() {
 	"use strict";
 
 	var oSuite = new parent.jsUnitTestSuite(),
@@ -65,7 +65,7 @@ Create a new `testsuite.qunit.html` file. Here, you add the `testsuite.qunit.js`
 	oSuite.addTestPage(sContextPath + "integration/opaTests.qunit.html");
 
 	return oSuite;
-};*HIGHLIGHT END*
+};
 ```
 
 This new `testsuite.qunit.js` file contains the logic for the QUnit tests. The coding is quite straightforward: We require the relevant QUnit files for redirecting to the central test suite and provide a configuration function `suite()` that is called automatically by the testrunner.

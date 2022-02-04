@@ -73,7 +73,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 					<Toolbar>
 						<Title text="{i18n>EmployeeIDColon} {EmployeeID}" level="H2"/>
 						<ToolbarSpacer />
-						*HIGHLIGHT START*<Link text="{i18n>FlipToResume}" tooltip="{i18n>FlipToResume.tooltip}" press=".onShowResume"/>*HIGHLIGHT END*
+						<Link text="{i18n>FlipToResume}" tooltip="{i18n>FlipToResume.tooltip}" press=".onShowResume"/>
 					</Toolbar>
 				</headerToolbar>
 				<content>
@@ -105,7 +105,7 @@ sap.ui.define([
 			}
 		}
 			...
-		}*HIGHLIGHT START*,
+		},
 		onShowResume : function (oEvent) {
 			var oCtx = this.getView().getElementBinding().getBoundContext();
 
@@ -113,7 +113,7 @@ sap.ui.define([
 				employeeId : oCtx.getProperty("EmployeeID")
 			});
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -160,11 +160,11 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 				"pattern": "employees/{employeeId}",
 				"name": "employee",
 				"target": "employee"
-			}*HIGHLIGHT START*, {
+			}, {
 				"pattern": "employees/{employeeId}/resume",
 				"name": "employeeResume",
 				"target": "employeeResume"
-			}*HIGHLIGHT END*],
+			}],
 			"targets": {
 				"home": {
 					"id": "home",
@@ -186,13 +186,13 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 					"id": "employee",
 					"name": "employee.Employee",
 					"level" : 3
-				}*HIGHLIGHT START*,
+				},
 				"employeeResume": {
 					"id": "resume",
 					"name": "employee.Resume",
 					"level" : 4,
 					"transition": "flip"
-				}*HIGHLIGHT END*
+				}
 			}
 		}
 	}
@@ -222,7 +222,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 ### webapp/view/employee/Resume.view.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<mvc:View
+<mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Resume"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -255,7 +255,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 		</content>
 	</Page>
 </mvc:View>
-*HIGHLIGHT END*
+
 ```
 
 Create a file `Resume.view.xml` inside the `webapp/view/employee` folder. The view uses an `IconTabBar` to display the resume data. Therefore, its binding attribute is set to `{Resume}`.
@@ -267,7 +267,7 @@ In the `IconTabBar` we display four tabs. Three of them simply use a `Text` cont
 ### webapp/controller/employee/Resume.controller.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
 	"use strict";
@@ -300,7 +300,7 @@ In the `IconTabBar` we display four tabs. Three of them simply use a `Text` cont
 			}
 		}
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 Create a file `Resumee.controller.js` in the `webapp/controller/employee` folder. In this controller, we make sure to bind the view to the correct employee whenever the `employeeResume` route has matched. We have already used this approach in the previous step so you should be able to recognize the building blocks in the code above. Again, in case the user cannot be found we display the `notFound` target.
@@ -311,9 +311,9 @@ Create a file `Resumee.controller.js` in the `webapp/controller/employee` folder
 
 ``` xml
 
-*HIGHLIGHT START*<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Projects}"/>
-</mvc:View>*HIGHLIGHT END*
+</mvc:View>
 ```
 
 Create a file `ResumeProjects.view.xml` in the `webapp/view/employee` folder. This view does not have a controller as we don’t need it. It just displays a `Text` control with the projects text of the selected employee. It illustrates that using nested views works just fine in combination with navigation and routing in OpenUI5.
@@ -326,14 +326,14 @@ Create a file `ResumeProjects.view.xml` in the `webapp/view/employee` folder. Th
 ### webapp/i18n/i18n.properties
 
 ``` prefs
-*HIGHLIGHT START*...
+...
 ResumeOf=Resume of
 tabInfo=Info
 tabProjects=Projects
 tabHobbies=Hobbies
 tabNotes=Notes
 FlipToResume=Flip to Resume
-FlipToResume.tooltip=See the resume of this employee*HIGHLIGHT END*
+FlipToResume.tooltip=See the resume of this employee
 ```
 
 Add the new texts to the `i18n.properties` file.

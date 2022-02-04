@@ -45,19 +45,19 @@ XML view:
 ``` xml
 <ObjectPageLayout id="ObjectPageLayout">
 
-	 *HIGHLIGHT START*<headerTitle>*HIGHLIGHT END*
+	 <headerTitle>
 		<ObjectPageHeader objectTitle="John Smith">
 			<actions>
 				<ObjectPageHeaderActionButton icon="sap-icon://edit" text="Edit" />
 				<ObjectPageHeaderActionButton icon="sap-icon://save" text="Save" />
 			</actions>
 		</ObjectPageHeader>
-	*HIGHLIGHT START*</headerTitle>*HIGHLIGHT END*
+	</headerTitle>
 
-	*HIGHLIGHT START*<headerContent>*HIGHLIGHT END*
+	<headerContent>
 		<m:Label text="Personal description"/>                                                
 		<m:Text value="some KPI info"/>
-	*HIGHLIGHT START*</headerContent>*HIGHLIGHT END*
+	</headerContent>
 
 </ObjectPageLayout>
 ```
@@ -103,19 +103,19 @@ XML view:
 
 ``` xml
 <ObjectPageLayout id="ObjectPageLayout" >
-        *HIGHLIGHT START*<sections>*HIGHLIGHT END*
+        <sections>
             <ObjectPageSection title="Payroll" >
-                *HIGHLIGHT START*<subSections>*HIGHLIGHT END*
+                <subSections>
                     <ObjectPageSubSection title="sub payroll title">
-                        *HIGHLIGHT START*<blocks>*HIGHLIGHT END*
+                        <blocks>
                             <myNameSpace:myBlock/>
                             <myNameSpace:myBlock/>
                             <myNameSpace:myBlock/>
-                        *HIGHLIGHT START*</blocks>*HIGHLIGHT END*
+                        </blocks>
                     </ObjectPageSubSection>
-                *HIGHLIGHT START*</subSections>*HIGHLIGHT END*
+                </subSections>
             </ObjectPageSection>
-        *HIGHLIGHT START*</sections>*HIGHLIGHT END*
+        </sections>
     </ObjectPageLayout>
 ```
 
@@ -155,7 +155,7 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
 Here is how this property is set in the XML view:
 
 ``` xml
-<ObjectPageLayout id="ObjectPageLayout" *HIGHLIGHT START*subSectionLayout="titleOnTop"*HIGHLIGHT END*>
+<ObjectPageLayout id="ObjectPageLayout" subSectionLayout="titleOnTop">
         <sections>
             <ObjectPageSection title="Payroll" >
                 <subSections>
@@ -213,7 +213,7 @@ The lazy loading mechanism allows you to load data only when the subsection bloc
 Lazy loading is disabled by default. To enable it, set the `enableLazyLoading` property to `true`:
 
 ``` js
-<ObjectPageLayout id="ObjectPageLayout" *HIGHLIGHT START*enableLazyLoading="true"*HIGHLIGHT END*>
+<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true">
 ```
 
 Next, you have to complete the setup of the blocks. There are two ways to set up lazy loading on the subsection blocks. For the first one, all your subsection blocks must be based on `BlockBase`, otherwise they’re loaded as normal OpenUI5 components. The second one is stashed-based and the content of subsection blocks must we wrapped inside an `ObjectPageLazyLoader`.

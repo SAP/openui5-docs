@@ -61,9 +61,9 @@ You can now specify an initialization module that is loaded and executed after t
 <script src="/sapui5/resources/sap-ui-core.js" 
 	id="sap-ui-bootstrap"
 	data-sap-ui-libs="sap.m" 
-	*HIGHLIGHT START*data-sap-ui-oninit="module:sap/app/App"
+	data-sap-ui-oninit="module:sap/app/App"
 	data-sap-ui-resourceroots='{"sap.app": "my/local/path"}'
-*HIGHLIGHT END*
+
 	data-sap-ui-theme="sap_belize"></script>
 
 ```

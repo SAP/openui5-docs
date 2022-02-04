@@ -39,7 +39,7 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 ### webapp/manifest.json \(New\)
 
 ``` js
-*HIGHLIGHT START*{
+{
   "_version": "1.12.0",
   "sap.app": {
 	"id": "sap.ui.demo.walkthrough",
@@ -83,7 +83,7 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 	  }
 	}
   }
-}*HIGHLIGHT END*
+}
 ```
 
 > ### Note:  
@@ -119,7 +119,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
     -   `deviceTypes`: Tells what devices are supported by the app: desktop, tablet, phone \(all true by default\)
 
 
--   **`**sap.ui5**`**
+-   **<code><b>sap.ui5</b></code>**
 
     The `sap.ui5` namespace adds OpenUI5-specific configuration parameters that are automatically processed by OpenUI5. The most important parameters are:
 
@@ -155,13 +155,13 @@ The content of the `manifest.json` file is a configuration object in JSON format
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "./"
 		}'
-*HIGHLIGHT START*		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"*HIGHLIGHT END*
+		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true">
 	</script>
 </head>
 <body class="sapUiBody" id="content">
-*HIGHLIGHT START*	<div data-sap-ui-component data-name="sap.ui.demo.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>*HIGHLIGHT END*
+	<div data-sap-ui-component data-name="sap.ui.demo.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
 </body>
 </html>
 ```
@@ -175,11 +175,13 @@ We will no longer need our `index.js` from now on, because the descriptor takes 
 ### webapp/i18n/i18n.properties
 
 ``` prefs
-*HIGHLIGHT START*# App Descriptor
+# App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/strong/span
+     {""}) [/pandoc/div/div/horizontalrule/codeblock/strong/span/span
+     {""}) OpenUI5 (span] (span]
 
-# Hello Panel*HIGHLIGHT END*
+# Hello Panel
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 
@@ -198,10 +200,10 @@ sap.ui.define([
 ], function (UIComponent, JSONModel) {
    "use strict";
    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
-      *HIGHLIGHT START*metadata : {
+      metadata : {
             interfaces: ["sap.ui.core.IAsyncContentCreation"],
             manifest: "json"
-      },*HIGHLIGHT END*
+      },
       init : function () {
          // call the init function of the parent
          UIComponent.prototype.init.apply(this, arguments);

@@ -77,7 +77,7 @@ In the `manifest.json` descriptor file of your app, you can now change the data 
 	"dataSources": {
 	  "invoiceRemote": {
 
-		"uri": "*HIGHLIGHT START*Northwind/*HIGHLIGHT END*V2/northwind/northwind.svc/",
+		"uri": "Northwind/V2/northwind/northwind.svc/",
 		"type": "OData",
 		"settings": {
 		  "odataVersion": "2.0"
@@ -120,12 +120,12 @@ Prerequisites: NodeJS is installed on your machine.
 	"name": "Sample-Package",
 	"version": "1.0.0",
 	"description": "Sample package.json",
-*HIGHLIGHT START*	"scripts": {
+	"scripts": {
 		"proxy": "node proxy.js"
 	},
 	"devDependencies": {
 		"myProxy": "^x.y.z"
-	},*HIGHLIGHT END*
+	},
 	"dependencies": {
 	}
 }
@@ -138,7 +138,7 @@ Add the `devDependency` called `"myProxy": "^x.y.z"` to your existing `package.j
 #### proxy.js \(new\)
 
 ``` js
-*HIGHLIGHT START*var cors_proxy = require('myProxy');
+var cors_proxy = require('myProxy');
 
 // Listen on a specific IP Address
 var host = 'localhost';
@@ -153,7 +153,7 @@ cors_proxy.createServer({
 	// headers to be removed ['cookie', 'cookie2']
 }).listen(port, host, function() {
 	console.log('Running myProxy on ' + host + ':' + port);
-});*HIGHLIGHT END*
+});
 ```
 
 Create a new file `proxy.js`, and copy the above script into your project directory. This is the pre-configured proxy server we are going to use to prevent the occurrence of **same-origin policy error**. We can start it by running the command `node proxy.js` or `npm run proxy`. It runs a local proxy on `port` in the console.
@@ -168,8 +168,8 @@ Create a new file `proxy.js`, and copy the above script into your project direct
 		...
 		"dataSources": {
 			"northwind": {
-				*HIGHLIGHT START*"uri": "http://localhost:8081/https://services.odata.org/V2/Northwind/Northwind.svc/",
-*HIGHLIGHT END*
+				"uri": "http://localhost:8081/https://services.odata.org/V2/Northwind/Northwind.svc/",
+
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0"

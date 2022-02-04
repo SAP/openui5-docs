@@ -51,8 +51,8 @@ The function import we are going to use is declared in the `metadata.xml` file.
 
 ``` xml
 ...
-  *HIGHLIGHT START*//Delete items="{/Meetups}"*HIGHLIGHT END*
-	<List id="list" items="{/**FindUpcomingMeetups**}" noDataText="{i18n>noDataText}"> 
+  //Delete items="{/Meetups}"
+	<List id="list" items="{/FindUpcomingMeetups}" noDataText="{i18n>noDataText}"> 
 ...
 ```
 
@@ -79,11 +79,11 @@ In order to simulate the function import call, we write our own \(mocked\) imple
 
 ``` js
 sap.ui.define([
-*HIGHLIGHT START*	"sap/ui/thirdparty/jquery",
-*HIGHLIGHT END*
+	"sap/ui/thirdparty/jquery",
+
 	"sap/ui/core/util/MockServer",
 	"sap/base/Log"
-], function(*HIGHLIGHT START*jQuery, *HIGHLIGHT END*MockServer, Log) {
+], function(jQuery, MockServer, Log) {
 	"use strict";
 	return {
 		/**
@@ -102,7 +102,7 @@ sap.ui.define([
 				bGenerateMissingMockData: true
 			});
 
-*HIGHLIGHT START*			// handling mocking a function import call step
+			// handling mocking a function import call step
 			var aRequests = oMockServer.getRequests();
 			aRequests.push({
 				method: "GET",
@@ -124,7 +124,7 @@ sap.ui.define([
 					return true;
 				}
 			});
-			oMockServer.setRequests(aRequests);*HIGHLIGHT END*
+			oMockServer.setRequests(aRequests);
 			// handling custom URL parameter step
 			var fnCustom = function(oEvent) {
 				var oXhr = oEvent.getParameter("oXhr");
@@ -179,7 +179,7 @@ When you now start the app again you will see a list of upcoming meet-ups.
 ``` js
 ...
 oMockServer.simulate("localService/metadata.xml", {
-	sMockdataBaseUrl : "*HIGHLIGHT START*localService/mockdata*HIGHLIGHT END*",
+	sMockdataBaseUrl : "localService/mockdata",
 	bGenerateMissingMockData : true
 });
 ...

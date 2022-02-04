@@ -34,7 +34,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 8](https:
 ### webapp/test/integration/PostJourney.js \(New\)
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist",
 	"./pages/Browser",
@@ -73,7 +73,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 8](https:
 		// Cleanup
 		Then.iTeardownMyApp();
 	});
-});*HIGHLIGHT END*
+});
 ```
 
 This new journey for the *Post* page introduces a test case that tests the navigation and also tests if the browser history is in the correct state, so that the user can navigate through our app with the back and forward button of the browser. This time, instead of adding a test we will add a new journey.
@@ -98,13 +98,13 @@ sap.ui.define([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',
 		'sap/ui/test/matchers/I18NText',
-		*HIGHLIGHT START*'sap/ui/test/matchers/BindingPath',*HIGHLIGHT END*
+		'sap/ui/test/matchers/BindingPath',
 		'sap/ui/test/actions/Press'
 	],
 	function (Opa5,
 			  AggregationLengthEquals,
 			  I18NText,
-*HIGHLIGHT START*			  BindingPath,*HIGHLIGHT END*
+			  BindingPath,
 			  Press) {
 		"use strict";
 
@@ -115,7 +115,7 @@ sap.ui.define([
 			onTheWorklistPage: {
 				actions: {
 …
-*HIGHLIGHT START*                        ,
+                        ,
 					iPressOnTheItemWithTheID: function (sId) {
 						return this.waitFor({
 							controlType: "sap.m.ColumnListItem",
@@ -126,7 +126,7 @@ sap.ui.define([
 							actions: new Press(),
 							errorMessage: "No list item with the id " + sId + " was found."
 						});
-					}*HIGHLIGHT END*
+					}
 ```
 
 Now that we have written our spec how the navigation to the *Post* page is planned, we first need to implement the "click" on a list item. To identify the item we are looking for, we use the `BindingPath` matcher. Doing so, we make sure that even if the order of the items changes, we always choose the same item. The `press` action simulates a user click on the item.
@@ -136,7 +136,7 @@ Now that we have written our spec how the navigation to the *Post* page is plann
 ### **webapp/test/integration/pages/Post.js \(New\)**
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	'sap/ui/test/Opa5',
 	'sap/ui/test/matchers/Properties',
 	'sap/ui/test/actions/Press'
@@ -177,7 +177,7 @@ Now that we have written our spec how the navigation to the *Post* page is plann
 			}
 		});
 	});
-*HIGHLIGHT END*
+
 ```
 
 After navigating to the *Post* page, we need a new OPA5 `Page` object for the page to implement our actions and assertions.
@@ -192,7 +192,7 @@ We implement a `press` event on the page’s `nav` button and we assert that we 
 
 ``` js
 …
-*HIGHLIGHT START*,
+,
 					iShouldSeeTheTable: function () {
 						return this.waitFor({
 							id: sTableId,
@@ -202,7 +202,7 @@ We implement a `press` event on the page’s `nav` button and we assert that we 
 							},
 							errorMessage: "Was not able to see the table."
 						});
-					}*HIGHLIGHT END*
+					}
 …
 ```
 
@@ -213,7 +213,7 @@ After going back, we want to move forwards again, but we need to check if the ba
 ### **webapp/test/integration/pages/Browser.js \(New\)**
 
 ``` js
-*HIGHLIGHT START*sap.ui.define([
+sap.ui.define([
 	'sap/ui/test/Opa5'
 ], function (Opa5) {
 	"use strict";
@@ -231,7 +231,7 @@ After going back, we want to move forwards again, but we need to check if the ba
 				assertions: {}
 			}
 		});
-	}); *HIGHLIGHT END*
+	}); 
 ```
 
 We now implement an action that is triggered when the *Forward* button is chosen. Since it is not part of the browser's UI and it could be used on any page of our application, we just declare our browser’s UI as an own OPA page object. To simulate the *Forward* button, we use the `history` API of the browser. We have to wrap our action in a `waitFor` statement. Otherwise the action would be executed before our app is started.
@@ -245,7 +245,7 @@ sap.ui.define([
 	"sap/ui/test/Opa5",
 	"./arrangements/Startup",
 	"./WorklistJourney",
-	*HIGHLIGHT START*"./PostJourney"*HIGHLIGHT END*
+	"./PostJourney"
 ], function (Opa5, Startup) {
 	"use strict";
 

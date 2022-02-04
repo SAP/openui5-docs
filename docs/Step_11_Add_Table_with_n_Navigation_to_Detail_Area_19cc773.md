@@ -58,7 +58,7 @@ You can view and download all files at [OData V4 - Step 11](https://openui5.hana
 														</f:formContainers>
 													</f:Form>
 												</FlexBox>
-*HIGHLIGHT START*												<Table
+												<Table
 													id="friendsTable"
 													width="auto"
 													items="{path: 'Friends',
@@ -105,7 +105,7 @@ You can view and download all files at [OData V4 - Step 11](https://openui5.hana
 															</cells>
 														</ColumnListItem>
 													</items>
-												</Table>*HIGHLIGHT END*
+												</Table>
 											</VBox>
 ...
 </mvc:View>

@@ -101,7 +101,7 @@ sap.ui.define([
                 texts: { 
                     type: "sap.ui.core.Item",
                     multiple: true, forwarding: {
-                           idSuffix: "*HIGHLIGHT START*--*HIGHLIGHT END*myInternalVBox",
+                           idSuffix: "--myInternalVBox",
                            aggregation: "items"
                      }
                 }

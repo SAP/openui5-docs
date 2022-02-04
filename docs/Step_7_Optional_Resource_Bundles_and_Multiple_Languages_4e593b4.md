@@ -36,15 +36,15 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 7](h
 
 ``` prefs
 # Field labels
-firstName=*HIGHLIGHT START*Vorname*HIGHLIGHT END*
-lastName=*HIGHLIGHT START*Nachname*HIGHLIGHT END*
-enabled=*HIGHLIGHT START*Aktiviert*HIGHLIGHT END*
+firstName=Vorname
+lastName=Nachname
+enabled=Aktiviert
 
 # Screen titles
-panelHeaderText=*HIGHLIGHT START*Data Binding Grundlagen*HIGHLIGHT END*
+panelHeaderText=Data Binding Grundlagen
 ```
 
-In the `i18n` folder, make a copy of the file `i18n.properties` and call it `i18n**\_de**.properties`. The suffix `de` is the locale for German language. Change the English text to the German text. Then, add the new locale `de` to the `supportedLocales` configuration, so that it will be taken into account:
+In the `i18n` folder, make a copy of the file `i18n.properties` and call it <code>i18n<b>_de</b>.properties</code>. The suffix `de` is the locale for German language. Change the English text to the German text. Then, add the new locale `de` to the `supportedLocales` configuration, so that it will be taken into account:
 
 ***
 
@@ -82,9 +82,9 @@ sap.ui.require([
 		//   Configuring it explicitly avoids side effects when additional resource files are added.
 		// @see https://openui5.hana.ondemand.com/#/topic/ec753bc539d748f689e3ac814e129563
 		var oResourceModel = new ResourceModel({
-			*HIGHLIGHT START*bundleName: "sap.ui.demo.db.i18n.i18n",
+			bundleName: "sap.ui.demo.db.i18n.i18n",
 			supportedLocales: ["", "de"],
-			fallbackLocale: ""*HIGHLIGHT END*
+			fallbackLocale: ""
 		});
 
 		// Assign the model object to the SAPUI5 core using the name "i18n"

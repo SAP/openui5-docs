@@ -46,12 +46,12 @@ You can view and download all files at [Walkthrough - Step 16](https://openui5.h
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
-    *HIGHLIGHT START*  <Button
+      <Button
          id="helloDialogButton"
          text="{i18n>openDialogButtonText}"
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>
-*HIGHLIGHT END*
+
       <Button
          text="{i18n>showHelloButtonText}"
          press=".onShowHello"
@@ -77,14 +77,14 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 ### webapp/view/HelloDialog.fragment.xml \(New\)
 
 ``` xml
-*HIGHLIGHT START*<core:FragmentDefinition
+<core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
    <Dialog
       id="helloDialog"
       title="Hello {/recipient/name}">
    </Dialog>
-</core:FragmentDefinition>*HIGHLIGHT END*
+</core:FragmentDefinition>
 ```
 
 We add a new XML file to declaratively define our dialog in a fragment. The fragment assets are located in the `core` namespace, so we add an `xml` namespace for it inside the `FragmentDefinition` tag.
@@ -99,15 +99,15 @@ The syntax is similar to a view, but since fragments do not have a controller th
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
-*HIGHLIGHT START*	"sap/ui/core/Fragment"*HIGHLIGHT END*
-], function (Controller, MessageToast*HIGHLIGHT START*, Fragment*HIGHLIGHT END*) {
+	"sap/ui/core/Fragment"
+], function (Controller, MessageToast, Fragment) {
 	"use strict";
 
 	return Controller.extend("sap.ui.demo.walkthrough.controller.HelloPanel", {
 
 		onShowHello : function () {
 			…
-		}*HIGHLIGHT START*,
+		},
 		onOpenDialog : function () {
 
 			// create dialog lazily
@@ -120,7 +120,7 @@ sap.ui.define([
 				oDialog.open();
 			});
 		}
-*HIGHLIGHT END*
+
 	});
 });
 ```
@@ -147,14 +147,15 @@ To reuse the dialog opening and closing functionality in other controllers, you 
 ``` prefs
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
+appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
+     {""}) OpenUI5 (span]
 
 # Hello Panel
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 homePageTitle=Walkthrough
 helloPanelTitle=Hello World
-*HIGHLIGHT START*openDialogButtonText=Say Hello With Dialog*HIGHLIGHT END*
+openDialogButtonText=Say Hello With Dialog
 ```
 
 We add a new text for the open button to the text bundle.

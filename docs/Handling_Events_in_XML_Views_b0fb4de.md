@@ -77,7 +77,7 @@ By invoking the special JavaScript function .`call(...)` on your event handler f
 In XMLViews and JSONViews it is also possible to directly specify the parameters that should be passed into the event handler function. These parameters then are passed instead of the event object. The syntax mimics the JavaScript syntax for function calls:
 
 ```
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*'Hello World'*HIGHLIGHT END*)"/>
+<Button text="Press Me" press=".doSomething('Hello World')"/>
 ```
 
 Any JavaScript literals including objects and arrays can be passed:
@@ -89,7 +89,7 @@ Any JavaScript literals including objects and arrays can be passed:
 It is also possible to access model properties. The syntax to be used is the one used within Expression Binding – binding paths are enclosed in **$\{…\}** :
 
 ```
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*${products>unitPrice}*HIGHLIGHT END*)"/>
+<Button text="Press Me" press=".doSomething(${products>unitPrice})"/>
 ```
 
 The binding context from which relative binding paths are resolved is the context of the control which triggers the event. This means that for a control in a table row, relative binding paths like the one above, always pass the data from the table row where the event occurred. This is very convenient, because it is no longer required to find out the data element to which the table row is bound.
@@ -97,9 +97,9 @@ The binding context from which relative binding paths are resolved is the contex
 Complex binding syntax can also be used \(to add formatters, types etc.\), as well as all expressions allowed by [Expression Binding](Expression_Binding_daf6852.md):
 
 ```
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*${path: 'products>unitPrice', formatter: '.formatPrice'}*HIGHLIGHT END*)" />
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*10 * ${products>unitPrice}*HIGHLIGHT END*)" />
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*${products>type} === 'Laptop'*HIGHLIGHT END*)" />
+<Button text="Press Me" press=".doSomething(${path: 'products>unitPrice', formatter: '.formatPrice'})" />
+<Button text="Press Me" press=".doSomething(10 * ${products>unitPrice})" />
+<Button text="Press Me" press=".doSomething(${products>type} === 'Laptop')" />
 
 ```
 
@@ -116,7 +116,7 @@ There are two special named models available in event handlers to make accessing
 The first one is named `$parameters` and contains the event parameters:
 
 ```
-<Select change=".doSomething(*HIGHLIGHT START*${$parameters>/selectedItem}*HIGHLIGHT END*)" />
+<Select change=".doSomething(${$parameters>/selectedItem})" />
 ```
 
 Here the event parameter `selectedItem` is passed into the event handler.
@@ -124,7 +124,7 @@ Here the event parameter `selectedItem` is passed into the event handler.
 The other one is named `$source` and is a `ManagedObjectModel` which wraps the control firing the event:
 
 ```
-<Button text="Press Me" press=".doSomething(*HIGHLIGHT START*${$source>/text}*HIGHLIGHT END*)" />
+<Button text="Press Me" press=".doSomething(${$source>/text})" />
 ```
 
 Here the text of the pressed button is passed into the event handler.
@@ -134,7 +134,7 @@ There are also two special values which can be used as parameters.
 The first special value is named `$event` and represents the original event object. This event object is no longer passed to event handlers, once parameters are specified. This is because of the `$parameters` model, which provides access to the event parameters, and it is not needed in most cases. However, when access to the event object is still needed in the event handler, it can be explicitly passed:
 
 ```
-<Button text="Press Me" press=".doSomething*HIGHLIGHT START*($event)*HIGHLIGHT END*" />
+<Button text="Press Me" press=".doSomething($event)" />
 ```
 
 This leads to the same result as specifying `.doSomething` without any parameters, but further parameters can of course be given.
@@ -142,6 +142,6 @@ This leads to the same result as specifying `.doSomething` without any parameter
 The second special value is `$controller`. As described above, as soon as parameters are specified, the `this` context inside the event handler function is always the object on which this function is defined. However, sometimes it is still required to access the controller even in a handler function which is NOT defined in the controller, but on some other helper object. In this case, the controller can be explicitly passed as one of the parameters:
 
 ```
-<Button text="Press Me" press=".doSomething*HIGHLIGHT START*($controller)*HIGHLIGHT END*" />
+<Button text="Press Me" press=".doSomething($controller)" />
 ```
 
