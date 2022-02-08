@@ -2136,6 +2136,9 @@
 							"JSDoc Guidelines": {
 								"link": "JSDoc_Guidelines_eeaa5de.md",
 								"items": {
+									"JSDoc Visibility Tags": {
+										"link": "JSDoc_Visibility_Tags_b0d5fe2.md"
+									},
 									"Common Pitfalls in JSDoc": {
 										"link": "Common_Pitfalls_in_JSDoc_30671a0.md"
 									}

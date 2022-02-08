@@ -14,18 +14,17 @@ Context binding \(or element binding\) allows you to bind elements to a specific
 
 Let’s assume we have the following JSON data:
 
-``` js
+``` json
 {
 	"company" : {
-		"name"  : "Acme Inc."
-		"street": "23 Franklin St." 
-		"city"  : "Claremont"
-		"state" : "New Hampshire"
-		"zip"	: "03301"
+		"name": "Acme Inc.",
+		"street": "23 Franklin St.",
+		"city": "Claremont",
+		"state": "New Hampshire",
+		"zip": "03301",
 		"revenue": "1833990"
 	}
 }
-
 ```
 
 Here’s how you would use element binding in an XML view:
@@ -33,12 +32,12 @@ Here’s how you would use element binding in an XML view:
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
 	<Input id="companyInput"
 		binding="{/company}"
 		value="{name}"
-		tooltip="The name of the company is '{name}'"/>	
+		tooltip="The name of the company is '{name}'"/>
 </mvc:View>
 ```
 
@@ -47,18 +46,18 @@ By setting `binding="{/company}"`, we can refer to `company` children without ha
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
 	<Input id="companyInput"
 		value="{/company/name}"
-		tooltip="The name of the company is '{/company/name}'}"/>	
+		tooltip="The name of the company is '{/company/name}'}"/>
 </mvc:View>
 ```
 
 To define an element binding in JavaScript, for example in a controller, use the `bindElement` method on a control:
 
 ``` js
-var oInput = this.byId("companyInput")
+var oInput = this.byId("companyInput");
 oInput.bindElement("/company");
 oInput.bindProperty("value", "name");
 ```
@@ -68,26 +67,27 @@ Element binding is especially interesting for containers or layouts containing m
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<l:VerticalLayout id="vLayout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:layout="sap.ui.layout"
+	xmlns="sap.m">
+	<layout:VerticalLayout id="vLayout"
 		binding="{/company}"
 		width="100%">
 			<Text text="{name}" />
 			<Text text="{city}" />
 			<Text text="{county}" />
-	</l:VerticalLayout> 
+	</layout:VerticalLayout> 
 </mvc:View>
 ```
 
 To realize this in JavaScript, proceed as follows in your controller:
 
 ``` js
-var oVerticalLayout = this.getView().byId('vLayout');
+var oVerticalLayout = this.byId("vLayout");
 oVerticalLayout.bindElement("/company");
-oVerticalLayout.addContent(new Text({text: "{name}"}));
-oVerticalLayout.addContent(new Text({text: "{city}"}));
-oVerticalLayout.addContent(new Text({text: "{county}"})););
+oVerticalLayout.addContent(new Text({ text: "{name}" }));
+oVerticalLayout.addContent(new Text({ text: "{city}" }));
+oVerticalLayout.addContent(new Text({ text: "{county}" }));
 ```
 
 Given your XML view contains a `VerticalLayout`, it will look like this:
@@ -95,10 +95,10 @@ Given your XML view contains a `VerticalLayout`, it will look like this:
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<l:VerticalLayout id="vLayout" 
-		width="100%"/> 			 
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:layout="sap.ui.layout"
+	xmlns="sap.m">
+	<layout:VerticalLayout id="vLayout" width="100%"/> 			 
 </mvc:View>
 ```
 
@@ -112,28 +112,31 @@ You create a new binding context for an element that is used to resolve bound pr
 
 Let's look at the following JSON model featuring a company list:
 
-``` js
+``` json
 {
-	companies : [
+	"companies" : [
 		{
-			name : "Acme Inc.",
-			city: "Belmont",
-			state: "NH",
-			county: "Belknap",
-			revenue : 123214125.34  
-		},{
-			name : "Beam Hdg.",
-			city: "Hancock",
-			state: "NH",
-			county: "Belknap"
-			revenue : 3235235235.23  
-		},{
-			name : "Carot Ltd.",
-			city: "Cheshire",
-			state: "NH",
-			county: "Sullivan",
-			revenue : "Not Disclosed"  
-		}]
+			"name": "Acme Inc.",
+			"city": "Belmont",
+			"state": "NH",
+			"county": "Belknap",
+			"revenue": 123214125.34
+		},
+		{
+			"name": "Beam Hdg.",
+			"city": "Hancock",
+			"state": "NH",
+			"county": "Belknap"
+			"revenue": 3235235235.23
+		},
+		{
+			"name": "Carot Ltd.",
+			"city": "Cheshire",
+			"state": "NH",
+			"county": "Sullivan",
+			"revenue": "Not Disclosed"
+		}
+	]
 }
 ```
 
@@ -142,10 +145,9 @@ Let’s take this simple view, containing a single input control:
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<Input id="companyInput"
-		 value="{name}"/>	
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Input id="companyInput" value="{name}"/>	
 </mvc:View>
 ```
 
@@ -162,62 +164,62 @@ To remove the current binding context, call the `unbindElement` method on the in
 
 You can also use the `bindElement` method in conjunction with list binding. Let’s consider the following extension of our JSON data:
 
-``` js
+``` json
 {
-	regions: [
+	"regions": [
 		{
-			name: "Americas",
-			companies : [
+			"name": "Americas",
+			"companies" : [
 			{
-				name : "Acme Inc.",
-				zip : "03301",
-				city: "Belmont",
-				county: "Belknap",
-				state: "NH",
-				revenue : 123214125.34, 
-				publ: true
+				"name": "Acme Inc.",
+				"zip": "03301",
+				"city": "Belmont",
+				"county": "Belknap",
+				"state": "NH",
+				"revenue": 123214125.34, 
+				"publ": true
 			},
 			{
-				name : "Beam Hdg.",
-				zip : "03451",
-				city: "Hancock",
-				county: "Sullivan",
-				state: "NH",
-				revenue : 3235235235.23,
-				publ: true
+				"name": "Beam Hdg.",
+				"zip": "03451",
+				"city": "Hancock",
+				"county": "Sullivan",
+				"state": "NH",
+				"revenue": 3235235235.23,
+				"publ": true
 			},
 			{
-				name : "Carot Ltd.",
-				zip : "03251",
-				city: "Cheshire",
-				county: "Sullivan",
-				state: "NH",
-				revenue : "Not Disclosed",
-				publ: false 
+				"name": "Carot Ltd.",
+				"zip": "03251",
+				"city": "Cheshire",
+				"county": "Sullivan",
+				"state": "NH",
+				"revenue": "Not Disclosed",
+				"publ": false 
 			}]
 		},{
-			name: "DACH",
-			companies : [
+			"name": "DACH",
+			"companies" : [
 			{
-				name : "Taubtrueb",
-				zip : "89234",
-				city: "Ginst",
-				county: "Musenhain",
-				state: "NRW",
-				revenue : 2525, 
-				publ: true
+				"name": "Taubtrueb",
+				"zip": "89234",
+				"city": "Ginst",
+				"county": "Musenhain",
+				"state": "NRW",
+				"revenue": 2525, 
+				"publ": true
 			},
 			{
-				name : "Krawehl",
-				zip : "45362",
-				city: "Schlonz",
-				county: "Humpf",
-				state: "BW",
-				revenue : 2342525, 
-				publ: true
+				"name": "Krawehl",
+				"zip": "45362",
+				"city": "Schlonz",
+				"county": "Humpf",
+				"state": "BW",
+				"revenue": 2342525, 
+				"publ": true
 			}]
 		}
-	] 
+	]
 }
 ```
 
@@ -226,15 +228,10 @@ Say we want to display companies in a `sap.m.List` control. Here’s what the XM
 ``` xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	  <List id=”companyList” items="{companies}">
-		<items>
-			<StandardListItem
-	 	title="{name}"
-	 	description="{city}"
-			/>
-		 </items>
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	  <List id="companyList" items="{companies}">
+			<StandardListItem title="{name}" description="{city}" />
 	  </List>
 </mvc:View>
 ```

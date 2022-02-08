@@ -641,6 +641,7 @@
             -   [File Names and Encoding](File_Names_and_Encoding_104135d.md)
             -   [Git Guidelines](Git_Guidelines_b2f5639.md)
             -   [JSDoc Guidelines](JSDoc_Guidelines_eeaa5de.md)
+                -   [JSDoc Visibility Tags](JSDoc_Visibility_Tags_b0d5fe2.md)
                 -   [Common Pitfalls in JSDoc](Common_Pitfalls_in_JSDoc_30671a0.md)
             -   [Tools](Tools_41de83f.md)
                 -   [ESLint Code Checks](ESLint_Code_Checks_1ba0e44.md)

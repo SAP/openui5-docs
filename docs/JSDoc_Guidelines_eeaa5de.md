@@ -26,14 +26,7 @@ Here are some general principles for writing comments:
 
 -   For subclasses, document the inheritance by using an `@extends` tag in their constructor doclet.
 
--   Document at least public and protected methods with JSDoc, mark them as `@public` or `@protected`.
-
-    If you also document private methods with JSDoc, mark them as `@private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this. `@protected` is not clearly defined for a JavaScript environment. In OpenUI5, it denotes a method that is not meant to be used by applications. It might be used outside the relevant class or subclasses, but only in closely related classes.
-
-    To explicitly specify which modules are allowed to use a class or function, mark the latter as `@private` followed by `@ui5-restricted <modulenames>`, with a comma-separated list of the modules that have access to this class or function.
-
-    > ### Note:  
-    > To ensure that external JSDoc generators can also produce proper documentation, `@private` must be used first followed by `@ui5-restricted`. `@ui5-restricted` overrules `@private`, if it can be interpreted by the generator.
+-   Document at least public and protected methods with JSDoc, mark them as `@public` or `@protected`. For more information on these and other tags that determine the visibility of your method in the *API Reference*, see [JSDoc Visibility Tags](JSDoc_Visibility_Tags_b0d5fe2.md).
 
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
 
@@ -1251,6 +1244,9 @@ Refers to an annotation **within** a class
 </tr>
 </table>
 
+-   **[JSDoc Visibility Tags](JSDoc_Visibility_Tags_b0d5fe2.md "Tags such as @public or @private allow you to control the visibility of the JSDoc
+		documentation.")**  
+Tags such as `@public` or `@private` allow you to control the visibility of the JSDoc documentation.
 -   **[Common Pitfalls in JSDoc](Common_Pitfalls_in_JSDoc_30671a0.md "The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined
 		below, these issues can be avoided.")**  
 The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined below, these issues can be avoided.
