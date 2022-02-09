@@ -217,7 +217,7 @@ We recommend to use the underscore character "`_`" as a prefix for technical nam
 Indicates that the API is only meant for certain stakeholders within OpenUI5 framework development and won't be visible in the OpenUI5 documentation.
 
 > ### Note:  
-> `@ui5-restricted` should always be preceded by `@private`. This is to make sure that content isn't accidentally made public if a build tool different from the default is used that doesn't recognize this tag.
+> `@ui5-restricted` should always be preceded by `@private`. This is to make sure that content isn't accidentally made public if an external JSDoc generator is used that doesn't recognize this tag.
 
 
 
@@ -307,8 +307,6 @@ Deprecated, replaced by `@ui5-restricted`
 
 1\) There’s no compatibility promise for `ui5-restricted` APIs. However, before introducing incompatible changes the owner is expected to announce them to the listed stakeholders, so that all affected parties can cooperate to achieve a smooth migration.  
  2\) Any potential new usage should be discussed with the owner first, then the stakeholder information should be updated, and only then should the API be used.
-
-Be sure to document at least your public and protected methods with JSDoc and mark them as `@public` or `@protected`.
 
 If more than one of the above tags is used, the last one wins.
 
