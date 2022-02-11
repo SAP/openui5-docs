@@ -2910,47 +2910,6 @@ Type: `string`
 <tr>
 <td valign="top">
 
-`xx-test-mobile`
-
-
-
-</td>
-<td valign="top">
-
-Type: `boolean`
-
-Default value: `false`
-
-This configuration parameter activates support for mobile device-specific events, such as touch events. This enables you to test standard OpenUI5 controls on mobile devices.
-
-
-
-</td>
-<td valign="top">
-
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
-
-</td>
-<td valign="top">
-
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
-
-
-
-</td>
-<td valign="top">
-
-![NO](loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `xx-viewCache`
 
 

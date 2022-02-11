@@ -54,19 +54,6 @@ A number of devices allow user interaction by both mouse and touch input. To be 
 
 For more information, see [Devices Supporting both Mouse and Touch Input](Devices_Supporting_both_Mouse_and_Touch_Input_1f9de72.md)
 
-***
-
-<a name="loio9860cd2b183540f48ee054bcef44a8b5__section_N1008E_N10011_N10001"/>
-
-### Simulation of touch events on non-touch platforms
-
-For testing or demonstration purposes, the events listed above can also be simulated on non-touch devices. When this simulation is enabled, the touch events will also be triggered by mouse interaction.
-
-> ### Caution:  
-> Due to technical constraints the simulation cannot be perfect, so it may not be used productively.
-
-To enable the simulation mode, set the OpenUI5 configuration parameter `xx-test-mobile` to *<true\>*, for example by appending the URL parameter `sap-ui-xx-test-mobile=true`.
-
 **Related Information**  
 
 
