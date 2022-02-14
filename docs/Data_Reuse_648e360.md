@@ -16,7 +16,7 @@ The OData V4 model keeps data with respect to bindings. This allows different vi
 
 ***
 
-<a name="loio648e360fa22d46248ca783dc6eb44531__section_fkt_g1r_mgb"/>
+<a name="loio648e360fa22d46248ca783dc6eb44531__section_relativeBindings"/>
 
 ### Relative Bindings
 
