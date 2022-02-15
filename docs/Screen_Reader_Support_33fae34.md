@@ -179,7 +179,7 @@ Make sure to provide additional information to the user, when changes in the scr
 
 ### Tips for Testing
 
-Start a screen reader, start the application, walk through the application using the keyboard and listen. For example, you can also use *Virtual Cursor mode* or similar functions of your screen reader because some elements do not need to have the focus to be readable by screen readers.
+Start a screen reader, start the application, walk through the application using the keyboard and listen. For example, you can also use *Reading mode* or similar functions of your screen reader because some elements do not need to have the focus to be readable by screen readers.
 
 -   Is everything that you need to use the application read correctly?
 
@@ -202,8 +202,9 @@ Start a screen reader, start the application, walk through the application using
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 
 
--   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API provides programmatic access to sections of a web page.")**  
-The landmark API provides programmatic access to sections of a web page.
+-   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API allows app developers to set different roles that allow users to access
+		the sections of the page using the screen reader functions/shortcuts..")**  
+The landmark API allows app developers to set different roles that allow users to access the sections of the page using the screen reader functions/shortcuts..
 -   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good
 		accessibility.")**  
 The following guidelines help you properly label your controls in order to have good accessibility.

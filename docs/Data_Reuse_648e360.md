@@ -10,9 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Data Reuse
 
-***
-
-The OData V4 model keeps data with respect to bindings. This allows different views on the same data, but it also means that data is not automatically shared between bindings. Here, we explain mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.
+The OData V4 model keeps data with respect to bindings, which allows different views on the same data, but also means that data is not automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.
 
 ***
 
@@ -22,10 +20,10 @@ The OData V4 model keeps data with respect to bindings. This allows different vi
 
 An OData V4 binding may or may not trigger own data requests. Data sharing between a parent binding and a dependent binding is possible if the dependent binding does not send its own data requests. Both bindings will then use the same data storage and may share data that is accessed by both bindings. To this end, the dependent binding has to be relative to a `sap.ui.model.odata.v4.Context`, and the dependent binding must not have any binding parameters. The only exception is the `$$noPatch` binding parameter of the OData V4 property binding.
 
-The following example shows a typical master-detail scenario with a list of objects and the details of the selected object:
+The following example shows a typical list-detail scenario with a list of objects and the details of the selected object:
 
 ``` xml
-<mvc:View id="master">
+<mvc:View id="list">
     <Table items="{/SalesOrderList}">
         <ColumnListItem>
             <Text text="{SalesOrderID}"/>
@@ -55,37 +53,47 @@ Upon selection of an object in the list, the row context is used as the binding 
 
 Editing any properties shown in the list or the detail section will automatically be reflected in the other place as well.
 
-If you load master and detail simultaneously, or even load the detail before the master, you can still achieve data sharing between the detail page and the list: Create a context binding in your controller to read the data for the detail page, and use [`ODataContextBinding#moveEntityTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/moveEntityTo). Be aware that this function has some preconditions:
+The OData V4 model can help you to get such a row context in the detail view controller, without knowledge about the list view. Mark the table's list binding in the list view with the `$$getKeepAliveContext` parameter; for more information see [`sap.ui.model.odata.v4.ODataModel#bindList`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList). Then call [`sap.ui.model.odata.v4.ODataModel#getKeepAliveContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) with a binding path to the entity. If a marked list with the matching collection path exists and has a context with that path, this context is set to **keep-alive** \(see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below\) and returned. Otherwise, the function returns `undefined`.
 
-1.  The detail page must be unbound initially.
-2.  The list binding must be suspended initially to ensure that it does not read this entity and create a context for it. `moveEntityTo` resumes this binding. As a consequence, the application has to resume the list binding itself if it is only displaying the list.
-3.  The context binding must have finished reading, so that the data can be transferred to the list binding. This can be achieved by calling `requestObject` at its bound context.
-
-**Detail page controller \(extract\)**
-
-``` js
-...
-var oDetailBinding = oModel.bindContext("/SalesOrderList('1')");
-this.oView.setBindingContext(oDetailBinding.getBoundContext());
-oDetailBinding.getBoundContext().requestObject().then(function () {
-    oDetailBinding.moveEntityTo(that.oView.byId("master").getBinding("items"));
-}
-...
-```
+The following example assumes that the binding path of the sales order is given via the routing, with "key" matching the key predicate of the order. If `getKeepAliveContext` does not return a context, the controller creates a hidden context binding and uses its bound context as the binding context of the object page.
 
 **Sample list view**
 
 ``` xml
-<m:Table id="master" items="{path: '/SalesOrderList', suspended: true}">
-    <m:ColumnListItem>
-        <m:Text id="SalesOrderID" text="{SalesOrderID}"/>
-    </m:ColumnListItem>
-</m:Table>
+<mvc:View id="list">
+    <Table items="{
+        path: '/SalesOrderList', 
+        parameters: {
+            $$getKeepAliveContext: true
+        }}">
+        <ColumnListItem>
+            <Text text="{SalesOrderID}"/>
+            <Text text="{SO_2_BP/CompanyName}"/>
+            <Text text="{GrossAmount}"/>
+            <Text text="{Currency}"/>
+        </ColumnListItem>
+    </Table>
+</mvc:View>
 ```
 
-The context that is now a list binding context is also set to `keepAlive` by `moveEntityTo`. For more information, see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below.
+**Detail view controller \(extract\)**
 
-After this call, the context binding no longer has data. In this scenario, the context binding has outlived its purpose after the successful execution of `moveEntityTo` and can be destroyed. To be able to use the context binding further, it would need to be refreshed.
+``` js
+...
+onPatternMatched : function (oEvent) {
+    var oContext,
+        // Note: We assume that the key predicate is encoded correctly because it has been
+        // taken from an existing context when calling Router#navTo
+        sPath = "/SalesOrderList" + oEvent.getParameter("arguments").key,
+        oView = this.getView();
+ 
+    oContext = oView.getModel().getKeepAliveContext(sPath);
+    if (!oContext) {
+        oContext = oView.getModel().bindContext(sPath).getBoundContext();
+    }
+    oView.setBindingContext(oContext);
+...
+```
 
 ***
 

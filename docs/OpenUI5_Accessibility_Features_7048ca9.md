@@ -14,7 +14,7 @@ OpenUI5 supports many accessibility features on a framework level.
 
 In this section you can find more information about the supported features.
 
--   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md "OpenUI5 offers screen
+-   **[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen
 		reader support in order to aid people with visual impairments. The implementation is based
 		on the ARIA and HTML standards.")**  
 OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.

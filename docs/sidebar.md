@@ -525,7 +525,7 @@
             -   [Terminologies](Terminologies_eba8d25.md)
         -   [Accessibility](Accessibility_322f55d.md)
             -   [OpenUI5 Accessibility Features](OpenUI5_Accessibility_Features_7048ca9.md)
-                -   [Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_8c46d6a.md)
+                -   [Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md)
                 -   [Keyboard Handling for OpenUI5 UI Elements](Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md)
                 -   [Visualization](Visualization_b3799f0.md)
                 -   [High Contrast Themes for OpenUI5 Controls](High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md)

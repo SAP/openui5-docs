@@ -42,7 +42,7 @@ The user interface needs to be adapted to the user’s device.
 
 ***
 
-#### Support for Text Resizing
+#### Support for Text Resizing up to 200%
 
 Users can adjust the font size themselves using the browser zoom. The responsive layout adapts to these manual adjustments automatically.
 

@@ -24,9 +24,9 @@ Top 5 things to do for better screen reader support for labels
 
 -   Provide text alternatives for visual labels
 
-    Use tooltips only in rare cases. They should not be used as a replacement for a label.
+    Use tooltips only in rare cases. They should not be used as a replacement for a label. For more information, see [Using Tooltips Fiori Guidelines](https://experience.sap.com/fiori-design-web/using-tooltips/).
 
-    Use the `alt` attribute for images
+-   Use the `alt` attribute for images
 
 -   Describe controls and give additional information as part of the UI
 
@@ -75,19 +75,19 @@ Top 5 things to do for better screen reader support for labels
 
 -   Labels should **not** have a tooltip, as it could lead to ambiguity. For more information, see [Firoi Guidelines for Using Tooltips](https://experience.sap.com/fiori-design-web/using-tooltips/).
 
--   Input elements should have labels. Every input needs a label for its description and purpose. Even if the app doesn't include one, you can set one in `sap.ui.core.InvisibleText`. The placeholder text should not be used as a label.
+-   Input elements should have labels. Every input needs a label for its purpose. Even if the app doesn't include one, you can set one in `sap.ui.core.InvisibleText`. The placeholder text should not be used as a label.
 
--   Tables should have titles. Tables with hidden titles or in containers with titles \(for example,single tables in tab strip panels\) should be labeled with `sap.ui.core.InvisibleText` in combination with `arialabelledby`.
+-   Tables should have titles. Tables with hidden titles or in containers with titles \(for example,single tables in tab strip panels\) should be labeled with `sap.ui.core.InvisibleText` in combination with `ariaLabelledBy`.
 
--   `Aria-labelledby` and `aria-describedby` associations should point to existing DOM elements.
+-   `ariaLabelledBy` and `ariaDescribedBy` associations should point to existing DOM elements.
 
     > ### Example:  
     > ```
     >  <Page title="Page">
-    >   <content>   
-    > <Button text="Home" ariaLabelledBy="invisibleId"/>   
-    > <core:InvisibleText id="invisibleId" text="I am a hidden label"/>  
-    > </content> 
+    > 	<content>   
+    > 		<Button text="Home" ariaLabelledBy="invisibleId"/>   
+    > 		<core:InvisibleText id="invisibleId" text="I am a hidden label"/>  
+    > 	</content> 
     > </Page>
     > 
     > ```

@@ -44,8 +44,10 @@ The OData V4 model supports the following types of binding:
 In the OData V4 model, bindings are used to access and modify back-end data also if the data is accessed or modified in controller code.
 -   **[Automatic determination of $expand and $select](Automatic_determination_of_expand_and_select_10ca58b.md "")**  
 
--   **[Data Reuse](Data_Reuse_648e360.md "")**  
-
+-   **[Data Reuse](Data_Reuse_648e360.md "The OData V4 model keeps data with respect to bindings, which allows different views on the same data, but also means that data is not
+		automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in
+		different controls in sync.")**  
+The OData V4 model keeps data with respect to bindings, which allows different views on the same data, but also means that data is not automatically shared between bindings. There are mechanisms for sharing data to avoid redundant requests and to keep the same data in different controls in sync.
 
 **Related Information**  
 

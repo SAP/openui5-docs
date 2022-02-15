@@ -39,7 +39,7 @@ You can create bindings that are independent of controls using the factory metho
 
 ### Lists
 
-A list binding is obtained either with `sap.ui.model.odata.v4.ODataModel#bindList`, or by getting an existing list binding bound to a control. Entities of the list can be requested using  [sap.ui.model.odata.v4.ODataModel.ODataListBinding\#requestContexts](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/requestContexts). The function returns a promise resolving with an array of the requested contexts. The data of each context can be accessed using the `requestObject`, `requestProperty`, `getObject`, and `getProperty` methods of `sap.ui.model.odata.v4.Context`. To modify the data, `sap.ui.model.odata.v4.Context#setProperty` can be used.
+A list binding is obtained either with `sap.ui.model.odata.v4.ODataModel#bindList`, or by getting an existing list binding bound to a control. Entities of the list can be requested using  [sap.ui.model.odata.v4.ODataModel.ODataListBinding\#requestContexts](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/requestContexts). The function returns a promise resolving with an array of the requested contexts. The data of each context can be accessed using the `requestObject`, `requestProperty`, `getObject`, and `getProperty` methods of `sap.ui.model.odata.v4.Context`. To modify the data, `sap.ui.model.odata.v4.Context#setProperty` can be used. For retrieving all available contexts without sending any request, [`sap.ui.model.odata.v4.ODataListBinding#getAllCurrentContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/getAllCurrentContexts) can be used.
 
 ``` js
 var oList = oModel.bindList("/SalesOrderList");

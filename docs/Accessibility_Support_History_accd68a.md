@@ -104,11 +104,11 @@ HCW Theme
 > OpenUI5 controls provide the prerequisites for screen reader support based on the ARIA and HTML standards. All screen readers that implement this standard should work fine. If you need more information on our testing environment, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
 
 > ### Note:  
-> With version 1.84 we have enhanced OpenUI5 accessibility support according to the latest WAI-ARIA 1.1 specification.
-
-> ### Note:  
 > As of version 1.75, OpenUI5 is following the SAP ‘s updated design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.1 level A and AA.
 
 > ### Note:  
 > With version 1.78 of OpenUI5, we have prevented the automatic insertion of role `application` on the body of the OpenUI5 applications. After the change, a mode-based screen reader will start operating in reading mode as its default mode. For more information, please refer to SAP Note [2925884](https://launchpad.support.sap.com/#/notes/2925884).
+
+> ### Note:  
+> With version 1.84 we have enhanced OpenUI5 accessibility support according to the latest WAI-ARIA 1.1 specification.
 

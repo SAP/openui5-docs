@@ -97,7 +97,7 @@ Start the application and check each screen element. Check the following:
 
 [Keyboard Handling for OpenUI5 Controls for Developers](Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md "As an application developer, you need to be aware of how the various accessibility aspects, like keyboard handling, are implemented and used.")
 
-[Screen Reader Support for SAPUI5 Controls](https://help.sap.com/viewer/dcf96e50b6ce4ea29631872d10d3f723/Internal_Beta/en-US/656e825c5f1548e6b1d0acb5586f2a2a.html "SAPUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.") :arrow_upper_right:
+[Screen Reader Support for OpenUI5 Controls](Screen_Reader_Support_for_OpenUI5_Controls_656e825.md "OpenUI5 offers screen reader support in order to aid people with visual impairments. The implementation is based on the ARIA and HTML standards.")
 
 [Theming](Theming_497c27a.md "OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style Sheets (CSS). This allows for creating an impressive visual experience using a widely known standard technology which is well-accepted on the market.")
 

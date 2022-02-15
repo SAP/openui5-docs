@@ -136,7 +136,7 @@ ARIA Attribute
 </tr>
 </table>
 
-For custom controls, not part of the ARIA 1.0 role definitions, mapping to similar and existing ARIA base role concepts is applied. In special cases, custom role names can be added by the OpenUI5 framework using `aria-describedby` or `aria-labelledby` references.
+For custom controls, not part of the ARIA role definitions, mapping to similar and existing ARIA base role concepts is applied. In special cases, custom role names can be added by the OpenUI5 framework using `aria-describedby` or `aria-labelledby` references.
 
 ***
 
