@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The landmark API allows app developers to set different roles that allow users to access the sections of the page using the screen reader functions/shortcuts..
 
-Landmark roles \(or "landmarks"\) identify sections of a page. Landmarks help assistive technology users orient themselves to a page and help them navigate easily to various sections within a page. Landmarks also provide an easy way for assistive technology users to skip over blocks of content that are repeated on multiple pages and notify them of the programmatic structure of a page. For instance, if there is a common navigation menu found on every page, landmarks can be used to skip over it and navigate from one section to another.
+Landmark roles \(or "landmarks"\) identify sections of a page. Landmarks help assistive technology users orient themselves to a page and help them navigate easily to various sections within a page. Landmarks also provide an easy way for assistive technology users to skip over blocks of content that are repeated on multiple pages and notify them of the structure of a page. For instance, if there is a common navigation menu found on every page, landmarks can be used to skip over it and navigate from one section to another.
 
 ***
 

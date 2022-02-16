@@ -40,12 +40,12 @@ You load and create a `UIComponent` in one of the following ways:
     	
     ```
 
--   Load the component asynchronously before creating the container:
+-   Load and create the component asynchronously before creating the container:
 
     ``` js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-    	Component.load({
+    	Component.create({
     		name: "samples.components.sample",
     	}).then(function(oComponent) {
     		var oContainer = new ComponentContainer({
@@ -55,12 +55,12 @@ You load and create a `UIComponent` in one of the following ways:
     	});
     ```
 
--   Load the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
+-   Load and create the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
 
     ``` js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
-    	Component.load({
+    	Component.create({
     		manifest: "samples/components/sample/manifest.json",
     	}).then(function(oComponent) {
     		var oContainer = new ComponentContainer({
@@ -84,12 +84,12 @@ You may want to load components from a location that is different from the locat
 
 You can do so by defining the URL of the additional components as a setting for the component factory or the component container.
 
--   Loading the component asynchronously before creating the container:
+-   Loading and creating the component asynchronously before creating the container:
 
     ``` js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
-    	Component.load({
+    	Component.create({
     		name: "samples.components.sample",
     		url: "./myComponents"
     	}).then(function(oComponent) {
@@ -100,7 +100,7 @@ You can do so by defining the URL of the additional components as a setting for 
     	});
     ```
 
--   Loading the component asynchronously when creating the container:
+-   Loading and creating the component asynchronously when creating the container:
 
     ``` js
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"

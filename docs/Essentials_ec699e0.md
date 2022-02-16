@@ -101,11 +101,10 @@ OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style S
 		concepts of the Java platform. ")**  
 The framework concepts for text localization in OpenUI5 are aligned with the general concepts of the Java platform.
 -   **[Accessibility](Accessibility_322f55d.md "Accessibility features are essential for the usability of each application and essential
-		for users with disabilities. In an ongoing
-		approach, OpenUI5 controls aim
-		to comply with various product standards such as screen reader support, high contrast
-		theming, and keyboard handling.")**  
-Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various product standards such as screen reader support, high contrast theming, and keyboard handling.
+		for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply
+		with various accessibility standards such as screen reader support, high contrast theming,
+		and keyboard handling.")**  
+Accessibility features are essential for the usability of each application and essential for users with disabilities. In an ongoing approach, OpenUI5 controls aim to comply with various accessibility standards such as screen reader support, high contrast theming, and keyboard handling.
 -   **[Drag and Drop](Drag_and_Drop_3ddb6cd.md "Drag and drop allows you to easily move, rearrange, and restructure items, for example,
 		in a list or hierarchy structure.")**  
 Drag and drop allows you to easily move, rearrange, and restructure items, for example, in a list or hierarchy structure.

@@ -16,5 +16,5 @@ Standard messaging patterns ensure that messages appear at predefined locations.
 
 The use of standard messaging patterns ensures that system messages appear at predefined locations with a consistent design. For all use cases, see [Message Handling](https://experience.sap.com/fiori-design-web/messaging/) in the Fiori Design Guidelines.
 
-The `sap.ui.core.InvisibleMessage` enables developers to specify the message to be announced when something dynamically changes on the user interface. For more information, see [Invisible Messaging](Invisible_Messaging_b9a7d6f.md).
+Developers can specify the message to be announced when something dynamically changes on the user interface using the `sap.ui.core.InvisibleMessage` class. For more information, see [Invisible Messaging](Invisible_Messaging_b9a7d6f.md).
 

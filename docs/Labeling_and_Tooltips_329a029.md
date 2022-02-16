@@ -24,7 +24,7 @@ Top 5 things to do for better screen reader support for labels
 
 -   Provide text alternatives for visual labels
 
-    Use tooltips only in rare cases. They should not be used as a replacement for a label. For more information, see [Using Tooltips Fiori Guidelines](https://experience.sap.com/fiori-design-web/using-tooltips/).
+    Use tooltips only in rare cases. They should not be used as a replacement for a label. For more information, see [Using Tooltips](https://experience.sap.com/fiori-design-web/using-tooltips/) in the Fiori Guidelines.
 
 -   Use the `alt` attribute for images
 
@@ -45,7 +45,7 @@ Top 5 things to do for better screen reader support for labels
 
 ### Rules and Guidelines for Labeling and Tooltips
 
--   Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alternative description in the `alt` property.
+-   Non-decorative `sap.m.Image`/`sap.ui.core.Icon` should provide a meaningful alternative explanation in the `alt` property.
 
     > ### Example:  
     > ```

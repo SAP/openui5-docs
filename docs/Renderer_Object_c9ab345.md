@@ -107,24 +107,98 @@ A control must have exactly one HTML element as a root node. Additional elements
 
 ### Inheritance
 
-A new renderer type can inherit from the renderer of the parent control. If a control extends, for example, the `InputBase` control, its renderer object can inherit all methods from `sap.m.InputBaseRenderer` and can access them.
+Inheritance for renderers can be achieved by using one of the following two signatures. In both variants, the returned renderer inherits all properties \(methods, fields\) from the given parent renderer. Both variants also add an `extend` method to the created renderer that behaves like the modern signature variant of the `Renderer.extend` method, but allows to extend the new renderer instead of `sap.ui.core.Renderer`.
 
 When the renderer is embedded into the control class definition, it automatically inherits from the renderer of the base class of the control.
 
-When the renderer is defined in a module of its own, it can explicitly define the base renderer that it wants to inherit from by using the `Renderer.extend` method of the `sap/ui/core/Renderer` module:
+***
+
+#### Modern signature
+
+In the modern signature variant, two parameters must be given: A qualified name for the new renderer \(its global name in dot notation\), and an optional object literal that contains methods or fields to be added to the new renderer class.
+
+This signature has been designed to resemble the class extension mechanism as provided by [`Object.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object%23methods/sap.ui.base.Object.extend).
 
 ``` js
-sap.ui.define(['sap/ui/core/Renderer', 'sap/m/InputBaseRenderer'],
-                function(Renderer, InputBaseRenderer) {
-                "use strict";
-                
-                var CustomInputRenderer = Renderer.extend(InputBaseRenderer);
-                ...
-                return CustomInputRenderer;
-}, /* bExport= */ true);
+sap.ui.define(['sap/ui/core/Renderer'],
+    function(Renderer) {
+    "use strict";
+
+    var LabelRenderer = Renderer.extend('mylib.LabelRenderer', {
+        render: function(oRM, oControl) {
+
+            renderPreamble(oRM, oControl);
+
+            // implementation core renderer logic here
+            renderPostamble(oRM, oControl);
+
+        },
+
+        renderPreamble : function(oRM, oControl) {
+        ...
+        },
+
+        renderPostamble : function(oRM, oControl) {
+        ...
+        }
+    });
+
+    return LabelRenderer;
+});
 ```
 
-Alternatively, the renderer can be defined as a plain object. When such a plain renderer object is then imported in a control definition \(as described above\), there's no difference to the embedded case: It will automatically inherit from the renderer of the control's base class.
+The extension of renderers works across multiple levels. A `FancyLabelRenderer` can extend the above `LabelRenderer`:
+
+``` js
+sap.ui.define(['mylib/LabelRenderer'],
+    function(LabelRenderer) {
+    "use strict";
+
+    var FancyLabelRenderer = LabelRenderer.extend('mylib.FancyLabelRenderer', {
+        render: function(oRM, oControl) {
+
+            // call base renderer
+            LabelRenderer.renderPreamble(oRM, oControl);
+
+            // ... do your own fancy rendering here
+
+            // call base renderer again
+            LabelRenderer.renderPostamble(oRM, oControl);
+        }
+    });
+
+    return FancyLabelRenderer;
+});
+```
+
+> ### Note:  
+> The modern signature no longer requires the `bExport` flag to be set for the enclosing `sap.ui.define` call. The renderer base class `sap.ui.core.Renderer` takes care of the necessary global export of the renderer. This allows non-SAP developers to write a renderer that complies with the documented restriction for `sap.ui.define` \(no use of `bExport = true` outside `sap.ui.core` projects\).
+
+***
+
+#### Use as a generic method
+
+Only renderers that have been created with a call to `extend` will get their own `extend` method to create new subclasses. To allow extending from older renderers that have been written from scratch as a plain object, the `Renderer.extend` method can be called as a generic method, providing the base renderer as its `this` context.
+
+> ### Example:  
+> **Derive from `sap.m.InputBaseRenderer` \(which is assumed to be a plain object\).**
+> 
+> ``` js
+> sap.ui.define(['sap/ui/core/Renderer', 
+>                'sap/m/InputBaseRenderer'],
+>     function(Renderer, InputBaseRenderer) {
+>         "use strict";
+>         var CustomInputRenderer = Renderer.extend(InputBaseRenderer);
+> 
+>         CustomInputRenderer.render: function(oRM, oControl) {
+>             // call base renderer
+>             InputBaseRenderer.render(oRM, oControl);
+> 
+>             // ... do your own rendering here
+>         }
+>         return CustomInputRenderer;
+> });
+> ```
 
 **Related Information**  
 
