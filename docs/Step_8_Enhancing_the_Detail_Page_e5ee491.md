@@ -65,7 +65,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
 						<m:FlexBox wrap="NoWrap" fitContainer="true" alignItems="Center" class="sapUiTinyMarginEnd">
 							<f:Avatar
-								src="https://openui5.hana.ondemand.com/{products>ProductPicUrl}"
+								src="https://ui5.sap.com/{products>ProductPicUrl}"
 								displaySize="S"
 								displayShape="Square"
 								class="sapUiTinyMarginEnd"/>
@@ -91,7 +91,7 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
 				<f:Avatar
-					src="https://openui5.hana.ondemand.com/{products>ProductPicUrl}"
+					src="https://ui5.sap.com/{products>ProductPicUrl}"
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">

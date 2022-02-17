@@ -57,7 +57,7 @@ You can see how the elements are moved and transformed from the old SAP Fiori ve
  ![](loiofba5d251f36145f285963be29070219a_HiRes.png "SAP Fiori 2.0 header adaptation") 
 
 > ### Note:  
-> These adaptations are primarily valid only for **fullscreen** apps. Other floorplans, like Master-Detail, are affected differently and the adaptation there will not be the same.
+> These adaptations are primarily valid only for **fullscreen** apps. Other floorplans, like List-Detail, are affected differently and the adaptation there will not be the same.
 
 ***
 

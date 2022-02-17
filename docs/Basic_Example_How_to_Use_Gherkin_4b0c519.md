@@ -95,7 +95,7 @@ sap.ui.define([
 
 To execute Gherkin tests, you need to find a version of SAPUI5 or OpenUI5 that works for you. Here are some possibilities, sorted in order from most stable to least stable:
 
--   Stable: `https://openui5.hana.ondemand.com/resources/sap-ui-core.js` or `https://openui5.hana.ondemand.com/resources/sap-ui-core.js`
+-   Stable: `https://ui5.sap.com/resources/sap-ui-core.js` or `https://openui5.hana.ondemand.com/resources/sap-ui-core.js`
 
 -   Beta: `https://openui5beta.hana.ondemand.com/resources/sap-ui-core.js`
 

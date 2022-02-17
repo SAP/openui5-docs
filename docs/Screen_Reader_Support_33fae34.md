@@ -22,7 +22,7 @@ The following rules and guidelines will help you avoid common pitfalls and show 
 
 #### Generate valid HTML
 
-The screen reader software gets the information about the page directly from the DOM. Therefore, if the DOM is invalid, the information presented to the user might be invalid as well. Ideally, if the DOM is correct, the screen reader software will interpret it correctly. When you need to create new controls or change the HTML structure of existing ones for some reason, you have to check the validity of the resulting HTML.
+The screen reader software gets the information about the page directly from the DOM. Therefore, if the DOM is invalid, the information presented to the user might be invalid as well. Ideally, if the DOM is correct, the screen reader software will interpret it correctly. The nesting of the elements is also important and plays role for the validity, and can be validated in the app context \(for example the heading levels\). When you need to create new controls or change the HTML structure of existing ones for some reason, you have to check the validity of the resulting HTML.
 
 ***
 
@@ -202,9 +202,10 @@ Start a screen reader, start the application, walk through the application using
 -   Are screen updates like application messages, dialogs \(popups\), and similar dynamic content read correctly and at the right time?
 
 
--   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API allows app developers to set different roles that allow users to access
-		the sections of the page using the screen reader functions/shortcuts..")**  
-The landmark API allows app developers to set different roles that allow users to access the sections of the page using the screen reader functions/shortcuts..
+-   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API allows app developers to set different roles and labels that allow
+		users to access the sections of the page using the screen reader
+		functions/shortcuts..")**  
+The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts..
 -   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good
 		accessibility.")**  
 The following guidelines help you properly label your controls in order to have good accessibility.

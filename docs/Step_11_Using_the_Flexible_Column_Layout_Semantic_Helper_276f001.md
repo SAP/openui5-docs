@@ -139,7 +139,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
 						<m:FlexBox wrap="NoWrap" fitContainer="true" alignItems="Center" class="sapUiTinyMarginEnd">
 							<f:Avatar
-								src="https://openui5.hana.ondemand.com/{products>ProductPicUrl}"
+								src="https://ui5.sap.com/{products>ProductPicUrl}"
 								displaySize="S"
 								displayShape="Square"
 								class="sapUiTinyMarginEnd"/>

@@ -12,14 +12,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 For a complete list of all formatter classes, see [API Reference: `sap.ui.model.Type`](http://openui5.hana.ondemand.com/#/api/sap.ui.core.format). 
 
--   **[Date Format](Date_Format_91f2eba.md "The sap.ui.core.format.DateFormat class can be used to parse a string
-        representing a date, time, or the combination of date and time into a JavaScript date object
-        and vice versa (also known as format). DateFormat formats and parses date
-        and time values according to a set of format options. It can also be used to format
-        intervals. A pattern base on Locale Data Markup Language (LDML) date format notation can be
-        given and the date is formatted following the given pattern. DateFormat can
-        also format the date and time into relative values on &quot;day&quot; level.")**  
-The `sap.ui.core.format.DateFormat` class can be used to parse a string representing a date, time, or the combination of date and time into a JavaScript date object and vice versa \(also known as format\). `DateFormat` formats and parses date and time values according to a set of format options. It can also be used to format intervals. A pattern base on Locale Data Markup Language \(LDML\) date format notation can be given and the date is formatted following the given pattern. `DateFormat` can also format the date and time into relative values on "day" level.
+-   **[Date Format](Date_Format_91f2eba.md "The sap.ui.core.format.DateFormat class can be used to parse a string representing a date, time, or the combination of
+        date and time into a JavaScript date object and vice versa (also known as format). ")**  
+The `sap.ui.core.format.DateFormat` class can be used to parse a string representing a date, time, or the combination of date and time into a JavaScript date object and vice versa \(also known as format\).
 -   **[Number Format](Number_Format_91f2f28.md "The sap.ui.core.format.NumberFormat class can be used to parse a
         string representing a number (float or integer) into a JavaScript number
         and vice versa (also known as format).")**  

@@ -1624,6 +1624,50 @@ This configuration parameter defines the location of themes.
 <tr>
 <td valign="top">
 
+`timezone`
+
+
+
+</td>
+<td valign="top">
+
+Type: `string`
+
+Default value: the browser's local time zone
+
+The configured time zone is used to convert dates when using `sap.ui.core.format.DateFormat` instances. The time zone should be an IANA time zone ID, e.g. "America/New\_York". The `sap-timezone` URL parameter can also be used to set the time zone. For more information, see [Date Format](Date_Format_91f2eba.md).
+
+> ### Restriction:  
+> Time zones are currently not supported by all controls.
+
+
+
+</td>
+<td valign="top">
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `trace`
 
 

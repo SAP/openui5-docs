@@ -57,7 +57,7 @@ This attribute should reference a valid OpenUI5 module as shown in the snippet b
 
 ``` html
 <script id="sap-ui-bootstrap"
-        src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        src="https://ui5.sap.com/resources/sap-ui-core.js"
        ...
         data-sap-ui-resourceroots='{"Startup": "./some/folder"}'
         data-sap-ui-oninit="module:Startup/my/module"
