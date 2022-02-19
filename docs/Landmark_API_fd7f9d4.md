@@ -10,9 +10,9 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Landmark API
 
-The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts..
+The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts.
 
-Landmark roles \(or "landmarks"\) identify sections of a page. Landmarks help assistive technology users orient themselves to a page and help them navigate easily to various sections within a page. Landmarks also provide an easy way for assistive technology users to skip over blocks of content that are repeated on multiple pages and inform them of the structure of a page. For instance, if there is a common navigation menu found on every page, landmarks can be used to skip over it and navigate from one section to another.
+Landmark roles \(or "landmarks"\) identify sections of a page. Landmarks help assistive technology users to orient themselves in a page and help them navigate easily to various sections within a page. Landmarks also provide an easy way for assistive technology users to skip over blocks of content that are repeated on multiple pages and inform them of the structure of a page. For instance, if there is a common navigation menu found on every page, landmarks can be used to skip over it and navigate from one section to another.
 
 ***
 
@@ -29,11 +29,11 @@ Support for landmark roles is provided for:
 -   `sap.uxap.ObjectPage`
 -   `sap.f.FlexibleColumnLayout`
 
-Before seeing how a landmark is set to these controls you must understand what landmark roles we can use.
+Before seeing how a landmark is set for these controls, you must understand which landmark roles we can use.
 
 The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](loio77cb16f93da74644abdf68296651f7bf_Source1.png)
 
-Supported landmark roles in OpenUI5 are stored in enum `sap.ui.core.AccessibleLandmarkRole`. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.AccessibleLandmarkRole). 
+Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLandmarkRole` enum. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.AccessibleLandmarkRole). 
 
 ***
 
@@ -41,7 +41,7 @@ Supported landmark roles in OpenUI5 are stored in enum `sap.ui.core.AccessibleLa
 
 ### sap.ui.core.AccessibleLandmarkRole
 
-You can see below all values of the enum and see for which part of the web page each of them is appropriate.
+Here is a list of all of the values of the enum showing the part of the web page for which each of them is appropriate:
 
 `sap.ui.core.AccessibleLandmarkRole:`
 
@@ -63,7 +63,7 @@ You can see below all values of the enum and see for which part of the web page 
 
 -   `sap.ui.core.AccessibleLandmarkRole.Main`: Represents the ARIA [`main` role.](https://www.w3.org/TR/wai-aria/#main)
 
-    Main content in a document. In almost all cases a page will have only one `role="main"`.
+    The main content in a document. In almost all cases, a page will have only one `role="main"`.
 
 -   `sap.ui.core.AccessibleLandmarkRole.Navigation`: Represents the ARIA [`navigation` role.](https://www.w3.org/TR/wai-aria/#navigation)
 
@@ -79,6 +79,6 @@ You can see below all values of the enum and see for which part of the web page 
 
 -   `sap.ui.core.AccessibleLandmarkRole.None`: No explicit role is applicable.
 
-    The interpretation of this value depends on the control / element which defines a property with this type. Normally this value means that no accessible landmark should be written.
+    The interpretation of this value depends on the control/element that defines a property with this type. Normally this value means that no accessible landmark should be written.
 
 

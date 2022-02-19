@@ -204,8 +204,8 @@ Start a screen reader, start the application, walk through the application using
 
 -   **[Landmark API](Landmark_API_fd7f9d4.md "The landmark API allows app developers to set different roles and labels that allow
 		users to access the sections of the page using the screen reader
-		functions/shortcuts..")**  
-The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts..
+		functions/shortcuts.")**  
+The landmark API allows app developers to set different roles and labels that allow users to access the sections of the page using the screen reader functions/shortcuts.
 -   **[Labeling and Tooltips](Labeling_and_Tooltips_329a029.md "The following guidelines help you properly label your controls in order to have good
 		accessibility.")**  
 The following guidelines help you properly label your controls in order to have good accessibility.
