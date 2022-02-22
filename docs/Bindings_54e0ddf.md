@@ -35,8 +35,9 @@ The OData V4 model supports the following types of binding:
 
 -   **[Binding Modes](Binding_Modes_e37a0c3.md "")**  
 
--   **[Suspend and Resume](Suspend_and_Resume_b0f5c53.md "")**  
-
+-   **[Suspend and Resume](Suspend_and_Resume_b0f5c53.md " A suspended binding does not send data service requests nor does it fire change events. You can resume a suspended list or context
+		binding with its resume method.")**  
+ A suspended binding does not send data service requests nor does it fire change events. You can resume a suspended list or context binding with its `resume` method.
 -   **[Context API](Context_API_22ee78b.md "")**  
 
 -   **[Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md "In the OData V4 model, bindings are used to access and modify back-end data also if the data is accessed or modified in controller

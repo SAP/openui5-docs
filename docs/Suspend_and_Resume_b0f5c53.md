@@ -10,15 +10,15 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ## Suspend and Resume
 
-You can suspend a [`list binding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/suspend) or [`context binding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/suspend) with its suspend method. A suspended binding does not send data service requests nor does it fire change events. You can only suspend absolute bindings or bindings which are quasi-absolute. A quasi-absolute binding is a relative binding with a context which is not a [`sap.ui.model.odata.v4.Context`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context). You can only suspend a binding which is not yet suspended. For a relative binding having a V4 context, you may suspend the **root binding** of its binding hierarchy which is the \(quasi-\) absolute ancestor binding of this binding. The binding's method `getRootBinding` provides the root binding; for \(quasi-\) absolute bindings it returns the binding itself.
+A suspended binding does not send data service requests nor does it fire change events. You can resume a suspended list or context binding with its `resume` method.
 
-You can resume a suspended list or context binding with its `resume` method.
+You can suspend a [`list binding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/suspend) or [`context binding`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/suspend) with its suspend method. You can only suspend absolute bindings or bindings which are quasi-absolute. A quasi-absolute binding is a relative binding with a context which is not a [`sap.ui.model.odata.v4.Context`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context). You can only suspend a binding which is not yet suspended. For a relative binding having a V4 context, you may suspend the **root binding** of its binding hierarchy which is the \(quasi-\) absolute ancestor binding of this binding. The binding's method `getRootBinding` provides the root binding; for \(quasi-\) absolute bindings it returns the binding itself.
 
 Typical use cases for suspend and resume are:
 
 1.  **Trigger read requests for controls in the view later not when the view is initialized:**
 
-    In some situations you may want to suppress OData requests and change events triggered by an OData V4 binding for a certain period of time. This is useful for value help dialogs, such as the value help for the `/BusinessPartnerList` when creating a sales order in the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders)*SalesOrders OData V4* sample in Demo Kit.
+    In some situations you may want to suppress OData requests and change events triggered by an OData V4 binding for a certain period of time. This is useful for value help dialogs, such as the value help for the `/BusinessPartnerList` when creating a sales order in the [`SalesOrders OData V4 sample`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders).
 
 2.  **Avoid intermediate request when modifying the binding multiple times**
 

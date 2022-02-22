@@ -115,7 +115,7 @@ We add a new panel to the XML view with a new `Label` and `Text` pair of element
 
 The text property of the `Label` element is bound to the i18n resource bundle field `address`.
 
-The text property of the `Text` element is bound to three i18n properties: `/address/street`, `/address/zip`, `/address/city`, and `/address/country`. The resulting address format is achieved by separating each one of these model property references with a hard-coded newline character while `zip` and `city` are separated by a space.
+The text property of the `Text` element is bound to four i18n properties: `/address/street`, `/address/zip`, `/address/city`, and `/address/country`. The resulting address format is achieved by separating each one of these model property references with a hard-coded newline character while `zip` and `city` are separated by a space.
 
 ***
 

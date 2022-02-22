@@ -146,7 +146,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
   {
 	"ProductName": "Pineapple",
 	"Quantity": 21,
-	"ExtendedPrice": 87.2000,
+	"ExtendedPrice": 87.2,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-04-01T00:00:00",
 	"Status": "A"
@@ -154,7 +154,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
   {
 	"ProductName": "Milk",
 	"Quantity": 4,
-	"ExtendedPrice": 9.99999,
+	"ExtendedPrice": 10,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-02-18T00:00:00",
 	"Status": "B"
@@ -162,7 +162,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
   {
 	"ProductName": "Canned Beans",
 	"Quantity": 3,
-	"ExtendedPrice": 6.85000,
+	"ExtendedPrice": 6.85,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-03-02T00:00:00",
 	"Status": "B"
@@ -170,7 +170,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
   {
 	"ProductName": "Salad",
 	"Quantity": 2,
-	"ExtendedPrice": 8.8000,
+	"ExtendedPrice": 8.8,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-04-12T00:00:00",
 	"Status": "C"
@@ -178,7 +178,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
   {
 	"ProductName": "Bread",
 	"Quantity": 1,
-	"ExtendedPrice": 2.71212,
+	"ExtendedPrice": 2.71,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-01-27T00:00:00",
 	"Status": "A"
