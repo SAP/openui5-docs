@@ -492,7 +492,7 @@ End of Support Date
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="12">
 
 iOS
 
@@ -503,39 +503,11 @@ SAP always supports the 2 latest releases of the iOS operating system, not excee
 </td>
 <td valign="top">
 
-Apple iPhone XS
-
-
-
-</td>
-<td valign="top">
-
-September 2021
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPhone XR
-
-
-
-</td>
-<td valign="top">
-
-October 2021
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Apple iPhone 11
+
+Apple iPhone 11 Pro
+
+Apple iPhone 11 Pro Max
 
 
 
@@ -569,6 +541,8 @@ April 2023
 
 Apple iPhone 12
 
+Apple iPhone 12 Pro
+
 
 
 </td>
@@ -583,14 +557,16 @@ October 2023
 <tr>
 <td valign="top">
 
-Apple iPad \(6th\)
+Apple iPhone 12 Mini
+
+Apple iPhone 12 Pro Max
 
 
 
 </td>
 <td valign="top">
 
-March 2021
+November 2023
 
 
 
@@ -599,14 +575,20 @@ March 2021
 <tr>
 <td valign="top">
 
-Apple iPad Pro \(3rd\)
+Apple iPhone 13
+
+Apple iPhone 13 Mini
+
+Apple iPhone 13 Pro
+
+Apple iPhone 13 Pro Max
 
 
 
 </td>
 <td valign="top">
 
-October 2021
+September 2024
 
 
 
@@ -616,20 +598,6 @@ October 2021
 <td valign="top">
 
 Apple iPad Air \(3rd\)
-
-
-
-</td>
-<td valign="top">
-
-March 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
 
 Apple iPad Mini \(5th\)
 
@@ -709,7 +677,41 @@ October 2023
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="8">
+<td valign="top">
+
+Apple iPad Pro \(5th\)
+
+
+
+</td>
+<td valign="top">
+
+May 2024
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Apple iPad \(9th\)
+
+Apple iPad Mini
+
+
+
+</td>
+<td valign="top">
+
+September 2024
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="13">
 
 Android
 
@@ -720,23 +722,13 @@ Android OS based devices are very fragmented in matters of operating system vari
 </td>
 <td valign="top">
 
-Samsung Galaxy S9
-
-
-
-</td>
-<td valign="top">
-
-March 2021
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
+Samsung Galaxy S10e
 
 Samsung Galaxy S10
+
+Samsung Galaxy S10+
+
+Samsung Galaxy S10 5G
 
 
 
@@ -752,7 +744,27 @@ March 2022
 <tr>
 <td valign="top">
 
+Samsung Galaxy S10 Lite
+
+
+
+</td>
+<td valign="top">
+
+January 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Samsung Galaxy S20
+
+Samsung Galaxy S20+
+
+Samsung Galaxy S20 Ultra
 
 
 
@@ -768,14 +780,70 @@ March 2023
 <tr>
 <td valign="top">
 
-Samsung Galaxy Tab S4
+Samsung Galaxy S20 FE
 
 
 
 </td>
 <td valign="top">
 
-August 2021
+October 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Samsung Galaxy S21
+
+Samsung Galaxy S21+
+
+Samsung Galaxy S21 Ultra
+
+
+
+</td>
+<td valign="top">
+
+January 2024
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Samsung Galaxy S21 FE
+
+
+
+</td>
+<td valign="top">
+
+January 2025
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Samsung Galaxy S22
+
+Samsung Galaxy S22+
+
+Samsung Galaxy S22 Ultra
+
+
+
+</td>
+<td valign="top">
+
+February 2025
 
 
 
@@ -791,7 +859,7 @@ Samsung Galaxy Tab S5e
 </td>
 <td valign="top">
 
-April 2022
+April 2022 ?
 
 
 
@@ -807,7 +875,7 @@ Samsung Galaxy Tab S6
 </td>
 <td valign="top">
 
-August 2022
+August 2022 ?
 
 
 
@@ -823,7 +891,7 @@ Samsung Galaxy Tab S6 Lite
 </td>
 <td valign="top">
 
-July 2023
+July 2023 ?
 
 
 
@@ -834,12 +902,50 @@ July 2023
 
 Samsung Galaxy Tab S7
 
+Samsung Galaxy Tab S7+
+
 
 
 </td>
 <td valign="top">
 
 August 2023
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Samsung Galaxy Tab S7 FE
+
+
+
+</td>
+<td valign="top">
+
+May 2024
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Samsung Galaxy Tab S8
+
+Samsung Galaxy Tab S8+
+
+Samsung Galaxy Tab S8 Ultra
+
+
+
+</td>
+<td valign="top">
+
+February 2025 ?
 
 
 
