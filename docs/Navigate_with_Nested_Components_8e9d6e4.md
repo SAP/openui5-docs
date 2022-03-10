@@ -76,11 +76,11 @@ The `grandChildComp1` target has the following two routes defined:
 
 When the `home` route in the top level router is matched, the `Component` targets `childComp1` and `childComp2` are loaded and shown. Each of them receives an empty string hash as default, and so the `list` routes of their routers are matched.
 
-![](loio5c26abccbcbc4ac683602b4c650221f0_LowRes.png)
+![](images/loio5c26abccbcbc4ac683602b4c650221f0_LowRes.png)
 
 By using the `navTo` method, specific route information can be given to multiple nested components and, if available, their deep nested components. For example, the `detail` routes in both `Component` targets `childComp1` and `childComp2` need to be matched. Since the `detail` route of target `childComp2` loads another nested component \(`grandChildComp1`\), it is also possible to match the `detail` route in the deep nested component `grandChildComp1` with the same `navTo` call, see the following code snippet.
 
-``` js
+```js
 oRouter.navTo("home", {
     // this route doesn't need any parameter
 }, {
@@ -109,7 +109,7 @@ oRouter.navTo("home", {
 
 After the `navTo` call, the route state of each router looks as depicted in the following figure:
 
-![](loio49d0f4bdd53e4c20a62cdaf15b24ddf8_LowRes.png)
+![](images/loio49d0f4bdd53e4c20a62cdaf15b24ddf8_LowRes.png)
 
 ***
 
@@ -119,7 +119,7 @@ After the `navTo` call, the route state of each router looks as depicted in the 
 
 When a new route is matched within a router and a `Component` target was displayed within the old route, it is necessary to avoid that this `Component` target still reacts to unnecessary events such as `hashChanged`. For example, after switching from the `detail` route to the `list` route within the `Component` target `childComp2`, the deep nested `Component` target `grandChildComp1` is no longer relevant for the UI. This is shown in the following figure:
 
-![](loio79ef6da4766b4864a5a4ea807840273f_LowRes.png)
+![](images/loio79ef6da4766b4864a5a4ea807840273f_LowRes.png)
 
 To avoid this,
 

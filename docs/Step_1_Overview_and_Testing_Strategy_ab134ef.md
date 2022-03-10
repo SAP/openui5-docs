@@ -23,7 +23,7 @@ In this step, we will take a look at the prototype and define the test strategy 
   
 <a name="loioab134ef3932c4b42898c79c10341e8b5__fig_r1j_pst_mr"/>The prototype app
 
- ![](loio7946d242c8a14ac39fb22556b59d4bcd_HiRes.png "The prototype app") 
+ ![](images/loio7946d242c8a14ac39fb22556b59d4bcd_HiRes.png "The prototype app") 
 
 ***
 
@@ -39,7 +39,7 @@ After downloading *Step 1*, you should have the following files:
   
 <a name="loioab134ef3932c4b42898c79c10341e8b5__fig_xvp_11y_2t"/>Folder structure with downloaded files
 
- ![](loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files") 
+ ![](images/loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files") 
 
 ***
 
@@ -135,7 +135,7 @@ Before you start implementing your first test, you should think about how to tes
   
 <a name="loioab134ef3932c4b42898c79c10341e8b5__fig_u2g_t2y_2t"/>Testing pyramid
 
- ![](loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid") 
+ ![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid") 
 
 When you set up application testing, you should automate as many testing steps as possible. If you immediately write a test for all the features that we implement, then you can greatly reduce manual testing efforts that are time consuming and cumbersome. If you change something later, you can simply run the existing tests and see if the functionality is still working as expected.
 

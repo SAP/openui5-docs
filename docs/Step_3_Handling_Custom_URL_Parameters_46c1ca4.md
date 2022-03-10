@@ -22,7 +22,7 @@ We know that the OData V2 provider of this service implements a URL parameter th
   
 <a name="loio46c1ca4eb2804af6bfa371ad51c9b887__fig_lfn_3jq_st"/>Only the next three meet-ups are shown
 
- ![](loioe65ccb233c334129b11726a20b102211_HiRes.png "Only the next three meet-ups are shown") 
+ ![](images/loioe65ccb233c334129b11726a20b102211_HiRes.png "Only the next three meet-ups are shown") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 3](ht
 
 ### webapp/localService/mockserver.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/Log"

@@ -14,7 +14,7 @@ Create apps with rich user interfaces for modern web business applications, resp
 
 ***
 
-![](loio71f8bf5edae54fad91ea855da95f2f97_LowRes.png)
+![](images/loio71f8bf5edae54fad91ea855da95f2f97_LowRes.png)
 
 ***
 

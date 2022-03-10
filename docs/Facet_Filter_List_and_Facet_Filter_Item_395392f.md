@@ -198,9 +198,9 @@ If `key` is not set, `text` is used as the key value.
 
 The following example shows how you use the controls. To build the face filter in the figure, use the code below the figure:
 
-![](loio118e5d5c01ed49ccbf00c174e87c416a_LowRes.png)
+![](images/loio118e5d5c01ed49ccbf00c174e87c416a_LowRes.png)
 
-``` js
+```js
     
 var oFacetFilter = new sap.m.FacetFilter({ // define FacetFilter Control
         lists : [ new sap.m.FacetFilterList({ // city facet

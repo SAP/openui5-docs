@@ -22,7 +22,7 @@ If the tests are passed, we can be sure that the formatter is formally correct b
   
 <a name="loio2bf4892527174264808076be32c1e1b0__fig_r1j_pst_mr"/>The price is now formatted with a semantic color
 
- ![](loio436054fd57104e89b98dd2dc9a834211_LowRes.png "The price is now formatted with a semantic color") 
+ ![](images/loio436054fd57104e89b98dd2dc9a834211_LowRes.png "The price is now formatted with a semantic color") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/model/formatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/m/Text"
 ], function (Text) {
@@ -75,7 +75,7 @@ You can now run the file `webapp/test/unit/unitTests.qunit.html` and check if th
 
 ### webapp/view/Worklist.view.xml
 
-``` xml
+```xml
 …
 <ColumnListItem vAlign="Middle">
 	<cells>

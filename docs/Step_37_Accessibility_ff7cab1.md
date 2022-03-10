@@ -27,7 +27,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
   
 <a name="loioff7cab1f271a4181a86e5aa5c2f8d421__fig_qnj_x4b_hfb"/>Landmarks in our app
 
- ![](loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app") 
+ ![](images/loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app") 
 
 ***
 
@@ -45,7 +45,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 
 ### webapp/view/Overview.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"
@@ -80,7 +80,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 
 ### webapp/view/InvoiceList.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 	xmlns="sap.m"
@@ -130,7 +130,7 @@ We add a `sap.m.Panel` around the invoice list, and we move the toolbar from the
 
 ### webapp/view/HelloPanel.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
 	xmlns="sap.m"
@@ -161,7 +161,7 @@ In this view, we already have a panel, so we just add the `accessibleRole` attri
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 #Overview Page
 Overview_rootLabel=Overview Page
@@ -184,14 +184,14 @@ Here, we add the text for the rating panel title and the labels for the ARIA reg
 <tr>
 <td valign="top">
 
-![](loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
+![](images/loio54e9bca5a5844c14b45b5405496166b1_HiRes.png)
 
 
 
 </td>
 <td valign="top">
 
-![](loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
+![](images/loiof38dee2624c2437d8977de70575b3eae_HiRes.png)
 
 
 

@@ -14,7 +14,7 @@ In this tutorial, we will show you some tools that will help you if you run into
 
 We will introduce you to the browser developer tools and show you the various tools that OpenUI5 offers.
 
-![](loio58e6ffb98c27400fa004303049244c38_LowRes.png)
+![](images/loio58e6ffb98c27400fa004303049244c38_LowRes.png)
 
 For example, the OpenUI5 tools can help you with the following tasks:
 

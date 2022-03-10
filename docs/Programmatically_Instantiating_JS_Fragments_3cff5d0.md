@@ -16,7 +16,7 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 
 To give an example of a programmatic instantiation of a JS fragment, you first have to define one. The following code presents an example definition:
 
-``` js
+```js
 // fragment is located in a file named: "my/useful/UiPartX.fragment.js"
 sap.ui.define(["sap/m/Button"], function(Button) {
 	return {
@@ -33,7 +33,7 @@ sap.ui.define(["sap/m/Button"], function(Button) {
 
 This fragment can be instantiated from a controller as follows:
 
-``` js
+```js
 
 this.loadFragment({
 	name: "my.useful.UiPartX",
@@ -47,7 +47,7 @@ This button can now be used as if it had been created in a standard way.
 
 For fragments that are used several times, an ID for the fragment can be given optionally, see [Unique IDs](Unique_IDs_5da591c.md):
 
-``` js
+```js
 
 this.loadFragment({
 	name: "my.useful.UiPartX",
@@ -60,7 +60,7 @@ this.loadFragment({
 
 JS Fragments are capable of asynchronously creating their content. To do so, the `createContent()` function must return a Promise instead of just regular controls. This Promise then must resolve with the actual content controls.
 
-``` js
+```js
 // fragment is located in a file named: "reuse/SampleFragment.fragment.js"
 sap.ui.define(["sap/ui/core/Fragment", "sap/m/Button", "heavy/work/SomeModule"], function(Fragment, Button, SomeModule) {
 	return {
@@ -79,7 +79,7 @@ sap.ui.define(["sap/ui/core/Fragment", "sap/m/Button", "heavy/work/SomeModule"],
 
 You can now require the above fragment definition by calling `loadFragment`. All asynchronous behavior is encapsulated by the `loadFragment` Promise:
 
-``` js
+```js
 
 this.loadFragment({
 	name: "reuse.SampleFragment",

@@ -16,7 +16,7 @@ To open the technical information dialog from within a supported desktop browser
 
   [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
 
-![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
+![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
 The dialog contains the following information:
 
@@ -90,14 +90,14 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 <tr>
 <td valign="top">
 
-![Technical Information in Mobile App](loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
+![Technical Information in Mobile App](images/loiof11a08225adf4264a9ec9cbc2daad467_LowRes.jpg)
 
 
 
 </td>
 <td valign="top">
 
-![Technical Information in Mobile App](loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
+![Technical Information in Mobile App](images/loiod1e10c1bbf3d4983b8c2e39db7dbcdb0_LowRes.jpg)
 
 
 
@@ -106,14 +106,14 @@ On mobile devices, the *Technical Information* dialog provides some additional f
 <tr>
 <td valign="top">
 
-![Technical Information in Mobile App](loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
+![Technical Information in Mobile App](images/loioca7ba5f050484b99bede25b6c720ce30_LowRes.jpg)
 
 
 
 </td>
 <td valign="top">
 
-![Technical Information in Mobile App](loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
+![Technical Information in Mobile App](images/loiofc573fe3283d4e6da322a54e70bda756_LowRes.jpg)
 
 
 
@@ -137,7 +137,7 @@ To open the *Technical Information* dialog on your mobile device, proceed as fol
   
 <a name="loiob5dcf47c7d4a4228ab40d77f835648e3__fig_rlq_rlj_b1b"/>Gesture for opening the technical information dialog
 
-![](loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
+![](images/loiodf42057180444e1ca483af61049f0555_LowRes.png "Gesture for opening the technical information dialog")
 
 ***
 

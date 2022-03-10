@@ -20,20 +20,20 @@ In this step, we will add a new button to the home page to illustrate the usage 
   
 <a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_r1j_pst_mr"/>New button *Show Employee Overview*
 
- ![](loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee
+ ![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee
 					Overview") 
 
    
   
 <a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_jq5_kgv_ns"/>*Employee Overview* with search field
 
- ![](loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field") 
+ ![](images/loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field") 
 
    
   
 <a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_zlv_kgv_ns"/>Sort options for the *Employee Overview*
 
- ![](loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview") 
+ ![](images/loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview") 
 
 ***
 
@@ -51,7 +51,7 @@ You can view and download all files in the Demo Kit at [Routing and Navigation -
 
 ### webapp/view/Home.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.Home"
 	xmlns="sap.m"
@@ -74,7 +74,7 @@ First we add a new button to the `Home` view and add an event handler for the `p
 
 ### webapp/controller/Home.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -98,7 +98,7 @@ As you know already from the previous steps, we add the `press` event handler `o
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -204,7 +204,7 @@ The router makes sure that the parent view is loaded in addition to the target v
 
 ### webapp/view/employee/overview/EmployeeOverview.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.overview.EmployeeOverview"
 	xmlns="sap.m"
@@ -227,7 +227,7 @@ First we create the parent view by creating the folder `overview` under `webapp/
 
 ### webapp/controller/employee/overview/EmployeeOverview.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -243,7 +243,7 @@ The controller does not contain any logic yet, but we will add back navigation f
 
 ### webapp/view/employee/overview/EmployeeOverviewTop.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" class="sapUiMediumMarginBottom">
 	<Title text="{i18n>EmployeeOverviewTop}"/>
 </mvc:View>
@@ -256,7 +256,7 @@ Create the file `EmployeeOverviewTop.view.xml` and place it in the `webapp/view/
 
 ### webapp/view/employee/overview/EmployeeOverviewContent.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.overview.EmployeeOverviewContent"
 	xmlns="sap.m"
@@ -308,7 +308,7 @@ Create the file EmployeeOverviewContent.view.xml in the `webapp/view/employee/ov
 
 ### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",
@@ -468,7 +468,7 @@ However, we have one problem yet to solve: the search and table ordering are not
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 EmployeeOverview=Employee Overview
 ShowEmployeeOverview=Show Employee Overview

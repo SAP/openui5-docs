@@ -38,7 +38,7 @@ A custom control that needs to provide a scrollable area for its content should 
 
 Example:
 
-``` js
+```js
 
 myCustomScroller.prototype.onAfterRendering = function() {
   if(!this._oScroller){

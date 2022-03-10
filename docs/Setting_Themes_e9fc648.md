@@ -14,7 +14,7 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
 -   The initial theme can be hardcoded in the application \(in the script tag of the bootstrap loading OpenUI5\) or in a JS configuration object defined before OpenUI5 is loaded, for example:
 
-    ``` html
+    ```html
     <script id="sap-ui-bootstrap" 
     	type="text/javascript"
     	src="resources/sap-ui-core.js"
@@ -28,7 +28,7 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
     If you use the UI theme designer to define your own custom theme, you can append the location of the custom theme as a server-relative path to the `sap-ui-theme` parameter, separated by an `@` sign:
 
-    ``` html
+    ```html
     http://myserver.com/sap/myapp/?sap-ui-theme=my-theme@/sap/public/bc/themes/~client-111
     ```
 
@@ -63,7 +63,7 @@ To load an external custom theme, you set this theme either by static declaring 
 
     -   Use the same object structure as JSON string in an attribute of the OpenUI5 bootstrap `script` tag, for example:
 
-        ``` html
+        ```html
         <script id="sap-ui-bootstrap" 
         	type="text/javascript"
         	src="resources/sap-ui-core.js"
@@ -79,7 +79,7 @@ To load an external custom theme, you set this theme either by static declaring 
 
     -   Use the global configuration object. Insert the following before the bootstrap `script` tag:
 
-        ``` html
+        ```html
         <script type="text/javascript">
         window["sap-ui-config"] = {
         	themeRoots : {
@@ -124,7 +124,7 @@ A general wildcard \(\*\) can also be used to allow all origins. However this sh
 
 Whenever the theme is switched, an event is fired indicating that a theme switch has been triggered. If you want your application to react on this event, you can attach a handler to it:
 
-``` js
+```js
 
 sap.ui.getCore().attachThemeChanged(function(){
 	myFunction();

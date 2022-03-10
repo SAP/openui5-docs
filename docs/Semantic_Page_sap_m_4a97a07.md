@@ -41,11 +41,11 @@ The available semantic content is different buttons and selects. Each one can co
   
 <a name="loio4a97a07ec8f5441d901994d82eaab1f5__fig_dgh_yl2_zz"/>Semantic content at its default positions on the page.
 
- ![](loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.") 
+ ![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.") 
 
 Several different selects are supported for displaying a list of selectable items - `SortSelect`, `FilterSelect`, and `GroupSelect`.
 
-![](loiod37b29b1effe43438b294163ec0802ff_HiRes.png)
+![](images/loiod37b29b1effe43438b294163ec0802ff_HiRes.png)
 
 The following aggregations are available and enable the apps to add their own custom content to the different areas of the page:
 
@@ -75,7 +75,7 @@ The ordering logic of custom and semantic content is as follows from left to rig
 
 
 
-![](loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)
+![](images/loio4c04af6e10994ad1bce73d02630fe957_HiRes.png)
 
 ***
 
@@ -91,7 +91,7 @@ In the `sap.m` library, the semantic page controls are`sap.m.semantic.Fullscreen
 
 For split-screen \(Master-Detail\) scenarios, apps should use `sap.m.semantic.MasterPage` together with `sap.m.semantic.DetailPage`:
 
-``` xml
+```xml
 <mvc:View
 height="100%"
 xmlns:mvc="sap.ui.core.mvc"
@@ -117,7 +117,7 @@ displayBlock="true">
 
 For fullscreen scenarios \(where the page should always take the entire screen\), apps should use `sap.m.semantic.FullscreenPage`:
 
-``` xml
+```xml
 <mvc:View
 height="100%"
 xmlns:mvc="sap.ui.core.mvc"
@@ -144,7 +144,7 @@ The three semantic pages inherit from the abstract `sap.m.semantic.SemanticPage`
 
 For example, as the master part usually contains a list of items to be selected, so `sap.m.semantic.MasterPage` supports semantic controls for common operations on a list of items, such as sort, filter, group and multiselect:
 
-``` xml
+```xml
 ...
 <SplitContainer>
 <masterPages>
@@ -178,7 +178,7 @@ For example, as the master part usually contains a list of items to be selected,
 
 The `DetailPage` usually displays extended information for the item that was selected in the master part, therefore the `sap.m.semantic.DetailPage` also supports controls for operations like editing and sharing:
 
-``` xml
+```xml
 ...
 <SplitContainer>
        <masterPages>
@@ -209,7 +209,7 @@ The `DetailPage` usually displays extended information for the item that was sel
 
 #### Adding custom \(non-semantic\) content:
 
-``` xml
+```xml
 ...
 <semantic:FullscreenPage title="FullScreen Page Title"
                             showNavButton="true"

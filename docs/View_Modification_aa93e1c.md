@@ -16,7 +16,7 @@ The view modification is currently restricted to the `visible` property of contr
 
 View modification is available for XML views, JS views and HTML views. Below is an example that explains how a view modification works. The first code snippet describes the `Sub3.view.xml` view in the delivered standard application.
 
-``` js
+```js
 <mvc:View xmlns="sap." xmlns:mvc="sap.ui.core.mvc">
     <TextView text="SAP View 'Sub3' - the text after this one is hidden by customizing: "></TextView>
     <TextView id="someCustomizableTextControl" text="This text is made invisible by customization"></TextView>  
@@ -25,7 +25,7 @@ View modification is available for XML views, JS views and HTML views. Below is 
 
 The following code snippet describes the extensions for the control `someCustomizableTextControl` with the `visible` property set to `false`.
 
-``` js
+```js
 extensions: {  
     "sap.ui.viewModifications": {
         "samples.components.ext.sap.Sub3": {

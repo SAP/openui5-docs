@@ -45,7 +45,7 @@ Each debug line looks as follows:
 
 Example:
 
-``` xml
+```xml
 			
 1  [ 0] Start processing Element sap.ui.core.mvc.XMLView#__xmlview5 (sap.ui.core.sample.ViewTemplate.scenario.Detail) -  sap.ui.core.util.XMLPreprocessor
 2  [ 0] meta = /dataServices/schema/0/entityContainer/0/entitySet/0 -  sap.ui.core.util.XMLPreprocessor

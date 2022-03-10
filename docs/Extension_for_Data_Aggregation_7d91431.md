@@ -35,7 +35,7 @@ Two scenarios are supported:
     > ### Sample Code:  
     > **Example XML View With Grand Total**
     > 
-    > ``` js
+    > ```js
     > <table:Table fixedRowCount="1"
     >    rows="{
     >       path : '/BusinessPartners',
@@ -74,7 +74,7 @@ Two scenarios are supported:
     > ### Sample Code:  
     > **Example XML View With Hierarchy**
     > 
-    > ``` js
+    > ```js
     > <table:Table fixedRowCount="1"
     >    rows="{
     >       path : '/BusinessPartners',

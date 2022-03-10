@@ -22,7 +22,7 @@ In this step, we create an additional page that is displayed in a separate fulls
   
 <a name="loioa59b3de038874f879cf20bfc3287bd7c__fig_zfh_d31_12b"/>Additional page displayed in a separate fullscreen column
 
- ![](loio41f6ae105130408ca78197f7c528e388_HiRes.gif "Additional page displayed in a separate fullscreen column") 
+ ![](images/loio41f6ae105130408ca78197f7c528e388_HiRes.gif "Additional page displayed in a separate fullscreen column") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [Flexible Column Layout App - Step 10](ht
 
 ### webapp/view/AboutPage.view.xml \[NEW\]
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:f="sap.f"
@@ -64,7 +64,7 @@ We create a simple additional page view.
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 			...
 			"routes": [
 				{
@@ -130,7 +130,7 @@ Similar to the previous step, we add the additional page view to our existing ro
 
 ### webapp/view/DetailDetail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
 	xmlns="sap.f"
@@ -161,7 +161,7 @@ We add a link in the detail-detail page with a `press` event handler.
 
 ### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",

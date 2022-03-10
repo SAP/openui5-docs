@@ -22,7 +22,7 @@ Now we extend our minimalist HTML page to a basic app with a view and a controll
   
 <a name="loio128214a9b2754b15aec5e365780b03fd__fig_lx3_hxh_1gb"/>The browser shows a *Steady* button in an app
 
- ![](loio240ef5357d7f4d36955092cdaf1884a2_LowRes.png "The browser shows a Steady button in an app ") 
+ ![](images/loio240ef5357d7f4d36955092cdaf1884a2_LowRes.png "The browser shows a Steady button in an app ") 
 
 ***
 
@@ -36,7 +36,7 @@ You can view and download all files at [Quick Start - Step 2](https://openui5.ha
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/XMLView"
 ], function (XMLView) {
@@ -58,7 +58,7 @@ Similar to the step before, the view is placed in the element with the `content`
 
 ### webapp/App.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	controllerName="Quickstart.App"
 	displayBlock="true"
@@ -92,7 +92,7 @@ We outsource the controller logic to an app controller. The `.onPress` event now
 
 ### webapp/App.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"

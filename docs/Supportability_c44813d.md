@@ -18,7 +18,7 @@ In case of problems or errors in the custom application, several options exist t
 
 If a customized application does not run properly, you can disable the customizing. In a support case, for example, you can set a breakpoint early in the `sap-ui-core.js` and then execute the following code in the browser developer tool console:
 
-``` js
+```js
  
   window["sap-ui-config"] = window["sap-ui-config"] ||{};
   window["sap-ui-config"]["xx-disableCustomizing"] = true;
@@ -33,7 +33,7 @@ If a customized application does not run properly, you can disable the customizi
 
 The console log contains information about the processing of customizing or extensibility information. Depending on the importance of the respective information, different log levels are used. To enable a certain log level, execute the following code in the browser console:
 
-``` js
+```js
 
 // "Log" required from module "sap/base/Log"
 Log.setLevel(Log.Level.INFO)

@@ -25,7 +25,7 @@ We haven’t thought about testing our interaction with the app yet, so in this 
   
 <a name="loio9bf4dce43b7943d0909cd6c58a933589__fig_r1j_pst_mr"/>An OPA test opens the "Hello" dialog from step 16
 
- ![](loio108eccbd79ad4cc1b4091be62be59991_HiRes.png "An OPA test opens the "Hello" dialog from step 16") 
+ ![](images/loio108eccbd79ad4cc1b4091be62be59991_HiRes.png "An OPA test opens the "Hello" dialog from step 16") 
 
 ***
 
@@ -37,7 +37,7 @@ You can view and download all files at [Walkthrough - Step 28](https://openui5.h
   
 <a name="loio9bf4dce43b7943d0909cd6c58a933589__fig_rqr_hcp_ns"/>Folder Structure for this Step
 
- ![](loio72406abd1014466fb961d4c4dd1ade58_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio72406abd1014466fb961d4c4dd1ade58_HiRes.png "Folder Structure for this Step") 
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
@@ -45,7 +45,7 @@ We add a new folder `integration` below the `test` folder, where we put our new 
 
 ### webapp/test/integration/NavigationJourney.js \(New\)
 
-``` js
+```js
 /*global QUnit, opaTest*/
 
 sap.ui.define([
@@ -106,7 +106,7 @@ As you can see, the test case reads like a user story, we actually do not need t
 
 ### webapp/test/integration/pages/App.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/Opa5",
 	"sap/ui/test/actions/Press"
@@ -159,7 +159,7 @@ In the assertions section we define another `waitFor` statement that checks if a
 
 ### webapp/test/integration/opaTests.qunit.html \(New\)
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -203,7 +203,7 @@ Then we load the basic QUnit functionality via script tags from OpenUI5 so that 
 
 ### webapp/test/integration/opaTests.qunit.js \(New\)
 
-``` js
+```js
 /* global QUnit */
 
 QUnit.config.autostart = false;

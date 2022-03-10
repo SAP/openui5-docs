@@ -47,7 +47,7 @@ The following XML view is easy to handle, but leads to suboptimal performance wh
 
 View:
 
-``` xml
+```xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller">
 	<Page>
                         
@@ -67,7 +67,7 @@ View:
 
 Controller code:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/Fragment"
@@ -86,7 +86,7 @@ The following code is better in terms of initial performance because the second 
 
 View:
 
-``` xml
+```xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller">
 	<Page>
             
@@ -102,7 +102,7 @@ View:
 
 Additional fragment named `EditPanel.fragment.xml` for content that is initially hidden:
 
-``` xml
+```xml
 <Panel xmlns="sap.m" id="editPanel" headerText="Edit Data" visible="false">
 	<Table...>
 </Panel>
@@ -110,7 +110,7 @@ Additional fragment named `EditPanel.fragment.xml` for content that is initially
 
 Controller code:
 
-``` js
+```js
 	...
 	toEditMode: function() {
 		this.byId("displayPanel").setVisible(false);
@@ -140,7 +140,7 @@ Controller code:
 
 In other scenarios, at the time of developing you may not know which UI part is displayed initially. In this case, you can define that the UI is empty \(showing none of the panels\) in the view definition, and the controller’s `onInit()` method decides which fragment to instantiate and display initially:
 
-``` js
+```js
 	...
 	toEditMode: function () {...},
 	onInit: function () {

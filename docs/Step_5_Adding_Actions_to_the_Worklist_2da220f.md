@@ -20,7 +20,7 @@ Now we can easily spot shortages on our stock, but we would also like to take ac
   
 <a name="loio2da220ff496c4b0f9ce29208cbd089f3__fig_yn1_q4y_c5"/>Actions are now available in the footer bar
 
- ![](loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Actions are now available in the footer bar") 
+ ![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Actions are now available in the footer bar") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 ...
 <Table
 	id="table"
@@ -63,7 +63,7 @@ We change the table `mode` to `MultiSelect`. This allows you to select multiple 
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	 controllerName="mycompany.myapp.MyWorklistApp.controller.Worklist"
 	 xmlns="sap.m"
@@ -100,7 +100,7 @@ Now we add the buttons to the footer bar of the page. The two semantic actions `
 
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"./BaseController",
 	"sap/ui/model/json/JSONModel",
@@ -252,7 +252,7 @@ In a real scenario, you could have a counter for error responses, and one for su
 
 #### webapp/i18n/i18n.properties \[MODIFY\]
 
-``` prefs
+```ini
 
 ...
 #text of the button for Products reordering

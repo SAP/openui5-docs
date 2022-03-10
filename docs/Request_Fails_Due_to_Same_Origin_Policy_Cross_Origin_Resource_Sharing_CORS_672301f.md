@@ -22,7 +22,7 @@ If you use a remote URL in your code, for example a remote OData service, such a
   
 <a name="copy672301f4f47640a8b2bc817d2ce0f512__fig_jyf_f1k_c5"/>Violations of the same-origin policy in Google Chrome
 
- ![](loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome") 
+ ![](images/loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome") 
 
 ***
 
@@ -69,7 +69,7 @@ The destination is configured inside the SAP BTP cockpit. For more information, 
 
 In the `manifest.json` descriptor file of your app, you can now change the data source to use the remote destination, for example:
 
-``` js
+```js
 {
   "_version": "1.12.0",
   "sap.app": {
@@ -115,7 +115,7 @@ Prerequisites: NodeJS is installed on your machine.
 
 #### package.json
 
-``` json
+```json
 {
 	"name": "Sample-Package",
 	"version": "1.0.0",
@@ -137,7 +137,7 @@ Add the `devDependency` called `"myProxy": "^x.y.z"` to your existing `package.j
 
 #### proxy.js \(new\)
 
-``` js
+```js
 var cors_proxy = require('myProxy');
 
 // Listen on a specific IP Address
@@ -162,7 +162,7 @@ Create a new file `proxy.js`, and copy the above script into your project direct
 
 #### manifest.json
 
-``` json
+```json
 {
 	"sap.app": {
 		...

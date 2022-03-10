@@ -27,7 +27,7 @@ With this release OpenUI5 is upgraded from version 1.73 to 1.74.
 
 The Test Recorder tool is now part of the OpenUI5 framework and is available in all browsers. Use it in any OpenUI5 app to inspect the rendered user interface, view the control properties, and get hints about writing tests. The tool is aligned with the two official OpenUI5 testing tools – OPA5 and UIVeri5.
 
- ![](loio639a7041dc2740c2b9f0183a7aee41bb_HiRes.png) 
+ ![](images/loio639a7041dc2740c2b9f0183a7aee41bb_HiRes.png) 
 
 For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
 
@@ -273,7 +273,7 @@ We have enhanced the `sap.m.Wizard` control for better integration in the `sap.f
 
 We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content. It is defined by the new `icon` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.tnt.InfoLabel) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.tnt.InfoLabel/sample/sap.tnt.sample.InfoLabel).
 
- ![](loiocadac6c2a6e74ac18c574ee7f3b4b0df_LowRes.png) 
+ ![](images/loiocadac6c2a6e74ac18c574ee7f3b4b0df_LowRes.png) 
 
 
 

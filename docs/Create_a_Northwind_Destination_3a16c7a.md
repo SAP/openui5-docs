@@ -29,7 +29,7 @@ To do this, follow the steps described here: [Create a Destination in the SAP BT
 
 With this configuration you can use the destination for any app inside SAP Web IDE. Whenever an app calls a \(local\) service beginning with `/destinations/northwind/*`, the created destination becomes active as a simple proxy. This helps to prevent any possible issues related to the same-origin policy of browsers. For this, you need to add another route to the `neo-app.json`:
 
-``` json
+```json
 {
   "welcomeFile": "index.html",
   "routes": [
@@ -73,7 +73,7 @@ With this configuration you can use the destination for any app inside SAP Web I
 
 In the app descriptor, the service URL is then defined relative to the destination path specified above:
 
-``` json
+```json
 ...
 "sap.app": {
  "dataSources": {

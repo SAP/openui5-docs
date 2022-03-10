@@ -304,7 +304,7 @@ The only mandatory parameter when creating an `ODataModel` instance is the servi
 
 ***
 
-``` js
+```js
 // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
 var oModel = new ODataModel("http://services.odata.org/Northwind/Northwind.svc/");
 var oModel = new ODataModel({serviceUrl: "http://services.odata.org/Northwind/Northwind.svc"});
@@ -326,7 +326,7 @@ The service metadata is cached per service URL. Multiple OData models that are u
 
 Only the first model instance triggers a `$metadata` request. A JSON representation of the service metadata can be accessed by calling the `getServiceMetadata()` method on an OData model instance.
 
-``` js
+```js
 
 var oMetadata = oModel.getServiceMetadata();
 ```
@@ -348,7 +348,7 @@ There are different ways to add URL parameters to the requests:
 
 -   Appending parameters to the service URL:
 
-    ``` js
+    ```js
     // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
     var oModel = new ODataModel("http://myserver/MyService.svc/?myParam=value&myParam2=value");
     ```
@@ -359,7 +359,7 @@ There are different ways to add URL parameters to the requests:
 
     You can pass URL parameters that are used for `$metadata` requests only \(`metadataUrlParams`\) as well as URL parameters that are included only in data requests \(`serviceUrlParams`\). The parameters are passed as maps:
 
-    ``` js
+    ```js
     // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
     var oModel = new ODataModel({ 
         serviceUrl: "http://services.odata.org/Northwind/Northwind.svc",    
@@ -387,7 +387,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
 
 -   Passing custom headers with the `mparameters` map
 
-    ``` js
+    ```js
     var oModel = new sap.ui.model.odata.v2.ODataModel({
         headers: {
             "myHeader1" : "value1",
@@ -398,7 +398,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
 
 -   Setting custom headers globally on a model instance
 
-    ``` js
+    ```js
     oModel.setHeaders({"myHeader1" : "value1", "myHeader2" : "value2"});
     ```
 
@@ -472,7 +472,7 @@ The data requested from an OData service is cached in the OData model.
 
 It can be accessed by the `getProperty()` method, which returns the entity object or value. This method does not request data from the back end, so you can only access already requested and cached entities:
 
-``` js
+```js
 oModel.getProperty("/Customer('ALFKI')/Address");
 ```
 
@@ -520,7 +520,7 @@ All examples for entity creation below assume that the model runs in batch mode,
 > ### Example:  
 > `createEntry` and related APIs
 > 
-> ``` js
+> ```js
 > // create an entry in the Products collection with the specified properties and values as initial data
 > var oContext = oModel.createEntry("/ProductSet", {
 >     properties : {Name : "Laptop X", Description:"New Laptop", Price:"1000", CurrencyCode : "USD"}
@@ -551,7 +551,7 @@ The optional `inactive` parameter determines whether an **inactive** transient c
 > ### Example:  
 > Two sequential requests to mimic deep create
 > 
-> ``` js
+> ```js
 > var oParentContext,
 >     oModel = this.getView().getModel();
 >  
@@ -608,7 +608,7 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 > ### Example:  
 > Inline creation rows
 > 
-> ``` js
+> ```js
 > <!-- sap.ui.table.Table control declared in XML view -->
 > <Table id="ToLineItems" rows="{
 >     events : {createActivate : '.onCreateActivateLineItem'}
@@ -669,7 +669,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
     The `read` function triggeres a `GET` request to a specified path. The path is retrieved from the OData service which was specified at creation of the OData model. The retrieved data is returned in the `success` callback handler function.
 
-    ``` js
+    ```js
     oModel.read("/Products(999)", {success: mySuccessHandler, error: myErrorHandler});
     ```
 
@@ -677,7 +677,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
     The `update` function triggers a `PUT`/`MERGE` request to an OData service which was specified at creation of the OData model. After a successful request to update the bindings in the model, the refresh is triggered automatically.
 
-    ``` js
+    ```js
     
     var oData = {
         ProductId: 999,
@@ -690,7 +690,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
     The `remove` function triggers a `DELETE` request to an OData service which was specified at creation of the OData model. The application has to specify the path to the entry which should be deleted.
 
-    ``` js
+    ```js
     oModel.remove("/Products(999)", {success: mySuccessHandler, error: myErrorHandler});
     ```
 
@@ -698,7 +698,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
 
     The model provides a mechanism to automatically refresh bindings that depend on changed entities. If you carry out a `create`, `update` or `remove` function, the model identifies the bindings and triggers a refresh for these bindings. If the model runs in batch mode, the refresh requests are bundled together with the changes in the same batch request. You can disable the auto refresh by calling `setRefreshAfterChange(false)`. If the auto refresh is disabled, the application has to take care of refreshing the respective bindings.
 
-    ``` js
+    ```js
     oModel.setRefreshAfterChange(false);
     ```
 
@@ -752,14 +752,14 @@ All requests belonging to the `group` are then stored in a request queue. The de
 > ### Example:  
 > Set a subset of groups to deferred:
 > 
-> ``` js
+> ```js
 > // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
 > var oModel = new ODataModel(myServiceUrl);
 > ```
 > 
 > Pass the `groupId` to a binding:
 > 
-> ``` js
+> ```js
 > {path:"/myEntities", parameters: {groupId: "myId"}}
 > ```
 > 
@@ -767,26 +767,26 @@ All requests belonging to the `group` are then stored in a request queue. The de
 > 
 > 1.  Get the list of deferred groups:
 > 
->     ``` js
+>     ```js
 >     var aDeferredGroups = oModel.getDeferredGroups();
 >     ```
 > 
 > 2.  Append your `groupId` to the list:
 > 
->     ``` js
+>     ```js
 >     aDeferredGroups=aDeferredGroups.concat(["myId"]);
 >     ```
 > 
 > 3.  Set all groups to deferred:
 > 
->     ``` js
+>     ```js
 >     oModel.setDeferredGroups(aDeferredGroups);
 >     ```
 > 
 > 
 > Submit all deferred groups:
 > 
-> ``` js
+> ```js
 > oModel.submitChanges({success: mySuccessHandler, error: myErrorHandler});
 > ```
 
@@ -805,7 +805,7 @@ To submit the changes, use `submitChanges()`. The data changes are made on a dat
 
 You can collect the changes for different entities or types in different batch groups. To configure this, use the `setChangeGroups()` method of the model:
 
-``` js
+```js
 // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
 var oModel = new ODataModel(myServiceUrl);
 oModel.setDeferredGroups(["myGroupId", "myGroupId2"]);
@@ -828,7 +828,7 @@ To collect the changes for all entity types in the same batch group, use '\*’ 
 
 Reset changes:
 
-``` js
+```js
 // "ODataModel" required from module "sap/ui/model/odata/v2/ODataModel"
 var oModel = new ODataModel(myServiceUrl);
 //do a change
@@ -854,7 +854,7 @@ You can use these parameters in bindings in addition to the parameters described
 
     The `expand` parameter allows the application to read associated entities with their navigation properties:
 
-    ``` js
+    ```js
     oControl.bindElement("/Category(1)", {expand: "Products"}); 
     
     oTable.bindRows({
@@ -869,7 +869,7 @@ You can use these parameters in bindings in addition to the parameters described
 
     The `select` parameter allows the application to define a subset of properties that is read when requesting an entity.
 
-    ``` js
+    ```js
     oControl.bindElement("/Category(1)", {expand: "Products", select: "Name,ID,Products"}); 
     
     oTable.bindRows({
@@ -884,7 +884,7 @@ You can use these parameters in bindings in addition to the parameters described
 
     You can use custom query options as input parameters for service operations. When creating the list binding, specify these custom parameter as follows:
 
-    ``` js
+    ```js
     oTable.bindRows({
             path: "/Products", 
             parameters: {
@@ -899,7 +899,7 @@ You can use these parameters in bindings in addition to the parameters described
 
     If you use `bindElement`, you can specify custom parameters as follows:
 
-    ``` js
+    ```js
     oTextField.bindElement("/GetProducts", {
         custom: {
             "price" : "500"
@@ -947,7 +947,7 @@ The following example shows a context binding with the path **"/Products\(1\)"**
   
 <a name="loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example: Default Binding Resolution
 
- ![](loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution") 
+ ![](images/loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution") 
 
 Without using preliminary contexts, two consecutive OData requests will be issued, one for `Binding 0`, and afterwards one for `Binding 1`, as shown in the following table:
 
@@ -1011,7 +1011,7 @@ You can optimize the requests by setting the binding parameters as shown below:
   
 <a name="loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
 
- ![](loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized") 
+ ![](images/loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized") 
 
 Here, `Binding 1` uses the preliminary context created by `Binding 0`, and thus the request URL can directly be resolved.
 
@@ -1077,7 +1077,7 @@ Content
 
 The `ODataModel` supports the invoking of function imports or actions by the `callFunction` method.
 
-``` xml
+```xml
 oModel.callFunction("/GetProductsByRating",{method:"GET", urlParameters:{"rating":3}, success:fnSuccess, error: fnError})
 ```
 
@@ -1094,7 +1094,7 @@ If the `callFunction` request is deferred, it can be submitted via the `submitCh
 
 OData Model V2 supports the binding against function import parameters. This is similar to the `createEntry` method which supports binding against entity properties. The `callFunction` method returns a request handle that has a `promise`. This `promise` is resolved when the context to which it is bound is created successfully or is rejected if not:
 
-``` xml
+```xml
 var oHandle = oModel.callFunction("/GetProductsByRating", {urlParameters: {rating:3}});
 oHandle.contextCreated().then(function(oContext) {
       oView.setBindingContext(oContext);
@@ -1103,7 +1103,7 @@ oHandle.contextCreated().then(function(oContext) {
 
 If the function import returns result data, then the result data can be accessed and bound against in the `$result` property using the context:
 
-``` xml
+```xml
 <form:SimpleForm>
    <core:Title text="Parameters" />
    <Label text="Rating" />
@@ -1308,7 +1308,7 @@ Each element of the entity model \(except *association set end*\) can be annotat
 
 ODataMetaModel JSON Format:
 
-``` js
+```js
 
 "dataServices" : {
     "schema" : [{
@@ -3514,7 +3514,7 @@ For code lists with currency or unit customizing you need to define the followin
 
 In contrast to the [OData V4 scenario](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md), OData V2 does not allow for a separate code list service. All metadata information must therefore be contained in the main metadata.xml file, and the code list URL must point to this file only. This is achieved by specifying the `Url` property as follows:
 
-``` xml
+```xml
 <PropertyValue Property="Url" String="./$metadata" />
 
 ```
@@ -3551,7 +3551,7 @@ The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is int
 
 **Code list annotations for currency codes and units in the service's metadata.xml file:**
 
-``` xml
+```xml
 
 ...
 <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="SAP__common"/>
@@ -3651,7 +3651,7 @@ With the metadata above, you can use the `sap.ui.model.odata.type.Currency` and 
 
 **Example how to use currency and unit types in a freestyle application:**
 
-``` js
+```js
 ...
 <Input value="{
    mode:'TwoWay', 

@@ -14,14 +14,14 @@ Declarative support in OpenUI5 also enables data binding.
 
 Just add the model path in curly brackets and bind the model to the control \(or parent control\):
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Button" data-text="{/stringValue}" data-enabled="{model2>/booleanValue}"></div>
 ```
 
 0..n aggregations can define templates to use for the list binding:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Carousel" data-content="{/buttons}">
     <div data-sap-ui-type="sap.m.Button" data-text="{title}"></div>

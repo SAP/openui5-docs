@@ -327,7 +327,7 @@ Contains the domain allowlist \(comma-separated\)
 
 If the application is not intended to run in a frame, set `frameOptions` to `deny`:
 
-``` html
+```html
 <script id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'
     data-sap-ui-frameOptions='deny'>
@@ -340,7 +340,7 @@ If the application is not intended to run in a frame, set `frameOptions` to `den
 
 To restrict the embedding to same-origin domains, set `frameOptions` to `trusted`. The `callback` in the following code sample is called with a boolean as success state and can be used to implement an application-specific behavior.
 
-``` html
+```html
 
 <script>
 window["sap-ui-config"] = {
@@ -367,7 +367,7 @@ window["sap-ui-config"] = {
 
 To allow that the OpenUI5 application is embedded in cross-origin domains, configure an allowlist service. The allowlist service checks whether the application can run in the parent origin, or not.
 
-``` html
+```html
 <script>
 window["sap-ui-config"] = {
     allowlistService: 'url/to/allowlist/service',
@@ -394,7 +394,7 @@ window["sap-ui-config"] = {
 
 Alternatively, a `<meta>` tag can be used to configure the `allowlistService` and set the `frameOptions` to `trusted`. This only applies if the `allowlistService` or `frameOptions` configuration is not set in the OpenUI5 configuration.
 
-``` html
+```html
 <meta name="sap.allowlistService" content="url/to/allowlist/service" />
 <script  id='sap-ui-bootstrap'
     src='resources/sap-ui-core.js'>

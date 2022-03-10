@@ -20,7 +20,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
   
 <a name="loio2680aa9b16c14a00b01261d04babbb39__fig_r1j_pst_mr"/>The browser shows the text "Hello World"
 
- ![](loio396ccf66ea6c4ad1a488355d3ea18ad7_HiRes.png "The browser shows the text "Hello World"") 
+ ![](images/loio396ccf66ea6c4ad1a488355d3ea18ad7_HiRes.png "The browser shows the text "Hello World"") 
 
 ***
 
@@ -28,7 +28,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 You can view and download all files at [Walkthrough - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.01/preview).
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>

@@ -20,7 +20,7 @@ In this step, we extend the product detail view by adding a feature allowing to 
   
 <a name="loioc73dfe312f104664954749c5c36faf27__fig_apx_45y_c5"/>Comments section added to the detail page
 
- ![](loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page") 
+ ![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 
 #### webapp/view/Object.view.xml \[MODIFY\]
 
-``` xml
+```xml
 
 <mvc:View
     controllerName="mycompany.myapp.MyWorklistApp.controller.Object"
@@ -89,7 +89,7 @@ The template for each row is a `FeedListItem` control. We configure the `FeedLis
 
 #### webapp/controller/Object.controller.js \[MODIFY\]
 
-``` js
+```js
 ...
 /*global location*/
 sap.ui.define([
@@ -153,7 +153,7 @@ Finally, the new entry is added to the named model called `productFeedback`. Thi
 
 #### webapp/model/models.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/model/json/JSONModel",
    "sap/ui/Device"
@@ -180,7 +180,7 @@ However, this model is not yet accessible throughout our app. Let’s fix this n
 
 #### webapp/Component.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/UIComponent",
    "sap/ui/Device",
@@ -218,7 +218,7 @@ Now it’s time to make the named model `productFeedback` available to our app. 
 
 #### webapp/i18n/i18n.properties \[MODIFY\]
 
-``` prefs
+```ini
 ...
 #Comments tab title
 ObjectCommentsTabTitle=Comments

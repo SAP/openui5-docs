@@ -22,7 +22,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
   
 <a name="loio8f93bf2b2b13402e9f035128ce8b495f__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
- ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png " An input field and a description displaying the value of the input field (No
+ ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png " An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 
 
 ***
@@ -38,7 +38,7 @@ You can view and download all files at [Walkthrough - Step 10](https://openui5.h
 
 ### webapp/manifest.json \(New\)
 
-``` js
+```js
 {
   "_version": "1.12.0",
   "sap.app": {
@@ -142,7 +142,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 
 ### webapp\\index.html
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -174,7 +174,7 @@ We will no longer need our `index.js` from now on, because the descriptor takes 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/strong/span
@@ -193,7 +193,7 @@ In the resource bundle we simply add the texts for the app and add comments to s
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/UIComponent",
    "sap/ui/model/json/JSONModel"

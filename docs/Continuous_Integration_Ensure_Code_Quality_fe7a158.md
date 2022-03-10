@@ -51,7 +51,7 @@ In an OpenUI5 project, the process, for example, can look like this:
   
 <a name="loiofe7a158313af4590ad60f844e5b43b80__fig_rgh_cfj_pbb"/>Code cannot be merged because automated tests failed
 
- ![](loiob1c16e7bde8d466a804647f9c0fb9d37_LowRes.png "Code cannot be merged because automated tests failed") 
+ ![](images/loiob1c16e7bde8d466a804647f9c0fb9d37_LowRes.png "Code cannot be merged because automated tests failed") 
 
 **Related Information**  
 

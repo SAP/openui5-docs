@@ -20,7 +20,7 @@ OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date
   
 <a name="loio9252ee4015f24fc49c71c295394d1b8d__fig_r1j_pst_mr"/>New *Sales Amount* input field
 
- ![](loiod15f8bc61efe47d9af2afdeea943cd9c_HiRes.png "New Sales Amount input field ") 
+ ![](images/loiod15f8bc61efe47d9af2afdeea943cd9c_HiRes.png "New Sales Amount input field ") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 10](
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",
@@ -83,7 +83,7 @@ We create two new model properties `salesAmount` and `currencyCode`.
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
 	<Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<form:SimpleForm editable="true" layout="ColumnLayout">
@@ -136,7 +136,7 @@ A new pair of `Label` and `Input` elements have been created for the `salesAmoun
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # Field labels
 firstName=Vorname
 lastName=Nachname
@@ -149,7 +149,7 @@ salesAmount=Sales Amount...
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 # Field labels
 firstName=Vorname
 lastName=Nachname

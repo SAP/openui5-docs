@@ -20,7 +20,7 @@ Expression binding allows you to display a value on the screen that has been cal
   
 <a name="loio5cff8d1c3fb84c5db7a00f2daca125af__fig_r1j_pst_mr"/>Values formatted
 
- ![](loiob9fb758efb0a481cb88a412a0712972f_HiRes.png "Values formatted") 
+ ![](images/loiob9fb758efb0a481cb88a412a0712972f_HiRes.png "Values formatted") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 14](
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
 		</content>
 	</Panel>
@@ -78,7 +78,7 @@ In the XML view, we add a new `numberState` property to the `ObjectListItem` ele
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",

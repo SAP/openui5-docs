@@ -16,7 +16,7 @@ The following code snippet creates a control type that inherits from `sap.m.Inpu
 
 The control API and the `render` method can be inherited as it is and the `renderInnerAttributes` method of the `InputRenderer` is overwritten:
 
-``` js
+```js
   
 sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInput" 
                                       // and let it inherit from sap.m.Input
@@ -38,7 +38,7 @@ sap.m.Input.extend("HighlightInput", {// call the new Control type "HighlightInp
 
 The `HighlightInput` control can be used in an application in the same way as `Input`:
 
-``` js
+```js
 
 var myControl = new HighlightInput({value:"Highlighted editing"});
 myControl.placeAt("content");

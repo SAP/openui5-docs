@@ -14,7 +14,7 @@ An association is defined as a data attribute of the HTML tag. Instead of passin
 
 The following code gives an example:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Label" data-text="Message:" data-label-for="message"></div>
 <div data-sap-ui-type="sap.m.Input" id="message"></div>

@@ -18,7 +18,7 @@ The use of the JSDoc toolkit has some pitfalls. By following the guidelines outl
 
 In case of multiple documentation comments before a JavaScript symbol, JSDoc only associates the last comment with the symbol. Therefore, multiple documentation comments before a symbol must be avoided. The comment and code sequence below results in an unwanted documentation for the `adjustFilters` symbol. To avoid this, move the TODOs, either within the function or before the documentation comment.
 
-``` js
+```js
 
 /**
  * Maps the UI filter objects to the internal Filter object.
@@ -41,7 +41,7 @@ sap.ui.table.internal.BehaviorManager.prototype.adjustFilters = function(filtere
 
 JSDoc interprets any multiline comment starting with a double asterisks \( `/**` \) as a documentation comment for the JavaScript symbol that follows the documentation comment. However, some developers use "decorative" documentation comments to separate sections in their JavaScript modules, and using a multiline comment consisting of asterisks is just one example for such decorative comments:
 
-``` js
+```js
 
 // Update aggregation
   this.insertSection(oSection, iTargetIndex, true);
@@ -65,7 +65,7 @@ JSDoc explicitly allows HTML tags in documentation comments. This allows, as in 
 
 In the example, note the escaped `<TR>` in the first and the third line of the documentation comment:
 
-``` js
+```js
 
 /**
  * This function return the rowNumber given a row&lt;TR>.

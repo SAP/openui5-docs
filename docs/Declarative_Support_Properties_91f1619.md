@@ -14,7 +14,7 @@ For setting a property, define the property as a data attribute of the correspon
 
 To add text to the button, add the attribute `data-text` to its HTML tag:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Button" data-text="HelloWorld"></div>
 ```
@@ -22,7 +22,7 @@ To add text to the button, add the attribute `data-text` to its HTML tag:
 > ### Note:  
 > To define a property with upper case characters, you have to "escape" them with a dash character, similar to CSS attributes. The following code gives an example:
 > 
-> ``` html
+> ```html
 > 
 > <div data-sap-ui-type="sap.ui.commons.ApplicationHeader" data-display-logoff="false" data-display-welcome="false"></div>
 > ```
@@ -31,14 +31,14 @@ To add text to the button, add the attribute `data-text` to its HTML tag:
 > 
 > The <code><code>id</code></code> attribute defines the ID of a control:
 > 
-> ``` html
+> ```html
 > 
 > <div data-sap-ui-type="sap.m.Button" id="myButton"></div>
 > ```
 > 
 > To add a CSS class to the control, use the class attribute:
 > 
-> ``` html
+> ```html
 > 
 > <div data-sap-ui-type="sap.m.Button" class="my-button"></div>
 > ```

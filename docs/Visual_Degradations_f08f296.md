@@ -52,7 +52,7 @@ Google Chrome
 
 Google Chrome supports the native placeholder property and displays multiple lines along with a scrollbar
 
- ![](loiof4a1a89df08f4634b70163f18dd33c55_LowRes.png) 
+ ![](images/loiof4a1a89df08f4634b70163f18dd33c55_LowRes.png) 
 
 
 
@@ -70,7 +70,7 @@ Mozilla Firefox
 
 Mozilla Firefox supports the native placeholder property but does not display a scrollbar or an ellipsis, instead it simply truncates the placeholder text string
 
- ![](loioc8b3985181a4450fb1252f4f81a25af2_LowRes.png) 
+ ![](images/loioc8b3985181a4450fb1252f4f81a25af2_LowRes.png) 
 
 
 

@@ -16,7 +16,7 @@ One of the biggest challenges in responsive web design \(RWD\) is presenting tab
 
 Say we want to build this nice table to display on a desktop:
 
-![](loioa6dd36ccbabf424c9ab4dafc9d06d4ad_LowRes.png)
+![](images/loioa6dd36ccbabf424c9ab4dafc9d06d4ad_LowRes.png)
 
 On mobile devices, we know that we won't have enough space to show all these columns, so we need to ask ourselves which columns are most important. Let's say:
 
@@ -25,7 +25,7 @@ On mobile devices, we know that we won't have enough space to show all these col
 
 If we apply these decisions we just made, our mobile devices should now look like this:
 
-![](loioe3cdfd6815bf4536a3498cadbe3fc2c7_LowRes.png)
+![](images/loioe3cdfd6815bf4536a3498cadbe3fc2c7_LowRes.png)
 
 ***
 

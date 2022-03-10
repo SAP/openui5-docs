@@ -20,7 +20,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
   
 <a name="loioa96e18b4cd924196b255eb9623431dbb__fig_r1j_pst_mr"/>A responsive table is hiding some of the columns on small devices
 
- ![](loio62a5405e63324cb4928e587f518ae13f_HiRes.png "A responsive table is hiding some of the columns on small devices") 
+ ![](images/loio62a5405e63324cb4928e587f518ae13f_HiRes.png "A responsive table is hiding some of the columns on small devices") 
 
 ***
 
@@ -28,7 +28,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 
 You can view and download all files at [Walkthrough - Step 34](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.34/preview).
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 		xmlns="sap.m"
@@ -161,7 +161,7 @@ Now we have defined our table responsively and can see the results when we decre
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Invoice List
 invoiceListTitle=Invoices

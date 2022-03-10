@@ -64,7 +64,7 @@ For more information, see [Enabling Responsive Paddings According to the Control
 
 The new layout control is a single-level navigation menu that offers access to the entry pages of products. Its items can be configured with an image/icon, title, subtitle, and navigation target.
 
-![](loio0a4532ffdad544a783a2670901a43e85_HiRes.png)
+![](images/loio0a4532ffdad544a783a2670901a43e85_HiRes.png)
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.ProductSwitch) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.ProductSwitch).
 

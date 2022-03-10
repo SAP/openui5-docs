@@ -32,7 +32,7 @@ OData V2 messages are kept until a message from the server for the same path arr
 
 To create messages manually that are handled like OData messages, use `model` as message processor as follows:
 
-``` js
+```js
 // oMyModel is defined elsewhere...
 // "Input" required from module "sap/m/Input"
 // "TypeFloat" required from module "sap/ui/model/type/Float"
@@ -97,7 +97,7 @@ Mulitple OData changes that are part of the same change set are send as batch re
 
 If one change operation fails, the back end rolls back all operations of the change set, but returns only a single message, for example:
 
-``` js
+```js
 {
   "code": "MYCODE/111",
   "message": "Invalid input!",
@@ -121,7 +121,7 @@ This leads to two UI message objects with the following message targets:
 
 The OData service error response can also contain multiple inner-errors to deliever more than one error message to the front end. The inner-error messages should generally be used to describe the problem in more detail, for example
 
-``` js
+```js
 {
   "code": "MYCODE/111",
   "message": "Failed operations!",

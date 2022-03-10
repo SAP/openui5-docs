@@ -16,7 +16,7 @@ The JSON model is a client-side model and, therefore, intended for small data se
 
 To instantiate a JSON model, use the following code:
 
-``` js
+```js
 var oModel = new sap.ui.model.json.JSONModel();
 ```
 
@@ -24,7 +24,7 @@ After the instance has been created, there are different options to get the data
 
 The easiest option is to set data by using the `setData` method:
 
-``` js
+```js
 oModel.setData({
     firstName: "Peter",
     lastName: "Pan"
@@ -36,7 +36,7 @@ oModel.setData({
 
 Usually, you do not define your data inline in the application but load it from a server-side service using an XHR request. The JSON model, however, also has a `loadData` method, which loads the JSON data from the specified URL asynchronously and applies it to the model:
 
-``` js
+```js
 oModel.loadData("data.json");
 ```
 
@@ -55,7 +55,7 @@ If you use a JSON model for data binding, sorting and filtering is implemented i
 
 The `fnTest` method of the filter gets the value to test as the only parameter and returns, whether the row with the given value should be filtered or not.
 
-``` js
+```js
 var oFilter = new sap.ui.model.Filter("property", function(value) {
     return (value > 100); 
 });
@@ -64,7 +64,7 @@ var oFilter = new sap.ui.model.Filter("property", function(value) {
 
 The `fnCompare` method of the Sorter gets the two values to compare as parameters and returns -1, 0 or 1, dependent on which of the two values should be ordered before the other:
 
-``` js
+```js
 var oSorter = new sap.ui.model.Sorter("property");
 oSorter.fnCompare = function(value1, value2) {
     if (value1 < value2) return -1;
@@ -83,7 +83,7 @@ The JSON model has a simple binding path syntax, because it consists of named ob
 
 The following example shows a simple JSON model with the different binding paths:
 
-``` js
+```js
 
 {
     company: {

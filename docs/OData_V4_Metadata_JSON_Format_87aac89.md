@@ -53,7 +53,7 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`:
 
-``` js
+```js
 
 {
   "$Version" : "<3.1.1 Edmx Version>",
@@ -501,7 +501,7 @@ edm:Not is written as `{"$Not" : <value>, "@..." : <value>}`. All others are wri
 </td>
 <td valign="top">
 
-``` js
+```js
 
 {
 "$Cast" : <value>,
@@ -565,7 +565,7 @@ Condition, then, else \(which is optional inside a "14.5.5 Expression Collection
 </td>
 <td valign="top">
 
-``` js
+```js
 
 {
 "$IsOf" : <value>,
@@ -695,7 +695,7 @@ The object notation is needed in case of inline annotations.
 
 The record itself is a map:
 
-``` js
+```js
 
 {
   "$Type" : "<14.5.14.1 Record Type>",

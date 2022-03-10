@@ -29,13 +29,13 @@ You can choose between the following busy indicators, depending on your use case
 
 You can use the `sap.ui.core.BusyIndicator` busy indicator to block the whole UI. You can set the delay in ms by specifying the number:
 
-``` js
+```js
 sap.ui.core.BusyIndicator.show(<number>);
 ```
 
 To release the UI again, the busy indication must be hidden again. This function call hides the busy indication immediately:
 
-``` js
+```js
 sap.ui.core.BusyIndicator.hide();
 ```
 
@@ -61,7 +61,7 @@ If a control is set to busy, the complete control will be covered with a block l
 
 Here's how to do it:
 
-``` js
+```js
 	var oInput = new sap.m.Input({
 		value:'Hello World'
 	});
@@ -72,7 +72,7 @@ Here's how to do it:
 
 The following code shows how you define the default state of a control as `busy` so that it will be displayed as busy when it has been rendered:
 
-``` js
+```js
 	var oInput = new sap.m.Input({
 		value:'Hello World',
 		busy: true
@@ -83,13 +83,13 @@ The following code shows how you define the default state of a control as `busy`
 
 To release the control's busy state again, the same API can be used. This has to be done by the application after some data has been loaded, for example with the following command:
 
-``` js
+```js
 oMyListBox.setBusy(false);
 ```
 
 To change the default delay of the local busy indicator, use:
 
-``` js
+```js
 oMyListBox.setBusyIndicatorDelay(<number>);
 ```
 

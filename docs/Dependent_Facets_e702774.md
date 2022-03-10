@@ -18,9 +18,9 @@ For example, an application displays a list of products and uses a facet filter 
 
 In this example, only products from the selected category are displayed.
 
-![](loio1f47e6058f5747b687d1822040e46b1f_LowRes.png)
+![](images/loio1f47e6058f5747b687d1822040e46b1f_LowRes.png)
 
-``` js
+```js
 
 var oCategoriesModel = new sap.ui.model.odata.v2.ODataModel("/uilib-sample/proxy/http/services.odata.org/V3/Northwind/Northwind.svc");
 

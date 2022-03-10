@@ -34,7 +34,7 @@ Whenever the control state changes because, for example, a property is changed, 
 
 If you call the property setter in your own code, like `this.setText("xy")`, you can instead use the generic setter defined in `Element.js` which also has the optional parameter `"bSuppressRerendering": this.setProperty("text", "xy", true)`. If the property change is done from the application, but you still want to avoid rerendering, for example, because you only need to toggle one CSS class or because the control DOM elements may not be removed and replaced, you need to overwrite the generated setter method. The generated method looks like this:
 
-``` js
+```js
 sap.m.Button.prototype.setText = function(sText) {
 	this.setProperty("text", sText);
 };
@@ -42,7 +42,7 @@ sap.m.Button.prototype.setText = function(sText) {
 
 You also need to add the flag in your overwriting implementation:
 
-``` js
+```js
 sap.m.Button.prototype.setText = function(sText) {
 	this.setProperty("text", sText, true);
 };

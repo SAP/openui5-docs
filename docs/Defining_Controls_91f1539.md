@@ -20,7 +20,7 @@ data-sap-ui-type="sap.m.Button"
 
 Rendering a button in the body of an HTML document without setting any property, association, event, or aggregation looks as follows:
 
-``` html
+```html
 
 <body>
   <div data-sap-ui-type="sap.m.Button"></div>

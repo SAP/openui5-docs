@@ -20,7 +20,7 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
   
 <a name="loio9373793b290d429ba1bc6aea1ce5482f__fig_r1j_pst_mr"/>Second panel with additional data
 
- ![](loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data") 
+ ![](images/loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 8](h
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",
@@ -81,7 +81,7 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
@@ -121,7 +121,7 @@ The text property of the `Text` element is bound to four i18n properties: `/addr
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # Field labels
 firstName=First Name
 lastName=Last Name
@@ -138,7 +138,7 @@ panel2HeaderText=Address Details
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 # Field labels
 firstName=Vorname
 lastName=Nachname

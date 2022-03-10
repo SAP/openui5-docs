@@ -56,7 +56,7 @@ In OpenUI5, control constructors accept the following arguments in the specified
 
 The following code snippet shows an example of a constructor that is called to create a new text control saying "Hello World" with the specified tooltip and width:
 
-``` js
+```js
 // required from sap/m/Text
 var oText = new Text("testText",
 {text : "Hello World", tooltip: "This is an example tooltip", width: "100px"});
@@ -64,7 +64,7 @@ var oText = new Text("testText",
 
 The above example is an abbreviated version of the following code snippet with a detailed list of statements, which is alternatively supported:
 
-``` js
+```js
 // required from sap/m/Text
 var oText = new Text("testText"); 
 oText.setText("Hello World");

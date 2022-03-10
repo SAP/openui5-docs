@@ -20,7 +20,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
   
 <a name="loio10592affce3e4f1ba73c3125ee06e0b7__fig_r1j_pst_mr"/>We add an OPA test that selects an item from the table and navigates to the post page
 
- ![](loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the post
+ ![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the post
 					page") 
 
 ***
@@ -33,7 +33,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 8](https:
 
 ### webapp/test/integration/PostJourney.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist",
@@ -93,7 +93,7 @@ Our new journey consists of three user interaction steps:
 
 ### webapp/test/integration/pages/Worklist.js – action object
 
-``` js
+```js
 sap.ui.define([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',
@@ -135,7 +135,7 @@ Now that we have written our spec how the navigation to the *Post* page is plann
 
 ### **webapp/test/integration/pages/Post.js \(New\)**
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/test/Opa5',
 	'sap/ui/test/matchers/Properties',
@@ -190,7 +190,7 @@ We implement a `press` event on the page’s `nav` button and we assert that we 
 
 ### **webapp/test/integration/pages/Worklist.js – assertion object**
 
-``` js
+```js
 …
 ,
 					iShouldSeeTheTable: function () {
@@ -212,7 +212,7 @@ After going back, we want to move forwards again, but we need to check if the ba
 
 ### **webapp/test/integration/pages/Browser.js \(New\)**
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/test/Opa5'
 ], function (Opa5) {
@@ -240,7 +240,7 @@ We now implement an action that is triggered when the *Forward* button is chosen
 
 ### **webapp/test/integration/AllJourneys.js**
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/Opa5",
 	"./arrangements/Startup",

@@ -42,13 +42,13 @@ The syntax of the <code><i>expression</i></code> is similar to JavaScript syntax
 > ### Note:  
 > Expression binding can also be used with JavaScript. For example:
 > 
-> ``` js
+> ```js
 > new Text({"visible" : "{= ${status} === 'critical' && ${amount} > 10000 }"});
 > ```
 > 
 > or
 > 
-> ``` js
+> ```js
 > new Icon({color : "'{= encodeURIComponent(${/ID}) }'"});
 > ```
 
@@ -374,7 +374,7 @@ The application version without expression binding consists of the XML view \(`s
 
 XML view \(`sample.App.view.xml`\)
 
-``` xml
+```xml
 
 <mvc:View controllerName="sample.App" xmlns="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 ...
@@ -387,7 +387,7 @@ XML view \(`sample.App.view.xml`\)
 
 Controller \(`sample.App.controller.js`\)
 
-``` xml
+```xml
 
 ...
 myFormatter: function(sStatus) {
@@ -399,7 +399,7 @@ myFormatter: function(sStatus) {
 
 When using expression binding, however, you only need the XML view without controller logic \(`sample.App.view.xml`\):
 
-``` xml
+```xml
 
 <mvc:View controllerName="sample.app" xmlns="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
 ...
@@ -430,61 +430,61 @@ With the expression syntax sketched above it is possible to create more complex 
 
 Examples for more complex expressions:
 
-``` xml
+```xml
 
 <!-- Set to visible if the status is critical and the amount 
 is above the threshold (note escaping of &&). -->
 visible="{= ${status} === 'critical' &amp;&amp; ${amount} > 10000 }"
 ```
 
-``` xml
+```xml
 
 <!-- Text for amount level using language-dependent texts 
 from the resource model. -->
 text="{= ${/amount} > 10000 ? ${i18n>/high} : ${i18n>/normal} }"
 ```
 
-``` xml
+```xml
 
 <!-- Set to visible if the rating is VIP, ignoring case 
 or if the order amount is greater than 10,000. -->
 visible="{= ${/rating}.toUpperCase() === 'VIP' || ${/orderAmount} > 10000 }"
 ```
 
-``` xml
+```xml
 
 <!-- Set to visible if the rating contains VIP, ignoring
  the case. -->
 visible={= RegExp('vip', 'i').test(${/rating}) }
 ```
 
-``` xml
+```xml
 
 <!-- Text is maximum of three values. -->
 text="{= Math.max(${/value1}, ${/value2}, ${/value3}) }"
 ```
 
-``` xml
+```xml
 
 <!-- Control is enabled only if the order status is set. --> 
 enabled="{= ${/orderStatus} !== null }"
 ```
 
-``` xml
+```xml
 
 <!-- Set text to the second string 'middle', access second 
 element in the array generated via 'split'. -->
 text="{= 'small@middle@long'.split('@')[1] }"
 ```
 
-``` xml
+```xml
 
 <!-- Concatenate literal strings and expression bindings 
 or bindings. -->
 text="Hello {=${gender}==='male' ? 'Mr.' : 'Mrs.'} {lastName}"
 ```
 
-``` xml
+```xml
 
 <!-- Set text by using a composite binding that combines
 several values in a formatter defined by a parameterized

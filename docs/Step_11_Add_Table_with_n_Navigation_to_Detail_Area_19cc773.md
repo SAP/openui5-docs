@@ -22,7 +22,7 @@ In this step we add a table with additional information to the detail area.
   
 <a name="loio19cc773a60d944c8bb588056f665de04__fig_ybl_pdx_4cb"/>A table containing information about friends of the selected user is added
 
- ![](loio45abd62d7de84704b6ff318cba56d62e_LowRes.png "A table containing information about friends of the selected user is added") 
+ ![](images/loio45abd62d7de84704b6ff318cba56d62e_LowRes.png "A table containing information about friends of the selected user is added") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [OData V4 - Step 11](https://openui5.hana
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 ...
 											<VBox>

@@ -18,7 +18,7 @@ You can measure the code coverage for your test inside the `Control.qunit.html` 
 
 With the following line you enable `Blanket.js` to measure the code coverage:
 
-``` html
+```html
 <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"></script>
 ```
 
@@ -28,7 +28,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to a single file:
 
-    ``` html
+    ```html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
     	data-sap-ui-cover-only="sap/ui/core/Popup.js"
     ></script>
@@ -36,7 +36,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-    ``` html
+    ```html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
     	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
     ></script>
@@ -44,7 +44,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to a specific library:
 
-    ``` html
+    ```html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
     	data-sap-ui-cover-only="sap/ui/core/"
     ></script>
@@ -52,7 +52,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Exclude specific objects:
 
-    ``` html
+    ```html
     <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
     	data-sap-ui-cover-never="sap/m/"
     ></script>
@@ -65,7 +65,7 @@ If you want to limit the test run, you can use the following code:
 
 Inside your test page, you can add these lines before running the tests:
 
-``` js
+```js
 sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
     // code
 });
@@ -75,7 +75,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to a single file:
 
-    ``` html
+    ```html
     if (window.blanket) {
     	blanket.options("sap-ui-cover-only", "sap/ui/core/Popup.js");
     }
@@ -83,7 +83,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-    ``` html
+    ```html
     if (window.blanket) {
     	blanket.options("sap-ui-cover-only", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
     }
@@ -91,7 +91,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Limit test to a specific library:
 
-    ``` html
+    ```html
     if (window.blanket) {
     	blanket.options("sap-ui-cover-only", "sap/ui/core/");
     }
@@ -99,7 +99,7 @@ If you want to limit the test run, you can use the following code:
 
 -   Exclude specific objects:
 
-    ``` html
+    ```html
     if (window.blanket) {
     	blanket.options("sap-ui-cover-never", "sap/ui/example/thirdparty/");
     }
@@ -114,7 +114,7 @@ To view the results of the measurement, select the *Enable coverage* checkbox on
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
 
- ![](loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg) 
+ ![](images/loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg) 
 
 **Related Information**  
 

@@ -31,7 +31,7 @@ In the following diagram you can see how the Support Assistant is connected to t
   
 <a name="loioa34eb58aaf124f538a3ead23a6cab04a__fig_y25_ws5_41b"/>Support Assistant Architecture
 
- ![](loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture") 
+ ![](images/loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture") 
 
 There are two different use cases for its integration:
 
@@ -86,7 +86,7 @@ The Support Assistant API allows you to:
 
 -   Run a complete analysis on all components and rules. This analysis returns all issues.
 
-    ``` js
+    ```js
     sap.ui.require(["sap/ui/support/RuleAnalyzer"],
           function (RuleAnalyzer) {
     
@@ -99,7 +99,7 @@ The Support Assistant API allows you to:
 
 -   Run a complete analysis, using custom metadata. The analysis history will contain this metadata.
 
-    ``` js
+    ```js
     sap.ui.require(["sap/ui/support/RuleAnalyzer"],
           function (RuleAnalyzer) {
     	

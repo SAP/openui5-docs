@@ -35,7 +35,7 @@ You can achieve the desired layout, using a flexible set of configuration proper
 
 The grid cells created by the grid layout are empty containers that can be filled with controls.
 
- ![](loio69776c2a45394ddfbcd17efd5c3b2357_LowRes.png) 
+ ![](images/loio69776c2a45394ddfbcd17efd5c3b2357_LowRes.png) 
 
 ***
 
@@ -49,7 +49,7 @@ Features and behaviors are configurable to enable the grid layout for a variety 
 
 -   You can define and control the elements flow, positioning the elements either horizontally in rows or vertically in columns.
 
-     ![](loio0073799c39aa46dabd53c9e8cff872cd_LowRes.png) 
+     ![](images/loio0073799c39aa46dabd53c9e8cff872cd_LowRes.png) 
 
 -   Nesting:
 
@@ -58,13 +58,13 @@ Features and behaviors are configurable to enable the grid layout for a variety 
     -   The grid layout supports nesting, which allows for the placement of a grid layout inside another grid layout.
 
 
-     ![](loio215f9816de1040d39b6e35ec55f2e383_LowRes.png) 
+     ![](images/loio215f9816de1040d39b6e35ec55f2e383_LowRes.png) 
 
 -   Size/dimensions configuration: you can configure either every row and column specifically, or using a template definition \(`gridTemplateRows`, `gridTemplateColumns`\), and you can configure the gaps too by using the `gridGap`, `gridRowGap`, `gridColumnGap` properties.
 
 -   Responsiveness: The ability to adjust grid size and reorganize the grid content, depending on pre-defined break points. \(S, M, L, XL\).
 
-     ![](loioc13d07d374a247eb97c276c269705c7b_LowRes.png) 
+     ![](images/loioc13d07d374a247eb97c276c269705c7b_LowRes.png) 
 
 
 **Related Information**  

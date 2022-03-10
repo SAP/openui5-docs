@@ -31,7 +31,7 @@ Support for landmark roles is provided for:
 
 Before seeing how a landmark is set for these controls, you must understand which landmark roles we can use.
 
-The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](loio77cb16f93da74644abdf68296651f7bf_Source1.png)
+The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](images/loio77cb16f93da74644abdf68296651f7bf_Source1.png)
 
 Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLandmarkRole` enum. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.AccessibleLandmarkRole). 
 

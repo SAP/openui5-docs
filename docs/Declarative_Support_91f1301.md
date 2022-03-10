@@ -26,7 +26,7 @@ The following sections provide an overview of the declarative support and introd
 
 The following example shows the concept by combining a `sap.m.input` with a `sap.m.Button` control. When you click the button, the value of the text field is displayed in an alert box:
 
-``` html
+```html
 <!Doctype HTML>
 <html>
 <head>

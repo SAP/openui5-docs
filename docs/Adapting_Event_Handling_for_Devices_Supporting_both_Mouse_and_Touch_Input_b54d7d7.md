@@ -18,7 +18,7 @@ To prevent the event handler from being called twice for each touch event, addit
 
 In most cases, the event handler was previously bound by checking if touch is supported, like shown below:
 
-``` js
+```js
 // "Device" required from module "sap/ui/Device"
 jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(oEvent) {
     ......
@@ -31,7 +31,7 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 
     -   When using jQuery:
 
-        ``` js
+        ```js
         
         jQuery(document).on("touchmove mousemove", function(oEvent) {
             if (oEvent.isMarked("delayedMouseEvent")) {
@@ -45,7 +45,7 @@ jQuery(document).on(Device.support.touch ? "touchmove" : "mousemove", function(o
 
     -   When using native browser event listeners:
 
-        ``` js
+        ```js
         
         var fnHandler = function (oEvent ) { if (oEvent . _sapui_delayedMouseEvent ) { // Suppress the emulated mouse event from the touch interface
          return ; } ...... };
@@ -68,7 +68,7 @@ We have also adapted some controls within `sap.m` for devices supporting both mo
 
 **Code before the adaptation:**
 
-``` js
+```js
 // "RatingIndicator" defined in module "sap/m/RatingIndicator"
 // "Device" required from module "sap/ui/Device"
 RatingIndicator.prototype.ontouchstart = function(oEvent) {
@@ -118,7 +118,7 @@ RatingIndicator.prototype._ontouchend = function(oEvent) {
 
 **Code after adaptation:**
 
-``` js
+```js
 // "RatingIndicator" defined in module "sap/m/RatingIndicator"
 // "Device" required from module "sap/ui/Device"
 RatingIndicator.prototype.ontouchstart = function (oEvent) {

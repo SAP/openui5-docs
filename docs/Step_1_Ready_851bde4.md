@@ -22,7 +22,7 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
   
 <a name="loio851bde42e4e1410c96abbe402fa9128c__fig_vf2_vfl_4s"/>The browser shows a "Ready" button that triggers a "Hello World" message
 
- ![](loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message") 
+ ![](images/loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message") 
 
 ***
 
@@ -36,7 +36,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 
 ### webapp/index.html \(new\)
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,7 +77,7 @@ The `body` tag is defined with the `sapUiBody` class and the `content` ID. This 
 
 ### webapp/index.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/m/Button",
 	"sap/m/MessageToast"

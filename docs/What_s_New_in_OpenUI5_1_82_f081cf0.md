@@ -62,7 +62,7 @@ Badges display very short and important information that attracts the user’s a
 -   <code><b>sap.ui.integration.widgets.Card</b></code> – the badge is no longer in experimental state. For more information, see the [Text Badge](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/badge) section and the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/badge) in the Card Explorer.
 -   <code><b>sap.m.Button</b></code> - the badge acts both as a visual eye catcher and as a counter to display a maximum of 4 digits or characters. It can be applied to any button type, but we recommend that you only use it on the `Default`, `Ghost`, `Transparent`, and `Emphasized` button types.
 
-     ![](loio205fd119d9a64cdb957c4efa70ad4367_LowRes.png) 
+     ![](images/loio205fd119d9a64cdb957c4efa70ad4367_LowRes.png) 
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Button/sample/sap.m.sample.ButtonWithBadge).
 
@@ -87,7 +87,7 @@ Badges display very short and important information that attracts the user’s a
 
 **Five New Icons Available in the *SAP Fiori Tools* Icon Font**
 
- ![](loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png) 
+ ![](images/loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png) 
 
 Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 

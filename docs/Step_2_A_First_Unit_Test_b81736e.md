@@ -40,7 +40,7 @@ As we use Test Driven Development \(TDD\) we define the test case first, before 
   
 <a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_r1j_pst_mr"/>The unit test will initially fail as the implementation is not provided yet
 
- ![](loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
+ ![](images/loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
 					yet") 
 
 ***
@@ -56,7 +56,7 @@ All unit tests are located in the `webapp/test/unit` folder and can be started m
   
 <a name="loiob81736e0fcb246efb3b0cf0ca422f8fd__fig_fd3_kyd_ft"/>Unit test infrastructure in the application
 
- ![](loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit test infrastructure in the application") 
+ ![](images/loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit test infrastructure in the application") 
 
 Let’s take a closer look at the `unitTests.qunit.html` file. The application root is stored in the `webapp` folder two levels above. In the `bootstrap` tag of the HTML page we define two namespaces to refer to the app and the unit tests. The namespace of the unit tests points to the current folder as all test artifacts are located below the current folder:
 
@@ -79,7 +79,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/model/formatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/m/Text"
 ], function (Text) {
@@ -101,7 +101,7 @@ First we think about the feature that we want to implement. We want to introduce
 
 ### webapp/test/unit/model/formatter.js
 
-``` js
+```js
 sap.ui.define([
 	"./model/formatter"
 ], function (formatter) {

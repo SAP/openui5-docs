@@ -27,7 +27,7 @@ With this release OpenUI5 is upgraded from version 1.69 to 1.70.
 
 We have introduced a new control `GridListItem` to be used in the default `items` aggregation of `sap.f.GridList`. It consists of a header toolbar and content.
 
- ![](loiod3ef93c51b5f4f1aa04445fae8755995_HiRes.png) 
+ ![](images/loiod3ef93c51b5f4f1aa04445fae8755995_HiRes.png) 
 
 Note that even though the `content` aggregation can be used for any control, complex responsive layout controls, such as `Table` and `Form`, should not be used.
 

@@ -18,7 +18,7 @@ The oController object given when instantiating a fragment does not need to be a
 
 The following example of an HTML fragment can be used in an environment where no MVC is used.
 
-``` js
+```js
 
 var oDummyController = { 
 	doSomething: function() { 

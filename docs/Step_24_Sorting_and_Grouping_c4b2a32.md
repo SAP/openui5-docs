@@ -20,7 +20,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
   
 <a name="loioc4b2a32bb72f483faa173e890e48d812__fig_r1j_pst_mr"/>The list is now sorted and grouped by the shipping company
 
- ![](loio80771b1120ce4d14b9d0ebf1fe98bce9_HiRes.png "The list is now sorted and grouped by the shipping company") 
+ ![](images/loio80771b1120ce4d14b9d0ebf1fe98bce9_HiRes.png "The list is now sorted and grouped by the shipping company") 
 
 ***
 
@@ -28,7 +28,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 
 You can view and download all files at [Walkthrough - Step 24](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.24/preview).
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
@@ -61,7 +61,7 @@ If we run the app now we can see a list of invoices sorted by the name of the pr
 
 ### webapp/view/InvoiceList.view.xml
 
-``` xml
+```xml
 <mvc:View
 controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 xmlns="sap.m"

@@ -20,7 +20,7 @@ Now that we have implemented the conversion tests, we add the corresponding func
   
 <a name="loio69a25bf2f8a2478cbda4b8bbe64039de__fig_r1j_pst_mr"/>The *Flag* button is now added to the table
 
- ![](loio0cfabfd43c5f4c3b86a0ac7b7ef9e99d_LowRes.png "The Flag button is now added to the table") 
+ ![](images/loio0cfabfd43c5f4c3b86a0ac7b7ef9e99d_LowRes.png "The Flag button is now added to the table") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/model/FlaggedType.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/SimpleType"
 ], function (SimpleType) {
@@ -92,7 +92,7 @@ We call these functions of the data type in the unit tests directly. So if you n
 
 ### webapp/view/Worklist.view.xml
 
-``` xml
+```xml
 …
 <Table …>
 	…
@@ -132,7 +132,7 @@ In the view, we add a new column and a cell for the flag feature at the end of t
 
 ### webapp/controller/Worklist.controller.js
 
-``` js
+```js
 sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',
@@ -159,7 +159,7 @@ The conversion functions that are made available when we create an instance of t
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
 	…
 ], function (UIComponent, ResourceModel, models) {
@@ -185,7 +185,7 @@ To enable the propagation of the bound view properties to the model, we need to 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 #~~~ Worklist View ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 …

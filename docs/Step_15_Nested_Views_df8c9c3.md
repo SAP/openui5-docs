@@ -20,7 +20,7 @@ Our panel content is getting more and more complex and now it is time to move th
   
 <a name="loiodf8c9c3d79b54c928855162bafcd88ee__fig_r1j_pst_mr"/>The panel content is now refactored to a separate view \(No visual changes to last step\)
 
- ![](loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to
+ ![](images/loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to
 					last step)") 
 
 ***
@@ -29,7 +29,7 @@ Our panel content is getting more and more complex and now it is time to move th
 
 You can view and download all files at [Walkthrough - Step 15](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.15/preview).
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"
@@ -56,7 +56,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
 
 ### webapp/view/HelloPanel.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
@@ -88,7 +88,7 @@ The whole content for the panel is now added to the new file `HelloPanel.view.xm
 
 ### webapp/controller/HelloPanel.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"
@@ -113,7 +113,7 @@ To have a reusable asset, the method `onShowHello` is also moved from the app co
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {

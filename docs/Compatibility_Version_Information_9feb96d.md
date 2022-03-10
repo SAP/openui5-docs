@@ -25,7 +25,7 @@ The compatibility version configuration works as follows:
 -   A version flag is introduced if a feature change is incompatible.
 -   The version flag has to be defined in the OpenUI5 bootstrap tag either globally \(`data-sap-ui-compatVersion` or individually for each feature \(for example `data-sap-ui-compatVersion-xyz`\). Example with `compatVersion "1.18"`
 
-    ``` html
+    ```html
     <script id="sap-ui-bootstrap" 
             type="text/javascript"
             src="resources/sap-ui-core.js"

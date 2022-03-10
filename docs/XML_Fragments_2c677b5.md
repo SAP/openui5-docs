@@ -14,7 +14,7 @@ XML fragments are similar to XML view, but have no <View\> tag as root element. 
 
 You define a simple XML fragment as shown in the following code snippet:
 
-``` xml
+```xml
 <Button xmlns="sap.m" id="btnInFragment" text="Hello
     World"/>
 ```
@@ -23,7 +23,7 @@ This simple UI definition can, for instance, be located in a file named `…/my/
 
 A slightly more complex XML fragment can be defined as follows:
 
-``` xml
+```xml
 <VBox xmlns="sap.m">
 		<Label text="My Label inside an XML fragment"/>
 		<Button id="btnInFragment" text="Hello World" press="doSomething"/>

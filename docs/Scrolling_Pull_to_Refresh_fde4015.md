@@ -16,7 +16,7 @@ To implement it, create a `PullToRefresh` control and put it as the first contro
 
 Example:
 
-``` js
+```js
 
 var pullToRefresh = new sap.m.PullToRefresh({ description: getLastUpdatedTime(), refresh: function(){
     pullToRefresh.setDescription("loading from server..."); 

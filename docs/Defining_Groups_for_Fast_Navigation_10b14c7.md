@@ -23,7 +23,7 @@ Basically, a fast navigation group is defined via the attribute `data-sap-ui-fas
 
 This is the preferred option and can be used for many use cases. If a control or an element with a DOM representation wants to define a fast navigation group on its root element, use the `CustomData` mechanism in the `init` function of the control or element to set the attribute.
 
-``` js
+```js
 init = function(){
   //...
   this.data("sap-ui-fastnavgroup", "true", true/*Write into DOM*/);
@@ -40,7 +40,7 @@ The `RenderManager` writes the attribute automatically during rendering when the
 
 During rendering of a control, the attribute can also be written to any arbitrary DOM element of the control.
 
-``` js
+```js
 
 // assuming a renderer that uses the new rendering API
 render = function(oRm, oControl){
@@ -60,11 +60,11 @@ render = function(oRm, oControl){
 
 It may be necessary that a control has to provide a custom fast navigation handling, for example, if the DOM structure of the control does not allow to define suitable navigation groups with one of the options described above. The following picture shows how the central fast navigation handling \(a\) outside the control collaborates with the custom handling inside the control.
 
- ![](loiofd10658b749c45f39ad27a45a414fae0_LowRes.png) 
+ ![](images/loiofd10658b749c45f39ad27a45a414fae0_LowRes.png) 
 
 To implement custom fast navigation handling, start with flagging the control as a custom handling area:
 
-``` js
+```js
 render = function(oRm, oControl){
   //...
   oRm.openStart("div", oControl);
@@ -78,7 +78,7 @@ To implement the custom fast navigation behavior within the control \(d\), use t
 
 The interesting point is the collaboration \(b, c\) between the control and the central fast navigation handling.
 
-``` js
+```js
 onsapskipforward = function(oEvent){ //F6
   var oTarget = findNextDomRefToFocus(oEvent.target); //Search for the next DOM element within the control which should be focused.
   if(!oTarget){
@@ -114,7 +114,7 @@ If the focus resides outside the control and the central fast navigation handlin
 
 If `preventDefault` is called on `BeforeFastNavigationFocus`, setting the focus on the target by the central handling is skipped.
 
-``` js
+```js
 onBeforeFastNavigationFocus = function(oEvent) {
   var oTarget;
   if (jQuery.contains(this.getDomRef(), oEvent.source)) {

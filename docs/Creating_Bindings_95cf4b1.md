@@ -19,7 +19,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
     > ### Note:  
     > Note that binding expressions can be complex so that they can take additional properties to specify the binding further in addition to the path:
     > 
-    > ``` js
+    > ```js
     > 
     > oForm.bindElement({path : "/SalesOrderList('0500000000')", parameters : {$expand : "SO_2_SOITEM", ...}, events : {dataReceived : '.onDataEvents', ...}});
     > ```
@@ -30,7 +30,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
 
 -   Declaring a binding for a control property in an XML view such as the following:
 
-    ``` xml
+    ```xml
     
     <Table items="{path : '/SalesOrderList', parameters : { $expand : 'SO_2_BP', $filter : 'BuyerName ge \'M\'', ...}, events : {dataReceived : '.onDataEvents', ... } }">
     ```

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Some controls need to provide specific coding for right-to-left mode \(RTL\), for example, because they position or animate elements programmatically, and not via CSS. To read the OpenUI5 RTL configuration, use the following function call:
 
-``` js
+```js
 
 var bRtl = sap.ui.getCore().getConfiguration().getRTL();
 ```

@@ -22,7 +22,7 @@ The first iteration of the Application Cache Buster only supports files which ha
 
 If you do not specify all the applications in the bootstrap configuration, you can also register them during runtime. To register additional locations, use the following API:
 
-``` js
+```js
 
 sap.ui.core.AppCacheBuster.register("/sap/bc/my/other/component");
 ```
@@ -35,7 +35,7 @@ sap.ui.core.AppCacheBuster.register("/sap/bc/my/other/component");
 
 To avoid handling of specific URLs, you can override the default behavior as follows:
 
-``` js
+```js
 
 sap.ui.core.AppCacheBuster.handleURL = function(sURL) {
   return sURL !== "my/specific/url";

@@ -16,7 +16,7 @@ The `sap.uxap.ObjectPage`'s dynamic header is flexible and provides general-purp
 
 It consists of two parts - Header Title and Header Content.
 
- ![](loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png) 
+ ![](images/loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png) 
 
 The upper part of the Header Title is reserved for `breadcrumbs` navigation. The opposite side of this upper area is occupied by the `navigationActions` after a certain breakpoint.
 
@@ -24,7 +24,7 @@ The upper part of the Header Title is reserved for `breadcrumbs` navigation. The
   
 <a name="loio6e340c119ddd4c778b315f65a0432420__fig_xtb_3ny_5bb"/>Breadcrumbs and Navigation Actions in the Header Title
 
- ![](loio1b7f15003bc843048ef9212063f072b7_LowRes.gif "Breadcrumbs and Navigation Actions in the Header Title") 
+ ![](images/loio1b7f15003bc843048ef9212063f072b7_LowRes.gif "Breadcrumbs and Navigation Actions in the Header Title") 
 
 The Header Title area can be clicked/tapped to expand/collapse the dynamic header. Whenever the feature is enabled \(`toggleHeaderOnTitleClick` is set to `true`\), an arrow button is positioned either below the Header Content \(when header is expanded\) or below the Header Title \(when header is collapsed\). The expand/collapsed state of the header can be toggled by either clicking on the Header Title area, or the arrow button.
 
@@ -34,7 +34,7 @@ When hovering over the arrow button or the Header Title area, both areas are hig
   
 <a name="loio6e340c119ddd4c778b315f65a0432420__fig_psd_2fz_sbb"/>Expanding/Collapsing the Header Using Arrow Button and Title Click
 
- ![](loioe70b5adf9f60403d8b7b8aa5c9b1d972_LowRes.gif "Expanding/Collapsing the Header Using Arrow Button and Title Click") 
+ ![](images/loioe70b5adf9f60403d8b7b8aa5c9b1d972_LowRes.gif "Expanding/Collapsing the Header Using Arrow Button and Title Click") 
 
 The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\). When the feature is enabled, a pin toggle button is available allowing the header content to remain expanded when scrolling the page.
 
@@ -42,7 +42,7 @@ The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\).
   
 <a name="loio6e340c119ddd4c778b315f65a0432420__fig_rqm_llz_sbb"/>Pinning the Header to Remain Expanded when Scrolling the Page
 
- ![](loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the
+ ![](images/loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the
 				Page") 
 
 ***

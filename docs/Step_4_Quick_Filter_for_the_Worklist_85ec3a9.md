@@ -20,7 +20,7 @@ For easily detecting and managing product shortages in our app, we will add a qu
   
 <a name="loio85ec3a9454ac4eb1a901745e773844d3__fig_nmv_yrs_c5"/>A quick filter allows filtering the product table
 
- ![](loio395f8acac5fd4fbc9a1c52c615fa07d3_HiRes.png "A quick filter allows filtering the product table") 
+ ![](images/loio395f8acac5fd4fbc9a1c52c615fa07d3_HiRes.png "A quick filter allows filtering the product table") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 4](h
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="myCompany.myApp.controller.Worklist"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -119,7 +119,7 @@ We now update the view and add the new UI for the quick filter to the content ag
 
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
-``` js
+```js
 		...
 		onInit : function () {
 			var oViewModel,
@@ -175,7 +175,7 @@ Creating a simple filter requires a binding path as first parameter of the filte
 
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
-``` js
+```js
 		...
 		onUpdateFinished : function (oEvent) {
 			// update the worklist's object counter after the table update
@@ -235,7 +235,7 @@ In the `success` handler of each `read` operation we update the corresponding pr
 
 #### webapp/controller/Worklist.controller.js \[MODIFY\]
 
-``` js
+```js
 		...
 		_applySearch: function(aTableSearchState) {
 			var oTable = this.byId("table"),
@@ -272,7 +272,7 @@ The filters are always applied as an array on the binding level, so you don't ne
 
 #### webapp/i18n/i18n.properties \[MODIFY\]
 
-``` prefs
+```ini
 
 ...
 

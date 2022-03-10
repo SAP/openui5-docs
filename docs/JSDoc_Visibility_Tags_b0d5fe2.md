@@ -86,14 +86,14 @@ Indicates that the API, such as a class or method, is generally available for ap
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -128,14 +128,14 @@ Indicates that usage of the API is restricted. It is not meant to be used by app
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -175,14 +175,14 @@ Indicates that the API is not meant for use outside of OpenUI5 framework develop
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -224,14 +224,14 @@ Indicates that the API is only meant for certain stakeholders within OpenUI5 fra
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)<sup>1,2</sup> 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)<sup>1,2</sup> 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -276,14 +276,14 @@ Deprecated, replaced by `@ui5-restricted`
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 

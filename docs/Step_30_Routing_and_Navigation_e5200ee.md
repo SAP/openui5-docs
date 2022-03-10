@@ -22,7 +22,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
   
 <a name="loioe5200ee755f344c8aef8efcbab3308fb__fig_r1j_pst_mr"/>A second page is added to display the invoice
 
- ![](loioa1d85cc6f6b4452cac5382afd0a29699_HiRes.png "A second page is added to display the invoice") 
+ ![](images/loioa1d85cc6f6b4452cac5382afd0a29699_HiRes.png "A second page is added to display the invoice") 
 
 ***
 
@@ -30,7 +30,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
 You can view and download all files at [Walkthrough - Step 30](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.30/preview).
 
-``` js
+```js
 {
   "_version": "1.12.0",
   …
@@ -94,7 +94,7 @@ We add a new “routing" section to the `sap.ui5` part of the descriptor. There 
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/model/json/JSONModel"
@@ -138,7 +138,7 @@ Initializing the router will evaluate the current URL and load the corresponding
 
 ### webapp/view/Overview.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.App"
 		xmlns="sap.m"
@@ -163,7 +163,7 @@ We move the content of the previous steps from the `App` view to a new `Overview
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.App"
 		xmlns="sap.m"
@@ -181,7 +181,7 @@ Our `App` view is now only containing the empty app tag. The router will automat
 
 ### webapp/view/Detail.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -199,7 +199,7 @@ Now we add a second view for the detail view. It only contains a page and an `Ob
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 …
 # Invoice List
 invoiceListTitle=Invoices
@@ -217,7 +217,7 @@ We add a new string to the resource bundle for the detail page title.
 
 ### webapp/view/InvoiceList.view.xml
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 		xmlns="sap.m"
@@ -257,7 +257,7 @@ In the invoice list view we add a press event to the list item and set the item 
 
 ### webapp/controller/InvoiceList.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",

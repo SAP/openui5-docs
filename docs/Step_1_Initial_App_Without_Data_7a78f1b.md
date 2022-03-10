@@ -26,7 +26,7 @@ Usually you start the development of an app with local mock data first. This way
   
 <a name="loio7a78f1b707c248fd9ec53dcb5f10814c__fig_wg3_bdq_st"/>The initial app
 
- ![](loio3a29b22e092e4bf8a549fa2931758673_HiRes.png "The initial app") 
+ ![](images/loio3a29b22e092e4bf8a549fa2931758673_HiRes.png "The initial app") 
 
 ***
 
@@ -42,7 +42,7 @@ You should have the same files as displayed in the following figure:
   
 <a name="loio7a78f1b707c248fd9ec53dcb5f10814c__fig_gsc_mld_tt"/>Folder structure with downloaded files
 
- ![](loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files") 
+ ![](images/loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files") 
 
 **Parent topic:** [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 

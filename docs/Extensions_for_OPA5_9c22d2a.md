@@ -47,7 +47,7 @@ For more information, see the *API Reference*: [ `Opa5.extendConfig()`](https://
 
 Custom extension class:
 
-``` js
+```js
 sap.ui.define([
   'sap/ui/test/OpaExtension'
 ], function(OpaExtension) {
@@ -95,7 +95,7 @@ sap.ui.define([
 
 Activate this extension and provide some URI parameters to the application:
 
-``` js
+```js
 Opa5.extendConfig({
   extensions: ["sap/ui/test/sample/CustomOpaExtension"],
   appParams: {
@@ -106,7 +106,7 @@ Opa5.extendConfig({
 
 Call the custom extension from the test:
 
-``` js
+```js
 Opa5.createPageObjects({
   onMyView : {
     viewName : "MyView",

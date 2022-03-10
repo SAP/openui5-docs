@@ -21,7 +21,7 @@ The cache buster mechanism allows to always put the OpenUI5 resources into the b
 
 The cache buster mechanism is part of the resource servlet. In general, requests to JavaScript resources can be handled via the cache buster mechanism. Typically this is used for the initial request for the bootstrap JavaScript:
 
-``` html
+```html
   <script type="text/javascript" 
   	id="sap-ui-bootstrap"
   	src="resources/sap-ui-cachebuster/sap-ui-core.js"
@@ -39,7 +39,7 @@ The bootstrap JavaScript will be included via the URL `resources/sap-ui-cachebus
 
 The basic mechanism is implemented in the `ResourceServlet`. For the request to the bootstrap JavaScript it now serves a JavaScript file with the following content:
 
-``` js
+```js
 (function() {
   var sTimeStamp = '~20120716-0201~';
   var sScriptPath = 'sap\x2dui\x2dcore.js';

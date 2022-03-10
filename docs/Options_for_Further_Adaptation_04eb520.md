@@ -58,7 +58,7 @@ To read more detailed documentation about margins and padding classes, see [Usin
 
 It is easy to add your own device-dependent or screen-size-dependent custom CSS by prefixing your selectors with the classes that come from the device API \(for more information about the device API, see the link below under *Related Information*\). Whenever you need to set a particular style on, say, a small screen like a phone only, you can do so by picking the `sapUiMedia-Std-Phone` CSS class as part of your selector. For example, a particular style for phone only could look like this:
 
-``` js
+```js
 
 .sapUiMedia-Std-Phone .yourSelector{
 	Style-applied-to-phone-only: someValue;
@@ -76,7 +76,7 @@ Additionally, the information regarding which device you are currently on is ava
 
 This means you can provide style for the phone use case using CSS cascades as follows:
 
-``` js
+```js
 
 .sap-phone .myControl {
       font-size: small;

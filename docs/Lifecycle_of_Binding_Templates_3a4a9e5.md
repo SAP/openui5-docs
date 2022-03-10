@@ -14,7 +14,7 @@ The lifecycle of the binding templates differs from the lifecycle of controls th
 
 In **XML views**, you can also use the `templateShareable` property by adding it to the binding info as follows:
 
-``` xml
+```xml
 <Table id="EmployeeEquipments" headerText="Employee Equipments" items="{
     path: 'EMPLOYEE_2_EQUIPMENTS',
     templateShareable: false

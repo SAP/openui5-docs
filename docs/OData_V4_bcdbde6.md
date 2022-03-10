@@ -22,7 +22,7 @@ We start with an initial app that simply retrieves data from an OData V4 service
 
 ### Preview
 
- ![](loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png) 
+ ![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png) 
 
 ***
 

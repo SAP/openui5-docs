@@ -25,7 +25,7 @@ With the introduction of touch-enabled devices, touch is becoming part of the ex
 
 The following figure shows how this is implemented:
 
- ![](loio56d796e4026f463ab92c1ec10818f339_LowRes.png) 
+ ![](images/loio56d796e4026f463ab92c1ec10818f339_LowRes.png) 
 
 A desktop control is defined as a control that listens to mouse events, whereas a mobile control listens to touch events. To ensure that all events can be received, touch simulation events are created for mouse events, and mouse simulation events for touch events, respectively. So the UI Area, which acts as an event delegate, receives the correct events. In detail:
 

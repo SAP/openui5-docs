@@ -33,7 +33,7 @@ Since 1.93, the `loadFragment()` function is available on every controller insta
 -   Addition to the `dependents` aggregation: By default, the fragment content is added to the `dependents` aggregation of the view. This offers two major advantages: First, all models and element bindings which are available on the view instance are also available automatically on the fragment content. Second, if the view is destroyed, the fragment content is destroyed also. This option can be disabled by passing `false` to the `addToDependents` parameter. In this case, the application developer has to ensure that the fragment content is destroyed when the view is destroyed. If not, duplicate ID issues might occur.
 
 
-``` js
+```js
 this.loadFragment({
     name: "myapp.fragments.MyFragment"
 });
@@ -61,7 +61,7 @@ The different methods used for the instantiation of a fragment have the followin
 > ### Note:  
 > When using the generic function `sap.ui.core.Fragment.load()` the application developer has to take care to add fragment content only to non-destroyed content:
 > 
-> ``` js
+> ```js
 > Fragment.load({
 >     name: "myapp.fragments.MyFragment"
 >  }).then(function(oContent){

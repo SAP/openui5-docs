@@ -134,7 +134,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
     
 2.  Sure, we have more properties to make it responsive and to change the design of a column, but we will explain this later. Now, let's see how we can define a right aligned column header:
 
-    ``` js
+    ```js
     
     <Table>
         <columns>
@@ -153,7 +153,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 3.  To build a Table, you have to define table rows. For this purpose you use `ColumnListItems`. `ColumnListItems` have a cell aggregation \(one to many\) which defines cells in one row according to the column definition. Let's build a real table example to understand it better. Here is the implementation:
 
-    ``` js
+    ```js
     
     <Table>
         <columns>
@@ -187,7 +187,7 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
     And that is what we have built:
 
-     ![](loioe654c84fa33a4f058e8f84b2ed5d578f_LowRes.png)
+     ![](images/loioe654c84fa33a4f058e8f84b2ed5d578f_LowRes.png)
 
     The `mergeFunctionName` property holds the function that the column merge functionality uses to pull the property value to compare for duplicates. The default of `getText` can be used for the most common use cases, where an `sap.m.Label` or `sap.m.Text` control is used, but if you have another control with a different function to pull the comparison property value from, you can specify it as the `mergeFunctionName`. For example, the `sap.m.Icon` control has a `getSrc` getter function that returns the `src` property value - the icon's URI, which is a good candidate for comparison.
 

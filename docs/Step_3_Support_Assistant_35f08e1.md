@@ -18,7 +18,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 ### Preview
 
- ![](loiof3f8bdbb49eb46eda7568ebf30eb7d41_LowRes.png) 
+ ![](images/loiof3f8bdbb49eb46eda7568ebf30eb7d41_LowRes.png) 
 
 ***
 

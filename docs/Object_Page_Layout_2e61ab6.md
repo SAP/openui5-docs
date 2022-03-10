@@ -24,7 +24,7 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
   
 <a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>`ObjectPageLayout` Main Structure
 
- ![](loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure") 
+ ![](images/loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure") 
 
 ***
 
@@ -42,7 +42,7 @@ Here is how the header title and header content are defined in both views:
 
 XML view:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout">
 
 	 <headerTitle>
@@ -64,7 +64,7 @@ XML view:
 
 JavaScript view:
 
-``` js
+```js
 // Create a header title, set the objectTitle property and add some action buttons
 var oHeaderTitle = new sap.uxap.ObjectPageHeader();
 oHeaderTitle.setObjectTitle("John Smith");
@@ -89,7 +89,7 @@ The content of the page that appears below the header is composed of blocks stru
   
 <a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>Blocks Structured into Sections and Subsections
 
- ![](loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections") 
+ ![](images/loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections") 
 
 The blocks hold the actual app content, while the purpose of the sections and subsections is to define grouping.
 
@@ -101,7 +101,7 @@ Here are some examples of how sections are initialized in both views:
 
 XML view:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout" >
         <sections>
             <ObjectPageSection title="Payroll" >
@@ -121,7 +121,7 @@ XML view:
 
 JavaScript view:
 
-``` js
+```js
 var oSubSection1 = new sap.uxap.ObjectPageSubSection({title:"sub payroll title"});
     var oSection1 = new sap.uxap.ObjectPageSection({title:"Payroll"});
     oSection1.addSubSection(oSubSection1);
@@ -140,7 +140,7 @@ The `subSectionLayout` property provides information on how all the underlying s
   
 <a name="loio2e61ab6c68a2480eb666c1927a707658__fig_c2l_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top
 
- ![](loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+ ![](images/loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on Top") 
 
 Additionally, a second layout named `titleOnLeft` arranges the blocks content from the second column, leaving the first one for section and subsection titles only.
@@ -149,12 +149,12 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
   
 <a name="loio2e61ab6c68a2480eb666c1927a707658__fig_s45_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left
 
- ![](loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
+ ![](images/loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on the Left") 
 
 Here is how this property is set in the XML view:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout" subSectionLayout="titleOnTop">
         <sections>
             <ObjectPageSection title="Payroll" >
@@ -174,7 +174,7 @@ Here is how this property is set in the XML view:
 
 The `moreBlocks` aggregation of `sap.uxap.ObjectPageSubSection` allows you to specify blocks to be displayed only after the user clicks the internally created *See more* button:
 
- ![](loio74c97287cab245018b4ad7dc364108ee_HiRes.png) 
+ ![](images/loio74c97287cab245018b4ad7dc364108ee_HiRes.png) 
 
 The *See more* button is only displayed for subsections that contain one of the following:
 
@@ -212,7 +212,7 @@ The lazy loading mechanism allows you to load data only when the subsection bloc
 
 Lazy loading is disabled by default. To enable it, set the `enableLazyLoading` property to `true`:
 
-``` js
+```js
 <ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true">
 ```
 
@@ -226,7 +226,7 @@ Setting up lazy loading with `BlockBase`:
 
 3.  Extend `sap.uxap.BlockBase`:
 
-    ``` js
+    ```js
     **sap.uxap.BlockBase.extend**("<BlockName>", {
             metadata: {
              }
@@ -235,7 +235,7 @@ Setting up lazy loading with `BlockBase`:
 
 4.  For each mode, declare its associated view:
 
-    ``` js
+    ```js
     sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
                 views: {
@@ -262,7 +262,7 @@ Setting up stashed-based lazy loading:
 
 3.  The `stashed` property of `ObjectpageLazyLoader` must be set to `true`:
 
-    ``` js
+    ```js
     <ObjectPageLazyLoader stashed=”true” id=”SectionStashed”>
     ```
 

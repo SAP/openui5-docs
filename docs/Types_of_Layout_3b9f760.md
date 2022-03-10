@@ -52,7 +52,7 @@ Use to show the first logical information level \(master page\) only.
 </td>
 <td valign="top">
 
- ![](loiod7914916d4674c3481d67658eae465a1_LowRes.png) 
+ ![](images/loiod7914916d4674c3481d67658eae465a1_LowRes.png) 
 
 
 
@@ -70,7 +70,7 @@ Use this layout type to display two logical levels of information \(master and d
 </td>
 <td valign="top">
 
- ![](loio9a603876f70a47aeabf08c030a5e9daa_LowRes.png) 
+ ![](images/loio9a603876f70a47aeabf08c030a5e9daa_LowRes.png) 
 
 
 
@@ -88,7 +88,7 @@ Similar to `TwoColumnsBeginExpanded`, but this time the `Mid` column is the wide
 </td>
 <td valign="top">
 
- ![](loioc0d69368378f4d0dac00d62801fd64e5_LowRes.png) 
+ ![](images/loioc0d69368378f4d0dac00d62801fd64e5_LowRes.png) 
 
 
 
@@ -109,7 +109,7 @@ Use this layout to display the second logical level of information \(detail page
 </td>
 <td valign="top">
 
- ![](loioa01d72d41f014168b9438d12e650f4ad_LowRes.png) 
+ ![](images/loioa01d72d41f014168b9438d12e650f4ad_LowRes.png) 
 
 
 
@@ -127,7 +127,7 @@ Use this layout to display up to three logical levels of information side by sid
 </td>
 <td valign="top">
 
- ![](loiod1f89e8ad3f9409aa14e8e98a07f8bb4_LowRes.png) 
+ ![](images/loiod1f89e8ad3f9409aa14e8e98a07f8bb4_LowRes.png) 
 
 
 
@@ -145,7 +145,7 @@ Similar to `ThreeColumnsMidExpanded`, but this time the `End` column is expanded
 </td>
 <td valign="top">
 
- ![](loio2cef71c4c5e64dea975c6b44196d2ca7_LowRes.png) 
+ ![](images/loio2cef71c4c5e64dea975c6b44196d2ca7_LowRes.png) 
 
 
 
@@ -163,7 +163,7 @@ Use this layout to show the `Begin` and `Mid` columns only \(`Mid` being expande
 </td>
 <td valign="top">
 
- ![](loio21a31d26b82d4c8ea2d17fe28a792026_LowRes.png) 
+ ![](images/loio21a31d26b82d4c8ea2d17fe28a792026_LowRes.png) 
 
 
 
@@ -181,7 +181,7 @@ Similar to `ThreeColumnsMidExpandedEndHidden`, but this time the `Begin` column 
 </td>
 <td valign="top">
 
- ![](loioe98b27beff5145b79cd3a7a7392f9167_LowRes.png) 
+ ![](images/loioe98b27beff5145b79cd3a7a7392f9167_LowRes.png) 
 
 
 
@@ -202,7 +202,7 @@ Use this layout to display the third logical level of information \(detail-detai
 </td>
 <td valign="top">
 
- ![](loio1129d11a2aa3466c937db16d8e9c149a_LowRes.png) 
+ ![](images/loio1129d11a2aa3466c937db16d8e9c149a_LowRes.png) 
 
 
 

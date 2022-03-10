@@ -19,7 +19,7 @@ Most error messages are sufficient to figure out what has gone wrong, for exampl
 > 
 > Check the bootstrap in the HTML file:
 > 
-> ``` html
+> ```html
 > <!DOCTYPE html>
 > <html>
 >   <head>

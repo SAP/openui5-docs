@@ -22,7 +22,7 @@ In this step, we add features to filter, sort, and count the user data by using 
   
 <a name="loio426ff318051a465191c861b51a74f00e__fig_bfg_dqb_mcb"/>App now has a search field, the entries can be sorted, and you can see how many entities are loaded and how many more are available
 
- ![](loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "App now has a search field, the entries can be sorted, and you can see how many entities
+ ![](images/loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "App now has a search field, the entries can be sorted, and you can see how many entities
 					are loaded and how many more are available") 
 
 ***
@@ -39,7 +39,7 @@ You can view and download all files at [OData V4 - Step 4](https://openui5.hana.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
@@ -121,7 +121,7 @@ We add the `order` property to variable `oJSONData` in `onInit` method. This pro
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.core.tutorial.odatav4.controller.App"
 	displayBlock="true"

@@ -14,7 +14,7 @@ Data that is presented on the UI often has to be converted so that is human read
 
 ***
 
-![](loio40f0541313154bb0b5de72e2bd1c9207_LowRes.png)
+![](images/loio40f0541313154bb0b5de72e2bd1c9207_LowRes.png)
 
 -   [Views](Views_91f27e3.md)
 -   [Models](Models_e1b6259.md)
@@ -41,7 +41,7 @@ If an error occurs during formatting or parsing, the following exception occurs:
 
 A simple formatter can be defined directly in the controller. For example, you can format name data with the first letter in upper case:
 
-``` js
+```js
 myFormatter: function(sName) {
     return sName.charAt(0).toUpperCase() + sName.slice(1);
 }
@@ -52,7 +52,7 @@ myFormatter: function(sName) {
 
 When the formatter is defined in the controller, you can use it, for example, in an XML view:
 
-``` xml
+```xml
 <Text text="{
     path : 'person/name',
     formatter : '.myFormatter'
@@ -86,7 +86,7 @@ For simple data types, you can generate the following parameters in the construc
 -    `constraints`: Constraints are optional and define how an input value entered in the UI should look like. During parsing the value is validated against these constraints. For example, an `Integer` type has a constraint for `maximum` that is automatically validated when parsing the input values.
 
 
-``` xml
+```xml
 <mvc:View 
    xmlns:core="sap.ui.core" 
    xmlns:mvc="sap.ui.core.mvc" 

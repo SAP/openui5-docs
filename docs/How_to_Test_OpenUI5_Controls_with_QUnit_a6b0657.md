@@ -47,7 +47,7 @@ Internally, we use three templates for testing. The one shown below is the gener
 
 Use the following pattern to structure your tests. If everyone sticks to this same pattern, you will be able to read your colleagues' tests very quickly:
 
-``` js
+```js
 
 QUnit.test("Should do Something", function (assert) { 
     // Arrange
@@ -142,7 +142,7 @@ The call to this function synchronizes the changes of your control with the DOM.
 
 You can use the following template to make sure that you don't forget to destroy your control:
 
-``` js
+```js
 QUnit.test("Should do Something", function(assert) {
     // Arrange
         var oContructor = {

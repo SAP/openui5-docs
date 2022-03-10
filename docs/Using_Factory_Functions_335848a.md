@@ -14,7 +14,7 @@ The factory function is a more powerful approach for creating controls from mode
 
 The factory function comes with the parameters `sId`, which should be used as an ID for the new control, and `oContext`, which is for accessing the model data of the entry. The returned object must be of type `sap.ui.core.Element`. Here’s how this scenario can be realized in an XML view and a controller using our JSON model data from [List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md):
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -29,7 +29,7 @@ The factory function comes with the parameters `sId`, which should be used as an
 
 Please note the `'.'` in `factory: '.createContent'`. The class `App.controller.js` contains the implementation of our factory method:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
@@ -77,7 +77,7 @@ sap.ui.define([
 
 If you would like to avoid using the XML view, you would proceed as follows:
 
-``` js
+```js
 oVerticalLayout.bindAggregation("content", "/companies", function (sId, oContext) {
 	var oRevenue = oContext.getProperty("revenue");
 	switch(typeof oRevenue) {

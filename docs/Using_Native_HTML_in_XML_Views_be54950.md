@@ -32,7 +32,7 @@ When mixing XHTML and OpenUI5 controls, observe the following rules:
 
 1.  To mix OpenUI5 controls with native XHTML, you only need the XHTML namespace to use \(X\)HTML:
 
-    ``` xml
+    ```xml
     <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
                xmlns:html="http://www.w3.org/1999/xhtml">
        <Panel>

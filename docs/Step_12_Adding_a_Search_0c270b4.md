@@ -20,7 +20,7 @@ We now add a search field to our bulletin board and define a filter that represe
   
 <a name="loio0c270b45dd904429ba634656e3a37a73__fig_k3l_yjj_sx"/>Search field
 
- ![](loiob012fdf751b947f08cf77cf124334c9f_LowRes.png "Search field") 
+ ![](images/loiob012fdf751b947f08cf77cf124334c9f_LowRes.png "Search field") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/view/Worklist.view.xml
 
-``` xml
+```xml
 ...
          <Table
                id="table"
@@ -64,7 +64,7 @@ We add a `ToolbarSpacer` and a `SearchField` to the `headerToolbar` of our table
 
 ### webapp/controller/Worklist.controller.js
 
-``` js
+```js
 sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',

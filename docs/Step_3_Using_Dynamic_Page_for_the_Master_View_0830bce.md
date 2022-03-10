@@ -22,7 +22,7 @@ In this step, we create the master view of the app using `sap.f.DynamicPage` con
   
 <a name="loio0830bce271bf42d98c2740bed43d435d__fig_r1j_pst_mr"/>Master page with `sap.f.DynamicPage`
 
- ![](loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "Master page with sap.f.DynamicPage") 
+ ![](images/loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "Master page with sap.f.DynamicPage") 
 
 ***
 
@@ -36,7 +36,7 @@ webapp/manifest.json \[MODIFY\]
 
 ***
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -76,7 +76,7 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 
 ### webapp/index.html \[MODIFY\]
 
-``` html
+```html
 	...
 	<script id="sap-ui-bootstrap"
 		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
@@ -101,7 +101,7 @@ We add the link to the mock data that is used in the app.
 
 ### webapp/Component.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/core/UIComponent',
 	'sap/ui/model/json/JSONModel'
@@ -136,7 +136,7 @@ We create the `init` method in the `Component.js` to set the model.
 
 ### webapp/view/Master.view.xml \[NEW\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.Master"
 	xmlns="sap.m"
@@ -221,7 +221,7 @@ We create the master view using `sap.f.DynamicPage`. The page consists of a list
 
 ### webapp/view/App.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	displayBlock="true"
 	height="100%"
@@ -243,7 +243,7 @@ We add the master view in `FlexibleColumnLayout's` `beginColumnPages` aggregatio
 
 ### webapp/controller/Master.controller.js \[NEW\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",

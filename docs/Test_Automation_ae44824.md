@@ -45,7 +45,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     Use the following command:
 
-    ```nocode
+    ```
     npm install --global karma-cli
     ```
 
@@ -55,7 +55,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     -   If not, use the following command:
 
-        ```nocode
+        ```
         npm init --yes
         ```
 
@@ -64,7 +64,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     Use the following command:
 
-    ```nocode
+    ```
     npm install --save-dev karma
     ```
 
@@ -72,7 +72,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     Use the following command:
 
-    ```nocode
+    ```
     npm install --save-dev karma-ui5
     ```
 
@@ -80,7 +80,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
     Use the following command:
 
-    ```nocode
+    ```
     npm install --save-dev karma-chrome-launcher
     ```
 
@@ -88,7 +88,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
 6.  Create a `karma.conf.js` file in your working directory with the following content:
 
-    ``` js
+    ```js
     module.exports = function(config) {
       config.set({
     
@@ -111,7 +111,7 @@ You have installed the *current* or *LTS* version of *Node.js* from [https://nod
 
 7.  You can now run the tests with the following command:
 
-    ```nocode
+    ```
     karma start
     ```
 
@@ -148,7 +148,7 @@ You can use Headless Chrome standalone, but also with Karma. To launch Karma wit
 
 2.  Define the browser environment for running karma. For this, update the `config` object in `karma.conf.js` as follows:
 
-    ``` js
+    ```js
     module.exports = function(config) {
       config.set({
         [...]
@@ -165,7 +165,7 @@ You can use Headless Chrome standalone, but also with Karma. To launch Karma wit
 
 You can launch karma also with a specific config file. It might make sense, for example, to define a config file \(default: `karma.conf.js`\) for the local environment, and one config file, for example `karma-ci.conf.js` for the CI scenario. To launch karma with a different config file, add the file name as third parameter as follows:
 
-``` js
+```js
 karma start karma-ci.conf.js
 ```
 

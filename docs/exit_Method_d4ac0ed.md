@@ -19,7 +19,7 @@ If the `exit()` method is implemented, OpenUI5 core invokes the method for each 
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
 > 
-> ``` js
+> ```js
 > 
 > SomeControl.extend("my.OwnControl", {
 >        ...

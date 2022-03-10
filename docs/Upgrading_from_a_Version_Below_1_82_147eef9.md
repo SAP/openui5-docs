@@ -99,7 +99,7 @@ removed
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -131,7 +131,7 @@ throws an error
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -163,7 +163,7 @@ when a jQuery object is created from a node \(like in our `oControl.$()` call\),
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -195,7 +195,7 @@ removed
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -227,7 +227,7 @@ returns float
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -259,7 +259,7 @@ returns `undefined` \(cast to `NaN`\)
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -289,7 +289,7 @@ removed
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -319,7 +319,7 @@ Function `A` is called after the current call stack is finished
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -351,7 +351,7 @@ Function `A` is called after the current call stack is finished
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 

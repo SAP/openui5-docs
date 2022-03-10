@@ -18,7 +18,7 @@ When creating an OData V4 model instance, the only parameter you actually need i
 
 **OData V4 model instantiation:**
 
-``` js
+```js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -39,7 +39,7 @@ An OData service accepts query options placed in the service URL query part, as 
 
 **OData V4 model instantiation with service URL parameters:**
 
-``` js
+```js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -61,7 +61,7 @@ The following code instantiates a model that bundles all update requests in the 
 
 **OData V4 model with `updateGroupId`:**
 
-``` js
+```js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
@@ -78,7 +78,7 @@ sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
 
 The code sample below shows the parts of a [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) \(`manifest.json`\) that are relevant for instantiating an OData V4 model:
 
-``` js
+```js
 
 {
     "sap.app" : {
@@ -128,7 +128,7 @@ You can set headers for HTTP requests sent by the OData V4 model: This is possib
 
 Sample: Set HTTP header `custom` in manifest.json:
 
-``` js
+```js
 {
     "sap.app" : {
         "dataSources" : {

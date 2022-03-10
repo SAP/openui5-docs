@@ -81,21 +81,21 @@ Component card
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -111,21 +111,21 @@ Component card
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -141,21 +141,21 @@ Component card
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -171,21 +171,21 @@ Component card
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>2</sup> 
 
 
 
@@ -201,21 +201,21 @@ Component card
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -231,21 +231,21 @@ Component card
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -268,7 +268,7 @@ The `sap.ui.integration.widgets.Card` is a self-contained user interface element
 -   The header area indicates what the card is about and can function as a navigation area for opening the underlying source. It also serves as a counter showing the number of items on the card in relation to the total number of relevant items \(in case multiple items are shown in the content area\). It can have a title, a subtitle, an icon, and a status indicator. If the header is of type `Numeric`, it may have different attributes, describing a KPI.
 -   The content area represents data from the underlying source. It uses the interaction and visualization from the embedded controls. It depends on the card type.
 
- ![](loio3ff4cbace0714a71924a628d8c81d480_LowRes.png) 
+ ![](images/loio3ff4cbace0714a71924a628d8c81d480_LowRes.png) 
 
 ***
 
@@ -445,7 +445,7 @@ In contrast to the self-contained and manifest-driven Integration Card \(`sap.ui
 
 The `sap.f.Card` consists of three elements: a container with background color and rounded corners, a header, and content.
 
- ![](loiob1ff765e1db44ae38f583bc228e14432_HiRes.png) 
+ ![](images/loiob1ff765e1db44ae38f583bc228e14432_HiRes.png) 
 
 The header is predefined and can be an instance of either `sap.f.cards.Header` or `sap.f.cards.NumericHeader`. The content area can be built with a desired combination of the standard OpenUI5 controls.
 
@@ -457,7 +457,7 @@ Considering the general purpose of the cards \(to represent most important asset
 
 Example:
 
-``` xml
+```xml
 <f:Card
 	class="sapUiMediumMargin"
 	width="300px">

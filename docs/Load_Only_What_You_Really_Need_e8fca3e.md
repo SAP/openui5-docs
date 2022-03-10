@@ -20,7 +20,7 @@ The amount of resources and data that your app loads will directly affect the pe
 
 Always define the libraries you use in the manifest and remove all libraries that you do not intend to use in your code. If you have no manifest, you have to specify the used libraries in the OpenUI5 bootstrap. If you specify the used libraries in either place, they are loaded optimized. This means that all used controls, styles, etc. are not requested separately. For every mentioned library, the library preload file, the library styles, and the text translations are loaded once during the application startup. No further requests are necessary while using the application, because all needed artefacts are already included in the respective library preload file.
 
-``` json
+```json
 "sap.ui5": {
 	"dependencies": {
 		"minUI5Version": "1.60.0",
@@ -47,7 +47,7 @@ In the JavaScript files of your app, define all dependencies to OpenUI5 framewor
 
 The UI5 Tooling can then create a "cleaned-up" version of your app that only contains the resources you really need. The so-called application preload will greatly speed up the initial load time of your app.
 
-``` json
+```json
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",

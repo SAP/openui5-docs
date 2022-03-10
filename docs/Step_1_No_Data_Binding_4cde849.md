@@ -20,7 +20,7 @@ In this step, we simply place some text on the screen using a standard `sap.m.Te
   
 <a name="loio4cde849dc18949b69bbe152a0aaa19c6__fig_r1j_pst_mr"/>Screen with text
 
- ![](loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text") 
+ ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 1](h
 
 ### webapp/index.html \(New\)
 
-``` html
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -63,7 +63,7 @@ Create a new folder `webapp` which will contain all sources of the app that we w
 
 ### webapp/index.js \(New\)
 
-``` js
+```js
 sap.ui.require([
 	"sap/m/Text"
 ], function (Text) {

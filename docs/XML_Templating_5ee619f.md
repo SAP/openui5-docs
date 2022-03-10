@@ -55,7 +55,7 @@ In the example, `sPath = "/ProductSet('HT-1021')/ToSupplier"` and the correspond
 
 ### Calling the XML Preprocessor
 
-``` js
+```js
 1   View.create({
 2      models : oModel,
 3      preprocessors : {
@@ -131,13 +131,13 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
     1.  change the `annotationURI` as follows:
 
-        ``` js
+        ```js
         annotationURI: "annotations.xml",
         ```
 
     2.  ensure that the given product exists in the `ProductSet` of the ES5 Gateway Demo System; otherwise, change it to a product contained in the `ProductSet` from the service, for example:
 
-        ``` js
+        ```js
         sPath = "/ProductSet('DE-PPM-102')/ToSupplier",
         ```
 
@@ -147,7 +147,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
  **Component.js** 
 
-``` js
+```js
 1   /*!
 2    * OpenUI5
 3    * (c) Copyright 2009-2021 SAP SE or an SAP affiliate company.
@@ -230,7 +230,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
  **Template.view.xml** 
 
-``` xml
+```xml
 1   <mvc:View
 2       xmlns="sap.m"
 3       xmlns:core="sap.ui.core"
@@ -266,7 +266,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
  **Field.fragment.xml** 
 
-``` xml
+```xml
 1   <core:FragmentDefinition
 2       xmlns="sap.m"
 3       xmlns:core="sap.ui.core"
@@ -289,7 +289,7 @@ The result is equivalent to the following handwritten XML view. Any references t
 
  **Resulting XML View** 
 
-``` xml
+```xml
 <mvc:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc">
   <form:SimpleForm>
     <form:title>

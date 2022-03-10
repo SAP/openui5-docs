@@ -29,7 +29,7 @@ To enable proper translation, you classify the texts with additional information
 
 A `properties` file can, for example, look like this
 
-``` prefs
+```ini
 # SAPUI5 TRANSLATION-KEY <GUID>
 #XMSG: A message to greet the world
 helloWorld=Hello World
@@ -43,7 +43,7 @@ welcome=Welcome {0}
 > ### Note:  
 > To consume a properties files using a resource bundle, you can use the following snippet:
 > 
-> ``` js
+> ```js
 > // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 > // load the resource bundle
 > ResourceBundle.create({
@@ -62,7 +62,7 @@ welcome=Welcome {0}
 > 
 > To load this bundle, you add the following code to the `createContent` function of your view:
 > 
-> ``` js
+> ```js
 > // "ResourceBundle" required from module "sap/base/i18n/ResourceBundle"
 > // load the resource bundle
 > ResourceBundle.create({

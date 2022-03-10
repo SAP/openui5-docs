@@ -20,7 +20,7 @@ We only want to display the upcoming meetings and hide the meetings happened in 
   
 <a name="loio95e5b87804ef4059bb68dd511666d4e3__fig_zrh_5mq_st"/>Only the upcoming meet-ups are shown
 
- ![](loio8f2176b473a54bbd87e8287732e4eb8e_HiRes.png "Only the upcoming meet-ups are shown") 
+ ![](images/loio8f2176b473a54bbd87e8287732e4eb8e_HiRes.png "Only the upcoming meet-ups are shown") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 4](ht
 
 ### webapp/localService/metadata.xml
 
-``` xml
+```xml
 ... 
       <EntityContainer Name="NerdMeetups" m:IsDefaultEntityContainer="true">
         <EntitySet Name="Meetups" EntityType="NerdMeetup.Models.Meetup" />
@@ -49,7 +49,7 @@ The function import we are going to use is declared in the `metadata.xml` file.
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
   //Delete items="{/Meetups}"
 	<List id="list" items="{/FindUpcomingMeetups}" noDataText="{i18n>noDataText}"> 
@@ -64,7 +64,7 @@ After saving and running the app again, we should get the following result:
   
 <a name="loio95e5b87804ef4059bb68dd511666d4e3__fig_mm2_tnq_st"/>No data visible
 
- ![](loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible") 
+ ![](images/loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible") 
 
 Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
 
@@ -77,7 +77,7 @@ In order to simulate the function import call, we write our own \(mocked\) imple
 
 ### webapp/localService/mockserver.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/thirdparty/jquery",
 
@@ -176,7 +176,7 @@ When you now start the app again you will see a list of upcoming meet-ups.
 
 #### webapp/localService/mockserver.js
 
-``` js
+```js
 ...
 oMockServer.simulate("localService/metadata.xml", {
 	sMockdataBaseUrl : "localService/mockdata",
@@ -197,7 +197,7 @@ The path we gave in the simulate function for mock data is where we want to stor
       
     <a name="loio95e5b87804ef4059bb68dd511666d4e3__fig_l2f_bqd_tt"/>Editing mock data in SAP Web IDE
 
-     ![](loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE") 
+     ![](images/loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE") 
 
 
 **Parent topic:** [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")

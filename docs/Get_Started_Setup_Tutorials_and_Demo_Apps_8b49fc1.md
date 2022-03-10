@@ -31,7 +31,7 @@ Set up your development environment and go through our tutorials. They introduce
 
 ### Learning Path
 
-![](loio024b7d89525741ae98661d3b7caf319d_LowRes.png)
+![](images/loio024b7d89525741ae98661d3b7caf319d_LowRes.png)
 
 -   [Quick Start](Quick_Start_592f36f.md)
 -   [Walkthrough](Walkthrough_3da5f4b.md)

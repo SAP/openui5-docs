@@ -25,7 +25,7 @@ Actually, every feature that we added to the app so far, would require a separat
   
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_r1j_pst_mr"/>A unit test for our formatters is now available
 
- ![](loioa933bc8e1b8c45a88252f1aecff7ba36_HiRes.png "A unit test for our formatters is now available") 
+ ![](images/loioa933bc8e1b8c45a88252f1aecff7ba36_HiRes.png "A unit test for our formatters is now available") 
 
 ***
 
@@ -37,7 +37,7 @@ You can view and download all files at [Walkthrough - Step 27](https://openui5.h
   
 <a name="loioe1ce1de315994a02bf162f4b3b5a9f09__fig_lbx_wcp_ns"/>Folder Structure for this Step
 
- ![](loio1b5613ac3ab94757af2c7823039222a9_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio1b5613ac3ab94757af2c7823039222a9_HiRes.png "Folder Structure for this Step") 
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
@@ -45,7 +45,7 @@ We add a new folder `unit` under the `test` folder and a `model` subfolder where
 
 ### webapp/test/unit/model/formatter.js
 
-``` js
+```js
 /*global QUnit*/
 
 sap.ui.define([
@@ -116,7 +116,7 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 
 ### webapp/test/unit/unitTests.qunit.html \(New\)
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,7 +162,7 @@ First, we load some basic QUnit functionality via script tags. Other QUnit tests
 
 ### webapp/test/unit/unitTests.qunit.js \(New\)
 
-``` js
+```js
 /* global QUnit */
 
 QUnit.config.autostart = false;

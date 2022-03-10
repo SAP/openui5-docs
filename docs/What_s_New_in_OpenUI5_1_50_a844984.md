@@ -83,7 +83,7 @@ The new Demo Kit contains the following sections:
 
 -   `sap.m.PlanningCalendarLegend`: Enables two types of items to be displayed in the `sap.m.PlanningCalendar` as a legend - types of days \(for example, special dates and holidays\) and appointments. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarLegend).
 
-     ![](loioe8f3d352f8044779a3d90e37c0e9798e_LowRes.png) 
+     ![](images/loioe8f3d352f8044779a3d90e37c0e9798e_LowRes.png) 
 
 
 ***
@@ -157,7 +157,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 
     -   `wrapping`: Determines whether text within a label is wrapped. The default value is `false`. If set to `false`, the label text only uses one line and any exceeding text is truncated and replaced with an ellipsis. When you use the `Label` within a `sap.m.Form` the label text is automatically displayed as wrapped.
 
-         ![](loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
+         ![](images/loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
 
     -    `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
 
@@ -180,7 +180,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 
 -   `sap.m.RatingIndicator`: A new state can be set using the `displayOnly` property. It enables visually distinguishable rendering of the `RatingIndicator` \(gray color\), denoting it as non-interactive in forms. All controls in this mode are also non-focusable and not part of the tab chain. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.RatingIndicator) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.RatingIndicator/preview).
 
-     ![](loioe38d0425a1d44102a6834a9efe0d95be_LowRes.png) 
+     ![](images/loioe38d0425a1d44102a6834a9efe0d95be_LowRes.png) 
 
 -   `sap.m.semantic.SemanticPage`. You can now set the background color of the page using the new `backgroundDesign` property. For more information, see [Semantic Page \(sap.m\)](Semantic_Page_sap_m_4a97a07.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.semantic.SemanticPage).
 

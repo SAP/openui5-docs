@@ -20,7 +20,7 @@ In this step we will make the search bookmarkable. This allows users to search f
   
 <a name="loioe85da535ea19430a90c381f3c2bd748e__fig_r1j_pst_mr"/>Search and sorting bookmarkable
 
- ![](loiofeb2ddddf2e347e9893512419fe11355_LowRes.png "Search and sorting bookmarkable") 
+ ![](images/loiofeb2ddddf2e347e9893512419fe11355_LowRes.png "Search and sorting bookmarkable") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -92,7 +92,7 @@ In order to make the search bookmarkable we have to think about how the pattern 
 
 ### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",

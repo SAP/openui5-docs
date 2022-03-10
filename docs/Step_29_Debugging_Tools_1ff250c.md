@@ -24,7 +24,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
   
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_r1j_pst_mr"/>The diagnostics window
 
- ![](loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window") 
+ ![](images/loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window") 
 
 ***
 
@@ -34,7 +34,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 You can view and download all files at [Walkthrough - Step 29](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.29/preview).
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 		xmlns="sap.m"
@@ -98,7 +98,7 @@ This makes debugging harder because the code is a lot less readable. You can loa
   
 <a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_vfz_xgf_yr"/>Technical information dialog
 
- ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
+ ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
 
 For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting](Troubleshooting_5661952.md) tutorial.
 

@@ -16,13 +16,13 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 
 To give an example of a programmatic instantiation of an XML fragment, you first have to define one. The following code presents an example definition:
 
-``` xml
+```xml
 <Button xmlns="sap.m" id="btnInFragment" text="Hello World" />
 ```
 
 This fragment can be instantiated from a controller as follows:
 
-``` xml
+```xml
 
 this.loadFragment({
     name: "my.useful.VerySimpleUiPart"
@@ -36,7 +36,7 @@ this.loadFragment({
 
 If XML fragments are used within XML views, the fragment ID is prefixed by default with the view ID. This will allow you to call `this.byId(…)` in the view’s controller in order to retrieve controls inside the fragment. The following code inside the controller will instantiate the above fragment with the `Button`, and then retrieve the `Button` via its ID:
 
-``` xml
+```xml
 
 this.loadFragment({
     name: "my.useful.VerySimpleUiPart"

@@ -142,7 +142,7 @@ We have introduced a new association called `ariaDescribedBy`. The association i
 
 We have redesigned the control, and now when you select the TimePicker icon, a new clock-dial interface appears instead of sliders. On desktop devices, the behavior of the input field remains unchanged; but on a mobile device - a new popover with numeric inputs and a numeric keyboard appears.
 
-![](loioe3278caff5d24f67b4d826d8b784d7c5_LowRes.png)
+![](images/loioe3278caff5d24f67b4d826d8b784d7c5_LowRes.png)
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePicker) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.TimePicker).
 

@@ -20,7 +20,7 @@ In this step, we want to allow bookmarking of the dialog box that is opened when
   
 <a name="loio5cc3147afc8d4854b5d3c5fc20923f77__fig_r1j_pst_mr"/>Bookmark for a dialog
 
- ![](loioea8f2d0be1cf4582b2d637cd6d85eb63_LowRes.png "Bookmark for a dialog") 
+ ![](images/loioea8f2d0be1cf4582b2d637cd6d85eb63_LowRes.png "Bookmark for a dialog") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### /controller/employee/overview/EmployeeOverviewContent.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",

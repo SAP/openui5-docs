@@ -20,7 +20,7 @@ If we want to do a more complex logic for formatting properties of our data mode
   
 <a name="loio0f8626ed7b7542ffaa44601828db20de__fig_r1j_pst_mr"/>A status is now displayed with a custom formatter
 
- ![](loio7e0112d9ffe54e568fa8ecc44a5af3bf_HiRes.png "A status is now displayed with a custom formatter") 
+ ![](images/loio7e0112d9ffe54e568fa8ecc44a5af3bf_HiRes.png "A status is now displayed with a custom formatter") 
 
 ***
 
@@ -28,7 +28,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 
 You can view and download all files at [Walkthrough - Step 22](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.22/preview).
 
-``` js
+```js
 sap.ui.define([], function () {
 	"use strict";
 	return {
@@ -57,7 +57,7 @@ Function `statusText` gets the technical status from the data model as input par
 
 ### webapp/controller/InvoiceList.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
@@ -82,7 +82,7 @@ To load our formatter functions, we have to add it to the `InvoiceList.controlle
 
 ### webapp/view/InvoiceList.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 	xmlns="sap.m"
@@ -122,7 +122,7 @@ We add a status using the `firstStatus` aggregation to our `ObjectListItem` that
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span

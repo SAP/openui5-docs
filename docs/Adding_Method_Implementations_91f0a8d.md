@@ -35,7 +35,7 @@ The following method names have a specific meaning and should be used accordingl
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
 > 
-> ``` js
+> ```js
 > 
 > sap.ui.somelib.SomeControl.extend("my.OwnControl", {
 >        ...

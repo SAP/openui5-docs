@@ -22,7 +22,7 @@ In this step, we add an empty detail page.
   
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__fig_r1j_pst_mr"/>Master Page with Empty Detail Page
 
- ![](loio10dec0cd47ca4a6fb9ce1caf2ba768e3_HiRes.gif "Master Page with Empty Detail Page") 
+ ![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_HiRes.gif "Master Page with Empty Detail Page") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [Flexible Column Layout App - Step 4](htt
 
 ### webapp/view/Detail.view.xml \[NEW\]
 
-``` xml
+```xml
 <mvc:View
 	xmlns:mvc="sap.ui.core.mvc">
 </mvc:View>
@@ -52,7 +52,7 @@ First, we create a blank detail page.
 
 ### webapp/view/App.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	displayBlock="true"
 	height="100%"
@@ -77,7 +77,7 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 
 ### webapp/view/Master.view.xml \[MODIFY\]
 
-``` xml
+```xml
 		...
 		<!-- DynamicPage Content -->
 					...
@@ -111,7 +111,7 @@ We add a `press` handler to each `ColumnListItem` in the `Master.view.xml`.
 
 ### webapp/controller/Master.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",

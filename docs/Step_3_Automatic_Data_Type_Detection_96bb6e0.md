@@ -24,7 +24,7 @@ The OData V4 Model utilizes this information to compute the corresponding OpenUI
   
 <a name="loio96bb6e06fa22491fa65a5040f6da099c__fig_zyb_mlb_mcb"/>Input does not match the underlying data type
 
- ![](loio8320fcfb59db4d209e17a84c21e44647_LowRes.png "Input does not match the underlying data type") 
+ ![](images/loio8320fcfb59db4d209e17a84c21e44647_LowRes.png "Input does not match the underlying data type") 
 
 ***
 
@@ -40,7 +40,7 @@ You can view and download all files at [OData V4 - Step 3](https://openui5.hana.
 
 ### webapp/manifest.json
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {...
@@ -86,7 +86,7 @@ We now run the app using the `index.html` file and enter values that don't match
 
 ### localService/metadata.xml
 
-``` xml
+```xml
 <EntityType Name="Person">
 	<Key>
 		<PropertyRef Name="UserName"/>

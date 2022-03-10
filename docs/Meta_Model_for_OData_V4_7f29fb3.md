@@ -57,7 +57,7 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 **Example of an OData V4 XML template:**
 
-``` xml
+```xml
 <mvc:View
         template:require="{AnnotationHelper : 'sap/ui/model/odata/v4/AnnotationHelper'}"
         xmlns="sap.m"
@@ -144,7 +144,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
 -   [`getValueListType`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ValueListType.html). It can be called directly on a property:
 
-    ``` xml
+    ```xml
     
     <template:with path="/BusinessPartnerList/Role" var="property">
         <template:if test="{= ${property>@@AnnotationHelper.getValueListType} === 'Fixed'}">
@@ -156,7 +156,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
 Alternatively it can be called on an annotation holding an <code><a href="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752658">edm:Path</a></code> to a property when it is called in the context of an entity type. This is typically the case when iterating over a `com.sap.vocabularies.UI.v1.LineItem` annotation of an entity type and asking for value help on the data fields. See the example regarding `LineItem` of `BusinessPartnerList` \(the relevant parts are repeated here\):
 
-``` xml
+```xml
 
 <template:with path="meta>/BusinessPartnerList/" var="entityType">
   <template:with path="entityType>@com.sap.vocabularies.UI.v1.LineItem" var="lineItem">

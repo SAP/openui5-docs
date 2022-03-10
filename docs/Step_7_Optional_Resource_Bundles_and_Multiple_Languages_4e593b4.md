@@ -20,7 +20,7 @@ The reason we have resource bundles is to allow an app to run in multiple langua
   
 <a name="loio4e593b44e78a431e8b21be6b3915fb55__fig_r1j_pst_mr"/>German version of our UI
 
- ![](loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI") 
+ ![](images/loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 7](h
 
 ### webapp/i18n/i18n\_de.properties \(New\)
 
-``` prefs
+```ini
 # Field labels
 firstName=Vorname
 lastName=Nachname
@@ -52,7 +52,7 @@ In the `i18n` folder, make a copy of the file `i18n.properties` and call it <cod
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",

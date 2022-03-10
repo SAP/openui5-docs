@@ -208,7 +208,7 @@ To proceed to the page that lists all search results, you can either finish your
 
 At the bottom of the popover, you have the *Results by Category* section from where you can proceed directly to the chosen search results page \(*API Reference*, *Documentation*, or *Samples*\).
 
-![](loiob35225c0a6b54b4e98852363ed08a0e8_HiRes.gif)
+![](images/loiob35225c0a6b54b4e98852363ed08a0e8_HiRes.gif)
 
 
 

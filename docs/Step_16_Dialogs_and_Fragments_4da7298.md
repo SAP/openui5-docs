@@ -28,7 +28,7 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
   
 <a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__fig_dzj_yzv_sr"/>A dialog opens when the new “Say Hello With Dialog” button is clicked
 
- ![](loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked") 
+ ![](images/loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked") 
 
 ***
 
@@ -36,7 +36,7 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
 You can view and download all files at [Walkthrough - Step 16](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.16/preview).
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
@@ -76,7 +76,7 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 
 ### webapp/view/HelloDialog.fragment.xml \(New\)
 
-``` xml
+```xml
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
@@ -95,7 +95,7 @@ The syntax is similar to a view, but since fragments do not have a controller th
 
 ### webapp/controller/HelloPanel.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
@@ -144,7 +144,7 @@ To reuse the dialog opening and closing functionality in other controllers, you 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span

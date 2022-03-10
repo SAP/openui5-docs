@@ -22,7 +22,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
   
 <a name="loio17b87fbafb5a4474982760d2a3a73e69__fig_r1j_pst_mr"/>The layout of the panel and its content now has margins and padding
 
- ![](loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding") 
+ ![](images/loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding") 
 
 ***
 
@@ -30,7 +30,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 You can view and download all files at [Walkthrough - Step 13](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.13/preview).
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"

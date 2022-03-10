@@ -16,7 +16,7 @@ When the OpenUI5 bootstrap script is included in a page, the OpenUI5 runtime wil
 
 A typical bootstrap script looks like this:
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
             type="text/javascript"
             src="resources/sap-ui-core.js"
@@ -95,7 +95,7 @@ As the configuration is evaluated during bootstrap, the configuration object mus
 
 The following code snippet shows an example for an inline script tag:
 
-``` html
+```html
 <script type="text/javascript">
             window["sap-ui-config"] = {
 			theme : "sap_belize",
@@ -127,7 +127,7 @@ You can use this attribute instead of attaching individual options with individu
 > ### Note:  
 > The usual HTML escape mechanisms must be used if the value contains specific HTML characters \(<, \>, &\) or the quote character that is used to enclose the attribute value.
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
 	type="text/javascript"
 	src="resources/sap-ui-core.js"

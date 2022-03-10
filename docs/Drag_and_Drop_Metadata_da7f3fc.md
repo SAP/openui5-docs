@@ -20,7 +20,7 @@ To influence the drag-and-drop behavior, use the metadata definition of a contro
 
 You can use the `dnd` key for the drag-and-drop behavior of a control. Here is an example that shows you how the `dnd` key can be used:
 
-``` js
+```js
 Control.extend('my.CustomControl', {
       metadata : {
           properties : {

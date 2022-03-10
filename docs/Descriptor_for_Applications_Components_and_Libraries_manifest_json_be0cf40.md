@@ -987,7 +987,7 @@ The `manifest` option allows you to configure when and from where the descriptor
 
 -   Default, equivalent to setting `manifest` to `true`.
 
-    ``` js
+    ```js
     // "Component" required from module "sap/ui/core/Component"
     // load manifest.json from default location and evaluate it before creating an instance of the component 
     Component.create({
@@ -997,7 +997,7 @@ The `manifest` option allows you to configure when and from where the descriptor
 
 -   Specify an alternative URL as parameter for `manifest` for the component factory function:
 
-    ``` js
+    ```js
     // "Component" required from module "sap/ui/core/Component"
     // load via manifest URL
     Component.create({
@@ -1017,7 +1017,7 @@ The `manifest` option allows you to configure when and from where the descriptor
         This is typically the case for older legacy Components without a descriptor. In this case, only the Component's class metadata is evaluated. No additional descriptor file will be loaded.
 
 
-    ``` js
+    ```js
     // "Component" required from module "sap/ui/core/Component"
     // load component without loading a manifest first
     //  - Case 1: the manifest.json is loaded after the Component controller
@@ -1055,7 +1055,7 @@ One common use case is the resolution of local annotation files. By default the 
 
 In this sample, we make sure that the component location is registered as a path on the UI5 loader. Additionally, we assume that the host system is`http://localhost:8080` :
 
-``` js
+```js
 sap.ui.loader.config({
     paths: {
         "my/url/prefix": "this/url/is/reachable"
@@ -1065,7 +1065,7 @@ sap.ui.loader.config({
 
 The following snippet shows a sample annotation file configuration in the `sap.app/dataSources` section of the app descriptor:
 
-``` json
+```json
 {
     ...
     "sap.app": {
@@ -1093,13 +1093,13 @@ The following snippet shows a sample annotation file configuration in the `sap.a
 
 During startup of the respective component the resolution of the `ui5://` URL for the sample annotation will look like this:
 
-``` html
+```html
 ui5://my/url/prefix/annotations.xml
 ```
 
 is resolved to:
 
-``` html
+```html
 http://localhost:8080/this/url/is/reachable/annotations.xml
 ```
 
@@ -1210,7 +1210,7 @@ A mandatory attribute that has to be provided in dot notation and specifies an I
 
 If, for example, a module is instantiated there as follows:
 
-``` js
+```js
    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
 
       metadata : {
@@ -2325,7 +2325,7 @@ For the following namespaces, the indicated teams are responsible:
 
 The component declares the existence of the application descriptor by specifying `manifest: "json"` in the component metadata. Setting this flag makes the component load the `manifest.json` file and read the relevant entries for OpenUI5. This metadata is used to define the dependencies that need to be loaded in order to start the component. The following code snippet shows how to add the manifest link:
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 	
 	return UIComponent.extend("sap.samples.Component", {
@@ -2343,7 +2343,7 @@ sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 
 At runtime, the `manifest.json` content can be accessed from the component via the component metadata:
 
-``` js
+```js
 // get the component class
 sap.ui.require(['sap/samples/Component'], function(SampleComponent) {
 

@@ -18,7 +18,7 @@ Advanced topics and best practices for OPA tests.
 
 If you skip all parameters except for the `success` parameter, you can execute your code after the other `waitFors` are done. Since there is no `check` function, OPA runs directly to `success`.
 
-``` js
+```js
 
 iChangeTheHashToTheThirdProduct : function () {
         return this.waitFor({
@@ -40,7 +40,7 @@ To check special conditions, for example, how one control relates to another con
 -   Storing the control in the OPA context: Use this option if you have to pass the parameter, for example, across some page objects.
 
 
-``` js
+```js
 
 iDoSomething: function () {
         var oControl;
@@ -74,7 +74,7 @@ iDoSomething: function () {
 
 As of version 1.48, you can easily specify URL parameters that are relevant for the application being tested. Simply place them in the `appParams` object under `Opa5.extendConfig()`. Only primitive types are supported. The provided object is serialized to URL search string and all parameters are available to the application being tested.
 
-``` js
+```js
 Opa5.extendConfig({
     appParams: {
         "key": "value"
@@ -108,7 +108,7 @@ A message toast is a small, non-disruptive popup for displaying information or s
 
 To ensure stable execution of OPA5 tests which manipulate `messageToast` elements, it is recommended to set explicitly `autoWait` parameter to `false` only for the affected `waitFor` methods, as shown by the following example:
 
-``` js
+```js
 this.waitFor({
         ...
         autoWait: false,
@@ -121,7 +121,7 @@ To retrieve a message toast control and manipulate it accordingly, use standard 
 
 Example:
 
-``` js
+```js
 iShouldSeeMessageToastAppearance: function () {
                      return this.waitFor({
                         // Turn off autoWait
@@ -372,7 +372,7 @@ A common scenario is asserting the busy state of a control. Testing whether a co
 
 A responsive toolbar can have overflowing content depending on the screen size. This content is moved to a popover, which can be opened by pressing a toggle button in the toolbar. A toggle button is displayed only when there's overflowing content. This is a problem for tests because they must only try to press the button when it's visible and interactable. One way to solve this is to always start the application being tested with a fixed screen size. Another way is to first look for toggle button with no visibility restrictions and then press on it only if it exists:
 
-``` js
+```js
 this.waitFor({
     id: sToolbarId, // find the toolbar
     success: function (oToolbar) {
@@ -411,7 +411,7 @@ If a test has to be adapted after recent changes, you have to disable it tempora
 
 Example:
 
-``` js
+```js
 oOpa.waitFor({
     success: function () {
         Opa5.assert.ok(false, "Should not report test that needs adaptation");

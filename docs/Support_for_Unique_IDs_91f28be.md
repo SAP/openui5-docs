@@ -18,14 +18,14 @@ If you want to modify the control with the ID `<ID>`, you can call the `byId(<ID
 
 The following view defines a button with the stable ID `aButton` \(in the `ButtonView`\):
 
-``` html
+```html
 <mvc:View viewName="sap.hcm.ButtonView" controllerName="sap.hcm.myController" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
       <Button id="aButton" text="Click me"/><mvc:View>
 ```
 
 The following view defines a view embedding the same view several times \(`ContainerView`\):
 
-``` html
+```html
 <mvc:View viewName="sap.hcm.ContainerView" controllerName="sap.hcm.Address" xmlns="sap.ui.commons" xmlns:core="sap.ui.core"
            xmlns:html="http://www.w3.org/1999/xhtml">
       <mvc:View id="ButtonView1" viewName="sap.hcm.ButtonView"/>
@@ -35,7 +35,7 @@ The following view defines a view embedding the same view several times \(`Conta
 
 The view is created as follows:
 
-``` js
+```js
 ...
    // "View" required from module "sap/ui/core/mvc/View"
    View.create().then(function(oView) {/* code */});
@@ -52,7 +52,7 @@ Both child view IDs have the prefix `myContainerView--`:
 
 To get one of the child views, use the following code: [Essentials](Essentials_ec699e0.md)
 
-``` js
+```js
 ...
 var oButtonView1 = oView.byId("ButtonView1");
 ...
@@ -66,7 +66,7 @@ The button view has the following IDs:
 
 To get the button control, use the following code:
 
-``` js
+```js
 ...
    var oButton = oButtonView1.byId("aButton");
 ...

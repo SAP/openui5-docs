@@ -20,7 +20,7 @@ The source value for this data type, that is, the value given in the model must 
 
 Examples how a `Float` type can be initialized:
 
-``` js
+```js
 // "TypeFloat" required from module "sap/ui/model/type/Float"
 
 // The source value is given as JavaScript number. Output is transformed into the type of the bound control property.

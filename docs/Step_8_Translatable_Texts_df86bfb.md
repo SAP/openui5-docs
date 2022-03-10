@@ -22,7 +22,7 @@ This way, they are all in a central place and can be easily translated into othe
   
 <a name="loiodf86bfbeab0645e5b764ffa488ed57dc__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
- ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No visual
+ ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No visual
 					changes to last step)") 
 
 ***
@@ -31,7 +31,7 @@ This way, they are all in a central place and can be easily translated into othe
 
 You can view and download all files at [Walkthrough - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.08/preview).
 
-``` prefs
+```ini
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 ```
@@ -44,7 +44,7 @@ In this tutorial we will only have one properties file. However, in real-world p
 
 ### controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast",
@@ -90,7 +90,7 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"

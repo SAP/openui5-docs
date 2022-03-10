@@ -25,7 +25,7 @@ If you omit the "var" attribute, the same model name will be reused; for example
 
 ### "with" Template
 
-``` xml
+```xml
 
 <template:with path="meta>com.sap.vocabularies.UI.v1.Badge" var="badge">
     <!-- ... -->
@@ -56,7 +56,7 @@ It returns a path inside the meta model which refers to the corresponding proper
 
 ### "with" Template Including Annotation Helper
 
-``` xml
+```xml
 
 <template:with path="meta>Value" helper="sap.ui.model.odata.AnnotationHelper.resolvePath" var="target">
   <template:if test="{= {target>sap:semantics} === 'email'}" >

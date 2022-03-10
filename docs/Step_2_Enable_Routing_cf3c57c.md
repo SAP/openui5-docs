@@ -20,7 +20,7 @@ In this step we will modify the app and introduce routing. Instead of having the
   
 <a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_r1j_pst_mr"/>Views are wired together using the router
 
- ![](loioce8dce11d04c470e86f02cd2ba4c57b4_LowRes.png "Views are wired together using the router") 
+ ![](images/loioce8dce11d04c470e86f02cd2ba4c57b4_LowRes.png "Views are wired together using the router") 
 
 ***
 
@@ -32,13 +32,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 <a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_chm_4jp_ls"/>Folder structure for this step
 
- ![](loio93bd2dccd14a495eba521754a14d2c04_HiRes.png "Folder structure for this step") 
+ ![](images/loio93bd2dccd14a495eba521754a14d2c04_HiRes.png "Folder structure for this step") 
 
 ***
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
    "_version": "1.12.0",
    "sap.app": {
@@ -117,7 +117,7 @@ Single-page applications based on OpenUI5 can use a so-called “router” to di
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/core/UIComponent"
 ], function (UIComponent) {
@@ -146,7 +146,7 @@ We override the `init` function and call the parent’s `init` function first. W
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.App"
 	xmlns="sap.m"
@@ -165,7 +165,7 @@ In the `App` view, we remove the content of `App` control. The pages will be add
 
 ### webapp/view/Home.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.nav.controller.Home"
    xmlns="sap.m"
@@ -184,7 +184,7 @@ Create a file `Home.view.xml` in the `webapp/view` folder. The home view only co
 
 ### webapp/controller/Home.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {

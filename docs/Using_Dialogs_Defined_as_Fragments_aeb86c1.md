@@ -16,7 +16,7 @@ The fragment instantiation function always returns the fragment's root control, 
 
 In the following example, the dialog is opened immediately:
 
-``` js
+```js
 // "this" has to be the controller instance of a controller extending module "sap/ui/core/mvc/Controller"
 this.loadFragment({type: "XML", name: "testdata.fragments.XMLFragmentDialog"}).then(function(oDialog) {
 	oDialog.open();

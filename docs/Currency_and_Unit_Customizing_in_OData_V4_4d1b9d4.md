@@ -21,7 +21,7 @@ For code lists with currency or unit customizing, you need to define the followi
 
 **Code list annotations for currency codes and measures in "metadata.xml"**
 
-``` xml
+```xml
 <EntityType Name="Product">
     ...
    <Property Name="WeightMeasure" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="variable" />
@@ -92,7 +92,7 @@ The property annotated as `com.sap.vocabularies.CodeList.v1.StandardCode` is int
 
 **Example for the metadata of a code list service**
 
-``` xml
+```xml
 ...
   <EntityType Name="Currency">
     <Key>
@@ -151,7 +151,7 @@ With the metadata above, you can use the data types `sap.ui.model.odata.type.Cur
 
 **Example how to use currency and unit types in a freestyle application**
 
-``` js
+```js
 ...
 <Input value="{mode:'TwoWay', parts:['WeightMeasure', 'WeightUnit', {mode:'OneTime', path:'/##@@requestUnitsOfMeasure', targetType:'any'}], type:'sap.ui.model.odata.type.Unit'}"/>
 ...
@@ -165,7 +165,7 @@ If you use XML templating, you can use `sap.ui.model.odata.v4.AnnotationHelper.f
 
 **Additional annotations when using XML templating**
 
-``` xml
+```xml
 <!-- used in view template -->
 <Annotations Target="SAP__self.Product">
    <Annotation Term="com.sap.vocabularies.UI.v1.LineItem">
@@ -189,7 +189,7 @@ The composite binding for the `sap.ui.model.odata.type.Currency` and `sap.ui.mod
 
 **How to use `AnnotationHelper.format` with currencies or units**
 
-``` xml
+```xml
 <template:alias name="format" value="sap.ui.model.odata.v4.AnnotationHelper.format">
 <template:alias name="label" value="sap.ui.model.odata.v4.AnnotationHelper.label">
 <VBox>
@@ -216,7 +216,7 @@ The composite binding for the `sap.ui.model.odata.type.Currency` and `sap.ui.mod
 
 **Example: Templating output**
 
-``` xml
+```xml
 <VBox>
     <Table items="{/ProductList}">
       <columns>

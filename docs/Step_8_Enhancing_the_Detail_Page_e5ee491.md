@@ -22,7 +22,7 @@ With routing implemented, the model of the detail page is updated for each produ
   
 <a name="loioe5ee491f69224f038a0c147480dbd436__fig_zfh_d31_12b"/>Enhanced detail page displaying information specific to the selected product
 
- ![](loiob687506e7e55437193741a31ff739b7b_HiRes.gif "Enhanced detail page displaying information specific to the selected
+ ![](images/loiob687506e7e55437193741a31ff739b7b_HiRes.gif "Enhanced detail page displaying information specific to the selected
 					product") 
 
 ***
@@ -39,7 +39,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.Detail"
 	xmlns="sap.uxap"
@@ -86,7 +86,7 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 		...
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
@@ -121,7 +121,7 @@ We adjust the `headerContent` so that the `sap.f.Avatar` displays the specific i
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 		...
 		<sections>
 			<ObjectPageSection title="General Information">

@@ -20,7 +20,7 @@ We recommend that you use actions and not success functions for user interaction
 
 In this example, we trigger a `press` event on a button, using the `waitFor` function of OPA5, and the `Press` action. Note that the action has access to the located button implicitly.
 
-``` js
+```js
 oOpa.waitFor({
     id: "myButton",
     actions: new Press()
@@ -29,7 +29,7 @@ oOpa.waitFor({
 
 As of version 1.97, you can add key modifiers, such as [Control\], [Alt\], and [Shift\]:
 
-``` js
+```js
 oOpa.waitFor({
     id: "myButton",
     actions: new Press({
@@ -42,7 +42,7 @@ oOpa.waitFor({
 
 As of version 1.98, you can use coordinates for the X and Y axes by providing values for the `xPercentage` and `yPercentage` properties. The values provided should be percentages, for example in the range \[0 - 100\], relative to the control, which is then converted to exact coordinates in pixels:
 
-``` js
+```js
 oOpa.waitFor({
     id: "myButton",
     actions: new Press({
@@ -58,7 +58,7 @@ oOpa.waitFor({
 
 Here's an example showing how to choose an item from `sap.m.Select`, using the `waitFor` function of OPA5, and the `Press` action:
 
-``` js
+```js
 sap.ui.require([
     "sap/ui/test/opaQUnit",
     "sap/ui/test/actions/Press",
@@ -103,7 +103,7 @@ Use the `EnterText` action when you want to enter text in a form control.
 
 In this example, the text of an `sap.m.Input` is changed twice. First, "Hello " is entered as value. Then, with the second action, "World" is added. As a result, the value of the input is "Hello World".
 
-``` js
+```js
 oOpa.waitFor({
     id: "myInput",
     actions: [
@@ -117,7 +117,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 -   Use the `clearTextFirst` property to empty the existing value before entering new text. This example changes a control value to "Hello" and then to "World" with two consecutive actions:
 
-    ``` js
+    ```js
     actions: [
         new EnterText({ text: "Hello" }), // changes Input value to "Hello"
         new EnterText({ text: "World", clearTextFirst: true }) // changes Input value to "World"
@@ -126,7 +126,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 -   Use the `keepFocus` property to preserve the focus on the input after the action completes. This is useful if the control has enabled suggestions that have to remain open after the text is entered. After the text is entered, you can perform another OPA5 search for the suggestion control and select it using a `Press` action.
 
-    ``` js
+    ```js
     // Show the suggestion list with filter "Jo"
     oOpa.waitFor({
         id: "formInput",
@@ -154,7 +154,7 @@ There are a couple of modifiers to the `EnterText` action:
 
 -   Use the `pressEnterKey` property to add an `enter` key to the end of the input. This triggers the `change` event for the input and the input remains focused. If you use this when focusing out of the input results in unwanted results. For example, focusing out of inputs in a popup results in the popup closing only in some browsers, which leads to inconsistent test results.
 
-    ``` js
+    ```js
     oOpa.waitFor({
         controlType: "sap.m.Input",
         searchOpenDialogs: true,
@@ -231,7 +231,7 @@ First, locate a control to drag and use the `Drag` action with it. Then, locate 
 
 The following example rearranges items in a list:
 
-``` js
+```js
 // Find the item to drag
 oOpa.waitFor({
     controlType: "sap.m.StandardListItem",
@@ -265,7 +265,7 @@ oOpa.waitFor({
 
 As of version 1.90, you can scroll in controls that provide a scrollable area. The following example scrolls `sap.uxap.ObjectPageLayout` vertically by 200px:
 
-``` js
+```js
 oOpa.waitFor({
     controlType: "sap.uxap.ObjectPageLayout",
     actions: new Scroll({
@@ -283,7 +283,7 @@ For more information, see [`sap.ui.core.delegate.ScrollEnablement`](https://open
 
 Since OPA5 uses JavaScript for its execution, you can’t use native browser events to simulate user events. Sometimes it's also hard to know the exact position where to click or enter your keystrokes since OpenUI5 controls don't have a common interface for that. If you find you're missing a certain built-in action, you can create your own actions easily. Just provide an inline function as shown here:
 
-``` js
+```js
 sap.ui.require(["sap/ui/test/opaQUnit", "sap/ui/test/matchers/Properties"], function (opaTest, Properties) {
 
     opaTest("Should simulate press on the delete button", function (Given, When, Then) {

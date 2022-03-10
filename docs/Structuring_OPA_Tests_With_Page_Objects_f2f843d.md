@@ -20,7 +20,7 @@ You can also share utility functionality between page objects. Simulating clicks
 
 OPA5 provides a static method to create page objects, see the [Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
 
-``` js
+```js
 
 Opa5.createPageObjects({
 
@@ -54,7 +54,7 @@ Opa5.createPageObjects({
 
 The method in your test finds all actions at the `Given` and `When` object, the assertions will be at the `Then` object. Everything is prefixed with the page object name.
 
-``` js
+```js
 
 When.inThe<Page Object>.<iDoSomething>();
 

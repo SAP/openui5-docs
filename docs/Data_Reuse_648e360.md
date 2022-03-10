@@ -22,7 +22,7 @@ An OData V4 binding may or may not trigger own data requests. Data sharing betwe
 
 The following example shows a typical list-detail scenario with a list of objects and the details of the selected object:
 
-``` xml
+```xml
 <mvc:View id="list">
     <Table items="{/SalesOrderList}">
         <ColumnListItem>
@@ -59,7 +59,7 @@ The following example assumes that the binding path of the sales order is given 
 
 **Sample list view**
 
-``` xml
+```xml
 <mvc:View id="list">
     <Table items="{
         path: '/SalesOrderList', 
@@ -78,7 +78,7 @@ The following example assumes that the binding path of the sales order is given 
 
 **Detail view controller \(extract\)**
 
-``` js
+```js
 ...
 onPatternMatched : function (oEvent) {
     var oContext,
@@ -130,7 +130,7 @@ For this, you may use the `$$sharedRequest` binding parameter for all the list b
 
 **Example:** Using the `$$sharedRequest` binding parameter:
 
-``` xml
+```xml
 
 ...
 <Table items="{/SalesOrderList}">
@@ -161,7 +161,7 @@ If, due to filtering or sorting of the list, the entity shown in the detail view
 
 **Example:**
 
-``` js
+```js
 ...
   
 // Optional: First remove the keep-alive setting for the previous context of the detail view

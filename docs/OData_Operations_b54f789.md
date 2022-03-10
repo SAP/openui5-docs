@@ -18,7 +18,7 @@ The OData V4 model supports OData operations \(`ActionImport`, `FunctionImport`,
 
 You gain access to a `FunctionImport` by binding it to a view element. If there are no parameters and there is no need to control the point in time when the function is called, you can simply bind the OData path like this:
 
-``` js
+```js
 <Text text="{path: '/GetNumberOfAvailableItems()', type: 'sap.ui.model.odata.type.Int16'}"/>
 ```
 
@@ -36,7 +36,7 @@ If the operation binding defers operation execution, you need to call its `execu
 
 **View:**
 
-``` xml
+```xml
 <Form id="getNextAvailableItem" binding="{/GetNextAvailableItem(...)}">
     <Label text="Description"/>
     <Text text="{Description}"/>
@@ -46,7 +46,7 @@ If the operation binding defers operation execution, you need to call its `execu
 
 **Controller:**
 
-``` js
+```js
 onGetNextAvailableItem : function (oEvent) {
     this.getView().byId("getNextAvailableItem").getObjectBinding().execute();
 }
@@ -58,7 +58,7 @@ If the function returns a primitive value or a collection, the binding for the r
 
 **View:**
 
-``` xml
+```xml
 <Form id="getNumberOfAvailableItems" binding="{/GetNumberOfAvailableItems(...)}">
     <Label text="Number of available items:"/>
     <Text text="{value}"/>
@@ -88,7 +88,7 @@ Action bindings must be deferred, otherwise the application cannot control when 
 
 **View:**
 
-``` xml
+```xml
 <Form id="Submit" binding="{/Submit(...)}">
     <Button text="Submit the action" press="onSubmit"/>
 </Form>
@@ -116,7 +116,7 @@ This is how to bind each property without a "$Parameter" context:
 > ### Example:  
 > Binding parameters to a dialog \(Option 1\)
 > 
-> ``` xml
+> ```xml
 > <Dialog binding="{/ChangeTeamBudgetByID(...)}" id="operation1" title ="Change Team Budget">
 >     <buttons>
 >         ...         
@@ -137,7 +137,7 @@ Alternatively, you may bind the entire form to the `$Parameter` context:
 > ### Example:  
 > Binding parameters to a dialog \(Option 2\)
 > 
-> ``` xml
+> ```xml
 > <Dialog binding="{/ChangeTeamBudgetByID(...)}" id="operation2" title="Change Team Budget">
 >     <buttons>
 >         ...         
@@ -157,7 +157,7 @@ Alternatively, operation parameters can be set by calling the function `setParam
 
 **Controller:**
 
-``` js
+```js
 onSubmit : function (oEvent) {
     this.getView().byId("Submit").getObjectBinding().setParameter("Comment", sComment).execute();
 }
@@ -172,7 +172,7 @@ The example below demonstrates how a budget may be modified depending on the `Te
 > ### Example:  
 > Reading parameter values using the parameter context
 > 
-> ``` js
+> ```js
 > adaptBudgetToTeam : function (){
 >     var oDialog = this.oView.byId("operation2"); // the second dialog in the paragraph before
 >         oParameterContext = oDialog.getObjectBinding().getParameterContext();
@@ -201,7 +201,7 @@ Bound actions or functions are controlled in the same way as unbound operations;
 
 To call actions or functions bound to a single entity or navigation property, use a relative binding. The following sample calls the "invoice created" action on the sales order selected in the corresponding table:
 
-``` js
+```js
 var oModel = this.getView().getModel(),
     oTable = this.getView().byId("SalesOrders"),
     oSalesOrderContext = oTable.getSelectedItem().getBindingContext(),
@@ -222,7 +222,7 @@ oAction.execute().then(
 
 To call actions or functions bound to a collection specified by an OData entity set, you can create a context binding with an absolute path, or with a relative path for the operation \(for example `name.space.DestroyOutdated(...)"`\) and the header context of a list binding as parent context. The following sample shows a button press event handler which calls the `destroy outdated` action on the `LeaveRequests` entity set.
 
-``` js
+```js
 var oModel = this.getView().getModel();
  
 oModel.bindContext("/LeaveRequests/name.space.DestroyOutdated(...)").execute();
@@ -230,7 +230,7 @@ oModel.bindContext("/LeaveRequests/name.space.DestroyOutdated(...)").execute();
 
 The same example with a relative binding and the header context of the list binding as parent context:
 
-``` js
+```js
 var oModel = this.getView().getModel(),
     // assume there is a table with ID "leaveRequests" and its items aggregation bound to "/LeaveRequests"
     oListBinding = this.byId("leaveRequests").getBinding("items"),
@@ -259,7 +259,7 @@ For example, let `CreateInvoice` be a bound action on the `SalesOrder` entity ty
 > ### Example:  
 > Addressing properties of the binding parameter
 > 
-> ``` xml
+> ```xml
 > 
 > <Dialog binding="{name.space.CreateInvoice(...)}" id="operation" title="Address Note property of the sales order">
 >     <form:SimpleForm binding="{$Parameter}">
@@ -286,7 +286,7 @@ To enable strict handling for the above example, the controller code snippet may
 > ### Example:  
 > "`Prefer:handling=strict`"
 > 
-> ``` xml
+> ```xml
 > // XML view:
 > // the messages may be visualized in a sap.m.Dialog via sap.m.MessageView and sap.m.MessageItem like this
 >     <Dialog id="onStrictMessagesDialog"
@@ -402,7 +402,7 @@ This approach can also be used with XML templating where [`createBindingContext`
 
 You can access the results of the operation by calling `getObject()` from the bound context.
 
-``` js
+```js
 // let oOperation be the operation's context binding
 oOperation.execute().then(function () {
     // Note: execute does not deliver the results

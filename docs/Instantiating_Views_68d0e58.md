@@ -38,7 +38,7 @@ With the asynchronous loading of views, the instance is not fully available at t
 > ### Note:  
 > If you access the view in the controller's `onInit` callback, the view instance is available in any case. The behavior does not change.
 
-``` js
+```js
 // "View" required from "sap/ui/core/mvc/View"
 // "coreLibrary" required from "sap/ui/core/library"
 // "my.own.controller" was defined earlier
@@ -67,14 +67,14 @@ View.create({
 
 The following code snippet shows how to do a lazy loading for XML views:
 
-``` xml
+```xml
 <!-- File: view/CustomView.view.xml -->
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <Text text="Custom View loaded ..."/>
 </mvc:View>
 ```
 
-``` js
+```js
 // File: controller/MainController.controller.js
 sap.ui.require(["sap/ui/core/mvc/XMLView", "sap/ui/core/mvc/Controller"], function(XMLView, Controller) {
 	return Controller.extend("samples.controller.MainController", {

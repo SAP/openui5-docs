@@ -22,7 +22,7 @@ To make this work, we have to pass over the information which item has been sele
   
 <a name="loio2366345a94f64ec1a80f9d9ce50a59ef__fig_r1j_pst_mr"/>The selected invoice details are now shown in the details page
 
- ![](loio3a961735fdea4598a24c0ca1a3b7a5b2_HiRes.png "The selected invoice details are now shown in the details page") 
+ ![](images/loio3a961735fdea4598a24c0ca1a3b7a5b2_HiRes.png "The selected invoice details are now shown in the details page") 
 
 ***
 
@@ -30,7 +30,7 @@ To make this work, we have to pass over the information which item has been sele
 
 You can view and download all files at [Walkthrough - Step 31](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.31/preview).
 
-``` js
+```js
 {
   "_version": "1.12.0",
   …
@@ -78,7 +78,7 @@ We now add a navigation parameter `invoicePath` to the detail route so that we c
 
 ### webapp/view/Detail.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
@@ -98,7 +98,7 @@ We add a controller that will take care of setting the item's context on the vie
 
 ### webapp/controller/InvoiceList.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
@@ -131,7 +131,7 @@ To identify the object that we selected, we would typically use the key of the i
 
 ### webapp/controller/Detail.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {

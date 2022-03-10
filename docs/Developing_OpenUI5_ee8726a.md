@@ -204,7 +204,7 @@ Tests can be executed automatically with the Karma Test-Runner.
 
 To run tests of a library, the `--lib` needs to be passed. The `<library-name>` corresponds to the folder within `./src/`, e.g. `sap.m`.
 
-``` js
+```js
 npm run karma -- --lib=<library-name>
 ```
 
@@ -212,7 +212,7 @@ This executes all tests of that library in watch mode, which will automatically 
 
 **Example** 
 
-``` js
+```js
 npm run karma -- --lib=sap.m
 ```
 
@@ -224,7 +224,7 @@ Instead of executing all tests of a library, you can also only run one test or a
 
 To find the URL, open `http://localhost:8080/test.html` and search for the test. Copy the URL and remove the origin part \(`http://localhost:8080/`\), so that it starts with `resources` or `test-resources`.
 
-``` js
+```js
 npm run karma -- --lib=<library-name> --ui5.testpage="<testpage-url>"
 ```
 
@@ -243,7 +243,7 @@ npm run karma -- --lib=sap.m --ui5.testpage="resources/sap/ui/test/starter/Test.
 
 You enable coverage reporting by additionally passing the `--coverage` option:
 
-``` js
+```js
 npm run karma -- --lib=<library-name> --coverage
 ```
 
@@ -253,7 +253,7 @@ npm run karma -- --lib=<library-name> --coverage
 
 You enable the continuous integration mode by additionally passing the `--ci` option. This enables Chrome headless and disables the watch mode, so the execution stops after all tests have been executed:
 
-``` js
+```js
 npm run karma -- --lib=<library-name> --ci
 ```
 

@@ -18,7 +18,7 @@ The format of the annotation file has to be the same as the metadata file of the
 
 Annotation files are specified in `manifest.json` as follows:
 
-``` js
+```js
 
 "dataSources" : {
     "default" : {
@@ -42,7 +42,7 @@ Annotation terms are not merged, but replaced as a whole \(“PUT” semantics\)
 
 The annotation term is specified in the service metadata document:
 
-``` js
+```js
 
 <Annotations Target="GWSAMPLE_BASIC.GWSAMPLE_BASIC_Entities/BusinessPartnerSet">
     <Annotation Term="Org.OData.Capabilities.V1.SortRestrictions">
@@ -59,7 +59,7 @@ The annotation term is specified in the service metadata document:
 
 If an additional property needs to be added, the term has to be repeated in the annotation file:
 
-``` js
+```js
 
 <Annotations Target="GWSAMPLE_BASIC.GWSAMPLE_BASIC_Entities/BusinessPartnerSet">
     <Annotation Term="Org.OData.Capabilities.V1.SortRestrictions">

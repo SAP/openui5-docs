@@ -21,7 +21,7 @@ For example, the `sap.ui.Device.orientation` object holds the current orientatio
 
 If you want to register a handler for a particular event like a resize or an orientation change, for example, you can do so easily by attaching to such an event:
 
-``` js
+```js
 
 sap.ui.Device.orientationChange.attachHandler(function(){
 	alert("orientation changed");
@@ -61,7 +61,7 @@ The following ranges are available by default:
 
 You can use any of the available range sets to attach to a particular width interval change, like in this example here:
 
-``` js
+```js
 
 // attach to event
 sap.ui.Device.media.attachHandler(fnSizeChanged, null, sap.ui.Device.media.RANGESETS.SAP_STANDARD);

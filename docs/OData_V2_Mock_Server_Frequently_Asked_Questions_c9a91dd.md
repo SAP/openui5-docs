@@ -22,7 +22,7 @@ No. The mock server runs on the client and only uses the server terminology of '
 
 The mock server is contained in module `sap/ui/core/util/MockServer`. The module can either be added to the list of dependencies in a `sap.ui.define` call or it can be required with a call to `sap.ui.require`:
 
-``` js
+```js
 sap.ui.define([…, 'sap/ui/core/util/MockServer', ...], function(…, MockServer, …) { 
     var oMyMockServer = new MockServer(...);
 });
@@ -50,7 +50,7 @@ Call the metadata of the service in a browser and save it into a file.
 
 You can let the mock server generate random mock data automatically based on services metadata. For this, provide only the path to the metadata file and omit the second parameter of the simulate function as follows:
 
-``` js
+```js
 // url to the service metadata document 
         var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml"; 
         oMockServer.simulate(sMetadataUrl);
@@ -58,7 +58,7 @@ You can let the mock server generate random mock data automatically based on ser
 
 You can provide your own mock data in .json files, which can either be created manually or saved from an OData service response. Mock data in JSON format can be generated from an OData service by adding the `$format=json` parameter to the URL. Save the browser response which is called `<entity set name>.json`, for example `FlightCollection.json` and put it into the model folder. Add the path to the simulate function:
 
-``` js
+```js
 // url to the service metadata document 
         var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml";
         // base url which contains the mockdata
@@ -68,7 +68,7 @@ You can provide your own mock data in .json files, which can either be created m
 
 You can specify a path to .json mock data and let the mock server generate data for the rest of the service entities:
 
-``` js
+```js
 var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml"// url to the service metadata document
         var sMockdataBaseUrl = "testdata/rmtsampleflight/"// base url which contains the mockdata
             oMockServer.simulate(sMetadataUrl, {
@@ -79,7 +79,7 @@ var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml"// url to the service 
 
 You can specify the names of the entity sets that are needed, and the mock server will load data only for the specified service entities:
 
-``` js
+```js
 var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml"// url to the service metadata document
         var sMockdataBaseUrl = "testdata/rmtsampleflight/"// base url which contains the mockdata
             oMockServer.simulate(sMetadataUrl, {
@@ -95,7 +95,7 @@ var sMetadataUrl = "testdata/rmtsampleflight/metadata.xml"// url to the service 
 
 The OData model uses JSON to fetch the data:
 
-``` js
+```js
 var oModel = new sap.ui.model.odata.ODataModel(sUri, true);
 ```
 
@@ -107,7 +107,7 @@ Verify that you use the exact same URI prefix in the request as in the `rootUri`
 
 The code snippet shows an example:
 
-``` js
+```js
 sap.ui.define([…, 
     'sap/ui/core/util/MockServer',
     'sap/ui/model/odata/v2/ODataModel',
@@ -145,7 +145,7 @@ The mock server supports navigation via association also if no referential const
 
 You can set up the mock server in the setup function. For example:
 
-``` js
+```js
 sap.ui.require(['sap/ui/core/util/MockServer'], function(MockServer) {
 	...
         QUnit.module("OData data provider", {
@@ -169,25 +169,25 @@ sap.ui.require(['sap/ui/core/util/MockServer'], function(MockServer) {
 
 Mock Server has APIs to provide more flexibility and control over its current request processing. During request processing, the callbacks are called before or after native handling of the Mock Server using the SAPUI5 eventing mechanism. You can add a callback in all requests of a specific HTTP method, for example in all `get` requests, but additionally also on a specific entity set name, for example, `POST` to `SaleOrders`\).
 
-``` js
+```js
 // add a callback in all requests of a specific http method
 oMockServer.attachAfter(sap.ui.core.util.MockServer.HTTPMETHOD.GET, fnCbPost);
 ```
 
-``` js
+```js
 // on a specific entityset name
 oMockServer.attachAfter(sap.ui.core.util.MockServer.HTTPMETHOD.GET, fnCbPost, "CarrierCollection");
 
 ```
 
-``` js
+```js
 // remove the callback
 oMockServer.detachAfter(sap.ui.core.util.MockServer.HTTPMETHOD.GET, fnCbPost);
 ```
 
 If you add additional request handlers and want to use this hooks mechanism inside your response function, just call:
 
-``` js
+```js
 this.fireEvent(sap.ui.core.util.MockServer.HTTPMETHOD.GET + 'sEntityset' + ':before' , {oXhr: oXhr, sUrlParameters: sUrlParameters});
 ```
 

@@ -27,7 +27,7 @@ With this release OpenUI5 is upgraded from version 1.72 to 1.73.
 
 `AvatarGroup` is used to display a group of related avatars, arranged horizontally. The control allows you to display the avatars in different sizes, depending on your use case. Two group types are available: `Group` and `Individual`.
 
- ![](loiod2ac28d2859f484fb9228049eefe0372_HiRes.gif) 
+ ![](images/loiod2ac28d2859f484fb9228049eefe0372_HiRes.gif) 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.AvatarGroup) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.AvatarGroup).
 
@@ -115,7 +115,7 @@ Four new button types were introduced in the `sap.m.ButtonType` enum. Designed a
 -   Success
 -   Neutral
 
- ![](loiodbf0df86dd374616b631e278ab40f5de_LowRes.png) 
+ ![](images/loiodbf0df86dd374616b631e278ab40f5de_LowRes.png) 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ButtonType).
 
@@ -327,7 +327,7 @@ With the new `sectionChange` event, you can identify when the page is scrolled t
 
 You can now easily find the results you're interested in with the new search highlighting functionality that we implemented for the *Search Results* page and the *API Reference* tree filter.
 
- ![](loio040558940043445a9299e24b37aef5c5_HiRes.gif) 
+ ![](images/loio040558940043445a9299e24b37aef5c5_HiRes.gif) 
 
 
 

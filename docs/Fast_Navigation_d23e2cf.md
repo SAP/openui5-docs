@@ -16,7 +16,7 @@ Within such a group, [F6\] or  [Ctrl\] + [Alt/Option\] + [Down\] skip all contro
 
 The following image describes this behavior. Groups are highlighted in blue, elements in the tab chain are grey.
 
- ![](loioe5e01dd8d1594e608e697a2e30ac3bc6_LowRes.png) 
+ ![](images/loioe5e01dd8d1594e608e697a2e30ac3bc6_LowRes.png) 
 
 The fast navigation cycles. This means if the focus is within the last group in the group chain, the focus moves to the first control in the first group. This leads to an additional fast navigation chain, which allows fast navigation through applications. Larger controls like the `Table`, `Panel`, and `Form` provide their own groups by default. The application developer defines further groups.
 
@@ -24,13 +24,13 @@ As described, some larger controls or containers already define fast navigation 
 
 Coding Example:
 
-``` js
+```js
 oControl.data("sap-ui-fastnavgroup", "false", true/*Write into DOM*/);
 ```
 
 XML View Example:
 
-``` xml
+```xml
 <mvc:View
   xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"
@@ -56,13 +56,13 @@ In the same way it is possible to make a control or element to be a fast navigat
 
 Coding Example:
 
-``` js
+```js
 oControl.data("sap-ui-fastnavgroup", "true", true/*Write into DOM*/);
 ```
 
 XML View Example:
 
-``` xml
+```xml
 <mvc:View
   xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"

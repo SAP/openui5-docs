@@ -22,7 +22,7 @@ The example we used at the start of this tutorial was overly simplistic as we st
   
 <a name="loio9790d9aa686e4f818f2ad99057adb7ee__fig_r1j_pst_mr"/>Texts derived from the resource model \(No visual change to last step\)
 
- ![](loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Texts derived from the resource model (No visual change to last step)") 
+ ![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Texts derived from the resource model (No visual change to last step)") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 6](h
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",
@@ -88,7 +88,7 @@ Since we are creating a resource model, the file name is assumed to have the ext
 
 ### webapp/i18n/i18n.properties \(New\)
 
-``` prefs
+```ini
 # Field labels
 firstName=First Name
 lastName=Last Name
@@ -108,7 +108,7 @@ Language-specific text stored in resource models obeys the Java convention for i
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"

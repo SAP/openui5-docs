@@ -14,7 +14,7 @@ Depending on the different use cases, you can use different binding types: Prope
 
 ***
 
-![](loio950f3d5b1c444de5b6db9f20afd8c423_LowRes.png)
+![](images/loio950f3d5b1c444de5b6db9f20afd8c423_LowRes.png)
 
 -   [Property Binding](Property_Binding_91f0652.md)
 -   [List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md)

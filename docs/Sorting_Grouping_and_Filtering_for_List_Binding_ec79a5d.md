@@ -18,7 +18,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 To provide initial **sorting and grouping** in an XML view, proceed as follows:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -42,7 +42,7 @@ The `this` context of a group header factory function is generally set to the co
 
 The list uses a sorter which sorts the list of companies in ascending order by the `county` column. It also groups its rows using the App.controller’s `getCounty` method to provide the captions and the `getGroupHeader` function to provide non-standard group header controls, as shown here:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
@@ -69,11 +69,11 @@ sap.ui.define([
 
 As you can see, `getCounty` generates the key for a division into groups as well as a group caption, which in this case is the county of the current companies. `getGroupHeader` serves as a group header factory function. After sorting and grouping, the company list looks like this:
 
- ![](loiocdd09735362d4227809f3028201a1bba_LowRes.png) 
+ ![](images/loiocdd09735362d4227809f3028201a1bba_LowRes.png) 
 
 The following XML snippet provides initial filtering:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -98,7 +98,7 @@ As shown below, initial sorting, grouping and filtering can of course also be pr
 
 You can define a sorter and/or filters:
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/model/Sorter",
     "sap/ui/model/Filter"
@@ -125,7 +125,7 @@ var oFilterCity = new Filter("city",
 
 You can pass sorters and filters to the list binding:
 
-``` js
+```js
 
 var oList = new sap.m.List({
 	items: {path: "/companies", template: oItemTemplate, 
@@ -144,7 +144,7 @@ You can also use the other list binding possibilities \(for example `bindAggrega
 
 You can sort or filter data manually after the list binding is complete by getting the corresponding binding and calling the sort/filter function:
 
-``` js
+```js
 // manual sorting
 oList.getBinding("items").sort(oSorter);
 
@@ -165,7 +165,7 @@ For more information about the various sorting and filter methods and operators,
 
 Complex syntax can be used to add filters and sorters for list binding. One or multiple objects can be defined.
 
-``` js
+```js
 
 <table:Table rows="{
     path: '/table', 

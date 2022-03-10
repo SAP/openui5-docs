@@ -22,7 +22,7 @@ The namespace gets attached to the [global window object](https://developer.mozi
 
 In the following example, `my.app` is the general namespace and `my.app.MyControl` is the fully qualified class name.
 
-``` js
+```js
 sap.ui.define(["sap/ui/core/Control"], function(Control) {
     return Control.extend("my.app.MyControl", {});
 });
@@ -30,7 +30,7 @@ sap.ui.define(["sap/ui/core/Control"], function(Control) {
 
 For JavaScript global names, module names, and OpenUI5 qualified names \(class names, interface names, DataType names\), use the same naming prefix, only with varying separators. For example, use a slash \(/\) instead of a dot \(.\) when requiring the class from the example above.
 
-``` js
+```js
 sap.ui.define(["my/app/MyControl"], function(MyControl) {
     ...
 });

@@ -41,11 +41,11 @@ The naming of the properties varies based on the actual use case of the control.
 
 The examples below illustrate the default behavior of numeric data in an RTL page context – the individual parts of the text are mixed:
 
-![](loio41ff02ffc92746729276a3eb142062b8_HiRes.png)
+![](images/loio41ff02ffc92746729276a3eb142062b8_HiRes.png)
 
 After setting the `textDirection` and `textAlign` properties of the control \(inherited from `sap.m.InputBase`\), the numeric data is displayed in LTR mode, despite the RTL page context. When in LTR mode, the default text alignment \(**begin**\) is kept, which differs from the page text alignment. Because of this, we should use `textAlign: end` as the control doesn’t force the alignment of the text. Here is how this looks in an `sap.m.Input` control:
 
-``` js
+```js
 
 sap.m.Input ({
      value: "(+359) 111 222 333 + (Some) text", 
@@ -56,11 +56,11 @@ sap.m.Input ({
 
 And here is how it looks on the screen:
 
-![](loio2d87e986b78240219be610f8e6487682_HiRes.png)
+![](images/loio2d87e986b78240219be610f8e6487682_HiRes.png)
 
 This second example shows the behavior of a control that enforces correct text alignment - `sap.m.DisplayListItem`. In this case, you don't need to set the `textAlign` property.
 
-``` js
+```js
 
 new sap.m.DisplayListItem({
      label: "Phone Correct", 
@@ -71,7 +71,7 @@ new sap.m.DisplayListItem({
 
 And here is how it looks on the screen:
 
-![](loio402f39d2eb92465b9dfc16124339c897_HiRes.png)
+![](images/loio402f39d2eb92465b9dfc16124339c897_HiRes.png)
 
 > ### Tip:  
 > To ensure that your application displays the data correctly, always test your application using RTL mode and real data.

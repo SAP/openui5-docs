@@ -115,7 +115,7 @@ The `specialDates` aggregation, which allows you to define special dates for the
 
 If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space.This feature is enabled by default.
 
- ![](loio1da07e72426044b6a23a58549b95e2b5_Source1.png) 
+ ![](images/loio1da07e72426044b6a23a58549b95e2b5_Source1.png) 
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table).
 

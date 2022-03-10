@@ -34,7 +34,7 @@ The list binding for the table in the following sample leads to the following re
 
 `SalesOrderList?$select=BuyerName,LifecycleStatus,Note,SalesOrderID&$expand=SO_2_BP($select=BusinessPartnerID,CompanyName)`
 
-``` xml
+```xml
 <Table items="{/SalesOrderList}"
   ...
   <items>

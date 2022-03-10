@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 No need to worry about device specifics! OpenUI5 apps run on smartphones, tablets, and desktops. The UI controls automatically adapt themselves to each device's capabilities and make the most of the available real estate. supports several functions to adapt to operating systems and devices.
 
-![](loio4d2ab35a01d7482a90bee0d3354db457_LowRes.png) 
+![](images/loio4d2ab35a01d7482a90bee0d3354db457_LowRes.png) 
 
 -   **[The Device API](The_Device_API_69a8e46.md "The device API (sap.ui.Device) is an API which provides information
 		about device specifics, like the operating system along with its version, the browser and

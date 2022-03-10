@@ -14,7 +14,7 @@ Example of a simple control with a `name` property
 
 The control is used to render the text "Hello <name\>":
 
-``` js
+```js
 // "Control" required from "sap/ui/core/Control"
 
 Control.extend("my.Hello", {                  // call the new Control type "my.Hello" 
@@ -39,7 +39,7 @@ Control.extend("my.Hello", {                  // call the new Control type "my.H
 
 The new control is ready for use now. To instantiate and display the control, use the following code:
 
-``` js
+```js
 
 new my.Hello({name:"UI5"}).placeAt("content");
 ```

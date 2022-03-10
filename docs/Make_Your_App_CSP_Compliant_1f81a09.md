@@ -22,7 +22,7 @@ It's strongly recommended that you make your OpenUI5 applications CSP compliant 
 
 Don't use directly executable code in your HTML files, because this makes them vulnerable. Instead, enable the `ComponentSupport` module in the bootstrapping script. Then, declare your desired component in the body via a `div` tag. This will instantiate the component when the `onInit` is executed.
 
-``` html
+```html
 ...
 <script id="sap-ui-bootstrap"
 	src="resources/sap-ui-core.js"
@@ -48,7 +48,7 @@ Because the HTML files in your test folder do not directly open your application
 
 New script file:
 
-``` js
+```js
 window.suite = function() {
 	"use strict";
 
@@ -65,7 +65,7 @@ window.suite = function() {
 
 HTML file:
 
-``` html
+```html
 <head>
 	...
 	<script src="testsuite.qunit.js" data-sap-ui-testsuite></script>

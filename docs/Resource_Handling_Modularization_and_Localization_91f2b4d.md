@@ -74,7 +74,7 @@ The resource handler in OpenUI5 provides the following additional features:
 
 For Java Servlet containers, OpenUI5 provides a `ResourceServlet` to manage the access to OpenUI5 resources within the web application and the various UI libraries in the classpath. The following snippet shows how to enable the resource servlet for OpenUI5:
 
-``` xml
+```xml
   <!-- ============================================================ -->
   <!-- SAPUI5 resource servlet used to handle application resources -->
   <!-- ============================================================ -->
@@ -291,7 +291,7 @@ Configuration parameters are added as context parameters to the web.xml.
 
 When you're starting to develop OpenUI5 controls and modules being located inside the servlet paths `resources/` or `test-resources/`, it makes the development process easier to disable the caching of such resources as well as to enable the resource browsing. To activate the development mode, add the following context parameter:
 
-``` xml
+```xml
   <!-- BEGIN: DEV MODE -->
   <context-param>
     <param-name>com.sap.ui5.resource.DEV_MODE</param-name>
@@ -319,7 +319,7 @@ If the development mode is active, you can browse resources via the resource bro
 
 You can use the `ResourceServlet` to tunnel/proxy requests to another server that provides SAPUI5 resources instead of referring to OpenUI5 from a remote location inside the bootstrap script tag and thus avoid cross domain issues. To activate the remote location tunneling/proxying, add the following context parameter to the web.xml of your application:
 
-``` xml
+```xml
   <context-param>
     <param-name>com.sap.ui5.resource.REMOTE_LOCATION</param-name>
     <param-value>http://%server%:%port%/sapui5</param-value>

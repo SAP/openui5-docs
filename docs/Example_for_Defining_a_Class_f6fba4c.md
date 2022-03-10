@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Full example of a class definition, including JSDoc
 
-``` js
+```js
 sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (BaseObject, JSONModel) {
  
     // declare and document the constructor function
@@ -109,7 +109,7 @@ sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (B
 
 ### Virtual Methods
 
-``` js
+```js
 /**
  * A 'virtual' method, that doesn't exist in this class but should be declared
  * in subclasses.

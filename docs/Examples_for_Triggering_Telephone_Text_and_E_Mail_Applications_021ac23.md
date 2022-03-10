@@ -14,7 +14,7 @@ Code samples for triggering telephone, text and e-mail applications.
 
 Sample data used in the examples:
 
-``` js
+```js
 
 var person = {
     name : "John Smith",
@@ -36,7 +36,7 @@ You can trigger an external application at any time, but it is usually triggered
 
 The following button can be used to place a call.
 
-``` js
+```js
 
 new sap.m.Button({
     text : person.tel,
@@ -55,7 +55,7 @@ new sap.m.Button({
 
 The following code snippet gives an example for triggering an e-mail application. You can also set the subject and message of the e-mail application:
 
-``` js
+```js
 
 new sap.m.Image({
     src : "images/website.png", /* Depends where your images are located */
@@ -73,7 +73,7 @@ new sap.m.Image({
 
 `DisplayListItem` with active feedback is the most popular use case for the following example.
 
-``` js
+```js
 
 new sap.m.DisplayListItem({
     label : "Sms",
@@ -87,7 +87,7 @@ new sap.m.DisplayListItem({
 
 To use any other control inside the list, use `InputListItem`:
 
-``` js
+```js
 
 new sap.m.InputListItem({
     label : "Website",

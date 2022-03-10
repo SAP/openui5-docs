@@ -22,7 +22,7 @@ By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` w
   
 <a name="loiobc410e94e46540efa02857e15aae583f__fig_hnb_cgm_cv"/>Object Page Header: Expanded \(left\) / Snapped \(right\)
 
- ![](loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)") 
+ ![](images/loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)") 
 
 This behavior can be altered. Setting the property `alwaysShowContentHeader` to `true` will prevent the `headerContent` from snapping.
 
@@ -37,7 +37,7 @@ As the user scrolls through the sections, the currently scrolled section is inte
 
 -   The app can set which section the page should scroll to upon initial display:
 
-    ``` xml
+    ```xml
      <ObjectPageLayout id="ObjectPageLayout" selectedSection="mySectionId">
             <sections>
                 <ObjectPageSection title="Payroll" id="mySectionId">
@@ -57,7 +57,7 @@ As the user scrolls through the sections, the currently scrolled section is inte
 
 -   The app can also change the currently scrolled section at runtime:
 
-    ``` js
+    ```js
     //navigate to a specific section on open
     this.oObjectPageLayout = this.getView().byId("ObjectPageLayout");
     this.oTargetSection = this.getView().byId("empl");

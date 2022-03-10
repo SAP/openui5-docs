@@ -80,7 +80,7 @@ We have improved the following Demo Kit areas:
 
 Empty states are moments in the user experience where there’s no data to display. Success states are occasions to celebrate and reward a user’s special accomplishment or the completion of an important task. The new `IllustratedMessage` control is the recommended combination of a solution-oriented message, an engaging illustration, and conversational tone to better communicate empty or success states.
 
-![](loio46b68bf7ca8244abba196f9f15eb7c6c_HiRes.png)
+![](images/loio46b68bf7ca8244abba196f9f15eb7c6c_HiRes.png)
 
 For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.IllustratedMessage) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.IllustratedMessage).
 

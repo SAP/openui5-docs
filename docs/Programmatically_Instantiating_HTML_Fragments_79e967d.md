@@ -16,13 +16,13 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 
 To give an example of a programmatic instantiation of an HTML fragment, you first have to define one. The following code presents an example definition:
 
-``` js
+```js
 <div data-sap-ui-type="sap.m.Button" data-press="doSomething" data-text="Hello World"></div>
 ```
 
 This fragment can be instantiated from a controller as follows:
 
-``` js
+```js
 
 this.loadFragment({
     name: "my.useful.UiPartZ",

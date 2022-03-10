@@ -22,7 +22,7 @@ As OpenUI5 is evolving, the loading processes in the background were significant
 
 Add the bootstrapping tag `data-sap-ui-async="true"` to your `index.html` file. It enables the runtime to load all the modules and preload files for declared libraries asynchronously if an asynchronous API is used.
 
-``` html
+```html
 <script 
 	id="sap-ui-bootstrap"
 	src="/resources/sap-ui-core.js"
@@ -44,7 +44,7 @@ Setting `async=true` leverages the browser's capabilities to execute multiple re
 
 If you listen to the `init` event as part of your `index.html` page, make sure that you implement the asynchronous behavior also here, as shown in the following code snippet:
 
-``` html
+```html
 <script>
 	sap.ui.getCore().attachInit(function() {
 		sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {
@@ -86,7 +86,7 @@ Please check the `rootView` of the application's `manifest.json` file for an `as
 
 To configure the targets for asynchronous loading, please also check the [Routing Configuration](Routing_Configuration_9023130.md) for the `async=true` parameter.
 
-``` json
+```json
 "sap.ui5": {
 	"rootView": {
         "viewName": "sap.ui.demo.walkthrough.view.App",
@@ -125,7 +125,7 @@ The [`sap.ui.core.IAsyncContentCreation`](https://openui5.hana.ondemand.com/#/ap
 
 The following code shows a sample UIComponent implementing the interface:
 
-``` js
+```js
 sap.ui.define(["sap/ui/core/UIComponent"], function(UIComponent) {
 	return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
 		metadata: {

@@ -222,7 +222,7 @@ Screen width less than 600px \(smartphones\): For devices such as these, `sapUiR
 </td>
 <td valign="top">
 
- ![](loio9520013705d3494383c587b737336856_LowRes.png) 
+ ![](images/loio9520013705d3494383c587b737336856_LowRes.png) 
 
 
 
@@ -238,7 +238,7 @@ Between 600px and 1023px \(tablets and small desktops\): For these, `sapUiRespon
 </td>
 <td valign="top">
 
- ![](loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png) 
+ ![](images/loioca3e0cc3e25246d1ae50e67a1a497235_LowRes.png) 
 
 
 
@@ -254,7 +254,7 @@ Larger than 1023px \(large desktops\): For these, `sapUiResponsiveMargin` provid
 </td>
 <td valign="top">
 
- ![](loiof76b0b343adf440684fcd968861fba01_LowRes.png) 
+ ![](images/loiof76b0b343adf440684fcd968861fba01_LowRes.png) 
 
 
 
@@ -286,7 +286,7 @@ If your control does **not** have a `width` property but still has a default wid
 
 To apply the classes described here in your code, simply add a `class` attribute and the margin class to the respective control tag in your declarative xml views. If you need to add several classes at once \(which can be the case if you’re using single-sided margins\), separate them by a space. Here’s a sample snippet containing a panel and an `IconTabBar`:
 
-``` xml
+```xml
 
 <mvc:View
       height="100%"

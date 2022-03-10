@@ -20,7 +20,7 @@ Instead of hard-coding a single template control, we use a factory function to g
   
 <a name="loio284a036c8ff943238fb65bf5a2676fb7__fig_r1j_pst_mr"/>Controls generated based on data
 
- ![](loiodb27ba88d80c4778809bdb9b971531f9_HiRes.png "Controls generated based on data") 
+ ![](images/loiodb27ba88d80c4778809bdb9b971531f9_HiRes.png "Controls generated based on data") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 15](
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 
 <mvc:View
 	controllerName="sap.ui.demo.db.controller.App"
@@ -66,7 +66,7 @@ The `List` XML element that previously held the product list is now reduced simp
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library",
@@ -147,7 +147,7 @@ Finally, we return the control that is displayed inside the list.
 
 ### webapp/view/ProductSimple.fragment.xml \(new\)
 
-``` xml
+```xml
 <core:FragmentDefinition
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core">
@@ -173,7 +173,7 @@ The XML fragment defines a `StandardListItem` that is used if the stock level is
 
 ### webapp/view/ProductExtended.fragment.xml \(new\)
 
-``` xml
+```xml
 <core:FragmentDefinition
 	xmlns="sap.m"
 	xmlns:core="sap.ui.core">
@@ -207,7 +207,7 @@ However, more complex logic can’t be defined declaratively in XML. Therefore, 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Product Details
 ...
@@ -218,7 +218,7 @@ outOfStock=Out of Stock
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 ...
 # Product Details
 ...

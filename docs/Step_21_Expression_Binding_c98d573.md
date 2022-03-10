@@ -20,7 +20,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
   
 <a name="loioc98d57347ba444c6945f596584d2db45__fig_r1j_pst_mr"/>The price is now formatted according to its number
 
- ![](loio2ff81a7fea204f69913e33c2545bfb39_HiRes.png "The price is now formatted according to its number") 
+ ![](images/loio2ff81a7fea204f69913e33c2545bfb39_HiRes.png "The price is now formatted according to its number") 
 
 ***
 
@@ -28,7 +28,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
 
 You can view and download all files at [Walkthrough - Step 21](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.21/preview).
 
-``` xml
+```xml
 <mvc:View
 controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 xmlns="sap.m"

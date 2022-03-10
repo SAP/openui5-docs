@@ -30,7 +30,7 @@ All our controls now support the Persian calendar. The Persian calendar is also 
 
 The Persian calendar year begins around March 21st of each Gregorian year and ends at around March 20th of the following year. To convert the Persian calendar years into the equivalent Gregorian year, add 621 or 622 years to the Persian calendar year depending on whether the Persian calendar year has begun or not.
 
- ![](loiobbe5a6aa64b74db6bcf6f0bc510f0d34_LowRes.png) 
+ ![](images/loiobbe5a6aa64b74db6bcf6f0bc510f0d34_LowRes.png) 
 
 ***
 
@@ -38,11 +38,11 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
 -   `sap.f.Avatar` is an SAP Fiori 2.0 image-like control that has different display options for representing images, initials, and icons. It allows the usage of different content, shapes, and sizes depending on the use case.
 
-     ![](loiob6de75d7ec6745ef9bd006c430325948_LowRes.png) 
+     ![](images/loiob6de75d7ec6745ef9bd006c430325948_LowRes.png) 
 
     There are several predefined sizes, as well as an option to set a custom size.
 
-     ![](loio9127c435630540d890ff85b14cbed308_LowRes.png) 
+     ![](images/loio9127c435630540d890ff85b14cbed308_LowRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.Avatar) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.Avatar/preview).
 
@@ -50,7 +50,7 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
     There are several possible layouts that can be changed with the control's API, and also by the user with navigation arrows.
 
-     ![](loio2d2dc782d40843f391a6da7b3c056acb_LowRes.png) 
+     ![](images/loio2d2dc782d40843f391a6da7b3c056acb_LowRes.png) 
 
     For more information, see [Building an App with the Flexible Column Layout and Related Classes](Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.FlexibleColumnLayout), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.FlexibleColumnLayoutSimple/preview).
 
@@ -60,14 +60,14 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
       
     <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_dxg_h4j_5y"/>Different types of actions in the title positioned in a predefined order
 
-     ![](loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a predefined
+     ![](images/loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a predefined
     							order") 
 
        
       
     <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_zvx_1wh_wy"/>Different types of actions in the footer’s right and left areas, positioned in a predefined order
 
-     ![](loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left areas,
+     ![](images/loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left areas,
     							positioned in a predefined order") 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.semantic.SemanticPage) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.SemanticPageFreeStyle/preview).
@@ -141,7 +141,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
 -   `sap.m.Input` and all inheriting controls now allow filtering and searching in two or more columns. Matching is done only on the initial character and the matching sequence is displayed in bold in the suggestion list.
 
-     ![](loiof31e644295ca4df1a16300064c886e28_LowRes.png) 
+     ![](images/loiof31e644295ca4df1a16300064c886e28_LowRes.png) 
 
     For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.InputAssistedTwoValues/preview).
 
@@ -155,11 +155,11 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
     -   When the maximum number of notifications is reached, a message is shown on the bottom of the `NotificationListGroup` notifying the user about additional notifications that are hidden.
 
-         ![](loio4387085657e0455786240dbffb89fe5b_LowRes.png) 
+         ![](images/loio4387085657e0455786240dbffb89fe5b_LowRes.png) 
 
     -   Action buttons have been moved from the footer of the `NotificationListItem` to the header to improve usability.
 
-         ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+         ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
 
 
     For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
@@ -170,7 +170,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 
 -   `sap.m.Slider` and `sap.m.RangeSlider` can display labels for tick marks. The labels are defined and represented as a `sap.m.ResponsiveScale`, which is logically decoupled from the slider. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ResponsiveScale) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview).
 
-     ![](loiob11c763f854c4b069eb89f58423bb993_LowRes.png) 
+     ![](images/loiob11c763f854c4b069eb89f58423bb993_LowRes.png) 
 
 -   `sap.m.Table`: Screen reader support for sap.m.Table has been improved. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table).
 
@@ -200,11 +200,11 @@ New and reworked demo apps:
 
 -   *Browse Orders*: A new master-detail app with features for browsing orders
 
-     ![](loio67c304672d8241b4a6496b969c01d972_LowRes.png) 
+     ![](images/loio67c304672d8241b4a6496b969c01d972_LowRes.png) 
 
 -   *Shop Administrator*: The tool page demo app has been completely renovated and now showcases a shop administration scenario with controls from the `sap.tnt`, `sap.ui.layout`, and `sap.suite.ui` library.
 
-     ![](loioa053afde39624bf29121f26802d1d168_LowRes.png) 
+     ![](images/loioa053afde39624bf29121f26802d1d168_LowRes.png) 
 
 
 **Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")

@@ -24,7 +24,7 @@ With this release, OpenUI5 is upgraded from version 1.54 to 1.56.
 
 When event handlers are assigned to control events in XML views, you can now also specify parameters which can be passed to the event handler. The parameters can be static values as well as bindings and even expressions. This feature helps to reduce controller code and avoid unnecessary controller methods, and separates the controller logic from the retrieval of the required input values.
 
-``` xml
+```xml
 <Button text="Add Product" press=".modifyList('add ', ${products>unitPrice})"/>
 ```
 
@@ -36,7 +36,7 @@ For more information, see [Handling Events in XML Views](Handling_Events_in_XML_
 
 The Support Assistant now allows you to import and export your rule selection. This helps you when you want to perform more than one analysis with the same subset of selected rules. The selection is exported as a `.json` file with a title and description of your choice. You can then import this file and load it whenever you want to execute the same rules in another analysis.
 
- ![](loio916079a1321e478498c896d0ce325591_HiRes.png) 
+ ![](images/loio916079a1321e478498c896d0ce325591_HiRes.png) 
 
 For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
@@ -88,7 +88,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   `sap.ui.support.ExecutionScope.getElements` has a new parameter `cloned`. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.support.ExecutionScope/methods/Summary).
 
--   A *Filter* view showing the currently applied filter has been added to the *Issues* view of the Support Assistant. The *Clear Filtering* button \(![](loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png)\) has moved to the *Filter* view. It is active only when there is a filter selected.
+-   A *Filter* view showing the currently applied filter has been added to the *Issues* view of the Support Assistant. The *Clear Filtering* button \(![](images/loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png)\) has moved to the *Filter* view. It is active only when there is a filter selected.
 
 -   An explanatory note has been added to the *Additional Rulesets* view under the header to give more clarity about the function of these rulesets and why they are in a separate tab.
 
@@ -99,7 +99,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 -   In the *Issues* view the number of issues is only highlighted when there are issues of medium and high severity. This improvement helps to easily see the distribution of the issues by severity.
 
 
-![](loio88301172a39245bbb35f0d5abbc26646_HiRes.png)
+![](images/loio88301172a39245bbb35f0d5abbc26646_HiRes.png)
 
 ***
 
@@ -235,11 +235,11 @@ We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_
 
 -   We've added a *Change version* button in the Demo Kit's toolbar that enables you to easily switch the app to a different OpenUI5 version.
 
-     ![](loio401b0b06690b4339856e6c517cb4c884_HiRes.png) 
+     ![](images/loio401b0b06690b4339856e6c517cb4c884_HiRes.png) 
 
 -   In the *API Reference*, at the bottom of the API tree you can now find an *Index by Version* page that displays all APIs grouped by the release version they were first introduced in. Each release version is displayed as a separate tab.
 
-     ![](loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png) 
+     ![](images/loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png) 
 
     For more information, see *API Reference*: [Index by Version](https://openui5.hana.ondemand.com/#/api/since).
 

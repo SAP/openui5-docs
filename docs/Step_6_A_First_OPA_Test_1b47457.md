@@ -20,7 +20,7 @@ A bulletin board may contain many posts. We expect to have a high data load once
   
 <a name="loio1b47457cbe4941ee926317d827517acb__fig_r1j_pst_mr"/>The OPA test page is waiting for more items to be loaded
 
- ![](loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.png "The OPA test page is waiting for more items to be loaded") 
+ ![](images/loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.png "The OPA test page is waiting for more items to be loaded") 
 
 ***
 
@@ -43,7 +43,7 @@ We write integration tests with OPA5 – a tool that is integrated and delivered
   
 <a name="loio1b47457cbe4941ee926317d827517acb__fig_iwx_k4f_ft"/>Integration test infrastructure in the project
 
- ![](loio596ebcf8996a4a838c0ab4189ddf1804_LowRes.png "Integration test infrastructure in the project") 
+ ![](images/loio596ebcf8996a4a838c0ab4189ddf1804_LowRes.png "Integration test infrastructure in the project") 
 
 For structuring integration tests with OPA we use “journeys”. A test journey contains all test cases for a specific view or use case, for example the navigation journey simulates user interaction with the app.
 
@@ -56,7 +56,7 @@ The journey uses another structuring element of OPA called “page object” tha
 
 ### webapp/test/integration/WorklistJourney.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist"
@@ -114,7 +114,7 @@ Now you might wonder where all those descriptive functions and the helper object
 
 ### webapp/test/integration/pages/Worklist.js
 
-``` js
+```js
 sap.ui.define([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',

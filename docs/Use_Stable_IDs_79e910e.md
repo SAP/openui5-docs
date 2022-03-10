@@ -30,7 +30,7 @@ For this, you use the `id` property or attribute of the respective element. For 
 
 Here's an example of an XML view **without** stable IDs:
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -48,7 +48,7 @@ At runtime, the `Page` and the `Table` would get dynamically generated IDs like 
 
 If you define stable IDs for the two controls in the example above, it could look like this:
 
-``` js
+```js
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">

@@ -18,7 +18,7 @@ A binding path can either be absolute or relative: Absolute binding paths start 
 
 When you use multiple models, specify the model name within the binding path to address the correct model. The same applies for setting a binding context for such a model. The binding path must start with the model name followed by a '\>' as shown in the following example for setting a binding context.
 
-``` js
+```js
 oControl.setBindingContext(oContext );
 oControl.setBindingContext(oContext,"myModelName");
 ```

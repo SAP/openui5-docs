@@ -28,7 +28,7 @@ The following additional options exist for attaching data to OpenUI5 controls:
 
 To set and retrieve data, use the following code:
 
-``` js
+```js
 myButton.data("myData", "Hello");  // attach some data to the Button
 
 alert(myButton.data("myData"));     // alerts "Hello"
@@ -45,7 +45,7 @@ alert(dataObject.myData);          // alerts "Hello"
 
 For list bindings, use the following code:
 
-``` js
+```js
 // "CustomData" required from "sap/ui/core/CustomData"
 // "JSONModel" required from module "sap/ui/model/json/JSONModel"
 // "List" required from module "sap/m/List"
@@ -94,7 +94,7 @@ The difference between this more formal namespace and the existing MVC namespace
 > 
 > The following example shows how you attach the string "just great" to a button:
 > 
-> ``` xml
+> ```xml
 > <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller"
 >            xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 >      <Button id="myBtn" text="Click to show stored coordinates data" app:mySuperExtraData="just great" press="alertCoordinates"></Button>
@@ -108,7 +108,7 @@ The difference between this more formal namespace and the existing MVC namespace
 > 
 > You can use data binding with the following notation:
 > 
-> ``` xml
+> ```xml
 > <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="my.own.controller"
 >            xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
 >      <Button id="myBtn" text="Click to show stored coordinates data" app:coords="{data}" press="alertCoordinates"></Button>
@@ -123,7 +123,7 @@ The difference between this more formal namespace and the existing MVC namespace
 
 To add custom data to an element in a JSON view, add the following code to the element properties \(examples with data binding\):
 
-``` js
+```js
 customData: {
   Type:"sap.ui.core.CustomData",
     key:"coords",
@@ -133,7 +133,7 @@ customData: {
 
 To add multiple data elements, use an array:
 
-``` js
+```js
 customData: [{
   Type:"sap.ui.core.CustomData",
     key:"coords",
@@ -148,7 +148,7 @@ customData: [{
 
 In context, this looks as follows:
 
-``` js
+```js
 var json =
   {
     Type: "sap.ui.core.mvc.JSONView",
@@ -175,7 +175,7 @@ var json =
 
 To add custom data objects to a control or an element in HTML views, use a specific HTML attribute with the following syntax: `data-custom-data:my-key="myValue"`. A custom data attribute starts with `data-custom-data:` followed by the name of the key. The dashes convert the respective following character into an upper case character. The value can be either a string or a binding expression:
 
-``` html
+```html
 <div data-sap-ui-type="sap.m.Button" data-text="This button is added dynamically" data-custom-data:my-key="myValue" data-custom-data:my-bound-key="{/mypath}"></div>
 ```
 

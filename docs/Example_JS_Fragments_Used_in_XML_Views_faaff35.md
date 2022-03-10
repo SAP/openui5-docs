@@ -22,7 +22,7 @@ The example uses different combinations. Make sure that the `sap-ui-core.js` scr
 
 Definition of a simple JS fragment containing two buttons:
 
-``` js
+```js
 // fragment is located in a file named: my/own/Fragment.fragment.js,
 sap.ui.define(["sap/m/Button"], function (Button) {
     return {
@@ -45,7 +45,7 @@ sap.ui.define(["sap/m/Button"], function (Button) {
 
 Definition of a simple XML view:
 
-``` xml
+```xml
 <mvc:View xmlns:core="sap.ui.core"
     xmlns:layout="sap.ui.layout"
     xmlns:mvc="sap.ui.core.mvc"
@@ -69,7 +69,7 @@ Definition of a simple XML view:
 
 Definition of a simple controller used with the XML view:
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/Fragment'], function (Controller, Fragment) {
     "use strict";
     return Controller.extend("my.own.Controller", {
@@ -102,7 +102,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/Fragment'], function (
 
 Instance creation of controller and XML view:
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 	<head>

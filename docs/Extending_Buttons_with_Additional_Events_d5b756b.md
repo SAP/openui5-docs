@@ -14,7 +14,7 @@ Example of a button control that is extended with additional events.
 
 To create a `HoverButton` control, that is, a button that fires a `hover` event when the mouse enters its area, use the following code:
 
-``` js
+```js
 sap.m.Button.extend("HoverButton", { // call the new Control type "HoverButton" 
                                                 // and let it inherit from sap.m.Button
       metadata: {
@@ -36,7 +36,7 @@ sap.m.Button.extend("HoverButton", { // call the new Control type "HoverButton"
 
 The `HoverButton` control is used in the application in the same way as a regular button. The following code snippet shows how to attach a handler to the `hover` event:
 
-``` js
+```js
   
 var myControl = new HoverButton("myBtn", {
       text: "Hover Me",

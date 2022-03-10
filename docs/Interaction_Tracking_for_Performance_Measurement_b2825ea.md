@@ -24,7 +24,7 @@ You can use `Interaction.filter` from module `sap/ui/performance/trace/Interacti
 
 ### Example of an Interaction Measurement
 
-``` js
+```js
 InteractionMeasurement = {
     id: uid()                   // interaction ID
     event: "click",             // event which triggered interaction - default is startup interaction
@@ -568,7 +568,7 @@ Time during which a `BusyIndicator` was rendered and hence blocking the UI durin
 
 ### Calculation of Times
 
-![](loio9678404bdf5a4065ac270e76191984d0_LowRes.png)
+![](images/loio9678404bdf5a4065ac270e76191984d0_LowRes.png)
 
 **Related Information**  
 

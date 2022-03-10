@@ -43,7 +43,7 @@ The Gherkin library contains the following parts:
 
     Software specification written in Gherkin syntax. Feature files are human-readable specifications that are also machine-readable. Features are composed of **test scenarios**, which are themselves composed of **test steps**.
 
-    ```nocode
+    ```
     Feature: Wearing sunscreen stops skin cancer
     
       Scenario: Apply sunscreen
@@ -56,7 +56,7 @@ The Gherkin library contains the following parts:
 
     Translates the feature file into something a computer can understand and execute. The steps file also contains the tests to be executed to ensure that the software behaves according to its specification. The main elements of a steps file are called **step definitions**.
 
-    ``` js
+    ```js
     this.register(/^I protect my skin$/i, function() {
       this.assert.assertEqual(this.mySkin, 'protected');
     });

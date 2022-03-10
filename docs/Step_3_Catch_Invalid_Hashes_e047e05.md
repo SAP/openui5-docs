@@ -20,7 +20,7 @@ Sometimes it is important to display an indication that the requested resource w
   
 <a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_r1j_pst_mr"/>*Not Found* page
 
- ![](loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page") 
+ ![](images/loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page") 
 
 ***
 
@@ -32,13 +32,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 <a name="loioe047e0596e8a4a1db50f4a53c11f4276__fig_chm_4jp_ls"/>Folder structure for this step
 
- ![](loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step") 
+ ![](images/loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step") 
 
 ***
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
    ...
    "sap.ui5": {
@@ -85,7 +85,7 @@ Let’s extend the routing configuration in the descriptor by adding a `bypassed
 
 ### webapp/view/NotFound.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.nav.controller.NotFound"
    xmlns="sap.m"
@@ -103,7 +103,7 @@ Now we create the view referenced above in a new file `NotFound.view.xml` in the
 
 ### webapp/controller/NotFound.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -121,7 +121,7 @@ Now we create the controller for the `NotFound` view and save it into the `webap
 
 ### webapp/i18n/i18n.properties
 
-``` js
+```js
 ...
 NotFound=Not Found
 NotFound.text=Sorry, but the requested resource is not available.

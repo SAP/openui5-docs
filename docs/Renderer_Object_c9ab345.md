@@ -20,7 +20,7 @@ Additional methods can be added to the `renderer` object to encapsulate the rend
 
 When only a single `render` function is needed, it can be given as value of the `renderer` function without the enclosing renderer object:
 
-``` js
+```js
 renderer: function(oRm, oControl) {
     oRm.openStart("div", oControl).openEnd().text(oControl.getText()).close("div");
 }
@@ -38,7 +38,7 @@ renderer: {
 
 If an existing renderer is used without modification, you can use the name of the respective renderer class:
 
-``` js
+```js
 renderer: "sap.m.ButtonRenderer"
 ```
 
@@ -46,7 +46,7 @@ If the renderer for a control gets more complex, it can be moved into a module o
 
 This is shown in the following example. Note that the methods need to be packed together into an object to indicate that they all go into the control renderer. The main rendering method is called `render`. The `this` keyword refers to the control renderer type and is used to access the other methods:
 
-``` js
+```js
 
 // module 'my/lib/MyControl'
 sap.ui.define([`sap/ui/core/Control`, `my/lib/MyControlRenderer`],
@@ -70,7 +70,7 @@ sap.ui.define([`sap/ui/core/Control`, `my/lib/MyControlRenderer`],
 });
 ```
 
-``` js
+```js
 // module 'my/lib/MyControlRenderer'
 sap.ui.define([], function() {
     "use strict";
@@ -119,7 +119,7 @@ In the modern signature variant, two parameters must be given: A qualified name 
 
 This signature has been designed to resemble the class extension mechanism as provided by [`Object.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object%23methods/sap.ui.base.Object.extend).
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/Renderer'],
     function(Renderer) {
     "use strict";
@@ -149,7 +149,7 @@ sap.ui.define(['sap/ui/core/Renderer'],
 
 The extension of renderers works across multiple levels. A `FancyLabelRenderer` can extend the above `LabelRenderer`:
 
-``` js
+```js
 sap.ui.define(['mylib/LabelRenderer'],
     function(LabelRenderer) {
     "use strict";
@@ -183,7 +183,7 @@ Only renderers that have been created with a call to `extend` will get their own
 > ### Example:  
 > **Derive from `sap.m.InputBaseRenderer` \(which is assumed to be a plain object\).**
 > 
-> ``` js
+> ```js
 > sap.ui.define(['sap/ui/core/Renderer', 
 >                'sap/m/InputBaseRenderer'],
 >     function(Renderer, InputBaseRenderer) {

@@ -23,7 +23,7 @@ The deprecation of the `jQuery.sap` API requires that it is replaced with the ne
 To migrate the simple replacements, add the new module dependency and replace the call with the added argument name as shown in the following example:
 
 > ### Example:  
-> ![](loio7d56a8eabb9e4426a7643e2f524015bd_LowRes.png)
+> ![](images/loio7d56a8eabb9e4426a7643e2f524015bd_LowRes.png)
 
 
 <table>
@@ -4759,7 +4759,7 @@ jQuery extensions have been extracted into different modules. If the jQuery exte
 > ### Example:  
 > Change from the global dependencies to adding the module dependencies to the jQuery extensions:
 > 
-> ![](loioff6352e35e6a4b9a9c16ee3c1fa4d740_LowRes.png)
+> ![](images/loioff6352e35e6a4b9a9c16ee3c1fa4d740_LowRes.png)
 
 
 <table>

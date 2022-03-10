@@ -22,7 +22,7 @@ In this step, we make it possible to delete user data.
   
 <a name="loio12a0d1ef150a42ef81e9f07fe6407018__fig_m3r_hbx_4cb"/>A new *Delete User* button is added
 
- ![](loio32509f45ef8549998c73af49b8cfaa01_LowRes.png "A new Delete User button is added") 
+ ![](images/loio32509f45ef8549998c73af49b8cfaa01_LowRes.png "A new Delete User button is added") 
 
 ***
 
@@ -176,7 +176,7 @@ We add the *Delete* button to the toolbar. With the `OverflowToolbarLayoutData p
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Toolbar
 ...

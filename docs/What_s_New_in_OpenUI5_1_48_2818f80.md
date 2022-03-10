@@ -51,7 +51,7 @@ The main features of the tool are:
 -   Results reporting
 
 
- ![](loio78e276855353468591838dab8465b0a4_LowRes.png) 
+ ![](images/loio78e276855353468591838dab8465b0a4_LowRes.png) 
 
 For more information, see [Support Assistant](Support_Assistant_57ccd7d.md).
 
@@ -75,7 +75,7 @@ There is a new theme parameter tool for finding the best-fitting semantic LESS p
 
 With the tool, you can also preview all supported SAP themes and find information about the semantic parameter structure.
 
- ![](loiof1355e7d44ae495190f31d2835fcf67d_LowRes.png) 
+ ![](images/loiof1355e7d44ae495190f31d2835fcf67d_LowRes.png) 
 
 To find the tool, see [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps).
 
@@ -87,13 +87,13 @@ To find the tool, see [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps).
 
     `sap.m.MessageView` also allows grouping of messages by setting the property `groupItems` and defining a `groupName` for each item. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessageView) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessageViewWithGrouping/preview).
 
-     ![](loio6244b88b28cd446c839efd081c44087d_LowRes.png) 
+     ![](images/loio6244b88b28cd446c839efd081c44087d_LowRes.png) 
 
 -   `sap.m.CustomTreeItem`: Similar to `sap.m.CustomListItem` for the `sap.m.List` control, the `sap.m.CustomTreeItem` control allows you to define custom item content for `sap.m.Tree`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.CustomTreeItem) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CustomTreeItem/preview).
 
 -   `sap.m.PDFViewer` enables SAP Fiori developers to display PDF files in a consistent way across all browsers and devices. It encapsulates browser-specific PDF viewer plugins and provides a simple API to embed a PDF file into a page or to open it in a dialog box. For more information, see [PDF Viewer](PDF_Viewer_cd80a8b.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PDFViewer), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PDFViewer). 
 
-     ![](loio3c7c40d76e704eefa3870adb99144275_LowRes.png) 
+     ![](images/loio3c7c40d76e704eefa3870adb99144275_LowRes.png) 
 
 
 ***
@@ -190,7 +190,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.BlockLayoutCell) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.BlockLayoutCustomBackground/preview).
 
-     ![](loiod4f2319fc0ad40c9b3d0f97ecf393871_LowRes.png) 
+     ![](images/loiod4f2319fc0ad40c9b3d0f97ecf393871_LowRes.png) 
 
 -   `sap.tnt.ToolPage`: `IconTabBar` can now be used in `sap.tnt.ToolPage`. The `ToolHeader` is enhanced to allow `IconTabBar` elements. When inside the `ToolHeader`, the `IconTabBar` can use only labels and no icons.
 

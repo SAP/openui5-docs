@@ -22,19 +22,19 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
   
 <a name="loiof96d2522a5ca4382a274ae3c6d002ca0__fig_r1j_pst_mr"/>Employee list with navigation option for items
 
- ![](loioc797ba8b9e704703bc4bd0b7860630bb_LowRes.png "Employee list with navigation option for items") 
+ ![](images/loioc797ba8b9e704703bc4bd0b7860630bb_LowRes.png "Employee list with navigation option for items") 
 
    
   
 <a name="loiof96d2522a5ca4382a274ae3c6d002ca0__fig_msh_mf3_ns"/>Detail Page for a selected employee
 
- ![](loioaf68fa98aa894030b537ce4893b31de2_LowRes.png "Detail Page for a selected employee") 
+ ![](images/loioaf68fa98aa894030b537ce4893b31de2_LowRes.png "Detail Page for a selected employee") 
 
    
   
 <a name="loiof96d2522a5ca4382a274ae3c6d002ca0__fig_t53_mf3_ns"/>*Not Found* page for an invalid `EmployeeID`
 
- ![](loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid EmployeeID") 
+ ![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid EmployeeID") 
 
 ***
 
@@ -46,13 +46,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 <a name="loiof96d2522a5ca4382a274ae3c6d002ca0__fig_p4j_mf3_ns"/>Folder structure for this step
 
- ![](loioad192cd8e896411b95fe430d84cac1cb_HiRes.png "Folder structure for this step") 
+ ![](images/loioad192cd8e896411b95fe430d84cac1cb_HiRes.png "Folder structure for this step") 
 
 ***
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -129,7 +129,7 @@ Next, we have to create the view `employees.Employee`; for better illustration t
 
 ### webapp/view/employee/Employee.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Employee"
 	xmlns="sap.m"
@@ -190,7 +190,7 @@ Create the file `Employee.view.xml` inside the `webapp/view/employee` folder. Th
 
 ### webapp/controller/employee/Employee.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -253,7 +253,7 @@ We also add an event handler to the `change` event as a private function `_onBin
 
 ### webapp/view/employee/EmployeeList.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.EmployeeList"
 	xmlns="sap.m"
@@ -286,7 +286,7 @@ It’s time to change the `EmployeeList` view so that we can navigate to the new
 
 ### webapp/controller/employee/EmployeeList.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -312,7 +312,7 @@ Then we navigate to the `employee` route and pass a configuration object on to t
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 EmployeeDetailsOf=Employee Details of
 EmployeeIDColon=Employee ID:

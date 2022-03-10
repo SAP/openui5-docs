@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Example of a simple `Square` control that is rendered as a red square with text inside that pops up an alert when clicked
 
-``` js
+```js
 
 // "Control" required from "sap/ui/core/Control"
 var Square = Control.extend("my.Square", { // call the new Control type "my.Square" and let it inherit
@@ -57,7 +57,7 @@ In general, however, when controls need their own CSS and are also supposed to p
 
 To add a grey background, a red border and some alignment information, use the following code:
 
-``` cs
+```cs
 
 <style>
     .mySquare {                  /* style the CSS class that has been written by the renderer method */
@@ -74,7 +74,7 @@ To add a grey background, a red border and some alignment information, use the f
 
 This custom control can now be used like any OpenUI5 control:
 
-``` js
+```js
 
 // "Square" required from "my/Square"
 var myControl = new Square({text:"Hello", size: "100px"});

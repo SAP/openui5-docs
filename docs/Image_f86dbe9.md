@@ -41,7 +41,7 @@ The image control is also used implicitly by other controls, for example:
 
 Assume that the following controls are displayed on a device with high-density screen \(`window.devicePixelRatio` is 2\):
 
-``` js
+```js
 
 new sap.m.Image({ 
 	    densityAware: false, // tells the image control that there are no different optimized image variants

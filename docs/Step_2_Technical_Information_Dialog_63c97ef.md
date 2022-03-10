@@ -18,7 +18,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 ### Preview
 
- ![](loio8bf9780408674588af6d33eb6cebadab_LowRes.png) 
+ ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png) 
 
 ***
 

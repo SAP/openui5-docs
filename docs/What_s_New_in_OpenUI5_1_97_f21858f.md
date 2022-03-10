@@ -237,7 +237,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 We implemented a *News* section with notifications where you can get highlights on important news about OpenUI5. When we upload new information, you’ll see a notification bell with a counter in the main toolbar.
 
-![](loiofe57420a441440c3bad48ca4a02eaf0f_HiRes.png)
+![](images/loiofe57420a441440c3bad48ca4a02eaf0f_HiRes.png)
 
 
 

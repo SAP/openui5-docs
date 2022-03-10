@@ -49,7 +49,7 @@ If you, for example, use a `List` control, you bind the list itself to an absolu
 
 If you used an absolute binding path like `title="{/Name}` for an aggregation instead of a relative one, the result in the window would look like this:
 
- ![](loiof0e02a0a95274e96a374b560e746a3b1_LowRes.png) 
+ ![](images/loiof0e02a0a95274e96a374b560e746a3b1_LowRes.png) 
 
 Another common error related to binding is to refer to the default model instead of referring to a specific model. This happens, for examples, if you forgot to add the model name to the binding declaration.
 
@@ -57,11 +57,11 @@ For example, you have two models in your application: the default model, which h
 
 If you used the binding correctly *Diagnostics* displays the following:
 
- ![](loioea9ef43eca8e480f9f9a591836ee6242_LowRes.png) 
+ ![](images/loioea9ef43eca8e480f9f9a591836ee6242_LowRes.png) 
 
 If the model name is missing, you see the following:
 
- ![](loio6cd1eebf1af24a39afb9c11f0dec39a3_LowRes.png) 
+ ![](images/loio6cd1eebf1af24a39afb9c11f0dec39a3_LowRes.png) 
 
 ***
 

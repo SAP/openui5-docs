@@ -67,7 +67,7 @@ The actions in the title are grouped to text actions or icon actions. When an ag
 
 `titleMainAction`, `titleCustomTextActions`, semantic text actions \(`deleteAction`, `copyAction`, `addAction`\), `customIconActions`, semantic icon actions \(`favoriteAction`, `flagAction`\), share menu action, navigation actions \(`fullScreenAction`, `exitFullScreenAction`, `closeAction`\).
 
- ![](loio5181747523164b82ab3eb6e8558348d5_HiRes.png) 
+ ![](images/loio5181747523164b82ab3eb6e8558348d5_HiRes.png) 
 
 ***
 
@@ -90,7 +90,7 @@ The following aggregations are available to control the semantic in the share me
 
 The actions in the share menu icon appear in the title when a related aggregation is used.
 
- ![](loio1539a48c8fa74dc9a6870d23f787f808_HiRes.png) 
+ ![](images/loio1539a48c8fa74dc9a6870d23f787f808_HiRes.png) 
 
 ***
 
@@ -115,7 +115,7 @@ The actions in the footer are positioned either on its left or right area and ha
 
 The left side contains the `messagesIndicator`, and the right side - `draftIndicator`, `footerMainAction`, `positiveAction`, `negativeAction` and `footerCustomActions`:
 
- ![](loio5d56a484f4334f7da89a530ad3177aa1_HiRes.png) 
+ ![](images/loio5d56a484f4334f7da89a530ad3177aa1_HiRes.png) 
 
 ***
 
@@ -129,7 +129,7 @@ The left side contains the `messagesIndicator`, and the right side - `draftIndic
 
 Definition in an XML view:
 
-``` xml
+```xml
 <core:View
 		xmlns:semantic="sap.f.semantic"
 			controllerName="mycompany.myController"
@@ -142,7 +142,7 @@ Definition in an XML view:
 
 Definition in JavaScript:
 
-``` js
+```js
 var oSemanticPage = new sap.f.semantic.SemanticPage("mySemanticPage");
 oView.addContent(oSemanticPage);
 ```
@@ -153,7 +153,7 @@ oView.addContent(oSemanticPage);
 
 Adding semantic content:
 
-``` xml
+```xml
 <mvc:View
    height="100%"
    xmlns:mvc="sap.ui.core.mvc"
@@ -182,7 +182,7 @@ Adding semantic content:
 
 Adding custom \(non-semantic\) content
 
-``` xml
+```xml
 <mvc:View
    height="100%"
    xmlns:mvc="sap.ui.core.mvc"

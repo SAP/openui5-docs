@@ -14,7 +14,7 @@ By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers
 
 All you have to do is add a sinon section to the test suite configuration as shown below:
 
-``` js
+```js
 sap.ui.define(function() {
 	"use strict";
  
@@ -43,7 +43,7 @@ The following examples show you the basic way in which Sinon.JS can be used. The
 
 A simple spy test:
 
-``` js
+```js
 /*global QUnit sinon */
 sap.ui.define(["sap/m/Button"], function(Button) {
 	 "use strict";
@@ -64,7 +64,7 @@ sap.ui.define(["sap/m/Button"], function(Button) {
 
 A simple stub test:
 
-``` js
+```js
 /*global QUnit sinon */
 sap.ui.define([], function() {
  	"use strict";
@@ -84,7 +84,7 @@ sap.ui.define([], function() {
 
 A simple mock test:
 
-``` js
+```js
 /*global QUnit sinon */
 sap.ui.define([], function() {
 	 "use strict";
@@ -107,7 +107,7 @@ sap.ui.define([], function() {
 
 A simple faked timer test:
 
-``` js
+```js
 /*global QUnit sinon */
 sap.ui.define([], function() {
  	"use strict";
@@ -126,7 +126,7 @@ sap.ui.define([], function() {
 
 A simple faked XHR test:
 
-``` js
+```js
 /*global QUnit sinon */
 sap.ui.define([], function() {
 	"use strict";

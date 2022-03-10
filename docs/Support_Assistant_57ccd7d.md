@@ -41,7 +41,7 @@ The Support Assistant is enabled with the following URL parameter: `sap-ui-suppo
   
 <a name="loio57ccd7d7103640e3a187ed55e1d2c163__fig_c11_3j1_k1b"/>Support Assistant Toolbar
 
- ![](loioc9ec61c44d7d45caba4fb3b31a094557_HiRes.png "Support Assistant Toolbar ") 
+ ![](images/loioc9ec61c44d7d45caba4fb3b31a094557_HiRes.png "Support Assistant Toolbar ") 
 
 ***
 
@@ -64,7 +64,7 @@ Selecting *Rules* will show you the available rulesets. You can then select your
 
 ### Persisting Rules and Settings
 
-All scopes and temporary rules can be stored in the local storage of your browser. This will allow you to continue with your work even after you have closed the browser window. To enable this feature, choose *Settings* \(![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png)\) on the banner and select the checkbox *I agree to use local storage persistency for*.
+All scopes and temporary rules can be stored in the local storage of your browser. This will allow you to continue with your work even after you have closed the browser window. To enable this feature, choose *Settings* \(![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png)\) on the banner and select the checkbox *I agree to use local storage persistency for*.
 
 > ### Tip:  
 > You can delete your already persisted data by choosing *Delete Persisted Data*.

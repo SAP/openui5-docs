@@ -168,7 +168,7 @@ By default, `Measurement` is disabled to avoid unnecessary code execution during
 
 -   Create a measurement in your code with:
 
-    ``` js
+    ```js
     // "Log" required from module "sap/base/Log"
     // "Measurement" required from module "sap/ui/performance/Measurement"
     Measurement.setActive(true);

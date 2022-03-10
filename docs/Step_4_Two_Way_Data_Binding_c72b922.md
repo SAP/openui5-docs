@@ -20,7 +20,7 @@ In the examples used so far, we have used a read-only field to display the value
   
 <a name="loioc72b922fdb59422496661000165d7ff1__fig_r1j_pst_mr"/>Input fields can be enabled or disabled
 
- ![](loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Input fields can be enabled or disabled") 
+ ![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Input fields can be enabled or disabled") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 4](h
 
 ### webapp/view/App.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
@@ -56,7 +56,7 @@ We create a new `view` folder in our app and a new file for our XML view inside 
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView"
@@ -89,7 +89,7 @@ We delete the code that assigned the `sap.m.Text` field to the UI and add an XML
 
 You can now refresh the application preview and select or deselect the checkbox. You will see that the input fields are automatically enabled or disabled in response to the state of the checkbox.
 
-![](loio61d68f167778425bbdd2abd7d550ae65_HiRes.png)![](loio6222561089bb4559beafb33b456bc8d4_HiRes.png)
+![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png)![](images/loio6222561089bb4559beafb33b456bc8d4_HiRes.png)
 
 It is clear that we have not written any code to transfer data between the user interface and the model, yet the `Input` controls are enabled or disabled according to the state of the checkbox. This behavior is the result of the fact that OData models and JSON models implement two-way data binding, and that for JSON Models two-way binding is the default behavior. For more information, see [Binding Modes](Data_Binding_68b9644.md#loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes).
 

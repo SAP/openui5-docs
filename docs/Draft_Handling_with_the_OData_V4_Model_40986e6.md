@@ -16,7 +16,7 @@ The SAP Fiori Design Guidelines specify how [Draft Handling](https://experience.
 
 Suppose your application shows a list report of draft-enabled entities and an object page with more details. To switch between an active and a draft version in the object page and have this switch immediately reflected in the list report as well, you should create the operation binding for the corresponding*edit* or *activation* action relative to a row context of the list report's binding. Use `$$inheritExpandSelect` and pass the `bReplaceWithRVC` flag to the operation binding's `execute` method. This will result in a single POST request which executes the action and returns the desired projection \(`$expand, $select`\) as needed for the object page. Also, it replaces the row context *in situ* with the sibling entity returned by the action. For more information, see [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute).
 
-``` js
+```js
 onEdit : function () {
     var oObjectPage = this.byId("objectPage"),
         oActiveContext = oObjectPage.getBindingContext(),
@@ -34,7 +34,7 @@ onEdit : function () {
 
 To support an efficient cancellation of editing, you should remember the current context of the active entity and have it kept alive \(see [`sap.ui.model.odata.v4.Context#setKeepAlive`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/setKeepAlive)\). Then you can call [`sap.ui.model.odata.v4.Context#replaceWith`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/replaceWith) on the draft entity's context in order to replace the draft with the active entity *in situ*. Afterwards, you should delete the draft entity without requesting a new count from the server. If the active entity is not known \(anymore\), you can use the `"SiblingEntity"` navigation property to go from draft to active entity. For this, it can be executed quite like a function, including usage of `$$inheritExpandSelect` and `bReplaceWithRVC`.
 
-``` js
+```js
 onCancel : function () {
     var oObjectPage = this.byId("objectPage"),
         oDraftContext = oObjectPage.getBindingContext();

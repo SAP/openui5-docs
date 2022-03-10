@@ -20,7 +20,7 @@ Controller extensions allow you to add functionality to existing applications. T
 
 The following sample code shows how to define an extension for an existing controller.
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/mvc/ControllerExtension', 'sap/ui/core/mvc/OverrideExecution'], function(ControllerExtension, OverrideExecution) {
   "use strict";
   return ControllerExtension.extend("my.extension.SampleExtension", {
@@ -80,7 +80,7 @@ If you want to have additional lifecycle events like the standard `onInit` or `o
 
 Controller extensions allow you to define custom lifecycle hooks. In the sample below, a custom lifecycle hook is defined by specifying an `overrideExecution` function:
 
-``` js
+```js
 return ControllerExtension.extend("sap.my.ReuseExtension", {
         metadata: {
             methods: {
@@ -105,7 +105,7 @@ With `OverrideExecution.After`, the extensions are called in the order they are 
 
 Adding `“final”: true` metadata to the public method makes it available for execution \(call\) but not for overriding in the next controller extension.
 
-``` js
+```js
 return ControllerExtension.extend("sap.my.ReuseExtension", {
         metadata: {
             methods: {
@@ -136,7 +136,7 @@ Using the `byId` of the base controller allows the accessing of all controls of 
 
 Controller extensions can serve for reuse purposes. You can achieve this by including a controller extension to your controller as a member.
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/mvc/Controller', 'my/extension/SampleExtension'], function(Controller, SampleExtension) {
     "use strict";
     return Controller.extend("sample.Main", {
@@ -158,7 +158,7 @@ If the controller is instantiated, all members that have a `ControllerExtension`
 You can also override an extension directly in a controller.
 
 > ### Sample Code:  
-> ``` js
+> ```js
 > sap.ui.define(['sap/ui/core/mvc/Controller', 'my/extension/SampleExtension'],
 >     function(Controller, SampleExtension) {
 >     "use strict";

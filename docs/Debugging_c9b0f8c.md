@@ -65,7 +65,7 @@ Once you have entered the URL, press *Activate Reboot URL*. When you then reload
 
 This feature can be used to test an application against a newer or older version of OpenUI5 as part of compatibility testing, or for verifying a bug fix or regression.
 
-![](loio64d3bfdd0f784ae68030208523452899_LowRes.png)
+![](images/loio64d3bfdd0f784ae68030208523452899_LowRes.png)
 
  <a name="loio9d57287c155741e7ad15f42736605ffa"/>
 
@@ -101,11 +101,11 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 
 5.  Open the developer tools of your browser. Whenever the selected methods are called for any instance of the selected control, the code execution is paused in the debugger.
 
-    ![](loiof54ea7bfedff4501959df91b53697579_LowRes.png)
+    ![](images/loiof54ea7bfedff4501959df91b53697579_LowRes.png)
 
     In the call stack you find the method for which you set a breakpoint.
 
-    ![](loio862249d44d7c478cb7be1abb033115bd_LowRes.png)
+    ![](images/loio862249d44d7c478cb7be1abb033115bd_LowRes.png)
 
 6.  To remove a breakpoint, select the red x.
 
@@ -132,7 +132,7 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 
 5.  Open the developer tools of your browser. Whenever the selected methods are called for any instance on the control, the code execution is paused in the debugger.
 
-    ![](loioecd173835d854d65877e2be9ebc1f08f_LowRes.png)
+    ![](images/loioecd173835d854d65877e2be9ebc1f08f_LowRes.png)
 
 6.  To remove a breakpoint, select the red x.
 

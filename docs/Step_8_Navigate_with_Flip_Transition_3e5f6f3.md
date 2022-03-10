@@ -20,20 +20,20 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
   
 <a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_r1j_pst_mr"/>*Employee Details* page with *Flip to Resume* link
 
- ![](loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to Resume
+ ![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to Resume
 					link") 
 
    
   
 <a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_kpz_tqn_ns"/>*Resume* page with multiple tabs
 
- ![](loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs") 
+ ![](images/loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs") 
 
    
   
 <a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_lh1_5qn_ns"/>*Not Found* page for resume
 
- ![](loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume") 
+ ![](images/loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume") 
 
 ***
 
@@ -45,13 +45,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 <a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_p4m_5qn_ns"/>Folder structure for this step
 
- ![](loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step") 
+ ![](images/loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step") 
 
 ***
 
 ### webapp/view/employee/Employee.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Employee"
 	xmlns="sap.m"
@@ -91,7 +91,7 @@ First we add the *Flip to Resume* link to the *Employee Details* view to trigger
 
 ### webapp/controller/employee/Employee.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -124,7 +124,7 @@ Then we change the `Employee.controller.js` file by adding the press handler `on
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -221,7 +221,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 
 ### webapp/view/employee/Resume.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Resume"
 	xmlns="sap.m"
@@ -266,7 +266,7 @@ In the `IconTabBar` we display four tabs. Three of them simply use a `Text` cont
 
 ### webapp/controller/employee/Resume.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -309,7 +309,7 @@ Create a file `Resumee.controller.js` in the `webapp/controller/employee` folder
 
 ### webapp/view/employee/ResumeProjects.view.xml \(New\)
 
-``` xml
+```xml
 
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Projects}"/>
@@ -325,7 +325,7 @@ Create a file `ResumeProjects.view.xml` in the `webapp/view/employee` folder. Th
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 ResumeOf=Resume of
 tabInfo=Info

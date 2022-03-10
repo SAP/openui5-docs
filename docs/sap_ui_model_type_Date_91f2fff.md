@@ -18,7 +18,7 @@ The format patterns must be defined in LDML Date Format notation. For the output
 
 Examples how a `Date` type can be initialized:
 
-``` js
+```js
 // "TypeDate" required  from "sap/ui/model/type/Date"
 
 // The source value is given as Javascript Date object. The used output pattern depends on the locale settings (default).

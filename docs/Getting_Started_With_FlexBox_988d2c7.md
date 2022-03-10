@@ -16,7 +16,7 @@ You can either use the `addItem` method \(see option 1\), or the `items` aggrega
 
 Option 1
 
-``` js
+```js
 
 var oMyFlexbox = new sap.m.FlexBox();
 oMyFlexbox.addItem( new sap.m.Button({text: "Button 1"}) );
@@ -25,7 +25,7 @@ oMyFlexbox.addItem( new sap.m.Button({text: "Button 2"}) );
 
 Option 2
 
-``` js
+```js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -37,7 +37,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 The following figure gives an example how the result looks like if used inside a mobile app page. The necessary code is not shown here.
 
- ![SAPUI5 Mobile FlexBox Buttons](loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png) 
+ ![SAPUI5 Mobile FlexBox Buttons](images/loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png) 
 
 ***
 
@@ -47,7 +47,7 @@ The following figure gives an example how the result looks like if used inside a
 
 Some properties that affect the layout need to be set in the `FlexBox` control. Other properties can be attached to the controls which are placed inside the `FlexBox` by means of the `layoutData` aggregation. The layout direction, for example is set in the `FlexBox` as follows:
 
-``` js
+```js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -58,11 +58,11 @@ var oMyFlexbox = new sap.m.FlexBox({
 });
 ```
 
-![SAPUI5 Mobile FlexBox Buttons Vertical](loiod37cdf08a6e84172b6499f05512b54ba_LowRes.png)
+![SAPUI5 Mobile FlexBox Buttons Vertical](images/loiod37cdf08a6e84172b6499f05512b54ba_LowRes.png)
 
 The order is attached to the button inside a `FlexItemData` object as follows:
 
-``` js
+```js
 
 var oMyFlexbox = new sap.m.FlexBox({
   items: [
@@ -75,14 +75,14 @@ var oMyFlexbox = new sap.m.FlexBox({
 });
 ```
 
-![SAPUI5 Mobile FlexBox Buttons Ordered](loio01f751982b8640ea8f1a24bc25589c60_LowRes.png)
+![SAPUI5 Mobile FlexBox Buttons Ordered](images/loio01f751982b8640ea8f1a24bc25589c60_LowRes.png)
 
 > ### Note:  
 > The `FlexBox` control is a wrapper for the flexible box layout properties in CSS. The control renderer sets the CSS properties \(including prefixed versions where necessary\) on the appropriate HTML elements. The actual layouting is done by the browser.
 
 The controls that you place in the `FlexBox` control are each wrapped in a `DIV` or `LI` element, depending on the `renderType` property. All elements are placed inside another `DIV` or `UL` container, again depending on the `renderType`. If you use `Bare` as `renderType`, elements will be rendered without a wrapping HTML tag. The outermost element represents the so-called *flex container* while its child elements are *flex items*. The HTML structure resulting from all of the examples above looks as follows:
 
-``` html
+```html
 
 <div class="sapMFlexBox">
 

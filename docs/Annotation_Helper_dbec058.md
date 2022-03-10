@@ -71,7 +71,7 @@ The following formatter functions exist:
     > ### Note:  
     > Unsupported values are turned into strings, and indicated as such. To ensure that the data binding syntax is not corrupted, proper escaping is used.
 
-    ```nocode
+    ```
     <Text text="{path: 'meta>Value', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}"/>
     ```
 
@@ -81,7 +81,7 @@ The following formatter functions exist:
     -   The input value `{AnnotationPath : "@com.sap.vocabularies.UI.v1.FieldGroup#Dimensions"}` returns `"{}"`
     -   The input value `{}` returns `""`
 
-    ``` xml
+    ```xml
     
     <template:if test="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.getNavigationPath'}">
         <form:SimpleForm binding="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.getNavigationPath'}" />
@@ -90,7 +90,7 @@ The following formatter functions exist:
 
 -   `isMultiple`: Special formatter that knows about the one of the following dynamic expressions: *14.5.2 Expression edm:AnnotationPath*, *"14.5.11 Expression edm:NavigationPropertyPath"*, *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm:PropertyPath"*. The formatter returns the information whether the navigation path ends with an association end with multiple "\*". If the multiple "\*" are not the last characters, the formatter returns an error.
 
-    ``` xml
+    ```xml
     
     <template:if test="{path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.isMultiple'}">
     ```
@@ -114,7 +114,7 @@ The following helper functions can be used with `<template:with>`:
 
 -   `gotoEntityset`: Helper function for a `with` instruction for the entity set with the given name or the entity set that depending on how it is called has been determined by the last navigation property of one of the following dynamic expressions: *14.5.2 Expression edm:AnnotationPath*, *"14.5.11 Expression edm:NavigationPropertyPath"*, *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm:PropertyPath"*.
 
-    ``` xml
+    ```xml
     
     <template:with path="facet>Target" helper="sap.ui.model.odata.AnnotationHelper.gotoEntitySet" var="entitySet" />
     <template:with path="associationSetEnd>entitySet" helper="sap.ui.model.odata.AnnotationHelper.gotoEntitySet" var="entitySet"/>
@@ -126,21 +126,21 @@ The following helper functions can be used with `<template:with>`:
 
     **Example:** Assume that `entitySet` refers to an entity set within an OData meta model; the helper function is then called on the `entityType` property of that entity set \(which holds the qualified name of the entity type\) and in turn the path of that entity type is assigned to the variable `entityType`.
 
-    ``` xml
+    ```xml
     
     <template:with path="entitySet>entityType" helper="sap.ui.model.odata.AnnotationHelper.gotoEntityType" var="entityType">
     ```
 
 -   `resolvePath` is a helper function for a `template:with` instruction that resolves one of the following dynamic expressions: *14.5.2 Expression edm:AnnotationPath*, *"14.5.11 Expression edm:NavigationPropertyPath"*, *"14.5.12 Expression edm:Path"* and *"14.5.13 Expression edm:PropertyPath"*. The function supports navigation properties and term casts. The binding context passed to the helper function, as determined by the `template:with` instruction's path property, must point to an annotation or annotation property of type `Edm.AnnotationPath`, embedded within an entity type, The context's model must be `sap.ui.model.odata.ODataMetaModel`.
 
-    ``` xml
+    ```xml
     
     <template:with path="meta>Value" helper="sap.ui.model.odata.AnnotationHelper.resolvePath" var="target">
     ```
 
 -   `gotoFunctionImport`: Helper function for a `template:with` instruction that goes to the function import with the name which `oContext` points at. Example: Assume that `dataField` refers to a `DataFieldForAction` within an OData meta model; the helper function is then called on the `Action` property of that data field \(which holds an object with the qualified name of the function import in the String property\) and in turn the path of that function import is assigned to the variable `function`.
 
-    ``` xml
+    ```xml
     
     <template:with path="dataField>Action" helper="sap.ui.model.odata.AnnotationHelper.gotoEntityType" var="function">
     ```

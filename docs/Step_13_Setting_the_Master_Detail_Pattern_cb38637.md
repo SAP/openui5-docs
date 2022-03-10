@@ -24,7 +24,7 @@ Apps using the master-detail pattern operate with a layout divided into two sepa
   
 <a name="loiocb3863746ea14d3698a8b6cc2c62832d__fig_zfh_d31_12b"/>Master-detail pattern with `FlexibleColumnLayout`
 
- ![](loio267d05fd0b294310b7bebdeda5f70e3b_HiRes.gif "Master-detail pattern with FlexibleColumnLayout") 
+ ![](images/loio267d05fd0b294310b7bebdeda5f70e3b_HiRes.gif "Master-detail pattern with FlexibleColumnLayout") 
 
 ***
 
@@ -40,7 +40,7 @@ You can view and download all files at [Flexible Column Layout App - Step 13](ht
 
 ### webapp/Component.js \[MODIFY\]
 
-``` js
+```js
 		...
 		getHelper: function () {
 			return this._getFcl().then(function(oFCL) {

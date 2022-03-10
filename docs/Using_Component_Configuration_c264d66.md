@@ -21,7 +21,7 @@ The OpenUI5 Component Configuration concept does not support hierarchical inheri
 
 The following examples show how the Component Configuration concept in OpenUI5 works. The following code snippet shows the standard controller `Main.controller.js` of the delivered standard application:
 
-``` js
+```js
 sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
     "use strict";
     return Controller.extend("samples.components.ext.sap.Main", {
@@ -42,7 +42,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(Controller) {
 
 The controller extension must not be typed as a controller, but as a plain object. If you prefer to use typed controllers, you can follow the [Controller Replacement](Controller_Replacement_b0b14bf.md) approach. The following code snippet represents the custom controller `CustomMain.controller.js`:
 
-``` js
+```js
 sap.ui.define([], function() {
     "use strict";
     return {
@@ -63,7 +63,7 @@ sap.ui.define([], function() {
 
 The following extension in component configuration merges the two controllers:
 
-``` js
+```js
 extensions: {  
     "sap.ui.controllerExtensions": {
         "samples.components.ext.sap.Main": {

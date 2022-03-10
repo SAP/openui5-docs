@@ -14,7 +14,7 @@ All strings for translation have to be annotated to provide more context for tra
 
 The following comment types exist:
 
-``` prefs
+```ini
 
 #<SAP-Text-Type>
 #<SAP-Text-Type>:<Note for translator>
@@ -1250,7 +1250,7 @@ General text long
 
 ### Properties File
 
-``` prefs
+```ini
 
 #XMSG: a random text used for demonstration purposes, the meaning is not related to any other content in the UI
 HelloWorld=Hello world!

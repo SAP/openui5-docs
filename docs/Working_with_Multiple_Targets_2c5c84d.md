@@ -41,7 +41,7 @@ In the following example, the relationship between the views `employeeOverviewTo
 
 The relationship between the target `employeeOverview` and `employeeOverviewTop` \(`employeeOverviewContent` respectively\) is a parent relationship.
 
-``` js
+```js
 
 "routing": {
   "config": {

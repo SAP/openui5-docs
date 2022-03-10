@@ -44,7 +44,7 @@ The OData V4 model's list and context bindings create `sap.ui.model.odata.v4.Con
 > 
 > When a property is read in external format, the format is solely determined by the type defined in the OData meta data of the property, and not by the type or formatter specified for the binding.
 
-``` js
+```js
 
 // assume oEvent is an event fired when a button is pressed in an item of a table bound to /SalesOrderList
 sOrderID = oEvent.getSource().getBindingContext().getProperty("SalesOrderID"); // the SalesOrderID in the same item

@@ -134,7 +134,7 @@ In addition to individual span and indentation, there is a large number of prope
 <tr>
 <td valign="top">
 
-``` xml
+```xml
 <l:Grid
 		defaultSpan="XL3 L4 M6 S12">
 	<Image src="/item1.png" width="100%"></Image>
@@ -151,19 +151,19 @@ In addition to individual span and indentation, there is a large number of prope
 
 XL container/screen size \(one item spans over 3 columns\)
 
-![](loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)
+![](images/loio9abe089fdafb4b80977828c461e52a6f_LowRes.png)
 
 L container/screen size \(one item spans over 4 columns\)
 
-![](loio946464afb7da47d689a69896b96af818_LowRes.png)
+![](images/loio946464afb7da47d689a69896b96af818_LowRes.png)
 
 M container/screen size \(one item spans over 6 columns\)
 
-![](loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)
+![](images/loio6f160ed0ff3c4f228408901f15b71ac5_LowRes.png)
 
 S container/screen size \(one item spans over 12 columns\)
 
-![](loio8412d67065d04fc88009008a919fb3e2_LowRes.png)
+![](images/loio8412d67065d04fc88009008a919fb3e2_LowRes.png)
 
 
 
@@ -172,7 +172,7 @@ S container/screen size \(one item spans over 12 columns\)
 <tr>
 <td valign="top">
 
-``` xml
+```xml
 <l:Grid
 		defaultSpan="XL3 L4 M6 S12"
 		defaultIndent="XL1 L1 M1 S1">
@@ -190,7 +190,7 @@ S container/screen size \(one item spans over 12 columns\)
 
 XL container/screen size \(items are indented with 1 column\)
 
-![](loiod86735c6b14d4e6c89b0c6313680351a_LowRes.png)
+![](images/loiod86735c6b14d4e6c89b0c6313680351a_LowRes.png)
 
 
 
@@ -199,7 +199,7 @@ XL container/screen size \(items are indented with 1 column\)
 <tr>
 <td valign="top">
 
-``` xml
+```xml
 <l:Grid
 		defaultSpan="XL3 L4 M6 S6">
 	<Image src="/item1.png" width="100%"></Image>
@@ -224,7 +224,7 @@ XL container/screen size \(items are indented with 1 column\)
 
 Individual span for item2 and item4 using `sap.ui.layout.GridData`
 
-![](loio147f0975ec374b01ab642678664fc206_LowRes.png)
+![](images/loio147f0975ec374b01ab642678664fc206_LowRes.png)
 
 
 

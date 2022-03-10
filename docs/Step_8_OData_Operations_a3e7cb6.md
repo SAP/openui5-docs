@@ -22,7 +22,7 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
   
 <a name="loioa3e7cb6f671b4b839f37eb5f88429e41__fig_ybl_pdx_4cb"/>A *Restart Tutorial* button is added
 
- ![](loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added") 
+ ![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [OData V4 - Step 8](https://openui5.hana.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 ...
 		onResetChanges : function () {
 			this.byId("peopleList").getBinding("items").resetChanges();
@@ -78,7 +78,7 @@ The execution is asynchronous, therefore the execute method returns a `Promise`.
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.core.tutorial.odatav4.controller.App"
 	displayBlock="true"
@@ -108,7 +108,7 @@ We add the **headerContent** aggregation to the **Page** and insert the new **Bu
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Toolbar
 ...

@@ -30,7 +30,7 @@ By receiving the data object `oSomeData` from the server, the application enable
 
 Code of the standard controller:
 
-``` js
+```js
 
 // ...data object oSomeData has been received, possibly from an Ajax response...
    if (this.onDataReceived) {         // check whether any extension has implemented the hook...
@@ -41,7 +41,7 @@ Code of the standard controller:
 
 Code of the custom controller:
 
-``` js
+```js
 sap.ui.define("customer.xy.Sub2ControllerExtension", [], function () {
    "use strict";
    return {

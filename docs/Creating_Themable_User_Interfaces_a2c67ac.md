@@ -48,7 +48,7 @@ For example, if you hard-coded the font color to black, this color cannot be adj
 -   To ensure theme-dependent styling, only use basic theme parameters.
 -   Read appropriate parameter values via API and set the elements' CSS properties rather than hard-coding colors or borrowing arbitrary style classes from control sets:
 
-    ``` js
+    ```js
     sap.ui.require(["sap/ui/core/theming/Parameters"], function(Parameters){
         var myColor = Parameters.get("sapUiDarkBG");
     });

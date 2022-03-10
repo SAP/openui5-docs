@@ -14,7 +14,7 @@ Normal or public methods comprise all methods that do not belong to one of the s
 
 All methods are appended to the implementation object. Private methods are identified by a name starting with an underscore and must **not** be called from outside the control. The following code snippet is an example for the public method `divide` that calls the private helper method `_checkForZero` within the control:
 
-``` js
+```js
 
   divide: function(x, y) {     // a public method of the Control
 

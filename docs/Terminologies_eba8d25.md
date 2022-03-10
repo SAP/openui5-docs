@@ -230,7 +230,7 @@ The code block given below shows a sample configuration from the [Shop Administr
 
 The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does not derive directly from the main resource bundle as you might think, but from the first enhancement. The list of resource bundle configurations provided with the `enhanceWith` attribute can be seen as an incremental list of derivations for resource bundles that starts from the main bundle. If there was a third enhancing bundle, it would derive from the second bundle, which in turn derives from the first enhancement, and so on:
 
-``` json
+```json
 
 {
     "bundleUrl": "i18n/i18n.properties",
@@ -311,7 +311,7 @@ The most relevant option is to pass the list of active terminologies as an array
 
  For more information and additional usage instructions, see the [API Reference: `sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create). 
 
-``` js
+```js
 
 sap.ui.require(["sap/ui/core/Component"], function(Component) {
     return Component.create({
@@ -337,7 +337,7 @@ sap.ui.require(["sap/ui/core/Component"], function(Component) {
 
 Another option is to attach the URL parameter `sap-ui-activeTerminologies` with a comma-separated list of terminologies to the URL:
 
-``` html
+```html
 ?sap-ui-activeTerminologies=travel,services
 
 ```
@@ -351,7 +351,7 @@ Another option is to attach the URL parameter `sap-ui-activeTerminologies` with 
 
 A third option is to provide the list of active terminologies \(also comma-separated\) in the bootstrap configuration via the `data-sap-ui-activeTerminologies` attribute:
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
      type="text/javascript"
      src="resources/sap-ui-core.js"

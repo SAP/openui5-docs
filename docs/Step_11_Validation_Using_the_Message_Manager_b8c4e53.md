@@ -20,7 +20,7 @@ So far, we have created a currency field that can format itself correctly. The c
   
 <a name="loiob8c4e534cdb440e9a5bbff86f9572bd6__fig_r1j_pst_mr"/>A message appears
 
- ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears") 
+ ![](images/loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 11](
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",
@@ -96,9 +96,9 @@ You can now enter a non-numeric value into the *Sales Amount* field and either p
 
 Now that the view has been registered with the `MessageManager`, any validation error messages will be picked up by the `MessageManager`, which in turn checks its list of registered objects and then passes the error message back to the correct view for display.
 
-Note that the field in error has a red border: ![](loio44db88e92bc445b2b00e1b8e53b5ca9a_HiRes.png) 
+Note that the field in error has a red border: ![](images/loio44db88e92bc445b2b00e1b8e53b5ca9a_HiRes.png) 
 
-However, the error message itself will only be displayed when that particular field has focus: ![](loioe67207b43d08410e82e74ad57ffbc022_HiRes.png)
+However, the error message itself will only be displayed when that particular field has focus: ![](images/loioe67207b43d08410e82e74ad57ffbc022_HiRes.png)
 
 **Parent topic:** [Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 

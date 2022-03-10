@@ -152,7 +152,7 @@ You can now change the language of the Demo Kit app from the *More information* 
 > ### Note:  
 > Keep in mind that the selected language applies only to the Demo Kit application user interface. The content provided in the application in the different sections, such as *Documentation*, *API Reference*, and *Samples* is available only in English.
 
-![](loioeb91a45367664216ac5b9a8aa05a38db_HiRes.gif)
+![](images/loioeb91a45367664216ac5b9a8aa05a38db_HiRes.gif)
 
 
 
@@ -165,7 +165,7 @@ You can now change the language of the Demo Kit app from the *More information* 
 
 You can now view the sample description and any additional details directly from the sample window by choosing *Sample information* at the top of the sample window.
 
-![](loioc2dca89c7a1740ffbec6bebb687178b5_HiRes.gif)
+![](images/loioc2dca89c7a1740ffbec6bebb687178b5_HiRes.gif)
 
 
 

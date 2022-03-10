@@ -20,7 +20,7 @@ The declarative API enables you to define the initially started component direct
 
 With the declarative `sap/ui/core/ComponentSupport` API it is possible to define the initially started component directly in the HTML markup instead of the imperative way using JavaScript. The declarative `ComponentSupport` is not activated by default, but must be enabled via the bootstrap:
 
-``` html
+```html
 <!-- index.html -->
 <script id="sap-ui-bootstrap"
     src="/resources/sap-ui-core.js"
@@ -32,7 +32,7 @@ With the declarative `sap/ui/core/ComponentSupport` API it is possible to define
 
 This module scans the DOM for HTML elements containing a special data attribute named `data-sap-ui-component`. All DOM elements marked with this data attribute will be regarded as container elements into which a `sap/ui/core/ComponentContainer` is inserted. Additional data attributes are then used to define the constructor arguments of the created `ComponentContainer` instance, e.g. `data-name` for the name of the component which should be instantiated:
 
-``` html
+```html
 <!-- index.html -->
 <body id="content" class="sapUiBody sapUiSizeCompact" role="application">
     ...
@@ -56,7 +56,7 @@ This module scans the DOM for HTML elements containing a special data attribute 
 > ### Caution:  
 > As HTML is case-insensitive, in order to define a property with upper-case characters you have to "escape" them with the hyphen character. This is similar to CSS attributes. In the following sample the `handleValidation` argument of the `ComponentContainer` constructor is used:
 > 
-> ``` html
+> ```html
 > 
 > <div data-sap-ui-component ... data-handle-validation="true" ...></div>
 > 
@@ -85,7 +85,7 @@ See also [ `ComponentSupport`](https://openui5.hana.ondemand.com/#/api/module:sa
 
 In some cases, the component initialisation must wait until all pre-required modules have been loaded. If this is the case, the `ComponentSupport` module needs to be executed later, and you have to replace the `onInit` module execution in the bootstrap with a custom module:
 
-``` html
+```html
 <!-- index.html -->
 <script id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
@@ -95,7 +95,7 @@ In some cases, the component initialisation must wait until all pre-required mod
 
 The custom module can load dependencies and execute code before activating the `ComponentSupport` module:
 
-``` js
+```js
 
 // sap/ui/demo/myBootstrap.js
 sap.ui.define(["sap/ui/demo/MyModule"], function(MyModule) {

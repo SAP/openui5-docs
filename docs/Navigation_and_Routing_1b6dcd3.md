@@ -36,7 +36,7 @@ We will create a simple app displaying the data of a company’s employees to sh
   
 <a name="loio1b6dcd39a6a74f528b27ddb22f15af0d__fig_uzp_dcp_ls"/>Page flow of the final app
 
- ![](loio92cdce7bddc44e27a66990708ce4b09f_LowRes.png "Page flow of the final app") 
+ ![](images/loio92cdce7bddc44e27a66990708ce4b09f_LowRes.png "Page flow of the final app") 
 
 Throughout this tutorial we will add features for navigating to pages and bookmarking them. We will add backward and forward navigation with common transition animations \(slide, show, flip, etc.\). We will add more pages to the app and navigate between them to show typical use cases. We will even learn how to implement features for bookmarking a specific search, table sorting via filters, and dialogs.
 

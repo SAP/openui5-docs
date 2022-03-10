@@ -173,7 +173,7 @@ For more information, see [Type Determination](Type_Determination_53cdd55.md).
 > ### Note:  
 > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example`boolean` in case of `<Icon src="sap-icon://message-warning" visible="{path: 'DeliveryDate', formatter: '.isOverdue'}">`. This leads to errors, because type determination adds the correct type for the `DeliveryDate` property, which is `DateTimeOffset`, and cannot format its value as `boolean`. In such cases, use `targetType: 'any'` as follows:
 > 
-> ``` xml
+> ```xml
 > <Icon 
 > 	src="sap-icon://message-warning" 
 > 	visible="{
@@ -188,7 +188,7 @@ For more information, see [Type Determination](Type_Determination_53cdd55.md).
 > ### Note:  
 > A property binding can have an object value. For more information, see [Property Binding With an Object Value](Initialization_and_Read_Requests_fccfb2e.md#loiofccfb2eb41414f0792c165e69a878717__section_g5j_v1r_mgb):
 > 
-> ``` xml
+> ```xml
 > <SimpleForm binding="{/BusinessPartnerList('42')}">
 > 	<Label text="Phone number list"/>
 > 	<Text

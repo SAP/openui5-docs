@@ -20,7 +20,7 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
   
 <a name="loiobc4114a88e4d4ac1a0f53b2a7a92b226__fig_r1j_pst_mr"/>Unit tests of the formatter
 
- ![](loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter") 
+ ![](images/loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter") 
 
 Depending on the current date, we distinguish four different formatting categories, as shown in the table below:
 
@@ -162,7 +162,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/test/unit/AllTests.js
 
-``` js
+```js
 sap.ui.define([
 	"./model/models",
 	"./model/formatter",
@@ -179,7 +179,7 @@ First, we add the new test file we are about to create to the `AllTests.js` file
 
 ### webapp/model/DateFormatter.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
@@ -194,7 +194,7 @@ We create an empty hull for our formatter implementation first so that we can in
 
 ### webapp/test/unit/model/DateFormatter.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
@@ -211,7 +211,7 @@ And we create our test that checks if there is a `DateFormatter` object. Now we 
 
 ### webapp/test/unit/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 ], function(DateFormatter) {
@@ -230,7 +230,7 @@ Now we implement a test for the API of the format function. We assume it will ha
 
 ### webapp/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/base/Object"
 ], function(Object) {
@@ -249,7 +249,7 @@ Now we fix our test again by returning the expected string.
 
 ### Dependency Injection:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
@@ -279,7 +279,7 @@ Here our test expects that the date is displayed as time when the post is from t
 
 ### webapp/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/base/Object",
 	"sap/ui/core/format/DateFormat"
@@ -306,7 +306,7 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 > ### Note:  
 > The implementation should not do more than the current tests covers. This makes sure you cover all the code paths. You can enable the code coverage by selecting the *Enable coverage* checkbox.
 > 
->  ![](loioa700487ab86444eb8643924d0dccf942_HiRes.png) 
+>  ![](images/loioa700487ab86444eb8643924d0dccf942_HiRes.png) 
 > 
 > It will show the lines covered by your tests \(white\) and the ones that were not covered \(red\). For the single test above the coverage looks like this. The red line is already covered by the previous test so in total we have a test coverage of 100%.
 
@@ -314,7 +314,7 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 
 ### Refactoring:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
@@ -347,7 +347,7 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 
 ### Dependency Injection to Get Independent from System Time:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter"
 	"sap/ui/core/Locale"
@@ -378,7 +378,7 @@ The next test verifies that ***Yesterday*** is returned for yesterday's date. To
 
 ### webapp/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/base/Object",
 	"sap/ui/core/format/DateFormat"
@@ -417,7 +417,7 @@ In the implementation we add a calculation for determining how many days passed.
 
 ### Boundary Testing:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
@@ -438,7 +438,7 @@ The next test verifies that the day of the week is returned. As test input we ta
 
 ### webapp/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/base/Object",
 	"sap/ui/core/format/DateFormat"
@@ -475,7 +475,7 @@ Now we define a new format in our constructor, the `weekdayFormat`. In the forma
 
 ### webapp/test/unit/model/DateFormatter.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
@@ -496,7 +496,7 @@ In the next test we verify that the date is formatted as date without time. Agai
 
 ### webapp/model/DateFormatter.js
 
-``` js
+```js
 …
 		constructor: function(oProperties) {
 			this.timeFormat = DateFormat.getTimeInstance({

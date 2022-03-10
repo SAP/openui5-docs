@@ -21,7 +21,7 @@ The following example iterates all fields in the identification annotation from 
 
 **Example: Template for "repeat" Instruction**
 
-``` xml
+```xml
 
 <template:repeat list="{meta>com.sap.vocabularies.UI.v1.Identification}" var="field">
   <Label text="{path: 'field>Label', formatter: 'sap.ui.model.odata.AnnotationHelper.format'}" />
@@ -31,7 +31,7 @@ The following example iterates all fields in the identification annotation from 
 
 **Example: Output Template for the "repeat" Instruction \(in Memory Only\)**
 
-``` xml
+```xml
 
 <Label text="Product ID" />
 <Text text="{path:'ProductID',type:'sap.ui.model.odata.type.String',constraints:{"nullable":false,"maxLength":10}}" />
@@ -47,7 +47,7 @@ The following example iterates all fields in the identification annotation from 
 
 You can start the iteration at an index other than 0 or limit the length of the iterated list in the usual manner. For this, specify `startIndex` and `length`. Both are optional and the defaults are 0 for `startIndex` and full length for `length`.
 
-``` xml
+```xml
 
 <template:repeat list="{path:'entityType>com.sap.vocabularies.UI.v1.Identification',startIndex:1,length:3}" var="field">
   <!-- ... -->
@@ -61,7 +61,7 @@ As the OData meta model supports filtering by name, you can repeat all `FieldGro
 
 **Example: Filter By Annotation Term**
 
-``` xml
+```xml
 
 <template:repeat list="{path:'entityType>', filters: {path: '@sapui.name', operator: 'StartsWith', value1: 'com.sap.vocabularies.UI.v1.FieldGroup'}}" var="fieldGroup">
   <form:SimpleForm>

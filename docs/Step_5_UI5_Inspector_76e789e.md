@@ -32,7 +32,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 ### Preview
 
- ![](loioe881330405e24b42b064ae6042d85b43_LowRes.gif) 
+ ![](images/loioe881330405e24b42b064ae6042d85b43_LowRes.gif) 
 
 ***
 
@@ -67,7 +67,7 @@ The app contains a *Do Something* button with meaningless icon \(`sap-icon://act
 
 3.  Replace `action` with `activate` and confirm with [Enter\].
 
-    The icon on the button in the app is updated to show the new icon ![Activate](loio997baba218974ca2888824f87d8b1af4_LowRes.png).
+    The icon on the button in the app is updated to show the new icon ![Activate](images/loio997baba218974ca2888824f87d8b1af4_LowRes.png).
 
 4.  Double-click the value for the `text` property and change the value to `Activate`.
 

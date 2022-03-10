@@ -59,7 +59,7 @@ When such a forwarding definition is done, OpenUI5 moves all aggregated child co
 
 Here is an example that demonstrates aggregation forwarding: The new `FilterableList` control is supposed to display a list of items with an input field above the list. The list items are filtered while the user is entering the input. This `FilterableList` control can be implemented as a composite control, using the `sap.m.List` and `sap.m.Input` controls as inner controls to take advantage of their existing implementation, design, and set of features. Application developers using `FilterableList` cannot change all attributesof the inner `List` control. However, they should be able to provide the actual list items. Hence, the new `FilterableList` composite control has an `items` aggregation and forwards all items to the inner `sap.m.List` control, so, for example, the layouting, events, and selection can be handled there.
 
-``` js
+```js
 
 aggregations: {
 	 // The items forwarded from the FilterableList to the internal sap.m.List
@@ -72,7 +72,7 @@ aggregations: {
 
 Another example would be a new `ButtonList` control that is supposed to contain and display an arbitrary number of `sap.m.Button` controls in a grid. Hence it has a `buttons` aggregation. For this control, control-specific HTML could be written that provides screen-size-dependent CSS for a proper grid layout of the buttons. However, this effort can be avoided, and a `sap.ui.layout.Grid` control used internally instead to do the layouting. The buttons given to the `ButtonList` control then need to be forwarded to the `content` aggregation of the `Grid` control.
 
-``` js
+```js
 
 aggregations: {
 	 // The items forwarded from the ButtonList to the internal sap.ui.layout.Grid
@@ -90,7 +90,7 @@ aggregations: {
 
 If you use aggregation forwarding with `idSuffix` for an XML composite control, you define this as follows:
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/core/XMLComposite"], 
     function( XMLComposite ) {
@@ -114,7 +114,7 @@ sap.ui.define([
 
 In this case, the fragment definition XML file looks like this:
 
-``` xml
+```xml
 <core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
     <m:VBox id="myInternalVBox"/>
 </core:FragmentDefinition>

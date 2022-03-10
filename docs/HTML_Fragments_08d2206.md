@@ -14,7 +14,7 @@ HTML fragments have a similar syntax as HTML views, but without the `<template>`
 
 You can define a simple HTML fragment like this:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Button" data-press="doSomething" data-text="Hello
         World"></div>

@@ -16,7 +16,7 @@ For a view replacement, you can either use the standard controller of the replac
 
 An extension option is available that allows to replace an original controller without replacing its view. This is especially useful for typed controllers, that is, controllers that have been defined with the `extend` syntax:
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/core/mvc/Controller"
 ], function(Controller) {
@@ -41,7 +41,7 @@ sap.ui.define([
 
 Typed controllers cannot be used in the controller extension configuration \(`sap.ui.controllerExtensions`\). Instead, you have to use the controller replacement configuration \(`sap.ui.controllerReplacements`\) to extend a typed controller with the `extend` syntax and call the original methods in the custom implementation:
 
-``` js
+```js
 sap.ui.define([
     "samples/components/ext/sap/Main.controller"
 ], function(MainController) {
@@ -75,7 +75,7 @@ sap.ui.define([
 
 To replace the controller of the standard application with the custom controller, use the following extension configuration:
 
-``` js
+```js
 extensions: { 
     "sap.ui.controllerReplacements": {
         "samples.components.ext.sap.Main": "samples.components.ext.customer.CustomMain"

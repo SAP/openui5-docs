@@ -20,7 +20,7 @@ The view part of your app reflects what users can see and interact with. You sho
 
 Most bread-and-butter controls are located in the `sap.m` namespace, which makes it the perfect default namespace. If you want to add other controls and layouts, you can define an additional namespace. For your own namespaces, you should keep the alias short and simple as well. You will typically use it in many places, and a short alias keeps your code tidy.
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmls:l="sap.ui.layout"
@@ -54,7 +54,7 @@ It's easy to save a few bytes and make your code a lot cleaner:
 > ### Tip:  
 > Samples may contain more code that you actually need. When you copy code from a sample, it's best to remove all properties that won't be used in your views.
 
-``` xml
+```xml
 <SearchField change=".onSearch"/>
 <List items="{/Products}" headerText="Search Results">
 	<StandardListItem title="{Name}"/>
@@ -70,7 +70,7 @@ It's easy to save a few bytes and make your code a lot cleaner:
 
 If you have bound aggregations, Avoid using complex or nested controls. Remember: The template below will be repeated for every entity in your data. If the template is more complex than necessary, this may lead to performance issues at runtime and slow down your app.
 
-``` xml
+```xml
 <List
 	items={/Products}>
 	<StandardListItem
@@ -91,7 +91,7 @@ If you have bound aggregations, Avoid using complex or nested controls. Remember
 
 Things may get a little messy as your app is growing with your requirements. Therefore, name your views semantically. If a view is getting too "heavy", you should outsource parts of it to a separate view. With XML fragments, you can flexibly reuse parts of your UI elsewhere.
 
-``` xml
+```xml
 <App>
 	<Page>
 		<mvc:XMLView viewName="EmployeList"/>

@@ -226,7 +226,7 @@ A more comprehensive message text is now shown if no data is available because a
 
 We have added a direct link from each OpenUI5 documentation page to its markdown version in the *openui5-docs* GitHub repo. Now, when you want to send us feedback on a specific topic or even suggest a change with a pull request, we hope to save you time and efforts in finding the respective file.
 
-![](loio8a5845e5be56483da308611359ba45ea_HiRes.gif)
+![](images/loio8a5845e5be56483da308611359ba45ea_HiRes.gif)
 
 
 
@@ -239,9 +239,9 @@ We have added a direct link from each OpenUI5 documentation page to its markdown
 
 The search highlighting functionality is now also available in the *Documentation* tree filter and the *Samples* list.
 
- ![](loioe79499d4357e4a7eb7de9c5e1a835d55_HiRes.png) 
+ ![](images/loioe79499d4357e4a7eb7de9c5e1a835d55_HiRes.png) 
 
- ![](loio308ff81070684b318c4da4d1290a7e95_HiRes.png) 
+ ![](images/loio308ff81070684b318c4da4d1290a7e95_HiRes.png) 
 
 
 

@@ -23,7 +23,7 @@ Once you have defined the property binding, the property is updated automaticall
 
 Let’s say, we have the following JSON data:
 
-``` json
+```json
 {
 	"company" : {
 		"name"  : "Acme Inc.",
@@ -38,7 +38,7 @@ Let’s say, we have the following JSON data:
 
 To define property binding in the control declaration in the **XML view**, just include the binding path within curly brackets \(see also [Binding Path](Binding_Path_2888af4.md)\):
 
-``` xml
+```xml
 <mvc:View 
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -49,7 +49,7 @@ To define property binding in the control declaration in the **XML view**, just 
 
 In **JavaScript**, you can include the binding path within curly brackets as a string literal in the `settings` object:
 
-``` js
+```js
 // "Input" required from module "sap/m/Input"
 var oInput = new sap.m.Input({
 	value: "{/company/name}"
@@ -60,7 +60,7 @@ You can also use a complex syntax for property bindings. This complex syntax all
 
 If you are working with **XML views**, make sure that you've turned on complex binding syntax in your bootstrap script, as shown here:
 
-``` html
+```html
 
 <script
 	id="sap-ui-bootstrap"
@@ -77,7 +77,7 @@ You can also use `data-sap-ui-compatVersion="edge"` to enable complex bindings.
 
 You can then set the `bindingMode` or other additional properties like this:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -92,7 +92,7 @@ You can then set the `bindingMode` or other additional properties like this:
 
 In **JavaScript** views or controllers, you use a JS object instead of a string literal. This must contain a `path` property containing the binding path, and can contain additional properties:
 
-``` js
+```js
 // "Input" required from module "sap/m/Input"
 // "BindingMode" required from module "sap/ui/model/BindingMode"
 
@@ -106,13 +106,13 @@ var oInput = new Input ({
 
 Depending on the use case, it may be useful to define the binding at a later time, using the `bindProperty` method:
 
-``` js
+```js
 oInput.bindProperty("value", "/company/name");
 ```
 
 This option also allows you to use the same object literal that you used in the constructor to define the binding:
 
-``` js
+```js
 // "TypeInteger" required from module "sap/ui/model/type/Integer"
 
 oInput.bindProperty("value", {
@@ -124,13 +124,13 @@ oInput.bindProperty("value", {
 > ### Note:  
 > Some controls offer convenience methods for their main properties that are most likely to be bound by an application:
 > 
-> ``` js
+> ```js
 > oTextField.bindValue("/company/name");
 > ```
 
 To **remove** a property binding, you can use the `unbindProperty` method. The property binding is removed automatically whenever a control is destroyed:
 
-``` js
+```js
 oTextField.unbindProperty("value");
 ```
 
@@ -155,7 +155,7 @@ Values in data are often represented in an internal format and need to be conver
 
 If you define the property binding in the **XML view**, you need to define a formatter function \(`roundToMillion`\) in the view controller:
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel"
@@ -175,7 +175,7 @@ sap.ui.define([
 
 The `this` context of a formatter function is generally set to the control \(or managed object\) that owns the binding. However, in XML views, the reference to the formatter is done in the view controller by putting a dot \(`.`\) in front of the name of the formatter function \(`{ formatter: '.myformatter' }`\). In this case, the formatter's `this` context is bound to the controller.
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -190,7 +190,7 @@ The `this` context of a formatter function is generally set to the control \(or 
 
 If you use **JavaScript**, you can pass the formatter function as a third parameter to the `bindProperty` method, or you can add the binding info with the `formatter` key. The `formatter` has a single parameter `value`, which is the value that is to be formatted, and is executed as a member of the control, meaning it can access additional control properties or model data.
 
-``` js
+```js
 //"Input" required from module sap/m/Input
 
 oTextField.bindProperty("value", "/company/title", function(sValue) {
@@ -212,7 +212,7 @@ oControl = new Input({
 
 Because it can contain any JavaScript, the formatter function can be used for formatting a value and also for performing type conversions or calculating results, for example, to show a special traffic light image depending on a Boolean value:
 
-``` js
+```js
 oImage.bindProperty("src", "/company/trusted", function(bValue) {
 	return bValue ? "green.png" : "red.png";
 }); 
@@ -229,7 +229,7 @@ The data type system enables you to format and parse data, as well as to validat
 
 Here’s how you can use these types in an XML view:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -245,7 +245,7 @@ Here’s how you can use these types in an XML view:
 
 You can also provide parameter values for some of the simple types in your XML view. These are declared as `formatOptions`, as you can see in the Float type sample below. Permitted `formatOptions` are properties of the corresponding data type. For more information, see the *API Reference* in the Demo Kit.
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.sample.App"
    xmlns="sap.m"
@@ -264,7 +264,7 @@ You can also provide parameter values for some of the simple types in your XML v
 
 Using JavaScript, you can define a type to be used for a property binding by passing it as a third parameter in `bindProperty` or by adding it to the binding information by using the key `type`, as shown here:
 
-``` js
+```js
 // "TypeString" required from module "sap/ui/model/type/String"
 // "Input" required from module "sap/m/Input"
 // "TypeFloat" required from module "sap/ui/model/type/Float"
@@ -284,7 +284,7 @@ oControl = new sap.m.Input({
 
 Predefined data types also offer visual feedback for erroneous user input. To turn this feature on, add the following line to your controller's `init` function:
 
-``` js
+```js
 sap.ui.getCore().getMessageManager().registerObject(this.getView(), true);
 ```
 
@@ -292,7 +292,7 @@ For other ways to activate this feature, such as using the `handleValidation` pr
 
 You can define **custom types** by inheriting from `sap.ui.model.SimpleType` and implementing the three methods `formatValue`, `parseValue`, and `validateValue`. `formatValue` is called whenever the value in the model is changed to convert it to the type of the control property it is bound to, and may throw a `FormatException`. `parseValue` is called whenever the user has modified a value in the UI and the change is transported back into the model. It may throw a `ParseException` if the value cannot be converted. If parsing is successful, `validateValue` is called to check additional constraints, such as minimum or maximum value, and throws a `ValidateException` if any constraints are violated.
 
-``` js
+```js
 // "SimpleType" required from module "sap/ui/model/SimpleType"
 // "ValidateException" required from module "sap/ui/model/ValidateException"
 
@@ -313,7 +313,7 @@ var Zipcode = SimpleType.extend("sap.ui.sample.Zipcode", {
 
 You can use your custom types in XML views or JavaScript in the same way as you would apply predefined types:
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.sample.App"
    xmlns="sap.m"
@@ -334,7 +334,7 @@ You can use your custom types in XML views or JavaScript in the same way as you 
 
 By default, all bindings of a model instance have the default binding mode of the model, but you can change this behavior if needed. When creating a `PropertyBinding`, you can specify a different binding mode, which is then used exclusively for this specific binding. Of course, a binding can only have a binding mode that is supported by the model in question.
 
-``` js
+```js
 // "JSONModel" required from module "sap/ui/model/json/JSONModel"
 // "Input" required from module "sap/m/Input"
 // "BindingMode" required from module "sap/ui/model/BindingMode"

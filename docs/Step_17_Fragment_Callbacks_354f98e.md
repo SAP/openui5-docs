@@ -20,7 +20,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
   
 <a name="loio354f98ed2b514ba9960556333428d35e__fig_r1j_pst_mr"/>The dialog now has an "OK" button
 
- ![](loio2a0aee6164b24340b0d34a0515c82f19_HiRes.png "The dialog now has an "OK" button") 
+ ![](images/loio2a0aee6164b24340b0d34a0515c82f19_HiRes.png "The dialog now has an "OK" button") 
 
 ***
 
@@ -28,7 +28,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
 
 You can view and download all files at [Walkthrough - Step 17](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.17/preview).
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
@@ -76,7 +76,7 @@ The event handler function is put into the same controller file and it closes th
 
 ### webapp/view/HelloDialog.fragment.xml
 
-``` xml
+```xml
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
@@ -100,7 +100,7 @@ In the fragment definition, we add a button to the `beginButton` aggregation of 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span

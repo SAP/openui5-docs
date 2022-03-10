@@ -20,7 +20,7 @@ In this step, we will create a button at the top of the table which will change 
   
 <a name="loio39759878ae4f48dcad0cf34da1d299f0__fig_r1j_pst_mr"/>Bookmarkable search and sorting
 
- ![](loio7ec54ef9b041497aaa70694e80016a9c_LowRes.png "Bookmarkable search and sorting") 
+ ![](images/loio7ec54ef9b041497aaa70694e80016a9c_LowRes.png "Bookmarkable search and sorting") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",

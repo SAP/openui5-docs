@@ -29,7 +29,7 @@ For more information, see [Flexible Column Layout Semantic Helper](Flexible_Colu
   
 <a name="loio276f001c5a934f6e8faedee6ea22aba1__fig_zfh_d31_12b"/>Master-detail-detail pattern using `sap.f.FlexibleColumnLayoutSemanticHelper`
 
- ![](loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "Master-detail-detail pattern using
+ ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "Master-detail-detail pattern using
 						sap.f.FlexibleColumnLayoutSemanticHelper") 
 
 ***
@@ -46,7 +46,7 @@ You can view and download all files at [Flexible Column Layout App - Step 11](ht
 
 ### webapp/Component.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/core/UIComponent',
 	'sap/ui/model/json/JSONModel',
@@ -133,7 +133,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 				...
 				<snappedHeading>
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
@@ -197,7 +197,7 @@ We add navigation actions for entering and exiting fullscreen and closing the co
 
 ### webapp/controller/Detail.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -276,7 +276,7 @@ We create the handlers needed for the navigation actions.
 
 ### webapp/view/DetailDetail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
 	xmlns="sap.f"
@@ -328,7 +328,7 @@ Again, we add navigation actions for entering and exiting fullscreen and closing
 
 ### webapp/controller/DetailDetail.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"
@@ -393,7 +393,7 @@ And respectively, we create the handlers needed for the navigation actions in th
 
 ### webapp/controller/Master.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",
@@ -459,7 +459,7 @@ We get the next layout from the semantic helper rather than hard coding them our
 
 ### webapp/controller/App.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"

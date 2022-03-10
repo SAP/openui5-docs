@@ -25,7 +25,7 @@ The library preload file `library-preload.js` contains all modules of a certain 
 
 By setting the `async=true` configuration parameter, the module loader loads the modules and preload files asynchronously. You can enable it in an existing application by specifying the `sap-ui-async` configuration parameter in the start URL, or by adding the `data-sap-ui-async` attribute to the bootstrap tag:
 
-``` html
+```html
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"
@@ -62,7 +62,7 @@ Alternatively, you can influence the loading behavior of the preload files witho
 
 You can easily check this with an existing application by specifying the `sap-ui-preload=<mode>` parameter in the start URL or by adding the `data-sap-ui-preload` attribute to the bootstrap tag:
 
-``` html
+```html
 <script
     id="sap-ui-bootstrap"
     src="resources/sap-ui-core.js"

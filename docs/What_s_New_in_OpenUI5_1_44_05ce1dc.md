@@ -96,7 +96,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 
     -   New aggregation \(`processingMessage`\) to provide a `sap.m.MessageStrip` notification within a `NotificationListItem`
 
-         ![](loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+         ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
 
     -   Notification list items are highlighted on mouse-over as with list items.
 
@@ -109,7 +109,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 
 -   `sap.m.Slider` and `sap.m.RangeSlider`: We have implemented responsive tickmarks for the slider controls. The tickmarks are enabled with the `enableTickmarks` property. The number of visible tickmarks depends on the step size and the slider minimum and maximum values. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/methods/getEnableTickmarks) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview).
 
-     ![](loiobf5c44ab603347caa69c729da549cd0f_LowRes.png) 
+     ![](images/loiobf5c44ab603347caa69c729da549cd0f_LowRes.png) 
 
 -   `sap.m.UploadCollection`: The sorting and filtering feature has been enhanced. You can now also display the *Filtered by* information in the info toolbar in the `UploadCollection` control. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
 

@@ -20,7 +20,7 @@ In this step, we will edit the worklist table to include additional columns for 
   
 <a name="loio84100bcfd5b34f62858bdd6f67976b4a__fig_djl_pjl_c5"/>The improved worklist table with new columns and formatting
 
- ![](loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting") 
+ ![](images/loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Worklist App - Step 3](h
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 …
 <Table
 	id="table"
@@ -80,7 +80,7 @@ We expand the supplier because we want to avoid sending one additional request f
 
 #### webapp/localService/metadata.xml \[MODIFY\]
 
-``` xml
+```xml
 <EntityType Name="Product">
     <Key>
         <PropertyRef Name="ProductID"/>
@@ -110,7 +110,7 @@ When using a real OData service, the interface would be available by calling the
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 …
 <columns>
 	<Column id="nameColumn">
@@ -178,7 +178,7 @@ Let's have a detailed look at the columns:
 
 #### webapp/model/formatter.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/library"
 ] , function (coreLibrary) {
@@ -232,7 +232,7 @@ We add a new formatter function `quantityState` to the `webapp/model/formatter.j
 
 #### webapp/view/Worklist.view.xml \[MODIFY\]
 
-``` xml
+```xml
 …
 <items>
     <ColumnListItem
@@ -283,7 +283,7 @@ The next task is to define the cells to appear in each row of the table. For eac
 
 #### webapp/i18n/i18n.properties \[MODIFY\]
 
-``` prefs
+```ini
 #XTIT: The title of the column containing Product name
 TableProductColumnTitle=Product
 

@@ -20,7 +20,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
   
 <a name="loiod12d2ee6a5454d799358d425f9e7c4db__fig_r1j_pst_mr"/>A custom product rating control is added to the detail page
 
- ![](loioe3e163a7b93d498595586d5043f77ddb_HiRes.png "A custom product rating control is added to the detail page") 
+ ![](images/loioe3e163a7b93d498595586d5043f77ddb_HiRes.png "A custom product rating control is added to the detail page") 
 
 ***
 
@@ -28,7 +28,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
 You can view and download all files at [Walkthrough - Step 33](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.33/preview).
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/Control"
 ], function (Control) {
@@ -57,7 +57,7 @@ The `init` method is a special function that is called by the OpenUI5 core whene
 > ### Note:  
 > Controls always extend `sap.ui.core.Control` and render themselves. You could also extend `sap.ui.core.Element` or `sap.ui.base.ManagedObject` directly if you want to reuse life cycle features of OpenUI5 including data binding for objects that are not rendered. Please refer to the API reference to learn more about the inheritance hierarchy of controls.
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/Control",
 	"sap/m/RatingIndicator",
@@ -201,7 +201,7 @@ We define the `reset` method to be able to revert the state of the control on th
 
 ### webapp/view/Detail.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
@@ -226,7 +226,7 @@ A new namespace `wt` is defined on the detail view so that we can reference our 
 
 ### webapp/controller/Detail.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
@@ -295,7 +295,7 @@ To layout our control, we add a little padding to the root class to have some sp
 
 We could also do this with more HTML in the renderer but this is the simplest way and it will only be applied inside our custom control. However, please be aware that the custom control is in your app and might have to be adjusted when the inner controls change in future versions of OpenUI5.
 
-``` prefs
+```ini
 …
 # Detail Page
 detailPageTitle=Walkthrough - Details

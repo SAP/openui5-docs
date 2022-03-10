@@ -20,7 +20,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
   
 <a name="loiof665d0de4dba405f9af4294de824b03b__fig_r1j_pst_mr"/>A message toast displays the "Hello World" message
 
- ![](loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message") 
+ ![](images/loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message") 
 
 ***
 
@@ -28,7 +28,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 You can view and download all files at [Walkthrough - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.06/preview).
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"

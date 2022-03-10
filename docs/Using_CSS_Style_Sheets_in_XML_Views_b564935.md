@@ -25,7 +25,7 @@ The effect is the same as calling `myButton.addStyleClass(...)`.
 
     To add a style class and define a button that uses it, add the following coding:
 
-    ``` html
+    ```html
     
     <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
                xmlns:html="http://www.w3.org/1999/xhtml">

@@ -25,7 +25,7 @@ The explicit registering for browser events enables you to handle any type of br
 
 Example for explicit registration of browser events:
 
-``` js
+```js
 MyControl.prototype.init = function() {
         this.handleClick = MyControl.prototype.handleClick.bind(this);
 }
@@ -55,7 +55,7 @@ The event handler implementation requires less code, reduces the number of event
 
 Example for registering the event handler directly:
 
-``` js
+```js
 
 MyControl.prototype.onclick = function(oEvent) {
    // do something...

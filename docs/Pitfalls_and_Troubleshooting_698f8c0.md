@@ -20,7 +20,7 @@ OPA checks many conditions before it passes a control to your matchers/actions/s
 
 After turning on the debug mode, you can have a look at the log and also filter it by looking for ***opa*** or ***matchers***.
 
- ![](loio340d18e41c28469fbd14b6fe128ff89b_LowRes.jpg) 
+ ![](images/loio340d18e41c28469fbd14b6fe128ff89b_LowRes.jpg) 
 
 A frequent cause of error is typos in the view name or control IDs. These are easily found by looking through the logs.
 
@@ -90,7 +90,7 @@ Check the logs to see if your matcher is failing because it's checking a text ag
 
 If you require `sinon-qunit.js`, it overwrites the browser functions `setTimeout` and `setInterval`. OPA needs these functions and without them the tests don't start. You can either set the `fakeTimers` to `false` in your test setup, or maybe consider not using `sinon-qunit.js` together with OPA.
 
-``` js
+```js
 module("Opatests", {
     beforeEach : function () {
         sinon.config.useFakeTimers = false;
@@ -126,7 +126,7 @@ One way to stabilize your tests is to use OPA `autoWait` and `actions`.
 
 Examples of such controls are busy indicators, notification popups, and message toasts. These controls set a timeout after which the control is supposed to disappear. In some apps, it can be important to ensure that such a control is displayed. Note that if you enable `autoWait` in your tests globally, then you have to disable `autoWait` specifically in the `waitFor` statements related to these special controls. For example, if you want to test that a busy indicator is displayed during the sending of a request, you don't want to wait for controls to be interactable:
 
-``` js
+```js
 oOpa.waitFor({
 	autoWait: false,
 	id: "myBusyList", // a control that is expected be covered by a busy indicator

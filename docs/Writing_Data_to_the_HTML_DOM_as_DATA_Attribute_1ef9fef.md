@@ -30,7 +30,7 @@ For this, the key has to be a valid HTML ID and the value has to be a string; ot
 
 In JavaScript, you can set the flag as shown in the following code snippet:
 
-``` js
+```js
 
 myButton.data("mydata", "Hello", true); // attach some data to the Button and mark it as
           "write to HTML"
@@ -38,7 +38,7 @@ myButton.data("mydata", "Hello", true); // attach some data to the Button and ma
 
 To set the `writeToDom` flag in XML views, the aggregation has to be written in expanded notation:
 
-``` xml
+```xml
 
 <Button ... >
   <customData>
@@ -55,7 +55,7 @@ This results in the following HTML:
 
 This is done similarly in HTML views:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Button" data-text="This button has custom data written to the DOM">
    <div data-sap-ui-aggregation="customData">

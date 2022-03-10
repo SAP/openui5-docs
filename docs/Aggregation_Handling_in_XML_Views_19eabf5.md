@@ -35,7 +35,7 @@ Some controls have more than one content area, for example the shell control tha
 
 You fill aggregations as shown in the following example. The namespace of the parent control tag and the aggregation tag must be the same.
 
-``` xml
+```xml
 
 <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
    <Panel>

@@ -24,7 +24,7 @@ With this release OpenUI5 is upgraded from version 1.58 to 1.60.
 
 OpenUI5 now allows you to hyphenate words in multiline texts when controls are in wrapping mode. You can enable hyphenation through the `wrappingType` property for the `sap.m.Text`, `sap.m.Title`, and `sap.m.Label` text controls, or you can use the API of the `sap.ui.core.hyphenation.Hyphenation` class directly.
 
- ![](loio8a74466e5393433c856234e3a40f126a_HiRes.png) 
+ ![](images/loio8a74466e5393433c856234e3a40f126a_HiRes.png) 
 
 > ### Caution:  
 > The hyphenation feature uses third-party and browser-native tools. We are not responsible for any inconsistencies or incorrect grammar. Also, the variety of supported languages is outside the scope of our control and may be subject to future changes.
@@ -41,7 +41,7 @@ In addition to the custom rule presets that users can create, we've introduced s
 
 The first system preset we've introduced is for accessibility-related rules.
 
- ![](loioae05ff406b4e4fcc83d01eaf896e7ae4_HiRes.png) 
+ ![](images/loioae05ff406b4e4fcc83d01eaf896e7ae4_HiRes.png) 
 
 For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
@@ -51,7 +51,7 @@ The Analysis Report now includes information about the rule preset used during t
 
 We have also improved the design of the report itself.
 
- ![](loiod44c5ac7009b49d49441abb28ddf93c9_HiRes.png) 
+ ![](images/loiod44c5ac7009b49d49441abb28ddf93c9_HiRes.png) 
 
 For more information, see [Analysis Report](Analysis_Report_29bcdec.md).
 
@@ -87,19 +87,19 @@ In order to benefit from asynchronous behavior and to avoid synchronous requests
 
 -   `sap.f.GridList`: A list-based control with grid layout capabilities. It is based on the `sap.m.ListBase` control, and it adds flexibility to configure different grid layouts. The layout used is based on the CSS display grid, and the control has a default configuration.
 
-    ![](loioc43df4c27715425ba98a7a7a40e71fd4_HiRes.png)
+    ![](images/loioc43df4c27715425ba98a7a7a40e71fd4_HiRes.png)
 
     For more information, see [Grid Controls](Grid_Controls_32d4b9c.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridList), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList).
 
 -   `sap.ui.layout.cssgrid.CSSGrid`: A layout control, used to create full-page layouts or user interface elements. It is a two-dimensional layout based on the browser-native CSS display grid that handles both columns and rows. The control can be used together with `sap.m.FlexBox` which is the one-dimensional alternative for layouting.
 
-    ![](loio2bdf9f5e96f44a2aa2bd626c9cabcbff_HiRes.png)
+    ![](images/loio2bdf9f5e96f44a2aa2bd626c9cabcbff_HiRes.png)
 
     For more information, see [Grid Controls](Grid_Controls_32d4b9c.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.cssgrid.CSSGrid), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.cssgrid.CSSGrid).
 
 -   `sap.ui.unified.ColorPickerPopover`: A wrapper around the `sap.ui.unified.ColorPicker` control that allows it to be displayed as a popover or a dialog depending on the device. The `ColorPickerPopover` has the same properties as the `ColorPicker` control but it has two additional methods - `openBy` and `close` to control the popover. Another difference between the new control and the `ColorPicker` control is that there is no `liveChange` event, and the `change` event is fired only when the *Submit* button is pressed. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.ColorPickerPopover) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.ColorPickerPopover/preview).
 
-     ![](loioc983fe12e5f2461a9ca0f608d9e03415_LowRes.png) 
+     ![](images/loioc983fe12e5f2461a9ca0f608d9e03415_LowRes.png) 
 
 
 ***
@@ -219,7 +219,7 @@ Drag and drop is no longer experimental with this version.
 
 -   `sap.uxap.ObjectPageLayout`: With the new `sapUxAPObjectPageSubSectionAlignContent` CSS class, you can now vertically align the content of the header with the content of the subsection. When using `sap.ui.layout.form.Form`, `sap.m.Panel`, `sap.m.Table`, and `sap.m.List` in the subsection content area of the `ObjectPageLayout`, if the content is not already aligned, you need to adjust the left text offset to achieve the vertical alignment. To do this, apply the `sapUxAPObjectPageSubSectionAlignContent` CSS class to them and set their `width` property to `auto` \(if not set by default\).
 
-    ``` xml
+    ```xml
     <Panel class="sapUxAPObjectPageSubSectionAlignContent" width="auto"></Panel>
     ```
 

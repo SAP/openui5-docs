@@ -22,7 +22,7 @@ This system is the so-called back-end system that we will now simulate with an O
   
 <a name="loiobae9d90d2e9c4206889368f04edab508__fig_r1j_pst_mr"/>The list of invoices is now served by the Mock Server
 
- ![](loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server") 
+ ![](images/loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files at [Walkthrough - Step 26](https://openui5.h
   
 <a name="loiobae9d90d2e9c4206889368f04edab508__fig_dhm_tbp_ns"/>Folder Structure for this Step
 
- ![](loio7a5e2b02d72d40d388f5e601d7de74df_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio7a5e2b02d72d40d388f5e601d7de74df_HiRes.png "Folder Structure for this Step") 
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 
@@ -44,7 +44,7 @@ The new `localService` folder contains a `metadata.xml` service description file
 
 ### webapp/test/mockServer.html \(New\)
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -84,7 +84,7 @@ From this point on, you have two different entry pages: One for the real “conn
 
 ### webapp/test/mockServer.html
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -118,7 +118,7 @@ We modify the `mockServer.html` file and change the page title to distinguish it
 
 ### webapp/test/initMockServer.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"../localService/mockserver"
 ], function (mockserver) {
@@ -141,7 +141,7 @@ The `mockserver` depencency that we are about to implement is our local test ser
 
 ### webapp/localService/mockdata/Invoices.json \(New\)
 
-``` js
+```js
 [
   {
 	"ProductName": "Pineapple",
@@ -194,7 +194,7 @@ Remove the old `Invoices.json` file from the `webapp` folder, it is no longer us
 
 ### webapp/localService/metadata.xml \(New\)
 
-``` xml
+```xml
 <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
 	<edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0"
 			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
@@ -234,7 +234,7 @@ For simplicity, we have removed all content from the original Northwind OData me
 
 ### webapp/localService/mockserver.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/util/UriParameters"

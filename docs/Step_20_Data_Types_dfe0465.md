@@ -20,7 +20,7 @@ The list of invoices is already looking nice, but what is an invoice without a p
   
 <a name="loiodfe04650afc046e0802abb1a1a90d2d9__fig_r1j_pst_mr"/>The list of invoices with prices and number units
 
- ![](loioa8394701ac104827af7e2034cb527e1c_HiRes.png "The list of invoices with prices and number units") 
+ ![](images/loioa8394701ac104827af7e2034cb527e1c_HiRes.png "The list of invoices with prices and number units") 
 
 ***
 
@@ -28,7 +28,7 @@ The list of invoices is already looking nice, but what is an invoice without a p
 
 You can view and download all files at [Walkthrough - Step 20](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.20/preview).
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
@@ -66,7 +66,7 @@ Additionally, we set the formatting option `showMeasure` to `false`. This hides 
 
 ### webapp/controller/InvoiceList.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel"

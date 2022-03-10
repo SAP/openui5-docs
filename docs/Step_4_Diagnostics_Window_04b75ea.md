@@ -18,7 +18,7 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 ### Preview
 
- ![](loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
+ ![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
 
 ***
 
@@ -46,7 +46,7 @@ Let's say that you are facing a performance issue in your app, so let's check so
 3.  Scroll to the *Configuration \(bootstrap\)* section. You see that the `preload` method is set to synchronous processing.
 4.  To improve performance, set the bootstrap parameter `data-sap-ui-async` to `true` in the `index.html` file.
 
-    ``` html
+    ```html
     <!DOCTYPE HTML>
     <html>
     <head>

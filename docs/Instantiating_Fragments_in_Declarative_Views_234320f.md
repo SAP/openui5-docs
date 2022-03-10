@@ -18,7 +18,7 @@ In XML views, fragments are used like regular controls, or more precisely, like 
 
 The following code example shows an XML view that includes all three types of fragments, that is an XML fragment, a JS fragment and an HTML fragment. Each type is instantiated once without a given ID and once with a given ID. These fragment references basically work like import statements including the fragment content controls.
 
-``` xml
+```xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="testdata.fragments.XMLViewController" >
     
     <core:Fragment               fragmentName="my.useful.SimpleUiPart" type="XML" />

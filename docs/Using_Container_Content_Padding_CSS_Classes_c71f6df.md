@@ -50,7 +50,7 @@ The following list of controls support container content padding CSS classes:
 
 ***
 
-``` xml
+```xml
 
 <Page class="sapUiResponsiveContentPadding">
 ```

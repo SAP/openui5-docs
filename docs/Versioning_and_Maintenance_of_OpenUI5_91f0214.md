@@ -67,7 +67,7 @@ You can find which patch versions you use in your app in the technical informati
 
 To access the OpenUI5 version \(core version\) at runtime, you use the following code:
 
-``` js
+```js
 var oConfig = sap.ui.getCore().getConfiguration();
 var oVersion = oConfig.getVersion();
 

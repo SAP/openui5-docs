@@ -21,7 +21,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 
     **index.html**
 
-    ``` html
+    ```html
     <!DOCTYPE html>
     <html>
     	<head>
@@ -47,7 +47,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 
     **main.js**
 
-    ``` js
+    ```js
     sap.ui.define(['sap/m/Text'], function(Text) {
         new Text({
             text: "OpenUI5 is loaded successfully!"

@@ -20,7 +20,7 @@ Now that we have covered all kinds of tests for navigation, we introduce our *Po
   
 <a name="loio4a9f063d4a4143d5b5c10416677f04b6__fig_r1j_pst_mr"/>The *Post* page with more details about the post
 
- ![](loio38c810b97e5b48bba08032aed403bb07_LowRes.png "The Post page with more details about the post") 
+ ![](images/loio38c810b97e5b48bba08032aed403bb07_LowRes.png "The Post page with more details about the post") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	…
@@ -85,7 +85,7 @@ We have already used the `#/Posts/{postId}` hash in our tests and a view called 
 
 ### webapp/view/Worklist.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.bulletinboard.controller.Worklist"
 	xmlns="sap.m"
@@ -119,7 +119,7 @@ We configure the table items to be of type `Navigation`, so a user can trigger t
 
 ### webapp/controller/Worklist.controller.js
 
-``` js
+```js
 sap.ui.define([
     './BaseController',
     'sap/ui/model/json/JSONModel',
@@ -158,7 +158,7 @@ The `press` handler function instructs the `router` to navigate to the `post` pa
 
 ### webapp/view/Post.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
 		controllerName="sap.ui.demo.bulletinboard.controller.Post"
 		xmlns="sap.m"
@@ -200,7 +200,7 @@ We provide a minimalistic detail page showing only some fields of the selected p
 
 ### webapp/controller/Post.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	'./BaseController',
 	'sap/ui/model/json/JSONModel',

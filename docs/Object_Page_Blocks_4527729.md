@@ -18,11 +18,11 @@ The blocks are used to group the app content that is displayed in the sections a
   
 <a name="loio4527729576cb4a4888275b6935aad03a__fig_cr1_qh1_4cb"/>Object Page content grouped in Blocks
 
- ![](loioda91fe47966e4c43bd5fd1a318756c7d_HiRes.png "Object Page content grouped in Blocks") 
+ ![](images/loioda91fe47966e4c43bd5fd1a318756c7d_HiRes.png "Object Page content grouped in Blocks") 
 
 To add blocks, use the `blocks` aggregation of `sap.uxap.ObjectPageSubSection`:
 
-``` xml
+```xml
  <ObjectPageLayout id="ObjectPageLayout" subSectionLayout="titleOnTop">
         <sections>
             <ObjectPageSection title="Payroll" >
@@ -55,7 +55,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 
 -   Extend `sap.uxap.BlockBase`
 
-    ``` js
+    ```js
     sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
              }
@@ -64,7 +64,7 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 
 -   Support the modes described in `sap.uxap.ObjectPageSubSectionMode.type` - `Collapsed` and `Expanded`. For each mode, declare its associated view. It is recommended you use the XML view if no templating is needed:
 
-    ``` js
+    ```js
     sap.uxap.BlockBase.extend("<BlockName>", {
             metadata: {
                 views: {
@@ -94,13 +94,13 @@ Blocks that are used in an `ObjectPageLayout` have to comply with the following 
 > 
 > One *Employee* model for the employee entity:
 > 
-> ``` xml
+> ```xml
 > <Text text="{Employee>FirstName}"></Text>
 > ```
 > 
 > One *Goals* model for the goal collections:
 > 
-> ``` xml
+> ```xml
 > <List items="{Goals>}">
 > ```
 
@@ -109,7 +109,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 > ### Example:  
 > An app wants to use the *Employee Goals* blocks described above. These are therefore embedded into a page that has a model named `ApplicationModel`, in which `Goals` are a navigation property of employees:
 > 
-> ``` xml
+> ```xml
 > <EmployeeGoals>
 >     <mappings>
 >         <uxap:ModelMapping externalModelName="ApplicationModel" externalPath="/Employee('121')" internalModelName="Employee" />
@@ -120,7 +120,7 @@ In one backend service, goals may be a navigation property of employees, but in 
 > 
 > A second app uses the same blocks, but in its service, `Goals` and `Employees` are unrelated entities:
 > 
-> ``` xml
+> ```xml
 > <EmployeeGoals>
 >     <mappings>
 >         <uxap:ModelMapping externalModelName="ApplicationModel2" externalPath="/Employee('121')" internalModelName="Employee" />

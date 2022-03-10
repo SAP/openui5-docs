@@ -16,7 +16,7 @@ For the file `resources/sap/hcm/Address.view.json`, the view name is `sap.hcm.Ad
 
 The file looks as follows:
 
-``` js
+```js
 { 
    "Type":"sap.ui.core.mvc.JSONView",
    "controllerName":"sap.hcm.Address",
@@ -56,7 +56,7 @@ In JSON views, event handlers are bound as attributes with the attribute name as
 
 The following declaration causes `controller.doSomething()` to be executed when the button is pressed:
 
-``` js
+```js
 ...
    {
       "Type":"sap.m.Button",
@@ -82,7 +82,7 @@ MY_TEXT=Hello World
 ```
 
 > ### Example:  
-> ``` js
+> ```js
 > {   "Type": "sap.ui.core.JSONView",
 >     "controllerName":"my.own.views.test",
 >     "resourceBundleName":"myBundle",

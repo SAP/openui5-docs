@@ -127,7 +127,7 @@ Good Example
 
 Access the modules directly:
 
-``` js
+```js
 sap.ui.define(['sap/m/Button'], function(Button) {
     var fnCreateContent = function() {
         // global reference on sap.m.Input, which might not be loaded yet
@@ -145,7 +145,7 @@ sap.ui.define(['sap/m/Button'], function(Button) {
 
 Declare a dependency to `sap.m.Input` within `sap.ui.define`:
 
-``` js
+```js
 sap.ui.define(['sap/m/Input'], function(Input) {
  
     var fnCreateContent = function() {
@@ -253,7 +253,7 @@ Good Example
 <tr>
 <td valign="top">
 
-``` js
+```js
 
 oControl.onAfterRendering = function() {
        // do something
@@ -265,7 +265,7 @@ oControl.onAfterRendering = function() {
 </td>
 <td valign="top">
 
-``` js
+```js
 
 oControl.addEventDelegate({
     onAfterRendering:function() {
@@ -340,7 +340,7 @@ Good Example
 </td>
 <td valign="top">
 
-``` js
+```js
 
 oControl.addEventDelegate({
 	"onAfterRendering": function() {
@@ -387,7 +387,7 @@ If you are creating event handlers in custom controls, you can use listen to DOM
 
 Good example for arbitrary events:
 
-``` js
+```js
 
 oControl.attachBrowserEvent("mousemove", function() {
 	// do something
@@ -396,7 +396,7 @@ oControl.attachBrowserEvent("mousemove", function() {
 
 Good example for wide but limited selection of browser events:
 
-``` js
+```js
 
 oControl.addEventDelegate({
         onmouseover:function() {
@@ -440,7 +440,7 @@ Good Example \(Inside a Typed View\)
 <tr>
 <td valign="top">
 
-``` js
+```js
 
 createContent: function(oController) {
 	var btn = new sap.m.Button("myBtn", {text: "Hello"});
@@ -453,7 +453,7 @@ createContent: function(oController) {
 </td>
 <td valign="top">
 
-``` js
+```js
 
 createContent: function(oController) {
 	var btn = new sap.m.Button(this.createId("myBtn"), {text: "Hello"});
@@ -616,7 +616,7 @@ Good Example
 <tr>
 <td valign="top">
 
-``` js
+```js
 jQuery.ajax("someData.json");
 setTimeout(fnProcessResults, 300);
 ```
@@ -626,7 +626,7 @@ setTimeout(fnProcessResults, 300);
 </td>
 <td valign="top">
 
-``` js
+```js
 jQuery.ajax("someData.json").done(fnProcessResults);
 ```
 

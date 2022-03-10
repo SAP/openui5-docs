@@ -115,11 +115,11 @@ With the new `headerPinned` property and `headerContentPinnedStateChange` event,
 
 -   We have updated the design of the overflow tab according to the latest SAP Fiori guidelines.
 
-    ![](loio90cdc6e0465245ea88856a64eb2f3bfa_LowRes.png)
+    ![](images/loio90cdc6e0465245ea88856a64eb2f3bfa_LowRes.png)
 
     Additionally, when using the `StartAndEnd` tab overflow mode, both overflow tabs will display the number of tabs that they hold.
 
-    ![](loiod507f84c6a874e65b56ccce1cc540b99_LowRes.png)
+    ![](images/loiod507f84c6a874e65b56ccce1cc540b99_LowRes.png)
 
     For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.IconTabBar/sample/sap.m.sample.IconTabBarStartAndEndOverflow).
 
@@ -249,7 +249,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 We have improved the *Change Version* dialog to help you find the desired version faster. We grouped the patch numbers according to minor version, and we added a search field.
 
-![](loio859079fb6af543689477c5e4713c2973_HiRes.png)
+![](images/loio859079fb6af543689477c5e4713c2973_HiRes.png)
 
 
 

@@ -64,7 +64,7 @@ The data section consists of name-value pairs:
 
 ***
 
-``` html
+```html
 [FIX] sap.m.Popover: scrolling is removed after Popover is rerendered
 
 - this was caused by the special treatment in dealing with rerendering

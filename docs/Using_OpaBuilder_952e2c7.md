@@ -26,7 +26,7 @@ In [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Co
 
 The `waitFor` options for this straightforward example are as follows:
 
-``` js
+```js
 return oOpa.waitFor({
     id: "myButton",
     actions: new Press()
@@ -35,7 +35,7 @@ return oOpa.waitFor({
 
 When you use `OpaBuilder`, it looks like this:
 
-``` js
+```js
 return oOpa.waitFor(
     new OpaBuilder()
         .hasId("myButton")
@@ -46,7 +46,7 @@ return oOpa.waitFor(
 
 The result of the `OpaBuilder.build` method is the configuration object for the `Opa5.waitFor` method. Because it's commonly used just as such, `OpaBuilder` comes with a convenient `OpaBuilder.execute()` method. The required `Opa5` instance can be provided as a parameter to the `execute` function, or you can use the `constructor` or `create` method. Taking this into account, the previous example can also be written like this:
 
-``` js
+```js
 return OpaBuilder.create(oOpa)
     .hasId("myButton")
     .doPress()
@@ -63,7 +63,7 @@ For more information, see [`OpaBuilder.build`](https://openui5.hana.ondemand.com
 
 Let's assume we want to show the suggestion list with a filter for "Jo". The `waitFor` definition could look like this:
 
-``` js
+```js
 oOpa.waitFor({
     id: "formInput",
     actions: [
@@ -89,7 +89,7 @@ oOpa.waitFor({
 
 While `doOnAggregation` requires the aggregation name of the defined control and only operates on those OpenUI5 aggregation items, `doOnChildren` addresses any control that is a child within the control hierarchy. Internally, the `sap.ui.test.Matchers.Ancestor` matcher is used as well, but the definition is simplified:
 
-``` js
+```js
 OpaBuilder.create(oOpa)
     .hasId("formInput")
     .doEnterText("Jo", false, true),
@@ -112,7 +112,7 @@ For more information, see [`OpaBuilder.doOnAggregation`](https://openui5.hana.on
 
 Let's have a look at an example including a custom matcher and an action:
 
-``` js
+```js
 When.waitFor({
     id: "entryList",
     matchers: [
@@ -135,7 +135,7 @@ When.waitFor({
 
 Besides user-defined functions, the example also contains two matchers. As the parameter of the `has` method accepts the same types as the `matchers` property, this part could directly be rewritten as:
 
-``` js
+```js
 ...
     .has([
         new Properties({ mode: "MultiSelect" }),
@@ -148,7 +148,7 @@ Besides user-defined functions, the example also contains two matchers. As the p
 
 However, by leveraging the builder pattern, the `.has` methods can easily be chained. The resulting `matchers` options are an array consisting of all defined single matchers in the order of definition. This is similar to the `.do` method and the `actions` property.
 
-``` js
+```js
 OpaBuilder.create(When)
     .hasId("entryList")
     .hasProperties({ mode: "MultiSelect" })
@@ -166,7 +166,7 @@ OpaBuilder.create(When)
 
 While `matchers` and `actions` can be an array of functions, the more seldom used `check` and `success` properties must be a single function. Nevertheless, due to the builder pattern, those functions can be chained as well:
 
-``` js
+```js
 OpaBuilder.create()
     .check(fnCheck1)
     .check(fnCheck2)
@@ -178,7 +178,7 @@ OpaBuilder.create()
 
 `OpaBuilder` chains those functions, which results in the following `waitFor` options:
 
-``` js
+```js
 {
     check: function (vInput) {
         return function(vInput) {
@@ -206,7 +206,7 @@ While `OpaBuilder` itself cannot extend the features provided by `Opa5.waitFor`,
 
 If no error message is explicitly defined, `OpaBuilder` generates an error message when calling `build()`. The message consists of the `controlType` and `id` properties as well as the number of any additional matchers. A generated `errorMessage` can look like this:
 
-``` js
+```js
 sap.m.Button#myButton with 1 additional matcher(s) not found
 ```
 
@@ -216,7 +216,7 @@ sap.m.Button#myButton with 1 additional matcher(s) not found
 
 When defining an OPA5 test without an assertion, there's no output on success. Most often, such an output is useful for longer journeys, so the `OpaBuilder.success` method also accepts a string argument. This generates a simple truthy assertion with the provided message as a success function:
 
-``` js
+```js
 success: function (vControls) {
     Opa5.assert.ok(true, sSuccessMessage);
 }
@@ -224,7 +224,7 @@ success: function (vControls) {
 
 The `OpaBuilder.description` function can be used for even better logging. The provided message is set as `errorMessage` and assertion on success:
 
-``` js
+```js
 OpaBuilder.description("Pressing 'Cancel' button")
 
 // Output message...
@@ -241,7 +241,7 @@ Pressing 'Cancel' button - FAILURE
 
 A common use case of tests is finding and operating on a control with one or more aggregation items that fulfill certain conditions. While there are already some predefined matchers for aggregations in place, `OpaBuilder` comes with the generic `hasAggregation` and the most commonly used `hasAggregationProperties` methods. The `vMatchers` parameter of `hasAggregation` can be any matcher method \(or matcher chain\) that is executed against the items of the defined aggregation of the matching control.
 
-``` js
+```js
 OpaBuilder.create(oOpa)
     .hasType("sap.m.CustomListItem")
     .hasAggregation("content", [
@@ -272,7 +272,7 @@ When defining journeys, reusable functions in the page can speed up writing test
 
 Let's have an interaction that selects all items of a list that aren't selected yet.
 
-``` js
+```js
 OpaBuilder.create(oOpa)
     .hasType("sap.m.CustomListItem")
     .hasProperties({ selected: false })
@@ -283,7 +283,7 @@ OpaBuilder.create(oOpa)
 
 This is fine as long as there is at least one unselected list item. When all items are already selected, the test fails, which is not what we want. Here, the `doConditional` function comes in handy:
 
-``` js
+```js
 OpaBuilder.create(oOpa)
     .hasType("sap.m.CustomListItem")
     .doConditional(

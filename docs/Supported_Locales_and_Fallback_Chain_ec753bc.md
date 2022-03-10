@@ -62,7 +62,7 @@ The directives are executed in order until a resource bundle is loaded \(success
 
 **Sample fallback chain:**
 
-``` html
+```html
 input locale: "de_DE"
 fallbackLocale: "en"
 
@@ -84,7 +84,7 @@ Locale candidates obtained from the fallback chain are filtered using your entri
 
 **Sample:**
 
-``` html
+```html
 input locale: "de_DE"
 fallbackLocale: "en"
 
@@ -99,7 +99,7 @@ As of manifest version `1.21.0` the `sap.app/i18n` section can hold an object co
 
 **Sample configuration in the manifest.json:**
 
-``` json
+```json
 {
 	"_version": "1.21.0",
 	"sap.app": {

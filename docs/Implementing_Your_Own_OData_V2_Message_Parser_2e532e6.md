@@ -16,7 +16,7 @@ If you have your own service implementation, for example, a JSON-based back end 
 
 The main task of the message parser is to retrieve the messages from the back end response and then calculate the message delta that is handed over to the message processor by means of the two parameters `oldMessages` and `newMessages` of the `messageChange` event. The `oldMessages` parameter specifies the messages that are to be removed, and the `newMessages` parameter specifies the messages that are to be added.
 
-``` js
+```js
 this.getProcessor().fireMessageChange({
     oldMessages: aRemovedMessages,
     newMessages: aNewMessages

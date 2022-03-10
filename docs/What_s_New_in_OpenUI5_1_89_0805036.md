@@ -31,11 +31,11 @@ Here are some Demo Kit improvements that we implemented based on your feedback:
 
 -   We implemented a copy button in all code samples in the *Documentation* section:
 
-    ![](loio5757eab2d22b4718a11e0f544bebea0b_HiRes.png)
+    ![](images/loio5757eab2d22b4718a11e0f544bebea0b_HiRes.png)
 
 -   We added a link for each API in the Demo Kit and you can now go directly to the source code file in GitHub:
 
-    ![](loio92d89d918b65410cab9ea44013fff92b_HiRes.png)
+    ![](images/loio92d89d918b65410cab9ea44013fff92b_HiRes.png)
 
 
 

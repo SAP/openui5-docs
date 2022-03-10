@@ -14,7 +14,7 @@ This control is defined by the `swipeContent` aggregation of the list or table. 
 
 -   Button `swipeContent`
 
-    ``` js
+    ```js
     
     <List
         headerText="Products"
@@ -37,7 +37,7 @@ This control is defined by the `swipeContent` aggregation of the list or table. 
 
 -   Control combination as `swipeContent`
 
-    ``` js
+    ```js
     
     new sap.m.List({
         swipeContent : new sap.m.HBox({

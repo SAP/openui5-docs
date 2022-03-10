@@ -29,7 +29,7 @@ For more information, see the [sap.ui.model.odata.type](https://openui5.hana.ond
 > ### Note:  
 > By default, a property binding delivers a value formatted according to the target type of the control property it applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', formatter : '.isOverdue'}">`. This leads to errors because type determination adds the correct type for the `DeliveryDate` property which is `DateTimeOffset` and cannot format its value as a boolean value. In such cases, use `targetType : 'any'` as follows:
 > 
-> ``` js
+> ```js
 > <Icon src="sap-icon://message-warning" visible="{path : 'DeliveryDate', targetType : 'any', formatter : '.isOverdue'}">
 > ```
 > 

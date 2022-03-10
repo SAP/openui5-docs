@@ -70,7 +70,7 @@ Description
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -100,7 +100,7 @@ The relative path of the resource as accessible in a server. The path is relativ
 </td>
 <td valign="top">
 
-![YES](loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -541,7 +541,7 @@ The OpenUI5 build determines this from the naming convention `**themes/<theme>/*
 
 ***
 
-``` js
+```js
 
 {
     "resources": [

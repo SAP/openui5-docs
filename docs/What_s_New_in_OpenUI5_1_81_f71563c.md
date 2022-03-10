@@ -224,7 +224,7 @@ We have added a new `httpRequestMethod` \(experimental\) property to enable the 
 
 We have added a new *Pattern* category in the *Samples* section of the Demo Kit app. The samples added in this category aim to improve the representation of more complex scenarios, such as layouts and floorplans.
 
-![](loio5004e443d73749a48ba7926a0c0d6f69_HiRes.png)
+![](images/loio5004e443d73749a48ba7926a0c0d6f69_HiRes.png)
 
 
 

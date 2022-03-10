@@ -24,7 +24,7 @@ The anchor bar is an automatically generated internal menu that shows the titles
   
 <a name="loio370b67986497463187336fa130aebbf1__fig_znw_wpt_ncb"/>Anchor Bar with Sections and Subsections
 
- ![](loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections") 
+ ![](images/loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections") 
 
 When the user scrolls the page content, the anchor bar remains at the top of the screen.
 
@@ -36,14 +36,14 @@ When the user scrolls the page content, the anchor bar remains at the top of the
 
 The anchor bar is displayed by default. You can hide it by using the `showAnchorBar` property:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout" showAnchorBar="false">
 </ObjectPageLayout>
 ```
 
 In some apps or in some rendering modes of apps, it may not be desirable or necessary to display the anchor bar. In these cases, you can hide it using the `setShowAnchorBar` function.
 
-``` js
+```js
 oObjectPage.setShowAnchorBar(false);
 ```
 
@@ -53,14 +53,14 @@ An additional option for displaying the anchor bar is to use a `sap.m.IconTabBar
 
 XML view:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout" useIconTabBar="true">
 </ObjectPageLayout>
 ```
 
 JavaScript:
 
-``` js
+```js
 oObjectPage.setUseIconTabBar(true);
 ```
 
@@ -70,7 +70,7 @@ oObjectPage.setUseIconTabBar(true);
 
 By default, you don’t need to specify anything for a `sap.uxap.ObjectPageSectionBase` to have its button included in the anchor bar. At runtime, the `ObjectPageLayout` control creates a button that has the same text as the corresponding section title. However, you may want to use your own control for rendering the anchor bar button instead of the default `sap.m.Button`. You can specify the custom control at `sap.uxap.ObjectPageSectionBase` level, as shown here:
 
-``` xml
+```xml
 <ObjectPageSection>
     <customAnchorBarButton>
         <m:Button text="Employee Info"/>
@@ -80,7 +80,7 @@ By default, you don’t need to specify anything for a `sap.uxap.ObjectPageSecti
 
 Scrolling is handled automatically, so you don't need to add anything to enable this feature. However, if you want to handle the `press` event differently, then you can add an event handler to the button and can also optionally customize the button.
 
-``` xml
+```xml
 <ObjectPageSection>
     <customAnchorBarButton>
         <m:Button text="Employee Info" press="handleAnchorBarPress" type="Transparent"/>
@@ -90,7 +90,7 @@ Scrolling is handled automatically, so you don't need to add anything to enable 
 
 Here is an example showing the usage of custom controls for the anchor bar buttons:
 
-``` xml
+```xml
 <ObjectPageLayout id="ObjectPageLayout">       
     <headerTitle>
         <ObjectPageHeader id="headerExpandedGrid" />

@@ -14,7 +14,7 @@ The fragment logic of JS fragments cannot influence the IDs of controls that are
 
 This behavior is similar to how JS views behave regarding IDs. When a stable ID is given within a JS fragment, the `this.createId()` method should be used:
 
-``` js
+```js
 createContent: function(oController ) {
 	var oButton  = new sap.m.Button(this.createId("btnInJsFragment"), { 
 	// use createId() to let the fragment influence the ID

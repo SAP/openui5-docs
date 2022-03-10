@@ -18,7 +18,7 @@ The `View` tag is required and in the example below, the `sap.ui.core.mvc` names
 
 A control can be located in a subpackage of a control library, for example `sap.ui.layout.form.Form` is located in the `sap.ui.layout` library, but the full package name is `sap.ui.layout.form`. You have to specify this subpackage as a separate XML namespace, even if `sap.ui.layout` is already defined as namespace.
 
-``` xml
+```xml
 <mvc:View
      xmlns:mvc="sap.ui.core.mvc"
      xmlns:layout="sap.ui.layout"

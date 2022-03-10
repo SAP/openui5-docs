@@ -136,7 +136,7 @@ If a control you want to use in your app to visualize list entries supports exte
     <tr>
     <td valign="top">
 
-    ``` js
+    ```js
     oControl.bindItems({
       path: "/listData",
       key: "id"
@@ -148,7 +148,7 @@ If a control you want to use in your app to visualize list entries supports exte
     </td>
     <td valign="top">
 
-    ``` js
+    ```js
     oControl.bindItems({
       path: "/listData",
       key: function(oContext) {

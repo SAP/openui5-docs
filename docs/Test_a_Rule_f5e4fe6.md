@@ -28,7 +28,7 @@ If you want to test a Support Assistant rule on a locally running app, there are
 
 2.  Start the app from your local server and call the Technical Information Dialog \(available as of version 1.44\).
 
-3.  Press *Activate Support Assistant* and it will load from your local server. If the Support Assistant is not loading, click the gear icon ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) next to the button, select *Recommended locations*, and from the dropdown list choose the current version app.
+3.  Press *Activate Support Assistant* and it will load from your local server. If the Support Assistant is not loading, click the gear icon ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) next to the button, select *Recommended locations*, and from the dropdown list choose the current version app.
 
 4.  After it loads, if you have correctly entered your data when creating the rule, you should see the title of your rule in the *Available Rulesets* tab.
 
@@ -47,7 +47,7 @@ To test your locally modified rule on other apps:
 
 2.  Start the app that you want to test your locally modified rule on and call the Technical Information Dialog \(available as of version 1.44\).
 
-3.  Select the gear icon ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) next to the *Activate Support Assistant* and select *Custom Location*.
+3.  Select the gear icon ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) next to the *Activate Support Assistant* and select *Custom Location*.
 
 4.  In the input field, write the path to the Support Assistant location from your local server. For example, ***http://localhost:8080/testsuite/resources/sap/ui/support/***. This way you can load your version of the Support Assistant with the newly created or modified rule. If the remote app is hosted on an HTTPS server, the local server should run on and support HTTPS protocol.
 

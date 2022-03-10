@@ -75,7 +75,7 @@ The OData model in OpenUI5 uses AJAX requests internally and the OData model ini
 
 Example:
 
-``` html
+```html
 <script>
 <!-- put the following code in the beginning of the application code -->
 function appReady(){

@@ -16,7 +16,7 @@ When you delete the entity from a list binding, the corresponding row is removed
 
 **Example: Delete From a Table**
 
-``` js
+```js
 
 onDeleteSalesOrder : function () {
     var oTable = this.getView().byId("SalesOrders"),

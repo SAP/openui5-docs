@@ -22,7 +22,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
   
 <a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
- ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
+ ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 
 
 ***
@@ -35,7 +35,7 @@ You can view and download all files at [Walkthrough - Step 9](https://openui5.ha
   
 <a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>Folder Structure for this Step
 
- ![](loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
 
 After this step your project structure will look like the figure above. We will create the `Component.js` file now and modify the related files in the app.
 
@@ -43,7 +43,7 @@ After this step your project structure will look like the figure above. We will 
 
 ### webapp/Component.js \(New\)
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/UIComponent"
 ], function (UIComponent) {
@@ -65,7 +65,7 @@ We create an initial `Component.js` file in the `webapp` folder that will hold o
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/UIComponent",
    "sap/ui/model/json/JSONModel",
@@ -113,7 +113,7 @@ In the `init` function we instantiate our data model and the `i18n` model like w
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"
@@ -141,7 +141,7 @@ Delete the `onInit` function and the required modules; this is now done in the c
 
 ### webapp\\index.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/ComponentContainer"
 ], function (ComponentContainer) {

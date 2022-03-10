@@ -22,7 +22,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
   
 <a name="loio1409791afe4747319a3b23a1e2fc7064__fig_r1j_pst_mr"/>The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)
 
- ![](loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
+ ![](images/loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)") 
 
 ***
@@ -31,7 +31,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
 
 You can view and download all files at [Walkthrough - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.04/preview).
 
-``` xml
+```xml
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -47,7 +47,7 @@ We create a new `view` folder in our app and a new file for our XML view inside 
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -64,7 +64,7 @@ Inside the `view` tag, we add the declarative definition of our `text` control w
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/XMLView"
 ], function (XMLView) {

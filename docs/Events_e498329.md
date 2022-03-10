@@ -18,7 +18,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 This means that you can dynamically change the swipe content according to the respective list item. If a list item has not yet been approved, for example, then the *Approve* button is shown. After approval or if it is already approved, the *Disapprove* button is shown. See the following example:
 
-``` js
+```js
 
 <List 
     id=... 
@@ -36,7 +36,7 @@ This means that you can dynamically change the swipe content according to the re
 
 And this is how it looks in the controller:
 
-``` js
+```js
 
 handleSwipe: function(e) {   // register swipe event
         var oSwipeListItem = e.getParameter("listItem"),    // get swiped list item from event
@@ -56,7 +56,7 @@ handleSwipe: function(e) {   // register swipe event
 
 Swipe events can be cancelled. The built-in controls that work with swipe left events like `Switch` or `Slider` cancel a swipe event by default. If you also want to disable swipe events for your custom use case, you can call the `preventDefault` method of the event object, as shown in the following example:
 
-``` js
+```js
 
 handleSwipe : function(e) {
          // get which control inside the list item fired swipe event

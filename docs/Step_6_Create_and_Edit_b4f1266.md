@@ -22,7 +22,7 @@ In this step, we will make it possible to create and edit \(update\) user data f
   
 <a name="loiob4f12660538147f8839b05cb03f1d478__fig_sr1_wpw_4cb"/>Data can now be edited and added.
 
- ![](loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.") 
+ ![](images/loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [OData V4 - Step 6](https://openui5.hana.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 ...
 		onInit : function () {
 			var oMessageManager = sap.ui.getCore().getMessageManager(),
@@ -62,7 +62,7 @@ You can view and download all files at [OData V4 - Step 6](https://openui5.hana.
 
 We change the `onInit` method: The `appView` model receives two additional properties, which we will use to control whether certain controls in the view are enabled or visible during user entries. We also make the `MessageModel` available to the view and add a `ListBinding`. When the OData service reports errors while writing data, the OData Model adds them to the `MessageModel` as technical messages. Therefore we apply a filter to the `ListBinding`. We register our own handler to the `change` event of that `ListBinding` in order to capture any errors.
 
-``` js
+```js
 ...
 		onSort : function () {
 			...
@@ -87,7 +87,7 @@ We change the `onInit` method: The `appView` model receives two additional prope
 
 We add the `_setUIChanges` private method that lets us set the property `hasUIChanges` of the `appView` model. Unless there are currently technical messages in the `MessageModel` or it is called with a given value for its `bHasUIChanges` parameter, the method uses `ODataModel.hasPendingChanges`. That method returns `true` if there are any changes that have not yet been written to the service.
 
-``` js
+```js
 ...
 		onInit: function () {
 			...
@@ -121,7 +121,7 @@ We add the `onCreate` event handler that responds to the `press` event of the *A
 
 We also use the binding context returned by the `create` method to focus and select the new row in which the new data can be entered.
 
-``` js
+```js
 ...
 		onRefresh: function () {
 			...
@@ -164,7 +164,7 @@ The `submitBatch` method returns a `Promise` that is rejected only if the batch 
 
 We also define a `_setBusy` private function to lock the whole UI while the data is submitted to the back end.
 
-``` js
+```js
 ...
 		onSort : function () {
 			...
@@ -201,7 +201,7 @@ We also define a `_setBusy` private function to lock the whole UI while the data
 
 We implement the event handler for the `change` event of the `ListBinding` to the `MessageModel`. We created the `ListBinding` with a filter to only include technical messages. That means that the `change` event will be fired with every change but only technical messages will have a binding context. In case of technical messages, we get the first one and display it as an error. We also make sure that the toolbar for saving or discarding changes stays visible. We delete the technical messages so that they do not accumulate.
 
-``` js
+```js
 ...
 		onRefresh: function () {
 			...
@@ -219,7 +219,7 @@ We implement the event handler for the `change` event of the `ListBinding` to th
 
 The `onResetChanges` method handles discarding pending changes. It uses the `resetChanges` method of the `ODataListBinding` API to remove any such changes. Then it calls the `_setUIChanges` private method to enable the elements of the header toolbar again and hide the footer.
 
-``` js
+```js
 ...
 		onCreate: function () {
 			...
@@ -248,7 +248,7 @@ The `onInputChange` event handler manages entries in any of the `Input` fields a
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.core.tutorial.odatav4.controller.App"
 	displayBlock="true"
@@ -386,7 +386,7 @@ Creation via a form is demonstrated in our [Sales Orders sample app](https://ope
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # Toolbar
 #XBUT: Button text for save
 saveButtonText=Save

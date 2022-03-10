@@ -55,7 +55,7 @@ Besides using `sap.ui.core.ComponentSupport`, you can also define a data attribu
 
 This attribute should reference a valid OpenUI5 module as shown in the snippet below. In this sample you can also see how to use the `data-sap-ui-resourceroots` as part of your init module path.
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
         src="https://ui5.sap.com/resources/sap-ui-core.js"
        ...
@@ -78,7 +78,7 @@ Please also have a look at our tutorial section, including the [Quick Start](Qui
 
 The callback of the [`attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
 
-``` js
+```js
 sap.ui.getCore().attachInit(function(){
     // application can be started
 });

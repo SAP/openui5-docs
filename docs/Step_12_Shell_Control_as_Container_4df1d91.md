@@ -20,7 +20,7 @@ Now we use a shell control as container for our app and use it as our new root e
   
 <a name="loio4df1d914e52d4b1aa0805eb01522537e__fig_r1j_pst_mr"/>The app is now run in a shell that limits the app width
 
- ![](loio011584a22f8f41cbae77c4b6dd65bcb5_HiRes.png "The app is now run in a shell that limits the app width") 
+ ![](images/loio011584a22f8f41cbae77c4b6dd65bcb5_HiRes.png "The app is now run in a shell that limits the app width") 
 
 ***
 
@@ -28,7 +28,7 @@ Now we use a shell control as container for our app and use it as our new root e
 
 You can view and download all files at [Walkthrough - Step 12](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"

@@ -18,7 +18,7 @@ The library style sheet file \(`library.css`\) contains all styles relevant for 
 
 In a `library.js` file, the call to `sap.ui.getCore().initLibrary()` takes care of creating the namespace object of the library and exports it under its global name. Afterwards, you can use this global name to write types or helpers:
 
-``` js
+```js
 sap.ui.define(function() {
  
 	"use strict";
@@ -61,7 +61,7 @@ sap.ui.define(function() {
 
 We recommend to add all simple types of a library to the `library.js` module. Other modules that need to work with such types can simply include the respective library as a module dependency:
 
-``` js
+```js
 // requiring a library
 sap.ui.require(["sap/ui/core/library"], function(library) {
     var sAlign = library.HorizontalAlign.Begin;
@@ -85,7 +85,7 @@ The default values, however, should be referenced via the correct type value fro
 
 Define the `library.js` as static dependency and use it as a local variable for convenience:
 
-``` js
+```js
 sap.ui.define(["sap/ui/core/Control", "./library"], function(Control, library) {
     // shortcut on Enum
     var SizeMode = library.SizeMode;

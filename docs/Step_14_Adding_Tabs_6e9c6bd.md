@@ -20,7 +20,7 @@ We want to display statistics for posts, for example, how many times it was view
   
 <a name="loio6e9c6bd2054c4425b7f15cac31aa675c__fig_r1j_pst_mr"/>An icon tab bar with statistics
 
- ![](loio1d8248aaaac34e1185b36090859cf47c_LowRes.png "An icon tab bar with statistics") 
+ ![](images/loio1d8248aaaac34e1185b36090859cf47c_LowRes.png "An icon tab bar with statistics") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### view/Post.view.xml
 
-``` xml
+```xml
 <mvc:View
       controllerName="sap.ui.demo.bulletinboard.controller.Post"
       xmlns="sap.m"
@@ -92,7 +92,7 @@ In this very simple example, we just put a static text in the tab. In a real app
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 #~~~ Object View ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #XTIT: Object view title

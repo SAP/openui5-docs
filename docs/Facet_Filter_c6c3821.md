@@ -16,7 +16,7 @@ With the facet filter, users can explore a data collection by applying multiple 
 
 The following figure shows the structure of the facet filter.
 
- ![](loiof144853312cd42a1bff62ce4695eba2d_LowRes.png) 
+ ![](images/loiof144853312cd42a1bff62ce4695eba2d_LowRes.png) 
 
 ***
 
@@ -27,7 +27,7 @@ Your application displays a large list of products that can be grouped by catego
 -   Supplier: Red Point Stores
 
 
-![](loiof57566c5aa854e2f86a8df84040ba13c_LowRes.png)
+![](images/loiof57566c5aa854e2f86a8df84040ba13c_LowRes.png)
 
 The facet filter supports the following two typeswhich can be configures using the control's `type` property:
 

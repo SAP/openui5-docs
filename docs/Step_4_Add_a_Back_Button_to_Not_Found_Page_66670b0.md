@@ -20,7 +20,7 @@ When we are on the *Not Found* page because of an invalid hash, we want to get b
   
 <a name="loio66670b0aab3948469d5cc8276113e9ea__fig_r1j_pst_mr"/>*Not Found* page with *Back* button
 
- ![](loio1cbb1ebea9e242ffae22d7172b91e241_LowRes.png "Not Found page with Back
+ ![](images/loio1cbb1ebea9e242ffae22d7172b91e241_LowRes.png "Not Found page with Back
 					button") 
 
 ***
@@ -33,7 +33,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/view/NotFound.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.NotFound"
 	xmlns="sap.m"
@@ -53,7 +53,7 @@ In the `NotFound` view, we set the property `showNavButton` of the `MessagePage`
 
 ### webapp/controller/BaseController.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
@@ -99,7 +99,7 @@ The third parameter of `navTo("appHome", {}, true /*no history*/);` has the valu
 
 ### webapp/controller/NotFound.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 
@@ -120,7 +120,7 @@ At this point you can open `index.html#/thisIsInvalid` in your browser and press
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 
@@ -139,7 +139,7 @@ To be consistent, we will now extend all of our controllers with the base contro
 
 ### webapp/controller/Home.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 

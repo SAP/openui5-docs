@@ -22,7 +22,7 @@ In this step we add a detail area with additional information.
   
 <a name="loioec445816634f45eb88a7e559187dac46__fig_ybl_pdx_4cb"/>A detail area containing information about the selected user is added
 
- ![A list of users with an added detail area](loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added") 
+ ![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [OData V4 - Step 9](https://openui5.hana.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 ...
 		onMessageBindingChange : function (oEvent) {
 			...
@@ -71,7 +71,7 @@ Afterwards the detail area is made visible and is resized.
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.core.tutorial.odatav4.controller.App"
 	displayBlock="true"
@@ -252,7 +252,7 @@ One of the most vital parts of the data reuse functionality is the usage of the 
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Detail Area
 #XTIT: Title for Address

@@ -20,7 +20,7 @@ Now it is time to build our first little UI by replacing the “Hello World” t
   
 <a name="loioddbceecd7d3d42eea9cf78a820a238fb__fig_r1j_pst_mr"/>The "Hello World" text is now displayed by a OpenUI5 control
 
- ![](loio7cad93a924694474acd782b34e162d4b_HiRes.png "The "Hello World" text is now displayed by a OpenUI5
+ ![](images/loio7cad93a924694474acd782b34e162d4b_HiRes.png "The "Hello World" text is now displayed by a OpenUI5
 					control") 
 
 ***
@@ -37,7 +37,7 @@ You can view and download all files at [Walkthrough - Step 3](https://openui5.ha
 
 ### webapp/index.html
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,7 +71,7 @@ The class `sapUiBody` adds additional theme-dependent styles for displaying Open
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/m/Text"
 

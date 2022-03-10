@@ -18,7 +18,7 @@ The `sap.ui.core.format.FileSizeFormat` class can be used to format a number int
 
 The instantiation of `sap.ui.core.format.FileSizeFormat` is done by calling the `getter` defined on the `FileSizeFormat` \(and not by calling the constructor\):
 
-``` js
+```js
 var oFileSizeFormat = sap.ui.core.format.FileSizeFormat.getInstance();
 ```
 
@@ -28,7 +28,7 @@ var oFileSizeFormat = sap.ui.core.format.FileSizeFormat.getInstance();
 
 `binaryFilesize`: if this is set to `true`, base `2` is used which means 1 Kilobyte = 1024 Byte. Otherwise base 10 is used which means 1 Kilobyte = 1000 Byte. The default value is `false`.
 
-``` js
+```js
 var oFileSizeFormat =  sap.ui.core.format.FileSizeFormat.getInstance({
     binaryFilesize: true,
     decimals: 2
@@ -49,7 +49,7 @@ oFileSizeFormat.format(1023); //returns 1.02 KB because it's bigger than 1 KB (1
 
 `FileSizeFormat` can also parse a string which contains both number and unit of a number which represents the same amount of size in unit byte.
 
-``` js
+```js
 var oFileSizeFormat =  sap.ui.core.format.FileSizeFormat.getInstance();
  
 oFileSizeFormat.parse("1.23 MiB"); //returns 1289748.48

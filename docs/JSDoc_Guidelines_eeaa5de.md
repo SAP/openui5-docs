@@ -582,7 +582,7 @@ Adds parameters
 </td>
 <td valign="top">
 
-``` js
+```js
 /**
  * ...
  * @param {string} statement The SQL statement to be prepared
@@ -863,7 +863,7 @@ Inserts a code sample after the comment
 </td>
 <td valign="top">
 
-``` js
+```js
 /**
  * ...
  * @example

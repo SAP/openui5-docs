@@ -39,7 +39,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   As `MessageBox` is a static class, a `sap.ui.require("sap.m.MessageBox");` statement must be explicitly executed before the class can be used.
 
 > ### Example:  
-> ``` js
+> ```js
 > 	// load MessageBox asynchronously
 > 	sap.ui.require(['sap/m/MessageBox'], function(MessageBox) {
 > 	
@@ -65,7 +65,7 @@ For showing messages to the user that are related to the currrent page, you have
 -   You can open a message toast easily with the `sap.m.MessageToast` API.
 
 > ### Example:  
-> ``` js
+> ```js
 > 	// add MessageToast as import
 > 	sap.ui.define([..., 'sap/m/MessageTost', ...], function(..., MessageToast, ...) {
 > 

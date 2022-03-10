@@ -16,7 +16,7 @@ The configuration is stored in the component.js file of the custom application. 
 
 The following code snippet shows an example of a configuration structure.
 
-``` js
+```js
 
 some.sap.Component.extend("some.customer.Component", {
     

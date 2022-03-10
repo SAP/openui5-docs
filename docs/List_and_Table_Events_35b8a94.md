@@ -25,7 +25,7 @@ All of these events are handled in the same way: an event is fired, and the even
 
 To use these events, you can simply define handlers for them, as shown below:
 
-``` js
+```js
 
 <Table
    delete="deleteHandler"
@@ -39,7 +39,7 @@ To use these events, you can simply define handlers for them, as shown below:
 
 An example for `delete` would look like this:
 
-``` js
+```js
 <List
       id="list"
       mode="Delete"
@@ -55,7 +55,7 @@ An example for `delete` would look like this:
 
 An example for `selectionChange` would look like this:
 
-``` js
+```js
 <List
       id="idList"
       items="{/ProductCollection}"

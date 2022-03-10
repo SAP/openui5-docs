@@ -272,7 +272,7 @@ The check function has three main and one optional parameters. The main ones are
 
     Here is an example of a check function that checks all Input controls which are part of the public aggregation and have no parent set:
 
-    ``` js
+    ```js
     
     function(issueManager, oCoreFacade, oScope) {
       var mElements = oScope.getElements({
@@ -301,7 +301,7 @@ The check function has three main and one optional parameters. The main ones are
 
     Here is an async rule code example:
 
-    ``` js
+    ```js
     function(issueManager, oCoreFacade, oScope, fnResolve) {
       // Some async operation
       setTimeout(function () {

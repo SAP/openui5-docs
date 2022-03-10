@@ -22,7 +22,7 @@ In this step, we have a closer look at batch groups. Batch groups are used to gr
   
 <a name="loioef2af4957fae469e9203e98006d3ee75__fig_klh_5kw_4cb"/>No visual change compared to the last step
 
- ![](loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "No visual change compared to the last step") 
+ ![](images/loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "No visual change compared to the last step") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [OData V4 - Step 5](https://openui5.hana.
 
 ### webapp/manifest.json
 
-``` json
+```json
 ...
 				"": {
 				"dataSource": "default",

@@ -22,7 +22,7 @@ In this step, we implement a bookmarking feature by enabling deep linking to tab
   
 <a name="loiob8561ff6f4c34c85a91ed06d20814cd3__fig_r1j_pst_mr"/>Deep link to allow bookmarkable tabs
 
- ![](loio3eb33f8439b842629261fbd72a92d371_LowRes.png "Deep link to allow bookmarkable tabs") 
+ ![](images/loio3eb33f8439b842629261fbd72a92d371_LowRes.png "Deep link to allow bookmarkable tabs") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -93,7 +93,7 @@ The `:?query:` parameter starts and ends with "`:`", which means that it is opti
 
 ### webapp/view/employee/Resume.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Resume"
 	xmlns="sap.m"
@@ -138,7 +138,7 @@ To update the currently selected tab in the URL we listen to the select event of
 
 ### webapp/controller/employee/Resume.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/json/JSONModel"

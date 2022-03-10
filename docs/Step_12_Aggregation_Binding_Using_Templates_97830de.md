@@ -27,7 +27,7 @@ It will automatically create as many child controls as are needed to display the
   
 <a name="loio97830de2d7314e93b5c1ee3878a17be9__fig_r1j_pst_mr"/>List with aggregation binding
 
- ![](loio16424336ab62402e8c27d5d7dac069b1_HiRes.png "List with aggregation binding") 
+ ![](images/loio16424336ab62402e8c27d5d7dac069b1_HiRes.png "List with aggregation binding") 
 
 ***
 
@@ -39,7 +39,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 12](
 
 ### webapp/index.js
 
-``` js
+```js
 sap.ui.require([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/XMLView",
@@ -98,7 +98,7 @@ sap.ui.require([
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
 					<Input description="{/currencyCode}" enabled="{/enabled}" id="salesAmount"
 						value="{
@@ -151,7 +151,7 @@ We add a new panel to the view.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library",
@@ -186,7 +186,7 @@ sap.ui.define([
 
 ### webapp/model/Products.json \(New\)
 
-``` js
+```js
 { "Products": [ {
      "ProductID": 1,
      "ProductName": "Chai",
@@ -252,7 +252,7 @@ We now use a new JSON model file for product data.
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ... 
 # Screen titles
 panel1HeaderText=Data Binding Basics
@@ -274,7 +274,7 @@ stockValue=Current Stock Value
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 ...
 # Screen titles
 panel1HeaderText=Data Binding Basics

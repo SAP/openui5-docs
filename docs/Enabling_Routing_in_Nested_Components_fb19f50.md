@@ -30,7 +30,7 @@ A target in OpenUI5 routing can load either a view, or a component. To load a co
 
 Loading a child component with a type `Component` target in a router builds up a hierarchy between this router and the router in the child component.
 
-``` json
+```json
 {
     "sap.ui5": {
         "componentUsages": {
@@ -56,7 +56,7 @@ Use the following configuration to load the component from the target:
 -   `containerOptions` \(optional\): Add additional options that are passed to the constructor of the component container where the component is rendered, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
 
 
-``` js
+```js
 {
     "sap.ui5": {
         "componentUsages": {
@@ -111,7 +111,7 @@ The hash from every router needs to be persisted in the browser hash. To identif
 
 Instead of assigning the `target` option in a route with the name of a target which is going to be displayed once the route's pattern is matched, an object is assigned which also contains the prefix of the hash for this component besides the name of the target. The loaded component from the target has its own hash segment which begins with the given prefix and can change the hash by using method `navTo` on `Router` in the same way as it is done in the top level component.
 
-``` json
+```json
 {
     "sap.ui5": {
         "componentUsages": {
@@ -172,7 +172,7 @@ When the nested component `myreuse` has routing enabled, the router instance wit
 
 If `propagateTitle` is not set, no `titleChanged` event will be propagated from the nested component.
 
-``` json
+```json
 {
     "sap.ui5": {
         "componentUsages": {

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Example of a container control with arbitrary child controls that are rendered in a row and a colored box around each child
 
-``` js
+```js
 sap.ui.core.Control.extend("ColorBoxContainer", { // call the new Control type "ColorBoxContainer"
     // and let it inherit from sap.ui.core.Control
 
@@ -62,7 +62,7 @@ As the control itself has no appearance, no additional CSS is required.
 
 You can use this container control like any OpenUI5 container:
 
-``` js
+```js
 var oButton = new sap.m.Button({text:'Hello World'});
 var oInput = new sap.m.Input({placeholder:'edit text here'});
 

@@ -14,7 +14,7 @@ Modules can be required in XML views and fragments and assigned to aliases which
 
 The `require` attribute with namespace URI `sap.ui.core` can be used to define the module aliases and paths. In the following sections we assume that the namespace prefix `core` is used to define the URI `sap.ui.core` which makes the attribute to be written as `core:require`. This attribute can be used at every element of an XML view or fragment. You can specify a list of required modules as Unified Resource Names, similar to `sap.ui.require`, and assign aliases to them using a JSON-like syntax.
 
-``` xml
+```xml
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
    core:require="{
       Box: 'sap/m/MessageBox',
@@ -42,7 +42,7 @@ The aliases can then be used to access the modules' static functions. The alias 
 
 You can use the XML `require` to reference static functions of a module which can serve as event handlers. This works with static strings as well as with any model data. For a description how this is done, see [Handling Events in XML Views](Handling_Events_in_XML_Views_b0fb4de.md). As the `Box` module is defined on the root element, it can be used in the whole view.
 
-``` xml
+```xml
 <mvc:View controllerName="some.Controller" xmlns="sap.m"
       xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
       core:require="{Box:'sap/m/MessageBox'}">
@@ -64,7 +64,7 @@ You can use the XML `require` to reference static functions of a module which ca
 
 You can also use the `require` module with data binding. Formatters and factory functions can be defined with the `require` modules, as well as expression bindings. The following code extract also shows, that the `Factory` module, which is defined on the List element, can only be used there, and not in sibling or parent controls:
 
-``` xml
+```xml
 <mvc:View controllerName="some.Controller" xmlns="sap.m"
       xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
       core:require="{Util:'some/Util'}">
@@ -91,7 +91,7 @@ You can also use the `require` module with data binding. Formatters and factory 
 
 -   A fragment is defined inline within a View.
 
-    ``` xml
+    ```xml
     <mvc:View controllerName="some.Controller" xmlns="sap.m"
           xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
       <FragmentDefinition>

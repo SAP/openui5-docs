@@ -16,7 +16,7 @@ If the extension points provided for view extension are not sufficient to meet t
 
 The following view is delivered in the standard application:
 
-``` js
+```js
 
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <TextView text="SAP View 'Sub1' - this one should have been replaced by the customer View"></TextView>  
@@ -26,7 +26,7 @@ The following view is delivered in the standard application:
 
 This is the custom view to replace the standard view:
 
-``` js
+```js
 
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     <TextView text="Custom View 'Sub1' - this one replaces the original SAP View 'Sub1'"></TextView>    
@@ -35,7 +35,7 @@ This is the custom view to replace the standard view:
 
 The following extension replaces the custom view with the view in the standard application
 
-``` js
+```js
 
 extensions: {
     .....some more content

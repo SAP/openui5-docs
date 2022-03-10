@@ -20,7 +20,7 @@ GET url/to/allowlist/service?parentOrigin=https://parent.domain.com
 
 The service responds to the request with a valid JSON:
 
-``` js
+```js
 
 {
     "version" : "1.0",

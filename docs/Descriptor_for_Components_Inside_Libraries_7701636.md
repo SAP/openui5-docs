@@ -508,7 +508,7 @@ SAPUI5 determines the library name by analyzing the component namespace \(packag
 
 Example:
 
-``` js
+```js
 
 sap.ui.core.UIComponent.extend("com.sap.fancylibrary.sub.CompLib.Component", {
     metadata : {

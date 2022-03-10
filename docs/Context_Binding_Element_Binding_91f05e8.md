@@ -14,7 +14,7 @@ Context binding \(or element binding\) allows you to bind elements to a specific
 
 Let’s assume we have the following JSON data:
 
-``` json
+```json
 {
 	"company" : {
 		"name": "Acme Inc.",
@@ -29,7 +29,7 @@ Let’s assume we have the following JSON data:
 
 Here’s how you would use element binding in an XML view:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -43,7 +43,7 @@ Here’s how you would use element binding in an XML view:
 
 By setting `binding="{/company}"`, we can refer to `company` children without having to qualify the full binding path, when binding `Input` control’s properties such as the `value`. Using plain property binding, our XML view would look like this:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -56,7 +56,7 @@ By setting `binding="{/company}"`, we can refer to `company` children without ha
 
 To define an element binding in JavaScript, for example in a controller, use the `bindElement` method on a control:
 
-``` js
+```js
 var oInput = this.byId("companyInput");
 oInput.bindElement("/company");
 oInput.bindProperty("value", "name");
@@ -64,7 +64,7 @@ oInput.bindProperty("value", "name");
 
 Element binding is especially interesting for containers or layouts containing many controls that are all visualizing properties of the same model object. Here’s an XML view with a `VerticalLayout` using element binding:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -82,7 +82,7 @@ Element binding is especially interesting for containers or layouts containing m
 
 To realize this in JavaScript, proceed as follows in your controller:
 
-``` js
+```js
 var oVerticalLayout = this.byId("vLayout");
 oVerticalLayout.bindElement("/company");
 oVerticalLayout.addContent(new Text({ text: "{name}" }));
@@ -92,7 +92,7 @@ oVerticalLayout.addContent(new Text({ text: "{county}" }));
 
 Given your XML view contains a `VerticalLayout`, it will look like this:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -112,7 +112,7 @@ You create a new binding context for an element that is used to resolve bound pr
 
 Let's look at the following JSON model featuring a company list:
 
-``` json
+```json
 {
 	"companies" : [
 		{
@@ -142,7 +142,7 @@ Let's look at the following JSON model featuring a company list:
 
 Let’s take this simple view, containing a single input control:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -153,7 +153,7 @@ Let’s take this simple view, containing a single input control:
 
 In your controller, you can now bind the input control as follows:
 
-``` js
+```js
 var oInput = this.byId("companyInput");
 oInput.bindElement("/companies/0");
 ```
@@ -164,7 +164,7 @@ To remove the current binding context, call the `unbindElement` method on the in
 
 You can also use the `bindElement` method in conjunction with list binding. Let’s consider the following extension of our JSON data:
 
-``` json
+```json
 {
 	"regions": [
 		{
@@ -225,7 +225,7 @@ You can also use the `bindElement` method in conjunction with list binding. Let�
 
 Say we want to display companies in a `sap.m.List` control. Here’s what the XML view will look like:
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -238,14 +238,14 @@ Say we want to display companies in a `sap.m.List` control. Here’s what the XM
 
 Please note that `items="{companies}"` cannot be resolved initially, since it is a relative path. In your controller, you can now provide an element binding for the list control:
 
-``` js
+```js
 var oList = this.byId("companyList");
 oList.bindElement("/regions/0");
 ```
 
 This will display the companies for region **Americas**, while the code below displays all companies in the **DACH** region \(Germany, Austria, Switzerland\):
 
-``` js
+```js
 var oList = this.byId("companyList");
 oList.bindElement("/regions/1");
 ```

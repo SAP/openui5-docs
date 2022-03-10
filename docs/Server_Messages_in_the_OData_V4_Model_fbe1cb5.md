@@ -276,14 +276,14 @@ Unbound
 </td>
 <td valign="top">
 
-![](loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
+![](images/loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
-![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
 
 
@@ -299,14 +299,14 @@ Bound
 </td>
 <td valign="top">
 
-![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
-![](loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
+![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
 
 
 
@@ -351,7 +351,7 @@ A change set with multiple requests only has one error response. In this case, `
 > ### Example:  
 > **Request**
 > 
-> ``` json
+> ```json
 > --changeset_id-1612779902438-25
 > Content-Type:application/http
 > Content-ID:0.0
@@ -374,7 +374,7 @@ A change set with multiple requests only has one error response. In this case, `
 > ### Example:  
 > **Response**
 > 
-> ``` json
+> ```json
 > {
 >     "error": {
 >         "message": "Value must be greater than 0",
@@ -428,7 +428,7 @@ sap-messages:[
 
 Bound messages may also be transported as a part of the OData entity to which they belong. These messages may be transition or state messages. The OData entity contains its bound messages as collection-valued property of the complex type specified in the description of `com.sap.vocabularies.Common.v1.Messages`. The `target` property specifies to which property the message is bound. The application needs to specify in the`$select` binding parameter whether messages should be returned by the server.
 
-``` js
+```js
   <ComplexType Name="<name of message type>">
       <Property Name="code" Type="Edm.String" Nullable="false" />
       <Property Name="message" Type="Edm.String" Nullable="false" />
@@ -453,7 +453,7 @@ The `target` property may contain a path relative to the entity which contains t
 > ### Example:  
 > **Matching Binding Path and Target**
 > 
-> ``` js
+> ```js
 > // Binding Path: "/SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')/Quantity"
 > // Request URL: "GET SalesOrderList('0500000005')?$select=Messages,SalesOrderID"
 > oResponse = {
@@ -661,7 +661,7 @@ To highlight table rows based on the criticality of the messages for that entity
 > ### Example:  
 > Highlight a table row
 > 
-> ``` xml
+> ```xml
 > <!-- m.Table -->
 > <Table items="{/SalesOrderList}">
 >     <columns>
@@ -685,7 +685,7 @@ Let `messageModel` be the named message model. A table row with messages can be 
 > ### Example:  
 > Formatter to highlight a table row
 > 
-> ``` js
+> ```js
 > this.byId("row").bindProperty("highlight", {
 >     formatter: function () {
 >         var aMessages,

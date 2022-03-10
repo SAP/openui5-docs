@@ -24,7 +24,7 @@ If no time zone is configured, the browser's local time zone is used.
 
 You instantiate of `sap.ui.core.format.DateFormat` by calling the `getter` defined on the `DateFormat` \(and not by calling the constructor\):
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance();
 // or
 var oDateTimeFormat = sap.ui.core.format.DateFormat.getDateTimeInstance();
@@ -50,7 +50,7 @@ The format string does contain pattern symbols \(e.g. `yMMMd` or `Hms`\) and wil
 
 The symbols must be in canonical order, that is: Era \(`G`\), Year \(`y`/`Y`\), Quarter \(`q`/`Q`\), Month \(`M`/`L`\), Week \(`w`/`W`\), Day-Of-Week \(`E`/`c`\), Day \(`d`/`D`\), Hour \(`h`/`H`/`k`/`K`\), Minute \(`m`\), Second \(`s`\), Timezone \(`z`/`Z`/`v`/`V`/`O`/`X`/`x`\).
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
 	format: "yMMMd"
 });
@@ -60,7 +60,7 @@ oDateFormat.format(new Date()); // string in locale de "29. Jan. 2017"; string i
 
 `pattern`: A date pattern in LDML date format notation. The date is formatted based on the given pattern.
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     pattern: "EEE, MMM d, yyyy"
 });
@@ -575,7 +575,7 @@ If you use the `datetime` instance by calling `getDateTimeInstance`, you can def
 
 When using `DateFormat.getDateTimeWithTimezoneInstance`, the time zone can be specified in the `format` method:
 
-``` js
+```js
 var oDateTimeWithTimezoneFormat = sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance();
 
 oDateTimeWithTimezoneFormat.format(new Date(), "America/New_York") // Returns "10.02.2022, 10:01:14 America/New_York"
@@ -596,7 +596,7 @@ Relative format on "day"' level is only supported by the date instance but not t
     If `auto` is set, the scale is chosen dependent on the actual difference.
 
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     relative: true
 });
@@ -618,7 +618,7 @@ oDateFormat.format(oDate); // isn't returned in relative format because the defa
 
 If the format option is set with necessary symbols, the `DateFormat` displays the fields which have the same value between the two dates only once in the result string. For example, the interval "Jan 10, 2008 - Jan 12, 2008" will be formatted as "Jan 10-12, 2008". Otherwise the two given dates are formatted separately and concatenated with locale-dependent pattern.
 
-``` js
+```js
 var oFormat = sap.ui.core.format.DateFormat.getInstance({
 	format: "yMMMd",
 	interval: true
@@ -634,7 +634,7 @@ oFormat.format([oDate1, oDate2]);
 
 #### Parsing
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     pattern: "EEE, MMM d, yyyy"
 });
@@ -644,7 +644,7 @@ oDateFormat.parse("Thu, Feb 10, 2022") // Returns a JavaScript Date object
 
 `strictParsing`: If this is set to `true`, the `date` string is validated during parsing. If it doesn't pass the validation, `null` is returned.
 
-``` js
+```js
 var oDateFormat = sap.ui.core.format.DateFormat.getDateInstance({
     pattern: "EEE, MMM d, yyyy",
     strictParsing: true
@@ -655,7 +655,7 @@ oDateFormat.parse("Thu, Feb 31, 2022") // Returns null
 
 When using `DateFormat.getDateTimeWithTimezoneInstance`, the time zone can be specified in the `parse` method:
 
-``` js
+```js
 var oDateTimeWithTimezoneFormat = sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance();
 
 oDateTimeWithTimezoneFormat.parse("10.02.2022, 10:01:14 America/New_York", "America/New_York") // Returns [JavaScript Date object, "America/New_York"]

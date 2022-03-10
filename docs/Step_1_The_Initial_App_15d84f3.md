@@ -24,7 +24,7 @@ The structure and data model created in this step will be used throughout this t
   
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_tvr_vzd_gcb"/>Initial app with a simple table
 
- ![](loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table") 
+ ![](images/loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table") 
 
 ***
 
@@ -42,7 +42,7 @@ You should now have the following files:
   
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_mdg_c12_gcb"/>Folder structure with downloaded files
 
-![](loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
+![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
 
 ***
 
@@ -68,7 +68,7 @@ This file defines the home page of the app. It contains the bootstrap script and
 
 The `manifest.json` descriptor file contains the app configuration. In the `sap.app` section, the OData V4 service is configured as the default service:
 
-``` json
+```json
 "dataSources": {
 	"default": {
 		"uri": "https://services.odata.org/TripPinRESTierService/(S(id))/",

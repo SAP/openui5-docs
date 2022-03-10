@@ -16,7 +16,7 @@ You bind UI elements to data of a data source by defining a binding path to the 
 
 When defining a binding path for a control, a binding context is created which connects this control to a data model. The UI control then gets the data through that context and displays it on the screen.
 
-![](loio493c875d822445458e0b56e0cc6451b2_LowRes.png)
+![](images/loio493c875d822445458e0b56e0cc6451b2_LowRes.png)
 
 -   [Views](Views_91f27e3.md)
 -   [Models](Models_e1b6259.md)
@@ -30,7 +30,7 @@ When defining a binding path for a control, a binding context is created which c
 
 To reference model data in a view , you can use the simple binding syntax "<code>{<i>/path/to/data</i>}</code>":
 
-``` xml
+```xml
 <Input value="{/firstName}"/>
 ```
 
@@ -38,19 +38,19 @@ You can add other properties, such as formatters, data types, or events:
 
 -   Data type:
 
-    ``` xml
+    ```xml
     <Input value="{path: '/firstName', type: 'sap.ui.model.type.String'}"/>
     ```
 
 -   Formatter:
 
-    ``` xml
+    ```xml
     <Input value="{path: '/firstName', formatter: 'my.globalFormatter'}"/>
     ```
 
 -   Event:
 
-    ``` xml
+    ```xml
     <Input value="{path: '/firstName', events: { dataRequested: '.onMyDataRequested'}"/>
     ```
 
@@ -67,7 +67,7 @@ For more information about data types and formatters, see [Formatting, Parsing, 
 
 If a control requires data from multiple different model properties, you use a `parts` array of `path`s to define composite binding paths:
 
-``` xml
+```xml
 <TextField value="{
 	parts: [
 		{path:'birthday/day'},
@@ -88,7 +88,7 @@ For more information, see [Composite Binding](Composite_Binding_a2fe8e7.md) and 
 
 Expression binding is a simple way to calculate values directly in the view. For example, if you want to change the color of the price depending on whether it is above or below some threshold. With expression binding you don't have to declare a separate formatter:
 
-``` xml
+```xml
 <ObjectStatus state="{= ${products>UnitPrice}  > ${/priceThreshold} ? 'Error' : 'Success' }"/>
 ```
 
@@ -102,7 +102,7 @@ For more information, see [Expression Binding](Expression_Binding_daf6852.md).
 
 With metadata binding, you can bind properties of a control to the corresponding property that is defined in the metadata of an OData service:
 
-``` xml
+```xml
 <Input maxLength="{/#Company/ZipCode/@maxLength}"/>
 ```
 

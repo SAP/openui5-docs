@@ -22,7 +22,7 @@ The `string` type does not have any format options.
 
 Example how a `String` type can be initialized:
 
-``` js
+```js
 // "TypeString" required from module "sap/ui/model/type/String"
 
 // The source value is given as string. The length of the string must not be greater than 5.

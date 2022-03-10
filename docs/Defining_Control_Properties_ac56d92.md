@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Control properties are defined as follows:
 
-``` js
+```js
 properties: {
     title : "string",                         // a simple string property, default value is undefined
     buttonText : {defaultValue: "Search"},    // when no type is given, the type is string
@@ -23,7 +23,7 @@ properties: {
 
 After the property is defined, the control automatically has the `setShowLogoutButton` and `getShowLogoutButton` methods for storing data. It is possible to assign custom definitions to these methods by overriding them and calling the generic property methods `setProperty` and `getProperty`:
 
-``` js
+```js
 MyControl.prototype.setShowLogoutButton = function(show) {
     this.setProperty("showLogoutButton", show); // this validates and stores the new value
     return this; // return "this" to allow method chaining
@@ -256,7 +256,7 @@ To reference an `enum` type in a property definition, its global name must be us
 
 Example for creating an enumeration:
 
-``` js
+```js
 /**
 * Enumeration of possible value color settings.
 *
@@ -278,7 +278,7 @@ sap.m.ValueColor = {
 
 Example for defining a property using an enumeration:
 
-``` js
+```js
 
 properties: {
     myProperty : {type: "sap.m.ValueColor", defaultValue: "Neutral"}
@@ -304,7 +304,7 @@ You don't have to define array types before using an array. From each valid type
 
 Example:
 
-``` js
+```js
 
 properties: {
     myProperty1 : "int[]",

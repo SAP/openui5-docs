@@ -20,7 +20,7 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
   
 <a name="loio6fdf0acd0bc24ffdad327cf7e6f9e7e0__fig_r1j_pst_mr"/>Address with e-mail link
 
- ![](loio116157506b3f48ac8ec53ee05095c0df_HiRes.png "Address with e-mail link") 
+ ![](images/loio116157506b3f48ac8ec53ee05095c0df_HiRes.png "Address with e-mail link") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 9](h
 
 ### webapp/controller/App.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library"
@@ -64,7 +64,7 @@ In the `formatMail` function, we use the `sap.m.URLHelper.normalizeEmail` functi
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.db.controller.App"
 	xmlns="sap.m"
@@ -120,7 +120,7 @@ For more complex bindings we cannot use the simple binding syntax with the curly
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 …
 # Screen titles
 panel1HeaderText=Data Binding Basics 
@@ -136,7 +136,7 @@ mailBody=How are you?
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 …
 # Screen titles
 panel1HeaderText=Data Binding Grundlagen

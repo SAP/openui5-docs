@@ -14,7 +14,7 @@ The `preload` flag enables a preload mode for a model, thus improving the startu
 
 The `preload` flag is located in `manifest.json` under `sap.ui5/models`:
 
-``` json
+```json
 "sap.ui5": {
     ...
     "models": {
@@ -50,7 +50,7 @@ For the OData V4 model, set the model parameter `earlyRequests` to `true`, so th
 
 Listen properly to metadata loaded by using the Promise:
 
-``` js
+```js
 
 var oModel  = this.oModel, // sap.ui.model.odata.v2.ODataModel
     that = this;

@@ -20,7 +20,7 @@ In this step, we use the OData V2 mock server to add data to our app without dep
   
 <a name="loio50897decc9504b2a875fb41d89fd254a__fig_qwx_h2q_st"/>The app now contains data
 
- ![](loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data") 
+ ![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Mock Server - Step 2](ht
 
 ### webapp/test/mockServer.html
 
-``` html
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -70,7 +70,7 @@ We use this file to run our app in test mode with mock data. The new artifact `i
 
 ### webapp/test/initMockServer.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/MockServer/localService/mockserver"
 ], function (mockserver) {
@@ -90,7 +90,7 @@ We load a dependency to a file called `mockserver.js` that is located in the `we
 
 ### webapp/localService/metadata.xml
 
-``` xml
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <edmx:Edmx Version="1.0"
     xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
@@ -133,7 +133,7 @@ The `metadata` file contains information about the service interface and does no
 
 ### webapp/localService/mockdata/Meetups.json \(New\)
 
-``` json
+```json
 [{
 	"MeetupID": 1,
 	"Title": "Toronto Tech Meet-Up",
@@ -170,7 +170,7 @@ The `Meetups.json` file is automatically read by the mock server later in this s
 
 ### webapp/localService/mockserver.js \(New\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/Log"

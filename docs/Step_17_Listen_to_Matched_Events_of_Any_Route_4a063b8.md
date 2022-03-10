@@ -20,7 +20,7 @@ In the previous step, we have listened for bypassed events to detect possible te
   
 <a name="loio4a063b8250f24d0cbf7c689821df7199__fig_r1j_pst_mr"/>Console output for routes matched by listening to `routeMatched` events
 
- ![](loioea12aae79b3841fe927f8e57f2f73e3b_HiRes.png "Console output for  routes matched by listening to routeMatched
+ ![](images/loioea12aae79b3841fe927f8e57f2f73e3b_HiRes.png "Console output for  routes matched by listening to routeMatched
 					events") 
 
 ***
@@ -33,7 +33,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/base/Log"

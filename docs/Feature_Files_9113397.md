@@ -48,7 +48,7 @@ For example, for the "accepting money" feature, a test scenario might include st
 
 The following example shows the structure of a sample feature file :
 
-```nocode
+```
 Feature: this is the name of the feature
 
     Here you can describe the feature. Indentation is purely to make 

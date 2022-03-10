@@ -16,7 +16,7 @@ The events contain a lot of information about the page that is left and the targ
 
 Example:
 
-``` js
+```js
 
 app.attachNavigate(function(evt) {
    var isBack = !evt.getParameter("isTo"); // there are several types of back animation, but we want the general direction only

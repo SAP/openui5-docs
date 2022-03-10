@@ -18,7 +18,7 @@ When a new target that has the `title` property defined is displayed, or the tit
 
 ### Examples for setting the title in `Target`
 
-``` js
+```js
 {
     ...,
     "routes": [{
@@ -38,7 +38,7 @@ When a new target that has the `title` property defined is displayed, or the tit
 }
 ```
 
-``` js
+```js
 {
     ...,
     "routes": [{
@@ -59,7 +59,7 @@ When a new target that has the `title` property defined is displayed, or the tit
 
 The `title` property can also be defined on a "Component" type target. When it is set with a binding syntax, the binding is resolved in the context of the root view of the component that is loaded by this target. The router of the loaded component may also have `title` property defined on its own target\(s\) and eventually fire its own `titleChanged` event once a target is displayed inside the loaded component. UI5 provides a way to propagate the `titleChanged` event from a "Component" target to its owner router in order to let the event be consumed at one central place \(and not at any available router\). For detailed information, see [Propagate `titleChanged` Event from the Nested Component to the Parent Component](Enabling_Routing_in_Nested_Components_fb19f50.md#loiofb19f501b16e4e4991eb6a017770945b__section_PropagateTitleChanged).
 
-``` js
+```js
 {
     ...,
     "routes": [{
@@ -87,7 +87,7 @@ The `title` property can also be defined on a "Component" type target. When it i
 
 A route can display multiple targets and you can use the `titleTarget` option in the `Route` configuration to specify which target the title should be taken from explicitly. By default, the `Route` takes the title of the first target that has the `title` property defined.
 
-``` js
+```js
 {
     ...,
     "routes": [{
@@ -123,7 +123,7 @@ A route can display multiple targets and you can use the `titleTarget` option in
 
 To receive a notification when the title is changed, you can register to the `titleChanged` event on the `Router` instance. The `titleChanged` event is then fired when a target with a set `title` options displayed, or the title of a displayed target is changed \(for example, because the binding context changes\).
 
-``` js
+```js
 oRouter.attachTitleChanged(function(oEvent) {
     var sTitle = oEvent.getParameter("title"),
         aHistory = oEvent.getParameter("history");

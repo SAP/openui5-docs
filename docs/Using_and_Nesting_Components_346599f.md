@@ -28,7 +28,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load the component asynchronously in "manifest first" mode by specifying the component name:
 
-    ``` js
+    ```js
     	
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
     	var oContainer = new sap.ui.core.ComponentContainer({
@@ -42,7 +42,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load and create the component asynchronously before creating the container:
 
-    ``` js
+    ```js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
     	Component.create({
@@ -57,7 +57,7 @@ You load and create a `UIComponent` in one of the following ways:
 
 -   Load and create the component asynchronously with "manifest first" mode by specifying the URL of the descriptor \(`manifest.json`\):
 
-    ``` js
+    ```js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
     	Component.create({
@@ -86,7 +86,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 -   Loading and creating the component asynchronously before creating the container:
 
-    ``` js
+    ```js
     	// "Component" required from module "sap/ui/core/Component"
     	// "ComponentLifecycle" required from module "sap/ui/core/ComponentLifecycle"
     	Component.create({
@@ -102,7 +102,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 -   Loading and creating the component asynchronously when creating the container:
 
-    ``` js
+    ```js
     	// "ComponentContainer" required from module "sap/ui/core/ComponentContainer"
     	// "coreLibrary" required from module "sap/ui/core/library"
     	var oContainer = new ComponentContainer({
@@ -125,7 +125,7 @@ You can do so by defining the URL of the additional components as a setting for 
 
 To be able to reuse a component, the component has to be declared in the `componentUsages` section of the `manifest.json` descriptor file as follows:
 
-``` json
+```json
 "sap.ui5": {
   "componentUsages": {
     "myreuse": {
@@ -164,7 +164,7 @@ To instantiate the reuse component in the current component, you use an instance
 
 -   Example for simplified usage \(Async\):
 
-    ``` js
+    ```js
     this.createComponent("myreuse").then(function(oComponent) {
       // ...
     });
@@ -172,7 +172,7 @@ To instantiate the reuse component in the current component, you use an instance
 
 -   Example for extended usage \(Async\):
 
-    ``` js
+    ```js
     var oComponentPromise = this.createComponent({
       usage: "myreuse"
       settings: {},
@@ -188,7 +188,7 @@ To instantiate the reuse component in the current component, you use an instance
 
 You can also declare a reuse component directly, for example, in your JavaScript or XML code. In an XML view, the local service factory can only be used via the `ComponentContainer` that has a superordinate component.
 
-``` xml
+```xml
 <View ...>
   <ComponentContainer usage="myreuse" async="true"></ComponentContainer>
 </View>
@@ -225,7 +225,7 @@ Recommended Code
 
  `manifest.json` with dependency declaration only:
 
-``` json
+```json
 {
   "sap.ui5": {
     "dependencies": {
@@ -244,7 +244,7 @@ Recommended Code
 
 `manifest.json` with declaration of reuse components:
 
-``` json
+```json
 {
   "sap.ui5": {
     "dependencies": {
@@ -275,7 +275,7 @@ Recommended Code
 
  `Component.js` with nested reuse component:
 
-``` js
+```js
 createContent: function() {
    
   var oReuseComponent = sap.ui.component({
@@ -292,7 +292,7 @@ createContent: function() {
 
  `Component.js` that loads the reuse component
 
-``` js
+```js
 createContent: function() {
    
   var oReuseComponentPromise = this.createComponent({ /* this = Component instance */

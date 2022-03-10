@@ -30,7 +30,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 1.  Use binding objects to add additional parameters, for example the type:
 
-    ``` js
+    ```js
     oTxt = new sap.m.Input({
         value: {
             parts: [
@@ -44,7 +44,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 2.  Use strings which only take the path:
 
-    ``` js
+    ```js
     oTxt = new sap.m.Input({
         value: {
             parts: [
@@ -65,7 +65,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 1.  Use binding objects to add additional parameters, for example the type:
 
-    ``` js
+    ```js
     oTxt.bindValue({
         parts: [
                 {path: "/firstName", type: new sap.ui.model.type.String()},
@@ -76,7 +76,7 @@ Each binding is created by the specified parts and assigned information. A part 
 
 2.  Use strings which only take the path:
 
-    ``` js
+    ```js
     oTxt.bindValue({
         parts: [
                 "/firstName",
@@ -98,7 +98,7 @@ Complex \(or "extended"\) syntax can be used for calculated fields in declarativ
 
 To use the feature in your OpenUI5 application, set the configuration flag `bindingSyntax` in the bootstrap as follows:
 
-``` html
+```html
 
 <script id="sap-ui-bootstrap"
       ...
@@ -110,7 +110,7 @@ The following examples show how to use the feature:
 
 -   You can mix text with calculated fields as follows:
 
-    ``` js
+    ```js
     
     <Label text="Hello Mr. {
                              path:'/singleEntry/firstName', 
@@ -127,7 +127,7 @@ The following examples show how to use the feature:
 
 -   Use a syntax with leading quotation marks \("..."\) if you use MVC and your formatter or type is located in the controller. In the following example, the existing type or formatter function in the controller is used:
 
-    ``` js
+    ```js
     
     <TextField value="{
                        path:'gender', 
@@ -140,7 +140,7 @@ The following examples show how to use the feature:
 
 -   If you have a global formatter function, use the following syntax:
 
-    ``` js
+    ```js
     
     <TextField value="{
                   parts: [
@@ -154,7 +154,7 @@ The following examples show how to use the feature:
 
 -   For a global type that is created with the specified format options, see the following example:
 
-    ``` js
+    ```js
     
     <Label text="A type test: {
                                path:'/singleEntry/amount', 

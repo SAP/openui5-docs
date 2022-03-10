@@ -14,7 +14,7 @@ A controller contains methods that define how models and views interact.
 
 You define a simple controller as follows:
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/core/mvc/Controller"
 ], function(Controller) {
@@ -53,7 +53,7 @@ OpenUI5 provides the following lifecycle hooks:
 > For controllers without a view, no lifecycle hooks are called.
 
 > ### Example:  
-> ``` js
+> ```js
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
 > ], function(Controller) {
@@ -75,7 +75,7 @@ OpenUI5 provides the following lifecycle hooks:
 In addition to lifecycle hooks, a controller can define additional methods that serve as event handlers or additional functionality offered by the controller.
 
 > ### Example:  
-> ``` js
+> ```js
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
 > ], function(Controller) {
@@ -108,7 +108,7 @@ The following sample code shows how to define an extension to an existing contro
 > ### Example:  
 > Sample controller extension:
 > 
-> ``` js
+> ```js
 > sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/ui/core/mvc/OverrideExecution'], function (Controller, OverrideExecution) {
 >     "use strict";
 >     return Controller.extend("sap.hcm.Address", {

@@ -20,7 +20,7 @@ Now that we have established a good structure for our app, it's time to add some
   
 <a name="loiobf71375454654b44af01379a3c3a6273__fig_r1j_pst_mr"/>A list of invoices is displayed below the panel
 
- ![](loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel") 
+ ![](images/loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel") 
 
 ***
 
@@ -28,7 +28,7 @@ Now that we have established a good structure for our app, it's time to add some
 
 You can view and download all files at [Walkthrough - Step 19](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
 
-``` js
+```js
 {
   "Invoices": [
 	{
@@ -81,7 +81,7 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 …
   "sap.ui5": {
@@ -114,7 +114,7 @@ We add a new model `invoice` to the `sap.ui5` section of the descriptor. This ti
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"
@@ -147,7 +147,7 @@ In the app view we add a second view to display our invoices below the panel.
 
 ### webapp/view/InvoiceList.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
@@ -172,7 +172,7 @@ In the `items` aggregation, we define the template for the list that will be aut
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span

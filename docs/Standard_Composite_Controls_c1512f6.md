@@ -23,7 +23,7 @@ For application developers, the composite control is a black box, therefore, an 
 
 To create a composite control, you start with crafting its API including properties, events, aggregations, and so on as you do it for any other control. Choose either element or control as base type. The following simple example combines an input field with a button that we call "search field". To the outside world, it offers an editable value and can fire a search event.
 
-![](loiofd6475b8d1fd4b75bad61b7dc2e8ce3c_LowRes.png)
+![](images/loiofd6475b8d1fd4b75bad61b7dc2e8ce3c_LowRes.png)
 
 ***
 
@@ -31,7 +31,7 @@ To create a composite control, you start with crafting its API including propert
 
 As any other control, you can describe composite controls via the JavaScript control definition API, see [Developing Controls](Developing_Controls_8dcab00.md) and the following example.
 
-``` js
+```js
 // "Control" required from "sap/ui/core/Control"
 var SearchField = Control.extend("SearchField", {
   metadata : {
@@ -67,7 +67,7 @@ The `init` function contains the composite's parts and stores references to them
 
 If you have to assign IDs to the composite parts, then you should create those IDs by concatenating the main control ID \(ID of your composite instance\) with a single dash \(`-`\) and an additional ID for the part like in the following example:
 
-``` js
+```js
 mySearchField-input
 mySearchField-btn
 ```
@@ -79,7 +79,7 @@ To avoid conflicts with the internal IDs of parts, the part ID \(`input` or `btn
 
 During the `init` function, the settings of the composite only have their default values. If the application developer has provided some values to the constructor, these values will only be set later on. It is, therefore, crucial for the correct behavior of your composite control that you implement one of the synchronization mechanisms described below.
 
-``` js
+```js
 // "Button" required from "sap/m/Button"
 // "Input" required from "sap/m/Input"
 /**
@@ -107,7 +107,7 @@ SearchField.prototype.init = function(){
 
 You can use the `exit` function to clean up your control when it is destroyed. You do not need to destroy the inner controls. This is done automatically by the framework because the inner controls are kept in hidden aggregations.
 
-``` js
+```js
 /**
  * Clean-up hook... destroying composite parts.
  */
@@ -127,7 +127,7 @@ Note how the input's change event is used to update the composite's value proper
 > ### Note:  
 > Changing the input part's value triggers a re-rendering of the input.
 
-``` js
+```js
 /**
  * Propagate value to input.
  */
@@ -145,7 +145,7 @@ Propagating the API settings to the parts is usually not as straightforward as s
 
 You can use markup for layouting in the renderer implementation. But at the heart of it, you simply delegate \(via the render manager\) to the composite parts' renderers. This is where you really benefit from re-using other controls with non-trivial renderers. If you have chosen the `updateAllParts` approach to keep the composite API settings and the settings of the parts in sync, make sure that you call `updateAllParts` before the real rendering starts.
 
-``` js
+```js
 SearchFieldRenderer.render = function(oRm, oSearchField) {
   // oSearchField.updateAllParts(); // called depending on your 'sync' approach
   oRm.openStart("div", oSearchField); 

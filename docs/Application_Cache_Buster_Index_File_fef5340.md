@@ -14,7 +14,7 @@ The index file includes all files that should use the cache buster.
 
 Unlike the cache buster mechanism for runtime resources, the application files have an own timestamp for each file. Thus, the application provides the index file `sap-ui-cachebuster-info.json`. The index file looks as follows:
 
-``` js
+```js
 
 {
   "mvc/MyMVC.view.js": "20120907134005",

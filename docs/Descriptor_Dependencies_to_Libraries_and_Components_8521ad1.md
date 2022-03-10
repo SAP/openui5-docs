@@ -113,7 +113,7 @@ In this scenario, you only need to maintain a dependency to the component via th
 
 For applications and components, modify the `manifest.json` as follows:
 
-``` json
+```json
 "sap.ui5": {
 	...
 	"componentUsages": {
@@ -128,7 +128,7 @@ For applications and components, modify the `manifest.json` as follows:
 
 For loading and instantiating \(lazy\) standalone components, use the `createComponent` factory function provided on instances of the `sap.ui.core.Component` class:
 
-``` js
+```js
 // this = an instance of sap.ui.core.Component
 
 // Asynchronously (default) creates a new component instance.

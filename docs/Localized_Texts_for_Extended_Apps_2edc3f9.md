@@ -14,7 +14,7 @@ You can add custom localized text files that contain additional texts or texts t
 
 The enhanced resource model tries to resolve the localized texts from the custom resource bundle first. If a text does not exist there, it tries to look up the text in the resource bundle of the original app. Custom resource bundles cannot be added by standard extension configuration, but must be added as part of a controller extension as shown in the following example:
 
-``` js
+```js
 
 var oModel = new sap.ui.model.resource.ResourceModel({bundleUrl:"./testdata/messages.properties"});
 oModel.enhance({bundleUrl:"./testdata/messages_custom.properties"});

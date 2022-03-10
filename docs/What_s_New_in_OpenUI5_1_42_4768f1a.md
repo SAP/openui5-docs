@@ -28,23 +28,23 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
       
     <a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_art_k25_mx"/>Expanded Mode
 
-     ![](loiob6e9d79a2c164db79b30b7fa57ec4317_LowRes.png "Expanded Mode") 
+     ![](images/loiob6e9d79a2c164db79b30b7fa57ec4317_LowRes.png "Expanded Mode") 
 
       
       
     <a name="loio4768f1ac7f0645929b4e9ea9981bb65e__fig_pvc_l25_mx"/>Collapsed Mode
 
-     ![](loioa4eb96875f7d4d1faae0d40aa4b38c52_LowRes.png "Collapsed Mode") 
+     ![](images/loioa4eb96875f7d4d1faae0d40aa4b38c52_LowRes.png "Collapsed Mode") 
 
     There is an option for displaying a footer as a toolbar with additional actions. The footer is also known as a “floating footer”, as it appears to float above the content of the page. The benefit of the new footer look-and-feel is that it is easily recognized by the end user.
 
-     ![](loio2f364cef44194cdca2e2ea99a343e8db_LowRes.png) 
+     ![](images/loio2f364cef44194cdca2e2ea99a343e8db_LowRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPage) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.f.DynamicPage).
 
 -   `sap.m.LightBox`: The `LightBox` control is used to display an image in its original size. When the user clicks on a thumbnail, a `LightBox` containing the image opens in a new popup. The popup also contains a title and subtitle. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.LightBox) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.LightBox).
 
-     ![](loio5a6da1afb5074d329263474f4afabc68_LowRes.png) 
+     ![](images/loio5a6da1afb5074d329263474f4afabc68_LowRes.png) 
 
 -   `sap.m.Tree`: The `Tree` control provides a tree structure for displaying data in a hierarchy. Since it extends `sap.m.ListBase`, it provides many of the same features already known from `sap.m.List`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Tree) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Tree).
 
@@ -62,7 +62,7 @@ We now deploy new versions of OpenUI5 earlier to `https://openui5.hana.ondemand.
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Carousel/methods/getArrowsPlacement) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CarouselWithDisplayOptions/preview). 
 
-     ![](loioa698aa6c990b41458195603167aa70fe_LowRes.png) 
+     ![](images/loioa698aa6c990b41458195603167aa70fe_LowRes.png) 
 
 -   `sap.m.Combobox`: The `Combobox` control now automatically scrolls to the selected element, so that the user sees the element selected in the initial dropdown box, which may not be visible in large dropdown boxes.
 
@@ -159,7 +159,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   Slowing down the execution: You can now use the new URL parameter `paExecutionDelay` to pass on `myOpaTest.qunit.html?opaExecutionDelay=700` to every OPA test. This means there will be a pause for 700 milliseconds before a new `waitFor` statement is executed. It helps when troubleshooting or if you want to watch OPA clicking through your application because it might be too fast to follow. There is also a dropdown list with three predefined values in your QUnit site.
 
-     ![](loio08dd0bebf10c4561b1ee146f4ac5a6ab_LowRes.png) 
+     ![](images/loio08dd0bebf10c4561b1ee146f4ac5a6ab_LowRes.png) 
 
 
 ***

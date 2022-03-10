@@ -23,14 +23,14 @@ There are two situations where you might have trouble with timeouts:
 
 When loading the app, the OPA5 command can accept a parameterdefining the number of seconds to wait for the application to load.
 
-``` js
+```js
 var opa5 = new Opa5();
 opa5.iStartMyAppInAFrame("path/to/your/app.html", 30); // wait time in seconds
 ```
 
 When trying to find OpenUI5 controls in the app, you can add the following settings to cause OPA5 to wait a different amount of time for a control to become available on the screen. You also need to set the QUnit timeout \(to a time equal to or greater than the OPA5 setting\), otherwise QUnit might give up early:
 
-``` js
+```js
 sap.ui.test.Opa.config.timeout = 20; // wait time in seconds
 QUnit.config.testTimeout = 20000; // wait time in milliseconds
 ```

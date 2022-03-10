@@ -22,7 +22,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing properties:
 
-    ``` js
+    ```js
     
     // var oValue = oControl.get<Property>();
     // for example for the 'text'-property
@@ -31,7 +31,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing 1..1 aggregations
 
-    ``` js
+    ```js
     
     // var oAggregation = oControl.get<Aggregation>();
     // for example for content-aggregation
@@ -40,7 +40,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing 1..n aggregrations:
 
-    ``` js
+    ```js
     
     // var aAggregations = oControl.get<Aggregation>s();
     // for example for rows-aggregation
@@ -49,7 +49,7 @@ The control class contains the control for rendering. A control consists of prop
 
 -   Accessing associations:
 
-    ``` js
+    ```js
     
     // var sAssociatedControlId = oControl.get<Association>();
     // for example labelFor-association

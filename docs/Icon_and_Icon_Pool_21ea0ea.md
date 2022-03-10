@@ -42,7 +42,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need the
 > ### Example:  
 > The `sap.tnt` library provides an extra icon set. The `sap/tnt/themes/base/fonts` folder contains the `SAP-icons-TNT.woff2` font file as well as the `SAP-icons-TNT.json` JSON file, which contains the mapping of the icon name and the icon's hex code:
 > 
-> ``` js
+> ```js
 > {
 >   "technicalsystem": "e000",
 >   "systemjava": "e001",
@@ -60,7 +60,7 @@ To display your custom icons in all browsers that OpenUI5 supports, you need the
 
 The JSON file has the same name as the `woff2` file, so it is not necessary to set `metadataURI`. To register the icon in the `IconPool`, use the following code. Note that in the example the metadata is not loaded until one icon from this icon set is used because `lazy` is set to true.
 
-``` js
+```js
 // "IconPool" required from module "sap/ui/core/IconPool"
 IconPool.registerFont({
     collectionName: "tnt",
@@ -78,7 +78,7 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
 
 -   Call `IconPool.getIconURI` with the `iconName` property:
 
-    ``` js
+    ```js
     
     // "IconPool" required from module "sap/ui/core/IconPool"
     var sURI = IconPool.getIconURI("accidental-leave"); //please change the parameter to the name of your desired icon
@@ -100,7 +100,7 @@ To reference icons, you assign the icon URI to a control by setting `sURI` for t
 
 The following code snippet shows how the sap.m.Dialog control that already supported image URI has been adapted to also support icon URI. `IconPool.createControlByURI` returns an instance of `Icon` if `sURI` is an icon URI. Otherwise, the second parameter is called as a constructor method to create an instance. The `sURI` is set for the `src` property of the instance.
 
-``` js
+```js
     // "IconPool" required from module "sap/ui/core/IconPool"
     // "Image" required from module "sap/m/Image"
     // "Device" required from module "sap/ui/Device"
@@ -126,7 +126,7 @@ If the `img` tag is rendered directly in the control, and not by creating an ima
 
 Font face is inserted into the style sheet dynamically when `Icon` or `writeIcon` are used for the first time. If the special character needs to be written into the CSS to show the icon in a control, call the `IconPool.insertFontFaceStyle` function to insert the built in font face in your CSS. This is shown in the following code snippet:
 
-``` js
+```js
 
     // "IconPool" required from module "sap/ui/core/IconPool"
     IconPool.insertFontFaceStyle();
@@ -153,7 +153,7 @@ You can consume the predefined `SAP-icons` icon font also in an environment wher
 -   Find the icon that fits your need via the [OpenUI5 Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
 -   Use a CSS class with the character escape of the icon's unicode identifier and assign it to a "span" element.
 
-    ``` html
+    ```html
     <html>
     	<head>
     		<link

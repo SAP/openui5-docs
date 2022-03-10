@@ -51,7 +51,7 @@ The XML view has to be loaded asynchronously.
 
 If you want to keep things simple, you can use the following cache configuration:
 
-``` xml
+```xml
 var sCalculatedCacheKey = oKeyProvider.getCacheKey();
 
 sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
@@ -70,7 +70,7 @@ sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
 
 If you want to pass on multiple keys, for example strings or promises that resolve with a string, you use the following syntax:
 
-``` xml
+```xml
 var pCalculatedCacheKey = oKeyProvider1.getCacheKeyPromise();
 var sAnotherKey = oKeyProvider2.getCacheKey();
 
@@ -99,7 +99,7 @@ sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
 
 If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.View.Preprocessor.html). 
 
-``` xml
+```xml
 // Example preprocessor implementation
 sap.ui.define(['sap/ui/base/Object'],
 	function(BaseObject) {

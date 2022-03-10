@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 Content of the ESLint configuration file
 
-``` js
+```js
 
 {
 	"env": {

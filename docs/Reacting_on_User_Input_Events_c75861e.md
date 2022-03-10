@@ -23,7 +23,7 @@ User input errors can be detected automatically by the framework. This is the pr
 > ### Example:  
 > **Activating automatic user input event handling**
 > 
-> ``` json
+> ```json
 > {
 >   ...
 >   "sap.ui5": {

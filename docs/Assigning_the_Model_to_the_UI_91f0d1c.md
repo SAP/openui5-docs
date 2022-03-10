@@ -14,7 +14,7 @@ If you don't want to use a component or descriptor file, you have to assign the 
 
 OpenUI5 provides a flexible and modularized concept in which you can not only define one model for your applications, but define different areas in your application with different models and assign single controls to a model. You can, for example, define a JSON model for the application and an OData model for a table control that is contained in the application. You can also set multiple models for a control or a [ `UIArea`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIArea) by specifying a name for the model. These models can be accessed by their name.
 
-``` js
+```js
 var oJSONModel = new sap.ui.model.json.JSONModel();
 var oODataModel  = new sap.ui.model.odata.v2.ODataModel("myServicelUrl");
 var oControl  = new sap.m.Input();
@@ -33,7 +33,7 @@ Choose one of the following options:
     > ### Example:  
     > **Setting a model in the manifest.json**
     > 
-    > ``` json
+    > ```json
     > {
     >   "_version": "1.12.0",
     >   "sap.app": {
@@ -68,7 +68,7 @@ Choose one of the following options:
     > ### Example:  
     > **Setting a model in the `onInit` function of a controller**
     > 
-    > ``` js
+    > ```js
     > // in your controller
     > ...
     > onInit: function() {
@@ -81,13 +81,13 @@ Choose one of the following options:
 
 -   You can define a specific model for a particular view by using the `setModel` method available on any control. When the model name `myModel` is omitted, the default model is set.
 
-    ``` js
+    ```js
     this.getView().setModel(oModel, "myModel");
     ```
 
 -   You can also define a specific model for sections within a `UIArea`, for example, inside a panel or for a table control:
 
-    ``` js
+    ```js
     
     var oTable = this.getView().byId("table");
     oTable.setModel(oModel, "myModel");

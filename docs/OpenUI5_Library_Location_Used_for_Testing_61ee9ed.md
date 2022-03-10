@@ -16,7 +16,7 @@ If the OpenUI5 bootstrap tag contains `src="resources/sap-ui-core.js"`, the Open
 
 If you want to test your OpenUI5 application in Eclipse against a different OpenUI5 Library location, for example on the ABAP server when running in the SAP NetWeaver UI AddOn scenario, you can configure the ResourceServlet. For that, open the web.xml file located in the <WebContent folder name\>/WEB-INF folder and configure the parameter `com.sap.ui5.resource.REMOTE_LOCATION` and `com.sap.ui5.resource.PREFER_REMOTE_LOCATION` of the ResourceServlet where the placeholders \{protocol\}, \{host name\}, \{port number\}, \{path to UI5 library\} are to be exchanged by the real protocol, host name, port number and path to the OpenUI5 library, see [Resource Handling](Resource_Handling_Modularization_and_Localization_91f2b4d.md), section *Tunneling a Remote Location*.
 
-``` xml
+```xml
 
   <servlet>
     <display-name>ResourceServlet</display-name>

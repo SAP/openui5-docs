@@ -20,7 +20,7 @@ In this step, we replace the text with a button and show the “Hello World” m
   
 <a name="loio50579ddf2c934ce789e056cfffe9efa9__fig_r1j_pst_mr"/>A *Say Hello* button is added
 
- ![](loio5717fb5a15474c678d4b9806008e8079_HiRes.png "A Say Hello button is added") 
+ ![](images/loio5717fb5a15474c678d4b9806008e8079_HiRes.png "A Say Hello button is added") 
 
 ***
 
@@ -28,7 +28,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 You can view and download all files at [Walkthrough - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.05/preview).
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
@@ -47,7 +47,7 @@ A view does not necessarily need an explicitly assigned controller. You do not h
 
 ### webapp/controller/App.controller.js \(New\)
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -66,7 +66,7 @@ We create the folder `webapp/controller` and a new file `App.controller.js` insi
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], function (Controller) {

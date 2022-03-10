@@ -45,7 +45,7 @@ For any code becoming part of OpenUI5, an ESLint check needs to run successfully
 
 -   The code should therefore look like this:
 
-    ``` js
+    ```js
     
     function outer(c, d) {
             var e = c * d;

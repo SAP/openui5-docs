@@ -20,27 +20,27 @@ With this release, OpenUI5 is upgraded from version 1.52 to 1.54.
 
 -   `sap.m.ColorPalette`: Provides the user with a palette containing up to 15 predefined web-standard colors, such as, Gold, Dark Magenta, and White. You can enable a *Default Color* button with a specified default color visible for the user. If the predefined set of colors is not sufficient, you can enable a *More Colors* button that opens `sap.ui.unified.ColorPicker`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ColorPalette) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.ColorPalette).
 
-    ![](loiob85d1e887e5b4cee961c71333ea71fe3_HiRes.png)
+    ![](images/loiob85d1e887e5b4cee961c71333ea71fe3_HiRes.png)
 
 -   `sap.m.TimePickerSliders`: Enables the user to choose time, in different formats, from the available lists in the sliders. The control can be used inside any container. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePickerSliders) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.TimePickerSliders).
 
-    ![](loio182377a46b7f44a5a36f7dff5f877638_HiRes.png)
+    ![](images/loio182377a46b7f44a5a36f7dff5f877638_HiRes.png)
 
 -   `sap.tnt.InfoLabel`: Small non-interactive control whose purpose is to attract attention to a certain piece of information such as a state, quantity, condition. The control is vertically aligned with the OpenUI5 `Input` and `Button` control families.
 
     `InfoLabel` has a `renderMode` property with the values `loose` and `narrow` that specify the side paddings. By default, the padding is loose, but for numeric text values, use narrow paddings.
 
-     ![](loiod1abdba2289a4e569786d001b2cf17b4_HiRes.png) 
+     ![](images/loiod1abdba2289a4e569786d001b2cf17b4_HiRes.png) 
 
-     ![](loio3c064759038c4c6999c27ca0fbdac0da_HiRes.png) 
+     ![](images/loio3c064759038c4c6999c27ca0fbdac0da_HiRes.png) 
 
     The background and text color combinations are predefined. You can choose from 9 color schemes where the text content and choice of color depend on your preferences. The `colorScheme` property also accepts a digit as a value.
 
-     ![](loio8cea6443944648fbad8860056af99f11_HiRes.png) 
+     ![](images/loio8cea6443944648fbad8860056af99f11_HiRes.png) 
 
     The size of the `InfoLabel` control adjusts to fit other controls, such as non-editable forms or tables, when the `displayOnly` property is set to `true`.
 
-     ![](loio9023f007faa1416784779662a07a9b80_HiRes.png) 
+     ![](images/loio9023f007faa1416784779662a07a9b80_HiRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.tnt.InfoLabel) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.tnt.InfoLabel).
 
@@ -57,7 +57,7 @@ With this release, OpenUI5 is upgraded from version 1.52 to 1.54.
 
 You can now specify an initialization module that is loaded and executed after the initialization of the core with the configuration parameter `onInit` like this:.
 
-``` html
+```html
 <script src="/sapui5/resources/sap-ui-core.js" 
 	id="sap-ui-bootstrap"
 	data-sap-ui-libs="sap.m" 
@@ -146,7 +146,7 @@ There are several improvements in the Support Assistant tool:
 
 
 
-![](loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 
+![](images/loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 
 
 ***
 
@@ -275,15 +275,15 @@ We received feedback that many examples throughout the documentation were outdat
 
 -   Information about downloading OpenUI5 can now be accessed easily through the new *Download* button on the home page:
 
-    ![](loio8a1b47aecf404f7183e266dad1d1afb3_HiRes.png)
+    ![](images/loio8a1b47aecf404f7183e266dad1d1afb3_HiRes.png)
 
 -   A new *API Reference* button is now available when a sample page is loaded. It links directly to the control's API information:
 
-    ![](loio2f112d6e3749461ca2c319d58343ecf5_HiRes.png)
+    ![](images/loio2f112d6e3749461ca2c319d58343ecf5_HiRes.png)
 
 -   In the *API Reference*, information is now available if an aggregation is used by default:
 
-    ![](loio0b98785cd7404a82b7dd940616349fca_HiRes.png)
+    ![](images/loio0b98785cd7404a82b7dd940616349fca_HiRes.png)
 
 -   Browser back button functionality is available for the *API Reference* as the navigation steps are now persisted in the browser history.
 

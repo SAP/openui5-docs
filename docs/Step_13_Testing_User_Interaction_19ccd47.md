@@ -20,7 +20,7 @@ In this step we want to write a test that simulates user interaction with an ico
   
 <a name="loio19ccd473c9a14c2ab7529303a2232d2c__fig_r1j_pst_mr"/>Test interacting with an icon tab bar
 
- ![](loioc76a7b50ffac42b29285d7f10fd605eb_LowRes.png "Test interacting with an icon tab bar") 
+ ![](images/loioc76a7b50ffac42b29285d7f10fd605eb_LowRes.png "Test interacting with an icon tab bar") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### test/integration/journeys/PostJourney.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist",
@@ -65,7 +65,7 @@ Delete `.and.iTeardownMyApp();` from the last test in the file and add the new t
 
 ### test/integration/pages/Post.js
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/test/Opa5',
 	'sap/ui/test/matchers/Properties',

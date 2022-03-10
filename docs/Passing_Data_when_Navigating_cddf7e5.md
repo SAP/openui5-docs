@@ -16,7 +16,7 @@ This object is then available in the page events, for example `beforeShow` and `
 
 Example:
 
-``` js
+```js
 
 app.to("detailPage", {id:"42"}); // trigger navigation and hand over a data object
                                  // this data object could also be a binding context when dealing with data binding

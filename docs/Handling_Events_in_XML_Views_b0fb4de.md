@@ -54,7 +54,7 @@ As long as no event handler parameters are specified and regardless of where the
 
 Therefore, the following declaration is equivalent to a call of `controller.doSomething()` when the button is pressed:
 
-``` xml
+```xml
 
 <Button text="Press Me" press=".doSomething"/>
 

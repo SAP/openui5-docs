@@ -20,7 +20,7 @@ Stable IDs are IDs for controls, elements, or components that you set yourself i
 
 If you don't define IDs, OpenUI5 generates them dynamically. These IDs are not static and might differ from program run to program run. For example, the page and table in the following XML view could have the generated IDs `__page0` and `__table0` at runtime:
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
@@ -75,7 +75,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
     Example:
 
-    ``` js
+    ```js
     {
     "sap.ui5": {
     	"rootView": {
@@ -107,7 +107,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
     Example:
 
-    ``` xml
+    ```xml
     <mvc:View xmlns="sap.m"
     	xmlns:mvc="sap.ui.core.mvc">
     	<Page id="page">
@@ -123,7 +123,7 @@ The generated IDs change whenever the control structure of the app changes. The 
 
     Example:
 
-    ``` js
+    ```js
     // "XMLView" required from module "sap/ui/core/mvc/XMLView"
     XMLView.create({
     	id: <component>.createId("myProgrammaticView"),
@@ -173,7 +173,7 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 
     If the following XML view is instantiated using the ID `myView`, the contained page and table would have the IDs `myView--page` and `myView--table` at runtime:
 
-    ``` js
+    ```js
     <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
     	<Page id="page">
     		<content>
@@ -189,7 +189,7 @@ If you use extension points, use stable IDs for nested views and prefixes for ne
 
     For JavaScript views and JavaScript-generated controls you must use the `createID` method of the view or component. Here's how it could look like when you're creating a control directly in the control code:
 
-    ``` xml
+    ```xml
     // "Button" required from module "sap/m/Button"
     new Button({
     	id : oView.createId("ConfirmButton"),
@@ -219,7 +219,7 @@ For example, if you instantiate a component inside an HTML page, set the ID of t
 
 Example:
 
-``` js
+```js
 // "Shell" required from module "sap/m/Shell"
 new Shell({
    app: new ComponentContainer({
@@ -254,7 +254,7 @@ If you want to add an embedded component with a stable ID, you have two options:
 
 1.  Option: Add a component re-use entry in the application component's manifest.json. Let's say you want to add an embedded component with the name `embeddedComponent.name`. You define it as follows in the application component's manifest.json file:
 
-    ``` json
+    ```json
     "sap.ui5": {
        "componentUsages": {
           "reuseName": {
@@ -270,7 +270,7 @@ If you want to add an embedded component with a stable ID, you have two options:
 
     Now you can use the re-use entry name defining the component container in XML:
 
-    ``` xml
+    ```xml
     <core:ComponentContainer
        usage="reuseName"
        async="true"
@@ -282,7 +282,7 @@ If you want to add an embedded component with a stable ID, you have two options:
 
 2.  Option: Add an embedded component independently from the manifest and mention the correct namespace using the `name` property. Also, when instantiating the component, make sure that the `id` property is set during component instance creation:
 
-    ``` xml
+    ```xml
     <core:ComponentContainer
        name = "embeddedComponent.name"
        async="true"
@@ -327,7 +327,7 @@ If you use XML fragments in your app, make sure they are instantiated with the c
 
 Example using the controller function `loadFragment`:
 
-``` js
+```js
 // "this" is the controller instance
 this.loadFragment({
 	// note: no ID prefix needed
@@ -337,7 +337,7 @@ this.loadFragment({
 
 Example using the generic function `sap.ui.core.Fragment.load`:
 
-``` js
+```js
 // "Fragment" required from module "sap/ui/core/Fragment"
 // "this" is the controller instance
 Fragment.load({

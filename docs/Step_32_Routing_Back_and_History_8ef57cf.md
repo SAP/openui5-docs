@@ -20,7 +20,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
   
 <a name="loio8ef57cfd37b44f089f7e3b52d56597eb__fig_r1j_pst_mr"/>A back button is now displayed on the detail page
 
- ![](loio6e4426b30fae4b51bc540fdacbe4f16f_HiRes.png "A back button is now displayed on the detail page") 
+ ![](images/loio6e4426b30fae4b51bc540fdacbe4f16f_HiRes.png "A back button is now displayed on the detail page") 
 
 ***
 
@@ -28,7 +28,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 You can view and download all files at [Walkthrough - Step 32](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.32/preview).
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
@@ -50,7 +50,7 @@ On the detail page, we tell the control to display a back button by setting the 
 
 ### webapp/controller/Detail.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History"

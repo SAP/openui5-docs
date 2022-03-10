@@ -14,7 +14,7 @@ A model in the Model View Controller concept holds the data and provides methods
 
 ***
 
-![](loioa99f15722c0a4520b7809c3951362896_LowRes.png)
+![](images/loioa99f15722c0a4520b7809c3951362896_LowRes.png)
 
 -   [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
 -   [XML Model](XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27)

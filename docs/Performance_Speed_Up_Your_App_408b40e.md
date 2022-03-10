@@ -47,7 +47,7 @@ Make sure that you don't load too many dependencies. In most apps it's enough to
 
 If you want to make additional libraries generally known in your app, without directly loading them during the app start, you can add them to the dependency declaration in the `manifest.json` file with the `lazy` loading option. This makes sure that the libraries are only loaded when they are needed:
 
-``` json
+```json
 "sap.ui5": {
 	"dependencies": {
 		"minUI5Version": "1.70.0",
@@ -103,7 +103,7 @@ The manifest configuration for i18n has now the option to provide the `supported
 
 they can be configured in your `manifest.json` in Section `sap.ui5` under `models`:
 
-``` json
+```json
 "sap.ui5": {
 	"models": {
 		"i18n": {
@@ -120,7 +120,7 @@ they can be configured in your `manifest.json` in Section `sap.ui5` under `model
 
 With AppDescriptor version 1.21.0 this is also possible in the `i18n` section of `sap.app` in your `manifest.json`:
 
-``` json
+```json
 "sap.app": {
 	"i18n": {
 		"bundleUrl": "i18n/i18n.properties",
@@ -143,7 +143,7 @@ For more informations, see:
 
 Load the `manifest.json` descriptor file of the component first to analyze and preload the dependencies when loading the component. For more information, see [Manifest First Function](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md#loiobe0cf40f61184b358b5faedaec98b2da__manifirst).
 
-``` js
+```js
 // "Component" required from module "sap/ui/core/Component"
 // load manifest.json from default location and evaluate it before creating an instance of the component 
 Component.create({
@@ -245,7 +245,7 @@ Check if the application uses synchronous UI5 factories. Many asynchronous varia
 
 Components can preload models for which modules are already loaded; otherwise a warning will be shown. The OData model \(V2 or V4\) benefits especially, because the metadata can be loaded in parallel during a component load.
 
-``` json
+```json
 "sap.ui5": {
   ...
   "models": {
@@ -290,7 +290,7 @@ As an example, consider the EntityType "Customers", which is available from the 
 
 If you have an `sap.m.List` that only needs to display the `CompanyName` from the collection, you could add the following to your XML view:
 
-``` xml
+```xml
 ...
 <List
     id="myList"

@@ -21,7 +21,7 @@ The `Boolean` type has **no** format or validation constraint options.
 
 Example how a `Boolean` type can be initialized:
 
-``` js
+```js
 // "TypeBoolean" required from module "sap/ui/model/type/Boolean"
 // The source value is given as boolean.
 var oType = new TypeBoolean();

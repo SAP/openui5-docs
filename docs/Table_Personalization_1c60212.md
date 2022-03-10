@@ -169,7 +169,7 @@ As an application developer, you most likely want to use a table personalization
 
 Here is an example of how a table personalization controller can be used, assuming you are running in the context of the unified shell, which provides backend services such as persistence.
 
-``` js
+```js
 
 // Create a persistence key
 var oPersId = {container: "mycontainer-1", item: "myitem-1"};

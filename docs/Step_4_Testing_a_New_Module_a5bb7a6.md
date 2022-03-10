@@ -22,7 +22,7 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
   
 <a name="loioa5bb7a6d736f41c8ac1c1ef0b2d40676__fig_r1j_pst_mr"/>The unit test for the `Flagged` feature will fail until the feature is implemented
 
- ![](loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
+ ![](images/loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
 					feature is implemented") 
 
 ***
@@ -35,7 +35,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/model/FlaggedType.js \(new\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/SimpleType"
 ], function (SimpleType) {
@@ -66,7 +66,7 @@ A formatter function will only take care of one direction so this time we decide
 
 ### webapp/test/unit/model/FlaggedType.js \(new\)
 
-``` js
+```js
 sap.ui.require(
 	[
 		"sap/ui/demo/bulletinboard/model/FlaggedType"
@@ -127,7 +127,7 @@ The other test cases in the parsing module are similar and check the back conver
 
 ### webapp/test/unit/AllTests.js
 
-``` js
+```js
 sap.ui.define([
 	"./model/models",
 	"./model/formatter",

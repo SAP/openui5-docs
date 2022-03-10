@@ -34,7 +34,7 @@ You can destroy the hidden page, and the now active page can start its activity.
 
 You can use the `addEventDelegate` function to register to these events. This function is available on every control.
 
-``` js
+```js
 
 page1.addEventDelegate({
    onBeforeShow: function(evt) {

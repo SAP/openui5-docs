@@ -14,11 +14,11 @@ It can be handy to calculate the code coverage of your integration tests, for ex
 
 At test execution time, Gherkin offers the option *Enable coverage* at the top left of the test results. Enabling the option reruns the tests and then lists the files that were tested at the bottom of the page.
 
- ![](loio58d6e82cf5184288a2926951d8d12c30_LowRes.png) 
+ ![](images/loio58d6e82cf5184288a2926951d8d12c30_LowRes.png) 
 
 Gherkin calculates code coverage for any JavaScript file that is loaded after the test harness. This may cause some system libraries to appear in the results. You can specify which files to calculate code coverage for by adding code to your HTML bootstrap file \(after loading OpenUI5, but before running your tests\), as follows.
 
-``` html
+```html
 <script
   src="path/to/resources/sap/ui/qunit/qunit-coverage.js"
   data-sap-ui-cover-only="GherkinWithOPA5/"

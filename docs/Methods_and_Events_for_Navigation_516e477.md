@@ -35,7 +35,7 @@ The method uses the following parameters:
 -   `replace` \(default: `false`\) to define whether the hash should be replaced \(no new browser history entry\) or set \(browser history entry\)
 
 
-``` js
+```js
 sap.ui.require([
     "sap/ui/core/mvc/Controller",
     "sap/ui/core/UIComponent", ...
@@ -68,7 +68,7 @@ Use this method to navigate to display one or multiple targets. The method uses 
   
 <a name="loio516e477e7e0b4e188b19a406e7528c1e__fig_srm_3dn_1w"/>Navigation events
 
- ![](loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events") 
+ ![](images/loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events") 
 
 ***
 
@@ -87,7 +87,7 @@ If you want to only react to specific routes, check if the `name` parameter matc
 
 The methods `attachRouteMatched` and `attachMatched` can be used to attach an event listener to these events.
 
-``` js
+```js
 sap.ui.require([
     "sap/ui/core/mvc/Controller",
     "sap/ui/core/UIComponent", ...

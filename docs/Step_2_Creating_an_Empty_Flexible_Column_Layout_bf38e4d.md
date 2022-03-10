@@ -22,7 +22,7 @@ In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in 
   
 <a name="loiobf38e4de70084477b9e104bf6f6d7737__fig_r1j_pst_mr"/>An empty instance of the `sap.f.FlexibleColumnLayout` control
 
- ![](loio533d16592a7046e195278bf367507756_HiRes.png "An empty instance of the sap.f.FlexibleColumnLayout
+ ![](images/loio533d16592a7046e195278bf367507756_HiRes.png "An empty instance of the sap.f.FlexibleColumnLayout
 					control") 
 
 ***
@@ -39,7 +39,7 @@ You can view and download all files at [Flexible Column Layout App - Step 2](htt
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -78,7 +78,7 @@ First, we add the `sap.f` library as a dependency in the `manifest.json` file.
 
 ### webapp/view/App.view.xml \[NEW\]
 
-``` xml
+```xml
 <mvc:View
 	displayBlock="true"
 	height="100%"
@@ -96,7 +96,7 @@ We create a new **`App.view.xml`** that contains an instance of the `sap.f.Flexi
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {

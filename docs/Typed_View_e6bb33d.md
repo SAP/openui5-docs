@@ -30,7 +30,7 @@ A typed view implements its own `View#createContent` method. It must either retu
 
 The following example shows the definition of a view of type `myapp.views.MyView`:
 
-``` js
+```js
  sap.ui.define([
   "sap/ui/core/mvc/View",
   "sap/m/Panel"
@@ -73,7 +73,7 @@ The preferred way of instantiating a typed view is via the factory function  [`s
 
 **Example:** Instantiating a typed view with `View.create`:
 
-``` js
+```js
  View.create({
     viewName: "module:myapp/views/MyView"
   }).then(oView) {
@@ -91,7 +91,7 @@ A typed view in XML can be declared via the class `sap.ui.core.mvc.View`. Using 
 
 **Example:** View Declaration using class `sap.ui.core.mvc.View`:
 
-``` xml
+```xml
 <mvc:View viewName="module:myapp/views/MyView" />
 ```
 

@@ -51,7 +51,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <code><b>sap.ui.integration.widgets.Card</b></code>
 
-Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](loio2bcad31f5feb43f58aaa93271a469e0f_LowRes.png)
+Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](images/loio2bcad31f5feb43f58aaa93271a469e0f_LowRes.png)
 
  For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
 
@@ -176,7 +176,7 @@ We have introduced a new API method called `clearSelection` that allows removing
 
 To improve the visualization of borrowed *Properties*, *Aggregations*, and *Associations*, we added a checkbox that enables you to switch them on and off. Initially, the borrowed entities aren't displayed.
 
- ![](loio33559e63a1064c56969fabd0e43426d8_HiRes.gif) 
+ ![](images/loio33559e63a1064c56969fabd0e43426d8_HiRes.gif) 
 
 
 

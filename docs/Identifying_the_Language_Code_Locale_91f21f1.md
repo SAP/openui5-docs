@@ -327,7 +327,7 @@ OpenUI5 has the notion of a current language. It is determined during the OpenUI
 
 After the bootstrap, the language can be changed by calling `sap.ui.getCore().setLanguage(…)`. A call to this method does not guarantee that all already existing translatable texts will be adapted. You use the configuration API to retrieve the resulting current language as follows:
 
-``` js
+```js
 
 var sCurrentLocale = sap.ui.getCore().getConfiguration().getLanguage();
 ```

@@ -26,7 +26,7 @@ There are a lot more reasons and many small details that we will address through
 
 ### Preview
 
- ![](loio89001ea1e4ab4529b8d412ee683b9744_HiRes.png) 
+ ![](images/loio89001ea1e4ab4529b8d412ee683b9744_HiRes.png) 
 
 ***
 

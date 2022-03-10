@@ -29,7 +29,7 @@ You can use the file template shown below. This code snippet shows a basic QUnit
 
 Each test file represents a UI5 module.
 
-``` js
+```js
 /*global QUnit */
 sap.ui.define([], function() {
 	   "use strict";
@@ -53,7 +53,7 @@ This QUnit test file does not include the OpenUI5 bootstrap \(`sap-ui-core.js`\)
 
 Write your test code \(like in the following example\) into the template introduced in the previous section:
 
-``` js
+```js
 /*global QUnit */
 sap.ui.define(["sap/m/Button", "sap/ui/qunit/QUnitUtils", "sap/ui/qunit/utils/createAndAppendDiv"], function(Button, QUnitUtils, createAndAppendDiv) {
 	"use strict";

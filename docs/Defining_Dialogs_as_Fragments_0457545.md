@@ -18,7 +18,7 @@ To use fragments for defining popups, just let the root control of the fragment 
 
 The following shows an XML fragment dialog example:
 
-``` xml
+```xml
 <Dialog xmlns="sap.m" title="XML Fragment Dialog">
     <TextView text="{/dialogText}" />
     <buttons>
@@ -31,7 +31,7 @@ Other fragment types are used the same way to define, for instance, a dialog as 
 
 For example, in JS fragments, the `createContent()` method returns a dialog control:
 
-``` js
+```js
 // fragment is located in a file named: testdata/fragments/JSFragmentDialog.fragment.js,
 sap.ui.define(["sap/m/Dialog", "sap/m/Input", "sap/m/Button"], function(Dialog, Input, Button) {
     return {

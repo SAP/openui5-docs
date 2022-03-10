@@ -18,7 +18,7 @@ The table design in OpenUI5 can be changed by using various table and column fea
 
 When displaying information in a pop-in, the information, typically a column header and the column \(cell\) content, can be displayed in an `Inline` or in a `Block` display style. The difference between these two can be seen in the following example.
 
-``` js
+```js
 
    <columns>
       <Column
@@ -54,7 +54,7 @@ When displaying information in a pop-in, the information, typically a column hea
 
 The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in when the screen size is smaller than a desktop. The *Supplier* is to be displayed in `Block` mode, with the header and content arranged vertically, whereas the two prices are to be displayed in `Inline` mode, with the header and content arranged next to each other.
 
-![](loioec5a03af10ce4a289359b6f11307581f_LowRes.png)
+![](images/loioec5a03af10ce4a289359b6f11307581f_LowRes.png)
 
 ***
 
@@ -62,7 +62,7 @@ The *Dimension* column is hidden, the *Weight* column is displayed in a pop-in w
 
 The described pop-in design is provided by a table by default. However, you can change the pop-in layout in the table by defining the relevant property like this: `popinLayout="GridSmall"` or `popinLayout="GridLarge"`. By default, `popinLayout="Block"` is set for a table. The pop-in columns are rendered as shown in the image above. With the `GridSmall` and `GridLarge` layouts, the pop-in columns are rendered next to each other if there is enough space available.
 
- ![](loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png) 
+ ![](images/loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png) 
 
 For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
 
@@ -84,7 +84,7 @@ Duplicate values will only be merged if they are adjacent. This means that you s
 
 Here's an example of how to use the `mergeDuplicates` feature. We'll set up a table of sales data and display the data in a table, merging any duplicate regions. When the *Mix Up* button is pressed to lightly shuffle the `salesFigures` array of objects, you will see that only adjacent duplicates are merged. Press the *Sort* button again to see the ideal merging.
 
-``` js
+```js
 
 <Table
     headerText="Products"
@@ -146,7 +146,7 @@ Here's an example of how to use the `mergeDuplicates` feature. We'll set up a ta
 
 ```
 
-![](loio32ef8dc03ad44224994aeab8279bf5c6_LowRes.png)
+![](images/loio32ef8dc03ad44224994aeab8279bf5c6_LowRes.png)
 
 ***
 
@@ -154,7 +154,7 @@ Here's an example of how to use the `mergeDuplicates` feature. We'll set up a ta
 
 You can use CSS to achieve striping for table rows, as you might do in other web-based applications, for example to highlight alternate rows in the table above so that it looks like this:
 
-![](loioc15900388cb447fd96d2dbdaa264cb77_LowRes.png)
+![](images/loioc15900388cb447fd96d2dbdaa264cb77_LowRes.png)
 
 You just need to note the ID of the `sap.m.List` or `sap.m.Table` control \(in this case it is `"salesdata"`\) and then apply some appropriate CSS such as:
 
@@ -170,7 +170,7 @@ You just need to note the ID of the `sap.m.List` or `sap.m.Table` control \(in t
 
 It's also possible to highlight table columns by using the `styleClass` property of the `sap.m.Column` control. The value of this property is applied as a class to the whole column \(header, cells and footer\) and can be used in the following way: specify a class name for the `styleClass` property of your column, and set the style as you wish:
 
-``` js
+```js
 
 <style>
 #products .MyPrice {
@@ -190,5 +190,5 @@ It's also possible to highlight table columns by using the `styleClass` property
 
 This highlights the *Price* column in our example table, as shown below:
 
-![](loiod90af7b06b7b43e69ecfb9116b99da73_LowRes.png)
+![](images/loiod90af7b06b7b43e69ecfb9116b99da73_LowRes.png)
 

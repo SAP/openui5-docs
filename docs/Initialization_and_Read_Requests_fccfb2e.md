@@ -87,7 +87,7 @@ An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/
 > ### Example:  
 > refresh with allow removal
 > 
-> ``` js
+> ```js
 > oAction.execute("confirmSalesOrderActionGroup").then(function () {
 >     oConfirmedSalesOrderContext.refresh(undefined, true); // bAllowRemoval = true
 > });
@@ -97,7 +97,7 @@ For details, see [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/
 
 **Example: Absolute and relative bindings created by an XML view**
 
-``` js
+```js
 
 <Table items="{
  path : '/SalesOrderList',
@@ -146,7 +146,7 @@ You can use `##` in a property binding's path to branch from data into metadata.
 
 **Example: Determine label from the corresponding annotation for property `GrossAmount`**
 
-``` js
+```js
 
 <SimpleForm binding="{/SalesOrderList('42')}">
 	<Label text="{GrossAmount##@com.sap.vocabularies.Common.v1.Label}" />
@@ -168,7 +168,7 @@ A property binding can have an object value, if the target type specified in the
 
 **Example: Using the controller method `'formatPhoneNumbersAsCSV'` to show a comma-separated list of phone numbers for business partner contacts**
 
-``` js
+```js
 <SimpleForm binding="{/BusinessPartnerList('42')}">
 	<Label text="Phone number list" />
 	<Text text="{path : 'BP_2_CONTACT', mode : 'OneTime', targetType : 'any', formatter : '.formatPhoneNumbersAsCSV'}" />
@@ -187,7 +187,7 @@ Editing properties of an entity sometimes causes side effects on other propertie
 
 You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects. This method can be called on the bound context of a context binding, a row context of a list binding, the header context of a list binding, or on the return value context of an operation binding. Collection-valued navigation properties are fully supported, so an efficient request is sent instead of a simple refresh. The `validateFieldGroup` event provides a suitable point in time to request side effects after a certain group of fields has been changed. Using the `validateFieldGroup` event allows to trigger the side effect request early enough, so that it is sent in the same batch request as the `PATCH` request. For more information, see [Field Groups](Field_Groups_5b07753.md). The API strikes a balance between the generic annotation-based use and specific hard-coded uses. The `TargetEntities` and `TargetProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation can be used directly as input for `sap.ui.model.odata.v4.Context#requestSideEffects`. Note that the OData V4 model does not evaluate the `SourceEntities` and`SourceProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation. When requested from the OData V4 meta model, the annotation value looks as follows:
 
-``` json
+```json
 {
     "SourceEntities" : [{
         "$NavigationPropertyPath" : ""
@@ -214,7 +214,7 @@ The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single arr
 
 The OData V4 model automatically determines the system query options `$top` and `$skip` based on the data range requested by the control or the application. In the example below, the resulting first request is `GET People('angelhuffman')/Friends?$expand=Friends&$skip=0&$top=107`. The value for `$top` is calculated from the length of the requested data \(7\) plus the prefetch size provided by the control \(100\). Note that adding `$top` and`$skip` for a nested collection is not supported.
 
-``` xml
+```xml
 
 <table:Table id="PeopleTable" width="auto" title="People" visibleRowCount="7"
         rows="{

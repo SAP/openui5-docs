@@ -27,7 +27,7 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html). You can refer to a specific version by using a versioned URL as in the example below:
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
     src="https://openui5.hana.ondemand.com/[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/strong/span
@@ -49,7 +49,7 @@ The first segment of the URL after the host name is used to specify a concrete v
 
 The evergreen version allows for a bootstrapping process that automatically uses the latest available patch level. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
     src="https://openui5.hana.ondemand.com/[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/strong/span
@@ -78,7 +78,7 @@ All long-term maintenance versions \>= 1.71 can be used as evergreen versions to
 > 
 > The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
 > 
-> ``` html
+> ```html
 > <script id="sap-ui-bootstrap"
 >     type="text/javascript"
 >     src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"

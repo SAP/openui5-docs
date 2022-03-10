@@ -31,7 +31,7 @@ There are four types of formatters defined in `NumberFormat`:
 
 The instantiation of `sap.ui.core.format.NumberFormat` is done by calling `getter` defined on `NumberFormat` \(and not by using the constructor\).
 
-``` js
+```js
 // "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
 var oIntegerFormat = NumberFormat.getIntegerInstance();
 var oFloatFormat = NumberFormat.getFloatInstance();
@@ -66,7 +66,7 @@ All parameters can be overwritten by giving a format option object in the `gette
 -   `shortDecimals`: number of decimal digits in the shortifed number when parameter `style` is set to `short` or `long`. If this isn't set, the parameter `decimal` is used instead.
 
 
-``` js
+```js
 var oFormatOptions = {
     minIntegerDigits: 3,
     maxIntegerDigits: 5,
@@ -81,7 +81,7 @@ oFloatFormat.format(1234.567); // returns 1,234.567
 oFloatFormat.format(123456.56789); // returns ??,???.5679
 ```
 
-``` js
+```js
 var oFormatOptions = {
     style: "short",
     decimals: 1,
@@ -132,7 +132,7 @@ To control the start the starting point of numbers which should be displyed in c
 > ### Example:  
 > In the following chart, all numbers both on the chart and axis should be formatted using the same scaling factor. The scaling factor should only appear in the chart title and be hidden from the formatted number. In order to achieve this, the option `shortRefNumber` is set to `1000000` and `showScale` is set to `false`. The corresponding scaling factor name is returned by calling the `getScale` method.
 > 
-> ![](loiodd8f106a130b484a86f4c56955006207_LowRes.png)
+> ![](images/loiodd8f106a130b484a86f4c56955006207_LowRes.png)
 
 ***
 
@@ -612,7 +612,7 @@ To control the start the starting point of numbers which should be displyed in c
 
 A formatted number which contains a locale-dependent grouping separator, decimal point, or percentage sign can be parsed into a number object using `sap.ui.core.format.NumberFormat`. Those number string may not be correctly parsed by using `parseInt` or `parseFloat` in JavaScript.
 
-``` js
+```js
 // "NumberFormat" required from module "sap/ui/core/format/NumberFormat"
 var oFloatFormat = NumberFormat.getFloatInstance();
 

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 To integrate the item navigation in your control, apply the delegate in the `onAfterRendering` hook of your control.
 
-``` js
+```js
 
 sap.ui.commons.ListBox.prototype.onAfterRendering = function () {
         //Collect the dom references of the items
@@ -48,7 +48,7 @@ sap.ui.commons.ListBox.prototype.onAfterRendering = function () {
 
 After the control is destroyed, ensure that the delegate is correctly removed. Otherwise, memory will leak because DOM nodes are still referenced by the delegate.
 
-``` js
+```js
 
 sap.m.List.prototype.destroy = function() {
                    if (this.oItemNavigation) {

@@ -53,7 +53,7 @@ The query option `$count` must be specified as a boolean value with `true` or `f
 
 **Example: Binding with parameters in JavaScript**
 
-``` js
+```js
 
 oView.byId("SalesOrderTable").bindItems({
     path : "/SalesOrderList",
@@ -74,7 +74,7 @@ oView.byId("SalesOrderTable").bindItems({
 
 **Example: Binding with parameters in an XML view \(`$select` and `$expand` values as string\)**
 
-``` js
+```js
 
 <Table growing="true" growingThreshold="5" id="SalesOrders"
     items="{
@@ -91,7 +91,7 @@ oView.byId("SalesOrderTable").bindItems({
 
 **Example: Binding with parameters in an XML view \(`$select` and `$expand` values as object\)**
 
-``` js
+```js
 
 <Table growing="true" growingThreshold="5" id="SalesOrders"
     items="{
@@ -118,7 +118,7 @@ The parameters are changed according to the given map of parameters: Parameters 
 
 **Example: Change binding parameters in JavaScript**
 
-``` js
+```js
 
 oView.byId("SalesOrderTable").getBinding("items").changeParameters({
     "$search" : '"mountain bike"',

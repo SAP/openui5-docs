@@ -18,7 +18,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 ### XML View \(Recommended\)
 
-``` js
+```js
 
 <mvc:View 
     controllerName="testdata.complexsyntax"
@@ -54,7 +54,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 ### HTML View
 
-``` js
+```js
 
 <template data-controller-name="testdata.complexsyntax">
   <div>
@@ -91,7 +91,7 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 
 A typed view is not a declarative view. It is written in JavaScript and extends the `sap.ui.core.mvc.View` class. The following example shows how the `View` class can be extended to form such a typed view:
 
-``` js
+```js
 sap.ui.define([
     "sap/ui/core/mvc/View",
     "sap/m/Table",

@@ -24,7 +24,7 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
   
 <a name="loiod9efab307ecc42b180b12cc8956e22d7__fig_r1j_pst_mr"/>The new *Home* page with a navigation button
 
- ![](loio64fc7de39bed41d48d01e08244f201ab_LowRes.png "The new Home page with a navigation button") 
+ ![](images/loio64fc7de39bed41d48d01e08244f201ab_LowRes.png "The new Home page with a navigation button") 
 
 ***
 
@@ -36,7 +36,7 @@ You can view and download all files in the *Samples* in the Demo -kit at [Routin
 
 ### webapp/view/Home.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.Home"
 	xmlns="sap.m"
@@ -55,7 +55,7 @@ We start by changing the `Button` control from the home view. When the button is
 
 ### webapp/controller/Home.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -84,7 +84,7 @@ When pressing the app’s *Back* button, the `onNavBack` from the previous step 
 
 ### webapp/controller/Home.controller.js \(Changed Again\)
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -107,7 +107,7 @@ This time we pass on a data object as the second parameter for the display metho
 
 ### webapp/controller/NotFound.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController"
 ], function (BaseController) {
@@ -151,7 +151,7 @@ Similar to OpenUI5 controls, targets define API methods and events that can be a
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 DisplayNotFound=Display Not Found
 ```

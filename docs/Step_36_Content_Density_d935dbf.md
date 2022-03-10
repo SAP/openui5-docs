@@ -20,7 +20,7 @@ In this step of our Walkthrough tutorial, we adjust the content density based on
   
 <a name="loiod935dbf196d34997bf1ac42ac3e81579__fig_r1j_pst_mr"/>The content density is compact on desktop devices and cozy on touch-enabled devices
 
- ![](loio04b6669bbc8a4524be5a998ad78544ac_HiRes.png "The content density is compact on desktop devices and cozy on touch-enabled
+ ![](images/loio04b6669bbc8a4524be5a998ad78544ac_HiRes.png "The content density is compact on desktop devices and cozy on touch-enabled
 					devices") 
 
 ***
@@ -33,7 +33,7 @@ You can view and download all files at [Walkthrough - Step 36](https://openui5.h
 
 ### webapp/Component.js
 
-``` js
+```js
 ...
 		init: function () {
 ...		},
@@ -61,7 +61,7 @@ This helper method queries the `Device` API directly for touch support of the cl
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -82,7 +82,7 @@ We add a method `onInit` on the app controller that is called when the app view 
 
 ### webapp/controller/HelloDialog.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
@@ -138,7 +138,7 @@ The "Hello World" dialog is not part of the `HelloPanel` view but opened in a sp
 
 ### webapp/manifest.json
 
-``` json
+```json
 ...
   "sap.ui5": {
     ...     

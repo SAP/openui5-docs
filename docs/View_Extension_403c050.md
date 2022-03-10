@@ -16,7 +16,7 @@ You can add extension points in a standard view to indicate the position within 
 
 In the XML view below, for example, three extension points are defined: `extension1`, `extension2`, and `extension3`. The extension name together with the view name identifies an extension point.
 
-``` js
+```js
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <core:ExtensionPoint name="extension1" />
     <TextView text="SAP View 'Sub2' - this one is extended by the customer and there should be a button after this text"></TextView>    
@@ -28,7 +28,7 @@ In the XML view below, for example, three extension points are defined: `extensi
 
 In JS views, extension points can be created within the `createContent` method by using the `sap.ui.extensionpoint` function. The following example shows the simplest way to initiate an extension point in a JS view.
 
-``` js
+```js
 [...] 
       createContent(oController){
            return sap.ui.extensionpoint(this, "extension4");
@@ -41,7 +41,7 @@ In JS views, extension points can be created within the `createContent` method b
 
 You can add an extension point to an aggregation of another control by specifying the target control and, optionally, a target aggregation. The target aggregation is only required when you do not want to add the extension point to your target control's default aggregation. In the following example, an extension point is added to `VerticalLayout`:
 
-``` js
+```js
 [...] 
       createContent(oController){
          var oLayout = new sap.ui.layout.VerticalLayout("Layout1");
@@ -52,7 +52,7 @@ You can add an extension point to an aggregation of another control by specifyin
 
 You can also use the JSON notation to create the surrounding control and add the extension point to an aggregation as follows:
 
-``` js
+```js
 [...]
 	var oLayout = new sap.ui.layout.VerticalLayout({
 		content: [
@@ -73,7 +73,7 @@ For table-like controls with aggregations that span two dimensions, for example,
 
 Applications can also use extension points to provide default content, which is used as long as no custom content is defined and ignored when custom content is defined. This feature is particularly interesting for aggregations, which are filled by data binding: In XML views, one item is given which is used as a template. In applications that enable exchanging these items by custom `ListItems`, the default list items can be enclosed in an `<ExtensionPoint>` tag.
 
-``` js
+```js
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <ListBox items="{/names}">
         <core:ExtensionPoint name="extension1">
@@ -87,7 +87,7 @@ This can be used for all multiple aggregations, not only for lists.
 
 To define default content for extension points in JS views or fragments, specify the value of another parameter:
 
-``` js
+```js
 sap.ui.extensionpoint(this, "extension4", fnCreateDefaultContent); // this extension point has a callback function creating default content
 
 ```
@@ -100,7 +100,7 @@ The function provided as a callback needs to return a control or an array of con
 
 The extension content, which will then be inserted at the position of an extension point, is defined in the custom application. For example, for the extension points that have been defined in the standard application described in the section above, custom content can be defined for each extension. This is shown in the example below together with a description of the customizing that connects the extension point in the delivered standard application and the extension content in the customer application.
 
-``` js
+```js
 extensions: {
         
     "sap.ui.viewExtensions": {
@@ -125,7 +125,7 @@ If you add an ID to the view extension, this ID overrules the original view ID. 
 
 Extension content in the custom application in `CustomFrag1.fragment.xml` file:
 
-``` js
+```js
 <Button xmlns="sap.m" text="This Button is in an Extension Fragment" />
 
 ```
@@ -135,7 +135,7 @@ Extension content in the custom application in `CustomFrag1.fragment.xml` file:
 
 Extension content in the custom application in `CustomSubSubView1.view.xml` file.
 
-``` js
+```js
 <mvc:View xmlns="sap.m"  xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
     <core:ExtensionPoint name="extension1" />
     <TextView text="Customer View 'SubSubView1' - this one extends the original SAP View 'Sub2' - and even custom Views can be extended:"></TextView>   

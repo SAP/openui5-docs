@@ -49,7 +49,7 @@ If you decide to follow the best practices and to enable `autoWait`, we recommen
 
 Example:
 
-``` js
+```js
 // in QUnit start page, before all OPA tests
 Opa5.extendConfig({
     autoWait: true
@@ -88,7 +88,7 @@ Despite the increase, there are still some tests that timeout. The timeout usual
 
 As of version 1.54, the optional use of `autoWait` after launcher initialization is allowed to make sure that the app is loaded before the first test step. It is disabled by default for backward compatibility as some tests check for busy indicators on app start. You can use the option with both app launchers, for example:
 
-``` js
+```js
 Given.iStartMyAppInAFrame({
     source: "applicationUnderTest/index.html",
     autoWait: true
@@ -109,7 +109,7 @@ As of version 1.54, there is an `asyncPolling` parameter that overcomes this pro
 
 The suggested approach is to set `asyncPolling` as default for all `waitFor` statements:
 
-``` js
+```js
 // in QUnit start page, before all OPA tests
 Opa5.extendConfig({
     autoWait: true,
@@ -121,7 +121,7 @@ Setting `asyncPolling` on existing tests may cause a failure because of the more
 
 Same parameter can be set for individual `waitFor` statements:
 
-``` js
+```js
 // in an OPA test
 oOpa.waitFor({
     id: "controlId",

@@ -20,7 +20,7 @@ The *Employees* table displays employee data. However, the resumes of the employ
   
 <a name="loio877d57e3b5654b19a2d2e5190dc43b0d__fig_r1j_pst_mr"/>Navigation to an existing route from a table item
 
- ![](loiod97fe6dba586421fb9c7210eea263ebe_LowRes.png "Navigation to an existing route from a table item") 
+ ![](images/loiod97fe6dba586421fb9c7210eea263ebe_LowRes.png "Navigation to an existing route from a table item") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/view/employee/overview/EmployeeOverviewContent.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.overview.EmployeeOverviewContent"
 	xmlns="sap.m"
@@ -63,7 +63,7 @@ In the `EmployeeOverviewContent` view we register an event handler for the `item
 
 ### webapp/controller/employee/overview/EmployeeOverviewContent.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/Filter",

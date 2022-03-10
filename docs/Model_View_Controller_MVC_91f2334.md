@@ -20,7 +20,7 @@ Model, view, and controller are assigned the following roles:
 
 ***
 
-![](loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
+![](images/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
 
 -   [Models](Models_e1b6259.md)
 -   [Controller](Controller_121b8e6.md)

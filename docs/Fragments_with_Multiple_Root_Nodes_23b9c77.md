@@ -14,7 +14,7 @@ XML fragments and JS fragments can have more than one root control.
 
 In JS fragments, the `createContent()` method can optionally return an array of controls:
 
-``` js
+```js
 // fragment is located in a file named: sap/ui/core/fragmenttest/MultiRootFragment.fragment.js,
 sap.ui.define(["sap/m/Label", "sap/m/Input", "sap/m/Button"], function(Label, Input, Button) {
     return {
@@ -30,7 +30,7 @@ sap.ui.define(["sap/m/Label", "sap/m/Input", "sap/m/Button"], function(Label, In
 
 As XML documents need to have exactly one root node, to achieve XML fragments with multiple root nodes, an additional `<FragmentDefinition>` tag needs to be added as root element containing the actual root controls. This `<FragmentDefinition>` tag will not have any representation in HTML at runtime; the children are added directly to wherever this fragment is placed.
 
-``` xml
+```xml
 
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
     <Label text="These controls are within one multi-root Fragment:" />

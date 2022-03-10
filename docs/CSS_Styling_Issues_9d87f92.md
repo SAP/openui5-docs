@@ -110,7 +110,7 @@ Good Example
 <tr>
 <td valign="top">
 
-``` html
+```html
 
 div {
 	width: 120px;
@@ -336,7 +336,7 @@ Good Example
 <tr>
 <td valign="top">
 
-``` js
+```js
 
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("background-color", sColor);
@@ -347,7 +347,7 @@ $(oSomeDomElement).css("background-color", sColor);
 </td>
 <td valign="top">
 
-``` js
+```js
 
 var sColor = sap.ui.core.theming.Parameters.get("sapUiButtonBorderColor");
 $(oSomeDomElement).css("border-color", sColor);

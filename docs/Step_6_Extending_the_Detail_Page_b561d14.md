@@ -20,7 +20,7 @@ In this step, we will extend the detail page of our app to show more information
   
 <a name="loiob561d146f9114b029bd60fa26df09c6b__fig_z3h_cty_c5"/>Detail page with more product information
 
- ![](loio49780e41de4e4766b41cdf65acf81ea2_HiRes.png "Detail page with more product information") 
+ ![](images/loio49780e41de4e4766b41cdf65acf81ea2_HiRes.png "Detail page with more product information") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 
 #### webapp/view/Object.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 controllerName="mycompany.myapp.MyWorklistApp.controller.Object"
 xmlns="sap.m"
@@ -140,7 +140,7 @@ Below the object header we can use `sap.m.Panel` to display some additional info
 
 #### webapp/i18n/i18n.properties \[MODIFY\]
 
-``` prefs
+```ini
 ...
 #Price per unit text
 ObjectPriceTitle=Price

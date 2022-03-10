@@ -20,7 +20,7 @@ Our formatter does its job, but it is not yet used. In this step we will use it.
   
 <a name="loio2ca583d6b9c24e4d8f189eada7c4b668__fig_r1j_pst_mr"/>Date formatter in action
 
- ![](loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action") 
+ ![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/view/Post.view.xml
 
-``` xml
+```xml
 …
 <IconTabBar id="iconTabBar"
 			expanded="{device>/isNoPhone}"
@@ -63,7 +63,7 @@ On the *Info* tab we bind the date field to a format method `.formatter.date` of
 
 ### webapp/model/formatter.js
 
-``` js
+```js
 sap.ui.define([ "sap/ui/demo/bulletinboard/model/DateFormatter" ], function (DateFormatter) {
 	...
 	return {

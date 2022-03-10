@@ -22,7 +22,7 @@ In this step, we add a floating footer to the detail page.
   
 <a name="loio555ed73903b34c70a23ba13af1a5d71e__fig_r1j_pst_mr"/>`ObjectPageLayout` with a floating footer
 
- ![](loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "ObjectPageLayout with a floating footer") 
+ ![](images/loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "ObjectPageLayout with a floating footer") 
 
 ***
 
@@ -86,7 +86,7 @@ We add a footer inside the `sap.uxap.ObjectPageLayout`.
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.Detail"
 	xmlns="sap.uxap"
@@ -132,7 +132,7 @@ We add a `press` event handler to the *Edit* button.
 
 ### webapp/controller/Detail.controller.js \[NEW\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {

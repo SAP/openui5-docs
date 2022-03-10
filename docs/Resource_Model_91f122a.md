@@ -16,7 +16,7 @@ A resource model is instantiated with a `bundleName` or a `bundleURL`. The bundl
 
 In this resource model implementation you cannot pass parameters to your texts within the resource bundle. If you have to pass parameters, you must do this on your own. Therefore, you can load the bundle yourself or retrieve it from the model.
 
-``` js
+```js
 var myBundle = oModel.getResourceBundle();
 ```
 
@@ -24,7 +24,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 ***
 
-![](loio46a5dad5f10e47fb8142fe9994dfbcca_LowRes.png)
+![](images/loio46a5dad5f10e47fb8142fe9994dfbcca_LowRes.png)
 
 -   [Views](Views_91f27e3.md)
 -   [Resource Bundles](Resource_Bundles_91f225c.md)
@@ -50,7 +50,7 @@ The binding path syntax for the resource model only contains a flat list of prop
 
 The following example shows a simple resource model that illustrates the possible binding paths: Resource bundle content:
 
-``` js
+```js
 
 CLOSE_BUTTON_TEXT=Close
 OPEN_BUTTON_TEXT=Open
@@ -59,7 +59,7 @@ CANCEL_BUTTON_TEXT=Cancel
 
 Binding paths within the model:
 
-``` js
+```js
 
 CLOSE_BUTTON_TEXT
 OPEN_BUTTON_TEXT
@@ -80,7 +80,7 @@ The `ResourceModel` required for binding these texts is created during view inst
 
 2.  To bind this resource bundle content in XML views, insert the following code:
 
-    ``` xml
+    ```xml
     <core:View resourceBundleName="myBundle"
                resourceBundleAlias="i18n" 
                controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:core="sap.ui.core"

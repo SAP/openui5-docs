@@ -20,7 +20,7 @@ JS fragment definitions can be done both inline and within a separate file witho
 
 ### Example of an Inline XML Fragment
 
-``` xml
+```xml
 // define the XML fragment as a string (or load it from anywhere)
 var myXml = '<Panel xmlns="sap.m" text="Hello World"><Button text="Hello World"></Button></Panel>';
 
@@ -40,7 +40,7 @@ sap.ui.require(["sap/ui/core/Fragment"], function(Fragment){
 
 ### Example of an Inline HTML Fragment
 
-``` html
+```html
 // define the HTML fragment as a string (or load it from anywhere)
 var myHtml = '<div data-sap-ui-type="sap.m.Button" data-text="Hello World"></div>';
 

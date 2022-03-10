@@ -20,7 +20,7 @@ In this step, we will write a test that simulates a user search. We will enter t
   
 <a name="loio92959b10ecf14582b65eaadb40571156__fig_k3l_yjj_sx"/>Testing user input in a search field
 
- ![](loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field") 
+ ![](images/loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Testing - Step 11](https
 
 ### test/integration/WorklistJourney.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/test/opaQunit",
 	"./pages/Worklist"
@@ -80,7 +80,7 @@ Delete `.and.iTeardownMyApp();` from the previous test in the file and add the n
 
 ### test/integration/pages/Worklist.js
 
-``` js
+```js
 sap.ui.require([
 		'sap/ui/test/Opa5',
 		'sap/ui/test/matchers/AggregationLengthEquals',

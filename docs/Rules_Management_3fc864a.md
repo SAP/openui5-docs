@@ -24,7 +24,7 @@ The *Available Rulesets* tab contains the list of the currently loaded rulesets 
   
 <a name="loio3fc864acf926406194744375aa464fe7__fig_ekh_tj1_k1b"/>Support Assistant Available Rulesets
 
- ![](loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets") 
+ ![](images/loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets") 
 
 The *Additional Rulesets* tab shows rules for libraries that are not used by the application at the particular moment.
 
@@ -32,7 +32,7 @@ The *Additional Rulesets* tab shows rules for libraries that are not used by the
   
 <a name="loio3fc864acf926406194744375aa464fe7__fig_bbv_vj1_k1b"/>Support Assistant Additional Rulesets
 
- ![](loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets") 
+ ![](images/loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets") 
 
 You can select the rules from the *Additional Rulesets* tab and choose *Load* to move them to the set of *Available Rulesets* and use them in your analysis.
 
@@ -48,7 +48,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 <a name="loio3fc864acf926406194744375aa464fe7__fig_qp5_gqr_32b"/>Support Assistant Rule Presets
 
- ![](loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets") 
+ ![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets") 
 
 ***
 
@@ -61,7 +61,7 @@ The ID is an alphanumeric string which, although not mandatory, is useful if you
 Once exported and saved, your rule presets can be imported and used again. They are listed in a dropdown menu allowing you to easily switch between them.
 
 > ### Tip:  
-> In *My Selection*![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
+> In *My Selection*![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) on the Support Assistant toolbar and tick the checkbox in front of *I agree to use local storage persistency for*.
 
 ***
 
@@ -72,7 +72,7 @@ For your convenience, the Support Assistant is also equipped with ready-to-use s
 You can't delete system presets but you have the option to modify and export them as you do with your custom ones. Although the rules selected within one system preset are grouped according to their relevance to a certain scenario, they can belong to different categories.
 
 > ### Tip:  
-> If you modify the rule selection within a system preset, an asterisk appears next to its name as an indication of changes that haven’t been saved. You can undo these changes by selecting the refresh icon opposite the preset name ![](loio77651912c3644b29852ec0f7710182b0_HiRes.png).
+> If you modify the rule selection within a system preset, an asterisk appears next to its name as an indication of changes that haven’t been saved. You can undo these changes by selecting the refresh icon opposite the preset name ![](images/loio77651912c3644b29852ec0f7710182b0_HiRes.png).
 
 ***
 
@@ -86,10 +86,10 @@ you can find your most currentYou have the option to personalize the Rules view 
   
 <a name="loio3fc864acf926406194744375aa464fe7__fig_sqy_115_j2b"/>Support Assistant Columns Personalization
 
- ![](loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization") 
+ ![](images/loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization") 
 
 > ### Note:  
-> Choosing *I agree to use local storage persistency for* from the settings menu ![](loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.
+> Choosing *I agree to use local storage persistency for* from the settings menu ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.
 
 ***
 
@@ -97,7 +97,7 @@ you can find your most currentYou have the option to personalize the Rules view 
 
 ### Creating Rules
 
-Selecting the *Create Rule* button allows you to create a new rule. You can create a completely new rule \(*Create Rule*\) or use an existing one as a template by clicking the *Copy* \(![](loioafd526cfa67542abbe817b00440a0a45_HiRes.png)\) icon next to *Categories*. For each rule, you need to fill out the *ID*, *Categories*, *Audiences*, *Title*, *Description*, *Resolution*, *Min version* and, if available, *Resolution URLs* in the *Rule properties* tab. You also have the option to select if the *Async* value should be `true` or `false`. This value determines whether the rule check function will contain asynchronous operations. By default, it is set to `false`.
+Selecting the *Create Rule* button allows you to create a new rule. You can create a completely new rule \(*Create Rule*\) or use an existing one as a template by clicking the *Copy* \(![](images/loioafd526cfa67542abbe817b00440a0a45_HiRes.png)\) icon next to *Categories*. For each rule, you need to fill out the *ID*, *Categories*, *Audiences*, *Title*, *Description*, *Resolution*, *Min version* and, if available, *Resolution URLs* in the *Rule properties* tab. You also have the option to select if the *Async* value should be `true` or `false`. This value determines whether the rule check function will contain asynchronous operations. By default, it is set to `false`.
 
 > ### Note:  
 > Keep in mind that if you set *Async* to true, you need to use `fnResolve` as the 4th parameter in your check function to indicate that the asynchronous check function has finished. The asynchronous function waits 10 seconds before it times out.

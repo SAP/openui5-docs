@@ -21,7 +21,7 @@ Duplicate values will only be merged if they are contiguous. That means that you
 
 Here's a simple example of using `mergeDuplicates`. We'll set up a table of sales data, and display the data in a table, merging any duplicate regions. When the *Mix Up* button is pressed to lightly shuffle the salesFigures array of objects, you will see that only adjacent duplicates are merged. Press the *Sort* button again to see the ideal merging.
 
-``` js
+```js
 // Sales Areas
 var oAreas = {
     "North West": ["Manchester", "Liverpool", "Lancaster"],
@@ -100,5 +100,5 @@ oTable.placeAt("content");
 
 ```
 
-![](loiob8e8a14765f7482b893f079569d136a9_LowRes.png)
+![](images/loiob8e8a14765f7482b893f079569d136a9_LowRes.png)
 

@@ -20,7 +20,7 @@ Now we want to do something with that newly generated list. In most cases you wi
   
 <a name="loio6c7c5c266b534e7ea9a28f861dc515f5__fig_r1j_pst_mr"/>Element binding implemented, product details displayed per item
 
- ![](loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item") 
+ ![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the Demo Kit at [Data Binding - Step 13](
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
 			</items>
 		</List>
@@ -67,7 +67,7 @@ Now we have an empty form. In order to fill this form with data, we will bind th
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
   	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<List headerText="{i18n>productListTitle}" items="{products>/Products}">
@@ -93,7 +93,7 @@ Now we have an empty form. In order to fill this form with data, we will bind th
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/library",
@@ -141,7 +141,7 @@ We can now click on an element in the list and see its details in the panel belo
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 ...
 # Screen titles
 panel1HeaderText=Data Binding Basics
@@ -167,7 +167,7 @@ Discontinued=Discontinued
 
 ### webapp/i18n/i18n\_de.properties
 
-``` prefs
+```ini
 # Screen titles
 panel1HeaderText=Data Binding Grundlagen
 panel2HeaderText=Adressdetails

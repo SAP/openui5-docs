@@ -20,7 +20,7 @@ So far we have created many useful routes in our app. In the very early steps we
   
 <a name="loioa7932a791adc4a58ae4693400801ea5f__fig_r1j_pst_mr"/>Console output for invalid hashes when listening to bypassed events
 
- ![](loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events") 
+ ![](images/loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events") 
 
 ***
 
@@ -32,7 +32,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/base/Log"

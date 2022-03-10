@@ -49,7 +49,7 @@ Basically, a component consists of the component controller \(`Component.js`\) a
 
 The following figure gives an example of a component folder structure.
 
-![Using Components - Component Tree](loio1effb7160fdf472893409bfd2cabe24e_LowRes.png)
+![Using Components - Component Tree](images/loio1effb7160fdf472893409bfd2cabe24e_LowRes.png)
 
 The `ComponentContainer` control wraps a UI component. You use the `ComponentContainer` control in the OpenUI5 control tree in the same way as any other control.
 

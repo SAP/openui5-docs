@@ -19,7 +19,7 @@ The `template:require` attribute can be used at the root element of an XML templ
 
 ### "require" Template
 
-``` xml
+```xml
 
 <mvc:View
   controllerName="sap.ui.core.sample.ViewTemplate.scenario.Detail"

@@ -261,7 +261,7 @@ Libraries and components are objects and not arrays. For the descriptor part, we
 
 **Metadata** 
 
-``` js
+```js
 
 "dependencies": {
     "ui5version": "1.30.0",
@@ -275,7 +275,7 @@ Libraries and components are objects and not arrays. For the descriptor part, we
 
 **Descriptor**
 
-``` js
+```js
 
 "dependencies": {
     "minUI5Version": "1.30.0",
@@ -297,7 +297,7 @@ Includes are renamed to resources and are objects and not an array.
 
 **Metadata**
 
-``` js
+```js
 
 "includes": ["script.js", "style.css"]
 ```
@@ -307,7 +307,7 @@ Includes are renamed to resources and are objects and not an array.
 > ### Note:  
 > Since 1.94 the usage of `js` resources is deprecated. Please use regular `dependencies` instead.
 
-``` js
+```js
 
 "resources": {
     "js": [ //deprecated since 1.94

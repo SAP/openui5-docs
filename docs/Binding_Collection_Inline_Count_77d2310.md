@@ -14,7 +14,7 @@ The OData V4 model allows for binding the inline count of the entity collection 
 
 **Example: Table with title bound to `$count`**
 
-``` js
+```js
 
 <Table id="SalesOrders"
     items="{
@@ -39,7 +39,7 @@ The `ODataListBinding` provides a header context which holds header information 
 
 **Example: Setting the header context for a property binding to $count**
 
-``` js
+```js
 
 setHeaderContext : function () {
     var oView = this.getView();
@@ -70,7 +70,7 @@ setHeaderContext : function () {
 > ### Note:  
 > In addition to binding the inline count of the entity collection read by an `ODataListBinding` you can also use an `ODataPropertyBinding` with an absolute path to read a count separately:
 > 
-> ``` xml
+> ```xml
 > <Title text="{/SalesOrderList/$count} Sales Orders"/>
 > ```
 

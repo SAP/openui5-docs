@@ -31,7 +31,7 @@ There are some additional buttons \(`sap.m.Button`\), that activate features lik
 
 The Team Calendar is implemented using `sap.m.PlanningCalendar` control.
 
- ![](loio17a9e5e844004429a833588cb983a738_LowRes.png) 
+ ![](images/loio17a9e5e844004429a833588cb983a738_LowRes.png) 
 
 All members of the team are displayed with their appointments. There are also:
 
@@ -50,7 +50,7 @@ All members of the team are displayed with their appointments. There are also:
 
 ### Team Member Calendar
 
- ![](loiob48de99c4817492d818149a9cb9a9408_LowRes.png) 
+ ![](images/loiob48de99c4817492d818149a9cb9a9408_LowRes.png) 
 
 Team Member Calendar \(`sap.m.SinglePlanningCalendar`\) displays appointments of a single selected team member. It also includes:
 
@@ -71,11 +71,11 @@ Team Member Calendar \(`sap.m.SinglePlanningCalendar`\) displays appointments of
 
 The navigation between Team Calendar and Team Member Calendar is available using the Team Member Selector.
 
- ![](loioa0c46be284e7435db1dafb9936c3a66a_LowRes.png) 
+ ![](images/loioa0c46be284e7435db1dafb9936c3a66a_LowRes.png) 
 
 The *Create* button adds new appointments and the Calendar Legend button displays the legend.
 
- ![](loio772939a7c47f402688fbe0c829a9974c_LowRes.png) 
+ ![](images/loio772939a7c47f402688fbe0c829a9974c_LowRes.png) 
 
 ***
 

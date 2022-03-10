@@ -16,7 +16,7 @@ A component controller is defined with the asynchronous module definition \(AMD\
 
 To create an OpenUI5 component, you extend either the `Component` or `UIComponent` base class and pass the name of the module \(namespace + `.Component`\).
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/UIComponent'],
 	function(UIComponent) {
 	"use strict";

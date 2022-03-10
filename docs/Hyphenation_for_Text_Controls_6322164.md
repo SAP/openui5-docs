@@ -46,7 +46,7 @@ All three controls have a `wrapping` property that determines text wrapping. By 
 
 Example:
 
-``` js
+```js
 new sap.m.Label({
   text: "Liquiditätspositionshierarchie Datenänderungsbelege",
   wrapping: true,
@@ -67,7 +67,7 @@ As the `sap.ui.core.hyphenation.Hyphenation` class is a singleton, an instance s
 
 Example:
 
-``` js
+```js
 var oHyphenationApi = sap.ui.core.hyphenation.Hyphenation.getInstance();
 if (!oHyphenationApi.canUseNativeHyphenation("en")) {
   oHyphenationApi.initialize("en").then(function() {
@@ -86,7 +86,7 @@ By default, the text controls load any required third-party resources at a later
 
 Example:
 
-``` js
+```js
 sap.ui.core.hyphenation.Hyphenation.getInstance()
   .initialize()
   .then(function() {
@@ -114,7 +114,7 @@ When the framework makes the choice whether browser-native hyphenation or third-
   
 <a name="loio6322164936f047de941ec522b95d7b70__fig_ilz_gch_hfb"/>Hyphenation Workflow
 
- ![](loio6992c16573754505aa2e008859207b91_LowRes.png "Hyphenation Workflow") 
+ ![](images/loio6992c16573754505aa2e008859207b91_LowRes.png "Hyphenation Workflow") 
 
 ***
 

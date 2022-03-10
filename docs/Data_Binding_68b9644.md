@@ -14,7 +14,7 @@ You use data binding to bind UI elements to data sources to keep the data in syn
 
 ***
 
-![](loio544b09736447477198202b636048bab8_LowRes.png)
+![](images/loio544b09736447477198202b636048bab8_LowRes.png)
 
 -   [Views](Views_91f27e3.md)
 -   [Models](Models_e1b6259.md)
@@ -111,21 +111,21 @@ OData V4 model
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
@@ -141,21 +141,21 @@ OData V2 model
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -171,21 +171,21 @@ ODataMetaModel V4
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![Not supported](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -201,21 +201,21 @@ ODataMetaModel
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
 <td valign="top">
 
- ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![Not supported](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![Not supported](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -231,21 +231,21 @@ JSON model
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
@@ -261,21 +261,21 @@ XML model
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
@@ -291,21 +291,21 @@ Resource model
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
+ ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) \(default\)
 
 
 
 </td>
 <td valign="top">
 
- ![Not supported](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![Not supported](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 

@@ -22,7 +22,7 @@ In this step, we create a detail-detail page using `sap.f.DynamicPage`, which is
   
 <a name="loioe4d21fd03edb49da82cbaab9dbd274e8__fig_zfh_d31_12b"/>Detail-detail page displaying the name of the selected supplier
 
- ![](loio30466794b2164305a9693ccd23af0380_HiRes.gif "Detail-detail page displaying the name of the selected supplier") 
+ ![](images/loio30466794b2164305a9693ccd23af0380_HiRes.gif "Detail-detail page displaying the name of the selected supplier") 
 
 ***
 
@@ -38,7 +38,7 @@ You can view and download all files at [Flexible Column Layout App - Step 9](htt
 
 ### webapp/view/DetailDetail.view.xml \[NEW\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.DetailDetail"
 	xmlns="sap.f"
@@ -66,7 +66,7 @@ We create a detail-detail page view using `sap.f.DynamicPage` with only a title.
 
 ### webapp/controller/DetailDetail.controller.js \[NEW\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"
@@ -108,7 +108,7 @@ We create the detail-detail page controller.
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 			...
 			"routes": [
 				{
@@ -164,7 +164,7 @@ We add the detail-detail page to our existing routes in the `manifest.json`.
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 			...
 			<ObjectPageSection title="Suppliers">
 				<subSections>
@@ -200,7 +200,7 @@ We add a `press` event handler for each item in the *SUPPLIERS* table in the det
 
 ### webapp/controller/Detail.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	'sap/f/library'
@@ -238,7 +238,7 @@ We add an `onSupplierPress` function in the detail page controller in order to p
 
 ### webapp/controller/App.controller.js \[MODIFY\]
 
-``` js
+```js
 		...
 		onRouteMatched: function (oEvent) {
 			var sRouteName = oEvent.getParameter("name"),

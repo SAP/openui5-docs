@@ -53,7 +53,7 @@ Code example: Updates for the sales order note through two-way binding will use 
 
 **Batch group usage for binding created via JavaScript:**
 
-``` js
+```js
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({serviceUrl : "/myService/", synchronizationMode : "None"}),
@@ -66,7 +66,7 @@ XML view sample: Declares controls which create the context binding \(in the `Si
 
 **Batch group usage for bindings created via XML view:**
 
-``` xml
+```xml
 
 <form:SimpleForm binding="{path : '/SalesOrderList(SalesOrderID=\'42\')', parameters : {$$updateGroupId : 'myGroup'}}" editable="true" ...>
     <Label labelFor="Note" text="Note" /> 
@@ -103,7 +103,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 #### Example: View
 
-``` js
+```js
 
 <Toolbar design="Transparent">
     <content>
@@ -123,7 +123,7 @@ The list and context binding also offer the `resetChanges` method which resets c
 
 #### Example: Controller
 
-``` js
+```js
 onCancelSalesOrder : function (oEvent) {
     this.getView().getModel().resetChanges("SalesOrderUpdateGroup");
 },

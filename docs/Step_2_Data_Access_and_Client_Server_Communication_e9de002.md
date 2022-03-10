@@ -22,7 +22,7 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
   
 <a name="loioe9de002ddf1e478fbb9232bfba83dcf0__fig_blw_dkb_mcb"/>App with a toolbar that contains a *Refresh* button
 
- ![](loio0abcbb65bba54780948b00c20ce53690_LowRes.png "App with a toolbar that contains a Refresh
+ ![](images/loio0abcbb65bba54780948b00c20ce53690_LowRes.png "App with a toolbar that contains a Refresh
 					button") 
 
 ***
@@ -39,7 +39,7 @@ You can view and download all files at [OData V4 - Step 2](https://openui5.hana.
 
 ### webapp/controller/App.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
@@ -90,7 +90,7 @@ We also add the private method `_getText` to retrieve translatable texts from th
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 ...
 <Page title="{i18n>peoplePageTitle}">
 	<content>

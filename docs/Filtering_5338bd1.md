@@ -21,7 +21,7 @@ To use server side filtering, set the operation mode to [`sap.ui.model.odata.Ope
 
  **Example: Operation mode set in `manifest.json` for the model** 
 
-``` js
+```js
 
 "models" : {
     "" : {
@@ -36,7 +36,7 @@ To use server side filtering, set the operation mode to [`sap.ui.model.odata.Ope
 
 **Example: Operation mode set as binding parameter for a specific list binding**
 
-``` js
+```js
 
 <Table growing="true" growingThreshold="5" id="Equipments"
     items="{
@@ -60,7 +60,7 @@ The `ODataListBinding` combines the dynamic filter and static filter with a logi
 
 **Examle: Dynamic and static filters**
 
-``` js
+```js
 
 <Table growing="true" growingThreshold="5" id="Equipments"
     items="{

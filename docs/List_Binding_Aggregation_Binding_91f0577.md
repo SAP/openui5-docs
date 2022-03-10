@@ -14,7 +14,7 @@ List binding \(or aggregation binding\) is used to automatically create child co
 
 Let’s say we would like to display the following JSON model data in a `sap.m.List`:
 
-``` json
+```json
 {
 	companies : [
 		{
@@ -45,7 +45,7 @@ Let’s say we would like to display the following JSON model data in a `sap.m.L
 
 ### Declarative List Binding in XML Views
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.sample.App"
 	xmlns="sap.m"
@@ -99,7 +99,7 @@ You can define list binding directly in JavaScript either in the `settings` obje
 
 To bind a list, you create a template or provide a factory function, which is then passed when defining the list binding itself. In the `settings` object, this looks as follows:
 
-``` js
+```js
 var oItemTemplate = new sap.ui.core.ListItem({text:"{name}"});
 oComboBox = new sap.m.ComboBox({
 	items: {
@@ -114,7 +114,7 @@ A template is not necessarily a single control as shown in the example above, bu
 
 You can also define the list binding by using the `bindAggregation` method of a control:
 
-``` js
+```js
 var oItemTemplate = new sap.ui.core.ListItem({text:"{name}"});
 oComboBox.bindAggregation("items", {
 path: "/companies",
@@ -125,25 +125,25 @@ templateShareable: false
 
 In addition, some controls have a typed binding method for lists that are likely to be bound by the application:
 
-``` js
+```js
 var oComboBox.bindItems("/companies", oItemTemplate);
 ```
 
 To remove a list binding, you can use the `unbindAggregation` method:
 
-``` js
+```js
 oComboBox.unbindAggregation("items");
 ```
 
 Controls with typed binding methods also provide a typed unbind:
 
-``` js
+```js
 oComboBox.unbindItems();
 ```
 
 When a list is unbound, its aggregated controls are removed and destroyed by default. If you would like to keep the items in your `ComboBox`, for example, you can do so by using:
 
-``` js
+```js
 oComboBox.unbindAggregation("items", true);
 ```
 

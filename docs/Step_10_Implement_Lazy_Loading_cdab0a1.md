@@ -20,7 +20,7 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
   
 <a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_r1j_pst_mr"/>Tabs with lazy loading
 
- ![](loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading") 
+ ![](images/loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading") 
 
 ***
 
@@ -32,13 +32,13 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
   
 <a name="loiocdab0a1123514cc08cf2c8deb22f312e__fig_vbk_bbp_ns"/>Folder Structure for this Step
 
- ![](loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step") 
 
 ***
 
 ### webapp/view/employee/Resume.view.xml
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.nav.controller.employee.Resume"
 	xmlns="sap.m"
@@ -84,7 +84,7 @@ In the `resume` view we remove the content of the *Hobbies* and *Notes* tabs as 
 
 ### webapp/view/employee/ResumeHobbies.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Hobbies}"/>
 </mvc:View>
@@ -97,7 +97,7 @@ Create the file `ResumeHobbies.view.xml` in the `webapp/view/employee` folder. M
 
 ### webapp/view/employee/ResumeNotes.view.xml \(New\)
 
-``` xml
+```xml
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<Text text="{Notes}"/>
 </mvc:View>
@@ -109,7 +109,7 @@ Create the file `ResumeNotes.view.xml` in the `webapp/view/employee` folder simi
 
 ### webapp/controller/employee/Resume.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/demo/nav/controller/BaseController",
 	"sap/ui/model/json/JSONModel"
@@ -157,7 +157,7 @@ These lines of code make sure that the targets are only loaded when they are nee
 
 ### webapp/manifest.json
 
-``` js
+```js
 {
 	"_version": "1.12.0",
 	"sap.app": {

@@ -18,7 +18,7 @@ You need to make the `sap.ui.Device` API available in a JSON model once in your 
 
 `Component.js`
 
-``` js
+```js
 
 sap.ui.define([
 	"sap/ui/core/UIComponent",
@@ -42,7 +42,7 @@ This instantiates a named JSONModel \(`"device"`\) which contains all of the pro
 
 `List.view.xml`
 
-``` xml
+```xml
 
 <Page showNavButton="{device>/system/phone}" />
 ...
@@ -53,7 +53,7 @@ If you want to negate a value of the device model or make a simple case decision
 
 `List.view.xml`
 
-``` xml
+```xml
 
 <SearchField showRefreshButton="{= !${device>/support/touch} }" />
 ```

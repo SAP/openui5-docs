@@ -14,7 +14,7 @@ The configuration `data-sap-ui-appCacheBuster="./"` must be added to the bootstr
 
 The following code shows an example how the configuration is added to activate the application cache buster:
 
-``` html
+```html
 
 <script id="sap-ui-bootstrap"
   src="resources/sap-ui-cachebuster/sap-ui-core.js"

@@ -30,7 +30,7 @@ The following example shows how it must *not* be done: The library file structur
 
 `myLib/myAdditionalPathSegment/MyModule.js`
 
-``` js
+```js
 // CAUTION: BAD EXAMPLE - DON'T DO THIS
 sap.ui.define("myLib.MyModule", [], function(){
     ...
@@ -47,7 +47,7 @@ If you have more than one `sap.ui.define` call in a JavaScript file, the module 
 
 `myModule.js`
 
-``` js
+```js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -74,7 +74,7 @@ Conditional module definitions should *not* be used because of the following rea
 
 `myModule.js`
 
-``` js
+```js
 // BAD EXAMPLE - DON'T DO THIS
 if (myProperty){
     sap.ui.define([], function(){
@@ -97,7 +97,7 @@ Using deprecated APIs is not recommended and mixing old and new loader APIs is e
 
 `myLib/MyModule.js`
 
-``` js
+```js
 // BAD EXAMPLE - DON'T DO THIS
 jQuery.sap.declare("myLib.myModule");
 sap.ui.define([], function(){
@@ -232,7 +232,7 @@ The dependent modules are waiting for the module callback execution to be finish
 
 **Example**: The file for module C has one top-level `sap.ui.require` instead of a top-level `sap.ui.define` call. The module callback evaluation order starts with module B, because it has no dependencies. Afterwards, the framework can execute module A or module C, because the intended module C is not a module from the module loader perspective. Furthermore, the undefined export value of module C will most probably lead to errors in module A. If module C is defined correctly via a top-level `sap.ui.define` call, the module callback execution order is clear: B - C - A.
 
- ![](loio87c101d607a94ae689013c3478799879_LowRes.png) 
+ ![](images/loio87c101d607a94ae689013c3478799879_LowRes.png) 
 
 ***
 
@@ -244,7 +244,7 @@ It is unclear how modules that are defined via inline scripts can by addresses b
 
 `startMyApp.html`
 
-``` html
+```html
 <!-- BAD EXAMPLE - DON'T DO THIS -->
 <html>
 ...  
@@ -274,7 +274,7 @@ Never do a synchronous access to the export of a module definition because the m
 
 `myLib/MyModule.js`
 
-``` js
+```js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -296,7 +296,7 @@ Similar to the synchronous access of a module's export value, you also must omit
 
 `myLib/MyModule.js`
 
-``` js
+```js
 // BAD EXAMPLE - DON'T DO THIS
 sap.ui.define([], function(){
     ...
@@ -322,7 +322,7 @@ Addressing a module inconsistently can cause various side-effects. If the server
 
 `myView.xml`
 
-``` xml
+```xml
 <!-- BAD EXAMPLE - DON'T DO THIS -->
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m">
     ...
@@ -334,7 +334,7 @@ Addressing a module inconsistently can cause various side-effects. If the server
 
 `myModule.js`
 
-``` js
+```js
 ...
     // BAD EXAMPLE - DON'T DO THIS
     sap.ui.require(['sap/m/button'], function(){
@@ -356,7 +356,7 @@ Example: The `myModule` module is loaded via a script tag. Instead, use a `sap.u
 
 `startMyApp.js`
 
-``` html
+```html
 <html>
 ...
     <script src="https://myhost/mypath/myModule.js"></script>
@@ -378,13 +378,13 @@ To see how to set up a correct project structure, see [Best Practices for Loadin
 
 **Example**: All modules have exactly one dependency, which cannot be resolved correctly.
 
-![](loio01905ac71cff4f7db3cb4d76142b887b_LowRes.png)
+![](images/loio01905ac71cff4f7db3cb4d76142b887b_LowRes.png)
 
 *Solution 1 – Resolved cycle*: The following figure shows how the cycle can be resolved by moving the functionality of module A, which is used by module B, to a separate module \(module A2\). In general, resolving cyclic dependencies can require a larger refactoring of all involved modules, especially when multiple cycles have to be resolved.
 
-![](loio544e019da7f6421394bf838f218e814f_LowRes.png)
+![](images/loio544e019da7f6421394bf838f218e814f_LowRes.png)
 
 *Solution 2 – Probing modules*: In the example given in the following figure, the cycle is not resolved, but the involved modules do not access the dependent modules directly when the module callback is executed. They access them later via probing.
 
-![](loioe598bbc91b504be4bf3ad08191260b47_LowRes.png)
+![](images/loioe598bbc91b504be4bf3ad08191260b47_LowRes.png)
 

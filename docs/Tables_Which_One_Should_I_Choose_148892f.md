@@ -63,28 +63,28 @@ Desktop
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -100,28 +100,28 @@ Tablet
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -137,28 +137,28 @@ Phone
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -174,28 +174,28 @@ Responsive \(hide column, popin support\)
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -211,28 +211,28 @@ Compact density
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -248,28 +248,28 @@ Condensed density
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -285,28 +285,28 @@ Cozy density
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -322,28 +322,28 @@ Summarized cell
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -359,28 +359,28 @@ Hierarchical data
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -396,28 +396,28 @@ Large number of rows \(\> 200\)<sup>2</sup>
 </td>
 <td valign="top">
 
- ![Partly](loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+ ![Partly](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -433,28 +433,28 @@ Grouping
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -470,28 +470,28 @@ Freeze columns
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -507,28 +507,28 @@ Horizontal scrolling
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -544,28 +544,28 @@ Merge duplicates
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -618,28 +618,28 @@ Row-based
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
@@ -655,28 +655,28 @@ Column-based
 </td>
 <td valign="top">
 
- ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
 </td>
 <td valign="top">
 
- ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
 
 
 
@@ -686,9 +686,9 @@ Column-based
 
 **Legend**:
 
--   ![Yes](loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif): Feature is supported for this table type
+-   ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif): Feature is supported for this table type
 
--   ![No](loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif): Feature is not supported for this table type
+-   ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif): Feature is not supported for this table type
 
 
 1\) `Text`, `Label`, `ObjectStatus`, `Icon`, `Button`, `Input`, `DatePicker`, `Select`, `ComboBox`, `MultiComboBox`, `CheckBox`, `Link`, `Currency`, `RatingIndicator`, `ProgressIndicator`; To keep the control height always stable, the `wrapping` and `renderWhitespace` properties in the `sap.m.Text` control, for example, must be set to `false`. For more information, search for cell level in the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).

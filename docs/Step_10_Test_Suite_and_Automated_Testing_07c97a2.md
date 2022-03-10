@@ -20,7 +20,7 @@ In this step, we will step back from our tests and application features that we 
   
 <a name="loio07c97a2e497d443eb6fa74bb9445ab9c__fig_r1j_pst_mr"/>A Selenium runner for the test suite of the bulletin board
 
- ![](loioa715577da0714787b4e7839cdc524991_LowRes.png "A Selenium runner for the test suite of the bulletin board") 
+ ![](images/loioa715577da0714787b4e7839cdc524991_LowRes.png "A Selenium runner for the test suite of the bulletin board") 
 
 ***
 
@@ -34,7 +34,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Testing
 
 ### webapp/test/testsuite.qunit.html \(New\)
 
-``` html
+```html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -54,7 +54,7 @@ Create a new `testsuite.qunit.html` file. Here, you add the `testsuite.qunit.js`
 
 ### webapp/test/testsuite.qunit.js \(New\)
 
-``` js
+```js
 window.suite = function() {
 	"use strict";
 

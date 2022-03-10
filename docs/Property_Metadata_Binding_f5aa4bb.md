@@ -18,7 +18,7 @@ The consumption of label and description within an application is an example for
 
 Let the following annotation be provided in the service metadata or an additionally loaded metadata file, such as **annotations0.xml** :
 
-``` xml
+```xml
 <Property Name="CompanyName" Type="Edm.String" MaxLength="80" sap:label="Company Name"/>
 ```
 
@@ -30,7 +30,7 @@ The binding must then know the metadata part of the binding expression. The path
 
     For the example given above:
 
-    ``` js
+    ```js
     
     var myLabel = new sap.m.Label({text:"{/#Company/CompanyName/@sap:label}"});
     ```
@@ -41,7 +41,7 @@ The binding must then know the metadata part of the binding expression. The path
 
     Example:
 
-    ``` js
+    ```js
     
     var myLabel = new sap.m.Label({text:"{/Companies(1)/CompanyCode/#@sap:label}"});
     var myLabel2 = new sap.m.Label({text:"{City/#@sap:label}"});

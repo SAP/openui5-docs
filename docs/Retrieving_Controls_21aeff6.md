@@ -18,7 +18,7 @@ Common use cases for retrieving controls
 
 ### Retrieving a Control by Its ID
 
-``` js
+```js
 new sap.ui.test.Opa5().waitFor({
     id : "page-title",
     viewName : "Category",
@@ -33,7 +33,7 @@ In this example, we search for a control with the ID `page-title`. The control i
 
 By default, OPA5 tries to find the element until the default timeout of 15 seconds is reached. You can override this behavior by passing it as a parameter to the `waitFor` function. Zero means infinite timeout.
 
-``` js
+```js
 new sap.ui.test.Opa5().waitFor({
     id : "productList",
     viewName : "Category",
@@ -56,7 +56,7 @@ Sometimes you need to test for a control that has no explicit ID set and maybe y
 
 To do this, use the following code:
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType : "sap.m.ObjectHeader",
     viewName : "Detail",
@@ -84,7 +84,7 @@ For more information about all matchers, see the [API Reference](https://openui5
 
 `sap.ui.test.matchers.Properties`: This matcher checks if the controls have properties with given values. The values can also be defined as regular expressions \(`RegExp`\) for the string type properties.
 
-``` js
+```js
 return new Opa5().waitFor({
             controlType : "sap.m.StandardListItem",
             matchers : new sap.ui.test.matchers.Properties({
@@ -103,7 +103,7 @@ return new Opa5().waitFor({
 
 `sap.ui.test.matchers.Ancestor`: This matcher checks if the control has the specified ancestor \(ancestor is of a control type\).
 
-``` js
+```js
 var oOpa = new Opa5();
 return oOpa.waitFor({
             controlType: "sap.m.List",
@@ -122,7 +122,7 @@ return oOpa.waitFor({
 
 `sap.ui.test.matchers.Descendant`: This matcher checks if the control has the specified descendant. In this example, we search for a table row, which has a text control with a certain value.
 
-``` js
+```js
 this.waitFor({
     controlType: "sap.m.Text",
     matchers: new Properties({
@@ -144,7 +144,7 @@ this.waitFor({
 
 `sap.ui.test.matchers.BindingPath`: This matcher checks if the controls have specified data binding paths. The `path` property matches controls by their binding context. Controls with a binding context are usually inside an aggregation or have a parent control with data binding. The `propertyPath` property matches controls by the data binding paths of their own properties. Binding property paths can be part of an expression binding. You can set the `path` and `propertyPath` properties separately or in combination.For a practical example of the various types of data binding, see the [Tutorial Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.databinding).
 
-``` js
+```js
 // Match a CheckBox located inside a ListItem:
 // the CheckBox has a property binding with relative path "Selected"
 // the ListItem has a binding context path "/products/0"
@@ -162,7 +162,7 @@ return new Opa5().waitFor({
 
 `sap.ui.test.matchers.I18NText`: This matcher checks if a control property has the same value as a text from an I18N resource bundle.
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType : "sap.m.Button",
     matchers : new sap.ui.test.matchers.I18NText({
@@ -178,7 +178,7 @@ return new Opa5().waitFor({
 > ### Note:  
 > As of version 1.95, `sap.ui.test.matchers.I18NText` is extended to allow using library resource bundle.
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType : "sap.m.Button",
     matchers : new sap.ui.test.matchers.I18NText({
@@ -194,7 +194,7 @@ return new Opa5().waitFor({
 
 You can also define a matcher as an inline function: The first parameter of the function is a control to match. If the control matches, return `true` to pass the control on to the next matcher and/or to check and success functions.
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType : "sap.m.StandardListItem",
     matchers : function(oItem) {
@@ -209,7 +209,7 @@ return new Opa5().waitFor({
 
 If you return a 'truthy' value from the matcher, but not a Boolean, it will be used as an input parameter for the next matchers and/or check and success. This allows you to build a matchers pipeline.
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType : "sap.m.StandardListItem",
     matchers : [
@@ -234,7 +234,7 @@ return new Opa5().waitFor({
 
 Using the `i18n` key:
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType: "sap.m.Input",
     // Get sap.m.Input which is associated with Label which have i18n text with key "CART_ORDER_NAME_LABEL"
@@ -246,7 +246,7 @@ return new Opa5().waitFor({
 
 Using the `text` property:
 
-``` js
+```js
 return new Opa5().waitFor({
     controlType: "sap.m.Input",
     // Get sap.m.Input which is associated with Label which have i18n text with text "Name"
@@ -271,7 +271,7 @@ Use the option `searchOpenDialogs` to restrict control search to open dialogs on
 
 This is an example of matching a control with ID `mainView--testButton` located inside a dialog. The dialog itself is part of a view with name `main.view` and ID `mainView`:
 
-``` js
+```js
 this.waitFor({
     searchOpenDialogs: true,
     id: "testButton",
@@ -285,7 +285,7 @@ The next example shows the use case where we want to press a button with 'Order 
 
 To do this, we set the `searchOpenDialogs` option to true and then restrict the `controlType` we want to search for to `sap.m.Button`. We use the check function to search for a button with the text 'Order Now' and save it to the outer scope. After we find it, we trigger a `tap` event:
 
-``` js
+```js
 iPressOrderNow : function () {
     var oOrderNowButton = null;
     this.waitFor({
@@ -320,7 +320,7 @@ As of version 1.63, you can limit control search to a fragment with the option `
 
 The next example shows the use case where we want to press a button with ID `theMainView--greeting--helloWorld`, located inside a fragment with ID `greeting` and view with ID `theMainView`:
 
-``` js
+```js
 this.waitFor({
     viewId: "theMainView",
     fragmentId: "greeting",
@@ -342,7 +342,7 @@ You need a more creative approach to verify that no controls on the page match a
 
 The following example shows a custom `check` function that returns `true` if a popover doesn't contain a button with a certain text.
 
-``` js
+```js
 this.waitFor({
    controlType: "sap.m.Popover",
     success: function (aPopovers) {
@@ -383,7 +383,7 @@ If `autoWait` is disabled and there are no actions, the search matches disabled 
 
 The next example shows that the `enabled` property has priority over `autoWait`:
 
-``` js
+```js
 this.waitFor({
     controlType: "sap.m.Button",
     enabled: false,
@@ -400,7 +400,7 @@ this.waitFor({
 
 UI elements can be recursive, for example in a tree. Instead of triggering the action for each known element, you can also define it recursively \(see the code snippet below\). OPA ensures that the `waitFor` statements triggered in a success handler are executed before the next arrangement, action, or assertion. That also allows you to work with an unknown number of entries, for example in a list. First, you wait for the list, and then trigger actions on each list item.
 
-``` js
+```js
 iExpandRecursively : function() {
     return this.waitFor({
         controlType : "sap.m.StandardTreeItem",
@@ -429,7 +429,7 @@ iExpandRecursively : function() {
 
 As of version 1.72, OPA5 supports the declarative matcher syntax that allows you to declare built-in matchers in a literal object. The syntax is inspired by control locators in UIVeri5 and promotes reuse between the two testing tools. A matcher declaration is a JSON object. The OPA5 `waitFor` statement is simplified by using a single JSON object, instead of the more verbose matcher instances. Only built-in matchers are allowed. Inline matcher functions and custom matcher instances are only allowed in the matchers `waitFor` parameter:
 
-``` js
+```js
 return this.waitFor({
     controlType : "sap.m.Text",
     matchers : function () {
@@ -444,7 +444,7 @@ There are two places you can add a matcher declaration in a `waitFor` object:
 
     In this case, if you use an unknown matcher, an exception is thrown, stating that the parameter isn’t defined in OPA5 API.
 
-    ``` js
+    ```js
     this.waitFor({
         controlType : "sap.m.Text",
         propertyStrictEquals: {
@@ -458,7 +458,7 @@ There are two places you can add a matcher declaration in a `waitFor` object:
 
     In this case, if you use an unknown matcher, an exception is thrown, stating that the matcher isn’t supported.
 
-    ``` js
+    ```js
     this.waitFor({
         controlType : "sap.m.Text",
         matchers: {
@@ -483,7 +483,7 @@ A matcher is declared by its name and properties. The name is a key in the match
 
 The following two `waitFor` statements produce the same set of matchers:
 
-``` js
+```js
 // declaration
 this.waitFor({
     controlType : "sap.m.Text",
@@ -509,7 +509,7 @@ If you have to use one matcher twice, the value for the matcher must be an array
 
 The following two `waitFor` statements produce the same set of matchers:
 
-``` js
+```js
 // declaration
 this.waitFor({
     matchers: {
@@ -544,7 +544,7 @@ When declaring an `sap.ui.test.matchers.Ancestor` or `sap.ui.test.matchers.Desce
 
 The following two `waitFor` statements produce the same result:
 
-``` js
+```js
 // declaration
 this.waitFor({
     controlType: "sap.m.Text",

@@ -16,7 +16,7 @@ Any reference to an XML fragment is inlined by the preprocessor; that is, the re
 
 **Example: XML Fragment**
 
-``` xml
+```xml
 
 <core:Fragment fragmentName="sap.ui.core.sample.ViewTemplate.tiny.Field" type="XML"/>
 ```
@@ -25,7 +25,7 @@ The fragment name can also result from a binding, including an expression bindin
 
 **Example: Dynamic Fragment Name**
 
-``` xml
+```xml
 
 <core:Fragment fragmentName="{= ${path: 'facet>Target', formatter: 'sap.ui.model.odata.AnnotationHelper.isMultiple'} === 'true'
     ? 'sap.ui.core.sample.ViewTemplate.scenario.TableFacet'

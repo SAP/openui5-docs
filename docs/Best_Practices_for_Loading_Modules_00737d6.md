@@ -29,7 +29,7 @@ Every OpenUI5 module file must contain exactly one unnamed module definition on 
 
 `myLib/MyModuleA.js`
 
-``` js
+```js
 sap.ui.define(function(){
     ...
 });
@@ -48,7 +48,7 @@ A module must always be addressed with the unique module name. The module name i
 
 `myLib/MyModuleB.js`
 
-``` js
+```js
 sap.ui.define(["myLib/MyModuleA"], function(MyModuleA){  
     ...  
 });
@@ -66,7 +66,7 @@ The entry point of an OpenUI5 application is often a module that is used to inst
 
 **Example**: All modules are evaluated in a clearly defined order. The evaluation starts with module D, then module C and module B, and ends with module A.
 
-![](loioc8a64ac29d0d44598b89d224ff14e9f3_LowRes.png)
+![](images/loioc8a64ac29d0d44598b89d224ff14e9f3_LowRes.png)
 
 For troubleshooting information with regard to the project structure, see [How can I remove project structures with cyclic dependencies?](Troubleshooting_for_Loading_Modules_4363b3f.md#loio4363b3fe3561414ca1b030afc8cd30ce__section_cyclicdependencies).
 

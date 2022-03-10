@@ -24,7 +24,7 @@ If the arguments of the `sap.ui.require` call consist of an array of one or more
 
 The corresponding modules are loaded and the callback function is called asynchronously once all required modules are loaded.
 
-``` js
+```js
 // the callback function will be executed once the JSONModel, and the UIComponent modules are loaded
 sap.ui.require(['sap/ui/model/json/JSONModel', 'sap/ui/core/UIComponent'], function(JSONModel, UIComponent) {
  
@@ -50,7 +50,7 @@ If the module is not yet loaded or it is not a OpenUI5 module \(third-party modu
 
 By using `sap.ui.require`, you can synchronously access modules without triggering a loading request in case the module is not present.
 
-``` js
+```js
 // If JSONModel class is loaded, it is returned. If the module is not loaded yet, there will be no additional loading request.
 // The variable JSONModel might be undefined after making this call.
 var JSONModel = sap.ui.require("sap/ui/model/json/JSONModel");
@@ -90,7 +90,7 @@ The `sap.ui.require` function can not only be used to load modules, but also to 
 
 The return value of the following function call is either a reference on the already loaded module or `undefined`. If `undefined` is returned, the module was not loaded yet and the `sap.ui.require` call without a callback function will not trigger a load.
 
-``` js
+```js
 var ModuleInQuestion = sap.ui.require("name/of/module/in/Question");
 ```
 
@@ -102,7 +102,7 @@ var ModuleInQuestion = sap.ui.require("name/of/module/in/Question");
 
 Since the above `sap.ui.require` call retrieves a module reference, you can use the reference not only to instantiate instances of classes but also to perform JavaScript instanceof checks.
 
-``` js
+```js
 sap.ui.define(['sap/ui/core/mvc/View', 'sap/ui/core/Fragment'], function(View, Fragment) {
     ...
     if (oControl instanceof View) {
@@ -123,7 +123,7 @@ You can use one of the following approaches to perform a type check on your modu
 
 If the module is a descendant of `sap.ui.base.Object`, the object method `isA` can be used. With this approach the respective class does not need to be loaded. Furthermore, it is possible to check multiple classes by passing the respective class names as an array to the `isA` method. In scenarios where it's unproven that the module is a descendant of `sap.ui.base.Object`, the static method `sap.ui.base.Object.isA` can be used, which checks for descendance from `sap.ui.base.Object`.
 
-``` js
+```js
 sap.ui.define(['sap/ui/base/Object'], function(Object) {
     ...
     if (oControl.isA('sap.ui.core.mvc.View')) {
@@ -138,7 +138,7 @@ If it's proven that the respective class is not a descendant of `sap.ui.base.Obj
 
 The `lazyInstanceOf` convenience function makes sure that the `instanceof` check is performed against a function and not `undefined`, in case the module or class was not loaded yet.
 
-``` js
+```js
 
 function lazyInstanceof(obj, module) {
     var FNClass = sap.ui.require(module);

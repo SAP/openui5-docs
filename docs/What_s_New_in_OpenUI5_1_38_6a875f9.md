@@ -119,14 +119,14 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     <tr>
     <td valign="top">
 
-     ![](loio69b18052e57e48538fa02229ff7e43f7_HiRes.png) 
+     ![](images/loio69b18052e57e48538fa02229ff7e43f7_HiRes.png) 
 
 
     
     </td>
     <td valign="top">
 
-     ![](loio3fb088782e4e49bab3f05920066794c1_HiRes.png) 
+     ![](images/loio3fb088782e4e49bab3f05920066794c1_HiRes.png) 
 
 
     
@@ -151,23 +151,23 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     An object might have multiple `ObjectMarker`s at the same time but the editing states \(`Locked`, `Draft`, and `Unsaved`\) are mutually exclusive.
 
-     ![](loio63be65114f584a01bda20eb866894ace_HiRes.png) 
+     ![](images/loio63be65114f584a01bda20eb866894ace_HiRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectMarker) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectMarker).
 
 -   **`sap.m.RangeSlider`** is a new input control that is used to select a range of values. The `RangeSlider` has two slider handles that can be moved along a predefined numerical range scale. This control extends the `sap.m.Slider` and introduces additional functionality.
 
-     ![](loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png) 
+     ![](images/loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png) 
 
 -   `sap.m.StepInput`: The `StepInput` control allows the user to change the input value with a predefined step. The value can be changed using the increment/decrement buttons or keys on the keyboard. On the desktop, when using the keyboard [PgUp\] and [PgDn\] keys, the value increases/decreases two steps at a time.
 
-     ![](loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png) 
+     ![](images/loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StepInput) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StepInput).
 
 -   **`sap.ui.layout.ResponsiveSplitter`** is a layout control that is used to visually divide the content of its parent. The control is responsive and can adjust its contents to any screen size. On smaller screens, pagination is used to allow navigation to all splitter panes.
 
-     ![](loio542861b7dc7c452a994fe98beadf6d10_HiRes.png) 
+     ![](images/loio542861b7dc7c452a994fe98beadf6d10_HiRes.png) 
 
     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.ResponsiveSplitter) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.ResponsiveSplitter)
 
@@ -210,7 +210,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.MessagePopover`** has been improved and can now be resized. Resizing is only possible when the `MessagePopover` is opened from the footer on a desktop.
 
-     ![](loio8443028265c54ddaa40cd223bf401d2f_HiRes.png) 
+     ![](images/loio8443028265c54ddaa40cd223bf401d2f_HiRes.png) 
 
 -   **`sap.m.NotificationListItem`**: The control has two improvements:
 
@@ -256,7 +256,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.ui.commons.ColorPicker`** supports HSL \(Hue Saturation and Lightness\) mode. This mode works better with modern browsers and it does not require intermediate conversion back to RGB. Additionally, there is a new input field for the `alpha` \(transparency\) value for more precise color definition.
 
-     ![](loioafef27d2b0ef41b1b8dfa7517047bda8_HiRes.png) 
+     ![](images/loioafef27d2b0ef41b1b8dfa7517047bda8_HiRes.png) 
 
 -   **`sap.ui.layout.Form`** and **`sap.ui.layout.SimpleForm`**: You can now add a toolbar to a form container or the form itself.
 
@@ -274,7 +274,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.uxap.ObjectPageHeader`** ObjectPageHeader can be integrated with the `SideContent` scenario. A new `sideContentButton` aggregation has been added. This aggregation has a new button, which appears after the actions buttons and triggers opening the side content for additional information.
 
-     ![](loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png) 
+     ![](images/loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png) 
 
     For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicSideContentBtn/preview).
 

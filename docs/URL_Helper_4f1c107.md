@@ -18,21 +18,21 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 
 -   Trigger telephone application
 
-    ``` js
+    ```js
     
     sap.m.URLHelper.triggerTel( [Telephone Number] ); //Telephone number is optional
     ```
 
 -   Trigger text messaging application
 
-    ``` js
+    ```js
     
     sap.m.URLHelper.triggerSms( [Telephone Number] ); //Telephone number is optional
     ```
 
 -   Trigger e-mail application
 
-    ``` js
+    ```js
     
     sap.m.URLHelper.triggerEmail( [Destination Email], [Subject], [Default Message Text], [CC], [BCC] ); 
     // All parameters are optional
@@ -40,7 +40,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 
 -   Redirect To custom URL
 
-    ``` js
+    ```js
     
     sap.m.URLHelper.redirect( URL ); 
     //URL is required and can be used for custom protocols (e.g http, ftp, ...)
@@ -65,7 +65,7 @@ The URLHelper API contains the following triggers for telephone, texts, and e-ma
 > 
 > -   If you just want to get a URI back without a redirect, you can use normalize methods which have the same parameter as trigger methods, for example:
 > 
->     ``` js
+>     ```js
 >     
 >     /*
 >      * These methods do not redirect but return URI scheme back as string.

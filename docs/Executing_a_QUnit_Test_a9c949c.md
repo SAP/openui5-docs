@@ -18,7 +18,7 @@ For running QUnit tests, you need a QUnit TestSuite which configures the environ
 
 1.  Create a file named `testsuite.qunit.html`:
 
-    ``` html
+    ```html
     	<!DOCTYPE html>
     	<html>
     		<head>
@@ -40,7 +40,7 @@ The QUnit test starter is configured with one configuration file per QUnit TestS
 
 The configuration object is an object with the following top level properties:
 
-``` js
+```js
 sap.ui.define(function() {
 	"use strict";
 
@@ -135,7 +135,7 @@ The `testsuite.qunit.html` must be re-written to use the above mentioned `create
 
 `testsuite.qunit.html`
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -198,7 +198,7 @@ The following requirements that are optional:
 
 Both, the defaults and the individual test configurations have the same structure, which is documented in the following code snippet. The snippet also shows the internal defaults of the test starter. They are used as a fallback for options that are not defined in the configuration file \(neither defaults, nor individual tests\).
 
-``` js
+```js
 {
 	/*
 	 * ID(s) of the module(s) to load.

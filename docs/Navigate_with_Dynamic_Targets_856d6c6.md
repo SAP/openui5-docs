@@ -27,7 +27,7 @@ Before a target can be displayed, it needs to be added to the router. The OpenUI
 
 Use the [addTarget](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Targets/methods/addTarget) API of the `sap.ui.core.routing.Targets` module to add dynamic routing targets:
 
-``` js
+```js
 var oTargetOptions = {
     name: "DynamicTargetComponent",
     type: "Component",
@@ -67,7 +67,7 @@ However, if it's relevant to keep the hash in the router and make the target sus
 
 After defining a target as **route-relevant**, a connection between the active route and the target is created. Navigating away from the route will remove the dynamic target, so that the dynamic target won't be displayed automatically once the same route is matched again. To display the dynamic target once the route is matched again, the `display` method needs to be called again.
 
-``` js
+```js
 oRouter.getTargets().display({
     name: "myDynamicTarget",
     prefix: ...,

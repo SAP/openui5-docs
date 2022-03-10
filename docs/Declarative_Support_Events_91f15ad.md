@@ -14,7 +14,7 @@ The value of the event data attribute contains the name of a JavaScript function
 
 The following code snippet gives an example how a change of `Input` results in an alert with its new value when the focus is lost:
 
-``` html
+```html
 <script>
   function handleChange (oEvent) {
     alert (oEvent.getSource().getValue());
@@ -26,7 +26,7 @@ The following code snippet gives an example how a change of `Input` results in a
 
 Currently, OpenUI5 only supports to specify the name of a callback function. You can define callback functions within any class, see the following code example:
 
-``` html
+```html
 
 <div data-sap-ui-type="sap.m.Input" data-value="Change me!" data-change= "my.company.MyClass.handleChange"></div>
 ```

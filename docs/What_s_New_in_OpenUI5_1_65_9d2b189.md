@@ -50,7 +50,7 @@ For more information, see [Supported Combinations of Themes and Libraries](Suppo
 
 The new `GridContainer` control allows you to align tiles, cards, and other controls in configuration, such as an overview page. It relies on a regular grid mesh constructed of rows with the same height and columns with the same width. Each item can be configured to span a different number of rows and columns inside that mesh. `GridContainer` automatically calculates how many rows an item needs, based on the height of the item.
 
- ![](loio2916482f87df4b91afabd81d6070fc78_HiRes.png) 
+ ![](images/loio2916482f87df4b91afabd81d6070fc78_HiRes.png) 
 
 For more information, see [sap.f.GridContainer](sap_f_GridContainer_cca5ee5.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer), and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainer).
 
@@ -265,7 +265,7 @@ The key concepts shown in this course apply to both, SAPUI5 and OpenUI5. The cou
 
 For more information and to enroll, see [https://open.sap.com/courses/ui52](https://open.sap.com/courses/ui52).
 
- ![](loio56cac78b078f4cf3ada1fc92a9430182_LowRes.png) 
+ ![](images/loio56cac78b078f4cf3ada1fc92a9430182_LowRes.png) 
 
 
 
@@ -288,7 +288,7 @@ For more information and to enroll, see [https://open.sap.com/courses/ui52](http
 
 We have improved the global search capabilities in the Demo Kit app by migrating to a client-side search based on Elasticlunr.js.
 
- ![](loio36a8538c55c3402b9c7adef4df7cba2c_HiRes.png) 
+ ![](images/loio36a8538c55c3402b9c7adef4df7cba2c_HiRes.png) 
 
 
 

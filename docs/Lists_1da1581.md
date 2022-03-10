@@ -319,7 +319,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `text` feature, which enables you to set a center aligned text. This is a simple list item for triggering actions. The following code snippet shows an example:
 
-    ``` js
+    ```js
     
       <List headerText="Actions">
         <ActionListItem text="Reject" />
@@ -332,7 +332,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `label` feature to set a label and the `value` feature to set a value. The following code snippet shows an example:
 
-    ``` js
+    ```js
     
       <DisplayListItem
         label="Name"
@@ -344,7 +344,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the `label` feature to set a label and the `content` feature that can be aggregated with controls, for example a radio button or a search control. The following code snippet shows an example:
 
-    ``` js
+    ```js
     
       <List>
         <InputListItem label="WLAN">
@@ -370,7 +370,7 @@ The following types are available for list items:
 
      `label` feature to set a label and the `content` feature that can be aggregated with controls, for example a radio button or a search control. The following code snippet shows an example:
 
-    ``` js
+    ```js
     
     <List headerText="Products"
         items="{/ProductCollection}">
@@ -385,7 +385,7 @@ The following types are available for list items:
 
     In addition to the features inherited from `ListItemBase`, this type provides the option to aggregate content. You can use the `CustomListItem` for all list items that are not available in OpenUI5 standard, build your own content, and aggregate it.
 
-    ``` js
+    ```js
     
     <CustomListItem type="Inactive">
         <Label text="A first custom list item ..."  class="content"/>

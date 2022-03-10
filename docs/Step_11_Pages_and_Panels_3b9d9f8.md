@@ -20,7 +20,7 @@ After all the work on the app structure it’s time to improve the look of our a
   
 <a name="loio3b9d9f84930d43df90ad0789d99bd4a3__fig_r1j_pst_mr"/>A panel is now displaying the controls from the previous steps
 
- ![](loio959dd4b5957c4c799efc110338c9819d_HiRes.png "A panel is now displaying the controls from the previous steps") 
+ ![](images/loio959dd4b5957c4c799efc110338c9819d_HiRes.png "A panel is now displaying the controls from the previous steps") 
 
 ***
 
@@ -28,7 +28,7 @@ After all the work on the app structure it’s time to improve the look of our a
 
 You can view and download all files at [Walkthrough - Step 11](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.11/preview).
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
@@ -73,7 +73,7 @@ In order to make the fullscreen height of the view work properly, we add the `di
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # App Descriptor
 appTitle=Hello World
 appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span

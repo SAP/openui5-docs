@@ -17,7 +17,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The following example shows a delete scenario:
 
-``` js
+```js
 
 tap : function(e) {
    var oList = this.getView().byId("myList"); // get the list using its Id

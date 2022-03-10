@@ -23,19 +23,19 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 
 **Example:** `sap.m.Text` with plain text:
 
-``` xml
+```xml
 <Text text="My Text"/>
 ```
 
 **Example:** `sap.m.Text` with text provided by a binding:
 
-``` xml
+```xml
 <Text text="{customerName}"/>
 ```
 
 **Example:** `sap.m.Text` with escaped special characters:
 
-``` xml
+```xml
 <Text text="&lt;div&gt;My HTML Text&lt;/div&gt;"/>
 ```
 
@@ -50,7 +50,7 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 
     **Example:** `sap.m.Select` with preselected item with ID **item2** :
 
-    ``` xml
+    ```xml
     <Select selectedItem="item2">
         <items>
             <core:Item id="item1" key="article_1" text="Article 1" />
@@ -64,7 +64,7 @@ Attributes in XML views use the same binding syntax as constructors of controls.
 
     **Example:** `sap.m.MultiComboBox` with preselected items **item2** and **item3**:
 
-    ``` xml
+    ```xml
     <MultiComboBox selectedItems="item2 item3">
         <items>
             <core:Item id="item1" key="article_1" text="Article 1" />

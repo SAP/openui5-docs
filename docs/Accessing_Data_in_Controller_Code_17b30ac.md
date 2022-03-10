@@ -41,7 +41,7 @@ You can create bindings that are independent of controls using the factory metho
 
 A list binding is obtained either with `sap.ui.model.odata.v4.ODataModel#bindList`, or by getting an existing list binding bound to a control. Entities of the list can be requested using  [sap.ui.model.odata.v4.ODataModel.ODataListBinding\#requestContexts](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/requestContexts). The function returns a promise resolving with an array of the requested contexts. The data of each context can be accessed using the `requestObject`, `requestProperty`, `getObject`, and `getProperty` methods of `sap.ui.model.odata.v4.Context`. To modify the data, `sap.ui.model.odata.v4.Context#setProperty` can be used. For retrieving all available contexts without sending any request, [`sap.ui.model.odata.v4.ODataListBinding#getAllCurrentContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/getAllCurrentContexts) can be used.
 
-``` js
+```js
 var oList = oModel.bindList("/SalesOrderList");
 
 oList.requestContexts(10, 20).then(function (aContexts) {
@@ -57,7 +57,7 @@ oList.requestContexts(10, 20).then(function (aContexts) {
 
 New entities can be created with  [sap.ui.model.odata.v4.ODataModel.ODataListBinding\#create](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) . It is not required to read existing records before.
 
-``` js
+```js
 var oList = oModel.bindList("/SalesOrderList"),
     oNewContext = oList.create();
 ```
@@ -73,7 +73,7 @@ A context binding is obtained either with  [sap.ui.model.odata.v4.ODataModel\#bi
 > ### Note:  
 > Relative bindings need to be resolved, meaning that a context must have been set before data access is possible.
 
-``` js
+```js
 var oContextBinding = oModel.bindContext("/SalesOrderList('0500000000')");
 
 oContextBinding.requestObject("Note").then(function (sNote) {
@@ -93,7 +93,7 @@ The access to single properties may either be done using a context binding as de
 
 The value of a property binding can be modified using `sap.ui.model.odata.v4.ODataPropertyBinding#setValue`.
 
-``` js
+```js
 var oNote = oModel.bindProperty("/SalesOrderList('0500000000')/Note");
  
  

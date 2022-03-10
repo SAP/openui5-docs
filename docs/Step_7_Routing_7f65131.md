@@ -22,7 +22,7 @@ In this step, we utilize the `sap.f.routing.Router`.
   
 <a name="loio7f651316d396400d88835adb0d021532__fig_r1j_pst_mr"/>Changing layouts based on the `sap.f.routing.Router` \(no visual changes to last step\)
 
- ![](loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "Changing layouts based on the sap.f.routing.Router (no
+ ![](images/loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "Changing layouts based on the sap.f.routing.Router (no
 					visual changes to last step)") 
 
 ***
@@ -39,7 +39,7 @@ You can view and download all files at [Flexible Column Layout App - Step 7](htt
 
 ### webapp/views/App.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.fiori2.controller.App"
 	displayBlock="true"
@@ -62,7 +62,7 @@ We remove the hard-coded `beginColumnPages` and `endColumnPages` aggregations \(
 
 ### webapp/controller/App.controller.js \[NEW\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller"
@@ -110,7 +110,7 @@ We access the router and bind to its `routeMatched` event. For more information,
 
 ### webapp/controller/Master.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",
@@ -175,7 +175,7 @@ We change the event handler for pressing an item from the master view to use the
 
 ### webapp/controller/Detail.controller.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
@@ -223,7 +223,7 @@ We bind the table in the detail view to reflect the currently selected product f
 
 ### webapp/Component.js \[MODIFY\]
 
-``` js
+```js
 sap.ui.define([
 	'sap/ui/core/UIComponent',
 	'sap/ui/model/json/JSONModel',
@@ -280,7 +280,7 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {

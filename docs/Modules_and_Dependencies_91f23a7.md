@@ -39,7 +39,7 @@ Modules have no predefined syntax or structure, but module developers can use th
 
 The following code snippet shows a typical module that uses all of features listed above. The name of the module is `someClass`:
 
-``` js
+```js
   sap.ui.define("SomeClass", ['sap/mylib/Helper', 'sap/m/Bar'], function(Helper, Bar) {
  
     // create a new class
@@ -78,7 +78,7 @@ Therefore, you have to decide whether you want to use static or dynamic dependen
 
 -   **Static** dependencies are loaded in the dependency declaration array of the `sap.ui.define` call. These dependencies are always loaded in advance before executing the defined module:
 
-    ``` js
+    ```js
     sap.ui.define(['sap/m/Input'], function(Input) {
      
         // callback is executed once all dependencies are loaded
@@ -92,7 +92,7 @@ Therefore, you have to decide whether you want to use static or dynamic dependen
 
     When dynamically requiring modules, the callback function will be called once all referenced modules \(and their dependencies\) are fully loaded:
 
-    ``` js
+    ```js
     sap.ui.define(['sap/m/Input'], function(Input) {
      
         var MyControl = ...;

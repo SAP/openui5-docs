@@ -20,7 +20,7 @@ We now configure the visibility and properties of controls based on the device t
   
 <a name="loiod63a15e5eebb45cdada317bae5f45bc2__fig_rz5_qfp_lt"/>On phone devices, the panel is collapsed to save screen space and a button is hidden
 
- ![](loio26ae5cb9623a4e698b30be0fbbd33480_HiRes.png "On phone devices, the panel is collapsed to save screen space and a button is
+ ![](images/loio26ae5cb9623a4e698b30be0fbbd33480_HiRes.png "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden") 
 
 ***
@@ -29,7 +29,7 @@ We now configure the visibility and properties of controls based on the device t
 
 You can view and download all files at [Walkthrough - Step 35](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.35/preview).
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
 	xmlns="sap.m"
@@ -74,7 +74,7 @@ We can also hide single controls by device type when we set a CSS class like `sa
 
 ### webapp/Component.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/model/json/JSONModel",
@@ -126,7 +126,7 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 > ### Tip:  
 > You can test the device specific features of your app with the developer tools of your browser. For example in Google Chrome, you can emulate a tablet or a phone easily and see the effects. Some responsive options of OpenUI5 are only set initially when loading the app, so you might have to reload your page to see the results.
 
-``` xml
+```xml
 <mvc:View
 	controllerName="sap.ui.demo.walkthrough.controller.Detail"
 	xmlns="sap.m"
@@ -178,7 +178,7 @@ We now use the `Date` type and provide the pattern of our date format in the sou
 
 ### webapp/controller/Detail.controller.js
 
-``` js
+```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History",
@@ -207,7 +207,7 @@ In the `Detail` controller we simply add the view model with our currency defini
 
 ### webapp/i18n/i18n.properties
 
-``` prefs
+```ini
 # Detail Page
 detailPageTitle=Walkthrough - Details
 ratingConfirmation=You have rated this product with {0} stars

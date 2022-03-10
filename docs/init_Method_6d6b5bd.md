@@ -19,7 +19,7 @@ If the `init()` method is implemented, OpenUI5 invokes the method for each contr
 
 The `init` method is considered a private method that must only be called by the OpenUI5 core.
 
-``` js
+```js
    init: function() {
 
       this._bSearchHasBeenTriggered = false;
@@ -34,7 +34,7 @@ The `init` method is considered a private method that must only be called by the
 > 
 > Consider also that the superclass might implement the method later on, or removes its own method implementation because it is not needed anymore. We recommend that you check for the existence of the superclass method before calling it:
 > 
-> ``` js
+> ```js
 > 
 > SomeControl.extend("my.OwnControl", {
 >        ...

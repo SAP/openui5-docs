@@ -20,13 +20,13 @@ In this step, we want to change the mock data of the initial app.
   
 <a name="loio311890311f7148adbfbf248a6980df1c__fig_dpl_41l_c5"/>The product list of the initial app with custom mock data
 
- ![](loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data") 
+ ![](images/loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data") 
 
    
   
 <a name="loio311890311f7148adbfbf248a6980df1c__fig_xdw_s1l_c5"/>Folder structure for this step including custom mock data
 
- ![](loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data") 
+ ![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data") 
 
 The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
 
@@ -51,7 +51,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Worklis
 
 #### webapp/localService/mockdata/Products.json \[NEW\]
 
-``` js
+```js
 [
   {
     "ProductID": 1,
@@ -258,7 +258,7 @@ First create a new `mockdata` folder inside `webapp/localService`. Create a `Pro
 
 #### webapp/localService/mockdata/Suppliers.json \[NEW\]
 
-``` js
+```js
 [
   {
     "SupplierID": 1,

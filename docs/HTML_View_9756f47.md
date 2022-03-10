@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 An HTML View is defined by declarative HTML. Like the declarative support, the HTML view supports embedded HTML. The view file ends with `view.html`, for example `myview.view.html`.
 
 > ### Example:  
-> ``` html
+> ```html
 >   <template data-controller-name="example.mvc.test">
 >    Hello
 >   <h1>Title</h1>

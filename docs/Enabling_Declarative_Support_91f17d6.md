@@ -20,7 +20,7 @@ data-sap-ui-modules="sap.ui.core.plugin.DeclarativeSupport"
 
 OpenUI5 then requires \(loads\) the plugin `sap.ui.core.plugin.DeclarativeSupport`. When started, the plugin parses and enhances special HTML tags in the HTML document. The complete bootstrap script tag for OpenUI5 \(based on a CDN version\) looks as follows:
 
-``` html
+```html
 <script id="sap-ui-bootstrap"
   type="text/javascript"
   src="resources/sap-ui-core.js"

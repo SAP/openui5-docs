@@ -35,7 +35,7 @@ You can use the following methods:
 
     The following code snippet shows a sample of the `createContent` function returning the root control directly:
 
-    ``` js
+    ```js
     sap.ui.define(["sap/ui/core/UIComponent", "sap/m/Label"], function(UIComponent, Label) {
         return UIComponent.extend("my.app.Component", {
             metadata: {
@@ -51,7 +51,7 @@ You can use the following methods:
 
     The following code snippet shows a UI Component that implements the `sap.ui.core.IAsyncContentCreation` interface. The `createContent` function returns the Promise of the [`XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) factory:
 
-    ``` js
+    ```js
     sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/core/mvc/XMLView"], function(UIComponent, XMLView) {
             return UIComponent.extend("my.app.Component", {
                 metadata: {

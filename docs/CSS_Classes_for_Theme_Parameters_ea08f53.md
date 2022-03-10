@@ -57,14 +57,14 @@ Nevertheless, if there is an obvious default CSS property, such as the \(text\) 
 
 If an application is using OpenUI5, and a theme is loaded into the page, any custom content like plain HTML, HTML inside HTML controls or HTML/XML views, or HTML rendered by custom/notepad controls can use theming if the respective generic CSS classes are added. If custom HTML should have the font color as defined in the current theme, the application writes:
 
-``` html
+```html
 
 <span class="sapThemeText">some custom text in custom HTML</span>
 ```
 
 Whenever the theme is switched or the theme designer is used to modify the standard text color, this span automatically gets the new text color. The same is valid if a custom/notepad control is created. Just make sure the control writes the respective CSS class, for example, by calling `oRm.addClass("sapThemeText");`:
 
-``` js
+```js
 
 // the part creating the HTML:
 render : function(oRm, oControl) { 

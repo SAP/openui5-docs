@@ -28,7 +28,7 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
   
 <a name="loiod1ffe611194b4c7891772b0cce84648e__fig_r1j_pst_mr"/>`ObjectPageLayout` with dynamic header for the detail page
 
- ![](loioda38488f47f941a0b53509d22ef9027c_HiRes.gif "ObjectPageLayout with dynamic header for the detail
+ ![](images/loioda38488f47f941a0b53509d22ef9027c_HiRes.gif "ObjectPageLayout with dynamic header for the detail
 					page") 
 
 ***
@@ -45,7 +45,7 @@ You can view and download all files at [Flexible Column Layout App - Step 5](htt
 
 ### webapp/manifest.json \[MODIFY\]
 
-``` json
+```json
 {
 	"_version": "1.12.0",
 	"sap.app": {
@@ -86,7 +86,7 @@ First, we add the related libraries that we will need to the dependencies in the
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
@@ -113,7 +113,7 @@ We add an instance of the `sap.uxap.ObjectPageLayout` control.
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 <mvc:View
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
@@ -159,7 +159,7 @@ We add the recommended dynamic header with an instance of the `ObjectPageDynamic
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 		...
 		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
@@ -211,7 +211,7 @@ We add content in the `headerContent` aggregation. We're using `sap.f.Avatar` as
 
 ### webapp/view/Detail.view.xml \[MODIFY\]
 
-``` xml
+```xml
 		...
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">

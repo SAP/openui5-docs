@@ -23,7 +23,7 @@ The source value for this data type, that is, the value given in the model, must
 
 Examples how an `Integer` type can be initialized:
 
-``` js
+```js
 // "TypeInteger" required from module "sap/ui/model/type/Integer"
 
 // The source value is given as JavaScript number. Output is transformed into the type of the bound control property.

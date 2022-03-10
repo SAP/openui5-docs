@@ -41,7 +41,7 @@ The base class for elements \(`Element.js`\) provides the following four methods
 
 In the following example, the control would usually set the focus on the second child node of its root node. In this case, simply override the `getFocusDomRef()` method:
 
-``` js
+```js
 
 sap.m.<SampleControl>.getFocusDomRef = function() {
    return this.getDomRef().firstChild.nextSibling;
@@ -50,7 +50,7 @@ sap.m.<SampleControl>.getFocusDomRef = function() {
 
 Another control generally sets the focus back to the element that previously had the focus. Therefore, it overrides the methods `getFocusInfo` and `applyFocusInfo`.
 
-``` js
+```js
 
 sap.m.<SampleControl>.getFocusInfo = function() {
    return {id:this.getId(),idx:this.<myFocusElementIndex>};

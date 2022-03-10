@@ -18,7 +18,7 @@ You can use a factory function. To keep this pointer and have a descriptive mess
 
 Internally, we prefer to pass an object to the test for retrieving the values - it makes the test cases readable.
 
-``` js
+```js
 // "Bar" required from module "sap/m/Bar"
 // "Core" required from module "sap/ui/core/Core"
 function renderBarInPageTestCase(sTestName, oOptions) {
@@ -67,7 +67,7 @@ renderBarInPageTestCase("Should render the header context", {
 
 You cannot test for event parameters in OpenUI5 so you have to record them. Nevertheless, you can still use Sinon to retain the spy's call counting capabilities. Here is a working example for this:
 
-``` js
+```js
 // "HashChanger" required from module "sap/ui/core/routing/HashChanger"
 QUnit.test("Should set the Hash", function(assert) { 
     //Arrange
@@ -106,7 +106,7 @@ When testing user interactions, you can use `sap.ui.test.qunit` to trigger event
 
 Here is an example for when a user presses [Esc\] on the select:
 
-``` js
+```js
 // "Item" required from module "sap/ui/core/Item"
 // "Select" required from module "sap/m/Select"
 // "KeyCodes" required from module "sap/ui/events/KeyCodes"
@@ -159,7 +159,7 @@ In this example, you will test to see whether the control fails to rerender. The
 
 To test this, we add an `eventDelegate` to see how often the rendering function is called. We need to make sure that we apply the changes after setting the property because we want OpenUI5 to render synchronously:
 
-``` js
+```js
 // "Label" required from module "sap/m/Label"
 // "Core" required from module "sap/ui/core/Core"
 QUnit.test("Should suppress rerendering when tooltip is set", function(assert) { 
@@ -198,7 +198,7 @@ QUnit.test("Should suppress rerendering when tooltip is set", function(assert) {
 
 As your control should work together with models, it makes sense to do integration tests with a mock server. This is especially important for more complex controls, e.g. using paging. When testing with models, you need to make sure that you also set up/destroy the model itself inside your test. In the following, we will show an example using the OData V2 mock server:
 
-``` js
+```js
 
 // "MockServer" required from module "sap/ui/app/MockServer"
 
@@ -236,7 +236,7 @@ When using the OData V2 mock server, you can use async tests since calling respo
 
 After setting up the OData V2 mock server, we set up the model as follows:
 
-``` js
+```js
 
 // "ODataModel" required from module "sap/ui/model/v2/ODataModel"
 // "jQuery" required from module "sap/ui/thirdparty/jquery"
@@ -273,7 +273,7 @@ You can now bind your model against your control and test whatever you want.
 
 We use `clock.tick` to trigger the server response. If you didn't do this, the text of the label would still be empty:
 
-``` js
+```js
 // "Label" required from module "sap/m/Label"
 // "Core" required from module "sap/ui/core/Core"
 

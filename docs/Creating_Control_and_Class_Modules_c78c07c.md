@@ -40,7 +40,7 @@ JSDoc for the class should use the `@alias` tag to make sure that the variable i
 
 The `extend` function makes sure that the respective namespace is created:
 
-``` js
+```js
 sap.ui.define(["sap/ui/base/Object", "sap/ui/model/json/JSONModel"], function (BaseObject, JSONModel) {
   
     var Foo = BaseObject.extend("foo.bar.MyClass", /** @lends foo.bar.MyClass */ {

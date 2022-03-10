@@ -22,7 +22,7 @@ We will add an input field to our app, bind its value to the model, and bind the
   
 <a name="loio70ef981d350a495b940640801701c409__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field
 
- ![](loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input
+ ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input
 					field") 
 
 ***
@@ -31,7 +31,7 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 You can view and download all files at [Walkthrough - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.07/preview).
 
-``` js
+```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast",
@@ -69,7 +69,7 @@ The message toast is just showing the static "Hello World" message. We will show
 
 ### webapp/view/App.view.xml
 
-``` xml
+```xml
 <mvc:View
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
@@ -97,7 +97,7 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 
 ### webapp/index.html
 
-``` html
+```html
 <!DOCTYPE html>
 <html>
 <head>
