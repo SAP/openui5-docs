@@ -17,7 +17,7 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 ***
 
-<a name="loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_ekc_ct3_vjb"/>
+<a name="loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_CDN"/>
 
 ### Bootstrapping From OpenUI5 CDN
 
@@ -25,7 +25,7 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 #### Specific Version
 
-Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html). You can refer to a specific version by using a versioned URL as in the example below:
+The specific version allows you to select a particular fixed version for bootstrapping. You can refer to a specific version by using a versioned URL as in the following example:
 
 ```html
 <script id="sap-ui-bootstrap"
@@ -41,6 +41,8 @@ Check the available versions with the respective maintenance status at [https://
 
 The first segment of the URL after the host name is used to specify a concrete version, which needs to be provided in the following form: `release_number.version_number.patch_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 
+Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
+
 > ### Note:  
 > Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the [*Nightly*](https://openui5nightly.hana.ondemand.com) version, you are very welcome to send us your feedback!
 
@@ -48,7 +50,7 @@ The first segment of the URL after the host name is used to specify a concrete v
 
 #### Evergreen Version
 
-The evergreen version allows for a bootstrapping process that automatically uses the latest available patch level. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
+The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
 
 ```html
 <script id="sap-ui-bootstrap"
