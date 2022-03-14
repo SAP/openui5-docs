@@ -21,6 +21,9 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 
 ### Bootstrapping From OpenUI5 CDN
 
+> ### Note:  
+> To ensure outdated versions no longer pose a potential security risk, SAP removes OpenUI5 versions from the OpenUI5 CDN one year after their end of maintenance. Also patches of versions in maintenance which are older than one year will be removed. For more information, see [this blog post](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/). The end dates for the cloud provisioning of OpenUI5 versions and patches can be found at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)
+
 ***
 
 #### Specific Version

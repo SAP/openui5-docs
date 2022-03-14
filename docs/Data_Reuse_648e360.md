@@ -53,9 +53,13 @@ Upon selection of an object in the list, the row context is used as the binding 
 
 Editing any properties shown in the list or the detail section will automatically be reflected in the other place as well.
 
-The OData V4 model can help you to get such a row context in the detail view controller, without knowledge about the list view. Mark the table's list binding in the list view with the `$$getKeepAliveContext` parameter; for more information see [`sap.ui.model.odata.v4.ODataModel#bindList`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList). Then call [`sap.ui.model.odata.v4.ODataModel#getKeepAliveContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) with a binding path to the entity. If a marked list with the matching collection path exists and has a context with that path, this context is set to **keep-alive** \(see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below\) and returned. Otherwise, the function returns `undefined`.
+The OData V4 model can help you to get such a row context in the detail view controller, without knowledge about the list view. Mark the table's list binding in the list view with the `$$getKeepAliveContext` parameter; for more information see [`sap.ui.model.odata.v4.ODataModel#bindList`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList). Then call [`sap.ui.model.odata.v4.ODataModel#getKeepAliveContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) with a binding path to the entity. This function always returns such a context that shares data with a binding having a matching collection path and`$$getKeepAliveContext` set. If such a list binding exists, it returns a context with that path. If necessary, it creates such a context and requests its entity using the given group ID. This context is set to **keep-alive** \(see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below\). If no marked list binding exists, a temporary binding is used; as soon as a binding with `$$getKeepAliveContext` is created with or resolves to the matching collection path, the context and its data are moved to this binding and share the data with the list. The temporary binding is destroyed afterwards.
 
-The following example assumes that the binding path of the sales order is given via the routing, with "key" matching the key predicate of the order. If `getKeepAliveContext` does not return a context, the controller creates a hidden context binding and uses its bound context as the binding context of the object page.
+You do not have to take care whether the `$$getKeepAliveContext` binding currently exists; you can simply use the context as if the list was there. Even `replaceWith` works when given another context from `getKeepAliveContext` \(for example when canceling a draft and replacing it with the active instance\), and `ODataContextBinding#execute` supports the `bReplaceWithRVC` parameter \(for example to replace the active version with the draft after an *Edit* action\). When the list later appears, both contexts - the active one and the replaced one - will be moved to it, and the data is merged when the list reads it from the back end.
+
+Be aware that the usage of a temporary binding has the consequence that the context may change the binding during its lifetime. So don't keep a reference to it, always take it from the context. Note also that these contexts are kept alive and you must call `setKeepAlive(false)` if you do not need them anymore.
+
+The following example assumes that the binding path of the sales order is given via the routing, with "key" matching the key predicate of the order.
 
 **Sample list view**
 
@@ -79,19 +83,15 @@ The following example assumes that the binding path of the sales order is given 
 **Detail view controller \(extract\)**
 
 ```js
+
 ...
 onPatternMatched : function (oEvent) {
-    var oContext,
-        // Note: We assume that the key predicate is encoded correctly because it has been
+    var // Note: We assume that the key predicate is encoded correctly because it has been
         // taken from an existing context when calling Router#navTo
         sPath = "/SalesOrderList" + oEvent.getParameter("arguments").key,
         oView = this.getView();
- 
-    oContext = oView.getModel().getKeepAliveContext(sPath);
-    if (!oContext) {
-        oContext = oView.getModel().bindContext(sPath).getBoundContext();
-    }
-    oView.setBindingContext(oContext);
+  
+    oView.setBindingContext(oView.getModel().getKeepAliveContext(sPath));
 ...
 ```
 
