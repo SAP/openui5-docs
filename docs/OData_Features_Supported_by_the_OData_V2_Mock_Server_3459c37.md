@@ -65,7 +65,7 @@ Navigations
 </td>
 <td valign="top">
 
-Supported
+Supported; only single navigations are supported, e.g. "/a\(\)/b/". Further navigation chaining is not supported.
 
 
 

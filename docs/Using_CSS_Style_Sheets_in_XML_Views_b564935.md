@@ -14,18 +14,14 @@ Style sheets are included in XML views in the same way as plain HTML. To add fur
 
 ***
 
-The effect is the same as calling `myButton.addStyleClass(...)`.
-
 > ### Tip:  
 > We recommend to carefully choose the elements that you style as the CSS always affects the whole page and is **not** restricted to the view.
 
 ***
 
-1.  To add a style sheet, add the style definition.
+1.  Here’s how you would add a style definition and define a button that uses it in an XML view:
 
-    To add a style class and define a button that uses it, add the following coding:
-
-    ```html
+    ```xml
     
     <mvc:View controllerName="sap.hcm.Address" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
                xmlns:html="http://www.w3.org/1999/xhtml">
@@ -43,4 +39,22 @@ The effect is the same as calling `myButton.addStyleClass(...)`.
     > ### Note:  
     > To allow your view to be used in an environment with a Content Security Policy denying inline styles \(i.e. without the `unsafe-inline` source for the `style-src` directive\), you need to refer to an external style sheet instead of embedding the style sheet into your XML view. For more information, see the Walkthrough tutorial, [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md).
 
+    > ### Note:  
+    > The XML view offers special handling for style classes. You can specify them via the`class` attribute on a control's XML node. Please be aware that this attribute is not a property of the respective control and thus is not supported by a control's constructor.
+
+    To refer to a style class in JavaScript, for example in a controller, use the `addStyleClass` method on a control:
+
+    ```js
+        myButton.addStyleClass("mySuperRedButton");
+    ```
+
+    and add the style definition to your CSS file.
+
+
+**Related Information**  
+
+
+[API Reference: `sap.ui.core.Control#addStyleClass`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control%23methods/addStyleClass)
+
+[API Reference: `sap.ui.core.mvc.XMLView`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView)
 

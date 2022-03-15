@@ -17,6 +17,11 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 Property values for controls in XML views are specified as attributes of the XML element tag of the control. The name of the attribute corresponds to the name of the property in the API reference, for example, the property `text` of a the `sap.m.Text` control is specified as <code>text=”<i>value</i>”</code>.
 
 > ### Note:  
+> The XML view offers special handling for context binding and style classes. You can specify them via the`binding` and `class` attributes on a control's XML node.
+> 
+> Please be aware that these attributes are not properties of the respective controls and thus are not supported by a control's constructor. For more information, see [Context Binding \(Element Binding\)](Context_Binding_Element_Binding_91f05e8.md) and [Using CSS Style Sheets in XML Views](Using_CSS_Style_Sheets_in_XML_Views_b564935.md).
+
+> ### Note:  
 > Escape characters that have a special meaning in XML \(like `<`, or `&`\) when they occur in a property value. Use XML entities instead \(like `&lt;` instead of a `<`, or `&amp;` instead of `&`\).
 
 Attributes in XML views use the same binding syntax as constructors of controls. For example, `“{customerName}”` is used to bind a property against the model property with name `“customerName”`.
