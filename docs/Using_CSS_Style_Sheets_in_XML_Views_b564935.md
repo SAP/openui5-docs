@@ -40,7 +40,7 @@ Style sheets are included in XML views in the same way as plain HTML. To add fur
     > To allow your view to be used in an environment with a Content Security Policy denying inline styles \(i.e. without the `unsafe-inline` source for the `style-src` directive\), you need to refer to an external style sheet instead of embedding the style sheet into your XML view. For more information, see the Walkthrough tutorial, [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md).
 
     > ### Note:  
-    > The XML view offers special handling for style classes. You can specify them via the`class` attribute on a control's XML node. Please be aware that this attribute is not a property of the respective control and thus is not supported by a control's constructor.
+    > The XML view offers special handling for style classes. You can specify them via the `class` attribute on a control's XML node. Please be aware that this attribute is not a property of the respective control and thus is not supported by a control's constructor.
 
     To refer to a style class in JavaScript, for example in a controller, use the `addStyleClass` method on a control:
 
