@@ -301,7 +301,7 @@ Defines whether same origin domains are allowed or not
 </td>
 <td valign="top">
 
- `string` 
+ `string[]` 
 
 
 
@@ -313,13 +313,16 @@ Defines whether same origin domains are allowed or not
 </td>
 <td valign="top">
 
-Contains the domain allowlist \(comma-separated\)
+Contains the domain allowlist, for example `[".example.com"]`, `["hana.ondemand.com"]`.
 
 
 
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The `frameOptionsConfig` can only be set via `window["sap-ui-config"]`. Wildcards are not supported.
 
 ***
 

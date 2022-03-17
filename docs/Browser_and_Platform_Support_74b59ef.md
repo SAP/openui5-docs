@@ -859,7 +859,7 @@ Samsung Galaxy Tab S5e
 </td>
 <td valign="top">
 
-April 2022 ?
+April 2022
 
 
 
@@ -875,7 +875,7 @@ Samsung Galaxy Tab S6
 </td>
 <td valign="top">
 
-August 2022 ?
+August 2022
 
 
 
@@ -891,7 +891,7 @@ Samsung Galaxy Tab S6 Lite
 </td>
 <td valign="top">
 
-July 2023 ?
+July 2023
 
 
 
@@ -945,7 +945,7 @@ Samsung Galaxy Tab S8 Ultra
 </td>
 <td valign="top">
 
-February 2025 ?
+February 2025
 
 
 
