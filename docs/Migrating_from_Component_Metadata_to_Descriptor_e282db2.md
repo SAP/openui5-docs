@@ -123,7 +123,7 @@ Component namespace
 </td>
 <td valign="top">
 
- `sap.ui5/depedencies` 
+ `sap.ui5/dependencies` 
 
 
 

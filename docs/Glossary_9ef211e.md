@@ -225,6 +225,36 @@ A mechanism for defining a module in a way that modules and their dependencies c
 <tr>
 <td valign="top">
 
+asynchronous
+
+
+
+</td>
+<td valign="top">
+
+An asynchronous action is one that the backend can execute sometime after the users initially trigger it. The users can continue to work on the UI without any interruption to their flow.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 bootstrap
 
 
@@ -1336,7 +1366,7 @@ synchronous \(sync\) processing
 </td>
 <td valign="top">
 
-Synchronous processing will keep the current browser thread until the task is finished. The UI is not updated and no other tasks can be done in parallel. Consider using asynchronous processing for loading files and executing long-running code.
+Synchronous processing keeps the current browser thread until the task is finished. The UI is not updated and no other tasks can be done in parallel. Consider using asynchronous processing for loading files and executing long-running code.
 
 
 
@@ -1349,6 +1379,36 @@ SAPUI5/OpenUI5
 
 </td>
 <td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+synchronous \(refers to an action\)
+
+
+
+</td>
+<td valign="top">
+
+A synchronous action is one that the backend executes immediately after the user triggers it. Until the execution is complete, the user is blocked from performing any other actions on the UI.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

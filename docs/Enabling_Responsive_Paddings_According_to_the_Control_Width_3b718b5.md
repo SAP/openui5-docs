@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 Apply responsive paddings over separate parts of the controls.
 
 > ### Note:  
-> You can enable the responsive paddings based on the with of the control only for the SAP Horizon and SAP Quartz themes.
+> You can enable the responsive paddings based on the with of the control only for the SAP Horizon and Quartz themes.
 
 ***
 
