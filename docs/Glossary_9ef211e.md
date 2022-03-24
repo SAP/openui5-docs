@@ -109,6 +109,45 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+annotations
+
+
+
+</td>
+<td valign="top">
+
+Annotations contain metadata that accompanies the application data. It is an interface between FE client and assists application developers in implementing the display and behaviour of UI controls. For example, annotations and their properties control the:
+
+-   Display and position of columns in a table
+
+-   Sort order for the table rows
+
+-   Measures, dimensions, and sort order in a chart
+
+-   Enablement of a navigation button either always or only after the user has selected an item
+
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 association
 
 
@@ -807,6 +846,36 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+extend
+
+
+
+</td>
+<td valign="top">
+
+Extension of SAP Fiori elements application when you can add custom code, that must subsequently be maintained.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Fiori
 
 
@@ -993,6 +1062,47 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+manifest
+
+
+
+</td>
+<td valign="top">
+
+The manifest is the main configuration file for an application and the place where application developers define settings for the application and the interface behavior.
+
+For example, in the manifest, an application developer can set:
+
+-   A filter field to render onscreen as both a compact filter field in the filter bar and a visual filter.
+
+-   A table to allow the selection of one or more table rows
+
+
+Annotations are another way application developers can implement the display and behavior of UI controls.
+
+See annotations.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 mock server
 
 
@@ -1105,6 +1215,36 @@ SAPUI5/OpenUI5
 <td valign="top">
 
 [Developing Controls](Developing_Controls_8dcab00.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+OData
+
+
+
+</td>
+<td valign="top">
+
+OData \(Open Data Protocol\) is a standard protocol that defines best practices for building and consuming an interface to backend systems over the web.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -1257,6 +1397,36 @@ SAPUI5/OpenUI5
 <td valign="top">
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+service
+
+
+
+</td>
+<td valign="top">
+
+A service is code that delivers one or more functionalities or capabilities on the backend system, such as, the retrieval of data or execution of a series of actions. The code can be reused for various purposes by different client applications.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 

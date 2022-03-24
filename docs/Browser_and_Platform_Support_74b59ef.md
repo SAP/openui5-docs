@@ -196,7 +196,7 @@ Latest version
 <tr>
 <td valign="top">
 
-Touch<sup>3</sup>
+Touch<sup>5</sup>
 
 
 
@@ -289,7 +289,7 @@ Latest 2 versions
 </td>
 <td valign="top">
 
-Latest version<sup>3</sup>
+Latest version<sup>5</sup>
 
 
 
@@ -312,14 +312,14 @@ Latest version<sup>3</sup>
 <tr>
 <td valign="top">
 
-iOS
+iOS<sup>3</sup>
 
 
 
 </td>
 <td valign="top">
 
-Phone and Tablet<sup>3</sup>
+Phone and Tablet<sup>5</sup>
 
 
 
@@ -377,21 +377,21 @@ Latest version
 <tr>
 <td valign="top">
 
-Android
+Android<sup>4</sup>
 
 
 
 </td>
 <td valign="top">
 
-Phone and Tablet<sup>3</sup>
+Phone and Tablet<sup>5</sup>
 
 
 
 </td>
 <td valign="top">
 
-As of version 5
+Latest 3 versions supported by Google
 
 
 
@@ -443,7 +443,9 @@ Latest version
 
 1\) The specified browsers are also supported in virtual environments, such as Citrix and VMware. Any issues found must be reproducible in a non-virtualized environment.  
  2\) OpenUI5 detects Microsoft Edge \(Chromium\) as Google Chrome and treats it the same.  
- 3\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
+ 3\) We use current Apple iPhone and iPad devices for testing.  
+ 4\) Android-based devices are very fragmented in matters of operating system variants and hardware diversity. We use current Samsung Galaxy S and Galaxy Tab S series devices for testing.  
+ 5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
 ***
@@ -455,503 +457,6 @@ Latest version
 Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)\).
 
 In case you have legacy applications and you still need IE11 with an OpenUI5 version that no longer supports it, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to IE11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
-
-***
-
-<a name="loio74b59efa0eef48988d3b716bd0ecc933__section_n3t_dns_hnb"/>
-
-### Supported Reference Devices on iOS and Android
-
-For mobile operating systems, support is restricted to specific reference devices.
-
-When creating support incidents, make sure that the device you refer to belongs to the listed ones:
-
-
-<table>
-<tr>
-<th valign="top">
-
-Platform
-
-
-
-</th>
-<th valign="top">
-
-Device
-
-
-
-</th>
-<th valign="top">
-
-End of Support Date
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top" rowspan="12">
-
-iOS
-
-SAP always supports the 2 latest releases of the iOS operating system, not exceeding 3 years from vendor release date. OpenUI5 supports Apple iPhone and iPad series until 3 years from the vendor device release date, except defined otherwise.
-
-
-
-</td>
-<td valign="top">
-
-Apple iPhone 11
-
-Apple iPhone 11 Pro
-
-Apple iPhone 11 Pro Max
-
-
-
-</td>
-<td valign="top">
-
-September 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPhone SE \(2nd\)
-
-
-
-</td>
-<td valign="top">
-
-April 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPhone 12
-
-Apple iPhone 12 Pro
-
-
-
-</td>
-<td valign="top">
-
-October 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPhone 12 Mini
-
-Apple iPhone 12 Pro Max
-
-
-
-</td>
-<td valign="top">
-
-November 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPhone 13
-
-Apple iPhone 13 Mini
-
-Apple iPhone 13 Pro
-
-Apple iPhone 13 Pro Max
-
-
-
-</td>
-<td valign="top">
-
-September 2024
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad Air \(3rd\)
-
-Apple iPad Mini \(5th\)
-
-
-
-</td>
-<td valign="top">
-
-March 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad \(7th\)
-
-
-
-</td>
-<td valign="top">
-
-September 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad Pro \(4th\)
-
-
-
-</td>
-<td valign="top">
-
-March 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad \(8th\)
-
-
-
-</td>
-<td valign="top">
-
-September 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad Air \(4th\)
-
-
-
-</td>
-<td valign="top">
-
-October 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad Pro \(5th\)
-
-
-
-</td>
-<td valign="top">
-
-May 2024
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Apple iPad \(9th\)
-
-Apple iPad Mini
-
-
-
-</td>
-<td valign="top">
-
-September 2024
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="13">
-
-Android
-
-Android OS based devices are very fragmented in matters of operating system variants and hardware diversity. OpenUI5 supports Samsung Galaxy S and Galaxy Tab S series until 3 years from vendor device release date, except defined otherwise.
-
-
-
-</td>
-<td valign="top">
-
-Samsung Galaxy S10e
-
-Samsung Galaxy S10
-
-Samsung Galaxy S10+
-
-Samsung Galaxy S10 5G
-
-
-
-</td>
-<td valign="top">
-
-March 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S10 Lite
-
-
-
-</td>
-<td valign="top">
-
-January 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S20
-
-Samsung Galaxy S20+
-
-Samsung Galaxy S20 Ultra
-
-
-
-</td>
-<td valign="top">
-
-March 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S20 FE
-
-
-
-</td>
-<td valign="top">
-
-October 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S21
-
-Samsung Galaxy S21+
-
-Samsung Galaxy S21 Ultra
-
-
-
-</td>
-<td valign="top">
-
-January 2024
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S21 FE
-
-
-
-</td>
-<td valign="top">
-
-January 2025
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy S22
-
-Samsung Galaxy S22+
-
-Samsung Galaxy S22 Ultra
-
-
-
-</td>
-<td valign="top">
-
-February 2025
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S5e
-
-
-
-</td>
-<td valign="top">
-
-April 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S6
-
-
-
-</td>
-<td valign="top">
-
-August 2022
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S6 Lite
-
-
-
-</td>
-<td valign="top">
-
-July 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S7
-
-Samsung Galaxy Tab S7+
-
-
-
-</td>
-<td valign="top">
-
-August 2023
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S7 FE
-
-
-
-</td>
-<td valign="top">
-
-May 2024
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Samsung Galaxy Tab S8
-
-Samsung Galaxy Tab S8+
-
-Samsung Galaxy Tab S8 Ultra
-
-
-
-</td>
-<td valign="top">
-
-February 2025
-
-
-
-</td>
-</tr>
-</table>
 
 -   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
 		certain libraries.")**  

@@ -24,8 +24,6 @@ Screen reader support is incorporated at two levels: framework and application l
 
 No screen reader activation settings are necessary since the accessibility mode in OpenUI5 is switched on by default. Screen reader software get the information about the page directly from the semantic HTML and ARIA attributes.
 
- 
-
 ***
 
 <a name="loio656e825c5f1548e6b1d0acb5586f2a2a__Aria"/>
