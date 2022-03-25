@@ -116,17 +116,6 @@ To preview the new theme flavors, see
 <tr>
 <td valign="top">
 
-**OpenUI5 Bootstrapping**
-
-For all long-term maintenance versions of OpenUI5 starting from 1.71, you can now use evergreen versions in the bootstrap script. The script takes care to boot your OpenUI5 application from CDN with a specific version using the latest patch level. Additionally, all HTML pages of the Demo Kit using evergreen versions will be automatically redirected. For more information, see [Bootstrapping from OpenUI5 CDN](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md#loio2d3eb2f322ea4a82983c1c62a33ec4ae__section_CDN).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 **OpenUI5 OData V2 Model**
 
 You can now access the status of a `Context` in bindings with the `@$ui5.context.isInactive` and `@$ui5.context.isTransient` instance annotations.For more information, see the [API Reference for `#isInactive`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isInactive) and the [API Reference for `#isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isTransient).

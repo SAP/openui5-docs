@@ -32,6 +32,8 @@ You can create bindings that are independent of controls using the factory metho
 
 -   `setProperty`: Sets a new value for the property identified by the given path.
 
+-   `delete`: Deletes the record.
+
 
 ***
 

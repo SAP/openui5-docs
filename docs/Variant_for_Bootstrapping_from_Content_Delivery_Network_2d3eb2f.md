@@ -51,32 +51,6 @@ Check the available versions with the respective maintenance status at [https://
 
 ***
 
-#### Evergreen Version
-
-The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
-
-```html
-<script id="sap-ui-bootstrap"
-    type="text/javascript"
-    src="https://openui5.hana.ondemand.com/1.96/resources/sap-ui-core.js"
-    data-sap-ui-theme="sap_fiori_3"
-    data-sap-ui-async="true"
-    data-sap-ui-libs="sap.m"></script>
-
-
-```
-
-The first segment of the URL after the host name is used to specify an evergreen version, which needs to be provided in the following form: `release_number.version_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
-
-> ### Note:  
-> Evergreen versions only support asynchronous bootstrapping. Therefore, the `data-sap-ui-async` bootstrap attribute must be set to `true`.
-
-You can find the available versions with long-term maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)
-
-All long-term maintenance versions \>= 1.71 can be used as evergreen versions to bootstrap OpenUI5 applications.
-
-***
-
 #### Default Version
 
 > ### Caution:  
