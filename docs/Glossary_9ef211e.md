@@ -116,7 +116,7 @@ annotations
 </td>
 <td valign="top">
 
-Annotations contain metadata that accompanies the application data. It is an interface between FE client and assists application developers in implementing the display and behaviour of UI controls. For example, annotations and their properties control the:
+Annotations contain metadata that accompanies the application data. It is an interface between SAP Fiori elements client and assists application developers in implementing the display and behaviour of UI controls. For example, annotations and their properties control the:
 
 -   Display and position of columns in a table
 
@@ -139,7 +139,7 @@ Annotations contain metadata that accompanies the application data. It is an int
 </td>
 <td valign="top">
 
- 
+ [Working With UI Annotations](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/83c89ccef12f48ab98f6c3811bd025b3.html "Vocabularies and annotations allow you to extend OData services by adding information about how to interpret the OData service and its data.") :arrow_upper_right: 
 
 
 
@@ -846,14 +846,18 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-extend
+entity
 
 
 
 </td>
 <td valign="top">
 
-Extension of SAP Fiori elements application when you can add custom code, that must subsequently be maintained.
+In an OData definition of a data model, an entity corresponds to a business object in an application.
+
+The data model also defines the association among the entity types.
+
+For example, for a sales order processing application, the data model can define sales order as an entity and sales order item as its child entity. In the application interface, this association allows the users to navigate from the sales order to the sales order item.
 
 
 
@@ -868,6 +872,42 @@ Extension of SAP Fiori elements application when you can add custom code, that m
 <td valign="top">
 
  
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+extend
+
+
+
+</td>
+<td valign="top">
+
+Extension of SAP Fiori elements application where you can add custom code, that must subsequently be maintained.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+[Extending SAP Fiori Elements-Based Apps](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/358cf2598d71462b8ac2bd8c944efbfd.html "You can extend your application if needed.") :arrow_upper_right:
+
+[Extending List Reports and Object Pages Using App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/a892eb8ae1fb498a9bc6c5194432e820.html "Various framework extension points are available for list reports and object pages.") :arrow_upper_right:
+
+[Configuring Analytical List Page App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/9504fb4c9fc741c29bc0cc3c1f5fe83b.html "This section provides some of the advance configurations and extensions for your application.") :arrow_upper_right:
+
+[Configuring Overview Page App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/b240f612227547d99e7fe76dd03da375.html "Lets you customize the card and filter area to design a robust application.") :arrow_upper_right:
 
 
 
@@ -1094,7 +1134,7 @@ See annotations.
 </td>
 <td valign="top">
 
- 
+ [Checking Folder Structure and Project Artifacts](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f7abd1bbc766422e82476e333a46c9a1.html "Once you have applied the template, the generated application is ready to run.") :arrow_upper_right: 
 
 
 

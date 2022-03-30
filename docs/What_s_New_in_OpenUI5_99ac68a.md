@@ -22,10 +22,6 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 		this release OpenUI5 is upgraded
 		from version 1.99 to 1.100.")**  
 With this release OpenUI5 is upgraded from version 1.99 to 1.100.
--   **[What's New in OpenUI5 1.99](What_s_New_in_OpenUI5_1_99_5e35c25.md "With
-		this release OpenUI5 is upgraded
-		from version 1.98 to 1.99.")**  
-With this release OpenUI5 is upgraded from version 1.98 to 1.99.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 
