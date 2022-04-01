@@ -168,6 +168,8 @@ Latest version and latest Extended Support Release \(ESR\)
 
 Windows 10
 
+Windows 11
+
 
 
 </td>
@@ -204,6 +206,8 @@ Touch<sup>5</sup>
 <td valign="top">
 
 Windows 10
+
+Windows 11
 
 
 
@@ -312,7 +316,7 @@ Latest version<sup>5</sup>
 <tr>
 <td valign="top">
 
-iOS<sup>3</sup>
+iOS & iPadOS<sup>3</sup>
 
 
 
