@@ -21,23 +21,23 @@ To use expression binding, you need to enable complex binding syntax by using co
 
 An expression binding is specified in an XML view by one of the following two options:
 
--   <code>{=<i>expression</i>}</code>
+-   <code>{=<b>expression</b>}</code>
 
     This variant uses one-way binding. This allows the automatic recalculation if the model values change.
 
--   <code>{:=<i>expression</i>}</code>
+-   <code>{:=<b>expression</b>}</code>
 
     This variant uses one-time binding, meaning that the value is calculated only once. This variant needs less resources because no change listeners to the model have to be maintained.
 
 
-The syntax of the <code><i>expression</i></code> is similar to JavaScript syntax, but you can only use a subset of the JavaScript expression syntax as defined in the table below. Additionally, you can embed values from the model layer into an expression as additional bindings by using one of the following syntaxes:
+The syntax of the <code><b>expression</b></code> is similar to JavaScript syntax, but you can only use a subset of the JavaScript expression syntax as defined in the table below. Additionally, you can embed values from the model layer into an expression as additional bindings by using one of the following syntaxes:
 
--   <code>${<i>binding</i>}</code>
+-   <code>${<b>binding</b>}</code>
 
--   <code>%{<i>binding</i>}</code>
+-   <code>%{<b>binding</b>}</code>
 
 
-<code><i>binding</i></code> can either be a simple path, or a complex binding. The embedded binding <code>${<i>binding</i>}</code> delivers a value formatted according to the target type of the control property the expression binding applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{= ${status} === 'critical' }">`. This can be undesirable or even lead to errors, for example, if OData V4 automatically adds the correct type for the “status” property which is string-like, not boolean. In such cases, use the syntax `%{binding}` instead. It is just a shortcut for `${path : 'binding', targetType : 'any'}`. In rare cases, you might also want to specify a different “targetType”, for example “string”, “boolean”, “int” or “float”. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/docs/api/symbols/sap.ui.model.odata.type.html) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.ViewTemplate.types/preview) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
+<code><b>binding</b></code> can either be a simple path, or a complex binding. The embedded binding <code>${<b>binding</b>}</code> delivers a value formatted according to the target type of the control property the expression binding applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{= ${status} === 'critical' }">`. This can be undesirable or even lead to errors, for example, if OData V4 automatically adds the correct type for the “status” property which is string-like, not boolean. In such cases, use the syntax `%{binding}` instead. It is just a shortcut for `${path : 'binding', targetType : 'any'}`. In rare cases, you might also want to specify a different “targetType”, for example “string”, “boolean”, “int” or “float”. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/docs/api/symbols/sap.ui.model.odata.type.html) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.ViewTemplate.types/preview) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
 
 > ### Note:  
 > Expression binding can also be used with JavaScript. For example:

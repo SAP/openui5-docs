@@ -724,6 +724,36 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+determining action
+
+
+
+</td>
+<td valign="top">
+
+A finalizing action that can be anywhere on any page. It applies to the entire page context.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Defining Determining Actions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/1743323829e5474eb3829d2e9ab022ae.html "You can add a determining action button to the footer of the object page.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 diagnostics
 
 
@@ -1317,6 +1347,38 @@ SAPUI5/OpenUI5
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 
 [OData V4 Model](OData_V4_Model_5de13cf.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+paginator buttons
+
+
+
+</td>
+<td valign="top">
+
+Paging buttons in the object page header toolbar.
+
+They allow users to navigate to the previous or next object page shown in the list report.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Object Page Elements](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/645e27ae85d54c8cbc3f6722184a24a1.html "The object page lets you display, edit, and create objects, as well as save drafts. It is suitable for both simple objects and more complex, multi-faceted objects. The object page view gives you optimal support for multiple devices.") :arrow_upper_right: 
 
 
 
