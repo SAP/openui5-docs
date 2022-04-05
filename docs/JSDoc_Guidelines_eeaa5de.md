@@ -842,6 +842,12 @@ Classifies an entity that is not ready for production use yet, but available for
 </td>
 <td valign="top">
 
+The example provides the following output:
+
+**Experimental API since 1.56.0**
+
+Hence, no separate @since tag is required.
+
 
 
 </td>

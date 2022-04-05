@@ -86,7 +86,7 @@ Indicates that the API, such as a class or method, is generally available for ap
 </td>
 <td valign="top">
 
- ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
@@ -128,7 +128,7 @@ Indicates that usage of the API is restricted. It is not meant to be used by app
 </td>
 <td valign="top">
 
- ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+ ![Yes](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)<sup>1</sup> 
 
 
 
@@ -224,7 +224,7 @@ Indicates that the API is only meant for certain stakeholders within OpenUI5 fra
 </td>
 <td valign="top">
 
- ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)<sup>1,2</sup> 
+ ![No](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)<sup>2,3</sup> 
 
 
 
@@ -305,8 +305,9 @@ Deprecated, replaced by `@ui5-restricted`
 </tr>
 </table>
 
-1\) There’s no compatibility promise for `ui5-restricted` APIs. However, before introducing incompatible changes the owner is expected to announce them to the listed stakeholders, so that all affected parties can cooperate to achieve a smooth migration.  
- 2\) Any potential new usage should be discussed with the owner first, then the stakeholder information should be updated, and only then should the API be used.
+1\) Unless the API is tagged as `@experimental`.  
+ 2\) There’s no compatibility promise for `ui5-restricted` APIs. However, before introducing incompatible changes the owner is expected to announce them to the listed stakeholders, so that all affected parties can cooperate to achieve a smooth migration.  
+ 3\) Any potential new usage should be discussed with the owner first, then the stakeholder information should be updated, and only then should the API be used.
 
 If more than one of the above tags is used, the last one wins.
 
