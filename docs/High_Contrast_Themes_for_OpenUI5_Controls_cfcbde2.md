@@ -58,7 +58,7 @@ You can switch on the High Contrast White theme by appending the `sap_fiori_3_hc
 > <code>http://&lt;hostname&gt;:&lt;port&gt;...?&lt;parameter&gt;=&lt;value&gt;&amp;...&amp;<b>sap_fiori_3_hcw</b></code>
 
 > ### Note:  
-> Have in mind that OpenUI5 is not optimized for the high contrast mode of Windows. You will have to enable the HCB or HCW theme as described above. Occasionally, if you have enabled both the Windows contrast setting and the OpenUI5 high contrast theme, this may cause conflicts and deficiencies in the theme can occur. In such cases, please switch off the Windows setting.
+> Have in mind that OpenUI5 is optimized for the high contrast mode of Windows when using Chrome and Edge. If you have enabled both the Windows contrast setting and the OpenUI5 high contrast theme and you are using browser different than Chrome and Edge, this may cause conflicts, and deficiencies in the theme can occur. In such cases, please switch off the Windows setting or use another browser.
 
 **Related Information**  
 

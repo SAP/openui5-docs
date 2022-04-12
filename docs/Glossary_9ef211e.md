@@ -139,7 +139,7 @@ Annotations contain metadata that accompanies the application data. It is an int
 </td>
 <td valign="top">
 
- [Working With UI Annotations](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/83c89ccef12f48ab98f6c3811bd025b3.html "Vocabularies and annotations allow you to extend OData services by adding information about how to interpret the OData service and its data.") :arrow_upper_right: 
+ [Working With UI Annotations](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/83c89ccef12f48ab98f6c3811bd025b3.html "Vocabularies and annotations allow you to extend OData services by adding information about how to interpret the OData service and its data.") :arrow_upper_right: 
 
 
 
@@ -745,7 +745,7 @@ A finalizing action that can be anywhere on any page. It applies to the entire p
 </td>
 <td valign="top">
 
- [Defining Determining Actions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/1743323829e5474eb3829d2e9ab022ae.html "You can add a determining action button to the footer of the object page.") :arrow_upper_right: 
+ [Defining Determining Actions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1743323829e5474eb3829d2e9ab022ae.html "You can add a determining action button to the footer of the object page.") :arrow_upper_right: 
 
 
 
@@ -931,13 +931,13 @@ Extension of SAP Fiori elements application where you can add custom code, that 
 </td>
 <td valign="top">
 
-[Extending SAP Fiori Elements-Based Apps](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/358cf2598d71462b8ac2bd8c944efbfd.html "You can extend your application if needed.") :arrow_upper_right:
+[Extending SAP Fiori Elements-Based Apps](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/358cf2598d71462b8ac2bd8c944efbfd.html "You can extend your application if needed.") :arrow_upper_right:
 
-[Extending List Reports and Object Pages Using App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/a892eb8ae1fb498a9bc6c5194432e820.html "Various framework extension points are available for list reports and object pages.") :arrow_upper_right:
+[Extending List Reports and Object Pages Using App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a892eb8ae1fb498a9bc6c5194432e820.html "Various framework extension points are available for list reports and object pages.") :arrow_upper_right:
 
-[Configuring Analytical List Page App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/9504fb4c9fc741c29bc0cc3c1f5fe83b.html "This section provides some of the advance configurations and extensions for your application.") :arrow_upper_right:
+[Configuring Analytical List Page App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/9504fb4c9fc741c29bc0cc3c1f5fe83b.html "This section provides some of the advance configurations and extensions for your application.") :arrow_upper_right:
 
-[Configuring Overview Page App Extensions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/b240f612227547d99e7fe76dd03da375.html "Lets you customize the card and filter area to design a robust application.") :arrow_upper_right:
+[Configuring Overview Page App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b240f612227547d99e7fe76dd03da375.html "Lets you customize the card and filter area to design a robust application.") :arrow_upper_right:
 
 
 
@@ -1164,7 +1164,7 @@ See annotations.
 </td>
 <td valign="top">
 
- [Checking Folder Structure and Project Artifacts](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f7abd1bbc766422e82476e333a46c9a1.html "Once you have applied the template, the generated application is ready to run.") :arrow_upper_right: 
+ [Checking Folder Structure and Project Artifacts](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f7abd1bbc766422e82476e333a46c9a1.html "Once you have applied the template, the generated application is ready to run.") :arrow_upper_right: 
 
 
 
@@ -1378,7 +1378,7 @@ They allow users to navigate to the previous or next object page shown in the li
 </td>
 <td valign="top">
 
- [Object Page Elements](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/645e27ae85d54c8cbc3f6722184a24a1.html "The object page lets you display, edit, and create objects, as well as save drafts. It is suitable for both simple objects and more complex, multi-faceted objects. The object page view gives you optimal support for multiple devices.") :arrow_upper_right: 
+ [Object Page Elements](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/645e27ae85d54c8cbc3f6722184a24a1.html "The object page lets you display, edit, and create objects, as well as save drafts. It is suitable for both simple objects and more complex, multi-faceted objects. The object page view gives you optimal support for multiple devices.") :arrow_upper_right: 
 
 
 
