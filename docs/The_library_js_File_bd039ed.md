@@ -16,7 +16,7 @@ The file calls the `sap.ui.getCore().initLibrary` method with an object that des
 
 The library style sheet file \(`library.css`\) contains all styles relevant for this library. For libraries that have been developed with the SAPUI5 application development tools, this file is also generated automatically during the build.
 
-In a `library.js` file, the call to `sap.ui.getCore().initLibrary()` takes care of creating the namespace object of the library and exports it under its global name. Afterwards, you can use this global name to write types or helpers:
+In a `library.js` file, the call to `sap.ui.getCore().initLibrary()` takes care of creating the namespace object of the library and returns a library object that you can use to write types or helpers:
 
 ```js
 sap.ui.define(function() {
@@ -24,7 +24,7 @@ sap.ui.define(function() {
 	"use strict";
 
 	// initialize the library with global name "my.lib"
-	sap.ui.getCore().initLibrary({
+	var oThisLibrary = sap.ui.getCore().initLibrary({
 		name: "my.lib",
 		...
 	});	
@@ -34,12 +34,11 @@ sap.ui.define(function() {
 	* @namespace
 	* @alias my.lib
 	*/
-	var oThisLibrary = my.lib;
  
 	/**
 	* An addition to mylib. If you used the @alias tag above, JSDoc will recognize this as my.lib.ValueColor.
 	* @ui5-metamodel The UI5 metamodel restoration logic also can handle this kind of definition and will create an enumeration type
-	*         my/lib/ValueColor.type. The name of the variable (<code>thisLibrary</code>) is not mandatory, just an example.
+	*         my/lib/ValueColor.type. The name of the variable (<code>oThisLibrary</code>) is not mandatory, just an example.
 	*/
 	oThisLibrary.ValueColor = {
 		Color1: …

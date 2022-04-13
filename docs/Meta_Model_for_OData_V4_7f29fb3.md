@@ -138,7 +138,9 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
     For examples, see [`format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format).
 
-    If `format` finds a `Org.OData.Measures.V1.ISOCurrency` or a `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md).
+    If `format` finds an `Org.OData.Measures.V1.ISOCurrency` or an `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md).
+
+    If `format` finds a `com.sap.vocabularies.common.v1.Timezone` annotation at a property of the `Edm.DateTimeOffset` type, a composite binding with an `sap.ui.model.odata.type.DateTimeWithTimezone` type is generated, showing date/time and time zone.
 
 -   [`label`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
 

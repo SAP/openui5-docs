@@ -95,6 +95,10 @@ onPatternMatched : function (oEvent) {
 ...
 ```
 
+**Additional Information:**
+
+-   See also our [demo app](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.Draft).
+
 ***
 
 <a name="loio648e360fa22d46248ca783dc6eb44531__section_g5j_v1r_mgb"/>

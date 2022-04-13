@@ -112,3 +112,6 @@ HCW Theme
 > ### Note:  
 > With version 1.84 we have enhanced OpenUI5 accessibility support according to the latest WAI-ARIA 1.1 specification.
 
+> ### Note:  
+> As of version 1.101, we have prevented the overwrite of the Windows high contrast setting for all themes when using Chrome and Edge browsers.
+

@@ -694,6 +694,8 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
     oModel.remove("/Products(999)", {success: mySuccessHandler, error: myErrorHandler});
     ```
 
+    The [`sap.ui.model.odata.v2.Context#delete`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/delete) function uses `ODataModel#remove` to remove a persisted entry. It will also remove transient and inactive entries. With this function, a developer does not need to know the status \(inactive, transient, persisted\) of the context pointing to the entry to be removed.
+
 -   Refresh after change
 
     The model provides a mechanism to automatically refresh bindings that depend on changed entities. If you carry out a `create`, `update` or `remove` function, the model identifies the bindings and triggers a refresh for these bindings. If the model runs in batch mode, the refresh requests are bundled together with the changes in the same batch request. You can disable the auto refresh by calling `setRefreshAfterChange(false)`. If the auto refresh is disabled, the application has to take care of refreshing the respective bindings.
