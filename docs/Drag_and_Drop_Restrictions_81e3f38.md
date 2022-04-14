@@ -14,8 +14,6 @@ There are some known restrictions when using drag and drop.
 
 When you use drag and drop, the following restrictions apply:
 
--   Drag and drop is not supported on mobile devices.
-
 -   The transparency of the dragging ghost element and the cursor during drag-and-drop operations is not configurable.
 
 -   Defining constraints for the drag position is not possible.
