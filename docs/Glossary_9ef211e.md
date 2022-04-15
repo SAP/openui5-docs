@@ -1631,6 +1631,40 @@ scalable vector graphics \(SVG\)
 <tr>
 <td valign="top">
 
+smart controls
+
+
+
+</td>
+<td valign="top">
+
+These are UI controls that can read both the data from the backend and the annotations on that data. Consequently, they take the annotations into account in their rendering and behavior.
+
+For example, a smart field isn’t displayed on the UI if it’s marked with the annotation `UI.Hidden` to hide it.
+
+SAP Fiori elements for OData V2 uses smart controls. SAP Fiori elements for OData V4 uses metadata driven controls \(MDC\) controls.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements for OData V2 
+
+
+
+</td>
+<td valign="top">
+
+ [Smart Controls](https://help.sap.com/viewer/96880755e4e64fcd96c12694f430fece/Internal/en-US/e992ab9eb3604840b13e0941ee0cf5ed.html "") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 synchronous \(sync\) processing
 
 
@@ -1711,6 +1745,134 @@ SAPUI5 only
 <td valign="top">
 
  
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+text arrangement
+
+
+
+</td>
+<td valign="top">
+
+This annotation property controls the information shown on the interface for a field value of ID-type or ID field value, as shown here:
+
+<a name="loio9ef211e569ed4f819af904ba360ea7f6__table_v1q_zt2_ftb"/>
+
+
+<table>
+<tr>
+<th valign="top">
+
+To Show
+
+
+
+</th>
+<th valign="top">
+
+Property for textArrangement Annotation
+
+
+
+</th>
+<th valign="top">
+
+Example
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Only the text
+
+
+
+</td>
+<td valign="top">
+
+Text Only
+
+
+
+</td>
+<td valign="top">
+
+Germany
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Both the text and the ID in a specific order
+
+
+
+</td>
+<td valign="top">
+
+TextLast
+
+
+
+</td>
+<td valign="top">
+
+001 \(Germany\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Both the text and the ID in a specific order
+
+
+
+</td>
+<td valign="top">
+
+TextFirst
+
+
+
+</td>
+<td valign="top">
+
+Germany \(01\)
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Further Features of the Field](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f49a0f7eaafe444daf4cd62d48120ad0.html "Application developers can control important features of the field.") :arrow_upper_right: 
 
 
 
