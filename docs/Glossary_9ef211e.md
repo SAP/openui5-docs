@@ -109,45 +109,6 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-annotations
-
-
-
-</td>
-<td valign="top">
-
-Annotations contain metadata that accompanies the application data. It is an interface between SAP Fiori elements client and assists application developers in implementing the display and behaviour of UI controls. For example, annotations and their properties control the:
-
--   Display and position of columns in a table
-
--   Sort order for the table rows
-
--   Measures, dimensions, and sort order in a chart
-
--   Enablement of a navigation button either always or only after the user has selected an item
-
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
- [Working With UI Annotations](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/83c89ccef12f48ab98f6c3811bd025b3.html "Vocabularies and annotations allow you to extend OData services by adding information about how to interpret the OData service and its data.") :arrow_upper_right: 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 association
 
 
@@ -724,36 +685,6 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-determining action
-
-
-
-</td>
-<td valign="top">
-
-A finalizing action that can be anywhere on any page. It applies to the entire page context.
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
- [Defining Determining Actions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1743323829e5474eb3829d2e9ab022ae.html "You can add a determining action button to the footer of the object page.") :arrow_upper_right: 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 diagnostics
 
 
@@ -902,42 +833,6 @@ For example, for a sales order processing application, the data model can define
 <td valign="top">
 
  
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-extend
-
-
-
-</td>
-<td valign="top">
-
-Extension of SAP Fiori elements application where you can add custom code, that must subsequently be maintained.
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
-[Extending SAP Fiori Elements-Based Apps](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/358cf2598d71462b8ac2bd8c944efbfd.html "You can extend your application if needed.") :arrow_upper_right:
-
-[Extending List Reports and Object Pages Using App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a892eb8ae1fb498a9bc6c5194432e820.html "Various framework extension points are available for list reports and object pages.") :arrow_upper_right:
-
-[Configuring Analytical List Page App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/9504fb4c9fc741c29bc0cc3c1f5fe83b.html "This section provides some of the advance configurations and extensions for your application.") :arrow_upper_right:
-
-[Configuring Overview Page App Extensions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/b240f612227547d99e7fe76dd03da375.html "Lets you customize the card and filter area to design a robust application.") :arrow_upper_right:
 
 
 
@@ -1132,47 +1027,6 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-manifest
-
-
-
-</td>
-<td valign="top">
-
-The manifest is the main configuration file for an application and the place where application developers define settings for the application and the interface behavior.
-
-For example, in the manifest, an application developer can set:
-
--   A filter field to render onscreen as both a compact filter field in the filter bar and a visual filter.
-
--   A table to allow the selection of one or more table rows
-
-
-Annotations are another way application developers can implement the display and behavior of UI controls.
-
-See annotations.
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
- [Checking Folder Structure and Project Artifacts](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f7abd1bbc766422e82476e333a46c9a1.html "Once you have applied the template, the generated application is ready to run.") :arrow_upper_right: 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 mock server
 
 
@@ -1347,38 +1201,6 @@ SAPUI5/OpenUI5
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
 
 [OData V4 Model](OData_V4_Model_5de13cf.md)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-paginator buttons
-
-
-
-</td>
-<td valign="top">
-
-Paging buttons in the object page header toolbar.
-
-They allow users to navigate to the previous or next object page shown in the list report.
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
- [Object Page Elements](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/645e27ae85d54c8cbc3f6722184a24a1.html "The object page lets you display, edit, and create objects, as well as save drafts. It is suitable for both simple objects and more complex, multi-faceted objects. The object page view gives you optimal support for multiple devices.") :arrow_upper_right: 
 
 
 
@@ -1631,40 +1453,6 @@ scalable vector graphics \(SVG\)
 <tr>
 <td valign="top">
 
-smart controls
-
-
-
-</td>
-<td valign="top">
-
-These are UI controls that can read both the data from the backend and the annotations on that data. Consequently, they take the annotations into account in their rendering and behavior.
-
-For example, a smart field isn’t displayed on the UI if it’s marked with the annotation `UI.Hidden` to hide it.
-
-SAP Fiori elements for OData V2 uses smart controls. SAP Fiori elements for OData V4 uses metadata driven controls \(MDC\) controls.
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements for OData V2 
-
-
-
-</td>
-<td valign="top">
-
- [Smart Controls](https://help.sap.com/viewer/96880755e4e64fcd96c12694f430fece/Internal/en-US/e992ab9eb3604840b13e0941ee0cf5ed.html "") :arrow_upper_right: 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 synchronous \(sync\) processing
 
 
@@ -1745,134 +1533,6 @@ SAPUI5 only
 <td valign="top">
 
  
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-text arrangement
-
-
-
-</td>
-<td valign="top">
-
-This annotation property controls the information shown on the interface for a field value of ID-type or ID field value, as shown here:
-
-<a name="loio9ef211e569ed4f819af904ba360ea7f6__table_v1q_zt2_ftb"/>
-
-
-<table>
-<tr>
-<th valign="top">
-
-To Show
-
-
-
-</th>
-<th valign="top">
-
-Property for textArrangement Annotation
-
-
-
-</th>
-<th valign="top">
-
-Example
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Only the text
-
-
-
-</td>
-<td valign="top">
-
-Text Only
-
-
-
-</td>
-<td valign="top">
-
-Germany
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Both the text and the ID in a specific order
-
-
-
-</td>
-<td valign="top">
-
-TextLast
-
-
-
-</td>
-<td valign="top">
-
-001 \(Germany\)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Both the text and the ID in a specific order
-
-
-
-</td>
-<td valign="top">
-
-TextFirst
-
-
-
-</td>
-<td valign="top">
-
-Germany \(01\)
-
-
-
-</td>
-</tr>
-</table>
-
-
-
-</td>
-<td valign="top">
-
- SAP Fiori elements 
-
-
-
-</td>
-<td valign="top">
-
- [Further Features of the Field](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f49a0f7eaafe444daf4cd62d48120ad0.html "Application developers can control important features of the field.") :arrow_upper_right: 
 
 
 
