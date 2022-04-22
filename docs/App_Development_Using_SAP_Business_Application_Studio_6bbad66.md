@@ -44,9 +44,9 @@ SAP Business Application Studio offers the following features \(selection\):
 
 ### How to access SAP Business Application Studio
 
-If you do not have existing access to SAP Business Application Studio, you can get a fully-functional SAP BTP trial account. From there, you can access and use SAP Business Application Studio.
+If you do not have existing access to SAP Business Application Studio, you can get a fully-functional SAP BTP free tier account. From there, you can access and use SAP Business Application Studio.
 
-1.  [Get a Free Trial Account on SAP BTP](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+1.  [Get a Free Tier Account on SAP BTP](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 2.  [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html)\#
 3.  [Create a Dev Space for SAP Fiori Apps](https://developers.sap.com/tutorials/appstudio-devspace-fiori-create.html)
 4.  [Create a Destination within the Cloud Foundry Environment](https://developers.sap.com/tutorials/cp-cf-create-destination.html)

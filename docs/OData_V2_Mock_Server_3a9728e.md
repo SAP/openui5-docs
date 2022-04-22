@@ -42,7 +42,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 ### Prerequisites
 
-This tutorial assumes you have access to the SAP Web IDE either by having a trial account or a customer account. For more information, see [App Development Using SAP Web IDE](App_Development_Using_SAP_Web_IDE_13ced94.md).
+This tutorial assumes you have access to the SAP Business Application Studio. For more information, see [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
 You should also be familiar with the concepts explained in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial and with the OData specification.
 
