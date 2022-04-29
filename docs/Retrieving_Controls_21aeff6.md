@@ -427,7 +427,7 @@ iExpandRecursively : function() {
 
 #### Overview
 
-As of version 1.72, OPA5 supports the declarative matcher syntax that allows you to declare built-in matchers in a literal object. The syntax is inspired by control locators in UIVeri5 and promotes reuse between the two testing tools. A matcher declaration is a JSON object. The OPA5 `waitFor` statement is simplified by using a single JSON object, instead of the more verbose matcher instances. Only built-in matchers are allowed. Inline matcher functions and custom matcher instances are only allowed in the matchers `waitFor` parameter:
+As of version 1.72, OPA5 supports the declarative matcher syntax that allows you to declare built-in matchers in a literal object. A matcher declaration is a JSON object. The OPA5 `waitFor` statement is simplified by using a single JSON object, instead of the more verbose matcher instances. Only built-in matchers are allowed. Inline matcher functions and custom matcher instances are only allowed in the matchers `waitFor` parameter:
 
 ```js
 return this.waitFor({
@@ -472,8 +472,6 @@ There are two places you can add a matcher declaration in a `waitFor` object:
 
 
 If there are matchers declared in both places, they’re combined.
-
-For more information, see [https://github.com/SAP/ui5-uiveri5](https://github.com/SAP/ui5-uiveri5).
 
 ***
 

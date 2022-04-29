@@ -36,11 +36,9 @@ We recommend OPA5 for integration tests. OPA5 is part of OpenUI5. It is built on
 
 ***
 
-#### UIVeri5
+#### wdi5
 
-We recommend UIVeri5 for system and end-to-end tests. UIVeri5 is an end-to-end testing framework inspired by Protractor.
-
-UIVeri5 is built exclusively for OpenUI5 apps. It uses WebDriverJS to drive a real browser and interact with your app the same was a real user would.
+WebdriverIO \(WDIO\) is a hugely popular end-to-end testing framework. It can work with any web app but lacks the awareness of the web framework that the application uses. wdi5, which is a WDIO plugin, bridges this gap and provides two key benefits, namely control locators and synchronization with the web framework. wdi5 uses a real browser and interacts with your app the same way a real user would.
 
 -   **[Unit Testing with QUnit](Unit_Testing_with_QUnit_09d145c.md "QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the
 		jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic
@@ -78,7 +76,7 @@ The Test Recorder tool supports app developers who write integration and system 
 
 [Tutorial: Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-[UIVeri5 Home Page](https://www.npmjs.com/package/@ui5/uiveri5)
+[wdi5 Home Page](https://github.com/js-soft/wdi5)
 
 [Selenium Home Page](http://docs.seleniumhq.org/)
 
