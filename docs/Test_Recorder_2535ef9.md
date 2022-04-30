@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 The Test Recorder tool supports app developers who write integration and system tests.
 
-The Test Recorder is part of the OpenUI5 framework and is available in all browsers. As of version 1.74, you can use the tool in any OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. The Test Recorder is aligned with the official OpenUI5 testing tool – OPA5.
+Test Recorder is part of the OpenUI5 framework and is available in all browsers. As of version 1.74, you can use the tool in any OpenUI5 app to inspect the rendered user interface \(UI\), view the control properties, and gain hints on writing tests. Test Recorder is aligned with the official OpenUI5 testing tool – OPA5.
 
 ***
 
