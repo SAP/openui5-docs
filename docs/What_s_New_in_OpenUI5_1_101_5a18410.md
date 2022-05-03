@@ -14,15 +14,22 @@ With this release OpenUI5 is upgraded from version 1.100 to 1.101.
 
 ***
 
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__section_qwl_pb5_zcb"/>
+<a name="loio5a184109b1ec44e7ab7e43d40ef56847__section_vvy_452_rrb"/>
 
-### Improved Features
+### Preview and Announcements
 
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__table_tpj_dvq_mfb"/> 
+The following information concerns important upcoming changes. UI changes may have an impact on the user experience and may require test cases to be adapted.
 
 
 <table>
 <tr>
+<th valign="top">
+
+Type
+
+
+
+</th>
 <th valign="top">
 
 Description
@@ -30,7 +37,49 @@ Description
 
 
 </th>
+<th valign="top">
+
+Available as of OpenUI5 Version
+
+
+
+</th>
 </tr>
+<tr>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+**Reminder: Outdated OpenUI5 Versions to Be Removed from the CDN**
+
+For security reasons, OpenUI5 versions that are no longer maintained will be removed from the UI5 content delivery network \(CDN\) one year after their end of maintenance. If a version is still in maintenance, patches of that version that are older than one year will also be removed. We have noted that a number of customers are still using such outdated versions or patches. If this affects you, please note that once these versions or patches are removed, your applications will break. Please update to a more recent version or patch. For more information, see: [Removing Outdated UI5 Versions from UI5 CDN](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/) as well as the UI5 notifications in the Demo Kit.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+</tr>
+</table>
+
+***
+
+<a name="loio5a184109b1ec44e7ab7e43d40ef56847__section_qwl_pb5_zcb"/>
+
+### Improved Features
+
+
+<table>
 <tr>
 <td valign="top">
 
@@ -49,6 +98,8 @@ For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md).
 </tr>
 <tr>
 <td valign="top">
+
+**High Contrast Themes**
 
 We have prevented the overwriting of the high contrast setting of Windows for all OpenUI5 themes when using Chrome and Edge browsers.
 
@@ -93,25 +144,27 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 ### Improved Controls
 
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__table_qcq_dvq_mfb"/> 
-
 
 <table>
-<tr>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
 <tr>
 <td valign="top">
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
 For better user experience with a more visual approach and a more conversational tone, these tables can now use another control, for example, the `sap.m.IllustratedMessage` control, based on the new `noData` aggregation. This control can be used if no data is available for a table. For more information, see the [API Reference for the `noData` aggregation](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase) and the [API Reference for `IllustratedMessage`](https://openui5.hana.ondemand.com/#/api/sap.m.IllustratedMessage). 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**`sap.m.upload.UploadSet`**
+
+You can now sort, group, and filter the items within `UploadSet`.
+
+For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.upload.UploadSet) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.upload.UploadSet).
 
 
 
@@ -131,19 +184,6 @@ For better user experience with a more visual approach and a more conversational
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-**sap.m.upload.UploadSet**
-
-You can now sort, group, and filter the items within `UploadSet`.
-
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.upload.UploadSet) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.upload.UploadSet).
-
-
-
-</td>
-</tr>
 </table>
 
 ***
@@ -152,19 +192,8 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 ### Deprecations
 
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__table_p1z_dvq_mfb"/> 
-
 
 <table>
-<tr>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
 <tr>
 <td valign="top">
 
@@ -173,27 +202,6 @@ There are currently no major deprecations. For a complete list of all deprecatio
 
 
 </td>
-</tr>
-</table>
-
-***
-
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__section_g3r_bf5_zcb"/>
-
-### SAP Fiori Elements
-
-<a name="loio5a184109b1ec44e7ab7e43d40ef56847__table_fm5_dvq_mfb"/> 
-
-
-<table>
-<tr>
-<th valign="top">
-
-Description
-
-
-
-</th>
 </tr>
 </table>
 

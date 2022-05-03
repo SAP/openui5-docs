@@ -37,6 +37,38 @@ Available as of version
 <tr>
 <td valign="top">
 
+HCW Theme
+
+
+
+</td>
+<td valign="top">
+
+1.46
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Screen Reader Support
+
+
+
+</td>
+<td valign="top">
+
+1.30
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Keyboard Handling
 
 
@@ -66,17 +98,39 @@ HCB Theme
 
 </td>
 </tr>
+</table>
+
+<a name="loioaccd68acd13a48eaa8aa02a639c84ba2__table_wr2_ksl_jtb"/>Updates
+
+
+<table>
+<tr>
+<th valign="top">
+
+Updates
+
+
+
+</th>
+<th valign="top">
+
+As of version
+
+
+
+</th>
+</tr>
 <tr>
 <td valign="top">
 
-Screen Reader Support
+Update of the reference test environment.
 
 
 
 </td>
 <td valign="top">
 
-1.30
+For the versions, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
 
 
 
@@ -85,33 +139,66 @@ Screen Reader Support
 <tr>
 <td valign="top">
 
-HCW Theme
+We have prevented the overwrite of the Windows high contrast setting for all themes when using Chrome and Edge browsers.
 
 
 
 </td>
 <td valign="top">
 
-1.46
+1.101
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+We have enhanced OpenUI5 accessibility support according to the latest WAI-ARIA 1.1 specification
+
+
+
+</td>
+<td valign="top">
+
+1.84
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+we have prevented the automatic insertion of role `application` on the body of the OpenUI5 applications. After the change, a mode-based screen reader will start operating in reading mode as its default mode. For more information, please refer to SAP Note [2925884](https://launchpad.support.sap.com/#/notes/2925884).
+
+
+
+</td>
+<td valign="top">
+
+1.78
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ OpenUI5 is following the SAP ‘s updated design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.1 level A and AA.
+
+
+
+</td>
+<td valign="top">
+
+1.75
 
 
 
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> OpenUI5 controls provide the prerequisites for screen reader support based on the ARIA and HTML standards. All screen readers that implement this standard should work fine. If you need more information on our testing environment, see SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
-
-> ### Note:  
-> As of version 1.75, OpenUI5 is following the SAP ‘s updated design and development guidelines, as well as the testing procedures and accessibility reporting, that are based on WCAG 2.1 level A and AA.
-
-> ### Note:  
-> With version 1.78 of OpenUI5, we have prevented the automatic insertion of role `application` on the body of the OpenUI5 applications. After the change, a mode-based screen reader will start operating in reading mode as its default mode. For more information, please refer to SAP Note [2925884](https://launchpad.support.sap.com/#/notes/2925884).
-
-> ### Note:  
-> With version 1.84 we have enhanced OpenUI5 accessibility support according to the latest WAI-ARIA 1.1 specification.
-
-> ### Note:  
-> As of version 1.101, we have prevented the overwrite of the Windows high contrast setting for all themes when using Chrome and Edge browsers.
 
