@@ -84,7 +84,7 @@ Some data types have different representation in OData V2 and OData V4. The appl
 
 Here are some examples:
 
--   OData V2 uses a different alphabet for the base-64 encoding for `Edm.Binary`. OData V2 uses '***+***' and '***/***' but OData V4 uses instead '***-***' and '***\_***'.
+-   OData V2 uses a different alphabet for the base-64 encoding for `Edm.Binary`. OData V2 uses '***\+***' and '***/***' but OData V4 uses instead '***\-***' and '***\_***'.
 
 -   For `Edm.DateTimeOffset` OData V2 uses a JavaScript Date \(i.e. ***Date\(1420529121547\)***\) and OData V4 a String \(i.e. ***"2015-01-06T12:25:21.547"***\) representation.
 

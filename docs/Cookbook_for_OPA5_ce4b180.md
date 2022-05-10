@@ -151,28 +151,28 @@ There are OPA5 rules that limit the ways you can use busy controls. Some OPA5 fe
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
  `OPA5.config` `autoWait` 
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
  `waitFor` actions
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
  `waitFor` `autoWait` 
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 verify busy control
 
@@ -181,28 +181,28 @@ verify busy control
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 any
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
@@ -211,28 +211,28 @@ X
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 true / not modified
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
@@ -241,28 +241,28 @@ X
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 false
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
@@ -271,28 +271,28 @@ false
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 any
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
@@ -301,28 +301,28 @@ X
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 false / not modified
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 ✓
 
@@ -331,28 +331,28 @@ false / not modified
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 true
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 X
 

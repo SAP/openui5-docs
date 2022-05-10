@@ -83,7 +83,7 @@ Supported; only single navigations are supported, e.g. "/a\(\)/b/". Further navi
 <tr>
 <td valign="top">
 
-- Orderby System Query Option \(`$orderby`\)
+\- Orderby System Query Option \(`$orderby`\)
 
 
 
@@ -99,7 +99,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Top System Query Option \(`$top`\)
+\- Top System Query Option \(`$top`\)
 
 
 
@@ -115,7 +115,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Skip System Query Option \(`$skip`\)
+\- Skip System Query Option \(`$skip`\)
 
 
 
@@ -131,7 +131,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Filter System Query Option \(`$filter`\)
+\- Filter System Query Option \(`$filter`\)
 
 
 
@@ -147,7 +147,7 @@ Supported; `eq`, `ne`, `gt`, `lt`, `ge`, `le`, `substringof`, `startswith`, `end
 <tr>
 <td valign="top">
 
-- Expand System Query Option \(`$expand`\)
+\- Expand System Query Option \(`$expand`\)
 
 
 
@@ -163,7 +163,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Select System Query Option \(`$select`\)
+\- Select System Query Option \(`$select`\)
 
 
 
@@ -179,7 +179,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Inlinecount System Query Option \(`$inlinecount`\)
+\- Inlinecount System Query Option \(`$inlinecount`\)
 
 
 
@@ -195,7 +195,7 @@ Supported
 <tr>
 <td valign="top">
 
-- Format System Query Option \(`$format`\)
+\- Format System Query Option \(`$format`\)
 
 
 

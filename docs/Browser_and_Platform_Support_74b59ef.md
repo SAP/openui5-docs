@@ -34,63 +34,63 @@ The following tables give a general overview of the browsers, platforms, and ref
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 Platform
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Device Category
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Platform Version
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Safari
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Web View
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Microsoft Edge \(Chromium\)<sup>2</sup>
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Google Chrome
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Mozilla Firefox
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 SAP Fiori Client
 
@@ -120,16 +120,16 @@ Windows 8.1
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -155,9 +155,9 @@ Latest version and latest Extended Support Release \(ESR\)
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -173,9 +173,9 @@ Windows 11
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -187,9 +187,9 @@ Latest version
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -212,9 +212,9 @@ Windows 11
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -277,16 +277,16 @@ Latest 2 versions
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -298,16 +298,16 @@ Latest version<sup>5</sup>
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 
@@ -349,23 +349,23 @@ Latest version
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
-
-
-
-</td>
-<td valign="top">
-
--
+\-
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
+
+
+
+</td>
+<td valign="top" align="center">
+
+\-
 
 
 
@@ -400,23 +400,23 @@ Latest 3 versions supported by Google
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
-
-
-
-</td>
-<td valign="top">
-
--
+\-
 
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
+
+
+
+</td>
+<td valign="top" align="center">
+
+\-
 
 
 
@@ -428,9 +428,9 @@ Latest version
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
--
+\-
 
 
 

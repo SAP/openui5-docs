@@ -82,7 +82,7 @@ x
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -112,7 +112,7 @@ Generated with value `library`
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -314,7 +314,7 @@ New in `.library`
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -402,7 +402,7 @@ New in `.library`, to be filled by SAP Web IDE only
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -460,7 +460,7 @@ New in `.library`
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -490,7 +490,7 @@ Generated and merged
 </td>
 <td valign="top">
 
--
+\-
 
 
 

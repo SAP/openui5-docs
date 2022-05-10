@@ -35,14 +35,14 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
 
     <table>
     <tr>
-    <th valign="top">
+    <th valign="top" align="center">
 
     Expression Binding\(s\)
 
 
     
     </th>
-    <th valign="top">
+    <th valign="top" align="center">
 
     Resource to be Preloaded
 

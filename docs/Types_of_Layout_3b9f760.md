@@ -30,7 +30,7 @@ Layout Types
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Desktop / Tablet / Phone
 

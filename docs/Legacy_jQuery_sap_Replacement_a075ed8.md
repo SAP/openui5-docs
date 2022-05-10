@@ -1142,7 +1142,7 @@ Simple replacement
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1156,14 +1156,14 @@ Simple replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1262,7 +1262,7 @@ Simple replacement
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1276,14 +1276,14 @@ Simple replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1352,7 +1352,7 @@ Simple replacement
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1366,14 +1366,14 @@ Simple replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1699,7 +1699,7 @@ oUriParameters.get("sap-ui-debug");
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1720,7 +1720,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1759,7 +1759,7 @@ Simple Replacement
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1773,14 +1773,14 @@ Simple Replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -2517,7 +2517,7 @@ Simple Replacement
 <tr>
 <td valign="top">
 
--
+\-
 
 
 
@@ -2531,14 +2531,14 @@ Simple Replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -3094,7 +3094,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -3126,7 +3126,7 @@ sap.ui.loader.config({paths:{"myPath": "some/path"}});
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -4028,7 +4028,7 @@ Simple replacement
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -4060,7 +4060,7 @@ sap.ui.require.toUrl("some/path/to/module.js");
 </td>
 <td valign="top">
 
--
+\-
 
 
 

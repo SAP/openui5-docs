@@ -77,14 +77,14 @@ The compatibility version configuration works as follows:
     <tr>
     <td valign="top">
 
-    --
+    \--
 
 
     
     </td>
     <td valign="top">
 
-    --
+    \--
 
 
     
@@ -114,7 +114,7 @@ The compatibility version configuration works as follows:
     </td>
     <td valign="top">
 
-    --
+    \--
 
 
     
@@ -137,7 +137,7 @@ The compatibility version configuration works as follows:
     <tr>
     <td valign="top">
 
-    --
+    \--
 
 
     
@@ -275,7 +275,7 @@ Default value: 1.14
 </td>
 <td valign="top">
 
---
+\--
 
 
 
@@ -291,7 +291,7 @@ Default value: 1.14
 </td>
 <td valign="top">
 
---
+\--
 
 
 
@@ -307,7 +307,7 @@ Default value: 1.14
 </td>
 <td valign="top">
 
---
+\--
 
 
 

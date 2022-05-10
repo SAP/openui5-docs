@@ -102,9 +102,9 @@ The `UploadCollection` control can be used in the following scenarios:
 
 -   The toolbar of the `UploadCollection` control can be customized:
 
-    -   To customize the toolbar, the `toolbar` aggregation can be set to the `sap.m.OverflowToolbar` control which can contain your preferred UI5 controls. To make the position of the upload \(*+*\) pushbutton configurable, the `sap.m.ToolbarSpacer` type is used. To configure the position of the button, you can set the placeholder element to the designated position.
+    -   To customize the toolbar, the `toolbar` aggregation can be set to the `sap.m.OverflowToolbar` control which can contain your preferred UI5 controls. To make the position of the upload \(*\+*\) pushbutton configurable, the `sap.m.ToolbarSpacer` type is used. To configure the position of the button, you can set the placeholder element to the designated position.
 
-    -   If the toolbar is not customized it only provides the upload \(*+*\) button.
+    -   If the toolbar is not customized it only provides the upload \(*\+*\) button.
     -   In case the customizable toolbar has been configured and the placeholder is missing, an exception will be thrown.
 
 -   The `mode` property of the `UploadCollection` control can be set. Therefore the `sap.m.ListMode` type is used.

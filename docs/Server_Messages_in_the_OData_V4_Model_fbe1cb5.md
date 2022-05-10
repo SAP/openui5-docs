@@ -17,21 +17,21 @@ Messages transported via an OData V4 service response are parsed and reported to
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" align="center">
 
 OData V4 Message
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 UI5 Message
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Details
 

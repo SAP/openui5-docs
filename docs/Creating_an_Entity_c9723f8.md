@@ -91,9 +91,6 @@ The `promise` returned by [`Context#created`](https://openui5.hana.ondemand.com/
 
 ### Inline Creation Rows
 
-> ### Restriction:  
-> This feature is experimental and not fully functional yet.
-
 In some applications users need to be able to quickly enter a large amount of new records. A "Create" button or the related keyboard shortcut that needs to be explicitly pressed would slow down the user. To avoid this, the application could provide multiple **inline creation rows** in the table that are initially filled with default values and are not persisted in the back end.
 
 You can create such an inline creation row by calling [`sap.ui.model.odata.v4.ODataListBinding#create`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) with the `bInactive` parameter. Call it multiple times for multiple rows. These rows are called inactive because they are not sent to the server. Once the user modifies a property of such an inactive row, and the modification passes the client-side validation, a [`v4.ODataListBinding.createActivate`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23events/createActivate) event is fired and the row will be sent to the server with the next batch for the binding's update group. The event can be used to create a new inline creation row. While inactive, an inline creation row does not count as a pending change and does not contribute to the collection's count.
@@ -107,13 +104,13 @@ You can create such an inline creation row by calling [`sap.ui.model.odata.v4.OD
 -   `transient`: A POST is waiting in the batch queue.
 -   `createPending`: The POST has been sent to the server; the entity is waiting for the response.
 -   `parked`: A POST via an auto group that failed is parked until a property update takes place.
--   `createdPersisted`: The POST succeeded, and the entity now exists on the server.
+-   `createdPersisted`: The POST succeeded, and the entity now exists on the server. If the binding is refreshed, the context's reaction depends on its `isKeepAlive` state. If it's set to `false`, the context is dropped and created anew when it's read from the server. If it's set to `true`, it is refreshed with a special request and remains in the `createdPersisted` state.
 
    
   
 <a name="loioc9723f8265f644af91c0ed941e114d46__fig_klh_5kw_4cb"/>Internal States of an OData V4 Binding Context
 
- ![](images/loioa5fb6039aa0247aa8bd3160ab6d8f32a_LowRes.png "Internal States of an OData V4 Binding Context") 
+ ![](images/loiof359082361f445868c75940f778a8c2e_LowRes.png "Internal States of an OData V4 Binding Context") 
 
 The state of a context can be checked via the following API functions:
 

@@ -889,7 +889,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -926,7 +926,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -963,7 +963,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1000,7 +1000,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1037,7 +1037,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1074,7 +1074,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1111,7 +1111,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1148,7 +1148,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1185,7 +1185,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1222,7 +1222,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 
@@ -1259,7 +1259,7 @@ X
 </td>
 <td valign="top">
 
--
+\-
 
 
 

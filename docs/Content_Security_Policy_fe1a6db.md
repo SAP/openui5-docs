@@ -98,14 +98,14 @@ Directive
 
 
 </th>
-<th valign="top" colspan="4">
+<th valign="top" align="center" colspan="4">
 
 Sources Required by the OpenUI5 Framework
 
 
 
 </th>
-<th valign="top">
+<th valign="top" align="center">
 
 Sources Required by the App
 
@@ -160,7 +160,7 @@ Custom Sources \(Including 'self' for the App's Own Origin\)
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -214,7 +214,7 @@ Most likely required for deprecated APIs, especially for programming model APIs,
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -271,7 +271,7 @@ Certain libraries at least partly still require `'unsafe-inline'`, including:
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -315,7 +315,7 @@ May require `'self'` or additional locations for application-specific images \(s
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -403,7 +403,7 @@ May require additional locations depending on the integration, application, or t
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -447,7 +447,7 @@ May be required by some specific OpenUI5 functionality.
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -491,7 +491,7 @@ May be required by some specific OpenUI5 functionality.
 
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 <span style="color:#007833;"><span class="SAP-icons"></span></span>
 
@@ -567,7 +567,7 @@ Comment
 </th>
 </tr>
 <tr>
-<td valign="top" colspan="3">
+<td valign="top" align="center" colspan="3">
 
 <code><b>script-src 'unsafe-eval'</b></code>
 
@@ -599,7 +599,7 @@ For temporary rules in the Support Assistant, dynamic code execution is essentia
 </td>
 </tr>
 <tr>
-<td valign="top" colspan="3">
+<td valign="top" align="center" colspan="3">
 
 <code><b>script-src 'wasm-eval'</b></code>
 
@@ -633,7 +633,7 @@ When native hyphenation is not available, a third-party library \(Hyphenopoly\) 
 </td>
 </tr>
 <tr>
-<td valign="top" colspan="3">
+<td valign="top" align="center" colspan="3">
 
 <code><b>style-src 'unsafe-inline'</b></code>
 
