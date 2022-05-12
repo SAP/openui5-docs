@@ -443,31 +443,12 @@ Bound messages may also be transported as a part of the OData entity to which th
 The `target` property may contain a path relative to the entity which contains the message. The target can, for example, refer to a property within that entity. Further targets may be transported in the `additionalTargets` property. This information is used to highlight UI elements such as input fields if they are bound to properties referenced by a path contained in the `target` or `additionalTargets` properties. All responses are checked for bound messages. If there are messages, they are reported to the message model.
 
 > ### Note:  
-> Highlighting of input fields only works if the resolved message target and the binding path of the control are identical. This means that both have to follow these rules in addition to the OData 4.0 specification:
+> Highlighting of an input field only works if the resolved message target and the binding path of the control are identical. In addition to the OData 4.0 specification, the model normalizes the message targets following these rules:
 > 
 > -   Key properties are ordered just as in the metadata,
 > -   for single key properties, the name of the key is omitted,
-> -   for navigation properties, all keys are present,
-> -   the key-value pairs are encoded via `encodeURIComponent`.
-
-> ### Example:  
-> **Matching Binding Path and Target**
-> 
-> ```js
-> // Binding Path: "/SalesOrderList('0500000005')/SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')/Quantity"
-> // Request URL: "GET SalesOrderList('0500000005')?$select=Messages,SalesOrderID"
-> oResponse = {
->   SalesOrderID: "0500000005",
->   messages :[{
->     message : "Enter Product Quantity",
->     numericSeverity : 3,
->     target : "SO_2_SOITEM(SalesOrderID='0500000005',ItemPosition='0000000010')/Quantity"
->     /* would not match the binding path:
->     target : "SO_2_SOITEM(ItemPosition='0000000010',SalesOrderID='0500000005')/Quantity" 
->     */
->   }]
-> }
-> ```
+> -   for collection-valued navigation properties, all keys are present,
+> -   the values are encoded via `encodeURIComponent`.
 
 For bound messages, `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the innermost context path \(`@odata.context`\) in the response, or to the request URL if there is no context path. Absolute paths are treated as relative to the server.
 

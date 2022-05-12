@@ -14,19 +14,10 @@ In XML views, aggregated child controls can be added as child tags.
 
 ***
 
-<a name="loio19eabf5b13214f27b929b9473df3195b__section_ly2_t1s_xz"/>
+Aggregations of the XML view itself and of the controls inside the view are handled in the same way. If a container control has marked one of its aggregations as the default aggregation, you can add children directly into that control. For example, `XMLView`'s `content` aggregation is marked as the default, so you can define content for the aggregation directly in the XML view, without adding a `content` tag. However, when a container control doesn't have a default aggregation, or when adding a child control into another one of its aggregations, you need to use an aggregation tag, for example, the `dependents` tag.
 
-### Aggregations of XML Views
-
-On root level, you can only define content for the default aggregation, e.g. without adding the `content` tag. If you want to specify content for another aggregation of a view like `dependents`, place it in a child control´s `dependents` aggregation or add it by using the `addDependent` method.
-
-***
-
-<a name="loio19eabf5b13214f27b929b9473df3195b__section_fhf_r1s_xz"/>
-
-### Aggregations of Controls Inside the View
-
-Some controls have more than one content area, for example the shell control that has the main content area, a menu bar, a `headerItems` aggregation, a `worksetItems` aggregation, and so on. An aggregation tag usually serves as a direct child of a container and contains children. You can only add children directly if the container control has marked one of the child aggregations as default.
+> ### Note:  
+> Before OpenUI5 1.102, it wasn't possible to add child controls into an XML view's aggregations other than the `content` aggregation. This has since been extended, so that the aggregations of the XML view itself and those of the controls inside the view are now handled in the same way.
 
 > ### Note:  
 > Some containers may not have default content, for example, the splitter container has two equally important content areas.
