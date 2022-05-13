@@ -100,14 +100,14 @@ HCB Theme
 </tr>
 </table>
 
-<a name="loioaccd68acd13a48eaa8aa02a639c84ba2__table_wr2_ksl_jtb"/>Updates
+<a name="loioaccd68acd13a48eaa8aa02a639c84ba2__table_wr2_ksl_jtb"/>Enhancements and Updates
 
 
 <table>
 <tr>
 <th valign="top">
 
-Updates
+Enhancements and Updates
 
 
 
@@ -124,6 +124,8 @@ As of version
 <td valign="top">
 
 Update of the reference test environment.
+
+Latest update with UI5 1.102
 
 
 
