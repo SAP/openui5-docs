@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3d85d5eec1594be0a71236d5e61f89aa)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3d85d5eec1594be0a71236d5e61f89aa) | [demo kit latest release](https://sdk.openui5.org/topic/3d85d5eec1594be0a71236d5e61f89aa)</div>
 
 ## XML View Cache
 
@@ -15,7 +15,7 @@ To be able to speed up processing times of XML views that make heavy use of the 
 To make sure that the cache always contains the latest view data, the cache has to be invalidated whenever the data changes that is needed for preprocessing. When the cache is invalidated, all resources are processed again and the cache gets filled with new data.
 
 > ### Caution:  
-> Parts of this feature are currently still experimental. For more information, see [API Reference: `sap.ui.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview). 
+> Parts of this feature are currently still experimental. For more information, see [API Reference: `sap.ui.xmlview`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.xmlview). 
 
 The following data changes are handled automatically by OpenUI5:
 
@@ -97,7 +97,7 @@ sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
 
 ### Preprocessor Integration
 
-If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.mvc.View.Preprocessor.html). 
+If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.mvc.View.Preprocessor.html). 
 
 ```xml
 // Example preprocessor implementation
@@ -123,7 +123,7 @@ sap.ui.define(['sap/ui/base/Object'],
 **Related Information**  
 
 
-[API Reference: `sap.ui.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview)
+[API Reference: `sap.ui.xmlview`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.xmlview)
 
 [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md "Applying preprocessing to views enables you to use features like XML templating. This feature is currently only enabled for XML views. On an abstract level, preprocessing means that a view can be modified during runtime before it is rendered. This makes it possible to use the templating syntax, as it is interpreted by the preprocessor. It also makes it possible to apply user customization.")
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://sdk.openui5.org/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
 
 ## Step 2: A First Unit Test
 
@@ -73,7 +73,7 @@ The namespace abstraction allows us to refer to all application and testing part
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing Apps - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.02/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing Apps - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.02/preview).
 
 ***
 

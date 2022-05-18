@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f122a36f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f122a36f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f122a36f4d1014b6dd926db0e91070)</div>
 
 ## Resource Model
 
@@ -38,7 +38,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 [Resource Bundles](Resource_Bundles_91f225c.md "A resource bundle file is a Java properties file (as described in the Javadoc of class java.util.Properties). It contains key-value pairs where the values are the language-dependent texts and the keys are language-independent and used by the application to identify and access the corresponding values.")
 
-[API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
+[API Reference: `sap.ui.model.resource.ResourceModel`](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel)
 
  <a name="loiof05c6f2cf18241cbbb2b126989108765"/>
 

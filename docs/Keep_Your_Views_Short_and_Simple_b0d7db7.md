@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0d7db7930f64b9399dc2b4979293873) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0d7db7930f64b9399dc2b4979293873)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b0d7db7930f64b9399dc2b4979293873) | [demo kit latest release](https://sdk.openui5.org/topic/b0d7db7930f64b9399dc2b4979293873)</div>
 
 ## Keep Your Views Short and Simple
 
@@ -114,5 +114,5 @@ Things may get a little messy as your app is growing with your requirements. The
 
 OpenUI5 offers a huge collection of feature-rich UI controls, often giving you multiple implementation choices.
 
-Aim for the simplest possible pattern to implement your use case. For more information, see the [Samples](https://openui5.hana.ondemand.com/#/controls/), and filter for "layout". 
+Aim for the simplest possible pattern to implement your use case. For more information, see the [Samples](https://sdk.openui5.org/controls/), and filter for "layout". 
 

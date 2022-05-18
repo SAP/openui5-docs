@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f23a736f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f23a736f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f23a736f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f23a736f4d1014b6dd926db0e91070)</div>
 
 ## Modules and Dependencies
 
@@ -26,7 +26,7 @@ Modules have no predefined syntax or structure, but module developers can use th
 
     The `sap.ui.define` syntax for defining modules helps to ensure an asynchronous loading of resources.
 
-    For more information, see the [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define). 
+    For more information, see the [API Reference: `sap.ui.define`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define). 
 
 -   **Dependencies**
 

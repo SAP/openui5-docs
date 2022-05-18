@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fd7f9d41ca9c46d891c45f1dcc0682bf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fd7f9d41ca9c46d891c45f1dcc0682bf)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fd7f9d41ca9c46d891c45f1dcc0682bf) | [demo kit latest release](https://sdk.openui5.org/topic/fd7f9d41ca9c46d891c45f1dcc0682bf)</div>
 
 ## Landmark API
 
@@ -33,7 +33,7 @@ Before seeing how a landmark is set for these controls, you must understand whic
 
 The picture below is an example of different landmarks with assigned labels in a `sap.uxap.ObjectPageLayout`. ![](images/loio77cb16f93da74644abdf68296651f7bf_Source1.png)
 
-Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLandmarkRole` enum. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.AccessibleLandmarkRole). 
+Supported landmark roles in OpenUI5 are stored in the `sap.ui.core.AccessibleLandmarkRole` enum. For more information, see the [API Reference: `sap.ui.core.AccessibleLandmarkRole`](https://sdk.openui5.org/api/sap.ui.core.AccessibleLandmarkRole). 
 
 ***
 

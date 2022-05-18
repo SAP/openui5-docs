@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://sdk.openui5.org/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
 
 ## Step 5: Adding Actions to the Worklist
 
@@ -26,7 +26,7 @@ Now we can easily spot shortages on our stock, but we would also like to take ac
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 5](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.05).
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 5](https://sdk.openui5.org/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.05).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/68b9644a253741e8a4b9e4279a35c247) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/68b9644a253741e8a4b9e4279a35c247)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/68b9644a253741e8a4b9e4279a35c247) | [demo kit latest release](https://sdk.openui5.org/topic/68b9644a253741e8a4b9e4279a35c247)</div>
 
 ## Data Binding
 
@@ -57,7 +57,7 @@ The binding mode defines how the data sources are bound to the UI. OpenUI5 provi
     > ### Note:  
     > Two-way binding is currently only supported for property bindings. For other binding types, such as list bindings, the creation or deletion of entities depends on the specific model.
     > 
-    > **Example:** For list bindings the OData V4 model provides the [`sap.ui.model.odata.v4.ODataListBinding#create` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) for creating a new entity, and the [`sap.ui.model.odata.v4.Context#delete` method](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete) to delete an entity in a list. 
+    > **Example:** For list bindings the OData V4 model provides the [`sap.ui.model.odata.v4.ODataListBinding#create` method](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) for creating a new entity, and the [`sap.ui.model.odata.v4.Context#delete` method](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/delete) to delete an entity in a list. 
     > 
     > For more information on the different types of binding available, see [Binding Types](Binding_Types_91f0d8a.md).
 
@@ -313,7 +313,7 @@ Resource model
 </tr>
 </table>
 
-For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.BindingMode.html). 
+For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.BindingMode.html). 
 
 -   **[Binding Types](Binding_Types_91f0d8a.md "Depending on the different use cases, you can use different binding types: Propety
 		binding, context binding, and list binding.")**  

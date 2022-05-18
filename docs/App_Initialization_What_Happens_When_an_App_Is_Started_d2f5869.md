@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2f58695fce3476f92fdfc07c9e8f7c6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2f58695fce3476f92fdfc07c9e8f7c6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d2f58695fce3476f92fdfc07c9e8f7c6) | [demo kit latest release](https://sdk.openui5.org/topic/d2f58695fce3476f92fdfc07c9e8f7c6)</div>
 
 ## App Initialization: What Happens When an App Is Started?
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d63a15e5eebb45cdada317bae5f45bc2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d63a15e5eebb45cdada317bae5f45bc2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d63a15e5eebb45cdada317bae5f45bc2) | [demo kit latest release](https://sdk.openui5.org/topic/d63a15e5eebb45cdada317bae5f45bc2)</div>
 
 ## Step 35: Device Adaptation
 
@@ -27,7 +27,7 @@ We now configure the visibility and properties of controls based on the device t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 35](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.35/preview).
+You can view and download all files at [Walkthrough - Step 35](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.35/preview).
 
 ```xml
 <mvc:View
@@ -234,7 +234,7 @@ Optimize your application for the different screen sizes of phone, tablet, and d
 **Related Information**  
 
 
-[API Reference: `sap.ui.Device.media.RANGESETS`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.media.RANGESETS.html)
+[API Reference: `sap.ui.Device.media.RANGESETS`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.media.RANGESETS.html)
 
-[API Reference: `sap.ui.Device`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.html)
+[API Reference: `sap.ui.Device`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.html)
 

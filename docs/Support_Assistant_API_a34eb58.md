@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a34eb58aaf124f538a3ead23a6cab04a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a34eb58aaf124f538a3ead23a6cab04a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a34eb58aaf124f538a3ead23a6cab04a) | [demo kit latest release](https://sdk.openui5.org/topic/a34eb58aaf124f538a3ead23a6cab04a)</div>
 
 ## Support Assistant API
 
@@ -246,7 +246,7 @@ The Support Assistant API allows you to:
 
 [Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md "The Support Assistant can be used as part of an existing OPA test to cover more test aspects of the application.")
 
-[API Reference: `sap.ui.support`](https://openui5.hana.ondemand.com/#/api/sap.ui.support)
+[API Reference: `sap.ui.support`](https://sdk.openui5.org/api/sap.ui.support)
 
-[API Reference: `sap.ui.support.RuleAnalyzer`](https://openui5.hana.ondemand.com/#/api/sap.ui.support.RuleAnalyzer)
+[API Reference: `sap.ui.support.RuleAnalyzer`](https://sdk.openui5.org/api/sap.ui.support.RuleAnalyzer)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69a25bf2f8a2478cbda4b8bbe64039de) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69a25bf2f8a2478cbda4b8bbe64039de)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69a25bf2f8a2478cbda4b8bbe64039de) | [demo kit latest release](https://sdk.openui5.org/topic/69a25bf2f8a2478cbda4b8bbe64039de)</div>
 
 ## Step 5: Adding a *Flag* Button
 
@@ -26,7 +26,7 @@ Now that we have implemented the conversion tests, we add the corresponding func
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.05/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.05/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/933965ba8c0440308e1e3233be7bc52f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/933965ba8c0440308e1e3233be7bc52f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/933965ba8c0440308e1e3233be7bc52f) | [demo kit latest release](https://sdk.openui5.org/topic/933965ba8c0440308e1e3233be7bc52f)</div>
 
 ## Main Methods
 
@@ -56,5 +56,5 @@ Note that the `getNextUIState` method is not static – its return value depends
 **Related Information**  
 
 
-[API Reference: `sap.f.FlexibleColumnLayoutSemanticHelper`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.FlexibleColumnLayoutSemanticHelper.html)
+[API Reference: `sap.f.FlexibleColumnLayoutSemanticHelper`](https://sdk.openui5.orgdocs/api/symbols/sap.f.FlexibleColumnLayoutSemanticHelper.html)
 

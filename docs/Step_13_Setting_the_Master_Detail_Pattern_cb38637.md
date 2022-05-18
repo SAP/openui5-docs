@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://sdk.openui5.org/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
 
 ## Step 13: Setting the Master-Detail Pattern
 
@@ -32,7 +32,7 @@ Apps using the master-detail pattern operate with a layout divided into two sepa
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 13](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.13/preview).
+You can view and download all files at [Flexible Column Layout App - Step 13](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.13/preview).
 
 ***
 

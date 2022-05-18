@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1f9de72bea734beaafa86b80c2c4222c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1f9de72bea734beaafa86b80c2c4222c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1f9de72bea734beaafa86b80c2c4222c) | [demo kit latest release](https://sdk.openui5.org/topic/1f9de72bea734beaafa86b80c2c4222c)</div>
 
 ## Devices Supporting both Mouse and Touch Input
 

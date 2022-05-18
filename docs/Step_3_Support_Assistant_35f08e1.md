@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/35f08e10a5d74e058ce9929244d935f0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/35f08e10a5d74e058ce9929244d935f0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/35f08e10a5d74e058ce9929244d935f0) | [demo kit latest release](https://sdk.openui5.org/topic/35f08e10a5d74e058ce9929244d935f0)</div>
 
 ## Step 3: Support Assistant
 
@@ -26,7 +26,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 ### Opening the Example App and Support Assistant
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
 2.  Activate the Support Assistant using one of the following options:
 

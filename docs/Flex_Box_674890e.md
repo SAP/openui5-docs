@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/674890e6d8534eaba2eaf63242e077eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/674890e6d8534eaba2eaf63242e077eb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/674890e6d8534eaba2eaf63242e077eb) | [demo kit latest release](https://sdk.openui5.org/topic/674890e6d8534eaba2eaf63242e077eb)</div>
 
 ## Flex Box
 

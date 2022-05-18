@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/295e44b2d0144318bcb7bdd56bfa5189)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/295e44b2d0144318bcb7bdd56bfa5189) | [demo kit latest release](https://sdk.openui5.org/topic/295e44b2d0144318bcb7bdd56bfa5189)</div>
 
 ## List, List Item, and Table
 
@@ -65,7 +65,7 @@ Mobile devices usually have a limited memory and processing power. Complex web p
 **Related Information**  
 
 
-[Samples: `sap.m.List`](https://openui5.hana.ondemand.com/#/entity/sap.m.List)
+[Samples: `sap.m.List`](https://sdk.openui5.org/entity/sap.m.List)
 
-[Samples: `sap.m.Table`](https://openui5.hana.ondemand.com/#/entity/sap.m.Table)
+[Samples: `sap.m.Table`](https://sdk.openui5.org/entity/sap.m.Table)
 

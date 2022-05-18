@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://sdk.openui5.org/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
 
 ## Troubleshooting for Loading Modules
 
@@ -284,7 +284,7 @@ var oMyModule = new myLib.MyModule();
 ...
 ```
 
-For more information, see the API Reference for [sap.ui.define - Asynchronuous Contract](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define).
+For more information, see the API Reference for [sap.ui.define - Asynchronuous Contract](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define).
 
 ***
 

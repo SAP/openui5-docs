@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b8c4e534cdb440e9a5bbff86f9572bd6) | [demo kit latest release](https://sdk.openui5.org/topic/b8c4e534cdb440e9a5bbff86f9572bd6)</div>
 
 ## Step 11: Validation Using the Message Manager
 
@@ -26,7 +26,7 @@ So far, we have created a currency field that can format itself correctly. The c
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 11](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.11/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.11/preview).
 
 ***
 

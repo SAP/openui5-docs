@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d4ac0edbc467483585d0c53a282505a5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d4ac0edbc467483585d0c53a282505a5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d4ac0edbc467483585d0c53a282505a5) | [demo kit latest release](https://sdk.openui5.org/topic/d4ac0edbc467483585d0c53a282505a5)</div>
 
 ## exit\(\) Method
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7f651316d396400d88835adb0d021532) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7f651316d396400d88835adb0d021532)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7f651316d396400d88835adb0d021532) | [demo kit latest release](https://sdk.openui5.org/topic/7f651316d396400d88835adb0d021532)</div>
 
 ## Step 7: Routing
 
@@ -31,7 +31,7 @@ In this step, we utilize the `sap.f.routing.Router`.
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 7](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.07/preview).
+You can view and download all files at [Flexible Column Layout App - Step 7](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.07/preview).
 
 ***
 

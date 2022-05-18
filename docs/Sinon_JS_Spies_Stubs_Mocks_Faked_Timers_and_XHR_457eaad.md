@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/457eaada68a24187858fd5e8b21a4892)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/457eaada68a24187858fd5e8b21a4892) | [demo kit latest release](https://sdk.openui5.org/topic/457eaada68a24187858fd5e8b21a4892)</div>
 
 ## Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR
 

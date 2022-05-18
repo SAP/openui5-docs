@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2ca583d6b9c24e4d8f189eada7c4b668) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2ca583d6b9c24e4d8f189eada7c4b668)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2ca583d6b9c24e4d8f189eada7c4b668) | [demo kit latest release](https://sdk.openui5.org/topic/2ca583d6b9c24e4d8f189eada7c4b668)</div>
 
 ## Step 16: Adding the Date Formatter
 
@@ -26,7 +26,7 @@ Our formatter does its job, but it is not yet used. In this step we will use it.
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 16](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.16/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 16](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.16/preview).
 
 ***
 

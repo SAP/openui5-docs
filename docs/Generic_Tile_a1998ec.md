@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://sdk.openui5.org/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
 
 ## Generic Tile
 
@@ -89,7 +89,7 @@ If you have already included one of these controls before SAPUI5 1.34, a wrapper
 **Related Information**  
 
 
-[API Reference: `sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile)
+[API Reference: `sap.m.GenericTile`](https://sdk.openui5.org/api/sap.m.GenericTile)
 
-[Samples: `sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/entity/sap.m.GenericTile)
+[Samples: `sap.m.GenericTile`](https://sdk.openui5.org/entity/sap.m.GenericTile)
 

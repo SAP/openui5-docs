@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/329a029f39e249a1bf89e3ffc006c8e1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/329a029f39e249a1bf89e3ffc006c8e1) | [demo kit latest release](https://sdk.openui5.org/topic/329a029f39e249a1bf89e3ffc006c8e1)</div>
 
 ## Labeling and Tooltips
 

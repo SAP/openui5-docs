@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ddbceecd7d3d42eea9cf78a820a238fb) | [demo kit latest release](https://sdk.openui5.org/topic/ddbceecd7d3d42eea9cf78a820a238fb)</div>
 
 ## Step 3: Controls
 
@@ -29,7 +29,7 @@ Now it is time to build our first little UI by replacing the “Hello World” t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 3](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.03).
+You can view and download all files at [Walkthrough - Step 3](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.03).
 
 ***
 
@@ -45,7 +45,7 @@ You can view and download all files at [Walkthrough - Step 3](https://openui5.ha
 	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
@@ -110,13 +110,13 @@ Don’t forget to remove the “Hello World”.
 
 [Working with Controls](Working_with_Controls_91f0a22.md "Controls are used to define the appearance and behavior of screen areas.")
 
-[API Reference: `sap.m.Text`](https://openui5.hana.ondemand.com/#/api/sap.m.Text)
+[API Reference: `sap.m.Text`](https://sdk.openui5.org/api/sap.m.Text)
 
-[Samples: `sap.m.Text` ](https://openui5.hana.ondemand.com/#/entity/sap.m.Text)
+[Samples: `sap.m.Text` ](https://sdk.openui5.org/entity/sap.m.Text)
 
-[API Reference: `sap.ui.core.Control`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control)
+[API Reference: `sap.ui.core.Control`](https://sdk.openui5.org/api/sap.ui.core.Control)
 
-[API Reference: `sap.ui.core.Element`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element)
+[API Reference: `sap.ui.core.Element`](https://sdk.openui5.org/api/sap.ui.core.Element)
 
-[API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject)
+[API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject)
 

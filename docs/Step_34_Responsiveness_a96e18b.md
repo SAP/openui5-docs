@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a96e18b4cd924196b255eb9623431dbb) | [demo kit latest release](https://sdk.openui5.org/topic/a96e18b4cd924196b255eb9623431dbb)</div>
 
 ## Step 34: Responsiveness
 
@@ -26,7 +26,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 34](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.34/preview).
+You can view and download all files at [Walkthrough - Step 34](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.34/preview).
 
 ```xml
 <mvc:View

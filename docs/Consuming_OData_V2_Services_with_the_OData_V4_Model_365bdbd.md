@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/365bdbd737034334a38a6fef07345196) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/365bdbd737034334a38a6fef07345196)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/365bdbd737034334a38a6fef07345196) | [demo kit latest release](https://sdk.openui5.org/topic/365bdbd737034334a38a6fef07345196)</div>
 
 ## Consuming OData V2 Services with the OData V4 Model
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://sdk.openui5.org/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
 
 ## Step 13: Margins and Paddings
 
@@ -28,7 +28,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 13](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.13/preview).
+You can view and download all files at [Walkthrough - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.13/preview).
 
 ```xml
 <mvc:View

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://sdk.openui5.org/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
 
 ## Defining the Control Metadata
 
@@ -25,7 +25,7 @@ The control metadata is defined as follows:
     -   `defaultValue`: Default value that is set if the application does not set a value; if no default value is defined, the property value is `undefined`.
 
 
-    These control-specific settings are only available when inheriting from a control or one of the base classes `sap.ui.core.Control`, `sap.ui.core.Element`, `sap.ui.base.ManagedObject`, see [Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
+    These control-specific settings are only available when inheriting from a control or one of the base classes `sap.ui.core.Control`, `sap.ui.core.Element`, `sap.ui.base.ManagedObject`, see [Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
 
 -   Events
 
@@ -91,7 +91,7 @@ The control metadata is defined as follows:
     ```
 
 
-For a brief explanation of the differences between an aggregation and an association, see the *Control Metadata* section under [Working with Controls](Working_with_Controls_91f0a22.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
+For a brief explanation of the differences between an aggregation and an association, see the *Control Metadata* section under [Working with Controls](Working_with_Controls_91f0a22.md). For a complete list of the possible settings, see [API Reference: `sap.ui.base.ManagedObject.extend`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend).
 
 -   **[Object Metadata and Implementation](Object_Metadata_and_Implementation_91f29fe.md "OpenUI5 supports the extension of plain objects that are not elements or
 		controls.")**  

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/831039835e7c4da3a8a0b49567573afe)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/831039835e7c4da3a8a0b49567573afe) | [demo kit latest release](https://sdk.openui5.org/topic/831039835e7c4da3a8a0b49567573afe)</div>
 
 ## Annotations in Translation Files
 

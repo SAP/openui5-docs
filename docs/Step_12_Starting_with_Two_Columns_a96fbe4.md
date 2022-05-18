@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a96fbe44ae6544589a096041f99d38c2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://sdk.openui5.org/topic/a96fbe44ae6544589a096041f99d38c2)</div>
 
 ## Step 12: Starting with Two Columns
 
@@ -32,7 +32,7 @@ By default, the `FlexibleColumnLayout` starts off with one column. If your use c
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 12](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.12/preview).
+You can view and download all files at [Flexible Column Layout App - Step 12](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.12/preview).
 
 ***
 

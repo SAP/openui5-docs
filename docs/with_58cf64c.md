@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/58cf64cbb951496a99ac94e01a0905b2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/58cf64cbb951496a99ac94e01a0905b2) | [demo kit latest release](https://sdk.openui5.org/topic/58cf64cbb951496a99ac94e01a0905b2)</div>
 
 ## with
 
@@ -48,7 +48,7 @@ A helper can be called from a `with` instruction. It receives an `sap.ui.model.C
 
 The helper can analyze the object the path points to and derive a "resolved path" from that, such as by normalization or following references. Typically, it only points to a different path, but it can even change the model instance, such as jumping from a data model to its meta model or jumping to a resource model, and so on.
 
-The example titled **"with" Template Including Helper** assumes that "field" is an OData meta model with a current binding context that points to a field inside some annotation, such as `"/dataServices/schema/0/entityType/0/com.sap.vocabularies.UI.v1.Badge/MainInfo"`. The helper function `sap.ui.model.odata.AnnotationHelper.resolvePath` is used to follow the field value's `path` property. For more information, see [Annotation Helper](Annotation_Helper_dbec058.md) and [API Reference: `sap.ui.model.odata.AnnotationHelper.resolvePath`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.AnnotationHelper).
+The example titled **"with" Template Including Helper** assumes that "field" is an OData meta model with a current binding context that points to a field inside some annotation, such as `"/dataServices/schema/0/entityType/0/com.sap.vocabularies.UI.v1.Badge/MainInfo"`. The helper function `sap.ui.model.odata.AnnotationHelper.resolvePath` is used to follow the field value's `path` property. For more information, see [Annotation Helper](Annotation_Helper_dbec058.md) and [API Reference: `sap.ui.model.odata.AnnotationHelper.resolvePath`](https://sdk.openui5.org/api/sap.ui.model.odata.AnnotationHelper).
 
 It returns a path inside the meta model which refers to the corresponding property's meta data, such as `"/dataServices/schema/<i>/entityType/<j>/property/<k>"`. This result is in turn assigned by the `with` instruction to the variable named "target".
 

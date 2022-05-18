@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bc410e94e46540efa02857e15aae583f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bc410e94e46540efa02857e15aae583f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bc410e94e46540efa02857e15aae583f) | [demo kit latest release](https://sdk.openui5.org/topic/bc410e94e46540efa02857e15aae583f)</div>
 
 ## Object Page Scrolling
 
@@ -68,5 +68,5 @@ As the user scrolls through the sections, the currently scrolled section is inte
 **Related Information**  
 
 
-[Sample: `sap.uxap.sample.ObjectPageState`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.uxap.sample.ObjectPageState/preview)
+[Sample: `sap.uxap.sample.ObjectPageState`](https://sdk.openui5.org/explored.html#/sample/sap.uxap.sample.ObjectPageState/preview)
 

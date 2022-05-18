@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f1bd982c780445c6ae2ccdf2b3f478da)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f1bd982c780445c6ae2ccdf2b3f478da) | [demo kit latest release](https://sdk.openui5.org/topic/f1bd982c780445c6ae2ccdf2b3f478da)</div>
 
 ## Keyboard Handling for Two-Dimensional Navigation
 

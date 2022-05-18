@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/33fae3482358438e93daea5232527093) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/33fae3482358438e93daea5232527093)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/33fae3482358438e93daea5232527093) | [demo kit latest release](https://sdk.openui5.org/topic/33fae3482358438e93daea5232527093)</div>
 
 ## Screen Reader Support
 

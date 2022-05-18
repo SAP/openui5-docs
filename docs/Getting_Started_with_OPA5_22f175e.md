@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22f175e7084247bc896c15280af9d1dc)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/22f175e7084247bc896c15280af9d1dc) | [demo kit latest release](https://sdk.openui5.org/topic/22f175e7084247bc896c15280af9d1dc)</div>
 
 ## Getting Started with OPA5
 
@@ -186,7 +186,7 @@ The `viewNamespace` is very important for finding the correct view. As you proba
 
 ![](images/loiob7d6ee389a984eada89d1e21cc1a27f6_LowRes.jpg) 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.html) and the [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples). 
+For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.html) and the [Samples](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples). 
 
 ***
 
@@ -255,7 +255,7 @@ new Opa5().iTeardownMyApp();
 new Opa5().iTeardownMyAppFrame();
 ```
 
- For more information, see the [API Reference: `Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html). 
+ For more information, see the [API Reference: `Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html). 
 
 Starting the app can be a slow operation so it is not recommended to do this for every test. However, it is good practice to group tests in modules and restart the app in every module to enable faster debugging of larger suites.
 

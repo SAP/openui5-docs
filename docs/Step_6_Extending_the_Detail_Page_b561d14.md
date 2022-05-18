@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b561d146f9114b029bd60fa26df09c6b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b561d146f9114b029bd60fa26df09c6b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b561d146f9114b029bd60fa26df09c6b) | [demo kit latest release](https://sdk.openui5.org/topic/b561d146f9114b029bd60fa26df09c6b)</div>
 
 ## Step 6: Extending the Detail Page
 
@@ -26,7 +26,7 @@ In this step, we will extend the detail page of our app to show more information
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 6](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.06) .
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 6](https://sdk.openui5.org/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.06) .
 
 ***
 

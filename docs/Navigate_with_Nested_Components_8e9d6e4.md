@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6) | [demo kit latest release](https://sdk.openui5.org/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6)</div>
 
 ## Navigate with Nested Components
 
@@ -23,7 +23,7 @@ To use the `navTo` method for navigation with nested components, you need to cal
 -   Information, whether the current browser hash is replaced or a or a new hash entry is set \(optional\)
 
 
-For more information, [`sap.ui.core.routing.Router.navTo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Router/methods/navTo) in the API Reference.
+For more information, [`sap.ui.core.routing.Router.navTo`](https://sdk.openui5.org/api/sap.ui.core.routing.Router/methods/navTo) in the API Reference.
 
 The call triggers the following actions in the given order:
 

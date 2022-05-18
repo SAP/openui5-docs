@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9d87f925dfbb4e99b9e2963693aa00ef)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9d87f925dfbb4e99b9e2963693aa00ef) | [demo kit latest release](https://sdk.openui5.org/topic/9d87f925dfbb4e99b9e2963693aa00ef)</div>
 
 ## CSS Styling Issues
 
@@ -359,5 +359,5 @@ $(oSomeDomElement).css("border-color", sColor);
 </tr>
 </table>
 
-See also: [Namespace sap.ui.core.theming.Parameters](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.theming.Parameters.html).
+See also: [Namespace sap.ui.core.theming.Parameters](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.theming.Parameters.html).
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7a78f1b707c248fd9ec53dcb5f10814c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7a78f1b707c248fd9ec53dcb5f10814c) | [demo kit latest release](https://sdk.openui5.org/topic/7a78f1b707c248fd9ec53dcb5f10814c)</div>
 
 ## Step 1: Initial App Without Data
 
@@ -32,7 +32,7 @@ Usually you start the development of an app with local mock data first. This way
 
 ### Coding
 
-To set up your project for this tutorial, download the files for *Step 1* in the Demo Kit at [Mock Server - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.mockserver.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
+To set up your project for this tutorial, download the files for *Step 1* in the Demo Kit at [Mock Server - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
 
 Depending on your development environment you might have to adjust resource paths and configuration entries. The project structure and the files coming with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

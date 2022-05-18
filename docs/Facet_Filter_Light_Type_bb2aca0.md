@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bb2aca0957534dba8f0b4cfe689c30c9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bb2aca0957534dba8f0b4cfe689c30c9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bb2aca0957534dba8f0b4cfe689c30c9) | [demo kit latest release](https://sdk.openui5.org/topic/bb2aca0957534dba8f0b4cfe689c30c9)</div>
 
 ## Facet Filter: Light Type
 

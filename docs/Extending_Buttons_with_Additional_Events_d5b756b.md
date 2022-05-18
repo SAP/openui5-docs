@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d5b756bf4e9a4d67961fa21e1ba12c9e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d5b756bf4e9a4d67961fa21e1ba12c9e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d5b756bf4e9a4d67961fa21e1ba12c9e) | [demo kit latest release](https://sdk.openui5.org/topic/d5b756bf4e9a4d67961fa21e1ba12c9e)</div>
 
 ## Extending Buttons with Additional Events
 

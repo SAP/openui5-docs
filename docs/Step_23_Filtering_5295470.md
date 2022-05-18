@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5295470d7eee46c1898ee46c1b9ad763) | [demo kit latest release](https://sdk.openui5.org/topic/5295470d7eee46c1898ee46c1b9ad763)</div>
 
 ## Step 23: Filtering
 
@@ -28,7 +28,7 @@ In this step, we add a search field for our product list and define a filter tha
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 23](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.23/preview).
+You can view and download all files at [Walkthrough - Step 23](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.23/preview).
 
 ***
 
@@ -122,9 +122,9 @@ The list is accessed with the ID that we have specified in the view, because the
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.Filter`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Filter.html)
+[API Reference: `sap.ui.model.Filter`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Filter.html)
 
-[API Reference: `sap.ui.model.FilterOperator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.FilterOperator.html)
+[API Reference: `sap.ui.model.FilterOperator`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.FilterOperator.html)
 
-[API Reference: `sap.m.SearchField`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.SearchField.html)
+[API Reference: `sap.m.SearchField`](https://sdk.openui5.orgdocs/api/symbols/sap.m.SearchField.html)
 

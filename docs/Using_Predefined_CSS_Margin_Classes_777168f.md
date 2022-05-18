@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/777168ffe8324873973151dae2356d1c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://sdk.openui5.org/topic/777168ffe8324873973151dae2356d1c)</div>
 
 ## Using Predefined CSS Margin Classes
 
@@ -336,5 +336,5 @@ If a control comes with a margin that you don’t want for some particular reaso
 
 ### Sample
 
-For a detailed example of how our predefined margin classes work, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.StandardMargins).
+For a detailed example of how our predefined margin classes work, see the [Samples](https://sdk.openui5.org/entity/sap.ui.core.StandardMargins).
 

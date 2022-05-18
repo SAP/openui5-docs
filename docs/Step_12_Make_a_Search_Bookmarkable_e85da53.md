@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e85da535ea19430a90c381f3c2bd748e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://sdk.openui5.org/topic/e85da535ea19430a90c381f3c2bd748e)</div>
 
 ## Step 12: Make a Search Bookmarkable
 
@@ -26,7 +26,7 @@ In this step we will make the search bookmarkable. This allows users to search f
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 12](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.12/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 12](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.12/preview) .
 
 ***
 

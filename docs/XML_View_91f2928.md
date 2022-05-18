@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f292806f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f292806f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f292806f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f292806f4d1014b6dd926db0e91070)</div>
 
 ## XML View
 
@@ -68,5 +68,5 @@ Modules can be required in XML views and fragments and assigned to aliases which
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.mvc.XMLView`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.core.mvc.XMLView.create)
+[API Reference: `sap.ui.core.mvc.XMLView`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.core.mvc.XMLView.create)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7cdff73f308b4b10bdf7d83b7aba72e7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7cdff73f308b4b10bdf7d83b7aba72e7) | [demo kit latest release](https://sdk.openui5.org/topic/7cdff73f308b4b10bdf7d83b7aba72e7)</div>
 
 ## Extended Change Detection
 
@@ -99,7 +99,7 @@ The difference between the previous and the current state of the list is provide
 > ### Caution:  
 > -   Extended change detection calculates the difference between the context arrays returned by calling `getContexts`. Any additional call to `getContexts`, either by the app or the control itself, may trigger a difference calculation and may cause update problems. This can, for example, occur if your control uses fixed headers or footers, which must therefore not be used together with ECD.
 > 
->     If you want to access the contexts of a list binding that were requested by a control last time without triggering a data request, you should use `getCurrentContexts` in your app instead. For more information, see the [API Reference: `sap.ui.model.ListBinding#getCurrentContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding/methods/getCurrentContexts).
+>     If you want to access the contexts of a list binding that were requested by a control last time without triggering a data request, you should use `getCurrentContexts` in your app instead. For more information, see the [API Reference: `sap.ui.model.ListBinding#getCurrentContexts`](https://sdk.openui5.org/api/sap.ui.model.ListBinding/methods/getCurrentContexts).
 > 
 > -   When a `ListBinding` is firing a `refresh` event, the call to `getContexts` caused by this event is used to inform the `ListBinding` on the `startIndex` and `length` of entries requested by the control. No difference calculation is done on this specific call, as controls do not use the result of this call but instead wait for the data returned by the server.
 
@@ -172,7 +172,7 @@ If a control you want to use in your app to visualize list entries supports exte
 
 Extended change detection is disabled by default. If your control is meant to have only a few children like a toolbar with buttons, you should not activate extended change detection because a copy of the previous state would then always be kept unnecessarily in the binding.
 
-If extended change detection is enabled, your control, for example an [`sap.m.ListBase`](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase), uses specific `insert` and `remove` calls only for elements that need to be added or removed instead of recreating all elements of an aggregation or setting new binding contexts on all aggregated elements.
+If extended change detection is enabled, your control, for example an [`sap.m.ListBase`](https://sdk.openui5.org/api/sap.m.ListBase), uses specific `insert` and `remove` calls only for elements that need to be added or removed instead of recreating all elements of an aggregation or setting new binding contexts on all aggregated elements.
 
 You activate extended change detection for your control by setting the `bUseExtendedChangeDetection` property either on the control prototype or a specific control instance. The `ManagedObject` class takes care of reading and applying the information about the differences to aggregations with the `enableExtendedChangeDetection` method. The method has the following parameters:
 
@@ -190,12 +190,12 @@ You also have to implement the specific aggregation modifier methods to avoid th
 > ### Note:  
 > If your control has a custom `updateAggregation` method \(that means control takes care for updating the aggregation\) you have to make sure in your implementation that the difference information is interpreted and applied.
 
-For more information, see the [API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation).
+For more information, see the [API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindAggregation).
 
 **Related Information**  
 
 
-[API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation)
+[API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindAggregation)
 
-[API Reference: `sap.ui.Model.ListBinding.getContexts`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding/methods/getContexts)
+[API Reference: `sap.ui.Model.ListBinding.getContexts`](https://sdk.openui5.org/api/sap.ui.model.ListBinding/methods/getContexts)
 

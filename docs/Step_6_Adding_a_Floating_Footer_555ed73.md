@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://sdk.openui5.org/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
 
 ## Step 6: Adding a Floating Footer
 
@@ -30,7 +30,7 @@ In this step, we add a floating footer to the detail page.
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 6](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.06/preview).
+You can view and download all files at [Flexible Column Layout App - Step 6](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.06/preview).
 
 ***
 

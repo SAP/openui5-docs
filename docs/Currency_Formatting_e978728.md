@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e978728a6ef6490c971248948f9101e0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e978728a6ef6490c971248948f9101e0) | [demo kit latest release](https://sdk.openui5.org/topic/e978728a6ef6490c971248948f9101e0)</div>
 
 ## Currency Formatting
 
@@ -30,7 +30,7 @@ The `sap.ui.core.format.NumberFormat.getCurrencyInstance()` function accepts two
 
 -   The first argument, `oFormatOptions`, is a set of format options that determines the output formatting. The format option `'decimals'`, for example, defines the number of decimal digits of the formatted value.
 
-    For a full list of format options, see [`NumberFormat`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat).
+    For a full list of format options, see [`NumberFormat`](https://sdk.openui5.org/api/sap.ui.core.format.NumberFormat).
 
 -   The second argument, `oLocale`, defines the locale.
 
@@ -47,7 +47,7 @@ sap.ui.require(["sap/ui/core/format/NumberFormat"], function(NumberFormat) {
 > ### Note:  
 > All code examples are based on locale English. If no locale is defined explicitly on the currency formatter instance, the locale setting of the configuration is used.
 
-For more information, see [getCurrencyInstance](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/sap.ui.core.format.NumberFormat.getCurrencyInstance).
+For more information, see [getCurrencyInstance](https://sdk.openui5.org/api/sap.ui.core.format.NumberFormat/methods/sap.ui.core.format.NumberFormat.getCurrencyInstance).
 
 ***
 
@@ -62,7 +62,7 @@ var oCurrencyFormat = NumberFormat.getCurrencyInstance();
 oCurrencyFormat.format(12345.678, "EUR"); // output: EUR 12,345.68
 ```
 
-For more information, see [format](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/format)
+For more information, see [format](https://sdk.openui5.org/api/sap.ui.core.format.NumberFormat/methods/format)
 
 ***
 
@@ -78,7 +78,7 @@ oCurrencyFormat.parse("EUR 12,345.678"); // output: [12345.678, "EUR"]
 
 ```
 
-For more information, see [parse](https://openui5.hana.ondemand.com/#/api/sap.ui.core.format.NumberFormat/methods/parse)
+For more information, see [parse](https://sdk.openui5.org/api/sap.ui.core.format.NumberFormat/methods/parse)
 
 ***
 

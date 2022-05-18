@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/88756c08fe144ba08ff1762ad92fc07c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/88756c08fe144ba08ff1762ad92fc07c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/88756c08fe144ba08ff1762ad92fc07c) | [demo kit latest release](https://sdk.openui5.org/topic/88756c08fe144ba08ff1762ad92fc07c)</div>
 
 ## Step 5: One-Way Data Binding
 
@@ -26,7 +26,7 @@ In contrast to the two-way binding behavior shown above, one-way data binding is
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.05/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.05/preview).
 
 ***
 
@@ -75,7 +75,7 @@ Should you wish to alter the binding mode, then there are two ways of doing this
 
 -   Alter the model's default binding mode. This is the approach used above.
 
--   Specify the data binding mode for a specific binding instance by using the `oBindingInfo.mode` parameter. This change applies only to this data binding instance. Any other binding instances will continue to use the model's default binding mode.For more information, see [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty). 
+-   Specify the data binding mode for a specific binding instance by using the `oBindingInfo.mode` parameter. This change applies only to this data binding instance. Any other binding instances will continue to use the model's default binding mode.For more information, see [API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindProperty). 
 
 
 > ### Note:  

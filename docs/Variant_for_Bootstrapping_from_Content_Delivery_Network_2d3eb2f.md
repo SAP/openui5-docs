@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://sdk.openui5.org/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
 
 ## Variant for Bootstrapping from Content Delivery Network
 
@@ -22,7 +22,7 @@ OpenUI5 can either be loaded locally with a relative path from a Web server or e
 ### Bootstrapping From OpenUI5 CDN
 
 > ### Note:  
-> To ensure outdated versions no longer pose a potential security risk, SAP removes OpenUI5 versions from the OpenUI5 CDN one year after their end of maintenance. Also patches of versions in maintenance which are older than one year will be removed. For more information, see [this blog post](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/). The end dates for the cloud provisioning of OpenUI5 versions and patches can be found at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)
+> To ensure outdated versions no longer pose a potential security risk, SAP removes OpenUI5 versions from the OpenUI5 CDN one year after their end of maintenance. Also patches of versions in maintenance which are older than one year will be removed. For more information, see [this blog post](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/). The end dates for the cloud provisioning of OpenUI5 versions and patches can be found at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)
 
 ***
 
@@ -33,7 +33,7 @@ The specific version allows you to select a particular fixed version for bootstr
 ```html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://openui5.hana.ondemand.com/[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/strong/span
+    src="https://sdk.openui5.org/[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/strong/span
      {""}) 1.103.0 (span]/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_fiori_3"
     data-sap-ui-async="true"
@@ -44,7 +44,7 @@ The specific version allows you to select a particular fixed version for bootstr
 
 The first segment of the URL after the host name is used to specify a concrete version, which needs to be provided in the following form: `release_number.version_number.patch_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 
-Check the available versions with the respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
+Check the available versions with the respective maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
 
 > ### Note:  
 > Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the [*Nightly*](https://openui5nightly.hana.ondemand.com) version, you are very welcome to send us your feedback!
@@ -56,12 +56,12 @@ Check the available versions with the respective maintenance status at [https://
 > ### Caution:  
 > The default version is constantly being upgraded and this might have an impact on the stability of your application. Use this version for testing purposes only.
 > 
-> The default version of our libraries has the generic URL [https://openui5.hana.ondemand.com/resources/sap-ui-core.js](https://openui5.hana.ondemand.com/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
+> The default version of our libraries has the generic URL [https://sdk.openui5.org/resources/sap-ui-core.js](https://sdk.openui5.org/resources/sap-ui-core.js) \(OpenUI5\). If you want to use the default version, you can use the following bootstrap script:
 > 
 > ```html
 > <script id="sap-ui-bootstrap"
 >     type="text/javascript"
->     src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+>     src="https://sdk.openui5.org/resources/sap-ui-core.js"
 >     data-sap-ui-theme="sap_fiori_3"
 >     data-sap-ui-async="true"
 >     data-sap-ui-libs="sap.m"></script>

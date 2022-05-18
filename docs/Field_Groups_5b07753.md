@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b0775397e394b1fb973fa207554003e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://sdk.openui5.org/topic/5b0775397e394b1fb973fa207554003e)</div>
 
 ## Field Groups
 
@@ -106,5 +106,5 @@ For a control with a `fieldGroupId` that currently has the focus, the following 
 **Related Information**  
 
 
-[Sample: `Field Groups`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.FieldGroup/preview)
+[Sample: `Field Groups`](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.FieldGroup/preview)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c75861e33942410d9ac77322763db203)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://sdk.openui5.org/topic/c75861e33942410d9ac77322763db203)</div>
 
 ## Reacting on User Input Events
 
@@ -34,14 +34,14 @@ User input errors can be detected automatically by the framework. This is the pr
 > }
 > ```
 
-Controls implementing the `refreshDataState` method then automatically display messages corresponding to the following four [Core](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core) events:
+Controls implementing the `refreshDataState` method then automatically display messages corresponding to the following four [Core](https://sdk.openui5.org/api/sap.ui.core.Core) events:
 
 -   `FormatError` 
 -   `ParseError`
 -   `ValidationError` 
 -   `ValidationSuccess` 
 
-For more information, see [`sap.ui.model.DataState`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.DataState).
+For more information, see [`sap.ui.model.DataState`](https://sdk.openui5.org/api/sap.ui.model.DataState).
 
 ***
 
@@ -49,5 +49,5 @@ For more information, see [`sap.ui.model.DataState`](https://openui5.hana.ondema
 
 ### Manual User Input Event Handling
 
-If your app does not use a Component, you need to manage user input errors manually by creating the desired validation messages and adding them to the [message manager](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager). As the messages require the UI binding and type, you would have to manually type and bind your input fields. For more information, see [Validation Messages](Validation_Messages_a90d93d.md).
+If your app does not use a Component, you need to manage user input errors manually by creating the desired validation messages and adding them to the [message manager](https://sdk.openui5.org/api/sap.ui.core.message.MessageManager). As the messages require the UI binding and type, you would have to manually type and bind your input fields. For more information, see [Validation Messages](Validation_Messages_a90d93d.md).
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/952e2c7458e14d6581cdfc510fbb272a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/952e2c7458e14d6581cdfc510fbb272a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/952e2c7458e14d6581cdfc510fbb272a) | [demo kit latest release](https://sdk.openui5.org/topic/952e2c7458e14d6581cdfc510fbb272a)</div>
 
 ## Using `OpaBuilder`
 
@@ -53,7 +53,7 @@ return OpaBuilder.create(oOpa)
     .execute();
 ```
 
-For more information, see [`OpaBuilder.build`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/build), [`OpaBuilder.execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/execute), and [`OpaBuilder.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/sap.ui.test.OpaBuilder.create).
+For more information, see [`OpaBuilder.build`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder/methods/build), [`OpaBuilder.execute`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder/methods/execute), and [`OpaBuilder.create`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder/methods/sap.ui.test.OpaBuilder.create).
 
 ***
 
@@ -102,7 +102,7 @@ OpaBuilder.create(oOpa)
     .execute();
 ```
 
-For more information, see [`OpaBuilder.doOnAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/doOnAggregation) and [`OpaBuilder.doOnChildren`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder/methods/doOnChildren).
+For more information, see [`OpaBuilder.doOnAggregation`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder/methods/doOnAggregation) and [`OpaBuilder.doOnChildren`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder/methods/doOnChildren).
 
 ***
 
@@ -307,9 +307,9 @@ As already seen in the last example, `OpaBuilder` has two static members: `OpaBu
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.OpaBuilder`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder)
+[API Reference: `sap.ui.test.OpaBuilder`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder)
 
-[API Reference: `sap.ui.test.OpaBuilder.Matchers`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder.Matchers)
+[API Reference: `sap.ui.test.OpaBuilder.Matchers`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder.Matchers)
 
-[API Reference: `sap.ui.test.OpaBuilder.Actions`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaBuilder.Actions)
+[API Reference: `sap.ui.test.OpaBuilder.Actions`](https://sdk.openui5.org/api/sap.ui.test.OpaBuilder.Actions)
 

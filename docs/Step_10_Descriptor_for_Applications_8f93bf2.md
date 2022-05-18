@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://sdk.openui5.org/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
 
 ## Step 10: Descriptor for Applications
 
@@ -29,7 +29,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 10](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.10/preview).
+You can view and download all files at [Walkthrough - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.10/preview).
 
 > ### Caution:  
 > Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).
@@ -150,7 +150,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "./"

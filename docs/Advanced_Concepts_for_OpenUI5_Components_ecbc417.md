@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ecbc417ff264498b96bc364c53280242) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ecbc417ff264498b96bc364c53280242)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ecbc417ff264498b96bc364c53280242) | [demo kit latest release](https://sdk.openui5.org/topic/ecbc417ff264498b96bc364c53280242)</div>
 
 ## Advanced Concepts for OpenUI5 Components
 
@@ -16,7 +16,7 @@ The following advanced concepts for components exist.
 
 -   Asynchronous content creation
 
-    A `UIComponent` can implement the `sap.ui.core.IAsyncContentCreation` interface. This interface allows you to provide a Promise as the return value for the  [`sap.ui.core.UIComponent#createContent`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent/methods/createContent) function.
+    A `UIComponent` can implement the `sap.ui.core.IAsyncContentCreation` interface. This interface allows you to provide a Promise as the return value for the  [`sap.ui.core.UIComponent#createContent`](https://sdk.openui5.org/api/sap.ui.core.UIComponent/methods/createContent) function.
 
     For more information, see [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md).
 
@@ -38,6 +38,6 @@ The following advanced concepts for components exist.
 
 -   Event bus of the component
 
-    The local event bus belongs to the component and can be used by all children of this component. Once a component instance is destroyed, the listeners registered in the event bus are destroyed automatically. For more information, see [API Reference for the `getEventBus` method of `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/getEventBus). 
+    The local event bus belongs to the component and can be used by all children of this component. Once a component instance is destroyed, the listeners registered in the event bus are destroyed automatically. For more information, see [API Reference for the `getEventBus` method of `sap.ui.core.Component`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/getEventBus). 
 
 

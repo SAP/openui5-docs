@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3) | [demo kit latest release](https://sdk.openui5.org/topic/d2c8cf7ae19d447aad5b5ce40e3b14e3)</div>
 
 ## Models
 
@@ -51,5 +51,5 @@ A Web application should support several data sources, such as JSON, XML, Atom, 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.html)
+[API Reference: `sap.ui.model`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html)
 

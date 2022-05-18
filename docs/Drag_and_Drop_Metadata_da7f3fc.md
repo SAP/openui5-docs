@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/da7f3fc826f7418d9cc3b5a61285a08d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/da7f3fc826f7418d9cc3b5a61285a08d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/da7f3fc826f7418d9cc3b5a61285a08d) | [demo kit latest release](https://sdk.openui5.org/topic/da7f3fc826f7418d9cc3b5a61285a08d)</div>
 
 ## Drag-and-Drop Metadata
 
@@ -60,5 +60,5 @@ You can use the following attributes in the metadata of a control for drag and d
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.Element.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend)
+[API Reference: `sap.ui.core.Element.extend`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend)
 

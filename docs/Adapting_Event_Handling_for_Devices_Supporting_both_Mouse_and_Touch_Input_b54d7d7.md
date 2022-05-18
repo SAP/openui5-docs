@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54d7d73eff245d3ab91b96e21177ebf)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b54d7d73eff245d3ab91b96e21177ebf) | [demo kit latest release](https://sdk.openui5.org/topic/b54d7d73eff245d3ab91b96e21177ebf)</div>
 
 ## Adapting Event Handling for Devices Supporting both Mouse and Touch Input
 

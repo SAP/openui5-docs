@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2bf4892527174264808076be32c1e1b0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2bf4892527174264808076be32c1e1b0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2bf4892527174264808076be32c1e1b0) | [demo kit latest release](https://sdk.openui5.org/topic/2bf4892527174264808076be32c1e1b0)</div>
 
 ## Step 3: Adding the Price Formatter
 
@@ -28,7 +28,7 @@ If the tests are passed, we can be sure that the formatter is formally correct b
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.03/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.03/preview).
 
 ***
 
@@ -108,7 +108,7 @@ In our worklist view we simply add a state attribute to the `ObjectNumber` contr
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.ValueState`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ValueState.html)
+[API Reference: `sap.ui.core.ValueState`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.ValueState.html)
 
-[API Reference: `sap.m.ObjectNumber`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.ObjectNumber.html)
+[API Reference: `sap.m.ObjectNumber`](https://sdk.openui5.orgdocs/api/symbols/sap.m.ObjectNumber.html)
 

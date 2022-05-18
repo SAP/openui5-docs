@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/45ac9f19d9414b30b121c6e00f57433c) | [demo kit latest release](https://sdk.openui5.org/topic/45ac9f19d9414b30b121c6e00f57433c)</div>
 
 ## Behavior-driven Development with Gherkin
 

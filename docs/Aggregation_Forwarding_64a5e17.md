@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://sdk.openui5.org/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
 
 ## Aggregation Forwarding
 
@@ -25,7 +25,7 @@ This technique is often used when a control with an aggregation is wrapped by a 
 > ### Note:  
 > While aggregation forwarding as described here is mainly aimed at composite controls, it has also been implemented for the `ManagedObject` base class. The forwarding can also be used for other entities which are not controls, but inherit directly from `ManagedObject` or one of its subclasses.
 > 
-> For more information about this class, see the [API Reference: `ManagedObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend). 
+> For more information about this class, see the [API Reference: `ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/sap.ui.base.ManagedObject.extend). 
 
 > ### Note:  
 > Sometimes the controls that have been added to an aggregation of a composite control have to be transformed into different controls, which are then added to an aggregation of an internal control. This is a different use case and not covered by aggregation forwarding. With aggregation forwarding, aggregated child controls are moved **without** transforming them.

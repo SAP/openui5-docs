@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/74142a38e3d4467c8d6a70b28764048f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://sdk.openui5.org/topic/74142a38e3d4467c8d6a70b28764048f)</div>
 
 ## Batch Control
 
@@ -27,9 +27,9 @@ The OData V4 model sends requests in the following cases:
 
 For each of these cases, it is possible to specify a group ID of type `string`.
 
-A group ID has one of the following [submit modes](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode) to control the use of batch requests:
+A group ID has one of the following [submit modes](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode) to control the use of batch requests:
 
--   `sap.ui.model.odata.v4.SubmitMode.API` - Requests associated with the group ID are sent in a batch request via [`sap.ui.model.odata.v4.ODataModel#submitBatch`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) .
+-   `sap.ui.model.odata.v4.SubmitMode.API` - Requests associated with the group ID are sent in a batch request via [`sap.ui.model.odata.v4.ODataModel#submitBatch`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) .
 
 -   `sap.ui.model.odata.v4.SubmitMode.Auto` - Requests associated with the group ID are sent in a batch request which is triggered automatically before rendering.
 
@@ -45,9 +45,9 @@ The following group IDs are possible:
 -   An application group ID is a non-empty string consisting of alphanumeric characters from the basic Latin alphabet, including the underscore. By default, an application group has the submit mode `sap.ui.model.odata.v4.SubmitMode.API`. It is possible to use a different submit mode; for details see section [Define submit mode for an application group ID](Batch_Control_74142a3.md#loio74142a38e3d4467c8d6a70b28764048f__section_e1x_pfg_1cb).
 
 
-To specify the group ID for implicit requests, use the parameters `$$groupId` \(group ID for read requests\) and `$$updateGroupId` \(group ID for update requests\) for the binding which triggers the request \(see the [ODataModel.bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindList), [ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext) and [ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty) API documentation\).
+To specify the group ID for implicit requests, use the parameters `$$groupId` \(group ID for read requests\) and `$$updateGroupId` \(group ID for update requests\) for the binding which triggers the request \(see the [ODataModel.bindList](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindList), [ODataModel.bindContext](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext) and [ODataModel.bindProperty](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty) API documentation\).
 
-Batch requests for update groups with a submit mode different from `$direct` are queued per group ID. A batch request with changes is only sent if the previous batch request for the same group ID is returned and processed. In this case, all submitted changes for that group ID are combined in one batch request; changes associated with different calls to [ODataModel.submitBatch](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) use different change sets inside the batch request.
+Batch requests for update groups with a submit mode different from `$direct` are queued per group ID. A batch request with changes is only sent if the previous batch request for the same group ID is returned and processed. In this case, all submitted changes for that group ID are combined in one batch request; changes associated with different calls to [ODataModel.submitBatch](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) use different change sets inside the batch request.
 
 Code example: Updates for the sales order note through two-way binding will use the group ID `"myGroup"`, whereas data is read with the group `"$auto"`.
 
@@ -77,7 +77,7 @@ XML view sample: Declares controls which create the context binding \(in the `Si
 
 On instantiation of an OData V4 model, you can provide both a group ID and an update group ID; they are used as defaults if the corresponding binding parameter is not specified. The default for the group ID is `"$auto"`. The value of group ID is used as a default for the update group ID.
 
-For explicit requests, the group ID can be specified as an optional parameter to the corresponding API method. The group ID or update group ID of the binding is used as a default. For more information, see the [ODataContextBinding.execute](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute), [ODataContextBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh), [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh), [ODataPropertyBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh) and [ODataPropertyBinding.setValue](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/setValue) API documentation in the Demo Kit.
+For explicit requests, the group ID can be specified as an optional parameter to the corresponding API method. The group ID or update group ID of the binding is used as a default. For more information, see the [ODataContextBinding.execute](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute), [ODataContextBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh), [ODataListBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh), [ODataPropertyBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh) and [ODataPropertyBinding.setValue](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/setValue) API documentation in the Demo Kit.
 
 ***
 
@@ -144,7 +144,7 @@ onSaveSalesOrder : function (oEvent) {
 
 ### Repeating Property Changes
 
-The OData V4 model automatically repeats failed property changes \(PATCH requests\). If the update group ID has [SubmitMode.API](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode.API) and the property change of the entity on the server fails, the change is repeated with the next call of [ODataModel.submitBatch](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) for this group. If the update group ID has [SubmitMode.Auto](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode.Auto) or [SubmitMode.Direct](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode.Direct) and the change fails, the change is repeated automatically with the next update for the entity. Since 1.67.0, [ODataModel.submitBatch](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) can also be used for update group IDs with [SubmitMode.Auto](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.SubmitMode.Auto) in order to repeat, independently of an update.
+The OData V4 model automatically repeats failed property changes \(PATCH requests\). If the update group ID has [SubmitMode.API](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode.API) and the property change of the entity on the server fails, the change is repeated with the next call of [ODataModel.submitBatch](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) for this group. If the update group ID has [SubmitMode.Auto](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode.Auto) or [SubmitMode.Direct](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode.Direct) and the change fails, the change is repeated automatically with the next update for the entity. Since 1.67.0, [ODataModel.submitBatch](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch) can also be used for update group IDs with [SubmitMode.Auto](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode.Auto) in order to repeat, independently of an update.
 
 The same holds true for [Creating an Entity](Creating_an_Entity_c9723f8.md).
 
@@ -181,23 +181,23 @@ The following example shows how to set the submit mode `sap.ui.model.odata.v4.Su
 **Related Information**  
 
 
-[ODataModel.submitBatch](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch)
+[ODataModel.submitBatch](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/submitBatch)
 
-[ODataModel.bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindList)
+[ODataModel.bindList](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindList)
 
-[ODataModel.bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext)
+[ODataModel.bindContext](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext)
 
-[ODataModel.bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty)
+[ODataModel.bindProperty](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty)
 
-[ODataContextBinding.execute](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute)
+[ODataContextBinding.execute](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute)
 
-[ODataContextBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh)
+[ODataContextBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh)
 
-[ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh)
+[ODataListBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh)
 
-[ODataPropertyBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh)
+[ODataPropertyBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh)
 
-[ODataPropertyBinding.setValue](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/setValue)
+[ODataPropertyBinding.setValue](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/setValue)
 
 [OData V4 Specification Part 1, Batch Requests](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html)
 

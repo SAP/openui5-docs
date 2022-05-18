@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e659bd2383524a05b716916bcda9b368) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e659bd2383524a05b716916bcda9b368)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e659bd2383524a05b716916bcda9b368) | [demo kit latest release](https://sdk.openui5.org/topic/e659bd2383524a05b716916bcda9b368)</div>
 
 ## What's New in OpenUI5 1.40
 
 With this release, OpenUI5 is upgraded from version 1.38 to 1.40.
 
-In the following sections, we list the main new features and enhancements to OpenUI5. For a complete, detailed list of all new and enhanced functions, see: [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
+In the following sections, we list the main new features and enhancements to OpenUI5. For a complete, detailed list of all new and enhanced functions, see: [Change Log](https://sdk.openui5.orgreleasenotes.html).
 
 ***
 
@@ -42,7 +42,7 @@ As of this version, OpenUI5 only contains one version of jQuery \(the current ve
 
 You can use a caching mechanism to speed up processing times of XML views that make heavy use of the preprocessor feature. To make sure that the cache always contains the latest view data, invalidate the cache whenever the data that is needed for preprocessing changes. When the cache is invalidated, all resources are processed again and the cache gets filled with new data. For more information, see [XML View Cache](XML_View_Cache_3d85d5e.md).
 
-Parts of this feature are currently still experimental! For more information, see [API Reference: `sap.ui.xmlview`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.xmlview). 
+Parts of this feature are currently still experimental! For more information, see [API Reference: `sap.ui.xmlview`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.xmlview). 
 
 ***
 
@@ -68,32 +68,32 @@ The second version of the OpenUI5 OData V4 model introduces the following featur
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double check the detailed documentation of the features, as certain parts of a feature may be missing although you might expect these parts as given. While we aimed at being compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(like tree binding\). The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [sample](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 ***
 
 ### Improved Controls
 
--   **`sap.m.GenericTile`**: The `GenericTile` control can be implemented as slide tile. The animated content of the slide tile now includes a navigation option to pause the slide show or to navigate forward or backward to the slide. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.SlideTile/preview) in the Demo Kit.
+-   **`sap.m.GenericTile`**: The `GenericTile` control can be implemented as slide tile. The animated content of the slide tile now includes a navigation option to pause the slide show or to navigate forward or backward to the slide. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.GenericTile), and the [sample](https://sdk.openui5.org/sample/sap.m.sample.SlideTile/preview) in the Demo Kit.
 
--   **`sap.m.IconTabHeaderMode`**: A new `IconTabBar` property, `headerMode`, has been introduced. It accepts `sap.m.IconTabHeaderMode.Standard` and `sap.m.IconTabHeaderMode.Inline` values. Inline mode forces the tab text and item number to be on the same row. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeaderMode), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarInlineMode/preview) in the Demo Kit.
+-   **`sap.m.IconTabHeaderMode`**: A new `IconTabBar` property, `headerMode`, has been introduced. It accepts `sap.m.IconTabHeaderMode.Standard` and `sap.m.IconTabHeaderMode.Inline` values. Inline mode forces the tab text and item number to be on the same row. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.IconTabHeaderMode), and the [sample](https://sdk.openui5.org/sample/sap.m.sample.IconTabBarInlineMode/preview) in the Demo Kit.
 
--   **`sap.m.Page`**: The `Page` control now offers a floating footer. This new feature helps unify the look-and-feel of page controls and also improves the visibility of the actions located in the footer. The floating footer can be switched on with the `toggleFooter` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Page/methods/setFloatingFooter), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PageFloatingFooter/preview) in the Demo Kit.
+-   **`sap.m.Page`**: The `Page` control now offers a floating footer. This new feature helps unify the look-and-feel of page controls and also improves the visibility of the actions located in the footer. The floating footer can be switched on with the `toggleFooter` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Page/methods/setFloatingFooter), and the [sample](https://sdk.openui5.org/sample/sap.m.sample.PageFloatingFooter/preview) in the Demo Kit.
 
 -   **`sap.m.OverflowToolbar`**: The overflow menu is now configurable to remain open if the selected element triggers `sap.m.ActionSheet` or `sap.m.Popover`.
 
 -   **`sap.m.RangeSlider`**:
 
-    -   The tooltips above the handles of the `RangeSlider` can be used to define values for the slider. This eases the interaction with the control and helps users to enter precise values. You can enable this by setting the `inputsAsTooltips` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.RangeSlider/methods/setInputsAsTooltips) in the Demo Kit.
+    -   The tooltips above the handles of the `RangeSlider` can be used to define values for the slider. This eases the interaction with the control and helps users to enter precise values. You can enable this by setting the `inputsAsTooltips` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.RangeSlider/methods/setInputsAsTooltips) in the Demo Kit.
 
-    -   You can now move the entire selected range. Selecting and holding the range line moves the whole range. For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.RangeSlider/preview) in the Demo Kit.
+    -   You can now move the entire selected range. Selecting and holding the range line moves the whole range. For more information, see the [sample](https://sdk.openui5.org/sample/sap.m.sample.RangeSlider/preview) in the Demo Kit.
 
 
--   **`sap.m.Text`**: Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can disable this by setting the wrapping property to `false`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Text/methods/setWrapping) in the Demo Kit.
+-   **`sap.m.Text`**: Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can disable this by setting the wrapping property to `false`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Text/methods/setWrapping) in the Demo Kit.
 
 -   **`sap.m.TimePicker`**: The `TimePicker` control now has configurable step precision for minutes and seconds.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePicker) in the Demo Kit.
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TimePicker) in the Demo Kit.
 
 -   **`sap.ui.core.format.NumberFormat`**: You can now use the `shortRefNumber` option to calculate all numbers in one screen, especially for charts, based on the same scaling factor. With the `showScale` option, you can show or hide the scaling factor in the formatted number. The scaling takes the current locale into account.
 

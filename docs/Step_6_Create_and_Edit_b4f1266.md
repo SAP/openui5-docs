@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b4f12660538147f8839b05cb03f1d478) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b4f12660538147f8839b05cb03f1d478)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b4f12660538147f8839b05cb03f1d478) | [demo kit latest release](https://sdk.openui5.org/topic/b4f12660538147f8839b05cb03f1d478)</div>
 
 ## Step 6: Create and Edit
 
@@ -30,7 +30,7 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.06/preview).
+You can view and download all files at [OData V4 - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.06/preview).
 
 ***
 
@@ -378,7 +378,7 @@ We add a new *Add User* button to the overflow toolbar in the table header, and 
 
 Finally, we add the `liveChange="onInputChange"` event handler to the table cells to make it possible to react to user input. In addition, we set the `valueLiveUpdate` properties for the fields for `UserName` and `Age`. That makes sure that the OpenUI5 types validate the field content with each keystroke.
 
-Creation via a form is demonstrated in our [Sales Orders sample app](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders).
+Creation via a form is demonstrated in our [Sales Orders sample app](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders).
 
 ***
 
@@ -430,5 +430,5 @@ We add the new message texts.
 
 [Message Model](Message_Model_8956f0a.md "The message model contains all messages and is used to bind to the messages to display them.")
 
-[API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1ffe611194b4c7891772b0cce84648e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://sdk.openui5.org/topic/d1ffe611194b4c7891772b0cce84648e)</div>
 
 ## Step 5: Using Object Page Layout as a Detail Page
 
@@ -37,7 +37,7 @@ Compared to `sap.f.DynamicPage`, the `sap.uxap.ObjectPageLayout` can provide a m
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 5](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.05/preview).
+You can view and download all files at [Flexible Column Layout App - Step 5](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.05/preview).
 
 ***
 

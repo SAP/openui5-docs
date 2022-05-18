@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0d8ab6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0d8ab6f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f0d8ab6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f0d8ab6f4d1014b6dd926db0e91070)</div>
 
 ## Binding Types
 
@@ -31,7 +31,7 @@ Depending on the different use cases, you can use different binding types: Prope
     > 
     > This means that controls that don't support paging or don't request data in chunks \(e.g. `sap.m.ComboBox`\) only show 100 entries even though the model contains more items.
     > 
-    > To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the  [`sap.ui.base.ManagedObject#bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
+    > To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the  [`sap.ui.base.ManagedObject#bindAggregation`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
 
 
 -   **[Property Binding](Property_Binding_91f0652.md "With property binding, you can initialize properties of a control automatically and

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4b0c51965ebd40059daf3419ba35f694)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4b0c51965ebd40059daf3419ba35f694) | [demo kit latest release](https://sdk.openui5.org/topic/4b0c51965ebd40059daf3419ba35f694)</div>
 
 ## Basic Example How to Use Gherkin
 
@@ -34,7 +34,7 @@ The ideal pattern for a BDD iteration goes like this:
 
 
 > ### Note:  
-> You can find the code for this example in the *Samples* in the Demo Kit at [Using Gherkin with OPA5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithOPA5/preview).
+> You can find the code for this example in the *Samples* in the Demo Kit at [Using Gherkin with OPA5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithOPA5/preview).
 
 ***
 
@@ -95,7 +95,7 @@ sap.ui.define([
 
 To execute Gherkin tests, you need to find a version of SAPUI5 or OpenUI5 that works for you. Here are some possibilities, sorted in order from most stable to least stable:
 
--   Stable: `https://ui5.sap.com/resources/sap-ui-core.js` or `https://openui5.hana.ondemand.com/resources/sap-ui-core.js`
+-   Stable: `https://sdk.openui5.org/resources/sap-ui-core.js` or `https://sdk.openui5.org/resources/sap-ui-core.js`
 
 -   Beta: `https://openui5beta.hana.ondemand.com/resources/sap-ui-core.js`
 

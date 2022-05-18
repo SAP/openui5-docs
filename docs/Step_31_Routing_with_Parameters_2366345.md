@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2366345a94f64ec1a80f9d9ce50a59ef) | [demo kit latest release](https://sdk.openui5.org/topic/2366345a94f64ec1a80f9d9ce50a59ef)</div>
 
 ## Step 31: Routing with Parameters
 
@@ -28,7 +28,7 @@ To make this work, we have to pass over the information which item has been sele
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 31](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.31/preview).
+You can view and download all files at [Walkthrough - Step 31](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.31/preview).
 
 ```js
 {
@@ -179,7 +179,7 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 
 [Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-[API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
 
-[Samples: `sap.m.routing.Router` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.routing.Router/samples)
+[Samples: `sap.m.routing.Router` ](https://sdk.openui5.org/explored.html#/entity/sap.m.routing.Router/samples)
 

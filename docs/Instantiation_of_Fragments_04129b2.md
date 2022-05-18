@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04129b2798c447368f4c8922c3c33cd7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04129b2798c447368f4c8922c3c33cd7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/04129b2798c447368f4c8922c3c33cd7) | [demo kit latest release](https://sdk.openui5.org/topic/04129b2798c447368f4c8922c3c33cd7)</div>
 
 ## Instantiation of Fragments
 
@@ -45,7 +45,7 @@ this.loadFragment({
 
 ### Generic Instantiation of Fragments
 
-The generic function `sap.ui.core.Fragment.load()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller; for more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load). 
+The generic function `sap.ui.core.Fragment.load()` can be called with either the name, the type, and optionally a controller, or with a configuration object and an optional controller; for more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load). 
 
 It either returns the root control contained in the fragment or an array of root controls, depending on the type of the fragment. OpenUI5 offers three types: `XML`, `HTML`, and `JS`.
 
@@ -93,7 +93,7 @@ Instead of defining fragments externally in a separate file, they can also be de
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.mvc.Controller.prototype.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment)
+[API Reference: `sap.ui.core.mvc.Controller.prototype.loadFragment`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/loadFragment)
 
-[API Reference: `sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load)
+[API Reference: `sap.ui.core.Fragment.load`](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load)
 

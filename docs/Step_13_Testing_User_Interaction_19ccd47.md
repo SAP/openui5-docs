@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19ccd473c9a14c2ab7529303a2232d2c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19ccd473c9a14c2ab7529303a2232d2c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/19ccd473c9a14c2ab7529303a2232d2c) | [demo kit latest release](https://sdk.openui5.org/topic/19ccd473c9a14c2ab7529303a2232d2c)</div>
 
 ## Step 13: Testing User Interaction
 
@@ -26,7 +26,7 @@ In this step we want to write a test that simulates user interaction with an ico
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 13](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.13/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.13/preview).
 
 ***
 
@@ -153,7 +153,7 @@ In the `assert` part we add a new assertion for checking the visibility of a con
 **Related Information**  
 
 
-[API Reference: `sap.m.IconTabBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.IconTabBar.html)
+[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.orgdocs/api/symbols/sap.m.IconTabBar.html)
 
-[API Overview and Samples: `sap.m.IconTabBar` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.IconTabBar/samples)
+[API Overview and Samples: `sap.m.IconTabBar` ](https://sdk.openui5.org/explored.html#/entity/sap.m.IconTabBar/samples)
 

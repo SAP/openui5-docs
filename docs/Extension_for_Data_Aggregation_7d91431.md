@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7d914317c0b64c23824bf932cc8a4ae1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7d914317c0b64c23824bf932cc8a4ae1) | [demo kit latest release](https://sdk.openui5.org/topic/7d914317c0b64c23824bf932cc8a4ae1)</div>
 
 ## Extension for Data Aggregation
 
 The OData V4 Model supports features of the OData Extension for Data Aggregation V4.0 specification.
 
-The `$$aggregation` binding parameter at [`sap.ui.model.odata.v4.ODataModel#bindList`](https://openui5.hana.ondemand.com/#api/sap.ui.model.odata.v4.ODataModel/methods/bindList) holds the information needed for data aggregation. It may be changed by [`sap.ui.model.odata.v4.ODataListBinding#setAggregation`](https://openui5.hana.ondemand.com/#api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It cannot be combined with an explicit system query option `$apply`, because it implicitly derives `$apply`. For more information, see the [OData Extension for Data Aggregation V4.0 specification](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/odata-data-aggregation-ext-v4.0.html).
+The `$$aggregation` binding parameter at [`sap.ui.model.odata.v4.ODataModel#bindList`](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataModel/methods/bindList) holds the information needed for data aggregation. It may be changed by [`sap.ui.model.odata.v4.ODataListBinding#setAggregation`](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It cannot be combined with an explicit system query option `$apply`, because it implicitly derives `$apply`. For more information, see the [OData Extension for Data Aggregation V4.0 specification](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/odata-data-aggregation-ext-v4.0.html).
 
 For every aggregatable property, you can provide the name of the custom aggregate for a corresponding currency or unit of measure. That custom aggregate must return the single value of a unit in case there is only one, or `null` otherwise \("multi-unit situation"\). For SQL-based services, this might be implemented as follows:
 
@@ -123,7 +123,7 @@ For aggregatable properties where grand total or subtotal values are requested, 
 -   at both the top and bottom,
 -   at the top only \(default\).
 
-Use the `grandTotalAtBottomOnly` or `subtotalsAtBottomOnly` property with values `true` or `false`, respectively, or simply omit it. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation) in the Demo Kit.
+Use the `grandTotalAtBottomOnly` or `subtotalsAtBottomOnly` property with values `true` or `false`, respectively, or simply omit it. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation) in the Demo Kit.
 
 ***
 
@@ -139,7 +139,7 @@ Filters are provided to the list binding as described in [Filtering](Filtering_5
 
 ### Search Before Data Aggregation
 
-You can provide a search string to be applied before data aggregation via the `oAggregation.search` parameter of [ODataListBinding\#setAggregation](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It works like the ["5.1.7 System Query Option $search"](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752364), but is applied before data aggregation, not after it. Note that certain content will break the syntax of the `$apply` system query option when embedded into a `search()` transformation and thus result in an invalid request. If the OData service supports the [ODATA-1452](https://issues.oasis-open.org/browse/ODATA-1452) proposal, then the command `ODataUtils.formatLiteral(sSearch, "Edm.String");` should be used to encapsulate the whole search string beforehand \(see [sap.ui.model.odata.v4.ODataUtils.formatLiteral](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataUtils/methods/sap.ui.model.odata.v4.ODataUtils.formatLiteral)\). Otherwise, it might be wise to restrict your search input accordingly.
+You can provide a search string to be applied before data aggregation via the `oAggregation.search` parameter of [ODataListBinding\#setAggregation](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It works like the ["5.1.7 System Query Option $search"](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752364), but is applied before data aggregation, not after it. Note that certain content will break the syntax of the `$apply` system query option when embedded into a `search()` transformation and thus result in an invalid request. If the OData service supports the [ODATA-1452](https://issues.oasis-open.org/browse/ODATA-1452) proposal, then the command `ODataUtils.formatLiteral(sSearch, "Edm.String");` should be used to encapsulate the whole search string beforehand \(see [sap.ui.model.odata.v4.ODataUtils.formatLiteral](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataUtils/methods/sap.ui.model.odata.v4.ODataUtils.formatLiteral)\). Otherwise, it might be wise to restrict your search input accordingly.
 
 ***
 

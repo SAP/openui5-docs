@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69a8e469fbde46e7b8916250080effbd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://sdk.openui5.org/topic/69a8e469fbde46e7b8916250080effbd)</div>
 
 ## The Device API
 
@@ -44,7 +44,7 @@ An API for screen width change events is available under `sap.ui.Device.media`. 
 -   SAP\_STANDARD\_EXTENDED: A 4-step range set \(Phone, Tablet, Desktop, LargeDesktop\)
 
 
-For more information about the exact values and corresponding css classes, see [sap.ui.Device.media.RANGESETS](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.media.RANGESETS.html) in the *API Reference* in the Demo Kit.
+For more information about the exact values and corresponding css classes, see [sap.ui.Device.media.RANGESETS](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.media.RANGESETS.html) in the *API Reference* in the Demo Kit.
 
 The range sets described above will add a CSS class to the body element of the HTML according to the following pattern: `sapUiMedia-Std-NAME_OF_THE_INTERVAL` and `sapUiMedia-StdExt-NAME_OF_THE_INTERVAL`.
 
@@ -96,5 +96,5 @@ In your event handler, you can then easily check for the current interval or int
 
 If your use case requires it, you can also define your own range set, which would again require explicit initialization from your side.
 
-For more information, see [sap.ui.Device.media.initRangeSet](https://openui5.hana.ondemand.com/#/api/sap.ui.Device.media/methods/sap.ui.Device.media.initRangeSet) in the *API Reference* in the Demo Kit.
+For more information, see [sap.ui.Device.media.initRangeSet](https://sdk.openui5.org/api/sap.ui.Device.media/methods/sap.ui.Device.media.initRangeSet) in the *API Reference* in the Demo Kit.
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/05ce1dc72c74475bada39234f6721f21) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/05ce1dc72c74475bada39234f6721f21)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/05ce1dc72c74475bada39234f6721f21) | [demo kit latest release](https://sdk.openui5.org/topic/05ce1dc72c74475bada39234f6721f21)</div>
 
 ## What's New in OpenUI5 1.44
 
@@ -46,7 +46,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Caution:  
 > **Incompatibility Due to Bug Fix**
 > 
-> The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. Due to the bug, however, the return value wraps the expected output which can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.
+> The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. Due to the bug, however, the return value wraps the expected output which can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.
 > 
 > **If you have used this workaround, your application will break starting with OpenUI5 version 1.44.6.**
 > 
@@ -55,31 +55,31 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies controls such as `TreeTable` and `AnalyticalTable` which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [sample](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 ***
 
 #### OData V2 Model
 
-For OData V2 models, the V2 annotation `‘sap:visible=”false”’` is now also converted to V4 annotation `‘"com.sap.vocabularies.UI.v1.Hidden" : { "Bool" : "true" }’`. The old V4 annotation `‘"com.sap.vocabularies.Common.v1.FieldControl": { "EnumMember" : "com.sap.vocabularies.Common.v1.FieldControlType/Hidden" }’` has been deprecated. For more information, see [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataMetaModel). 
+For OData V2 models, the V2 annotation `‘sap:visible=”false”’` is now also converted to V4 annotation `‘"com.sap.vocabularies.UI.v1.Hidden" : { "Bool" : "true" }’`. The old V4 annotation `‘"com.sap.vocabularies.Common.v1.FieldControl": { "EnumMember" : "com.sap.vocabularies.Common.v1.FieldControlType/Hidden" }’` has been deprecated. For more information, see [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2) and the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMetaModel). 
 
 ***
 
 #### One Page Acceptance Tests \(OPA5\)
 
-You can now check for empty aggregations in your OPA test with the `AggregationEmpty` matcher. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.test.matchers.AggregationEmpty).
+You can now check for empty aggregations in your OPA test with the `AggregationEmpty` matcher. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.test.matchers.AggregationEmpty).
 
 ***
 
 ### Improved Controls
 
--   `sap.f.DynamicPage`: Using the new property `toggleHeaderOnTitleClick`, you can now disable the feature to expand and collapse the `DynamicPageHeader` with a title click . The default value for this property is set to `true` so that any existing apps using the `DynamicPage` control are not affected. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPage) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.DynamicPageListReport/preview).
+-   `sap.f.DynamicPage`: Using the new property `toggleHeaderOnTitleClick`, you can now disable the feature to expand and collapse the `DynamicPageHeader` with a title click . The default value for this property is set to `true` so that any existing apps using the `DynamicPage` control are not affected. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.DynamicPage) and the [sample](https://sdk.openui5.org/sample/sap.f.sample.DynamicPageListReport/preview).
 
--   `sap.m.Dialog`: We have enabled custom handling for the *Close* button. App developers can check for unsaved changes and prevent the dialog from being closed. This is done with the new property `escapeHandler` of type function. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Dialog/methods/getEscapeHandler) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Dialog/preview).
+-   `sap.m.Dialog`: We have enabled custom handling for the *Close* button. App developers can check for unsaved changes and prevent the dialog from being closed. This is done with the new property `escapeHandler` of type function. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Dialog/methods/getEscapeHandler) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.Dialog/preview).
 
--   `sap.m.GenericTile`: With the new `LineMode`, you can switch the visualization of the Generic Tile on a web page or on the SAP Fiori launchpad from the rectangular format to an in-line format. This reduces the space that is used. You perform the switch by changing the value of the `mode` property, but keeping all other settings as already set. After the switch, the control's ID and contents stay the same; only the header and subheader are rendered. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTileMode) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.GenericTileLineMode/preview).
+-   `sap.m.GenericTile`: With the new `LineMode`, you can switch the visualization of the Generic Tile on a web page or on the SAP Fiori launchpad from the rectangular format to an in-line format. This reduces the space that is used. You perform the switch by changing the value of the `mode` property, but keeping all other settings as already set. After the switch, the control's ID and contents stay the same; only the header and subheader are rendered. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.GenericTileMode) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.GenericTileLineMode/preview).
 
--   `sap.m.HeaderContainer`: The `HeaderContainer` control has been moved from the `sap.suite.ui.commons` library to the `sap.m` library, to improve control consumption. The visual design of the control has been updated to SAP Fiori 2.0 and to the Belize theme. In addition, the API has been reworked to get a clear naming of properties, aggregations, events, and API descriptions. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.HeaderContainer) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.HeaderContainer).
+-   `sap.m.HeaderContainer`: The `HeaderContainer` control has been moved from the `sap.suite.ui.commons` library to the `sap.m` library, to improve control consumption. The visual design of the control has been updated to SAP Fiori 2.0 and to the Belize theme. In addition, the API has been reworked to get a clear naming of properties, aggregations, events, and API descriptions. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.HeaderContainer) and the [sample](https://sdk.openui5.org/entity/sap.m.HeaderContainer).
 
 -   `sap.m.IconTabBar`:
 
@@ -88,9 +88,9 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
     -   We have added a new property, `headerBackgroundDesign`, to change the header background and thus align with the new visual design. Possible values are `Solid`, `Transparent`, and `Translucent`.
 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar/methods/getEnableTabReordering) and the samples [Tabs Drag and Drop](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview) and [Background Design](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarBackgroundDesign/preview). 
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.IconTabBar/methods/getEnableTabReordering) and the samples [Tabs Drag and Drop](https://sdk.openui5.org/sample/sap.m.sample.IconTabBarDragDrop/preview) and [Background Design](https://sdk.openui5.org/sample/sap.m.sample.IconTabBarBackgroundDesign/preview). 
 
--   `sap.m.List` and `sap.m.Table`: You can now highlight items, for example to indicate an error. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase).
+-   `sap.m.List` and `sap.m.Table`: You can now highlight items, for example to indicate an error. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ListItemBase).
 
 -   `sap.m.NotificationListItem` and `sap.m.NotificationListGroup`: We have implemented several new features:
 
@@ -103,15 +103,15 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
     -   We have added an event to trigger when the `NotificationListGroup` is expanded or collapsed. The event is called `onCollapse`.
 
 
-    For more information, see the samples [Notification List Item](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
+    For more information, see the samples [Notification List Item](https://sdk.openui5.org/sample/sap.m.sample.NotificationListItem/preview) and [Notification List Group with Max Number of Notifications Reached](https://sdk.openui5.org/sample/sap.m.sample.MaxNumberOfNotificationsReached/preview). 
 
--   `sap.m.PlanningCalendar`: A new `week` view is now available for the `PlanningCalendar` control. It displays a full calendar week that alway starts from the first day of the week \(locale-dependent\) for the corresponding calendar types \(Gregorian, Islamic, Japanese\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendar/preview).
+-   `sap.m.PlanningCalendar`: A new `week` view is now available for the `PlanningCalendar` control. It displays a full calendar week that alway starts from the first day of the week \(locale-dependent\) for the corresponding calendar types \(Gregorian, Islamic, Japanese\). For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendar) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.PlanningCalendar/preview).
 
--   `sap.m.Slider` and `sap.m.RangeSlider`: We have implemented responsive tickmarks for the slider controls. The tickmarks are enabled with the `enableTickmarks` property. The number of visible tickmarks depends on the step size and the slider minimum and maximum values. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/methods/getEnableTickmarks) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Slider/preview).
+-   `sap.m.Slider` and `sap.m.RangeSlider`: We have implemented responsive tickmarks for the slider controls. The tickmarks are enabled with the `enableTickmarks` property. The number of visible tickmarks depends on the step size and the slider minimum and maximum values. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Slider/methods/getEnableTickmarks) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.Slider/preview).
 
      ![](images/loiobf5c44ab603347caa69c729da549cd0f_LowRes.png) 
 
--   `sap.m.UploadCollection`: The sorting and filtering feature has been enhanced. You can now also display the *Filtered by* information in the info toolbar in the `UploadCollection` control. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
+-   `sap.m.UploadCollection`: The sorting and filtering feature has been enhanced. You can now also display the *Filtered by* information in the info toolbar in the `UploadCollection` control. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.UploadCollection) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
 
 -   `sap.ui.table.*`:
 

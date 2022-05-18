@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82b4c217d78448159bdf9ac1047865b1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/82b4c217d78448159bdf9ac1047865b1) | [demo kit latest release](https://sdk.openui5.org/topic/82b4c217d78448159bdf9ac1047865b1)</div>
 
 ## Content or Control Is Not Visible
 

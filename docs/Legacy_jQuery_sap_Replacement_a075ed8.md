@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a075ed88ef324261bca41813a6ac4a1c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a075ed88ef324261bca41813a6ac4a1c) | [demo kit latest release](https://sdk.openui5.org/topic/a075ed88ef324261bca41813a6ac4a1c)</div>
 
 ## Legacy jQuery.sap Replacement
 

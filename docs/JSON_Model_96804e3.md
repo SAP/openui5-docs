@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/96804e3315ff440aa0a50fd290805116) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/96804e3315ff440aa0a50fd290805116)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/96804e3315ff440aa0a50fd290805116) | [demo kit latest release](https://sdk.openui5.org/topic/96804e3315ff440aa0a50fd290805116)</div>
 
 ## JSON Model
 
@@ -43,7 +43,7 @@ oModel.loadData("data.json");
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.json.JSONModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.json.JSONModel.html)
+[API Reference: `sap.ui.model.json.JSONModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.json.JSONModel.html)
 
  <a name="loio50357d719b35439984348080bcbb14a4"/>
 

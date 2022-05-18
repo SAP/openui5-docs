@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/851bde42e4e1410c96abbe402fa9128c) | [demo kit latest release](https://sdk.openui5.org/topic/851bde42e4e1410c96abbe402fa9128c)</div>
 
 ## Step 1: Ready...
 
@@ -30,7 +30,7 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
 
 ### Coding
 
-You can view and download all files at [Quick Start - Step 1](https://openui5.hana.ondemand.com/#/sample/sap.m.tutorial.quickstart.01/preview).
+You can view and download all files at [Quick Start - Step 1](https://sdk.openui5.org/sample/sap.m.tutorial.quickstart.01/preview).
 
 ***
 
@@ -43,7 +43,7 @@ You can view and download all files at [Quick Start - Step 1](https://openui5.ha
 	<meta charset="utf-8">
 	<title>Quickstart Tutorial</title>
 	<script id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-resourceroots='{"Quickstart": "./"}'

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://sdk.openui5.org/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
 
 ## Busy Indicators
 
@@ -39,7 +39,7 @@ To release the UI again, the busy indication must be hidden again. This function
 sap.ui.core.BusyIndicator.hide();
 ```
 
-[API Reference: `sap.ui.core.BusyIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.BusyIndicator.html)
+[API Reference: `sap.ui.core.BusyIndicator`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.BusyIndicator.html)
 
 ***
 
@@ -47,9 +47,9 @@ sap.ui.core.BusyIndicator.hide();
 
 With the `sap.m.BusyDialog` busy indicator, you can block the whole UI like you do with `sap.ui.core.BusyIndicator`, but you can also show a dialog box. In this dialog box, you can also include a *Cancel* button that users can choose to stop the activity that's running in the background.
 
-[API Reference: `sap.m.BusyDialog`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.BusyDialog.html)
+[API Reference: `sap.m.BusyDialog`](https://sdk.openui5.orgdocs/api/symbols/sap.m.BusyDialog.html)
 
-[API Overview and Samples: `sap.m.BusyDialog`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.BusyDialog/samples)
+[API Overview and Samples: `sap.m.BusyDialog`](https://sdk.openui5.org/explored.html#/entity/sap.m.BusyDialog/samples)
 
 ***
 
@@ -93,9 +93,9 @@ To change the default delay of the local busy indicator, use:
 oMyListBox.setBusyIndicatorDelay(<number>);
 ```
 
-[API Reference: `sap.m.BusyIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.BusyIndicator.html)
+[API Reference: `sap.m.BusyIndicator`](https://sdk.openui5.orgdocs/api/symbols/sap.m.BusyIndicator.html)
 
-[API Overview and Samples: `sap.m.BusyIndicator`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.BusyIndicator/samples)
+[API Overview and Samples: `sap.m.BusyIndicator`](https://sdk.openui5.org/explored.html#/entity/sap.m.BusyIndicator/samples)
 
-[API Overview and Samples: `sap.ui.core.Control`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.Control/samples)
+[API Overview and Samples: `sap.ui.core.Control`](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.Control/samples)
 

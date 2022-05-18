@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5531aef1adc8462392a5b8fe1178606e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5531aef1adc8462392a5b8fe1178606e) | [demo kit latest release](https://sdk.openui5.org/topic/5531aef1adc8462392a5b8fe1178606e)</div>
 
 ## What's New in OpenUI5 1.68
 
@@ -40,7 +40,7 @@ The `RenderManager` class provides a new way of semantic rendering for controls.
 
 To enable this type of rendering, set the `apiVersion` property of the control renderer to *2*.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.RenderManager).
 
 
 
@@ -53,7 +53,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 Using our newly developed tool - Card Explorer - you can explore and learn more about the UI Integration Cards. You can find the Card Explorer in the tool section of the Demo Kit. ![](images/loio2bcad31f5feb43f58aaa93271a469e0f_LowRes.png)
 
- For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
+ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
 
 
 
@@ -86,7 +86,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing freestyle and Fiori elements applications. Double check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel).
 
 
 
@@ -107,7 +107,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 **`sap.f.DynamicPage`**
 
-You can now change the background color of the `DynamicPage` control by using the new `backgroundDesign` property.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPage).
+You can now change the background color of the `DynamicPage` control by using the new `backgroundDesign` property.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.DynamicPage).
 
 
 
@@ -120,7 +120,7 @@ You can now change the background color of the `DynamicPage` control by using th
 
 We have enhanced the drag and drop functionality. With the new version, we introduced a drop indicator that mimics the size of the dragged item and shows the potential drop position inside the grid. The indicator pushes away other grid items, showing the correct arrangement calculated by the grid’s auto-placement algorithm. The API for the enhanced drag and drop is consistent with the default drag and drop API. This allows you to configure complex behavior.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDrop).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.GridContainer) and the [Sample](https://sdk.openui5.org/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDrop).
 
 
 
@@ -131,7 +131,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 **`sap.m.DatePicker`**
 
-The options displayed in the picker now depend on the display format. For example, if the set `displayFormat` is `MM-y` or `yyyy`, the picker directly displays years with months or only years and the user no longer needs to select a specific day.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DatePicker/sample/sap.m.sample.DatePicker).
+The options displayed in the picker now depend on the display format. For example, if the set `displayFormat` is `MM-y` or `yyyy`, the picker directly displays years with months or only years and the user no longer needs to select a specific day.For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.DatePicker/sample/sap.m.sample.DatePicker).
 
 
 
@@ -142,7 +142,7 @@ The options displayed in the picker now depend on the display format. For exampl
 
 **`sap.m.SelectDialog`, `sap.m.TableSelectDialog`**
 
-Application developers can now customize the text of the confirmation button for the controls. If no specific value is set, the text of the button is set to `Select`. For more information, see the API Reference \([sap.m.SelectDialog](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog), [sap.m.TableSelectDialog](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog)\).
+Application developers can now customize the text of the confirmation button for the controls. If no specific value is set, the text of the button is set to `Select`. For more information, see the API Reference \([sap.m.SelectDialog](https://sdk.openui5.org/api/sap.m.SelectDialog), [sap.m.TableSelectDialog](https://sdk.openui5.org/api/sap.m.TableSelectDialog)\).
 
 
 
@@ -153,7 +153,7 @@ Application developers can now customize the text of the confirmation button for
 
 **`sap.m.SelectDialog`**
 
-We have introduced a new API method called `clearSelection` that allows removing all selections from the `sap.m.SelectDialog` and its internally used list \(`sap.m.List`\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.SelectDialog).
+We have introduced a new API method called `clearSelection` that allows removing all selections from the `sap.m.SelectDialog` and its internally used list \(`sap.m.List`\). For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SelectDialog) and the [Samples](https://sdk.openui5.org/entity/sap.m.SelectDialog).
 
 
 

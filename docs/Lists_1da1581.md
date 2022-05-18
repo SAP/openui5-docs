@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1da158152f644ba1ad408a3e982fd3df)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1da158152f644ba1ad408a3e982fd3df) | [demo kit latest release](https://sdk.openui5.org/topic/1da158152f644ba1ad408a3e982fd3df)</div>
 
 ## Lists
 
@@ -399,8 +399,8 @@ The following types are available for list items:
 
 ### API Reference
 
--   [sap.m.List](https://openui5.hana.ondemand.com/#/api/sap.m.List)
--   [sap.m.ListItemBase](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase)
+-   [sap.m.List](https://sdk.openui5.org/api/sap.m.List)
+-   [sap.m.ListItemBase](https://sdk.openui5.org/api/sap.m.ListItemBase)
 
 -   **[Custom List Item](Custom_List_Item_3e426f1.md "You can use the sap.m.CustomListItem control to create your own layout
 		if the other list items available in OpenUI5 do not fit your

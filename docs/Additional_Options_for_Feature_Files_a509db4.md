@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a509db45afbe42678f33f5b07f4cc35b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a509db45afbe42678f33f5b07f4cc35b) | [demo kit latest release](https://sdk.openui5.org/topic/a509db45afbe42678f33f5b07f4cc35b)</div>
 
 ## Additional Options for Feature Files
 
@@ -309,7 +309,7 @@ In the above steps code, we ask the `dataTableUtils` to use camel case when sett
 
 ```
 
-In this `toTable` format, the data is now easier to work with. There are other transformation functions and normalization functions available. For more information, see [API Reference: `sap.ui.test.gherkin`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.gherkin). 
+In this `toTable` format, the data is now easier to work with. There are other transformation functions and normalization functions available. For more information, see [API Reference: `sap.ui.test.gherkin`](https://sdk.openui5.org/api/sap.ui.test.gherkin). 
 
 If you have specialized normalization needs, you can also create your own normalization function. This is a function that accepts a single string parameter and returns a string. You could, for example, pass your custom normalization function into a `toTable` call like this:
 

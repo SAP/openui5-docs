@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://sdk.openui5.org/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
 
 ## Stable IDs: All You Need to Know
 
@@ -134,7 +134,7 @@ The generated IDs change whenever the control structure of the app changes. The 
     
     ```
 
-    For more information, see [namespace sap.ui](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/view).
+    For more information, see [namespace sap.ui](https://sdk.openui5.org/api/sap.ui/methods/view).
 
 
 
@@ -234,7 +234,7 @@ new Shell({
 ```
 
 > ### Note:  
-> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
+> Only if there's more than one component in an app, the component container requires a stable ID by setting the component container to `autoPrefixId`. For more information, see [sap.ui.core.ComponentContainer](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer).
 
 
 
@@ -303,7 +303,7 @@ If you want to add an embedded component with a stable ID, you have two options:
     [...]
     ```
 
-    Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
+    Alternatively, you could use `sap.ui.core.Component.create()` and specify the `id` property as part of the arguments. For more information, see the [API Reference: `sap.ui.core.Component/methods/sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.create). 
 
 
 > ### Note:  
@@ -365,7 +365,7 @@ Fragment.load({
 Choose names for your stable IDs that describe the semantics of your views and controls, such as *page* or *table*.
 
 > ### Note:  
-> For the allowed sequence of characters, see the [namespace sap.ui.core.ID](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ID). But bear in mind not use hyphens \(-\) as separators in your names as they would interfere with the ones that are added automatically by the framework.
+> For the allowed sequence of characters, see the [namespace sap.ui.core.ID](https://sdk.openui5.org/api/sap.ui.core.ID). But bear in mind not use hyphens \(-\) as separators in your names as they would interfere with the ones that are added automatically by the framework.
 
 Example:
 

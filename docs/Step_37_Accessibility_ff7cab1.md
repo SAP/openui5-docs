@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ff7cab1f271a4181a86e5aa5c2f8d421) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ff7cab1f271a4181a86e5aa5c2f8d421)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ff7cab1f271a4181a86e5aa5c2f8d421) | [demo kit latest release](https://sdk.openui5.org/topic/ff7cab1f271a4181a86e5aa5c2f8d421)</div>
 
 ## Step 37: Accessibility
 
@@ -35,7 +35,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 37](https://openui5.hana.ondemand.com/#/sample/sap.m.tutorial.walkthrough.37/preview).
+You can view and download all files at [Walkthrough - Step 37](https://sdk.openui5.org/sample/sap.m.tutorial.walkthrough.37/preview).
 
 One part of the ARIA attribute set are the so-called landmarks. You can compare landmarks to maps in that they help the user navigate through an app. For this step, we will use Google Chrome with a free [landmark navigation extension](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) We will now add meaningful landmarks to our code.
 
@@ -72,7 +72,7 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 
 ```
 
-We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://openui5.hana.ondemand.com/#/api/sap.m.PageAccessibleLandmarkInfo). 
+We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://sdk.openui5.org/api/sap.m.PageAccessibleLandmarkInfo). 
 
 ***
 

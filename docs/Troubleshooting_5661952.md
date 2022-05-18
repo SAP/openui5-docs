@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5661952e72df471b932eddc10350c081) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5661952e72df471b932eddc10350c081)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5661952e72df471b932eddc10350c081) | [demo kit latest release](https://sdk.openui5.org/topic/5661952e72df471b932eddc10350c081)</div>
 
 ## Troubleshooting
 
@@ -27,7 +27,7 @@ For example, the OpenUI5 tools can help you with the following tasks:
 -   Find out how to improve performance
 
 
-To help you practice using the tools, we created an app with errors that we will use throughout the tutorial. You can view and download the app in the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview).
+To help you practice using the tools, we created an app with errors that we will use throughout the tutorial. You can view and download the app in the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview).
 
 ***
 

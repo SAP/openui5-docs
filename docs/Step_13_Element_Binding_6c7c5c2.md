@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://sdk.openui5.org/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
 
 ## Step 13: Element Binding
 
@@ -26,7 +26,7 @@ Now we want to do something with that newly generated list. In most cases you wi
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 13](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.13/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.13/preview).
 
 ***
 

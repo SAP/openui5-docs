@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ab134ef3932c4b42898c79c10341e8b5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ab134ef3932c4b42898c79c10341e8b5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ab134ef3932c4b42898c79c10341e8b5) | [demo kit latest release](https://sdk.openui5.org/topic/ab134ef3932c4b42898c79c10341e8b5)</div>
 
 ## Step 1: Overview and Testing Strategy
 
@@ -29,7 +29,7 @@ In this step, we will take a look at the prototype and define the test strategy 
 
 ### Coding
 
-To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Testing - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
+To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Testing - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

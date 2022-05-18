@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://sdk.openui5.org/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
 
 ## Configuring Responsive Behavior of a Table
 
@@ -75,7 +75,7 @@ Let's take the same example as before with the *Product* and *Price* columns as 
 
 You can also hide columns with a specific importance in the pop-in area. To achieve this, `hiddenInPopin` must be configured. For example, if you want to hide all columns with `"Low"` and `"Medium"` importance, you can define `hiddenInPopin="Low,Medium"`. Additionally, you can also listen to the `popinChanged` event of the responsive table that is fired for every change of the pop-in area \(columns moved in or out of the pop-in area\).
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableAutoPopin).
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.TableAutoPopin).
 
 > ### Note:  
 > -   The automatic pop-in feature ensures that not all columns move to the pop-in area and there is always at least **one** visible column in the table.
@@ -88,6 +88,6 @@ For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entit
 
 ### API Reference
 
--   [sap.m.Table](https://openui5.hana.ondemand.com/#/api/sap.m.Table)
--   [sap.m.Column](https://openui5.hana.ondemand.com/#/api/sap.m.Column)
+-   [sap.m.Table](https://sdk.openui5.org/api/sap.m.Table)
+-   [sap.m.Column](https://sdk.openui5.org/api/sap.m.Column)
 

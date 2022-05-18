@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3465c8d71b449dba23d557cb2c413aa)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a3465c8d71b449dba23d557cb2c413aa) | [demo kit latest release](https://sdk.openui5.org/topic/a3465c8d71b449dba23d557cb2c413aa)</div>
 
 ## Text Size and Fonts
 

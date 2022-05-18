@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://sdk.openui5.org/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
 
 ## The library.js File
 
 The `library.js` file is a JavaScript file that contains the JavaScript code for all enumeration types provided by the library as well as library-specific initialization code that is independent from the controls in the library.
 
-The file calls the `sap.ui.getCore().initLibrary` method with an object that describes the content of the library \(list of contained controls, elements etc.\). For more informarion about the object parameter, see [sap.ui.getCore\(\).initLibrary](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/initLibrary)
+The file calls the `sap.ui.getCore().initLibrary` method with an object that describes the content of the library \(list of contained controls, elements etc.\). For more informarion about the object parameter, see [sap.ui.getCore\(\).initLibrary](https://sdk.openui5.org/api/sap.ui.core.Core/methods/initLibrary)
 
 The library style sheet file \(`library.css`\) contains all styles relevant for this library. For libraries that have been developed with the SAPUI5 application development tools, this file is also generated automatically during the build.
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/43ae317cf39640a88bc8be979d2671df)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://sdk.openui5.org/topic/43ae317cf39640a88bc8be979d2671df)</div>
 
 ## sap.ui.layout.Grid
 
@@ -115,7 +115,7 @@ Defines the number of columns with which each item is indented for the different
 </tr>
 </table>
 
-More properties are available for defining the horizontal and vertical spacing between the grid items, setting a specific width, defining the position for the grid as a whole, and so on.For more information, see the available properties in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid/controlProperties).
+More properties are available for defining the horizontal and vertical spacing between the grid items, setting a specific width, defining the position for the grid as a whole, and so on.For more information, see the available properties in the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.Grid/controlProperties).
 
 ***
 
@@ -123,7 +123,7 @@ More properties are available for defining the horizontal and vertical spacing b
 
 To achieve a layout where the individual grid items have a different configuration, use `sap.ui.layout.GridData`.
 
-In addition to individual span and indentation, there is a large number of properties that allow for setting the visibility of items and adding line breaks.For more information, see the available properties in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.GridData/controlProperties).
+In addition to individual span and indentation, there is a large number of properties that allow for setting the visibility of items and adding line breaks.For more information, see the available properties in the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.GridData/controlProperties).
 
 ***
 
@@ -235,9 +235,9 @@ Individual span for item2 and item4 using `sap.ui.layout.GridData`
 **Related Information**  
 
 
-[API Reference: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid)
+[API Reference: `sap.ui.layout.Grid`](https://sdk.openui5.org/api/sap.ui.layout.Grid)
 
-[API Reference: `sap.ui.layout.GridData`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.GridData)
+[API Reference: `sap.ui.layout.GridData`](https://sdk.openui5.org/api/sap.ui.layout.GridData)
 
-[Samples: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.Grid)
+[Samples: `sap.ui.layout.Grid`](https://sdk.openui5.org/entity/sap.ui.layout.Grid)
 

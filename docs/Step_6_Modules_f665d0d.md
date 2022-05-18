@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f665d0de4dba405f9af4294de824b03b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f665d0de4dba405f9af4294de824b03b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f665d0de4dba405f9af4294de824b03b) | [demo kit latest release](https://sdk.openui5.org/topic/f665d0de4dba405f9af4294de824b03b)</div>
 
 ## Step 6: Modules
 
@@ -26,7 +26,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.06/preview).
+You can view and download all files at [Walkthrough - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.06/preview).
 
 ```js
 sap.ui.define([
@@ -66,7 +66,7 @@ This Asynchronous Module Definition \(AMD\) syntax allows to clearly separate th
 **Related Information**  
 
 
-[API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
+[API Reference: `sap.ui.define`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define)
 
-[API Reference: `sap.ui.require`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.require)
+[API Reference: `sap.ui.require`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.require)
 

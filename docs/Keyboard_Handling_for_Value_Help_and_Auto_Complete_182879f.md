@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/182879fc8cd84672a11826f63450f258) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/182879fc8cd84672a11826f63450f258)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/182879fc8cd84672a11826f63450f258) | [demo kit latest release](https://sdk.openui5.org/topic/182879fc8cd84672a11826f63450f258)</div>
 
 ## Keyboard Handling for Value Help and Auto-Complete
 

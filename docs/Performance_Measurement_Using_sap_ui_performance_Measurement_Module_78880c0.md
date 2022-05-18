@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/78880c09a1954a02b49c21357d45c91f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://sdk.openui5.org/topic/78880c09a1954a02b49c21357d45c91f)</div>
 
 ## Performance Measurement Using sap/ui/performance/Measurement Module
 
@@ -578,7 +578,7 @@ Measurement.filterMeasurements(function(oMeasurement) {
 **Related Information**  
 
 
-[API Reference: `jQuery.sap.measure.html`](https://openui5.hana.ondemand.com/#docs/api/symbols/jQuery.sap.measure.html)
+[API Reference: `jQuery.sap.measure.html`](https://sdk.openui5.orgdocs/api/symbols/jQuery.sap.measure.html)
 
 [Performance: Speed Up Your App](Performance_Speed_Up_Your_App_408b40e.md "If a web app has performance issues, finding the cause can be both a time-consuming and nerve-consuming task. To help you avoid and solve performance issues in your app, here are some good practices we've discovered while dealing with OpenUI5 apps.")
 

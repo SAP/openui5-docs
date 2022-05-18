@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb19f501b16e4e4991eb6a017770945b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://sdk.openui5.org/topic/fb19f501b16e4e4991eb6a017770945b)</div>
 
 ## Enabling Routing in Nested Components
 
@@ -51,9 +51,9 @@ Use the following configuration to load the component from the target:
 
 -   `usage`: Use the key of the component usage as used in the the `componentUsages` section of the parent component's `manifest.json`.
 
--   `options` \(optional\): Add additional options that are merged with the options defined in the `componentUsage` section, see [sap.ui.core.UIComponent](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent).
+-   `options` \(optional\): Add additional options that are merged with the options defined in the `componentUsage` section, see [sap.ui.core.UIComponent](https://sdk.openui5.org/api/sap.ui.core.UIComponent).
 
--   `containerOptions` \(optional\): Add additional options that are passed to the constructor of the component container where the component is rendered, see [sap.ui.core.ComponentContainer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer).
+-   `containerOptions` \(optional\): Add additional options that are passed to the constructor of the component container where the component is rendered, see [sap.ui.core.ComponentContainer](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer).
 
 
 ```js
@@ -251,5 +251,5 @@ The existing `titleChanged` event is extended with the following properties:
 **Related Information**  
 
 
-[Sample application: Routing with nested components](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.routing.Router/sample/sap.ui.core.sample.RoutingNestedComponent)
+[Sample application: Routing with nested components](https://sdk.openui5.org/entity/sap.ui.core.routing.Router/sample/sap.ui.core.sample.RoutingNestedComponent)
 

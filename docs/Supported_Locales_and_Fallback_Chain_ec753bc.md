@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ec753bc539d748f689e3ac814e129563) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ec753bc539d748f689e3ac814e129563)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ec753bc539d748f689e3ac814e129563) | [demo kit latest release](https://sdk.openui5.org/topic/ec753bc539d748f689e3ac814e129563)</div>
 
 ## Supported Locales and Fallback Chain
 

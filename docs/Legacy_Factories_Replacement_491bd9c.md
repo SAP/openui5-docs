@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://sdk.openui5.org/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
 
 ## Legacy Factories Replacement
 
@@ -14,7 +14,7 @@ Overview of the replacement of global functions with the factory functions
 
 The AMD module syntax already avoids Globals and enforces the strict dependency declaration. The following table shows how APIs which use synchronous requests to fetch modules or resources internally, can be replaced with asynchronous alternatives. The W3C has already deprecated the use of synchronous requests in the browser main thread, so this replacement prepares your applications for the removal of synchronous requests.
 
-The OpenUI5 framework by default uses synchronous requests internally in several places. Most have already been replaced by asynchronous alternatives, or prepared to exchange the synchronous behaviour shown below. The asynchronous adoption starts from the beginning with the bootstrap script tag, where the `async` configuration parameter should be set to `true`. Applications can register an event callback via [`sap.ui.getCore()#attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit). . The examples below show only the most frequently used synchronous APIs. There are more of these APIs, and most often the asynchronous alternatives return a `Promise` that can be used to retrieve the former return value.
+The OpenUI5 framework by default uses synchronous requests internally in several places. Most have already been replaced by asynchronous alternatives, or prepared to exchange the synchronous behaviour shown below. The asynchronous adoption starts from the beginning with the bootstrap script tag, where the `async` configuration parameter should be set to `true`. Applications can register an event callback via [`sap.ui.getCore()#attachInit`](https://sdk.openui5.org/api/sap.ui.core.Core/methods/attachInit). . The examples below show only the most frequently used synchronous APIs. There are more of these APIs, and most often the asynchronous alternatives return a `Promise` that can be used to retrieve the former return value.
 
 
 <table>

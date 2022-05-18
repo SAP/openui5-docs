@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/335848ac1174435c901baaa55f6d7819) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/335848ac1174435c901baaa55f6d7819)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/335848ac1174435c901baaa55f6d7819) | [demo kit latest release](https://sdk.openui5.org/topic/335848ac1174435c901baaa55f6d7819)</div>
 
 ## Using Factory Functions
 

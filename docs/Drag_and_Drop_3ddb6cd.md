@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3ddb6cde6a8d416598ac8ced3f5d82d5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3ddb6cde6a8d416598ac8ced3f5d82d5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3ddb6cde6a8d416598ac8ced3f5d82d5) | [demo kit latest release](https://sdk.openui5.org/topic/3ddb6cde6a8d416598ac8ced3f5d82d5)</div>
 
 ## Drag and Drop
 
@@ -81,7 +81,7 @@ There are some known restrictions when using drag and drop.
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.dnd`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.dnd)
+[API Reference: `sap.ui.core.dnd`](https://sdk.openui5.org/api/sap.ui.core.dnd)
 
-[Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableDnD/preview)
+[Sample](https://sdk.openui5.org/sample/sap.m.sample.TableDnD/preview)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/dc3d3ce46105441db5543049fb1c11e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/dc3d3ce46105441db5543049fb1c11e7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/dc3d3ce46105441db5543049fb1c11e7) | [demo kit latest release](https://sdk.openui5.org/topic/dc3d3ce46105441db5543049fb1c11e7)</div>
 
 ## What's New in OpenUI5 1.75
 
@@ -57,7 +57,7 @@ OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The ne
 
 **Card Explorer**
 
-We have introduced a schema validation feature in our samples in the Card Explorer. With this option, developers can see a more detailed report for mistakes inside the card manifest. Things like wrong names of properties, bad property types or bad structures are easily spotted.For more information, explore the samples in the [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/exploreOverview/types).
+We have introduced a schema validation feature in our samples in the Card Explorer. With this option, developers can see a more detailed report for mistakes inside the card manifest. Things like wrong names of properties, bad property types or bad structures are easily spotted.For more information, explore the samples in the [Card Explorer](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/exploreOverview/types).
 
 
 
@@ -103,7 +103,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 
 
@@ -118,7 +118,7 @@ The `title` property can now also be defined on routing targets of type `Compone
 
 The router of a nested component may also have a `title` property defined on its own target\(s\) and eventually fire its own `titleChanged` event once such a target is displayed. A new configuration `propagateTitle` allows the `titleChanged` event to propagate from an individual `Component` target to the router of its parent component. In the routing configuration, this can also be enabled for all `Component` targets, so that it is not necessary to define the `propagateTitle` property on each `Component` target.
 
-For more information, see [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md) and [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md). In addition, the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.routing.Router/sample/sap.ui.core.sample.RoutingNestedComponent) application introduced in the previous release to feature routing of nested components has been enhanced. It now shows how the new title definition and title propagation could be used in an application built with nested \(or reuse\) components. 
+For more information, see [Using the title Property in Targets](Using_the_title_Property_in_Targets_1238d70.md) and [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md). In addition, the [Sample](https://sdk.openui5.org/entity/sap.ui.core.routing.Router/sample/sap.ui.core.sample.RoutingNestedComponent) application introduced in the previous release to feature routing of nested components has been enhanced. It now shows how the new title definition and title propagation could be used in an application built with nested \(or reuse\) components. 
 
 
 
@@ -139,7 +139,7 @@ For more information, see [Using the title Property in Targets](Using_the_title_
 
 **`sap.m.InitialPagePattern`**
 
-We have introduced the initial page floorplan as a Demo Kit sample. The floorplan allows users to navigate to a single object to view or edit it. The interaction point on the screen is a single input field and it relies on assisted input to direct the user to the object in as few steps as possible \(using features such as value help and live search\). For more information, see the [CardSAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/initial-page-floorplan/)and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.InitialPagePattern/sample/sap.m.sample.InitialPagePattern).
+We have introduced the initial page floorplan as a Demo Kit sample. The floorplan allows users to navigate to a single object to view or edit it. The interaction point on the screen is a single input field and it relies on assisted input to direct the user to the object in as few steps as possible \(using features such as value help and live search\). For more information, see the [CardSAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/initial-page-floorplan/)and the [Sample](https://sdk.openui5.org/entity/sap.m.InitialPagePattern/sample/sap.m.sample.InitialPagePattern).
 
 
 
@@ -152,7 +152,7 @@ We have introduced the initial page floorplan as a Demo Kit sample. The floorpla
 
 The `text` property can now be changed using UI adaptation at runtime. This enables key users to provide meaningful link text according to the application context.
 
-For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Link).
+For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.Link).
 
 
 
@@ -163,7 +163,7 @@ For more information, see the [Samples](https://openui5.hana.ondemand.com/#/enti
 
 **`sap.m.MessageBox`**
 
-We have introduced a new `emphasizedAction` property. This allows developers to specify which button in the dialog will receive the type `Emphasized`. If `emphasizedAction` is empty with no actions provided, the default value applies. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessageBox) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.MessageBox).
+We have introduced a new `emphasizedAction` property. This allows developers to specify which button in the dialog will receive the type `Emphasized`. If `emphasizedAction` is empty with no actions provided, the default value applies. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MessageBox) and the [Samples](https://sdk.openui5.org/entity/sap.m.MessageBox).
 
 
 
@@ -174,7 +174,7 @@ We have introduced a new `emphasizedAction` property. This allows developers to 
 
 **`sap.m.ObjectStatus`**
 
-We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors were added to the palette as numbers 6, 7, and 8. These colors enable developers to represent statuses that don't require a meaning in the sense of good-bad, but should be visually distinguishable. For example, statuses such as Updated, New, or Active. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectStatus) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectStatus/sample/sap.m.sample.ObjectStatus).
+We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors were added to the palette as numbers 6, 7, and 8. These colors enable developers to represent statuses that don't require a meaning in the sense of good-bad, but should be visually distinguishable. For example, statuses such as Updated, New, or Active. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectStatus) and the [Sample](https://sdk.openui5.org/entity/sap.m.ObjectStatus/sample/sap.m.sample.ObjectStatus).
 
 
 
@@ -192,7 +192,7 @@ We have enhanced the capabilities of the Adaptive Card \(Experimental\).
 -   The Adaptive Card supports templating, which enables the separation of data from the layout.
 
 
-For more information, see the [Adaptive Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/adaptive) in the Card Explorer.
+For more information, see the [Adaptive Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/adaptive) in the Card Explorer.
 
 
 

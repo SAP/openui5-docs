@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://sdk.openui5.org/topic/c4b2a32bb72f483faa173e890e48d812)</div>
 
 ## Step 24: Sorting and Grouping
 
@@ -26,7 +26,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 24](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.24/preview).
+You can view and download all files at [Walkthrough - Step 24](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.24/preview).
 
 ```xml
 <mvc:View
@@ -105,7 +105,7 @@ As with the sorter, no further action is required. The list and the data binding
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.Sorter`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Sorter.html)
+[API Reference: `sap.ui.model.Sorter`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Sorter.html)
 
-[Sample: List - Grouping](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.ListGrouping/preview)
+[Sample: List - Grouping](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.ListGrouping/preview)
 

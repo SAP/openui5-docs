@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/82a0fcecc3cb427c91469bc537ebdddf)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/82a0fcecc3cb427c91469bc537ebdddf) | [demo kit latest release](https://sdk.openui5.org/topic/82a0fcecc3cb427c91469bc537ebdddf)</div>
 
 ## Declarative API for Initial Components
 
@@ -75,7 +75,7 @@ The `ComponentSupport` module enforces asynchronous module loading of the compon
 
 For details on the manifest, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
-See also [ `ComponentSupport`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/core/ComponentSupport) and [ `ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer) for more information. 
+See also [ `ComponentSupport`](https://sdk.openui5.org/api/module:sap/ui/core/ComponentSupport) and [ `ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer) for more information. 
 
 ***
 

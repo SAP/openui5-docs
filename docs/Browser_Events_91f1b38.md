@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f1b3856f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f1b3856f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f1b3856f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f1b3856f4d1014b6dd926db0e91070)</div>
 
 ## Browser Events
 
@@ -49,7 +49,7 @@ MyControl.prototype.handleClick = function(oEvent) {
 }
 ```
 
-Instead of explicitly registering browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls, the [`sap.ui.core.UIArea`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIArea/overview). For more information about these event types, see the [ `sap.ui.events.ControlEvents`](https://openui5.hana.ondemand.com/#/api/sap.ui.events) in the API Reference. If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.on()`.
+Instead of explicitly registering browser events, you can implement the event handler directly for certain common event types by using a naming convention for the handler method. OpenUI5 automatically registers event handlers for a list of commonly used event types on the root element of a complete tree of OpenUI5 controls, the [`sap.ui.core.UIArea`](https://sdk.openui5.org/api/sap.ui.core.UIArea/overview). For more information about these event types, see the [ `sap.ui.events.ControlEvents`](https://sdk.openui5.org/api/sap.ui.events) in the API Reference. If the respective event occurs at any position in the tree and the respective control implements the `on<eventName>` method, this method is invoked as if it had been registered with `jQuery.on()`.
 
 The event handler implementation requires less code, reduces the number of event handler registrations in the DOM and also reduces the number of event handler registrations and deregistrations that are executed on every rerendering action. On the other hand, this option is only available for specific events.
 
@@ -62,5 +62,5 @@ MyControl.prototype.onclick = function(oEvent) {
 }
 ```
 
-OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.on()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [sap.ui.events.PseudoEvents.events](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events) in the API Reference.
+OpenUI5 also provides so-called pseudo events. Pseudo events are semantically enriched and can be handled by just implementing an `on<eventName>` method. They **cannot** be used with `jQuery.on()`. By using pseudo events, you avoid additional checks for modifier keys in the event handler or for certain keycodes. For a list of Pseudo Events, see [sap.ui.events.PseudoEvents.events](https://sdk.openui5.org/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events) in the API Reference.
 

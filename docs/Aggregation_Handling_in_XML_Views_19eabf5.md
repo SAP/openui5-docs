@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19eabf5b13214f27b929b9473df3195b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/19eabf5b13214f27b929b9473df3195b) | [demo kit latest release](https://sdk.openui5.org/topic/19eabf5b13214f27b929b9473df3195b)</div>
 
 ## Aggregation Handling in XML Views
 

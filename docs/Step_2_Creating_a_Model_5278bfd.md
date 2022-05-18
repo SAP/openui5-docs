@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://sdk.openui5.org/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
 
 ## Step 2: Creating a Model
 
@@ -48,7 +48,7 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.02/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.02/preview).
 
 ***
 

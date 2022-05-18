@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f21858fa6a07451c9cb86e0c023a7092) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f21858fa6a07451c9cb86e0c023a7092)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f21858fa6a07451c9cb86e0c023a7092) | [demo kit latest release](https://sdk.openui5.org/topic/f21858fa6a07451c9cb86e0c023a7092)</div>
 
 ## What's New in OpenUI5 1.97
 
@@ -118,7 +118,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **`sap.m.Avatar`**
 
-With the new `decorative` property, you can now set the `Avatar` control to be used only for decorative purposes and to be ignored by accessibility tools.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessagePage).
+With the new `decorative` property, you can now set the `Avatar` control to be used only for decorative purposes and to be ignored by accessibility tools.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MessagePage).
 
 
 
@@ -129,7 +129,7 @@ With the new `decorative` property, you can now set the `Avatar` control to be u
 
 **`sap.m.ComboBox`, `sap.m.MultiComboBox`**
 
-We have introduced the `showClearIcon` property. If set to `true`, when there is text input it shows an additional icon that allows users to clear their input. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox/sample/sap.m.sample.ComboBoxClearIcon) for `sap.m.ComboBox` and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.MultiComboBox/sample/sap.m.sample.MultiComboBoxClearIcon) for `sap.m.MultiComboBox`.
+We have introduced the `showClearIcon` property. If set to `true`, when there is text input it shows an additional icon that allows users to clear their input. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.ComboBox/sample/sap.m.sample.ComboBoxClearIcon) for `sap.m.ComboBox` and the [Sample](https://sdk.openui5.org/entity/sap.m.MultiComboBox/sample/sap.m.sample.MultiComboBoxClearIcon) for `sap.m.MultiComboBox`.
 
 
 
@@ -140,7 +140,7 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 
 **`sap.m.DatePicker`, `sap.m.DateRangeSelection`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`**
 
-These controls can now be opened by another control. To enable this feature, we have introduced a new `hideInput` property that hides the input field of the corresponding control. In this case, the only way to open the picker popover is by calling the `openBy` method. This new feature minimizes the visual footprint of the controls, which is useful when more controls are placed together. For more information, see the [DatePicker](https://openui5.hana.ondemand.com/#/entity/sap.m.DatePicker/sample/sap.m.sample.DatePickerHidden), [DateRangeSelection](https://openui5.hana.ondemand.com/#/entity/sap.m.DateRangeSelection/sample/sap.m.sample.DateRangeSelectionHidden), [DateTimePicker](https://openui5.hana.ondemand.com/#/entity/sap.m.DateTimePicker/sample/sap.m.sample.DateTimePickerHidden), and [TimePicker](https://openui5.hana.ondemand.com/#/entity/sap.m.TimePicker/sample/sap.m.sample.TimePickerHidden) samples.
+These controls can now be opened by another control. To enable this feature, we have introduced a new `hideInput` property that hides the input field of the corresponding control. In this case, the only way to open the picker popover is by calling the `openBy` method. This new feature minimizes the visual footprint of the controls, which is useful when more controls are placed together. For more information, see the [DatePicker](https://sdk.openui5.org/entity/sap.m.DatePicker/sample/sap.m.sample.DatePickerHidden), [DateRangeSelection](https://sdk.openui5.org/entity/sap.m.DateRangeSelection/sample/sap.m.sample.DateRangeSelectionHidden), [DateTimePicker](https://sdk.openui5.org/entity/sap.m.DateTimePicker/sample/sap.m.sample.DateTimePickerHidden), and [TimePicker](https://sdk.openui5.org/entity/sap.m.TimePicker/sample/sap.m.sample.TimePickerHidden) samples.
 
 
 
@@ -151,7 +151,7 @@ These controls can now be opened by another control. To enable this feature, we 
 
 **`sap.m.DateTimePicker`**
 
-The control now implements the new dial-based design for the time picker.For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.DateTimePicker).
+The control now implements the new dial-based design for the time picker.For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.DateTimePicker).
 
 
 
@@ -162,7 +162,7 @@ The control now implements the new dial-based design for the time picker.For mor
 
 **`sap.m.DynamicDateRange` \(Experimental\)**
 
-We have added a new standard option named `DATETOYEAR` - a period from today to the end of the year. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DynamicDateRange).
+We have added a new standard option named `DATETOYEAR` - a period from today to the end of the year. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DynamicDateRange).
 
 
 
@@ -173,7 +173,7 @@ We have added a new standard option named `DATETOYEAR` - a period from today to 
 
 **`sap.m.MessagePage`**
 
-With the new `titleLevel` property, we have enabled app developers to set a custom aria-level of the `MessagePage` title.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessagePage).
+With the new `titleLevel` property, we have enabled app developers to set a custom aria-level of the `MessagePage` title.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MessagePage).
 
 
 
@@ -184,7 +184,7 @@ With the new `titleLevel` property, we have enabled app developers to set a cust
 
 **`sap.m.PlanningCalendar`**
 
-We have introduced a new `multipleAppointmentsSelection` property that allows mobile users to select multiple appointments. If set to `true`, every mouse click or tap on an appointment will lead to selection. The selection of multiple appointments using the [CTRL\] key is possible regardless of the value of this property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarOneLine).
+We have introduced a new `multipleAppointmentsSelection` property that allows mobile users to select multiple appointments. If set to `true`, every mouse click or tap on an appointment will lead to selection. The selection of multiple appointments using the [CTRL\] key is possible regardless of the value of this property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendar) and the [Sample](https://sdk.openui5.org/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarOneLine).
 
 
 
@@ -195,7 +195,7 @@ We have introduced a new `multipleAppointmentsSelection` property that allows mo
 
 **`sap.ui.integration.widgets.Card`**
 
-Timeline cards now support actions defined on an item level. These actions can be handled by the application in the same way as actions of the List card items.For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/timeline) in the Card Explorer.
+Timeline cards now support actions defined on an item level. These actions can be handled by the application in the same way as actions of the List card items.For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/timeline) in the Card Explorer.
 
 
 
@@ -214,7 +214,7 @@ Timeline cards now support actions defined on an item level. These actions can b
 <tr>
 <td valign="top">
 
-There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated). 
 
 
 

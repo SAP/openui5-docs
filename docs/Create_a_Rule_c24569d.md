@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c24569de859446819798c5dc53ac604d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c24569de859446819798c5dc53ac604d) | [demo kit latest release](https://sdk.openui5.org/topic/c24569de859446819798c5dc53ac604d)</div>
 
 ## Create a Rule
 
@@ -230,13 +230,13 @@ The check function has three main and one optional parameters. The main ones are
 
 -   `oCoreFacade` - gives you access to the different elements provided by the OpenUI5 core framework:
 
-    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object/methods/getMetadata">getMetadata()</a></code>
+    -   <code><a href="https://sdk.openui5.org/api/sap.ui.base.Object/methods/getMetadata">getMetadata()</a></code>
 
-    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getUIArea">getUIAreas()</a></code>
+    -   <code><a href="https://sdk.openui5.org/api/sap.ui.core.Core/methods/getUIArea">getUIAreas()</a></code>
 
-    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getComponent">getComponents()</a></code>
+    -   <code><a href="https://sdk.openui5.org/api/sap.ui.core.Core/methods/getComponent">getComponents()</a></code>
 
-    -   <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/getModel">getModels()</a></code>
+    -   <code><a href="https://sdk.openui5.org/api/sap.ui.core.Core/methods/getModel">getModels()</a></code>
 
 
 -   `oScope` - retrieves elements in the scope with the following methods:
@@ -319,7 +319,7 @@ The check function has three main and one optional parameters. The main ones are
 **Related Information**  
 
 
-[API Reference: `sap.ui.support.ExecutionScope`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.support.ExecutionScope.html)
+[API Reference: `sap.ui.support.ExecutionScope`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.support.ExecutionScope.html)
 
 [Common Rule Patterns](Common_Rule_Patterns_3fc1412.md "The Support Assistant checks verify different aspects of your web application - from the view/elements structure and control properties to the dynamic, data and event-driven interactions. You can traverse the DOM tree, look at error logs during startup or check the CSS.")
 

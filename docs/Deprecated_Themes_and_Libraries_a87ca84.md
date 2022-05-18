@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a87ca843bcee469f82a9072927a7dcdb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a87ca843bcee469f82a9072927a7dcdb) | [demo kit latest release](https://sdk.openui5.org/topic/a87ca843bcee469f82a9072927a7dcdb)</div>
 
 ## Deprecated Themes and Libraries
 
@@ -213,7 +213,7 @@ For more information about the SAP Fiori design, see the [SAP Fiori design guide
 **Related Information**  
 
 
-[Index of Deprecated APIs](https://openui5.hana.ondemand.com/#docs/api/deprecation.html)
+[Index of Deprecated APIs](https://sdk.openui5.orgdocs/api/deprecation.html)
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 

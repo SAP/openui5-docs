@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d2ef0099542d44dc868719d908e576d0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d2ef0099542d44dc868719d908e576d0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d2ef0099542d44dc868719d908e576d0) | [demo kit latest release](https://sdk.openui5.org/topic/d2ef0099542d44dc868719d908e576d0)</div>
 
 ## Object Page Headers
 
@@ -221,9 +221,9 @@ This section explains the differences and similarities between the two types of 
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e54f729da8e3405fae5e4fe8ae7784c1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e54f729da8e3405fae5e4fe8ae7784c1) | [demo kit latest release](https://sdk.openui5.org/topic/e54f729da8e3405fae5e4fe8ae7784c1)</div>
 
 ## Content Densities
 
@@ -138,7 +138,7 @@ The following two screenshots show the difference between the *Cozy* and *Compac
 
 ### Checking Which Content Densities Are Supported for a Control
 
-If you need to know which content densities are supported for a particular control, the best place to look is the [Samples](https://openui5.hana.ondemand.com/explored.html) section in the Demo Kit. After choosing a control from the list, look at the details in the Object Header area to see which density is supported. In the example shown below, the control supports both the *Compact* and *Cozy* content densities:
+If you need to know which content densities are supported for a particular control, the best place to look is the [Samples](https://sdk.openui5.org/explored.html) section in the Demo Kit. After choosing a control from the list, look at the details in the Object Header area to see which density is supported. In the example shown below, the control supports both the *Compact* and *Cozy* content densities:
 
  ![](images/loiobc564fc273134d5db475b08c937acef8_LowRes.png) 
 

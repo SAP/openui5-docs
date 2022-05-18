@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3e426f159c7a4ab5ae660aba288c94d2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3e426f159c7a4ab5ae660aba288c94d2) | [demo kit latest release](https://sdk.openui5.org/topic/3e426f159c7a4ab5ae660aba288c94d2)</div>
 
 ## Custom List Item
 
@@ -168,7 +168,7 @@ Creating custom list items if none of the list items above are suitable
 
 If none of the predefined list items \(the first seven entries in the table above\) fit your scenario, you can also create your own layout by using `sap.m.CustomListItem` directly, or create a new control that inherits from `sap.m.CustomListItem`.
 
-For more information about the different list items, refer to the corresponding [API documentation](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.List.html). 
+For more information about the different list items, refer to the corresponding [API documentation](https://sdk.openui5.orgdocs/api/symbols/sap.m.List.html). 
 
 ***
 

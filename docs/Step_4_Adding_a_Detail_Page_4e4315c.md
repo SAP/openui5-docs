@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4e4315cef89e48ceb60b4dc12f5be2d2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4e4315cef89e48ceb60b4dc12f5be2d2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4e4315cef89e48ceb60b4dc12f5be2d2) | [demo kit latest release](https://sdk.openui5.org/topic/4e4315cef89e48ceb60b4dc12f5be2d2)</div>
 
 ## Step 4: Adding a Detail Page
 
@@ -30,7 +30,7 @@ In this step, we add an empty detail page.
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 4](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.04/preview).
+You can view and download all files at [Flexible Column Layout App - Step 4](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.04/preview).
 
 ***
 

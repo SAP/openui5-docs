@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/faaff35246414793b061f0244fb67338)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/faaff35246414793b061f0244fb67338) | [demo kit latest release](https://sdk.openui5.org/topic/faaff35246414793b061f0244fb67338)</div>
 
 ## Example: JS Fragments Used in XML Views
 

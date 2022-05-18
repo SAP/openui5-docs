@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://sdk.openui5.org/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
 
 ## Structuring OPA Tests With Page Objects
 
@@ -18,7 +18,7 @@ Page objects accept parameters, so you can parametrize your tests either by writ
 
 You can also share utility functionality between page objects. Simulating clicks, for example, is useful for most page objects and should be placed in a base class that you can create. As the page objects extend the base class, the functions provided in the base class are available for the page objects. If, for example, you want to share tree handling functions in all tree-based page objects, create a `TreeBase` class by extending the base class. Tree-based page objects such as repository browser and outline then specify `TreeBase` as `baseClass` instead of the generic base class.
 
-OPA5 provides a static method to create page objects, see the [Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
+OPA5 provides a static method to create page objects, see the [Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/entity/sap.ui.test.Opa5).
 
 ```js
 
@@ -62,5 +62,5 @@ Then.inThe<Page Object>.<iCheckSomething>();
 
 ```
 
-Be careful with `Opa5.extendConfig()` if you give arrangements, actions, or assertions, all previously loaded page objects will be overwritten. So if you mix them, call `extendConfig` before loading the page objects. See the [Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
+Be careful with `Opa5.extendConfig()` if you give arrangements, actions, or assertions, all previously loaded page objects will be overwritten. So if you mix them, call `extendConfig` before loading the page objects. See the [Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/entity/sap.ui.test.Opa5).
 

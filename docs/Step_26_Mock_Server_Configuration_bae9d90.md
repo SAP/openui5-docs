@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bae9d90d2e9c4206889368f04edab508) | [demo kit latest release](https://sdk.openui5.org/topic/bae9d90d2e9c4206889368f04edab508)</div>
 
 ## Step 26: Mock Server Configuration
 
@@ -28,7 +28,7 @@ This system is the so-called back-end system that we will now simulate with an O
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 26](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.26/preview).
+You can view and download all files at [Walkthrough - Step 26](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.26/preview).
 
    
   
@@ -52,7 +52,7 @@ The new `localService` folder contains a `metadata.xml` service description file
 	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-resourceroots='{
@@ -93,7 +93,7 @@ From this point on, you have two different entry pages: One for the real “conn
 	<title>SAPUI5 Walkthrough - Test Page</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "../"
@@ -305,7 +305,7 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 
 [Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[API Reference: `sap.ui.core.util.MockServer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html)
+[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.util.MockServer.html)
 
 [Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md "Configure a destination in the SAP BTP Cockpit in order to bypass the same-origin policy of the browser.")
 

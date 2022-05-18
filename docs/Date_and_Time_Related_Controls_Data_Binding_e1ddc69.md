@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e1ddc69c01474faf830a522db8c9238a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://sdk.openui5.org/topic/e1ddc69c01474faf830a522db8c9238a)</div>
 
 ## Date and Time Related Controls: Data Binding
 
@@ -59,7 +59,7 @@ According to the `OData Version 2.0` specification, the following date and time 
 
     In the above example, the apps give the `TimePicker` information about the exact format with which the time values are stored in the backend. The whole coding is string-based \(the data field is a string, and the EDM type is an `Edm.String`\) and no conversion is done.
 
-    With the introduction of the property `support2400` in version 1.54, this option may be used also if the apps need to differentiate between the beginning of a day \(00:00:00\) and the end of a day \(24:00:00\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TimePicker) and the [Samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TimePicker/preview). 
+    With the introduction of the property `support2400` in version 1.54, this option may be used also if the apps need to differentiate between the beginning of a day \(00:00:00\) and the end of a day \(24:00:00\). For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TimePicker) and the [Samples](https://sdk.openui5.org/sample/sap.m.sample.TimePicker/preview). 
 
 
 ***

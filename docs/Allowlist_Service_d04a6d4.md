@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d04a6d41480c4396af16b5d2b25509ec)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d04a6d41480c4396af16b5d2b25509ec) | [demo kit latest release](https://sdk.openui5.org/topic/d04a6d41480c4396af16b5d2b25509ec)</div>
 
 ## Allowlist Service
 

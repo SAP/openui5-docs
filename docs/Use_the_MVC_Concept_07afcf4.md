@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07afcf400eb344c2916e4eb3a400ff7b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/07afcf400eb344c2916e4eb3a400ff7b) | [demo kit latest release](https://sdk.openui5.org/topic/07afcf400eb344c2916e4eb3a400ff7b)</div>
 
 ## Use the MVC Concept
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a110f762148a4933a33d30751a37a743)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a110f762148a4933a33d30751a37a743) | [demo kit latest release](https://sdk.openui5.org/topic/a110f762148a4933a33d30751a37a743)</div>
 
 ## Migration Information for Upgrading the Descriptor File
 

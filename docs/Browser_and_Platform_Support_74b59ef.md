@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/74b59efa0eef48988d3b716bd0ecc933) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/74b59efa0eef48988d3b716bd0ecc933)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/74b59efa0eef48988d3b716bd0ecc933) | [demo kit latest release](https://sdk.openui5.org/topic/74b59efa0eef48988d3b716bd0ecc933)</div>
 
 ## Browser and Platform Support
 
@@ -458,7 +458,7 @@ Latest version
 
 ### OpenUI5 Support Status for Microsoft Internet Explorer 11
 
-Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html)\).
+Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)\).
 
 In case you have legacy applications and you still need IE11 with an OpenUI5 version that no longer supports it, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to IE11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
 

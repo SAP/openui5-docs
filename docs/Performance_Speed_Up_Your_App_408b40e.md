@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/408b40efed3c416681e1bd8cdd8910d4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/408b40efed3c416681e1bd8cdd8910d4) | [demo kit latest release](https://sdk.openui5.org/topic/408b40efed3c416681e1bd8cdd8910d4)</div>
 
 ## Performance: Speed Up Your App
 
@@ -24,7 +24,7 @@ The first step of improving the performance of your application is the switch to
 
 **Additional Information:**
 
--   Enable asynchronous loading via the [`sap.ui.core.IAsyncContentCreation`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.IAsyncContentCreation) interface
+-   Enable asynchronous loading via the [`sap.ui.core.IAsyncContentCreation`](https://sdk.openui5.org/api/sap.ui.core.IAsyncContentCreation) interface
 -   [Enable async bootstrap, rootView and routing](Use_Asynchronous_Loading_676b636.md)
 -   Use asynchronous [view loading](Instantiating_Views_68d0e58.md)
 -   Blog post [Best Practices for Asynchronous Loading in UI5](https://blogs.sap.com/2018/12/18/ui5ers-buzz-41-best-practices-for-async-loading-in-ui5/)
@@ -254,9 +254,9 @@ Components can preload models for which modules are already loaded; otherwise a 
 ...
 ```
 
-For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel). 
+For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel). 
 
-For the OData V4 model, also consider using the model parameter `earlyRequests`. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel). 
+For the OData V4 model, also consider using the model parameter `earlyRequests`. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel). 
 
 For more information, see [Manifest Model Preload](Manifest_Model_Preload_26ba6a5.md).
 

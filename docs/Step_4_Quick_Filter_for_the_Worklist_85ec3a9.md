@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/85ec3a9454ac4eb1a901745e773844d3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/85ec3a9454ac4eb1a901745e773844d3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/85ec3a9454ac4eb1a901745e773844d3) | [demo kit latest release](https://sdk.openui5.org/topic/85ec3a9454ac4eb1a901745e773844d3)</div>
 
 ## Step 4: Quick Filter for the Worklist
 
@@ -26,7 +26,7 @@ For easily detecting and managing product shortages in our app, we will add a qu
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Worklist App - Step 4](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.04).
+You can view and download all files in the Demo Kit at [Worklist App - Step 4](https://sdk.openui5.org/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.04).
 
 ***
 
@@ -307,5 +307,5 @@ Now run the app again and click the filter icons on top of the table. The produc
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.ListBinding.filter`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.ListBinding)
+[API Reference: `sap.ui.model.ListBinding.filter`](https://sdk.openui5.org/api/sap.ui.model.ListBinding)
 

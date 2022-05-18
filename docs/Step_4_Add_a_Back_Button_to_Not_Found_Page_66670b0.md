@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/66670b0aab3948469d5cc8276113e9ea)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://sdk.openui5.org/topic/66670b0aab3948469d5cc8276113e9ea)</div>
 
 ## Step 4: Add a *Back* Button to *Not Found* Page
 
@@ -27,7 +27,7 @@ When we are on the *Not Found* page because of an invalid hash, we want to get b
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.04/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.04/preview).
 
 ***
 

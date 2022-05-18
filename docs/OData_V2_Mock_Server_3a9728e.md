@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a9728ec31f94ca18a7d543ce419d85d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a9728ec31f94ca18a7d543ce419d85d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3a9728ec31f94ca18a7d543ce419d85d) | [demo kit latest release](https://sdk.openui5.org/topic/3a9728ec31f94ca18a7d543ce419d85d)</div>
 
 ## OData V2 Mock Server
 
@@ -30,7 +30,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
-> You can view and download the files for all steps in the Demo Kit at [Mock Server](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.tutorial.mockserver/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the files for all steps in the Demo Kit at [Mock Server](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.tutorial.mockserver/samples). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
 > For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
 > 

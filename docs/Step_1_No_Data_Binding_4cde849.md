@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cde849dc18949b69bbe152a0aaa19c6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4cde849dc18949b69bbe152a0aaa19c6) | [demo kit latest release](https://sdk.openui5.org/topic/4cde849dc18949b69bbe152a0aaa19c6)</div>
 
 ## Step 1: No Data Binding
 
@@ -26,7 +26,7 @@ In this step, we simply place some text on the screen using a standard `sap.m.Te
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.01/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.01/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/213a69ca0f5949bfb29d0715ed95084a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/213a69ca0f5949bfb29d0715ed95084a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/213a69ca0f5949bfb29d0715ed95084a) | [demo kit latest release](https://sdk.openui5.org/topic/213a69ca0f5949bfb29d0715ed95084a)</div>
 
 ## Start SAP Web IDE
 

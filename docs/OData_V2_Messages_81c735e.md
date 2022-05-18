@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://sdk.openui5.org/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
 
 ## OData V2 Messages
 
@@ -168,13 +168,13 @@ If the change operation fails, a UI message is created. But this UI message is d
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel)
+[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager)
+[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.org/api/sap.ui.core.message.MessageManager)
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.message.MessageModel)
+[API Reference: `sap.ui.model.message.MessageModel`](https://sdk.openui5.org/api/sap.ui.model.message.MessageModel)
 
-[API Reference: `sap.ui.mode.odata.ODataMessageParser`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataMessageParser)
+[API Reference: `sap.ui.mode.odata.ODataMessageParser`](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMessageParser)
 
 [Server Messages in the OData V4 Model](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md "The OData V4 model supports server messages sent via an OData V4 service.")
 

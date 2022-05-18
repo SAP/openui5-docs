@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07c97a2e497d443eb6fa74bb9445ab9c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/07c97a2e497d443eb6fa74bb9445ab9c) | [demo kit latest release](https://sdk.openui5.org/topic/07c97a2e497d443eb6fa74bb9445ab9c)</div>
 
 ## Step 10: Test Suite and Automated Testing
 
@@ -26,7 +26,7 @@ In this step, we will step back from our tests and application features that we 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 10](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.10/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.10/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50579ddf2c934ce789e056cfffe9efa9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50579ddf2c934ce789e056cfffe9efa9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/50579ddf2c934ce789e056cfffe9efa9) | [demo kit latest release](https://sdk.openui5.org/topic/50579ddf2c934ce789e056cfffe9efa9)</div>
 
 ## Step 5: Controllers
 
@@ -26,7 +26,7 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.05/preview).
+You can view and download all files at [Walkthrough - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.05/preview).
 
 ```xml
 <mvc:View
@@ -108,5 +108,5 @@ We define the app controller in its own file by extending the `Controller` objec
 
 [Controller](Controller_121b8e6.md "A controller contains methods that define how models and views interact.")
 
-[API Reference: `sap.ui.define` ](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
+[API Reference: `sap.ui.define` ](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define)
 

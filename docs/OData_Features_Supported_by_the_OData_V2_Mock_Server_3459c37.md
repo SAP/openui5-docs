@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3459c372aaaa4c31ab87bb0e174adcc3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3459c372aaaa4c31ab87bb0e174adcc3) | [demo kit latest release](https://sdk.openui5.org/topic/3459c372aaaa4c31ab87bb0e174adcc3)</div>
 
 ## OData Features Supported by the OData V2 Mock Server
 

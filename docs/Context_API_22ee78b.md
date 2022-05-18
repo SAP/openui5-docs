@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/22ee78b422614b40ad4c1938dc23d967)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/22ee78b422614b40ad4c1938dc23d967) | [demo kit latest release](https://sdk.openui5.org/topic/22ee78b422614b40ad4c1938dc23d967)</div>
 
 ## Context API
 
@@ -53,5 +53,5 @@ sOrderID = oEvent.getSource().getBindingContext().getProperty("SalesOrderID"); /
 sGrossAmount = oEvent.getSource().getBindingContext().getProperty("GrossAmount", true);
 ```
 
-For more information, see [sap.ui.model.odata.v4.Context](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context) in the Demo Kit.
+For more information, see [sap.ui.model.odata.v4.Context](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context) in the Demo Kit.
 

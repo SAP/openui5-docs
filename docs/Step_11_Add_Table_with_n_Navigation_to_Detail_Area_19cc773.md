@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/19cc773a60d944c8bb588056f665de04) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/19cc773a60d944c8bb588056f665de04)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/19cc773a60d944c8bb588056f665de04) | [demo kit latest release](https://sdk.openui5.org/topic/19cc773a60d944c8bb588056f665de04)</div>
 
 ## Step 11: Add Table with :n Navigation to Detail Area
 
@@ -30,7 +30,7 @@ In this step we add a table with additional information to the detail area.
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 11](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.11/code).
+You can view and download all files at [OData V4 - Step 11](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.11/code).
 
 ***
 

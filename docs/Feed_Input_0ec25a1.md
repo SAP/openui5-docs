@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e) | [demo kit latest release](https://sdk.openui5.org/topic/0ec25a16ec9c4e86a1a0d03f1b01e25e)</div>
 
 ## Feed Input
 
@@ -28,7 +28,7 @@ The `sap.m.FeedInput` control allows users to enter and send plain text. It comp
 
     If the user image has not yet been set, a generic placeholder is shown. If the app does not support user images at all, the image can be omitted.
 
-    For more information about the layout options, see the [Samples](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.FeedInput/preview) in the Demo Kit.
+    For more information about the layout options, see the [Samples](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.FeedInput/preview) in the Demo Kit.
 
 -   Behavior
 
@@ -36,7 +36,7 @@ The `sap.m.FeedInput` control allows users to enter and send plain text. It comp
 
     When the user starts to type, the input prompt disappears and the *Send* pushbutton is enabled and becomes more prominent.
 
-    If the available width is less than 25 rem \(for example, portrait mode on a mobile phone\), the picture is removed. For more information, see the [API Reference Documentation](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.FeedInput.html).
+    If the available width is less than 25 rem \(for example, portrait mode on a mobile phone\), the picture is removed. For more information, see the [API Reference Documentation](https://sdk.openui5.orgdocs/api/symbols/sap.m.FeedInput.html).
 
 
 ***
@@ -46,7 +46,7 @@ The `sap.m.FeedInput` control allows users to enter and send plain text. It comp
 The `sap.m.FeedInput` control can be used in combination with the `sap.m.FeedListItem` control as a feed or notes control. For more information, see the [Feed List Item](Feed_List_Item_14a9900.md) control documentation.
 
 > ### Note:  
-> If you need only one single text box instance, use the `sap.m.TextArea` control for multi-line text. For more information, see the [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.TextArea/samples) in the Demo Kit.
+> If you need only one single text box instance, use the `sap.m.TextArea` control for multi-line text. For more information, see the [Samples](https://sdk.openui5.org/explored.html#/entity/sap.m.TextArea/samples) in the Demo Kit.
 > 
-> Or you use the `sap.m.Text` control for single-line text. For more information, see the [Samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Text/samples) in the Demo Kit.
+> Or you use the `sap.m.Text` control for single-line text. For more information, see the [Samples](https://sdk.openui5.org/explored.html#/entity/sap.m.Text/samples) in the Demo Kit.
 

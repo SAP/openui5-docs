@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://sdk.openui5.org/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
 
 ## Step 4: Diagnostics Window
 
@@ -26,7 +26,7 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 ### Opening the Example App and the Diagnostics Window
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
 2.  Open the *Diagnostics* window by pressing  [Ctrl\] + [Shift\] + [Alt\] + [S\] .
 
@@ -58,7 +58,7 @@ Let's say that you are facing a performance issue in your app, so let's check so
     	<!-- set data-sap-ui-async="true" to enable the user to fix it in the
     	troubleshooting tutorial step 4: Diagnostics Window -->
     	<script id="sap-ui-bootstrap"
-    		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+    		src="https://sdk.openui5.org/resources/sap-ui-core.js"
     		data-sap-ui-theme="sap_belize"
     		data-sap-ui-libs="sap.f"
     		data-sap-ui-resourceroots='{
@@ -108,7 +108,7 @@ If you find a bug in your application, you can easily check whether it has alrea
 
 3.  Choose *Other* from the *Boot application with different UI5 version on next reload* dropdown list.
 
-4.  Enter a custom URL, for example `https://openui5.hana.ondemand.com/1.46.6/resources/sap-ui-core.js`.
+4.  Enter a custom URL, for example `https://sdk.openui5.org/1.46.6/resources/sap-ui-core.js`.
 
 5.  Choose *Activate Reboot URL*, confirm the dialog box, and reload the app.
 

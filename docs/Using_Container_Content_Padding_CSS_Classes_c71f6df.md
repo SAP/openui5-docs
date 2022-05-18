@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://sdk.openui5.org/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
 
 ## Using Container Content Padding CSS Classes
 
@@ -57,7 +57,7 @@ The following list of controls support container content padding CSS classes:
 
 ***
 
-You can check how our container padding classes work in the following sample [Samples for `sap.ui.core.ContainerPadding`](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.ContainerPadding).
+You can check how our container padding classes work in the following sample [Samples for `sap.ui.core.ContainerPadding`](https://sdk.openui5.org/entity/sap.ui.core.ContainerPadding).
 
 If you have to apply responsive paddings over separate parts of the control according to the control width, see [Enabling Responsive Paddings According to the Control Width](Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md)
 

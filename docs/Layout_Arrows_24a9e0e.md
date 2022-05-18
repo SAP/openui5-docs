@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24a9e0e2424245e4873c0f29f00144f4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/24a9e0e2424245e4873c0f29f00144f4) | [demo kit latest release](https://sdk.openui5.org/topic/24a9e0e2424245e4873c0f29f00144f4)</div>
 
 ## Layout Arrows
 

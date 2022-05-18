@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7ef32428dc7c4c048a8d7e8de0a556fb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7ef32428dc7c4c048a8d7e8de0a556fb) | [demo kit latest release](https://sdk.openui5.org/topic/7ef32428dc7c4c048a8d7e8de0a556fb)</div>
 
 ## Code Coverage Measurement
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c1025c2e30a748ae82e929cb7f6d2f9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c1025c2e30a748ae82e929cb7f6d2f9a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c1025c2e30a748ae82e929cb7f6d2f9a) | [demo kit latest release](https://sdk.openui5.org/topic/c1025c2e30a748ae82e929cb7f6d2f9a)</div>
 
 ## Upgrading from a Version Below 1.38
 

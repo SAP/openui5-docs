@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://sdk.openui5.org/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
 
 ## Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models
 
@@ -26,7 +26,7 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.08/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.08/preview).
 
 ***
 

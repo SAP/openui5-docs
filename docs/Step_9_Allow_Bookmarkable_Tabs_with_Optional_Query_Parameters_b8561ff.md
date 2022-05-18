@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://sdk.openui5.org/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
 
 ## Step 9: Allow Bookmarkable Tabs with Optional Query Parameters
 
@@ -28,7 +28,7 @@ In this step, we implement a bookmarking feature by enabling deep linking to tab
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 9](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.09/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 9](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.09/preview).
 
 ***
 
@@ -241,5 +241,5 @@ When you click on any tab you will see that the hash in the URL changes immediat
 **Related Information**  
 
 
-[API Reference: `sap.m.IconTabBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.IconTabBar.html)
+[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.orgdocs/api/symbols/sap.m.IconTabBar.html)
 

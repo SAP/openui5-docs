@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f27e3e6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f27e3e6f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f27e3e6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f27e3e6f4d1014b6dd926db0e91070)</div>
 
 ## Views
 
@@ -67,5 +67,5 @@ For normal controls, view cloning bases on control settings that are described b
 **Related Information**  
 
 
-[API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View)
+[API Reference](https://sdk.openui5.org/api/sap.ui.core.mvc.View)
 

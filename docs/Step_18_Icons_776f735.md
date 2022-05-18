@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/776f7352807e4f82b18176c8fbdc0c56) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/776f7352807e4f82b18176c8fbdc0c56)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/776f7352807e4f82b18176c8fbdc0c56) | [demo kit latest release](https://sdk.openui5.org/topic/776f7352807e4f82b18176c8fbdc0c56)</div>
 
 ## Step 18: Icons
 
@@ -26,7 +26,7 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 18](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.18/preview).
+You can view and download all files at [Walkthrough - Step 18](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.18/preview).
 
 ```xml
 <mvc:View
@@ -111,9 +111,9 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 **Related Information**  
 
 
-[Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html)
+[Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html)
 
-[API Reference: `sap.ui.core.Icon`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Icon.html)
+[API Reference: `sap.ui.core.Icon`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Icon.html)
 
-[Samples: `sap.ui.core.Icon` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.Icon/samples)
+[Samples: `sap.ui.core.Icon` ](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.Icon/samples)
 

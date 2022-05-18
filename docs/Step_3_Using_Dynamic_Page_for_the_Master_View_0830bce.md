@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0830bce271bf42d98c2740bed43d435d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://sdk.openui5.org/topic/0830bce271bf42d98c2740bed43d435d)</div>
 
 ## Step 3: Using Dynamic Page for the Master View
 
@@ -30,7 +30,7 @@ In this step, we create the master view of the app using `sap.f.DynamicPage` con
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 3](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.03/preview).
+You can view and download all files at [Flexible Column Layout App - Step 3](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.03/preview).
 
 webapp/manifest.json \[MODIFY\]
 
@@ -79,11 +79,11 @@ First, we add the `sap.m` library as a dependency in the `manifest.json`.
 ```html
 	...
 	<script id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.fiori2": "./",
-			"sap.ui.demo.mock": "https://openui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/"
+			"sap.ui.demo.mock": "https://sdk.openui5.org/test-resources/sap/ui/documentation/sdk/"
 		}'
 		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-compatVersion="edge"

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ae448243822448d8ba04b4784f4b09a0) | [demo kit latest release](https://sdk.openui5.org/topic/ae448243822448d8ba04b4784f4b09a0)</div>
 
 ## Test Automation
 
@@ -179,5 +179,5 @@ To measure the code coverage, you can use the [*Coverage* plugin](https://github
 
 In case your application is started within a frame \(`iStartMyAppInAFrame`\) you need to enable iFrame coverage reporting. See the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#configureiframecoverage) for details.
 
-For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html). 
+For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html). 
 

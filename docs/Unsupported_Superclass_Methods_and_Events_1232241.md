@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1232241b99d7437ba3614698d53dfa4b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1232241b99d7437ba3614698d53dfa4b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1232241b99d7437ba3614698d53dfa4b) | [demo kit latest release](https://sdk.openui5.org/topic/1232241b99d7437ba3614698d53dfa4b)</div>
 
 ## Unsupported Superclass Methods and Events
 
@@ -39,7 +39,7 @@ Method
 
 `sap.ui.model.odata.v4.ODataMetaModel`
 
-\(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
 
 
 
@@ -65,7 +65,7 @@ Method
 
 `sap.ui.model.odata.v4.ODataModel`
 
-\(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
 
 
 
@@ -95,7 +95,7 @@ Method
 
 `sap.ui.model.odata.v4.ODataContextBinding`
 
-\(See [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) in the Demo Kit\)
 
 
 
@@ -119,7 +119,7 @@ Method
 
 `sap.ui.model.odata.v4.ODataListBinding`
 
-\(See [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit\)
 
 
 
@@ -145,7 +145,7 @@ Method
 
 `sap.ui.model.odata.v4.ODataPropertyBinding`
 
-\(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding) in the Demo Kit\)
 
 
 
@@ -193,7 +193,7 @@ Event
 
 `sap.ui.model.odata.v4.ODataMetaModel`
 
-\(See [sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel) in the Demo Kit\)
 
 
 
@@ -219,7 +219,7 @@ Event
 
 `sap.ui.model.odata.v4.ODataModel`
 
-\(See [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
+\(See [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel) in the Demo Kit\)
 
 
 
@@ -245,13 +245,13 @@ Event
 **Related Information**  
 
 
-[sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel)
+[sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel)
 
-[sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel)
+[sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel)
 
-[sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding)
+[sap.ui.model.odata.v4.ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding)
 
-[sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding)
+[sap.ui.model.odata.v4.ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding)
 
-[sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding)
+[sap.ui.model.odata.v4.ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding)
 

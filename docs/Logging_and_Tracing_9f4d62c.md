@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://sdk.openui5.org/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
 
 ## Logging and Tracing
 
@@ -301,7 +301,7 @@ Messages of all severity categories are written to the console
 
 During development, or when you're troubleshooting application errors, you can increase the log level for debugging . When you enable debug mode, for example in the *Technical Information* dialog, the log level is automatically increased to 4 \(`DEBUG`\) and you will see messages in the console that might be helpful for finding bugs.
 
-You can also set the log level manually, either by calling `Log.setLevel(<level>)` in the application code \(see the [API Reference](https://openui5.hana.ondemand.com/#/api/module:sap/base/Log%23methods/sap/base/Log.setLevel)\) or by setting the `sap-ui-logLevel=<level>` framework parameter \(see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)\). Depending on the log level, you might get a large amount of log messages in the console. The error might not be clearly visible from a single log message and might need further analysis.
+You can also set the log level manually, either by calling `Log.setLevel(<level>)` in the application code \(see the [API Reference](https://sdk.openui5.org/api/module:sap/base/Log%23methods/sap/base/Log.setLevel)\) or by setting the `sap-ui-logLevel=<level>` framework parameter \(see [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)\). Depending on the log level, you might get a large amount of log messages in the console. The error might not be clearly visible from a single log message and might need further analysis.
 
 Log entries are written to the console in chronological order. When you identify a message in the console that is connected to the error you are tracing, there might be other related log messages written shortly before or after the current message.
 
@@ -315,7 +315,7 @@ To find out which messages are related to a specific error, you can filter the m
 
 ### Adding Your Own Log Messages
 
-You can define your own log messages in your code to help tracing errors and understanding the application flow. You can use the `Log` API to create and manage log entries \(see the [API Reference: `sap/base/log`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fbase%2FLog)\).
+You can define your own log messages in your code to help tracing errors and understanding the application flow. You can use the `Log` API to create and manage log entries \(see the [API Reference: `sap/base/log`](https://sdk.openui5.org/api/module%3Asap%2Fbase%2FLog)\).
 
 ***
 

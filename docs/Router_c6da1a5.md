@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://sdk.openui5.org/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
 
 ## Router
 
@@ -87,5 +87,5 @@ And then change the layout manually. The recommended lifecycle event to do this 
 **Related Information**  
 
 
-[API Reference: `sap.f.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.routing.Router.html)
+[API Reference: `sap.f.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.f.routing.Router.html)
 

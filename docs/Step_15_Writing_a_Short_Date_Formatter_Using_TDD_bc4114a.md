@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://sdk.openui5.org/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
 
 ## Step 15: Writing a Short Date Formatter Using TDD
 
@@ -156,7 +156,7 @@ We test this in a unit test. In this step we will follow an iterative approach. 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 15](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.15/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.15/preview).
 
 ***
 

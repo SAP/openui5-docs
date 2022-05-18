@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://sdk.openui5.org/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
 
 ## Sorting, Grouping, and Filtering for List Binding
 
@@ -92,7 +92,7 @@ The following XML snippet provides initial filtering:
 </mvc:View>
 ```
 
-The example shown here will only display companies whose city name begins with a ‘b’ and whose revenue is less than 150 million. As you can see, you can provide more than one filter, each of which may refer to different columns using different filter operators. For a complete list of permitted filter operators, see [sap.ui.model.FilterOperator](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.FilterOperator.html) in the *API Reference* part of the Demo Kit.
+The example shown here will only display companies whose city name begins with a ‘b’ and whose revenue is less than 150 million. As you can see, you can provide more than one filter, each of which may refer to different columns using different filter operators. For a complete list of permitted filter operators, see [sap.ui.model.FilterOperator](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.FilterOperator.html) in the *API Reference* part of the Demo Kit.
 
 As shown below, initial sorting, grouping and filtering can of course also be provided using JavaScript.
 
@@ -155,7 +155,7 @@ oList.getBinding("items").filter([oFilterCity, oFilterRevenue]);
 > ### Note:  
 > `getBinding` requires the name of the bound list. In this example, we are looking at the `items` of the `sap.m.List` control.
 
-For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.html) in the *API Reference* part of the Demo Kit.
+For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html) in the *API Reference* part of the Demo Kit.
 
 ***
 

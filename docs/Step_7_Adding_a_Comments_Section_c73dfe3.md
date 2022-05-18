@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c73dfe312f104664954749c5c36faf27)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c73dfe312f104664954749c5c36faf27) | [demo kit latest release](https://sdk.openui5.org/topic/c73dfe312f104664954749c5c36faf27)</div>
 
 ## Step 7: Adding a Comments Section
 
@@ -26,7 +26,7 @@ In this step, we extend the product detail view by adding a feature allowing to 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 7](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.07) .
+You can view and download all files in the *Samples* in the Demo Kit at [Worklist App - Step 7](https://sdk.openui5.org/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.07) .
 
 ***
 

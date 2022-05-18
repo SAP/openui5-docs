@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f08de06f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f08de06f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f08de06f4d1014b6dd926db0e91070)</div>
 
 ## Configuration of the OpenUI5 Runtime
 
@@ -51,7 +51,7 @@ UI5 supports 7 different possibilities to provide values for the available confi
     > ### Note:  
     > Additional `<meta>` tags are evaluated after URL parameters, if not stated otherwise. Please see the overall list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for the parameters which can be defined via `<meta>` tags.
 
-7.  Specific APIs, for example the setters on the  [`sap.ui.core.Configuration`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration) class \(only for some parameters\)
+7.  Specific APIs, for example the setters on the  [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration) class \(only for some parameters\)
 
 Please have a look at the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md) for a description of each configuration option, including the available ways to set input values. The following subsections will describe these possibilities in more detail.
 
@@ -67,7 +67,7 @@ Please have a look at the complete list of [Configuration Options and URL Parame
 
 The easiest way to specify a configuration value is **not to specify** it. The OpenUI5 runtime contains a default value for each configuration option. As long as you don't have to change the value, simply don't specify it.
 
-The effective default values can be found either in the  [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration) or in the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
+The effective default values can be found either in the  [API Reference](https://sdk.openui5.org/api/sap.ui.core.Configuration) or in the complete list of [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://sdk.openui5.org/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
 
 ## Test Libraries for OPA5
 
@@ -221,5 +221,5 @@ Opa5.extendConfig({
 **Related Information**  
 
 
-[Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
 

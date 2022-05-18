@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3e5f6f3e163f46ecaef376950258e5e4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3e5f6f3e163f46ecaef376950258e5e4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3e5f6f3e163f46ecaef376950258e5e4) | [demo kit latest release](https://sdk.openui5.org/topic/3e5f6f3e163f46ecaef376950258e5e4)</div>
 
 ## Step 8: Navigate with Flip Transition
 
@@ -39,7 +39,7 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.08/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.08/preview).
 
    
   
@@ -215,7 +215,7 @@ The target `employeeResume` references the view `employee.Resume` that we are ab
 > -   `fade`
 > 
 > 
-> You can also implement your own transitions and add it to a control that extends `sap.m.NavContainer` \(for example, `sap.m.App` or `sap.m.SplitApp`\). For more information, see the [API Reference: `NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer). 
+> You can also implement your own transitions and add it to a control that extends `sap.m.NavContainer` \(for example, `sap.m.App` or `sap.m.SplitApp`\). For more information, see the [API Reference: `NavContainer`](https://sdk.openui5.org/api/sap.m.NavContainer). 
 
 ***
 
@@ -349,7 +349,7 @@ You can go to `webapp/index.html#/employees/3` and click on the *Flip to Resume*
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.NavContainer.html)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.m.NavContainer.html)
 
-[API Overview and Samples: `sap.m.NavContainer` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.NavContainer/samples)
+[API Overview and Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/explored.html#/entity/sap.m.NavContainer/samples)
 

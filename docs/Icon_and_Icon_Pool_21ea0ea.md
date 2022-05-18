@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/21ea0ea94614480d9a910b2e93431291)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://sdk.openui5.org/topic/21ea0ea94614480d9a910b2e93431291)</div>
 
 ## Icon and Icon Pool
 
@@ -150,7 +150,7 @@ If you use the icon by creating an instance of `Icon` within your control, howev
 You can consume the predefined `SAP-icons` icon font also in an environment where UI5 isn't available. An integration could look like the following:
 
 -   Load the font-face declaration for the UI5 icon font in your HTML page.
--   Find the icon that fits your need via the [OpenUI5 Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
+-   Find the icon that fits your need via the [OpenUI5 Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html#/overview/SAP-icons). Write down the unicode identifier of the icon. For example, the `laptop` icon has the hexadecimal unicode `xe027`.
 -   Use a CSS class with the character escape of the icon's unicode identifier and assign it to a "span" element.
 
     ```html
@@ -159,7 +159,7 @@ You can consume the predefined `SAP-icons` icon font also in an environment wher
     		<link
     			rel="stylesheet"
     			type="text/css"
-    			href="https://openui5.hana.ondemand.com/resources/sap/ui/core/themes/base/SAP-icons.css"
+    			href="https://sdk.openui5.org/resources/sap/ui/core/themes/base/SAP-icons.css"
     		>
     		<style>
     			.laptop::before {

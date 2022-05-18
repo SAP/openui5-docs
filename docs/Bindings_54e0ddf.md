@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/54e0ddf695af4a6c978472cecb01c64d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/54e0ddf695af4a6c978472cecb01c64d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/54e0ddf695af4a6c978472cecb01c64d) | [demo kit latest release](https://sdk.openui5.org/topic/54e0ddf695af4a6c978472cecb01c64d)</div>
 
 ## Bindings
 
@@ -14,11 +14,11 @@ Bindings connect OpenUI5 view elements to model data, allowing changes in the mo
 
 The OData V4 model supports the following types of binding:
 
--   **List bindings**, which represent a collection \(of OData entities, complex or primitive types\) such as `/SalesOrderList` \(see the [sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding) API documentation in the Demo Kit\)
+-   **List bindings**, which represent a collection \(of OData entities, complex or primitive types\) such as `/SalesOrderList` \(see the [sap.ui.model.odata.v4.ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) API documentation in the Demo Kit\)
 
--   **Context bindings**, which represent a single entity such as `/SalesOrderList('0500000000')` or a structural property with complex type \(see the [sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding) API documentation in the Demo Kit\)
+-   **Context bindings**, which represent a single entity such as `/SalesOrderList('0500000000')` or a structural property with complex type \(see the [sap.ui.model.odata.v4.ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) API documentation in the Demo Kit\)
 
--   **Property bindings**, which represent a single, primitive type property in an entity or complex type such as `/ProductList('HT-1000')/Name` \(see the [sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding) API documentation in the Demo Kit\)
+-   **Property bindings**, which represent a single, primitive type property in an entity or complex type such as `/ProductList('HT-1000')/Name` \(see the [sap.ui.model.odata.v4.ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding) API documentation in the Demo Kit\)
 
 
 -   **[Creating Bindings](Creating_Bindings_95cf4b1.md "")**  
@@ -53,13 +53,13 @@ The OData V4 model keeps data with respect to bindings, which allows different v
 **Related Information**  
 
 
-[sap.ui.model.odata.v4.ODataListBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding)
+[sap.ui.model.odata.v4.ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding)
 
-[sap.ui.model.odata.v4.ODataContextBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding)
+[sap.ui.model.odata.v4.ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding)
 
-[sap.ui.model.odata.v4.ODataPropertyBinding](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding)
+[sap.ui.model.odata.v4.ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding)
 
-[Sample: Sales Orders](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
+[Sample: Sales Orders](https://sdk.openui5.org/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
 
 [Binding Events](Binding_Events_1a010d3.md "The OData V4 model supports certain events intended for applications, and others that are to be used for controls, as outlined in this section.")
 

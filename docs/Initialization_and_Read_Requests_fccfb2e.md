@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fccfb2eb41414f0792c165e69a878717)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://sdk.openui5.org/topic/fccfb2eb41414f0792c165e69a878717)</div>
 
 ## Initialization and Read Requests
 
@@ -41,13 +41,13 @@ You can delete the cache for an absolute binding using its `refresh` method. The
 > ### Note:  
 > There must be no pending property changes for a binding and its child bindings when calling the `refresh` method. Use the binding's `hasPendingChanges` method to check for pending changes before you delete the cache.
 
-You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/refresh) in the Demo Kit.
+You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/refresh) in the Demo Kit.
 
 ***
 
 #### Refresh a single entity
 
-You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
+You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
 
 > ### Example:  
 > Usage of Context\#refresh for a context in a list binding
@@ -64,7 +64,7 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 > ```
 
 > ### Note:  
-> -   Contexts of an [`sap.ui.model.odata.v4.ODataListBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataListBinding/overview) and the bound context of an [`sap.ui.model.odata.v4.ODataContextBinding`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.ODataContextBinding/overview) can only be refreshed if the binding is not relative to a [`sap.ui.model.odata.v4.Contex`](https://openui5.hana.ondemand.com/#docs/api/sap.ui.model.odata.v4.Contex/overview) and if its root binding is not suspended.
+> -   Contexts of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataListBinding/overview) and the bound context of an [`sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataContextBinding/overview) can only be refreshed if the binding is not relative to a [`sap.ui.model.odata.v4.Contex`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.Contex/overview) and if its root binding is not suspended.
 > 
 > -   Refresh is only allowed if there are no pending changes for the context and all its dependent bindings. If you have a relative binding with changes and this binding loses its context, the former parent binding does not report pending changes: the changes are kept, but the relation between these bindings is lost. You can do the following:
 > 
@@ -82,7 +82,7 @@ After updating an entity, it may no longer match the query options for the colle
 
 Note that changes to the list like a different sort order require a refresh of the whole list.
 
-An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) application. The table has a filter applied to show only the sales orders with *Life Cycle Status = "New"*. When confirming a sales order, its status will change to *In Process* and does not match the filter anymore. This sales order is then refreshed and will be removed from the list as the `bAllowRemoval` flag is set to `true`. This is shown in the following code snippet:
+An example can be seen in the [SalesOrders](https://sdk.openui5.org/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) application. The table has a filter applied to show only the sales orders with *Life Cycle Status = "New"*. When confirming a sales order, its status will change to *In Process* and does not match the filter anymore. This sales order is then refreshed and will be removed from the list as the `bAllowRemoval` flag is set to `true`. This is shown in the following code snippet:
 
 > ### Example:  
 > refresh with allow removal
@@ -93,7 +93,7 @@ An example can be seen in the [SalesOrders](https://openui5.hana.ondemand.com/#/
 > });
 > ```
 
-For details, see [ODataListBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh), [ODataContextBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh) and [ODataPropertyBinding.refresh](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh) in the Demo Kit.
+For details, see [ODataListBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh), [ODataContextBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/refresh) and [ODataPropertyBinding.refresh](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/refresh) in the Demo Kit.
 
 **Example: Absolute and relative bindings created by an XML view**
 
@@ -156,7 +156,7 @@ You can use `##` in a property binding's path to branch from data into metadata.
 
 ```
 
-For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
+For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
 
 ***
 
@@ -164,7 +164,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openu
 
 ### Property Binding With an Object Value
 
-A property binding can have an object value, if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. The binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://openui5.hana.ondemand.com/#/api/sap.ui.model.BindingMode), unless the binding is for an action advertisement.
+A property binding can have an object value, if the target type specified in the corresponding control property's binding info is "any" and the binding is relative or points to metadata. The binding's mode has to be `OneTime`, see [sap.ui.model.BindingMode](https://sdk.openui5.org/api/sap.ui.model.BindingMode), unless the binding is for an action advertisement.
 
 **Example: Using the controller method `'formatPhoneNumbersAsCSV'` to show a comma-separated list of phone numbers for business partner contacts**
 
@@ -175,7 +175,7 @@ A property binding can have an object value, if the target type specified in the
 </SimpleForm>
 ```
 
-For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
+For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindProperty).
 
 ***
 
@@ -185,7 +185,7 @@ For details, see [`sap.ui.model.odata.v4.ODataModel#bindProperty`](https://openu
 
 Editing properties of an entity sometimes causes side effects on other properties within the same or a related entity. Normally, a `PATCH` request which sends the user's input to the server includes side effects for the same entity \(if relevant for the UI\) within its response. Sometimes, however, an application needs more control on how and when this happens, or needs side effects on related entities as well.
 
-You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects. This method can be called on the bound context of a context binding, a row context of a list binding, the header context of a list binding, or on the return value context of an operation binding. Collection-valued navigation properties are fully supported, so an efficient request is sent instead of a simple refresh. The `validateFieldGroup` event provides a suitable point in time to request side effects after a certain group of fields has been changed. Using the `validateFieldGroup` event allows to trigger the side effect request early enough, so that it is sent in the same batch request as the `PATCH` request. For more information, see [Field Groups](Field_Groups_5b07753.md). The API strikes a balance between the generic annotation-based use and specific hard-coded uses. The `TargetEntities` and `TargetProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation can be used directly as input for `sap.ui.model.odata.v4.Context#requestSideEffects`. Note that the OData V4 model does not evaluate the `SourceEntities` and`SourceProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation. When requested from the OData V4 meta model, the annotation value looks as follows:
+You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects) to load side effects. This method can be called on the bound context of a context binding, a row context of a list binding, the header context of a list binding, or on the return value context of an operation binding. Collection-valued navigation properties are fully supported, so an efficient request is sent instead of a simple refresh. The `validateFieldGroup` event provides a suitable point in time to request side effects after a certain group of fields has been changed. Using the `validateFieldGroup` event allows to trigger the side effect request early enough, so that it is sent in the same batch request as the `PATCH` request. For more information, see [Field Groups](Field_Groups_5b07753.md). The API strikes a balance between the generic annotation-based use and specific hard-coded uses. The `TargetEntities` and `TargetProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation can be used directly as input for `sap.ui.model.odata.v4.Context#requestSideEffects`. Note that the OData V4 model does not evaluate the `SourceEntities` and`SourceProperties` of the `com.sap.vocabularies.Common.v1.SideEffects` annotation. When requested from the OData V4 meta model, the annotation value looks as follows:
 
 ```json
 {
@@ -202,7 +202,7 @@ You can use [sap.ui.model.odata.v4.Context\#requestSideEffects](https://openui5.
 }
 ```
 
-Consider using the binding-specific `$$patchWithoutSideEffects` parameter when using `sap.ui.model.odata.v4.Context#requestSideEffects`. This parameter may be used to prevent the implicit loading of side effects with the `PATCH` response, see e.g. [sap.ui.model.odata.v4.ODataModel\#bindContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext). It can be set on context bindings and list bindings. If the parameter is not specified in a relative binding, the parameter value from the parent binding is used.
+Consider using the binding-specific `$$patchWithoutSideEffects` parameter when using `sap.ui.model.odata.v4.Context#requestSideEffects`. This parameter may be used to prevent the implicit loading of side effects with the `PATCH` response, see e.g. [sap.ui.model.odata.v4.ODataModel\#bindContext](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/bindContext). It can be set on context bindings and list bindings. If the parameter is not specified in a relative binding, the parameter value from the parent binding is used.
 
 The `sap.ui.model.odata.v4.Context#requestSideEffects` API requires a single array as parameter, namely the concatenation of `TargetEntities` and `TargetProperties`.
 

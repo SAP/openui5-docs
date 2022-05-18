@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://sdk.openui5.org/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
 
 ## Step 10: Implement “Lazy Loading”
 
@@ -26,7 +26,7 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.10/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.10/preview) .
 
    
   
@@ -247,5 +247,5 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Targets.html)
+[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Targets.html)
 

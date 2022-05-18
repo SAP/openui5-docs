@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b6ab31cb81bd443996cde2f91d203072)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://sdk.openui5.org/topic/b6ab31cb81bd443996cde2f91d203072)</div>
 
 ## Events Fired on the Pages
 
@@ -49,5 +49,5 @@ page1.addEventDelegate({
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainerChild`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainerChild)
+[API Reference: `sap.m.NavContainerChild`](https://sdk.openui5.org/api/sap.m.NavContainerChild)
 

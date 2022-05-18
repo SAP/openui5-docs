@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/68d0e58857a647d49470d9f92dd859bd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/68d0e58857a647d49470d9f92dd859bd) | [demo kit latest release](https://sdk.openui5.org/topic/68d0e58857a647d49470d9f92dd859bd)</div>
 
 ## Instantiating Views
 
@@ -93,5 +93,5 @@ sap.ui.require(["sap/ui/core/mvc/XMLView", "sap/ui/core/mvc/Controller"], functi
  });
 ```
 
-For an example, see the [`sap.ui.core.sample.View.async/preview`](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.View.async/preview) sample in the Demo Kit.
+For an example, see the [`sap.ui.core.sample.View.async/preview`](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.View.async/preview) sample in the Demo Kit.
 

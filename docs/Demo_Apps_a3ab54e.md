@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3ab54ecf7ac493b91904beb2095d208)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a3ab54ecf7ac493b91904beb2095d208) | [demo kit latest release](https://sdk.openui5.org/topic/a3ab54ecf7ac493b91904beb2095d208)</div>
 
 ## Demo Apps
 
 With the Demo Kit, we deliver some demo apps that show you how you can use the various features and controls of OpenUI5.
 
-You can open the apps directly at [Demo Apps](https://openui5.hana.ondemand.com/#demoapps.html). You can also download the source files there to have a look at the code.
+You can open the apps directly at [Demo Apps](https://sdk.openui5.orgdemoapps.html). You can also download the source files there to have a look at the code.
 
 We have the following categories of demo apps:
 

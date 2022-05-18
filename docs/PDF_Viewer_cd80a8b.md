@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cd80a8bca4ac450b86547d78f0653330)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://sdk.openui5.org/topic/cd80a8bca4ac450b86547d78f0653330)</div>
 
 ## PDF Viewer
 
 PDF viewer can be used to display PDF documents within your app, which enables your users to preview PDF documents before printing or downloading them.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.PDFViewer.html) and the [samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.PDFViewer/samples) in the Demo Kit.
+For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.PDFViewer.html) and the [samples](https://sdk.openui5.org/explored.html#/entity/sap.m.PDFViewer/samples) in the Demo Kit.
 
 ***
 
@@ -81,13 +81,13 @@ The `PDFViewer` control displays PDF documents right inside your app. It can be 
 
 **Embedding the PDF Viewer into a Tab**
 
--   When the PDF viewer is embedded into the [`sap.m.IconTabBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.IconTabBar) control, the PDF documents may fail to reload when you switch tabs. To work around this issue, you can do either of the following:
+-   When the PDF viewer is embedded into the [`sap.m.IconTabBar`](https://sdk.openui5.orgdocs/api/symbols/sap.m.IconTabBar) control, the PDF documents may fail to reload when you switch tabs. To work around this issue, you can do either of the following:
 
     -   Set the visibility of the PDF viewer to `false` when the user is switching between tabs.
 
     -   Remove the PDF viewer `iframe` element from the DOM each time the user navigates to a different tab. The PDF viewer element can be removed by calling the `sap.m.PDFViewer#invalidate` method.
 
-        For more information, see the [API Reference: `sap.ui.core.Control.html#invalidate`](https://openui5.hana.ondemand.com/#/api/sap.m.PDFViewer/methods/invalidate).
+        For more information, see the [API Reference: `sap.ui.core.Control.html#invalidate`](https://sdk.openui5.org/api/sap.m.PDFViewer/methods/invalidate).
 
 
 

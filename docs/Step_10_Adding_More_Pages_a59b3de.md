@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a59b3de038874f879cf20bfc3287bd7c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a59b3de038874f879cf20bfc3287bd7c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a59b3de038874f879cf20bfc3287bd7c) | [demo kit latest release](https://sdk.openui5.org/topic/a59b3de038874f879cf20bfc3287bd7c)</div>
 
 ## Step 10: Adding More Pages
 
@@ -30,7 +30,7 @@ In this step, we create an additional page that is displayed in a separate fulls
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 10](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.10/preview).
+You can view and download all files at [Flexible Column Layout App - Step 10](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.10/preview).
 
 ***
 

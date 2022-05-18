@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f057786f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f057786f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f057786f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f057786f4d1014b6dd926db0e91070)</div>
 
 ## List Binding \(Aggregation Binding\)
 
@@ -82,14 +82,14 @@ Instead of using a `StandardListItem` as a list row template, you can also use a
 -   ObjectListItem
 
 
-For more examples and details on when to use which list item control, see the various list items in the [Samples](https://openui5.hana.ondemand.com/explored.html) in the Demo Kit.
+For more examples and details on when to use which list item control, see the various list items in the [Samples](https://sdk.openui5.org/explored.html) in the Demo Kit.
 
 > ### Note:  
 > The model has a default size limit to avoid too much data being rendered on the UI. This size limit determines the number of entries used for the list bindings. The default size limit is 100 entries.
 > 
 > This means that controls that don't support paging or don't request data in chunks \(e.g. `sap.m.ComboBox`\) only show 100 entries even though the model contains more items.
 > 
-> To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the  [`sap.ui.base.ManagedObject#bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
+> To change this behavior, you can either set a size limit in the model by using `oModel.setSizeLimit` or set the `length` property of the `oBindingInfo` parameter of the  [`sap.ui.base.ManagedObject#bindAggregation`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindAggregation) method.
 
 ***
 

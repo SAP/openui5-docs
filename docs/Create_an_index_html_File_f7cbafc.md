@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://sdk.openui5.org/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
 
 ## Create an index.html File
 
@@ -57,7 +57,7 @@ A minimalistic `index.html` file is needed to test the project configuration. Th
 
 
 > ### Caution:  
-> Adapt the path where the resources are located \(`src="/resources/sap-ui-core.js"`\) according to your installation. For OpenUI5 you can use `src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"`.
+> Adapt the path where the resources are located \(`src="/resources/sap-ui-core.js"`\) according to your installation. For OpenUI5 you can use `src="https://sdk.openui5.org/resources/sap-ui-core.js"`.
 > 
 > You can use this reference to the latest stable version of OpenUI5 for the tutorial or for testing purposes, but never use this for productive use. In an actual app, you always have to specify an OpenUI5 version explicitly.
 > 

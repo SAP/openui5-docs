@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91a4946b0dcf4356aaaedc4e502864f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91a4946b0dcf4356aaaedc4e502864f4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91a4946b0dcf4356aaaedc4e502864f4) | [demo kit latest release](https://sdk.openui5.org/topic/91a4946b0dcf4356aaaedc4e502864f4)</div>
 
 ## List of Supported CSS Classes
 
@@ -1274,5 +1274,5 @@ Dark text color
 </tr>
 </table>
 
-You can also check the availability of the `sapTheme` classes across the predefined themes *Blue Crystal* and *High Contrast Black* \(HCB\) in the [sample](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.ThemeCustomClasses/preview) in the Demo Kit.
+You can also check the availability of the `sapTheme` classes across the predefined themes *Blue Crystal* and *High Contrast Black* \(HCB\) in the [sample](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.ThemeCustomClasses/preview) in the Demo Kit.
 

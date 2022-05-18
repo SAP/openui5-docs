@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2c9076f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f2c9076f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f2c9076f4d1014b6dd926db0e91070)</div>
 
 ## Initialization Process
 
@@ -57,7 +57,7 @@ This attribute should reference a valid OpenUI5 module as shown in the snippet b
 
 ```html
 <script id="sap-ui-bootstrap"
-        src="https://ui5.sap.com/resources/sap-ui-core.js"
+        src="https://sdk.openui5.org/resources/sap-ui-core.js"
        ...
         data-sap-ui-resourceroots='{"Startup": "./some/folder"}'
         data-sap-ui-oninit="module:Startup/my/module"
@@ -76,7 +76,7 @@ Please also have a look at our tutorial section, including the [Quick Start](Qui
 
 #### `attachInit` function
 
-The callback of the [`attachInit`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
+The callback of the [`attachInit`](https://sdk.openui5.org/api/sap.ui.core.Core/methods/attachInit) function is executed directly after the framework has been initialized. This code can be written inside your main HTML file in a separate inline `<script>` tag:
 
 ```js
 sap.ui.getCore().attachInit(function(){

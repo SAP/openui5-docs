@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0b14bf4dcdb476fb0d63877c1beff7c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b0b14bf4dcdb476fb0d63877c1beff7c) | [demo kit latest release](https://sdk.openui5.org/topic/b0b14bf4dcdb476fb0d63877c1beff7c)</div>
 
 ## Controller Replacement
 

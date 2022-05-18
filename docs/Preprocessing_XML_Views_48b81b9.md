@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/48b81b967af34ad08f1f88c962b4740a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://sdk.openui5.org/topic/48b81b967af34ad08f1f88c962b4740a)</div>
 
 ## Preprocessing XML Views
 
@@ -50,7 +50,7 @@ To use the preprocessor, you can choose one of the following options:
     moreInfo: "…"});
     ```
 
-    For more information, see [API Reference: `sap.ui.core.mvc.XMLView.registerPreprocessor`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.registerPreprocessor). 
+    For more information, see [API Reference: `sap.ui.core.mvc.XMLView.registerPreprocessor`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.registerPreprocessor). 
 
 -   Local availability
 

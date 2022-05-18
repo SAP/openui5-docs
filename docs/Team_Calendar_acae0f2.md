@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/acae0f2794234730b74ed219d2532b77) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/acae0f2794234730b74ed219d2532b77)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/acae0f2794234730b74ed219d2532b77) | [demo kit latest release](https://sdk.openui5.org/topic/acae0f2794234730b74ed219d2532b77)</div>
 
 ## Team Calendar
 
@@ -21,7 +21,7 @@ The demo application provides the following features and elements:
 -   **Team Member Calendar**, where appointments of a single selected member are displayed - represented by `sap.m.SinglePlanningCalendar`.
 
 
-There are some additional buttons \(`sap.m.Button`\), that activate features like Calendar Legend and Create Appointment. Integration \(OPA\) tests are also included in the functionality demonstrated by the application. The data in this model include also settings used for application setup like start date and initially selected view for both calendars, supported appointment types, etc. The application is built with Dynamic Page control \(`sap.f.DynamicPage`\) and the switch between the two calendars happens without loading of the pages. Calendars are loaded as fragments in a container within the Dynamic Page content aggregation. For more information about the features and options for extending the app, see the Demo Kit Sample pages for [sap.m.PlanningCalendar](https://openui5.hana.ondemand.com/#/entity/sap.m.PlanningCalendar) and [sap.m.SinglePlanningCalendar](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar).
+There are some additional buttons \(`sap.m.Button`\), that activate features like Calendar Legend and Create Appointment. Integration \(OPA\) tests are also included in the functionality demonstrated by the application. The data in this model include also settings used for application setup like start date and initially selected view for both calendars, supported appointment types, etc. The application is built with Dynamic Page control \(`sap.f.DynamicPage`\) and the switch between the two calendars happens without loading of the pages. Calendars are loaded as fragments in a container within the Dynamic Page content aggregation. For more information about the features and options for extending the app, see the Demo Kit Sample pages for [sap.m.PlanningCalendar](https://sdk.openui5.org/entity/sap.m.PlanningCalendar) and [sap.m.SinglePlanningCalendar](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar).
 
 ***
 
@@ -79,5 +79,5 @@ The *Create* button adds new appointments and the Calendar Legend button display
 
 ***
 
-Find the Team Calendar under [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps).
+Find the Team Calendar under [Demo Apps](https://sdk.openui5.org/demoapps).
 

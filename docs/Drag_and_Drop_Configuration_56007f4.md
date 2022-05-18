@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/56007f46e7db494bbaadbfa5e8d50ea8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/56007f46e7db494bbaadbfa5e8d50ea8)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/56007f46e7db494bbaadbfa5e8d50ea8) | [demo kit latest release](https://sdk.openui5.org/topic/56007f46e7db494bbaadbfa5e8d50ea8)</div>
 
 ## Drag-and-Drop Configuration
 
@@ -21,7 +21,7 @@ To use drag and drop, you have to provide the required configuration using the `
 The `dragDropConfig` aggregation with multiplicity `0..n` is enabled for all controls and elements in OpenUI5. However, it has to be defined in the metadata first.
 
 > ### Note:  
-> This configuration might be ignored due to metadata restrictions of `sap.ui.core.Element.extend`. For more information, see the [API Reference: `sap.ui.core.Element.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend). 
+> This configuration might be ignored due to metadata restrictions of `sap.ui.core.Element.extend`. For more information, see the [API Reference: `sap.ui.core.Element.extend`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/sap.ui.core.Element.extend). 
 
 To enable configuration, the following configuration entities for the aggregation are available:
 
@@ -44,7 +44,7 @@ Both `DragInfo` and `DropInfo` provide the `groupName` property. If this propert
 **Related Information**  
 
 
-[API Reference: `dragDropConfig`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations)
+[API Reference: `dragDropConfig`](https://sdk.openui5.org/api/sap.ui.core.Element/aggregations)
 
 [Drag-and-Drop Metadata](Drag_and_Drop_Metadata_da7f3fc.md "To influence the drag-and-drop behavior, use the metadata definition of a control.")
 

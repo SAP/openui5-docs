@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/723f4b2334e344c08269159797f6f796) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/723f4b2334e344c08269159797f6f796)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/723f4b2334e344c08269159797f6f796) | [demo kit latest release](https://sdk.openui5.org/topic/723f4b2334e344c08269159797f6f796)</div>
 
 ## Step 14: Custom CSS and Theme Colors
 
@@ -29,7 +29,7 @@ Sometimes we need to define some more fine-granular layouts and this is when we 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 14](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.14/preview).
+You can view and download all files at [Walkthrough - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.14/preview).
 
 ```
 html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
@@ -153,7 +153,7 @@ The actual color now depends on the selected theme which ensures that the color 
 
 [Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.")
 
-[API Reference: `sap.ui.core.theming`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.theming.html)
+[API Reference: `sap.ui.core.theming`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.theming.html)
 
-[Samples: `sap.ui.core.theming` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.core.theming/samples)
+[Samples: `sap.ui.core.theming` ](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.theming/samples)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://sdk.openui5.org/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
 
 ## Growing Feature for Table and List
 
@@ -69,5 +69,5 @@ If you want the user to have to scroll down to see more items \(by setting the `
 
 ### Sample
 
-For more information, see the [sample](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.ListGrowing/preview) in the Demo Kit.
+For more information, see the [sample](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.ListGrowing/preview) in the Demo Kit.
 

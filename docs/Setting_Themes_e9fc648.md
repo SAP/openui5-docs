@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e9fc648661d84ed89360bbec3ae02611)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e9fc648661d84ed89360bbec3ae02611) | [demo kit latest release](https://sdk.openui5.org/topic/e9fc648661d84ed89360bbec3ae02611)</div>
 
 ## Setting Themes
 
@@ -41,7 +41,7 @@ You define which theme is used by your app either in the bootstrap, by using a U
 
     You can specify a second parameter containing the root URL of the theme. The URL is not restricted in any way, therefore the caller has to make sure that the URL is valid and safe. If the URL points to the theme infrastructure, it must contain the folder suffix `UI5/`.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/applyTheme).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Core/methods/applyTheme).
 
     > ### Note:  
     > This option allows you to switch themes in your app during runtime.

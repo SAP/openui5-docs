@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://sdk.openui5.org/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
 
 ## Creating Bindings
 
@@ -26,7 +26,7 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
     > 
     > This allows you, for instance, to specify [OData V4 binding parameters](Parameters_1ab4f62.md) such as `$expand` or attach to OData V4 [Binding Events](Binding_Events_1a010d3.md) such as `dataReceived`.
 
-    For a complete example, see the `onSalesOrderSelect` method \(file: `Main.controller.js`\) in the [SalesOrders sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
+    For a complete example, see the `onSalesOrderSelect` method \(file: `Main.controller.js`\) in the [SalesOrders sample](https://sdk.openui5.org/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
 
 -   Declaring a binding for a control property in an XML view such as the following:
 
@@ -35,6 +35,6 @@ The OData V4 model offers the factory methods `bindList`, `bindContext` and `bin
     <Table items="{path : '/SalesOrderList', parameters : { $expand : 'SO_2_BP', $filter : 'BuyerName ge \'M\'', ...}, events : {dataReceived : '.onDataEvents', ... } }">
     ```
 
-    For a complete example, see the `Main.view.xml` file in the [SalesOrders sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
+    For a complete example, see the `Main.view.xml` file in the [SalesOrders sample](https://sdk.openui5.org/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) in the Demo Kit.
 
 

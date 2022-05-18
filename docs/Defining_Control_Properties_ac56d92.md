@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac56d92162ed47ff858fdf1ce26c18c4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ac56d92162ed47ff858fdf1ce26c18c4) | [demo kit latest release](https://sdk.openui5.org/topic/ac56d92162ed47ff858fdf1ce26c18c4)</div>
 
 ## Defining Control Properties
 
@@ -223,7 +223,7 @@ var fooType = DataType.createType('foo', {
 
 If `mSettings` contains an implementation for `isValid`, then the validity check of the newly created type will first execute the check of the base type and then call the given `isValid` function.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.DataType.html). 
+For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.DataType.html). 
 
 
 
@@ -339,5 +339,5 @@ At runtime, each type is represented as instance of the class `DataType` \(`sap/
 **Related Information**  
 
 
-[API Reference: `sap.ui.base.DataType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.DataType.html)
+[API Reference: `sap.ui.base.DataType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.DataType.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a2fe8e763014477e87990ff50657a0d0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a2fe8e763014477e87990ff50657a0d0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a2fe8e763014477e87990ff50657a0d0) | [demo kit latest release](https://sdk.openui5.org/topic/a2fe8e763014477e87990ff50657a0d0)</div>
 
 ## Composite Binding
 

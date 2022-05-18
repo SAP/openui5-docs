@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c72b922fdb59422496661000165d7ff1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c72b922fdb59422496661000165d7ff1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c72b922fdb59422496661000165d7ff1) | [demo kit latest release](https://sdk.openui5.org/topic/c72b922fdb59422496661000165d7ff1)</div>
 
 ## Step 4: Two-Way Data Binding
 
@@ -26,7 +26,7 @@ In the examples used so far, we have used a read-only field to display the value
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.04/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.04/preview).
 
 ***
 

@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/be0cf40f61184b358b5faedaec98b2da)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://sdk.openui5.org/topic/be0cf40f61184b358b5faedaec98b2da)</div>
 
 ## Descriptor for Applications, Components, and Libraries \(manifest.json\)
 
 The descriptor for applications, components, and libraries \(in short: app descriptor\) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.
 
-In general, the app descriptor describes the behavior of an app through attributes. It doesn't directly influence that behavior itself for the most part. When a section in the app descriptor does affect the behavior of an app, this is described in the [API Reference](https://openui5.hana.ondemand.com/#/api/). for the corresponding namespace.
+In general, the app descriptor describes the behavior of an app through attributes. It doesn't directly influence that behavior itself for the most part. When a section in the app descriptor does affect the behavior of an app, this is described in the [API Reference](https://sdk.openui5.org/api/). for the corresponding namespace.
 
 The data of the app descriptor is stored in JSON format in the `manifest.json` file. The developer creates the file with attributes in different namespaces. It contains, for example, the app ID, the version, the data sources used, along with the required components and libraries. The existence of the `manifest.json` file must be declared in the component metadata, which is then delivered as part of the application archive. After delivery, the file is read-only.
 
@@ -1027,7 +1027,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 ### Manifest First Function
 
-The component factory function [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
+The component factory function [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
 The `manifest` option allows you to configure when and from where the descriptor is loaded:
 
@@ -1091,7 +1091,7 @@ The `ui5://` URLs have the following properties:
 -   only absolute URLs are allowed, e.g. `ui5://my/path/to/sample`, but not `ui5:my/app/path`,
 -   all URL prefixes to be used inside a `ui5://` URL must be registered on the UI5 loader beforehand \(see the example below\),
 -   `sap.ui5/resourceRoots` can be part of a `ui5://` URL,
--   the component factory [`Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
+-   the component factory [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create) takes care of defining the resource roots before any `ui5://` URLs are resolved.
 
 ***
 
@@ -1297,7 +1297,7 @@ Possible values:
 
 -   `library`: use if your `manifest.json` describes a **UI5 library**. For further library-specific configuration options, see [Descriptor for Libraries](Descriptor_for_Libraries_b229914.md).
 
--   `card`: use if your `manifest.json` describes a **UI5 card**.For further card-specific configuration options, see [Integration Cards](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/overview/introduction).
+-   `card`: use if your `manifest.json` describes a **UI5 card**.For further card-specific configuration options, see [Integration Cards](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/overview/introduction).
 
 
 
@@ -1674,7 +1674,7 @@ Specifies the UI technology; value is `UI5`
 
 Contains object with app-specific icons, which are:
 
--   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) .
+-   `icon`: Icon of the app, can be chosen from [Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) .
 -   `favIcon`: ICO file to be used inside the browser and for desktop shortcuts
 
     > ### Note:  
@@ -1854,16 +1854,16 @@ Defines models that should be created or destroyed along the component's lifecyc
     > ### Example:  
     > You can overwrite the default binding mode with the `defaultBindingMode` attribute \(enumeration of type `sap.ui.model.BindingMode`, with values. `Default`, `OneTime`, `OneWay`, `TwoWay`\). For OData models constructor see the following:
     > 
-    > -   [sap.ui.model.odata.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataModel/constructor)
+    > -   [sap.ui.model.odata.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.ODataModel/constructor)
     > 
-    > -   [sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel/constructor)
+    > -   [sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel/constructor)
     > 
-    > -   [sap.ui.model.odata.v4.ODataModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor)
+    > -   [sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor)
     > 
     > 
     > For ResourceModel constructor see:
     > 
-    > -   [sap.ui.model.resource.ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel/constructor)
+    > -   [sap.ui.model.resource.ResourceModel](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel/constructor)
     > 
     > 
     > The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either `component` \(default\) or `manifest`\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
@@ -1890,7 +1890,7 @@ Defines models that should be created or destroyed along the component's lifecyc
 </td>
 <td valign="top">
 
-Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string \(see [sap.ui.core.mvc.View.create](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create)\) and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)\), **id**, **async**, and other properties of `sap.ui.core.mvc.view`.
+Specifies the root view that shall be opened; can be the view name as a string for XML views, or the view configuration object with `viewName` for the view name as a string \(see [sap.ui.core.mvc.View.create](https://sdk.openui5.org/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create)\) and `type` for the type \(enumeration of [sap.ui.core.mvc.ViewType](https://sdk.openui5.org/api/sap.ui.core.mvc.ViewType)\), **id**, **async**, and other properties of `sap.ui.core.mvc.view`.
 
 
 
@@ -2430,7 +2430,7 @@ The `preload` flag enables a preload mode for a model, thus improving the startu
 		look-and-feel of SAP Fiori 2.0. ")**  
 Application developers can enable automatic adaptation of their existing applications from the manifest.json app descriptor. This helps to easily convert applications to the new look-and-feel of SAP Fiori 2.0.
 
-[sap.ui.core.UIComponent](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.UIComponent.html)
+[sap.ui.core.UIComponent](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.UIComponent.html)
 
 [Component Metadata](Component_Metadata_0187ea5.md "The component class provides specific metadata for components by extending the ManagedObject class. The UIComponent class provides additional metadata for the configuration of user interfaces or the navigation between views.")
 

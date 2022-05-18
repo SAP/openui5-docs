@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f94deb45de184a3a87850b75d610d9c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f94deb45de184a3a87850b75d610d9c0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f94deb45de184a3a87850b75d610d9c0) | [demo kit latest release](https://sdk.openui5.org/topic/f94deb45de184a3a87850b75d610d9c0)</div>
 
 ## Text
 
@@ -18,7 +18,7 @@ The `sap.m.Text` control allows you to display longer texts in your app, with th
 
 ### Multi-line Paragraphs and Text Wrapping
 
-You can influence the maximum number of visible lines by setting the `maxLines` property to a numerical value. This option is only available when the `wrapping` property is set to true. For more information, see the [sap.m.Text - Max Lines Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextMaxLines/preview). 
+You can influence the maximum number of visible lines by setting the `maxLines` property to a numerical value. This option is only available when the `wrapping` property is set to true. For more information, see the [sap.m.Text - Max Lines Sample](https://sdk.openui5.org/sample/sap.m.sample.TextMaxLines/preview). 
 
 ***
 
@@ -153,7 +153,7 @@ For example, if you want to visualize `C:\TestFolder`
 </tr>
 </table>
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Text) and the [sap.m.Text - Render Whitespace Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextRenderWhitespace/preview). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Text) and the [sap.m.Text - Render Whitespace Sample](https://sdk.openui5.org/sample/sap.m.sample.TextRenderWhitespace/preview). 
 
 ***
 
@@ -163,9 +163,9 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 -   Use the Text control if you want to display text inside a form, table, or any other content area.
 
--   Do not use the Text control if you need a Label. For more information, see the [API Reference: `sap.m.Label`](https://openui5.hana.ondemand.com/#/api/sap.m.Label). 
+-   Do not use the Text control if you need a Label. For more information, see the [API Reference: `sap.m.Label`](https://sdk.openui5.org/api/sap.m.Label). 
 
--   If you need special text formatting, use Formatted Text or HTML. For more information, see the [API Reference: `sap.m.FormattedText`](https://openui5.hana.ondemand.com/#/api/sap.m.FormattedText) and [API Reference: `sap.ui.core.HTML`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.HTML). 
+-   If you need special text formatting, use Formatted Text or HTML. For more information, see the [API Reference: `sap.m.FormattedText`](https://sdk.openui5.org/api/sap.m.FormattedText) and [API Reference: `sap.ui.core.HTML`](https://sdk.openui5.org/api/sap.ui.core.HTML). 
 
 
 > ### Restriction:  

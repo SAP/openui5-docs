@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84ec82e7498345ccbfcd754d4578313b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://sdk.openui5.org/topic/84ec82e7498345ccbfcd754d4578313b)</div>
 
 ## Sliders
 
@@ -53,7 +53,7 @@ var CustomScale = Element.extend("sap.xx.custom.CustomScale", {
 			});
 ```
 
-You need to implement the following methods of the [IScale](https://openui5.hana.ondemand.com/#/api/sap.m.IScale) interface.
+You need to implement the following methods of the [IScale](https://sdk.openui5.org/api/sap.m.IScale) interface.
 
 -   `getTickmarksBetweenLabels` - Determine which tickmarks should have a label
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e1ce1de315994a02bf162f4b3b5a9f09) | [demo kit latest release](https://sdk.openui5.org/topic/e1ce1de315994a02bf162f4b3b5a9f09)</div>
 
 ## Step 27: Unit Test with QUnit
 
@@ -31,7 +31,7 @@ Actually, every feature that we added to the app so far, would require a separat
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 27](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.27/preview).
+You can view and download all files at [Walkthrough - Step 27](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.27/preview).
 
    
   
@@ -125,20 +125,20 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "../../"
 		}'
 		data-sap-ui-async="true">
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/qunit-2.css">
+	<link rel="stylesheet" type="text/css" href="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.css">
 
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/qunit-2.js"></script>
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/qunit/qunit-junit.js"></script>
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/qunit/qunit-coverage.js"></script>
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/sinon.js"></script>
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/sinon-qunit.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/qunit/qunit-junit.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/qunit/qunit-coverage.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/sinon.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/sinon-qunit.js"></script>
 
 	<script src="unitTests.qunit.js"></script>
 </head>

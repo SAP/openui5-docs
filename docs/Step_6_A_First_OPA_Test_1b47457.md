@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1b47457cbe4941ee926317d827517acb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://sdk.openui5.org/topic/1b47457cbe4941ee926317d827517acb)</div>
 
 ## Step 6: A First OPA Test
 
@@ -26,7 +26,7 @@ A bulletin board may contain many posts. We expect to have a high data load once
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 6](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.06).
+You can view and download all files in the Demo Kit at [Testing - Step 6](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.06).
 
 ***
 
@@ -205,7 +205,7 @@ For our test case we need to add an action `iPressOnMoreData` and an existing as
 Let’s start with the action `iPressOnMoreData`. We define a `waitFor` statement with the current view and the table. Those IDs are stored as internal variables in the `require` statement above and are available in all tests. OPA will now try to find the table based on IDs. As soon as the table is available on the screen and it can be interacted with \(it is visible, not busy,...\), the `Press` action is invoked, if not, the error message is displayed and the test fails. When executed on a table, the `Press` action will simulate that a users chooses the *More Data* button.
 
 > ### Note:  
-> The `Press` action depends on the control that it is triggered on and has a default behavior for most UI controls. If you, for example, execute `Press` on a `sap.m.Page`, this will trigger the *Back* button's `Press` event. This behavior can be overridden by passing an ID as argument to the action. For more information, see the [API Reference: `sap.ui.test.actions.Press`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.Press). 
+> The `Press` action depends on the control that it is triggered on and has a default behavior for most UI controls. If you, for example, execute `Press` on a `sap.m.Page`, this will trigger the *Back* button's `Press` event. This behavior can be overridden by passing an ID as argument to the action. For more information, see the [API Reference: `sap.ui.test.actions.Press`](https://sdk.openui5.org/api/sap.ui.test.actions.Press). 
 
 The assertion `theTableShouldHaveAllEntries` is structured similarly, but it does not trigger an action. Here, we use the `success` function of `waitFor` to assert if our application is in the expected state. This state is defined by the matchers \(in our case we expect that the list contains 23 items by using the `AggregationLengthEquals`. The `success` function does not execute the additional checks that are needed for triggering an action. the liste does not have to be `interactable` to verify that the state of the application is correct..
 
@@ -240,9 +240,9 @@ Now run the `webapp/test/integration/opaTests.qunit.html` file and make sure tha
 
 [Test Recorder](Test_Recorder_2535ef9.md "The Test Recorder tool supports app developers who write integration and system tests.")
 
-[API Reference: `sap.ui.test.matchers`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.matchers)
+[API Reference: `sap.ui.test.matchers`](https://sdk.openui5.org/api/sap.ui.test.matchers)
 
-[API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5)
+[API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.org/api/sap.ui.test.Opa5)
 
-[Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5)
+[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/entity/sap.ui.test.Opa5)
 

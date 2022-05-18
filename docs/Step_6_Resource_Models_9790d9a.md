@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9790d9aa686e4f818f2ad99057adb7ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9790d9aa686e4f818f2ad99057adb7ee)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9790d9aa686e4f818f2ad99057adb7ee) | [demo kit latest release](https://sdk.openui5.org/topic/9790d9aa686e4f818f2ad99057adb7ee)</div>
 
 ## Step 6: Resource Models
 
@@ -28,7 +28,7 @@ The example we used at the start of this tutorial was overly simplistic as we st
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.06/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.06/preview).
 
 ***
 
@@ -60,7 +60,7 @@ sap.ui.require([
 		// the configured fallbackLocale should represent one of these files
 		// * "" - according to the fallback chain the root bundle is the last fallback.
 		//   Configuring it explicitly avoids side effects when additional resource files are added.
-		// @see https://ui5.sap.com/#/topic/ec753bc539d748f689e3ac814e129563
+		// @see https://sdk.openui5.org/topic/ec753bc539d748f689e3ac814e129563
 		var oResourceModel = new ResourceModel({
 			bundleName: "sap.ui.demo.db.i18n.i18n",
 			supportedLocales: ["", "de"],

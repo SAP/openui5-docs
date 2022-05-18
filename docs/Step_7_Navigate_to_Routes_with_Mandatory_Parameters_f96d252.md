@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f96d2522a5ca4382a274ae3c6d002ca0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f96d2522a5ca4382a274ae3c6d002ca0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f96d2522a5ca4382a274ae3c6d002ca0) | [demo kit latest release](https://sdk.openui5.org/topic/f96d2522a5ca4382a274ae3c6d002ca0)</div>
 
 ## Step 7: Navigate to Routes with Mandatory Parameters
 
@@ -40,7 +40,7 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.07/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.07/preview).
 
    
   
@@ -343,5 +343,5 @@ That’s it. You can go to `webapp/index.html#/employees` and click on any list 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.Binding`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.Binding.html)
+[API Reference: `sap.ui.model.Binding`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Binding.html)
 

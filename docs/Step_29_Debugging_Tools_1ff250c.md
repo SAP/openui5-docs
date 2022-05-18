@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://sdk.openui5.org/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
 
 ## Step 29: Debugging Tools
 
@@ -32,7 +32,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 29](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.29/preview).
+You can view and download all files at [Walkthrough - Step 29](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.29/preview).
 
 ```xml
 <mvc:View

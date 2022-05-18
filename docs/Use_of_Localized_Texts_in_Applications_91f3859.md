@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f385926f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f385926f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f385926f4d1014b6dd926db0e91070)</div>
 
 ## Use of Localized Texts in Applications
 
@@ -171,7 +171,7 @@ You can also use data binding to access localized texts. The `ResourceModel` is 
 
 After the instance has been created, you have a model containing the resource bundle texts as data.
 
-For a complete overview of available methods and parameters, see [`ResourceModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel) in the *API Reference* in the Demo Kit
+For a complete overview of available methods and parameters, see [`ResourceModel`](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel) in the *API Reference* in the Demo Kit
 
 **Related Information**  
 

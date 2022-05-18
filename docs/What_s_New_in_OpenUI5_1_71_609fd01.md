@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/609fd015eaf64bd2a4a5c0331590eb4c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/609fd015eaf64bd2a4a5c0331590eb4c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/609fd015eaf64bd2a4a5c0331590eb4c) | [demo kit latest release](https://sdk.openui5.org/topic/609fd015eaf64bd2a4a5c0331590eb4c)</div>
 
 ## What's New in OpenUI5 1.71
 
@@ -29,7 +29,7 @@ With this release OpenUI5 is upgraded from version 1.70 to 1.71.
 
 -   The Card Explorer now preserves the page last visited and thus offers an improved usability and better navigation.
 
-For more information, see [Card Explorer](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
+For more information, see [Card Explorer](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/index.html).
 
 
 
@@ -72,7 +72,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing freestyle and SAP Fiori elements applications. Double-check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported in combination with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel).
 
 
 
@@ -83,7 +83,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 **Support Assistant**
 
-The file extension assertion `getReportAsFileInFormat` for OPA tests; which enables Support Assistant checks`RuleEngineOpaExtension`, has changed. Now, the value of the `fileName` parameter should have the extension `.support-assistant.json`, or it will automatically be changed to `.support-assistant.json`. This new feature will improve file recognition in automated test scenarios. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.support.RuleEngineOpaAssertions/methods/sap.ui.core.support.RuleEngineOpaAssertions.getReportAsFileInFormat).
+The file extension assertion `getReportAsFileInFormat` for OPA tests; which enables Support Assistant checks`RuleEngineOpaExtension`, has changed. Now, the value of the `fileName` parameter should have the extension `.support-assistant.json`, or it will automatically be changed to `.support-assistant.json`. This new feature will improve file recognition in automated test scenarios. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.support.RuleEngineOpaAssertions/methods/sap.ui.core.support.RuleEngineOpaAssertions.getReportAsFileInFormat).
 
 
 
@@ -104,7 +104,7 @@ The file extension assertion `getReportAsFileInFormat` for OPA tests; which enab
 
 **`sap.f.dnd.GridDropInfo`**
 
-We have introduced a new `dropIndicatorSize` property. It allows the app developer to specify the size of the drop indicator for items which are not part of the grid, for example, if a flat list item is dragged over an `sap.f.GridContainer`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.dnd.GridDropInfo) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDropFromList).
+We have introduced a new `dropIndicatorSize` property. It allows the app developer to specify the size of the drop indicator for items which are not part of the grid, for example, if a flat list item is dragged over an `sap.f.GridContainer`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.dnd.GridDropInfo) and the [Sample](https://sdk.openui5.org/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDropFromList).
 
 
 
@@ -126,7 +126,7 @@ We introduced visual improvements based on the latest SAP Fiori Design Guideline
 
 **`sap.f.FlexibleColumnLayout`**
 
-We introduced a visual improvement of the column separator to enhance its visibility. It is applied to the SAP Quartz Light theme and both SAP Belize themes \(along with the high-contrast themes\), and there are no differences between the cozy mode and the compact mode.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.FlexibleColumnLayout/sample/sap.f.sample.FlexibleColumnLayoutWithTwoColumnStart).
+We introduced a visual improvement of the column separator to enhance its visibility. It is applied to the SAP Quartz Light theme and both SAP Belize themes \(along with the high-contrast themes\), and there are no differences between the cozy mode and the compact mode.For more information, see the [Sample](https://sdk.openui5.org/entity/sap.f.FlexibleColumnLayout/sample/sap.f.sample.FlexibleColumnLayoutWithTwoColumnStart).
 
 
 
@@ -137,7 +137,7 @@ We introduced a visual improvement of the column separator to enhance its visibi
 
 **`sap.f.GridContainer`**
 
-This control is no longer experimental, but some properties, methods, and aggregations are still in experimental state.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer). 
+This control is no longer experimental, but some properties, methods, and aggregations are still in experimental state.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.GridContainer). 
 
 
 
@@ -164,7 +164,7 @@ Visual improvements based on the latest SAP Fiori Design Guidelines were impleme
 
 **`sap.m.Label`**
 
-Visual changes have been introduced. If the `required` property is set to `true`, the asterisk is now smaller and darker. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Label/sample/sap.m.sample.Label).
+Visual changes have been introduced. If the `required` property is set to `true`, the asterisk is now smaller and darker. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Label/sample/sap.m.sample.Label).
 
 
 
@@ -175,7 +175,7 @@ Visual changes have been introduced. If the `required` property is set to `true`
 
 **`sap.m.Link`**
 
-A new key user adaptation/SAPUI5 flexibility feature now enables the `target` property to be changed in the UI Adaptation mode if the `href` property is set. For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Link).
+A new key user adaptation/SAPUI5 flexibility feature now enables the `target` property to be changed in the UI Adaptation mode if the `href` property is set. For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.Link).
 
 
 
@@ -186,7 +186,7 @@ A new key user adaptation/SAPUI5 flexibility feature now enables the `target` pr
 
 **`sap.m.PlanningCalendar`**
 
-We have changed the look of the `sap.m.PlanningCalendar`. The header part is now aligned with the one of `sap.m.SinglePlanningCalendar` to have a similar experience when interacting with the two controls. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarModifyAppointments).
+We have changed the look of the `sap.m.PlanningCalendar`. The header part is now aligned with the one of `sap.m.SinglePlanningCalendar` to have a similar experience when interacting with the two controls. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarModifyAppointments).
 
 
 
@@ -197,7 +197,7 @@ We have changed the look of the `sap.m.PlanningCalendar`. The header part is now
 
 **`sap.m.SelectDialog`**
 
-We have updated the behavior of the `sap.m.SelectDialog` when the single selection mode has the `rememberSelections` property set to `true`. Now the user can close the `SelectDialog` by pressing the already selected item from a single selection dialog. This means that the users no longer need to press *Cancel*, if they have opened the `SelectDialog` for a second time to check what was previously selected. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SelectDialog). 
+We have updated the behavior of the `sap.m.SelectDialog` when the single selection mode has the `rememberSelections` property set to `true`. Now the user can close the `SelectDialog` by pressing the already selected item from a single selection dialog. This means that the users no longer need to press *Cancel*, if they have opened the `SelectDialog` for a second time to check what was previously selected. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SelectDialog) and the [Sample](https://sdk.openui5.org/entity/sap.m.SelectDialog). 
 
 
 
@@ -208,7 +208,7 @@ We have updated the behavior of the `sap.m.SelectDialog` when the single selecti
 
 **`sap.m.SinglePlanningCalendar`**
 
-A new `viewChange` event has been introduced, which is fired when the user changes the view of the control. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendar).
+A new `viewChange` event has been introduced, which is fired when the user changes the view of the control. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SinglePlanningCalendar) and the [Sample](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendar).
 
 
 
@@ -219,7 +219,7 @@ A new `viewChange` event has been introduced, which is fired when the user chang
 
 **`sap.m.TableSelectDialog`**
 
-The new `resizable` and `draggable` properties have been introduced which affect the desktop mode. They allow the `TableSelectDialog` to be dragged and resized. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.TableSelectDialog/sample/sap.m.sample.TableSelectDialog).
+The new `resizable` and `draggable` properties have been introduced which affect the desktop mode. They allow the `TableSelectDialog` to be dragged and resized. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TableSelectDialog) and the [Sample](https://sdk.openui5.org/entity/sap.m.TableSelectDialog/sample/sap.m.sample.TableSelectDialog).
 
 
 
@@ -230,7 +230,7 @@ The new `resizable` and `draggable` properties have been introduced which affect
 
 **`sap.m.ViewSettingsDialog`**
 
-We have improved the user experience of the search. When there are no items matching the search criteria, the *Select All* checkbox is disabled. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ViewSettingsDialog).
+We have improved the user experience of the search. When there are no items matching the search criteria, the *Select All* checkbox is disabled. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ViewSettingsDialog).
 
 
 
@@ -246,7 +246,7 @@ We have improved the user experience of the search. When there are no items matc
 -   We have introduced a new `withCredentials` boolean property for the `sap.ui.integration.widgets.Card`’s manifest. It is part of the `request` property. It indicates whether cross-site requests should be made using credentials or not.
 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card).
 
 
 
@@ -259,7 +259,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 The new `enableNotification` property of `MultiSelectionPlugin` can be used to display a message when the limit of rows that has been selected at the same time is reached.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.plugins.MultiSelectionPlugin) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.table.plugins.MultiSelectionPlugin) and the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.MultiSelectionPlugin).
 
 
 

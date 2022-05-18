@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://sdk.openui5.org/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
 
 ## Step 5: Display a Target Without Changing the Hash
 
@@ -30,7 +30,7 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo -kit at [Routing and Navigation - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.05/preview).
+You can view and download all files in the *Samples* in the Demo -kit at [Routing and Navigation - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.05/preview).
 
 ***
 
@@ -178,9 +178,9 @@ When we now click the *Back* button, it works as expected and brings us back to 
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Targets.html)
+[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Targets.html)
 
-[API Reference: `sap.ui.core.routing.Targets`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.Targets.html)
+[API Reference: `sap.ui.core.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Targets.html)
 
-[API Reference: `sap.ui.core.routing.Target`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.Target.html)
+[API Reference: `sap.ui.core.routing.Target`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Target.html)
 

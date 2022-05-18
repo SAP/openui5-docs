@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://sdk.openui5.org/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
 
 ## Grid Controls
 
@@ -817,19 +817,19 @@ A flexible layout that positions its items in a 12-column flow layout.
 **Related Information**  
 
 
-[API Reference: `sap.ui.layout.cssgrid.CSSGrid`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.cssgrid.CSSGrid)
+[API Reference: `sap.ui.layout.cssgrid.CSSGrid`](https://sdk.openui5.org/api/sap.ui.layout.cssgrid.CSSGrid)
 
-[Samples: `sap.ui.layout.cssgrid.CSSGrid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.cssgrid.CSSGrid)
+[Samples: `sap.ui.layout.cssgrid.CSSGrid`](https://sdk.openui5.org/entity/sap.ui.layout.cssgrid.CSSGrid)
 
-[API Reference: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.Grid)
+[API Reference: `sap.ui.layout.Grid`](https://sdk.openui5.org/api/sap.ui.layout.Grid)
 
-[Samples: `sap.ui.layout.Grid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.Grid)
+[Samples: `sap.ui.layout.Grid`](https://sdk.openui5.org/entity/sap.ui.layout.Grid)
 
-[API Reference: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer)
+[API Reference: `sap.f.GridContainer`](https://sdk.openui5.org/api/sap.f.GridContainer)
 
-[Samples: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer)
+[Samples: `sap.f.GridContainer`](https://sdk.openui5.org/entity/sap.f.GridContainer)
 
-[API Reference: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/api/sap.f.GridList)
+[API Reference: `sap.f.GridList`](https://sdk.openui5.org/api/sap.f.GridList)
 
-[Samples: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList)
+[Samples: `sap.f.GridList`](https://sdk.openui5.org/entity/sap.f.GridList)
 

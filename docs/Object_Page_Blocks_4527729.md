@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4527729576cb4a4888275b6935aad03a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://sdk.openui5.org/topic/4527729576cb4a4888275b6935aad03a)</div>
 
 ## Object Page Blocks
 
@@ -179,5 +179,5 @@ The standard block implementation is to extend the `sap.uxap.BlockBase` control 
 
 [Creating Blocks](Creating_Blocks_2978f60.md "Important points when creating blocks for the sap.uxap.ObjectPageLayout")
 
-[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.BlockBase.html)
+[API Reference: `sap.uxap.BlockBase`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.BlockBase.html)
 

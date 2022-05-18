@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/370b67986497463187336fa130aebbf1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/370b67986497463187336fa130aebbf1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/370b67986497463187336fa130aebbf1) | [demo kit latest release](https://sdk.openui5.org/topic/370b67986497463187336fa130aebbf1)</div>
 
 ## Anchor Bar
 
@@ -117,5 +117,5 @@ Here is an example showing the usage of custom controls for the anchor bar butto
 **Related Information**  
 
 
-[API Reference: `sap.uxap.AnchorBar`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.AnchorBar.html)
+[API Reference: `sap.uxap.AnchorBar`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.AnchorBar.html)
 

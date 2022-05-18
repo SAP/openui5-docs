@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/021ac23c547c48f087adfef85aca8413)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/021ac23c547c48f087adfef85aca8413) | [demo kit latest release](https://sdk.openui5.org/topic/021ac23c547c48f087adfef85aca8413)</div>
 
 ## Examples for Triggering Telephone, Text and E-Mail Applications
 

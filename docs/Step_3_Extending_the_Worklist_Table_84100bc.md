@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://sdk.openui5.org/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
 
 ## Step 3: Extending the Worklist Table
 
@@ -26,7 +26,7 @@ In this step, we will edit the worklist table to include additional columns for 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Worklist App - Step 3](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.03).
+You can view and download all files in the Demo Kit at [Worklist App - Step 3](https://sdk.openui5.org/entity/sap.m.tutorial.worklist/sample/sap.m.tutorial.worklist.03).
 
 ***
 

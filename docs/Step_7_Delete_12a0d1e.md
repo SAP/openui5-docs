@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/12a0d1ef150a42ef81e9f07fe6407018) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/12a0d1ef150a42ef81e9f07fe6407018)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/12a0d1ef150a42ef81e9f07fe6407018) | [demo kit latest release](https://sdk.openui5.org/topic/12a0d1ef150a42ef81e9f07fe6407018)</div>
 
 ## Step 7: Delete
 
@@ -30,7 +30,7 @@ In this step, we make it possible to delete user data.
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.07/preview).
+You can view and download all files at [OData V4 - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.07/preview).
 
 ***
 

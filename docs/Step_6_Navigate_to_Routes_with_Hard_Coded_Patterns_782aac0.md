@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://sdk.openui5.org/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
 
 ## Step 6: Navigate to Routes with Hard-Coded Patterns
 
@@ -33,7 +33,7 @@ In this step, we'll create a second button on the home page, with which we can n
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 6](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.06/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.06/preview).
 
    
   
@@ -239,5 +239,5 @@ Now you can open the app and press the *Show Employee List* button to navigate t
 
 [Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method and events for navigation.")
 
-[API Reference: `sap.ui.core.routing.Route`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.Route.html)
+[API Reference: `sap.ui.core.routing.Route`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Route.html)
 

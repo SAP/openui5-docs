@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/856d6c6a408846b480ca177b9a1aab62) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/856d6c6a408846b480ca177b9a1aab62)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/856d6c6a408846b480ca177b9a1aab62) | [demo kit latest release](https://sdk.openui5.org/topic/856d6c6a408846b480ca177b9a1aab62)</div>
 
 ## Navigate with Dynamic Targets
 
@@ -25,7 +25,7 @@ Before a target can be displayed, it needs to be added to the router. The OpenUI
 
 ### Adding Dynamic Targets
 
-Use the [addTarget](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Targets/methods/addTarget) API of the `sap.ui.core.routing.Targets` module to add dynamic routing targets:
+Use the [addTarget](https://sdk.openui5.org/api/sap.ui.core.routing.Targets/methods/addTarget) API of the `sap.ui.core.routing.Targets` module to add dynamic routing targets:
 
 ```js
 var oTargetOptions = {
@@ -59,7 +59,7 @@ On top of the other target options, the following configuration options can be u
 
 ### Displaying Dynamic Targets
 
-After a target has been added, it is possible to display it with the [display](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Targets/methods/display) method of the `sap.ui.core.routing.Targets` module.
+After a target has been added, it is possible to display it with the [display](https://sdk.openui5.org/api/sap.ui.core.routing.Targets/methods/display) method of the `sap.ui.core.routing.Targets` module.
 
 A typical use case is to display a dynamic target after navigating to a route. By default there is no connection between a dynamically added target and the matched route, which would be relevant for the life-cycle of targets and the handling of the browser hash. In this case, the target will not be suspended after navigating away from the corresponding route, and the hash of the router will be reset.
 

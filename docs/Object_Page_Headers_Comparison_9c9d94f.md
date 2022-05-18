@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c9d94fd28284539a9a5a57e9caf82a8)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9c9d94fd28284539a9a5a57e9caf82a8) | [demo kit latest release](https://sdk.openui5.org/topic/9c9d94fd28284539a9a5a57e9caf82a8)</div>
 
 ## Object Page Headers Comparison
 
@@ -489,11 +489,11 @@ Here is a sample usage of the dynamic header - the value of the `headerTitle` ag
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
 
-[API Reference: `sap.f.DynamicPageTitle`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.DynamicPageTitle.html)
+[API Reference: `sap.f.DynamicPageTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPageTitle.html)
 
-[API Reference: `sap.f.DynamicPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.DynamicPageHeader.html)
+[API Reference: `sap.f.DynamicPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPageHeader.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08050365ef9f4777af7b3c139fdb0d82) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08050365ef9f4777af7b3c139fdb0d82)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/08050365ef9f4777af7b3c139fdb0d82) | [demo kit latest release](https://sdk.openui5.org/topic/08050365ef9f4777af7b3c139fdb0d82)</div>
 
 ## What's New in OpenUI5 1.89
 
@@ -124,7 +124,7 @@ Similar to the `sap.m.Text` control, these controls now also implement the new `
 
 **`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`**
 
-You can now define up to six columns in extra-large size in a form. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.form.ColumnsXL), the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.Form) for `Form`, and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.form.SimpleForm) for `SimpleForm`.
+You can now define up to six columns in extra-large size in a form. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.form.ColumnsXL), the [Samples](https://sdk.openui5.org/entity/sap.ui.layout.form.Form) for `Form`, and the [Samples](https://sdk.openui5.org/entity/sap.ui.layout.form.SimpleForm) for `SimpleForm`.
 
 
 

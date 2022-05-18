@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/676b636446c94eada183b1218a824717)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://sdk.openui5.org/topic/676b636446c94eada183b1218a824717)</div>
 
 ## Use Asynchronous Loading
 
@@ -110,7 +110,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
 **Additional Information:**
 
 -   Walkthrough tutorial, [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md)
--   Set the rootView and routing to async via [`sap.ui.core.IAsyncContentCreation`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.IAsyncContentCreation)
+-   Set the rootView and routing to async via [`sap.ui.core.IAsyncContentCreation`](https://sdk.openui5.org/api/sap.ui.core.IAsyncContentCreation)
 
 ***
 
@@ -118,7 +118,7 @@ To configure the targets for asynchronous loading, please also check the [Routin
 
 ### Make Use of the `sap.ui.core.IAsyncContentCreation` Interface
 
-The [`sap.ui.core.IAsyncContentCreation`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.IAsyncContentCreation) interface allows a subclass of `sap.ui.core.UIComponent` to be created fully asynchronously. Implementing this interface sets the component's `rootView` and router configuration implicitly to `async: true`. Nested views will then also be handled asynchronously.
+The [`sap.ui.core.IAsyncContentCreation`](https://sdk.openui5.org/api/sap.ui.core.IAsyncContentCreation) interface allows a subclass of `sap.ui.core.UIComponent` to be created fully asynchronously. Implementing this interface sets the component's `rootView` and router configuration implicitly to `async: true`. Nested views will then also be handled asynchronously.
 
 > ### Note:  
 > For nested components \(via `sap.ui.core.ComponentContainer`\) the asynchronous behaviour will not be propagated per default.
@@ -161,7 +161,7 @@ If modules follow the Asynchronous Module Definition \(AMD\) standard and the bo
 
 But it isn't enough to write AMD modules. You also need to prevent access to OpenUI5 classes via global names. For instance, do not use global namespaces like `new sap.m.Button()` but require the `Button` and call its constructor via the local AMD reference instead.
 
- For more information, see the [API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define). 
+ For more information, see the [API Reference: `sap.ui.define`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define). 
 
 Always avoid usages of `jQuery.sap.require` ! In order to enable modules to load asynchronously, use `sap.ui.define` to create modules \(e.g. controllers or components\) or `sap.ui.require` in other cases.
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/27eea38eeb7b40d19d0dfe3ddf513175) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/27eea38eeb7b40d19d0dfe3ddf513175)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/27eea38eeb7b40d19d0dfe3ddf513175) | [demo kit latest release](https://sdk.openui5.org/topic/27eea38eeb7b40d19d0dfe3ddf513175)</div>
 
 ## What's New in OpenUI5 1.62
 
@@ -44,7 +44,7 @@ It consists of four different parts:
 
 The control can move to the overflow area of `sap.m.OverflowToolbar`.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTag) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.GenericTag).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.GenericTag) and the [Samples](https://sdk.openui5.org/entity/sap.m.GenericTag).
 
 
 
@@ -74,7 +74,7 @@ Cards can be used by referencing the `sap.ui.integration` library.
 
 `sap.ui.integration.widgets.Card` is a self-contained user interface element, connected to a manifest and used as a widget.
 
-For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card).
+For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card), and the [Samples](https://sdk.openui5.org/entity/sap.ui.integration.widgets.Card).
 
 
 
@@ -133,7 +133,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel).
 
 
 
@@ -154,7 +154,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 **`sap.m.Carousel`**
 
-The control can now display several items at once. This functionality is implemented through a new `customLayout` aggregation of type `sap.m.CarouselLayout`. The `sap.m.CarouselLayout` defines how many items are displayed in the visible area of the `sap.m.Carousel` control and has a `visiblePagesCount` property, which determines the count of items to be displayed.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Carousel) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CarouselWithMorePages/preview).
+The control can now display several items at once. This functionality is implemented through a new `customLayout` aggregation of type `sap.m.CarouselLayout`. The `sap.m.CarouselLayout` defines how many items are displayed in the visible area of the `sap.m.Carousel` control and has a `visiblePagesCount` property, which determines the count of items to be displayed.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Carousel) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.CarouselWithMorePages/preview).
 
 
 
@@ -165,7 +165,7 @@ The control can now display several items at once. This functionality is impleme
 
 <code><b><code>sap.m.Column</code></b></code>
 
-The `sortIndicator` property now shows a sort icon when a column is sorted. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Column) for the `sortIndicator` property.
+The `sortIndicator` property now shows a sort icon when a column is sorted. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Column) for the `sortIndicator` property.
 
 
 
@@ -176,7 +176,7 @@ The `sortIndicator` property now shows a sort icon when a column is sorted. For 
 
 **`sap.m.ComboBox`**
 
-In order for the `ComboBox` to be aligned with the rest of the input controls and the already available features, we updated the used list structure of the control from `sap.m.SelectList` to `sap.m.List`, and respectively updated the protected API `getList`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ComboBox).
+In order for the `ComboBox` to be aligned with the rest of the input controls and the already available features, we updated the used list structure of the control from `sap.m.SelectList` to `sap.m.List`, and respectively updated the protected API `getList`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ComboBox).
 
 
 
@@ -187,7 +187,7 @@ In order for the `ComboBox` to be aligned with the rest of the input controls an
 
 <code><b>sap.m.ListBase</b></code>
 
-You can now use more values for the `highlight` property. These values are provided by the `sap.ui.core.MessageType` and `sap.ui.core.IndicationColor` enumerations. To define a custom semantic for the highlight color, you can use the new `highlightText` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListItemBase/controlProperties) for the `highlight` property.
+You can now use more values for the `highlight` property. These values are provided by the `sap.ui.core.MessageType` and `sap.ui.core.IndicationColor` enumerations. To define a custom semantic for the highlight color, you can use the new `highlightText` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ListItemBase/controlProperties) for the `highlight` property.
 
 
 
@@ -198,9 +198,9 @@ You can now use more values for the `highlight` property. These values are provi
 
 **`sap.m.OverflowToolbar`**
 
--   We extended the `sap.m.sample.OverflowToolbarSimple` sample to demonstrate the behavior of grouped controls. It contains two pairs of grouped controls: `Label` with `Input` and `Label` with `Select`.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.OverflowToolbarSimple/preview).
+-   We extended the `sap.m.sample.OverflowToolbarSimple` sample to demonstrate the behavior of grouped controls. It contains two pairs of grouped controls: `Label` with `Input` and `Label` with `Select`.For more information, see the [Sample](https://sdk.openui5.org/sample/sap.m.sample.OverflowToolbarSimple/preview).
 
--   The `sap.m.OverflowToolbar` now allows `sap.m.GenericTag` to move into the overflow area.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.OverflowToolbarSimple/preview).
+-   The `sap.m.OverflowToolbar` now allows `sap.m.GenericTag` to move into the overflow area.For more information, see the [Sample](https://sdk.openui5.org/sample/sap.m.sample.OverflowToolbarSimple/preview).
 
 
 
@@ -217,7 +217,7 @@ You can now use more values for the `highlight` property. These values are provi
 -   The `sap.m.SinglePlanningCalendar` now has a new `stickyMode` property which allows users to select which toolbars will be fixed while scrolling.
 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SinglePlanningCalendar) and the [Samples](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar).
 
 
 
@@ -228,7 +228,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 <code><b>sap.m.StandardListItem</b></code>
 
-The new `information` value in the `sap.ui.core.ValueState` enumeration is now supported by the `infoState` property of `StandardListItem`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem/methods/getInfoState).
+The new `information` value in the `sap.ui.core.ValueState` enumeration is now supported by the `infoState` property of `StandardListItem`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.StandardListItem/methods/getInfoState).
 
 
 
@@ -239,7 +239,7 @@ The new `information` value in the `sap.ui.core.ValueState` enumeration is now s
 
 **`sap.tnt.SideNavigation`**
 
-We have implemented a `selectedKey` property of `sap.tnt.SideNavigation`, with which you can easily set the selected item, when the control is bound to a model. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.tnt.SideNavigation) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolPage/preview).
+We have implemented a `selectedKey` property of `sap.tnt.SideNavigation`, with which you can easily set the selected item, when the control is bound to a model. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.tnt.SideNavigation) and the [Sample](https://sdk.openui5.org/sample/sap.tnt.sample.ToolPage/preview).
 
 
 
@@ -250,7 +250,7 @@ We have implemented a `selectedKey` property of `sap.tnt.SideNavigation`, with w
 
 **`sap.ui.core.support.RuleEngineOpaExtension`**
 
-The rule engine OPA extension, which allows Support Assistant checks, has been enhanced with a new assertion. The new `getReportAsFileInFormat` assertion allows storing past history in `window._$files` in a preferred format. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.support.RuleEngineOpaExtension) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.OpaWithSupportAssistant/preview).
+The rule engine OPA extension, which allows Support Assistant checks, has been enhanced with a new assertion. The new `getReportAsFileInFormat` assertion allows storing past history in `window._$files` in a preferred format. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.support.RuleEngineOpaExtension) and the [Sample](https://sdk.openui5.org/sample/sap.ui.core.sample.OpaWithSupportAssistant/preview).
 
 
 
@@ -261,7 +261,7 @@ The rule engine OPA extension, which allows Support Assistant checks, has been e
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
-You can now use more values for the `highlight` property. These values are provided by the `sap.ui.core.MessageType` and `sap.ui.core.IndicationColor` enumerations. To define a custom semantic for the highlight color, you can use the new `highlightText` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.RowSettings) for the `highlight` property.
+You can now use more values for the `highlight` property. These values are provided by the `sap.ui.core.MessageType` and `sap.ui.core.IndicationColor` enumerations. To define a custom semantic for the highlight color, you can use the new `highlightText` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.table.RowSettings) for the `highlight` property.
 
 
 

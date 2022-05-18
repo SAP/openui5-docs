@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f10bf709b05f4adea8f8b8ad9a840247)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f10bf709b05f4adea8f8b8ad9a840247) | [demo kit latest release](https://sdk.openui5.org/topic/f10bf709b05f4adea8f8b8ad9a840247)</div>
 
 ## IDs of Fragments in Views
 

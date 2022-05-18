@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ac5751f89cb142b7a6d53eaf8a0f6339)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ac5751f89cb142b7a6d53eaf8a0f6339) | [demo kit latest release](https://sdk.openui5.org/topic/ac5751f89cb142b7a6d53eaf8a0f6339)</div>
 
 ## alias
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df245bd449a7470c8c2a0926ca8d78de) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df245bd449a7470c8c2a0926ca8d78de)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/df245bd449a7470c8c2a0926ca8d78de) | [demo kit latest release](https://sdk.openui5.org/topic/df245bd449a7470c8c2a0926ca8d78de)</div>
 
 ## Step 1: Set Up the Initial App
 
@@ -28,7 +28,7 @@ The structure and data model created in this step will be used throughout the re
 
 ### Setup
 
-To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Navigation and Routing - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Navigation and Routing - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 
 Depending on your development environment you might have to adjust resource paths and configuration entries. The project structure and the files coming with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

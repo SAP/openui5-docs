@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0f8626ed7b7542ffaa44601828db20de) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0f8626ed7b7542ffaa44601828db20de)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0f8626ed7b7542ffaa44601828db20de) | [demo kit latest release](https://sdk.openui5.org/topic/0f8626ed7b7542ffaa44601828db20de)</div>
 
 ## Step 22: Custom Formatters
 
@@ -26,7 +26,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 22](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.22/preview).
+You can view and download all files at [Walkthrough - Step 22](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.22/preview).
 
 ```js
 sap.ui.define([], function () {

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4f1c1075d88c41a5904389fa12b28f6b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4f1c1075d88c41a5904389fa12b28f6b) | [demo kit latest release](https://sdk.openui5.org/topic/4f1c1075d88c41a5904389fa12b28f6b)</div>
 
 ## URL Helper
 
@@ -82,5 +82,5 @@ Code samples for triggering telephone, text and e-mail applications.
 **Related Information**  
 
 
-[API Reference: `sap.m.URLHelper`](https://openui5.hana.ondemand.com/#/api/sap.m.URLHelper)
+[API Reference: `sap.m.URLHelper`](https://sdk.openui5.org/api/sap.m.URLHelper)
 

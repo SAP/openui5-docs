@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/62b1481d3e084cb49dd30956d183c6a0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/62b1481d3e084cb49dd30956d183c6a0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/62b1481d3e084cb49dd30956d183c6a0) | [demo kit latest release](https://sdk.openui5.org/topic/62b1481d3e084cb49dd30956d183c6a0)</div>
 
 ## Error, Warning, and Info Messages
 
@@ -79,19 +79,19 @@ A message parser is a simple interface that is implemented to allow the propagat
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message)
+[API Reference: `sap.ui.core.message.Message`](https://sdk.openui5.org/api/sap.ui.core.message.Message)
 
-[API Reference: `sap.ui.core.MessageType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.MessageType)
+[API Reference: `sap.ui.core.MessageType`](https://sdk.openui5.org/api/sap.ui.core.MessageType)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageManager)
+[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.org/api/sap.ui.core.message.MessageManager)
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.message.MessageModel)
+[API Reference: `sap.ui.model.message.MessageModel`](https://sdk.openui5.org/api/sap.ui.model.message.MessageModel)
 
-[API Reference: `sap.ui.core.message.MessageParser`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageParser)
+[API Reference: `sap.ui.core.message.MessageParser`](https://sdk.openui5.org/api/sap.ui.core.message.MessageParser)
 
-[API Reference: `sap.ui.core.message.MessageProcessor`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.MessageProcessor)
+[API Reference: `sap.ui.core.message.MessageProcessor`](https://sdk.openui5.org/api/sap.ui.core.message.MessageProcessor)
 
-[API Reference: `sap.ui.core.message.ControlMessageProcessor`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.ControlMessageProcessor)
+[API Reference: `sap.ui.core.message.ControlMessageProcessor`](https://sdk.openui5.org/api/sap.ui.core.message.ControlMessageProcessor)
 
-[API Reference: `sap.ui.model.Model`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Model)
+[API Reference: `sap.ui.model.Model`](https://sdk.openui5.org/api/sap.ui.model.Model)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c98d57347ba444c6945f596584d2db45) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c98d57347ba444c6945f596584d2db45)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c98d57347ba444c6945f596584d2db45) | [demo kit latest release](https://sdk.openui5.org/topic/c98d57347ba444c6945f596584d2db45)</div>
 
 ## Step 21: Expression Binding
 
@@ -26,7 +26,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 21](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.21/preview).
+You can view and download all files at [Walkthrough - Step 21](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.21/preview).
 
 ```xml
 <mvc:View

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://sdk.openui5.org/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
 
 ## Step 32: Routing Back and History
 
@@ -26,7 +26,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 32](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.32/preview).
+You can view and download all files at [Walkthrough - Step 32](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.32/preview).
 
 ```xml
 <mvc:View

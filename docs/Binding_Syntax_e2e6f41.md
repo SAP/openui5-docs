@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://sdk.openui5.org/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
 
 ## Binding Syntax
 
@@ -126,9 +126,9 @@ Examples how complex syntax can be used for calculated fields in XML, HTML, and 
 **Related Information**  
 
 
-[API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty)
+[API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindProperty)
 
-[API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindAggregation)
+[API Reference: `sap.ui.base.ManagedObject.bindAggregation`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindAggregation)
 
-[API Reference: `sap.ui.base.ManagedObject.bindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindObject)
+[API Reference: `sap.ui.base.ManagedObject.bindObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindObject)
 

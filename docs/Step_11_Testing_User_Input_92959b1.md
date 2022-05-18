@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/92959b10ecf14582b65eaadb40571156)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://sdk.openui5.org/topic/92959b10ecf14582b65eaadb40571156)</div>
 
 ## Step 11: Testing User Input
 
@@ -26,7 +26,7 @@ In this step, we will write a test that simulates a user search. We will enter t
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 11](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.11/preview).
+You can view and download all files in the Demo Kit at [Testing - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.11/preview).
 
 ***
 
@@ -162,5 +162,5 @@ Actions in OPA never contain a QUnit assertion.
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.actions.EnterText`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.actions.EnterText.html)
+[API Reference: `sap.ui.test.actions.EnterText`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.actions.EnterText.html)
 

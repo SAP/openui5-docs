@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8bb4723002ef4dc19a065b2e30c5498f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8bb4723002ef4dc19a065b2e30c5498f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8bb4723002ef4dc19a065b2e30c5498f) | [demo kit latest release](https://sdk.openui5.org/topic/8bb4723002ef4dc19a065b2e30c5498f)</div>
 
 ## Programmatic Access to RTL
 

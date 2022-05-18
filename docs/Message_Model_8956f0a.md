@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8956f0a223284d729900ebad4ca88356)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8956f0a223284d729900ebad4ca88356) | [demo kit latest release](https://sdk.openui5.org/topic/8956f0a223284d729900ebad4ca88356)</div>
 
 ## Message Model
 
@@ -18,7 +18,7 @@ The message model is retrieved from the message manager by calling the `getMessa
 
 ### Using the Message Model
 
-You use the message model like any other model to bind an aggregation to a root path \("`/`"\), for example the items in a list, and add filters and sorters. Each item in the collection for "`/`" represents an  [`sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message) object, so that you can bind to all properties specified for such an object. The `MessagePopover` control is used to display the messages to the user:
+You use the message model like any other model to bind an aggregation to a root path \("`/`"\), for example the items in a list, and add filters and sorters. Each item in the collection for "`/`" represents an  [`sap.ui.core.message.Message`](https://sdk.openui5.org/api/sap.ui.core.message.Message) object, so that you can bind to all properties specified for such an object. The `MessagePopover` control is used to display the messages to the user:
 
 ```
 // "Button" required from "sap/m/Button"
@@ -51,9 +51,9 @@ oMessagePopoverButton.placeAt("content");
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.message.MessageModel.html)
+[API Reference: `sap.ui.model.message.MessageModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.message.MessageModel.html)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageManager.html)
+[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessageManager.html)
 
-[API Reference: `sap.ui.core.message.MessagePopover`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessagePopover.html)
+[API Reference: `sap.ui.core.message.MessagePopover`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessagePopover.html)
 

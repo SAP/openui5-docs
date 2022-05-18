@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4a063b8250f24d0cbf7c689821df7199) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4a063b8250f24d0cbf7c689821df7199)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4a063b8250f24d0cbf7c689821df7199) | [demo kit latest release](https://sdk.openui5.org/topic/4a063b8250f24d0cbf7c689821df7199)</div>
 
 ## Step 17: Listen to Matched Events of Any Route
 
@@ -27,7 +27,7 @@ In the previous step, we have listened for bypassed events to detect possible te
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 17](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.17/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 17](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.17/preview).
 
 ***
 

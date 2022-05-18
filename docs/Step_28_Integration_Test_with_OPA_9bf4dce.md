@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9bf4dce43b7943d0909cd6c58a933589) | [demo kit latest release](https://sdk.openui5.org/topic/9bf4dce43b7943d0909cd6c58a933589)</div>
 
 ## Step 28: Integration Test with OPA
 
@@ -31,7 +31,7 @@ We haven’t thought about testing our interaction with the app yet, so in this 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 28](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.28/preview).
+You can view and download all files at [Walkthrough - Step 28](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.28/preview).
 
    
   
@@ -168,7 +168,7 @@ In the assertions section we define another `waitFor` statement that checks if a
 
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-resourceroots='{
 			"sap.ui.demo.walkthrough": "../../"
@@ -178,10 +178,10 @@ In the assertions section we define another `waitFor` statement that checks if a
 		data-sap-ui-async="true">
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/qunit-2.css">
+	<link rel="stylesheet" type="text/css" href="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.css">
 
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/thirdparty/qunit-2.js"></script>
-	<script src="https://openui5.hana.ondemand.com/resources/sap/ui/qunit/qunit-junit.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.js"></script>
+	<script src="https://sdk.openui5.org/resources/sap/ui/qunit/qunit-junit.js"></script>
 
 	<script src="opaTests.qunit.js"></script>
 </head>
@@ -242,7 +242,7 @@ This script loads the `NavigationJourney`, and the test functions inside are imm
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
-[Samples: `sap.ui.test.Opa5` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5` ](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
 
 [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 

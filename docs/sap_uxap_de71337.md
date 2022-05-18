@@ -6,14 +6,14 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://sdk.openui5.org/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
 
 ## sap.uxap
 
 This library includes controls associated with the `ObjectPage`.
 
 > ### Note:  
-> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
+> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://sdk.openui5.org/api) and the [Samples](https://sdk.openui5.org/controls). 
 
 -   **[Object Page Layout](Object_Page_Layout_2e61ab6.md "The ObjectPageLayout control provides a layout that allows apps to
 		easily display information related to a business object.")**  
@@ -39,5 +39,5 @@ The object page offers different ways to handle specific scrolling scenarios.
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[API Reference: `sap.uxap`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.html)
+[API Reference: `sap.uxap`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.html)
 

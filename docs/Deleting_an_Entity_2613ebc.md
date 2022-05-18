@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2613ebc835764abd9aefd2e6fa8b7392) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2613ebc835764abd9aefd2e6fa8b7392)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2613ebc835764abd9aefd2e6fa8b7392) | [demo kit latest release](https://sdk.openui5.org/topic/2613ebc835764abd9aefd2e6fa8b7392)</div>
 
 ## Deleting an Entity
 
@@ -36,5 +36,5 @@ onDeleteSalesOrder : function () {
 **Related Information**  
 
 
-[Context.delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete)
+[Context.delete](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/delete)
 

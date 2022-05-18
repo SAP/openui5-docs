@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6a6a621c978145ad9eef2b221d2cf21d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6a6a621c978145ad9eef2b221d2cf21d) | [demo kit latest release](https://sdk.openui5.org/topic/6a6a621c978145ad9eef2b221d2cf21d)</div>
 
 ## Worklist App
 
@@ -46,7 +46,7 @@ We will use the worklist template as a starting point for this tutorial and add 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, and start there.
 > 
-> You can view and download the files for all steps in the Demo Kit at [Worklist App](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.worklist). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the files for all steps in the Demo Kit at [Worklist App](https://sdk.openui5.org/entity/sap.m.tutorial.worklist). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
 > For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
 > 

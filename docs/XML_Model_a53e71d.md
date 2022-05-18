@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a53e71d85fae4d0887a8b58431197a27)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a53e71d85fae4d0887a8b58431197a27) | [demo kit latest release](https://sdk.openui5.org/topic/a53e71d85fae4d0887a8b58431197a27)</div>
 
 ## XML Model
 
@@ -36,12 +36,12 @@ Usually, you load your data from the server using an HTTP-based service, so the 
 oModel.loadData("data.xml");
 ```
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.xml.XMLModel.html) in the Demo Kit.
+For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.xml.XMLModel.html) in the Demo Kit.
 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.xml.XMLModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.xml.XMLModel.html)
+[API Reference: `sap.ui.model.xml.XMLModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.xml.XMLModel.html)
 
  <a name="loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
 

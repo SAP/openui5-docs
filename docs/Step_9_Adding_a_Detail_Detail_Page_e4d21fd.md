@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e4d21fd03edb49da82cbaab9dbd274e8)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e4d21fd03edb49da82cbaab9dbd274e8) | [demo kit latest release](https://sdk.openui5.org/topic/e4d21fd03edb49da82cbaab9dbd274e8)</div>
 
 ## Step 9: Adding a Detail-Detail Page
 
@@ -30,7 +30,7 @@ In this step, we create a detail-detail page using `sap.f.DynamicPage`, which is
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 9](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.09/preview).
+You can view and download all files at [Flexible Column Layout App - Step 9](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.09/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b430345887f1419fba50320b57c1bdf9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b430345887f1419fba50320b57c1bdf9) | [demo kit latest release](https://sdk.openui5.org/topic/b430345887f1419fba50320b57c1bdf9)</div>
 
 ## Methods Controlling the Initial Instantiation
 
@@ -22,7 +22,7 @@ You can use the following methods:
 
     By default, the UI component creates the `sap.ui5/rootView` declared in the manifest as the root control, see [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
 
-    Alternatively, you can overwrite this method and programmatically create the root control. You can either return the root control immediately or return a Promise resolving with the root control. For more information, see  [`sap.ui.core.UIComponent#createContent`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIComponent/methods/createContent). Using `createContent` in an asynchronous fashion requires the UI Component to implement the`sap.ui.core.IAsyncContentCreation` interface.
+    Alternatively, you can overwrite this method and programmatically create the root control. You can either return the root control immediately or return a Promise resolving with the root control. For more information, see  [`sap.ui.core.UIComponent#createContent`](https://sdk.openui5.org/api/sap.ui.core.UIComponent/methods/createContent). Using `createContent` in an asynchronous fashion requires the UI Component to implement the`sap.ui.core.IAsyncContentCreation` interface.
 
     Implementing this interface has the following additional effects:
 
@@ -49,7 +49,7 @@ You can use the following methods:
     });
     ```
 
-    The following code snippet shows a UI Component that implements the `sap.ui.core.IAsyncContentCreation` interface. The `createContent` function returns the Promise of the [`XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) factory:
+    The following code snippet shows a UI Component that implements the `sap.ui.core.IAsyncContentCreation` interface. The `createContent` function returns the Promise of the [`XMLView.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) factory:
 
     ```js
     sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/core/mvc/XMLView"], function(UIComponent, XMLView) {
@@ -67,7 +67,7 @@ You can use the following methods:
 
 
 > ### Note:  
-> The settings passed to the `sap.ui.core.Component.create` or `sap.ui.component` factory calls are not available in the `Init` and `createContent` methods. Use `componentData` instead. For more information, see [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create).
+> The settings passed to the `sap.ui.core.Component.create` or `sap.ui.component` factory calls are not available in the `Init` and `createContent` methods. Use `componentData` instead. For more information, see [`sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.create).
 
 You can also overwrite the getters and setters for component properties in the `Component.js` file.
 

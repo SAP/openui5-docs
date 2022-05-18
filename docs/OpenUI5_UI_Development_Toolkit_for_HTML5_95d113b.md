@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95d113be50ae40d5b0b562b84d715227) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95d113be50ae40d5b0b562b84d715227)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/95d113be50ae40d5b0b562b84d715227) | [demo kit latest release](https://sdk.openui5.org/topic/95d113be50ae40d5b0b562b84d715227)</div>
 
 ## OpenUI5: UI Development Toolkit for HTML5
 
@@ -43,7 +43,7 @@ And many more....
 > ### Tip:  
 > Looking for the Demo Kit for a specific OpenUI5 version?
 > 
-> Check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, e.g. `https://openui5.hana.ondemand.com/1.38.8/`
+> Check at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, e.g. `https://sdk.openui5.org/1.38.8/`
 > 
 > For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
 

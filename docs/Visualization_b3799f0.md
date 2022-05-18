@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b3799f08e8da4af48232fe10af22feff) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b3799f08e8da4af48232fe10af22feff)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b3799f08e8da4af48232fe10af22feff) | [demo kit latest release](https://sdk.openui5.org/topic/b3799f08e8da4af48232fe10af22feff)</div>
 
 ## Visualization
 
@@ -24,7 +24,7 @@ SAP Fiori default theme \(SAP Quartz Light\) fulfills the requirements for minim
 
 #### Consistency of Icons
 
-Icon library ensures consistent icon usage within a product and also across products.​ See, [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
+Icon library ensures consistent icon usage within a product and also across products.​ See, [Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/61ee9ed2369f4764a6d713abcf73afc1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/61ee9ed2369f4764a6d713abcf73afc1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/61ee9ed2369f4764a6d713abcf73afc1) | [demo kit latest release](https://sdk.openui5.org/topic/61ee9ed2369f4764a6d713abcf73afc1)</div>
 
 ## OpenUI5 Library Location Used for Testing
 

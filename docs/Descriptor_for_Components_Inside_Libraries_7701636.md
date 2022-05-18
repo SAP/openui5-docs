@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7701636d088147569d99b4f08d418bd9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7701636d088147569d99b4f08d418bd9) | [demo kit latest release](https://sdk.openui5.org/topic/7701636d088147569d99b4f08d418bd9)</div>
 
 ## Descriptor for Components \(Inside Libraries\)
 

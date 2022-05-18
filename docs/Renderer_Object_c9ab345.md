@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://sdk.openui5.org/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
 
 ## Renderer Object
 
@@ -91,7 +91,7 @@ When using this approach, be careful not to create a cyclic dependency between c
 
 The `RenderManager` provides two flavors of APIs to describe the HTML for a control. There's an older one which used string concatenation to build HTML markup and converted it into DOM by using `innerHTML`. The method names of the old API were quite verbose and the API required callers to take care of cross-site scripting \(XSS\) protection by calling the appropriate encoding methods. There is a newer API that is better aligned with native DOM APIs. It is backed by different implementations in the `RenderManager` that either create a markup string for initial rendering or patch existing DOMs in case of smaller updates. The API also hides the need for XSS protection in most cases from the control developer.
 
-All new code should exclusively use the new API \(and the two APIs must never be mixed within a single renderer\). If, in addition, the detailed contract that is described in the *API Reference* for the [ `RenderManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager), is understood and fulfilled, a renderer should declare this by setting the `apiVersion:2` flag in the renderer object. If a given control hierarchy \(including inherited renderers\) aligns on this flag, a more efficient rendering approach will be chosen by the framework. In mixed scenarios, the legacy rendering will be used. Examples in this documentation all set this flag, but before setting it in your code, make yourself familiar with the required contract!
+All new code should exclusively use the new API \(and the two APIs must never be mixed within a single renderer\). If, in addition, the detailed contract that is described in the *API Reference* for the [ `RenderManager`](https://sdk.openui5.org/api/sap.ui.core.RenderManager), is understood and fulfilled, a renderer should declare this by setting the `apiVersion:2` flag in the renderer object. If a given control hierarchy \(including inherited renderers\) aligns on this flag, a more efficient rendering approach will be chosen by the framework. In mixed scenarios, the legacy rendering will be used. Examples in this documentation all set this flag, but before setting it in your code, make yourself familiar with the required contract!
 
 ***
 
@@ -117,7 +117,7 @@ When the renderer is embedded into the control class definition, it automaticall
 
 In the modern signature variant, two parameters must be given: A qualified name for the new renderer \(its global name in dot notation\), and an optional object literal that contains methods or fields to be added to the new renderer class.
 
-This signature has been designed to resemble the class extension mechanism as provided by [`Object.extend`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.Object%23methods/sap.ui.base.Object.extend).
+This signature has been designed to resemble the class extension mechanism as provided by [`Object.extend`](https://sdk.openui5.org/api/sap.ui.base.Object%23methods/sap.ui.base.Object.extend).
 
 ```js
 sap.ui.define(['sap/ui/core/Renderer'],
@@ -203,7 +203,7 @@ Only renderers that have been created with a call to `extend` will get their own
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.RenderManager`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager)
+[API Reference: `sap.ui.core.RenderManager`](https://sdk.openui5.org/api/sap.ui.core.RenderManager)
 
-[API Reference: `sap.ui.core.Renderer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Renderer)
+[API Reference: `sap.ui.core.Renderer`](https://sdk.openui5.org/api/sap.ui.core.Renderer)
 

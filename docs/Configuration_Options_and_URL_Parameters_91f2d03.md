@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2d03b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2d03b6f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f2d03b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f2d03b6f4d1014b6dd926db0e91070)</div>
 
 ## Configuration Options and URL Parameters
 
@@ -606,7 +606,7 @@ Encapsulates configuration settings that are related to data formatting / parsin
 
 Example usage: `sap.ui.getCore().getConfiguration().getFormatSettings().setCustomUnits(...)`
 
-For more information, see the [API Reference: `sap.ui.core.Configuration.FormatSettings`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration.FormatSettings)
+For more information, see the [API Reference: `sap.ui.core.Configuration.FormatSettings`](https://sdk.openui5.org/api/sap.ui.core.Configuration.FormatSettings)
 
 
 
@@ -811,7 +811,7 @@ Type: `string | sap.ui.core.Locale`
 
 Default value: `user settings / language`
 
-This configuration parameter defines the language that shall be used for localized texts, formatting, and so on. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage) and [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md).
+This configuration parameter defines the language that shall be used for localized texts, formatting, and so on. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setLanguage) and [Identifying the Language Code / Locale](Identifying_the_Language_Code_Locale_91f21f1.md).
 
 
 
@@ -854,7 +854,7 @@ Default value: `[ ]`
 
 This configuration parameter defines a list of libraries that shall be loaded initially; use the `loadLibrary()` method to load further libraries.
 
-For more information, see: [loadLibrary](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core/methods/loadLibrary)
+For more information, see: [loadLibrary](https://sdk.openui5.org/api/sap.ui.core.Core/methods/loadLibrary)
 
 All libraries provided using the configuration option `libs` are merged into the configuration option `modules`.
 
@@ -944,7 +944,7 @@ Modifiable at runtime by using the `sap.ui.core.Component.create` component fact
 
 If set to `true`, the descriptor for a component is read and evaluated first, before loading the component code \(`Component.js`\).
 
-For more information, see: [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create)
+For more information, see: [`sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.create)
 
 
 
@@ -1291,11 +1291,11 @@ Type: `object`
 
 Default value: undefined
 
-With `sap.ui.loader.config({paths: ...})` a map can be used to define locations for resources. See the  [API Reference: `sap.ui.loader`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader)
+With `sap.ui.loader.config({paths: ...})` a map can be used to define locations for resources. See the  [API Reference: `sap.ui.loader`](https://sdk.openui5.org/api/sap.ui.loader)
 
 To provide a URL location that is **not** overwritten by a component later on, `final` can be set to `true`, for example: `{url: '/that/is/the/prefix/', final: true}`
 
-For more information, see the [API Reference: `sap.ui.loader.config`](https://openui5.hana.ondemand.com/#/api/sap.ui.loader/methods/sap.ui.loader.config)
+For more information, see the [API Reference: `sap.ui.loader.config`](https://sdk.openui5.org/api/sap.ui.loader/methods/sap.ui.loader.config)
 
 
 
@@ -1338,7 +1338,7 @@ Default value: `false`
 
 If set to `true`, all controls are rendered in right-to-left \(RTL\) mode; not yet determined automatically.
 
-Modifiable at runtime with restrictions. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setLanguage) and [API Reference: `sap.ui.core.Configuration.setRTL`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Configuration/methods/setRTL) 
+Modifiable at runtime with restrictions. For more information, see [API Reference: `sap.ui.core.Configuration.setLanguage`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setLanguage) and [API Reference: `sap.ui.core.Configuration.setRTL`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setRTL) 
 
 
 
@@ -3015,7 +3015,7 @@ Possible values are:
 
 -   `init`
 
-    Same as `rendering`, but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
+    Same as `rendering`, but additionally delays the `init` event of theOpenUI5 Core until the configured theme has been loaded. Application code that waits for this event can then rely on the theming information to be present, e.g. for calling [`sap.ui.core.theming.Parameters.get`](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters/methods/sap.ui.core.theming.Parameters.get)
 
     See also:
 

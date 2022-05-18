@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3fc141206cee4ab2aa514b569ed423c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3fc141206cee4ab2aa514b569ed423c0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3fc141206cee4ab2aa514b569ed423c0) | [demo kit latest release](https://sdk.openui5.org/topic/3fc141206cee4ab2aa514b569ed423c0)</div>
 
 ## Common Rule Patterns
 
@@ -36,7 +36,7 @@ Rules that analyze the console trace allow you to react to dynamic events while 
 
 With version 1.46, the logging API has been enhanced to allow additional objects to be added to logs produced by any module. An additional callback function in a log statement can provide such additional objects, which can be stored with the log entry.
 
-For more information, see the [API Reference: `sap/base/log`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fbase%2FLog). 
+For more information, see the [API Reference: `sap/base/log`](https://sdk.openui5.org/api/module%3Asap%2Fbase%2FLog). 
 
 Here is an example of how to log a warning with additional support information:
 

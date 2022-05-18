@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/39d25641086c42aaa745028e15562ba8)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/39d25641086c42aaa745028e15562ba8) | [demo kit latest release](https://sdk.openui5.org/topic/39d25641086c42aaa745028e15562ba8)</div>
 
 ## Creating a Simple Container Control
 

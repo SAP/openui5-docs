@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eba8d25a31ef416ead876e091e67824e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eba8d25a31ef416ead876e091e67824e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/eba8d25a31ef416ead876e091e67824e) | [demo kit latest release](https://sdk.openui5.org/topic/eba8d25a31ef416ead876e091e67824e)</div>
 
 ## Terminologies
 
@@ -226,7 +226,7 @@ List of additional resource bundle configurations to enhance the main bundle. Ea
 
 The following JSON excerpt is valid for models of type `sap.ui.model.resource.ResourceModel` inside the `manifest.json` in both the `sap.app/i18n` and the `sap.ui5/models` sections. For other models, the configuration must be placed in the `settings` property. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md).
 
-The code block given below shows a sample configuration from the [Shop Administration Tool](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)*Shop Administration Tool* demo app in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
+The code block given below shows a sample configuration from the [Shop Administration Tool](https://sdk.openui5.org/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)*Shop Administration Tool* demo app in the OpenUI5 Demo Kit. It has the main resource bundle `i18n/i18n.properties` and the defined terminologies `sports`, `travel`, and `services`. The main bundle is enhanced with the additional resource bundles `reuse/appvar1/i18n/i18n.properties` and `reuse/appvar2/i18n/i18n.properties`. These enhancements also provide terminologies \(`appvar1`: "sports-soccer" and "travel-vehicles"; `appvar2`: "travel-bicycles"\).
 
 The second bundle with the bundleUrl `reuse/appvar2/i18n/i18n.properties` does not derive directly from the main resource bundle as you might think, but from the first enhancement. The list of resource bundle configurations provided with the `enhanceWith` attribute can be seen as an incremental list of derivations for resource bundles that starts from the main bundle. If there was a third enhancing bundle, it would derive from the second bundle, which in turn derives from the first enhancement, and so on:
 
@@ -309,7 +309,7 @@ In the examples below, the terminology `travel` has the highest priority as it i
 
 The most relevant option is to pass the list of active terminologies as an array of strings to the factory functions of the `sap.ui.core.Component`. In case of nested components, the active terminologies will be inherited from the owner component.
 
- For more information and additional usage instructions, see the [API Reference: `sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create). 
+ For more information and additional usage instructions, see the [API Reference: `sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create). 
 
 ```js
 
@@ -362,9 +362,9 @@ A third option is to provide the list of active terminologies \(also comma-separ
 **Related Information**  
 
 
-[API Reference: sap/ui/model/resource/ResourceModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.resource.ResourceModel)
+[API Reference: sap/ui/model/resource/ResourceModel](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel)
 
-[API Reference: sap/base/i18n/ResourceBundle](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
+[API Reference: sap/base/i18n/ResourceBundle](https://sdk.openui5.org/api/module:sap/base/i18n/ResourceBundle)
 
-[Shop Administration Tool demo app](https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)
+[Shop Administration Tool demo app](https://sdk.openui5.org/test-resources/sap/tnt/demokit/toolpageapp/webapp/index.html)
 

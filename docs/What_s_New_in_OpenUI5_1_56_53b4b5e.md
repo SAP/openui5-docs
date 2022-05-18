@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/53b4b5ec2c83408a8da2cb6b9154c246) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/53b4b5ec2c83408a8da2cb6b9154c246)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/53b4b5ec2c83408a8da2cb6b9154c246) | [demo kit latest release](https://sdk.openui5.org/topic/53b4b5ec2c83408a8da2cb6b9154c246)</div>
 
 ## What's New in OpenUI5 1.56
 
@@ -44,7 +44,7 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
 #### XML Composite Control
 
-A new type of composite control, the XML composite control, is now available. It let's you build more flexible controls that contain separate XML and JavaScript parts. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.XMLComposite) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.XMLComposite). 
+A new type of composite control, the XML composite control, is now available. It let's you build more flexible controls that contain separate XML and JavaScript parts. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.XMLComposite) and the [Samples](https://sdk.openui5.org/entity/sap.ui.core.XMLComposite). 
 
 ***
 
@@ -74,19 +74,19 @@ The new version of the OpenUI5 OData V4 model has the following features:
 
 -   The refresh of a single row in an absolute list binding can now also take filters into account .
 
--   When executing a deferred bound operation, the result of the promise returned by `v4.ODataContextBinding#execute` is the context representing the data of the bound operation response if certain conditions are fulfilled. For more information check the API for <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute"><code>ODataContextBinding#execute</code></a></code>.
+-   When executing a deferred bound operation, the result of the promise returned by `v4.ODataContextBinding#execute` is the context representing the data of the bound operation response if certain conditions are fulfilled. For more information check the API for <code><a href="https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute"><code>ODataContextBinding#execute</code></a></code>.
 
 
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Sample](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 ***
 
 #### Support Assistant
 
--   `sap.ui.support.ExecutionScope.getElements` has a new parameter `cloned`. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.support.ExecutionScope/methods/Summary).
+-   `sap.ui.support.ExecutionScope.getElements` has a new parameter `cloned`. It allows users of the Support Assistant to filter out elements that are clones of list bindings. Now the results will include only the representative clone. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.support.ExecutionScope/methods/Summary).
 
 -   A *Filter* view showing the currently applied filter has been added to the *Issues* view of the Support Assistant. The *Clear Filtering* button \(![](images/loio4a0cf3bc3f7244549cf95901077aa6ae_HiRes.png)\) has moved to the *Filter* view. It is active only when there is a filter selected.
 
@@ -105,7 +105,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 #### Drag and Drop
 
-Configuration for dragging has been separated from the one for dropping. This allows you to also perform drag-and-drop operations, for example, from one view to another. For more information, see the [API Reference for `DragInfo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.dnd.DragInfo), the [API Reference for `DropInfo`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.dnd.DropInfo), and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableDnD/preview).
+Configuration for dragging has been separated from the one for dropping. This allows you to also perform drag-and-drop operations, for example, from one view to another. For more information, see the [API Reference for `DragInfo`](https://sdk.openui5.org/api/sap.ui.core.dnd.DragInfo), the [API Reference for `DropInfo`](https://sdk.openui5.org/api/sap.ui.core.dnd.DropInfo), and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.TableDnD/preview).
 
 ***
 
@@ -116,7 +116,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 > ### Restriction:  
 > This function is not intended for production use except for the controls for which drag and drop has already been enabled in previous versions \(for example, for tables and lists\).
 
- For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/aggregations) \(`dragDropConfig` aggregation\). 
+ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Element/aggregations) \(`dragDropConfig` aggregation\). 
 
 ***
 
@@ -124,23 +124,23 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
 ### Improved Controls
 
--   `sap.f.DynamicPageHeader`: The expand/collapse arrow and the pin/unpin buttons now have a new visual design. They are centered at the bottom header border next to each other. The interaction behavior is improved and you can now collapse a pinned header with a title tap or click or by choosing the expand/collapse arrow. This means that the pinned state now prevents the header from collapsing only when the user is scrolling the page.For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.DynamicPageFreeStyle/preview).
+-   `sap.f.DynamicPageHeader`: The expand/collapse arrow and the pin/unpin buttons now have a new visual design. They are centered at the bottom header border next to each other. The interaction behavior is improved and you can now collapse a pinned header with a title tap or click or by choosing the expand/collapse arrow. This means that the pinned state now prevents the header from collapsing only when the user is scrolling the page.For more information, see the [Sample](https://sdk.openui5.org/sample/sap.f.sample.DynamicPageFreeStyle/preview).
 
     > ### Note:  
     > The above functionality and visual appearance is also maintained when using the dynamic header of the `sap.uxap.ObjectPage` control.
 
--   `sap.m.DateTimePicker`: Two new properties are added to the control - `minutesStep` and `secondsStep`. They allow configuring the value step for the minutes and seconds sliders. For example, if you need the values for the minutes inside the slider to be multiples of 5, you can use the option - `minutesStep:5`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DateTimePicker) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DateTimePicker/preview). 
+-   `sap.m.DateTimePicker`: Two new properties are added to the control - `minutesStep` and `secondsStep`. They allow configuring the value step for the minutes and seconds sliders. For example, if you need the values for the minutes inside the slider to be multiples of 5, you can use the option - `minutesStep:5`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DateTimePicker) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.DateTimePicker/preview). 
 
 -   `sap.m.IconTabBar`:
 
-    -   Drag and drop between the header and the overflow list is now possible. When you hover over the overflow button with a dragged element, an overflow list opens and you can drag an item from the header to the list. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabHeader) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarDragDrop/preview).
+    -   Drag and drop between the header and the overflow list is now possible. When you hover over the overflow button with a dragged element, an overflow list opens and you can drag an item from the header to the list. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.IconTabHeader) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.IconTabBarDragDrop/preview).
 
-    -   A new `TabDensityMode` property is introduced in both `sap.m.IconTabBar` and `sap.m.IconTabHeader`. The property allows both the Tab Bar and the Header to change their density within different controls. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.IconTabBar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.IconTabBarTabDensityMode/preview).
+    -   A new `TabDensityMode` property is introduced in both `sap.m.IconTabBar` and `sap.m.IconTabHeader`. The property allows both the Tab Bar and the Header to change their density within different controls. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.IconTabBar) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.IconTabBarTabDensityMode/preview).
 
 
 -   `sap.m.List`: The `columns` aggregation was deprecated in version 1.16 and has now been removed. Use the `sap.m.Table` control instead.
 
--   `sap.m.MenuButton`: The control now has a new `menuPosition` property. It specifies the position of the popup menu with enlisted options. By default, the menu opens at the bottom left side of the control but if there is not enough space in the current window, it tries to open on the opposite side. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MenuButton) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MenuButton/preview).
+-   `sap.m.MenuButton`: The control now has a new `menuPosition` property. It specifies the position of the popup menu with enlisted options. By default, the menu opens at the bottom left side of the control but if there is not enough space in the current window, it tries to open on the opposite side. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MenuButton) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.MenuButton/preview).
 
 -   `sap.m.PlanningCalendar:`
 
@@ -152,17 +152,17 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
 
     -   A new functionality to copy appointments by dragging them is added on the `PlanningCalendarRow` level. When you press [Ctrl\]/[Cmd\] while dragging an appointment, dropping it will create a copy.
 
-         For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarDnD/preview). 
+         For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendarRow) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.PlanningCalendarDnD/preview). 
 
 
--   `sap.m.PlanningCalendarRow`: The new `specialDates` aggregation allows you to mark special days on a row level. The aggregation is of type `sap.ui.unified.DayTypeRange` but you can set a specific type to the corresponding date. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendarRow/aggregations) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarWithLegend/preview).
+-   `sap.m.PlanningCalendarRow`: The new `specialDates` aggregation allows you to mark special days on a row level. The aggregation is of type `sap.ui.unified.DayTypeRange` but you can set a specific type to the corresponding date. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendarRow/aggregations) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.PlanningCalendarWithLegend/preview).
 
 -   `sap.m.SelectDialog`: With the new `growing` property, you can control the progressive loading of bound items. By default, it is set to `true` which means that features like the number of selected items in the info bar and search \(if present\) will work only for the currently loaded items. To make sure that all items in the table are loaded at once, and the above features work properly, you should set the growing property to `false`.
 
     > ### Note:  
     > The growing functionality cannot be used together with two-way binding.
 
-     For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SelectDialog/controlProperties). 
+     For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SelectDialog/controlProperties). 
 
 -   `sap.m.Slider / sap.m.RangeSlider`:
 
@@ -171,7 +171,7 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
     -   You can create a custom tooltip, by extending the class `sap.m.SliderTooltipBase` and overriding some methods. If you want to define your own content for the tooltip, you should override just the `renderTooltipContent` method.
 
 
-    For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Slider/controlProperties).
+    For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](https://sdk.openui5.org/api/sap.m.Slider/controlProperties).
 
 -   `sap.m.Table`:
 
@@ -180,9 +180,9 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
         > ### Note:  
         > The API has changed slightly compared to the experimental API provided in version 1.54.
 
-        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getSticky) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Table/methods/getSticky) and the [Sample](https://sdk.openui5.org/sample/sap.ui.comp.sample.smarttable.mtableSticky/preview).
 
-    -   The `popinLayout` property is now also supported for Microsoft Edge \(version 16 and higher\). For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/controlProperties) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.Table/preview).
+    -   The `popinLayout` property is now also supported for Microsoft Edge \(version 16 and higher\). For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Table/controlProperties) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.Table/preview).
 
 -   `sap.m.TableSelectDialog`:
     -   A new property `growing` is added to the control. It determines the progressive loading. When set to `true`, the features *Selected Count* in `Info bar`, *Search*, and *Select/Deselect All*, if present, will work only for the currently loaded items. To ensure that all items in the table are loaded and these features work as expected, you need to set the property to `false`.
@@ -190,20 +190,20 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
         > ### Note:  
         > The growing functionality cannot be used together with two-way binding.
 
-        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialogGrowing/preview). 
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TableSelectDialog) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.TableSelectDialogGrowing/preview). 
 
-    -   The control now has a *Reset* button which allows you to clear the selection you have made in your Table Select dialog with one click. The button is enabled only when you make a selection. Otherwise, it is grayed out. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TableSelectDialog) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableSelectDialog/preview).
+    -   The control now has a *Reset* button which allows you to clear the selection you have made in your Table Select dialog with one click. The button is enabled only when you make a selection. Otherwise, it is grayed out. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TableSelectDialog) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.TableSelectDialog/preview).
 
 
--   `sap.m.Tree`: You can now expand and collapse multiple rows at once by using the related methods. For more information, see the [API Reference for the `expand` method](https://openui5.hana.ondemand.com/#/api/sap.m.Tree/methods/expand), the [API Reference for the `collapse` method](https://openui5.hana.ondemand.com/#/api/sap.m.Tree/methods/collapse), and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TreeExpandMulti/preview).
+-   `sap.m.Tree`: You can now expand and collapse multiple rows at once by using the related methods. For more information, see the [API Reference for the `expand` method](https://sdk.openui5.org/api/sap.m.Tree/methods/expand), the [API Reference for the `collapse` method](https://sdk.openui5.org/api/sap.m.Tree/methods/collapse), and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.TreeExpandMulti/preview).
 
--   `sap.ui.core.ScrollBar`: The control has been deprecated. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ScrollBar).
+-   `sap.ui.core.ScrollBar`: The control has been deprecated. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.ScrollBar).
 
--   `sap.ui.layout.BlockLayout`: The new `titleLink` aggregation allows the replacement of the title of a `BlockLayout` cell with a link using the `sap.m.Link` control. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.BlockLayout) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.BlockLayoutLinkTitle/preview).
+-   `sap.ui.layout.BlockLayout`: The new `titleLink` aggregation allows the replacement of the title of a `BlockLayout` cell with a link using the `sap.m.Link` control. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.BlockLayout) and the [Sample](https://sdk.openui5.org/sample/sap.ui.layout.sample.BlockLayoutLinkTitle/preview).
 
--   `sap.ui.layout` library for `form.Form`, `form.SimpleForm` controls: Usability of the form controls has been improved: The form content is arranged in a flexible, horizontal way depending on the number of columns so the user doesn’t have to scroll unnecessarily, and no vertical space is wasted. A new layout `ColumnLayout` has been created for that purpose. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.form.ColumnLayout) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.Form_Column_threeGroups234/preview). 
+-   `sap.ui.layout` library for `form.Form`, `form.SimpleForm` controls: Usability of the form controls has been improved: The form content is arranged in a flexible, horizontal way depending on the number of columns so the user doesn’t have to scroll unnecessarily, and no vertical space is wasted. A new layout `ColumnLayout` has been created for that purpose. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.form.ColumnLayout) and the [Sample](https://sdk.openui5.org/sample/sap.ui.layout.sample.Form_Column_threeGroups234/preview). 
 
--   `sap.ui.unified.Calendar`: With the introduction of the `weekNumberSelect` event, the week numbers in Gregorian calendars have become interactive. The event indicates when you have clicked on a week number. Keep in mind that for the event to work, the `intervalSelection` property must be set to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSingleIntervalSelection/preview).
+-   `sap.ui.unified.Calendar`: With the introduction of the `weekNumberSelect` event, the week numbers in Gregorian calendars have become interactive. The event indicates when you have clicked on a week number. Keep in mind that for the event to work, the `intervalSelection` property must be set to `true`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.Calendar) and the [Sample](https://sdk.openui5.org/sample/sap.ui.unified.sample.CalendarSingleIntervalSelection/preview).
 
 -   `sap.uxap.ObjectPageDynamicHeaderTitle`: UI Adaptation is enabled for the control and the following actions are possible:
 
@@ -214,9 +214,9 @@ Drag and drop has been enabled for **all** controls \(with the new `dragDropConf
     -   *Remove* and *Reveal* the whole control
 
 
-    For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview) and turn on the UI Adaptation using the wrench key button.
+    For more information, see the [Sample](https://sdk.openui5.org/sample/sap.uxap.sample.ObjectPageDynamicHeader/preview) and turn on the UI Adaptation using the wrench key button.
 
--   `sap.uxap.ObjectPageHeader`: The new `titleSelectorTooltip` aggregation now enables you to set a custom tooltip for the `titleSelector` button of the `sap.uxap.ObjectPageHeader`.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageHeader/aggregations).
+-   `sap.uxap.ObjectPageHeader`: The new `titleSelectorTooltip` aggregation now enables you to set a custom tooltip for the `titleSelector` button of the `sap.uxap.ObjectPageHeader`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.uxap.ObjectPageHeader/aggregations).
 
 
 ***
@@ -241,7 +241,7 @@ We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_
 
      ![](images/loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png) 
 
-    For more information, see *API Reference*: [Index by Version](https://openui5.hana.ondemand.com/#/api/since).
+    For more information, see *API Reference*: [Index by Version](https://sdk.openui5.org/api/since).
 
 
 **Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")

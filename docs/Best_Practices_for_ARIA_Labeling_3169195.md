@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3169195311f84bdcb63703c1de84b14e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3169195311f84bdcb63703c1de84b14e) | [demo kit latest release](https://sdk.openui5.org/topic/3169195311f84bdcb63703c1de84b14e)</div>
 
 ## Best Practices for ARIA Labeling
 

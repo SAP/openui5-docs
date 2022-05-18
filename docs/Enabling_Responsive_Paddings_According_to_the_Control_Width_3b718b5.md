@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b718b5372fa457c92cf5087a673e953) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b718b5372fa457c92cf5087a673e953)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b718b5372fa457c92cf5087a673e953) | [demo kit latest release](https://sdk.openui5.org/topic/3b718b5372fa457c92cf5087a673e953)</div>
 
 ## Enabling Responsive Paddings According to the Control Width
 
@@ -525,7 +525,7 @@ Supported Controls
 <Page class="sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer sapUiResponsivePadding--floatingFooter">
 ```
 
-For a detailed example, see the [Samples for `sap.m.Page`](https://openui5.hana.ondemand.com/#/entity/sap.m.Page). 
+For a detailed example, see the [Samples for `sap.m.Page`](https://sdk.openui5.org/entity/sap.m.Page). 
 
 ***
 

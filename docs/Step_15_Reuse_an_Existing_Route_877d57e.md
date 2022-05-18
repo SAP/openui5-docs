@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://sdk.openui5.org/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
 
 ## Step 15: Reuse an Existing Route
 
@@ -26,7 +26,7 @@ The *Employees* table displays employee data. However, the resumes of the employ
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 15](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.15/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.15/preview).
 
 ***
 

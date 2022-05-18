@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2680aa9b16c14a00b01261d04babbb39) | [demo kit latest release](https://sdk.openui5.org/topic/2680aa9b16c14a00b01261d04babbb39)</div>
 
 ## Step 1: Hello World!
 
@@ -26,7 +26,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.01/preview).
+You can view and download all files at [Walkthrough - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.01/preview).
 
 ```html
 <!DOCTYPE html>

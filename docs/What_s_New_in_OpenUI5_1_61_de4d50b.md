@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/de4d50b6c0f649fa859e4657ff8557a6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/de4d50b6c0f649fa859e4657ff8557a6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/de4d50b6c0f649fa859e4657ff8557a6) | [demo kit latest release](https://sdk.openui5.org/topic/de4d50b6c0f649fa859e4657ff8557a6)</div>
 
 ## What's New in OpenUI5 1.61
 
@@ -63,7 +63,7 @@ The `sap.m.SinglePlanningCalendar` is a new control designed to display the sche
 
  ![](images/loiob99c835dfb1246f2bb3a0befd34f65a9_LowRes.png "SinglePlanningCalendar Meetings") 
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.SinglePlanningCalendar) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.SinglePlanningCalendar).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SinglePlanningCalendar) and the [Samples](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar).
 
 
 
@@ -117,7 +117,7 @@ Note that we have introduced this change to support message processing.
 
 **`sap.f.DynamicPage`/`sap.f.semantic.SemanticPage`**
 
--   With the use of the new accessibility `landmarkInfo` aggregation, you can now set custom accessibility roles and labels for the different sections of the pages.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.DynamicPageAccessibleLandmarkInfo).
+-   With the use of the new accessibility `landmarkInfo` aggregation, you can now set custom accessibility roles and labels for the different sections of the pages.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.DynamicPageAccessibleLandmarkInfo).
 
 -   We have enabled the controls to be a droppable area. For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md).
 
@@ -130,7 +130,7 @@ Note that we have introduced this change to support message processing.
 
 **`sap.f.GridList`**
 
-We have implemented a regressive enhancement \(polyfill\) that enables the `sap.f.GridList` layout to work with Microsoft Internet Explorer 11. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.f.sample.GridListBoxContainer/preview).
+We have implemented a regressive enhancement \(polyfill\) that enables the `sap.f.GridList` layout to work with Microsoft Internet Explorer 11. For more information, see the [Sample](https://sdk.openui5.org/sample/sap.f.sample.GridListBoxContainer/preview).
 
 
 
@@ -141,7 +141,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 
 **`sap.m.Input`**
 
-Тhe **`sap.m.Input`** control now has autocomplete functionality which is enabled when the `showSuggestion` Boolean property is set to `true` \(default\). As the user types in the input field, the first matching item from the suggestions list gets highlighted. Matching text is based on the beginning of the first word entered in the input field. An autocompleted value can be accepted by pressing [Enter\]. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Input).
+Тhe **`sap.m.Input`** control now has autocomplete functionality which is enabled when the `showSuggestion` Boolean property is set to `true` \(default\). As the user types in the input field, the first matching item from the suggestions list gets highlighted. Matching text is based on the beginning of the first word entered in the input field. An autocompleted value can be accepted by pressing [Enter\]. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Input) and the [Samples](https://sdk.openui5.org/entity/sap.m.Input).
 
 
 
@@ -152,7 +152,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 
 **`sap.m.Label`**
 
-We have changed the color for labels whose `displayOnly` property is set to `true`. The new color results in \#666 for the Belize theme and \#ddd for the Belize Deep theme. With this change, the color contrast ratio returns to the standard requirement, and the `displayOnly` label is visually indistinguishable from the normal label. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Label) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Label).
+We have changed the color for labels whose `displayOnly` property is set to `true`. The new color results in \#666 for the Belize theme and \#ddd for the Belize Deep theme. With this change, the color contrast ratio returns to the standard requirement, and the `displayOnly` label is visually indistinguishable from the normal label. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Label) and the [Samples](https://sdk.openui5.org/entity/sap.m.Label).
 
 
 
@@ -163,7 +163,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 
 **`sap.m.ObjectHeader`**
 
-Тhe `sap.m.ObjectHeader` control now supports circle-shaped images with the use of the new `imageShape` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectHeader) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectHeader).
+Тhe `sap.m.ObjectHeader` control now supports circle-shaped images with the use of the new `imageShape` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectHeader) and the [Samples](https://sdk.openui5.org/entity/sap.m.ObjectHeader).
 
 
 
@@ -174,7 +174,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 
 **`sap.m.Select`/`sap.m.SelectList`**
 
-The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before the text. You can set the icons through the `icon` property of each `sap.ui.core.ListItem` used in `sap.m.SelectList` or `sap.m.Select`.For more information, see [Sample: sap.m.Select](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.SelectWithIcons/preview) and [Sample: sap.m.SelectList](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.SelectListWithIcons/preview).
+The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before the text. You can set the icons through the `icon` property of each `sap.ui.core.ListItem` used in `sap.m.SelectList` or `sap.m.Select`.For more information, see [Sample: sap.m.Select](https://sdk.openui5.org/sample/sap.m.sample.SelectWithIcons/preview) and [Sample: sap.m.SelectList](https://sdk.openui5.org/sample/sap.m.sample.SelectListWithIcons/preview).
 
 
 
@@ -196,7 +196,7 @@ We have enabled the controls to be a droppable area. For more information, see [
 
 **`sap.m.Table`**
 
-The `sortIndicator` property, which indicates that a column is sorted, is now available in `sap.m.Column`. The column displays the appropriate icon and also shows the sort order in the column. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Column/controlProperties) for the `SortIndicator` property.
+The `sortIndicator` property, which indicates that a column is sorted, is now available in `sap.m.Column`. The column displays the appropriate icon and also shows the sort order in the column. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Column/controlProperties) for the `SortIndicator` property.
 
 
 
@@ -207,7 +207,7 @@ The `sortIndicator` property, which indicates that a column is sorted, is now av
 
 **`sap.ui.layout.cssgrid.CSSGrid`**
 
-We have added new samples to demonstrate different use cases. For more information, see the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.cssgrid.CSSGrid).
+We have added new samples to demonstrate different use cases. For more information, see the [Samples](https://sdk.openui5.org/entity/sap.ui.layout.cssgrid.CSSGrid).
 
 
 
@@ -231,11 +231,11 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 
 -   You can now enable the subsections of `sap.uxap.ObjectPageLayout` to expand to the full height of the sections container. To do this, add the `sapUxAPObjectPageSubSectionFitContainer` CSS class to the `sap.uxap.ObjectPageSubSection` to make it auto-expandable.
 
--   With the use of the new accessibility `landmarkInfo` aggregation, you can now set custom accessibility roles and labels for the different sections of the page.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageAccessibleLandmarkInfo).
+-   With the use of the new accessibility `landmarkInfo` aggregation, you can now set custom accessibility roles and labels for the different sections of the page.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.uxap.ObjectPageAccessibleLandmarkInfo).
 
 -   We have enabled the control to be a droppable area. For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md).
 
--   We have changed the default layout of `Form`/`SimpleForm` in `ObjectPageSubSection` from `ResponsiveGridLayout` to `ColumnLayout`.For more information, see [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.form.ColumnLayout) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageFormLayout/preview).
+-   We have changed the default layout of `Form`/`SimpleForm` in `ObjectPageSubSection` from `ResponsiveGridLayout` to `ColumnLayout`.For more information, see [API Reference](https://sdk.openui5.org/api/sap.ui.layout.form.ColumnLayout) and the [Sample](https://sdk.openui5.org/sample/sap.uxap.sample.ObjectPageFormLayout/preview).
 
 
 

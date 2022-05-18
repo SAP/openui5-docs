@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a7932a791adc4a58ae4693400801ea5f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://sdk.openui5.org/topic/a7932a791adc4a58ae4693400801ea5f)</div>
 
 ## Step 16: Handle Invalid Hashes by Listening to Bypassed Events
 
@@ -26,7 +26,7 @@ So far we have created many useful routes in our app. In the very early steps we
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 16](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.16/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 16](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.16/preview).
 
 ***
 
@@ -80,5 +80,5 @@ Now try to access `webapp/index.html#/thisIsInvalid` while you have your browser
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
 

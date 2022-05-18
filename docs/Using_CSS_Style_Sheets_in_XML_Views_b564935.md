@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b564935324f449209354c7e2f9903f22) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b564935324f449209354c7e2f9903f22)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b564935324f449209354c7e2f9903f22) | [demo kit latest release](https://sdk.openui5.org/topic/b564935324f449209354c7e2f9903f22)</div>
 
 ## Using CSS Style Sheets in XML Views
 
@@ -54,7 +54,7 @@ Style sheets are included in XML views in the same way as plain HTML. To add fur
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.Control#addStyleClass`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control%23methods/addStyleClass)
+[API Reference: `sap.ui.core.Control#addStyleClass`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/addStyleClass)
 
-[API Reference: `sap.ui.core.mvc.XMLView`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView)
+[API Reference: `sap.ui.core.mvc.XMLView`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView)
 

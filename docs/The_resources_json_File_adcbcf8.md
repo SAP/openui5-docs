@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/adcbcf8b50924556ab3f321fcd9353ea)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/adcbcf8b50924556ab3f321fcd9353ea) | [demo kit latest release](https://sdk.openui5.org/topic/adcbcf8b50924556ab3f321fcd9353ea)</div>
 
 ## The `resources.json` File
 

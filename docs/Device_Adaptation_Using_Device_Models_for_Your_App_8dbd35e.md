@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://sdk.openui5.org/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
 
 ## Device Adaptation: Using Device Models for Your App
 
@@ -58,5 +58,5 @@ If you want to negate a value of the device model or make a simple case decision
 <SearchField showRefreshButton="{= !${device>/support/touch} }" />
 ```
 
-For more information, see [sap.ui.Device](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.Device.html) in the *API Reference* in the Demo Kit, and the documentation under [The Device API](The_Device_API_69a8e46.md).
+For more information, see [sap.ui.Device](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.html) in the *API Reference* in the Demo Kit, and the documentation under [The Device API](The_Device_API_69a8e46.md).
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://sdk.openui5.org/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
 
 ## Simulating User Interactions on Controls
 
@@ -275,7 +275,7 @@ oOpa.waitFor({
 });
 ```
 
-For more information, see [`sap.ui.core.delegate.ScrollEnablement`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.delegate.ScrollEnablement).
+For more information, see [`sap.ui.core.delegate.ScrollEnablement`](https://sdk.openui5.org/api/sap.ui.core.delegate.ScrollEnablement).
 
 ***
 
@@ -308,11 +308,11 @@ sap.ui.require(["sap/ui/test/opaQUnit", "sap/ui/test/matchers/Properties"], func
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.actions`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions)
+[API Reference: `sap.ui.test.actions`](https://sdk.openui5.org/api/sap.ui.test.actions)
 
-[API Reference: `sap.ui.test.actions.EnterText`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.EnterText)
+[API Reference: `sap.ui.test.actions.EnterText`](https://sdk.openui5.org/api/sap.ui.test.actions.EnterText)
 
-[API Reference: `sap.ui.test.actions.Press`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.Press)
+[API Reference: `sap.ui.test.actions.Press`](https://sdk.openui5.org/api/sap.ui.test.actions.Press)
 
-[API Reference: `sap.ui.test.matchers.Interactable`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.matchers.Interactable)
+[API Reference: `sap.ui.test.matchers.Interactable`](https://sdk.openui5.org/api/sap.ui.test.matchers.Interactable)
 

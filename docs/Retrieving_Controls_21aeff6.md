@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/21aeff6928f84d179a47470123afee59) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/21aeff6928f84d179a47470123afee59)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/21aeff6928f84d179a47470123afee59) | [demo kit latest release](https://sdk.openui5.org/topic/21aeff6928f84d179a47470123afee59)</div>
 
 ## Retrieving Controls
 
@@ -80,7 +80,7 @@ Since no ID is specified, OPA passes an array of controls to the `check` functio
 
 ### More About Matchers
 
-For more information about all matchers, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.test.matchers) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.matchers). 
+For more information about all matchers, see the [API Reference](https://sdk.openui5.org/api/sap.ui.test.matchers) and the [Samples](https://sdk.openui5.org/entity/sap.ui.test.matchers). 
 
 `sap.ui.test.matchers.Properties`: This matcher checks if the controls have properties with given values. The values can also be defined as regular expressions \(`RegExp`\) for the string type properties.
 
@@ -142,7 +142,7 @@ this.waitFor({
 });
 ```
 
-`sap.ui.test.matchers.BindingPath`: This matcher checks if the controls have specified data binding paths. The `path` property matches controls by their binding context. Controls with a binding context are usually inside an aggregation or have a parent control with data binding. The `propertyPath` property matches controls by the data binding paths of their own properties. Binding property paths can be part of an expression binding. You can set the `path` and `propertyPath` properties separately or in combination.For a practical example of the various types of data binding, see the [Tutorial Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.databinding).
+`sap.ui.test.matchers.BindingPath`: This matcher checks if the controls have specified data binding paths. The `path` property matches controls by their binding context. Controls with a binding context are usually inside an aggregation or have a parent control with data binding. The `propertyPath` property matches controls by the data binding paths of their own properties. Binding property paths can be part of an expression binding. You can set the `path` and `propertyPath` properties separately or in combination.For a practical example of the various types of data binding, see the [Tutorial Samples](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding).
 
 ```js
 // Match a CheckBox located inside a ListItem:
@@ -259,7 +259,7 @@ return new Opa5().waitFor({
 });
 ```
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5) and the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.OpaMatchers/preview). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.test.Opa5) and the [Sample](https://sdk.openui5.org/sample/sap.ui.core.sample.OpaMatchers/preview). 
 
 ***
 

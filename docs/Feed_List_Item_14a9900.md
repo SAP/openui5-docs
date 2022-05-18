@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/14a9900bcb514f89877c115046da4ff7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/14a9900bcb514f89877c115046da4ff7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/14a9900bcb514f89877c115046da4ff7) | [demo kit latest release](https://sdk.openui5.org/topic/14a9900bcb514f89877c115046da4ff7)</div>
 
 ## Feed List Item
 
@@ -14,7 +14,7 @@ This control provides a set of properties for a feed, such as text, sender infor
 
 The `sap.m.FeedListItem` control is capable of displaying text accompanied by an optional user image.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.FeedListItem.html) and the [Samples](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.FeedListItem/preview) in the Demo Kit.
+For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.FeedListItem.html) and the [Samples](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.FeedListItem/preview) in the Demo Kit.
 
 ***
 
@@ -28,7 +28,7 @@ For more information about this control, see the [API Reference](https://openui5
 
     The `FeedListItem` control consists of the user’s name and an optional picture of the user who wrote the note or the update \(optional\). The name can contain a link that triggers a quick overview of the user’s profile data. The actual text written by the user follows the name. The `FeedListItem` control includes the `sap.m.FormattedText` control that enables you to use HTML formatted text.
 
-    For more information about about the `FormattedText` control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.FormattedText.html) and the [Samples](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.FormattedText/preview) in the Demo Kit.
+    For more information about about the `FormattedText` control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.FormattedText.html) and the [Samples](https://sdk.openui5.org/explored.html#/sample/sap.m.FormattedText/preview) in the Demo Kit.
 
 -   **Behavior**
 
@@ -38,7 +38,7 @@ For more information about this control, see the [API Reference](https://openui5
 
     Each item in the feed may also include an optional *More* button that provides access to additional actions that the user can perform on this feed item. The actions available for a feed item are specified in its `actions` aggregation and are defined using `FeedListItemAction` elements.
 
-    For more information about about the `FeedListItemAction` element, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.FeedListItemAction.html) in the Demo Kit.
+    For more information about about the `FeedListItemAction` element, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.FeedListItemAction.html) in the Demo Kit.
 
 
 ***

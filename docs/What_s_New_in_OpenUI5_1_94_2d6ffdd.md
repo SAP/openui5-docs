@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2d6ffddd26dd41ba91a5cf1b38f6b0f6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2d6ffddd26dd41ba91a5cf1b38f6b0f6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2d6ffddd26dd41ba91a5cf1b38f6b0f6) | [demo kit latest release](https://sdk.openui5.org/topic/2d6ffddd26dd41ba91a5cf1b38f6b0f6)</div>
 
 ## What's New in OpenUI5 1.94
 
@@ -114,7 +114,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **Whitespaces Visualization**
 
-We have created a new sample pattern that showcases how whitespaces can be enabled on the application level, for freestyle applications. For more information, see [Whitespaces Concept](Whitespaces_Concept_37deb0b.md) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.WhitespacePattern). 
+We have created a new sample pattern that showcases how whitespaces can be enabled on the application level, for freestyle applications. For more information, see [Whitespaces Concept](Whitespaces_Concept_37deb0b.md) and the [Sample](https://sdk.openui5.org/entity/sap.m.WhitespacePattern). 
 
 
 
@@ -135,7 +135,7 @@ We have created a new sample pattern that showcases how whitespaces can be enabl
 
 **`sap.m.IconTabBar`**
 
-We have updated the colors of value-state status icons. Now, they have better color-contrast ratios for improved accessibility. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.IconTabBar/sample/sap.m.sample.IconTabBar).
+We have updated the colors of value-state status icons. Now, they have better color-contrast ratios for improved accessibility. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.IconTabBar/sample/sap.m.sample.IconTabBar).
 
 
 
@@ -146,7 +146,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 
 **`sap.m.Input`, `sap.m.MultiInput`**
 
-We have introduced the `showClearIcon` property. If set to true, when there is text input it shows an additional icon that allows users to clear their input. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Input). 
+We have introduced the `showClearIcon` property. If set to true, when there is text input it shows an additional icon that allows users to clear their input. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Input). 
 
 
 
@@ -157,7 +157,7 @@ We have introduced the `showClearIcon` property. If set to true, when there is t
 
 **`sap.m.List`**
 
-You can now adapt the default wrapping behavior for titles and descriptions in lists and define the number of characters after which wrapping is done by using the new `wrapCharLimit` property. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StandardListItem%23methods/getWrapCharLimit) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
+You can now adapt the default wrapping behavior for titles and descriptions in lists and define the number of characters after which wrapping is done by using the new `wrapCharLimit` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.StandardListItem%23methods/getWrapCharLimit) and the [Sample](https://sdk.openui5.org/entity/sap.m.StandardListItem/sample/sap.m.sample.StandardListItemWrapping).
 
 
 
@@ -168,7 +168,7 @@ You can now adapt the default wrapping behavior for titles and descriptions in l
 
 **`sap.m.MenuButton`**
 
-We have introduced a new `beforeMenuOpen` event, fired when the arrow button of the `sap.m.MenuButton` in split mode is pressed, and before the dropdown menu opens. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MenuButton) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.MenuButton/sample/sap.m.sample.MenuButton).
+We have introduced a new `beforeMenuOpen` event, fired when the arrow button of the `sap.m.MenuButton` in split mode is pressed, and before the dropdown menu opens. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MenuButton) and the [Sample](https://sdk.openui5.org/entity/sap.m.MenuButton/sample/sap.m.sample.MenuButton).
 
 
 
@@ -179,7 +179,7 @@ We have introduced a new `beforeMenuOpen` event, fired when the arrow button of 
 
 **`sap.m.PlanningCalendar`**
 
-The new `firstDayOfWeek` property enables developers to set the first day of week that is displayed in the week-based views of the `PlanningCalendar` - `Week` view, and `OneMonth` view \(on small devices\). Valid values are 0 to 6 starting on Sunday. If there is no valid value set, the default from the user locale is used. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarWithLegend).
+The new `firstDayOfWeek` property enables developers to set the first day of week that is displayed in the week-based views of the `PlanningCalendar` - `Week` view, and `OneMonth` view \(on small devices\). Valid values are 0 to 6 starting on Sunday. If there is no valid value set, the default from the user locale is used. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendar) and the [Sample](https://sdk.openui5.org/entity/sap.m.PlanningCalendar/sample/sap.m.sample.PlanningCalendarWithLegend).
 
 
 
@@ -209,7 +209,7 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 <tr>
 <td valign="top">
 
-There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated). 
 
 
 

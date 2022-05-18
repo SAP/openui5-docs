@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/35b8a947b95344958b776699c116ad12)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/35b8a947b95344958b776699c116ad12) | [demo kit latest release](https://sdk.openui5.org/topic/35b8a947b95344958b776699c116ad12)</div>
 
 ## List and Table Events
 

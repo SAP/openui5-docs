@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10ca58b701414f7f93cd97156f898f80)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://sdk.openui5.org/topic/10ca58b701414f7f93cd97156f898f80)</div>
 
 ## Automatic determination of $expand and $select
 
@@ -17,9 +17,9 @@ With automatic determination of `$expand` and `$select` \("auto-$expand/$select"
 2.  Auto-$expand/$select only selects data needed for the UI, so that you get a minimal response size and improved performance.
 
 
-You switch on auto-$expand/$select by setting the flag `autoExpandSelect` during [model construction](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor).
+You switch on auto-$expand/$select by setting the flag `autoExpandSelect` during [model construction](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor).
 
-It is still possible to specify `$expand` and `$select` in the binding parameters. This is useful if you need to access properties which are not bound on the UI. When auto-$expand/$select is switched on, you may add any path to a simple or structured property to `$select`, even if this path contains navigation properties. The binding converts this `$select` to a `$expand` if necessary. It is not possible to change `$expand` and `$select` via the binding's [changeParameters](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/changeParameters) API. You don't have to specify **key properties** in the binding's `$select` parameter if they aren't bound on the UI. These are selected automatically because keys are required in many scenarios, for example, to compute the edit-URL to update an entity.
+It is still possible to specify `$expand` and `$select` in the binding parameters. This is useful if you need to access properties which are not bound on the UI. When auto-$expand/$select is switched on, you may add any path to a simple or structured property to `$select`, even if this path contains navigation properties. The binding converts this `$select` to a `$expand` if necessary. It is not possible to change `$expand` and `$select` via the binding's [changeParameters](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/changeParameters) API. You don't have to specify **key properties** in the binding's `$select` parameter if they aren't bound on the UI. These are selected automatically because keys are required in many scenarios, for example, to compute the edit-URL to update an entity.
 
 In auto-$expand/$select mode, a parent binding aggregates the binding paths and query options of its child bindings in its `$select` and `$expand` options, so that they do not send own data services requests. This aggregation is only possible in the following cases:
 
@@ -50,7 +50,7 @@ The list binding for the table in the following sample leads to the following re
 If you use a list binding with factory function with auto-$expand/$select, you need to specify the binding parameters `$expand` and `$select` for all properties that may be needed by the factory function.
 
 > ### Note:  
-> During automatic determination of `$expand` and `$select` the factory function is called with a "virtual" context, that returns `undefined` for <code><a href="https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getProperty">getProperty</a></code> calls.
+> During automatic determination of `$expand` and `$select` the factory function is called with a "virtual" context, that returns `undefined` for <code><a href="https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/getProperty">getProperty</a></code> calls.
 
 For auto-$expand/$select the model metadata must be analyzed before sending the request. This allows further optimization of the request, also enabling access to the parent entity by reducing partner navigation properties in the path.
 

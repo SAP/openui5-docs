@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9f760da5b64adf8db7f95247879086)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://sdk.openui5.org/topic/3b9f760da5b64adf8db7f95247879086)</div>
 
 ## Types of Layout
 
@@ -283,5 +283,5 @@ Up to 960px \(Phone\)
 **Related Information**  
 
 
-[API Reference: `sap.f.LayoutType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.LayoutType.html)
+[API Reference: `sap.f.LayoutType`](https://sdk.openui5.orgdocs/api/symbols/sap.f.LayoutType.html)
 

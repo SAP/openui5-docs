@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a4afb138acf64a61a038aa5b91a4f082)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a4afb138acf64a61a038aa5b91a4f082) | [demo kit latest release](https://sdk.openui5.org/topic/a4afb138acf64a61a038aa5b91a4f082)</div>
 
 ## App and Nav Container
 
@@ -39,7 +39,7 @@ When you use the `to(…)` and `back(…)` methods of the `NavContainer` to trig
 **Related Information**  
 
 
-[API Reference: `sap.m.App`](https://openui5.hana.ondemand.com/#/api/sap.m.App)
+[API Reference: `sap.m.App`](https://sdk.openui5.org/api/sap.m.App)
 
-[API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.org/api/sap.m.NavContainer)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5cc3147afc8d4854b5d3c5fc20923f77) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5cc3147afc8d4854b5d3c5fc20923f77)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5cc3147afc8d4854b5d3c5fc20923f77) | [demo kit latest release](https://sdk.openui5.org/topic/5cc3147afc8d4854b5d3c5fc20923f77)</div>
 
 ## Step 14: Make Dialogs Bookmarkable
 
@@ -26,7 +26,7 @@ In this step, we want to allow bookmarking of the dialog box that is opened when
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 14](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.14/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.14/preview).
 
 ***
 

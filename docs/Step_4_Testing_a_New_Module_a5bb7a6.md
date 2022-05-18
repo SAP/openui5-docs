@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://sdk.openui5.org/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
 
 ## Step 4: Testing a New Module
 
@@ -29,7 +29,7 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.04/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.04/preview).
 
 ***
 
@@ -160,9 +160,9 @@ You can now call the unit tests and check the result. As in the previous step, t
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.SimpleType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.SimpleType.html)
+[API Reference: `sap.ui.model.SimpleType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.SimpleType.html)
 
-[API Reference: `sap.ui.require`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.require)
+[API Reference: `sap.ui.require`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.require)
 
 [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md "Data that is presented on the UI often has to be converted so that is human readable and fits to the locale of the user. On the other hand, data entered by the user has to be parsed and validated to be understood by the data source. For this purpose, you use formatters and data types.")
 

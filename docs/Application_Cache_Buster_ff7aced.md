@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ff7aceda0bd24039beb9bca8e882825d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ff7aceda0bd24039beb9bca8e882825d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ff7aceda0bd24039beb9bca8e882825d) | [demo kit latest release](https://sdk.openui5.org/topic/ff7aceda0bd24039beb9bca8e882825d)</div>
 
 ## Application Cache Buster
 

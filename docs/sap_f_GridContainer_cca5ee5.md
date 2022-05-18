@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cca5ee5d63ca44c89318f8496a58f9f2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cca5ee5d63ca44c89318f8496a58f9f2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cca5ee5d63ca44c89318f8496a58f9f2) | [demo kit latest release](https://sdk.openui5.org/topic/cca5ee5d63ca44c89318f8496a58f9f2)</div>
 
 ## sap.f.GridContainer
 
@@ -34,7 +34,7 @@ The `GridContainer` also supports layout breakpoints based on the screen size. A
 **Related Information**  
 
 
-[API Reference: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/api/symbols/sap.f.GridContainer)
+[API Reference: `sap.f.GridContainer`](https://sdk.openui5.org/api/symbols/sap.f.GridContainer)
 
-[Samples: `sap.f.GridContainer`](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer)
+[Samples: `sap.f.GridContainer`](https://sdk.openui5.org/entity/sap.f.GridContainer)
 

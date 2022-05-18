@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f31c206f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f31c206f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f31c206f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f31c206f4d1014b6dd926db0e91070)</div>
 
 ## sap.ui.model.type.String
 
@@ -41,5 +41,5 @@ The `String` type supports the following validation constraints:
 -   `equals` \(expects a string\)
 -   `search` \(expects a regular expression\)
 
-For more information, see API Reference: [`sap.ui.model.type.String`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type.String).
+For more information, see API Reference: [`sap.ui.model.type.String`](https://sdk.openui5.org/api/sap.ui.model.type.String).
 

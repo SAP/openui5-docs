@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5b46b03f024542ba802d99d67bc1a3f4) | [demo kit latest release](https://sdk.openui5.org/topic/5b46b03f024542ba802d99d67bc1a3f4)</div>
 
 ## Cards
 
@@ -285,7 +285,7 @@ To use the `sap.ui.integration.widgets.Card`, you should pass the path to the `m
 <w:Card manifest="./demo/manifest.json" />
 ```
 
-For more information and examples on the usage, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card).
+For more information and examples on the usage, see the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card) and the [Samples](https://sdk.openui5.org/entity/sap.ui.integration.widgets.Card).
 
 ***
 
@@ -499,7 +499,7 @@ Example:
 
 [Grid Controls](Grid_Controls_32d4b9c.md "OpenUI5 provides several different grid layouts that are suitable for different use cases.")
 
-[API Reference: `sap.f.Card`](https://openui5.hana.ondemand.com/#/api/sap.f.Card)
+[API Reference: `sap.f.Card`](https://sdk.openui5.org/api/sap.f.Card)
 
-[API Reference: `sap.ui.integration.widgets.Card`](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card)
+[API Reference: `sap.ui.integration.widgets.Card`](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card)
 

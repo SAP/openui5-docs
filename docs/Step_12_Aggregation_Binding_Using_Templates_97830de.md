@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/97830de2d7314e93b5c1ee3878a17be9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/97830de2d7314e93b5c1ee3878a17be9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/97830de2d7314e93b5c1ee3878a17be9) | [demo kit latest release](https://sdk.openui5.org/topic/97830de2d7314e93b5c1ee3878a17be9)</div>
 
 ## Step 12: Aggregation Binding Using Templates
 
@@ -33,7 +33,7 @@ It will automatically create as many child controls as are needed to display the
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 12](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.12/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 12](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.12/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/030fcd14963048218488048f407f8f34)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/030fcd14963048218488048f407f8f34) | [demo kit latest release](https://sdk.openui5.org/topic/030fcd14963048218488048f407f8f34)</div>
 
 ## JavaScript Code Issues
 
@@ -94,7 +94,7 @@ Good Example
 </tr>
 </table>
 
-For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) and the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html). 
+For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) and the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.html). 
 
 ***
 
@@ -177,32 +177,32 @@ OpenUI5 provides a couple of static modules and \(factory\) functions that can b
 
     -   `sap.ui.getCore`
 
-    -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
+    -   `sap.ui.component`\(deprecated\): Use [`sap.ui.core.Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.create) instead.
 
-    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.fragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.htmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.jsfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
+    -   `sap.ui.jsview`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
-    -   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
+    -   `sap.ui.template`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
-    -   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
+    -   `sap.ui.view`\(deprecated\): Use [`sap.ui.core.mvc.View.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.View/methods/sap.ui.core.mvc.View.create) instead.
 
-    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
+    -   `sap.ui.xmlfragment`\(deprecated\): Use [`sap.ui.core.mvc.Controller.loadFragment`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/loadFragment) or [`sap.ui.core.Fragment.load`](https://sdk.openui5.org/api/sap.ui.core.Fragment/methods/sap.ui.core.Fragment.load) instead.
 
-    -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
+    -   `sap.ui.xmlview`\(deprecated\): Use [`sap.ui.core.mvc.XMLView.create`](https://sdk.openui5.org/api/sap.ui.core.mvc.XMLView/methods/sap.ui.core.mvc.XMLView.create) instead.
 
 
 -   Commonly used names \(However they can also be used as AMD references via `sap/ui/Global`\):
 
-    -   `sap.ui.getVersionInfo (Global.getVersionInfo())`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.getVersionInfo).
+    -   `sap.ui.getVersionInfo (Global.getVersionInfo())`\(deprecated\): Please see the following [`documentation`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.getVersionInfo).
 
-    -   `sap.ui.lazyRequire`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.lazyRequire).
+    -   `sap.ui.lazyRequire`\(deprecated\): Please see the following [`documentation`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.lazyRequire).
 
-    -   `sap.ui.resource`\(deprecated\): Please see the following [`documentation`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.resource).
+    -   `sap.ui.resource`\(deprecated\): Please see the following [`documentation`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.resource).
 
     -   `sap.ui.version`
 
@@ -218,7 +218,7 @@ Entities marked as “deprecated” in the API Reference documentation \(this in
 
 One prominent example is the old `jQuery.sap.device` API that has been replaced with `sap.ui.Device`.
 
-For more information, see the [Deprecated APIs](https://openui5.hana.ondemand.com/#docs/api/deprecation.html).
+For more information, see the [Deprecated APIs](https://sdk.openui5.orgdocs/api/deprecation.html).
 
 ***
 
@@ -296,7 +296,7 @@ oControl.addEventDelegate({
 </tr>
 </table>
 
-See also: [sap.ui.core.Element - addEventDelegate](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/addEventDelegate).
+See also: [sap.ui.core.Element - addEventDelegate](https://sdk.openui5.org/api/sap.ui.core.Element/methods/addEventDelegate).
 
 ***
 
@@ -405,7 +405,7 @@ oControl.addEventDelegate({
     });
 ```
 
-See also: [sap.ui.core.Control - attachBrowserEvent](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control/methods/attachBrowserEvent) and [sap.ui.core.Element - addEventDelegate](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/addEventDelegate).
+See also: [sap.ui.core.Control - attachBrowserEvent](https://sdk.openui5.org/api/sap.ui.core.Control/methods/attachBrowserEvent) and [sap.ui.core.Element - addEventDelegate](https://sdk.openui5.org/api/sap.ui.core.Element/methods/addEventDelegate).
 
 ***
 
@@ -467,7 +467,7 @@ createContent: function(oController) {
 </tr>
 </table>
 
-See also: [sap.ui.core.mvc.View - createId](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.View/methods/createId).
+See also: [sap.ui.core.mvc.View - createId](https://sdk.openui5.org/api/sap.ui.core.mvc.View/methods/createId).
 
 ***
 
@@ -479,7 +479,7 @@ OpenUI5 controls are kept alive until they are destroyed, so lifecycle managemen
 
 Also clean up internal structures in controllers, views and your custom controls.
 
-See also: [sap.ui.core.Element - destroy](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/destroy) \(for applications\) and [sap.ui.core.Element - exit](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/exit) \(for custom control implementation\).
+See also: [sap.ui.core.Element - destroy](https://sdk.openui5.org/api/sap.ui.core.Element/methods/destroy) \(for applications\) and [sap.ui.core.Element - exit](https://sdk.openui5.org/api/sap.ui.core.Element/methods/exit) \(for custom control implementation\).
 
 ***
 
@@ -583,7 +583,7 @@ Good Example
 </tr>
 </table>
 
-See also: [Namespace sap/base/Log](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fbase%2FLog).
+See also: [Namespace sap/base/Log](https://sdk.openui5.org/api/module%3Asap%2Fbase%2FLog).
 
 ***
 

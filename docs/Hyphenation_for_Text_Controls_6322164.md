@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6322164936f047de941ec522b95d7b70)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6322164936f047de941ec522b95d7b70) | [demo kit latest release](https://sdk.openui5.org/topic/6322164936f047de941ec522b95d7b70)</div>
 
 ## Hyphenation for Text Controls
 
@@ -63,7 +63,7 @@ This class provides methods to evaluate the possibility of using browser-native 
 
 If browser-native hyphenation is not supported, you can directly use this API to hyphenate texts. A third-party library named Hyphenopoly is used in that case.
 
-As the `sap.ui.core.hyphenation.Hyphenation` class is a singleton, an instance should be acquired from the [`getInstance`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.hyphenation.Hyphenation/methods/getInstance) method.
+As the `sap.ui.core.hyphenation.Hyphenation` class is a singleton, an instance should be acquired from the [`getInstance`](https://sdk.openui5.org/api/sap.ui.core.hyphenation.Hyphenation/methods/getInstance) method.
 
 Example:
 
@@ -536,15 +536,15 @@ uk
 **Related Information**  
 
 
-[API Reference: sap.m.Text](https://openui5.hana.ondemand.com/#/api/sap.m.Text)
+[API Reference: sap.m.Text](https://sdk.openui5.org/api/sap.m.Text)
 
-[API Reference: sap.m.Title](https://openui5.hana.ondemand.com/#/api/sap.m.Title)
+[API Reference: sap.m.Title](https://sdk.openui5.org/api/sap.m.Title)
 
-[API Reference: sap.m.Label](https://openui5.hana.ondemand.com/#/api/sap.m.Label)
+[API Reference: sap.m.Label](https://sdk.openui5.org/api/sap.m.Label)
 
-[API Reference: sap.m.WrappingType](https://openui5.hana.ondemand.com/#/api/sap.m.WrappingType)
+[API Reference: sap.m.WrappingType](https://sdk.openui5.org/api/sap.m.WrappingType)
 
-[API Reference: sap.ui.core.hyphenation.Hyphenation](https://openui5.hana.ondemand.com/#/api/sap.ui.core.hyphenation.Hyphenation)
+[API Reference: sap.ui.core.hyphenation.Hyphenation](https://sdk.openui5.org/api/sap.ui.core.hyphenation.Hyphenation)
 
 [Hyphenopoly on GitHub](https://github.com/mnater/Hyphenopoly)
 

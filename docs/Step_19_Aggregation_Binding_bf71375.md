@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bf71375454654b44af01379a3c3a6273) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bf71375454654b44af01379a3c3a6273)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bf71375454654b44af01379a3c3a6273) | [demo kit latest release](https://sdk.openui5.org/topic/bf71375454654b44af01379a3c3a6273)</div>
 
 ## Step 19: Aggregation Binding
 
@@ -26,7 +26,7 @@ Now that we have established a good structure for our app, it's time to add some
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 19](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
+You can view and download all files at [Walkthrough - Step 19](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
 
 ```js
 {
@@ -203,9 +203,9 @@ In the text bundle the title of the list is added.
 
 [Lists](Lists_1da1581.md "Lists have properties and events and they contain list items that inherit from sap.m.ListItemBase, which provides navigation, selection and event features. The list item type determines the way the list item interacts by providing additional features.")
 
-[API Reference: `sap.m.List`](https://openui5.hana.ondemand.com/#/api/sap.m.List)
+[API Reference: `sap.m.List`](https://sdk.openui5.org/api/sap.m.List)
 
-[Samples: `sap.m.List` ](https://openui5.hana.ondemand.com/#/entity/sap.m.List)
+[Samples: `sap.m.List` ](https://sdk.openui5.org/entity/sap.m.List)
 
 [List Binding \(Aggregation Binding\)](List_Binding_Aggregation_Binding_91f0577.md "List binding (or aggregation binding) is used to automatically create child controls according to model data.")
 

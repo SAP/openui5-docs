@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/59b772bfac5241b89c16b12395c1116c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://sdk.openui5.org/topic/59b772bfac5241b89c16b12395c1116c)</div>
 
 ## Step 1: Setting Up the Initial App
 
@@ -33,7 +33,7 @@ The structure in this step will be used throughout the rest of this tutorial. Th
 
 ### Setup
 
-To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Flexible Column Layout App - Step 1](https://openui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2/sample/sap.f.tutorial.fiori2.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Flexible Column Layout App - Step 1](https://sdk.openui5.org/entity/sap.f.tutorial.fiori2/sample/sap.f.tutorial.fiori2.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 
 Depending on your development environment you might have to adjust resource paths and configuration entries. The project structure and the files coming with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f6a1a0ad49ca4d9facac222c4d372726)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f6a1a0ad49ca4d9facac222c4d372726) | [demo kit latest release](https://sdk.openui5.org/topic/f6a1a0ad49ca4d9facac222c4d372726)</div>
 
 ## Performance of Lists and Tables
 

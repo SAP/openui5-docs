@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6bbad66475d040f39df6fbbaabe6f40f) | [demo kit latest release](https://sdk.openui5.org/topic/6bbad66475d040f39df6fbbaabe6f40f)</div>
 
 ## App Development Using SAP Business Application Studio
 

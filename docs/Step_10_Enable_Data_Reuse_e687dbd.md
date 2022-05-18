@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e687dbdc4c064ba3a3ce3942288e8f74) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e687dbdc4c064ba3a3ce3942288e8f74)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e687dbdc4c064ba3a3ce3942288e8f74) | [demo kit latest release](https://sdk.openui5.org/topic/e687dbdc4c064ba3a3ce3942288e8f74)</div>
 
 ## Step 10: Enable Data Reuse
 
@@ -30,7 +30,7 @@ In this step we avoid unnecessary back-end requests by preventing the destructio
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 10](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.10/code).
+You can view and download all files at [OData V4 - Step 10](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.10/code).
 
 ***
 

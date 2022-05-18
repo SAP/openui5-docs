@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9ef211e569ed4f819af904ba360ea7f6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9ef211e569ed4f819af904ba360ea7f6) | [demo kit latest release](https://sdk.openui5.org/topic/9ef211e569ed4f819af904ba360ea7f6)</div>
 
 ## Glossary
 
@@ -522,9 +522,9 @@ SAPUI5/OpenUI5
 
 [More About Controls](More_About_Controls_3ec6808.md)
 
-[Samples](https://openui5.hana.ondemand.com/explored.html)
+[Samples](https://sdk.openui5.org/explored.html)
 
-[API Reference](https://openui5.hana.ondemand.com/#docs/api/index.html)
+[API Reference](https://sdk.openui5.orgdocs/api/index.html)
 
 [Essentials](Essentials_ec699e0.md)
 

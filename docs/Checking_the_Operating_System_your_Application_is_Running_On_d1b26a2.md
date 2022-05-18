@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d1b26a248c0a47f6a96849236250dc90)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d1b26a248c0a47f6a96849236250dc90) | [demo kit latest release](https://sdk.openui5.org/topic/d1b26a248c0a47f6a96849236250dc90)</div>
 
 ## Checking the Operating System your Application is Running On
 
@@ -70,5 +70,5 @@ The platform attribute or CSS class is used as follows:
 **Related Information**  
 
 
-[API Reference: `sap.ui.Device.os.OS`](https://openui5.hana.ondemand.com/#/api/sap.ui.Device.os.OS)
+[API Reference: `sap.ui.Device.os.OS`](https://sdk.openui5.org/api/sap.ui.Device.os.OS)
 

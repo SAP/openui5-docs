@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/128214a9b2754b15aec5e365780b03fd) | [demo kit latest release](https://sdk.openui5.org/topic/128214a9b2754b15aec5e365780b03fd)</div>
 
 ## Step 2: Steady...
 
@@ -30,7 +30,7 @@ Now we extend our minimalist HTML page to a basic app with a view and a controll
 
 ### Coding
 
-You can view and download all files at [Quick Start - Step 2](https://openui5.hana.ondemand.com/#/sample/sap.m.tutorial.quickstart.02/preview).
+You can view and download all files at [Quick Start - Step 2](https://sdk.openui5.org/sample/sap.m.tutorial.quickstart.02/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/9c22d2ada0414d97837b845e1e85ab86)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9c22d2ada0414d97837b845e1e85ab86) | [demo kit latest release](https://sdk.openui5.org/topic/9c22d2ada0414d97837b845e1e85ab86)</div>
 
 ## Extensions for OPA5
 
@@ -37,7 +37,7 @@ The extension API is defined in the `sap.ui.test.OpaExtension` class. A custom e
 
 To load an extension, the test should enable it by specifying extension class name as string in the key 'extensions' in the options object given to `Opa5.extendConfig()`. An array of extension names could be specified or the extension name `?opaExtensions=[my/custom/Extension]` could be given in the test URL. If the extension needs some application parameters, they could be provided in the `appParams`.
 
-For more information, see the *API Reference*: [ `Opa5.extendConfig()`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5/methods/sap.ui.test.Opa5.extendConfig) 
+For more information, see the *API Reference*: [ `Opa5.extendConfig()`](https://sdk.openui5.org/api/sap.ui.test.Opa5/methods/sap.ui.test.Opa5.extendConfig) 
 
 ***
 

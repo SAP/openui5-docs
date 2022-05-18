@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4a97a07ec8f5441d901994d82eaab1f5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4a97a07ec8f5441d901994d82eaab1f5) | [demo kit latest release](https://sdk.openui5.org/topic/4a97a07ec8f5441d901994d82eaab1f5)</div>
 
 ## Semantic Page \(sap.m\)
 
 The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page` that implements the SAP Fiori 1.0 design guidelines.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.semantic.SemanticPage.html) and the [samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.semantic.SemanticPage/samples).
+For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.semantic.SemanticPage.html) and the [samples](https://sdk.openui5.org/explored.html#/entity/sap.m.semantic.SemanticPage/samples).
 
 ***
 
@@ -245,5 +245,5 @@ The `DetailPage` usually displays extended information for the item that was sel
 **Related Information**  
 
 
-[API Reference: `sap.m.Page`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Page.html)
+[API Reference: `sap.m.Page`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Page.html)
 

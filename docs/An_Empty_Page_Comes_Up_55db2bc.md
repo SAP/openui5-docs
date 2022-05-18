@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/55db2bc60d694d1eacab4d4410f5dc46)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/55db2bc60d694d1eacab4d4410f5dc46) | [demo kit latest release](https://sdk.openui5.org/topic/55db2bc60d694d1eacab4d4410f5dc46)</div>
 
 ## An Empty Page Comes Up
 

@@ -6,14 +6,14 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://sdk.openui5.org/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
 
 ## sap.ui.table
 
 Table-like controls, mainly for desktop scenarios.
 
 > ### Note:  
-> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
+> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://sdk.openui5.org/api) and the [Samples](https://sdk.openui5.org/controls). 
 
 ***
 
@@ -35,7 +35,7 @@ OData as a RESTful protocol provides a specified and a generalized way to access
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData services.")
 
-[API Reference: `sap.ui.table`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.table.html)
+[API Reference: `sap.ui.table`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.table.html)
 
 [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md "The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.")
 

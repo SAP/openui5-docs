@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b54f7895b7594c61a83fa7257fa9d13f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b54f7895b7594c61a83fa7257fa9d13f) | [demo kit latest release](https://sdk.openui5.org/topic/b54f7895b7594c61a83fa7257fa9d13f)</div>
 
 ## OData Operations
 
@@ -30,7 +30,7 @@ The type must be specified if the return value is a primitive type.
 
 ### Deferred Operation Bindings
 
-Often it is not feasible for the operation to be called immediately, for example if there are parameters that the user has to enter first. In such cases, use an ODataContextBinding as element binding at a layout element in the view, for example a `<Form>` or a `<VBox>` \(see the [ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) API documentation in the Demo Kit\). Mark the operation as **deferred** by inserting an ellipsis \("..."\) in the brackets, for example `GetNextAvailableItem(...)`. Access the return value from child elements using relative bindings. When used like this, the context binding is called an **operation binding** or more specifically, a **function binding** or **action binding** depending on the type of OData operation it is used for.
+Often it is not feasible for the operation to be called immediately, for example if there are parameters that the user has to enter first. In such cases, use an ODataContextBinding as element binding at a layout element in the view, for example a `<Form>` or a `<VBox>` \(see the [ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) API documentation in the Demo Kit\). Mark the operation as **deferred** by inserting an ellipsis \("..."\) in the brackets, for example `GetNextAvailableItem(...)`. Access the return value from child elements using relative bindings. When used like this, the context binding is called an **operation binding** or more specifically, a **function binding** or **action binding** depending on the type of OData operation it is used for.
 
 If the operation binding defers operation execution, you need to call its `execute` method to execute the operation. See below for an example.
 
@@ -246,7 +246,7 @@ oModel.bindContext("name.space.DestroyOutdated(...)", oHeaderContext).execute();
 > 
 > -   The parent binding of a deferred operation must not be a deferred operation itself.
 > 
-> -   When executing a bound action, you can use the `bIgnoreETag` argument of  [`ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) to actively ignore the ETag match that normally happens \(technically, the header *"If-Match : \*"* will be used\). This is useful if a second bound action for the same entity is to be executed within the same batch \(especially if it is in a different change set\). An example would be "prepare" and "activate" for draft handling. Without this, the second bound action would be rejected, because the client sent the initial ETag via the *"If-Match"* header, but the first bound action changes that ETag on the server before the second one is executed.
+> -   When executing a bound action, you can use the `bIgnoreETag` argument of  [`ODataContextBinding#execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) to actively ignore the ETag match that normally happens \(technically, the header *"If-Match : \*"* will be used\). This is useful if a second bound action for the same entity is to be executed within the same batch \(especially if it is in a different change set\). An example would be "prepare" and "activate" for draft handling. Without this, the second bound action would be rejected, because the client sent the initial ETag via the *"If-Match"* header, but the first bound action changes that ETag on the server before the second one is executed.
 
 ***
 
@@ -279,7 +279,7 @@ In some cases an action should not be performed in case warnings are present, un
 
 The strict handling is requested by the client with the HTTP request header `Prefer:handling=strict`. The server replies with HTTP status code `412 Precondition Failed` and the response header `Preference-Applied:handling=strict` if the request fails because the preference was applied.
 
-To request this behavior, you have to provide `fnOnStrictHandlingFailed` as a callback function when invoking  [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) . This callback is called if the action is rejected with HTTP status code `412 Precondition Failed` and the response header `Preference-Applied:handling=strict`. All messages of the OData error are passed to the callback as an array of  [`sap.ui.core.message.Message`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.message.Message) . These messages are not reported to the message model. The callback may be used to visualize the messages and has to return a `Promise` resolving with a `boolean` value. If this `Promise` resolves with `true`, the bound action is repeated, now without requesting `Prefer:handling=strict`. Otherwise, the `Promise` returned by `sap.ui.model.odata.v4.ODataContextBinding#execute` will be canceled.
+To request this behavior, you have to provide `fnOnStrictHandlingFailed` as a callback function when invoking  [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) . This callback is called if the action is rejected with HTTP status code `412 Precondition Failed` and the response header `Preference-Applied:handling=strict`. All messages of the OData error are passed to the callback as an array of  [`sap.ui.core.message.Message`](https://sdk.openui5.org/api/sap.ui.core.message.Message) . These messages are not reported to the message model. The callback may be used to visualize the messages and has to return a `Promise` resolving with a `boolean` value. If this `Promise` resolves with `true`, the bound action is repeated, now without requesting `Prefer:handling=strict`. Otherwise, the `Promise` returned by `sap.ui.model.odata.v4.ODataContextBinding#execute` will be canceled.
 
 To enable strict handling for the above example, the controller code snippet may look like this:
 
@@ -351,7 +351,7 @@ To enable strict handling for the above example, the controller code snippet may
 > },
 > ```
 
- See also the example in the Demo Kit: [Controller Code for `sap.ui.core.sample.odata.v4.SalesOrders.onConfirmSalesOrder`](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
+ See also the example in the Demo Kit: [Controller Code for `sap.ui.core.sample.odata.v4.SalesOrders.onConfirmSalesOrder`](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders/code/Main.controller.js)
 
 ***
 
@@ -377,7 +377,7 @@ If no advertised action was returned in the payload, `undefined` \(or `null` in 
 If there is an additional list of non-binding parameter names to identify a specific overload, then they need to be given in the binding path as well, for instance: `%{#Model.RemainingVacation(Year)}`.
 
 > ### Note:  
-> The bound action advertisement is added to $select automatically if the model parameter [`autoExpandSelect`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/constructor) is set.
+> The bound action advertisement is added to $select automatically if the model parameter [`autoExpandSelect`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor) is set.
 
 To access the metadata of an operation, the double hash \(`##`\) syntax has to be used as is illustrated in the next example:
 
@@ -392,7 +392,7 @@ To access the metadata of an operation, the double hash \(`##`\) syntax has to b
 
 Here a context is created pointing to the metadata of the action and afterwards the type is accessed using this context.
 
-This approach can also be used with XML templating where [`createBindingContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) is called internally.
+This approach can also be used with XML templating where [`createBindingContext`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) is called internally.
 
 ***
 
@@ -412,13 +412,13 @@ oOperation.execute().then(function () {
 });
 ```
 
-The promise returned by the operation binding's [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) method may resolve with a *return value context* provided the conditions specified in [`execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) are met. The operation binding may be bound to an entity or a collection of entities.
+The promise returned by the operation binding's [`execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) method may resolve with a *return value context* provided the conditions specified in [`execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) are met. The operation binding may be bound to an entity or a collection of entities.
 
 The typical use case for *return value context* is when you call a bound operation with a `C1` context defining its binding parameter and the bound operation returns a *different version* of the entity used as binding parameter. `C1` is the binding context of an "object page" container displaying properties of the corresponding entity. You need to replace`C1` as binding context of the object page by the*return value context*. This way, the *different version* of the entity is displayed without a further read request. If the bound operation returns the entity used as binding parameter, the changes will automatically be copied to the binding parameter.
 
 If the operation binding fulfills the conditions for returning a context, you can set the `$$inheritExpandSelect` parameter for the binding: The request for the bound operation is then sent with the same `$expand` and `$select` query options used to load the operation's binding parameter. This way you guarantee that all fields of the object page are available in the operation response.
 
-If the `C1` context belongs to a list binding, for example in a list report, you can pass the `bReplaceWithRVC` flag to the operation binding's `execute` method in order to immediately replace `C1` in the list with the return value context and return that list context instead. This way, the *different version* of the entity is displayed even inside the list report without a further read request. For more information, see [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) and [Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md).
+If the `C1` context belongs to a list binding, for example in a list report, you can pass the `bReplaceWithRVC` flag to the operation binding's `execute` method in order to immediately replace `C1` in the list with the return value context and return that list context instead. This way, the *different version* of the entity is displayed even inside the list report without a further read request. For more information, see [`sap.ui.model.odata.v4.ODataContextBinding#execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/methods/execute) and [Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md).
 
 Sample object page to display an `Artist` entity
 
@@ -461,5 +461,5 @@ onEdit : function () {
 
 [OData Version 4.0 Part 1, 11.5 Operations](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)
 
-[ODataContextBinding](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
 

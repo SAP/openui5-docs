@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3e7cb6f671b4b839f37eb5f88429e41) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3e7cb6f671b4b839f37eb5f88429e41)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a3e7cb6f671b4b839f37eb5f88429e41) | [demo kit latest release](https://sdk.openui5.org/topic/a3e7cb6f671b4b839f37eb5f88429e41)</div>
 
 ## Step 8: OData Operations
 
@@ -30,7 +30,7 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.08/preview).
+You can view and download all files at [OData V4 - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.08/preview).
 
 ***
 

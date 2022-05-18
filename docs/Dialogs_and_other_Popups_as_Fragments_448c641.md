@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/448c6418153149a79c8ff4370808f9c1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/448c6418153149a79c8ff4370808f9c1) | [demo kit latest release](https://sdk.openui5.org/topic/448c6418153149a79c8ff4370808f9c1)</div>
 
 ## Dialogs and other Popups as Fragments
 

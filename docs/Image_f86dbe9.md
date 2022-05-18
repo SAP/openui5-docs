@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f86dbe9d7f7d48dea5286003b1322165)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f86dbe9d7f7d48dea5286003b1322165) | [demo kit latest release](https://sdk.openui5.org/topic/f86dbe9d7f7d48dea5286003b1322165)</div>
 
 ## Image
 
@@ -81,7 +81,7 @@ Supported densities are 1.5 and 2. The following example shows a set of images w
 **Related Information**  
 
 
-[API Reference: `sap.m.Image`](https://openui5.hana.ondemand.com/#/api/sap.m.Image)
+[API Reference: `sap.m.Image`](https://sdk.openui5.org/api/sap.m.Image)
 
-[Samples: `sap.m.Image`](https://openui5.hana.ondemand.com/#/entity/sap.m.Image/sample/sap.m.sample.Image)
+[Samples: `sap.m.Image`](https://sdk.openui5.org/entity/sap.m.Image/sample/sap.m.sample.Image)
 

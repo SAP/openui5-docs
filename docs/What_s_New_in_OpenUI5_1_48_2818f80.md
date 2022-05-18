@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2818f800e7424c5c91dbd495f8cb757b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2818f800e7424c5c91dbd495f8cb757b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2818f800e7424c5c91dbd495f8cb757b) | [demo kit latest release](https://sdk.openui5.org/topic/2818f800e7424c5c91dbd495f8cb757b)</div>
 
 ## What's New in OpenUI5 1.48
 
@@ -77,7 +77,7 @@ With the tool, you can also preview all supported SAP themes and find informatio
 
  ![](images/loiof1355e7d44ae495190f31d2835fcf67d_LowRes.png) 
 
-To find the tool, see [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps).
+To find the tool, see [Demo Apps](https://sdk.openui5.org/demoapps).
 
 ***
 
@@ -85,13 +85,13 @@ To find the tool, see [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps).
 
 -   `sap.m.MessageView`: Displays a summarized list of different types of messages. The `MessageView` is used to show the contents of `sap.m.MessagePopover`, but it can also be used in other container controls like `sap.m.Dialog`.
 
-    `sap.m.MessageView` also allows grouping of messages by setting the property `groupItems` and defining a `groupName` for each item. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MessageView) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MessageViewWithGrouping/preview).
+    `sap.m.MessageView` also allows grouping of messages by setting the property `groupItems` and defining a `groupName` for each item. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MessageView) and the [samples](https://sdk.openui5.org/sample/sap.m.sample.MessageViewWithGrouping/preview).
 
      ![](images/loio6244b88b28cd446c839efd081c44087d_LowRes.png) 
 
--   `sap.m.CustomTreeItem`: Similar to `sap.m.CustomListItem` for the `sap.m.List` control, the `sap.m.CustomTreeItem` control allows you to define custom item content for `sap.m.Tree`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.CustomTreeItem) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.CustomTreeItem/preview).
+-   `sap.m.CustomTreeItem`: Similar to `sap.m.CustomListItem` for the `sap.m.List` control, the `sap.m.CustomTreeItem` control allows you to define custom item content for `sap.m.Tree`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.CustomTreeItem) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.CustomTreeItem/preview).
 
--   `sap.m.PDFViewer` enables SAP Fiori developers to display PDF files in a consistent way across all browsers and devices. It encapsulates browser-specific PDF viewer plugins and provides a simple API to embed a PDF file into a page or to open it in a dialog box. For more information, see [PDF Viewer](PDF_Viewer_cd80a8b.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PDFViewer), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PDFViewer). 
+-   `sap.m.PDFViewer` enables SAP Fiori developers to display PDF files in a consistent way across all browsers and devices. It encapsulates browser-specific PDF viewer plugins and provides a simple API to embed a PDF file into a page or to open it in a dialog box. For more information, see [PDF Viewer](PDF_Viewer_cd80a8b.md), the [API Reference](https://sdk.openui5.org/api/sap.m.PDFViewer), and the [sample](https://sdk.openui5.org/entity/sap.m.PDFViewer). 
 
      ![](images/loio3c7c40d76e704eefa3870adb99144275_LowRes.png) 
 
@@ -128,7 +128,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Caution:  
 > **Incompatibility Due to Bug Fix**
 > 
-> The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. Due to the bug, however, the return value wraps the expected output that can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.
+> The following bug has been reported: If you call the [sap.ui.model.odata.v4.Context\#getObject\(\)](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/getObject) or the [sap.ui.model.odata.v4.Context\#requestObject\(\)](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/requestObject) methods without a parameter, the expected and documented behavior is that the same result is returned as if the parameter `sPath=""` had been specified. Due to the bug, however, the return value wraps the expected output that can then only be accessed via `.value[0]`, for example `oContext.getObject().value[0]`.
 > 
 > **If you have used this workaround, your application will break starting with OpenUI5 version 1.44.6.**
 > 
@@ -137,15 +137,15 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 > ### Restriction:  
 > Due to the limited feature scope of this version of the OpenUI5 OData V4 model, check that all required features are in place before developing applications. Check the detailed documentation of the features, as certain parts of a feature may be missing. While we aim to be compatible with existing controls, some controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model \(such as tree binding\). This also applies to controls such as `TreeTable` and `AnalyticalTable`, which are not supported together with the OpenUI5 OData V4 model. The interface for applications has been changed for easier and more efficient use of the model. For a summary of these changes, see [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [sample](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 ***
 
 #### One Page Acceptance Tests \(OPA5\)
 
--   You can now provide OPA test and application parameters in the URL. This allows you to override the default values for individual test executions. For more information, see [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md) and the API Reference for [sap.ui.test.Opa.extendConfig](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa/methods/extendConfig) and [sap.ui.test.Opa5.extendConfig](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa5/methods/sap.ui.test.Opa5.extendConfig). 
+-   You can now provide OPA test and application parameters in the URL. This allows you to override the default values for individual test executions. For more information, see [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md) and the API Reference for [sap.ui.test.Opa.extendConfig](https://sdk.openui5.org/api/sap.ui.test.Opa/methods/extendConfig) and [sap.ui.test.Opa5.extendConfig](https://sdk.openui5.org/api/sap.ui.test.Opa5/methods/sap.ui.test.Opa5.extendConfig). 
 
--   You can now extend the testing capabilities of OPA with your own extensions. For more information, see [Extensions for OPA5](Extensions_for_OPA5_9c22d2a.md) and the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.test.OpaExtension). 
+-   You can now extend the testing capabilities of OPA with your own extensions. For more information, see [Extensions for OPA5](Extensions_for_OPA5_9c22d2a.md) and the [API Reference](https://sdk.openui5.org/api/sap.ui.test.OpaExtension). 
 
 
 ***
@@ -160,11 +160,11 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   `sap.m.DatePicker`: You can now set specific date or date ranges as non-working days by using the new type of the `sap.ui.unified.DateTypeRange` class, `sap.ui.unified.CalendarDayType.NonWorking`.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DatePicker/preview).
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.m.sample.DatePicker/preview).
 
 -   `sap.m.GenericTile`: With a new overflow concept that allows more flexibility in the layout of the tile designs, generic tiles are displayed in `LineMode` like list items when the screen width is less than 450px. With a screen width greater than 450px, the tiles are no longer truncated and the complete text is shown in a wrapped in-line design.
 
-    `Compact` and `Cozy` content densities are available for small \(< 450px\) and large \(\> 450px\) screens. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/symbols/sap.m.GenericTile) and the [samples](https://openui5.hana.ondemand.com/#/entity/sap.m.GenericTile). 
+    `Compact` and `Cozy` content densities are available for small \(< 450px\) and large \(\> 450px\) screens. For more information, see the [API Reference](https://sdk.openui5.org/api/symbols/sap.m.GenericTile) and the [samples](https://sdk.openui5.org/entity/sap.m.GenericTile). 
 
 -   `sap.m.PlanningCalendar`:
 
@@ -172,14 +172,14 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
     -   You can now expand the grouping of overlapping appointments in the months view of the `sap.m.PlanningCalendar`. You can do this by setting the new property `groupAppointmentsMode` to `sap.ui.unified.GroupAppointmentsMode.Expanded`.
 
-        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar/methods/getGroupAppointmentsMode) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarViews/preview).
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendar/methods/getGroupAppointmentsMode) and the [samples](https://sdk.openui5.org/sample/sap.m.sample.PlanningCalendarViews/preview).
 
 
--   `sap.m.TextArea` controls with a limited text length can determine how to handle text that exceeds that length. By setting `showExceededText=true`, you can decide if those characters are visible or cut. The text area changes its value state and shows a counter of the extra characters when the threshold is reached. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TextArea/methods/setShowExceededText) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextAreaMaxLength/preview).
+-   `sap.m.TextArea` controls with a limited text length can determine how to handle text that exceeds that length. By setting `showExceededText=true`, you can decide if those characters are visible or cut. The text area changes its value state and shows a counter of the extra characters when the threshold is reached. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TextArea/methods/setShowExceededText) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.TextAreaMaxLength/preview).
 
--   `sap.m.UploadCollection`: When grouping of `UploadCollectionItems` you can now provide the grouping feature for `UploadCollection`. After you have selected the grouping criteria, the grouping information is displayed as group header in the upload collection list. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollectionItem) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
+-   `sap.m.UploadCollection`: When grouping of `UploadCollectionItems` you can now provide the grouping feature for `UploadCollection`. After you have selected the grouping criteria, the grouping information is displayed as group header in the upload collection list. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.UploadCollectionItem) and the [samples](https://sdk.openui5.org/sample/sap.m.sample.UploadCollectionSortingFiltering/preview).
 
--   `sap.m.Wizard` now allows editing of any step in the sequence. By using the association `currentStep` and the method `setCurrentStep`, you can programmatically reach and then edit any step in the sequence. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Wizard/methods/setCurrentStep) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.WizardCurrentStep/preview).
+-   `sap.m.Wizard` now allows editing of any step in the sequence. By using the association `currentStep` and the method `setCurrentStep`, you can programmatically reach and then edit any step in the sequence. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Wizard/methods/setCurrentStep) and the [samples](https://sdk.openui5.org/sample/sap.m.sample.WizardCurrentStep/preview).
 
 -   `sap.ui.layout.BlockLayout`:
 
@@ -188,7 +188,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
     -   An additional breaking point for M-sized displays has been added.
 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.BlockLayoutCell) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.BlockLayoutCustomBackground/preview).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.BlockLayoutCell) and the [samples](https://sdk.openui5.org/sample/sap.ui.layout.sample.BlockLayoutCustomBackground/preview).
 
      ![](images/loiod4f2319fc0ad40c9b3d0f97ecf393871_LowRes.png) 
 
@@ -199,24 +199,24 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
     -   When `IconTabHeader` is used on smartphones and tablets, only completely visible tabs are displayed \(no truncation\). The rest of the tabs will overflow.
 
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolHeaderIconTabHeader/preview). 
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.tnt.sample.ToolHeaderIconTabHeader/preview). 
 
--   `sap.ui.table`: You can now highlight items in the tables of the `sap.ui.table` library \(`sap.ui.table.Table`, `sap.ui.table.TreeTable`, `sap.ui.table.AnalyticalTable`\), for example to indicate an error. For more information, see the API Reference for [sap.ui.table.RowSettings](https://openui5.hana.ondemand.com/#/api/sap.ui.table.RowSettings) and [sap.ui.table.Table.setRowSettingsTemplate](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table/methods/setRowSettingsTemplate), and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.table.sample.RowHighlights/preview).
+-   `sap.ui.table`: You can now highlight items in the tables of the `sap.ui.table` library \(`sap.ui.table.Table`, `sap.ui.table.TreeTable`, `sap.ui.table.AnalyticalTable`\), for example to indicate an error. For more information, see the API Reference for [sap.ui.table.RowSettings](https://sdk.openui5.org/api/sap.ui.table.RowSettings) and [sap.ui.table.Table.setRowSettingsTemplate](https://sdk.openui5.org/api/sap.ui.table.Table/methods/setRowSettingsTemplate), and the [sample](https://sdk.openui5.org/sample/sap.ui.table.sample.RowHighlights/preview).
 
 -   `sap.ui.unified.Calendar`:
 
     -   You can now show and hide week numbers with the use of a new property `showWeekNumbers`. This feature is disabled for the Islamic calendar.
 
-        For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar/methods/setShowWeekNumbers) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMinMax/preview).
+        For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.Calendar/methods/setShowWeekNumbers) and the [samples](https://sdk.openui5.org/sample/sap.ui.unified.sample.CalendarMinMax/preview).
 
     -   You can now set specific dates or date ranges to be displayed as non-working by using the `specialDates` aggregation and `sap.ui.unified.CalendarDayType.NonWorking` enumeration type.
 
-        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
+        For more information, see the [sample](https://sdk.openui5.org/sample/sap.ui.unified.sample.CalendarSpecialDaysLegend/preview).
 
 
 -   `sap.ui.unified.ColorPicker`: A responsive variant of the color picker control is now available in the `sap.ui.unified` library that is compatible for use with controls from the other responsive OpenUI5 libraries.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.ColorPicker) and the [samples](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.ColorPicker/preview).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.ColorPicker) and the [samples](https://sdk.openui5.org/sample/sap.ui.unified.sample.ColorPicker/preview).
 
 
 ***

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/067e2fb0165145a5ac9b128b5853f7c9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/067e2fb0165145a5ac9b128b5853f7c9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/067e2fb0165145a5ac9b128b5853f7c9) | [demo kit latest release](https://sdk.openui5.org/topic/067e2fb0165145a5ac9b128b5853f7c9)</div>
 
 ## What's New in OpenUI5 1.86
 
@@ -52,7 +52,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
     You can use it to determine the correct currency or unit value for the grand total, as well as subtotals. Note that the name provided for `unit` has to refer to a structural property as well as to a custom aggregate. The custom aggregate has to provide the single value of that unit if there is only one, or `null` if there is more than one distinct value.
 
--   New `grandTotalAtBottomOnly` and `subtotalsAtBottomOnly` properties in the `$$aggregation` list binding parameter. For more information, see [`sap.ui.model.odata.v4.ODataListBinding#setAggregation`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation).
+-   New `grandTotalAtBottomOnly` and `subtotalsAtBottomOnly` properties in the `$$aggregation` list binding parameter. For more information, see [`sap.ui.model.odata.v4.ODataListBinding#setAggregation`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation).
 -   You can now filter by properties that are not aggregated when using visual grouping, that is when having `groupLevels` defined in the `$$aggregation` list binding parameter.
 -   If the `$$patchWithoutSideEffects` binding parameter is set, `PATCH` requests are now sent out with the `return=minimal` preference in the [`Prefer` header](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234). This allows the server to skip the determination of the response.
 -   The `sap.ui.model.odata.v4.ODataListBinding#refresh` method can now handle several kept-alive contexts, and also a kept-alive context that has been deleted in the back end, for example due to a side effect. Note that refreshing dependent bindings relative to the context of a deleted entity will fail as that entity no longer exists.
@@ -60,7 +60,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
     A list binding context can be kept alive with the `sap.ui.model.odata.v4.Context#setKeepAlive` method introduced with OpenUI5 1.81.
 
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel) in the Demo Kit.
 
 
 
@@ -88,7 +88,7 @@ We have introduced two ways to set the text direction in the control:
 
 To set the text alignment for the DOM element of the control, you can now use the `textAlign` property.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.FormattedText) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.FormattedText).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.FormattedText) and the [Samples](https://sdk.openui5.org/entity/sap.m.FormattedText).
 
 
 
@@ -121,7 +121,7 @@ The colon symbol \(:\) is represented differently in different languages. In Ger
 
 **`sap.m.Select`**
 
-With the new experimental `columnRatio` property, you can now set a custom ratio of the columns when you're using a two-column layout for `sap.m.Select`.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Select) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Select/sample/sap.m.sample.Select2Columns).
+With the new experimental `columnRatio` property, you can now set a custom ratio of the columns when you're using a two-column layout for `sap.m.Select`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Select) and the [Sample](https://sdk.openui5.org/entity/sap.m.Select/sample/sap.m.sample.Select2Columns).
 
 
 
@@ -134,7 +134,7 @@ With the new experimental `columnRatio` property, you can now set a custom ratio
 
 In version 1.85.1 we have added the `Strict` value to the `fixedLayout` property. If this value is set, and the `width` property of `sap.m.Column` is not set to `auto` for any of the columns, the table renders a placeholder column that occupies the remaining width of the control to ensure the column width is strictly applied.
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table/methods/getFixedLayout) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableColumnWidth).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Table/methods/getFixedLayout) and the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.TableColumnWidth).
 
 
 
@@ -145,7 +145,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 **`sap.m.Title`**
 
-We have introduced the `textDirection` property, which is also available in the `sap.m.FormattedText`, `sap.m.Label`, and `sap.m.Text` controls. It allows you to set the text direction to right-to-left \(RTL\) or left-to-right \(LTR\) on a page with mixed-language content. This is important in cases where content from different-direction languages must be shown on the same page. Do not use the `textDirection` property on single-language pages where the direction is centrally determined depending on the language. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Title) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.m.Title).
+We have introduced the `textDirection` property, which is also available in the `sap.m.FormattedText`, `sap.m.Label`, and `sap.m.Text` controls. It allows you to set the text direction to right-to-left \(RTL\) or left-to-right \(LTR\) on a page with mixed-language content. This is important in cases where content from different-direction languages must be shown on the same page. Do not use the `textDirection` property on single-language pages where the direction is centrally determined depending on the language. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Title) and the [Samples](https://sdk.openui5.org/entity/sap.m.Title).
 
 
 
@@ -156,8 +156,8 @@ We have introduced the `textDirection` property, which is also available in the 
 
 **`sap.ui.integration.widgets.Card`**
 
--   We have introduced a text formatter for texts with placeholders. The text formatter takes a string that contains placeholders and puts values inside these placeholders. Typically the values are translation texts coming from an `i18n` resource bundle. The text formatter allows this replacement to be performed properly for different languages \(each with its own word order\). For more information, see the [Text Formatter](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/formatters/text) section in the Card Explorer.
--   Using the new `showLoadingPlaceholders` and `hideLoadingPlaceholders` methods you can now precisely control the loading-animation placeholders when using Component card or Extension. For example, as a card developer, you can show the loading-animation placeholder when requesting data and hide it when the data is available. These placeholders can be loaded on a section \(for example, `Header`, `Content`, or `Filters`\) or on the whole card. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.integration.widgets.Card) and the [Explore Extension](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension/namedDataSection) section in the Card Explorer.
+-   We have introduced a text formatter for texts with placeholders. The text formatter takes a string that contains placeholders and puts values inside these placeholders. Typically the values are translation texts coming from an `i18n` resource bundle. The text formatter allows this replacement to be performed properly for different languages \(each with its own word order\). For more information, see the [Text Formatter](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/formatters/text) section in the Card Explorer.
+-   Using the new `showLoadingPlaceholders` and `hideLoadingPlaceholders` methods you can now precisely control the loading-animation placeholders when using Component card or Extension. For example, as a card developer, you can show the loading-animation placeholder when requesting data and hide it when the data is available. These placeholders can be loaded on a section \(for example, `Header`, `Content`, or `Filters`\) or on the whole card. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card) and the [Explore Extension](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension/namedDataSection) section in the Card Explorer.
 
 
 
@@ -168,7 +168,7 @@ We have introduced the `textDirection` property, which is also available in the 
 
 **`sap.ui.layout.form.SemanticFormElement`**
 
-The `SemanticFormElement` element \(experimental\) now allows you to render semantically connected fields separately in edit mode. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.form.SemanticFormElement).
+The `SemanticFormElement` element \(experimental\) now allows you to render semantically connected fields separately in edit mode. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.form.SemanticFormElement).
 
 
 
@@ -179,7 +179,7 @@ The `SemanticFormElement` element \(experimental\) now allows you to render sema
 
 **`sap.ui.table.AnalyticalTable, sap.ui.table.Table, sap.ui.table.TreeTable`**
 
-The `rowsUpdated` event is now available so applications can find out about any updates in the tables they are using, for example, if there has been a model update or a user interaction that modified the rows. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table/events/rowsUpdated).
+The `rowsUpdated` event is now available so applications can find out about any updates in the tables they are using, for example, if there has been a model update or a user interaction that modified the rows. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.table.Table/events/rowsUpdated).
 
 
 

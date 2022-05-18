@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/15d84f36c0594cb2b3295aa1f55cb961)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/15d84f36c0594cb2b3295aa1f55cb961) | [demo kit latest release](https://sdk.openui5.org/topic/15d84f36c0594cb2b3295aa1f55cb961)</div>
 
 ## Step 1: The Initial App
 
@@ -32,7 +32,7 @@ The structure and data model created in this step will be used throughout this t
 
 ### Setup
 
-To set up your project for this tutorial, download the files at [OData V4 - Step 1](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.01/preview). Copy or import the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+To set up your project for this tutorial, download the files at [OData V4 - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.01/preview). Copy or import the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

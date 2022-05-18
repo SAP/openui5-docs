@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://sdk.openui5.org/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
 
 ## Step 15: Aggregation Binding Using a Factory Function
 
@@ -26,7 +26,7 @@ Instead of hard-coding a single template control, we use a factory function to g
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 15](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.15/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.15/preview).
 
 ***
 

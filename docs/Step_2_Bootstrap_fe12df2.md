@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://sdk.openui5.org/topic/fe12df2e338e43598977d09f3d191b7b)</div>
 
 ## Step 2: Bootstrap
 
@@ -26,7 +26,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.02/preview).
+You can view and download all files at [Walkthrough - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.02/preview).
 
 > ### Note:  
 > OpenUI5 is a JavaScript library that can either be loaded from the same Web server where the app resides, or from a different server. If OpenUI5 is deployed somewhere else on the server or you want to use a different server, then you need to adjust the corresponding paths in the bootstrap \(here: `src="/resources/sap-ui-core.js"`\) in this tutorial according to your own requirements.
@@ -47,7 +47,7 @@ You can view and download all files at [Walkthrough - Step 2](https://openui5.ha
 	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"

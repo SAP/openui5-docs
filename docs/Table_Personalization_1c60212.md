@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://sdk.openui5.org/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
 
 ## Table Personalization
 
@@ -230,13 +230,13 @@ A concrete implementation of the table personalization persistence service provi
 
 ### Sample
 
-For a detailed example of how table personalization works, see the [sample](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TablePerso/preview).
+For a detailed example of how table personalization works, see the [sample](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.TablePerso/preview).
 
 ***
 
 ### API Reference
 
--   [sap.m.TablePersoDialog](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TablePersoDialog.html)
--   [sap.m.TablePersoController](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TablePersoController.html)
--   [sap.m.TablePersoProvider](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TablePersoProvider.html)
+-   [sap.m.TablePersoDialog](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoDialog.html)
+-   [sap.m.TablePersoController](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoController.html)
+-   [sap.m.TablePersoProvider](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoProvider.html)
 

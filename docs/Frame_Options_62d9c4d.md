@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/62d9c4d8f5ad49aa914624af9551beb7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/62d9c4d8f5ad49aa914624af9551beb7) | [demo kit latest release](https://sdk.openui5.org/topic/62d9c4d8f5ad49aa914624af9551beb7)</div>
 
 ## Frame Options
 

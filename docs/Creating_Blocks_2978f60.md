@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2978f6064742456ebed31c5ccf4d051d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2978f6064742456ebed31c5ccf4d051d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2978f6064742456ebed31c5ccf4d051d) | [demo kit latest release](https://sdk.openui5.org/topic/2978f6064742456ebed31c5ccf4d051d)</div>
 
 ## Creating Blocks
 
@@ -84,5 +84,5 @@ Important points when creating blocks for the `sap.uxap.ObjectPageLayout`
 **Related Information**  
 
 
-[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#/api/sap.uxap.BlockBase)
+[API Reference: `sap.uxap.BlockBase`](https://sdk.openui5.org/api/sap.uxap.BlockBase)
 

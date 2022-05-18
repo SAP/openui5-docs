@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/38ff8c27b022475a92b591bcf6262551) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/38ff8c27b022475a92b591bcf6262551)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/38ff8c27b022475a92b591bcf6262551) | [demo kit latest release](https://sdk.openui5.org/topic/38ff8c27b022475a92b591bcf6262551)</div>
 
 ## Supported Combinations of Themes and Libraries
 

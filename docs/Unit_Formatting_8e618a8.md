@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8e618a8d93cb4f92adc911b96047eb8d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8e618a8d93cb4f92adc911b96047eb8d) | [demo kit latest release](https://sdk.openui5.org/topic/8e618a8d93cb4f92adc911b96047eb8d)</div>
 
 ## Unit Formatting
 
@@ -322,5 +322,5 @@ The third argument of the base Unit type constructor is a list of dynamic format
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)
+[API Reference: `sap.ui.core.format.NumberFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.NumberFormat.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fbe1cb5613cf4a40a841750bf813238e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fbe1cb5613cf4a40a841750bf813238e) | [demo kit latest release](https://sdk.openui5.org/topic/fbe1cb5613cf4a40a841750bf813238e)</div>
 
 ## Server Messages in the OData V4 Model
 
@@ -628,7 +628,7 @@ The attribute `technicalDetails.originalMessage` of the message in the message m
 
 The attribute `technicalDetails.httpStatus` of an error message in the message model provides the numerical HTTP status code of the corresponding back-end request that failed.
 
--   In case of a 412 \("Precondition Failed"\) status code, additionally `technicalDetails.isConcurrentModification` is set to `true`, as in the case of  [sap.ui.model.odata.v4.Context\#delete](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/delete), which also uses this flag for the error instance that is used to reject its returned promise.
+-   In case of a 412 \("Precondition Failed"\) status code, additionally `technicalDetails.isConcurrentModification` is set to `true`, as in the case of  [sap.ui.model.odata.v4.Context\#delete](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/delete), which also uses this flag for the error instance that is used to reject its returned promise.
 -   In case of a 503 \("Service Unavailable"\) status code, `technicalDetails.retryAfter` is set to an absolute `Date` value corresponding to the value of the ["Retry-After" HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After), no matter if that header value is an HTTP date or a delay in seconds.
 
 ***
@@ -637,7 +637,7 @@ The attribute `technicalDetails.httpStatus` of an error message in the message m
 
 ### Highlighting Table Rows with Messages
 
-To highlight table rows based on the criticality of the messages for that entity a formatter in controller code is needed. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippets demonstrate binding and formatter:
+To highlight table rows based on the criticality of the messages for that entity a formatter in controller code is needed. The `highlight` property of a table row is bound to the collection of messages in the message model and the entity displayed in the row. These binding parts are required to ensure that the formatter is called whenever a change occurs. The formatter itself calls the [`sap.ui.model.Context#getMessages`](https://sdk.openui5.org/api/sap.ui.model.Context/methods/getMessages) method, which returns the messages sorted by severity. The following code snippets demonstrate binding and formatter:
 
 > ### Example:  
 > Highlight a table row

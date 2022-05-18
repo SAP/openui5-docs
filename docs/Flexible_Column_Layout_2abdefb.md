@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2abdefbe3c184d79b46cbeb0f22d764d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2abdefbe3c184d79b46cbeb0f22d764d) | [demo kit latest release](https://sdk.openui5.org/topic/2abdefbe3c184d79b46cbeb0f22d764d)</div>
 
 ## Flexible Column Layout
 
@@ -32,5 +32,5 @@ The `FlexibleColumnLayout` control provides the `stateChange` event.
 **Related Information**  
 
 
-[API Reference: `sap.f.FlexibleColumnLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.FlexibleColumnLayout.html)
+[API Reference: `sap.f.FlexibleColumnLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.f.FlexibleColumnLayout.html)
 

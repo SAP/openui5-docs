@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6b741a6133284bd78e897cef8b75f6d9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6b741a6133284bd78e897cef8b75f6d9) | [demo kit latest release](https://sdk.openui5.org/topic/6b741a6133284bd78e897cef8b75f6d9)</div>
 
 ## Keyboard Handling for OpenUI5 UI Elements
 

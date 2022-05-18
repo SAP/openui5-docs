@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cddf7e54277446a4a35c9fd9285da009)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cddf7e54277446a4a35c9fd9285da009) | [demo kit latest release](https://sdk.openui5.org/topic/cddf7e54277446a4a35c9fd9285da009)</div>
 
 ## Passing Data when Navigating
 
@@ -37,7 +37,7 @@ When you navigate back to a page, it receives the original data object which has
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.org/api/sap.m.NavContainer)
 
-[API Reference: `sap.m.NavContainerChild`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainerChild)
+[API Reference: `sap.m.NavContainerChild`](https://sdk.openui5.org/api/sap.m.NavContainerChild)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef860fc989764439957c6446ecebd7ec)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ef860fc989764439957c6446ecebd7ec) | [demo kit latest release](https://sdk.openui5.org/topic/ef860fc989764439957c6446ecebd7ec)</div>
 
 ## Facet Filter Selection
 

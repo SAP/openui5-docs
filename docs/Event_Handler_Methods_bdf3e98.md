@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bdf3e9818cd84d37a18ee5680e97e1c1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bdf3e9818cd84d37a18ee5680e97e1c1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bdf3e9818cd84d37a18ee5680e97e1c1) | [demo kit latest release](https://sdk.openui5.org/topic/bdf3e9818cd84d37a18ee5680e97e1c1)</div>
 
 ## Event Handler Methods
 
@@ -33,7 +33,7 @@ onsapnext: function(events) {
 **Related Information**  
 
 
-[API Reference: `ControlEvents`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FControlEvents)
+[API Reference: `ControlEvents`](https://sdk.openui5.org/api/module%3Asap%2Fui%2Fevents%2FControlEvents)
 
-[API Reference: `PseudoEvents`](https://openui5.hana.ondemand.com/#/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events)
+[API Reference: `PseudoEvents`](https://sdk.openui5.org/api/module%3Asap%2Fui%2Fevents%2FPseudoEvents.events)
 

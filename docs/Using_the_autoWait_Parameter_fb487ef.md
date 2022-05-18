@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://sdk.openui5.org/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
 
 ## Using the `autoWait` Parameter
 
@@ -137,7 +137,7 @@ oOpa.waitFor({
 
 [Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md "Tips and tricks if OPA isn't behaving or reacting the way you expect it to.")
 
-[API Reference: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html)
+[API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html)
 
-[Samples: `sap.ui.test.Opa5`](https://openui5.hana.ondemand.com/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
 

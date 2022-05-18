@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/44062441f3bd4c67a4f665ae362d1109) | [demo kit latest release](https://sdk.openui5.org/topic/44062441f3bd4c67a4f665ae362d1109)</div>
 
 ## Step 25: Remote OData Service
 
@@ -34,7 +34,7 @@ In the real world, data often resides on remote servers and is accessed via an O
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 25](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.25/preview).
+You can view and download all files at [Walkthrough - Step 25](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.25/preview).
 
 ```js
 {
@@ -111,7 +111,7 @@ Due to the so called same-origin policy, browsers deny AJAX requests to service 
 
 [OData Home Page](http://www.odata.org/)
 
-[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
 
 [First-Aid Kit](First_Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.")
 

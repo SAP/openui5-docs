@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://sdk.openui5.org/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
 
 ## Creating Tables
 
@@ -196,6 +196,6 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 **API References**
 
--   [sap.m.Column](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Column.html)
--   [sap.m.ColumnListItem](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.ColumnListItem.html)
+-   [sap.m.Column](https://sdk.openui5.orgdocs/api/symbols/sap.m.Column.html)
+-   [sap.m.ColumnListItem](https://sdk.openui5.orgdocs/api/symbols/sap.m.ColumnListItem.html)
 

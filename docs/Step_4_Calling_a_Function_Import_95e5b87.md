@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/95e5b87804ef4059bb68dd511666d4e3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/95e5b87804ef4059bb68dd511666d4e3) | [demo kit latest release](https://sdk.openui5.org/topic/95e5b87804ef4059bb68dd511666d4e3)</div>
 
 ## Step 4: Calling a Function Import
 
@@ -26,7 +26,7 @@ We only want to display the upcoming meetings and hide the meetings happened in 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.mockserver.04/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.04/preview).
 
 ***
 

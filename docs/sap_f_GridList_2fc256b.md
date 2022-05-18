@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2fc256be1b4649048b125320628e12f0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2fc256be1b4649048b125320628e12f0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2fc256be1b4649048b125320628e12f0) | [demo kit latest release](https://sdk.openui5.org/topic/2fc256be1b4649048b125320628e12f0)</div>
 
 ## sap.f.GridList
 
@@ -64,7 +64,7 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
 **Related Information**  
 
 
-[API Reference: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/api/symbols/sap.f.GridList)
+[API Reference: `sap.f.GridList`](https://sdk.openui5.org/api/symbols/sap.f.GridList)
 
-[Samples: `sap.f.GridList`](https://openui5.hana.ondemand.com/#/entity/sap.f.GridList)
+[Samples: `sap.f.GridList`](https://sdk.openui5.org/entity/sap.f.GridList)
 

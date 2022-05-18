@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/eded636b85584cd586b1fe231d2b5dac)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/eded636b85584cd586b1fe231d2b5dac) | [demo kit latest release](https://sdk.openui5.org/topic/eded636b85584cd586b1fe231d2b5dac)</div>
 
 ## JavaScript Coding Guidelines
 
@@ -14,7 +14,7 @@ Provides an overview of the guidelines for JavaScript coding for OpenUI5 with re
 
 For JavaScript, the following **general** guidelines apply:
 
--   Do **not** use global JavaScript variables; organize all global objects in an `sap.*` namespace structure. The module `sap/base/util/ObjectPath` assists in doing so. For more information, see [JavaScript Namespaces](JavaScript_Namespaces_5a978fe.md) and [API Reference: `jQuery.sap.getObject`](https://openui5.hana.ondemand.com/#/api/jQuery.sap/methods/jQuery.sap.getObject). 
+-   Do **not** use global JavaScript variables; organize all global objects in an `sap.*` namespace structure. The module `sap/base/util/ObjectPath` assists in doing so. For more information, see [JavaScript Namespaces](JavaScript_Namespaces_5a978fe.md) and [API Reference: `jQuery.sap.getObject`](https://sdk.openui5.org/api/jQuery.sap/methods/jQuery.sap.getObject). 
 
     This also means: Do **not** use undeclared variables. When using global variables introduced by other libraries, declare the use in a special global comment: `/*global JSZip, OpenAjax */`.
 

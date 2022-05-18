@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3853db3bc8da4936ae4ef60c39b30699) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3853db3bc8da4936ae4ef60c39b30699)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3853db3bc8da4936ae4ef60c39b30699) | [demo kit latest release](https://sdk.openui5.org/topic/3853db3bc8da4936ae4ef60c39b30699)</div>
 
 ## Screen Reader Support for OpenUI5 Controls
 

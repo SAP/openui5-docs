@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://sdk.openui5.org/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
 
 ## Step 8: Translatable Texts
 
@@ -29,7 +29,7 @@ This way, they are all in a central place and can be easily translated into othe
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.08/preview).
+You can view and download all files at [Walkthrough - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.08/preview).
 
 ```ini
 showHelloButtonText=Say Hello
@@ -142,7 +142,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 
 [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of a control to language-dependent resource bundle properties.")
 
-[API Reference: `sap/base/i18n/ResourceBundle`](https://openui5.hana.ondemand.com/#/api/module:sap/base/i18n/ResourceBundle)
+[API Reference: `sap/base/i18n/ResourceBundle`](https://sdk.openui5.org/api/module:sap/base/i18n/ResourceBundle)
 
-[API Reference: `sap.ui.model.resource.ResourceModel`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.resource.ResourceModel.html)
+[API Reference: `sap.ui.model.resource.ResourceModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.resource.ResourceModel.html)
 

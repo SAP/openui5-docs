@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://sdk.openui5.org/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
 
 ## Step 11: Pages and Panels
 
@@ -26,7 +26,7 @@ After all the work on the app structure it’s time to improve the look of our a
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 11](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.11/preview).
+You can view and download all files at [Walkthrough - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.11/preview).
 
 ```xml
 <mvc:View
@@ -97,11 +97,11 @@ We add new key/value pairs to our text bundle for the start page title and the p
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.NavContainer.html)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.m.NavContainer.html)
 
-[Samples: `sap.m.NavContainer` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.NavContainer/samples)
+[Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/explored.html#/entity/sap.m.NavContainer/samples)
 
-[API Reference: `sap.m.Page`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Page.html)
+[API Reference: `sap.m.Page`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Page.html)
 
-[Samples: `sap.m.Page` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Page/samples)
+[Samples: `sap.m.Page` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Page/samples)
 

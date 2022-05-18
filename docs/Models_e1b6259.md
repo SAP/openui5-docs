@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e1b625940c104b558e52f47afe5ddb4f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e1b625940c104b558e52f47afe5ddb4f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e1b625940c104b558e52f47afe5ddb4f) | [demo kit latest release](https://sdk.openui5.org/topic/e1b625940c104b558e52f47afe5ddb4f)</div>
 
 ## Models
 
@@ -76,5 +76,5 @@ The default binding mode applies when a model instance is created. You can overw
 **Related Information**  
 
 
-[API Reference: `sap.ui.model`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.html)
+[API Reference: `sap.ui.model`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html)
 

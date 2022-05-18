@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://sdk.openui5.org/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
 
 ## SAPUI5 vs. OpenUI5
 
@@ -59,7 +59,7 @@ For the OpenUI5 version, visit [http://openui5.org/](http://openui5.org/) where 
 
 For the SAPUI5 resources, check your platform installation.
 
-Both resources are also available online via the content delivery network provider Akamai at `https://openui5.hana.ondemand.com/` and `https://ui5.sap.com/`.
+Both resources are also available online via the content delivery network provider Akamai at `https://sdk.openui5.org/` and `https://sdk.openui5.org/`.
 
 ***
 
@@ -69,7 +69,7 @@ Technically, you can switch between OpenUI5 and SAPUI5 \(provided you have a pro
 
 Just check first which SAPUI5 version you need, because the version numbers of OpenUI5 and SAPUI5 might differ on patch level \(last number\). You can find this information in the technical information dialog \( [Ctrl\] + [Alt\] + [Shift\] + [P\] \).
 
-If you're using the content delivery network, you can simply replace the bootstrapping reference to `https://openui5.hana.ondemand.com/<1.xx.yy>/` with a reference to `https://ui5.sap.com/<1.xx.zz>/`. For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+If you're using the content delivery network, you can simply replace the bootstrapping reference to `https://sdk.openui5.org/<1.xx.yy>/` with a reference to `https://sdk.openui5.org/<1.xx.zz>/`. For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
 For all other cases, replace the runtime. Since the technical names \(of controls, libraries, etc.\) and APIs are the same in both OpenUI5 and SAPUI5, the code will still work and you can start enhancing it directly.
 

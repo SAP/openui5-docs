@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bda141b86c464e5bad7c0a0cc9dee753) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bda141b86c464e5bad7c0a0cc9dee753)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bda141b86c464e5bad7c0a0cc9dee753) | [demo kit latest release](https://sdk.openui5.org/topic/bda141b86c464e5bad7c0a0cc9dee753)</div>
 
 ## What's New in OpenUI5 1.88
 
@@ -52,7 +52,7 @@ We have improved the following Demo Kit areas:
 
 -   You can now choose to view the whole Demo Kit app in dark or light mode. We have added an *Appearance* setting in the *More Information* menu. If you choose Auto, the mode is based on your OS settings.
 
--   We have improved the readability of the *Known direct subclasses* popover in the *API Reference*. The subclasses are displayed in a list with only one item per row. It is now easier to browse through the numerous subclasses of base controls, such as `sap.ui.core.Control`.Check it out in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control).
+-   We have improved the readability of the *Known direct subclasses* popover in the *API Reference*. The subclasses are displayed in a list with only one item per row. It is now easier to browse through the numerous subclasses of base controls, such as `sap.ui.core.Control`.Check it out in the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Control).
 
 -   You can now use the new  [Ctrl\] + [Shift\] + [F\]  shortcut combination to directly enable the global search functionality and start typing without the need to select the search field.
 
@@ -82,7 +82,7 @@ Empty states are moments in the user experience where there’s no data to displ
 
 ![](images/loio46b68bf7ca8244abba196f9f15eb7c6c_HiRes.png)
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.IllustratedMessage) and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.f.IllustratedMessage).
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.IllustratedMessage) and the [Samples](https://sdk.openui5.org/entity/sap.f.IllustratedMessage).
 
 
 
@@ -103,7 +103,7 @@ For more information, see the [API Reference](https://openui5.hana.ondemand.com/
 
 **OpenUI5 Models**
 
-The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPath` method, which provides the resolved path for a binding's path and context. The method can be used with all bindings. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.Binding/methods/getResolvedPath).
+The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPath` method, which provides the resolved path for a binding's path and context. The method can be used with all bindings. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.Binding/methods/getResolvedPath).
 
 
 
@@ -116,7 +116,7 @@ The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPat
 
 If you use a list binding for an OData V4 model and have specified a list of groupable properties in the `groupLevels` array of the `$$aggregation` list binding parameter, you can now use the `sap.ui.model.odata.v4.ODataListBinding#getDownloadUrl` method to obtain the URL for the leaf level data.
 
-For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
+For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [Samples](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel).
 
 
 
@@ -148,7 +148,7 @@ We've introduced the option to generate code snippets with assertions. Assertion
 
 **`sap.f.GridContainer`**
 
-We have added a new `columnsChange` event, fired when the count of grid columns changes. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.f.GridContainer) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainer).
+We have added a new `columnsChange` event, fired when the count of grid columns changes. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.GridContainer) and the [Sample](https://sdk.openui5.org/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainer).
 
 
 
@@ -161,7 +161,7 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 
 We have improved the usability of the Gantt chart with the large interval/label always visible on the time axis.
 
- For more information, see the [API Reference](https://openui5.hana.ondemand.com/sdk/#/api/sap.gantt.misc.AxisTime) and the [Sample](https://openui5.hana.ondemand.com/sdk/#/entity/sap.gantt.simple.GanttChartWithTable). 
+ For more information, see the [API Reference](https://sdk.openui5.org/sdk/#/api/sap.gantt.misc.AxisTime) and the [Sample](https://sdk.openui5.org/sdk/#/entity/sap.gantt.simple.GanttChartWithTable). 
 
 
 
@@ -174,7 +174,7 @@ We have improved the usability of the Gantt chart with the large interval/label 
 
 As of the SAPUI5 1.88 release, the Upload Collection control is deprecated. You can use the Upload Set \(`sap.m.upload.UploadSet`\) control that has better handling of headers and requests, unified behavior of instant and deferred uploads, as well as improved progress indication.
 
- For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.upload.UploadSet). 
+ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.upload.UploadSet). 
 
 
 
@@ -185,10 +185,10 @@ As of the SAPUI5 1.88 release, the Upload Collection control is deprecated. You 
 
 **`sap.ui.integration.widgets.Card`**
 
--   To improve the loading performance of Integration cards, we have added a new `Auto` value to the `dataMode` \(experimental\) property. It sets the card to start the manifest processing only when the card is in the viewport. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.integration.widgets.Card/sample/sap.ui.integration.sample.LazyLoading) and the [Integrate](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/api) section in the Card Explorer.
--   In Calendar card, using the new `actions` \(experimental\) property, you can now define an action for each calendar item. A possible use case is when you want to provide a link for an online event or application. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/calendar/calendar) and the [Calendar Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/calendar) section in the Card Explorer.
+-   To improve the loading performance of Integration cards, we have added a new `Auto` value to the `dataMode` \(experimental\) property. It sets the card to start the manifest processing only when the card is in the viewport. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.integration.widgets.Card/sample/sap.ui.integration.sample.LazyLoading) and the [Integrate](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/api) section in the Card Explorer.
+-   In Calendar card, using the new `actions` \(experimental\) property, you can now define an action for each calendar item. A possible use case is when you want to provide a link for an online event or application. For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/calendar/calendar) and the [Calendar Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/calendar) section in the Card Explorer.
 
--   Actions can now also be used as column entries in the Table card and as group entries in the Object card. For more information, see the [Table Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/table) and the [Object Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/object) sections in the Card Explorer
+-   Actions can now also be used as column entries in the Table card and as group entries in the Object card. For more information, see the [Table Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/table) and the [Object Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/object) sections in the Card Explorer
 
 
 
@@ -200,7 +200,7 @@ As of the SAPUI5 1.88 release, the Upload Collection control is deprecated. You 
 
 **`sap.ui.unified.Currency`**
 
-As an app developer you can now define custom currency names with a length of up to 5 symbols and values with a larger number of digits after the decimal point. If not explicitly set, the default maximal precision is decided based on the number of digits after the decimal point. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.unified.Currency/sample/sap.ui.unified.sample.Currency).
+As an app developer you can now define custom currency names with a length of up to 5 symbols and values with a larger number of digits after the decimal point. If not explicitly set, the default maximal precision is decided based on the number of digits after the decimal point. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.unified.Currency/sample/sap.ui.unified.sample.Currency).
 
 
 

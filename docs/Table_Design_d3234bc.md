@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d3234bc1b7b64af99a3d6990039f7eed)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d3234bc1b7b64af99a3d6990039f7eed) | [demo kit latest release](https://sdk.openui5.org/topic/d3234bc1b7b64af99a3d6990039f7eed)</div>
 
 ## Table Design
 
@@ -64,7 +64,7 @@ The described pop-in design is provided by a table by default. However, you can 
 
  ![](images/loio4b33c442ffda4e69b1fa5d14f2723921_LowRes.png) 
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.Table). Use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.Table). Use the `ComboBox` control provided in the table toolbar to switch between the different pop-in layouts and see the visual differences.
 
 ***
 

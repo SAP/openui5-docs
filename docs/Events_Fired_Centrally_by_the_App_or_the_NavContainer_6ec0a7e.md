@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6ec0a7e1d3c64412a673b7dabe28c02b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6ec0a7e1d3c64412a673b7dabe28c02b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6ec0a7e1d3c64412a673b7dabe28c02b) | [demo kit latest release](https://sdk.openui5.org/topic/6ec0a7e1d3c64412a673b7dabe28c02b)</div>
 
 ## Events Fired Centrally by the App or the NavContainer
 
@@ -27,7 +27,7 @@ app.attachNavigate(function(evt) {
 **Related Information**  
 
 
-[API Reference event: `afterNavigate`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/afterNavigate)
+[API Reference event: `afterNavigate`](https://sdk.openui5.org/api/sap.m.NavContainer/events/afterNavigate)
 
-[API Reference event: `navigate`](https://openui5.hana.ondemand.com/#/api/sap.m.NavContainer/events/navigate)
+[API Reference event: `navigate`](https://sdk.openui5.org/api/sap.m.NavContainer/events/navigate)
 

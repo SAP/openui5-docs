@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/23b9c779c2274213a281c1fc46b4962b) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/23b9c779c2274213a281c1fc46b4962b)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/23b9c779c2274213a281c1fc46b4962b) | [demo kit latest release](https://sdk.openui5.org/topic/23b9c779c2274213a281c1fc46b4962b)</div>
 
 ## Fragments with Multiple Root Nodes
 

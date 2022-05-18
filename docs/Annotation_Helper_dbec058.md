@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/dbec058964f545e4bb3b7e9fbaa0602d) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/dbec058964f545e4bb3b7e9fbaa0602d)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/dbec058964f545e4bb3b7e9fbaa0602d) | [demo kit latest release](https://sdk.openui5.org/topic/dbec058964f545e4bb3b7e9fbaa0602d)</div>
 
 ## Annotation Helper
 
@@ -149,7 +149,7 @@ The following helper functions can be used with `<template:with>`:
 **Related Information**  
 
 
-[sap.ui.model.odata.AnnotationHelper](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.AnnotationHelper.html)
+[sap.ui.model.odata.AnnotationHelper](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.AnnotationHelper.html)
 
 [OData Version 4.0](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)
 

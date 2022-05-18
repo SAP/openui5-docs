@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e61ab6c68a2480eb666c1927a707658)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://sdk.openui5.org/topic/2e61ab6c68a2480eb666c1927a707658)</div>
 
 ## Object Page Layout
 
@@ -290,11 +290,11 @@ The `ObjectPageLayout` control ensures that only the visible blocks and those ne
 
 [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md "The object page offers different ways to handle specific scrolling scenarios.")
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageLayout)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.org/api/sap.uxap.ObjectPageLayout)
 
-[API Reference: `sap.uxap.ObjectPageSection`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageSection)
+[API Reference: `sap.uxap.ObjectPageSection`](https://sdk.openui5.org/api/sap.uxap.ObjectPageSection)
 
-[API Reference: `sap.uxap.ObjectPageSubSection`](https://openui5.hana.ondemand.com/#/api/sap.uxap.ObjectPageSubSection)
+[API Reference: `sap.uxap.ObjectPageSubSection`](https://sdk.openui5.org/api/sap.uxap.ObjectPageSubSection)
 
-[API Reference: `sap.uxap.BlockBase`](https://openui5.hana.ondemand.com/#/api/sap.uxap.BlockBase)
+[API Reference: `sap.uxap.BlockBase`](https://sdk.openui5.org/api/sap.uxap.BlockBase)
 

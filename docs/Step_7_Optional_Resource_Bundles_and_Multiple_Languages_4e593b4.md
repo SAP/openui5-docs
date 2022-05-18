@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://sdk.openui5.org/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
 
 ## Step 7: \(Optional\) Resource Bundles and Multiple Languages
 
@@ -26,7 +26,7 @@ The reason we have resource bundles is to allow an app to run in multiple langua
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.07/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.07/preview).
 
 ***
 
@@ -80,7 +80,7 @@ sap.ui.require([
 		// * "" - according to the fallback chain, the root bundle is the last fallback
 		//   which means that if "de" was requested here, the root bundle would never be loaded.
 		//   Configuring it explicitly avoids side effects when additional resource files are added.
-		// @see https://ui5.sap.com/#/topic/ec753bc539d748f689e3ac814e129563
+		// @see https://sdk.openui5.org/topic/ec753bc539d748f689e3ac814e129563
 		var oResourceModel = new ResourceModel({
 			bundleName: "sap.ui.demo.db.i18n.i18n",
 			supportedLocales: ["", "de"],

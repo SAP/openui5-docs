@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/26ba6a5c1e5c417f8b21cce1411dba2c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/26ba6a5c1e5c417f8b21cce1411dba2c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/26ba6a5c1e5c417f8b21cce1411dba2c) | [demo kit latest release](https://sdk.openui5.org/topic/26ba6a5c1e5c417f8b21cce1411dba2c)</div>
 
 ## Manifest Model Preload
 
@@ -44,9 +44,9 @@ This means: The preload flag only makes sense for models which load their data f
 
 Before enabling the preload for the OData model \(V2 or V4\), make sure that you listen properly to metadata loaded by using the `Promise` API instead of the `Event` API \(`metadataLoaded`\), since the preload could have loaded the metadata already before the application code is executed. The Promise will be executed even if the metadata loaded event has been raised already.
 
-For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.ODataModel). 
+For the OData V2 model, also consider using the model parameter `earlyTokenRequest`. For more information, see the [API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel). 
 
-For the OData V4 model, set the model parameter `earlyRequests` to `true`, so that the root metadata and security token are requested directly after creating the model instance. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel). 
+For the OData V4 model, set the model parameter `earlyRequests` to `true`, so that the root metadata and security token are requested directly after creating the model instance. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel). 
 
 Listen properly to metadata loaded by using the Promise:
 

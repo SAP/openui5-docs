@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/958ead51e2e94ab8bcdc90fb7e9d53d0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/958ead51e2e94ab8bcdc90fb7e9d53d0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/958ead51e2e94ab8bcdc90fb7e9d53d0) | [demo kit latest release](https://sdk.openui5.org/topic/958ead51e2e94ab8bcdc90fb7e9d53d0)</div>
 
 ## Components
 
@@ -21,7 +21,7 @@ OpenUI5 provides the following two types of components:
 
 -   Faceless components \(class: `sap.ui.core.Component`\)
 
-    Faceless components do **not** have a user interface and are used for coding where no UI elements are needed. Please consider that a faceless component can't be added to a `ComponentContainer`. For more information, see the API Reference: [`sap.ui.core.ComponentContainer`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer%23associations).
+    Faceless components do **not** have a user interface and are used for coding where no UI elements are needed. Please consider that a faceless component can't be added to a `ComponentContainer`. For more information, see the API Reference: [`sap.ui.core.ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer%23associations).
 
 -   UI components \(class: `sap.ui.core.UIComponent`\)
 
@@ -96,5 +96,5 @@ Advanced concepts for components include routing and navigation and component da
 
 [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[API Reference: `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Component.html)
+[API Reference: `sap.ui.core.Component`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Component.html)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://sdk.openui5.org/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
 
 ## Formatting, Parsing, and Validating Data
 
@@ -111,7 +111,7 @@ For simple data types, you can generate the following parameters in the construc
 > ### Note:  
 > This sample uses `core:require` to ensure the type module is imported and to enable the use of the short type name `Integer` instead of the full name in the declaration of data binding. For more information, see [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md).
 
-For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.type/overview). 
+For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`](https://sdk.openui5.org/api/sap.ui.model.type/overview). 
 
 ***
 
@@ -119,7 +119,7 @@ For a complete list of all simple types, see [API Reference: `sap.ui.model.Type`
 
 These types support OData V2 and V4 including relevant property facets as constraints. The OData types represent the OData EDM primitive types. For more information, see [Primitive Data Types in the OData documentation](http://www.odata.org/documentation/odata-version-2-0/overview/).
 
-For a complete list of all OData types, see [API Reference: `sap.ui.model.odata.type`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.type). 
+For a complete list of all OData types, see [API Reference: `sap.ui.model.odata.type`](https://sdk.openui5.org/api/sap.ui.model.odata.type). 
 
 > ### Note:  
 > Also see the information on automatic type determination in OData V4 under [Type Determination](Type_Determination_53cdd55.md).

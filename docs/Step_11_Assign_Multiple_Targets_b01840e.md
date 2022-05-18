@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://sdk.openui5.org/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
 
 ## Step 11: Assign Multiple Targets
 
@@ -39,7 +39,7 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.11/preview) .
+You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.11/preview) .
 
    
   
@@ -492,7 +492,7 @@ Add the new texts to the `properties` file.
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.TargetHandler`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.TargetHandler.html)
+[API Reference: `sap.m.routing.TargetHandler`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.TargetHandler.html)
 
-[API Overview and Samples: `sap.ui.core.sample.PatternMatching` ](https://openui5.hana.ondemand.com/explored.html#/sap.ui.core.sample.PatternMatching/preview)
+[API Overview and Samples: `sap.ui.core.sample.PatternMatching` ](https://sdk.openui5.org/explored.html#/sap.ui.core.sample.PatternMatching/preview)
 

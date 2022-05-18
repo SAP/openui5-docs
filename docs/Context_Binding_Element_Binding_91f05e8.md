@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f05e8b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f05e8b6f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f05e8b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f05e8b6f4d1014b6dd926db0e91070)</div>
 
 ## Context Binding \(Element Binding\)
 
@@ -258,17 +258,17 @@ oList.bindElement("/regions/1");
 
 For more information, see the API Reference for the following methods:
 
--   [API Reference: `sap.ui.base.ManagedObject.bindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindObject).
+-   [API Reference: `sap.ui.base.ManagedObject.bindObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindObject).
 
--   [API Reference: `sap.ui.base.ManagedObject.getObjectBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/getObjectBinding).
+-   [API Reference: `sap.ui.base.ManagedObject.getObjectBinding`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/getObjectBinding).
 
--   [API Reference: `sap.ui.base.ManagedObject.unbindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/unbindObject).
+-   [API Reference: `sap.ui.base.ManagedObject.unbindObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/unbindObject).
 
--   [API Reference: `sap.ui.core.Element.bindElement`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/bindElement).
+-   [API Reference: `sap.ui.core.Element.bindElement`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/bindElement).
 
--   [API Reference: `sap.ui.core.Element.getElementBinding`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/getElementBinding).
+-   [API Reference: `sap.ui.core.Element.getElementBinding`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/getElementBinding).
 
--   [API Reference: `sap.ui.core.Element.unbindObject`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/unbindElement).
+-   [API Reference: `sap.ui.core.Element.unbindObject`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/unbindElement).
 
 
 **Related Information**  

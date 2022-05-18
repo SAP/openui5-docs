@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/47dc86847f7a426a8e557167cf523bda)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://sdk.openui5.org/topic/47dc86847f7a426a8e557167cf523bda)</div>
 
 ## Semantic Page \(sap.f\)
 
 The `sap.f.semantic.SemanticPage` is an enhanced `sap.f.DynamicPage` that implements the SAP Fiori 2.0 design guidelines.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.semantic.SemanticPage.html) and the [samples](https://openui5.hana.ondemand.com/explored.html#/entity/sap.f.semantic.SemanticPage/samples).
+For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.f.semantic.SemanticPage.html) and the [samples](https://sdk.openui5.org/explored.html#/entity/sap.f.semantic.SemanticPage/samples).
 
 ***
 
@@ -238,5 +238,5 @@ Adding custom \(non-semantic\) content
 **Related Information**  
 
 
-[API Reference: `sap.f.DynamicPage`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.f.DynamicPage.html)
+[API Reference: `sap.f.DynamicPage`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPage.html)
 

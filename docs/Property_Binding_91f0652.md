@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0652b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0652b6f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f0652b6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f0652b6f4d1014b6dd926db0e91070)</div>
 
 ## Property Binding
 
@@ -64,7 +64,7 @@ If you are working with **XML views**, make sure that you've turned on complex b
 
 <script
 	id="sap-ui-bootstrap"
-	src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+	src="https://sdk.openui5.org/resources/sap-ui-core.js"
 	data-sap-ui-theme="sap_belize"
 	data-sap-ui-bindingSyntax="complex"
 	data-sap-ui-async="true"
@@ -362,7 +362,7 @@ In the example above, two `Input` fields are created and their `value` property 
 
 [Data Binding Tutorial Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from model data.")
 
-[API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty)
+[API Reference: `sap.ui.base.ManagedObject.bindProperty`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindProperty)
 
 [Binding Syntax](Binding_Syntax_e2e6f41.md "You bind UI elements to data of a data source by defining a binding path to the model that represents the data source in the app.")
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ef2af4957fae469e9203e98006d3ee75)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ef2af4957fae469e9203e98006d3ee75) | [demo kit latest release](https://sdk.openui5.org/topic/ef2af4957fae469e9203e98006d3ee75)</div>
 
 ## Step 5: Batch Groups
 
@@ -30,7 +30,7 @@ In this step, we have a closer look at batch groups. Batch groups are used to gr
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 5](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.05/preview).
+You can view and download all files at [OData V4 - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.05/preview).
 
 ***
 

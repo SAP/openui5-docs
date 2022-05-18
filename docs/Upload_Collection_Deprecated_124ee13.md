@@ -6,14 +6,14 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/124ee13b03664b14b455630fb8171996)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/124ee13b03664b14b455630fb8171996) | [demo kit latest release](https://sdk.openui5.org/topic/124ee13b03664b14b455630fb8171996)</div>
 
 ## Upload Collection \(Deprecated\)
 
 `Upload Collection` is a list control for attachment management that provides the ability to upload, edit or delete attachments.
 
 > ### Caution:  
-> Deprecated as of version 1.88, replaced by [class sap.m.upload.UploadSet](https://openui5.hana.ondemand.com/sdk/#/api/sap.m.upload.UploadSet).
+> Deprecated as of version 1.88, replaced by [class sap.m.upload.UploadSet](https://sdk.openui5.org/sdk/#/api/sap.m.upload.UploadSet).
 
 The `UploadCollection` control allows users to upload single or multiple files from their devices \(desktop PC, tablet or phone\) to an app. Due to its responsiveness, the upload collection can be used in containers of different sizes.
 
@@ -119,7 +119,7 @@ The `UploadCollection` control can be used in the following scenarios:
 
 ### API Reference/Sample
 
-For more information, see the [API Reference](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.UploadCollection.html) and the [sample](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.UploadCollection/samples) in the Demo Kit.
+For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.UploadCollection.html) and the [sample](https://sdk.openui5.org/explored.html#/entity/sap.m.UploadCollection/samples) in the Demo Kit.
 
 ***
 
@@ -132,5 +132,5 @@ By using the `UploadCollection` control, you need to be aware of the following c
 -   The file name of an upload item can contain any text and special characters but not a URL.
 
 
-The `sap.m.UploadCollection` control uses the `sap.ui.unified.FileUploader` control and contains dependencies to this control. If you want to use the `UploadCollection` control, you need to be aware of these dependencies. For more information about the `FileUploader` control, see the [API Reference Documentation](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.unified.FileUploader.html). 
+The `sap.m.UploadCollection` control uses the `sap.ui.unified.FileUploader` control and contains dependencies to this control. If you want to use the `UploadCollection` control, you need to be aware of these dependencies. For more information about the `FileUploader` control, see the [API Reference Documentation](https://sdk.openui5.orgdocs/api/symbols/sap.ui.unified.FileUploader.html). 
 

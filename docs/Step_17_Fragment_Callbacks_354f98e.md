@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://sdk.openui5.org/topic/354f98ed2b514ba9960556333428d35e)</div>
 
 ## Step 17: Fragment Callbacks
 
@@ -26,7 +26,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 17](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.17/preview).
+You can view and download all files at [Walkthrough - Step 17](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.17/preview).
 
 ```js
 sap.ui.define([

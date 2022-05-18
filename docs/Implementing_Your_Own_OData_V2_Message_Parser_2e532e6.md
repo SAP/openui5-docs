@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/2e532e6288854e5897a819a2ab6cc910)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://sdk.openui5.org/topic/2e532e6288854e5897a819a2ab6cc910)</div>
 
 ## Implementing Your Own OData V2 Message Parser
 
@@ -28,9 +28,9 @@ The delta calculation must be a back end-specific implementation. In the OData i
 **Related Information**  
 
 
-[sap.ui.model.odata.ODataMessageParser](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.ODataMessageParser.html)
+[sap.ui.model.odata.ODataMessageParser](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.ODataMessageParser.html)
 
-[sap.ui.model.odata.v2.ODataModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
 
-[sap.ui.core.message.MessageParser](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.message.MessageParser.html)
+[sap.ui.core.message.MessageParser](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessageParser.html)
 

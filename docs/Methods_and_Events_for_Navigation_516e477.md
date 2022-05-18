@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/516e477e7e0b4e188b19a406e7528c1e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/516e477e7e0b4e188b19a406e7528c1e) | [demo kit latest release](https://sdk.openui5.org/topic/516e477e7e0b4e188b19a406e7528c1e)</div>
 
 ## Methods and Events for Navigation
 
@@ -139,7 +139,7 @@ This event is fired on the view/component cache in OpenUI5 routing which can be 
 
 [Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-[API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
+[API Reference: `sap.ui.core.routing`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.html)
 
-[API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
 

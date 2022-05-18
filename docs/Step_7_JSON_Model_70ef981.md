@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/70ef981d350a495b940640801701c409) | [demo kit latest release](https://sdk.openui5.org/topic/70ef981d350a495b940640801701c409)</div>
 
 ## Step 7: JSON Model
 
@@ -29,7 +29,7 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 7](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.07/preview).
+You can view and download all files at [Walkthrough - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.07/preview).
 
 ```js
 sap.ui.define([
@@ -105,7 +105,7 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_belize"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
@@ -148,5 +148,5 @@ The binding of the value attribute is a simple binding example that contains onl
 
 [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")
 
-[API Reference: `sap.ui.define`](https://openui5.hana.ondemand.com/#/api/sap.ui/methods/sap.ui.define)
+[API Reference: `sap.ui.define`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.define)
 

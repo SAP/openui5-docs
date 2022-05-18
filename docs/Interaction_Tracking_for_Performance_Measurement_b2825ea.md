@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b2825eabd7bb43d79b475fee4194c609)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://sdk.openui5.org/topic/b2825eabd7bb43d79b475fee4194c609)</div>
 
 ## Interaction Tracking for Performance Measurement
 
@@ -573,7 +573,7 @@ Time during which a `BusyIndicator` was rendered and hence blocking the UI durin
 **Related Information**  
 
 
-[API Reference: `sap/ui/performance/Measurement`](https://openui5.hana.ondemand.com/#/api/module:sap/ui/performance/Measurement)
+[API Reference: `sap/ui/performance/Measurement`](https://sdk.openui5.org/api/module:sap/ui/performance/Measurement)
 
 [Performance Measurement Using sap/ui/performance/Measurement Module](Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md "You can use sap/ui/performance/Measurement to measure the performance of your JavaScript code.")
 

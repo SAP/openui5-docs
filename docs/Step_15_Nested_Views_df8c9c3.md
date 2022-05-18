@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://sdk.openui5.org/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
 
 ## Step 15: Nested Views
 
@@ -27,7 +27,7 @@ Our panel content is getting more and more complex and now it is time to move th
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 15](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.15/preview).
+You can view and download all files at [Walkthrough - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.15/preview).
 
 ```xml
 <mvc:View

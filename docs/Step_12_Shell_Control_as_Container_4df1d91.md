@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4df1d914e52d4b1aa0805eb01522537e) | [demo kit latest release](https://sdk.openui5.org/topic/4df1d914e52d4b1aa0805eb01522537e)</div>
 
 ## Step 12: Shell Control as Container
 
@@ -26,7 +26,7 @@ Now we use a shell control as container for our app and use it as our new root e
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 12](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
+You can view and download all files at [Walkthrough - Step 12](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
 
 ```xml
 <mvc:View
@@ -79,5 +79,5 @@ There are further options to customize the shell, like setting a custom backgrou
 **Related Information**  
 
 
-[API Reference: `sap.m.Shell`](https://openui5.hana.ondemand.com/#/api/sap.m.Shell)
+[API Reference: `sap.m.Shell`](https://sdk.openui5.org/api/sap.m.Shell)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d12d2ee6a5454d799358d425f9e7c4db) | [demo kit latest release](https://sdk.openui5.org/topic/d12d2ee6a5454d799358d425f9e7c4db)</div>
 
 ## Step 33: Custom Controls
 
@@ -26,7 +26,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 33](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.walkthrough.33/preview).
+You can view and download all files at [Walkthrough - Step 33](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.33/preview).
 
 ```js
 sap.ui.define([
@@ -330,21 +330,21 @@ The resource bundle is extended with the confirmation message and the strings th
 
 [Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md "Control metadata consists of properties, events, as well as aggregations and associations.")
 
-[API Reference: `sap.m.RatingIndicator`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.RatingIndicator.html)
+[API Reference: `sap.m.RatingIndicator`](https://sdk.openui5.orgdocs/api/symbols/sap.m.RatingIndicator.html)
 
-[Samples: `sap.m.RatingIndicator` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.RatingIndicator/samples)
+[Samples: `sap.m.RatingIndicator` ](https://sdk.openui5.org/explored.html#/entity/sap.m.RatingIndicator/samples)
 
-[API Reference: `sap.m.Label`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Label.html)
+[API Reference: `sap.m.Label`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Label.html)
 
-[Samples: `sap.m.Label` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Label/samples)
+[Samples: `sap.m.Label` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Label/samples)
 
-[API Reference: `sap.m.Button`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.Button.html)
+[API Reference: `sap.m.Button`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Button.html)
 
-[Samples: `sap.m.Button` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.Button/samples)
+[Samples: `sap.m.Button` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Button/samples)
 
-[API Reference: `sap.ui.core.Control`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Control.html)
+[API Reference: `sap.ui.core.Control`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Control.html)
 
-[API Reference: `sap.ui.core.Element`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.Element.html)
+[API Reference: `sap.ui.core.Element`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Element.html)
 
-[API Reference: `sap.ui.base.ManagedObject`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.base.ManagedObject.html)
+[API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.ManagedObject.html)
 

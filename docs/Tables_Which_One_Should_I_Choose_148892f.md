@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/148892ff9aea4a18b912829791e38f3e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://sdk.openui5.org/topic/148892ff9aea4a18b912829791e38f3e)</div>
 
 ## Tables: Which One Should I Choose?
 
@@ -26,28 +26,28 @@ The libraries provided by OpenUI5 contain various different table controls that 
 </th>
 <th valign="top">
 
-Responsive Table [\(sap.m.Table\)](https://openui5.hana.ondemand.com/#/api/sap.m.Table) 
+Responsive Table [\(sap.m.Table\)](https://sdk.openui5.org/api/sap.m.Table) 
 
 
 
 </th>
 <th valign="top">
 
-Grid Table [\(sap.ui.table.Table\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.Table) 
+Grid Table [\(sap.ui.table.Table\)](https://sdk.openui5.org/api/sap.ui.table.Table) 
 
 
 
 </th>
 <th valign="top">
 
-Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.AnalyticalTable) 
+Analytical Table [\(sap.ui.table.AnalyticalTable\)](https://sdk.openui5.org/api/sap.ui.table.AnalyticalTable) 
 
 
 
 </th>
 <th valign="top">
 
-Tree Table [\(sap.ui.table.TreeTable\)](https://openui5.hana.ondemand.com/#/api/sap.ui.table.TreeTable) 
+Tree Table [\(sap.ui.table.TreeTable\)](https://sdk.openui5.org/api/sap.ui.table.TreeTable) 
 
 
 
@@ -693,7 +693,7 @@ Column-based
 
 1\) `Text`, `Label`, `ObjectStatus`, `Icon`, `Button`, `Input`, `DatePicker`, `Select`, `ComboBox`, `MultiComboBox`, `CheckBox`, `Link`, `Currency`, `RatingIndicator`, `ProgressIndicator`; To keep the control height always stable, the `wrapping` and `renderWhitespace` properties in the `sap.m.Text` control, for example, must be set to `false`. For more information, search for cell level in the  [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/).
 
-2\) To optimize perfomance, we recommend to show no more than 200 items at once in the responsive table. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure the user can filter the data. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Table) for the growing\* properties. 
+2\) To optimize perfomance, we recommend to show no more than 200 items at once in the responsive table. For a larger number of items \(up to 1000\), use the growing feature to limit the number of displayed items and make sure the user can filter the data. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Table) for the growing\* properties. 
 
 > ### Caution:  
 > The limits mentioned are only recommendations. For a specific app context, the actual number of manageable items might be higher or lower.

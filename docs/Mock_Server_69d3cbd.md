@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://sdk.openui5.org/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
 
 ## Mock Server
 
@@ -46,5 +46,5 @@ Mock Data can be used when you start the development of an app as well as for te
 **Related Information**  
 
 
-[sap.ui.core.util.MockServer](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.MockServer)
+[sap.ui.core.util.MockServer](https://sdk.openui5.org/api/sap.ui.core.util.MockServer)
 

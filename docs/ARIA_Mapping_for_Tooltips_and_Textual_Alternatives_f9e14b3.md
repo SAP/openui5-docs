@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/f9e14b33a62d48ca82a3a9134258ade5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f9e14b33a62d48ca82a3a9134258ade5) | [demo kit latest release](https://sdk.openui5.org/topic/f9e14b33a62d48ca82a3a9134258ade5)</div>
 
 ## ARIA Mapping for Tooltips and Textual Alternatives
 

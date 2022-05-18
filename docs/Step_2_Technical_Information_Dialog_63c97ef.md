@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/63c97ef306f24d6992406eb7d87bc906) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/63c97ef306f24d6992406eb7d87bc906)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/63c97ef306f24d6992406eb7d87bc906) | [demo kit latest release](https://sdk.openui5.org/topic/63c97ef306f24d6992406eb7d87bc906)</div>
 
 ## Step 2: Technical Information Dialog
 
@@ -26,7 +26,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 ### Opening the Example App and the Technical Information Dialog
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
 
 2.  Open the *Technical Information Dialog* by pressing  [Ctrl\] + [Shift\] + [Alt\] + [P\] .
 
@@ -45,12 +45,12 @@ When you run into problems with your app, you should check the OpenUI5 version t
 
     *OpenUI5 Version*.
 
-2.  Open the version overview at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) to see if there are newer patch levels or releases of OpenUI5.
+2.  Open the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html) to see if there are newer patch levels or releases of OpenUI5.
 
-3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html) to find information about new features and bug fixes.
+3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://sdk.openui5.orgreleasenotes.html) to find information about new features and bug fixes.
 
     > ### Note:  
-    > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.38.8/`.
+    > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://sdk.openui5.org/1.38.8/`.
 
 
 For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).

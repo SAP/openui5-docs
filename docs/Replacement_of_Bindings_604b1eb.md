@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://sdk.openui5.org/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
 
 ## Replacement of Bindings
 
@@ -37,7 +37,7 @@ Custom Formatter Functions
 
 ### Custom Formatter Functions
 
-You can also write your own custom formatter functions. For information how you access the model and path related to the current formatter call, see [sap.ui.core.util.XMLPreprocessor.IContext](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.XMLPreprocessor.IContext).
+You can also write your own custom formatter functions. For information how you access the model and path related to the current formatter call, see [sap.ui.core.util.XMLPreprocessor.IContext](https://sdk.openui5.org/api/sap.ui.core.util.XMLPreprocessor.IContext).
 
 The following code snippet shows a composite binding example. It assumes that the structure of the meta model that is used corresponds to the structure in the example and that `title>` refers to the header info's title property \(line 2 in the code snippet\):
 
@@ -179,9 +179,9 @@ formatter : 'sap.ui.model.odata.AnnotationHelper.format'} + ' }' }
 // --> {= ${path : 'path/to/property/value', type : 'sap.ui.model.odata.type.Int16'} > 42 }
 ```
 
-[`sap.ui.model.odata.AnnotationHelper.format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.AnnotationHelper)
+[`sap.ui.model.odata.AnnotationHelper.format`](https://sdk.openui5.org/api/sap.ui.model.odata.AnnotationHelper)
 
-[`sap.ui.core.util.XML.Preprocessor.IContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.XMLPreprocessor.IContext)
+[`sap.ui.core.util.XML.Preprocessor.IContext`](https://sdk.openui5.org/api/sap.ui.core.util.XMLPreprocessor.IContext)
 
 [XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.")
 

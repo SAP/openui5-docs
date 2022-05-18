@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0fecbce45e39406aa939bd25e89823f4)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0fecbce45e39406aa939bd25e89823f4) | [demo kit latest release](https://sdk.openui5.org/topic/0fecbce45e39406aa939bd25e89823f4)</div>
 
 ## Object Page Classic Header
 
@@ -195,11 +195,11 @@ With the use of the `sap.uxap.ObjectPageHeaderLayoutData` class, you can specify
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageHeader.html)
 
-[API Reference: `sap.uxap.ObjectPageHeaderLayoutData`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageHeaderLayoutData.html)
+[API Reference: `sap.uxap.ObjectPageHeaderLayoutData`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageHeaderLayoutData.html)
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
 
 [Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 

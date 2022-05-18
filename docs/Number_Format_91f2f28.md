@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2f2866f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f2f2866f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f2f2866f4d1014b6dd926db0e91070)</div>
 
 ## Number Format
 
@@ -623,7 +623,7 @@ oFloatFormat.parse("12.34%"); // returns 0.1234
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.NumberFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.NumberFormat.html)
+[API Reference: `sap.ui.core.format.NumberFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.NumberFormat.html)
 
 [Unit Formatting](Unit_Formatting_8e618a8.md "OpenUI5 supports the formatting and parsing of units. These unit formats are by default taken from the CLDR. Besides the default units defined in the CLDR, you can also define custom units.")
 

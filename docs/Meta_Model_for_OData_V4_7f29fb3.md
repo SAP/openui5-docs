@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://sdk.openui5.org/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
 
 ## Meta Model for OData V4
 
@@ -22,7 +22,7 @@ Access to metadata is basically asynchronous \(e.g. `requestObject`\) to allow f
 
 ### Path Syntax
 
-The `requestObject` API documentation in the Demo Kit explains how metadata is accessed and the supported path syntax in great detail. The basic idea is that every path described in the specification [OData Version 4.0 Part 3: Common Schema Definition Language, 14.2.1 Attribute Target](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) is a valid absolute path within the metadata model if a leading slash is added; for example `"/"` + `"MySchema.MyEntityContainer/MyEntitySet/MyComplexProperty/MyNavigationProperty"`. For more information, see the [requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) API documentation in the Demo Kit.
+The `requestObject` API documentation in the Demo Kit explains how metadata is accessed and the supported path syntax in great detail. The basic idea is that every path described in the specification [OData Version 4.0 Part 3: Common Schema Definition Language, 14.2.1 Attribute Target](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html) is a valid absolute path within the metadata model if a leading slash is added; for example `"/"` + `"MySchema.MyEntityContainer/MyEntitySet/MyComplexProperty/MyNavigationProperty"`. For more information, see the [requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) API documentation in the Demo Kit.
 
 ***
 
@@ -36,15 +36,15 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 -   Metadata paths need to refer to the V4 metadata JSON structure.
 
--   Note the difference between `"/TEAMS@Org.OData.Capabilities.V1.TopSupported"` and `"/TEAMS/@com.sap.vocabularies.Common.v1.Deletable"` \(look closely at the slash!\), see [ODataMetaModel.requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel%23requestObject).
+-   Note the difference between `"/TEAMS@Org.OData.Capabilities.V1.TopSupported"` and `"/TEAMS/@com.sap.vocabularies.Common.v1.Deletable"` \(look closely at the slash!\), see [ODataMetaModel.requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel%23requestObject).
 
--   Use [`sap.ui.model.odata.v4.AnnotationHelper`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper) instead of `sap.ui.model.odata.AnnotationHelper`. The ability to follow a path has been built into the V4 OData meta model itself. See `field>Value/$Path@com.sap.vocabularies.Common.v1.Label` in the code example below. Instead of `sap.ui.model.odata.AnnotationHelper.format`, you can use `sap.ui.model.odata.v4.AnnotationHelper.value` or `sap.ui.model.odata.v4.AnnotationHelper.format`. You can use both as a computed annotation.
+-   Use [`sap.ui.model.odata.v4.AnnotationHelper`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper) instead of `sap.ui.model.odata.AnnotationHelper`. The ability to follow a path has been built into the V4 OData meta model itself. See `field>Value/$Path@com.sap.vocabularies.Common.v1.Label` in the code example below. Instead of `sap.ui.model.odata.AnnotationHelper.format`, you can use `sap.ui.model.odata.v4.AnnotationHelper.value` or `sap.ui.model.odata.v4.AnnotationHelper.format`. You can use both as a computed annotation.
 
--   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@sap.ui.model.odata.v4.AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function in the global namespace which computes an annotation value from the metadata addressed by the preceding path. For more information, see [ODataMetaModel.requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) .
+-   Computed annotations start with "@@", for example `<Text text="{meta>Value/@@sap.ui.model.odata.v4.AnnotationHelper.value}" />`. Their name without the "@@" prefix refers to a function in the global namespace which computes an annotation value from the metadata addressed by the preceding path. For more information, see [ODataMetaModel.requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject) .
 
 -   Ensure that the view is loaded asynchronously. In this case, there is no longer a need to preload metadata, because the template processor waits for every binding to be resolved before proceeding.
 
--   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) .
+-   Use a double hash \('\#\#'\) or single hash \('\#'\) separator to branch from the OData V4 model into metadata, see [createBindingContext](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/createBindingContext) .
 
     > ### Note:  
     > The single hash separator is deprecated since 1.52
@@ -130,21 +130,21 @@ The OData meta model knows how to follow "14.2.1 Attribute Target" described in 
 
 The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following computed annotations; require it as shown in the example above:
 
--   [`value`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.value) helps to convert annotations into corresponding expression bindings or similar. The resulting binding does **not** contain type and constraint information; both are detected automatically. For examples, see [sap.ui.model.odata.v4.AnnotationHelper.value](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.value).
+-   [`value`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.value) helps to convert annotations into corresponding expression bindings or similar. The resulting binding does **not** contain type and constraint information; both are detected automatically. For examples, see [sap.ui.model.odata.v4.AnnotationHelper.value](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.value).
 
--   [`format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format) helps to convert annotations into corresponding expression bindings, or similar. Compared to `value`, `format` adds type and constraints information to the resulting binding. This is useful, for example, if the XML of the view is cached.
+-   [`format`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format) helps to convert annotations into corresponding expression bindings, or similar. Compared to `value`, `format` adds type and constraints information to the resulting binding. This is useful, for example, if the XML of the view is cached.
 
     If you use `format` with a path containing a single "$AnnotationPath" or "$Path" segment, the value corresponding to that segment is considered as a data binding path prefix whenever a dynamic "14.5.12 Expression edm:Path" or "14.5.13 Expression edm:PropertyPath" is turned into a data binding.
 
-    For examples, see [`format`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format).
+    For examples, see [`format`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.format).
 
     If `format` finds an `Org.OData.Measures.V1.ISOCurrency` or an `Org.OData.Measures.V1.Unit` annotation at a property, a composite binding with a `sap.ui.model.odata.type.Currency` or a `sap.ui.model.odata.type.Unit` type is generated. For more information, see [Currency and Unit Customizing in OData V4](Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md).
 
     If `format` finds a `com.sap.vocabularies.common.v1.Timezone` annotation at a property of the `Edm.DateTimeOffset` type, a composite binding with an `sap.ui.model.odata.type.DateTimeWithTimezone` type is generated, showing date/time and time zone.
 
--   [`label`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
+-   [`label`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
 
--   [`getValueListType`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ValueListType.html). It can be called directly on a property:
+-   [`getValueListType`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ValueListType.html). It can be called directly on a property:
 
     ```xml
     
@@ -182,15 +182,15 @@ The OData V4 model supports loading of additional annotation files.
 
 [OData V4 Metadata JSON Format](OData_V4_Metadata_JSON_Format_87aac89.md "The OData V4 model provides access to metadata in a streamlined JSON format which is described in the section below.")
 
-[getMetaModel](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel/methods/sap.ui.model.odata.v4.ODataModel.getMetadata)
+[getMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/sap.ui.model.odata.v4.ODataModel.getMetadata)
 
-[sap.ui.model.odata.v4.ODataMetaModel](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
+[sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
 
-[requestObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject)
+[requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject)
 
-[sap.ui.model.odata.v4.ODataMetaModel\#getObject](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/getObject)
+[sap.ui.model.odata.v4.ODataMetaModel\#getObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/getObject)
 
-[sap.ui.model.odata.v4.ODataMetaModel\#bindList](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/bindList)
+[sap.ui.model.odata.v4.ODataMetaModel\#bindList](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/bindList)
 
-[sap.ui.model.odata.ODataMetaModel\#loaded](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.ODataMetadata/methods/loaded)
+[sap.ui.model.odata.ODataMetaModel\#loaded](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMetadata/methods/loaded)
 

@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f0d1c56f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f0d1c56f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f0d1c56f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f0d1c56f4d1014b6dd926db0e91070)</div>
 
 ## Assigning the Model to the UI
 
 If you don't want to use a component or descriptor file, you have to assign the model instance manually to the UI, before you can bind controls to this model instance.
 
-OpenUI5 provides a flexible and modularized concept in which you can not only define one model for your applications, but define different areas in your application with different models and assign single controls to a model. You can, for example, define a JSON model for the application and an OData model for a table control that is contained in the application. You can also set multiple models for a control or a [ `UIArea`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.UIArea) by specifying a name for the model. These models can be accessed by their name.
+OpenUI5 provides a flexible and modularized concept in which you can not only define one model for your applications, but define different areas in your application with different models and assign single controls to a model. You can, for example, define a JSON model for the application and an OData model for a table control that is contained in the application. You can also set multiple models for a control or a [ `UIArea`](https://sdk.openui5.org/api/sap.ui.core.UIArea) by specifying a name for the model. These models can be accessed by their name.
 
 ```js
 var oJSONModel = new sap.ui.model.json.JSONModel();

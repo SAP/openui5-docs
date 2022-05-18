@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01) | [demo kit latest release](https://sdk.openui5.org/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01)</div>
 
 ## Personalization
 
 The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing table content, such as selecting columns and adapting their order.
 
-For more information about this control, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.p13n) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup).
+For more information about this control, see the [API Reference](https://sdk.openui5.org/api/sap.m.p13n) and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup).
 
 ***
 

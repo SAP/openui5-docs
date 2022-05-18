@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/648e360fa22d46248ca783dc6eb44531) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/648e360fa22d46248ca783dc6eb44531)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/648e360fa22d46248ca783dc6eb44531) | [demo kit latest release](https://sdk.openui5.org/topic/648e360fa22d46248ca783dc6eb44531)</div>
 
 ## Data Reuse
 
@@ -53,7 +53,7 @@ Upon selection of an object in the list, the row context is used as the binding 
 
 Editing any properties shown in the list or the detail section will automatically be reflected in the other place as well.
 
-The OData V4 model can help you to get such a row context in the detail view controller, without knowledge about the list view. Mark the table's list binding in the list view with the `$$getKeepAliveContext` parameter; for more information see [`sap.ui.model.odata.v4.ODataModel#bindList`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList). Then call [`sap.ui.model.odata.v4.ODataModel#getKeepAliveContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) with a binding path to the entity. This function always returns such a context that shares data with a binding having a matching collection path and `$$getKeepAliveContext` set. If such a list binding exists, it returns a context with that path. If necessary, it creates such a context and requests its entity using the given group ID. This context is set to **keep-alive** \(see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below\). If no marked list binding exists, a temporary binding is used; as soon as a binding with `$$getKeepAliveContext` is created with or resolves to the matching collection path, the context and its data are moved to this binding and share the data with the list. The temporary binding is destroyed afterwards.
+The OData V4 model can help you to get such a row context in the detail view controller, without knowledge about the list view. Mark the table's list binding in the list view with the `$$getKeepAliveContext` parameter; for more information see [`sap.ui.model.odata.v4.ODataModel#bindList`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/bindList). Then call [`sap.ui.model.odata.v4.ODataModel#getKeepAliveContext`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) with a binding path to the entity. This function always returns such a context that shares data with a binding having a matching collection path and `$$getKeepAliveContext` set. If such a list binding exists, it returns a context with that path. If necessary, it creates such a context and requests its entity using the given group ID. This context is set to **keep-alive** \(see [Extending the Lifetime of a Context that is not Used Exclusively by a Table Collection](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_ELC) below\). If no marked list binding exists, a temporary binding is used; as soon as a binding with `$$getKeepAliveContext` is created with or resolves to the matching collection path, the context and its data are moved to this binding and share the data with the list. The temporary binding is destroyed afterwards.
 
 You do not have to take care whether the `$$getKeepAliveContext` binding currently exists; you can simply use the context as if the list was there. Even `replaceWith` works when given another context from `getKeepAliveContext` \(for example when canceling a draft and replacing it with the active instance\), and `ODataContextBinding#execute` supports the `bReplaceWithRVC` parameter \(for example to replace the active version with the draft after an *Edit* action\). When the list later appears, both contexts - the active one and the replaced one - will be moved to it, and the data is merged when the list reads it from the back end.
 
@@ -97,7 +97,7 @@ onPatternMatched : function (oEvent) {
 
 **Additional Information:**
 
--   See also our [demo app](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.Draft).
+-   See also our [demo app](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.Draft).
 
 ***
 
@@ -109,7 +109,7 @@ The data of the returned entity is synchronized into the binding parameter of th
 
 -   The conditions for a return value context as described for the `execute` method of `sap.ui.model.odata.v4.ODataContextBinding` are fulfilled.
 
-    For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataContextBinding#execute`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataContextBinding%23methods/execute). 
+    For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataContextBinding#execute`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding%23methods/execute). 
 
 -   The returned entity has the same key predicate as the binding parameter.
 
@@ -153,7 +153,7 @@ For this, you may use the `$$sharedRequest` binding parameter for all the list b
 ...
 ```
 
-The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](Value_Lists_ab267a6.md) models. Note that you can also set the `$$sharedRequest` parameter on the model, which means that all list bindings created within this model receive `$$sharedRequest=true` by default. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel#Constructor`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23constructor). 
+The `$$sharedRequest` binding parameter is used automatically for list bindings of [value list](Value_Lists_ab267a6.md) models. Note that you can also set the `$$sharedRequest` parameter on the model, which means that all list bindings created within this model receive `$$sharedRequest=true` by default. For more information, see the [API Reference: `sap.ui.model.odata.v4.ODataModel#Constructor`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23constructor). 
 
 ***
 
@@ -198,5 +198,5 @@ The optional callback function `fnOnBeforeDestroy` is called when the kept-alive
 -   the context is deleted,
 -   due to a refresh, the entity is no longer accessible via its previous path.
 
-If you want to get [server messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md) for the kept-alive context, but not for the list, use the `bRequestMessages` parameter. The messages for this context are requested immediately and with each subsequent refresh. You can then get the latest messages as a side effect via [`v4.Context#requestSideEffects`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects).
+If you want to get [server messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md) for the kept-alive context, but not for the list, use the `bRequestMessages` parameter. The messages for this context are requested immediately and with each subsequent refresh. You can then get the latest messages as a side effect via [`v4.Context#requestSideEffects`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects).
 

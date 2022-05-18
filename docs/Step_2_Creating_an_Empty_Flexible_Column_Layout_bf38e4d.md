@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/bf38e4de70084477b9e104bf6f6d7737) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/bf38e4de70084477b9e104bf6f6d7737)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bf38e4de70084477b9e104bf6f6d7737) | [demo kit latest release](https://sdk.openui5.org/topic/bf38e4de70084477b9e104bf6f6d7737)</div>
 
 ## Step 2: Creating an Empty Flexible Column Layout
 
@@ -31,7 +31,7 @@ In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in 
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 2](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.02/preview).
+You can view and download all files at [Flexible Column Layout App - Step 2](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.02/preview).
 
 ***
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/426ff318051a465191c861b51a74f00e) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/426ff318051a465191c861b51a74f00e)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/426ff318051a465191c861b51a74f00e) | [demo kit latest release](https://sdk.openui5.org/topic/426ff318051a465191c861b51a74f00e)</div>
 
 ## Step 4: Filtering, Sorting, and Counting
 
@@ -31,7 +31,7 @@ In this step, we add features to filter, sort, and count the user data by using 
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 4](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.04/preview).
+You can view and download all files at [OData V4 - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.04/preview).
 
 ***
 

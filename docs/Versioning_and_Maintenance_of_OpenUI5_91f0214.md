@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f021426f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f021426f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f021426f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f021426f4d1014b6dd926db0e91070)</div>
 
 ## Versioning and Maintenance of OpenUI5
 
@@ -20,9 +20,9 @@ OpenUI5 uses a 3-digit version identifier, for example 1.71.22 The digits have t
 -   The second digit \(71\) specifies the version number \(minor version\).
 -   The third digit \(22\) specifies the patch number.
 
-To view the documentation for a specific version, check at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://openui5.hana.ondemand.com/1.71.22/`.
+To view the documentation for a specific version, check at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://sdk.openui5.org/1.71.22/`.
 
-To get an overview of the new features of each version, see [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
+To get an overview of the new features of each version, see [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://sdk.openui5.orgreleasenotes.html).
 
 ***
 
@@ -47,7 +47,7 @@ For example, the following versions have a long-term maintenance:
 -   1.71
 
 
-In the version overview at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html), you can see which of the OpenUI5 versions have an extended maintenance.
+In the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html), you can see which of the OpenUI5 versions have an extended maintenance.
 
 ***
 
@@ -55,7 +55,7 @@ In the version overview at [https://openui5.hana.ondemand.com/versionoverview.ht
 
 OpenUI5 resources are available on the Akamai content delivery network. There, you can also find multiple OpenUI5 versions, and you can use them in your code as described in [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
-Check the available versions with respective maintenance status at [https://openui5.hana.ondemand.com/versionoverview.html](https://openui5.hana.ondemand.com/versionoverview.html).
+Check the available versions with respective maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html).
 
 ***
 

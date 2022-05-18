@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/91f2eba36f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f2eba36f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f2eba36f4d1014b6dd926db0e91070)</div>
 
 ## Date Format
 
@@ -664,5 +664,5 @@ oDateTimeWithTimezoneFormat.parse("10.02.2022, 10:01:14 America/New_York", "Amer
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.DateFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.DateFormat.html)
+[API Reference: `sap.ui.core.format.DateFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.DateFormat.html)
 

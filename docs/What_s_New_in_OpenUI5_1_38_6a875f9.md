@@ -6,13 +6,13 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6a875f998994489483e8085705347d72) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6a875f998994489483e8085705347d72)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6a875f998994489483e8085705347d72) | [demo kit latest release](https://sdk.openui5.org/topic/6a875f998994489483e8085705347d72)</div>
 
 ## What's New in OpenUI5 1.38
 
 With this release, OpenUI5 is upgraded from version 1.36 to 1.38.
 
-In the following sections, we list the main new features and enhancements to OpenUI5. For a complete, detailed list of all new and enhanced functions, see: [Change Log](https://openui5.hana.ondemand.com/#releasenotes.html).
+In the following sections, we list the main new features and enhancements to OpenUI5. For a complete, detailed list of all new and enhanced functions, see: [Change Log](https://sdk.openui5.orgreleasenotes.html).
 
 ***
 
@@ -61,7 +61,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 ### New Features
 
--   We have 46 new icons, and some existing icons have been redesigned - check the [Icon Explorer](https://openui5.hana.ondemand.com/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) in the Demo Kit for details.
+-   We have 46 new icons, and some existing icons have been redesigned - check the [Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html) in the Demo Kit for details.
 
 -   **Multiple preprocessors for XML views**
 
@@ -85,7 +85,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     > ### Restriction:  
     > This is the first version of the OpenUI5 OData V4 model. Due to its limited feature scope, we recommend you do not use this release to develop applications that are to be used in production systems. Please look at the detailed documentation of the features, as certain parts of a feature may be missing which you might expect as given. While our intention was to be compatible with existing controls, existing controls might not work due to small incompatibilities compared to `sap.ui.model.odata.(v2.)ODataModel`, or due to missing features in the model. Up to now, only limited tests with controls have been done with the OpenUI5 OData V4 model. The interface for applications has been changed to make usage of the model easier and more efficient. A summary of these changes is documented in the section [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md).
 
-    For more information see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4), and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.model.odata.v4.ODataModel).
+    For more information see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4), and the [sample](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel).
 
 
 ***
@@ -94,7 +94,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.m.FormattedText`**: You can use this control to display formatted texts in HTML format.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.FormattedText) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.FormattedText).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.FormattedText) and the [sample](https://sdk.openui5.org/entity/sap.m.FormattedText).
 
 -   **`sap.m.MenuButton`**: The control opens a hierarchical menu and enables quick triggering of the last action of the menu item selected. In `Regular` mode it always opens the menu, whereas in `Split` mode it can be also used directly as a button to trigger the currently displayed menu item’s action. In `Split` mode it can display either the default menu item or the last selected one.
 
@@ -134,7 +134,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     </tr>
     </table>
     
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.MenuButton) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.MenuButton/preview).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.MenuButton) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.MenuButton/preview).
 
 -   **`sap.m.ObjectMarker`**: The `ObjectMarker` control represents the status of an object with icon and/or text. It can be interactive \(as a link\) or non-interactive. It has the following predefined types:
 
@@ -153,7 +153,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
      ![](images/loio63be65114f584a01bda20eb866894ace_HiRes.png) 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ObjectMarker) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ObjectMarker).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectMarker) and the [sample](https://sdk.openui5.org/entity/sap.m.ObjectMarker).
 
 -   **`sap.m.RangeSlider`** is a new input control that is used to select a range of values. The `RangeSlider` has two slider handles that can be moved along a predefined numerical range scale. This control extends the `sap.m.Slider` and introduces additional functionality.
 
@@ -163,13 +163,13 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
      ![](images/loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png) 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.StepInput) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.StepInput).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.StepInput) and the [sample](https://sdk.openui5.org/entity/sap.m.StepInput).
 
 -   **`sap.ui.layout.ResponsiveSplitter`** is a layout control that is used to visually divide the content of its parent. The control is responsive and can adjust its contents to any screen size. On smaller screens, pagination is used to allow navigation to all splitter panes.
 
      ![](images/loio542861b7dc7c452a994fe98beadf6d10_HiRes.png) 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.ResponsiveSplitter) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.ResponsiveSplitter)
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.ResponsiveSplitter) and the [sample](https://sdk.openui5.org/entity/sap.ui.layout.ResponsiveSplitter)
 
 
 ***
@@ -178,7 +178,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -    **One page acceptance test \(OPA\)**:
 
-    The `Press` and `EnterText` actions now support a larger number of controls and can now be executed on embedded controls by specifying the control suffix. For more information, see the API Reference for [`Press`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.Press) and [`EnterText`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.actions.EnterText) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.OpaAction/preview).
+    The `Press` and `EnterText` actions now support a larger number of controls and can now be executed on embedded controls by specifying the control suffix. For more information, see the API Reference for [`Press`](https://sdk.openui5.org/api/sap.ui.test.actions.Press) and [`EnterText`](https://sdk.openui5.org/api/sap.ui.test.actions.EnterText) and the [sample](https://sdk.openui5.org/sample/sap.ui.core.sample.OpaAction/preview).
 
 
 ***
@@ -191,18 +191,18 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     -   The new `loadItem` event makes it possible to defer initialization of items in the `ComboBox` dropdown list control to a point in time when the items are required. This helps to improve performance.
 
-        For more information, see the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.ComboBox).
+        For more information, see the [sample](https://sdk.openui5.org/entity/sap.m.ComboBox).
 
 
 -   **`sap.m.DatePicker`**, **`sap.m.DateTimePicker`**, **`sap.m.PlanningCalendar`**, and **`sap.ui.unified.Calendar`**: You can now set minimum and maximum dates to limit the range of available dates.
 
-    For more information, see the API Reference for [`sap.m.DatePicker`](https://openui5.hana.ondemand.com/#/api/sap.m.DatePicker), [`sap.m.DateTimePicker`](https://openui5.hana.ondemand.com/#/api/sap.m.DateTimePicker), [`sap.m.PlanningCalendar`](https://openui5.hana.ondemand.com/#/api/sap.m.PlanningCalendar), and [`sap.ui.unified.Calendar`](https://openui5.hana.ondemand.com/#/api/sap.ui.unified.Calendar), and the samples for [`sap.m.DatePicker`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.DatePicker/preview), [`sap.m.PlanningCalendar`](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.PlanningCalendarMinMax/preview), and [`sap.ui.unified.Calendar`](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.CalendarMinMax/preview).
+    For more information, see the API Reference for [`sap.m.DatePicker`](https://sdk.openui5.org/api/sap.m.DatePicker), [`sap.m.DateTimePicker`](https://sdk.openui5.org/api/sap.m.DateTimePicker), [`sap.m.PlanningCalendar`](https://sdk.openui5.org/api/sap.m.PlanningCalendar), and [`sap.ui.unified.Calendar`](https://sdk.openui5.org/api/sap.ui.unified.Calendar), and the samples for [`sap.m.DatePicker`](https://sdk.openui5.org/sample/sap.m.sample.DatePicker/preview), [`sap.m.PlanningCalendar`](https://sdk.openui5.org/sample/sap.m.sample.PlanningCalendarMinMax/preview), and [`sap.ui.unified.Calendar`](https://sdk.openui5.org/sample/sap.ui.unified.sample.CalendarMinMax/preview).
 
 -   **`sap.m.GenericTile`**: The `GenericTile` control has a new responsive design that significantly improves the user experience, it has also been optimized for larger smartphones. The `GenericTile` adjusts its size to fit all the different display sizes of the current devices supported by OpenUI5 \(see [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)\). The main changes are the tile size, font size, padding, the new `ImageContent` control, and new samples showing the variety of use cases for the `GenericTile`.
 
     The `sap.m.ImageContent` control can be used to include images in a tile. It can be embedded in the content area of the `GenericTile` control.
 
-    For more information, see the API Reference for [`sap.m.GenericTile`](https://openui5.hana.ondemand.com/#/api/sap.m.GenericTile) and [`sap.m.ImageContent`](https://openui5.hana.ondemand.com/#/api/sap.m.ImageContent), the samples for [`GenericTile`](https://openui5.hana.ondemand.com/#/entity/sap.m.GenericTile) and [`ImageContent`](https://openui5.hana.ondemand.com/#/entity/sap.m.ImageContent), and [Generic Tile](Generic_Tile_a1998ec.md).
+    For more information, see the API Reference for [`sap.m.GenericTile`](https://sdk.openui5.org/api/sap.m.GenericTile) and [`sap.m.ImageContent`](https://sdk.openui5.org/api/sap.m.ImageContent), the samples for [`GenericTile`](https://sdk.openui5.org/entity/sap.m.GenericTile) and [`ImageContent`](https://sdk.openui5.org/entity/sap.m.ImageContent), and [Generic Tile](Generic_Tile_a1998ec.md).
 
 -   **`sap.m.List`** and **`sap.m.Table`**: The new `keyboardMode` property for the `List` and `Table` controls determines the keyboard handling for these controls. The `Navigation` value of the property enables a mode that allows you to navigate within a large number of items, for example, table cells, using the tab key, whereas the `Edit` mode can be used to edit a limited number of items.
 
@@ -219,7 +219,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
     -   The *Show More* button for toggling expand/collapse mode can now be hidden with the use of the new property `hideShowMoreButton`.
 
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.NotificationListItem) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.NotificationListItem).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.NotificationListItem) and the [sample](https://sdk.openui5.org/entity/sap.m.NotificationListItem).
 
 -   **`sap.m.Popover`** has four new values for its `PlacementType`:
 
@@ -234,25 +234,25 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
     They determine the preferred position of the `Popover` and how it behaves when there is insufficient space for it on the screen. These properties allow the `Popover` to flip over and cover some of the content below it.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.PlacementType) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.PlacementType).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlacementType) and the [sample](https://sdk.openui5.org/entity/sap.m.PlacementType).
 
 -   **`sap.m.TextArea`** can now grow and shrink to adapt to the entered text.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.TextArea) and the [sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TextAreaGrowing/preview).
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.TextArea) and the [sample](https://sdk.openui5.org/sample/sap.m.sample.TextAreaGrowing/preview).
 
 -   **`sap.m.UploadCollection`**: To upload a new version of a file to the `UploadCollection` list, the `openFileDialog` method is available. You can provide a pushbutton in the header area and if one entry in the `UploadCollection` list is selected, the API method will be called.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.UploadCollection) and the [sample](https://openui5.hana.ondemand.com/#/entity/sap.m.UploadCollection)t.
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.UploadCollection) and the [sample](https://sdk.openui5.org/entity/sap.m.UploadCollection)t.
 
 -   **`sap.m.ViewSettingsDialog`**: The `ViewSettingsDialog` control now gives you the opportunity to modify filter detail page items on the fly with the help of the new event `filterDetailPageOpened`. This event is fired each time after the filter detail page is accessed, notifying the outside world that the page is loaded along with the information for which filter the respective details are displayed. This allows a handler to be attached that alters the filter detail items aggregation.
 
-    For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ViewSettingsDialog) in the Demo Kit.
+    For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ViewSettingsDialog) in the Demo Kit.
 
 -   **`sap.tnt.SideNavigation`**: Root items with no children can now be opened with a single click when the `SideNavigation` control is in collapsed mode.
 
 -   **`sap.tnt.ToolPage`**: Animation is now added when expanding and collapsing the `SideNavigation` control within the `ToolPage`.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.tnt.sample.ToolPage/preview).
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.tnt.sample.ToolPage/preview).
 
 -   **`sap.ui.commons.ColorPicker`** supports HSL \(Hue Saturation and Lightness\) mode. This mode works better with modern browsers and it does not require intermediate conversion back to RGB. Additionally, there is a new input field for the `alpha` \(transparency\) value for more precise color definition.
 
@@ -260,7 +260,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.ui.layout.Form`** and **`sap.ui.layout.SimpleForm`**: You can now add a toolbar to a form container or the form itself.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.layout.sample.FormToolbar/preview).
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.ui.layout.sample.FormToolbar/preview).
 
 -   **`sap.ui.table.DataTable`** has been deleted.
 
@@ -270,23 +270,23 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 
 -   **`sap.ui.unified.Menu`**: To significantly increase the usability of `sap.ui.unified.Menu`, a delay has been added to the closing of submenus.
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.ui.unified.sample.MenuItemEventing/preview)t.
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.ui.unified.sample.MenuItemEventing/preview)t.
 
 -   **`sap.uxap.ObjectPageHeader`** ObjectPageHeader can be integrated with the `SideContent` scenario. A new `sideContentButton` aggregation has been added. This aggregation has a new button, which appears after the actions buttons and triggers opening the side content for additional information.
 
      ![](images/loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png) 
 
-    For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageDynamicSideContentBtn/preview).
+    For more information, see the [sample](https://sdk.openui5.org/sample/sap.uxap.sample.ObjectPageDynamicSideContentBtn/preview).
 
 -   **`sap.uxap.ObjectPageLayout`**:
 
     -   It supports scrolling to a particular section, based on its ID. This allows easier access to all parts of the application and consistent navigation back to a previous position within the `ObjectPage`.
 
-        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageLazyLoadingWithoutBlocks/preview).
+        For more information, see the [sample](https://sdk.openui5.org/sample/sap.uxap.sample.ObjectPageLazyLoadingWithoutBlocks/preview).
 
     -   Performance is improved for the use case with no `Blocks`. The `ObjectPage` now supports lazy loading with the stashed property of the `ObjectPageLazyLoader`. As a result, you avoid the additional creation of XML views for each `Block`.
 
-        For more information, see the [sample](https://openui5.hana.ondemand.com/#/sample/sap.uxap.sample.ObjectPageState/preview) and [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md).
+        For more information, see the [sample](https://sdk.openui5.org/sample/sap.uxap.sample.ObjectPageState/preview) and [Object Page Scrolling](Object_Page_Scrolling_bc410e9.md).
 
 
 

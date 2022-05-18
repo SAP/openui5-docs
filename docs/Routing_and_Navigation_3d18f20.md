@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3d18f20bd2294228acb6910d8e8a5fb5) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3d18f20bd2294228acb6910d8e8a5fb5)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3d18f20bd2294228acb6910d8e8a5fb5) | [demo kit latest release](https://sdk.openui5.org/topic/3d18f20bd2294228acb6910d8e8a5fb5)</div>
 
 ## Routing and Navigation
 
@@ -82,7 +82,7 @@ You can use the following kinds of patterns:
 
 
 > ### Tip:  
-> For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.PatternMatching/preview).
+> For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.PatternMatching/preview).
 
 ***
 
@@ -121,11 +121,11 @@ The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to
 
 [Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-[API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
+[API Reference: `sap.ui.core.routing`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.html)
 
-[API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
 
-[API Reference: `sap.ui.core.routing.Route`: Constructor Detail](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Route/constructor)
+[API Reference: `sap.ui.core.routing.Route`: Constructor Detail](https://sdk.openui5.org/api/sap.ui.core.routing.Route/constructor)
 
 [Crossroads.js](https://millermedeiros.github.io/crossroads.js/)
 

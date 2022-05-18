@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/28b59ca857044a7890a22aec8cf1fee9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/28b59ca857044a7890a22aec8cf1fee9) | [demo kit latest release](https://sdk.openui5.org/topic/28b59ca857044a7890a22aec8cf1fee9)</div>
 
 ## App Overview: The Basic Files of Your App
 

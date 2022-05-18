@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://sdk.openui5.org/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
 
 ## Scrolling: Pull to Refresh
 
@@ -45,5 +45,5 @@ Pull to Refresh does not work with a Carousel if both are contained in a page: i
 **Related Information**  
 
 
-[API Reference: `sap.m.PullToRefresh`](https://openui5.hana.ondemand.com/#/api/sap.m.PullToRefresh)
+[API Reference: `sap.m.PullToRefresh`](https://sdk.openui5.org/api/sap.m.PullToRefresh)
 

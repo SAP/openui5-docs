@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ee37fc7138b843c0a66700f0aeaba3fe)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ee37fc7138b843c0a66700f0aeaba3fe) | [demo kit latest release](https://sdk.openui5.org/topic/ee37fc7138b843c0a66700f0aeaba3fe)</div>
 
 ## Recommendations
 
@@ -31,7 +31,7 @@ When opening or closing a dialog or navigating between pages, the focus should s
 > ### Note:  
 > When the parent control cannot receive focus or is no longer available, the focus should go to a control nearby.
 
-For more information, see [sap.ui.core.Element/methods/focus](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/focus) API documentation in the Demo Kit.
+For more information, see [sap.ui.core.Element/methods/focus](https://sdk.openui5.org/api/sap.ui.core.Element/methods/focus) API documentation in the Demo Kit.
 
 ***
 

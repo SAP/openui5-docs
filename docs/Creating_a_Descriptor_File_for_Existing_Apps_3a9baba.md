@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3a9babace121497abea8f0ea66e156d9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3a9babace121497abea8f0ea66e156d9) | [demo kit latest release](https://sdk.openui5.org/topic/3a9babace121497abea8f0ea66e156d9)</div>
 
 ## Creating a Descriptor File for Existing Apps
 

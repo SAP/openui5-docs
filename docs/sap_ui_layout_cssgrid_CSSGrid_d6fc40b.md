@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d6fc40bab9b549828782ba4846298417) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d6fc40bab9b549828782ba4846298417)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d6fc40bab9b549828782ba4846298417) | [demo kit latest release](https://sdk.openui5.org/topic/d6fc40bab9b549828782ba4846298417)</div>
 
 ## sap.ui.layout.cssgrid.CSSGrid
 
@@ -70,7 +70,7 @@ Features and behaviors are configurable to enable the grid layout for a variety 
 **Related Information**  
 
 
-[API Reference: `sap.ui.layout.cssgrid.CSSGrid`](https://openui5.hana.ondemand.com/#/api/symbols/sap.ui.layout.cssgrid.CSSGrid)
+[API Reference: `sap.ui.layout.cssgrid.CSSGrid`](https://sdk.openui5.org/api/symbols/sap.ui.layout.cssgrid.CSSGrid)
 
-[Samples: `sap.ui.layout.cssgrid.CSSGrid`](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.cssgrid.CSSGrid)
+[Samples: `sap.ui.layout.cssgrid.CSSGrid`](https://sdk.openui5.org/entity/sap.ui.layout.cssgrid.CSSGrid)
 

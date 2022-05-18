@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/fd715d97ebf842739697c9a0f276f0c0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fd715d97ebf842739697c9a0f276f0c0) | [demo kit latest release](https://sdk.openui5.org/topic/fd715d97ebf842739697c9a0f276f0c0)</div>
 
 ## Additional Annotation Files
 

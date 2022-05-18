@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/24f340bdd59e4428aab30a20d14e2ebc)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/24f340bdd59e4428aab30a20d14e2ebc) | [demo kit latest release](https://sdk.openui5.org/topic/24f340bdd59e4428aab30a20d14e2ebc)</div>
 
 ## File Size Format
 
@@ -59,5 +59,5 @@ oFileSizeFormat.parse("1 MB"); // returns 1230000
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.FileSizeFormat`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.format.FileSizeFormat.html)
+[API Reference: `sap.ui.core.format.FileSizeFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.FileSizeFormat.html)
 

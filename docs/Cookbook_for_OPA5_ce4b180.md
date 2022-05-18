@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://sdk.openui5.org/topic/ce4b180d97064ad088a901b53ed48b21)</div>
 
 ## Cookbook for OPA5
 
@@ -84,7 +84,7 @@ Opa5.extendConfig({
 
 When the application is started with `Opa5.iStartMyAppInAFrame()`, its parameters are appended to the application URL as provided in the first parameter. Application parameters overwrite any duplicated string in the URL that is given as first parameter of `iStartMyAppInAFrame()`. Alternatively, when `Opa5.iStartMyUIComponent()` is used, the URL parameters are appended to the current URL as the component is started in the same browser window. On `Opa5.iTeardownMyApp()`, the application parameters are cleared from the current URL.
 
-For more details, see the *API Reference* for [`Opa5`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.Opa5.html) 
+For more details, see the *API Reference* for [`Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html) 
 
 ***
 
@@ -96,7 +96,7 @@ As of version 1.48, OPA supports overwriting global configuration parameters for
 
 All URL parameters that do not start with 'opa' are considered relevant for the application being tested and are passed to it. Application parameters from a URL always overwrite the application parameters provided in `Opa5.extendConfig()`.
 
-For more details, see the *API Reference*: [`Opa5.extendConfig()`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa/methods/sap.ui.test.Opa.resetConfig) and [`Opa.resetConfig()`](https://openui5.hana.ondemand.com/#/api/sap.ui.test.Opa/methods/sap.ui.test.Opa.resetContext) 
+For more details, see the *API Reference*: [`Opa5.extendConfig()`](https://sdk.openui5.org/api/sap.ui.test.Opa/methods/sap.ui.test.Opa.resetConfig) and [`Opa.resetConfig()`](https://sdk.openui5.org/api/sap.ui.test.Opa/methods/sap.ui.test.Opa.resetContext) 
 
 ***
 
@@ -362,7 +362,7 @@ X
 </tr>
 </table>
 
-A common scenario is asserting the busy state of a control. Testing whether a control is not busy is meaningless when `autoWait` is globally enabled. An example of testing for busyness with enabled `autoWait` can be found in the [OPA5 Samples](https://openui5.hana.ondemand.com/#/entity/sap.ui.test.Opa5).
+A common scenario is asserting the busy state of a control. Testing whether a control is not busy is meaningless when `autoWait` is globally enabled. An example of testing for busyness with enabled `autoWait` can be found in the [OPA5 Samples](https://sdk.openui5.org/entity/sap.ui.test.Opa5).
 
 ***
 

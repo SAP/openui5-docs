@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://sdk.openui5.org/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
 
 ## Step 11: Using the Flexible Column Layout Semantic Helper
 
@@ -38,7 +38,7 @@ For more information, see [Flexible Column Layout Semantic Helper](Flexible_Colu
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 11](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.11/preview).
+You can view and download all files at [Flexible Column Layout App - Step 11](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.11/preview).
 
 ***
 
@@ -139,7 +139,7 @@ First, we add a `getHelper` function in the `Component.js` file in order to pass
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
 						<m:FlexBox wrap="NoWrap" fitContainer="true" alignItems="Center" class="sapUiTinyMarginEnd">
 							<f:Avatar
-								src="https://ui5.sap.com/{products>ProductPicUrl}"
+								src="https://sdk.openui5.org/{products>ProductPicUrl}"
 								displaySize="S"
 								displayShape="Square"
 								class="sapUiTinyMarginEnd"/>

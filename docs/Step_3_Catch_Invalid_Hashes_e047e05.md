@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e047e0596e8a4a1db50f4a53c11f4276) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e047e0596e8a4a1db50f4a53c11f4276)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e047e0596e8a4a1db50f4a53c11f4276) | [demo kit latest release](https://sdk.openui5.org/topic/e047e0596e8a4a1db50f4a53c11f4276)</div>
 
 ## Step 3: Catch Invalid Hashes
 
@@ -26,7 +26,7 @@ Sometimes it is important to display an indication that the requested resource w
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.03/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.03/preview).
 
    
   
@@ -150,7 +150,7 @@ Open the URL `index.html#/thisIsInvalid` in your browser. From now on the user w
 **Related Information**  
 
 
-[API Reference: `sap.m.MessagePage`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.MessagePage.html)
+[API Reference: `sap.m.MessagePage`](https://sdk.openui5.orgdocs/api/symbols/sap.m.MessagePage.html)
 
-[API Overview and Samples: `sap.m.MessagePage` ](https://openui5.hana.ondemand.com/explored.html#/entity/sap.m.MessagePage/samples)
+[API Overview and Samples: `sap.m.MessagePage` ](https://sdk.openui5.org/explored.html#/entity/sap.m.MessagePage/samples)
 

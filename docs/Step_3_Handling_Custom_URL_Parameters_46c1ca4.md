@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://sdk.openui5.org/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
 
 ## Step 3: Handling Custom URL Parameters
 
@@ -28,7 +28,7 @@ We know that the OData V2 provider of this service implements a URL parameter th
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.mockserver.03/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.03/preview).
 
 ***
 

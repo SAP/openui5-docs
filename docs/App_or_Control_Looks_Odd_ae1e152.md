@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ae1e1520cf714cd99d966bacf5d6e6b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ae1e1520cf714cd99d966bacf5d6e6b2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ae1e1520cf714cd99d966bacf5d6e6b2) | [demo kit latest release](https://sdk.openui5.org/topic/ae1e1520cf714cd99d966bacf5d6e6b2)</div>
 
 ## App or Control Looks Odd
 

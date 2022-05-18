@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/21515f09c0324218bb705b27407f5d61) | [demo kit latest release](https://sdk.openui5.org/topic/21515f09c0324218bb705b27407f5d61)</div>
 
 ## Using Controller Extension
 

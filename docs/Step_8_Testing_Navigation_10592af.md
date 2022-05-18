@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/10592affce3e4f1ba73c3125ee06e0b7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/10592affce3e4f1ba73c3125ee06e0b7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/10592affce3e4f1ba73c3125ee06e0b7) | [demo kit latest release](https://sdk.openui5.org/topic/10592affce3e4f1ba73c3125ee06e0b7)</div>
 
 ## Step 8: Testing Navigation
 
@@ -27,7 +27,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/top
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 8](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.08/preview).
+You can view and download all files in the Demo Kit at [Testing - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.08/preview).
 
 ***
 
@@ -270,5 +270,5 @@ If you execute the tests now, you can see in the logs of the developer tools tha
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.matchers.BindingPath`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.test.matchers.BindingPath.html)
+[API Reference: `sap.ui.test.matchers.BindingPath`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.matchers.BindingPath.html)
 

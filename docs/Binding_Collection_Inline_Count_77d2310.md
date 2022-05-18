@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/77d2310b637b490495d78b393ed6aa64)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://sdk.openui5.org/topic/77d2310b637b490495d78b393ed6aa64)</div>
 
 ## Binding Collection Inline Count
 
@@ -35,7 +35,7 @@ The OData V4 model allows for binding the inline count of the entity collection 
 </Table>
 ```
 
-The `ODataListBinding` provides a header context which holds header information like inline count for the list. Set the binding context for the relative property binding with path `"$count"` to the header context, see [ODataListBinding.getHeaderContext](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataListBinding.getHeaderContext). With this, the property binding's value is the list's inline count.
+The `ODataListBinding` provides a header context which holds header information like inline count for the list. Set the binding context for the relative property binding with path `"$count"` to the header context, see [ODataListBinding.getHeaderContext](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding.getHeaderContext). With this, the property binding's value is the list's inline count.
 
 **Example: Setting the header context for a property binding to $count**
 
@@ -49,7 +49,7 @@ setHeaderContext : function () {
 ```
 
 > ### Note:  
-> The header context needs to be set when the list binding has been resolved, for example after a relative binding has been given its context with [`sap.ui.base.ManagedObject#setBindingContext`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/setBindingContext) or by binding on a parent element with [`sap.ui.core.Element#bindElement`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Element/methods/bindElement). In case the list binding is resolved initially, it is sufficient to set the header context in [`sap.ui.core.mvc.Controller#onBeforeRendering`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.Controller/methods/onBeforeRendering).
+> The header context needs to be set when the list binding has been resolved, for example after a relative binding has been given its context with [`sap.ui.base.ManagedObject#setBindingContext`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/setBindingContext) or by binding on a parent element with [`sap.ui.core.Element#bindElement`](https://sdk.openui5.org/api/sap.ui.core.Element/methods/bindElement). In case the list binding is resolved initially, it is sufficient to set the header context in [`sap.ui.core.mvc.Controller#onBeforeRendering`](https://sdk.openui5.org/api/sap.ui.core.mvc.Controller/methods/onBeforeRendering).
 
 > ### Note:  
 > A property binding bound to the path `"$count"` may be part of a control hierarchy. When a parent control receives a different binding context than the list's header context, this binding context is propagated to the property binding. The property binding then fails to read its value as the context is not the header context and a console error is written.

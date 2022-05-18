@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://sdk.openui5.org/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
 
 ## Step 14: Adding Tabs
 
@@ -26,7 +26,7 @@ We want to display statistics for posts, for example, how many times it was view
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 14](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.14/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.14/preview).
 
 ***
 

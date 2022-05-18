@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/13e6f3bfc54c4bd7952403e20ff447e7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/13e6f3bfc54c4bd7952403e20ff447e7) | [demo kit latest release](https://sdk.openui5.org/topic/13e6f3bfc54c4bd7952403e20ff447e7)</div>
 
 ## How to Use Densities for Controls
 

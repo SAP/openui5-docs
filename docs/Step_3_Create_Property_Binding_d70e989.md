@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://sdk.openui5.org/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
 
 ## Step 3: Create Property Binding
 
@@ -26,7 +26,7 @@ Although there is no visible difference, the text on the screen is now derived f
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.databinding.03/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.03/preview).
 
 ***
 

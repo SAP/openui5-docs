@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b9a7d6f607f049988797b68b65e60901) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b9a7d6f607f049988797b68b65e60901)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b9a7d6f607f049988797b68b65e60901) | [demo kit latest release](https://sdk.openui5.org/topic/b9a7d6f607f049988797b68b65e60901)</div>
 
 ## Invisible Messaging
 

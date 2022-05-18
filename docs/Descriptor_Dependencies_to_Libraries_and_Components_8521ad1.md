@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://sdk.openui5.org/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
 
 ## Descriptor Dependencies to Libraries and Components
 
@@ -139,7 +139,7 @@ var oReuseComponentPromise = this.createComponent("myReuseComponent");
 
 ```
 
-The full list of options for the `createComponent` factory method can be found in the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component%23methods/createComponent). 
+The full list of options for the `createComponent` factory method can be found in the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/createComponent). 
 
 ***
 
@@ -154,7 +154,7 @@ For more information, see: [Using and Nesting Components](Using_and_Nesting_Comp
 
 [Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest components inside other components.")
 
-[API Reference: `loadLibrary`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Core%23methods/loadLibrary)
+[API Reference: `loadLibrary`](https://sdk.openui5.org/api/sap.ui.core.Core%23methods/loadLibrary)
 
-[API Reference: `sap.ui.core.Component`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Component)
+[API Reference: `sap.ui.core.Component`](https://sdk.openui5.org/api/sap.ui.core.Component)
 

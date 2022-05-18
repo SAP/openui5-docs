@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/e5ee491f69224f038a0c147480dbd436)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e5ee491f69224f038a0c147480dbd436) | [demo kit latest release](https://sdk.openui5.org/topic/e5ee491f69224f038a0c147480dbd436)</div>
 
 ## Step 8: Enhancing the Detail Page
 
@@ -31,7 +31,7 @@ With routing implemented, the model of the detail page is updated for each produ
 
 ### Coding
 
-You can view and download all files at [Flexible Column Layout App - Step 8](https://openui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.08/preview).
+You can view and download all files at [Flexible Column Layout App - Step 8](https://sdk.openui5.org/sample/sap.f.tutorial.fiori2.08/preview).
 
 ***
 
@@ -65,7 +65,7 @@ You can view and download all files at [Flexible Column Layout App - Step 8](htt
 					<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Center">
 						<m:FlexBox wrap="NoWrap" fitContainer="true" alignItems="Center" class="sapUiTinyMarginEnd">
 							<f:Avatar
-								src="https://ui5.sap.com/{products>ProductPicUrl}"
+								src="https://sdk.openui5.org/{products>ProductPicUrl}"
 								displaySize="S"
 								displayShape="Square"
 								class="sapUiTinyMarginEnd"/>
@@ -91,7 +91,7 @@ Using the `expandedHeading` and `snappedHeading` aggregations, we specify differ
 		<headerContent>
 			<m:FlexBox wrap="Wrap" fitContainer="true" alignItems="Stretch">
 				<f:Avatar
-					src="https://ui5.sap.com/{products>ProductPicUrl}"
+					src="https://sdk.openui5.org/{products>ProductPicUrl}"
 					displaySize="L"
 					displayShape="Square"
 					class="sapUiTinyMarginEnd">

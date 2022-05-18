@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/346599f0890d4dfaaa11c6b4ffa96312) | [demo kit latest release](https://sdk.openui5.org/topic/346599f0890d4dfaaa11c6b4ffa96312)</div>
 
 ## Using and Nesting Components
 
@@ -74,7 +74,7 @@ You load and create a `UIComponent` in one of the following ways:
 > ### Note:  
 > You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component.
 > 
-> See [ `ComponentContainer`](https://openui5.hana.ondemand.com/api/sap.ui.core.ComponentContainer#controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
+> See [ `ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer#controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
 
 ***
 
@@ -313,9 +313,9 @@ createContent: function() {
 
 [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 
-[API Reference: `sap.ui.core.ComponentContainer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.ComponentContainer.html)
+[API Reference: `sap.ui.core.ComponentContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.ComponentContainer.html)
 
-[API Reference: `sap.ui.core.ComponentContainer.setLifecycle`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.ComponentContainer/methods/setLifecycle)
+[API Reference: `sap.ui.core.ComponentContainer.setLifecycle`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer/methods/setLifecycle)
 
 [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 

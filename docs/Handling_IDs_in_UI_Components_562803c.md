@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/562803c6f55c49608d01a453cc0590ab) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/562803c6f55c49608d01a453cc0590ab)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/562803c6f55c49608d01a453cc0590ab) | [demo kit latest release](https://sdk.openui5.org/topic/562803c6f55c49608d01a453cc0590ab)</div>
 
 ## Handling IDs in UI Components
 

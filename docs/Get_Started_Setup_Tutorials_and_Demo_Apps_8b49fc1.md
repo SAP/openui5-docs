@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8b49fc198bf04b2d9800fc37fecbb218) | [demo kit latest release](https://sdk.openui5.org/topic/8b49fc198bf04b2d9800fc37fecbb218)</div>
 
 ## Get Started: Setup, Tutorials, and Demo Apps
 
@@ -90,7 +90,7 @@ You might have to adapt parts of the coding to your local development environmen
 
 -   **OpenUI5 Resources**
 
-    You can either download and deploy the runtime to your \(local\) Web server or reference the CDN version located at `https://openui5.hana.ondemand.com/resources/sap-ui-core.js`. Some development environments such as the SAP Web IDE also provide a local runtime for testing purposes. If you download the code from the samples in the Demo Kit, you will have to adapt the **resource path in the bootstrap section** of all HTML pages included in the project. In the tutorial code, we assume that OpenUI5 can be accessed from the `/resources` path of the server.
+    You can either download and deploy the runtime to your \(local\) Web server or reference the CDN version located at `https://sdk.openui5.org/resources/sap-ui-core.js`. Some development environments such as the SAP Web IDE also provide a local runtime for testing purposes. If you download the code from the samples in the Demo Kit, you will have to adapt the **resource path in the bootstrap section** of all HTML pages included in the project. In the tutorial code, we assume that OpenUI5 can be accessed from the `/resources` path of the server.
 
 -   **Accessing Remote Services**
 
@@ -113,7 +113,7 @@ If you can't fix the problem, try downloading the solution of the previews or cu
 
 ### See OpenUI5 in Action - Our Demo Apps
 
-If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://openui5.hana.ondemand.com/#/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
+If you want to see some practical examples for OpenUI5 apps, check out our [Demo Apps](https://sdk.openui5.org/demoapps). These are fully-functional apps that showcase certain floorplans, control libraries, or other OpenUI5 features. You can also download the source code of each demo app to find out how everything works together. Feel free to explore!
 
 -   **[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup
 		of OpenUI5 development environments.")**  

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4a9f063d4a4143d5b5c10416677f04b6) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4a9f063d4a4143d5b5c10416677f04b6)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4a9f063d4a4143d5b5c10416677f04b6) | [demo kit latest release](https://sdk.openui5.org/topic/4a9f063d4a4143d5b5c10416677f04b6)</div>
 
 ## Step 9: Adding the *Post* Page
 
@@ -26,7 +26,7 @@ Now that we have covered all kinds of tests for navigation, we introduce our *Po
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 9](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.09/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 9](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.09/preview).
 
 ***
 

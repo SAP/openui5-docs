@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/0c270b45dd904429ba634656e3a37a73)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://sdk.openui5.org/topic/0c270b45dd904429ba634656e3a37a73)</div>
 
 ## Step 12: Adding a Search
 
@@ -26,7 +26,7 @@ We now add a search field to our bulletin board and define a filter that represe
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 12](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.tutorial.testing.12/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 12](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.12/preview).
 
 ***
 

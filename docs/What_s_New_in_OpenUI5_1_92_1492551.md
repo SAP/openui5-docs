@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/1492551a0b8d4f58adc46eefcf58a2fa) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/1492551a0b8d4f58adc46eefcf58a2fa)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1492551a0b8d4f58adc46eefcf58a2fa) | [demo kit latest release](https://sdk.openui5.org/topic/1492551a0b8d4f58adc46eefcf58a2fa)</div>
 
 ## What's New in OpenUI5 1.92
 
@@ -25,7 +25,7 @@ With this release OpenUI5 is upgraded from version 1.91 to 1.92.
 
 **`sap.m.DynamicDateRange` \(Experimental\)**
 
-The new \(experimental\) `DynamicDateRange` control enables users to select absolute and relative dates and date ranges using a different offset from the current date. Application developers can configure the list of values offered. The `DynamicDateRange` control supports several standard options, but as a developer, you can also define a custom option that fits your specific use case. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.DynamicDateRange) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.DynamicDateRange).
+The new \(experimental\) `DynamicDateRange` control enables users to select absolute and relative dates and date ranges using a different offset from the current date. Application developers can configure the list of values offered. The `DynamicDateRange` control supports several standard options, but as a developer, you can also define a custom option that fits your specific use case. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DynamicDateRange) and the [Sample](https://sdk.openui5.org/entity/sap.m.DynamicDateRange).
 
 
 
@@ -74,7 +74,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **`sap.m.Dialog`**
 
-We have updated the colors of value-state status icons. Now, they have better color-contrast ratios for improved accessibility. For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Dialog/sample/sap.m.sample.DialogMessage).
+We have updated the colors of value-state status icons. Now, they have better color-contrast ratios for improved accessibility. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Dialog/sample/sap.m.sample.DialogMessage).
 
 
 
@@ -85,7 +85,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 
 **`sap.m.List, sap.m.Table, sap.m.Tree`**
 
-We have provided the new `requestItems` method that lets you load more data in a control. You can now trigger the growing feature manually, if the `growing` property is set to `true`. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.ListBase%23methods/requestItems).
+We have provided the new `requestItems` method that lets you load more data in a control. You can now trigger the growing feature manually, if the `growing` property is set to `true`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ListBase%23methods/requestItems).
 
 
 
@@ -96,7 +96,7 @@ We have provided the new `requestItems` method that lets you load more data in a
 
 **`sap.m.QuickViewPage`**
 
-The control now supports avatars, which display business objects, images, initials, and more. To enable this functionality, the `QuickViewPage` control uses `sap.m.Avatar` as an aggregation. The `icon` and `fallbackIcon` properties of the `QuickViewPage` are now deprecated. Instead, developers should use the functionality of the new `avatar` aggregation. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.QuickViewPage) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.QuickView/sample/sap.m.sample.QuickViewAvatarConfiguration).
+The control now supports avatars, which display business objects, images, initials, and more. To enable this functionality, the `QuickViewPage` control uses `sap.m.Avatar` as an aggregation. The `icon` and `fallbackIcon` properties of the `QuickViewPage` are now deprecated. Instead, developers should use the functionality of the new `avatar` aggregation. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.QuickViewPage) and the [Sample](https://sdk.openui5.org/entity/sap.m.QuickView/sample/sap.m.sample.QuickViewAvatarConfiguration).
 
 
 
@@ -114,7 +114,7 @@ The charts in the Analytical card now support \(in experimental state\) interact
 -   Open a popover with more details about the selected point defined by the `popover` \(experimental\) property.
 
 
-For more information, see the [Analytical Card](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/analytical) section and the [Chart Actions](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/analytical/chartActions) and [Details Popover](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/analytical/detailsPopover) samples in the Card Explorer.
+For more information, see the [Analytical Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/analytical) section and the [Chart Actions](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/analytical/chartActions) and [Details Popover](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/analytical/detailsPopover) samples in the Card Explorer.
 
 
 
@@ -125,7 +125,7 @@ For more information, see the [Analytical Card](https://openui5.hana.ondemand.co
 
 **`sap.ui.layout.ResponsiveSplitter`**
 
-We have added a new `resize` event, fired when the contents of the `sap.ui.layout.PaneContainer` are resized. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.layout.PaneContainer) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.ui.layout.ResponsiveSplitter/sample/sap.ui.layout.sample.ResponsiveSplitter).
+We have added a new `resize` event, fired when the contents of the `sap.ui.layout.PaneContainer` are resized. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.PaneContainer) and the [Sample](https://sdk.openui5.org/entity/sap.ui.layout.ResponsiveSplitter/sample/sap.ui.layout.sample.ResponsiveSplitter).
 
 
 
@@ -146,7 +146,7 @@ We have added a new `resize` event, fired when the contents of the `sap.ui.layou
 
 **Deprecation of String-Based Rendering**
 
-String-based rendering \(also known as "apiVersion 1" of a renderer\) has been deprecated. Please use the [Semantic Rendering API \("apiVersion 2"\)](https://openui5.hana.ondemand.com/#/api/sap.ui.core.RenderManager) instead.For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated).
+String-based rendering \(also known as "apiVersion 1" of a renderer\) has been deprecated. Please use the [Semantic Rendering API \("apiVersion 2"\)](https://sdk.openui5.org/api/sap.ui.core.RenderManager) instead.For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
 
 
 

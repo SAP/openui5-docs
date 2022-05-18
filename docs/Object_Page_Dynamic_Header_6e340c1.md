@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6e340c119ddd4c778b315f65a0432420)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://sdk.openui5.org/topic/6e340c119ddd4c778b315f65a0432420)</div>
 
 ## Object Page Dynamic Header
 
@@ -66,9 +66,9 @@ To populate the header content area, provide an array of desired controls to the
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
 
 [Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 

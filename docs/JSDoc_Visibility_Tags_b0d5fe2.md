@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c) | [demo kit latest release](https://sdk.openui5.org/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c)</div>
 
 ## JSDoc Visibility Tags
 
@@ -105,7 +105,7 @@ Indicates that the API, such as a class or method, is generally available for ap
 </td>
 <td valign="top">
 
- [`ManagedObject.prototype.getId`](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject%23methods/getId) 
+ [`ManagedObject.prototype.getId`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject%23methods/getId) 
 
 
 
@@ -149,7 +149,7 @@ The API might be used outside the relevant class or subclasses, but only in clos
 </td>
 <td valign="top">
 
- [`Control.prototype.invalidate`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.Control%23methods/invalidate) 
+ [`Control.prototype.invalidate`](https://sdk.openui5.org/api/sap.ui.core.Control%23methods/invalidate) 
 
 
 

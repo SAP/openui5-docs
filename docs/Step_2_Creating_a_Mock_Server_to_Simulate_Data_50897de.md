@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/50897decc9504b2a875fb41d89fd254a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://sdk.openui5.org/topic/50897decc9504b2a875fb41d89fd254a)</div>
 
 ## Step 2: Creating a Mock Server to Simulate Data
 
@@ -26,7 +26,7 @@ In this step, we use the OData V2 mock server to add data to our app without dep
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.mockserver.02/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.02/preview).
 
 ***
 
@@ -239,5 +239,5 @@ Just run the app now again with the `mockServer.html` file.. The list should now
 
 [Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[API Reference: `sap.ui.core.util.MockServer`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.util.MockServer.html)
+[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.util.MockServer.html)
 

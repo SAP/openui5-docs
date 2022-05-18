@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/5deb78f36022473487be44cb3a71140a) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/5deb78f36022473487be44cb3a71140a)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5deb78f36022473487be44cb3a71140a) | [demo kit latest release](https://sdk.openui5.org/topic/5deb78f36022473487be44cb3a71140a)</div>
 
 ## What's New in OpenUI5 1.100
 
@@ -89,11 +89,11 @@ The new flavors for the preview version of the *Horizon* visual theme for SAP Fi
 
 To preview the new theme flavors, see
 
--   [https://openui5.hana.ondemand.com/?sap-ui-theme=sap\_horizon\_dark\#/controls](https://openui5.hana.ondemand.com/?sap-ui-theme=sap_horizon_dark#/controls)
+-   [https://sdk.openui5.org/?sap-ui-theme=sap\_horizon\_dark\#/controls](https://sdk.openui5.org/?sap-ui-theme=sap_horizon_dark#/controls)
 
--   [https://openui5.hana.ondemand.com/?sap-ui-theme=sap\_horizon\_hcb\#/controls](https://openui5.hana.ondemand.com/?sap-ui-theme=sap_horizon_hcb#/controls)
+-   [https://sdk.openui5.org/?sap-ui-theme=sap\_horizon\_hcb\#/controls](https://sdk.openui5.org/?sap-ui-theme=sap_horizon_hcb#/controls)
 
--   [https://openui5.hana.ondemand.com/?sap-ui-theme=sap\_horizon\_hcw\#/controls](https://openui5.hana.ondemand.com/?sap-ui-theme=sap_horizon_hcw#/controls)
+-   [https://sdk.openui5.org/?sap-ui-theme=sap\_horizon\_hcw\#/controls](https://sdk.openui5.org/?sap-ui-theme=sap_horizon_hcw#/controls)
 
 
 > ### Note:  
@@ -118,7 +118,7 @@ To preview the new theme flavors, see
 
 **OpenUI5 OData V2 Model**
 
-You can now access the status of a `Context` in bindings with the `@$ui5.context.isInactive` and `@$ui5.context.isTransient` instance annotations.For more information, see the [API Reference for `#isInactive`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isInactive) and the [API Reference for `#isTransient`](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v2.Context%23methods/isTransient).
+You can now access the status of a `Context` in bindings with the `@$ui5.context.isInactive` and `@$ui5.context.isTransient` instance annotations.For more information, see the [API Reference for `#isInactive`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context%23methods/isInactive) and the [API Reference for `#isTransient`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context%23methods/isTransient).
 
 
 
@@ -131,7 +131,7 @@ You can now access the status of a `Context` in bindings with the `@$ui5.context
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
--   The `sap.ui.model.odata.v4.ODataModel#getKeepAliveContext` method introduced with OpenUI5 1.99 also works if either no context exists in the identified list binding or if no list binding could be identified at all.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) and [Relative Bindings](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_relativeBindings).
+-   The `sap.ui.model.odata.v4.ODataModel#getKeepAliveContext` method introduced with OpenUI5 1.99 also works if either no context exists in the identified list binding or if no list binding could be identified at all.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext) and [Relative Bindings](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_relativeBindings).
 
 -   You can now refresh a list binding with transient records.
 
@@ -155,7 +155,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **`sap.m.QuickView`**
 
-Тhe control now displays a language-dependent “–” symbol when the text for a value is empty. For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.QuickView) and the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.QuickViewCard/sample/sap.m.sample.QuickViewCard).
+Тhe control now displays a language-dependent “–” symbol when the text for a value is empty. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.QuickView) and the [Sample](https://sdk.openui5.org/entity/sap.m.QuickViewCard/sample/sap.m.sample.QuickViewCard).
 
 
 
@@ -166,7 +166,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 **`sap.m.Select`**
 
-The `sap.m.Select` control has a new `liveChange` event that fires when the user navigates to a different item.For more information, see the [API Reference](https://openui5.hana.ondemand.com/#/api/sap.m.Select).
+The `sap.m.Select` control has a new `liveChange` event that fires when the user navigates to a different item.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Select).
 
 
 
@@ -177,11 +177,11 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 
 **`sap.ui.integration.widgets.Card`**
 
--   The `showMessage` method is now \(experimentally\) available for all card types. It allows developers to display a message to the user. For more information, see the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension/showMessage) in the Card Explorer.
+-   The `showMessage` method is now \(experimentally\) available for all card types. It allows developers to display a message to the user. For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension/showMessage) in the Card Explorer.
 
--   We have introduced a new `initials` formatter, which creates initials from names. The default length of the returned initials is 2, but you can control it using the optional `length` property. For more information, see the [Initials Formatter](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/formatters/initials) section and the [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/initials) in the Card Explorer.
+-   We have introduced a new `initials` formatter, which creates initials from names. The default length of the returned initials is 2, but you can control it using the optional `length` property. For more information, see the [Initials Formatter](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/formatters/initials) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/initials) in the Card Explorer.
 
--   We have added a new [Sample](https://openui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/encodeURIComponent) that demonstrates how you can use expression binding with `EncodeURIComponent` formatter. Expression binding also supports some of the native JS functions like `Array`, `Boolean`, `Date`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `parseFloat`, `parseInt`, `RegExp`, `String`, and `undefined`.
+-   We have added a new [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/encodeURIComponent) that demonstrates how you can use expression binding with `EncodeURIComponent` formatter. Expression binding also supports some of the native JS functions like `Array`, `Boolean`, `Date`, `Infinity`, `isFinite`, `isNaN`, `JSON`, `Math`, `NaN`, `Number`, `Object`, `parseFloat`, `parseInt`, `RegExp`, `String`, and `undefined`.
 
 
 
@@ -201,7 +201,7 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 <tr>
 <td valign="top">
 
-There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://openui5.hana.ondemand.com/#/api/deprecated). 
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated). 
 
 
 

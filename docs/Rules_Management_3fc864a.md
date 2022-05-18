@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3fc864acf926406194744375aa464fe7) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3fc864acf926406194744375aa464fe7)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3fc864acf926406194744375aa464fe7) | [demo kit latest release](https://sdk.openui5.org/topic/3fc864acf926406194744375aa464fe7)</div>
 
 ## Rules Management
 

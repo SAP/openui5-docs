@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://sdk.openui5.org/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
 
 ## Value Lists
 
@@ -100,13 +100,13 @@ There are two options to place the `ValueList` annotation:
 
 [OData 4.0 Vocabularies - SAP Common \> ValueListMappingType](https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common#ValueListMappingType)
 
-[sap.ui.model.odata.v4.ValueListType](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.v4.ValueListType.html)
+[sap.ui.model.odata.v4.ValueListType](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ValueListType.html)
 
-[sap.ui.model.odata.v4.ODataPropertyBinding\#getValueListType](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/getValueListType)
+[sap.ui.model.odata.v4.ODataPropertyBinding\#getValueListType](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/getValueListType)
 
-[sap.ui.model.odata.v4.ODataPropertyBinding\#requestValueListInfo](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/requestValueListInfo)
+[sap.ui.model.odata.v4.ODataPropertyBinding\#requestValueListInfo](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/requestValueListInfo)
 
-[sap.ui.model.odata.v4.ODataMetaModel\#getValueListType](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/getValueListType)
+[sap.ui.model.odata.v4.ODataMetaModel\#getValueListType](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/getValueListType)
 
-[sap.ui.model.odata.v4.ODataMetaModel\#requestValueListInfo](https://openui5.hana.ondemand.com/#/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestValueListInfo)
+[sap.ui.model.odata.v4.ODataMetaModel\#requestValueListInfo](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestValueListInfo)
 

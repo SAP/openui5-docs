@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/96bb6e06fa22491fa65a5040f6da099c) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/96bb6e06fa22491fa65a5040f6da099c)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/96bb6e06fa22491fa65a5040f6da099c) | [demo kit latest release](https://sdk.openui5.org/topic/96bb6e06fa22491fa65a5040f6da099c)</div>
 
 ## Step 3: Automatic Data Type Detection
 
@@ -32,7 +32,7 @@ The OData V4 Model utilizes this information to compute the corresponding OpenUI
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 3](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.odatav4.03/preview).
+You can view and download all files at [OData V4 - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.03/preview).
 
 ***
 
@@ -119,7 +119,7 @@ To make the *First Name* optional, we remove the parameter `Nullable="false"` fr
 
 [Type Determination](Type_Determination_53cdd55.md "")
 
-[API Reference: `sap.ui.model.odata.type`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.model.odata.type.html)
+[API Reference: `sap.ui.model.odata.type`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.type.html)
 
-[Sample for `sap.ui.core.mvc.XMLView`: *XML Templating: UI5 OData types*](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.sample.ViewTemplate.types/preview)
+[Sample for `sap.ui.core.mvc.XMLView`: *XML Templating: UI5 OData types*](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.ViewTemplate.types/preview)
 

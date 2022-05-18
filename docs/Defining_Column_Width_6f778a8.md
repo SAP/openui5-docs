@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/6f778a805bc3453dbb66e246d8271839)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://sdk.openui5.org/topic/6f778a805bc3453dbb66e246d8271839)</div>
 
 ## Defining Column Width
 
@@ -27,7 +27,7 @@ There are a few things to keep in mind when defining the width of the column:
     > What if there is a `Selection` \(3rem width\), `Navigation` \(3rem width\), or `Deletion` \(3rem width\)? In this case, the total width would be 100% plus 6rem. If the total width is less than 100%, for example, one column with 20% and the other column with 40%, the total width would be 60% plus 6rem. By default, `Table` itself is in fixed layout mode and has a width of 100%. The browser needs to split up the width as it does not fit a 100% width. In some cases, browsers might handle this correctly, but you should avoid it. As mentioned, leaving the most important column width empty or set to `auto` fixes this problem because then the column will be flexible and cover the available space.
 
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TableColumnWidth/preview).
+For more information, see the [Sample](https://sdk.openui5.org/sample/sap.m.sample.TableColumnWidth/preview).
 
 ***
 
@@ -39,13 +39,13 @@ There might be cases where you need to define a static width \(px, em, or %\) fo
 
 ![](images/loiobbde60a7988c47749f431b5ecd6622ef_LowRes.png)
 
-For more information, see the [Sample](https://openui5.hana.ondemand.com/#/entity/sap.m.Table/sample/sap.m.sample.TableStrictLayout). 
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.TableStrictLayout). 
 
 ***
 
 ### API Reference
 
--   [sap.m.Column](https://openui5.hana.ondemand.com/#/api/sap.m.Column)
--   [sap.m.ScreenSize](https://openui5.hana.ondemand.com/#/api/sap.m.ScreenSize)
--   [sap.m.Table/getFixedLayout](https://openui5.hana.ondemand.com/#/api/sap.m.Table%23methods/getFixedLayout)
+-   [sap.m.Column](https://sdk.openui5.org/api/sap.m.Column)
+-   [sap.m.ScreenSize](https://sdk.openui5.org/api/sap.m.ScreenSize)
+-   [sap.m.Table/getFixedLayout](https://sdk.openui5.org/api/sap.m.Table%23methods/getFixedLayout)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4cfa60872dca462cb87148ccd0d948ee) | [demo kit latest release](https://sdk.openui5.org/topic/4cfa60872dca462cb87148ccd0d948ee)</div>
 
 ## Step 9: Component Configuration
 
@@ -29,7 +29,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).
+You can view and download all files at [Walkthrough - Step 9](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.09).
 
   
   
@@ -181,9 +181,9 @@ We now create a component container instead of the view in our `index.js` that i
 
 [Components](Components_958ead5.md "Components are independent and reusable parts used in OpenUI5 applications.")
 
-[API Reference: `sap.ui.core.mvc.ViewType`](https://openui5.hana.ondemand.com/#/api/sap.ui.core.mvc.ViewType)
+[API Reference: `sap.ui.core.mvc.ViewType`](https://sdk.openui5.org/api/sap.ui.core.mvc.ViewType)
 
-[Samples: `sap.ui.core.mvc.ViewType` ](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.mvc.ViewType)
+[Samples: `sap.ui.core.mvc.ViewType` ](https://sdk.openui5.org/entity/sap.ui.core.mvc.ViewType)
 
 [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
 

@@ -6,14 +6,14 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/3ec6808ff0f34a75a9f40748cf9989b9) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/3ec6808ff0f34a75a9f40748cf9989b9)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3ec6808ff0f34a75a9f40748cf9989b9) | [demo kit latest release](https://sdk.openui5.org/topic/3ec6808ff0f34a75a9f40748cf9989b9)</div>
 
 ## More About Controls
 
 OpenUI5 contains controls that are provided with multiple libraries. This section contains detailed information about some of the controls beyond the information provided in the API reference.
 
 > ### Note:  
-> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://openui5.hana.ondemand.com/#/api) and the [Samples](https://openui5.hana.ondemand.com/#/controls). 
+> The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://sdk.openui5.org/api) and the [Samples](https://sdk.openui5.org/controls). 
 
 -   **[Busy Indicators](Busy_Indicators_0dd2110.md "You use busy indicators to inform users that something is going on in the background,
 		for example, some data is being fetched from the back end and the user has to wait. As long

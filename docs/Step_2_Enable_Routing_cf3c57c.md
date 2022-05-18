@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/cf3c57c89ef0491793d1ce327ab4f9b2)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cf3c57c89ef0491793d1ce327ab4f9b2) | [demo kit latest release](https://sdk.openui5.org/topic/cf3c57c89ef0491793d1ce327ab4f9b2)</div>
 
 ## Step 2: Enable Routing
 
@@ -26,7 +26,7 @@ In this step we will modify the app and introduce routing. Instead of having the
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 2](https://openui5.hana.ondemand.com/explored.html#/sample/sap.ui.core.tutorial.navigation.02/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.02/preview).
 
    
   
@@ -226,11 +226,11 @@ Create a file `Home.controller.js` in the `webapp/controller` folder. The contro
 
 [Routing and Navigation](Routing_and_Navigation_3d18f20.md "OpenUI5 offers hash-based navigation, which allows you to build single-page apps where the navigation is done by changing the hash. In this way the browser does not have to reload the page; instead there is a callback to which the app and especially the affected view can react. A hash string is parsed and matched against patterns which will then inform the handlers.")
 
-[API Reference: `sap.ui.core.routing`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.html)
+[API Reference: `sap.ui.core.routing`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.html)
 
-[API Reference: `sap.ui.core.routing.Route`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.core.routing.Route.html)
+[API Reference: `sap.ui.core.routing.Route`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Route.html)
 
-[API Reference: `sap.ui.core.routing.Route`: Constructor Detail](https://openui5.hana.ondemand.com/#/api/sap.ui.core.routing.Route/constructor)
+[API Reference: `sap.ui.core.routing.Route`: Constructor Detail](https://sdk.openui5.org/api/sap.ui.core.routing.Route/constructor)
 
-[API Reference: `sap.m.routing.Router`](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
 

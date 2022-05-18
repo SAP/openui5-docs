@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/ec445816634f45eb88a7e559187dac46) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/ec445816634f45eb88a7e559187dac46)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ec445816634f45eb88a7e559187dac46) | [demo kit latest release](https://sdk.openui5.org/topic/ec445816634f45eb88a7e559187dac46)</div>
 
 ## Step 9: List-Detail Scenario
 
@@ -30,7 +30,7 @@ In this step we add a detail area with additional information.
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 9](https://openui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.09/code).
+You can view and download all files at [OData V4 - Step 9](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.09/code).
 
 ***
 

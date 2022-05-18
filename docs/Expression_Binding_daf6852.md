@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0) | [demo kit latest release](https://openui5.hana.ondemand.com/#/topic/daf6852a04b44d118963968a1239d2c0)</div>
+view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/daf6852a04b44d118963968a1239d2c0) | [demo kit latest release](https://sdk.openui5.org/topic/daf6852a04b44d118963968a1239d2c0)</div>
 
 ## Expression Binding
 
@@ -37,7 +37,7 @@ The syntax of the `expression` is similar to JavaScript syntax, but you can only
 -   <code>%{<b>binding</b>}</code>
 
 
-`binding` can either be a simple path, or a complex binding. The embedded binding <code>${<b>binding</b>}</code> delivers a value formatted according to the target type of the control property the expression binding applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{= ${status} === 'critical' }">`. This can be undesirable or even lead to errors, for example, if OData V4 automatically adds the correct type for the “status” property which is string-like, not boolean. In such cases, use the syntax `%{binding}` instead. It is just a shortcut for `${path : 'binding', targetType : 'any'}`. In rare cases, you might also want to specify a different “targetType”, for example “string”, “boolean”, “int” or “float”. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://openui5.hana.ondemand.com/docs/api/symbols/sap.ui.model.odata.type.html) API documentation or explore the [XML Templating: UI5 OData Types](https://openui5.hana.ondemand.com/#/sample/sap.ui.core.sample.ViewTemplate.types/preview) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://openui5.hana.ondemand.com/#/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
+`binding` can either be a simple path, or a complex binding. The embedded binding <code>${<b>binding</b>}</code> delivers a value formatted according to the target type of the control property the expression binding applies to, for example, “boolean” in case of `<Icon src="sap-icon://message-warning" visible="{= ${status} === 'critical' }">`. This can be undesirable or even lead to errors, for example, if OData V4 automatically adds the correct type for the “status” property which is string-like, not boolean. In such cases, use the syntax `%{binding}` instead. It is just a shortcut for `${path : 'binding', targetType : 'any'}`. In rare cases, you might also want to specify a different “targetType”, for example “string”, “boolean”, “int” or “float”. For more information how these values relate to OData types, see the [sap.ui.model.odata.type](https://sdk.openui5.org/docs/api/symbols/sap.ui.model.odata.type.html) API documentation or explore the [XML Templating: UI5 OData Types](https://sdk.openui5.org/sample/sap.ui.core.sample.ViewTemplate.types/preview) sample in the Demo Kit. For more information about `targetType`, see the [sap.ui.base.ManagedObject\#bindProperty](https://sdk.openui5.org/api/sap.ui.base.ManagedObject/methods/bindProperty) API documentation in the Demo Kit.
 
 > ### Note:  
 > Expression binding can also be used with JavaScript. For example:
