@@ -53,7 +53,7 @@ The `ODataListBinding` allows to set static and dynamic filters:
 
 -   To set a static filter, use the `$filter` system query option in the binding parameters. The static filter value is sent with every data service request for the binding; you may specify any filter value allowed in OData V4. The static filter cannot be overwritten for an existing binding.
 
--   The dynamic filter is an instance of [sap.ui.model.Filter](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Filter.html) , or an array thereof. For an array, the filters are combined with a logical AND. You can set the initial value for the dynamic filter in [ODataModel.bindList](https://sdk.openui5.orgdocs/api/symbols/ODataModel.bindList.html) or declaratively in an XML view with the `filters` property in an aggregation's binding information. To set the dynamic filter, use the [ODataListBinding.filter](https://sdk.openui5.orgdocs/api/symbols/ODataListBinding.filter.html) method. This filter overwrites the initial value specified on binding construction.
+-   The dynamic filter is an instance of [sap.ui.model.Filter](https://sdk.openui5.org/api/sap.ui.model.Filter) , or an array thereof. For an array, the filters are combined with a logical AND. You can set the initial value for the dynamic filter in [ODataModel.bindList](https://sdk.openui5.org/api/ODataModel.bindList) or declaratively in an XML view with the `filters` property in an aggregation's binding information. To set the dynamic filter, use the [ODataListBinding.filter](https://sdk.openui5.org/api/ODataListBinding.filter) method. This filter overwrites the initial value specified on binding construction.
 
 
 The `ODataListBinding` combines the dynamic filter and static filter with a logical AND.
@@ -86,7 +86,7 @@ The example above filters the `Equipments` entity set by `Category` \(static fil
 
 ### Filtering with Any and All
 
-The OData V4 model also supports the Lambda Operators `any` and `all` as defined in section 5.1.1.10 of the [OData Version 4.0. Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752358) specification. They are represented by [sap.ui.model.Filter](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Filter.html) objects with filter operators [sap.ui.model.FilterOperator.Any](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties) and [sap.ui.model.FilterOperator.All](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties).
+The OData V4 model also supports the Lambda Operators `any` and `all` as defined in section 5.1.1.10 of the [OData Version 4.0. Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752358) specification. They are represented by [sap.ui.model.Filter](https://sdk.openui5.org/api/sap.ui.model.Filter) objects with filter operators [sap.ui.model.FilterOperator.Any](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties) and [sap.ui.model.FilterOperator.All](https://sdk.openui5.org/api/sap.ui.model.FilterOperator/properties).
 
 Example:
 
@@ -165,5 +165,5 @@ The resulting request would be: **`http://host/service/TEAMS?$filter=TEAM_2_EMPL
 **Related Information**  
 
 
-[sap.ui.model.odata.OperationMode.Server](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.OperationMode.html%23.Server)
+[sap.ui.model.odata.OperationMode.Server](https://sdk.openui5.org/api/sap.ui.model.odata.OperationMode/properties)
 

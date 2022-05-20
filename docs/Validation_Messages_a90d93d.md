@@ -28,7 +28,7 @@ Example: `label0/text`
 
 ### Lifecycle
 
-Validation messages are added with a target referencing a control and its specific property. The messages are kept until a validation message for the property is created and assigned. If new data for the same property is received from the server, the valdation messages are erased unless their `persistent` property is set to `true`.
+Validation messages are added with a target referencing a control and its specific property. The messages are kept until a validation message for the property is created and assigned. If new data for the same property is received from the server, the validation messages are erased unless their `persistent` property is set to `true`.
 
 ***
 
@@ -122,7 +122,7 @@ oMessageManager.addMessages(
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.ControlMessageProcessor`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.ControlMessageProcessor.html)
+[API Reference: `sap.ui.core.ControlMessageProcessor`](https://sdk.openui5.org/api/sap.ui.core.ControlMessageProcessor)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessageManager.html)
+[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.org/api/sap.ui.core.message.MessageManager)
 

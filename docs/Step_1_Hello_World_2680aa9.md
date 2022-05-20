@@ -26,7 +26,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.01/preview).
+You can view and download all files at [Walkthrough - Step 1](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.01).
 
 ```html
 <!DOCTYPE html>

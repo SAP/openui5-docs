@@ -15,7 +15,7 @@ Gherkin is compatible with the concept of OPA5 page objects.
 OPA5 page objects are a method for architecting integration testing to make test components more intuitive and reusable. For more information about OPA page objects, see [Structuring OPA Tests With Page Objects](Structuring_OPA_Tests_With_Page_Objects_f2f843d.md).
 
 > ### Note:  
-> You can find a sample implementation in the *Samples* in the Demo Kit at [Using Gherkin with OPA5 Page Objects](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithPageObjects/preview).
+> You can find a sample implementation in the *Samples* in the Demo Kit at [Using Gherkin with OPA5 Page Objects](https://sdk.openui5.org/entity/sap.ui.test.Opa5/sample/sap.ui.core.sample.gherkin.GherkinWithPageObjects).
 
 To make Gherkin work with page objects, you should load your OPA5 page objects in the HTML bootstrap file, as shown in the sample. The only adaptation you need to make when starting the Gherkin testing is to add the parameter `generateMissingSteps` when calling `opa5TestHarness.test`:
 

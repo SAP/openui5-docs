@@ -20,8 +20,8 @@ In this step, we'll create a second button on the home page, with which we can n
   
 <a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_r1j_pst_mr"/>*Show Employee List* button on the *Home* page
 
- ![](images/loiof0f4fd7d2626458aa1632467eaf964a0_LowRes.png "Show Employee List button on the Home
-					page") 
+ ![](images/loiof0f4fd7d2626458aa1632467eaf964a0_LowRes.png "Show Employee List button on the
+						Home page") 
 
    
   
@@ -33,7 +33,7 @@ In this step, we'll create a second button on the home page, with which we can n
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.06/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 6](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.06).
 
    
   
@@ -239,5 +239,5 @@ Now you can open the app and press the *Show Employee List* button to navigate t
 
 [Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method and events for navigation.")
 
-[API Reference: `sap.ui.core.routing.Route`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Route.html)
+[API Reference: `sap.ui.core.routing.Route`](https://sdk.openui5.org/api/sap.ui.core.routing.Route)
 

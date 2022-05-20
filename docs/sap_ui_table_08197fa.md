@@ -35,7 +35,7 @@ OData as a RESTful protocol provides a specified and a generalized way to access
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData services.")
 
-[API Reference: `sap.ui.table`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.table.html)
+[API Reference: `sap.ui.table`](https://sdk.openui5.org/api/sap.ui.table)
 
 [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md "The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.")
 

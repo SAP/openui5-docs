@@ -32,7 +32,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 29](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.29/preview).
+You can view and download all files at [Walkthrough - Step 29](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.29).
 
 ```xml
 <mvc:View

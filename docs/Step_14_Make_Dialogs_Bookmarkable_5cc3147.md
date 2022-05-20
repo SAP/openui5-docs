@@ -26,7 +26,7 @@ In this step, we want to allow bookmarking of the dialog box that is opened when
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.14/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 14](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.14).
 
 ***
 

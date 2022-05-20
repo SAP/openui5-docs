@@ -29,7 +29,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.10/preview).
+You can view and download all files at [Walkthrough - Step 10](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.10).
 
 > ### Caution:  
 > Automatic model instantiation is only available as of OpenUI5 version 1.30. If you are using an older version, you can manually instantiate the resource bundle and other models of the app in the `init` method of the `Component.js` file as we did in [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md).

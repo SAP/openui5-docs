@@ -42,8 +42,7 @@ The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\).
   
 <a name="loio6e340c119ddd4c778b315f65a0432420__fig_rqm_llz_sbb"/>Pinning the Header to Remain Expanded when Scrolling the Page
 
- ![](images/loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the
-				Page") 
+ ![](images/loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the Page") 
 
 ***
 
@@ -66,9 +65,9 @@ To populate the header content area, provide an array of desired controls to the
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.org/api/sap.uxap.ObjectPageDynamicHeaderTitle)
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.org/api/sap.uxap.ObjectPageLayout)
 
 [Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 

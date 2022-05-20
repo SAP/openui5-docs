@@ -29,7 +29,7 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.04/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 4](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.04).
 
 ***
 
@@ -160,7 +160,7 @@ You can now call the unit tests and check the result. As in the previous step, t
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.SimpleType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.SimpleType.html)
+[API Reference: `sap.ui.model.SimpleType`](https://sdk.openui5.org/api/sap.ui.model.SimpleType)
 
 [API Reference: `sap.ui.require`](https://sdk.openui5.org/api/sap.ui/methods/sap.ui.require)
 

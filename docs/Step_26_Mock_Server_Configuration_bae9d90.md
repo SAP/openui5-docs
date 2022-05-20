@@ -28,7 +28,7 @@ This system is the so-called back-end system that we will now simulate with an O
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 26](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.26/preview).
+You can view and download all files at [Walkthrough - Step 26](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.26).
 
    
   
@@ -305,7 +305,7 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 
 [Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.util.MockServer.html)
+[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.org/api/sap.ui.core.util.MockServer)
 
 [Create a Northwind Destination](Create_a_Northwind_Destination_3a16c7a.md "Configure a destination in the SAP BTP Cockpit in order to bypass the same-origin policy of the browser.")
 

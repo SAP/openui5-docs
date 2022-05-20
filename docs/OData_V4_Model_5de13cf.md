@@ -33,7 +33,7 @@ The OData V4 model supports the following:
 
 
 > ### Note:  
-> The OData V4 model documentation contains several code samples. These refer to the [Sales Orders](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview) sample in the Demo Kit.
+> The OData V4 model documentation contains several code samples. These refer to the [Sales Orders](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders) sample in the Demo Kit.
 
 -   **[Model Instantiation and Data Access](Model_Instantiation_and_Data_Access_9613f1f.md "One OData V4 model instance can only cover one OData service. This section describes the
 		creation of a model instance in more detail.")**  
@@ -105,7 +105,7 @@ For amounts or measures, you may sometimes need different currencies or units th
 
 [Changes Compared to OData V2 Model](Changes_Compared_to_OData_V2_Model_abd4d7c.md "This section outlines the main differences between the OData V2 and OData V4 models.")
 
-[sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataModel.html)
+[sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel)
 
-[Sample: Sales Orders](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.odata.v4.SalesOrders/preview)
+[Sample: Sales Orders](https://sdk.openui5.org/entity/sap.ui.model.odata.v4.ODataModel/sample/sap.ui.core.sample.odata.v4.SalesOrders)
 

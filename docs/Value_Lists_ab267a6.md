@@ -100,7 +100,7 @@ There are two options to place the `ValueList` annotation:
 
 [OData 4.0 Vocabularies - SAP Common \> ValueListMappingType](https://wiki.scn.sap.com/wiki/display/EmTech/OData+4.0+Vocabularies+-+SAP+Common#ValueListMappingType)
 
-[sap.ui.model.odata.v4.ValueListType](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ValueListType.html)
+[sap.ui.model.odata.v4.ValueListType](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ValueListType)
 
 [sap.ui.model.odata.v4.ODataPropertyBinding\#getValueListType](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding/methods/getValueListType)
 

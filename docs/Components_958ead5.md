@@ -78,8 +78,10 @@ The following list explains how other concepts used in OpenUI5 are distinguished
 
 -   **[Component.js File](Component_js_File_27ce0e4.md "The Component.js file is the component controller and provides the runtime metadata and the component methods.")**  
 The `Component.js` file is the component controller and provides the runtime metadata and the component methods.
--   **[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a UIComponent and reuse it anywhere within the OpenUI5 control tree. With the ComponentContainer you can nest
-		components inside other components.")**  
+-   **[Using and Nesting Components](Using_and_Nesting_Components_346599f.md "You can use a ComponentContainer to wrap a
+			UIComponent and reuse it anywhere within the OpenUI5 control tree. With the
+			ComponentContainer you can nest components inside other
+		components.")**  
 You can use a `ComponentContainer` to wrap a `UIComponent` and reuse it anywhere within the OpenUI5 control tree. With the `ComponentContainer` you can nest components inside other components.
 -   **[Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md "The declarative API enables you to define the initially started component directly in
 		the HTML markup.")**  
@@ -96,5 +98,5 @@ Advanced concepts for components include routing and navigation and component da
 
 [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md "The descriptor for applications, components, and libraries (in short: app descriptor) is inspired by the WebApplication Manifest concept introduced by the W3C. The descriptor provides a central, machine-readable, and easy-to-access location for storing metadata associated with an application, an application component, or a library.")
 
-[API Reference: `sap.ui.core.Component`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Component.html)
+[API Reference: `sap.ui.core.Component`](https://sdk.openui5.org/api/sap.ui.core.Component)
 

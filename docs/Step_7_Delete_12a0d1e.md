@@ -30,7 +30,7 @@ In this step, we make it possible to delete user data.
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.07/preview).
+You can view and download all files at [OData V4 - Step 7](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.07).
 
 ***
 

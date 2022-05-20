@@ -189,17 +189,17 @@ With the use of the `sap.uxap.ObjectPageHeaderLayoutData` class, you can specify
   
 <a name="loio0fecbce45e39406aa939bd25e89823f4__fig_azb_j1n_ccb"/>Header Content with `sap.uxap.ObjectPageHeaderLayoutData` - large, middle and small-sized layout
 
- ![](images/loio40e357c0789d4982a5223ea6f9143315_LowRes.gif "Header Content with sap.uxap.ObjectPageHeaderLayoutData - large, middle
-					and small-sized layout") 
+ ![](images/loio40e357c0789d4982a5223ea6f9143315_LowRes.gif "Header Content with sap.uxap.ObjectPageHeaderLayoutData -
+					large, middle and small-sized layout") 
 
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.org/api/sap.uxap.ObjectPageHeader)
 
-[API Reference: `sap.uxap.ObjectPageHeaderLayoutData`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageHeaderLayoutData.html)
+[API Reference: `sap.uxap.ObjectPageHeaderLayoutData`](https://sdk.openui5.org/api/sap.uxap.ObjectPageHeaderLayoutData)
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.org/api/sap.uxap.ObjectPageLayout)
 
 [Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic header and dynamic header.")
 

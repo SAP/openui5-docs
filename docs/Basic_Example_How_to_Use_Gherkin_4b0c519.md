@@ -34,7 +34,7 @@ The ideal pattern for a BDD iteration goes like this:
 
 
 > ### Note:  
-> You can find the code for this example in the *Samples* in the Demo Kit at [Using Gherkin with OPA5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.gherkin.GherkinWithOPA5/preview).
+> You can find the code for this example in the *Samples* in the Demo Kit at [Using Gherkin with OPA5](https://sdk.openui5.org/entity/sap.ui.test.Opa5/sample/sap.ui.core.sample.gherkin.GherkinWithOPA5).
 
 ***
 
@@ -93,11 +93,11 @@ sap.ui.define([
 
 ```
 
-To execute Gherkin tests, you need to find a version of SAPUI5 or OpenUI5 that works for you. Here are some possibilities, sorted in order from most stable to least stable:
+To execute Gherkin tests, you need to find a version of SAPUI5 or OpenUI5 that works for you. Here are some possibilities with different stability:
 
--   Stable: `https://sdk.openui5.org/resources/sap-ui-core.js` or `https://sdk.openui5.org/resources/sap-ui-core.js`
+-   Stable: `https://sdk.openui5.org/resources/sap-ui-core.js`
 
--   Beta: `https://openui5beta.hana.ondemand.com/resources/sap-ui-core.js`
+-   Stable: `https://sdk.openui5.org/resources/sap-ui-core.js`
 
 -   Nightly: `https://openui5nightly.hana.ondemand.com/resources/sap-ui-core.js`
 

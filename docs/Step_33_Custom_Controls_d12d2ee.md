@@ -26,7 +26,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 33](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.33/preview).
+You can view and download all files at [Walkthrough - Step 33](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.33).
 
 ```js
 sap.ui.define([
@@ -330,21 +330,21 @@ The resource bundle is extended with the confirmation message and the strings th
 
 [Defining the Control Metadata](Defining_the_Control_Metadata_7b52540.md "Control metadata consists of properties, events, as well as aggregations and associations.")
 
-[API Reference: `sap.m.RatingIndicator`](https://sdk.openui5.orgdocs/api/symbols/sap.m.RatingIndicator.html)
+[API Reference: `sap.m.RatingIndicator`](https://sdk.openui5.org/api/sap.m.RatingIndicator)
 
-[Samples: `sap.m.RatingIndicator` ](https://sdk.openui5.org/explored.html#/entity/sap.m.RatingIndicator/samples)
+[Samples: `sap.m.RatingIndicator` ](https://sdk.openui5.org/entity/sap.m.RatingIndicator)
 
-[API Reference: `sap.m.Label`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Label.html)
+[API Reference: `sap.m.Label`](https://sdk.openui5.org/api/sap.m.Label)
 
-[Samples: `sap.m.Label` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Label/samples)
+[Samples: `sap.m.Label` ](https://sdk.openui5.org/entity/sap.m.Label)
 
-[API Reference: `sap.m.Button`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Button.html)
+[API Reference: `sap.m.Button`](https://sdk.openui5.org/api/sap.m.Button)
 
-[Samples: `sap.m.Button` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Button/samples)
+[Samples: `sap.m.Button` ](https://sdk.openui5.org/entity/sap.m.Button)
 
-[API Reference: `sap.ui.core.Control`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Control.html)
+[API Reference: `sap.ui.core.Control`](https://sdk.openui5.org/api/sap.ui.core.Control)
 
-[API Reference: `sap.ui.core.Element`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Element.html)
+[API Reference: `sap.ui.core.Element`](https://sdk.openui5.org/api/sap.ui.core.Element)
 
-[API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.ManagedObject.html)
+[API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject)
 

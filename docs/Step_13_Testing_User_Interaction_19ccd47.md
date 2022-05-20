@@ -26,7 +26,7 @@ In this step we want to write a test that simulates user interaction with an ico
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.13/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 13](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.13).
 
 ***
 
@@ -153,7 +153,7 @@ In the `assert` part we add a new assertion for checking the visibility of a con
 **Related Information**  
 
 
-[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.orgdocs/api/symbols/sap.m.IconTabBar.html)
+[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.org/api/sap.m.IconTabBar)
 
-[API Overview and Samples: `sap.m.IconTabBar` ](https://sdk.openui5.org/explored.html#/entity/sap.m.IconTabBar/samples)
+[API Overview and Samples: `sap.m.IconTabBar` ](https://sdk.openui5.org/entity/sap.m.IconTabBar)
 

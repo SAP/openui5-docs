@@ -61,13 +61,14 @@ Common use cases for retrieving controls
         fostering the don't repeat yourself (DRY) principle of software
         development that is aimed at reducing repetition of any kind of information.")**  
 The page object design pattern supports UI-based tests with improved readability, fostering the *don't repeat yourself* \(DRY\) principle of software development that is aimed at reducing repetition of any kind of information.
--   **[Using the autoWait Parameter](Using_the_autoWait_Parameter_fb487ef.md "Configuring OPA to use autoWait parameter for all statements improves
-		test stability and reduces the number of waitFor statements.")**  
+-   **[Using the autoWait Parameter](Using_the_autoWait_Parameter_fb487ef.md "Configuring OPA to use autoWait parameter for all statements
+		improves test stability and reduces the number of waitFor
+		statements.")**  
 Configuring OPA to use `autoWait` parameter for all statements improves test stability and reduces the number of `waitFor` statements.
 -   **[Extensions for OPA5](Extensions_for_OPA5_9c22d2a.md "Extend OPA capabilities with custom extensions.")**  
 Extend OPA capabilities with custom extensions.
--   **[Test Libraries for OPA5](Test_Libraries_for_OPA5_a88a5e5.md "Test libraries are a means of collaboration between app developers and reusable content
-		providers.")**  
+-   **[Test Libraries for OPA5](Test_Libraries_for_OPA5_a88a5e5.md "Test libraries are a means of collaboration between app developers and reusable
+		content providers.")**  
 Test libraries are a means of collaboration between app developers and reusable content providers.
 -   **[Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md "OPA5 has a built-in actions parameter that can be used for simulating events. If you use
         an action, OPA5 makes sure that the UI is in a state that allows the action to be

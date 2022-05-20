@@ -26,7 +26,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 17](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.17/preview).
+You can view and download all files at [Walkthrough - Step 17](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.17).
 
 ```js
 sap.ui.define([

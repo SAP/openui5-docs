@@ -94,7 +94,7 @@ Good Example
 </tr>
 </table>
 
-For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) and the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.html). 
+For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md) and the [API Reference](https://sdk.openui5.org/api/sap.ui). 
 
 ***
 

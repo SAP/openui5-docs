@@ -359,5 +359,5 @@ $(oSomeDomElement).css("border-color", sColor);
 </tr>
 </table>
 
-See also: [Namespace sap.ui.core.theming.Parameters](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.theming.Parameters.html).
+See also: [Namespace sap.ui.core.theming.Parameters](https://sdk.openui5.org/api/sap.ui.core.theming.Parameters).
 

@@ -31,7 +31,7 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.02/preview).
+You can view and download all files at [OData V4 - Step 2](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.02).
 
 ***
 
@@ -195,7 +195,7 @@ We search for the following mock server requests:
 
 [Bindings](Bindings_54e0ddf.md "Bindings connect OpenUI5 view elements to model data, allowing changes in the model to be reflected in the view element and vice versa.")
 
-[API Reference: `sap.ui.model.odata.v4.ODataMetaModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
+[API Reference: `sap.ui.model.odata.v4.ODataMetaModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel)
 
 [API Reference: `sap.ui.model.odata.v4.ODataListBinding.refresh`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/refresh)
 

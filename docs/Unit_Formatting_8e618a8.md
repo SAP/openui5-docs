@@ -322,5 +322,5 @@ The third argument of the base Unit type constructor is a list of dynamic format
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.NumberFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.NumberFormat.html)
+[API Reference: `sap.ui.core.format.NumberFormat`](https://sdk.openui5.org/api/sap.ui.core.format.NumberFormat)
 

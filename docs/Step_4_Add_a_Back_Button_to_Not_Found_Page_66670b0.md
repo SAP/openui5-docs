@@ -27,7 +27,7 @@ When we are on the *Not Found* page because of an invalid hash, we want to get b
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.04/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 4](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.04).
 
 ***
 

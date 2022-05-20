@@ -14,7 +14,7 @@ In this tutorial, we will show you some tools that will help you if you run into
 
 We will introduce you to the browser developer tools and show you the various tools that OpenUI5 offers.
 
-![](images/loio58e6ffb98c27400fa004303049244c38_LowRes.png)
+ ![](images/loio58e6ffb98c27400fa004303049244c38_LowRes.png) 
 
 For example, the OpenUI5 tools can help you with the following tasks:
 
@@ -27,7 +27,7 @@ For example, the OpenUI5 tools can help you with the following tasks:
 -   Find out how to improve performance
 
 
-To help you practice using the tools, we created an app with errors that we will use throughout the tutorial. You can view and download the app in the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview).
+To help you practice using the tools, we created an app with errors that we will use throughout the tutorial. You can view and download the app in the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01).
 
 ***
 
@@ -37,16 +37,16 @@ To help you practice using the tools, we created an app with errors that we will
 
 If you're stuck and need help with a development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://www.sap.com/community/topic/ui5.html) or on [Stack Overflow](https://stackoverflow.com/search?q=sapui5).
 
-1.  [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot
-		your OpenUI5 app. ")  
+1.  [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to
+		troubleshoot your OpenUI5 app. ")  
 In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.
 2.  [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information
 		Dialog&quot;.
 		This tool comes in handy whenever you want to know the technical details of the running
 		application, and also has some other useful features.")  
 In this tutorial step, we will have a closer look at the "Technical Information Dialog". This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.
-3.  [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this
-		tool to check whether your app is built according to the best practices with predefined
+3.  [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use
+		this tool to check whether your app is built according to the best practices with predefined
 		rules.")  
 In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.
 4.  [Step 4: Diagnostics Window](Step_4_Diagnostics_Window_04b75ea.md "In this tutorial step, we have a closer look at the Diagnostics window. It offers a

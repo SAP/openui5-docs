@@ -29,7 +29,7 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.07/preview).
+You can view and download all files at [Walkthrough - Step 7](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.07).
 
 ```js
 sap.ui.define([

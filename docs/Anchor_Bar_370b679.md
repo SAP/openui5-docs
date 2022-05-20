@@ -117,5 +117,5 @@ Here is an example showing the usage of custom controls for the anchor bar butto
 **Related Information**  
 
 
-[API Reference: `sap.uxap.AnchorBar`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.AnchorBar.html)
+[API Reference: `sap.uxap.AnchorBar`](https://sdk.openui5.org/api/sap.uxap.AnchorBar)
 

@@ -26,7 +26,7 @@ We want to display statistics for posts, for example, how many times it was view
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.14/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 14](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.14).
 
 ***
 

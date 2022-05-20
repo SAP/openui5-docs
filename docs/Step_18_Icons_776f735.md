@@ -26,7 +26,7 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 18](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.18/preview).
+You can view and download all files at [Walkthrough - Step 18](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.18).
 
 ```xml
 <mvc:View
@@ -113,7 +113,7 @@ In the dialog fragment, we add an icon control to the content aggregation of the
 
 [Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html)
 
-[API Reference: `sap.ui.core.Icon`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Icon.html)
+[API Reference: `sap.ui.core.Icon`](https://sdk.openui5.org/api/sap.ui.core.Icon)
 
-[Samples: `sap.ui.core.Icon` ](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.Icon/samples)
+[Samples: `sap.ui.core.Icon` ](https://sdk.openui5.org/entity/sap.ui.core.Icon)
 

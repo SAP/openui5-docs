@@ -26,7 +26,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 32](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.32/preview).
+You can view and download all files at [Walkthrough - Step 32](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.32).
 
 ```xml
 <mvc:View

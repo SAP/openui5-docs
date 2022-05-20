@@ -26,7 +26,7 @@ In this step, we will step back from our tests and application features that we 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.10/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 10](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.10).
 
 ***
 

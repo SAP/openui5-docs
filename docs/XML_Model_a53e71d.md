@@ -36,12 +36,12 @@ Usually, you load your data from the server using an HTTP-based service, so the 
 oModel.loadData("data.xml");
 ```
 
-For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.xml.XMLModel.html) in the Demo Kit.
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.xml.XMLModel) in the Demo Kit.
 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.xml.XMLModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.xml.XMLModel.html)
+[API Reference: `sap.ui.model.xml.XMLModel`](https://sdk.openui5.org/api/sap.ui.model.xml.XMLModel)
 
  <a name="loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
 

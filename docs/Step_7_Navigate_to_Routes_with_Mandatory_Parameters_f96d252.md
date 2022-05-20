@@ -34,13 +34,14 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
   
 <a name="loiof96d2522a5ca4382a274ae3c6d002ca0__fig_t53_mf3_ns"/>*Not Found* page for an invalid `EmployeeID`
 
- ![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid EmployeeID") 
+ ![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid
+						EmployeeID") 
 
 ***
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.07/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.07).
 
    
   
@@ -343,5 +344,5 @@ That’s it. You can go to `webapp/index.html#/employees` and click on any list 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.Binding`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Binding.html)
+[API Reference: `sap.ui.model.Binding`](https://sdk.openui5.org/api/sap.ui.model.Binding)
 

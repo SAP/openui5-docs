@@ -40,7 +40,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 1.  Download UI5 Inspector from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en) and add it to your Chrome browser as a standard extension .
 
-2.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+2.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
 3.  Open the *Developer Tools* in Google Chrome by pressing [F12\].
 

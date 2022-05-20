@@ -69,5 +69,5 @@ If you want the user to have to scroll down to see more items \(by setting the `
 
 ### Sample
 
-For more information, see the [sample](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.ListGrowing/preview) in the Demo Kit.
+For more information, see the [sample](https://sdk.openui5.org/entity/sap.m.List/sample/sap.m.sample.ListGrowing) in the Demo Kit.
 

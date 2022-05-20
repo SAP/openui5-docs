@@ -149,7 +149,7 @@ The following helper functions can be used with `<template:with>`:
 **Related Information**  
 
 
-[sap.ui.model.odata.AnnotationHelper](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.AnnotationHelper.html)
+[sap.ui.model.odata.AnnotationHelper](https://sdk.openui5.org/api/sap.ui.model.odata.AnnotationHelper)
 
 [OData Version 4.0](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)
 

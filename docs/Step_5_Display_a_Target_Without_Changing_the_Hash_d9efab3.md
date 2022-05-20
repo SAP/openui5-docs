@@ -30,7 +30,7 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo -kit at [Routing and Navigation - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.05/preview).
+You can view and download all files in the *Samples* in the Demo -kit at [Routing and Navigation - Step 5](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.05).
 
 ***
 
@@ -178,9 +178,9 @@ When we now click the *Back* button, it works as expected and brings us back to 
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Targets.html)
+[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.org/api/sap.m.routing.Targets)
 
-[API Reference: `sap.ui.core.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Targets.html)
+[API Reference: `sap.ui.core.routing.Targets`](https://sdk.openui5.org/api/sap.ui.core.routing.Targets)
 
-[API Reference: `sap.ui.core.routing.Target`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.Target.html)
+[API Reference: `sap.ui.core.routing.Target`](https://sdk.openui5.org/api/sap.ui.core.routing.Target)
 

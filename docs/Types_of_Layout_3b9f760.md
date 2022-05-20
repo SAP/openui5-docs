@@ -283,5 +283,5 @@ Up to 960px \(Phone\)
 **Related Information**  
 
 
-[API Reference: `sap.f.LayoutType`](https://sdk.openui5.orgdocs/api/symbols/sap.f.LayoutType.html)
+[API Reference: `sap.f.LayoutType`](https://sdk.openui5.org/api/sap.f.LayoutType)
 

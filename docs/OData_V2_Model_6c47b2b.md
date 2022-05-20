@@ -175,7 +175,7 @@ Client-side sorting and filtering
 
 Yes
 
-For more information, see [API Reference: sap.ui.model.odata.OperationMode](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.OperationMode.html). 
+For more information, see [API Reference: sap.ui.model.odata.OperationMode](https://sdk.openui5.org/api/sap.ui.model.odata.OperationMode). 
 
 
 
@@ -290,7 +290,7 @@ The requests to the service to fetch data are made automatically based on the da
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[API Reference: `sap.ui.model.odata.v2.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel)
 
  <a name="loio218afa0780da42fd982b72e992fb57d2"/>
 
@@ -413,7 +413,7 @@ To do this, provide a map of headers to the OData model constructor or use the `
     > "x-csrf-token"
     > ```
     > 
-    > For additional methods and parameters, see the [API Reference: sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v2.ODataModel.html). 
+    > For additional methods and parameters, see the [API Reference: sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel). 
 
 
  <a name="loioc4be40ce21ff4d0485b1d8f8114f7426"/>
@@ -3497,7 +3497,7 @@ At `Property`:
 
 [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData services.")
 
-[Class `sap.ui.model.odata.ODataMetaModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.ODataMetaModel.html)
+[Class `sap.ui.model.odata.ODataMetaModel`](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMetaModel)
 
  <a name="loioaa9024c7c5444822a68daeb21a92bd51"/>
 

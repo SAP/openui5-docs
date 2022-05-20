@@ -92,7 +92,7 @@ The following XML snippet provides initial filtering:
 </mvc:View>
 ```
 
-The example shown here will only display companies whose city name begins with a ‘b’ and whose revenue is less than 150 million. As you can see, you can provide more than one filter, each of which may refer to different columns using different filter operators. For a complete list of permitted filter operators, see [sap.ui.model.FilterOperator](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.FilterOperator.html) in the *API Reference* part of the Demo Kit.
+The example shown here will only display companies whose city name begins with a ‘b’ and whose revenue is less than 150 million. As you can see, you can provide more than one filter, each of which may refer to different columns using different filter operators. For a complete list of permitted filter operators, see [sap.ui.model.FilterOperator](https://sdk.openui5.org/api/sap.ui.model.FilterOperator) in the *API Reference* part of the Demo Kit.
 
 As shown below, initial sorting, grouping and filtering can of course also be provided using JavaScript.
 
@@ -155,7 +155,7 @@ oList.getBinding("items").filter([oFilterCity, oFilterRevenue]);
 > ### Note:  
 > `getBinding` requires the name of the bound list. In this example, we are looking at the `items` of the `sap.m.List` control.
 
-For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html) in the *API Reference* part of the Demo Kit.
+For more information about the various sorting and filter methods and operators, see the documentation for Filter, Sorter, and Filter operations under [sap.ui.model](https://sdk.openui5.org/api/sap.ui.model) in the *API Reference* part of the Demo Kit.
 
 ***
 

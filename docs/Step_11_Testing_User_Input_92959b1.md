@@ -26,7 +26,7 @@ In this step, we will write a test that simulates a user search. We will enter t
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.11/preview).
+You can view and download all files in the Demo Kit at [Testing - Step 11](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.11).
 
 ***
 
@@ -162,5 +162,5 @@ Actions in OPA never contain a QUnit assertion.
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.actions.EnterText`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.actions.EnterText.html)
+[API Reference: `sap.ui.test.actions.EnterText`](https://sdk.openui5.org/api/sap.ui.test.actions.EnterText)
 

@@ -1274,5 +1274,5 @@ Dark text color
 </tr>
 </table>
 
-You can also check the availability of the `sapTheme` classes across the predefined themes *Blue Crystal* and *High Contrast Black* \(HCB\) in the [sample](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.ThemeCustomClasses/preview) in the Demo Kit.
+You can also check the availability of the `sapTheme` classes across the predefined themes *Blue Crystal* and *High Contrast Black* \(HCB\) in the [sample](https://sdk.openui5.org/entity/sap.ui.core.theming/sample/sap.ui.core.sample.ThemeCustomClasses) in the Demo Kit.
 

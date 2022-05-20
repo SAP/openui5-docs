@@ -73,7 +73,7 @@ In the above example, `models.js` is a factory for creating models that are used
 
 **Localization Folder - `i18n`**
 
-We also have one dedicated folder for **localization** files. An OpenUI5 app will potentially be translated into many languages. Each of those languages has its own `.properties` file. Note that although the `ResourceModel` is an OpenUI5 model from a technical point of view, the localization folder is **not** part of the `model` folder. This is because the `.properties` files have a different semantic since they are used for translation. The code needed to instantiate the `ResourceModel` is located in the `model` folder. For more information about localization, see [Localization](Localization_91f217c.md). For more information about the `ResourceModel`, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.resource.ResourceModel.html) in the Demo Kit.
+We also have one dedicated folder for **localization** files. An OpenUI5 app will potentially be translated into many languages. Each of those languages has its own `.properties` file. Note that although the `ResourceModel` is an OpenUI5 model from a technical point of view, the localization folder is **not** part of the `model` folder. This is because the `.properties` files have a different semantic since they are used for translation. The code needed to instantiate the `ResourceModel` is located in the `model` folder. For more information about localization, see [Localization](Localization_91f217c.md). For more information about the `ResourceModel`, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel) in the Demo Kit.
 
 > ### Note:  
 > The path to the `i18n` file must not exceed 100 characters.
@@ -84,7 +84,7 @@ The `localService` folder is used to emulate OData services for tests or as a pr
 
  ![](images/loio00728aff82c54419b1d7acd61c76455f_HiRes.png) 
 
-For integration tests, it is helpful if you are able to mock your back end with stable data. A second use case for this is for running an application in a **preview** mode so that it serves data locally instead of connecting to a back end. This is why this folder also contains files necessary for starting up the OData V2 mock server. The data served by the mock server is put inside the `mockdata` folder. If you need to, you can also include multiple sets of mock data here, by giving each set its own folder. For more information about the OData V2 mock server, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.util.MockServer.html) in the Demo Kit.
+For integration tests, it is helpful if you are able to mock your back end with stable data. A second use case for this is for running an application in a **preview** mode so that it serves data locally instead of connecting to a back end. This is why this folder also contains files necessary for starting up the OData V2 mock server. The data served by the mock server is put inside the `mockdata` folder. If you need to, you can also include multiple sets of mock data here, by giving each set its own folder. For more information about the OData V2 mock server, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.util.MockServer) in the Demo Kit.
 
 For information about mock server functionality for OData V4, see [OData V4 Mock Server](Mock_Server_69d3cbd.md#loio69d3cbd4150c4ffb884e788f7f60fd93__section_od4_mock_server).
 

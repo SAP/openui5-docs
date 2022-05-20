@@ -29,7 +29,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.04/preview).
+You can view and download all files at [Walkthrough - Step 4](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.04).
 
 ```xml
 <mvc:View

@@ -26,7 +26,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 ### Opening the Example App and the Technical Information Dialog
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
 2.  Open the *Technical Information Dialog* by pressing  [Ctrl\] + [Shift\] + [Alt\] + [P\] .
 

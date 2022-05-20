@@ -129,15 +129,23 @@ In this tutorial we will introduce you to all major development paradigms of Ope
 In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.
 -   **[Data Binding](Data_Binding_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5. ")**  
 In this tutorial, we will explain the concepts of data binding in OpenUI5.
--   **[OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")**  
+-   **[OData V4](OData_V4_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app
+		that consumes data from an OData V4 service to understand how to access, modify, aggregate,
+		and filter data in an OData V4 model.")**  
 In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.
--   **[Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your
-		application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of
-		best practices for applying the navigation and routing features of OpenUI5 to your
+-   **[Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a
+		powerful routing API that helps you control the state of your application efficiently. This
+		tutorial will illustrate all major features and APIs related to navigation and routing in
+			OpenUI5 apps by creating a
+		simple and easy to understand mobile app. It represents a set of best practices for applying
+		the navigation and routing features of OpenUI5 to your
 		applications.")**  
 OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.
--   **[Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit,
-		OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more. ")**  
+-   **[Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that
+		are delivered with OpenUI5. At
+		different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2
+		mock server. Additionally, you will learn about testing strategies, Test Driven Development
+		(TDD), and much more. ")**  
 In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development \(TDD\), and much more.
 -   **[OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server. ")**  
 In this tutorial, we will explore some advanced features of the OData V2 mock server.

@@ -10,6 +10,8 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 ## Behavior-driven Development with Gherkin
 
+A software development process driven by app behavior.
+
 With behavior-driven development \(BDD\), you as a developer start with a user story that defines the business value that the developed app should have. Next, you write a test that verifies the new functionality \(this test initially fails\). Finally, you write the needed functionality and your test passes. Gherkin is a test framework that supports this approach.
 
 At first, as you are learning BDD, it will take a long time to implement new tests. Resist the temptation to abandon automated testing. The most important software development phase for successful software is the maintenance phase. Automated tests are the best way to ensure an effective maintenance phase, and help ensure that the code quality remains high over time.
@@ -73,17 +75,18 @@ The Gherkin library contains the following parts:
 
 -   **[Feature Files](Feature_Files_9113397.md " Feature files are human-readable specifications that are also machine-readable.")**  
  Feature files are human-readable specifications that are also machine-readable.
--   **[Basic Example How to Use Gherkin](Basic_Example_How_to_Use_Gherkin_4b0c519.md "Like test-driven development (TDD), behavior-driven development (BDD) with Gherkin encourages us to write more tests because you do it right from
-		the beginning. Having more tests makes it cheaper and easier to maintain the code over time. Let's dive into the specifics using following an
-		example.")**  
+-   **[Basic Example How to Use Gherkin](Basic_Example_How_to_Use_Gherkin_4b0c519.md "Like test-driven development (TDD), behavior-driven development (BDD) with Gherkin
+		encourages us to write more tests because you do it right from the beginning. Having more
+		tests makes it cheaper and easier to maintain the code over time. Let's dive into the
+		specifics using following an example.")**  
 Like test-driven development \(TDD\), behavior-driven development \(BDD\) with Gherkin encourages us to write more tests because you do it right from the beginning. Having more tests makes it cheaper and easier to maintain the code over time. Let's dive into the specifics using following an example.
 -   **[Gherkin and OPA Page Objects](Gherkin_and_OPA_Page_Objects_c689cd8.md "Gherkin is compatible with the concept of OPA5 page objects.")**  
 Gherkin is compatible with the concept of OPA5 page objects.
 -   **[Code Coverage](Code_Coverage_20737a4.md "It can be handy to calculate the code coverage of your integration tests, for example, to figure out whether you forgot to test something or to
 		provide statistics on your test quality.")**  
 It can be handy to calculate the code coverage of your integration tests, for example, to figure out whether you forgot to test something or to provide statistics on your test quality.
--   **[Logging](Logging_ebcf60c.md "During tesing with Gherkin, errors are logged to the test execution Web page. ")**  
-During tesing with Gherkin, errors are logged to the test execution Web page.
+-   **[Logging](Logging_ebcf60c.md "During testing with Gherkin, errors are logged to the test execution Web page. ")**  
+During testing with Gherkin, errors are logged to the test execution Web page.
 -   **[Frequently Asked Questions](Frequently_Asked_Questions_02ef39f.md "")**  
 
 
@@ -92,5 +95,5 @@ During tesing with Gherkin, errors are logged to the test execution Web page.
 
 [cucumber Home Page](https://cucumber.io/)
 
-[Gherkin documentation on Github](https://github.com/cucumber/cucumber/wiki/Gherkin)
+[Gherkin documentation on GitHub](https://github.com/cucumber/cucumber/wiki/Gherkin)
 

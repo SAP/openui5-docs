@@ -20,8 +20,8 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
   
 <a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_r1j_pst_mr"/>*Employee Details* page with *Flip to Resume* link
 
- ![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to Resume
-					link") 
+ ![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to
+						Resume link") 
 
    
   
@@ -39,7 +39,7 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.08/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.08).
 
    
   
@@ -349,7 +349,7 @@ You can go to `webapp/index.html#/employees/3` and click on the *Flip to Resume*
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.m.NavContainer.html)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.org/api/sap.m.NavContainer)
 
-[API Overview and Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/explored.html#/entity/sap.m.NavContainer/samples)
+[API Overview and Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/entity/sap.m.NavContainer)
 

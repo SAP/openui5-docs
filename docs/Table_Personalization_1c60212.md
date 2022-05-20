@@ -230,13 +230,13 @@ A concrete implementation of the table personalization persistence service provi
 
 ### Sample
 
-For a detailed example of how table personalization works, see the [sample](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.TablePerso/preview).
+For a detailed example of how table personalization works, see the [sample](https://sdk.openui5.org/entity/sap.m.Table/sample/sap.m.sample.TablePerso).
 
 ***
 
 ### API Reference
 
--   [sap.m.TablePersoDialog](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoDialog.html)
--   [sap.m.TablePersoController](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoController.html)
--   [sap.m.TablePersoProvider](https://sdk.openui5.orgdocs/api/symbols/sap.m.TablePersoProvider.html)
+-   [sap.m.TablePersoDialog](https://sdk.openui5.org/api/sap.m.TablePersoDialog)
+-   [sap.m.TablePersoController](https://sdk.openui5.org/api/sap.m.TablePersoController)
+-   [sap.m.TablePersoProvider](https://sdk.openui5.org/api/sap.m.TablePersoProvider)
 

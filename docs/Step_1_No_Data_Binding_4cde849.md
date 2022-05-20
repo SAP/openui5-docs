@@ -26,7 +26,7 @@ In this step, we simply place some text on the screen using a standard `sap.m.Te
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.01/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 1](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.01).
 
 ***
 

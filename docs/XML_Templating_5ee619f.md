@@ -87,7 +87,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 ***
 
- See the [sap.ui.core.sample.ViewTemplate.tiny](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.ViewTemplate.tiny/preview) XML Templating sample. This sample is based on OData Version 4.0 annotations. It contains the following files worth noting:
+ See the [sap.ui.core.sample.ViewTemplate.tiny](https://sdk.openui5.org/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.tiny) XML Templating sample. This sample is based on OData Version 4.0 annotations. It contains the following files worth noting:
 
 -   An annotations file containing label texts and binding paths.
 
@@ -99,7 +99,7 @@ The XML preprocessor traverses the view's XML DOM in a depth-first, parent-befor
 
 
 > ### Tip:  
-> You can find more elaborate XML templating samples here: [XMLView](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.mvc.XMLView/samples). 
+> You can find more elaborate XML templating samples here: [XMLView](https://sdk.openui5.org/entity/sap.ui.core.mvc.XMLView). 
 > 
 > Take a look at the demo scenario for a complete overview of all OData V4 notations.
 
@@ -349,5 +349,5 @@ For the debug levels `DEBUG` and `ALL`, the XML preprocessor writes a trace for 
 
 [SAP Annotations for OData Version 2.0](http://www.sap.com/Protocols/SAPData)
 
-[`sap.ui.model.odata.AnnotationHelper`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.AnnotationHelper.html)
+[`sap.ui.model.odata.AnnotationHelper`](https://sdk.openui5.org/api/sap.ui.model.odata.AnnotationHelper)
 

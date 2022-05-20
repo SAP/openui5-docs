@@ -74,7 +74,7 @@ You load and create a `UIComponent` in one of the following ways:
 > ### Note:  
 > You can use the `lifecycle` property to determine whether the container or your application code will take care of destroying the component.
 > 
-> See [ `ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer#controlProperties) for a detailed explanation of the lifecycle property and its possible values. 
+> For a detailed explanation of the `lifecycle` property and its possible values, see the[API Reference](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer%23controlProperties).
 
 ***
 
@@ -313,7 +313,7 @@ createContent: function() {
 
 [Enabling Routing in Nested Components](Enabling_Routing_in_Nested_Components_fb19f50.md "Every OpenUI5 component can define routing configuration in its manifest and a UI5 router instance will be created automatically after the component is instantiated.")
 
-[API Reference: `sap.ui.core.ComponentContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.ComponentContainer.html)
+[API Reference: `sap.ui.core.ComponentContainer`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer)
 
 [API Reference: `sap.ui.core.ComponentContainer.setLifecycle`](https://sdk.openui5.org/api/sap.ui.core.ComponentContainer/methods/setLifecycle)
 

@@ -179,5 +179,5 @@ To measure the code coverage, you can use the [*Coverage* plugin](https://github
 
 In case your application is started within a frame \(`iStartMyAppInAFrame`\) you need to enable iFrame coverage reporting. See the [Karma UI5 documentation](https://github.com/SAP/karma-ui5#configureiframecoverage) for details.
 
-For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html). 
+For more information about OPA5, see the [API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.org/api/sap.ui.test.Opa5).
 

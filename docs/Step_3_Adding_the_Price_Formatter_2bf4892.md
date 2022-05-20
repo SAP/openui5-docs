@@ -28,7 +28,7 @@ If the tests are passed, we can be sure that the formatter is formally correct b
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.03/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 3](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.03).
 
 ***
 
@@ -108,7 +108,7 @@ In our worklist view we simply add a state attribute to the `ObjectNumber` contr
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.ValueState`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.ValueState.html)
+[API Reference: `sap.ui.core.ValueState`](https://sdk.openui5.org/api/sap.ui.core.ValueState)
 
-[API Reference: `sap.m.ObjectNumber`](https://sdk.openui5.orgdocs/api/symbols/sap.m.ObjectNumber.html)
+[API Reference: `sap.m.ObjectNumber`](https://sdk.openui5.org/api/sap.m.ObjectNumber)
 

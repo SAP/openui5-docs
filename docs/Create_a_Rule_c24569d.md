@@ -319,7 +319,7 @@ The check function has three main and one optional parameters. The main ones are
 **Related Information**  
 
 
-[API Reference: `sap.ui.support.ExecutionScope`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.support.ExecutionScope.html)
+[API Reference: `sap.ui.support.ExecutionScope`](https://sdk.openui5.org/api/sap.ui.support.ExecutionScope)
 
 [Common Rule Patterns](Common_Rule_Patterns_3fc1412.md "The Support Assistant checks verify different aspects of your web application - from the view/elements structure and control properties to the dynamic, data and event-driven interactions. You can traverse the DOM tree, look at error logs during startup or check the CSS.")
 

@@ -43,7 +43,7 @@ oModel.loadData("data.json");
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.json.JSONModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.json.JSONModel.html)
+[API Reference: `sap.ui.model.json.JSONModel`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel)
 
  <a name="loio50357d719b35439984348080bcbb14a4"/>
 

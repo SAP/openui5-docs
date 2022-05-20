@@ -320,7 +320,7 @@ OpenUI5 has the notion of a current language. It is determined during the OpenUI
 
 6.  First language from the list of the user’s preferred languages \(`window.navigator.languages[0]`\) \(For more information, see [https://developer.mozilla.org](https://developer.mozilla.org/en/docs/Web/API/NavigatorLanguage/languages).\)
 
-7.  Locale configured in the application coding \(For more information, see [API Reference: `sap.ui.core.Configuration`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Configuration.html). \)
+7.  Locale configured in the application coding \(For more information, see [API Reference: `sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration). \)
 
 8.  Locale configured via URL parameters
 

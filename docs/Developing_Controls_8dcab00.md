@@ -22,7 +22,7 @@ Controls can be defined on the fly without a library definition or running gener
 When you want to develop several controls for reuse in different applications, we recommend creating a control library instead of using these notepad controls. Control libraries have additional features such as automatic support for theming and right-to-left languages, but the implementation of the controls is the same as for notepad controls.
 
 > ### Note:  
-> This functionality is not restricted to controls. It can also be used to create or extend arbitrary objects, such as components, that are derived from `sap.ui.base.ManagedObject`. For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.ManagedObject.html). 
+> This functionality is not restricted to controls. It can also be used to create or extend arbitrary objects, such as components, that are derived from `sap.ui.base.ManagedObject`. For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject). 
 
 -   **[Development Conventions and Guidelines](Development_Conventions_and_Guidelines_753b326.md "To keep the OpenUI5 code
 		readable and maintainable, development conventions and guidelines are introduced. We

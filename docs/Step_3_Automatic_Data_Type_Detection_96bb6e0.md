@@ -32,7 +32,7 @@ The OData V4 Model utilizes this information to compute the corresponding OpenUI
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.03/preview).
+You can view and download all files at [OData V4 - Step 3](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.03).
 
 ***
 
@@ -119,7 +119,7 @@ To make the *First Name* optional, we remove the parameter `Nullable="false"` fr
 
 [Type Determination](Type_Determination_53cdd55.md "")
 
-[API Reference: `sap.ui.model.odata.type`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.type.html)
+[API Reference: `sap.ui.model.odata.type`](https://sdk.openui5.org/api/sap.ui.model.odata.type)
 
-[Sample for `sap.ui.core.mvc.XMLView`: *XML Templating: UI5 OData types*](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.ViewTemplate.types/preview)
+[Sample for `sap.ui.core.mvc.XMLView`: *XML Templating: UI5 OData types*](https://sdk.openui5.org/entity/sap.ui.core.mvc.XMLView/sample/sap.ui.core.sample.ViewTemplate.types)
 

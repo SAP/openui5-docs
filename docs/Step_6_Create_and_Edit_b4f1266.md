@@ -30,7 +30,7 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
 ### Coding
 
-You can view and download all files at [OData V4 - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.06/preview).
+You can view and download all files at [OData V4 - Step 6](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.06).
 
 ***
 
@@ -430,5 +430,5 @@ We add the new message texts.
 
 [Message Model](Message_Model_8956f0a.md "The message model contains all messages and is used to bind to the messages to display them.")
 
-[API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[API Reference: `sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding)
 

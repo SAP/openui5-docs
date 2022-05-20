@@ -26,7 +26,7 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.10/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.10) .
 
    
   
@@ -247,5 +247,5 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Targets.html)
+[API Reference: `sap.m.routing.Targets`](https://sdk.openui5.org/api/sap.m.routing.Targets)
 

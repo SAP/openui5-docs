@@ -20,14 +20,14 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
   
 <a name="loio10592affce3e4f1ba73c3125ee06e0b7__fig_r1j_pst_mr"/>We add an OPA test that selects an item from the table and navigates to the post page
 
- ![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the post
-					page") 
+ ![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the
+					post page") 
 
 ***
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Testing - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.08/preview).
+You can view and download all files in the Demo Kit at [Testing - Step 8](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.08).
 
 ***
 
@@ -270,5 +270,5 @@ If you execute the tests now, you can see in the logs of the developer tools tha
 **Related Information**  
 
 
-[API Reference: `sap.ui.test.matchers.BindingPath`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.matchers.BindingPath.html)
+[API Reference: `sap.ui.test.matchers.BindingPath`](https://sdk.openui5.org/api/sap.ui.test.matchers.BindingPath)
 

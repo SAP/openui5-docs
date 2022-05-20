@@ -26,7 +26,7 @@ In contrast to the two-way binding behavior shown above, one-way data binding is
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.05/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 5](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.05).
 
 ***
 

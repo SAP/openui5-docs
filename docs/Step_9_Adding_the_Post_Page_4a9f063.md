@@ -26,7 +26,7 @@ Now that we have covered all kinds of tests for navigation, we introduce our *Po
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 9](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.09/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 9](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.09).
 
 ***
 

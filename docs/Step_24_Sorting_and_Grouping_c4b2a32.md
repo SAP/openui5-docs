@@ -26,7 +26,7 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 24](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.24/preview).
+You can view and download all files at [Walkthrough - Step 24](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.24).
 
 ```xml
 <mvc:View
@@ -105,7 +105,7 @@ As with the sorter, no further action is required. The list and the data binding
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.Sorter`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.Sorter.html)
+[API Reference: `sap.ui.model.Sorter`](https://sdk.openui5.org/api/sap.ui.model.Sorter)
 
-[Sample: List - Grouping](https://sdk.openui5.org/explored.html#/sample/sap.m.sample.ListGrouping/preview)
+[Sample: List - Grouping](https://sdk.openui5.org/entity/sap.m.List/sample/sap.m.sample.ListGrouping)
 

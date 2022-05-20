@@ -73,7 +73,7 @@ The namespace abstraction allows us to refer to all application and testing part
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing Apps - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.02/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing Apps - Step 2](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.02).
 
 ***
 

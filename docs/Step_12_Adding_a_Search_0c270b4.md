@@ -26,7 +26,7 @@ We now add a search field to our bulletin board and define a filter that represe
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 12](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.12/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 12](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.12).
 
 ***
 

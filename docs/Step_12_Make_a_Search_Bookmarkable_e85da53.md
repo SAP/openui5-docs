@@ -26,7 +26,7 @@ In this step we will make the search bookmarkable. This allows users to search f
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 12](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.12/preview) .
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 12](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.12) .
 
 ***
 

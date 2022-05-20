@@ -97,7 +97,7 @@ sap.ui.require("sap/ui/core/mvc/XMLView", function (XMLView) {
 
 ### Preprocessor Integration
 
-If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.mvc.View.Preprocessor.html). 
+If you want to implement a preprocessor that has influence on the creation of views, for example, by changing the XML code, you can use function `getCacheKey`. With this function, the view can find out whether the preprocessor triggers changes that invalidate the cache. The function returns a cache key or a promise that resolves a cache key. For more information, see [API Reference: `sap.ui.core.mvc.View.Preprocessor`](https://sdk.openui5.org/api/sap.ui.core.mvc.View.Preprocessor). 
 
 ```xml
 // Example preprocessor implementation

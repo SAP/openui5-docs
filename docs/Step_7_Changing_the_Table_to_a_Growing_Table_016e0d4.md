@@ -27,7 +27,7 @@ Let’s switch back to developing and add the missing feature for the test we im
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 7](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.07/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 7](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.07).
 
 ***
 
@@ -74,5 +74,5 @@ We simply set the parameter `growing` to `true` to enable our feature. Now we ca
 
 [Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be used for tables and lists.")
 
-[API Reference: `sap.m.Table`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Table.html)
+[API Reference: `sap.m.Table`](https://sdk.openui5.org/api/sap.m.Table)
 

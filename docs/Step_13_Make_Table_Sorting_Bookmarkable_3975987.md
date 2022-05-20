@@ -26,7 +26,7 @@ In this step, we will create a button at the top of the table which will change 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.13/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 13](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.13).
 
 ***
 

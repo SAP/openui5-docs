@@ -144,7 +144,7 @@ The module `sap/ui/model/odata/v4/AnnotationHelper` delivers the following compu
 
 -   [`label`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.label) - Returns the value for the label of a `com.sap.vocabularies.UI.v1.DataFieldAbstract` from the meta model.
 
--   [`getValueListType`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ValueListType.html). It can be called directly on a property:
+-   [`getValueListType`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.AnnotationHelper/methods/sap.ui.model.odata.v4.AnnotationHelper.getValueListType) - Determines which type of value list exists for the property. The function returns a value from the enumeration [`sap.ui.model.odata.v4.ValueListType`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ValueListType). It can be called directly on a property:
 
     ```xml
     
@@ -184,7 +184,7 @@ The OData V4 model supports loading of additional annotation files.
 
 [getMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/sap.ui.model.odata.v4.ODataModel.getMetadata)
 
-[sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataMetaModel.html)
+[sap.ui.model.odata.v4.ODataMetaModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel)
 
 [requestObject](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataMetaModel/methods/requestObject)
 

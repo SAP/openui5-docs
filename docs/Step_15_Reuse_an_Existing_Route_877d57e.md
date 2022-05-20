@@ -26,7 +26,7 @@ The *Employees* table displays employee data. However, the resumes of the employ
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.15/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 15](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.15).
 
 ***
 

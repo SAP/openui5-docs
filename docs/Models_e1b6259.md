@@ -51,13 +51,16 @@ A Web application should support several data sources, such as JSON, XML, Atom, 
 -   **[OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2 "The OData V2 Model enables binding of controls to data from OData
 		services.")**  
 The OData V2 Model enables binding of controls to data from OData services.
--   **[OData V4 Model](OData_V4_Model_5de13cf.md "The sap.ui.model.odata.v4.ODataModel
-		 is the model implementation for consuming an OData V4 service.")**  
+-   **[OData V4 Model](OData_V4_Model_5de13cf.md "The sap.ui.model.odata.v4.ODataModel is the model implementation for
+		consuming an OData V4 service.")**  
 The `sap.ui.model.odata.v4.ODataModel` is the model implementation for consuming an OData V4 service.
--   **[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.")**  
+-   **[JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116 "The JSON model can be used to bind controls to JavaScript object data, which is
+		usually serialized in the JSON format.")**  
 The JSON model can be used to bind controls to JavaScript object data, which is usually serialized in the JSON format.
--   **[XML Model](XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27 "The XML model allows to bind controls to XML data. It is a client-side model intended for small datasets, which are completely available on the
-		client. The XML model does not contain mechanisms for server-based paging or loading of deltas. It supports two-way binding.")**  
+-   **[XML Model](XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27 "The XML model allows to bind controls to XML data. It is a client-side model intended
+		for small datasets, which are completely available on the client. The XML model does not
+		contain mechanisms for server-based paging or loading of deltas. It supports two-way
+		binding.")**  
 The XML model allows to bind controls to XML data. It is a client-side model intended for small datasets, which are completely available on the client. The XML model does not contain mechanisms for server-based paging or loading of deltas. It supports two-way binding.
 -   **[Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070 "The resource model is used as a wrapper for resource bundles. In data binding you use the resource model instance, for example, to bind texts of
 		a control to language-dependent resource bundle properties.")**  
@@ -76,5 +79,5 @@ The default binding mode applies when a model instance is created. You can overw
 **Related Information**  
 
 
-[API Reference: `sap.ui.model`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html)
+[API Reference: `sap.ui.model`](https://sdk.openui5.org/api/sap.ui.model)
 

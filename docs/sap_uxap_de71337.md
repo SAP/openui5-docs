@@ -18,8 +18,8 @@ This library includes controls associated with the `ObjectPage`.
 -   **[Object Page Layout](Object_Page_Layout_2e61ab6.md "The ObjectPageLayout control provides a layout that allows apps to
 		easily display information related to a business object.")**  
 The `ObjectPageLayout` control provides a layout that allows apps to easily display information related to a business object.
--   **[Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header - classic
-		header and dynamic header.")**  
+-   **[Object Page Headers](Object_Page_Headers_d2ef009.md "The sap.uxap.ObjectPageLayout control has two types of header -
+		classic header and dynamic header.")**  
 The `sap.uxap.ObjectPageLayout` control has two types of header - classic header and dynamic header.
 -   **[Anchor Bar](Anchor_Bar_370b679.md "Displays the titles of the sections and subsections in the
 			ObjectPageLayout and allows the user to scroll to the respective
@@ -39,5 +39,5 @@ The object page offers different ways to handle specific scrolling scenarios.
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[API Reference: `sap.uxap`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.html)
+[API Reference: `sap.uxap`](https://sdk.openui5.org/api/sap.uxap)
 

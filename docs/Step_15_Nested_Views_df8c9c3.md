@@ -20,14 +20,14 @@ Our panel content is getting more and more complex and now it is time to move th
   
 <a name="loiodf8c9c3d79b54c928855162bafcd88ee__fig_r1j_pst_mr"/>The panel content is now refactored to a separate view \(No visual changes to last step\)
 
- ![](images/loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to
-					last step)") 
+ ![](images/loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to last
+               step)") 
 
 ***
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.15/preview).
+You can view and download all files at [Walkthrough - Step 15](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.15).
 
 ```xml
 <mvc:View

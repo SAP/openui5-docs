@@ -43,16 +43,16 @@ The libraries provided by OpenUI5 contain various different table controls that 
 -   **[sap.f](sap_f_0b455b0.md "This library contains controls that were built based on the SAP Fiori 2.0 design
 		guidelines.")**  
 This library contains controls that were built based on the SAP Fiori 2.0 design guidelines.
--   **[sap.m](sap_m_48d9390.md "This library contains the most important controls for building a user interface that is
-		responsive to any device.")**  
+-   **[sap.m](sap_m_48d9390.md "This library contains the most important controls for building a user interface that
+		is responsive to any device.")**  
 This library contains the most important controls for building a user interface that is responsive to any device.
 -   **[sap.tnt](sap_tnt_d8374d5.md "This library contains controls that provide the basic structure of a tool
 		app.")**  
 This library contains controls that provide the basic structure of a tool app.
 -   **[sap.ui.codeeditor](sap_ui_codeeditor_2832a13.md "This library contains the CodeEditor control.")**  
 This library contains the `CodeEditor` control.
--   **[sap.ui.core](sap_ui_core_72227f8.md "This library contains the jQuery plugins (jQuery.sap.*), the core and
-		all its components, base classes for controls, components and the Model-View-Controller
+-   **[sap.ui.core](sap_ui_core_72227f8.md "This library contains the jQuery plugins (jQuery.sap.*), the core
+		and all its components, base classes for controls, components and the Model-View-Controller
 		(MVC) classes.")**  
 This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all its components, base classes for controls, components and the Model-View-Controller \(MVC\) classes.
 -   **[sap.ui.table](sap_ui_table_08197fa.md " Table-like controls, mainly for desktop scenarios.")**  

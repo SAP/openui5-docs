@@ -33,7 +33,7 @@ Preferably, an **array** of routes is added to the router. Each route defines a 
 
 The sequence of the routes in the `routes` definition is important. As soon as a pattern is matched, the following patterns are ignored. To prevent this for a specific route, you use the `greedy` parameter. If set to `true`, the route is always taken into account.
 
-For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html).
+For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router).
 
 ***
 
@@ -86,9 +86,9 @@ A target defines the view or component that is displayed. It is associated with 
 
 
 > ### Note:  
-> You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md), and the sample [Targets Without a Router](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.routing.Targets/samples) in the *Samples* in the Demo Kit.
+> You can also use targets without routes to call a view directly . For more information, see the tutorial [Step 5: Display a Target Without Changing the Hash](Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md) and [Step 10: Implement "Lazy Loading"](Step_10_Implement_Lazy_Loading_cdab0a1.md), and the sample [Targets Without a Router](https://sdk.openui5.org/entity/sap.ui.core.routing.Targets) in the *Samples* in the Demo Kit.
 
-For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html).
+For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router).
 
 ***
 
@@ -122,7 +122,7 @@ The `config` section contains the global router configuration and default values
 -   Using the `bypassed` parameter, you specify the navigation target that is used whenever no navigation pattern is matched. If you use this setting, you also have to define a corresponding target in the `targets` section.
 
 
-For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html).
+For more information, see [API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router).
 
 ***
 
@@ -197,11 +197,11 @@ In this example, the `Home` view is always shown when the hash is empty. The `Ca
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.routing`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.html)
+[API Reference: `sap.ui.core.routing`](https://sdk.openui5.org/api/sap.ui.core.routing)
 
-[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router)
 
-[Sample: Targets Without a Router](https://sdk.openui5.org/explored.html#/entity/sap.ui.core.routing.Targets/samplesl)
+[Sample: Targets Without a Router](https://sdk.openui5.org/entity/sap.ui.core.routing.Targets)
 
 [Working with Multiple Targets](Working_with_Multiple_Targets_2c5c84d.md "If you want to navigate to multiple targets with the same hash, you can either assign multiple targets to a route, or define a parent for the target.")
 

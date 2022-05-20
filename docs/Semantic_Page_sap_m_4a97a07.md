@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 The `sap.m.semantic.SemanticPage` is an enhanced `sap.m.Page` that implements the SAP Fiori 1.0 design guidelines.
 
-For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.m.semantic.SemanticPage.html) and the [samples](https://sdk.openui5.org/explored.html#/entity/sap.m.semantic.SemanticPage/samples).
+For more information about this control, see the [API Reference](https://sdk.openui5.org/api/sap.m.semantic.SemanticPage) and the [samples](https://sdk.openui5.org/entity/sap.m.semantic.SemanticPage).
 
 ***
 
@@ -245,5 +245,5 @@ The `DetailPage` usually displays extended information for the item that was sel
 **Related Information**  
 
 
-[API Reference: `sap.m.Page`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Page.html)
+[API Reference: `sap.m.Page`](https://sdk.openui5.org/api/sap.m.Page)
 

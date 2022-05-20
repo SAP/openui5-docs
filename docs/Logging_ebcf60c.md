@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 ## Logging
 
-During tesing with Gherkin, errors are logged to the test execution Web page.
+During testing with Gherkin, errors are logged to the test execution Web page.
 
 Most error messages are sufficient to figure out what has gone wrong, for example, if an OPA5 `waitFor` call is failing. Gherkin also logs information to the JavaScript console with the prefix `[GHERKIN]` at priority `INFO`.
 

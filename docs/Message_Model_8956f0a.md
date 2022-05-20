@@ -51,9 +51,9 @@ oMessagePopoverButton.placeAt("content");
 **Related Information**  
 
 
-[API Reference: `sap.ui.model.message.MessageModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.message.MessageModel.html)
+[API Reference: `sap.ui.model.message.MessageModel`](https://sdk.openui5.org/api/sap.ui.model.message.MessageModel)
 
-[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessageManager.html)
+[API Reference: `sap.ui.core.message.MessageManager`](https://sdk.openui5.org/api/sap.ui.core.message.MessageManager)
 
-[API Reference: `sap.ui.core.message.MessagePopover`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessagePopover.html)
+[API Reference: `sap.ui.core.message.MessagePopover`](https://sdk.openui5.org/api/sap.ui.core.message.MessagePopover)
 

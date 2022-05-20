@@ -26,7 +26,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 21](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.21/preview).
+You can view and download all files at [Walkthrough - Step 21](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.21).
 
 ```xml
 <mvc:View

@@ -17,7 +17,7 @@ The following sections describe what SAP can change in major, minor, and patch r
 > 
 >     Always follow our recommendations under [CSS Styling Issues](CSS_Styling_Issues_9d87f92.md).
 > 
-> -   Never use or override "private" functions that aren't part of the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.html). Private functions are typically \(but not always\) prefixed with a preceding "\_". Always double-check the API Reference, private functions are not listed there.
+> -   Never use or override "private" functions that aren't part of the [API Reference](https://sdk.openui5.org/api/sap.ui). Private functions are typically \(but not always\) prefixed with a preceding "\_". Always double-check the API Reference, private functions are not listed there.
 
 ***
 
@@ -25,7 +25,7 @@ The following sections describe what SAP can change in major, minor, and patch r
 
 ### API Evolution
 
-Unless otherwise mentioned, the word "API" in this section refers to "public API", meaning functions, classes, namespaces, controls along with their declared properties, aggregations, and so on. The sole definition of the public API is the  [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.html), which is included in the OpenUI5 Demo Kit. Features that are **not** mentioned there are **not** part of the API.
+Unless otherwise mentioned, the word "API" in this section refers to "public API", meaning functions, classes, namespaces, controls along with their declared properties, aggregations, and so on. The sole definition of the public API is the  [API Reference](https://sdk.openui5.org/api/sap.ui), which is included in the OpenUI5 Demo Kit. Features that are **not** mentioned there are **not** part of the API.
 
 The following rules apply for introducing new APIs or making incompatible changes to existing APIs:
 
@@ -36,7 +36,7 @@ The following rules apply for introducing new APIs or making incompatible change
 **Patch release** \(x.yy.**zz**\): A new patch version only contains fixes to the existing implementation, but doesn't usually contain new features or incompatible API changes.
 
 > ### Note:  
-> Exceptions to these rules are possible, but only in very urgent cases such as security issues. Such exceptions are documented in the [Change Log](https://sdk.openui5.orgreleasenotes.html).
+> Exceptions to these rules are possible, but only in very urgent cases such as security issues. Such exceptions are documented in the [Change Log](https://sdk.openui5.orgreleasenotes).
 
 ***
 
@@ -117,7 +117,7 @@ SAP might add, remove, or change the internal implementation of the parent class
 
 -   Any internal logic and behavior of the object that isn't reflected in the public API
 
--   The parent hierarchy of objects especially for composites where the API parent differs from the real parent \(e.g. parent object \> internal object \> child object\). For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.ManagedObject.html). 
+-   The parent hierarchy of objects especially for composites where the API parent differs from the real parent \(e.g. parent object \> internal object \> child object\). For more information, see [API Reference: `sap.ui.base.ManagedObject`](https://sdk.openui5.org/api/sap.ui.base.ManagedObject). 
 
 -   All rendering functionality of a control, including the HTML structure and CSS classes
 

@@ -69,7 +69,7 @@ sap.m.<SampleControl>.applyFocusInfo = function(oFocusInfo) {
 
 ### API Reference
 
-[sap.ui.core.Element](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.Element.html)
+[sap.ui.core.Element](https://sdk.openui5.org/api/sap.ui.core.Element)
 
 [getCurrentFocusedControlId](https://sdk.openui5.org/api/sap.ui.core.Core/methods/getCurrentFocusedControlId)
 

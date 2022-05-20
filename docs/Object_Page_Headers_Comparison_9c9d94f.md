@@ -489,11 +489,11 @@ Here is a sample usage of the dynamic header - the value of the `headerTitle` ag
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.org/api/sap.uxap.sap.uxap.ObjectPageHeader)
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.org/api/sap.uxap.ObjectPageDynamicHeaderTitle)
 
-[API Reference: `sap.f.DynamicPageTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPageTitle.html)
+[API Reference: `sap.f.DynamicPageTitle`](https://sdk.openui5.org/api/sap.f.DynamicPageTitle)
 
-[API Reference: `sap.f.DynamicPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPageHeader.html)
+[API Reference: `sap.f.DynamicPageHeader`](https://sdk.openui5.org/api/sap.f.DynamicPageHeader)
 

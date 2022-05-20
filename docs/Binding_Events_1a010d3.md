@@ -25,7 +25,7 @@ For applications, the OData V4 model supports the following events:
     -   The `dataReceived` event is fired after the back-end data has been processed. Note that the `dataReceived` event is also fired after a back-end request has failed. The error of the failed request is passed to the event handler as an `error` parameter.
 
 
-    For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html), [ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) and [ODataListBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html) in the Demo Kit.
+    For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding), [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit.
 
 -   The `createSent` and `createCompleted` events at the `ODataListBinding` are typically used by applications to lock the UI for the created entity to avoid modifications while the data for the created entity is sent to the back end, but the response from the back end is not yet processed on the client. For each `createSent` event, a `createCompleted` event is fired.
 
@@ -34,9 +34,9 @@ For applications, the OData V4 model supports the following events:
     -   The `createCompleted` event is fired each time the backend has responded to a POST request triggered for an `ODataListBinding#create`.
 
 
-    For more information, see [`ODataListBinding#create`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataListBinding/methods/create.html).
+    For more information, see [`ODataListBinding#create`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/create).
 
--   The `patchSent` and `patchCompleted` events are typically used by applications that are using update groups with submit mode [Auto](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.SubmitMode.html) \(which is the default\) and which need to be informed when PATCH requests are sent to the back end and when they are processed. For example, these events can be used to display a `DraftIndicator` to inform the user that his changes are being saved and when saving is finished.
+-   The `patchSent` and `patchCompleted` events are typically used by applications that are using update groups with submit mode [Auto](https://sdk.openui5.org/api/sap.ui.model.odata.v4.SubmitMode) \(which is the default\) and which need to be informed when PATCH requests are sent to the back end and when they are processed. For example, these events can be used to display a `DraftIndicator` to inform the user that his changes are being saved and when saving is finished.
 
     The `patchSent` and `patchCompleted` events are fired by `ODataContextBinding` and `ODataListBinding` if they send their own service request:
 
@@ -47,7 +47,7 @@ For applications, the OData V4 model supports the following events:
 
     If `ODataContextBinding` and `ODataListBinding` use the service request of a superordinate binding, the events are fired by the superordinate binding.
 
-    For more details, see the corresponding API documentation for the specific bindings [ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) and [ODataListBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html) in the Demo Kit.
+    For more details, see the corresponding API documentation for the specific bindings [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit.
 
 
 ***
@@ -67,16 +67,16 @@ The events `change` and `refresh` are meant for controls only, and not available
     b\) `ODataListBinding` fires a `refresh` event.
 
 
-For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html), [ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) and [ODataListBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html), as well as [sap.ui.model.ChangeReason](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.ChangeReason.html) in the Demo Kit.
+For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding), [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding), as well as [sap.ui.model.ChangeReason](https://sdk.openui5.org/api/sap.ui.model.ChangeReason) in the Demo Kit.
 
 **Related Information**  
 
 
-[ODataPropertyBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataPropertyBinding.html)
+[ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding)
 
-[ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding)
 
-[ODataListBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataListBinding.html)
+[ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding)
 
-[sap.ui.model.ChangeReason](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.ChangeReason.html)
+[sap.ui.model.ChangeReason](https://sdk.openui5.org/api/sap.ui.model.ChangeReason)
 

@@ -31,7 +31,7 @@ Actually, every feature that we added to the app so far, would require a separat
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 27](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.27/preview).
+You can view and download all files at [Walkthrough - Step 27](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.27).
 
    
   

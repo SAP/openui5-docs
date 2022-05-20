@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 The `sap.f.semantic.SemanticPage` is an enhanced `sap.f.DynamicPage` that implements the SAP Fiori 2.0 design guidelines.
 
-For more information about this control, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.f.semantic.SemanticPage.html) and the [samples](https://sdk.openui5.org/explored.html#/entity/sap.f.semantic.SemanticPage/samples).
+For more information about this control, see the [API Reference](https://sdk.openui5.org/api/sap.f.semantic.SemanticPage) and the [Samples](https://sdk.openui5.org/entity/sap.f.semantic.SemanticPage).
 
 ***
 
@@ -238,5 +238,5 @@ Adding custom \(non-semantic\) content
 **Related Information**  
 
 
-[API Reference: `sap.f.DynamicPage`](https://sdk.openui5.orgdocs/api/symbols/sap.f.DynamicPage.html)
+[API Reference: `sap.f.DynamicPage`](https://sdk.openui5.org/api/sap.f.DynamicPage)
 

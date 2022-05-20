@@ -196,6 +196,6 @@ A Table basically consists of columns \(`sap.m.Column`\) and rows. The rows, def
 
 **API References**
 
--   [sap.m.Column](https://sdk.openui5.orgdocs/api/symbols/sap.m.Column.html)
--   [sap.m.ColumnListItem](https://sdk.openui5.orgdocs/api/symbols/sap.m.ColumnListItem.html)
+-   [sap.m.Column](https://sdk.openui5.org/api/sap.m.Column)
+-   [sap.m.ColumnListItem](https://sdk.openui5.org/api/sap.m.ColumnListItem)
 

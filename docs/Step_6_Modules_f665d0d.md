@@ -26,7 +26,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.06/preview).
+You can view and download all files at [Walkthrough - Step 6](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.06).
 
 ```js
 sap.ui.define([

@@ -32,5 +32,5 @@ For more information, check out the concept guidelines at [https://experience.sa
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[API Reference: `sap.tnt`](https://sdk.openui5.orgdocs/api/symbols/sap.tnt.html)
+[API Reference: `sap.tnt`](https://sdk.openui5.org/api/sap.tnt)
 

@@ -22,14 +22,14 @@ This way, they are all in a central place and can be easily translated into othe
   
 <a name="loiodf86bfbeab0645e5b764ffa488ed57dc__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
 
- ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No visual
-					changes to last step)") 
+ ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
+					visual changes to last step)") 
 
 ***
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 8](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.08/preview).
+You can view and download all files at [Walkthrough - Step 8](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.08).
 
 ```ini
 showHelloButtonText=Say Hello
@@ -144,5 +144,5 @@ In the XML view, we use data binding to connect the button text to the `showHell
 
 [API Reference: `sap/base/i18n/ResourceBundle`](https://sdk.openui5.org/api/module:sap/base/i18n/ResourceBundle)
 
-[API Reference: `sap.ui.model.resource.ResourceModel`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.resource.ResourceModel.html)
+[API Reference: `sap.ui.model.resource.ResourceModel`](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel)
 

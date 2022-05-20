@@ -30,7 +30,7 @@ The type must be specified if the return value is a primitive type.
 
 ### Deferred Operation Bindings
 
-Often it is not feasible for the operation to be called immediately, for example if there are parameters that the user has to enter first. In such cases, use an ODataContextBinding as element binding at a layout element in the view, for example a `<Form>` or a `<VBox>` \(see the [ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html) API documentation in the Demo Kit\). Mark the operation as **deferred** by inserting an ellipsis \("..."\) in the brackets, for example `GetNextAvailableItem(...)`. Access the return value from child elements using relative bindings. When used like this, the context binding is called an **operation binding** or more specifically, a **function binding** or **action binding** depending on the type of OData operation it is used for.
+Often it is not feasible for the operation to be called immediately, for example if there are parameters that the user has to enter first. In such cases, use an ODataContextBinding as element binding at a layout element in the view, for example a `<Form>` or a `<VBox>` \(see the [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) API documentation in the Demo Kit\). Mark the operation as **deferred** by inserting an ellipsis \("..."\) in the brackets, for example `GetNextAvailableItem(...)`. Access the return value from child elements using relative bindings. When used like this, the context binding is called an **operation binding** or more specifically, a **function binding** or **action binding** depending on the type of OData operation it is used for.
 
 If the operation binding defers operation execution, you need to call its `execute` method to execute the operation. See below for an example.
 
@@ -461,5 +461,5 @@ onEdit : function () {
 
 [OData Version 4.0 Part 1, 11.5 Operations](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)
 
-[ODataContextBinding](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v4.ODataContextBinding.html)
+[ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding)
 

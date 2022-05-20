@@ -31,7 +31,7 @@ We haven’t thought about testing our interaction with the app yet, so in this 
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 28](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.28/preview).
+You can view and download all files at [Walkthrough - Step 28](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.28).
 
    
   
@@ -242,7 +242,7 @@ This script loads the `NavigationJourney`, and the test functions inside are imm
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
-[Samples: `sap.ui.test.Opa5` ](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5` ](https://sdk.openui5.org/entity/sap.ui.test.Opa5)
 
 [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 

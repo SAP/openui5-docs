@@ -57,9 +57,10 @@ XML views use event handlers as attributes: The attribute name is the event name
 		use the templating syntax, as it is interpreted by the preprocessor. It also makes it
 		possible to apply user customization.")**  
 Applying preprocessing to views enables you to use features like XML templating. This feature is currently only enabled for XML views. On an abstract level, preprocessing means that a view can be modified during runtime before it is rendered. This makes it possible to use the templating syntax, as it is interpreted by the preprocessor. It also makes it possible to apply user customization.
--   **[XML View Cache](XML_View_Cache_3d85d5e.md "To be able to speed up processing times of XML views that make heavy use of the preprocessor feature, you can use the view cache to store its
-		processed XML source. Then according network requests for the source and all preprocessor runs that modify the XML source are skipped and the source is
-		taken from the cache.")**  
+-   **[XML View Cache](XML_View_Cache_3d85d5e.md "To be able to speed up processing times of XML views that make heavy use of the
+		preprocessor feature, you can use the view cache to store its processed XML source. Then
+		according network requests for the source and all preprocessor runs that modify the XML
+		source are skipped and the source is taken from the cache.")**  
 To be able to speed up processing times of XML views that make heavy use of the preprocessor feature, you can use the view cache to store its processed XML source. Then according network requests for the source and all preprocessor runs that modify the XML source are skipped and the source is taken from the cache.
 -   **[Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md "Modules can be required in XML views and fragments and assigned to aliases which can be
 		used as variables in properties, event handlers, and bindings.")**  

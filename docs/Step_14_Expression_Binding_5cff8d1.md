@@ -26,7 +26,7 @@ Expression binding allows you to display a value on the screen that has been cal
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 14](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.14/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 14](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.14).
 
 ***
 

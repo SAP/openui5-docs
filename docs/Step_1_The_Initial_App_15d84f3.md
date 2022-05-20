@@ -32,7 +32,7 @@ The structure and data model created in this step will be used throughout this t
 
 ### Setup
 
-To set up your project for this tutorial, download the files at [OData V4 - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.odatav4.01/preview). Copy or import the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+To set up your project for this tutorial, download the files at [OData V4 - Step 1](https://sdk.openui5.org/entity/sap.ui.core.tutorial.odatav4/sample/sap.ui.core.tutorial.odatav4.01). Copy or import the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 
@@ -42,7 +42,7 @@ You should now have the following files:
   
 <a name="loio15d84f36c0594cb2b3295aa1f55cb961__fig_mdg_c12_gcb"/>Folder structure with downloaded files
 
-![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
+ ![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files") 
 
 ***
 

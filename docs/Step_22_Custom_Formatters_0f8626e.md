@@ -26,7 +26,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 22](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.22/preview).
+You can view and download all files at [Walkthrough - Step 22](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.22).
 
 ```js
 sap.ui.define([], function () {

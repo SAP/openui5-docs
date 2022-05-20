@@ -26,7 +26,7 @@ Sometimes it is important to display an indication that the requested resource w
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.03/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.03).
 
    
   
@@ -150,7 +150,7 @@ Open the URL `index.html#/thisIsInvalid` in your browser. From now on the user w
 **Related Information**  
 
 
-[API Reference: `sap.m.MessagePage`](https://sdk.openui5.orgdocs/api/symbols/sap.m.MessagePage.html)
+[API Reference: `sap.m.MessagePage`](https://sdk.openui5.org/api/sap.m.MessagePage)
 
-[API Overview and Samples: `sap.m.MessagePage` ](https://sdk.openui5.org/explored.html#/entity/sap.m.MessagePage/samples)
+[API Overview and Samples: `sap.m.MessagePage` ](https://sdk.openui5.org/entity/sap.m.MessagePage)
 

@@ -223,7 +223,7 @@ var fooType = DataType.createType('foo', {
 
 If `mSettings` contains an implementation for `isValid`, then the validity check of the newly created type will first execute the check of the base type and then call the given `isValid` function.
 
-For more information, see the [API Reference](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.DataType.html). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.base.DataType). 
 
 
 
@@ -339,5 +339,5 @@ At runtime, each type is represented as instance of the class `DataType` \(`sap/
 **Related Information**  
 
 
-[API Reference: `sap.ui.base.DataType`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.base.DataType.html)
+[API Reference: `sap.ui.base.DataType`](https://sdk.openui5.org/api/sap.ui.base.DataType)
 

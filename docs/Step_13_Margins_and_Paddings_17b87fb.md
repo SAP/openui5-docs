@@ -28,7 +28,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 13](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.13/preview).
+You can view and download all files at [Walkthrough - Step 13](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.13).
 
 ```xml
 <mvc:View

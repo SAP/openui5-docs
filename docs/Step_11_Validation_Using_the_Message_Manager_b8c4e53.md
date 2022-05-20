@@ -26,7 +26,7 @@ So far, we have created a currency field that can format itself correctly. The c
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.11/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 11](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.11).
 
 ***
 

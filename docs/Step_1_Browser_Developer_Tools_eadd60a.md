@@ -20,7 +20,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 ### Opening the Example App and the Developer Tools
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
     > ### Note:  
     > If you run the app within the Demo Kit frame, this step will not work as described. Open the app in a new tab first with ![Open in New Tab](images/loioebdf48e5efdb48a5a1f24dea972b4c41_LowRes.png).

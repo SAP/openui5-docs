@@ -28,7 +28,7 @@ The example we used at the start of this tutorial was overly simplistic as we st
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 6](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.06/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 6](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.06).
 
 ***
 

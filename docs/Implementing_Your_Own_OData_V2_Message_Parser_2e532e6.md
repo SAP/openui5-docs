@@ -28,9 +28,9 @@ The delta calculation must be a back end-specific implementation. In the OData i
 **Related Information**  
 
 
-[sap.ui.model.odata.ODataMessageParser](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.ODataMessageParser.html)
+[sap.ui.model.odata.ODataMessageParser](https://sdk.openui5.org/api/sap.ui.model.odata.ODataMessageParser)
 
-[sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.odata.v2.ODataModel.html)
+[sap.ui.model.odata.v2.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel)
 
-[sap.ui.core.message.MessageParser](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.message.MessageParser.html)
+[sap.ui.core.message.MessageParser](https://sdk.openui5.org/api/sap.ui.core.message.MessageParser)
 

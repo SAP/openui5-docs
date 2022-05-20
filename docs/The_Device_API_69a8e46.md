@@ -44,7 +44,7 @@ An API for screen width change events is available under `sap.ui.Device.media`. 
 -   SAP\_STANDARD\_EXTENDED: A 4-step range set \(Phone, Tablet, Desktop, LargeDesktop\)
 
 
-For more information about the exact values and corresponding css classes, see [sap.ui.Device.media.RANGESETS](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.media.RANGESETS.html) in the *API Reference* in the Demo Kit.
+For more information about the exact values and corresponding css classes, see [sap.ui.Device.media.RANGESETS](https://sdk.openui5.org/api/sap.ui.Device.media.RANGESETS) in the *API Reference* in the Demo Kit.
 
 The range sets described above will add a CSS class to the body element of the HTML according to the following pattern: `sapUiMedia-Std-NAME_OF_THE_INTERVAL` and `sapUiMedia-StdExt-NAME_OF_THE_INTERVAL`.
 

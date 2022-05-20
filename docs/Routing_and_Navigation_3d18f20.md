@@ -82,17 +82,18 @@ You can use the following kinds of patterns:
 
 
 > ### Tip:  
-> For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.PatternMatching/preview).
+> For a better understanding about how patterns work and what matched parameters look like, see the following page in the *Samples* in the Demo Kit: [sap.ui.core.sample.PatternMatching/preview](https://sdk.openui5.org/entity/sap.ui.core.routing.Route/sample/sap.ui.core.sample.PatternMatching).
 
 ***
 
 > ### Note:  
 > OpenUI5 uses Crossroads.js for parsing the hash and the Hasher framework for manipulating the hash.
 
--   **[Routing Configuration](Routing_Configuration_9023130.md "Routing configuration consists of routes, targets, config, and
-		owner.")**  
+-   **[Routing Configuration](Routing_Configuration_9023130.md "Routing configuration consists of routes, targets,
+			config, and owner.")**  
 Routing configuration consists of `routes`, `targets`, `config`, and `owner`.
--   **[Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method and events for navigation.")**  
+-   **[Methods and Events for Navigation](Methods_and_Events_for_Navigation_516e477.md "OpenUI5 provides a method
+		and events for navigation.")**  
 OpenUI5 provides a method and events for navigation.
 -   **[Initializing and Accessing a Routing Instance](Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md "This topic describes how to initialize routing in a component and access the routing functions.")**  
 This topic describes how to initialize routing in a component and access the routing functions.
@@ -121,9 +122,9 @@ The `addTarget` method in the `sap.ui.core.routing.Targets` class enables you to
 
 [Tutorial: Navigation and Routing](Navigation_and_Routing_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-[API Reference: `sap.ui.core.routing`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.routing.html)
+[API Reference: `sap.ui.core.routing`](https://sdk.openui5.org/api/sap.ui.core.routing)
 
-[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router)
 
 [API Reference: `sap.ui.core.routing.Route`: Constructor Detail](https://sdk.openui5.org/api/sap.ui.core.routing.Route/constructor)
 

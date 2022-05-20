@@ -26,7 +26,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 34](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.34/preview).
+You can view and download all files at [Walkthrough - Step 34](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.34).
 
 ```xml
 <mvc:View

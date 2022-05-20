@@ -68,5 +68,5 @@ As the user scrolls through the sections, the currently scrolled section is inte
 **Related Information**  
 
 
-[Sample: `sap.uxap.sample.ObjectPageState`](https://sdk.openui5.org/explored.html#/sample/sap.uxap.sample.ObjectPageState/preview)
+[Sample: `sap.uxap.sample.ObjectPageState`](https://sdk.openui5.org/entity/sap.uxap.ObjectPageLayout/sample/sap.uxap.sample.ObjectPageState)
 

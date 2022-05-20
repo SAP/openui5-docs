@@ -106,5 +106,5 @@ For a control with a `fieldGroupId` that currently has the focus, the following 
 **Related Information**  
 
 
-[Sample: `Field Groups`](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.FieldGroup/preview)
+[Sample: `Field Groups`](https://sdk.openui5.org/entity/sap.ui.core.Control/sample/sap.ui.core.sample.FieldGroup)
 

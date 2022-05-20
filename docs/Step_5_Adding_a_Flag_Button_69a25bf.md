@@ -26,7 +26,7 @@ Now that we have implemented the conversion tests, we add the corresponding func
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 5](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.05/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 5](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.05).
 
 ***
 

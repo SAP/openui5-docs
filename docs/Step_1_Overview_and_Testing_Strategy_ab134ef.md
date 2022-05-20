@@ -29,7 +29,7 @@ In this step, we will take a look at the prototype and define the test strategy 
 
 ### Coding
 
-To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Testing - Step 1](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.01/preview). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
+To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Testing - Step 1](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
 
 Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
 

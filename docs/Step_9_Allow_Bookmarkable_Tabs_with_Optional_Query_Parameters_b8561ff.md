@@ -28,7 +28,7 @@ In this step, we implement a bookmarking feature by enabling deep linking to tab
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 9](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.09/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 9](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.09).
 
 ***
 
@@ -241,5 +241,5 @@ When you click on any tab you will see that the hash in the URL changes immediat
 **Related Information**  
 
 
-[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.orgdocs/api/symbols/sap.m.IconTabBar.html)
+[API Reference: `sap.m.IconTabBar`](https://sdk.openui5.org/api/sap.m.IconTabBar)
 

@@ -20,14 +20,14 @@ In the previous step, we have listened for bypassed events to detect possible te
   
 <a name="loio4a063b8250f24d0cbf7c689821df7199__fig_r1j_pst_mr"/>Console output for routes matched by listening to `routeMatched` events
 
- ![](images/loioea12aae79b3841fe927f8e57f2f73e3b_HiRes.png "Console output for  routes matched by listening to routeMatched
-					events") 
+ ![](images/loioea12aae79b3841fe927f8e57f2f73e3b_HiRes.png "Console output for routes matched by listening to
+						routeMatched events") 
 
 ***
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 17](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.17/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 17](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.17).
 
 ***
 

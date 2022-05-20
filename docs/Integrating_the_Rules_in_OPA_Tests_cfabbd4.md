@@ -113,12 +113,12 @@ This special URL parameter could be used temporarily in cases when you extend an
         }
       });
     },
-    iShouldGetSupportRuleReport: function() {                                                       
-      return this.waitFor({                                                                     
-        success: function() {                                                                                   
-          Opa5.assert.getFinalReport();                                                                     
-        }                                                       
-      });                                         
+    iShouldGetSupportRuleReport: function() {
+      return this.waitFor({
+        success: function() {
+          Opa5.assert.getFinalReport();
+        }
+      });
     }
     ...
     
@@ -158,5 +158,5 @@ This special URL parameter could be used temporarily in cases when you extend an
 
 [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md "OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA especially helpful for testing user interactions, integration with OpenUI5, navigation, and data binding.")
 
-[Samples: `Running OPA tests with Support Assistant checks`](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.OpaWithSupportAssistant/preview)
+[Samples: `Running OPA tests with Support Assistant checks`](https://sdk.openui5.org/entity/sap.ui.test.Opa5/sample/sap.ui.core.sample.OpaWithSupportAssistant)
 

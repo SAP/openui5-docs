@@ -664,5 +664,5 @@ oDateTimeWithTimezoneFormat.parse("10.02.2022, 10:01:14 America/New_York", "Amer
 **Related Information**  
 
 
-[API Reference: `sap.ui.core.format.DateFormat`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.format.DateFormat.html)
+[API Reference: `sap.ui.core.format.DateFormat`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat)
 

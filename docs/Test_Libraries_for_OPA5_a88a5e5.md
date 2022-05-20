@@ -221,5 +221,5 @@ Opa5.extendConfig({
 **Related Information**  
 
 
-[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/entity/sap.ui.test.Opa5)
 

@@ -19,8 +19,8 @@ In general, application programmers do not need to take care of scrolling when u
 -   `sap.m.Popover`
 -   `sap.m.ScrollContainer`
 
--   **[Scrolling: Implementation Details](Scrolling_Implementation_Details_f5f6a47.md "OpenUI5 embeds the open source library iScroll4 that takes care of
-		scrolling in the application.")**  
+-   **[Scrolling: Implementation Details](Scrolling_Implementation_Details_f5f6a47.md "OpenUI5 embeds the open
+		source library iScroll4 that takes care of scrolling in the application.")**  
 OpenUI5 embeds the open source library iScroll4 that takes care of scrolling in the application.
 -   **[Scrolling: Pull to Refresh](Scrolling_Pull_to_Refresh_fde4015.md "The OpenUI5 mobile library supports the pull down to refresh functionality that allows
 		users to refresh lists or page content with fresh data from server. ")**  

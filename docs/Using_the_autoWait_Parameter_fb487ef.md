@@ -137,7 +137,7 @@ oOpa.waitFor({
 
 [Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md "Tips and tricks if OPA isn't behaving or reacting the way you expect it to.")
 
-[API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.test.Opa5.html)
+[API Reference: `sap.ui.test.Opa5`](https://sdk.openui5.org/api/sap.ui.test.Opa5)
 
-[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/explored.html#/entity/sap.ui.test.Opa5/samples)
+[Samples: `sap.ui.test.Opa5`](https://sdk.openui5.org/entity/sap.ui.test.Opa5)
 

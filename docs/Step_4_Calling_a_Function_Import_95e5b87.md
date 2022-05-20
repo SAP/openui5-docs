@@ -26,7 +26,7 @@ We only want to display the upcoming meetings and hide the meetings happened in 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 4](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.04/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 4](https://sdk.openui5.org/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.04).
 
 ***
 

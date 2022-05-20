@@ -26,7 +26,7 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 9](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.09/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 9](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.09).
 
 ***
 

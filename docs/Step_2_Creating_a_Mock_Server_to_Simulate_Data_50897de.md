@@ -26,7 +26,7 @@ In this step, we use the OData V2 mock server to add data to our app without dep
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.02/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 2](https://sdk.openui5.org/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.02).
 
 ***
 
@@ -239,5 +239,5 @@ Just run the app now again with the `mockServer.html` file.. The list should now
 
 [Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.util.MockServer.html)
+[API Reference: `sap.ui.core.util.MockServer`](https://sdk.openui5.org/api/sap.ui.core.util.MockServer)
 

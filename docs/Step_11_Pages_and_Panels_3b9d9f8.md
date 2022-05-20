@@ -26,7 +26,7 @@ After all the work on the app structure it’s time to improve the look of our a
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.11/preview).
+You can view and download all files at [Walkthrough - Step 11](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.11).
 
 ```xml
 <mvc:View
@@ -97,11 +97,11 @@ We add new key/value pairs to our text bundle for the start page title and the p
 **Related Information**  
 
 
-[API Reference: `sap.m.NavContainer`](https://sdk.openui5.orgdocs/api/symbols/sap.m.NavContainer.html)
+[API Reference: `sap.m.NavContainer`](https://sdk.openui5.org/api/sap.m.NavContainer)
 
-[Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/explored.html#/entity/sap.m.NavContainer/samples)
+[Samples: `sap.m.NavContainer` ](https://sdk.openui5.org/entity/sap.m.NavContainer)
 
-[API Reference: `sap.m.Page`](https://sdk.openui5.orgdocs/api/symbols/sap.m.Page.html)
+[API Reference: `sap.m.Page`](https://sdk.openui5.org/api/sap.m.Page)
 
-[Samples: `sap.m.Page` ](https://sdk.openui5.org/explored.html#/entity/sap.m.Page/samples)
+[Samples: `sap.m.Page` ](https://sdk.openui5.org/entity/sap.m.Page)
 

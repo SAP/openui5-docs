@@ -42,13 +42,14 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
   
 <a name="loio5278bfd38f3940b192df0e39f2fb33b3__fig_r1j_pst_mr"/>Screen with text derived from a model object \(No visual changes to last step\)
 
- ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last step)") 
+ ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last
+					step)") 
 
 ***
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Data Binding - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.databinding.02/preview).
+You can view and download all files in the Demo Kit at [Data Binding - Step 2](https://sdk.openui5.org/entity/sap.ui.core.tutorial.databinding/sample/sap.ui.core.tutorial.databinding.02).
 
 ***
 

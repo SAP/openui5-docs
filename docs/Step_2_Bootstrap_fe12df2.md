@@ -26,7 +26,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 2](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.02/preview).
+You can view and download all files at [Walkthrough - Step 2](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.02).
 
 > ### Note:  
 > OpenUI5 is a JavaScript library that can either be loaded from the same Web server where the app resides, or from a different server. If OpenUI5 is deployed somewhere else on the server or you want to use a different server, then you need to adjust the corresponding paths in the bootstrap \(here: `src="/resources/sap-ui-core.js"`\) in this tutorial according to your own requirements.

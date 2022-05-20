@@ -56,9 +56,10 @@ You use data binding to bind UI elements to data sources to keep the data in syn
 -   **[Reusing UI Parts: Fragments](Reusing_UI_Parts_Fragments_36a5b13.md "Fragments are light-weight UI parts (UI sub-trees) which can be reused, defined similar
 		to views, but do not have any controller or other behavior code involved.")**  
 Fragments are light-weight UI parts \(UI sub-trees\) which can be reused, defined similar to views, but do not have any controller or other behavior code involved.
--   **[XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the
-		source level, the XML DOM, at runtime just before an OpenUI5 control tree is
-		created from the XML source.")**  
+-   **[XML Templating](XML_Templating_5ee619f.md "The XML templating concept enables you to use an XML view as a template. This
+		template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime
+		just before an OpenUI5 control
+		tree is created from the XML source.")**  
 The XML templating concept enables you to use an XML view as a template. This template is transformed by an XML preprocessor on the source level, the XML DOM, at runtime just before an OpenUI5 control tree is created from the XML source.
 -   **[Working with Controls](Working_with_Controls_91f0a22.md "Controls are used to define the appearance and behavior of screen areas.")**  
 Controls are used to define the appearance and behavior of screen areas.

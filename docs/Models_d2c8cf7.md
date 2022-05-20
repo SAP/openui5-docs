@@ -51,5 +51,5 @@ A Web application should support several data sources, such as JSON, XML, Atom, 
 **Related Information**  
 
 
-[API Reference: `sap.ui.model`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.html)
+[API Reference: `sap.ui.model`](https://sdk.openui5.org/api/sap.ui.model)
 

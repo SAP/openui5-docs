@@ -313,7 +313,7 @@ Resource model
 </tr>
 </table>
 
-For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.model.BindingMode.html). 
+For more information, see the [API Reference: `sap.ui.model.BindingMode`](https://sdk.openui5.org/api/sap.ui.model.BindingMode). 
 
 -   **[Binding Types](Binding_Types_91f0d8a.md "Depending on the different use cases, you can use different binding types: Propety
 		binding, context binding, and list binding.")**  

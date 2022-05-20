@@ -46,8 +46,8 @@ The table design in OpenUI5 can be changed by using various table and column fea
 -   **[List and Table Events](List_and_Table_Events_35b8a94.md "Both sap.m.List and sap.m.Table offer the same events,
         inheriting them from sap.m.ListBase.")**  
 Both `sap.m.List` and `sap.m.Table` offer the same events, inheriting them from `sap.m.ListBase`.
--   **[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be used
-		for tables and lists.")**  
+-   **[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be
+		used for tables and lists.")**  
 `sap.m.ListBase` provides growing-related properties, which can be used for tables and lists.
 -   **[Grouping in a Table](Grouping_in_a_Table_4c98cf1.md "When you have repeated values in your table, you can use mergeDuplicate
         of the sap.m.Column control to sort your data based on the column to be

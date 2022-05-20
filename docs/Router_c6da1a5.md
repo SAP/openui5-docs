@@ -87,5 +87,5 @@ And then change the layout manually. The recommended lifecycle event to do this 
 **Related Information**  
 
 
-[API Reference: `sap.f.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.f.routing.Router.html)
+[API Reference: `sap.f.routing.Router`](https://sdk.openui5.org/api/sap.f.routing.Router)
 

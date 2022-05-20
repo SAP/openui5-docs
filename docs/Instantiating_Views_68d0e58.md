@@ -93,5 +93,5 @@ sap.ui.require(["sap/ui/core/mvc/XMLView", "sap/ui/core/mvc/Controller"], functi
  });
 ```
 
-For an example, see the [`sap.ui.core.sample.View.async/preview`](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.sample.View.async/preview) sample in the Demo Kit.
+For an example, see the [`sap.ui.core.sample.View.async/preview`](https://sdk.openui5.org/entity/sap.ui.core.mvc.View/sample/sap.ui.core.sample.View.async) sample in the Demo Kit.
 

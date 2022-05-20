@@ -34,7 +34,8 @@ The following image shows the collapsed \(snapped\) header is where the Header C
   
 <a name="loiod2ef0099542d44dc868719d908e576d0__fig_odw_ypk_sbb"/>`sap.uxap.ObjectPageLayout` Header in Collapsed \(snapped\) State
 
- ![](images/loiof4ec6baca13b4bd993715464cbf4461f_HiRes.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped) State") 
+ ![](images/loiof4ec6baca13b4bd993715464cbf4461f_HiRes.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped)
+					State") 
 
 ***
 
@@ -208,22 +209,22 @@ An array of arbitrary controls.
 
 Again, the app provides an instance of `sap.uxap.ObjectPageDynamicHeaderTitle` as the value of the `headerTitle` aggregation and a list of controls for the `headerContent` aggregation \(`sap.uxap.ObjectPageLayout` uses internally `sap.uxap.ObjectPageDynamicHeaderContent` to lay out the controls\).
 
--   **[Object Page Classic Header](Object_Page_Classic_Header_0fecbce.md "Overview of the structure and features for sap.uxap.ObjectPageLayout's
-		classic header.")**  
+-   **[Object Page Classic Header](Object_Page_Classic_Header_0fecbce.md "Overview of the structure and features for
+		sap.uxap.ObjectPageLayout's classic header.")**  
 Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s classic header.
 -   **[Object Page Dynamic Header](Object_Page_Dynamic_Header_6e340c1.md "Overview of the structure and features for
 		sap.uxap.ObjectPageLayout's dynamic header.")**  
 Overview of the structure and features for `sap.uxap.ObjectPageLayout`'s dynamic header.
--   **[Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md "This section explains the differences and similarities between the two types of header
-		of the sap.uxap.ObjectPageLayout control.")**  
+-   **[Object Page Headers Comparison](Object_Page_Headers_Comparison_9c9d94f.md "This section explains the differences and similarities between the two types of
+		header of the sap.uxap.ObjectPageLayout control.")**  
 This section explains the differences and similarities between the two types of header of the `sap.uxap.ObjectPageLayout` control.
 
 **Related Information**  
 
 
-[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageLayout.html)
+[API Reference: `sap.uxap.ObjectPageLayout`](https://sdk.openui5.org/api/sap.uxap.ObjectPageLayout)
 
-[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.sap.uxap.ObjectPageHeader.html)
+[API Reference: `sap.uxap.ObjectPageHeader`](https://sdk.openui5.org/api/sap.uxap.sap.uxap.ObjectPageHeader)
 
-[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.orgdocs/api/symbols/sap.uxap.ObjectPageDynamicHeaderTitle.html)
+[API Reference: `sap.uxap.ObjectPageDynamicHeaderTitle`](https://sdk.openui5.org/api/sap.uxap.ObjectPageDynamicHeaderTitle)
 

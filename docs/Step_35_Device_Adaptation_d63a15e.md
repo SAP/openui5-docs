@@ -27,7 +27,7 @@ We now configure the visibility and properties of controls based on the device t
 
 ### Coding
 
-You can view and download all files at [Walkthrough - Step 35](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.walkthrough.35/preview).
+You can view and download all files at [Walkthrough - Step 35](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.35).
 
 ```xml
 <mvc:View
@@ -234,7 +234,7 @@ Optimize your application for the different screen sizes of phone, tablet, and d
 **Related Information**  
 
 
-[API Reference: `sap.ui.Device.media.RANGESETS`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.media.RANGESETS.html)
+[API Reference: `sap.ui.Device.media.RANGESETS`](https://sdk.openui5.org/api/sap.ui.Device.media.RANGESETS)
 
-[API Reference: `sap.ui.Device`](https://sdk.openui5.orgdocs/api/symbols/sap.ui.Device.html)
+[API Reference: `sap.ui.Device`](https://sdk.openui5.org/api/sap.ui.Device)
 

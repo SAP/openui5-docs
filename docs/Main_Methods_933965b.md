@@ -56,5 +56,5 @@ Note that the `getNextUIState` method is not static – its return value depends
 **Related Information**  
 
 
-[API Reference: `sap.f.FlexibleColumnLayoutSemanticHelper`](https://sdk.openui5.orgdocs/api/symbols/sap.f.FlexibleColumnLayoutSemanticHelper.html)
+[API Reference: `sap.f.FlexibleColumnLayoutSemanticHelper`](https://sdk.openui5.org/api/sap.f.FlexibleColumnLayoutSemanticHelper)
 

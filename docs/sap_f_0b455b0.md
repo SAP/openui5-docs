@@ -24,5 +24,5 @@ The following sections provide you with best practices and details that help you
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[API Reference: `sap.f`](https://sdk.openui5.orgdocs/api/symbols/sap.f.html)
+[API Reference: `sap.f`](https://sdk.openui5.org/api/sap.f)
 

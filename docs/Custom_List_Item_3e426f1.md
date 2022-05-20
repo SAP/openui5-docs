@@ -168,7 +168,7 @@ Creating custom list items if none of the list items above are suitable
 
 If none of the predefined list items \(the first seven entries in the table above\) fit your scenario, you can also create your own layout by using `sap.m.CustomListItem` directly, or create a new control that inherits from `sap.m.CustomListItem`.
 
-For more information about the different list items, refer to the corresponding [API documentation](https://sdk.openui5.orgdocs/api/symbols/sap.m.List.html). 
+For more information about the different list items, refer to the corresponding [API documentation](https://sdk.openui5.org/api/sap.m.List). 
 
 ***
 

@@ -14,7 +14,7 @@ OpenUI5 embeds the open source library iScroll4 that takes care of scrolling in 
 
 Scrolling support in mobile browsers is weak and inconsistent. Only the latest platforms and browsers start to support partially usable scrolling functionality. To avoid this, OpenUI5 supports iScroll4. Though the library is globally available in a OpenUI5 application, programmers should not call it directly. The `sap.ui.core.delegate.ScrollEnablement` delegate provides all functionality and smooth integration of iScroll4 into the OpenUI5 library.
 
-For more information, see [sap.ui.core.delegate.ScrollEnablement](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.delegate.ScrollEnablement.html) 
+For more information, see [sap.ui.core.delegate.ScrollEnablement](https://sdk.openui5.org/api/sap.ui.core.delegate.ScrollEnablement) 
 
 ***
 

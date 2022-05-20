@@ -28,7 +28,7 @@ We know that the OData V2 provider of this service implements a URL parameter th
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Mock Server - Step 3](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.mockserver.03/preview).
+You can view and download all files in the Demo Kit at [Mock Server - Step 3](https://sdk.openui5.org/entity/sap.ui.core.tutorial.mockserver/sample/sap.ui.core.tutorial.mockserver.03).
 
 ***
 

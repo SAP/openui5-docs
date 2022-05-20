@@ -61,10 +61,10 @@ We recommend creating at least three files for your app: the descriptor \(`manif
 -   **[App Initialization: What Happens When an App Is Started?](App_Initialization_What_Happens_When_an_App_Is_Started_d2f5869.md "When a user starts an app (in the SAP Fiori launchpad (FLP) or using an HTML page),
 		several steps will be performed in the background.")**  
 When a user starts an app \(in the SAP Fiori launchpad \(FLP\) or using an HTML page\), several steps will be performed in the background.
--   **[Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md "The details described here represent a best practice for structuring an application that
-		features one component, one OData service and less than 20 views. If you're building an app
-		that has more components, OData services and views, you may have to introduce more folder
-		levels than described here.")**  
+-   **[Folder Structure: Where to Put Your Files](Folder_Structure_Where_to_Put_Your_Files_003f755.md "The details described here represent a best practice for structuring an application
+		that features one component, one OData service and less than 20 views. If you're building an
+		app that has more components, OData services and views, you may have to introduce more
+		folder levels than described here.")**  
 The details described here represent a best practice for structuring an application that features one component, one OData service and less than 20 views. If you're building an app that has more components, OData services and views, you may have to introduce more folder levels than described here.
 -   **[Device Adaptation: Using Device Models for Your App](Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md "Depending on the capabilities of the device on which the app is running, the
 		functionality and the design of the application might differ. By introducing a local JSON

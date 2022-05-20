@@ -26,7 +26,7 @@ So far we have created many useful routes in our app. In the very early steps we
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 16](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.16/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 16](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.16).
 
 ***
 
@@ -80,5 +80,5 @@ Now try to access `webapp/index.html#/thisIsInvalid` while you have your browser
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.Router`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.Router.html)
+[API Reference: `sap.m.routing.Router`](https://sdk.openui5.org/api/sap.m.routing.Router)
 

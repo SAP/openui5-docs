@@ -26,7 +26,7 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 
 ### Opening the Example App and Support Assistant
 
-1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.troubleshooting.01/preview) and run the app.
+1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
 2.  Activate the Support Assistant using one of the following options:
 

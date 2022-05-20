@@ -20,8 +20,7 @@ In this step, we will add a new button to the home page to illustrate the usage 
   
 <a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_r1j_pst_mr"/>New button *Show Employee Overview*
 
- ![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee
-					Overview") 
+ ![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee Overview") 
 
    
   
@@ -39,7 +38,7 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
 ### Coding
 
-You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://sdk.openui5.org/explored.html#/sample/sap.ui.core.tutorial.navigation.11/preview) .
+You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.11) .
 
    
   
@@ -492,7 +491,5 @@ Add the new texts to the `properties` file.
 **Related Information**  
 
 
-[API Reference: `sap.m.routing.TargetHandler`](https://sdk.openui5.orgdocs/api/symbols/sap.m.routing.TargetHandler.html)
-
-[API Overview and Samples: `sap.ui.core.sample.PatternMatching` ](https://sdk.openui5.org/explored.html#/sap.ui.core.sample.PatternMatching/preview)
+[API Reference: `sap.m.routing.TargetHandler`](https://sdk.openui5.org/api/sap.m.routing.TargetHandler)
 

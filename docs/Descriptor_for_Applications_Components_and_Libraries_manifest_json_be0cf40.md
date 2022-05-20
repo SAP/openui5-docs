@@ -2430,7 +2430,7 @@ The `preload` flag enables a preload mode for a model, thus improving the startu
 		look-and-feel of SAP Fiori 2.0. ")**  
 Application developers can enable automatic adaptation of their existing applications from the manifest.json app descriptor. This helps to easily convert applications to the new look-and-feel of SAP Fiori 2.0.
 
-[sap.ui.core.UIComponent](https://sdk.openui5.orgdocs/api/symbols/sap.ui.core.UIComponent.html)
+[sap.ui.core.UIComponent](https://sdk.openui5.org/api/sap.ui.core.UIComponent)
 
 [Component Metadata](Component_Metadata_0187ea5.md "The component class provides specific metadata for components by extending the ManagedObject class. The UIComponent class provides additional metadata for the configuration of user interfaces or the navigation between views.")
 

@@ -156,7 +156,7 @@ We test this in a unit test. In this step we will follow an iterative approach. 
 
 ### Coding
 
-You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 15](https://sdk.openui5.org/explored.html#/sample/sap.m.tutorial.testing.15/preview).
+You can view and download all files in the *Samples* in the Demo Kit at [Testing - Step 15](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.15).
 
 ***
 
