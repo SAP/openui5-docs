@@ -161,7 +161,7 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 
 We have improved the usability of the Gantt chart with the large interval/label always visible on the time axis.
 
- For more information, see the [API Reference](https://sdk.openui5.org/sdk/#/api/sap.gantt.misc.AxisTime) and the [Sample](https://sdk.openui5.org/sdk/#/entity/sap.gantt.simple.GanttChartWithTable). 
+ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.gantt.misc.AxisTime) and the [Sample](https://sdk.openui5.org/entity/sap.gantt.simple.GanttChartWithTable). 
 
 
 

@@ -47,9 +47,11 @@ This chapter gives an overview of the possible combinations of themes and librar
  Versioning and maintenance strategy for OpenUI5.
 -   **[Upgrading](Upgrading_9638e4f.md "The following sections describe what you have to consider when upgrading to a new version of OpenUI5.")**  
 The following sections describe what you have to consider when upgrading to a new version of OpenUI5.
--   **[Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md "As OpenUI5 evolves over time, some of the UI controls are replaced by others, or
-		their concepts abandoned entirely. This chapter gives an overview on theme and library level of the most important deprecations. Individual control
-		deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.")**  
+-   **[Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md "As OpenUI5 evolves over
+		time, some of the UI controls are replaced by others, or their concepts abandoned entirely.
+		This chapter gives an overview on theme and library level of the most important
+		deprecations. Individual control deprecations and more information about the controls
+		replacing them can be found in the API reference within the Demo Kit.")**  
 As OpenUI5 evolves over time, some of the UI controls are replaced by others, or their concepts abandoned entirely. This chapter gives an overview on theme and library level of the most important deprecations. Individual control deprecations and more information about the controls replacing them can be found in the API reference within the Demo Kit.
 -   **[SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md "With SAPUI5 and OpenUI5 we provide two deliveries of
 		our UI development toolkit. Both are very closely related, but have their

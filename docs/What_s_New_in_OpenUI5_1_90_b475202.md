@@ -85,7 +85,7 @@ We have implemented two new samples for specific scenarios:
 
 Key users can now use the new customization feature to make changes to the user interface of a Gantt chart as per their requirements.
 
- For more information, see the [API Reference](https://sdk.openui5.org/sdk/#/api/sap.gantt.simple.GanttChartWithTable). 
+ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.gantt.simple.GanttChartWithTable). 
 
 
 
