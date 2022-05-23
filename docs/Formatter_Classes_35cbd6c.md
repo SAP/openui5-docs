@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 ## Formatter Classes
 
-For a complete list of all formatter classes, see [API Reference: `sap.ui.model.Type`](http://sdk.openui5.org/api/sap.ui.core.format). 
+For a complete list of all formatter classes, see [API Reference: `sap.ui.model.Type`](https://sdk.openui5.org/api/sap.ui.core.format). 
 
 -   **[Date Format](Date_Format_91f2eba.md "The sap.ui.core.format.DateFormat class can be used to parse a
         string representing a date, time, or the combination of date and time into a JavaScript date

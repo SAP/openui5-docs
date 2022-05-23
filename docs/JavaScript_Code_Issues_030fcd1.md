@@ -218,7 +218,7 @@ Entities marked as “deprecated” in the API Reference documentation \(this in
 
 One prominent example is the old `jQuery.sap.device` API that has been replaced with `sap.ui.Device`.
 
-For more information, see the [Deprecated APIs](https://sdk.openui5.orgdocs/api/deprecation.html).
+For more information, see the [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
 
 ***
 

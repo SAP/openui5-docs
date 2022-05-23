@@ -14,7 +14,7 @@ One OData V4 model instance can only cover one OData service. This section descr
 
 The OData V4 model is primarily designed for OData V4 services. Nevertheless, OData V2 services may be used through an adapter as well. For more information see: [Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md)
 
-When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the properties `serviceUrl` and `synchronizationMode`. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html#constructor) API documentation in the Demo Kit.
+When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the properties `serviceUrl` and `synchronizationMode`. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23constructor) API documentation in the Demo Kit.
 
 **OData V4 model instantiation:**
 
@@ -110,7 +110,7 @@ The code sample below shows the parts of a [Descriptor for Applications, Compone
 
 ### Data Access
 
-The OData V4 model only supports data access using bindings. It does not provide any direct access to the data. For more information, see [Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md). One exception is [sap.ui.model.odata.v4.Context\#setProperty](https://sdk.openui5.org/api/symbols/sap.ui.model.odata.v4.Context/methods/setProperty). It allows to update a property without using a property binding, even without reading the data first. You can create bindings that are independent of controls. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).
+The OData V4 model only supports data access using bindings. It does not provide any direct access to the data. For more information, see [Unsupported Superclass Methods and Events](Unsupported_Superclass_Methods_and_Events_1232241.md). One exception is [sap.ui.model.odata.v4.Context\#setProperty](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/setProperty). It allows to update a property without using a property binding, even without reading the data first. You can create bindings that are independent of controls. For more information, see [Accessing Data in Controller Code](Accessing_Data_in_Controller_Code_17b30ac.md).
 
 ***
 
@@ -187,7 +187,7 @@ Some services do not support an "X-CSRF-Token" request header value "Fetch", for
 **Related Information**  
 
 
-[Constructor: sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/docs/api/symbols/sap.ui.model.odata.v4.ODataModel.html#constructor)
+[Constructor: sap.ui.model.odata.v4.ODataModel](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23constructor)
 
 [OData Version 4.0 Part 2: URL Conventions](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part2-url-conventions.html)
 

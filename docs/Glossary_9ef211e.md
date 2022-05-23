@@ -524,7 +524,7 @@ SAPUI5/OpenUI5
 
 [Samples](https://sdk.openui5.org/explored.html)
 
-[API Reference](https://sdk.openui5.orgdocs/api/index.html)
+[API Reference](https://sdk.openui5.org/api/since)
 
 [Essentials](Essentials_ec699e0.md)
 

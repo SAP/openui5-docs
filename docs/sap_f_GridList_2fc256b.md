@@ -26,14 +26,15 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
   
 <a name="loio2fc256be1b4649048b125320628e12f0__fig_pfj_mhs_5fb"/>An example of a uniform grid layout, where all the grid items in a grout take the same dimensions
 
- ![](images/loio91e4c6b50b9d4ab58f7a4c9ab6e64839_LowRes.png "An example of a uniform grid layout, where all the grid items in a grout take the same dimensions") 
+ ![](images/loio91e4c6b50b9d4ab58f7a4c9ab6e64839_LowRes.png "An example of a uniform grid layout, where all the grid items in a grout take
+					the same dimensions") 
 
    
   
 <a name="loio2fc256be1b4649048b125320628e12f0__fig_pt5_d4r_1gb"/>GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid items
 
- ![](images/loio8b209b06ea254d03a9ca181485a25c38_LowRes.png "GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid
-					items") 
+ ![](images/loio8b209b06ea254d03a9ca181485a25c38_LowRes.png "GridList allows for high flexibility layouts, where the app developer can
+					decide on the specific placement and sizing of the grid items") 
 
 ***
 
@@ -64,7 +65,7 @@ With the new `sap.f.GridList`control, you can easily organize and align your con
 **Related Information**  
 
 
-[API Reference: `sap.f.GridList`](https://sdk.openui5.org/api/symbols/sap.f.GridList)
+[API Reference: `sap.f.GridList`](https://sdk.openui5.org/api/sap.f.GridList)
 
 [Samples: `sap.f.GridList`](https://sdk.openui5.org/entity/sap.f.GridList)
 

@@ -47,7 +47,7 @@ You can refresh all bindings with `ODataModel.refresh`, see [ODataModel.refresh]
 
 #### Refresh a single entity
 
-You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
+You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#refresh`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/refresh) or the bound context or return value context of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/overview) which corresponds to this entity. This also refreshes all dependent bindings of its contexts.
 
 > ### Example:  
 > Usage of Context\#refresh for a context in a list binding
@@ -64,7 +64,7 @@ You can refresh a **single** entity by calling [`sap.ui.model.odata.v4.Context#r
 > ```
 
 > ### Note:  
-> -   Contexts of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataListBinding/overview) and the bound context of an [`sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.ODataContextBinding/overview) can only be refreshed if the binding is not relative to a [`sap.ui.model.odata.v4.Contex`](https://sdk.openui5.orgdocs/api/sap.ui.model.odata.v4.Contex/overview) and if its root binding is not suspended.
+> -   Contexts of an [`sap.ui.model.odata.v4.ODataListBinding`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/overview) and the bound context of an [`sap.ui.model.odata.v4.ODataContextBinding`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding/overview) can only be refreshed if the binding is not relative to a [`sap.ui.model.odata.v4.Contex`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Contex/overview) and if its root binding is not suspended.
 > 
 > -   Refresh is only allowed if there are no pending changes for the context and all its dependent bindings. If you have a relative binding with changes and this binding loses its context, the former parent binding does not report pending changes: the changes are kept, but the relation between these bindings is lost. You can do the following:
 > 

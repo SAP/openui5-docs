@@ -34,7 +34,7 @@ The `GridContainer` also supports layout breakpoints based on the screen size. A
 **Related Information**  
 
 
-[API Reference: `sap.f.GridContainer`](https://sdk.openui5.org/api/symbols/sap.f.GridContainer)
+[API Reference: `sap.f.GridContainer`](https://sdk.openui5.org/api/sap.f.GridContainer)
 
 [Samples: `sap.f.GridContainer`](https://sdk.openui5.org/entity/sap.f.GridContainer)
 

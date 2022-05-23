@@ -18,6 +18,10 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 
 
 
+-   **[What's New in OpenUI5 1.xx \(new concept template\)](What_s_New_in_OpenUI5_1_xx_new_concept_template_7534ae8.md "With
+		this release OpenUI5 is upgraded
+		from version 1.yy to 1.xx.")**  
+With this release OpenUI5 is upgraded from version 1.yy to 1.xx.
 -   **[What's New in OpenUI5 1.102](What_s_New_in_OpenUI5_1_102_b530db3.md "With
 		this release OpenUI5 is upgraded
 		from version 1.101 to 1.102.")**  

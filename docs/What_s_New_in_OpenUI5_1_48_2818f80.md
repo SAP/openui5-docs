@@ -164,7 +164,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 -   `sap.m.GenericTile`: With a new overflow concept that allows more flexibility in the layout of the tile designs, generic tiles are displayed in `LineMode` like list items when the screen width is less than 450px. With a screen width greater than 450px, the tiles are no longer truncated and the complete text is shown in a wrapped in-line design.
 
-    `Compact` and `Cozy` content densities are available for small \(< 450px\) and large \(\> 450px\) screens. For more information, see the [API Reference](https://sdk.openui5.org/api/symbols/sap.m.GenericTile) and the [samples](https://sdk.openui5.org/entity/sap.m.GenericTile). 
+    `Compact` and `Cozy` content densities are available for small \(< 450px\) and large \(\> 450px\) screens. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.GenericTile) and the [samples](https://sdk.openui5.org/entity/sap.m.GenericTile). 
 
 -   `sap.m.PlanningCalendar`:
 
