@@ -841,6 +841,38 @@ For example, for a sales order processing application, the data model can define
 <tr>
 <td valign="top">
 
+facet
+
+
+
+</td>
+<td valign="top">
+
+It represents the top most sections listed under the header facet in an object page. By clicking on the tab, you can either navigate to the corresponding section information or you can open a menu showing the subsections present within it.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+[Setting Up the Object Page Header](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/cce93e6f067a4133a8430c4f5d7b8fc7.html "You have various options for defining the object page header.") :arrow_upper_right:
+
+[Defining and Adapting Sections](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right:
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Fiori
 
 
@@ -935,6 +967,36 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+iAppState
+
+
+
+</td>
+<td valign="top">
+
+It is the inner app state that stores all the information required to retrieve the state of an app, when the same URL is reloaded. Reloading implies refreshing, back navigation, URL shared using *Save as Tile*, or *Send Email*. Usually, the filter applied, visible table columns, applied sort order etc. are stored.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+[Store/Restore the Application State](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/46bf248182ed47cb85a05610abe361f7.html "SAP Fiori elements uses the iAppState mechanism for storing or restoring the application state. This enables a smooth user experience when navigating back and forth between SAP Fiori elements and other apps.") :arrow_upper_right:
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 JAWS Screen Reader
 
 
@@ -1019,6 +1081,36 @@ SAPUI5/OpenUI5
 <td valign="top">
 
 [Essentials](Essentials_ec699e0.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+LineItem - Table
+
+
+
+</td>
+<td valign="top">
+
+LineItem define the columns that can be seen in the table.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Configuring Tables](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f4eb70f4808b48adb6ea03a4017aba24.html "You can use the annotations and entries in the manifest.json to control various aspects of tables.") :arrow_upper_right: 
 
 
 
@@ -1139,6 +1231,51 @@ SAPUI5/OpenUI5
 <td valign="top">
 
 [Developing Controls](Developing_Controls_8dcab00.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+navigation: internal, external, outbound, inbound
+
+
+
+</td>
+<td valign="top">
+
+-   **Internal Navigation**
+
+    Internal navigation is triggered by SAP Fiori elements to the detail page. You remain within the list report, object page, or a sub object page. It does not involve any xAppState navigation.
+
+-   **External Navigation**
+
+    This navigation uses SAP Fiori launchpad navigation and is done using the Semantic Object-Action configuration. It uses the xAppState navigation to pass the current source context.
+
+-   **Outbound Navigation**
+
+    This navigation takes a user away to a target app.
+
+-   **Inbound Navigation**
+
+    This navigation is done into an app. User can navigate into the analytical list page, list report or an object page.
+
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Configuring Navigation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/a42427550b72436a8bdf53045b06effb.html "SAP Fiori elements control the navigation within an app (internal navigation) and the navigation to and from an app (external navigation).") :arrow_upper_right: 
 
 
 
@@ -1453,6 +1590,36 @@ scalable vector graphics \(SVG\)
 <tr>
 <td valign="top">
 
+side effects
+
+
+
+</td>
+<td valign="top">
+
+Allow applications to refresh one or more properties that are a part of different entity set, whenever a property from one entity is refreshed.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Side Effects](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/18b17bdd49d1436fa9172cbb01e26544.html "If a user changes the content of a field or performs another activity, this change can potentially influence other fields on the UI. This system behavior is called a side effect.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 synchronous \(sync\) processing
 
 
@@ -1563,6 +1730,36 @@ SAPUI5/OpenUI5
 <td valign="top">
 
 [Views](Views_91f27e3.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+xAppState
+
+
+
+</td>
+<td valign="top">
+
+It is the external app state that represents the state of the source app, as passed to the target app while navigating. It includes all the context from the source app, such as filter values, values from selected table rows, page context. However, it optionally includes the presentation aspects, such as sort order of the table in the source app.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Configuring External Navigation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/1d4a0f94bfee48d1b50ca8084a76beec.html "This section describes the configuration options for navigating from an app (outbound) and navigating to an app (inbound).") :arrow_upper_right: 
 
 
 
