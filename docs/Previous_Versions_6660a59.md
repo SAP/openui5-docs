@@ -10,6 +10,10 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 ## Previous Versions
 
+-   **[What's New in OpenUI5 1.101](What_s_New_in_OpenUI5_1_101_5a18410.md "With
+		this release OpenUI5 is upgraded
+		from version 1.100 to 1.101.")**  
+With this release OpenUI5 is upgraded from version 1.100 to 1.101.
 -   **[What's New in OpenUI5 1.100](What_s_New_in_OpenUI5_1_100_5deb78f.md "With
 		this release OpenUI5 is upgraded
 		from version 1.99 to 1.100.")**  

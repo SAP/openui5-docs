@@ -79,6 +79,36 @@ SAPUI5 only
 <tr>
 <td valign="top">
 
+actions
+
+
+
+</td>
+<td valign="top">
+
+Action represents a business function in the application backend that can be triggered by the user from the UI using an action button.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Actions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/cbf16c599f2d4b8796e3702f7d4aae6c.html "You can use generic actions provided by SAP Fiori elements and implement application-specific actions using annotations or extension points.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 aggregation
 
 
@@ -232,7 +262,7 @@ asynchronous
 </td>
 <td valign="top">
 
-An asynchronous action is one that the backend can execute sometime after the users initially trigger it. The users can continue to work on the UI without any interruption to their flow.
+An asynchronous action is one that the backend can execute sometime after the users initially trigger it. The users should then be allowed to work on the UI without any interruption to their flow.
 
 
 
@@ -848,7 +878,14 @@ facet
 </td>
 <td valign="top">
 
-It represents the top most sections listed under the header facet in an object page. By clicking on the tab, you can either navigate to the corresponding section information or you can open a menu showing the subsections present within it.
+Facet is the basic building block of the object page. A facet can be:
+
+-   A header facet that can be placed within the header.
+
+-   A reference facet that is rendered as a form, table, or a chart, below the object page header.
+
+-   A collection facet that is a section in the object page that can hold one or more reference facets within.
+
 
 
 
@@ -1059,6 +1096,64 @@ JavaScript library that is packaged with OpenUI5.
 <tr>
 <td valign="top">
 
+key annotations
+
+
+
+</td>
+<td valign="top">
+
+Key annotations are the most important annotations that defines the rendering or behavior of a control.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+layout management
+
+
+
+</td>
+<td valign="top">
+
+It is the logic that decides the rendering style for the UI elements.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 library
 
 
@@ -1111,6 +1206,36 @@ LineItem define the columns that can be seen in the table.
 <td valign="top">
 
  [Configuring Tables](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f4eb70f4808b48adb6ea03a4017aba24.html "You can use the annotations and entries in the manifest.json to control various aspects of tables.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+main entity
+
+
+
+</td>
+<td valign="top">
+
+It is the entity set that is bound to the control.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
@@ -1209,36 +1334,6 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-notepad control
-
-
-
-</td>
-<td valign="top">
-
-A control that is defined on the fly without a library definition or running generation steps.
-
-
-
-</td>
-<td valign="top">
-
-SAPUI5/OpenUI5
-
-
-
-</td>
-<td valign="top">
-
-[Developing Controls](Developing_Controls_8dcab00.md)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 navigation: internal, external, outbound, inbound
 
 
@@ -1276,6 +1371,66 @@ navigation: internal, external, outbound, inbound
 <td valign="top">
 
  [Configuring Navigation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/a42427550b72436a8bdf53045b06effb.html "SAP Fiori elements control the navigation within an app (internal navigation) and the navigation to and from an app (external navigation).") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+navigation entity
+
+
+
+</td>
+<td valign="top">
+
+Navigation entity is the entity set that is associated with the main entity set in question.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+notepad control
+
+
+
+</td>
+<td valign="top">
+
+A control that is defined on the fly without a library definition or running generation steps.
+
+
+
+</td>
+<td valign="top">
+
+ SAPUI5/OpenUI5 
+
+
+
+</td>
+<td valign="top">
+
+ [Developing Controls](Developing_Controls_8dcab00.md) 
 
 
 
@@ -1466,6 +1621,38 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
+section
+
+
+
+</td>
+<td valign="top">
+
+A section represents a top level grouping of the object page facets that can be seen below the header. A section can have subsections within it. Each of these subsections can then have a facet associated with them that is rendered as a form, table or a chart. Alternatively a section can have no subsections under it. In such cases a facet is availble that holds the form, table or a chart.
+
+For more information, see facet.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Defining and Adapting Sections](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 service
 
 
@@ -1597,7 +1784,9 @@ side effects
 </td>
 <td valign="top">
 
-Allow applications to refresh one or more properties that are a part of different entity set, whenever a property from one entity is refreshed.
+Side effects allow applications to refresh entire controls \(for example, entire table\) or specific properties whenever a **source** property is updated.
+
+For example, when user updates **Quantity** in the frontend, applications can configure side effects to ensure that **Discount rate** is refreshed so that the new discount \(based on the updated quantity\) is reflected in the UI.
 
 
 

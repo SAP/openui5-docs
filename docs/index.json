@@ -5,50 +5,15 @@
 			"What's New in OpenUI5": {
 				"link": "What_s_New_in_OpenUI5_99ac68a.md",
 				"items": {
-					"What's New in OpenUI5 1.xx \\(new concept template\\)": {
-						"link": "What_s_New_in_OpenUI5_1_xx_new_concept_template_7534ae8.md",
-						"items": {
-							"1.xx - Topic 01 - Author Name - Status": {
-								"link": "1_xx_Topic_01_Author_Name_Status_adbc81c.md"
-							},
-							"1.xx - Topic 02 - Author Name - Status": {
-								"link": "1_xx_Topic_02_Author_Name_Status_04ad26f.md"
-							},
-							"1.xx - Topic 03 - Author Name - Status": {
-								"link": "1_xx_Topic_03_Author_Name_Status_9893ff4.md"
-							},
-							"1.xx - Topic 04 - Author Name - Status": {
-								"link": "1_xx_Topic_04_Author_Name_Status_185644c.md"
-							},
-							"1.xx - Topic 05 - Author Name - Status": {
-								"link": "1_xx_Topic_05_Author_Name_Status_7317d96.md"
-							},
-							"1.xx - Topic 06 - Author Name - Status": {
-								"link": "1_xx_Topic_06_Author_Name_Status_0c51a0f.md"
-							},
-							"1.xx - Topic 07 - Author Name - Status": {
-								"link": "1_xx_Topic_07_Author_Name_Status_71ef9cb.md"
-							},
-							"1.xx - Topic 08 - Author Name - Status": {
-								"link": "1_xx_Topic_08_Author_Name_Status_dbf9c43.md"
-							},
-							"1.xx - Topic 09 - Author Name - Status": {
-								"link": "1_xx_Topic_09_Author_Name_Status_c98ff3f.md"
-							},
-							"1.xx - Topic 10 - Author Name - Status": {
-								"link": "1_xx_Topic_10_Author_Name_Status_939193d.md"
-							}
-						}
-					},
 					"What's New in OpenUI5 1.102": {
 						"link": "What_s_New_in_OpenUI5_1_102_b530db3.md"
-					},
-					"What's New in OpenUI5 1.101": {
-						"link": "What_s_New_in_OpenUI5_1_101_5a18410.md"
 					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.101": {
+								"link": "What_s_New_in_OpenUI5_1_101_5a18410.md"
+							},
 							"What's New in OpenUI5 1.100": {
 								"link": "What_s_New_in_OpenUI5_1_100_5deb78f.md"
 							},
