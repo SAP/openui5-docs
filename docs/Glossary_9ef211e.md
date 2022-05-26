@@ -1653,6 +1653,38 @@ For more information, see facet.
 <tr>
 <td valign="top">
 
+semantic key fields
+
+
+
+</td>
+<td valign="top">
+
+Semantic key fields are fields from the application tables that have a unique value assigned by the application logic. Such fields are usually not marked as key fields at the database level, that is why there is no enforcement for uniqueness from a database perspective. However, the business logic makes sure that there can be only unique values assigned to this field for every instance of the object. Applications mark such fields as semantic key fields using annotations.
+
+For example: A `SalesOrder` entity might have a `SalesOrderID` field as a semantic key field.
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori elements 
+
+
+
+</td>
+<td valign="top">
+
+ [Handling Semantic Key Fields](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/aa2793cd877a4ecebc35d335920ee145.html "Semantic key fields in tables are displayed with a special logic.") :arrow_upper_right: 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 service
 
 
