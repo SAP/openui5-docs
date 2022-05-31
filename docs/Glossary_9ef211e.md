@@ -255,7 +255,7 @@ A mechanism for defining a module in a way that modules and their dependencies c
 <tr>
 <td valign="top">
 
-asynchronous
+asynchronous action
 
 
 
@@ -1105,6 +1105,15 @@ key annotations
 
 Key annotations are the most important annotations that defines the rendering or behavior of a control.
 
+For example:
+
+-   `LineItem` annotation defines the column seen when the table is rendered.
+
+-   `SelectionFields` annotation defines the filter fields that are by default visible when the application is launched.
+
+-   `InsertRestrictions` annotation checks if *Create* action should be allowed for the table or not.
+
+
 
 
 </td>
@@ -1131,7 +1140,7 @@ layout management
 </td>
 <td valign="top">
 
-It is the logic that decides the rendering style for the UI elements.
+Layout Management refers to how the information in the object page is displayed on the UI. The SAPUI5 `ObjectPageLayout` controls the layout that enables the display of the business information \(for example, if the data should be displayed in a 2 column layout or a 3 column layout\). SAP Fiori elements allows some flexibility for the applications by allowing them to group the data in their own blocks \(individual subsection with no peer blocks\) or by making it part of a container that holds more than one block in the same row \(subsection with peers\).
 
 
 
@@ -1184,14 +1193,14 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-LineItem - Table
+ `LineItem` - Table
 
 
 
 </td>
 <td valign="top">
 
-LineItem define the columns that can be seen in the table.
+ `LineItem` define the columns that can be seen in the table.
 
 
 
@@ -1221,7 +1230,7 @@ main entity
 </td>
 <td valign="top">
 
-It is the entity set that is bound to the control.
+Main entity refers to the entry entity that holds the information displayed in the SAP Fiori elements template. For example, in a typical Manage Sales Order application, the `SalesOrder` is the main entity.
 
 
 
@@ -1386,7 +1395,7 @@ navigation entity
 </td>
 <td valign="top">
 
-Navigation entity is the entity set that is associated with the main entity set in question.
+Navigation entity refers to the other entities associated with the given entity set. The associated entity has more detailed information about the objects associated with the main object. For example, the `SalesOrder` entity might have `SalesOrderItems` entity as the navigation entity set. It can be a 1:n association \(1 `SalesOrder` can have n `SalesOrderItems` associated with it\), or a 1:1 association \(1 `SalesOrder` can have only 1 associated `PurchaseOrder`\).
 
 
 
@@ -1869,7 +1878,7 @@ SAPUI5/OpenUI5
 <tr>
 <td valign="top">
 
-synchronous \(refers to an action\)
+synchronous action
 
 
 

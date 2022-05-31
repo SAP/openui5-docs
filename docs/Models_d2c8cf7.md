@@ -14,14 +14,6 @@ A model in the Model View Controller concept holds the data and provides methods
 
 ***
 
-![](images/loioa99f15722c0a4520b7809c3951362896_LowRes.png)
-
--   [JSON Model](JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116)
--   [XML Model](XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27)
--   [Resource Model](Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070)
--   [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2)
--   [OData V4 Model](OData_V4_Model_5de13cf.md)
-
 OpenUI5 provides the following predefined models. For an overview of the binding modes supported by them, see [One-time Binding, One-way Binding, and Two-way Binding](Data_Binding_68b9644.md#loio68b9644a253741e8a4b9e4279a35c247__section_BindingModes).
 
 -   **OData model**: Enables binding of controls to data from OData services. The OData model supports two-way, one-way and one-time binding modes. However, two-way binding is currently only supported for properties, and not for aggregations.
