@@ -349,7 +349,7 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 
 ```js
 sap.ui.define([
-	"sap/ui/demo/bulletinboard/model/DateFormatter"
+	"sap/ui/demo/bulletinboard/model/DateFormatter",
 	"sap/ui/core/Locale"
 ], function(DateFormatter, Locale) {
 	var oFormatter = null;

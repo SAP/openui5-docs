@@ -166,7 +166,7 @@ Make sure to provide additional information to the user, when changes in the scr
 
 -   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` API for the control triggering the update \(Button, Search Field, or other interactive control\). For example: When search results will be placed in the area below, you can add a text describing how/where the users can locate the results.
 
--   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the master-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
+-   Include additional text description via `ariaDescribedBy`/`ariaLabelledBy` on the parent control level. For example: In the case of apps using the list-detail pattern, where the list is on the left side and results are presented on the right side, you should add additional text describing that upon selection in the list, the details will be loaded in the details panel.
 
 -   When something is opening on the screen, you can move the focus there, if your use case requires it. For example, for apps using the list-detail pattern when the user needs to browse the available items, the focus should stay in the list area. And in cases when the user has selected an item from the list and needs to perform an action, the focus should move to the details area.
 
