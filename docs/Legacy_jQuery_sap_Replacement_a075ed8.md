@@ -2517,36 +2517,6 @@ Simple Replacement
 <tr>
 <td valign="top">
 
-\-
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/getComputedStyleFix` 
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
  `jQuery.sap.ownerWindow` 
 
 

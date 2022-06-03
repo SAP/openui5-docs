@@ -744,6 +744,8 @@ The [`v2.ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataMod
 
 The model cannot decide how to bundle the requests. For this, OpenUI5 provides the `groupId`. For each Context and List Binding and each manual request, a `groupId` can be specified. All requests belonging to the same group are bundled into one batch request. Request without a `groupId` are bundled in the default batch group. You can use a `changeSetId` for changes. The same principle applies: Each change belonging to the same `changeSetId` is bundled into one `changeSet` in the batch request. Per default, all changes have their own `changeSet`.
 
+The OData V2 model automatically puts all change sets at the beginning of a batch request. All GET requests are put after it.
+
 You can use the `setDeferredGroups()` method to set a subset of previously defined groups to deferred.
 
 > ### Note:  

@@ -100,7 +100,7 @@ Action represents a business function in the application backend that can be tri
 </td>
 <td valign="top">
 
- [Actions](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/cbf16c599f2d4b8796e3702f7d4aae6c.html "You can use generic actions provided by SAP Fiori elements and implement application-specific actions using annotations or extension points.") :arrow_upper_right: 
+ [Actions](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/cbf16c599f2d4b8796e3702f7d4aae6c.html "You can use generic actions provided by SAP Fiori elements and implement application-specific actions using annotations or extension points.") :arrow_upper_right: 
 
 
 
@@ -899,9 +899,9 @@ Facet is the basic building block of the object page. A facet can be:
 </td>
 <td valign="top">
 
-[Setting Up the Object Page Header](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/cce93e6f067a4133a8430c4f5d7b8fc7.html "You have various options for defining the object page header.") :arrow_upper_right:
+[Setting Up the Object Page Header](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/cce93e6f067a4133a8430c4f5d7b8fc7.html "You have various options for defining the object page header.") :arrow_upper_right:
 
-[Defining and Adapting Sections](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right:
+[Defining and Adapting Sections](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right:
 
 
 
@@ -1025,7 +1025,7 @@ It is the inner app state that stores all the information required to retrieve t
 </td>
 <td valign="top">
 
-[Store/Restore the Application State](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/46bf248182ed47cb85a05610abe361f7.html "SAP Fiori elements uses the iAppState mechanism for storing or restoring the application state. This enables a smooth user experience when navigating back and forth between SAP Fiori elements and other apps.") :arrow_upper_right:
+[Store/Restore the Application State](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/46bf248182ed47cb85a05610abe361f7.html "SAP Fiori elements uses the iAppState mechanism for storing or restoring the application state. This enables a smooth user experience when navigating back and forth between SAP Fiori elements and other apps.") :arrow_upper_right:
 
 
 
@@ -1214,7 +1214,7 @@ SAPUI5/OpenUI5
 </td>
 <td valign="top">
 
- [Configuring Tables](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/f4eb70f4808b48adb6ea03a4017aba24.html "You can use the annotations and entries in the manifest.json to control various aspects of tables.") :arrow_upper_right: 
+ [Configuring Tables](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f4eb70f4808b48adb6ea03a4017aba24.html "You can use the annotations and entries in the manifest.json to control various aspects of tables.") :arrow_upper_right: 
 
 
 
@@ -1379,7 +1379,7 @@ navigation: internal, external, outbound, inbound
 </td>
 <td valign="top">
 
- [Configuring Navigation](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/a42427550b72436a8bdf53045b06effb.html "SAP Fiori elements control the navigation within an app (internal navigation) and the navigation to and from an app (external navigation).") :arrow_upper_right: 
+ [Configuring Navigation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/a42427550b72436a8bdf53045b06effb.html "SAP Fiori elements control the navigation within an app (internal navigation) and the navigation to and from an app (external navigation).") :arrow_upper_right: 
 
 
 
@@ -1653,7 +1653,7 @@ For more information, see facet.
 </td>
 <td valign="top">
 
- [Defining and Adapting Sections](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right: 
+ [Defining and Adapting Sections](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/facfea09018d4376acaceddb7e3f03b6.html "The object page content is arranged into sections and subsections that you can configure.") :arrow_upper_right: 
 
 
 
@@ -1685,7 +1685,7 @@ For example: A `SalesOrder` entity might have a `SalesOrderID` field as a semant
 </td>
 <td valign="top">
 
- [Handling Semantic Key Fields](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/aa2793cd877a4ecebc35d335920ee145.html "Semantic key fields in tables are displayed with a special logic.") :arrow_upper_right: 
+ [Handling Semantic Key Fields](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/aa2793cd877a4ecebc35d335920ee145.html "Semantic key fields in tables are displayed with a special logic.") :arrow_upper_right: 
 
 
 
@@ -1841,7 +1841,7 @@ For example, when user updates **Quantity** in the frontend, applications can co
 </td>
 <td valign="top">
 
- [Side Effects](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/18b17bdd49d1436fa9172cbb01e26544.html "If a user changes the content of a field or performs another activity, this change can potentially influence other fields on the UI. This system behavior is called a side effect.") :arrow_upper_right: 
+ [Side Effects](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/18b17bdd49d1436fa9172cbb01e26544.html "If a user changes the content of a field or performs another activity, this change can potentially influence other fields on the UI. This system behavior is called a side effect.") :arrow_upper_right: 
 
 
 
@@ -1989,7 +1989,7 @@ It is the external app state that represents the state of the source app, as pas
 </td>
 <td valign="top">
 
- [Configuring External Navigation](https://help.sap.com/viewer/3343ff76a027486c829f8aa5b0fde28f/DEV_SAPUI5_ABAP/en-US/1d4a0f94bfee48d1b50ca8084a76beec.html "This section describes the configuration options for navigating from an app (outbound) and navigating to an app (inbound).") :arrow_upper_right: 
+ [Configuring External Navigation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/1d4a0f94bfee48d1b50ca8084a76beec.html "This section describes the configuration options for navigating from an app (outbound) and navigating to an app (inbound).") :arrow_upper_right: 
 
 
 
