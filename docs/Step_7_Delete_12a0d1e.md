@@ -201,5 +201,5 @@ We add the missing texts to the properties file.
 **Related Information**  
 
 
-[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The Context.delete method deletes an entity on the server and updates the user interface accordingly.")
+[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The v4.Context.delete method deletes an entity on the server and updates the user interface accordingly.")
 

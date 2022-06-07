@@ -16,6 +16,16 @@ The user interface of the Support Assistant allows you to view the available rul
 
 ***
 
+![](images/loio454e3fe5e64b4f2395850c2877717d40_LowRes.png)
+
+-   [Rules Management](Rules_Management_3fc864a.md)
+-   [Results and Analysis](Results_and_Analysis_f09fab1.md)
+-   [Execution Scope](Execution_Scope_e15067d.md)
+-   [Analysis Report](Analysis_Report_29bcdec.md)
+-   [Integrating the Rules in OPA Tests](Integrating_the_Rules_in_OPA_Tests_cfabbd4.md)
+-   [Support Assistant API](Support_Assistant_API_a34eb58.md)
+-   [Running the Support Assistant on an Older OpenUI5 Version](Running_the_Support_Assistant_on_an_Older_OpenUI5_Version_473201b.md)
+
 -   **[Rules Management](Rules_Management_3fc864a.md "The user interface of the Support Assistant lets you choose which rules you can load for
 		a library. It also allows you to organize your Rules view according to your preference and
 		to import and export predefined rule selections.")**  

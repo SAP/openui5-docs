@@ -83,9 +83,8 @@ The `sap.ui.model.odata.v4.ODataListBinding#create` method creates a new entity.
 -   **[Draft Handling with the OData V4 Model](Draft_Handling_with_the_OData_V4_Model_40986e6.md "A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the
 		background whenever users add or change information within a business entity.")**  
 A draft is an interim version of a business entity that has not yet been explicitly saved. Drafts are saved automatically in the background whenever users add or change information within a business entity.
--   **[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The Context.delete method deletes an entity on the server and
-		updates the user interface accordingly.")**  
-The `Context.delete` method deletes an entity on the server and updates the user interface accordingly.
+-   **[Deleting an Entity](Deleting_an_Entity_2613ebc.md "The v4.Context.delete method deletes an entity on the server and updates the user interface accordingly.")**  
+The `v4.Context.delete` method deletes an entity on the server and updates the user interface accordingly.
 -   **[Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md "The OpenUI5 framework can
 		consume OData V2 Services in a non-intrusive way as if working directly with OData
 		V4.")**  

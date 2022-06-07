@@ -200,3 +200,40 @@ The optional callback function `fnOnBeforeDestroy` is called when the kept-alive
 
 If you want to get [server messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md) for the kept-alive context, but not for the list, use the `bRequestMessages` parameter. The messages for this context are requested immediately and with each subsequent refresh. You can then get the latest messages as a side effect via [`v4.Context#requestSideEffects`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/requestSideEffects).
 
+***
+
+<a name="loio648e360fa22d46248ca783dc6eb44531__section_APBS"/>
+
+### Absolute Property Bindings of Singletons
+
+In general, absolute property bindings raise their own data requests. Hence, a separate request is created for each property, and duplicate requests may occur. For absolute property bindings of singletons, however, the requests are merged, and duplicate requests are avoided.
+
+The following example shows absolute property bindings for a singleton and an entity which is not a singleton:
+
+**Absolute Property Bindings**
+
+```xml
+<FlexBox>
+    <Text text="{/Me/FirstName} {/Me/LastName}"/>
+    <Button text="{/Me/FirstName}>
+    <Text text="{/People('johndoe')/FirstName} {/People('johndoe')/LastName}"/> 
+    <Button text="{/People('johndoe')/FirstName}">
+</FlexBox>
+```
+
+For the singleton, the requests are merged:
+
+**Resulting Requests**
+
+```html
+requests for absolutely bound singleton properties are merged, data is reused:
+ 
+  GET Me?$select=FirstName,LastName
+ 
+other absolutely bound properties are requested one by one:
+ 
+  GET People('johndoe')/FirstName
+  GET People('johndoe')/LastName
+  GET People('johndoe')/FirstName
+```
+

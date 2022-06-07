@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic
 
 ## Deleting an Entity
 
-The `Context.delete` method deletes an entity on the server and updates the user interface accordingly.
+The `v4.Context.delete` method deletes an entity on the server and updates the user interface accordingly.
 
 When you delete the entity from a list binding, the corresponding row is removed. When you delete the entity from a context binding, the binding and all dependent bindings lose the reference.
 
@@ -32,6 +32,8 @@ onDeleteSalesOrder : function () {
     });
 },
 ```
+
+You can also delete an entity from the model and all its bindings via [`v4.ODataModel#delete`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/delete) using a canonical binding path to the entity. The model then sends a `DELETE` request to the server. If this request succeeds, the entity is removed from all its bindings. The conditions for identifying these bindings are described in the API documentation.
 
 **Related Information**  
 

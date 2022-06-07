@@ -152,6 +152,9 @@ The following examples show how to use the feature:
     }"/>
     ```
 
+    > ### Note:  
+    > The formatter of a composite binding is called for every property update. **This happens also if some parts are not yet available**, i.e. `undefined`.
+
 -   For a global type that is created with the specified format options, see the following example:
 
     ```js

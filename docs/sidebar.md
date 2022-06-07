@@ -54,6 +54,7 @@
             -   [What's New in OpenUI5 1.42](What_s_New_in_OpenUI5_1_42_4768f1a.md)
             -   [What's New in OpenUI5 1.40](What_s_New_in_OpenUI5_1_40_e659bd2.md)
             -   [What's New in OpenUI5 1.38](What_s_New_in_OpenUI5_1_38_6a875f9.md#loio6a875f998994489483e8085705347d72)
+        -   [Change Log](Change_Log_a6a78b7.md)
     -   [Read Me First](Read_Me_First_167193c.md)
         -   [Enterprise Features of OpenUI5](Enterprise_Features_of_OpenUI5_bf2d55e.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)

@@ -16,6 +16,8 @@ Bindings are called **absolute** if their path starts with a forward slash "/"; 
 
 An absolute binding creates a data service request to read data once data is requested by a bound control or a child control with a relative binding. The read URL path is the model's service URL concatenated with the binding's path. The read URL query options are the union of the binding's and model query options; query options specified for the binding overwrite model query options.
 
+For the absolute property bindings of singletons, see [Absolute Property Bindings of Singletons](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_APBS).
+
 A relative list or context binding creates a data service request once it has a context in the following cases:
 
 -   The relative binding has parameters, such as OData query options like `$select`, or binding-specific parameters with a name starting with `$$` see the *Parameters* subsection below. If you want a relative binding to create its own data service request, use the binding-specific parameter `$$ownRequest`.
