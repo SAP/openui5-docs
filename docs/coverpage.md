@@ -1,6 +1,6 @@
-![UI5-docs](openui5.png)
+![UI5-docs](ui5.png)
 
-**OpenUI5 Markdown Documentation**
+**UI5 Markdown Documentation**
 
 Contributions Welcome!
 
