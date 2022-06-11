@@ -1,5 +1,2685 @@
 {
-	"95d113be50ae40d5b0b562b84d715227.xml": {
-		"link": "95d113be50ae40d5b0b562b84d715227.md"
+	"OpenUI5: UI Development Toolkit for HTML5": {
+		"link": "OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md",
+		"items": {
+			"What's New in OpenUI5": {
+				"link": "What_s_New_in_OpenUI5_99ac68a.md",
+				"items": {
+					"What's New in OpenUI5 1.103": {
+						"link": "What_s_New_in_OpenUI5_1_103_7534ae8.md"
+					},
+					"What's New in OpenUI5 1.102": {
+						"link": "What_s_New_in_OpenUI5_1_102_b530db3.md"
+					},
+					"Previous Versions": {
+						"link": "Previous_Versions_6660a59.md",
+						"items": {
+							"What's New in OpenUI5 1.101": {
+								"link": "What_s_New_in_OpenUI5_1_101_5a18410.md"
+							},
+							"What's New in OpenUI5 1.100": {
+								"link": "What_s_New_in_OpenUI5_1_100_5deb78f.md"
+							},
+							"What's New in OpenUI5 1.99": {
+								"link": "What_s_New_in_OpenUI5_1_99_5e35c25.md"
+							},
+							"What's New in OpenUI5 1.98": {
+								"link": "What_s_New_in_OpenUI5_1_98_7aacb4e.md"
+							},
+							"What's New in OpenUI5 1.97": {
+								"link": "What_s_New_in_OpenUI5_1_97_f21858f.md"
+							},
+							"What's New in OpenUI5 1.96": {
+								"link": "What_s_New_in_OpenUI5_1_96_b39a11b.md"
+							},
+							"What's New in OpenUI5 1.95": {
+								"link": "What_s_New_in_OpenUI5_1_95_1b09465.md"
+							},
+							"What's New in OpenUI5 1.94": {
+								"link": "What_s_New_in_OpenUI5_1_94_2d6ffdd.md"
+							},
+							"What's New in OpenUI5 1.93": {
+								"link": "What_s_New_in_OpenUI5_1_93_e9c8356.md"
+							},
+							"What's New in OpenUI5 1.92": {
+								"link": "What_s_New_in_OpenUI5_1_92_1492551.md"
+							},
+							"What's New in OpenUI5 1.91": {
+								"link": "What_s_New_in_OpenUI5_1_91_75777da.md"
+							},
+							"What's New in OpenUI5 1.90": {
+								"link": "What_s_New_in_OpenUI5_1_90_b475202.md"
+							},
+							"What's New in OpenUI5 1.89": {
+								"link": "What_s_New_in_OpenUI5_1_89_0805036.md"
+							},
+							"What's New in OpenUI5 1.88": {
+								"link": "What_s_New_in_OpenUI5_1_88_bda141b.md"
+							},
+							"What's New in OpenUI5 1.87": {
+								"link": "What_s_New_in_OpenUI5_1_87_e315108.md"
+							},
+							"What's New in OpenUI5 1.86": {
+								"link": "What_s_New_in_OpenUI5_1_86_067e2fb.md"
+							},
+							"What's New in OpenUI5 1.85": {
+								"link": "What_s_New_in_OpenUI5_1_85_eeb5bd9.md"
+							},
+							"What's New in OpenUI5 1.84": {
+								"link": "What_s_New_in_OpenUI5_1_84_ccf76b7.md"
+							},
+							"What's New in OpenUI5 1.82": {
+								"link": "What_s_New_in_OpenUI5_1_82_f081cf0.md"
+							},
+							"What's New in OpenUI5 1.81": {
+								"link": "What_s_New_in_OpenUI5_1_81_f71563c.md"
+							},
+							"What's New in OpenUI5 1.80": {
+								"link": "What_s_New_in_OpenUI5_1_80_3294c68.md"
+							},
+							"What's New in OpenUI5 1.79": {
+								"link": "What_s_New_in_OpenUI5_1_79_edf8e35.md"
+							},
+							"What's New in OpenUI5 1.78": {
+								"link": "What_s_New_in_OpenUI5_1_78_d176be3.md"
+							},
+							"What's New in OpenUI5 1.77": {
+								"link": "What_s_New_in_OpenUI5_1_77_2ec6b6b.md"
+							},
+							"What's New in OpenUI5 1.76": {
+								"link": "What_s_New_in_OpenUI5_1_76_b9b0a3f.md"
+							},
+							"What's New in OpenUI5 1.75": {
+								"link": "What_s_New_in_OpenUI5_1_75_dc3d3ce.md"
+							},
+							"What's New in OpenUI5 1.74": {
+								"link": "What_s_New_in_OpenUI5_1_74_21fc6cb.md"
+							},
+							"What's New in OpenUI5 1.73": {
+								"link": "What_s_New_in_OpenUI5_1_73_7b82664.md"
+							},
+							"What's New in OpenUI5 1.72": {
+								"link": "What_s_New_in_OpenUI5_1_72_25e5326.md"
+							},
+							"What's New in OpenUI5 1.71": {
+								"link": "What_s_New_in_OpenUI5_1_71_609fd01.md"
+							},
+							"What's New in OpenUI5 1.70": {
+								"link": "What_s_New_in_OpenUI5_1_70_4e89fee.md"
+							},
+							"What's New in OpenUI5 1.69": {
+								"link": "What_s_New_in_OpenUI5_1_69_41203fd.md"
+							},
+							"What's New in OpenUI5 1.68": {
+								"link": "What_s_New_in_OpenUI5_1_68_5531aef.md"
+							},
+							"What's New in OpenUI5 1.67": {
+								"link": "What_s_New_in_OpenUI5_1_67_0968958.md"
+							},
+							"What's New in OpenUI5 1.66": {
+								"link": "What_s_New_in_OpenUI5_1_66_ebe7fda.md"
+							},
+							"What's New in OpenUI5 1.65": {
+								"link": "What_s_New_in_OpenUI5_1_65_9d2b189.md"
+							},
+							"What's New in OpenUI5 1.64": {
+								"link": "What_s_New_in_OpenUI5_1_64_1975e30.md"
+							},
+							"What's New in OpenUI5 1.63": {
+								"link": "What_s_New_in_OpenUI5_1_63_77e1dcc.md"
+							},
+							"What's New in OpenUI5 1.62": {
+								"link": "What_s_New_in_OpenUI5_1_62_27eea38.md"
+							},
+							"What's New in OpenUI5 1.61": {
+								"link": "What_s_New_in_OpenUI5_1_61_de4d50b.md"
+							},
+							"What's New in OpenUI5 1.60": {
+								"link": "What_s_New_in_OpenUI5_1_60_2a70354.md"
+							},
+							"What's New in OpenUI5 1.58": {
+								"link": "What_s_New_in_OpenUI5_1_58_b28edde.md"
+							},
+							"What's New in OpenUI5 1.56": {
+								"link": "What_s_New_in_OpenUI5_1_56_53b4b5e.md"
+							},
+							"What's New in OpenUI5 1.54": {
+								"link": "What_s_New_in_OpenUI5_1_54_f29023e.md"
+							},
+							"What's New in OpenUI5 1.52": {
+								"link": "What_s_New_in_OpenUI5_1_52_a09dd79.md"
+							},
+							"What's New in OpenUI5 1.50": {
+								"link": "What_s_New_in_OpenUI5_1_50_a844984.md"
+							},
+							"What's New in OpenUI5 1.48": {
+								"link": "What_s_New_in_OpenUI5_1_48_2818f80.md"
+							},
+							"What's New in OpenUI5 1.46": {
+								"link": "What_s_New_in_OpenUI5_1_46_4cf0986.md"
+							},
+							"What's New in OpenUI5 1.44": {
+								"link": "What_s_New_in_OpenUI5_1_44_05ce1dc.md"
+							},
+							"What's New in OpenUI5 1.42": {
+								"link": "What_s_New_in_OpenUI5_1_42_4768f1a.md"
+							},
+							"What's New in OpenUI5 1.40": {
+								"link": "What_s_New_in_OpenUI5_1_40_e659bd2.md"
+							},
+							"What's New in OpenUI5 1.38": {
+								"link": "What_s_New_in_OpenUI5_1_38_6a875f9.md#loio6a875f998994489483e8085705347d72"
+							}
+						}
+					},
+					"Change Log": {
+						"link": "Change_Log_a6a78b7.md"
+					}
+				}
+			},
+			"Read Me First": {
+				"link": "Read_Me_First_167193c.md",
+				"items": {
+					"Enterprise Features of OpenUI5": {
+						"link": "Enterprise_Features_of_OpenUI5_bf2d55e.md"
+					},
+					"Compatibility Rules": {
+						"link": "Compatibility_Rules_91f0873.md"
+					},
+					"Browser and Platform Support": {
+						"link": "Browser_and_Platform_Support_74b59ef.md",
+						"items": {
+							"Visual Degradations": {
+								"link": "Visual_Degradations_f08f296.md"
+							},
+							"Keyboard Shortcuts for OpenUI5 Tools": {
+								"link": "Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md"
+							}
+						}
+					},
+					"Supported Library Combinations": {
+						"link": "Supported_Library_Combinations_363cd16.md"
+					},
+					"Supported Combinations of Themes and Libraries": {
+						"link": "Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md"
+					},
+					"Versioning and Maintenance of OpenUI5": {
+						"link": "Versioning_and_Maintenance_of_OpenUI5_91f0214.md"
+					},
+					"Upgrading": {
+						"link": "Upgrading_9638e4f.md",
+						"items": {
+							"Upgrading from a Version Below 1.89": {
+								"link": "Upgrading_from_a_Version_Below_1_89_89b14ce.md"
+							},
+							"Upgrading from a Version Below 1.82": {
+								"link": "Upgrading_from_a_Version_Below_1_82_147eef9.md"
+							},
+							"Upgrading from a Version Below 1.40": {
+								"link": "Upgrading_from_a_Version_Below_1_40_278a8e5.md"
+							},
+							"Upgrading from a Version Below 1.38": {
+								"link": "Upgrading_from_a_Version_Below_1_38_c1025c2.md"
+							}
+						}
+					},
+					"Deprecated Themes and Libraries": {
+						"link": "Deprecated_Themes_and_Libraries_a87ca84.md"
+					},
+					"SAPUI5 vs. OpenUI5": {
+						"link": "SAPUI5_vs_OpenUI5_5982a97.md"
+					}
+				}
+			},
+			"Get Started: Setup, Tutorials, and Demo Apps": {
+				"link": "Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md",
+				"items": {
+					"Development Environment": {
+						"link": "Development_Environment_7bb04e0.md",
+						"items": {
+							"App Development": {
+								"link": "App_Development_b1fbe1a.md"
+							},
+							"App Development Using SAP Business Application Studio": {
+								"link": "App_Development_Using_SAP_Business_Application_Studio_6bbad66.md"
+							},
+							"Developing OpenUI5": {
+								"link": "Developing_OpenUI5_ee8726a.md"
+							},
+							"Other Environments": {
+								"link": "Other_Environments_f0898e6.md",
+								"items": {
+									"Development for Hybrid Web Containers": {
+										"link": "Development_for_Hybrid_Web_Containers_293eb94.md"
+									},
+									"Former Environments": {
+										"link": "Former_Environments_d3f5ad2.md",
+										"items": {
+											"App Development Using SAP Web IDE": {
+												"link": "App_Development_Using_SAP_Web_IDE_13ced94.md",
+												"items": {
+													"Access SAP Web IDE": {
+														"link": "Access_SAP_Web_IDE_34bfb45.md"
+													},
+													"Start SAP Web IDE": {
+														"link": "Start_SAP_Web_IDE_213a69c.md"
+													},
+													"Create a neo-app.json Project Configuration File": {
+														"link": "Create_a_neo_app_json_Project_Configuration_File_28fa753.md"
+													},
+													"Create an index.html File": {
+														"link": "Create_an_index_html_File_f7cbafc.md"
+													},
+													"Run the App": {
+														"link": "Run_the_App_745424a.md"
+													},
+													"Create a Northwind Destination": {
+														"link": "Create_a_Northwind_Destination_3a16c7a.md"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"Quick Start": {
+						"link": "Quick_Start_592f36f.md",
+						"items": {
+							"Step 1: Ready...": {
+								"link": "Step_1_Ready_851bde4.md"
+							},
+							"Step 2: Steady...": {
+								"link": "Step_2_Steady_128214a.md"
+							},
+							"Step 3: Go!": {
+								"link": "Step_3_Go_073d107.md"
+							}
+						}
+					},
+					"Walkthrough": {
+						"link": "Walkthrough_3da5f4b.md",
+						"items": {
+							"Step 1: Hello World!": {
+								"link": "Step_1_Hello_World_2680aa9.md"
+							},
+							"Step 2: Bootstrap": {
+								"link": "Step_2_Bootstrap_fe12df2.md"
+							},
+							"Step 3: Controls": {
+								"link": "Step_3_Controls_ddbceec.md"
+							},
+							"Step 4: XML Views": {
+								"link": "Step_4_XML_Views_1409791.md"
+							},
+							"Step 5: Controllers": {
+								"link": "Step_5_Controllers_50579dd.md"
+							},
+							"Step 6: Modules": {
+								"link": "Step_6_Modules_f665d0d.md"
+							},
+							"Step 7: JSON Model": {
+								"link": "Step_7_JSON_Model_70ef981.md"
+							},
+							"Step 8: Translatable Texts": {
+								"link": "Step_8_Translatable_Texts_df86bfb.md"
+							},
+							"Step 9: Component Configuration": {
+								"link": "Step_9_Component_Configuration_4cfa608.md"
+							},
+							"Step 10: Descriptor for Applications": {
+								"link": "Step_10_Descriptor_for_Applications_8f93bf2.md"
+							},
+							"Step 11: Pages and Panels": {
+								"link": "Step_11_Pages_and_Panels_3b9d9f8.md"
+							},
+							"Step 12: Shell Control as Container": {
+								"link": "Step_12_Shell_Control_as_Container_4df1d91.md"
+							},
+							"Step 13: Margins and Paddings": {
+								"link": "Step_13_Margins_and_Paddings_17b87fb.md"
+							},
+							"Step 14: Custom CSS and Theme Colors": {
+								"link": "Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md"
+							},
+							"Step 15: Nested Views": {
+								"link": "Step_15_Nested_Views_df8c9c3.md"
+							},
+							"Step 16: Dialogs and Fragments": {
+								"link": "Step_16_Dialogs_and_Fragments_4da7298.md"
+							},
+							"Step 17: Fragment Callbacks": {
+								"link": "Step_17_Fragment_Callbacks_354f98e.md"
+							},
+							"Step 18: Icons": {
+								"link": "Step_18_Icons_776f735.md"
+							},
+							"Step 19: Aggregation Binding": {
+								"link": "Step_19_Aggregation_Binding_bf71375.md"
+							},
+							"Step 20: Data Types": {
+								"link": "Step_20_Data_Types_dfe0465.md"
+							},
+							"Step 21: Expression Binding": {
+								"link": "Step_21_Expression_Binding_c98d573.md"
+							},
+							"Step 22: Custom Formatters": {
+								"link": "Step_22_Custom_Formatters_0f8626e.md"
+							},
+							"Step 23: Filtering": {
+								"link": "Step_23_Filtering_5295470.md"
+							},
+							"Step 24: Sorting and Grouping": {
+								"link": "Step_24_Sorting_and_Grouping_c4b2a32.md"
+							},
+							"Step 25: Remote OData Service": {
+								"link": "Step_25_Remote_OData_Service_4406244.md"
+							},
+							"Step 26: Mock Server Configuration": {
+								"link": "Step_26_Mock_Server_Configuration_bae9d90.md"
+							},
+							"Step 27: Unit Test with QUnit": {
+								"link": "Step_27_Unit_Test_with_QUnit_e1ce1de.md"
+							},
+							"Step 28: Integration Test with OPA": {
+								"link": "Step_28_Integration_Test_with_OPA_9bf4dce.md"
+							},
+							"Step 29: Debugging Tools": {
+								"link": "Step_29_Debugging_Tools_1ff250c.md"
+							},
+							"Step 30: Routing and Navigation": {
+								"link": "Step_30_Routing_and_Navigation_e5200ee.md"
+							},
+							"Step 31: Routing with Parameters": {
+								"link": "Step_31_Routing_with_Parameters_2366345.md"
+							},
+							"Step 32: Routing Back and History": {
+								"link": "Step_32_Routing_Back_and_History_8ef57cf.md"
+							},
+							"Step 33: Custom Controls": {
+								"link": "Step_33_Custom_Controls_d12d2ee.md"
+							},
+							"Step 34: Responsiveness": {
+								"link": "Step_34_Responsiveness_a96e18b.md"
+							},
+							"Step 35: Device Adaptation": {
+								"link": "Step_35_Device_Adaptation_d63a15e.md"
+							},
+							"Step 36: Content Density": {
+								"link": "Step_36_Content_Density_d935dbf.md"
+							},
+							"Step 37: Accessibility": {
+								"link": "Step_37_Accessibility_ff7cab1.md"
+							}
+						}
+					},
+					"Troubleshooting": {
+						"link": "Troubleshooting_5661952.md",
+						"items": {
+							"Step 1: Browser Developer Tools": {
+								"link": "Step_1_Browser_Developer_Tools_eadd60a.md"
+							},
+							"Step 2: Technical Information Dialog": {
+								"link": "Step_2_Technical_Information_Dialog_63c97ef.md"
+							},
+							"Step 3: Support Assistant": {
+								"link": "Step_3_Support_Assistant_35f08e1.md"
+							},
+							"Step 4: Diagnostics Window": {
+								"link": "Step_4_Diagnostics_Window_04b75ea.md"
+							},
+							"Step 5: UI5 Inspector": {
+								"link": "Step_5_UI5_Inspector_76e789e.md"
+							},
+							"First-Aid Kit": {
+								"link": "First_Aid_Kit_38859a8.md",
+								"items": {
+									"An Empty Page Comes Up": {
+										"link": "An_Empty_Page_Comes_Up_51fe8f4.md"
+									},
+									"Content or Control Is Not Visible": {
+										"link": "Content_or_Control_Is_Not_Visible_82b4c21.md"
+									},
+									"Request Fails Due to Same-Origin Policy \\(Cross-Origin Resource Sharing - CORS\\)": {
+										"link": "Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_672301f.md"
+									},
+									"App or Control Looks Odd": {
+										"link": "App_or_Control_Looks_Odd_ae1e152.md"
+									}
+								}
+							}
+						}
+					},
+					"Data Binding": {
+						"link": "Data_Binding_e531093.md",
+						"items": {
+							"Step 1: No Data Binding": {
+								"link": "Step_1_No_Data_Binding_4cde849.md"
+							},
+							"Step 2: Creating a Model": {
+								"link": "Step_2_Creating_a_Model_5278bfd.md"
+							},
+							"Step 3: Create Property Binding": {
+								"link": "Step_3_Create_Property_Binding_d70e989.md"
+							},
+							"Step 4: Two-Way Data Binding": {
+								"link": "Step_4_Two_Way_Data_Binding_c72b922.md"
+							},
+							"Step 5: One-Way Data Binding": {
+								"link": "Step_5_One_Way_Data_Binding_88756c0.md"
+							},
+							"Step 6: Resource Models": {
+								"link": "Step_6_Resource_Models_9790d9a.md"
+							},
+							"Step 7: \\(Optional\\) Resource Bundles and Multiple Languages": {
+								"link": "Step_7_Optional_Resource_Bundles_and_Multiple_Languages_4e593b4.md"
+							},
+							"Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models": {
+								"link": "Step_8_Binding_Paths_Accessing_Properties_in_Hierarchically_Structured_Models_9373793.md"
+							},
+							"Step 9: Formatting Values": {
+								"link": "Step_9_Formatting_Values_6fdf0ac.md"
+							},
+							"Step 10: Property Formatting Using Data Types": {
+								"link": "Step_10_Property_Formatting_Using_Data_Types_9252ee4.md"
+							},
+							"Step 11: Validation Using the Message Manager": {
+								"link": "Step_11_Validation_Using_the_Message_Manager_b8c4e53.md"
+							},
+							"Step 12: Aggregation Binding Using Templates": {
+								"link": "Step_12_Aggregation_Binding_Using_Templates_97830de.md"
+							},
+							"Step 13: Element Binding": {
+								"link": "Step_13_Element_Binding_6c7c5c2.md"
+							},
+							"Step 14: Expression Binding": {
+								"link": "Step_14_Expression_Binding_5cff8d1.md"
+							},
+							"Step 15: Aggregation Binding Using a Factory Function": {
+								"link": "Step_15_Aggregation_Binding_Using_a_Factory_Function_284a036.md"
+							}
+						}
+					},
+					"OData V4": {
+						"link": "OData_V4_bcdbde6.md",
+						"items": {
+							"Step 1: The Initial App": {
+								"link": "Step_1_The_Initial_App_15d84f3.md"
+							},
+							"Step 2: Data Access and Client-Server Communication": {
+								"link": "Step_2_Data_Access_and_Client_Server_Communication_e9de002.md"
+							},
+							"Step 3: Automatic Data Type Detection": {
+								"link": "Step_3_Automatic_Data_Type_Detection_96bb6e0.md"
+							},
+							"Step 4: Filtering, Sorting, and Counting": {
+								"link": "Step_4_Filtering_Sorting_and_Counting_426ff31.md"
+							},
+							"Step 5: Batch Groups": {
+								"link": "Step_5_Batch_Groups_ef2af49.md"
+							},
+							"Step 6: Create and Edit": {
+								"link": "Step_6_Create_and_Edit_b4f1266.md"
+							},
+							"Step 7: Delete": {
+								"link": "Step_7_Delete_12a0d1e.md"
+							},
+							"Step 8: OData Operations": {
+								"link": "Step_8_OData_Operations_a3e7cb6.md"
+							},
+							"Step 9: List-Detail Scenario": {
+								"link": "Step_9_List_Detail_Scenario_ec44581.md"
+							},
+							"Step 10: Enable Data Reuse": {
+								"link": "Step_10_Enable_Data_Reuse_e687dbd.md"
+							},
+							"Step 11: Add Table with :n Navigation to Detail Area": {
+								"link": "Step_11_Add_Table_with_n_Navigation_to_Detail_Area_19cc773.md"
+							}
+						}
+					},
+					"Navigation and Routing": {
+						"link": "Navigation_and_Routing_1b6dcd3.md",
+						"items": {
+							"Step 1: Set Up the Initial App": {
+								"link": "Step_1_Set_Up_the_Initial_App_df245bd.md"
+							},
+							"Step 2: Enable Routing": {
+								"link": "Step_2_Enable_Routing_cf3c57c.md"
+							},
+							"Step 3: Catch Invalid Hashes": {
+								"link": "Step_3_Catch_Invalid_Hashes_e047e05.md"
+							},
+							"Step 4: Add a Back Button to Not Found Page": {
+								"link": "Step_4_Add_a_Back_Button_to_Not_Found_Page_66670b0.md"
+							},
+							"Step 5: Display a Target Without Changing the Hash": {
+								"link": "Step_5_Display_a_Target_Without_Changing_the_Hash_d9efab3.md"
+							},
+							"Step 6: Navigate to Routes with Hard-Coded Patterns": {
+								"link": "Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md"
+							},
+							"Step 7: Navigate to Routes with Mandatory Parameters": {
+								"link": "Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md"
+							},
+							"Step 8: Navigate with Flip Transition": {
+								"link": "Step_8_Navigate_with_Flip_Transition_3e5f6f3.md"
+							},
+							"Step 9: Allow Bookmarkable Tabs with Optional Query Parameters": {
+								"link": "Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md"
+							},
+							"Step 10: Implement \"Lazy Loading\"": {
+								"link": "Step_10_Implement_Lazy_Loading_cdab0a1.md"
+							},
+							"Step 11: Assign Multiple Targets": {
+								"link": "Step_11_Assign_Multiple_Targets_b01840e.md"
+							},
+							"Step 12: Make a Search Bookmarkable": {
+								"link": "Step_12_Make_a_Search_Bookmarkable_e85da53.md"
+							},
+							"Step 13: Make Table Sorting Bookmarkable": {
+								"link": "Step_13_Make_Table_Sorting_Bookmarkable_3975987.md"
+							},
+							"Step 14: Make Dialogs Bookmarkable": {
+								"link": "Step_14_Make_Dialogs_Bookmarkable_5cc3147.md"
+							},
+							"Step 15: Reuse an Existing Route": {
+								"link": "Step_15_Reuse_an_Existing_Route_877d57e.md"
+							},
+							"Step 16: Handle Invalid Hashes by Listening to Bypassed Events": {
+								"link": "Step_16_Handle_Invalid_Hashes_by_Listening_to_Bypassed_Events_a7932a7.md"
+							},
+							"Step 17: Listen to Matched Events of Any Route": {
+								"link": "Step_17_Listen_to_Matched_Events_of_Any_Route_4a063b8.md"
+							}
+						}
+					},
+					"Testing": {
+						"link": "Testing_291c912.md",
+						"items": {
+							"Step 1: Overview and Testing Strategy": {
+								"link": "Step_1_Overview_and_Testing_Strategy_ab134ef.md"
+							},
+							"Step 2: A First Unit Test": {
+								"link": "Step_2_A_First_Unit_Test_b81736e.md"
+							},
+							"Step 3: Adding the Price Formatter": {
+								"link": "Step_3_Adding_the_Price_Formatter_2bf4892.md"
+							},
+							"Step 4: Testing a New Module": {
+								"link": "Step_4_Testing_a_New_Module_a5bb7a6.md"
+							},
+							"Step 5: Adding a Flag Button": {
+								"link": "Step_5_Adding_a_Flag_Button_69a25bf.md"
+							},
+							"Step 6: A First OPA Test": {
+								"link": "Step_6_A_First_OPA_Test_1b47457.md"
+							},
+							"Step 7: Changing the Table to a Growing Table": {
+								"link": "Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md"
+							},
+							"Step 8: Testing Navigation": {
+								"link": "Step_8_Testing_Navigation_10592af.md"
+							},
+							"Step 9: Adding the Post Page": {
+								"link": "Step_9_Adding_the_Post_Page_4a9f063.md"
+							},
+							"Step 10: Test Suite and Automated Testing": {
+								"link": "Step_10_Test_Suite_and_Automated_Testing_07c97a2.md"
+							},
+							"Step 11: Testing User Input": {
+								"link": "Step_11_Testing_User_Input_92959b1.md"
+							},
+							"Step 12: Adding a Search": {
+								"link": "Step_12_Adding_a_Search_0c270b4.md"
+							},
+							"Step 13: Testing User Interaction": {
+								"link": "Step_13_Testing_User_Interaction_19ccd47.md"
+							},
+							"Step 14: Adding Tabs": {
+								"link": "Step_14_Adding_Tabs_6e9c6bd.md"
+							},
+							"Step 15: Writing a Short Date Formatter Using TDD": {
+								"link": "Step_15_Writing_a_Short_Date_Formatter_Using_TDD_bc4114a.md"
+							},
+							"Step 16: Adding the Date Formatter": {
+								"link": "Step_16_Adding_the_Date_Formatter_2ca583d.md"
+							}
+						}
+					},
+					"OData V2 Mock Server": {
+						"link": "OData_V2_Mock_Server_3a9728e.md",
+						"items": {
+							"Step 1: Initial App Without Data": {
+								"link": "Step_1_Initial_App_Without_Data_7a78f1b.md"
+							},
+							"Step 2: Creating a Mock Server to Simulate Data": {
+								"link": "Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md"
+							},
+							"Step 3: Handling Custom URL Parameters": {
+								"link": "Step_3_Handling_Custom_URL_Parameters_46c1ca4.md"
+							},
+							"Step 4: Calling a Function Import": {
+								"link": "Step_4_Calling_a_Function_Import_95e5b87.md"
+							}
+						}
+					},
+					"Worklist App": {
+						"link": "Worklist_App_6a6a621.md",
+						"items": {
+							"Step 1: Creating the Initial App": {
+								"link": "Step_1_Creating_the_Initial_App_fc2c358.md"
+							},
+							"Step 2: Custom Mock Data": {
+								"link": "Step_2_Custom_Mock_Data_3118903.md"
+							},
+							"Step 3: Extending the Worklist Table": {
+								"link": "Step_3_Extending_the_Worklist_Table_84100bc.md"
+							},
+							"Step 4: Quick Filter for the Worklist": {
+								"link": "Step_4_Quick_Filter_for_the_Worklist_85ec3a9.md"
+							},
+							"Step 5: Adding Actions to the Worklist": {
+								"link": "Step_5_Adding_Actions_to_the_Worklist_2da220f.md"
+							},
+							"Step 6: Extending the Detail Page": {
+								"link": "Step_6_Extending_the_Detail_Page_b561d14.md"
+							},
+							"Step 7: Adding a Comments Section": {
+								"link": "Step_7_Adding_a_Comments_Section_c73dfe3.md"
+							}
+						}
+					},
+					"Flexible Column Layout App": {
+						"link": "Flexible_Column_Layout_App_c4de2df.md",
+						"items": {
+							"Step 1: Setting Up the Initial App": {
+								"link": "Step_1_Setting_Up_the_Initial_App_59b772b.md"
+							},
+							"Step 2: Creating an Empty Flexible Column Layout": {
+								"link": "Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md"
+							},
+							"Step 3: Using Dynamic Page for the Master View": {
+								"link": "Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md"
+							},
+							"Step 4: Adding a Detail Page": {
+								"link": "Step_4_Adding_a_Detail_Page_4e4315c.md"
+							},
+							"Step 5: Using Object Page Layout as a Detail Page": {
+								"link": "Step_5_Using_Object_Page_Layout_as_a_Detail_Page_d1ffe61.md"
+							},
+							"Step 6: Adding a Floating Footer": {
+								"link": "Step_6_Adding_a_Floating_Footer_555ed73.md"
+							},
+							"Step 7: Routing": {
+								"link": "Step_7_Routing_7f65131.md"
+							},
+							"Step 8: Enhancing the Detail Page": {
+								"link": "Step_8_Enhancing_the_Detail_Page_e5ee491.md"
+							},
+							"Step 9: Adding a Detail-Detail Page": {
+								"link": "Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md"
+							},
+							"Step 10: Adding More Pages": {
+								"link": "Step_10_Adding_More_Pages_a59b3de.md"
+							},
+							"Step 11: Using the Flexible Column Layout Semantic Helper": {
+								"link": "Step_11_Using_the_Flexible_Column_Layout_Semantic_Helper_276f001.md"
+							},
+							"Step 12: Starting with Two Columns": {
+								"link": "Step_12_Starting_with_Two_Columns_a96fbe4.md"
+							},
+							"Step 13: Setting the Master-Detail Pattern": {
+								"link": "Step_13_Setting_the_Master_Detail_Pattern_cb38637.md"
+							}
+						}
+					},
+					"Demo Apps": {
+						"link": "Demo_Apps_a3ab54e.md"
+					},
+					"Best Practices for App Developers": {
+						"link": "Best_Practices_for_App_Developers_28fcd55.md",
+						"items": {
+							"Load Only What You Really Need": {
+								"link": "Load_Only_What_You_Really_Need_e8fca3e.md"
+							},
+							"Use the MVC Concept": {
+								"link": "Use_the_MVC_Concept_07afcf4.md"
+							},
+							"Keep Your Views Short and Simple": {
+								"link": "Keep_Your_Views_Short_and_Simple_b0d7db7.md"
+							},
+							"Use Stable IDs": {
+								"link": "Use_Stable_IDs_79e910e.md"
+							},
+							"Make Your App CSP Compliant": {
+								"link": "Make_Your_App_CSP_Compliant_1f81a09.md"
+							},
+							"Use Asynchronous Loading": {
+								"link": "Use_Asynchronous_Loading_676b636.md"
+							},
+							"Is Your Application Ready for Asynchronous Loading?": {
+								"link": "Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md"
+							},
+							"Performance Checklist": {
+								"link": "Performance_Checklist_9c6400e.md"
+							}
+						}
+					}
+				}
+			},
+			"Essentials": {
+				"link": "Essentials_ec699e0.md",
+				"items": {
+					"Bootstrapping: Loading and Initializing": {
+						"link": "Bootstrapping_Loading_and_Initializing_a04b0d1.md",
+						"items": {
+							"Standard Variant for Bootstrapping": {
+								"link": "Standard_Variant_for_Bootstrapping_91f1f45.md"
+							},
+							"Variant for Bootstrapping from Content Delivery Network": {
+								"link": "Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md"
+							},
+							"noJQuery Variant for Bootstrapping": {
+								"link": "noJQuery_Variant_for_Bootstrapping_91f1dd0.md"
+							},
+							"Initialization Process": {
+								"link": "Initialization_Process_91f2c90.md#loio91f2c9076f4d1014b6dd926db0e91070",
+								"items": {
+									"Loading of Additional Resources During Bootstrap": {
+										"link": "Initialization_Process_91f2c90.md#loiobf10bd41ac8f49048a1ccb743fbfbb8a"
+									},
+									"Dynamic Loading of Libraries": {
+										"link": "Initialization_Process_91f2c90.md#loiobbce44f06ddc48fda7aeb44eae52ebbc"
+									}
+								}
+							},
+							"Configuration of the OpenUI5 Runtime": {
+								"link": "Configuration_of_the_OpenUI5_Runtime_91f08de.md",
+								"items": {
+									"Configuration Options and URL Parameters": {
+										"link": "Configuration_Options_and_URL_Parameters_91f2d03.md"
+									},
+									"Compatibility Version Information": {
+										"link": "Compatibility_Version_Information_9feb96d.md"
+									}
+								}
+							}
+						}
+					},
+					"Structuring: Components and Descriptor": {
+						"link": "Structuring_Components_and_Descriptor_dc9e11c.md",
+						"items": {
+							"Components": {
+								"link": "Components_958ead5.md",
+								"items": {
+									"Component.js File": {
+										"link": "Component_js_File_27ce0e4.md",
+										"items": {
+											"Component Metadata": {
+												"link": "Component_Metadata_0187ea5.md"
+											},
+											"Methods Controlling the Initial Instantiation": {
+												"link": "Methods_Controlling_the_Initial_Instantiation_b430345.md"
+											}
+										}
+									},
+									"Using and Nesting Components": {
+										"link": "Using_and_Nesting_Components_346599f.md"
+									},
+									"Declarative API for Initial Components": {
+										"link": "Declarative_API_for_Initial_Components_82a0fce.md"
+									},
+									"Handling IDs in UI Components": {
+										"link": "Handling_IDs_in_UI_Components_562803c.md"
+									},
+									"Advanced Concepts for OpenUI5 Components": {
+										"link": "Advanced_Concepts_for_OpenUI5_Components_ecbc417.md"
+									}
+								}
+							},
+							"Descriptor for Applications, Components, and Libraries \\(manifest.json\\)": {
+								"link": "Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md",
+								"items": {
+									"Migrating from Component Metadata to Descriptor": {
+										"link": "Migrating_from_Component_Metadata_to_Descriptor_e282db2.md"
+									},
+									"Descriptor for Libraries": {
+										"link": "Descriptor_for_Libraries_b229914.md"
+									},
+									"Descriptor for Components \\(Inside Libraries\\)": {
+										"link": "Descriptor_for_Components_Inside_Libraries_7701636.md"
+									},
+									"The resources.json File": {
+										"link": "The_resources_json_File_adcbcf8.md"
+									},
+									"Creating a Descriptor File for Existing Apps": {
+										"link": "Creating_a_Descriptor_File_for_Existing_Apps_3a9baba.md",
+										"items": {
+											"Migration Information for Upgrading the Descriptor File": {
+												"link": "Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md"
+											}
+										}
+									},
+									"Descriptor Dependencies to Libraries and Components": {
+										"link": "Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md"
+									},
+									"Manifest Model Preload": {
+										"link": "Manifest_Model_Preload_26ba6a5.md"
+									},
+									"Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Descriptor": {
+										"link": "Enabling_the_Automatic_SAP_Fiori_2_0_Header_Adaptation_in_the_Descriptor_0635156.md"
+									}
+								}
+							}
+						}
+					},
+					"Model View Controller \\(MVC\\)": {
+						"link": "Model_View_Controller_MVC_91f2334.md",
+						"items": {
+							"Models": {
+								"link": "Models_d2c8cf7.md"
+							},
+							"Views": {
+								"link": "Views_91f27e3.md",
+								"items": {
+									"XML View": {
+										"link": "XML_View_91f2928.md",
+										"items": {
+											"Namespaces in XML Views": {
+												"link": "Namespaces_in_XML_Views_2421a2c.md"
+											},
+											"Aggregation Handling in XML Views": {
+												"link": "Aggregation_Handling_in_XML_Views_19eabf5.md"
+											},
+											"Control Properties and Associations in XML Views": {
+												"link": "Control_Properties_and_Associations_in_XML_Views_5ee3be4.md"
+											},
+											"Using Native HTML in XML Views": {
+												"link": "Using_Native_HTML_in_XML_Views_be54950.md"
+											},
+											"Using CSS Style Sheets in XML Views": {
+												"link": "Using_CSS_Style_Sheets_in_XML_Views_b564935.md"
+											},
+											"Handling Events in XML Views": {
+												"link": "Handling_Events_in_XML_Views_b0fb4de.md"
+											},
+											"Preprocessing XML Views": {
+												"link": "Preprocessing_XML_Views_48b81b9.md"
+											},
+											"XML View Cache": {
+												"link": "XML_View_Cache_3d85d5e.md"
+											},
+											"Require Modules in XML View and Fragment": {
+												"link": "Require_Modules_in_XML_View_and_Fragment_b11d853.md"
+											}
+										}
+									},
+									"JSON View": {
+										"link": "JSON_View_91f2852.md"
+									},
+									"Typed View": {
+										"link": "Typed_View_e6bb33d.md"
+									},
+									"HTML View": {
+										"link": "HTML_View_9756f47.md"
+									},
+									"Instantiating Views": {
+										"link": "Instantiating_Views_68d0e58.md"
+									},
+									"View Cloning": {
+										"link": "View_Cloning_a575619.md"
+									}
+								}
+							},
+							"Controller": {
+								"link": "Controller_121b8e6.md",
+								"items": {
+									"Using Controller Extension": {
+										"link": "Using_Controller_Extension_21515f0.md"
+									}
+								}
+							},
+							"Support for Unique IDs": {
+								"link": "Support_for_Unique_IDs_91f28be.md"
+							}
+						}
+					},
+					"Data Binding": {
+						"link": "Data_Binding_68b9644.md",
+						"items": {
+							"Binding Types": {
+								"link": "Binding_Types_91f0d8a.md",
+								"items": {
+									"Property Binding": {
+										"link": "Property_Binding_91f0652.md"
+									},
+									"Context Binding \\(Element Binding\\)": {
+										"link": "Context_Binding_Element_Binding_91f05e8.md"
+									},
+									"List Binding \\(Aggregation Binding\\)": {
+										"link": "List_Binding_Aggregation_Binding_91f0577.md",
+										"items": {
+											"Using Factory Functions": {
+												"link": "Using_Factory_Functions_335848a.md"
+											},
+											"Sorting, Grouping, and Filtering for List Binding": {
+												"link": "Sorting_Grouping_and_Filtering_for_List_Binding_ec79a5d.md"
+											},
+											"Displaying a Specific Range of Records in a Control": {
+												"link": "Displaying_a_Specific_Range_of_Records_in_a_Control_9b5bdd8.md"
+											},
+											"Lifecycle of Binding Templates": {
+												"link": "Lifecycle_of_Binding_Templates_3a4a9e5.md"
+											},
+											"Extended Change Detection": {
+												"link": "Extended_Change_Detection_7cdff73.md"
+											}
+										}
+									}
+								}
+							},
+							"Binding Syntax": {
+								"link": "Binding_Syntax_e2e6f41.md",
+								"items": {
+									"Binding Path": {
+										"link": "Binding_Path_2888af4.md"
+									},
+									"Composite Binding": {
+										"link": "Composite_Binding_a2fe8e7.md"
+									},
+									"Expression Binding": {
+										"link": "Expression_Binding_daf6852.md"
+									},
+									"Property Metadata Binding": {
+										"link": "Property_Metadata_Binding_f5aa4bb.md"
+									},
+									"Examples for Data Binding in Different View Types": {
+										"link": "Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md"
+									}
+								}
+							},
+							"Formatting, Parsing, and Validating Data": {
+								"link": "Formatting_Parsing_and_Validating_Data_07e4b92.md",
+								"items": {
+									"Simple Data Types": {
+										"link": "Simple_Data_Types_91f06be.md",
+										"items": {
+											"sap.ui.model.type.Boolean": {
+												"link": "sap_ui_model_type_Boolean_91f2f93.md"
+											},
+											"sap.ui.model.type.Date": {
+												"link": "sap_ui_model_type_Date_91f2fff.md"
+											},
+											"sap.ui.model.type.DateTime": {
+												"link": "sap_ui_model_type_DateTime_91f3070.md"
+											},
+											"sap.ui.model.type.Float": {
+												"link": "sap_ui_model_type_Float_91f30db.md"
+											},
+											"sap.ui.model.type.Integer": {
+												"link": "sap_ui_model_type_Integer_91f3145.md"
+											},
+											"sap.ui.model.type.String": {
+												"link": "sap_ui_model_type_String_91f31c2.md"
+											},
+											"sap.ui.model.type.Time": {
+												"link": "sap_ui_model_type_Time_91f322a.md"
+											},
+											"sap.ui.model.type.DateTimeInterval": {
+												"link": "sap_ui_model_type_DateTimeInterval_94658aa.md"
+											}
+										}
+									},
+									"Formatter Classes": {
+										"link": "Formatter_Classes_35cbd6c.md",
+										"items": {
+											"Date Format": {
+												"link": "Date_Format_91f2eba.md"
+											},
+											"Number Format": {
+												"link": "Number_Format_91f2f28.md"
+											},
+											"File Size Format": {
+												"link": "File_Size_Format_24f340b.md"
+											},
+											"Unit Formatting": {
+												"link": "Unit_Formatting_8e618a8.md"
+											},
+											"Currency Formatting": {
+												"link": "Currency_Formatting_e978728.md"
+											}
+										}
+									}
+								}
+							},
+							"Models": {
+								"link": "Models_e1b6259.md",
+								"items": {
+									"OData V2 Model": {
+										"link": "OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2",
+										"items": {
+											"Creating the Model Instance": {
+												"link": "OData_V2_Model_6c47b2b.md#loio218afa0780da42fd982b72e992fb57d2"
+											},
+											"Service Metadata": {
+												"link": "OData_V2_Model_6c47b2b.md#loio71a3ae02691147abaf6d78a553d50161"
+											},
+											"Adding Additional URL Parameters": {
+												"link": "OData_V2_Model_6c47b2b.md#loio82afe9152177428290cc9d5dbd90e245"
+											},
+											"Custom HTTP Headers": {
+												"link": "OData_V2_Model_6c47b2b.md#loio7370a173015e49929e011d6ab6b4885c"
+											},
+											"Addressing Entities: Binding Path Syntax": {
+												"link": "OData_V2_Model_6c47b2b.md#loioc4be40ce21ff4d0485b1d8f8114f7426"
+											},
+											"Accessing Data from an OData Model": {
+												"link": "OData_V2_Model_6c47b2b.md#loioadd47c3966dd40489e952bb4f5f74a7c"
+											},
+											"Creating Entities": {
+												"link": "OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4"
+											},
+											"CRUD Operations": {
+												"link": "OData_V2_Model_6c47b2b.md#loioff667e12b8714f3595e68f3e7c0e7a14"
+											},
+											"Concurrency Control and ETags": {
+												"link": "OData_V2_Model_6c47b2b.md#loio94e302455f8044e79de759c86bb295a2"
+											},
+											"XSRF Token": {
+												"link": "OData_V2_Model_6c47b2b.md#loio30362c1cafd244dd86752e28993bbcdd"
+											},
+											"Refreshing the Model": {
+												"link": "OData_V2_Model_6c47b2b.md#loio66a130fa4d10411b8fc90df00185554b"
+											},
+											"Batch Processing": {
+												"link": "OData_V2_Model_6c47b2b.md#loio8a6ae1d390534d05a560bf350af59c29"
+											},
+											"Two-Way Binding": {
+												"link": "OData_V2_Model_6c47b2b.md#loio42b3ca19a47d49a3b4ba5f34ca0d1f7e"
+											},
+											"Binding-specific Parameters": {
+												"link": "OData_V2_Model_6c47b2b.md#loiobf1fc3b4c9ab4bbc845a3f0e0940c004"
+											},
+											"Optimizing Dependent Bindings": {
+												"link": "OData_V2_Model_6c47b2b.md#loio62149734b5c24507868e722fe87a75db"
+											},
+											"Function Import": {
+												"link": "OData_V2_Model_6c47b2b.md#loio6cb8d585ed594ee4b447b5b560f292a4"
+											},
+											"Language": {
+												"link": "OData_V2_Model_6c47b2b.md#loioc40fc72612754bad877f374bdeb0f893"
+											},
+											"Meta Model for OData V2": {
+												"link": "OData_V2_Model_6c47b2b.md#loio341823349ed04df1813197f2a0d71db2"
+											},
+											"Currency and Unit Customizing in OData V2": {
+												"link": "OData_V2_Model_6c47b2b.md#loioaa9024c7c5444822a68daeb21a92bd51"
+											}
+										}
+									},
+									"OData V4 Model": {
+										"link": "OData_V4_Model_5de13cf.md",
+										"items": {
+											"Model Instantiation and Data Access": {
+												"link": "Model_Instantiation_and_Data_Access_9613f1f.md"
+											},
+											"Bindings": {
+												"link": "Bindings_54e0ddf.md",
+												"items": {
+													"Creating Bindings": {
+														"link": "Creating_Bindings_95cf4b1.md"
+													},
+													"Path Syntax": {
+														"link": "Path_Syntax_596a570.md"
+													},
+													"Initialization and Read Requests": {
+														"link": "Initialization_and_Read_Requests_fccfb2e.md"
+													},
+													"Parameters": {
+														"link": "Parameters_1ab4f62.md"
+													},
+													"Binding Collection Inline Count": {
+														"link": "Binding_Collection_Inline_Count_77d2310.md"
+													},
+													"Type Determination": {
+														"link": "Type_Determination_53cdd55.md"
+													},
+													"Binding Modes": {
+														"link": "Binding_Modes_e37a0c3.md"
+													},
+													"Suspend and Resume": {
+														"link": "Suspend_and_Resume_b0f5c53.md"
+													},
+													"Context API": {
+														"link": "Context_API_22ee78b.md"
+													},
+													"Accessing Data in Controller Code": {
+														"link": "Accessing_Data_in_Controller_Code_17b30ac.md"
+													},
+													"Automatic determination of $expand and $select": {
+														"link": "Automatic_determination_of_expand_and_select_10ca58b.md"
+													},
+													"Data Reuse": {
+														"link": "Data_Reuse_648e360.md"
+													}
+												}
+											},
+											"Binding Events": {
+												"link": "Binding_Events_1a010d3.md"
+											},
+											"Filtering": {
+												"link": "Filtering_5338bd1.md"
+											},
+											"Sorting": {
+												"link": "Sorting_d2ce3f5.md"
+											},
+											"Value Lists": {
+												"link": "Value_Lists_ab267a6.md"
+											},
+											"OData Operations": {
+												"link": "OData_Operations_b54f789.md"
+											},
+											"Batch Control": {
+												"link": "Batch_Control_74142a3.md"
+											},
+											"Meta Model for OData V4": {
+												"link": "Meta_Model_for_OData_V4_7f29fb3.md",
+												"items": {
+													"OData V4 Metadata JSON Format": {
+														"link": "OData_V4_Metadata_JSON_Format_87aac89.md"
+													},
+													"Additional Annotation Files": {
+														"link": "Additional_Annotation_Files_fd715d9.md"
+													}
+												}
+											},
+											"Performance Aspects": {
+												"link": "Performance_Aspects_5a0d286.md"
+											},
+											"Unsupported Superclass Methods and Events": {
+												"link": "Unsupported_Superclass_Methods_and_Events_1232241.md"
+											},
+											"Changes Compared to OData V2 Model": {
+												"link": "Changes_Compared_to_OData_V2_Model_abd4d7c.md"
+											},
+											"Creating an Entity": {
+												"link": "Creating_an_Entity_c9723f8.md"
+											},
+											"Draft Handling with the OData V4 Model": {
+												"link": "Draft_Handling_with_the_OData_V4_Model_40986e6.md"
+											},
+											"Deleting an Entity": {
+												"link": "Deleting_an_Entity_2613ebc.md"
+											},
+											"Consuming OData V2 Services with the OData V4 Model": {
+												"link": "Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md"
+											},
+											"Extension for Data Aggregation": {
+												"link": "Extension_for_Data_Aggregation_7d91431.md"
+											},
+											"Server Messages in the OData V4 Model": {
+												"link": "Server_Messages_in_the_OData_V4_Model_fbe1cb5.md"
+											},
+											"Currency and Unit Customizing in OData V4": {
+												"link": "Currency_and_Unit_Customizing_in_OData_V4_4d1b9d4.md"
+											}
+										}
+									},
+									"JSON Model": {
+										"link": "JSON_Model_96804e3.md#loio96804e3315ff440aa0a50fd290805116",
+										"items": {
+											"Sorting and Filtering in JSON Models": {
+												"link": "JSON_Model_96804e3.md#loio50357d719b35439984348080bcbb14a4"
+											},
+											"Binding Path Syntax for JSON Models": {
+												"link": "JSON_Model_96804e3.md#loiod52e364907f94a3caeb4f5e5ad0cf302"
+											}
+										}
+									},
+									"XML Model": {
+										"link": "XML_Model_a53e71d.md#loioa53e71d85fae4d0887a8b58431197a27",
+										"items": {
+											"Sorting and Filtering in XML Models": {
+												"link": "XML_Model_a53e71d.md#loioab8ed73c5bbd4a2b9c9840401ebf25cf"
+											},
+											"XML Namespace Support": {
+												"link": "XML_Model_a53e71d.md#loio8674a69845c846d3bd68b60685bb5683"
+											},
+											"Binding Path Syntax for XML Models": {
+												"link": "XML_Model_a53e71d.md#loiob8a2c24356c443228f7819d45697a2b8"
+											}
+										}
+									},
+									"Resource Model": {
+										"link": "Resource_Model_91f122a.md#loio91f122a36f4d1014b6dd926db0e91070",
+										"items": {
+											"Binding Path Syntax for Resource Models": {
+												"link": "Resource_Model_91f122a.md#loiof05c6f2cf18241cbbb2b126989108765"
+											},
+											"Binding Texts to a Resource Bundle": {
+												"link": "Resource_Model_91f122a.md#loio7341396326c34631813c805d44058b05"
+											}
+										}
+									},
+									"Custom Model": {
+										"link": "Custom_Model_91f1c7e.md"
+									},
+									"Assigning the Model to the UI": {
+										"link": "Assigning_the_Model_to_the_UI_91f0d1c.md"
+									},
+									"Setting the Default Binding Mode": {
+										"link": "Setting_the_Default_Binding_Mode_1a08f70.md"
+									}
+								}
+							},
+							"Using Data Binding for Data Export": {
+								"link": "Using_Data_Binding_for_Data_Export_f1ee7a8.md"
+							}
+						}
+					},
+					"Reusing UI Parts: Fragments": {
+						"link": "Reusing_UI_Parts_Fragments_36a5b13.md",
+						"items": {
+							"HTML Fragments": {
+								"link": "HTML_Fragments_08d2206.md"
+							},
+							"XML Fragments": {
+								"link": "XML_Fragments_2c677b5.md"
+							},
+							"JS Fragments": {
+								"link": "JS_Fragments_9c06982.md"
+							},
+							"Instantiation of Fragments": {
+								"link": "Instantiation_of_Fragments_04129b2.md",
+								"items": {
+									"Programmatically Instantiating JS Fragments": {
+										"link": "Programmatically_Instantiating_JS_Fragments_3cff5d0.md"
+									},
+									"Programmatically Instantiating XML Fragments": {
+										"link": "Programmatically_Instantiating_XML_Fragments_d6af195.md"
+									},
+									"Programmatically Instantiating HTML Fragments": {
+										"link": "Programmatically_Instantiating_HTML_Fragments_79e967d.md"
+									},
+									"Instantiating Fragments in Declarative Views": {
+										"link": "Instantiating_Fragments_in_Declarative_Views_234320f.md"
+									},
+									"Using Other Objects Instead of Controllers": {
+										"link": "Using_Other_Objects_Instead_of_Controllers_c24ea6d.md"
+									},
+									"Inline Definition and Instantiation of Fragments": {
+										"link": "Inline_Definition_and_Instantiation_of_Fragments_b807931.md"
+									}
+								}
+							},
+							"Unique IDs": {
+								"link": "Unique_IDs_5da591c.md",
+								"items": {
+									"IDs in Declarative XML or HTML Fragments": {
+										"link": "IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md"
+									},
+									"IDs in JS Fragments": {
+										"link": "IDs_in_JS_Fragments_896fa9a.md"
+									},
+									"IDs of Fragments in Views": {
+										"link": "IDs_of_Fragments_in_Views_f10bf70.md"
+									},
+									"Retrieving Control Instances by Their ID": {
+										"link": "Retrieving_Control_Instances_by_Their_ID_8b32551.md"
+									},
+									"Example: JS Fragments Used in XML Views": {
+										"link": "Example_JS_Fragments_Used_in_XML_Views_faaff35.md"
+									}
+								}
+							},
+							"Dialogs and other Popups as Fragments": {
+								"link": "Dialogs_and_other_Popups_as_Fragments_448c641.md",
+								"items": {
+									"Defining Dialogs as Fragments": {
+										"link": "Defining_Dialogs_as_Fragments_0457545.md"
+									},
+									"Using Dialogs Defined as Fragments": {
+										"link": "Using_Dialogs_Defined_as_Fragments_aeb86c1.md"
+									}
+								}
+							},
+							"Fragments with Multiple Root Nodes": {
+								"link": "Fragments_with_Multiple_Root_Nodes_23b9c77.md"
+							}
+						}
+					},
+					"XML Templating": {
+						"link": "XML_Templating_5ee619f.md",
+						"items": {
+							"Preprocessing Instructions": {
+								"link": "Preprocessing_Instructions_c27d49c.md",
+								"items": {
+									"with": {
+										"link": "with_58cf64c.md"
+									},
+									"repeat": {
+										"link": "repeat_512e545.md"
+									},
+									"if": {
+										"link": "if_fc18595.md"
+									},
+									"alias": {
+										"link": "alias_ac5751f.md"
+									},
+									"require": {
+										"link": "require_263f6e5.md"
+									},
+									"Replacement of Bindings": {
+										"link": "Replacement_of_Bindings_604b1eb.md"
+									},
+									"XML Fragments": {
+										"link": "XML_Fragments_65da02b.md"
+									},
+									"Extension Points": {
+										"link": "Extension_Points_b15e6af.md"
+									}
+								}
+							},
+							"Annotation Helper": {
+								"link": "Annotation_Helper_dbec058.md"
+							},
+							"Debugging": {
+								"link": "Debugging_153b357.md"
+							}
+						}
+					},
+					"Working with Controls": {
+						"link": "Working_with_Controls_91f0a22.md",
+						"items": {
+							"Custom Data - Attaching Data Objects to Controls": {
+								"link": "Custom_Data_Attaching_Data_Objects_to_Controls_91f0c3e.md",
+								"items": {
+									"Writing Data to the HTML DOM as DATA-\\* Attribute": {
+										"link": "Writing_Data_to_the_HTML_DOM_as_DATA_Attribute_1ef9fef.md"
+									}
+								}
+							},
+							"Using Predefined CSS Margin Classes": {
+								"link": "Using_Predefined_CSS_Margin_Classes_777168f.md"
+							},
+							"Using Container Content Padding CSS Classes": {
+								"link": "Using_Container_Content_Padding_CSS_Classes_c71f6df.md",
+								"items": {
+									"Enabling Responsive Paddings According to the Control Width": {
+										"link": "Enabling_Responsive_Paddings_According_to_the_Control_Width_3b718b5.md"
+									}
+								}
+							},
+							"Field Groups": {
+								"link": "Field_Groups_5b07753.md"
+							}
+						}
+					},
+					"Declarative Support": {
+						"link": "Declarative_Support_91f1301.md",
+						"items": {
+							"Enabling Declarative Support": {
+								"link": "Enabling_Declarative_Support_91f17d6.md"
+							},
+							"Defining Controls": {
+								"link": "Defining_Controls_91f1539.md"
+							},
+							"Declarative Support: Properties": {
+								"link": "Declarative_Support_Properties_91f1619.md"
+							},
+							"Declarative Support: Associations": {
+								"link": "Declarative_Support_Associations_91f13d9.md"
+							},
+							"Declarative Support: Events": {
+								"link": "Declarative_Support_Events_91f15ad.md"
+							},
+							"Declarative Support: Aggregations": {
+								"link": "Declarative_Support_Aggregations_91f136c.md"
+							},
+							"Declarative Support: Data Binding": {
+								"link": "Declarative_Support_Data_Binding_020990b.md"
+							},
+							"Compiling Declarative HTML": {
+								"link": "Compiling_Declarative_HTML_91f1454.md"
+							}
+						}
+					},
+					"Error, Warning, and Info Messages": {
+						"link": "Error_Warning_and_Info_Messages_62b1481.md",
+						"items": {
+							"Validation Messages": {
+								"link": "Validation_Messages_a90d93d.md"
+							},
+							"OData V2 Messages": {
+								"link": "OData_V2_Messages_81c735e.md"
+							},
+							"Message Model": {
+								"link": "Message_Model_8956f0a.md"
+							},
+							"Implementing Your Own OData V2 Message Parser": {
+								"link": "Implementing_Your_Own_OData_V2_Message_Parser_2e532e6.md"
+							}
+						}
+					},
+					"Routing and Navigation": {
+						"link": "Routing_and_Navigation_3d18f20.md",
+						"items": {
+							"Routing Configuration": {
+								"link": "Routing_Configuration_9023130.md"
+							},
+							"Methods and Events for Navigation": {
+								"link": "Methods_and_Events_for_Navigation_516e477.md"
+							},
+							"Initializing and Accessing a Routing Instance": {
+								"link": "Initializing_and_Accessing_a_Routing_Instance_acdb6cd.md"
+							},
+							"Working with Multiple Targets": {
+								"link": "Working_with_Multiple_Targets_2c5c84d.md"
+							},
+							"Using the title Property in Targets": {
+								"link": "Using_the_title_Property_in_Targets_1238d70.md"
+							},
+							"Enabling Routing in Nested Components": {
+								"link": "Enabling_Routing_in_Nested_Components_fb19f50.md"
+							},
+							"Navigate with Nested Components": {
+								"link": "Navigate_with_Nested_Components_8e9d6e4.md"
+							},
+							"Navigate with Dynamic Targets": {
+								"link": "Navigate_with_Dynamic_Targets_856d6c6.md"
+							}
+						}
+					},
+					"Modules and Dependencies": {
+						"link": "Modules_and_Dependencies_91f23a7.md",
+						"items": {
+							"Loading a Module": {
+								"link": "Loading_a_Module_d12024e.md"
+							},
+							"Multiple Module Locations": {
+								"link": "Multiple_Module_Locations_1dfab2e.md"
+							},
+							"Best Practices for Loading Modules": {
+								"link": "Best_Practices_for_Loading_Modules_00737d6.md",
+								"items": {
+									"Troubleshooting for Loading Modules": {
+										"link": "Troubleshooting_for_Loading_Modules_4363b3f.md"
+									}
+								}
+							},
+							"Adapting to the Modularization of the Core": {
+								"link": "Adapting_to_the_Modularization_of_the_Core_b8fdf0c.md",
+								"items": {
+									"Legacy jQuery.sap Replacement": {
+										"link": "Legacy_jQuery_sap_Replacement_a075ed8.md"
+									},
+									"Legacy Factories Replacement": {
+										"link": "Legacy_Factories_Replacement_491bd9c.md"
+									},
+									"Troubleshooting": {
+										"link": "Troubleshooting_20f6ea7.md"
+									}
+								}
+							}
+						}
+					},
+					"Optimizing Applications": {
+						"link": "Optimizing_Applications_2f492c4.md",
+						"items": {
+							"Resource Handling: Modularization and Localization": {
+								"link": "Resource_Handling_Modularization_and_Localization_91f2b4d.md",
+								"items": {
+									"OpenUI5 Library Location Used for Testing": {
+										"link": "OpenUI5_Library_Location_Used_for_Testing_61ee9ed.md"
+									}
+								}
+							},
+							"Cache Buster for OpenUI5": {
+								"link": "Cache_Buster_for_OpenUI5_91f0809.md"
+							},
+							"Application Cache Buster": {
+								"link": "Application_Cache_Buster_ff7aced.md",
+								"items": {
+									"Application Cache Buster: Index File": {
+										"link": "Application_Cache_Buster_Index_File_fef5340.md"
+									},
+									"Application Cache Buster: Configuration": {
+										"link": "Application_Cache_Buster_Configuration_c1c3e2f.md"
+									},
+									"Application Cache Buster: Request Flow": {
+										"link": "Application_Cache_Buster_Request_Flow_d415dd8.md"
+									},
+									"Application Cache Buster: Enhanced Concept": {
+										"link": "Application_Cache_Buster_Enhanced_Concept_94e0c33.md"
+									}
+								}
+							}
+						}
+					},
+					"Adapting to Operating Systems And Devices": {
+						"link": "Adapting_to_Operating_Systems_And_Devices_50eadaa.md",
+						"items": {
+							"The Device API": {
+								"link": "The_Device_API_69a8e46.md"
+							},
+							"Controls with Built-In Device Adaptation": {
+								"link": "Controls_with_Built_In_Device_Adaptation_328a340.md"
+							},
+							"Checking the Operating System your Application is Running On": {
+								"link": "Checking_the_Operating_System_your_Application_is_Running_On_d1b26a2.md"
+							},
+							"Content Densities": {
+								"link": "Content_Densities_e54f729.md",
+								"items": {
+									"How to Use Densities for Controls": {
+										"link": "How_to_Use_Densities_for_Controls_13e6f3b.md"
+									}
+								}
+							},
+							"Options for Further Adaptation": {
+								"link": "Options_for_Further_Adaptation_04eb520.md"
+							}
+						}
+					},
+					"Testing": {
+						"link": "Testing_7cdee40.md",
+						"items": {
+							"Unit Testing with QUnit": {
+								"link": "Unit_Testing_with_QUnit_09d145c.md",
+								"items": {
+									"Creating a QUnit Test Page": {
+										"link": "Creating_a_QUnit_Test_Page_7080029.md"
+									},
+									"Executing a QUnit Test": {
+										"link": "Executing_a_QUnit_Test_a9c949c.md"
+									},
+									"Code Coverage Measurement": {
+										"link": "Code_Coverage_Measurement_7ef3242.md"
+									},
+									"Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR": {
+										"link": "Sinon_JS_Spies_Stubs_Mocks_Faked_Timers_and_XHR_457eaad.md"
+									},
+									"How to Test OpenUI5 Controls with QUnit": {
+										"link": "How_to_Test_OpenUI5_Controls_with_QUnit_a6b0657.md",
+										"items": {
+											"Cookbook for Testing Controls with QUnit": {
+												"link": "Cookbook_for_Testing_Controls_with_QUnit_0ddcc60.md"
+											}
+										}
+									}
+								}
+							},
+							"Integration Testing with One Page Acceptance Tests \\(OPA5\\)": {
+								"link": "Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md",
+								"items": {
+									"Getting Started with OPA5": {
+										"link": "Getting_Started_with_OPA5_22f175e.md"
+									},
+									"Cookbook for OPA5": {
+										"link": "Cookbook_for_OPA5_ce4b180.md"
+									},
+									"Retrieving Controls": {
+										"link": "Retrieving_Controls_21aeff6.md"
+									},
+									"Structuring OPA Tests With Page Objects": {
+										"link": "Structuring_OPA_Tests_With_Page_Objects_f2f843d.md"
+									},
+									"Using the autoWait Parameter": {
+										"link": "Using_the_autoWait_Parameter_fb487ef.md"
+									},
+									"Extensions for OPA5": {
+										"link": "Extensions_for_OPA5_9c22d2a.md"
+									},
+									"Test Libraries for OPA5": {
+										"link": "Test_Libraries_for_OPA5_a88a5e5.md"
+									},
+									"Simulating User Interactions on Controls": {
+										"link": "Simulating_User_Interactions_on_Controls_8615a0b.md"
+									},
+									"Using OpaBuilder": {
+										"link": "Using_OpaBuilder_952e2c7.md"
+									},
+									"Pitfalls and Troubleshooting": {
+										"link": "Pitfalls_and_Troubleshooting_698f8c0.md"
+									}
+								}
+							},
+							"Mock Server": {
+								"link": "Mock_Server_69d3cbd.md",
+								"items": {
+									"OData Features Supported by the OData V2 Mock Server": {
+										"link": "OData_Features_Supported_by_the_OData_V2_Mock_Server_3459c37.md"
+									},
+									"OData V2 Mock Server: Frequently Asked Questions": {
+										"link": "OData_V2_Mock_Server_Frequently_Asked_Questions_c9a91dd.md"
+									},
+									"Using Mock Data with the OData V2 Mock Server": {
+										"link": "Using_Mock_Data_with_the_OData_V2_Mock_Server_a428d41.md"
+									}
+								}
+							},
+							"Test Automation": {
+								"link": "Test_Automation_ae44824.md#loioae448243822448d8ba04b4784f4b09a0",
+								"items": {
+									"Installing Karma for Automated Testing": {
+										"link": "Test_Automation_ae44824.md#loioa182676ed3714bd5b4f011eb29076f6c"
+									},
+									"Continuous Integration With Headless Chrome": {
+										"link": "Test_Automation_ae44824.md#loio8c27b0ab239242c69f181208c9b8fb1d"
+									},
+									"Code Coverage": {
+										"link": "Test_Automation_ae44824.md#loio1851a066b0e34d84ae00f887445239e5"
+									}
+								}
+							},
+							"Behavior-driven Development with Gherkin": {
+								"link": "Behavior_driven_Development_with_Gherkin_45ac9f1.md",
+								"items": {
+									"Feature Files": {
+										"link": "Feature_Files_9113397.md",
+										"items": {
+											"Additional Options for Feature Files": {
+												"link": "Additional_Options_for_Feature_Files_a509db4.md"
+											}
+										}
+									},
+									"Basic Example How to Use Gherkin": {
+										"link": "Basic_Example_How_to_Use_Gherkin_4b0c519.md"
+									},
+									"Gherkin and OPA Page Objects": {
+										"link": "Gherkin_and_OPA_Page_Objects_c689cd8.md"
+									},
+									"Code Coverage": {
+										"link": "Code_Coverage_20737a4.md"
+									},
+									"Logging": {
+										"link": "Logging_ebcf60c.md"
+									},
+									"Frequently Asked Questions": {
+										"link": "Frequently_Asked_Questions_02ef39f.md"
+									}
+								}
+							},
+							"Test Recorder": {
+								"link": "Test_Recorder_2535ef9.md"
+							}
+						}
+					},
+					"Theming": {
+						"link": "Theming_497c27a.md",
+						"items": {
+							"Setting Themes": {
+								"link": "Setting_Themes_e9fc648.md"
+							},
+							"Enhanced Theming Concepts": {
+								"link": "Enhanced_Theming_Concepts_45df6df.md"
+							},
+							"Creating Themable User Interfaces": {
+								"link": "Creating_Themable_User_Interfaces_a2c67ac.md"
+							},
+							"CSS Classes for Theme Parameters": {
+								"link": "CSS_Classes_for_Theme_Parameters_ea08f53.md",
+								"items": {
+									"List of Supported CSS Classes": {
+										"link": "List_of_Supported_CSS_Classes_91a4946.md"
+									}
+								}
+							},
+							"Theming FAQ": {
+								"link": "Theming_FAQ_d0db4d5.md"
+							}
+						}
+					},
+					"Localization": {
+						"link": "Localization_91f217c.md",
+						"items": {
+							"Identifying the Language Code / Locale": {
+								"link": "Identifying_the_Language_Code_Locale_91f21f1.md"
+							},
+							"Resource Bundles": {
+								"link": "Resource_Bundles_91f225c.md"
+							},
+							"Supported Locales and Fallback Chain": {
+								"link": "Supported_Locales_and_Fallback_Chain_ec753bc.md"
+							},
+							"Use of Localized Texts in Applications": {
+								"link": "Use_of_Localized_Texts_in_Applications_91f3859.md"
+							},
+							"Terminologies": {
+								"link": "Terminologies_eba8d25.md"
+							}
+						}
+					},
+					"Accessibility": {
+						"link": "Accessibility_322f55d.md",
+						"items": {
+							"OpenUI5 Accessibility Features": {
+								"link": "OpenUI5_Accessibility_Features_7048ca9.md",
+								"items": {
+									"Screen Reader Support for OpenUI5 Controls": {
+										"link": "Screen_Reader_Support_for_OpenUI5_Controls_656e825.md"
+									},
+									"Keyboard Handling for OpenUI5 UI Elements": {
+										"link": "Keyboard_Handling_for_OpenUI5_UI_Elements_6b741a6.md"
+									},
+									"Visualization": {
+										"link": "Visualization_b3799f0.md"
+									},
+									"High Contrast Themes for OpenUI5 Controls": {
+										"link": "High_Contrast_Themes_for_OpenUI5_Controls_cfcbde2.md"
+									},
+									"Messaging Patterns": {
+										"link": "Messaging_Patterns_6393d1d.md"
+									}
+								}
+							},
+							"Accessibility Support History": {
+								"link": "Accessibility_Support_History_accd68a.md"
+							}
+						}
+					},
+					"Drag and Drop": {
+						"link": "Drag_and_Drop_3ddb6cd.md",
+						"items": {
+							"Drag-and-Drop Configuration": {
+								"link": "Drag_and_Drop_Configuration_56007f4.md"
+							},
+							"Drag-and-Drop Metadata": {
+								"link": "Drag_and_Drop_Metadata_da7f3fc.md"
+							},
+							"Drag-and-Drop Restrictions": {
+								"link": "Drag_and_Drop_Restrictions_81e3f38.md"
+							}
+						}
+					},
+					"Troubleshooting": {
+						"link": "Troubleshooting_615d9e4.md",
+						"items": {
+							"Debugging": {
+								"link": "Debugging_c9b0f8c.md#loioc9b0f8cca852443f9b8d3bf8ba5626ab",
+								"items": {
+									"Loading Debug Sources": {
+										"link": "Debugging_c9b0f8c.md#loio1ed4b5f9f18848b1badee9b72d4ac261"
+									},
+									"Switching the OpenUI5 Version": {
+										"link": "Debugging_c9b0f8c.md#loioc57cb1c50c584fb1930d8da5f709b3ba"
+									},
+									"Setting Breakpoints": {
+										"link": "Debugging_c9b0f8c.md#loio9d57287c155741e7ad15f42736605ffa"
+									},
+									"Breakpoints on the Class Level": {
+										"link": "Debugging_c9b0f8c.md#loio549150aa11cf432780c1801a6e2dc3c4"
+									},
+									"Breakpoints on the Object Level": {
+										"link": "Debugging_c9b0f8c.md#loiob691c4e7e970484991007a4e30fcd6d0"
+									}
+								}
+							},
+							"Logging and Tracing": {
+								"link": "Logging_and_Tracing_9f4d62c.md"
+							},
+							"Technical Information Dialog": {
+								"link": "Technical_Information_Dialog_616a3ef.md#loio616a3ef07f554e20a3adf749c11f64e9",
+								"items": {
+									"Loading Debug Sources": {
+										"link": "Technical_Information_Dialog_616a3ef.md#copyda1306a437244116b156c4428b3c5b5f"
+									},
+									"Technical Information Dialog on Mobile Devices": {
+										"link": "Technical_Information_Dialog_616a3ef.md#loiob5dcf47c7d4a4228ab40d77f835648e3"
+									}
+								}
+							},
+							"Diagnostics": {
+								"link": "Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6",
+								"items": {
+									"Technical Information": {
+										"link": "Diagnostics_6ec18e8.md#loio452944574e64438fbe07276b3b4d4673"
+									},
+									"Control Tree": {
+										"link": "Diagnostics_6ec18e8.md#loio790defe9ff8643bf8629c8567270e290"
+									},
+									"Breakpoints on the Object Level": {
+										"link": "Diagnostics_6ec18e8.md#copyee6f8f5a976347cb9426bdf5e689bc11"
+									},
+									"Debugging": {
+										"link": "Diagnostics_6ec18e8.md#loio7f4327d5aa274efda0c275d091c9d2f9"
+									},
+									"Switching the OpenUI5 Version": {
+										"link": "Diagnostics_6ec18e8.md#copyf96072c32f20456b9d20da049800b515"
+									},
+									"Breakpoints on the Class Level": {
+										"link": "Diagnostics_6ec18e8.md#copy75d0c576f8e04a6aa3067ede31ebf8d4"
+									},
+									"XML View and Templating Support Tools": {
+										"link": "Diagnostics_6ec18e8.md#loio1ecb6b9f3d044e7d8f5136447bd6d39e"
+									},
+									"Visualizing User Interaction": {
+										"link": "Diagnostics_6ec18e8.md#loio2e698c47a18e4303af9c6e59b6dd69b5"
+									}
+								}
+							},
+							"Support Assistant": {
+								"link": "Support_Assistant_57ccd7d.md",
+								"items": {
+									"Using the Support Assistant": {
+										"link": "Using_the_Support_Assistant_12572ab.md",
+										"items": {
+											"Rules Management": {
+												"link": "Rules_Management_3fc864a.md"
+											},
+											"Results and Analysis": {
+												"link": "Results_and_Analysis_f09fab1.md"
+											},
+											"Execution Scope": {
+												"link": "Execution_Scope_e15067d.md"
+											},
+											"Analysis Report": {
+												"link": "Analysis_Report_29bcdec.md"
+											},
+											"Integrating the Rules in OPA Tests": {
+												"link": "Integrating_the_Rules_in_OPA_Tests_cfabbd4.md"
+											},
+											"Support Assistant API": {
+												"link": "Support_Assistant_API_a34eb58.md"
+											},
+											"Running the Support Assistant on an Older OpenUI5 Version": {
+												"link": "Running_the_Support_Assistant_on_an_Older_OpenUI5_Version_473201b.md"
+											},
+											"Troubleshooting the Support Assistant": {
+												"link": "Troubleshooting_the_Support_Assistant_64bdd33.md"
+											}
+										}
+									},
+									"Rule Development Guide": {
+										"link": "Rule_Development_Guide_cd356da.md",
+										"items": {
+											"Create a Ruleset for a Library": {
+												"link": "Create_a_Ruleset_for_a_Library_b5a5135.md"
+											},
+											"Create a Rule": {
+												"link": "Create_a_Rule_c24569d.md"
+											},
+											"Test a Rule": {
+												"link": "Test_a_Rule_f5e4fe6.md"
+											},
+											"Common Rule Patterns": {
+												"link": "Common_Rule_Patterns_3fc1412.md"
+											},
+											"Guidelines and Best Practices": {
+												"link": "Guidelines_and_Best_Practices_eaeea19.md"
+											}
+										}
+									}
+								}
+							},
+							"Test Recorder": {
+								"link": "Test_Recorder_dac59fa.md"
+							},
+							"UI5 Inspector": {
+								"link": "UI5_Inspector_b24e724.md"
+							},
+							"Performance Measurement Using sap/ui/performance/Measurement Module": {
+								"link": "Performance_Measurement_Using_sap_ui_performance_Measurement_Module_78880c0.md"
+							},
+							"Interaction Tracking for Performance Measurement": {
+								"link": "Interaction_Tracking_for_Performance_Measurement_b2825ea.md"
+							},
+							"First-Aid Kit": {
+								"link": "First_Aid_Kit_dfe4f79.md",
+								"items": {
+									"An Empty Page Comes Up": {
+										"link": "An_Empty_Page_Comes_Up_55db2bc.md"
+									},
+									"Content or Control Is Not Visible": {
+										"link": "Content_or_Control_Is_Not_Visible_492d9d9.md"
+									},
+									"Request Fails Due to Same-Origin Policy \\(Cross-Origin Resource Sharing - CORS\\)": {
+										"link": "Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_5bb388f.md"
+									},
+									"App or Control Looks Odd": {
+										"link": "App_or_Control_Looks_Odd_c34413d.md"
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"Developing Apps": {
+				"link": "Developing_Apps_23cfd95.md",
+				"items": {
+					"Continuous Integration: Ensure Code Quality": {
+						"link": "Continuous_Integration_Ensure_Code_Quality_fe7a158.md"
+					},
+					"App Overview: The Basic Files of Your App": {
+						"link": "App_Overview_The_Basic_Files_of_Your_App_28b59ca.md"
+					},
+					"App Initialization: What Happens When an App Is Started?": {
+						"link": "App_Initialization_What_Happens_When_an_App_Is_Started_d2f5869.md"
+					},
+					"Folder Structure: Where to Put Your Files": {
+						"link": "Folder_Structure_Where_to_Put_Your_Files_003f755.md"
+					},
+					"Device Adaptation: Using Device Models for Your App": {
+						"link": "Device_Adaptation_Using_Device_Models_for_Your_App_8dbd35e.md"
+					},
+					"Performance: Speed Up Your App": {
+						"link": "Performance_Speed_Up_Your_App_408b40e.md"
+					},
+					"Stable IDs: All You Need to Know": {
+						"link": "Stable_IDs_All_You_Need_to_Know_f51dbb7.md"
+					},
+					"Reacting on User Input Events": {
+						"link": "Reacting_on_User_Input_Events_c75861e.md"
+					},
+					"Whitespaces Concept": {
+						"link": "Whitespaces_Concept_37deb0b.md"
+					},
+					"Coding Issues to Avoid": {
+						"link": "Coding_Issues_to_Avoid_3877872.md",
+						"items": {
+							"JavaScript Code Issues": {
+								"link": "JavaScript_Code_Issues_030fcd1.md"
+							},
+							"CSS Styling Issues": {
+								"link": "CSS_Styling_Issues_9d87f92.md"
+							},
+							"Performance Issues": {
+								"link": "Performance_Issues_966d67c.md"
+							}
+						}
+					},
+					"Securing Apps": {
+						"link": "Securing_Apps_91f3d87.md",
+						"items": {
+							"Content Security Policy": {
+								"link": "Content_Security_Policy_fe1a6db.md"
+							},
+							"Browser Security": {
+								"link": "Browser_Security_91f3b66.md"
+							},
+							"Transport Security": {
+								"link": "Transport_Security_91f3e60.md"
+							},
+							"Server Security": {
+								"link": "Server_Security_91f3cac.md"
+							},
+							"Third-Party Libraries": {
+								"link": "Third_Party_Libraries_91f3df4.md"
+							},
+							"Secure Programming Aspects": {
+								"link": "Secure_Programming_Aspects_91f3c40.md"
+							},
+							"Cross-Site Scripting": {
+								"link": "Cross_Site_Scripting_91f0bd3.md"
+							},
+							"URL List Validation": {
+								"link": "URL_List_Validation_91f3768.md"
+							},
+							"Allowlist Service": {
+								"link": "Allowlist_Service_d04a6d4.md"
+							},
+							"Frame Options": {
+								"link": "Frame_Options_62d9c4d.md"
+							}
+						}
+					},
+					"Right-to-Left Support": {
+						"link": "Right_to_Left_Support_8d7b286.md",
+						"items": {
+							"API Properties for Right-to-Left Support in Text-Displaying Controls": {
+								"link": "API_Properties_for_Right_to_Left_Support_in_Text_Displaying_Controls_7e7cd0a.md"
+							}
+						}
+					},
+					"Accessibility": {
+						"link": "Accessibility_03b914b.md",
+						"items": {
+							"Screen Reader Support": {
+								"link": "Screen_Reader_Support_33fae34.md",
+								"items": {
+									"Landmark API": {
+										"link": "Landmark_API_fd7f9d4.md"
+									},
+									"Labeling and Tooltips": {
+										"link": "Labeling_and_Tooltips_329a029.md"
+									},
+									"Invisible Messaging": {
+										"link": "Invisible_Messaging_b9a7d6f.md"
+									},
+									"Dialogs, Popups, and Popovers": {
+										"link": "Dialogs_Popups_and_Popovers_5709e73.md"
+									}
+								}
+							},
+							"Keyboard Handling": {
+								"link": "Keyboard_Handling_e303820.md",
+								"items": {
+									"Fast Navigation": {
+										"link": "Fast_Navigation_d23e2cf.md"
+									}
+								}
+							},
+							"Colors and Theming": {
+								"link": "Colors_and_Theming_086c41c.md"
+							},
+							"Text Size and Fonts": {
+								"link": "Text_Size_and_Fonts_a3465c8.md"
+							},
+							"Recommendations": {
+								"link": "Recommendations_ee37fc7.md"
+							}
+						}
+					}
+				}
+			},
+			"Extending Apps": {
+				"link": "Extending_Apps_a264a9a.md",
+				"items": {
+					"Using Component Configuration": {
+						"link": "Using_Component_Configuration_c264d66.md",
+						"items": {
+							"Example: Component Configuration": {
+								"link": "Example_Component_Configuration_08608ef.md"
+							},
+							"Providing Hooks in the Standard Controller": {
+								"link": "Providing_Hooks_in_the_Standard_Controller_8fbf4e7.md"
+							},
+							"View Extension": {
+								"link": "View_Extension_403c050.md"
+							},
+							"View Modification": {
+								"link": "View_Modification_aa93e1c.md"
+							},
+							"View Replacement": {
+								"link": "View_Replacement_98861cf.md"
+							},
+							"Controller Replacement": {
+								"link": "Controller_Replacement_b0b14bf.md"
+							}
+						}
+					},
+					"Localized Texts for Extended Apps": {
+						"link": "Localized_Texts_for_Extended_Apps_2edc3f9.md"
+					},
+					"Caveats Regarding Stability Across Application Upgrades": {
+						"link": "Caveats_Regarding_Stability_Across_Application_Upgrades_aef3384.md"
+					},
+					"Supportability": {
+						"link": "Supportability_c44813d.md"
+					}
+				}
+			},
+			"Developing Controls": {
+				"link": "Developing_Controls_8dcab00.md",
+				"items": {
+					"Development Conventions and Guidelines": {
+						"link": "Development_Conventions_and_Guidelines_753b326.md",
+						"items": {
+							"JavaScript Coding Guidelines": {
+								"link": "JavaScript_Coding_Guidelines_eded636.md",
+								"items": {
+									"JavaScript Namespaces": {
+										"link": "JavaScript_Namespaces_5a978fe.md"
+									},
+									"Example for Defining a Class": {
+										"link": "Example_for_Defining_a_Class_f6fba4c.md"
+									}
+								}
+							},
+							"OpenUI5 Control Development Guidelines": {
+								"link": "OpenUI5_Control_Development_Guidelines_4549da6.md",
+								"items": {
+									"Control Development Guidelines: Theming/CSS": {
+										"link": "Control_Development_Guidelines_Theming_CSS_5e08ff9.md"
+									}
+								}
+							},
+							"Product Standards and Acceptance Criteria": {
+								"link": "Product_Standards_and_Acceptance_Criteria_bafc686.md",
+								"items": {
+									"Annotations in Translation Files": {
+										"link": "Annotations_in_Translation_Files_8310398.md"
+									}
+								}
+							},
+							"File Names and Encoding": {
+								"link": "File_Names_and_Encoding_104135d.md"
+							},
+							"Git Guidelines": {
+								"link": "Git_Guidelines_b2f5639.md"
+							},
+							"JSDoc Guidelines": {
+								"link": "JSDoc_Guidelines_eeaa5de.md",
+								"items": {
+									"JSDoc Visibility Tags": {
+										"link": "JSDoc_Visibility_Tags_b0d5fe2.md"
+									},
+									"Common Pitfalls in JSDoc": {
+										"link": "Common_Pitfalls_in_JSDoc_30671a0.md"
+									}
+								}
+							},
+							"Tools": {
+								"link": "Tools_41de83f.md",
+								"items": {
+									"ESLint Code Checks": {
+										"link": "ESLint_Code_Checks_1ba0e44.md"
+									},
+									"ESLint Configuration File": {
+										"link": "ESLint_Configuration_File_ccfe356.md"
+									}
+								}
+							}
+						}
+					},
+					"The library.js File": {
+						"link": "The_library_js_File_bd039ed.md"
+					},
+					"Creating Control and Class Modules": {
+						"link": "Creating_Control_and_Class_Modules_c78c07c.md"
+					},
+					"Defining the Control Metadata": {
+						"link": "Defining_the_Control_Metadata_7b52540.md",
+						"items": {
+							"Object Metadata and Implementation": {
+								"link": "Object_Metadata_and_Implementation_91f29fe.md"
+							},
+							"Defining Control Properties": {
+								"link": "Defining_Control_Properties_ac56d92.md"
+							}
+						}
+					},
+					"Adding Method Implementations": {
+						"link": "Adding_Method_Implementations_91f0a8d.md",
+						"items": {
+							"Normal Methods": {
+								"link": "Normal_Methods_85738e3.md"
+							},
+							"init\\(\\) Method": {
+								"link": "init_Method_6d6b5bd.md"
+							},
+							"exit\\(\\) Method": {
+								"link": "exit_Method_d4ac0ed.md"
+							},
+							"Event Handler Methods": {
+								"link": "Event_Handler_Methods_bdf3e98.md"
+							},
+							"Browser Events": {
+								"link": "Browser_Events_91f1b38.md"
+							},
+							"Mobile Events": {
+								"link": "Mobile_Events_9860cd2.md"
+							},
+							"Devices Supporting both Mouse and Touch Input": {
+								"link": "Devices_Supporting_both_Mouse_and_Touch_Input_1f9de72.md",
+								"items": {
+									"Adapting Event Handling for Devices Supporting both Mouse and Touch Input": {
+										"link": "Adapting_Event_Handling_for_Devices_Supporting_both_Mouse_and_Touch_Input_b54d7d7.md"
+									}
+								}
+							},
+							"Renderer Object": {
+								"link": "Renderer_Object_c9ab345.md"
+							}
+						}
+					},
+					"Device-specific Behavior of Controls": {
+						"link": "Device_specific_Behavior_of_Controls_a53ec81.md"
+					},
+					"Examples for Creating and Extending Controls": {
+						"link": "Examples_for_Creating_and_Extending_Controls_91f1845.md",
+						"items": {
+							"Creating a Simple Control": {
+								"link": "Creating_a_Simple_Control_91f02ec.md"
+							},
+							"Creating a Simple Square Control": {
+								"link": "Creating_a_Simple_Square_Control_9a6100b.md"
+							},
+							"Creating a Simple Container Control": {
+								"link": "Creating_a_Simple_Container_Control_39d2564.md"
+							},
+							"Extending Buttons with Additional Events": {
+								"link": "Extending_Buttons_with_Additional_Events_d5b756b.md"
+							},
+							"Extending Input Rendering": {
+								"link": "Extending_Input_Rendering_bcee26a.md"
+							}
+						}
+					},
+					"Writing a Control Renderer": {
+						"link": "Writing_a_Control_Renderer_91f3939.md",
+						"items": {
+							"Prevention of Cross-site Scripting": {
+								"link": "Prevention_of_Cross_site_Scripting_4de64e2.md"
+							}
+						}
+					},
+					"Implementing Animation Modes": {
+						"link": "Implementing_Animation_Modes_76b7d50.md"
+					},
+					"Implementing Focus Handling": {
+						"link": "Implementing_Focus_Handling_91f19f0.md"
+					},
+					"Item Navigation - Supporting Keyboard Handling in List-like Controls": {
+						"link": "Item_Navigation_Supporting_Keyboard_Handling_in_List_like_Controls_91f2032.md",
+						"items": {
+							"Integrating Item Navigation": {
+								"link": "Integrating_Item_Navigation_7e24524.md"
+							}
+						}
+					},
+					"Right-to-Left Support in Controls": {
+						"link": "Right_to_Left_Support_in_Controls_91f2c24.md",
+						"items": {
+							"Right-to-Left Support Guidelines for Control Development": {
+								"link": "Right_to_Left_Support_Guidelines_for_Control_Development_c69c61d.md"
+							},
+							"Programmatic Access to RTL": {
+								"link": "Programmatic_Access_to_RTL_8bb4723.md"
+							},
+							"Troubleshooting Common RTL Issues": {
+								"link": "Troubleshooting_Common_RTL_Issues_5007967.md"
+							}
+						}
+					},
+					"Defining Groups for Fast Navigation": {
+						"link": "Defining_Groups_for_Fast_Navigation_10b14c7.md"
+					},
+					"Composite Controls": {
+						"link": "Composite_Controls_d6bab27.md",
+						"items": {
+							"Standard Composite Controls": {
+								"link": "Standard_Composite_Controls_c1512f6.md"
+							},
+							"Aggregation Forwarding": {
+								"link": "Aggregation_Forwarding_64a5e17.md"
+							}
+						}
+					},
+					"Accessibility Aspects": {
+						"link": "Accessibility_Aspects_694b356.md",
+						"items": {
+							"Keyboard Handling for OpenUI5 Controls for Developers": {
+								"link": "Keyboard_Handling_for_OpenUI5_Controls_for_Developers_3e631ad.md",
+								"items": {
+									"Keyboard Handling for Basic Navigation": {
+										"link": "Keyboard_Handling_for_Basic_Navigation_b59f13d.md"
+									},
+									"Keyboard Handling for One-Dimensional Navigation": {
+										"link": "Keyboard_Handling_for_One_Dimensional_Navigation_a1f59aa.md"
+									},
+									"Keyboard Handling for Two-Dimensional Navigation": {
+										"link": "Keyboard_Handling_for_Two_Dimensional_Navigation_f1bd982.md"
+									},
+									"Keyboard Handling for Triggering Actions on Item Level": {
+										"link": "Keyboard_Handling_for_Triggering_Actions_on_Item_Level_81c68e4.md"
+									},
+									"Keyboard Handling for Item Selection": {
+										"link": "Keyboard_Handling_for_Item_Selection_8a0d4ef.md"
+									},
+									"Keyboard Handling for Value Help and Auto-Complete": {
+										"link": "Keyboard_Handling_for_Value_Help_and_Auto_Complete_182879f.md"
+									}
+								}
+							},
+							"Screen Reader Support for OpenUI5 Controls": {
+								"link": "Screen_Reader_Support_for_OpenUI5_Controls_3853db3.md",
+								"items": {
+									"ARIA Attribute Mapping": {
+										"link": "ARIA_Attribute_Mapping_3e9c010.md"
+									},
+									"Keyboard Usage of ARIA Role Mapped Controls": {
+										"link": "Keyboard_Usage_of_ARIA_Role_Mapped_Controls_e6cd547.md"
+									},
+									"ARIA Mapping for Tooltips and Textual Alternatives": {
+										"link": "ARIA_Mapping_for_Tooltips_and_Textual_Alternatives_f9e14b3.md"
+									},
+									"ARIA Event Handling": {
+										"link": "ARIA_Event_Handling_79a9c51.md"
+									},
+									"ARIA Labeling": {
+										"link": "ARIA_Labeling_f38c21c.md"
+									},
+									"Best Practices for ARIA Labeling": {
+										"link": "Best_Practices_for_ARIA_Labeling_3169195.md"
+									}
+								}
+							},
+							"Theming": {
+								"link": "Theming_37c3392.md"
+							}
+						}
+					},
+					"Writing a Control: FAQ": {
+						"link": "Writing_a_Control_FAQ_3f472df.md"
+					}
+				}
+			},
+			"More About Controls": {
+				"link": "More_About_Controls_3ec6808.md",
+				"items": {
+					"Busy Indicators": {
+						"link": "Busy_Indicators_0dd2110.md"
+					},
+					"Cards": {
+						"link": "Cards_5b46b03.md"
+					},
+					"Date and Time Related Controls: Data Binding": {
+						"link": "Date_and_Time_Related_Controls_Data_Binding_e1ddc69.md"
+					},
+					"Grid Controls": {
+						"link": "Grid_Controls_32d4b9c.md",
+						"items": {
+							"sap.f.GridContainer": {
+								"link": "sap_f_GridContainer_cca5ee5.md"
+							},
+							"sap.f.GridList": {
+								"link": "sap_f_GridList_2fc256b.md"
+							},
+							"sap.ui.layout.cssgrid.CSSGrid": {
+								"link": "sap_ui_layout_cssgrid_CSSGrid_d6fc40b.md"
+							},
+							"sap.ui.layout.Grid": {
+								"link": "sap_ui_layout_Grid_43ae317.md"
+							}
+						}
+					},
+					"Hyphenation for Text Controls": {
+						"link": "Hyphenation_for_Text_Controls_6322164.md"
+					},
+					"Semantic Pages": {
+						"link": "Semantic_Pages_84f3d52.md",
+						"items": {
+							"Semantic Page \\(sap.f\\)": {
+								"link": "Semantic_Page_sap_f_47dc868.md"
+							},
+							"Semantic Page \\(sap.m\\)": {
+								"link": "Semantic_Page_sap_m_4a97a07.md"
+							}
+						}
+					},
+					"Tables: Which One Should I Choose?": {
+						"link": "Tables_Which_One_Should_I_Choose_148892f.md"
+					},
+					"sap.f": {
+						"link": "sap_f_0b455b0.md",
+						"items": {
+							"Building an App with the Flexible Column Layout and Related Classes": {
+								"link": "Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md",
+								"items": {
+									"Flexible Column Layout": {
+										"link": "Flexible_Column_Layout_2abdefb.md",
+										"items": {
+											"Control Structure": {
+												"link": "Control_Structure_a254991.md"
+											},
+											"Types of Layout": {
+												"link": "Types_of_Layout_3b9f760.md"
+											},
+											"Layout Arrows": {
+												"link": "Layout_Arrows_24a9e0e.md"
+											},
+											"Reacting to Layout Changes": {
+												"link": "Reacting_to_Layout_Changes_de31215.md"
+											},
+											"Changing the Layout and Loading Views \\(Best Practices\\)": {
+												"link": "Changing_the_Layout_and_Loading_Views_Best_Practices_607a316.md"
+											}
+										}
+									},
+									"Flexible Column Layout Semantic Helper": {
+										"link": "Flexible_Column_Layout_Semantic_Helper_623b01e.md",
+										"items": {
+											"Main Methods": {
+												"link": "Main_Methods_933965b.md"
+											}
+										}
+									},
+									"Router": {
+										"link": "Router_c6da1a5.md"
+									}
+								}
+							}
+						}
+					},
+					"sap.m": {
+						"link": "sap_m_48d9390.md",
+						"items": {
+							"App and Nav Container": {
+								"link": "App_and_Nav_Container_a4afb13.md",
+								"items": {
+									"Events Fired Centrally by the App or the NavContainer": {
+										"link": "Events_Fired_Centrally_by_the_App_or_the_NavContainer_6ec0a7e.md"
+									},
+									"Events Fired on the Pages": {
+										"link": "Events_Fired_on_the_Pages_b6ab31c.md"
+									},
+									"Passing Data when Navigating": {
+										"link": "Passing_Data_when_Navigating_cddf7e5.md"
+									}
+								}
+							},
+							"Facet Filter": {
+								"link": "Facet_Filter_c6c3821.md",
+								"items": {
+									"Facet Filter: Simple Type": {
+										"link": "Facet_Filter_Simple_Type_1586c19.md"
+									},
+									"Facet Filter: Light Type": {
+										"link": "Facet_Filter_Light_Type_bb2aca0.md"
+									},
+									"Facet Filter List and Facet Filter Item": {
+										"link": "Facet_Filter_List_and_Facet_Filter_Item_395392f.md"
+									},
+									"Events for Facet Filters": {
+										"link": "Events_for_Facet_Filters_05c0ffc.md"
+									},
+									"Data Binding for Facet Filters": {
+										"link": "Data_Binding_for_Facet_Filters_e17beca.md"
+									},
+									"Filter Search": {
+										"link": "Filter_Search_559f60e.md"
+									},
+									"Facet Filter Selection": {
+										"link": "Facet_Filter_Selection_ef860fc.md"
+									},
+									"Dependent Facets": {
+										"link": "Dependent_Facets_e702774.md"
+									}
+								}
+							},
+							"Feed Input": {
+								"link": "Feed_Input_0ec25a1.md"
+							},
+							"Feed List Item": {
+								"link": "Feed_List_Item_14a9900.md"
+							},
+							"Flex Box": {
+								"link": "Flex_Box_674890e.md",
+								"items": {
+									"Getting Started With FlexBox": {
+										"link": "Getting_Started_With_FlexBox_988d2c7.md"
+									},
+									"Important FlexBox Layout Concepts": {
+										"link": "Important_FlexBox_Layout_Concepts_0ec1d91.md"
+									}
+								}
+							},
+							"Generic Tile": {
+								"link": "Generic_Tile_a1998ec.md"
+							},
+							"Image": {
+								"link": "Image_f86dbe9.md"
+							},
+							"List, List Item, and Table": {
+								"link": "List_List_Item_and_Table_295e44b.md",
+								"items": {
+									"Lists": {
+										"link": "Lists_1da1581.md",
+										"items": {
+											"Custom List Item": {
+												"link": "Custom_List_Item_3e426f1.md"
+											}
+										}
+									},
+									"Swipe for Action": {
+										"link": "Swipe_for_Action_a01822c.md",
+										"items": {
+											"Aggregation": {
+												"link": "Aggregation_d4e69ad.md"
+											},
+											"Events": {
+												"link": "Events_e498329.md"
+											},
+											"Methods": {
+												"link": "Methods_b72874d.md"
+											},
+											"Properties": {
+												"link": "Properties_37c52c9.md"
+											}
+										}
+									},
+									"Creating Tables": {
+										"link": "Creating_Tables_5eb6f63.md"
+									},
+									"Configuring Responsive Behavior of a Table": {
+										"link": "Configuring_Responsive_Behavior_of_a_Table_38855e0.md"
+									},
+									"Defining Column Width": {
+										"link": "Defining_Column_Width_6f778a8.md"
+									},
+									"Table Design": {
+										"link": "Table_Design_d3234bc.md"
+									},
+									"List and Table Events": {
+										"link": "List_and_Table_Events_35b8a94.md"
+									},
+									"Growing Feature for Table and List": {
+										"link": "Growing_Feature_for_Table_and_List_9164ba7.md"
+									},
+									"Grouping in a Table": {
+										"link": "Grouping_in_a_Table_4c98cf1.md"
+									},
+									"Table Personalization": {
+										"link": "Table_Personalization_1c60212.md"
+									},
+									"Performance of Lists and Tables": {
+										"link": "Performance_of_Lists_and_Tables_f6a1a0a.md"
+									}
+								}
+							},
+							"Message Handling": {
+								"link": "Message_Handling_f5df293.md"
+							},
+							"Message Popover": {
+								"link": "Message_Popover_52824a6.md"
+							},
+							"PDF Viewer": {
+								"link": "PDF_Viewer_cd80a8b.md"
+							},
+							"Personalization": {
+								"link": "Personalization_a3c3c5e.md"
+							},
+							"Scrolling": {
+								"link": "Scrolling_66029f6.md",
+								"items": {
+									"Scrolling: Implementation Details": {
+										"link": "Scrolling_Implementation_Details_f5f6a47.md"
+									},
+									"Scrolling: Pull to Refresh": {
+										"link": "Scrolling_Pull_to_Refresh_fde4015.md"
+									}
+								}
+							},
+							"Sliders": {
+								"link": "Sliders_84ec82e.md"
+							},
+							"Split App": {
+								"link": "Split_App_eedfe79.md"
+							},
+							"Team Calendar": {
+								"link": "Team_Calendar_acae0f2.md"
+							},
+							"Text": {
+								"link": "Text_f94deb4.md"
+							},
+							"Upload Collection \\(Deprecated\\)": {
+								"link": "Upload_Collection_Deprecated_124ee13.md"
+							},
+							"URL Helper": {
+								"link": "URL_Helper_4f1c107.md",
+								"items": {
+									"Examples for Triggering Telephone, Text and E-Mail Applications": {
+										"link": "Examples_for_Triggering_Telephone_Text_and_E_Mail_Applications_021ac23.md"
+									}
+								}
+							}
+						}
+					},
+					"sap.tnt": {
+						"link": "sap_tnt_d8374d5.md"
+					},
+					"sap.ui.codeeditor": {
+						"link": "sap_ui_codeeditor_2832a13.md",
+						"items": {
+							"Code Editor": {
+								"link": "Code_Editor_cc467b9.md"
+							}
+						}
+					},
+					"sap.ui.core": {
+						"link": "sap_ui_core_72227f8.md",
+						"items": {
+							"Icon and Icon Pool": {
+								"link": "Icon_and_Icon_Pool_21ea0ea.md"
+							}
+						}
+					},
+					"sap.ui.table": {
+						"link": "sap_ui_table_08197fa.md"
+					},
+					"sap.uxap": {
+						"link": "sap_uxap_de71337.md",
+						"items": {
+							"Object Page Layout": {
+								"link": "Object_Page_Layout_2e61ab6.md"
+							},
+							"Object Page Headers": {
+								"link": "Object_Page_Headers_d2ef009.md",
+								"items": {
+									"Object Page Classic Header": {
+										"link": "Object_Page_Classic_Header_0fecbce.md"
+									},
+									"Object Page Dynamic Header": {
+										"link": "Object_Page_Dynamic_Header_6e340c1.md"
+									},
+									"Object Page Headers Comparison": {
+										"link": "Object_Page_Headers_Comparison_9c9d94f.md"
+									}
+								}
+							},
+							"Anchor Bar": {
+								"link": "Anchor_Bar_370b679.md"
+							},
+							"Object Page Blocks": {
+								"link": "Object_Page_Blocks_4527729.md"
+							},
+							"Creating Blocks": {
+								"link": "Creating_Blocks_2978f60.md"
+							},
+							"Object Page Scrolling": {
+								"link": "Object_Page_Scrolling_bc410e9.md"
+							}
+						}
+					}
+				}
+			},
+			"Glossary": {
+				"link": "Glossary_9ef211e.md"
+			}
+		}
 	}
 }
