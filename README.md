@@ -28,7 +28,7 @@ This repository contains the official OpenUI5 documentation from the OpenUI5 Dem
 
 3. You can make suggestions and improve the content. Please check our [contribution guidelines](CONTRIBUTING.md).
 
-4. Our documentation team will review your contributions. Accepted changes will be visible in the [OpenUI5 Nightly Demo Kit](https://openui5nightly.hana.ondemand.com/#/topic) shortly after we have implemented them. With the next OpenUI5 release, these changes will also become part of the official [OpenUI5 documentation in the Demo Kit](https://sdk.openui5.org/topic).
+4. Our documentation team will review your contributions. Accepted changes will be visible in the [OpenUI5 Nightly Demo Kit](https://sdk.openui5.org/nightly/#/topic) shortly after we have implemented them. With the next OpenUI5 release, these changes will also become part of the official [OpenUI5 documentation in the Demo Kit](https://sdk.openui5.org/topic).
 
 ## Contributions Welcome!
 
