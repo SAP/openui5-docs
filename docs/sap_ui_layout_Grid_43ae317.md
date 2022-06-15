@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://sdk.openui5.org/topic/43ae317cf39640a88bc8be979d2671df)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/43ae317cf39640a88bc8be979d2671df) | [demo kit latest release](https://sdk.openui5.org/topic/43ae317cf39640a88bc8be979d2671df)</div>
 
 ## sap.ui.layout.Grid
 

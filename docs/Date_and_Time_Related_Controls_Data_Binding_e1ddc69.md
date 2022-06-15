@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://sdk.openui5.org/topic/e1ddc69c01474faf830a522db8c9238a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e1ddc69c01474faf830a522db8c9238a) | [demo kit latest release](https://sdk.openui5.org/topic/e1ddc69c01474faf830a522db8c9238a)</div>
 
 ## Date and Time Related Controls: Data Binding
 

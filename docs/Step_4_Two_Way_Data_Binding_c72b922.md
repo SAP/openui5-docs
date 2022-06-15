@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c72b922fdb59422496661000165d7ff1) | [demo kit latest release](https://sdk.openui5.org/topic/c72b922fdb59422496661000165d7ff1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c72b922fdb59422496661000165d7ff1) | [demo kit latest release](https://sdk.openui5.org/topic/c72b922fdb59422496661000165d7ff1)</div>
 
 ## Step 4: Two-Way Data Binding
 

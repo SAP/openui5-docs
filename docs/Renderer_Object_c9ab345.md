@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://sdk.openui5.org/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f) | [demo kit latest release](https://sdk.openui5.org/topic/c9ab34570cc14ea5ab72a6d1a4a03e3f)</div>
 
 ## Renderer Object
 

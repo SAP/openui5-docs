@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://sdk.openui5.org/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2da220ff496c4b0f9ce29208cbd089f3) | [demo kit latest release](https://sdk.openui5.org/topic/2da220ff496c4b0f9ce29208cbd089f3)</div>
 
 ## Step 5: Adding Actions to the Worklist
 

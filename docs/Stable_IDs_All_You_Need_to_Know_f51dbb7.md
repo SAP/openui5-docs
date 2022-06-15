@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://sdk.openui5.org/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f51dbb78e7d5448e838cdc04bdf65403) | [demo kit latest release](https://sdk.openui5.org/topic/f51dbb78e7d5448e838cdc04bdf65403)</div>
 
 ## Stable IDs: All You Need to Know
 

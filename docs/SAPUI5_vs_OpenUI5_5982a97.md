@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://sdk.openui5.org/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5982a9734748474aa8d4af9c3d8f31c0) | [demo kit latest release](https://sdk.openui5.org/topic/5982a9734748474aa8d4af9c3d8f31c0)</div>
 
 ## SAPUI5 vs. OpenUI5
 

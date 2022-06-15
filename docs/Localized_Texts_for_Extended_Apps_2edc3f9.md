@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2edc3f99883e4a068f040d9e844f14fa) | [demo kit latest release](https://sdk.openui5.org/topic/2edc3f99883e4a068f040d9e844f14fa)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2edc3f99883e4a068f040d9e844f14fa) | [demo kit latest release](https://sdk.openui5.org/topic/2edc3f99883e4a068f040d9e844f14fa)</div>
 
 ## Localized Texts for Extended Apps
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://sdk.openui5.org/topic/59b772bfac5241b89c16b12395c1116c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/59b772bfac5241b89c16b12395c1116c) | [demo kit latest release](https://sdk.openui5.org/topic/59b772bfac5241b89c16b12395c1116c)</div>
 
 ## Step 1: Setting Up the Initial App
 

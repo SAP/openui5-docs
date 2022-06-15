@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/79a9c51057864e7abc3faf0e7c3073c6) | [demo kit latest release](https://sdk.openui5.org/topic/79a9c51057864e7abc3faf0e7c3073c6)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/79a9c51057864e7abc3faf0e7c3073c6) | [demo kit latest release](https://sdk.openui5.org/topic/79a9c51057864e7abc3faf0e7c3073c6)</div>
 
 ## ARIA Event Handling
 

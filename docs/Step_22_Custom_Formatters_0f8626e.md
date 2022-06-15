@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0f8626ed7b7542ffaa44601828db20de) | [demo kit latest release](https://sdk.openui5.org/topic/0f8626ed7b7542ffaa44601828db20de)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0f8626ed7b7542ffaa44601828db20de) | [demo kit latest release](https://sdk.openui5.org/topic/0f8626ed7b7542ffaa44601828db20de)</div>
 
 ## Step 22: Custom Formatters
 

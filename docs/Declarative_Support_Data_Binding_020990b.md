@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/020990b1210e47c89a58a4f4e790c476) | [demo kit latest release](https://sdk.openui5.org/topic/020990b1210e47c89a58a4f4e790c476)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/020990b1210e47c89a58a4f4e790c476) | [demo kit latest release](https://sdk.openui5.org/topic/020990b1210e47c89a58a4f4e790c476)</div>
 
 ## Declarative Support: Data Binding
 

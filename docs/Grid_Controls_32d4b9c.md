@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://sdk.openui5.org/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/32d4b9c2b981425dbc374d3e9d5d0c2e) | [demo kit latest release](https://sdk.openui5.org/topic/32d4b9c2b981425dbc374d3e9d5d0c2e)</div>
 
 ## Grid Controls
 

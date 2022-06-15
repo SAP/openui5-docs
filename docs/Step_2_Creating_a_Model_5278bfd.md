@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://sdk.openui5.org/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5278bfd38f3940b192df0e39f2fb33b3) | [demo kit latest release](https://sdk.openui5.org/topic/5278bfd38f3940b192df0e39f2fb33b3)</div>
 
 ## Step 2: Creating a Model
 

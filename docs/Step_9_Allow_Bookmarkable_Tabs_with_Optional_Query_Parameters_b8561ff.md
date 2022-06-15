@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://sdk.openui5.org/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b8561ff6f4c34c85a91ed06d20814cd3) | [demo kit latest release](https://sdk.openui5.org/topic/b8561ff6f4c34c85a91ed06d20814cd3)</div>
 
 ## Step 9: Allow Bookmarkable Tabs with Optional Query Parameters
 

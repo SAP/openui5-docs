@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9252ee4015f24fc49c71c295394d1b8d) | [demo kit latest release](https://sdk.openui5.org/topic/9252ee4015f24fc49c71c295394d1b8d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9252ee4015f24fc49c71c295394d1b8d) | [demo kit latest release](https://sdk.openui5.org/topic/9252ee4015f24fc49c71c295394d1b8d)</div>
 
 ## Step 10: Property Formatting Using Data Types
 

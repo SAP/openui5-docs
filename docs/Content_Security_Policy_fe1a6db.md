@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fe1a6dba940e479fb7c3bc753f92b28c) | [demo kit latest release](https://sdk.openui5.org/topic/fe1a6dba940e479fb7c3bc753f92b28c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fe1a6dba940e479fb7c3bc753f92b28c) | [demo kit latest release](https://sdk.openui5.org/topic/fe1a6dba940e479fb7c3bc753f92b28c)</div>
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 

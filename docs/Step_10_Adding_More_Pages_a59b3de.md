@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a59b3de038874f879cf20bfc3287bd7c) | [demo kit latest release](https://sdk.openui5.org/topic/a59b3de038874f879cf20bfc3287bd7c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a59b3de038874f879cf20bfc3287bd7c) | [demo kit latest release](https://sdk.openui5.org/topic/a59b3de038874f879cf20bfc3287bd7c)</div>
 
 ## Step 10: Adding More Pages
 

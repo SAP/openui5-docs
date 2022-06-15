@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69a25bf2f8a2478cbda4b8bbe64039de) | [demo kit latest release](https://sdk.openui5.org/topic/69a25bf2f8a2478cbda4b8bbe64039de)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/69a25bf2f8a2478cbda4b8bbe64039de) | [demo kit latest release](https://sdk.openui5.org/topic/69a25bf2f8a2478cbda4b8bbe64039de)</div>
 
 ## Step 5: Adding a *Flag* Button
 

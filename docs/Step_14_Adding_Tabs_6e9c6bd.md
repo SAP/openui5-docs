@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://sdk.openui5.org/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6e9c6bd2054c4425b7f15cac31aa675c) | [demo kit latest release](https://sdk.openui5.org/topic/6e9c6bd2054c4425b7f15cac31aa675c)</div>
 
 ## Step 14: Adding Tabs
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://sdk.openui5.org/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676) | [demo kit latest release](https://sdk.openui5.org/topic/a5bb7a6d736f41c8ac1c1ef0b2d40676)</div>
 
 ## Step 4: Testing a New Module
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/723f4b2334e344c08269159797f6f796) | [demo kit latest release](https://sdk.openui5.org/topic/723f4b2334e344c08269159797f6f796)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/723f4b2334e344c08269159797f6f796) | [demo kit latest release](https://sdk.openui5.org/topic/723f4b2334e344c08269159797f6f796)</div>
 
 ## Step 14: Custom CSS and Theme Colors
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/40986e6343c944279cafbbc6ac07c83d) | [demo kit latest release](https://sdk.openui5.org/topic/40986e6343c944279cafbbc6ac07c83d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/40986e6343c944279cafbbc6ac07c83d) | [demo kit latest release](https://sdk.openui5.org/topic/40986e6343c944279cafbbc6ac07c83d)</div>
 
 ## Draft Handling with the OData V4 Model
 

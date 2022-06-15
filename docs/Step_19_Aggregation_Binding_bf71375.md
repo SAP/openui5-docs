@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bf71375454654b44af01379a3c3a6273) | [demo kit latest release](https://sdk.openui5.org/topic/bf71375454654b44af01379a3c3a6273)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bf71375454654b44af01379a3c3a6273) | [demo kit latest release](https://sdk.openui5.org/topic/bf71375454654b44af01379a3c3a6273)</div>
 
 ## Step 19: Aggregation Binding
 

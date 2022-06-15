@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/dfe04650afc046e0802abb1a1a90d2d9) | [demo kit latest release](https://sdk.openui5.org/topic/dfe04650afc046e0802abb1a1a90d2d9)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dfe04650afc046e0802abb1a1a90d2d9) | [demo kit latest release](https://sdk.openui5.org/topic/dfe04650afc046e0802abb1a1a90d2d9)</div>
 
 ## Step 20: Data Types
 

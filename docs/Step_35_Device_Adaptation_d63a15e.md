@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d63a15e5eebb45cdada317bae5f45bc2) | [demo kit latest release](https://sdk.openui5.org/topic/d63a15e5eebb45cdada317bae5f45bc2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d63a15e5eebb45cdada317bae5f45bc2) | [demo kit latest release](https://sdk.openui5.org/topic/d63a15e5eebb45cdada317bae5f45bc2)</div>
 
 ## Step 35: Device Adaptation
 

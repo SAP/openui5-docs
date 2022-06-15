@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a04b0d10fb494d1cb722b9e341b584ba) | [demo kit latest release](https://sdk.openui5.org/topic/a04b0d10fb494d1cb722b9e341b584ba)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a04b0d10fb494d1cb722b9e341b584ba) | [demo kit latest release](https://sdk.openui5.org/topic/a04b0d10fb494d1cb722b9e341b584ba)</div>
 
 ## Bootstrapping: Loading and Initializing
 

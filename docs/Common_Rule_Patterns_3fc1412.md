@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3fc141206cee4ab2aa514b569ed423c0) | [demo kit latest release](https://sdk.openui5.org/topic/3fc141206cee4ab2aa514b569ed423c0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3fc141206cee4ab2aa514b569ed423c0) | [demo kit latest release](https://sdk.openui5.org/topic/3fc141206cee4ab2aa514b569ed423c0)</div>
 
 ## Common Rule Patterns
 

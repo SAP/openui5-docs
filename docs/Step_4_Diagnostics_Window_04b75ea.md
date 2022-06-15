@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://sdk.openui5.org/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/04b75eae78ef4bae9b40cd7540ae8bdc) | [demo kit latest release](https://sdk.openui5.org/topic/04b75eae78ef4bae9b40cd7540ae8bdc)</div>
 
 ## Step 4: Diagnostics Window
 

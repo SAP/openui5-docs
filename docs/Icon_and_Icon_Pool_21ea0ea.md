@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://sdk.openui5.org/topic/21ea0ea94614480d9a910b2e93431291)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/21ea0ea94614480d9a910b2e93431291) | [demo kit latest release](https://sdk.openui5.org/topic/21ea0ea94614480d9a910b2e93431291)</div>
 
 ## Icon and Icon Pool
 

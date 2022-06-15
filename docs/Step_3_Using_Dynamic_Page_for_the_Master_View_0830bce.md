@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://sdk.openui5.org/topic/0830bce271bf42d98c2740bed43d435d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0830bce271bf42d98c2740bed43d435d) | [demo kit latest release](https://sdk.openui5.org/topic/0830bce271bf42d98c2740bed43d435d)</div>
 
 ## Step 3: Using Dynamic Page for the Master View
 

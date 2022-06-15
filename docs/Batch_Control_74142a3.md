@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://sdk.openui5.org/topic/74142a38e3d4467c8d6a70b28764048f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/74142a38e3d4467c8d6a70b28764048f) | [demo kit latest release](https://sdk.openui5.org/topic/74142a38e3d4467c8d6a70b28764048f)</div>
 
 ## Batch Control
 

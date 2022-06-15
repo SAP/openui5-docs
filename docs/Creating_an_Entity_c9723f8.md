@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c9723f8265f644af91c0ed941e114d46) | [demo kit latest release](https://sdk.openui5.org/topic/c9723f8265f644af91c0ed941e114d46)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c9723f8265f644af91c0ed941e114d46) | [demo kit latest release](https://sdk.openui5.org/topic/c9723f8265f644af91c0ed941e114d46)</div>
 
 ## Creating an Entity
 

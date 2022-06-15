@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/50079678e0cc4c8298f764580fc223d3) | [demo kit latest release](https://sdk.openui5.org/topic/50079678e0cc4c8298f764580fc223d3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/50079678e0cc4c8298f764580fc223d3) | [demo kit latest release](https://sdk.openui5.org/topic/50079678e0cc4c8298f764580fc223d3)</div>
 
 ## Troubleshooting Common RTL Issues
 

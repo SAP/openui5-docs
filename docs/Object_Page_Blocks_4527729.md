@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://sdk.openui5.org/topic/4527729576cb4a4888275b6935aad03a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4527729576cb4a4888275b6935aad03a) | [demo kit latest release](https://sdk.openui5.org/topic/4527729576cb4a4888275b6935aad03a)</div>
 
 ## Object Page Blocks
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3e5f6f3e163f46ecaef376950258e5e4) | [demo kit latest release](https://sdk.openui5.org/topic/3e5f6f3e163f46ecaef376950258e5e4)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3e5f6f3e163f46ecaef376950258e5e4) | [demo kit latest release](https://sdk.openui5.org/topic/3e5f6f3e163f46ecaef376950258e5e4)</div>
 
 ## Step 8: Navigate with Flip Transition
 

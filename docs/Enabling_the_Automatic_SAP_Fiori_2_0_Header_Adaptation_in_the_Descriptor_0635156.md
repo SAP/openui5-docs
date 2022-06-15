@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0635156f3950494885ca314a13e15e29) | [demo kit latest release](https://sdk.openui5.org/topic/0635156f3950494885ca314a13e15e29)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0635156f3950494885ca314a13e15e29) | [demo kit latest release](https://sdk.openui5.org/topic/0635156f3950494885ca314a13e15e29)</div>
 
 ## Enabling the Automatic SAP Fiori 2.0 Header Adaptation in the Descriptor
 

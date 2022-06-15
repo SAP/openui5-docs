@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2832a13753f24c9b89a6d5cf6de32d91) | [demo kit latest release](https://sdk.openui5.org/topic/2832a13753f24c9b89a6d5cf6de32d91)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2832a13753f24c9b89a6d5cf6de32d91) | [demo kit latest release](https://sdk.openui5.org/topic/2832a13753f24c9b89a6d5cf6de32d91)</div>
 
 ## sap.ui.codeeditor
 

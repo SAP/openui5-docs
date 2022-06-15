@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://sdk.openui5.org/topic/0c270b45dd904429ba634656e3a37a73)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0c270b45dd904429ba634656e3a37a73) | [demo kit latest release](https://sdk.openui5.org/topic/0c270b45dd904429ba634656e3a37a73)</div>
 
 ## Step 12: Adding a Search
 

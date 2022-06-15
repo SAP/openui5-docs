@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://sdk.openui5.org/topic/78880c09a1954a02b49c21357d45c91f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/78880c09a1954a02b49c21357d45c91f) | [demo kit latest release](https://sdk.openui5.org/topic/78880c09a1954a02b49c21357d45c91f)</div>
 
 ## Performance Measurement Using sap/ui/performance/Measurement Module
 

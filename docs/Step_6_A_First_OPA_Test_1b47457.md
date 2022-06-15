@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://sdk.openui5.org/topic/1b47457cbe4941ee926317d827517acb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1b47457cbe4941ee926317d827517acb) | [demo kit latest release](https://sdk.openui5.org/topic/1b47457cbe4941ee926317d827517acb)</div>
 
 ## Step 6: A First OPA Test
 

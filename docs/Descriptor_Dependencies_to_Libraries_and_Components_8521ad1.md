@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://sdk.openui5.org/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8521ad1955f340f9a6207d615c88d7fd) | [demo kit latest release](https://sdk.openui5.org/topic/8521ad1955f340f9a6207d615c88d7fd)</div>
 
 ## Descriptor Dependencies to Libraries and Components
 

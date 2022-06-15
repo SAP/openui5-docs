@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b8fdf0c903424c9191f142842323ae22) | [demo kit latest release](https://sdk.openui5.org/topic/b8fdf0c903424c9191f142842323ae22)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b8fdf0c903424c9191f142842323ae22) | [demo kit latest release](https://sdk.openui5.org/topic/b8fdf0c903424c9191f142842323ae22)</div>
 
 ## Adapting to the Modularization of the Core
 

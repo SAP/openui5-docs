@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://sdk.openui5.org/topic/777168ffe8324873973151dae2356d1c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/777168ffe8324873973151dae2356d1c) | [demo kit latest release](https://sdk.openui5.org/topic/777168ffe8324873973151dae2356d1c)</div>
 
 ## Using Predefined CSS Margin Classes
 

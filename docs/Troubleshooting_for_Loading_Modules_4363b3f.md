@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://sdk.openui5.org/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4363b3fe3561414ca1b030afc8cd30ce) | [demo kit latest release](https://sdk.openui5.org/topic/4363b3fe3561414ca1b030afc8cd30ce)</div>
 
 ## Troubleshooting for Loading Modules
 

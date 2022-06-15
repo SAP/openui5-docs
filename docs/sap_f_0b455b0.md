@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0b455b056fcb4b2aa37085731046c1fc) | [demo kit latest release](https://sdk.openui5.org/topic/0b455b056fcb4b2aa37085731046c1fc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0b455b056fcb4b2aa37085731046c1fc) | [demo kit latest release](https://sdk.openui5.org/topic/0b455b056fcb4b2aa37085731046c1fc)</div>
 
 ## sap.f
 

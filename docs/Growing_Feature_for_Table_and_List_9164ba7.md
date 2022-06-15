@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://sdk.openui5.org/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9164ba7047b74a25a19baf9c5bb986ae) | [demo kit latest release](https://sdk.openui5.org/topic/9164ba7047b74a25a19baf9c5bb986ae)</div>
 
 ## Growing Feature for Table and List
 

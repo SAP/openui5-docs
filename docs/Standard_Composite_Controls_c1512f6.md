@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c1512f6ce1454ff1913e3857bad56392) | [demo kit latest release](https://sdk.openui5.org/topic/c1512f6ce1454ff1913e3857bad56392)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c1512f6ce1454ff1913e3857bad56392) | [demo kit latest release](https://sdk.openui5.org/topic/c1512f6ce1454ff1913e3857bad56392)</div>
 
 ## Standard Composite Controls
 

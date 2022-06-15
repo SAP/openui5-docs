@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://sdk.openui5.org/topic/84ec82e7498345ccbfcd754d4578313b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/84ec82e7498345ccbfcd754d4578313b) | [demo kit latest release](https://sdk.openui5.org/topic/84ec82e7498345ccbfcd754d4578313b)</div>
 
 ## Sliders
 

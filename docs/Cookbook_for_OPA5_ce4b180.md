@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://sdk.openui5.org/topic/ce4b180d97064ad088a901b53ed48b21)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ce4b180d97064ad088a901b53ed48b21) | [demo kit latest release](https://sdk.openui5.org/topic/ce4b180d97064ad088a901b53ed48b21)</div>
 
 ## Cookbook for OPA5
 

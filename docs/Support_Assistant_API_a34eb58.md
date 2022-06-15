@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a34eb58aaf124f538a3ead23a6cab04a) | [demo kit latest release](https://sdk.openui5.org/topic/a34eb58aaf124f538a3ead23a6cab04a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a34eb58aaf124f538a3ead23a6cab04a) | [demo kit latest release](https://sdk.openui5.org/topic/a34eb58aaf124f538a3ead23a6cab04a)</div>
 
 ## Support Assistant API
 

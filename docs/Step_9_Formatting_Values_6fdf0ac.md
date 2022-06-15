@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6fdf0acd0bc24ffdad327cf7e6f9e7e0) | [demo kit latest release](https://sdk.openui5.org/topic/6fdf0acd0bc24ffdad327cf7e6f9e7e0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6fdf0acd0bc24ffdad327cf7e6f9e7e0) | [demo kit latest release](https://sdk.openui5.org/topic/6fdf0acd0bc24ffdad327cf7e6f9e7e0)</div>
 
 ## Step 9: Formatting Values
 

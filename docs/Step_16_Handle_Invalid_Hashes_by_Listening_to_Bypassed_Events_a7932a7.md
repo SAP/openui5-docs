@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://sdk.openui5.org/topic/a7932a791adc4a58ae4693400801ea5f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a7932a791adc4a58ae4693400801ea5f) | [demo kit latest release](https://sdk.openui5.org/topic/a7932a791adc4a58ae4693400801ea5f)</div>
 
 ## Step 16: Handle Invalid Hashes by Listening to Bypassed Events
 

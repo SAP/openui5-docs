@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://sdk.openui5.org/topic/a96fbe44ae6544589a096041f99d38c2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a96fbe44ae6544589a096041f99d38c2) | [demo kit latest release](https://sdk.openui5.org/topic/a96fbe44ae6544589a096041f99d38c2)</div>
 
 ## Step 12: Starting with Two Columns
 

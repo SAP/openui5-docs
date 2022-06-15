@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/19cc773a60d944c8bb588056f665de04) | [demo kit latest release](https://sdk.openui5.org/topic/19cc773a60d944c8bb588056f665de04)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/19cc773a60d944c8bb588056f665de04) | [demo kit latest release](https://sdk.openui5.org/topic/19cc773a60d944c8bb588056f665de04)</div>
 
 ## Step 11: Add Table with :n Navigation to Detail Area
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c78c07c094e04ccfaab659378a1707c7) | [demo kit latest release](https://sdk.openui5.org/topic/c78c07c094e04ccfaab659378a1707c7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c78c07c094e04ccfaab659378a1707c7) | [demo kit latest release](https://sdk.openui5.org/topic/c78c07c094e04ccfaab659378a1707c7)</div>
 
 ## Creating Control and Class Modules
 

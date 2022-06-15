@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/abd4d7c7548d4c29ab8364d3904a6d74) | [demo kit latest release](https://sdk.openui5.org/topic/abd4d7c7548d4c29ab8364d3904a6d74)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/abd4d7c7548d4c29ab8364d3904a6d74) | [demo kit latest release](https://sdk.openui5.org/topic/abd4d7c7548d4c29ab8364d3904a6d74)</div>
 
 ## Changes Compared to OData V2 Model
 

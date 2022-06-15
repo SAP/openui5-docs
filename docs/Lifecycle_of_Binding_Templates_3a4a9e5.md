@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3a4a9e562988456c9be0ef883ae7da50) | [demo kit latest release](https://sdk.openui5.org/topic/3a4a9e562988456c9be0ef883ae7da50)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3a4a9e562988456c9be0ef883ae7da50) | [demo kit latest release](https://sdk.openui5.org/topic/3a4a9e562988456c9be0ef883ae7da50)</div>
 
 ## Lifecycle of Binding Templates
 

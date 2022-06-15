@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://sdk.openui5.org/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/491bd9c70b9f4c4d913c8c7b4a970833) | [demo kit latest release](https://sdk.openui5.org/topic/491bd9c70b9f4c4d913c8c7b4a970833)</div>
 
 ## Legacy Factories Replacement
 

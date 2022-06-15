@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e17becae8bf446ac92f169b726373f0a) | [demo kit latest release](https://sdk.openui5.org/topic/e17becae8bf446ac92f169b726373f0a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e17becae8bf446ac92f169b726373f0a) | [demo kit latest release](https://sdk.openui5.org/topic/e17becae8bf446ac92f169b726373f0a)</div>
 
 ## Data Binding for Facet Filters
 

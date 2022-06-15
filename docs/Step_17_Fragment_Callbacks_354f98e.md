@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://sdk.openui5.org/topic/354f98ed2b514ba9960556333428d35e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/354f98ed2b514ba9960556333428d35e) | [demo kit latest release](https://sdk.openui5.org/topic/354f98ed2b514ba9960556333428d35e)</div>
 
 ## Step 17: Fragment Callbacks
 

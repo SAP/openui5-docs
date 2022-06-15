@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/104135dda5524696ba641001f54c3a95) | [demo kit latest release](https://sdk.openui5.org/topic/104135dda5524696ba641001f54c3a95)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/104135dda5524696ba641001f54c3a95) | [demo kit latest release](https://sdk.openui5.org/topic/104135dda5524696ba641001f54c3a95)</div>
 
 ## File Names and Encoding
 

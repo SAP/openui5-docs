@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e1ce1de315994a02bf162f4b3b5a9f09) | [demo kit latest release](https://sdk.openui5.org/topic/e1ce1de315994a02bf162f4b3b5a9f09)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e1ce1de315994a02bf162f4b3b5a9f09) | [demo kit latest release](https://sdk.openui5.org/topic/e1ce1de315994a02bf162f4b3b5a9f09)</div>
 
 ## Step 27: Unit Test with QUnit
 

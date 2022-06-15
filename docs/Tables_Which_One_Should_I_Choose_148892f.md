@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://sdk.openui5.org/topic/148892ff9aea4a18b912829791e38f3e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/148892ff9aea4a18b912829791e38f3e) | [demo kit latest release](https://sdk.openui5.org/topic/148892ff9aea4a18b912829791e38f3e)</div>
 
 ## Tables: Which One Should I Choose?
 

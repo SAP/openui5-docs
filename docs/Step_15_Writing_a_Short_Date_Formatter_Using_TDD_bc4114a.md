@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://sdk.openui5.org/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bc4114a88e4d4ac1a0f53b2a7a92b226) | [demo kit latest release](https://sdk.openui5.org/topic/bc4114a88e4d4ac1a0f53b2a7a92b226)</div>
 
 ## Step 15: Writing a Short Date Formatter Using TDD
 

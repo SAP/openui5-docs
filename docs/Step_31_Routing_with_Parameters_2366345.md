@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2366345a94f64ec1a80f9d9ce50a59ef) | [demo kit latest release](https://sdk.openui5.org/topic/2366345a94f64ec1a80f9d9ce50a59ef)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2366345a94f64ec1a80f9d9ce50a59ef) | [demo kit latest release](https://sdk.openui5.org/topic/2366345a94f64ec1a80f9d9ce50a59ef)</div>
 
 ## Step 31: Routing with Parameters
 

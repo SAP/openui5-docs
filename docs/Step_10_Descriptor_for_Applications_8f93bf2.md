@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://sdk.openui5.org/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8f93bf2b2b13402e9f035128ce8b495f) | [demo kit latest release](https://sdk.openui5.org/topic/8f93bf2b2b13402e9f035128ce8b495f)</div>
 
 ## Step 10: Descriptor for Applications
 

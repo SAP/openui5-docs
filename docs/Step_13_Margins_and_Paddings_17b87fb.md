@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://sdk.openui5.org/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/17b87fbafb5a4474982760d2a3a73e69) | [demo kit latest release](https://sdk.openui5.org/topic/17b87fbafb5a4474982760d2a3a73e69)</div>
 
 ## Step 13: Margins and Paddings
 

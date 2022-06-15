@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/91f17d636f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f17d636f4d1014b6dd926db0e91070)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f17d636f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f17d636f4d1014b6dd926db0e91070)</div>
 
 ## Enabling Declarative Support
 

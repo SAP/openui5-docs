@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://sdk.openui5.org/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5eb6f63e0cc547d0bdc934d3652fdc9b) | [demo kit latest release](https://sdk.openui5.org/topic/5eb6f63e0cc547d0bdc934d3652fdc9b)</div>
 
 ## Creating Tables
 

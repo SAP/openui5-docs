@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://sdk.openui5.org/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/46c1ca4eb2804af6bfa371ad51c9b887) | [demo kit latest release](https://sdk.openui5.org/topic/46c1ca4eb2804af6bfa371ad51c9b887)</div>
 
 ## Step 3: Handling Custom URL Parameters
 

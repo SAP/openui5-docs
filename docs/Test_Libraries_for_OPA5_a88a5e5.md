@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://sdk.openui5.org/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a88a5e5529e54b3aa703a0b2a36cf7be) | [demo kit latest release](https://sdk.openui5.org/topic/a88a5e5529e54b3aa703a0b2a36cf7be)</div>
 
 ## Test Libraries for OPA5
 

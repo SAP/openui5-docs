@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3e9c0104db864fbabc9fc786cbdf76a4) | [demo kit latest release](https://sdk.openui5.org/topic/3e9c0104db864fbabc9fc786cbdf76a4)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3e9c0104db864fbabc9fc786cbdf76a4) | [demo kit latest release](https://sdk.openui5.org/topic/3e9c0104db864fbabc9fc786cbdf76a4)</div>
 
 ## ARIA Attribute Mapping
 

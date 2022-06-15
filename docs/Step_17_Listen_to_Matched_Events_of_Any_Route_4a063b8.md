@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4a063b8250f24d0cbf7c689821df7199) | [demo kit latest release](https://sdk.openui5.org/topic/4a063b8250f24d0cbf7c689821df7199)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4a063b8250f24d0cbf7c689821df7199) | [demo kit latest release](https://sdk.openui5.org/topic/4a063b8250f24d0cbf7c689821df7199)</div>
 
 ## Step 17: Listen to Matched Events of Any Route
 

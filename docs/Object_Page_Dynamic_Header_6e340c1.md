@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://sdk.openui5.org/topic/6e340c119ddd4c778b315f65a0432420)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6e340c119ddd4c778b315f65a0432420) | [demo kit latest release](https://sdk.openui5.org/topic/6e340c119ddd4c778b315f65a0432420)</div>
 
 ## Object Page Dynamic Header
 

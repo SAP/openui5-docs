@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/776f7352807e4f82b18176c8fbdc0c56) | [demo kit latest release](https://sdk.openui5.org/topic/776f7352807e4f82b18176c8fbdc0c56)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/776f7352807e4f82b18176c8fbdc0c56) | [demo kit latest release](https://sdk.openui5.org/topic/776f7352807e4f82b18176c8fbdc0c56)</div>
 
 ## Step 18: Icons
 

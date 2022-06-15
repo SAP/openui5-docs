@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c4de2df385174e58a689d9847c7553bd) | [demo kit latest release](https://sdk.openui5.org/topic/c4de2df385174e58a689d9847c7553bd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c4de2df385174e58a689d9847c7553bd) | [demo kit latest release](https://sdk.openui5.org/topic/c4de2df385174e58a689d9847c7553bd)</div>
 
 ## Flexible Column Layout App
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3ddb6cde6a8d416598ac8ced3f5d82d5) | [demo kit latest release](https://sdk.openui5.org/topic/3ddb6cde6a8d416598ac8ced3f5d82d5)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3ddb6cde6a8d416598ac8ced3f5d82d5) | [demo kit latest release](https://sdk.openui5.org/topic/3ddb6cde6a8d416598ac8ced3f5d82d5)</div>
 
 ## Drag and Drop
 

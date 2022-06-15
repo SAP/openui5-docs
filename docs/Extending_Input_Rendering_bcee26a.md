@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bcee26a4801748f39bf5698d83d903aa) | [demo kit latest release](https://sdk.openui5.org/topic/bcee26a4801748f39bf5698d83d903aa)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bcee26a4801748f39bf5698d83d903aa) | [demo kit latest release](https://sdk.openui5.org/topic/bcee26a4801748f39bf5698d83d903aa)</div>
 
 ## Extending Input Rendering
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b4f12660538147f8839b05cb03f1d478) | [demo kit latest release](https://sdk.openui5.org/topic/b4f12660538147f8839b05cb03f1d478)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b4f12660538147f8839b05cb03f1d478) | [demo kit latest release](https://sdk.openui5.org/topic/b4f12660538147f8839b05cb03f1d478)</div>
 
 ## Step 6: Create and Edit
 

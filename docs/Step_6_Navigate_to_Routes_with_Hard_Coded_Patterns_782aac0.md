@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://sdk.openui5.org/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/782aac08f2de4003a2fcbdd39d27f374) | [demo kit latest release](https://sdk.openui5.org/topic/782aac08f2de4003a2fcbdd39d27f374)</div>
 
 ## Step 6: Navigate to Routes with Hard-Coded Patterns
 

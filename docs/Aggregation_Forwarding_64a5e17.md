@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://sdk.openui5.org/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/64a5e1775bf04d4883db18c9de7d83bd) | [demo kit latest release](https://sdk.openui5.org/topic/64a5e1775bf04d4883db18c9de7d83bd)</div>
 
 ## Aggregation Forwarding
 

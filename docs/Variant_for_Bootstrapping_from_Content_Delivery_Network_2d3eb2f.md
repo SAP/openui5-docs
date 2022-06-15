@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://sdk.openui5.org/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2d3eb2f322ea4a82983c1c62a33ec4ae) | [demo kit latest release](https://sdk.openui5.org/topic/2d3eb2f322ea4a82983c1c62a33ec4ae)</div>
 
 ## Variant for Bootstrapping from Content Delivery Network
 

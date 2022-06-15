@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/89b14ce0a65c44c3a96f68ecc50fcc11) | [demo kit latest release](https://sdk.openui5.org/topic/89b14ce0a65c44c3a96f68ecc50fcc11)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/89b14ce0a65c44c3a96f68ecc50fcc11) | [demo kit latest release](https://sdk.openui5.org/topic/89b14ce0a65c44c3a96f68ecc50fcc11)</div>
 
 ## Upgrading from a Version Below 1.89
 

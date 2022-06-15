@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c) | [demo kit latest release](https://sdk.openui5.org/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c) | [demo kit latest release](https://sdk.openui5.org/topic/b0d5fe2f1b0b497cbd67cd5a1d35fa4c)</div>
 
 ## JSDoc Visibility Tags
 

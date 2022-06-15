@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6) | [demo kit latest release](https://sdk.openui5.org/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6) | [demo kit latest release](https://sdk.openui5.org/topic/8e9d6e4df5464eb5a6e40696c4d2ccd6)</div>
 
 ## Navigate with Nested Components
 

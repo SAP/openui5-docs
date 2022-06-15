@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://sdk.openui5.org/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8615a0b9088645ae936dbb8bbce5d01d) | [demo kit latest release](https://sdk.openui5.org/topic/8615a0b9088645ae936dbb8bbce5d01d)</div>
 
 ## Simulating User Interactions on Controls
 

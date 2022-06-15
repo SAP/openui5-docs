@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e15067d976f24b11907f4c262bd749a0) | [demo kit latest release](https://sdk.openui5.org/topic/e15067d976f24b11907f4c262bd749a0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e15067d976f24b11907f4c262bd749a0) | [demo kit latest release](https://sdk.openui5.org/topic/e15067d976f24b11907f4c262bd749a0)</div>
 
 ## Execution Scope
 

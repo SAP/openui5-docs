@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b15e6afc5ae74227a661dc6ff104bf80) | [demo kit latest release](https://sdk.openui5.org/topic/b15e6afc5ae74227a661dc6ff104bf80)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b15e6afc5ae74227a661dc6ff104bf80) | [demo kit latest release](https://sdk.openui5.org/topic/b15e6afc5ae74227a661dc6ff104bf80)</div>
 
 ## Extension Points
 

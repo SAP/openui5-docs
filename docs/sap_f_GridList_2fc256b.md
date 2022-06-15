@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2fc256be1b4649048b125320628e12f0) | [demo kit latest release](https://sdk.openui5.org/topic/2fc256be1b4649048b125320628e12f0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2fc256be1b4649048b125320628e12f0) | [demo kit latest release](https://sdk.openui5.org/topic/2fc256be1b4649048b125320628e12f0)</div>
 
 ## sap.f.GridList
 

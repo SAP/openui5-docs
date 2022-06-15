@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/12a0d1ef150a42ef81e9f07fe6407018) | [demo kit latest release](https://sdk.openui5.org/topic/12a0d1ef150a42ef81e9f07fe6407018)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/12a0d1ef150a42ef81e9f07fe6407018) | [demo kit latest release](https://sdk.openui5.org/topic/12a0d1ef150a42ef81e9f07fe6407018)</div>
 
 ## Step 7: Delete
 

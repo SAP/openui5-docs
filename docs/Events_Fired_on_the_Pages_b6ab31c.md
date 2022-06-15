@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://sdk.openui5.org/topic/b6ab31cb81bd443996cde2f91d203072)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b6ab31cb81bd443996cde2f91d203072) | [demo kit latest release](https://sdk.openui5.org/topic/b6ab31cb81bd443996cde2f91d203072)</div>
 
 ## Events Fired on the Pages
 

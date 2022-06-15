@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9113397cd27e4a1090590e1c4f6edf5f) | [demo kit latest release](https://sdk.openui5.org/topic/9113397cd27e4a1090590e1c4f6edf5f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9113397cd27e4a1090590e1c4f6edf5f) | [demo kit latest release](https://sdk.openui5.org/topic/9113397cd27e4a1090590e1c4f6edf5f)</div>
 
 ## Feature Files
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/293eb945f0e945aaa776812481b4c533) | [demo kit latest release](https://sdk.openui5.org/topic/293eb945f0e945aaa776812481b4c533)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/293eb945f0e945aaa776812481b4c533) | [demo kit latest release](https://sdk.openui5.org/topic/293eb945f0e945aaa776812481b4c533)</div>
 
 ## Development for Hybrid Web Containers
 

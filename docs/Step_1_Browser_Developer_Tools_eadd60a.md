@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/eadd60ae907646bbb838866566b23182) | [demo kit latest release](https://sdk.openui5.org/topic/eadd60ae907646bbb838866566b23182)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eadd60ae907646bbb838866566b23182) | [demo kit latest release](https://sdk.openui5.org/topic/eadd60ae907646bbb838866566b23182)</div>
 
 ## Step 1: Browser Developer Tools
 

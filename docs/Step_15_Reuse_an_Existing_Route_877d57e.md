@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://sdk.openui5.org/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/877d57e3b5654b19a2d2e5190dc43b0d) | [demo kit latest release](https://sdk.openui5.org/topic/877d57e3b5654b19a2d2e5190dc43b0d)</div>
 
 ## Step 15: Reuse an Existing Route
 

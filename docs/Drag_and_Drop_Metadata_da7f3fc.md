@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/da7f3fc826f7418d9cc3b5a61285a08d) | [demo kit latest release](https://sdk.openui5.org/topic/da7f3fc826f7418d9cc3b5a61285a08d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/da7f3fc826f7418d9cc3b5a61285a08d) | [demo kit latest release](https://sdk.openui5.org/topic/da7f3fc826f7418d9cc3b5a61285a08d)</div>
 
 ## Drag-and-Drop Metadata
 

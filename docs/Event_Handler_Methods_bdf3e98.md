@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bdf3e9818cd84d37a18ee5680e97e1c1) | [demo kit latest release](https://sdk.openui5.org/topic/bdf3e9818cd84d37a18ee5680e97e1c1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bdf3e9818cd84d37a18ee5680e97e1c1) | [demo kit latest release](https://sdk.openui5.org/topic/bdf3e9818cd84d37a18ee5680e97e1c1)</div>
 
 ## Event Handler Methods
 

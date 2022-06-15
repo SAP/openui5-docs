@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1ba0e44f1036439b95f25527664f14f7) | [demo kit latest release](https://sdk.openui5.org/topic/1ba0e44f1036439b95f25527664f14f7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1ba0e44f1036439b95f25527664f14f7) | [demo kit latest release](https://sdk.openui5.org/topic/1ba0e44f1036439b95f25527664f14f7)</div>
 
 ## ESLint Code Checks
 

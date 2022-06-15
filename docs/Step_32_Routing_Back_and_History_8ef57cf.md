@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://sdk.openui5.org/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8ef57cfd37b44f089f7e3b52d56597eb) | [demo kit latest release](https://sdk.openui5.org/topic/8ef57cfd37b44f089f7e3b52d56597eb)</div>
 
 ## Step 32: Routing Back and History
 

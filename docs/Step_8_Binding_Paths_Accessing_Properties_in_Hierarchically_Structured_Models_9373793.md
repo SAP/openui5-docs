@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://sdk.openui5.org/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9373793b290d429ba1bc6aea1ce5482f) | [demo kit latest release](https://sdk.openui5.org/topic/9373793b290d429ba1bc6aea1ce5482f)</div>
 
 ## Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models
 

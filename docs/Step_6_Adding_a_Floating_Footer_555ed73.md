@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://sdk.openui5.org/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/555ed73903b34c70a23ba13af1a5d71e) | [demo kit latest release](https://sdk.openui5.org/topic/555ed73903b34c70a23ba13af1a5d71e)</div>
 
 ## Step 6: Adding a Floating Footer
 

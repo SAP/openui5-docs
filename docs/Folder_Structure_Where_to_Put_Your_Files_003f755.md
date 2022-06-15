@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/003f755d46d34dd1bbce9ffe08c8d46a) | [demo kit latest release](https://sdk.openui5.org/topic/003f755d46d34dd1bbce9ffe08c8d46a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/003f755d46d34dd1bbce9ffe08c8d46a) | [demo kit latest release](https://sdk.openui5.org/topic/003f755d46d34dd1bbce9ffe08c8d46a)</div>
 
 ## Folder Structure: Where to Put Your Files
 

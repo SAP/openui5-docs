@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://sdk.openui5.org/topic/c75861e33942410d9ac77322763db203)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c75861e33942410d9ac77322763db203) | [demo kit latest release](https://sdk.openui5.org/topic/c75861e33942410d9ac77322763db203)</div>
 
 ## Reacting on User Input Events
 

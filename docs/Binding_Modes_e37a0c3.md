@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e37a0c323db94ea880ea0f5c9140fa08) | [demo kit latest release](https://sdk.openui5.org/topic/e37a0c323db94ea880ea0f5c9140fa08)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e37a0c323db94ea880ea0f5c9140fa08) | [demo kit latest release](https://sdk.openui5.org/topic/e37a0c323db94ea880ea0f5c9140fa08)</div>
 
 ## Binding Modes
 

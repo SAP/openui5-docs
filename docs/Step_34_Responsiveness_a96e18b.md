@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a96e18b4cd924196b255eb9623431dbb) | [demo kit latest release](https://sdk.openui5.org/topic/a96e18b4cd924196b255eb9623431dbb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a96e18b4cd924196b255eb9623431dbb) | [demo kit latest release](https://sdk.openui5.org/topic/a96e18b4cd924196b255eb9623431dbb)</div>
 
 ## Step 34: Responsiveness
 

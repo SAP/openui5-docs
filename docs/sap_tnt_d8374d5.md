@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d8374d578a4c4f9498f9f14a6672c8bb) | [demo kit latest release](https://sdk.openui5.org/topic/d8374d578a4c4f9498f9f14a6672c8bb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d8374d578a4c4f9498f9f14a6672c8bb) | [demo kit latest release](https://sdk.openui5.org/topic/d8374d578a4c4f9498f9f14a6672c8bb)</div>
 
 ## sap.tnt
 

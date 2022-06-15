@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1238d706b130433c9bd6b85cfb77cece) | [demo kit latest release](https://sdk.openui5.org/topic/1238d706b130433c9bd6b85cfb77cece)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1238d706b130433c9bd6b85cfb77cece) | [demo kit latest release](https://sdk.openui5.org/topic/1238d706b130433c9bd6b85cfb77cece)</div>
 
 ## Using the `title` Property in Targets
 

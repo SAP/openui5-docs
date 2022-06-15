@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/eaeea19a991d46f29e6d8d8827317d0e) | [demo kit latest release](https://sdk.openui5.org/topic/eaeea19a991d46f29e6d8d8827317d0e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eaeea19a991d46f29e6d8d8827317d0e) | [demo kit latest release](https://sdk.openui5.org/topic/eaeea19a991d46f29e6d8d8827317d0e)</div>
 
 ## Guidelines and Best Practices
 

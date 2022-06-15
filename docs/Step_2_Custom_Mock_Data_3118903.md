@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/311890311f7148adbfbf248a6980df1c) | [demo kit latest release](https://sdk.openui5.org/topic/311890311f7148adbfbf248a6980df1c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/311890311f7148adbfbf248a6980df1c) | [demo kit latest release](https://sdk.openui5.org/topic/311890311f7148adbfbf248a6980df1c)</div>
 
 ## Step 2: Custom Mock Data
 

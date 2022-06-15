@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/acae0f2794234730b74ed219d2532b77) | [demo kit latest release](https://sdk.openui5.org/topic/acae0f2794234730b74ed219d2532b77)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/acae0f2794234730b74ed219d2532b77) | [demo kit latest release](https://sdk.openui5.org/topic/acae0f2794234730b74ed219d2532b77)</div>
 
 ## Team Calendar
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1f81a093a9f3433983dcb2ebe11cd4cd) | [demo kit latest release](https://sdk.openui5.org/topic/1f81a093a9f3433983dcb2ebe11cd4cd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1f81a093a9f3433983dcb2ebe11cd4cd) | [demo kit latest release](https://sdk.openui5.org/topic/1f81a093a9f3433983dcb2ebe11cd4cd)</div>
 
 ## Make Your App CSP Compliant
 

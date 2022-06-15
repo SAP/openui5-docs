@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d415dd8911a645759373dc1a70b93f3d) | [demo kit latest release](https://sdk.openui5.org/topic/d415dd8911a645759373dc1a70b93f3d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d415dd8911a645759373dc1a70b93f3d) | [demo kit latest release](https://sdk.openui5.org/topic/d415dd8911a645759373dc1a70b93f3d)</div>
 
 ## Application Cache Buster: Request Flow
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd) | [demo kit latest release](https://sdk.openui5.org/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd) | [demo kit latest release](https://sdk.openui5.org/topic/016e0d44f8ff47d2bdf4fdad9b7bf7cd)</div>
 
 ## Step 7: Changing the Table to a Growing Table
 

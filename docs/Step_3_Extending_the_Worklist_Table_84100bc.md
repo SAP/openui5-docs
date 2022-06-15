@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://sdk.openui5.org/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/84100bcfd5b34f62858bdd6f67976b4a) | [demo kit latest release](https://sdk.openui5.org/topic/84100bcfd5b34f62858bdd6f67976b4a)</div>
 
 ## Step 3: Extending the Worklist Table
 

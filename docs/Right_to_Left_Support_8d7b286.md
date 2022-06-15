@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8d7b2868b8d8441a803a3223754d72fc) | [demo kit latest release](https://sdk.openui5.org/topic/8d7b2868b8d8441a803a3223754d72fc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8d7b2868b8d8441a803a3223754d72fc) | [demo kit latest release](https://sdk.openui5.org/topic/8d7b2868b8d8441a803a3223754d72fc)</div>
 
 ## Right-to-Left Support
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://sdk.openui5.org/topic/92959b10ecf14582b65eaadb40571156)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/92959b10ecf14582b65eaadb40571156) | [demo kit latest release](https://sdk.openui5.org/topic/92959b10ecf14582b65eaadb40571156)</div>
 
 ## Step 11: Testing User Input
 

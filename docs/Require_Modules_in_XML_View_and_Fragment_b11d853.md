@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b11d853a8e784db6b2d210ef57b0f7d7) | [demo kit latest release](https://sdk.openui5.org/topic/b11d853a8e784db6b2d210ef57b0f7d7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b11d853a8e784db6b2d210ef57b0f7d7) | [demo kit latest release](https://sdk.openui5.org/topic/b11d853a8e784db6b2d210ef57b0f7d7)</div>
 
 ## Require Modules in XML View and Fragment
 

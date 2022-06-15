@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://sdk.openui5.org/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d9efab307ecc42b180b12cc8956e22d7) | [demo kit latest release](https://sdk.openui5.org/topic/d9efab307ecc42b180b12cc8956e22d7)</div>
 
 ## Step 5: Display a Target Without Changing the Hash
 

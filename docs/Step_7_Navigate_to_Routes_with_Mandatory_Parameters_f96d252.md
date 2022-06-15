@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f96d2522a5ca4382a274ae3c6d002ca0) | [demo kit latest release](https://sdk.openui5.org/topic/f96d2522a5ca4382a274ae3c6d002ca0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f96d2522a5ca4382a274ae3c6d002ca0) | [demo kit latest release](https://sdk.openui5.org/topic/f96d2522a5ca4382a274ae3c6d002ca0)</div>
 
 ## Step 7: Navigate to Routes with Mandatory Parameters
 

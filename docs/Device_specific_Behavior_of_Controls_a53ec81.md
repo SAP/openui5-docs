@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a53ec81aca59413cac86267b0fd5c787) | [demo kit latest release](https://sdk.openui5.org/topic/a53ec81aca59413cac86267b0fd5c787)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a53ec81aca59413cac86267b0fd5c787) | [demo kit latest release](https://sdk.openui5.org/topic/a53ec81aca59413cac86267b0fd5c787)</div>
 
 ## Device-specific Behavior of Controls
 

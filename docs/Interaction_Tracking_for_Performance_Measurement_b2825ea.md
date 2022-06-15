@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://sdk.openui5.org/topic/b2825eabd7bb43d79b475fee4194c609)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b2825eabd7bb43d79b475fee4194c609) | [demo kit latest release](https://sdk.openui5.org/topic/b2825eabd7bb43d79b475fee4194c609)</div>
 
 ## Interaction Tracking for Performance Measurement
 

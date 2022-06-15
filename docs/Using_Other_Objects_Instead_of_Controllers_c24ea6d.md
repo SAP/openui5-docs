@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c24ea6d4d2a34792a7ea241128ad8550) | [demo kit latest release](https://sdk.openui5.org/topic/c24ea6d4d2a34792a7ea241128ad8550)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c24ea6d4d2a34792a7ea241128ad8550) | [demo kit latest release](https://sdk.openui5.org/topic/c24ea6d4d2a34792a7ea241128ad8550)</div>
 
 ## Using Other Objects Instead of Controllers
 

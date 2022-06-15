@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://sdk.openui5.org/topic/fccfb2eb41414f0792c165e69a878717)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fccfb2eb41414f0792c165e69a878717) | [demo kit latest release](https://sdk.openui5.org/topic/fccfb2eb41414f0792c165e69a878717)</div>
 
 ## Initialization and Read Requests
 

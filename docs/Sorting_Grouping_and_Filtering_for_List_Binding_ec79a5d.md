@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://sdk.openui5.org/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ec79a5d5918f4f7f9cbc2150e66778cc) | [demo kit latest release](https://sdk.openui5.org/topic/ec79a5d5918f4f7f9cbc2150e66778cc)</div>
 
 ## Sorting, Grouping, and Filtering for List Binding
 

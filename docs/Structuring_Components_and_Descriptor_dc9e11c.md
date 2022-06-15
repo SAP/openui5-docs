@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/dc9e11c3889441429a60ee871da6f3cb) | [demo kit latest release](https://sdk.openui5.org/topic/dc9e11c3889441429a60ee871da6f3cb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dc9e11c3889441429a60ee871da6f3cb) | [demo kit latest release](https://sdk.openui5.org/topic/dc9e11c3889441429a60ee871da6f3cb)</div>
 
 ## Structuring: Components and Descriptor
 

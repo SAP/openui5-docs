@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://sdk.openui5.org/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/df86bfbeab0645e5b764ffa488ed57dc) | [demo kit latest release](https://sdk.openui5.org/topic/df86bfbeab0645e5b764ffa488ed57dc)</div>
 
 ## Step 8: Translatable Texts
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/37deb0bee3e2474887f1521cc583ab69) | [demo kit latest release](https://sdk.openui5.org/topic/37deb0bee3e2474887f1521cc583ab69)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/37deb0bee3e2474887f1521cc583ab69) | [demo kit latest release](https://sdk.openui5.org/topic/37deb0bee3e2474887f1521cc583ab69)</div>
 
 ## Whitespaces Concept
 

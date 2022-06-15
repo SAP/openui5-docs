@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/76b7d5065cf64304a1d2841046043c34) | [demo kit latest release](https://sdk.openui5.org/topic/76b7d5065cf64304a1d2841046043c34)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/76b7d5065cf64304a1d2841046043c34) | [demo kit latest release](https://sdk.openui5.org/topic/76b7d5065cf64304a1d2841046043c34)</div>
 
 ## Implementing Animation Modes
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://sdk.openui5.org/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/38855e06486f4910bfa6f4485f7c2bac) | [demo kit latest release](https://sdk.openui5.org/topic/38855e06486f4910bfa6f4485f7c2bac)</div>
 
 ## Configuring Responsive Behavior of a Table
 

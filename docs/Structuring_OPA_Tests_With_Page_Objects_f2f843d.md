@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://sdk.openui5.org/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f2f843d375384d56bbf955a80ee66ab6) | [demo kit latest release](https://sdk.openui5.org/topic/f2f843d375384d56bbf955a80ee66ab6)</div>
 
 ## Structuring OPA Tests With Page Objects
 

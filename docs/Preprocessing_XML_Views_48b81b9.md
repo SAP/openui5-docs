@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://sdk.openui5.org/topic/48b81b967af34ad08f1f88c962b4740a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/48b81b967af34ad08f1f88c962b4740a) | [demo kit latest release](https://sdk.openui5.org/topic/48b81b967af34ad08f1f88c962b4740a)</div>
 
 ## Preprocessing XML Views
 

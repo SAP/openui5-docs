@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/35f08e10a5d74e058ce9929244d935f0) | [demo kit latest release](https://sdk.openui5.org/topic/35f08e10a5d74e058ce9929244d935f0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/35f08e10a5d74e058ce9929244d935f0) | [demo kit latest release](https://sdk.openui5.org/topic/35f08e10a5d74e058ce9929244d935f0)</div>
 
 ## Step 3: Support Assistant
 

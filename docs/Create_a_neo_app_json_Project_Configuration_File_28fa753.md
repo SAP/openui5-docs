@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/28fa7538c67e4280a0b7708de2951278) | [demo kit latest release](https://sdk.openui5.org/topic/28fa7538c67e4280a0b7708de2951278)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/28fa7538c67e4280a0b7708de2951278) | [demo kit latest release](https://sdk.openui5.org/topic/28fa7538c67e4280a0b7708de2951278)</div>
 
 ## Create a neo-app.json Project Configuration File
 

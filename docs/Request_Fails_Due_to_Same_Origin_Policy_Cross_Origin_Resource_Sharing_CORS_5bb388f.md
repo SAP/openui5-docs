@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5bb388fc289d44dca886c8fa25da466e) | [demo kit latest release](https://sdk.openui5.org/topic/5bb388fc289d44dca886c8fa25da466e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5bb388fc289d44dca886c8fa25da466e) | [demo kit latest release](https://sdk.openui5.org/topic/5bb388fc289d44dca886c8fa25da466e)</div>
 
 ## Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)
 

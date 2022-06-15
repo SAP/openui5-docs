@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/00737d6c1b864dc3ab72ef56611491c4) | [demo kit latest release](https://sdk.openui5.org/topic/00737d6c1b864dc3ab72ef56611491c4)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/00737d6c1b864dc3ab72ef56611491c4) | [demo kit latest release](https://sdk.openui5.org/topic/00737d6c1b864dc3ab72ef56611491c4)</div>
 
 ## Best Practices for Loading Modules
 

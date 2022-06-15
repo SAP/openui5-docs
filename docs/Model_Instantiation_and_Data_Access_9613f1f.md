@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9613f1f2d88747cab21896f7216afdac) | [demo kit latest release](https://sdk.openui5.org/topic/9613f1f2d88747cab21896f7216afdac)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9613f1f2d88747cab21896f7216afdac) | [demo kit latest release](https://sdk.openui5.org/topic/9613f1f2d88747cab21896f7216afdac)</div>
 
 ## Model Instantiation and Data Access
 

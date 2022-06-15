@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://sdk.openui5.org/topic/50897decc9504b2a875fb41d89fd254a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/50897decc9504b2a875fb41d89fd254a) | [demo kit latest release](https://sdk.openui5.org/topic/50897decc9504b2a875fb41d89fd254a)</div>
 
 ## Step 2: Creating a Mock Server to Simulate Data
 

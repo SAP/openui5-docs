@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c689cd83e2524251a75d694b09263d07) | [demo kit latest release](https://sdk.openui5.org/topic/c689cd83e2524251a75d694b09263d07)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c689cd83e2524251a75d694b09263d07) | [demo kit latest release](https://sdk.openui5.org/topic/c689cd83e2524251a75d694b09263d07)</div>
 
 ## Gherkin and OPA Page Objects
 

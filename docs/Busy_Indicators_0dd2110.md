@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://sdk.openui5.org/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0dd211065c714c0d8a35cecb5fea8557) | [demo kit latest release](https://sdk.openui5.org/topic/0dd211065c714c0d8a35cecb5fea8557)</div>
 
 ## Busy Indicators
 

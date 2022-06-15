@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://sdk.openui5.org/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/95cf4b16762a465b9237b18d033f0cd2) | [demo kit latest release](https://sdk.openui5.org/topic/95cf4b16762a465b9237b18d033f0cd2)</div>
 
 ## Creating Bindings
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/25ab54b0113c4914999c43d07d3b71fe) | [demo kit latest release](https://sdk.openui5.org/topic/25ab54b0113c4914999c43d07d3b71fe)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/25ab54b0113c4914999c43d07d3b71fe) | [demo kit latest release](https://sdk.openui5.org/topic/25ab54b0113c4914999c43d07d3b71fe)</div>
 
 ## Examples for Data Binding in Different View Types
 

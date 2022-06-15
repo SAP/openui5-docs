@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://sdk.openui5.org/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://sdk.openui5.org/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
 
 ## Table Personalization
 

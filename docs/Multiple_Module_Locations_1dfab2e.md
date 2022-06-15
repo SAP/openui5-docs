@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1dfab2e19fc0479d9dfcefc28d3642f1) | [demo kit latest release](https://sdk.openui5.org/topic/1dfab2e19fc0479d9dfcefc28d3642f1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1dfab2e19fc0479d9dfcefc28d3642f1) | [demo kit latest release](https://sdk.openui5.org/topic/1dfab2e19fc0479d9dfcefc28d3642f1)</div>
 
 ## Multiple Module Locations
 

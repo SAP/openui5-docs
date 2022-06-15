@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6ec0a7e1d3c64412a673b7dabe28c02b) | [demo kit latest release](https://sdk.openui5.org/topic/6ec0a7e1d3c64412a673b7dabe28c02b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6ec0a7e1d3c64412a673b7dabe28c02b) | [demo kit latest release](https://sdk.openui5.org/topic/6ec0a7e1d3c64412a673b7dabe28c02b)</div>
 
 ## Events Fired Centrally by the App or the NavContainer
 

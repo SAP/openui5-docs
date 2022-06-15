@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/87aac894a40640f89920d7b2a414499b) | [demo kit latest release](https://sdk.openui5.org/topic/87aac894a40640f89920d7b2a414499b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/87aac894a40640f89920d7b2a414499b) | [demo kit latest release](https://sdk.openui5.org/topic/87aac894a40640f89920d7b2a414499b)</div>
 
 ## OData V4 Metadata JSON Format
 

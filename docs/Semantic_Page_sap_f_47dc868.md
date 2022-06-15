@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://sdk.openui5.org/topic/47dc86847f7a426a8e557167cf523bda)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/47dc86847f7a426a8e557167cf523bda) | [demo kit latest release](https://sdk.openui5.org/topic/47dc86847f7a426a8e557167cf523bda)</div>
 
 ## Semantic Page \(sap.f\)
 

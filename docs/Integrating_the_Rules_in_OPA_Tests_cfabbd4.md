@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cfabbd4dfc054936997d9d00916e1668) | [demo kit latest release](https://sdk.openui5.org/topic/cfabbd4dfc054936997d9d00916e1668)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cfabbd4dfc054936997d9d00916e1668) | [demo kit latest release](https://sdk.openui5.org/topic/cfabbd4dfc054936997d9d00916e1668)</div>
 
 ## Integrating the Rules in OPA Tests
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://sdk.openui5.org/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/69d3cbd4150c4ffb884e788f7f60fd93) | [demo kit latest release](https://sdk.openui5.org/topic/69d3cbd4150c4ffb884e788f7f60fd93)</div>
 
 ## Mock Server
 

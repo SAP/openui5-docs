@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://sdk.openui5.org/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b01840ec42ef48e6bfd2bc12612f501f) | [demo kit latest release](https://sdk.openui5.org/topic/b01840ec42ef48e6bfd2bc12612f501f)</div>
 
 ## Step 11: Assign Multiple Targets
 

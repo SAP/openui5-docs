@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://sdk.openui5.org/topic/69a8e469fbde46e7b8916250080effbd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/69a8e469fbde46e7b8916250080effbd) | [demo kit latest release](https://sdk.openui5.org/topic/69a8e469fbde46e7b8916250080effbd)</div>
 
 ## The Device API
 

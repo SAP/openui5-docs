@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a1f59aa4a100410d8eb0c3f298da1462) | [demo kit latest release](https://sdk.openui5.org/topic/a1f59aa4a100410d8eb0c3f298da1462)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a1f59aa4a100410d8eb0c3f298da1462) | [demo kit latest release](https://sdk.openui5.org/topic/a1f59aa4a100410d8eb0c3f298da1462)</div>
 
 ## Keyboard Handling for One-Dimensional Navigation
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://sdk.openui5.org/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/de713373c4ef4e53b5717c59ed2c8d64) | [demo kit latest release](https://sdk.openui5.org/topic/de713373c4ef4e53b5717c59ed2c8d64)</div>
 
 ## sap.uxap
 

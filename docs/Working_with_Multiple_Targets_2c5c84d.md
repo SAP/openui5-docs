@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2c5c84d207d246bc9f733f29df1ff892) | [demo kit latest release](https://sdk.openui5.org/topic/2c5c84d207d246bc9f733f29df1ff892)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2c5c84d207d246bc9f733f29df1ff892) | [demo kit latest release](https://sdk.openui5.org/topic/2c5c84d207d246bc9f733f29df1ff892)</div>
 
 ## Working with Multiple Targets
 

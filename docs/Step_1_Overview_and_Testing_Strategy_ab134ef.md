@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ab134ef3932c4b42898c79c10341e8b5) | [demo kit latest release](https://sdk.openui5.org/topic/ab134ef3932c4b42898c79c10341e8b5)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ab134ef3932c4b42898c79c10341e8b5) | [demo kit latest release](https://sdk.openui5.org/topic/ab134ef3932c4b42898c79c10341e8b5)</div>
 
 ## Step 1: Overview and Testing Strategy
 

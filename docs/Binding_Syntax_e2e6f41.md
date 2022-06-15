@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://sdk.openui5.org/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e2e6f4127fe4450ab3cf1339c42ee832) | [demo kit latest release](https://sdk.openui5.org/topic/e2e6f4127fe4450ab3cf1339c42ee832)</div>
 
 ## Binding Syntax
 

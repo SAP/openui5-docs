@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/85ec3a9454ac4eb1a901745e773844d3) | [demo kit latest release](https://sdk.openui5.org/topic/85ec3a9454ac4eb1a901745e773844d3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/85ec3a9454ac4eb1a901745e773844d3) | [demo kit latest release](https://sdk.openui5.org/topic/85ec3a9454ac4eb1a901745e773844d3)</div>
 
 ## Step 4: Quick Filter for the Worklist
 

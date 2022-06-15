@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/eedfe79e4c19462eafe8780aeab16a3c) | [demo kit latest release](https://sdk.openui5.org/topic/eedfe79e4c19462eafe8780aeab16a3c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/eedfe79e4c19462eafe8780aeab16a3c) | [demo kit latest release](https://sdk.openui5.org/topic/eedfe79e4c19462eafe8780aeab16a3c)</div>
 
 ## Split App
 

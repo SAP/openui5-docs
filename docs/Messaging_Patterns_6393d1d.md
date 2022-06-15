@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6393d1d680434ec18b35b8be6e7e96c7) | [demo kit latest release](https://sdk.openui5.org/topic/6393d1d680434ec18b35b8be6e7e96c7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6393d1d680434ec18b35b8be6e7e96c7) | [demo kit latest release](https://sdk.openui5.org/topic/6393d1d680434ec18b35b8be6e7e96c7)</div>
 
 ## Messaging Patterns
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://sdk.openui5.org/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b81736e0fcb246efb3b0cf0ca422f8fd) | [demo kit latest release](https://sdk.openui5.org/topic/b81736e0fcb246efb3b0cf0ca422f8fd)</div>
 
 ## Step 2: A First Unit Test
 

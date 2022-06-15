@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://sdk.openui5.org/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/276f001c5a934f6e8faedee6ea22aba1) | [demo kit latest release](https://sdk.openui5.org/topic/276f001c5a934f6e8faedee6ea22aba1)</div>
 
 ## Step 11: Using the Flexible Column Layout Semantic Helper
 

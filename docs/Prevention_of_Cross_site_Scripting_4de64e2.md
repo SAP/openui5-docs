@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4de64e2e191f4a7297d4fd2d1e233a2d) | [demo kit latest release](https://sdk.openui5.org/topic/4de64e2e191f4a7297d4fd2d1e233a2d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4de64e2e191f4a7297d4fd2d1e233a2d) | [demo kit latest release](https://sdk.openui5.org/topic/4de64e2e191f4a7297d4fd2d1e233a2d)</div>
 
 ## Prevention of Cross-site Scripting
 

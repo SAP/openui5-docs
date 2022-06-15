@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/10592affce3e4f1ba73c3125ee06e0b7) | [demo kit latest release](https://sdk.openui5.org/topic/10592affce3e4f1ba73c3125ee06e0b7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/10592affce3e4f1ba73c3125ee06e0b7) | [demo kit latest release](https://sdk.openui5.org/topic/10592affce3e4f1ba73c3125ee06e0b7)</div>
 
 ## Step 8: Testing Navigation
 

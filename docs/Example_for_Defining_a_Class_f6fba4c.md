@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd) | [demo kit latest release](https://sdk.openui5.org/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd) | [demo kit latest release](https://sdk.openui5.org/topic/f6fba4c6e1cb49c7b355319ac9c8d1cd)</div>
 
 ## Example for Defining a Class
 

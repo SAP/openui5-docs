@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://sdk.openui5.org/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ab267a6b958e46a28f3437154b2a1b2f) | [demo kit latest release](https://sdk.openui5.org/topic/ab267a6b958e46a28f3437154b2a1b2f)</div>
 
 ## Value Lists
 

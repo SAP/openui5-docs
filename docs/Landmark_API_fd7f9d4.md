@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fd7f9d41ca9c46d891c45f1dcc0682bf) | [demo kit latest release](https://sdk.openui5.org/topic/fd7f9d41ca9c46d891c45f1dcc0682bf)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fd7f9d41ca9c46d891c45f1dcc0682bf) | [demo kit latest release](https://sdk.openui5.org/topic/fd7f9d41ca9c46d891c45f1dcc0682bf)</div>
 
 ## Landmark API
 

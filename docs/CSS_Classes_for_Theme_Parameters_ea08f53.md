@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ea08f53503da42c19afd342f4b0c9ec7) | [demo kit latest release](https://sdk.openui5.org/topic/ea08f53503da42c19afd342f4b0c9ec7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ea08f53503da42c19afd342f4b0c9ec7) | [demo kit latest release](https://sdk.openui5.org/topic/ea08f53503da42c19afd342f4b0c9ec7)</div>
 
 ## CSS Classes for Theme Parameters
 

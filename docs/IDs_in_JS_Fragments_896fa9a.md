@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/896fa9aae5fb40deb209bc31ead99ba7) | [demo kit latest release](https://sdk.openui5.org/topic/896fa9aae5fb40deb209bc31ead99ba7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/896fa9aae5fb40deb209bc31ead99ba7) | [demo kit latest release](https://sdk.openui5.org/topic/896fa9aae5fb40deb209bc31ead99ba7)</div>
 
 ## IDs in JS Fragments
 

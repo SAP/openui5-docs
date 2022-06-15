@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2c677b574ea2486a8d5f5414d15e21c5) | [demo kit latest release](https://sdk.openui5.org/topic/2c677b574ea2486a8d5f5414d15e21c5)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2c677b574ea2486a8d5f5414d15e21c5) | [demo kit latest release](https://sdk.openui5.org/topic/2c677b574ea2486a8d5f5414d15e21c5)</div>
 
 ## XML Fragments
 

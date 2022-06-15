@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://sdk.openui5.org/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fde40159afce478eb488ee4d0f9ebb99) | [demo kit latest release](https://sdk.openui5.org/topic/fde40159afce478eb488ee4d0f9ebb99)</div>
 
 ## Scrolling: Pull to Refresh
 

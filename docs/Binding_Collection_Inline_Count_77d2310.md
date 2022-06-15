@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://sdk.openui5.org/topic/77d2310b637b490495d78b393ed6aa64)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/77d2310b637b490495d78b393ed6aa64) | [demo kit latest release](https://sdk.openui5.org/topic/77d2310b637b490495d78b393ed6aa64)</div>
 
 ## Binding Collection Inline Count
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/96bb6e06fa22491fa65a5040f6da099c) | [demo kit latest release](https://sdk.openui5.org/topic/96bb6e06fa22491fa65a5040f6da099c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/96bb6e06fa22491fa65a5040f6da099c) | [demo kit latest release](https://sdk.openui5.org/topic/96bb6e06fa22491fa65a5040f6da099c)</div>
 
 ## Step 3: Automatic Data Type Detection
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f5aa4bb75c20445194494b264d3b3cd2) | [demo kit latest release](https://sdk.openui5.org/topic/f5aa4bb75c20445194494b264d3b3cd2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f5aa4bb75c20445194494b264d3b3cd2) | [demo kit latest release](https://sdk.openui5.org/topic/f5aa4bb75c20445194494b264d3b3cd2)</div>
 
 ## Property Metadata Binding
 

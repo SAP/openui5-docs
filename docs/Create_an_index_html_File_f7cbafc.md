@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://sdk.openui5.org/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f7cbafc9a76140ec8fc55b51a63cf467) | [demo kit latest release](https://sdk.openui5.org/topic/f7cbafc9a76140ec8fc55b51a63cf467)</div>
 
 ## Create an index.html File
 

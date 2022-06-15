@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8fbf4e728bd146fcb2053aeb6ca741f9) | [demo kit latest release](https://sdk.openui5.org/topic/8fbf4e728bd146fcb2053aeb6ca741f9)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8fbf4e728bd146fcb2053aeb6ca741f9) | [demo kit latest release](https://sdk.openui5.org/topic/8fbf4e728bd146fcb2053aeb6ca741f9)</div>
 
 ## Providing Hooks in the Standard Controller
 

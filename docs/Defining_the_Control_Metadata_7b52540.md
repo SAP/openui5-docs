@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://sdk.openui5.org/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7b52540d9d8c4e00b9723151622bbb64) | [demo kit latest release](https://sdk.openui5.org/topic/7b52540d9d8c4e00b9723151622bbb64)</div>
 
 ## Defining the Control Metadata
 

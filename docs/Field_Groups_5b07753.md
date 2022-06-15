@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://sdk.openui5.org/topic/5b0775397e394b1fb973fa207554003e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5b0775397e394b1fb973fa207554003e) | [demo kit latest release](https://sdk.openui5.org/topic/5b0775397e394b1fb973fa207554003e)</div>
 
 ## Field Groups
 

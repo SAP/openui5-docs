@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a3e7cb6f671b4b839f37eb5f88429e41) | [demo kit latest release](https://sdk.openui5.org/topic/a3e7cb6f671b4b839f37eb5f88429e41)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a3e7cb6f671b4b839f37eb5f88429e41) | [demo kit latest release](https://sdk.openui5.org/topic/a3e7cb6f671b4b839f37eb5f88429e41)</div>
 
 ## Step 8: OData Operations
 

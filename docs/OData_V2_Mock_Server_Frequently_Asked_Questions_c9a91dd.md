@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c9a91ddaef47461c9c44bfc2198ea3f0) | [demo kit latest release](https://sdk.openui5.org/topic/c9a91ddaef47461c9c44bfc2198ea3f0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c9a91ddaef47461c9c44bfc2198ea3f0) | [demo kit latest release](https://sdk.openui5.org/topic/c9a91ddaef47461c9c44bfc2198ea3f0)</div>
 
 ## OData V2 Mock Server: Frequently Asked Questions
 

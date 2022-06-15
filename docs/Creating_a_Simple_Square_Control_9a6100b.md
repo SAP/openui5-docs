@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9a6100ba15564561b5439b7e7ba554a9) | [demo kit latest release](https://sdk.openui5.org/topic/9a6100ba15564561b5439b7e7ba554a9)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9a6100ba15564561b5439b7e7ba554a9) | [demo kit latest release](https://sdk.openui5.org/topic/9a6100ba15564561b5439b7e7ba554a9)</div>
 
 ## Creating a Simple Square Control
 

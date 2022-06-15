@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d6af195124cf430599530668ddea7425) | [demo kit latest release](https://sdk.openui5.org/topic/d6af195124cf430599530668ddea7425)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d6af195124cf430599530668ddea7425) | [demo kit latest release](https://sdk.openui5.org/topic/d6af195124cf430599530668ddea7425)</div>
 
 ## Programmatically Instantiating XML Fragments
 

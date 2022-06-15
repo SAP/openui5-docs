@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d4e69addc9ee4a6088441840eb0af509) | [demo kit latest release](https://sdk.openui5.org/topic/d4e69addc9ee4a6088441840eb0af509)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d4e69addc9ee4a6088441840eb0af509) | [demo kit latest release](https://sdk.openui5.org/topic/d4e69addc9ee4a6088441840eb0af509)</div>
 
 ## Aggregation
 

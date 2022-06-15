@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://sdk.openui5.org/topic/2e61ab6c68a2480eb666c1927a707658)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2e61ab6c68a2480eb666c1927a707658) | [demo kit latest release](https://sdk.openui5.org/topic/2e61ab6c68a2480eb666c1927a707658)</div>
 
 ## Object Page Layout
 

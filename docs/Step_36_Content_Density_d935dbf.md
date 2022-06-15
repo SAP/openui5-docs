@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d935dbf196d34997bf1ac42ac3e81579) | [demo kit latest release](https://sdk.openui5.org/topic/d935dbf196d34997bf1ac42ac3e81579)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d935dbf196d34997bf1ac42ac3e81579) | [demo kit latest release](https://sdk.openui5.org/topic/d935dbf196d34997bf1ac42ac3e81579)</div>
 
 ## Step 36: Content Density
 

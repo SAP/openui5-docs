@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d) | [demo kit latest release](https://sdk.openui5.org/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d) | [demo kit latest release](https://sdk.openui5.org/topic/94658aa4cfbe4fdfbd0981d78f6d9b3d)</div>
 
 ## sap.ui.model.type.DateTimeInterval
 

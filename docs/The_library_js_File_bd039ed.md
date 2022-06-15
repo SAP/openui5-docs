@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://sdk.openui5.org/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bd039ed5f99e4d3f8d020b0da62f9d85) | [demo kit latest release](https://sdk.openui5.org/topic/bd039ed5f99e4d3f8d020b0da62f9d85)</div>
 
 ## The library.js File
 

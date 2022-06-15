@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/f1ee7a8b2102415bb0d34268046cd3ea) | [demo kit latest release](https://sdk.openui5.org/topic/f1ee7a8b2102415bb0d34268046cd3ea)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f1ee7a8b2102415bb0d34268046cd3ea) | [demo kit latest release](https://sdk.openui5.org/topic/f1ee7a8b2102415bb0d34268046cd3ea)</div>
 
 ## Using Data Binding for Data Export
 

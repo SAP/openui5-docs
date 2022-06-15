@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/38859a8f8b48467481dcae4f7ec3328a) | [demo kit latest release](https://sdk.openui5.org/topic/38859a8f8b48467481dcae4f7ec3328a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/38859a8f8b48467481dcae4f7ec3328a) | [demo kit latest release](https://sdk.openui5.org/topic/38859a8f8b48467481dcae4f7ec3328a)</div>
 
 ## First-Aid Kit
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://sdk.openui5.org/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a1998ecc0853481891f8bc81cf900c9a) | [demo kit latest release](https://sdk.openui5.org/topic/a1998ecc0853481891f8bc81cf900c9a)</div>
 
 ## Generic Tile
 

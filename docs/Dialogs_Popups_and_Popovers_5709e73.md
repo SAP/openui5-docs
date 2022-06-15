@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/5709e73d51f2401a9a5a89d8f5479132) | [demo kit latest release](https://sdk.openui5.org/topic/5709e73d51f2401a9a5a89d8f5479132)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5709e73d51f2401a9a5a89d8f5479132) | [demo kit latest release](https://sdk.openui5.org/topic/5709e73d51f2401a9a5a89d8f5479132)</div>
 
 ## Dialogs, Popups, and Popovers
 

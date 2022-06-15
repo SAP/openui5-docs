@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1232241b99d7437ba3614698d53dfa4b) | [demo kit latest release](https://sdk.openui5.org/topic/1232241b99d7437ba3614698d53dfa4b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1232241b99d7437ba3614698d53dfa4b) | [demo kit latest release](https://sdk.openui5.org/topic/1232241b99d7437ba3614698d53dfa4b)</div>
 
 ## Unsupported Superclass Methods and Events
 

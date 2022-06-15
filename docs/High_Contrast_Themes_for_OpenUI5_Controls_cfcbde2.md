@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cfcbde260f354bcba07d2686f02a1708) | [demo kit latest release](https://sdk.openui5.org/topic/cfcbde260f354bcba07d2686f02a1708)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cfcbde260f354bcba07d2686f02a1708) | [demo kit latest release](https://sdk.openui5.org/topic/cfcbde260f354bcba07d2686f02a1708)</div>
 
 ## High Contrast Themes for OpenUI5 Controls
 

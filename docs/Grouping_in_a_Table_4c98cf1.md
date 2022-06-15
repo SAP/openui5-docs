@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4c98cf1b07754d22bed8b6fba68f2031) | [demo kit latest release](https://sdk.openui5.org/topic/4c98cf1b07754d22bed8b6fba68f2031)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4c98cf1b07754d22bed8b6fba68f2031) | [demo kit latest release](https://sdk.openui5.org/topic/4c98cf1b07754d22bed8b6fba68f2031)</div>
 
 ## Grouping in a Table
 

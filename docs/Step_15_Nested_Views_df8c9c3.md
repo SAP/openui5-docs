@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://sdk.openui5.org/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/df8c9c3d79b54c928855162bafcd88ee) | [demo kit latest release](https://sdk.openui5.org/topic/df8c9c3d79b54c928855162bafcd88ee)</div>
 
 ## Step 15: Nested Views
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://sdk.openui5.org/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3b9d9f84930d43df90ad0789d99bd4a3) | [demo kit latest release](https://sdk.openui5.org/topic/3b9d9f84930d43df90ad0789d99bd4a3)</div>
 
 ## Step 11: Pages and Panels
 

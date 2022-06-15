@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b5a51358b3574aea9143fa50ae4e0e2a) | [demo kit latest release](https://sdk.openui5.org/topic/b5a51358b3574aea9143fa50ae4e0e2a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b5a51358b3574aea9143fa50ae4e0e2a) | [demo kit latest release](https://sdk.openui5.org/topic/b5a51358b3574aea9143fa50ae4e0e2a)</div>
 
 ## Create a Ruleset for a Library
 

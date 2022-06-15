@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://sdk.openui5.org/topic/d1ffe611194b4c7891772b0cce84648e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d1ffe611194b4c7891772b0cce84648e) | [demo kit latest release](https://sdk.openui5.org/topic/d1ffe611194b4c7891772b0cce84648e)</div>
 
 ## Step 5: Using Object Page Layout as a Detail Page
 

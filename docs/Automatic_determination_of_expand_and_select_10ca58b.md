@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://sdk.openui5.org/topic/10ca58b701414f7f93cd97156f898f80)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/10ca58b701414f7f93cd97156f898f80) | [demo kit latest release](https://sdk.openui5.org/topic/10ca58b701414f7f93cd97156f898f80)</div>
 
 ## Automatic determination of $expand and $select
 

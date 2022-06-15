@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/aeb86c181b9742a2bf88049abf9ccb95) | [demo kit latest release](https://sdk.openui5.org/topic/aeb86c181b9742a2bf88049abf9ccb95)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/aeb86c181b9742a2bf88049abf9ccb95) | [demo kit latest release](https://sdk.openui5.org/topic/aeb86c181b9742a2bf88049abf9ccb95)</div>
 
 ## Using Dialogs Defined as Fragments
 

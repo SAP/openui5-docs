@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2ca583d6b9c24e4d8f189eada7c4b668) | [demo kit latest release](https://sdk.openui5.org/topic/2ca583d6b9c24e4d8f189eada7c4b668)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2ca583d6b9c24e4d8f189eada7c4b668) | [demo kit latest release](https://sdk.openui5.org/topic/2ca583d6b9c24e4d8f189eada7c4b668)</div>
 
 ## Step 16: Adding the Date Formatter
 

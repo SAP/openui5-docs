@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://sdk.openui5.org/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d70e9894c09b4c27a98d4850d4e90f2c) | [demo kit latest release](https://sdk.openui5.org/topic/d70e9894c09b4c27a98d4850d4e90f2c)</div>
 
 ## Step 3: Create Property Binding
 

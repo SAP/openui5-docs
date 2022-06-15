@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://sdk.openui5.org/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/284a036c8ff943238fb65bf5a2676fb7) | [demo kit latest release](https://sdk.openui5.org/topic/284a036c8ff943238fb65bf5a2676fb7)</div>
 
 ## Step 15: Aggregation Binding Using a Factory Function
 

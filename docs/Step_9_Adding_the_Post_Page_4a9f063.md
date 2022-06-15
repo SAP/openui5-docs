@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4a9f063d4a4143d5b5c10416677f04b6) | [demo kit latest release](https://sdk.openui5.org/topic/4a9f063d4a4143d5b5c10416677f04b6)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4a9f063d4a4143d5b5c10416677f04b6) | [demo kit latest release](https://sdk.openui5.org/topic/4a9f063d4a4143d5b5c10416677f04b6)</div>
 
 ## Step 9: Adding the *Post* Page
 

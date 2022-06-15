@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://sdk.openui5.org/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6c7c5c266b534e7ea9a28f861dc515f5) | [demo kit latest release](https://sdk.openui5.org/topic/6c7c5c266b534e7ea9a28f861dc515f5)</div>
 
 ## Step 13: Element Binding
 

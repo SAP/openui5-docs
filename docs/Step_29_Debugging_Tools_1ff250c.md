@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://sdk.openui5.org/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1ff250c2038849f5991209f7e6c36f1f) | [demo kit latest release](https://sdk.openui5.org/topic/1ff250c2038849f5991209f7e6c36f1f)</div>
 
 ## Step 29: Debugging Tools
 

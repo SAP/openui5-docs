@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://sdk.openui5.org/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c71f6df62dae47ca8284310a6f5fc80a) | [demo kit latest release](https://sdk.openui5.org/topic/c71f6df62dae47ca8284310a6f5fc80a)</div>
 
 ## Using Container Content Padding CSS Classes
 

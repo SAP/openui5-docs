@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7f651316d396400d88835adb0d021532) | [demo kit latest release](https://sdk.openui5.org/topic/7f651316d396400d88835adb0d021532)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7f651316d396400d88835adb0d021532) | [demo kit latest release](https://sdk.openui5.org/topic/7f651316d396400d88835adb0d021532)</div>
 
 ## Step 7: Routing
 

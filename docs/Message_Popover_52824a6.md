@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/52824a6c316a413dbd7bd5f29522dce2) | [demo kit latest release](https://sdk.openui5.org/topic/52824a6c316a413dbd7bd5f29522dce2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/52824a6c316a413dbd7bd5f29522dce2) | [demo kit latest release](https://sdk.openui5.org/topic/52824a6c316a413dbd7bd5f29522dce2)</div>
 
 ## Message Popover
 

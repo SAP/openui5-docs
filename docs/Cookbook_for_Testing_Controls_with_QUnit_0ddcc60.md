@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0ddcc60b05ee40dea1a3be09e8fee8f7) | [demo kit latest release](https://sdk.openui5.org/topic/0ddcc60b05ee40dea1a3be09e8fee8f7)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0ddcc60b05ee40dea1a3be09e8fee8f7) | [demo kit latest release](https://sdk.openui5.org/topic/0ddcc60b05ee40dea1a3be09e8fee8f7)</div>
 
 ## Cookbook for Testing Controls with QUnit
 

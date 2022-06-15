@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/36a5b130076e4b4aac2c27eebf324909) | [demo kit latest release](https://sdk.openui5.org/topic/36a5b130076e4b4aac2c27eebf324909)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/36a5b130076e4b4aac2c27eebf324909) | [demo kit latest release](https://sdk.openui5.org/topic/36a5b130076e4b4aac2c27eebf324909)</div>
 
 ## Reusing UI Parts: Fragments
 

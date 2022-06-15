@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/bf38e4de70084477b9e104bf6f6d7737) | [demo kit latest release](https://sdk.openui5.org/topic/bf38e4de70084477b9e104bf6f6d7737)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bf38e4de70084477b9e104bf6f6d7737) | [demo kit latest release](https://sdk.openui5.org/topic/bf38e4de70084477b9e104bf6f6d7737)</div>
 
 ## Step 2: Creating an Empty Flexible Column Layout
 

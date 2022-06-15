@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b564935324f449209354c7e2f9903f22) | [demo kit latest release](https://sdk.openui5.org/topic/b564935324f449209354c7e2f9903f22)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b564935324f449209354c7e2f9903f22) | [demo kit latest release](https://sdk.openui5.org/topic/b564935324f449209354c7e2f9903f22)</div>
 
 ## Using CSS Style Sheets in XML Views
 

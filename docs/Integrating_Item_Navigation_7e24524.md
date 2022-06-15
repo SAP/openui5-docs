@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7e245247aef949ac84785c56deb8baac) | [demo kit latest release](https://sdk.openui5.org/topic/7e245247aef949ac84785c56deb8baac)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7e245247aef949ac84785c56deb8baac) | [demo kit latest release](https://sdk.openui5.org/topic/7e245247aef949ac84785c56deb8baac)</div>
 
 ## Integrating Item Navigation
 

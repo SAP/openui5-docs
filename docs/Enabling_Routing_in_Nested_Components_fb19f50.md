@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://sdk.openui5.org/topic/fb19f501b16e4e4991eb6a017770945b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fb19f501b16e4e4991eb6a017770945b) | [demo kit latest release](https://sdk.openui5.org/topic/fb19f501b16e4e4991eb6a017770945b)</div>
 
 ## Enabling Routing in Nested Components
 

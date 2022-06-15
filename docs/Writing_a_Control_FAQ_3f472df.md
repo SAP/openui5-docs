@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3f472df7cb364ab48541566d5cb1821e) | [demo kit latest release](https://sdk.openui5.org/topic/3f472df7cb364ab48541566d5cb1821e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3f472df7cb364ab48541566d5cb1821e) | [demo kit latest release](https://sdk.openui5.org/topic/3f472df7cb364ab48541566d5cb1821e)</div>
 
 ## Writing a Control: FAQ
 

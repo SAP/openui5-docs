@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/ec445816634f45eb88a7e559187dac46) | [demo kit latest release](https://sdk.openui5.org/topic/ec445816634f45eb88a7e559187dac46)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ec445816634f45eb88a7e559187dac46) | [demo kit latest release](https://sdk.openui5.org/topic/ec445816634f45eb88a7e559187dac46)</div>
 
 ## Step 9: List-Detail Scenario
 

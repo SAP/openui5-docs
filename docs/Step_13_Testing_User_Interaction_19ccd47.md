@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/19ccd473c9a14c2ab7529303a2232d2c) | [demo kit latest release](https://sdk.openui5.org/topic/19ccd473c9a14c2ab7529303a2232d2c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/19ccd473c9a14c2ab7529303a2232d2c) | [demo kit latest release](https://sdk.openui5.org/topic/19ccd473c9a14c2ab7529303a2232d2c)</div>
 
 ## Step 13: Testing User Interaction
 

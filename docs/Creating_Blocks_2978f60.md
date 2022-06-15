@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2978f6064742456ebed31c5ccf4d051d) | [demo kit latest release](https://sdk.openui5.org/topic/2978f6064742456ebed31c5ccf4d051d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2978f6064742456ebed31c5ccf4d051d) | [demo kit latest release](https://sdk.openui5.org/topic/2978f6064742456ebed31c5ccf4d051d)</div>
 
 ## Creating Blocks
 

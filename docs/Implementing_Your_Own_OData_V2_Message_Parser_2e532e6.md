@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://sdk.openui5.org/topic/2e532e6288854e5897a819a2ab6cc910)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2e532e6288854e5897a819a2ab6cc910) | [demo kit latest release](https://sdk.openui5.org/topic/2e532e6288854e5897a819a2ab6cc910)</div>
 
 ## Implementing Your Own OData V2 Message Parser
 

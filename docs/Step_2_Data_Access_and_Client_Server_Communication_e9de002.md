@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e9de002ddf1e478fbb9232bfba83dcf0) | [demo kit latest release](https://sdk.openui5.org/topic/e9de002ddf1e478fbb9232bfba83dcf0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e9de002ddf1e478fbb9232bfba83dcf0) | [demo kit latest release](https://sdk.openui5.org/topic/e9de002ddf1e478fbb9232bfba83dcf0)</div>
 
 ## Step 2: Data Access and Client-Server Communication
 

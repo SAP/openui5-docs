@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/81c68e4654994da5935add669e48f20c) | [demo kit latest release](https://sdk.openui5.org/topic/81c68e4654994da5935add669e48f20c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/81c68e4654994da5935add669e48f20c) | [demo kit latest release](https://sdk.openui5.org/topic/81c68e4654994da5935add669e48f20c)</div>
 
 ## Keyboard Handling for Triggering Actions on Item Level
 

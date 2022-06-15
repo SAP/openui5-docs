@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2bf4892527174264808076be32c1e1b0) | [demo kit latest release](https://sdk.openui5.org/topic/2bf4892527174264808076be32c1e1b0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2bf4892527174264808076be32c1e1b0) | [demo kit latest release](https://sdk.openui5.org/topic/2bf4892527174264808076be32c1e1b0)</div>
 
 ## Step 3: Adding the Price Formatter
 

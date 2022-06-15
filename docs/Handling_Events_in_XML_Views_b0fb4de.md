@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://sdk.openui5.org/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b0fb4de7364f4bcbb053a99aa645affe) | [demo kit latest release](https://sdk.openui5.org/topic/b0fb4de7364f4bcbb053a99aa645affe)</div>
 
 ## Handling Events in XML Views
 

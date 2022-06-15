@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://sdk.openui5.org/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/604b1eb50e47483ebaf97a27fb065e95) | [demo kit latest release](https://sdk.openui5.org/topic/604b1eb50e47483ebaf97a27fb065e95)</div>
 
 ## Replacement of Bindings
 

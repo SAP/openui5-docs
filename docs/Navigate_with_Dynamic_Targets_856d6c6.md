@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/856d6c6a408846b480ca177b9a1aab62) | [demo kit latest release](https://sdk.openui5.org/topic/856d6c6a408846b480ca177b9a1aab62)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/856d6c6a408846b480ca177b9a1aab62) | [demo kit latest release](https://sdk.openui5.org/topic/856d6c6a408846b480ca177b9a1aab62)</div>
 
 ## Navigate with Dynamic Targets
 

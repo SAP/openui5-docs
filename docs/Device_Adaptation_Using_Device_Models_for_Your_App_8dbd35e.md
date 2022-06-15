@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://sdk.openui5.org/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8dbd35e1577b445d8077b2bc6ad8b958) | [demo kit latest release](https://sdk.openui5.org/topic/8dbd35e1577b445d8077b2bc6ad8b958)</div>
 
 ## Device Adaptation: Using Device Models for Your App
 

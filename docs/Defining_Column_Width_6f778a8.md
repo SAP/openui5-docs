@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://sdk.openui5.org/topic/6f778a805bc3453dbb66e246d8271839)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6f778a805bc3453dbb66e246d8271839) | [demo kit latest release](https://sdk.openui5.org/topic/6f778a805bc3453dbb66e246d8271839)</div>
 
 ## Defining Column Width
 

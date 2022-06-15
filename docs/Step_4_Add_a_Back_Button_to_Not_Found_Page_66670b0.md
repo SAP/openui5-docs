@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://sdk.openui5.org/topic/66670b0aab3948469d5cc8276113e9ea)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/66670b0aab3948469d5cc8276113e9ea) | [demo kit latest release](https://sdk.openui5.org/topic/66670b0aab3948469d5cc8276113e9ea)</div>
 
 ## Step 4: Add a *Back* Button to *Not Found* Page
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://sdk.openui5.org/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fb487ef0f9bf41a3afdbd0cc97368873) | [demo kit latest release](https://sdk.openui5.org/topic/fb487ef0f9bf41a3afdbd0cc97368873)</div>
 
 ## Using the `autoWait` Parameter
 

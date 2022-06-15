@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://sdk.openui5.org/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7f29fb3ce5964d8090038a9d3cdf5060) | [demo kit latest release](https://sdk.openui5.org/topic/7f29fb3ce5964d8090038a9d3cdf5060)</div>
 
 ## Meta Model for OData V4
 

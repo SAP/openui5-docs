@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://sdk.openui5.org/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/07e4b920f5734fd78fdaa236f26236d8) | [demo kit latest release](https://sdk.openui5.org/topic/07e4b920f5734fd78fdaa236f26236d8)</div>
 
 ## Formatting, Parsing, and Validating Data
 

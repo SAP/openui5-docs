@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/26ba6a5c1e5c417f8b21cce1411dba2c) | [demo kit latest release](https://sdk.openui5.org/topic/26ba6a5c1e5c417f8b21cce1411dba2c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/26ba6a5c1e5c417f8b21cce1411dba2c) | [demo kit latest release](https://sdk.openui5.org/topic/26ba6a5c1e5c417f8b21cce1411dba2c)</div>
 
 ## Manifest Model Preload
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e047e0596e8a4a1db50f4a53c11f4276) | [demo kit latest release](https://sdk.openui5.org/topic/e047e0596e8a4a1db50f4a53c11f4276)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e047e0596e8a4a1db50f4a53c11f4276) | [demo kit latest release](https://sdk.openui5.org/topic/e047e0596e8a4a1db50f4a53c11f4276)</div>
 
 ## Step 3: Catch Invalid Hashes
 

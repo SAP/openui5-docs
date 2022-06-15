@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://sdk.openui5.org/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cdab0a1123514cc08cf2c8deb22f312e) | [demo kit latest release](https://sdk.openui5.org/topic/cdab0a1123514cc08cf2c8deb22f312e)</div>
 
 ## Step 10: Implement “Lazy Loading”
 

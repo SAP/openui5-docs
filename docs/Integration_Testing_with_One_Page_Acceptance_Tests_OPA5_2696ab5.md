@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2696ab50faad458f9b4027ec2f9b884d) | [demo kit latest release](https://sdk.openui5.org/topic/2696ab50faad458f9b4027ec2f9b884d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2696ab50faad458f9b4027ec2f9b884d) | [demo kit latest release](https://sdk.openui5.org/topic/2696ab50faad458f9b4027ec2f9b884d)</div>
 
 ## Integration Testing with One Page Acceptance Tests \(OPA5\)
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://sdk.openui5.org/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/81c735e69d354de98b0bd139e4bd4e10) | [demo kit latest release](https://sdk.openui5.org/topic/81c735e69d354de98b0bd139e4bd4e10)</div>
 
 ## OData V2 Messages
 

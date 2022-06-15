@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e6cd5476193f48d1a273de990276c9bc) | [demo kit latest release](https://sdk.openui5.org/topic/e6cd5476193f48d1a273de990276c9bc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e6cd5476193f48d1a273de990276c9bc) | [demo kit latest release](https://sdk.openui5.org/topic/e6cd5476193f48d1a273de990276c9bc)</div>
 
 ## Keyboard Usage of ARIA Role Mapped Controls
 

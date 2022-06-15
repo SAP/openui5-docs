@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://sdk.openui5.org/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cb3863746ea14d3698a8b6cc2c62832d) | [demo kit latest release](https://sdk.openui5.org/topic/cb3863746ea14d3698a8b6cc2c62832d)</div>
 
 ## Step 13: Setting the Master-Detail Pattern
 

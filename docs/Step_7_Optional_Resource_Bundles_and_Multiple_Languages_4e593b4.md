@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://sdk.openui5.org/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4e593b44e78a431e8b21be6b3915fb55) | [demo kit latest release](https://sdk.openui5.org/topic/4e593b44e78a431e8b21be6b3915fb55)</div>
 
 ## Step 7: \(Optional\) Resource Bundles and Multiple Languages
 

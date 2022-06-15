@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://sdk.openui5.org/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c6da1a56c2a14742b785c7bd5ca4205b) | [demo kit latest release](https://sdk.openui5.org/topic/c6da1a56c2a14742b785c7bd5ca4205b)</div>
 
 ## Router
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://sdk.openui5.org/topic/be0cf40f61184b358b5faedaec98b2da)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/be0cf40f61184b358b5faedaec98b2da) | [demo kit latest release](https://sdk.openui5.org/topic/be0cf40f61184b358b5faedaec98b2da)</div>
 
 ## Descriptor for Applications, Components, and Libraries \(manifest.json\)
 

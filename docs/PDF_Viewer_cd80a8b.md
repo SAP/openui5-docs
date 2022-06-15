@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://sdk.openui5.org/topic/cd80a8bca4ac450b86547d78f0653330)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cd80a8bca4ac450b86547d78f0653330) | [demo kit latest release](https://sdk.openui5.org/topic/cd80a8bca4ac450b86547d78f0653330)</div>
 
 ## PDF Viewer
 

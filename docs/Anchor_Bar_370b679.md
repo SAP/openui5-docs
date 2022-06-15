@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/370b67986497463187336fa130aebbf1) | [demo kit latest release](https://sdk.openui5.org/topic/370b67986497463187336fa130aebbf1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/370b67986497463187336fa130aebbf1) | [demo kit latest release](https://sdk.openui5.org/topic/370b67986497463187336fa130aebbf1)</div>
 
 ## Anchor Bar
 

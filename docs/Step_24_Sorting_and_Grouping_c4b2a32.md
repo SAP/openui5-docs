@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://sdk.openui5.org/topic/c4b2a32bb72f483faa173e890e48d812)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c4b2a32bb72f483faa173e890e48d812) | [demo kit latest release](https://sdk.openui5.org/topic/c4b2a32bb72f483faa173e890e48d812)</div>
 
 ## Step 24: Sorting and Grouping
 

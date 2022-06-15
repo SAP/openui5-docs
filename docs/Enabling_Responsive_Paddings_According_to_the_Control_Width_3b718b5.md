@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b718b5372fa457c92cf5087a673e953) | [demo kit latest release](https://sdk.openui5.org/topic/3b718b5372fa457c92cf5087a673e953)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3b718b5372fa457c92cf5087a673e953) | [demo kit latest release](https://sdk.openui5.org/topic/3b718b5372fa457c92cf5087a673e953)</div>
 
 ## Enabling Responsive Paddings According to the Control Width
 

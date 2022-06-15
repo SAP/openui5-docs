@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/2613ebc835764abd9aefd2e6fa8b7392) | [demo kit latest release](https://sdk.openui5.org/topic/2613ebc835764abd9aefd2e6fa8b7392)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/2613ebc835764abd9aefd2e6fa8b7392) | [demo kit latest release](https://sdk.openui5.org/topic/2613ebc835764abd9aefd2e6fa8b7392)</div>
 
 ## Deleting an Entity
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/4d1b9d44941f483f9b7f579873d38685) | [demo kit latest release](https://sdk.openui5.org/topic/4d1b9d44941f483f9b7f579873d38685)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4d1b9d44941f483f9b7f579873d38685) | [demo kit latest release](https://sdk.openui5.org/topic/4d1b9d44941f483f9b7f579873d38685)</div>
 
 ## Currency and Unit Customizing in OData V4
 

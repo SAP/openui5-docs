@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://sdk.openui5.org/topic/676b636446c94eada183b1218a824717)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/676b636446c94eada183b1218a824717) | [demo kit latest release](https://sdk.openui5.org/topic/676b636446c94eada183b1218a824717)</div>
 
 ## Use Asynchronous Loading
 

@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://sdk.openui5.org/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/08197fa68e4f479cbe30f639cc1cd22c) | [demo kit latest release](https://sdk.openui5.org/topic/08197fa68e4f479cbe30f639cc1cd22c)</div>
 
 ## sap.ui.table
 

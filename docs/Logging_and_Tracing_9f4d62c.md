@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://sdk.openui5.org/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe) | [demo kit latest release](https://sdk.openui5.org/topic/9f4d62c6648a423d85aaf2bfc2c7ddfe)</div>
 
 ## Logging and Tracing
 

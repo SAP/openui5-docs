@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://sdk.openui5.org/topic/e85da535ea19430a90c381f3c2bd748e)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e85da535ea19430a90c381f3c2bd748e) | [demo kit latest release](https://sdk.openui5.org/topic/e85da535ea19430a90c381f3c2bd748e)</div>
 
 ## Step 12: Make a Search Bookmarkable
 

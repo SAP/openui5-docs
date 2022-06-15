@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/10b14c7284ba48a185ae2046db470706) | [demo kit latest release](https://sdk.openui5.org/topic/10b14c7284ba48a185ae2046db470706)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/10b14c7284ba48a185ae2046db470706) | [demo kit latest release](https://sdk.openui5.org/topic/10b14c7284ba48a185ae2046db470706)</div>
 
 ## Defining Groups for Fast Navigation
 

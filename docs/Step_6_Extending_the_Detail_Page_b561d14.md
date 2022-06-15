@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b561d146f9114b029bd60fa26df09c6b) | [demo kit latest release](https://sdk.openui5.org/topic/b561d146f9114b029bd60fa26df09c6b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b561d146f9114b029bd60fa26df09c6b) | [demo kit latest release](https://sdk.openui5.org/topic/b561d146f9114b029bd60fa26df09c6b)</div>
 
 ## Step 6: Extending the Detail Page
 

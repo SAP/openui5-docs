@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/17b30ac2d5474078be31e695e97450cc) | [demo kit latest release](https://sdk.openui5.org/topic/17b30ac2d5474078be31e695e97450cc)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/17b30ac2d5474078be31e695e97450cc) | [demo kit latest release](https://sdk.openui5.org/topic/17b30ac2d5474078be31e695e97450cc)</div>
 
 ## Accessing Data in Controller Code
 

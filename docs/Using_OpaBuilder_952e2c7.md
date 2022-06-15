@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/952e2c7458e14d6581cdfc510fbb272a) | [demo kit latest release](https://sdk.openui5.org/topic/952e2c7458e14d6581cdfc510fbb272a)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/952e2c7458e14d6581cdfc510fbb272a) | [demo kit latest release](https://sdk.openui5.org/topic/952e2c7458e14d6581cdfc510fbb272a)</div>
 
 ## Using `OpaBuilder`
 

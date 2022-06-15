@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/76e789ea418a48a1a27916b63a30fb72) | [demo kit latest release](https://sdk.openui5.org/topic/76e789ea418a48a1a27916b63a30fb72)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/76e789ea418a48a1a27916b63a30fb72) | [demo kit latest release](https://sdk.openui5.org/topic/76e789ea418a48a1a27916b63a30fb72)</div>
 
 ## Step 5: UI5 Inspector
 

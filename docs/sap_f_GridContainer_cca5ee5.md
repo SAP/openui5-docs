@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/cca5ee5d63ca44c89318f8496a58f9f2) | [demo kit latest release](https://sdk.openui5.org/topic/cca5ee5d63ca44c89318f8496a58f9f2)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cca5ee5d63ca44c89318f8496a58f9f2) | [demo kit latest release](https://sdk.openui5.org/topic/cca5ee5d63ca44c89318f8496a58f9f2)</div>
 
 ## sap.f.GridContainer
 

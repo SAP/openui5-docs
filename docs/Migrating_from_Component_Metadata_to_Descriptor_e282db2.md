@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/e282db2865e94f69972c407469b801e9) | [demo kit latest release](https://sdk.openui5.org/topic/e282db2865e94f69972c407469b801e9)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e282db2865e94f69972c407469b801e9) | [demo kit latest release](https://sdk.openui5.org/topic/e282db2865e94f69972c407469b801e9)</div>
 
 ## Migrating from Component Metadata to Descriptor
 

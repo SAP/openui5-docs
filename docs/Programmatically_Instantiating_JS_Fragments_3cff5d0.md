@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3cff5d0fa6754c0d9fdacd80653b81fb) | [demo kit latest release](https://sdk.openui5.org/topic/3cff5d0fa6754c0d9fdacd80653b81fb)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3cff5d0fa6754c0d9fdacd80653b81fb) | [demo kit latest release](https://sdk.openui5.org/topic/3cff5d0fa6754c0d9fdacd80653b81fb)</div>
 
 ## Programmatically Instantiating JS Fragments
 

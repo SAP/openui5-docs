@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/0ec1d91487aa43058914ba80ccefbc9b) | [demo kit latest release](https://sdk.openui5.org/topic/0ec1d91487aa43058914ba80ccefbc9b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0ec1d91487aa43058914ba80ccefbc9b) | [demo kit latest release](https://sdk.openui5.org/topic/0ec1d91487aa43058914ba80ccefbc9b)</div>
 
 ## Important FlexBox Layout Concepts
 

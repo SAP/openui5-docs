@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://sdk.openui5.org/topic/fe12df2e338e43598977d09f3d191b7b)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fe12df2e338e43598977d09f3d191b7b) | [demo kit latest release](https://sdk.openui5.org/topic/fe12df2e338e43598977d09f3d191b7b)</div>
 
 ## Step 2: Bootstrap
 

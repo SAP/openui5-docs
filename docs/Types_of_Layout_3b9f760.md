@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://sdk.openui5.org/topic/3b9f760da5b64adf8db7f95247879086)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3b9f760da5b64adf8db7f95247879086) | [demo kit latest release](https://sdk.openui5.org/topic/3b9f760da5b64adf8db7f95247879086)</div>
 
 ## Types of Layout
 

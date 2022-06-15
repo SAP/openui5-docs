@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/6d6b5bda5727419eadcc9cbac1f6e6a1) | [demo kit latest release](https://sdk.openui5.org/topic/6d6b5bda5727419eadcc9cbac1f6e6a1)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6d6b5bda5727419eadcc9cbac1f6e6a1) | [demo kit latest release](https://sdk.openui5.org/topic/6d6b5bda5727419eadcc9cbac1f6e6a1)</div>
 
 ## init\(\) Method
 

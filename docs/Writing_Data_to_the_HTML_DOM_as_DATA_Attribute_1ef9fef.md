@@ -6,7 +6,7 @@
 
 <div id="loio">
 
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/1ef9fefa2a574735957dcf52502ab8d0) | [demo kit latest release](https://sdk.openui5.org/topic/1ef9fefa2a574735957dcf52502ab8d0)</div>
+view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1ef9fefa2a574735957dcf52502ab8d0) | [demo kit latest release](https://sdk.openui5.org/topic/1ef9fefa2a574735957dcf52502ab8d0)</div>
 
 ## Writing Data to the HTML DOM as DATA-\* Attribute
 
