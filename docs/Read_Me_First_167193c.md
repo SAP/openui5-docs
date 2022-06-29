@@ -32,9 +32,8 @@ OpenUI5 offers many powerful enterprise features to support your entire app deve
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
--   **[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Browser and platform support for the OpenUI5 libraries on iOS,
-		Android, macOS, and Windows platforms.")**  
-Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
+-   **[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")**  
+Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 -   **[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of
 		JavaScript and CSS libraries, which can be combined in an application using the combinations
 		that are supported.")**  

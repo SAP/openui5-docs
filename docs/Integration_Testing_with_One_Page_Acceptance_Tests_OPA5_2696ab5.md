@@ -82,5 +82,5 @@ Tips and tricks if OPA isn't behaving or reacting the way you expect it to.
 **Related Information**  
 
 
-[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
+[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
 

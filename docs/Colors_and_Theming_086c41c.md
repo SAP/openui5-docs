@@ -28,25 +28,25 @@ Different people perceive and interpret colors in different ways, which is somet
     -   With the URL parameter `sap-ui-theme`
 
         ```
-        sap-ui-theme=sap_fiori_3_hcb
+        sap-ui-theme=sap_horizon_3_hcb
         ```
 
         and
 
         ```
-        sap-ui-theme=sap_fiori_3_hcw
+        sap-ui-theme=sap_horizon_3_hcw
         ```
 
     -   From the API using the core method `applyTheme`
 
         ```
-        sap.ui.getCore().applyTheme(“sap_fiori_3_hcb”);
+        sap.ui.getCore().applyTheme(“sap_horizon_3_hcb”);
         ```
 
         or
 
         ```
-        sap.ui.getCore().applyTheme(“sap_fiori_3_hcw”);
+        sap.ui.getCore().applyTheme(“sap_horizon_3_hcw”);
         ```
 
 

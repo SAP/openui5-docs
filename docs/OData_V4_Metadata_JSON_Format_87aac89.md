@@ -51,6 +51,21 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 
 ### Metadata JSON Structure
 
+> ### Note:  
+> For segments which represent a path, such as the keys for the `"$ReferentialConstraint"` and`"$NavigationPropertyBinding"` maps, you need to use URL encoding for the slash character \(`"%2F"`\).
+> 
+> > ### Sample Code:  
+> > **Escaping the Slash Character**
+> > 
+> > ```xml
+> > <EntitySet Name="Customer" EntityType="...CustomerParameters">
+> > <NavigationPropertyBinding Path="Set/Parameters" Target="Customer"/>
+> > ```
+> > 
+> > ```js
+> > oMetaModel.getObject('/Customer/$NavigationPropertyBinding/Set%2FParameters')
+> > ```
+
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`:
 
 ```js

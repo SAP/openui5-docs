@@ -41,5 +41,5 @@ OData as a RESTful protocol provides a specified and a generalized way to access
 
 [Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in an application using the combinations that are supported.")
 
-[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
+[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")
 
