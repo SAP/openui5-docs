@@ -39,23 +39,23 @@ Currently, the following libraries support the high contrast themes:
 
 ### Switching on the HCB theme
 
-You can switch on the High Contrast Black theme by appending the `sap_fiori_3_hcb` URL parameter as in the following example.
+You can switch on the High Contrast Black theme by appending the `sap_horizon_hcb` URL parameter as in the following example.
 
 > ### Example:  
 > HCB Theme Enablement
 > 
-> <code>http://&lt;hostname&gt;:&lt;port&gt;...?&lt;parameter&gt;=&lt;value&gt;&amp;...&amp;<b>sap_fiori_3_hcb</b></code>
+> <code>http://&lt;hostname&gt;:&lt;port&gt;...?&lt;parameter&gt;=&lt;value&gt;&amp;...&amp;<b>sap_horizon_hcb</b></code>
 
 ***
 
 ### Switching on the HCW theme
 
-You can switch on the High Contrast White theme by appending the `sap_fiori_3_hcw` URL parameter as in the following example.
+You can switch on the High Contrast White theme by appending the `sap_horizon_hcw` URL parameter as in the following example.
 
 > ### Example:  
 > HCW Theme Enablement
 > 
-> <code>http://&lt;hostname&gt;:&lt;port&gt;...?&lt;parameter&gt;=&lt;value&gt;&amp;...&amp;<b>sap_fiori_3_hcw</b></code>
+> <code>http://&lt;hostname&gt;:&lt;port&gt;...?&lt;parameter&gt;=&lt;value&gt;&amp;...&amp;<b>sap_horizon_hcw</b></code>
 
 > ### Note:  
 > Have in mind that OpenUI5 is optimized for the high contrast mode of Windows when using Chrome and Edge. If you have enabled both the Windows contrast setting and the OpenUI5 high contrast theme and you are using browser different than Chrome and Edge, this may cause conflicts, and deficiencies in the theme can occur. In such cases, please switch off the Windows setting or use another browser.

@@ -47,10 +47,6 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 -   "14.5.14.2 Element PropertyValue" with key `"<14.5.14.2.1 PropertyValue Property>"`
 
 
-***
-
-### Metadata JSON Structure
-
 > ### Note:  
 > For segments which represent a path, such as the keys for the `"$ReferentialConstraint"` and`"$NavigationPropertyBinding"` maps, you need to use URL encoding for the slash character \(`"%2F"`\).
 > 
@@ -65,6 +61,10 @@ We use the `"<key>@<14.3.1 Annotation Term>#<14.3.2 Annotation Qualifier>" : <va
 > > ```js
 > > oMetaModel.getObject('/Customer/$NavigationPropertyBinding/Set%2FParameters')
 > > ```
+
+***
+
+### Metadata JSON Structure
 
 The following JSON file represents the metadata document which corresponds to `GET <serviceRoot>/$metadata`:
 
