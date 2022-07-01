@@ -18,7 +18,7 @@ OpenUI5 offers visualization features out of the box.
 
 #### Minimum Contrast
 
-SAP Fiori default theme \(SAP Quartz Light\) fulfills the requirements for minimum color contrast of Web Content Accessibility Guidelines WCAG 2.1. UI5 provided themes: Quartz Light, High Contrast Black, High Contrast White, Quartz Dark.
+SAP Fiori default theme \(Horizon\) fulfills the requirements for minimum color contrast of Web Content Accessibility Guidelines WCAG 2.1. UI5 provided themes: Morning Horizon, Evening Horizon, High Contrast White, High Contrast Black.
 
 ***
 
