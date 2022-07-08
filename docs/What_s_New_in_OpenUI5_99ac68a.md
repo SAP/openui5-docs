@@ -16,7 +16,7 @@ Find out what's new in the latest versions of OpenUI5.
 
 ![](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
 
--   [f01ebd44da544fa8824464447b896a5c.md](f01ebd44da544fa8824464447b896a5c.md)
+-   [What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md)
 -   [What's New in OpenUI5 1.103](What_s_New_in_OpenUI5_1_103_7534ae8.md)
 -   [Previous Versions](Previous_Versions_6660a59.md)
 
@@ -26,6 +26,10 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 
 
 
+-   **[What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md "With
+		this release OpenUI5 is upgraded
+		from version 1.103 to 1.104.")**  
+With this release OpenUI5 is upgraded from version 1.103 to 1.104.
 -   **[What's New in OpenUI5 1.103](What_s_New_in_OpenUI5_1_103_7534ae8.md "With
 		this release OpenUI5 is upgraded
 		from version 1.102 to 1.103.")**  
