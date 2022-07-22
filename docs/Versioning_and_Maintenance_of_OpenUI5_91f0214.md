@@ -22,7 +22,7 @@ OpenUI5 uses a 3-digit version identifier, for example 1.71.22 The digits have t
 
 To view the documentation for a specific version, check at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html) which versions are available. You can view the version-specific Demo Kit by adding the version number to the URL, for example, `https://sdk.openui5.org/1.71.22/`.
 
-To get an overview of the new features of each version, see [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://sdk.openui5.orgreleasenotes.html).
+To get an overview of the new features of each version, see [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md), to see the fixes contained in each patch check the  [Change Log](https://sdk.openui5.org/releasenotes.html).
 
 ***
 

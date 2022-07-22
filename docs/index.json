@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.104": {
 						"link": "What_s_New_in_OpenUI5_1_104_f01ebd4.md"
 					},
-					"What's New in OpenUI5 1.103": {
-						"link": "What_s_New_in_OpenUI5_1_103_7534ae8.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.103": {
+								"link": "What_s_New_in_OpenUI5_1_103_7534ae8.md"
+							},
 							"What's New in OpenUI5 1.102": {
 								"link": "What_s_New_in_OpenUI5_1_102_b530db3.md"
 							},
