@@ -758,7 +758,7 @@ n/a
 
 ### Deprecated Libraries
 
-Should you decide to ignore the deprecation of libaries and continue, for example, using `sap.ui.commons` and `sap.ui.ux3`, we recommend you use the `sap_bluecrystal` or `sap_belize` theme.
+Should you decide to ignore the deprecation of libraries and continue, for example, using `sap.ui.commons` and `sap.ui.ux3`, we recommend you use the `sap_bluecrystal` or `sap_belize` theme.
 
 The `sap_bluecrystal` theme is also no longer supported, but offers full coverage of the `sap.ui.commons` and the `sap.ui.ux3` library. It is currently still shipped, **but will be removed in one of the next versions.**
 
