@@ -14,6 +14,14 @@ The OData V4 Model supports features of the OData Extension for Data Aggregation
 
 The `$$aggregation` binding parameter at [`sap.ui.model.odata.v4.ODataModel#bindList`](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataModel/methods/bindList) holds the information needed for data aggregation. It may be changed by [`sap.ui.model.odata.v4.ODataListBinding#setAggregation`](https://sdk.openui5.orgapi/sap.ui.model.odata.v4.ODataListBinding/methods/setAggregation). It cannot be combined with an explicit system query option `$apply`, because it implicitly derives `$apply`. For more information, see the [OData Extension for Data Aggregation V4.0 specification](http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/odata-data-aggregation-ext-v4.0.html).
 
+Since 1.105.0, either a recursive hierarchy \(see below\) or \(pure\) data aggregation is supported, but no mix; `hierarchyQualifier` is the leading property that decides between these two use cases - **this is an experimental API**.
+
+***
+
+<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_nxp_ycx_35b"/>
+
+### Data Aggregation
+
 For every aggregatable property, you can provide the name of the custom aggregate for a corresponding currency or unit of measure. That custom aggregate must return the single value of a unit in case there is only one, or `null` otherwise \("multi-unit situation"\). For SQL-based services, this might be implemented as follows:
 
  `CASE WHEN min(Unit) = max(Unit) THEN min(Unit) END` 
@@ -148,4 +156,14 @@ You can provide a search string to be applied before data aggregation via the `o
 ### Additional Properties
 
 For each groupable property, you can define an optional list of strings that provides the paths to properties \(like texts or attributes\) related to this groupable property in a 1:1 relation. They are requested additionally via `groupby` and must not change the actual grouping; a `unit` for an aggregatable property must not be repeated there.
+
+***
+
+<a name="loio7d914317c0b64c23824bf932cc8a4ae1__section_RCH"/>
+
+### Recursive Hierarchy
+
+You can use a list binding to display hierarchical data \("a tree"\) inside a table. Such a recursive hierarchy is described by a pair of ["Org.OData.Aggregation.V1.RecursiveHierarchy"](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Aggregation.V1.html#RecursiveHierarchy) and ["com.sap.vocabularies.Hierarchy.v1.RecursiveHierarchy"](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Hierarchy.md) annotations at the list binding's entity type, and you need to use the same qualifier for both of these annotations - this is called the **hierarchy qualifier**. If the `hierarchyQualifier` property of `$$aggregation` is present \(an **experimental API** as of OpenUI5 1.105.0\), a recursive hierarchy without data aggregation is defined, and the only other supported property is `expandTo`, which optionally specifies the number of initially expanded levels as a positive integer.
+
+The `@$ui5.node.level` and `@$ui5.node.isExpanded` client-side instance annotations can be used as described above to to access a node level or expansion state.
 

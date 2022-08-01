@@ -1063,6 +1063,29 @@ Version 45
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 46
+
+
+
+</td>
+<td valign="top">
+
+\>=1.105
+
+
+
+</td>
+<td valign="top">
+
+1.45.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -1366,7 +1389,7 @@ The i18n property is an **optional** attribute and contains one of the following
 
      
 
--   An object that has been defined as described in [Terminologies](Terminologies_eba8d25.md).
+-   An object that has been defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) and [Terminologies](Terminologies_eba8d25.md).
 
 If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.
 
@@ -1912,7 +1935,7 @@ Defines models that should be created or destroyed along the component's lifecyc
     > -   [sap.ui.model.resource.ResourceModel](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel/constructor)
     > 
     > 
-    > The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either `component` \(default\) or `manifest`\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Terminologies](Terminologies_eba8d25.md).
+    > The attribute `enhanceWith` can be specified with `bundleUrl`, `bundleUrlRelativeTo` \(either `component` \(default\) or `manifest`\) or `bundleName` to provide a list of additional resource bundle configurations to enhance the `ResourceModel` with. Additional attributes can be found in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) and [Terminologies](Terminologies_eba8d25.md).
 
 -   `dataSource`: String of key or alias from `sap.app dataSources` to reference an existing data source; the `type`, `uri` and `settings` properties are set according to the data source's `type`, `uri` and `settings` \(if not already defined\). If the type under `sap.app dataSources` is `OData`, an OData Model V2 is created automatically. If you need an OData Model V1, specify the `type` as well.
 -   `preload`: Optional; Boolean with `true`, `false` \(default\)
@@ -2099,7 +2122,7 @@ An optional attribute that only has to be provided if your project is a variant 
 </td>
 <td valign="top">
 
-Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined.
+Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined. Alternatively an object defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md).
 
 > ### Note:  
 > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
@@ -2235,7 +2258,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.44.0",
+    "_version": "1.45.0",
  
     "start_url": "index.html",
  
@@ -2323,7 +2346,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.104.0",
+            "minUI5Version": "1.105.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

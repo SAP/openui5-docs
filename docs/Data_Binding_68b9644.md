@@ -28,7 +28,7 @@ There are also internal data sources that are defined in the app for specific pu
 
 -   The **resource model** is used in communication with the resource bundle that contains translatable texts in multiple languages.
 
--   The **device model** is provided by the framework and defines device-specific settings.
+-   The **device model** holds device-specific settings, which can be retrieved from the `sap/ui/Device` module provided by the framework.
 
 -   **View models** can be, for example, JSON models that communicate with a corresponding JSON object. JSON data can also be edited in the app, but they are not stored - as soon as you refresh the browser or restart the app, the changes are reset.
 
