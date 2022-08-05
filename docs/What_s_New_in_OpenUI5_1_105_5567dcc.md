@@ -14,6 +14,91 @@ With this release OpenUI5 is upgraded from version 1.104 to 1.105.
 
 ***
 
+<a name="loio5567dccb287b4dd9aa755a76cf25ae41__section_st2_dgs_h5b"/>
+
+### Preview and Announcements
+
+The following information concerns important upcoming changes. UI changes may have an impact on the user experience and may require test cases to be adapted.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Type
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Available as of OpenUI5 Version
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
+**Reminder: Outdated OpenUI5 Versions to Be Removed from the CDN**
+
+For security reasons, OpenUI5 versions that are no longer maintained will be removed from the UI5 content delivery network \(CDN\) one year after their end of maintenance. If a version is still in maintenance, patches of that version that are older than one year will also be removed. We have noted that a number of customers are still using such outdated versions or patches. If this affects you, please note that once these versions or patches are removed, your applications will break. Please update to a more recent version or patch. For more information, see: [Removing Outdated UI5 Versions from UI5 CDN](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/) as well as the UI5 notifications in the Demo Kit.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UI Change
+
+
+
+</td>
+<td valign="top">
+
+**Stricter Validation of Decimal and Grouping Separators**
+
+If a user added grouping separators when entering a number, the parsing logic ignored them. This could result in an unwanted number if the user confused grouping separators and decimal separators. Since OpenUI5 1.99, the grouping separators are checked against the current locale to largely prevent that the user confuses these types of separators.
+
+
+
+</td>
+<td valign="top">
+
+1.99
+
+
+
+</td>
+</tr>
+</table>
+
+***
+
 <a name="loio5567dccb287b4dd9aa755a76cf25ae41__section_qwl_pb5_zcb"/>
 
 ### Improved Features
