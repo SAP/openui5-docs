@@ -14,7 +14,7 @@ In this tutorial, we showcase how to structure your OpenUI5 app using the layout
 
 The app provides the following features:
 
--   An up-to-three-column layout based on the `sap.f.FlexibleColumnLayout` control. This layout has predefined layout types and defined routing between them that enables smooth navigation between the master-detail and master-detail-detail patterns of the app.
+-   An up-to-three-column layout based on the `sap.f.FlexibleColumnLayout` control. This layout has predefined layout types and defined routing between them that enables smooth navigation between the list-detail and list-detail-detail patterns of the app.
 
 -   A master page based on the `sap.f.DynamicPage` control that lists the available products and has filtering and sorting options.
 
@@ -44,11 +44,11 @@ The app provides the following features:
 
    
   
-<a name="loioc4de2df385174e58a689d9847c7553bd__fig_r1j_pst_mr"/>Master-detail-detail pattern with `sap.f.FlexibleColumnLayout`, `sap.f.DynamicPage` and `sap.uxap.ObjectPageLayout`
+<a name="loioc4de2df385174e58a689d9847c7553bd__fig_r1j_pst_mr"/>list-detail-detail pattern with `sap.f.FlexibleColumnLayout`, `sap.f.DynamicPage` and `sap.uxap.ObjectPageLayout`
 
- ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "Master-detail-detail pattern with
-					sap.f.FlexibleColumnLayout, sap.f.DynamicPage
-					and sap.uxap.ObjectPageLayout") 
+ ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout,
+						sap.f.DynamicPage and
+						sap.uxap.ObjectPageLayout") 
 
 ***
 

@@ -17,8 +17,8 @@ The simplest way to build an app with the `sap.f.FlexibleColumnLayout` is to cre
 On each significant user action, query the `sap.f.FlexibleColumnLayoutSemanticHelper` class for the recommended layout and action buttons to show.
 
 -   **[Flexible Column Layout](Flexible_Column_Layout_2abdefb.md "The sap.f.FlexibleColumnLayout control implements the
-		master-detail-detail paradigm by displaying up to 3 pages in separate columns.")**  
-The `sap.f.FlexibleColumnLayout` control implements the master-detail-detail paradigm by displaying up to 3 pages in separate columns.
+		list-detail-detail paradigm by displaying up to 3 pages in separate columns.")**  
+The `sap.f.FlexibleColumnLayout` control implements the list-detail-detail paradigm by displaying up to 3 pages in separate columns.
 -   **[Flexible Column Layout Semantic Helper](Flexible_Column_Layout_Semantic_Helper_623b01e.md "A helper class, designed to facilitate the implementation of apps based on the
 			sap.f.FlexibleColumnLayout control and the SAP Fiori 2.0 design
 		guidelines.")**  
