@@ -22,12 +22,6 @@ The next subsections contain more detailed information on how to create new rule
 
 ![](images/loio4bae3b9c7ac54b22b74d322b040d80b0_LowRes.png)
 
--   [Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md)
--   [Create a Rule](Create_a_Rule_c24569d.md)
--   [Test a Rule](Test_a_Rule_f5e4fe6.md)
--   [Common Rule Patterns](Common_Rule_Patterns_3fc1412.md)
--   [Guidelines and Best Practices](Guidelines_and_Best_Practices_eaeea19.md)
-
 ***
 
 -   **[Create a Ruleset for a Library](Create_a_Ruleset_for_a_Library_b5a5135.md "The Support Assistant allows you to create your own ruleset.")**  

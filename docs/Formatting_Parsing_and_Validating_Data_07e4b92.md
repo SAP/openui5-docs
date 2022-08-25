@@ -16,9 +16,6 @@ Data that is presented on the UI often has to be converted so that is human read
 
 ![](images/loio40f0541313154bb0b5de72e2bd1c9207_LowRes.png)
 
--   [Views](Views_91f27e3.md)
--   [Models](Models_e1b6259.md)
-
 Formatters are used to define the formatting of data on the UI while data types work in both directions: they format the data on the UI and parse and validate user input that is entered.
 
 You can either use standard formatters and data types or define your own custom objects. OpenUI5 provides standard formatter classes that can be used to define custom data types and custom formatters.

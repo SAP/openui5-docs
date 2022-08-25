@@ -26,13 +26,6 @@ Hover over the shapes to find out more about some key benefits of OpenUI5.
 
 ![](images/loioba827f7fdaff4db98ab12d01a431ba62_LowRes.png)
 
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
--   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
-
 ***
 
 > ### Tip:  

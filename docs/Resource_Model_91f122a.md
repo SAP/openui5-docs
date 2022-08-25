@@ -26,9 +26,6 @@ After the resource model has been instantiated, you have a model containing the 
 
 ![](images/loio46a5dad5f10e47fb8142fe9994dfbcca_LowRes.png)
 
--   [Views](Views_91f27e3.md)
--   [Resource Bundles](Resource_Bundles_91f225c.md)
-
 **Related Information**  
 
 

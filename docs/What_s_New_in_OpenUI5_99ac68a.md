@@ -16,10 +16,6 @@ Find out what's new in the latest versions of OpenUI5.
 
 ![](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
 
--   [What's New in OpenUI5 1.105](What_s_New_in_OpenUI5_1_105_5567dcc.md)
--   [What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md)
--   [Previous Versions](Previous_Versions_6660a59.md)
-
 ***
 
 Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlist?list=PLWV533hWWvDmxJM4itQ9o--7rolKgy-1r) in the [SAP Technology](https://www.youtube.com/channel/UC8cXSTGDhiZK5229zi-KTXA) YouTube channel and the [OpenUI5](https://www.youtube.com/user/openui5videos) YouTube channel.

@@ -16,15 +16,6 @@ Before you start using OpenUI5 productively, please read the **important informa
 
 ![](images/loio3f296cdc8d764a25b8e7e749488a244d_LowRes.png)
 
--   [Compatibility Rules](Compatibility_Rules_91f0873.md)
--   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
--   [Supported Library Combinations](Supported_Library_Combinations_363cd16.md)
--   [Supported Combinations of Themes and Libraries](Supported_Combinations_of_Themes_and_Libraries_38ff8c2.md)
--   [SAPUI5 vs. OpenUI5](SAPUI5_vs_OpenUI5_5982a97.md)
--   [Deprecated Themes and Libraries](Deprecated_Themes_and_Libraries_a87ca84.md)
--   [Upgrading](Upgrading_9638e4f.md)
--   [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md)
-
 -   **[Enterprise Features of OpenUI5](Enterprise_Features_of_OpenUI5_bf2d55e.md "OpenUI5 offers many powerful enterprise features to support your entire app
 		development project.")**  
 OpenUI5 offers many powerful enterprise features to support your entire app development project.

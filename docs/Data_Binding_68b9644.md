@@ -16,10 +16,6 @@ You use data binding to bind UI elements to data sources to keep the data in syn
 
 ![](images/loio544b09736447477198202b636048bab8_LowRes.png)
 
--   [Views](Views_91f27e3.md)
--   [Models](Models_e1b6259.md)
--   [Resource Bundles](Resource_Bundles_91f225c.md)
-
 OpenUI5 follows the "Model View Controller" \(MVC\) paradigm, which means that we clearly separate data sources \(model\), UI \(view\), and application logic \(controller\) from each other. Data binding defines how models and views communicate with each other.
 
 Depending on which external data source you use, you can choose between different model types to represent it. OpenUI5 supports OData V4 \(with restrictions\), OData V2, JSON, and XML models.

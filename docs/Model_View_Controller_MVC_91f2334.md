@@ -22,10 +22,6 @@ Model, view, and controller are assigned the following roles:
 
 ![](images/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
 
--   [Models](Models_e1b6259.md)
--   [Controller](Controller_121b8e6.md)
--   [Views](Views_91f27e3.md)
-
 ***
 
 The purpose of data binding in the UI is to separate the definition of the user interface \(view\), the data visualized by the application \(model\), and the code for the business logic for processing the data \(controller\). The separation has the following advantages: It provides better readability, maintainability, and extensibility and it allows you to change the view without touching the underlying business logic and to define several views of the same data.
