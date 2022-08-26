@@ -26,10 +26,6 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 		this release OpenUI5 is upgraded
 		from version 1.104 to 1.105.")**  
 With this release OpenUI5 is upgraded from version 1.104 to 1.105.
--   **[What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md "With
-		this release OpenUI5 is upgraded
-		from version 1.103 to 1.104.")**  
-With this release OpenUI5 is upgraded from version 1.103 to 1.104.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 -   **[Change Log](Change_Log_a6a78b7.md "")**  

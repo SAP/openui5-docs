@@ -144,6 +144,8 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 **Related Information**  
 
 
+[What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md "With this release OpenUI5 is upgraded from version 1.103 to 1.104.")
+
 [What's New in OpenUI5 1.103](What_s_New_in_OpenUI5_1_103_7534ae8.md "With this release OpenUI5 is upgraded from version 1.102 to 1.103.")
 
 [What's New in OpenUI5 1.102](What_s_New_in_OpenUI5_1_102_b530db3.md "With this release OpenUI5 is upgraded from version 1.101 to 1.102.")
