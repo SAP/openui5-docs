@@ -136,9 +136,6 @@ Yes. The mock server can be used to help you fake server response on any given A
 
 The mock server supports navigation via association also if no referential constraint is defined. However, the result of the navigation is the entire collection of the navigation, or the first entry of the collection according to the association multiplicity. So, if you want the navigation to return "correct" results according to keys, define a respective referential constraint.
 
-> ### Note:  
-> Due to a restriction of the mock server, you **cannot** use the same association to describe a two-way navigation. If the navigation shall work for both directions, you need to define an appropriate association for each direction.
-
 ***
 
 ### How can I use the mock server in a QUnit?
