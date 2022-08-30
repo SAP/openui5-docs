@@ -18,14 +18,18 @@ The OData V4 model supports certain events intended for applications, and others
 
 For applications, the OData V4 model supports the following events:
 
--   The `dataRequested` and `dataReceived` events are typically used by applications to display and hide a busy indicator or to process a back-end error which happened when requesting data. The events are fired by `ODataPropertyBinding`, `ODataContextBinding` and `ODataListBinding` when reading data:
+-   The `dataRequested` and `dataReceived` events are typically used by applications to display and hide a busy indicator or to process a back-end error which happened when requesting data. The events are fired by `ODataPropertyBinding`, `ODataContextBinding` and `ODataListBinding` and bubbled up to the model when reading data:
 
     -   The `dataRequested` event is fired directly after data has been requested from a back end.
 
     -   The `dataReceived` event is fired after the back-end data has been processed. Note that the `dataReceived` event is also fired after a back-end request has failed. The error of the failed request is passed to the event handler as an `error` parameter.
 
 
-    For more details, see the corresponding API documentation for the specific bindings [ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding), [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit.
+    An event handler attached to the binding can prevent the event from bubbling up to the model by calling [`oEvent.cancelBubble()`](https://sdk.openui5.org/api/sap.ui.base.Event%23methods/cancelBubble).
+
+    The events are also fired, but only by the model, when additional properties are requested for an existing entity, for example after binding the row context of a list as a binding context for an object page \(which typically displays many more properties\). Note that this includes all requests for a context obtained via [`ODataModel#getKeepAliveContext`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/getKeepAliveContext). Timing and parameters are exactly the same as described above. The application can use this event to be notified when data for the object page could not be requested.
+
+    For more details, see the corresponding API documentation for [`ODataModel`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel) and the specific bindings [ODataPropertyBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataPropertyBinding), [ODataContextBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataContextBinding) and [ODataListBinding](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding) in the Demo Kit.
 
 -   The `createSent` and `createCompleted` events at the `ODataListBinding` are typically used by applications to lock the UI for the created entity to avoid modifications while the data for the created entity is sent to the back end, but the response from the back end is not yet processed on the client. For each `createSent` event, a `createCompleted` event is fired.
 

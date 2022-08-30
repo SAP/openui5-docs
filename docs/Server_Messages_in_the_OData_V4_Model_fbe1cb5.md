@@ -222,7 +222,7 @@ Messages are classified by two different categories: bound/unbound and state/tra
 
 #### Bound and unbound messages
 
-Messages are either bound or unbound: Bound messages are related to OData entities, whereas unbound messages are not related to OData entities.
+Messages are either bound or unbound: Bound messages are related to OData entities, whereas unbound messages are not related to OData entities. Unbound messages are identified by a missing, i.e. undefined, target in the OData V4 message. This is translated into an empty string in the UI5 message.
 
 ***
 

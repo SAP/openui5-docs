@@ -1637,6 +1637,9 @@ Default value: the browser's local time zone
 
 The configured time zone is used to convert dates when using `sap.ui.core.format.DateFormat` instances. The time zone should be an IANA time zone ID, e.g. "America/New\_York". The `sap-timezone` URL parameter can also be used to set the time zone. For more information, see [Date Format](Date_Format_91f2eba.md).
 
+> ### Note:  
+> Due to compatibility considerations, **this parameter has no effect in this release**. The time zone configuration will **always** reflect the time zone of the browser/host system.
+
 
 
 </td>
