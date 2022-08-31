@@ -16,7 +16,7 @@ OpenUI5 provides a set of JavaScript and CSS libraries, which can be combined in
 
 In general, most library combinations are supported. However, restrictions apply for the following libraries:
 
--   `sap.ui.commons` \(deprecated\)
+-   `sap.ui.commons (deprecated)`
 
 -   `sap.ui.suite`
 
