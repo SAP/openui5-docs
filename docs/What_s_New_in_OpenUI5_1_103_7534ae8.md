@@ -87,7 +87,7 @@ n/a
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
--   We now provide the new `sap.ui.model.odata.v4.ODataModel#delete` method.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23methods/delete).
+-   We now provide the new `sap.ui.model.odata.v4.ODataModel#delete` method.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/methods/delete).
 -   Multiple requests for absolute property bindings of singleton properties are now merged. For more information, see [Absolute Property Bindings of Singletons](Data_Reuse_648e360.md#loio648e360fa22d46248ca783dc6eb44531__section_APBS).
 
 
@@ -178,6 +178,8 @@ The `MessageStrip` control, which is offered by the `DataStateIndicator` plugin,
 
 **Related Information**  
 
+
+[What's New in OpenUI5 1.105](What_s_New_in_OpenUI5_1_105_5567dcc.md "With this release OpenUI5 is upgraded from version 1.104 to 1.105.")
 
 [What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md "With this release OpenUI5 is upgraded from version 1.103 to 1.104.")
 
