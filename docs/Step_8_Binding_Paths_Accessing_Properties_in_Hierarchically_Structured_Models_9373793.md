@@ -85,7 +85,7 @@ The JSON model object now contains an additional sub-object called `address`. Wi
 <mvc:View
 	xmlns="sap.m"
 	xmlns:form="sap.ui.layout.form"
-				xmlns:l="sap.ui.layout"
+	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
 		<form:SimpleForm editable="true" layout="ColumnLayout">
