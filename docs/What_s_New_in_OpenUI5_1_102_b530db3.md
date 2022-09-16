@@ -55,6 +55,47 @@ Announcement
 </td>
 <td valign="top">
 
+**Deactivation of Default Time Zone Configuration Feature**
+
+We needed to deactivate the feature to configure the default time zone via the time zone configuration option in [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration) and the API method [`sap.ui.core.Configuration.setTimezone`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setTimezone). Reason: There was a risk that dates are visualized by one day off. This wrong date might have been persisted to the back end.
+
+This feature was introduced with UI5 1.102.0. The following UI5 versions still contain this feature:
+
+-   1.102.0 to 1.102.5
+-   1.103
+-   1.104
+
+If you are on one of these releases, we recommend that you upgrade to a higher version where this feature is deactivated.
+
+We plan to bring this feature back in a different form at a later point in time.
+
+
+
+</td>
+<td valign="top">
+
+Deactivated as of:
+
+1.106
+
+1.105
+
+1.102.6
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Announcement
+
+
+
+</td>
+<td valign="top">
+
 **Reminder: Outdated OpenUI5 Versions to Be Removed from the CDN**
 
 For security reasons, OpenUI5 versions that are no longer maintained will be removed from the UI5 content delivery network \(CDN\) one year after their end of maintenance. If a version is still in maintenance, patches of that version that are older than one year will also be removed. We have noted that a number of customers are still using such outdated versions or patches. If this affects you, please note that once these versions or patches are removed, your applications will break. Please update to a more recent version or patch. For more information, see: [Removing Outdated UI5 Versions from UI5 CDN](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/) as well as the UI5 notifications in the Demo Kit.
@@ -101,12 +142,6 @@ For more information, see [Accessibility Guide](https://sdk.openui5.org/test-res
 OpenUI5 now supports the visualization of IANA time zones for date/time data. The time zone can either be passed via configuration or specified via an annotation from a back-end service.
 
 The following OpenUI5 functionality supports IANA time zones:
-
--   Configuration of the default time zone via:
-
-    -   The `timezone` configuration option \(see [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration)\).
-
-    -   The API method [`sap.ui.core.Configuration.setTimezone`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setTimezone)
 
 -   The time zone-specific `DateFormat` [`DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.DateTimeWithTimezone), which can be retrieved via [`sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/api/sap.ui.core.format.DateFormat%23methods/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance). It allows the formatting/parsing of timestamps while visualizing the date and/or the time and/or the time zone. For more information, see [`sap.ui.core.format.DateFormat`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat) as well as [Date Format](Date_Format_91f2eba.md).
 -   The new [`sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) composite type where the first part is the time stamp and the second part is the IANA time zone.
