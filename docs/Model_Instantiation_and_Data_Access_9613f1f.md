@@ -14,7 +14,7 @@ One OData V4 model instance can only cover one OData service. This section descr
 
 The OData V4 model is primarily designed for OData V4 services. Nevertheless, OData V2 services may be used through an adapter as well. For more information see: [Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md)
 
-When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the properties `serviceUrl` and `synchronizationMode`. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel%23constructor) API documentation in the Demo Kit.
+When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the properties `serviceUrl` and `synchronizationMode`. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor) API documentation in the Demo Kit.
 
 **OData V4 model instantiation:**
 

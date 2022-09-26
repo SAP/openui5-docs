@@ -14,7 +14,7 @@ The *Technical Information* dialog shows details of the OpenUI5 version currentl
 
 To open the technical information dialog from within a supported desktop browser, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 
-  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
+  [Ctrl\] + [Shift\] + [Left-Alt\] / [Left-Option\] + [P\] 
 
 ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 

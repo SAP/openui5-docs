@@ -130,7 +130,7 @@ Afterwards the detail area is made visible and is resized.
 													</VBox>
 													<VBox class="sapUiMediumMarginBegin">
 														<ObjectAttribute text="{i18n>ageLabelText}"/>
-														<ObjectNumber number="{Age}" numberUnit="Years"/>
+														<ObjectNumber number="{Age}" unit="Years"/>
 													</VBox>
 												</FlexBox>
 										</semantic:headerContent>
