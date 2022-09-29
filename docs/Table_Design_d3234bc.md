@@ -192,3 +192,11 @@ This highlights the *Price* column in our example table, as shown below:
 
 ![](images/loiod90af7b06b7b43e69ecfb9116b99da73_LowRes.png)
 
+***
+
+<a name="loiod3234bc1b7b64af99a3d6990039f7eed__section_qvp_n3z_z5b"/>
+
+### Grouping in a Table
+
+For more information about the related data binding, see [Sorting, Grouping, and Filtering for List Binding](Sorting_Grouping_and_Filtering_for_List_Binding_ec79a5d.md).
+

@@ -49,10 +49,6 @@ Both `sap.m.List` and `sap.m.Table` offer the same events, inheriting them from 
 -   **[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be
 		used for tables and lists.")**  
 `sap.m.ListBase` provides growing-related properties, which can be used for tables and lists.
--   **[Grouping in a Table](Grouping_in_a_Table_4c98cf1.md "When you have repeated values in your table, you can use mergeDuplicate
-        of the sap.m.Column control to sort your data based on the column to be
-        merged.")**  
-When you have repeated values in your table, you can use `mergeDuplicate` of the `sap.m.Column` control to sort your data based on the column to be merged.
 -   **[Table Personalization](Table_Personalization_1c60212.md "The simple concept of table personalization allows the user to personalize a table
 		and to persist these settings.")**  
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
