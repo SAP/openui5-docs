@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c264d6
 
 OpenUI5 supports the extension of a base controller by merging the delivered standard controller with a custom controller on JavaScript object level.
 
-OpenUI5 supports two different extension variants. The latest and recommended variant is called [Controller Extension](Using_Controller_Extension_21515f0.md). The old variant, called **Component Configuration** is described in the following section / subsections.
+OpenUI5 supports two different extension variants. The latest and recommended variant is called [Controller Extension](Using_Controller_Extension_21515f0.md). The old variant called **Component Configuration** is described on the following pages.
 
 The OpenUI5 Component Configuration concept does not support hierarchical inheritance of methods within a chain of controllers. Instead, methods of the custom controller override any methods of the standard controller with the same name. The following controller lifecycle methods are, however, an exception to this rule: `onInit`, `onExit`, `onBeforeRendering`, `onAfterRendering`. For these methods, the controller methods of your custom application are called either after \(for `onInit` and `onAfterRendering`\), or before \(for `onExit` and `onBeforeRendering`\) the standard lifecycle methods.
 
