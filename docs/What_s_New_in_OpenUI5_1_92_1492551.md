@@ -159,6 +159,8 @@ String-based rendering \(also known as "apiVersion 1" of a renderer\) has been d
 **Related Information**  
 
 
+[What's New in OpenUI5 1.106](What_s_New_in_OpenUI5_1_106_c70bb90.md "With this release OpenUI5 is upgraded from version 1.105 to 1.106.")
+
 [What's New in OpenUI5 1.105](What_s_New_in_OpenUI5_1_105_5567dcc.md "With this release OpenUI5 is upgraded from version 1.104 to 1.105.")
 
 [What's New in OpenUI5 1.104](What_s_New_in_OpenUI5_1_104_f01ebd4.md "With this release OpenUI5 is upgraded from version 1.103 to 1.104.")

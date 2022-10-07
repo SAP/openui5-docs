@@ -137,6 +137,8 @@ There are currently no major deprecations. For a complete list of all deprecatio
 **Related Information**  
 
 
+[What's New in OpenUI5 1.106](What_s_New_in_OpenUI5_1_106_c70bb90.md "With this release OpenUI5 is upgraded from version 1.105 to 1.106.")
+
 [What's New in OpenUI5 1.105](What_s_New_in_OpenUI5_1_105_5567dcc.md "With this release OpenUI5 is upgraded from version 1.104 to 1.105.")
 
 [What's New in OpenUI5 1.103](What_s_New_in_OpenUI5_1_103_7534ae8.md "With this release OpenUI5 is upgraded from version 1.102 to 1.103.")
