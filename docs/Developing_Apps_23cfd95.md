@@ -51,6 +51,9 @@ For example, it's quite easy to deploy an app to SAP Business Technology Platfor
 > ### Note:  
 > For more information about packaging apps, read the blog post [Optimizing OpenUI5/SAPUI5 Apps](https://blogs.sap.com/2015/02/18/optimizing-openui5-apps/).
 
+-   **[Development Environment](Development_Environment_7bb04e0.md "This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup
+		of OpenUI5 development environments.")**  
+This part of the documentation introduces you to some common and recommended use cases for the installation, configuration, and setup of OpenUI5 development environments.
 -   **[Continuous Integration: Ensure Code Quality](Continuous_Integration_Ensure_Code_Quality_fe7a158.md "This section describes the setup of a development project where multiple developers
 		work together on the same code.")**  
 This section describes the setup of a development project where multiple developers work together on the same code.

@@ -246,56 +246,6 @@
 			"Get Started: Setup, Tutorials, and Demo Apps": {
 				"link": "Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md",
 				"items": {
-					"Development Environment": {
-						"link": "Development_Environment_7bb04e0.md",
-						"items": {
-							"App Development": {
-								"link": "App_Development_b1fbe1a.md"
-							},
-							"App Development Using SAP Business Application Studio": {
-								"link": "App_Development_Using_SAP_Business_Application_Studio_6bbad66.md"
-							},
-							"Developing OpenUI5": {
-								"link": "Developing_OpenUI5_ee8726a.md"
-							},
-							"Other Environments": {
-								"link": "Other_Environments_f0898e6.md",
-								"items": {
-									"Development for Hybrid Web Containers": {
-										"link": "Development_for_Hybrid_Web_Containers_293eb94.md"
-									},
-									"Former Environments": {
-										"link": "Former_Environments_d3f5ad2.md",
-										"items": {
-											"App Development Using SAP Web IDE": {
-												"link": "App_Development_Using_SAP_Web_IDE_13ced94.md",
-												"items": {
-													"Access SAP Web IDE": {
-														"link": "Access_SAP_Web_IDE_34bfb45.md"
-													},
-													"Start SAP Web IDE": {
-														"link": "Start_SAP_Web_IDE_213a69c.md"
-													},
-													"Create a neo-app.json Project Configuration File": {
-														"link": "Create_a_neo_app_json_Project_Configuration_File_28fa753.md"
-													},
-													"Create an index.html File": {
-														"link": "Create_an_index_html_File_f7cbafc.md"
-													},
-													"Run the App": {
-														"link": "Run_the_App_745424a.md"
-													},
-													"Create a Northwind Destination": {
-														"link": "Create_a_Northwind_Destination_3a16c7a.md"
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					},
 					"Quick Start": {
 						"link": "Quick_Start_592f36f.md",
 						"items": {
@@ -1962,6 +1912,56 @@
 			"Developing Apps": {
 				"link": "Developing_Apps_23cfd95.md",
 				"items": {
+					"Development Environment": {
+						"link": "Development_Environment_7bb04e0.md",
+						"items": {
+							"App Development": {
+								"link": "App_Development_b1fbe1a.md"
+							},
+							"App Development Using SAP Business Application Studio": {
+								"link": "App_Development_Using_SAP_Business_Application_Studio_6bbad66.md"
+							},
+							"Developing OpenUI5": {
+								"link": "Developing_OpenUI5_ee8726a.md"
+							},
+							"Other Environments": {
+								"link": "Other_Environments_f0898e6.md",
+								"items": {
+									"Development for Hybrid Web Containers": {
+										"link": "Development_for_Hybrid_Web_Containers_293eb94.md"
+									},
+									"Former Environments": {
+										"link": "Former_Environments_d3f5ad2.md",
+										"items": {
+											"App Development Using SAP Web IDE": {
+												"link": "App_Development_Using_SAP_Web_IDE_13ced94.md",
+												"items": {
+													"Access SAP Web IDE": {
+														"link": "Access_SAP_Web_IDE_34bfb45.md"
+													},
+													"Start SAP Web IDE": {
+														"link": "Start_SAP_Web_IDE_213a69c.md"
+													},
+													"Create a neo-app.json Project Configuration File": {
+														"link": "Create_a_neo_app_json_Project_Configuration_File_28fa753.md"
+													},
+													"Create an index.html File": {
+														"link": "Create_an_index_html_File_f7cbafc.md"
+													},
+													"Run the App": {
+														"link": "Run_the_App_745424a.md"
+													},
+													"Create a Northwind Destination": {
+														"link": "Create_a_Northwind_Destination_3a16c7a.md"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
 					"Continuous Integration: Ensure Code Quality": {
 						"link": "Continuous_Integration_Ensure_Code_Quality_fe7a158.md"
 					},
