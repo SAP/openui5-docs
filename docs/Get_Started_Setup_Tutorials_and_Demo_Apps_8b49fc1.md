@@ -71,7 +71,7 @@ To download the code from the Demo Kit, follow these steps:
 
 ### Adapting Code to Your Development Environment
 
-You might have to adapt parts of the coding to your local development environment to make the app work. Please check the following settings carefully:
+You might have to adapt parts of the coding to your local development environment to make the app work.[Demo Apps](Demo_Apps_a3ab54e.md) Please check the following settings carefully:
 
 -   **Project Path and Deployment**
 
@@ -94,7 +94,7 @@ You might have to adapt parts of the coding to your local development environmen
 
 If you get stuck, check the [Troubleshooting](Troubleshooting_615d9e4.md) section under *Essentials*, or refer to the [Troubleshooting tutorial](Troubleshooting_5661952.md).
 
-If you can't fix the problem, try downloading the solution of the previews or current step. This should get your project fixed again, just don’t forget to check the resource path and the project configuration files again.
+If you can't fix the problem, try downloading the solution of the previews or current step. This should get your project[fixed again](Demo_Apps_a3ab54e.md#loioa3ab54ecf7ac493b91904beb2095d208__section_jyz_br2_j1b), just don’t forget to check the resource path and the project configuration files again.
 
 ***
 
