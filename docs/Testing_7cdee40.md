@@ -74,7 +74,7 @@ The Test Recorder tool supports app developers who write integration and system 
 
 [Tutorial: Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-[wdi5 Home Page](https://github.com/js-soft/wdi5)
+[wdi5 Home Page](https://ui5-community.github.io/wdi5)
 
 [Selenium Home Page](http://docs.seleniumhq.org/)
 
