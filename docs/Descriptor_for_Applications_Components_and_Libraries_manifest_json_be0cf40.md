@@ -1132,6 +1132,29 @@ Version 48
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 49
+
+
+
+</td>
+<td valign="top">
+
+\>=1.108
+
+
+
+</td>
+<td valign="top">
+
+1.48.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -2161,14 +2184,14 @@ An optional attribute that only has to be provided if your project is a variant 
 <tr>
 <td valign="top">
 
- `i18n` 
+ `library/i18n` 
 
 
 
 </td>
 <td valign="top">
 
-Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined. Alternatively an object defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md).
+Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined. Alternatively an object defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) and [Terminologies](Terminologies_eba8d25.md) \(without `bundleUrlRelativeTo`\).
 
 > ### Note:  
 > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
@@ -2304,7 +2327,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.47.0",
+    "_version": "1.48.0",
  
     "start_url": "index.html",
  
@@ -2392,7 +2415,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.107.0",
+            "minUI5Version": "1.108.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"
