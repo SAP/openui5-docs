@@ -1460,6 +1460,10 @@ The i18n property is an **optional** attribute and contains one of the following
 
 -   An object that has been defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) and [Terminologies](Terminologies_eba8d25.md).
 
+    > ### Note:  
+    > The `sap.app/i18n` section only supports terminologies for Components. Library descriptors **do not support** additional terminologies.
+
+
 If the manifest contains placeholders in `{{...}}` syntax, but no `i18n` attribute has been provided, the default value `i18n/i18n.properties` is used to request a ResourceBundle.
 
 
@@ -1983,6 +1987,9 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 </td>
 <td valign="top">
 
+> ### Note:  
+> For component descriptors only. Libraries can not define models.
+
 Defines models that should be created or destroyed along the component's lifecycle. The key represents the model name. Use an empty string \(""\) for the default model.
 
 -   `type`: Model class name
@@ -2191,7 +2198,14 @@ An optional attribute that only has to be provided if your project is a variant 
 </td>
 <td valign="top">
 
-Determines if the library contains an i18n resource or not. If using a string instead of a boolean value, an alternative name for the i18n resource can be defined. Alternatively an object defined as described in [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) and [Terminologies](Terminologies_eba8d25.md) \(without `bundleUrlRelativeTo`\).
+> ### Note:  
+> For library descriptors only.
+
+Determines whether the library contains an i18n resource. The value can be either a boolean, a string, or an object. If no value is set, the default `messagebundle.properties` file is loaded.
+
+A string value represents a bundle URL. Relative URLs are always resolved to the library origin.
+
+An object value can contain additional resource bundle configuration, e.g. terminologies and supported locales. For the supported features and for sample definitions, see the respective entries at [Terminologies](Terminologies_eba8d25.md) \(without `bundleUrlRelativeTo`\) and [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) .
 
 > ### Note:  
 > This attribute is beneficial if the name of the main resource bundle \(properties file\) used by your UI5 library differs from the default name `messagebundle.properties`
@@ -2323,6 +2337,9 @@ The newest flattened JSON schema is available on the SAP Open Source GitHub at [
 ### Example
 
 Current version of the `manifest.json`
+
+> ### Note:  
+> The following sample contains the **full scope of all available descriptor properties**. Some properties might not be applicable for all `manifest.json` variants. For example, the `sap.ui5/models` section is not supported for library descriptors. For more information, see the above listing of namespaces and properties.
 
 ```
 

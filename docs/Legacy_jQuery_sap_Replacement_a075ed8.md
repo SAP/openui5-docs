@@ -23,7 +23,49 @@ The deprecation of the `jQuery.sap` API requires that it is replaced with the ne
 To migrate the simple replacements, add the new module dependency and replace the call with the added argument name as shown in the following example:
 
 > ### Example:  
-> ![](images/loio7d56a8eabb9e4426a7643e2f524015bd_LowRes.png)
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Old API
+> 
+> 
+> 
+> </th>
+> <th valign="top">
+> 
+> New API
+> 
+> 
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> ```js
+> sap.ui.define([], function() {
+>   jQuery.sap.log.info("My log message");
+> });
+> ```
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> ```js
+> sap.ui.define(['sap/base/Log'], function(Log) {
+>   Log.info("My log message");
+> });
+> ```
+> 
+> 
+> 
+> </td>
+> </tr>
+> </table>
 
 
 <table>
@@ -4729,7 +4771,49 @@ jQuery extensions have been extracted into different modules. If the jQuery exte
 > ### Example:  
 > Change from the global dependencies to adding the module dependencies to the jQuery extensions:
 > 
-> ![](images/loioff6352e35e6a4b9a9c16ee3c1fa4d740_LowRes.png)
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Previously the dependency was global
+> 
+> 
+> 
+> </th>
+> <th valign="top">
+> 
+> Dependencies should be added
+> 
+> 
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> ```js
+> sap.ui.define([], function() {
+>   var oDomRef = jQuery("#myElement").firstFocusableDomRef();
+> });
+> ```
+> 
+> 
+> 
+> </td>
+> <td valign="top">
+> 
+> ```js
+> sap.ui.define(["sap/ui/thirdparty/jquery", "sap/ui/dom/jquery/Focusable"], function(jQuery) {
+>   var oDomRef = jQuery("#myElement").firstFocusableDomRef();
+> });
+> ```
+> 
+> 
+> 
+> </td>
+> </tr>
+> </table>
 
 
 <table>
@@ -4842,7 +4926,7 @@ New Module
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/Aria` 
+ `Element.closestTo` in `sap/ui/core/Element` 
 
 
 

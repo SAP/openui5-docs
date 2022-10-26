@@ -201,7 +201,7 @@ The OData model processes some of the response headers, namely:
 -   `SAP-Messages`,
 -   `X-CSRF-Token`.
 
-Some SAP applications will also require the processing of `SAP-ContextId`, `SAP-Err-Id`, and `SAP-Http-Session-Timeout`. When using cross-origin resource sharing \(CORS\), it is important to add all these headers to the`Access-Control-Expose-Headers` response header.
+Some SAP applications will also require the processing of `SAP-ContextId`, `SAP-Err-Id`, and `SAP-Http-Session-Timeout`. When using cross-origin resource sharing \(CORS\), it is important to add all these headers to the `Access-Control-Expose-Headers` response header.
 
 **Related Information**  
 

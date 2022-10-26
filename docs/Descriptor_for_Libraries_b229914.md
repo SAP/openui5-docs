@@ -569,6 +569,36 @@ New in `.library`
 <tr>
 <td valign="top">
 
+ `sap.ui5/library/i18n` 
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+<td valign="top">
+
+x
+
+
+
+</td>
+<td valign="top">
+
+Determines whether the library contains an i18n resource. Value can be either a boolean, a string, or an object. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md) and [Terminologies](Terminologies_eba8d25.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  `sap.platform.abap/uri` 
 
 
