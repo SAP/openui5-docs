@@ -4903,7 +4903,7 @@ New Module
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/control` 
+ `Element.closestTo` in `sap/ui/core/Element` 
 
 
 
@@ -4926,7 +4926,7 @@ New Module
 </td>
 <td valign="top">
 
- `Element.closestTo` in `sap/ui/core/Element` 
+ `sap/ui/dom/jquery/Aria` 
 
 
 

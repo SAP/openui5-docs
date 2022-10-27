@@ -458,9 +458,9 @@ Latest version
 
 ### OpenUI5 Support Status for Microsoft Internet Explorer 11
 
-Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)\).
+Support for Microsoft Internet Explorer 11 \(IE11\) ended with the end of IE11 support by Microsoft. OpenUI5 
 
-In case you have legacy applications and you still need IE11 with an OpenUI5 version that no longer supports it, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to IE11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
+In case you have legacy non-OpenUI5 applications and you still need IE11 and also OpenUI5 applications, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser for the OpenUI5 applications in addition to IE11 for your legacy non-OpenUI5 applications\), or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode for the legacy non-OpenUI5 applications.
 
 -   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
 		certain libraries.")**  
