@@ -14,13 +14,11 @@ The view in the Model-View-Controller \(MVC\) concept is responsible for definin
 
 The following predefined view types are available:
 
--   **XML view** \(file or string in XML format\); this type supports a mix of XML and plain HTML.
+-   **XML view** \(file or string in XML format\); this type supports a mix of XML and plain HTML,
 
--   **JSON view** \(file or string in JSON format\)
+-   **JSON view** \(file or string in JSON format\),
 
--   **Typed view**, constructed in a programmatic manner
-
--   **HTML view** \(file or string in HTML format\)
+-   **Typed view**, constructed in a programmatic manner.
 
 
 > ### Note:  
@@ -51,10 +49,6 @@ The JSON view type is defined in a file. The file name has to either end with `.
 -   **[Typed View](Typed_View_e6bb33d.md "A view can also be defined by extending the sap.ui.core.mvc.View class. Such a view is referred to as a typed view. This
 		means the view definition represents its own view class.")**  
 A view can also be defined by extending the `sap.ui.core.mvc.View` class. Such a view is referred to as a typed view. This means the view definition represents its own view class.
--   **[HTML View](HTML_View_9756f47.md "An HTML View is defined by declarative HTML. Like the declarative support, the HTML
-		view supports embedded HTML. The view file ends with view.html, for example
-			myview.view.html.")**  
-An HTML View is defined by declarative HTML. Like the declarative support, the HTML view supports embedded HTML. The view file ends with `view.html`, for example `myview.view.html`.
 -   **[Instantiating Views](Instantiating_Views_68d0e58.md "To instantiate views asychronously, OpenUI5 provides the factory
 		method View.create defined in module
 		sap/ui/core/mvc/View.")**  

@@ -28,9 +28,6 @@ More fragment types can be implemented and plugged in.
 
 Defining a fragment is similar to defining views within a separate file. The fragments simply end with `*.fragment` instead of `*.view`. Also, the same rules for file location apply.
 
--   **[HTML Fragments](HTML_Fragments_08d2206.md "HTML fragments have a similar syntax as HTML views, but without the
-			<template> tag.")**  
-HTML fragments have a similar syntax as HTML views, but without the `<template>` tag.
 -   **[XML Fragments](XML_Fragments_2c677b5.md " XML fragments are similar to XML view, but have no <View> tag as root element.
 		Instead, there is an OpenUI5
 		control.")**  

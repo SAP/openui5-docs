@@ -10,13 +10,13 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/234320
 
 ## Instantiating Fragments in Declarative Views
 
-Example, how all three types of fragments can be instantiated in an XML view.
+Example how both types of fragments can be instantiated in an XML view.
 
 ***
 
 In XML views, fragments are used like regular controls, or more precisely, like views.
 
-The following code example shows an XML view that includes all three types of fragments, that is an XML fragment, a JS fragment and an HTML fragment. Each type is instantiated once without a given ID and once with a given ID. These fragment references basically work like import statements including the fragment content controls.
+The following code example shows an XML view that includes both types of fragments, that is an XML fragment and a JS fragment. Each type is instantiated once without a given ID and once with a given ID. These fragment references basically work like import statements including the fragment content controls.
 
 ```xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" controllerName="testdata.fragments.XMLViewController" >
@@ -26,9 +26,6 @@ The following code example shows an XML view that includes all three types of fr
     
     <core:Fragment              fragmentName="my.useful.UiPartX" type="JS" />
     <core:Fragment id="jsInXml" fragmentName="my.useful.UiPartX" type="JS" />
-    
-    <core:Fragment                fragmentName="my.useful.UiPartZ" type="HTML" />
-    <core:Fragment id="htmlInXml" fragmentName="my.useful.UiPartZ" type="HTML" />
 
 </mvc:View>
 ```

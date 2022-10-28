@@ -2201,9 +2201,9 @@ An optional attribute that only has to be provided if your project is a variant 
 > ### Note:  
 > For library descriptors only.
 
-Determines whether the library contains an i18n resource. The value can be either a boolean, a string, or an object. If no value is set, the default `messagebundle.properties` file is loaded.
+Determines whether the library contains an i18n resource. The value can be either a boolean, a string, or an object.
 
-A string value represents a bundle URL. Relative URLs are always resolved to the library origin.
+A string value represents a bundle URL. Relative URLs are always resolved to the library origin. If no value is set, the default `messagebundle.properties` file is loaded.
 
 An object value can contain additional resource bundle configuration, e.g. terminologies and supported locales. For the supported features and for sample definitions, see the respective entries at [Terminologies](Terminologies_eba8d25.md) \(without `bundleUrlRelativeTo`\) and [Supported Locales and Fallback Chain](Supported_Locales_and_Fallback_Chain_ec753bc.md) .
 

@@ -546,54 +546,7 @@ If you want to request navigation properties of the created entry on persisting 
 
 The optional `inactive` parameter determines whether an **inactive** transient context is created. Such a context only becomes an *active* transient context on a property update. Before that, it is no pending change, i.e. it is not considered by the [`hasPendingChanges`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel/methods/hasPendingChanges) API nor can it be deleted with `resetChanges`; the `submitChanges` API will not trigger a creation request for inactive contexts.
 
-**Deep create** means the creation of one or more subentities for a navigation property of a newly created parent entity with a **single** OData request. The OData V2 model supports the deep create scenario for navigation properties with cardinality "many". You can nest deep creates, i.e. create entities for a navigation property of a subentity. The entity in a deep create which has only subentities but no transient parent entity is called **root entity**.
-
-To create a subentity, use [`ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel/methods/createEntry) with a `context` parameter which is a transient context \(pointing to the parent entity\) and a `path` parameter which is a navigation property for the context's entity type. You may also use [`ODataListBinding#create`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataListBinding/methods/create) with a list binding which has a transient binding context and the navigation property as the binding's path. Most parameters of these APIs must not be used when creating a subentity because they relate to OData request creation: As data for subentities is added to the OData request payload for the root entity, subentities inherit their request-related settings from the API call which creates the root entity.
-
-After a successful deep create OData request, only the transient context for the root entity is updated and may be used further; the transient contexts for subentities are however not updated and no longer valid: Therefore, you must not store references to such contexts in application coding and use them after successful creation, for example as a binding context for a control.
-
-On a deep create request, the response of the OData service may return a **deep response**. This means that the response not only contains data for the root entity \(which is guaranteed by the OData protocol\), but also data for the subentities that have been created. In case of a deep response, the OData model replaces the transient subcontexts for direct subentities of the root entity with contexts created from this response; this ensures that controls bound to the corresponding navigation property are automatically updated. If your service does not provide a deep response, you have to refresh the list binding of the control after a successful deep create in order to read the updated subentities from the back end with a separate GET request.
-
-When you use [`sap.ui.model.odata.v2.Context#delete`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context/methods/delete) to delete the transient entity referred to by this context, this also deletes its subentities.
-
-The following example shows snippets for a view controller coding that implements a deep create scenario.
-
-> ### Example:  
-> Creation of a root and subentity, submission of changes, and handling of a \(deep\) create success
-> 
-> ```js
-> // create transient context for root entity (sales order)
-> var oItemContext,
->     oItemsTable = this.byId("salesOrderItemTable"), // table with "rows" bound with path "ToLineItems" (navigation property of sales order)
->     oItemsBinding = oItemsTable.getBinding("rows"),
->     oModel = this.getView().getModel(),
->     oSalesOrderContext = oModel.createEntry("/SalesOrderSet", {properties : {CustomerName : "SAP"}});
->  
-> ...
->  
-> // items table shows items of transient sales order
-> oItemsTable.setBindingContext(oSalesOrderContext);
->  // create transient context for subentity (sales order line item) and display it in the items table
-> oItemContext = oItemsBinding.create({Note : "Item note"});
-> // end-user may edit item data in a dialog
-> oCreateDialog.setBindingContext(oItemContext);
->  
-> ...
->  
-> // use created promise of root entity to handle a successful create
-> // Note: subcontext references like oItemContext must no longer be used then!
-> oSalesOrderContext.created().then(function () {
->     // display success message using data for the created entity contained in the back-end response
->     MessageToast.show("Created sales order " + oSalesOrderContext.getProperty("SalesOrderID"));
->     // optional: if the service does not provide a deep response, refresh list binding for items
->     oItemsBinding.refresh();
-> });
->  
-> ...
->  
-> // deep create request is triggered when submitting changes
-> oModel.submitChanges();
-> ```
+`ODataModel#createEntry` supports the "deep create" scenario for navigation properties with cardinality "many". For more information, see [Deep Create](OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4__section_DCR).
 
 ***
 
@@ -665,6 +618,8 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 > }
 > ```
 
+`ODataListBinding#create` supports the "deep create" scenario for navigation properties with cardinality "many". For more information, see [Deep Create](OData_V2_Model_6c47b2b.md#loio4c4cd99af9b14e08bb72470cc7cabff4__section_DCR).
+
 ***
 
 <a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_fcd_ttx_gsb"/>
@@ -676,6 +631,61 @@ With **inactive** entries, you can build **inline creation rows** in a table tha
 Use this approach only if you just want to send a creation request to the back end and do not want to bind the created entry on the UI. In all other cases, use the APIs described above.
 
 The method returns an abort handle to abort the creation POST request. To find out whether such a request is pending, use `ODataModel#hasPendingChanges` with the `bAll` parameter set to `true`. Note that, contrary to `ODataModel#createEntry` and `ODataListBinding#create`, failed creation requests are not automatically retried.
+
+***
+
+<a name="loio4c4cd99af9b14e08bb72470cc7cabff4__section_DCR"/>
+
+### Deep Create
+
+One or more subentities for a navigation property of a newly created parent entity can be created with a **single** OData request. This is known as a **deep create**. The OData V2 model supports the deep create scenario for navigation properties with cardinality "many". You can nest deep creates, i.e. create entities for a navigation property of a subentity. The entity in a deep create which has only subentities but no transient parent entity is called **root entity**.
+
+To create a subentity, use [`ODataModel#createEntry`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataModel/methods/createEntry) with a `context` parameter which is a transient context \(pointing to the parent entity\) and a `path` parameter which is a navigation property for the context's entity type. You can also use [`ODataListBinding#create`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.ODataListBinding/methods/create) with a list binding which has a transient binding context and the navigation property as the binding's path. Most parameters of these APIs must not be used when creating a subentity because they relate to OData request creation: As data for subentities is added to the OData request payload for the root entity, subentities inherit their request-related settings from the API call which creates the root entity.
+
+After a successful deep create OData request, only the transient context for the root entity is updated and may be used further; the transient contexts for subentities are however not updated and no longer valid: Therefore, you must not store references to such contexts in application coding and use them after successful creation, for example as a binding context for a control.
+
+On a deep create request, the response of the OData service may return a **deep response**. This means that the response not only contains data for the root entity \(which is guaranteed by the OData protocol\), but also data for the subentities that have been created. In case of a deep response, the OData model replaces the transient subcontexts for direct subentities of the root entity with contexts created from this response; this ensures that controls bound to the corresponding navigation property are automatically updated. If your service does not provide a deep response, you have to refresh the list binding of the control after a successful deep create in order to read the updated subentities from the back end with a separate GET request.
+
+When you use [`sap.ui.model.odata.v2.Context#delete`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context/methods/delete) to delete the transient entity referred to by this context, this also deletes its subentities.
+
+The following example shows snippets for a view controller coding that implements a deep create scenario.
+
+> ### Example:  
+> Creation of a root and subentity, submission of changes, and handling of a \(deep\) create success
+> 
+> ```js
+> // create transient context for root entity (sales order)
+> var oItemContext,
+>     oItemsTable = this.byId("salesOrderItemTable"), // table with "rows" bound with path "ToLineItems" (navigation property of sales order)
+>     oItemsBinding = oItemsTable.getBinding("rows"),
+>     oModel = this.getView().getModel(),
+>     oSalesOrderContext = oModel.createEntry("/SalesOrderSet", {properties : {CustomerName : "SAP"}});
+>  
+> ...
+>  
+> // items table shows items of transient sales order
+> oItemsTable.setBindingContext(oSalesOrderContext);
+>  // create transient context for subentity (sales order line item) and display it in the items table
+> oItemContext = oItemsBinding.create({Note : "Item note"});
+> // end-user may edit item data in a dialog
+> oCreateDialog.setBindingContext(oItemContext);
+>  
+> ...
+>  
+> // use created promise of root entity to handle a successful create
+> // Note: subcontext references like oItemContext must no longer be used then!
+> oSalesOrderContext.created().then(function () {
+>     // display success message using data for the created entity contained in the back-end response
+>     MessageToast.show("Created sales order " + oSalesOrderContext.getProperty("SalesOrderID"));
+>     // optional: if the service does not provide a deep response, refresh list binding for items
+>     oItemsBinding.refresh();
+> });
+>  
+> ...
+>  
+> // deep create request is triggered when submitting changes
+> oModel.submitChanges();
+> ```
 
  <a name="loioff667e12b8714f3595e68f3e7c0e7a14"/>
 

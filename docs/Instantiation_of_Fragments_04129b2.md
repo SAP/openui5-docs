@@ -77,12 +77,8 @@ For each fragment type, OpenUI5 provides a method that can be used to programmat
 -   **[Programmatically Instantiating XML Fragments](Programmatically_Instantiating_XML_Fragments_d6af195.md "For each fragment type, OpenUI5 provides a method that can be used to programmatically
 		instantiate a fragment.")**  
 For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
--   **[Programmatically Instantiating HTML Fragments](Programmatically_Instantiating_HTML_Fragments_79e967d.md "For each fragment type, OpenUI5 provides a method that can be used to programmatically
-		instantiate a fragment.")**  
-For each fragment type, OpenUI5 provides a method that can be used to programmatically instantiate a fragment.
--   **[Instantiating Fragments in Declarative Views](Instantiating_Fragments_in_Declarative_Views_234320f.md "Example, how all three types of fragments can be instantiated in an XML
-		view.")**  
-Example, how all three types of fragments can be instantiated in an XML view.
+-   **[Instantiating Fragments in Declarative Views](Instantiating_Fragments_in_Declarative_Views_234320f.md "Example how both types of fragments can be instantiated in an XML view.")**  
+Example how both types of fragments can be instantiated in an XML view.
 -   **[Using Other Objects Instead of Controllers](Using_Other_Objects_Instead_of_Controllers_c24ea6d.md "For the instantiation of fragments, the oController object must not necessarily be a
 		controller. It can also be another object.")**  
 For the instantiation of fragments, the oController object must not necessarily be a controller. It can also be another object.

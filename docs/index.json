@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What_s_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.108": {
+						"link": "What_s_New_in_OpenUI5_1_108_799291a.md"
+					},
 					"What's New in OpenUI5 1.107": {
 						"link": "What_s_New_in_OpenUI5_1_107_b88b40e.md"
 					},
@@ -884,9 +887,6 @@
 									"Typed View": {
 										"link": "Typed_View_e6bb33d.md"
 									},
-									"HTML View": {
-										"link": "HTML_View_9756f47.md"
-									},
 									"Instantiating Views": {
 										"link": "Instantiating_Views_68d0e58.md"
 									},
@@ -1244,9 +1244,6 @@
 					"Reusing UI Parts: Fragments": {
 						"link": "Reusing_UI_Parts_Fragments_36a5b13.md",
 						"items": {
-							"HTML Fragments": {
-								"link": "HTML_Fragments_08d2206.md"
-							},
 							"XML Fragments": {
 								"link": "XML_Fragments_2c677b5.md"
 							},
@@ -1262,9 +1259,6 @@
 									"Programmatically Instantiating XML Fragments": {
 										"link": "Programmatically_Instantiating_XML_Fragments_d6af195.md"
 									},
-									"Programmatically Instantiating HTML Fragments": {
-										"link": "Programmatically_Instantiating_HTML_Fragments_79e967d.md"
-									},
 									"Instantiating Fragments in Declarative Views": {
 										"link": "Instantiating_Fragments_in_Declarative_Views_234320f.md"
 									},
@@ -1279,8 +1273,8 @@
 							"Unique IDs": {
 								"link": "Unique_IDs_5da591c.md",
 								"items": {
-									"IDs in Declarative XML or HTML Fragments": {
-										"link": "IDs_in_Declarative_XML_or_HTML_Fragments_0715706.md"
+									"IDs in Declarative Fragments": {
+										"link": "IDs_in_Declarative_Fragments_0715706.md"
 									},
 									"IDs in JS Fragments": {
 										"link": "IDs_in_JS_Fragments_896fa9a.md"
