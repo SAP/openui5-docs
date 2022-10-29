@@ -458,7 +458,7 @@ Latest version
 
 ### OpenUI5 Support Status for Microsoft Internet Explorer 11
 
-Support for Microsoft Internet Explorer 11 \(IE11\) ended with the end of IE11 support by Microsoft.
+Support for Microsoft Internet Explorer 11 \(IE11\) ended with the end of IE11 support by Microsoft, and for the sake of completeness Internet Explorer mode of MS Edge was never supported by OpenUI5.
 
 -   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
 		certain libraries.")**  
