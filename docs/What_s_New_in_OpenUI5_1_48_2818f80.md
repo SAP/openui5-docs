@@ -237,6 +237,8 @@ In addition to the documentation for new features, the following changes have be
 **Related Information**  
 
 
+[What's New in OpenUI5 1.107](What_s_New_in_OpenUI5_1_107_b88b40e.md "With this release OpenUI5 is upgraded from version 1.106 to 1.107.")
+
 [What's New in OpenUI5 1.106](What_s_New_in_OpenUI5_1_106_c70bb90.md "With this release OpenUI5 is upgraded from version 1.105 to 1.106.")
 
 [What's New in OpenUI5 1.105](What_s_New_in_OpenUI5_1_105_5567dcc.md "With this release OpenUI5 is upgraded from version 1.104 to 1.105.")
