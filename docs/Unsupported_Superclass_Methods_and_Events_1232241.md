@@ -14,7 +14,7 @@ Certain methods derived from OpenUI5 model and binding superclasses are not supp
 
 The following methods and events are affected by this. For more information, see the corresponding API documentation for each method and event in the Demo Kit.
 
-<a name="loio1232241b99d7437ba3614698d53dfa4b__table_yby_zws_xv"/>Unsupported Methods
+**Unsupported Methods**
 
 
 <table>
@@ -168,7 +168,7 @@ Method
 </tr>
 </table>
 
-<a name="loio1232241b99d7437ba3614698d53dfa4b__table_ccv_gys_xv"/>Unsupported Events
+**Unsupported Events**
 
 
 <table>

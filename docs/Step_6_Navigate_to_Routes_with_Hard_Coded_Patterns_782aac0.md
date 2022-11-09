@@ -18,14 +18,14 @@ In this step, we'll create a second button on the home page, with which we can n
 
    
   
-<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_r1j_pst_mr"/>*Show Employee List* button on the *Home* page
+**Show Employee List button on the Home page**
 
  ![](images/loiof0f4fd7d2626458aa1632467eaf964a0_LowRes.png "Show Employee List button on the
 						Home page") 
 
    
   
-<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_xm1_t13_ns"/>Employee list with *Back* button
+**Employee list with Back button**
 
  ![](images/loiof45ee74f28bb4a5da522150e10e92185_LowRes.png "Employee list with Back button") 
 
@@ -37,7 +37,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-<a name="loio782aac08f2de4003a2fcbdd39d27f374__fig_blv_z13_ns"/>Folder structure for this step
+**Folder structure for this step**
 
  ![](images/loiofffa091048a544689c11fb3492ae9ead_HiRes.png "Folder structure for this step") 
 

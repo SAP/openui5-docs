@@ -18,7 +18,7 @@ Although there is no visible difference, the text on the screen is now derived f
 
    
   
-<a name="loiod70e9894c09b4c27a98d4850d4e90f2c__fig_r1j_pst_mr"/>Screen with text derived from various sources \(No visual changes to last step\)
+**Screen with text derived from various sources \(No visual changes to last step\)**
 
  ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from various sources (No visual changes to last
 					step)") 

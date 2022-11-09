@@ -1001,13 +1001,13 @@ The following example shows a context binding with the path **"/Products\(1\)"**
 
    
   
-<a name="loio62149734b5c24507868e722fe87a75db__fig_h54_vhf_zbb"/>Simple Binding Example: Default Binding Resolution
+**Simple Binding Example: Default Binding Resolution**
 
  ![](images/loioe2fe691bea0f4181b6d835c11c92e9ba_LowRes.png "Simple Binding Example: Default Binding Resolution") 
 
 Without using preliminary contexts, two consecutive OData requests will be issued, one for `Binding 0`, and afterwards one for `Binding 1`, as shown in the following table:
 
-<a name="loio62149734b5c24507868e722fe87a75db__table_xww_51z_zbb"/>Simple Binding Example: Default Binding Resolution
+**Simple Binding Example: Default Binding Resolution**
 
 
 <table>
@@ -1065,7 +1065,7 @@ You can optimize the requests by setting the binding parameters as shown below:
 
    
   
-<a name="loio62149734b5c24507868e722fe87a75db__fig_nym_hgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
+**Simple Binding Example: Binding Resolution Optimized**
 
  ![](images/loio57a4d12d4e5d41ecb74298a55b60d0fb_LowRes.png "Simple Binding Example: Binding Resolution Optimized") 
 
@@ -1073,7 +1073,7 @@ Here, `Binding 1` uses the preliminary context created by `Binding 0`, and thus 
 
 This now results in a single `$batch` request:
 
-<a name="loio62149734b5c24507868e722fe87a75db__table_mwj_pgz_zbb"/>Simple Binding Example: Binding Resolution Optimized
+**Simple Binding Example: Binding Resolution Optimized**
 
 
 <table>

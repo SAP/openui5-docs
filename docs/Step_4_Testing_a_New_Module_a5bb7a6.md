@@ -20,7 +20,7 @@ A frequently used feature of a bulletin board is to flag interesting posts to ma
 
    
   
-<a name="loioa5bb7a6d736f41c8ac1c1ef0b2d40676__fig_r1j_pst_mr"/>The unit test for the `Flagged` feature will fail until the feature is implemented
+**The unit test for the Flagged feature will fail until the feature is implemented**
 
  ![](images/loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
 					feature is implemented") 

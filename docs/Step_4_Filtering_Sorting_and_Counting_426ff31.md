@@ -20,7 +20,7 @@ In this step, we add features to filter, sort, and count the user data by using 
 
    
   
-<a name="loio426ff318051a465191c861b51a74f00e__fig_bfg_dqb_mcb"/>App now has a search field, the entries can be sorted, and you can see how many entities are loaded and how many more are available
+**App now has a search field, the entries can be sorted, and you can see how many entities are loaded and how many more are available**
 
  ![](images/loio3ac4fcc0ea714c7c9157b22cbca4db79_LowRes.png "App now has a search field, the entries can be sorted, and you can see how
 					many entities are loaded and how many more are available") 

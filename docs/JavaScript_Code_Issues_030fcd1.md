@@ -24,7 +24,7 @@ Use "protected" methods or properties only if you access it from the object itse
 
 Always double check in the API Reference. If OpenUI5 changes the implementation in a future release, your code will break if you fail to follow this guideline.
 
-<a name="loio030fcd14963048218488048f407f8f34__table_ybz_cpd_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -230,7 +230,7 @@ If you override methods like `onBeforeRendering`, `onAfterRendering`, or getters
 
 Instead, you should consider using delegates.
 
-<a name="loio030fcd14963048218488048f407f8f34__table_qzr_5rd_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -310,7 +310,7 @@ If you need to manipulate the DOM of an OpenUI5 control, attach a delegate to th
 
 Even `onAfterRendering` may not be called when a control handles certain property changes without complete rerendering.
 
-<a name="loio030fcd14963048218488048f407f8f34__table_ejg_hdj_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -417,7 +417,7 @@ When you create typed views or applications that will be running together with v
 
 Use the `createId()` function of a view or controller instead. This is done automatically in XMLViews and JSONViews. The `createId()` function adds the View ID as a prefix, thus recursively ensuring uniqueness of the ID \(for example: `__page0--__dialog0`\).
 
-<a name="loio030fcd14963048218488048f407f8f34__table_lvp_52j_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -489,7 +489,7 @@ See also: [sap.ui.core.Element - destroy](https://sdk.openui5.org/api/sap.ui.cor
 
 Hard coding UI strings will exclude them from translation. In addition, concatenating translatable strings in applications might lead to errors in internationalization: the texts in question might have a different translation order in other languages and will then be syntactically wrong.
 
-<a name="loio030fcd14963048218488048f407f8f34__table_yyd_ggj_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -545,7 +545,7 @@ There is a native browser API available for logging errors and warnings in the d
 
 Note that most errors and warnings in the developer console thrown by the OpenUI5 framework are potential bugs in your application and must be analyzed thoroughly!
 
-<a name="loio030fcd14963048218488048f407f8f34__table_qyj_kjj_jq"/>Examples
+**Examples**
 
 
 <table>
@@ -593,7 +593,7 @@ See also: [Namespace sap/base/Log](https://sdk.openui5.org/api/module%3Asap%2Fba
 
 Executing logic with timeouts is often a workaround for faulty behavior and does not fix the root cause. The timing that works for you may not work under different circumstances \(other geographical locations with greater network latency, or other devices that have slower processors\) or when the code is changed. Use callbacks or events instead, if available.
 
-<a name="loio030fcd14963048218488048f407f8f34__table_skm_fkj_jq"/>Examples
+**Examples**
 
 
 <table>

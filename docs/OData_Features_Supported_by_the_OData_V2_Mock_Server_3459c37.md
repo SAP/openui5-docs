@@ -19,7 +19,7 @@ The mock server only supports the JSON format for representing the resources it 
 
 The following table lists the OData features that are supported by the mock server.
 
-<a name="loio3459c372aaaa4c31ab87bb0e174adcc3__table_h31_lzq_qv"/>Supported OData Features
+**Supported OData Features**
 
 
 <table>
@@ -276,7 +276,7 @@ Supported
 
 The following table lists the OData features that are **not** supported by the mock server.
 
-<a name="loio3459c372aaaa4c31ab87bb0e174adcc3__table_ymm_pzq_qv"/>Unsupported OData Features
+**Unsupported OData Features**
 
 
 <table>

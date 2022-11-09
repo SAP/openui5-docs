@@ -18,7 +18,7 @@ We want to display statistics for posts, for example, how many times it was view
 
    
   
-<a name="loio6e9c6bd2054c4425b7f15cac31aa675c__fig_r1j_pst_mr"/>An icon tab bar with statistics
+**An icon tab bar with statistics**
 
  ![](images/loio1d8248aaaac34e1185b36090859cf47c_LowRes.png "An icon tab bar with statistics") 
 

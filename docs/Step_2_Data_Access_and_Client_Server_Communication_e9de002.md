@@ -20,7 +20,7 @@ In this step, we see how the `Table` that is bound to the `People` entity set in
 
    
   
-<a name="loioe9de002ddf1e478fbb9232bfba83dcf0__fig_blw_dkb_mcb"/>App with a toolbar that contains a *Refresh* button
+**App with a toolbar that contains a Refresh button**
 
  ![](images/loio0abcbb65bba54780948b00c20ce53690_LowRes.png "App with a toolbar that contains a Refresh
 					button") 

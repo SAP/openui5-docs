@@ -18,7 +18,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
 
    
   
-<a name="loio354f98ed2b514ba9960556333428d35e__fig_r1j_pst_mr"/>The dialog now has an "OK" button
+**The dialog now has an "OK" button**
 
  ![](images/loio2a0aee6164b24340b0d34a0515c82f19_HiRes.png "The dialog now has an "OK" button") 
 

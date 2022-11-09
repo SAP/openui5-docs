@@ -24,7 +24,7 @@ The data of the app descriptor is stored in JSON format in the `manifest.json` f
 
 Every new version of OpenUI5 implies a new version of the app descriptor. In the following table, you can see how the OpenUI5 version is related to the descriptor version and the value of `_version.`
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_lqj_xgh_1cb"/>App Descriptor Release and OpenUI5 Version
+**App Descriptor Release and OpenUI5 Version**
 
 
 <table>
@@ -1316,7 +1316,7 @@ The content for the descriptor is contained in the following namespaces: `withou
 
 ### No Namespace
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_crz_g5r_tr"/>Attributes in the `without` namespace
+**Attributes in the without namespace**
 
 
 <table>
@@ -1360,7 +1360,7 @@ Start page of your app, if available
 
 ### `sap.app`
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_rvq_4fj_qr"/>Attributes in the mandatory `sap.app` namespace
+**Attributes in the mandatory sap.app namespace**
 
 
 <table>
@@ -1768,7 +1768,7 @@ For a description of `resources.json`, see [The resources.json File](The_resourc
 
 ### `sap.ui`
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_qw2_yhj_qr"/>Attributes in the mandatory `sap.ui` namespace
+**Attributes in the mandatory sap.ui namespace**
 
 
 <table>
@@ -1877,7 +1877,7 @@ Indicates whether an app shall run in full screen mode \(`true`\), or not \(`fal
 
 The `sap.ui5` namespace is aligned with the former concept of component metadata and contributes the following OpenUI5-specific attributes for the application descriptor, see [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md) for more details.
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_c32_chk_qr"/>Attributes in the `sap.ui5` namespace
+**Attributes in the sap.ui5 namespace**
 
 
 <table>
@@ -2241,7 +2241,7 @@ Specifies provided commands with a unique key/alias. Contains:
 
 ### `sap.card`
 
-<a name="loiobe0cf40f61184b358b5faedaec98b2da__table_fly_cmt_ngb"/>Attributes in the `sap.card` namespace
+**Attributes in the sap.card namespace**
 
 
 <table>

@@ -18,7 +18,7 @@ A bulletin board may contain many posts. We expect to have a high data load once
 
    
   
-<a name="loio1b47457cbe4941ee926317d827517acb__fig_r1j_pst_mr"/>The OPA test page is waiting for more items to be loaded
+**The OPA test page is waiting for more items to be loaded**
 
  ![](images/loioc4aaadbedb9b4111baec4e0738657d5c_LowRes.png "The OPA test page is waiting for more items to be loaded") 
 
@@ -41,7 +41,7 @@ We write integration tests with OPA5 – a tool that is integrated and delivered
 
    
   
-<a name="loio1b47457cbe4941ee926317d827517acb__fig_iwx_k4f_ft"/>Integration test infrastructure in the project
+**Integration test infrastructure in the project**
 
  ![](images/loio596ebcf8996a4a838c0ab4189ddf1804_LowRes.png "Integration test infrastructure in the project") 
 

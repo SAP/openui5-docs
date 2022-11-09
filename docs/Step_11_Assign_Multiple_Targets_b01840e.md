@@ -18,19 +18,19 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
    
   
-<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_r1j_pst_mr"/>New button *Show Employee Overview*
+**New button Show Employee Overview**
 
  ![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee Overview") 
 
    
   
-<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_jq5_kgv_ns"/>*Employee Overview* with search field
+**Employee Overview with search field**
 
  ![](images/loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field") 
 
    
   
-<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_zlv_kgv_ns"/>Sort options for the *Employee Overview*
+**Sort options for the Employee Overview**
 
  ![](images/loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview") 
 
@@ -42,7 +42,7 @@ You can view and download all files in the Demo Kit at [Routing and Navigation -
 
    
   
-<a name="loiob01840ec42ef48e6bfd2bc12612f501f__fig_pt1_lgv_ns"/>Folder Structure for this Step
+**Folder Structure for this Step**
 
  
 

@@ -24,7 +24,7 @@ A terminology, such as "Travel" or "Sports", is a set of resource bundles / .pro
 
 The following table shows the configuration options that can be specified in the `manifest.json` descriptor file of your application or component. The configuration can be placed under either the `sap.app/i18n` or the `sap.ui5/models` section for models of type `sap.ui.model.resource.ResourceModel`.
 
-<a name="loioeba8d25a31ef416ead876e091e67824e__table_ConfigOptions"/>Configuration Options for Terminologies
+**Configuration Options for Terminologies**
 
 
 <table>

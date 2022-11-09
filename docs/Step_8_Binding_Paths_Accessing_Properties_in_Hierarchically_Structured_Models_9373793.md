@@ -18,7 +18,7 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
 
    
   
-<a name="loio9373793b290d429ba1bc6aea1ce5482f__fig_r1j_pst_mr"/>Second panel with additional data
+**Second panel with additional data**
 
  ![](images/loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data") 
 

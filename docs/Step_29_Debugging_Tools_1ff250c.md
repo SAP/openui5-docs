@@ -22,7 +22,7 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
    
   
-<a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_r1j_pst_mr"/>The diagnostics window
+**The diagnostics window**
 
  ![](images/loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window") 
 
@@ -96,7 +96,7 @@ This makes debugging harder because the code is a lot less readable. You can loa
 
    
   
-<a name="loio1ff250c2038849f5991209f7e6c36f1f__fig_vfz_xgf_yr"/>Technical information dialog
+**Technical information dialog**
 
  ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
 

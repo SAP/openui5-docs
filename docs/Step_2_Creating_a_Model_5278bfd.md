@@ -40,7 +40,7 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
 
    
   
-<a name="loio5278bfd38f3940b192df0e39f2fb33b3__fig_r1j_pst_mr"/>Screen with text derived from a model object \(No visual changes to last step\)
+**Screen with text derived from a model object \(No visual changes to last step\)**
 
  ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last
 					step)") 

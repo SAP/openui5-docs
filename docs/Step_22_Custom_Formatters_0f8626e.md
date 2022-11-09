@@ -18,7 +18,7 @@ If we want to do a more complex logic for formatting properties of our data mode
 
    
   
-<a name="loio0f8626ed7b7542ffaa44601828db20de__fig_r1j_pst_mr"/>A status is now displayed with a custom formatter
+**A status is now displayed with a custom formatter**
 
  ![](images/loio7e0112d9ffe54e568fa8ecc44a5af3bf_HiRes.png "A status is now displayed with a custom formatter") 
 

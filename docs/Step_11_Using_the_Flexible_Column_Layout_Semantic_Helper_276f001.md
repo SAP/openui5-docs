@@ -27,7 +27,7 @@ For more information, see [Flexible Column Layout Semantic Helper](Flexible_Colu
 
    
   
-<a name="loio276f001c5a934f6e8faedee6ea22aba1__fig_zfh_d31_12b"/>Master-detail-detail pattern using `sap.f.FlexibleColumnLayoutSemanticHelper`
+**Master-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper**
 
  ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "Master-detail-detail pattern using
 						sap.f.FlexibleColumnLayoutSemanticHelper") 

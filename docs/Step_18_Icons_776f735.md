@@ -18,7 +18,7 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
    
   
-<a name="loio776f7352807e4f82b18176c8fbdc0c56__fig_r1j_pst_mr"/>An icon is now displayed in the dialog box
+**An icon is now displayed in the dialog box**
 
  ![](images/loiobd572998fe7245b396eab0f17e505079_HiRes.png "An icon is now displayed in the dialog box") 
 

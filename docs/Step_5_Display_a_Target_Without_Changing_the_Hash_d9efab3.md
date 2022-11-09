@@ -22,7 +22,7 @@ Fortunately, we can extend our app and offer an easy solution. There are some us
 
    
   
-<a name="loiod9efab307ecc42b180b12cc8956e22d7__fig_r1j_pst_mr"/>The new *Home* page with a navigation button
+**The new Home page with a navigation button**
 
  ![](images/loio64fc7de39bed41d48d01e08244f201ab_LowRes.png "The new Home page with a navigation button") 
 

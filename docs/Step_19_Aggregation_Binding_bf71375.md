@@ -18,7 +18,7 @@ Now that we have established a good structure for our app, it's time to add some
 
    
   
-<a name="loiobf71375454654b44af01379a3c3a6273__fig_r1j_pst_mr"/>A list of invoices is displayed below the panel
+**A list of invoices is displayed below the panel**
 
  ![](images/loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel") 
 

@@ -20,7 +20,7 @@ By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` w
 
    
   
-<a name="loiobc410e94e46540efa02857e15aae583f__fig_hnb_cgm_cv"/>Object Page Header: Expanded \(left\) / Snapped \(right\)
+**Object Page Header: Expanded \(left\) / Snapped \(right\)**
 
  ![](images/loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)") 
 

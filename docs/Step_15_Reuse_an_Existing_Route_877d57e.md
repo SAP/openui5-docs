@@ -18,7 +18,7 @@ The *Employees* table displays employee data. However, the resumes of the employ
 
    
   
-<a name="loio877d57e3b5654b19a2d2e5190dc43b0d__fig_r1j_pst_mr"/>Navigation to an existing route from a table item
+**Navigation to an existing route from a table item**
 
  ![](images/loiod97fe6dba586421fb9c7210eea263ebe_LowRes.png "Navigation to an existing route from a table item") 
 

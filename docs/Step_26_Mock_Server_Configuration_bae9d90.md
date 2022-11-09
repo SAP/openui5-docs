@@ -20,7 +20,7 @@ This system is the so-called back-end system that we will now simulate with an O
 
    
   
-<a name="loiobae9d90d2e9c4206889368f04edab508__fig_r1j_pst_mr"/>The list of invoices is now served by the Mock Server
+**The list of invoices is now served by the Mock Server**
 
  ![](images/loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server") 
 
@@ -32,7 +32,7 @@ You can view and download all files at [Walkthrough - Step 26](https://sdk.openu
 
    
   
-<a name="loiobae9d90d2e9c4206889368f04edab508__fig_dhm_tbp_ns"/>Folder Structure for this Step
+**Folder Structure for this Step**
 
  ![](images/loio7a5e2b02d72d40d388f5e601d7de74df_HiRes.png "Folder Structure for this Step") 
 

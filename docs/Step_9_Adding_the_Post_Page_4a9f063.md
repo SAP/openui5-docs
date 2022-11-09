@@ -18,7 +18,7 @@ Now that we have covered all kinds of tests for navigation, we introduce our *Po
 
    
   
-<a name="loio4a9f063d4a4143d5b5c10416677f04b6__fig_r1j_pst_mr"/>The *Post* page with more details about the post
+**The Post page with more details about the post**
 
  ![](images/loio38c810b97e5b48bba08032aed403bb07_LowRes.png "The Post page with more details about the post") 
 

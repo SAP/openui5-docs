@@ -23,7 +23,7 @@ You use routing in the following cases:
 
    
   
-<a name="loio3d18f20bd2294228acb6910d8e8a5fb5__fig_uph_4ky_zv"/>Routing overview
+**Routing overview**
 
  ![](images/loio3b3a63b7581c4d36b9657f07d678f176_LowRes.png "Routing overview") 
 

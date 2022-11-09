@@ -18,7 +18,7 @@ In this step, we will write a test that simulates a user search. We will enter t
 
    
   
-<a name="loio92959b10ecf14582b65eaadb40571156__fig_k3l_yjj_sx"/>Testing user input in a search field
+**Testing user input in a search field**
 
  ![](images/loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field") 
 

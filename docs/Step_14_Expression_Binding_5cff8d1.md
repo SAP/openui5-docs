@@ -18,7 +18,7 @@ Expression binding allows you to display a value on the screen that has been cal
 
    
   
-<a name="loio5cff8d1c3fb84c5db7a00f2daca125af__fig_r1j_pst_mr"/>Values formatted
+**Values formatted**
 
  ![](images/loiob9fb758efb0a481cb88a412a0712972f_HiRes.png "Values formatted") 
 

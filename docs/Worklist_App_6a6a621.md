@@ -31,13 +31,13 @@ We will use the worklist template as a starting point for this tutorial and add 
 
    
   
-<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_swx_sgp_zt"/>Start page of the app with list of products and actions
+**Start page of the app with list of products and actions**
 
  ![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Start page of the app with list of products and actions") 
 
    
   
-<a name="loio6a6a621c978145ad9eef2b221d2cf21d__fig_wnz_wgp_zt"/>Product detail page of the app
+**Product detail page of the app**
 
  ![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Product detail page of the app") 
 

@@ -53,13 +53,13 @@ The `sap.m.SinglePlanningCalendar` is a new control designed to display the sche
 
    
   
-<a name="loiode4d50b6c0f649fa859e4657ff8557a6__fig_pfj_mhs_5fb"/>SinglePlanningCalendar Header Area
+**SinglePlanningCalendar Header Area**
 
  ![](images/loio9406ea72876f4b88982773c603b1886f_LowRes.png "SinglePlanningCalendar Header Area") 
 
    
   
-<a name="loiode4d50b6c0f649fa859e4657ff8557a6__fig_pt5_d4r_1gb"/>SinglePlanningCalendar Meetings
+**SinglePlanningCalendar Meetings**
 
  ![](images/loiob99c835dfb1246f2bb3a0befd34f65a9_LowRes.png "SinglePlanningCalendar Meetings") 
 

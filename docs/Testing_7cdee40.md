@@ -16,7 +16,7 @@ Before you start implementing your first test, you should think about how to tes
 
    
   
-<a name="loio7cdee404cac441888539ed7bfe076e57__fig_u2g_t2y_2t"/>Testing Pyramid
+**Testing Pyramid**
 
  ![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing Pyramid") 
 

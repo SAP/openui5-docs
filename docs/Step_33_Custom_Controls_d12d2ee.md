@@ -18,7 +18,7 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
    
   
-<a name="loiod12d2ee6a5454d799358d425f9e7c4db__fig_r1j_pst_mr"/>A custom product rating control is added to the detail page
+**A custom product rating control is added to the detail page**
 
  ![](images/loioe3e163a7b93d498595586d5043f77ddb_HiRes.png "A custom product rating control is added to the detail page") 
 

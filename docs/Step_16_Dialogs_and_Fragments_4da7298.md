@@ -26,7 +26,7 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
    
   
-<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__fig_dzj_yzv_sr"/>A dialog opens when the new “Say Hello With Dialog” button is clicked
+**A dialog opens when the new “Say Hello With Dialog” button is clicked**
 
  ![](images/loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked") 
 

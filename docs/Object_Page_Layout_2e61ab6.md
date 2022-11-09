@@ -22,7 +22,7 @@ The `ObjectPageLayout` layout is composed of a header \(title and content\), an 
 
    
   
-<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_lyy_3qx_mcb"/>`ObjectPageLayout` Main Structure
+**ObjectPageLayout Main Structure**
 
  ![](images/loio6b015871feac4b62a1111c73ba78c86f_HiRes.png "ObjectPageLayout Main Structure") 
 
@@ -87,7 +87,7 @@ The content of the page that appears below the header is composed of blocks stru
 
    
   
-<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_gbq_lvx_mcb"/>Blocks Structured into Sections and Subsections
+**Blocks Structured into Sections and Subsections**
 
  ![](images/loio69eeaf31d2e3481fa479d8a42229b6ec_HiRes.png "Blocks Structured into Sections and Subsections") 
 
@@ -138,7 +138,7 @@ The `subSectionLayout` property provides information on how all the underlying s
 
    
   
-<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_c2l_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top
+**Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on Top**
 
  ![](images/loio80c15831d2f14649ab7e56f24b17a5b9_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on Top") 
@@ -147,7 +147,7 @@ Additionally, a second layout named `titleOnLeft` arranges the blocks content fr
 
    
   
-<a name="loio2e61ab6c68a2480eb666c1927a707658__fig_s45_fcr_ncb"/>Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left
+**Blocks Content Arranged in Columns with Section and Subsection Titles Displayed on the Left**
 
  ![](images/loio96bf1fad37a74191968095bdd71698d3_HiRes.png "Blocks Content Arranged in Columns with Section and Subsection Titles
 					Displayed on the Left") 

@@ -22,7 +22,7 @@ The upper part of the Header Title is reserved for `breadcrumbs` navigation. The
 
    
   
-<a name="loio6e340c119ddd4c778b315f65a0432420__fig_xtb_3ny_5bb"/>Breadcrumbs and Navigation Actions in the Header Title
+**Breadcrumbs and Navigation Actions in the Header Title**
 
  ![](images/loio1b7f15003bc843048ef9212063f072b7_LowRes.gif "Breadcrumbs and Navigation Actions in the Header Title") 
 
@@ -32,7 +32,7 @@ When hovering over the arrow button or the Header Title area, both areas are hig
 
    
   
-<a name="loio6e340c119ddd4c778b315f65a0432420__fig_psd_2fz_sbb"/>Expanding/Collapsing the Header Using Arrow Button and Title Click
+**Expanding/Collapsing the Header Using Arrow Button and Title Click**
 
  ![](images/loioe70b5adf9f60403d8b7b8aa5c9b1d972_LowRes.gif "Expanding/Collapsing the Header Using Arrow Button and Title Click") 
 
@@ -40,7 +40,7 @@ The Header Content can be pinnable \(`headerContentPinnable` is set to `true`\).
 
    
   
-<a name="loio6e340c119ddd4c778b315f65a0432420__fig_rqm_llz_sbb"/>Pinning the Header to Remain Expanded when Scrolling the Page
+**Pinning the Header to Remain Expanded when Scrolling the Page**
 
  ![](images/loioc959daa0867e4f209788cad289881dd4_LowRes.gif "Pinning the Header to Remain Expanded when Scrolling the Page") 
 

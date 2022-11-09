@@ -38,7 +38,7 @@ The following text type classifications exist:
 -   `NOTR` is used for strings that are not relevant for translation
 
 
-<a name="loio831039835e7c4da3a8a0b49567573afe__table_wht_wmp_np"/>X Text Types
+**X Text Types**
 
 
 <table>
@@ -803,7 +803,7 @@ General text
 </tr>
 </table>
 
-<a name="loio831039835e7c4da3a8a0b49567573afe__table_fmz_fnp_np"/>Y Text Types
+**Y Text Types**
 
 
 <table>

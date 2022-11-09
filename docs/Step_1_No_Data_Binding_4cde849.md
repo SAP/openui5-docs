@@ -18,7 +18,7 @@ In this step, we simply place some text on the screen using a standard `sap.m.Te
 
    
   
-<a name="loio4cde849dc18949b69bbe152a0aaa19c6__fig_r1j_pst_mr"/>Screen with text
+**Screen with text**
 
  ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text") 
 

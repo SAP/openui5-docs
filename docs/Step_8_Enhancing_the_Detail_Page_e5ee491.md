@@ -20,7 +20,7 @@ With routing implemented, the model of the detail page is updated for each produ
 
    
   
-<a name="loioe5ee491f69224f038a0c147480dbd436__fig_zfh_d31_12b"/>Enhanced detail page displaying information specific to the selected product
+**Enhanced detail page displaying information specific to the selected product**
 
  ![](images/loiob687506e7e55437193741a31ff739b7b_HiRes.gif "Enhanced detail page displaying information specific to the selected
 					product") 

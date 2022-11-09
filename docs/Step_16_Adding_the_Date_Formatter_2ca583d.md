@@ -18,7 +18,7 @@ Our formatter does its job, but it is not yet used. In this step we will use it.
 
    
   
-<a name="loio2ca583d6b9c24e4d8f189eada7c4b668__fig_r1j_pst_mr"/>Date formatter in action
+**Date formatter in action**
 
  ![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action") 
 

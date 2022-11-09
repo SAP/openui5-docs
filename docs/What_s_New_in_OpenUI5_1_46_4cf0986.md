@@ -58,14 +58,14 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
        
       
-    <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_dxg_h4j_5y"/>Different types of actions in the title positioned in a predefined order
+    **Different types of actions in the title positioned in a predefined order**
 
      ![](images/loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a predefined
     							order") 
 
        
       
-    <a name="loio4cf0986450ca43e5a8d12dd66e999a77__fig_zvx_1wh_wy"/>Different types of actions in the footer’s right and left areas, positioned in a predefined order
+    **Different types of actions in the footer’s right and left areas, positioned in a predefined order**
 
      ![](images/loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left areas,
     							positioned in a predefined order") 

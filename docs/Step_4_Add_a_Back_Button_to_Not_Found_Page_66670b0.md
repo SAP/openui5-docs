@@ -18,7 +18,7 @@ When we are on the *Not Found* page because of an invalid hash, we want to get b
 
    
   
-<a name="loio66670b0aab3948469d5cc8276113e9ea__fig_r1j_pst_mr"/>*Not Found* page with *Back* button
+**Not Found page with Back button**
 
  ![](images/loio1cbb1ebea9e242ffae22d7172b91e241_LowRes.png "Not Found page with Back
 					button") 

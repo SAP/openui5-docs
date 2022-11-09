@@ -16,7 +16,7 @@ The blocks are used to group the app content that is displayed in the sections a
 
    
   
-<a name="loio4527729576cb4a4888275b6935aad03a__fig_cr1_qh1_4cb"/>Object Page content grouped in Blocks
+**Object Page content grouped in Blocks**
 
  ![](images/loioda91fe47966e4c43bd5fd1a318756c7d_HiRes.png "Object Page content grouped in Blocks") 
 

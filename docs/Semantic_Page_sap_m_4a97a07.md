@@ -39,7 +39,7 @@ The available semantic content is different buttons and selects. Each one can co
 
   
   
-<a name="loio4a97a07ec8f5441d901994d82eaab1f5__fig_dgh_yl2_zz"/>Semantic content at its default positions on the page.
+**Semantic content at its default positions on the page.**
 
  ![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.") 
 

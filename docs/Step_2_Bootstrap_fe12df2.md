@@ -18,7 +18,7 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 
    
   
-<a name="loiofe12df2e338e43598977d09f3d191b7b__fig_r1j_pst_mr"/>An alert "UI5 is ready" is displayed
+**An alert "UI5 is ready" is displayed**
 
  ![](images/loiof997780100fe40e7b149abd05bd82677_HiRes.png "An alert "UI5 is ready" is displayed") 
 

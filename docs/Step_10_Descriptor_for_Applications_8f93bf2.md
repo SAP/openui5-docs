@@ -20,7 +20,7 @@ The SAP Fiori launchpad acts as an application container and instantiates the ap
 
    
   
-<a name="loio8f93bf2b2b13402e9f035128ce8b495f__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
+**An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
  ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png " An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 

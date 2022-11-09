@@ -18,7 +18,7 @@ So far, we have created a currency field that can format itself correctly. The c
 
    
   
-<a name="loiob8c4e534cdb440e9a5bbff86f9572bd6__fig_r1j_pst_mr"/>A message appears
+**A message appears**
 
  ![](images/loioe67207b43d08410e82e74ad57ffbc022_HiRes.png "A message appears") 
 

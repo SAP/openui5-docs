@@ -20,7 +20,7 @@ In this step, we will use the OpenUI5 navigation features to load and show a sep
 
    
   
-<a name="loioe5200ee755f344c8aef8efcbab3308fb__fig_r1j_pst_mr"/>A second page is added to display the invoice
+**A second page is added to display the invoice**
 
  ![](images/loioa1d85cc6f6b4452cac5382afd0a29699_HiRes.png "A second page is added to display the invoice") 
 

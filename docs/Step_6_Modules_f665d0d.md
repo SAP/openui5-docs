@@ -18,7 +18,7 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
    
   
-<a name="loiof665d0de4dba405f9af4294de824b03b__fig_r1j_pst_mr"/>A message toast displays the "Hello World" message
+**A message toast displays the "Hello World" message**
 
  ![](images/loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message") 
 

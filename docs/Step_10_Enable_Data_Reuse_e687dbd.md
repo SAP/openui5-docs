@@ -20,7 +20,7 @@ In this step we avoid unnecessary back-end requests by preventing the destructio
 
    
   
-<a name="loioe687dbdc4c064ba3a3ce3942288e8f74__fig_ybl_pdx_4cb"/>No visual change compared to the last step
+**No visual change compared to the last step**
 
  ![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "No visual change compared to the last step") 
 

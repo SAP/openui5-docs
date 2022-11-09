@@ -20,7 +20,7 @@ Now we extend our minimalist HTML page to a basic app with a view and a controll
 
    
   
-<a name="loio128214a9b2754b15aec5e365780b03fd__fig_lx3_hxh_1gb"/>The browser shows a *Steady* button in an app
+**The browser shows a Steady button in an app**
 
  ![](images/loio240ef5357d7f4d36955092cdaf1884a2_LowRes.png "The browser shows a Steady button in an app ") 
 

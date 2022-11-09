@@ -18,7 +18,7 @@ Below you can see an example of how the results are displayed.
 
    
   
-<a name="loiof09fab15373b4735a36cbc3cace0c1f4__fig_j14_3k1_k1b"/>Support Assistant Issues View
+**Support Assistant Issues View**
 
  ![](images/loio78c90c54cda34b0091c96424bba7a55e_HiRes.png "Support Assistant Issues View") 
 
@@ -62,7 +62,7 @@ The right side shows the element tree of the application. The root of the tree i
 
    
   
-<a name="loiof09fab15373b4735a36cbc3cace0c1f4__fig_dhm_lk1_k1b"/>Support Assistant DOM Tree
+**Support Assistant DOM Tree**
 
  ![](images/loio4c280d1c4c5f40359f72f5f7ec22b982_HiRes.png "Support Assistant DOM Tree") 
 

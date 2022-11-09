@@ -20,7 +20,7 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
    
   
-<a name="loiob4f12660538147f8839b05cb03f1d478__fig_sr1_wpw_4cb"/>Data can now be edited and added.
+**Data can now be edited and added.**
 
  ![](images/loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.") 
 

@@ -18,7 +18,7 @@ In this step, we add a search field for our product list and define a filter tha
 
    
   
-<a name="loio5295470d7eee46c1898ee46c1b9ad763__fig_r1j_pst_mr"/>A search field is displayed above the list
+**A search field is displayed above the list**
 
  ![](images/loiob59b3ed9928549d4bf7e4d0f9f5b5dc8_HiRes.png "A search field is displayed above the list") 
 

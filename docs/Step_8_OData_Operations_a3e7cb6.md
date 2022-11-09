@@ -20,7 +20,7 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
 
    
   
-<a name="loioa3e7cb6f671b4b839f37eb5f88429e41__fig_ybl_pdx_4cb"/>A *Restart Tutorial* button is added
+**A Restart Tutorial button is added**
 
  ![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added") 
 

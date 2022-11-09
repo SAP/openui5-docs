@@ -20,7 +20,7 @@ To change the analysis scope, select the gears icon next to the *Analyze* button
 
    
   
-<a name="loioe15067d976f24b11907f4c262bd749a0__fig_nxt_bzy_n1b"/>Support Assistant - Execution Scopes
+**Support Assistant - Execution Scopes**
 
  ![](images/loio272b4b50d3c44895aeb1a00b0a61009f_LowRes.png "Support Assistant - Execution Scopes") 
 

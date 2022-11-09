@@ -18,7 +18,7 @@ In this step, we extend the product detail view by adding a feature allowing to 
 
    
   
-<a name="loioc73dfe312f104664954749c5c36faf27__fig_apx_45y_c5"/>Comments section added to the detail page
+**Comments section added to the detail page**
 
  ![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page") 
 

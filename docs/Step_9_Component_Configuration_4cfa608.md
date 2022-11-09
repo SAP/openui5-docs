@@ -20,7 +20,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
    
   
-<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_r1j_pst_mr"/>An input field and a description displaying the value of the input field \(No visual changes to last step\)
+**An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
  ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)") 
@@ -33,7 +33,7 @@ You can view and download all files at [Walkthrough - Step 9](https://sdk.openui
 
   
   
-<a name="loio4cfa60872dca462cb87148ccd0d948ee__fig_os4_mbp_ns"/>Folder Structure for this Step
+**Folder Structure for this Step**
 
  ![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
 

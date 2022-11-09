@@ -18,7 +18,7 @@ In this step, we use the OData V2 mock server to add data to our app without dep
 
    
   
-<a name="loio50897decc9504b2a875fb41d89fd254a__fig_qwx_h2q_st"/>The app now contains data
+**The app now contains data**
 
  ![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data") 
 

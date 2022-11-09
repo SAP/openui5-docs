@@ -18,7 +18,7 @@ Now we want to do something with that newly generated list. In most cases you wi
 
    
   
-<a name="loio6c7c5c266b534e7ea9a28f861dc515f5__fig_r1j_pst_mr"/>Element binding implemented, product details displayed per item
+**Element binding implemented, product details displayed per item**
 
  ![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item") 
 

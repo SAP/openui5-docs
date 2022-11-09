@@ -124,13 +124,13 @@ The following two screenshots show the difference between the *Cozy* and *Compac
 
    
   
-<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_axn_2v3_ns"/>Cozy Density: Mainly for Touch Devices \(such as Smartphones\)
+**Cozy Density: Mainly for Touch Devices \(such as Smartphones\)**
 
  ![](images/loioc9c8ffa0b9cf4f4d91987b49693e8f75_LowRes.png "Cozy Density: Mainly for Touch Devices (such as Smartphones)") 
 
    
   
-<a name="loioe54f729da8e3405fae5e4fe8ae7784c1__fig_hyw_2v3_ns"/>Compact Density: Mainly for Mouse-Operated Devices \(such as Desktops\)
+**Compact Density: Mainly for Mouse-Operated Devices \(such as Desktops\)**
 
  ![](images/loio644ff9d3949e4f1895d4aadf2b107558_LowRes.png "Compact Density: Mainly for Mouse-Operated Devices (such as Desktops)") 
 

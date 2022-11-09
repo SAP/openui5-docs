@@ -18,20 +18,20 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
    
   
-<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_r1j_pst_mr"/>*Employee Details* page with *Flip to Resume* link
+**Employee Details page with Flip to Resume link**
 
  ![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to
 						Resume link") 
 
    
   
-<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_kpz_tqn_ns"/>*Resume* page with multiple tabs
+**Resume page with multiple tabs**
 
  ![](images/loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs") 
 
    
   
-<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_lh1_5qn_ns"/>*Not Found* page for resume
+**Not Found page for resume**
 
  ![](images/loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume") 
 
@@ -43,7 +43,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-<a name="loio3e5f6f3e163f46ecaef376950258e5e4__fig_p4m_5qn_ns"/>Folder structure for this step
+**Folder structure for this step**
 
  ![](images/loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step") 
 

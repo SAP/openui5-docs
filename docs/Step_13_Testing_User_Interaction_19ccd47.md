@@ -18,7 +18,7 @@ In this step we want to write a test that simulates user interaction with an ico
 
    
   
-<a name="loio19ccd473c9a14c2ab7529303a2232d2c__fig_r1j_pst_mr"/>Test interacting with an icon tab bar
+**Test interacting with an icon tab bar**
 
  ![](images/loioc76a7b50ffac42b29285d7f10fd605eb_LowRes.png "Test interacting with an icon tab bar") 
 

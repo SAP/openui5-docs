@@ -18,7 +18,7 @@ The first place to check for errors is the developer tools that are provided by 
 
 OpenUI5 also provides you with support tools that help you troubleshoot and solve issues.
 
-<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_ugc_h2n_tv"/>Support Tools Available in OpenUI5
+**Support Tools Available in OpenUI5**
 
 
 <table>
@@ -148,7 +148,7 @@ Available as add-on for Google Chrome browser only
 </tr>
 </table>
 
-<a name="loio615d9e4aaa34447fbd4aa5f19dfde9b8__table_o55_rvb_p1b"/>Performance Measurement Tools
+**Performance Measurement Tools**
 
 
 <table>

@@ -18,7 +18,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/10592a
 
    
   
-<a name="loio10592affce3e4f1ba73c3125ee06e0b7__fig_r1j_pst_mr"/>We add an OPA test that selects an item from the table and navigates to the post page
+**We add an OPA test that selects an item from the table and navigates to the post page**
 
  ![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the
 					post page") 

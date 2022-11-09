@@ -20,7 +20,7 @@ In this step, we create the master view of the app using `sap.f.DynamicPage` con
 
    
   
-<a name="loio0830bce271bf42d98c2740bed43d435d__fig_r1j_pst_mr"/>Master page with `sap.f.DynamicPage`
+**Master page with sap.f.DynamicPage**
 
  ![](images/loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "Master page with sap.f.DynamicPage") 
 

@@ -16,7 +16,7 @@ The goal of these controls is to ensure consistency of the user interfaces in th
 
    
   
-<a name="loiod8374d578a4c4f9498f9f14a6672c8bb__fig_s3m_bqq_dv"/>Basic Page Structure of a Tool
+**Basic Page Structure of a Tool**
 
  ![](images/loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool") 
 

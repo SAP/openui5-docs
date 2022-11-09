@@ -18,7 +18,7 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
 
    
   
-<a name="loio6fdf0acd0bc24ffdad327cf7e6f9e7e0__fig_r1j_pst_mr"/>Address with e-mail link
+**Address with e-mail link**
 
  ![](images/loio116157506b3f48ac8ec53ee05095c0df_HiRes.png "Address with e-mail link") 
 

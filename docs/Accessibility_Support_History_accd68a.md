@@ -14,7 +14,7 @@ OpenUI5 is following the SAP ‘s design and development guidelines, as well as 
 
 The following table shows the availability of the different accessibility features.
 
-<a name="loioaccd68acd13a48eaa8aa02a639c84ba2__table_idr_xwc_wbb"/>Accessibility Feature Availability
+**Accessibility Feature Availability**
 
 
 <table>
@@ -100,7 +100,7 @@ HCB Theme
 </tr>
 </table>
 
-<a name="loioaccd68acd13a48eaa8aa02a639c84ba2__table_wr2_ksl_jtb"/>Enhancements and Updates
+**Enhancements and Updates**
 
 
 <table>

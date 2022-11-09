@@ -18,7 +18,7 @@ In this step we will modify the app and introduce routing. Instead of having the
 
    
   
-<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_r1j_pst_mr"/>Views are wired together using the router
+**Views are wired together using the router**
 
  ![](images/loioce8dce11d04c470e86f02cd2ba4c57b4_LowRes.png "Views are wired together using the router") 
 
@@ -30,7 +30,7 @@ You can view and download all files in the *Samples* in the Demo Kit at [Routing
 
    
   
-<a name="loiocf3c57c89ef0491793d1ce327ab4f9b2__fig_chm_4jp_ls"/>Folder structure for this step
+**Folder structure for this step**
 
  ![](images/loio93bd2dccd14a495eba521754a14d2c04_HiRes.png "Folder structure for this step") 
 

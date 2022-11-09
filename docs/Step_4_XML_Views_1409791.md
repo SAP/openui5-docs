@@ -20,7 +20,7 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
 
    
   
-<a name="loio1409791afe4747319a3b23a1e2fc7064__fig_r1j_pst_mr"/>The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)
+**The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)**
 
  ![](images/loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
 					visual changes to last step)") 

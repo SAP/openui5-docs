@@ -29,7 +29,7 @@ In the following diagram you can see how the Support Assistant is connected to t
 
    
   
-<a name="loioa34eb58aaf124f538a3ead23a6cab04a__fig_y25_ws5_41b"/>Support Assistant Architecture
+**Support Assistant Architecture**
 
  ![](images/loiofad73ed570df460bbbc5b828c3fe4e15_LowRes.png "Support Assistant Architecture") 
 
