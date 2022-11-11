@@ -511,6 +511,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Frequently Asked Questions](Frequently_Asked_Questions_02ef39f.md)
             -   [Test Recorder](Test_Recorder_2535ef9.md)
         -   [Theming](Theming_497c27a.md)
+            -   [Available Themes](Available_Themes_da0d2e7.md)
             -   [Setting Themes](Setting_Themes_e9fc648.md)
             -   [Enhanced Theming Concepts](Enhanced_Theming_Concepts_45df6df.md)
             -   [Creating Themable User Interfaces](Creating_Themable_User_Interfaces_a2c67ac.md)

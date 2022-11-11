@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/497c27
 
 OpenUI5 is an HTML UI library, therefore styling is done using Cascading Style Sheets \(CSS\). This allows for creating an impressive visual experience using a widely known standard technology which is well-accepted on the market.
 
- OpenUI5 supports you when creating and using different visual designs - called **themes** - that can be used alternatively and switched on the fly. This way, the same application can look very different, depending on the user's design preference or accessibility requirements. Existing themes can serve as a basis for new themes and, in case of new design trends, it is possible to create a matching theme for all existing applications without modifying the applications. The theme handling is decoupled from application development and done in a separate layer. The OpenUI5 library loads the required CSS files and offers ways of switching themes.
+ OpenUI5 supports you when creating and using different visual designs - called **themes** - that can be used alternatively and switched on the fly. This way, the same application can look very different, depending on the user's design preference or accessibility requirements. Existing themes can serve as a basis for new themes and, in case of new design trends, it is possible to create a matching theme for all existing applications without modifying the applications. The theme handling is decoupled from application development and done in a separate layer. The OpenUI5 library loads the required CSS files and offers ways of switching themes. For more information about the themes that are available, see [Available Themes](Available_Themes_da0d2e7.md).
 
 On top of pure CSS, OpenUI5 offers a variety of optional features that add value regarding modularization, modification, compatibility, and performance:
 
@@ -56,6 +56,8 @@ For all these options, the CSS developer might reduce the styling effort and foc
     For more information, see [CSS Classes for Theme Parameters](CSS_Classes_for_Theme_Parameters_ea08f53.md).
 
 
+-   **[Available Themes](Available_Themes_da0d2e7.md "Provides a list of themes and their names. ")**  
+Provides a list of themes and their names.
 -   **[Setting Themes](Setting_Themes_e9fc648.md "You define which theme is used by your app either in the bootstrap, by using a URL
 		parameter, or by using method sap.ui.getCore.applyTheme.")**  
 You define which theme is used by your app either in the bootstrap, by using a URL parameter, or by using method `sap.ui.getCore.applyTheme`.
