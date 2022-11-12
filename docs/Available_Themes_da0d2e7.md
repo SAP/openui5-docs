@@ -16,7 +16,7 @@ Provides a list of themes and their names.
 
 The following themes are available in OpenUI5:
 
-**Themes**
+****
 
 
 <table>
