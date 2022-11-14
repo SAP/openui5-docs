@@ -55,6 +55,22 @@ Technical Name
 <tr>
 <td valign="top">
 
+ *High Contrast Black* 
+
+
+
+</td>
+<td valign="top">
+
+ `sap_hcb` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  *Belize* 
 
 
@@ -215,7 +231,7 @@ Technical Name
 <tr>
 <td valign="top">
 
- *Horizon High Contrast Black* 
+ *High Contrast Black* 
 
 
 
@@ -231,7 +247,7 @@ Technical Name
 <tr>
 <td valign="top">
 
- *Horizon High Contrast White* 
+ *High Contrast White* 
 
 
 
