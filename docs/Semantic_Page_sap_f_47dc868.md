@@ -131,12 +131,12 @@ Definition in an XML view:
 
 ```xml
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
-	xmlns:semantic="sap.f.semantic"
-	controllerName="mycompany.myController"
-	height="100%">
-	<semantic:SemanticPage id="mySemanticPage">
-		<!-- Semantic  page content specified here -->
-	</semantic:SemanticPage>
+    xmlns:semantic="sap.f.semantic"
+    controllerName="mycompany.myController"
+    height="100%">
+    <semantic:SemanticPage id="mySemanticPage">
+        <!-- Semantic page content specified here -->
+    </semantic:SemanticPage >
 </mvc:View>
 ```
 

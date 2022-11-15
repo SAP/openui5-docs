@@ -79,13 +79,13 @@ The `ResourceModel` required for binding these texts is created during view inst
 
     ```xml
     <mvc:View resourceBundleName="myBundle"
-      resourceBundleAlias="i18n" 
-      controllerName="sap.hcm.Address"
-      xmlns="sap.m"
-      xmlns:mvc="sap.ui.core.mvc">
-      <Panel>
-        <Button text="{i18n>MY_TEXT}"/>
-      </Panel>
+        resourceBundleAlias="i18n" 
+        controllerName="sap.hcm.Address"
+        xmlns="sap.m"
+        xmlns:mvc="sap.ui.core.mvc">
+        <Panel>
+            <Button text="{i18n>MY_TEXT}"/>
+        </Panel>
     <mvc:View>
     ```
 
