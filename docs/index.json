@@ -799,6 +799,9 @@
 									"Handling IDs in UI Components": {
 										"link": "Handling_IDs_in_UI_Components_562803c.md"
 									},
+									"The Owner Component Concept": {
+										"link": "The_Owner_Component_Concept_a7a3138.md"
+									},
 									"Advanced Concepts for OpenUI5 Components": {
 										"link": "Advanced_Concepts_for_OpenUI5_Components_ecbc417.md"
 									}
@@ -1899,6 +1902,9 @@
 									},
 									"App or Control Looks Odd": {
 										"link": "App_or_Control_Looks_Odd_c34413d.md"
+									},
+									"View or Controller Extension is Not Loaded": {
+										"link": "View_or_Controller_Extension_is_Not_Loaded_dbb44ae.md"
 									}
 								}
 							}

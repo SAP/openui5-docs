@@ -89,6 +89,9 @@ The declarative API enables you to define the initially started component direct
 -   **[Handling IDs in UI Components](Handling_IDs_in_UI_Components_562803c.md "Components are usually used with a root view and in this case, the component handles the
 		prefixing of IDs of views, elements, or controls, with the component ID.")**  
 Components are usually used with a root view and in this case, the component handles the prefixing of IDs of views, elements, or controls, with the component ID.
+-   **[The Owner Component Concept](The_Owner_Component_Concept_a7a3138.md "The declarative API enables you to define the initially started component directly in
+		the HTML markup.")**  
+The declarative API enables you to define the initially started component directly in the HTML markup.
 -   **[Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md "Advanced concepts for components include routing and navigation and component data as
 		well as the event bus.")**  
 Advanced concepts for components include routing and navigation and component data as well as the event bus.

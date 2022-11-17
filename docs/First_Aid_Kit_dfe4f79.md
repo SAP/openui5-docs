@@ -22,4 +22,8 @@ This section contains the most common issues that you might face when developing
 
 -   **[App or Control Looks Odd](App_or_Control_Looks_Odd_c34413d.md "")**  
 
+-   **[View or Controller Extension is Not Loaded](View_or_Controller_Extension_is_Not_Loaded_dbb44ae.md "You have extended a view or controller by defining sap.ui5/extends/extensions/sap.ui.controllerExtensions or
+			sap.ui5/extends/extensions/sap.ui.viewExtensions in your Component's manifest.json, but at runtime
+		neither are loaded.")**  
+You have extended a view or controller by defining `sap.ui5/extends/extensions/sap.ui.controllerExtensions` or `sap.ui5/extends/extensions/sap.ui.viewExtensions` in your Component's **manifest.json**, but at runtime neither are loaded.
 

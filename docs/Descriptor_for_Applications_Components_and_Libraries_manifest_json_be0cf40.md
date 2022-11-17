@@ -1845,10 +1845,10 @@ Contains object with app-specific icons, which are:
     > ### Note:  
     > `favIcon` is not set automatically by the framework. The icons can be set manually using the `sap/ui/util/Mobile` module and the `setIcons` function.
 
--   `phone`: 57x57 pixel version for non-retina iPhones
--   `phone@2`: 114x114 pixel version for retina iPhones
--   `tablet`: 72x72 pixel version for non-retina iPads
--   `tablet@2`: 144x144 pixel version for retina iPads
+-   `phone`: 120x120 pixel version for iPhones with low pixel density
+-   `phone@2`: 180x180 pixel version for iPhones with high pixel density
+-   `tablet`: 152x152 pixel version for iPads with low pixel density
+-   `tablet@2`: 167x167 pixel version for iPads with high pixel density
 
 
 

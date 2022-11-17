@@ -400,7 +400,6 @@ sap.ui.define([
 			} else if (iElapsedDays === 1) {
 				return "Yesterday";
 			}
-			return this.dateFormat.format(oDate);
 		},
 		_getElapsedDays : function(oDate) {
 			var iElapsedMilliseconds = this.now() - oDate.getTime();
