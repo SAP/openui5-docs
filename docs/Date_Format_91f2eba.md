@@ -557,6 +557,22 @@ time zone as IANA time zone ID, e.g. "America/New\_York"
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ `B` 
+
+
+
+</td>
+<td valign="top">
+
+day period, e.g. "afternoon" or "midnight" for the time provided
+
+
+
+</td>
+</tr>
 </table>
 
 ***

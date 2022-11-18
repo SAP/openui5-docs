@@ -49,7 +49,7 @@ For a detailed explanation of the owner-component concept and some coding sample
 **Related Information**  
 
 
-[The Owner Component Concept](The_Owner_Component_Concept_a7a3138.md "The declarative API enables you to define the initially started component directly in the HTML markup.")
+[The Owner Component](The_Owner_Component_a7a3138.md "If you wish to extend your view or controller, you must define the extension in the manifest.json of their owner component.")
 
 [`sap.ui.core.Component.getOwnerComponentFor`](https://sdk.openui5.org/api/sap.ui.core.Component/methods/sap.ui.core.Component.getOwnerComponentFor)
 

@@ -256,7 +256,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Using and Nesting Components](Using_and_Nesting_Components_346599f.md)
                 -   [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md)
                 -   [Handling IDs in UI Components](Handling_IDs_in_UI_Components_562803c.md)
-                -   [The Owner Component Concept](The_Owner_Component_Concept_a7a3138.md)
+                -   [The Owner Component](The_Owner_Component_a7a3138.md)
                 -   [Advanced Concepts for OpenUI5 Components](Advanced_Concepts_for_OpenUI5_Components_ecbc417.md)
             -   [Descriptor for Applications, Components, and Libraries \(manifest.json\)](Descriptor_for_Applications_Components_and_Libraries_manifest_json_be0cf40.md)
                 -   [Migrating from Component Metadata to Descriptor](Migrating_from_Component_Metadata_to_Descriptor_e282db2.md)
