@@ -45,7 +45,7 @@ Desktop / Tablet / Phone
 
 This is the default layout type for a `FlexibleColumnLayout`. Only the `Begin` column is displayed, no matter the control size.
 
-Use to show the first logical information level \(master page\) only.
+Use to show the first logical information level \(list page\) only.
 
 
 
@@ -63,7 +63,7 @@ Use to show the first logical information level \(master page\) only.
 
 **`TwoColumnsBeginExpanded`**
 
-Use this layout type to display two logical levels of information \(master and detail pages, master being expanded\) on desktop/tablet, or the second logical level of information only \(detail page\) on phone. On desktop/tablet the transition from `OneColumn` to `TwoColumnsBeginExpanded` is seen by the user as the `Begin` column shrinking and `Mid` column opening, while on phone it's seen as the `Mid` column replacing the `Begin` column.
+Use this layout type to display two logical levels of information \(list and detail pages, list being expanded\) on desktop/tablet, or the second logical level of information only \(detail page\) on phone. On desktop/tablet the transition from `OneColumn` to `TwoColumnsBeginExpanded` is seen by the user as the `Begin` column shrinking and `Mid` column opening, while on phone it's seen as the `Mid` column replacing the `Begin` column.
 
 
 
@@ -120,7 +120,7 @@ Use this layout to display the second logical level of information \(detail page
 
 **`ThreeColumnsMidExpanded`**
 
-Use this layout to display up to three logical levels of information side by side \(master, detail, and detail-detail pages\), when the user should focus primarily on the content of the `Mid` column \(as it is wider than the other two\). On desktop, all three columns will be displayed, on tablet – the `Mid` and `End` columns only \(with a layout arrow to access the `Begin` column\), and on phone – the `End` column only.
+Use this layout to display up to three logical levels of information side by side \(list, detail, and detail-detail pages\), when the user should focus primarily on the content of the `Mid` column \(as it is wider than the other two\). On desktop, all three columns will be displayed, on tablet – the `Mid` and `End` columns only \(with a layout arrow to access the `Begin` column\), and on phone – the `End` column only.
 
 
 

@@ -220,7 +220,7 @@
             -   [Step 10: Adding More Pages](Step_10_Adding_More_Pages_a59b3de.md)
             -   [Step 11: Using the Flexible Column Layout Semantic Helper](Step_11_Using_the_Flexible_Column_Layout_Semantic_Helper_276f001.md)
             -   [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md)
-            -   [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master_Detail_Pattern_cb38637.md)
+            -   [Step 13: Setting the List-Detail Pattern](Step_13_Setting_the_List_Detail_Pattern_cb38637.md)
         -   [Demo Apps](Demo_Apps_a3ab54e.md)
         -   [Best Practices for App Developers](Best_Practices_for_App_Developers_28fcd55.md)
             -   [Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md)

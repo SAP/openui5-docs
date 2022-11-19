@@ -61,5 +61,5 @@ We set the `initialColumnsCount` parameter of the `getHelper` method to `2`.
 
 **Next:** [Step 11: Using the Flexible Column Layout Semantic Helper](Step_11_Using_the_Flexible_Column_Layout_Semantic_Helper_276f001.md "In this step, we use the sap.f.FlexibleColumnLayoutSemanticHelper class to implement the recommended UX patterns for layout changes in the app.")
 
-**Previous:** [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master_Detail_Pattern_cb38637.md "In this step, we set up the app to follow the master-detail pattern.")
+**Previous:** [Step 13: Setting the List-Detail Pattern](Step_13_Setting_the_List_Detail_Pattern_cb38637.md "In this step, we set up the app to follow the list-detail pattern.")
 

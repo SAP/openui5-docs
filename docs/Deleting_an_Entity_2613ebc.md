@@ -16,7 +16,9 @@ When you delete the entity from a list binding, the corresponding row is removed
 
 Bound messages targeting the entity, one of its properties, or its navigation properties, are also removed immediately; this applies to both state and transition messages. If you cancel the deletion, these messages are restored. If the deletion fails, only the state messages are restored; the transition messages are dropped to make room for new transition messages resulting from the failed deletion.
 
-When you delete the entity from a context binding, the binding and all dependent bindings lose the reference.
+As soon as a context is deleted on the client, [`#isDeleted`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/isDeleted) returns `true` and the context must not be used anymore \(except by status APIs like [`#isDeleted`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/isDeleted), `#isKeepAlive`, `#hasPendingChanges`, `#resetChanges`\). If the context is used as a binding context of a control or view, be sure to unbind it using `setBindingContext(null)`. If the context is restored due to a failure or reset, you might want to rebind this control or view again.
+
+Once the entity is finally deleted on the server \(i.e. the promise of `#delete` is resolved\), no method of the context may be used anymore.
 
 **Example: Delete From a Table**
 

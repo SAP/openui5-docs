@@ -16,9 +16,9 @@ The app provides the following features:
 
 -   An up-to-three-column layout based on the `sap.f.FlexibleColumnLayout` control. This layout has predefined layout types and defined routing between them that enables smooth navigation between the list-detail and list-detail-detail patterns of the app.
 
--   A master page based on the `sap.f.DynamicPage` control that lists the available products and has filtering and sorting options.
+-   A list page based on the `sap.f.DynamicPage` control that lists the available products and has filtering and sorting options.
 
--   A detail page based on the `sap.uxap.ObjectPageLayout` control containing detailed information about the selected object from the master page:
+-   A detail page based on the `sap.uxap.ObjectPageLayout` control containing detailed information about the selected object from the list page:
 
     -   It implements the dynamic header of the `ObjectPageLayout` control.
 
@@ -98,6 +98,6 @@ In this step, we use the `sap.f.FlexibleColumnLayoutSemanticHelper` class to imp
 12. [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two
 		columns.")  
 In this step, we set up the app to start with an initial layout of two columns.
-13. [Step 13: Setting the Master-Detail Pattern](Step_13_Setting_the_Master_Detail_Pattern_cb38637.md "In this step, we set up the app to follow the master-detail pattern.")  
-In this step, we set up the app to follow the master-detail pattern.
+13. [Step 13: Setting the List-Detail Pattern](Step_13_Setting_the_List_Detail_Pattern_cb38637.md "In this step, we set up the app to follow the list-detail pattern.")  
+In this step, we set up the app to follow the list-detail pattern.
 
