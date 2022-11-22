@@ -144,6 +144,38 @@ Same as `y`, but uses the ISO year-week calendar
 <tr>
 <td valign="top">
 
+ `Q` 
+
+
+
+</td>
+<td valign="top">
+
+quarter number
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `q` 
+
+
+
+</td>
+<td valign="top">
+
+quarter number in stand-alone format
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
  `M` 
 
 
@@ -240,38 +272,6 @@ day number in month
 <tr>
 <td valign="top">
 
- `Q` 
-
-
-
-</td>
-<td valign="top">
-
-quarter number
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `q` 
-
-
-
-</td>
-<td valign="top">
-
-quarter number in stand-alone format
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 \(`F`\)
 
 
@@ -344,6 +344,22 @@ day number of week
 <td valign="top">
 
 AM or PM
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ `B` 
+
+
+
+</td>
+<td valign="top">
+
+flexible day period, e.g. "afternoon" or "midnight", for the time provided
 
 
 
@@ -552,22 +568,6 @@ time zone in ISO 8601 format
 <td valign="top">
 
 time zone as IANA time zone ID, e.g. "America/New\_York"
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `B` 
-
-
-
-</td>
-<td valign="top">
-
-day period, e.g. "afternoon" or "midnight" for the time provided
 
 
 

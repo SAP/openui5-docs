@@ -23,16 +23,21 @@ Once the entity is finally deleted on the server \(i.e. the promise of `#delete`
 **Example: Delete From a Table**
 
 ```js
-
 onDeleteSalesOrder : function () {
     var oTable = this.getView().byId("SalesOrders"),
-        oSalesOrderContext = oTable.getSelectedItem().getBindingContext();
- 
-    oSalesOrderContext.delete("$auto").then(function () {
-        oTable.removeSelections();
+        oSalesOrderContext = oTable.getSelectedItem().getBindingContext(),
+        oObjectPage = this.getView().byID("objectPage");
+
+    if (oObjectPage.getBindingContext() === oSalesOrderContext) {
+        oObjectPage.setBindingContext(null);
+    }
+    oSalesOrderContext.delete().then(function () {
         MessageBox.alert("Deleted Sales Order",
             {icon : MessageBox.Icon.SUCCESS, title : "Success"});
     }, function (oError) {
+        if (oSalesOrderContext === that.oLastSelectedSalesOrderContext) {
+            oObjectPage.setBindingContext(oSalesOrderContext);
+        }
         MessageBox.alert("Could not delete Sales Order: "
             + oError.message, {icon : MessageBox.Icon.ERROR, title : "Error"});
     });
