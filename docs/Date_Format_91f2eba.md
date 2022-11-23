@@ -135,7 +135,7 @@ year
 </td>
 <td valign="top">
 
-Same as `y`, but uses the ISO year-week calendar
+calendar year based on the calendar week
 
 
 

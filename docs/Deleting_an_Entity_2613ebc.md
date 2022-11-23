@@ -20,7 +20,7 @@ As soon as a context is deleted on the client, [`#isDeleted`](https://sdk.openui
 
 Once the entity is finally deleted on the server \(i.e. the promise of `#delete` is resolved\), no method of the context may be used anymore.
 
-**Example: Delete From a Table**
+**Example: Delete from a table with an object page**
 
 ```js
 onDeleteSalesOrder : function () {
