@@ -45,8 +45,7 @@ You can view and download all files at [OData V4 - Step 5](https://sdk.openui5.o
 				"settings": {
 					"autoExpandSelect": true,
 					"operationMode": "Server",
-					"groupId": "$auto",
-					"synchronizationMode": "None"
+					"groupId": "$auto"
 				}
 ...
 ```

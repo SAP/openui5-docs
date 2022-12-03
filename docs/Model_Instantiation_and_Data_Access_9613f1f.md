@@ -14,7 +14,7 @@ One OData V4 model instance can only cover one OData service. This section descr
 
 The OData V4 model is primarily designed for OData V4 services. Nevertheless, OData V2 services may be used through an adapter as well. For more information see: [Consuming OData V2 Services with the OData V4 Model](Consuming_OData_V2_Services_with_the_OData_V4_Model_365bdbd.md)
 
-When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the properties `serviceUrl` and `synchronizationMode`. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor) API documentation in the Demo Kit.
+When creating an OData V4 model instance, the only parameter you actually need is a map. This map must contain at least the `serviceUrl` property. For more information, see the [sap.ui.model.odata.v4.ODataModel constructor](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor) API documentation in the Demo Kit.
 
 **OData V4 model instantiation:**
 
@@ -22,8 +22,7 @@ When creating an OData V4 model instance, the only parameter you actually need i
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
-        serviceUrl : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/",
-        synchronizationMode : "None"
+        serviceUrl : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/"
     });
 });
 ```
@@ -43,8 +42,7 @@ An OData service accepts query options placed in the service URL query part, as 
 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
-    	serviceUrl : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/?customParam=foo", 
-    	synchronizationMode : "None"
+    	serviceUrl : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/?customParam=foo"
     });
 });
 ```
@@ -66,7 +64,6 @@ The following code instantiates a model that bundles all update requests in the 
 sap.ui.define(["sap/ui/model/odata/v4/ODataModel"], function (ODataModel) {
     var oModel = new ODataModel({
         serviceUrl : "/sap/opu/odata4/IWBEP/V4_SAMPLE/default/IWBEP/V4_GW_SAMPLE_BASIC/0001/",
-        synchronizationMode : "None",
         updateGroupId : "myAppUpdateGroup"
     });
 });
@@ -97,7 +94,6 @@ The code sample below shows the parts of a [Descriptor for Applications, Compone
             "" : {
                 "dataSource" : "default",
                 "settings" : {
-                    "synchronizationMode" : "None",
                     "updateGroupId" : "myAppUpdateGroup"
                 }
             }
@@ -150,7 +146,6 @@ Sample: Set HTTP header `custom` in manifest.json:
                     "httpHeaders" : {
                         "custom" : "foo"
                     },
-                    "synchronizationMode" : "None",
                      
                 }
             }
