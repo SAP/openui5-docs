@@ -159,10 +159,10 @@ Component.create({
 
 If the library preloads are disabled or not found, every module is loaded separately by an own request. Depending on the server and network infrastructure, this can take a lot of time. Except for debugging reasons, it is always recommended to make sure library preloads are used. Fortunately, the library preloads are active by default if the files are present.
 
-In some cases it may happen that preloads are disabled:
+In some cases it may happen that preloads are not enabled or modules of some libraries are still loaded separately:
 
--   The `data-sap-ui-preload` bootstrap attribute is empty or set to an invalid value. The attribute is optional and only necessary if the loading behavior \(sync / async\) needs to be overwritten manually.
-
+-   A subset of libraries in the `manifest.json` section `/sap.ui5/dependencies/libs` is declared with the `lazy` loading option, but those lazy libraries are not preloaded manually before their modules are used. See [Descriptor Dependencies to Libraries and Components](Descriptor_Dependencies_to_Libraries_and_Components_8521ad1.md).
+-   Neither `sap-ui-async` nor `sap-ui-preload` is enabled in the bootstrap configuration options. Note that if `sap-ui-async` is set to `true`, the value of the `preload` configuration is automatically set to `"async"`. If `sap-ui-async` cannot be enabled yet, the value `"async"` has to be applied in the `sap-ui-preload` bootstrap option manually in order to enable preloading libraries asynchronously.
 -   Debug sources are enabled in the bootstrap \(`data-sap-ui-debug=true`\) or via the URL \(`sap-ui-debug=true`\).
 
 ***
