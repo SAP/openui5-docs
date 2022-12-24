@@ -272,7 +272,7 @@ Latest 2 versions
 </td>
 <td valign="top">
 
-Latest 2 versions
+Latest version
 
 
 
@@ -330,14 +330,14 @@ Phone and Tablet<sup>5</sup>
 </td>
 <td valign="top">
 
-Latest 2 versions
+Latest version
 
 
 
 </td>
 <td valign="top">
 
-Latest 2 versions
+Latest version
 
 
 
