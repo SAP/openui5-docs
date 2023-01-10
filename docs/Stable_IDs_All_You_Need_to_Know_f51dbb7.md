@@ -48,6 +48,11 @@ The generated IDs change whenever the control structure of the app changes. The 
 > ### Tip:  
 > Stable IDs are an important prerequisite for SAPUI5 flexibility services, automated testing, and inline help tools. Apps with stable IDs are of high quality and offer customers more functionality. Therefore, we strongly recommend that you use stable IDs whenever possible \(some technical controls don't need stable IDs, such as `CustomData`\).
 
+> ### Caution:  
+> If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. These stable IDs are part of the public API of the app, and therefore must be kept stable over the life cycle of the app.
+> 
+> Do not delete any control that has a stable ID. If you need to remove a control from an app, set the control's `visible` property to `false`.
+
 ***
 
 <a name="loiof51dbb78e7d5448e838cdc04bdf65403__section_setstableid"/>
@@ -352,9 +357,6 @@ Fragment.load({
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> If some controls have disappeared after a software upgrade or the way in which they can be identified has been changed, this has a direct impact on the functions that depend on stable IDs. For this reason, the IDs, which are part of the public API of the app, must be kept stable over the life cycle of the app.
 
 ***
 
