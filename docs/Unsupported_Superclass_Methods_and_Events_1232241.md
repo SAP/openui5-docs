@@ -228,8 +228,6 @@ Event
 
 `parseError`
 
-`propertyChange`
-
 `requestCompleted`
 
 `requestFailed`

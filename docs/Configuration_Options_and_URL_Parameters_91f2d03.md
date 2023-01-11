@@ -13,7 +13,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f2d0
 The complete list of configuration options available in OpenUI5 can be found in the *API Reference* under `sap.ui.core.Configuration`. The following table shows a subset of the available configuration options.
 
 > ### Note:  
-> A subset of these configuration parameters can also be used as URL parameter \("URL:![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)"\). The URL parameter name is composed of the name of the configuration option and the `sap-ui-` prefix, for example like `sap-ui-debug=true`.
+> -   A subset of these configuration parameters can also be set via URL parameters \(if "**by URL parameter**" is: "![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)"\). URL parameter names are composed of the `sap-ui-` prefix together with the name of the configuration option, for example: `sap-ui-debug=true`.
+> 
+> -   Some of the information provided here assumes that the `compatVersion` configuration option is set to its expected value; check it for more details.
 
 
 <table>
