@@ -971,6 +971,9 @@
 							"Formatting, Parsing, and Validating Data": {
 								"link": "Formatting_Parsing_and_Validating_Data_07e4b92.md",
 								"items": {
+									"Dates, Times, Timestamps and Time Zones": {
+										"link": "Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md"
+									},
 									"Simple Data Types": {
 										"link": "Simple_Data_Types_91f06be.md",
 										"items": {
