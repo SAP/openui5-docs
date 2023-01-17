@@ -20,9 +20,9 @@ In this step, we add an empty detail page.
 
    
   
-**Master Page with Empty Detail Page**
+**List Page with Empty Detail Page**
 
- ![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_HiRes.gif "Master Page with Empty Detail Page") 
+ ![](images/loio10dec0cd47ca4a6fb9ce1caf2ba768e3_HiRes.gif "List Page with Empty Detail Page") 
 
 ***
 
@@ -60,7 +60,7 @@ First, we create a blank detail page.
 	xmlns:mvc="sap.ui.core.mvc">
 	<FlexibleColumnLayout id="flexibleColumnLayout" backgroundDesign="Solid">
 		<beginColumnPages>
-			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.Master"/>
+			<mvc:XMLView id="beginView" viewName="sap.ui.demo.fiori2.view.List"/>
 		</beginColumnPages>
 		<midColumnPages>
 			<mvc:XMLView id="detailView" viewName="sap.ui.demo.fiori2.view.Detail"/>
@@ -75,7 +75,7 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_xw1_1lj_l4b"/>
 
-### webapp/view/Master.view.xml \[MODIFY\]
+### webapp/view/List.view.xml \[MODIFY\]
 
 ```xml
 		...
@@ -103,13 +103,13 @@ We add the detail page in `FlexibleColumnLayout's` `midColumnPages` aggregation 
 					...
 ```
 
-We add a `press` handler to each `ColumnListItem` in the `Master.view.xml`.
+We add a `press` handler to each `ColumnListItem` in the `List.view.xml`.
 
 ***
 
 <a name="loio4e4315cef89e48ceb60b4dc12f5be2d2__section_nxz_ykj_l4b"/>
 
-### webapp/controller/Master.controller.js \[MODIFY\]
+### webapp/controller/List.controller.js \[MODIFY\]
 
 ```js
 sap.ui.define([
@@ -142,11 +142,11 @@ sap.ui.define([
 });
 ```
 
-In the `Master.controller.js`, we attach a `onListItemPress` function to the `press` handler, which changes the `layout` to `TwoColumnsBeginExpanded`. This means that there are going to be two columns, where the first one is larger than the second. For more information on the available layout types, see [Types of Layout](Types_of_Layout_3b9f760.md).
+In the `List.controller.js`, we attach a `onListItemPress` function to the `press` handler, which changes the `layout` to `TwoColumnsBeginExpanded`. This means that there are going to be two columns, where the first one is larger than the second. For more information on the available layout types, see [Types of Layout](Types_of_Layout_3b9f760.md).
 
 **Parent topic:** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 3: Using Dynamic Page for the Master View](Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md "In this step, we create the master view of the app using sap.f.DynamicPage control.")
+**Next:** [Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using sap.f.DynamicPage control.")
 
 **Previous:** [Step 5: Using Object Page Layout as a Detail Page](Step_5_Using_Object_Page_Layout_as_a_Detail_Page_d1ffe61.md "In this step, we add sap.uxap.ObjectPageLayout to the detail page to display more information about each product.")
 

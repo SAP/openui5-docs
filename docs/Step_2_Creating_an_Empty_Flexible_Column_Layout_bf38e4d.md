@@ -133,5 +133,5 @@ We set the `rootView` to point to the created `App.view.xml`.
 
 **Next:** [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this tutorial.")
 
-**Previous:** [Step 3: Using Dynamic Page for the Master View](Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md "In this step, we create the master view of the app using sap.f.DynamicPage control.")
+**Previous:** [Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using sap.f.DynamicPage control.")
 

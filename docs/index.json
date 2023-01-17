@@ -246,6 +246,9 @@
 					},
 					"SAPUI5 vs. OpenUI5": {
 						"link": "SAPUI5_vs_OpenUI5_5982a97.md"
+					},
+					"The UI5 Ecosystem": {
+						"link": "The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213"
 					}
 				}
 			},
@@ -668,8 +671,8 @@
 							"Step 2: Creating an Empty Flexible Column Layout": {
 								"link": "Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md"
 							},
-							"Step 3: Using Dynamic Page for the Master View": {
-								"link": "Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md"
+							"Step 3: Using Dynamic Page for the List View": {
+								"link": "Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md"
 							},
 							"Step 4: Adding a Detail Page": {
 								"link": "Step_4_Adding_a_Detail_Page_4e4315c.md"

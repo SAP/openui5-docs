@@ -113,9 +113,9 @@ We create the detail-detail page controller.
 			"routes": [
 				{
 					"pattern": ":layout:",
-					"name": "master",
+					"name": "list",
 					"target": [
-						"master",
+						"list",
 						"detail"
 					]
 				},
@@ -123,7 +123,7 @@ We create the detail-detail page controller.
 					"pattern": "detail/{product}/{layout}",
 					"name": "detail",
 					"target": [
-						"master",
+						"list",
 						"detail"
 					]
 				},
@@ -131,15 +131,15 @@ We create the detail-detail page controller.
 					"pattern": "detail/{product}/detailDetail/{supplier}/{layout}",
 					"name": "detailDetail",
 					"target": [
-						"master",
+						"list",
 						"detail",
 						"detailDetail"
 					]
 				}
 			],
 			"targets": {
-				"master": {
-					"name": "Master",
+				"list": {
+					"name": "List",
 					"controlAggregation": "beginColumnPages"
 				},
 				"detail": {
@@ -214,7 +214,7 @@ sap.ui.define([
 			this.oRouter = oOwnerComponent.getRouter();
 			this.oModel = oOwnerComponent.getModel();
 
-			this.oRouter.getRoute("master").attachPatternMatched(this._onProductMatched, this);
+			this.oRouter.getRoute("list").attachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detail").attachPatternMatched(this._onProductMatched, this);
 			this.oRouter.getRoute("detailDetail").attachPatternMatched(this._onProductMatched, this);
 		},

@@ -69,9 +69,9 @@ We start by setting up a basic OpenUI5 app for this tutorial.
 2.  [Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md "In this step, we add an instance of the sap.f.FlexibleColumnLayout
 		control in the main view of the app.")  
 In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in the main view of the app.
-3.  [Step 3: Using Dynamic Page for the Master View](Step_3_Using_Dynamic_Page_for_the_Master_View_0830bce.md "In this step, we create the master view of the app using
+3.  [Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using
 			sap.f.DynamicPage control.")  
-In this step, we create the master view of the app using `sap.f.DynamicPage` control.
+In this step, we create the list view of the app using `sap.f.DynamicPage` control.
 4.  [Step 4: Adding a Detail Page](Step_4_Adding_a_Detail_Page_4e4315c.md "In this step, we add an empty detail page.")  
 In this step, we add an empty detail page.
 5.  [Step 5: Using Object Page Layout as a Detail Page](Step_5_Using_Object_Page_Layout_as_a_Detail_Page_d1ffe61.md "In this step, we add sap.uxap.ObjectPageLayout to the detail page to

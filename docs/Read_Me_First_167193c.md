@@ -47,4 +47,7 @@ As OpenUI5 evolves over time, some of the UI controls are replaced by others, or
 		our UI development toolkit. Both are very closely related, but have their
 		differences.")**  
 With SAPUI5 and OpenUI5 we provide two deliveries of our UI development toolkit. Both are very closely related, but have their differences.
+-   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
+		projects.")**  
+This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 

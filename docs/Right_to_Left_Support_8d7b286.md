@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/8d7b28
 
 OpenUI5 application developers need to be aware of how applications behave when right-to-left \(RTL\) directionality is selected. Changing the directionality has a big impact on text-displaying controls, images and the alignment of the whole application.
 
- OpenUI5 sets the RTL mode based on the current language which is usually picked automatically based on the local configuration of the user’s browser or profile data.
+ OpenUI5 sets the RTL mode based on the current language which is usually picked automatically based on the locale configuration of the user’s browser or profile data.
 
 The default text direction is left-to-right \(LTR\). If you need to change the mode for testing purposes you can do it by using one of the following configuration switches:
 
@@ -25,7 +25,7 @@ The default text direction is left-to-right \(LTR\). If you need to change the m
 -   Setting an RTL language as default language for the application.
 
 
-OpenUI5 then sets the overall page direction to RTL and all OpenUI5 content is displayed in RTL mode. Self-written controls and content has to be tested separately. If you require manual styles, provide a style specifically for the RTL case by using `html[dir=rtl]`.
+OpenUI5 then sets the overall page direction to RTL and all OpenUI5 content is displayed in RTL mode. Self-written controls and content has to be tested separately. If your application comes with additional CSS and needs specific style rules for the RTL case, then use a selector starting with `html[dir=rtl]`.
 
 -   **[API Properties for Right-to-Left Support in Text-Displaying Controls](API_Properties_for_Right_to_Left_Support_in_Text_Displaying_Controls_7e7cd0a.md "Languages with right-to-left (RTL) text directionality keep the default directionality
 		of numeric values and texts in left-to-right (LTR) mode. To ensure correct handling, two API
