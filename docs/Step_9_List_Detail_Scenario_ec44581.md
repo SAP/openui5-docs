@@ -49,7 +49,7 @@ You can view and download all files at [OData V4 - Step 9](https://sdk.openui5.o
         },
 
 ...
-						        /**
+		/**
          * Toggles the visibility of the detail area
          *
          * @param {object} [oUserContext] - the current user context

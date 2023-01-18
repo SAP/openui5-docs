@@ -66,26 +66,26 @@ You can view and download all files at [OData V4 - Step 7](https://sdk.openui5.o
 		},
 
 		onDelete : function () {
-    var oContext,
-        oSelected = this.byId("peopleList").getSelectedItem(),
-        sUserName;
+		    var oContext,
+		        oSelected = this.byId("peopleList").getSelectedItem(),
+		        sUserName;
  
-    if (oSelected) {
-        oContext = oSelected.getBindingContext();
-        sUserName = oContext.getProperty("UserName");
-        oContext.delete().then(function () {
-            MessageToast.show(this._getText("deletionSuccessMessage", sUserName));
-        }.bind(this), function (oError) {
-            this._setUIChanges();
-            if (oError.canceled) {
-                MessageToast.show(this._getText("deletionRestoredMessage", sUserName));
-                return;
-            }
-            MessageBox.error(oError.message + ": " + sUserName);
-        }.bind(this));
-        this._setUIChanges(true);
-    }
-},
+		    if (oSelected) {
+		        oContext = oSelected.getBindingContext();
+		        sUserName = oContext.getProperty("UserName");
+		        oContext.delete().then(function () {
+		            MessageToast.show(this._getText("deletionSuccessMessage", sUserName));
+		        }.bind(this), function (oError) {
+		            this._setUIChanges();
+		            if (oError.canceled) {
+		                MessageToast.show(this._getText("deletionRestoredMessage", sUserName));
+		                return;
+		            }
+		            MessageBox.error(oError.message + ": " + sUserName);
+		        }.bind(this));
+		        this._setUIChanges(true);
+		    }
+		},
 
 		onInputChange : function (oEvt) {
 			if (oEvt.getParameter("escPressed")) {

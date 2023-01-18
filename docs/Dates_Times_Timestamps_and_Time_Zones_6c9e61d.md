@@ -23,7 +23,7 @@ The intermediate processing of these entities on the client side typically uses 
 For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser time zone to any provided time zone. For example, with `?sap-timezone= Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), or with `?sap-timezone= Pacific/Fiji` the Fiji time zone \(GMT+12:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
 > ### Restriction:  
-> If you use a configured time zone, **your application may break** if it uses JavaScript `Date` objects in combination with `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we urge you to use data binding with the corresponding OpenUI5 OData data types wherever possible in your application.
+> If you use a configured time zone, **your application may break** if it uses JavaScript `Date` objects in combination with `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we recommend to use data binding with the corresponding OpenUI5 OData types wherever possible in your application.
 
 This topic describes the different OData Edm types and the corresponding OpenUI5 data type, how to display timestamps in a specific time zone, a list of best practices for handling timestamps, dates, and times in OpenUI5, and a list of common pitfalls.
 
@@ -33,7 +33,288 @@ This topic describes the different OData Edm types and the corresponding OpenUI5
 
 ### Timestamps, Dates and Times in OData
 
-OData provides different Edm types for handling timestamps, dates, and times. For these Edm types, OpenUI5 provides corresponding OpenUI5 data types to be used with data binding for formatting and parsing timestamps, dates and times. The following table shows whichOpenUI5 data type belongs to which Edm type, and which meaning these types have:
+OData provides different Edm types for handling timestamps, dates, and times. For these Edm types, OpenUI5 provides corresponding [OpenUI5 data types](Formatting_Parsing_and_Validating_Data_07e4b92.md) to be used with data binding for formatting and parsing timestamps, dates and times. The following table shows whichOpenUI5 data type belongs to which Edm type, and which meaning these types have:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Edm Type
+
+
+
+</th>
+<th valign="top">
+
+Transported as \(in JSON Format\)
+
+
+
+</th>
+<th valign="top">
+
+Model Representation
+
+
+
+</th>
+<th valign="top">
+
+OpenUI5 Type
+
+
+
+</th>
+<th valign="top">
+
+Meaning
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="5">
+
+**OData V4 Edm Types**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.Date`
+
+
+
+</td>
+<td valign="top">
+
+"Date" : "2014-03-25"
+
+
+
+</td>
+<td valign="top">
+
+String
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.Date`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Date)
+
+
+
+</td>
+<td valign="top">
+
+A **date** as defined above.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.DateTimeOffset`
+
+
+
+</td>
+<td valign="top">
+
+"DateTimeOffset" : "2015-01-06T07:25:21Z"
+
+
+
+</td>
+<td valign="top">
+
+String
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.DateTimeOffset`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeOffset)
+
+
+
+</td>
+<td valign="top">
+
+A **timestamp** as defined above.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.TimeOfDay`
+
+
+
+</td>
+<td valign="top">
+
+"TimeOfDay" : "07:25:21"
+
+
+
+</td>
+<td valign="top">
+
+String
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.TimeOfDay`](https://sdk.openui5.org/api/sap.ui.model.odata.type.TimeOfDay)
+
+
+
+</td>
+<td valign="top">
+
+A **time** as defined above.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="5">
+
+**OData V2 Edm Types**
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.DateTime`
+
+
+
+</td>
+<td valign="top">
+
+"DateTime" : "\\/Date\(1395752399000\)\\/"
+
+
+
+</td>
+<td valign="top">
+
+JavaScript Date
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.DateTime`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTime) with constraint`displayFormat: "Date"`
+
+
+
+</td>
+<td valign="top">
+
+A **date** as defined above if the property/parameter is annotated with `sap:display-format="Date"`. Using this type as a **timestamp** is not recommended; use `Edm.DateTimeOffset` instead.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.DateTimeOffset`
+
+
+
+</td>
+<td valign="top">
+
+"DateTimeOffset" : "\\/Date\(1420529121547+0000\)\\/"
+
+
+
+</td>
+<td valign="top">
+
+JavaScript Date
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.DateTimeOffset`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeOffset)
+
+
+
+</td>
+<td valign="top">
+
+A **timestamp** as defined above.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Edm.Time`
+
+
+
+</td>
+<td valign="top">
+
+"Time" : "PT11H33M55S"
+
+
+
+</td>
+<td valign="top">
+
+\{ ms : 41635000 , \_\_edmType : 'Edm.Time' \}
+
+
+
+</td>
+<td valign="top">
+
+ [ `sap.ui.model.odata.type.Time`](https://sdk.openui5.org/api/sap.ui.model.odata.type.Time)
+
+
+
+</td>
+<td valign="top">
+
+A **time** as defined above.
+
+
+
+</td>
+</tr>
+</table>
 
 
 <table>
@@ -210,26 +491,9 @@ a property of `Edm.String` type, which is nullable
 </tr>
 </table>
 
-\*\) In the error response this is represented by an instance annotation in the SAP Common vocabulary, [com.sap.vocabularies.Common.v1](https://github.com/SAP/odata-vocabularies/blob/master/vocabularies/Common.md)
+Timestamps are always transported between client and server in UTC \(Coordinated Universal Time\), but on the UI they are displayed in the user's time zone, i.e. the time zone used by the browser which is configured in the operating system. The UTC offset \("Z" in OData V4, or "+0000" in OData V2 in the examples above\) is neither used to determine a time zone on the client nor to transport time zone information from the client to the back end.
 
-End user messages contain the following information:
-
--   `code` - language-independent message code
-
--   `message`- language-dependent message text
-
--   `target` - path to the target of the message detail
-
--   `technicalDetails` - technical details of the message
-
--   `transition`
-
--   `numericSeverity` - specifies a m – classification of end user messages; allowed values: 1 \(success\), 2 \(info\), 3 \(warning\), 4 \(error\); `numericSeverity` is mapped to the specific `sap.ui.core.MessageType`
-
--   `longtextUrl` – optional; is omitted if there is no long text available for the corresponding message.
-
-
-The use of the fields in specific cases is described in the sections below.
+Dates and times are time zone-independent, so OData V4 uses strings like "2014-03-25" or "07:25:21" for transporting dates and times between server and client, and for storing the values in the OData model. In OData V2, however, there is no specific data type for dates. There is an `sap:display-format="Date"` annotation at an OData property/parameter having the Edm type `DateTime`, which means that the given timestamp has to be interpreted as a date. The  [ `sap.ui.model.odata.type.DateTime`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTime) with the constraint `sap:display-format="Date"` uses UTC to extract the date information from a timestamp.
 
 ***
 
@@ -237,103 +501,7 @@ The use of the fields in specific cases is described in the sections below.
 
 ### Displaying Timestamps in a Specific Time Zone
 
-Messages are classified by two different categories: bound/unbound and state/transition.
-
-***
-
-#### Bound and unbound messages
-
-Messages are either bound or unbound: Bound messages are related to OData entities, whereas unbound messages are not related to OData entities. Unbound messages are identified by a missing, i.e. undefined, target in the OData V4 message. This is translated into an empty string in the UI5 message.
-
-***
-
-#### State and transition messages
-
-Messages are either state or transition messages:
-
--   State messages refer to the state of the corresponding resource \(OData entity instance\). State messages are valid as long as the related business object is not changed. The OData V4 model handles the lifecycle of state messages and will remove state messages from the message model once they are no longer sent by the server when the corresponding resource is requested. For more information, see [Lifecycle Management for State Messages](Server_Messages_in_the_OData_V4_Model_fbe1cb5.md#loiofbe1cb5613cf4a40a841750bf813238e__section_LMFSM).
-
--   Transition messages refer to the current request and are not related to the state of a resource. They are only relevant for the request that was triggered, for example *System not available, business object could not be updated*. Optionally, transition messages can reference a business object, for example *Shipping address could not be changed due to missing authorization*. Transition messages are translated into persistent messages in the message model. The application is responsible for the handling of the lifecycle of such persistent messages. The OData V4 model will not remove persistent messages from the message model.
-
-
-***
-
-#### Combining state/transition and bound/unbound messages
-
-Three different types of messages result from the possible combinations of the state/transition and bound/unbound categories. There cannot be unbound messages referring to the state of an OData entity.
-
-
-<table>
-<tr>
-<th valign="top">
-
- 
-
-
-
-</th>
-<th valign="top">
-
-State
-
-
-
-</th>
-<th valign="top">
-
-Transition
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Unbound
-
-
-
-</td>
-<td valign="top">
-
-![](images/loio38d78b4d740c43719a4eb8d80d4184e0_LowRes.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Bound
-
-
-
-</td>
-<td valign="top">
-
-![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/loio0d13ebb7aa8b4bf8b5c56acfa02653ef_LowRes.png)
-
-
-
-</td>
-</tr>
-</table>
+Displaying timestamps in a specific time zone provided by the back end is done using the composite type  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone). The first part of the composite binding contains the timestamp and an `Edm.DateTimeOffset`, and the second part contains the IANA time zone ID.
 
 ***
 
@@ -341,31 +509,19 @@ Bound
 
 ### Best Practices
 
-There are three different channels for transporting messages to the client:
+**Use data binding with the corresponding OData types against the string-based property \(`value`\) of the control** used to display the date, time, timestamp, or a date range.
 
-1.  The error response for transporting unbound and bound transition messages in the error case.
+JSON models can also be used if the data is stored in the JSON model in the same way as in the corresponding OData model. If you already have the values in an OData model, you can transfer them to a JSON model. Dates, times and timestamps in the OData V2 model are stored as objects, so take care to clone these objects before transferring the values to a JSON model.
 
-2.  The `sap-messages` header for transporting unbound and bound transition messages in the success case.
+If an OData V4 model is used, cloning is not necessary, as the model representation of dates, times, and timestamps is a string.
 
-3.  The `message` property as part of the entity for transporting bound state and transition messages in the success case.
-
-
-> ### Note:  
-> In the success case, a bound transition message can either be transported in the `sap-messages` header or in the `message` property. A message sent in the `sap-messages` header must not be repeated in the `message` property, and vice versa.
+When binding an OData V4 property via an OData V4 model, type information is automatically determined, and there is no need to specify a type in the binding information. If you bind an OData V4 property via a JSON model, however, you have to specify the types.
 
 ***
 
 #### `sap.m.DatePicker` with `Edm.Date` or `Edm.DateTime`
 
 Only transition messages are transported in the error response. The messages may be bound or unbound. Error messages are always reported in the error response in JSON format, as described in the OData JSON Format Version 4.0 in Section *19 Error Response*, with the following additions:
-
--   The instance annotation `com.sap.vocabularies.Common.v1.longtextUrl` can be used to provide a long text URL, which can be a relative or an absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
-
--   `target` is relative to the requested resource.
-
--   `@com.sap.vocabularies.Common.v1.additionalTargets` is a list of additional targets relative to the requested resource.
--   The error message type is always `sap.ui.core.MessageType.Error`. The instance annotation `com.sap.vocabularies.Common.v1.numericSeverity` determines the message type of the detail messages.
-
 
 A change set with multiple requests only has one error response. In this case, `target` alone is not sufficient to assign a message to a resource. The error must be assigned to one of the requests via the request's MIME header `Content-ID` first. The `Content-ID` has to be provided in the instance annotation `Org.OData.Core.V1.ContentID`.
 
@@ -412,13 +568,6 @@ A change set with multiple requests only has one error response. In this case, `
 
 The response of a successful request may contain messages in the `sap-messages` header. Only transition messages are transported in the `sap-messages` header. These messages may be bound or unbound. The `sap-messages` header contains an array of objects that can include:
 
--   A machine-readable `code`,
--   a human-readable, language-dependent `message`,
--   a `numericSeverity`,
--   an optional `longtextUrl`,
--   an optional `target`,
--   an optional array of `additionalTargets` if the message applies to two or more fields. Each item in this array is a string with the same syntax as `target`.
-
 ```
 sap-messages:[
      {
@@ -430,18 +579,6 @@ sap-messages:[
      }
 ]
 ```
-
-> ### Note:  
-> `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the request URL. Absolute paths are treated as relative to the server.
-
-> ### Example:  
-> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/to_Address; longtextUrl: "Messages(3)/LongText/$value"`
-> 
-> Result: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42)/Messages(3)/LongText/$value`
-> 
-> Request URL: `http://<server>:<port>/serviceroot.svc/BusinessPartners(42); longtextUrl: "/Messages(3)/LongText/$value"`
-> 
-> Result: `http://<server>:<port>/Messages(3)/LongText/$value`
 
 ***
 
@@ -463,19 +600,13 @@ Bound messages may also be transported as a part of the OData entity to which th
 
 The `target` property may contain a path relative to the entity which contains the message. The target can, for example, refer to a property within that entity. Further targets may be transported in the `additionalTargets` property. This information is used to highlight UI elements such as input fields if they are bound to properties referenced by a path contained in the `target` or `additionalTargets` properties. All responses are checked for bound messages. If there are messages, they are reported to the message model.
 
-> ### Note:  
-> Highlighting of an input field only works if the resolved message target and the binding path of the control are identical. In addition to the OData 4.0 specification, the model normalizes the message targets following these rules:
-> 
-> -   Key properties are ordered just as in the metadata,
-> -   for single key properties, the name of the key is omitted,
-> -   for collection-valued navigation properties, all keys are present,
-> -   the values are encoded via `encodeURIComponent`.
-
 For bound messages, `longtextUrl` can be a relative or absolute path. Relative paths are treated as relative to the innermost context path \(`@odata.context`\) in the response, or to the request URL if there is no context path. Absolute paths are treated as relative to the server.
 
 ***
 
 #### `sap.m.DateRangeSelection` with `Edm.Date` or `Edm.DateTime`
+
+With a `DateRangeSelection` control, the user can select two dates, a start date and an end date. The control has the two properties `dateValue` and `secondDateValue` for these values, which expect a JS `Date` object, but there is only one property `value`, which expects a string property. For binding the `value` against a start date and an end date, the composite type `sap.ui.model.type.DateInterval` has to be used.
 
 ***
 
@@ -487,34 +618,18 @@ For bound messages, `longtextUrl` can be a relative or absolute path. Relative p
 
 #### Controls are used with JavaScript `Date` objects
 
+**To display or modify dates, times or timestamps, we recommend to bind the `value` property of the control with the corresponding data type.** The OpenUI5 framework then takes care that the values are properly displayed and sent to the back end.
+
+> ### Caution:  
+> Applications calculating with or converting JavaScript `Date`s, e.g. by adding or subtracting time zone offsets \(`oDate.getTimeZoneOffset()`\) or by using `oDate.getHour()` or `oDate.getDate()`, will break if a user-configured time zone is used that is different from the browser's time zone. The time zone offset is relative to the browser's time zone, but the timestamp is displayed in the configured time zone.
+
+Use data binding with the corresponding OData types, so that the framework takes care to properly display the dates, times and timestampss and sends them properly to the back end.
+
 ***
 
 #### Unexpected type in `$metadata` document
 
-The lifecycle management for state messages is optimized for a specific orchestration with the server. When a message is requested, the OData V4 server returns all bound messages for the respective entity and its subentities within the same business object. The business object is defined by the first path segment.
+Instead of using Edm types for dates/times, an Edm.String type is used, especially when using function import parameters. The application then has to take care that the date/time values are properly sent to the back end.
 
-The following example uses a sales order with items and related products:
-
--   A `GET` request for `/SalesOrder(´0815´)` returns all bound messages for the sales order and its items, even if the items themselves are not contained in the response. Messages to assigned products, business partners, and so on, that are not part of the `SalesOrder` business object will **not** be sent if the path starts within the `SalesOrder` business object.
-
--   A `GET` request for a specific item with path `/SalesOrder(´0815´)/_Items(´010´)` returns all bound messages for this item.
-
--   A `GET` request for the product related to an item using the deep path `/SalesOrder(´0815´)/_Items(´010´)/_Product` will not return any bound messages.
-
-
-The OData V4 model checks whether the response contains the message property and removes all previous bound state messages from the message model if their target paths start with the path of the entity.
-
-This concept has the following consequences:
-
--   When you display the information for the business object itself, you can also display the messages for all subentities of this business object.
-
--   For displaying the entities within a business object, an application has to use deep paths instead of canonical paths; otherwise, messages will appear twice. In the object page of item `´010´`, for example, the binding needs to use the path `/SalesOrder(´0815´)/_Items(´010´)`. You can also achieve this with a relative binding using the context of the sales order.
-
--   Binding entities outside the business object with the deep path means that no messages will be retrieved for this entity. Using the binding `/SalesOrder(´0815´)/_Items(´010´)/_Product` to display product information of item `010`, for example, will not return any product-specific bound message.
-
--   As a consequence, it must also **not** be possible to change the entity that is bound with a path that starts with a different business object. If, for example, product information needs to be changed, we recommended to use the canonical path to bind the product assigned to item `010` to achieve that the server sends the bound messages of the product.
-
-
-> ### Note:  
-> The OpenUI5 V4 ODataModel is agnostic to business objects. The application needs to take care of the proper setup.
+For date/time types we recommend to use the corresponding Edm type for properties and function import resp. action parameters, for example:
 
