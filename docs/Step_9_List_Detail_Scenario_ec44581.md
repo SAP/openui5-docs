@@ -40,6 +40,33 @@ You can view and download all files at [OData V4 - Step 9](https://sdk.openui5.o
 
 ```js
 ...
+        onDelete : function () {
+            var oContext,
+                oPeopleList = this.byId("peopleList"),
+                oSelected = oPeopleList.getSelectedItem(),
+                sUserName;
+ 
+            if (oSelected) {
+                oContext = oSelected.getBindingContext();
+                sUserName = oContext.getProperty("UserName");
+                oContext.delete().then(function () {
+                    MessageToast.show(this._getText("deletionSuccessMessage", sUserName));
+                }.bind(this), function (oError) {
+                    if (oContext === oPeopleList.getSelectedItem().getBindingContext()) {
+                        this._setDetailArea(oContext);
+                    }
+                    this._setUIChanges();
+                    if (oError.canceled) {
+                        MessageToast.show(this._getText("deletionRestoredMessage", sUserName));
+                        return;
+                    }
+                    MessageBox.error(oError.message + ": " + sUserName);
+                }.bind(this));
+                this._setDetailArea();
+                this._setUIChanges(true);
+            }
+        },
+...
 		onMessageBindingChange : function (oEvent) {
 			...
 		},
@@ -48,8 +75,8 @@ You can view and download all files at [OData V4 - Step 9](https://sdk.openui5.o
             this._setDetailArea(oEvent.getParameter("listItem").getBindingContext());
         },
 
-...
-		/**
+...		
+         /**
          * Toggles the visibility of the detail area
          *
          * @param {object} [oUserContext] - the current user context
