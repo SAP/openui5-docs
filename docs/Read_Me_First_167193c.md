@@ -19,6 +19,9 @@ Before you start using OpenUI5 productively, please read the **important informa
 -   **[Enterprise Features of OpenUI5](Enterprise_Features_of_OpenUI5_bf2d55e.md "OpenUI5 offers many powerful enterprise features to support your entire app
 		development project.")**  
 OpenUI5 offers many powerful enterprise features to support your entire app development project.
+-   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
+		projects.")**  
+This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 -   **[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  
@@ -47,7 +50,4 @@ As OpenUI5 evolves over time, some of the UI controls are replaced by others, or
 		our UI development toolkit. Both are very closely related, but have their
 		differences.")**  
 With SAPUI5 and OpenUI5 we provide two deliveries of our UI development toolkit. Both are very closely related, but have their differences.
--   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
-		projects.")**  
-This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 

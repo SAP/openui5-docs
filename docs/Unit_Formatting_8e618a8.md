@@ -325,9 +325,9 @@ The third argument of the base Unit type constructor is a list of dynamic format
 
 ### Legacy Unit Mapping
 
-With the upgrade of the CLDR version from 35.1 to 41, released with OpenUI5 version 1.110, some unit keys have changed. To support the formatting of legacy unit keys, a mapping has been added. A user is able to load legacy unit keys from his back end, which are then mapped to the new unit keys. When parsing user input, only the new unit keys are returned. Updating or changing entries containing legacy unit keys results in replacing the legacy unit key with a new unit key. To be able to handle that case, the user either has to use custom unit keys or update his back end.
+With the upgrade of the CLDR version from 35.1 to 41, released with OpenUI5 version 1.110, some unit keys have changed. To support the formatting of legacy unit keys, a mapping has been added. A user is able to load legacy unit keys from his back end, which are then mapped to the new unit keys. When parsing user input, only the new unit keys are returned. Updating or changing entries containing legacy unit keys results in replacing the legacy unit key with a new unit key.
 
-The following legacy unit keys are currently supported:
+The following legacy unit keys are currently supported; this map may be subject to change since, with further CLDR upgrades, unit keys may change:
 
 
 <table>
@@ -476,8 +476,6 @@ New Unit Key
 </td>
 </tr>
 </table>
-
-This map may be subject to change since, with further CLDR upgrades, unit keys may change.
 
 **Related Information**  
 

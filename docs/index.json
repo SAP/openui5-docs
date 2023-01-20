@@ -5,6 +5,9 @@
 			"What's New in OpenUI5": {
 				"link": "What_s_New_in_OpenUI5_99ac68a.md",
 				"items": {
+					"What's New in OpenUI5 1.110": {
+						"link": "What_s_New_in_OpenUI5_1_110_f730e52.md"
+					},
 					"What's New in OpenUI5 1.109": {
 						"link": "What_s_New_in_OpenUI5_1_109_5559cce.md"
 					},
@@ -201,6 +204,26 @@
 					"Enterprise Features of OpenUI5": {
 						"link": "Enterprise_Features_of_OpenUI5_bf2d55e.md"
 					},
+					"The UI5 Ecosystem": {
+						"link": "The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213",
+						"items": {
+							"UI5 Tooling": {
+								"link": "The_UI5_Ecosystem_b72ccb5.md#loiod8ab43d845cd42ceb0aa4e47b44a8fcc"
+							},
+							"Easy-UI5 Generator": {
+								"link": "The_UI5_Ecosystem_b72ccb5.md#loio702f08a7481e46688c5603385b5bdc68"
+							},
+							"UI5-TypeScript": {
+								"link": "The_UI5_Ecosystem_b72ccb5.md#loioab4f18de7652442da85fc08b38a8a8ce"
+							},
+							"wdi5": {
+								"link": "The_UI5_Ecosystem_b72ccb5.md#loiof92b537272ba43abbfc157ba4ec8f010"
+							},
+							"Best of UI5": {
+								"link": "The_UI5_Ecosystem_b72ccb5.md#loio23a0a11a88df42578b5baae11c06a89b"
+							}
+						}
+					},
 					"Compatibility Rules": {
 						"link": "Compatibility_Rules_91f0873.md"
 					},
@@ -246,9 +269,6 @@
 					},
 					"SAPUI5 vs. OpenUI5": {
 						"link": "SAPUI5_vs_OpenUI5_5982a97.md"
-					},
-					"The UI5 Ecosystem": {
-						"link": "The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213"
 					}
 				}
 			},
