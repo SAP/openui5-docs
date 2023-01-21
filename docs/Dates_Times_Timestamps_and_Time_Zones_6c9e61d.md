@@ -15,7 +15,7 @@ OpenUI5 applications often deal with timestamps, dates and times. Typically, the
 When talking about dates, times, or timestamps, we'll use the following definitions:
 
 -   A **date** is a representation of a specific day within a year that is independent of any time zone. For example, Sylvester 2022 is on 2022/12/31, regardless of the time zone in which the user is in. The time zone is irrelevant for dates.
--   A **time** is a representation of a specific hour/minute/second within a day that is independent of any time zone. For example, if all shops of a brand open at 9:00 AM, they will open at 9:00 AM in whichever time zone the customer is in. The time zone is irrelevant for times.
+-   A **time** is a representation of a specific hour/minute/second within a day that is independent of any time zone. For example, if all shops of a brand open at 9:00 AM, they will open at 9:00 AM in whichever time zone the shop is in. The time zone is irrelevant for times.
 -   A **timestamp** represents a point in time that can be displayed or edited in specific time zones. For example, if a meeting starts at a specific date and a specific time in a specific time zone, its timestamp may be displayed as `27.11.2022, 14:00:00 Honolulu` or as `28.11.2022, 11:00:00 Australia/Canberra`, depending on the user's time zone.
 
 The intermediate processing of these entities on the client side typically uses the JavaScript `Date` object, which represents a timestamp. This may cause issues if dates are used and time zone handling comes into play. Typically, timestamps are displayed in the time zone of the browser. It is also possible to display a timestamp in a different time zone, for example in the `America/New_York` time zone, by using  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
@@ -522,7 +522,7 @@ When binding an OData V4 property via an OData V4 model, type information is aut
 > ```
 > <!-- Model value is a string in the format "yyyy-MM-dd'T'HH:mm:ss" resp. "yyyy-MM-dd'T'HH:mm:ss.SSS" -->
 > <!--   (the number of S depends on the type's precision), e.g. "2015-01-06T07:25:21Z" -->
-> <DateTimePicker value="{path: '/V4/DateTimeOffset', type: 'sap.ui.model.odata.type.DateTimeOffset'}"/>
+> <DateTimePicker value="{path: '/V4/DateTimeOffset'}"/>
 >  
 > <!-- When binding an OData V4 Edm.DateTimeOffset, for example via a JSON model, you must specify a type -->
 > <!--    and you have to set the constraint V4 to true. -->
@@ -605,7 +605,7 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 > ### Caution:  
 > Applications calculating with or converting JavaScript `Date`s, e.g. by adding or subtracting time zone offsets \(`oDate.getTimeZoneOffset()`\) or by using `oDate.getHour()` or `oDate.getDate()`, will break if a user-configured time zone is used that is different from the browser's time zone. The time zone offset is relative to the browser's time zone, but the timestamp is displayed in the configured time zone.
 
-Use data binding with the corresponding OData types, so that the framework takes care to properly display the dates, times and timestampss and sends them properly to the back end.
+Use data binding with the corresponding OData types, so that the framework takes care to properly display the dates, times and timestamps and sends them properly to the back end.
 
 ***
 
