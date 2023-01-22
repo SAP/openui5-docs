@@ -38,7 +38,7 @@ Users can copy selected table content to the clipboard and use it anywhere insid
 
 **`sap.m.p13n.Engine`**
 
-We have provided a new entity that allows custom control developers and application developers to make use of available personalization settings for their controls, for example, for sorting, grouping, and managing variants, and handling personalization states.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.p13n.Engine) and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.Engine).
+We have provided a new entity that allows custom control developers and application developers to make use of available personalization settings for their controls, for example, for sorting, grouping, and managing variants, and handling personalization states. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.p13n.Engine) and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.Engine).
 
 
 
