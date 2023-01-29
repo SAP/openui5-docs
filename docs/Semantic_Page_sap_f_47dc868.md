@@ -163,13 +163,13 @@ Adding semantic content:
    <semantic:SemanticPage>
       ...
 
-      <!— will automatically create a button with “email” icon and style and position it in accord with the underlying semantics -->
+      <!-- will automatically create a button with “email” icon and style and position it in accord with the underlying semantics -->
       <semantic:sendEmailAction press=”onSendEmailPress >
          <semantic:SendEmailAction />
       </semantic:sendEmailAction>
 
 
-     <!— will automatically create a button with icon, styling and positioning in accord with the underlying semantics -->
+     <!-- will automatically create a button with icon, styling and positioning in accord with the underlying semantics -->
       <semantic:discussInJamAction press=”onDiscussInJamPress”>
          <semantic:DiscussInJamAction />
       </semantic:discussInJamAction>
@@ -200,7 +200,7 @@ Adding custom \(non-semantic\) content
 
 <!-- Header Content -->
 <semantic:headerContent>
-      <!—custom header Content goes here -->
+      <!-- custom header Content goes here -->
 <FlexBox
       alignItems="Start"
       justifyContent="SpaceBetween">
@@ -219,9 +219,9 @@ Adding custom \(non-semantic\) content
 </semantic:headerContent>
 
 
-<!—Content -->
+<!-- Content -->
 <semantic:content>
-    <!—Custom page-body content gies here -->
+    <!-- Custom page-body content goes here -->
    <Table
       id="idProductsTable"
       inset="false"

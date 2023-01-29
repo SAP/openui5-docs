@@ -632,7 +632,7 @@ Instead of using Edm types for dates/times, an Edm.String type is used, especial
 > **Extract from an OData V2 `$metadata` document**
 > 
 > ```
-> <EntityType Name="MyEndtityType" sap:content-version="1">
+> <EntityType Name="MyEntityType" sap:content-version="1">
 >     ...
 >     <Property Name="Date" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="Date" />
 >     <Property Name="DateTimeOffset" Type="Edm.DateTimeOffset" Precision="7" sap:label="Time Stamp" />
