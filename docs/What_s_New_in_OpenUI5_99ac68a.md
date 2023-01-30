@@ -22,11 +22,11 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 
 
 
--   **[What's New in OpenUI5 1.110](What_s_New_in_OpenUI5_1_110_f730e52.md "With
+-   **[What's New in OpenUI5 1.110](What_s_New_in_OpenUI5_1_110_71a855c.md "With
 		this release OpenUI5 is upgraded
 		from version 1.109 to 1.110.")**  
 With this release OpenUI5 is upgraded from version 1.109 to 1.110.
--   **[What's New in OpenUI5 1.109](What_s_New_in_OpenUI5_1_109_5559cce.md "With
+-   **[What's New in OpenUI5 1.109](What_s_New_in_OpenUI5_1_109_3264bd2.md "With
 		this release OpenUI5 is upgraded
 		from version 1.108 to 1.109.")**  
 With this release OpenUI5 is upgraded from version 1.108 to 1.109.
