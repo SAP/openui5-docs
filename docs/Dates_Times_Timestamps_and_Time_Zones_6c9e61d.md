@@ -18,6 +18,12 @@ When talking about dates, times, or timestamps, we'll use the following definiti
 -   A **time** is a representation of a specific hour/minute/second within a day that is independent of any time zone. For example, if all shops of a brand open at 9:00 AM, they will open at 9:00 AM in whichever time zone the shop is in. The time zone is irrelevant for times.
 -   A **timestamp** represents a point in time that can be displayed or edited in specific time zones. For example, if a meeting starts at a specific date and a specific time in a specific time zone, its timestamp may be displayed as `27.11.2022, 14:00:00 Honolulu` or as `28.11.2022, 11:00:00 Australia/Canberra`, depending on the user's time zone.
 
+> ### Note:  
+> Be aware of the discrepancy between our definitions given here and the behavior of some methods of the JavaScript global `Date` object. For example,
+> 
+> -   `Date.getTime()` returns a timestamp and not a time in our terminology,
+> -   `Date.getDate()` returns only the day of a date and not the entire date.
+
 The intermediate processing of these entities on the client side typically uses the JavaScript `Date` object, which represents a timestamp. This may cause issues if dates are used and time zone handling comes into play. Typically, timestamps are displayed in the time zone of the browser. It is also possible to display a timestamp in a different time zone, for example in the `America/New_York` time zone, by using  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
 For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser's time zone to any provided time zone. For example, with `?sap-timezone=Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), and with `?sap-timezone=Pacific/Fiji` the Fiji time zone \(GMT+12:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
