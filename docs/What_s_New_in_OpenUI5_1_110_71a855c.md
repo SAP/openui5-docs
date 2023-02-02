@@ -103,16 +103,41 @@ Available as of
 </td>
 <td valign="top">
 
- **Reminder: Outdated Versions to Be Removed from the CDN** 
+ **End of Cloud Provisioning for Versions \(Q1/2023\).** 
 
 
 
 </td>
 <td valign="top">
 
-**Reminder: Outdated Versions to Be Removed from the CDN**
+**End of Cloud Provisioning for Versions \(Q1/2023\)**
 
-For security reasons, OpenUI5 versions that are no longer maintained will be removed from the UI5 content delivery network \(CDN\) one year after their end of maintenance. If a version is still in maintenance, patches of that version that are older than one year will also be removed. We have noted that a number of customers are still using such outdated versions or patches. If this affects you, please note that once these versions or patches are removed, your applications will break. Please update to a more recent version or patch. For more information, see: [Removing Outdated UI5 Versions from UI5 CDN](https://blogs.sap.com/2021/01/26/removing-outdated-ui5-versions-from-ui5-cdn/) as well as the UI5 notifications in the Demo Kit.
+Minor Versions Reaching Their End of Cloud Provisioning
+
+The following versions including all patches will be removed entirely:
+
+-   1.90
+-   1.93
+-   1.97
+-   1.98
+
+Action: Upgrade to a version that’s still in maintenance.
+
+Patch Versions Reaching Their End of Cloud Provisioning
+
+The following patches will be removed:
+
+-   Long-term maintenance versions:
+
+    -   1.38.53 to 1.38.55
+    -   1.71.44 to 1.71.46
+    -   1.84.21 to 1.84.23
+    -   1.96.2 to 1.96.7
+
+    Action: Upgrade to the latest available patch for the respective SAPUI5 version.
+
+
+For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sap.com/2022/12/05/ui5-releases-ending-service-in-2023/) and [Version Overview](https://sdk.openui5.org/versionoverview.html).
 
 <sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Deleted•Announcement•Info Only•Upcoming</sub>
 
@@ -128,7 +153,7 @@ For security reasons, OpenUI5 versions that are no longer maintained will be rem
 </td>
 <td valign="top">
 
-9999-01-01
+2022-31-03
 
 
 
@@ -826,6 +851,136 @@ We have added the latest high contrast themes to the main theme selector in the 
 <td valign="top">
 
 2023-01-26
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.110 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori Elements 
+
+
+
+</td>
+<td valign="top">
+
+ **SAP Fiori elements for OData V2** 
+
+
+
+</td>
+<td valign="top">
+
+**SAP Fiori elements for OData V2**
+
+The following changes and new features are available for SAP Fiori elements for OData V2:
+
+-   You can now group the multi-input fields along with other fields as a source for side effects. For more information, see [Side Effect Annotations: Examples](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/61cf21d50ed34cbf888713496c618904.html "This topic provides some examples for annotating side effects.") :arrow_upper_right:
+
+-   In edit mode, we now provide an option to hide the empty rows of a table in the object page. For more information, see .[Enabling Inline Creation Mode or Empty Rows Mode for Table Entries](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/cfb04f0c58e7409992feb4c91aa9410b.html "In apps that use draft handling, you can enable the inline creation mode or empty rows mode for table entries.") :arrow_upper_right:.
+
+-   We have added a new button, *Validate*, to the object page for applications that are being run on tablets and mobile devices. For more information, see .
+
+-   The message grouping and structuring is now improved in the message popover and message view.
+
+
+<sub>Changed•Control•Info Only•1.110</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-26
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.110 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ SAP Fiori Elements 
+
+
+
+</td>
+<td valign="top">
+
+ **SAP Fiori elements for OData V4** 
+
+
+
+</td>
+<td valign="top">
+
+**SAP Fiori elements for OData V4**
+
+The following changes and new features are available for SAP Fiori elements for OData V4:
+
+-   The `UI.DataFieldWithUrl` annotation now supports the `IconUrl` property. For more information, see [Different Representations of a Field](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/c18ada4bc56e427a9a2df2d1898f28a5.html "Applications can control how the field is represented by using annotations or metadata.") :arrow_upper_right:.
+
+-   In apps using the flexible column layout, the state of the object page is now stored/restored using `iAppState`. For more information, see [Enabling Discovery/Persistence Mode](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/7c620843ed5946d69e2f932f8d17ac8b.html "You can configure the mode in which the state of the object page is stored/restored using iAppState.") :arrow_upper_right:.
+
+-   You can now add a *Clear* button to the filter bar in the list report, enabling users to clear all filter fields, by making the required settings in the `manifest.json`. For more information, see [Adapting the Filter Bar](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/609c39a7498541559dbef503c1ffd194.html "You can define application-specific selection fields by using com.sap.vocabularies.UI.v1.SelectionFields and field groups for the filter popup.") :arrow_upper_right:.
+
+-   Changes coming in from other flex layers, such as changes made by key users, are merged with user personalization changes coming from the `iAppState`. For more information, see [Store/Restore the Application State](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/46bf248182ed47cb85a05610abe361f7.html "SAP Fiori elements uses the iAppState mechanism for storing or restoring the application state. This mechanism enables a smooth user experience when navigating back and forth between SAP Fiori elements and other apps.") :arrow_upper_right:.
+
+-   The *Edit* button can now be displayed and enabled in both object and subobject pages. For more information, see [Enabling Actions in the Object Page Header](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/5fe439613f9c4e259015951594c423dc.html "You can enable generic actions in your object header.") :arrow_upper_right:.
+
+
+<sub>Changed•SAP Fiori Elements•Info Only•1.110</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+ 
 
 
 
