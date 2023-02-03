@@ -66,7 +66,7 @@ The purpose of this generator is to guide you on your first steps with OpenUI5 a
 
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in many supporting code editors \(for example, through code completion and inline documentation\). Browsers can’t execute TypeScript directly, it needs to be transpiled to JavaScript, which can then be executed as usual.
 
-For OpenUI5, we have published definition files that can contain type information describing the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
+For OpenUI5, we have published definition files that contain type definition files describing the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
 
 ***
 
@@ -74,7 +74,7 @@ For OpenUI5, we have published definition files that can contain type informatio
 
 -   Documentation and resources: [UI5 & TypeScript](https://sap.github.io/ui5-typescript/)
 -   Tutorial: [Learn App Development in UI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
--   [UI5 type signatures on NPMJS](https://www.npmjs.com/package/@sapui5/ts-types)
+-   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
 
  <a name="loiof92b537272ba43abbfc157ba4ec8f010"/>
 
