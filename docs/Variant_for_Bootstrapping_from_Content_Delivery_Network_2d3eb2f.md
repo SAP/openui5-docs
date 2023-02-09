@@ -34,7 +34,7 @@ The specific version allows you to select a particular fixed version for bootstr
 <script id="sap-ui-bootstrap"
     type="text/javascript"
     src="https://sdk.openui5.org/[/pandoc/div/div/horizontalrule/horizontalrule/codeblock/strong/span
-     {""}) 1.111.0 (span]/resources/sap-ui-core.js"
+     {""}) 1.112.0 (span]/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_fiori_3"
     data-sap-ui-async="true"
     data-sap-ui-libs="sap.m"></script>
@@ -48,6 +48,37 @@ Check the available versions with the respective maintenance status at [https://
 
 > ### Note:  
 > Only use the *Stable* version for productive apps. Nevertheless, if you also want to test the [*Nightly*](https://openui5nightly.hana.ondemand.com) version, you are very welcome to send us your feedback!
+
+***
+
+#### Evergreen Version
+
+The evergreen version allows you to automatically select the latest available patch level of a specific \(minor\) long-term maintenance version for bootstrapping. You refer to a major.minor long-term maintenance version using a versioned URL as in the following example:
+
+```html
+<script id="sap-ui-bootstrap"
+    type="text/javascript"
+    src="https://sdk.openui5.org/1.96/resources/sap-ui-core.js"
+    data-sap-ui-theme="sap_fiori_3"
+    data-sap-ui-async="true"
+    data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
+    data-sap-ui-libs="sap.m"></script>
+
+
+```
+
+The first segment of the URL after the host name is used to specify an evergreen version, which needs to be provided in the following form: `release_number.version_number`. For more information, see [Versioning and Maintenance of OpenUI5](Versioning_and_Maintenance_of_OpenUI5_91f0214.md).
+
+> ### Note:  
+> Evergreen versions only support asynchronous bootstrapping. Therefore, the `data-sap-ui-async` bootstrap attribute must be set to `true`.
+> 
+> A consequence of asynchronous bootstrapping is that `sap-ui-debug=true` does not work when you bootstrap an evergreen version. You need to explicitly include the namespace of the modules you want to see the debug sources for, for example by specifying `sap-ui-debug=sap/` to include the `sap/*` namespace, or `sap-ui-debug=sap/,xyz/app/` to include more than one namespace. For more information, see the blog post [SAPUI5 – Patch-Level Independent Bootstrap](https://blogs.sap.com/2022/04/14/sapui5-patch-level-independent-bootstrap/).
+
+When using the patch-level independent bootstrap you must use the `data-sap-ui-onInit` callback. Ideally, you refer to a module, for example `sap/ui/core/ComponentSupport` to bootstrap your Component; see [Declarative API for Initial Components](Declarative_API_for_Initial_Components_82a0fce.md). You can also refer to a custom module.
+
+You can find the available versions with long-term maintenance status at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)
+
+All long-term maintenance versions \>= 1.71 can be used as evergreen versions to bootstrap OpenUI5 applications.
 
 ***
 
