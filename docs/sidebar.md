@@ -307,7 +307,7 @@
                 -   [Property Metadata Binding](Property_Metadata_Binding_f5aa4bb.md)
                 -   [Examples for Data Binding in Different View Types](Examples_for_Data_Binding_in_Different_View_Types_25ab54b.md)
             -   [Formatting, Parsing, and Validating Data](Formatting_Parsing_and_Validating_Data_07e4b92.md)
-                -   [Dates, Times, Timestamps and Time Zones](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md)
+                -   [Dates, Times, Timestamps, and Time Zones](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md)
                 -   [Simple Data Types](Simple_Data_Types_91f06be.md)
                     -   [sap.ui.model.type.Boolean](sap_ui_model_type_Boolean_91f2f93.md)
                     -   [sap.ui.model.type.Date](sap_ui_model_type_Date_91f2fff.md)

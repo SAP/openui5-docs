@@ -147,7 +147,7 @@ sap.ui.define([
 > ### Example:  
 > [Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md) of the *Testing* tutorial shows how to implement a custom data type.
 
--   **[Dates, Times, Timestamps and Time Zones](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md "OpenUI5 applications often deal with timestamps, dates and times. Typically,
+-   **[Dates, Times, Timestamps, and Time Zones](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md "OpenUI5 applications often deal with timestamps, dates and times. Typically,
 		these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these
 		timestamps, dates and times.")**  
 OpenUI5 applications often deal with timestamps, dates and times. Typically, these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these timestamps, dates and times.

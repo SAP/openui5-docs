@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6c9e61dc157a40c19460660ece8368bc) | [demo kit latest release](https://sdk.openui5.org/topic/6c9e61dc157a40c19460660ece8368bc)</div>
 
-## Dates, Times, Timestamps and Time Zones
+## Dates, Times, Timestamps, and Time Zones
 
 OpenUI5 applications often deal with timestamps, dates and times. Typically, these timestamps, dates and times are stored in a back-end system and communicated to the client via OData services. OpenUI5 offers a variety of UI5 data types and formatters for handling these timestamps, dates and times.
 
@@ -26,10 +26,13 @@ When talking about dates, times, or timestamps, we'll use the following definiti
 
 The intermediate processing of these entities on the client side typically uses the JavaScript `Date` object, which represents a timestamp. This may cause issues if dates are used and time zone handling comes into play. Typically, timestamps are displayed in the time zone of the browser. It is also possible to display a timestamp in a different time zone, for example in the `America/New_York` time zone, by using  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
-For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser's time zone to any provided time zone. For example, with `?sap-timezone=Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), and with `?sap-timezone=Pacific/Fiji` the Fiji time zone \(GMT+12:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
+For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser's time zone to any provided time zone. For example, with `?sap-timezone=Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), and with `?sap-timezone=Pacific/Kiritimati` the Kiritimati time zone \(GMT+14:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
 > ### Restriction:  
-> If you use a configured time zone, **your application may break** if it uses JavaScript `Date` objects in combination with `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we strongly recommend to use data binding with the corresponding OpenUI5 OData types wherever possible in your application.
+> If you use a configured time zone, **your application may break** if it uses JavaScript `Date` objects in combination with `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we strongly recommend the following approach:
+> 
+> -   Use data binding with the corresponding OpenUI5 OData types wherever possible in your application.
+> -   Always use [ `UI5Date.getInstance`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) to create new date instances. For more information, see the [UI5Date section](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md#loio6c9e61dc157a40c19460660ece8368bc__section_ui5date) below.
 
 This topic describes the different OData Edm types and the corresponding OpenUI5 data type, how to display timestamps in a specific time zone, a list of best practices for handling timestamps, dates, and times in OpenUI5, and a list of common pitfalls.
 
@@ -37,7 +40,7 @@ This topic describes the different OData Edm types and the corresponding OpenUI5
 
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_nrw_4x3_dwb"/>
 
-### Timestamps, Dates and Times in OData
+### Timestamps, Dates, and Times in OData
 
 OData provides different Edm types for handling timestamps, dates, and times. For these Edm types, OpenUI5 provides corresponding [OpenUI5 data types](Formatting_Parsing_and_Validating_Data_07e4b92.md) to be used with data binding for formatting and parsing timestamps, dates and times. The following table shows which OpenUI5 data type belongs to which Edm type, and which meaning these types have:
 
@@ -375,13 +378,59 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 
 ***
 
+<a name="loio6c9e61dc157a40c19460660ece8368bc__section_ui5date"/>
+
+### `sap.ui.core.date.UI5Date`
+
+The [ `sap.ui.core.date.UI5Date`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date) class is a subclass of JavaScript `Date`. Use it if the browser time zone and configured time zone differ.
+
+> ### Caution:  
+> Use the [ `UI5Date.getInstance`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) method instead of `new Date(...)` to create new `Date` instances. This method returns a `UI5Date` if the browser time zone and the configured time zone are different, and a regular JavaScript `Date` otherwise.
+
+> ### Example:  
+> **How to create and use a `UI5Date`**
+> 
+> ```
+> sap.ui.define([
+>     "sap/base/Log",
+>     "sap/ui/core/date/UI5Date"
+> ], function (Log, UI5Date) {
+>     "use strict";
+>  
+>     // Assuming the application is called with this URL parameter: sap-timezone=Pacific/Kiritimati   
+>     // Create an instance of UI5Date with a preset date
+>     var oUI5Date = UI5Date.getInstance(2023, 0, 1, 0, 0, 0, 0); // To create an instance of UI5Date for today/now, just use UI5Date.getInstance() without parameters
+>      
+>     Log.info(oUI5Date.getDate()); // Returns 1, the day of the month in the configured time zone
+>   
+>     Log.info(oUI5Date.setDate(20)); // Returns the timestamp in milliseconds, based on the UNIX epoch, until the "20th Jan 2023 00:00:00" in "Pacific/Kiritimati" time
+>  
+>     // "20th Jan 2023 00:00:00" in "Pacific/Kiritimati" time is equal to "19th Jan 2023 10:00:00" in universal time
+>     Log.info(oUI5Date.getUTCDate()); // Returns 19, the day of the month in universal time,
+>  
+>     Log.info(oUI5Date.setUTCDate(24)); // Returns the timestamp in milliseconds, based on the UNIX epoch, until the "24th Jan 2023 10:00:00" in universal time   
+> });
+> 
+> ```
+
+Regardless of whether a time zone is configured or not, the `UI5Date` class is meant to replace the JavaScript `Date` entirely within OpenUI5. Therefore, make sure to always use [ `UI5Date.getInstance`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) where `Date`s are required.
+
+***
+
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_BP"/>
 
 ### Best Practices
 
 **Use data binding with the corresponding OData types against the string-based property \(`value`\) of the control** used to display the date, time, timestamp, or a date range.
 
+***
+
+#### Data transfer between an OData and a JSON model
+
 JSON models can also be used if the data is stored in the JSON model in the same way as in the corresponding OData model. If you already have the values in an OData model, you can transfer them to a JSON model. Dates, times and timestamps in the OData V2 model are stored as objects, so take care to clone these objects before transferring the values to a JSON model.
+
+> ### Note:  
+> We recommend to bind controls directly to the OData model, and to use JSON models only where directly binding to the OData model does not work.
 
 > ### Example:  
 > **Transfer dates, times, and timestamps between an OData V2 model and a JSON model**
@@ -395,8 +444,8 @@ JSON models can also be used if the data is stored in the JSON model in the same
 >         oTime = oContext.getProperty("Time");
 >  
 >     return new JSONModel({
->             DateTime: oDate ? new Date(oDate) : null,
->             DateTimeOffset: oDateTimeOffset ? new Date(oDateTimeOffset) : null,
+>             DateTime: oDate ? UI5Date.getInstance(oDate) : null,
+>             DateTimeOffset: oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null,
 >             Time: oTime ? Object.assign({}, oTime) : null
 >         });
 > },
@@ -410,14 +459,14 @@ JSON models can also be used if the data is stored in the JSON model in the same
 >         oTime = oJSONModel.getProperty("/Time"),
 >         oDataModel = oContext.getModel();
 >  
->     oDataModel.setProperty("DateTime", oDate ? new Date(oDate) : null, oContext);
->     oDataModel.setProperty("DateTimeOffset", oDateTimeOffset ? new Date(oDateTimeOffset) : null, oContext);
+>     oDataModel.setProperty("DateTime", oDate ? UI5Date.getInstance(oDate) : null, oContext);
+>     oDataModel.setProperty("DateTimeOffset", oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null, oContext);
 >     oDataModel.setProperty("Time", oTime ? Object.assign({}, oTime) : null, oContext);
 > },
 > getJSONModelWithFixInitialValues: function () {
 >     return new JSONModel({
->         DateTime: new Date(Date.UTC(2022, 11, 15)), // for Dec 15th 2022
->         DateTimeOffset: new Date(Date.UTC(2022, 11, 15, 10, 45)), 
+>         DateTime: UI5Date.getInstance(Date.UTC(2022, 11, 15)), // for Dec 15th 2022
+>         DateTimeOffset: UI5Date.getInstance(Date.UTC(2022, 11, 15, 10, 45)), 
 >             // for Dec 15th 2022, 10:45 AM (UTC) resp. Dec 15th 2022 11:45:00 CEST
 >         Time: {
 >             ms: ((10 * 60 + 35) * 60 + 15) * 1000,  // for 10:35:15 AM
@@ -462,6 +511,113 @@ If an OData V4 model is used, cloning is not necessary, as the model representat
 > ```
 
 When binding an OData V4 property via an OData V4 model, type information is automatically determined, and there is no need to specify a type in the binding information. If you bind an OData V4 property via a JSON model, however, you have to specify the type.
+
+***
+
+#### Value initialization with `getModelValue`
+
+If an application has to create new entities for a model and initialize them with date, time, and timestamp values, you must ensure that they are in a valid model format. We provide the `getModelValue` method for this use case, which is implemented by the following `sap.ui.model.odata.type` types:
+
+-   `sap.ui.model.odata.type.Date`,
+-   `sap.ui.model.odata.type.DateTime`,
+-   `sap.ui.model.odata.type.DateTimeOffset`,
+-   `sap.ui.model.odata.type.Time`,
+-   `sap.ui.model.odata.type.TimeOfDay`.
+
+> ### Example:  
+> **Initialize valid model values with an existing data binding**
+> 
+> ```
+> sap.ui.define([
+>     "sap/ui/core/date/UI5Date",
+>     "sap/ui/core/mvc/Controller"
+> ], function (UI5Date, Controller) {
+>     "use strict";         
+>  
+>     return Controller.extend("myController", { 
+>         /**
+>          * Assume you have the following control defined in the corresponding XML view of this controller:
+>          * 
+>          * With OData V2: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{
+>          *                              path : 'DeliveryDate',
+>          *                              type : 'sap.ui.model.odata.type.DateTimeOffset'
+>          *                          }"/>
+>          *
+>          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliverDate}"/>
+>          */
+>         onCreateItem : function () {
+>             var oDeliveryDate = UI5Date.getInstance(),
+>                 // Get the data type via the data binding
+>                 oType = this.byId("deliveryDate::createSalesOrderItemDialog").getBinding("value").getType();
+>  
+>             oDeliverDate.setMonth(oDeliverDate.getMonth() + 1);            
+>             this.byId("ToLineItems").getBinding("rows").create({
+>                 DeliveryDate: oType.getModelValue(oDeliveryDate)
+>             });
+>         }
+>     });
+> });
+> ```
+
+If no data binding is available, the required data type has to be taken from the metadata.
+
+> ### Example:  
+> **Initialize valid model values without an existing data binding in OData V4**
+> 
+> ```
+> sap.ui.define([
+>     "sap/ui/core/date/UI5Date",
+>     "sap/ui/core/mvc/Controller"
+> ], function (UI5Date, Controller) {
+>     "use strict";         
+>  
+>     return Controller.extend("myController", {        
+>         onCreateItem : function () {
+>             var oDeliveryDate = UI5Date.getInstance();
+>                 // Get the data type via the metadata    
+>                 oListBinding = this.byId("SO_2_SOITEM").getBinding("items"),
+>                 sPath = oListBinding.getHeaderContext().getPath() + "/DeliveryDate",
+>                 oType = oListBinding.getModel().getMetaModel().getUI5Type(sPath);     
+>  
+>             oDeliverDate.setMonth(oDeliverDate.getMonth() + 1);       
+>             oListBinding.create({
+>                 DeliveryDate: oType.getModelValue(oDeliveryDate)
+>             });
+>         }
+>     });
+> });
+> ```
+
+You don't necessarily have to take the type from the binding or the metadata; you can create the type yourself. The type must be created in sync with the `$metadata` document.
+
+> ### Example:  
+> **Initialize valid model values for a manually created type**
+> 
+> ```
+> sap.ui.define([
+>     "sap/ui/core/date/UI5Date",
+>     "sap/ui/core/mvc/Controller",
+>     "sap/ui/model/odata/type/DateTime"
+> ], function (UI5Date, Controller, DateTime) {
+>     "use strict";         
+>  
+>     return Controller.extend("myController", { 
+>         onCreateItem : function () {
+>             var oBirthDay = UI5Date.getInstance(1995, 5, 13);
+>                 // Create the type with the constraints as defined in the $metadata document
+>                 oType = new DateTime(undefined, {displayFormat: "date"});  
+>                          
+>             this.byId("contacts").getBinding("rows").create({
+>                 Name: "Max",
+>                 LastName: "Mustermann",
+>                 BirthDay: oType.getModelValue(oBirthDay)
+>             });
+>         }
+>     });
+> });
+> ```
+
+To ensure consistency and reduce the number of type instances during runtime, we recommend to get the type via a binding or metadata.
 
 ***
 
@@ -528,7 +684,7 @@ When binding an OData V4 property via an OData V4 model, type information is aut
 > ```
 > <!-- Model value is a string in the format "yyyy-MM-dd'T'HH:mm:ss" resp. "yyyy-MM-dd'T'HH:mm:ss.SSS" -->
 > <!--   (the number of S depends on the type's precision), e.g. "2015-01-06T07:25:21Z" -->
-> <DateTimePicker value="{path: '/V4/DateTimeOffset'}"/>
+> <DateTimePicker value="{/V4/DateTimeOffset}"/>
 >  
 > <!-- When binding an OData V4 Edm.DateTimeOffset, for example via a JSON model, you must specify a type -->
 > <!--    and you have to set the constraint V4 to true. -->
