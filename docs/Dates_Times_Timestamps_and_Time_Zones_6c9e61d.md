@@ -14,22 +14,22 @@ OpenUI5 applications often deal with timestamps, dates and times. Typically, the
 
 When talking about dates, times, or timestamps, we'll use the following definitions:
 
--   A **date** is a representation of a specific day within a year that is independent of any time zone. For example, Sylvester 2022 is on 2022/12/31, regardless of the time zone in which the user is in. The time zone is irrelevant for dates.
+-   A **date** is a representation of a specific day within a year that is independent of any time zone. For example, New Year's Eve 2022 is on 2022/12/31, regardless of the time zone in which the user is in. The time zone is irrelevant for dates.
 -   A **time** is a representation of a specific hour/minute/second within a day that is independent of any time zone. For example, if all shops of a brand open at 9:00 AM, they will open at 9:00 AM in whichever time zone the shop is in. The time zone is irrelevant for times.
 -   A **timestamp** represents a point in time that can be displayed or edited in specific time zones. For example, if a meeting starts at a specific date and a specific time in a specific time zone, its timestamp may be displayed as `27.11.2022, 14:00:00 Honolulu` or as `28.11.2022, 11:00:00 Australia/Canberra`, depending on the user's time zone.
 
 > ### Note:  
 > Be aware of the discrepancy between our definitions given here and the behavior of some methods of the JavaScript global `Date` object. For example,
 > 
-> -   `Date.getTime()` returns a timestamp and not a time in our terminology,
-> -   `Date.getDate()` returns only the day of a date and not the entire date.
+> -   `Date#getTime` returns a timestamp and not a time in our terminology,
+> -   `Date#getDate` returns only the day of a date and not the entire date.
 
 The intermediate processing of these entities on the client side typically uses the JavaScript `Date` object, which represents a timestamp. This may cause issues if dates are used and time zone handling comes into play. Typically, timestamps are displayed in the time zone of the browser. It is also possible to display a timestamp in a different time zone, for example in the `America/New_York` time zone, by using  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
 For testing purposes, you can use the `sap-timezone` URL parameter to switch from the browser's time zone to any provided time zone. For example, with `?sap-timezone=Pacific/Honolulu` the Honolulu time zone \(GMT-10:00\), and with `?sap-timezone=Pacific/Kiritimati` the Kiritimati time zone \(GMT+14:00\) is used for formatting and parsing timestamps, except for the timestamps that are formatted or parsed with  [ `sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) or [ `sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance).
 
 > ### Restriction:  
-> If you use a configured time zone, **your application may break** if it uses JavaScript `Date` objects in combination with `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we strongly recommend the following approach:
+> If you use a configured time zone, **your application may break** if it uses the JavaScript `Date` object in combination with functions that use the local browser time zone, for example `oDate.getHours()` or `oDate.getDate()`. To avoid such issues, we strongly recommend the following approach:
 > 
 > -   Use data binding with the corresponding OpenUI5 OData types wherever possible in your application.
 > -   Always use [ `UI5Date.getInstance`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) to create new date instances. For more information, see the [UI5Date section](Dates_Times_Timestamps_and_Time_Zones_6c9e61d.md#loio6c9e61dc157a40c19460660ece8368bc__section_ui5date) below.
@@ -382,7 +382,7 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 
 ### `sap.ui.core.date.UI5Date`
 
-The [ `sap.ui.core.date.UI5Date`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date) class is a subclass of JavaScript `Date`. Use it if the browser time zone and configured time zone differ.
+The [ `sap.ui.core.date.UI5Date`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date) class is a subclass of JavaScript `Date`. Use it if the browser time zone and your configured time zone differ.
 
 > ### Caution:  
 > Use the [ `UI5Date.getInstance`](https://sdk.openui5.org/api/module:sap/ui/core/date/UI5Date/methods/sap/ui/core/date/UI5Date.getInstance) method instead of `new Date(...)` to create new `Date` instances. This method returns a `UI5Date` if the browser time zone and the configured time zone are different, and a regular JavaScript `Date` otherwise.
@@ -543,14 +543,14 @@ If an application has to create new entities for a model and initialize them wit
 >          *                              type : 'sap.ui.model.odata.type.DateTimeOffset'
 >          *                          }"/>
 >          *
->          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliverDate}"/>
+>          * With OData V4: <DateTimePicker id="deliveryDate::createSalesOrderItemDialog" value="{DeliveryDate}"/>
 >          */
 >         onCreateItem : function () {
 >             var oDeliveryDate = UI5Date.getInstance(),
 >                 // Get the data type via the data binding
 >                 oType = this.byId("deliveryDate::createSalesOrderItemDialog").getBinding("value").getType();
 >  
->             oDeliverDate.setMonth(oDeliverDate.getMonth() + 1);            
+>             oDeliveryDate.setMonth(oDeliveryDate.getMonth() + 1);            
 >             this.byId("ToLineItems").getBinding("rows").create({
 >                 DeliveryDate: oType.getModelValue(oDeliveryDate)
 >             });
@@ -579,7 +579,7 @@ If no data binding is available, the required data type has to be taken from the
 >                 sPath = oListBinding.getHeaderContext().getPath() + "/DeliveryDate",
 >                 oType = oListBinding.getModel().getMetaModel().getUI5Type(sPath);     
 >  
->             oDeliverDate.setMonth(oDeliverDate.getMonth() + 1);       
+>             oDeliveryDate.setMonth(oDeliveryDate.getMonth() + 1);       
 >             oListBinding.create({
 >                 DeliveryDate: oType.getModelValue(oDeliveryDate)
 >             });
@@ -760,7 +760,7 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 
 ***
 
-#### Controls are used with JavaScript `Date` objects
+#### Controls are used with the JavaScript `Date` object
 
 **To display or modify dates, times or timestamps, we recommend to bind the `value` property of the control with the corresponding data type.** The OpenUI5 framework then takes care that the values are properly displayed and sent to the back end.
 
