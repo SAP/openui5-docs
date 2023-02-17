@@ -301,6 +301,80 @@ We have enabled inline rendering of SVG files, so that they can be themeable and
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ 1.106 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Announcement 
+
+
+
+</td>
+<td valign="top">
+
+ **Deactivation of Default Time Zone Configuration Feature** 
+
+
+
+</td>
+<td valign="top">
+
+**Deactivation of Default Time Zone Configuration Feature**
+
+We needed to deactivate the feature to configure the default time zone via the time zone configuration option in [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration) and the API method [`sap.ui.core.Configuration.setTimezone`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setTimezone). Reason: There was a risk that dates are visualized by one day off. This wrong date might have been persisted to the back end.
+
+This feature was introduced with UI5 1.102.0. The following UI5 versions still contain this feature:
+
+-   1.102.0 to 1.102.5
+-   1.103
+-   1.104
+
+If you are on one of these releases, we recommend that you upgrade to a higher version where this feature is deactivated.
+
+Deactivated as of:
+
+-   1.106
+
+-   1.105
+
+-   1.102.6
+
+
+We plan to bring this feature back in a different form at a later point in time.
+
+<sub>Changed•Announcement•Info Only•1.106</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-09-08
+
+
+
+</td>
+</tr>
 </table>
 
 **Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")

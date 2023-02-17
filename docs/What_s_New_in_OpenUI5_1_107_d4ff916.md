@@ -77,6 +77,116 @@ Available as of
 </td>
 <td valign="top">
 
+ Deprecated 
+
+
+
+</td>
+<td valign="top">
+
+ Feature 
+
+
+
+</td>
+<td valign="top">
+
+ **Deprecations** 
+
+
+
+</td>
+<td valign="top">
+
+**Deprecations**
+
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+
+<sub>Deprecated•Feature•Info Only•1.107</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-10-06
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.107 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.m.List, sap.m.Table, sap.m.Tree`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.List, sap.m.Table, sap.m.Tree`**
+
+To improve performance, we have now made the initial rendering faster: Table, tree, and list items are now already created when the data is requested from the back end. When the data is received, the binding context is updated. This way, rendering the UI with the requested data becomes faster.
+
+<sub>Changed•Control•Info Only•1.107</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-10-06
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.107 
+
+
+
+</td>
+<td valign="top">
+
  Changed 
 
 

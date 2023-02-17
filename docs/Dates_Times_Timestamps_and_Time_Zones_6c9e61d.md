@@ -425,95 +425,6 @@ Regardless of whether a time zone is configured or not, the `UI5Date` class is m
 
 ***
 
-#### Data transfer between an OData and a JSON model
-
-JSON models can also be used if the data is stored in the JSON model in the same way as in the corresponding OData model. If you already have the values in an OData model, you can transfer them to a JSON model. Dates, times and timestamps in the OData V2 model are stored as objects, so take care to clone these objects before transferring the values to a JSON model.
-
-> ### Note:  
-> We recommend to bind controls directly to the OData model, and to use JSON models only where directly binding to the OData model does not work.
-
-> ### Example:  
-> **Transfer dates, times, and timestamps between an OData V2 model and a JSON model**
-> 
-> ```
-> transferDatesTimesAndTimestampsFromODataV2ModelToJSONModel: function (oContext) {
->     // assume "oContext" is an OData V2 context referencing an entity with the properties 
->     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
->     var oDate = oContext.getProperty("DateTime"),
->         oDateTimeOffset = oContext.getProperty("DateTimeOffset"),
->         oTime = oContext.getProperty("Time");
->  
->     return new JSONModel({
->             DateTime: oDate ? UI5Date.getInstance(oDate) : null,
->             DateTimeOffset: oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null,
->             Time: oTime ? Object.assign({}, oTime) : null
->         });
-> },
-> transferDatesTimesAndTimestampsFromJSONModelToODataV2Model: function (oContext, oJSONModel) {
->     // assume "oContext"  is an OData V2 context referencing an entity with the properties 
->     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
->     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
->     //   to the OData V2 model "oDataModel"
->     var oDate = oJSONModel.getProperty("/DateTime"),
->         oDateTimeOffset = oJSONModel.getProperty("/DateTimeOffset"),
->         oTime = oJSONModel.getProperty("/Time"),
->         oDataModel = oContext.getModel();
->  
->     oDataModel.setProperty("DateTime", oDate ? UI5Date.getInstance(oDate) : null, oContext);
->     oDataModel.setProperty("DateTimeOffset", oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null, oContext);
->     oDataModel.setProperty("Time", oTime ? Object.assign({}, oTime) : null, oContext);
-> },
-> getJSONModelWithFixInitialValues: function () {
->     return new JSONModel({
->         DateTime: UI5Date.getInstance(Date.UTC(2022, 11, 15)), // for Dec 15th 2022
->         DateTimeOffset: UI5Date.getInstance(Date.UTC(2022, 11, 15, 10, 45)), 
->             // for Dec 15th 2022, 10:45 AM (UTC) resp. Dec 15th 2022 11:45:00 CEST
->         Time: {
->             ms: ((10 * 60 + 35) * 60 + 15) * 1000,  // for 10:35:15 AM
->             __edmType: "Edm.Time"
->         }
->     });
-> }
-> ```
-
-If an OData V4 model is used, cloning is not necessary, as the model representation of dates, times, and timestamps is a string.
-
-> ### Example:  
-> **Transfer dates, times, and timestamps between an OData V4 model and a JSON model**
-> 
-> ```
-> transferDatesTimesAndTimestampsFromODataV4ModelToJSONModel: function (oContext) {
->     // assume "oContext" is an OData V4 context referencing an entity with the properties 
->     //   "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
->     return new JSONModel({
->             Date: oContext.getProperty("Date"),
->             DateTimeOffset: oContext.getProperty("DateTimeOffset"),
->             TimeOfDay: oContext.getProperty("TimeOfDay")
->         });
-> },
-> transferDatesTimesAndTimestampsFromJSONModelToODataV4Model: function (oContext, oJSONModel) {
->     // assume "oContext"  is an OData V4 context referencing an entity with the properties 
->     //  "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
->     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
->     //  to the OData V4 Model "oDataModel"
->     oContext.setProperty("DateTime", oJSONModel.getProperty("/Date"));
->     oContext.setProperty("DateTimeOffset", oJSONModel.getProperty("/DateTimeOffset"));
->     oContext.setProperty("Time", oJSONModel.getProperty("/Time"));
-> },
-> getJSONModelWithFixInitialValues: function () {
->     return new JSONModel({
->         Date: "2022-12-15", // for Dec 15th 2022
->         DateTimeOffset: "2022-12-15T10:45:00Z", 
->           // for Dec 15th 2022, 10:45 AM (UTC) resp. Dec 15th 2022 11:45:00 CEST
->         TimeOfDay: "10:35:15",  // for 10:35:15 AM
->     });
-> }
-> ```
-
-When binding an OData V4 property via an OData V4 model, type information is automatically determined, and there is no need to specify a type in the binding information. If you bind an OData V4 property via a JSON model, however, you have to specify the type.
-
-***
-
 #### Value initialization with `getModelValue`
 
 If an application has to create new entities for a model and initialize them with date, time, and timestamp values, you must ensure that they are in a valid model format. We provide the `getModelValue` method for this use case, which is implemented by the following `sap.ui.model.odata.type` types:
@@ -751,6 +662,95 @@ With a `DateRangeSelection` control the user can select two dates, a start date 
 >     type: 'sap.ui.model.type.DateInterval'
 > }" />
 > ```
+
+***
+
+#### Data transfer between an OData and a JSON model
+
+JSON models can also be used if the data is stored in the JSON model in the same way as in the corresponding OData model. If you already have the values in an OData model, you can transfer them to a JSON model. Dates, times and timestamps in the OData V2 model are stored as objects, so take care to clone these objects before transferring the values to a JSON model.
+
+> ### Note:  
+> We recommend to bind controls directly to the OData model, and to use JSON models only where directly binding to the OData model does not work.
+
+> ### Example:  
+> **Transfer dates, times, and timestamps between an OData V2 model and a JSON model**
+> 
+> ```
+> transferDatesTimesAndTimestampsFromODataV2ModelToJSONModel: function (oContext) {
+>     // assume "oContext" is an OData V2 context referencing an entity with the properties 
+>     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
+>     var oDate = oContext.getProperty("DateTime"),
+>         oDateTimeOffset = oContext.getProperty("DateTimeOffset"),
+>         oTime = oContext.getProperty("Time");
+>  
+>     return new JSONModel({
+>             DateTime: oDate ? UI5Date.getInstance(oDate) : null,
+>             DateTimeOffset: oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null,
+>             Time: oTime ? Object.assign({}, oTime) : null
+>         });
+> },
+> transferDatesTimesAndTimestampsFromJSONModelToODataV2Model: function (oContext, oJSONModel) {
+>     // assume "oContext"  is an OData V2 context referencing an entity with the properties 
+>     //   "DateTime" (date), "DateTimeOffset" (timestamp) and "Time" (time)
+>     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
+>     //   to the OData V2 model "oDataModel"
+>     var oDate = oJSONModel.getProperty("/DateTime"),
+>         oDateTimeOffset = oJSONModel.getProperty("/DateTimeOffset"),
+>         oTime = oJSONModel.getProperty("/Time"),
+>         oDataModel = oContext.getModel();
+>  
+>     oDataModel.setProperty("DateTime", oDate ? UI5Date.getInstance(oDate) : null, oContext);
+>     oDataModel.setProperty("DateTimeOffset", oDateTimeOffset ? UI5Date.getInstance(oDateTimeOffset) : null, oContext);
+>     oDataModel.setProperty("Time", oTime ? Object.assign({}, oTime) : null, oContext);
+> },
+> getJSONModelWithFixInitialValues: function () {
+>     return new JSONModel({
+>         DateTime: UI5Date.getInstance(Date.UTC(2022, 11, 15)), // for Dec 15th 2022
+>         DateTimeOffset: UI5Date.getInstance(Date.UTC(2022, 11, 15, 10, 45)), 
+>             // for Dec 15th 2022, 10:45 AM (UTC) resp. Dec 15th 2022 11:45:00 CEST
+>         Time: {
+>             ms: ((10 * 60 + 35) * 60 + 15) * 1000,  // for 10:35:15 AM
+>             __edmType: "Edm.Time"
+>         }
+>     });
+> }
+> ```
+
+If an OData V4 model is used, cloning is not necessary, as the model representation of dates, times, and timestamps is a string.
+
+> ### Example:  
+> **Transfer dates, times, and timestamps between an OData V4 model and a JSON model**
+> 
+> ```
+> transferDatesTimesAndTimestampsFromODataV4ModelToJSONModel: function (oContext) {
+>     // assume "oContext" is an OData V4 context referencing an entity with the properties 
+>     //   "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
+>     return new JSONModel({
+>             Date: oContext.getProperty("Date"),
+>             DateTimeOffset: oContext.getProperty("DateTimeOffset"),
+>             TimeOfDay: oContext.getProperty("TimeOfDay")
+>         });
+> },
+> transferDatesTimesAndTimestampsFromJSONModelToODataV4Model: function (oContext, oJSONModel) {
+>     // assume "oContext"  is an OData V4 context referencing an entity with the properties 
+>     //  "Date" (date), "DateTimeOffset" (timestamp) and "TimeOfDay" (time)
+>     // assume "oJSONModel" is a JSONModel containing the values to be transferred 
+>     //  to the OData V4 Model "oDataModel"
+>     oContext.setProperty("DateTime", oJSONModel.getProperty("/Date"));
+>     oContext.setProperty("DateTimeOffset", oJSONModel.getProperty("/DateTimeOffset"));
+>     oContext.setProperty("Time", oJSONModel.getProperty("/Time"));
+> },
+> getJSONModelWithFixInitialValues: function () {
+>     return new JSONModel({
+>         Date: "2022-12-15", // for Dec 15th 2022
+>         DateTimeOffset: "2022-12-15T10:45:00Z", 
+>           // for Dec 15th 2022, 10:45 AM (UTC) resp. Dec 15th 2022 11:45:00 CEST
+>         TimeOfDay: "10:35:15",  // for 10:35:15 AM
+>     });
+> }
+> ```
+
+When binding an OData V4 property via an OData V4 model, type information is automatically determined, and there is no need to specify a type in the binding information. If you bind an OData V4 property via a JSON model, however, you have to specify the type.
 
 ***
 

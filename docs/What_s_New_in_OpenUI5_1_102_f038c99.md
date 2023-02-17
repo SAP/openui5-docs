@@ -139,38 +139,44 @@ We are now using JAWS 2022 as a reference testing environment in OpenUI5. For mo
 </td>
 <td valign="top">
 
- Control 
+ Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.p13n*`** 
+ **Deactivation of Default Time Zone Configuration Feature** 
 
 
 
 </td>
 <td valign="top">
 
-**`sap.m.p13n*`**
+**Deactivation of Default Time Zone Configuration Feature**
 
-We have improved the usability of the *View Settings* dialog. To do this, we have replaced the `sap.m.Select` control with a `sap.m.ComboBox` control and items of type `sap.m.StandardListItem`.
+We needed to deactivate the feature to configure the default time zone via the time zone configuration option in [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration) and the API method [`sap.ui.core.Configuration.setTimezone`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setTimezone). Reason: There was a risk that dates are visualized by one day off. This wrong date might have been persisted to the back end.
 
-In particular, the following changes have been applied:
+This feature was introduced with UI5 1.102.0. The following UI5 versions still contain this feature:
 
--   We have replaced *None* in the selection lists of the *Sort* and *Group* tabs with the *Sort by* and *Group by* placeholder texts based on the SAP Fiori design guidelines.
+-   1.102.0 to 1.102.5
+-   1.103
+-   1.104
 
--   We have adapted the tooltips of the *Delete* buttons for removing entries on the tabs.
+If you are on one of these releases, we recommend that you upgrade to a higher version where this feature is deactivated.
 
-    ![](images/loio53d93b35ecc24e6cb1d69ab6ca387760_LowRes.png)
+Deactivated as of:
 
--   For a more simplified search, especially in a long selection list, users can now enter a column name.
+-   1.106
+
+-   1.105
+
+-   1.102.6
 
 
-For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup) for `sap.m.p13n.Popup` and the [Sample](https://sdk.openui5.org/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable.mtableCustom) for `SmartTable`. 
+We plan to bring this feature back in a different form at a later point in time.
 
-<sub>Changed•Control•Info Only•1.102</sub>
+<sub>Changed•Announcement•Info Only•1.102</sub>
 
 
 

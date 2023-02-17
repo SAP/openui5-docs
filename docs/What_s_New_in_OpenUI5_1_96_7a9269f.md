@@ -216,7 +216,11 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 </td>
 <td valign="top">
 
- Info Only 
+**OpenUI5 Models**
+
+We have provided the new `sap.ui.model.ListBinding#getFilters` method. It is available in all list bindings inheriting from `sap.ui.model.ListBinding`, for example in `sap.ui.model.odata.v4.ODataListBinding` and `sap.ui.model.odata.v2.ODataListBinding`. We also provide getters for `sap.ui.model.Filter`.
+
+<sub>Changed•Feature•Info Only•1.96</sub>
 
 
 
@@ -267,7 +271,11 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 </td>
 <td valign="top">
 
- Info Only 
+**OpenUI5 OData V2 Model**
+
+We have introduced the new `sap.ui.model.odata.v2.Context#created` method. For created records, the method returns a promise that resolves when the record is created in the back end. The promise is rejected if the record is deleted before being persisted in the back end.
+
+<sub>Changed•Feature•Info Only•1.96</sub>
 
 
 
@@ -318,7 +326,18 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 </td>
 <td valign="top">
 
- Info Only 
+**OpenUI5 OData V4 Model**
+
+The new version of the OpenUI5 OData V4 model introduces the following features:
+
+-   You can now specify `$select` in addition to the `$$inheritExpandSelect` binding parameter of [OData Operations](OData_Operations_b54f789.md).
+
+-   We have complemented the [OData V4 Tutorial](OData_V4_bcdbde6.md) with additional chapters showing how to reuse data in a list-detail scenario.
+
+-   You can now use [`Common.ValueListWithFixedValues`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L672:~:text=%3CTerm%20Name=%22-,ValueListWithFixedValues,-%22) in combination with [`Common.ValueListRelevantQualifiers`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L666:~:text=%3CTerm%20Name=%22-,ValueListRelevantQualifiers,-%22) if only one value list qualifier is relevant at a time. The `sap.ui.model.odata.v4.ODataMetaModel#requestValueListInfo` method returns the relevant value list for the `""` qualifier and provides the original qualifier as the `$qualifier` property of the value list mapping.
+
+
+<sub>Changed•Feature•Info Only•1.96</sub>
 
 
 

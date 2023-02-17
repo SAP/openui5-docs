@@ -77,6 +77,61 @@ Available as of
 </td>
 <td valign="top">
 
+ Deprecated 
+
+
+
+</td>
+<td valign="top">
+
+ Feature 
+
+
+
+</td>
+<td valign="top">
+
+ **Deprecations** 
+
+
+
+</td>
+<td valign="top">
+
+**Deprecations**
+
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+
+<sub>Deprecated•Feature•Info Only•1.108</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-11-03
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.108 
+
+
+
+</td>
+<td valign="top">
+
  Changed 
 
 
@@ -389,6 +444,133 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 -   We have introduced the new `calendarWeekNumbering` format option for `sap.ui.core.format.DateFormat`.
 
 <sub>Changed•Feature•Info Only•1.108</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-11-03
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.108 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **sap.m.Carousel** 
+
+
+
+</td>
+<td valign="top">
+
+**sap.m.Carousel**
+
+We have improved the keyboard interaction and accessibility of the control. The initial focus is now on the active carousel item, unlike before, when it was on the carousel container. This allows you to focus on a concrete item and provides more information to the screen readers.For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Carousel/sample/sap.m.sample.CarouselWithMorePages).
+
+<sub>Changed•Control•Info Only•1.108</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-11-03
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.108 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.ui.integration.widgets.Card`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.ui.integration.widgets.Card`**
+
+-   The Adaptive card now uses the recently released 1.7.0 UI5 WebComponents bundle. For more information, see the [Adaptive Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/typesOther/adaptive) Learn section in the Card Explorer.
+
+-   You can now configure the visibility of the card footer using the new `visible` boolean property. Card developers can set this property in the manifest. Additionally, they can add it to the `Configuration.js`, which will also enable card administrators, who are using the Configuration editor, to control the visibility of the card footer. For more information, see the [Card Footer](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/footer) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/footer/hiddenFooter) in the Card Explorer.
+
+-   We have made the loading placeholder for Analytical cards more detailed to better reveal the expected loading content. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.integration.widgets.Card/sample/sap.ui.integration.sample.LazyLoading).
+
+-   We have \(experimentally\) enhanced the `sap.ui.integration.Extension` with a new `loadDependencies` lifecycle hook. As a card developer, you can use it to load critical dependencies for your extension, without which the data cannot be displayed. While the dependencies are loaded, the card displays a loading animation. This hook is asynchronous, so other tasks won’t be blocked. For more information, see the [Card Extension](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/extension) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/extension/loadDependencies) in the Card Explorer, and the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.Extension).
+
+-   A new `visible` property is now introduced for icons and avatars to achieve consistency in representation if an empty value for the `src` property is used in the card manifest. The new property is available for:
+
+    -   Default Header
+    -   Sap.f.CardHeader
+    -   ObjectContent
+    -   TableContent
+    -   List Content
+
+     For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/iconVisibility) in the Card Explorer. 
+
+
+<sub>Changed•Control•Info Only•1.108</sub>
 
 
 
