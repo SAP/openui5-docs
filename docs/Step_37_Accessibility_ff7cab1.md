@@ -92,10 +92,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 				<ToolbarSpacer/>
 				<SearchField
 					width="50%"
-					search=".onFilterInvoices"
-					ariaLabelledBy="searchFieldLabel"
-					ariaDescribedBy="searchFieldDescription"
-					placeholder="{i18n>searchFieldPlaceholder}"/>
+					search=".onFilterInvoices"/>
 			</Toolbar>
 		</headerToolbar>
 		<Table

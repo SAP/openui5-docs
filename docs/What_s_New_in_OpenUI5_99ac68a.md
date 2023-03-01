@@ -15,7 +15,7 @@ Find out what's new in the latest versions of OpenUI5.
 ***
 
 > ### Tip:  
-> If you want to do a search across all versions of the What's New content, you can also find it in the [OpenUI5 What's New Viewer](https://help.sap.com/whats-new/6bcc245f2df64b919829f56a96e94e8b).
+> If you want to do a search across all versions of the What's New content, you can also find it in the [OpenUI5 What's New viewer](https://help.sap.com/whats-new/6bcc245f2df64b919829f56a96e94e8b).
 
 ![](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
 
@@ -29,10 +29,6 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 		this release OpenUI5 is upgraded
 		from version 1.110 to 1.111.")**  
 With this release OpenUI5 is upgraded from version 1.110 to 1.111.
--   **[What's New in OpenUI5 1.110](What_s_New_in_OpenUI5_1_110_71a855c.md "With
-		this release OpenUI5 is upgraded
-		from version 1.109 to 1.110.")**  
-With this release OpenUI5 is upgraded from version 1.109 to 1.110.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 -   **[Change Log](Change_Log_a6a78b7.md "")**  
