@@ -12,8 +12,6 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/da0d2e
 
 Provides a list of themes and their names.
 
-***
-
 The following themes are available in OpenUI5:
 
 ****
