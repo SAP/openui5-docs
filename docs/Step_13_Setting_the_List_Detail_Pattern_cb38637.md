@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cb3863
 
 In this step, we set up the app to follow the list-detail pattern.
 
-Apps using the list-detail pattern operate with a layout divided into two separate areas - a list list area and a details area. The list area displays the items available to the user and the details area displays the details for an item that is selected in the list. If your use case requires it, you can set the `FlexibleColumnLayout` to use a maximum of two columns. For more information, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/flexible-column-layout/#two-columns-masterdetail-mode).
+Apps using the list-detail pattern operate with a layout divided into two separate areas - a list area and a details area. The list area displays the items available to the user and the details area displays the details for an item that is selected in the list. If your use case requires it, you can set the `FlexibleColumnLayout` to use a maximum of two columns. For more information, see the [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/flexible-column-layout/#two-columns-masterdetail-mode).
 
 ***
 

@@ -88,16 +88,16 @@ We also want to provide our users a way of contacting Harry Hawk. Therefore we w
 		to the requirements of that data type. We will now add a new field called Sales
 			Amount of type Currency. ")  
 OpenUI5 provides a set of simple data types such as `Boolean`, `Currency`, `Date` and `Float`. These data types can then be applied to controls in order to ensure that the value presented on the screen is formatted correctly, and, if the field is open for input, that the value entered by the user adheres to the requirements of that data type. We will now add a new field called *Sales Amount* of type `Currency`.
-11. [Step 11: Validation Using the Message Manager](Step_11_Validation_Using_the_Message_Manager_b8c4e53.md "So far, we have created a currency field that can format itself correctly. The
-		currency data type also has the ability to validate that user input adheres to to the
-		requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no
+11. [Step 11: Validation Using the Message Manager](Step_11_Validation_Using_the_Message_Manager_b8c4e53.md "So far, we have created a currency field that can format itself correctly. The currency
+		data type also has the ability to validate that user input adheres to the requirements of a
+		currency; however, data type validation functions are managed by OpenUI5, which of itself has no
 		mechanism for reporting error messages back to the UI; therefore, we need a mechanism for
 		reporting error messages raised by validation functions back to the user. In this step, we
 		will connect the entire view to a feature known as the &quot;Message Manager&quot;. Once this
 		connection is established, any validation error messages generated based on the user input
 		will be passed to the message manager which in turn will connect them to the appropriate
 		view and control that caused the error.")  
-So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that user input adheres to to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will connect the entire view to a feature known as the "Message Manager". Once this connection is established, any validation error messages generated based on the user input will be passed to the message manager which in turn will connect them to the appropriate view and control that caused the error.
+So far, we have created a currency field that can format itself correctly. The currency data type also has the ability to validate that user input adheres to the requirements of a currency; however, data type validation functions are managed by OpenUI5, which of itself has no mechanism for reporting error messages back to the UI; therefore, we need a mechanism for reporting error messages raised by validation functions back to the user. In this step, we will connect the entire view to a feature known as the "Message Manager". Once this connection is established, any validation error messages generated based on the user input will be passed to the message manager which in turn will connect them to the appropriate view and control that caused the error.
 12. [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within
 		the model data and allows relative binding to the list entries by its child controls. ")  
 Aggregation binding \(or "list binding"\) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.
