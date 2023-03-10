@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/76e789
 
 ## Step 5: UI5 Inspector
 
-In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in specifically created for analyzing and debugging OpenUI5 code.
+In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.
 
 With UI Inspector, you can find answers to the following questions, for example:
 
@@ -24,7 +24,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 
 > ### Note:  
-> UI5 Inspector is only available for the Google Chrome browser.
+> UI5 Inspector is only available for browsers, like Google Chrome and Microsoft Edge \(Chromium\), that support standard extensions from the Chrome Web Store.
 
 ***
 
@@ -38,7 +38,7 @@ With UI Inspector, you can find answers to the following questions, for example:
 
 ### Opening the Example App and the UI5 Inspector
 
-1.  Download UI5 Inspector from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en) and add it to your Chrome browser as a standard extension .
+1.  Add the UI5 Inspector as a standard extension to your Chromium-based browser from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ui5-inspector/bebecogbafbighhaildooiibipcnbngo?hl=en).
 
 2.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 

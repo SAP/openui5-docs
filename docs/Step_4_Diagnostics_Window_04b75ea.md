@@ -127,5 +127,5 @@ More features are waiting for you to discover in the *Diagnostics* window. For m
 
 **Next:** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
 
-**Previous:** [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in specifically created for analyzing and debugging OpenUI5 code.")
+**Previous:** [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.")
 

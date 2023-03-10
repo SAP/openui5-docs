@@ -53,9 +53,9 @@ In this tutorial step, we will have a closer look at Support Assistant. You can 
 		wealth of information including comprehensive technical information, a control tree, and
 		debugging features.")  
 In this tutorial step, we have a closer look at the Diagnostics window. It offers a wealth of information including comprehensive technical information, a control tree, and debugging features.
-5.  [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in
-		specifically created for analyzing and debugging OpenUI5 code.")  
-In this tutorial step, we will have a closer look at UI5 Inspector - a plug-in specifically created for analyzing and debugging OpenUI5 code.
+5.  [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - an open source
+		Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.")  
+In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.
 6.  [First-Aid Kit](First_Aid_Kit_38859a8.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve
 		them.")  
 This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.

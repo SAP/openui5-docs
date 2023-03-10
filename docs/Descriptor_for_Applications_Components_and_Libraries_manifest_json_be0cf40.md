@@ -1444,6 +1444,22 @@ Start page of your app, if available
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ `$schema` 
+
+
+
+</td>
+<td valign="top">
+
+JSON schema URI
+
+
+
+</td>
+</tr>
 </table>
 
 ***
