@@ -732,7 +732,7 @@ The `create` and `update` methods also require a mandatory `oData` parameter for
     oModel.remove("/Products(999)", {success: mySuccessHandler, error: myErrorHandler});
     ```
 
-    The [`sap.ui.model.odata.v2.Context#delete`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context%23methods/delete) function uses `ODataModel#remove` to remove a persisted entry. It will also remove transient and inactive entries. With this function, a developer does not need to know the status \(inactive, transient, persisted\) of the context pointing to the entry to be removed.
+    The [`sap.ui.model.odata.v2.Context#delete`](https://sdk.openui5.org/api/sap.ui.model.odata.v2.Context%23methods/delete) function uses `ODataModel#remove` to remove a persisted entry. It will also remove transient and inactive entries. This function works for all statuses \(inactive, transient, persisted\) of the context pointing to the entry to be removed.
 
 -   Refresh after change
 

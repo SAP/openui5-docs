@@ -252,8 +252,9 @@ Now we fix our test again by returning the expected string.
 ```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
-], function(DateFormatter, Locale) {
+	"sap/ui/core/Locale",
+	"sap/ui/core/date/UI5Date"
+], function(DateFormatter, Locale, UI5Date) {
 	QUnit.module("DateFormatter");
 	QUnit.test("Should return empty string if no date is given", function(assert) {
 		var oFormatter = new DateFormatter({
@@ -266,7 +267,7 @@ sap.ui.define([
 		var oFormatter = new DateFormatter({
 			locale : new Locale("en-US")
 		});
-		var oDate = new Date(2015, 2, 14, 12, 5, 0, 0);
+		var oDate = UI5Date.getInstance(2015, 2, 14, 12, 5, 0, 0);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "12:05 PM");
 	});
@@ -317,8 +318,9 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 ```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
-], function(DateFormatter, Locale) {
+	"sap/ui/core/Locale",
+	"sap/ui/core/date/UI5Date"
+], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
 	QUnit.module("DateFormatter", {
 		beforeEach: function() {
@@ -350,14 +352,16 @@ Our tests are running so we can start refactoring our code. Since we need the `D
 ```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
-], function(DateFormatter, Locale) {
+	"sap/ui/core/Locale",
+	"sap/ui/core/date/UI5Date"
+	
+], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
 	QUnit.module("DateFormatter", {
 		beforeEach: function() {
 			oFormatter = new DateFormatter({
 				now : function() {
-					return new Date(2015, 2, 14, 14, 0, 0, 0).getTime();
+					return UI5Date.getInstance(2015, 2, 14, 14, 0, 0, 0).getTime();
 				},
 				locale : new Locale("en-US")
 			});
@@ -365,7 +369,7 @@ sap.ui.define([
 	});
 	...
 	QUnit.test("Should return 'Yesterday' if date from yesterday", function(assert) {
-		var oDate = new Date(2015, 2, 13);
+		var oDate = UI5Date.getInstance(2015, 2, 13);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Yesterday");
 	});
@@ -419,12 +423,13 @@ In the implementation we add a calculation for determining how many days passed.
 ```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
-], function(DateFormatter, Locale) {
+	"sap/ui/core/Locale",
+	"sap/ui/core/date/UI5Date"
+], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
 	...
 	QUnit.test("Should return day of the week if date < 7 days ago", function(assert) {
-		var oDate = new Date(2015, 2, 8);
+		var oDate = UI5Date.getInstance(2015, 2, 8);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Sunday");
 	});
@@ -477,12 +482,13 @@ Now we define a new format in our constructor, the `weekdayFormat`. In the forma
 ```js
 sap.ui.define([
 	"sap/ui/demo/bulletinboard/model/DateFormatter",
-	"sap/ui/core/Locale"
-], function(DateFormatter, Locale) {
+	"sap/ui/core/Locale",
+	"sap/ui/core/date/UI5Date"
+], function(DateFormatter, Locale, UI5Date) {
 	var oFormatter = null;
 	...
 	QUnit.test("Should return date w/o time if date > 7 days ago", function(assert) {
-		var oDate = new Date(2015, 2, 7);
+		var oDate = UI5Date.getInstance(2015, 2, 7);
 		var sFormattedDate = oFormatter.format(oDate);
 		assert.strictEqual(sFormattedDate, "Mar 7, 2015");
 	});
