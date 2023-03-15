@@ -14,9 +14,6 @@ Find out what's new in the latest versions of OpenUI5.
 
 ***
 
-> ### Tip:  
-> If you want to do a search across all versions of the What's New content, you can also find it in the [OpenUI5 What's New viewer](https://help.sap.com/whats-new/6bcc245f2df64b919829f56a96e94e8b).
-
 ![](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
 
 ***

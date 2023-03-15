@@ -12,9 +12,6 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7a6783
 
 With this release OpenUI5 is upgraded from version 1.110 to 1.111.
 
-> ### Tip:  
-> If you want to do a search across all versions of the What's New content, you can also find it in the [OpenUI5 What's New viewer](https://help.sap.com/whats-new/6bcc245f2df64b919829f56a96e94e8b).
-
 ** **
 
 
@@ -757,63 +754,6 @@ To improve the accessibility of the control, the initial focus is now set on the
 
 
 <sub>Changed•Control•Info Only•1.111</sub>
-
-
-
-</td>
-<td valign="top">
-
- Info Only 
-
-
-
-</td>
-<td valign="top">
-
-2023-02-23
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 1.111 
-
-
-
-</td>
-<td valign="top">
-
- Changed 
-
-
-
-</td>
-<td valign="top">
-
- Announcement 
-
-
-
-</td>
-<td valign="top">
-
- **Changed Format of What's New Content** 
-
-
-
-</td>
-<td valign="top">
-
-**Changed Format of What's New Content**
-
-We have introduced a new channel for our What's New content: You can now view the content in the What's New viewer as well. The What's New viewer allows you to display and search for entries across all versions. For each entry, various attributes are displayed, for example, the type of change and whether it is related to a feature or a control.
-
-We have also changed the format of the What's New content in the Demo Kit. You can show or hide the columns for these attributes. Similar to the What's New viewer, you can filter the entries based on these attributes by clicking on *Filter* or simply based on a search term. For more information, see [OpenUI5 What's New Viewer](https://help.sap.com/whats-new/6bcc245f2df64b919829f56a96e94e8b) and [Want to Know What’s New in SAPUI5 and SAP Fiori Elements? Check the What’s New Viewer!](https://blogs.sap.com/?p=1702680).
-
-<sub>Changed•Announcement•Info Only•1.111</sub>
 
 
 

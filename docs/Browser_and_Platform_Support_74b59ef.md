@@ -99,71 +99,20 @@ SAP Fiori Client
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="2">
 
 Windows<sup>1</sup>
 
 
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Desktop
 
 
 
 </td>
-<td valign="top">
-
-Windows 8.1
-
-
-
-</td>
-<td valign="top" align="center">
-
-\-
-
-
-
-</td>
-<td valign="top" align="center">
-
-\-
-
-
-
-</td>
-<td valign="top" rowspan="2">
-
-Latest version
-
-
-
-</td>
-<td valign="top" rowspan="2">
-
-Latest version
-
-
-
-</td>
-<td valign="top" rowspan="3">
-
-Latest version and latest Extended Support Release \(ESR\)
-
-
-
-</td>
-<td valign="top" align="center">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
 Windows 10
@@ -180,9 +129,30 @@ Windows 11
 
 
 </td>
+<td valign="top" align="center">
+
+Latest version
+
+
+
+</td>
 <td valign="top">
 
 Latest version
+
+
+
+</td>
+<td valign="top">
+
+Latest version
+
+
+
+</td>
+<td valign="top" rowspan="2">
+
+Latest version and latest Extended Support Release \(ESR\)
 
 
 
@@ -286,7 +256,7 @@ Latest version
 </td>
 <td valign="top">
 
-Latest version
+Latest version <sup>5</sup>
 
 
 
