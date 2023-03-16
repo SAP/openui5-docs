@@ -129,7 +129,7 @@ Windows 11
 
 
 </td>
-<td valign="top" align="center">
+<td valign="top">
 
 Latest version
 
