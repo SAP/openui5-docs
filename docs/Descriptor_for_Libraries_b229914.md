@@ -31,7 +31,7 @@ manifest.json
 </th>
 <th valign="top">
 
-Available for SAPUI5 dist libraries?
+Available for SAPUI5 distribution libraries?
 
 
 
@@ -61,7 +61,7 @@ Comment
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -89,7 +89,7 @@ x
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -119,7 +119,7 @@ Generated with value `library`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -149,6 +149,8 @@ Generated
 </td>
 <td valign="top">
 
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
 
 
 </td>
@@ -177,7 +179,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -205,7 +207,7 @@ x
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -235,7 +237,7 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -265,7 +267,7 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -292,6 +294,8 @@ x
 
 </td>
 <td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 
 
@@ -321,7 +325,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -351,7 +355,7 @@ Generated with value `resources.json`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -381,6 +385,8 @@ New in `.library`
 </td>
 <td valign="top">
 
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
 
 
 </td>
@@ -409,7 +415,7 @@ New in `.library`, to be filled by SAP Web IDE only
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -439,6 +445,8 @@ Generated with value `UI5`
 </td>
 <td valign="top">
 
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
 
 
 </td>
@@ -467,7 +475,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -497,7 +505,7 @@ Generated and merged
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -527,7 +535,7 @@ Generated
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -554,6 +562,8 @@ x
 
 </td>
 <td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 
 
@@ -583,7 +593,7 @@ New in `.library`
 </td>
 <td valign="top">
 
-x
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
 
 
 
@@ -613,6 +623,8 @@ Determines whether the library contains an i18n resource. Value can be either a 
 </td>
 <td valign="top">
 
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
 
 
 </td>
@@ -640,6 +652,8 @@ New in `.library`
 
 </td>
 <td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 
 
@@ -669,6 +683,8 @@ New in `.library`
 </td>
 <td valign="top">
 
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
 
 
 </td>
@@ -696,6 +712,8 @@ New in `.library`
 
 </td>
 <td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
 
 
 

@@ -10,6 +10,10 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6660a5
 
 ## Previous Versions
 
+-   **[What's New in OpenUI5 1.111](What_s_New_in_OpenUI5_1_111_7a67837.md "With
+		this release OpenUI5 is upgraded
+		from version 1.110 to 1.111.")**  
+With this release OpenUI5 is upgraded from version 1.110 to 1.111.
 -   **[What's New in OpenUI5 1.110](What_s_New_in_OpenUI5_1_110_71a855c.md "With
 		this release OpenUI5 is upgraded
 		from version 1.109 to 1.110.")**  
