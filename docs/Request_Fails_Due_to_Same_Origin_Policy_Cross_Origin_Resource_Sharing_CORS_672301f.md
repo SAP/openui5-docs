@@ -190,6 +190,105 @@ To use a service in the `local ui5 application` we have to change the `uri` in t
 
 ***
 
+<a name="copy672301f4f47640a8b2bc817d2ce0f512__AppRouter"/>
+
+### Local Development: Using App Router
+For more information, please read more at this blog post: https://blogs.sap.com/2020/05/22/ui5-solving-cors-issue-during-local-development-with-app-router/
+
+Here are the quick step from the blog:
+
+***
+Add the dependencies by run `npm install @sap/approuter`  and replace the start script with the router
+#### package.json
+```json
+{
+  ...
+  "dependencies": {
+    "@sap/approuter": "^6.8.2"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}
+```
+***
+#### xs-app.json (New)
+In the app router descriptor file, we define a route to the destination which represents our OData service
+
+This route will be used by our ui5 app (don’t forget to adapt it, as described below)
+
+Furthermore, we define a route for the entry point of our application, which is the index.html file
+
+This route is used also in the path of the welcome file.
+
+Defining a welcome file is useful, because like that we don’t need to type the full path to index.html. It will automatically be opened
+
+```json
+{
+  "welcomeFile": "home/index.html",
+  "authenticationMethod": "none",
+  "routes": [
+    {
+      "source": "^/home/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    },
+    {
+      "source": "^/route_to_prodsrv/(.*)$",
+      "target": "$1",
+      "destination": "env_destination_prodsrv",
+      "csrfProtection": false
+    }
+  ]
+}
+```
+***
+#### default-env.json (New)
+This file must have this name, as it is hardcoded in the app router
+
+If the file is present, the app router will parse it
+
+As such, we can define environment variables here, and that’s what we need for our local scenario
+
+We need only one destination, it points to our local OData service:
+
+
+```json
+{
+    "destinations" : [
+          {
+              "name": "env_destination_prodsrv",
+              "url": "https://services.odata.org"
+          }
+    ]  
+}
+```
+***
+#### manifest.json
+Update the datasource to use app router 
+```json
+"sap.app": {
+	...
+	"dataSources": {
+	      "invoiceRemote": {
+		"uri": "/route_to_prodsrv/V2/Northwind/Northwind.svc/",
+		"type": "OData",
+		"settings": {
+		  "odataVersion": "2.0"
+		}
+	      }
+	    }
+```
+Note:
+Don’t forget the trailing slash
+***
+#### Start App
+```linux
+yarn start
+```
+Open app in http://localhost:5000/
+***
+
 <a name="copy672301f4f47640a8b2bc817d2ce0f512__DisablingSameOriginPolicy"/>
 
 ### Workaround: Disable the same-origin policy in the browser \(not recommended, only for testing\)
