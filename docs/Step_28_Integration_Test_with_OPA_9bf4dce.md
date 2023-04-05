@@ -37,7 +37,7 @@ You can view and download all files at [Walkthrough - Step 28](https://sdk.openu
   
 **Folder Structure for this Step**
 
- ![](images/loio72406abd1014466fb961d4c4dd1ade58_HiRes.png "Folder Structure for this Step") 
+ ![](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step") 
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
