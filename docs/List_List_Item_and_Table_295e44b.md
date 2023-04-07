@@ -57,6 +57,9 @@ The simple concept of table personalization allows the user to personalize a tab
 		mobile device and affects most likely the sap.m.List and
 			sap.m.Table controls.")**  
 Mobile devices usually have a limited memory and processing power. Complex web pages may therefore have a negative impact on the application performance. This also depends on the mobile device and affects most likely the `sap.m.List` and `sap.m.Table` controls.
+-   **[Table Personalization and Enablement of Variant Management](Table_Personalization_and_Enablement_of_Variant_Management_f280251.md "The simple concept of personalization allows the user to personalize a control and to
+		persist these settings using a VariantManagement control.")**  
+The simple concept of personalization allows the user to personalize a control and to persist these settings using a `VariantManagement` control.
 
 **Related Information**  
 

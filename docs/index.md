@@ -789,6 +789,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md)
                 -   [Table Personalization](Table_Personalization_1c60212.md)
                 -   [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
+                -   [Table Personalization and Enablement of Variant Management](Table_Personalization_and_Enablement_of_Variant_Management_f280251.md)
             -   [Message Handling](Message_Handling_f5df293.md)
             -   [Message Popover](Message_Popover_52824a6.md)
             -   [PDF Viewer](PDF_Viewer_cd80a8b.md)
