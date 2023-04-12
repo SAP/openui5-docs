@@ -450,6 +450,49 @@ Defines the calendar type that is used for locale-dependent, date-related featur
 <tr>
 <td valign="top">
 
+`calendarWeekNumbering`
+
+
+
+</td>
+<td valign="top">
+
+Type: `sap.ui.core.date.CalendarWeekNumbering`
+
+Default value: `Default`
+
+Defines the calendar week numbering algorithm that is used to determine the first day of the week and the first calendar week of the year.
+
+For more information, see the [API Reference: `sap.ui.core.date.CalendarWeekNumbering`](https://sdk.openui5.org/api/sap.ui.core.date.CalendarWeekNumbering)
+
+
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![YES](images/loio3929e469c7824eb0a69206aeac69f257_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `debug`
 
 

@@ -756,6 +756,9 @@
 							"Use Asynchronous Loading": {
 								"link": "Use_Asynchronous_Loading_676b636.md"
 							},
+							"Use Only Public APIs": {
+								"link": "Use_Only_Public_APIs_b0d5fe2.md"
+							},
 							"Is Your Application Ready for Asynchronous Loading?": {
 								"link": "Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md"
 							},
@@ -1959,8 +1962,8 @@
 							"App Development Using SAP Business Application Studio": {
 								"link": "App_Development_Using_SAP_Business_Application_Studio_6bbad66.md"
 							},
-							"Developing OpenUI5": {
-								"link": "Developing_OpenUI5_ee8726a.md"
+							"OpenUI5 Framework Development": {
+								"link": "OpenUI5_Framework_Development_ee8726a.md"
 							},
 							"Other Environments": {
 								"link": "Other_Environments_f0898e6.md",
@@ -2202,15 +2205,7 @@
 								"link": "Git_Guidelines_b2f5639.md"
 							},
 							"JSDoc Guidelines": {
-								"link": "JSDoc_Guidelines_eeaa5de.md",
-								"items": {
-									"JSDoc Visibility Tags": {
-										"link": "JSDoc_Visibility_Tags_b0d5fe2.md"
-									},
-									"Common Pitfalls in JSDoc": {
-										"link": "Common_Pitfalls_in_JSDoc_30671a0.md"
-									}
-								}
+								"link": "JSDoc_Guidelines_eeaa5de.md"
 							},
 							"Tools": {
 								"link": "Tools_41de83f.md",

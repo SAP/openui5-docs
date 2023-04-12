@@ -48,9 +48,9 @@ There are several ways to develop OpenUI5 applications. Select the one that meet
 -   **[App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md "Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop
 		state-of-the-art UI5 apps.")**  
 Learn how you can use SAP Business Application Studio together with UI5 Tooling to develop state-of-the-art UI5 apps.
--   **[Developing OpenUI5](Developing_OpenUI5_ee8726a.md "This section provides information for the initial setup, development workflow, and how
-		tests are executed.")**  
-This section provides information for the initial setup, development workflow, and how tests are executed.
+-   **[OpenUI5 Framework Development](OpenUI5_Framework_Development_ee8726a.md "This UI5 Developer's Guide contains information relevant for the typical UI5 app developer. Information for framework developers is
+		maintained on GitHub.")**  
+This UI5 Developer's Guide contains information relevant for the typical UI5 app developer. Information for framework developers is maintained on GitHub.
 -   **[Other Environments](Other_Environments_f0898e6.md "This section contains information about other as well as former OpenUI5 development environments
 		ans scenarios.")**  
 This section contains information about other as well as former OpenUI5 development environments ans scenarios.

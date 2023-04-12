@@ -20,13 +20,13 @@ Gherkin calculates code coverage for any JavaScript file that is loaded after th
 
 ***
 
-<a name="loio20737a4c64f448d2af9b9745fbe5d762__section_ojq_zz4_fwb"/>
+<a name="loio20737a4c64f448d2af9b9745fbe5d762__section_ISTANBUL"/>
 
 ### Istanbul
 
-Code coverage with `Istanbul` relies on a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) and [UI5 Middleware Instrumentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation).
+Code coverage with `Istanbul` relies on a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) and [UI5 Middleware Code Coverage](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage).
 
-It is integrated into OpenUI5, but if you use UI5 Tooling's `ui5 serve`, you'd need to enable it in `ui5.yaml` and `package.json` of your project.
+If you use UI5 Tooling's `ui5 serve`, you would need to enable it in `ui5.yaml` and `package.json` of your project.
 
 ```html
 <script
@@ -36,7 +36,7 @@ It is integrated into OpenUI5, but if you use UI5 Tooling's `ui5 serve`, you'd n
 </script>
 ```
 
-For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation).
+For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage).
 
 ***
 
@@ -44,22 +44,24 @@ For more information, see the [documentation](https://github.com/SAP/ui5-tooling
 
 ### Blanket.js \(Legacy\)
 
+`Blanket.js` offers code coverage and instrumentation for JavaScript up to ECMAScript Language Specification 5. As of OpenUI5 version 1.113.0 code coverage measurement via [`Istanbul`](Code_Coverage_20737a4.md#loio20737a4c64f448d2af9b9745fbe5d762__section_ISTANBUL) is the recommended option.
+
 ```html
 <script
-  src="path/to/resources/sap/ui/qunit/qunit-coverage.js"
+  src="../../resources/sap/ui/qunit/qunit-coverage.js"
   data-sap-ui-cover-only="GherkinWithOPA5/"
   data-sap-ui-cover-never="sap/ui/">
 </script>
 ```
 
-For more information, see the documentation for Blanket.js on GitHub. Keep in mind that the attribute name is slightly different in the OpenUI5 implementation \(`data-sap-ui-cover-only` instead of `data-cover-only`\).
+For more information, see the documentation for `Blanket.js` on GitHub. Keep in mind that the attribute name is slightly different in the OpenUI5 implementation \(`data-sap-ui-cover-only` instead of `data-cover-only`\).
 
 **Related Information**  
 
 
 [`Blanket.js` Documentation on GitHub](https://github.com/alex-seville/blanket/blob/master/docs/intermediate_browser.md)
 
-[`UI5 Middleware Instrumentation` repo on GitHub](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation)
+[`UI5 Middleware Code Coverage` repo on GitHub](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage)
 
-[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage for your test inside the Control.qunit.html page either via HTML or JavaScript code using a code coverage tool like Istanbul (default) or Blanket.js (legacy).")
+[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like Istanbul (default) or Blanket.js (legacy).")
 

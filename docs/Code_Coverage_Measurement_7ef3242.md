@@ -10,74 +10,39 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7ef324
 
 ## Code Coverage Measurement
 
-You can measure the code coverage for your test inside the `Control.qunit.html` page either via HTML or JavaScript code using a code coverage tool like `Istanbul` \(default\) or `Blanket.js` \(legacy\).
+You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like `Istanbul` \(default\) or `Blanket.js` \(legacy\).
 
 ***
 
-<a name="loio7ef32428dc7c4c048a8d7e8de0a556fb__section_q14_k2p_fwb"/>
+<a name="loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL"/>
 
 ### Istanbul
 
-`Istanbul` enables code coverage and instrumentation for ES6+ files. It also supports branching and correctly identifies visited scopes in conditional clauses.
+`Istanbul` offers code coverage and instrumentation for JavaScript files. It also supports branching and correctly identifies visited scopes in conditional clauses.
 
-[UI5 Middleware Instrumentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation) is a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) middleware that enables [`Istanbul`](https://istanbul.js.org/) in UI5 Tooling.
+[UI5 Middleware Code Coverage](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage) is a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) middleware that enables [`Istanbul`](https://istanbul.js.org/) in UI5 Tooling.
 
-It is integrated into OpenUI5, but if you use UI5 Tooling's `ui5 serve`, you'd need to enable it in `ui5.yaml` and `package.json` of your project.
+If you use UI5 Tooling's `ui5 serve`, you would need to enable it in `ui5.yaml` and `package.json` of your project.
 
-For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation).
+For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage).
 
 ***
 
-#### HTML
+#### Enablement
 
-With the following line you enable `Istanbul` to measure the code coverage:
+You have two options to enable code coverage measurement by `Istanbul`:
+
+**HTML**
+
+In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
 
 ```html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"></script>
+<script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"></script>
 ```
 
-With this argument, all files that are executed during the test run are added to the result.
+**JS**
 
-If you want to limit the test run, you can use the following code:
-
--   Limit test to a single file:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
-    	data-sap-ui-cover-only="sap/ui/core/Popup.js"
-    ></script>
-    ```
-
--   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
-    	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
-    ></script>
-    ```
-
--   Limit test to a specific library:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
-    	data-sap-ui-cover-only="sap/ui/core/"
-    ></script>
-    ```
-
--   Exclude specific objects:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
-    	data-sap-ui-cover-never="sap/m/"
-    ></script>
-    ```
-
-
-***
-
-#### JavaScript
-
-Inside your test page, you can add these lines before running the tests:
+Inside your test page, you have to add these lines before running the tests:
 
 ```
 sap.ui.require(["sap/ui/qunit/qunit-coverage-istanbul"], function(/*coverage*/){
@@ -85,9 +50,23 @@ sap.ui.require(["sap/ui/qunit/qunit-coverage-istanbul"], function(/*coverage*/){
 });
 ```
 
-If you want to limit the test run, you can use the following code:
+***
 
--   Limit test to a single file:
+#### Configuration
+
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code:
+
+-   Limit instrumentation to a single file:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
+    	data-sap-ui-cover-only="sap/ui/core/Popup.js"
+    ></script>
+    ```
+
+    **JS**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -96,16 +75,36 @@ If you want to limit the test run, you can use the following code:
         }
     ```
 
--   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
+-   Limit instrumentation to multiple files \(provide an array with comma-separated sources that should occur in the result\):
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
+    	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
+    ></script>
+    ```
+
+    **JS**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
         if (oScript) {
-            oScript.setAttribute("data-sap-ui-cover-only", "['sap/ui/core/Popup.js', 'sap/ui/core/EventProvide']");
+            oScript.setAttribute("data-sap-ui-cover-only", "['sap/ui/core/Popup.js', 'sap/ui/core/EventProvider']");
         }
     ```
 
--   Limit test to a specific library:
+-   Limit instrumentation to a specific library:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
+    	data-sap-ui-cover-only="sap/ui/core/"
+    ></script>
+    ```
+
+    **JS**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -115,6 +114,16 @@ If you want to limit the test run, you can use the following code:
     ```
 
 -   Exclude specific objects:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
+    	data-sap-ui-cover-never="sap/ui/example/thirdparty/"
+    ></script>
+    ```
+
+    **JS**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -126,60 +135,37 @@ If you want to limit the test run, you can use the following code:
 
 ***
 
-### Blanket.js
+#### Results
+
+To view the results of the measurement, select the *Enable coverage* checkbox on the test page. This will trigger a new test run.
+
+In this example the coverage is limited to one specific file - the only one that is important for this test.
+
+ ![](images/loio8b7a4a50633747348ca16d4be8fb9b87_LowRes.png) 
 
 ***
 
-#### HTML
+### Blanket.js \(Legacy\)
 
-With the following line you enable `Blanket.js` to measure the code coverage:
+`Blanket.js` offers code coverage and instrumentation for JavaScript up to ECMAScript Language Specification 5. As of OpenUI5 version 1.113.0 code coverage measurement via [`Istanbul`](Code_Coverage_Measurement_7ef3242.md#loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL) is the recommended option.
+
+***
+
+#### Enablement
+
+You have two options to enable code coverage measurement by `Blanket.js`:
+
+**HTML**
+
+In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
 
 ```html
-<script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"></script>
+<script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"></script>
 ```
 
-With this argument, all files that are executed during the test run are added to the result.
+**JS**
 
-If you want to limit the test run, you can use the following code:
-
--   Limit test to a single file:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-only="sap/ui/core/Popup.js"
-    ></script>
-    ```
-
--   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
-    ></script>
-    ```
-
--   Limit test to a specific library:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-only="sap/ui/core/"
-    ></script>
-    ```
-
--   Exclude specific objects:
-
-    ```html
-    <script type="text/javascript" src="../../../../../resources/sap/ui/qunit/qunit-coverage.js"
-    	data-sap-ui-cover-never="sap/m/"
-    ></script>
-    ```
-
-
-***
-
-#### JavaScript
-
-Inside your test page, you can add these lines before running the tests:
+Inside your test page, you have to add these lines before running the tests:
 
 ```
 sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
@@ -187,9 +173,23 @@ sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
 });
 ```
 
-If you want to limit the test run, you can use the following code:
+***
 
--   Limit test to a single file:
+#### Configuration
+
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code:
+
+-   Limit instrumentation to a single file:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-only="sap/ui/core/Popup.js"
+    ></script>
+    ```
+
+    **JS**
 
     ```
     if (window.blanket) {
@@ -197,15 +197,35 @@ If you want to limit the test run, you can use the following code:
     }
     ```
 
--   Limit test to multiple files \(provide an array with comma-separated sources that should occur in the result\):
+-   Limit instrumentation to multiple files \(provide an array with comma-separated sources that should occur in the result\):
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-only="[sap/ui/core/Popup.js, sap/ui/core/EventProvider]"
+    ></script>
+    ```
+
+    **JS**
 
     ```
     if (window.blanket) {
-    	blanket.options("sap-ui-cover-only", "[sap/ui/core/Popup.js, sap/ui/core/EventProvide]");
+    	blanket.options("sap-ui-cover-only", "[sap/ui/core/Popup.js, sap/ui/core/EventProvider]");
     }
     ```
 
--   Limit test to a specific library:
+-   Limit instrumentation to a specific library:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-only="sap/ui/core/"
+    ></script>
+    ```
+
+    **JS**
 
     ```
     if (window.blanket) {
@@ -214,6 +234,16 @@ If you want to limit the test run, you can use the following code:
     ```
 
 -   Exclude specific objects:
+
+    **HTML**
+
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
+    	data-sap-ui-cover-never="sap/ui/example/thirdparty/"
+    ></script>
+    ```
+
+    **JS**
 
     ```
     if (window.blanket) {
@@ -224,28 +254,18 @@ If you want to limit the test run, you can use the following code:
 
 ***
 
-### Results
+#### Results
 
 To view the results of the measurement, select the *Enable coverage* checkbox on the test page. This will trigger a new test run.
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
-
-***
-
-#### Istanbul results
-
- ![](images/loio8b7a4a50633747348ca16d4be8fb9b87_LowRes.png) 
-
-***
-
-#### Blanket.js results
 
  ![](images/loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg) 
 
 **Related Information**  
 
 
-[`UI5 Middleware Instrumentation`](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-instrumentation)
+[`UI5 Middleware Code Coverage`](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage)
 
 [More information about `Blanket.js`](https://github.com/alex-seville/blanket/blob/master/docs/intermediate_browser.md)
 

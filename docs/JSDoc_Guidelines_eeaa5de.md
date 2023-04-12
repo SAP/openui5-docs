@@ -26,7 +26,7 @@ Here are some general principles for writing comments:
 
 -   For subclasses, document the inheritance by using an `@extends` tag in their constructor doclet.
 
--   Document at least public and protected methods with JSDoc, mark them as `@public` or `@protected`. For more information on these and other tags that determine the visibility of your method in the *API Reference*, see [JSDoc Visibility Tags](JSDoc_Visibility_Tags_b0d5fe2.md).
+-   Document at least public and protected methods with JSDoc, mark them as `@public` or `@protected`. For more information on these and other tags that determine the visibility of your method in the *API Reference*, see [Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md).
 
 -   Document method parameters with type \(in curly braces\) and parameter name \(in square brackets if optional\).
 
@@ -1249,11 +1249,4 @@ Refers to an annotation **within** a class
 </td>
 </tr>
 </table>
-
--   **[JSDoc Visibility Tags](JSDoc_Visibility_Tags_b0d5fe2.md "Tags such as @public or @private allow you to control the visibility of the JSDoc
-		documentation.")**  
-Tags such as `@public` or `@private` allow you to control the visibility of the JSDoc documentation.
--   **[Common Pitfalls in JSDoc](Common_Pitfalls_in_JSDoc_30671a0.md "The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined
-		below, these issues can be avoided.")**  
-The use of the JSDoc toolkit has some pitfalls. By following the guidelines outlined below, these issues can be avoided.
 

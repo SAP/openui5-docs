@@ -25,9 +25,9 @@ QUnit tests provide good support for asynchronous testing. These types of tests 
 
 -   **[Executing a QUnit Test](Executing_a_QUnit_Test_a9c949c.md "")**  
 
--   **[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage for your test inside the Control.qunit.html page either via HTML or JavaScript code
-		using a code coverage tool like Istanbul (default) or Blanket.js (legacy).")**  
-You can measure the code coverage for your test inside the `Control.qunit.html` page either via HTML or JavaScript code using a code coverage tool like `Istanbul` \(default\) or `Blanket.js` \(legacy\).
+-   **[Code Coverage Measurement](Code_Coverage_Measurement_7ef3242.md "You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like Istanbul (default)
+		or Blanket.js (legacy).")**  
+You can measure the code coverage either via HTML or JavaScript code using a code coverage tool like `Istanbul` \(default\) or `Blanket.js` \(legacy\).
 -   **[Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR](Sinon_JS_Spies_Stubs_Mocks_Faked_Timers_and_XHR_457eaad.md "By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the
 		official documentation at http://sinonjs.org/docs/.")**  
 By integrating Sinon.JS for QUnit, you can use spies, stubs, mocks, faked timers or faked XHR. For more information about using sinon.js, see the official documentation at `http://sinonjs.org/docs/`.
