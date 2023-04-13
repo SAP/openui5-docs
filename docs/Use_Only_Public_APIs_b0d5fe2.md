@@ -10,25 +10,20 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b0d5fe
 
 ## Use Only Public APIs
 
-Tags such as `@public` or `@private` allow you to control the visibility of the JSDoc documentation.
+OpenUI5 APIs are classified into different types. Only APIs of type `public` should be used by application developers.
 
- 
+All OpenUI5 APIs are assigned one of several possible types. App developers should only use `public` APIs, as compatibility is guaranteed only for these. APIs of type `protected` are not relevant for app developers; they are only relevant for library development. For example, they could be functions called by certain controls in control development.
 
-You can select from several block tags to determine if and how the JSDoc documentation for your API is displayed in the *API Reference*. The tag you choose also affects API usage and compatibility, namely
+The following table gives an overview over these API types:
 
--   whether your API is meant to be used in application development or OpenUI5 framework development,
--   whether you have to keep your API compatible. For more information, see [Compatibility Rules](Compatibility_Rules_91f0873.md).
-
-The following table gives an overview over the available tags:
-
-**Tags for Visibility**
+**API Types**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Tag
+API Type
 
 
 
@@ -42,14 +37,14 @@ Description
 </th>
 <th valign="top">
 
-Compatibility Required
+Compatibility Assured?
 
 
 
 </th>
 <th valign="top">
 
-Can be used by applications
+Can be used by applications?
 
 
 
@@ -72,7 +67,7 @@ Example
 <tr>
 <td valign="top">
 
- `@public` 
+ `public` 
 
 
 
@@ -114,7 +109,7 @@ Indicates that the API, such as a class or method, is generally available for ap
 <tr>
 <td valign="top">
 
- `@protected` 
+ `protected` 
 
 
 
@@ -158,7 +153,7 @@ The API might be used outside the relevant class or subclasses, but only in clos
 <tr>
 <td valign="top">
 
- `@private` 
+ `private` 
 
 
 
@@ -168,7 +163,7 @@ The API might be used outside the relevant class or subclasses, but only in clos
 Indicates that the API is not meant for use outside of OpenUI5 framework development. It won't be visible in the OpenUI5 documentation.
 
 > ### Note:  
-> If you also document private methods with JSDoc, mark them as `@private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this.
+> If you also document private methods with JSDoc, mark them as `private`. This is currently the default in OpenUI5, but not in JSDoc, so it is safer to explicitly specify this.
 
 
 
@@ -207,7 +202,7 @@ We recommend to use the underscore character "`_`" as a prefix for technical nam
 <tr>
 <td valign="top">
 
- `@ui5-restricted` 
+ `ui5-restricted` 
 
 
 
@@ -217,7 +212,7 @@ We recommend to use the underscore character "`_`" as a prefix for technical nam
 Indicates that the API is only meant for certain stakeholders within OpenUI5 framework development and won't be visible in the OpenUI5 documentation.
 
 > ### Note:  
-> `@ui5-restricted` should always be preceded by `@private`. This is to make sure that content isn't accidentally made public if an external JSDoc generator is used that doesn't recognize this tag.
+> `ui5-restricted` should always be preceded by `private`. This is to make sure that content isn't accidentally made public if an external JSDoc generator is used that doesn't recognize this tag.
 
 
 
@@ -262,14 +257,14 @@ in
 <tr>
 <td valign="top">
 
- `@sap-restricted` 
+ `sap-restricted` 
 
 
 
 </td>
 <td valign="top">
 
-Deprecated, replaced by `@ui5-restricted` 
+Deprecated, replaced by `ui5-restricted` 
 
 
 
@@ -312,5 +307,10 @@ Deprecated, replaced by `@ui5-restricted`
 If more than one of the above tags is used, the last one wins.
 
 > ### Note:  
-> The OpenUI5 documentation only includes APIs of categories `@public` and `@protected`.
+> The OpenUI5 documentation only includes APIs of categories `public` and `protected`.
+
+**Related Information**  
+
+
+[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.")
 

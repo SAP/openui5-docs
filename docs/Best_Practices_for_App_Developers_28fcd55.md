@@ -48,9 +48,9 @@ If you keep the IDs of controls, elements, and components stable, you can be sur
 CSP stands for Content Security Policy and is a security standard to prevent cross-site scripting or other code injection attacks.
 -   **[Use Asynchronous Loading](Use_Asynchronous_Loading_676b636.md "Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.")**  
 Asynchronous loading is the way to go: It makes your applications a lot faster and, through that, better to use.
--   **[Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md "Tags such as @public or @private allow you to control the visibility of the JSDoc
-		documentation.")**  
-Tags such as `@public` or `@private` allow you to control the visibility of the JSDoc documentation.
+-   **[Use Only Public APIs](Use_Only_Public_APIs_b0d5fe2.md "OpenUI5 APIs are classified into different types. Only APIs of type
+			public should be used by application developers.")**  
+OpenUI5 APIs are classified into different types. Only APIs of type `public` should be used by application developers.
 -   **[Is Your Application Ready for Asynchronous Loading?](Is_Your_Application_Ready_for_Asynchronous_Loading_493a15a.md "Find a collection of information that helps you to find out if your application is ready
 		for asynchronous loading.")**  
 Find a collection of information that helps you to find out if your application is ready for asynchronous loading.

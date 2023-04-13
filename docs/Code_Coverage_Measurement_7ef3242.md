@@ -20,11 +20,11 @@ You can measure the code coverage either via HTML or JavaScript code using a cod
 
 `Istanbul` offers code coverage and instrumentation for JavaScript files. It also supports branching and correctly identifies visited scopes in conditional clauses.
 
-[UI5 Middleware Code Coverage](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage) is a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) middleware that enables [`Istanbul`](https://istanbul.js.org/) in UI5 Tooling.
+[UI5 Middleware Code Coverage](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/middleware-code-coverage) is a [UI5 server](https://sap.github.io/ui5-tooling/stable/pages/Server/) middleware that enables [`Istanbul`](https://istanbul.js.org/) in UI5 Tooling.
 
 If you use UI5 Tooling's `ui5 serve`, you would need to enable it in `ui5.yaml` and `package.json` of your project.
 
-For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage).
+For more information, see the [documentation](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/middleware-code-coverage).
 
 ***
 
@@ -32,33 +32,34 @@ For more information, see the [documentation](https://github.com/SAP/ui5-tooling
 
 You have two options to enable code coverage measurement by `Istanbul`:
 
-**HTML**
+-   **HTML:**
 
-In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
+    In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
 
-```html
-<script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"></script>
-```
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"></script>
+    ```
 
-**JS**
+-   **JS:**
 
-Inside your test page, you have to add these lines before running the tests:
+    Inside your test page, you have to add these lines before running the tests:
 
-```
-sap.ui.require(["sap/ui/qunit/qunit-coverage-istanbul"], function(/*coverage*/){
-    // code
-});
-```
+    ```
+    sap.ui.require(["sap/ui/qunit/qunit-coverage-istanbul"], function(/*coverage*/){
+        // code
+    });
+    ```
+
 
 ***
 
 #### Configuration
 
-By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code:
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(either the HTML or the JS option\):
 
 -   Limit instrumentation to a single file:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
@@ -66,7 +67,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -77,7 +78,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Limit instrumentation to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
@@ -85,7 +86,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -96,7 +97,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Limit instrumentation to a specific library:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
@@ -104,7 +105,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -115,7 +116,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Exclude specific objects:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage-istanbul.js"
@@ -123,7 +124,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
         var oScript = document.querySelector('script[src$="qunit/qunit-coverage-istanbul.js"]');
@@ -147,7 +148,7 @@ In this example the coverage is limited to one specific file - the only one that
 
 ### Blanket.js \(Legacy\)
 
-`Blanket.js` offers code coverage and instrumentation for JavaScript up to ECMAScript Language Specification 5. As of OpenUI5 version 1.113.0 code coverage measurement via [`Istanbul`](Code_Coverage_Measurement_7ef3242.md#loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL) is the recommended option.
+`Blanket.js` offers code coverage and instrumentation for JavaScript up to ECMAScript Language Specification 5. As of OpenUI5 version 1.113.0, code coverage measurement via [`Istanbul`](Code_Coverage_Measurement_7ef3242.md#loio7ef32428dc7c4c048a8d7e8de0a556fb__section_STAMBUL) is the recommended option.
 
 ***
 
@@ -155,33 +156,34 @@ In this example the coverage is limited to one specific file - the only one that
 
 You have two options to enable code coverage measurement by `Blanket.js`:
 
-**HTML**
+-   **HTML**
 
-In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
+    In your HTML file bootstrapping your tests, you have to add the following line to the head tag:
 
-```html
-<script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"></script>
-```
+    ```html
+    <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"></script>
+    ```
 
-**JS**
+-   **JS**
 
-Inside your test page, you have to add these lines before running the tests:
+    Inside your test page, you have to add these lines before running the tests:
 
-```
-sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
-    // code
-});
-```
+    ```
+    sap.ui.require(["sap/ui/qunit/qunit-coverage"], function(/*coverage*/){
+        // code
+    });
+    ```
+
 
 ***
 
 #### Configuration
 
-By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code:
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(either the HTML or the JS option\):
 
 -   Limit instrumentation to a single file:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
@@ -189,7 +191,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
     if (window.blanket) {
@@ -199,7 +201,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Limit instrumentation to multiple files \(provide an array with comma-separated sources that should occur in the result\):
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
@@ -207,7 +209,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
     if (window.blanket) {
@@ -217,7 +219,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Limit instrumentation to a specific library:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
@@ -225,7 +227,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
     if (window.blanket) {
@@ -235,7 +237,7 @@ By default all files that are executed during the test run are instrumented and 
 
 -   Exclude specific objects:
 
-    **HTML**
+    **HTML:**
 
     ```html
     <script type="text/javascript" src="../../resources/sap/ui/qunit/qunit-coverage.js"
@@ -243,7 +245,7 @@ By default all files that are executed during the test run are instrumented and 
     ></script>
     ```
 
-    **JS**
+    **JS:**
 
     ```
     if (window.blanket) {
@@ -265,7 +267,7 @@ In this example the coverage is limited to one specific file - the only one that
 **Related Information**  
 
 
-[`UI5 Middleware Code Coverage`](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/ui5-middleware-code-coverage)
+[`UI5 Middleware Code Coverage`](https://github.com/SAP/ui5-tooling-extensions/tree/main/packages/middleware-code-coverage)
 
 [More information about `Blanket.js`](https://github.com/alex-seville/blanket/blob/master/docs/intermediate_browser.md)
 
