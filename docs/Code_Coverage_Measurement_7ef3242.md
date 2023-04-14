@@ -55,7 +55,7 @@ You have two options to enable code coverage measurement by `Istanbul`:
 
 #### Configuration
 
-By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(either the HTML or the JS option\):
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(use either the HTML or the JS option\):
 
 -   Limit instrumentation to a single file:
 
@@ -179,7 +179,7 @@ You have two options to enable code coverage measurement by `Blanket.js`:
 
 #### Configuration
 
-By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(either the HTML or the JS option\):
+By default all files that are executed during the test run are instrumented and added to the result. If you would like to limit the instrumented files, you can use the following code \(use either the HTML or the JS option\):
 
 -   Limit instrumentation to a single file:
 
