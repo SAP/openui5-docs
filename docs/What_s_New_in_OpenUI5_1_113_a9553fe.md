@@ -803,6 +803,116 @@ We have introduced a new `fetchWaiter`, which checks for currently ongoing fetch
 </td>
 <td valign="top">
 
+ **`sap.m.SuggestionsPopover`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.SuggestionsPopover`**
+
+We have restricted the width of input suggestions to a maximum of 40 rem for optimal user experience. Limiting the width of suggestions allows users to easily scan and select options. However, if the input field is wider than 40 rem, the width of the suggestions matches the input’s width.
+
+<sub>Changed•Control•Info Only•1.113</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-20
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.113 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.m.IllustratedMessage`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.IllustratedMessage`**
+
+We have introduced a new `Survey` illustration type and four new illustrations to the default illustration set: `sapIllus-Dialog-NoColumnsSet`, `sapIllus-Dot-NoColumnsSet`, `sapIllus-Scene-NoColumnsSet`, and `sapIllus-Spot-NoColumnsSet`. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.IllustratedMessage). 
+
+<sub>Changed•Control•Info Only•1.113</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-04-20
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.113 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
  **`sap.ui.unified.FileUploader`** 
 
 
@@ -926,7 +1036,7 @@ We have implemented an **enabled** property to the Side Panel item, which disabl
 
 **`sap.m.SinglePlanningCalendar`**
 
-We have implemented a new mode to select one or more dates in **SinglePlanningCalendar**. Тhe single day option is enabled by default, the multi-date selection option is possible by using a key combination \( [Ctrl\] + [Meta key\] + [Slect\] + [the dates\] \) or by activating the new **MultiDateSelectionMode** property.
+We have implemented a new mode to select one or more dates in **SinglePlanningCalendar**. Тhe single day option is enabled by default, the multi-date selection option is possible by using a key combination \( [Ctrl\] + [Meta key\]  and select the dates\) or by activating the new **MultiDateSelectionMode** property.
 
  For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendarDateSelection). 
 
