@@ -356,6 +356,47 @@ You can further optimize your code by doing the following:
 -   Please ensure the application does not block the rendering while waiting for back-end requests to respond. Waiting for data before rendering anything is not the favored user experience. It is recommended to load data asynchronously and already render the page while the request is pending. Mostly, the requests won't fail, and if they do, it is better to show an error or to navigate to an error page.
 -   If an `XML Preprocessor` is used, we recommend to use the [XML View Cache](XML_View_Cache_3d85d5e.md). If configured in the XML View and with a properly implemented key provider \(for invalidation\), it is able to cache already processed XML View Preprocessor results.
 
+***
+
+<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_gpz_4ky_2xb"/>
+
+### View Lazy Loading in the Object Page Component
+
+Object page components represents a 360-degree information about a business object. Some of these objects are very complex and require multiple subsections to represent them on UI. Based on the object type, in some cases there will be multiple subsections but only a subset of them is visible on the UI. SAP UI5 renders the control even if they're invisible on UI.
+
+SAP Fiori elements applications are smart enough to fetch the data only for the sections that are visible on the viewport. A viewport is the actual visible area of your screen along with an additional buffer to ensure smooth scrolling of the data.
+
+This smartness by the Fiori elements ensures retrieval of scalable data and improved performance. In the case of complex object pages, this isn't enough as the rendering of these sections is done the first time when the object page is opened.
+
+To optimize, the object page control enables stashing of subsections that are outside the viewport. Stashing a feature control is created on the DOM only if its stashed property is set to true.
+
+This feature is known as view lazy loading in the object page component. In SAP Fiori elements for OData V2, this feature is available as an option. It must be chosen in applications that have created extension coding, which requires adoption. Therefore, the application must opt for this feature and if required, adopt the extension logic for consumption.
+
+***
+
+#### Configuring Lazy Loading
+
+In the ObjectPage settings, under the pages section, add a new configuration object named “renderingBehaviour”. In this object, define a property “waitForViewportEnter” & set to true as shown below.
+
+Note- code sample to be added
+
+> ### Note:  
+> You must clear the cache before checking the changes made to the settings. The changes are reflected only after the view generation is triggered.
+> 
+> It is not required to perform this action on the production system as the cache is invalidated automatically once the change is made to the `manifest.json` file.
+
+***
+
+#### Adoption in Extension Logic
+
+If the application is accessing the UI5 controls using `ID` in the `init` method of the controller extension, it may occur that these controls may or may not work going forward. This means that the retrieval of the control depends on whether the parent subsection is in the view port.
+
+In the case of non-dependency, the control may get initialized later when the subsection appears on the viewport.
+
+Therefore, the initialization code which exist in the `init` method must be pushed and extension method `onSubSectionEnteredExtension`. For more information, see [https://sdk.openui5.org/\#/api/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions%23methods/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions.onSubSectionEnteredExtension](https://sdk.openui5.org/api/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions%23methods/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions.onSubSectionEnteredExtension)
+
+This method is invoked by Fiori elements whenever the subsection appears on the viewport. Application developers can check for the control whether it appears in the required subsection and initialize the same.
+
 **Related Information**  
 
 
