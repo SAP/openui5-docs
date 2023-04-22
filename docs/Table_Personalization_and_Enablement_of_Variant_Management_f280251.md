@@ -60,7 +60,7 @@ The table personalization concept is based on the following artifacts:
 
 When enabling a control for personalization, you need to register the control once using the `sap.m.p13n.Engine#register` method. `sap.m.p13n.MetadataHelper` is required to provide metadata-relevant information for the engine. It needs to be initialized with an array of objects that have to provide the following information:
 
-****
+**Required Properties**
 
 
 <table>
@@ -127,7 +127,7 @@ The key associated to the item. Usually, the same ID is provided for the related
 </td>
 <td valign="top">
 
- 
+The text that is displayed in the personalization dialog.
 
 
 
@@ -150,7 +150,7 @@ The key associated to the item. Usually, the same ID is provided for the related
 </td>
 <td valign="top">
 
- 
+The model path to create filters, groupings, and sorters.
 
 
 
@@ -173,7 +173,7 @@ The key associated to the item. Usually, the same ID is provided for the related
 </td>
 <td valign="top">
 
- 
+Default value is `true`. Hides an item from `SelectionPanel` in the personalization if set to `false`.
 
 
 
@@ -196,7 +196,7 @@ The key associated to the item. Usually, the same ID is provided for the related
 </td>
 <td valign="top">
 
- 
+Default value is `true`. Hides an item from `SortPanel` in the personalization if set to `false`.
 
 
 
@@ -219,7 +219,7 @@ The key associated to the item. Usually, the same ID is provided for the related
 </td>
 <td valign="top">
 
- 
+Default value is `true`. Hides an item from `GroupPanel` in the personalization if set to `false`.
 
 
 
@@ -301,7 +301,46 @@ Engine.getInstance().show(oTable, ["Columns", "Sorter", "Groups"], {
 
 ### Handling of State Changes
 
-Whenever a personalization state changes \(most likely when the user creates changes in the personalization popup provided by `sap.m.p13n.Engine#show`\), an event is triggered by the engine. This event can then be used to create application-specific implementations by registering via `sap.m.p13n.Engine#attachStateChange`. This event will provide an object of the state after the user created personalization changes. An exampe implementation for a table could look as follows:
+Whenever a personalization state changes \(most likely when the user creates changes in the personalization popup provided by `sap.m.p13n.Engine#show`\), an event is triggered by the engine. This event can then be used to create application-specific implementations by registering via `sap.m.p13n.Engine#attachStateChange`. This event will provide an object of the state after the user created personalization changes. An exampe implementation for a table might look as follows:
+
+```js
+
+//Registration of the event handler
+Engine.getInstance().attachStateChange(function(){
+
+    //The new control state after the personalization
+    var oState = oEvt.getParameter("state");
+
+    //--> The following lines are meant to process the personalization state by toggling the table columns and recreating the binding and template. this is just a demo implementation. The sorters and groupings can be created in a similar approach, also see the more detailed exmaple linked below.
+
+    oTable.getColumns().forEach(function(oColumn, iIndex){
+        oColumn.setVisible(false);
+    });
+
+    oState.Columns.forEach(function(oProp, iIndex){
+        var oCol = this.byId(oProp.key);
+        oCol.setVisible(true);
+
+        oTable.removeColumn(oCol);
+        oTable.insertColumn(oCol, iIndex);
+    }.bind(this));
+
+    var aCells = oState.Columns.map(function(oColumnState) {
+        return new Text({
+            text: "{" + oColumnState.key + "}"
+        });
+    });
+
+    oTable.bindItems({
+        templateShareable: false,
+        path: '/items',
+        sorter: aSorter,
+        template: new ColumnListItem({
+            cells: aCells
+        })
+    });
+});
+```
 
 ***
 
@@ -313,9 +352,41 @@ The personalization engine also provides capabilities to programatically apply p
 
 In this case, the `sap.m.p13n.Engine#retrieveState` and `sap.m.p13n.Engine#applyState` methods can be used to modify and persist personalization changes without a personalization UI.
 
+> ### Note:  
+> These changes are then also part of the currently selected variant.
+
+```js
+
+onSort: function(oEvt) {
+
+    var oTable = this.byId("persoTable");
+    var sAffectedProperty = oEvt.getParameter("column").getSortProperty();
+    var sSortOrder = oEvt.getParameter("sortOrder");
+
+    //Apply the state programatically on sorting through the column menu
+    //1) Retrieve the current personalization state
+    Engine.getInstance().retrieveState(oTable).then(function(oState){
+
+        //2) Modify the existing personalization state
+        oState.Sorter.forEach(function(oSorter){
+            oSorter.sorted = false;
+        });
+        oState.Sorter.push({
+            key: sAffectedProperty,
+            descending:  sSortOrder === tableLibrary.SortOrder.Descending
+        });
+
+        //3) Apply the modified personalization state to persist it in the VariantManagement
+        Engine.getInstance().applyState(oTable, oState);
+    });
+}
+```
+
+Whenever a value is provided in the `applyState` method, this value is applied in an additive manner. Therefore the appliance does not work like a full snapshot by replacing the values but only by removing entries.
+
 The following properties can be used per controller to remove a state entry:
 
-****
+**Controller Types**
 
 
 <table>
@@ -419,5 +490,5 @@ Type
 
 ### Persistence
 
-Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made.
+Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made. For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f1430c0337534d469da3a56307ff76af.html "Here&apos;s what you have to consider when developing apps that support UI adaptation.") :arrow_upper_right:.
 
