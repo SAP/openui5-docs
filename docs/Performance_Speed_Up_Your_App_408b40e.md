@@ -376,9 +376,34 @@ This feature is known as view lazy loading in the object page component. In SAP 
 
 #### Configuring Lazy Loading
 
-In the ObjectPage settings, under the pages section, add a new configuration object named “renderingBehaviour”. In this object, define a property “waitForViewportEnter” & set to true as shown below.
+In the ObjectPage settings, under the pages section, add a new configuration object named “renderingBehaviour”. In this object, define a property “waitForViewportEnter” & set to true as shown in the sample code below.
 
-Note- code sample to be added
+> ### Sample Code:  
+> ```
+>  "pages": {
+>                     "ObjectPage|STTA_C_MP_Product": {
+>                         "entitySet": "STTA_C_MP_Product",
+>                         "component": {
+>                             "name": "sap.suite.ui.generic.template.ObjectPage",
+>                             "settings": {
+>                                 "showRelatedApps": true,
+>                                 "tableType": "ResponsiveTable",
+>                                 "editableHeaderContent": true,
+>                                 "showConfirmationOnDraftActivate": true,
+>                                 "renderingBehavior": {
+>                                     "waitForViewportEnter": true
+>                                 },
+>                                 "sections": {
+>                                     "to_ProductText::com.sap.vocabularies.UI.v1.LineItem": {
+>                                         "navigationProperty": "to_ProductText",
+>                                         "entitySet": "STTA_C_MP_ProductText",
+>                                         "multiSelect": true,
+>                                         "createMode": "inline",
+>                                         "tableSettings": {
+>                                             "variantManagement": true
+>                                         }
+>                                     },
+> ```
 
 > ### Note:  
 > You must clear the cache before checking the changes made to the settings. The changes are reflected only after the view generation is triggered.
