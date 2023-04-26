@@ -74,6 +74,7 @@
             -   [UI5-TypeScript](The_UI5_Ecosystem_b72ccb5.md#loioab4f18de7652442da85fc08b38a8a8ce)
             -   [wdi5](The_UI5_Ecosystem_b72ccb5.md#loiof92b537272ba43abbfc157ba4ec8f010)
             -   [Best of UI5](The_UI5_Ecosystem_b72ccb5.md#loio23a0a11a88df42578b5baae11c06a89b)
+        -   [TypeScript in OpenUI5 \(Do not push\)](TypeScript_in_OpenUI5_Do_not_push_a7ee961.md)
         -   [Compatibility Rules](Compatibility_Rules_91f0873.md)
         -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)
             -   [Visual Degradations](Visual_Degradations_f08f296.md)
