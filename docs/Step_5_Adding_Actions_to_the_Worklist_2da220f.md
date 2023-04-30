@@ -278,7 +278,7 @@ Add the missing texts for the buttons and the message toast.
 
 Save the changes and run the application again. Try the *Order* and *Remove* buttons with one or more products selected. The stock value will be increased or the product will be \(temporarily\) removed from the worklist table. Since all of our changes happen on a local mock server, we can simply reload the app to reset the data again.
 
-**Parent topic:** [Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
 **Next:** [Step 4: Quick Filter for the Worklist](Step_4_Quick_Filter_for_the_Worklist_85ec3a9.md "For easily detecting and managing product shortages in our app, we will add a quick filter for the worklist table. Users can press the filter tabs to display the products according to whether they are in stock, have low stock or no stock. The table will update accordingly and show only the products matching the criteria.")
 

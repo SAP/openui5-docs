@@ -100,7 +100,7 @@ This makes debugging harder because the code is a lot less readable. You can loa
 
  ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
 
-For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting](Troubleshooting_5661952.md) tutorial.
+For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md) tutorial.
 
 If you're stuck and need help for some development task, you can also post a question in the OpenUI5-related forums, for example in the [SAP Community](https://www.sap.com/community/topic/ui5.html) or on [Stack Overflow](https://stackoverflow.com/search?q=sapui5).
 
@@ -113,7 +113,7 @@ If you're stuck and need help for some development task, you can also post a que
 -   As per OpenUI5 convention uncompressed source files end with `*-dbg.js`
 
 
-**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:** [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
 

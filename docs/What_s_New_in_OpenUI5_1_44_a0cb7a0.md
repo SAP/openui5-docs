@@ -1026,7 +1026,7 @@ The sorting and filtering feature has been enhanced. You can now also display th
 
 **Testing Tutorial**
 
-The **Testing** tutorial has been enhanced with two additional steps. For more information, see [Testing](Testing_291c912.md).
+The **Testing** tutorial has been enhanced with two additional steps. For more information, see [Testing Tutorial](Testing_Tutorial_291c912.md).
 
 <sub>Changed•User Documentation•Info Only•1.44</sub>
 

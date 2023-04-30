@@ -321,7 +321,7 @@ Finally, we modify the existing column names in the resource bundle file `webapp
 > 
 > 3.  Now choose from the different devices in the *Models* field, and observe the behavior of your app.
 
-**Parent topic:** [Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
 **Next:** [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
 

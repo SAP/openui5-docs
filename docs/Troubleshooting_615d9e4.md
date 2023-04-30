@@ -249,5 +249,5 @@ This section contains the most common issues that you might face when developing
 **Related Information**  
 
 
-[Troubleshooting Tutorial](Troubleshooting_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+[Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 

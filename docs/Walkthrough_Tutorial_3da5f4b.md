@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3da5f4be63264db99f2e5b04c5e853db) | [demo kit latest release](https://sdk.openui5.org/topic/3da5f4be63264db99f2e5b04c5e853db)</div>
 
-## Walkthrough
+## Walkthrough Tutorial
 
 In this tutorial we will introduce you to all major development paradigms of OpenUI5.
 

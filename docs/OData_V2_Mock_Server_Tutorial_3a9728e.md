@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3a9728ec31f94ca18a7d543ce419d85d) | [demo kit latest release](https://sdk.openui5.org/topic/3a9728ec31f94ca18a7d543ce419d85d)</div>
 
-## OData V2 Mock Server
+## OData V2 Mock Server Tutorial
 
 In this tutorial, we will explore some advanced features of the OData V2 mock server.
 
@@ -44,7 +44,7 @@ Additionally, we will demonstrate how to mock an additional request that is not 
 
 This tutorial assumes you have access to the SAP Business Application Studio. For more information, see [App Development Using SAP Business Application Studio](App_Development_Using_SAP_Business_Application_Studio_6bbad66.md).
 
-You should also be familiar with the concepts explained in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial and with the OData specification.
+You should also be familiar with the concepts explained in the [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md) tutorial and with the OData specification.
 
 1.  [Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md "We start with a simple app scenario with a list of items bound to an OData V2
 		service. Since the OData V2 service is not available yet on a real server, we will use the

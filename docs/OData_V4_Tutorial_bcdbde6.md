@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bcdbde6911bd4fc68fd435cf8e306ed0) | [demo kit latest release](https://sdk.openui5.org/topic/bcdbde6911bd4fc68fd435cf8e306ed0)</div>
 
-## OData V4
+## OData V4 Tutorial
 
 In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.
 

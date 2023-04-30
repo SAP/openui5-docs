@@ -1571,7 +1571,7 @@ The new `titleSelectorTooltip` aggregation now enables you to set a custom toolt
 
 **New Tutorial**
 
-We have a new tutorial: [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md). In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
+We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md). In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the latest SAP Fiori design guidelines.
 
 <sub>Changed•User Documentation•Info Only•1.56</sub>
 

@@ -1502,9 +1502,9 @@ The documentation for QUnit testing has been updated and aligned with the new QU
 
 We have updated the following tutorials:
 
--   [Data Binding](Data_Binding_e531093.md)
+-   [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md)
 
--   [Walkthrough](Walkthrough_3da5f4b.md)
+-   [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md)
 
 
 <sub>Changed•User Documentation•Info Only•1.42</sub>

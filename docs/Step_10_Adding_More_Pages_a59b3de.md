@@ -189,7 +189,7 @@ sap.ui.define([
 
 Finally, we add a `handleAboutPress` function in the detail-detail page controller to navigate to the additional page without passing any data this time.
 
-**Parent topic:** [Flexible Column Layout App](Flexible_Column_Layout_App_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
 **Next:** [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
 

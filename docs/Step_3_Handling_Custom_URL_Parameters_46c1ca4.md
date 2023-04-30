@@ -93,7 +93,7 @@ First, we create a callback function that we later attach to every `GET` request
 
 Second, we attach the callback to every `GET` request to the specific `Meetups` entity set.
 
-**Parent topic:** [OData V2 Mock Server](OData_V2_Mock_Server_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+**Parent topic:** [OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
 **Next:** [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
 

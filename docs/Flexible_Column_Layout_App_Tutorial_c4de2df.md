@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c4de2df385174e58a689d9847c7553bd) | [demo kit latest release](https://sdk.openui5.org/topic/c4de2df385174e58a689d9847c7553bd)</div>
 
-## Flexible Column Layout App
+## Flexible Column Layout App Tutorial
 
 In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.
 

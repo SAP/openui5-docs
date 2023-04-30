@@ -101,7 +101,7 @@ This implementation is a bit better than the browser’s back button for our use
 -   Add a path to go back to the parent page when the history state is unclear.
 
 
-**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:** [Step 31: Routing with Parameters](Step_31_Routing_with_Parameters_2366345.md "We can now navigate between the overview and the detail page, but the actual item that we selected in the overview is not displayed on the detail page yet. A typical use case for our app is to show additional information for the selected item on the detail page.")
 

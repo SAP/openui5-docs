@@ -971,7 +971,7 @@ Some of these concepts use new APIs that have been available since OpenUI5 relea
 
 **New Quick Start Tutorial**
 
-We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quick Start](Quick_Start_592f36f.md).
+We have replaced the Hello World! tutorial with a new Quick Start tutorial that showcases the key features of OpenUI5 in three simple steps. For more information, see [Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md).
 
 <sub>Changed•User Documentation•Info Only•1.61</sub>
 

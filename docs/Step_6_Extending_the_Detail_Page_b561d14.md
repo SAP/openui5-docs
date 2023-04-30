@@ -181,7 +181,7 @@ As before, we add new i18n texts to the resource bundle.
 
 Save all the changes and run the application. Click on any product and see the product details displayed on the detail page.
 
-**Parent topic:** [Worklist App](Worklist_App_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
 **Next:** [Step 5: Adding Actions to the Worklist](Step_5_Adding_Actions_to_the_Worklist_2da220f.md "Now we can easily spot shortages on our stock, but we would also like to take action and resolve it. Either we can decide to remove the product until the shortage is resolved or order new items of the product. In this step, we will add these actions to the footer of the worklist table.")
 

@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/291c9121e6044ab381e0b51716f97f52) | [demo kit latest release](https://sdk.openui5.org/topic/291c9121e6044ab381e0b51716f97f52)</div>
 
-## Testing
+## Testing Tutorial
 
 In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development \(TDD\), and much more.
 

@@ -182,7 +182,7 @@ The main features of the tool are:
 
 For more information, see [Support Assistant](Support_Assistant_57ccd7d.md).
 
-We have also redesigned the other support tools, *Technical Information Dialog* and *Diagnostics*, reworked the [Troubleshooting](Troubleshooting_615d9e4.md) documentation section under *Essentials*, and created a [Troubleshooting](Troubleshooting_5661952.md) tutorial.
+We have also redesigned the other support tools, *Technical Information Dialog* and *Diagnostics*, reworked the [Troubleshooting](Troubleshooting_615d9e4.md) documentation section under *Essentials*, and created a [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md) tutorial.
 
 <sub>New•Feature•Info Only•1.48</sub>
 
@@ -1576,7 +1576,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 In addition to the documentation for new features, the following changes have been applied to the documentation:
 
--   New tutorial: [Troubleshooting](Troubleshooting_5661952.md)
+-   New tutorial: [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md)
 
 -   Reworked [Troubleshooting](Troubleshooting_615d9e4.md) section
 

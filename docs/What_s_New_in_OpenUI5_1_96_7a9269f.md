@@ -332,7 +332,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 -   You can now specify `$select` in addition to the `$$inheritExpandSelect` binding parameter of [OData Operations](OData_Operations_b54f789.md).
 
--   We have complemented the [OData V4 Tutorial](OData_V4_bcdbde6.md) with additional chapters showing how to reuse data in a list-detail scenario.
+-   We have complemented the [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md) with additional chapters showing how to reuse data in a list-detail scenario.
 
 -   You can now use [`Common.ValueListWithFixedValues`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L672:~:text=%3CTerm%20Name=%22-,ValueListWithFixedValues,-%22) in combination with [`Common.ValueListRelevantQualifiers`](https://github.com/SAP/odata-vocabularies/blob/main/vocabularies/Common.xml#L666:~:text=%3CTerm%20Name=%22-,ValueListRelevantQualifiers,-%22) if only one value list qualifier is relevant at a time. The `sap.ui.model.odata.v4.ODataMetaModel#requestValueListInfo` method returns the relevant value list for the `""` qualifier and provides the original qualifier as the `$qualifier` property of the value list mapping.
 

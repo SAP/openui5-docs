@@ -31,7 +31,7 @@ In this step, we will take a look at the prototype and define the test strategy 
 
 To set up your project for this tutorial, download the files for *Step 1* from the *Samples* in the Demo Kit at [Testing - Step 1](https://sdk.openui5.org/entity/sap.m.tutorial.testing/sample/sap.m.tutorial.testing.01). Copy the code to your workspace and make sure that the application runs by calling the `webapp/test/mockServer.html` file.
 
-Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_3da5f4b.md) tutorial.
+Depending on your development environment, you might have to adjust resource paths and configuration entries. The project structure and the files provided with this tutorial are explained in detail in the [Walkthrough](Walkthrough_Tutorial_3da5f4b.md) tutorial.
 
 After downloading *Step 1*, you should have the following files:
 
@@ -156,7 +156,7 @@ There might still be features that are hard to test with these client-side testi
 -   Provide a local test page that triggers the app in test mode with mock data \(`test/mockServer.html`\)
 
 
-**Parent topic:** [Testing](Testing_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
 **Previous:** [Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md "In this step we will analyze the unit testing infrastructure and write a first unit test.")
 
@@ -171,5 +171,5 @@ There might still be features that are hard to test with these client-side testi
 
 [Mock Server](Mock_Server_69d3cbd.md "A mock server mimics one or more back-end services. It is used to simplify integration testing and to decouple UI development from service development. By using a mock server you can develop and test the UI even if the service in the back end is incomplete or unstable.")
 
-[Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 

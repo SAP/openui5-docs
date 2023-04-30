@@ -70,7 +70,7 @@ The OpenUI5 core will make sure that the `data-sap-ui-oninit` module is loaded a
 
 Additionally, a dedicated `oninit` module allows for better [CSP compliance](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) depending on your requirements, since no additional inline `<script>` tag is needed.
 
-Please also have a look at our tutorial section, including the [Quick Start](Quick_Start_592f36f.md) tutorial for a broader sample.
+Please also have a look at our tutorial section, including the [Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md) tutorial for a broader sample.
 
 ***
 

@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6a6a621c978145ad9eef2b221d2cf21d) | [demo kit latest release](https://sdk.openui5.org/topic/6a6a621c978145ad9eef2b221d2cf21d)</div>
 
-## Worklist App
+## Worklist App Tutorial
 
 In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.
 

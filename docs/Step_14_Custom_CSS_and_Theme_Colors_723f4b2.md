@@ -137,7 +137,7 @@ The actual color now depends on the selected theme which ensures that the color 
 -   Do not specify colors in custom CSS but use the standard theme-dependent classes instead.
 
 
-**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:** [Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_17b87fb.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
 

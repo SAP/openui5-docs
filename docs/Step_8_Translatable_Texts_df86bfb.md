@@ -131,7 +131,7 @@ In the XML view, we use data binding to connect the button text to the `showHell
 -   Use Unicode escape sequences for special characters.
 
 
-**Parent topic:** [Walkthrough](Walkthrough_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:** [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
 

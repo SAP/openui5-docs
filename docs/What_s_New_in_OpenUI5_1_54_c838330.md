@@ -1873,7 +1873,7 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 
 **Documentation Updates**
 
--   We have a new tutorial: [OData V4](OData_V4_bcdbde6.md).
+-   We have a new tutorial: [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md).
 
 -   We have reworked the [Data Binding](Data_Binding_68b9644.md) section under *Essentials*.
 

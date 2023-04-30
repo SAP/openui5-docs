@@ -287,8 +287,8 @@
 			"Get Started: Setup, Tutorials, and Demo Apps": {
 				"link": "Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md",
 				"items": {
-					"Quick Start": {
-						"link": "Quick_Start_592f36f.md",
+					"Quick Start Tutorial": {
+						"link": "Quick_Start_Tutorial_592f36f.md",
 						"items": {
 							"Step 1: Ready...": {
 								"link": "Step_1_Ready_851bde4.md"
@@ -301,8 +301,8 @@
 							}
 						}
 					},
-					"Walkthrough": {
-						"link": "Walkthrough_3da5f4b.md",
+					"Walkthrough Tutorial": {
+						"link": "Walkthrough_Tutorial_3da5f4b.md",
 						"items": {
 							"Step 1: Hello World!": {
 								"link": "Step_1_Hello_World_2680aa9.md"
@@ -417,8 +417,8 @@
 							}
 						}
 					},
-					"Troubleshooting": {
-						"link": "Troubleshooting_5661952.md",
+					"Troubleshooting Tutorial": {
+						"link": "Troubleshooting_Tutorial_5661952.md",
 						"items": {
 							"Step 1: Browser Developer Tools": {
 								"link": "Step_1_Browser_Developer_Tools_eadd60a.md"
@@ -454,8 +454,8 @@
 							}
 						}
 					},
-					"Data Binding": {
-						"link": "Data_Binding_e531093.md",
+					"Data Binding Tutorial": {
+						"link": "Data_Binding_Tutorial_e531093.md",
 						"items": {
 							"Step 1: No Data Binding": {
 								"link": "Step_1_No_Data_Binding_4cde849.md"
@@ -504,8 +504,8 @@
 							}
 						}
 					},
-					"OData V4": {
-						"link": "OData_V4_bcdbde6.md",
+					"OData V4 Tutorial": {
+						"link": "OData_V4_Tutorial_bcdbde6.md",
 						"items": {
 							"Step 1: The Initial App": {
 								"link": "Step_1_The_Initial_App_15d84f3.md"
@@ -542,8 +542,8 @@
 							}
 						}
 					},
-					"Navigation and Routing": {
-						"link": "Navigation_and_Routing_1b6dcd3.md",
+					"Navigation and Routing Tutorial": {
+						"link": "Navigation_and_Routing_Tutorial_1b6dcd3.md",
 						"items": {
 							"Step 1: Set Up the Initial App": {
 								"link": "Step_1_Set_Up_the_Initial_App_df245bd.md"
@@ -598,8 +598,8 @@
 							}
 						}
 					},
-					"Testing": {
-						"link": "Testing_291c912.md",
+					"Testing Tutorial": {
+						"link": "Testing_Tutorial_291c912.md",
 						"items": {
 							"Step 1: Overview and Testing Strategy": {
 								"link": "Step_1_Overview_and_Testing_Strategy_ab134ef.md"
@@ -651,8 +651,8 @@
 							}
 						}
 					},
-					"OData V2 Mock Server": {
-						"link": "OData_V2_Mock_Server_3a9728e.md",
+					"OData V2 Mock Server Tutorial": {
+						"link": "OData_V2_Mock_Server_Tutorial_3a9728e.md",
 						"items": {
 							"Step 1: Initial App Without Data": {
 								"link": "Step_1_Initial_App_Without_Data_7a78f1b.md"
@@ -668,8 +668,8 @@
 							}
 						}
 					},
-					"Worklist App": {
-						"link": "Worklist_App_6a6a621.md",
+					"Worklist App Tutorial": {
+						"link": "Worklist_App_Tutorial_6a6a621.md",
 						"items": {
 							"Step 1: Creating the Initial App": {
 								"link": "Step_1_Creating_the_Initial_App_fc2c358.md"
@@ -694,8 +694,8 @@
 							}
 						}
 					},
-					"Flexible Column Layout App": {
-						"link": "Flexible_Column_Layout_App_c4de2df.md",
+					"Flexible Column Layout App Tutorial": {
+						"link": "Flexible_Column_Layout_App_Tutorial_c4de2df.md",
 						"items": {
 							"Step 1: Setting Up the Initial App": {
 								"link": "Step_1_Setting_Up_the_Initial_App_59b772b.md"

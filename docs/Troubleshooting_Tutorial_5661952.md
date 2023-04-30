@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5661952e72df471b932eddc10350c081) | [demo kit latest release](https://sdk.openui5.org/topic/5661952e72df471b932eddc10350c081)</div>
 
-## Troubleshooting
+## Troubleshooting Tutorial
 
 In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.
 

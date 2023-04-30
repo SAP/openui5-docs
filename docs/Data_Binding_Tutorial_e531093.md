@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e5310932a71f42daa41f3a6143efca9c) | [demo kit latest release](https://sdk.openui5.org/topic/e5310932a71f42daa41f3a6143efca9c)</div>
 
-## Data Binding
+## Data Binding Tutorial
 
 In this tutorial, we will explain the concepts of data binding in OpenUI5.
 

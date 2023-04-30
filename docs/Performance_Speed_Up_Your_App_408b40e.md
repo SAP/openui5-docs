@@ -343,7 +343,7 @@ You can further optimize your code by doing the following:
 
     Visit the [OData V4 Model](OData_V4_Model_5de13cf.md) documentation and ensure that all required features are available.
 
-    For a quick start, follow the [OData V4](OData_V4_bcdbde6.md) tutorial.
+    For a quick start, follow the [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md) tutorial.
 
 -   If you use data binding with an OData V2 service as a back end, you should consider switching your OData model to our more updated OData V2 model. For more information, see [OData V2 Model](OData_V2_Model_6c47b2b.md#loio6c47b2b39db9404582994070ec3d57a2).
 
@@ -355,74 +355,6 @@ You can further optimize your code by doing the following:
 
 -   Please ensure the application does not block the rendering while waiting for back-end requests to respond. Waiting for data before rendering anything is not the favored user experience. It is recommended to load data asynchronously and already render the page while the request is pending. Mostly, the requests won't fail, and if they do, it is better to show an error or to navigate to an error page.
 -   If an `XML Preprocessor` is used, we recommend to use the [XML View Cache](XML_View_Cache_3d85d5e.md). If configured in the XML View and with a properly implemented key provider \(for invalidation\), it is able to cache already processed XML View Preprocessor results.
-
-***
-
-<a name="loio408b40efed3c416681e1bd8cdd8910d4__section_gpz_4ky_2xb"/>
-
-### View Lazy Loading in the Object Page Component
-
-Object page components represents a 360-degree information about a business object. Some of these objects are complex and require multiple subsections to represent them on UI. Based on the object type, in some cases there are multiple subsections. But only a subset of them is visible on the UI. SAP UI5 renders the control even if they're invisible on UI.
-
-SAP Fiori elements application fetchs the data only for the sections that are visible on the viewport. A viewport is the visible area of your screen including an additional buffer to ensure smooth scrolling of the data.
-
-This smartness by the Fiori elements ensures retrieval of scalable data and improved performance. In case of complex object pages, this isn't enough as the rendering of these sections is done the first time when the object page is opened.
-
-To optimize, the object page control enables stashing of subsections that are outside the viewport. Stashing a feature control is created on the DOM only if its stashed property is set to true.
-
-This feature is known as view lazy loading in the object page component. In SAP Fiori elements for OData V2, this feature is available as an option. You can choose it in applications that have created extension coding, that requires adoption. Therefore, the application must opt for this feature and if required, adopt the extension logic for consumption.
-
-***
-
-#### Configuring Lazy Loading
-
-In the ObjectPage settings, under the pages section, add a new configuration object “renderingBehaviour”. In this object, define the “waitForViewportEnter” property and set it to true as shown in the following sample code.
-
-> ### Sample Code:  
-> ```
->  "pages": {
->                     "ObjectPage|STTA_C_MP_Product": {
->                         "entitySet": "STTA_C_MP_Product",
->                         "component": {
->                             "name": "sap.suite.ui.generic.template.ObjectPage",
->                             "settings": {
->                                 "showRelatedApps": true,
->                                 "tableType": "ResponsiveTable",
->                                 "editableHeaderContent": true,
->                                 "showConfirmationOnDraftActivate": true,
->                                 "renderingBehavior": {
->                                     "waitForViewportEnter": true
->                                 },
->                                 "sections": {
->                                     "to_ProductText::com.sap.vocabularies.UI.v1.LineItem": {
->                                         "navigationProperty": "to_ProductText",
->                                         "entitySet": "STTA_C_MP_ProductText",
->                                         "multiSelect": true,
->                                         "createMode": "inline",
->                                         "tableSettings": {
->                                             "variantManagement": true
->                                         }
->                                     },
-> ```
-
-> ### Note:  
-> You must clear the cache before checking the changes made to the settings. The changes are reflected only after the view generation is triggered.
-> 
-> It is not required to perform this action on the production system as the cache is invalidated automatically once the change is made to the `manifest.json` file. Once lazy loading is enabled, the DOM elements for a subsection are created only when they appear in the viewport as described earlier.
-
-***
-
-#### Adoption in Extension Logic
-
-There are use cases where a control is within a stashed subsection, it will not be available in the init method.application developers access the UI5 controls using ID in the `init` method of the controller extension.
-
-If the application is accessing the UI5 controls using `ID` in the `init` method of the controller extension, it may occur that these controls may or may not work going forward. This means that the retrieval of the control depends on whether the parent subsection is in the view port.
-
-If a control is within a stashed subsection, it is not available in the `init` method.
-
-Application developers must ensure that the code to access DOM elements in the init method should be pushed to `onSubSectionEnteredExtension` method. For more information, see [https://sdk.openui5.org/\#/api/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions%23methods/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions.onSubSectionEnteredExtension](https://sdk.openui5.org/api/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions%23methods/sap.suite.ui.generic.template.ObjectPage.controllerFrameworkExtensions.onSubSectionEnteredExtension).
-
-This method is invoked by Fiori Elements when the subsection appears in the viewport. Application developers can check the subsection that contains the control and then try to access the control.
 
 **Related Information**  
 
