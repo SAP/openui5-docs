@@ -665,6 +665,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [JavaScript Coding Guidelines](JavaScript_Coding_Guidelines_eded636.md)
                 -   [JavaScript Namespaces](JavaScript_Namespaces_5a978fe.md)
                 -   [Example for Defining a Class](Example_for_Defining_a_Class_f6fba4c.md)
+            -   [TypeScript Coding Guidelines \(Do not push\)](TypeScript_Coding_Guidelines_Do_not_push_192397d.md)
             -   [OpenUI5 Control Development Guidelines](OpenUI5_Control_Development_Guidelines_4549da6.md)
                 -   [Control Development Guidelines: Theming/CSS](Control_Development_Guidelines_Theming_CSS_5e08ff9.md)
             -   [Product Standards and Acceptance Criteria](Product_Standards_and_Acceptance_Criteria_bafc686.md)
