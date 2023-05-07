@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01) | [demo kit latest release](https://sdk.openui5.org/topic/a3c3c5eb54bc4cc38e6cfbd8e90c6a01)</div>
 
-## Personalization
+## Personalization Dialog
 
 The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing table content, such as selecting columns and adapting their order.
 

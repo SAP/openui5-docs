@@ -390,6 +390,19 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 
 ***
 
+<a name="loio6c9e61dc157a40c19460660ece8368bc__section_odr_ryd_jxb"/>
+
+### Core Configuration-Specified Time Zones in OpenUI5
+
+As of Version 1.114.0, OpenUI5 is enabled to set a time zone that's different from the browser's time zone.
+
+> ### Caution:  
+> Using the configuration API in a running application can lead to unexpected data inconsistencies.
+
+For more information, see the `timezone` configuration parameter in [Configuration Options and URL Parameters](Configuration_Options_and_URL_Parameters_91f2d03.md)
+
+***
+
 <a name="loio6c9e61dc157a40c19460660ece8368bc__section_ui5date"/>
 
 ### `sap.ui.core.date.UI5Date`

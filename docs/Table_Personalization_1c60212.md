@@ -12,6 +12,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1c6021
 
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
 
+> ### Note:  
+> This concept has been replaced by a new, more generic one, and the documentation will soon be removed. For more information, see [Enablement of Personalization \(Including Variant Management\)](Enablement_of_Personalization_Including_Variant_Management_f280251.md).
+
 Personalization currently supports defining the order of columns and their visibility.
 
 ***

@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/192397d3cb954d4e986bcdc525c5205c) | [demo kit latest release](https://sdk.openui5.org/topic/192397d3cb954d4e986bcdc525c5205c)</div>
 
-## TypeScript Coding Guidelines \(Do not push\)
+## TypeScript Guidelines \(Do not push\)
 
 Provides an overview how to develop OpenUI5 control libraries in TypeScript.
 
@@ -28,5 +28,5 @@ OpenUI5 publishes type definition files describing all the OpenUI5 APIs and type
 
 ### Developing Custom Controls in TypeScript
 
-There is documentation and sample code in the “custom-controls” branch of the Hello World application which explains how custom controls can be implemented in TypeScript within UI5 applications. It makes use of a tool for generating TypeScript interfaces for the control API which has been released via npm in alpha state. There is also a sample project that demonstrates how flull-fledged control libraries can be developed in TypeScript.
+There is [documentation](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/custom-controls/README.md) and sample code in the [custom-controls branch of the Hello World application](https://github.com/SAP-samples/ui5-typescript-helloworld/tree/custom-controls), which explains how you can implement custom controls in TypeScript within OpenUI5 applications. It makes use of a [tool for generating TypeScript interfaces for the control API](https://github.com/SAP/ui5-typescript/tree/main/packages/ts-interface-generator), which has been [released via npm](https://www.npmjs.com/package/@ui5/ts-interface-generator) in alpha state. There is also a sample project that demonstrates how flull-fledged [control libraries can be developed in TypeScript](https://github.com/SAP-samples/ui5-typescript-control-library).
 

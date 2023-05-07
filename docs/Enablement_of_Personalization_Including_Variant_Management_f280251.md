@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f28025135e0e4527bdfb7c5441647391) | [demo kit latest release](https://sdk.openui5.org/topic/f28025135e0e4527bdfb7c5441647391)</div>
 
-## Table Personalization and Enablement of Variant Management
+## Enablement of Personalization \(Including Variant Management\)
 
 The simple concept of personalization allows the user to personalize a control and to persist these settings using a `VariantManagement` control.
 
@@ -17,15 +17,15 @@ The simple concept of personalization allows the user to personalize a control a
 
 For more information about this control, see the [API Reference](https://sdk.openui5.org/api/sap.m.p13n.Engine) and the [sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine).
 
-Table personalization currently supports defining the order of columns and their visibility, sorting, and grouping. To do this, the personalization engine has been introduced.
+Personalization currently supports, for example, defining the order of columns in a table and their visibility, sorting, and grouping. To enable this, the personalization engine can be used.
 
 ***
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_lfb_bsm_xwb"/>
 
-### Using the Engine together with Variant Management
+### Using the Engine
 
-The table personalization concept is based on the following artifacts:
+To use the personalization, the following artifacts are required:
 
 -   `sap.m.p13n.Engine`
 
@@ -45,7 +45,7 @@ The table personalization concept is based on the following artifacts:
 
 -   `sap.m.p13n.MetadataHelper`
 
-    Provides service-related data to the personalization engine, for example, to display columns that do currently not exist in a table.
+    Provides service-related data for the personalization engine, for example, to display columns that do currently not exist in a table.
 
 -   `sap.ui.fl.variants.VariantManagement`
 
@@ -56,9 +56,9 @@ The table personalization concept is based on the following artifacts:
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_prf_hsm_xwb"/>
 
-### Registering the Engine
+### Registering a Control in the Engine
 
-When enabling a control for personalization, you need to register the control once using the `sap.m.p13n.Engine#register` method. `sap.m.p13n.MetadataHelper` is required to provide metadata-relevant information for the engine. It needs to be initialized with an array of objects that have to provide the following information:
+When enabling a control for personalization, you need to register the control once using the `sap.m.p13n.Engine#register` method. `sap.m.p13n.MetadataHelper` is required to provide metadata-relevant information for the personalization engine. It needs to be initialized with an array of objects that have to provide the following information:
 
 **Required Properties**
 
@@ -104,7 +104,7 @@ Description
 </td>
 <td valign="top">
 
-The key associated to the item. Usually, the same ID is provided for the related item to create an association between the metadata and the aggregation.
+The key associated to the item. The recommendation is to provide the ID of the related item to create an association between the metadata and the aggregation.
 
 
 
@@ -278,17 +278,18 @@ Engine.getInstance().register(oTable, {
 
 <a name="loiof28025135e0e4527bdfb7c5441647391__section_h42_r54_ywb"/>
 
-### Displaying a Personalization Popup using the Engine
+### Displaying a Personalization Popup
 
-The engine provides utilities to initialize and display a `sap.m.p13n.Popup` with the related panels for each registered controller.
+The personalization engine provides basic tools and functions to initialize and display a `sap.m.p13n.Popup` with the related panels for each registered controller.
 
 Once the registration process has been completed, the registered control instance can make use of the `sap.m.p13n.Engine#show` method. This method is easy to use and provides the complete process of initializing, opening, and creating the necessary delta output information for the developer.
 
-The method can be used
+The method can be used in the following way:
 
 ```js
 
-// The control instance and an array of the desired keys to display for personalization needs to be provided. Optionally a map of settings such as the contentHeight and contentWidth can be provided to customize the defaults of the personalization dialog.
+// The control instance and an array of the desired keys to display for personalization needs to be provided. Optionally a map of settings
+// such as the contentHeight and contentWidth can be provided to customize the defaults of the personalization dialog.
 Engine.getInstance().show(oTable, ["Columns", "Sorter", "Groups"], {
     contentHeight: "35rem",
     contentWidth: "32rem"
@@ -311,7 +312,8 @@ Engine.getInstance().attachStateChange(function(){
     //The new control state after the personalization
     var oState = oEvt.getParameter("state");
 
-    //--> The following lines are meant to process the personalization state by toggling the table columns and recreating the binding and template. this is just a demo implementation. The sorters and groupings can be created in a similar approach, also see the more detailed exmaple linked below.
+    //--> The following lines are meant to process the personalization state by toggling the table columns and recreating the binding and template.
+	// this is just a demo implementation. The sorters and groupings can be created in a similar approach, also see the more detailed exmaple linked below.
 
     oTable.getColumns().forEach(function(oColumn, iIndex){
         oColumn.setVisible(false);
@@ -348,7 +350,7 @@ Engine.getInstance().attachStateChange(function(){
 
 ### Programmatically Applying States
 
-The personalization engine also provides capabilities to programatically apply personalization. For example, if there is a third influence, such as a custom button for making available a sorting function, or if using a table also enables the column menu.
+The personalization engine also provides capabilities to programatically apply personalization. For example, if there are other personalization functions outside the control, such as a custom button for making a sort function available.
 
 In this case, the `sap.m.p13n.Engine#retrieveState` and `sap.m.p13n.Engine#applyState` methods can be used to modify and persist personalization changes without a personalization UI.
 
@@ -382,7 +384,7 @@ onSort: function(oEvt) {
 }
 ```
 
-Whenever a value is provided in the `applyState` method, this value is applied in an additive manner. Therefore the appliance does not work like a full snapshot by replacing the values but only by removing entries.
+Whenever a value is provided in the `applyState` method, this value is added to the existing state.
 
 The following properties can be used per controller to remove a state entry:
 
@@ -490,5 +492,5 @@ Type
 
 ### Persistence
 
-Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made. For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://help.sap.com/viewer/ec1a528273c644ffae5ec53e6b80f193/DEV_SAPUI5/en-US/f1430c0337534d469da3a56307ff76af.html "Here&apos;s what you have to consider when developing apps that support UI adaptation.") :arrow_upper_right:.
+Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made.
 

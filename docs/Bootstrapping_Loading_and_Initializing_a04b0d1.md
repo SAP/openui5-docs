@@ -33,9 +33,121 @@ The attributes `data-sap-ui-theme="sap_belize"` and `data-sap-ui-libs="sap.m"` a
 
 ***
 
+<a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU"/>
+
+### Overview of Bootstrap Base URLs
+
+OpenUI5 provides several bootstrap URLs for different use cases. The following table gives an overview of the most important bootstrap base URLs:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Resource
+
+
+
+</th>
+<th valign="top">
+
+Description
+
+
+
+</th>
+<th valign="top">
+
+Usage
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Content Delivery Network \(CDN\)
+
+
+
+</td>
+<td valign="top">
+
+You can access the libraries externally from a CDN, which can be either an SAP-hosted CDN or a custom-hosted CDN.
+
+For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UI5 Tooling
+
+
+
+</td>
+<td valign="top">
+
+You can access the libraries hosted by UI5 Tooling under `resources/sap-ui-core.js`<sup>1</sup>.
+
+
+
+</td>
+<td valign="top">
+
+Development
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cache Buster for OpenUI5 
+
+
+
+</td>
+<td valign="top">
+
+You can access the libraries consuming the cache buster for OpenUI5u under `resources/sap-ui-cachebuster/sap-ui-core.js`<sup>1</sup>.
+
+For more information, see [Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91f0809.md).
+
+
+
+</td>
+<td valign="top">
+
+Productive Applications with available cache buster deployed
+
+
+
+</td>
+</tr>
+</table>
+
+1\) The sample mentions `sap-ui-core.js` as a bootstrap file. An overview of more bootstrap files is given in [Overview of Bootstrap Files](Bootstrapping_Loading_and_Initializing_a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBF).
+
+***
+
+<a name="loioa04b0d10fb494d1cb722b9e341b584ba__section_OBF"/>
+
 ### Overview of Bootstrap Files
 
-OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. The actual base URL depends on your platform and administrative setup.
+OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. You can find possible base URLs in [Overview of Bootstrap Base URLs](Bootstrapping_Loading_and_Initializing_a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU)
 
 
 <table>
@@ -68,22 +180,6 @@ Description
 This is the standard bootstrap file, which we recommend to use for typical use cases. It already contains jQuery, `jquery-ui-position` and only the minimum required parts of the core library \(`sap.ui.core`\). Required files are loaded dynamically using XMLHttpRequest \(XHR\).
 
 For more information, see [Standard Variant for Bootstrapping](Standard_Variant_for_Bootstrapping_91f1f45.md).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Content Delivery Network \(CDN\)
-
-
-
-</td>
-<td valign="top">
-
-You can access the libraries externally from a CDN. For more information see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
 
 
 

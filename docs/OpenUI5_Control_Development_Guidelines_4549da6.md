@@ -115,4 +115,7 @@ With regard to the renderer, the following guidelines apply:
 -   **[Control Development Guidelines: Theming/CSS](Control_Development_Guidelines_Theming_CSS_5e08ff9.md "For themes and CSS for control development in OpenUI5, the following
 		guidelines apply.")**  
 For themes and CSS for control development in OpenUI5, the following guidelines apply.
+-   **[TypeScript Guidelines \(Do not push\)](TypeScript_Guidelines_Do_not_push_192397d.md "Provides an overview how to develop OpenUI5 control libraries in
+		TypeScript.")**  
+Provides an overview how to develop OpenUI5 control libraries in TypeScript.
 

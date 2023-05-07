@@ -2188,14 +2188,14 @@
 									}
 								}
 							},
-							"TypeScript Coding Guidelines \\(Do not push\\)": {
-								"link": "TypeScript_Coding_Guidelines_Do_not_push_192397d.md"
-							},
 							"OpenUI5 Control Development Guidelines": {
 								"link": "OpenUI5_Control_Development_Guidelines_4549da6.md",
 								"items": {
 									"Control Development Guidelines: Theming/CSS": {
 										"link": "Control_Development_Guidelines_Theming_CSS_5e08ff9.md"
+									},
+									"TypeScript Guidelines \\(Do not push\\)": {
+										"link": "TypeScript_Guidelines_Do_not_push_192397d.md"
 									}
 								}
 							},
@@ -2619,9 +2619,6 @@
 									},
 									"Performance of Lists and Tables": {
 										"link": "Performance_of_Lists_and_Tables_f6a1a0a.md"
-									},
-									"Table Personalization and Enablement of Variant Management": {
-										"link": "Table_Personalization_and_Enablement_of_Variant_Management_f280251.md"
 									}
 								}
 							},
@@ -2631,11 +2628,19 @@
 							"Message Popover": {
 								"link": "Message_Popover_52824a6.md"
 							},
+							"Personalization": {
+								"link": "Personalization_75c08fd.md",
+								"items": {
+									"Enablement of Personalization \\(Including Variant Management\\)": {
+										"link": "Enablement_of_Personalization_Including_Variant_Management_f280251.md"
+									},
+									"Personalization Dialog": {
+										"link": "Personalization_Dialog_a3c3c5e.md"
+									}
+								}
+							},
 							"PDF Viewer": {
 								"link": "PDF_Viewer_cd80a8b.md"
-							},
-							"Personalization": {
-								"link": "Personalization_a3c3c5e.md"
 							},
 							"Scrolling": {
 								"link": "Scrolling_66029f6.md",
