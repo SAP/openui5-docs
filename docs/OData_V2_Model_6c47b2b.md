@@ -1153,7 +1153,7 @@ If the `callFunction` request is deferred, it can be submitted via the `submitCh
 
 ### Binding of Function Import Parameters
 
-You can use data binding to modify values of function import parameters: The `callFunction` method returns a request handle that has a `contextCreated` function which returns a `promise`. This `promise` resolves with a`sap.ui.model.odata.v2.Context` object that can be used as a binding context to change the input parameters of the function import and to bind the result of the function import call.
+You can use data binding to modify values of function import parameters: The `callFunction` method returns a request handle that has a `contextCreated` function which returns a `promise`. This `promise` resolves with an `sap.ui.model.odata.v2.Context` object that can be used as a binding context to change the input parameters of the function import and to bind the result of the function import call.
 
 > ### Example:  
 > Controller Code
@@ -1181,7 +1181,7 @@ You can use data binding to modify values of function import parameters: The `ca
 > },
 > ```
 
-If the function import returns a single entity or a collection of entities, then the result data can be accessed and bound against in the `$result` property using the context:
+If the function import returns a single entity or a collection of entities, the result data can be accessed and bound against in the `$result` property using the context:
 
 ```xml
 <form:SimpleForm id="ratingForm">

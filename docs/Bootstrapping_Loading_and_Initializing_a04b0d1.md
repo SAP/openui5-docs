@@ -67,31 +67,6 @@ Usage
 <tr>
 <td valign="top">
 
-Content Delivery Network \(CDN\)
-
-
-
-</td>
-<td valign="top">
-
-You can access the libraries externally from a CDN, which can be either an SAP-hosted CDN or a custom-hosted CDN.
-
-For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
-
-
-
-</td>
-<td valign="top">
-
- 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 UI5 Tooling
 
 
@@ -115,6 +90,31 @@ Development
 <tr>
 <td valign="top">
 
+Content Delivery Network \(CDN\)
+
+
+
+</td>
+<td valign="top">
+
+You can access the libraries externally from a CDN, which can be either an SAP-hosted CDN or a custom-hosted CDN.
+
+For more information, see [Variant for Bootstrapping from Content Delivery Network](Variant_for_Bootstrapping_from_Content_Delivery_Network_2d3eb2f.md).
+
+
+
+</td>
+<td valign="top">
+
+Development/productive applications
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cache Buster for OpenUI5 
 
 
@@ -122,7 +122,7 @@ Cache Buster for OpenUI5
 </td>
 <td valign="top">
 
-You can access the libraries consuming the cache buster for OpenUI5u under `resources/sap-ui-cachebuster/sap-ui-core.js`<sup>1</sup>.
+You can access the libraries consuming the cache buster for OpenUI5 under `resources/sap-ui-cachebuster/sap-ui-core.js`<sup>1</sup>.
 
 For more information, see [Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91f0809.md).
 
@@ -131,7 +131,7 @@ For more information, see [Cache Buster for OpenUI5](Cache_Buster_for_OpenUI5_91
 </td>
 <td valign="top">
 
-Productive Applications with available cache buster deployed
+Productive applications with available cache buster deployed
 
 
 
@@ -147,7 +147,7 @@ Productive Applications with available cache buster deployed
 
 ### Overview of Bootstrap Files
 
-OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. You can find possible base URLs in [Overview of Bootstrap Base URLs](Bootstrapping_Loading_and_Initializing_a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU)
+OpenUI5 provides several bootstrap files for different use cases. The following table gives an overview of the most important resources and the respective use cases. The resource names refer to the `resources/` folder in the OpenUI5 installation. You can find possible base URLs in [Overview of Bootstrap Base URLs](Bootstrapping_Loading_and_Initializing_a04b0d1.md#loioa04b0d10fb494d1cb722b9e341b584ba__section_OBBU).
 
 
 <table>

@@ -1685,7 +1685,7 @@ The configured time zone is used for `sap.ui.core.date.UI5Date` instances and to
 For more information, see [Date Format](Date_Format_91f2eba.md).
 
 > ### Caution:  
-> Setting the time zone via the configuration API has to be done at the earliest possible point in time when launching an OpenUI5 application. It is preferably even set before launching the application by shells or launchpads such as the SAP Fiori launchpad. Using the API in running applications can lead to unexpected data inconsistencies, because any created date objects could still be related to the previously configured time zone.Generally, **an app should be completely restarted after changing the time zone**.
+> Setting the time zone via the configuration API has to be done at the earliest possible point in time when launching an OpenUI5 application. It is preferably even set by shells or launchpads, such as the SAP Fiori launchpad, before launching the application. Using the API in running applications can lead to unexpected data inconsistencies, because any created date objects could still be related to the previously configured time zone. Generally, **an app should be completely restarted after changing the time zone**.
 > 
 > The OpenUI5 configuration is applied globally and not application-specific; it therefore affects **all** apps inside, for example, the shell or launchpad
 
