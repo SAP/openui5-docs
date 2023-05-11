@@ -382,7 +382,7 @@ Displaying timestamps in a specific time zone provided by the back end is done u
 > ```
 > <!-- 'TimezoneID' refers to an Edm.String property holding the IANA time zone ID -->
 > <Text text="{
->         formatOptions: {showTimezone: 'Only'},
+>         formatOptions: {showDate: false, showTime: false},
 >         parts: [{value: null}, {path: 'TimezoneID'}],
 >         type: 'sap.ui.model.odata.type.DateTimeWithTimezone'
 >      }" />

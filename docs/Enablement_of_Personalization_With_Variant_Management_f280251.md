@@ -8,7 +8,7 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f28025135e0e4527bdfb7c5441647391) | [demo kit latest release](https://sdk.openui5.org/topic/f28025135e0e4527bdfb7c5441647391)</div>
 
-## Enablement of Personalization \(Including Variant Management\)
+## Enablement of Personalization \(With Variant Management\)
 
 The simple concept of personalization allows the user to personalize a control and to persist these settings using a `VariantManagement` control.
 
@@ -493,4 +493,11 @@ Type
 ### Persistence
 
 Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made.
+
+**Parent topic:** [Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
+
+**Related Information**  
+
+
+[Personalization Dialog](Personalization_Dialog_a3c3c5e.md "The sap.m.p13n.Popup control in the sap.m.p13n namespace provides a dialog or popover for personalizing content, for example, of a table, such as selecting columns and adapting their order.")
 

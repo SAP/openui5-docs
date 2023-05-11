@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a3c3c5
 
 ## Personalization Dialog
 
-The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing table content, such as selecting columns and adapting their order.
+The `sap.m.p13n.Popup` control in the `sap.m.p13n` namespace provides a dialog or popover for personalizing content, for example, of a table, such as selecting columns and adapting their order.
 
 For more information about this control, see the [API Reference](https://sdk.openui5.org/api/sap.m.p13n) and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup).
 
@@ -18,7 +18,7 @@ For more information about this control, see the [API Reference](https://sdk.ope
 
 ### Overview
 
-The `sap.m.p13n` namespace offers you personalization content and allows the consuming application to define various settings for tables by using panels. Different panels with reusable content for the various types of personalization are available for freestyle use in the application.
+The `sap.m.p13n` namespace offers you personalization content and allows the consuming application to define various settings for controls, as shown in the example below for tables using panels. Different panels with reusable content for the various types of personalization are available for freestyle use in the application.
 
 The panels represent the settings on the user interface. They are aggregated to `sap.m.p13n.Popup`. This control can be used as a container for these panels.
 
@@ -62,4 +62,11 @@ The following buttons are available in the dialog:
     > ### Note:  
     > The control only provides the visual representation of the table settings on the user interface. The consuming application must ensure the settings are actually changed in the table.
 
+
+**Parent topic:** [Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
+
+**Related Information**  
+
+
+[Enablement of Personalization \(With Variant Management\)](Enablement_of_Personalization_With_Variant_Management_f280251.md "The simple concept of personalization allows the user to personalize a control and to persist these settings using a VariantManagement control.")
 

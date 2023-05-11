@@ -794,7 +794,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Message Handling](Message_Handling_f5df293.md)
             -   [Message Popover](Message_Popover_52824a6.md)
             -   [Personalization](Personalization_75c08fd.md)
-                -   [Enablement of Personalization \(Including Variant Management\)](Enablement_of_Personalization_Including_Variant_Management_f280251.md)
+                -   [Enablement of Personalization \(With Variant Management\)](Enablement_of_Personalization_With_Variant_Management_f280251.md)
                 -   [Personalization Dialog](Personalization_Dialog_a3c3c5e.md)
             -   [PDF Viewer](PDF_Viewer_cd80a8b.md)
             -   [Scrolling](Scrolling_66029f6.md)
