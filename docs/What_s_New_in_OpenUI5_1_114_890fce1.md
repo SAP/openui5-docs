@@ -171,32 +171,34 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 </td>
 <td valign="top">
 
- Deprecated 
+ Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+ Control 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+ **`sap.ui.integration.widgets.Card`** 
 
 
 
 </td>
 <td valign="top">
 
-**Deprecations**
+**`sap.ui.integration.widgets.Card`**
 
-There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+We have \(experimentally\) introduced a new type of message – card-blocking messages. The three available types `NoData`, `Error`, and `Information` are listed in the `sap.ui.integration.CardBlockingMessageType` enumeration.
 
-<sub>Deprecated•Feature•Info Only•1.114</sub>
+List, Table, Object, and the other declarative card types automatically show a card-blocking message when there is no data or an error has occurred. Additionally, the developers of Component cards, or those using extensions, can use the `showBlockingMessage` and `hideBlockingMessage` methods to programmatically control the message. For more information, see the [CardBlockingMessageType](https://sdk.openui5.org/api/sap.ui.integration.CardBlockingMessageType) enumeration, the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.Card), and the [Blocking Message](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/blockingMessage) and [No Data Message](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/component/noDataMessage) samples in the Card Explorer.
+
+<sub>Changed•Control•Info Only•1.114</sub>
 
 
 
