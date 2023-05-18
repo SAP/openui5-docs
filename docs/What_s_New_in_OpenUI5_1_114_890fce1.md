@@ -8,14 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/890fce16801640459e67ec64da4daa00) | [demo kit latest release](https://sdk.openui5.org/topic/890fce16801640459e67ec64da4daa00)</div>
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 ## What's New in OpenUI5 1.114
 
 With this release OpenUI5 is upgraded from version 1.113 to 1.114.
-
-> ### Note:  
-> Content marked as <span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)** is provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [preview disclaimer](https://help.sap.com/docs/whats-new-disclaimer).
 
 ** **
 
@@ -71,95 +66,6 @@ Available as of
 
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
- Upcoming 
-
-
-
-</td>
-<td valign="top">
-
- Deleted 
-
-
-
-</td>
-<td valign="top">
-
- Announcement 
-
-
-
-</td>
-<td valign="top">
-
- **End of Cloud Provisioning for OpenUI5 Versions \(Q2/2023\)** 
-
-
-
-</td>
-<td valign="top">
-
-**End of Cloud Provisioning for OpenUI5 Versions \(Q2/2023\)**
-
-The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery Network \(CDN\) after the end of Q2/2023.
-
-**Minor Versions Reaching Their End of Cloud Provisioning**
-
-The following versions including all patches will be removed entirely:
-
--   1.91
--   1.99
--   1.100
--   1.101
-
-**Action**: Upgrade to a version that’s still in maintenance.
-
-**Patch Versions Reaching Their End of Cloud Provisioning**
-
-The following patches will be removed:
-
--   Long-term maintenance versions:
-
-    -   1.38.54
-    -   1.71.2
-    -   1.71.44-1.71.45
-    -   1.84.23 to 1.84.24
-    -   1.96.7 to 1.96.8
-
-    **Action**: Upgrade to the latest available patch for the respective OpenUI5 version.
-
--   Other versions
-
-    -   1.102.0 to 1.102.1
-
-    **Action**: Upgrade to a version that’s still in maintenance.
-
-
-For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sap.com/2022/12/05/ui5-releases-ending-service-in-2023/) and [Version Overview](https://sdk.openui5.org/versionoverview.html).
-
-<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Deleted•Announcement•Required•Upcoming</sub>
-
-
-
-</td>
-<td valign="top">
-
- Required 
-
-
-
-</td>
-<td valign="top">
-
-2023-06-30
-
-
-
-</td>
 </tr>
 <tr>
 <td valign="top">
