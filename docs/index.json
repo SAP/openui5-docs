@@ -2191,14 +2191,14 @@
 									}
 								}
 							},
+							"TypeScript Guidelines \\(Do not push\\)": {
+								"link": "TypeScript_Guidelines_Do_not_push_192397d.md"
+							},
 							"OpenUI5 Control Development Guidelines": {
 								"link": "OpenUI5_Control_Development_Guidelines_4549da6.md",
 								"items": {
 									"Control Development Guidelines: Theming/CSS": {
 										"link": "Control_Development_Guidelines_Theming_CSS_5e08ff9.md"
-									},
-									"TypeScript Guidelines \\(Do not push\\)": {
-										"link": "TypeScript_Guidelines_Do_not_push_192397d.md"
 									}
 								}
 							},
