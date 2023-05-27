@@ -498,6 +498,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Sinon.JS: Spies, Stubs, Mocks, Faked Timers, and XHR](Sinon_JS_Spies_Stubs_Mocks_Faked_Timers_and_XHR_457eaad.md)
                 -   [How to Test OpenUI5 Controls with QUnit](How_to_Test_OpenUI5_Controls_with_QUnit_a6b0657.md)
                     -   [Cookbook for Testing Controls with QUnit](Cookbook_for_Testing_Controls_with_QUnit_0ddcc60.md)
+            -   [Unit Testing with TypeScript](Unit_Testing_with_TypeScript_fc51238.md)
             -   [Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md)
                 -   [Getting Started with OPA5](Getting_Started_with_OPA5_22f175e.md)
                 -   [Cookbook for OPA5](Cookbook_for_OPA5_ce4b180.md)

@@ -22,8 +22,9 @@ OpenUI5 offers many powerful enterprise features to support your entire app deve
 -   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
 		projects.")**  
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
--   **[TypeScript in OpenUI5 \(Do not push\)](TypeScript_in_OpenUI5_Do_not_push_a7ee961.md "")**  
-
+-   **[TypeScript in OpenUI5 \(Do not push\)](TypeScript_in_OpenUI5_Do_not_push_a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
+		checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.")**  
+TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
 -   **[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  
