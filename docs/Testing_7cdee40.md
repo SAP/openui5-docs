@@ -44,8 +44,11 @@ WebdriverIO \(WDIO\) is a hugely popular end-to-end testing framework. It can wo
 		jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic
 		JavaScript code. It supports asynchronous tests out-of-the-box.")**  
 QUnit is a powerful, easy-to-use JavaScript unit testing framework. It is used by the jQuery, jQuery UI and jQuery Mobile projects and is capable of testing any generic JavaScript code. It supports asynchronous tests out-of-the-box.
--   **[Unit Testing with TypeScript](Unit_Testing_with_TypeScript_fc51238.md "")**  
-
+-   **[Unit Testing with TypeScript](Unit_Testing_with_TypeScript_fc51238.md "TypeScript unit testing is a technique that tests small units of code that function. It
+		can be done with frameworks like Mocha.js and Chai2, or Alsatian3, which output
+		TAP-compliant markup. Unit testing aims to achieve consistency and verify the code's
+		functionality or specifications.")**  
+TypeScript unit testing is a technique that tests small units of code that function. It can be done with frameworks like Mocha.js and Chai2, or Alsatian3, which output TAP-compliant markup. Unit testing aims to achieve consistency and verify the code's functionality or specifications.
 -   **[Integration Testing with One Page Acceptance Tests \(OPA5\)](Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md "OPA5 is an API for OpenUI5
 		controls. It hides asynchronicity and eases access to OpenUI5 elements. This makes OPA
 		especially helpful for testing user interactions, integration with OpenUI5, navigation, and data

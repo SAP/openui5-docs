@@ -34,6 +34,19 @@ Providing the type definitions as a separate package allows you to retain an old
 
 ***
 
+#### Further information
+
+-   Documentation and resources: [UI5 & TypeScript](https://sap.github.io/ui5-typescript/)
+-   Tutorial: [Learn App Development in UI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
+
+npm Packages \(check the individual packages for licensing information\):
+
+-   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
+-   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code
+-   For UI5 control development in TypeScript, see [TypeScript Guidelines \(Do not push\)](TypeScript_Guidelines_Do_not_push_192397d.md)
+
+***
+
 <a name="loioa7ee9617bc794b6fad21e4df38e31128__section_ljm_xpj_gxb"/>
 
 ### TypeScript in OpenUI5

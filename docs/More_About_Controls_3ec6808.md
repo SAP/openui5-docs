@@ -55,6 +55,8 @@ This library contains the `CodeEditor` control.
 		and all its components, base classes for controls, components and the Model-View-Controller
 		(MVC) classes.")**  
 This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all its components, base classes for controls, components and the Model-View-Controller \(MVC\) classes.
+-   **[sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md "This library contains composite metadata-driven controls.")**  
+This library contains composite metadata-driven controls.
 -   **[sap.ui.table](sap_ui_table_08197fa.md " Table-like controls, mainly for desktop scenarios.")**  
  Table-like controls, mainly for desktop scenarios.
 -   **[sap.uxap](sap_uxap_de71337.md "This library includes controls associated with the
