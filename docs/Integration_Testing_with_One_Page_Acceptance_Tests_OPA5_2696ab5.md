@@ -78,11 +78,6 @@ OPA5 has a built-in actions parameter that can be used for simulating events. If
 Write tests by leveraging the builder pattern to create OPA5 descriptors.
 -   **[Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md "Tips and tricks if OPA isn't behaving or reacting the way you expect it to.")**  
 Tips and tricks if OPA isn't behaving or reacting the way you expect it to.
--   **[Unit Testing with TypeScript](Unit_Testing_with_TypeScript_fc51238.md "TypeScript unit testing is a technique that tests small units of code that function. It
-		can be done with frameworks like Mocha.js and Chai2, or Alsatian3, which output
-		TAP-compliant markup. Unit testing aims to achieve consistency and verify the code's
-		functionality or specifications.")**  
-TypeScript unit testing is a technique that tests small units of code that function. It can be done with frameworks like Mocha.js and Chai2, or Alsatian3, which output TAP-compliant markup. Unit testing aims to achieve consistency and verify the code's functionality or specifications.
 
 **Related Information**  
 

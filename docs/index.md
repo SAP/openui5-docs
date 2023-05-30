@@ -510,7 +510,6 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                 -   [Simulating User Interactions on Controls](Simulating_User_Interactions_on_Controls_8615a0b.md)
                 -   [Using OpaBuilder](Using_OpaBuilder_952e2c7.md)
                 -   [Pitfalls and Troubleshooting](Pitfalls_and_Troubleshooting_698f8c0.md)
-                -   [Unit Testing with TypeScript](Unit_Testing_with_TypeScript_fc51238.md)
             -   [Mock Server](Mock_Server_69d3cbd.md)
                 -   [OData Features Supported by the OData V2 Mock Server](OData_Features_Supported_by_the_OData_V2_Mock_Server_3459c37.md)
                 -   [OData V2 Mock Server: Frequently Asked Questions](OData_V2_Mock_Server_Frequently_Asked_Questions_c9a91dd.md)
