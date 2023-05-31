@@ -103,31 +103,15 @@ A documentation comment should provide the following content:
     </tr>
     <tr>
     <td valign="top">
-
-    Constructor
+    
+        Constructor
 
 
     
     </td>
     <td valign="top">
-
-    Constructs
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Boolean
-
-
-    
-    </td>
-    <td valign="top">
-
-    Indicates \(whether\)
+        Constructs
 
 
     
@@ -135,31 +119,15 @@ A documentation comment should provide the following content:
     </tr>
     <tr>
     <td valign="top">
-
-    Getter
+    
+        Boolean
 
 
     
     </td>
     <td valign="top">
-
-    Gets
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    Setter
-
-
-    
-    </td>
-    <td valign="top">
-
-    Sets
+        Indicates \(whether\)
 
 
     
@@ -167,15 +135,47 @@ A documentation comment should provide the following content:
     </tr>
     <tr>
     <td valign="top">
-
-    Other
+    
+        Getter
 
 
     
     </td>
     <td valign="top">
+    
+        Gets
 
-    Adds/Removes/Creates/Releases/Other verb that applies
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Setter
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Sets
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        Other
+
+
+    
+    </td>
+    <td valign="top">
+    
+        Adds/Removes/Creates/Releases/Other verb that applies
 
 
     

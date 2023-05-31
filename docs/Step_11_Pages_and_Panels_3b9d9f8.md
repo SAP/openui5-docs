@@ -76,8 +76,7 @@ In order to make the fullscreen height of the view work properly, we add the `di
 ```ini
 # App Descriptor
 appTitle=Hello World
-appDescription=A simple walkthrough app that explains the most important concepts of [/pandoc/div/div/horizontalrule/codeblock/span/span
-     {""}) OpenUI5 (span]
+appDescription=A simple walkthrough app that explains the most important concepts of OpenUI5
 
 # Hello Panel
 showHelloButtonText=Say Hello
