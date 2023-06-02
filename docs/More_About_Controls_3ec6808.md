@@ -58,7 +58,9 @@ This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all it
 -   **[sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md "The sap.ui.mdc  library contains composite, metadata-driven controls
 		that assemble UI elements with predefined user experience and various functionalities. The
 		controls can be used as a basis for scalable application development and can be implemented
-		for use with any UI5 model or data protocol. ")**  
+		for use with any UI5 model
+		or
+		data protocol. ")**  
 The `sap.ui.mdc` library contains composite, metadata-driven controls that assemble UI elements with predefined user experience and various functionalities. The controls can be used as a basis for scalable application development and can be implemented for use with any UI5 model or data protocol.
 -   **[sap.ui.table](sap_ui_table_08197fa.md " Table-like controls, mainly for desktop scenarios.")**  
  Table-like controls, mainly for desktop scenarios.
