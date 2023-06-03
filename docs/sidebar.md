@@ -785,7 +785,7 @@
                 -   [Table Design](Table_Design_d3234bc.md)
                 -   [List and Table Events](List_and_Table_Events_35b8a94.md)
                 -   [Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md)
-                -   [Table Personalization](Table_Personalization_1c60212.md)
+                -   [Table Personalization \(deprecated\)](Table_Personalization_deprecated_1c60212.md)
                 -   [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
             -   [Message Handling](Message_Handling_f5df293.md)
             -   [Message Popover](Message_Popover_52824a6.md)

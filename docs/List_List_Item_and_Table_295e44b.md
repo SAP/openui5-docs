@@ -49,7 +49,7 @@ Both `sap.m.List` and `sap.m.Table` offer the same events, inheriting them from 
 -   **[Growing Feature for Table and List](Growing_Feature_for_Table_and_List_9164ba7.md "sap.m.ListBase provides growing-related properties, which can be
 		used for tables and lists.")**  
 `sap.m.ListBase` provides growing-related properties, which can be used for tables and lists.
--   **[Table Personalization](Table_Personalization_1c60212.md "The simple concept of table personalization allows the user to personalize a table
+-   **[Table Personalization \(deprecated\)](Table_Personalization_deprecated_1c60212.md "The simple concept of table personalization allows the user to personalize a table
 		and to persist these settings.")**  
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
 -   **[Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md "Mobile devices usually have a limited memory and processing power. Complex web pages may

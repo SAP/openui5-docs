@@ -8,12 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1c60212834c049ed9f65d743dfeb3d9a) | [demo kit latest release](https://sdk.openui5.org/topic/1c60212834c049ed9f65d743dfeb3d9a)</div>
 
-## Table Personalization
+## Table Personalization \(deprecated\)
 
 The simple concept of table personalization allows the user to personalize a table and to persist these settings.
 
-> ### Note:  
-> This concept has been replaced by a new, more generic one, and the documentation will soon be removed. For more information, see [Enablement of Personalization \(With Variant Management\)](Enablement_of_Personalization_With_Variant_Management_f280251.md).
+> ### Caution:  
+> Deprecated as of version 1.115, replaced by [Personalization](Personalization_75c08fd.md).
 
 Personalization currently supports defining the order of columns and their visibility.
 
