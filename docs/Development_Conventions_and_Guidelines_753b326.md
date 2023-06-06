@@ -57,8 +57,8 @@ Some target platforms of OpenUI5 impose technical restrictions on the naming or 
 -   **[Git Guidelines](Git_Guidelines_b2f5639.md "For using Git for developing content for OpenUI5, rules and guidelines for the use of Git
 		and the content of commit messages have been introduced.")**  
 For using Git for developing content for OpenUI5, rules and guidelines for the use of Git and the content of commit messages have been introduced.
--   **[JSDoc Guidelines](JSDoc_Guidelines_eeaa5de.md "Provides an overview of guidelines for creating JSDoc documentation. ")**  
-Provides an overview of guidelines for creating JSDoc documentation.
+-   **[JSDoc Guidelines](JSDoc_Guidelines_eeaa5de.md "")**  
+
 -   **[Tools](Tools_41de83f.md "For the tools used for OpenUI5 content development, guidelines and recommendations have
 		been introduced.")**  
 For the tools used for OpenUI5 content development, guidelines and recommendations have been introduced.

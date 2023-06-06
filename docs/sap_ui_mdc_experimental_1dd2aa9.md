@@ -25,20 +25,20 @@ The `sap.ui.mdc` library contains composite, metadata-driven controls that assem
 
 #### Smart Composite Controls
 
-The `sap.ui.mdc` library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known UI5 development concepts and enterprise-ready qualities are supported out of the box.
+The `sap.ui.mdc` library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known OpenUI5 development concepts and enterprise-ready qualities are supported out of the box.
 
 ***
 
 #### Extensibility of APIs
 
-The controls are open for extension by implementable delegates and well-defined APIs for metadata in a unified format. They facilitate XML pre-processing and include as much network-request-dependent information in the XML view cache as possible to speed up the application startup.
+The controls can be extended by implementable delegates and well-defined APIs for metadata in a unified format. They facilitate XML pre-processing and include as much network-request-dependent information in the XML view cache as possible to speed up the application startup.
 
 ***
 
 #### Adaptation via SAPUI5 Flexibility
 
 > ### Note:  
-> SAPUI5flexibility features, such as end user personalization and key user adaptation, only work when using SAPUI5 applications hosted on SAP BTP, SAP S/4HANA, or ABAP platform. For more information, see [Features and Availability](https://help.sap.com/docs/UI5_FLEXIBILITY/430e2c1a4ff241bc8162df4bf51e0730/41ada93054994698ab9067855bb85fe1.html).
+> SAPUI5 flexibility features, such as end user personalization and key user adaptation, only work when using SAPUI5 applications hosted on SAP BTP, SAP S/4HANA, or ABAP platform. For more information, see [Features and Availability](https://help.sap.com/docs/UI5_FLEXIBILITY/430e2c1a4ff241bc8162df4bf51e0730/41ada93054994698ab9067855bb85fe1.html).
 
 The controls offer integrated end user personalization and key user adaptation and support private, shared, and key user variants. A seamless integration with the `sap.ui.fl` library is built into the `sap.ui.mdc` controls, which enables the previously mentioned features while improving application performance at the same time.
 
