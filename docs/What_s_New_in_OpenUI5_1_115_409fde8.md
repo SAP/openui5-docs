@@ -164,7 +164,7 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 <tr>
 <td valign="top">
 
- Upcoming 
+ 1.118 
 
 
 
@@ -200,7 +200,7 @@ We will discontinue the use of the deprecated `sap.ui.commons` library as of Ope
 
 For more information about how to prepare for this change, see [Change to the SAPUI5 sap.ui.table library](https://blogs.sap.com/2023/05/25/change-to-the-sapui5-sap.ui.table-library/).
 
-<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Deprecated•Announcement•Recommended•Upcoming</sub>
+<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Deprecated•Announcement•Recommended•1.118</sub>
 
 
 
@@ -223,7 +223,7 @@ For more information about how to prepare for this change, see [Change to the SA
 <tr>
 <td valign="top">
 
- Upcoming 
+ 1.116 
 
 
 
@@ -259,7 +259,7 @@ With OpenUI5 1.116, we intend to enable UI5 framework libraries to use modern EC
 
 For more information, see [Upgrade Your Tools for Modern ECMAScript in UI5](https://blogs.sap.com/2023/05/24/upgrade-your-tools-for-modern-ecmascript-in-ui5/).
 
-<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Changed•Announcement•Required•Upcoming</sub>
+<sub><span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)**•Changed•Announcement•Required•1.116</sub>
 
 
 
