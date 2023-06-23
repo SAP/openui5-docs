@@ -126,7 +126,7 @@ sapUi-Std-PaddingL
 <tr>
 <td valign="top">
 
-\>1440
+\>=1440
 
 
 
