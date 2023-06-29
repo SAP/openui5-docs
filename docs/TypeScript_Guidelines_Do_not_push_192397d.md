@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/192397
 
 Provides an overview how to develop OpenUI5 control libraries in TypeScript.
 
-For general information on TypeScript, see [TypeScript in OpenUI5 \(Do not push\)](TypeScript_in_OpenUI5_Do_not_push_a7ee961.md).
+For general information on TypeScript, see [TypeScript in SAPUI5 (Do not push)](https://help.sap.com/viewer/96880755e4e64fcd96c12694f430fece/Internal/en-US/a7ee9617bc794b6fad21e4df38e31128.html "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.") :arrow_upper_right:.
 
 ***
 

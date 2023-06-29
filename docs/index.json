@@ -239,9 +239,6 @@
 							}
 						}
 					},
-					"TypeScript in OpenUI5 \\(Do not push\\)": {
-						"link": "TypeScript_in_OpenUI5_Do_not_push_a7ee961.md"
-					},
 					"Compatibility Rules": {
 						"link": "Compatibility_Rules_91f0873.md"
 					},
@@ -1619,9 +1616,6 @@
 										}
 									}
 								}
-							},
-							"Unit Testing with TypeScript": {
-								"link": "Unit_Testing_with_TypeScript_fc51238.md"
 							},
 							"Integration Testing with One Page Acceptance Tests \\(OPA5\\)": {
 								"link": "Integration_Testing_with_One_Page_Acceptance_Tests_OPA5_2696ab5.md",
