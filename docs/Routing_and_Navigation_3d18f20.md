@@ -48,7 +48,7 @@ You can use the following kinds of patterns:
 
 -   **Hard-coded pattern**:
 
-    The pattern matches the hash exactly. For example, when a pattern is defined as `product/settings`, this pattern matches only if the hash is ***product/settings*** and no data is passed on to the events of the route.
+    The pattern matches the hash exactly. For example, when a pattern is defined as `product/settings`, this pattern matches only if the hash is `product/settings` and no data is passed on to the events of the route.
 
     For more information, see the tutorial [Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md).
 
@@ -56,7 +56,7 @@ You can use the following kinds of patterns:
 
     You can define mandatory parameters for the pattern by placing the parameter in curly brackets \(<code>{<i>parameter ID</i>}</code>\).
 
-    For example, if you define the pattern `product/{id}`, the hashes ***product/5*** and ***product/3*** \(where 3 and 5 are product IDs\) match the pattern. The matched event handler gets `5` or `3` passed on with the key `id` in its arguments. But hash ***product/*** does not match the pattern because the mandatory parameter is missing.
+    For example, if you define the pattern `product/{id}`, the hashes `product/5` and `product/3` \(where 3 and 5 are product IDs\) match the pattern. The matched event handler gets `5` or `3` passed on with the key `id` in its arguments. But hash `product/` does not match the pattern because the mandatory parameter is missing.
 
     For more information, see the tutorial [Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md).
 
