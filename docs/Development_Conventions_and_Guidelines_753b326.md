@@ -39,9 +39,6 @@ The following list gives some general guidelines to be adhered to when developin
 -   **[JavaScript Coding Guidelines](JavaScript_Coding_Guidelines_eded636.md "Provides an overview of the guidelines for JavaScript coding for OpenUI5 with regard to code
 		formatting, naming conventions, and creating classes.")**  
 Provides an overview of the guidelines for JavaScript coding for OpenUI5 with regard to code formatting, naming conventions, and creating classes.
--   **[TypeScript Guidelines \(Do not push\)](TypeScript_Guidelines_Do_not_push_192397d.md "Provides an overview how to develop OpenUI5 control libraries in
-		TypeScript.")**  
-Provides an overview how to develop OpenUI5 control libraries in TypeScript.
 -   **[OpenUI5 Control Development Guidelines](OpenUI5_Control_Development_Guidelines_4549da6.md "Content developers developing OpenUI5 controls should follow the guidelines outlined
 		below with regard to APIs, behavior, and themes/CSS.")**  
 Content developers developing OpenUI5 controls should follow the guidelines outlined below with regard to APIs, behavior, and themes/CSS.

@@ -22,6 +22,10 @@ Check the latest videos in the [SAPUI5 playlist](https://www.youtube.com/playlis
 
 
 
+-   **[What's New in OpenUI5 1.116](What_s_New_in_OpenUI5_1_116_ebd6f34.md "With
+		this release OpenUI5 is upgraded
+		from version 1.115 to 1.116.")**  
+With this release OpenUI5 is upgraded from version 1.115 to 1.116.
 -   **[What's New in OpenUI5 1.115](What_s_New_in_OpenUI5_1_115_409fde8.md "With
 		this release OpenUI5 is upgraded
 		from version 1.114 to 1.115.")**  
