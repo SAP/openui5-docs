@@ -880,7 +880,7 @@ oModel.setChangeGroups({
 oModel.submitChanges({groupId: "myGroupId", success: mySuccessHandler, error: myErrorHandler});
 ```
 
-To collect the changes for all entity types in the same batch group, use '\*’ as `EntityType`. If the change is not set to deferred, the changes are sent to the backend immediately. By setting the `single` parameter for `changeSet` to true or false, you define if each change results in its own change set \(`true`\) or if all changes are collected in one change set \(`false`\). The model only takes care of the `changeSetId` if `single` is set to `false`.
+To collect the changes for all entity types in the same batch group, use an asterisk \(`"*"`\) as the entity type name. If the change is not set to deferred, the changes are sent to the back end immediately. By setting the `single` parameter for the change set to `true` or `false`, you can define whether each change results in its own change set \(`true`\) or whether all changes are collected in one change set \(`false`\). The model only takes the `changeSetId` into account if `single` is set to `false`.
 
 > ### Note:  
 > The first change of an entity defines the order in the change set.
