@@ -322,6 +322,374 @@ TypeScript can now be used productively.
 </td>
 <td valign="top">
 
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.ui.integration.widgets.Card`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.ui.integration.widgets.Card`**
+
+We have \(experimentally\) introduced a new input field in the Object Card that enables users to enter a duration time interval. The value of the duration \(hours and minutes\) is stored in ISO 8601 duration format. For more information, see the [Object Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/typesDeclarative/object) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/form) in the Card Explorer.
+
+<sub>Changed•Control•Info Only•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.m.Menu`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.Menu`**
+
+Disabled items in the menu are now focusable. This way they can be accessed by screen readers, and via keyboard and mouse interactions.
+
+<sub>Changed•Control•Info Only•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Control 
+
+
+
+</td>
+<td valign="top">
+
+ **`sap.m` library: Date- and time-related controls** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m` library: Date- and time-related controls**
+
+We have improved the placeholders of these controls in cases when the placeholders are not explicitly set. Previously the expected date format was used as a placeholder, but because it's a technical term, it could not be translated. Now the placeholder is a sample date in the required format, starting with *e.g.*, where *e.g.* is translatable. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.DateTimePicker/sample/sap.m.sample.DatePicker).
+
+<sub>Changed•Control•Info Only•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Feature 
+
+
+
+</td>
+<td valign="top">
+
+ **Demo Kit: Index of Deprecated APIs with new sorting order** 
+
+
+
+</td>
+<td valign="top">
+
+**Demo Kit: Index of Deprecated APIs with new sorting order**
+
+We now display the Index of Deprecated APIs in a numeric sorting order, instead of alphabetically.
+
+For more information, see the [Index of Deprecated APIs](https://sdk.openui5.org/api/deprecated).
+
+<sub>Changed•Feature•Info Only•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
+ Feature 
+
+
+
+</td>
+<td valign="top">
+
+ **Demo Kit: Editable code samples** 
+
+
+
+</td>
+<td valign="top">
+
+**Demo Kit: Editable code samples**
+
+The code samples in the Demo Kit are now editable. You can switch to code-editing mode by clicking<span class="NS-SAP-icons"></span> \(Show source code for this sample\).
+
+For more information, see the [Samples](https://sdk.openui5.org/controls).
+
+<sub>Changed•Feature•Info Only•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Deleted 
+
+
+
+</td>
+<td valign="top">
+
+ Announcement 
+
+
+
+</td>
+<td valign="top">
+
+ **End of Cloud Provisioning for OpenUI5 Versions \(Q2/2023\)** 
+
+
+
+</td>
+<td valign="top">
+
+**End of Cloud Provisioning for OpenUI5 Versions \(Q2/2023\)**
+
+The following OpenUI5 versions will be removed from the OpenUI5 Content Delivery Network \(CDN\) after the end of Q2/2023.
+
+**Minor Versions Reaching Their End of Cloud Provisioning**
+
+The following versions including all patches will be removed entirely:
+
+-   1.91
+-   1.99
+-   1.100
+-   1.101
+
+**Action**: Upgrade to a version that is still in maintenance.
+
+**Patch Versions Reaching Their End of Cloud Provisioning**
+
+The following patches will be removed:
+
+-   Long-term maintenance versions:
+
+    -   1.38.54
+    -   1.71.2
+    -   1.71.44-1.71.45
+    -   1.84.23 to 1.84.24
+    -   1.96.7 to 1.96.8
+
+    **Action**: Upgrade to the latest available patch for the respective OpenUI5 version.
+
+-   Other versions
+
+    -   1.102.0 to 1.102.1
+
+    **Action**: Upgrade to a version that is still in maintenance.
+
+
+For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sap.com/2022/12/05/ui5-releases-ending-service-in-2023/) and [Version Overview](https://sdk.openui5.org/versionoverview.html).
+
+<sub>Deleted•Announcement•Required•1.116</sub>
+
+
+
+</td>
+<td valign="top">
+
+ Required 
+
+
+
+</td>
+<td valign="top">
+
+2023-07-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 1.116 
+
+
+
+</td>
+<td valign="top">
+
+ Changed 
+
+
+
+</td>
+<td valign="top">
+
  Feature 
 
 
