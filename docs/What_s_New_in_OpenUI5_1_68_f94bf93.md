@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f94bf9
 
 With this release OpenUI5 is upgraded from version 1.67 to 1.68.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Format Option `parseKeepsEmptyString`** 
+**Format Option `parseKeepsEmptyString`** 
 
 
 
@@ -125,28 +125,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Semantic Rendering With `RenderManager`** 
+**New Semantic Rendering With `RenderManager`** 
 
 
 
@@ -168,7 +168,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -184,28 +184,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -225,7 +225,7 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -241,28 +241,28 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -292,7 +292,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -308,28 +308,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -347,7 +347,7 @@ You can now change the background color of the `DynamicPage` control by using th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -363,28 +363,28 @@ You can now change the background color of the `DynamicPage` control by using th
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer` \(Experimental\)** 
+**`sap.f.GridContainer` \(Experimental\)** 
 
 
 
@@ -402,7 +402,7 @@ We have enhanced the drag and drop functionality. With the new version, we intro
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -418,28 +418,28 @@ We have enhanced the drag and drop functionality. With the new version, we intro
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker`** 
+**`sap.m.DatePicker`** 
 
 
 
@@ -457,7 +457,7 @@ The options displayed in the picker now depend on the display format. For exampl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -473,28 +473,28 @@ The options displayed in the picker now depend on the display format. For exampl
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog / sap.m.TableSelectDialog`** 
+**`sap.m.SelectDialog / sap.m.TableSelectDialog`** 
 
 
 
@@ -512,7 +512,7 @@ Application developers can now customize the text of the confirmation button for
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -528,28 +528,28 @@ Application developers can now customize the text of the confirmation button for
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog`** 
+**`sap.m.SelectDialog`** 
 
 
 
@@ -567,7 +567,7 @@ We have introduced a new API method called `clearSelection` that allows removing
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -583,28 +583,28 @@ We have introduced a new API method called `clearSelection` that allows removing
 <tr>
 <td valign="top">
 
- 1.68 
+1.68 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -617,7 +617,7 @@ We have introduced a new API method called `clearSelection` that allows removing
 
 To improve the visualization of borrowed *Properties*, *Aggregations*, and *Associations*, we added a checkbox that enables you to switch them on and off. Initially, the borrowed entities aren't displayed.
 
- ![](images/loio33559e63a1064c56969fabd0e43426d8_HiRes.gif) 
+![](images/loio33559e63a1064c56969fabd0e43426d8_HiRes.gif)
 
 **Web Page Title**
 
@@ -630,7 +630,7 @@ The web page title is now updated dynamically to reflect the currently open tab.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -645,7 +645,7 @@ The web page title is now updated dynamically to reflect the currently open tab.
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

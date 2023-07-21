@@ -18,12 +18,12 @@ In this step, we will encapsulate all UI assets in a component that is independe
 
 ### Preview
 
-   
+  
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
- ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
-					visual changes to last step)") 
+![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
+					visual changes to last step)")
 
 ***
 
@@ -35,7 +35,7 @@ You can view and download all files at [Walkthrough - Step 9](https://sdk.openui
   
 **Folder Structure for this Step**
 
- ![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step") 
+![](images/loio1e237a36972a44ac8522dd1a540ac062_HiRes.png "Folder Structure for this Step")
 
 After this step your project structure will look like the figure above. We will create the `Component.js` file now and modify the related files in the app.
 
@@ -172,11 +172,11 @@ We now create a component container instead of the view in our `index.js` that i
 -   The `index.html` file is located in the `webapp` folder if it is used productively.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
+**Next:**[Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
 
-**Previous:** [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
+**Previous:**[Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
 
 **Related Information**  
 

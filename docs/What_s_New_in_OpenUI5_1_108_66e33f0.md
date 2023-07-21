@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/66e33f
 
 With this release OpenUI5 is upgraded from version 1.107 to 1.108.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -109,7 +109,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- ****TypeScript Demo App**** 
+****TypeScript Demo App**** 
 
 
 
@@ -164,7 +164,7 @@ A new `TypeScript To-Do List` demo app is now available in both the Demo Apps an
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ A new `TypeScript To-Do List` demo app is now available in both the Demo Apps an
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -219,7 +219,7 @@ We have introduced a new illustration breakpoint variant `Dot`, suitable for spa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -235,28 +235,28 @@ We have introduced a new illustration breakpoint variant `Dot`, suitable for spa
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Avatar`** 
+**`sap.m.Avatar`** 
 
 
 
@@ -274,7 +274,7 @@ Up to three Latin letters can be displayed as initials in a `sap.m.Avatar`. For 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -290,28 +290,28 @@ Up to three Latin letters can be displayed as initials in a `sap.m.Avatar`. For 
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Replacement for `jQuery.fn.control`** 
+**Replacement for `jQuery.fn.control`** 
 
 
 
@@ -331,7 +331,7 @@ For more information, see [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Repl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -347,28 +347,28 @@ For more information, see [Legacy jQuery.sap Replacement](Legacy_jQuery_sap_Repl
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -390,7 +390,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -406,28 +406,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -450,7 +450,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -466,28 +466,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **sap.m.Carousel** 
+**sap.m.Carousel** 
 
 
 
@@ -505,7 +505,7 @@ We have improved the keyboard interaction and accessibility of the control. The 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -521,28 +521,28 @@ We have improved the keyboard interaction and accessibility of the control. The 
 <tr>
 <td valign="top">
 
- 1.108 
+1.108 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -567,7 +567,7 @@ We have improved the keyboard interaction and accessibility of the control. The 
     -   TableContent
     -   List Content
 
-     For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/iconVisibility) in the Card Explorer. 
+    For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/object/iconVisibility) in the Card Explorer. 
 
 
 <sub>Changed•Control•Info Only•1.108</sub>
@@ -577,7 +577,7 @@ We have improved the keyboard interaction and accessibility of the control. The 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -592,7 +592,7 @@ We have improved the keyboard interaction and accessibility of the control. The 
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

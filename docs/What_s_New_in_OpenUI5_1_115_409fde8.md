@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/409fde
 
 With this release OpenUI5 is upgraded from version 1.114 to 1.115.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.p13n.Engine`** 
+**`sap.m.p13n.Engine`** 
 
 
 
@@ -100,7 +100,7 @@ Available as of
 
 **`sap.m.p13n.Engine`**
 
-We have added more samples for the `Engine` and deprecated the following entities: `TablePersoController` and `TablePersoDialog`. For more information, see [Personalization](Personalization_75c08fd.md), the  [API Reference](https://sdk.openui5.org/api/sap.m.p13n.Engine), and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.EngineGridTable) for `sap.ui.table.Table`, the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.Engine) for `sap.m.Table`, and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.EngineGridList) for `sap.f.GridList`.
+We have added more samples for the `Engine` and deprecated the following entities: `TablePersoController` and `TablePersoDialog`. For more information, see [Personalization](Personalization_75c08fd.md), the [API Reference](https://sdk.openui5.org/api/sap.m.p13n.Engine), and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.EngineGridTable) for `sap.ui.table.Table`, the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.Engine) for `sap.m.Table`, and the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Engine/sample/sap.m.sample.p13n.EngineGridList) for `sap.f.GridList`.
 
 <sub>Changed•Feature•Info Only•1.115</sub>
 
@@ -109,7 +109,7 @@ We have added more samples for the `Engine` and deprecated the following entitie
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ We have added more samples for the `Engine` and deprecated the following entitie
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- ** `sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
 
 
 
@@ -164,7 +164,7 @@ We have deprecated the `editable` property. For more information, see the [API R
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ We have deprecated the `editable` property. For more information, see the [API R
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Introduction of `sap.ui.mdc` library \(experimental\)** 
+**Introduction of `sap.ui.mdc` library \(experimental\)** 
 
 
 
@@ -210,7 +210,7 @@ We have deprecated the `editable` property. For more information, see the [API R
 
 **Introduction of `sap.ui.mdc` library \(experimental\)**
 
-We have introduced the `sap.ui.mdc` library experimentally. This library contains smart composite controls that are metadata-driven and allow applications to use them with any OpenUI5 model and any data protocol. For more information, see [sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md) and the  [API Reference](https://sdk.openui5.org/api/sap.ui.mdc).
+We have introduced the `sap.ui.mdc` library experimentally. This library contains smart composite controls that are metadata-driven and allow applications to use them with any OpenUI5 model and any data protocol. For more information, see [sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md) and the [API Reference](https://sdk.openui5.org/api/sap.ui.mdc).
 
 <sub>New•Feature•Info Only•1.115</sub>
 
@@ -219,7 +219,7 @@ We have introduced the `sap.ui.mdc` library experimentally. This library contain
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -235,28 +235,28 @@ We have introduced the `sap.ui.mdc` library experimentally. This library contain
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -283,7 +283,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -299,28 +299,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData Types** 
+**OpenUI5 OData Types** 
 
 
 
@@ -352,7 +352,7 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -368,28 +368,28 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -414,7 +414,7 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -430,28 +430,28 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **sap.m.Button** 
+**sap.m.Button** 
 
 
 
@@ -462,7 +462,7 @@ For more information, see, for example, the [API Reference](https://sdk.openui5.
 
 We have added a new `accessibleRole` property that can receive a value from an enumeration called `sap.m.ButtonAccessibleRole` and the application developer can select one of two values – `Default` or `Link`.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ButtonAccessibleRole). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ButtonAccessibleRole). 
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
@@ -471,7 +471,7 @@ We have added a new `accessibleRole` property that can receive a value from an e
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -487,28 +487,28 @@ We have added a new `accessibleRole` property that can receive a value from an e
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **sap.m.DynamicDateRange** 
+**sap.m.DynamicDateRange** 
 
 
 
@@ -519,7 +519,7 @@ We have added a new `accessibleRole` property that can receive a value from an e
 
 We removed the experimental tag of the control. This changes the API to make the control more stable and easier to use.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DynamicDateRange). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DynamicDateRange). 
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
@@ -528,7 +528,7 @@ We removed the experimental tag of the control. This changes the API to make the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -544,28 +544,28 @@ We removed the experimental tag of the control. This changes the API to make the
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **sap.m.Wizard** 
+**sap.m.Wizard** 
 
 
 
@@ -583,7 +583,7 @@ We have provided an API that will allow the application to change the H level ba
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -599,28 +599,28 @@ We have provided an API that will allow the application to change the H level ba
 <tr>
 <td valign="top">
 
- 1.115 
+1.115 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **sap.f.SidePanel** 
+**sap.f.SidePanel** 
 
 
 
@@ -631,7 +631,7 @@ We have provided an API that will allow the application to change the H level ba
 
 We have added the ability to place the `sap.f.SidePanel` control on the left side of the screen. Previously it was fixed only to the right side.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.SidePanel). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.SidePanel). 
 
 <sub>Changed•Control•Info Only•1.115</sub>
 
@@ -640,7 +640,7 @@ We have added the ability to place the `sap.f.SidePanel` control on the left sid
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -655,7 +655,7 @@ We have added the ability to place the `sap.f.SidePanel` control on the left sid
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

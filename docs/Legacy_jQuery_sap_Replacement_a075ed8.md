@@ -102,14 +102,14 @@ Replace with
 <tr>
 <td valign="top">
 
- `jQuery.sap.assert` 
+`jQuery.sap.assert` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/assert` 
+`sap/base/assert` 
 
 
 
@@ -123,7 +123,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `assert` 
+`assert` 
 
 
 
@@ -132,7 +132,7 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.resources` 
+`jQuery.sap.resources` 
 
 
 
@@ -162,7 +162,7 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.log` 
+`jQuery.sap.log` 
 
 
 
@@ -183,7 +183,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log` 
+`Log` 
 
 
 
@@ -192,14 +192,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.addLogListener` 
+`jQuery.sap.log.addLogListener` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -213,7 +213,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.addLogListener` 
+`Log.addLogListener` 
 
 
 
@@ -222,14 +222,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.debug` 
+`jQuery.sap.log.debug` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -252,44 +252,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.error` 
+`jQuery.sap.log.error` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
-
-
-
-</td>
-<td valign="top">
-
-Simple replacement
-
-
-
-</td>
-<td valign="top">
-
- `Log.error` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.log.fatal` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -303,7 +273,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.fatal` 
+`Log.error` 
 
 
 
@@ -312,14 +282,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.getLevel` 
+`jQuery.sap.log.fatal` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -333,7 +303,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.getLevel` 
+`Log.fatal` 
 
 
 
@@ -342,14 +312,44 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.getLog` 
+`jQuery.sap.log.getLevel` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
+
+
+
+</td>
+<td valign="top">
+
+Simple replacement
+
+
+
+</td>
+<td valign="top">
+
+`Log.getLevel` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.log.getLog` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/base/Log` 
 
 
 
@@ -363,7 +363,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Log.getLogEntries` 
+`Log.getLogEntries` 
 
 
 
@@ -372,14 +372,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.getLogEntries` 
+`jQuery.sap.log.getLogEntries` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -393,7 +393,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.getLogEntries` 
+`Log.getLogEntries` 
 
 
 
@@ -402,14 +402,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.getLogger` 
+`jQuery.sap.log.getLogger` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -423,7 +423,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.getLogger` 
+`Log.getLogger` 
 
 
 
@@ -432,14 +432,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.info` 
+`jQuery.sap.log.info` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -453,7 +453,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.info` 
+`Log.info` 
 
 
 
@@ -462,14 +462,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.isLoggable` 
+`jQuery.sap.log.isLoggable` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -483,7 +483,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.isLoggable` 
+`Log.isLoggable` 
 
 
 
@@ -492,14 +492,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.Level` 
+`jQuery.sap.log.Level` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -513,7 +513,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.Level` 
+`Log.Level` 
 
 
 
@@ -522,14 +522,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.logSupportInfo` 
+`jQuery.sap.log.logSupportInfo` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -543,7 +543,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.logSupportInfo` 
+`Log.logSupportInfo` 
 
 
 
@@ -552,14 +552,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.removeLogListener` 
+`jQuery.sap.log.removeLogListener` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -573,7 +573,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.removeLogListener` 
+`Log.removeLogListener` 
 
 
 
@@ -582,14 +582,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.trace` 
+`jQuery.sap.log.trace` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -603,7 +603,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.trace` 
+`Log.trace` 
 
 
 
@@ -612,14 +612,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.log.warning` 
+`jQuery.sap.log.warning` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/Log` 
+`sap/base/Log` 
 
 
 
@@ -633,7 +633,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Log.warning` 
+`Log.warning` 
 
 
 
@@ -642,14 +642,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeCSS` 
+`jQuery.sap.encodeCSS` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeCSS` 
+`sap/base/security/encodeCSS` 
 
 
 
@@ -663,7 +663,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeCSS` 
+`encodeCSS` 
 
 
 
@@ -672,14 +672,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeJS` 
+`jQuery.sap.encodeJS` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeJS` 
+`sap/base/security/encodeJS` 
 
 
 
@@ -693,7 +693,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeJS` 
+`encodeJS` 
 
 
 
@@ -702,14 +702,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeURL` 
+`jQuery.sap.encodeURL` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeURL` 
+`sap/base/security/encodeURL` 
 
 
 
@@ -723,7 +723,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeURL` 
+`encodeURL` 
 
 
 
@@ -732,14 +732,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeURLParameters` 
+`jQuery.sap.encodeURLParameters` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeURLParameters` 
+`sap/base/security/encodeURLParameters` 
 
 
 
@@ -753,7 +753,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeURLParameters` 
+`encodeURLParameters` 
 
 
 
@@ -762,14 +762,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeHTML` 
+`jQuery.sap.encodeHTML` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeXML` 
+`sap/base/security/encodeXML` 
 
 
 
@@ -783,7 +783,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeXML` 
+`encodeXML` 
 
 
 
@@ -792,14 +792,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.encodeXML` 
+`jQuery.sap.encodeXML` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/encodeXML` 
+`sap/base/security/encodeXML` 
 
 
 
@@ -813,7 +813,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `encodeXML` 
+`encodeXML` 
 
 
 
@@ -822,14 +822,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.addUrlWhitelist` 
+`jQuery.sap.addUrlWhitelist` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/URLListValidator` 
+`sap/base/security/URLListValidator` 
 
 
 
@@ -843,7 +843,7 @@ Method changed
 </td>
 <td valign="top">
 
- `URLListValidator.add` 
+`URLListValidator.add` 
 
 
 
@@ -852,14 +852,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.clearUrlWhitelist` 
+`jQuery.sap.clearUrlWhitelist` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/URLListValidator` 
+`sap/base/security/URLListValidator` 
 
 
 
@@ -873,7 +873,7 @@ Method changed
 </td>
 <td valign="top">
 
- `URLListValidator.clear` 
+`URLListValidator.clear` 
 
 
 
@@ -882,14 +882,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.getUrlWhitelist` 
+`jQuery.sap.getUrlWhitelist` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/URLListValidator` 
+`sap/base/security/URLListValidator` 
 
 
 
@@ -903,7 +903,7 @@ Method changed
 </td>
 <td valign="top">
 
- `URLListValidator.entries` 
+`URLListValidator.entries` 
 
 
 
@@ -912,14 +912,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.removeUrlWhitelist` 
+`jQuery.sap.removeUrlWhitelist` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/URLListValidator` 
+`sap/base/security/URLListValidator` 
 
 
 
@@ -933,7 +933,7 @@ Complex replacement
 </td>
 <td valign="top">
 
- `URLListValidator.clear` and `URLListValidator.add` 
+`URLListValidator.clear` and `URLListValidator.add` 
 
 
 
@@ -942,14 +942,14 @@ Complex replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.validateUrl` 
+`jQuery.sap.validateUrl` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/security/URLListValidator` 
+`sap/base/security/URLListValidator` 
 
 
 
@@ -963,7 +963,7 @@ Method changed
 </td>
 <td valign="top">
 
- `URLListValidator.validate` 
+`URLListValidator.validate` 
 
 
 
@@ -972,14 +972,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.camelCase` 
+`jQuery.sap.camelCase` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/camelize` 
+`sap/base/strings/camelize` 
 
 
 
@@ -993,7 +993,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `camelize` 
+`camelize` 
 
 
 
@@ -1002,14 +1002,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.charToUpperCase` 
+`jQuery.sap.charToUpperCase` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/capitalize` 
+`sap/base/strings/capitalize` 
 
 
 
@@ -1023,7 +1023,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `capitalize` 
+`capitalize` 
 
 
 
@@ -1032,14 +1032,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.escapeRegExp` 
+`jQuery.sap.escapeRegExp` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/escapeRegExp` 
+`sap/base/strings/escapeRegExp` 
 
 
 
@@ -1062,14 +1062,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.formatMessage` 
+`jQuery.sap.formatMessage` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/formatMessage` 
+`sap/base/strings/formatMessage` 
 
 
 
@@ -1083,7 +1083,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `formatMessage` 
+`formatMessage` 
 
 
 
@@ -1092,14 +1092,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.hashCode` 
+`jQuery.sap.hashCode` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/hash` 
+`sap/base/strings/hash` 
 
 
 
@@ -1122,14 +1122,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.hyphen` 
+`jQuery.sap.hyphen` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/strings/hyphenate` 
+`sap/base/strings/hyphenate` 
 
 
 
@@ -1143,7 +1143,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `hyphenate` 
+`hyphenate` 
 
 
 
@@ -1161,7 +1161,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `sap/base/strings/NormalizePolyfill` 
+`sap/base/strings/NormalizePolyfill` 
 
 
 
@@ -1214,14 +1214,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.arraySymbolDiff` 
+`jQuery.sap.arraySymbolDiff` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/array/diff` 
+`sap/base/util/array/diff` 
 
 
 
@@ -1235,7 +1235,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `diff` 
+`diff` 
 
 
 
@@ -1244,14 +1244,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.unique` 
+`jQuery.sap.unique` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/array/uniqueSort` 
+`sap/base/util/array/uniqueSort` 
 
 
 
@@ -1265,7 +1265,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `uniqueSort` 
+`uniqueSort` 
 
 
 
@@ -1274,14 +1274,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.equal` 
+`jQuery.sap.equal` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/deepEqual` 
+`sap/base/util/deepEqual` 
 
 
 
@@ -1295,7 +1295,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `deepEqual` 
+`deepEqual` 
 
 
 
@@ -1311,97 +1311,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `sap/base/util/defineLazyProperty` 
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.each` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/base/util/each` 
-
-
-
-</td>
-<td valign="top">
-
-Simple replacement
-
-
-
-</td>
-<td valign="top">
-
- `each` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.forIn` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/base/util/each` 
-
-
-
-</td>
-<td valign="top">
-
-Simple replacement
-
-
-
-</td>
-<td valign="top">
-
- `each` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
- `sap/base/util/includes` 
+`sap/base/util/defineLazyProperty` 
 
 
 
@@ -1424,14 +1334,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.isPlainObject` 
+`jQuery.sap.each` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/isPlainObject` 
+`sap/base/util/each` 
 
 
 
@@ -1445,7 +1355,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `isPlainObject` 
+`each` 
 
 
 
@@ -1454,14 +1364,104 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.parseJS` 
+`jQuery.sap.forIn` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/JSTokenizer` 
+`sap/base/util/each` 
+
+
+
+</td>
+<td valign="top">
+
+Simple replacement
+
+
+
+</td>
+<td valign="top">
+
+`each` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+\-
+
+
+
+</td>
+<td valign="top">
+
+`sap/base/util/includes` 
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.isPlainObject` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/base/util/isPlainObject` 
+
+
+
+</td>
+<td valign="top">
+
+Simple replacement
+
+
+
+</td>
+<td valign="top">
+
+`isPlainObject` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.parseJS` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/base/util/JSTokenizer` 
 
 
 
@@ -1475,7 +1475,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `JSTokenizer.parseJS` 
+`JSTokenizer.parseJS` 
 
 
 
@@ -1484,14 +1484,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.extend` 
+`jQuery.sap.extend` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/merge` 
+`sap/base/util/merge` 
 
 
 
@@ -1546,14 +1546,14 @@ merge({}, sContent);
 <tr>
 <td valign="top">
 
- `jQuery.sap.now` 
+`jQuery.sap.now` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/now` 
+`sap/base/util/now` 
 
 
 
@@ -1567,7 +1567,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `now` 
+`now` 
 
 
 
@@ -1576,14 +1576,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.getObject` 
+`jQuery.sap.getObject` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/ObjectPath` 
+`sap/base/util/ObjectPath` 
 
 
 
@@ -1614,14 +1614,14 @@ ObjectPath.create("some.object.path", window.myLib);
 <tr>
 <td valign="top">
 
- `jQuery.sap.setObject` 
+`jQuery.sap.setObject` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/ObjectPath` 
+`sap/base/util/ObjectPath` 
 
 
 
@@ -1648,14 +1648,14 @@ The object path is created if it does not exist.
 <tr>
 <td valign="top">
 
- `jQuery.sap.properties` 
+`jQuery.sap.properties` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/Properties` 
+`sap/base/util/Properties` 
 
 
 
@@ -1669,7 +1669,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Properties.create` 
+`Properties.create` 
 
 
 
@@ -1678,14 +1678,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.uid` 
+`jQuery.sap.uid` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/uid` 
+`sap/base/util/uid` 
 
 
 
@@ -1699,7 +1699,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `uid` 
+`uid` 
 
 
 
@@ -1708,14 +1708,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.getUriParameters` 
+`jQuery.sap.getUriParameters` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/UriParameters` 
+`sap/base/util/UriParameters` 
 
 
 
@@ -1748,7 +1748,7 @@ oUriParameters.get("sap-ui-debug");
 </td>
 <td valign="top">
 
- `sap/base/util/values` 
+`sap/base/util/values` 
 
 
 
@@ -1771,74 +1771,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.Version` 
+`jQuery.sap.Version` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/base/util/Version` 
-
-
-
-</td>
-<td valign="top">
-
-Simple Replacement
-
-
-
-</td>
-<td valign="top">
-
- `Version` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/core/support/HotKeys` 
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.syncStyleClass` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/core/syncStyleClass` 
+`sap/base/util/Version` 
 
 
 
@@ -1852,7 +1792,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `syncStyleClass` 
+`Version` 
 
 
 
@@ -1861,14 +1801,74 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.device.is.android_phone` 
+\-
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/core/support/HotKeys` 
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.syncStyleClass` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/core/syncStyleClass` 
+
+
+
+</td>
+<td valign="top">
+
+Simple Replacement
+
+
+
+</td>
+<td valign="top">
+
+`syncStyleClass` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.device.is.android_phone` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/Device` 
 
 
 
@@ -1893,14 +1893,14 @@ Device.os.android && Device.system.phone
 <tr>
 <td valign="top">
 
- `jQuery.device.is.android_tablet` 
+`jQuery.device.is.android_tablet` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -1925,14 +1925,14 @@ Device.os.android && Device.system.tablet
 <tr>
 <td valign="top">
 
- `jQuery.device.is.desktop` 
+`jQuery.device.is.desktop` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -1957,14 +1957,14 @@ Device.system.desktop
 <tr>
 <td valign="top">
 
- `jQuery.device.is.ipad` 
+`jQuery.device.is.ipad` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -1989,14 +1989,14 @@ Device.os.ios && Device.system.ipad
 <tr>
 <td valign="top">
 
- `jQuery.device.is.iphone` 
+`jQuery.device.is.iphone` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2021,14 +2021,14 @@ Device.os.ios && Device.system.phone
 <tr>
 <td valign="top">
 
- `jQuery.device.is.landscape` 
+`jQuery.device.is.landscape` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2053,14 +2053,14 @@ Device.orientation.landscape
 <tr>
 <td valign="top">
 
- `jQuery.device.is.phone` 
+`jQuery.device.is.phone` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2085,14 +2085,14 @@ Device.system.phone
 <tr>
 <td valign="top">
 
- `jQuery.device.is.portrait` 
+`jQuery.device.is.portrait` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2117,14 +2117,14 @@ Device.orientation.portrait
 <tr>
 <td valign="top">
 
- `jQuery.device.is.tablet` 
+`jQuery.device.is.tablet` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2149,14 +2149,14 @@ Device.system.tablet
 <tr>
 <td valign="top">
 
- `jQuery.os.Android` 
+`jQuery.os.Android` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2181,14 +2181,14 @@ Device.os.name === "Android"
 <tr>
 <td valign="top">
 
- `jQuery.os.bb` 
+`jQuery.os.bb` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2213,14 +2213,14 @@ Device.os.name === "bb"
 <tr>
 <td valign="top">
 
- `jQuery.os.fVersion` 
+`jQuery.os.fVersion` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2245,14 +2245,14 @@ Device.os.version
 <tr>
 <td valign="top">
 
- `jQuery.os.iOS` 
+`jQuery.os.iOS` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2277,14 +2277,14 @@ Device.os.name === "iOS"
 <tr>
 <td valign="top">
 
- `jQuery.os.linux` 
+`jQuery.os.linux` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2309,14 +2309,14 @@ Device.os.name === "linux"
 <tr>
 <td valign="top">
 
- `jQuery.os.mac` 
+`jQuery.os.mac` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2341,14 +2341,14 @@ Device.os.name === "mac"
 <tr>
 <td valign="top">
 
- `jQuery.os.os` 
+`jQuery.os.os` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2373,14 +2373,14 @@ Device.os.name
 <tr>
 <td valign="top">
 
- `jQuery.os.version` 
+`jQuery.os.version` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2405,14 +2405,14 @@ Device.os.versionStr
 <tr>
 <td valign="top">
 
- `jQuery.os.win` 
+`jQuery.os.win` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2437,14 +2437,14 @@ Device.os.name === "win"
 <tr>
 <td valign="top">
 
- `jQuery.os.winphone` 
+`jQuery.os.winphone` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/Device` 
+`sap/ui/Device` 
 
 
 
@@ -2469,44 +2469,14 @@ Device.os.name === "winphone"
 <tr>
 <td valign="top">
 
- `jQuery.sap.containsOrEquals` 
+`jQuery.sap.containsOrEquals` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/containsOrEquals` 
-
-
-
-</td>
-<td valign="top">
-
-Simple Replacement
-
-
-
-</td>
-<td valign="top">
-
- `containsOrEquals` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.denormalizeScrollBeginRTL` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/denormalizeScrollBeginRTL` 
+`sap/ui/dom/containsOrEquals` 
 
 
 
@@ -2520,7 +2490,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `denormalizeScrollBeginRTL` 
+`containsOrEquals` 
 
 
 
@@ -2529,14 +2499,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.denormalizeScrollLeftRTL` 
+`jQuery.sap.denormalizeScrollBeginRTL` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/denormalizeScrollLeftRTL` 
+`sap/ui/dom/denormalizeScrollBeginRTL` 
 
 
 
@@ -2550,7 +2520,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `denormalizeScrollLeftRTL` 
+`denormalizeScrollBeginRTL` 
 
 
 
@@ -2559,14 +2529,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.ownerWindow` 
+`jQuery.sap.denormalizeScrollLeftRTL` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/getOwnerWindow` 
+`sap/ui/dom/denormalizeScrollLeftRTL` 
 
 
 
@@ -2580,7 +2550,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `getOwnerWindow` 
+`denormalizeScrollLeftRTL` 
 
 
 
@@ -2589,14 +2559,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.scrollbarSize` 
+`jQuery.sap.ownerWindow` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/getScrollbarSize` 
+`sap/ui/dom/getOwnerWindow` 
 
 
 
@@ -2610,7 +2580,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `getScrollbarSize` 
+`getOwnerWindow` 
 
 
 
@@ -2619,14 +2589,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.includeScript` 
+`jQuery.sap.scrollbarSize` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/includeScript` 
+`sap/ui/dom/getScrollbarSize` 
 
 
 
@@ -2640,7 +2610,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `includeScript` 
+`getScrollbarSize` 
 
 
 
@@ -2649,14 +2619,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.includeStylesheet` 
+`jQuery.sap.includeScript` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/includeStylesheet` 
+`sap/ui/dom/includeScript` 
 
 
 
@@ -2670,7 +2640,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `includeStylesheet` 
+`includeScript` 
 
 
 
@@ -2679,14 +2649,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.replaceDOM` 
+`jQuery.sap.includeStylesheet` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/patch` 
+`sap/ui/dom/includeStylesheet` 
 
 
 
@@ -2700,7 +2670,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `patch` 
+`includeStylesheet` 
 
 
 
@@ -2709,14 +2679,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.pxToRem` 
+`jQuery.sap.replaceDOM` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/units/Rem` 
+`sap/ui/dom/patch` 
 
 
 
@@ -2730,7 +2700,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Rem.fromPx` 
+`patch` 
 
 
 
@@ -2739,14 +2709,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.remToPx` 
+`jQuery.sap.pxToRem` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/units/Rem` 
+`sap/ui/dom/units/Rem` 
 
 
 
@@ -2760,7 +2730,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Rem.toPx` 
+`Rem.fromPx` 
 
 
 
@@ -2769,14 +2739,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.checkMouseEnterOrLeave` 
+`jQuery.sap.remToPx` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/checkMouseEnterOrLeave` 
+`sap/ui/dom/units/Rem` 
 
 
 
@@ -2790,7 +2760,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `checkMouseEnterOrLeave` 
+`Rem.toPx` 
 
 
 
@@ -2799,14 +2769,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.bindAnyEvent` 
+`jQuery.sap.checkMouseEnterOrLeave` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/ControlEvents` 
+`sap/ui/events/checkMouseEnterOrLeave` 
 
 
 
@@ -2820,7 +2790,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `bindAnyEvent` 
+`checkMouseEnterOrLeave` 
 
 
 
@@ -2829,14 +2799,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.ControlEvents` 
+`jQuery.sap.bindAnyEvent` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/ControlEvents` 
+`sap/ui/events/ControlEvents` 
 
 
 
@@ -2850,7 +2820,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `events` 
+`bindAnyEvent` 
 
 
 
@@ -2859,14 +2829,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.unbindAnyEvent` 
+`jQuery.sap.ControlEvents` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/ControlEvents` 
+`sap/ui/events/ControlEvents` 
 
 
 
@@ -2880,7 +2850,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `unbindAnyEvent` 
+`events` 
 
 
 
@@ -2889,14 +2859,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.handleF6GroupNavigation` 
+`jQuery.sap.unbindAnyEvent` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/F6Navigation` 
+`sap/ui/events/ControlEvents` 
 
 
 
@@ -2910,7 +2880,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `handleF6GroupNavigation` 
+`unbindAnyEvent` 
 
 
 
@@ -2919,14 +2889,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.isMouseEventDelayed` 
+`jQuery.sap.handleF6GroupNavigation` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/isMouseEventDelayed` 
+`sap/ui/events/F6Navigation` 
 
 
 
@@ -2940,7 +2910,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `isMouseEventDelayed` 
+`handleF6GroupNavigation` 
 
 
 
@@ -2949,14 +2919,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.isSpecialKey` 
+`jQuery.sap.isMouseEventDelayed` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/isSpecialKey` 
+`sap/ui/events/isMouseEventDelayed` 
 
 
 
@@ -2970,7 +2940,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `isSpecialKey` 
+`isMouseEventDelayed` 
 
 
 
@@ -2979,14 +2949,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.touchEventMode` 
+`jQuery.sap.isSpecialKey` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/jquery/EventSimulation` 
+`sap/ui/events/isSpecialKey` 
 
 
 
@@ -3000,7 +2970,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `touchEventMode` 
+`isSpecialKey` 
 
 
 
@@ -3009,14 +2979,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.keycodes` 
+`jQuery.sap.touchEventMode` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/KeyCodes` 
+`sap/ui/events/jquery/EventSimulation` 
 
 
 
@@ -3030,7 +3000,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `KeyCodes` 
+`touchEventMode` 
 
 
 
@@ -3039,14 +3009,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.PseudoEvents` 
+`jQuery.sap.keycodes` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/PseudoEvents` 
+`sap/ui/events/KeyCodes` 
 
 
 
@@ -3060,7 +3030,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `PseudoEvents` 
+`KeyCodes` 
 
 
 
@@ -3069,14 +3039,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.disableTouchToMouseHandling` 
+`jQuery.sap.PseudoEvents` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/events/TouchToMouseMapping` 
+`sap/ui/events/PseudoEvents` 
 
 
 
@@ -3090,7 +3060,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `disableTouchToMouseHandling` 
+`PseudoEvents` 
 
 
 
@@ -3099,7 +3069,37 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.registerModulePath` 
+`jQuery.sap.disableTouchToMouseHandling` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/events/TouchToMouseMapping` 
+
+
+
+</td>
+<td valign="top">
+
+Simple Replacement
+
+
+
+</td>
+<td valign="top">
+
+`disableTouchToMouseHandling` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.registerModulePath` 
 
 
 
@@ -3131,7 +3131,7 @@ sap.ui.loader.config({paths:{"myPath": "some/path"}});
 <tr>
 <td valign="top">
 
- `jQuery.sap.registerResourcePath` 
+`jQuery.sap.registerResourcePath` 
 
 
 
@@ -3163,44 +3163,14 @@ sap.ui.loader.config({paths:{"myPath": "some/path"}});
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.add` 
+`jQuery.sap.measure.add` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
-
-
-
-</td>
-<td valign="top">
-
-Simple Replacement
-
-
-
-</td>
-<td valign="top">
-
- `Measurement.add` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.measure.average` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3214,7 +3184,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.average` 
+`Measurement.add` 
 
 
 
@@ -3223,14 +3193,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.clear` 
+`jQuery.sap.measure.average` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3244,7 +3214,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.clear` 
+`Measurement.average` 
 
 
 
@@ -3253,14 +3223,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.end` 
+`jQuery.sap.measure.clear` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3274,7 +3244,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.end` 
+`Measurement.clear` 
 
 
 
@@ -3283,14 +3253,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.filterMeasurements` 
+`jQuery.sap.measure.end` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3304,7 +3274,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.filterMeasurements` 
+`Measurement.end` 
 
 
 
@@ -3313,14 +3283,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.getActive` 
+`jQuery.sap.measure.filterMeasurements` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3334,7 +3304,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.getActive` 
+`Measurement.filterMeasurements` 
 
 
 
@@ -3343,14 +3313,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.getAllMeasurements` 
+`jQuery.sap.measure.getActive` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3364,7 +3334,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.getAllMeasurements` 
+`Measurement.getActive` 
 
 
 
@@ -3373,14 +3343,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.getMeasurement` 
+`jQuery.sap.measure.getAllMeasurements` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3394,7 +3364,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.getMeasurement` 
+`Measurement.getAllMeasurements` 
 
 
 
@@ -3403,14 +3373,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.pause` 
+`jQuery.sap.measure.getMeasurement` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3424,7 +3394,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.pause` 
+`Measurement.getMeasurement` 
 
 
 
@@ -3433,14 +3403,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.registerMethod` 
+`jQuery.sap.measure.pause` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3454,7 +3424,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.registerMethod` 
+`Measurement.pause` 
 
 
 
@@ -3463,14 +3433,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.remove` 
+`jQuery.sap.measure.registerMethod` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3484,7 +3454,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.remove` 
+`Measurement.registerMethod` 
 
 
 
@@ -3493,14 +3463,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.resume` 
+`jQuery.sap.measure.remove` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3514,7 +3484,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.resume` 
+`Measurement.remove` 
 
 
 
@@ -3523,14 +3493,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.setActive` 
+`jQuery.sap.measure.resume` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3544,7 +3514,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.setActive` 
+`Measurement.resume` 
 
 
 
@@ -3553,14 +3523,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.start` 
+`jQuery.sap.measure.setActive` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3574,7 +3544,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.start` 
+`Measurement.setActive` 
 
 
 
@@ -3583,14 +3553,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.unregisterAllMethods` 
+`jQuery.sap.measure.start` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3604,7 +3574,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.unregisterAllMethods` 
+`Measurement.start` 
 
 
 
@@ -3613,14 +3583,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.unregisterMethod` 
+`jQuery.sap.measure.unregisterAllMethods` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/Measurement` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3634,7 +3604,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Measurement.unregisterMethod` 
+`Measurement.unregisterAllMethods` 
 
 
 
@@ -3643,14 +3613,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.fesr.getActive` 
+`jQuery.sap.measure.unregisterMethod` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/FESR` 
+`sap/ui/performance/Measurement` 
 
 
 
@@ -3664,7 +3634,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `FESR.getActive` 
+`Measurement.unregisterMethod` 
 
 
 
@@ -3673,14 +3643,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.fesr.setActive` 
+`jQuery.sap.fesr.getActive` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/FESR` 
+`sap/ui/performance/trace/FESR` 
 
 
 
@@ -3694,7 +3664,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `FESR.setActive` 
+`FESR.getActive` 
 
 
 
@@ -3703,14 +3673,14 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.fesr.addBusyDuration` 
+`jQuery.sap.fesr.setActive` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/FESR` 
 
 
 
@@ -3724,7 +3694,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
- `Interaction.addBusyDuration` 
+`FESR.setActive` 
 
 
 
@@ -3733,14 +3703,44 @@ Simple Replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.interaction.*` 
+`jQuery.sap.fesr.addBusyDuration` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
+
+
+
+</td>
+<td valign="top">
+
+Simple Replacement
+
+
+
+</td>
+<td valign="top">
+
+`Interaction.addBusyDuration` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.interaction.*` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3754,7 +3754,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.*` 
+`Interaction.*` 
 
 
 
@@ -3763,14 +3763,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.clearInteractionMeasurements` 
+`jQuery.sap.measure.clearInteractionMeasurements` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3784,7 +3784,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.clear` 
+`Interaction.clear` 
 
 
 
@@ -3793,14 +3793,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.endInteraction` 
+`jQuery.sap.measure.endInteraction` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3814,7 +3814,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.end` 
+`Interaction.end` 
 
 
 
@@ -3823,14 +3823,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.filterInteractionMeasurements` 
+`jQuery.sap.measure.filterInteractionMeasurements` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3844,7 +3844,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.filter` 
+`Interaction.filter` 
 
 
 
@@ -3853,14 +3853,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.getAllInteractionMeasurements` 
+`jQuery.sap.measure.getAllInteractionMeasurements` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3874,7 +3874,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.getAll` 
+`Interaction.getAll` 
 
 
 
@@ -3883,14 +3883,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.getPendingInteractionMeasurement` 
+`jQuery.sap.measure.getPendingInteractionMeasurement` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3904,7 +3904,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.getPending` 
+`Interaction.getPending` 
 
 
 
@@ -3913,14 +3913,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.measure.startInteraction` 
+`jQuery.sap.measure.startInteraction` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Interaction` 
+`sap/ui/performance/trace/Interaction` 
 
 
 
@@ -3934,7 +3934,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Interaction.start` 
+`Interaction.start` 
 
 
 
@@ -3943,14 +3943,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.fesr.getCurrentTransactionId` 
+`jQuery.sap.fesr.getCurrentTransactionId` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Passport` 
+`sap/ui/performance/trace/Passport` 
 
 
 
@@ -3964,7 +3964,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Passport.getTransactionId` 
+`Passport.getTransactionId` 
 
 
 
@@ -3973,14 +3973,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.fesr.getRootId` 
+`jQuery.sap.fesr.getRootId` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Passport` 
+`sap/ui/performance/trace/Passport` 
 
 
 
@@ -3994,7 +3994,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Passport.getRootId` 
+`Passport.getRootId` 
 
 
 
@@ -4003,14 +4003,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.passport.*` 
+`jQuery.sap.passport.*` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/performance/trace/Passport` 
+`sap/ui/performance/trace/Passport` 
 
 
 
@@ -4024,7 +4024,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Passport.*` 
+`Passport.*` 
 
 
 
@@ -4033,7 +4033,7 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.getModulePath` 
+`jQuery.sap.getModulePath` 
 
 
 
@@ -4065,7 +4065,7 @@ sap.ui.require.toUrl("some/path/to/module.js");
 <tr>
 <td valign="top">
 
- `jQuery.sap.getResourcePath` 
+`jQuery.sap.getResourcePath` 
 
 
 
@@ -4097,44 +4097,14 @@ sap.ui.require.toUrl("some/path/to/resource.json");
 <tr>
 <td valign="top">
 
- `jQuery.sap.FrameOptions` 
+`jQuery.sap.FrameOptions` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/security/FrameOptions` 
-
-
-
-</td>
-<td valign="top">
-
-Simple replacement
-
-
-
-</td>
-<td valign="top">
-
- `FrameOptions` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.sap.act` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/util/ActivityDetection` 
+`sap/ui/security/FrameOptions` 
 
 
 
@@ -4148,7 +4118,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `ActivityDetection` 
+`FrameOptions` 
 
 
 
@@ -4157,14 +4127,44 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.initMobile` 
+`jQuery.sap.act` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/Mobile` 
+`sap/ui/util/ActivityDetection` 
+
+
+
+</td>
+<td valign="top">
+
+Simple replacement
+
+
+
+</td>
+<td valign="top">
+
+`ActivityDetection` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.sap.initMobile` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/util/Mobile` 
 
 
 
@@ -4178,7 +4178,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Mobile.init` 
+`Mobile.init` 
 
 
 
@@ -4187,14 +4187,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.setIcons` 
+`jQuery.sap.setIcons` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/Mobile` 
+`sap/ui/util/Mobile` 
 
 
 
@@ -4208,7 +4208,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Mobile.setIcons` 
+`Mobile.setIcons` 
 
 
 
@@ -4217,14 +4217,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.setMobileWebAppCapable` 
+`jQuery.sap.setMobileWebAppCapable` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/Mobile` 
+`sap/ui/util/Mobile` 
 
 
 
@@ -4238,7 +4238,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Mobile.setWebAppCabable` 
+`Mobile.setWebAppCabable` 
 
 
 
@@ -4247,14 +4247,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.storage` 
+`jQuery.sap.storage` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/Storage` 
+`sap/ui/util/Storage` 
 
 
 
@@ -4268,7 +4268,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Storage` 
+`Storage` 
 
 
 
@@ -4277,14 +4277,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.storage.Type.*` 
+`jQuery.sap.storage.Type.*` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/Storage` 
+`sap/ui/util/Storage` 
 
 
 
@@ -4298,7 +4298,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Storage.Type` 
+`Storage.Type` 
 
 
 
@@ -4307,14 +4307,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.getParseError` 
+`jQuery.sap.getParseError` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/XMLHelper` 
+`sap/ui/util/XMLHelper` 
 
 
 
@@ -4328,7 +4328,7 @@ Simple replacement
 </td>
 <td valign="top">
 
- `Helper.getParseError` 
+`Helper.getParseError` 
 
 
 
@@ -4337,14 +4337,14 @@ Simple replacement
 <tr>
 <td valign="top">
 
- `jQuery.sap.parseXML` 
+`jQuery.sap.parseXML` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/XMLHelper` 
+`sap/ui/util/XMLHelper` 
 
 
 
@@ -4358,7 +4358,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Helper.parse` 
+`Helper.parse` 
 
 
 
@@ -4367,14 +4367,14 @@ Method changed
 <tr>
 <td valign="top">
 
- `jQuery.sap.serializeXML` 
+`jQuery.sap.serializeXML` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/util/XMLHelper` 
+`sap/ui/util/XMLHelper` 
 
 
 
@@ -4388,7 +4388,7 @@ Method changed
 </td>
 <td valign="top">
 
- `Helper.serialize` 
+`Helper.serialize` 
 
 
 
@@ -4601,7 +4601,7 @@ function(value) { return function() { return value; }; }(myValue);
 <tr>
 <td valign="top">
 
- `jQuery.sap.intervalCall` 
+`jQuery.sap.intervalCall` 
 
 
 
@@ -4619,7 +4619,7 @@ window.setInterval
 <tr>
 <td valign="top">
 
- `jQuery.sap.isEqualNode` 
+`jQuery.sap.isEqualNode` 
 
 
 
@@ -4637,7 +4637,7 @@ Node.isEqualNode
 <tr>
 <td valign="top">
 
- `jQuery.sap.newObject` 
+`jQuery.sap.newObject` 
 
 
 
@@ -4655,7 +4655,7 @@ Object.create
 <tr>
 <td valign="top">
 
- `jQuery.sap.padLeft` 
+`jQuery.sap.padLeft` 
 
 
 
@@ -4673,7 +4673,7 @@ Object.create
 <tr>
 <td valign="top">
 
- `jQuery.sap.padRight` 
+`jQuery.sap.padRight` 
 
 
 
@@ -4691,7 +4691,7 @@ Object.create
 <tr>
 <td valign="top">
 
- `jQuery.sap.resources.isBundle` 
+`jQuery.sap.resources.isBundle` 
 
 
 
@@ -4709,7 +4709,7 @@ instanceof
 <tr>
 <td valign="top">
 
- `jQuery.sap.startsWith` 
+`jQuery.sap.startsWith` 
 
 
 
@@ -4727,7 +4727,7 @@ sMyString.startsWith("abc");
 <tr>
 <td valign="top">
 
- `jQuery.sap.startsWithIgnoreCase` 
+`jQuery.sap.startsWithIgnoreCase` 
 
 
 
@@ -4745,7 +4745,7 @@ sMyString.toLowerCase().startsWith(sMyOtherString.toLowerCase())
 <tr>
 <td valign="top">
 
- `jQuery.support.retina` 
+`jQuery.support.retina` 
 
 
 
@@ -4843,44 +4843,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.*` 
+`jQuery.*` 
 
 
 
 </td>
 <td valign="top">
 
- `jQuery.sap.global` 
+`jQuery.sap.global` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/thirdparty/jquery` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.position` 
-
-
-
-</td>
-<td valign="top">
-
- `jQuery.sap.global` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/thirdparty/jqueryui/jquery-ui-position` 
+`sap/ui/thirdparty/jquery` 
 
 
 
@@ -4889,44 +4866,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.control` 
+`jQuery.position` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.ui` 
+`jQuery.sap.global` 
 
 
 
 </td>
 <td valign="top">
 
- `Element.closestTo` in `sap/ui/core/Element` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.addLabelledBy` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/Aria` 
+`sap/ui/thirdparty/jqueryui/jquery-ui-position` 
 
 
 
@@ -4935,44 +4889,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.removeLabelledBy` 
+`jQuery.fn.control` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.ui` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/Aria` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.addDescribedBy` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/Aria` 
+`Element.closestTo` in `sap/ui/core/Element` 
 
 
 
@@ -4981,44 +4912,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.removeDescribedBy` 
+`jQuery.fn.addLabelledBy` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/Aria` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.cursorPos` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/cursorPos` 
+`sap/ui/dom/jquery/Aria` 
 
 
 
@@ -5027,44 +4935,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.firstFocusableDomRef` 
+`jQuery.fn.removeLabelledBy` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/Focusable` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.lastFocusableDomRef` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/Focusable` 
+`sap/ui/dom/jquery/Aria` 
 
 
 
@@ -5073,44 +4958,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.getSelectedText` 
+`jQuery.fn.addDescribedBy` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/getSelectedText` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.hasTabIndex` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/hasTabIndex` 
+`sap/ui/dom/jquery/Aria` 
 
 
 
@@ -5119,44 +4981,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.parentByAttribute` 
+`jQuery.fn.removeDescribedBy` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/parentByAttribute` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.rect` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/rect` 
+`sap/ui/dom/jquery/Aria` 
 
 
 
@@ -5165,44 +5004,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.rectContains` 
+`jQuery.fn.cursorPos` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/rectContains` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.scrollLeftRTL` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/scrollLeftRTL` 
+`sap/ui/dom/jquery/cursorPos` 
 
 
 
@@ -5211,44 +5027,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.scrollRightRTL` 
+`jQuery.fn.firstFocusableDomRef` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/scrollRightRTL` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `jQuery.fn.enableSelection` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/Selection` 
+`sap/ui/dom/jquery/Focusable` 
 
 
 
@@ -5257,44 +5050,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.disableSelection` 
+`jQuery.fn.lastFocusableDomRef` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/Selection` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `:sapTabbable, :focusable, :sapFocusable` 
-
-
-
-</td>
-<td valign="top">
-
- `jquery.sap.dom` 
-
-
-
-</td>
-<td valign="top">
-
- `sap/ui/dom/jquery/Selectors` 
+`sap/ui/dom/jquery/Focusable` 
 
 
 
@@ -5303,21 +5073,21 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.selectText` 
+`jQuery.fn.getSelectedText` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/selectText` 
+`sap/ui/dom/jquery/getSelectedText` 
 
 
 
@@ -5326,21 +5096,251 @@ New Module
 <tr>
 <td valign="top">
 
- `jQuery.fn.zIndex` 
+`jQuery.fn.hasTabIndex` 
 
 
 
 </td>
 <td valign="top">
 
- `jquery.sap.dom` 
+`jquery.sap.dom` 
 
 
 
 </td>
 <td valign="top">
 
- `sap/ui/dom/jquery/zIndex` 
+`sap/ui/dom/jquery/hasTabIndex` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.parentByAttribute` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/parentByAttribute` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.rect` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/rect` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.rectContains` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/rectContains` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.scrollLeftRTL` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/scrollLeftRTL` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.scrollRightRTL` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/scrollRightRTL` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.enableSelection` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/Selection` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.disableSelection` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/Selection` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`:sapTabbable, :focusable, :sapFocusable` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/Selectors` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.selectText` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/selectText` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`jQuery.fn.zIndex` 
+
+
+
+</td>
+<td valign="top">
+
+`jquery.sap.dom` 
+
+
+
+</td>
+<td valign="top">
+
+`sap/ui/dom/jquery/zIndex` 
 
 
 

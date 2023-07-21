@@ -16,12 +16,12 @@ Our panel content is getting more and more complex and now it is time to move th
 
 ### Preview
 
-   
+  
   
 **The panel content is now refactored to a separate view \(No visual changes to last step\)**
 
- ![](images/loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to last
-               step)") 
+![](images/loiodc7fa7048c8b4083a9732901350a0c6d_HiRes.png "The panel content is now refactored to a separate view (No visual changes to last
+               step)")
 
 ***
 
@@ -125,9 +125,9 @@ sap.ui.define([
 
 We have now moved everything out of the app view and controller. The app controller remains an empty stub for now, we will use it later to add more functionality.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.")
+**Next:**[Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.")
 
-**Previous:** [Step 16: Dialogs and Fragments](Step_16_Dialogs_and_Fragments_4da7298.md "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.")
+**Previous:**[Step 16: Dialogs and Fragments](Step_16_Dialogs_and_Fragments_4da7298.md "In this step, we will take a closer look at another element which can be used to assemble views: the fragment.")
 

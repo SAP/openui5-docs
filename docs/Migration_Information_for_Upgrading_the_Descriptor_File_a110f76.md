@@ -40,7 +40,7 @@ Description
 <tr>
 <td valign="top">
 
- `_version` 
+`_version` 
 
 
 
@@ -77,7 +77,7 @@ Needs to be updated in the `manifest.json` file when migrating to a new descript
 <tr>
 <td valign="top">
 
- `sap.app/crossNavigation` 
+`sap.app/crossNavigation` 
 
 
 
@@ -105,7 +105,7 @@ Contains navigation information and is a mandatory attribute in the `manifest.js
 <tr>
 <td valign="top">
 
- `sap.app/subTitle` 
+`sap.app/subTitle` 
 
 
 
@@ -139,7 +139,7 @@ Added to the `manifest.json` file by using the `{{...}}` syntax
 <tr>
 <td valign="top">
 
- `sap.app/crossNavigation/inbounds/<inboundname>/subTitle` 
+`sap.app/crossNavigation/inbounds/<inboundname>/subTitle` 
 
 
 
@@ -180,7 +180,7 @@ Used to overwrite the `subTitle` attribute per inbound; use the `{{...}}` syntax
 <tr>
 <td valign="top">
 
- `sap.ui/fullWidth` 
+`sap.ui/fullWidth` 
 
 
 
@@ -211,7 +211,7 @@ Indicates whether an app shall run in full screen mode \(`true`\)
 <tr>
 <td valign="top">
 
- `sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` 
+`sap.ui5/dependencies/components/<componentname>/lazy` and `dependencies/libs/<libname>/lazy` 
 
 
 
@@ -260,7 +260,7 @@ Example for `manifest.json` for the SAP Fiori app:
 <tr>
 <td valign="top">
 
- `sap.ui5/routing/config/async` 
+`sap.ui5/routing/config/async` 
 
 
 
@@ -298,7 +298,7 @@ For performance reasons, we recommend to always use the `async` setting. This re
 <tr>
 <td valign="top">
 
- `sap.ui5/models/preload` 
+`sap.ui5/models/preload` 
 
 
 
@@ -330,7 +330,7 @@ Defines whether or not the model is initialized \(preloaded\) before the compone
 <tr>
 <td valign="top">
 
- `sap.ui5/routing/routes/target` 
+`sap.ui5/routing/routes/target` 
 
 
 
@@ -381,7 +381,7 @@ Allows to define titles declaratively in the configuration \(`title` under `targ
 <tr>
 <td valign="top">
 
- `sap.ui5/componentUsages` 
+`sap.ui5/componentUsages` 
 
 
 
@@ -427,7 +427,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 <tr>
 <td valign="top">
 
- `sap.ui5/library/i18n` 
+`sap.ui5/library/i18n` 
 
 
 
@@ -467,7 +467,7 @@ An object can contain additional resource bundle configuration, e.g. terminologi
 <tr>
 <td valign="top">
 
- `sap.ui5/componentUsages/lazy` 
+`sap.ui5/componentUsages/lazy` 
 
 
 
@@ -507,7 +507,7 @@ For more information see:[Using and Nesting Components](Using_and_Nesting_Compon
 <tr>
 <td valign="top">
 
- `sap.ui5/models/<modelName>/settings/enhanceWith` 
+`sap.ui5/models/<modelName>/settings/enhanceWith` 
 
 
 
@@ -611,7 +611,7 @@ With the `type` option set to "Component", the `Component.js` which is available
 <tr>
 <td valign="top">
 
- `sap.ui5/routing/routes/targets/attachment/usage` 
+`sap.ui5/routing/routes/targets/attachment/usage` 
 
 
 
@@ -682,7 +682,7 @@ A component can be configured as a routing target by defining it in the `compone
 <tr>
 <td valign="top">
 
- `sap.ui5/commands` 
+`sap.ui5/commands` 
 
 
 
@@ -717,7 +717,7 @@ Specifies provided commands with a unique key/alias.
 <tr>
 <td valign="top">
 
- `sap.ui5/routing/propagateTitle` 
+`sap.ui5/routing/propagateTitle` 
 
 
 

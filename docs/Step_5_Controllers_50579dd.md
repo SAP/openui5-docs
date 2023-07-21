@@ -16,11 +16,11 @@ In this step, we replace the text with a button and show the “Hello World” m
 
 ### Preview
 
-   
+  
   
 **A Say Hello button is added**
 
- ![](images/loio5717fb5a15474c678d4b9806008e8079_HiRes.png "A Say Hello button is added") 
+![](images/loio5717fb5a15474c678d4b9806008e8079_HiRes.png "A Say Hello button is added")
 
 ***
 
@@ -95,11 +95,11 @@ We define the app controller in its own file by extending the `Controller` objec
 -   Controller names always end with `*.controller.js`
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap.m.Text control into a dedicated view.")
+**Next:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap.m.Text control into a dedicated view.")
 
-**Previous:** [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
+**Previous:**[Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
 
 **Related Information**  
 

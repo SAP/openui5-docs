@@ -18,11 +18,11 @@ Our OData service provides one OData operation: the `ResetDataSource` action. In
 
 ### Preview
 
-   
+  
   
 **A Restart Tutorial button is added**
 
- ![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added") 
+![](images/loioe518debe1cdc4fcd9f5a6cffd014fbfa_LowRes.png "A Restart Tutorial button is added")
 
 ***
 
@@ -127,11 +127,11 @@ We add the missing texts to the properties file.
 
 And now we are done! We built a simple application with user data from an OData V4 service. We can display, edit, create, and delete users. And we use OData V4 features such as batch groups and automatic type detection.
 
-**Parent topic:** [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:**[OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Next:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+**Next:**[Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
 
-**Previous:** [Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
+**Previous:**[Step 9: List-Detail Scenario](Step_9_List_Detail_Scenario_ec44581.md "In this step we add a detail area with additional information.")
 
 **Related Information**  
 

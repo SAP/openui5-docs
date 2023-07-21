@@ -16,11 +16,11 @@ Now we use a shell control as container for our app and use it as our new root e
 
 ### Preview
 
-   
+  
   
 **The app is now run in a shell that limits the app width**
 
- ![](images/loio011584a22f8f41cbae77c4b6dd65bcb5_HiRes.png "The app is now run in a shell that limits the app width") 
+![](images/loio011584a22f8f41cbae77c4b6dd65bcb5_HiRes.png "The app is now run in a shell that limits the app width")
 
 ***
 
@@ -70,11 +70,11 @@ The shell control is now the outermost control of our app and automatically disp
 
 There are further options to customize the shell, like setting a custom background image or color and setting a custom logo. Check the related API reference for more details.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
+**Next:**[Step 11: Pages and Panels](Step_11_Pages_and_Panels_3b9d9f8.md "After all the work on the app structure it’s time to improve the look of our app. We will use two controls from the sap.m library to add a bit more &quot;bling&quot; to our UI. You will also learn about control aggregations in this step.")
 
-**Previous:** [Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_17b87fb.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
+**Previous:**[Step 13: Margins and Paddings](Step_13_Margins_and_Paddings_17b87fb.md "Our app content is still glued to the corners of the letterbox. To fine-tune our layout, we can add margins and paddings to the controls that we added in the previous step.")
 
 **Related Information**  
 

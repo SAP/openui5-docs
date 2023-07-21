@@ -18,12 +18,12 @@ In the first unit test we have just extended the formatters module with a new fu
 
 A frequently used feature of a bulletin board is to flag interesting posts to mark them for later reading. The UI should contain a button to toggle the flagged state for each item. We will implement this feature with a custom type and again start writing the test case for it first and add the implementation later.
 
-   
+  
   
 **The unit test for the Flagged feature will fail until the feature is implemented**
 
- ![](images/loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
-					feature is implemented") 
+![](images/loioba4369b669574be29051499ed6f2ce4e_HiRes.png "The unit test for the Flagged feature will fail until the
+					feature is implemented")
 
 ***
 
@@ -151,11 +151,11 @@ You can now call the unit tests and check the result. As in the previous step, t
 -   Organize the tests in the same file structure as the productive code
 
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
+**Next:**[Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
 
-**Previous:** [Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.")
+**Previous:**[Step 5: Adding a Flag Button](Step_5_Adding_a_Flag_Button_69a25bf.md "Now that we have implemented the conversion tests, we add the corresponding functionality and show the button to flag a post in the app. The design team has specified that the flag feature should be implemented with a toggle button that has a flag icon.")
 
 **Related Information**  
 

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/dfe4f7
 
 This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.
 
- ![](images/loio3e7f72e6ebf147c9b64c46b4b03d552b_LowRes.png) 
+![](images/loio3e7f72e6ebf147c9b64c46b4b03d552b_LowRes.png)
 
 -   **[An Empty Page Comes Up](An_Empty_Page_Comes_Up_55db2bc.md "")**  
 

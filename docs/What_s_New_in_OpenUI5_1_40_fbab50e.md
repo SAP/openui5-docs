@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/fbab50
 
 With this release OpenUI5 is upgraded from version 1.38 to 1.40.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **New Belize Theme \(SAP Fiori 2.0 Design\)** 
+**New Belize Theme \(SAP Fiori 2.0 Design\)** 
 
 
 
@@ -135,28 +135,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Deleted 
+Deleted 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Older jQuery Versions Removed** 
+**Older jQuery Versions Removed** 
 
 
 
@@ -174,7 +174,7 @@ As of this version, OpenUI5 only contains one version of jQuery \(the current ve
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -190,28 +190,28 @@ As of this version, OpenUI5 only contains one version of jQuery \(the current ve
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **XML View Cache** 
+**XML View Cache** 
 
 
 
@@ -231,7 +231,7 @@ Parts of this feature are currently still experimental! For more information, se
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -247,28 +247,28 @@ Parts of this feature are currently still experimental! For more information, se
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -302,7 +302,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -318,28 +318,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.GenericTile`** 
+**`sap.m.GenericTile`** 
 
 
 
@@ -357,7 +357,7 @@ The `GenericTile` control can be implemented as slide tile. The animated content
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -373,28 +373,28 @@ The `GenericTile` control can be implemented as slide tile. The animated content
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabHeaderMode`** 
+**`sap.m.IconTabHeaderMode`** 
 
 
 
@@ -412,7 +412,7 @@ A new `IconTabBar` property, `headerMode`, has been introduced. It accepts `sap.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -428,28 +428,28 @@ A new `IconTabBar` property, `headerMode`, has been introduced. It accepts `sap.
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Page`** 
+**`sap.m.Page`** 
 
 
 
@@ -467,7 +467,7 @@ The `Page` control now offers a floating footer. This new feature helps unify th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -483,28 +483,28 @@ The `Page` control now offers a floating footer. This new feature helps unify th
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.OverflowToolbar`** 
+**`sap.m.OverflowToolbar`** 
 
 
 
@@ -522,7 +522,7 @@ The overflow menu is now configurable to remain open if the selected element tri
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -538,28 +538,28 @@ The overflow menu is now configurable to remain open if the selected element tri
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.RangeSlider`** 
+**`sap.m.RangeSlider`** 
 
 
 
@@ -580,7 +580,7 @@ The overflow menu is now configurable to remain open if the selected element tri
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -596,28 +596,28 @@ The overflow menu is now configurable to remain open if the selected element tri
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Text`** 
+**`sap.m.Text`** 
 
 
 
@@ -635,7 +635,7 @@ Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can di
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -651,28 +651,28 @@ Line breaks \(`\r\n`, `\n\r`, `\r`, `\n`\) are always visualized now. You can di
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TimePicker`** 
+**`sap.m.TimePicker`** 
 
 
 
@@ -690,7 +690,7 @@ The `TimePicker` control now has configurable step precision for minutes and sec
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -706,28 +706,28 @@ The `TimePicker` control now has configurable step precision for minutes and sec
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.core.format.NumberFormat`** 
+**`sap.ui.core.format.NumberFormat`** 
 
 
 
@@ -745,7 +745,7 @@ You can now use the `shortRefNumber` option to calculate all numbers in one scre
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -761,28 +761,28 @@ You can now use the `shortRefNumber` option to calculate all numbers in one scre
 <tr>
 <td valign="top">
 
- 1.40 
+1.40 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Documentation Structure** 
+**Documentation Structure** 
 
 
 
@@ -800,7 +800,7 @@ Since the *Control-specific Information* was not easy to find, we decided to mov
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -815,7 +815,7 @@ Since the *Control-specific Information* was not easy to find, we decided to mov
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

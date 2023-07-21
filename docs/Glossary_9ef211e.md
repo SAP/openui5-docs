@@ -239,7 +239,7 @@ An asynchronous action is one that the backend can execute sometime after the us
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -694,7 +694,7 @@ diagnostics
 
 A diagnostics window is available in OpenUI5 applications.
 
-To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):  [Ctrl\] + [Shift\] + [Alt\] /[Option\][S\] 
+To open it, use the following [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): [Ctrl\] + [Shift\] + [Alt\] /[Option\][S\] 
 
 
 
@@ -825,7 +825,7 @@ For example, for a sales order processing application, the data model can define
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -986,7 +986,7 @@ For example:
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1014,7 +1014,7 @@ Layout Management refers to how the information in the object page is displayed 
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1074,7 +1074,7 @@ Main entity refers to the entry entity that holds the information displayed in t
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1194,7 +1194,7 @@ Navigation entity refers to the other entities associated with the given entity 
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1224,14 +1224,14 @@ A control that is defined on the fly without a library definition or running gen
 </td>
 <td valign="top">
 
- SAPUI5/OpenUI5 
+SAPUI5/OpenUI5 
 
 
 
 </td>
 <td valign="top">
 
- [Developing Controls](Developing_Controls_8dcab00.md) 
+[Developing Controls](Developing_Controls_8dcab00.md) 
 
 
 
@@ -1254,7 +1254,7 @@ OData \(Open Data Protocol\) is a standard protocol that defines best practices 
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1316,7 +1316,7 @@ OPA5 is an API for OpenUI5 controls. It hides asynchronicity and eases access to
 </td>
 <td valign="top">
 
- SAPUI5/OpenUI5 
+SAPUI5/OpenUI5 
 
 
 
@@ -1466,7 +1466,7 @@ A service is code that delivers one or more functionalities or capabilities on t
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1618,7 +1618,7 @@ A synchronous action is one that the backend executes immediately after the user
 </td>
 <td valign="top">
 
- SAP Fiori elements 
+SAP Fiori elements 
 
 
 
@@ -1708,14 +1708,14 @@ It is Webdriver.IO service, designed to run cross-platform end-to-end tests on a
 </td>
 <td valign="top">
 
- SAPUI5/OpenUI5 
+SAPUI5/OpenUI5 
 
 
 
 </td>
 <td valign="top">
 
- [Testing](Testing_7cdee40.md) 
+[Testing](Testing_7cdee40.md) 
 
 
 

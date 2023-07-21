@@ -18,12 +18,12 @@ OpenUI5 supports multiple view types \(XML, HTML, JavaScript\). We choose XML as
 
 ### Preview
 
-   
+  
   
 **The "Hello World" text is now displayed by a OpenUI5 control \(No visual changes to last step\)**
 
- ![](images/loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
-					visual changes to last step)") 
+![](images/loioc1d7d89b92c14f7ea88af6771d962f72_HiRes.png "The "Hello World" text is now displayed by a OpenUI5 control (No
+					visual changes to last step)")
 
 ***
 
@@ -102,11 +102,11 @@ We replace the instantiation of the `sap.m.Text` control by our new `App` XML vi
 -   Other XML namespaces use the last part of the SAP namespace as alias \(for example, `mvc` for `sap.ui.core.mvc`\)
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap.m.Text. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.")
+**Next:**[Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap.m.Text. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.")
 
-**Previous:** [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
+**Previous:**[Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
 
 **Related Information**  
 

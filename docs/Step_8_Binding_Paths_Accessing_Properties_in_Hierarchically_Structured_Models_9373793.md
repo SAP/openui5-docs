@@ -16,11 +16,11 @@ In step 6 , we stated that the fields in a resource model are arranged in a flat
 
 ### Preview
 
-   
+  
   
 **Second panel with additional data**
 
- ![](images/loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data") 
+![](images/loio12705f5341f24febb905a50d37bf32db_HiRes.png "Second panel with additional data")
 
 ***
 
@@ -158,11 +158,11 @@ panel2HeaderText=Adressdetails
 > 
 > As has been mentioned previously, all binding path names are case-sensitive.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Next:** [Step 7: \(Optional\) Resource Bundles and Multiple Languages](Step_7_Optional_Resource_Bundles_and_Multiple_Languages_4e593b4.md "The reason we have resource bundles is to allow an app to run in multiple languages without the need to change any code. To demonstrate this feature, we will create a German version of the app – in fact all we need to do is create a German version of the resource bundle file. In our code, the German locale needs to be activated for the ResourceModel.")
+**Next:**[Step 7: \(Optional\) Resource Bundles and Multiple Languages](Step_7_Optional_Resource_Bundles_and_Multiple_Languages_4e593b4.md "The reason we have resource bundles is to allow an app to run in multiple languages without the need to change any code. To demonstrate this feature, we will create a German version of the app – in fact all we need to do is create a German version of the resource bundle file. In our code, the German locale needs to be activated for the ResourceModel.")
 
-**Previous:** [Step 9: Formatting Values](Step_9_Formatting_Values_6fdf0ac.md "We also want to provide our users a way of contacting Harry Hawk. Therefore we will add a link that sends an e-mail to Harry. To achieve that we will convert our data in the model to match the sap.m.URLHelper.normalizeEmail API. As soon as the user changes the name, the e-mail will also change. We will need a custom formatter function for this.")
+**Previous:**[Step 9: Formatting Values](Step_9_Formatting_Values_6fdf0ac.md "We also want to provide our users a way of contacting Harry Hawk. Therefore we will add a link that sends an e-mail to Harry. To achieve that we will convert our data in the model to match the sap.m.URLHelper.normalizeEmail API. As soon as the user changes the name, the e-mail will also change. We will need a custom formatter function for this.")
 
 **Related Information**  
 

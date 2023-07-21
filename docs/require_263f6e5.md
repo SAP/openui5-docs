@@ -39,6 +39,8 @@ For compatibility reasons, especially if the view is loaded synchronously, the `
 
 ***
 
+## Example
+
 ```
 <mvc:View
   controllerName="sap.ui.core.sample.ViewTemplate.scenario.Detail"

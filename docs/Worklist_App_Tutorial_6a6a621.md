@@ -29,17 +29,17 @@ We will use the worklist template as a starting point for this tutorial and add 
 
 ### Preview
 
-   
+  
   
 **Start page of the app with list of products and actions**
 
- ![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Start page of the app with list of products and actions") 
+![](images/loio016d473029e04ec9be5ed43fa897e69b_HiRes.png "Start page of the app with list of products and actions")
 
-   
+  
   
 **Product detail page of the app**
 
- ![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Product detail page of the app") 
+![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Product detail page of the app")
 
 ***
 

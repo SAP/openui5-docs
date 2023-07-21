@@ -14,11 +14,11 @@ This library contains controls that provide the basic structure of a tool app.
 
 The goal of these controls is to ensure consistency of the user interfaces in the tools area and the implementation of a common design language of applications and tools on the basis of SAP Fiori.
 
-   
+  
   
 **Basic Page Structure of a Tool**
 
- ![](images/loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool") 
+![](images/loio1401097cea0e42689fc9c57c1097dfe7_HiRes.png "Basic Page Structure of a Tool")
 
 > ### Note:  
 > This set of controls described in this article has been designed exclusively for the SAP tool landscape for the SAP Business Technology Platform.

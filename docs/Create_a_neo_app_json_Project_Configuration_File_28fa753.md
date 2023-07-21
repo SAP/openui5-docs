@@ -28,7 +28,7 @@ SAP Web IDE reads these settings automatically when running the app. You can see
 > 
 > You can check which version of OpenUI5 is loaded by opening the OpenUI5 debugging tools with this [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):
 > 
->   [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\] 
+> [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\] 
 > 
 > If the version is too old for certain features of the tutorial, you have to add the `version` attribute to the target configuration entry and set the value to `snapshot`.
 

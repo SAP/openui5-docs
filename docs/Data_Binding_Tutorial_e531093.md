@@ -22,7 +22,7 @@ The UI uses data binding to bind controls to the model which holds the applicati
 
 ### Preview
 
- ![](images/loio896048ebce6b47488068c9630b71c43a_HiRes.png) 
+![](images/loio896048ebce6b47488068c9630b71c43a_HiRes.png)
 
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the application runs by calling the `webapp/index.html` file.

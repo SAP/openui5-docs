@@ -16,11 +16,11 @@ In this step, we add a search field for our product list and define a filter tha
 
 ### Preview
 
-   
+  
   
 **A search field is displayed above the list**
 
- ![](images/loiob59b3ed9928549d4bf7e4d0f9f5b5dc8_HiRes.png "A search field is displayed above the list") 
+![](images/loiob59b3ed9928549d4bf7e4d0f9f5b5dc8_HiRes.png "A search field is displayed above the list")
 
 ***
 
@@ -113,11 +113,11 @@ If the query is not empty, we add a new filter object to the still empty array o
 
 The list is accessed with the ID that we have specified in the view, because the control is automatically prefixed by the view ID, we need to ask the view for the control with the helper function `byId`. On the list control we access the binding of the aggregation `items` to filter it with our newly constructed filter object. This will automatically filter the list by our search string so that only the matching items are shown when the search is triggered. The filter operator `FilterOperator.Contains` is **not** case-sensitive.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 22: Custom Formatters](Step_22_Custom_Formatters_0f8626e.md "If we want to do a more complex logic for formatting properties of our data model, we can also write a custom formatting function. We will now add a localized status with a custom formatter, because the status in our data model is in a rather technical format.")
+**Next:**[Step 22: Custom Formatters](Step_22_Custom_Formatters_0f8626e.md "If we want to do a more complex logic for formatting properties of our data model, we can also write a custom formatting function. We will now add a localized status with a custom formatter, because the status in our data model is in a rather technical format.")
 
-**Previous:** [Step 24: Sorting and Grouping](Step_24_Sorting_and_Grouping_c4b2a32.md "To make our list of invoices even more user-friendly, we sort it alphabetically instead of just showing the order from the data model. Additionally, we introduce groups and add the company that ships the products so that the data is easier to consume.")
+**Previous:**[Step 24: Sorting and Grouping](Step_24_Sorting_and_Grouping_c4b2a32.md "To make our list of invoices even more user-friendly, we sort it alphabetically instead of just showing the order from the data model. Additionally, we introduce groups and add the company that ships the products so that the data is easier to consume.")
 
 **Related Information**  
 

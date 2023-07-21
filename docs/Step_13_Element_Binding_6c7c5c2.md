@@ -16,11 +16,11 @@ Now we want to do something with that newly generated list. In most cases you wi
 
 ### Preview
 
-   
+  
   
 **Element binding implemented, product details displayed per item**
 
- ![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item") 
+![](images/loio872d2ed3f9144fbfb82e028b17c52ce3_HiRes.png "Element binding implemented, product details displayed per item")
 
 ***
 
@@ -189,11 +189,11 @@ Discontinued=Eingestellt
 
 Add the missing texts to the `properties` files.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Next:** [Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
+**Next:**[Step 12: Aggregation Binding Using Templates](Step_12_Aggregation_Binding_Using_Templates_97830de.md "Aggregation binding (or &quot;list binding&quot;) allows a control to be bound to a list within the model data and allows relative binding to the list entries by its child controls.")
 
-**Previous:** [Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding allows you to display a value on the screen that has been calculated from values found in some model object. This way simple formatting or calculations can be inserted directly into the data binding string. In this example, we will change the color of the price depending on whether it is above or below some arbitrary threshold. The threshold value is also stored in the JSON model.")
+**Previous:**[Step 14: Expression Binding](Step_14_Expression_Binding_5cff8d1.md "Expression binding allows you to display a value on the screen that has been calculated from values found in some model object. This way simple formatting or calculations can be inserted directly into the data binding string. In this example, we will change the color of the price depending on whether it is above or below some arbitrary threshold. The threshold value is also stored in the JSON model.")
 
 **Related Information**  
 

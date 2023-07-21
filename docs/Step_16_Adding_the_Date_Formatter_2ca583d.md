@@ -16,11 +16,11 @@ Our formatter does its job, but it is not yet used. In this step we will use it.
 
 ### Preview
 
-   
+  
   
 **Date formatter in action**
 
- ![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action") 
+![](images/loio9aa15b0691014bd287a5a5d874f6f064_LowRes.png "Date formatter in action")
 
 ***
 
@@ -94,7 +94,7 @@ Now run the app again to see that the formatter is applied on the post date of t
 
 You should now be familiar with the major development paradigms and concepts of OpenUI5 and have created a very simple first app. You are now ready to build a proper app based on what you've learned.
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 15: Writing a Short Date Formatter Using TDD](Step_15_Writing_a_Short_Date_Formatter_Using_TDD_bc4114a.md "It's now time to improve the content of the Info tab. We want to see the Posted At date in a formatted way. Based on the age of the post, we either display the time, a textural representation of the day, or the date only.")
+**Next:**[Step 15: Writing a Short Date Formatter Using TDD](Step_15_Writing_a_Short_Date_Formatter_Using_TDD_bc4114a.md "It's now time to improve the content of the Info tab. We want to see the Posted At date in a formatted way. Based on the age of the post, we either display the time, a textural representation of the day, or the date only.")
 

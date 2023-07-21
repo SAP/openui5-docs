@@ -16,11 +16,11 @@ In this step, we use the OData V2 mock server to add data to our app without dep
 
 ### Preview
 
-   
+  
   
 **The app now contains data**
 
- ![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data") 
+![](images/loio55edd9fa2cc24f398a9373d6d497d3e4_HiRes.png "The app now contains data")
 
 ***
 
@@ -228,11 +228,11 @@ If the real service connection cannot be established, for example, when there is
 
 Just run the app now again with the `mockServer.html` file.. The list should now be populated with meet-ups from our mock data. You can also choose the button and see data.
 
-**Parent topic:** [OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+**Parent topic:**[OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-**Next:** [Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md "We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.")
+**Next:**[Step 1: Initial App Without Data](Step_1_Initial_App_Without_Data_7a78f1b.md "We start with a simple app scenario with a list of items bound to an OData V2 service. Since the OData V2 service is not available yet on a real server, we will use the mock server to simulate both data and data calls.")
 
-**Previous:** [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock server configuration.")
+**Previous:**[Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock server configuration.")
 
 **Related Information**  
 

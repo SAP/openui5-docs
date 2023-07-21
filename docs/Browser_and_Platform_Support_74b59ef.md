@@ -423,7 +423,7 @@ Latest version
  3\) We use current Apple iPhone and iPad devices for testing and reproducing the reported issues.  
  4\) Android-based devices are very fragmented in matters of operating system variants and hardware diversity. We use current Samsung Galaxy S and Galaxy Tab S series devices for testing and reproducing the reported issues.  
  5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
- 
+
 
 ***
 

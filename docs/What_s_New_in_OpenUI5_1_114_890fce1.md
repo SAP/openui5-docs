@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/890fce
 
 With this release OpenUI5 is upgraded from version 1.113 to 1.114.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.114 
+1.114 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -111,7 +111,7 @@ List, Table, Object, and the other declarative card types automatically show a c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -127,28 +127,28 @@ List, Table, Object, and the other declarative card types automatically show a c
 <tr>
 <td valign="top">
 
- 1.114 
+1.114 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **FLP Time Zone Support in OpenUI5** 
+**FLP Time Zone Support in OpenUI5** 
 
 
 
@@ -170,7 +170,7 @@ For more information, see [Dates, Times, Timestamps, and Time Zones](Dates_Times
 </td>
 <td valign="top">
 
- Required 
+Required 
 
 
 
@@ -186,28 +186,28 @@ For more information, see [Dates, Times, Timestamps, and Time Zones](Dates_Times
 <tr>
 <td valign="top">
 
- 1.114 
+1.114 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SearchField`** 
+**`sap.m.SearchField`** 
 
 
 
@@ -227,7 +227,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -243,28 +243,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.114 
+1.114 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Accessibility** 
+**Accessibility** 
 
 
 
@@ -282,7 +282,7 @@ We are now using JAWS 2023 as a reference testing environment in OpenUI5. For mo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -297,7 +297,7 @@ We are now using JAWS 2023 as a reference testing environment in OpenUI5. For mo
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

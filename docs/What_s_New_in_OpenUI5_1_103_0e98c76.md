@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0e98c7
 
 With this release OpenUI5 is upgraded from version 1.102 to 1.103.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.103 
+1.103 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.plugins.DataStateIndicator`** 
+**`sap.m.plugins.DataStateIndicator`** 
 
 
 
@@ -109,7 +109,7 @@ The `MessageStrip` control, which is offered by the `DataStateIndicator` plugin,
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ The `MessageStrip` control, which is offered by the `DataStateIndicator` plugin,
 <tr>
 <td valign="top">
 
- 1.103 
+1.103 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -167,7 +167,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -183,28 +183,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.103 
+1.103 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateRangeSelection`, `sap.m.OverflowToolbar`, and `sap.m.IOverflowToolbarContent`** 
+**`sap.m.DateRangeSelection`, `sap.m.OverflowToolbar`, and `sap.m.IOverflowToolbarContent`** 
 
 
 
@@ -222,7 +222,7 @@ We have implemented `sap.m.OverflowToolbar` on the `sap.m.DateRangeSelection` to
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -238,28 +238,28 @@ We have implemented `sap.m.OverflowToolbar` on the `sap.m.DateRangeSelection` to
 <tr>
 <td valign="top">
 
- 1.103 
+1.103 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -282,7 +282,7 @@ We have implemented `sap.m.OverflowToolbar` on the `sap.m.DateRangeSelection` to
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -298,28 +298,28 @@ We have implemented `sap.m.OverflowToolbar` on the `sap.m.DateRangeSelection` to
 <tr>
 <td valign="top">
 
- 1.103 
+1.103 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessageBox`** 
+**`sap.m.MessageBox`** 
 
 
 
@@ -337,7 +337,7 @@ We have enhanced the `details` property and now it can also be a function that a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -352,7 +352,7 @@ We have enhanced the `details` property and now it can also be a function that a
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

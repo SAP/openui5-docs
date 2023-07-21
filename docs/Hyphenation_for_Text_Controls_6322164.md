@@ -110,11 +110,11 @@ Once you've set the control property to `WrappingType.Hyphenated`, the control i
 
 When the framework makes the choice whether browser-native hyphenation or third-party hyphenation should be used, it logs a message in the console for more information about what was decided.
 
-   
+  
   
 **Hyphenation Workflow**
 
- ![](images/loio6992c16573754505aa2e008859207b91_LowRes.png "Hyphenation Workflow") 
+![](images/loio6992c16573754505aa2e008859207b91_LowRes.png "Hyphenation Workflow")
 
 ***
 

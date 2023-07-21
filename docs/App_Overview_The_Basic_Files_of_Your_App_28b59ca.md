@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/28b59c
 
 We recommend creating at least three files for your app: the descriptor \(`manifest.json`\), the component \(`Component.js`\), and the main view of the app \(`App.view.xml`\).
 
- ![](images/loioeeae30fe7983476a9777e809a8820147_LowRes.png) 
+![](images/loioeeae30fe7983476a9777e809a8820147_LowRes.png)
 
 ***
 

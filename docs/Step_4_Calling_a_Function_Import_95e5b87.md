@@ -16,11 +16,11 @@ We only want to display the upcoming meetings and hide the meetings happened in 
 
 ### Preview
 
-   
+  
   
 **Only the upcoming meet-ups are shown**
 
- ![](images/loio8f2176b473a54bbd87e8287732e4eb8e_HiRes.png "Only the upcoming meet-ups are shown") 
+![](images/loio8f2176b473a54bbd87e8287732e4eb8e_HiRes.png "Only the upcoming meet-ups are shown")
 
 ***
 
@@ -60,11 +60,11 @@ We change the binding of the list to a function import call that returns only up
 
 After saving and running the app again, we should get the following result:
 
-   
+  
   
 **No data visible**
 
- ![](images/loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible") 
+![](images/loio4992f37e491c432995eaae0712ba1a59_HiRes.png "No data visible")
 
 Since the function import call is not simulated automatically by the mock server, we do not see any data in list, and a failed network call is issued in the developer tools of the browser.
 
@@ -193,14 +193,14 @@ The path we gave in the simulate function for mock data is where we want to stor
 
 -   Generate it in SAP Web IDE by choosing *Edit Mock Data* in the context menu of the `medatdata.xml` file. For more information about SAP Web IDE, see the documentation for SAP Web IDE on the SAP Help Portal at [https://help.sap.com/viewer/p/SAP\_Web\_IDE](https://help.sap.com/viewer/p/SAP_Web_IDE).
 
-       
+      
       
     **Editing mock data in SAP Web IDE**
 
-     ![](images/loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE") 
+    ![](images/loio1117f6cfc5ca4f82904904479db79077_HiRes.png "Editing mock data in SAP Web IDE")
 
 
-**Parent topic:** [OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+**Parent topic:**[OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-**Next:** [Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock server configuration.")
+**Next:**[Step 3: Handling Custom URL Parameters](Step_3_Handling_Custom_URL_Parameters_46c1ca4.md "In this step, we add the functionality to interpret URL parameters in our local mock server configuration.")
 

@@ -16,11 +16,11 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ### Preview
 
-   
+  
   
 **A message toast displays the "Hello World" message**
 
- ![](images/loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message") 
+![](images/loio7c11ea91acc94ac3870831f1dd7c1c07_HiRes.png "A message toast displays the "Hello World" message")
 
 ***
 
@@ -57,11 +57,11 @@ This Asynchronous Module Definition \(AMD\) syntax allows to clearly separate th
 -   Use the name of the artifact to load for naming the function parameters \(without namespace\).
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
+**Next:**[Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's press event is implemented in the controller of the view.")
 
-**Previous:** [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
+**Previous:**[Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
 
 **Related Information**  
 

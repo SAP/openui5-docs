@@ -18,11 +18,11 @@ This system is the so-called back-end system that we will now simulate with an O
 
 ### Preview
 
-   
+  
   
 **The list of invoices is now served by the Mock Server**
 
- ![](images/loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server") 
+![](images/loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server")
 
 ***
 
@@ -30,11 +30,11 @@ This system is the so-called back-end system that we will now simulate with an O
 
 You can view and download all files at [Walkthrough - Step 26](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.26).
 
-   
+  
   
 **Folder Structure for this Step**
 
- ![](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step") 
+![](images/loio7a5e2b02d72d40d388f5e601d7de74df_LowRes.png "Folder Structure for this Step")
 
 The folder structure of our app project is clearly separating test and productive files after this step. The new `test` folder now contains a new HTML page `mockServer.html` which will launch our application in test mode without calling the real service.
 
@@ -294,11 +294,11 @@ Try calling the app with the `index.html` file and the `mockServer.html` file to
 -   The script to start the `MockServer` is called `mockserver.js`.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 25: Remote OData Service](Step_25_Remote_OData_Service_4406244.md "So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.")
+**Next:**[Step 25: Remote OData Service](Step_25_Remote_OData_Service_4406244.md "So far we have worked with local JSON data, but now we will access a real OData service to visualize remote data.")
 
-**Previous:** [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
+**Previous:**[Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
 
 **Related Information**  
 

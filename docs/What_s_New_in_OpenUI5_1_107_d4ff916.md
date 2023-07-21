@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d4ff91
 
 With this release OpenUI5 is upgraded from version 1.106 to 1.107.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -109,7 +109,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List, sap.m.Table, sap.m.Tree`** 
+**`sap.m.List, sap.m.Table, sap.m.Tree`** 
 
 
 
@@ -164,7 +164,7 @@ To improve performance, we have now made the initial rendering faster: Table, tr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ To improve performance, we have now made the initial rendering faster: Table, tr
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.upload.UploadSet`** 
+**`sap.m.upload.UploadSet`** 
 
 
 
@@ -219,7 +219,7 @@ We've introduced directory \(folder\) uploads using the `UploadSet` control. It 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -235,28 +235,28 @@ We've introduced directory \(folder\) uploads using the `UploadSet` control. It 
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -274,7 +274,7 @@ We now provide the `sap.ui.model.odata.v4.ODataModel#getServiceUrl`, `sap.ui.mod
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -290,28 +290,28 @@ We now provide the `sap.ui.model.odata.v4.ODataModel#getServiceUrl`, `sap.ui.mod
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- ***Edit on GitHub* Button** 
+***Edit on GitHub* Button** 
 
 
 
@@ -331,7 +331,7 @@ We have enabled external collaboration for our documentation through `github.com
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -347,28 +347,28 @@ We have enabled external collaboration for our documentation through `github.com
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageSection`** 
+**`sap.uxap.ObjectPageSection`** 
 
 
 
@@ -386,7 +386,7 @@ We have added a new `wrapTitle` property. It allows long titles to wrap into mul
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -402,28 +402,28 @@ We have added a new `wrapTitle` property. It allows long titles to wrap into mul
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Documentation now open for contributions on GitHub** 
+**Documentation now open for contributions on GitHub** 
 
 
 
@@ -445,7 +445,7 @@ For more information, see [Open Documentation Initiative for SAPUI5 and SAP Fior
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -461,28 +461,28 @@ For more information, see [Open Documentation Initiative for SAPUI5 and SAP Fior
 <tr>
 <td valign="top">
 
- 1.107 
+1.107 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -509,7 +509,7 @@ For more information, see [Open Documentation Initiative for SAPUI5 and SAP Fior
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -524,7 +524,7 @@ For more information, see [Open Documentation Initiative for SAPUI5 and SAP Fior
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

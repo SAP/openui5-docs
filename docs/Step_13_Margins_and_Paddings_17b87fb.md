@@ -18,11 +18,11 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 ### Preview
 
-   
+  
   
 **The layout of the panel and its content now has margins and padding**
 
- ![](images/loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding") 
+![](images/loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding")
 
 ***
 
@@ -82,11 +82,11 @@ To format the output text individually, we remove the description from the input
 -   Use the standard OpenUI5 CSS classes for the layout if possible.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4df1d91.md "Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.")
+**Next:**[Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4df1d91.md "Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.")
 
-**Previous:** [Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.")
+**Previous:**[Step 14: Custom CSS and Theme Colors](Step_14_Custom_CSS_and_Theme_Colors_723f4b2.md "Sometimes we need to define some more fine-granular layouts and this is when we can use the flexibility of CSS by adding custom style classes to controls and style them as we like.")
 
 **Related Information**  
 

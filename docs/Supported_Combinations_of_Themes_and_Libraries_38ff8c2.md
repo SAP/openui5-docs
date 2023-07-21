@@ -93,7 +93,7 @@ The following table shows the [Available Themes](Available_Themes_da0d2e7.md) fo
 <tr>
 <td valign="top">
 
- `sap_horizon_dark` 
+`sap_horizon_dark` 
 
 
 
@@ -216,7 +216,7 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -225,7 +225,7 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_horizon` 
+`sap_horizon` 
 
 
 
@@ -274,14 +274,14 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -290,7 +290,7 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_fiori_3_dark` 
+`sap_fiori_3_dark` 
 
 
 
@@ -332,21 +332,21 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -355,7 +355,7 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_fiori_3` 
+`sap_fiori_3` 
 
 
 
@@ -383,35 +383,35 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -457,28 +457,28 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -503,49 +503,49 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -577,107 +577,42 @@ n/a
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `sap_bluecrystal` 
-
-
-
-</td>
-<td valign="top">
-
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -686,28 +621,14 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_hcb` 
+`sap_bluecrystal` 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
@@ -721,28 +642,107 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_hcb` 
+
+
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -892,7 +892,7 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -959,7 +959,7 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -968,7 +968,7 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_horizon` 
+`sap_horizon` 
 
 
 
@@ -1017,14 +1017,14 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -1033,7 +1033,7 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_fiori_3` 
+`sap_fiori_3` 
 
 
 
@@ -1068,28 +1068,28 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -1114,49 +1114,49 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -1188,107 +1188,42 @@ n/a
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
 </td>
 <td valign="top">
 
- ![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `sap_bluecrystal` 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Not Supported](images/loiod355123503654aae97106b021020b7be_LowRes.png)
 
 
 
@@ -1297,128 +1232,63 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_hcb` 
+`sap_bluecrystal` 
 
 
 
 </td>
 <td valign="top">
 
- ![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `sap_goldreflection` 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
-
-
-
-</td>
-<td valign="top">
-
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
@@ -1427,63 +1297,63 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_platinum` 
+`sap_hcb` 
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Supported](images/loio3cb17ee88aed44d2bf1d14b97728c709_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
@@ -1492,63 +1362,193 @@ n/a
 <tr>
 <td valign="top">
 
- `sap_ux` 
+`sap_goldreflection` 
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif) 
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 
 
 </td>
 <td valign="top">
 
- ![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif) 
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_platinum` 
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap_ux` 
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Deprecated](images/loio3ea53dcd3acc4783a7a4b83e10c8f1aa_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
+
+
+
+</td>
+<td valign="top">
+
+![Removed](images/loio5befb5af20ed42fd9052a99014d953a3_LowRes.gif)
 
 
 

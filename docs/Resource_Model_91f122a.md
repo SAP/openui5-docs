@@ -37,7 +37,7 @@ After the resource model has been instantiated, you have a model containing the 
 
 [API Reference: `sap.ui.model.resource.ResourceModel`](https://sdk.openui5.org/api/sap.ui.model.resource.ResourceModel)
 
- <a name="loiof05c6f2cf18241cbbb2b126989108765"/>
+<a name="loiof05c6f2cf18241cbbb2b126989108765"/>
 
 <!-- loiof05c6f2cf18241cbbb2b126989108765 -->
 
@@ -63,7 +63,7 @@ OPEN_BUTTON_TEXT
 CANCEL_BUTTON_TEXT
 ```
 
- <a name="loio7341396326c34631813c805d44058b05"/>
+<a name="loio7341396326c34631813c805d44058b05"/>
 
 <!-- loio7341396326c34631813c805d44058b05 -->
 

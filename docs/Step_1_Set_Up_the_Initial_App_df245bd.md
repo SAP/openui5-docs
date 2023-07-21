@@ -18,11 +18,11 @@ The structure and data model created in this step will be used throughout the re
 
 ### Preview
 
-   
+  
   
 **Initial app with a simple button**
 
- ![](images/loio2a2a2842b9734fc8800e1a8250f3f3f1_LowRes.png "Initial app with a simple button") 
+![](images/loio2a2a2842b9734fc8800e1a8250f3f3f1_LowRes.png "Initial app with a simple button")
 
 ***
 
@@ -34,11 +34,11 @@ Depending on your development environment you might have to adjust resource path
 
 You should have the same files as displayed in the following figure:
 
-   
+  
   
 **Folder structure with downloaded files**
 
- ![](images/loiocf75e004d482434d90e2c108a224523e_HiRes.png "Folder structure with downloaded files") 
+![](images/loiocf75e004d482434d90e2c108a224523e_HiRes.png "Folder structure with downloaded files")
 
 > ### Note:  
 > The content of the `localService` folders will not be changed in this tutorial. The `i18n` folder will always contain the `i18n.properties` file only. Therefore, we will show both subfolders collapsed in the following steps.
@@ -86,7 +86,7 @@ With the downloaded coding, you have an initial app with recommended settings th
 
 So far we have a basic app that does not really have any navigation or routing implemented. This will change in the next steps when we implement our first navigation features.
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Previous:** [Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md "In this step we will modify the app and introduce routing. Instead of having the home page of the app hard coded we will configure a router to wire multiple views together when our app is called. The routing configuration controls the application flow when the user triggers a navigation action or opens a link to the application directly.")
+**Previous:**[Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md "In this step we will modify the app and introduce routing. Instead of having the home page of the app hard coded we will configure a router to wire multiple views together when our app is called. The routing configuration controls the application flow when the user triggers a navigation action or opens a link to the application directly.")
 

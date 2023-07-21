@@ -20,11 +20,11 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 ### Preview
 
-   
+  
   
 **The diagnostics window**
 
- ![](images/loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window") 
+![](images/loioc4e83f0e553c4314a1f24e13972e20df_HiRes.png "The diagnostics window")
 
 ***
 
@@ -81,7 +81,7 @@ You can view and download all files at [Walkthrough - Step 29](https://sdk.openu
 </mvc:View>
 ```
 
-We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
+We introduced a typo in the binding of the number attribute to simulate a frequent error; instead of using `'invoice>ExtendedPrice'` we use <code>'invoice&gt;Ex<b>T</b>endedPrice'</code>. Now we call the app and notice that the price is actually missing. By entering the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [S\]  we open the OpenUI5 support diagnostics tool and check the app.
 
 > ### Note:  
 > If you use the Google Chrome browser, you can install the *UI5 Inspector* plugin. With this plugin, you can easily debug your - or OpenUI5-based apps. For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
@@ -92,13 +92,13 @@ A hierarchical tree of OpenUI5 controls is shown on the left and the properties 
 
 Sometimes errors are not as easy to spot and you actually need to debug the JavaScript code with the tools of the browser. For performance reasons, the OpenUI5 files are shipped in a minified version, this means that all possible variable names are shortened and comments are removed.
 
-This makes debugging harder because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\]  and selecting *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files with the `–dbg` suffix are loaded. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
+This makes debugging harder because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\]  and selecting *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files with the `–dbg` suffix are loaded. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
 
-   
+  
   
 **Technical information dialog**
 
- ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ") 
+![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png "Technical information dialog ")
 
 For a more detailed explanation of the OpenUI5 support tools, go through the [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md) tutorial.
 
@@ -113,11 +113,11 @@ If you're stuck and need help for some development task, you can also post a que
 -   As per OpenUI5 convention uncompressed source files end with `*-dbg.js`
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
+**Next:**[Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
 
-**Previous:** [Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_e5200ee.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
+**Previous:**[Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_e5200ee.md "So far, we have put all app content on one single page. As we add more and more features, we want to split the content and put it on separate pages.")
 
 **Related Information**  
 

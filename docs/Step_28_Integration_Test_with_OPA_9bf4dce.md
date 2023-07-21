@@ -21,11 +21,11 @@ We haven’t thought about testing our interaction with the app yet, so in this 
 
 ### Preview
 
-   
+  
   
 **An OPA test opens the "Hello" dialog from step 16**
 
- ![](images/loio108eccbd79ad4cc1b4091be62be59991_HiRes.png "An OPA test opens the "Hello" dialog from step 16") 
+![](images/loio108eccbd79ad4cc1b4091be62be59991_HiRes.png "An OPA test opens the "Hello" dialog from step 16")
 
 ***
 
@@ -33,11 +33,11 @@ We haven’t thought about testing our interaction with the app yet, so in this 
 
 You can view and download all files at [Walkthrough - Step 28](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.28).
 
-   
+  
   
 **Folder Structure for this Step**
 
- ![](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step") 
+![](images/loio72406abd1014466fb961d4c4dd1ade58_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `integration` below the `test` folder, where we put our new test cases. Page objects that help structuring such integration tests are put in the `pages` subfolder that we also create now.
 
@@ -229,11 +229,11 @@ This script loads the `NavigationJourney`, and the test functions inside are imm
 -   Use `page` objects and `journeys` for structuring OPA tests.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
+**Next:**[Step 27: Unit Test with QUnit](Step_27_Unit_Test_with_QUnit_e1ce1de.md "Now that we have a test folder in the app, we can start to increase our test coverage.")
 
-**Previous:** [Step 29: Debugging Tools](Step_29_Debugging_Tools_1ff250c.md "Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.")
+**Previous:**[Step 29: Debugging Tools](Step_29_Debugging_Tools_1ff250c.md "Even though we have added a basic test coverage in the previous steps, it seems like we accidentally broke our app, because it does not display prices to our invoices anymore. We need to debug the issue and fix it before someone finds out.")
 
 **Related Information**  
 

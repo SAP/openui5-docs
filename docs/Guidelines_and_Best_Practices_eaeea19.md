@@ -366,7 +366,7 @@ Check function code
 </td>
 <td valign="top">
 
- `function (issueManager, oCoreFacade, oScope) { ... }` 
+`function (issueManager, oCoreFacade, oScope) { ... }` 
 
 
 

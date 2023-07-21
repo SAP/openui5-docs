@@ -38,12 +38,12 @@ In this tutorial, we will focus on JSON models since they are the simplest ones 
 
 ### Preview
 
-   
+  
   
 **Screen with text derived from a model object \(No visual changes to last step\)**
 
- ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last
-					step)") 
+![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text derived from a model object (No visual changes to last
+					step)")
 
 ***
 
@@ -93,11 +93,11 @@ In this case we have bound the model object to the OpenUI5 core. This has been d
 
 The text that is displayed on the UI is still hard-coded and not taken from the model - we will bind the property `greetingText` to our UI control in the next step.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Next:** [Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we simply place some text on the screen using a standard sap.m.Text control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!")
+**Next:**[Step 1: No Data Binding](Step_1_No_Data_Binding_4cde849.md "In this step, we simply place some text on the screen using a standard sap.m.Text control. The text in this control is a hard-coded part of the control's definition; therefore, this is not an example of data binding!")
 
-**Previous:** [Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from model data.")
+**Previous:**[Step 3: Create Property Binding](Step_3_Create_Property_Binding_d70e989.md "Although there is no visible difference, the text on the screen is now derived from model data.")
 
 **Related Information**  
 

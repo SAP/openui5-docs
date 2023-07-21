@@ -22,16 +22,16 @@ Test Recorder is part of the OpenUI5 framework and is available in all browsers.
 
 There are two ways to open the Test Recorder:
 
--   In a separate window: Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md)  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [T\] 
+-   In a separate window: Enter the [shortcut](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md) [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [T\] 
 
--   In an iFrame: Press  [Ctrl\] + [Shift\] + [Alt\] / [Option\] + [P\]  to display the *Technical Information Dialog*, and then choose *Activate Test Recorder*
+-   In an iFrame: Press [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\]  to display the *Technical Information Dialog*, and then choose *Activate Test Recorder*
 
-     ![](images/loio1e0b9fe13e6d44589301c80d5e5b07bb_HiRes.png) 
+    ![](images/loio1e0b9fe13e6d44589301c80d5e5b07bb_HiRes.png)
 
 
 The main sections of the tool are *Control Tree*, *Snippet*, and *Common Info*.
 
- ![](images/loio6316f778d71648d1ae5f8f05033346b2_HiRes.gif) 
+![](images/loio6316f778d71648d1ae5f8f05033346b2_HiRes.gif)
 
 From the navigation actions at the top bar of the Test Recorder, you can minimize, resize, open it in a new window, or close the tool.
 

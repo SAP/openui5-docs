@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/69e567
 
 With this release OpenUI5 is upgraded from version 1.103 to 1.104.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.104 
+1.104 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Link`** 
+**`sap.m.Link`** 
 
 
 
@@ -109,7 +109,7 @@ We have provided a new API in the control, and now app developers can change the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ We have provided a new API in the control, and now app developers can change the
 <tr>
 <td valign="top">
 
- 1.104 
+1.104 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -171,7 +171,7 @@ We have provided a new API in the control, and now app developers can change the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -186,7 +186,7 @@ We have provided a new API in the control, and now app developers can change the
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

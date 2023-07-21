@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/b72ccb
 
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
 
- <a name="loiod8ab43d845cd42ceb0aa4e47b44a8fcc"/>
+<a name="loiod8ab43d845cd42ceb0aa4e47b44a8fcc"/>
 
 <!-- loiod8ab43d845cd42ceb0aa4e47b44a8fcc -->
 
@@ -34,7 +34,7 @@ UI5 Tooling is a state-of-the-art way to develop OpenUI5 projects by consuming O
 
 -   [UI5 Tooling on GitHub](https://sap.github.io/ui5-tooling/)
 
- <a name="loio702f08a7481e46688c5603385b5bdc68"/>
+<a name="loio702f08a7481e46688c5603385b5bdc68"/>
 
 <!-- loio702f08a7481e46688c5603385b5bdc68 -->
 
@@ -56,7 +56,7 @@ The purpose of this generator is to guide you on your first steps with OpenUI5 a
 -   [Easy-UI5 on NPMJS](https://www.npmjs.com/package/generator-easy-ui5)
 -   Blog post: [Easy-UI5 3.0 – From Community Contributions to Community Plugins](https://blogs.sap.com/2021/04/09/easy-ui5-3.0-from-community-contributions-to-community-plugins/)
 
- <a name="loioab4f18de7652442da85fc08b38a8a8ce"/>
+<a name="loioab4f18de7652442da85fc08b38a8a8ce"/>
 
 <!-- loioab4f18de7652442da85fc08b38a8a8ce -->
 
@@ -81,7 +81,7 @@ npm Packages \(check the individual packages for licensing information\):
 -   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code
 -   [TypeScript interface generator for control development on npm](https://www.npmjs.com/package/@ui5/ts-interface-generator) to support UI5 control development in TypeScript
 
- <a name="loiof92b537272ba43abbfc157ba4ec8f010"/>
+<a name="loiof92b537272ba43abbfc157ba4ec8f010"/>
 
 <!-- loiof92b537272ba43abbfc157ba4ec8f010 -->
 
@@ -100,7 +100,7 @@ wdi5 is a Webdriver.IO service that uses OpenUI5’s test API. It is designed to
 -   [wdi5 on NPMJS](https://www.npmjs.com/package/wdio-ui5-service)
 
 
- <a name="loio23a0a11a88df42578b5baae11c06a89b"/>
+<a name="loio23a0a11a88df42578b5baae11c06a89b"/>
 
 <!-- loio23a0a11a88df42578b5baae11c06a89b -->
 

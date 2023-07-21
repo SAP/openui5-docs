@@ -16,23 +16,23 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
 ### Preview
 
-   
+  
   
 **New button Show Employee Overview**
 
- ![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee Overview") 
+![](images/loio02350a2506854c60a8e81459c578b8b1_LowRes.png "New button Show Employee Overview")
 
-   
+  
   
 **Employee Overview with search field**
 
- ![](images/loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field") 
+![](images/loiobf4ffb536b9244abb91321cb6e86b26d_LowRes.png "Employee Overview with search field")
 
-   
+  
   
 **Sort options for the Employee Overview**
 
- ![](images/loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview") 
+![](images/loio0842e39ed8384b3db883e1b466beb72a_LowRes.png "Sort options for the Employee Overview")
 
 ***
 
@@ -40,11 +40,11 @@ In this step, we will add a new button to the home page to illustrate the usage 
 
 You can view and download all files in the Demo Kit at [Routing and Navigation - Step 11](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.11) .
 
-   
+  
   
 **Folder Structure for this Step**
 
- 
+
 
 ***
 
@@ -482,11 +482,11 @@ Employees=Employees
 
 Add the new texts to the `properties` file.
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.")
+**Next:**[Step 10: Implement Lazy Loading](Step_10_Implement_Lazy_Loading_cdab0a1.md "In the previous steps, we have implemented a Resume view that uses tabs to display data. The complete content of the tabs is loaded once, no matter which tab is currently displayed. We can increase the performance of our app by avoiding to load content that is not visible. Therefore, we implement a “lazy loading” feature that only loads the view and data when requested by the user.")
 
-**Previous:** [Step 12: Make a Search Bookmarkable](Step_12_Make_a_Search_Bookmarkable_e85da53.md "In this step we will make the search bookmarkable. This allows users to search for employees in the Employees table and they can bookmark their search query or share the URL.")
+**Previous:**[Step 12: Make a Search Bookmarkable](Step_12_Make_a_Search_Bookmarkable_e85da53.md "In this step we will make the search bookmarkable. This allows users to search for employees in the Employees table and they can bookmark their search query or share the URL.")
 
 **Related Information**  
 

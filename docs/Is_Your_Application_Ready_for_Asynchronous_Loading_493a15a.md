@@ -53,30 +53,14 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
     <tr>
     <td valign="top">
     
-        "odata.compare", e.g. `value="{=odata.compare(2,3)}"` 
+    "odata.compare", e.g. `value="{=odata.compare(2,3)}"` 
 
 
     
     </td>
     <td valign="top">
     
-        `sap.ui.model.odata.v4.ODataUtils`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"` 
-
-
-    
-    </td>
-    <td valign="top">
-    
-        `sap.ui.model.odata.ODataUtils`
+    `sap.ui.model.odata.v4.ODataUtils`
 
 
     
@@ -85,14 +69,30 @@ Applications benefit from the configuration of the OpenUI5 module loader to work
     <tr>
     <td valign="top">
     
-        "odata.fillUriTemplate", e.g. `value="{=odata.fillUriTemplate('http://foo/{t},{m}', {'t': ${/mail}, 'm': ${/tel}})}"` 
+    "odata.uriEncode", e.g. `value="{=odata.uriEncode('foo', 'Edm.String')}"` 
 
 
     
     </td>
     <td valign="top">
     
-        `sap.ui.thirdparty.URITemplate`
+    `sap.ui.model.odata.ODataUtils`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    "odata.fillUriTemplate", e.g. `value="{=odata.fillUriTemplate('http://foo/{t},{m}', {'t': ${/mail}, 'm': ${/tel}})}"` 
+
+
+    
+    </td>
+    <td valign="top">
+    
+    `sap.ui.thirdparty.URITemplate`
 
 
     

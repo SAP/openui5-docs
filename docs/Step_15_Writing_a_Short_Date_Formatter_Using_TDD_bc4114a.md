@@ -16,11 +16,11 @@ It's now time to improve the content of the *Info* tab. We want to see the *Post
 
 ### Preview
 
-   
+  
   
 **Unit tests of the formatter**
 
- ![](images/loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter") 
+![](images/loio8ab2798015ec431ab2125632cc37bcc3_HiRes.png "Unit tests of the formatter")
 
 Depending on the current date, we distinguish four different formatting categories, as shown in the table below:
 
@@ -61,14 +61,14 @@ Today
 </td>
 <td valign="top">
 
- `2013/02/13 12:05:20` 
+`2013/02/13 12:05:20` 
 
 
 
 </td>
 <td valign="top">
 
- ***12:05 PM*** 
+***12:05 PM*** 
 
 
 
@@ -84,14 +84,14 @@ Yesterday
 </td>
 <td valign="top">
 
- `2013/02/12 12:05:20` 
+`2013/02/12 12:05:20` 
 
 
 
 </td>
 <td valign="top">
 
- ***Yesterday*** 
+***Yesterday*** 
 
 
 
@@ -107,14 +107,14 @@ Last 7 days
 </td>
 <td valign="top">
 
- `2013/02/08 12:05:20` 
+`2013/02/08 12:05:20` 
 
 
 
 </td>
 <td valign="top">
 
- ***Friday*** 
+***Friday*** 
 
 
 
@@ -130,14 +130,14 @@ Others
 </td>
 <td valign="top">
 
- `2011/02/05 12:05:20` 
+`2011/02/05 12:05:20` 
 
 
 
 </td>
 <td valign="top">
 
- ***Dec 5, 2011*** 
+***Dec 5, 2011*** 
 
 
 
@@ -307,7 +307,7 @@ In the implementation we use the `DateFormat` of OpenUI5 to create a short date.
 > ### Note:  
 > The implementation should not do more than the current tests covers. This makes sure you cover all the code paths. You can enable the code coverage by selecting the *Enable coverage* checkbox.
 > 
->  ![](images/loioa700487ab86444eb8643924d0dccf942_HiRes.png) 
+> ![](images/loioa700487ab86444eb8643924d0dccf942_HiRes.png)
 > 
 > It will show the lines covered by your tests \(white\) and the ones that were not covered \(red\). For the single test above the coverage looks like this. The red line is already covered by the previous test so in total we have a test coverage of 100%.
 
@@ -537,9 +537,9 @@ In the implementation, we use a different `style` property for instantiating the
 
 Although our formatter depends on system time and locale settings, our tests are very easy to read and maintain. We wrote blackbox tests, providing only the input and expecting a certain output without knowing the implementation details. The `DateFormatter` does not actively resolve the dependencies to the system time and locale settings. Instead, it asks its creator to pass the dependencies along in the constructor. In the next step, we have to bring the pieces together.
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 14: Adding Tabs](Step_14_Adding_Tabs_6e9c6bd.md "We want to display statistics for posts, for example, how many times it was viewed. To achieve this, we implement an icon tab bar with an Info tab and a Statistics tab. The existing content should be placed on the Info tab and the view count on the Statistics tab.")
+**Next:**[Step 14: Adding Tabs](Step_14_Adding_Tabs_6e9c6bd.md "We want to display statistics for posts, for example, how many times it was viewed. To achieve this, we implement an icon tab bar with an Info tab and a Statistics tab. The existing content should be placed on the Info tab and the view count on the Statistics tab.")
 
-**Previous:** [Step 16: Adding the Date Formatter](Step_16_Adding_the_Date_Formatter_2ca583d.md "Our formatter does its job, but it is not yet used. In this step we will use it.")
+**Previous:**[Step 16: Adding the Date Formatter](Step_16_Adding_the_Date_Formatter_2ca583d.md "Our formatter does its job, but it is not yet used. In this step we will use it.")
 

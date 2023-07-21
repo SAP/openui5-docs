@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a0cb7a
 
 With this release OpenUI5 is upgraded from version 1.42 to 1.44.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Navigation and Routing** 
+**Navigation and Routing** 
 
 
 
@@ -109,7 +109,7 @@ In the routing configuration, you can now define a `homeRoute` for the generic h
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -125,28 +125,28 @@ In the routing configuration, you can now define a `homeRoute` for the generic h
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Formatting and Parsing of Week Info for All Calendar Types** 
+**Formatting and Parsing of Week Info for All Calendar Types** 
 
 
 
@@ -164,7 +164,7 @@ The calculation of calendar weeks is now based on minimal days in first week com
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ The calculation of calendar weeks is now based on minimal days in first week com
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -242,7 +242,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -258,28 +258,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OData V2 Model** 
+**OData V2 Model** 
 
 
 
@@ -297,7 +297,7 @@ For OData V2 models, the V2 annotation `‘sap:visible=”false”’` is now al
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -313,28 +313,28 @@ For OData V2 models, the V2 annotation `‘sap:visible=”false”’` is now al
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **One Page Acceptance Tests \(OPA5\)** 
+**One Page Acceptance Tests \(OPA5\)** 
 
 
 
@@ -352,7 +352,7 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -368,28 +368,28 @@ You can now check for empty aggregations in your OPA test with the `AggregationE
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -407,7 +407,7 @@ Using the new property `toggleHeaderOnTitleClick`, you can now disable the featu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -423,28 +423,28 @@ Using the new property `toggleHeaderOnTitleClick`, you can now disable the featu
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Dialog`** 
+**`sap.m.Dialog`** 
 
 
 
@@ -462,7 +462,7 @@ We have enabled custom handling for the *Close* button. App developers can check
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -478,28 +478,28 @@ We have enabled custom handling for the *Close* button. App developers can check
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.GenericTile`** 
+**`sap.m.GenericTile`** 
 
 
 
@@ -517,7 +517,7 @@ With the new `LineMode`, you can switch the visualization of the Generic Tile on
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -533,28 +533,28 @@ With the new `LineMode`, you can switch the visualization of the Generic Tile on
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.HeaderContainer`** 
+**`sap.m.HeaderContainer`** 
 
 
 
@@ -572,7 +572,7 @@ The `HeaderContainer` control has been moved from the `sap.suite.ui.commons` lib
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -588,28 +588,28 @@ The `HeaderContainer` control has been moved from the `sap.suite.ui.commons` lib
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -632,7 +632,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -648,28 +648,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List / sap.m.Table`** 
+**`sap.m.List / sap.m.Table`** 
 
 
 
@@ -687,7 +687,7 @@ You can now highlight items, for example to indicate an error. For more informat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -703,28 +703,28 @@ You can now highlight items, for example to indicate an error. For more informat
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
+**`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
 
 
 
@@ -737,7 +737,7 @@ We have implemented several new features:
 
 -   New aggregation \(`processingMessage`\) to provide a `sap.m.MessageStrip` notification within a `NotificationListItem`
 
-     ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+    ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png)
 
 -   Notification list items are highlighted on mouse-over as with list items.
 
@@ -753,7 +753,7 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -769,28 +769,28 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -808,7 +808,7 @@ A new `week` view is now available for the `PlanningCalendar` control. It displa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -824,28 +824,28 @@ A new `week` view is now available for the `PlanningCalendar` control. It displa
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Slider / sap.m.RangeSlider`** 
+**`sap.m.Slider / sap.m.RangeSlider`** 
 
 
 
@@ -856,7 +856,7 @@ A new `week` view is now available for the `PlanningCalendar` control. It displa
 
 We have implemented responsive tickmarks for the slider controls. The tickmarks are enabled with the `enableTickmarks` property. The number of visible tickmarks depends on the step size and the slider minimum and maximum values. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Slider/methods/getEnableTickmarks) and the [Sample](https://sdk.openui5.org/entity/sap.m.Slider/sample/sap.m.sample.Slider).
 
- ![](images/loiobf5c44ab603347caa69c729da549cd0f_LowRes.png) 
+![](images/loiobf5c44ab603347caa69c729da549cd0f_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.44</sub>
 
@@ -865,7 +865,7 @@ We have implemented responsive tickmarks for the slider controls. The tickmarks 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -881,28 +881,28 @@ We have implemented responsive tickmarks for the slider controls. The tickmarks 
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.UploadCollection`** 
+**`sap.m.UploadCollection`** 
 
 
 
@@ -920,7 +920,7 @@ The sorting and filtering feature has been enhanced. You can now also display th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -936,28 +936,28 @@ The sorting and filtering feature has been enhanced. You can now also display th
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.*`** 
+**`sap.ui.table.*`** 
 
 
 
@@ -980,7 +980,7 @@ The sorting and filtering feature has been enhanced. You can now also display th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -996,28 +996,28 @@ The sorting and filtering feature has been enhanced. You can now also display th
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Testing Tutorial** 
+**Testing Tutorial** 
 
 
 
@@ -1035,7 +1035,7 @@ The **Testing** tutorial has been enhanced with two additional steps. For more i
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1051,28 +1051,28 @@ The **Testing** tutorial has been enhanced with two additional steps. For more i
 <tr>
 <td valign="top">
 
- 1.44 
+1.44 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -1104,7 +1104,7 @@ The Demo Kit now has the following new features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1119,7 +1119,7 @@ The Demo Kit now has the following new features:
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

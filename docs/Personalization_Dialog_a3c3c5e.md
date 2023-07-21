@@ -63,7 +63,7 @@ The following buttons are available in the dialog:
     > The control only provides the visual representation of the table settings on the user interface. The consuming application must ensure the settings are actually changed in the table.
 
 
-**Parent topic:** [Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
+**Parent topic:**[Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
 
 **Related Information**  
 

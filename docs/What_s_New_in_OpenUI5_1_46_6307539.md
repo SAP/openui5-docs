@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/630753
 
 With this release OpenUI5 is upgraded from version 1.44 to 1.46.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Themes** 
+**New Themes** 
 
 
 
@@ -109,7 +109,7 @@ The High Contrast White \(HCW\) and High Contrast Black \(HCB\) themes \(`sap_be
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -125,28 +125,28 @@ The High Contrast White \(HCW\) and High Contrast Black \(HCB\) themes \(`sap_be
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support for Persian Calendar** 
+**Support for Persian Calendar** 
 
 
 
@@ -159,7 +159,7 @@ All our controls now support the Persian calendar. The Persian calendar is also 
 
 The Persian calendar year begins around March 21st of each Gregorian year and ends at around March 20th of the following year. To convert the Persian calendar years into the equivalent Gregorian year, add 621 or 622 years to the Persian calendar year depending on whether the Persian calendar year has begun or not.
 
- ![](images/loiobbe5a6aa64b74db6bcf6f0bc510f0d34_LowRes.png) 
+![](images/loiobbe5a6aa64b74db6bcf6f0bc510f0d34_LowRes.png)
 
 <sub>New•Feature•Info Only•1.46</sub>
 
@@ -168,7 +168,7 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -184,28 +184,28 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Avatar`** 
+**`sap.f.Avatar`** 
 
 
 
@@ -216,11 +216,11 @@ The Persian calendar year begins around March 21st of each Gregorian year and en
 
 **`sap.f.Avatar`** is an SAP Fiori 2.0 image-like control that has different display options for representing images, initials, and icons. It allows the usage of different content, shapes, and sizes depending on the use case.
 
- ![](images/loiob6de75d7ec6745ef9bd006c430325948_LowRes.png) 
+![](images/loiob6de75d7ec6745ef9bd006c430325948_LowRes.png)
 
 There are several predefined sizes, as well as an option to set a custom size.
 
- ![](images/loio9127c435630540d890ff85b14cbed308_LowRes.png) 
+![](images/loio9127c435630540d890ff85b14cbed308_LowRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.Avatar) and the [Sample](https://sdk.openui5.org/entity/sap.m.Avatar/sample/sap.m.sample.Avatar).
 
@@ -231,7 +231,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -247,28 +247,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayout`** 
+**`sap.f.FlexibleColumnLayout`** 
 
 
 
@@ -281,7 +281,7 @@ This control represents the new SAP Fiori 2.0 base layout for an app. It impleme
 
 There are several possible layouts that can be changed with the control's API, and also by the user with navigation arrows.
 
- ![](images/loio2d2dc782d40843f391a6da7b3c056acb_LowRes.png) 
+![](images/loio2d2dc782d40843f391a6da7b3c056acb_LowRes.png)
 
 For more information, see [Building an App with the Flexible Column Layout and Related Classes](Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md), the [API Reference](https://sdk.openui5.org/api/sap.f.FlexibleColumnLayout), and the [Sample](https://sdk.openui5.org/entity/sap.f.FlexibleColumnLayout/sample/sap.f.sample.FlexibleColumnLayoutSimple).
 
@@ -292,7 +292,7 @@ For more information, see [Building an App with the Flexible Column Layout and R
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -308,28 +308,28 @@ For more information, see [Building an App with the Flexible Column Layout and R
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.semantic.SemanticPage`** 
+**`sap.f.semantic.SemanticPage`** 
 
 
 
@@ -340,19 +340,19 @@ For more information, see [Building an App with the Flexible Column Layout and R
 
 This new SAP Fiori 2.0 control represents an enhanced `sap.f.DynamicPage` that contains controls with semantic-specific meaning. You can set different actions using the available aggregations, and the `sap.f.semantic.SemanticPage` will automatically position them in dedicated sections of the title or the footer of the page, facilitating the implementation of the SAP Fiori 2.0 design guidelines.
 
-   
+  
   
 **Different types of actions in the title positioned in a predefined order**
 
- ![](images/loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a
-									predefined order") 
+![](images/loio12fc65627dd9416e98d8a25fc31d2410_LowRes.png "Different types of actions in the title positioned in a
+									predefined order")
 
-   
+  
   
 **Different types of actions in the footer’s right and left areas, positioned in a predefined order**
 
- ![](images/loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left
-									areas, positioned in a predefined order") 
+![](images/loio57b825fe5df7414e89013e92e0ee30e8_LowRes.png "Different types of actions in the footer’s right and left
+									areas, positioned in a predefined order")
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.semantic.SemanticPage) and the [Sample](https://sdk.openui5.org/entity/sap.f.semantic.SemanticPage/sample/sap.f.sample.SemanticPageFreeStyle).
 
@@ -363,7 +363,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -379,28 +379,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.codeeditor.CodeEditor`** 
+**`sap.ui.codeeditor.CodeEditor`** 
 
 
 
@@ -418,7 +418,7 @@ You can use this control to visualize source code of various types, with syntax 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -434,28 +434,28 @@ You can use this control to visualize source code of various types, with syntax 
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -498,7 +498,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -514,28 +514,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OData V2 Model** 
+**OData V2 Model** 
 
 
 
@@ -557,7 +557,7 @@ For more information, see [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#lo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -573,28 +573,28 @@ For more information, see [Meta Model for OData V2](OData_V2_Model_6c47b2b.md#lo
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **One Page Acceptance Tests \(OPA5\)** 
+**One Page Acceptance Tests \(OPA5\)** 
 
 
 
@@ -612,7 +612,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -628,28 +628,28 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`** 
+**`sap.m.ComboBox`** 
 
 
 
@@ -670,7 +670,7 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -686,28 +686,28 @@ The new `LabelFor` matcher checks if a given control is associated with the `sap
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker`** 
+**`sap.m.DatePicker`** 
 
 
 
@@ -725,7 +725,7 @@ We have introduced a new `navigate` event. While navigating in the calendar popu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -741,28 +741,28 @@ We have introduced a new `navigate` event. While navigating in the calendar popu
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.GenericTile`** 
+**`sap.m.GenericTile`** 
 
 
 
@@ -780,7 +780,7 @@ The new `Actions` `scope` property was added to provide an editing option for th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -796,28 +796,28 @@ The new `Actions` `scope` property was added to provide an editing option for th
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`** 
+**`sap.m.Input`** 
 
 
 
@@ -828,7 +828,7 @@ The new `Actions` `scope` property was added to provide an editing option for th
 
 **`sap.m.Input`** and all inheriting controls now allow filtering and searching in two or more columns. Matching is done only on the initial character and the matching sequence is displayed in bold in the suggestion list.
 
- ![](images/loiof31e644295ca4df1a16300064c886e28_LowRes.png) 
+![](images/loiof31e644295ca4df1a16300064c886e28_LowRes.png)
 
 For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Input/sample/sap.m.sample.InputAssistedTwoValues).
 
@@ -839,7 +839,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Inpu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -855,28 +855,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Inpu
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessageBox`** 
+**`sap.m.MessageBox`** 
 
 
 
@@ -894,7 +894,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Inpu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -910,28 +910,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Inpu
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox`** 
+**`sap.m.MultiComboBox`** 
 
 
 
@@ -949,7 +949,7 @@ The delay for text validation in the `sap.m.MultiComboBox` has been changed in o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -965,28 +965,28 @@ The delay for text validation in the `sap.m.MultiComboBox` has been changed in o
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiInput`** 
+**`sap.m.MultiInput`** 
 
 
 
@@ -1004,7 +1004,7 @@ The delay for text validation in the `sap.m.MultiComboBox` has been changed in o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1020,28 +1020,28 @@ The delay for text validation in the `sap.m.MultiComboBox` has been changed in o
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
+**`sap.m.NotificationListItem / sap.m.NotificationListGroup`** 
 
 
 
@@ -1054,11 +1054,11 @@ We have implemented several new features:
 
 -   When the maximum number of notifications is reached, a message is shown on the bottom of the `NotificationListGroup` notifying the user about additional notifications that are hidden.
 
-     ![](images/loio4387085657e0455786240dbffb89fe5b_LowRes.png) 
+    ![](images/loio4387085657e0455786240dbffb89fe5b_LowRes.png)
 
 -   Action buttons have been moved from the footer of the `NotificationListItem` to the header to improve usability.
 
-     ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png) 
+    ![](images/loio2b1c9e05fad34795bb189c9c28975b1d_LowRes.png)
 
 
 For more information, see the samples [Notification List Item](https://sdk.openui5.org/entity/sap.m.NotificationListItem/sample/sap.m.sample.NotificationListItem) and [Notification List Group with Max Number of Notifications Reached](https://sdk.openui5.org/entity/sap.m.NotificationListGroup/sample/sap.m.sample.MaxNumberOfNotificationsReached). 
@@ -1070,7 +1070,7 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1086,28 +1086,28 @@ For more information, see the samples [Notification List Item](https://sdk.openu
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -1125,7 +1125,7 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1141,28 +1141,28 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.QuickView / sap.m.QuickViewCard`** 
+**`sap.m.QuickView / sap.m.QuickViewCard`** 
 
 
 
@@ -1180,7 +1180,7 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1196,28 +1196,28 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Slider / sap.m.RangeSlider`** 
+**`sap.m.Slider / sap.m.RangeSlider`** 
 
 
 
@@ -1228,7 +1228,7 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 
 **`sap.m.Slider`** and **`sap.m.RangeSlider`** can display labels for tick marks. The labels are defined and represented as a `sap.m.ResponsiveScale`, which is logically decoupled from the slider. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ResponsiveScale) and the [Sample](https://sdk.openui5.org/entity/sap.m.Slider/sample/sap.m.sample.Slider).
 
- ![](images/loiob11c763f854c4b069eb89f58423bb993_LowRes.png) 
+![](images/loiob11c763f854c4b069eb89f58423bb993_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
@@ -1237,7 +1237,7 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1253,28 +1253,28 @@ We have introduced a new `rowHeaderClick` event. You can now receive an event wh
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -1292,7 +1292,7 @@ Screen reader support for `sap.m.Table` has been improved. For more information,
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1308,28 +1308,28 @@ Screen reader support for `sap.m.Table` has been improved. For more information,
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.UploadCollection`** 
+**`sap.m.UploadCollection`** 
 
 
 
@@ -1347,7 +1347,7 @@ To add an item to the upload list, you can also use drag & drop on your desktop 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1363,28 +1363,28 @@ To add an item to the upload list, you can also use drag & drop on your desktop 
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form.Form`** 
+**`sap.ui.layout.form.Form`** 
 
 
 
@@ -1402,7 +1402,7 @@ The samples in the Demo Kit have been improved.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1418,28 +1418,28 @@ The samples in the Demo Kit have been improved.
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.*`** 
+**`sap.ui.table.*`** 
 
 
 
@@ -1453,7 +1453,7 @@ The samples in the Demo Kit have been improved.
 -   You can now define row-specific actions, such as navigation. The actions remain available on the right even when you scroll horizontally.
 
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.Table) and the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.RowAction). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.Table) and the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.RowAction). 
 
 <sub>Changed•Control•Info Only•1.46</sub>
 
@@ -1462,7 +1462,7 @@ The samples in the Demo Kit have been improved.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1478,28 +1478,28 @@ The samples in the Demo Kit have been improved.
 <tr>
 <td valign="top">
 
- 1.46 
+1.46 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -1516,11 +1516,11 @@ The samples in the Demo Kit have been improved.
 
     -   *Browse Orders*: A new master-detail app with features for browsing orders
 
-         ![](images/loio67c304672d8241b4a6496b969c01d972_LowRes.png) 
+        ![](images/loio67c304672d8241b4a6496b969c01d972_LowRes.png)
 
     -   *Shop Administrator*: The tool page demo app has been completely renovated and now showcases a shop administration scenario with controls from the `sap.tnt`, `sap.ui.layout`, and `sap.suite.ui` library.
 
-         ![](images/loioa053afde39624bf29121f26802d1d168_LowRes.png) 
+        ![](images/loioa053afde39624bf29121f26802d1d168_LowRes.png)
 
 
 
@@ -1531,7 +1531,7 @@ The samples in the Demo Kit have been improved.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1546,7 +1546,7 @@ The samples in the Demo Kit have been improved.
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

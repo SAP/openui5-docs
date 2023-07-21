@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.73 to 1.74.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Test Recorder** 
+**Test Recorder** 
 
 
 
@@ -104,7 +104,7 @@ Available as of
 
 The Test Recorder tool is now part of the OpenUI5 framework and is available in all browsers. Use it in any OpenUI5 app to inspect the rendered user interface, view the control properties, and get hints about writing tests. The tool is aligned with the two official OpenUI5 testing tools – OPA5 and UIVeri5.
 
- ![](images/loio639a7041dc2740c2b9f0183a7aee41bb_HiRes.png) 
+![](images/loio639a7041dc2740c2b9f0183a7aee41bb_HiRes.png)
 
 For more information, see [Test Recorder](Test_Recorder_2535ef9.md).
 
@@ -131,28 +131,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Card Explorer** 
+**Card Explorer** 
 
 
 
@@ -170,7 +170,7 @@ We have enhanced the functionality to download samples from the Card Explorer, a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -186,28 +186,28 @@ We have enhanced the functionality to download samples from the Card Explorer, a
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Navigation in Nested Components** 
+**Navigation in Nested Components** 
 
 
 
@@ -225,7 +225,7 @@ In recent releases, the capabilities to [Navigate with Nested Components](Naviga
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -241,28 +241,28 @@ In recent releases, the capabilities to [Navigate with Nested Components](Naviga
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Negative Predefined CSS Margin Classes** 
+**Negative Predefined CSS Margin Classes** 
 
 
 
@@ -291,7 +291,7 @@ For more information, see [Using Predefined CSS Margin Classes](Using_Predefined
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -307,28 +307,28 @@ For more information, see [Using Predefined CSS Margin Classes](Using_Predefined
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Responsive Padding Enablement** 
+**Responsive Padding Enablement** 
 
 
 
@@ -346,7 +346,7 @@ We've introduced responsive paddings to the `sap.m.IconTabBar`, `sap.m.ObjectHea
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -362,28 +362,28 @@ We've introduced responsive paddings to the `sap.m.IconTabBar`, `sap.m.ObjectHea
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -414,7 +414,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -430,28 +430,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Avatar`** 
+**`sap.m.Avatar`** 
 
 
 
@@ -469,7 +469,7 @@ We've added *remove* and *reveal* actions in the `Avatar` design-time metadata. 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -485,28 +485,28 @@ We've added *remove* and *reveal* actions in the `Avatar` design-time metadata. 
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ColorPalette`** 
+**`sap.m.ColorPalette`** 
 
 
 
@@ -524,7 +524,7 @@ We have introduced a *Recent Colors* section, showing the last 5 recently used c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -540,28 +540,28 @@ We have introduced a *Recent Colors* section, showing the last 5 recently used c
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateRangeSelection`** 
+**`sap.m.DateRangeSelection`** 
 
 
 
@@ -579,7 +579,7 @@ We have introduced the ability to select month and year ranges. This improves th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -595,28 +595,28 @@ We have introduced the ability to select month and year ranges. This improves th
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
+**`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
 
 
 
@@ -634,7 +634,7 @@ The busy indicator is now displayed in the center of the visible area of the UIs
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -650,28 +650,28 @@ The busy indicator is now displayed in the center of the visible area of the UIs
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NavContainer`** 
+**`sap.m.NavContainer`** 
 
 
 
@@ -689,7 +689,7 @@ In version 1.69, the default value for the `defaultTransitionName` property was 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -705,28 +705,28 @@ In version 1.69, the default value for the `defaultTransitionName` property was 
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationListItem`** 
+**`sap.m.NotificationListItem`** 
 
 
 
@@ -744,7 +744,7 @@ The avatar background color can now be managed by the application developer usin
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -760,28 +760,28 @@ The avatar background color can now be managed by the application developer usin
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.plugins.DataStateIndicator`** 
+**`sap.m.plugins.DataStateIndicator`** 
 
 
 
@@ -799,7 +799,7 @@ This plugin for the table controls \(`sap.m.List, sap.m.Table, sap.ui.table.Tabl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -815,28 +815,28 @@ This plugin for the table controls \(`sap.m.List, sap.m.Table, sap.ui.table.Tabl
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`** 
+**`sap.m.Select`** 
 
 
 
@@ -854,7 +854,7 @@ With the new `required` property, you can now indicate whether user input is req
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -870,28 +870,28 @@ With the new `required` property, you can now indicate whether user input is req
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.StandardListItem`** 
+**`sap.m.StandardListItem`** 
 
 
 
@@ -909,7 +909,7 @@ The new `infoStateInverted` property changes the rendering behavior of the infor
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -925,28 +925,28 @@ The new `infoStateInverted` property changes the rendering behavior of the infor
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -964,7 +964,7 @@ A more comprehensive message text is now shown if no data is available because a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -980,28 +980,28 @@ A more comprehensive message text is now shown if no data is available because a
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ViewSettingsDialog`** 
+**`sap.m.ViewSettingsDialog`** 
 
 
 
@@ -1019,7 +1019,7 @@ We have introduced a new button to display only the selected items in the filter
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1035,28 +1035,28 @@ We have introduced a new button to display only the selected items in the filter
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Wizard`** 
+**`sap.m.Wizard`** 
 
 
 
@@ -1074,7 +1074,7 @@ We have enhanced the `sap.m.Wizard` control for better integration in the `sap.f
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1090,28 +1090,28 @@ We have enhanced the `sap.m.Wizard` control for better integration in the `sap.f
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.tnt.InfoLabel`** 
+**`sap.tnt.InfoLabel`** 
 
 
 
@@ -1122,7 +1122,7 @@ We have enhanced the `sap.m.Wizard` control for better integration in the `sap.f
 
 We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content. It is defined by the new `icon` property. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.tnt.InfoLabel) and the [Sample](https://sdk.openui5.org/entity/sap.tnt.InfoLabel/sample/sap.tnt.sample.InfoLabel).
 
- ![](images/loiocadac6c2a6e74ac18c574ee7f3b4b0df_LowRes.png) 
+![](images/loiocadac6c2a6e74ac18c574ee7f3b4b0df_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.74</sub>
 
@@ -1131,7 +1131,7 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1147,28 +1147,28 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -1200,7 +1200,7 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1216,28 +1216,28 @@ We have introduced the option to add an icon to the `sap.tnt.InfoLabel` content.
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -1255,7 +1255,7 @@ You can now move the corresponding section numbers that are displayed in the `An
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1271,28 +1271,28 @@ You can now move the corresponding section numbers that are displayed in the `An
 <tr>
 <td valign="top">
 
- 1.74 
+1.74 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Performance Checklist** 
+**Performance Checklist** 
 
 
 
@@ -1310,7 +1310,7 @@ Ensuring that your OpenUI5 apps run fast is an important topic in application de
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1325,7 +1325,7 @@ Ensuring that your OpenUI5 apps run fast is an important topic in application de
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

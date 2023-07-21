@@ -49,7 +49,7 @@ To enable data for a table to be fetched on demand like this, you just need to s
 
 ```
 
- ![](images/loiof77f21836ce04e65b6c5ed258abb8e18_LowRes.png) 
+![](images/loiof77f21836ce04e65b6c5ed258abb8e18_LowRes.png)
 
 If you want the user to have to scroll down to see more items \(by setting the `growingScrollToLoad` property to true\), you must ensure that the control is within a container that has a scroll feature, such as an `sap.m.Page` in an `sap.m.App` control, like this:
 

@@ -45,14 +45,14 @@ The difference between the previous and the current state of the list is provide
 > <tr>
 > <td valign="top">
 > 
->  **Old State** 
+> **Old State** 
 > 
 > 
 > 
 > </td>
 > <td valign="top">
 > 
->  **New State** 
+> **New State** 
 > 
 > 
 > 
@@ -61,23 +61,14 @@ The difference between the previous and the current state of the list is provide
 > <tr>
 > <td valign="top">
 > 
->  `["one", "two", "three", "four", "five"]` 
+> `["one", "two", "three", "four", "five"]` 
 > 
 > 
 > 
 > </td>
 > <td valign="top">
 > 
->  `["one", "three", "four", "five", "six"]` 
-> 
-> 
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top" colspan="2">
-> 
->  **Difference** 
+> `["one", "three", "four", "five", "six"]` 
 > 
 > 
 > 
@@ -86,7 +77,16 @@ The difference between the previous and the current state of the list is provide
 > <tr>
 > <td valign="top" colspan="2">
 > 
->  `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
+> **Difference** 
+> 
+> 
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top" colspan="2">
+> 
+> `[{index: 1, type: "delete"}, {index: 4, type: "insert}]` 
 > 
 > 
 > 
@@ -120,14 +120,14 @@ If a control you want to use in your app to visualize list entries supports exte
     <tr>
     <th valign="top">
 
-     `key` property
+    `key` property
 
 
     
     </th>
     <th valign="top">
 
-     `key` function
+    `key` function
 
 
     
@@ -136,7 +136,7 @@ If a control you want to use in your app to visualize list entries supports exte
     <tr>
     <td valign="top">
     
-        ```js
+    ```js
     oControl.bindItems({
       path: "/listData",
       key: "id"
@@ -148,7 +148,7 @@ If a control you want to use in your app to visualize list entries supports exte
     </td>
     <td valign="top">
     
-        ```js
+    ```js
     oControl.bindItems({
       path: "/listData",
       key: function(oContext) {

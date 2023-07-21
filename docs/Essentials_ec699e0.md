@@ -18,7 +18,7 @@ This chapter and its sections describe the development concepts of OpenUI5, such
 
 ### OpenUI5 Architecture
 
- ![OpenUI5 Architecture Overview](images/loio99b4be76a3f94db18172e67e730fb7fb_LowRes.png) 
+![OpenUI5 Architecture Overview](images/loio99b4be76a3f94db18172e67e730fb7fb_LowRes.png)
 
 OpenUI5 is a client UI technology based on JavaScript, CSS and HTML5.
 
@@ -69,7 +69,7 @@ Declarative programming allows you to define the UI within the HTML document as 
 -   **[Error, Warning, and Info Messages](Error_Warning_and_Info_Messages_62b1481.md "
 		OpenUI5 provides a central place
 		for storing and managing info, warning, and error messages.")**  
- OpenUI5 provides a central place for storing and managing info, warning, and error messages.
+OpenUI5 provides a central place for storing and managing info, warning, and error messages.
 -   **[Routing and Navigation](Routing_and_Navigation_3d18f20.md "OpenUI5 offers hash-based
         navigation, which allows you to build single-page apps where the navigation is done by
         changing the hash. In this way the browser does not have to reload the page; instead there

@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.90 to 1.91.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -171,7 +171,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -187,28 +187,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.App`** 
+**`sap.m.App`** 
 
 
 
@@ -226,7 +226,7 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -242,28 +242,28 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ExpandableText`** 
+**`sap.m.ExpandableText`** 
 
 
 
@@ -281,7 +281,7 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -297,28 +297,28 @@ Until now, `sap.m.App` assumed that it wasn't nested and always appeared as the 
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -336,7 +336,7 @@ We introduced the `ColumnResizer` plugin that handles column resizing for a resp
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -352,28 +352,28 @@ We introduced the `ColumnResizer` plugin that handles column resizing for a resp
 <tr>
 <td valign="top">
 
- 1.91 
+1.91 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table` Documentation Enhancement** 
+**`sap.m.Table` Documentation Enhancement** 
 
 
 
@@ -393,7 +393,7 @@ For more information, see [Configuring Responsive Behavior of a Table](Configuri
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -408,7 +408,7 @@ For more information, see [Configuring Responsive Behavior of a Table](Configuri
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

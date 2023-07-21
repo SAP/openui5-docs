@@ -43,7 +43,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 [API Reference: `sap.ui.model.xml.XMLModel`](https://sdk.openui5.org/api/sap.ui.model.xml.XMLModel)
 
- <a name="loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
+<a name="loioab8ed73c5bbd4a2b9c9840401ebf25cf"/>
 
 <!-- loioab8ed73c5bbd4a2b9c9840401ebf25cf -->
 
@@ -71,7 +71,7 @@ oSorter.fnCompare = function(value1, value2) {
 };
 ```
 
- <a name="loio8674a69845c846d3bd68b60685bb5683"/>
+<a name="loio8674a69845c846d3bd68b60685bb5683"/>
 
 <!-- loio8674a69845c846d3bd68b60685bb5683 -->
 
@@ -101,7 +101,7 @@ oModel.setNameSpace("http://tempuri.org/ext", "e"); [...]
 oTable.bindRows("/e:entry");
 ```
 
- <a name="loiob8a2c24356c443228f7819d45697a2b8"/>
+<a name="loiob8a2c24356c443228f7819d45697a2b8"/>
 
 <!-- loiob8a2c24356c443228f7819d45697a2b8 -->
 

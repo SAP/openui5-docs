@@ -47,14 +47,14 @@ Comment
 <tr>
 <td valign="top">
 
- `sap.app/id` 
+`sap.app/id` 
 
 
 
 </td>
 <td valign="top">
 
- `name` 
+`name` 
 
 
 
@@ -75,7 +75,7 @@ Comment
 <tr>
 <td valign="top">
 
- `sap.app/type` 
+`sap.app/type` 
 
 
 
@@ -105,7 +105,7 @@ Generated with value `library`
 <tr>
 <td valign="top">
 
- `sap.app/embeds` 
+`sap.app/embeds` 
 
 
 
@@ -135,14 +135,14 @@ Generated
 <tr>
 <td valign="top">
 
- `sap.app/i18n` 
+`sap.app/i18n` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/i18n` 
+`appData/manifest/i18n` 
 
 
 
@@ -165,14 +165,14 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.app/applicationVersion/version` 
+`sap.app/applicationVersion/version` 
 
 
 
 </td>
 <td valign="top">
 
- `version` 
+`version` 
 
 
 
@@ -193,14 +193,14 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.app/title` 
+`sap.app/title` 
 
 
 
 </td>
 <td valign="top">
 
- `title` 
+`title` 
 
 
 
@@ -223,14 +223,14 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 <tr>
 <td valign="top">
 
- `sap.app/description` 
+`sap.app/description` 
 
 
 
 </td>
 <td valign="top">
 
- `documentation` 
+`documentation` 
 
 
 
@@ -253,14 +253,14 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 <tr>
 <td valign="top">
 
- `sap.app/ach` 
+`sap.app/ach` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/ownership/component` 
+`appData/ownership/component` 
 
 
 
@@ -281,14 +281,14 @@ Text symbol syntax with leading curly brackets \(`{{`\) and trailing curly brack
 <tr>
 <td valign="top">
 
- `sap.app/openSourceComponents` 
+`sap.app/openSourceComponents` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/openSourceComponents` 
+`appData/manifest/openSourceComponents` 
 
 
 
@@ -311,7 +311,7 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.app/resources` 
+`sap.app/resources` 
 
 
 
@@ -341,14 +341,14 @@ Generated with value `resources.json`
 <tr>
 <td valign="top">
 
- `sap.app/offline` 
+`sap.app/offline` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/offline` 
+`appData/manifest/offline` 
 
 
 
@@ -371,14 +371,14 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.app/sourceTemplate` 
+`sap.app/sourceTemplate` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/sourceTemplate` 
+`appData/manifest/sourceTemplate` 
 
 
 
@@ -401,7 +401,7 @@ New in `.library`, to be filled by SAP Web IDE only
 <tr>
 <td valign="top">
 
- `sap.ui/technology` 
+`sap.ui/technology` 
 
 
 
@@ -431,14 +431,14 @@ Generated with value `UI5`
 <tr>
 <td valign="top">
 
- `sap.ui/deviceTypes` 
+`sap.ui/deviceTypes` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/deviceTypes` 
+`appData/manifest/deviceTypes` 
 
 
 
@@ -461,7 +461,7 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.ui/supportedThemes` 
+`sap.ui/supportedThemes` 
 
 
 
@@ -491,7 +491,7 @@ Generated and merged
 <tr>
 <td valign="top">
 
- `sap.ui5/dependencies/minUI5Version` 
+`sap.ui5/dependencies/minUI5Version` 
 
 
 
@@ -521,14 +521,14 @@ Generated
 <tr>
 <td valign="top">
 
- `sap.ui5/dependencies/libs` 
+`sap.ui5/dependencies/libs` 
 
 
 
 </td>
 <td valign="top">
 
- `dependencies` 
+`dependencies` 
 
 
 
@@ -549,14 +549,14 @@ Generated
 <tr>
 <td valign="top">
 
- `sap.ui5/contentDensities` 
+`sap.ui5/contentDensities` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/contentDensities` 
+`appData/manifest/contentDensities` 
 
 
 
@@ -579,7 +579,7 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.ui5/library/i18n` 
+`sap.ui5/library/i18n` 
 
 
 
@@ -609,44 +609,14 @@ Determines whether the library contains an i18n resource. Value can be either a 
 <tr>
 <td valign="top">
 
- `sap.platform.abap/uri` 
+`sap.platform.abap/uri` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/sap.platform.abap/uri` 
-
-
-
-</td>
-<td valign="top">
-
-![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
-
-
-
-</td>
-<td valign="top">
-
-New in `.library` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `sap.platform.hcp/uri` 
-
-
-
-</td>
-<td valign="top">
-
- `appData/manifest/sap.platform.hcp/uri` 
+`appData/manifest/sap.platform.abap/uri` 
 
 
 
@@ -669,14 +639,14 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.fiori/registrationIds` 
+`sap.platform.hcp/uri` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/sap.fiori/registrationId` 
+`appData/manifest/sap.platform.hcp/uri` 
 
 
 
@@ -699,14 +669,44 @@ New in `.library`
 <tr>
 <td valign="top">
 
- `sap.fiori/archeType` 
+`sap.fiori/registrationIds` 
 
 
 
 </td>
 <td valign="top">
 
- `appData/manifest/sap.fiori/archeType` 
+`appData/manifest/sap.fiori/registrationId` 
+
+
+
+</td>
+<td valign="top">
+
+![NO](images/loiodfb38de82f6d46dab60cb1397e3ed8ae_LowRes.png)
+
+
+
+</td>
+<td valign="top">
+
+New in `.library` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`sap.fiori/archeType` 
+
+
+
+</td>
+<td valign="top">
+
+`appData/manifest/sap.fiori/archeType` 
 
 
 

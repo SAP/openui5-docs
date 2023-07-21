@@ -18,12 +18,12 @@ In this step, we utilize the `sap.f.routing.Router`.
 
 ### Preview
 
-   
+  
   
 **Changing layouts based on the sap.f.routing.Router \(no visual changes to last step\)**
 
- ![](images/loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "Changing layouts based on the sap.f.routing.Router (no
-					visual changes to last step)") 
+![](images/loio24122e039ed14a7a874ec26d0cf51614_HiRes.png "Changing layouts based on the sap.f.routing.Router (no
+					visual changes to last step)")
 
 ***
 
@@ -356,9 +356,9 @@ We initialize the router and bind to its `onBeforeRouteMatched` event, and we in
 
 Finally, we add the routing configuration in the `manifest.json`.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 6: Adding a Floating Footer](Step_6_Adding_a_Floating_Footer_555ed73.md "In this step, we add a floating footer to the detail page.")
+**Next:**[Step 6: Adding a Floating Footer](Step_6_Adding_a_Floating_Footer_555ed73.md "In this step, we add a floating footer to the detail page.")
 
-**Previous:** [Step 8: Enhancing the Detail Page](Step_8_Enhancing_the_Detail_Page_e5ee491.md "With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.")
+**Previous:**[Step 8: Enhancing the Detail Page](Step_8_Enhancing_the_Detail_Page_e5ee491.md "With routing implemented, the model of the detail page is updated for each product. In this step, we enhance the detail page to show information specific for the selected product.")
 

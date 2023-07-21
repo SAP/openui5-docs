@@ -16,11 +16,11 @@ So far we have created many useful routes in our app. In the very early steps we
 
 ### Preview
 
-   
+  
   
 **Console output for invalid hashes when listening to bypassed events**
 
- ![](images/loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events") 
+![](images/loio6f2e76a0c5dc476ba8381865a06748c9_HiRes.png "Console output for invalid hashes when listening to bypassed events")
 
 ***
 
@@ -71,11 +71,11 @@ All we need to do is listen to the bypassed event on the router. If the bypassed
 
 Now try to access `webapp/index.html#/thisIsInvalid` while you have your browser console open. As you can see, there is a message that issues a faulty hash. Furthermore, our `NotFound` page is displayed.
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 15: Reuse an Existing Route](Step_15_Reuse_an_Existing_Route_877d57e.md "The Employees table displays employee data. However, the resumes of the employees are not accessible from this view yet. We could create a new route and a new view to visualize the resume again, but we could also simply reuse an existing route to cross-link the resume of a certain employee. In this step, we will add a feature that allows users to directly navigate to the resume of a certain employee. We will reuse the Resume page that we have created in an earlier step. This example illustrates that there can be multiple navigation paths that direct to the same page.")
+**Next:**[Step 15: Reuse an Existing Route](Step_15_Reuse_an_Existing_Route_877d57e.md "The Employees table displays employee data. However, the resumes of the employees are not accessible from this view yet. We could create a new route and a new view to visualize the resume again, but we could also simply reuse an existing route to cross-link the resume of a certain employee. In this step, we will add a feature that allows users to directly navigate to the resume of a certain employee. We will reuse the Resume page that we have created in an earlier step. This example illustrates that there can be multiple navigation paths that direct to the same page.")
 
-**Previous:** [Step 17: Listen to Matched Events of Any Route](Step_17_Listen_to_Matched_Events_of_Any_Route_4a063b8.md "In the previous step, we have listened for bypassed events to detect possible technical issues with our app. In this step, we want to improve the analysis use case even more by listening to any matched event of the route. We could use this information to measure how the app is used and how frequently the pages are called. Many Web analytic tools track page hits this way. The collected information can be used, for example to improve our app and its usability.")
+**Previous:**[Step 17: Listen to Matched Events of Any Route](Step_17_Listen_to_Matched_Events_of_Any_Route_4a063b8.md "In the previous step, we have listened for bypassed events to detect possible technical issues with our app. In this step, we want to improve the analysis use case even more by listening to any matched event of the route. We could use this information to measure how the app is used and how frequently the pages are called. Many Web analytic tools track page hits this way. The collected information can be used, for example to improve our app and its usability.")
 
 **Related Information**  
 

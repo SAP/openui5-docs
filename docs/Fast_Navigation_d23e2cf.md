@@ -18,7 +18,7 @@ Adjacent controls within the tab chain can be grouped for fast navigation using 
 
 ### Fast Navigation for Adjacent Groups
 
-When the focus is on a control within a group and the user presses [F6\] or  [Ctrl\] + [Alt/Option\] + [Down\] , all remaining controls within the group are skipped, and the focus moves to the first control of the next adjacent group.
+When the focus is on a control within a group and the user presses [F6\] or [Ctrl\] + [Alt/Option\] + [Down\] , all remaining controls within the group are skipped, and the focus moves to the first control of the next adjacent group.
 
 ***
 
@@ -34,7 +34,7 @@ Groups for fast navigation can also be nested. If the user presses the shortcut 
 
 ### Backward Fast Navigation
 
- [Shift\] + [F6\]  or  [Ctrl\] + [Alt/Option\] + [Up\]  move the focus back to a control of the previous group. The same constraints apply as for the forward navigation.
+[Shift\] + [F6\]  or [Ctrl\] + [Alt/Option\] + [Up\]  move the focus back to a control of the previous group. The same constraints apply as for the forward navigation.
 
 ***
 
@@ -160,7 +160,7 @@ A search for the next control to focus on reaches the end of the tab chain and s
 </tr>
 </table>
 
- ![](images/loioe5e01dd8d1594e608e697a2e30ac3bc6_LowRes.png)
+![](images/loioe5e01dd8d1594e608e697a2e30ac3bc6_LowRes.png)
 
 ***
 

@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.80 to 1.81.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Consuming SAP Icon Font in a Non-UI5 Environment** 
+**Consuming SAP Icon Font in a Non-UI5 Environment** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Incompatible jQuery Security Fix** 
+**Incompatible jQuery Security Fix** 
 
 
 
@@ -168,7 +168,7 @@ For checking and, if required, fixing your applications and libraries, see [thes
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -184,28 +184,28 @@ For checking and, if required, fixing your applications and libraries, see [thes
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Special URL Prefixes in App Descriptor** 
+**Special URL Prefixes in App Descriptor** 
 
 
 
@@ -227,7 +227,7 @@ Find more details about the usage of such URL prefixes and an example in the [do
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -243,28 +243,28 @@ Find more details about the usage of such URL prefixes and an example in the [do
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -301,7 +301,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -317,28 +317,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`** 
+**`sap.f.GridContainer`** 
 
 
 
@@ -349,7 +349,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 
 We have enhanced the keyboard handling capabilities of the Grid Container. You can now navigate to the item below or above using the [Down Arrow\] and [Up Arrow\]. If you reach any of the borders of the Grid Container, the `borderReached` event will be fired.
 
-You can now perform drag-and-drop operations using  [Ctrl\] + [Arrow Keys\]  simultaneously. If your Grid Container is configured for drag and drop \(has `sap.ui.core.dnd.DropInfo` and `sap.f.dnd.GridDragInfo`\), then you will receive similar events as if you were dragging with a mouse.
+You can now perform drag-and-drop operations using [Ctrl\] + [Arrow Keys\]  simultaneously. If your Grid Container is configured for drag and drop \(has `sap.ui.core.dnd.DropInfo` and `sap.f.dnd.GridDragInfo`\), then you will receive similar events as if you were dragging with a mouse.
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.GridContainer%23methods/focusItem) and the [Sample](https://sdk.openui5.org/entity/sap.f.GridContainer/sample/sap.f.sample.GridContainerDragAndDrop).
 
@@ -360,7 +360,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -376,28 +376,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Button`** 
+**`sap.m.Button`** 
 
 
 
@@ -406,7 +406,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 
 **`sap.m.Button`**
 
-Visualization of shortcut hints on focus and hover is now available. For example,  [Ctrl\] + [S\]  is displayed for the Save button to help the user to find the correct shortcut. This is done by adding a command to a button. This new feature is available for the standalone `sap.m.Button` as well as for composite controls like `sap.ui.comp.smarttable.SmartTable` and `sap.ui.comp.smartfilterbar.SmartFilterBar`. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.core.sample.Commands/sample/sap.ui.core.sample.Commands).
+Visualization of shortcut hints on focus and hover is now available. For example, [Ctrl\] + [S\]  is displayed for the Save button to help the user to find the correct shortcut. This is done by adding a command to a button. This new feature is available for the standalone `sap.m.Button` as well as for composite controls like `sap.ui.comp.smarttable.SmartTable` and `sap.ui.comp.smartfilterbar.SmartFilterBar`. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.core.sample.Commands/sample/sap.ui.core.sample.Commands).
 
 <sub>Changed•Control•Info Only•1.81</sub>
 
@@ -415,7 +415,7 @@ Visualization of shortcut hints on focus and hover is now available. For example
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -431,28 +431,28 @@ Visualization of shortcut hints on focus and hover is now available. For example
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`** 
+**`sap.m.DatePicker`, `sap.m.DateTimePicker`, and `sap.m.TimePicker`** 
 
 
 
@@ -470,7 +470,7 @@ We have aligned the visualization of the full-screen dialog in mobile view for t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -486,28 +486,28 @@ We have aligned the visualization of the full-screen dialog in mobile view for t
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessageView`** 
+**`sap.m.MessageView`** 
 
 
 
@@ -525,7 +525,7 @@ The grouping functionality in the `sap.m.MessageView` shows the messages in the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -541,28 +541,28 @@ The grouping functionality in the `sap.m.MessageView` shows the messages in the 
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -583,7 +583,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -599,28 +599,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -641,7 +641,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -657,28 +657,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -696,7 +696,7 @@ We have added a new property to the `DateTypeRange` class, called `secondaryType
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -712,28 +712,28 @@ We have added a new property to the `DateTypeRange` class, called `secondaryType
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.FileUploader`** 
+**`sap.ui.unified.FileUploader`** 
 
 
 
@@ -751,7 +751,7 @@ We have added a new `httpRequestMethod` \(experimental\) property to enable the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -767,28 +767,28 @@ We have added a new `httpRequestMethod` \(experimental\) property to enable the 
 <tr>
 <td valign="top">
 
- 1.81 
+1.81 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Samples** 
+**Demo Kit Samples** 
 
 
 
@@ -808,7 +808,7 @@ We have added a new *Pattern* category in the *Samples* section of the Demo Kit 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -823,7 +823,7 @@ We have added a new *Pattern* category in the *Samples* section of the Demo Kit 
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

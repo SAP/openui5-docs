@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.91 to 1.92.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange` \(Experimental\)** 
+**`sap.m.DynamicDateRange` \(Experimental\)** 
 
 
 
@@ -111,7 +111,7 @@ The new \(experimental\) `DynamicDateRange` control enables users to select abso
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -127,28 +127,28 @@ The new \(experimental\) `DynamicDateRange` control enables users to select abso
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -173,7 +173,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -189,28 +189,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Dialog`** 
+**`sap.m.Dialog`** 
 
 
 
@@ -228,7 +228,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -244,28 +244,28 @@ We have updated the colors of value-state status icons. Now, they have better co
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List, sap.m.Table, sap.m.Tree`** 
+**`sap.m.List, sap.m.Table, sap.m.Tree`** 
 
 
 
@@ -283,7 +283,7 @@ We have provided the new `requestItems` method that lets you load more data in a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -299,28 +299,28 @@ We have provided the new `requestItems` method that lets you load more data in a
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.QuickViewPage`** 
+**`sap.m.QuickViewPage`** 
 
 
 
@@ -338,7 +338,7 @@ The control now supports avatars, which display business objects, images, initia
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -354,28 +354,28 @@ The control now supports avatars, which display business objects, images, initia
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -400,7 +400,7 @@ For more information, see the [Analytical Card](https://sdk.openui5.org/test-res
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -416,28 +416,28 @@ For more information, see the [Analytical Card](https://sdk.openui5.org/test-res
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.ResponsiveSplitter`** 
+**`sap.ui.layout.ResponsiveSplitter`** 
 
 
 
@@ -455,7 +455,7 @@ We have added a new `resize` event, fired when the contents of the `sap.ui.layou
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -471,28 +471,28 @@ We have added a new `resize` event, fired when the contents of the `sap.ui.layou
 <tr>
 <td valign="top">
 
- 1.92 
+1.92 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecation of String-Based Rendering** 
+**Deprecation of String-Based Rendering** 
 
 
 
@@ -510,7 +510,7 @@ String-based rendering \(also known as "apiVersion 1" of a renderer\) has been d
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -525,7 +525,7 @@ String-based rendering \(also known as "apiVersion 1" of a renderer\) has been d
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

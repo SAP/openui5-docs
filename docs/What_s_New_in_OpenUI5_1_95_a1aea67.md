@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.94 to 1.95.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -116,7 +116,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -132,28 +132,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -178,7 +178,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -194,28 +194,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Button`** 
+**`sap.m.Button`** 
 
 
 
@@ -233,7 +233,7 @@ We have improved the accessibility of the control, and the screen readers now an
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -249,28 +249,28 @@ We have improved the accessibility of the control, and the screen readers now an
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker, sap.m.DateRangeSelection, sap.m.DateTimePicker, and sap.ui.unified.Calendar`** 
+**`sap.m.DatePicker, sap.m.DateRangeSelection, sap.m.DateTimePicker, and sap.ui.unified.Calendar`** 
 
 
 
@@ -288,7 +288,7 @@ These controls now have the new property `showCurrentDateButton`, which displays
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ These controls now have the new property `showCurrentDateButton`, which displays
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- <code><b>sap.m.StandardListItem</b></code> 
+<code><b>sap.m.StandardListItem</b></code> 
 
 
 
@@ -343,7 +343,7 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -359,28 +359,28 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 <tr>
 <td valign="top">
 
- 1.95 
+1.95 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -405,7 +405,7 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -420,7 +420,7 @@ Information texts in lists can now also be wrapped if wrapping is enabled for th
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -36,12 +36,12 @@ As we use Test Driven Development \(TDD\) we define the test case first, before 
 
 ### Preview
 
-   
+  
   
 **The unit test will initially fail as the implementation is not provided yet**
 
- ![](images/loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
-					yet") 
+![](images/loio4e2924722bd64b51a96d198b760ac780_LowRes.png "The unit test will initially fail as the implementation is not provided
+					yet")
 
 ***
 
@@ -52,11 +52,11 @@ All unit tests are located in the `webapp/test/unit` folder and can be started m
 > ### Note:  
 > Some testrunners like Karma do not require an HTML page to invoke the tests but work with configuration files instead. They can directly invoke the `AllTests.js` file and log the test results in their own format. Therefore we make sure that the `AllTests.js` file does not contain any UI output and just calls the various test cases of the app.
 
-   
+  
   
 **Unit test infrastructure in the application**
 
- ![](images/loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit test infrastructure in the application") 
+![](images/loiof25ffee0c48947bca16249c229654d69_LowRes.png "Unit test infrastructure in the application")
 
 Let’s take a closer look at the `unitTests.qunit.html` file. The application root is stored in the `webapp` folder two levels above. In the `bootstrap` tag of the HTML page we define two namespaces to refer to the app and the unit tests. The namespace of the unit tests points to the current folder as all test artifacts are located below the current folder:
 
@@ -206,11 +206,11 @@ TDD methodology tells us to do the implementation as soon as the test fails and 
 -   Write unit tests for testing the logical correctness of your features
 
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 1: Overview and Testing Strategy](Step_1_Overview_and_Testing_Strategy_ab134ef.md "In this step, we will take a look at the prototype and define the test strategy for our app. The prototype already contains the infrastructure for unit and integration testing and a minimum set of tests and features.")
+**Next:**[Step 1: Overview and Testing Strategy](Step_1_Overview_and_Testing_Strategy_ab134ef.md "In this step, we will take a look at the prototype and define the test strategy for our app. The prototype already contains the infrastructure for unit and integration testing and a minimum set of tests and features.")
 
-**Previous:** [Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
+**Previous:**[Step 3: Adding the Price Formatter](Step_3_Adding_the_Price_Formatter_2bf4892.md "We will now take care of the implementation of the price formatter and make sure that the tests we wrote in the previous step run successfully.")
 
 **Related Information**  
 

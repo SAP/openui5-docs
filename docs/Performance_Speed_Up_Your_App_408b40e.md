@@ -326,7 +326,7 @@ The performance limits are reached differently depending on the used browser, op
 
 **Additional Information:**
 
--    [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
+-   [Performance of Lists and Tables](Performance_of_Lists_and_Tables_f6a1a0a.md)
 
 
 ***

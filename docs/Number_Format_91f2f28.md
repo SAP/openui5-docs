@@ -158,56 +158,56 @@ To control the start the starting point of numbers which should be displyed in c
     </th>
     <th valign="top">
 
-     `FLOOR` 
+    `FLOOR` 
 
 
     
     </th>
     <th valign="top">
 
-     `CEILING` 
+    `CEILING` 
 
 
     
     </th>
     <th valign="top">
 
-     `TOWARDS_ZERO` 
+    `TOWARDS_ZERO` 
 
 
     
     </th>
     <th valign="top">
 
-     `AWAY_FROM_ZERO` 
+    `AWAY_FROM_ZERO` 
 
 
     
     </th>
     <th valign="top">
 
-     `HALF_FLOOR` 
+    `HALF_FLOOR` 
 
 
     
     </th>
     <th valign="top">
 
-     `HALF_CEILING` 
+    `HALF_CEILING` 
 
 
     
     </th>
     <th valign="top">
 
-     `HALF_TOWARDS_ZERO` 
+    `HALF_TOWARDS_ZERO` 
 
 
     
     </th>
     <th valign="top">
 
-     `HALF_AWAY_FROM_ZERO` 
+    `HALF_AWAY_FROM_ZERO` 
 
 
     
@@ -216,128 +216,63 @@ To control the start the starting point of numbers which should be displyed in c
     <tr>
     <td valign="top">
     
-        2.21
+    2.21
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.2
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        2.25
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.3
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.3
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.3
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        2.3
+    2.2
 
 
     
@@ -346,128 +281,63 @@ To control the start the starting point of numbers which should be displyed in c
     <tr>
     <td valign="top">
     
-        2.29
+    2.25
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        2.3.
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        2.3
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        2.3
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-        \-2.21
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.3
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
-
-
-    
-    </td>
-    <td valign="top">
-    
-        \-2.2
+    2.3
 
 
     
@@ -476,63 +346,63 @@ To control the start the starting point of numbers which should be displyed in c
     <tr>
     <td valign="top">
     
-        \-2.25
+    2.29
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    2.3.
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    2.3
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    2.3
 
 
     
@@ -541,63 +411,193 @@ To control the start the starting point of numbers which should be displyed in c
     <tr>
     <td valign="top">
     
-        \-2.29
+    \-2.21
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.3
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.2
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.2
 
 
     
     </td>
     <td valign="top">
     
-        \-2.3
+    \-2.2
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    \-2.25
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    \-2.29
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.2
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
+
+
+    
+    </td>
+    <td valign="top">
+    
+    \-2.3
 
 
     

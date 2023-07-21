@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/d99155
 
 With this release OpenUI5 is upgraded from version 1.60 to 1.61.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Enabling Applications to Comply with the Content Security Policy \(CSP\)** 
+**Enabling Applications to Comply with the Content Security Policy \(CSP\)** 
 
 
 
@@ -128,28 +128,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- <code><b><code>sap.m.SinglePlanningCalendar</code></b></code> 
+<code><b><code>sap.m.SinglePlanningCalendar</code></b></code> 
 
 
 
@@ -160,17 +160,17 @@ Info Only
 
 The `sap.m.SinglePlanningCalendar` is a new control designed to display the schedule of a single resource. It can display three types of time intervals - a single day, a work week, or a full week. You can add custom actions to facilitate the interaction with the control.
 
-   
+  
   
 **SinglePlanningCalendar Header Area**
 
- ![](images/loio9406ea72876f4b88982773c603b1886f_LowRes.png "SinglePlanningCalendar Header Area") 
+![](images/loio9406ea72876f4b88982773c603b1886f_LowRes.png "SinglePlanningCalendar Header Area")
 
-   
+  
   
 **SinglePlanningCalendar Meetings**
 
- ![](images/loiob99c835dfb1246f2bb3a0befd34f65a9_LowRes.png "SinglePlanningCalendar Meetings") 
+![](images/loiob99c835dfb1246f2bb3a0befd34f65a9_LowRes.png "SinglePlanningCalendar Meetings")
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SinglePlanningCalendar) and the [Samples](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar).
 
@@ -181,7 +181,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -197,28 +197,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -248,7 +248,7 @@ Note that we have introduced this change to support message processing.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -264,28 +264,28 @@ Note that we have introduced this change to support message processing.
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`/`sap.f.semantic.SemanticPage`** 
+**`sap.f.DynamicPage`/`sap.f.semantic.SemanticPage`** 
 
 
 
@@ -305,7 +305,7 @@ Note that we have introduced this change to support message processing.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -321,28 +321,28 @@ Note that we have introduced this change to support message processing.
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridList`** 
+**`sap.f.GridList`** 
 
 
 
@@ -360,7 +360,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -376,28 +376,28 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`** 
+**`sap.m.Input`** 
 
 
 
@@ -415,7 +415,7 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -431,28 +431,28 @@ We have implemented a regressive enhancement \(polyfill\) that enables the `sap.
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -470,7 +470,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -486,28 +486,28 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectHeader`** 
+**`sap.m.ObjectHeader`** 
 
 
 
@@ -525,7 +525,7 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -541,28 +541,28 @@ We have changed the color for labels whose `displayOnly` property is set to `tru
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`/`sap.m.SelectList`** 
+**`sap.m.Select`/`sap.m.SelectList`** 
 
 
 
@@ -580,7 +580,7 @@ The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -596,28 +596,28 @@ The `sap.m.Select` and `sap.m.SelectList` controls can now display icons before 
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.semantic.DetailPage`/`sap.m.semantic.SemanticPage`** 
+**`sap.m.semantic.DetailPage`/`sap.m.semantic.SemanticPage`** 
 
 
 
@@ -635,7 +635,7 @@ We have enabled the controls to be a droppable area. For more information, see [
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -651,28 +651,28 @@ We have enabled the controls to be a droppable area. For more information, see [
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -690,7 +690,7 @@ The `sortIndicator` property, which indicates that a column is sorted, is now av
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -706,28 +706,28 @@ The `sortIndicator` property, which indicates that a column is sorted, is now av
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.cssgrid.CSSGrid`** 
+**`sap.ui.layout.cssgrid.CSSGrid`** 
 
 
 
@@ -745,7 +745,7 @@ We have added new samples to demonstrate different use cases. For more informati
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -761,28 +761,28 @@ We have added new samples to demonstrate different use cases. For more informati
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -800,7 +800,7 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -816,28 +816,28 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -862,7 +862,7 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -878,28 +878,28 @@ The `sap.ui.unified.Calendar` control now has aligned keyboard navigation when u
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Apps/Tutorials** 
+**Demo Apps/Tutorials** 
 
 
 
@@ -925,7 +925,7 @@ Some of these concepts use new APIs that have been available since OpenUI5 relea
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -941,28 +941,28 @@ Some of these concepts use new APIs that have been available since OpenUI5 relea
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **New Quick Start Tutorial** 
+**New Quick Start Tutorial** 
 
 
 
@@ -980,7 +980,7 @@ We have replaced the Hello World! tutorial with a new Quick Start tutorial that 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -996,28 +996,28 @@ We have replaced the Hello World! tutorial with a new Quick Start tutorial that 
 <tr>
 <td valign="top">
 
- 1.61 
+1.61 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Tools Page** 
+**Demo Kit Tools Page** 
 
 
 
@@ -1035,7 +1035,7 @@ We have updated the *Tools* page and added two more blocks about the *Support As
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1050,7 +1050,7 @@ We have updated the *Tools* page and added two more blocks about the *Support As
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

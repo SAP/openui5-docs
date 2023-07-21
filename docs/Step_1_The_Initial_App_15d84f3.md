@@ -20,11 +20,11 @@ The structure and data model created in this step will be used throughout this t
 
 ### Preview
 
-   
+  
   
 **Initial app with a simple table**
 
- ![](images/loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table") 
+![](images/loio9d0182f69376444396c903cbc84564c9_LowRes.png "Initial app with a simple table")
 
 ***
 
@@ -42,7 +42,7 @@ You should now have the following files:
   
 **Folder structure with downloaded files**
 
- ![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files") 
+![](images/loio1406ea6897b149fe97a107176f9d4442_HiRes.png "Folder structure with downloaded files")
 
 ***
 
@@ -96,9 +96,9 @@ To be able to add data to the emulated OData responses, we have to store the ent
 
 In this tutorial, we only use the entity type `Person` of the *TripPin* service. The entities of type `Person` are collected in the entity set `People`. Each `Person` has a key property `UserName` and the properties `Age`, `FirstName`, and `LastName`.
 
-**Parent topic:** [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:**[OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Previous:** [Step 2: Data Access and Client-Server Communication](Step_2_Data_Access_and_Client_Server_Communication_e9de002.md "In this step, we see how the Table that is bound to the People entity set initially requests its data, and how the data can be refreshed. We use the Console tab in the browser developer tools to monitor the communication between the browser and the server. We see the initial request as well as the requests for refreshing the data.")
+**Previous:**[Step 2: Data Access and Client-Server Communication](Step_2_Data_Access_and_Client_Server_Communication_e9de002.md "In this step, we see how the Table that is bound to the People entity set initially requests its data, and how the data can be refreshed. We use the Console tab in the browser developer tools to monitor the communication between the browser and the server. We see the initial request as well as the requests for refreshing the data.")
 
 **Related Information**  
 

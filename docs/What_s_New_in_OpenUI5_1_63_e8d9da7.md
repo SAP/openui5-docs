@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/e8d9da
 
 With this release OpenUI5 is upgraded from version 1.62 to 1.63.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Custom Currencies** 
+**Custom Currencies** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **UI5 Web Components** 
+**UI5 Web Components** 
 
 
 
@@ -172,7 +172,7 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -188,28 +188,28 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.ShellBar` \(Experimental\)** 
+**`sap.f.ShellBar` \(Experimental\)** 
 
 
 
@@ -220,7 +220,7 @@ For more information, see the [UI5 Web Components](https://sap.github.io/ui5-web
 
 We have implemented a new `sap.f.ShellBar` control, which is used as the uppermost section \(shell\) of the app. The control is fully responsive and adaptive, and corresponds to the latest SAP Fiori Design Guidelines.
 
- ![](images/loio421fe34907584da9a4415f4f5bdbd890_HiRes.gif) 
+![](images/loio421fe34907584da9a4415f4f5bdbd890_HiRes.gif)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.ShellBar) and the [Samples](https://sdk.openui5.org/entity/sap.f.ShellBar).
 
@@ -231,7 +231,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -247,28 +247,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.upload.UploadSet`** 
+**`sap.m.upload.UploadSet`** 
 
 
 
@@ -288,7 +288,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -355,7 +355,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -371,28 +371,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Avatar`** 
+**`sap.f.Avatar`** 
 
 
 
@@ -410,7 +410,7 @@ We have introduced a fallback image behavior that handles situations when the pr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -426,28 +426,28 @@ We have introduced a fallback image behavior that handles situations when the pr
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -465,7 +465,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -481,28 +481,28 @@ We have implemented the option to provide a simple, single-line title that takes
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.semantic.SemanticPage`** 
+**`sap.f.semantic.SemanticPage`** 
 
 
 
@@ -520,7 +520,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -536,28 +536,28 @@ We have implemented the option to provide a simple, single-line title that takes
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectNumber / sap.m.ObjectStatus`** 
+**`sap.m.ObjectNumber / sap.m.ObjectStatus`** 
 
 
 
@@ -575,7 +575,7 @@ You can now display both controls with a large font size, thus meeting the SAP F
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -591,28 +591,28 @@ You can now display both controls with a large font size, thus meeting the SAP F
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`** 
+**`sap.m.Select`** 
 
 
 
@@ -630,7 +630,7 @@ To ensure that the value states are displayed in all situations and devices, the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -646,28 +646,28 @@ To ensure that the value states are displayed in all situations and devices, the
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.cssgrid.CSSGrid`** 
+**`sap.ui.layout.cssgrid.CSSGrid`** 
 
 
 
@@ -685,7 +685,7 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -701,28 +701,28 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 <tr>
 <td valign="top">
 
- 1.63 
+1.63 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit API Reference Tree** 
+**Demo Kit API Reference Tree** 
 
 
 
@@ -733,7 +733,7 @@ You can now set the `CSSGrid` breakpoints \(large, medium, or small\) to depend 
 
 We have improved the *API Reference* tree to use proper nesting of the OpenUI5 symbols based on a strict hierarchical structure. Fewer elements are now displayed on the root level, thus improving the user experience and shortening the time the user spends trying to find a specific symbol in the tree structure.
 
- ![](images/loio1e5ae735b1004f4eb807106d68ad71e2_HiRes.png) 
+![](images/loio1e5ae735b1004f4eb807106d68ad71e2_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.63</sub>
 
@@ -742,7 +742,7 @@ We have improved the *API Reference* tree to use proper nesting of the OpenUI5 s
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -757,7 +757,7 @@ We have improved the *API Reference* tree to use proper nesting of the OpenUI5 s
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

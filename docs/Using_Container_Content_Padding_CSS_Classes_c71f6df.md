@@ -49,6 +49,8 @@ The following list of controls support container content padding CSS classes:
 
 ***
 
+## Example
+
 ```xml
 
 <Page class="sapUiResponsiveContentPadding">

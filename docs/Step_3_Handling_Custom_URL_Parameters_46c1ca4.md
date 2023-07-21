@@ -18,11 +18,11 @@ We know that the OData V2 provider of this service implements a URL parameter th
 
 ### Preview
 
-   
+  
   
 **Only the next three meet-ups are shown**
 
- ![](images/loioe65ccb233c334129b11726a20b102211_HiRes.png "Only the next three meet-ups are shown") 
+![](images/loioe65ccb233c334129b11726a20b102211_HiRes.png "Only the next three meet-ups are shown")
 
 ***
 
@@ -93,9 +93,9 @@ First, we create a callback function that we later attach to every `GET` request
 
 Second, we attach the callback to every `GET` request to the specific `Meetups` entity set.
 
-**Parent topic:** [OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+**Parent topic:**[OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-**Next:** [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
+**Next:**[Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
 
-**Previous:** [Step 4: Calling a Function Import](Step_4_Calling_a_Function_Import_95e5b87.md "We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.")
+**Previous:**[Step 4: Calling a Function Import](Step_4_Calling_a_Function_Import_95e5b87.md "We only want to display the upcoming meetings and hide the meetings happened in the past in our app. By using a function import that calculates these items on the back end we do not need to do the calculation on the client. The OData V2 mock server will be instructed to do the calculation locally for testing purposes.")
 

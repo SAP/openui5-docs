@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.93 to 1.94.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -173,7 +173,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -189,28 +189,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Whitespaces Visualization** 
+**Whitespaces Visualization** 
 
 
 
@@ -228,7 +228,7 @@ We have created a new sample pattern that showcases how whitespaces can be enabl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -244,28 +244,28 @@ We have created a new sample pattern that showcases how whitespaces can be enabl
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -283,7 +283,7 @@ We have updated the colors of value-state status icons. Now, they have better co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -299,28 +299,28 @@ We have updated the colors of value-state status icons. Now, they have better co
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`, `sap.m.MultiInput`** 
+**`sap.m.Input`, `sap.m.MultiInput`** 
 
 
 
@@ -338,7 +338,7 @@ We have introduced the `showClearIcon` property. If set to true, when there is t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -354,28 +354,28 @@ We have introduced the `showClearIcon` property. If set to true, when there is t
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`** 
+**`sap.m.List`** 
 
 
 
@@ -393,7 +393,7 @@ You can now adapt the default wrapping behavior for titles and descriptions in l
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -409,28 +409,28 @@ You can now adapt the default wrapping behavior for titles and descriptions in l
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MenuButton`** 
+**`sap.m.MenuButton`** 
 
 
 
@@ -448,7 +448,7 @@ We have introduced a new `beforeMenuOpen` event, fired when the arrow button of 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -464,28 +464,28 @@ We have introduced a new `beforeMenuOpen` event, fired when the arrow button of 
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -503,7 +503,7 @@ The new `firstDayOfWeek` property enables developers to set the first day of wee
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -519,28 +519,28 @@ The new `firstDayOfWeek` property enables developers to set the first day of wee
 <tr>
 <td valign="top">
 
- 1.94 
+1.94 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -558,7 +558,7 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -573,7 +573,7 @@ We have updated the Microsoft Adaptive Cards SDK from version 1.2.3 to version 2
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

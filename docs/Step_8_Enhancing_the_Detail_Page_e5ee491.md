@@ -18,12 +18,12 @@ With routing implemented, the model of the detail page is updated for each produ
 
 ### Preview
 
-   
+  
   
 **Enhanced detail page displaying information specific to the selected product**
 
- ![](images/loiob687506e7e55437193741a31ff739b7b_HiRes.gif "Enhanced detail page displaying information specific to the selected
-					product") 
+![](images/loiob687506e7e55437193741a31ff739b7b_HiRes.gif "Enhanced detail page displaying information specific to the selected
+					product")
 
 ***
 
@@ -156,9 +156,9 @@ We adjust the `headerContent` so that the `sap.f.Avatar` displays the specific i
 
 We adjust the *General Information* section to display Product ID, Description and Supplier of the selected product.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 7: Routing](Step_7_Routing_7f65131.md "In this step, we utilize the sap.f.routing.Router.")
+**Next:**[Step 7: Routing](Step_7_Routing_7f65131.md "In this step, we utilize the sap.f.routing.Router.")
 
-**Previous:** [Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
+**Previous:**[Step 9: Adding a Detail-Detail Page](Step_9_Adding_a_Detail_Detail_Page_e4d21fd.md "In this step, we create a detail-detail page using sap.f.DynamicPage, which is opened by choosing a supplier from the detail page.")
 

@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/5b497b
 
 With this release OpenUI5 is upgraded from version 1.105 to 1.106.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.106 
+1.106 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -109,7 +109,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.106 
+1.106 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -178,7 +178,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -194,28 +194,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.106 
+1.106 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageSection`** 
+**`sap.uxap.ObjectPageSection`** 
 
 
 
@@ -233,7 +233,7 @@ We have introduced a new `heading` aggregation that allows you to include conten
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -249,28 +249,28 @@ We have introduced a new `heading` aggregation that allows you to include conten
 <tr>
 <td valign="top">
 
- 1.106 
+1.106 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Image` \(Experimental\)** 
+**`sap.m.Image` \(Experimental\)** 
 
 
 
@@ -288,7 +288,7 @@ We have enabled inline rendering of SVG files, so that they can be themeable and
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ We have enabled inline rendering of SVG files, so that they can be themeable and
 <tr>
 <td valign="top">
 
- 1.106 
+1.106 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Deactivation of Default Time Zone Configuration Feature** 
+**Deactivation of Default Time Zone Configuration Feature** 
 
 
 
@@ -362,7 +362,7 @@ We plan to bring this feature back in a different form at a later point in time.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -377,7 +377,7 @@ We plan to bring this feature back in a different form at a later point in time.
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

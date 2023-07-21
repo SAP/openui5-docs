@@ -15,9 +15,9 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a9553f
 With this release OpenUI5 is upgraded from version 1.112 to 1.113.
 
 > ### Note:  
-> Content marked as <span style="color:#666666;"><span class="SAP-icons"></span></span>** [Preview](https://help.sap.com/docs/whats-new-disclaimer)** is provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [preview disclaimer](https://help.sap.com/docs/whats-new-disclaimer).
+> Content marked as <span style="color:#666666;"><span class="SAP-icons"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)** is provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [preview disclaimer](https://help.sap.com/docs/whats-new-disclaimer).
 
-** **
+****
 
 
 <table>
@@ -75,28 +75,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.p13n*`** 
+**`sap.m.p13n*`** 
 
 
 
@@ -114,7 +114,7 @@ We have further improved the usability and accessibility of the *View Settings* 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -130,28 +130,28 @@ We have further improved the usability and accessibility of the *View Settings* 
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -169,7 +169,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -185,28 +185,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Code Coverage Powered by `Istanbul`** 
+**Code Coverage Powered by `Istanbul`** 
 
 
 
@@ -226,7 +226,7 @@ To start taking advantage of the more future-proof and feature-rich `Istanbul` s
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -242,28 +242,28 @@ To start taking advantage of the more future-proof and feature-rich `Istanbul` s
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 Date and Time Formatting** 
+**OpenUI5 Date and Time Formatting** 
 
 
 
@@ -288,7 +288,7 @@ The new version of OpenUI5 introduces the following formatting features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ The new version of OpenUI5 introduces the following formatting features:
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -356,7 +356,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -372,28 +372,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -413,7 +413,7 @@ For more information, see the API Reference for [`hasPendingChanges`](https://sd
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -436,21 +436,21 @@ For more information, see the API Reference for [`hasPendingChanges`](https://sd
 </td>
 <td valign="top">
 
- Deleted 
+Deleted 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **End of Cloud Provisioning for OpenUI5 Versions \(Q1/2023\)** 
+**End of Cloud Provisioning for OpenUI5 Versions \(Q1/2023\)** 
 
 
 
@@ -498,7 +498,7 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 </td>
 <td valign="top">
 
- Required 
+Required 
 
 
 
@@ -514,28 +514,28 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -563,7 +563,7 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -579,28 +579,28 @@ For more information, see [UI5 Releases Ending Service in 2023](https://blogs.sa
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.test.Opa5`** 
+**`sap.ui.test.Opa5`** 
 
 
 
@@ -618,7 +618,7 @@ We have introduced a new `fetchWaiter`, which checks for currently ongoing fetch
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -634,28 +634,28 @@ We have introduced a new `fetchWaiter`, which checks for currently ongoing fetch
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SuggestionsPopover`** 
+**`sap.m.SuggestionsPopover`** 
 
 
 
@@ -673,7 +673,7 @@ We have restricted the width of input suggestions to a maximum of 40 rem for opt
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -689,28 +689,28 @@ We have restricted the width of input suggestions to a maximum of 40 rem for opt
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -728,7 +728,7 @@ We have introduced a new `Survey` illustration type and four new illustrations t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -744,28 +744,28 @@ We have introduced a new `Survey` illustration type and four new illustrations t
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.FileUploader`** 
+**`sap.ui.unified.FileUploader`** 
 
 
 
@@ -776,7 +776,7 @@ We have introduced a new `Survey` illustration type and four new illustrations t
 
 We have implemented two new methods in the control's API, a trigger to open the native file upload picker and a getter to return the file input type element from the control DOM representation.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.FileUploader). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.FileUploader). 
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
@@ -785,7 +785,7 @@ We have implemented two new methods in the control's API, a trigger to open the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -801,28 +801,28 @@ We have implemented two new methods in the control's API, a trigger to open the 
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.SidePanel`** 
+**`sap.f.SidePanel`** 
 
 
 
@@ -833,7 +833,7 @@ We have implemented two new methods in the control's API, a trigger to open the 
 
 We have implemented an **enabled** property to the Side Panel item, which disables the controls and UI elements inside it.
 
- For more information, see the [Sample](https://sdk.openui5.org/entity/sap.f.SidePanel/sample/sap.f.sample.SidePanel). 
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.f.SidePanel/sample/sap.f.sample.SidePanel). 
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
@@ -842,7 +842,7 @@ We have implemented an **enabled** property to the Side Panel item, which disabl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -858,28 +858,28 @@ We have implemented an **enabled** property to the Side Panel item, which disabl
 <tr>
 <td valign="top">
 
- 1.113 
+1.113 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -888,9 +888,9 @@ We have implemented an **enabled** property to the Side Panel item, which disabl
 
 **`sap.m.SinglePlanningCalendar`**
 
-We have implemented a new mode to select one or more dates in **SinglePlanningCalendar**. Тhe single day option is enabled by default, the multi-date selection option is possible by using a key combination \( [Ctrl\] + [Meta key\]  and select the dates\) or by activating the new **MultiDateSelectionMode** property.
+We have implemented a new mode to select one or more dates in **SinglePlanningCalendar**. Тhe single day option is enabled by default, the multi-date selection option is possible by using a key combination \([Ctrl\] + [Meta key\]  and select the dates\) or by activating the new **MultiDateSelectionMode** property.
 
- For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendarDateSelection). 
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.SinglePlanningCalendar/sample/sap.m.sample.SinglePlanningCalendarDateSelection). 
 
 <sub>Changed•Control•Info Only•1.113</sub>
 
@@ -899,7 +899,7 @@ We have implemented a new mode to select one or more dates in **SinglePlanningCa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -914,7 +914,7 @@ We have implemented a new mode to select one or more dates in **SinglePlanningCa
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

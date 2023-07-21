@@ -16,17 +16,17 @@ In this step, we want to change the mock data of the initial app.
 
 ### Preview
 
-   
+  
   
 **The product list of the initial app with custom mock data**
 
- ![](images/loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data") 
+![](images/loiob150a14f277b4d5398442829edc83217_HiRes.png "The product list of the initial app with custom mock data")
 
-   
+  
   
 **Folder structure for this step including custom mock data**
 
- ![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data") 
+![](images/loiofa4aba84cedc4fefbf345c26eed8bc97_HiRes.png " Folder structure for this step including custom mock data")
 
 The service metadata only contains a description of the service entities. The mock server that is part of the app will auto-generate random mock data based on the data types defined in the metadata file. To have a more realistic development environment we will now add additional sample data.
 
@@ -348,9 +348,9 @@ You can now run the app again and see the mock data in your app.
 > ### Note:  
 > In order to get realistic mock data you can call a real OData service directly in your browser to receive the real data of a given `Entity` or `EntitySet`. Make sure that you call the service with the system option `$format=json`, that is `http://services.odata.org/V2/Northwind/Northwind.svc/Products?$format=json`. This will return the data in JSON format, which is the format required for our mock data. This data is put into a local file in your application’s `webapp/localService/mockdata` folder. The file name is expected to be the name of the corresponding `EntitySet` ends with `.json`, for example `Products.json`. The obtained data from the OData service can serve as a first set of mock data, which you can change to your needs if necessary.
 
-**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:**[Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
-**Next:** [Step 1: Creating the Initial App](Step_1_Creating_the_Initial_App_fc2c358.md "In this step, we set up the initial app.")
+**Next:**[Step 1: Creating the Initial App](Step_1_Creating_the_Initial_App_fc2c358.md "In this step, we set up the initial app.")
 
-**Previous:** [Step 3: Extending the Worklist Table](Step_3_Extending_the_Worklist_Table_84100bc.md "In this step, we will edit the worklist table to include additional columns for our manage product stocks scenario. We display the supplier, the product price, and the number of units on order for each product and format the values accordingly.")
+**Previous:**[Step 3: Extending the Worklist Table](Step_3_Extending_the_Worklist_Table_84100bc.md "In this step, we will edit the worklist table to include additional columns for our manage product stocks scenario. We display the supplier, the product price, and the number of units on order for each product and format the values accordingly.")
 

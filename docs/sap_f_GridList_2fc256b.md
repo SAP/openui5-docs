@@ -22,19 +22,19 @@ A grid is a two-dimensional structure composed of a series of intersecting verti
 
 With the new `sap.f.GridList`control, you can easily organize and align your content according to your preferences.
 
-   
+  
   
 **An example of a uniform grid layout, where all the grid items in a grout take the same dimensions**
 
- ![](images/loio91e4c6b50b9d4ab58f7a4c9ab6e64839_LowRes.png "An example of a uniform grid layout, where all the grid items in a grout take
-					the same dimensions") 
+![](images/loio91e4c6b50b9d4ab58f7a4c9ab6e64839_LowRes.png "An example of a uniform grid layout, where all the grid items in a grout take
+					the same dimensions")
 
-   
+  
   
 **GridList allows for high flexibility layouts, where the app developer can decide on the specific placement and sizing of the grid items**
 
- ![](images/loio8b209b06ea254d03a9ca181485a25c38_LowRes.png "GridList allows for high flexibility layouts, where the app developer can
-					decide on the specific placement and sizing of the grid items") 
+![](images/loio8b209b06ea254d03a9ca181485a25c38_LowRes.png "GridList allows for high flexibility layouts, where the app developer can
+					decide on the specific placement and sizing of the grid items")
 
 ***
 

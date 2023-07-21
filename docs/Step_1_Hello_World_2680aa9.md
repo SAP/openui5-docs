@@ -16,11 +16,11 @@ As you know OpenUI5 is all about HTML5. Letâ€™s get started with building a firs
 
 ### Preview
 
-   
+  
   
 **The browser shows the text "Hello World"**
 
- ![](images/loio396ccf66ea6c4ad1a488355d3ea18ad7_HiRes.png "The browser shows the text "Hello World"") 
+![](images/loio396ccf66ea6c4ad1a488355d3ea18ad7_HiRes.png "The browser shows the text "Hello World"")
 
 ***
 
@@ -61,7 +61,7 @@ The body part describes the layout of the page. In our case we simply display â€
 -   Name the root HTML file of the app `index.html` and locate it in the `webapp` folder.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Previous:** [Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
+**Previous:**[Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
 

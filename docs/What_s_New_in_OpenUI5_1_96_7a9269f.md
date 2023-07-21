@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.95 to 1.96.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Enabling Apps to Comply with a Content Security Policy \(CSP\) without `eval()` and Inline Styles** 
+**Enabling Apps to Comply with a Content Security Policy \(CSP\) without `eval()` and Inline Styles** 
 
 
 
@@ -114,7 +114,7 @@ The OpenUI5 framework now allows you to run applications in environments with st
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -130,28 +130,28 @@ The OpenUI5 framework now allows you to run applications in environments with st
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Theme Available for SAP Fiori User Experience \(Experimental\)** 
+**New Theme Available for SAP Fiori User Experience \(Experimental\)** 
 
 
 
@@ -172,7 +172,7 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -188,28 +188,28 @@ We have introduced a new theme, the preview version of the *Horizon* visual them
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 Models** 
+**OpenUI5 Models** 
 
 
 
@@ -227,7 +227,7 @@ We have provided the new `sap.ui.model.ListBinding#getFilters` method. It is ava
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -243,28 +243,28 @@ We have provided the new `sap.ui.model.ListBinding#getFilters` method. It is ava
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -282,7 +282,7 @@ We have introduced the new `sap.ui.model.odata.v2.Context#created` method. For c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -298,28 +298,28 @@ We have introduced the new `sap.ui.model.odata.v2.Context#created` method. For c
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -344,7 +344,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -360,28 +360,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MaskInput`** 
+**`sap.m.MaskInput`** 
 
 
 
@@ -399,7 +399,7 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -415,28 +415,28 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox`** 
+**`sap.m.MultiComboBox`** 
 
 
 
@@ -454,7 +454,7 @@ We have implemented a checkbox that allows users to select all options, placed o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -470,28 +470,28 @@ We have implemented a checkbox that allows users to select all options, placed o
 <tr>
 <td valign="top">
 
- 1.96 
+1.96 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -516,7 +516,7 @@ We have implemented a checkbox that allows users to select all options, placed o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -531,7 +531,7 @@ We have implemented a checkbox that allows users to select all options, placed o
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -37,7 +37,7 @@ var oMyFlexbox = new sap.m.FlexBox({
 
 The following figure gives an example how the result looks like if used inside a mobile app page. The necessary code is not shown here.
 
- ![SAPUI5 Mobile FlexBox Buttons](images/loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png) 
+![SAPUI5 Mobile FlexBox Buttons](images/loioe6a78df297d448fb88f8280e81a50b9a_LowRes.png)
 
 ***
 

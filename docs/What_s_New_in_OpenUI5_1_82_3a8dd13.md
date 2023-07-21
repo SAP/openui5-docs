@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.81 to 1.82.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Third-Party Library Upgrades** 
+**Third-Party Library Upgrades** 
 
 
 
@@ -133,28 +133,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Badge Implementation** 
+**Badge Implementation** 
 
 
 
@@ -168,7 +168,7 @@ Badges display very short and important information that attracts the user’s a
 -   <code><b>sap.ui.integration.widgets.Card</b></code> – the badge is no longer in experimental state. For more information, see the [Text Badge](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/badge) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/badge) in the Card Explorer.
 -   <code><b>sap.m.Button</b></code> - the badge acts both as a visual eye catcher and as a counter to display a maximum of 4 digits or characters. It can be applied to any button type, but we recommend that you only use it on the `Default`, `Ghost`, `Transparent`, and `Emphasized` button types.
 
-     ![](images/loio205fd119d9a64cdb957c4efa70ad4367_LowRes.png) 
+    ![](images/loio205fd119d9a64cdb957c4efa70ad4367_LowRes.png)
 
     For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Button/sample/sap.m.sample.ButtonWithBadge).
 
@@ -181,7 +181,7 @@ Badges display very short and important information that attracts the user’s a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -197,28 +197,28 @@ Badges display very short and important information that attracts the user’s a
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Five New Icons Available in the *SAP Fiori Tools* Icon Font** 
+**Five New Icons Available in the *SAP Fiori Tools* Icon Font** 
 
 
 
@@ -227,7 +227,7 @@ Badges display very short and important information that attracts the user’s a
 
 **Five New Icons Available in the *SAP Fiori Tools* Icon Font**
 
- ![](images/loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png) 
+![](images/loio8bfb35f3b630408abb4d49f9d6b52f8d_LowRes.png)
 
 Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 
@@ -238,7 +238,7 @@ Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://sdk.o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -254,28 +254,28 @@ Find the icon that fits your needs via the [OpenUI5 Icon Explorer](https://sdk.o
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -295,7 +295,7 @@ Depending on their format options, some composite types, such as `sap.ui.model.t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -311,28 +311,28 @@ Depending on their format options, some composite types, such as `sap.ui.model.t
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -360,7 +360,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -376,28 +376,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.82 
+1.82 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -415,7 +415,7 @@ We have updated the UI5 Web Components dependency of the Adaptive Cards to the v
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -430,7 +430,7 @@ We have updated the UI5 Web Components dependency of the Adaptive Cards to the v
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

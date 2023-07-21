@@ -18,11 +18,11 @@ In this step, we set up the initial app.
 
 ### Preview
 
-   
+  
   
 **The worklist app**
 
- ![](images/loio60e42c87d9494360a64017fc16d8bbcb_HiRes.png "The worklist app") 
+![](images/loio60e42c87d9494360a64017fc16d8bbcb_HiRes.png "The worklist app")
 
 ***
 
@@ -45,11 +45,11 @@ To access the real service, you would need to set up a proxy service that connec
 
 With the downloaded code from the Demo Kit, you have an initial app structure with the following content inside the `webapp` folder:
 
-   
+  
   
 **Folder structure of the initial project**
 
- ![](images/loio7f6899e87d8240d5bd3fc8594e148714_HiRes.png "Folder structure of the initial project") 
+![](images/loio7f6899e87d8240d5bd3fc8594e148714_HiRes.png "Folder structure of the initial project")
 
 -   **Home Page** \(`webapp/view/Worklist.view.xml` file\)
 
@@ -80,9 +80,9 @@ With the downloaded code from the Demo Kit, you have an initial app structure wi
     > There is a `test.html` file in the `webapp` folder. This file serves as an easy entry point for developers to run and test the app in various ways during development. It contains links to the relevant files inside the `test` folder, which you can use to run with the Mock Server or to run unit tests and OPA tests.
 
 
-**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:**[Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
-**Previous:** [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
+**Previous:**[Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
 
 **Related Information**  
 

@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.88 to 1.89.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Feedback** 
+**Demo Kit Feedback** 
 
 
 
@@ -138,28 +138,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -177,7 +177,7 @@ You can now provide unit and currency customizing for the `sap.ui.model.odata.ty
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -193,28 +193,28 @@ You can now provide unit and currency customizing for the `sap.ui.model.odata.ty
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -232,7 +232,7 @@ Additional targets are now supported for [server messages](Server_Messages_in_th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -248,28 +248,28 @@ Additional targets are now supported for [server messages](Server_Messages_in_th
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 Data Types** 
+**OpenUI5 Data Types** 
 
 
 
@@ -300,7 +300,7 @@ However, in some cases it can be necessary to display a value with fewer decimal
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -316,28 +316,28 @@ However, in some cases it can be necessary to display a value with fewer decimal
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Link, sap.m.ObjectIdentifier, sap.m.ObjectNumber, sap.m.ObjectStatus, and sap.ui.unified.Currency`** 
+**`sap.m.Link, sap.m.ObjectIdentifier, sap.m.ObjectNumber, sap.m.ObjectStatus, and sap.ui.unified.Currency`** 
 
 
 
@@ -355,7 +355,7 @@ Similar to the `sap.m.Text` control, these controls now also implement the new `
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -371,28 +371,28 @@ Similar to the `sap.m.Text` control, these controls now also implement the new `
 <tr>
 <td valign="top">
 
- 1.89 
+1.89 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`** 
+**`sap.ui.layout.form.Form`, `sap.ui.layout.form.SimpleForm`** 
 
 
 
@@ -410,7 +410,7 @@ You can now define up to six columns in extra-large size in a form. For more inf
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -425,7 +425,7 @@ You can now define up to six columns in extra-large size in a form. For more inf
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

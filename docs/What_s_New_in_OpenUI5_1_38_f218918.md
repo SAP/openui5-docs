@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f21891
 
 With this release OpenUI5 is upgraded from version 1.36 to 1.38.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Improved Documentation** 
+**Improved Documentation** 
 
 
 
@@ -132,28 +132,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecated Themes and Libraries** 
+**Deprecated Themes and Libraries** 
 
 
 
@@ -189,7 +189,7 @@ For more information, see [Deprecated Themes and Libraries](Deprecated_Themes_an
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -205,28 +205,28 @@ For more information, see [Deprecated Themes and Libraries](Deprecated_Themes_an
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **jQuery Upgraded to Version 2.2.3** 
+**jQuery Upgraded to Version 2.2.3** 
 
 
 
@@ -244,7 +244,7 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -260,28 +260,28 @@ jQuery has been upgraded to version 2.2.3. This upgrade may have an impact on ap
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Icon Explorer** 
+**Icon Explorer** 
 
 
 
@@ -299,7 +299,7 @@ We have 46 new icons, and some existing icons have been redesigned - check the [
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -315,28 +315,28 @@ We have 46 new icons, and some existing icons have been redesigned - check the [
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Multiple preprocessors for XML views** 
+**Multiple preprocessors for XML views** 
 
 
 
@@ -354,7 +354,7 @@ We have enhanced the XML view so that it is now capable of running more than one
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -370,28 +370,28 @@ We have enhanced the XML view so that it is now capable of running more than one
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 model** 
+**OpenUI5 OData V4 model** 
 
 
 
@@ -425,7 +425,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -441,28 +441,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.FormattedText`** 
+**`sap.m.FormattedText`** 
 
 
 
@@ -482,7 +482,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -498,28 +498,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MenuButton`** 
+**`sap.m.MenuButton`** 
 
 
 
@@ -548,7 +548,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -564,28 +564,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectMarker`** 
+**`sap.m.ObjectMarker`** 
 
 
 
@@ -609,7 +609,7 @@ The `ObjectMarker` control represents the status of an object with icon and/or t
 
 An object might have multiple `ObjectMarker`s at the same time but the editing states \(`Locked`, `Draft`, and `Unsaved`\) are mutually exclusive.
 
- ![](images/loio63be65114f584a01bda20eb866894ace_HiRes.png) 
+![](images/loio63be65114f584a01bda20eb866894ace_HiRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectMarker) and the [Samples](https://sdk.openui5.org/entity/sap.m.ObjectMarker).
 
@@ -620,7 +620,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -636,28 +636,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.RangeSlider`** 
+**`sap.m.RangeSlider`** 
 
 
 
@@ -668,7 +668,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 **`sap.m.RangeSlider`** is a new input control that is used to select a range of values. The `RangeSlider` has two slider handles that can be moved along a predefined numerical range scale. This control extends the `sap.m.Slider` and introduces additional functionality.
 
- ![](images/loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png) 
+![](images/loiod6a92b6c14db4bbab8d0a845489155e6_HiRes.png)
 
 <sub>New•Control•Info Only•1.38</sub>
 
@@ -677,7 +677,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -693,28 +693,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.StepInput`** 
+**`sap.m.StepInput`** 
 
 
 
@@ -725,7 +725,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 The `StepInput` control allows the user to change the input value with a predefined step. The value can be changed using the increment/decrement buttons or keys on the keyboard. On the desktop, when using the keyboard [PgUp\] and [PgDn\] keys, the value increases/decreases two steps at a time.
 
- ![](images/loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png) 
+![](images/loio40eb4db5863944c88839db0ff3d7e6cb_HiRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.StepInput) and the [Samples](https://sdk.openui5.org/entity/sap.m.StepInput).
 
@@ -736,7 +736,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -752,28 +752,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.ResponsiveSplitter`** 
+**`sap.ui.layout.ResponsiveSplitter`** 
 
 
 
@@ -784,7 +784,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 
 **`sap.ui.layout.ResponsiveSplitter`** is a layout control that is used to visually divide the content of its parent. The control is responsive and can adjust its contents to any screen size. On smaller screens, pagination is used to allow navigation to all splitter panes.
 
- ![](images/loio542861b7dc7c452a994fe98beadf6d10_HiRes.png) 
+![](images/loio542861b7dc7c452a994fe98beadf6d10_HiRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.layout.ResponsiveSplitter) and the [Samples](https://sdk.openui5.org/entity/sap.ui.layout.ResponsiveSplitter).
 
@@ -795,7 +795,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -811,28 +811,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **One page acceptance test \(OPA\)** 
+**One page acceptance test \(OPA\)** 
 
 
 
@@ -850,7 +850,7 @@ The `Press` and `EnterText` actions now support a larger number of controls and 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -866,28 +866,28 @@ The `Press` and `EnterText` actions now support a larger number of controls and 
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`** 
+**`sap.m.ComboBox`** 
 
 
 
@@ -910,7 +910,7 @@ The `Press` and `EnterText` actions now support a larger number of controls and 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -926,28 +926,28 @@ The `Press` and `EnterText` actions now support a larger number of controls and 
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker / sap.m.DateTimePicker / sap.m.PlanningCalendar / sap.ui.unified.Calendar`** 
+**`sap.m.DatePicker / sap.m.DateTimePicker / sap.m.PlanningCalendar / sap.ui.unified.Calendar`** 
 
 
 
@@ -967,7 +967,7 @@ For more information, see the API Reference for [`sap.m.DatePicker`](https://sdk
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -983,28 +983,28 @@ For more information, see the API Reference for [`sap.m.DatePicker`](https://sdk
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.GenericTile`** 
+**`sap.m.GenericTile`** 
 
 
 
@@ -1026,7 +1026,7 @@ For more information, see [Generic Tile](Generic_Tile_a1998ec.md), the API Refer
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1042,28 +1042,28 @@ For more information, see [Generic Tile](Generic_Tile_a1998ec.md), the API Refer
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List / sap.m.Table`** 
+**`sap.m.List / sap.m.Table`** 
 
 
 
@@ -1081,7 +1081,7 @@ The new `keyboardMode` property for the `List` and `Table` controls determines t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1097,28 +1097,28 @@ The new `keyboardMode` property for the `List` and `Table` controls determines t
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MaskInput`** 
+**`sap.m.MaskInput`** 
 
 
 
@@ -1136,7 +1136,7 @@ You can now use escape characters in the `MaskInput` definition to be able to us
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1152,28 +1152,28 @@ You can now use escape characters in the `MaskInput` definition to be able to us
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessagePopover`** 
+**`sap.m.MessagePopover`** 
 
 
 
@@ -1184,7 +1184,7 @@ You can now use escape characters in the `MaskInput` definition to be able to us
 
 **`sap.m.MessagePopover`** has been improved and can now be resized. Resizing is only possible when the `MessagePopover` is opened from the footer on a desktop.
 
- ![](images/loio8443028265c54ddaa40cd223bf401d2f_HiRes.png) 
+![](images/loio8443028265c54ddaa40cd223bf401d2f_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.38</sub>
 
@@ -1193,7 +1193,7 @@ You can now use escape characters in the `MaskInput` definition to be able to us
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1209,28 +1209,28 @@ You can now use escape characters in the `MaskInput` definition to be able to us
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationListItem`** 
+**`sap.m.NotificationListItem`** 
 
 
 
@@ -1255,7 +1255,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1271,28 +1271,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Popover`** 
+**`sap.m.Popover`** 
 
 
 
@@ -1323,7 +1323,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1339,28 +1339,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TextArea`** 
+**`sap.m.TextArea`** 
 
 
 
@@ -1380,7 +1380,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1396,28 +1396,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.UploadCollection`** 
+**`sap.m.UploadCollection`** 
 
 
 
@@ -1437,7 +1437,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1453,28 +1453,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ViewSettingsDialog`** 
+**`sap.m.ViewSettingsDialog`** 
 
 
 
@@ -1494,7 +1494,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1510,28 +1510,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.tnt.SideNavigation`** 
+**`sap.tnt.SideNavigation`** 
 
 
 
@@ -1549,7 +1549,7 @@ Root items with no children can now be opened with a single click when the `Side
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1565,28 +1565,28 @@ Root items with no children can now be opened with a single click when the `Side
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.tnt.ToolPage`** 
+**`sap.tnt.ToolPage`** 
 
 
 
@@ -1606,7 +1606,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.tnt.To
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1622,28 +1622,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.tnt.To
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.commons.ColorPicker`** 
+**`sap.ui.commons.ColorPicker`** 
 
 
 
@@ -1654,7 +1654,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.tnt.To
 
 **`sap.ui.commons.ColorPicker`** supports HSL \(Hue Saturation and Lightness\) mode. This mode works better with modern browsers and it does not require intermediate conversion back to RGB. Additionally, there is a new input field for the `alpha` \(transparency\) value for more precise color definition.
 
- ![](images/loioafef27d2b0ef41b1b8dfa7517047bda8_HiRes.png) 
+![](images/loioafef27d2b0ef41b1b8dfa7517047bda8_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.38</sub>
 
@@ -1663,7 +1663,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.tnt.To
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1679,28 +1679,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.tnt.To
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.Form / sap.ui.layout.SimpleForm`** 
+**`sap.ui.layout.Form / sap.ui.layout.SimpleForm`** 
 
 
 
@@ -1720,7 +1720,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.lay
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1736,28 +1736,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.lay
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Deleted 
+Deleted 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.DataTable`** 
+**`sap.ui.table.DataTable`** 
 
 
 
@@ -1775,7 +1775,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.lay
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1791,28 +1791,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.lay
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.TreeTable`** 
+**`sap.ui.table.TreeTable`** 
 
 
 
@@ -1832,7 +1832,7 @@ By setting `numberOfExpandedLevels` as a binding parameter \(e.g. in the `bindRo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1848,28 +1848,28 @@ By setting `numberOfExpandedLevels` as a binding parameter \(e.g. in the `bindRo
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Menu`** 
+**`sap.ui.unified.Menu`** 
 
 
 
@@ -1889,7 +1889,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.uni
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1905,28 +1905,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.uni
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageHeader`** 
+**`sap.uxap.ObjectPageHeader`** 
 
 
 
@@ -1937,7 +1937,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.uni
 
 `ObjectPageHeader` can be integrated with the `SideContent` scenario. A new `sideContentButton` aggregation has been added. This aggregation has a new button, which appears after the actions buttons and triggers opening the side content for additional information.
 
- ![](images/loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png) 
+![](images/loio8e2908435c774fe58ab9b8107be5f4fb_HiRes.png)
 
 For more information, see the [Sample](https://sdk.openui5.org/entity/sap.uxap.ObjectPageHeader/sample/sap.uxap.sample.ObjectPageDynamicSideContentBtn).
 
@@ -1948,7 +1948,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.uxap.O
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1964,28 +1964,28 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.uxap.O
 <tr>
 <td valign="top">
 
- 1.38 
+1.38 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -2010,7 +2010,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.uxap.O
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -2025,7 +2025,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.uxap.O
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

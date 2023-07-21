@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/62b148
 
 ## Error, Warning, and Info Messages
 
- OpenUI5 provides a central place for storing and managing info, warning, and error messages.
+OpenUI5 provides a central place for storing and managing info, warning, and error messages.
 
 Messages can be used to notify the user about specific states of the application and can help the user to correct their incorrect inputs. The central `MessageManager` for storing messages is available globally by calling `sap.ui.getCore().getMessageManager()` and the central `MessageModel` for managing messages is available by calling `sap.ui.getCore().getMessageManager().getMessageModel()`.
 

@@ -16,11 +16,11 @@ After all the work on the app structure it’s time to improve the look of our a
 
 ### Preview
 
-   
+  
   
 **A panel is now displaying the controls from the previous steps**
 
- ![](images/loio959dd4b5957c4c799efc110338c9819d_HiRes.png "A panel is now displaying the controls from the previous steps") 
+![](images/loio959dd4b5957c4c799efc110338c9819d_HiRes.png "A panel is now displaying the controls from the previous steps")
 
 ***
 
@@ -87,11 +87,11 @@ helloPanelTitle=Hello World
 
 We add new key/value pairs to our text bundle for the start page title and the panel title.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
+**Next:**[Step 10: Descriptor for Applications](Step_10_Descriptor_for_Applications_8f93bf2.md "All application-specific configuration settings will now further be put in a separate descriptor file called manifest.json. This clearly separates the application coding from the configuration settings and makes our app even more flexible. For example, all SAP Fiori applications are realized as components and come with a descriptor file in order to be hosted in the SAP Fiori launchpad.")
 
-**Previous:** [Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4df1d91.md "Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.")
+**Previous:**[Step 12: Shell Control as Container](Step_12_Shell_Control_as_Container_4df1d91.md "Now we use a shell control as container for our app and use it as our new root element. The shell takes care of visual adaptation of the application to the device’s screen size by introducing a so-called letterbox on desktop screens.")
 
 **Related Information**  
 

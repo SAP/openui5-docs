@@ -18,11 +18,11 @@ In this step we add a detail area with additional information.
 
 ### Preview
 
-   
+  
   
 **A detail area containing information about the selected user is added**
 
- ![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added") 
+![A list of users with an added detail area](images/loio6e9025bc4522494c97d1b60a3f8eec31_LowRes.png "A detail area containing information about the selected user is added")
 
 ***
 
@@ -316,11 +316,11 @@ nameLabelText=Name
 
 We add the missing texts to the properties file.
 
-**Parent topic:** [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:**[OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Next:** [Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md "Our OData service provides one OData operation: the ResetDataSource action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.")
+**Next:**[Step 8: OData Operations](Step_8_OData_Operations_a3e7cb6.md "Our OData service provides one OData operation: the ResetDataSource action. In this step, we add a button that resets all data changes we made during the tutorial to their original state using this action.")
 
-**Previous:** [Step 10: Enable Data Reuse](Step_10_Enable_Data_Reuse_e687dbd.md "In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or filtering the list.")
+**Previous:**[Step 10: Enable Data Reuse](Step_10_Enable_Data_Reuse_e687dbd.md "In this step we avoid unnecessary back-end requests by preventing the destruction of data shown in the detail area when sorting or filtering the list.")
 
 **Related Information**  
 

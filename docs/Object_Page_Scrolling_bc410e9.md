@@ -18,11 +18,11 @@ The object page offers different ways to handle specific scrolling scenarios.
 
 By default, the `headerContent` of the `ObjectPage` snaps to the `headerTitle` when scrolling a longer section. Some of the contents of the `headerContent` move to the `headerTitle` and thus always remain visible. You can see an example of this behavior in the screenshot below.
 
-   
+  
   
 **Object Page Header: Expanded \(left\) / Snapped \(right\)**
 
- ![](images/loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)") 
+![](images/loio1106798cda9a4eda858c4322b933579d_HiRes.png "Object Page Header: Expanded (left) / Snapped (right)")
 
 This behavior can be altered. Setting the property `alwaysShowContentHeader` to `true` will prevent the `headerContent` from snapping.
 

@@ -16,11 +16,11 @@ The reason we have resource bundles is to allow an app to run in multiple langua
 
 ### Preview
 
-   
+  
   
 **German version of our UI**
 
- ![](images/loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI") 
+![](images/loiod96cdf993b9f4344822d61d2a81d11ab_LowRes.png "German version of our UI")
 
 ***
 
@@ -101,11 +101,11 @@ sap.ui.require([
 
 To test the outcome, change the default language of your browser to German and refresh your preview.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Next:** [Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels and descriptions on the user interface.")
+**Next:**[Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels and descriptions on the user interface.")
 
-**Previous:** [Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models](Step_8_Binding_Paths_Accessing_Properties_in_Hierarchically_Structured_Models_9373793.md "In step 6 , we stated that the fields in a resource model are arranged in a flat structure; in other words, there can be no hierarchy of properties; however, this is true only for resource models. The properties within JSON and OData models almost always are arranged in a hierarchical structure. Therefore, we should take a look at how to reference fields in a hierarchically structured model object.")
+**Previous:**[Step 8: Binding Paths: Accessing Properties in Hierarchically Structured Models](Step_8_Binding_Paths_Accessing_Properties_in_Hierarchically_Structured_Models_9373793.md "In step 6 , we stated that the fields in a resource model are arranged in a flat structure; in other words, there can be no hierarchy of properties; however, this is true only for resource models. The properties within JSON and OData models almost always are arranged in a hierarchical structure. Therefore, we should take a look at how to reference fields in a hierarchically structured model object.")
 
 **Related Information**  
 

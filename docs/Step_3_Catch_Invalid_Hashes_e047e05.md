@@ -16,11 +16,11 @@ Sometimes it is important to display an indication that the requested resource w
 
 ### Preview
 
-   
+  
   
 **Not Found page**
 
- ![](images/loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page") 
+![](images/loio81506b2d46e440e09921911289e74570_LowRes.png "Not Found page")
 
 ***
 
@@ -28,11 +28,11 @@ Sometimes it is important to display an indication that the requested resource w
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 3](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.03).
 
-   
+  
   
 **Folder structure for this step**
 
- ![](images/loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step") 
+![](images/loio0b225d6d91d142a2b44a164193121700_HiRes.png "Folder structure for this step")
 
 ***
 
@@ -141,11 +141,11 @@ Open the URL `index.html#/thisIsInvalid` in your browser. From now on the user w
 -   Use the `sap.m.MessagePage` control to display routing related error messages
 
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md "In this step we will modify the app and introduce routing. Instead of having the home page of the app hard coded we will configure a router to wire multiple views together when our app is called. The routing configuration controls the application flow when the user triggers a navigation action or opens a link to the application directly.")
+**Next:**[Step 2: Enable Routing](Step_2_Enable_Routing_cf3c57c.md "In this step we will modify the app and introduce routing. Instead of having the home page of the app hard coded we will configure a router to wire multiple views together when our app is called. The routing configuration controls the application flow when the user triggers a navigation action or opens a link to the application directly.")
 
-**Previous:** [Step 4: Add a Back Button to Not Found Page](Step_4_Add_a_Back_Button_to_Not_Found_Page_66670b0.md "When we are on the Not Found page because of an invalid hash, we want to get back to our app to select another page. Therefore, we will add a Back button to the Not Found view and make sure that the user gets redirected to either the previous page or the overview page when the Back button is pressed.")
+**Previous:**[Step 4: Add a Back Button to Not Found Page](Step_4_Add_a_Back_Button_to_Not_Found_Page_66670b0.md "When we are on the Not Found page because of an invalid hash, we want to get back to our app to select another page. Therefore, we will add a Back button to the Not Found view and make sure that the user gets redirected to either the previous page or the overview page when the Back button is pressed.")
 
 **Related Information**  
 

@@ -16,11 +16,11 @@ In this step, we simply place some text on the screen using a standard `sap.m.Te
 
 ### Preview
 
-   
+  
   
 **Screen with text**
 
- ![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text") 
+![](images/loio6d391d527601499fbeb3734246b2c067_HiRes.png "Screen with text")
 
 ***
 
@@ -79,7 +79,7 @@ sap.ui.require([
 
 Create a new `index.js` file that will contain the application logic for this tutorial. We start by placing the `sap.m.Text` control into the html content. Since the value of the control's text property has been hard-coded, it is unrelated to any data that might exist within a model object. Therefore, data binding is **not** being used here.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Previous:** [Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application operates.")
+**Previous:**[Step 2: Creating a Model](Step_2_Creating_a_Model_5278bfd.md "In this step, we create a model as container for the data on which your application operates.")
 

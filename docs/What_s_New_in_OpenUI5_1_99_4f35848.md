@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.98 to 1.99.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -138,28 +138,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Carousel`** 
+**`sap.m.Carousel`** 
 
 
 
@@ -177,7 +177,7 @@ The control now shows `sap.m.illustratedMessage` in use cases where there’s no
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -193,28 +193,28 @@ The control now shows `sap.m.illustratedMessage` in use cases where there’s no
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange` \(Experimental\)** 
+**`sap.m.DynamicDateRange` \(Experimental\)** 
 
 
 
@@ -241,7 +241,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -257,28 +257,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -296,7 +296,7 @@ We have introduced new behavior – an option to zoom in and zoom out to make th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -312,28 +312,28 @@ We have introduced new behavior – an option to zoom in and zoom out to make th
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.upload.UploadSet`** 
+**`sap.m.upload.UploadSet`** 
 
 
 
@@ -353,7 +353,7 @@ The `itemDragStart` and `itemDrop` events are also being exposed. These events r
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -369,28 +369,28 @@ The `itemDragStart` and `itemDrop` events are also being exposed. These events r
 <tr>
 <td valign="top">
 
- 1.99 
+1.99 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -415,7 +415,7 @@ The `itemDragStart` and `itemDrop` events are also being exposed. These events r
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -430,7 +430,7 @@ The `itemDragStart` and `itemDrop` events are also being exposed. These events r
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

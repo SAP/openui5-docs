@@ -58,7 +58,7 @@ Example
 <tr>
 <td valign="top">
 
- `NONE` 
+`NONE` 
 
 
 
@@ -86,7 +86,7 @@ No messages are written to the console
 <tr>
 <td valign="top">
 
- `FATAL` 
+`FATAL` 
 
 
 
@@ -116,7 +116,7 @@ A parse error occurred while processing a JavaScript file or an XML view
 <tr>
 <td valign="top">
 
- `ERROR` 
+`ERROR` 
 
 
 
@@ -146,7 +146,7 @@ Loading a requested module failed
 <tr>
 <td valign="top">
 
- `WARNING` 
+`WARNING` 
 
 
 
@@ -176,7 +176,7 @@ Wrong property format was passed to a control
 <tr>
 <td valign="top">
 
- `INFO` 
+`INFO` 
 
 
 
@@ -206,7 +206,7 @@ A configuration parameter was set
 <tr>
 <td valign="top">
 
- `DEBUG` 
+`DEBUG` 
 
 
 
@@ -236,7 +236,7 @@ A framework event was fired
 <tr>
 <td valign="top">
 
- `TRACE` 
+`TRACE` 
 
 
 
@@ -266,7 +266,7 @@ A certain position in the code was reached
 <tr>
 <td valign="top">
 
- `ALL` 
+`ALL` 
 
 
 

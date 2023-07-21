@@ -22,11 +22,11 @@ For more information about this control, see the [API Reference](https://sdk.ope
 
 The `PDFViewer` control displays PDF documents right inside your app. It can be embedded into your page layout, or you can set it to open in a popup dialog. In addition, this control allows you to download the PDF documents it displays.
 
-   
+  
   
 **PDF Viewer Example**
 
- ![PDF Viewer Example](images/loioc4692b3bfc554c33ac2aa0af59b592db_LowRes.png "PDF Viewer Example") 
+![PDF Viewer Example](images/loioc4692b3bfc554c33ac2aa0af59b592db_LowRes.png "PDF Viewer Example")
 
 ***
 

@@ -18,17 +18,17 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/84ec82
 
 A slider is a control that enables you to adjust values on a specified range. OpenUI5 has two controls of this type - `sap.m.Slider` and `sap.m.RangeSlider`. The slider allows you to choose a single value, whereas with the RangeSlider you can choose an interval with start and end within a given interval.
 
-   
+  
   
 **Slider**
 
- ![](images/loio18fb5f88c2fb45f994f3567279b20e49_HiRes.png "Slider") 
+![](images/loio18fb5f88c2fb45f994f3567279b20e49_HiRes.png "Slider")
 
-   
+  
   
 **RangeSlider**
 
- ![](images/loio923cc5ea784a4c87826b01fd922cbed2_HiRes.png "RangeSlider") 
+![](images/loio923cc5ea784a4c87826b01fd922cbed2_HiRes.png "RangeSlider")
 
 Technically the RangeSlider extends `sap.m.Slider` and thus uses all its properties. It has two additional properties for the second slider value and the selected range.
 

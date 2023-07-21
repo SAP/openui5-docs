@@ -18,24 +18,24 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
 
 ### Preview
 
-   
+  
   
 **Employee list with navigation option for items**
 
- ![](images/loioc797ba8b9e704703bc4bd0b7860630bb_LowRes.png "Employee list with navigation option for items") 
+![](images/loioc797ba8b9e704703bc4bd0b7860630bb_LowRes.png "Employee list with navigation option for items")
 
-   
+  
   
 **Detail Page for a selected employee**
 
- ![](images/loioaf68fa98aa894030b537ce4893b31de2_LowRes.png "Detail Page for a selected employee") 
+![](images/loioaf68fa98aa894030b537ce4893b31de2_LowRes.png "Detail Page for a selected employee")
 
-   
+  
   
 **Not Found page for an invalid EmployeeID**
 
- ![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid
-						EmployeeID") 
+![](images/loio8bec9718da5f44dab9cc929196750918_LowRes.png "Not Found page for an invalid
+						EmployeeID")
 
 ***
 
@@ -43,11 +43,11 @@ The detail page has to read the ID of the employee from the URL to fetch and dis
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 7](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.07).
 
-   
+  
   
 **Folder structure for this step**
 
- ![](images/loioad192cd8e896411b95fe430d84cac1cb_HiRes.png "Folder structure for this step") 
+![](images/loioad192cd8e896411b95fe430d84cac1cb_HiRes.png "Folder structure for this step")
 
 ***
 
@@ -335,11 +335,11 @@ That’s it. You can go to `webapp/index.html#/employees` and click on any list 
 -   `webapp/index.html#/employees/33`
 
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.")
+**Next:**[Step 6: Navigate to Routes with Hard-Coded Patterns](Step_6_Navigate_to_Routes_with_Hard_Coded_Patterns_782aac0.md "In this step, we'll create a second button on the home page, with which we can navigate to a simple list of employees. This example illustrates how to navigate to a route that has a hard-coded pattern.")
 
-**Previous:** [Step 8: Navigate with Flip Transition](Step_8_Navigate_with_Flip_Transition_3e5f6f3.md "In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the “flip” transition but with a different direction. We will create a simple link on the Employee view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the Back button will navigate back to the Employee view with a reversed flip transition.")
+**Previous:**[Step 8: Navigate with Flip Transition](Step_8_Navigate_with_Flip_Transition_3e5f6f3.md "In this step, we want to illustrate how to navigate to a page with a custom transition animation. Both forward and backward navigation will use the “flip” transition but with a different direction. We will create a simple link on the Employee view that triggers a flip navigation to a page that displays the resume data of a certain employee. Pressing the Back button will navigate back to the Employee view with a reversed flip transition.")
 
 **Related Information**  
 

@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.85 to 1.86.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Preannouncement: End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87** 
+**Preannouncement: End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -180,7 +180,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -196,28 +196,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.FormattedText`** 
+**`sap.m.FormattedText`** 
 
 
 
@@ -242,7 +242,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -258,28 +258,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`, `sap.m.RadioButton`** 
+**`sap.m.IconTabBar`, `sap.m.RadioButton`** 
 
 
 
@@ -297,7 +297,7 @@ Value states are not shown when the controls are in read-only or disabled mode. 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -313,28 +313,28 @@ Value states are not shown when the controls are in read-only or disabled mode. 
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -352,7 +352,7 @@ The colon symbol \(:\) is represented differently in different languages. In Ger
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -368,28 +368,28 @@ The colon symbol \(:\) is represented differently in different languages. In Ger
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`** 
+**`sap.m.Select`** 
 
 
 
@@ -407,7 +407,7 @@ With the new experimental `columnRatio` property, you can now set a custom ratio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -423,28 +423,28 @@ With the new experimental `columnRatio` property, you can now set a custom ratio
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -464,7 +464,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -480,28 +480,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Title`** 
+**`sap.m.Title`** 
 
 
 
@@ -519,7 +519,7 @@ We have introduced the `textDirection` property, which is also available in the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -535,28 +535,28 @@ We have introduced the `textDirection` property, which is also available in the 
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -575,7 +575,7 @@ We have introduced the `textDirection` property, which is also available in the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -591,28 +591,28 @@ We have introduced the `textDirection` property, which is also available in the 
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form.SemanticFormElement`** 
+**`sap.ui.layout.form.SemanticFormElement`** 
 
 
 
@@ -630,7 +630,7 @@ The `SemanticFormElement` element \(experimental\) now allows you to render sema
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -646,28 +646,28 @@ The `SemanticFormElement` element \(experimental\) now allows you to render sema
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
 
 
 
@@ -685,7 +685,7 @@ The `rowsUpdated` event is now available so applications can find out about any 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -701,28 +701,28 @@ The `rowsUpdated` event is now available so applications can find out about any 
 <tr>
 <td valign="top">
 
- 1.86 
+1.86 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Search Suggestions in Global Search** 
+**Demo Kit Search Suggestions in Global Search** 
 
 
 
@@ -748,7 +748,7 @@ At the bottom of the popover, you have the *Results by Category* section from wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -763,7 +763,7 @@ At the bottom of the popover, you have the *Results by Category* section from wh
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

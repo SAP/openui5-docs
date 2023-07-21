@@ -137,7 +137,7 @@ Behavior
 <tr>
 <td valign="top">
 
- [Alt\] + [Down arrow\]  or  [Alt\] + [Up arrow\]  or [F4\] 
+[Alt\] + [Down arrow\]  or [Alt\] + [Up arrow\]  or [F4\] 
 
 
 

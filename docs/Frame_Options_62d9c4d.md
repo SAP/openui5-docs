@@ -143,14 +143,14 @@ Description
 <tr>
 <td valign="top">
 
- `callback` 
+`callback` 
 
 
 
 </td>
 <td valign="top">
 
- `function(bSuccess)` 
+`function(bSuccess)` 
 
 
 
@@ -174,21 +174,21 @@ Function that is called with the success state
 <tr>
 <td valign="top">
 
- `timeout` 
+`timeout` 
 
 
 
 </td>
 <td valign="top">
 
- `number` 
+`number` 
 
 
 
 </td>
 <td valign="top">
 
- `10000` 
+`10000` 
 
 
 
@@ -204,21 +204,21 @@ After the delay, the page remains blocked and the provided callback is invoked \
 <tr>
 <td valign="top">
 
- `blockEvents` 
+`blockEvents` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -234,21 +234,21 @@ Defines whether keyboard, mouse and touch events are blocked
 <tr>
 <td valign="top">
 
- `showBlockLayer` 
+`showBlockLayer` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -264,21 +264,21 @@ Defines whether an invisible block layer is rendered to prevent interaction with
 <tr>
 <td valign="top">
 
- `allowSameOrigin` 
+`allowSameOrigin` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
 </td>
 <td valign="top">
 
- `true` 
+`true` 
 
 
 
@@ -294,14 +294,14 @@ Defines whether same origin domains are allowed or not
 <tr>
 <td valign="top">
 
- `allowlist` 
+`allowlist` 
 
 
 
 </td>
 <td valign="top">
 
- `string[]` 
+`string[]` 
 
 
 

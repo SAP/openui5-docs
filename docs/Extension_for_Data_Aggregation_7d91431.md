@@ -29,7 +29,7 @@ Since 1.105.0, either a recursive hierarchy \(see below\) or \(pure\) data aggre
 
 For every aggregatable property, you can provide the name of the custom aggregate for a corresponding currency or unit of measure. That custom aggregate must return the single value of a unit in case there is only one, or `null` otherwise \("multi-unit situation"\). For SQL-based services, this might be implemented as follows:
 
- `CASE WHEN min(Unit) = max(Unit) THEN min(Unit) END` 
+`CASE WHEN min(Unit) = max(Unit) THEN min(Unit) END` 
 
 Normally, there is also a structural property of the same name as the custom aggregate, providing type information, etc.
 

@@ -14,7 +14,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/71a855
 
 With this release OpenUI5 is upgraded from version 1.109 to 1.110.
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.p13n.Engine`** 
+**`sap.m.p13n.Engine`** 
 
 
 
@@ -111,7 +111,7 @@ We have provided a new entity that allows custom control developers and applicat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -127,28 +127,28 @@ We have provided a new entity that allows custom control developers and applicat
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Copy-to-Clipboard Feature for Tables** 
+**Copy-to-Clipboard Feature for Tables** 
 
 
 
@@ -166,7 +166,7 @@ Users can copy selected table content to the clipboard and use it anywhere insid
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -182,28 +182,28 @@ Users can copy selected table content to the clipboard and use it anywhere insid
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -221,7 +221,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -237,28 +237,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.table.ColumnMenu`** 
+**`sap.m.table.ColumnMenu`** 
 
 
 
@@ -280,7 +280,7 @@ We have introduced a new control that allows users to do the following in grid a
 -   Quick totaling
 
 
-These features are available in a menu that users can choose in the column headers of the tables. Applications can define their own application-specific quick actions. For more information, see the  [API Reference](https://sdk.openui5.org/api/sap.m.table.columnmenu)  and the [Sample](https://sdk.openui5.org/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable). 
+These features are available in a menu that users can choose in the column headers of the tables. Applications can define their own application-specific quick actions. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.table.columnmenu)  and the [Sample](https://sdk.openui5.org/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable). 
 
 <sub>New•Control•Info Only•1.110</sub>
 
@@ -289,7 +289,7 @@ These features are available in a menu that users can choose in the column heade
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -305,28 +305,28 @@ These features are available in a menu that users can choose in the column heade
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Header Bar in Key User Adaptation** 
+**Header Bar in Key User Adaptation** 
 
 
 
@@ -348,7 +348,7 @@ The header bar in key user adaptation has been redesigned.
 
 The following screenshot shows an example:
 
- ![](images/loio00fdcc7e160c4395a3b98824accc64a4_LowRes.png) 
+![](images/loio00fdcc7e160c4395a3b98824accc64a4_LowRes.png)
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
@@ -357,7 +357,7 @@ The following screenshot shows an example:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -373,28 +373,28 @@ The following screenshot shows an example:
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- ****`sap.m.PlanningCalendar, sap.m.SinglePlanningCalendar`**, and **`sap.ui.core.format.DateFormat`**** 
+****`sap.m.PlanningCalendar, sap.m.SinglePlanningCalendar`**, and **`sap.ui.core.format.DateFormat`**** 
 
 
 
@@ -405,7 +405,7 @@ The following screenshot shows an example:
 
 We have adapted our Date and Time controls to support the calendar week based on the `sap.ui.core.format.DateFormat` options.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat). 
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
@@ -414,7 +414,7 @@ We have adapted our Date and Time controls to support the calendar week based on
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -430,28 +430,28 @@ We have adapted our Date and Time controls to support the calendar week based on
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectStatus`** 
+**`sap.m.ObjectStatus`** 
 
 
 
@@ -462,7 +462,7 @@ We have adapted our Date and Time controls to support the calendar week based on
 
 We have implemented a new property to give application developers the ability to override the default state announcement. Now the `group` role isn't placed on inactive control instances and a proper `roledescription` is set for active control instances.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectStatus). 
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.ObjectStatus). 
 
 <sub>Changed•Control•Info Only•1.110</sub>
 
@@ -471,7 +471,7 @@ We have implemented a new property to give application developers the ability to
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -487,28 +487,28 @@ We have implemented a new property to give application developers the ability to
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.core.ScrollEnablement`** 
+**`sap.ui.core.ScrollEnablement`** 
 
 
 
@@ -526,7 +526,7 @@ We have added a new option to the `scrollToElement` API method of the `sap.ui.co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -542,28 +542,28 @@ We have added a new option to the `scrollToElement` API method of the `sap.ui.co
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -583,7 +583,7 @@ For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.Ill
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -599,28 +599,28 @@ For more information, see the [Samples](https://sdk.openui5.org/entity/sap.m.Ill
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`** 
+**`sap.m.ComboBox`** 
 
 
 
@@ -638,7 +638,7 @@ We have updated the behavior of the `loadItems` API. Now, when the picker is ope
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -654,28 +654,28 @@ We have updated the behavior of the `loadItems` API. Now, when the picker is ope
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit: Improved main theme selection** 
+**Demo Kit: Improved main theme selection** 
 
 
 
@@ -684,7 +684,7 @@ We have updated the behavior of the `loadItems` API. Now, when the picker is ope
 
 **Demo Kit: Improved main theme selection**
 
-We have added the latest high contrast themes to the main theme selector in the Demo Kit.![](images/loiob76a17bb50f04301b6b21dd28ee048c5_Source1.png) 
+We have added the latest high contrast themes to the main theme selector in the Demo Kit.![](images/loiob76a17bb50f04301b6b21dd28ee048c5_Source1.png)
 
 <sub>Changed•Feature•Info Only•1.110</sub>
 
@@ -693,7 +693,7 @@ We have added the latest high contrast themes to the main theme selector in the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -709,28 +709,28 @@ We have added the latest high contrast themes to the main theme selector in the 
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -753,7 +753,7 @@ We have added the latest high contrast themes to the main theme selector in the 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -769,28 +769,28 @@ We have added the latest high contrast themes to the main theme selector in the 
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- ****OpenUI5 Formatters**** 
+****OpenUI5 Formatters**** 
 
 
 
@@ -812,7 +812,7 @@ The new version of OpenUI5 introduces the following formatting features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -828,28 +828,28 @@ The new version of OpenUI5 introduces the following formatting features:
 <tr>
 <td valign="top">
 
- 1.110 
+1.110 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -872,7 +872,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -887,7 +887,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -58,7 +58,7 @@ Description
 <tr>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
@@ -74,7 +74,7 @@ Can either be `true` or `false`. Properties of that type should not be set to `u
 <tr>
 <td valign="top">
 
- `int` 
+`int` 
 
 
 
@@ -90,7 +90,7 @@ JavaScript primitive values of type `number` and that don’t have a fractional 
 <tr>
 <td valign="top">
 
- `float` 
+`float` 
 
 
 
@@ -106,7 +106,7 @@ JavaScript primitive values of type `number` that can have a fractional part. It
 <tr>
 <td valign="top">
 
- `string` 
+`string` 
 
 
 
@@ -122,7 +122,7 @@ JavaScript string literal \(`typeof value === "string"`\) or a `String` object \
 <tr>
 <td valign="top">
 
- `object` 
+`object` 
 
 
 
@@ -140,7 +140,7 @@ Don't mix this type up with the `any` type! \(Sorry, we maybe should have named 
 <tr>
 <td valign="top">
 
- `any` 
+`any` 
 
 
 
@@ -156,7 +156,7 @@ Any valid Javascript value \(including primitives, objects, functions, regular e
 <tr>
 <td valign="top">
 
- `function` 
+`function` 
 
 
 

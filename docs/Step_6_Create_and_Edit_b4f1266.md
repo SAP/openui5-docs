@@ -18,11 +18,11 @@ In this step, we will make it possible to create and edit \(update\) user data f
 
 ### Preview
 
-   
+  
   
 **Data can now be edited and added.**
 
- ![](images/loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.") 
+![](images/loiobaf7417906444cbaa1fb8e35665b8f81_LowRes.png "Data can now be edited and added.")
 
 ***
 
@@ -410,11 +410,11 @@ changesSentMessage=User data sent to the server
 
 We add the new message texts.
 
-**Parent topic:** [OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
+**Parent topic:**[OData V4 Tutorial](OData_V4_Tutorial_bcdbde6.md "In this tutorial, we explore how features of OData V4 can be used in OpenUI5. We write a small app that consumes data from an OData V4 service to understand how to access, modify, aggregate, and filter data in an OData V4 model.")
 
-**Next:** [Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
+**Next:**[Step 5: Batch Groups](Step_5_Batch_Groups_ef2af49.md "In this step, we have a closer look at batch groups. Batch groups are used to group multiple requests into one server request to improve the overall performance.")
 
-**Previous:** [Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
+**Previous:**[Step 7: Delete](Step_7_Delete_12a0d1e.md "In this step, we make it possible to delete user data.")
 
 **Related Information**  
 

@@ -19,11 +19,11 @@ In this step, we will take a look at the prototype and define the test strategy 
 
 ### Preview
 
-   
+  
   
 **The prototype app**
 
- ![](images/loio7946d242c8a14ac39fb22556b59d4bcd_HiRes.png "The prototype app") 
+![](images/loio7946d242c8a14ac39fb22556b59d4bcd_HiRes.png "The prototype app")
 
 ***
 
@@ -35,11 +35,11 @@ Depending on your development environment, you might have to adjust resource pat
 
 After downloading *Step 1*, you should have the following files:
 
-   
+  
   
 **Folder structure with downloaded files**
 
- ![](images/loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files") 
+![](images/loio80078484830540769b67f12a6b88bbd3_HiRes.png "Folder structure with downloaded files")
 
 ***
 
@@ -131,11 +131,11 @@ The mock server is also set up and allows us to test the app with local test dat
 
 Before you start implementing your first test, you should think about how to test the different aspects of your application. The image below shows the testing tools along the agile testing pyramid.
 
-   
+  
   
 **Testing pyramid**
 
- ![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid") 
+![](images/loio88758c3b4ad94e9ca6508d106fe66972_LowRes.png "Testing pyramid")
 
 When you set up application testing, you should automate as many testing steps as possible. If you immediately write a test for all the features that we implement, then you can greatly reduce manual testing efforts that are time consuming and cumbersome. If you change something later, you can simply run the existing tests and see if the functionality is still working as expected.
 
@@ -156,9 +156,9 @@ There might still be features that are hard to test with these client-side testi
 -   Provide a local test page that triggers the app in test mode with mock data \(`test/mockServer.html`\)
 
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Previous:** [Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md "In this step we will analyze the unit testing infrastructure and write a first unit test.")
+**Previous:**[Step 2: A First Unit Test](Step_2_A_First_Unit_Test_b81736e.md "In this step we will analyze the unit testing infrastructure and write a first unit test.")
 
 **Related Information**  
 

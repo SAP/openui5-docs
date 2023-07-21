@@ -19,7 +19,7 @@ To use server side filtering, set the operation mode to [`sap.ui.model.odata.Ope
 -   For all list bindings of the model, set the model parameter `operationMode`.
 
 
- **Example: Operation mode set in `manifest.json` for the model** 
+**Example: Operation mode set in `manifest.json` for the model** 
 
 ```js
 

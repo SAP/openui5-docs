@@ -12,14 +12,14 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/6ec18e
 
 The *Diagnostics* window available in OpenUI5 is a support tool that runs within an existing OpenUI5 app.
 
-To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md):  [CTRL\] + [SHIFT\] + [Alt\] / [Option\] + [S\]  in the app.
+To open *Diagnostics*, use the following [shortcuts](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md): [CTRL\] + [SHIFT\] + [Alt\] /[Option\] + [S\]  in the app.
 
- ![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
+![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png)
 
 > ### Note:  
 > Depending on your app, additional features may be available. Check the sections below for more information.
 
- <a name="loio452944574e64438fbe07276b3b4d4673"/>
+<a name="loio452944574e64438fbe07276b3b4d4673"/>
 
 <!-- loio452944574e64438fbe07276b3b4d4673 -->
 
@@ -50,7 +50,7 @@ In addition, you can see the following information:
     After stopping the trace, you can view the result and \(optionally\) upload it to a server by entering a `host name` and a `port number`, and then choosing *Submit*.
 
 
- <a name="loio790defe9ff8643bf8629c8567270e290"/>
+<a name="loio790defe9ff8643bf8629c8567270e290"/>
 
 <!-- loio790defe9ff8643bf8629c8567270e290 -->
 
@@ -89,7 +89,7 @@ The following functions are available in the dialog:
     > The conversion captures the runtime status of the app. This can differ from the build declaration.
 
 
- <a name="copyee6f8f5a976347cb9426bdf5e689bc11"/>
+<a name="copyee6f8f5a976347cb9426bdf5e689bc11"/>
 
 <!-- copyee6f8f5a976347cb9426bdf5e689bc11 -->
 
@@ -116,7 +116,7 @@ In the *Control Tree* of the *Diagnostics* window, you can set breakpoints on th
 6.  To remove a breakpoint, select the red x.
 
 
- <a name="loio7f4327d5aa274efda0c275d091c9d2f9"/>
+<a name="loio7f4327d5aa274efda0c275d091c9d2f9"/>
 
 <!-- loio7f4327d5aa274efda0c275d091c9d2f9 -->
 
@@ -149,7 +149,7 @@ This feature can be used to test an application against a newer or older version
 
 ![](images/loio64d3bfdd0f784ae68030208523452899_LowRes.png)
 
- <a name="copy75d0c576f8e04a6aa3067ede31ebf8d4"/>
+<a name="copy75d0c576f8e04a6aa3067ede31ebf8d4"/>
 
 <!-- copy75d0c576f8e04a6aa3067ede31ebf8d4 -->
 
@@ -182,7 +182,7 @@ In the *Debugging* section of the *Diagnostics* window, you can set breakpoints 
 6.  To remove a breakpoint, select the red x.
 
 
- <a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e"/>
+<a name="loio1ecb6b9f3d044e7d8f5136447bd6d39e"/>
 
 <!-- loio1ecb6b9f3d044e7d8f5136447bd6d39e -->
 
@@ -290,7 +290,7 @@ When you select a control in the code, the following information is displayed:
 </tr>
 </table>
 
- <a name="loio2e698c47a18e4303af9c6e59b6dd69b5"/>
+<a name="loio2e698c47a18e4303af9c6e59b6dd69b5"/>
 
 <!-- loio2e698c47a18e4303af9c6e59b6dd69b5 -->
 

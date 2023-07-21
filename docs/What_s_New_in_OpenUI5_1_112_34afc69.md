@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/34afc6
 
 With this release OpenUI5 is upgraded from version 1.111 to 1.112.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **What's New Viewer for OpenUI5** 
+**What's New Viewer for OpenUI5** 
 
 
 
@@ -109,7 +109,7 @@ Due to some issues with references to OpenUI5 content we had to remove the What'
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ Due to some issues with references to OpenUI5 content we had to remove the What'
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`, `sap.m.ComboBox`, `sap.m.MultiComboBox`** 
+**`sap.m.Input`, `sap.m.ComboBox`, `sap.m.MultiComboBox`** 
 
 
 
@@ -164,7 +164,7 @@ We have removed the experimental flag for the `showItems(fnFilter)` method. For 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ We have removed the experimental flag for the `showItems(fnFilter)` method. For 
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -221,7 +221,7 @@ We have removed the experimental flag for the `showItems(fnFilter)` method. For 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -237,28 +237,28 @@ We have removed the experimental flag for the `showItems(fnFilter)` method. For 
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessagePage`** 
+**`sap.m.MessagePage`** 
 
 
 
@@ -276,7 +276,7 @@ We have deprecated the `sap.m.MessagePage`, and recommend using the `sap.m.Illus
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -292,28 +292,28 @@ We have deprecated the `sap.m.MessagePage`, and recommend using the `sap.m.Illus
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -332,7 +332,7 @@ We have deprecated the `sap.m.MessagePage`, and recommend using the `sap.m.Illus
     -   `MockData` - the card shows mock data, loaded using a data request. The card developer should set the data source in the `data/mockData` part of the manifest.
     -   `Abstract` - the card shows an abstract placeholder without loading data.
 
-     For more information, see the [Integrate/Preview](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/preview) section and the [Samples](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/preview) in the Card Explorer. 
+    For more information, see the [Integrate/Preview](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/preview) section and the [Samples](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/preview) in the Card Explorer. 
 
 -   The date range filter now supports several new options: `dateTimeRange`, `fromDateTime`, `toDateTime`, and `dateTime`. For more information, see the [Date Range Filter](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/filters/dateRange) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/dateRangeFilter/agenda) in the Card Explorer.
 
@@ -343,7 +343,7 @@ We have deprecated the `sap.m.MessagePage`, and recommend using the `sap.m.Illus
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -359,14 +359,14 @@ We have deprecated the `sap.m.MessagePage`, and recommend using the `sap.m.Illus
 <tr>
 <td valign="top">
 
- 1.112 
+1.112 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
@@ -380,7 +380,7 @@ Feature
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -402,7 +402,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -417,7 +417,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

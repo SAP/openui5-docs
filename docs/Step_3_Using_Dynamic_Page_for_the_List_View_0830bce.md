@@ -18,11 +18,11 @@ In this step, we create the list view of the app using `sap.f.DynamicPage` contr
 
 ### Preview
 
-   
+  
   
 **List page with sap.f.DynamicPage**
 
- ![](images/loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "List page with sap.f.DynamicPage") 
+![](images/loiob31948bf54134343bfcb5dc64e00a1e1_HiRes.gif "List page with sap.f.DynamicPage")
 
 ***
 
@@ -289,9 +289,9 @@ sap.ui.define([
 
 We create the list controller that provides a basic search and sort functionality for the products listed in the list page.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md "In this step, we add an instance of the sap.f.FlexibleColumnLayout control in the main view of the app.")
+**Next:**[Step 2: Creating an Empty Flexible Column Layout](Step_2_Creating_an_Empty_Flexible_Column_Layout_bf38e4d.md "In this step, we add an instance of the sap.f.FlexibleColumnLayout control in the main view of the app.")
 
-**Previous:** [Step 4: Adding a Detail Page](Step_4_Adding_a_Detail_Page_4e4315c.md "In this step, we add an empty detail page.")
+**Previous:**[Step 4: Adding a Detail Page](Step_4_Adding_a_Detail_Page_4e4315c.md "In this step, we add an empty detail page.")
 

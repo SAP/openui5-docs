@@ -18,12 +18,12 @@ This way, they are all in a central place and can be easily translated into othe
 
 ### Preview
 
-   
+  
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
- ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
-					visual changes to last step)") 
+![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
+					visual changes to last step)")
 
 ***
 
@@ -131,11 +131,11 @@ In the XML view, we use data binding to connect the button text to the `showHell
 -   Use Unicode escape sequences for special characters.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
+**Next:**[Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M in MVC.")
 
-**Previous:** [Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
+**Previous:**[Step 9: Component Configuration](Step_9_Component_Configuration_4cfa608.md "After we have introduced all three parts of the Model-View-Controller (MVC) concept, we now come to another important structural aspect of OpenUI5.")
 
 **Related Information**  
 

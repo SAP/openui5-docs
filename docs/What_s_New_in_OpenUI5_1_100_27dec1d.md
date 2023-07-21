@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.99 to 1.100.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Theme Flavors Available for SAP Fiori User Experience \(Experimental\)** 
+**New Theme Flavors Available for SAP Fiori User Experience \(Experimental\)** 
 
 
 
@@ -139,28 +139,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -178,7 +178,7 @@ You can now access the status of a `Context` in bindings with the `@$ui5.context
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -194,28 +194,28 @@ You can now access the status of a `Context` in bindings with the `@$ui5.context
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -238,7 +238,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -254,28 +254,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.QuickView`** 
+**`sap.m.QuickView`** 
 
 
 
@@ -293,7 +293,7 @@ The control now displays a language-dependent “–” symbol when the text for
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -309,28 +309,28 @@ The control now displays a language-dependent “–” symbol when the text for
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`** 
+**`sap.m.Select`** 
 
 
 
@@ -348,7 +348,7 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -364,28 +364,28 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 <tr>
 <td valign="top">
 
- 1.100 
+1.100 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -408,7 +408,7 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -423,7 +423,7 @@ The `sap.m.Select` control has a new `liveChange` event that fires when the user
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

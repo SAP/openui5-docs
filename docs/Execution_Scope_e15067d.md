@@ -18,11 +18,11 @@ OpenUI5 apps consist of multiple views, components and fragments. If you run the
 
 To change the analysis scope, select the gears icon next to the *Analyze* button.
 
-   
+  
   
 **Support Assistant - Execution Scopes**
 
- ![](images/loio272b4b50d3c44895aeb1a00b0a61009f_LowRes.png "Support Assistant - Execution Scopes") 
+![](images/loio272b4b50d3c44895aeb1a00b0a61009f_LowRes.png "Support Assistant - Execution Scopes")
 
 There are three available execution scopes:
 

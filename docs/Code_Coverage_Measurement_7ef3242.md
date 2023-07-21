@@ -142,7 +142,7 @@ To view the results of the measurement, select the *Enable coverage* checkbox on
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
 
- ![](images/loio8b7a4a50633747348ca16d4be8fb9b87_LowRes.png) 
+![](images/loio8b7a4a50633747348ca16d4be8fb9b87_LowRes.png)
 
 ***
 
@@ -262,7 +262,7 @@ To view the results of the measurement, select the *Enable coverage* checkbox on
 
 In this example the coverage is limited to one specific file - the only one that is important for this test.
 
- ![](images/loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg) 
+![](images/loio358de53ac5684012b55fb043e1f6e999_LowRes.jpg)
 
 **Related Information**  
 

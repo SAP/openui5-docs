@@ -16,11 +16,11 @@ In this step, we will edit the worklist table to include additional columns for 
 
 ### Preview
 
-   
+  
   
 **The improved worklist table with new columns and formatting**
 
- ![](images/loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting") 
+![](images/loio2def9d9de16f4b4a87dd4342486c70f7_HiRes.png "The improved worklist table with new columns and formatting")
 
 ***
 
@@ -321,9 +321,9 @@ Finally, we modify the existing column names in the resource bundle file `webapp
 > 
 > 3.  Now choose from the different devices in the *Models* field, and observe the behavior of your app.
 
-**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:**[Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
-**Next:** [Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
+**Next:**[Step 2: Custom Mock Data](Step_2_Custom_Mock_Data_3118903.md "In this step, we want to change the mock data of the initial app.")
 
-**Previous:** [Step 4: Quick Filter for the Worklist](Step_4_Quick_Filter_for_the_Worklist_85ec3a9.md "For easily detecting and managing product shortages in our app, we will add a quick filter for the worklist table. Users can press the filter tabs to display the products according to whether they are in stock, have low stock or no stock. The table will update accordingly and show only the products matching the criteria.")
+**Previous:**[Step 4: Quick Filter for the Worklist](Step_4_Quick_Filter_for_the_Worklist_85ec3a9.md "For easily detecting and managing product shortages in our app, we will add a quick filter for the worklist table. Users can press the filter tabs to display the products according to whether they are in stock, have low stock or no stock. The table will update accordingly and show only the products matching the criteria.")
 

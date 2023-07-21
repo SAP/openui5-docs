@@ -18,7 +18,7 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 ### Preview
 
- ![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png) 
+![](images/loio5ceb62ab5b7a405c835ab39f491a0735_LowRes.png)
 
 ***
 
@@ -28,7 +28,7 @@ In this tutorial step, we have a closer look at the Diagnostics window. It offer
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
-2.  Open the *Diagnostics* window by pressing  [Ctrl\] + [Shift\] + [Alt\] + [S\] .
+2.  Open the *Diagnostics* window by pressing [Ctrl\] + [Shift\] + [Alt\] + [S\] .
 
 
 ***
@@ -83,7 +83,7 @@ The app contains a *Do Something* button and you want to make the button bigger.
 
 1.  Expand the *Control Tree* section. Make sure that you display both the app and the *Diagnostics* windows side-by-side or on different monitors. Otherwise the diagnostics window will go to the background.
 
-2.  Press and hold the  [Ctrl\] + [Shift\] + [Alt\]  keys and click the *Do Something* button in the app. You see the button blinking green.
+2.  Press and hold the [Ctrl\] + [Shift\] + [Alt\]  keys and click the *Do Something* button in the app. You see the button blinking green.
 
 3.  In the control tree of the *Diagnostics* window, the button is selected and you can see its properties on the right.
 
@@ -123,9 +123,9 @@ If you find a bug in your application, you can easily check whether it has alrea
 
 More features are waiting for you to discover in the *Diagnostics* window. For more information, see [Diagnostics](Diagnostics_6ec18e8.md#loio6ec18e80b0ce47f290bc2645b0cc86e6).
 
-**Parent topic:** [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+**Parent topic:**[Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 
-**Next:** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
+**Next:**[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
 
-**Previous:** [Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.")
+**Previous:**[Step 5: UI5 Inspector](Step_5_UI5_Inspector_76e789e.md "In this tutorial step, we will have a closer look at UI5 Inspector - an open source Chrome DevTools extension specifically created for analyzing and debugging OpenUI5 code.")
 

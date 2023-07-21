@@ -16,11 +16,11 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
 
 ### Preview
 
-   
+  
   
 **Tabs with lazy loading**
 
- ![](images/loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading") 
+![](images/loiocb0405649d5345f882892e0ee691d4f1_LowRes.png "Tabs with lazy loading")
 
 ***
 
@@ -28,11 +28,11 @@ In the previous steps, we have implemented a *Resume* view that uses tabs to dis
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 10](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.10) .
 
-   
+  
   
 **Folder Structure for this Step**
 
- ![](images/loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step") 
+![](images/loio389058e1605441289efee0267badf7d8_HiRes.png "Folder Structure for this Step")
 
 ***
 
@@ -238,11 +238,11 @@ Try it out yourself: Open the *Network* tab of your browser's developer tools an
 -   Lazy-load content that is not initially displayed to the user
 
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.")
+**Next:**[Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.")
 
-**Previous:** [Step 11: Assign Multiple Targets](Step_11_Assign_Multiple_Targets_b01840e.md "In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.")
+**Previous:**[Step 11: Assign Multiple Targets](Step_11_Assign_Multiple_Targets_b01840e.md "In this step, we will add a new button to the home page to illustrate the usage of multiple targets for a route. When the button is pressed, a new page opens that contains two parts: a header part at the top and a content part. The content part displays a table of employees that can be sorted and searched. We will use the array notation in the routing configuration to assign multiple targets to a route - a feature that we have not yet introduced.")
 
 **Related Information**  
 

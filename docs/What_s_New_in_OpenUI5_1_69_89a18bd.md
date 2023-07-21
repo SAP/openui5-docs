@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/89a18b
 
 With this release OpenUI5 is upgraded from version 1.68 to 1.69.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Themes for SAP Fiori 3 User Experience** 
+**New Themes for SAP Fiori 3 User Experience** 
 
 
 
@@ -125,28 +125,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Require Modules in XML Views and Fragments** 
+**Require Modules in XML Views and Fragments** 
 
 
 
@@ -168,7 +168,7 @@ For details and examples, see [Require Modules in XML View and Fragment](Require
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -184,28 +184,28 @@ For details and examples, see [Require Modules in XML View and Fragment](Require
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -239,7 +239,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -255,28 +255,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Avatar`** 
+**`sap.f.Avatar`** 
 
 
 
@@ -299,7 +299,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -315,28 +315,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Breadcrumbs`** 
+**`sap.m.Breadcrumbs`** 
 
 
 
@@ -354,7 +354,7 @@ You can now choose different separator styles to be displayed between the `Bread
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -370,28 +370,28 @@ You can now choose different separator styles to be displayed between the `Bread
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ListBase` / `sap.m.ListItemBase`** 
+**`sap.m.ListBase` / `sap.m.ListItemBase`** 
 
 
 
@@ -409,7 +409,7 @@ These controls now support a range selection with key combinations if the `Multi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -425,28 +425,28 @@ These controls now support a range selection with key combinations if the `Multi
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NavContainer`** 
+**`sap.m.NavContainer`** 
 
 
 
@@ -464,7 +464,7 @@ We have improved the fade and slide animations when navigating forward and backw
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -480,28 +480,28 @@ We have improved the fade and slide animations when navigating forward and backw
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.QuickViewPage`** 
+**`sap.m.QuickViewPage`** 
 
 
 
@@ -519,7 +519,7 @@ We have introduced a new `fallbackIcon` property. It allows you to define an ico
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -535,28 +535,28 @@ We have introduced a new `fallbackIcon` property. It allows you to define an ico
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SearchField`** 
+**`sap.m.SearchField`** 
 
 
 
@@ -574,7 +574,7 @@ We have made some changes in the suggestions dialog for the `SearchField` contro
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -590,28 +590,28 @@ We have made some changes in the suggestions dialog for the `SearchField` contro
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Select`** 
+**`sap.m.Select`** 
 
 
 
@@ -629,7 +629,7 @@ The items in the select list now have a maximum width. If the text of the items 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -645,28 +645,28 @@ The items in the select list now have a maximum width. If the text of the items 
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -684,7 +684,7 @@ A new *Month* view is now available for the control. It displays a calendar mont
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -700,28 +700,28 @@ A new *Month* view is now available for the control. It displays a calendar mont
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.plugins.MultiSelectionPlugin`** 
+**`sap.ui.table.plugins.MultiSelectionPlugin`** 
 
 
 
@@ -739,7 +739,7 @@ The plugin for the `sap.ui.table.AnalyticalTable`, the `sap.ui.table.Table`, and
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -755,28 +755,28 @@ The plugin for the `sap.ui.table.AnalyticalTable`, the `sap.ui.table.Table`, and
 <tr>
 <td valign="top">
 
- 1.69 
+1.69 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -794,7 +794,7 @@ We have implemented year range in the `Calendar` control to help the user naviga
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -809,7 +809,7 @@ We have implemented year range in the `Calendar` control to help the user naviga
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

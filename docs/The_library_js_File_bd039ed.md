@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/bd039e
 
 The `library.js` file is a JavaScript file that contains the JavaScript code for all enumeration types provided by the library as well as library-specific initialization code that is independent from the controls in the library.
 
-The file calls the `sap.ui.getCore().initLibrary` method with an object that describes the content of the library \(list of contained controls, elements etc.\). For more informarion about the object parameter, see [sap.ui.getCore\(\).initLibrary](https://sdk.openui5.org/api/sap.ui.core.Core/methods/initLibrary)
+The file calls the `sap.ui.getCore().initLibrary` method with an object that describes the content of the library \(list of contained controls, elements etc.\). For more informarion about the object parameter, see[sap.ui.getCore\(\).initLibrary](https://sdk.openui5.org/api/sap.ui.core.Core/methods/initLibrary)
 
 The library style sheet file \(`library.css`\) contains all styles relevant for this library. For libraries that have been developed with the SAPUI5 application development tools, this file is also generated automatically during the build.
 

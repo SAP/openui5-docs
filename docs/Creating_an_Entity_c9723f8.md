@@ -197,15 +197,15 @@ You can create such an inline creation row by calling [`sap.ui.model.odata.v4.OD
 -   `parked`: A POST via an auto group that failed is parked until a property update takes place.
 -   `createdPersisted`: The POST succeeded, and the entity now exists on the server. If the binding is refreshed, the context's reaction depends on its `isKeepAlive` state. If it's set to `false`, the context is dropped and created anew when it's read from the server. If it's set to `true`, it is refreshed with a special request and remains in the `createdPersisted` state.
 
-   
+  
   
 **Internal States of an OData V4 Binding Context**
 
- ![](images/loiof359082361f445868c75940f778a8c2e_LowRes.png "Internal States of an OData V4 Binding Context") 
+![](images/loiof359082361f445868c75940f778a8c2e_LowRes.png "Internal States of an OData V4 Binding Context")
 
 The state of a context can be checked via the following API functions:
 
--    [`Context#isTransient`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/isTransient). This function does not distinguish between the `transient`, `createPending`, and `parked` states of a context. It returns `true` for any of them; the internal state of a such a context should not matter to the application. `Context#isTransient` also returns `true` for `inactive` contexts. It returns `false` for `createdPersisted` contexts, and `undefined` for `persisted` contexts. The value of `isTransient()` can also be observed via the bindable annotation `@$ui5.context.isTransient`.
+-   [`Context#isTransient`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/isTransient). This function does not distinguish between the `transient`, `createPending`, and `parked` states of a context. It returns `true` for any of them; the internal state of a such a context should not matter to the application. `Context#isTransient` also returns `true` for `inactive` contexts. It returns `false` for `createdPersisted` contexts, and `undefined` for `persisted` contexts. The value of `isTransient()` can also be observed via the bindable annotation `@$ui5.context.isTransient`.
 
 -   [`Context#isInactive`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.Context/methods/isInactive): This function returns `true` for `inactive` contexts, `false` for contexts that were created in the `inactive` state and have been activated, and `undefined` otherwise. The value of `isInactive()` can also be observed via the bindable annotation `@$ui5.context.isInactive`.
 

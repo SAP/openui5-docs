@@ -68,7 +68,7 @@ Use this method to navigate to display one or multiple targets. The method uses 
   
 **Navigation events**
 
- ![](images/loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events") 
+![](images/loio6f245c0eaeae44eaac6413c726661223_LowRes.png "Navigation events")
 
 ***
 

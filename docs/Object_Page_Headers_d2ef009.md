@@ -22,20 +22,20 @@ The `sap.uxap.ObjectPageLayout` control implements the snapping header concept. 
 
 The common pattern is that the most important information describing the object, such as title, subtitle, and image is in the Header Content area when the header is expanded, and moves to the Header Title area when the header is collapsed \(snapped - its lower part scrolled out of view\).
 
-   
+  
   
 **sap.uxap.ObjectPageLayout header in expanded state**
 
- ![](images/loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png "sap.uxap.ObjectPageLayout header in expanded state") 
+![](images/loio329ff57b73e54ddca241e9ff693cd6c8_HiRes.png "sap.uxap.ObjectPageLayout header in expanded state")
 
 The following image shows the collapsed \(snapped\) header is where the Header Content area is scrolled out and not visible, and the main information is visible in the Header Title area.
 
-   
+  
   
 **sap.uxap.ObjectPageLayout Header in Collapsed \(snapped\) State**
 
- ![](images/loiof4ec6baca13b4bd993715464cbf4461f_HiRes.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped)
-					State") 
+![](images/loiof4ec6baca13b4bd993715464cbf4461f_HiRes.png "sap.uxap.ObjectPageLayout Header in Collapsed (snapped)
+					State")
 
 ***
 
@@ -57,7 +57,7 @@ Header area
 </th>
 <th valign="top">
 
- `sap.uxap.ObjectPageLayout` aggregation
+`sap.uxap.ObjectPageLayout` aggregation
 
 
 
@@ -80,7 +80,7 @@ Header Title
 </td>
 <td valign="top">
 
- `headerTitle` \(0..1\)
+`headerTitle` \(0..1\)
 
 
 
@@ -103,7 +103,7 @@ Header Content
 </td>
 <td valign="top">
 
- `headerContent` \(0..n\)
+`headerContent` \(0..n\)
 
 
 
@@ -143,7 +143,7 @@ Header Area
 </th>
 <th valign="top">
 
- `sap.uxap.ObjectPageLayout` aggregation
+`sap.uxap.ObjectPageLayout` aggregation
 
 
 
@@ -166,7 +166,7 @@ Header Title
 </td>
 <td valign="top">
 
- `headerTitle` \(0..1\)
+`headerTitle` \(0..1\)
 
 
 
@@ -189,7 +189,7 @@ Header Content
 </td>
 <td valign="top">
 
- `headerContent` \(0..n\)
+`headerContent` \(0..n\)
 
 
 

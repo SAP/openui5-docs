@@ -48,7 +48,7 @@ The OpenUI5 resource handler extends this concept to support standard and test-r
 
     Resources are all kind of JavaScript, CSS, Mimes, Resource Bundles, which are relevant for the runtime.
 
--    `test-resources/**` 
+-   `test-resources/**` 
 
     Test resources are resources that are samples and only relevant for testing purposes, for example, the content of the OpenUI5 test suite.
 

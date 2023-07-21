@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.84 to 1.85.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -136,28 +136,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Special Messaging Support for Visually Impaired Users** 
+**Special Messaging Support for Visually Impaired Users** 
 
 
 
@@ -175,7 +175,7 @@ The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class i
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -191,28 +191,28 @@ The `sap.ui.core.InvisibleMessage` class is no longer experimental. This class i
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`** 
+**`sap.f.GridContainer`** 
 
 
 
@@ -230,7 +230,7 @@ We have improved the two-dimensional keyboard navigation. Now navigation using t
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -246,28 +246,28 @@ We have improved the two-dimensional keyboard navigation. Now navigation using t
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Bar`** 
+**`sap.m.Bar`** 
 
 
 
@@ -285,7 +285,7 @@ We have added a new `titleAlignment` property. It enables developers to create c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -301,28 +301,28 @@ We have added a new `titleAlignment` property. It enables developers to create c
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ColorPalette`, `sap.m.ColorPalettePopover`, and `sap.ui.unified.ColorPickerPopover`** 
+**`sap.m.ColorPalette`, `sap.m.ColorPalettePopover`, and `sap.ui.unified.ColorPickerPopover`** 
 
 
 
@@ -340,7 +340,7 @@ A `liveChange` event is now available in these controls, which are using the `sa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -356,28 +356,28 @@ A `liveChange` event is now available in these controls, which are using the `sa
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -395,7 +395,7 @@ The `specialDates` aggregation, which allows you to define special dates for the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -411,28 +411,28 @@ The `specialDates` aggregation, which allows you to define special dates for the
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -446,7 +446,7 @@ The `specialDates` aggregation, which allows you to define special dates for the
 
 If the sum of the width of all columns in a table is less than the available space for the whole table, we now render a placeholder column to occupy the remaining unused space. This feature is enabled by default.
 
- ![](images/loio1da07e72426044b6a23a58549b95e2b5_Source1.png) 
+![](images/loio1da07e72426044b6a23a58549b95e2b5_Source1.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Table).
 
@@ -457,7 +457,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -473,28 +473,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.85 
+1.85 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -515,7 +515,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -530,7 +530,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

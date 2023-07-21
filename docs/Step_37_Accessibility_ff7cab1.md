@@ -23,11 +23,11 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
 
 ### Preview
 
-   
+  
   
 **Landmarks in our app**
 
- ![](images/loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app") 
+![](images/loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app")
 
 ***
 
@@ -229,9 +229,9 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 
 You've completed the walkthrough, good job! You should be familiar with all major development paradigms of OpenUI5 now. Our other tutorials focus on certain aspects of OpenUI5, so feel free to explore!
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
+**Next:**[Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
 
 **Related Information**  
 

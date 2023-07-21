@@ -16,24 +16,24 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
 ### Preview
 
-   
+  
   
 **Employee Details page with Flip to Resume link**
 
- ![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to
-						Resume link") 
+![](images/loioe56a3f094dbd4b01b8f6a1e57e9366d5_LowRes.png "Employee Details page with Flip to
+						Resume link")
 
-   
+  
   
 **Resume page with multiple tabs**
 
- ![](images/loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs") 
+![](images/loio6ab9122f07db475c892926ed86ece7f7_LowRes.png "Resume page with multiple tabs")
 
-   
+  
   
 **Not Found page for resume**
 
- ![](images/loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume") 
+![](images/loio36aff02e6b6e48f2aa097afa29f16cb4_LowRes.png "Not Found page for resume")
 
 ***
 
@@ -41,11 +41,11 @@ In this step, we want to illustrate how to navigate to a page with a custom tran
 
 You can view and download all files in the *Samples* in the Demo Kit at [Routing and Navigation - Step 8](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation/sample/sap.ui.core.tutorial.navigation.08).
 
-   
+  
   
 **Folder structure for this step**
 
- ![](images/loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step") 
+![](images/loio2ca76d0f0f3240318212047da0a10b7c_HiRes.png "Folder structure for this step")
 
 ***
 
@@ -340,11 +340,11 @@ Add the new texts to the `i18n.properties` file.
 
 You can go to `webapp/index.html#/employees/3` and click on the *Flip to Resume* link to be redirected with a nice flip transition to the employee’s resume. The back navigation uses a reverse flip navigation to get back to the *Employee Details* page. You can also directly navigate to `webapp/index.html#/employees/3/resume` or `webapp/index.html#/employees/33/resume` to see what happens.
 
-**Parent topic:** [Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
+**Parent topic:**[Navigation and Routing Tutorial](Navigation_and_Routing_Tutorial_1b6dcd3.md "OpenUI5 comes with a powerful routing API that helps you control the state of your application efficiently. This tutorial will illustrate all major features and APIs related to navigation and routing in OpenUI5 apps by creating a simple and easy to understand mobile app. It represents a set of best practices for applying the navigation and routing features of OpenUI5 to your applications.")
 
-**Next:** [Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.")
+**Next:**[Step 7: Navigate to Routes with Mandatory Parameters](Step_7_Navigate_to_Routes_with_Mandatory_Parameters_f96d252.md "In this step, we implement a feature that allows the user to click on an employee in the list to see additional details of the employee. A route pattern can have one or more mandatory parameters to identify objects in an app.")
 
-**Previous:** [Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.")
+**Previous:**[Step 9: Allow Bookmarkable Tabs with Optional Query Parameters](Step_9_Allow_Bookmarkable_Tabs_with_Optional_Query_Parameters_b8561ff.md "The resume view contains four tabs as we have seen in the previous steps. However, when the user navigates to the resume page, only the first tab is displayed initially. Navigating directly to a specific tab or bookmarking a tab is not yet supported in our current app.")
 
 **Related Information**  
 

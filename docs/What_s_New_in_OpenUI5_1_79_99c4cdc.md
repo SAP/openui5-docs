@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.78 to 1.79.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Browser and Platform Support** 
+**Browser and Platform Support** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -170,7 +170,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -186,28 +186,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -233,7 +233,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -249,28 +249,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`, `sap.f.GridList`** 
+**`sap.f.GridContainer`, `sap.f.GridList`** 
 
 
 
@@ -288,7 +288,7 @@ We have improved the accessibility of these controls by providing better navigat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ We have improved the accessibility of these controls by providing better navigat
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -344,7 +344,7 @@ We have improved the accessibility of these controls by providing better navigat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -360,28 +360,28 @@ We have improved the accessibility of these controls by providing better navigat
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`, `sap.m.MultiInput`** 
+**`sap.m.Input`, `sap.m.MultiInput`** 
 
 
 
@@ -399,7 +399,7 @@ When the controls are used with tabular suggestions, the column headers are now 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -415,28 +415,28 @@ When the controls are used with tabular suggestions, the column headers are now 
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.InputBase` \(Experimental\)** 
+**`sap.m.InputBase` \(Experimental\)** 
 
 
 
@@ -454,7 +454,7 @@ We are extending the set of controls that support the possibility to add links a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -470,28 +470,28 @@ We are extending the set of controls that support the possibility to add links a
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Panel`** 
+**`sap.m.Panel`** 
 
 
 
@@ -509,7 +509,7 @@ We have enhanced the control by making the whole header clickable to allow users
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -525,28 +525,28 @@ We have enhanced the control by making the whole header clickable to allow users
 <tr>
 <td valign="top">
 
- 1.79 
+1.79 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -565,7 +565,7 @@ We have enhanced the control by making the whole header clickable to allow users
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -580,7 +580,7 @@ We have enhanced the control by making the whole header clickable to allow users
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

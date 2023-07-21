@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.96 to 1.97.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -120,7 +120,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -136,28 +136,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Avatar`** 
+**`sap.m.Avatar`** 
 
 
 
@@ -175,7 +175,7 @@ With the new `decorative` property, you can now set the `Avatar` control to be u
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -191,28 +191,28 @@ With the new `decorative` property, you can now set the `Avatar` control to be u
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`, `sap.m.MultiComboBox`** 
+**`sap.m.ComboBox`, `sap.m.MultiComboBox`** 
 
 
 
@@ -230,7 +230,7 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -246,28 +246,28 @@ We have introduced the `showClearIcon` property. If set to `true`, when there is
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker, sap.m.DateRangeSelection, sap.m.DateTimePicker, and sap.m.TimePicker`** 
+**`sap.m.DatePicker, sap.m.DateRangeSelection, sap.m.DateTimePicker, and sap.m.TimePicker`** 
 
 
 
@@ -285,7 +285,7 @@ These controls can now be opened by another control. To enable this feature, we 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -301,28 +301,28 @@ These controls can now be opened by another control. To enable this feature, we 
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateTimePicker`** 
+**`sap.m.DateTimePicker`** 
 
 
 
@@ -340,7 +340,7 @@ The control now implements the new dial-based design for the time picker.For mor
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -356,28 +356,28 @@ The control now implements the new dial-based design for the time picker.For mor
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange` \(Experimental\)** 
+**`sap.m.DynamicDateRange` \(Experimental\)** 
 
 
 
@@ -395,7 +395,7 @@ We have added a new standard option named `DATETOYEAR` - a period from today to 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -411,28 +411,28 @@ We have added a new standard option named `DATETOYEAR` - a period from today to 
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessagePage`** 
+**`sap.m.MessagePage`** 
 
 
 
@@ -450,7 +450,7 @@ With the new `titleLevel` property, we have enabled app developers to set a cust
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -466,28 +466,28 @@ With the new `titleLevel` property, we have enabled app developers to set a cust
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -505,7 +505,7 @@ We have introduced a new `multipleAppointmentsSelection` property that allows mo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -521,28 +521,28 @@ We have introduced a new `multipleAppointmentsSelection` property that allows mo
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -560,7 +560,7 @@ Timeline cards now support actions defined on an item level. These actions can b
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -576,28 +576,28 @@ Timeline cards now support actions defined on an item level. These actions can b
 <tr>
 <td valign="top">
 
- 1.97 
+1.97 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit News Section with Notifications** 
+**Demo Kit News Section with Notifications** 
 
 
 
@@ -617,7 +617,7 @@ We implemented a *News* section with notifications where you can get highlights 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -632,7 +632,7 @@ We implemented a *News* section with notifications where you can get highlights 
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

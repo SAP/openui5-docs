@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.70 to 1.71.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Card Explorer** 
+**Card Explorer** 
 
 
 
@@ -130,28 +130,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Pre-Announcement: Deprecation of the SAPUI5 Tools for Eclipse** 
+**Pre-Announcement: Deprecation of the SAPUI5 Tools for Eclipse** 
 
 
 
@@ -174,7 +174,7 @@ We recommend that you use SAP Web IDE as the development environment for SAPUI5.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -190,28 +190,28 @@ We recommend that you use SAP Web IDE as the development environment for SAPUI5.
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -245,7 +245,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -261,28 +261,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant** 
+**Support Assistant** 
 
 
 
@@ -300,7 +300,7 @@ The file extension assertion `getReportAsFileInFormat` for OPA tests; which enab
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -316,28 +316,28 @@ The file extension assertion `getReportAsFileInFormat` for OPA tests; which enab
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.dnd.GridDropInfo`** 
+**`sap.f.dnd.GridDropInfo`** 
 
 
 
@@ -355,7 +355,7 @@ We have introduced a new `dropIndicatorSize` property. It allows the app develop
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -371,28 +371,28 @@ We have introduced a new `dropIndicatorSize` property. It allows the app develop
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`, `sap.uxap.ObjectPageLayout`** 
+**`sap.f.DynamicPage`, `sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -410,7 +410,7 @@ We introduced visual improvements based on the latest SAP Fiori Design Guideline
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -426,28 +426,28 @@ We introduced visual improvements based on the latest SAP Fiori Design Guideline
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayout`** 
+**`sap.f.FlexibleColumnLayout`** 
 
 
 
@@ -465,7 +465,7 @@ We introduced a visual improvement of the column separator to enhance its visibi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -481,28 +481,28 @@ We introduced a visual improvement of the column separator to enhance its visibi
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`** 
+**`sap.f.GridContainer`** 
 
 
 
@@ -520,7 +520,7 @@ This control is no longer experimental, but some properties, methods, and aggreg
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -536,28 +536,28 @@ This control is no longer experimental, but some properties, methods, and aggreg
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Dialog`, `sap.m.IconTabBar`, and `sap.m.Input`** 
+**`sap.m.Dialog`, `sap.m.IconTabBar`, and `sap.m.Input`** 
 
 
 
@@ -579,7 +579,7 @@ Visual improvements based on the latest SAP Fiori Design Guidelines were impleme
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -595,28 +595,28 @@ Visual improvements based on the latest SAP Fiori Design Guidelines were impleme
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -634,7 +634,7 @@ Visual changes have been introduced. If the `required` property is set to `true`
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -650,28 +650,28 @@ Visual changes have been introduced. If the `required` property is set to `true`
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Link`** 
+**`sap.m.Link`** 
 
 
 
@@ -689,7 +689,7 @@ A new key user adaptation/SAPUI5 flexibility feature now enables the `target` pr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -705,28 +705,28 @@ A new key user adaptation/SAPUI5 flexibility feature now enables the `target` pr
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -744,7 +744,7 @@ We have changed the look of the `sap.m.PlanningCalendar`. The header part is now
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -760,28 +760,28 @@ We have changed the look of the `sap.m.PlanningCalendar`. The header part is now
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog`** 
+**`sap.m.SelectDialog`** 
 
 
 
@@ -799,7 +799,7 @@ We have updated the behavior of the `sap.m.SelectDialog` when the single selecti
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -815,28 +815,28 @@ We have updated the behavior of the `sap.m.SelectDialog` when the single selecti
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -854,7 +854,7 @@ A new `viewChange` event has been introduced, which is fired when the user chang
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -870,28 +870,28 @@ A new `viewChange` event has been introduced, which is fired when the user chang
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TableSelectDialog`** 
+**`sap.m.TableSelectDialog`** 
 
 
 
@@ -909,7 +909,7 @@ The new `resizable` and `draggable` properties have been introduced which affect
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -925,28 +925,28 @@ The new `resizable` and `draggable` properties have been introduced which affect
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ViewSettingsDialog`** 
+**`sap.m.ViewSettingsDialog`** 
 
 
 
@@ -964,7 +964,7 @@ We have improved the user experience of the search. When there are no items matc
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -980,28 +980,28 @@ We have improved the user experience of the search. When there are no items matc
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -1024,7 +1024,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1040,28 +1040,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.71 
+1.71 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
 
 
 
@@ -1079,7 +1079,7 @@ The new `enableNotification` property of `MultiSelectionPlugin` can be used to d
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1094,7 +1094,7 @@ The new `enableNotification` property of `MultiSelectionPlugin` can be used to d
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

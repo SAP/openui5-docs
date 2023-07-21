@@ -54,7 +54,7 @@ Component namespace
 </td>
 <td valign="top">
 
- `sap.app/id` 
+`sap.app/id` 
 
 
 
@@ -70,37 +70,14 @@ Component namespace
 <tr>
 <td valign="top">
 
- `version` 
+`version` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.app/applicationVersion/version` 
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `config` 
-
-
-
-</td>
-<td valign="top">
-
- `sap.ui5/config` 
+`sap.app/applicationVersion/version` 
 
 
 
@@ -116,14 +93,37 @@ Component namespace
 <tr>
 <td valign="top">
 
- `dependencies` 
+`config` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.ui5/dependencies` 
+`sap.ui5/config` 
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`dependencies` 
+
+
+
+</td>
+<td valign="top">
+
+`sap.ui5/dependencies` 
 
 
 
@@ -139,37 +139,14 @@ Different format, see *Dependencies* section below
 <tr>
 <td valign="top">
 
- `customizing` 
+`customizing` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.ui5/extends/extensions` 
-
-
-
-</td>
-<td valign="top">
-
-\-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `handleValidation` 
-
-
-
-</td>
-<td valign="top">
-
- `sap.ui5/handleValidation` 
+`sap.ui5/extends/extensions` 
 
 
 
@@ -185,14 +162,37 @@ Different format, see *Dependencies* section below
 <tr>
 <td valign="top">
 
- `includes` 
+`handleValidation` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.ui5/resources` 
+`sap.ui5/handleValidation` 
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`includes` 
+
+
+
+</td>
+<td valign="top">
+
+`sap.ui5/resources` 
 
 
 
@@ -208,14 +208,14 @@ Different format, see *Resources* section below
 <tr>
 <td valign="top">
 
- `rootView` 
+`rootView` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.ui5/rootView` 
+`sap.ui5/rootView` 
 
 
 
@@ -231,14 +231,14 @@ Different format, see *Resources* section below
 <tr>
 <td valign="top">
 
- `routing` 
+`routing` 
 
 
 
 </td>
 <td valign="top">
 
- `sap.ui5/routing` 
+`sap.ui5/routing` 
 
 
 

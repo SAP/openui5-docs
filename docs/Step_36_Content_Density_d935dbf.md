@@ -16,12 +16,12 @@ In this step of our Walkthrough tutorial, we adjust the content density based on
 
 ### Preview
 
-   
+  
   
 **The content density is compact on desktop devices and cozy on touch-enabled devices**
 
- ![](images/loio04b6669bbc8a4524be5a998ad78544ac_HiRes.png "The content density is compact on desktop devices and cozy on touch-enabled
-					devices") 
+![](images/loio04b6669bbc8a4524be5a998ad78544ac_HiRes.png "The content density is compact on desktop devices and cozy on touch-enabled
+					devices")
 
 ***
 
@@ -162,11 +162,11 @@ You should now be familiar with the major development paradigms and concepts of 
 
 If you want to dive deeper into specific topics, you can use the other tutorials that show some of the aspects of this Walkthrough and advanced topics in more detail.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 35: Device Adaptation](Step_35_Device_Adaptation_d63a15e.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
+**Next:**[Step 35: Device Adaptation](Step_35_Device_Adaptation_d63a15e.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
 
-**Previous:** [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "As the last step in this tutorial, we are going to improve the accessibility of our app.")
+**Previous:**[Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "As the last step in this tutorial, we are going to improve the accessibility of our app.")
 
 **Related Information**  
 

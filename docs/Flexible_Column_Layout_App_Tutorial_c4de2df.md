@@ -42,13 +42,13 @@ The app provides the following features:
 
 ### Preview
 
-   
+  
   
 **list-detail-detail pattern with sap.f.FlexibleColumnLayout, sap.f.DynamicPage and sap.uxap.ObjectPageLayout**
 
- ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout,
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "list-detail-detail pattern with sap.f.FlexibleColumnLayout,
 						sap.f.DynamicPage and
-						sap.uxap.ObjectPageLayout") 
+						sap.uxap.ObjectPageLayout")
 
 ***
 

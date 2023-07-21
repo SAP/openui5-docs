@@ -16,11 +16,11 @@ In this step, we extend the product detail view by adding a feature allowing to 
 
 ### Preview
 
-   
+  
   
 **Comments section added to the detail page**
 
- ![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page") 
+![](images/loioa517fe596aa04b4d8d080fbf6168cf40_HiRes.png "Comments section added to the detail page")
 
 ***
 
@@ -243,7 +243,7 @@ You can test the new features by navigating to the details page of any given pro
 
 Based on the initial app you have seen how easy it can be to generate or download initial code and to extend it according to your own requirements. This tutorial also illustrated how to communicate easily with an OData back end using the OData V2 model. Furthermore, it illustrated how to use the mock server with both generated mock data and more realistic data.
 
-**Parent topic:** [Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
+**Parent topic:**[Worklist App Tutorial](Worklist_App_Tutorial_6a6a621.md "In this tutorial we will build an app using OpenUI5 that, for example, a shop owner can use to manage his product stock levels.")
 
-**Next:** [Step 6: Extending the Detail Page](Step_6_Extending_the_Detail_Page_b561d14.md "In this step, we will extend the detail page of our app to show more information of a given product with various UI controls. We will enrich the header area and display further attributes in an info panel for information about the supplier.")
+**Next:**[Step 6: Extending the Detail Page](Step_6_Extending_the_Detail_Page_b561d14.md "In this step, we will extend the detail page of our app to show more information of a given product with various UI controls. We will enrich the header area and display further attributes in an info panel for information about the supplier.")
 

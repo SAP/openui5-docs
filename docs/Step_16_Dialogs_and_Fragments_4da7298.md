@@ -24,11 +24,11 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
 ### Preview
 
-   
+  
   
 **A dialog opens when the new “Say Hello With Dialog” button is clicked**
 
- ![](images/loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked") 
+![](images/loiof22d75236864472193c3be229053b0f0_HiRes.png "A dialog opens when the new “Say Hello With Dialog” button is clicked")
 
 ***
 
@@ -159,11 +159,11 @@ openDialogButtonText=Say Hello With Dialog
 
 We add a new text for the open button to the text bundle.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
+**Next:**[Step 15: Nested Views](Step_15_Nested_Views_df8c9c3.md "Our panel content is getting more and more complex and now it is time to move the panel content to a separate view. With that approach, the application structure is much easier to understand, and the individual parts of the app can be reused.")
 
-**Previous:** [Step 17: Fragment Callbacks](Step_17_Fragment_Callbacks_354f98e.md "Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.")
+**Previous:**[Step 17: Fragment Callbacks](Step_17_Fragment_Callbacks_354f98e.md "Now that we have integrated the dialog, it's time to add some user interaction. The user will definitely want to close the dialog again at some point, so we add a button to close the dialog and assign an event handler.")
 
 **Related Information**  
 

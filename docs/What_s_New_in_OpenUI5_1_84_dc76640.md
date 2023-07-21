@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.82 to 1.84.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Asynchronous Loading of XML Content in Fragments** 
+**Asynchronous Loading of XML Content in Fragments** 
 
 
 
@@ -113,7 +113,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -129,28 +129,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Card Explorer** 
+**Card Explorer** 
 
 
 
@@ -161,7 +161,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 
 -   A new Troubleshooting page has been added to the Integrate section of the Card Explorer. It contains additional tips and solutions to the most common issues with Integration cards. For more information, see [Card Explorer](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/calendar).
 
--   We have added detailed documentation about sizing and layouts in Integration cards. For more information, see the [Sizing](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/sizing) and the  [Layouts](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/layouts) pages in the Card Explorer.
+-   We have added detailed documentation about sizing and layouts in Integration cards. For more information, see the [Sizing](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/sizing) and the [Layouts](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/integrate/layouts) pages in the Card Explorer.
 
 
 <sub>Changed•Feature•Info Only•1.84</sub>
@@ -171,7 +171,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -187,28 +187,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Navigation with Dynamic Targets** 
+**Navigation with Dynamic Targets** 
 
 
 
@@ -228,7 +228,7 @@ Note that the static definition remains the preferred solution as it allows for 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -244,28 +244,28 @@ Note that the static definition remains the preferred solution as it allows for 
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -286,7 +286,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -302,28 +302,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -352,7 +352,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -368,28 +368,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`** 
+**`sap.f.GridContainer`** 
 
 
 
@@ -407,7 +407,7 @@ You can now drag and drop items using the keyboard into an empty container. For 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -423,28 +423,28 @@ You can now drag and drop items using the keyboard into an empty container. For 
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Button`** 
+**`sap.m.Button`** 
 
 
 
@@ -462,7 +462,7 @@ The new `ariaHasPopup` property allows the `aria-haspopup` attribute to be set f
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -478,28 +478,28 @@ The new `ariaHasPopup` property allows the `aria-haspopup` attribute to be set f
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`** 
+**`sap.m.ComboBox`** 
 
 
 
@@ -517,7 +517,7 @@ We have updated the behavior of the control regarding the `selectedKey` and `val
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -533,28 +533,28 @@ We have updated the behavior of the control regarding the `selectedKey` and `val
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -572,7 +572,7 @@ The control now supports the badge feature. You can use it to indicate that some
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -588,28 +588,28 @@ The control now supports the badge feature. You can use it to indicate that some
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`** 
+**`sap.m.Input`** 
 
 
 
@@ -627,7 +627,7 @@ We have introduced a new `valueHelpIconSrc` property. It allows you to set a cus
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -643,28 +643,28 @@ We have introduced a new `valueHelpIconSrc` property. It allows you to set a cus
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`** 
+**`sap.m.List`** 
 
 
 
@@ -682,7 +682,7 @@ The new `accDescription` property allows applications to define their own applic
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -698,28 +698,28 @@ The new `accDescription` property allows applications to define their own applic
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectStatus`** 
+**`sap.m.ObjectStatus`** 
 
 
 
@@ -743,7 +743,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -759,28 +759,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ProgressIndicator`** 
+**`sap.m.ProgressIndicator`** 
 
 
 
@@ -798,7 +798,7 @@ We have improved the control behavior when the available width is not enough and
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -814,28 +814,28 @@ We have improved the control behavior when the available width is not enough and
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SearchField`** 
+**`sap.m.SearchField`** 
 
 
 
@@ -853,7 +853,7 @@ The icon of the Refresh button in the `sap.m.SearchField` is now changed from sa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -869,28 +869,28 @@ The icon of the Refresh button in the `sap.m.SearchField` is now changed from sa
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Wizard` \(Experimental\)** 
+**`sap.m.Wizard` \(Experimental\)** 
 
 
 
@@ -908,7 +908,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -924,28 +924,28 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 <tr>
 <td valign="top">
 
- 1.84 
+1.84 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -955,7 +955,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 **`sap.ui.integration.widgets.Card`**
 
 -   The Calendar card is no longer in experimental state. This card shows an overview of tasks for a single entity \(such as a person or resource\). It consists of an interactive calendar and a chronological list of appointments for a single date. For more information, see [Calendar Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/calendar) in the Card Explorer.
--   You can now dynamically fetch data to populate filters \(experimental\). For more information, see the `data` property in the [Filters](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/filters) section and the  [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/filters) in the Card Explorer.
+-   You can now dynamically fetch data to populate filters \(experimental\). For more information, see the `data` property in the [Filters](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/filters) section and the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/filters) in the Card Explorer.
 -   We have introduced `size` and `backgroundColor` icon properties \(experimental\). They are both available for the List, Object, and Table cards, while the default card header has only the `backgroundColor` \(experimental\) property. For more information, see the [List Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/list), [Object Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/object) and [Table Card](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/types/table) sections in the Card Explorer.
 -   You can now use the `oCard.triggerAction` \(experimental\) method to programmatically trigger an action from a Component card or from an extension. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.integration.widgets.CardFacade%23methods/sap.ui.integration.widgets.CardFacade.triggerAction), [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/component/triggerAction) and the [Card Actions](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/cardActions) section in the Card Explorer. 
 -   You can now make HTTP POST requests with body encoding of type JSON. For more information, see the [Sample](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/data/graphql) and the [Data](https://sdk.openui5.org/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/learn/features/data) section in the Card Explorer.
@@ -967,7 +967,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -982,7 +982,7 @@ We have enhanced the `sap.m.Wizard` to support rendering of the steps as separat
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

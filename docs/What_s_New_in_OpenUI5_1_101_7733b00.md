@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.100 to 1.101.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Drag and Drop** 
+**Drag and Drop** 
 
 
 
@@ -116,7 +116,7 @@ For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md).
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -132,28 +132,28 @@ For more information, see [Drag and Drop](Drag_and_Drop_3ddb6cd.md).
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **High Contrast Themes** 
+**High Contrast Themes** 
 
 
 
@@ -171,7 +171,7 @@ We have prevented the overwriting of the high contrast setting of Windows for al
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -187,28 +187,28 @@ We have prevented the overwriting of the high contrast setting of Windows for al
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -226,7 +226,7 @@ The new `sap.ui.model.odata.v2.Context#delete` method deletes a binding's `Conte
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -242,28 +242,28 @@ The new `sap.ui.model.odata.v2.Context#delete` method deletes a binding's `Conte
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -288,7 +288,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -304,28 +304,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List, sap.m.Table, sap.m.Tree`** 
+**`sap.m.List, sap.m.Table, sap.m.Tree`** 
 
 
 
@@ -343,7 +343,7 @@ For better user experience with a more visual approach and a more conversational
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -359,28 +359,28 @@ For better user experience with a more visual approach and a more conversational
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.upload.UploadSet`** 
+**`sap.m.upload.UploadSet`** 
 
 
 
@@ -398,7 +398,7 @@ You can now sort, group, and filter the items within `UploadSet`.For more inform
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -414,28 +414,28 @@ You can now sort, group, and filter the items within `UploadSet`.For more inform
 <tr>
 <td valign="top">
 
- 1.101 
+1.101 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Wizard`** 
+**`sap.m.Wizard`** 
 
 
 
@@ -456,7 +456,7 @@ You can now sort, group, and filter the items within `UploadSet`.For more inform
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -471,7 +471,7 @@ You can now sort, group, and filter the items within `UploadSet`.For more inform
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

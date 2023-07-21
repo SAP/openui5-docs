@@ -93,7 +93,7 @@ If focus is on an item, selects the item in addition to all previously selected 
 <tr>
 <td valign="top">
 
- [Shift\] + [Up arrow\] 
+[Shift\] + [Up arrow\] 
 
 
 
@@ -109,7 +109,7 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 <tr>
 <td valign="top">
 
- [Shift\] + [Down arrow\] 
+[Shift\] + [Down arrow\] 
 
 
 
@@ -125,7 +125,7 @@ If focus is on an item, changes selection state \(selected/ not selected\) to th
 <tr>
 <td valign="top">
 
- [Ctrl\] + [A\] 
+[Ctrl\] + [A\] 
 
 
 
@@ -145,7 +145,7 @@ This is the default behavior of a list.
 <tr>
 <td valign="top">
 
- [Ctrl\] + [Shift\] + [A\] 
+[Ctrl\] + [Shift\] + [A\] 
 
 
 
@@ -154,7 +154,7 @@ This is the default behavior of a list.
 
 Deselects all items which the user can reach in the current view by scrolling or paging.
 
-To select items , you can no longer use [Ctrl\][A\]. You have to use [Spacebar\] for single selection or  [Shift\] + [Up arrow\]  or [Down arrow\] for multiple selection.
+To select items , you can no longer use [Ctrl\][A\]. You have to use [Spacebar\] for single selection or [Shift\] + [Up arrow\]  or [Down arrow\] for multiple selection.
 
 This is the behavior if `multiSelectMode` is set to `ClearAll` for a list.
 

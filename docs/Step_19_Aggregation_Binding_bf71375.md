@@ -16,11 +16,11 @@ Now that we have established a good structure for our app, it's time to add some
 
 ### Preview
 
-   
+  
   
 **A list of invoices is displayed below the panel**
 
- ![](images/loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel") 
+![](images/loioc694be7496f2477da923104e6a29e725_HiRes.png "A list of invoices is displayed below the panel")
 
 ***
 
@@ -191,11 +191,11 @@ invoiceListTitle=Invoices
 
 In the text bundle the title of the list is added.
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 18: Icons](Step_18_Icons_776f735.md "Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.")
+**Next:**[Step 18: Icons](Step_18_Icons_776f735.md "Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large icon font that contains more than 500 icons, we will add an icon to greet our users when the dialog is opened.")
 
-**Previous:** [Step 20: Data Types](Step_20_Data_Types_dfe0465.md "The list of invoices is already looking nice, but what is an invoice without a price assigned? Typically prices are stored in a technical format and with a '.' delimiter in the data model. For example, our invoice for pineapples has the calculated price 87.2 without a currency. We are going to use the OpenUI5 data types to format the price properly, with a locale-dependent decimal separator and two digits after the separator.")
+**Previous:**[Step 20: Data Types](Step_20_Data_Types_dfe0465.md "The list of invoices is already looking nice, but what is an invoice without a price assigned? Typically prices are stored in a technical format and with a '.' delimiter in the data model. For example, our invoice for pineapples has the calculated price 87.2 without a currency. We are going to use the OpenUI5 data types to format the price properly, with a locale-dependent decimal separator and two digits after the separator.")
 
 **Related Information**  
 

@@ -25,12 +25,12 @@ For more information, see [Flexible Column Layout Semantic Helper](Flexible_Colu
 
 ### Preview
 
-   
+  
   
 **List-detail-detail pattern using sap.f.FlexibleColumnLayoutSemanticHelper**
 
- ![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "List-detail-detail pattern using
-						sap.f.FlexibleColumnLayoutSemanticHelper") 
+![](images/loiofd98e0d8d9c74cd2a38d9177455bf085_HiRes.gif "List-detail-detail pattern using
+						sap.f.FlexibleColumnLayoutSemanticHelper")
 
 ***
 
@@ -517,9 +517,9 @@ sap.ui.define([
 
 Finally, we create a function in the `App.controller.js` to update the visibility of the list, detail, and detail-detail pages.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 10: Adding More Pages](Step_10_Adding_More_Pages_a59b3de.md "In this step, we create an additional page that is displayed in a separate fullscreen column.")
+**Next:**[Step 10: Adding More Pages](Step_10_Adding_More_Pages_a59b3de.md "In this step, we create an additional page that is displayed in a separate fullscreen column.")
 
-**Previous:** [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two columns.")
+**Previous:**[Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two columns.")
 

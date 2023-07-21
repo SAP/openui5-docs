@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.87 to 1.88.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **End of Support for Microsoft Internet Explorer 11** 
+**End of Support for Microsoft Internet Explorer 11** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Feedback** 
+**Demo Kit Feedback** 
 
 
 
@@ -165,7 +165,7 @@ We have improved the following Demo Kit areas:
 
 -   We have improved the readability of the *Known direct subclasses* popover in the *API Reference*. The subclasses are displayed in a list with only one item per row. It is now easier to browse through the numerous subclasses of base controls, such as `sap.ui.core.Control`.Check it out in the [API Reference](https://sdk.openui5.org/api/sap.ui.core.Control).
 
--   You can now use the new  [Ctrl\] + [Shift\] + [F\]  shortcut combination to directly enable the global search functionality and start typing without the need to select the search field.
+-   You can now use the new [Ctrl\] + [Shift\] + [F\]  shortcut combination to directly enable the global search functionality and start typing without the need to select the search field.
 
 -   We have improved the appearance of long API names, such as methods and aggregations, in the *API Reference* so that they are no longer truncated.
 
@@ -177,7 +177,7 @@ We have improved the following Demo Kit areas:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -193,28 +193,28 @@ We have improved the following Demo Kit areas:
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.IllustratedMessage` \(Experimental\)** 
+**`sap.f.IllustratedMessage` \(Experimental\)** 
 
 
 
@@ -236,7 +236,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -252,28 +252,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 Models** 
+**OpenUI5 Models** 
 
 
 
@@ -291,7 +291,7 @@ The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -307,28 +307,28 @@ The new version of OpenUI5 introduces a new `sap.ui.model.Binding#getResolvedPat
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -348,7 +348,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -364,28 +364,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Test Recorder** 
+**Test Recorder** 
 
 
 
@@ -403,7 +403,7 @@ We've introduced the option to generate code snippets with assertions. Assertion
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -419,28 +419,28 @@ We've introduced the option to generate code snippets with assertions. Assertion
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridContainer`** 
+**`sap.f.GridContainer`** 
 
 
 
@@ -458,7 +458,7 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -474,28 +474,28 @@ We have added a new `columnsChange` event, fired when the count of grid columns 
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.gantt`** 
+**`sap.gantt`** 
 
 
 
@@ -513,7 +513,7 @@ We have improved the usability of the Gantt chart with the large interval/label 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -529,28 +529,28 @@ We have improved the usability of the Gantt chart with the large interval/label 
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.UploadCollection`** 
+**`sap.m.UploadCollection`** 
 
 
 
@@ -568,7 +568,7 @@ As of version 1.88, the `UploadCollection` control is deprecated. You can use th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -584,28 +584,28 @@ As of version 1.88, the `UploadCollection` control is deprecated. You can use th
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -627,7 +627,7 @@ As of version 1.88, the `UploadCollection` control is deprecated. You can use th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -643,28 +643,28 @@ As of version 1.88, the `UploadCollection` control is deprecated. You can use th
 <tr>
 <td valign="top">
 
- 1.88 
+1.88 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Currency`** 
+**`sap.ui.unified.Currency`** 
 
 
 
@@ -682,7 +682,7 @@ As an app developer you can now define custom currency names with a length of up
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -697,7 +697,7 @@ As an app developer you can now define custom currency names with a length of up
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

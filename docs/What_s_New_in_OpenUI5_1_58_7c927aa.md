@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7c927a
 
 With this release OpenUI5 is upgraded from version 1.56 to 1.58.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant** 
+**Support Assistant** 
 
 
 
@@ -104,14 +104,14 @@ Available as of
 
 -   A **rule preset management***My Selection*.
 
-     ![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png) 
+    ![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png)
 
     > ### Note:  
     > To make sure that your last selection remains available for future use, choose *I agree to use local storage persistency* in the Support Assistant Settings menu.
 
 -   An **ID field** has been added to the *Export a Rule Preset* dialog. The ID is a string of alphanumeric symbols added manually by the user when creating a rule preset. It is useful in case you want to collect data and generate reports on specific rule preset executions within your organization.
 
-     ![](images/loioed742b68d91044a890eea023741b9c9d_HiRes.png) 
+    ![](images/loioed742b68d91044a890eea023741b9c9d_HiRes.png)
 
     For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
@@ -125,7 +125,7 @@ The Support Assistant now allows you to personalize the *Rules View* by:
 -   Sorting the information within a column or filtering it by keyword. To access these options, click on a column header. A dropdown menu opens from which you can choose the desired action.
 
 
- ![](images/loiobaf460d2ca344bb3a6c2655fff96facc_HiRes.png) 
+![](images/loiobaf460d2ca344bb3a6c2655fff96facc_HiRes.png)
 
 For more information, see [Rules Management](Rules_Management_3fc864a.md).
 
@@ -136,7 +136,7 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -152,28 +152,28 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **UI5 Inspector** 
+**UI5 Inspector** 
 
 
 
@@ -188,7 +188,7 @@ The latest version 0.9.5 of the UI5 Inspector includes two main features:
 
 -   In previous versions, the UI5 Inspector did not properly display composite binding structures. Now it shows all parts of the bindings on the *Bindings* tab, including individual models, paths, and values. Clicking on the model link displays the whole model with all values.
 
-     ![](images/loio460e1e3933a14e9cb5358b2a55317485_HiRes.png) 
+    ![](images/loio460e1e3933a14e9cb5358b2a55317485_HiRes.png)
 
 
 For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
@@ -200,7 +200,7 @@ For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -216,28 +216,28 @@ For more information, see [UI5 Inspector](UI5_Inspector_b24e724.md).
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -269,7 +269,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -285,28 +285,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **XML Templating: No Preloading Required for Asynchronous Views** 
+**XML Templating: No Preloading Required for Asynchronous Views** 
 
 
 
@@ -326,7 +326,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -342,28 +342,28 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -384,7 +384,7 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -400,28 +400,28 @@ For more information, see the [API Reference: `sap.ui.core.util.XMLPreprocessor`
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayout`** 
+**`sap.f.FlexibleColumnLayout`** 
 
 
 
@@ -439,7 +439,7 @@ The control now supports reveal effect animation to ensure smooth performance wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -455,28 +455,28 @@ The control now supports reveal effect animation to ensure smooth performance wh
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.semantic.SemanticPage`** 
+**`sap.f.semantic.SemanticPage`** 
 
 
 
@@ -499,7 +499,7 @@ The control now supports reveal effect animation to ensure smooth performance wh
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -515,28 +515,28 @@ The control now supports reveal effect animation to ensure smooth performance wh
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.App`** 
+**`sap.m.App`** 
 
 
 
@@ -554,7 +554,7 @@ The `mobileWebAppCapable` property is now available. It determines whether the `
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -570,28 +570,28 @@ The `mobileWebAppCapable` property is now available. It determines whether the `
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.CheckBox`** 
+**`sap.m.CheckBox`** 
 
 
 
@@ -609,7 +609,7 @@ The new `partiallySelected` property now allows the `CheckBox` control to be ren
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -625,28 +625,28 @@ The new `partiallySelected` property now allows the `CheckBox` control to be ren
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ColorPalette`** 
+**`sap.m.ColorPalette`** 
 
 
 
@@ -667,7 +667,7 @@ The new `partiallySelected` property now allows the `CheckBox` control to be ren
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -683,28 +683,28 @@ The new `partiallySelected` property now allows the `CheckBox` control to be ren
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateTimePicker`** 
+**`sap.m.DateTimePicker`** 
 
 
 
@@ -722,7 +722,7 @@ The Time Picker is now vertically aligned with the Calendar for better user expe
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -738,28 +738,28 @@ The Time Picker is now vertically aligned with the Calendar for better user expe
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List/sap.m.Tree`** 
+**`sap.m.List/sap.m.Tree`** 
 
 
 
@@ -780,7 +780,7 @@ The new `sticky` property is now also available for these controls \(in `sap.m.L
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -796,28 +796,28 @@ The new `sticky` property is now also available for these controls \(in `sap.m.L
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessagePopover/sap.m.MessageView`** 
+**`sap.m.MessagePopover/sap.m.MessageView`** 
 
 
 
@@ -835,7 +835,7 @@ The `sap.m.MessageItems` that are aggregated in these controls have a new proper
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -851,28 +851,28 @@ The `sap.m.MessageItems` that are aggregated in these controls have a new proper
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox`** 
+**`sap.m.MultiComboBox`** 
 
 
 
@@ -890,7 +890,7 @@ The autocomplete functionality is available in the `sap.m.MultiComboBox` control
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -906,28 +906,28 @@ The autocomplete functionality is available in the `sap.m.MultiComboBox` control
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox/sap.m.ComboBox`** 
+**`sap.m.MultiComboBox/sap.m.ComboBox`** 
 
 
 
@@ -945,7 +945,7 @@ The default filtering function has been changed from "**starts with**" to "**sta
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -961,28 +961,28 @@ The default filtering function has been changed from "**starts with**" to "**sta
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox/sap.m.MultiInput`** 
+**`sap.m.MultiComboBox/sap.m.MultiInput`** 
 
 
 
@@ -993,7 +993,7 @@ The default filtering function has been changed from "**starts with**" to "**sta
 
 All overflowing tokens are now available in a separate popover indicated with an *N-more* label, which serves as an opening trigger. This behavior is used to replace the multi-line mode for both controls, which is now deprecated.
 
- ![](images/loioa9a6a77a29c547feb1a9859636e05632_HiRes.png) 
+![](images/loioa9a6a77a29c547feb1a9859636e05632_HiRes.png)
 
 <sub>Changed•Control•Info Only•1.58</sub>
 
@@ -1002,7 +1002,7 @@ All overflowing tokens are now available in a separate popover indicated with an
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1018,28 +1018,28 @@ All overflowing tokens are now available in a separate popover indicated with an
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.OverflowToolbar`** 
+**`sap.m.OverflowToolbar`** 
 
 
 
@@ -1057,7 +1057,7 @@ Shrinking of controls is now enabled. For the new functionality to work, each co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1073,28 +1073,28 @@ Shrinking of controls is now enabled. For the new functionality to work, each co
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.P13nFilterPanel`** 
+**`sap.m.P13nFilterPanel`** 
 
 
 
@@ -1112,7 +1112,7 @@ You can now search for an empty string in the filter conditions of the personali
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1128,28 +1128,28 @@ You can now search for an empty string in the filter conditions of the personali
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -1167,7 +1167,7 @@ The background color of the week numbers has been updated to more clearly displa
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1183,28 +1183,28 @@ The background color of the week numbers has been updated to more clearly displa
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog`** 
+**`sap.m.SelectDialog`** 
 
 
 
@@ -1222,7 +1222,7 @@ A *Clear* button has been added to allow you to clear your selection with one cl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1238,28 +1238,28 @@ A *Clear* button has been added to allow you to clear your selection with one cl
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TableSelectDialog`** 
+**`sap.m.TableSelectDialog`** 
 
 
 
@@ -1283,7 +1283,7 @@ A *Clear* button has been added to allow you to clear your selection with one cl
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1299,28 +1299,28 @@ A *Clear* button has been added to allow you to clear your selection with one cl
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TimePicker`** 
+**`sap.m.TimePicker`** 
 
 
 
@@ -1338,7 +1338,7 @@ The sliders are now vertically centered for better user experience. For more inf
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1354,28 +1354,28 @@ The sliders are now vertically centered for better user experience. For more inf
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form`** 
+**`sap.ui.layout.form`** 
 
 
 
@@ -1393,7 +1393,7 @@ You can now use the `Switch` control in all the forms that are editable. For mor
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1409,28 +1409,28 @@ You can now use the `Switch` control in all the forms that are editable. For mor
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.model.base.ManagedObjectModel`** 
+**`sap.ui.model.base.ManagedObjectModel`** 
 
 
 
@@ -1448,7 +1448,7 @@ You can now use the model for data binding to the properties and aggregations of
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1464,28 +1464,28 @@ You can now use the model for data binding to the properties and aggregations of
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -1508,7 +1508,7 @@ You can now use the model for data binding to the properties and aggregations of
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1524,28 +1524,28 @@ You can now use the model for data binding to the properties and aggregations of
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.ColorPicker`** 
+**`sap.ui.unified.ColorPicker`** 
 
 
 
@@ -1563,7 +1563,7 @@ The new `displayMode` property determines how the control will be displayed. The
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1579,28 +1579,28 @@ The new `displayMode` property determines how the control will be displayed. The
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -1623,7 +1623,7 @@ The new `displayMode` property determines how the control will be displayed. The
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1639,28 +1639,28 @@ The new `displayMode` property determines how the control will be displayed. The
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **New QUnit/OPA Testing Recommendations** 
+**New QUnit/OPA Testing Recommendations** 
 
 
 
@@ -1683,7 +1683,7 @@ We have updated our recommendations for QUnit and OPA tests in the *Walkthrough*
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1699,28 +1699,28 @@ We have updated our recommendations for QUnit and OPA tests in the *Walkthrough*
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Alignment with SAP Fiori 2.0 Design Concepts** 
+**Alignment with SAP Fiori 2.0 Design Concepts** 
 
 
 
@@ -1740,7 +1740,7 @@ We have updated our *Master-Detail* template as well as our *Browse Orders* demo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1756,28 +1756,28 @@ We have updated our *Master-Detail* template as well as our *Browse Orders* demo
 <tr>
 <td valign="top">
 
- 1.58 
+1.58 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -1788,7 +1788,7 @@ We have updated our *Master-Detail* template as well as our *Browse Orders* demo
 
 Until now the *API Reference* tree displayed by default all APIs including deprecated ones. Now we've added an *Include deprecated* checkbox above the tree that allows you to choose whether to see the full list. If it's selected, the deprecated items are displayed in the tree with the label *Deprecated* so you can easily identify them without opening each class.
 
- ![](images/loio6d95e67e41c041588ce453ca5ea8e25e_HiRes.png) 
+![](images/loio6d95e67e41c041588ce453ca5ea8e25e_HiRes.png)
 
 <sub>New•Feature•Info Only•1.58</sub>
 
@@ -1797,7 +1797,7 @@ Until now the *API Reference* tree displayed by default all APIs including depre
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1812,7 +1812,7 @@ Until now the *API Reference* tree displayed by default all APIs including depre
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

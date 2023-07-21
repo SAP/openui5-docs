@@ -20,11 +20,11 @@ Apps using the list-detail pattern operate with a layout divided into two separa
 
 ### Preview
 
-   
+  
   
 **list-detail pattern with FlexibleColumnLayout**
 
- ![](images/loio267d05fd0b294310b7bebdeda5f70e3b_HiRes.gif "list-detail pattern with FlexibleColumnLayout") 
+![](images/loio267d05fd0b294310b7bebdeda5f70e3b_HiRes.gif "list-detail pattern with FlexibleColumnLayout")
 
 ***
 
@@ -58,7 +58,7 @@ You can view and download all files at [Flexible Column Layout App - Step 13](ht
 
 We set `maxColumnsCount` parameter of the `getHelper` method to `2`.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two columns.")
+**Next:**[Step 12: Starting with Two Columns](Step_12_Starting_with_Two_Columns_a96fbe4.md "In this step, we set up the app to start with an initial layout of two columns.")
 

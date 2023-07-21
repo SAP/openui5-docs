@@ -25,19 +25,19 @@ The `MessagePopover` control displays a list of messages which can be further dr
 -   `sap.m.VerticalPlacementType.Vertical` \(default\) - placed at the top or bottom of the reference control
 
 
-   
+  
   
 **Message Popover control**
 
- ![](images/loioa5667d8a793d41048af93f509445906e_HiRes.png "Message Popover control") 
+![](images/loioa5667d8a793d41048af93f509445906e_HiRes.png "Message Popover control")
 
 The `MessagePopover` also features the modes - collapsed \(showing only the type and number of messages\) and expanded \(showing the complete list\). An example of the collapsed mode is shown in the screenshot below.
 
-   
+  
   
 **Message Popover collapsed**
 
- ![](images/loiobd94678ddbbe47468b27398aac05963d_HiRes.png "Message Popover collapsed") 
+![](images/loiobd94678ddbbe47468b27398aac05963d_HiRes.png "Message Popover collapsed")
 
 ***
 

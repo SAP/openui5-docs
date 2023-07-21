@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/759e9f
 
 With this release OpenUI5 is upgraded from version 1.48 to 1.50.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.50 
+1.50 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Demo Kit \(already available as of version 1.48.5\)** 
+**New Demo Kit \(already available as of version 1.48.5\)** 
 
 
 
@@ -110,7 +110,7 @@ The new Demo Kit contains the following sections:
 
 -   *Documentation* with detailed information
 
--    *API Reference* with JavaScript documentation about the framework and the UI controls, including details for the corresponding properties, aggregations, associations, events, and methods
+-   *API Reference* with JavaScript documentation about the framework and the UI controls, including details for the corresponding properties, aggregations, associations, events, and methods
 
 -   *Samples*, showcasing almost all controls with ability to download the sample code
 
@@ -126,7 +126,7 @@ The new Demo Kit contains the following sections:
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -149,21 +149,21 @@ The new Demo Kit contains the following sections:
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Unicode Common Locale Data Repository \(CLDR\)** 
+**Unicode Common Locale Data Repository \(CLDR\)** 
 
 
 
@@ -183,7 +183,7 @@ The correct plural category for a given number is now handled by the locale-spec
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -206,21 +206,21 @@ The correct plural category for a given number is now handled by the locale-spec
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Date Interval Types** 
+**Date Interval Types** 
 
 
 
@@ -247,7 +247,7 @@ For more information, see [sap.ui.model.type.DateTimeInterval](sap_ui_model_type
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -270,21 +270,21 @@ For more information, see [sap.ui.model.type.DateTimeInterval](sap_ui_model_type
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`animationMode`** 
+**`animationMode`** 
 
 
 
@@ -302,7 +302,7 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -325,21 +325,21 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendarLegend`** 
+**`sap.m.PlanningCalendarLegend`** 
 
 
 
@@ -350,7 +350,7 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 
 `sap.m.PlanningCalendarLegend` enables two types of items to be displayed in the `sap.m.PlanningCalendar` as a legend - types of days \(for example, special dates and holidays\) and appointments.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.PlanningCalendarLegend).
 
- ![](images/loioe8f3d352f8044779a3d90e37c0e9798e_LowRes.png) 
+![](images/loioe8f3d352f8044779a3d90e37c0e9798e_LowRes.png)
 
 <sub>New•Control•Info Only•1.50</sub>
 
@@ -359,7 +359,7 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -382,21 +382,21 @@ The configuration option `animationMode` replaces `animation`, which is now depr
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -439,7 +439,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -462,21 +462,21 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant: OPA Test Sample Added** 
+**Support Assistant: OPA Test Sample Added** 
 
 
 
@@ -498,7 +498,7 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -521,21 +521,21 @@ As of this version, there is now a sample of the OPA integration in the Demo Kit
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -560,7 +560,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -583,21 +583,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.semantic.SemanticPage`** 
+**`sap.f.semantic.SemanticPage`** 
 
 
 
@@ -622,7 +622,7 @@ For more information, see [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -645,21 +645,21 @@ For more information, see [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -672,9 +672,9 @@ For more information, see [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.
 
 -   `wrapping`: Determines whether text within a label is wrapped. The default value is `false`. If set to `false`, the label text only uses one line and any exceeding text is truncated and replaced with an ellipsis. When you use the `Label` within a `sap.m.Form` the label text is automatically displayed as wrapped.
 
-     ![](images/loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png) 
+    ![](images/loioa18049e61af44b0d9f766dc0d743ea0b_LowRes.png)
 
--    `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
+-   `displayOnly`: Determines whether the label is in `displayOnly` mode. Controls in this mode are non-interactive, non-focusable, cannot be edited, and do not form part of the tab chain. The `displayOnly` property is used in `Form` controls when they are in preview mode.
 
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Label) and the [Samples](https://sdk.openui5.org/entity/sap.m.Label). 
@@ -686,7 +686,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -709,21 +709,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessageStrip`** 
+**`sap.m.MessageStrip`** 
 
 
 
@@ -741,7 +741,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -764,21 +764,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Panel`** 
+**`sap.m.Panel`** 
 
 
 
@@ -796,7 +796,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -819,21 +819,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -856,7 +856,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -879,21 +879,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ProgressIndicator`** 
+**`sap.m.ProgressIndicator`** 
 
 
 
@@ -911,7 +911,7 @@ You can now set the control in a display-only state using the new `displayOnly` 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -934,21 +934,21 @@ You can now set the control in a display-only state using the new `displayOnly` 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.RatingIndicator`** 
+**`sap.m.RatingIndicator`** 
 
 
 
@@ -959,7 +959,7 @@ You can now set the control in a display-only state using the new `displayOnly` 
 
 A new state can be set using the `displayOnly` property. It enables visually distinguishable rendering of the `RatingIndicator` \(gray color\), denoting it as non-interactive in forms. All controls in this mode are also non-focusable and not part of the tab chain. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.RatingIndicator) and the [Sample](https://sdk.openui5.org/sample/sap.m.sample.RatingIndicator/preview).
 
- ![](images/loioe38d0425a1d44102a6834a9efe0d95be_LowRes.png) 
+![](images/loioe38d0425a1d44102a6834a9efe0d95be_LowRes.png)
 
 <sub>Changed•Control•Info Only•1.50</sub>
 
@@ -968,7 +968,7 @@ A new state can be set using the `displayOnly` property. It enables visually dis
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -991,21 +991,21 @@ A new state can be set using the `displayOnly` property. It enables visually dis
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.semantic.SemanticPage`** 
+**`sap.m.semantic.SemanticPage`** 
 
 
 
@@ -1023,7 +1023,7 @@ You can now set the background color of the page using the new `backgroundDesign
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1046,21 +1046,21 @@ You can now set the background color of the page using the new `backgroundDesign
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.UploadCollection`** 
+**`sap.m.UploadCollection`** 
 
 
 
@@ -1078,7 +1078,7 @@ You can now set the background color of the page using the new `backgroundDesign
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1101,21 +1101,21 @@ You can now set the background color of the page using the new `backgroundDesign
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Tree`** 
+**`sap.m.Tree`** 
 
 
 
@@ -1133,7 +1133,7 @@ The `toggleOpenState` event has been added. For more information, see the [API R
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1156,21 +1156,21 @@ The `toggleOpenState` event has been added. For more information, see the [API R
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -1188,7 +1188,7 @@ The days of the previous/next month are no longer visible whenever the `sap.ui.u
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1211,21 +1211,21 @@ The days of the previous/next month are no longer visible whenever the `sap.ui.u
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form.Form/sap.ui.layout.form.SimpleForm`** 
+**`sap.ui.layout.form.Form/sap.ui.layout.form.SimpleForm`** 
 
 
 
@@ -1243,7 +1243,7 @@ The samples, including the descriptions, have been simplified and are now more c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1258,7 +1258,7 @@ The samples, including the descriptions, have been simplified and are now more c
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

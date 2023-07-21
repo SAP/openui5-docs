@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.74 to 1.75.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Accessibility Enhancement** 
+**Accessibility Enhancement** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Browser and Platform Support** 
+**Browser and Platform Support** 
 
 
 
@@ -166,7 +166,7 @@ OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The ne
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -182,28 +182,28 @@ OpenUI5 now supports the latest Chromium-based version of Microsoft Edge. The ne
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Card Explorer** 
+**Card Explorer** 
 
 
 
@@ -221,7 +221,7 @@ We have introduced a schema validation feature in our samples in the Card Explor
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -237,28 +237,28 @@ We have introduced a schema validation feature in our samples in the Card Explor
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Currency Codes** 
+**Currency Codes** 
 
 
 
@@ -278,7 +278,7 @@ If currency symbols are enabled \(formatting option `currencyCode: false`\), the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -294,28 +294,28 @@ If currency symbols are enabled \(formatting option `currencyCode: false`\), the
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Messages** 
+**OpenUI5 OData V2 Messages** 
 
 
 
@@ -333,7 +333,7 @@ With the new version of the OpenUI5 OData V2 model, the target of server message
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -349,28 +349,28 @@ With the new version of the OpenUI5 OData V2 model, the target of server message
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -399,7 +399,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -415,28 +415,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Title Support in Nested Components** 
+**Title Support in Nested Components** 
 
 
 
@@ -458,7 +458,7 @@ For more information, see [Using the title Property in Targets](Using_the_title_
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -474,28 +474,28 @@ For more information, see [Using the title Property in Targets](Using_the_title_
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.InitialPagePattern`** 
+**`sap.m.InitialPagePattern`** 
 
 
 
@@ -513,7 +513,7 @@ We have introduced the initial page floorplan as a Demo Kit sample. The floorpla
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -529,28 +529,28 @@ We have introduced the initial page floorplan as a Demo Kit sample. The floorpla
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Link`** 
+**`sap.m.Link`** 
 
 
 
@@ -568,7 +568,7 @@ The `text` property can now be changed using UI adaptation at runtime. This enab
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -584,28 +584,28 @@ The `text` property can now be changed using UI adaptation at runtime. This enab
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessageBox`** 
+**`sap.m.MessageBox`** 
 
 
 
@@ -623,7 +623,7 @@ We have introduced a new `emphasizedAction` property. This allows developers to 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -639,28 +639,28 @@ We have introduced a new `emphasizedAction` property. This allows developers to 
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectStatus`** 
+**`sap.m.ObjectStatus`** 
 
 
 
@@ -678,7 +678,7 @@ We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors wer
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -694,28 +694,28 @@ We have enhanced the `sap.ui.core.IndicationColor` palette. Three new colors wer
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -740,7 +740,7 @@ For more information, see the [Adaptive Card](https://sdk.openui5.org/test-resou
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -756,28 +756,28 @@ For more information, see the [Adaptive Card](https://sdk.openui5.org/test-resou
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table, sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table, sap.ui.table.TreeTable`** 
 
 
 
@@ -795,7 +795,7 @@ A more comprehensive message text is now shown if no data is available because a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -811,28 +811,28 @@ A more comprehensive message text is now shown if no data is available because a
 <tr>
 <td valign="top">
 
- 1.75 
+1.75 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -851,9 +851,9 @@ We have added a direct link from each OpenUI5 documentation page to its markdown
 
 The search highlighting functionality is now also available in the *Documentation* tree filter and the *Samples* list.
 
- ![](images/loioe79499d4357e4a7eb7de9c5e1a835d55_HiRes.png) 
+![](images/loioe79499d4357e4a7eb7de9c5e1a835d55_HiRes.png)
 
- ![](images/loio308ff81070684b318c4da4d1290a7e95_HiRes.png) 
+![](images/loio308ff81070684b318c4da4d1290a7e95_HiRes.png)
 
 <sub>New•Feature•Info Only•1.75</sub>
 
@@ -862,7 +862,7 @@ The search highlighting functionality is now also available in the *Documentatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -877,7 +877,7 @@ The search highlighting functionality is now also available in the *Documentatio
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

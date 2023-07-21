@@ -41,7 +41,7 @@ The available semantic content is different buttons and selects. Each one can co
   
 **Semantic content at its default positions on the page.**
 
- ![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.") 
+![](images/loio1632fd57dfe14bdc8ea00fe41e497153_HiRes.png "Semantic content at its default positions on the page.")
 
 Several different selects are supported for displaying a list of selectable items - `SortSelect`, `FilterSelect`, and `GroupSelect`.
 

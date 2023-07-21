@@ -21,11 +21,11 @@ Actually, every feature that we added to the app so far, would require a separat
 
 ### Preview
 
-   
+  
   
 **A unit test for our formatters is now available**
 
- ![](images/loioa933bc8e1b8c45a88252f1aecff7ba36_HiRes.png "A unit test for our formatters is now available") 
+![](images/loioa933bc8e1b8c45a88252f1aecff7ba36_HiRes.png "A unit test for our formatters is now available")
 
 ***
 
@@ -33,11 +33,11 @@ Actually, every feature that we added to the app so far, would require a separat
 
 You can view and download all files at [Walkthrough - Step 27](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.27).
 
-   
+  
   
 **Folder Structure for this Step**
 
- ![](images/loio1b5613ac3ab94757af2c7823039222a9_LowRes.png "Folder Structure for this Step") 
+![](images/loio1b5613ac3ab94757af2c7823039222a9_LowRes.png "Folder Structure for this Step")
 
 We add a new folder `unit` under the `test` folder and a `model` subfolder where we will place our formatter unit test. The folder structure matches the app structure to easily find the corresponding unit tests.
 
@@ -196,11 +196,11 @@ This script loads and executes our formatter. If we now open the `webapp/test/un
 -   All dependencies are replaced by stubs to test only the functionality in scope.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_bae9d90.md "We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.")
+**Next:**[Step 26: Mock Server Configuration](Step_26_Mock_Server_Configuration_bae9d90.md "We just ran our app against a real service, but for developing and testing our app we do not want to rely on the availability of the “real” service or put additional load on the system where the data service is located.")
 
-**Previous:** [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
+**Previous:**[Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md "If we want to test interaction patterns or more visual features of our app, we can also write an integration test.")
 
 **Related Information**  
 

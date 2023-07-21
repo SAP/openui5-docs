@@ -21,11 +21,11 @@ You use routing in the following cases:
 -   Pass on data via the hash to application logic.
 
 
-   
+  
   
 **Routing overview**
 
- ![](images/loio3b3a63b7581c4d36b9657f07d678f176_LowRes.png "Routing overview") 
+![](images/loio3b3a63b7581c4d36b9657f07d678f176_LowRes.png "Routing overview")
 
 In OpenUI5, navigation and routing is implemented using a “router” to forward the hash change and the data in the hash to one or more views of the app.
 

@@ -22,11 +22,11 @@ Usually you start the development of an app with local mock data first. This way
 
 ### Preview
 
-   
+  
   
 **The initial app**
 
- ![](images/loio3a29b22e092e4bf8a549fa2931758673_HiRes.png "The initial app") 
+![](images/loio3a29b22e092e4bf8a549fa2931758673_HiRes.png "The initial app")
 
 ***
 
@@ -38,13 +38,13 @@ Depending on your development environment you might have to adjust resource path
 
 You should have the same files as displayed in the following figure:
 
-   
+  
   
 **Folder structure with downloaded files**
 
- ![](images/loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files") 
+![](images/loio026a90809d1a4dc5a28e147bc77eb830_HiRes.png "Folder structure with downloaded files")
 
-**Parent topic:** [OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
+**Parent topic:**[OData V2 Mock Server Tutorial](OData_V2_Mock_Server_Tutorial_3a9728e.md "In this tutorial, we will explore some advanced features of the OData V2 mock server.")
 
-**Previous:** [Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
+**Previous:**[Step 2: Creating a Mock Server to Simulate Data](Step_2_Creating_a_Mock_Server_to_Simulate_Data_50897de.md "In this step, we use the OData V2 mock server to add data to our app without dependency to any remote server or system.")
 

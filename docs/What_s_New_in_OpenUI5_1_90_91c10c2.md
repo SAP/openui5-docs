@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.89 to 1.90.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationList`** 
+**`sap.m.NotificationList`** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **One Page Acceptance Tests \(OPA5\)** 
+**One Page Acceptance Tests \(OPA5\)** 
 
 
 
@@ -166,7 +166,7 @@ You can now simulate scroll in controls that provide a scrollable area. For more
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -182,28 +182,28 @@ You can now simulate scroll in controls that provide a scrollable area. For more
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.IllustratedMessage` \(Experimental\)** 
+**`sap.f.IllustratedMessage` \(Experimental\)** 
 
 
 
@@ -226,7 +226,7 @@ We have implemented two new samples for specific scenarios:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -242,28 +242,28 @@ We have implemented two new samples for specific scenarios:
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.gantt`** 
+**`sap.gantt`** 
 
 
 
@@ -281,7 +281,7 @@ Key users can now use the new customization feature to make changes to the user 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -297,28 +297,28 @@ Key users can now use the new customization feature to make changes to the user 
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Dialog`** 
+**`sap.m.Dialog`** 
 
 
 
@@ -336,7 +336,7 @@ The control adopts the `setWithinArea` feature of `sap.ui.core.Popup`. Now, when
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -352,28 +352,28 @@ The control adopts the `setWithinArea` feature of `sap.ui.core.Popup`. Now, when
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -391,7 +391,7 @@ We have introduced a new `TabsOverflowMode` property, which defines the overflow
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -407,28 +407,28 @@ We have introduced a new `TabsOverflowMode` property, which defines the overflow
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`, `sap.m.MultiInput`** 
+**`sap.m.Input`, `sap.m.MultiInput`** 
 
 
 
@@ -446,7 +446,7 @@ We have introduced a new property called `enableTableAutoPopinMode`. The propert
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -462,28 +462,28 @@ We have introduced a new property called `enableTableAutoPopinMode`. The propert
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.InputBase`** 
+**`sap.m.InputBase`** 
 
 
 
@@ -501,7 +501,7 @@ We have introduced a new association called `ariaDescribedBy`. The association i
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -517,28 +517,28 @@ We have introduced a new association called `ariaDescribedBy`. The association i
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TimePicker`** 
+**`sap.m.TimePicker`** 
 
 
 
@@ -560,7 +560,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -576,28 +576,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.90 
+1.90 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -618,7 +618,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -633,7 +633,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

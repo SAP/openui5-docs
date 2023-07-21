@@ -16,6 +16,8 @@ For example, an application displays a list of products and uses a facet filter 
 
 ***
 
+## Example
+
 In this example, only products from the selected category are displayed.
 
 ![](images/loio1f47e6058f5747b687d1822040e46b1f_LowRes.png)

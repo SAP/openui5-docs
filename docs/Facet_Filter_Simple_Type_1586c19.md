@@ -14,11 +14,11 @@ The simple type of the `FacetFilter` control is only available for desktop and t
 
 The active facets are displayed as individually selectable buttons on the toolbar as shown in the following figure.
 
- ![](images/loio0c7cf9fee5ff4148ad1838cec80fa1ea_LowRes.png) 
+![](images/loio0c7cf9fee5ff4148ad1838cec80fa1ea_LowRes.png)
 
 If the user selects a facet in the toolbar, a popover list of the available filters for the selected facet is displayed.
 
- ![](images/loio5dd47289104c4f50b6f0748e8f39a372_LowRes.png) 
+![](images/loio5dd47289104c4f50b6f0748e8f39a372_LowRes.png)
 
 The simple type provides the following functions:
 

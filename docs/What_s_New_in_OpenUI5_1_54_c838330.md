@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/c83833
 
 With this release OpenUI5 is upgraded from version 1.52 to 1.54.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ColorPalette`** 
+**`sap.m.ColorPalette`** 
 
 
 
@@ -111,7 +111,7 @@ Provides the user with a palette containing up to 15 predefined web-standard col
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -127,28 +127,28 @@ Provides the user with a palette containing up to 15 predefined web-standard col
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TimePickerSliders`** 
+**`sap.m.TimePickerSliders`** 
 
 
 
@@ -168,7 +168,7 @@ Enables the user to choose time, in different formats, from the available lists 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -184,28 +184,28 @@ Enables the user to choose time, in different formats, from the available lists 
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.tnt.InfoLabel`** 
+**`sap.tnt.InfoLabel`** 
 
 
 
@@ -218,17 +218,17 @@ Small non-interactive control whose purpose is to attract attention to a certain
 
 `InfoLabel` has a `renderMode` property with the values `loose` and `narrow` that specify the side paddings. By default, the padding is loose, but for numeric text values, use narrow paddings.
 
- ![](images/loiod1abdba2289a4e569786d001b2cf17b4_HiRes.png) 
+![](images/loiod1abdba2289a4e569786d001b2cf17b4_HiRes.png)
 
- ![](images/loio3c064759038c4c6999c27ca0fbdac0da_HiRes.png) 
+![](images/loio3c064759038c4c6999c27ca0fbdac0da_HiRes.png)
 
 The background and text color combinations are predefined. You can choose from 9 color schemes where the text content and choice of color depend on your preferences. The `colorScheme` property also accepts a digit as a value.
 
- ![](images/loio8cea6443944648fbad8860056af99f11_HiRes.png) 
+![](images/loio8cea6443944648fbad8860056af99f11_HiRes.png)
 
 The size of the `InfoLabel` control adjusts to fit other controls, such as non-editable forms or tables, when the `displayOnly` property is set to `true`.
 
- ![](images/loio9023f007faa1416784779662a07a9b80_HiRes.png) 
+![](images/loio9023f007faa1416784779662a07a9b80_HiRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.tnt.InfoLabel) and the [Samples](https://sdk.openui5.org/entity/sap.tnt.InfoLabel).
 
@@ -239,7 +239,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.tn
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -255,28 +255,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.tn
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Initialization Module for Bootstrap** 
+**Initialization Module for Bootstrap** 
 
 
 
@@ -307,7 +307,7 @@ For more information, see [Configuration Options and URL Parameters](Configurati
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -323,28 +323,28 @@ For more information, see [Configuration Options and URL Parameters](Configurati
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **`manifest` Property for Component Containers** 
+**`manifest` Property for Component Containers** 
 
 
 
@@ -362,7 +362,7 @@ You can now also use the "Manifest First" mechanism for component containers. Fo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -378,28 +378,28 @@ You can now also use the "Manifest First" mechanism for component containers. Fo
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -450,7 +450,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -466,28 +466,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Default Font** 
+**Default Font** 
 
 
 
@@ -508,7 +508,7 @@ A new default font, the 72 font family that offers some legibility and accessibi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -524,28 +524,28 @@ A new default font, the 72 font family that offers some legibility and accessibi
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant Performance and Usability Improvements** 
+**Support Assistant Performance and Usability Improvements** 
 
 
 
@@ -572,7 +572,7 @@ There are several improvements in the Support Assistant tool:
 
 
 
-![](images/loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png) 
+![](images/loiof3258c9e029a4396a93eaf7127ab34b6_HiRes.png)
 
 <sub>Changed•Feature•Info Only•1.54</sub>
 
@@ -581,7 +581,7 @@ There are several improvements in the Support Assistant tool:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -597,28 +597,28 @@ There are several improvements in the Support Assistant tool:
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **UI5 Inspector Updated** 
+**UI5 Inspector Updated** 
 
 
 
@@ -636,7 +636,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -652,28 +652,28 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -694,7 +694,7 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -710,28 +710,28 @@ A new minor version 0.9.4 of the UI5 Inspector is available in the Chrome Web St
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayout`** 
+**`sap.f.FlexibleColumnLayout`** 
 
 
 
@@ -749,7 +749,7 @@ A new `backgroundDesign` property is added that specifies the background color o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -765,28 +765,28 @@ A new `backgroundDesign` property is added that specifies the background color o
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **Context Menu** 
+**Context Menu** 
 
 
 
@@ -804,7 +804,7 @@ A new `backgroundDesign` property is added that specifies the background color o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -820,28 +820,28 @@ A new `backgroundDesign` property is added that specifies the background color o
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **Drag and Drop** 
+**Drag and Drop** 
 
 
 
@@ -859,7 +859,7 @@ A new `backgroundDesign` property is added that specifies the background color o
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -875,28 +875,28 @@ A new `backgroundDesign` property is added that specifies the background color o
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.CheckBox`** 
+**`sap.m.CheckBox`** 
 
 
 
@@ -919,7 +919,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -935,28 +935,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateTimeField`** 
+**`sap.m.DateTimeField`** 
 
 
 
@@ -974,7 +974,7 @@ With the new `initialFocusedDateValue` property, you can now set a JavaScript `D
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -990,28 +990,28 @@ With the new `initialFocusedDateValue` property, you can now set a JavaScript `D
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -1034,7 +1034,7 @@ With the new `initialFocusedDateValue` property, you can now set a JavaScript `D
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1050,28 +1050,28 @@ With the new `initialFocusedDateValue` property, you can now set a JavaScript `D
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -1089,7 +1089,7 @@ A new `vAlign` property has been added. It specifies the vertical alignment of `
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1105,28 +1105,28 @@ A new `vAlign` property has been added. It specifies the vertical alignment of `
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Link`** 
+**`sap.m.Link`** 
 
 
 
@@ -1144,7 +1144,7 @@ A new `validateUrl` property has been added that defines whether the link target
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1160,28 +1160,28 @@ A new `validateUrl` property has been added that defines whether the link target
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MessagePage`** 
+**`sap.m.MessagePage`** 
 
 
 
@@ -1204,7 +1204,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1220,28 +1220,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ObjectStatus`** 
+**`sap.m.ObjectStatus`** 
 
 
 
@@ -1259,7 +1259,7 @@ The control now has the option to have an active icon and text so the user can c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1275,28 +1275,28 @@ The control now has the option to have an active icon and text so the user can c
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.OverflowToolbar`** 
+**`sap.m.OverflowToolbar`** 
 
 
 
@@ -1314,7 +1314,7 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1330,28 +1330,28 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`**:
+**`sap.m.PlanningCalendar`**:
 
 
 
@@ -1381,7 +1381,7 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1397,28 +1397,28 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.StepInput`** 
+**`sap.m.StepInput`** 
 
 
 
@@ -1441,7 +1441,7 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1457,28 +1457,28 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TimePicker`** 
+**`sap.m.TimePicker`** 
 
 
 
@@ -1499,7 +1499,7 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1515,28 +1515,28 @@ The `sap.m.Label` control is now added to the list of controls that can be moved
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Toolbar`** 
+**`sap.m.Toolbar`** 
 
 
 
@@ -1554,7 +1554,7 @@ A new `style` property has been added that defines the visual style of the `sap.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1570,28 +1570,28 @@ A new `style` property has been added that defines the visual style of the `sap.
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.WizardStep`** 
+**`sap.m.WizardStep`** 
 
 
 
@@ -1607,7 +1607,7 @@ A new Boolean property called `optional` has been added. When set to `true`, it 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1623,28 +1623,28 @@ A new Boolean property called `optional` has been added. When set to `true`, it 
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.form.Form`** 
+**`sap.ui.layout.form.Form`** 
 
 
 
@@ -1662,7 +1662,7 @@ Labels in form controls are now wrapped automatically using the `wrapping` prope
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1678,28 +1678,28 @@ Labels in form controls are now wrapped automatically using the `wrapping` prope
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.TreeTable`** 
+**`sap.ui.table.TreeTable`** 
 
 
 
@@ -1717,7 +1717,7 @@ You can now expand and collapse multiple rows at once. For more information, see
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1733,28 +1733,28 @@ You can now expand and collapse multiple rows at once. For more information, see
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.CalendarLegend`** 
+**`sap.ui.unified.CalendarLegend`** 
 
 
 
@@ -1772,7 +1772,7 @@ With the use of the new `standardItems` property, you now have the option to con
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1788,28 +1788,28 @@ With the use of the new `standardItems` property, you now have the option to con
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Currency`** 
+**`sap.ui.unified.Currency`** 
 
 
 
@@ -1827,7 +1827,7 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1843,28 +1843,28 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **Documentation Updates** 
+**Documentation Updates** 
 
 
 
@@ -1887,7 +1887,7 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1903,28 +1903,28 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 <tr>
 <td valign="top">
 
- 1.54 
+1.54 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -1957,7 +1957,7 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1972,7 +1972,7 @@ The new `stringValue` property enables you to display very large numbers \(16+ c
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

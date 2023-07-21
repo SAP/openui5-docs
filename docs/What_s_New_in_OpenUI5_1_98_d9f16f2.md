@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.97 to 1.98.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -136,28 +136,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -186,7 +186,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -202,28 +202,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateTimePicker`, `sap.m.TimePicker`** 
+**`sap.m.DateTimePicker`, `sap.m.TimePicker`** 
 
 
 
@@ -241,7 +241,7 @@ We have introduced a shortcut button that focuses the current time. The button i
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -257,28 +257,28 @@ We have introduced a shortcut button that focuses the current time. The button i
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange` \(Experimental\)** 
+**`sap.m.DynamicDateRange` \(Experimental\)** 
 
 
 
@@ -303,7 +303,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -319,28 +319,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -358,7 +358,7 @@ There is a change in the way how the control computes and displays the number of
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -374,28 +374,28 @@ There is a change in the way how the control computes and displays the number of
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Label`** 
+**`sap.m.Label`** 
 
 
 
@@ -413,7 +413,7 @@ We have introduced a new `showColon` property. If set to `true`, a colon \(:\) c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -429,28 +429,28 @@ We have introduced a new `showColon` property. If set to `true`, a colon \(:\) c
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`** 
+**`sap.m.List`** 
 
 
 
@@ -468,7 +468,7 @@ You can now display an avatar in your list instead of an image or icon. We have 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -484,28 +484,28 @@ You can now display an avatar in your list instead of an image or icon. We have 
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.p13n*`** 
+**`sap.m.p13n*`** 
 
 
 
@@ -542,7 +542,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -558,28 +558,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -597,7 +597,7 @@ With the new `firstDayOfWeek` property, you can now set the first day of a week 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -613,28 +613,28 @@ With the new `firstDayOfWeek` property, you can now set the first day of a week 
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.upload.UploadSet`** 
+**`sap.m.upload.UploadSet`** 
 
 
 
@@ -652,7 +652,7 @@ For the `uploadCompleted` event, an additional JSON response object is now passe
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -668,28 +668,28 @@ For the `uploadCompleted` event, an additional JSON response object is now passe
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -718,7 +718,7 @@ For the `uploadCompleted` event, an additional JSON response object is now passe
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -734,28 +734,28 @@ For the `uploadCompleted` event, an additional JSON response object is now passe
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.IllustratedMessage` / `sap.m.IllustratedMessage`** 
+**`sap.f.IllustratedMessage` / `sap.m.IllustratedMessage`** 
 
 
 
@@ -773,7 +773,7 @@ The `sap.f.IllustratedMessage` and its related classes are now moved to the `sap
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -789,28 +789,28 @@ The `sap.f.IllustratedMessage` and its related classes are now moved to the `sap
 <tr>
 <td valign="top">
 
- 1.98 
+1.98 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.P13n*`** 
+**`sap.m.P13n*`** 
 
 
 
@@ -837,7 +837,7 @@ The following entities have been deprecated and replaced with the new personaliz
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -852,7 +852,7 @@ The following entities have been deprecated and replaced with the new personaliz
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

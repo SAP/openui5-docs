@@ -90,14 +90,14 @@ Description
 <tr>
 <td valign="top">
 
- `key` 
+`key` 
 
 
 
 </td>
 <td valign="top">
 
- `string` 
+`string` 
 
 
 
@@ -113,14 +113,14 @@ The key associated to the item. The recommendation is to provide the ID of the r
 <tr>
 <td valign="top">
 
- `label` 
+`label` 
 
 
 
 </td>
 <td valign="top">
 
- `string` 
+`string` 
 
 
 
@@ -136,14 +136,14 @@ The text that is displayed in the personalization dialog.
 <tr>
 <td valign="top">
 
- `path` 
+`path` 
 
 
 
 </td>
 <td valign="top">
 
- `string` 
+`string` 
 
 
 
@@ -159,14 +159,14 @@ The model path to create filters, groupings, and sorters.
 <tr>
 <td valign="top">
 
- `visible` 
+`visible` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
@@ -182,14 +182,14 @@ Default value is `true`. Hides an item from `SelectionPanel` in the personalizat
 <tr>
 <td valign="top">
 
- `sortable` 
+`sortable` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
@@ -205,14 +205,14 @@ Default value is `true`. Hides an item from `SortPanel` in the personalization i
 <tr>
 <td valign="top">
 
- `groupable` 
+`groupable` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
 
 
 
@@ -418,44 +418,21 @@ Type
 <tr>
 <td valign="top">
 
- `SelectionController` 
+`SelectionController` 
 
 
 
 </td>
 <td valign="top">
 
- `visible` 
+`visible` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- `SortController` 
-
-
-
-</td>
-<td valign="top">
-
- `sorted` 
-
-
-
-</td>
-<td valign="top">
-
- `boolean` 
+`boolean` 
 
 
 
@@ -464,21 +441,44 @@ Type
 <tr>
 <td valign="top">
 
- `GroupController` 
+`SortController` 
 
 
 
 </td>
 <td valign="top">
 
- `grouped` 
+`sorted` 
 
 
 
 </td>
 <td valign="top">
 
- `boolean` 
+`boolean` 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`GroupController` 
+
+
+
+</td>
+<td valign="top">
+
+`grouped` 
+
+
+
+</td>
+<td valign="top">
+
+`boolean` 
 
 
 
@@ -494,7 +494,7 @@ Type
 
 Persistence is provided by using the `VariantManagement` control. When using the personalization engine, the engine will ensure that any related flexibility changes for persisting personalization changes are made.
 
-**Parent topic:** [Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
+**Parent topic:**[Personalization](Personalization_75c08fd.md "You can use the p13n namespace for personalization settings.")
 
 **Related Information**  
 

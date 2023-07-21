@@ -18,7 +18,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 ### Preview
 
- ![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png) 
+![](images/loio8bf9780408674588af6d33eb6cebadab_LowRes.png)
 
 ***
 
@@ -28,7 +28,7 @@ In this tutorial step, we will have a closer look at the "Technical Information 
 
 1.  Download the example app with errors from the Demo Kitat [Troubleshooting](https://sdk.openui5.org/entity/sap.ui.core.tutorial.troubleshooting/sample/sap.ui.core.tutorial.troubleshooting.01) and run the app.
 
-2.  Open the *Technical Information Dialog* by pressing  [Ctrl\] + [Shift\] + [Left-Alt\] / [Left-Option\] + [P\] .
+2.  Open the *Technical Information Dialog* by pressing [Ctrl\] + [Shift\] + [Left-Alt\] /[Left-Option\] + [P\] .
 
 
 The dialog box shows information related to the app and provides access to additional support options.
@@ -47,7 +47,7 @@ When you run into problems with your app, you should check the OpenUI5 version t
 
 2.  Open the version overview at [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html) to see if there are newer patch levels or releases of OpenUI5.
 
-3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the  [Change Log](https://sdk.openui5.orgreleasenotes.html) to find information about new features and bug fixes.
+3.  Read the [What's New](What_s_New_in_OpenUI5_99ac68a.md) section in the documentation and check the [Change Log](https://sdk.openui5.orgreleasenotes.html) to find information about new features and bug fixes.
 
     > ### Note:  
     > You can view a specific version of the Demo Kit by adding the version number to the URL, for example, `https://sdk.openui5.org/1.38.8/`.
@@ -78,7 +78,7 @@ The OpenUI5 libraries are included in your app in a compressed form. To be able 
 
 2.  Open the developer tools of your browser
 
-3.  Choose  [Crtl\] + [O\]  and type the name of an OpenUI5 framework artifact to display its source code in debug mode.
+3.  Choose [Crtl\] + [O\]  and type the name of an OpenUI5 framework artifact to display its source code in debug mode.
 
     > ### Note:  
     > You may see additional errors and warnings in the developer console. These can help you investigate the problem further.
@@ -113,11 +113,11 @@ If you're really stuck or have found a bug, you can open a ticket. Choose the *C
 
 The *Technical Information Dialog* also includes links to *Diagnostics* and *Support Assistant* that we will discuss in the following steps of this tutorial.
 
-**Parent topic:** [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+**Parent topic:**[Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 
-**Next:** [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
+**Next:**[Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md "In this step, you will learn how to use your browser's developers tools to troubleshoot your OpenUI5 app.")
 
-**Previous:** [Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
+**Previous:**[Step 3: Support Assistant](Step_3_Support_Assistant_35f08e1.md "In this tutorial step, we will have a closer look at Support Assistant. You can use this tool to check whether your app is built according to the best practices with predefined rules.")
 
 **Related Information**  
 

@@ -18,12 +18,12 @@ In this step, we add an instance of the `sap.f.FlexibleColumnLayout` control in 
 
 ### Preview
 
-   
+  
   
 **An empty instance of the sap.f.FlexibleColumnLayout control**
 
- ![](images/loio533d16592a7046e195278bf367507756_HiRes.png "An empty instance of the sap.f.FlexibleColumnLayout
-					control") 
+![](images/loio533d16592a7046e195278bf367507756_HiRes.png "An empty instance of the sap.f.FlexibleColumnLayout
+					control")
 
 ***
 
@@ -129,9 +129,9 @@ We create a new **`App.view.xml`** that contains an instance of the `sap.f.Flexi
 
 We set the `rootView` to point to the created `App.view.xml`.
 
-**Parent topic:** [Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
+**Parent topic:**[Flexible Column Layout App Tutorial](Flexible_Column_Layout_App_Tutorial_c4de2df.md "In this tutorial, we showcase how to structure your OpenUI5 app using the layout patterns that comply with the SAP Fiori design guidelines.")
 
-**Next:** [Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this tutorial.")
+**Next:**[Step 1: Setting Up the Initial App](Step_1_Setting_Up_the_Initial_App_59b772b.md "We start by setting up a basic OpenUI5 app for this tutorial.")
 
-**Previous:** [Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using sap.f.DynamicPage control.")
+**Previous:**[Step 3: Using Dynamic Page for the List View](Step_3_Using_Dynamic_Page_for_the_List_View_0830bce.md "In this step, we create the list view of the app using sap.f.DynamicPage control.")
 

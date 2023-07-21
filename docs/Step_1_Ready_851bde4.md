@@ -18,11 +18,11 @@ Let's get you ready for your journey! We bootstrap OpenUI5 in an HTML page and i
 
 ### Preview
 
-   
+  
   
 **The browser shows a "Ready" button that triggers a "Hello World" message**
 
- ![](images/loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message") 
+![](images/loio9c157e9764b846fea7de519d141c33ac_LowRes.png "The browser shows a "Ready" button that triggers a "Hello World" message")
 
 ***
 
@@ -100,9 +100,9 @@ We load two UI controls - a button and a message toast - and place the button in
 
 Now, start the webserver, serve the sources of the \`webapp\` folder, and open the `index.html` file in your browser. When the button is pressed, a message toast with the "Hello World" message is shown at the bottom of the screen.
 
-**Parent topic:** [Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple &quot;Hello World&quot; example, and convert it to a minimalist two-page app.")
+**Parent topic:**[Quick Start Tutorial](Quick_Start_Tutorial_592f36f.md "Unleash your OpenUI5 skills with this simple three-step tutorial. We start with a simple &quot;Hello World&quot; example, and convert it to a minimalist two-page app.")
 
-**Previous:** [Step 2: Steady...](Step_2_Steady_128214a.md "Now we extend our minimalist HTML page to a basic app with a view and a controller.")
+**Previous:**[Step 2: Steady...](Step_2_Steady_128214a.md "Now we extend our minimalist HTML page to a basic app with a view and a controller.")
 
 **Related Information**  
 

@@ -34,7 +34,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 ### Inspecting DOM Elements and CSS Styles in the *Elements* Tab
 
-1.  Activate the *Inspect Element* mode by pressing  [Ctrl\] + [Shift\] + [C\] .
+1.  Activate the *Inspect Element* mode by pressing [Ctrl\] + [Shift\] + [C\] .
 
 2.  Click the *Do Something* button in the app.
 
@@ -114,7 +114,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > <tr>
 > <th valign="top">
 > 
->  OpenUI5 Control
+> OpenUI5 Control
 > 
 > 
 > 
@@ -130,14 +130,14 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 > <tr>
 > <td valign="top">
 > 
->  `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` 
+> `sap.ui.getCore().byId("container-HeapOfShards---app--myButton")` 
 > 
 > 
 > 
 > </td>
 > <td valign="top">
 > 
->  `jQuery("#container-HeapOfShards---app--myButton")` 
+> `jQuery("#container-HeapOfShards---app--myButton")` 
 > 
 > 
 > 
@@ -180,7 +180,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
 1.  Switch to the *Source* tab.
 
-2.  To view the source of the `App.controller` file, press  [Ctrl\] + [P\] , enter `App.controller`, and select `App.controller.js?eval`.
+2.  To view the source of the `App.controller` file, press [Ctrl\] + [P\] , enter `App.controller`, and select `App.controller.js?eval`.
 
 3.  Set a breakpoint in line 20 by clicking on the line number of the following line:
 
@@ -192,7 +192,7 @@ Most modern web browsers contain some form of Developer Tools. They allow you to
 
     The debugger stops at line 20.
 
-5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press  [Ctrl\] + [S\] :
+5.  In line 20, replace `getSourceXYZ()` with `getSource()` and press [Ctrl\] + [S\] :
 
     ```
     sMessage = this.getResourceBundle().getText("buttonOk", [oEvent.getSourceXYZ().getId()]);
@@ -242,7 +242,7 @@ The *Network* tab shows the sequence and duration of files being loaded. It can 
 
 ### Testing Responsiveness with *Device Mode*
 
-Switch to *Device* mode by clicking the respective button or by pressing  [Ctrl\] + [Shift\] + [M\] .
+Switch to *Device* mode by clicking the respective button or by pressing [Ctrl\] + [Shift\] + [M\] .
 
 Emulate different mobile devices by selecting different devices, or switch orientation from landscape to portrait.
 
@@ -261,9 +261,9 @@ There are additional tabs that can help you to analyze performance problems or m
 -   *Application* or *Resources*
 
 
-**Parent topic:** [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
+**Parent topic:**[Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md "In this tutorial, we will show you some tools that will help you if you run into problems with your OpenUI5 app.")
 
-**Previous:** [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information Dialog&quot;. This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.")
+**Previous:**[Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md "In this tutorial step, we will have a closer look at the &quot;Technical Information Dialog&quot;. This tool comes in handy whenever you want to know the technical details of the running application, and also has some other useful features.")
 
 **Related Information**  
 

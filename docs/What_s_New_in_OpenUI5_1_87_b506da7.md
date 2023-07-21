@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.86 to 1.87.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87** 
+**End of Support for Microsoft Internet Explorer 11 after OpenUI5 1.87** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ExpandableText`** 
+**`sap.m.ExpandableText`** 
 
 
 
@@ -166,7 +166,7 @@ You can use the control to display long texts, for example, inside a table, list
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -182,28 +182,28 @@ You can use the control to display long texts, for example, inside a table, list
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -230,7 +230,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -246,28 +246,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Card`** 
+**`sap.f.Card`** 
 
 
 
@@ -285,7 +285,7 @@ We no longer apply default `min-height` in the control, which allows smaller car
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -301,28 +301,28 @@ We no longer apply default `min-height` in the control, which allows smaller car
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.GridList`** 
+**`sap.f.GridList`** 
 
 
 
@@ -347,7 +347,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -363,28 +363,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.BadgeCustomData`** 
+**`sap.m.BadgeCustomData`** 
 
 
 
@@ -402,7 +402,7 @@ We have added a new `animation` property that enables you to choose the animatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -418,28 +418,28 @@ We have added a new `animation` property that enables you to choose the animatio
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Dialog`** 
+**`sap.m.Dialog`** 
 
 
 
@@ -448,7 +448,7 @@ We have added a new `animation` property that enables you to choose the animatio
 
 **`sap.m.Dialog`**
 
-You can now drag and resize the dialog using the keyboard. To enable this behavior, you have to set the `draggable` and/or `resizable` properties to `true`. While the keyboard focus is located on the title bar, the dialog can then be moved with the [Arrow\] keys and resized with  [Shift\] + [Arrow\]  keys. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Dialog/sample/sap.m.sample.Dialog).
+You can now drag and resize the dialog using the keyboard. To enable this behavior, you have to set the `draggable` and/or `resizable` properties to `true`. While the keyboard focus is located on the title bar, the dialog can then be moved with the [Arrow\] keys and resized with [Shift\] + [Arrow\]  keys. For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.Dialog/sample/sap.m.sample.Dialog).
 
 <sub>Changed•Control•Info Only•1.87</sub>
 
@@ -457,7 +457,7 @@ You can now drag and resize the dialog using the keyboard. To enable this behavi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -473,28 +473,28 @@ You can now drag and resize the dialog using the keyboard. To enable this behavi
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Image`** 
+**`sap.m.Image`** 
 
 
 
@@ -512,7 +512,7 @@ With the new `lazyLoading` property, you can now ensure that off-screen images a
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -528,28 +528,28 @@ With the new `lazyLoading` property, you can now ensure that off-screen images a
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -574,7 +574,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -590,28 +590,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Text`** 
+**`sap.m.Text`** 
 
 
 
@@ -629,7 +629,7 @@ The new `emptyIndicatorMode` property allows developers to display an empty text
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -645,28 +645,28 @@ The new `emptyIndicatorMode` property allows developers to display an empty text
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Title`** 
+**`sap.m.Title`** 
 
 
 
@@ -684,7 +684,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -700,28 +700,28 @@ You can now place a link as a title. To enable this functionality, we have intro
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -750,7 +750,7 @@ You can now place a link as a title. To enable this functionality, we have intro
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -766,28 +766,28 @@ You can now place a link as a title. To enable this functionality, we have intro
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.cssgrid.ResponsiveColumnLayout`** 
+**`sap.ui.layout.cssgrid.ResponsiveColumnLayout`** 
 
 
 
@@ -805,7 +805,7 @@ We have enhanced the layout with higher density of responsive breakpoints, provi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -821,28 +821,28 @@ We have enhanced the layout with higher density of responsive breakpoints, provi
 <tr>
 <td valign="top">
 
- 1.87 
+1.87 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit HTML Title** 
+**Demo Kit HTML Title** 
 
 
 
@@ -860,7 +860,7 @@ We’ve improved the HTML title tag of the Demo Kit app to contain more informat
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -875,7 +875,7 @@ We’ve improved the HTML title tag of the Demo Kit app to contain more informat
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

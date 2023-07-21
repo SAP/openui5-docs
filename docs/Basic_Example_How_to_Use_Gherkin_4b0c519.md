@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/4b0c51
 
 Like test-driven development \(TDD\), behavior-driven development \(BDD\) with Gherkin encourages us to write more tests because you do it right from the beginning. Having more tests makes it cheaper and easier to maintain the code over time. Let's dive into the specifics using following an example.
 
- 
+
 
 The ideal pattern for a BDD iteration goes like this:
 
@@ -151,7 +151,7 @@ Here is a sample HTML bootstrap file for Gherkin. In this example, the feature f
 
 When you load the HTML file in your browser, the Gherkin tests are executed automatically . If you are using Google Chrome, you may need to start it with the command line flags`--allow-file-access-from-files --disable-web-security`. When everything is working correctly, you should see something like the following in your browser:
 
- ![](images/loiobb0e61f8e0004349bdfb37f0a4f39618_LowRes.png) 
+![](images/loiobb0e61f8e0004349bdfb37f0a4f39618_LowRes.png)
 
 We expect the test to fail because we haven't written any tests yet. You'll notice that Gherkin has explained that it was not able to find a matching step definition for the first test step, "I have started the app", in the steps file. Scrolling down, you can see that none of the test steps have been found. We will need to write these step definitions.
 
@@ -183,7 +183,7 @@ At test execution time, the Gherkin test harness tries to find a step definition
 
 Try executing the test now. You should see something like this:
 
- ![](images/loiocad81d3d87ab4c4688313ecdd70ee824_LowRes.png) 
+![](images/loiocad81d3d87ab4c4688313ecdd70ee824_LowRes.png)
 
 Step 1 is green because a matching step definition was found in the steps file. In Gherkin, the test harness always checks for the existence of the step definition first before executing the step definition's function. After Gherkin finds a step definition, it executes the step definition's function, and thus executes any QUnit assertions inside the function.
 
@@ -215,7 +215,7 @@ this.register(/^I can see the life saving button$/i, function() {
 
 You may need to adapt the above code to fit your situation. When you execute this code, you should see something like this:
 
- ![](images/loio99af4d460e284411b91e89a17ae28815_LowRes.png) 
+![](images/loio99af4d460e284411b91e89a17ae28815_LowRes.png)
 
 There are several important things to note here:
 
@@ -278,7 +278,7 @@ sap.ui.getCore().attachInit(function() {
 
 Now when you execute the test, you should see a passed verification step:
 
- ![](images/loioe99954a6d823413d8bd4f69d1e980e8b_LowRes.png) 
+![](images/loioe99954a6d823413d8bd4f69d1e980e8b_LowRes.png)
 
 Steps 1 and 2 passed because the corresponding step definitions were found in the steps file. Here Gherkin is confirming that it was able to find the step definitions.
 

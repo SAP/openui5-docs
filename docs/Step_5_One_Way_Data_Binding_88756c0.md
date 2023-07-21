@@ -16,11 +16,11 @@ In contrast to the two-way binding behavior shown above, one-way data binding is
 
 ### Preview
 
-   
+  
   
 **Two-way data binding disabled for the checkbox**
 
- ![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Two-way data binding disabled for the checkbox") 
+![](images/loio61d68f167778425bbdd2abd7d550ae65_HiRes.png "Two-way data binding disabled for the checkbox")
 
 ***
 
@@ -85,9 +85,9 @@ Should you wish to alter the binding mode, then there are two ways of doing this
 > 
 > -   Altering a model's default binding mode has no effect on already existing binding instances.
 
-**Parent topic:** [Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
+**Parent topic:**[Data Binding Tutorial](Data_Binding_Tutorial_e531093.md "In this tutorial, we will explain the concepts of data binding in OpenUI5.")
 
-**Next:** [Step 4: Two-Way Data Binding](Step_4_Two_Way_Data_Binding_c72b922.md "In the examples used so far, we have used a read-only field to display the value of a model property. We will now change the user interface so that the first and last name fields are displayed using sap.m.Input fields and an additional check box control is used to enable or disable both input fields. This arrangement illustrates a feature known as &quot;two-way data binding&quot;. Now that the view contains more controls, we will also move the view definition into an XML file.")
+**Next:**[Step 4: Two-Way Data Binding](Step_4_Two_Way_Data_Binding_c72b922.md "In the examples used so far, we have used a read-only field to display the value of a model property. We will now change the user interface so that the first and last name fields are displayed using sap.m.Input fields and an additional check box control is used to enable or disable both input fields. This arrangement illustrates a feature known as &quot;two-way data binding&quot;. Now that the view contains more controls, we will also move the view definition into an XML file.")
 
-**Previous:** [Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels and descriptions on the user interface.")
+**Previous:**[Step 6: Resource Models](Step_6_Resource_Models_9790d9a.md "Business applications also require language-specific (translatable) texts used as labels and descriptions on the user interface.")
 

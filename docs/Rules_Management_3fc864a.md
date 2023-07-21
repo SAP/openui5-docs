@@ -20,19 +20,19 @@ The user interface of the Support Assistant lets you choose which rules you can 
 
 The *Available Rulesets* tab contains the list of the currently loaded rulesets used by your application. On the left, there is a list of the available rules per library. On the right, you can see more details on the currently selected rule. By selecting the checkbox in front of each rule, you determine which rules are executed in the analysis. The list of available rulesets is dynamic and changes based on the libraries used for the current state of your application.
 
-   
+  
   
 **Support Assistant Available Rulesets**
 
- ![](images/loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets") 
+![](images/loiod7d49af739dd4b31a0ba2f457e03a331_HiRes.png "Support Assistant Available Rulesets")
 
 The *Additional Rulesets* tab shows rules for libraries that are not used by the application at the particular moment.
 
-   
+  
   
 **Support Assistant Additional Rulesets**
 
- ![](images/loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets") 
+![](images/loioc34ca5f09e244bdea0217b684adcb875_HiRes.png "Support Assistant Additional Rulesets")
 
 You can select the rules from the *Additional Rulesets* tab and choose *Load* to move them to the set of *Available Rulesets* and use them in your analysis.
 
@@ -48,7 +48,7 @@ The Support Assistant allows you to export and import subsets of preselected rul
   
 **Support Assistant Rule Presets**
 
- ![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets") 
+![](images/loio7ec578324dce47239eb80b997494089f_HiRes.png "Support Assistant Rule Presets")
 
 ***
 
@@ -82,11 +82,11 @@ You can't delete system presets but you have the option to modify and export the
 
 you can find your most currentYou have the option to personalize the Rules view by choosing which columns to be displayed. Just click on the column header and select or deselect the columns you want to use. You can also sort the content of all four columns or filter by keyword.
 
-   
+  
   
 **Support Assistant Columns Personalization**
 
- ![](images/loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization") 
+![](images/loio3d1206248735431fb4223c4724914997_HiRes.png "Support Assistant Columns Personalization")
 
 > ### Note:  
 > Choosing *I agree to use local storage persistency for* from the settings menu ![](images/loio24b9cee6f45340778480ea25e80bf0e5_HiRes.png) will also preserve your choice of visible columns.

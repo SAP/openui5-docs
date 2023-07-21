@@ -16,7 +16,7 @@ The following advanced concepts for components exist.
 
 -   Asynchronous content creation
 
-    A `UIComponent` can implement the `sap.ui.core.IAsyncContentCreation` interface. This interface allows you to provide a Promise as the return value for the  [`sap.ui.core.UIComponent#createContent`](https://sdk.openui5.org/api/sap.ui.core.UIComponent/methods/createContent) function.
+    A `UIComponent` can implement the `sap.ui.core.IAsyncContentCreation` interface. This interface allows you to provide a Promise as the return value for the [`sap.ui.core.UIComponent#createContent`](https://sdk.openui5.org/api/sap.ui.core.UIComponent/methods/createContent) function.
 
     For more information, see [Methods Controlling the Initial Instantiation](Methods_Controlling_the_Initial_Instantiation_b430345.md).
 

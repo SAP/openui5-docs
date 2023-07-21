@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/cfcbde
 
 ## High Contrast Themes for OpenUI5 Controls
 
- OpenUI5 offers two high contrast themes for controls - High Contrast Black \(HCB\) and High Contrast White \(HCW\). These themes support people with visual impairments and are required by the **Accessibility** product standard. The themes can be switched on by adding a dedicated URL parameter.
+OpenUI5 offers two high contrast themes for controls - High Contrast Black \(HCB\) and High Contrast White \(HCW\). These themes support people with visual impairments and are required by the **Accessibility** product standard. The themes can be switched on by adding a dedicated URL parameter.
 
 ***
 

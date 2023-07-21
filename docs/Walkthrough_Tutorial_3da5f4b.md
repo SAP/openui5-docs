@@ -18,7 +18,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 
 ### Preview
 
- ![](images/loio62a5405e63324cb4928e587f518ae13f_HiRes.png) 
+![](images/loio62a5405e63324cb4928e587f518ae13f_HiRes.png)
 
 ***
 

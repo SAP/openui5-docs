@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/108b7f
 
 With this release OpenUI5 is upgraded from version 1.54 to 1.56.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.56 
+1.56 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Event Handler Parameter Syntax** 
+**New Event Handler Parameter Syntax** 
 
 
 
@@ -115,7 +115,7 @@ For more information, see [Handling Events in XML Views](Handling_Events_in_XML_
 </td>
 <td valign="top">
 
- Info Only
+Info Only
 
 
 
@@ -138,21 +138,21 @@ For more information, see [Handling Events in XML Views](Handling_Events_in_XML_
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **XML Composite Control** 
+**XML Composite Control** 
 
 
 
@@ -170,7 +170,7 @@ A new type of composite control, the XML composite control, is now available. It
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -193,21 +193,21 @@ A new type of composite control, the XML composite control, is now available. It
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant** 
+**Support Assistant** 
 
 
 
@@ -229,7 +229,7 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -252,21 +252,21 @@ For more information, see [Rules Management](Rules_Management_3fc864a.md).
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -301,7 +301,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -324,21 +324,21 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Support Assistant** 
+**Support Assistant** 
 
 
 
@@ -369,7 +369,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -392,21 +392,21 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Drag and Drop** 
+**Drag and Drop** 
 
 
 
@@ -426,7 +426,7 @@ For more information, see the [API Reference for `DragInfo`](https://sdk.openui5
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -449,21 +449,21 @@ For more information, see the [API Reference for `DragInfo`](https://sdk.openui5
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Drag and Drop: General Support \(experimental\)** 
+**Drag and Drop: General Support \(experimental\)** 
 
 
 
@@ -486,7 +486,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -509,21 +509,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPageHeader`** 
+**`sap.f.DynamicPageHeader`** 
 
 
 
@@ -544,7 +544,7 @@ For more information, see the [Sample](https://sdk.openui5.org/sample/sap.f.samp
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -567,21 +567,21 @@ For more information, see the [Sample](https://sdk.openui5.org/sample/sap.f.samp
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateTimePicker`** 
+**`sap.m.DateTimePicker`** 
 
 
 
@@ -599,7 +599,7 @@ Two new properties are added to the control - `minutesStep` and `secondsStep`. T
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -622,21 +622,21 @@ Two new properties are added to the control - `minutesStep` and `secondsStep`. T
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -657,7 +657,7 @@ Two new properties are added to the control - `minutesStep` and `secondsStep`. T
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -680,21 +680,21 @@ Two new properties are added to the control - `minutesStep` and `secondsStep`. T
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`** 
+**`sap.m.List`** 
 
 
 
@@ -714,7 +714,7 @@ The `columns` aggregation was deprecated in version 1.16 and has now been remove
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -737,21 +737,21 @@ The `columns` aggregation was deprecated in version 1.16 and has now been remove
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MenuButton`** 
+**`sap.m.MenuButton`** 
 
 
 
@@ -769,7 +769,7 @@ The control now has a new `menuPosition` property. It specifies the position of 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -792,21 +792,21 @@ The control now has a new `menuPosition` property. It specifies the position of 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendar`** 
+**`sap.m.PlanningCalendar`** 
 
 
 
@@ -831,7 +831,7 @@ The control now has a new `menuPosition` property. It specifies the position of 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -854,21 +854,21 @@ The control now has a new `menuPosition` property. It specifies the position of 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.PlanningCalendarRow`** 
+**`sap.m.PlanningCalendarRow`** 
 
 
 
@@ -886,7 +886,7 @@ The new `specialDates` aggregation allows you to mark special days on a row leve
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -909,21 +909,21 @@ The new `specialDates` aggregation allows you to mark special days on a row leve
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog`** 
+**`sap.m.SelectDialog`** 
 
 
 
@@ -946,7 +946,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -969,21 +969,21 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Slider/sap.m.RangeSlider`** 
+**`sap.m.Slider/sap.m.RangeSlider`** 
 
 
 
@@ -1006,7 +1006,7 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1029,21 +1029,21 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -1068,7 +1068,7 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1091,21 +1091,21 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.TableSelectDialog`** 
+**`sap.m.TableSelectDialog`** 
 
 
 
@@ -1131,7 +1131,7 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1154,21 +1154,21 @@ For more information, see [Sliders](Sliders_84ec82e.md) and the [API Reference](
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Tree`** 
+**`sap.m.Tree`** 
 
 
 
@@ -1186,7 +1186,7 @@ You can now expand and collapse multiple rows at once by using the related metho
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1209,21 +1209,21 @@ You can now expand and collapse multiple rows at once by using the related metho
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.core.ScrollBar`** 
+**`sap.ui.core.ScrollBar`** 
 
 
 
@@ -1241,7 +1241,7 @@ The control has been deprecated. For more information, see the [API Reference](h
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1264,21 +1264,21 @@ The control has been deprecated. For more information, see the [API Reference](h
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.BlockLayout`** 
+**`sap.ui.layout.BlockLayout`** 
 
 
 
@@ -1296,7 +1296,7 @@ The new `titleLink` aggregation allows the replacement of the title of a `BlockL
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1319,21 +1319,21 @@ The new `titleLink` aggregation allows the replacement of the title of a `BlockL
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout`** 
+**`sap.ui.layout`** 
 
 
 
@@ -1351,7 +1351,7 @@ The new `titleLink` aggregation allows the replacement of the title of a `BlockL
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1374,21 +1374,21 @@ The new `titleLink` aggregation allows the replacement of the title of a `BlockL
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -1406,7 +1406,7 @@ With the introduction of the `weekNumberSelect` event, the week numbers in Grego
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1429,21 +1429,21 @@ With the introduction of the `weekNumberSelect` event, the week numbers in Grego
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageDynamicHeaderTitle`** 
+**`sap.uxap.ObjectPageDynamicHeaderTitle`** 
 
 
 
@@ -1470,7 +1470,7 @@ For more information, see the [Sample](https://sdk.openui5.org/sample/sap.uxap.s
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1493,21 +1493,21 @@ For more information, see the [Sample](https://sdk.openui5.org/sample/sap.uxap.s
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageHeader`** 
+**`sap.uxap.ObjectPageHeader`** 
 
 
 
@@ -1525,7 +1525,7 @@ The new `titleSelectorTooltip` aggregation now enables you to set a custom toolt
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1548,21 +1548,21 @@ The new `titleSelectorTooltip` aggregation now enables you to set a custom toolt
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- User Documentation 
+User Documentation 
 
 
 
 </td>
 <td valign="top">
 
- **New Tutorial** 
+**New Tutorial** 
 
 
 
@@ -1580,7 +1580,7 @@ We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_La
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1603,21 +1603,21 @@ We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_La
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit Improvements** 
+**Demo Kit Improvements** 
 
 
 
@@ -1628,11 +1628,11 @@ We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_La
 
 -   We've added a *Change version* button in the Demo Kit's toolbar that enables you to easily switch the app to a different OpenUI5 version.
 
-     ![](images/loio401b0b06690b4339856e6c517cb4c884_HiRes.png) 
+    ![](images/loio401b0b06690b4339856e6c517cb4c884_HiRes.png)
 
 -   In the *API Reference*, at the bottom of the API tree you can now find an *Index by Version* page that displays all APIs grouped by the release version they were first introduced in. Each release version is displayed as a separate tab.
 
-     ![](images/loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png) 
+    ![](images/loiod47b4612dd6d4fc68aa042c52c54f9a3_HiRes.png)
 
     For more information, see *API Reference*: [Index by Version](https://sdk.openui5.org/api/since).
 
@@ -1644,7 +1644,7 @@ We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_La
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1659,7 +1659,7 @@ We have a new tutorial: [Flexible Column Layout App Tutorial](Flexible_Column_La
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

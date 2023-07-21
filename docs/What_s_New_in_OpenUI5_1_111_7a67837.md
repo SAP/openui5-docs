@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/7a6783
 
 With this release OpenUI5 is upgraded from version 1.110 to 1.111.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input`, `sap.m.MultiInput`, `sap.m.ComboBox`, `sap.m.MultiComboBox`** 
+**`sap.m.Input`, `sap.m.MultiInput`, `sap.m.ComboBox`, `sap.m.MultiComboBox`** 
 
 
 
@@ -109,7 +109,7 @@ The type-ahead \(autocomplete\) functionality is updated to always suggest the e
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ The type-ahead \(autocomplete\) functionality is updated to always suggest the e
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NavContainer`** 
+**`sap.m.NavContainer`** 
 
 
 
@@ -164,7 +164,7 @@ We have introduced a new `navigationFinished` event. The event is fired when nav
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -180,28 +180,28 @@ We have introduced a new `navigationFinished` event. The event is fired when nav
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -219,7 +219,7 @@ We have introduced a new `enableDefaultTitleAndDescription` property. It provide
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -235,28 +235,28 @@ We have introduced a new `enableDefaultTitleAndDescription` property. It provide
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ActionSelect`** 
+**`sap.m.ActionSelect`** 
 
 
 
@@ -274,7 +274,7 @@ We have deprecated the `sap.m.ActionSelect` control.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -290,28 +290,28 @@ We have deprecated the `sap.m.ActionSelect` control.
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.Calendar`** 
+**`sap.ui.unified.Calendar`** 
 
 
 
@@ -329,7 +329,7 @@ We have implemented the `initialFocusedDate` property in `sap.ui.unified.Calenda
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -345,28 +345,28 @@ We have implemented the `initialFocusedDate` property in `sap.ui.unified.Calenda
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.CalendarLegend`** 
+**`sap.ui.unified.CalendarLegend`** 
 
 
 
@@ -384,7 +384,7 @@ The `sap.ui.unified.CalendarLegend` control offers a new functionality. If an in
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -400,28 +400,28 @@ The `sap.ui.unified.CalendarLegend` control offers a new functionality. If an in
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange`** 
+**`sap.m.DynamicDateRange`** 
 
 
 
@@ -439,7 +439,7 @@ We have implemented a new `calendarWeekNumbering` property in the `sap.m.Dynamic
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -455,28 +455,28 @@ We have implemented a new `calendarWeekNumbering` property in the `sap.m.Dynamic
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DynamicDateRange`** 
+**`sap.m.DynamicDateRange`** 
 
 
 
@@ -494,7 +494,7 @@ We have implemented new options in the `sap.m.DynamicDateRange` control for `Min
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -510,28 +510,28 @@ We have implemented new options in the `sap.m.DynamicDateRange` control for `Min
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -568,7 +568,7 @@ For more information, see the API Reference for
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -584,28 +584,28 @@ For more information, see the API Reference for
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Dates, Times, Timestamps, and Time Zones** 
+**Dates, Times, Timestamps, and Time Zones** 
 
 
 
@@ -647,7 +647,7 @@ The new version of OpenUI5 introduces the following features for time zone confi
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -663,28 +663,28 @@ The new version of OpenUI5 introduces the following features for time zone confi
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SelectDialog`** 
+**`sap.m.SelectDialog`** 
 
 
 
@@ -702,7 +702,7 @@ To improve the accessibility of the control, the initial focus is now set on the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -718,28 +718,28 @@ To improve the accessibility of the control, the initial focus is now set on the
 <tr>
 <td valign="top">
 
- 1.111 
+1.111 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -760,7 +760,7 @@ To improve the accessibility of the control, the initial focus is now set on the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -775,7 +775,7 @@ To improve the accessibility of the control, the initial focus is now set on the
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

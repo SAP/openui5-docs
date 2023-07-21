@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/f038c9
 
 With this release OpenUI5 is upgraded from version 1.101 to 1.102.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Accessibility** 
+**Accessibility** 
 
 
 
@@ -109,7 +109,7 @@ We are now using JAWS 2022 as a reference testing environment in OpenUI5. For mo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -125,28 +125,28 @@ We are now using JAWS 2022 as a reference testing environment in OpenUI5. For mo
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Announcement 
+Announcement 
 
 
 
 </td>
 <td valign="top">
 
- **Deactivation of Default Time Zone Configuration Feature** 
+**Deactivation of Default Time Zone Configuration Feature** 
 
 
 
@@ -183,7 +183,7 @@ We plan to bring this feature back in a different form at a later point in time.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -199,28 +199,28 @@ We plan to bring this feature back in a different form at a later point in time.
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Visualization of IANA Time Zones for Date/Time Data** 
+**Visualization of IANA Time Zones for Date/Time Data** 
 
 
 
@@ -255,7 +255,7 @@ The following OpenUI5 functionality supports IANA time zones:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -271,28 +271,28 @@ The following OpenUI5 functionality supports IANA time zones:
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.NotificationListItem`, `sap.m.NotificationListGroup`** 
+**`sap.m.NotificationListItem`, `sap.m.NotificationListGroup`** 
 
 
 
@@ -319,7 +319,7 @@ For more information, see the [NotificationListItem](https://sdk.openui5.org/ent
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -335,28 +335,28 @@ For more information, see the [NotificationListItem](https://sdk.openui5.org/ent
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Accessibility Guide** 
+**Accessibility Guide** 
 
 
 
@@ -374,7 +374,7 @@ The accessibility guide is a newly developed application about web accessibility
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -390,28 +390,28 @@ The accessibility guide is a newly developed application about web accessibility
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -432,7 +432,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -448,28 +448,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Improved Handling of Aggregations in XML Views** 
+**Improved Handling of Aggregations in XML Views** 
 
 
 
@@ -491,7 +491,7 @@ In order to align the usage of XML views and controls even further, aggregations
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -507,28 +507,28 @@ In order to align the usage of XML views and controls even further, aggregations
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -546,7 +546,7 @@ The `sap.ui.model.odata.OperationMode.Auto` operation mode is deprecated. If the
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -562,28 +562,28 @@ The `sap.ui.model.odata.OperationMode.Auto` operation mode is deprecated. If the
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker`, `sap.m.TimePicker` and `sap.m.DateTimePicker`** 
+**`sap.m.DatePicker`, `sap.m.TimePicker` and `sap.m.DateTimePicker`** 
 
 
 
@@ -601,7 +601,7 @@ We have added `afterValueHelpOpen` and `afterValueHelpClose` events, fired when 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -617,28 +617,28 @@ We have added `afterValueHelpOpen` and `afterValueHelpClose` events, fired when 
 <tr>
 <td valign="top">
 
- 1.102 
+1.102 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.FileUploader`** 
+**`sap.ui.unified.FileUploader`** 
 
 
 
@@ -656,7 +656,7 @@ We have implemented `beforeDialogOpen` and `beforeDialogClose` events, fired whe
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -671,7 +671,7 @@ We have implemented `beforeDialogOpen` and `beforeDialogClose` events, fired whe
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

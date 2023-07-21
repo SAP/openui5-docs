@@ -16,11 +16,11 @@ In this step, we will write a test that simulates a user search. We will enter t
 
 ### Preview
 
-   
+  
   
 **Testing user input in a search field**
 
- ![](images/loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field") 
+![](images/loio2d8ec1ca920948989b9d50d28f0e78e4_LowRes.png "Testing user input in a search field")
 
 ***
 
@@ -153,11 +153,11 @@ The `assert` part is implemented in the same way as in our first OPA test. Again
 
 Actions in OPA never contain a QUnit assertion.
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have implemented so far and add another important piece of test code: The test suite page. A test suite can execute multiple tests and collect the results. This comes in handy for automatic tools in a continuous integration process.")
+**Next:**[Step 10: Test Suite and Automated Testing](Step_10_Test_Suite_and_Automated_Testing_07c97a2.md "In this step, we will step back from our tests and application features that we have implemented so far and add another important piece of test code: The test suite page. A test suite can execute multiple tests and collect the results. This comes in handy for automatic tools in a continuous integration process.")
 
-**Previous:** [Step 12: Adding a Search](Step_12_Adding_a_Search_0c270b4.md "We now add a search field to our bulletin board and define a filter that represents the search term. This is done similarly as in step 24 of the Walkthrough tutorial.")
+**Previous:**[Step 12: Adding a Search](Step_12_Adding_a_Search_0c270b4.md "We now add a search field to our bulletin board and define a filter that represents the search term. This is done similarly as in step 24 of the Walkthrough tutorial.")
 
 **Related Information**  
 

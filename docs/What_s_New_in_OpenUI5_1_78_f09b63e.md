@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.77 to 1.78.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Special Messaging Support for Visually Impaired Users \(Experimental\)** 
+**Special Messaging Support for Visually Impaired Users \(Experimental\)** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -172,7 +172,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -188,28 +188,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -236,7 +236,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -252,28 +252,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Screen Reader Support Enhancement** 
+**Screen Reader Support Enhancement** 
 
 
 
@@ -291,7 +291,7 @@ We have removed the `application` role from the body of OpenUI5 apps. Following 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -307,28 +307,28 @@ We have removed the `application` role from the body of OpenUI5 apps. Following 
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ColorPalette`** 
+**`sap.m.ColorPalette`** 
 
 
 
@@ -346,7 +346,7 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -362,28 +362,28 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IconTabBar`** 
+**`sap.m.IconTabBar`** 
 
 
 
@@ -406,7 +406,7 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -422,28 +422,28 @@ We have added a new `setColorPickerSelectedColor` setter, which enables develope
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.InputBase` \(Experimental\)** 
+**`sap.m.InputBase` \(Experimental\)** 
 
 
 
@@ -461,7 +461,7 @@ The class now supports the possibility to add links as part of the `ValueStateTe
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -477,28 +477,28 @@ The class now supports the possibility to add links as part of the `ValueStateTe
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`, `sap.m.Table`** 
+**`sap.m.List`, `sap.m.Table`** 
 
 
 
@@ -516,7 +516,7 @@ The `List` and `Table` controls now provide a method to scroll the list of items
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -532,28 +532,28 @@ The `List` and `Table` controls now provide a method to scroll the list of items
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.MultiComboBox`, `sap.m.MultiInput`** 
+**`sap.m.MultiComboBox`, `sap.m.MultiInput`** 
 
 
 
@@ -571,7 +571,7 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -587,28 +587,28 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 <tr>
 <td valign="top">
 
- 1.78 
+1.78 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.layout.Splitter`** 
+**`sap.ui.layout.Splitter`** 
 
 
 
@@ -629,7 +629,7 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -644,7 +644,7 @@ When the `sap.m.MultiComboBox` and `sap.m.MultiInput` controls contain only one 
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

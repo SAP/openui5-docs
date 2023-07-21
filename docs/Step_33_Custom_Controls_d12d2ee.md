@@ -16,11 +16,11 @@ In this step, we are going to extend the functionality of OpenUI5 with a custom 
 
 ### Preview
 
-   
+  
   
 **A custom product rating control is added to the detail page**
 
- ![](images/loioe3e163a7b93d498595586d5043f77ddb_HiRes.png "A custom product rating control is added to the detail page") 
+![](images/loioe3e163a7b93d498595586d5043f77ddb_HiRes.png "A custom product rating control is added to the detail page")
 
 ***
 
@@ -165,11 +165,11 @@ In the `metadata` section we therefore define several properties that we make us
 
     As described in the first paragraph, we need three internal controls to realize our rating functionality. We therefore create three “hidden aggregations” by setting the `visibility` attribute to `hidden`. This way, we can use the models that are set on the view also in the inner controls and OpenUI5 will take care of the lifecycle management and destroy the controls when they are not needed anymore. Aggregations can also be used to hold arrays of controls but we just want a single control in each of the aggregations so we need to adjust the cardinality by setting the attribute `multiple` to `false`.
 
-    -    `_rating`: A `sap.m.RatingIndicator` control for user input
+    -   `_rating`: A `sap.m.RatingIndicator` control for user input
 
-    -    `_label`: A `sap.m.Label` to display additional information
+    -   `_label`: A `sap.m.Label` to display additional information
 
-    -    `_button`: A `sap.m.Button` to submit the rating
+    -   `_button`: A `sap.m.Button` to submit the rating
 
 
     > ### Note:  
@@ -319,11 +319,11 @@ The resource bundle is extended with the confirmation message and the strings th
 -   Put custom controls in the `control` folder of your app.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
+**Next:**[Step 32: Routing Back and History](Step_32_Routing_Back_and_History_8ef57cf.md "Now we can navigate to our detail page and display an invoice, but we cannot go back to the overview page yet. We'll add a back button to the detail page and implement a function that shows our overview page again.")
 
-**Previous:** [Step 34: Responsiveness](Step_34_Responsiveness_a96e18b.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the sap.m.Table already deliver a lot of features that we can use.")
+**Previous:**[Step 34: Responsiveness](Step_34_Responsiveness_a96e18b.md "In this step, we improve the responsiveness of our app. OpenUI5 applications can be run on phone, tablet, and desktop devices and we can configure the application to make best use of the screen estate for each scenario. Fortunately, OpenUI5 controls like the sap.m.Table already deliver a lot of features that we can use.")
 
 **Related Information**  
 

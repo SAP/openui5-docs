@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0e3082
 
 With this release OpenUI5 is upgraded from version 1.63 to 1.64.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Card`** 
+**`sap.f.Card`** 
 
 
 
@@ -104,7 +104,7 @@ The new `sap.f.Card` control complies with the visual design of the Integration 
 
 The `sap.f.Card` consists of three elements: a container with background color and rounded corners, a header, and content areas.
 
- ![](images/loiob1ff765e1db44ae38f583bc228e14432_HiRes.png) 
+![](images/loiob1ff765e1db44ae38f583bc228e14432_HiRes.png)
 
 For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https://sdk.openui5.org/api/sap.f.Card) and the [Sample](https://sdk.openui5.org/entity/sap.f.Card/sample/sap.f.sample.Card).
 
@@ -131,28 +131,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -175,7 +175,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -191,28 +191,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.DynamicPage`** 
+**`sap.f.DynamicPage`** 
 
 
 
@@ -230,7 +230,7 @@ We have redesigned the content area of the `DynamicPageTitle` control so that th
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -246,28 +246,28 @@ We have redesigned the content area of the `DynamicPageTitle` control so that th
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.ShellBar` \(Experimental\)** 
+**`sap.f.ShellBar` \(Experimental\)** 
 
 
 
@@ -278,7 +278,7 @@ We have redesigned the content area of the `DynamicPageTitle` control so that th
 
 We have implemented an additional element that visualizes the number of notifications for the app \(`notificationsNumber` property\). It is displayed at the top right corner of the notifications button. When the resize breakpoint is hit and the notifications button enters the overflow area of the `OverflowToolbar`, the element is displayed at the top right corner of both the `OverflowToolbarButton` and the overflow area notification button.
 
- ![](images/loio4ae1e3f40d754916a91d159216dd295f_HiRes.png) 
+![](images/loio4ae1e3f40d754916a91d159216dd295f_HiRes.png)
 
 For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.ShellBar) and the [Sample](https://sdk.openui5.org/entity/sap.f.ShellBar/sample/sap.f.sample.ShellBar).
 
@@ -289,7 +289,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -305,28 +305,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`** 
+**`sap.m.ComboBox`** 
 
 
 
@@ -349,7 +349,7 @@ In case a `sap.ui.core.SeparatorItem` without a defined text property is inserte
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -365,28 +365,28 @@ In case a `sap.ui.core.SeparatorItem` without a defined text property is inserte
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DatePicker`** 
+**`sap.m.DatePicker`** 
 
 
 
@@ -404,7 +404,7 @@ With the new `isValidValue` function, you can receive information on the validit
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -420,28 +420,28 @@ With the new `isValidValue` function, you can receive information on the validit
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input / sap.m.ComboBoxBase` \(Experimental\)** 
+**`sap.m.Input / sap.m.ComboBoxBase` \(Experimental\)** 
 
 
 
@@ -459,7 +459,7 @@ We have introduced a new experimental method `showItems(fnFilter)`. It enables y
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -475,28 +475,28 @@ We have introduced a new experimental method `showItems(fnFilter)`. It enables y
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Input / sap.m.MultiInput`** 
+**`sap.m.Input / sap.m.MultiInput`** 
 
 
 
@@ -514,7 +514,7 @@ We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.Mult
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -530,28 +530,28 @@ We have introduced grouping for the suggestions of `sap.m.Input` and `sap.m.Mult
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -574,7 +574,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -590,28 +590,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -632,7 +632,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -648,28 +648,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -687,7 +687,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -703,28 +703,28 @@ We have implemented the option to provide a simple, single-line title that takes
 <tr>
 <td valign="top">
 
- 1.64 
+1.64 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Demo Kit API Reference** 
+**Demo Kit API Reference** 
 
 
 
@@ -737,7 +737,7 @@ We have implemented the option to provide a simple, single-line title that takes
 
 -   Based on your feedback, we have improved the API Reference documentation to include the borrowed *Properties*, *Aggregations*, and *Associations* in the respective sections. All the inherited entries are marked with a *Borrowed from:* label in the *Description* column with a link to the corresponding class.
 
-     ![](images/loiod7f2a71df7944a0cb574de845248690e_HiRes.png) 
+    ![](images/loiod7f2a71df7944a0cb574de845248690e_HiRes.png)
 
 
 <sub>Changed•Feature•Info Only•1.64</sub>
@@ -747,7 +747,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -762,7 +762,7 @@ We have implemented the option to provide a simple, single-line title that takes
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

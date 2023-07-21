@@ -10,18 +10,18 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/10592a
 
 ## Step 8: Testing Navigation
 
- So far, we have a list of posts on the home page of the app. But typically, a post comes with more details that should be displayed on a separate detail page. We call it the post page because it displays details of a post. In this step we will introduce a new journey to test the post page. We write tests that trigger typical navigation events with OPA. Testing navigation greatly helps in reducing manual testing efforts as it covers a lot of testing paths. It is good practice to cover every view of your application with at least one test, since OPA will check if an exception is thrown. In this way you can detect critical errors very fast. 
+So far, we have a list of posts on the home page of the app. But typically, a post comes with more details that should be displayed on a separate detail page. We call it the post page because it displays details of a post. In this step we will introduce a new journey to test the post page. We write tests that trigger typical navigation events with OPA. Testing navigation greatly helps in reducing manual testing efforts as it covers a lot of testing paths. It is good practice to cover every view of your application with at least one test, since OPA will check if an exception is thrown. In this way you can detect critical errors very fast. 
 
 ***
 
 ### Preview
 
-   
+  
   
 **We add an OPA test that selects an item from the table and navigates to the post page**
 
- ![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the
-					post page") 
+![](images/loiocf3e0a650c6647b08410fab5b09d606d_LowRes.png "We add an OPA test that selects an item from the table and navigates to the
+					post page")
 
 ***
 
@@ -261,11 +261,11 @@ To make navigation tests complete, we add the new journey to the `AllJourneys` f
 
 If you execute the tests now, you can see in the logs of the developer tools that OPA is waiting for the object page to be displayed. Of course, this will not happen as it is not yet implemented. But we already have a pretty good idea on how we will implement the feature in the next step
 
-**Parent topic:** [Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
+**Parent topic:**[Testing Tutorial](Testing_Tutorial_291c912.md "In this tutorial we will test application functionality with the testing tools that are delivered with OpenUI5. At different steps of this tutorial you will write tests using QUnit, OPA5, and the OData V2 mock server. Additionally, you will learn about testing strategies, Test Driven Development (TDD), and much more.")
 
-**Next:** [Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let’s switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.")
+**Next:**[Step 7: Changing the Table to a Growing Table](Step_7_Changing_the_Table_to_a_Growing_Table_016e0d4.md "Let’s switch back to developing and add the missing feature for the test we implemented in the previous step. We will simply change the table to a growing table as this is a basic feature of the table. This will display a trigger at the end of the table that the user can click on to display more items.")
 
-**Previous:** [Step 9: Adding the Post Page](Step_9_Adding_the_Post_Page_4a9f063.md "Now that we have covered all kinds of tests for navigation, we introduce our Post page that shows details of a post in the bulletin board. To achieve this, we have to introduce a new view/controller pair and adjust the routing of the application.")
+**Previous:**[Step 9: Adding the Post Page](Step_9_Adding_the_Post_Page_4a9f063.md "Now that we have covered all kinds of tests for navigation, we introduce our Post page that shows details of a post in the bulletin board. To achieve this, we have to introduce a new view/controller pair and adjust the routing of the application.")
 
 **Related Information**  
 

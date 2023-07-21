@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.75 to 1.76.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Team Calendar** 
+**Team Calendar** 
 
 
 
@@ -127,28 +127,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Card Explorer** 
+**Card Explorer** 
 
 
 
@@ -169,7 +169,7 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -185,28 +185,28 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **One Page Acceptance Tests \(OPA5\)** 
+**One Page Acceptance Tests \(OPA5\)** 
 
 
 
@@ -224,7 +224,7 @@ We've introduced `Drag` and `Drop` actions to OPA5 to help with the most common 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -240,28 +240,28 @@ We've introduced `Drag` and `Drop` actions to OPA5 to help with the most common 
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -283,7 +283,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -299,28 +299,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -349,7 +349,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -365,28 +365,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayout`** 
+**`sap.f.FlexibleColumnLayout`** 
 
 
 
@@ -407,7 +407,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -423,28 +423,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.FacetFilter`** 
+**`sap.m.FacetFilter`** 
 
 
 
@@ -462,7 +462,7 @@ Optimization regarding the initial database service query has been introduced. T
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -478,28 +478,28 @@ Optimization regarding the initial database service query has been introduced. T
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
+**`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
 
 
 
@@ -517,7 +517,7 @@ New indication colors are now available \(provided by the `sap.ui.core.Indicatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -533,28 +533,28 @@ New indication colors are now available \(provided by the `sap.ui.core.Indicatio
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.plugins.DataStateIndicator`** 
+**`sap.m.plugins.DataStateIndicator`** 
 
 
 
@@ -579,7 +579,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -595,28 +595,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -634,7 +634,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -650,28 +650,28 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -692,7 +692,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -708,28 +708,28 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
 
 
 
@@ -750,7 +750,7 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -766,28 +766,28 @@ An automatic pop-in mode has been enabled for the responsive table. For more inf
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table, sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table, sap.ui.table.TreeTable`** 
 
 
 
@@ -816,7 +816,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -832,28 +832,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui
 <tr>
 <td valign="top">
 
- 1.76 
+1.76 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.calendar.Month`** 
+**`sap.ui.unified.calendar.Month`** 
 
 
 
@@ -871,7 +871,7 @@ We have enabled custom colors to be used with the `specialDates` aggregation in 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -886,7 +886,7 @@ We have enabled custom colors to be used with the `specialDates` aggregation in 
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

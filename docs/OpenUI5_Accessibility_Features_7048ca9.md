@@ -30,7 +30,7 @@ OpenUI5 offers visualization features out of the box.
 		These themes support people with visual impairments and are required by the
 			Accessibility product standard. The themes can be switched on by
 		adding a dedicated URL parameter.")**  
- OpenUI5 offers two high contrast themes for controls - High Contrast Black \(HCB\) and High Contrast White \(HCW\). These themes support people with visual impairments and are required by the **Accessibility** product standard. The themes can be switched on by adding a dedicated URL parameter.
+OpenUI5 offers two high contrast themes for controls - High Contrast Black \(HCB\) and High Contrast White \(HCW\). These themes support people with visual impairments and are required by the **Accessibility** product standard. The themes can be switched on by adding a dedicated URL parameter.
 -   **[Messaging Patterns](Messaging_Patterns_6393d1d.md "Standard messaging patterns ensure that messages appear at predefined
 		locations.")**  
 Standard messaging patterns ensure that messages appear at predefined locations.

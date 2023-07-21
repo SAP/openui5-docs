@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/a6b147
 
 With this release OpenUI5 is upgraded from version 1.66 to 1.67.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -139,28 +139,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.ShellBar`** 
+**`sap.f.ShellBar`** 
 
 
 
@@ -190,7 +190,7 @@ Info Only
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -206,28 +206,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.OverflowToolbar`** 
+**`sap.m.OverflowToolbar`** 
 
 
 
@@ -245,7 +245,7 @@ To improve the control's performance, we have introduced a new `asyncMode` prope
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -261,28 +261,28 @@ To improve the control's performance, we have introduced a new `asyncMode` prope
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -300,7 +300,7 @@ We have created new examples of the different use cases for `sap.m.SinglePlannin
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -316,28 +316,28 @@ We have created new examples of the different use cases for `sap.m.SinglePlannin
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.StandardListItem`** 
+**`sap.m.StandardListItem`** 
 
 
 
@@ -355,7 +355,7 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -371,28 +371,28 @@ You can now use the `wrapping` property to enable the wrapping of titles and des
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -415,7 +415,7 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -431,28 +431,28 @@ For more information, see [Cards](Cards_5b46b03.md), the [API Reference](https:/
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable / sap.ui.table.Table / sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable / sap.ui.table.Table / sap.ui.table.TreeTable`** 
 
 
 
@@ -470,7 +470,7 @@ The `MultiSelectionPlugin` class is now available: It provides a plugin to suppo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -486,28 +486,28 @@ The `MultiSelectionPlugin` class is now available: It provides a plugin to suppo
 <tr>
 <td valign="top">
 
- 1.67 
+1.67 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.ObjectPageLayout`** 
+**`sap.uxap.ObjectPageLayout`** 
 
 
 
@@ -525,7 +525,7 @@ The control header can now be snapped \(collapsed\) and no scroll bar is display
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -540,7 +540,7 @@ The control header can now be snapped \(collapsed\) and no scroll bar is display
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

@@ -45,7 +45,7 @@ oModel.loadData("data.json");
 
 [API Reference: `sap.ui.model.json.JSONModel`](https://sdk.openui5.org/api/sap.ui.model.json.JSONModel)
 
- <a name="loio50357d719b35439984348080bcbb14a4"/>
+<a name="loio50357d719b35439984348080bcbb14a4"/>
 
 <!-- loio50357d719b35439984348080bcbb14a4 -->
 
@@ -73,7 +73,7 @@ oSorter.fnCompare = function(value1, value2) {
 };
 ```
 
- <a name="loiod52e364907f94a3caeb4f5e5ad0cf302"/>
+<a name="loiod52e364907f94a3caeb4f5e5ad0cf302"/>
 
 <!-- loiod52e364907f94a3caeb4f5e5ad0cf302 -->
 

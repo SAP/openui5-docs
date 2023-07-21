@@ -20,11 +20,11 @@ Displays the titles of the sections and subsections in the `ObjectPageLayout` an
 
 The anchor bar is an automatically generated internal menu that shows the titles of the sections and subsections and allows the user to scroll to the respective section and subsection content.
 
-   
+  
   
 **Anchor Bar with Sections and Subsections**
 
- ![](images/loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections") 
+![](images/loio7023c14765ae4e47924fe6ee29baf8c3_HiRes.png "Anchor Bar with Sections and Subsections")
 
 When the user scrolls the page content, the anchor bar remains at the top of the screen.
 

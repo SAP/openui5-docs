@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3264bd
 
 With this release OpenUI5 is upgraded from version 1.108 to 1.109.
 
-** **
+****
 
 
 <table>
@@ -70,28 +70,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.fl.variants.VariantManagement`** 
+**`sap.ui.fl.variants.VariantManagement`** 
 
 
 
@@ -112,7 +112,7 @@ Available as of
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -128,28 +128,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -167,7 +167,7 @@ If a user selects all rows in a table using the *Select All* checkbox, **only** 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -183,28 +183,28 @@ If a user selects all rows in a table using the *Select All* checkbox, **only** 
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Deprecated 
+Deprecated 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Deprecations** 
+**Deprecations** 
 
 
 
@@ -222,7 +222,7 @@ There are currently no major deprecations. For a complete list of all deprecatio
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -238,28 +238,28 @@ There are currently no major deprecations. For a complete list of all deprecatio
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -283,7 +283,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -299,28 +299,28 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V2 Model** 
+**OpenUI5 OData V2 Model** 
 
 
 
@@ -341,7 +341,7 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -357,28 +357,28 @@ The new version of the OpenUI5 OData V2 model introduces the following features:
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.IllustratedMessage`** 
+**`sap.m.IllustratedMessage`** 
 
 
 
@@ -396,7 +396,7 @@ We have updated the illustrations in the default set. For more information, see 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -412,28 +412,28 @@ We have updated the illustrations in the default set. For more information, see 
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -460,7 +460,7 @@ We have updated the illustrations in the default set. For more information, see 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -476,28 +476,28 @@ We have updated the illustrations in the default set. For more information, see 
 <tr>
 <td valign="top">
 
- 1.109 
+1.109 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.LightBox`** 
+**`sap.m.LightBox`** 
 
 
 
@@ -515,7 +515,7 @@ We are now using the `IllustratedMessage` control to show errors when an image c
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -530,7 +530,7 @@ We are now using the `IllustratedMessage` control to show errors when an image c
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

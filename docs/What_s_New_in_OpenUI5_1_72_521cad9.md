@@ -14,7 +14,7 @@ With this release OpenUI5 is upgraded from version 1.71 to 1.72.
 
 ***
 
-** **
+****
 
 
 <table>
@@ -72,28 +72,28 @@ Available as of
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **New Theme Available \(Experimental\)** 
+**New Theme Available \(Experimental\)** 
 
 
 
@@ -102,7 +102,7 @@ Available as of
 
 **New Theme Available \(Experimental\)**
 
- A new theme *SAP Quartz Dark* \(theme ID: `sap_fiori_3_dark`\) has been introduced. The theme is provided as an additional theme in OpenUI5.
+A new theme *SAP Quartz Dark* \(theme ID: `sap_fiori_3_dark`\) has been introduced. The theme is provided as an additional theme in OpenUI5.
 
 > ### Note:  
 > This theme will have the status 'experimental' until testing is complete.
@@ -130,28 +130,28 @@ Info Only
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- ****Responsive Paddings Enablement**** 
+****Responsive Paddings Enablement**** 
 
 
 
@@ -171,7 +171,7 @@ For more information, see [Enabling Responsive Paddings According to the Control
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -187,28 +187,28 @@ For more information, see [Enabling Responsive Paddings According to the Control
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- New 
+New 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.ProductSwitch` \(Experimental\)** 
+**`sap.f.ProductSwitch` \(Experimental\)** 
 
 
 
@@ -230,7 +230,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -246,28 +246,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.f.
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Navigation in Nested Components** 
+**Navigation in Nested Components** 
 
 
 
@@ -287,7 +287,7 @@ For more information, see [`sap.ui.core.routing.Router.navTo`](https://sdk.openu
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -303,28 +303,28 @@ For more information, see [`sap.ui.core.routing.Router.navTo`](https://sdk.openu
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **OpenUI5 OData V4 Model** 
+**OpenUI5 OData V4 Model** 
 
 
 
@@ -352,7 +352,7 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -368,28 +368,28 @@ For more information, see [OData V4 Model](OData_V4_Model_5de13cf.md), the [API 
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Feature 
+Feature 
 
 
 
 </td>
 <td valign="top">
 
- **Title Alignment Changes for SAP Quartz Themes** 
+**Title Alignment Changes for SAP Quartz Themes** 
 
 
 
@@ -419,7 +419,7 @@ Affected Controls:
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -435,28 +435,28 @@ Affected Controls:
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.Avatar`** 
+**`sap.f.Avatar`** 
 
 
 
@@ -474,7 +474,7 @@ We have added more options in the `sap.f.AvatarColor` enum for the background co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -490,28 +490,28 @@ We have added more options in the `sap.f.AvatarColor` enum for the background co
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.f.FlexibleColumnLayoutSemanticHelper`** 
+**`sap.f.FlexibleColumnLayoutSemanticHelper`** 
 
 
 
@@ -529,7 +529,7 @@ Some methods in the helper class rely on the internal `sap.f.FlexibleColumnLayou
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -545,28 +545,28 @@ Some methods in the helper class rely on the internal `sap.f.FlexibleColumnLayou
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ActionSheet`** 
+**`sap.m.ActionSheet`** 
 
 
 
@@ -584,7 +584,7 @@ We have extended the `afterClose` event, to provide context information that ind
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -600,28 +600,28 @@ We have extended the `afterClose` event, to provide context information that ind
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ComboBox`, `sap.m.MultiComboBox`, `sap.m.Input`, `sap.m.MultiInput`** 
+**`sap.m.ComboBox`, `sap.m.MultiComboBox`, `sap.m.Input`, `sap.m.MultiInput`** 
 
 
 
@@ -639,7 +639,7 @@ We have improved the controls to display the text set in the `valueStateText` pr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -655,28 +655,28 @@ We have improved the controls to display the text set in the `valueStateText` pr
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.DateRangeSelection`** 
+**`sap.m.DateRangeSelection`** 
 
 
 
@@ -694,7 +694,7 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -710,28 +710,28 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
+**`sap.m.List`, `sap.m.Table`, `sap.m.Tree`** 
 
 
 
@@ -752,7 +752,7 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -768,28 +768,28 @@ We have introduced an optional footer with *OK* and *Cancel* buttons, to provide
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.SinglePlanningCalendar`** 
+**`sap.m.SinglePlanningCalendar`** 
 
 
 
@@ -807,7 +807,7 @@ The `appointmentSelect` event was also provided for the appointments in the Mont
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -823,28 +823,28 @@ The `appointmentSelect` event was also provided for the appointments in the Mont
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.Table`** 
+**`sap.m.Table`** 
 
 
 
@@ -862,7 +862,7 @@ If applications configure a responsive table that contains only one column in su
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -878,28 +878,28 @@ If applications configure a responsive table that contains only one column in su
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.m.ViewSettingsDialog`** 
+**`sap.m.ViewSettingsDialog`** 
 
 
 
@@ -922,7 +922,7 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -938,28 +938,28 @@ For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- <code><b>sap.m.Wizard</b></code> 
+<code><b>sap.m.Wizard</b></code> 
 
 
 
@@ -977,7 +977,7 @@ We have added a new `backgroundDesign` property. It can change the background co
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -993,28 +993,28 @@ We have added a new `backgroundDesign` property. It can change the background co
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.integration.widgets.Card`** 
+**`sap.ui.integration.widgets.Card`** 
 
 
 
@@ -1036,7 +1036,7 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1052,28 +1052,28 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
+**`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`** 
 
 
 
@@ -1082,7 +1082,7 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 
 **`sap.ui.table.AnalyticalTable`, `sap.ui.table.Table`, `sap.ui.table.TreeTable`**
 
--   You can now select rows using key combinations \(select one row:  [SHIFT\] + [SPACE\] , select multiple rows:  [SHIFT\] + [UP\]  and  [SHIFT\] + [DOWN\] \). For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.Selection).
+-   You can now select rows using key combinations \(select one row: [SHIFT\] + [SPACE\] , select multiple rows: [SHIFT\] + [UP\]  and [SHIFT\] + [DOWN\] \). For more information, see the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.Selection).
 
 -   A new `navigated` property is now available for rows with row actions: After a user has displayed the details of an item, a navigation indicator at the end of the corresponding row indicates that the user has already viewed the details. For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.table.RowSettings) and the [Sample](https://sdk.openui5.org/entity/sap.ui.table.Table/sample/sap.ui.table.sample.RowAction).
 
@@ -1094,7 +1094,7 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1110,28 +1110,28 @@ For more information, see [Card Explorer](https://sdk.openui5.org/test-resources
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.ui.unified.FileUploader`** 
+**`sap.ui.unified.FileUploader`** 
 
 
 
@@ -1149,7 +1149,7 @@ The new `fileEmpty` event was introduced, fired when uploading an empty file. Fo
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1165,28 +1165,28 @@ The new `fileEmpty` event was introduced, fired when uploading an empty file. Fo
 <tr>
 <td valign="top">
 
- 1.72 
+1.72 
 
 
 
 </td>
 <td valign="top">
 
- Changed 
+Changed 
 
 
 
 </td>
 <td valign="top">
 
- Control 
+Control 
 
 
 
 </td>
 <td valign="top">
 
- **`sap.uxap.BlockBase`** 
+**`sap.uxap.BlockBase`** 
 
 
 
@@ -1204,7 +1204,7 @@ You can now subscribe to the new `viewInit` event that is fired when the asynchr
 </td>
 <td valign="top">
 
- Info Only 
+Info Only 
 
 
 
@@ -1219,7 +1219,7 @@ You can now subscribe to the new `viewInit` event that is fired when the asynchr
 </tr>
 </table>
 
-**Parent topic:** [Previous Versions](Previous_Versions_6660a59.md "")
+**Parent topic:**[Previous Versions](Previous_Versions_6660a59.md "")
 
 **Related Information**  
 

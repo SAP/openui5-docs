@@ -18,12 +18,12 @@ We will add an input field to our app, bind its value to the model, and bind the
 
 ### Preview
 
-   
+  
   
 **An input field and a description displaying the value of the input field**
 
- ![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input
-					field") 
+![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input
+					field")
 
 ***
 
@@ -90,7 +90,7 @@ We add an `sap.m.Input` control to the view. With this, the user can enter a rec
 
 -   The curly brackets `{…}` indicate that data is taken from the value of the `recipient`'s object name property. This is called "data binding".
 
--    `/recipient/name` declares the path in the model.
+-   `/recipient/name` declares the path in the model.
 
 
 ***
@@ -133,11 +133,11 @@ The binding of the value attribute is a simple binding example that contains onl
 -   Use Hungarian notation for variable names.
 
 
-**Parent topic:** [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
+**Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:** [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
+**Next:**[Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
 
-**Previous:** [Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
+**Previous:**[Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
 
 **Related Information**  
 
