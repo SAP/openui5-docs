@@ -68,4 +68,5 @@ npm Packages \(check the individual packages for licensing information\):
 
 -   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
 -   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code
+-   For UI5 control development in TypeScript, see [TypeScript Guidelines](TypeScript_Guidelines_192397d.md)
 
