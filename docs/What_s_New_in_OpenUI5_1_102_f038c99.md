@@ -404,6 +404,74 @@ Changed
 </td>
 <td valign="top">
 
+Control 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.p13n*`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.p13n*`**
+
+We have improved the usability of the *View Settings* dialog. To do this, we have replaced the `sap.m.Select` control with a `sap.m.ComboBox` control and items of type `sap.m.StandardListItem`.
+
+In particular, the following changes have been applied:
+
+-   We have replaced *None* in the selection lists of the *Sort* and *Group* tabs with the *Sort by* and *Group by* placeholder texts based on the SAP Fiori design guidelines.
+
+-   We have adapted the tooltips of the *Delete* buttons for removing entries on the tabs.
+
+    ![](images/loio53d93b35ecc24e6cb1d69ab6ca387760_LowRes.png)
+
+-   For a more simplified search, especially in a long selection list, users can now enter a column name.
+
+
+For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup) for `sap.m.p13n.Popup` and the [Sample](https://sdk.openui5.org/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable.mtableCustom) for `SmartTable`. 
+
+<sub>Changed•Control•Info Only•1.102</sub>
+
+
+
+</td>
+<td valign="top">
+
+Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2022-05-19
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.102 
+
+
+
+</td>
+<td valign="top">
+
+Changed 
+
+
+
+</td>
+<td valign="top">
+
 Feature 
 
 

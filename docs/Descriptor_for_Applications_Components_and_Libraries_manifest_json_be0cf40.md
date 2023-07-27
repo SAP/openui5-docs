@@ -61,7 +61,7 @@ Version 2
 </td>
 <td valign="top">
 
-\>=1.30
+\>=1.30, as introduced with 1.58, loads the
 
 
 
@@ -153,7 +153,7 @@ Version 6
 </td>
 <td valign="top">
 
-\>=1.42
+, as introduced with\>=1.42
 
 
 
@@ -1339,6 +1339,29 @@ Version 57
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Version 58
+
+
+
+</td>
+<td valign="top">
+
+\>=1.117
+
+
+
+</td>
+<td valign="top">
+
+1.57.0
+
+
+
+</td>
+</tr>
 </table>
 
 For more information on the new fields introduced in each version, check out [Migration Information for Upgrading the Descriptor File](Migration_Information_for_Upgrading_the_Descriptor_File_a110f76.md)
@@ -1349,7 +1372,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 ### Manifest First Function
 
-The component factory function [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
+The component factory function [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create)`manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
 The `manifest` option allows you to configure when and from where the descriptor is loaded:
 
@@ -2544,7 +2567,7 @@ Current version of the `manifest.json`
 ```
 
 {
-    "_version": "1.56.0",
+    "_version": "1.57.0",
  
     "start_url": "index.html",
  
@@ -2632,7 +2655,7 @@ Current version of the `manifest.json`
             }]
         },
         "dependencies": {
-            "minUI5Version": "1.116.0",
+            "minUI5Version": "1.117.0",
             "libs": {
                 "sap.m": {
                     "minVersion": "1.34.0"

@@ -783,6 +783,173 @@ Changed
 </td>
 <td valign="top">
 
+Control 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.SelectDialog`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.SelectDialog`**
+
+You can now control the placeholder text in the inner search field using the new `searchPlaceholder` property. If not set, the word `Search` in the current local language or in English will be used as a placeholder.
+
+For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.SelectDialog) and the [Sample](https://sdk.openui5.org/entity/sap.m.SelectDialog/sample/sap.m.sample.SelectDialog).
+
+<sub>Changed•Control•Info Only•1.110</sub>
+
+
+
+</td>
+<td valign="top">
+
+Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-26
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.110 
+
+
+
+</td>
+<td valign="top">
+
+Changed 
+
+
+
+</td>
+<td valign="top">
+
+Control 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.Dialog`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.Dialog`**
+
+We have added a new `footer` aggregation of type `sap.m.Toolbar` to the control. You can now use this horizontal container to display controls that fit different custom scenarios, for example, a button that shows a message popover.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Dialog) and the [Sample](https://sdk.openui5.org/entity/sap.m.Dialog/sample/sap.m.sample.DialogWithMessagePopover).
+
+<sub>Changed•Control•Info Only•1.110</sub>
+
+
+
+</td>
+<td valign="top">
+
+Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-26
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.110 
+
+
+
+</td>
+<td valign="top">
+
+Changed 
+
+
+
+</td>
+<td valign="top">
+
+Control 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.Carousel`** 
+
+
+
+</td>
+<td valign="top">
+
+**`sap.m.Carousel`**
+
+Using the new `backgroundDesign` property, you can now set the carousel’s background color as `Translucent` \(Default\), `Solid`, or `Transparent`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.Carousel) and the [Sample](https://sdk.openui5.org/entity/sap.m.Carousel/sample/sap.m.sample.CarouselWithDisplayOptions).
+
+<sub>Changed•Control•Info Only•1.110</sub>
+
+
+
+</td>
+<td valign="top">
+
+Info Only 
+
+
+
+</td>
+<td valign="top">
+
+2023-01-26
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+1.110 
+
+
+
+</td>
+<td valign="top">
+
+Changed 
+
+
+
+</td>
+<td valign="top">
+
 Feature 
 
 
