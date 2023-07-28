@@ -2066,9 +2066,9 @@ Contains object with app-specific icons, which are:
 
 Mandatory; contains objects with device types on which the app is running, such as:
 
--   `desktop`: Indicator for whether desktop devices are supported, `true` \(default\), `false`
--   `tablet`: Indicator for whether tablet devices are supported, `true` \(default\),`false`
--   `phone`: Indicator for whether phone devices are supported, `true` \(default\),`false`
+-   `desktop`: Indicator for whether desktop devices are supported, `true`, `false`
+-   `tablet`: Indicator for whether tablet devices are supported, `true`, `false`
+-   `phone`: Indicator for whether phone devices are supported, `true`, `false`
 
 
 
@@ -2734,6 +2734,7 @@ Current version of the `manifest.json`
     },
 
  
+
     "sap.fe": {},
     "sap.card": {}
 }
