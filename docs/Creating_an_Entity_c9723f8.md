@@ -94,7 +94,13 @@ The `promise` returned by [`Context#created`](https://sdk.openui5.org/api/sap.ui
 
 ### Deep Create
 
-It is also possible to create nested entities in a collection-valued navigation property with a single request together with their parent entity \(so-called "deep create"; the request itself is called "deep insert" in the [OData specification](http://docs.oasis-open.org/odata/odata/v4.01/os/part1-protocol/odata-v4.01-os-part1-protocol.html#sec_CreateRelatedEntitiesWhenCreatinganE)\). For this purpose, bind the list for the nested collection relative to the transient context of the created main entity. A [`create`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) in the nested table then creates a row which contributes to the POST request of the main entity. A deep create is not restricted to one level; it is also possible that a nested entity has a nested collection itself.
+It is also possible to create nested entities in a navigation property with a single request together with their parent entity \(so-called "deep create"; the request itself is called "deep insert" in the [OData specification](http://docs.oasis-open.org/odata/odata/v4.01/os/part1-protocol/odata-v4.01-os-part1-protocol.html#sec_CreateRelatedEntitiesWhenCreatinganE)\).
+
+***
+
+#### Nested Collection
+
+Bind the list for the nested collection relative to the transient context of the created main entity. A [`create`](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding/methods/create) in the nested table then creates a row which contributes to the POST request of the main entity. A deep create is not restricted to one level; it is also possible that a nested entity has a nested collection itself.
 
 "Deep create" supports a simple collection-valued navigation property \(no path like "detail/items"\). It requires that the `autoExpandSelect` [model](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataModel/constructor) parameter is `true`. There must be no context binding in the binding hierarchy between the top-level and nested list binding.
 
@@ -173,6 +179,31 @@ The usage of the `bSkipRefresh` parameter when calling [`create`](https://sdk.op
 Canceling a deep create or deleting the top-level entity removes the request, the top-level entity, and all its subentities. Deleting a nested entity also deletes its subentities.
 
 As long as the parent context is still transient, requesting data from the server does not make sense. Hence, API functions leading to a server request \(like `refresh`, `sort`, `filter`, `requestSideEffects`\) are forbidden. When the parent entity including its nested entities has been created, the binding is fully functional.
+
+***
+
+#### Nested Single Entity
+
+> ### Note:  
+> This is an **experimental** feature as of OpenUI5 1.117.0
+
+No API is required here. Simply bind the properties of the nested entity relative to the transient context of the created main entity. If the user enters a value in such a field, this value is automatically added to the payload of the POST request, making it a deep create.
+
+> ### Example:  
+> **View**
+> 
+> ```
+> 
+> <SimpleForm>
+>      <Text text="{SalesOrderID}"/>
+>      <Text text="{SO_2_BP/BusinessPartnerID}"/>
+>      <Input value="{SO_2_BP/CompanyName}"/>
+> </SimpleForm>
+> ```
+
+In this \(unrealistic\) example, it is possible to create the business partner together with the sales order. As soon as the user enters a company name, the POST request for the sales order contains the `SO_2_BP` navigation property and thus becomes a deep create.
+
+It is also possible to have this navigation property in the initial data.
 
 ***
 
