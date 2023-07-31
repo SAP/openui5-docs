@@ -63,10 +63,11 @@ See [What is the plan regarding different TypeScript versions? Which ones will e
 
 -   Documentation and resources: [UI5 & TypeScript](https://sap.github.io/ui5-typescript/)
 -   Tutorial: [Learn App Development in UI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
+-   Check our [TypeScript To-Do List](https://sdk.openui5.org/entity/sap.m.sample.TsTodos/sample/sap.m.sample.TsTodos.webapp) demo application, which shows a sample TypeScript setup for developing OpenUI5 applications. You can also [Run the Unit Tests](https://sdk.openui5.org/test-resources/sap/m/demokit/sample/TsTodos/test/unit/unitTests.qunit.html).
+-   For OpenUI5 control development in TypeScript, see [TypeScript Guidelines](TypeScript_Guidelines_192397d.md)
 
 npm Packages \(check the individual packages for licensing information\):
 
 -   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
 -   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code
--   For UI5 control development in TypeScript, see [TypeScript Guidelines](TypeScript_Guidelines_192397d.md)
 
