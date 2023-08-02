@@ -70,12 +70,18 @@ For OpenUI5, we have published definition files that contain type definition fil
 
 ***
 
-#### Further Information
+<a name="loioab4f18de7652442da85fc08b38a8a8ce__section_grr_32p_k5c"/>
+
+### Related Information
+
+[Main topic: TypeScript Support in UI5](TypeScript_Support_a7ee961.md)5
+
+External resources:
 
 -   Documentation and resources: [UI5 & TypeScript](https://sap.github.io/ui5-typescript/)
 -   Tutorial: [Learn App Development in UI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
 
-npm Packages \(check the individual packages for licensing information\):
+npm packages \(check the individual packages for licensing information\):
 
 -   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
 -   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code

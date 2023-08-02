@@ -22,15 +22,19 @@ OpenUI5 offers many powerful enterprise features to support your entire app deve
 -   **[The UI5 Ecosystem](The_UI5_Ecosystem_b72ccb5.md#loiob72ccb50eda94ac9b9be454a03ca4213 "This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community
 		projects.")**  
 This page contains some of the complementary offerings from the UI5 ecosystem - toolchains, generators, and other cool community projects.
--   **[TypeScript in OpenUI5](TypeScript_in_OpenUI5_a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
+-   **[ECMAScript Support](ECMAScript_Support_0cb44d7.md " With OpenUI5 1.116, the framework starts leveraging features of modern
+		ECMAScript, up to and including ES2022. You have
+		to consider certain restrictions when using modern ECMAScript with your UI5 project.")**  
+ With OpenUI5 1.116, the framework starts leveraging features of modern ECMAScript, up to and including [ES2022](../../../../../../../../../../../../https://262.ecma-international.org/13.0/). You have to consider certain restrictions when using modern ECMAScript with your UI5 project.
+-   **[TypeScript Support](TypeScript_Support_a7ee961.md "TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type
 		checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.")**  
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in supporting code editors, for example through code completion and inline documentation.
+-   **[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")**  
+Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 -   **[Compatibility Rules](Compatibility_Rules_91f0873.md "The following sections describe what SAP can change in major, minor, and patch
 		releases. Always consider these rules when developing apps, features, or controls with or
 		for OpenUI5.")**  
 The following sections describe what SAP can change in major, minor, and patch releases. Always consider these rules when developing apps, features, or controls with or for OpenUI5.
--   **[Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md "Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.")**  
-Here you can find information on the browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 -   **[Supported Library Combinations](Supported_Library_Combinations_363cd16.md "OpenUI5 provides a set of
 		JavaScript and CSS libraries, which can be combined in an application using the combinations
 		that are supported.")**  

@@ -242,11 +242,21 @@
 							}
 						}
 					},
-					"TypeScript in OpenUI5": {
-						"link": "TypeScript_in_OpenUI5_a7ee961.md"
+					"ECMAScript Support": {
+						"link": "ECMAScript_Support_0cb44d7.md",
+						"items": {
+							"Details on ECMAScript Support in OpenUI5": {
+								"link": "Details_on_ECMAScript_Support_in_OpenUI5_d6c0a5d.md"
+							}
+						}
 					},
-					"Compatibility Rules": {
-						"link": "Compatibility_Rules_91f0873.md"
+					"TypeScript Support": {
+						"link": "TypeScript_Support_a7ee961.md",
+						"items": {
+							"TypeScript FAQ": {
+								"link": "TypeScript_FAQ_8439949.md"
+							}
+						}
 					},
 					"Browser and Platform Support": {
 						"link": "Browser_and_Platform_Support_74b59ef.md",
@@ -258,6 +268,9 @@
 								"link": "Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md"
 							}
 						}
+					},
+					"Compatibility Rules": {
+						"link": "Compatibility_Rules_91f0873.md"
 					},
 					"Supported Library Combinations": {
 						"link": "Supported_Library_Combinations_363cd16.md"

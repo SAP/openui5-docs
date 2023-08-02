@@ -12,7 +12,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/192397
 
 Provides an overview how to develop OpenUI5 control libraries in TypeScript.
 
-For general information on TypeScript, see [TypeScript in OpenUI5](TypeScript_in_OpenUI5_a7ee961.md).
+For general information on TypeScript, see [TypeScript Support](TypeScript_Support_a7ee961.md).
 
 ***
 

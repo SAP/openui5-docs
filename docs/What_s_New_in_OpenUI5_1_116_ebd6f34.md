@@ -159,7 +159,7 @@ Feature
 
 TypeScript can now be used productively.
 
-For more information, see [TypeScript in OpenUI5](TypeScript_in_OpenUI5_a7ee961.md). 
+For more information, see [TypeScript Support](TypeScript_Support_a7ee961.md). 
 
 <sub>New•Feature•Info Only•OpenUI5</sub>
 
