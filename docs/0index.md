@@ -6,6 +6,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
 
 -   [OpenUI5: UI Development Toolkit for HTML5](OpenUI5_UI_Development_Toolkit_for_HTML5_95d113b.md)
     -   [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md)
+        -   [What's New in OpenUI5 1.117](What_s_New_in_OpenUI5_1_117_029d3b4.md)
         -   [What's New in OpenUI5 1.116](What_s_New_in_OpenUI5_1_116_ebd6f34.md)
         -   [Previous Versions](Previous_Versions_6660a59.md)
             -   [What's New in OpenUI5 1.115](What_s_New_in_OpenUI5_1_115_409fde8.md)
@@ -84,7 +85,6 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [wdi5](The_UI5_Ecosystem_b72ccb5.md#loiof92b537272ba43abbfc157ba4ec8f010)
             -   [Best of UI5](The_UI5_Ecosystem_b72ccb5.md#loio23a0a11a88df42578b5baae11c06a89b)
         -   [ECMAScript Support](ECMAScript_Support_0cb44d7.md)
-            -   [Details on ECMAScript Support in OpenUI5](Details_on_ECMAScript_Support_in_OpenUI5_d6c0a5d.md)
         -   [TypeScript Support](TypeScript_Support_a7ee961.md)
             -   [TypeScript FAQ](TypeScript_FAQ_8439949.md)
         -   [Browser and Platform Support](Browser_and_Platform_Support_74b59ef.md)

@@ -48,7 +48,8 @@ If you have called [`ODataListBinding#create`](https://sdk.openui5.org/api/sap.u
                         "CurrencyCode" : "EUR"
                     });
  
-            // Note: This promise fails only if the transient entity is deleted
+            // Note: This promise fails only if the transient entity is canceled, 
+            //   i.e. deleted by either deleting the transient context or by resetting pending changes
             oContext.created().then(function () {
                     // sales order successfully created
                 }, function (oError) {

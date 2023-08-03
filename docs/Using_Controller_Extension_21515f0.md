@@ -202,19 +202,25 @@ We therefore offer the `overrides` keyword as an additional name for this defini
 > 
 > When using the UI5 Babel transformer plugin, the `overridesToOverride` option must be set to enable its use with older versions. It then changes the `overrides` keyword back to `override`, which is recognized by older UI5 runtime versions.
 > 
-> When using the ui5-tooling-transpile task and middleware, which is recommended for the most convenient TypeScript setup and internally uses the aforementioned UI5 Babel transformer plugin, you can enable this option by adding a file named `.babelrc.json` with the following content. Note that this overrides the default Babel configuration of ui5-tooling-transpile.
+> When using the ui5-tooling-transpile task and middleware, which is recommended for the most convenient TypeScript setup and internally uses the aforementioned UI5 Babel transformer plugin, you can enable this option by adding the required configuration for ui5-tooling-transpile directly to the `ui5.yaml` file as follows:
 > 
 > ```
->   
-> {
->     "ignore": ["**/*.d.ts"],
->     "presets": [
->         "@babel/preset-env", 
->         ["transform-ui5", { overridesToOverride: true }], 
->        "@babel/preset-typescript"
->     ],
->     "sourceMaps": true
-> }
+> builder:
+>   customTasks:
+>   - name: ui5-tooling-transpile-task
+>     afterTask: replaceVersion
+>     configuration:
+>       transformModulesToUI5:
+>         overridesToOverride: true
+> 
+> [...]
+> server:
+>   customMiddleware:
+>   - name: ui5-tooling-transpile-middleware
+>     afterMiddleware: compression
+>     configuration:
+>       transformModulesToUI5:
+>         overridesToOverride: true
 > ```
 
 **Related Information**  

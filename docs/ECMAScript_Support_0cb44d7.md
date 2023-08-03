@@ -27,7 +27,7 @@ UI5 implements an AMD-like way of [defining and loading modules](Modules_and_Dep
 
 #### ECMAScript Modules
 
-UI5 provides `sap.ui.define` and `sap.ui.require` as the established ways to define and load modules. Using the `import` and `export` statements for loading and defining UI5 modules is currently NOT supported.
+UI5 provides `sap.ui.define` and `sap.ui.require` as the established ways to define and load modules. Using the `import` and `export` statements for loading and defining UI5 modules is currently **not** supported.
 
 Please continue to use the regular UI5 APIs `sap.ui.define` and `sap.ui.require`.
 
@@ -38,12 +38,13 @@ Please continue to use the regular UI5 APIs `sap.ui.define` and `sap.ui.require`
 > // Best practice of loading a module delivered by UI5
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
-> ], (Controller) =>
->     return Controller.extend("my.app.controller.App", {});
-> );
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend("my.app.controller.MyController", {});
+> });
 > ```
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -58,29 +59,94 @@ Please continue to use the regular UI5 APIs `sap.ui.define` and `sap.ui.require`
 
 Please do **not** use an `async` factory function when loading or defining UI5 modules. The UI5 Loader will not wait for a returned Promise.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT use the ECMAScript async/await statements when loading/defining modules
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
-> ], async (Controller) =>
->     return Controller.extend("my.app.controller.App", {});
-> );
+> ], async (Controller) => {
+>     "use strict";
+>     return Controller.extend("my.app.controller.MyController", {});
+> });
 > ```
 
 Please do **not** return a Promise when loading or defining UI5 modules.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT return a Promise when loading/defining modules
 > sap.ui.define([
 >     "sap/ui/core/mvc/Controller"
-> ], (Controller) => Promise.resolve(Controller.extend("my.app.controller.App", {}));
-> );
+> ], (Controller) => {
+>     "use strict";
+>     return Promise.resolve(Controller.extend("my.app.controller.MyController", {}));
+> });
+> ```
+
+***
+
+#### Event Handler Registration
+
+> ### Caution:  
+> If you intend to use async functions as callbacks or hooks, you have to make sure that the respective API doesn't break and that you stay compliant with the API's signature and return value type. For example, an API which expects no return value should not return a Promise.
+
+When registering to browser or control events and implementing an event handler as an async function, UI5 simply calls the event handler function without handling the returned Promise and without considering the execution order.
+
+> ### Restriction:  
+> **Not supported** 
+> 
+> ```
+> sap.ui.require(["sap/m/Button"], (Button) => {
+>     const oButton = new Button({
+>         text: "Press me",
+>         press: async (event) => { // async event handler function
+>             await doSomething() // do something async, e.g. request data and wait for it...
+>             console.log("Data received!");
+>         }
+>     });
+> });
+> ```
+
+As an alternative, you could use a typical `then`-Promise:
+
+> ### Example:  
+> **Supported usage** 
+> 
+> ```
+> sap.ui.require(["sap/m/Button"], (Button) => {
+>     const oButton = new Button({
+>         text: "Press me",
+>         press: () => {
+>             // do something async, e.g. request data and wait for it...
+>             doSomething().then(
+>                 () => console.log("Data received!")
+>             );
+>         }
+>     });
+> });
+> ```
+
+Or, for still using `await`, you could wrap your async function:
+
+> ### Example:  
+> **Supported usage** 
+> 
+> ```
+> sap.ui.require(["sap/m/Button"], (Button) => {
+>     const oButton = new Button({
+>         text: "Press me",
+>         press: () => {
+>             (async () => { // async wrapper
+>                 await doSomething() // do something async, e.g. request data and wait for it...
+>                 console.log("Data received!");
+>             })()
+>         }
+>     });
+> });
 > ```
 
 ***
@@ -89,7 +155,7 @@ Please do **not** return a Promise when loading or defining UI5 modules.
 
 Please use only literals but **not** expressions for the dependencies in the context of the `sap.ui.define` and `sap.ui.require` calls.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -108,13 +174,17 @@ Please use only literals but **not** expressions for the dependencies in the con
 
 Please do **not** use a spread element as a parameter in the context of the `sap.ui.define` and `sap.ui.require` calls.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT use a spread element as a parameter
 > // in an sap.ui.define or sap.ui.require call.
-> const dependencies = ["sap/ui/core/mvc/Controller", "sap/ui/mode/Filter", "sap/ui/model/FilterOperator", "sap/ui/model/json/JSONModel"];
+> const dependencies = [
+>     "sap/ui/core/mvc/Controller", 
+>     "sap/ui/mode/Filter", 
+>     "sap/ui/model/FilterOperator", 
+>     "sap/ui/model/json/JSONModel"];
 > sap.ui.define([
 >   ...dependencies
 > ], (Controller, Filter, FilterOperator, JSONModel) => {
@@ -139,7 +209,7 @@ The usage of template literals with one or more expressions in the context of th
 > });
 > ```
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -165,26 +235,28 @@ UI5 implements an own functionality to extend classes \(via the `sap.ui.core.Man
 
 #### ECMAScript Classes
 
-UI5 uses its own way of defining classes and extending them. Please stick to the current best practice and do **not** use ECMAScript classes when extending a delivered UI5 class. For more information, see [Details on ECMAScript Support in OpenUI5](Details_on_ECMAScript_Support_in_OpenUI5_d6c0a5d.md).
+UI5 uses its own way of defining classes and extending them. Please stick to the current best practice and do **not** use ECMAScript classes when extending a delivered UI5 class.
 
 > ### Example:  
 > **Supported usage** 
 > 
 > ```
 > // Best practice of extending an existing class delivered by UI5
-> sap.ui.define(["sap/ui/core/Control"], (Control) =>
->   return Control.extend("my.lib.MyControl", {});
-> );
+> sap.ui.define(["sap/ui/core/mvc/Controller"], (Controller) => {
+>     "use strict";
+>     return Controller.extend("my.app.controller.MyController", {});
+> });
 > ```
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do not use ECMAScript classes when extending a delivered UI5 class
-> sap.ui.define(["sap/ui/core/Control"], (Control) =>
->     return class MyControl extends Control {};
-> );
+> sap.ui.define(["sap/ui/core/mvc/Controller"], (Controller) => {
+>     "use strict";
+>     return class MyController extends Controller {};
+> });
 > ```
 
 ***
@@ -193,17 +265,18 @@ UI5 uses its own way of defining classes and extending them. Please stick to the
 
 Please do **not** use an expression, only a literal, in the class name parameter inside the `extend` call.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT use an expression in the class name parameter inside the extend call
-> const sLibName = "my.lib";
+> const sControllerPath = "my.app.controller.";
 > sap.ui.define([
->     "sap/ui/core/Control"
-> ], (Control) => 
->     return Control.extend(sLibName + "MyControl", {});
-> );
+>     "sap/ui/core/mvc/Controller"
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend(sControllerPath + "MyController", {});
+> });
 > ```
 
 ***
@@ -212,17 +285,18 @@ Please do **not** use an expression, only a literal, in the class name parameter
 
 Please do **not** use a variable as the class name parameter inside the `extend` call.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT use a variable as a parameter inside the extend call
-> const sControl = "sap/ui/core/Control";
+> const sController = "sap/ui/core/mvc/Controller";
 > sap.ui.define([
->     "sap/ui/core/Control"
-> ], (Control) => 
->     return Control.extend(sControl, {});
-> );
+>     "sap/ui/core/mvc/Controller"
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend(sController, {});
+> });
 > ```
 
 ***
@@ -237,24 +311,26 @@ The usage of template literals with one or more expressions as the class name pa
 > ```
 > // Using template literals without any expressions inside the extend call
 > sap.ui.define([
->     "sap/ui/core/Control"
-> ], (Control) => 
->     return Control.extend(`my.lib.MyControl`, {});
-> );
+>     "sap/ui/core/mvc/Controller"
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend(`my.app.controller.MyController`, {});
+> });
 > ```
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
 > // Please do NOT use template literals with one or more
 > // expressions inside the extend call
-> const sLibName = "my.lib";
+> const sControllerPath = "my.app.controller.";
 > sap.ui.define([
->     "sap/ui/core/Control"
-> ], (Control) => 
->     return Control.extend(`{sLibName}.MyControl`, {});
-> );
+>     "sap/ui/core/mvc/Controller"
+> ], (Controller) => {
+>     "use strict";
+>     return Controller.extend(`{sControllerPath}MyController`, {});
+> });
 > ```
 
 ***
@@ -273,23 +349,24 @@ A UI5 library is typically initialized via an accompanying `library.js`. Within 
 > sap.ui.define([
 >     "sap/ui/core/Core"
 > ], (Core) => {
->      const thisLib = Core.initLibrary(({
->          name: "my.lib",
->          version: "${version}",
->          designtime: "my/lib/designtime/library.designtime",
->          types: [
->              "my.lib.MyType"
->          ],
->          interfaces: [
->              "my.lib.MyInterface"
->          ],
->          controls: [
->              "my.lib.MyType"
->          ],
->          elements: [
->              "my.lib.MyElement"
->          ],
->          extensions: {}
+>     "use strict";
+>     const thisLib = Core.initLibrary(({
+>         name: "my.lib",
+>         version: "${version}",
+>         designtime: "my/lib/designtime/library.designtime",
+>         types: [
+>             "my.lib.MyType"
+>         ],
+>         interfaces: [
+>             "my.lib.MyInterface"
+>         ],
+>         controls: [
+>             "my.lib.MyType"
+>         ],
+>         elements: [
+>             "my.lib.MyElement"
+>         ],
+>         extensions: {}
 >     });
 > });
 > ```
@@ -300,7 +377,7 @@ A UI5 library is typically initialized via an accompanying `library.js`. Within 
 
 Please do **not** use an expression for the library name when initializing a library.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -309,6 +386,7 @@ Please do **not** use an expression for the library name when initializing a lib
 > sap.ui.define([
 >     "sap/ui/core/Core"
 > ], (Core) => {
+>     "use strict";
 >     const thisLib = Core.initLibrary({
 >          name: "my." + libraryName
 >     });
@@ -321,7 +399,7 @@ Please do **not** use an expression for the library name when initializing a lib
 
 Please do **not** use a variable for the library name when initializing a library.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -330,6 +408,7 @@ Please do **not** use a variable for the library name when initializing a librar
 > sap.ui.define([
 >     "sap/ui/core/Core"
 > ], (Core) => {
+>     "use strict";
 >     const thisLib = Core.initLibrary({
 >         [key]: "my.lib"
 >     });
@@ -342,7 +421,7 @@ Please do **not** use a variable for the library name when initializing a librar
 
 Please do **not** use a spread element for the library name when initializing a library.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
@@ -353,9 +432,10 @@ Please do **not** use a spread element for the library name when initializing a 
 > sap.ui.define([
 >     "sap/ui/core/Core"
 > ], (Core) => {
->      const thisLib = Core.initLibrary({
->          ...mylib
->      });
+>     "use strict";
+>     const thisLib = Core.initLibrary({
+>         ...mylib
+>     });
 > });
 > ```
 
@@ -365,23 +445,20 @@ Please do **not** use a spread element for the library name when initializing a 
 
 Please do **not** use a template literal with one or more expressions for the library name when initializing a library.
 
-> ### Example:  
+> ### Restriction:  
 > **Not supported** 
 > 
 > ```
-> // Please do NOT use a template literal with one or more expressions for the library name when initializing a library
+> // Please do NOT use a template literal with one or more expressions 
+> // for the library name when initializing a library
 > const libraryName = "lib";
 > sap.ui.define([
 >     "sap/ui/core/Core"
 > ], (Core) => {
+>     "use strict";
 >     const thisLib = Core.initLibrary({
->          name: `my.{libraryName}`
+>         name: `my.{libraryName}`
 >     });
 > });
 > ```
-
--   **[Details on ECMAScript Support in OpenUI5](Details_on_ECMAScript_Support_in_OpenUI5_d6c0a5d.md " With OpenUI5 version 1.117, UI5 supports the usage of ECMAScript 2022
-		language features and syntax, allowing you to make your code more modern and readable. There are a few restrictions imposed by UI5 which have
-		to be considered, however.")**  
- With OpenUI5 version 1.117, UI5 supports the usage of ECMAScript 2022 language features and syntax, allowing you to make your code more modern and readable. There are a few restrictions imposed by UI5 which have to be considered, however.
 

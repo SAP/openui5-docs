@@ -66,7 +66,7 @@ The purpose of this generator is to guide you on your first steps with OpenUI5 a
 
 TypeScript is an extension of JavaScript that adds type information to the language. It helps developers catch errors early through type checking and by providing code assist in many supporting code editors \(for example, through code completion and inline documentation\). Browsers can’t execute TypeScript directly, it needs to be transpiled to JavaScript, which can then be executed as usual.
 
-For OpenUI5, we have published definition files that contain type definition files describing the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
+For OpenUI5, we have published definition files that contain type definitions describing the OpenUI5 APIs and types. With the help of these definitions, you can write OpenUI5 apps in TypeScript and enjoy all the benefits that come with it.
 
 ***
 
@@ -74,7 +74,7 @@ For OpenUI5, we have published definition files that contain type definition fil
 
 ### Related Information
 
-[Main topic: TypeScript Support in UI5](TypeScript_Support_a7ee961.md)5
+[Main topic: TypeScript Support in UI5](TypeScript_Support_a7ee961.md)
 
 External resources:
 
