@@ -15,7 +15,7 @@ Here you can find information on the browser and platform support for the OpenUI
 As OpenUI5 is based on CSS3, HTML5, and modern ECMAScript \("ES2022"\), only browsers with corresponding capabilities are supported. In general, only major versions that are also supported by the respective platform can be supported by the OpenUI5 framework.
 
 > ### Restriction:  
-> With OpenUI5 1.117, the framework leverages features of modern ECMAScript up to and including [ECMAScript 2022 Language Specification](https://262.ecma-international.org/13.0/). Certain restrictions do apply, however. For more information, see [ECMAScript Support](ECMAScript_Support_0cb44d7.md).
+> With OpenUI5 1.116, the framework leverages features of modern ECMAScript up to and including [ECMAScript 2022 Language Specification](https://262.ecma-international.org/13.0/). Certain restrictions do apply, however. For more information, see [ECMAScript Support](ECMAScript_Support_0cb44d7.md).
 
 Depending on the platform your OpenUI5 apps run on, different browsers in different versions are supported. If you know which platform and which browsers are used by your users, you can decide on which libraries to use for your app.
 
