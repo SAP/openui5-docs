@@ -26,5 +26,5 @@ Check the [documentation](https://github.com/SAP-samples/ui5-typescript-hellowor
 
 #### Further information
 
--   [TypeScript interface generator for control development on npm](https://www.npmjs.com/package/@ui5/ts-interface-generator) to support UI5 control development in TypeScript
+-   [TypeScript interface generator for control development on npm](https://www.npmjs.com/package/@ui5/ts-interface-generator) to support OpenUI5 control development in TypeScript
 

@@ -17,11 +17,11 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/843994
 ### Contents
 
 -   [What is TypeScript about?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__whatists)
--   [What is the overall approach for using TypeScript in UI5 applications?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__approach)
--   [How to set up a new UI5 app for TypeScript development?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__howto)
--   [How can I get an end-to-end hands-on impression of creating and developing a UI5 app in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__handson)
+-   [What is the overall approach for using TypeScript in OpenUI5 applications?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__approach)
+-   [How to set up a new OpenUI5 app for TypeScript development?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__howto)
+-   [How can I get an end-to-end hands-on impression of creating and developing a OpenUI5 app in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__handson)
 -   [How to develop custom controls in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__customcontrols)
--   [How to use third-party libraries from npm in UI5 apps?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__thirdpartylib)
+-   [How to use third-party libraries from npm in OpenUI5 apps?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__thirdpartylib)
 -   [How to test in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__test)
 -   [How to profit from TypeScript even when doing plain JavaScript development?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__profitfromts)
 -   [Are the type definitions ready for productive use?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__productiveuse)
@@ -40,25 +40,25 @@ TypeScript is an extension of JavaScript that enhances it with type information,
 
 ***
 
-#### What is the overall approach for using TypeScript in UI5 applications?
+#### What is the overall approach for using TypeScript in OpenUI5 applications?
 
-We publish type definition files describing all the UI5 APIs and types. With the help of these definitions, the TypeScript tools can do their job and support writing UI5 apps in TypeScript.
-
-***
-
-#### How to set up a new UI5 app for TypeScript development?
-
-By adding TypeScript and the UI5 type definitions as dev dependencies and setting up the transpilation step. The [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md) project can serve as copy template and provides a detailed step-by-step guide for setting up a TypeScript project.
+We publish type definition files describing all the OpenUI5 APIs and types. With the help of these definitions, the TypeScript tools can do their job and support writing OpenUI5 apps in TypeScript.
 
 ***
 
-#### How can I get an end-to-end hands-on impression of creating and developing a UI5 app in TypeScript?
+#### How to set up a new OpenUI5 app for TypeScript development?
+
+By adding TypeScript and the OpenUI5 type definitions as dev dependencies and setting up the transpilation step. The [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md) project can serve as copy template and provides a detailed step-by-step guide for setting up a TypeScript project.
+
+***
+
+#### How can I get an end-to-end hands-on impression of creating and developing a OpenUI5 app in TypeScript?
 
 You can follow the [`ui5-typescript`](https://github.com/SAP-samples/ui5-typescript-tutorial) tutorial, starting from scratch using an app template, extending the resulting app, and also covering advanced topics later on, like control development and integrating third-party libraries from npm.
 
 To start even faster, see one of the following app templates:
 
--   [generator-ui5-ts-app-fcl](https://github.com/ui5-community/generator-ui5-ts-app-fcl): A plain app template that contains one view and basic routing setup and is explained in this blog post: [Getting Started with TypeScript for UI5 Application Development](https://blogs.sap.com/2021/07/01/getting-started-with-typescript-for-ui5-application-development/).
+-   [`generator-ui5-ts-app`](https://github.com/ui5-community/generator-ui5-ts-app): A plain app template that contains one view and basic routing setup and is explained in this blog post: [Getting Started with TypeScript for UI5 Application Development](https://blogs.sap.com/2021/07/01/getting-started-with-typescript-for-ui5-application-development/).
 
 -   [`generator-ui5-ts-app-fcl`](https://github.com/ui5-community/generator-ui5-ts-app-fcl): A more comprehensive template including a FlexibleColumnLayout and allowing OData service and entity configuration within the wizard.
 
@@ -70,9 +70,9 @@ You can check the [TypeScript Guidelines](TypeScript_Guidelines_192397d.md).
 
 ***
 
-#### How to use third-party libraries from npm in UI5 apps?
+#### How to use third-party libraries from npm in OpenUI5 apps?
 
-Third-party libraries written for running in a browser environment can be easily used with very natural `npm install` and import `<moduleName>` from `dependencyName`, resulting in code completion for those libraries and automatic transpiling into UI5’s own AMD-like module format.
+Third-party libraries written for running in a browser environment can be easily used with very natural `npm install` and `import <moduleName> from <dependencyName>`, resulting in code completion for those libraries and automatic transpiling into OpenUI5’s own AMD-like module format. [Exercise 4 of the TypeScript tutorial](https://github.com/SAP-samples/ui5-typescript-tutorial/tree/main/exercises/ex4) shows how this is done, including the required setup of the [ui5-tooling-modules](https://www.npmjs.com/package/ui5-tooling-modules) extension for the UI5 Tooling.
 
 ***
 

@@ -24,7 +24,7 @@ When writing TypeScript code, the type information can be scattered across the c
 
 OpenUI5 type definitions are provided via npm under the name `@openui5/types` \(published directly by the OpenUI5 development team\) and `@types/openui5` \(maintained in the DefinitelyTyped infrastructure\).
 
-Providing the type definitions as a separate package allows you to retain an older version of the types while upgrading the UI5 runtime, which is one of the options to mitigate incompatible changes of the types. For more information, see our [compatibility statement](TypeScript_Support_a7ee961.md#loioa7ee9617bc794b6fad21e4df38e31128__section_CSTD).
+Providing the type definitions as a separate package allows you to retain an older version of the types while upgrading the OpenUI5 runtime, which is one of the options to mitigate incompatible changes of the types. For more information, see our [compatibility statement](TypeScript_Support_a7ee961.md#loioa7ee9617bc794b6fad21e4df38e31128__section_CSTD).
 
 ***
 
@@ -32,24 +32,24 @@ Providing the type definitions as a separate package allows you to retain an old
 
 ### Compatibility Statement for the OpenUI5 Type Definitions
 
-We encourage you to use UI5 with TypeScript for an improved development efficiency and experience. TypeScript itself keeps evolving, and we try to further improve the UI5 type definitions, so there could be potential incompatible changes between versions of the type definitions. However, such incompatibilities would only affect the **compilation** of your code but will not cause **runtime** issues in your application. Plus, there are various ways to easily deal with them: You can, for example, simply keep using the previous version of the UI5 type definitions together with an updated UI5 runtime. For more information, see *Breaking changes* below.
+We encourage you to use OpenUI5 with TypeScript for an improved development efficiency and experience. TypeScript itself keeps evolving, and we try to further improve the OpenUI5 type definitions, so there could be potential incompatible changes between versions of the type definitions. However, such incompatibilities would only affect the **compilation** of your code but will not cause **runtime** issues in your application. Plus, there are various ways to easily deal with them: You can, for example, simply keep using the previous version of the type definitions together with an updated OpenUI5 runtime. For more information, see *Breaking changes* below.
 
-Known incompatibilities will be communicated in the [UI5-TypeScript release notes](https://sap.github.io/ui5-typescript/releasenotes.html).
+Known incompatibilities will be communicated in the [OpenUI5-TypeScript release notes](https://sap.github.io/ui5-typescript/releasenotes.html), and in the [What's New in OpenUI5](What_s_New_in_OpenUI5_99ac68a.md).
 
 ***
 
 #### Breaking changes
 
-UI5 with TypeScript is in its final stage of stability, so please go ahead and use it! However, breaking changes can still occur. Possible reasons are:
+OpenUI5 with TypeScript is in its final stage of stability, so please go ahead and use it! However, breaking changes can still occur. Possible reasons are:
 
--   Fixes in the API documentation that cause TS compiler errors,
+-   Fixes in the API documentation that cause TypeScript compiler errors,
 -   Changes in TypeScript itself,
 -   A significant improvement of a type definition that can only be achieved with a breaking change,
 -   A bug.
 
 For more information, see [here](https://sap.github.io/ui5-typescript/beta-statement.html#why-will-there-still-be-breaking-changes-even-after-the-type-definitions-have-left-beta-stage).
 
-To mitigate breaking changes, you have several options. You can find the full list here: [How to mitigate breaking changes?](https://sap.github.io/ui5-typescript/beta-statement.html#how-to-mitigate-breaking-changes-within-as-well-as-after-beta-phase)
+To mitigate breaking changes, you have several options. You can find al list of them here: [How to mitigate breaking changes?](https://sap.github.io/ui5-typescript/beta-statement.html#how-to-mitigate-breaking-changes-within-as-well-as-after-beta-phase)
 
 ***
 
@@ -59,17 +59,19 @@ See [What is the plan regarding different TypeScript versions? Which ones will e
 
 ***
 
-#### Further information
+<a name="loioa7ee9617bc794b6fad21e4df38e31128__section_pf4_34z_jyb"/>
 
--   Documentation and resources: [UI5 & TypeScript](https://sap.github.io/ui5-typescript/)
--   Tutorial: [Learn App Development in UI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
+### Further Information
+
+-   Documentation and resources: [OpenUI5 & TypeScript](https://sap.github.io/ui5-typescript/)
+-   Tutorial: [Learn App Development in OpenUI5 and TypeScript](https://github.com/SAP-samples/ui5-typescript-tutorial)
 -   Check our [TypeScript To-Do List](https://sdk.openui5.org/entity/sap.m.sample.TsTodos/sample/sap.m.sample.TsTodos.webapp) demo application, which shows a sample TypeScript setup for developing OpenUI5 applications. You can also [Run the Unit Tests](https://sdk.openui5.org/test-resources/sap/m/demokit/sample/TsTodos/test/unit/unitTests.qunit.html).
 -   For OpenUI5 control development in TypeScript, see [TypeScript Guidelines](TypeScript_Guidelines_192397d.md)
 
 npm Packages \(check the individual packages for licensing information\):
 
--   [UI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/ts-types-esm)
--   [Babel preset UI5 transformer on npm](https://www.npmjs.com/package/babel-preset-transform-ui5) to transform ES modules and classes to classic UI5 code
+-   [SAPUI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/types)
+-   [OpenUI5 type signatures on npm](https://www.npmjs.com/package/@openui5/types)
 
 -   **[TypeScript FAQ](TypeScript_FAQ_8439949.md "")**  
 

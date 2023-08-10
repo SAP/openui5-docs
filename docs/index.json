@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.117": {
 						"link": "What_s_New_in_OpenUI5_1_117_029d3b4.md"
 					},
-					"What's New in OpenUI5 1.116": {
-						"link": "What_s_New_in_OpenUI5_1_116_ebd6f34.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.116": {
+								"link": "What_s_New_in_OpenUI5_1_116_ebd6f34.md"
+							},
 							"What's New in OpenUI5 1.115": {
 								"link": "What_s_New_in_OpenUI5_1_115_409fde8.md"
 							},
