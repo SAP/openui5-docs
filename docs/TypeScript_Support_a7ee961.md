@@ -49,7 +49,7 @@ OpenUI5 with TypeScript is in its final stage of stability, so please go ahead a
 
 For more information, see [here](https://sap.github.io/ui5-typescript/beta-statement.html#why-will-there-still-be-breaking-changes-even-after-the-type-definitions-have-left-beta-stage).
 
-To mitigate breaking changes, you have several options. You can find al list of them here: [How to mitigate breaking changes?](https://sap.github.io/ui5-typescript/beta-statement.html#how-to-mitigate-breaking-changes-within-as-well-as-after-beta-phase)
+To mitigate breaking changes, you have several options; some of them are listed here: [How to mitigate breaking changes?](https://sap.github.io/ui5-typescript/beta-statement.html#how-to-mitigate-breaking-changes-within-as-well-as-after-beta-phase)
 
 ***
 

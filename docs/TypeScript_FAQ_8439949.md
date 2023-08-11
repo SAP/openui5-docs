@@ -21,7 +21,6 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/843994
 -   [How to set up a new OpenUI5 app for TypeScript development?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__howto)
 -   [How can I get an end-to-end hands-on impression of creating and developing a OpenUI5 app in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__handson)
 -   [How to develop custom controls in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__customcontrols)
--   [How to use third-party libraries from npm in OpenUI5 apps?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__thirdpartylib)
 -   [How to test in TypeScript?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__test)
 -   [How to profit from TypeScript even when doing plain JavaScript development?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__profitfromts)
 -   [Are the type definitions ready for productive use?](TypeScript_FAQ_8439949.md#loio8439949bbdc34141bd2b9194f91d42c2__productiveuse)
@@ -67,12 +66,6 @@ To start even faster, see one of the following app templates:
 #### How to develop custom controls in TypeScript?
 
 You can check the [TypeScript Guidelines](TypeScript_Guidelines_192397d.md).
-
-***
-
-#### How to use third-party libraries from npm in OpenUI5 apps?
-
-Third-party libraries written for running in a browser environment can be easily used with very natural `npm install` and `import <moduleName> from <dependencyName>`, resulting in code completion for those libraries and automatic transpiling into OpenUI5’s own AMD-like module format. [Exercise 4 of the TypeScript tutorial](https://github.com/SAP-samples/ui5-typescript-tutorial/tree/main/exercises/ex4) shows how this is done, including the required setup of the [ui5-tooling-modules](https://www.npmjs.com/package/ui5-tooling-modules) extension for the UI5 Tooling.
 
 ***
 
