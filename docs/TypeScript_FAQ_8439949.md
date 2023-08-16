@@ -47,7 +47,7 @@ We publish type definition files describing all the OpenUI5 APIs and types. With
 
 #### How to set up a new OpenUI5 app for TypeScript development?
 
-By adding TypeScript and the OpenUI5 type definitions as dev dependencies and setting up the transpilation step. The [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md) project can serve as copy template and provides a detailed step-by-step guide for setting up a TypeScript project.
+For detailed information on developing applications with OpenUI5, see [Developing Apps](Developing_Apps_23cfd95.md). To write OpenUI5 apps in TypeScript and take advantage of its benefits, you also need to add TypeScript and the OpenUI5 type definitions as dev dependencies. Additionally, you must set up the TypeScript transpilation step. The [`ui5-typescript-helloworld`](https://github.com/SAP-samples/ui5-typescript-helloworld/blob/main/step-by-step.md) project can serve as copy template and provides a detailed step-by-step guide for setting up a TypeScript project.
 
 ***
 
