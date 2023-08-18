@@ -73,6 +73,6 @@ npm Packages \(check the individual packages for licensing information\):
 -   [SAPUI5 type signatures on npm](https://www.npmjs.com/package/@sapui5/types)
 -   [OpenUI5 type signatures on npm](https://www.npmjs.com/package/@openui5/types)
 
--   **[TypeScript FAQ](TypeScript_FAQ_8439949.md "")**  
-
+-   **[TypeScript FAQ](TypeScript_FAQ_8439949.md "Frequently asked questions regarding TypeScript in OpenUI5. ")**  
+Frequently asked questions regarding TypeScript in OpenUI5.
 
