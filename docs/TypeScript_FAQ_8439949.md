@@ -52,6 +52,14 @@ To start even faster, see one of the following app templates:
 
 ***
 
+<a name="loio8439949bbdc34141bd2b9194f91d42c2__section_u3x_rvf_myb"/>
+
+### How to convert an existing OpenUI5 app to TypeScript?
+
+You can follow the four steps explained in the [Converting OpenUI5 Apps from JavaScript to TypeScript](https://github.com/SAP-samples/ui5-cap-event-app/blob/typescript/docs/typescript.md#converting-ui5-apps-from-javascript-to-typescript) .
+
+***
+
 <a name="loio8439949bbdc34141bd2b9194f91d42c2__section_zvl_5wf_myb"/>
 
 ### How to test in TypeScript?
@@ -73,6 +81,24 @@ Check the [TypeScript Guidelines](TypeScript_Guidelines_192397d.md).
 ### How to profit from TypeScript even when doing plain JavaScript development?
 
 Check the `js-with-typescript-support` branch of the [`ui5-cap-event-app`](https://github.com/SAP-samples/ui5-cap-event-app/blob/js-with-typescript-support/README.md) sample app. It explains how to add TypeScript-based benefits to an existing JavaScript app without actually switching to TypeScript development.
+
+***
+
+<a name="loio8439949bbdc34141bd2b9194f91d42c2__section_pv1_gxf_myb"/>
+
+### What are the TypeScript projects and releases provided by the OpenUI5 development team?
+
+We provide type definitions, samples, and various tools. provides generated type definitions for the UI5 APIs, which let TypeScript understand all the involved types, so it can do its job. These definitions are provided both for OpenUI5 in two different flavors. The two flavors are:
+
+-   The new type definitions \(`types`, used to be named `ts-types-esm` before version 1.113\) which require the loading of dependencies as ES modules like import Button from `sap/ui/Button`, encouraging the use of modern JavaScript language features.
+-   The legacy type definitions \(`ts-types`\) which allow the usage of global objects like `sap.ui.Button`. However, we do not recommend their usage.
+
+
+These are the different type definition packages:
+
+-   The new type definitions: [@openui5/types](https://www.npmjs.com/package/@openui5/types)
+-   The legacy type definitions: [@openui5/ts-types](https://www.npmjs.com/package/@openui5/ts-types)
+-   For versions before 1.113 the `types` definitions are available under a different name: [@openui5/ts-types-esm](https://www.npmjs.com/package/@openui5/ts-types-esm)
 
 ***
 
