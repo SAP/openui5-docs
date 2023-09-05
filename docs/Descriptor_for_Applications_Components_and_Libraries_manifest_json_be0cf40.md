@@ -659,7 +659,7 @@ Version 28
 </td>
 <td valign="top">
 
-\>=1.83 \(OpenUI5 1.83 was not released, see [2979657](https://launchpad.support.sap.com/#/notes/2979657)\)
+\>=1.83 \(OpenUI5 1.83 was not released, see [2979657](https://me.sap.com/notes/2979657)\)
 
 
 

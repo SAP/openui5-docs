@@ -100,7 +100,7 @@ Feature
 
 **Accessibility**
 
-We are now using JAWS 2022 as a reference testing environment in OpenUI5. For more information, see the *Assistive technologies reference testing environment for SAPUI5* SAP Note [2564165](https://launchpad.support.sap.com/#/notes/2564165).
+We are now using JAWS 2022 as a reference testing environment in OpenUI5. For more information, see the *Assistive technologies reference testing environment for SAPUI5* SAP Note [2564165](https://me.sap.com/notes/2564165).
 
 <sub>Changed•Feature•Info Only•1.102</sub>
 
