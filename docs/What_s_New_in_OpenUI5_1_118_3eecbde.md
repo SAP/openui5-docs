@@ -8,14 +8,9 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/3eecbdea5f644f0898079d7e24da9d18) | [demo kit latest release](https://sdk.openui5.org/topic/3eecbdea5f644f0898079d7e24da9d18)</div>
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 ## What's New in OpenUI5 1.118
 
 With this release OpenUI5 is upgraded from version 1.117 to 1.118.
-
-> ### Note:  
-> Content marked as <span style="color:#666666;"><span class="SAP-icons"></span></span>**[Preview](https://help.sap.com/docs/whats-new-disclaimer)** is provided as a courtesy, without a warranty, and may be subject to change. For more information, see the [preview disclaimer](https://help.sap.com/docs/whats-new-disclaimer).
 
 ****
 

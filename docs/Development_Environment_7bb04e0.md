@@ -22,7 +22,13 @@ Depending on your use case, the following environments might be interesting for 
 
 [UI5 Tooling](https://sap.github.io/ui5-tooling/) is an open and modular toolchain to develop state-of-the-art OpenUI5 applications. As a modern build and development environment it comes with a [command line interface \(CLI\)](https://sap.github.io/ui5-tooling/pages/CLI/), leverages Node.js and npm, and is being further advanced as an open-source project.
 
-Follow the concise [Getting Started](https://sap.github.io/ui5-tooling/pages/GettingStarted/) documentation for initial project setup.
+Follow these steps to start your UI5 journey with UI5 Tooling:
+
+1.  Install the latest LTS version of [Node.js](https://nodejs.org/)
+
+2.  Open a new terminal and execute `npm i -g @ui5/cli`
+
+You're all set! Start your journey by checking out the [UI5 sample app](https://github.com/SAP/openui5-sample-app) or our [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md).
 
 ***
 

@@ -25,13 +25,9 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 > ### Tip:  
 > You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
 > 
-> You can view and download the samples for all steps in the Demo Kit at [Walkthrough](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough). Depending on your development environment you might have to adjust resource paths and configuration entries.
+> You can view and download the samples for all steps in the Demo Kit at [Walkthrough](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough).
 > 
-> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
-> 
-> -   [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
-> 
-> -   [Adapting Code to Your Development Environment](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> For more information, see the overview page: [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
 1.  [Step 1: Hello World!](Step_1_Hello_World_2680aa9.md "As you know OpenUI5 is
 		all about HTML5. Let’s get started with building a first “Hello World” with only
