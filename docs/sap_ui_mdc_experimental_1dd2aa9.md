@@ -96,3 +96,5 @@ The application startup time benefits from the metadata APIs and the SAPUI5 flex
 
 [API Reference: `sap.ui.mdc`](https://sdk.openui5.org/api/sap.ui.mdc)
 
+[MDC Samples](https://sdk.openui5.org/entity/sap.ui.mdc)
+

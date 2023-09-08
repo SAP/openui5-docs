@@ -27,16 +27,24 @@ This way, they are all in a central place and can be easily translated into othe
 
 ***
 
+<a name="loiodf86bfbeab0645e5b764ffa488ed57dc__section_b1m_wwc_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 8](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.08).
+
+***
+
+<a name="loiodf86bfbeab0645e5b764ffa488ed57dc__section_c1m_wwc_syb"/>
+
+### webapp/i18n/i18n.properties \(New\)
 
 ```ini
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 ```
 
-We create the folder `webapp/i18n` and the file `i18n.properties` inside. The resolved bundle name is `sap.ui.demo.walkthrough.i18n`, as we will see later. The `properties` file for texts contains name-value pairs for each element. You can add any number of parameters to the texts by adding numbers in curly brackets to them. These numbers correspond to the sequence in which the parameters are accessed \(starting with 0\).
+We create the folder `webapp/i18n` and the file `i18n.properties` inside. The resolved bundle name is `ui5.walkthrough.i18n`, as we will see later. The `properties` file for texts contains name-value pairs for each element. You can add any number of parameters to the texts by adding numbers in curly brackets to them. These numbers correspond to the sequence in which the parameters are accessed \(starting with 0\).
 
 In this tutorial we will only have one properties file. However, in real-world projects, you would have a separate file for each supported language with a suffix for the locale, for example`i18n_de.properties` for German, `i18n_en.properties` for English, and so on. When a user runs the app, OpenUI5 will load the language file that fits best to the user's environment.
 
@@ -50,29 +58,33 @@ sap.ui.define([
    "sap/m/MessageToast",
    "sap/ui/model/json/JSONModel",
    "sap/ui/model/resource/ResourceModel"
-], function (Controller, MessageToast, JSONModel, ResourceModel) {
+], (Controller, MessageToast, JSONModel, ResourceModel) => {
    "use strict";
-   return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
-     onInit : function () {
+
+   return Controller.extend("ui5.walkthrough.controller.App", {
+     onInit() {
          // set data model on view
          var oData = {
             recipient : {
                name : "World"
             }
          };
-         var oModel = new JSONModel(oData);
+         const oModel = new JSONModel(oData);
          this.getView().setModel(oModel);
+
          // set i18n model on view
-         var i18nModel = new ResourceModel({
-            bundleName: "sap.ui.demo.walkthrough.i18n.i18n"
+         const i18nModel = new ResourceModel({
+            bundleName: "ui5.walkthrough.i18n.i18n"
          });
          this.getView().setModel(i18nModel, "i18n");
       },
-      onShowHello : function () {
+
+      onShowHello() {
          // read msg from i18n model
-         var oBundle = this.getView().getModel("i18n").getResourceBundle();
-         var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-         var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+         const oBundle = this.getView().getModel("i18n").getResourceBundle();
+         const sRecipient = this.getView().getModel().getProperty("/recipient/name");
+         const sMsg = oBundle.getText("helloMsg", [sRecipient]);
+
          // show message
          MessageToast.show(sMsg);
       }
@@ -80,7 +92,7 @@ sap.ui.define([
 });
 ```
 
-In the `onInit` function we instantiate the `ResourceModel` that points to the new message bundle file where our texts are now located \(`i18n.properties file`\). The bundle name `sap.ui.demo.walkthrough.i18n.i18n` consists of the application namespace `sap.ui.demo.walkthrough` \(the application root as defined in the `index.html`\), the folder name `i18n` and finally the file name `i18n` without extension. The OpenUI5 runtime calculates the correct path to the resource; in this case the path to our `i18n.properties` file. Next, the model instance is set on the view as a named model with the key `i18n`. You use named models when you need to have several models available in parallel.
+In the `onInit` function we instantiate the `ResourceModel` that points to the new message bundle file where our texts are now located \(`i18n.properties file`\). The bundle name `ui5.walkthrough.i18n.i18n` consists of the application namespace `ui5.walkthrough` \(the application root as defined in the `index.html`\), the folder name `i18n` and finally the file name `i18n` without extension. The OpenUI5 runtime calculates the correct path to the resource; in this case the path to our `i18n.properties` file. Next, the model instance is set on the view as a named model with the key `i18n`. You use named models when you need to have several models available in parallel.
 
 In the `onShowHello` event handler function we access the `i18n` model to get the text from the message bundle file and replace the placeholder `{0}` with the recipient from our data model. The `getProperty` method can be called in any model and takes the data path as an argument. In addition, the resource bundle has a specific `getText` method that takes an array of strings as second argument.
 
@@ -92,12 +104,14 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
 
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.App"
+   controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <Button
       text="{i18n>showHelloButtonText}"
       press=".onShowHello"/>
+
    <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"

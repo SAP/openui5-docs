@@ -42,17 +42,17 @@ You can view and download all files at [Walkthrough - Step 3](https://sdk.openui
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SAPUI5 Walkthrough</title>
+	<title>UI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://sdk.openui5.org/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
+		src="resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
-		data-sap-ui-onInit="module:sap/ui/demo/walkthrough/index"
+		data-sap-ui-onInit="module:ui5/walkthrough/index"
 		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "./"
+			"ui5.walkthrough": "./"
 		}'>
 	</script>
 </head>
@@ -75,7 +75,7 @@ The class `sapUiBody` adds additional theme-dependent styles for displaying Open
 sap.ui.define([
 	"sap/m/Text"
 
-], function (Text) {
+], (Text) => {
 	"use strict";
 
 	new Text({
@@ -103,7 +103,7 @@ Don’t forget to remove the “Hello World”.
 
 **Next:**[Step 2: Bootstrap](Step_2_Bootstrap_fe12df2.md "Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called bootstrapping. Once this bootstrapping is finished, we simply display an alert.")
 
-**Previous:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap.m.Text control into a dedicated view.")
+**Previous:**[Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated view.")
 
 **Related Information**  
 

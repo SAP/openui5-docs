@@ -43,11 +43,10 @@ Before we can do something with OpenUI5, we need to load and initialize it. This
 		control sap.m.Text. In the beginning, we will use the JavaScript control
 		interface to set up the UI, the control instance is then placed into the HTML body. ")  
 Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap.m.Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
-4.  [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in
-		a messy setup and there is quite a bit of work ahead of us. So let’s do a first
-		modularization by putting the sap.m.Text control into a dedicated
-			view.")  
-Putting all our UI into the `index.html` file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap.m.Text` control into a dedicated `view`.
+4.  [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead
+		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
+		view.")  
+Putting all our UI into the `index.html` file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
 5.  [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")  

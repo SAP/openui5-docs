@@ -24,25 +24,34 @@ In OpenUI5, resources are often referred to as modules. In this step, we replace
 
 ***
 
+<a name="loiof665d0de4dba405f9af4294de824b03b__section_nlr_cvc_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 6](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.06).
+
+***
+
+<a name="loiof665d0de4dba405f9af4294de824b03b__section_olr_cvc_syb"/>
+
+### webapp/controller/App.controller.js
 
 ```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"
-], function (Controller, MessageToast) {
+], (Controller, MessageToast) => {
    "use strict";
-   return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
-      onShowHello : function () {
+
+   return Controller.extend("ui5.walkthrough.controller.App", {
+      onShowHello() {
          MessageToast.show("Hello World");
       }
    });
 });
 ```
 
-We extend the array of required modules with the fully qualified path to `sap.m.MessageToast`. Once both modules, `Controller` and `MessageToast`, are loaded, the callback function is called and we can make use of both objects by accessing the parameters passed on to the function.
+We extend the array of required modules with the fully qualified path to `sap/m/MessageToast`. Once both modules, `Controller` and `MessageToast`, are loaded, the callback function is called, and we can make use of both objects by accessing the parameters passed to the function.
 
 This Asynchronous Module Definition \(AMD\) syntax allows to clearly separate the module loading from the code execution and greatly improves the performance of the application. The browser can decide when and how the resources are loaded prior to code execution.
 
