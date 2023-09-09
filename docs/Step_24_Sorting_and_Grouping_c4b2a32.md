@@ -24,15 +24,24 @@ To make our list of invoices even more user-friendly, we sort it alphabetically 
 
 ***
 
+<a name="loioc4b2a32bb72f483faa173e890e48d812__section_sxl_41l_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 24](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.24).
 
+***
+
+<a name="loioc4b2a32bb72f483faa173e890e48d812__section_txl_41l_syb"/>
+
+### webapp/view/InvoiceList.view.xml
+
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
+   controllerName="ui5.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <List
       id="invoiceList"
       class="sapUiResponsiveMargin"
@@ -63,9 +72,10 @@ If we run the app now we can see a list of invoices sorted by the name of the pr
 
 ```xml
 <mvc:View
-controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
+controllerName="ui5.walkthrough.controller.InvoiceList"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
+
 <List
 		id="invoiceList"
 		class="sapUiResponsiveMargin"

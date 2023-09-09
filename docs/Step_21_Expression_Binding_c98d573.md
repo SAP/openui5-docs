@@ -24,34 +24,47 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
 
 ***
 
+<a name="loioc98d57347ba444c6945f596584d2db45__section_uzp_rmk_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 21](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.21).
 
+***
+
+<a name="loioc98d57347ba444c6945f596584d2db45__section_vzp_rmk_syb"/>
+
+### webapp/view/InvoiceList.view.xml
+
 ```xml
 <mvc:View
-controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
-xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
-   <List
-      headerText="{i18n>invoiceListTitle}"
-      class="sapUiResponsiveMargin"
-      width="auto"
-      items="{invoice>/Invoices}" >
-      <items>
-         <ObjectListItem
-            title="{invoice>Quantity} x {invoice>ProductName}"
-            number="{
-		parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}],
-		type: 'sap.ui.model.type.Currency',
-		formatOptions: {
-			showMeasure: false
-		}
-		}"
-		numberUnit="{view>/currency}"
-        	numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"/>
-      </items>
-   </List>
+    controllerName="ui5.walkthrough.controller.InvoiceList"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    
+    <List
+        headerText="{i18n>invoiceListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{invoice>/Invoices}">
+        
+        <items>
+            <ObjectListItem
+                title="{invoice>Quantity} x {invoice>ProductName}"
+                number="{
+                    parts: [
+                        'invoice>ExtendedPrice',
+                        'view>/currency'
+                    ],
+                    type: 'sap.ui.model.type.Currency',
+                    formatOptions: {
+                        showMeasure: false
+                    }
+                }"
+                numberUnit="{view>/currency}"
+                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }"/>
+        </items>
+    </List>
 </mvc:View>
 ```
 

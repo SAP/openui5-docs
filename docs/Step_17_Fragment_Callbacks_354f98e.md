@@ -24,44 +24,48 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
 
 ***
 
+<a name="loio354f98ed2b514ba9960556333428d35e__section_mt1_5fk_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 17](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.17).
 
+***
+
+<a name="loio354f98ed2b514ba9960556333428d35e__section_nt1_5fk_syb"/>
+
+### webapp/controller/HelloPanel.controller.js
+
 ```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/m/MessageToast",
-	"sap/ui/core/Fragment"
-], function (Controller, MessageToast, Fragment) {
+	"sap/m/MessageToast"
+], (Controller, MessageToast) => {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.HelloPanel", {
-
-		onShowHello : function () {
+	return Controller.extend("ui5.walkthrough.controller.HelloPanel", {
+		onShowHello() {
 			// read msg from i18n model
-			var oBundle = this.getView().getModel("i18n").getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+			const oBundle = this.getView().getModel("i18n").getResourceBundle();
+			const sRecipient = this.getView().getModel().getProperty("/recipient/name");
+			const sMsg = oBundle.getText("helloMsg", [sRecipient]);
 
 			// show message
 			MessageToast.show(sMsg);
 		},
 
-		onOpenDialog : function () {
-
-			if (!this.pDialog) {
-				this.pDialog = this.loadFragment({
-					name: "sap.ui.demo.walkthrough.view.HelloDialog"
+		onOpenDialog() {
+			// create dialog lazily
+				this.pDialog ??= this.loadFragment({
+					name: "ui5.walkthrough.view.HelloDialog"
 				});
-			} 
-			this.pDialog.then(function(oDialog) {
-				oDialog.open();
+
+			this.pDialog.then((oDialog) => oDialog.open());
 			});
 		},
 
-		onCloseDialog : function () {
-			// note: We don't need to chain to the pDialog promise, since this event-handler
+		onCloseDialog() {
+			// note: We don't need to chain to the pDialog promise, since this event handler
 			// is only called from within the loaded dialog itself.
 			this.byId("helloDialog").close();
 		}
@@ -80,9 +84,11 @@ The event handler function is put into the same controller file and it closes th
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
+
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
+
       <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"

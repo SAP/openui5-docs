@@ -32,34 +32,47 @@ We will now add a dialog to our app. Dialogs are special, because they open on t
 
 ***
 
+<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_kj4_41f_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 16](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.16).
 
+***
+
+<a name="loio4da72985139b4b83b5f1c1e0c0d2ed5a__section_lj4_41f_syb"/>
+
+### webapp/view/HelloPanel.view.xml
+
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+   controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
+
       <Button
          id="helloDialogButton"
          text="{i18n>openDialogButtonText}"
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>
 
+
       <Button
          text="{i18n>showHelloButtonText}"
          press=".onShowHello"
          class="myCustomButton"/>
+
       <Input
          value="{/recipient/name}"
          valueLiveUpdate="true"
          width="60%"/>
+
       <FormattedText
          htmlText="Hello {/recipient/name}"
          class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -80,10 +93,10 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
+
    <Dialog
       id="helloDialog"
-      title="Hello {/recipient/name}">
-   </Dialog>
+      title="Hello {/recipient/name}"/>
 </core:FragmentDefinition>
 ```
 
@@ -97,31 +110,31 @@ The syntax is similar to a view, but since fragments do not have a controller th
 
 ```js
 sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/m/MessageToast",
-	"sap/ui/core/Fragment"
-], function (Controller, MessageToast, Fragment) {
-	"use strict";
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
+], (Controller, MessageToast) => {
+    "use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.HelloPanel", {
+    return Controller.extend("ui5.walkthrough.controller.HelloPanel", {
+        onShowHello() {
+            // read msg from i18n model
+            const oBundle = this.getView().getModel("i18n").getResourceBundle();
+            const sRecipient = this.getView().getModel().getProperty("/recipient/name");
+            const sMsg = oBundle.getText("helloMsg", [sRecipient]);
 
-		onShowHello : function () {
-			…
-		},
-		onOpenDialog : function () {
+            // show message
+            MessageToast.show(sMsg);
+        },
+        onOpenDialog() {
+            // create dialog lazily
+            this.pDialog ??= this.loadFragment({
+                name: "ui5.walkthrough.view.HelloDialog"
+            });
+        
+            this.pDialog.then((oDialog) => oDialog.open());
+        }
 
-			// create dialog lazily
-			if (!this.pDialog) {
-				this.pDialog = this.loadFragment({
-					name: "sap.ui.demo.walkthrough.view.HelloDialog"
-				});
-			} 
-			this.pDialog.then(function(oDialog) {
-				oDialog.open();
-			});
-		}
-
-	});
+    });
 });
 ```
 
@@ -129,14 +142,8 @@ If the dialog in the fragment does not exist yet, the fragment is instantiated b
 
 As you can see in the snippet above, we store the loading `Promise` of the dialog fragment on the controller instance. This allows us to handle the opening of the dialog asynchronously on each click of the `helloDialogButton` button.
 
-To reuse the dialog opening and closing functionality in other controllers, you can create a new file `sap.ui.demo.walkthrough.controller.BaseController`, which extends `sap.ui.core.mvc.Controller`, and put all your dialog-related coding into this controller. Now, all the other controllers can extend from `sap.ui.demo.walkthrough.controller.BaseController` instead of `sap.ui.core.mvc.Controller`.
-
-***
-
-### Conventions
-
--   Private functions and variables should always start with an underscore.
-
+> ### Tip:  
+> To reuse the dialog opening and closing functionality in other controllers, you can create a new file `ui5.walkthrough.controller.BaseController`, which extends `sap.ui.core.mvc.Controller`, and put all your dialog-related coding into this controller. Now, all the other controllers can extend from `ui5.walkthrough.controller.BaseController` instead of `sap.ui.core.mvc.Controller`.
 
 ***
 

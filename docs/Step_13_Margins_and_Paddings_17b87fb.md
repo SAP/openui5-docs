@@ -26,16 +26,25 @@ Instead of manually adding CSS to the controls, we will use the standard classes
 
 ***
 
+<a name="loio17b87fbafb5a4474982760d2a3a73e69__section_wl1_jq2_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 13](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.13).
 
+***
+
+<a name="loio17b87fbafb5a4474982760d2a3a73e69__section_xl1_jq2_syb"/>
+
+### webapp/view/App.view.xml
+
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
+
 	<Shell>
 		<App>
 			<pages>
@@ -46,14 +55,17 @@ You can view and download all files at [Walkthrough - Step 13](https://sdk.openu
 							class="sapUiResponsiveMargin"
 							width="auto">
 							<content>
+
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
 									class="sapUiSmallMarginEnd"/>
+
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
+
 								<Text
 									text="Hello {/recipient/name}"
 									class="sapUiSmallMargin"/>

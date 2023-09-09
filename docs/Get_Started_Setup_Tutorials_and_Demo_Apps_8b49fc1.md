@@ -58,7 +58,7 @@ To download the code from the Demo Kit, follow these steps:
 
 3.  Extract the project folder to a desired location on your local machine.
 
-4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell and execute `npm install`. After all dependencies have been installed, enter `npm start` to start the development server.
+4.  **If you use UI5 Tooling \(recommended\):** At your chosen location, open a new shell and execute `npm install`. After all dependencies have been installed, enter `npm start` to start the development server. \(**Note:** if they're not already present, you may have to create and adjust some project configuration files first; see the [Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md) for an example.\)
 
 5.  Test your project setup by opening one of its HTML pages in your development environment and making sure that the app displays the features exactly as shown in the preview of the step.
 

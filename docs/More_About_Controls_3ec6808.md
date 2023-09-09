@@ -55,7 +55,7 @@ This library contains the `CodeEditor` control.
 		and all its components, base classes for controls, components and the Model-View-Controller
 		(MVC) classes.")**  
 This library contains the jQuery plugins \(`jQuery.sap.*`\), the core and all its components, base classes for controls, components and the Model-View-Controller \(MVC\) classes.
--   **[sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md "The sap.ui.mdc  library contains composite, metadata-driven controls
+-   **[sap.ui.mdc \(experimental\)](sap_ui_mdc_experimental_1dd2aa9.md "The sap.ui.mdc library contains composite, metadata-driven controls
 		that assemble UI elements with predefined user experience and various functionalities. The
 		controls can be used as a basis for scalable application development and can be implemented
 		for use with any OpenUI5 model

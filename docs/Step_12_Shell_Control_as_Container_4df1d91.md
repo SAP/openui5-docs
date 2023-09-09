@@ -24,18 +24,26 @@ Now we use a shell control as container for our app and use it as our new root e
 
 ***
 
+<a name="loio4df1d914e52d4b1aa0805eb01522537e__section_qsr_xp2_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 12](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.12).
 
+***
+
+<a name="loio4df1d914e52d4b1aa0805eb01522537e__section_rsr_xp2_syb"/>
+
+### webapp/view/App.view.xml
+
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-	<Shell>
 
+	<Shell>
 		<App>
 			<pages>
 				<Page title="{i18n>homePageTitle}">
@@ -43,9 +51,11 @@ You can view and download all files at [Walkthrough - Step 12](https://sdk.openu
 						<Panel
 							headerText="{i18n>helloPanelTitle}">
 							<content>
+
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"/>
+
 								<Input
 									value="{/recipient/name}"
 									description="Hello {/recipient/name}"

@@ -24,19 +24,29 @@ Our dialog is still pretty much empty. Since OpenUI5 is shipped with a large ico
 
 ***
 
+<a name="loio776f7352807e4f82b18176c8fbdc0c56__section_pg2_zgk_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 18](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.18).
 
+***
+
+<a name="loio776f7352807e4f82b18176c8fbdc0c56__section_qg2_zgk_syb"/>
+
+### webapp/view/HelloPanel.view.xml
+
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+   controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
+
       <content>
          <Button
             id="helloDialogButton"
@@ -44,14 +54,17 @@ You can view and download all files at [Walkthrough - Step 18](https://sdk.openu
             text="{i18n>openDialogButtonText}"
             press=".onOpenDialog"
             class="sapUiSmallMarginEnd"/>
+
          <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
             class="myCustomButton"/>
+
          <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"
             width="60%"/>
+
            <FormattedText
               htmlText="Hello {/recipient/name}"
               class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -63,7 +76,7 @@ You can view and download all files at [Walkthrough - Step 18](https://sdk.openu
 We add an icon to the button that opens the dialog. The `sap-icon://` protocol is indicating that an icon from the icon font should be loaded. The identifier `world` is the readable name of the icon in the icon font.
 
 > ### Tip:  
-> You can look up other icons using the *Icon Explorer* tool in the Demo Kit.
+> You can look up other icons using the [Icon Explorer tool](https://sdk.openui5.org/test-resources/sap/m/demokit/iconExplorer/webapp/index.html).
 > 
 > To call any icon, use its name as listed in the *Icon Explorer* in <code>sap-icon://<i>&lt;iconname&gt;</i></code>.
 
@@ -75,15 +88,18 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
+
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
+
       <content>
          <core:Icon
             src="sap-icon://hello-world"
             size="8rem"
             class="sapUiMediumMargin"/>
       </content>
+
       <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"

@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/1dd2aa
 The `sap.ui.mdc` library contains composite, metadata-driven controls that assemble UI elements with predefined user experience and various functionalities. The controls can be used as a basis for scalable application development and can be implemented for use with any OpenUI5 model and data protocol.
 
 > ### Note:  
-> For SAPUI5 applications for OData V4, SAP Fiori elements provides a flexible programming model based on the `sap.ui.mdc` library. It offers building blocks that can be used without additional integration effort.
+> For SAPUI5SAP Fiori elements provides a flexible programming model based on the applications for OData V4, `sap.ui.mdc` library. It offers building blocks that can be used without additional integration effort.
 
 > ### Note:  
 > The following sections only provide additional information for some of the controls. For a complete list of all controls and their documentation, see the [API Reference](https://sdk.openui5.org/api) and the [Samples](https://sdk.openui5.org/controls). 
@@ -28,13 +28,13 @@ The `sap.ui.mdc` library contains composite, metadata-driven controls that assem
 
 #### Smart Composite Controls
 
-The `sap.ui.mdc` library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known OpenUI5 development concepts and enterprise-ready qualities are supported out of the box.
+The `sap.ui.mdc` applications for library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known OpenUI5 development concepts and enterprise-ready qualities are supported out of the box.
 
 ***
 
 #### Extensibility of APIs
 
-The controls can be extended by implementable delegates and well-defined APIs for metadata in a unified format. They facilitate XML pre-processing and include as much network-request-dependent information in the XML view cache as possible to speed up the application startup.
+The controls can be extended by implementable delegates and well-defined APIs for metadata in a unified format. They facilitate XML pre-processing and include as much network request-dependent information in the XML view cache as possible to speed up the application startup.
 
 ***
 
@@ -59,15 +59,19 @@ Each `sap.ui.mdc` control consists of a central control part and a delegate that
 
 Controls and delegates can be extended from the base classes by the `sap.ui.mdc` adopter leveraging the predefined default behavior. Only in combination with a delegate does a control offer all the advantages outlined initially.
 
-![Each control needs to be used in combination with a delegate. Controls and their related delegates form a unit that can then be used as described and together with other controls.](images/loio175859c197a7491d91ab81c09b3104d1_LowRes.png)
+The following graphic illustrates this behavior:
+
+![Each control is used in combination with a delegate. Controls and their related delegates form a unit that can then be used as described and together with other controls and their respective delegates.](images/loio175859c197a7491d91ab81c09b3104d1_LowRes.png)
 
 ***
 
 #### Metadata APIs
 
-As `sap.ui.mdc` controls are supposed to work metadata-driven, service-specific metadata is translated into `propertyInfo` objects. They can include basic information, such as a label for a `Field` control, but also more intricate information, such as the information if a table column supports sorting. The `propertyInfo` objects are provided by the application via the delegate but can also be provided on XML view level to be cached and hence speed up the initial rendering.
+As `sap.ui.mdc` controls are supposed to work metadata-driven, service-specific metadata is translated into `propertyInfo` objects. They can include basic information, such as a label for a `Field` control, but also more intricate information, such as the information if a table column supports sorting. The `propertyInfo` objects are provided by the application via the delegate but can also be provided at XML view level to be cached and hence speed up the initial rendering.
 
-![](images/loioa36e1106565d48c08b10fafca377f66a_LowRes.png)
+The following graphic illustrates this behavior:
+
+![The control fetches data from the delegate and retrieves this metadata from a related PropertyInfo object via the delegate.](images/loioa36e1106565d48c08b10fafca377f66a_LowRes.png)
 
 ***
 
@@ -77,7 +81,9 @@ For the integration of SAPUI5 flexibility and its features, the delegates offer 
 
 The integration of SAPUI5 flexibility is taken over by the `sap.m.p13n.Engine`. It can also be used stand-alone to enable personalization including persistency of any OpenUI5 control.
 
-![The controls and their delegates work together with the sap.m.p13n.Engine and SAPUI5 flexibility and the sap.ui.fl library to enable personalization.](images/loio82a3a3262e9c42c59b0a3ac1e15f73e5_LowRes.png)
+The following graphic shows the personalization process:
+
+![The controls and their delegates work together with the sap.m.p13n.Engine and SAPUI5 flexibility with its sap.ui.fl library to enable personalization.](images/loio82a3a3262e9c42c59b0a3ac1e15f73e5_LowRes.png)
 
 ***
 
@@ -85,7 +91,9 @@ The integration of SAPUI5 flexibility is taken over by the `sap.m.p13n.Engine`. 
 
 The application startup time benefits from the metadata APIs and the SAPUI5 flexibility integration. The XML view cache can store the results of the delegate’s metadata processing and the subsequent modification of the XML view by SAPUI5 flexibility change handlers. This behavior should result in a significantly improved performance and fewer requests to the back end, which makes applications cost-efficient.
 
-![Based on the cache check in the XML view, the delegate fetches the metadata. After that, the XML view is modified by SAPUI5 flexibility, which results in the creation of a control of the XML view, which uses the cached scenario for this.](images/loio7a21af4655af428f8791f31a98c89513_LowRes.png)
+The following graphic illustrates this behavior:
+
+![Based on the cache check in the XML view, the delegate fetches the metadata. After that, the XML view is modified by SAPUI5 flexibility, which results in the creation of a control using the cached scenario.](images/loio7a21af4655af428f8791f31a98c89513_LowRes.png)
 
 **Related Information**  
 
@@ -96,5 +104,5 @@ The application startup time benefits from the metadata APIs and the SAPUI5 flex
 
 [API Reference: `sap.ui.mdc`](https://sdk.openui5.org/api/sap.ui.mdc)
 
-[MDC Samples](https://sdk.openui5.org/entity/sap.ui.mdc)
+[Samples](https://sdk.openui5.org/entity/sap.ui.mdc)
 

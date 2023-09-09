@@ -24,9 +24,17 @@ Now that we have established a good structure for our app, it's time to add some
 
 ***
 
+<a name="loiobf71375454654b44af01379a3c3a6273__section_zfj_ljk_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 19](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.19).
+
+***
+
+<a name="loiobf71375454654b44af01379a3c3a6273__section_agj_ljk_syb"/>
+
+### webapp/Invoices.json \(New\)
 
 ```js
 {
@@ -85,13 +93,11 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 {
 …
   "sap.ui5": {
-	"rootView": "sap.ui.demo.walkthrough.view.App",
-[…]
 	"models": {
 	  "i18n": {
 		"type": "sap.ui.model.resource.ResourceModel",
 		"settings": {
-		  "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+		  "bundleName": "ui5.walkthrough.i18n.i18n",
 		  "supportedLocales": [""],
 		  "fallbackLocale": ""
 		}
@@ -116,27 +122,34 @@ We add a new model `invoice` to the `sap.ui5` section of the descriptor. This ti
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-	<Shell>
-		<App class="myAppDemoWT">
-			<pages>
-				<Page title="{i18n>homePageTitle}">
-					<headerContent>
-						<Button
-							icon="sap-icon://hello-world"
-							press=".onOpenDialog"/>
-					</headerContent>
-					<content>
-						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
-						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
-					</content>
-				</Page>
-			</pages>
-		</App>
-	</Shell>
+
+    <Shell>
+        <App class="myAppDemoWT">
+            <pages>
+                <Page title="{i18n>homePageTitle}">
+                    <content>
+                        <Panel
+                            headerText="{i18n>helloPanelTitle}"
+                            class="sapUiResponsiveMargin"
+                            width="auto">
+
+                            <content>
+                                <mvc:XMLView
+                                    viewName="ui5.walkthrough.view.HelloPanel"/>
+                                    
+                                <mvc:XMLView
+                                    viewName="ui5.walkthrough.view.InvoiceList"/>
+                            </content>
+                        </Panel>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>
 
 ```
@@ -151,11 +164,13 @@ In the app view we add a second view to display our invoices below the panel.
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <List
       headerText="{i18n>invoiceListTitle}"
       class="sapUiResponsiveMargin"
       width="auto"
       items="{invoice>/Invoices}" >
+
       <items>
          <ObjectListItem
             title="{invoice>Quantity} x {invoice>ProductName}"/>
@@ -166,7 +181,7 @@ In the app view we add a second view to display our invoices below the panel.
 
 The new view is displaying a list control with a custom header text. The item aggregation of the list is bound to the root path `Invoices` of the JSON data. And since we defined a named model, we have to prefix each binding definition with the identifier `invoice>`.
 
-In the `items` aggregation, we define the template for the list that will be automatically repeated for each invoice of our test data. More precisely, we use an `ObjectListItem` to create a control for each aggregated child of the `items` aggregation. The `title` property of the list item is bound to properties of a single invoice. This is achieved by defining a relative path \(without `/` in the beginning\). This works because we have bound the `items` aggregation via `items={invoice>/Invoices}` to the invoices.
+In the `items` aggregation, we define the template for the list that will be automatically repeated for each invoice of our test data. More precisely, we use an `sap/m/ObjectListItem` to create a control for each aggregated child of the `items` aggregation. The `title` property of the list item is bound to properties of a single invoice. This is achieved by defining a relative path \(without `/` in the beginning\). This works because we have bound the `items` aggregation via `items={invoice>/Invoices}` to the invoices.
 
 ***
 

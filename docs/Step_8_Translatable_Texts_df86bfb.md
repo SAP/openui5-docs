@@ -39,7 +39,7 @@ You can view and download all files at [Walkthrough - Step 8](https://sdk.openui
 
 ### webapp/i18n/i18n.properties \(New\)
 
-```ini
+```
 showHelloButtonText=Say Hello
 helloMsg=Hello {0}
 ```
@@ -64,7 +64,7 @@ sap.ui.define([
    return Controller.extend("ui5.walkthrough.controller.App", {
      onInit() {
          // set data model on view
-         var oData = {
+         const oData = {
             recipient : {
                name : "World"
             }

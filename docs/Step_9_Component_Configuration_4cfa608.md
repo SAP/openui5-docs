@@ -50,7 +50,6 @@ sap.ui.define([
    "use strict";
 
    return UIComponent.extend("", {
-
       init() {
          // call the init function of the parent
          UIComponent.prototype.init.apply(this, arguments);
@@ -78,11 +77,12 @@ sap.ui.define([
       metadata : {
          "interfaces": ["sap.ui.core.IAsyncContentCreation"],
          "rootView": {
-            "viewName": "sap.ui.demo.walkthrough.view.App",
+            "viewName": "ui5.walkthrough.view.App",
             "type": "XML",
             "id": "app"
          }
       },
+
       init() {
          // call the init function of the parent
          UIComponent.prototype.init.apply(this, arguments);

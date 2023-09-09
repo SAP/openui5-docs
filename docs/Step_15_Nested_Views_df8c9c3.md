@@ -25,22 +25,31 @@ Our panel content is getting more and more complex and now it is time to move th
 
 ***
 
+<a name="loiodf8c9c3d79b54c928855162bafcd88ee__section_rjd_vt2_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 15](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.15).
 
+***
+
+<a name="loiodf8c9c3d79b54c928855162bafcd88ee__section_sjd_vt2_syb"/>
+
+### webapp/view/App.view.xml
+
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.App"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
+
 	<Shell>
 		<App class="myAppDemoWT">
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
-						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
+						<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel"/>
 					</content>
 				</Page>
 			</pages>
@@ -58,22 +67,26 @@ Instead of putting the panel and its content directly into our `App` view, we wi
 
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+   controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
+
          <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
             class="myCustomButton"/>
+
          <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"
             width="60%"/>
+
          <FormattedText
             htmlText="Hello {/recipient/name}"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -92,14 +105,16 @@ The whole content for the panel is now added to the new file `HelloPanel.view.xm
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast"
-], function (Controller, MessageToast) {
+], (Controller, MessageToast) => {
    "use strict";
-   return Controller.extend("sap.ui.demo.walkthrough.controller.HelloPanel", {
-      onShowHello : function () {
+
+   return Controller.extend("ui5.walkthrough.controller.HelloPanel", {
+      onShowHello() {
          // read msg from i18n model
-         var oBundle = this.getView().getModel("i18n").getResourceBundle();
-         var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-         var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+         const oBundle = this.getView().getModel("i18n").getResourceBundle();
+         const sRecipient = this.getView().getModel().getProperty("/recipient/name");
+         const sMsg = oBundle.getText("helloMsg", [sRecipient]);
+
          // show message
          MessageToast.show(sMsg);
       }
@@ -116,9 +131,9 @@ To have a reusable asset, the method `onShowHello` is also moved from the app co
 ```js
 sap.ui.define([
    "sap/ui/core/mvc/Controller"
-], function (Controller) {
+], (Controller) => {
    "use strict";
-   return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
+   return Controller.extend("ui5.walkthrough.controller.App", {
    });
 });
 ```

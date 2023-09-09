@@ -58,7 +58,6 @@ You can view and download all files at [Walkthrough - Step 3](https://sdk.openui
 </head>
 <body class="sapUiBody" id="content">
 </body>
-
 </html>
 
 ```
@@ -74,14 +73,12 @@ The class `sapUiBody` adds additional theme-dependent styles for displaying Open
 ```js
 sap.ui.define([
 	"sap/m/Text"
-
 ], (Text) => {
 	"use strict";
 
 	new Text({
 		text: "Hello World"
 	}).placeAt("content");
-
 });
 
 ```

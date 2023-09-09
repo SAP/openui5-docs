@@ -32,21 +32,65 @@ In the real world, data often resides on remote servers and is accessed via an O
 
 ***
 
+<a name="loio44062441f3bd4c67a4f665ae362d1109__section_umn_sdl_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 25](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.25).
 
-```js
+***
+
+<a name="loio44062441f3bd4c67a4f665ae362d1109__section_q14_5fl_syb"/>
+
+### Install Proxy Server
+
+In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, our URI points to the official Northwind OData service. In order to avoid cross-origin resource sharing, the typical procedure is to use a proxy in UI5 Tooling and maintain only a path in the `URI` property of the data source of our app.
+
+A bunch of proxy solutions are available from the UI5 community as [UI5 Tooling custom middleware extensions](https://bestofui5.org/#/packages?tokens=proxy:tag). In this tutorial we'll use [ui5-middleware-simpleproxy](https://bestofui5.org/#/packages/ui5-middleware-simpleproxy). Open a new terminal window in your app root folder and execute `npm i -D ui5-middleware-simpleproxy` to install this package as a new development dependency in your `package.json`.
+
+***
+
+<a name="loio44062441f3bd4c67a4f665ae362d1109__section_mcv_bhl_syb"/>
+
+### ui5.yaml
+
+```
+specVersion: '3.0'
+metadata:
+  name: ui5.walkthrough
+type: application
+framework:
+  name: OpenUI5
+  version: "1.119.0"
+  libraries:
+    - name: sap.m
+    - name: sap.ui.core
+    - name: themelib_sap_horizon
+server:
+  customMiddleware:
+  - name: ui5-middleware-simpleproxy
+    afterMiddleware: compression
+    mountPath: /V2
+    configuration:
+      baseUri: "https://services.odata.org"
+```
+
+We configure the proxy in the `ui5.yaml` file in the app root folder. The `mountPath` property configures which URLs will be caught by the proxy. The `configuration/baseUri` property stores the real server address.
+
+***
+
+<a name="loio44062441f3bd4c67a4f665ae362d1109__section_vmn_sdl_syb"/>
+
+### webapp/manifest.json
+
+```
 {
-	"_version": "1.21.0",
+	"_version": "1.58.0",
 	"sap.app": {
-		...
-		"applicationVersion": {
-			"version": "1.0.0"
-		},
+		...,
 		"dataSources": {
 			"invoiceRemote": {
-				"uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
+				"uri": "V2/Northwind/Northwind.svc/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0"
@@ -54,34 +98,19 @@ You can view and download all files at [Walkthrough - Step 25](https://sdk.openu
 			}
 		}
 	},
-	"sap.ui": {
-		...
-	},
+	...
 	"sap.ui5": {
 		...
 		"models": {
-			"i18n": {
-				"type": "sap.ui.model.resource.ResourceModel",
-				"settings": {
-					"bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-					"supportedLocales": [
-						""
-					],
-					"fallbackLocale": ""
-				}
-			},
+			...
 			"invoice": {
 				"dataSource": "invoiceRemote"
 			}
-		},
-		"resources": {
+		}
 		...
 ```
 
-In the `sap.app` section of the descriptor file, we add a data source configuration. With the `invoiceRemote`, key we specify a configuration object that allows automatic model instantiation. We specify the type of the service \(`OData`\) and the model version \(`2.0`\). In this step, we want to use the publicly available Northwind OData service located at `https://services.odata.org/V2/Northwind/Northwind.svc/`. Therefore, the URI points to the official Northwind OData service.
-
-> ### Note:  
-> In order to avoid the Cross-Origin Resource Sharing problem described below, the typical procedure is to maintain only a path, e.g. `/V2/Northwind/Northwind.svc/`, in the `URI` property of the data source. This, however, also makes the usage of a proxy necessary if the actual OData server resides at a different address.
+In the `sap.app` section of the descriptor file, we add a data source configuration. With the `invoiceRemote` key, we specify a configuration object that allows automatic model instantiation. We specify the type of the service \(`OData`\) and the model version \(`2.0`\).
 
 In the `models` section, we replace the content of the `invoice` model. This key is still used as model name when the model is automatically instantiated during the component initialization. However, the `invoiceRemote` value of the `dataSource` key is a reference to the data source section that we specified above. This configuration allows the component to retrieve the technical information for this model during the start-up of the app.
 
@@ -89,16 +118,6 @@ Our component now automatically creates an instance of `sap.ui.model.odata.v2.OD
 
 > ### Note:  
 > If you want to have a default model on the component, you can change the name of the model to an empty string in the descriptor file. Automatically instantiated models can be retrieved by calling `this.getModel` in the component. In the controllers of component-based apps you can call `this.getView().getModel()` to get the automatically instantiated model. For retrieving a named model you have to pass on the model name defined in the descriptor file to `getModel`, that is, in the component you would call `this.getModel("invoice")` to get our automatically generated `invoice` model that we defined in the descriptor.
-
-You can now try to run the app and see what happens - we will see an error related to our new configuration in the console:
-
-  
-  
-**Violations of the same-origin policy in Google Chrome**
-
-![](images/loio2c36d72282e34903a97197783fe92122_HiRes.png "Violations of the same-origin policy in Google Chrome")
-
-Due to the so called same-origin policy, browsers deny AJAX requests to service endpoints in case the service endpoint has a different domain/subdomain, protocol, or port than the app. The browser refuses to connect to a remote URL directly for security reasons. Depending on your development environment you have different options to overcome this restriction. For more information, see [Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_5bb388f.md).
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
@@ -115,5 +134,5 @@ Due to the so called same-origin policy, browsers deny AJAX requests to service 
 
 [First-Aid Kit](First_Aid_Kit_dfe4f79.md "This section contains the most common issues that you might face when developing OpenUI5 apps and how to solve them.")
 
-[Request Fails Due to Same-Origin Policy \(Cross-Origin Resource Sharing - CORS\)](Request_Fails_Due_to_Same_Origin_Policy_Cross_Origin_Resource_Sharing_CORS_5bb388f.md)
+[UI5 simple proxy middleware](https://bestofui5.org/#/packages/ui5-middleware-simpleproxy)
 

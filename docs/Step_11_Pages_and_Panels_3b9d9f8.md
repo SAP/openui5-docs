@@ -24,13 +24,21 @@ After all the work on the app structure it’s time to improve the look of our a
 
 ***
 
+<a name="loio3b9d9f84930d43df90ad0789d99bd4a3__section_dkx_kp2_syb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 11](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.11).
 
+***
+
+<a name="loio3b9d9f84930d43df90ad0789d99bd4a3__section_ekx_kp2_syb"/>
+
+### webapp/view/App.view.xml
+
 ```xml
 <mvc:View
-   controllerName="sap.ui.demo.walkthrough.controller.App"
+   controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
@@ -41,10 +49,10 @@ You can view and download all files at [Walkthrough - Step 11](https://sdk.openu
                <Panel
                   headerText="{i18n>helloPanelTitle}">
                   <content>
-
                      <Button
                         text="{i18n>showHelloButtonText}"
                         press=".onShowHello"/>
+
                      <Input
                         value="{/recipient/name}"
                         description="Hello {/recipient/name}"
@@ -60,7 +68,7 @@ You can view and download all files at [Walkthrough - Step 11](https://sdk.openu
 
 ```
 
-We put both the input field and the button inside a containing control called `sap.m.Page`. The page provides an aggregation to `0..N` other controls called `content`. It also displays the title attribute in a header section on top of the content. The page itself is placed into the `pages` aggregation of another control called `sap.m.App` which does the following important things for us:
+We put both the input field and the button inside a containing control called `sap/m/Page`. The page provides an aggregation to `0..N` other controls called `content`. It also displays the title attribute in a header section on top of the content. The page itself is placed into the `pages` aggregation of another control called `sap/m/App` which does the following important things for us:
 
 -   It writes a bunch of properties into the header of the `index.html` that are necessary for proper display on mobile devices.
 

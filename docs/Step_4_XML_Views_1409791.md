@@ -80,10 +80,7 @@ sap.ui.define([
 
 	XMLView.create({
 		viewName: "ui5.walkthrough.view.App"
-	}).then(function (oView) {
-		oView.placeAt("content");
-	});
-
+	}).then((oView) => oView.placeAt("content"));
 });
 
 ```

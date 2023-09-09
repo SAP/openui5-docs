@@ -85,7 +85,7 @@ In this step, we load the OpenUI5 framework from the webserver provided by UI5 T
 
 -   We configure the bootstrapping process to run asynchronously. This means that the OpenUI5 resources can be loaded simultaneously in the background for performance reasons.
 
--   We define the module to be loaded initially in a declarative way. With this, we avoid directly executable JavaScript code in the HTML file. This makes your app more secure. We will create the script that this references to further down in this step.
+-   We define the module to be loaded initially in a declarative way. With this, we avoid directly executable JavaScript code in the HTML file. This makes your app more secure. We'll create the script that this refers to further down in this step.
 -   We tell OpenUI5 core that resources in the `ui5.walkthrough` namespace are located in the same folder as `index.html`.
 
 

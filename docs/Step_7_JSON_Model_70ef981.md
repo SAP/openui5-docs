@@ -50,7 +50,7 @@ sap.ui.define([
    return Controller.extend("ui5.walkthrough.controller.App", {
       onInit() {
          // set data model on view
-         var oData = {
+         const oData = {
             recipient : {
                name : "World"
             }
@@ -84,9 +84,11 @@ The message toast is just showing the static "Hello World" message. We will show
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+
    <Button
       text="Say Hello"
       press=".onShowHello"/>
+
    <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"
