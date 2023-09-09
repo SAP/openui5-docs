@@ -34,26 +34,25 @@ You can view and download all files at [Walkthrough - Step 36](https://sdk.openu
 ### webapp/Component.js
 
 ```js
-...
-		init: function () {
-...		},
-...
-		getContentDensityClass : function () {
-			if (!this._sContentDensityClass) {
-				if (!Device.support.touch) {
-					this._sContentDensityClass = "sapUiSizeCompact";
-				} else {
-					this._sContentDensityClass = "sapUiSizeCozy";
-				}
-			}
-			return this._sContentDensityClass;
-		}
+// ...
+init: function() {
+	// ...
+},
 
-	});
-});
+getContentDensityClass: function () {
+	if (!this._sContentDensityClass) {
+		if (!Device.support.touch) {
+			this._sContentDensityClass = "sapUiSizeCompact";
+		} else {
+			this._sContentDensityClass = "sapUiSizeCozy";
+		}
+	}
+	return this._sContentDensityClass;
+}
+// ...
 ```
 
-To prepare the content density feature we will also add a helper method `getContentDensityClass`. OpenUI5 controls can be displayed in multiple sizes, for example in a `compact` size that is optimized for desktop and non-touch devices, and in a `cozy` mode that is optimized for touch interaction. The controls look for a specific CSS class in the HTML structure of the application to adjust their size.
+To prepare the content density feature, we will also add a helper method `getContentDensityClass`. OpenUI5 controls can be displayed in multiple sizes, for example in a "compact" size that is optimized for desktop and non-touch devices, and in a "cozy" mode that is optimized for touch interaction. The controls look for a specific CSS class in the HTML structure of the application to adjust their size.
 
 This helper method queries the `Device` API directly for touch support of the client and returns the CSS class `sapUiSizeCompact` if touch interaction is not supported and `sapUiSizeCozy` for all other cases. We will use it throughout the application coding to set the proper content density CSS class.
 
@@ -76,7 +75,7 @@ sap.ui.define([
 });
 ```
 
-We add a method `onInit` on the app controller that is called when the app view is instantiated. There we query the helper function that we defined on the app component to set the corresponding style class on the app view, All controls inside the app view will now automatically adjust either to the compact or cozy size as defined by the style.
+We add a method `onInit` on the app controller that is called when the app view is instantiated. There we query the helper function that we defined on the app component to set the corresponding style class on the app view. All controls inside the app view will now automatically adjust either to the compact or cozy size as defined by the style.
 
 ***
 
@@ -96,20 +95,19 @@ sap.ui.define([
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
 			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
 			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-		},
 
 			// show message
 			MessageToast.show(sMsg);
 		},
 
 		onOpenDialog : function () {
-			var oView = this.getView();
-
+			// create dialog lazily
 			if (!this.pDialog) {
 				this.pDialog = this.loadFragment({
 					name: "sap.ui.demo.walkthrough.view.HelloDialog"
 				});
-			} 
+			}
+
 			this.pDialog.then(function(oDialog) {
 				oDialog.open();
 			});
@@ -120,7 +118,6 @@ sap.ui.define([
 			// is only called from within the loaded dialog itself.
 			this.byId("helloDialog").close();
 		}
-
 	});
 
 });
@@ -135,17 +132,16 @@ The "Hello World" dialog is not part of the `HelloPanel` view but opened in a sp
 
 ```json
 ...
-  "sap.ui5": {
-    ...     
-    "dependencies": {
-      ...
-    },
-    "contentDensities": {
-      "compact": true,
-      "cozy": true
-    }
-
-  }
+"sap.ui5": {
+	...
+	"dependencies": {
+		...
+	},
+	"contentDensities": {
+		"compact": true,
+		"cozy": true
+	}
+}
 ```
 
 In the `contentDensities` section of the `sap.ui5` namespace, we specify the modes that the application supports. Containers like the SAP Fiori launchpad allow switching the content density based on these settings.
