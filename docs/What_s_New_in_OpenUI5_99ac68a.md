@@ -14,7 +14,9 @@ Find out what's new in the latest versions of OpenUI5.
 
 ***
 
-![](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
+![This interactive graphic provides links to the current and the previous
+							What's New versions and a link to a section that lists all previous
+							versions.](images/loio60070cbcd0b54f31abc595ab4f5adc0e_LowRes.png)
 
 ***
 
