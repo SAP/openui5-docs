@@ -49,66 +49,29 @@ The new `localService` folder contains a `metadata.xml` service description file
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SAPUI5 Walkthrough</title>
+	<title>SAPUI5 UI5 Walkthrough - Mockserver Test Page</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://sdk.openui5.org/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
-		data-sap-ui-libs="sap.m"
-		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "./"
-		}'
-		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+		src="../resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true">
+		data-sap-ui-async="true"
+		data-sap-ui-oninit="module:ui5/walkthrough/test/initMockServer"
+		data-sap-ui-resourceroots='{
+			"ui5.walkthrough": "../"
+		}'>
 	</script>
 </head>
 <body class="sapUiBody" id="content">
-	<div data-sap-ui-component data-name="sap.ui.demo.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
+	<div data-sap-ui-component data-name="ui5.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
 
 </body>
 </html>
-
 ```
 
 We copy the `index.html` to a separate file in the `webapp/test` folder and name it `mockServer.html`. We will now use this file to run our app in test mode with mock data loaded from a JSON file. Test pages should not be placed in the application root folder but in a subfolder called `test` to clearly separate productive and test coding.
 
 From this point on, you have two different entry pages: One for the real “connected” app \(`index.html`\) and one for local testing \(`mockServer.html`\). You can freely decide if you want to do the next steps on the real service data or on the local data within the app.
-
-> ### Note:  
-> If no connection to the real service is available or the proxy configuration from the previous step does not work, you can always use the `mockServer.html` file. This will display the app with simulated test data. The `index.html` file will always load the data from a remote server. If the request fails, the list of invoices will stay empty.
-
-***
-
-<a name="loiobae9d90d2e9c4206889368f04edab508__section_nxn_5zr_yfb"/>
-
-### webapp/test/mockServer.html
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SAPUI5 Walkthrough - Test Page</title>
-	<script
-		id="sap-ui-bootstrap"
-		src="https://sdk.openui5.org/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
-		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "../"
-		}'
-		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/test/initMockServer"
-		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true">
-	</script>
-</head>
-<body class="sapUiBody" id="content">
-	<div data-sap-ui-component data-name="sap.ui.demo.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
-</body>
-</html>
-
-```
 
 We modify the `mockServer.html` file and change the page title to distinguish it from the productive start page. In the bootstrap, the `data-sap-ui-resourceroots` property is also changed. The namespace now points to the folder above \(`"../"`\), because the `mockServer.html` file is now in a subfolder of the `webapp` folder. Instead of loading the app component directly, we now call a script `initMockServer.js`.
 
@@ -121,7 +84,7 @@ We modify the `mockServer.html` file and change the page title to distinguish it
 ```js
 sap.ui.define([
 	"../localService/mockserver"
-], function (mockserver) {
+], (mockserver) => {
 	"use strict";
 
 	// initialize the mock server
@@ -238,17 +201,17 @@ For simplicity, we have removed all content from the original Northwind OData me
 sap.ui.define([
 	"sap/ui/core/util/MockServer",
 	"sap/base/util/UriParameters"
-], function (MockServer, UriParameters) {
+], (MockServer, UriParameters) => {
 	"use strict";
 
 	return {
-		init: function () {
+		init: () {
 			// create
-			var oMockServer = new MockServer({
-				rootUri: "https://services.odata.org/V2/Northwind/Northwind.svc/"
+			const oMockServer = new MockServer({
+				rootUri: sap.ui.require.toUrl("ui5/walkthrough") + "/V2/Northwind/Northwind.svc/"
 			});
 
-			var oUriParameters = new UriParameters(window.location.href);
+			const oUriParameters = new UriParameters(window.location.href);
 
 			// configure mock server with a delay
 			MockServer.config({
@@ -257,7 +220,7 @@ sap.ui.define([
 			});
 
 			// simulate
-			var sPath = sap.ui.require.toUrl("sap/ui/demo/walkthrough/localService");
+			const sPath = sap.ui.require.toUrl("ui5/walkthrough/localService");
 			oMockServer.simulate(sPath + "/metadata.xml", sPath + "/mockdata");
 
 			// start
@@ -273,7 +236,7 @@ Now that we have added the OData service description file `metadata.xml` file, w
 
 We load the standard OpenUI5 `MockServer` module as a dependency and create a helper object that defines an `init` method to start the server. This method is called before the component initialization in the `mockServer.html` file above. The `init` method creates a `MockServer` instance with the same URL as the real service calls.
 
-The URL in configuration parameter `rootUri` has to be exactly the same as the `uri` that is defined for the data source in the `manifest.json` descriptor file. This can be an absolute or, for example in SAP Web IDE, a relative URL to a destination. The URL will now be served by our test server instead of the real service. Next, we set two global configuration settings that tell the server to respond automatically and introduce a delay of 500 ms to imitate a typical server response time. Otherwise, we would have to call the respond method on the `MockServer` manually to simulate the call.
+The URL in the `rootUri` configuration parameter has to point to the same URL as defined in the `uri` property of the data source in the `manifest.json` descriptor file. The URL will now be served by our test server instead of the real service. Next, we set two global configuration settings that tell the server to respond automatically and introduce a delay of 500 ms to imitate a typical server response time. Otherwise, we would have to call the respond method on the `MockServer` manually to simulate the call.
 
 To simulate a service, we can simply call the `simulate` method on the `MockServer` instance with the path to our newly created `metadata.xml`. This will read the test data from our local file system and set up the URL patterns that will mimic the real service.
 
@@ -282,6 +245,26 @@ Finally, we call start on `oMockServer`. From this point, each request to the UR
 This approach is perfect for local testing, even without any network connection. This way your development does not depend on the availability of a remote server, i.e. to run your tests.
 
 Try calling the app with the `index.html` file and the `mockServer.html` file to see the difference. If the real service connection cannot be made, for example when there is no network connection, you can always fall back to the local test page.
+
+***
+
+<a name="loiobae9d90d2e9c4206889368f04edab508__section_lfx_4dg_tyb"/>
+
+### package.json
+
+For easier local development, we adjust the `start` script in the `package.json` to open `mockServer.html` instead of `index.html`:
+
+```
+{
+  "name": "ui5.walkthrough",
+  "version": "1.0.0",
+  "description": "The UI5 walkthrough application",
+  "scripts": {
+      "start": "ui5 serve -o test/mockServer.html"
+  }
+}
+
+```
 
 ***
 

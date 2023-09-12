@@ -74,7 +74,7 @@ Instead of putting the panel and its content directly into our `App` view, we wi
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
-      width="auto" >
+      width="auto">
       <content>
 
          <Button

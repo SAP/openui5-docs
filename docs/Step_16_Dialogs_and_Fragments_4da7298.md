@@ -62,7 +62,6 @@ You can view and download all files at [Walkthrough - Step 16](https://sdk.openu
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>
 
-
       <Button
          text="{i18n>showHelloButtonText}"
          press=".onShowHello"
@@ -92,7 +91,7 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 ```xml
 <core:FragmentDefinition
    xmlns="sap.m"
-   xmlns:core="sap.ui.core" >
+   xmlns:core="sap.ui.core">
 
    <Dialog
       id="helloDialog"

@@ -13,7 +13,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/0cb44d
 With OpenUI5 1.116, the framework starts leveraging features of modern ECMAScript, up to and including [ES2022](https://262.ecma-international.org/13.0/). You have to consider certain restrictions when using modern ECMAScript with your UI5 project.
 
 > ### Caution:  
-> The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written, for instance, in TypeScript, you have to make sure that the listed constraints are met by the transpiled code.
+> The restrictions described here apply to the usage of modern ECMAScript features in projects that are written in native JavaScript. If your project is written in TypeScript, you only have to make sure that the listed constraints are met by the transpiled code.
 
 ***
 

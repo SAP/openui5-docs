@@ -89,25 +89,29 @@ The `invoices` file simply contains five invoices in a JSON format that we can u
 
 ### webapp/manifest.json
 
-```js
+```
 {
-…
+  ...
   "sap.ui5": {
-	"models": {
-	  "i18n": {
-		"type": "sap.ui.model.resource.ResourceModel",
-		"settings": {
-		  "bundleName": "ui5.walkthrough.i18n.i18n",
-		  "supportedLocales": [""],
-		  "fallbackLocale": ""
-		}
-	  },
-	  "invoice": {
-		"type": "sap.ui.model.json.JSONModel",
-		"uri": "Invoices.json"
-	  }
-	}
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ui5.walkthrough.i18n.i18n",
+          "supportedLocales": [
+            ""
+          ],
+          "fallbackLocale": ""
+        }
+      },
+      "invoice": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "Invoices.json"
+      }
+
+    }
   }
+  ...
 }
 ```
 

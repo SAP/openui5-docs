@@ -83,7 +83,7 @@ The event handler function is put into the same controller file and it closes th
 ```xml
 <core:FragmentDefinition
    xmlns="sap.m"
-   xmlns:core="sap.ui.core" >
+   xmlns:core="sap.ui.core">
 
    <Dialog
       id="helloDialog"

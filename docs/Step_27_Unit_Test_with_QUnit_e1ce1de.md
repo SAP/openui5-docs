@@ -46,69 +46,48 @@ We add a new folder `unit` under the `test` folder and a `model` subfolder where
 ### webapp/test/unit/model/formatter.js
 
 ```js
-/*global QUnit*/
-
 sap.ui.define([
-	"sap/ui/demo/walkthrough/model/formatter",
-	"sap/ui/model/resource/ResourceModel"
-], function (formatter, ResourceModel) {
+	"ui5/walkthrough/model/formatter"
+], (formatter) => {
 	"use strict";
 
-	QUnit.module("Formatting functions", {
-		beforeEach: function () {
-			this._oResourceModel = new ResourceModel({
-				bundleUrl: sap.ui.require.toUrl("sap/ui/demo/walkthrough") + "/i18n/i18n.properties"
-			});
-		},
-		afterEach: function () {
-			this._oResourceModel.destroy();
-		}
+	QUnit.module("Formatting functions", {});
+
+	QUnit.test("Should return the translated texts", (assert) => {
+        const oResourceModel = new ResourceModel({
+            bundleUrl: sap.ui.require.toUrl("ui5/walkthrough/i18n/i18n.properties"),
+            supportedLocales: [
+                ""
+            ],
+            fallbackLocale: ""
+        });
+
+        const oControllerMock = {
+            getOwnerComponent() {
+                return {
+                    getModel() {
+                        return oResourceModel;
+                    }
+                };
+            }
+        };
+
+        const fnIsolatedFormatter = formatter.statusText.bind(oControllerMock);
+
+        // Assert
+        assert.strictEqual(fnIsolatedFormatter("A"), "New", "The long text for Status A is correct");
+        assert.strictEqual(fnIsolatedFormatter("B"), "In Progress", "The long text for Status B is correct");
+        assert.strictEqual(fnIsolatedFormatter("C"), "Done", "The long text for Status C is correct");
+        assert.strictEqual(fnIsolatedFormatter("Foo"), "Foo", "The long text for Status Foo is correct");
 	});
-
-
-	QUnit.test("Should return the translated texts", function (assert) {
-
-		// Arrange
-		// this.stub() does not support chaining and always returns the right data
-		// even if a wrong or empty parameter is passed.
-		var oModel = this.stub();
-		oModel.withArgs("i18n").returns(this._oResourceModel);
-		var oViewStub = {
-			getModel: oModel
-		};
-		var oControllerStub = {
-			getView: this.stub().returns(oViewStub)
-		};
-
-		// System under test
-		var fnIsolatedFormatter = formatter.statusText.bind(oControllerStub);
-
-		// Assert
-		assert.strictEqual(fnIsolatedFormatter("A"), "New", "The long text for status A is correct");
-
-		assert.strictEqual(fnIsolatedFormatter("B"), "In Progress", "The long text for status B is correct");
-
-		assert.strictEqual(fnIsolatedFormatter("C"), "Done", "The long text for status C is correct");
-
-		assert.strictEqual(fnIsolatedFormatter("Foo"), "Foo", "The long text for status Foo is correct");
-	});
-
 });
 ```
 
-We create a new `formatter.js` file under `webapp/test/unit/model` where the unit test for the custom formatter is implemented. The `formatter` file that we want to test is loaded as a dependency. We also need a dependency to the `ResourceModel`, because we want to check if the translated texts are correct.
+We create a new `formatter.js` file under `webapp/test/unit/model` where the unit test for the custom formatter is implemented. The `formatter` file that we want to test is loaded as a dependency.
 
-The formatter file just contains one QUnit module for our formatter function. It instantiates our `ResourceBundle` with the localized texts in the `beforeEach` function and destroys it again in the `afterEach` function. These functions are called before and after each test is executed.
+The formatter file just contains one QUnit module for our formatter function and one unit test for the formatter function. In the implementation of the `statusText` function that we created in Step 23, we use the translated texts when calling the formatter. As we do not want to test the UI5 binding functionality, we just use text in the test instead of a `ResourceBundle`.
 
-Next is our unit test for the formatter function. In the implementation of the `statusText` function that we created in step 23 we access the `ResourceBundle` with the following queued call: `var resourceBundle = this.getView().getModel("i18n").getResourceBundle();`.
-
-Since we do not want to test the controller, the view, or the model functionality, we first remove the dependencies by replacing these calls with empty hulls with the help of `SinonJS` and its stub method. This happens in the `Arrange` section of the unit test. SinonJS injects a stub method for all objects so we can simply call `this.stub()` to create a new stub for any behavior we need to mock.
-
-Test stubs are functions with pre-programmed behavior. They support the full SinonJS test spy API in addition to methods which can be used to alter the stub’s behavior. If this part is a bit confusing have a look at the official SinonJS documentation for test spies or ignore it for now, it will become clear later on.
-
-Then we bind our stub to the `statusText` formatter by calling the `bind` function of JavaScript. The `this` pointer is now bound to our controller stub when the function is invoked using the variable `fnIsolatedFormatter` and we can still pass in arguments as we like. This happens in the "system under test" part of the test.
-
-Finally we perform our assertions. We check each branch of the formatter logic by invoking the isolated formatter function with the values that we expect in the data model \(`A`, `B`, `C`, and everything else\). We strictly compare the result of the formatter function with the hard-coded strings that we expect from the resource bundle and give a meaningful error message if the test should fail. We hard-code the strings here to identify issues with the resource bundle properties. If a property was missing, the test would still be successful if we check against the real value \(that would be an empty string on both sides\) from the resource bundle.
+Finally, we perform our assertions. We check each branch of the formatter logic by invoking the isolated formatter function with the values that we expect in the data model \(`A`, `B`, `C`, and everything else\). We strictly compare the result of the formatter function with the hard-coded strings that we expect from the resource bundle and give a meaningful error message if the test should fail.
 
 ***
 
@@ -120,25 +99,22 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unit tests for SAPUI5 Walkthrough</title>
+	<title>Unit tests for UI5 Walkthrough</title>
 	<meta charset="utf-8">
 
 	<script
 		id="sap-ui-bootstrap"
-		src="https://sdk.openui5.org/resources/sap-ui-core.js"
+		src="../../resources/sap-ui-core.js"
 		data-sap-ui-resourceroots='{
-			"sap.ui.demo.walkthrough": "../../"
+			"ui5.walkthrough": "../../"
 		}'
 		data-sap-ui-async="true">
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/sap/ui/thirdparty/qunit-2.css">
 
-	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/qunit-2.js"></script>
-	<script src="https://sdk.openui5.org/resources/sap/ui/qunit/qunit-junit.js"></script>
-	<script src="https://sdk.openui5.org/resources/sap/ui/qunit/qunit-coverage.js"></script>
-	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/sinon.js"></script>
-	<script src="https://sdk.openui5.org/resources/sap/ui/thirdparty/sinon-qunit.js"></script>
+	<script src="../../resources/sap/ui/thirdparty/qunit-2.js"></script>
+	<script src="../../resources/sap/ui/qunit/qunit-junit.js"></script>
 
 	<script src="unitTests.qunit.js"></script>
 </head>
@@ -147,7 +123,6 @@ Finally we perform our assertions. We check each branch of the formatter logic b
 	<div id="qunit-fixture"/>
 </body>
 </html>
-
 ```
 
 The so-called QUnit test suite is an HTML page that triggers all QUnit tests for the application. Most of it is generating the layout of the result page that you can see in the preview and we won’t further explain these parts but focus on the application parts instead.
@@ -163,20 +138,17 @@ First, we load some basic QUnit functionality via script tags. Other QUnit tests
 ### webapp/test/unit/unitTests.qunit.js \(New\)
 
 ```js
-/* global QUnit */
-
 QUnit.config.autostart = false;
 
-sap.ui.getCore().attachInit(function () {
+sap.ui.getCore().attachInit(() => {
 	"use strict";
 
 	sap.ui.require([
-		"sap/ui/demo/walkthrough/test/unit/model/formatter"
-	], function () {
+		"ui5/walkthrough/test/unit/model/formatter"
+	], () => {
 		QUnit.start();
 	});
 });
-
 ```
 
 This script loads and executes our formatter. If we now open the `webapp/test/unit/unitTests.qunit.html` file in the browser, we should see our test running and verifying the formatter logic.
