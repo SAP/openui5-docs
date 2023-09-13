@@ -227,7 +227,6 @@ sap.ui.define([
 			oMockServer.start();
 		}
 	};
-
 });
 
 ```

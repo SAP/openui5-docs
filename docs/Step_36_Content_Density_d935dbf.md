@@ -35,20 +35,12 @@ You can view and download all files at [Walkthrough - Step 36](https://sdk.openu
 
 ```js
 ...
-		init: function () {
+		init() {
 ...		},
 ...
-		getContentDensityClass : function () {
-			if (!this._sContentDensityClass) {
-				if (!Device.support.touch) {
-					this._sContentDensityClass = "sapUiSizeCompact";
-				} else {
-					this._sContentDensityClass = "sapUiSizeCozy";
-				}
-			}
-			return this._sContentDensityClass;
+		getContentDensityClass() {
+			return Device.support.touch ? "sapUiSizeCozy" : "sapUiSizeCompact";
 		}
-
 	});
 });
 ```
@@ -64,70 +56,19 @@ This helper method queries the `Device` API directly for touch support of the cl
 ```js
 sap.ui.define([
 	"sap/ui/core/mvc/Controller"
-], function (Controller) {
+], (Controller) => {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
+	return Controller.extend("ui5.walkthrough.controller.App", {
 
-		onInit: function () {
+		onInit() {
 			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
 		}
 	});
 });
 ```
 
-We add a method `onInit` on the app controller that is called when the app view is instantiated. There we query the helper function that we defined on the app component to set the corresponding style class on the app view, All controls inside the app view will now automatically adjust either to the compact or cozy size as defined by the style.
-
-***
-
-### webapp/controller/HelloPanel.controller.js
-
-```js
-sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/m/MessageToast"
-], function (Controller, MessageToast) {
-	"use strict";
-
-	return Controller.extend("sap.ui.demo.walkthrough.controller.HelloPanel", {
-
-		onShowHello : function () {
-			// read msg from i18n model
-			var oBundle = this.getView().getModel("i18n").getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-		},
-
-			// show message
-			MessageToast.show(sMsg);
-		},
-
-		onOpenDialog : function () {
-			var oView = this.getView();
-
-			if (!this.pDialog) {
-				this.pDialog = this.loadFragment({
-					name: "sap.ui.demo.walkthrough.view.HelloDialog"
-				});
-			} 
-			this.pDialog.then(function(oDialog) {
-				oDialog.open();
-			});
-		},
-
-		onCloseDialog : function () {
-			// note: We don't need to chain to the pDialog promise, since this event-handler
-			// is only called from within the loaded dialog itself.
-			this.byId("helloDialog").close();
-		}
-
-	});
-
-});
-
-```
-
-The "Hello World" dialog is not part of the `HelloPanel` view but opened in a special part of the DOM called "static area".
+We add an `onInit` method to the app controller that is called when the app view is instantiated. There, we query the helper function that we defined on the app component in order to set the corresponding style class on the app view. All controls inside the app view will now automatically adjust to either the compact or the cozy size, as defined by the style.
 
 ***
 
@@ -136,37 +77,25 @@ The "Hello World" dialog is not part of the `HelloPanel` view but opened in a sp
 ```json
 ...
   "sap.ui5": {
-    ...     
-    "dependencies": {
-      ...
+    ...  
     },
     "contentDensities": {
       "compact": true,
       "cozy": true
     }
-
+    ...
   }
 ```
 
-In the `contentDensities` section of the `sap.ui5` namespace, we specify the modes that the application supports. Containers like the SAP Fiori launchpad allow switching the content density based on these settings.
+In the `contentDensities` section of the `sap.ui5` namespace, we have to specify the modes that the application supports. Containers like the SAP Fiori launchpad allow switching the content density based on these settings.
 
 As we have just enabled the app to run in both modes depending on the devices capabilities, we can set both to `true` in the application descriptor.
-
-***
-
-<a name="loiod935dbf196d34997bf1ac42ac3e81579__section_kpq_zct_qbb"/>
-
-### Summary
-
-You should now be familiar with the major development paradigms and concepts of OpenUI5 and have created a very simple first app. You are now ready to build a proper app based on what you've learned.
-
-If you want to dive deeper into specific topics, you can use the other tutorials that show some of the aspects of this Walkthrough and advanced topics in more detail.
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:**[Step 35: Device Adaptation](Step_35_Device_Adaptation_d63a15e.md "We now configure the visibility and properties of controls based on the device that we run the application on. By making use of the sap.ui.Device API and defining a device model we will make the app look great on many devices.")
 
-**Previous:**[Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "As the last step in this tutorial, we are going to improve the accessibility of our app.")
+**Previous:**[Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "In this step we're going to improve the accessibility of our app.")
 
 **Related Information**  
 

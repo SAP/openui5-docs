@@ -34,50 +34,65 @@ Luckily, OpenUI5 provides a couple of debugging tools that we can use within the
 
 You can view and download all files at [Walkthrough - Step 29](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.29).
 
+***
+
+<a name="loio1ff250c2038849f5991209f7e6c36f1f__section_ykp_sth_tyb"/>
+
+### webapp/view/InvoiceList.view.xml
+
 ```xml
 <mvc:View
-		controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
-		xmlns="sap.m"
-		xmlns:mvc="sap.ui.core.mvc">
-	<List
-			id="invoiceList"
-			class="sapUiResponsiveMargin"
-			width="auto"
-			items="{
-			path : 'invoice>/Invoices',
-			sorter : {
-				path : 'ShipperName',
-				group : true
-			}
-		}">
-		<headerToolbar>
-			<Toolbar>
-				<Title text="{i18n>invoiceListTitle}"/>
-				<ToolbarSpacer/>
-				<SearchField width="50%" search=".onFilterInvoices"/>
-			</Toolbar>
-		</headerToolbar>
-		<items>
-			<ObjectListItem
-					title="{invoice>Quantity} x {invoice>ProductName}"
-					number="{
-					parts: [{path: 'invoice>ExTendedPrice'}, {path: 'view>/currency'}],
-					type: 'sap.ui.model.type.Currency',
-					formatOptions: {
-						showMeasure: false
-					}
-				}"
-				numberUnit="{view>/currency}"
-					numberState="{=	${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
-				<attributes>
-					<ObjectAttribute text="{
-						path: 'invoice>Status',
-						formatter: '.formatter.statusText'
-					}"/>
-				</attributes>
-			</ObjectListItem>
-		</items>
-	</List>
+    controllerName="ui5.walkthrough.controller.InvoiceList"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+
+    <List
+        id="invoiceList"
+        headerText="{i18n>invoiceListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{
+            path : 'invoice>/Invoices',
+            sorter : {
+                path : 'ShipperName',
+                group : true
+            }
+        }">
+
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>invoiceListTitle}" />
+                <ToolbarSpacer />
+                <SearchField
+                    width="50%"
+                    search=".onFilterInvoices"/>
+            </Toolbar>
+        </headerToolbar>
+        <items>
+            <ObjectListItem
+                title="{invoice>Quantity} x {invoice>ProductName}"
+                number="{
+                    parts: [
+                        'invoice>ExTendedPrice',
+                        'view>/currency'
+                    ],
+                    type: 'sap.ui.model.type.Currency',
+                    formatOptions: {
+                        showMeasure: false
+                    }
+                }"
+                numberUnit="{view>/currency}"
+                numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
+                <firstStatus>
+                    <ObjectStatus
+                        text="{
+                            path: 'invoice>Status',
+                            formatter: '.formatter.statusText'
+                        }"/>
+                </firstStatus>
+            </ObjectListItem>
+        </items>
+    </List>
 </mvc:View>
 ```
 
@@ -90,9 +105,12 @@ Besides technical information about the app and a trace that is similar to the d
 
 A hierarchical tree of OpenUI5 controls is shown on the left and the properties of the selected control are displayed on the right. If we now select the first `ObjectListItem` control of the tree and go to the *Binding Infos* tab on the right, we can actually see that the binding path of the number attribute is marked as invalid. We can now correct the error in the view and the price should appear in the list of invoices again.
 
-Sometimes errors are not as easy to spot and you actually need to debug the JavaScript code with the tools of the browser. For performance reasons, the OpenUI5 files are shipped in a minified version, this means that all possible variable names are shortened and comments are removed.
+Sometimes errors are not as easy to spot and you actually need to debug the JavaScript code with the tools of the browser.
 
-This makes debugging harder because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\]  and selecting *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files with the `–dbg` suffix are loaded. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
+> ### Note:  
+> When debugging UI5 applications that use built resources, the OpenUI5 files are minified, which means that variable names are shortened and comments are removed.
+> 
+> This makes debugging harder, because the code is a lot less readable. You can load the debug sources by adding the URL parameter `sap-ui-debug=true` or by pressing [Ctrl\] + [Shift\] + [Alt\] /[Option\] + [P\]  and selecting *Use Debug Sources* in the dialog box that is displayed. After reloading the page, you can see in the *Network* tab of the browser’s developer tools that now a lot of files are loaded that have a `–dbg` suffix. These are the source code files that include comments and the uncompressed code of the app and the OpenUI5 artifacts.
 
   
   

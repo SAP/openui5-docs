@@ -24,19 +24,29 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
 
 ***
 
+<a name="loio8ef57cfd37b44f089f7e3b52d56597eb__section_l5n_zvm_tyb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 32](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.32).
 
+***
+
+<a name="loio8ef57cfd37b44f089f7e3b52d56597eb__section_m5n_zvm_tyb"/>
+
+### webapp/view/Detail.view.xml
+
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.Detail"
+	controllerName="ui5.walkthrough.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
+
 	<Page
 		title="{i18n>detailPageTitle}"
 		showNavButton="true"
 		navButtonPress=".onNavBack">
+
 		<ObjectHeader
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
@@ -54,35 +64,34 @@ On the detail page, we tell the control to display a back button by setting the 
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/core/routing/History"
-], function (Controller, History) {
+], (Controller, History) => {
 	"use strict";
 
-	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
+	return Controller.extend("ui5.walkthrough.controller.Detail", {
 
-		onInit: function () {
-			var oRouter = this.getOwnerComponent().getRouter();
-			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
+		onInit() {
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
 		},
 
-		_onObjectMatched: function (oEvent) {
+		onObjectMatched(oEvent) {
 			this.getView().bindElement({
 				path: "/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
 				model: "invoice"
 			});
 		},
 
-		onNavBack: function () {
-			var oHistory = History.getInstance();
-			var sPreviousHash = oHistory.getPreviousHash();
+		onNavBack() {
+			const oHistory = History.getInstance();
+			const sPreviousHash = oHistory.getPreviousHash();
 
 			if (sPreviousHash !== undefined) {
 				window.history.go(-1);
 			} else {
-				var oRouter = this.getOwnerComponent().getRouter();
+				const oRouter = this.getOwnerComponent().getRouter();
 				oRouter.navTo("overview", {}, true);
 			}
 		}
-
 	});
 });
 

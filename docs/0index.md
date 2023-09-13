@@ -145,6 +145,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
             -   [Step 35: Device Adaptation](Step_35_Device_Adaptation_d63a15e.md)
             -   [Step 36: Content Density](Step_36_Content_Density_d935dbf.md)
             -   [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md)
+            -   [Step 38: Build Your Application](Step_38_Build_Your_Application_ae1be8c.md)
         -   [Troubleshooting Tutorial](Troubleshooting_Tutorial_5661952.md)
             -   [Step 1: Browser Developer Tools](Step_1_Browser_Developer_Tools_eadd60a.md)
             -   [Step 2: Technical Information Dialog](Step_2_Technical_Information_Dialog_63c97ef.md)

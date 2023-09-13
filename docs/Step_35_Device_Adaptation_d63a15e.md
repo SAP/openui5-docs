@@ -25,21 +25,31 @@ We now configure the visibility and properties of controls based on the device t
 
 ***
 
+<a name="loiod63a15e5eebb45cdada317bae5f45bc2__section_qzn_hln_tyb"/>
+
 ### Coding
 
 You can view and download all files at [Walkthrough - Step 35](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough/sample/sap.m.tutorial.walkthrough.35).
 
+***
+
+<a name="loiod63a15e5eebb45cdada317bae5f45bc2__section_rzn_hln_tyb"/>
+
+### webapp/view/HelloPanel.view.xml
+
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+	controllerName="ui5.walkthrough.controller.HelloPanel"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
+
 	<Panel
 		headerText="{i18n>helloPanelTitle}"
 		class="sapUiResponsiveMargin"
 		width="auto"
 		expandable="{device>/system/phone}"
 		expanded="{= !${device>/system/phone} }">
+
 		<content>
 			<Button
 				id="helloDialogButton"
@@ -47,14 +57,17 @@ You can view and download all files at [Walkthrough - Step 35](https://sdk.openu
 				text="{i18n>openDialogButtonText}"
 				press=".onOpenDialog"
 				class="sapUiSmallMarginEnd sapUiVisibleOnlyOnDesktop"/>
+
 			<Button
 				text="{i18n>showHelloButtonText}"
 				press=".onShowHello"
 				class="myCustomButton"/>
+
 			<Input
 				value="{/recipient/name}"
 				valueLiveUpdate="true"
 				width="60%"/>
+
 			<FormattedText
 				htmlText="Hello {/recipient/name}"
 				class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -79,27 +92,27 @@ sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/Device"
-], function (UIComponent, JSONModel, Device) {
+], (UIComponent, JSONModel, Device) => {
 	"use strict";
-	return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
+
+	return UIComponent.extend("ui5.walkthrough.Component", {
 		metadata: {
 			interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
 		},
-		init: function () {
+
+		init() {
 			// call the init function of the parent
 			UIComponent.prototype.init.apply(this, arguments);
 
 			// set data model
-			var oData = {
+			const oData = {
 				recipient: {
 					name: "World"
 				}
 			};
-			var oModel = new JSONModel(oData);
+			const oModel = new JSONModel(oData);
 			this.setModel(oModel);
-			// disable batch grouping for v2 API of the northwind service
-			this.getModel("invoice").setUseBatch(false);
 
 			// set device model
 			var oDeviceModel = new JSONModel(Device);
@@ -109,7 +122,6 @@ sap.ui.define([
 			// create the views based on the url/hash
 			this.getRouter().initialize();
 		}
-
 	});
 });
 ```
@@ -128,43 +140,57 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.Detail"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:wt="sap.ui.demo.walkthrough.control">
-	<Page
-		title="{i18n>detailPageTitle}"
-		showNavButton="true"
-		navButtonPress=".onNavBack">
-		<ObjectHeader
-			responsive="true"
-			fullScreenOptimized="true"
-			number="{
-				parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}],
-				type: 'sap.ui.model.type.Currency',
-				formatOptions: {
-					showMeasure: false
-				}
-			}"
-			numberUnit="{view>/currency}"
-			intro="{invoice>ShipperName}"
-			title="{invoice>ProductName}">
-			<attributes>
-				<ObjectAttribute title="{i18n>quantityTitle}" text="{invoice>Quantity}"></ObjectAttribute>
-				<ObjectAttribute title="{i18n>dateTitle}" text="{
-					path: 'invoice>ShippedDate',
-					type: 'sap.ui.model.type.Date',
-					formatOptions: {
-					  style: 'long',
-					  source: {
-						pattern: 'yyyy-MM-ddTHH:mm:ss'
-					  }
-					}
-				  }"/>
-			</attributes>
-		</ObjectHeader>
-		<wt:ProductRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
-	</Page>
+    controllerName="ui5.walkthrough.controller.Detail"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:wt="ui5.walkthrough.control">
+
+    <Page
+        title="{i18n>detailPageTitle}"
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+
+        <ObjectHeader
+            responsive="true"
+            fullScreenOptimized="true"
+            number="{
+                parts: [
+                    'invoice>ExtendedPrice',
+                    'view>/currency'
+                ],
+                type: 'sap.ui.model.type.Currency',
+                formatOptions: {
+                    showMeasure: false
+                }
+            }"
+            numberUnit="{view>/currency}"
+            intro="{invoice>ShipperName}"
+            title="{invoice>ProductName}">
+
+            <attributes>
+                <ObjectAttribute
+                    title="{i18n>quantityTitle}"
+                    text="{invoice>Quantity}"/>
+
+                <ObjectAttribute
+                    title="{i18n>dateTitle}"
+                    text="{
+                        path: 'invoice>ShippedDate',
+                        type: 'sap.ui.model.type.Date',
+                        formatOptions: {
+                            style: 'long',
+                            source: {
+                            pattern: 'yyyy-MM-ddTHH:mm:ss'
+                            }
+                        }
+                    }"/>
+            </attributes>
+        </ObjectHeader>
+        <wt:ProductRating
+            id="rating"
+            class="sapUiSmallMarginBeginEnd"
+            change=".onRatingChange"/>
+    </Page>
 </mvc:View>
 ```
 
@@ -184,20 +210,21 @@ sap.ui.define([
 	"sap/ui/core/routing/History",
 	"sap/m/MessageToast",
 	"sap/ui/model/json/JSONModel"
-
-], function (Controller, History, MessageToast, JSONModel) {
+], (Controller, History, MessageToast, JSONModel) => {
 	"use strict";
-	return Controller.extend("sap.ui.demo.walkthrough.controller.Detail", {
-		onInit : function () {
-			var oViewModel = new JSONModel({
+
+	return Controller.extend("ui5.walkthrough.controller.Detail", {
+		onInit() {
+			const oViewModel = new JSONModel({
 				currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
 
-			var oRouter = this.getOwnerComponent().getRouter();
-			oRouter.getRoute("detail").attachPatternMatched(this._onObjectMatched, this);
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
 		},
-		_onObjectMatched : …
+		…
+	});
 });
 ```
 

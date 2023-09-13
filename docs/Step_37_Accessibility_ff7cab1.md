@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ff7cab
 
 ## Step 37: Accessibility
 
-As the last step in this tutorial, we are going to improve the accessibility of our app.
+In this step we're going to improve the accessibility of our app.
 
 To achieve this, we will add ARIA attributes. ARIA attributes are used by screen readers to recognize the application structure and to interpret UI elements properly. That way, we can make our app more accessible for users who are limited in their use of computers, for example visually impaired persons. The main goal here is to make our app usable for as many people as we can.
 
@@ -47,9 +47,11 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.App"
+	controllerName="ui5.walkthrough.controller.App"
 	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+
 	<Page title="{i18n>homePageTitle}">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
@@ -60,11 +62,9 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 				headerRole="Banner"
 				headerLabel="{i18n>Overview_headerLabel}"/>
 		</landmarkInfo>
-		<headerContent>
-			…
-		</headerContent>
 		<content>
-			…
+			<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel" />
+			<mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList" />
 		</content>
 	</Page>
 </mvc:View>
@@ -82,9 +82,10 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
+	controllerName="ui5.walkthrough.controller.InvoiceList"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
+
 	<Panel accessibleRole="Region">
 		<headerToolbar>
 			<Toolbar>
@@ -95,6 +96,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 					search=".onFilterInvoices"/>
 			</Toolbar>
 		</headerToolbar>
+
 		<Table
 			id="invoiceList"
 			class="sapUiResponsiveMargin"
@@ -106,13 +108,7 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 					group : true
 				}
 			}">
-			<columns>
-				<Column
-					hAlign="End"
-
-
-	…
-			</columns>
+		...
 		</Table>
 	</Panel>
 </mvc:View>
@@ -129,9 +125,10 @@ We add a `sap.m.Panel` around the invoice list, and we move the toolbar from the
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.HelloPanel"
+	controllerName="ui5.walkthrough.controller.HelloPanel"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
+
 	<Panel
 		headerText="{i18n>helloPanelTitle}"
 		class="sapUiResponsiveMargin"
@@ -221,17 +218,11 @@ As you can see, we now have four landmarks on our page. The top three landmarks 
 -   *Page Content* marks the content of our page. This landmark already has two children.
 
 
-***
-
-<a name="loioff7cab1f271a4181a86e5aa5c2f8d421__section_u12_lby_tfb"/>
-
-### Congratulations!
-
-You've completed the walkthrough, good job! You should be familiar with all major development paradigms of OpenUI5 now. Our other tutorials focus on certain aspects of OpenUI5, so feel free to explore!
-
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
 **Next:**[Step 36: Content Density](Step_36_Content_Density_d935dbf.md "In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.")
+
+**Previous:**[Step 38: Build Your Application](Step_38_Build_Your_Application_ae1be8c.md "In this step we're going to build our application and consume the speed of a built OpenUI5application.")
 
 **Related Information**  
 
