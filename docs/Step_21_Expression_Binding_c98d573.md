@@ -20,7 +20,7 @@ Sometimes the predefined types of OpenUI5 are not flexible enough and you want t
   
 **The price is now formatted according to its number**
 
-![](images/loio2ff81a7fea204f69913e33c2545bfb39_HiRes.png "The price is now formatted according to its number")
+![](images/loio636b7008113442c8a4765bb710dd8ea9_LowRes.png "The price is now formatted according to its number")
 
 ***
 

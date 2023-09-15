@@ -22,7 +22,7 @@ Instead of manually adding CSS to the controls, we will use the standard classes
   
 **The layout of the panel and its content now has margins and padding**
 
-![](images/loiodffe7aa1ab4c41fda3ac8d06af4479d1_HiRes.png "The layout of the panel and its content now has margins and padding")
+![](images/loio0becf3ee81f5486a864e3b39ba036402_LowRes.png "The layout of the panel and its content now has margins and padding")
 
 ***
 

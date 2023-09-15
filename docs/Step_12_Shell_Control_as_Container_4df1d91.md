@@ -20,7 +20,7 @@ Now we use a shell control as container for our app and use it as our new root e
   
 **The app is now run in a shell that limits the app width**
 
-![](images/loio011584a22f8f41cbae77c4b6dd65bcb5_HiRes.png "The app is now run in a shell that limits the app width")
+![](images/loioa1f1b53df7bb4f74958cdf56904c4af4_LowRes.png "The app is now run in a shell that limits the app width")
 
 ***
 

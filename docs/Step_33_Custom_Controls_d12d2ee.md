@@ -220,7 +220,7 @@ We define the `reset` method to be able to revert the state of the control on th
 
 ```xml
 <mvc:View
-	controllerName="sap.ui.demo.walkthrough.controller.Detail"
+	controllerName="ui5.walkthrough.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:wt="ui5.walkthrough.control">
@@ -233,6 +233,7 @@ We define the `reset` method to be able to revert the state of the control on th
 		<ObjectHeader
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
+
 		<wt:ProductRating 
 			id="rating" 
 			class="sapUiSmallMarginBeginEnd" 

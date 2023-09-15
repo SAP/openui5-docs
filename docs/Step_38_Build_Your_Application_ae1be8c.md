@@ -10,7 +10,7 @@ view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/ae1be8
 
 ## Step 38: Build Your Application
 
-In this step we're going to build our application and consume the speed of a built OpenUI5application.
+In this step we're going to build our application and consume the speed of a built OpenUI5 application.
 
 ***
 
@@ -20,7 +20,7 @@ In this step we're going to build our application and consume the speed of a bui
   
 **The UI5 application is built and served**
 
-![](images/loio396ccf66ea6c4ad1a488355d3ea18ad7_HiRes.png "The UI5 application is built and served")
+![](images/loioad14ea2b3a854f07b459ecdc5ff03be3_LowRes.png "The UI5 application is built and served")
 
 ***
 
@@ -66,9 +66,9 @@ Congrats! You have successfully built your UI5 application.
 
 To test the built result, we can serve the build output locally. To do this, we have to add a local web server hosting the built resources. For this tutorial we choose an npm package called [local-web-server](https://www.npmjs.com/package/local-web-server).
 
-Therefore, we have install the new package by executing `npm i -D local-web-server`.
+Therefore, we have to install the new package by executing `npm i -D local-web-server`.
 
-To actually use the newly added web server, we have to add a new script to our `package.json`, which we'll call `serve-dist`. This script starts the `local-web-server` by pointing to the UI5 build output located in the `dist` folder of our project. The `--compress` flag optimizes the responses sent by the server to the client.
+To actually use the newly added web server, we have to add a new script to our `package.json` which we'll call `serve-dist`. This script starts the `local-web-server` by pointing to the UI5 build output located in the `dist` folder of our project. The `--compress` flag optimizes the responses sent by the server to the client.
 
 ***
 
@@ -101,7 +101,7 @@ Now it's time to start the server by executing `npm run serve-dist` in a termina
 
 ### Congratulations!
 
-You've completed the walkthrough, good job! You should now be familiar with all major development paradigms and concepts of OpenUI5. Our other tutorials focus on particular aspects of OpenUI5, so feel free to explore!
+You've completed the walkthrough, good job! You should now be familiar with all the major development paradigms and concepts of OpenUI5. Our other tutorials focus on particular aspects of OpenUI5, so feel free to explore!
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 

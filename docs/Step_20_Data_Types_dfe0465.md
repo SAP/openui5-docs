@@ -20,7 +20,7 @@ The list of invoices is already looking nice, but what is an invoice without a p
   
 **The list of invoices with prices and number units**
 
-![](images/loioa8394701ac104827af7e2034cb527e1c_HiRes.png "The list of invoices with prices and number units")
+![](images/loiodc9e919119564ddab78b8d0550ecfa9b_LowRes.png "The list of invoices with prices and number units")
 
 ***
 

@@ -20,7 +20,7 @@ In this step, we add a search field for our product list and define a filter tha
   
 **A search field is displayed above the list**
 
-![](images/loiob59b3ed9928549d4bf7e4d0f9f5b5dc8_HiRes.png "A search field is displayed above the list")
+![](images/loio472ab6bf88674c23ba103efd97163133_LowRes.png "A search field is displayed above the list")
 
 ***
 

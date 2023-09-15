@@ -22,7 +22,7 @@ In this step, we will encapsulate all UI assets in a component that is independe
   
 **An input field and a description displaying the value of the input field \(No visual changes to last step\)**
 
-![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input field (No
+![](images/loiocac9bcfa902c44c496d115acd7ee7376_LowRes.png "An input field and a description displaying the value of the input field (No
 					visual changes to last step)")
 
 ***

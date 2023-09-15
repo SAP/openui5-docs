@@ -20,7 +20,7 @@ If we want to do a more complex logic for formatting properties of our data mode
   
 **A status is now displayed with a custom formatter**
 
-![](images/loio7e0112d9ffe54e568fa8ecc44a5af3bf_HiRes.png "A status is now displayed with a custom formatter")
+![](images/loio7aa185a90dd7495cb6ec30c96bc80a54_LowRes.png "A status is now displayed with a custom formatter")
 
 ***
 

@@ -20,7 +20,7 @@ Now that we have integrated the dialog, it's time to add some user interaction. 
   
 **The dialog now has an "OK" button**
 
-![](images/loio2a0aee6164b24340b0d34a0515c82f19_HiRes.png "The dialog now has an "OK" button")
+![](images/loioc351bbd078824c43bf1758b0c3679cbd_LowRes.png "The dialog now has an "OK" button")
 
 ***
 

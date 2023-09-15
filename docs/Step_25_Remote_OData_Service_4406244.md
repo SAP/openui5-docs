@@ -27,7 +27,7 @@ In the real world, data often resides on remote servers and is accessed via an O
   
 **Products from the OData invoices test service are now shown within our app**
 
-![](images/loio99a649180be34423b9c6ba8379b26098_HiRes.png "Products from the OData invoices test service are now shown within our
+![](images/loio5b76bb4b15eb44e1862d0b6c1c802571_LowRes.png "Products from the OData invoices test service are now shown within our
 					app")
 
 ***

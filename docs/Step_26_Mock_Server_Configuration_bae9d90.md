@@ -22,7 +22,7 @@ This system is the so-called back-end system that we will now simulate with an O
   
 **The list of invoices is now served by the Mock Server**
 
-![](images/loioccce9b342efd457990d547ba35323f93_HiRes.png "The list of invoices is now served by the Mock Server")
+![](images/loiofe1403346ce9499f8bb102beaa4986d5_LowRes.png "The list of invoices is now served by the Mock Server")
 
 ***
 

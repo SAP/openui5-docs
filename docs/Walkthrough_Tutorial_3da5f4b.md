@@ -182,6 +182,6 @@ We now configure the visibility and properties of controls based on the device t
 In this step of our Walkthrough tutorial, we adjust the content density based on the user’s device. OpenUI5 contains different content densities allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse. In our app, we will detect the device and adjust the density accordingly.
 37. [Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "In this step we're going to improve the accessibility of our app.")  
 In this step we're going to improve the accessibility of our app.
-38. [Step 38: Build Your Application](Step_38_Build_Your_Application_ae1be8c.md "In this step we're going to build our application and consume the speed of a built OpenUI5application.")  
-In this step we're going to build our application and consume the speed of a built OpenUI5application.
+38. [Step 38: Build Your Application](Step_38_Build_Your_Application_ae1be8c.md "In this step we're going to build our application and consume the speed of a built OpenUI5 application.")  
+In this step we're going to build our application and consume the speed of a built OpenUI5 application.
 

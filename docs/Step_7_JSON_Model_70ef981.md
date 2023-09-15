@@ -22,7 +22,7 @@ We will add an input field to our app, bind its value to the model, and bind the
   
 **An input field and a description displaying the value of the input field**
 
-![](images/loioe5a9bb4cb06b4d9c8b37914bf5cd2d13_HiRes.png "An input field and a description displaying the value of the input
+![](images/loioafc105517a644407bd90662e3d94ea01_LowRes.png "An input field and a description displaying the value of the input
 					field")
 
 ***
