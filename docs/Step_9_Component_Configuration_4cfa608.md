@@ -108,7 +108,7 @@ sap.ui.define([
 
 The `Component.js` file now consists of two parts: The new `metadata` section and the previously introduced `init` function that is called when the component is initialized.
 
-The `metadata` section defines a reference to the root view, so that instead of displaying the root view directly in the `index.js` file as we did previously, the component now manages the display of the app view. It also implements the `sap.ui.core.IAsyncContentCreation` interface, which allows the component to be created fully asynchronously..
+The `metadata` section defines a reference to the root view, so that instead of displaying the root view directly in the `index.js` file as we did previously, the component now manages the display of the app view. It also implements the `sap.ui.core.IAsyncContentCreation` interface, which allows the component to be created fully asynchronously.
 
 > ### Note:  
 > The `sap.ui.core.IAsyncContentCreation` interface implicitly sets both the component's `rootView` and its router configuration to `"async": true`; the latter will be described in [Step 30: Routing and Navigation](Step_30_Routing_and_Navigation_e5200ee.md).
