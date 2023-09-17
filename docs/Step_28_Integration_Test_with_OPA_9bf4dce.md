@@ -25,7 +25,7 @@ We haven’t thought about testing our interaction with the app yet, so in this 
   
 **An OPA test opens the "Hello" dialog from step 16**
 
-![](images/loio108eccbd79ad4cc1b4091be62be59991_HiRes.png "An OPA test opens the "Hello" dialog from step 16")
+![](images/loio250d5b92921d44a4b432cc0fade88cc9_LowRes.png "An OPA test opens the "Hello" dialog from step 16")
 
 ***
 
