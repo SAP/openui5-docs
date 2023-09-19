@@ -20,7 +20,7 @@ Now we can navigate to our detail page and display an invoice, but we cannot go 
   
 **A back button is now displayed on the detail page**
 
-![](images/loio6e4426b30fae4b51bc540fdacbe4f16f_HiRes.png "A back button is now displayed on the detail page")
+![](images/loio33a8341077bb458685274c64d2317f6b_LowRes.png "A back button is now displayed on the detail page")
 
 ***
 

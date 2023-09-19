@@ -20,7 +20,7 @@ In this step we're going to build our application and consume the speed of a bui
   
 **The UI5 application is built and served**
 
-![](images/loioad14ea2b3a854f07b459ecdc5ff03be3_LowRes.png "The UI5 application is built and served")
+![](images/loiofb12cea5ac9b45bb9007aac5a1a8689f_LowRes.png "The UI5 application is built and served")
 
 ***
 

@@ -20,7 +20,7 @@ We now configure the visibility and properties of controls based on the device t
   
 **On phone devices, the panel is collapsed to save screen space and a button is hidden**
 
-![](images/loio26ae5cb9623a4e698b30be0fbbd33480_HiRes.png "On phone devices, the panel is collapsed to save screen space and a button is
+![](images/loio3f97022c7af4435fa94a2bed05f09376_LowRes.png "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden")
 
 ***

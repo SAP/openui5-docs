@@ -27,7 +27,7 @@ To achieve this, we will add ARIA attributes. ARIA attributes are used by screen
   
 **Landmarks in our app**
 
-![](images/loiod9c6cd32743d40629bec7d77590e2c58_HiRes.png "Landmarks in our app")
+![](images/loiob35deda1ebe1433fbf0ff066f6e3fc4b_LowRes.png "Landmarks in our app")
 
 ***
 

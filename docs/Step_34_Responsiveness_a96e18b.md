@@ -20,7 +20,7 @@ In this step, we improve the responsiveness of our app. OpenUI5 applications can
   
 **A responsive table is hiding some of the columns on small devices**
 
-![](images/loio62a5405e63324cb4928e587f518ae13f_HiRes.png "A responsive table is hiding some of the columns on small devices")
+![](images/loiocc3f2e0d8ac6471288af6495836c2f07_LowRes.png "A responsive table is hiding some of the columns on small devices")
 
 ***
 

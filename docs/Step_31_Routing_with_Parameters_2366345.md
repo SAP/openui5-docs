@@ -22,7 +22,7 @@ To make this work, we have to pass over the information which item has been sele
   
 **The selected invoice details are now shown in the details page**
 
-![](images/loio3a961735fdea4598a24c0ca1a3b7a5b2_HiRes.png "The selected invoice details are now shown in the details page")
+![](images/loio31da9d48ae204c36a991146b90648c21_LowRes.png "The selected invoice details are now shown in the details page")
 
 ***
 
