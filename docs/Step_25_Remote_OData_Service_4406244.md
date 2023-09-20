@@ -75,7 +75,7 @@ server:
       baseUri: "https://services.odata.org"
 ```
 
-We configure the proxy in the `ui5.yaml` file in the app root folder. The `mountPath` property configures which URLs will be caught by the proxy. The `configuration/baseUri` property stores the real server address.
+The `ui5.yaml` configuration file was automatically generated in the app root folder during Step 1 of this tutorial when we executed the `ui5 init` command. We now configure our proxy in the `ui5.yaml` file. The `mountPath` property configures which URLs will be caught by the proxy. The `configuration/baseUri` property stores the real server address.
 
 ***
 

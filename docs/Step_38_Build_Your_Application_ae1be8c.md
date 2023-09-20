@@ -41,7 +41,7 @@ We introduce a new npm script called "build", which executes a UI5 Tooling build
 ```
 {
   "name": "ui5.walkthrough",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The UI5 walkthrough application",
   "scripts": {
       "start": "ui5 serve -o index.html",
@@ -49,7 +49,7 @@ We introduce a new npm script called "build", which executes a UI5 Tooling build
   },
   "devDependencies": {
     "@ui5/cli": "^3",
-    "ui5-middleware-simpleproxy": "^0.9.10"
+    "ui5-middleware-simpleproxy": "^3"
   }
 }
 ```
@@ -88,7 +88,8 @@ To actually use the newly added web server, we have to add a new script to our `
   },
   "devDependencies": {
     "@ui5/cli": "^3",
-    "ui5-middleware-simpleproxy": "^0.9.10"
+    "local-web-server": "^5.3.0",
+    "ui5-middleware-simpleproxy": "^3"
   }
 }
 ```
@@ -101,7 +102,7 @@ Now it's time to start the server by executing `npm run serve-dist` in a termina
 
 ### Congratulations!
 
-You've completed the walkthrough, good job! You should now be familiar with all the major development paradigms and concepts of OpenUI5. Our other tutorials focus on particular aspects of OpenUI5, so feel free to explore!
+You've completed the walkthrough, good job! You should now be familiar with all the major development paradigms and concepts of OpenUI5. Our other tutorials focus on particular aspects of OpenUI5 and some advanced topics, so if you want to dive deeper into specific topics, feel free to explore!
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
