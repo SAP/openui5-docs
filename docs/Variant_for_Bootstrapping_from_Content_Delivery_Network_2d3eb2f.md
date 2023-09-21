@@ -33,7 +33,7 @@ The specific version allows you to select a particular fixed version for bootstr
 ```html
 <script id="sap-ui-bootstrap"
     type="text/javascript"
-    src="https://sdk.openui5.org/1.119.0/resources/sap-ui-core.js"
+    src="https://sdk.openui5.org/1.120.0/resources/sap-ui-core.js"
     data-sap-ui-theme="sap_fiori_3"
     data-sap-ui-async="true"
     data-sap-ui-libs="sap.m"></script>

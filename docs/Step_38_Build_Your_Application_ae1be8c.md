@@ -44,7 +44,7 @@ We introduce a new npm script called "build", which executes a UI5 Tooling build
   "version": "1.0.0",
   "description": "The UI5 walkthrough application",
   "scripts": {
-      "start": "ui5 serve -o index.html",
+      "start": "ui5 serve -o test/mockServer.html",
       "build": "ui5 build -a"
   },
   "devDependencies": {
@@ -79,22 +79,22 @@ To actually use the newly added web server, we have to add a new script to our `
 ```
 {
   "name": "ui5.walkthrough",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The UI5 walkthrough application",
   "scripts": {
-      "start": "ui5 serve -o index.html",
+      "start": "ui5 serve -o test/mockServer.html",
       "build": "ui5 build --all --clean-dest",
       "serve-dist": "ws --compress -d dist --open"
   },
   "devDependencies": {
     "@ui5/cli": "^3",
-    "local-web-server": "^5.3.0",
+    "local-web-server": "^5",
     "ui5-middleware-simpleproxy": "^3"
   }
 }
 ```
 
-Now it's time to start the server by executing `npm run serve-dist` in a terminal in the project root folder. Your default browser opens automatically and the built application is hosted. The `local-web-server` does not offer proxy capabilities so far, nor does it allow to open a specific HTML file in the browser. To display any data, it is therefore necessary to open the `test/mockServer.html` in the browser instead of the `index.html`.
+Now it's time to start the server by executing `npm run serve-dist` in a terminal in the project root folder. Your default browser opens automatically and the built application is hosted. The `local-web-server` does not offer proxy capabilities so far, nor does it allow to open a specific HTML file in the browser. To display any actual data, it is therefore necessary to open the `test/mockServer.html` file in the browser instead of the `index.html`.
 
 ***
 
