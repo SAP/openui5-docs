@@ -108,14 +108,19 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 					group : true
 				}
 			}">
-		...
+			<columns>
+				<Column
+					hAlign="End"
+					...
+			</columns>
+			...
 		</Table>
 	</Panel>
 </mvc:View>
 
 ```
 
-We add a `sap.m.Panel` around the invoice list, and we move the toolbar from the table into the panel so the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
+We add an `sap.m.Panel` around the invoice list and move the toolbar from the table into the panel, so that the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
 
 ***
 
