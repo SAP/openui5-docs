@@ -28,7 +28,7 @@ The `sap.ui.mdc` library contains composite, metadata-driven controls that assem
 
 #### Smart Composite Controls
 
-The `sap.ui.mdc` applications for library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known OpenUI5 development concepts and enterprise-ready qualities are supported out of the box.
+The `sap.ui.mdc` applications for library aims at providing a predefined user experience through metadata-driven UI controls. The generic behavior of those controls is decoupled from the application- or protocol-specific requirements to ensure a flexible usage of those controls independent of the back-end technology. The well-known OpenUI5 key features and development concepts are supported out of the box.
 
 ***
 
@@ -57,7 +57,7 @@ The controls offer integrated end user personalization and key user adaptation a
 
 Each `sap.ui.mdc` control consists of a central control part and a delegate that implements the non-generic parts, such as protocol- and model- or application-specific requirements. The implemented delegate encapsulates network requests and the retrieval of cacheable information.
 
-Controls and delegates can be extended from the base classes by the `sap.ui.mdc` adopter leveraging the predefined default behavior. Only in combination with a delegate does a control offer all the advantages outlined initially.
+Controls and delegates can be extended from the base classes by the developers leveraging the predefined default behavior. Only in combination with a delegate does a control offer all the advantages outlined initially.
 
 The following graphic illustrates this behavior:
 
