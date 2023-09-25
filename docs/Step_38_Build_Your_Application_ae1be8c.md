@@ -108,3 +108,8 @@ You've completed the walkthrough, good job! You should now be familiar with all 
 
 **Next:**[Step 37: Accessibility](Step_37_Accessibility_ff7cab1.md "In this step we're going to improve the accessibility of our app.")
 
+**Related Information**  
+
+
+[UI5 Tooling documentation](https://sap.github.io/ui5-tooling/stable/)
+

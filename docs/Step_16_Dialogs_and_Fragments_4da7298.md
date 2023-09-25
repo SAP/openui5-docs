@@ -14,11 +14,9 @@ In this step, we will take a closer look at another element which can be used to
 
 Fragments are light-weight UI parts \(UI subtrees\) which can be reused but do not have any controller. This means, whenever you want to define a certain part of your UI to be reusable across multiple views, or when you want to exchange some parts of a view against one another under certain circumstances \(different user roles, edit mode vs read-only mode\), a fragment is a good candidate, especially where no additional controller logic is required.
 
-A fragment can consist of 1 to n controls. At runtime, fragments placed in a view behave similar to "normal" view content, which means controls inside the fragment will just be included into the view’s DOM when rendered. There are of course controls that are not designed to become part of a view, for example, dialogs.
+A fragment can consist of 1 to n controls. At runtime, fragments placed in a view behave similar to "normal" view content, which means controls inside the fragment will just be included into the view’s DOM when rendered. There are of course controls that are not designed to become part of a view, for example, dialogs. But even for these controls, fragments can be particularly useful, as you will see in a minute.
 
-But even for these controls, fragments can be particularly useful, as you will see in a minute.
-
-We will now add a dialog to our app. Dialogs are special, because they open on top of the regular app content and thus do not belong to a specific view. That means the dialog must be instantiated somewhere in the controller code, but since we want to stick with the declarative approach and create reusable artifacts to be as flexible as possible, and because dialogs cannot be specified as views, we will create an XML fragment containing the dialog. A dialog, after all, can be used in more than one view of your app.
+We will now add a dialog to our app. Dialogs are special, because they open on top of the regular app content and thus do not belong to a specific view. That means the dialog must be instantiated somewhere in the controller code, but since we want to stick with the declarative approach and create reusable artifacts to be as flexible as possible, we will create an XML fragment containing the dialog. A dialog, after all, can be used in more than one view of your app.
 
 ***
 
@@ -49,29 +47,24 @@ You can view and download all files at [Walkthrough - Step 16](https://sdk.openu
    controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
       <content>
-
       <Button
          id="helloDialogButton"
          text="{i18n>openDialogButtonText}"
          press=".onOpenDialog"
          class="sapUiSmallMarginEnd"/>
-
       <Button
          text="{i18n>showHelloButtonText}"
          press=".onShowHello"
          class="myCustomButton"/>
-
       <Input
          value="{/recipient/name}"
          valueLiveUpdate="true"
          width="60%"/>
-
       <FormattedText
          htmlText="Hello {/recipient/name}"
          class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -82,7 +75,7 @@ You can view and download all files at [Walkthrough - Step 16](https://sdk.openu
 
 We add a new button to the view to open the dialog. It simply calls an event handler function in the controller of the panel’s content view. We will need the new `id="helloDialogButton"` in [Step 28: Integration Test with OPA](Step_28_Integration_Test_with_OPA_9bf4dce.md).
 
-It is a good practice to set a unique ID like `helloWorldButton` to key controls of your app so that can be identified easily. If the attribute \`id\` is not specified, the OpenUI5 runtime generates unique but changing ID like \`\_\_button23\` for the control. Inspect the DOM elements of your app in the browser to see the difference.
+It is a good practice to set a unique ID like `helloWorldButton` to key controls of your app so that can be identified easily. If the `id` attribute is not specified, the OpenUI5 runtime generates unique but changing ID like "\_\_button23" for the control. Inspect the DOM elements of your app in the browser to see the difference.
 
 ***
 
@@ -92,7 +85,6 @@ It is a good practice to set a unique ID like `helloWorldButton` to key controls
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core">
-
    <Dialog
       id="helloDialog"
       title="Hello {/recipient/name}"/>
@@ -124,6 +116,7 @@ sap.ui.define([
             // show message
             MessageToast.show(sMsg);
         },
+
         onOpenDialog() {
             // create dialog lazily
             this.pDialog ??= this.loadFragment({
@@ -132,7 +125,6 @@ sap.ui.define([
         
             this.pDialog.then((oDialog) => oDialog.open());
         }
-
     });
 });
 ```
@@ -180,5 +172,5 @@ We add a new text for the open button to the text bundle.
 
 [Stable IDs: All You Need to Know](Stable_IDs_All_You_Need_to_Know_f51dbb7.md "Stable IDs are IDs for controls, elements, or components that you set yourself in the respective id property or attribute as opposed to IDs that are generated by OpenUI5. Stable means that the IDs are concatenated with the application component ID and do not have any auto-generated parts.")
 
-[API Reference: `sap.ui.core.Fragment`](https://sdk.openui5.org/api/sap.ui.core.Fragment)
+[Instantiation of Fragments](Instantiation_of_Fragments_04129b2.md "OpenUI5 provides two options to instantiate a fragment: If it is instantiated inside a controller extending sap.ui.core.mvc.Controller, the loadFragment() function is the way to go. However, if it is instantiated in a non-controller artefact, the generic function sap.ui.core.Fragment.load() can be used.")
 

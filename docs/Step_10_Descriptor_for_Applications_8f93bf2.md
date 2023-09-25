@@ -127,7 +127,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
     -   `models`: In this section of the descriptor we can define models that will be automatically instantiated by OpenUI5 when the app starts. Here we can now define the local resource bundle. We define the name of the model "i18n" as key and specify the bundle file by namespace. As in the previous steps, the file with our translated texts is stored in the `i18n` folder and named `i18n.properties`. We simply prefix the path to the file with the namespace of our app. The manual instantiation in the app component's init method will be removed later in this step. The `supportedLocales` and `fallbackLocale` properties are set to empty strings, as in this tutorial our demo app uses only one `i18n.properties` file for simplicity, and we'd like to prevent the browser from trying to load additional `i18n_*.properties` files based on your browser settings and your locale.
 
 
-    For compatibility reasons the root object and each of the sections state the descriptor version number `1.1.0` under the internal property `_version`. Features might be added or changed in future versions of the descriptor and the version number helps to identify the application settings by tools that read the descriptor.
+    For compatibility reasons the root object and each of the sections state the descriptor version number `1.58.0` under the internal property `_version`. Features might be added or changed in future versions of the descriptor and the version number helps to identify the application settings by tools that read the descriptor.
 
 
 > ### Note:  
@@ -150,7 +150,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 		src="resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_horizon"
 		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true">
+		data-sap-ui-async="true"
 		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-resourceroots='{
 			"ui5.walkthrough": "./"
@@ -197,8 +197,8 @@ sap.ui.define([
 
    return UIComponent.extend("ui5.walkthrough.Component", {
       metadata : {
-            interfaces: ["sap.ui.core.IAsyncContentCreation"],
-            manifest: "json"
+         interfaces: ["sap.ui.core.IAsyncContentCreation"],
+         manifest: "json"
       },
 
       init() {

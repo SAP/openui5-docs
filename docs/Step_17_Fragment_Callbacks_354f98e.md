@@ -56,12 +56,11 @@ sap.ui.define([
 
 		onOpenDialog() {
 			// create dialog lazily
-				this.pDialog ??= this.loadFragment({
-					name: "ui5.walkthrough.view.HelloDialog"
-				});
+			this.pDialog ??= this.loadFragment({
+				name: "ui5.walkthrough.view.HelloDialog"
+			});
 
 			this.pDialog.then((oDialog) => oDialog.open());
-			});
 		},
 
 		onCloseDialog() {
@@ -74,7 +73,7 @@ sap.ui.define([
 });
 ```
 
-The event handler function is put into the same controller file and it closes the dialog by accessing the internal helper function that returns the dialog.
+The event handler function is put into the same controller file, and it closes the dialog by using the `byId` function to get the dialog instance and the `close` function to close the dialog.
 
 ***
 
@@ -84,11 +83,9 @@ The event handler function is put into the same controller file and it closes th
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core">
-
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
-
       <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"

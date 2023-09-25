@@ -42,7 +42,6 @@ You can view and download all files at [Walkthrough - Step 12](https://sdk.openu
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-
 	<Shell>
 		<App>
 			<pages>
@@ -51,11 +50,9 @@ You can view and download all files at [Walkthrough - Step 12](https://sdk.openu
 						<Panel
 							headerText="{i18n>helloPanelTitle}">
 							<content>
-
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"/>
-
 								<Input
 									value="{/recipient/name}"
 									description="Hello {/recipient/name}"
@@ -68,9 +65,7 @@ You can view and download all files at [Walkthrough - Step 12](https://sdk.openu
 			</pages>
 		</App>
 	</Shell>
-
 </mvc:View>
-
 ```
 
 The shell control is now the outermost control of our app and automatically displays a so-called letterbox, if the screen size is larger than a certain width.

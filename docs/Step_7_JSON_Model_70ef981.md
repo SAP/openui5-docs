@@ -67,7 +67,7 @@ sap.ui.define([
 
 ```
 
-We add an init function to the controller. `onInit` is one of OpenUI5’s lifecycle methods that is invoked by the framework when the controller is created, similar to a constructor function of a control.
+We add an `onInit` function to the controller. This is one of OpenUI5’s lifecycle methods that is invoked by the framework when the controller is created, similar to the constructor of a control.
 
 Inside the function we instantiate a JSON model. The data for the model only contains a single property for the “recipient”, and inside this it also contains one additional property for the name.
 
@@ -114,7 +114,7 @@ We add an `sap/m/Input` control to the view. With this, the user can enter a rec
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 
-**Next:**[Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library. The required modules are enabled to be loaded asynchronously.")
+**Next:**[Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the sap.m library.")
 
 **Previous:**[Step 8: Translatable Texts](Step_8_Translatable_Texts_df86bfb.md "In this step we move the texts of our UI to a separate resource file.")
 

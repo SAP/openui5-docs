@@ -41,12 +41,10 @@ You can view and download all files at [Walkthrough - Step 18](https://sdk.openu
    controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto" >
-
       <content>
          <Button
             id="helloDialogButton"
@@ -54,20 +52,17 @@ You can view and download all files at [Walkthrough - Step 18](https://sdk.openu
             text="{i18n>openDialogButtonText}"
             press=".onOpenDialog"
             class="sapUiSmallMarginEnd"/>
-
          <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
             class="myCustomButton"/>
-
          <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"
             width="60%"/>
-
-           <FormattedText
-              htmlText="Hello {/recipient/name}"
-              class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+         <FormattedText
+            htmlText="Hello {/recipient/name}"
+            class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
    </Panel>
 </mvc:View>
@@ -88,18 +83,15 @@ We add an icon to the button that opens the dialog. The `sap-icon://` protocol i
 <core:FragmentDefinition
    xmlns="sap.m"
    xmlns:core="sap.ui.core" >
-
    <Dialog
       id="helloDialog"
       title ="Hello {/recipient/name}">
-
       <content>
          <core:Icon
             src="sap-icon://hello-world"
             size="8rem"
             class="sapUiMediumMargin"/>
       </content>
-
       <beginButton>
          <Button
             text="{i18n>dialogCloseButtonText}"

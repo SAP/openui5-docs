@@ -41,13 +41,11 @@ You can view and download all files at [Walkthrough - Step 20](https://sdk.openu
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
-
     <List
         headerText="{i18n>invoiceListTitle}"
         class="sapUiResponsiveMargin"
         width="auto"
         items="{invoice>/Invoices}">
-        
         <items>
             <ObjectListItem
                 title="{invoice>Quantity} x {invoice>ProductName}"

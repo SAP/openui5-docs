@@ -102,9 +102,5 @@ As we have just enabled the app to run in both modes depending on the devices ca
 
 [Content Densities](Content_Densities_e54f729.md "The devices used to run apps that are developed with OpenUI5 run on various different operating systems and have very different screen sizes. OpenUI5 contains different content densities for certain controls that allow your app to adapt to the device in question, allowing you to display larger controls for touch-enabled devices and a smaller, more compact design for devices that are operated by mouse.")
 
-[API Reference: `sap.ui.Device.media.RANGESETS`](https://sdk.openui5.org/api/sap.ui.Device.media.RANGESETS)
-
 [API Reference: `sap.ui.Device`](https://sdk.openui5.org/api/sap.ui.Device)
-
-[API Reference: `sap.ui.core.syncStyleClass`](https://sdk.openui5.org/api/module:sap/ui/core/syncStyleClass)
 

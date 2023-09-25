@@ -23,7 +23,7 @@ We first introduce you to the basic development paradigms like *Model-View-Contr
 ***
 
 > ### Tip:  
-> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step, copy it to your workspace and make sure that the application runs by calling the `webapp/index.html` file.
+> You don't have to do all tutorial steps sequentially, you can also jump directly to any step you want. Just download the code from the previous step and make sure that the application runs as intended; for detailed instructions, see [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download).
 > 
 > You can view and download the samples for all steps in the Demo Kit at [Walkthrough](https://sdk.openui5.org/entity/sap.m.tutorial.walkthrough).
 > 
@@ -38,24 +38,20 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
 			bootstrapping. Once this bootstrapping is finished, we simply
 		display an alert.")  
 Before we can do something with OpenUI5, we need to load and initialize it. This process of loading and initializing OpenUI5 is called **bootstrapping**. Once this bootstrapping is finished, we simply display an alert.
-3.  [Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the “Hello World” text in
-		the HTML body by the OpenUI5
-		control sap.m.Text. In the beginning, we will use the JavaScript control
-		interface to set up the UI, the control instance is then placed into the HTML body. ")  
-Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap.m.Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
-4.  [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.html file will very soon result in a messy setup and there is quite a bit of work ahead
+3.  [Step 3: Controls](Step_3_Controls_ddbceec.md "Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control sap/m/Text. In the beginning, we will use the
+		JavaScript control interface to set up the UI, the control instance is then placed into the HTML body. ")  
+Now it is time to build our first little UI by replacing the “Hello World” text in the HTML body by the OpenUI5 control `sap/m/Text`. In the beginning, we will use the JavaScript control interface to set up the UI, the control instance is then placed into the HTML body.
+4.  [Step 4: XML Views](Step_4_XML_Views_1409791.md "Putting all our UI into the index.js file will very soon result in a messy setup, and there is quite a bit of work ahead
 		of us. So let’s do a first modularization by putting the sap/m/Text control into a dedicated
 		view.")  
-Putting all our UI into the `index.html` file will very soon result in a messy setup and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
+Putting all our UI into the `index.js` file will very soon result in a messy setup, and there is quite a bit of work ahead of us. So let’s do a first modularization by putting the `sap/m/Text` control into a dedicated `view`.
 5.  [Step 5: Controllers](Step_5_Controllers_50579dd.md "In this step, we replace the text with a button and show the “Hello World” message
 		when the button is pressed. The handling of the button's press event is
 		implemented in the controller of the view.")  
 In this step, we replace the text with a button and show the “Hello World” message when the button is pressed. The handling of the button's `press` event is implemented in the controller of the view.
-6.  [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are
-		often referred to as modules. In this step, we replace the alert from the last exercise with
-		a proper Message Toast from the sap.m library. The required modules are
-		enabled to be loaded asynchronously.")  
-In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library. The required modules are enabled to be loaded asynchronously.
+6.  [Step 6: Modules](Step_6_Modules_f665d0d.md "In OpenUI5, resources are often referred to as modules. In this step, we
+		replace the alert from the last exercise with a proper Message Toast from the sap.m library.")  
+In OpenUI5, resources are often referred to as modules. In this step, we replace the alert from the last exercise with a proper Message Toast from the `sap.m` library.
 7.  [Step 7: JSON Model](Step_7_JSON_Model_70ef981.md "Now that we have set up the view and controller, it’s about time to think about the M
 		in MVC.")  
 Now that we have set up the view and controller, it’s about time to think about the M in MVC.

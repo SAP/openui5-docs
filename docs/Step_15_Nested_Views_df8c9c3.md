@@ -43,7 +43,6 @@ You can view and download all files at [Walkthrough - Step 15](https://sdk.openu
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-
 	<Shell>
 		<App class="myAppDemoWT">
 			<pages>
@@ -56,7 +55,6 @@ You can view and download all files at [Walkthrough - Step 15](https://sdk.openu
 		</App>
 	</Shell>
 </mvc:View>
-
 ```
 
 Instead of putting the panel and its content directly into our `App` view, we will move it to a new separate `HelloPanel` view. We refer to this using an `XMLView` tag in the content aggregation of the panel.
@@ -70,23 +68,19 @@ Instead of putting the panel and its content directly into our `App` view, we wi
    controllerName="ui5.walkthrough.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <Panel
       headerText="{i18n>helloPanelTitle}"
       class="sapUiResponsiveMargin"
       width="auto">
       <content>
-
          <Button
             text="{i18n>showHelloButtonText}"
             press=".onShowHello"
             class="myCustomButton"/>
-
          <Input
             value="{/recipient/name}"
             valueLiveUpdate="true"
             width="60%"/>
-
          <FormattedText
             htmlText="Hello {/recipient/name}"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -133,6 +127,7 @@ sap.ui.define([
    "sap/ui/core/mvc/Controller"
 ], (Controller) => {
    "use strict";
+
    return Controller.extend("ui5.walkthrough.controller.App", {
    });
 });

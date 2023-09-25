@@ -40,7 +40,6 @@ You can view and download all files at [Walkthrough - Step 31](https://sdk.openu
 
 ```js
 {
-  "_version": "1.58.0",
   …
   "sap.ui5": {
 	…
@@ -91,7 +90,6 @@ We now add a navigation parameter `invoicePath` to the detail route so that we c
 	controllerName="ui5.walkthrough.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-
 	<Page
 		title="{i18n>detailPageTitle}">
 		<ObjectHeader
@@ -175,8 +173,9 @@ The `bindElement` function is creating a binding context for a OpenUI5 control a
 
 ### Conventions
 
--   Define the routing configuration in the `AppDescriptor`
+-   Define the routing configuration in the `manifest.json` / app descriptor
 
+-   Initialize the router at the end of your `Component#init` function
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 

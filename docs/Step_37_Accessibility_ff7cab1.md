@@ -51,7 +51,6 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-
 	<Page title="{i18n>homePageTitle}">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo
@@ -63,13 +62,11 @@ One part of the ARIA attribute set are the so-called landmarks. You can compare 
 				headerLabel="{i18n>Overview_headerLabel}"/>
 		</landmarkInfo>
 		<content>
-			<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel" />
-			<mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList" />
+			<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel"/>
+			<mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList"/>
 		</content>
 	</Page>
 </mvc:View>
- 
-
 ```
 
 We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for the overview page areas. For more information, see the [API Reference: `sap.m.PageAccessibleLandmarkInfo`](https://sdk.openui5.org/api/sap.m.PageAccessibleLandmarkInfo). 
@@ -85,7 +82,6 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 	controllerName="ui5.walkthrough.controller.InvoiceList"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-
 	<Panel accessibleRole="Region">
 		<headerToolbar>
 			<Toolbar>
@@ -96,7 +92,6 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 					search=".onFilterInvoices"/>
 			</Toolbar>
 		</headerToolbar>
-
 		<Table
 			id="invoiceList"
 			class="sapUiResponsiveMargin"
@@ -117,7 +112,6 @@ We use `sap.m.PageAccessibleLandmarkInfo` to define ARIA roles and labels for th
 		</Table>
 	</Panel>
 </mvc:View>
-
 ```
 
 We add an `sap.m.Panel` around the invoice list and move the toolbar from the table into the panel, so that the region can take the title of the toolbar as its own. This has the effect that it will now be a region in our landmarks.
@@ -133,7 +127,6 @@ We add an `sap.m.Panel` around the invoice list and move the toolbar from the ta
 	controllerName="ui5.walkthrough.controller.HelloPanel"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-
 	<Panel
 		headerText="{i18n>helloPanelTitle}"
 		class="sapUiResponsiveMargin"
@@ -148,11 +141,6 @@ We add an `sap.m.Panel` around the invoice list and move the toolbar from the ta
 ```
 
 In this view, we already have a panel, so we just add the `accessibleRole` attribute.
-
-***
-
-> ### Note:  
-> To add ARIA roles, labels and panels to other views, for example your `Detail.view.xml`, you can follow the same pattern. We won't go into detail in this tutorial step, but if you're interested, simply download the tutorial code and take a look at the `Detail.view.xml`.
 
 ***
 

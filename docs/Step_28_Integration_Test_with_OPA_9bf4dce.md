@@ -55,7 +55,6 @@ sap.ui.define([
 	QUnit.module("Navigation");
 
 	opaTest("Should open the Hello dialog", (Given, When, Then) => {
-
 		// Arrangements
 		Given.iStartMyUIComponent({
 			componentConfig: {
@@ -73,7 +72,6 @@ sap.ui.define([
 		Then.iTeardownMyApp();
 	});
 });
-
 ```
 
 Let’s start with the `journey` first. A `journey` consists of a series of integration tests that belong to the same context such as navigating through the app. Similar to the QUnit test implementation, OPA5 uses QUnit, that's why we first set up a QUnit module `Navigation` that will be displayed on our result page.
@@ -156,7 +154,7 @@ In the assertions section we define a `waitFor` statement that checks if a `sap.
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Integration tests for SAPUI5 Walkthrough</title>
+	<title>Integration tests for the UI5 Walkthrough</title>
 	<meta charset="utf-8">
 
 	<script

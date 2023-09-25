@@ -115,7 +115,7 @@ sap.ui.define([
 			}).addStyleClass("sapUiTinyMarginTopBottom"));
 		},
 
-		setValue: function (fValue) {
+		setValue(fValue) {
 			this.setProperty("value", fValue, true);
 			this.getAggregation("_rating").setValue(fValue);
 
@@ -224,16 +224,13 @@ We define the `reset` method to be able to revert the state of the control on th
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:wt="ui5.walkthrough.control">
-
 	<Page
 		title="{i18n>detailPageTitle}"
 		showNavButton="true"
 		navButtonPress=".onNavBack">
-
 		<ObjectHeader
 			intro="{invoice>ShipperName}"
 			title="{invoice>ProductName}"/>
-
 		<wt:ProductRating 
 			id="rating" 
 			class="sapUiSmallMarginBeginEnd" 

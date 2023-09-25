@@ -38,47 +38,44 @@ You can view and download all files at [Walkthrough - Step 30](https://sdk.openu
 
 ### webapp/manifest.json
 
-```js
+```
 {
-  "_version": "1.58.0",
-  …
+  ...
   "sap.ui5": {
-	…
-	"models": {
-		…
-	},
-	"routing": {
-	  "config": {
-		"routerClass": "sap.m.routing.Router",
-		"type": "View",
-		"viewType": "XML",
-		"path": "ui5.walkthrough.view",
-		"controlId": "app",
-		"controlAggregation": "pages"
-	  },
-	  "routes": [
-		{
-		  "pattern": "",
-		  "name": "overview",
-		  "target": "overview"
-		},
-		{
-		  "pattern": "detail",
-		  "name": "detail",
-		  "target": "detail"
-		}
-	  ],
-	  "targets": {
-		"overview": {
-		  "id": "overview",
-		  "name": "Overview"
-		},
-		"detail": {
-		  "id": "detail",
-		  "name": "Detail"
-		}
-	  }
-	}
+  ...
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "type": "View",
+        "viewType": "XML",
+        "path": "ui5.walkthrough.view",
+        "controlId": "app",
+        "controlAggregation": "pages"
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "overview",
+          "target": "overview"
+        },
+        {
+          "pattern": "detail",
+          "name": "detail",
+          "target": "detail"
+        }
+      ],
+      "targets": {
+        "overview": {
+          "id": "overview",
+          "name": "Overview"
+        },
+        "detail": {
+          "id": "detail",
+          "name": "Detail"
+        }
+      }
+    }
+
   }
 }
 ```
@@ -95,7 +92,7 @@ We add a new “routing" section to the `sap.ui5` part of the descriptor. There 
 
 -   `targets`
 
-    A target defines a view that is displayed, it is associated with one or more routes and it can also be displayed manually from within the app. Whenever a target is displayed, the corresponding view is loaded and shown in the app. In our app we simply define two targets with a view name that corresponds to the target name.
+    A target defines a view, or even another component, that is displayed; it is associated with one or more routes, and it can also be displayed manually from within the app. Whenever a target is displayed, the corresponding view is loaded and shown in the app. In our app we simply define two targets with a view name that corresponds to the target name.
 
 
 ***
@@ -138,7 +135,7 @@ sap.ui.define([
 
 In the component initialization method, we now add a call to initialize the router. We do not need to instantiate the router manually, it is automatically instantiated based on our `AppDescriptor` configuration and assigned to the component.
 
-Initializing the router will evaluate the current URL and load the corresponding view automatically. This is done with the help of the routes and targets that have been configured in the `AppDescriptor`. If a route has been hit, the view of its corresponding target is loaded and displayed.
+Initializing the router will evaluate the current URL and load the corresponding view automatically. This is done with the help of the routes and targets that have been configured in the `manifest.json`, also known as the **app descriptor**. If a route has been hit, the view of its corresponding target is loaded and displayed.
 
 ***
 
@@ -146,17 +143,16 @@ Initializing the router will evaluate the current URL and load the corresponding
 
 ```xml
 <mvc:View
-		controllerName="ui5.walkthrough.controller.App"
-		xmlns="sap.m"
-		xmlns:mvc="sap.ui.core.mvc"
-		displayBlock="true">
-
-	<Page title="{i18n>homePageTitle}">
-		<content>
-			<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel"/>
-			<mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList"/>
-		</content>
-	</Page>
+    controllerName="ui5.walkthrough.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true">
+    <Page title="{i18n>homePageTitle}">
+        <content>
+            <mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel" />
+            <mvc:XMLView viewName="ui5.walkthrough.view.InvoiceList" />
+        </content>
+    </Page>
 </mvc:View>
 ```
 
@@ -168,14 +164,16 @@ We move the content of the previous steps from the `App` view to a new `Overview
 
 ```xml
 <mvc:View
-		controllerName="ui5.walkthrough.controller.App"
-		xmlns="sap.m"
-		xmlns:mvc="sap.ui.core.mvc"
-		displayBlock="true">
+    controllerName="ui5.walkthrough.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true">
+    <Shell>
+        <App
+            class="myAppDemoWT"
+            id="app"/>
+    </Shell>
 
-<Shell>
-	<App class="myAppDemoWT" id="app"/>
-</Shell>
 </mvc:View>
 ```
 
@@ -189,7 +187,6 @@ Our `App` view is now only containing the empty app tag. The router will automat
 <mvc:View
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-
 	<Page
 		title="{i18n>detailPageTitle}">
 		<ObjectHeader title="Invoice"/>
@@ -226,29 +223,7 @@ We add a new string to the resource bundle for the detail page title.
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
-
-    <List
-        id="invoiceList"
-        headerText="{i18n>invoiceListTitle}"
-        class="sapUiResponsiveMargin"
-        width="auto"
-        items="{
-            path : 'invoice>/Invoices',
-            sorter : {
-                path : 'ShipperName',
-                group : true
-            }
-        }">
-
-        <headerToolbar>
-            <Toolbar>
-                <Title text="{i18n>invoiceListTitle}" />
-                <ToolbarSpacer />
-                <SearchField
-                    width="50%"
-                    search=".onFilterInvoices"/>
-            </Toolbar>
-        </headerToolbar>
+    ...
         <items>
             <ObjectListItem
                 title="{invoice>Quantity} x {invoice>ProductName}"
@@ -317,6 +292,7 @@ You should now see the detail page when you click an item in the list of invoice
 
 -   Define the routing configuration in the descriptor
 
+-   Initialize the router at the end of your `Component#init` function
 
 **Parent topic:**[Walkthrough Tutorial](Walkthrough_Tutorial_3da5f4b.md "In this tutorial we will introduce you to all major development paradigms of OpenUI5.")
 

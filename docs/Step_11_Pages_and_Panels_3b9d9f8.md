@@ -52,7 +52,6 @@ You can view and download all files at [Walkthrough - Step 11](https://sdk.openu
                      <Button
                         text="{i18n>showHelloButtonText}"
                         press=".onShowHello"/>
-
                      <Input
                         value="{/recipient/name}"
                         description="Hello {/recipient/name}"
@@ -65,7 +64,6 @@ You can view and download all files at [Walkthrough - Step 11](https://sdk.openu
       </pages>
    </App>
 </mvc:View>
-
 ```
 
 We put both the input field and the button inside a containing control called `sap/m/Page`. The page provides an aggregation to `0..N` other controls called `content`. It also displays the title attribute in a header section on top of the content. The page itself is placed into the `pages` aggregation of another control called `sap/m/App` which does the following important things for us:

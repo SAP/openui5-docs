@@ -44,7 +44,6 @@ You can view and download all files at [Walkthrough - Step 13](https://sdk.openu
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-
 	<Shell>
 		<App>
 			<pages>
@@ -55,17 +54,14 @@ You can view and download all files at [Walkthrough - Step 13](https://sdk.openu
 							class="sapUiResponsiveMargin"
 							width="auto">
 							<content>
-
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
 									class="sapUiSmallMarginEnd"/>
-
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
-
 								<Text
 									text="Hello {/recipient/name}"
 									class="sapUiSmallMargin"/>

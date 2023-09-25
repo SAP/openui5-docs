@@ -20,9 +20,7 @@ As you know OpenUI5 is all about HTML5. Let’s get started with building a firs
   
 **The browser shows the text "Hello World"**
 
-
-
-![](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png)
+![](images/loio1dd456361379431aab7e5bcdaaeff00f_LowRes.png "The browser shows the text "Hello World"")
 
 ***
 
@@ -64,8 +62,6 @@ You can view and download all files at [Walkthrough - Step 1](https://sdk.openui
     	<div>Hello World</div>
     </body>
     </html>
-    
-    
     ```
 
     > ### Note:  
@@ -85,7 +81,7 @@ You can view and download all files at [Walkthrough - Step 1](https://sdk.openui
       "sap.app": {
         "id": "ui5.walkthrough"
       }
-    
+    }
     ```
 
     > ### Note:  

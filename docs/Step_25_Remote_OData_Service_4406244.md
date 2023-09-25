@@ -85,7 +85,7 @@ The `ui5.yaml` configuration file was automatically generated in the app root fo
 
 ```
 {
-	"_version": "1.58.0",
+	...
 	"sap.app": {
 		...,
 		"dataSources": {

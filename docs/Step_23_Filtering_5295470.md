@@ -41,13 +41,11 @@ You can view and download all files at [Walkthrough - Step 23](https://sdk.openu
    controllerName="ui5.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <List
       id="invoiceList"
       class="sapUiResponsiveMargin"
       width="auto"
       items="{invoice>/Invoices}" >
-
       <headerToolbar>
          <Toolbar>
             <Title text="{i18n>invoiceListTitle}"/>
@@ -57,13 +55,7 @@ You can view and download all files at [Walkthrough - Step 23](https://sdk.openu
                search=".onFilterInvoices"/>
          </Toolbar>
       </headerToolbar>
-
-      <items>
-         <ObjectListItem>
-		…
-         </ObjectListItem/>
-      </items>
-   </List>
+      ...
 </mvc:View>
 ```
 
@@ -114,7 +106,7 @@ sap.ui.define([
 
 We load two new dependencies for the filtering. The filter object will hold our configuration for the filter action and the `FilterOperator` is a helper type that we need in order to specify the filter.
 
-In the `onFilterInvoices` function we construct a filter object from the search string that the user has typed in the search field. Event handlers always receive an event argument that can be used to access the parameters that the event provides. In our case the search field defines a parameter `query` that we access by calling `getParameter(“query”)` on the `oEvent` parameter.
+In the `onFilterInvoices` function we construct a filter object from the search string that the user has typed in the search field. Event handlers always receive an event argument that can be used to access the parameters that the event provides. In our case the search field defines a parameter `query` that we access by calling `getParameter("query")` on the `oEvent` parameter.
 
 If the query is not empty, we add a new filter object to the still empty array of filters. However, if the query is empty, we filter the binding with an empty array. This makes sure that we see all list elements again. We could also add more filters to the array, if we wanted to search more than one data field. In our example, we just search in the `ProductName` path and specify a filter operator that will search for the given query string.
 

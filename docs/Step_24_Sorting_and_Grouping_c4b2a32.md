@@ -41,7 +41,6 @@ You can view and download all files at [Walkthrough - Step 24](https://sdk.openu
    controllerName="ui5.walkthrough.controller.InvoiceList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <List
       id="invoiceList"
       class="sapUiResponsiveMargin"
@@ -52,17 +51,12 @@ You can view and download all files at [Walkthrough - Step 24](https://sdk.openu
             path : 'ProductName' 
          }
       }" >
-      <headerToolbar>
-         ...
-      </headerToolbar>
-      <items>
-         ...
-      </items>
+      ...
    </List>
 </mvc:View>
 ```
 
-We add a declarative sorter to our binding syntax. As usual, we transform the simple binding syntax to the object notation, specify the path to the data, and now add an additional `sorter` property. We specify the data path by which the invoice items should be sorted, the rest is done automatically. By default, the sorting is ascending, but you could also add a property `descending` with the value `true` inside the sorter property to change the sorting order.
+We add a declarative sorter to our binding syntax. As usual, we transform the simple binding syntax to the object notation, specify the path to the data, and now add an additional `sorter` property. We specify the data path by which the invoice items should be sorted, and UI5 will take care of the rest. By default, the sorting is ascending, but you could also add a property `descending` with the value `true` inside the sorter property to change the sorting order.
 
 If we run the app now we can see a list of invoices sorted by the name of the products.
 
@@ -72,34 +66,25 @@ If we run the app now we can see a list of invoices sorted by the name of the pr
 
 ```xml
 <mvc:View
-controllerName="ui5.walkthrough.controller.InvoiceList"
-xmlns="sap.m"
-xmlns:mvc="sap.ui.core.mvc">
+    controllerName="ui5.walkthrough.controller.InvoiceList"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <List
+        id="invoiceList"
+        headerText="{i18n>invoiceListTitle}"
+        class="sapUiResponsiveMargin"
+        width="auto"
+        items="{
+            path : 'invoice>/Invoices',
+            sorter : {
+                path : 'ShipperName',
+                group : true
+            }
 
-<List
-		id="invoiceList"
-		class="sapUiResponsiveMargin"
-		width="auto"
-		items="{
-			path : 'invoice>/Invoices',
-			sorter : {
-				path : 'ShipperName',
-				group : true
-			}
-		}">
-	<headerToolbar>
-		<Toolbar>
-			<Title text="{i18n>invoiceListTitle}"/>
-			<ToolbarSpacer/>
-			<SearchField width="50%" search=".onFilterInvoices"/>
-		</Toolbar>
-	</headerToolbar>
-	<items>
-		…
-	</items>
-</List>
+        }">
+        ...
+    </List>
 </mvc:View>
-
 ```
 
 We modify the view and add a different sorter, or better; we change the sorter and set the attribute `group` to true. We also specify the path to the `ShipperName` data field. This groups the invoice items by the shipping company.

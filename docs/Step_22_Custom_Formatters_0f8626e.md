@@ -105,13 +105,11 @@ To load our formatter functions, we have to add it to the `InvoiceList.controlle
     controllerName="ui5.walkthrough.controller.InvoiceList"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
-    
     <List
         headerText="{i18n>invoiceListTitle}"
         class="sapUiResponsiveMargin"
         width="auto"
         items="{invoice>/Invoices}">
-        
         <items>
             <ObjectListItem
                 title="{invoice>Quantity} x {invoice>ProductName}"
@@ -127,7 +125,6 @@ To load our formatter functions, we have to add it to the `InvoiceList.controlle
                 }"
                 numberUnit="{view>/currency}"
                 numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
-
                 <firstStatus>
                     <ObjectStatus
                         text="{

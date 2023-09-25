@@ -82,7 +82,6 @@ In an additional class `myCustomText` we define a bold text and set the display 
 		}
 	  ]
 	}
-
   }
 ```
 
@@ -98,7 +97,6 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
-
 	<Shell>
 		<App class="myAppDemoWT">
 			<pages>
@@ -109,17 +107,14 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 							class="sapUiResponsiveMargin"
 							width="auto">
 							<content>
-
 								<Button
 									text="{i18n>showHelloButtonText}"
 									press=".onShowHello"
 									class="myCustomButton"/>
-
 								<Input
 									value="{/recipient/name}"
 									valueLiveUpdate="true"
 									width="60%"/>
-
 								<FormattedText
 									htmlText="Hello {/recipient/name}"
 									class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
@@ -131,7 +126,6 @@ In the `resources` section of the `sap.ui5` namespace, additional resources for 
 		</App>
 	</Shell>
 </mvc:View>
-
 ```
 
 The app control is configured with our custom namespace class `myAppDemoWT`. This class has no styling rules set and is used in the definition of the CSS rules to define CSS selectors that are only valid for this app.
