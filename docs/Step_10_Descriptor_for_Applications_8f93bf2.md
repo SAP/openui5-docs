@@ -154,7 +154,7 @@ The content of the `manifest.json` file is a configuration object in JSON format
 		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-resourceroots='{
 			"ui5.walkthrough": "./"
-		}'
+		}'>
 	</script>
 </head>
 <body class="sapUiBody" id="content">

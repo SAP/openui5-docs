@@ -35,9 +35,7 @@ You can view and download all files at [Walkthrough - Step 36](https://sdk.openu
 
 ```js
 ...
-		init() {
-...		},
-...
+
 		getContentDensityClass() {
 			return Device.support.touch ? "sapUiSizeCozy" : "sapUiSizeCompact";
 		}
