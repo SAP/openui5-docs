@@ -64,7 +64,6 @@ sap.ui.define([
       }
    });
 });
-
 ```
 
 We add an `onInit` function to the controller. This is one of OpenUI5’s lifecycle methods that is invoked by the framework when the controller is created, similar to the constructor of a control.
@@ -84,18 +83,15 @@ The message toast is just showing the static "Hello World" message. We will show
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <Button
       text="Say Hello"
       press=".onShowHello"/>
-
    <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"
       valueLiveUpdate="true"
       width="60%"/>
 </mvc:View>
-
 ```
 
 We add an `sap/m/Input` control to the view. With this, the user can enter a recipient for the greetings. We bind its value to a OpenUI5 model by using the declarative binding syntax for XML views:

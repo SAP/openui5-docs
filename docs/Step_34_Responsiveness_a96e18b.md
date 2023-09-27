@@ -123,7 +123,6 @@ You can view and download all files at [Walkthrough - Step 34](https://sdk.openu
 			</ColumnListItem>
 		</items>
 	</Table>
-
 </mvc:View>
 ```
 

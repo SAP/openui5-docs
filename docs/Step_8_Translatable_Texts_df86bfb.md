@@ -107,18 +107,15 @@ The resource bundle can be accessed with the `getResourceBundle` method of a `Re
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-
    <Button
       text="{i18n>showHelloButtonText}"
       press=".onShowHello"/>
-
    <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"
       valueLiveUpdate="true"
       width="60%"/>
 </mvc:View>
-
 ```
 
 In the XML view, we use data binding to connect the button text to the `showHelloButtonText` property in the `i18n` model. A resource bundle is a flat structure, therefore the preceding slash \(/\) can be omitted for the path.

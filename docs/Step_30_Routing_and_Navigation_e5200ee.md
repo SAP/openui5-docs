@@ -75,7 +75,6 @@ You can view and download all files at [Walkthrough - Step 30](https://sdk.openu
         }
       }
     }
-
   }
 }
 ```
@@ -173,7 +172,6 @@ We move the content of the previous steps from the `App` view to a new `Overview
             class="myAppDemoWT"
             id="app"/>
     </Shell>
-
 </mvc:View>
 ```
 
