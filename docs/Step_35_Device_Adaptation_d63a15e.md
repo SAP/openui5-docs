@@ -20,7 +20,7 @@ We now configure the visibility and properties of controls based on the device t
   
 **On phone devices, the panel is collapsed to save screen space and a button is hidden**
 
-![](images/loio3f97022c7af4435fa94a2bed05f09376_LowRes.png "On phone devices, the panel is collapsed to save screen space and a button is
+![](images/0b0d57e04e574d7fbc4b10395e6cb260.image "On phone devices, the panel is collapsed to save screen space and a button is
 					hidden")
 
 ***
@@ -139,12 +139,10 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:wt="ui5.walkthrough.control">
-
     <Page
         title="{i18n>detailPageTitle}"
         showNavButton="true"
         navButtonPress=".onNavBack">
-
         <ObjectHeader
             responsive="true"
             fullScreenOptimized="true"
@@ -161,12 +159,10 @@ In the `app` component we add a dependency to `sap.ui.Device` and initialize the
             numberUnit="{view>/currency}"
             intro="{invoice>ShipperName}"
             title="{invoice>ProductName}">
-
             <attributes>
                 <ObjectAttribute
                     title="{i18n>quantityTitle}"
                     text="{invoice>Quantity}"/>
-
                 <ObjectAttribute
                     title="{i18n>dateTitle}"
                     text="{
