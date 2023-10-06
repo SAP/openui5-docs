@@ -417,6 +417,22 @@ New Unit Key
 <tr>
 <td valign="top">
 
+`mass-metric-ton`
+
+
+
+</td>
+<td valign="top">
+
+`mass-tonne`
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `pressure-millimeter-of-mercury`
 
 
@@ -473,22 +489,6 @@ New Unit Key
 <td valign="top">
 
 `torque-pound-force-foot`
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`mass-metric-ton`
-
-
-
-</td>
-<td valign="top">
-
-`mass-tonne`
 
 
 
