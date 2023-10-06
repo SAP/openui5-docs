@@ -61,7 +61,7 @@ Version 2
 </td>
 <td valign="top">
 
-\>=1.30, as introduced with 1.58, loads the
+\>=1.30
 
 
 
@@ -153,7 +153,7 @@ Version 6
 </td>
 <td valign="top">
 
-, as introduced with\>=1.42
+\>=1.42
 
 
 
@@ -491,7 +491,7 @@ Version 20
 <tr>
 <td valign="top">
 
- 
+Version 21
 
 
 
@@ -1418,7 +1418,7 @@ For more information on the new fields introduced in each version, check out [Mi
 
 ### Manifest First Function
 
-The component factory function [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create)`manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
+The component factory function [`Component.create`](https://sdk.openui5.org/api/sap.ui.core.Component%23methods/sap.ui.core.Component.create), as introduced with 1.58, loads the `manifest.json` by default before the component instance is created. With this, you can preload the dependencies \(libraries and components\) and, thus, improve the performance for loading the component. The preload is also available for models, which can be flagged for preload during component loading.
 
 The `manifest` option allows you to configure when and from where the descriptor is loaded:
 
@@ -2497,6 +2497,8 @@ Specifies provided commands with a unique key/alias. Contains:
 
 -   `shortcut`: String that describes a key combination. When the user presses the key combination, the command is triggered.
 
+
+The name of the command that contains the `shortcut` definition acts as a prerequisite for using the `command` property of the [sap/ui/core/CommandExecution](https://sdk.openui5.org/api/sap.ui.core.CommandExecution) module.
 
 
 
