@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f17d636f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f17d636f4d1014b6dd926db0e91070)</div>
 
-## Enabling Declarative Support
+## Enabling Declarative Support \(deprecated\)
 
 Declarative support needs to be enabled in the HTML document by adding an attribute to the OpenUI5 bootstrap script tag.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 This is done as follows:
 

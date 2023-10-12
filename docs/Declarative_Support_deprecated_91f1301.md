@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f130196f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f130196f4d1014b6dd926db0e91070)</div>
 
-## Declarative Support
+## Declarative Support \(deprecated\)
 
 Declarative programming allows you to define the UI within the HTML document as elements.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 For this, OpenUI5 provides the `sap.ui.core.plugin.DeclarativeSupport` plugin that can be included either as required or marked as a module in the initial bootstrap script tag. The plugin parses the document and converts its tags with special attributes into OpenUI5 controls.
 
@@ -197,29 +200,29 @@ Adds a style class to the control
 </tr>
 </table>
 
--   **[Enabling Declarative Support](Enabling_Declarative_Support_91f17d6.md "Declarative support needs to be enabled in the HTML document by adding an attribute
+-   **[Enabling Declarative Support \(deprecated\)](Enabling_Declarative_Support_deprecated_91f17d6.md "Declarative support needs to be enabled in the HTML document by adding an attribute
 		to the OpenUI5 bootstrap script
 		tag.")**  
 Declarative support needs to be enabled in the HTML document by adding an attribute to the OpenUI5 bootstrap script tag.
--   **[Defining Controls](Defining_Controls_91f1539.md "For declarative support, define the controls in your HTML document as HTML
+-   **[Defining Controls \(deprecated\)](Defining_Controls_deprecated_91f1539.md "For declarative support, define the controls in your HTML document as HTML
 		tags.")**  
 For declarative support, define the controls in your HTML document as HTML tags.
--   **[Declarative Support: Properties](Declarative_Support_Properties_91f1619.md "For setting a property, define the property as a data attribute of the corresponding
+-   **[Declarative Support: Properties \(deprecated\)](Declarative_Support_Properties_deprecated_91f1619.md "For setting a property, define the property as a data attribute of the corresponding
 		HTML tag.")**  
 For setting a property, define the property as a data attribute of the corresponding HTML tag.
--   **[Declarative Support: Associations](Declarative_Support_Associations_91f13d9.md "An association is defined as a data attribute of the HTML tag. Instead of passing the
+-   **[Declarative Support: Associations \(deprecated\)](Declarative_Support_Associations_deprecated_91f13d9.md "An association is defined as a data attribute of the HTML tag. Instead of passing the
 		reference to another control you define the ID of another control.")**  
 An association is defined as a data attribute of the HTML tag. Instead of passing the reference to another control you define the ID of another control.
--   **[Declarative Support: Events](Declarative_Support_Events_91f15ad.md "The value of the event data attribute contains the name of a JavaScript function
+-   **[Declarative Support: Events \(deprecated\)](Declarative_Support_Events_deprecated_91f15ad.md "The value of the event data attribute contains the name of a JavaScript function
 		which will be used as callback once the event has been triggered.")**  
 The value of the event data attribute contains the name of a JavaScript function which will be used as callback once the event has been triggered.
--   **[Declarative Support: Aggregations](Declarative_Support_Aggregations_91f136c.md "Aggregation support is required to allow nested controls for layout containers and/or
-		add elements to a control, for example, for ComboBox.")**  
+-   **[Declarative Support: Aggregations \(deprecated\)](Declarative_Support_Aggregations_deprecated_91f136c.md "Aggregation support is required to allow nested controls for layout containers and/or add elements to a control, for example, for
+			ComboBox.")**  
 Aggregation support is required to allow nested controls for layout containers and/or add elements to a control, for example, for `ComboBox`.
--   **[Declarative Support: Data Binding](Declarative_Support_Data_Binding_020990b.md "Declarative support in OpenUI5 also enables data
+-   **[Declarative Support: Data Binding \(deprecated\)](Declarative_Support_Data_Binding_deprecated_020990b.md "Declarative support in OpenUI5 also enables data
 		binding.")**  
 Declarative support in OpenUI5 also enables data binding.
--   **[Compiling Declarative HTML](Compiling_Declarative_HTML_91f1454.md "OpenUI5 provides a plugin for controls that are defined as declarative markup on
+-   **[Compiling Declarative HTML \(deprecated\)](Compiling_Declarative_HTML_deprecated_91f1454.md "OpenUI5 provides a plugin for controls that are defined as declarative markup on
 		startup time.")**  
 OpenUI5 provides a plugin for controls that are defined as declarative markup on startup time.
 

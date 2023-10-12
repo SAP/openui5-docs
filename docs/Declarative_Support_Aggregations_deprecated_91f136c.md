@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f136c76f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f136c76f4d1014b6dd926db0e91070)</div>
 
-## Declarative Support: Aggregations
+## Declarative Support: Aggregations \(deprecated\)
 
 Aggregation support is required to allow nested controls for layout containers and/or add elements to a control, for example, for `ComboBox`.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 OpenUI5 uses the control's default aggregation as default. If, for example, the panel control has the default aggregation content, all child elements of the `data-sap-ui-type="sap.ui.commons.Panel"` element are added to this aggregation:
 

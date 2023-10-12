@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/020990b1210e47c89a58a4f4e790c476) | [demo kit latest release](https://sdk.openui5.org/topic/020990b1210e47c89a58a4f4e790c476)</div>
 
-## Declarative Support: Data Binding
+## Declarative Support: Data Binding \(deprecated\)
 
 Declarative support in OpenUI5 also enables data binding.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 Just add the model path in curly brackets and bind the model to the control \(or parent control\):
 

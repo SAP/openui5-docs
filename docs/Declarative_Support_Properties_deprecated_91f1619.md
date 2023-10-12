@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f161996f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f161996f4d1014b6dd926db0e91070)</div>
 
-## Declarative Support: Properties
+## Declarative Support: Properties \(deprecated\)
 
 For setting a property, define the property as a data attribute of the corresponding HTML tag.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 To add text to the button, add the attribute `data-text` to its HTML tag:
 

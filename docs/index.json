@@ -8,12 +8,12 @@
 					"What's New in OpenUI5 1.119": {
 						"link": "What_s_New_in_OpenUI5_1_119_0b1903a.md"
 					},
-					"What's New in OpenUI5 1.118": {
-						"link": "What_s_New_in_OpenUI5_1_118_3eecbde.md"
-					},
 					"Previous Versions": {
 						"link": "Previous_Versions_6660a59.md",
 						"items": {
+							"What's New in OpenUI5 1.118": {
+								"link": "What_s_New_in_OpenUI5_1_118_3eecbde.md"
+							},
 							"What's New in OpenUI5 1.117": {
 								"link": "What_s_New_in_OpenUI5_1_117_029d3b4.md"
 							},
@@ -1568,32 +1568,32 @@
 							}
 						}
 					},
-					"Declarative Support": {
-						"link": "Declarative_Support_91f1301.md",
+					"Declarative Support \\(deprecated\\)": {
+						"link": "Declarative_Support_deprecated_91f1301.md",
 						"items": {
-							"Enabling Declarative Support": {
-								"link": "Enabling_Declarative_Support_91f17d6.md"
+							"Enabling Declarative Support \\(deprecated\\)": {
+								"link": "Enabling_Declarative_Support_deprecated_91f17d6.md"
 							},
-							"Defining Controls": {
-								"link": "Defining_Controls_91f1539.md"
+							"Defining Controls \\(deprecated\\)": {
+								"link": "Defining_Controls_deprecated_91f1539.md"
 							},
-							"Declarative Support: Properties": {
-								"link": "Declarative_Support_Properties_91f1619.md"
+							"Declarative Support: Properties \\(deprecated\\)": {
+								"link": "Declarative_Support_Properties_deprecated_91f1619.md"
 							},
-							"Declarative Support: Associations": {
-								"link": "Declarative_Support_Associations_91f13d9.md"
+							"Declarative Support: Associations \\(deprecated\\)": {
+								"link": "Declarative_Support_Associations_deprecated_91f13d9.md"
 							},
-							"Declarative Support: Events": {
-								"link": "Declarative_Support_Events_91f15ad.md"
+							"Declarative Support: Events \\(deprecated\\)": {
+								"link": "Declarative_Support_Events_deprecated_91f15ad.md"
 							},
-							"Declarative Support: Aggregations": {
-								"link": "Declarative_Support_Aggregations_91f136c.md"
+							"Declarative Support: Aggregations \\(deprecated\\)": {
+								"link": "Declarative_Support_Aggregations_deprecated_91f136c.md"
 							},
-							"Declarative Support: Data Binding": {
-								"link": "Declarative_Support_Data_Binding_020990b.md"
+							"Declarative Support: Data Binding \\(deprecated\\)": {
+								"link": "Declarative_Support_Data_Binding_deprecated_020990b.md"
 							},
-							"Compiling Declarative HTML": {
-								"link": "Compiling_Declarative_HTML_91f1454.md"
+							"Compiling Declarative HTML \\(deprecated\\)": {
+								"link": "Compiling_Declarative_HTML_deprecated_91f1454.md"
 							}
 						}
 					},
@@ -2605,6 +2605,9 @@
 					},
 					"Tables: Which One Should I Choose?": {
 						"link": "Tables_Which_One_Should_I_Choose_148892f.md"
+					},
+					"Layouts: Which One Should I Choose?": {
+						"link": "Layouts_Which_One_Should_I_Choose_d1d8eb0.md"
 					},
 					"sap.f": {
 						"link": "sap_f_0b455b0.md",

@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f1539c6f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f1539c6f4d1014b6dd926db0e91070)</div>
 
-## Defining Controls
+## Defining Controls \(deprecated\)
 
 For declarative support, define the controls in your HTML document as HTML tags.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 For this, use the following data attribute that defines the OpenUI5 control that should be rendered in the HTML tag by using the HTML tag as its UI area:
 

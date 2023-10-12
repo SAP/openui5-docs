@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f15ad16f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f15ad16f4d1014b6dd926db0e91070)</div>
 
-## Declarative Support: Events
+## Declarative Support: Events \(deprecated\)
 
 The value of the event data attribute contains the name of a JavaScript function which will be used as callback once the event has been triggered.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 The following code snippet gives an example how a change of `Input` results in an alert with its new value when the focus is lost:
 

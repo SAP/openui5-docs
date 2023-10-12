@@ -34,10 +34,6 @@ You are familiar with OpenUI5 app development, but do you want to learn how to d
 		this release OpenUI5 is upgraded
 		from version 1.118 to 1.119.")**  
 With this release OpenUI5 is upgraded from version 1.118 to 1.119.
--   **[What's New in OpenUI5 1.118](What_s_New_in_OpenUI5_1_118_3eecbde.md "With
-		this release OpenUI5 is upgraded
-		from version 1.117 to 1.118.")**  
-With this release OpenUI5 is upgraded from version 1.117 to 1.118.
 -   **[Previous Versions](Previous_Versions_6660a59.md "")**  
 
 -   **[Change Log](Change_Log_a6a78b7.md "")**  
