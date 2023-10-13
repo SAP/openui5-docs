@@ -48,7 +48,7 @@ We add a new folder `unit` under the `test` folder and a `model` subfolder where
 ```js
 sap.ui.define([
 	"ui5/walkthrough/model/formatter",
-	"sap/ui/model/resource/ResourceModel"
+	"sap/ui/model/resource/ResourceModel",
 ], (formatter, ResourceModel) => {
 	"use strict";
 
