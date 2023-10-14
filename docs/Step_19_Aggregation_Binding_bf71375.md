@@ -83,7 +83,7 @@ You can view and download all files at [Walkthrough - Step 19](https://sdk.openu
 }
 ```
 
-The `invoices` file simply contains five invoices in a JSON format that we can use to bind controls against them in the app. JSON is a very lightweight format for storing data and can be directly used as a data source for OpenUI5 applications.
+The `Invoices.json` file simply contains five invoices in a JSON format that we can use to bind controls against them in the app. JSON is a very lightweight format for storing data and can be directly used as a data source for OpenUI5 applications.
 
 ***
 
