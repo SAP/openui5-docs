@@ -785,7 +785,7 @@
             -   [Semantic Page \(sap.f\)](Semantic_Page_sap_f_47dc868.md)
             -   [Semantic Page \(sap.m\)](Semantic_Page_sap_m_4a97a07.md)
         -   [Tables: Which One Should I Choose?](Tables_Which_One_Should_I_Choose_148892f.md)
-        -   [Layouts: Which One Should I Choose?](Layouts_Which_One_Should_I_Choose_d1d8eb0.md)
+        -   [Forms: Which One Should I Choose?](Forms_Which_One_Should_I_Choose_d1d8eb0.md)
         -   [sap.f](sap_f_0b455b0.md)
             -   [Building an App with the Flexible Column Layout and Related Classes](Building_an_App_with_the_Flexible_Column_Layout_and_Related_Classes_59a0e11.md)
                 -   [Flexible Column Layout](Flexible_Column_Layout_2abdefb.md)

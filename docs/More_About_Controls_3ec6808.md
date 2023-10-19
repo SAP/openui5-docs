@@ -40,8 +40,10 @@ The semantic page controls help the app designers and developers implement and c
 		different table controls that are suitable for different use cases. The table below outlines
 		which table controls are available, and what features are supported by each one.")**  
 The libraries provided by OpenUI5 contain various different table controls that are suitable for different use cases. The table below outlines which table controls are available, and what features are supported by each one.
--   **[Layouts: Which One Should I Choose?](Layouts_Which_One_Should_I_Choose_d1d8eb0.md "To display and edit data, we offer a number of form controls. ")**  
-To display and edit data, we offer a number of form controls.
+-   **[Forms: Which One Should I Choose?](Forms_Which_One_Should_I_Choose_d1d8eb0.md "To display and edit data in a form, OpenUI5 offers various form
+		controls that are suitable for different use cases. This documentation outlines which form
+		controls are available, and what features are supported by each one. ")**  
+To display and edit data in a form, OpenUI5 offers various form controls that are suitable for different use cases. This documentation outlines which form controls are available, and what features are supported by each one.
 -   **[sap.f](sap_f_0b455b0.md "This library contains controls that were built based on the SAP Fiori 2.0 design
 		guidelines.")**  
 This library contains controls that were built based on the SAP Fiori 2.0 design guidelines.
