@@ -335,6 +335,8 @@ Use `sap.ui.comp.smartform.SmartForm` if you want to do the following:
 
 #### Do not nest layouts and forms
 
+Nesting can lead to undesired issues
+
 ***
 
 #### Do not use other forms or layout controls

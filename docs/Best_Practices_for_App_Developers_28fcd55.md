@@ -26,11 +26,6 @@ Hover over the shapes to find out more about some key benefits of OpenUI5.
 
 ![](images/loioba827f7fdaff4db98ab12d01a431ba62_LowRes.png)
 
-***
-
-> ### Tip:  
-> All demo apps, templates, and tutorials in the OpenUI5 Demo Kit follow these recommendations.
-
 -   **[Load Only What You Really Need](Load_Only_What_You_Really_Need_e8fca3e.md "The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies
 		and remove unused libraries and classes from your code.")**  
 The amount of resources and data that your app loads will directly affect the performance of your app. You should declare all dependencies and remove unused libraries and classes from your code.
