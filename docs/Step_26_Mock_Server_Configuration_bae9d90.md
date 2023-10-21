@@ -199,9 +199,8 @@ For simplicity, we have removed all content from the original Northwind OData me
 
 ```js
 sap.ui.define([
-	"sap/ui/core/util/MockServer",
-	"sap/base/util/UriParameters"
-], (MockServer, UriParameters) => {
+	"sap/ui/core/util/MockServer"
+], (MockServer) => {
 	"use strict";
 
 	return {
@@ -211,12 +210,12 @@ sap.ui.define([
 				rootUri: sap.ui.require.toUrl("ui5/walkthrough") + "/V2/Northwind/Northwind.svc/"
 			});
 
-			const oUriParameters = new UriParameters(window.location.href);
+			const oUrlParams = new URLSearchParams(window.location.search);
 
 			// configure mock server with a delay
 			MockServer.config({
 				autoRespond: true,
-				autoRespondAfter: oUriParameters.get("serverDelay") || 500
+				autoRespondAfter: oUrlParams.get("serverDelay") || 500
 			});
 
 			// simulate

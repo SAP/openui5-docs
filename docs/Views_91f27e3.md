@@ -41,10 +41,8 @@ A view can also be defined as a [typed view](Typed_View_e6bb33d.md), representin
 			.view.xml or as an XML string. The file name and the folder structure
 		together specify the name of the view that equals the OpenUI5 module name. ")**  
 The XML view type is defined in an XML file. The file name either ends with `.view.xml` or as an XML string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name.
--   **[JSON View](JSON_View_91f2852.md "The JSON view type is defined in a file. The file name has to either end with
-			.view.json or as a JSON string. The file name and the folder structure
-		together specify the name of the view that equals the OpenUI5 module name within the
-		modularization concept.")**  
+-   **[JSON View \(deprecated\)](JSON_View_deprecated_91f2852.md "The JSON view type is defined in a file. The file name has to either end with .view.json or as a JSON string. The file
+		name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.")**  
 The JSON view type is defined in a file. The file name has to either end with `.view.json` or as a JSON string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.
 -   **[Typed View](Typed_View_e6bb33d.md "A view can also be defined by extending the sap.ui.core.mvc.View class. Such a view is referred to as a typed view. This
 		means the view definition represents its own view class.")**  

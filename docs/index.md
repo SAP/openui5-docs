@@ -342,7 +342,7 @@ OpenUI5 Version for the OpenUI5 Demo Kit
                     -   [Preprocessing XML Views](Preprocessing_XML_Views_48b81b9.md)
                     -   [XML View Cache](XML_View_Cache_3d85d5e.md)
                     -   [Require Modules in XML View and Fragment](Require_Modules_in_XML_View_and_Fragment_b11d853.md)
-                -   [JSON View](JSON_View_91f2852.md)
+                -   [JSON View \(deprecated\)](JSON_View_deprecated_91f2852.md)
                 -   [Typed View](Typed_View_e6bb33d.md)
                 -   [Instantiating Views](Instantiating_Views_68d0e58.md)
                 -   [View Cloning](View_Cloning_a575619.md)

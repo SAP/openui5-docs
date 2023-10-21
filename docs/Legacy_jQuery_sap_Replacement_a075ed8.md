@@ -1715,7 +1715,7 @@ Simple Replacement
 </td>
 <td valign="top">
 
-`sap/base/util/UriParameters` 
+`URLSearchParams` 
 
 
 
@@ -1730,8 +1730,8 @@ Changed to class for instantiation
 <td valign="top">
 
 ```
-var oUriParameters = new UriParameters(window.location.href);
-oUriParameters.get("sap-ui-debug");
+var oUrlParams = new URLSearchParams(window.location.search);
+oUrlParams.get("sap-ui-debug");
 ```
 
 

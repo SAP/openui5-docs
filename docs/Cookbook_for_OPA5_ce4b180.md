@@ -92,7 +92,7 @@ For more details, see the *API Reference* for [`Opa5`](https://sdk.openui5.org/a
 
 ### URL Parameters
 
-As of version 1.48, OPA supports overwriting global configuration parameters for a single execution from URL. On startup, OPA parses `window.location.href` and extracts all search parameters starting with 'opa'. The prefix is removed and the resulting string has its first character changed to lower case. For example, the `?opaExecutionDelay=600` string in a URL sets the value of `executionDelay` to 600 ms. All OPA config parameters of primitive string and number types that are documented in `Opa.resetConfig()` could be overwritten.
+As of version 1.48, OPA supports overwriting global configuration parameters for a single execution from URL. On startup, OPA parses `window.location.search` and extracts all search parameters starting with 'opa'. The prefix is removed and the resulting string has its first character changed to lower case. For example, the `?opaExecutionDelay=600` string in a URL sets the value of `executionDelay` to 600 ms. All OPA config parameters of primitive string and number types that are documented in `Opa.resetConfig()` could be overwritten.
 
 All URL parameters that do not start with 'opa' are considered relevant for the application being tested and are passed to it. Application parameters from a URL always overwrite the application parameters provided in `Opa5.extendConfig()`.
 

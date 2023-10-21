@@ -8,9 +8,12 @@
 
 view on: [demo kit nightly build](https://sdk.openui5.org/nightly/#/topic/91f285256f4d1014b6dd926db0e91070) | [demo kit latest release](https://sdk.openui5.org/topic/91f285256f4d1014b6dd926db0e91070)</div>
 
-## JSON View
+## JSON View \(deprecated\)
 
 The JSON view type is defined in a file. The file name has to either end with `.view.json` or as a JSON string. The file name and the folder structure together specify the name of the view that equals the OpenUI5 module name within the modularization concept.
+
+> ### Caution:  
+> Deprecated as of UI5 version 1.120, replaced by [XML View](XML_View_91f2928.md).
 
 For the file `resources/sap/hcm/Address.view.json`, the view name is `sap.hcm.Address`. The application uses this view name for displaying an instance of this view.
 
