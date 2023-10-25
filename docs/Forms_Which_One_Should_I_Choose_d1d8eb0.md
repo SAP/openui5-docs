@@ -79,7 +79,7 @@ Flexibility
 <tr>
 <td valign="top">
 
-Complexity
+Simplicity
 
 
 
@@ -229,7 +229,7 @@ Controls inside are OData-bindable
 <tr>
 <td valign="top">
 
-Enables a granular structure of a form control
+Granular structure of a form control
 
 
 
@@ -335,11 +335,17 @@ Use `sap.ui.comp.smartform.SmartForm` if you want to do the following:
 
 #### Do not nest layouts and forms
 
-Nesting can lead to undesired issues
+Nesting can lead to undesired issues.
 
 ***
 
 #### Do not use other forms or layout controls
 
 Using any other form or layout control \(for example,  `HBox`\) as children of a form can lead to issues with accessibility or the responsive design. This applies to all form controls mentioned.
+
+***
+
+#### Use different form controls for different application requirements
+
+Use the `Form` for performance-critical applications and also to have the most flexible design.. Use the `SimpleForm` if you want the least complexity.
 

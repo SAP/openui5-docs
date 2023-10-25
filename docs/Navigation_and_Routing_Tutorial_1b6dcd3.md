@@ -45,11 +45,7 @@ Throughout this tutorial we will add features for navigating to pages and bookma
 > 
 > You can view and download the files for all steps in the Demo Kit at [Navigation and Routing](https://sdk.openui5.org/entity/sap.ui.core.tutorial.navigation). Copy the code to your workspace and make sure that the application runs by calling the `webapp/index.html` file. Depending on your development environment you might have to adjust resource paths and configuration entries.
 > 
-> For more information check the following sections of the tutorials overview page \(see [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md)\):
-> 
-> -   [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download)
-> 
-> -   [Adapting Code to Your Development Environment](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_adaptation)
+> For more information check the [Downloading Code for a Tutorial Step](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md#loio8b49fc198bf04b2d9800fc37fecbb218__tutorials_download) section of the tutorials overview page [Get Started: Setup, Tutorials, and Demo Apps](Get_Started_Setup_Tutorials_and_Demo_Apps_8b49fc1.md).
 
 1.  [Step 1: Set Up the Initial App](Step_1_Set_Up_the_Initial_App_df245bd.md "We start by setting up a simple app for this tutorial. The app displays mock data
 		only and mimics real OData back-end calls with the mock server as you have seen in the
